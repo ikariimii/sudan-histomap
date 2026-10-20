@@ -53,7 +53,7 @@ async function map(){const box=document.createElement('div');box.textContent='â€
  const more=document.createElement('p');more.className='mapmore';root.insertBefore(more,tip);
  const declutter=()=>{const placed=[],dropped=[];const R=svg.node().getBoundingClientRect(),sc=600/R.width;
   const clampX=(t,el,dx0)=>{const b=bb(el);let sh=0;if(b.x<R.left+2)sh=R.left+2-b.x;else if(b.x+b.w>R.right-2)sh=R.right-2-(b.x+b.w);if(sh)t.attr('dx',dx0+sh*sc)};
-  const inY=b=>b.y>=R.top+1&&b.y+b.h<=R.bottom-1,inX=b=>b.x>=R.left+1&&b.x+b.w<=R.right-1,shr=p=>p.mk?{x:p.x+3,y:p.y+3,w:p.w-6,h:p.h-6}:p,free=(b,wide)=>inX(b)&&inY(b)&&!placed.some(p=>ov(wide?p:shr(p),b));
+  const inY=b=>b.y>=R.top+1&&b.y+b.h<=R.bottom-1,inX=b=>b.x>=R.left+1&&b.x+b.w<=R.right-1,shr=(p,d)=>p.mk?{x:p.x+d,y:p.y+d,w:p.w-2*d,h:p.h-2*d}:p,free=(b,wide)=>inX(b)&&inY(b)&&!placed.some(p=>ov(wide===true?p:shr(p,wide==='bare'?6:3),b));
   const hit=(p,q,B)=>{for(let s=1;s<20;s++){const x=p[0]+(q[0]-p[0])*s/20,y=p[1]+(q[1]-p[1])*s/20;if(x>B.x+1&&x<B.x+B.w-1&&y>B.y+1&&y<B.y+B.h-1)return true}return false};
   const capT=g.selectAll('g.p:not(.gone)').nodes().map(n=>n.querySelector('text'));
   const main=capT.filter(t=>d3.select(t.parentNode).datum().main),ctx=capT.filter(t=>!d3.select(t.parentNode).datum().main);
@@ -63,10 +63,11 @@ async function map(){const box=document.createElement('div');box.textContent='â€
    if(!el.classList.contains('rl')){const KS=pri>=3?[0,1,-1,2,-2]:pri>2?[0,1,-1,2,-2,3,-3]:[0,1,-1],SD=pri>=3&&el.__dx0?[0,1]:[0];let ok=false;
     sides:for(const wide of (pri>=3?[true,false]:[false]))for(const k of KS)for(const sd of SD){const dx=sd?-el.__dx0:el.__dx0;t.attr('dx',dx).attr('dy',el.__dy0+k*lh).attr('text-anchor',sd?(el.__an0==='end'?'start':'end'):el.__an0);clampX(t,el,dx);if(free(bb(el),wide)){ok=true;break sides}}
     if(!ok){if(pri>=3){t.attr('dx',el.__dx0).attr('dy',el.__dy0).attr('text-anchor',el.__an0);clampX(t,el,el.__dx0)}else{t.style('display','none');dropped.push({n:el.textContent});return}}
+    if(pri>=3){const Gp=d3.select(el.parentNode);let l2=Gp.select('line.ld');const ddy=+t.attr('dy')-el.__dy0;if(Math.abs(ddy)>1){if(l2.empty())l2=Gp.insert('line','text').attr('class','ld').attr('stroke','#6b6257').attr('stroke-width',.8).attr('stroke-opacity',.7);const dxx=+t.attr('dx');l2.attr('x1',0).attr('y1',0).attr('x2',dxx-Math.sign(dxx)*2).attr('y2',+t.attr('dy')+(ddy<0?2:-12))}else l2.remove()}
     placed.push(bb(el));return}
    const G=d3.select(el.parentNode),mk=G.select('rect').node().getBoundingClientRect(),m=[mk.left+mk.width/2,mk.top+mk.height/2],flip=a=>a==='end'?'start':'end';let best=null;const tn=el.firstChild;if(el.__full==null)el.__full=tn.nodeValue;const vars=[el.__full,el.__full.replace(/\s*\([^)]*\)/,'')].filter((v,i,A)=>A.indexOf(v)===i);
-   cand:for(const v of vars){tn.nodeValue=v;for(const side of [0,1])for(const k of [0,1,-1,2,-2]){const dx=side?-el.__dx0:el.__dx0,dy=el.__dy0+k*lh;t.attr('dx',dx).attr('dy',dy).attr('text-anchor',side?flip(el.__an0):el.__an0);clampX(t,el,dx);if(!free(bb(el)))continue;
-    const c={dx:+t.attr('dx'),dy,an:t.attr('text-anchor'),moved:k!==0};const end=[m[0]+c.dx/sc,m[1]+(dy-4)/sc];if(!c.moved||!placed.some(p=>hit(m,end,p))){best=c;break cand}}}
+   cand:for(const v of vars){tn.nodeValue=v;for(const side of [0,1])for(const k of [0,1,-1,2,-2]){const dx=side?-el.__dx0:el.__dx0,dy=el.__dy0+k*lh;t.attr('dx',dx).attr('dy',dy).attr('text-anchor',side?flip(el.__an0):el.__an0);clampX(t,el,dx);if(!free(bb(el),'bare'))continue;
+    const c={dx:+t.attr('dx'),dy,an:t.attr('text-anchor'),moved:k!==0};const end=[m[0]+c.dx/sc,m[1]+(dy-4)/sc];if(!c.moved||!placed.some(p=>hit(m,end,shr(p,6)))){best=c;break cand}}}
    let ld=G.select('line.ld');if(!best){tn.nodeValue=el.__full;t.style('display','none');ld.remove();dropped.push({n:el.__nm||el.textContent,rep:!!el.__rep});return}
    t.attr('dx',best.dx).attr('dy',best.dy).attr('text-anchor',best.an);placed.push(bb(el));
    if(best.moved){if(ld.empty())ld=G.insert('line','text').attr('class','ld').attr('stroke',P.col).attr('stroke-width',.8).attr('stroke-opacity',.7);ld.attr('x1',0).attr('y1',0).attr('x2',best.dx-Math.sign(best.dx)*2).attr('y2',best.dy-4)}else ld.remove()});

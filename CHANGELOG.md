@@ -2,6 +2,10 @@
 
 Site changes for sudan.indomando.com (built from `web/` by `web/build.py`). Newest first.
 
+## 2026-10-20 (label margins)
+
+- The wider marker margin now applies only to main capital labels; point labels test against bare markers again, so El Malha and Mellit are labelled on the war map at 1440px with their REPORTED badges. Main capital labels moved off their dot's row get a short leader line (e.g. El Fasher).
+
 ## 2026-10-20 (reported entries)
 
 - Sourced extent entries with no geometry (e.g. Bir Mirgui and Jebel Eredi, UN PoE S/2025/239 paras 98 and 104) are never drawn; they are listed under the war map with their REPORTED badge, paragraph (`pages`) and `as_of` date. Unsourced entries without geometry are still listed as not drawn.
