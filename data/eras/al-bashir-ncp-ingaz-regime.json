@@ -31,27 +31,56 @@
    "lon": 32.56
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
- "regional_power": [],
+ "geopolitics_en": "Bashir took power in the 30 June 1989 coup, which the Arabic sources call the Islamic Movement's coup; the regime called itself al-Ingaz (Salvation). French Wikipedia says it was 'encouraged by the National Islamic Front' of Turabi (AR_WIKI_HIST; FR_WIKI_HIST; RU_WIKI_HIST). Bashir fell out with Turabi in 1999, came to rely on paramilitaries (the RSF, set up in 2011 and placed under the presidency in 2017), and was the only sitting head of state indicted by the ICC (ICG2019). The 2005 CPA (\"Naivasha\" in Arabic) split oil revenue and led to South Sudan's secession after a referendum with c.99% for independence (ES_ELCANO2011; RU_WIKI_HIST). Arabic sources blame the secession on the regime's insistence on a religious state (AR_SUDANILE2013). Darfur from 2003: German sources frame it as centre–periphery conflict, Chinese scholarship as a tribal resource conflict that 'cannot be blamed on China' (DE_BPB_KONFLIKT; ZH_YU2008; ZH_SUN2009). Ended by the April 2019 coup (ICG2019).",
+ "geopolitics_ar": "تولّى البشير السلطة بانقلاب 30 يونيو 1989، وتسمّيه المصادر العربية «انقلاب الحركة الإسلامية»، وسمّى النظام نفسه «الإنقاذ». وتقول ويكيبيديا الفرنسية إن الانقلاب «شجّعته الجبهة الإسلامية القومية» بزعامة الترابي. وانفصل البشير عن الترابي عام 1999، واعتمد على القوات شبه العسكرية (قوات الدعم السريع التي أُنشئت 2011 وأُلحقت بالرئاسة 2017)، وكان الرئيس الوحيد في الحكم الذي وجّهت إليه المحكمة الجنائية الدولية اتهاماً (مجموعة الأزمات 2019). وقسّم اتفاق السلام الشامل 2005 («نيفاشا» بالعربية) عائدات النفط، وأفضى إلى انفصال جنوب السودان بعد استفتاء صوّت فيه نحو 99% للاستقلال. وتحمّل المصادر العربية الانفصالَ إصرارَ النظام على الدولة الدينية. وفي دارفور منذ 2003: تصوغها المصادر الألمانية صراعاً بين المركز والأطراف، والأبحاث الصينية صراعاً قبلياً على الموارد «لا يمكن تحميل الصين مسؤوليته». وانتهى العهد بانقلاب أبريل 2019.",
+ "culture_dominance_en": "Islamisation from the early 1990s (RU_WIKI_HIST); sharia applied in the North only under the CPA (FR_WIKI_HIST). Sources disagree on naming: 'Islamic Movement coup'/Ingaz (ar), 'Islamic Republic' (fr, not an official name), 'al-Bashir regime / National Islamic Front' (ru).",
+ "culture_dominance_ar": "أسلمة منذ مطلع التسعينيات؛ وطُبّقت الشريعة في الشمال وحده بموجب اتفاق السلام الشامل. وتختلف المصادر في التسمية: «انقلاب الحركة الإسلامية/الإنقاذ» (بالعربية)، و«الجمهورية الإسلامية» (بالفرنسية، وليست تسمية رسمية)، و«نظام البشير/الجبهة الإسلامية القومية» (بالروسية).",
+ "economy_en": "Oil: with CNPC's help Sudan went from oil importer to exporter in 1999 (ZH_YU2008); investment came from China, Malaysia and India (DE_WIKI_HIST). RIA (2011): reserves of 6bn barrels and 510,000 bpd, mostly in the South, exported by pipeline across the North. Opposing readings: an Arabic opinion source says oil revenue never reached production and debt rose to USD 43bn (AR_SUDANILE2013), while German Wikipedia says militias carried out 'ethnic cleansing' to secure the oilfields. ICG: patronage spending on the security sector took by some estimates 70% of the budget, and the 2011 loss of southern oil deepened the slump that sparked the 2018–19 revolution.",
+ "economy_ar": "النفط: بمساعدة شركة البترول الوطنية الصينية تحوّل السودان عام 1999 من مستورد للنفط إلى مُصدِّر؛ وجاءت الاستثمارات من الصين وماليزيا والهند. ريا نوفوستي (2011): احتياطيات 6 مليارات برميل وإنتاج 510 آلاف برميل يومياً، معظمه في الجنوب ويُصدَّر عبر خط أنابيب يعبر الشمال. قراءات متعارضة: مصدر رأي عربي يقول إن عائد النفط لم يصل إلى الإنتاج وإن الديون ارتفعت إلى 43 مليار دولار، بينما تقول ويكيبيديا الألمانية إن ميليشيات نفّذت «تطهيراً عرقياً» لتأمين حقول النفط. مجموعة الأزمات: التهم الإنفاقُ القائم على المحسوبية على الأجهزة الأمنية بحسب بعض التقديرات 70% من الميزانية، وعمّق فقدانُ نفط الجنوب عام 2011 الركودَ الذي أشعل ثورة 2018–2019.",
+ "regional_power": [
+  {
+   "actor": "Government of Sudan / NCP",
+   "score": null,
+   "flag": "no source gives a comparable measure of power"
+  },
+  {
+   "actor": "RSF",
+   "score": null,
+   "flag": "ICG2019 calls Hemedti 'the most powerful man in the security forces' (2019) – qualitative, after the era; not scored"
+  }
+ ],
  "sources": [
+  "ICG2019",
+  "AR_WIKI_HIST",
+  "AR_SUDANILE2013",
+  "DE_WIKI_HIST",
+  "DE_BPB_KONFLIKT",
+  "ES_ELCANO2011",
+  "FR_WIKI_HIST",
+  "RU_WIKI_HIST",
+  "RU_RIA_2011",
+  "ZH_YU2008",
+  "ZH_SUN2009",
   "HD2011",
   "WP:Omar_al-Bashir",
   "WP:War_in_Darfur",
   "WP:Comprehensive_Peace_Agreement"
  ],
  "source_langs": [
-  "en"
+  "ar",
+  "de",
+  "en",
+  "es",
+  "fr",
+  "ru",
+  "zh"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "Several lens sources are Wikipedia or opinion pieces (AR_SUDANILE2013 is a Communist Party historian's opinion article); academic Arabic and Western monographs still needed",
+  "ZH_YU2008/ZH_SUN2009 were read through the search index's full text; a direct PDF fetch was not possible (lens_zh flag)",
+  "The 43bn debt and 510,000 bpd figures are single-source and unverified",
+  "no source gives a comparable measure of power",
+  "ICG2019 calls Hemedti 'the most powerful man in the security forces' (2019) – qualitative, after the era; not scored"
  ],
- "curated": false
+ "curated": true
 }
