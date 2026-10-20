@@ -139,6 +139,8 @@ const SPLITS={'meroe-fall':{dom:[200,420],ticks:[200,250,270,300,350,400],band:[
      {t:350,l:['350 CE: PRC embassy page (not an academic source): Aksum destroyed Kush','350م: صفحة للسفارة الصينية (ليست مصدراً أكاديمياً): أكسوم قضت على كوش'],src:'ZH_EMB_HIST2020',lang:'zh',dy:1}]}],
   body:[['Some scholars (e.g. Edwards 2011) argue against a single external cause. The safest summary: Meroe ended in the 4th century CE, and the cause is debated.','ويعارض بعض الباحثين (مثل إدواردز 2011) تفسير الزوال بسبب خارجي واحد. الخلاصة: زالت مروي في القرن الرابع الميلادي، وسبب زوالها موضع جدل.']],
   srcs:['FR_MUSEE_MEROE','GHA2','ZH_EMB_HIST2020','EDWARDS2011']},
+ // Stamp: set factChecked:1 only with a recorded Historian fact-check PASS for this card (AR stamp text pending native review).
+ // kerma-start: social/factcheck-drafts-ep1-4.md Ep2 tweet 4 = WRONG as written (fix given), no re-check recorded -> keep 'pending fact-check'.
  'kerma-start':{dom:[-2550,-1400],ticks:[-2450,-2050,-1750,-1700,-1480],
   t:['2450 or 1700 BCE?','2450 أم 1700 ق.م؟'],pill:['NO CONTRADICTION','لا تناقض','#3f7d4a'],
   sub:['Two dates for Kerma (Kush): both can be right','تاريخان لكرمة (كوش): وكلاهما قد يكون صحيحاً'],
@@ -171,7 +173,7 @@ if(SPLIT&&SPLITS[SPLIT]){const c=SPLITS[SPLIT],W=1080,H=1350,T2=a=>a[AR_ON?1:0];
  if(c.warn!==0)put(AR_ON?'⚠ مصدر zh = صفحة للسفارة الصينية (نص حكومي تعريفي)، ليست مصدراً أكاديمياً.':'⚠ zh source = PRC embassy page (government popular text), not an academic source.',{b:1,col:'#b3261e',fs:16});
  put(AR_ON?'المصادر:':'Sources:',{b:1,fs:15});
  if(c.compact)put(c.srcs.map(id=>{const r=V.srcTable()[id]||{};return '['+(r.lang||'?').toUpperCase()+'] '+[r.author,r.year&&'('+r.year+')'].filter(Boolean).join(' ')}).join(' · '),{dir:'ltr',fs:12,w:150});else c.srcs.forEach(id=>{const r=V.srcTable()[id]||{};put('['+(r.lang||'?').toUpperCase()+'] '+[r.author,r.year&&'('+r.year+')',r.title].filter(Boolean).join(' '),{dir:'ltr',fs:13,w:120});});if(c.extraSrc)put(T2(c.extraSrc),{dir:AR_ON?'rtl':'ltr',fs:13,w:120});
- if(Q.get('draft')!=='0'){svg.append('text').attr('x',AR_ON?40:W-40).attr('y',H-34).attr('text-anchor',AR_ON?'start':'end').attr('font-size',22).attr('font-weight','bold').attr('fill','#b3261e').attr('opacity',.8).attr('direction','ltr').text(c.draftTxt?T2(c.draftTxt):AR_ON?'مسودة — بانتظار التدقيق':'DRAFT · pending fact-check');
+ if(Q.get('draft')!=='0'){svg.append('text').attr('x',AR_ON?40:W-40).attr('y',H-34).attr('text-anchor',AR_ON?'start':'end').attr('font-size',22).attr('font-weight','bold').attr('fill','#b3261e').attr('opacity',.8).attr('direction','ltr').text(c.draftTxt?T2(c.draftTxt):c.factChecked?(AR_ON?'مسودة — بانتظار المراجعة':'DRAFT · pending review'):AR_ON?'مسودة — بانتظار التدقيق':'DRAFT · pending fact-check');
   svg.append('text').attr('transform',`translate(${W/2},${(top+bot)/2}) rotate(-28)`).attr('text-anchor','middle').attr('font-size',110).attr('font-weight','bold').attr('fill','#b3261e').attr('opacity',.06).text(AR_ON?'مسودة':'DRAFT');}
  svg.append('text').attr('x',AR_ON?W-60:60).attr('y',H-34).attr('font-size',12).attr('text-anchor',AR_ON?'end':'start').attr('direction','ltr').text('Sudan Histomap · Noto fonts (SIL OFL) · after Sparks, Histomap (1931, PD)');}
 else if(LENS_STATE!=='ok'){const known=COMP.known.filter(k=>k.lang===LENS).length;d3.select('#chart').html(`<div class="nodata"><h2 style="margin-top:0">${AR_ON?'لا توجد بيانات بعد':'No data yet'}</h2>
