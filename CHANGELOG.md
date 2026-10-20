@@ -2,6 +2,11 @@
 
 Site changes for sudan.indomando.com (built from `web/` by `web/build.py`). Newest first.
 
+## 2026-10-20 (chapters index)
+
+- New chapters index at /chapters/ and /ar/chapters/ (all 7 chapters with dates, era counts, the interaction line and in-progress counts), linked from the header and from chapter and era breadcrumbs, with its own OG card and sitemap entries.
+- Era pages whose data carries the 'WORKING TRANSLATION – needs native Arabic review' flag show a small 'Arabic under review' / 'الترجمة العربية قيد المراجعة' badge (subtler on English pages).
+
 ## 2026-10-20 (point labels)
 
 - Fixed: a point label that had to move away from its marker could never be placed, because its own marker counted as an obstacle for its leader line; on Arabic maps one of El Malha / Mellit was therefore always moved to the list under the map. Every visible point is now labelled or listed with its badge.
