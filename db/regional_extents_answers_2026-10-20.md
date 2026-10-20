@@ -1,5 +1,5 @@
 # Regional extents – answers (Sudan Historian worker, 2026-10-20)
-Sources: db/regional_extents_sources.json. GHA II read from /workspace/gha2.pdf. GHA III–VI are NOT on the box, so no GHA V/VI page cites below. Wikipedia = flagged (WP_*).
+Sources: db/regional_extents_sources.json. GHA II read from /workspace/gha2.pdf. Pass 19b update: GHA VI read from /workspace/ghavi.pdf (printed p. = PDF p. − 27). **/workspace/ghav.pdf is NOT GHA V – it is a saved HTML 'Page not found' page (South African History Online), so GHA V could not be used. /workspace/hd.pdf is a 23-page Holt & Daly excerpt with no Mamluk/Aswan-frontier text.** GHA IV absent. Wikipedia = flagged (WP_*).
 
 ## 1. Mamluk southern limit on the Nile (PRIORITY)
 - 1265: Mamluks invade northern Makuria, king forced into vassalage [WP_MAMLUK, citing Behrens-Abouseif 2014, no page].
@@ -8,6 +8,7 @@ Sources: db/regional_extents_sources.json. GHA II read from /workspace/gha2.pdf.
 - 1365: Makurian civil war, rump state at Gebel Adda (Lower Nubia), last king c.1460 [WP_MAKURIA_2026].
 - Qasr Ibrim: Ayyubid capture 1173 (pre-Mamluk) [WP_MAKURIA_2026 ← Werner 2013 p.113]. No source found for a Mamluk garrison there; unsourced.
 - **Recommendation:** directly ruled limit = **Aswan / First Cataract (~24.09°N)**, 1250–1517, confidence medium-high. Hatch Makuria 1276–c.1365 as "Mamluk tributary/vassal (client)" — not in the Mamluk polygon. Red Sea: Suakin / Dahlak said "conquered" c.1265 [WP_MAMLUK ← Nicolle 2014] — treat as point/badge, low confidence.
+- Pass 19b: HD excerpt (hd.pdf, 23 pp.) has no Mamluk material; GHA V file is invalid. **Mamluk answer stays Wikipedia-only (flagged).**
 - Unsourced: a scholarly (non-WP) page cite for Aswan as the formal border; check Holt & Daly (HD2011) or Welsby 2002 ch. on Mamluks.
 
 ## 2. New Kingdom Egypt
@@ -19,14 +20,18 @@ Sources: db/regional_extents_sources.json. GHA II read from /workspace/gha2.pdf.
 - **Wadai:** emerges 1630s replacing Tunjur; tributary of Darfur in 17th c. until Ya'qub Arus (late 17th c.); 1805 conquers Bagirmi (tributary); Sabun extends south to Dar Sila and Dar Runga; borders Darfur and Bagirmi [WP_WADAI]. No polygon source. Recommend points + labelled neighbours, low.
 - **Bornu:** Dunama II (13th c.) rule to Fezzan; eastern limit unclear, later tradition says to Nile, contemporary evidence only "influence" in Darfur [WP_KANEM_BORNU ← Barth 1857 p.637; Waziri 2023 p.9]. Do NOT draw to the Nile. Capitals: Ngazargamu c.1472–1809, none 1809–13, Kafela 1813–46, Kukawa 1846–93, Dikwa 1893–1902.
 - **Zande:** Avongara-led chiefdoms spreading east and north from SE CAR; northward expansion halted by Sudanese raids in 19th c. [WP_AZANDE]. Nothing with dates/limits: keep note only.
-- GHA V/VI ch.14 not on box → all three remain without scholarly limits.
+- **Pass 19b GHA VI cites:**
+  - Wadai: 'grown increasingly powerful after the mid-eighteenth century'; Benghazi–Wadai route discovered early 19th c. [GHA6_SAHARA_P530]. 1846 Wadai invaded Borno at mai Ibrahim's invitation [GHA6_BORNU_P594_598, p.594]. Borno's expansion was blocked 'in the east by Baghirmi and Wadai' [p.598] → Borno's eastern limit = Baghirmi/Wadai (19th c.), medium.
+  - Zande: Avungara 'founded a centralized state in the eighteenth century' south of the Jieng/Nuer lands; Ndoruma defeated Abu Kurun 1870 [GHA6_CH14_P368, p.368]. Core area: Mbomu valley south to the Uele, high density in the 19th c. [GHA6_CENTRAL_P300, p.300]. → Zande anchor zone Mbomu–Uele, 18th c.–1880s, low-medium; no line limits.
+  - Still unsourced in GHA: precise Wadai western/southern lines, Bornu 13th-c. extent, Ngazargamu dates (GHA V needed).
 
 ## 4. Ethiopia (Solomonic) phases [WP_ETHIOPIAN_EMPIRE]
 1270 Yekuno Amlak; 1314–1344 Amda Seyon conquests (Gojjam, Damot, Eritrea, Muslim east); 1529–1543 Adal war (Ahmad Gragn); 1557–1589 Ottoman war, loss of Red Sea coast; 1636 Gondar; 1769–1855 Zemene Mesafint (decentralised); 1855 Tewodros; Menelik expansion later. No shapes sourced — phase notes/points only, low.
+- **Pass 19b GHA VI ch.15 (Pankhurst):** in the Zamana Masafent the emperors were 'mere puppets'; Bagemder was 'site of the capital' and Gondar 'the only urban agglomeration of any size' (p.376); Amhara's significance came from 'its control of the imperial capital, Gondar' (p.379); Shoa under Asfa Wassan (1775–1808) 'severed the last links of vassalage to Gondar' (p.381) → Shoa outside Gondar's control c.1800–1855; Kassa burnt Dabra Tabor 1853, closing the Masafent, captured Beru 1854, beat Webé at Darasgé, then crowned Téwodros (p.391; Plowden 1855); after coronation he took Magdala, 'which was to become his capital', and overran Shoa (p.393). Phases 1270–1769 remain Wikipedia-only (GHA IV/V not usable).
 
 ## 5. Capital end years
 - **Ngazargamu: 1809** (destroyed by Fulani 1808, briefly reoccupied, abandoned 1809 by Dunama IX) [WP_KANEM_BORNU ← Stapleton 2013 p.81; Brenner 1973 pp.33–34]; WP_NGAZARGAMU "abandoned 1808/1809". Confidence high.
-- **Gondar: 1855** as end (Tewodros crowned 1855, ending Zemene Mesafint; he took Gondar 1854 but "was not attracted to Gondar") [WP_ETHIOPIAN_EMPIRE; WP_GONDAR]. Note: from 1769 Gondar was the seat of powerless emperors. Confidence medium.
+- **Gondar: 1855** as end — now GHA-backed: Téwodros crowned after Darasgé (1855) and made Magdala his capital [GHA6_CH15_P376_393, pp.391, 393]. Original WP basis: (Tewodros crowned 1855, ending Zemene Mesafint; he took Gondar 1854 but "was not attracted to Gondar") [WP_ETHIOPIAN_EMPIRE; WP_GONDAR]. Note: from 1769 Gondar was the seat of powerless emperors. Confidence medium.
 
 ## 6. Aksum & South Arabia
 - GHA II: Kaleb's expedition against Dhu Nuwas c.525; garrison of 10,000 left; Sumyafa Ashwa installed at Zafar under Abreha [GHA2_CH16 p.415]; Abraha as vassal king of Himyar paying yearly tribute to Aksum, Aksum appointing south-Arabian kings [GHA2 pp.385–386].
