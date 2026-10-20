@@ -4,7 +4,7 @@
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 Georgia,"Noto Serif",serif}
 [lang=ar],html[dir=rtl] body{font-family:Naskh,"Noto Naskh Arabic",Tahoma,serif}
 a{color:var(--c)}a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid var(--c);outline-offset:2px}
-.skip{position:absolute;inset-inline-start:-999px}.skip:focus{inset-inline-start:8px;top:8px;background:#fff;padding:6px;z-index:9}
+.skip{position:absolute;top:0;inset-inline-start:0;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.skip:focus{width:auto;height:auto;clip:auto;inset-inline-start:8px;top:8px;background:#fff;padding:6px;z-index:9}
 .top{position:sticky;top:0;z-index:5;background:rgba(251,248,242,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:8px 16px 0;display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px}
 .brand{font-weight:700;text-decoration:none;color:var(--ink);font-size:18px}.brand span{color:var(--mute);font-weight:400;margin-inline-start:6px}
 .tools{display:flex;flex-wrap:wrap;gap:4px 14px;margin-inline-start:auto;font-size:15px}
@@ -26,7 +26,7 @@ h2{font-size:21px;margin:1.6em 0 .4em;font-weight:600}.sec{margin-top:2em}
 .scrub{display:flex;align-items:center;gap:10px;margin:8px 0}.scrub input{flex:1;accent-color:var(--c);height:32px}.scrub output{min-width:7em;font-weight:700;font-variant-numeric:tabular-nums}
 .eras{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px}
 .eras a{display:block;padding:8px 10px;border-inline-start:4px solid var(--c);background:#fff;text-decoration:none;color:var(--ink)}.eras small{display:block;color:var(--mute)}
-.gap{display:inline-block;background:#fff1c9;color:#7a5200;border:1px solid #e8c766;border-radius:3px;font-size:12px;padding:0 6px;font-family:system-ui,sans-serif}.gapt{color:#7a5200;font-size:15px}
+.gap{display:inline-block;background:#eef3f6;color:#2f5266;border:1px solid #b9cfdb;border-radius:999px;font-size:12px;padding:0 6px;font-family:system-ui,sans-serif}.gapt{color:#4a5a63;font-size:15px}
 .st{font-family:system-ui,sans-serif;font-size:12px;padding:0 5px;border-radius:3px;color:#fff;background:#8a8a8a}.st-agree{background:#3f7d4a}.st-conflict{background:#b3261e}.st-partial{background:#c98a1a}.st-no-conflict{background:#5f7d8e}
 .note{font-size:15px;color:var(--mute);background:#f3eee4;padding:8px 10px}
 .src{font-size:15px}.flags{font-family:system-ui,sans-serif;font-size:14px;color:#7a5200}
@@ -42,3 +42,6 @@ footer{border-top:1px solid var(--line);color:var(--mute);font-size:14px;padding
 .scrub{flex-wrap:wrap}.approx{font:italic 13px system-ui,sans-serif;color:var(--c);border:1px dashed var(--c);border-radius:3px;padding:0 6px}
 .xd{font-size:14px;margin:4px 0;padding-inline-start:18px}
 .refpts{list-style:none;padding:0;font-size:15px}.pm{display:inline-block;width:9px;height:9px;transform:rotate(45deg);background:var(--c);border:1.5px solid var(--c)}.pm.low{background:#fff;border-style:dashed}.refh{font-size:16px;margin:.8em 0 .2em}
+.wip{display:block;background:#f4f7f9;border:1px dashed #b9cfdb;border-radius:6px;padding:10px 12px}.wip .gap{margin-inline-end:6px}
+#viz:empty{min-height:0}#viz svg{overflow:hidden}
+main li,main p,.note{overflow-wrap:anywhere}.src,.flags{list-style-position:inside;padding-inline-start:0}
