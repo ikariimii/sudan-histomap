@@ -64,3 +64,17 @@ Files: /workspace/ghaiv.pdf (774 pp., title "General history of Africa, IV: Afri
 - 1529 Sembera Kure → Muslim armies over the highlands until 1543 [GHA5_CH24, p.713]; Lebna Dengel d.1540, Galawdewos restoration [p.714]; 1529–1632 "struggle for survival" [p.723].
 - 1636 Fasiladas' fixed residence at Gondar [p.725]; disintegration/anarchy after c.1755, to 1855 [pp.724, 733].
 - Still unsourced: polygons for any phase; WP Zemene Mesafint start 1769 vs GHA "after about 1755" — use 1755 (GHA) with 1769 noted.
+
+## Follow-up search, 2026-10-20 (Sudan Historian): Funj southern limit, Hannik, Ali Dinar's limits
+
+Sources searched: GHA III (/workspace/ghaiii.pdf, sahistory.org.za mirror, 891 PDF pages, printed = PDF − 22), GHA V (printed = PDF − 27), GHA VI (− 27), GHA VII (− 24), Wikidata search API, OSM Nominatim.
+
+1. **Funj/Sennar southern limit: FOUND (text only, no coordinate).** GHA V ch.7 (Hasan & Ogot), p.177: "By the beginning of the seventeenth century ... Their direct rule extended from Arbadjï to the south of Fazûghlî, which probably constituted the northern limits of the Ethiopian border." So the limit is "south of Fazughli", and the source hedges the Ethiopian border with "probably". GHA VI ch.14 pp.359, 361 names Fazughli only as a later Turco-Egyptian raiding and gold-prospecting area. It gives no Funj limit.
+2. **Hannik coordinate: NOT FOUND.** GHA V p.175 locates it in text only: "The Egyptian frontier was finally consolidated at Hannîk after some fighting between the 'Abdallābi and the Ottomans in about 1622. Hannîk lies half way between the Third Cataract and Mushu, the Fundj frontier post in the north." Searches run on 2026-10-20:
+   - Wikidata "Hannik": no matching place; the hits are unrelated people and places.
+   - OSM Nominatim "Hannik" (Sudan): no result.
+   - OSM Nominatim "Hanik": only node 7731005902, Wādī Hanik, 15.8N 34.0E, in Khartoum State. That is far from the Third Cataract and is rejected.
+   - GeoNames: not queried, since it needs an account.
+   
+   Hannik is not anchored. Keep using the Third Cataract stand-in, flagged.
+3. **Named limits of Ali Dinar's Darfur, 1898–1916: NOT FOUND.** GHA VII ch.12 p.283 says only that Ali Dinar was "nominally tributary to, but effectively independent of, the Anglo-Egyptian Sudan". It adds that he raided French Chad, threatened British Borno and tried to stir revolt in Kordofan, and was killed in February 1916. Neither GHA VII ch.4 nor GHA VIII names any boundary points. Takana 2016 and HD2011, as read earlier, name none either. No limits are drawn.

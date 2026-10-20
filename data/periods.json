@@ -2482,6 +2482,26 @@
     "note": "Box copy /workspace/gha2.pdf (printed page = PDF page − 17).",
     "via": "db/era_fill_hist20.json"
    },
+   "GHA3_CH7": {
+    "author": "T. Bianquis",
+    "title": "Egypt from the Arab conquest until the end of the Fatimid state (1171) (General History of Africa III, ch.7)",
+    "publisher": "UNESCO / Heinemann / University of California Press",
+    "year": "1988",
+    "pages": "pp.163–193; Pass 21: pp.168, 182",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184282",
+    "lang": "en",
+    "note": "Box copy /workspace/ghaiii.pdf (sahistory.org.za mirror; printed = PDF − 22)"
+   },
+   "GHA3_CH8": {
+    "author": "S. Jakobielski",
+    "title": "Christian Nubia at the height of its civilization (General History of Africa III, ch.8)",
+    "publisher": "UNESCO / Heinemann / University of California Press",
+    "year": "1988",
+    "pages": "pp.194–223; Pass 21: pp.194–196, 199, 206–207, 209",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184282",
+    "lang": "en",
+    "note": "Box copy /workspace/ghaiii.pdf (sahistory.org.za mirror; printed = PDF − 22)"
+   },
    "GHA4_CH16": {
     "author": "L. Kropáček",
     "title": "Nubia from the late 12th century to the Funj conquest in the early 16th century, ch.16 (General History of Africa IV)",
@@ -6409,7 +6429,7 @@
     }
    ],
    "sources": [
-    "GHAIII",
+    "GHA3_CH8",
     "GHAIV",
     "WP:Muslim_conquest_of_Egypt",
     "WP:Fatimid_Caliphate"
@@ -6713,7 +6733,7 @@
     }
    ],
    "sources": [
-    "GHAIII",
+    "GHA3_CH8",
     "GHAIV",
     "WP:Kanem_Empire"
    ],
@@ -6959,7 +6979,7 @@
     }
    ],
    "sources": [
-    "GHAIII",
+    "GHA3_CH8",
     "WP:Rashidun_Caliphate",
     "WP:Abbasid_Caliphate"
    ],

@@ -19,3 +19,19 @@
 ## Extents: UN PoE S/2025/239 points on the current war (Map Designer, 2026-10-20)
 - war-in-sudan-saf-vs-rsf: two [REPORTED] points, para. 71 (p. 24, Kufra fuel-route endpoints), as of 2025-04-17, source UNPOE_S2025_239 (already registered). El Malha 15.0941N 26.1612E (GeoNames 379152, matches OSM node 3246118934; low: town vs locality). Mellit 14.1333N 25.55E (Wikidata Q12245024 / GeoNames 370181; medium). Points only: no routes, arrows or areas; SAF/RSF control layer still untraced.
 - Skipped, no GeoNames/Wikidata/OSM match (Nominatim and GeoNames search empty; Overpass at capacity): Bir Mirgui (para. 98, p. 30) and Jebel Eredi (para. 104, p. 32, 19 Nov 2024 ambush). Paragraph text checked in db/refs/S_2025_239_EN.pdf. Arabic labels pending native review.
+
+## Historian Pass 21 + follow-up extents search (Sudan Historian, 2026-10-20)
+- GHA III obtained from https://sahistory.org.za/sites/default/files/archive_files/general_history_africa_iii.pdf (891 PDF pages; printed = PDF − 22). It is kept in /workspace and not in this repo.
+- Pass 21 adds GHA3_CH7 (Bianquis) and GHA3_CH8 (Jakobielski).
+  - Islamic Egypt geopolitics: the bakt terms (pp.194–195), jurists' view of the bakt and the gold/emerald-mine clashes (p.168), the 836–7 revision (p.209) and the Fatimid renewal (p.182).
+  - Islamic Egypt economy: Nubian imports and exports, barter, and the customs frontier at 'Akasha (p.207), plus Kordofan/Darfur as a possible source of bakt slaves (p.199).
+  - Alodia economy: Ibn Salim via al-Maqrizi (p.196) and Ibn Hawqal (p.199).
+  - The "GHA III not on box" flag is removed.
+- Unchanged:
+  - Ballana economy: GHA III starts in the 7th century and does not cover Ballana.
+  - The three nulls (Anuak culture, Ali Dinar culture, southern Condominium economy): GHA III does not cover them.
+- db/regional_extents_answers_2026-10-20.md has a new follow-up section:
+  - Funj southern limit FOUND (GHA V p.177: "to the south of Fazughli", text only).
+  - Hannik coordinate NOT FOUND (GHA V p.175 text only; Wikidata and OSM gave no match, and Wadi Hanik at 15.8N 34.0E was rejected).
+  - Ali Dinar's named limits NOT FOUND (GHA VII p.283 has none).
+- verify_citations: 136 checks, 0 problems. checkurls: no new failures.
