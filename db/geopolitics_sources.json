@@ -152,7 +152,7 @@
   "language": "EN",
   "source_type": "investigation",
   "summary": "Leaked contracts show Prigozhin's M Invest paid a Sudanese military-intelligence firm (Aswar) for security, weapons and military flights, and Meroe Gold got presidential favours on state stakes.",
-  "verification": "fetched 2026-10-19 (HTTP 200); date still approximate (2022)",
+  "verification": "fetched 2026-10-19 (HTTP 200); date still approximate (2022) — VERIFY date",
   "era_id": "december-revolution-transition",
   "era_ids": [
    "december-revolution-transition"
@@ -452,7 +452,7 @@
   "language": "EN",
   "source_type": "AU statement",
   "summary": "Condemns RSF's planned parallel government as partition risk; urges states not to recognise or support it; cites >12m displaced.",
-  "verification": "NOT verified: Consilium returns 403 browser-check / timeout on 2026-10-19 (curl+fetch); search snippet only",
+  "verification": "VERIFY: NOT verified: Consilium returns 403 browser-check / timeout on 2026-10-19 (curl+fetch); search snippet only",
   "era_id": "war-in-sudan-saf-vs-rsf",
   "era_ids": [
    "war-in-sudan-saf-vs-rsf"
@@ -632,7 +632,7 @@
   "language": "EN",
   "source_type": "UN report",
   "summary": "States all 7 neighbours are linked: Egypt/Eritrea aligned with SAF, Ethiopian territory used by RSF, Chad/CAR/Libya(LAAF)/South Sudan RSF supply routes; UAE 'supported the RSF by providing mercenaries' (Colombians via UAE firm GSSG); Iran, Qatar, Saudi, Türkiye keep SAF ties.",
-  "verification": "fetched 2026-10-19 (PDF text read); unofficial copy",
+  "verification": "fetched 2026-10-19 (PDF text read); unofficial copy — VERIFY official symbol",
   "era_id": "war-in-sudan-saf-vs-rsf",
   "era_ids": [
    "war-in-sudan-saf-vs-rsf"
@@ -1354,7 +1354,7 @@
   "language": "DE",
   "source_type": "news analysis",
   "summary": "UAE close to RSF and Sudan's top trade partner, long pursuing Red Sea ports; Gulf eyes gold, gas and farmland for food security.",
-  "verification": "fetched 2026-10-19 (HTTP 200); date approximate",
+  "verification": "fetched 2026-10-19 (HTTP 200); date approximate — VERIFY date",
   "era_id": "war-in-sudan-saf-vs-rsf",
   "era_ids": [
    "war-in-sudan-saf-vs-rsf"
@@ -1640,5 +1640,245 @@
    "war-in-sudan-saf-vs-rsf"
   ],
   "lang": "ar"
+ },
+ {
+  "id": "GEO-083",
+  "actors": "SAF;RSF",
+  "topics": "control map;SAF-RSF war",
+  "title_original": "ISW/CTP Sudan control-of-terrain maps (Africa File)",
+  "title_en": "same",
+  "outlet": "Institute for the Study of War & AEI Critical Threats Project",
+  "affiliation_bias": "US think tanks (security-policy lens)",
+  "date": "2023-2026",
+  "url": "https://understandingwar.org/fair-use-and-attribution-policy/",
+  "language": "EN",
+  "source_type": "map/terms",
+  "summary": "Periodic SAF/RSF control maps; Fair Use policy forbids modification, incorporation into datasets/mapping platforms or copying shapefiles without permission. Reference-only.",
+  "verification": "fetched 2026-10-20",
+  "era_id": "war-in-sudan-saf-vs-rsf",
+  "era_ids": [
+   "war-in-sudan-saf-vs-rsf"
+  ],
+  "lang": "en"
+ },
+ {
+  "id": "GEO-084",
+  "actors": "SAF;RSF",
+  "topics": "control map;conflict events",
+  "title_original": "ACLED End User Licence Agreement (updated 8 Jul 2025)",
+  "title_en": "same",
+  "outlet": "Armed Conflict Location & Event Data (ACLED)",
+  "affiliation_bias": "US-registered NGO; event-data provider",
+  "date": "2025-07-08",
+  "url": "https://acleddata.com/terms-of-use/",
+  "language": "EN",
+  "source_type": "dataset/terms",
+  "summary": "Non-commercial only; no derivative works of ACLED maps/analysis, no reverse-engineering, no AI training. Reference-only for polygons.",
+  "verification": "fetched 2026-10-20",
+  "era_id": "war-in-sudan-saf-vs-rsf",
+  "era_ids": [
+   "war-in-sudan-saf-vs-rsf"
+  ],
+  "lang": "en"
+ },
+ {
+  "id": "GEO-085",
+  "actors": "Sudan",
+  "topics": "admin boundaries",
+  "title_original": "Sudan - Subnational Administrative Boundaries (COD-AB, v03)",
+  "title_en": "same",
+  "outlet": "OCHA / IMWG via HDX",
+  "affiliation_bias": "UN humanitarian (official govt-agreed lines)",
+  "date": "2020-08-31",
+  "url": "https://data.humdata.org/dataset/cod-ab-sdn",
+  "language": "EN",
+  "source_type": "vector dataset",
+  "summary": "Admin0-2 Sudan, CC BY-IGO; last modified 2026-01-26. Downloaded to db/extents/raw.",
+  "verification": "fetched 2026-10-20",
+  "era_id": "december-revolution-transition",
+  "era_ids": [
+   "december-revolution-transition"
+  ],
+  "lang": "en"
+ },
+ {
+  "id": "GEO-086",
+  "actors": "Sudan;South Sudan",
+  "topics": "admin boundaries",
+  "title_original": "geoBoundaries SDN/SSD ADM0",
+  "title_en": "same",
+  "outlet": "William & Mary geoLab (geoBoundaries)",
+  "affiliation_bias": "Academic; repackages OCHA/IMWG",
+  "date": "2020",
+  "url": "https://github.com/wmgeolab/geoBoundaries",
+  "language": "EN",
+  "source_type": "vector dataset",
+  "summary": "ADM0 outlines for Sudan and South Sudan, CC BY 3.0 IGO. Downloaded.",
+  "verification": "fetched 2026-10-20",
+  "era_id": "december-revolution-transition",
+  "era_ids": [
+   "december-revolution-transition",
+   "republic-of-south-sudan"
+  ],
+  "lang": "en"
+ },
+ {
+  "id": "GEO-087",
+  "actors": "Sudan;South Sudan;Egypt",
+  "topics": "Abyei;Halaib;Bir Tawil;borders",
+  "title_original": "Natural Earth 1:10m Admin 0 – Breakaway, Disputed Areas (v5.1.1)",
+  "title_en": "same",
+  "outlet": "Natural Earth",
+  "affiliation_bias": "Volunteer/NACIS; de-facto-control convention",
+  "date": "2022",
+  "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/",
+  "language": "EN",
+  "source_type": "vector dataset",
+  "summary": "Public domain; includes Abyei, Halayib Triangle, Bir Tawil, Ilemi; no Kafia Kingi or al-Fashaga polygons. Downloaded.",
+  "verification": "fetched 2026-10-20",
+  "era_id": "december-revolution-transition",
+  "era_ids": [
+   "december-revolution-transition",
+   "republic-of-south-sudan"
+  ],
+  "lang": "en"
+ },
+ {
+  "id": "GEO-088",
+  "actors": "Sudan;South Sudan",
+  "topics": "borders;historical boundaries",
+  "title_original": "OpenHistoricalMap Sudan/South Sudan admin_level=2 relations",
+  "title_en": "same",
+  "outlet": "OpenHistoricalMap contributors",
+  "affiliation_bias": "Volunteer project; CC0",
+  "date": "1820-2026",
+  "url": "https://www.openhistoricalmap.org/copyright",
+  "language": "EN",
+  "source_type": "vector dataset",
+  "summary": "Dated national outlines (relations 2801037, 2926748, 2926753, 2801038, 2801039 etc.). CC0. Downloaded via Overpass.",
+  "verification": "fetched 2026-10-20",
+  "era_id": null,
+  "era_ids": [],
+  "lang": "en"
+ },
+ {
+  "id": "GEO-089",
+  "actors": "Sudan;South Sudan",
+  "topics": "borders;historical boundaries",
+  "title_original": "CShapes 2.0",
+  "title_en": "same",
+  "outlet": "ETH Zurich ICR (Schvitz et al.)",
+  "affiliation_bias": "Academic",
+  "date": "1886-2019",
+  "url": "https://icr.ethz.ch/data/cshapes/",
+  "language": "EN",
+  "source_type": "vector dataset",
+  "summary": "Dated state polygons (Sudan gwcode 625, South Sudan 626); CC BY-NC-SA 4.0 so reference-only.",
+  "verification": "fetched 2026-10-20",
+  "era_id": null,
+  "era_ids": [],
+  "lang": "en"
+ },
+ {
+  "id": "GEO-090",
+  "actors": "SAF;RSF;SPLM-N",
+  "topics": "control map;SAF-RSF war",
+  "title_original": "File:War in Sudan (2023).svg (Wikimedia Commons, 474 versions)",
+  "title_en": "same",
+  "outlet": "Wikimedia Commons contributors (ElijahPepe et al.)",
+  "affiliation_bias": "Volunteer; edits cite news/CTP; quality varies",
+  "date": "2023-04-16/2026-10-03",
+  "url": "https://commons.wikimedia.org/wiki/File:War_in_Sudan_(2023).svg",
+  "language": "EN",
+  "source_type": "map (SVG image)",
+  "summary": "CC BY-SA 4.0 dated control map; upload log gives dated town captures. Some updates cite CTP maps, so derivation chain is uncertain. VERIFY before tracing polygons.",
+  "verification": "fetched 2026-10-20",
+  "era_id": "war-in-sudan-saf-vs-rsf",
+  "era_ids": [
+   "war-in-sudan-saf-vs-rsf"
+  ],
+  "lang": "en"
+ },
+ {
+  "id": "GEO-091",
+  "actors": "SAF;RSF",
+  "topics": "control map;SAF-RSF war",
+  "title_original": "Sudan War Monitor control maps",
+  "title_en": "same",
+  "outlet": "Sudan War Monitor (with Thomas van Linge / OSINT Sudan)",
+  "affiliation_bias": "Independent reader-funded journalism",
+  "date": "2023-07-16/2026",
+  "url": "https://sudanwarmonitor.com/t/maps",
+  "language": "EN",
+  "source_type": "map (image)",
+  "summary": "Dated control maps (16 Jul 2023, 1 Feb 2024, 31 May 2024…); no licence stated, so all rights reserved. Reference-only. VERIFY terms.",
+  "verification": "fetched 2026-10-20",
+  "era_id": "war-in-sudan-saf-vs-rsf",
+  "era_ids": [
+   "war-in-sudan-saf-vs-rsf"
+  ],
+  "lang": "en"
+ },
+ {
+  "id": "GEO-092",
+  "actors": "SAF;RSF",
+  "topics": "El Fasher;satellite imagery",
+  "title_original": "UNOSAT product licensing (e.g. product 4194)",
+  "title_en": "same",
+  "outlet": "UNITAR/UNOSAT",
+  "affiliation_bias": "UN agency",
+  "date": "2011-2025",
+  "url": "https://unosat.org/products/4194",
+  "language": "EN",
+  "source_type": "imagery analysis",
+  "summary": "Products carry CC BY-NC-SA 3.0 or CC BY-NC 3.0 notices; NC so reference-only.",
+  "verification": "fetched 2026-10-20",
+  "era_id": "al-bashir-ncp-ingaz-regime",
+  "era_ids": [
+   "al-bashir-ncp-ingaz-regime"
+  ],
+  "lang": "en"
+ },
+ {
+  "id": "GEO-093",
+  "actors": "South Sudan;Sudan",
+  "topics": "Kafia Kingi;borders",
+  "title_original": "Contested Borderlands: The Kafia Kingi Enclave",
+  "title_en": "same",
+  "outlet": "Rift Valley Institute (Edward Thomas)",
+  "affiliation_bias": "Independent research institute",
+  "date": "2010",
+  "url": "https://riftvalley.net/wp-content/uploads/2018/06/RVI-Contested-Borderlands-The-Kafia-Kingi-Enclave.pdf",
+  "language": "EN",
+  "source_type": "report with maps",
+  "summary": "Only located source on Kafia Kingi area; CC BY-NC-ND 3.0 so reference-only.",
+  "verification": "fetched 2026-10-20",
+  "era_id": "al-bashir-ncp-ingaz-regime",
+  "era_ids": [
+   "al-bashir-ncp-ingaz-regime",
+   "republic-of-south-sudan"
+  ],
+  "lang": "en"
+ },
+ {
+  "id": "GEO-094",
+  "actors": "Sudan;South Sudan",
+  "topics": "Abyei;borders;SDBZ",
+  "title_original": "Contested Borders: Continuing Tensions over the Sudan–South Sudan Border (HSBA WP34)",
+  "title_en": "same",
+  "outlet": "Small Arms Survey (Joshua Craze)",
+  "affiliation_bias": "Swiss-based research project",
+  "date": "2014-11",
+  "url": "https://files.ethz.ch/isn/186152/HSBA-WP34-Contested-Borders.pdf",
+  "language": "EN",
+  "source_type": "report with maps",
+  "summary": "Maps of claimed areas, SDBZ, 14-Mile Area, Abyei; all rights reserved, so reference-only.",
+  "verification": "fetched 2026-10-20",
+  "era_id": "al-bashir-ncp-ingaz-regime",
+  "era_ids": [
+   "al-bashir-ncp-ingaz-regime",
+   "republic-of-south-sudan"
+  ],
+  "lang": "en"
  }
 ]

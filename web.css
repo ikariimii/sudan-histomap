@@ -2,7 +2,8 @@
 :root{--ink:#1f1a14;--mute:#6b6257;--bg:#fbf8f2;--line:#e6dfd2;--c:#2b1d0e}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 Georgia,"Noto Serif",serif}
-[lang=ar],html[dir=rtl] body{font-family:Naskh,"Noto Naskh Arabic",Tahoma,serif}
+html[lang=ar] body{font-family:Naskh,"Noto Naskh Arabic",Tahoma,serif}
+html[lang=en] [lang=ar]{font-family:"Geeza Pro","Segoe UI",Tahoma,"Noto Sans Arabic",system-ui,sans-serif}
 a{color:var(--c)}a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid var(--c);outline-offset:2px}
 .skip{position:absolute;top:0;inset-inline-start:0;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.skip:focus{width:auto;height:auto;clip:auto;inset-inline-start:8px;top:8px;background:#fff;padding:6px;z-index:9}
 .top{position:sticky;top:0;z-index:5;background:rgba(251,248,242,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:8px 16px 0;display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px}
