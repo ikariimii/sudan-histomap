@@ -1,0 +1,1384 @@
+{
+ "meta": {
+  "built": "2026-10-20",
+  "owner": "Sudan Geopolitical Analyst",
+  "status": "PROPOSAL – NEEDS INNOVATION MANAGER SIGN-OFF ON METHOD; not merged into data/eras",
+  "schema": "regional_power entries follow data/eras exactly: {actor, score (0–1 or null), basis, method, flag}. Existing scores (Kush 0.9, Mahdist 0.9) are editorial ordinals; these are computed shares and so are not directly comparable – decide before merging.",
+  "method": {
+   "id": "RP-CINC-SHARE-1",
+   "formula": "score = mean over era years y in [max(start,1816), min(end,2016)] with data of CINC_actor(y) / Σ_{c in set} CINC_c(y); rounded to 2 dp",
+   "regional_set": "Sudan 625, South Sudan 626, Egypt 651, Ethiopia 530, Eritrea 531, Chad 483, Libya 620, CAR 482 (states in data that year)",
+   "null_rule": "null when no CINC year overlaps the era (pre-statehood, pre-1816 or post-2016). Not extrapolated; WDI given as context only",
+   "wdi_role": "context indicators only (population, GDP current US$, armed forces personnel, military expenditure current US$, surface area); not in the score"
+  },
+  "sources": {
+   "COW_NMC6": {
+    "author": "Singer, Bremer & Stuckey (1972); Greig & Enterline (v6.0)",
+    "title": "Correlates of War National Material Capabilities v6.0 (abridged CSV)",
+    "title_en": "same",
+    "publisher": "Correlates of War Project",
+    "bias": "academic; Cold-War realist index (pop, urban pop, iron/steel, energy, mil personnel, mil spending); weak for low-industry states",
+    "date": "2021 (data 1816–2016)",
+    "url": "https://correlatesofwar.org/data-sets/national-material-capabilities/",
+    "license": "free academic use with citation (COW terms) [VERIFY licence wording]",
+    "verification": "downloaded NMC_Documentation-6.0.zip 2026-10-20, NMC-60-abridged.csv read"
+   },
+   "WB_WDI_API": {
+    "author": "World Bank",
+    "title": "World Development Indicators (API v2): SP.POP.TOTL, NY.GDP.MKTP.CD, MS.MIL.TOTL.P1 (IISS), MS.MIL.XPND.CD (SIPRI), AG.SRF.TOTL.K2",
+    "title_en": "same",
+    "publisher": "World Bank",
+    "bias": "IFI; Sudan series exclude South Sudan in all years; military series reproduce IISS/SIPRI estimates",
+    "date": "lastupdated 2026-10-08",
+    "url": "https://api.worldbank.org/v2/country/SDN;EGY;ETH;ERI;TCD;LBY;CAF;SSD/indicator/SP.POP.TOTL",
+    "license": "CC BY 4.0",
+    "verification": "API queried 2026-10-20"
+   }
+  }
+ },
+ "items": [
+  {
+   "era_id": "independent-sudan-first-parliamentary-period",
+   "era_years": [
+    1956,
+    1958
+   ],
+   "regional_power": [
+    {
+     "actor": "Republic of Sudan",
+     "score": 0.1,
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1956–1958 (3 yrs); min 0.10, max 0.10; last-year CINCs SDN 0.00086, EGY 0.00532, ETH 0.00210, LBY 0.00021",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "COW Sudan (ccode 625) includes South Sudan before 2011"
+    }
+   ],
+   "indicators": {
+    "cinc_first_year": {
+     "year": 1956,
+     "milex": "8041",
+     "milper": "9",
+     "tpop": "10346",
+     "irst": "0",
+     "pec": "6",
+     "upop": "250",
+     "cinc": ".00086192391"
+    },
+    "cinc_last_year": {
+     "year": 1958,
+     "milex": "14360",
+     "milper": "9",
+     "tpop": "10746",
+     "irst": "0",
+     "pec": "8",
+     "upop": "256",
+     "cinc": ".00086343242"
+    },
+    "wdi_at_last_cinc_year": {
+     "SP.POP.TOTL": {
+      "value": null,
+      "year": null,
+      "source": "WB_WDI_API",
+      "reason": "no WDI value at or before 1958"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": null,
+      "year": null,
+      "source": "WB_WDI_API",
+      "reason": "no WDI value at or before 1958"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": null,
+      "year": null,
+      "source": "WB_WDI_API",
+      "reason": "no WDI value at or before 1958"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": null,
+      "year": null,
+      "source": "WB_WDI_API",
+      "reason": "no WDI value at or before 1958"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": null,
+      "year": null,
+      "source": "WB_WDI_API",
+      "reason": "no WDI value at or before 1958"
+     }
+    },
+    "wdi_latest": {
+     "SP.POP.TOTL": {
+      "value": 51662147,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 60162634574.4689,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 144000,
+      "year": 2020,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 369443039.163841,
+      "year": 2021,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 1878000,
+      "year": 2024,
+      "source": "WB_WDI_API"
+     }
+    }
+   }
+  },
+  {
+   "era_id": "abboud-military-regime",
+   "era_years": [
+    1958,
+    1964
+   ],
+   "regional_power": [
+    {
+     "actor": "Republic of Sudan",
+     "score": 0.1,
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1958–1964 (7 yrs); min 0.09, max 0.10; last-year CINCs SDN 0.00089, EGY 0.00602, ETH 0.00208, TCD 0.00019, LBY 0.00033, CAF 0.00013",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "COW Sudan (ccode 625) includes South Sudan before 2011"
+    }
+   ],
+   "indicators": {
+    "cinc_first_year": {
+     "year": 1958,
+     "milex": "14360",
+     "milper": "9",
+     "tpop": "10746",
+     "irst": "0",
+     "pec": "8",
+     "upop": "256",
+     "cinc": ".00086343242"
+    },
+    "cinc_last_year": {
+     "year": 1964,
+     "milex": "23837",
+     "milper": "18",
+     "tpop": "12102",
+     "irst": "0",
+     "pec": "21",
+     "upop": "309",
+     "cinc": ".0008866557"
+    },
+    "wdi_at_last_cinc_year": {
+     "SP.POP.TOTL": {
+      "value": 9531109,
+      "year": 1964,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 1388282600.1961,
+      "year": 1964,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": null,
+      "year": null,
+      "source": "WB_WDI_API",
+      "reason": "no WDI value at or before 1964"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 41872487.0763929,
+      "year": 1964,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 2505810,
+      "year": 1964,
+      "source": "WB_WDI_API"
+     }
+    },
+    "wdi_latest": {
+     "SP.POP.TOTL": {
+      "value": 51662147,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 60162634574.4689,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 144000,
+      "year": 2020,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 369443039.163841,
+      "year": 2021,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 1878000,
+      "year": 2024,
+      "source": "WB_WDI_API"
+     }
+    }
+   }
+  },
+  {
+   "era_id": "second-parliamentary-period",
+   "era_years": [
+    1964,
+    1969
+   ],
+   "regional_power": [
+    {
+     "actor": "Republic of Sudan",
+     "score": 0.09,
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1964–1969 (6 yrs); min 0.09, max 0.10; last-year CINCs SDN 0.00103, EGY 0.00665, ETH 0.00171, TCD 0.00024, LBY 0.00048, CAF 0.00014",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "COW Sudan (ccode 625) includes South Sudan before 2011"
+    }
+   ],
+   "indicators": {
+    "cinc_first_year": {
+     "year": 1964,
+     "milex": "23837",
+     "milper": "18",
+     "tpop": "12102",
+     "irst": "0",
+     "pec": "21",
+     "upop": "309",
+     "cinc": ".0008866557"
+    },
+    "cinc_last_year": {
+     "year": 1969,
+     "milex": "72659",
+     "milper": "25",
+     "tpop": "13513",
+     "irst": "0",
+     "pec": "1054",
+     "upop": "565",
+     "cinc": ".0010256409"
+    },
+    "wdi_at_last_cinc_year": {
+     "SP.POP.TOTL": {
+      "value": 11298936,
+      "year": 1969,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 1847501441.26221,
+      "year": 1969,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": null,
+      "year": null,
+      "source": "WB_WDI_API",
+      "reason": "no WDI value at or before 1969"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 87018954.6237794,
+      "year": 1969,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 2505810,
+      "year": 1969,
+      "source": "WB_WDI_API"
+     }
+    },
+    "wdi_latest": {
+     "SP.POP.TOTL": {
+      "value": 51662147,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 60162634574.4689,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 144000,
+      "year": 2020,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 369443039.163841,
+      "year": 2021,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 1878000,
+      "year": 2024,
+      "source": "WB_WDI_API"
+     }
+    }
+   }
+  },
+  {
+   "era_id": "nimeiry-era-democratic-republic-of-sudan",
+   "era_years": [
+    1969,
+    1985
+   ],
+   "regional_power": [
+    {
+     "actor": "Democratic Republic of the Sudan",
+     "score": 0.11,
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1969–1985 (17 yrs); min 0.10, max 0.13; last-year CINCs SDN 0.00184, EGY 0.00802, ETH 0.00349, TCD 0.00033, LBY 0.00159, CAF 0.00021",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "COW Sudan (ccode 625) includes South Sudan before 2011"
+    }
+   ],
+   "indicators": {
+    "cinc_first_year": {
+     "year": 1969,
+     "milex": "72659",
+     "milper": "25",
+     "tpop": "13513",
+     "irst": "0",
+     "pec": "1054",
+     "upop": "565",
+     "cinc": ".0010256409"
+    },
+    "cinc_last_year": {
+     "year": 1985,
+     "milex": "350000",
+     "milper": "65",
+     "tpop": "22109",
+     "irst": "0",
+     "pec": "11819",
+     "upop": "2896",
+     "cinc": ".0018359068"
+    },
+    "wdi_at_last_cinc_year": {
+     "SP.POP.TOTL": {
+      "value": 19905872,
+      "year": 1985,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 8075259600.3398,
+      "year": 1985,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 56600,
+      "year": 1985,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 205293356.8285,
+      "year": 1985,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 2505810,
+      "year": 1985,
+      "source": "WB_WDI_API"
+     }
+    },
+    "wdi_latest": {
+     "SP.POP.TOTL": {
+      "value": 51662147,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 60162634574.4689,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 144000,
+      "year": 2020,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 369443039.163841,
+      "year": 2021,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 1878000,
+      "year": 2024,
+      "source": "WB_WDI_API"
+     }
+    }
+   }
+  },
+  {
+   "era_id": "transitional-third-parliamentary-period",
+   "era_years": [
+    1985,
+    1989
+   ],
+   "regional_power": [
+    {
+     "actor": "Republic of Sudan",
+     "score": 0.12,
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1985–1989 (5 yrs); min 0.11, max 0.12; last-year CINCs SDN 0.00197, EGY 0.00862, ETH 0.00368, TCD 0.00048, LBY 0.00179, CAF 0.00022",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "COW Sudan (ccode 625) includes South Sudan before 2011"
+    }
+   ],
+   "indicators": {
+    "cinc_first_year": {
+     "year": 1985,
+     "milex": "350000",
+     "milper": "65",
+     "tpop": "22109",
+     "irst": "0",
+     "pec": "11819",
+     "upop": "2896",
+     "cinc": ".0018359068"
+    },
+    "cinc_last_year": {
+     "year": 1989,
+     "milex": "460000",
+     "milper": "65",
+     "tpop": "24989",
+     "irst": "0",
+     "pec": "12407",
+     "upop": "3824",
+     "cinc": ".0019726332"
+    },
+    "wdi_at_last_cinc_year": {
+     "SP.POP.TOTL": {
+      "value": 21578022,
+      "year": 1989,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 21408111111.1111,
+      "year": 1989,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 65000,
+      "year": 1989,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 369333333.333333,
+      "year": 1988,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 2505810,
+      "year": 1989,
+      "source": "WB_WDI_API"
+     }
+    },
+    "wdi_latest": {
+     "SP.POP.TOTL": {
+      "value": 51662147,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 60162634574.4689,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 144000,
+      "year": 2020,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 369443039.163841,
+      "year": 2021,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 1878000,
+      "year": 2024,
+      "source": "WB_WDI_API"
+     }
+    }
+   }
+  },
+  {
+   "era_id": "al-bashir-ncp-ingaz-regime",
+   "era_years": [
+    1989,
+    2019
+   ],
+   "regional_power": [
+    {
+     "actor": "Republic of Sudan (Government of Sudan / NCP)",
+     "score": 0.13,
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1989–2016 (28 yrs); min 0.12, max 0.18; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "[PARTIAL COVERAGE] era 1989–2019; scored on 1989–2016 only; years outside are null (pre-state, pre-1816 or post-2016); COW Sudan (ccode 625) includes South Sudan before 2011"
+    }
+   ],
+   "indicators": {
+    "cinc_first_year": {
+     "year": 1989,
+     "milex": "460000",
+     "milper": "65",
+     "tpop": "24989",
+     "irst": "0",
+     "pec": "12407",
+     "upop": "3824",
+     "cinc": ".0019726332"
+    },
+    "cinc_last_year": {
+     "year": 2016,
+     "milex": "-9",
+     "milper": "244",
+     "tpop": "39579",
+     "irst": "0",
+     "pec": "24146",
+     "upop": "7905",
+     "cinc": ".0044348217"
+    },
+    "wdi_at_last_cinc_year": {
+     "SP.POP.TOTL": {
+      "value": 41259892,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 42630376000,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 124300,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 2728876597.74374,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 1878000,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     }
+    },
+    "wdi_latest": {
+     "SP.POP.TOTL": {
+      "value": 51662147,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 60162634574.4689,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 144000,
+      "year": 2020,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 369443039.163841,
+      "year": 2021,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 1878000,
+      "year": 2024,
+      "source": "WB_WDI_API"
+     }
+    }
+   }
+  },
+  {
+   "era_id": "december-revolution-transition",
+   "era_years": [
+    2019,
+    2023
+   ],
+   "regional_power": [
+    {
+     "actor": "Republic of Sudan",
+     "score": null,
+     "flag": "no CINC: COW NMC v6 ends 2016 and era starts 2019; WDI indicators listed for context only, not scored",
+     "method": "CINC regional share (see method_id RP-CINC-SHARE-1)"
+    }
+   ],
+   "indicators": {
+    "wdi_latest": {
+     "SP.POP.TOTL": {
+      "value": 50042791,
+      "year": 2023,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 39898289820.7951,
+      "year": 2023,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 144000,
+      "year": 2020,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 369443039.163841,
+      "year": 2021,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 1878000,
+      "year": 2023,
+      "source": "WB_WDI_API"
+     }
+    }
+   }
+  },
+  {
+   "era_id": "war-in-sudan-saf-vs-rsf",
+   "era_years": [
+    2023,
+    2026
+   ],
+   "regional_power": [
+    {
+     "actor": "Republic of Sudan (SAF-led government)",
+     "score": null,
+     "flag": "no CINC: COW NMC v6 ends 2016 and era starts 2023; WDI indicators listed for context only, not scored",
+     "method": "CINC regional share (see method_id RP-CINC-SHARE-1)"
+    }
+   ],
+   "indicators": {
+    "wdi_latest": {
+     "SP.POP.TOTL": {
+      "value": 51662147,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 60162634574.4689,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 144000,
+      "year": 2020,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 369443039.163841,
+      "year": 2021,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 1878000,
+      "year": 2024,
+      "source": "WB_WDI_API"
+     }
+    }
+   }
+  },
+  {
+   "era_id": "republic-of-south-sudan",
+   "era_years": [
+    2011,
+    2026
+   ],
+   "regional_power": [
+    {
+     "actor": "Republic of South Sudan",
+     "score": 0.07,
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 2011–2016 (6 yrs); min 0.02, max 0.09; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "[PARTIAL COVERAGE] era 2011–2026; scored on 2011–2016 only; years outside are null (pre-state, pre-1816 or post-2016)"
+    }
+   ],
+   "indicators": {
+    "cinc_first_year": {
+     "year": 2011,
+     "milex": "533000",
+     "milper": "-9",
+     "tpop": "10381",
+     "irst": "0",
+     "pec": "-9",
+     "upop": "0",
+     "cinc": ".00045592483"
+    },
+    "cinc_last_year": {
+     "year": 2016,
+     "milex": "76000",
+     "milper": "185",
+     "tpop": "12231",
+     "irst": "0",
+     "pec": "430",
+     "upop": "336",
+     "cinc": ".0018744138"
+    },
+    "wdi_at_last_cinc_year": {
+     "SP.POP.TOTL": {
+      "value": 10830102,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 11997800760.2242,
+      "year": 2015,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 185000,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 78633014.0849099,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 646883,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     }
+    },
+    "wdi_latest": {
+     "SP.POP.TOTL": {
+      "value": 12188788,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 11997800760.2242,
+      "year": 2015,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 53000,
+      "year": 2020,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 178422465.694743,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 646883,
+      "year": 2024,
+      "source": "WB_WDI_API"
+     }
+    }
+   }
+  },
+  {
+   "era_id": "republic-of-egypt",
+   "era_years": [
+    1953,
+    2026
+   ],
+   "regional_power": [
+    {
+     "actor": "Egypt (Republic / UAR / ARE)",
+     "score": 0.55,
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1953–2016 (64 yrs); min 0.41, max 0.70; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "[PARTIAL COVERAGE] era 1953–2026; scored on 1953–2016 only; years outside are null (pre-state, pre-1816 or post-2016)"
+    }
+   ],
+   "indicators": {
+    "cinc_first_year": {
+     "year": 1953,
+     "milex": "105896",
+     "milper": "85",
+     "tpop": "21943",
+     "irst": "0",
+     "pec": "3988",
+     "upop": "4689",
+     "cinc": ".0051271333"
+    },
+    "cinc_last_year": {
+     "year": 2016,
+     "milex": "5330000",
+     "milper": "439",
+     "tpop": "95689",
+     "irst": "5036",
+     "pec": "135558",
+     "upop": "29026",
+     "cinc": ".010057217"
+    },
+    "wdi_at_last_cinc_year": {
+     "SP.POP.TOTL": {
+      "value": 101644589,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 332441717791.411,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 835500,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 4513022526.81632,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 1001450,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     }
+    },
+    "wdi_latest": {
+     "SP.POP.TOTL": {
+      "value": 118365995,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 365254630179.737,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 836000,
+      "year": 2020,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 2501747815.23096,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 1001450,
+      "year": 2024,
+      "source": "WB_WDI_API"
+     }
+    }
+   }
+  },
+  {
+   "era_id": "derg-federal-ethiopia",
+   "era_years": [
+    1974,
+    2026
+   ],
+   "regional_power": [
+    {
+     "actor": "Ethiopia",
+     "score": 0.2,
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1974–2016 (43 yrs); min 0.14, max 0.24; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "[PARTIAL COVERAGE] era 1974–2026; scored on 1974–2016 only; years outside are null (pre-state, pre-1816 or post-2016)"
+    }
+   ],
+   "indicators": {
+    "cinc_first_year": {
+     "year": 1974,
+     "milex": "74879",
+     "milper": "45",
+     "tpop": "26782",
+     "irst": "0",
+     "pec": "8326",
+     "upop": "1379",
+     "cinc": ".0018947874"
+    },
+    "cinc_last_year": {
+     "year": 2016,
+     "milex": "451000",
+     "milper": "138",
+     "tpop": "102403",
+     "irst": "0",
+     "pec": "36199",
+     "upop": "5465",
+     "cinc": ".0041730599"
+    },
+    "wdi_at_last_cinc_year": {
+     "SP.POP.TOTL": {
+      "value": 106718162,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 68475871209.607,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 138000,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 493292073.977962,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 1129818.8,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     }
+    },
+    "wdi_latest": {
+     "SP.POP.TOTL": {
+      "value": 135472051,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 126358758448.356,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 138000,
+      "year": 2020,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 528111206.319261,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 1129818.8,
+      "year": 2024,
+      "source": "WB_WDI_API"
+     }
+    }
+   }
+  },
+  {
+   "era_id": "eritrea-italian-colony-independent",
+   "era_years": [
+    1890,
+    2026
+   ],
+   "regional_power": [
+    {
+     "actor": "Eritrea (state)",
+     "score": 0.08,
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1993–2016 (24 yrs); min 0.03, max 0.10; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "[PARTIAL COVERAGE] era 1890–2026; scored on 1993–2016 only; years outside are null (pre-state, pre-1816 or post-2016)"
+    }
+   ],
+   "indicators": {
+    "cinc_first_year": {
+     "year": 1993,
+     "milex": "91000",
+     "milper": "55",
+     "tpop": "3017",
+     "irst": "0",
+     "pec": "-9",
+     "upop": "358",
+     "cinc": ".00064718205"
+    },
+    "cinc_last_year": {
+     "year": 2016,
+     "milex": "-9",
+     "milper": "202",
+     "tpop": "4955",
+     "irst": "0",
+     "pec": "922",
+     "upop": "833",
+     "cinc": ".0022632864"
+    },
+    "wdi_at_last_cinc_year": {
+     "SP.POP.TOTL": {
+      "value": 3124698,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 2065001626.01626,
+      "year": 2011,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 201750,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 181583668.998912,
+      "year": 2003,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 121630,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     }
+    },
+    "wdi_latest": {
+     "SP.POP.TOTL": {
+      "value": 3607003,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 2065001626.01626,
+      "year": 2011,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 202000,
+      "year": 2020,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 181583668.998912,
+      "year": 2003,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 121630,
+      "year": 2024,
+      "source": "WB_WDI_API"
+     }
+    }
+   }
+  },
+  {
+   "era_id": "french-chad-republic-of-chad",
+   "era_years": [
+    1900,
+    2026
+   ],
+   "regional_power": [
+    {
+     "actor": "Chad (state)",
+     "score": 0.03,
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1960–2016 (57 yrs); min 0.02, max 0.04; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "[PARTIAL COVERAGE] era 1900–2026; scored on 1960–2016 only; years outside are null (pre-state, pre-1816 or post-2016)"
+    }
+   ],
+   "indicators": {
+    "cinc_first_year": {
+     "year": 1960,
+     "milex": "0",
+     "milper": "0",
+     "tpop": "3064",
+     "irst": "0",
+     "pec": "1",
+     "upop": "0",
+     "cinc": ".00017544795"
+    },
+    "cinc_last_year": {
+     "year": 2016,
+     "milex": "269000",
+     "milper": "30",
+     "tpop": "14453",
+     "irst": "0",
+     "pec": "3479",
+     "upop": "1230",
+     "cinc": ".00072094786"
+    },
+    "wdi_at_last_cinc_year": {
+     "SP.POP.TOTL": {
+      "value": 15114655,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 13026289835.7789,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 39850,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 309567431.726812,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 1284000,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     }
+    },
+    "wdi_latest": {
+     "SP.POP.TOTL": {
+      "value": 21003705,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 21472835225.4338,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 45000,
+      "year": 2020,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 648809933.273715,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 1284000,
+      "year": 2024,
+      "source": "WB_WDI_API"
+     }
+    }
+   }
+  },
+  {
+   "era_id": "libya-ottoman-italian-independent",
+   "era_years": [
+    1551,
+    2026
+   ],
+   "regional_power": [
+    {
+     "actor": "Libya (state)",
+     "score": 0.07,
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1951–2016 (66 yrs); min 0.02, max 0.15; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "[PARTIAL COVERAGE] era 1551–2026; scored on 1951–2016 only; years outside are null (pre-state, pre-1816 or post-2016)"
+    }
+   ],
+   "indicators": {
+    "cinc_first_year": {
+     "year": 1951,
+     "milex": "-9",
+     "milper": "3",
+     "tpop": "1028",
+     "irst": "0",
+     "pec": "6",
+     "upop": "0",
+     "cinc": ".00012579247"
+    },
+    "cinc_last_year": {
+     "year": 2016,
+     "milex": "-9",
+     "milper": "-9",
+     "tpop": "6293",
+     "irst": "492",
+     "pec": "18181",
+     "upop": "2625",
+     "cinc": ".00077437708"
+    },
+    "wdi_at_last_cinc_year": {
+     "SP.POP.TOTL": {
+      "value": 6632126,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 49912073701.298,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 0,
+      "year": 2014,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 3755652496.35093,
+      "year": 2014,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 1759540,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     }
+    },
+    "wdi_latest": {
+     "SP.POP.TOTL": {
+      "value": 7458555,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 48098909613.6316,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 0,
+      "year": 2020,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 1572965616.59158,
+      "year": 2023,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 1759540,
+      "year": 2024,
+      "source": "WB_WDI_API"
+     }
+    }
+   }
+  },
+  {
+   "era_id": "central-african-republic-ubangi-shari",
+   "era_years": [
+    1903,
+    2026
+   ],
+   "regional_power": [
+    {
+     "actor": "Central African Republic (state)",
+     "score": 0.01,
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1960–2016 (57 yrs); min 0.01, max 0.02; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "[PARTIAL COVERAGE] era 1903–2026; scored on 1960–2016 only; years outside are null (pre-state, pre-1816 or post-2016)"
+    }
+   ],
+   "indicators": {
+    "cinc_first_year": {
+     "year": 1960,
+     "milex": "0",
+     "milper": "0",
+     "tpop": "1297",
+     "irst": "0",
+     "pec": "1",
+     "upop": "0",
+     "cinc": ".000074291347"
+    },
+    "cinc_last_year": {
+     "year": 2016,
+     "milex": "-9",
+     "milper": "7",
+     "tpop": "4595",
+     "irst": "0",
+     "pec": "645",
+     "upop": "815",
+     "cinc": ".00026985726"
+    },
+    "wdi_at_last_cinc_year": {
+     "SP.POP.TOTL": {
+      "value": 4713663,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 1825018144.65595,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 8150,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 26832998.8201935,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 622980,
+      "year": 2016,
+      "source": "WB_WDI_API"
+     }
+    },
+    "wdi_latest": {
+     "SP.POP.TOTL": {
+      "value": 5513282,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "NY.GDP.MKTP.CD": {
+      "value": 3066109226.40165,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.TOTL.P1": {
+      "value": 10000,
+      "year": 2020,
+      "source": "WB_WDI_API"
+     },
+     "MS.MIL.XPND.CD": {
+      "value": 74185526.5873289,
+      "year": 2025,
+      "source": "WB_WDI_API"
+     },
+     "AG.SRF.TOTL.K2": {
+      "value": 622980,
+      "year": 2024,
+      "source": "WB_WDI_API"
+     }
+    }
+   }
+  }
+ ]
+}

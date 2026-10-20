@@ -35,3 +35,12 @@
   - Hannik coordinate NOT FOUND (GHA V p.175 text only; Wikidata and OSM gave no match, and Wadi Hanik at 15.8N 34.0E was rejected).
   - Ali Dinar's named limits NOT FOUND (GHA VII p.283 has none).
 - verify_citations: 136 checks, 0 problems. checkurls: no new failures.
+
+## Modern-neighbour extents sources + regional_power proposal (Sudan Geopolitical Analyst, 2026-10-20)
+- db/extents_sources_modern_neighbours.json is a proposal and has not been merged. It has 17 phases across 5 eras (Eritrea, Derg/federal Ethiopia, Chad, CAR, Libya). Geometry comes from 22 dated OHM admin_level=2 relations (CC0, found by tag search; geometry not checked) and from Natural Earth admin_0 and geoBoundaries for current borders.
+  - Limits are cited to IBS 3, 10, 15 and 16 (read), the ICJ Libya/Chad judgment of 3 Feb 1994, S/RES/915, UNGA 390(V) and 289(IV), EEBC 2002 and PCA Abyei 2009.
+  - Disputed areas: Aouzou 1973–94, Badme, al-Fashaga and the Sarra Triangle. The Sarra date is [CONTESTED]: IBS10 gives 20 Jul 1934 and IBS3 gives 29 Jul 1934. Kafia Kingi and Abyei are included as context only.
+  - Gaps: Libya 1551–1934 has no open polygon. Italian Eritrea 1936–41 has no polygon. Insurgent control and Libya 2014– are left untraced.
+- db/regional_power_scores_proposal.json and .md use method RP-CINC-SHARE-1: the mean share of COW NMC v6 CINC within the 8-state set over the years each era overlaps 1816–2016. WDI values are included for context only.
+  - 13 eras are scored. December-revolution and the 2023 war era are null because NMC ends in 2016.
+  - The method NEEDS INNOVATION MANAGER SIGN-OFF, because these computed scores are not comparable with the existing editorial ordinal scores.
