@@ -1,0 +1,3082 @@
+{
+ "meta": {
+  "title": "Sudan & Region Histomap dataset",
+  "years": "negative=BCE; 2026=present",
+  "streams": [
+   "Sudan – Middle Nile",
+   "Sudan – Republic",
+   "Sudan – Darfur & Kordofan",
+   "South Sudan – Upper Nile",
+   "Egypt",
+   "Ethiopia & Eritrea (Horn)",
+   "Chad & Central Sahara",
+   "Central Africa (CAR/Congo border)",
+   "Red Sea & Arabia"
+  ],
+  "sources": {
+   "AAR2021": {
+    "author": "African Archaeological Review",
+    "title": "Seventy Years of Pottery Studies in the Archaeology of Mesolithic and Neolithic Sudan",
+    "publisher": "Springer",
+    "year": "2021",
+    "url": "https://link.springer.com/article/10.1007/s10437-021-09432-y",
+    "pages": ""
+   },
+   "ACCORD2020": {
+    "author": "ACCORD, Conflict Trends",
+    "title": "The Formation of the Revitalized Transitional Government of National Unity in South Sudan",
+    "publisher": "ACCORD",
+    "year": "2020",
+    "url": "https://www.accord.org.za/conflict-trends/the-formation-of-the-revitalized-transitional-government-of-national-unity-in-south-sudan/",
+    "pages": ""
+   },
+   "EP1940_ANUAK": {
+    "author": "E.E. Evans-Pritchard",
+    "title": "The Political System of the Anuak of the Anglo-Egyptian Sudan",
+    "publisher": "Routledge (reissue)",
+    "year": "1940",
+    "url": "https://doi.org/10.4324/9781003135395",
+    "pages": ""
+   },
+   "EP1940_NUER": {
+    "author": "E.E. Evans-Pritchard",
+    "title": "The Nuer: A Description of the Modes of Livelihood and Political Institutions of a Nilotic People",
+    "publisher": "Clarendon Press",
+    "year": "1940",
+    "url": "https://monoskop.org/images/4/4d/Evans_Pritchard_E_E_The_Nuer_a_description_of_the_modes_1940.pdf",
+    "pages": ""
+   },
+   "GHA2": {
+    "author": "G. Mokhtar (ed.), UNESCO International Scientific Committee",
+    "title": "General History of Africa, II: Ancient Civilizations of Africa",
+    "publisher": "UNESCO / Heinemann / University of California Press",
+    "year": "1981",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265",
+    "isbn": "92-3-101708-X",
+    "note": "Ch.9 N.M. Sherif (p.245); ch.10 J. Leclant (pp.278–297)",
+    "pages": ""
+   },
+   "GHAIII": {
+    "author": "UNESCO International Scientific Committee",
+    "title": "General History of Africa, III: Africa from the Seventh to the Eleventh Century",
+    "publisher": "UNESCO",
+    "year": "",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184282",
+    "note": "Volume-level citation; chapters not checked",
+    "pages": ""
+   },
+   "GHAIV": {
+    "author": "UNESCO International Scientific Committee",
+    "title": "General History of Africa, IV: Africa from the Twelfth to the Sixteenth Century",
+    "publisher": "UNESCO",
+    "year": "",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184287",
+    "note": "Volume-level citation; chapters not checked",
+    "pages": ""
+   },
+   "GHAV": {
+    "author": "UNESCO International Scientific Committee",
+    "title": "General History of Africa, V: Africa from the Sixteenth to the Eighteenth Century",
+    "publisher": "UNESCO",
+    "year": "",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000121577",
+    "note": "Volume-level citation; chapters not checked",
+    "pages": ""
+   },
+   "GHAVI": {
+    "author": "UNESCO International Scientific Committee",
+    "title": "General History of Africa, VI: Africa in the Nineteenth Century until the 1880s",
+    "publisher": "UNESCO",
+    "year": "",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184295",
+    "note": "Volume-level citation; chapters not checked",
+    "pages": ""
+   },
+   "GHAVII": {
+    "author": "UNESCO International Scientific Committee",
+    "title": "General History of Africa, VII: Africa under Colonial Domination 1880–1935",
+    "publisher": "UNESCO",
+    "year": "",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184296",
+    "note": "Volume-level citation; chapters not checked",
+    "pages": ""
+   },
+   "GHAVIII": {
+    "author": "UNESCO International Scientific Committee",
+    "title": "General History of Africa, VIII: Africa since 1935",
+    "publisher": "UNESCO",
+    "year": "",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184297",
+    "note": "Volume-level citation; chapters not checked",
+    "pages": ""
+   },
+   "HD2011": {
+    "author": "P.M. Holt & M.W. Daly",
+    "title": "A History of the Sudan: From the Coming of Islam to the Present Day",
+    "edition": "6th ed.",
+    "publisher": "Routledge (Pearson/Longman)",
+    "year": "2011",
+    "url": "https://doi.org/10.4324/9781315834030",
+    "isbn": "978-1-4058-7445-8",
+    "pages": ""
+   },
+   "ICG2014": {
+    "author": "International Crisis Group",
+    "title": "South Sudan: A Civil War by Any Other Name (Africa Report 217)",
+    "publisher": "ICG",
+    "year": "2014",
+    "url": "https://www.crisisgroup.org/sites/default/files/south-sudan-a-civil-war-by-any-other-name.pdf",
+    "pages": ""
+   },
+   "ICG2019": {
+    "author": "International Crisis Group",
+    "title": "Safeguarding Sudan's Revolution (Africa Report 281)",
+    "publisher": "ICG",
+    "year": "2019",
+    "url": "https://www.crisisgroup.org/africa/horn-africa/sudan/281-safeguarding-sudans-revolution",
+    "pages": ""
+   },
+   "ICG2021": {
+    "author": "International Crisis Group",
+    "title": "Reversing Sudan's Dangerous Coup",
+    "publisher": "ICG",
+    "year": "2021",
+    "url": "https://www.crisisgroup.org/africa/horn-africa/sudan/reversing-sudans-dangerous-coup",
+    "pages": ""
+   },
+   "IPC_FRC2024": {
+    "author": "IPC Famine Review Committee",
+    "title": "Famine Review Committee report: Zamzam camp, North Darfur, Sudan",
+    "publisher": "IPC",
+    "year": "2024",
+    "url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Famine_Review_Committee_Report_Sudan_July2024.pdf",
+    "pages": ""
+   },
+   "JEDDAH2023": {
+    "author": "US Department of State",
+    "title": "Jeddah Declaration of Commitment to Protect the Civilians of Sudan",
+    "publisher": "US Department of State",
+    "year": "2023",
+    "url": "https://www.state.gov/jeddah-declaration-of-commitment-to-protect-the-civilians-of-sudan",
+    "pages": ""
+   },
+   "KERMA_MISSION": {
+    "author": "Swiss-Sudanese Archaeological Mission at Kerma",
+    "title": "History (Kerma chronology)",
+    "publisher": "kerma.ch",
+    "year": "",
+    "url": "https://kerma.ch/en/history/",
+    "pages": ""
+   },
+   "OFAHEY2008": {
+    "author": "R.S. O'Fahey",
+    "title": "The Darfur Sultanate: A History",
+    "publisher": "Hurst / Columbia University Press",
+    "year": "2008",
+    "url": "https://books.google.com/books?id=HQxYJWkO7EEC",
+    "isbn": "978-0-231-70038-2 (Columbia); 978-1-85065-853-5 (Hurst)",
+    "pages": ""
+   },
+   "OFAHEY_SPAULDING1972": {
+    "author": "R.S. O'Fahey & J. Spaulding",
+    "title": "Hāshim and the Musabba'āt",
+    "publisher": "Bulletin of the School of Oriental and African Studies",
+    "year": "1972",
+    "url": "https://doi.org/10.1017/s0041977x00109383",
+    "pages": ""
+   },
+   "PL:795777": {
+    "author": "Pleiades gazetteer",
+    "title": "Place 795777",
+    "publisher": "ISAW, NYU",
+    "year": "",
+    "url": "https://pleiades.stoa.org/places/795777",
+    "pages": ""
+   },
+   "PL:795783": {
+    "author": "Pleiades gazetteer",
+    "title": "Place 795783",
+    "publisher": "ISAW, NYU",
+    "year": "",
+    "url": "https://pleiades.stoa.org/places/795783",
+    "pages": ""
+   },
+   "PL:795855": {
+    "author": "Pleiades gazetteer",
+    "title": "Place 795855",
+    "publisher": "ISAW, NYU",
+    "year": "",
+    "url": "https://pleiades.stoa.org/places/795855",
+    "pages": ""
+   },
+   "RARCSS2018": {
+    "author": "IGAD (text via Peace Accords Matrix, Univ. of Notre Dame)",
+    "title": "Revitalised Agreement on the Resolution of the Conflict in the Republic of South Sudan",
+    "publisher": "IGAD",
+    "year": "2018",
+    "url": "https://peaceaccords.nd.edu/wp-content/uploads/2020/01/9-12-2018-R-ARCSS.pdf",
+    "pages": ""
+   },
+   "RILLY_SN22": {
+    "author": "Claude Rilly",
+    "title": "The QSAP Programme on the Temple of Queen Tiye in Sedeinga",
+    "publisher": "Sudan & Nubia 22, Sudan Archaeological Research Society",
+    "year": "2018",
+    "url": "https://www.sudarchrs.org.uk/wp-content/uploads/2020/11/SARS_SN22_Rilly.pdf",
+    "pages": ""
+   },
+   "SPAULDING1985": {
+    "author": "Jay Spaulding",
+    "title": "The Heroic Age in Sinnār",
+    "publisher": "African Studies Center, Michigan State University (1985); later reissue catalogued by LoC",
+    "year": "1985",
+    "url": "https://catdir.loc.gov/catdir/toc/ecip0615/2006019294.html",
+    "pages": ""
+   },
+   "UNNEWS2023": {
+    "author": "UN News",
+    "title": "UN chief and officials condemn fighting between Sudanese forces",
+    "publisher": "United Nations",
+    "year": "2023",
+    "url": "https://news.un.org/en/story/2023/04/1135702",
+    "pages": ""
+   },
+   "UNSC1996": {
+    "author": "UN Security Council",
+    "title": "Resolution 1996 (2011) [UNMISS]",
+    "publisher": "United Nations",
+    "year": "2011",
+    "url": "https://peacekeeping.un.org/sites/default/files/past/unmis/documents/sres1996_2011.pdf",
+    "pages": ""
+   },
+   "UNSC2524": {
+    "author": "UN Security Council",
+    "title": "Resolution 2524 (2020) [UNITAMS]",
+    "publisher": "United Nations",
+    "year": "2020",
+    "url": "https://docs.un.org/en/S/RES/2524(2020)",
+    "pages": ""
+   },
+   "UNSC_SC15257": {
+    "author": "UN Security Council",
+    "title": "Press Statement on Clashes in Sudan (SC/15257)",
+    "publisher": "United Nations",
+    "year": "2023",
+    "url": "https://press.un.org/en/2023/sc15257.doc.htm",
+    "pages": ""
+   },
+   "WD:Q109284524": {
+    "author": "Wikidata",
+    "title": "Q109284524 (coordinates)",
+    "publisher": "Wikimedia",
+    "year": "",
+    "url": "https://www.wikidata.org/wiki/Q109284524",
+    "pages": ""
+   },
+   "WD:Q109284535": {
+    "author": "Wikidata",
+    "title": "Q109284535 (coordinates)",
+    "publisher": "Wikimedia",
+    "year": "",
+    "url": "https://www.wikidata.org/wiki/Q109284535",
+    "pages": ""
+   },
+   "WD:Q1247214": {
+    "author": "Wikidata",
+    "title": "Q1247214 (coordinates)",
+    "publisher": "Wikimedia",
+    "year": "",
+    "url": "https://www.wikidata.org/wiki/Q1247214",
+    "pages": ""
+   },
+   "WD:Q405860": {
+    "author": "Wikidata",
+    "title": "Q405860 (coordinates)",
+    "publisher": "Wikimedia",
+    "year": "",
+    "url": "https://www.wikidata.org/wiki/Q405860",
+    "pages": ""
+   },
+   "WELSBY1996": {
+    "author": "Derek A. Welsby",
+    "title": "The Kingdom of Kush: The Napatan and Meroitic Empires",
+    "publisher": "British Museum Press",
+    "year": "1996",
+    "url": "https://search.worldcat.org/title/34888835",
+    "isbn": "978-0-7141-0986-2",
+    "pages": ""
+   },
+   "WELSBY2002": {
+    "author": "Derek A. Welsby",
+    "title": "The Medieval Kingdoms of Nubia: Pagans, Christians and Muslims along the Middle Nile",
+    "publisher": "British Museum Press",
+    "year": "2002",
+    "url": "https://doi.org/10.1017/s002185370323855x",
+    "isbn": "0-7141-1947-4",
+    "note": "URL is a review record (J. African History)",
+    "pages": ""
+   },
+   "WHC1073": {
+    "author": "UNESCO World Heritage Centre",
+    "title": "Gebel Barkal and the Sites of the Napatan Region",
+    "publisher": "UNESCO",
+    "year": "2003",
+    "url": "https://whc.unesco.org/en/list/1073",
+    "pages": ""
+   },
+   "WHC1336": {
+    "author": "UNESCO World Heritage Centre",
+    "title": "Archaeological Sites of the Island of Meroe",
+    "publisher": "UNESCO",
+    "year": "2011",
+    "url": "https://whc.unesco.org/en/list/1336",
+    "pages": ""
+   },
+   "WP:2021_Sudanese_coup_d'état": {
+    "author": "Wikipedia contributors",
+    "title": "2021 Sudanese coup d'état",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/2021_Sudanese_coup_d'état",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:A-Group_culture": {
+    "author": "Wikipedia contributors",
+    "title": "A-Group culture",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/A-Group_culture",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Abbasid_Caliphate": {
+    "author": "Wikipedia contributors",
+    "title": "Abbasid Caliphate",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Abbasid_Caliphate",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Addis_Ababa_Agreement_(1972)": {
+    "author": "Wikipedia contributors",
+    "title": "Addis Ababa Agreement (1972)",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Addis_Ababa_Agreement_(1972)",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Ali_Dinar": {
+    "author": "Wikipedia contributors",
+    "title": "Ali Dinar",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Ali_Dinar",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Alodia": {
+    "author": "Wikipedia contributors",
+    "title": "Alodia",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Alodia",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Amanirenas": {
+    "author": "Wikipedia contributors",
+    "title": "Amanirenas",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Amanirenas",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Anglo-Egyptian_Sudan": {
+    "author": "Wikipedia contributors",
+    "title": "Anglo-Egyptian Sudan",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Anglo-Egyptian_Sudan",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Aswan_Dam": {
+    "author": "Wikipedia contributors",
+    "title": "Aswan Dam",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Aswan_Dam",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Ballana_culture": {
+    "author": "Wikipedia contributors",
+    "title": "Ballana culture",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Ballana_culture",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Baqt": {
+    "author": "Wikipedia contributors",
+    "title": "Baqt",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Baqt",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Battle_of_Gallabat": {
+    "author": "Wikipedia contributors",
+    "title": "Battle of Gallabat",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Gallabat",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Battle_of_Omdurman": {
+    "author": "Wikipedia contributors",
+    "title": "Battle of Omdurman",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Omdurman",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Bornu_Empire": {
+    "author": "Wikipedia contributors",
+    "title": "Bornu Empire",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Bornu_Empire",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:C-Group_culture": {
+    "author": "Wikipedia contributors",
+    "title": "C-Group culture",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/C-Group_culture",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Central_African_Republic": {
+    "author": "Wikipedia contributors",
+    "title": "Central African Republic",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Central_African_Republic",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Chad": {
+    "author": "Wikipedia contributors",
+    "title": "Chad",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Chad",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Comprehensive_Peace_Agreement": {
+    "author": "Wikipedia contributors",
+    "title": "Comprehensive Peace Agreement",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Comprehensive_Peace_Agreement",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Daju_people": {
+    "author": "Wikipedia contributors",
+    "title": "Daju people",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Daju_people",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Derg": {
+    "author": "Wikipedia contributors",
+    "title": "Derg",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Derg",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Dʿmt": {
+    "author": "Wikipedia contributors",
+    "title": "Dʿmt",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Dʿmt",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Early_Khartoum": {
+    "author": "Wikipedia contributors",
+    "title": "Early Khartoum",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Early_Khartoum",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Egypt_(Roman_province)": {
+    "author": "Wikipedia contributors",
+    "title": "Egypt (Roman province)",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Egypt_(Roman_province)",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Eritrea": {
+    "author": "Wikipedia contributors",
+    "title": "Eritrea",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Eritrea",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Ethiopian_Empire": {
+    "author": "Wikipedia contributors",
+    "title": "Ethiopian Empire",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Ethiopian_Empire",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Ezana_of_Axum": {
+    "author": "Wikipedia contributors",
+    "title": "Ezana of Axum",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Ezana_of_Axum",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Fatimid_Caliphate": {
+    "author": "Wikipedia contributors",
+    "title": "Fatimid Caliphate",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Fatimid_Caliphate",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:First_Sudanese_Civil_War": {
+    "author": "Wikipedia contributors",
+    "title": "First Sudanese Civil War",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/First_Sudanese_Civil_War",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Funj_Sultanate": {
+    "author": "Wikipedia contributors",
+    "title": "Funj Sultanate",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Funj_Sultanate",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Gaafar_Nimeiry": {
+    "author": "Wikipedia contributors",
+    "title": "Gaafar Nimeiry",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Gaafar_Nimeiry",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Garamantes": {
+    "author": "Wikipedia contributors",
+    "title": "Garamantes",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Garamantes",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Grand_Ethiopian_Renaissance_Dam": {
+    "author": "Wikipedia contributors",
+    "title": "Grand Ethiopian Renaissance Dam",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Grand_Ethiopian_Renaissance_Dam",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:History_of_Darfur": {
+    "author": "Wikipedia contributors",
+    "title": "History of Darfur",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/History_of_Darfur",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:History_of_Libya": {
+    "author": "Wikipedia contributors",
+    "title": "History of Libya",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/History_of_Libya",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:History_of_Sudan_(1956–1969)": {
+    "author": "Wikipedia contributors",
+    "title": "History of Sudan (1956–1969)",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/History_of_Sudan_(1956–1969)",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Ibrahim_Abboud": {
+    "author": "Wikipedia contributors",
+    "title": "Ibrahim Abboud",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Ibrahim_Abboud",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Kanem_Empire": {
+    "author": "Wikipedia contributors",
+    "title": "Kanem Empire",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Kanem_Empire",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Kerma_culture": {
+    "author": "Wikipedia contributors",
+    "title": "Kerma culture",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Kerma_culture",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Khartoum_Neolithic": {
+    "author": "Wikipedia contributors",
+    "title": "Khartoum Neolithic",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Khartoum_Neolithic",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Kingdom_of_Aksum": {
+    "author": "Wikipedia contributors",
+    "title": "Kingdom of Aksum",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Aksum",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Kingdom_of_Egypt": {
+    "author": "Wikipedia contributors",
+    "title": "Kingdom of Egypt",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Egypt",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Kingdom_of_Kush": {
+    "author": "Wikipedia contributors",
+    "title": "Kingdom of Kush",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kush",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Kingdom_of_Taqali": {
+    "author": "Wikipedia contributors",
+    "title": "Kingdom of Taqali",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Taqali",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Late_Period_of_ancient_Egypt": {
+    "author": "Wikipedia contributors",
+    "title": "Late Period of ancient Egypt",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Late_Period_of_ancient_Egypt",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Mahdist_State": {
+    "author": "Wikipedia contributors",
+    "title": "Mahdist State",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Mahdist_State",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Makuria": {
+    "author": "Wikipedia contributors",
+    "title": "Makuria",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Makuria",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Mamluk_Sultanate": {
+    "author": "Wikipedia contributors",
+    "title": "Mamluk Sultanate",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Meroë": {
+    "author": "Wikipedia contributors",
+    "title": "Meroë",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Meroë",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Middle_Kingdom_of_Egypt": {
+    "author": "Wikipedia contributors",
+    "title": "Middle Kingdom of Egypt",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Middle_Kingdom_of_Egypt",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Muhammad_Ali_dynasty": {
+    "author": "Wikipedia contributors",
+    "title": "Muhammad Ali dynasty",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Muhammad_Ali_dynasty",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Muhammad_Tayrab": {
+    "author": "Wikipedia contributors",
+    "title": "Muhammad Tayrab",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Muhammad_Tayrab",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Muslim_conquest_of_Egypt": {
+    "author": "Wikipedia contributors",
+    "title": "Muslim conquest of Egypt",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Egypt",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:New_Kingdom_of_Egypt": {
+    "author": "Wikipedia contributors",
+    "title": "New Kingdom of Egypt",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/New_Kingdom_of_Egypt",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Nobadia": {
+    "author": "Wikipedia contributors",
+    "title": "Nobadia",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Nobadia",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:October_1964_Revolution": {
+    "author": "Wikipedia contributors",
+    "title": "October 1964 Revolution",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/October_1964_Revolution",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Old_Kingdom_of_Egypt": {
+    "author": "Wikipedia contributors",
+    "title": "Old Kingdom of Egypt",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Old_Kingdom_of_Egypt",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Omar_al-Bashir": {
+    "author": "Wikipedia contributors",
+    "title": "Omar al-Bashir",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Omar_al-Bashir",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Ottoman_Egyptian_invasion_of_Sudan": {
+    "author": "Wikipedia contributors",
+    "title": "Ottoman Egyptian invasion of Sudan",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Ottoman_Egyptian_invasion_of_Sudan",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Ptolemaic_Kingdom": {
+    "author": "Wikipedia contributors",
+    "title": "Ptolemaic Kingdom",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Ptolemaic_Kingdom",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Rashidun_Caliphate": {
+    "author": "Wikipedia contributors",
+    "title": "Rashidun Caliphate",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Rashidun_Caliphate",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Sabaeans": {
+    "author": "Wikipedia contributors",
+    "title": "Sabaeans",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Sabaeans",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Sadiq_al-Mahdi": {
+    "author": "Wikipedia contributors",
+    "title": "Sadiq al-Mahdi",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Sadiq_al-Mahdi",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Saudi_Arabia": {
+    "author": "Wikipedia contributors",
+    "title": "Saudi Arabia",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Saudi_Arabia",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Second_Sudanese_Civil_War": {
+    "author": "Wikipedia contributors",
+    "title": "Second Sudanese Civil War",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Second_Sudanese_Civil_War",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Shilluk_Kingdom": {
+    "author": "Wikipedia contributors",
+    "title": "Shilluk Kingdom",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Shilluk_Kingdom",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:South_Sudan": {
+    "author": "Wikipedia contributors",
+    "title": "South Sudan",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/South_Sudan",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:South_Sudanese_Civil_War": {
+    "author": "Wikipedia contributors",
+    "title": "South Sudanese Civil War",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/South_Sudanese_Civil_War",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Suakin": {
+    "author": "Wikipedia contributors",
+    "title": "Suakin",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Suakin",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Sudanese_civil_war_(2023–present)": {
+    "author": "Wikipedia contributors",
+    "title": "Sudanese civil war (2023–present)",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023–present)",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Sudanese_revolution": {
+    "author": "Wikipedia contributors",
+    "title": "Sudanese revolution",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Sudanese_revolution",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Sultanate_of_Darfur": {
+    "author": "Wikipedia contributors",
+    "title": "Sultanate of Darfur",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Sultanate_of_Darfur",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Treaty_of_Jeddah_(2023)": {
+    "author": "Wikipedia contributors",
+    "title": "Treaty of Jeddah (2023)",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Treaty_of_Jeddah_(2023)",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Tunjur_people": {
+    "author": "Wikipedia contributors",
+    "title": "Tunjur people",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Tunjur_people",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Turco-Egyptian_Sudan": {
+    "author": "Wikipedia contributors",
+    "title": "Turco-Egyptian Sudan",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Turco-Egyptian_Sudan",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Twenty-fifth_Dynasty_of_Egypt": {
+    "author": "Wikipedia contributors",
+    "title": "Twenty-fifth Dynasty of Egypt",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Twenty-fifth_Dynasty_of_Egypt",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Viceroy_of_Kush": {
+    "author": "Wikipedia contributors",
+    "title": "Viceroy of Kush",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Viceroy_of_Kush",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Wadai_Sultanate": {
+    "author": "Wikipedia contributors",
+    "title": "Wadai Sultanate",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Wadai_Sultanate",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:War_in_Darfur": {
+    "author": "Wikipedia contributors",
+    "title": "War in Darfur",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/War_in_Darfur",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Zagwe_dynasty": {
+    "author": "Wikipedia contributors",
+    "title": "Zagwe dynasty",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Zagwe_dynasty",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   },
+   "WP:Zande_people": {
+    "author": "Wikipedia contributors",
+    "title": "Zande people",
+    "publisher": "Wikipedia",
+    "year": "",
+    "url": "https://en.wikipedia.org/wiki/Zande_people",
+    "note": "Secondary/starting-point link",
+    "pages": ""
+   }
+  }
+ },
+ "periods": [
+  {
+   "name": "Khartoum Mesolithic (Early Khartoum)",
+   "stream": "Sudan – Middle Nile",
+   "start": -8500,
+   "end": -5000,
+   "prominence": 0.35,
+   "key_events": [
+    "Wavy-line pottery among the earliest ceramics in Africa",
+    "Fishing/hunting settlements along the Nile near Khartoum"
+   ],
+   "capitals": [
+    {
+     "name": "Early Khartoum site",
+     "lat": 15.6,
+     "lon": 32.53
+    }
+   ],
+   "sources": [
+    "AAR2021",
+    "WP:Early_Khartoum"
+   ],
+   "dating_note": "Corrected -8000/-4900 -> c.8500–5000 cal BC for Early Khartoum ceramics of central Sudan (Garcea/Jesse et al., African Archaeological Review 2021 review). Northern 'Khartoum Variant' is c.8000–4900 cal BC. Site point = city-level approximation.",
+   "key_events_ar": [
+    "فخار الخطوط المتموجة من أقدم الفخار في أفريقيا",
+    "مستوطنات صيد الأسماك والقنص على ضفاف النيل قرب الخرطوم"
+   ]
+  },
+  {
+   "name": "Khartoum Neolithic (Shaheinab)",
+   "stream": "Sudan – Middle Nile",
+   "start": -4900,
+   "end": -3800,
+   "prominence": 0.3,
+   "key_events": [
+    "Domesticated cattle, sheep and goat at Esh-Shaheinab"
+   ],
+   "capitals": [
+    {
+     "name": "Esh-Shaheinab",
+     "lat": 16.0624,
+     "lon": 32.5394
+    },
+    {
+     "name": "Kadero",
+     "lat": 15.75,
+     "lon": 32.55
+    }
+   ],
+   "sources": [
+    "WD:Q109284524",
+    "WD:Q109284535",
+    "WP:Khartoum_Neolithic"
+   ],
+   "dating_note": "Approximate; site coordinates from Wikidata (Esh-Shaheinab corrected from 16.13N). Kadero added as second Khartoum Neolithic site (coordinates approximate, Wikidata).",
+   "key_events_ar": [
+    "أبقار وضأن وماعز مستأنسة في الشهيناب"
+   ]
+  },
+  {
+   "name": "A-Group (Lower Nubia)",
+   "stream": "Sudan – Middle Nile",
+   "start": -3800,
+   "end": -2900,
+   "prominence": 0.35,
+   "key_events": [
+    "Trade with Predynastic/Early Dynastic Egypt",
+    "Qustul elite cemetery"
+   ],
+   "capitals": [
+    {
+     "name": "Qustul",
+     "lat": 22.2333,
+     "lon": 31.6167
+    },
+    {
+     "name": "Faras",
+     "lat": 22.2,
+     "lon": 31.46
+    }
+   ],
+   "sources": [
+    "GHA2",
+    "WP:A-Group_culture"
+   ],
+   "dating_note": "UNESCO GHA II ch.9 (Sherif) places the A-Group's flowering c.3100 BCE, contemporary with Egypt's 1st Dynasty; -3800 start is a broad conventional bracket. Qustul coordinates corrected (Wikidata).",
+   "key_events_ar": [
+    "تجارة مع مصر في عصر ما قبل الأسرات والأسرات المبكرة",
+    "جبانة النخبة في قسطل"
+   ]
+  },
+  {
+   "name": "C-Group (Lower Nubia)",
+   "stream": "Sudan – Middle Nile",
+   "start": -2400,
+   "end": -1550,
+   "prominence": 0.3,
+   "key_events": [
+    "Pastoralist culture contemporary with Kerma"
+   ],
+   "capitals": [
+    {
+     "name": "Aniba",
+     "lat": 22.6683,
+     "lon": 32.017
+    }
+   ],
+   "sources": [
+    "PL:795777",
+    "GHA2",
+    "WP:C-Group_culture"
+   ],
+   "dating_note": "GHA II ch.9: C-Group appears late Old Kingdom/First Intermediate Period and lasts until Egyptianisation of Nubia in the 16th c. BCE; -2400 start sits at the early edge. Aniba verified: Pleiades 795777 (BAtlas 81 C3).",
+   "key_events_ar": [
+    "ثقافة رعوية معاصرة لكرمة"
+   ]
+  },
+  {
+   "name": "Kingdom of Kerma",
+   "stream": "Sudan – Middle Nile",
+   "start": -2450,
+   "end": -1480,
+   "prominence": 0.7,
+   "key_events": [
+    "Western Deffufa mud-brick temple",
+    "Largest African state outside Egypt in the 2nd millennium BCE",
+    "Sacked by Thutmose I c.1500 BCE",
+    "Swiss mission phases: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE (Final Kerma to c.1450)"
+   ],
+   "capitals": [
+    {
+     "name": "Kerma",
+     "lat": 19.6008,
+     "lon": 30.4097
+    }
+   ],
+   "sources": [
+    "KERMA_MISSION",
+    "GHA2",
+    "WP:Kerma_culture"
+   ],
+   "dating_note": "Corrected to Swiss Archaeological Mission chronology (kerma.ch). Note GHA II (1981) still dates 'Kerma' to -1730/-1580, i.e. only the Classic phase; superseded by Bonnet/Honegger excavations.",
+   "key_events_ar": [
+    "معبد الدفوفة الغربية المبني من الطوب اللبن",
+    "أكبر دولة أفريقية خارج مصر في الألف الثاني قبل الميلاد",
+    "نهبها تحتمس الأول نحو 1500 ق.م",
+    "مراحل البعثة السويسرية: كرمة المبكرة نحو 2450–2050، والوسطى نحو 2050–1750، والكلاسيكية نحو 1750–1480 ق.م (وكرمة المتأخرة حتى نحو 1450)"
+   ]
+  },
+  {
+   "name": "Egyptian New Kingdom rule in Nubia",
+   "stream": "Sudan – Middle Nile",
+   "start": -1500,
+   "end": -1070,
+   "prominence": 0.45,
+   "key_events": [
+    "Viceroy of Kush administers Nubia",
+    "Temples at Jebel Barkal, Soleb, Abu Simbel"
+   ],
+   "capitals": [
+    {
+     "name": "Jebel Barkal / Napata",
+     "lat": 18.54,
+     "lon": 31.83
+    },
+    {
+     "name": "Soleb",
+     "lat": 20.4333,
+     "lon": 30.3333
+    },
+    {
+     "name": "Kurgus",
+     "lat": 19.2308,
+     "lon": 33.4772
+    }
+   ],
+   "sources": [
+    "WHC1073",
+    "GHA2",
+    "WP:Viceroy_of_Kush"
+   ],
+   "dating_note": "WHC: Gebel Barkal sacred to Amun since c.1500 BCE. Soleb/Kurgus coordinates from Wikidata (approximate).",
+   "key_events_ar": [
+    "نائب الملك في كوش يدير النوبة",
+    "معابد في جبل البركل وصولب وأبو سمبل"
+   ]
+  },
+  {
+   "name": "Kingdom of Kush – Napatan period",
+   "stream": "Sudan – Middle Nile",
+   "start": -800,
+   "end": -270,
+   "prominence": 0.85,
+   "key_events": [
+    "Alara, then Kashta (c.760–750 BCE); Kushites in Upper Egypt c.750",
+    "Peye (Piye/'Piankhi') reign from c.751 BCE; Victory Stela; conquest of Egypt c.728/727",
+    "Shabaka from c.713 BCE founds 25th Dynasty rule over all Egypt",
+    "Shabataka (Shebitku) c.700–690; Taharqa 690–664 BCE (cenotaph/pyramid at Nuri)",
+    "Tanwetamani (Tanoutamon) 664–c.656; Assyrian sack of Thebes 663; Kushite withdrawal",
+    "Atlanarsa 653–643, Senkamanisken 643–623, Anlamani 623–593, Aspelta 593–568 BCE",
+    "Psamtik II's expedition captures Napata (GHA: 591 BCE; widely dated 593 BCE)",
+    "Royal burials at El-Kurru then Nuri; burial shift to Meroe c.270 BCE"
+   ],
+   "capitals": [
+    {
+     "name": "Jebel Barkal / Napata",
+     "lat": 18.5368,
+     "lon": 31.8276
+    },
+    {
+     "name": "El-Kurru",
+     "lat": 18.4089,
+     "lon": 31.7705
+    },
+    {
+     "name": "Nuri",
+     "lat": 18.5643,
+     "lon": 31.9161
+    },
+    {
+     "name": "Kawa (Gematon)",
+     "lat": 19.1231,
+     "lon": 30.4966
+    }
+   ],
+   "sources": [
+    "GHA2",
+    "WELSBY1996",
+    "WHC1073",
+    "WP:Kingdom_of_Kush",
+    "WP:Twenty-fifth_Dynasty_of_Egypt"
+   ],
+   "dating_note": "Reign dates follow UNESCO GHA II ch.10 (Leclant, 1981); later scholarship revises several (incl. the Shabaka/Shebitku order) – treat as approximate. WHC gives Napatan 900–270 BCE; -800 start kept as display convention. Coordinates: Pleiades/Wikidata.",
+   "key_events_ar": [
+    "ألارا ثم كاشتا (نحو 760–750 ق.م)؛ الكوشيون في صعيد مصر نحو 750",
+    "حكم بيي (بيا/«بعنخي») منذ نحو 751 ق.م؛ لوحة النصر؛ فتح مصر نحو 728/727",
+    "شباكا منذ نحو 713 ق.م يؤسس حكم الأسرة الخامسة والعشرين على مصر كلها",
+    "شبتاكا (شبتكو) نحو 700–690؛ طهارقا 690–664 ق.م (ضريحه الرمزي/هرمه في نوري)",
+    "تانوت أماني 664–نحو 656؛ نهب الآشوريين لطيبة 663؛ انسحاب الكوشيين",
+    "أتلانرسا 653–643، سنكامانيسكن 643–623، أنلاماني 623–593، أسبلتا 593–568 ق.م",
+    "حملة بسماتيك الثاني تستولي على نبتة (تاريخ أفريقيا العام: 591 ق.م؛ ويُؤرَّخ على نطاق واسع بـ593 ق.م)",
+    "المدافن الملكية في الكرو ثم نوري؛ انتقال الدفن إلى مروي نحو 270 ق.م"
+   ]
+  },
+  {
+   "name": "Kingdom of Kush – Meroitic period",
+   "stream": "Sudan – Middle Nile",
+   "start": -270,
+   "end": 350,
+   "prominence": 0.8,
+   "key_events": [
+    "Ergamenes/Arkamani (3rd c. BCE), friendly relations with Ptolemaic Egypt",
+    "Queen Shanakdakhete (c.170–160 BCE): among earliest Meroitic hieroglyphic inscriptions (Naqa)",
+    "Taniydamani (late 2nd c. BCE): first long Meroitic texts",
+    "Iron working at Meroe; Meroitic script transliterated by Griffith 1909, language still not understood",
+    "Kandakes Amanirenas and Amanishakheto; Prince/King Akinidad; war with Rome: Napata taken by Petronius 23 BCE (GHA), Treaty of Samos 21/20 BCE",
+    "Natakamani & Amanitore (GHA: c.12 BCE–12 CE; dating debated): Naqa Lion Temple, Amara, restoration of Napata",
+    "Collapse by time of Ezana of Aksum's campaign 'against the Nubas' (c.mid-4th c. CE)"
+   ],
+   "capitals": [
+    {
+     "name": "Meroë",
+     "lat": 16.9351,
+     "lon": 33.7507
+    },
+    {
+     "name": "Naqa",
+     "lat": 16.2694,
+     "lon": 33.275
+    },
+    {
+     "name": "Musawwarat es-Sufra",
+     "lat": 16.4158,
+     "lon": 33.3236
+    },
+    {
+     "name": "Wad ban Naqa",
+     "lat": 16.5111,
+     "lon": 33.1122
+    },
+    {
+     "name": "Hamadab",
+     "lat": 16.9117,
+     "lon": 33.6919
+    },
+    {
+     "name": "Sedeinga",
+     "lat": 20.5435,
+     "lon": 30.2871
+    }
+   ],
+   "sources": [
+    "PL:795855",
+    "RILLY_SN22",
+    "GHA2",
+    "WHC1336",
+    "WELSBY1996",
+    "WP:Meroë",
+    "WP:Kingdom_of_Kush",
+    "WP:Amanirenas"
+   ],
+   "dating_note": "Meroitic chronology uncertain (GHA II: 'particularly serious' for 2nd–1st c. BCE). Which kandake negotiated with Rome (Amanirenas vs Amanishakheto) is unresolved in GHA. End c.350 CE approximate.",
+   "key_events_ar": [
+    "أرجامنيس/أركاماني (القرن الثالث ق.م)، علاقات ودية مع مصر البطلمية",
+    "الملكة شنكداخيتي (نحو 170–160 ق.م): من أقدم النقوش المروية الهيروغليفية (النقعة)",
+    "تانيدأماني (أواخر القرن الثاني ق.م): أول النصوص المروية الطويلة",
+    "صناعة الحديد في مروي؛ نقحرة الخط المروي على يد غريفيث 1909، ولا تزال اللغة غير مفهومة",
+    "الكنداكتان أماني ريناس وأماني شاخيتو؛ الأمير/الملك أكينيداد؛ الحرب مع روما: بترونيوس يستولي على نبتة 23 ق.م (تاريخ أفريقيا العام)، ومعاهدة ساموس 21/20 ق.م",
+    "نتكاماني وأماني تيري (تاريخ أفريقيا العام: نحو 12 ق.م–12 م؛ والتأريخ موضع جدل): معبد الأسد في النقعة، وعمارة، وترميم نبتة",
+    "الانهيار بحلول حملة عيزانا ملك أكسوم «على النوبة» (نحو منتصف القرن الرابع الميلادي)"
+   ]
+  },
+  {
+   "name": "Noba / X-Group (Ballana culture)",
+   "stream": "Sudan – Middle Nile",
+   "start": 350,
+   "end": 550,
+   "prominence": 0.4,
+   "key_events": [
+    "Post-Meroitic royal tumuli at Ballana and Qustul"
+   ],
+   "capitals": [
+    {
+     "name": "Ballana",
+     "lat": 22.2667,
+     "lon": 31.5667
+    }
+   ],
+   "sources": [
+    "PL:795783",
+    "WELSBY2002",
+    "GHA2",
+    "WP:Ballana_culture"
+   ],
+   "dating_note": "Approximate. Ballana coordinates verified: Pleiades 795783 (Barrington Atlas 81 B3). Site now under Lake Nasser.",
+   "key_events_ar": [
+    "تلال المدافن الملكية لما بعد العهد المروي في بلانة وقسطل"
+   ]
+  },
+  {
+   "name": "Nobadia",
+   "stream": "Sudan – Middle Nile",
+   "start": 400,
+   "end": 700,
+   "prominence": 0.4,
+   "key_events": [
+    "Christianised c.543 CE",
+    "Merged into Makuria in the 7th century"
+   ],
+   "capitals": [
+    {
+     "name": "Faras (Pachoras)",
+     "lat": 22.2,
+     "lon": 31.46
+    },
+    {
+     "name": "Qasr Ibrim",
+     "lat": 22.6502,
+     "lon": 31.9915
+    }
+   ],
+   "sources": [
+    "WELSBY2002",
+    "GHA2",
+    "WP:Nobadia"
+   ],
+   "dating_note": "Christianisation c.543 and merger with Makuria (7th c.) per standard accounts; specific dates not re-verified in a primary source in this pass.",
+   "key_events_ar": [
+    "اعتنقت المسيحية نحو 543 م",
+    "اندمجت في المقرة في القرن السابع"
+   ]
+  },
+  {
+   "name": "Makuria",
+   "stream": "Sudan – Middle Nile",
+   "start": 500,
+   "end": 1500,
+   "prominence": 0.7,
+   "key_events": [
+    "Repulsed Arab armies at Dongola 651/652",
+    "Baqt treaty with Egypt",
+    "Faras cathedral frescoes",
+    "Decline under Mamluk pressure, 14th c."
+   ],
+   "capitals": [
+    {
+     "name": "Old Dongola",
+     "lat": 18.22,
+     "lon": 30.75
+    },
+    {
+     "name": "Banganarti",
+     "lat": 18.1667,
+     "lon": 30.7849
+    }
+   ],
+   "sources": [
+    "WELSBY2002",
+    "WP:Makuria",
+    "WP:Baqt"
+   ],
+   "dating_note": "End date approximate (kingdom fragmented in 14th–15th c.).",
+   "key_events_ar": [
+    "صد الجيوش العربية عند دنقلا 651/652",
+    "معاهدة البقط مع مصر",
+    "جداريات كاتدرائية فرس",
+    "الانحدار تحت ضغط المماليك، القرن الرابع عشر"
+   ]
+  },
+  {
+   "name": "Alodia (Alwa)",
+   "stream": "Sudan – Middle Nile",
+   "start": 500,
+   "end": 1504,
+   "prominence": 0.55,
+   "key_events": [
+    "Christian kingdom on the Blue/White Nile",
+    "Capital Soba",
+    "Fell to Funj/Abdallab c.1504"
+   ],
+   "capitals": [
+    {
+     "name": "Soba",
+     "lat": 15.524,
+     "lon": 32.6809
+    }
+   ],
+   "sources": [
+    "WD:Q1247214",
+    "WELSBY2002",
+    "HD2011",
+    "WP:Alodia"
+   ],
+   "dating_note": "Fall c.1504 traditional (Funj/'Abdallab). Soba point confirmed by Wikidata Q1247214 (15.524N 32.681E), consistent with the original; there is no Pleiades entry; no excavation-report coordinate checked.",
+   "key_events_ar": [
+    "مملكة مسيحية على النيل الأزرق/الأبيض",
+    "العاصمة سوبا",
+    "سقطت في يد الفونج/العبدلاب نحو 1504"
+   ]
+  },
+  {
+   "name": "Funj Sultanate of Sennar",
+   "stream": "Sudan – Middle Nile",
+   "start": 1504,
+   "end": 1821,
+   "prominence": 0.75,
+   "key_events": [
+    "Founded by Amara Dunqas 1504",
+    "Islamisation and Sufi orders",
+    "Conquered by Ottoman-Egyptian army 1821",
+    "Holt & Daly: Funj suzerainty over Upper Nubia (above 3rd Cataract) incl. vassal-kingdom of Dongola; 'Abdallab recognised as paramount chiefs of the Arabs"
+   ],
+   "capitals": [
+    {
+     "name": "Sennar",
+     "lat": 13.55,
+     "lon": 33.62
+    }
+   ],
+   "sources": [
+    "HD2011",
+    "SPAULDING1985",
+    "WP:Funj_Sultanate"
+   ],
+   "dating_note": "1504–1821 per Holt & Daly. Foundation by a Shilluk band is a tradition, not established fact.",
+   "key_events_ar": [
+    "أسسها عمارة دنقس 1504",
+    "انتشار الإسلام والطرق الصوفية",
+    "فتحها الجيش التركي المصري 1821",
+    "هولت وديلي: سيادة الفونج على النوبة العليا (جنوب الشلال الثالث) بما فيها مملكة دنقلا التابعة؛ والاعتراف بالعبدلاب شيوخاً أعلى للعرب"
+   ]
+  },
+  {
+   "name": "Turkiyya (Ottoman-Egyptian rule)",
+   "stream": "Sudan – Middle Nile",
+   "start": 1821,
+   "end": 1885,
+   "prominence": 0.7,
+   "key_events": [
+    "Invasion by Muhammad Ali's forces 1820–21",
+    "Khartoum founded as capital c.1824",
+    "Slave and ivory trade expansion"
+   ],
+   "capitals": [
+    {
+     "name": "Khartoum",
+     "lat": 15.5,
+     "lon": 32.56
+    }
+   ],
+   "sources": [
+    "HD2011",
+    "WP:Turco-Egyptian_Sudan",
+    "WP:Ottoman_Egyptian_invasion_of_Sudan"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "غزو قوات محمد علي 1820–1821",
+    "تأسيس الخرطوم عاصمةً نحو 1824",
+    "توسع تجارة الرقيق والعاج"
+   ]
+  },
+  {
+   "name": "Mahdist State (Mahdiyya)",
+   "stream": "Sudan – Middle Nile",
+   "start": 1885,
+   "end": 1899,
+   "prominence": 0.75,
+   "key_events": [
+    "Muhammad Ahmad declares himself Mahdi 1881",
+    "Fall of Khartoum, death of Gordon 1885",
+    "Khalifa Abdallahi rules",
+    "Battle of Omdurman 1898; Umm Diwaykarat 1899"
+   ],
+   "capitals": [
+    {
+     "name": "Omdurman",
+     "lat": 15.64,
+     "lon": 32.48
+    }
+   ],
+   "sources": [
+    "HD2011",
+    "WP:Mahdist_State",
+    "WP:Battle_of_Omdurman"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "محمد أحمد يعلن نفسه المهدي 1881",
+    "سقوط الخرطوم ومقتل غوردون 1885",
+    "حكم الخليفة عبد الله",
+    "معركة أم درمان 1898؛ أم دبيكرات 1899"
+   ]
+  },
+  {
+   "name": "Anglo-Egyptian Sudan (Condominium)",
+   "stream": "Sudan – Middle Nile",
+   "start": 1899,
+   "end": 1956,
+   "prominence": 0.75,
+   "key_events": [
+    "Condominium Agreement 19 Jan 1899",
+    "Gezira Scheme 1925",
+    "Southern Policy",
+    "Self-government 1953"
+   ],
+   "capitals": [
+    {
+     "name": "Khartoum",
+     "lat": 15.5,
+     "lon": 32.56
+    }
+   ],
+   "sources": [
+    "HD2011",
+    "WP:Anglo-Egyptian_Sudan"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "اتفاقية الحكم الثنائي 19 يناير 1899",
+    "مشروع الجزيرة 1925",
+    "سياسة الجنوب",
+    "الحكم الذاتي 1953"
+   ]
+  },
+  {
+   "name": "Independent Sudan – First parliamentary period",
+   "stream": "Sudan – Republic",
+   "start": 1956,
+   "end": 1958,
+   "prominence": 0.5,
+   "key_events": [
+    "Independence 1 January 1956",
+    "PM Ismail al-Azhari, then Abdallah Khalil"
+   ],
+   "capitals": [
+    {
+     "name": "Khartoum",
+     "lat": 15.5,
+     "lon": 32.56
+    }
+   ],
+   "sources": [
+    "HD2011",
+    "WP:History_of_Sudan_(1956–1969)"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "الاستقلال 1 يناير 1956",
+    "رئيس الوزراء إسماعيل الأزهري ثم عبد الله خليل"
+   ]
+  },
+  {
+   "name": "Abboud military regime",
+   "stream": "Sudan – Republic",
+   "start": 1958,
+   "end": 1964,
+   "prominence": 0.5,
+   "key_events": [
+    "Coup Nov 1958",
+    "October Revolution 1964 ends rule"
+   ],
+   "capitals": [
+    {
+     "name": "Khartoum",
+     "lat": 15.5,
+     "lon": 32.56
+    }
+   ],
+   "sources": [
+    "HD2011",
+    "WP:Ibrahim_Abboud",
+    "WP:October_1964_Revolution"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "انقلاب نوفمبر 1958",
+    "ثورة أكتوبر 1964 تنهي الحكم"
+   ]
+  },
+  {
+   "name": "Second parliamentary period",
+   "stream": "Sudan – Republic",
+   "start": 1964,
+   "end": 1969,
+   "prominence": 0.45,
+   "key_events": [
+    "Civilian governments; First Sudanese Civil War continues"
+   ],
+   "capitals": [
+    {
+     "name": "Khartoum",
+     "lat": 15.5,
+     "lon": 32.56
+    }
+   ],
+   "sources": [
+    "HD2011",
+    "WP:History_of_Sudan_(1956–1969)"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "حكومات مدنية؛ استمرار الحرب الأهلية السودانية الأولى"
+   ]
+  },
+  {
+   "name": "Nimeiry era (Democratic Republic of Sudan)",
+   "stream": "Sudan – Republic",
+   "start": 1969,
+   "end": 1985,
+   "prominence": 0.6,
+   "key_events": [
+    "May 1969 coup",
+    "Addis Ababa Agreement 1972 ends first civil war",
+    "September Laws 1983; Second Civil War begins",
+    "April 1985 uprising"
+   ],
+   "capitals": [
+    {
+     "name": "Khartoum",
+     "lat": 15.5,
+     "lon": 32.56
+    }
+   ],
+   "sources": [
+    "HD2011",
+    "WP:Gaafar_Nimeiry",
+    "WP:Addis_Ababa_Agreement_(1972)"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "انقلاب مايو 1969",
+    "اتفاقية أديس أبابا 1972 تنهي الحرب الأهلية الأولى",
+    "قوانين سبتمبر 1983؛ اندلاع الحرب الأهلية الثانية",
+    "انتفاضة أبريل 1985"
+   ]
+  },
+  {
+   "name": "Transitional & third parliamentary period",
+   "stream": "Sudan – Republic",
+   "start": 1985,
+   "end": 1989,
+   "prominence": 0.45,
+   "key_events": [
+    "Swar al-Dahab transitional council",
+    "PM Sadiq al-Mahdi 1986–89"
+   ],
+   "capitals": [
+    {
+     "name": "Khartoum",
+     "lat": 15.5,
+     "lon": 32.56
+    }
+   ],
+   "sources": [
+    "HD2011",
+    "WP:Sadiq_al-Mahdi"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "المجلس الانتقالي برئاسة سوار الذهب",
+    "رئيس الوزراء الصادق المهدي 1986–1989"
+   ]
+  },
+  {
+   "name": "Al-Bashir / NCP (Ingaz) regime",
+   "stream": "Sudan – Republic",
+   "start": 1989,
+   "end": 2019,
+   "prominence": 0.7,
+   "key_events": [
+    "30 June 1989 coup",
+    "Darfur war from 2003; ICC warrants 2009",
+    "Comprehensive Peace Agreement 2005",
+    "South Sudan secedes 9 July 2011"
+   ],
+   "capitals": [
+    {
+     "name": "Khartoum",
+     "lat": 15.5,
+     "lon": 32.56
+    }
+   ],
+   "sources": [
+    "HD2011",
+    "WP:Omar_al-Bashir",
+    "WP:War_in_Darfur",
+    "WP:Comprehensive_Peace_Agreement"
+   ],
+   "dating_note": "Holt & Daly 6th ed. (2011) covers to c.2010; 2011+ events still Wikipedia-sourced.",
+   "key_events_ar": [
+    "انقلاب 30 يونيو 1989",
+    "حرب دارفور منذ 2003؛ مذكرات المحكمة الجنائية الدولية 2009",
+    "اتفاقية السلام الشامل 2005",
+    "انفصال جنوب السودان 9 يوليو 2011"
+   ]
+  },
+  {
+   "name": "December Revolution & transition",
+   "stream": "Sudan – Republic",
+   "start": 2019,
+   "end": 2023,
+   "prominence": 0.55,
+   "key_events": [
+    "Protests from Dec 2018; Bashir ousted 11 Apr 2019",
+    "Sovereignty Council; PM Abdalla Hamdok",
+    "Military coup 25 Oct 2021",
+    "Constitutional Document signed 17 Aug 2019; Hamdok PM; cabinet 8 Sep 2019 (ICG)",
+    "UNITAMS created by UNSC res. 2524, 3 Jun 2020"
+   ],
+   "capitals": [
+    {
+     "name": "Khartoum",
+     "lat": 15.5,
+     "lon": 32.56
+    }
+   ],
+   "sources": [
+    "ICG2019",
+    "ICG2021",
+    "UNSC2524",
+    "WP:Sudanese_revolution",
+    "WP:2021_Sudanese_coup_d'état"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "احتجاجات منذ ديسمبر 2018؛ الإطاحة بالبشير 11 أبريل 2019",
+    "مجلس السيادة؛ رئيس الوزراء عبد الله حمدوك",
+    "الانقلاب العسكري 25 أكتوبر 2021",
+    "توقيع الوثيقة الدستورية 17 أغسطس 2019؛ حمدوك رئيساً للوزراء؛ تشكيل الحكومة 8 سبتمبر 2019 (مجموعة الأزمات الدولية)",
+    "إنشاء بعثة يونيتامس بقرار مجلس الأمن 2524، 3 يونيو 2020"
+   ]
+  },
+  {
+   "name": "War in Sudan (SAF vs RSF)",
+   "stream": "Sudan – Republic",
+   "start": 2023,
+   "end": 2026,
+   "prominence": 0.6,
+   "key_events": [
+    "Fighting erupts 15 April 2023",
+    "Mass displacement; famine declared in parts of Darfur 2024",
+    "Government relocates to Port Sudan",
+    "Jeddah Declaration on protection of civilians, 11 May 2023",
+    "IPC Famine Review Committee: famine plausibly ongoing in Zamzam camp, July 2024 (published 1 Aug 2024)"
+   ],
+   "capitals": [
+    {
+     "name": "Port Sudan",
+     "lat": 19.62,
+     "lon": 37.22
+    },
+    {
+     "name": "Khartoum",
+     "lat": 15.5,
+     "lon": 32.56
+    }
+   ],
+   "sources": [
+    "UNNEWS2023",
+    "UNSC_SC15257",
+    "IPC_FRC2024",
+    "JEDDAH2023",
+    "WP:Sudanese_civil_war_(2023–present)"
+   ],
+   "dating_note": "Ongoing; end=present. 'Government relocates to Port Sudan' not yet tied to a non-Wikipedia source (UN sources confirm the UN hub moved there).",
+   "key_events_ar": [
+    "اندلاع القتال 15 أبريل 2023",
+    "نزوح جماعي؛ إعلان المجاعة في أجزاء من دارفور 2024",
+    "انتقال الحكومة إلى بورتسودان",
+    "إعلان جدة لحماية المدنيين، 11 مايو 2023",
+    "لجنة مراجعة المجاعة التابعة للتصنيف المرحلي المتكامل: المجاعة مرجحة الاستمرار في معسكر زمزم، يوليو 2024 (نُشر في 1 أغسطس 2024)"
+   ]
+  },
+  {
+   "name": "Daju kingdom",
+   "stream": "Sudan – Darfur & Kordofan",
+   "start": 1100,
+   "end": 1400,
+   "prominence": 0.3,
+   "key_events": [
+    "Early recorded dynasty of Darfur (dates uncertain)"
+   ],
+   "capitals": [
+    {
+     "name": "Jebel Marra region",
+     "lat": 13.0,
+     "lon": 24.3
+    }
+   ],
+   "sources": [
+    "OFAHEY2008",
+    "WP:Daju_people",
+    "WP:History_of_Darfur"
+   ],
+   "dating_note": "Very approximate; known mainly from oral tradition (O'Fahey 2008, 'Daju and Tunjur'). Jebel Marra point is a regional marker.",
+   "key_events_ar": [
+    "أسرة حاكمة مبكرة مدونة في دارفور (التواريخ غير مؤكدة)"
+   ]
+  },
+  {
+   "name": "Tunjur kingdom",
+   "stream": "Sudan – Darfur & Kordofan",
+   "start": 1400,
+   "end": 1650,
+   "prominence": 0.3,
+   "key_events": [
+    "Ruled Darfur and Wadai before the Keira"
+   ],
+   "capitals": [
+    {
+     "name": "Ain Farah",
+     "lat": 14.2657,
+     "lon": 24.3161
+    }
+   ],
+   "sources": [
+    "WD:Q405860",
+    "OFAHEY2008",
+    "WP:Tunjur_people"
+   ],
+   "dating_note": "Approximate. Ain Farah corrected 15.0N 24.9E -> 14.2657N 24.3161E (2nd Wikidata statement; matches de/ar Wikipedia). Wikidata's other value 16.76N 29.19E (repeated on rainerebert.com) lies outside Darfur and is rejected. MEDIUM confidence: the descriptive '15 km NW of Kutum' does not fit (point is c.35 km W of Kutum); no excavation-report coordinate found.",
+   "key_events_ar": [
+    "حكموا دارفور ووداي قبل الكيرا"
+   ]
+  },
+  {
+   "name": "Sultanate of Darfur (Keira)",
+   "stream": "Sudan – Darfur & Kordofan",
+   "start": 1650,
+   "end": 1874,
+   "prominence": 0.55,
+   "key_events": [
+    "Keira dynasty from Jabal Marra; founder Sulayman (Solongdungu) – O'Fahey dates the sultanate c.1650–1916",
+    "Expansion into Kordofan under Muhammad Tayrab c.1785",
+    "Capital fixed at al-Fashir c.1790/91 under 'Abd al-Rahman",
+    "Conquered by al-Zubayr Rahma 1874"
+   ],
+   "capitals": [
+    {
+     "name": "El Fasher",
+     "lat": 13.63,
+     "lon": 25.35
+    }
+   ],
+   "sources": [
+    "OFAHEY2008",
+    "HD2011",
+    "WP:Sultanate_of_Darfur"
+   ],
+   "dating_note": "Start corrected 1603→c.1650 (O'Fahey 2008). Older chronologies place Sulayman earlier; founding date genuinely uncertain. El Fasher date c.1790–91.",
+   "key_events_ar": [
+    "أسرة الكيرا من جبل مرة؛ المؤسس سليمان (سولونج) – يؤرخ أوفاهي السلطنة بنحو 1650–1916",
+    "التوسع في كردفان في عهد محمد تيراب نحو 1785",
+    "تثبيت العاصمة في الفاشر نحو 1790/1791 في عهد عبد الرحمن",
+    "فتحها الزبير رحمة 1874"
+   ]
+  },
+  {
+   "name": "Restored Darfur Sultanate (Ali Dinar)",
+   "stream": "Sudan – Darfur & Kordofan",
+   "start": 1898,
+   "end": 1916,
+   "prominence": 0.35,
+   "key_events": [
+    "Ali Dinar rules autonomously",
+    "Annexed by Anglo-Egyptian Sudan 1916"
+   ],
+   "capitals": [
+    {
+     "name": "El Fasher",
+     "lat": 13.63,
+     "lon": 25.35
+    }
+   ],
+   "sources": [
+    "OFAHEY2008",
+    "HD2011",
+    "WP:Ali_Dinar",
+    "WP:Sultanate_of_Darfur"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "علي دينار يحكم حكماً ذاتياً",
+    "ضمها السودان الإنجليزي المصري 1916"
+   ]
+  },
+  {
+   "name": "Kingdom of Taqali",
+   "stream": "Sudan – Darfur & Kordofan",
+   "start": 1750,
+   "end": 1969,
+   "prominence": 0.25,
+   "key_events": [
+    "Nuba Mountains kingdom; tributary to Funj/Darfur at times",
+    "Incorporated into Condominium administration"
+   ],
+   "capitals": [
+    {
+     "name": "Tegali / Tasi",
+     "lat": 11.95,
+     "lon": 31.05
+    }
+   ],
+   "sources": [
+    "HD2011",
+    "WP:Kingdom_of_Taqali"
+   ],
+   "dating_note": "Founding c.1750 and end 1969 NOT verified. Holt & Daly: semi-autonomous after 1821 and integrated into Condominium local government; royal line claims Ja'ali holy-man ancestry.",
+   "key_events_ar": [
+    "مملكة في جبال النوبة؛ تابعة بالخراج للفونج/دارفور أحياناً",
+    "أُدمجت في إدارة الحكم الثنائي"
+   ]
+  },
+  {
+   "name": "Shilluk Kingdom",
+   "stream": "South Sudan – Upper Nile",
+   "start": 1490,
+   "end": 1861,
+   "prominence": 0.35,
+   "key_events": [
+    "Founded by Nyikang (tradition)",
+    "Royal seat at Fashoda",
+    "Holt & Daly: range formerly reached Aba Island (mid-19th c.); raided Arab settlements down the White Nile until early Turco-Egyptian period",
+    "Tradition ascribes the Funj foundation to a Shilluk war-band"
+   ],
+   "capitals": [
+    {
+     "name": "Fashoda (Kodok)",
+     "lat": 9.88,
+     "lon": 32.12
+    }
+   ],
+   "sources": [
+    "HD2011",
+    "WP:Shilluk_Kingdom"
+   ],
+   "dating_note": "Founding c.1490 traditional (Nyikang); 1861 end-point not re-verified.",
+   "key_events_ar": [
+    "أسسها نيكانغ (بحسب الرواية التقليدية)",
+    "المقر الملكي في فشودة",
+    "هولت وديلي: امتد نطاقهم سابقاً حتى جزيرة أبا (منتصف القرن التاسع عشر)؛ وأغاروا على مستوطنات العرب على مجرى النيل الأبيض حتى مطلع العهد التركي المصري",
+    "تنسب الرواية التقليدية تأسيس دولة الفونج إلى عصبة محاربين من الشلك"
+   ]
+  },
+  {
+   "name": "Southern Sudan under Condominium / Sudan",
+   "stream": "South Sudan – Upper Nile",
+   "start": 1899,
+   "end": 2011,
+   "prominence": 0.35,
+   "key_events": [
+    "First Civil War 1955–72",
+    "Second Civil War 1983–2005",
+    "Referendum Jan 2011"
+   ],
+   "capitals": [
+    {
+     "name": "Juba",
+     "lat": 4.85,
+     "lon": 31.58
+    }
+   ],
+   "sources": [
+    "UNSC1996",
+    "HD2011",
+    "WP:First_Sudanese_Civil_War",
+    "WP:Second_Sudanese_Civil_War"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "الحرب الأهلية الأولى 1955–1972",
+    "الحرب الأهلية الثانية 1983–2005",
+    "الاستفتاء يناير 2011"
+   ]
+  },
+  {
+   "name": "Republic of South Sudan",
+   "stream": "South Sudan – Upper Nile",
+   "start": 2011,
+   "end": 2026,
+   "prominence": 0.4,
+   "key_events": [
+    "Independence 9 July 2011; UNMISS created by UNSC res. 1996 (8 Jul 2011)",
+    "Civil war from 15 Dec 2013 (ICG 2014)",
+    "R-ARCSS signed 12 Sep 2018",
+    "Revitalised Transitional Government of National Unity formed 22 Feb 2020 (ACCORD)"
+   ],
+   "capitals": [
+    {
+     "name": "Juba",
+     "lat": 4.85,
+     "lon": 31.58
+    }
+   ],
+   "sources": [
+    "UNSC1996",
+    "ICG2014",
+    "RARCSS2018",
+    "ACCORD2020",
+    "WP:South_Sudan",
+    "WP:South_Sudanese_Civil_War"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "الاستقلال 9 يوليو 2011؛ إنشاء بعثة أونميس بقرار مجلس الأمن 1996 (8 يوليو 2011)",
+    "الحرب الأهلية منذ 15 ديسمبر 2013 (مجموعة الأزمات الدولية 2014)",
+    "توقيع الاتفاقية المنشطة لحل النزاع في جنوب السودان 12 سبتمبر 2018",
+    "تشكيل حكومة الوحدة الوطنية الانتقالية المنشطة 22 فبراير 2020 (أكورد)"
+   ]
+  },
+  {
+   "name": "Early Dynastic & Old Kingdom Egypt",
+   "stream": "Egypt",
+   "start": -3100,
+   "end": -2181,
+   "prominence": 0.8,
+   "key_events": [
+    "Unification c.3100 BCE",
+    "Giza pyramids"
+   ],
+   "capitals": [
+    {
+     "name": "Memphis",
+     "lat": 29.84,
+     "lon": 31.25
+    }
+   ],
+   "sources": [
+    "GHA2",
+    "WP:Old_Kingdom_of_Egypt"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "التوحيد نحو 3100 ق.م",
+    "أهرامات الجيزة"
+   ]
+  },
+  {
+   "name": "Middle Kingdom Egypt",
+   "stream": "Egypt",
+   "start": -2055,
+   "end": -1650,
+   "prominence": 0.7,
+   "key_events": [
+    "Fortresses at the Second Cataract (Buhen, Semna)"
+   ],
+   "capitals": [
+    {
+     "name": "Itjtawy",
+     "lat": 29.4,
+     "lon": 31.2
+    }
+   ],
+   "sources": [
+    "GHA2",
+    "WP:Middle_Kingdom_of_Egypt"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "قلاع عند الشلال الثاني (بوهن، سمنة)"
+   ]
+  },
+  {
+   "name": "New Kingdom Egypt",
+   "stream": "Egypt",
+   "start": -1550,
+   "end": -1070,
+   "prominence": 0.9,
+   "key_events": [
+    "Conquest of Kush",
+    "Ramesses II"
+   ],
+   "capitals": [
+    {
+     "name": "Thebes",
+     "lat": 25.7,
+     "lon": 32.64
+    }
+   ],
+   "sources": [
+    "GHA2",
+    "WP:New_Kingdom_of_Egypt"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "فتح كوش",
+    "رمسيس الثاني"
+   ]
+  },
+  {
+   "name": "Late Period / Persian Egypt",
+   "stream": "Egypt",
+   "start": -664,
+   "end": -332,
+   "prominence": 0.5,
+   "key_events": [
+    "26th Dynasty; Psamtik II's expedition takes Napata (GHA II: 591 BCE; often 593 BCE)"
+   ],
+   "capitals": [
+    {
+     "name": "Sais",
+     "lat": 30.96,
+     "lon": 30.77
+    }
+   ],
+   "sources": [
+    "GHA2",
+    "WP:Late_Period_of_ancient_Egypt"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "الأسرة السادسة والعشرون؛ حملة بسماتيك الثاني تستولي على نبتة (تاريخ أفريقيا العام، المجلد الثاني: 591 ق.م؛ وكثيراً ما تُؤرَّخ بـ593 ق.م)"
+   ]
+  },
+  {
+   "name": "Ptolemaic Egypt",
+   "stream": "Egypt",
+   "start": -305,
+   "end": -30,
+   "prominence": 0.65,
+   "key_events": [
+    "Greek dynasty; contacts with Meroe"
+   ],
+   "capitals": [
+    {
+     "name": "Alexandria",
+     "lat": 31.2,
+     "lon": 29.92
+    }
+   ],
+   "sources": [
+    "GHA2",
+    "WP:Ptolemaic_Kingdom"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "أسرة يونانية؛ صلات مع مروي"
+   ]
+  },
+  {
+   "name": "Roman & Byzantine Egypt",
+   "stream": "Egypt",
+   "start": -30,
+   "end": 641,
+   "prominence": 0.65,
+   "key_events": [
+    "Petronius' punitive campaign captures Napata 23 BCE after Meroitic sack of Aswan (GHA II)",
+    "Treaty of Samos 21/20 BCE; frontier at Hiera Sycaminos (Maharraqa)"
+   ],
+   "capitals": [
+    {
+     "name": "Alexandria",
+     "lat": 31.2,
+     "lon": 29.92
+    }
+   ],
+   "sources": [
+    "GHA2",
+    "WP:Egypt_(Roman_province)"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "حملة بترونيوس التأديبية تستولي على نبتة 23 ق.م بعد نهب المرويين لأسوان (تاريخ أفريقيا العام، المجلد الثاني)",
+    "معاهدة ساموس 21/20 ق.م؛ الحدود عند هيرا سيكامينوس (المحرقة)"
+   ]
+  },
+  {
+   "name": "Islamic Egypt (Rashidun–Fatimid–Ayyubid)",
+   "stream": "Egypt",
+   "start": 641,
+   "end": 1250,
+   "prominence": 0.7,
+   "key_events": [
+    "Arab conquest 641",
+    "Fatimid Cairo 969"
+   ],
+   "capitals": [
+    {
+     "name": "Fustat / Cairo",
+     "lat": 30.0,
+     "lon": 31.23
+    }
+   ],
+   "sources": [
+    "GHAIII",
+    "GHAIV",
+    "WP:Muslim_conquest_of_Egypt",
+    "WP:Fatimid_Caliphate"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "الفتح العربي 641",
+    "القاهرة الفاطمية 969"
+   ]
+  },
+  {
+   "name": "Mamluk Sultanate",
+   "stream": "Egypt",
+   "start": 1250,
+   "end": 1517,
+   "prominence": 0.7,
+   "key_events": [
+    "Campaigns against Makuria"
+   ],
+   "capitals": [
+    {
+     "name": "Cairo",
+     "lat": 30.04,
+     "lon": 31.24
+    }
+   ],
+   "sources": [
+    "GHAIV",
+    "WP:Mamluk_Sultanate"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "حملات على المقرة"
+   ]
+  },
+  {
+   "name": "Ottoman Egypt & Muhammad Ali dynasty",
+   "stream": "Egypt",
+   "start": 1517,
+   "end": 1882,
+   "prominence": 0.65,
+   "key_events": [
+    "Muhammad Ali invades Sudan 1820"
+   ],
+   "capitals": [
+    {
+     "name": "Cairo",
+     "lat": 30.04,
+     "lon": 31.24
+    }
+   ],
+   "sources": [
+    "GHAV",
+    "GHAVI",
+    "WP:Muhammad_Ali_dynasty"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "محمد علي يغزو السودان 1820"
+   ]
+  },
+  {
+   "name": "British-occupied / Kingdom of Egypt",
+   "stream": "Egypt",
+   "start": 1882,
+   "end": 1953,
+   "prominence": 0.55,
+   "key_events": [
+    "Co-domini of Sudan 1899"
+   ],
+   "capitals": [
+    {
+     "name": "Cairo",
+     "lat": 30.04,
+     "lon": 31.24
+    }
+   ],
+   "sources": [
+    "GHAVII",
+    "WP:Kingdom_of_Egypt"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "شريكا الحكم الثنائي في السودان 1899"
+   ]
+  },
+  {
+   "name": "Republic of Egypt",
+   "stream": "Egypt",
+   "start": 1953,
+   "end": 2026,
+   "prominence": 0.65,
+   "key_events": [
+    "Aswan High Dam; Nubian displacement & Wadi Halfa flooding 1964"
+   ],
+   "capitals": [
+    {
+     "name": "Cairo",
+     "lat": 30.04,
+     "lon": 31.24
+    }
+   ],
+   "sources": [
+    "GHAVIII",
+    "WP:Aswan_Dam"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "السد العالي في أسوان؛ تهجير النوبيين وإغراق وادي حلفا 1964"
+   ]
+  },
+  {
+   "name": "Land of Punt / D'mt",
+   "stream": "Ethiopia & Eritrea (Horn)",
+   "start": -980,
+   "end": -400,
+   "prominence": 0.3,
+   "key_events": [
+    "D'mt kingdom in Eritrea/Tigray"
+   ],
+   "capitals": [
+    {
+     "name": "Yeha",
+     "lat": 14.29,
+     "lon": 39.02
+    }
+   ],
+   "sources": [
+    "GHA2",
+    "WP:Dʿmt"
+   ],
+   "dating_note": "Approximate",
+   "key_events_ar": [
+    "مملكة دعمت في إريتريا/تيغراي"
+   ]
+  },
+  {
+   "name": "Kingdom of Aksum",
+   "stream": "Ethiopia & Eritrea (Horn)",
+   "start": 100,
+   "end": 940,
+   "prominence": 0.7,
+   "key_events": [
+    "Christianity under Ezana c.330s",
+    "Campaign against Meroe/Noba c.350"
+   ],
+   "capitals": [
+    {
+     "name": "Aksum",
+     "lat": 14.13,
+     "lon": 38.72
+    },
+    {
+     "name": "Adulis",
+     "lat": 15.26,
+     "lon": 39.66
+    }
+   ],
+   "sources": [
+    "GHA2",
+    "WP:Kingdom_of_Aksum",
+    "WP:Ezana_of_Axum"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "المسيحية في عهد عيزانا نحو ثلاثينيات القرن الرابع",
+    "حملة على مروي/النوبة نحو 350"
+   ]
+  },
+  {
+   "name": "Zagwe dynasty",
+   "stream": "Ethiopia & Eritrea (Horn)",
+   "start": 900,
+   "end": 1270,
+   "prominence": 0.45,
+   "key_events": [
+    "Lalibela rock-hewn churches"
+   ],
+   "capitals": [
+    {
+     "name": "Lalibela",
+     "lat": 12.03,
+     "lon": 39.04
+    }
+   ],
+   "sources": [
+    "GHAIV",
+    "WP:Zagwe_dynasty"
+   ],
+   "dating_note": "Start date debated",
+   "key_events_ar": [
+    "كنائس لاليبلا المنحوتة في الصخر"
+   ]
+  },
+  {
+   "name": "Ethiopian Empire (Solomonic)",
+   "stream": "Ethiopia & Eritrea (Horn)",
+   "start": 1270,
+   "end": 1974,
+   "prominence": 0.75,
+   "key_events": [
+    "Gondar period 1636–1769",
+    "Battle of Gallabat vs Mahdists 1889",
+    "Adwa 1896"
+   ],
+   "capitals": [
+    {
+     "name": "Gondar",
+     "lat": 12.6,
+     "lon": 37.47
+    },
+    {
+     "name": "Addis Ababa",
+     "lat": 9.03,
+     "lon": 38.74
+    }
+   ],
+   "sources": [
+    "GHAIV",
+    "GHAV",
+    "GHAVI",
+    "GHAVII",
+    "WP:Ethiopian_Empire",
+    "WP:Battle_of_Gallabat"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "عهد غوندار 1636–1769",
+    "معركة القلابات ضد المهدويين 1889",
+    "عدوة 1896"
+   ]
+  },
+  {
+   "name": "Derg & Federal Ethiopia",
+   "stream": "Ethiopia & Eritrea (Horn)",
+   "start": 1974,
+   "end": 2026,
+   "prominence": 0.6,
+   "key_events": [
+    "GERD on Blue Nile (construction from 2011)"
+   ],
+   "capitals": [
+    {
+     "name": "Addis Ababa",
+     "lat": 9.03,
+     "lon": 38.74
+    }
+   ],
+   "sources": [
+    "GHAVIII",
+    "WP:Derg",
+    "WP:Grand_Ethiopian_Renaissance_Dam"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "سد النهضة على النيل الأزرق (بدء البناء 2011)"
+   ]
+  },
+  {
+   "name": "Eritrea (Italian colony → independent)",
+   "stream": "Ethiopia & Eritrea (Horn)",
+   "start": 1890,
+   "end": 2026,
+   "prominence": 0.3,
+   "key_events": [
+    "Italian colony 1890",
+    "Independence 1993"
+   ],
+   "capitals": [
+    {
+     "name": "Asmara",
+     "lat": 15.32,
+     "lon": 38.93
+    }
+   ],
+   "sources": [
+    "GHAVII",
+    "GHAVIII",
+    "WP:Eritrea"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "مستعمرة إيطالية 1890",
+    "الاستقلال 1993"
+   ]
+  },
+  {
+   "name": "Kanem Empire",
+   "stream": "Chad & Central Sahara",
+   "start": 700,
+   "end": 1380,
+   "prominence": 0.45,
+   "key_events": [
+    "Islam adopted 11th c."
+   ],
+   "capitals": [
+    {
+     "name": "Njimi",
+     "lat": 14.3,
+     "lon": 15.6
+    }
+   ],
+   "sources": [
+    "GHAIII",
+    "GHAIV",
+    "WP:Kanem_Empire"
+   ],
+   "dating_note": "Approximate",
+   "key_events_ar": [
+    "اعتناق الإسلام في القرن الحادي عشر"
+   ]
+  },
+  {
+   "name": "Bornu Empire",
+   "stream": "Chad & Central Sahara",
+   "start": 1380,
+   "end": 1893,
+   "prominence": 0.5,
+   "key_events": [
+    "Idris Alooma 16th c."
+   ],
+   "capitals": [
+    {
+     "name": "Ngazargamu",
+     "lat": 13.0,
+     "lon": 11.8
+    }
+   ],
+   "sources": [
+    "GHAIV",
+    "GHAV",
+    "GHAVI",
+    "WP:Bornu_Empire"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "إدريس ألوما في القرن السادس عشر"
+   ]
+  },
+  {
+   "name": "Wadai Sultanate",
+   "stream": "Chad & Central Sahara",
+   "start": 1635,
+   "end": 1912,
+   "prominence": 0.4,
+   "key_events": [
+    "Rival and neighbour of Darfur",
+    "French conquest 1909–12"
+   ],
+   "capitals": [
+    {
+     "name": "Abéché",
+     "lat": 13.83,
+     "lon": 20.83
+    }
+   ],
+   "sources": [
+    "GHAV",
+    "GHAVI",
+    "WP:Wadai_Sultanate"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "منافسة دارفور وجارتها",
+    "الغزو الفرنسي 1909–1912"
+   ]
+  },
+  {
+   "name": "French Chad → Republic of Chad",
+   "stream": "Chad & Central Sahara",
+   "start": 1900,
+   "end": 2026,
+   "prominence": 0.4,
+   "key_events": [
+    "Independence 1960",
+    "Hosts Sudanese refugees from 2003 and 2023"
+   ],
+   "capitals": [
+    {
+     "name": "N'Djamena",
+     "lat": 12.13,
+     "lon": 15.06
+    }
+   ],
+   "sources": [
+    "GHAVII",
+    "GHAVIII",
+    "WP:Chad"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "الاستقلال 1960",
+    "تستضيف لاجئين سودانيين منذ 2003 و2023"
+   ]
+  },
+  {
+   "name": "Garamantes (Fezzan)",
+   "stream": "Chad & Central Sahara",
+   "start": -500,
+   "end": 700,
+   "prominence": 0.3,
+   "key_events": [
+    "Trans-Saharan trade in Libya"
+   ],
+   "capitals": [
+    {
+     "name": "Garama (Germa)",
+     "lat": 26.55,
+     "lon": 13.08
+    }
+   ],
+   "sources": [
+    "GHA2",
+    "WP:Garamantes"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "التجارة عبر الصحراء في ليبيا"
+   ]
+  },
+  {
+   "name": "Libya (Ottoman, Italian, independent)",
+   "stream": "Chad & Central Sahara",
+   "start": 1551,
+   "end": 2026,
+   "prominence": 0.35,
+   "key_events": [
+    "Independence 1951"
+   ],
+   "capitals": [
+    {
+     "name": "Tripoli",
+     "lat": 32.89,
+     "lon": 13.19
+    }
+   ],
+   "sources": [
+    "GHAV",
+    "GHAVII",
+    "GHAVIII",
+    "WP:History_of_Libya"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "الاستقلال 1951"
+   ]
+  },
+  {
+   "name": "Zande kingdoms",
+   "stream": "Central Africa (CAR/Congo border)",
+   "start": 1700,
+   "end": 1905,
+   "prominence": 0.3,
+   "key_events": [
+    "Avungara-ruled states straddling Sudan/Congo/CAR"
+   ],
+   "capitals": [
+    {
+     "name": "Zandeland",
+     "lat": 4.6,
+     "lon": 27.0
+    }
+   ],
+   "sources": [
+    "GHAV",
+    "GHAVI",
+    "WP:Zande_people"
+   ],
+   "dating_note": "Approximate",
+   "key_events_ar": [
+    "دول يحكمها الأفونغارا تمتد عبر السودان والكونغو وأفريقيا الوسطى"
+   ]
+  },
+  {
+   "name": "Central African Republic (Ubangi-Shari)",
+   "stream": "Central Africa (CAR/Congo border)",
+   "start": 1903,
+   "end": 2026,
+   "prominence": 0.3,
+   "key_events": [
+    "Independence 1960"
+   ],
+   "capitals": [
+    {
+     "name": "Bangui",
+     "lat": 4.39,
+     "lon": 18.56
+    }
+   ],
+   "sources": [
+    "GHAVII",
+    "GHAVIII",
+    "WP:Central_African_Republic"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "الاستقلال 1960"
+   ]
+  },
+  {
+   "name": "Sabaean & South Arabian kingdoms",
+   "stream": "Red Sea & Arabia",
+   "start": -1000,
+   "end": 275,
+   "prominence": 0.45,
+   "key_events": [
+    "Incense trade",
+    "Influence on D'mt/Aksum"
+   ],
+   "capitals": [
+    {
+     "name": "Ma'rib",
+     "lat": 15.43,
+     "lon": 45.33
+    }
+   ],
+   "sources": [
+    "GHA2",
+    "WP:Sabaeans"
+   ],
+   "dating_note": "Approximate",
+   "key_events_ar": [
+    "تجارة البخور",
+    "التأثير في دعمت/أكسوم"
+   ]
+  },
+  {
+   "name": "Rise of Islam & Caliphates",
+   "stream": "Red Sea & Arabia",
+   "start": 610,
+   "end": 1258,
+   "prominence": 0.75,
+   "key_events": [
+    "First Hijra to Aksum c.615",
+    "Abbasid trade via Red Sea"
+   ],
+   "capitals": [
+    {
+     "name": "Medina",
+     "lat": 24.47,
+     "lon": 39.61
+    },
+    {
+     "name": "Baghdad",
+     "lat": 33.31,
+     "lon": 44.36
+    }
+   ],
+   "sources": [
+    "GHAIII",
+    "WP:Rashidun_Caliphate",
+    "WP:Abbasid_Caliphate"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "الهجرة الأولى إلى أكسوم (الحبشة) نحو 615",
+    "التجارة العباسية عبر البحر الأحمر"
+   ]
+  },
+  {
+   "name": "Suakin – Red Sea port (Beja, Ottoman)",
+   "stream": "Red Sea & Arabia",
+   "start": 1100,
+   "end": 1922,
+   "prominence": 0.35,
+   "key_events": [
+    "Ottoman Habesh province port from 16th c.",
+    "Superseded by Port Sudan (opened 1909)"
+   ],
+   "capitals": [
+    {
+     "name": "Suakin",
+     "lat": 19.1025,
+     "lon": 37.33
+    }
+   ],
+   "sources": [
+    "HD2011",
+    "WP:Suakin"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "ميناء ولاية الحبش العثمانية منذ القرن السادس عشر",
+    "حلّت محلها بورتسودان (افتُتحت 1909)"
+   ]
+  },
+  {
+   "name": "Ottoman Hejaz & Saudi state",
+   "stream": "Red Sea & Arabia",
+   "start": 1517,
+   "end": 2026,
+   "prominence": 0.5,
+   "key_events": [
+    "Kingdom of Saudi Arabia 1932",
+    "Jeddah talks on Sudan war 2023"
+   ],
+   "capitals": [
+    {
+     "name": "Mecca/Riyadh",
+     "lat": 24.71,
+     "lon": 46.68
+    }
+   ],
+   "sources": [
+    "JEDDAH2023",
+    "WP:Saudi_Arabia",
+    "WP:Treaty_of_Jeddah_(2023)"
+   ],
+   "dating_note": "",
+   "key_events_ar": [
+    "المملكة العربية السعودية 1932",
+    "محادثات جدة بشأن حرب السودان 2023"
+   ]
+  },
+  {
+   "name": "Beja (Red Sea Hills peoples)",
+   "stream": "Red Sea & Arabia",
+   "start": 275,
+   "end": 2026,
+   "prominence": 0.3,
+   "key_events": [
+    "Blemmyes (GHA II: 'customarily identified with the Bedja tribes') raid Upper Egypt; suppressed under Probus (276–282 CE)",
+    "After Meroe's fall the Nobades push the Blemmyes ('Bega or Buga') into the eastern desert",
+    "Recognised by medieval Muslim writers as distinct from Nubians, Arabs and 'Sudan'",
+    "Camel-nomads of the Red Sea Hills; gradual Islamisation and varying arabisation",
+    "'Ababda (north) Arabic-speaking; 18th c. southward expansion; Hadendowa in Taka (Gash) by early 19th c.",
+    "Nabtab ruling clan of the Banu 'Amir claims Ja'ali descent"
+   ],
+   "capitals": [
+    {
+     "name": "Suakin",
+     "lat": 19.1025,
+     "lon": 37.33
+    }
+   ],
+   "sources": [
+    "HD2011",
+    "GHA2"
+   ],
+   "dating_note": "Start c.275 CE = earliest dated Blemmyes activity in GHA II ch.7 (Probus 276–282). The Blemmyes=Beja equation is customary, NOT proven (GHA II ch.10); GHA II ch.11 says earlier Meroitic-era Majai/Reheres 'could have been' Beja ancestors, so earlier origins are possible. Ongoing people, not a polity.",
+   "key_events_ar": [
+    "البليميون (تاريخ أفريقيا العام، المجلد الثاني: «يُطابَقون عادةً مع قبائل البجة») يغيرون على صعيد مصر؛ قُمعوا في عهد بروبوس (276–282 م)",
+    "بعد سقوط مروي دفع النوباديون البليميين («البجة أو البوجة») إلى الصحراء الشرقية",
+    "ميّزهم الكتّاب المسلمون في العصور الوسطى عن النوبة والعرب و«السودان»",
+    "رعاة إبل رحّل في تلال البحر الأحمر؛ أسلمة تدريجية وتعريب متفاوت",
+    "العبابدة (في الشمال) يتحدثون العربية؛ توسع نحو الجنوب في القرن الثامن عشر؛ الهدندوة في التاكا (القاش) بحلول مطلع القرن التاسع عشر",
+    "النابتاب، العشيرة الحاكمة لبني عامر، يدّعون النسب الجعلي"
+   ]
+  },
+  {
+   "name": "'Abdallab chiefdom (Funj vassal)",
+   "stream": "Sudan – Middle Nile",
+   "start": 1480,
+   "end": 1821,
+   "prominence": 0.35,
+   "key_events": [
+    "Founded by 'Abdallah Jamma' (Rufa'a) at the Blue/White Nile confluence, late 15th c.",
+    "Prospered from tolls on desert nomads",
+    "Recognised by Funj sultans as paramount chiefs of the Arabs",
+    "Capital Qarri, later Halfayat al-Muluk; an 'Abdallabi chief ruled Quz Rajab on the Atbara"
+   ],
+   "capitals": [
+    {
+     "name": "Qarri",
+     "lat": 16.2356,
+     "lon": 32.6316
+    }
+   ],
+   "sources": [
+    "HD2011",
+    "SPAULDING1985"
+   ],
+   "dating_note": "Start 'late 15th c.' per Holt & Daly; 1480 is approximate. Qarri coordinates from Wikidata (settlement, approximate). End 1821 = Turco-Egyptian conquest.",
+   "key_events_ar": [
+    "أسسها عبد الله جمّاع (من رفاعة) عند ملتقى النيلين الأزرق والأبيض، أواخر القرن الخامس عشر",
+    "ازدهرت من المكوس المفروضة على رحّل البادية",
+    "اعترف بهم سلاطين الفونج شيوخاً أعلى للعرب",
+    "العاصمة قرّي ثم حلفاية الملوك؛ وحكم شيخ عبدلابي قوز رجب على نهر عطبرة"
+   ]
+  },
+  {
+   "name": "Ja'aliyyin kingdom (Sa'dab, Funj vassal)",
+   "stream": "Sudan – Middle Nile",
+   "start": 1500,
+   "end": 1821,
+   "prominence": 0.3,
+   "key_events": [
+    "Tribal kingdom between the Atbara confluence and the Sabaluqa Gorge from the 16th c.",
+    "Royal clan the Sa'dab; Mirafab kingdom at Berber to the north",
+    "Shendi became the chief commercial centre of the eastern Bilad al-Sudan by early 19th c., under Makk Nimr"
+   ],
+   "capitals": [
+    {
+     "name": "Shendi",
+     "lat": 16.6914,
+     "lon": 33.4339
+    }
+   ],
+   "sources": [
+    "HD2011"
+   ],
+   "dating_note": "'From the sixteenth century' (Holt & Daly); 1500 approximate.",
+   "key_events_ar": [
+    "مملكة قبلية بين ملتقى عطبرة وخانق السبلوقة منذ القرن السادس عشر",
+    "العشيرة الملكية السعداب؛ ومملكة الميرفاب في بربر إلى الشمال",
+    "أصبحت شندي المركز التجاري الرئيسي لبلاد السودان الشرقية بحلول مطلع القرن التاسع عشر، في عهد المك نمر"
+   ]
+  },
+  {
+   "name": "Musabba'at sultanate (Kordofan)",
+   "stream": "Sudan – Darfur & Kordofan",
+   "start": 1680,
+   "end": 1785,
+   "prominence": 0.25,
+   "key_events": [
+    "Exiled Keira faction contesting Kordofan with Funj and Darfur, late 17th–18th c.",
+    "Isawi dislodges Funj (Ghudiyat) administration c.1734",
+    "Hashim b. 'Isawi retakes Kordofan c.1772; ousted by Funj 1782",
+    "Darfur's Muhammad Tayrab conquers Kordofan c.1785"
+   ],
+   "capitals": [],
+   "sources": [
+    "OFAHEY_SPAULDING1972",
+    "OFAHEY2008",
+    "WP:Muhammad_Tayrab"
+   ],
+   "dating_note": "Bracket from O'Fahey & Spaulding (BSOAS 1972 abstract: 'late seventeenth and eighteenth centuries'); 1734/1772/1782/1785 events taken from a Wikipedia summary citing O'Fahey 2008 pp.49–59 – book pages not directly checked. No capital location verified.",
+   "key_events_ar": [
+    "فرع منفي من الكيرا نازع الفونج ودارفور على كردفان، أواخر القرن السابع عشر–القرن الثامن عشر",
+    "عيساوي يطرد إدارة الفونج (الغديات) نحو 1734",
+    "هاشم بن عيساوي يستعيد كردفان نحو 1772؛ ويطرده الفونج 1782",
+    "محمد تيراب سلطان دارفور يفتح كردفان نحو 1785"
+   ]
+  },
+  {
+   "name": "Dinka (Jieng) communities",
+   "stream": "South Sudan – Upper Nile",
+   "start": 1500,
+   "end": 2026,
+   "prominence": 0.3,
+   "key_events": [
+    "Group of tribes without central kingship, mostly in Bahr al-Ghazal floodplains, some east of the White Nile (Holt & Daly)",
+    "Cattle pastoralism; culturally close to the Nuer, together a Nilotic subdivision (Evans-Pritchard 1940)"
+   ],
+   "capitals": [],
+   "sources": [
+    "HD2011",
+    "EP1940_NUER"
+   ],
+   "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. ",
+   "key_events_ar": [
+    "مجموعة قبائل بلا ملكية مركزية، معظمها في سهول بحر الغزال الفيضية وبعضها شرق النيل الأبيض (هولت وديلي)",
+    "رعي الأبقار؛ قريبون ثقافياً من النوير، ويشكلون معهم فرعاً نيلياً (إيفانز-بريتشارد 1940)"
+   ]
+  },
+  {
+   "name": "Nuer (Naath) communities",
+   "stream": "South Sudan – Upper Nile",
+   "start": 1500,
+   "end": 2026,
+   "prominence": 0.25,
+   "key_events": [
+    "Self-name Nath; c.200,000 people in the 1930s (Evans-Pritchard)",
+    "Swamps and savannah on both sides of the Nile south of the Sobat/Bahr al-Ghazal junction and along both tributaries",
+    "Seasonal movement between villages and dry-season cattle camps"
+   ],
+   "capitals": [],
+   "sources": [
+    "EP1940_NUER"
+   ],
+   "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. Nuer 19th-c. expansion still unsourced.",
+   "key_events_ar": [
+    "يسمّون أنفسهم «ناث»؛ نحو 200,000 نسمة في ثلاثينيات القرن العشرين (إيفانز-بريتشارد)",
+    "المستنقعات والسافانا على جانبي النيل جنوب ملتقى السوباط وبحر الغزال وعلى ضفتي الرافدين",
+    "تنقل موسمي بين القرى ومعسكرات الماشية في موسم الجفاف"
+   ]
+  },
+  {
+   "name": "Anuak (Anywaa) communities",
+   "stream": "South Sudan – Upper Nile",
+   "start": 1500,
+   "end": 2026,
+   "prominence": 0.2,
+   "key_events": [
+    "Shilluk-speaking (Luo) Nilotic people (Evans-Pritchard 1940)",
+    "Studied in Evans-Pritchard, The Political System of the Anuak (1940)"
+   ],
+   "capitals": [],
+   "sources": [
+    "EP1940_ANUAK",
+    "EP1940_NUER"
+   ],
+   "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. ",
+   "key_events_ar": [
+    "شعب نيلي يتحدث لغة من مجموعة الشلك (اللوو) (إيفانز-بريتشارد 1940)",
+    "دُرسوا في كتاب إيفانز-بريتشارد «النظام السياسي للأنواك» (1940)"
+   ]
+  }
+ ]
+}

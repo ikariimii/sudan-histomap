@@ -1,0 +1,153 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Interactive 10,000-year history map of Sudan and its region"><meta property="og:title" content="Sudan Histomap"><meta property="og:description" content="Interactive 10,000-year history map of Sudan and its region"><meta property="og:type" content="website"><meta property="og:url" content="https://sudan.indomando.com/"><meta property="og:image" content="https://sudan.indomando.com/social_1080x1350.png"><meta property="og:image:width" content="1080"><meta property="og:image:height" content="1350"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Sudan Histomap"><meta name="twitter:image" content="https://sudan.indomando.com/social_1080x1350.png"><title>Sudan Histomap · خريطة تاريخ السودان</title>
+<!-- v2 (polish of v1, see index.v1.html). Schema-driven from data/periods.json → data/periods.js. Arabic overlay: data/i18n_ar.js -->
+<script src="lib/d3.min.js"></script><script src="lib/topojson.min.js"></script>
+<script src="data/periods.js"></script><script src="data/world.js"></script><script src="data/i18n_ar.js"></script>
+<style>
+@font-face{font-family:"HSerif";src:url(lib/fonts/NotoSerif.ttf)}
+@font-face{font-family:"HNaskh";src:url(lib/fonts/NotoNaskhArabic.ttf)}
+body{margin:0;font-family:HSerif,Georgia,serif;background:#f4ead5;color:#2b1d0e}
+body.ar{font-family:HNaskh,"Noto Naskh Arabic",serif}
+header{padding:10px 20px;background:#2b1d0e;color:#f4ead5;display:flex;align-items:center;gap:14px}h1{margin:0;font-size:24px}header p{margin:2px 0;font-size:13px;opacity:.8}
+header .sp{flex:1}button{font:inherit;background:#c8553d;color:#fff;border:0;border-radius:4px;padding:6px 12px;cursor:pointer}a.lk{color:#f4ead5;font-size:13px}
+#wrap{display:flex;gap:10px;padding:10px}#chart{flex:1.4;overflow:auto;height:calc(100vh - 90px)}#side{flex:1;display:flex;flex-direction:column;gap:8px;max-width:560px}
+body.nopanel #side{display:none}
+#map{background:#cfe0e8;border:1px solid #8a7}#info{background:#fffaf0;border:1px solid #c9b48a;padding:10px;font-size:14px;overflow:auto;flex:1}
+.band{stroke:#2b1d0e;stroke-width:.6;cursor:pointer}.band:hover,.sel{stroke-width:2.5}
+text{font-family:HSerif,Georgia,serif}body.ar svg text{font-family:HNaskh,serif}
+.lbl{pointer-events:none;text-anchor:middle;fill:#1b120a}.col{font-weight:bold;text-anchor:middle;fill:#2b1d0e}.yr{fill:#6b5a40}
+body.print header,body.print #side{display:none}body.print #chart{height:auto;overflow:visible}body.print #wrap{padding:0}
+</style></head><body>
+<header><div><h1 id="h1"></h1><p id="sub"></p></div><div class="sp"></div>
+<a class="lk" id="langlk"></a><button id="tog"></button></header>
+<div id="wrap"><div id="chart"></div><div id="side"><div><input id="yr" type="range" min="-3000" max="2026" value="-700" style="width:100%"><b id="yrl"></b></div><svg id="map"></svg><div id="info"></div></div></div>
+<script>
+const Q=new URLSearchParams(location.search),AR_ON=Q.get('lang')==='ar',card=Q.get('card'),social=Q.has('social'),poster=Q.has('poster');
+const PRINT=poster||social||!!card;if(PRINT)document.body.classList.add('print');if(Q.get('panel')==='0')document.body.classList.add('nopanel');
+if(AR_ON){document.body.classList.add('ar');document.documentElement.lang='ar';document.documentElement.dir='rtl';}
+const P=HISTO.periods,ALL=[...new Set(P.map(d=>d.stream))];
+const EV=d=>(AR_ON&&d.key_events_ar&&d.key_events_ar.length)?d.key_events_ar:(d.key_events||[]);
+const nm=d=>AR_ON?(AR.names[d.name]||d.name):d.name, sn=s=>AR_ON?(AR.streams[s]||s):s;
+const AD=n=>AR_ON?String(n).replace(/\d/g,c=>'٠١٢٣٤٥٦٧٨٩'[c]):String(n);
+const fy=t=>t>=2026?(AR_ON?AR.ui.present:'present'):t<0?AD(-t)+' '+(AR_ON?AR.ui.bce:'BCE'):AD(t)+(t<1000?' '+(AR_ON?AR.ui.ce:'CE'):'');
+const pal=d3.scaleOrdinal(ALL,["#b5512f","#7c2f2a","#c98a3a","#4d7a4f","#3f6478","#8a5a7a","#9a7b4f","#5f7d6e","#6d5a8a"]);
+const FILL={"War in Sudan (SAF vs RSF)":"url(#hatch)"};
+const FONT_LAT='HSerif, Georgia, serif',FONT_AR='HNaskh, serif';
+const CREDIT='Design after J.B. Sparks, Histomap (1931, public domain) · Boundaries: Natural Earth (public domain) via world-atlas · Fonts: Noto Serif & Noto Naskh Arabic (SIL OFL) · Data: data/periods.json (Wikipedia-cited, editorial)';
+const DISC=AR_ON?AR.ui.disc:'Band widths are qualitative and illustrative (editorial estimate of relative prominence), not measured data. Ancient dates are approximate.';
+document.getElementById('h1').textContent=AR_ON?AR.ui.title:'SUDAN HISTOMAP · خريطة تاريخ السودان';
+document.getElementById('sub').textContent=AR_ON?AR.ui.sub:'Relative prominence of states & cultures in Sudan and its neighbours, c.8000 BCE – today. Click a band.';
+const L=document.getElementById('langlk');{const q=new URLSearchParams(location.search);AR_ON?q.delete('lang'):q.set('lang','ar');L.href='?'+q;L.textContent=AR_ON?'English':'العربية';}
+const tog=document.getElementById('tog');tog.textContent=AR_ON?AR.ui.panel:'Details panel';tog.onclick=()=>document.body.classList.toggle('nopanel');
+
+function wrap(str,maxc){const w=str.split(' ');let l=[],c='';w.forEach(x=>{if((c+' '+x).trim().length>maxc&&c){l.push(c);c=x}else c=(c+' '+x).trim()});if(c)l.push(c);return l}
+function defs(svg){const p=svg.append('defs').append('pattern').attr('id','hatch').attr('width',10).attr('height',10).attr('patternUnits','userSpaceOnUse').attr('patternTransform','rotate(45)');
+ p.append('rect').attr('width',10).attr('height',10).attr('fill','#7c2f2a');p.append('rect').attr('width',4).attr('height',10).attr('fill','#c98a3a');}
+/* Generic histomap block. o={x,y,w,h,dom:[...],rng:[...] (fractions), streams, gutter, fs, ticks, focus} */
+function block(svg,o){
+ const rtl=AR_ON,axW=o.axW||70,gw=o.gutter||0,n=o.streams.length;
+ const cx0=rtl?o.x+gw:o.x+axW, cwAll=o.w-axW-gw, cw=cwAll/n, hdr=o.hdr||64;
+ const top=o.y+hdr, y=d3.scaleLinear().domain(o.dom).range(o.rng.map(f=>top+f*(o.h-hdr))).clamp(true);
+ const colX=i=>rtl?cx0+(n-1-i)*cw:cx0+i*cw, g=svg.append('g');
+ const t0=o.dom[0],t1=o.dom[o.dom.length-1];
+ o.streams.forEach((s,i)=>{g.append('rect').attr('x',colX(i)).attr('y',top).attr('width',cw).attr('height',o.h-hdr).attr('fill',pal(s)).attr('opacity',.07);
+  const f=Math.min(o.fs*1.05,cw/6.2),lines=wrap(sn(s),Math.max(6,Math.floor(cw/(f*.56)))).slice(0,3);
+  const t=g.append('text').attr('class','col').attr('font-size',f).attr('direction',rtl?'rtl':'ltr');
+  lines.forEach((l,k)=>t.append('tspan').attr('x',colX(i)+cw/2).attr('y',top-8-(lines.length-1-k)*f*1.1).text(l));
+  g.append('line').attr('x1',colX(i)+3).attr('x2',colX(i)+cw-3).attr('y1',top-2).attr('y2',top-2).attr('stroke',pal(s)).attr('stroke-width',3);});
+ (o.ticks).forEach(t=>{if(t<t0||t>t1)return;g.append('line').attr('x1',cx0).attr('x2',cx0+cwAll).attr('y1',y(t)).attr('y2',y(t)).attr('stroke','#b9a37a').attr('stroke-dasharray','2 3');
+  g.append('text').attr('class','yr').attr('font-size',o.fs*.8).attr('x',rtl?cx0+cwAll+6:o.x+axW-6).attr('text-anchor','end').attr('direction',rtl?'rtl':'ltr').attr('y',y(t)+4).text(fy(t));});
+ const PS=P.filter(d=>o.streams.includes(d.stream)&&d.end>t0&&d.start<t1);
+ // lane allocation: greedy interval colouring per stream; each overlap cluster splits its column into k lanes
+ o.streams.forEach(s=>{const A=PS.filter(d=>d.stream==s).sort((a,b)=>a.start-b.start||b.end-a.end);let cl=[],cEnd=-1e9;
+  const flush=()=>{const ends=[];cl.forEach(d=>{let l=ends.findIndex(e=>e<=d.start);if(l<0){l=ends.length;ends.push(0)}ends[l]=d.end;d._lane=l});cl.forEach(d=>d._k=ends.length);cl=[]};
+  A.forEach(d=>{if(d.start>=cEnd)flush();cl.push(d);cEnd=Math.max(cEnd,d.end)});flush();});
+ const callouts=[];
+ PS.forEach(d=>{const i=o.streams.indexOf(d.stream),lw=cw/d._k,ln=rtl?d._k-1-d._lane:d._lane,w=Math.max(4,lw*(d._k>1?Math.max(.55,d.prominence):d.prominence)*.94-2),x=colX(i)+ln*lw+(lw-w)/2;
+  const y0=y(Math.max(d.start,t0)),y1=y(Math.min(d.end,t1)),h=Math.max(3,y1-y0),foc=o.focus&&o.focus.test(d.name);
+  g.append('rect').attr('class','band').datum(d).attr('fill',FILL[d.name]||pal(d.stream)).attr('rx',5).attr('x',x).attr('width',w).attr('y',y0).attr('height',h)
+   .attr('opacity',o.focus?(foc?1:.35):.95).attr('stroke-width',foc?2:.6).on('click',(e,dd)=>select(dd)).append('title').text(nm(d));
+  const fs=o.fs*(foc?1.08:.92),mc=Math.max(5,Math.floor(w/(fs*.6))),lines=wrap(nm(d),mc);
+  if(h>=lines.length*fs*1.15+6&&lines.length<=4&&mc>=7){const t=g.append('text').attr('class','lbl').attr('font-size',fs).attr('font-weight',foc?'bold':null).attr('direction',rtl?'rtl':'ltr')
+    .attr('fill',d3.lab(pal(d.stream)).l<45&&!FILL[d.name]?'#fbf3e2':'#1b120a').attr('paint-order','stroke');
+   if(FILL[d.name])t.attr('fill','#fff').attr('stroke','#2b1d0e').attr('stroke-width',3);
+   lines.forEach((l,k)=>t.append('tspan').attr('x',x+w/2).attr('y',y0+h/2+(k-(lines.length-1)/2)*fs*1.12+fs*.35).text(l));}
+  else if(w>=fs*1.25&&h>nm(d).length*fs*.6+16){const cxx=x+w/2,cyy=y0+h/2,vf=Math.min(fs*1.05,w*.75);g.append('text').attr('class','lbl').attr('font-size',vf).attr('font-weight',foc?'bold':null)
+    .attr('fill',d3.lab(pal(d.stream)).l<45?'#fbf3e2':'#1b120a').attr('direction',rtl?'rtl':'ltr').attr('transform',`translate(${cxx},${cyy}) rotate(-90)`).attr('y',vf*.35).text(nm(d));}
+  else callouts.push({d,ax:rtl?x:x+w,ay:y0+h/2,i});});
+ // callouts into gutter, deconflicted
+ if(gw){const gx=rtl?o.x+gw-o.fs*1.4:o.x+o.w-gw+10,sp=o.fs*1.0,mcg=Math.floor((gw-26)/(o.fs*.82*.56));callouts.forEach(c=>c.lines=wrap(nm(c.d)+' ('+fy(c.d.start)+'–'+fy(c.d.end)+')',mcg).slice(0,3));callouts.sort((a,b)=>a.ay-b.ay);let last=-1e9;
+  let f=1;const rel=()=>callouts.forEach(c=>c.lines=wrap(nm(c.d)+' ('+fy(c.d.start)+'–'+fy(c.d.end)+')',Math.floor(mcg/f)).slice(0,3));
+  const need=()=>callouts.reduce((a,c)=>a+c.lines.length*sp*f+sp*f*.12,0),avail=o.y+o.h-top;
+  for(let it=0;it<20&&need()>avail;it++){f*=.96;rel();}
+  const bot=o.y+o.h-sp*f*.2;last=top-1e3;callouts.forEach(c=>{c.ly=Math.max(c.ay,last+sp*f*1.12);last=c.ly+(c.lines.length-1)*sp*f});
+  let lim=bot;for(let k=callouts.length-1;k>=0;k--){const c=callouts[k],hh=(c.lines.length-1)*sp*f;if(c.ly+hh>lim)c.ly=lim-hh;lim=c.ly-sp*f*1.12;}
+  const BAD=[];callouts.forEach((c,k)=>{const n=k+1,r=o.fs*.5*Math.max(f,.8);let bx=c.ax+(rtl?r+1:-r-1),by=c.ay;c.n=n;for(let it=0;it<8&&BAD.some(q=>Math.hypot(q[0]-bx,q[1]-by)<r*2.05);it++)bx+=(rtl?-1:1)*r*2.1;BAD.push([bx,by]);
+   const b=g.append('g').attr('transform',`translate(${bx},${by})`);b.append('circle').attr('r',r).attr('fill','#2b1d0e').attr('stroke','#f4ead5').attr('stroke-width',1.2);
+   b.append('text').attr('text-anchor','middle').attr('y',r*.38).attr('font-size',r*1.05).attr('fill','#fff').attr('font-weight','bold').attr('direction','ltr').text(AD(n));
+   const lx=rtl?gx:gx+r*2.2,ky=c.ly+o.fs*.3;
+   g.append('circle').attr('cx',rtl?gx+r*1.3:gx+r*.4).attr('cy',c.ly).attr('r',r*.9).attr('fill',pal(c.d.stream));
+   g.append('text').attr('x',rtl?gx+r*1.3:gx+r*.4).attr('y',c.ly+r*.35).attr('text-anchor','middle').attr('font-size',r*.95).attr('fill','#fff').attr('font-weight','bold').attr('direction','ltr').text(AD(n));
+   g.append('text').attr('x',rtl?gx-r*.6:lx).attr('y',ky).attr('font-size',o.fs*.82*f).attr('text-anchor','start').attr('direction',rtl?'rtl':'ltr').call(t=>c.lines.forEach((l,kk)=>t.append('tspan').attr('x',rtl?gx-r*.6:lx).attr('dy',kk?sp*f:0).text(l)));});}
+ return {y,top};
+}
+const TICKS=[-8000,-6000,-4000,-3000,-2500,-2000,-1500,-1000,-500,0,250,500,750,1000,1250,1500,1600,1700,1800,1850,1900,1925,1950,1975,2000,2026];
+const SUDAN=ALL.filter(s=>/Sudan/.test(s));
+const CARDS={
+ kush:{t:['Kush & Meroë','كوش ومروي'],dom:[-1100,450],f:/Kush|Egyptian New Kingdom|Aksum|Napatan|Meroitic/,cols:['Sudan – Middle Nile','Egypt','Ethiopia & Eritrea (Horn)','Red Sea & Arabia'],ticks:[-1100,-1000,-900,-800,-700,-600,-500,-400,-300,-200,-100,0,100,200,300,400]},
+ nubia:{t:['Christian Nubia','النوبة المسيحية'],dom:[300,1600],f:/Nobadia|Makuria|Alodia|X-Group/,cols:['Sudan – Middle Nile','Sudan – Darfur & Kordofan','Egypt','Ethiopia & Eritrea (Horn)','Red Sea & Arabia'],ticks:d3.range(300,1601,100)},
+ funj:{t:['Funj & Darfur Sultanates','سلطنتا الفونج ودارفور'],dom:[1400,1930],f:/Funj|Darfur|Taqali|Shilluk|Tunjur/,cols:['Sudan – Middle Nile','Sudan – Darfur & Kordofan','South Sudan – Upper Nile','Chad & Central Sahara','Egypt'],ticks:d3.range(1400,1931,50)},
+ mahdiyya:{t:['The Mahdiyya','الدولة المهدية'],dom:[1800,1930],f:/Mahdist|Turkiyya|Ali Dinar/,cols:['Sudan – Middle Nile','Sudan – Darfur & Kordofan','South Sudan – Upper Nile','Egypt','Ethiopia & Eritrea (Horn)'],ticks:d3.range(1800,1931,10)},
+ modern:{t:['Modern Sudan','السودان الحديث'],dom:[1940,2026],f:/./,cols:SUDAN.concat(['Egypt','Chad & Central Sahara']),ticks:[1940,1950,1956,1960,1970,1980,1990,2000,2011,2019,2023,2026]}};
+const svg=d3.select('#chart').append('svg');defs(svg);
+function headerBlock(W,title,sub,y,fs){svg.append('text').attr('x',W/2).attr('y',y).attr('text-anchor','middle').attr('font-size',fs).attr('font-weight','bold').attr('letter-spacing',AR_ON?0:2).text(title);
+ if(sub)svg.append('text').attr('x',W/2).attr('y',y+fs*.85).attr('text-anchor','middle').attr('font-size',fs*.42).attr('font-style',AR_ON?null:'italic').text(sub);}
+function foot(W,y,fs){[DISC,CREDIT].forEach((t,k)=>{wrap(t,Math.floor(W/(fs*.5))).forEach((l,j)=>svg.append('text').attr('x',W/2).attr('y',y+k*fs*2.6+j*fs*1.2).attr('text-anchor','middle').attr('font-size',k?fs*.85:fs).attr('font-style',k?null:'italic').attr('direction',AR_ON&&!k?'rtl':'ltr').text(l))});}
+if(card&&CARDS[card]){const c=CARDS[card],W=1080,H=1350;svg.attr('width',W).attr('height',H);
+ svg.append('rect').attr('width',W).attr('height',H).attr('fill','#f4ead5');svg.append('rect').attr('x',14).attr('y',14).attr('width',W-28).attr('height',H-28).attr('fill','none').attr('stroke','#2b1d0e').attr('stroke-width',3);
+ headerBlock(W,c.t[AR_ON?1:0],(AR_ON?AR.ui.title:'Sudan Histomap')+(AR_ON?' | ':' · ')+fy(c.dom[0])+' – '+fy(c.dom[1]),86,54);
+ const cols=c.cols.filter(s=>ALL.includes(s));block(svg,{x:30,y:150,w:W-60,h:820,dom:c.dom,rng:[0,1],streams:cols,gutter:250,fs:17,ticks:c.ticks,focus:c.f,axW:78});
+ // key events of focus periods from data
+ const ev=P.filter(d=>/Sudan/.test(d.stream)&&c.f.test(d.name)&&d.end>c.dom[0]&&d.start<c.dom[1]).slice(0,4);let yy=1015;
+ svg.append('line').attr('x1',60).attr('x2',W-60).attr('y1',995).attr('y2',995).attr('stroke','#b5512f').attr('stroke-width',2);
+ ev.forEach(d=>{if(yy>1190)return;svg.append('text').attr('x',AR_ON?W-60:60).attr('y',yy).attr('text-anchor','start').attr('direction',AR_ON?'rtl':'ltr').attr('font-size',19).attr('font-weight','bold').text(nm(d)+(AR_ON?' | ':' · ')+fy(d.start)+'–'+fy(d.end));yy+=24;
+  EV(d).slice(0,2).forEach(e=>{if(yy>1215)return;svg.append('text').attr('x',AR_ON?W-80:80).attr('y',yy).attr('text-anchor','start').attr('direction',AR_ON?'rtl':'ltr').attr('font-size',AR_ON?16:15).text('• '+(e.length>110?e.slice(0,108)+'…':e));yy+=AR_ON?22:20});yy+=6;});
+ 
+ foot(W,1262,14);}
+else if(social){const W=1080,H=1350;svg.attr('width',W).attr('height',H);svg.append('rect').attr('width',W).attr('height',H).attr('fill','#f4ead5');
+ headerBlock(W,AR_ON?AR.ui.title:'SUDAN HISTOMAP',AR_ON?'من كرمة إلى اليوم':'From Kerma to today · 2500 BCE – 2026',80,56);
+ block(svg,{x:20,y:140,w:W-40,h:1080,dom:[-2600,0,1500,1900,2026],rng:[0,.3,.62,.8,1],streams:SUDAN,gutter:280,fs:16,ticks:[-2500,-2000,-1500,-1000,-500,0,500,1000,1500,1821,1885,1956,2011,2026]});
+ foot(W,1268,14);}
+else{const W=PRINT?1800:Math.max(1000,document.getElementById('chart').clientWidth-10),MH=PRINT?3900:2600,IH=PRINT?1100:800,T=PRINT?170:20;
+ if(PRINT){headerBlock(W,AR_ON?AR.ui.title:'SUDAN HISTOMAP',AR_ON?AR.ui.sub:'Ten thousand years of Sudan and its neighbours · c. 8000 BCE – 2026',70,60);}
+ block(svg,{x:10,y:T,w:W-20,h:MH,dom:[-8000,-3000,0,1500,1900,2026],rng:[0,.07,.37,.69,.9,1],streams:ALL,gutter:PRINT?360:240,fs:PRINT?21:12,ticks:TICKS,hdr:70});
+ const iy=T+MH+70;svg.append('rect').attr('x',10).attr('y',iy-50).attr('width',W-20).attr('height',IH+60).attr('fill','none').attr('stroke','#2b1d0e').attr('stroke-width',2).attr('stroke-dasharray','8 5');
+ svg.append('text').attr('x',W/2).attr('y',iy-18).attr('text-anchor','middle').attr('font-size',PRINT?28:20).attr('font-weight','bold').text(AR_ON?AR.ui.modern:'ZOOMED INSET · Modern Sudan, 1945 – 2026');
+ block(svg,{x:20,y:iy,w:W-40,h:IH,dom:[1945,2026],rng:[0,1],streams:SUDAN.concat(['Egypt','Ethiopia & Eritrea (Horn)','Chad & Central Sahara']),gutter:PRINT?330:240,fs:PRINT?21:12,ticks:[1945,1956,1958,1964,1969,1985,1989,2005,2011,2019,2023,2026],hdr:70});
+ const H=iy+IH+(PRINT?150:60);svg.attr('width',W).attr('height',H);if(PRINT)foot(W,H-95,17);}
+// interactive map/panel
+const side=document.getElementById('side'),info=document.getElementById('info');info.textContent=AR_ON?AR.ui.sel:'Select a band to see details & sources.';
+const mw=side.clientWidth||500,mh=380,ms=d3.select('#map').attr('width',mw).attr('height',mh);
+const proj=d3.geoMercator().center([32,13]).scale(mw*1.15).translate([mw/2,mh/2]),path=d3.geoPath(proj);
+ms.append('g').selectAll('path').data(topojson.feature(WORLD,WORLD.objects.countries).features).join('path').attr('d',path).attr('fill',d=>['Sudan','S. Sudan','South Sudan'].includes(d.properties.name)?'#e8c9a0':'#efe6d2').attr('stroke','#8a7a60').attr('stroke-width',.5);
+const pts=ms.append('g');
+function draw(t,sel){const c=P.filter(d=>d.start<=t&&d.end>=t).flatMap(d=>(d.capitals||[]).map(k=>({...k,p:d})));
+ pts.selectAll('g').data(c,d=>d.p.name+d.name).join(en=>{const q=en.append('g');q.append('circle').attr('r',5);q.append('text').attr('font-size',10).attr('dx',7).attr('dy',3).attr('direction','ltr').attr('text-anchor','start');return q})
+ .attr('transform',d=>`translate(${proj([d.lon,d.lat])})`).call(q=>{q.select('circle').attr('fill',d=>pal(d.p.stream)).attr('stroke',d=>d.p===sel?'#000':'#fff').attr('stroke-width',d=>d.p===sel?2.5:1);q.select('text').text(d=>d.name)}).on('click',(e,d)=>select(d.p));
+ const boxes=pts.selectAll('g').data().map(d=>{const p=proj([d.lon,d.lat]);return[p[0]-5,p[1]-5,p[0]+5,p[1]+5]}),OFF=[[7,3,'start'],[-7,3,'end'],[0,-8,'middle'],[0,14,'middle'],[7,-7,'start'],[-7,-7,'end'],[7,13,'start'],[-7,13,'end'],[16,-16,'start'],[-16,-16,'end'],[16,22,'start'],[-16,22,'end'],[0,-22,'middle'],[0,28,'middle']];
+ pts.selectAll('g').each(function(d){const p=proj([d.lon,d.lat]),t=d3.select(this).select('text'),wd=d.name.length*5.4;let ok=false;
+  for(const [dx,dy,an] of OFF){const x0=p[0]+(an=='start'?dx:an=='end'?dx-wd:-wd/2),y0=p[1]+dy-9,bb=[x0,y0,x0+wd,y0+11];
+   if(!boxes.some(q=>bb[0]<q[2]&&bb[2]>q[0]&&bb[1]<q[3]&&bb[3]>q[1])){boxes.push(bb);t.attr('dx',dx).attr('dy',dy).attr('text-anchor',an).attr('display',null);ok=true;break}}
+  if(!ok)t.attr('display','none');d3.select(this).selectAll('title').remove();d3.select(this).append('title').text(d.name);});
+ d3.select('#yrl').text(fy(t));d3.selectAll('.band').classed('sel',d=>d===sel);}
+function select(d){document.body.classList.remove('nopanel');const t=Math.round((d.start+Math.min(d.end,2026))/2);document.getElementById('yr').value=t;draw(t,d);
+ info.innerHTML=`<h3 style="margin:0">${nm(d)}</h3>${AR_ON?'<div dir="ltr" style="font-size:12px">'+d.name+'</div>':''}<i>${sn(d.stream)} · ${fy(d.start)} – ${fy(d.end)}</i>${d.dating_note?' <small dir="ltr" style="unicode-bidi:isolate">('+d.dating_note+')</small>':''}<ul dir="${AR_ON?'rtl':'ltr'}">${EV(d).map(e=>'<li>'+e+'</li>').join('')}</ul><b>${AR_ON?'العواصم/المواقع':'Capitals/sites'}:</b> ${(d.capitals||[]).map(c=>c.name).join(', ')}<br><b>${AR_ON?'المصادر':'Sources'}:</b> <ol dir="ltr" style="margin:4px 0">${(d.sources||[]).map(cite).join('')}</ol>`;}
+// Full citations: resolve IDs via a sources table (HISTO.sources or HISTO.meta.sources, keyed by id) if the dataset provides one; otherwise describe the URL.
+function cite(src){const T=HISTO.sources||(HISTO.meta&&HISTO.meta.sources)||{},r=(typeof src=='string'&&T[src])||(typeof src=='object'?src:null);
+ if(r){const t=[r.author,r.year&&'('+r.year+')',r.title&&'<i>'+r.title+'</i>',r.publisher,r.pages].filter(Boolean).join(' ');return `<li>${t||src}${r.url?` <a href="${r.url}" target="_blank">link</a>`:''}</li>`}
+ if(!/^https?:/.test(src))return `<li>${src} <small>(unresolved ID)</small></li>`;
+ const u=new URL(src),h=u.hostname.replace(/^www\./,''),last=decodeURIComponent(u.pathname.split('/').filter(Boolean).pop()||'').replace(/_/g,' ');
+ const pub={'en.wikipedia.org':'Wikipedia','wikidata.org':'Wikidata','unesdoc.unesco.org':'UNESCO, General History of Africa (UNESDOC)','whc.unesco.org':'UNESCO World Heritage Centre','kerma.ch':'Swiss-French Archaeological Mission to Kerma'}[h]||h;
+ return `<li>${pub}${last?': “'+last+'”':''} — <a href="${src}" target="_blank">${src}</a></li>`}
+document.getElementById('yr').oninput=e=>draw(+e.target.value);draw(-700);
+if(Q.get('select')){const d=P.find(p=>p.name===Q.get('select'))||P.find(p=>p.name.includes(Q.get('select')));if(d)select(d);}
+</script></body></html>
