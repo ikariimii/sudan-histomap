@@ -1,0 +1,616 @@
+{
+ "meta": {
+  "lang": "ar",
+  "title": "Historiography lens: ar",
+  "built": "2026-10-20",
+  "format": "items mirror data/periods.json periods[] fields + id/era_id(s)/lang/name_*/summary_*/framing_*/regional_power/flags; years negative=BCE; start/end = the source's own dating (null if it gives none); main_start/main_end = Histomap main dataset",
+  "note": "Sources written in this language only. verification field states how each was read. Power scores left empty unless a source states a comparable claim.",
+  "sources": {
+   "AR_WIKI_HIST": {
+    "id": "AR_WIKI_HIST",
+    "author": "ويكيبيديا العربية",
+    "title": "تاريخ السودان",
+    "title_en": "History of Sudan",
+    "title_ar": "تاريخ السودان",
+    "publisher": "Wikipedia (ar)",
+    "year": "2026",
+    "url": "https://ar.wikipedia.org/wiki/تاريخ_السودان",
+    "lang": "ar",
+    "kind": "encyclopedia (crowd)",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "AR_MAREFA": {
+    "id": "AR_MAREFA",
+    "author": "موسوعة المعرفة",
+    "title": "تاريخ السودان",
+    "title_en": "History of Sudan",
+    "title_ar": "تاريخ السودان",
+    "publisher": "marefa.org",
+    "year": "2026",
+    "url": "https://www.marefa.org/تاريخ_السودان",
+    "lang": "ar",
+    "kind": "encyclopedia (Arabic, Egypt-based)",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "AR_JZ_ENC_SD": {
+    "id": "AR_JZ_ENC_SD",
+    "author": "موسوعة الجزيرة نت",
+    "title": "السودان.. تنوع عرقي وغنى تاريخي ومؤهلات اقتصادية تدمرها الحروب",
+    "title_en": "Sudan: ethnic diversity, rich history and economic potential destroyed by wars",
+    "title_ar": "السودان.. تنوع عرقي وغنى تاريخي ومؤهلات اقتصادية تدمرها الحروب",
+    "publisher": "Al Jazeera Net (Qatar)",
+    "year": "2014 (updated)",
+    "url": "https://www.aljazeera.net/encyclopedia/2014/11/3/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86",
+    "lang": "ar",
+    "kind": "encyclopedia (media)",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "AR_JZ_ENC_MAHDI": {
+    "id": "AR_JZ_ENC_MAHDI",
+    "author": "موسوعة الجزيرة نت",
+    "title": "الثورة المهدية.. يوم أقام \"المهدي المنتظر\" دولة في السودان",
+    "title_en": "The Mahdist Revolution: the day the \"awaited Mahdi\" founded a state in Sudan",
+    "title_ar": "الثورة المهدية.. يوم أقام \"المهدي المنتظر\" دولة في السودان",
+    "publisher": "Al Jazeera Net (Qatar)",
+    "year": "2025-11-24",
+    "url": "https://www.aljazeera.net/encyclopedia/2025/11/24/%D8%A7%D9%84%D8%AB%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%87%D8%AF%D9%8A%D8%A9-%D9%8A%D9%88%D9%85-%D8%A3%D9%82%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D9%87%D8%AF%D9%8A",
+    "lang": "ar",
+    "kind": "encyclopedia (media); cites Sudanese historian M. S. al-Qaddal",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "AR_BBC_CONDO": {
+    "id": "AR_BBC_CONDO",
+    "author": "بي بي سي عربي",
+    "title": "قصة الحُكم الثنائي البريطاني-المصري في السودان",
+    "title_en": "The story of British-Egyptian dual rule in Sudan",
+    "title_ar": "قصة الحُكم الثنائي البريطاني-المصري في السودان",
+    "publisher": "BBC News Arabic",
+    "year": "2021",
+    "url": "https://www.bbc.com/arabic/middleeast-59008870",
+    "lang": "ar",
+    "kind": "explainer",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "AR_WIKI_CONDO": {
+    "id": "AR_WIKI_CONDO",
+    "author": "ويكيبيديا العربية",
+    "title": "الحكم الثنائي للسودان",
+    "title_en": "Anglo-Egyptian Condominium of Sudan",
+    "title_ar": "الحكم الثنائي للسودان",
+    "publisher": "Wikipedia (ar)",
+    "year": "2026",
+    "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D9%83%D9%85_%D8%A7%D9%84%D8%AB%D9%86%D8%A7%D8%A6%D9%8A_%D9%84%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86",
+    "lang": "ar",
+    "kind": "encyclopedia (crowd)",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "AR_SHUKRI1957": {
+    "id": "AR_SHUKRI1957",
+    "author": "محمد فؤاد شكري",
+    "title": "مصر والسودان: تاريخ وحدة وادي النيل السياسية في القرن التاسع عشر (١٨٢٠–١٨٩٩)",
+    "title_en": "Egypt and Sudan: history of the political unity of the Nile Valley in the 19th century (1820–1899)",
+    "title_ar": "مصر والسودان: تاريخ وحدة وادي النيل السياسية في القرن التاسع عشر",
+    "publisher": "Hindawi (public-domain reissue 2025; orig. 1957, Cairo University historian)",
+    "year": "1957",
+    "url": "https://www.safahat.org/books/59585097/0.1/",
+    "lang": "ar",
+    "kind": "academic monograph (Egyptian national scholarship)",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read) (introduction)"
+   },
+   "AR_BESHIR1987": {
+    "id": "AR_BESHIR1987",
+    "author": "محمد عمر بشير",
+    "title": "تاريخ الحركة الوطنية في السودان 1900–1969",
+    "title_en": "History of the national movement in Sudan 1900–1969",
+    "title_ar": "تاريخ الحركة الوطنية في السودان 1900–1969",
+    "publisher": "Dar al-Jil (Beirut), Arabic ed. 1987; full text on Internet Archive",
+    "year": "1987",
+    "url": "https://archive.org/details/19001969",
+    "lang": "ar",
+    "kind": "academic monograph (Sudanese scholar, Univ. of Khartoum)",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read) (OCR full text; OCR is noisy)"
+   },
+   "AR_KASSALA2018": {
+    "id": "AR_KASSALA2018",
+    "author": "مأمون أحمد عثمان الأمين؛ نبيل رابح آدم سعيد",
+    "title": "أساليب المقاومة الأولى ضد الحكم الثنائي في السودان (1899–1921)",
+    "title_en": "Forms of the first resistance to the Anglo-Egyptian Condominium in Sudan (1899–1921)",
+    "title_ar": "أساليب المقاومة الأولى ضد الحكم الثنائي في السودان (1899–1921)",
+    "publisher": "مجلة جامعة كسلا ع12 (Kassala University Journal, peer-reviewed)",
+    "year": "2018",
+    "url": "https://search.mandumah.com/Record/1242750",
+    "lang": "ar",
+    "kind": "peer-reviewed article (Sudanese university)",
+    "verification": "catalogue record seen via search; full text not read — VERIFY (abstract read in search result; mandumah returns 429 to curl)"
+   },
+   "AR_UOFK1990": {
+    "id": "AR_UOFK1990",
+    "author": "فدوى عبدالرحمن علي طه (عرض)",
+    "title": "إدارة السودان في الحكم الثنائي (عرض كتاب)",
+    "title_en": "Administration of Sudan under the Condominium (book review)",
+    "title_ar": "إدارة السودان في الحكم الثنائي",
+    "publisher": "مجلة الدراسات السودانية، جامعة الخرطوم – معهد الدراسات الأفريقية والآسيوية، مج10 ع1",
+    "year": "1990",
+    "url": "https://search.mandumah.com/Record/638726",
+    "lang": "ar",
+    "kind": "peer-reviewed journal record (University of Khartoum)",
+    "verification": "catalogue record seen via search; full text not read — VERIFY"
+   },
+   "AR_WIKI_SEPT83": {
+    "id": "AR_WIKI_SEPT83",
+    "author": "ويكيبيديا العربية",
+    "title": "قوانين سبتمبر 1983م",
+    "title_en": "The September 1983 laws",
+    "title_ar": "قوانين سبتمبر 1983م",
+    "publisher": "Wikipedia (ar)",
+    "year": "2026",
+    "url": "https://ar.wikipedia.org/wiki/%D9%82%D9%88%D8%A7%D9%86%D9%8A%D9%86_%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1_1983%D9%85",
+    "lang": "ar",
+    "kind": "encyclopedia (crowd)",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "AR_SUDANILE2013": {
+    "id": "AR_SUDANILE2013",
+    "author": "تاج السر عثمان بابو",
+    "title": "العودة لتجربة قوانين سبتمبر 1983م: هل تنقذ النظام؟",
+    "title_en": "Return to the September 1983 laws: will it save the regime?",
+    "title_ar": "العودة لتجربة قوانين سبتمبر 1983م: هل تنقذ النظام؟",
+    "publisher": "Sudanile (Sudanese opinion site; author is a Sudanese Communist Party historian)",
+    "year": "2013-02-28",
+    "url": "https://sudanile.com/%D8%A7%D9%84%D8%B9%D9%88%D8%AF%D8%A9-%D9%84%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%82%D9%88%D8%A7%D9%86%D9%8A%D9%86-%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1-1983%D9%85-%D9%87%D9%84-%D8%AA%D9%86%D9%82%D8%B0/",
+    "lang": "ar",
+    "kind": "opinion/history essay (left-partisan)",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "AR_AJCS_5653": {
+    "id": "AR_AJCS_5653",
+    "author": "مركز الجزيرة للدراسات",
+    "title": "مصر وأزمة السودان: حدود الدور والتأثر",
+    "title_en": "Egypt and the Sudan crisis: limits of role and impact",
+    "title_ar": "مصر وأزمة السودان: حدود الدور والتأثر",
+    "publisher": "Al Jazeera Centre for Studies (Qatar)",
+    "year": "2023",
+    "url": "https://studies.aljazeera.net/ar/article/5653",
+    "lang": "ar",
+    "kind": "think-tank paper",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "AR_AJCS_5637": {
+    "id": "AR_AJCS_5637",
+    "author": "مركز الجزيرة للدراسات",
+    "title": "تداعيات التطورات في السودان على دول الجوار وأمن البحر الأحمر",
+    "title_en": "Repercussions of Sudan developments on neighbours and Red Sea security",
+    "title_ar": "تداعيات التطورات في السودان على دول الجوار وأمن البحر الأحمر",
+    "publisher": "Al Jazeera Centre for Studies (Qatar)",
+    "year": "2023",
+    "url": "https://studies.aljazeera.net/ar/article/5637",
+    "lang": "ar",
+    "kind": "think-tank paper",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "AR_AJCS_6166": {
+    "id": "AR_AJCS_6166",
+    "author": "مركز الجزيرة للدراسات",
+    "title": "حرب السودان: بعد عامين من القتال.. هل من حل في الأفق؟",
+    "title_en": "Sudan war: after two years of fighting, is a solution on the horizon?",
+    "title_ar": "حرب السودان: بعد عامين من القتال.. هل من حل في الأفق؟",
+    "publisher": "Al Jazeera Centre for Studies (Qatar)",
+    "year": "2025",
+    "url": "https://studies.aljazeera.net/ar/node/6166",
+    "lang": "ar",
+    "kind": "think-tank paper",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "AR_AJCS_6074": {
+    "id": "AR_AJCS_6074",
+    "author": "مركز الجزيرة للدراسات",
+    "title": "مصر وحميدتي: أسباب التصعيد ومآلاته",
+    "title_en": "Egypt and Hemedti: causes and outcomes of escalation",
+    "title_ar": "مصر وحميدتي: أسباب التصعيد ومآلاته",
+    "publisher": "Al Jazeera Centre for Studies (Qatar)",
+    "year": "2025",
+    "url": "https://studies.aljazeera.net/ar/article/6074",
+    "lang": "ar",
+    "kind": "think-tank paper",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read) (abstract)"
+   },
+   "AR_SUDANAKHBAR_BASE": {
+    "id": "AR_SUDANAKHBAR_BASE",
+    "author": "أخبار السودان (عن سودان تربيون)",
+    "title": "مصدر عسكري يوضح حقيقة تفعيل مشروع القاعدة الروسية في بورتسودان",
+    "title_en": "Military source clarifies truth about the Russian base project in Port Sudan",
+    "title_ar": "مصدر عسكري يوضح حقيقة تفعيل مشروع القاعدة الروسية في بورتسودان",
+    "publisher": "sudanakhbar.com",
+    "year": "2025-12-07",
+    "url": "https://www.sudanakhbar.com/1727010",
+    "lang": "ar",
+    "kind": "news (= GEO-082)",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   }
+  }
+ },
+ "items": [
+  {
+   "id": "ar-turkiyya-1",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "era_ids": [
+    "turkiyya-ottoman-egyptian-rule"
+   ],
+   "lang": "ar",
+   "name": "الفتح التركي / الغزو المصري التركي / \"التركية\"",
+   "name_original": "الفتح التركي / الغزو المصري التركي / \"التركية\"",
+   "name_en": "\"The Turkish conquest\" / \"the Egyptian-Turkish invasion\" / \"al-Turkiyya\"",
+   "name_ar": "الفتح التركي / الغزو المصري التركي / التركية",
+   "stream": "Sudan – Middle Nile",
+   "start": 1820,
+   "end": 1885,
+   "main_start": 1821,
+   "main_end": 1885,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "AR_WIKI_HIST",
+    "AR_MAREFA",
+    "AR_SHUKRI1957"
+   ],
+   "dating_note": "Arabic sources start at 1820 (campaign launch). Main dataset: 1821. Shukri ends the \"unity\" in 1884–85 (evacuation), not 1885.",
+   "summary_en": "Arabic sources date the era from Ismail Pasha's 1820 march on Sennar, a year before the main dataset's 1821. They disagree on what to call it: Arabic Wikipedia says \"the Turkish conquest (fath) 1820\", Marefa says \"the Egyptian-Turkish invasion (ghazw) 1820\", and the Egyptian historian Shukri says \"the Egyptian era, known in Sudan as al-Turkiyya\".",
+   "summary_ar": "تؤرّخ المصادر العربية بداية الحقبة بزحف إسماعيل باشا على سنار عام 1820، أي قبل عام من تاريخ قاعدة البيانات الرئيسية (1821). وتختلف في تسميتها: ويكيبيديا العربية تقول «الفتح التركي 1820»، وموسوعة المعرفة «الغزو المصري التركي 1820»، والمؤرخ المصري شكري «عهد المصرية المعروف في السودان باسم التركية».",
+   "framing_en": "The verb carries the stance: \"fath\" (conquest/opening) is neutral or legitimising, \"ghazw\" (invasion) is hostile. Shukri's Egyptian nationalist reading presents the era as the start of a legitimate \"political unity of the Nile Valley\" and a school of Sudanese self-government. Sudanese and Western readings stress taxation and slaving.",
+   "framing_ar": "الفعل نفسه يحمل الموقف: «الفتح» محايد أو مُضفٍ للشرعية، و«الغزو» عدائي. وتقدّم قراءة شكري القومية المصرية الحقبة بوصفها بداية «وحدة وادي النيل السياسية» المشروعة ومدرسة للحكم الذاتي السوداني، في حين تركّز القراءات السودانية والغربية على الضرائب وتجارة الرقيق.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "ar-mahdiyya-1",
+   "era_id": "mahdist-state-mahdiyya",
+   "era_ids": [
+    "mahdist-state-mahdiyya"
+   ],
+   "lang": "ar",
+   "name": "الثورة المهدية وحروب الاستقلال / الدولة المهدية",
+   "name_original": "الثورة المهدية وحروب الاستقلال / الدولة المهدية",
+   "name_en": "\"The Mahdist Revolution and wars of independence\" / the Mahdist State",
+   "name_ar": "الثورة المهدية وحروب الاستقلال / الدولة المهدية",
+   "stream": "Sudan – Middle Nile",
+   "start": 1881,
+   "end": 1898,
+   "main_start": 1885,
+   "main_end": 1899,
+   "prominence": null,
+   "key_events": [
+    "Aba 1881",
+    "Fall of Khartoum 26 Jan 1885",
+    "Karari (Omdurman) 1898"
+   ],
+   "key_events_ar": [
+    "واقعة أبا 1881",
+    "سقوط الخرطوم 26 يناير 1885",
+    "معركة كرري 1898"
+   ],
+   "capitals": [],
+   "sources": [
+    "AR_WIKI_HIST",
+    "AR_JZ_ENC_MAHDI",
+    "AR_SHUKRI1957",
+    "AR_BESHIR1987"
+   ],
+   "dating_note": "Arabic sources: 1881–1898 (revolution start to Karari/Omdurman). Main dataset: 1885–1899.",
+   "summary_en": "Sudanese and Arabic scholarship begins the era at the 1881 Aba Island uprising, not at the fall of Khartoum in 1885, and calls it a \"revolution\". Arabic Wikipedia titles the section \"the Mahdist Revolution and wars of independence\". Al Jazeera's encyclopedia (citing al-Qaddal) describes a religious-political revolution against \"colonialism\", meaning Egyptian-Turkish rule and British domination, which founded an independent state in 1885 that ended in 1898.",
+   "summary_ar": "تبدأ الكتابات السودانية والعربية الحقبة بثورة الجزيرة أبا عام 1881 لا بسقوط الخرطوم عام 1885، وتسمّيها «ثورة». فعنوان القسم في ويكيبيديا العربية «الثورة المهدية وحروب الاستقلال»، وتصفها موسوعة الجزيرة (نقلًا عن القدال) بأنها ثورة دينية سياسية على «الاستعمار» المتمثل في الحكم المصري التركي والهيمنة البريطانية، أقامت دولة مستقلة عام 1885 انتهت عام 1898.",
+   "framing_en": "Sudanese historiography reads the Mahdiyya as the first national-independence state. Shukri, an Egyptian writing in 1957, sees a revolt against the lawful sovereign that created no sovereign rights and lost territory such as Bahr al-Ghazal, Equatoria and Harar. Arab sources do not share one view: the split is Cairo against Khartoum.",
+   "framing_ar": "يقرأ التأريخ السوداني المهدية بوصفها أول دولة استقلال وطني. أمّا شكري، وهو مصري كتب عام 1957، فيراها ثورة على صاحب السيادة الشرعي لم تُنشئ حقوق سيادة وأضاعت أقاليم مثل بحر الغزال والاستوائية وهرر. فالمصادر العربية لا تجمع على رأي واحد، والانقسام بين القاهرة والخرطوم.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "ar-condo-1",
+   "era_id": "anglo-egyptian-sudan-condominium",
+   "era_ids": [
+    "anglo-egyptian-sudan-condominium"
+   ],
+   "lang": "ar",
+   "name": "الحكم الثنائي / الاستعمار الثنائي / \"العهد الاستعماري الثاني\"",
+   "name_original": "الحكم الثنائي / الاستعمار الثنائي / \"العهد الاستعماري الثاني\"",
+   "name_en": "Dual rule / dual colonialism / \"the second colonial era\"",
+   "name_ar": "الحكم الثنائي / الاستعمار الثنائي / العهد الاستعماري الثاني",
+   "stream": "Sudan – Middle Nile",
+   "start": 1899,
+   "end": 1956,
+   "main_start": 1899,
+   "main_end": 1956,
+   "prominence": null,
+   "key_events": [
+    "Condominium agreement 19 Jan 1899",
+    "Graduates' Congress (late 1930s)",
+    "Independence 1 Jan 1956"
+   ],
+   "key_events_ar": [
+    "اتفاقية الحكم الثنائي 19 يناير 1899",
+    "مؤتمر الخريجين (أواخر الثلاثينيات)",
+    "الاستقلال 1 يناير 1956"
+   ],
+   "capitals": [],
+   "sources": [
+    "AR_WIKI_CONDO",
+    "AR_BBC_CONDO",
+    "AR_BESHIR1987",
+    "AR_KASSALA2018",
+    "AR_UOFK1990",
+    "AR_JZ_ENC_SD"
+   ],
+   "dating_note": "",
+   "summary_en": "Every Arabic source agrees that Cromer and Boutros Ghali signed the agreement on 19 January 1899 and that Britain held real power. Arabic Wikipedia calls the name \"Anglo-Egyptian dual era\" \"vague and inaccurate\" and says the period \"is now known as the second colonial era\". Mohamed Omer Beshir presents 1898–1956 as sixty years of struggle among Egypt, Britain, the Khatmiyya and the Ansar, the educated class and the masses.",
+   "summary_ar": "تتفق المصادر العربية كلها على أن كرومر وبطرس غالي وقّعا الاتفاقية في 19 يناير 1899، وأن السلطة الفعلية كانت لبريطانيا. وتصف ويكيبيديا العربية تسمية «العهد الثنائي الإنجليزي المصري» بأنها «مبهمة وغير دقيقة»، وتقول إن الفترة «تُعرف الآن بالعهد الاستعماري الثاني». ويقدّم محمد عمر بشير الفترة 1898–1956 بوصفها ستين عامًا من الصراع بين مصر وبريطانيا والختمية والأنصار والمثقفين والجماهير.",
+   "framing_en": "Arabic sources differ on Egypt's role. The Sudanese view treats Egypt as a co-coloniser, hence \"the second colonial era\". The Egyptian-leaning view treats Egypt as itself occupied and paying the bills. A Kassala University study frames 1899–1921 as continuous national resistance. Al Jazeera stresses that Britain separated South from North as the root of partition.",
+   "framing_ar": "تختلف المصادر العربية في دور مصر: فالرؤية السودانية تعدّها شريكة في الاستعمار، ومن هنا «العهد الاستعماري الثاني»، والرؤية الأقرب إلى مصر تعدّها محتلة هي الأخرى وتتحمّل النفقات. وتصوّر دراسة جامعة كسلا الفترة 1899–1921 مقاومةً وطنية متصلة، وتشدّد الجزيرة على أن بريطانيا فصلت الجنوب عن الشمال، وأن هذا أصل التقسيم.",
+   "regional_power": [],
+   "flags": [
+    "AR_KASSALA2018 / AR_UOFK1990: abstract or catalogue only, VERIFY",
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "ar-indep-1",
+   "era_id": "independent-sudan-first-parliamentary-period",
+   "era_ids": [
+    "independent-sudan-first-parliamentary-period"
+   ],
+   "lang": "ar",
+   "name": "الاستقلال والحكم المدني الأول / \"الأزمة الدستورية\"",
+   "name_original": "الاستقلال والحكم المدني الأول / \"الأزمة الدستورية\"",
+   "name_en": "Independence and the first civilian rule / \"the constitutional crisis\"",
+   "name_ar": "الاستقلال والحكم المدني الأول",
+   "stream": "Sudan – Republic",
+   "start": 1956,
+   "end": 1958,
+   "main_start": 1956,
+   "main_end": 1958,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "AR_WIKI_HIST",
+    "AR_JZ_ENC_SD"
+   ],
+   "dating_note": "",
+   "summary_en": "Arabic Wikipedia numbers the eras of contemporary political systems in sequence: \"first civilian rule\", then \"first military rule\" (Abboud), \"second civilian rule\", \"the May regime\" (Nimeiri), and so on. Al Jazeera credits independence on 1 January 1956 to the Graduates' Congress and the parties of the 1940s.",
+   "summary_ar": "ترقّم ويكيبيديا العربية حقب الأنظمة السياسية المعاصرة بالتتابع: «الحكم المدني الأول»، ثم «الحكم العسكري الأول» (عبود)، ثم «الحكم المدني الثاني»، ثم «نظام مايو» (نميري)، وهكذا. وتنسب الجزيرة الاستقلال في 1 يناير 1956 إلى مؤتمر الخريجين وأحزاب الأربعينيات.",
+   "framing_en": "The Sudanese Arabic convention is a civilian/military alternation (\"first civilian\", \"first military\"…). It differs from the Western \"parliamentary periods\" labels and makes the cycle of coups the organising idea.",
+   "framing_ar": "العُرف العربي السوداني تناوبٌ مدني/عسكري («المدني الأول»، «العسكري الأول»…)، وهو يختلف عن تسميات «الفترات البرلمانية» الغربية، ويجعل دورة الانقلابات الفكرةَ الناظمة.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "ar-abboud-1",
+   "era_id": "abboud-military-regime",
+   "era_ids": [
+    "abboud-military-regime"
+   ],
+   "lang": "ar",
+   "name": "الحكم العسكري الأول: حكومة عبود",
+   "name_original": "الحكم العسكري الأول: حكومة عبود",
+   "name_en": "First military rule: the Abboud government",
+   "name_ar": "الحكم العسكري الأول: حكومة عبود",
+   "stream": "Sudan – Republic",
+   "start": 1958,
+   "end": 1964,
+   "main_start": 1958,
+   "main_end": 1964,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "AR_WIKI_HIST"
+   ],
+   "dating_note": "",
+   "summary_en": "Arabic Wikipedia treats Abboud's regime in three parts: its policies, their results, and the regime's fall in October 1964. The \"southern problem\" is a recurring sub-heading.",
+   "summary_ar": "تتناول ويكيبيديا العربية نظام عبود في ثلاثة أقسام: سياساته، ونتائجها، وسقوطه في أكتوبر 1964. و«مشكلة الجنوب» عنوان فرعي يتكرر.",
+   "framing_en": "The phrase \"the southern problem\" (mushkilat al-janub) is a northern-centred frame: the South appears as a problem for the state rather than a party with its own history.",
+   "framing_ar": "عبارة «مشكلة الجنوب» إطار متمركز حول الشمال، يظهر فيه الجنوب مشكلةً تواجه الدولة لا طرفًا له تاريخه الخاص.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "ar-nimeiri-1",
+   "era_id": "nimeiry-era-democratic-republic-of-sudan",
+   "era_ids": [
+    "nimeiry-era-democratic-republic-of-sudan"
+   ],
+   "lang": "ar",
+   "name": "نظام مايو / عهد النميري",
+   "name_original": "نظام مايو / عهد النميري",
+   "name_en": "\"The May regime\" / the Nimeiri era",
+   "name_ar": "نظام مايو / عهد النميري",
+   "stream": "Sudan – Republic",
+   "start": 1969,
+   "end": 1985,
+   "main_start": 1969,
+   "main_end": 1985,
+   "prominence": null,
+   "key_events": [
+    "May 1969 coup",
+    "September 1983 laws",
+    "Execution of Mahmoud Mohamed Taha (Jan 1985)",
+    "April 1985 intifada"
+   ],
+   "key_events_ar": [
+    "انقلاب مايو 1969",
+    "قوانين سبتمبر 1983",
+    "إعدام محمود محمد طه (يناير 1985)",
+    "انتفاضة أبريل 1985"
+   ],
+   "capitals": [],
+   "sources": [
+    "AR_WIKI_HIST",
+    "AR_WIKI_SEPT83",
+    "AR_SUDANILE2013"
+   ],
+   "dating_note": "",
+   "summary_en": "Arabic sources call the regime \"the May regime\" after the coup of 25 May 1969, and treat it as two phases: \"Nimeiri and the leftists\", then \"Nimeiri and the Islamists\". The September 1983 laws are the turning point. The name itself is Mahmoud Mohamed Taha's: he called them \"the September laws\" rather than \"sharia laws\", and the name spread among the public. Taha was executed under those laws, and the April 1985 intifada toppled Nimeiri.",
+   "summary_ar": "تسمّي المصادر العربية النظام «نظام مايو» نسبةً إلى انقلاب 25 مايو 1969، وتقسمه إلى مرحلتين: «نميري واليساريون» ثم «نميري والإسلاميون». وقوانين سبتمبر 1983 هي نقطة التحول، والاسم نفسه من وضع الأستاذ محمود محمد طه الذي سمّاها «قوانين سبتمبر» بدلًا من «قوانين الشريعة الإسلامية»، فشاعت التسمية بين الناس. وقد أُعدم طه بموجبها، ثم أطاحت انتفاضة أبريل 1985 بنميري.",
+   "framing_en": "Naming here is politics. \"September laws\" is the opposition's delegitimising term, while Islamist groups (Ansar al-Sunna, the Muslim Brothers) defended them as Islamic law. A left-wing Sudanese historian ties the laws to economic collapse, external debt of USD 9bn and \"loss of national sovereignty\".",
+   "framing_ar": "التسمية هنا سياسة: «قوانين سبتمبر» مصطلح المعارضة لنزع الشرعية عنها، في حين دافعت عنها جماعات إسلامية (أنصار السنة والإخوان المسلمون) بوصفها قوانين إسلامية. ويربط مؤرخ سوداني يساري القوانين بالانهيار الاقتصادي وديون خارجية بلغت 9 مليارات دولار و«فقدان السيادة الوطنية».",
+   "regional_power": [],
+   "flags": [
+    "AR_SUDANILE2013 is partisan opinion; its figures are not independently verified",
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "ar-trans85-1",
+   "era_id": "transitional-third-parliamentary-period",
+   "era_ids": [
+    "transitional-third-parliamentary-period"
+   ],
+   "lang": "ar",
+   "name": "حكومة سوار الذهب الانتقالية والحكم المدني الثالث",
+   "name_original": "حكومة سوار الذهب الانتقالية والحكم المدني الثالث",
+   "name_en": "Swar al-Dahab transitional government and the third civilian rule",
+   "name_ar": "حكومة سوار الذهب الانتقالية والحكم المدني الثالث",
+   "stream": "Sudan – Republic",
+   "start": 1985,
+   "end": 1989,
+   "main_start": 1985,
+   "main_end": 1989,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "AR_WIKI_HIST",
+    "AR_SUDANILE2013"
+   ],
+   "dating_note": "",
+   "summary_en": "Arabic Wikipedia names this period after Swar al-Dahab's military-civilian transitional government and \"the third civilian rule\". Sudanile frames 1985–89 as a contest between a civil democratic state and the National Islamic Front's religious state, ended by the 30 June 1989 coup.",
+   "summary_ar": "تسمّي ويكيبيديا العربية الفترة باسم «حكومة سوار الذهب العسكرية المدنية الانتقالية» و«الحكم المدني الثالث». ويصوّر مقال سودانايل الفترة 1985–1989 صراعًا بين الدولة المدنية الديمقراطية والدولة الدينية التي أرادتها الجبهة الإسلامية القومية، وقد حسمه انقلاب 30 يونيو 1989.",
+   "framing_en": "Arabic Wikipedia calls the 1989 coup a \"coup of the Islamic Movement\". It names the actor, where English labels such as \"al-Bashir regime\" name only the man.",
+   "framing_ar": "تسمّي ويكيبيديا العربية انقلاب 1989 «انقلاب الحركة الإسلامية»، فهي تسمّي الفاعل، في حين تكتفي التسميات الإنجليزية مثل «نظام البشير» بتسمية الرجل.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "ar-ingaz-1",
+   "era_id": "al-bashir-ncp-ingaz-regime",
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime"
+   ],
+   "lang": "ar",
+   "name": "انقلاب الحركة الإسلامية / الإنقاذ",
+   "name_original": "انقلاب الحركة الإسلامية / الإنقاذ",
+   "name_en": "\"The Islamic Movement's coup\" / al-Ingaz (Salvation)",
+   "name_ar": "انقلاب الحركة الإسلامية / الإنقاذ",
+   "stream": "Sudan – Republic",
+   "start": 1989,
+   "end": 2019,
+   "main_start": 1989,
+   "main_end": 2019,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "AR_WIKI_HIST",
+    "AR_SUDANILE2013"
+   ],
+   "dating_note": "",
+   "summary_en": "In Arabic sources this era is the Islamic Movement's regime: the 1989 coup was a putsch by the Islamic Movement, and the regime's own name was \"al-Ingaz\" (Salvation). Sudanile says oil revenue never reached production and debt rose to USD 43bn. It also says the Ingaz emptied the 2005 Naivasha agreement (the CPA) of its content by insisting on a religious state, which led to the South's secession.",
+   "summary_ar": "تقدّم المصادر العربية هذه الحقبة نظامًا للحركة الإسلامية: فانقلاب 1989 انقلابها، و«الإنقاذ» اسم النظام لنفسه. ويقول مقال سودانايل إن عائد النفط لم يصل إلى الإنتاج، وإن الديون ارتفعت إلى 43 مليار دولار، وإن الإنقاذ أفرغت اتفاقية نيفاشا 2005 من محتواها بإصرارها على الدولة الدينية، فكان انفصال الجنوب.",
+   "framing_en": "In Arabic, the CPA is \"Naivasha\", named after the place, and secession is blamed on the Islamist state. Chinese academic sources give a different account of the same era: oil turned Sudan into an exporter and was a success of cooperation (see lens_zh).",
+   "framing_ar": "اتفاقية السلام الشامل تُسمّى بالعربية «نيفاشا» نسبةً إلى المكان، ويُحمَّل الانفصالُ على الدولة الإسلامية. وتروي المصادر الأكاديمية الصينية الحقبة نفسها على نحو مختلف: النفط حوّل السودان إلى بلد مُصدِّر، وكان نجاحًا للتعاون (انظر lens_zh).",
+   "regional_power": [],
+   "flags": [
+    "Only an opinion source covers the economics; an academic Arabic source on oil and the CPA is still needed",
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "ar-dec-1",
+   "era_id": "december-revolution-transition",
+   "era_ids": [
+    "december-revolution-transition"
+   ],
+   "lang": "ar",
+   "name": "ثورة ديسمبر",
+   "name_original": "ثورة ديسمبر",
+   "name_en": "The December Revolution",
+   "name_ar": "ثورة ديسمبر",
+   "stream": "Sudan – Republic",
+   "start": 2018,
+   "end": 2023,
+   "main_start": 2019,
+   "main_end": 2023,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "AR_AJCS_6166",
+    "AR_WIKI_HIST"
+   ],
+   "dating_note": "Arabic sources start the era in Dec 2018 (protests). Main dataset: 2019.",
+   "summary_en": "Arabic sources date the revolution from December 2018 (the start of the protests), so the era begins before the main dataset's 2019. Al Jazeera Centre says Gulf states invested in agriculture under Bashir, China in oil, and Russia pursued a Red Sea base.",
+   "summary_ar": "تؤرّخ المصادر العربية الثورة بديسمبر 2018 (بداية الاحتجاجات)، فتبدأ الحقبة قبل تاريخ قاعدة البيانات الرئيسية (2019). ويذكر مركز الجزيرة أن دول الخليج استثمرت في الزراعة في عهد البشير، والصين في النفط، وأن روسيا سعت إلى قاعدة على البحر الأحمر.",
+   "framing_en": "Naming the era after the month of the uprising (\"December\") centres the popular movement, not the April 2019 military removal of Bashir.",
+   "framing_ar": "تسمية الحقبة بشهر الانتفاضة («ديسمبر») تضع الحراك الشعبي في المركز، لا عزلَ العسكر للبشير في أبريل 2019.",
+   "regional_power": [],
+   "flags": [
+    "Main sources are general; more Sudanese scholarship on the revolution is needed",
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "ar-war-1",
+   "era_id": "war-in-sudan-saf-vs-rsf",
+   "era_ids": [
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "lang": "ar",
+   "name": "حرب 15 أبريل / حرب الكرامة (رواية الجيش)",
+   "name_original": "حرب 15 أبريل / حرب الكرامة (رواية الجيش)",
+   "name_en": "\"The 15 April war\" / \"Battle of Dignity\" (SAF framing)",
+   "name_ar": "حرب 15 أبريل / معركة الكرامة",
+   "stream": "Sudan – Republic",
+   "start": 2023,
+   "end": null,
+   "main_start": 2023,
+   "main_end": 2026,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "AR_AJCS_5653",
+    "AR_AJCS_5637",
+    "AR_AJCS_6166",
+    "AR_AJCS_6074",
+    "AR_SUDANAKHBAR_BASE"
+   ],
+   "dating_note": "Open-ended (end null). GEO sources for this era: GEO-054..059, GEO-082.",
+   "summary_en": "Al Jazeera Centre calls the UAE \"the most prominent regional party intervening\" and says it is linked to the RSF through weapons, gold and the Abu Amama port project. It says Egypt backs the SAF \"as usual through post-independence history\" over borders, the GERD and the economy (trade reached USD 1.2bn in 2021), and that Saudi Arabia became the accepted mediator. A Sudanese military source uses the phrase \"Battle of Dignity\" (ma'rakat al-karama) and says the Russian base is frozen.",
+   "summary_ar": "يصف مركز الجزيرة الإماراتَ بأنها «أبرز الأطراف الإقليمية المتدخلة»، ويربطها بالدعم السريع عبر السلاح والذهب ومشروع ميناء أبو عمامة. ويقول إن مصر تدعم الجيش «بصورة معتادة عبر تاريخ السودان ما بعد الاستقلال» لاعتبارات الحدود وسد النهضة والاقتصاد (بلغ التبادل التجاري 1.2 مليار دولار عام 2021)، وإن السعودية صارت الوسيط المقبول. ويستخدم مصدر عسكري سوداني عبارة «معركة الكرامة»، ويقول إن مشروع القاعدة الروسية مجمّد.",
+   "framing_en": "Arabic sources split along the war's own lines. SAF and government outlets use \"Battle of Dignity\". Qatari-funded Al Jazeera Centre names the UAE and frames Egypt as constrained by Gulf money. One AJCS paper invokes an Israeli \"fragment the periphery\" strategy, a conspiratorial frame flagged here as opinion.",
+   "framing_ar": "تنقسم المصادر العربية على خطوط الحرب نفسها: منابر الجيش والحكومة تستخدم «معركة الكرامة»، ومركز الجزيرة الممول قطريًا يسمّي الإمارات ويصوّر مصر مقيّدة بالمال الخليجي. وتستحضر إحدى أوراق المركز استراتيجية إسرائيلية لـ«شدّ الأطراف وبترها»، وهو إطار تآمري نُبرزه هنا بوصفه رأيًا.",
+   "regional_power": [],
+   "flags": [
+    "Power scores not given: AJCS calls the UAE \"most prominent\", which is ordinal, not numeric",
+    "Al Jazeera is Qatari state-funded; ECFR (EN, not used here) makes the same UAE claim",
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,251 @@
+{
+ "meta": {
+  "lang": "zh",
+  "title": "Historiography lens: zh",
+  "built": "2026-10-20",
+  "format": "items mirror data/periods.json periods[] fields + id/era_id(s)/lang/name_*/summary_*/framing_*/regional_power/flags; years negative=BCE; start/end = the source's own dating (null if it gives none); main_start/main_end = Histomap main dataset",
+  "note": "Sources written in this language only. verification field states how each was read. Power scores left empty unless a source states a comparable claim.",
+  "sources": {
+   "ZH_WIKI_HIST": {
+    "id": "ZH_WIKI_HIST",
+    "author": "中文维基百科",
+    "title": "苏丹历史",
+    "title_en": "History of Sudan",
+    "title_ar": "تاريخ السودان",
+    "publisher": "Wikipedia (zh); footnotes cite 刘鸿武《苏丹》(2008)",
+    "year": "2026",
+    "url": "https://zh.wikipedia.org/wiki/苏丹历史",
+    "lang": "zh",
+    "kind": "encyclopedia (crowd), relies on PRC academic monograph",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "ZH_LIU2008": {
+    "id": "ZH_LIU2008",
+    "author": "刘鸿武 等",
+    "title": "苏丹 (列国志)",
+    "title_en": "Sudan (Countries of the World series)",
+    "title_ar": "السودان (سلسلة بلدان العالم)",
+    "publisher": "社会科学文献出版社 (Social Sciences Academic Press, CASS)",
+    "year": "2008",
+    "url": "https://zh.wikipedia.org/wiki/苏丹历史#参考资料",
+    "lang": "zh",
+    "kind": "academic country monograph (PRC)",
+    "verification": "cited by ZH_WIKI_HIST footnotes only; book not read — VERIFY"
+   },
+   "ZH_YU2008": {
+    "id": "ZH_YU2008",
+    "author": "余建华、王震",
+    "title": "中国在解决苏丹达尔富尔问题上的外交努力",
+    "title_en": "China's diplomatic efforts in resolving the Darfur issue",
+    "title_ar": "جهود الصين الدبلوماسية في حل قضية دارفور",
+    "publisher": "阿拉伯世界研究 Arab World Studies 2008(2), 上海外国语大学",
+    "year": "2008-03",
+    "url": "http://mideast.shisu.edu.cn/_upload/article/c1/1d/5ff807e14bb89ad0f94429db1798/9cb7322c-b691-49b4-9518-554e8f4cfc71.pdf",
+    "lang": "zh",
+    "kind": "peer-reviewed article (PRC)",
+    "verification": "search-index snippet only (page/PDF blocked to direct fetch) — VERIFY"
+   },
+   "ZH_SUN2009": {
+    "id": "ZH_SUN2009",
+    "author": "孙学峰、金峰",
+    "title": "试析中国参与解决达尔富尔问题的基本方式",
+    "title_en": "Analysis of the basic ways China participates in resolving the Darfur issue",
+    "title_ar": "تحليل الأساليب الأساسية لمشاركة الصين في حل قضية دارفور",
+    "publisher": "国际论坛 International Forum (Tsinghua IIR repository)",
+    "year": "2009",
+    "url": "http://www.tuiir.tsinghua.edu.cn/__local/9/3E/92/0F6B622552D4ACED15A4415A985_B076756C_3B0D2.pdf?e=.pdf",
+    "lang": "zh",
+    "kind": "peer-reviewed article (PRC)",
+    "verification": "search-index snippet only (page/PDF blocked to direct fetch) — VERIFY (English abstract seen)"
+   },
+   "ZH_MFA_PROFILE": {
+    "id": "ZH_MFA_PROFILE",
+    "author": "中华人民共和国外交部",
+    "title": "苏丹国家概况",
+    "title_en": "Sudan country profile",
+    "title_ar": "لمحة عن السودان",
+    "publisher": "PRC Ministry of Foreign Affairs",
+    "year": "2026",
+    "url": "https://www.mfa.gov.cn/gjhdq_676201/gj_676203/fz_677316/1206_678526/1206x0_678528/",
+    "lang": "zh",
+    "kind": "official government profile (kept as secondary; academic sources preferred)",
+    "verification": "HTTP 200 fetched 2026-10-20; text not fully parsed"
+   }
+  }
+ },
+ "items": [
+  {
+   "id": "zh-mahdi-1",
+   "era_id": "mahdist-state-mahdiyya",
+   "era_ids": [
+    "mahdist-state-mahdiyya"
+   ],
+   "lang": "zh",
+   "name": "马赫迪起事 / 马赫迪王国",
+   "name_original": "马赫迪起事 / 马赫迪王国",
+   "name_en": "\"Mahdi uprising\" / \"Mahdi Kingdom\"",
+   "name_ar": "انتفاضة المهدي / مملكة المهدي",
+   "stream": "Sudan – Middle Nile",
+   "start": 1881,
+   "end": 1898,
+   "main_start": 1885,
+   "main_end": 1899,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "ZH_WIKI_HIST",
+    "ZH_LIU2008"
+   ],
+   "dating_note": "Uprising 1881; the Mahdi's rule 1881–1885; the kingdom falls 1898.",
+   "summary_en": "Chinese Wikipedia, relying on Liu Hongwu 2008, calls Muhammad Ahmad \"the Sudanese hero who briefly overthrew Egyptian rule\". It casts the Mahdi's call as a holy war to \"drive out foreign aggressors\" and build \"a society of universal equality and justice everywhere\". The state is described as a \"unified Islamic feudal state, the Mahdi Kingdom\" under the Khalifa, with its capital at Omdurman.",
+   "summary_ar": "تصف ويكيبيديا الصينية، استنادًا إلى ليو هونغ وو (2008)، محمد أحمد بأنه «البطل السوداني الذي أطاح الحكم المصري لفترة وجيزة». وتصوّر دعوة المهدي جهادًا لـ«طرد المعتدين الأجانب» وبناء «مجتمع المساواة الشاملة والعدل في كل مكان»، وتصف الدولة بأنها «دولة إقطاعية إسلامية موحدة: مملكة المهدي» في عهد الخليفة، عاصمتها أم درمان.",
+   "framing_en": "This is a Marxist anti-imperialist vocabulary: the Mahdi is an anti-colonial \"hero\", while the state is labelled \"feudal\". It agrees with Sudanese \"independence\" readings and clashes with Spanish \"internal colonialism\".",
+   "framing_ar": "مفردات ماركسية مناهضة للإمبريالية: المهدي «بطل» مناهض للاستعمار، والدولة توصف بـ«الإقطاعية». وهذا يتفق مع قراءات «الاستقلال» السودانية ويتعارض مع «الاستعمار الداخلي» في الكتابة الإسبانية.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "zh-condo-1",
+   "era_id": "anglo-egyptian-sudan-condominium",
+   "era_ids": [
+    "anglo-egyptian-sudan-condominium"
+   ],
+   "lang": "zh",
+   "name": "欧洲人的统治（1896—1955年）",
+   "name_original": "欧洲人的统治（1896—1955年）",
+   "name_en": "\"European rule (1896–1955)\"",
+   "name_ar": "حكم الأوروبيين (1896–1955)",
+   "stream": "Sudan – Middle Nile",
+   "start": 1896,
+   "end": 1955,
+   "main_start": 1899,
+   "main_end": 1956,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "ZH_WIKI_HIST",
+    "ZH_LIU2008"
+   ],
+   "dating_note": "1896–1955 vs main 1899–1956",
+   "summary_en": "Chinese Wikipedia names the whole era \"European rule\", starting with Britain's 1896 \"colonial army\" attack and ending in 1955. It notes the 1899 joint-administration agreement and that \"the British held real power\".",
+   "summary_ar": "تسمّي ويكيبيديا الصينية الحقبة كلها «حكم الأوروبيين»، بدءًا بهجوم «الجيش الاستعماري» البريطاني عام 1896 وانتهاءً بعام 1955. وتذكر اتفاقية الإدارة المشتركة لعام 1899، وأن «البريطانيين كانوا أصحاب السلطة الفعلية».",
+   "framing_en": "This dating and naming conflicts with the main dataset (1899–1956, Condominium). Egypt disappears from the name, and the era begins with the British reconquest rather than the 1899 legal agreement.",
+   "framing_ar": "تتعارض هذه التسمية وهذا التأريخ مع قاعدة البيانات الرئيسية (1899–1956، الحكم الثنائي): تختفي مصر من الاسم، وتبدأ الحقبة بإعادة الغزو البريطاني لا باتفاقية 1899 القانونية.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "zh-nimeiri-1",
+   "era_id": "nimeiry-era-democratic-republic-of-sudan",
+   "era_ids": [
+    "nimeiry-era-democratic-republic-of-sudan"
+   ],
+   "lang": "zh",
+   "name": "尼迈里军政府",
+   "name_original": "尼迈里军政府",
+   "name_en": "Nimeiri military government",
+   "name_ar": "حكومة نميري العسكرية",
+   "stream": "Sudan – Republic",
+   "start": 1969,
+   "end": 1985,
+   "main_start": 1969,
+   "main_end": 1985,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "ZH_WIKI_HIST"
+   ],
+   "dating_note": "",
+   "summary_en": "Chinese Wikipedia describes the Nimeiri military government: the Communist Party purges and the 1971 coup attempt, the 27 March 1972 Addis Ababa Agreement that ended \"the 27-year first civil war\", and the outbreak of the second civil war.",
+   "summary_ar": "تصف ويكيبيديا الصينية حكومة نميري العسكرية: تطهير الحزب الشيوعي ومحاولة انقلاب 1971، واتفاقية أديس أبابا في 27 مارس 1972 التي أنهت «الحرب الأهلية الأولى التي دامت 27 عامًا»، ثم اندلاع الحرب الأهلية الثانية.",
+   "framing_en": "The source is neutral and chronological and contains no Cold War framing. The figure of \"27 years\" for the first war is an unusual count; the usual length is 17 years.",
+   "framing_ar": "المصدر محايد وتسلسلي، ولا يتضمن تأطيرًا للحرب الباردة. ورقم «27 عامًا» للحرب الأولى حساب غير مألوف، والمعتاد 17 عامًا.",
+   "regional_power": [],
+   "flags": [
+    "\"27 years\" is likely an error in the source (1955–1972 = 17)",
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "zh-bashir-1",
+   "era_id": "al-bashir-ncp-ingaz-regime",
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime"
+   ],
+   "lang": "zh",
+   "name": "巴希尔的统治 / 中苏(丹)石油合作",
+   "name_original": "巴希尔的统治 / 中苏(丹)石油合作",
+   "name_en": "Bashir's rule / Sino-Sudanese oil cooperation",
+   "name_ar": "حكم البشير / التعاون النفطي الصيني السوداني",
+   "stream": "Sudan – Republic",
+   "start": 1989,
+   "end": 2019,
+   "main_start": 1989,
+   "main_end": 2019,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "ZH_YU2008",
+    "ZH_SUN2009",
+    "ZH_WIKI_HIST"
+   ],
+   "dating_note": "",
+   "summary_en": "Yu and Wang (2008) say Darfur is a tribal conflict over resources rooted in uneven development and \"cannot be blamed on China\". With CNPC's help, Sudan went from oil importer to exporter in 1999. Bashir is quoted praising CNPC, and Sino-Sudanese energy cooperation is credited with more than 100,000 jobs. Sun and Jin (2009) describe China's multilateral, bilateral and enterprise channels on Darfur.",
+   "summary_ar": "يقول يو وانغ (2008) إن دارفور صراع قبلي على الموارد جذوره التنمية غير المتوازنة، و«لا يمكن تحميل الصين المسؤولية عنه». وبمساعدة شركة البترول الوطنية الصينية تحوّل السودان عام 1999 من مستورد للنفط إلى مُصدِّر له، ويُنقل عن البشير ثناؤه على الشركة، ويُنسب إلى التعاون الطاقوي الصيني السوداني أكثر من 100 ألف فرصة عمل. ويصف صن وجين (2009) قنوات الصين المتعددة الأطراف والثنائية وعبر الشركات بشأن دارفور.",
+   "framing_en": "Chinese scholarship is defensive and developmental: oil is win-win cooperation and Western criticism, including the \"boycott the Olympics\" campaign, is a smear. This is the opposite of the Arabic opposition view (oil revenue wasted) and of Western realist accounts.",
+   "framing_ar": "الكتابة الأكاديمية الصينية دفاعية تنموية: النفط تعاون رابح للطرفين، والانتقاد الغربي (ومنه حملة «مقاطعة الأولمبياد») تشويه. وهذا نقيض رؤية المعارضة العربية (عائد النفط مُهدَر) والروايات الواقعية الغربية.",
+   "regional_power": [],
+   "flags": [
+    "ZH_YU2008/ZH_SUN2009 read via search-index full text; direct PDF fetch timed out — VERIFY",
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "zh-war-1",
+   "era_id": "war-in-sudan-saf-vs-rsf",
+   "era_ids": [
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "lang": "zh",
+   "name": "苏丹内战（2023年4月）",
+   "name_original": "苏丹内战（2023年4月）",
+   "name_en": "Sudan civil war (April 2023)",
+   "name_ar": "الحرب الأهلية السودانية (أبريل 2023)",
+   "stream": "Sudan – Republic",
+   "start": 2023,
+   "end": null,
+   "main_start": 2023,
+   "main_end": 2026,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "ZH_WIKI_HIST",
+    "ZH_MFA_PROFILE"
+   ],
+   "dating_note": "",
+   "summary_en": "Chinese Wikipedia's \"recent\" section has three lines: Bashir fell in April 2019, a coup took place on 25 October 2021, and civil war began in April 2023. PRC UN statements on El Fasher appear in GEO-041 to GEO-044.",
+   "summary_ar": "لا يتضمن قسم «الأحداث الأخيرة» في ويكيبيديا الصينية سوى ثلاثة أسطر: سقوط البشير في أبريل 2019، وانقلاب 25 أكتوبر 2021، واندلاع الحرب الأهلية في أبريل 2023. أما بيانات الصين في الأمم المتحدة بشأن الفاشر فتوجد في GEO-041 إلى GEO-044.",
+   "framing_en": "The source is minimal. The official Chinese line, from GEO sources, condemns atrocities, opposes a parallel government and names no external backers.",
+   "framing_ar": "المصدر مقتضب. والخط الرسمي الصيني، في مصادر GEO، يدين الفظائع ويعارض الحكومة الموازية ولا يسمّي أي داعم خارجي.",
+   "regional_power": [],
+   "flags": [
+    "A Chinese academic source on the 2023 war is still needed; Baidu Baike returns 403",
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  }
+ ]
+}

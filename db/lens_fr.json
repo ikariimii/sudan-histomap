@@ -1,0 +1,234 @@
+{
+ "meta": {
+  "lang": "fr",
+  "title": "Historiography lens: fr",
+  "built": "2026-10-20",
+  "format": "items mirror data/periods.json periods[] fields + id/era_id(s)/lang/name_*/summary_*/framing_*/regional_power/flags; years negative=BCE; start/end = the source's own dating (null if it gives none); main_start/main_end = Histomap main dataset",
+  "note": "Sources written in this language only. verification field states how each was read. Power scores left empty unless a source states a comparable claim.",
+  "sources": {
+   "FR_WIKI_HIST": {
+    "id": "FR_WIKI_HIST",
+    "author": "Wikipédia en français",
+    "title": "Histoire du Soudan",
+    "title_en": "History of Sudan",
+    "title_ar": "تاريخ السودان",
+    "publisher": "Wikipédia (fr)",
+    "year": "2026",
+    "url": "https://fr.wikipedia.org/wiki/Histoire_du_Soudan",
+    "lang": "fr",
+    "kind": "encyclopedia (crowd)",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "FR_UNIVERSALIS": {
+    "id": "FR_UNIVERSALIS",
+    "author": "Encyclopædia Universalis",
+    "title": "SOUDAN",
+    "title_en": "Sudan",
+    "title_ar": "السودان",
+    "publisher": "Encyclopædia Universalis",
+    "year": "2025",
+    "url": "https://www.universalis.fr/encyclopedie/soudan/",
+    "lang": "fr",
+    "kind": "encyclopedia (paywalled; TOC and chronology visible)",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read) (free part only)"
+   },
+   "FR_SERIHERSCH2009": {
+    "id": "FR_SERIHERSCH2009",
+    "author": "Iris Seri-Hersch",
+    "title": "Nationalisme, impérialisme et pratiques patrimoniales : le cas de la Mahdiyya dans le Soudan post-mahdiste",
+    "title_en": "Nationalism, imperialism and heritage practices: the Mahdiyya in post-Mahdist Sudan",
+    "title_ar": "القومية والإمبريالية وممارسات التراث: المهدية في السودان ما بعد المهدية",
+    "publisher": "Égypte/Monde arabe 5-6 (CEDEJ)",
+    "year": "2009",
+    "url": "https://doi.org/10.4000/ema.2906",
+    "lang": "fr",
+    "kind": "peer-reviewed article",
+    "verification": "search-index snippet only (page/PDF blocked to direct fetch) — VERIFY (OpenEdition page returned a 5 kB stub)"
+   },
+   "FR_AFRICAE_CONDO": {
+    "id": "FR_AFRICAE_CONDO",
+    "author": "Bernard François (dir. ouvrage collectif)",
+    "title": "Le condominium anglo-égyptien 1899-1955",
+    "title_en": "The Anglo-Egyptian condominium 1899–1955",
+    "title_ar": "الحكم الثنائي الإنجليزي المصري 1899–1955",
+    "publisher": "Africae / OpenEdition Books",
+    "year": "n.d.",
+    "url": "https://doi.org/10.4000/books.africae.2907",
+    "lang": "fr",
+    "kind": "academic book chapter",
+    "verification": "search-index snippet only (page/PDF blocked to direct fetch) — VERIFY"
+   }
+  }
+ },
+ "items": [
+  {
+   "id": "fr-condo-1",
+   "era_id": "anglo-egyptian-sudan-condominium",
+   "era_ids": [
+    "anglo-egyptian-sudan-condominium"
+   ],
+   "lang": "fr",
+   "name": "Période britannique (1896-1955) / condominium anglo-égyptien 1899-1955",
+   "name_original": "Période britannique (1896-1955) / condominium anglo-égyptien 1899-1955",
+   "name_en": "\"British period (1896–1955)\" / Anglo-Egyptian condominium 1899–1955",
+   "name_ar": "الحقبة البريطانية (1896–1955) / الحكم الثنائي الإنجليزي المصري 1899–1955",
+   "stream": "Sudan – Middle Nile",
+   "start": 1896,
+   "end": 1955,
+   "main_start": 1899,
+   "main_end": 1956,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "FR_WIKI_HIST",
+    "FR_AFRICAE_CONDO",
+    "FR_SERIHERSCH2009"
+   ],
+   "dating_note": "1896/1899–1955 vs main 1899–1956",
+   "summary_en": "French Wikipedia titles the era \"the British period (1896–1955)\", starting with Kitchener's 1896 capture of Dongola and explaining the intervention partly by \"the impact of Gordon's death on opinion\". The Africae book dates the condominium 1899–1955. Seri-Hersch studies how neo-Mahdists, unionists and the British fought over the Mahdiyya's memory under the condominium.",
+   "summary_ar": "تعنون ويكيبيديا الفرنسية الحقبة «الحقبة البريطانية (1896–1955)»، وتبدأها باستيلاء كتشنر على دنقلا عام 1896، وتفسّر التدخل جزئيًا بـ«أثر مقتل غوردون في الرأي العام». ويؤرّخ كتاب Africae الحكم الثنائي بالفترة 1899–1955. وتدرس سيري-هيرش كيف تنازع المهديون الجدد والاتحاديون والبريطانيون ذاكرة المهدية في ظل الحكم الثنائي.",
+   "framing_en": "French sources, like Chinese Wikipedia, date from the 1896 reconquest and end in 1955, and label the era British, reflecting the Fashoda rivalry. French scholarship focuses on memory and heritage politics.",
+   "framing_ar": "تؤرّخ المصادر الفرنسية، مثل ويكيبيديا الصينية، من إعادة الغزو عام 1896، وتُنهي الحقبة عام 1955، وتسمّيها بريطانية، وفي ذلك صدى لتنافس فاشودة. وتركّز الكتابة الأكاديمية الفرنسية على سياسات الذاكرة والتراث.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "fr-1964-1",
+   "era_id": "second-parliamentary-period",
+   "era_ids": [
+    "second-parliamentary-period"
+   ],
+   "lang": "fr",
+   "name": "Révolution d'octobre 1964 (1964-1969)",
+   "name_original": "Révolution d'octobre 1964 (1964-1969)",
+   "name_en": "\"October Revolution of 1964\" (1964–1969)",
+   "name_ar": "ثورة أكتوبر 1964 (1964–1969)",
+   "stream": "Sudan – Republic",
+   "start": 1964,
+   "end": 1969,
+   "main_start": 1964,
+   "main_end": 1969,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "FR_WIKI_HIST"
+   ],
+   "dating_note": "",
+   "summary_en": "French Wikipedia names the period after the October 1964 popular revolution rather than calling it a \"second parliamentary period\".",
+   "summary_ar": "تسمّي ويكيبيديا الفرنسية الفترة باسم الثورة الشعبية في أكتوبر 1964 بدلًا من «الفترة البرلمانية الثانية».",
+   "framing_en": "The naming centres popular uprising, like the Arabic \"December Revolution\", and not the institutions.",
+   "framing_ar": "تضع التسمية الانتفاضةَ الشعبية في المركز، كما في «ثورة ديسمبر» بالعربية، لا المؤسسات.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "fr-1985-1",
+   "era_id": "transitional-third-parliamentary-period",
+   "era_ids": [
+    "transitional-third-parliamentary-period"
+   ],
+   "lang": "fr",
+   "name": "Révolution (1985-1989)",
+   "name_original": "Révolution (1985-1989)",
+   "name_en": "\"Revolution (1985–1989)\"",
+   "name_ar": "الثورة (1985–1989)",
+   "stream": "Sudan – Republic",
+   "start": 1985,
+   "end": 1989,
+   "main_start": 1985,
+   "main_end": 1989,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "FR_WIKI_HIST"
+   ],
+   "dating_note": "",
+   "summary_en": "French Wikipedia labels 1985–89 simply as \"Revolution\".",
+   "summary_ar": "تسمّي ويكيبيديا الفرنسية الفترة 1985–1989 «الثورة» ببساطة.",
+   "framing_en": "The uprising-centred naming is consistent across the French source.",
+   "framing_ar": "التسمية المتمركزة حول الانتفاضة متسقة في المصدر الفرنسي.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "fr-bashir-1",
+   "era_id": "al-bashir-ncp-ingaz-regime",
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime"
+   ],
+   "lang": "fr",
+   "name": "République islamique d'Omar el-Bechir (1989-2019)",
+   "name_original": "République islamique d'Omar el-Bechir (1989-2019)",
+   "name_en": "\"Islamic Republic of Omar el-Bechir (1989–2019)\"",
+   "name_ar": "الجمهورية الإسلامية لعمر البشير (1989–2019)",
+   "stream": "Sudan – Republic",
+   "start": 1989,
+   "end": 2019,
+   "main_start": 1989,
+   "main_end": 2019,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "FR_WIKI_HIST"
+   ],
+   "dating_note": "",
+   "summary_en": "French Wikipedia says Bashir overthrew Sadeq al-Mahdi in a coup \"encouraged by the National Islamic Front\" of Turabi. Under the CPA, oil is split equally and sharia applies only in the North.",
+   "summary_ar": "تقول ويكيبيديا الفرنسية إن البشير أطاح بالصادق المهدي في انقلاب «شجّعته الجبهة الإسلامية القومية» بزعامة الترابي. وبموجب اتفاق السلام الشامل يُقسَّم النفط مناصفة وتُطبَّق الشريعة في الشمال وحده.",
+   "framing_en": "The label \"Islamic Republic\" is a French ideological naming that Sudan never officially used. It is closest to the Arabic \"Islamic Movement coup\".",
+   "framing_ar": "تسمية «الجمهورية الإسلامية» تسمية أيديولوجية فرنسية لم يستخدمها السودان رسميًا قط، وهي أقرب ما تكون إلى «انقلاب الحركة الإسلامية» بالعربية.",
+   "regional_power": [],
+   "flags": [
+    "Name not official; flag in UI",
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "fr-war-1",
+   "era_id": "war-in-sudan-saf-vs-rsf",
+   "era_ids": [
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "lang": "fr",
+   "name": "Guerre civile soudanaise depuis 2023",
+   "name_original": "Guerre civile soudanaise depuis 2023",
+   "name_en": "Sudanese civil war since 2023",
+   "name_ar": "الحرب الأهلية السودانية منذ 2023",
+   "stream": "Sudan – Republic",
+   "start": 2023,
+   "end": null,
+   "main_start": 2023,
+   "main_end": 2026,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "FR_UNIVERSALIS",
+    "FR_WIKI_HIST"
+   ],
+   "dating_note": "",
+   "summary_en": "Universalis' contemporary chronology logs the army retaking Khartoum (21–27 March 2025), the RSF capture of El Fasher after 18 months of siege (26 October 2025), and the ICC alert of 3 November 2025. French press and NGO coverage is in GEO-061 to GEO-066 and GEO-077 to GEO-079.",
+   "summary_ar": "يسجّل الجدول الزمني المعاصر في يونيفرساليس استعادة الجيش للخرطوم (21–27 مارس 2025)، واستيلاء الدعم السريع على الفاشر بعد 18 شهرًا من الحصار (26 أكتوبر 2025)، وتنبيه المحكمة الجنائية الدولية في 3 نوفمبر 2025. أما التغطية الصحفية الفرنسية وتغطية المنظمات فهي في GEO-061 إلى GEO-066 وGEO-077 إلى GEO-079.",
+   "framing_en": "The French lens is humanitarian and legal (ICC) and documents French-made GALIX systems on UAE vehicles (Amnesty FR).",
+   "framing_ar": "العدسة الفرنسية إنسانية وقانونية (المحكمة الجنائية الدولية)، وتوثّق منظومات «غاليكس» الفرنسية الصنع على مركبات إماراتية (منظمة العفو الدولية – فرنسا).",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  }
+ ]
+}

@@ -2,7 +2,10 @@
  "meta": {
   "lens_files": [
    "ar",
+   "de",
    "es",
+   "fr",
+   "ru",
    "zh"
   ],
   "note": "auto = date comparison against db/lens_*.json; known = manually read divergences"
@@ -222,6 +225,66 @@
    "status": "agree"
   },
   {
+   "lang": "de",
+   "era": "turkiyya-ottoman-egyptian-rule",
+   "source": "de-turk-1",
+   "lens_start": 1820,
+   "lens_end": 1881,
+   "main_start": 1821,
+   "main_end": 1885,
+   "status": "conflict"
+  },
+  {
+   "lang": "de",
+   "era": "mahdist-state-mahdiyya",
+   "source": "de-mahdi-1",
+   "lens_start": 1881,
+   "lens_end": 1898,
+   "main_start": 1885,
+   "main_end": 1899,
+   "status": "conflict"
+  },
+  {
+   "lang": "de",
+   "era": "independent-sudan-first-parliamentary-period",
+   "source": "de-indep-1",
+   "lens_start": 1956,
+   "lens_end": 1958,
+   "main_start": 1956,
+   "main_end": 1958,
+   "status": "agree"
+  },
+  {
+   "lang": "de",
+   "era": "nimeiry-era-democratic-republic-of-sudan",
+   "source": "de-nimeiri-1",
+   "lens_start": 1969,
+   "lens_end": 1985,
+   "main_start": 1969,
+   "main_end": 1985,
+   "status": "agree"
+  },
+  {
+   "lang": "de",
+   "era": "al-bashir-ncp-ingaz-regime",
+   "source": "de-bashir-1",
+   "lens_start": 1989,
+   "lens_end": 2019,
+   "main_start": 1989,
+   "main_end": 2019,
+   "status": "agree"
+  },
+  {
+   "lang": "de",
+   "era": "war-in-sudan-saf-vs-rsf",
+   "source": "de-war-1",
+   "lens_start": 2023,
+   "lens_end": null,
+   "main_start": 2023,
+   "main_end": 2026,
+   "status": "agree"
+  },
+  {
    "lang": "es",
    "era": "turkiyya-ottoman-egyptian-rule",
    "source": "es-turk-1",
@@ -285,6 +348,106 @@
    "lang": "es",
    "era": "war-in-sudan-saf-vs-rsf",
    "source": "es-war-1",
+   "lens_start": 2023,
+   "lens_end": null,
+   "main_start": 2023,
+   "main_end": 2026,
+   "status": "agree"
+  },
+  {
+   "lang": "fr",
+   "era": "anglo-egyptian-sudan-condominium",
+   "source": "fr-condo-1",
+   "lens_start": 1896,
+   "lens_end": 1955,
+   "main_start": 1899,
+   "main_end": 1956,
+   "status": "conflict"
+  },
+  {
+   "lang": "fr",
+   "era": "second-parliamentary-period",
+   "source": "fr-1964-1",
+   "lens_start": 1964,
+   "lens_end": 1969,
+   "main_start": 1964,
+   "main_end": 1969,
+   "status": "agree"
+  },
+  {
+   "lang": "fr",
+   "era": "transitional-third-parliamentary-period",
+   "source": "fr-1985-1",
+   "lens_start": 1985,
+   "lens_end": 1989,
+   "main_start": 1985,
+   "main_end": 1989,
+   "status": "agree"
+  },
+  {
+   "lang": "fr",
+   "era": "al-bashir-ncp-ingaz-regime",
+   "source": "fr-bashir-1",
+   "lens_start": 1989,
+   "lens_end": 2019,
+   "main_start": 1989,
+   "main_end": 2019,
+   "status": "agree"
+  },
+  {
+   "lang": "fr",
+   "era": "war-in-sudan-saf-vs-rsf",
+   "source": "fr-war-1",
+   "lens_start": 2023,
+   "lens_end": null,
+   "main_start": 2023,
+   "main_end": 2026,
+   "status": "agree"
+  },
+  {
+   "lang": "ru",
+   "era": "mahdist-state-mahdiyya",
+   "source": "ru-mahdi-1",
+   "lens_start": 1881,
+   "lens_end": 1898,
+   "main_start": 1885,
+   "main_end": 1899,
+   "status": "conflict"
+  },
+  {
+   "lang": "ru",
+   "era": "anglo-egyptian-sudan-condominium",
+   "source": "ru-condo-1",
+   "lens_start": 1899,
+   "lens_end": 1951,
+   "main_start": 1899,
+   "main_end": 1956,
+   "status": "conflict"
+  },
+  {
+   "lang": "ru",
+   "era": "nimeiry-era-democratic-republic-of-sudan",
+   "source": "ru-nimeiri-1",
+   "lens_start": 1969,
+   "lens_end": 1985,
+   "main_start": 1969,
+   "main_end": 1985,
+   "status": "agree"
+  },
+  {
+   "lang": "ru",
+   "era": "al-bashir-ncp-ingaz-regime",
+   "source": "ru-bashir-1",
+   "lens_start": 1989,
+   "lens_end": 2019,
+   "main_start": 1989,
+   "main_end": 2019,
+   "status": "agree"
+  },
+  {
+   "lang": "ru",
+   "era": "war-in-sudan-saf-vs-rsf",
+   "source": "ru-war-1",
    "lens_start": 2023,
    "lens_end": null,
    "main_start": 2023,

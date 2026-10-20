@@ -1,0 +1,357 @@
+{
+ "meta": {
+  "lang": "es",
+  "title": "Historiography lens: es",
+  "built": "2026-10-20",
+  "format": "items mirror data/periods.json periods[] fields + id/era_id(s)/lang/name_*/summary_*/framing_*/regional_power/flags; years negative=BCE; start/end = the source's own dating (null if it gives none); main_start/main_end = Histomap main dataset",
+  "note": "Sources written in this language only. verification field states how each was read. Power scores left empty unless a source states a comparable claim.",
+  "sources": {
+   "ES_WIKI_HIST": {
+    "id": "ES_WIKI_HIST",
+    "author": "Wikipedia en español",
+    "title": "Historia de Sudán",
+    "title_en": "History of Sudan",
+    "title_ar": "تاريخ السودان",
+    "publisher": "Wikipedia (es)",
+    "year": "2026",
+    "url": "https://es.wikipedia.org/wiki/Historia_de_Sudán",
+    "lang": "es",
+    "kind": "encyclopedia (crowd)",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "ES_CLAROSCURO2023": {
+    "id": "ES_CLAROSCURO2023",
+    "author": "María Ángeles Alaminos Hervás",
+    "title": "El proceso de formación del estado sudanés: raíces históricas y características",
+    "title_en": "The formation of the Sudanese state: historical roots and characteristics",
+    "title_ar": "عملية تشكّل الدولة السودانية: الجذور التاريخية والخصائص",
+    "publisher": "Claroscuro (Univ. Nacional de Rosario) no. 22",
+    "year": "2023",
+    "url": "https://claroscuro.unr.edu.ar/index.php/revista/article/view/121",
+    "lang": "es",
+    "kind": "peer-reviewed article",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read) (abstract)"
+   },
+   "ES_GILBENUMEYA1959": {
+    "id": "ES_GILBENUMEYA1959",
+    "author": "Rodolfo Gil Benumeya",
+    "title": "Lo interno y lo externo en los cambios políticos del Sudán",
+    "title_en": "The internal and the external in Sudan's political changes",
+    "title_ar": "الداخلي والخارجي في التحولات السياسية في السودان",
+    "publisher": "Revista de Política Internacional (CEPC), no. 40",
+    "year": "1959 (on events of late 1958)",
+    "url": "https://www.cepc.gob.es/sites/default/files/2021-12/32953rpi040113.pdf",
+    "lang": "es",
+    "kind": "academic article (Spanish Arabist, Franco era)",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read) (PDF text)"
+   },
+   "ES_YLONEN2008": {
+    "id": "ES_YLONEN2008",
+    "author": "Aleksi Ylönen",
+    "title": "Conflicto y crecimiento: la configuración y supervivencia del estado fallido en Sudán",
+    "title_en": "Conflict and growth: the configuration and survival of the failed state in Sudan",
+    "title_ar": "الصراع والنمو: تشكّل الدولة الفاشلة في السودان وبقاؤها",
+    "publisher": "Revista Académica de Relaciones Internacionales (GERI-UAM) no. 8",
+    "year": "2008",
+    "url": "https://repositorio.uam.es/server/api/core/bitstreams/5afe58f8-1e52-431f-af1a-975f0482d155/content",
+    "lang": "es",
+    "kind": "peer-reviewed article",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read) (PDF text)"
+   },
+   "ES_LANGA_ANQE": {
+    "id": "ES_LANGA_ANQE",
+    "author": "Alfredo Langa Herrero",
+    "title": "Hambre y guerra en la República de Sudán (1956-2011)",
+    "title_en": "Hunger and war in the Republic of Sudan (1956–2011)",
+    "title_ar": "الجوع والحرب في جمهورية السودان (1956–2011)",
+    "publisher": "Anales de Historia Contemporánea / UCM (Ediciones Complutense)",
+    "year": "2023",
+    "url": "https://doi.org/10.5209/anqe.91366",
+    "lang": "es",
+    "kind": "peer-reviewed article",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read) (abstract)"
+   },
+   "ES_ELCANO2011": {
+    "id": "ES_ELCANO2011",
+    "author": "Carlota García Encina",
+    "title": "La nueva \"República de Sudán del Sur\" (ARI)",
+    "title_en": "The new \"Republic of South Sudan\"",
+    "title_ar": "«جمهورية جنوب السودان» الجديدة",
+    "publisher": "Real Instituto Elcano",
+    "year": "2011-02-04",
+    "url": "https://www.realinstitutoelcano.org/analisis/la-nueva-republica-de-sudan-del-sur-ari/",
+    "lang": "es",
+    "kind": "think-tank analysis",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "ES_IEEE2026": {
+    "id": "ES_IEEE2026",
+    "author": "Blanca Palacián de Inza",
+    "title": "Sudán: ¿condena perpetua de guerra? (DA 24/2026)",
+    "title_en": "Sudan: a life sentence of war?",
+    "title_ar": "السودان: حكم مؤبد بالحرب؟",
+    "publisher": "Instituto Español de Estudios Estratégicos (Spanish MoD)",
+    "year": "2026-03-24",
+    "url": "https://www.defensa.gob.es/documents/2073105/3614440/ieee-2026-Sudan-condena-perpetua-guerra-analisis24.pdf/8b80db9e-5a8e-c666-3420-ef48ca9feb2e?t=1773225319363",
+    "lang": "es",
+    "kind": "government think-tank analysis",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read) (PDF text)"
+   },
+   "ES_ELPAIS2021": {
+    "id": "ES_ELPAIS2021",
+    "author": "El País",
+    "title": "Contrarrevoluciones árabes: el turno de Sudán",
+    "title_en": "Arab counter-revolutions: Sudan's turn",
+    "title_ar": "الثورات المضادة العربية: دور السودان",
+    "publisher": "El País",
+    "year": "2021-10-30",
+    "url": "(see GEO-072)",
+    "lang": "es",
+    "kind": "news analysis (= GEO-072)",
+    "verification": "see GEO-072 verification (VERIFY)"
+   }
+  }
+ },
+ "items": [
+  {
+   "id": "es-turk-1",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "era_ids": [
+    "turkiyya-ottoman-egyptian-rule"
+   ],
+   "lang": "es",
+   "name": "Sudán turco",
+   "name_original": "Sudán turco",
+   "name_en": "\"Turkish Sudan\"",
+   "name_ar": "السودان التركي",
+   "stream": "Sudan – Middle Nile",
+   "start": 1821,
+   "end": 1885,
+   "main_start": 1821,
+   "main_end": 1885,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "ES_WIKI_HIST",
+    "ES_CLAROSCURO2023"
+   ],
+   "dating_note": "",
+   "summary_en": "Spanish Wikipedia says Muhammad Ali conquered Sudan \"in search of gold and slaves\". Alaminos (2023) treats the Turkiyya as the colonial origin of the Sudanese state and its legacy of slavery.",
+   "summary_ar": "تقول ويكيبيديا الإسبانية إن محمد علي غزا السودان «بحثًا عن الذهب والعبيد». وتعدّ ألامينوس (2023) التركية الأصلَ الاستعماري للدولة السودانية ولإرث الرقّ فيها.",
+   "framing_en": "The Spanish academic frame is state formation through slavery and colonialism. The era is economic extraction, not \"Nile unity\".",
+   "framing_ar": "الإطار الأكاديمي الإسباني هو تشكّل الدولة عبر الرقّ والاستعمار: الحقبة نهبٌ اقتصادي لا «وحدة وادي النيل».",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "es-mahdi-1",
+   "era_id": "mahdist-state-mahdiyya",
+   "era_ids": [
+    "mahdist-state-mahdiyya"
+   ],
+   "lang": "es",
+   "name": "Estado Mahdista / \"colonialismo interno\"",
+   "name_original": "Estado Mahdista / \"colonialismo interno\"",
+   "name_en": "Mahdist State / \"internal colonialism\"",
+   "name_ar": "الدولة المهدية / «الاستعمار الداخلي»",
+   "stream": "Sudan – Middle Nile",
+   "start": 1885,
+   "end": 1898,
+   "main_start": 1885,
+   "main_end": 1899,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "ES_WIKI_HIST",
+    "ES_CLAROSCURO2023"
+   ],
+   "dating_note": "End 1898 vs main 1899.",
+   "summary_en": "Spanish Wikipedia calls the Mahdiyya a \"nationalist revolt against Egyptian rule\" and dates the state 1885–1898. Alaminos (2023) describes the Mahdiyya years as possibly \"internal colonialism\".",
+   "summary_ar": "تصف ويكيبيديا الإسبانية المهدية بأنها «ثورة قومية على الحكم المصري» وتؤرّخ الدولة 1885–1898. وترى ألامينوس (2023) أن سنوات المهدية يمكن عدّها «استعمارًا داخليًا».",
+   "framing_en": "Spanish scholarship is uniquely sharp here: \"internal colonialism\" stands opposite the Sudanese Arabic \"war of independence\" frame.",
+   "framing_ar": "الرأي الأكاديمي الإسباني حادّ على نحو لافت هنا: «الاستعمار الداخلي» نقيضُ إطار «حرب الاستقلال» في الكتابة العربية السودانية.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "es-condo-1",
+   "era_id": "anglo-egyptian-sudan-condominium",
+   "era_ids": [
+    "anglo-egyptian-sudan-condominium"
+   ],
+   "lang": "es",
+   "name": "Sudán Anglo-Egipcio / Condominio",
+   "name_original": "Sudán Anglo-Egipcio / Condominio",
+   "name_en": "Anglo-Egyptian Sudan / Condominium",
+   "name_ar": "السودان الإنجليزي المصري / الحكم الثنائي",
+   "stream": "Sudan – Middle Nile",
+   "start": 1899,
+   "end": 1955,
+   "main_start": 1899,
+   "main_end": 1956,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "ES_WIKI_HIST",
+    "ES_CLAROSCURO2023"
+   ],
+   "dating_note": "End 1955 vs main 1956.",
+   "summary_en": "Spanish Wikipedia dates the Condominium 1899–1955, followed by a \"transition to independence\". Alaminos describes British dominance in the Condominium.",
+   "summary_ar": "تؤرّخ ويكيبيديا الإسبانية الحكم الثنائي بالفترة 1899–1955، تليها «مرحلة الانتقال إلى الاستقلال». وتصف ألامينوس الهيمنة البريطانية في ظل الحكم الثنائي.",
+   "framing_en": "The neutral legal name is used, but academic Spanish sources stress British rule.",
+   "framing_ar": "تُستخدم التسمية القانونية المحايدة، لكن المصادر الأكاديمية الإسبانية تشدد على الحكم البريطاني.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "es-abboud-1",
+   "era_id": "abboud-military-regime",
+   "era_ids": [
+    "abboud-military-regime"
+   ],
+   "lang": "es",
+   "name": "Golpe de 1958 (Abboud)",
+   "name_original": "Golpe de 1958 (Abboud)",
+   "name_en": "The 1958 coup (Abboud)",
+   "name_ar": "انقلاب 1958 (عبود)",
+   "stream": "Sudan – Republic",
+   "start": 1958,
+   "end": null,
+   "main_start": 1958,
+   "main_end": 1964,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "ES_GILBENUMEYA1959"
+   ],
+   "dating_note": "",
+   "summary_en": "Writing in 1959, Gil Benumeya presents the coup of late 1958 as proof that Sudan is \"an essential factor in the balance of the Arab system centred on Cairo\" and a \"bridge between tropical Africa and the Arab whole\". He calls Nile water interests the dominant force and predicts that Egyptian influence (egipcismo) in Khartoum will grow and the Nile Valley may integrate.",
+   "summary_ar": "يقدّم خيل بنوميا، في مقال كتبه عام 1959، انقلاب أواخر 1958 دليلًا على أن السودان «عامل أساسي في توازن النظام العربي المتمركز في القاهرة» و«جسر بين أفريقيا المدارية والمجموع العربي». ويعدّ مصالح مياه النيل القوةَ الغالبة، ويتوقع أن ينمو النفوذ المصري («الإجبسيسمو») في الخرطوم وأن يندمج وادي النيل يومًا ما.",
+   "framing_en": "This is a contemporary Franco-era Spanish Arabist view: Sudan as part of the Arab world under Cairo's orbit, with geography (the Nile) as destiny. Its prediction of Nile Valley integration did not happen, which makes it a dated source.",
+   "framing_ar": "رؤية مستعرب إسباني معاصر من عهد فرانكو: السودان جزء من العالم العربي في فلك القاهرة، والجغرافيا (النيل) قدر. ولم يتحقق توقعه لاندماج وادي النيل، فهو مصدر تجاوزه الزمن.",
+   "regional_power": [],
+   "flags": [
+    "Only one source; end date not given",
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "es-post56-1",
+   "era_id": "nimeiry-era-democratic-republic-of-sudan",
+   "era_ids": [
+    "nimeiry-era-democratic-republic-of-sudan"
+   ],
+   "lang": "es",
+   "name": "República Democrática de Sudán (1969-1985)",
+   "name_original": "República Democrática de Sudán (1969-1985)",
+   "name_en": "Democratic Republic of Sudan (1969–1985)",
+   "name_ar": "جمهورية السودان الديمقراطية (1969–1985)",
+   "stream": "Sudan – Republic",
+   "start": 1969,
+   "end": 1985,
+   "main_start": 1969,
+   "main_end": 1985,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "ES_WIKI_HIST",
+    "ES_YLONEN2008",
+    "ES_LANGA_ANQE"
+   ],
+   "dating_note": "",
+   "summary_en": "Spanish Wikipedia uses the regime's official name, \"Democratic Republic of Sudan\" (1969–1985). Ylönen (2008) says the only relatively peaceful decade was 1972–1983, and that an Arab-Muslim elite kept an exclusionary state alive through external intervention. Langa (UCM) reads 1956–2011 through hunger and war.",
+   "summary_ar": "تستخدم ويكيبيديا الإسبانية الاسم الرسمي للنظام: «جمهورية السودان الديمقراطية» (1969–1985). ويقول يلونن (2008) إن العقد الوحيد الهادئ نسبيًا كان 1972–1983، وإن نخبة عربية مسلمة أبقت على دولة إقصائية بفضل التدخل الخارجي. ويقرأ لانغا (جامعة كومبلوتنسي) الفترة 1956–2011 من خلال الجوع والحرب.",
+   "framing_en": "The Spanish academic lens is centre and periphery, \"failed state\" and humanitarian. It is less concerned with Cold War alignment than the Russian sources.",
+   "framing_ar": "العدسة الأكاديمية الإسبانية: المركز والأطراف و«الدولة الفاشلة» والبُعد الإنساني، وهي أقل انشغالًا بالاصطفاف في الحرب الباردة من المصادر الروسية.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "es-bashir-1",
+   "era_id": "al-bashir-ncp-ingaz-regime",
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime"
+   ],
+   "lang": "es",
+   "name": "Golpe de 1989: Omar al-Bashir",
+   "name_original": "Golpe de 1989: Omar al-Bashir",
+   "name_en": "The 1989 coup: Omar al-Bashir",
+   "name_ar": "انقلاب 1989: عمر البشير",
+   "stream": "Sudan – Republic",
+   "start": 1989,
+   "end": 2019,
+   "main_start": 1989,
+   "main_end": 2019,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "ES_WIKI_HIST",
+    "ES_ELCANO2011"
+   ],
+   "dating_note": "",
+   "summary_en": "Elcano (2011) says the 2005 Comprehensive Peace Agreement, its six-year transition and a referendum with about 99% for secession produced the \"Republic of South Sudan\", and warns that peace in the rest of Sudan and in Darfur remains fragile.",
+   "summary_ar": "يقول تحليل إلكانو (2011) إن اتفاق السلام الشامل لعام 2005 وفترته الانتقالية ذات السنوات الست واستفتاءً صوّت فيه نحو 99% للانفصال أنتجت «جمهورية جنوب السودان»، ويحذّر من أن السلام في بقية السودان وفي دارفور لا يزال هشًا.",
+   "framing_en": "The Spanish policy lens uses the English CPA name, \"Acuerdo Global de Paz\" (not \"Naivasha\"), and focuses on European neighbourhood stability.",
+   "framing_ar": "عدسة السياسات الإسبانية تستخدم التسمية الإنجليزية للاتفاق (Acuerdo Global de Paz) لا «نيفاشا»، وتركّز على استقرار الجوار الأوروبي.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "es-war-1",
+   "era_id": "war-in-sudan-saf-vs-rsf",
+   "era_ids": [
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "lang": "es",
+   "name": "Tercera guerra civil / \"guerra civil internacionalizada\"",
+   "name_original": "Tercera guerra civil / \"guerra civil internacionalizada\"",
+   "name_en": "\"Third civil war\" / \"internationalised civil war\"",
+   "name_ar": "الحرب الأهلية الثالثة / «حرب أهلية مُدوَّلة»",
+   "stream": "Sudan – Republic",
+   "start": 2023,
+   "end": null,
+   "main_start": 2023,
+   "main_end": 2026,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "ES_IEEE2026",
+    "ES_ELPAIS2021"
+   ],
+   "dating_note": "",
+   "summary_en": "IEEE (2026) counts three civil wars and twenty coup attempts, seven of them successful. It sees \"three Sudans\" since the RSF formed a parallel government, keyword \"multipolarity\", with foreign powers fuelling the war for strategic interests. It notes that South Sudan depends on oil for about 90% and exports it through Sudan's infrastructure.",
+   "summary_ar": "يحصي معهد IEEE (2026) ثلاث حروب أهلية وعشرين محاولة انقلاب نجح منها سبع. ويرى «ثلاثة سودانات» منذ أن شكّل الدعم السريع حكومة موازية، وكلمته المفتاحية «تعدد الأقطاب»، مع قوى أجنبية تؤجّج الحرب لمصالح استراتيجية. ويشير إلى أن جنوب السودان يعتمد على النفط بنحو 90% ويصدّره عبر البنية التحتية السودانية.",
+   "framing_en": "Spanish defence analysis numbers this as the \"third\" civil war (1955–72, 1983–2005, 2023–), a numbering not used in Arabic sources, and casts it as a multipolar proxy war.",
+   "framing_ar": "يرقّم التحليل الدفاعي الإسباني الحربَ «الثالثة» (1955–1972، 1983–2005، 2023–)، وهو ترقيم لا تستخدمه المصادر العربية، ويصوّرها حربًا بالوكالة في عالم متعدد الأقطاب.",
+   "regional_power": [],
+   "flags": [
+    "GEO-070/071 (El País) also cover this era",
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,286 @@
+{
+ "meta": {
+  "lang": "ru",
+  "title": "Historiography lens: ru",
+  "built": "2026-10-20",
+  "format": "items mirror data/periods.json periods[] fields + id/era_id(s)/lang/name_*/summary_*/framing_*/regional_power/flags; years negative=BCE; start/end = the source's own dating (null if it gives none); main_start/main_end = Histomap main dataset",
+  "note": "Sources written in this language only. verification field states how each was read. Power scores left empty unless a source states a comparable claim.",
+  "sources": {
+   "RU_WIKI_HIST": {
+    "id": "RU_WIKI_HIST",
+    "author": "Русская Википедия",
+    "title": "История Судана",
+    "title_en": "History of Sudan",
+    "title_ar": "تاريخ السودان",
+    "publisher": "Wikipedia (ru)",
+    "year": "2026",
+    "url": "https://ru.wikipedia.org/wiki/История_Судана",
+    "lang": "ru",
+    "kind": "encyclopedia (crowd)",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "RU_BRE_ORLOV": {
+    "id": "RU_BRE_ORLOV",
+    "author": "В. В. Орлов",
+    "title": "Англо-Египетский Судан",
+    "title_en": "Anglo-Egyptian Sudan",
+    "title_ar": "السودان الإنجليزي المصري",
+    "publisher": "Большая российская энциклопедия (old.bigenc.ru)",
+    "year": "c.2005–2017",
+    "url": "https://old.bigenc.ru/world_history/text/1821574",
+    "lang": "ru",
+    "kind": "national encyclopedia (state)",
+    "verification": "live page unreachable 2026-10-20 (timeout/504/401); wording from search index + Historian's Wayback 2024 snapshot — see social/orlov-recheck.md"
+   },
+   "RU_BRE_EGYPT": {
+    "id": "RU_BRE_EGYPT",
+    "author": "Большая российская энциклопедия",
+    "title": "Египет. История Египта в 20 – начале 21 вв.",
+    "title_en": "Egypt: history in the 20th–early 21st c.",
+    "title_ar": "مصر: التاريخ في القرن العشرين وبداية الحادي والعشرين",
+    "publisher": "BRE (bigenc.ru)",
+    "year": "2020s",
+    "url": "https://bigenc.ru/c/egipet-istoriia-20-21-vv-f0bcb7",
+    "lang": "ru",
+    "kind": "national encyclopedia (state)",
+    "verification": "search-index snippet only (page/PDF blocked to direct fetch) — VERIFY"
+   },
+   "RU_SMIRNOV1950": {
+    "id": "RU_SMIRNOV1950",
+    "author": "С. Р. Смирнов",
+    "title": "Восстание махдистов в Судане",
+    "title_en": "The Mahdist uprising in Sudan",
+    "title_ar": "انتفاضة المهديين في السودان",
+    "publisher": "Изд-во АН СССР (Труды Института этнографии, нов. сер. т. VI)",
+    "year": "1950",
+    "url": "https://djvu.online/file/s4jkDgOWF4e2A",
+    "lang": "ru",
+    "kind": "Soviet academic monograph",
+    "verification": "catalogue record seen via search; full text not read — VERIFY (title page text seen; djvu.online needs JS)"
+   },
+   "RU_LUSKAN2023": {
+    "id": "RU_LUSKAN2023",
+    "author": "Е. А. Лускань (рук. И. В. Герасимов)",
+    "title": "Махдизм и суфийские братства Судана в 1881–1898 гг.",
+    "title_en": "Mahdism and the Sufi brotherhoods of Sudan, 1881–1898",
+    "title_ar": "المهدية والطرق الصوفية في السودان 1881–1898",
+    "publisher": "Санкт-Петербургский государственный университет (BA thesis)",
+    "year": "2023",
+    "url": "https://dspace.spbu.ru/bitstreams/6c5687a7-c688-492e-be64-948783295219/download",
+    "lang": "ru",
+    "kind": "university thesis",
+    "verification": "search-index snippet only (page/PDF blocked to direct fetch) — VERIFY (link now 404)"
+   },
+   "RU_RIA_2011": {
+    "id": "RU_RIA_2011",
+    "author": "РИА Новости",
+    "title": "Республика Судан. Справка",
+    "title_en": "Republic of Sudan: fact sheet",
+    "title_ar": "جمهورية السودان: لمحة",
+    "publisher": "RIA Novosti (state)",
+    "year": "2011-01-09",
+    "url": "https://ria.ru/20110109/314459395.html",
+    "lang": "ru",
+    "kind": "state media reference",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "RU_RIA_REL": {
+    "id": "RU_RIA_REL",
+    "author": "РИА Новости",
+    "title": "Межгосударственные отношения России и Судана",
+    "title_en": "Interstate relations of Russia and Sudan",
+    "title_ar": "العلاقات بين روسيا والسودان",
+    "publisher": "RIA Novosti (state)",
+    "year": "2018-07-13 (upd. 2020)",
+    "url": "https://ria.ru/20180713/1524467555.html",
+    "lang": "ru",
+    "kind": "state media reference",
+    "verification": "HTTP 200 fetched 2026-10-20; text not parsed in detail"
+   }
+  }
+ },
+ "items": [
+  {
+   "id": "ru-mahdi-1",
+   "era_id": "mahdist-state-mahdiyya",
+   "era_ids": [
+    "mahdist-state-mahdiyya"
+   ],
+   "lang": "ru",
+   "name": "Восстание махдистов / Махдистское государство",
+   "name_original": "Восстание махдистов / Махдистское государство",
+   "name_en": "\"The Mahdist uprising\" / the Mahdist state",
+   "name_ar": "انتفاضة المهديين / الدولة المهدية",
+   "stream": "Sudan – Middle Nile",
+   "start": 1881,
+   "end": 1898,
+   "main_start": 1885,
+   "main_end": 1899,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "RU_WIKI_HIST",
+    "RU_SMIRNOV1950",
+    "RU_LUSKAN2023"
+   ],
+   "dating_note": "End 1898 vs main 1899",
+   "summary_en": "Russian Wikipedia says the Mahdi tried to unite the tribes of western and central Sudan \"against the Ottomans\". The uprising ended with the capture of Khartoum in 1885 and the expulsion of European, Turkish and Egyptian officials, and the state lasted until 1898. The Soviet classic is Smirnov's \"The Mahdist uprising in Sudan\" (Academy of Sciences, 1950). SPbU work (2023) studies the Sufi orders under the Mahdiyya and frames Sudan as lying \"on the border of the Arab and African worlds\".",
+   "summary_ar": "تقول ويكيبيديا الروسية إن المهدي سعى إلى توحيد قبائل غرب السودان ووسطه «ضد العثمانيين»، وإن الانتفاضة انتهت بالاستيلاء على الخرطوم عام 1885 وطرد الموظفين الأوروبيين والأتراك والمصريين، وإن الدولة بقيت حتى 1898. والمرجع السوفيتي الكلاسيكي كتاب سميرنوف «انتفاضة المهديين في السودان» (أكاديمية العلوم، 1950). وتدرس أطروحة جامعة سانت بطرسبرغ (2023) الطرق الصوفية في عهد المهدية، وتصوّر السودان «على حدود العالمين العربي والأفريقي».",
+   "framing_en": "The Russian and Soviet tradition uses \"uprising\" (vosstaniye) for the Mahdiyya, in the class-struggle and anti-colonial register. It names the enemy as \"the Ottomans\", not Egypt, and puts the end date at 1898.",
+   "framing_ar": "يستخدم التقليد الروسي والسوفيتي كلمة «انتفاضة» (فوسستانيه) للمهدية، في سجل الصراع الطبقي ومناهضة الاستعمار، ويسمّي العدو «العثمانيين» لا مصر، ويضع نهايتها عام 1898.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "ru-condo-1",
+   "era_id": "anglo-egyptian-sudan-condominium",
+   "era_ids": [
+    "anglo-egyptian-sudan-condominium"
+   ],
+   "lang": "ru",
+   "name": "Англо-Египетский Судан (1899–1951)",
+   "name_original": "Англо-Египетский Судан (1899–1951)",
+   "name_en": "Anglo-Egyptian Sudan (1899–1951)",
+   "name_ar": "السودان الإنجليزي المصري (1899–1951)",
+   "stream": "Sudan – Middle Nile",
+   "start": 1899,
+   "end": 1951,
+   "main_start": 1899,
+   "main_end": 1956,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "RU_BRE_ORLOV",
+    "RU_BRE_EGYPT",
+    "RU_WIKI_HIST"
+   ],
+   "dating_note": "1899–1951 (end of the name) vs main 1899–1956",
+   "summary_en": "The Great Russian Encyclopedia (Orlov) calls Anglo-Egyptian Sudan the \"former name of Sudan in 1899–1951\". From January 1899 Eastern Sudan was a condominium \"in fact turned into a British colony\". On 15 October 1951 the Egyptian parliament \"denounced\" (денонсировал) the 1899 agreement. The BRE article on Egypt confirms the October 1951 denunciation of the 1899 and 1936 treaties.",
+   "summary_ar": "تسمّي الموسوعة الروسية الكبرى (أورلوف) السودان الإنجليزي المصري «الاسم السابق للسودان في 1899–1951». فمنذ يناير 1899 كان شرق السودان حكمًا ثنائيًا «تحوّل فعليًا إلى مستعمرة بريطانية»، وفي 15 أكتوبر 1951 «ألغى» (денонсировал) البرلمان المصري اتفاقية 1899. وتؤكد مقالة الموسوعة عن مصر إلغاء معاهدتي 1899 و1936 في أكتوبر 1951.",
+   "framing_en": "The Russian state encyclopedia ends the name in 1951, the Egyptian legal act, not at independence in 1956. This conflicts with the main dataset. It agrees with the Sudanese Arabic view that the Condominium was really British colonial rule. The verb is \"denounced\"; do not add \"unilaterally\" to quotes.",
+   "framing_ar": "تُنهي الموسوعة الروسية الرسمية الاسم عام 1951، أي عند الفعل القانوني المصري، لا عند الاستقلال عام 1956، وهذا يتعارض مع قاعدة البيانات الرئيسية. وتتفق مع الرؤية العربية السودانية في أن الحكم الثنائي كان استعمارًا بريطانيًا فعليًا. والفعل هو «ألغى/نقض»، ولا تُضَف كلمة «من جانب واحد» إلى الاقتباس.",
+   "regional_power": [],
+   "flags": [
+    "BRE live page unreachable; see social/orlov-recheck.md",
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "ru-nimeiri-1",
+   "era_id": "nimeiry-era-democratic-republic-of-sudan",
+   "era_ids": [
+    "nimeiry-era-democratic-republic-of-sudan"
+   ],
+   "lang": "ru",
+   "name": "Демократическая Республика Судан (Нимейри)",
+   "name_original": "Демократическая Республика Судан (Нимейри)",
+   "name_en": "Democratic Republic of Sudan (Nimeiri)",
+   "name_ar": "جمهورية السودان الديمقراطية (نميري)",
+   "stream": "Sudan – Republic",
+   "start": 1969,
+   "end": 1985,
+   "main_start": 1969,
+   "main_end": 1985,
+   "prominence": null,
+   "key_events": [
+    "USSR arms 1969 (MiG-21)",
+    "1971 communist coup attempt",
+    "1983 sharia"
+   ],
+   "key_events_ar": [
+    "سلاح سوفيتي 1969 (ميغ-21)",
+    "محاولة انقلاب شيوعية 1971",
+    "الشريعة 1983"
+   ],
+   "capitals": [],
+   "sources": [
+    "RU_WIKI_HIST",
+    "RU_RIA_2011"
+   ],
+   "dating_note": "",
+   "summary_en": "Russian Wikipedia says Nimeiri \"proclaimed a left course and condemned imperialism\". To the USSR, Sudan was \"one more progressive state\". By the end of 1969 the USSR gave about USD 65–130m of military aid (16 MiG-21s, tanks, APCs), and Pravda (5 Nov 1969) argued Sudan's geostrategic importance. RIA says Nimeiri introduced sharia punishments, which led to the second civil war.",
+   "summary_ar": "تقول ويكيبيديا الروسية إن نميري «أعلن نهجًا يساريًا وأدان الإمبريالية»، وإن السودان كان في نظر الاتحاد السوفيتي «دولة تقدمية أخرى». وبحلول نهاية 1969 قدّم الاتحاد السوفيتي مساعدات عسكرية بنحو 65–130 مليون دولار (16 مقاتلة ميغ-21 ودبابات وناقلات جند)، وسوّغت «برافدا» (5 نوفمبر 1969) أهمية السودان الجيواستراتيجية. ويذكر ريا نوفوستي أن نميري أدخل عقوبات الشريعة، فكانت الحرب الأهلية الثانية.",
+   "framing_en": "The Russian lens is distinctive: the Nimeiri era is read through Soviet alignment and arms (MiG-21s), with Moscow as a historic patron. This prefigures today's Port Sudan base narrative. Arabic sources instead stress the left-to-Islamist turn.",
+   "framing_ar": "العدسة الروسية متميزة: تُقرأ حقبة نميري من خلال الاصطفاف مع السوفيت والسلاح (ميغ-21)، وموسكو راعٍ تاريخي، وهذا يمهّد لرواية القاعدة في بورتسودان اليوم. أما المصادر العربية فتشدد على التحول من اليسار إلى الإسلاميين.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "ru-bashir-1",
+   "era_id": "al-bashir-ncp-ingaz-regime",
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime"
+   ],
+   "lang": "ru",
+   "name": "Режим аль-Башира / Национальный исламский фронт",
+   "name_original": "Режим аль-Башира / Национальный исламский фронт",
+   "name_en": "al-Bashir regime / National Islamic Front",
+   "name_ar": "نظام البشير / الجبهة الإسلامية القومية",
+   "stream": "Sudan – Republic",
+   "start": 1989,
+   "end": 2019,
+   "main_start": 1989,
+   "main_end": 2019,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "RU_WIKI_HIST",
+    "RU_RIA_2011",
+    "RU_RIA_REL"
+   ],
+   "dating_note": "",
+   "summary_en": "Russian Wikipedia describes Bashir's base as the National Islamic Front of the \"fundamentalist\" Turabi, with Islamisation from the early 1990s. Under the 2005 deal, oil revenue was split equally. RIA (2011) ranks Sudan third among sub-Saharan oil producers, with 6bn barrels of reserves and 510,000 bpd, most of it in the South, exported by a pipeline across the North.",
+   "summary_ar": "تصف ويكيبيديا الروسية قاعدة البشير بأنها الجبهة الإسلامية القومية بزعامة الترابي «الأصولي»، مع أسلمة منذ مطلع التسعينيات. وبموجب اتفاق 2005 قُسّم عائد النفط مناصفة. ويصنّف ريا نوفوستي (2011) السودان ثالثَ منتجي النفط جنوب الصحراء، باحتياطيات 6 مليارات برميل وإنتاج 510 آلاف برميل يوميًا، معظمه في الجنوب ويُصدَّر عبر خط يعبر الشمال.",
+   "framing_en": "The Russian state-media frame is a factual economic profile with the North–South divide described as \"Islamic North vs Christian-pagan South\". The language is more blunt and religious-ethnic than in other sources.",
+   "framing_ar": "إطار الإعلام الرسمي الروسي ملفّ اقتصادي وقائعي، يُصاغ فيه الانقسام بين الشمال والجنوب «شمال إسلامي في مواجهة جنوب مسيحي وثني»، وهي لغة دينية عرقية أكثر فجاجة من المصادر الأخرى.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "ru-war-1",
+   "era_id": "war-in-sudan-saf-vs-rsf",
+   "era_ids": [
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "lang": "ru",
+   "name": "Конфликт в Судане (СБР против армии)",
+   "name_original": "Конфликт в Судане (СБР против армии)",
+   "name_en": "Conflict in Sudan (RSF vs army)",
+   "name_ar": "النزاع في السودان (الدعم السريع ضد الجيش)",
+   "stream": "Sudan – Republic",
+   "start": 2023,
+   "end": null,
+   "main_start": 2023,
+   "main_end": 2026,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "RU_WIKI_HIST"
+   ],
+   "dating_note": "",
+   "summary_en": "Russian sources on the war are covered in GEO: Kommersant and Euronews RU on the base re-offer, RIA on the base pause, Interfax/AP on UAE arms, UN News RU on El Fasher, and DW RU on Wagner gold.",
+   "summary_ar": "المصادر الروسية عن الحرب مغطاة في GEO: «كوميرسانت» و«يورونيوز» الروسية عن إعادة عرض القاعدة، و«ريا نوفوستي» عن تجميدها، و«إنترفاكس» نقلًا عن أسوشيتد برس عن سلاح الإمارات، و«أخبار الأمم المتحدة» الروسية عن الفاشر، و«دويتشه فيله» الروسية عن ذهب فاغنر.",
+   "framing_en": "The Russian media lens on the current war centres the naval base, arms deals and Russia's balancing between the SAF and RSF. Atrocities appear mainly through the UN Russian service.",
+   "framing_ar": "عدسة الإعلام الروسي في الحرب الحالية تتمحور حول القاعدة البحرية وصفقات السلاح وموازنة روسيا بين الجيش والدعم السريع، ولا تظهر الفظائع إلا عبر الخدمة الروسية للأمم المتحدة أساسًا.",
+   "regional_power": [],
+   "flags": [
+    "See GEO-004, GEO-047..053, GEO-080, GEO-081; no Russian academic source on the 2023 war yet",
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  }
+ ]
+}

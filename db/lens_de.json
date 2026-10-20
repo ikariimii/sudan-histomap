@@ -1,0 +1,283 @@
+{
+ "meta": {
+  "lang": "de",
+  "title": "Historiography lens: de",
+  "built": "2026-10-20",
+  "format": "items mirror data/periods.json periods[] fields + id/era_id(s)/lang/name_*/summary_*/framing_*/regional_power/flags; years negative=BCE; start/end = the source's own dating (null if it gives none); main_start/main_end = Histomap main dataset",
+  "note": "Sources written in this language only. verification field states how each was read. Power scores left empty unless a source states a comparable claim.",
+  "sources": {
+   "DE_WIKI_HIST": {
+    "id": "DE_WIKI_HIST",
+    "author": "Deutschsprachige Wikipedia",
+    "title": "Geschichte des Sudan",
+    "title_en": "History of Sudan",
+    "title_ar": "تاريخ السودان",
+    "publisher": "Wikipedia (de)",
+    "year": "2026",
+    "url": "https://de.wikipedia.org/wiki/Geschichte_des_Sudan",
+    "lang": "de",
+    "kind": "encyclopedia (crowd)",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "DE_APUZ2026": {
+    "id": "DE_APUZ2026",
+    "author": "bpb – Aus Politik und Zeitgeschichte",
+    "title": "Zwischen Kolonialerbe und Elitenversagen",
+    "title_en": "Between colonial legacy and elite failure",
+    "title_ar": "بين الإرث الاستعماري وإخفاق النخب",
+    "publisher": "Bundeszentrale für politische Bildung (APuZ \"Sudan\" 2026)",
+    "year": "2026",
+    "url": "https://www.bpb.de/shop/zeitschriften/apuz/sudan-2026/580254/zwischen-kolonialerbe-und-elitenversagen/",
+    "lang": "de",
+    "kind": "federal civic-education journal",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "DE_BPB_KONFLIKT": {
+    "id": "DE_BPB_KONFLIKT",
+    "author": "bpb",
+    "title": "Sudan (Dossier Kriege und Konflikte)",
+    "title_en": "Sudan (Wars and conflicts dossier)",
+    "title_ar": "السودان (ملف الحروب والنزاعات)",
+    "publisher": "Bundeszentrale für politische Bildung",
+    "year": "2020s",
+    "url": "https://www.bpb.de/themen/kriege-konflikte/dossier-kriege-konflikte/54699/sudan/",
+    "lang": "de",
+    "kind": "federal civic-education dossier",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "DE_ZMS_WEGWEISER": {
+    "id": "DE_ZMS_WEGWEISER",
+    "author": "Zentrum für Militärgeschichte und Sozialwissenschaften der Bundeswehr",
+    "title": "Wegweiser zur Geschichte: Sudan und Südsudan",
+    "title_en": "Guide to history: Sudan and South Sudan",
+    "title_ar": "دليل إلى التاريخ: السودان وجنوب السودان",
+    "publisher": "ZMSBw (Bundeswehr) / Schöningh",
+    "year": "2012?",
+    "url": "https://www.zms.bundeswehr.de/resource/blob/5324228/ec3a2f868b381c6af68fdb253cf6a6ea/wegweiser-zur-geschichte-sudan-und-suedsudan-data.pdf",
+    "lang": "de",
+    "kind": "military-history handbook",
+    "verification": "fetched 2026-10-20 (curl/WebFetch, text read) (17 MB PDF downloaded; introduction read via search text) — year VERIFY"
+   },
+   "DE_KUENDGEN1992": {
+    "id": "DE_KUENDGEN1992",
+    "author": "Olaf Kündgen",
+    "title": "Das islamisierte Strafrecht des Sudan: Von seiner Einführung 1983 bis Juli 1992",
+    "title_en": "Sudan's Islamised criminal law, 1983–July 1992",
+    "title_ar": "القانون الجنائي المؤسلم في السودان 1983–1992",
+    "publisher": "Deutsches Orient-Institut, Mitteilungen 43",
+    "year": "1992",
+    "url": "https://d-nb.info/930583590/04",
+    "lang": "de",
+    "kind": "academic monograph (TOC)",
+    "verification": "search-index snippet only (page/PDF blocked to direct fetch) — VERIFY (DNB table of contents)"
+   }
+  }
+ },
+ "items": [
+  {
+   "id": "de-turk-1",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "era_ids": [
+    "turkiyya-ottoman-egyptian-rule"
+   ],
+   "lang": "de",
+   "name": "Osmanisch-ägyptische Herrschaft / \"koloniale Phase\"",
+   "name_original": "Osmanisch-ägyptische Herrschaft / \"koloniale Phase\"",
+   "name_en": "Ottoman-Egyptian rule / \"colonial phase\"",
+   "name_ar": "الحكم العثماني المصري / «المرحلة الاستعمارية»",
+   "stream": "Sudan – Middle Nile",
+   "start": 1820,
+   "end": 1881,
+   "main_start": 1821,
+   "main_end": 1885,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "DE_WIKI_HIST",
+    "DE_BPB_KONFLIKT",
+    "DE_KUENDGEN1992"
+   ],
+   "dating_note": "1820–1881 (to the Mahdi's revolt) vs main 1821–1885",
+   "summary_en": "German sources put this era under \"occupation and colonial period\". The bpb says Egypt occupied the North \"with extreme brutality\" between 1820 and 1840, exploited Black people as slaves and used the land as a reservoir of gold and ivory. Kündgen dates the Turkiyya 1820–1881.",
+   "summary_ar": "تضع المصادر الألمانية هذه الحقبة تحت عنوان «الاحتلال والحقبة الاستعمارية». وتقول bpb إن مصر احتلت الشمال «بوحشية بالغة» بين 1820 و1840، واستغلت السكان السود عبيدًا، واتخذت البلاد خزانًا للذهب والعاج. ويؤرّخ كوندغن التركية بالفترة 1820–1881.",
+   "framing_en": "German civic education calls the Turkiyya colonialism outright and stresses racialised slavery \"still effective today\". This is the opposite of Shukri's Egyptian \"Nile unity\" reading.",
+   "framing_ar": "تسمّي التربية المدنية الألمانية التركيةَ استعمارًا صراحةً، وتشدد على رقّ عنصري «لا يزال أثره قائمًا اليوم»، وهذا نقيض قراءة شكري المصرية عن «وحدة وادي النيل».",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "de-mahdi-1",
+   "era_id": "mahdist-state-mahdiyya",
+   "era_ids": [
+    "mahdist-state-mahdiyya"
+   ],
+   "lang": "de",
+   "name": "Mahdi-Aufstand / Mahdiya (1881–1898)",
+   "name_original": "Mahdi-Aufstand / Mahdiya (1881–1898)",
+   "name_en": "\"Mahdi uprising\" / Mahdiya (1881–1898)",
+   "name_ar": "انتفاضة المهدي / المهدية (1881–1898)",
+   "stream": "Sudan – Middle Nile",
+   "start": 1881,
+   "end": 1898,
+   "main_start": 1885,
+   "main_end": 1899,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "DE_WIKI_HIST",
+    "DE_KUENDGEN1992"
+   ],
+   "dating_note": "1881–1898 vs main 1885–1899",
+   "summary_en": "German Wikipedia uses \"Mahdi-Aufstand\" (uprising) as the heading. Kündgen dates the Mahdiya 1881–1898 and the Condominium 1898–1956.",
+   "summary_ar": "تستخدم ويكيبيديا الألمانية «Mahdi-Aufstand» (انتفاضة المهدي) عنوانًا. ويؤرّخ كوندغن المهدية بالفترة 1881–1898 والحكم الثنائي بالفترة 1898–1956.",
+   "framing_en": "\"Uprising\", not \"state\" or \"revolution\": German sources, like Russian ones, foreground the revolt over the polity.",
+   "framing_ar": "«انتفاضة» لا «دولة» ولا «ثورة»: تُبرز المصادر الألمانية، كالروسية، التمرّد على الكيان السياسي.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "de-indep-1",
+   "era_id": "independent-sudan-first-parliamentary-period",
+   "era_ids": [
+    "independent-sudan-first-parliamentary-period"
+   ],
+   "lang": "de",
+   "name": "Unabhängigkeit 1956 – friedlich, aber mit Schattenseite",
+   "name_original": "Unabhängigkeit 1956 – friedlich, aber mit Schattenseite",
+   "name_en": "Independence 1956: peaceful, but with a dark side",
+   "name_ar": "استقلال 1956: سلمي لكن بوجه مظلم",
+   "stream": "Sudan – Republic",
+   "start": 1956,
+   "end": 1958,
+   "main_start": 1956,
+   "main_end": 1958,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "DE_APUZ2026",
+    "DE_ZMS_WEGWEISER"
+   ],
+   "dating_note": "",
+   "summary_en": "APuZ 2026 says Sudan did not need a bloody liberation struggle. Naguib, who had Sudanese family roots, conceded self-determination in 1953, and parliament voted unanimously for independence in December 1955. It also notes that the August 1955 Torit mutiny, remembered in the South as the start of the freedom struggle, involved massacres of northern civilians, so it \"is no noble starting point\".",
+   "summary_ar": "تقول مجلة APuZ (2026) إن السودان لم يحتج إلى نضال تحرري دموي، فقد أقرّ نجيب، ذو الجذور العائلية السودانية، حق تقرير المصير عام 1953، وصوّت البرلمان بالإجماع على الاستقلال في ديسمبر 1955. وتلاحظ أن تمرّد توريت في أغسطس 1955، الذي يُذكر في الجنوب بداية لنضال الحرية، تخلّلته مذابح بحق مدنيين شماليين، فهو «ليس نقطة انطلاق نبيلة».",
+   "framing_en": "The German academic tone is revisionist and critical of every founding myth, both southern (Torit) and northern. It also cites the Bundeswehr ZMS handbook: Sudan was \"the second African state after WWII\" to gain independence.",
+   "framing_ar": "النبرة الأكاديمية الألمانية مراجِعة تنتقد كل أسطورة تأسيسية، جنوبية (توريت) كانت أم شمالية. ويُستشهد أيضًا بدليل مركز التاريخ العسكري للجيش الألماني: السودان «ثاني دولة أفريقية بعد الحرب العالمية الثانية» تنال استقلالها.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "de-nimeiri-1",
+   "era_id": "nimeiry-era-democratic-republic-of-sudan",
+   "era_ids": [
+    "nimeiry-era-democratic-republic-of-sudan"
+   ],
+   "lang": "de",
+   "name": "Herrschaft von Numairi (1969–1985)",
+   "name_original": "Herrschaft von Numairi (1969–1985)",
+   "name_en": "Numairi's rule (1969–1985)",
+   "name_ar": "حكم نميري (1969–1985)",
+   "stream": "Sudan – Republic",
+   "start": 1969,
+   "end": 1985,
+   "main_start": 1969,
+   "main_end": 1985,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "DE_APUZ2026",
+    "DE_WIKI_HIST"
+   ],
+   "dating_note": "",
+   "summary_en": "APuZ 2026 notes that Numairi had been trained as a tank commander in the Bundeswehr, and that his regime recognised the GDR, dealing a \"death blow\" to the Hallstein Doctrine, with Stasi cooperation until the 1971 coup attempt. It describes the turn West, the 1972 Addis Ababa deal, \"development ruins\" after the oil shocks and debt \"still paralysing Sudan\", and the 1978 \"national reconciliation\" with Sadiq al-Mahdi and Turabi. German Wikipedia mentions the SSU single party and nationalisations in 1970.",
+   "summary_ar": "تذكر APuZ (2026) أن نميري تلقّى تدريبه قائدًا للدبابات في الجيش الألماني، وأن نظامه اعترف بألمانيا الشرقية فوجّه «ضربة قاضية» لمبدأ هالشتاين، مع تعاون مع الشتازي حتى محاولة انقلاب 1971. وتصف التحول نحو الغرب، واتفاق أديس أبابا 1972، و«أطلال التنمية» بعد صدمات النفط، والديون التي «لا تزال تشلّ السودان»، و«المصالحة الوطنية» عام 1978 مع الصادق المهدي والترابي. وتذكر ويكيبيديا الألمانية الحزب الواحد (الاتحاد الاشتراكي السوداني) وتأميمات 1970.",
+   "framing_en": "This is a uniquely German angle: the two Germanies' Cold War (Hallstein, Stasi, a Bundeswehr-trained Numairi). The Russian lens sees the Soviet MiGs of the same years.",
+   "framing_ar": "زاوية ألمانية فريدة: الحرب الباردة بين الألمانيتين (هالشتاين والشتازي ونميري المتدرب في الجيش الألماني الغربي)، في حين ترى العدسة الروسية في السنوات نفسها طائرات الميغ السوفيتية.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "de-bashir-1",
+   "era_id": "al-bashir-ncp-ingaz-regime",
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime"
+   ],
+   "lang": "de",
+   "name": "Herrschaft von Baschir (1989–2019)",
+   "name_original": "Herrschaft von Baschir (1989–2019)",
+   "name_en": "Baschir's rule (1989–2019)",
+   "name_ar": "حكم البشير (1989–2019)",
+   "stream": "Sudan – Republic",
+   "start": 1989,
+   "end": 2019,
+   "main_start": 1989,
+   "main_end": 2019,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "DE_WIKI_HIST",
+    "DE_BPB_KONFLIKT"
+   ],
+   "dating_note": "",
+   "summary_en": "German Wikipedia says oil investment came from China, Malaysia and India, and that the government let militias carry out \"ethnic cleansing\" to secure the oilfields. The bpb says oil discoveries in the South \"massively\" sharpened the conflict, and that political Islam had grown since the 1970s and enabled the 1989 coup, deepening centre–periphery conflict and Darfur from 2003.",
+   "summary_ar": "تقول ويكيبيديا الألمانية إن استثمارات النفط جاءت من الصين وماليزيا والهند، وإن الحكومة أطلقت يد الميليشيات في «تطهير عرقي» لتأمين حقول النفط. وتقول bpb إن اكتشافات النفط في الجنوب أجّجت الصراع «على نحو هائل»، وإن الإسلام السياسي تنامى منذ السبعينيات ومكّن لانقلاب 1989، فتعمّق صراع المركز والأطراف، ثم كانت دارفور منذ 2003.",
+   "framing_en": "The German framing is human rights and centre–periphery: oil means ethnic cleansing, the opposite of the Chinese \"win-win\" account.",
+   "framing_ar": "الإطار الألماني حقوقي ومحوره المركز والأطراف: النفط يعني التطهير العرقي، وهذا نقيض رواية «الربح المشترك» الصينية.",
+   "regional_power": [],
+   "flags": [
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  },
+  {
+   "id": "de-war-1",
+   "era_id": "war-in-sudan-saf-vs-rsf",
+   "era_ids": [
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "lang": "de",
+   "name": "Krieg im Sudan (seit 2023)",
+   "name_original": "Krieg im Sudan (seit 2023)",
+   "name_en": "War in Sudan (since 2023)",
+   "name_ar": "الحرب في السودان (منذ 2023)",
+   "stream": "Sudan – Republic",
+   "start": 2023,
+   "end": null,
+   "main_start": 2023,
+   "main_end": 2026,
+   "prominence": null,
+   "key_events": [],
+   "key_events_ar": [],
+   "capitals": [],
+   "sources": [
+    "DE_WIKI_HIST"
+   ],
+   "dating_note": "",
+   "summary_en": "German Wikipedia starts its \"since 2020\" section with the 31 August 2020 Juba peace agreement with the Revolutionary Front. German media coverage of the war is in GEO-067 (ZDF: gold, 80–90% smuggled, mostly to the UAE) and GEO-068 (tagesschau).",
+   "summary_ar": "يبدأ قسم «منذ 2020» في ويكيبيديا الألمانية باتفاق سلام جوبا مع الجبهة الثورية في 31 أغسطس 2020. أما التغطية الإعلامية الألمانية للحرب ففي GEO-067 (ZDF: الذهب، 80–90% منه مهرّب ومعظمه إلى الإمارات) وGEO-068 (تاغسشاو).",
+   "framing_en": "German sources periodise from 2020, the Juba peace, rather than from the 2019 revolution or the 2023 war.",
+   "framing_ar": "تؤرّخ المصادر الألمانية من 2020 (سلام جوبا)، لا من ثورة 2019 ولا من حرب 2023.",
+   "regional_power": [],
+   "flags": [
+    "APuZ 2026 issue has other articles on the war; not yet read",
+    "regional_power: no source makes an explicit scorable claim; left empty (null)"
+   ]
+  }
+ ]
+}
