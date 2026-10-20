@@ -2,6 +2,12 @@
 
 Site changes for sudan.indomando.com (built from `web/` by `web/build.py`). Newest first.
 
+## 2026-10-20 (map labels)
+
+- Map labels are thinned by priority (main-era capitals, then area labels, cited points, context capitals). Labels that would overlap another label or marker, or leave the frame, are hidden and listed under the map; markers always stay. Long point labels fall back to a shorter form before being hidden.
+- A capital shared by two eras at the same place (e.g. Suakin, capital of both the Suakin port era and the Beja era) is drawn once; its tooltip lists both eras.
+- Points marked `badge: REPORTED` in the extents data show a red REPORTED / مُبلَّغ عنه badge on the label and in the tooltip (2 points: El Malha and Mellit, war in Sudan, UN Panel of Experts S/2025/239).
+
 ## 2026-10-20 (later)
 
 - Map point labels can also switch to the other side of their marker, and a moved label's leader line now avoids crossing other labels (e.g. Sennar in Arabic at 390px).
