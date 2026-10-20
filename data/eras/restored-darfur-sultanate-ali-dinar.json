@@ -23,14 +23,15 @@
    "lon": 25.35
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
+ "geopolitics_en": "'Nominally tributary to, but effectively independent of, the Anglo-Egyptian Sudan'; Ali Dinar answered the Ottoman call to jihad in the First World War, raided French Chad, threatened British Borno and tried to stir revolt in Kordofan; he was defeated and killed in 1916 and Darfur 'fully incorporated into Sudan' (GHA VII ch.12, p.283).",
+ "geopolitics_ar": "«تابعة اسمياً للسودان الإنجليزي المصري لكنها مستقلة فعلياً»؛ واستجاب علي دينار لدعوة العثمانيين إلى الجهاد في الحرب العالمية الأولى، فأغار على تشاد الفرنسية وهدد برنو البريطانية وحاول إثارة الثورة في كردفان؛ وهُزم وقُتل في 1916 و«ضُمّت دارفور كلياً إلى السودان» (تاريخ أفريقيا العام VII، الفصل 12، ص283).",
  "culture_dominance_en": null,
  "culture_dominance_ar": null,
  "economy_en": null,
  "economy_ar": null,
  "regional_power": [],
  "sources": [
+  "GHA7_CH12",
   "OFAHEY2008",
   "HD2011",
   "WP:Ali_Dinar",
@@ -40,10 +41,10 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
   "culture_dominance: no source-backed text yet",
   "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 13 text: Arabic is a working translation; needs native review"
  ],
- "curated": false
+ "curated": true
 }

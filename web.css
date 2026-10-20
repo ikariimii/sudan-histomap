@@ -40,3 +40,4 @@ footer{border-top:1px solid var(--line);color:var(--mute);font-size:14px;padding
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 .steps{display:flex;gap:2px}.steps button{min-width:34px;min-height:32px;border:1px solid var(--line);background:#fff;color:var(--c);font:12px system-ui,sans-serif;border-radius:3px;cursor:pointer}
 .scrub{flex-wrap:wrap}.approx{font:italic 13px system-ui,sans-serif;color:var(--c);border:1px dashed var(--c);border-radius:3px;padding:0 6px}
+.xd{font-size:14px;margin:4px 0;padding-inline-start:18px}

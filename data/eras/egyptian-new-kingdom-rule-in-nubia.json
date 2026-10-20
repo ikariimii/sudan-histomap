@@ -33,14 +33,15 @@
    "lon": 33.4772
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "Ruled by a viceroy, the 'King's son of Kush', directly responsible to Pharaoh; Nubia was split into Wawat (Nekhen to the Second Cataract) and Kush (Second to Fourth Cataract). Native chiefs kept sovereignty in their districts (GHA II ch.9, p.270).",
+ "geopolitics_ar": "حكمها نائب ملك يُلقّب «ابن الملك في كوش» مسؤول مباشرة أمام الفرعون؛ وقُسّمت النوبة إلى واوات (من نخن إلى الشلال الثاني) وكوش (من الشلال الثاني إلى الرابع). واحتفظ الزعماء المحليون بسيادتهم في مناطقهم (تاريخ أفريقيا العام II، الفصل 9، ص270).",
+ "culture_dominance_en": "Egyptianisation: after early resistance, temples were built all over Nubia by the kings of the 18th and 19th dynasties; the viceroy was also the religious head of the country (GHA II ch.9, p.270).",
+ "culture_dominance_ar": "التمصير: بعد مقاومة أولى، بنى ملوك الأسرتين الثامنة عشرة والتاسعة عشرة المعابد في أنحاء النوبة؛ وكان نائب الملك أيضاً الرئيس الديني للبلاد (تاريخ أفريقيا العام II، الفصل 9، ص270).",
+ "economy_en": "Gold was 'the principal product of Nubia', mined around Wadi el-Allaqi, Wadi Gabgaba and along the Nile to Abu Hamed; Wawat's annual tribute under Thutmose III was 550 pounds. Tribute also included ebony, ivory, incense, cattle, skins and, by the late 18th Dynasty, manufactured goods (GHA II ch.9, pp.272–273).",
+ "economy_ar": "كان الذهب «المنتج الرئيسي للنوبة»، ويُستخرج حول وادي العلاقي ووادي جبجبة وعلى طول النيل حتى أبي حمد؛ وبلغت جزية واوات السنوية في عهد تحتمس الثالث 550 رطلاً. وشملت الجزية أيضاً الأبنوس والعاج والبخور والماشية والجلود، ثم السلع المصنوعة بحلول أواخر الأسرة الثامنة عشرة (تاريخ أفريقيا العام II، الفصل 9، ص272–273).",
  "regional_power": [],
  "sources": [
+  "GHA2",
   "WHC1073",
   "GHA2_CH12",
   "WP:Viceroy_of_Kush"
@@ -49,10 +50,8 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 13 text: Arabic is a working translation; needs native review"
  ],
- "curated": false
+ "curated": true
 }
