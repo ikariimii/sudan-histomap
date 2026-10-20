@@ -2,7 +2,7 @@
 <!-- Era wiki template: era.html?id=<era-id>&lang=en|ar. Reads data/eras/<id>.json, comparison.json, periods.js (meta.sources). Read-only. -->
 <script src="lib/d3.min.js"></script><script src="lib/topojson.min.js"></script><script src="data/periods.js"></script><script src="data/world.js"></script><script src="data/i18n_ar.js"></script><script src="lib/views.js"></script>
 <style>
-@font-face{font-family:HSerif;src:url(lib/fonts/NotoSerif.ttf)}@font-face{font-family:HNaskh;src:url(lib/fonts/NotoNaskhArabic.ttf)}
+@font-face{font-family:HSerif;src:url(lib/fonts/NotoSerif-sub.woff2) format("woff2");font-display:swap}@font-face{font-family:HNaskh;src:url(lib/fonts/NotoNaskhArabic-sub.woff2) format("woff2");font-display:swap}
 body{margin:0;background:#f4ead5;color:#2b1d0e;font:16px/1.55 HSerif,Georgia,serif}body.ar{font-family:HNaskh,serif;font-size:17px}
 header{background:#2b1d0e;color:#f4ead5;padding:10px 24px;display:flex;gap:16px;align-items:center}header a{color:#f4ead5;font-size:14px}header .sp{flex:1}
 main{max-width:1180px;margin:0 auto;padding:18px 24px;display:grid;grid-template-columns:1fr 380px;gap:22px}
@@ -14,6 +14,8 @@ section{background:#fffaf0;border:1px solid #c9b48a;border-radius:6px;padding:12
 .cmp{border-left:6px solid;padding:6px 10px;margin:8px 0;background:#fff;font-size:14px}
 svg text{font-family:HSerif,serif}body.ar svg text.ar{font-family:HNaskh,serif}
 .pill{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;background:#e8dcc0;margin-inline-end:4px}
+main>*{min-width:0}svg{max-width:100%;height:auto}section{overflow-wrap:anywhere}
+@media (max-width:760px){main{grid-template-columns:1fr;padding:12px}header{flex-wrap:wrap;padding:8px 12px}h1{font-size:26px}}
 </style></head><body>
 <header><b id="brand"></b><a id="back" href="index.html"></a><a id="idx" href="eras.html"></a><span class="sp"></span><a id="sw"></a></header>
 <main id="m"></main>

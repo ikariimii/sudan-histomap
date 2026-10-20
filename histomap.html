@@ -3,8 +3,8 @@
 <script src="lib/d3.min.js"></script><script src="lib/topojson.min.js"></script>
 <script src="data/periods.js"></script><script src="data/world.js"></script><script src="data/i18n_ar.js"></script><script src="lib/views.js"></script>
 <style>
-@font-face{font-family:"HSerif";src:url(lib/fonts/NotoSerif.ttf)}
-@font-face{font-family:"HNaskh";src:url(lib/fonts/NotoNaskhArabic.ttf)}
+@font-face{font-family:"HSerif";src:url(lib/fonts/NotoSerif-sub.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"HNaskh";src:url(lib/fonts/NotoNaskhArabic-sub.woff2) format("woff2");font-display:swap}
 body{margin:0;font-family:HSerif,Georgia,serif;background:#f4ead5;color:#2b1d0e}
 body.ar{font-family:HNaskh,"Noto Naskh Arabic",serif}
 header{padding:10px 20px;background:#2b1d0e;color:#f4ead5;display:flex;align-items:center;gap:14px}h1{margin:0;font-size:24px}header p{margin:2px 0;font-size:13px;opacity:.8}
@@ -16,6 +16,8 @@ body.nopanel #side{display:none}
 text{font-family:HSerif,Georgia,serif}body.ar svg text{font-family:HNaskh,serif}
 .lbl{pointer-events:none;text-anchor:middle;fill:#1b120a}.col{font-weight:bold;text-anchor:middle;fill:#2b1d0e}.yr{fill:#6b5a40}
 body.print header,body.print #side,body.print #lensbar{display:none}body.print #chart{height:auto;overflow:visible}body.print #wrap{padding:0}
+html,body{max-width:100%;overflow-x:hidden}#chart{min-width:0}#map{max-width:100%;height:auto}
+@media (max-width:760px){header{flex-wrap:wrap;gap:6px 10px;padding:8px 12px}header .sp{display:none}h1{font-size:20px}#wrap{flex-direction:column;padding:6px}#chart{width:100%;height:70vh;-webkit-overflow-scrolling:touch}#side{max-width:none;width:100%}#lensbar{padding:6px 12px}}
 </style></head><body>
 <header><div><h1 id="h1"></h1><p id="sub"></p></div><div class="sp"></div>
 <label class="ctl" id="lensl"></label><select id="lens"></select><label class="ctl" id="diffl"></label><select id="diff"></select><a class="lk" href="eras.html" id="eralk"></a><a class="lk" id="langlk"></a><button id="tog"></button></header>
