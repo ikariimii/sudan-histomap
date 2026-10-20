@@ -2,6 +2,11 @@
 
 Site changes for sudan.indomando.com (built from `web/` by `web/build.py`). Newest first.
 
+## 2026-10-20 (point labels)
+
+- Fixed: a point label that had to move away from its marker could never be placed, because its own marker counted as an obstacle for its leader line; on Arabic maps one of El Malha / Mellit was therefore always moved to the list under the map. Every visible point is now labelled or listed with its badge.
+- Labels try nearer positions first (one line up or down before two), which shortens leader lines (e.g. Tegali / Tasi, Fashoda).
+
 ## 2026-10-20 (label margins)
 
 - The wider marker margin now applies only to main capital labels; point labels test against bare markers again, so El Malha and Mellit are labelled on the war map at 1440px with their REPORTED badges. Main capital labels moved off their dot's row get a short leader line (e.g. El Fasher).
