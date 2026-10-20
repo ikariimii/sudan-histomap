@@ -38,3 +38,5 @@ footer{border-top:1px solid var(--line);color:var(--mute);font-size:14px;padding
 .tip{font-size:15px;min-height:3em;margin-top:6px}.bar{cursor:pointer}.bar:hover{opacity:.8}
 @media (max-width:600px){body{font-size:16px}.chnav span{display:none}.chnav a{flex:1 0 34px;justify-content:center}.brand span{display:none}.tools{margin-inline-start:0;font-size:14px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.steps{display:flex;gap:2px}.steps button{min-width:34px;min-height:32px;border:1px solid var(--line);background:#fff;color:var(--c);font:12px system-ui,sans-serif;border-radius:3px;cursor:pointer}
+.scrub{flex-wrap:wrap}.approx{font:italic 13px system-ui,sans-serif;color:var(--c);border:1px dashed var(--c);border-radius:3px;padding:0 6px}

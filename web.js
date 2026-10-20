@@ -7,8 +7,8 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 const all=P.eras.concat(P.ctx);const a=P.a,b=P.mode==='era'?P.b:Math.max(P.b,...P.eras.map(e=>Math.min(e.b,P.b+50)));
 const W=Math.max(340,Math.min(940,root.clientWidth||900));const X=y=>{const t=(y-a)/(b-a)*(W-20)+10;return AR?W-t:t};
 function scrubber(onv){const d=document.createElement('div');d.className='scrub';const lo=Math.max(a,P.a),hi=Math.min(b,P.b);
- d.innerHTML=`<label for="yr">${P.t.year}</label><input id="yr" type="range" min="${lo}" max="${hi}" value="${Math.round((lo+hi)/2)}" step="1"><output aria-live="polite"></output>`;
- root.prepend(d);const i=d.querySelector('input'),o=d.querySelector('output');const up=()=>{o.textContent=fy(+i.value);onv(+i.value)};i.addEventListener('input',up);
+ d.innerHTML=`<label for="yr">${P.t.year}</label><input id="yr" type="range" min="${lo}" max="${hi}" value="${Math.round((lo+hi)/2)}" step="1"><output aria-live="polite"></output><span class="steps">${[-100,-10,-1,1,10,100].map(v=>`<button type="button" data-s="${v}" aria-label="${v>0?'+':''}${v}">${v>0?'+':'−'}${Math.abs(v)}</button>`).join('')}</span>`;
+ root.prepend(d);const i=d.querySelector('input'),o=d.querySelector('output');const up=()=>{o.textContent=fy(+i.value);onv(+i.value)};i.addEventListener('input',up);d.querySelectorAll('button').forEach(bt=>bt.addEventListener('click',()=>{i.value=Math.max(lo,Math.min(hi,+i.value+(+bt.dataset.s)));up();history.replaceState(null,'','#y='+i.value)}));
  const h=new URLSearchParams(location.hash.slice(1)).get('y');if(h!=null&&!isNaN(+h))i.value=+h;
  i.addEventListener('change',()=>history.replaceState(null,'','#y='+i.value));up();return i}
 function link(e){return (AR?'/ar':'')+'/eras/'+e.id+'/'}
@@ -37,17 +37,24 @@ async function map(){const box=document.createElement('div');box.textContent='�
  const Wm=600,Hm=560,pr=d3.geoMercator().center([33,16]).scale(950).translate([Wm/2,Hm/2]),path=d3.geoPath(pr);
  const svg=d3.select(root).append('svg').style('max-width','620px').style('margin','0 auto').attr('viewBox',`0 0 ${Wm} ${Hm}`).attr('role','img').style('background','#dfe9ee');
  svg.append('g').selectAll('path').data(land.features).join('path').attr('d',path).attr('fill',d=>['729','728'].includes(String(d.id))?'#efe0c6':'#f4efe6').attr('stroke','#b9ad99').attr('stroke-width',.6);
+ const xg=svg.append('g');
+ const X2=[];await Promise.all(P.eras.filter(e=>e.ext==='ok').map(async e=>{try{const g=await (await fetch('/extents/'+e.id+'.json')).json();g.features.forEach(f=>{if(!(f.properties&&f.properties.source))return;/* d3 uses spherical winding: GIS/RFC7946 rings may come inverted; rewind if area > hemisphere */const rw=r=>r.slice().reverse();const G=f.geometry;if(G.type==='Polygon'){if(d3.geoArea(f)>2*Math.PI)G.coordinates=G.coordinates.map(rw)}else if(G.type==='MultiPolygon'){G.coordinates=G.coordinates.map(p=>d3.geoArea({type:'Polygon',coordinates:p})>2*Math.PI?p.map(rw):p)}X2.push({e,f})})}catch(_){}}));
  const pts=[];all.forEach(e=>(e.caps||[]).forEach(c=>{if(c.lat!=null)pts.push({e,c,main:P.eras.includes(e)})}));
  const g=svg.append('g');const tip=document.createElement('p');tip.className='tip';tip.setAttribute('aria-live','polite');root.appendChild(tip);
- const draw=y=>{const on=pts.filter(p=>p.e.a<=y&&p.e.b>=y);const s=g.selectAll('g.p').data(on,p=>p.e.id+p.c.name);s.exit().transition().duration(250).style('opacity',0).remove();
+ const drawX=y=>{const on=X2.filter(o=>(o.f.properties.start??o.e.a)<=y&&(o.f.properties.end??o.e.b)>=y);const s=xg.selectAll('g.x').data(on,o=>o.e.id+o.f.properties.citation+(o.f.properties.start??''));s.exit().remove();
+  const n=s.enter().append('g').attr('class','x');n.append('path').attr('d',o=>path(o.f)).attr('fill',P.col).attr('fill-opacity',.16).attr('stroke',P.col).attr('stroke-opacity',.18).attr('stroke-width',10).attr('stroke-linejoin','round');
+  n.append('path').attr('d',o=>path(o.f)).attr('fill','none').attr('stroke',P.col).attr('stroke-width',1.5).attr('stroke-dasharray','6 5').attr('stroke-opacity',.8);
+  n.append('text').attr('transform',o=>{const bb=path.bounds(o.f);return `translate(${(bb[0][0]+bb[1][0])/2},${bb[0][1]-8})`}).attr('text-anchor','middle').attr('font-size',12).attr('font-style','italic').attr('fill',P.col).attr('paint-order','stroke').attr('stroke','#fff').attr('stroke-width',3).text(o=>(AR?(o.f.properties.label_ar||''):(o.f.properties.label_en||''))+(AR?' (تقريبي)':' (approximate)'));
+  return on};
+ const draw=y=>{const xo=drawX(y);const on=pts.filter(p=>p.e.a<=y&&p.e.b>=y);const s=g.selectAll('g.p').data(on,p=>p.e.id+p.c.name);s.exit().transition().duration(250).style('opacity',0).remove();
   const n=s.enter().append('g').attr('class','p').style('opacity',0);n.append('circle').attr('r',d=>d.main?7:4).attr('fill',d=>d.main?P.col:'#8a8a8a').attr('stroke','#fff');
   n.append('text').attr('dx',AR?-10:10).attr('dy',4).attr('text-anchor',AR?'end':'start').attr('font-size',d=>d.main?15:11).attr('paint-order','stroke').attr('stroke','#fff').attr('stroke-width',3).text(d=>d.c.name);
   n.merge(s).attr('transform',d=>`translate(${pr([d.c.lon,d.c.lat])})`).transition().duration(250).style('opacity',1);
-  const es=[...new Set(on.map(p=>p.e))];tip.innerHTML=es.map(e=>`<a href="${link(e)}" style="color:${P.eras.includes(e)?P.col:'#6b6257'}">${esc(e.n)}</a>`).join(' · ')||'—'};
+  const es=[...new Set(on.map(p=>p.e))];tip.innerHTML=(es.map(e=>`<a href="${link(e)}" style="color:${P.eras.includes(e)?P.col:'#6b6257'}">${esc(e.n)}</a>`+(P.eras.includes(e)&&e.ext!=='ok'?` <span class="gap">${AR?'لا توجد بيانات للامتداد':'no extent data'}</span>`:'')).join(' · ')||'—')+(xo.length?'<br><small>≈ '+(AR?'المنطقة تقريبية — المصادر: ':'Areas are approximate — sources: ')+[...new Set(xo.map(o=>o.f.properties.citation))].map(esc).join('; ')+'</small>':'')};
  const s=scrubber(draw)}
 function neighbors(){const tip=document.createElement('div');root.appendChild(tip);scrubber(y=>{const on=all.filter(e=>e.a<=y&&e.b>=y);const by={};on.forEach(e=>(by[e.sl]=by[e.sl]||[]).push(e));
  tip.innerHTML='<ul class="eras">'+Object.keys(by).map(k=>`<li><a href="${link(by[k][0])}" style="${P.eras.includes(by[k][0])?'':'border-color:#b9ad99'}"><small>${esc(k)}</small>${by[k].map(e=>'<b>'+esc(e.n)+'</b>').join('<br>')}</a></li>`).join('')+'</ul>'})}
 function sources(){const ls=[...new Set(P.eras.flatMap(e=>e.langs))];const tbl=document.createElement('div');tbl.className='tw';
  tbl.innerHTML='<table><thead><tr><th></th><th>#</th>'+ls.map(l=>`<th>${esc(l)}</th>`).join('')+'<th>⇄</th></tr></thead><tbody>'+P.eras.map(e=>`<tr><td><a href="${link(e)}">${esc(e.n)}</a></td><td>${e.nsrc}</td>`+ls.map(l=>`<td>${e.langs.includes(l)?'<span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:'+P.col+'" aria-label="'+l+'"></span>':''}</td>`).join('')+`<td>${e.comp.map(c=>`<span class="st st-${esc(c.status)}">${esc(c.lang)}</span>`).join(' ')||'<span class="gap">—</span>'}</td></tr>`).join('')+'</tbody></table>';root.appendChild(tbl)}
-const M=P.mode;try{if(M==='duration')duration();else if(M==='map')map();else if(M==='lanes')lanes(P.eras,true);else if(M==='neighbors')neighbors();else if(M==='sources')sources();else if(M==='era')(P.eras[0].caps.length?map():null)}catch(err){root.textContent=''}
+const M=P.mode;try{if(M==='duration')duration();else if(M==='map')map();else if(M==='lanes')lanes(P.eras,true);else if(M==='neighbors')neighbors();else if(M==='sources')sources();else if(M==='era')((P.eras[0].caps.length||P.eras[0].ext==='ok')?map():null)}catch(err){root.textContent=''}
 })();
