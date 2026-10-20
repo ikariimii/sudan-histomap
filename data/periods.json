@@ -66,6 +66,17 @@
     "lang": "en",
     "via": "db/era_fill_modern.json"
    },
+   "AJA_WARDI2019": {
+    "author": "صفاء علي، الجزيرة نت (Al Jazeera Arabic)",
+    "title": "محمد وردي صوت السودان الثائر.. غنى للثورة حتى بعد مماته",
+    "date": "2019-08-21",
+    "url": "https://www.aljazeera.net/arts/2019/8/21/%D9%85%D8%AD%D9%85%D8%AF-%D9%88%D8%B1%D8%AF%D9%8A-%D8%B5%D9%88%D8%AA-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D8%AB%D8%A7%D8%A6%D8%B1-%D8%BA%D9%86%D9%89",
+    "verification": "fetched 2026-10-20",
+    "note": "Arabic",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
    "AR_AJCS_5637": {
     "id": "AR_AJCS_5637",
     "author": "مركز الجزيرة للدراسات",
@@ -332,6 +343,28 @@
     "pages": "",
     "lang": "en",
     "via": "db/era_fill_modern.json"
+   },
+   "BBC_HEGLIG2012": {
+    "author": "BBC News",
+    "title": "UN demands immediate end to Sudan oilfields fighting",
+    "date": "2012-04-13",
+    "url": "https://www.bbc.com/news/world-africa-17698286",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
+   "BBC_SHUTDOWN2012": {
+    "author": "BBC News",
+    "title": "South Sudan shuts oil output amid export row with Sudan",
+    "date": "2012-01-29",
+    "url": "https://www.bbc.com/news/world-africa-16781592",
+    "verification": "search excerpt only 2026-10-20 – VERIFY (date from article ID/context – VERIFY)",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
    },
    "BRE_AES": {
     "author": "В. В. Орлов (V.V. Orlov)",
@@ -2469,6 +2502,17 @@
     "pages": "",
     "lang": "en"
    },
+   "IMF_CR14345": {
+    "author": "IMF",
+    "title": "Republic of South Sudan: 2014 Article IV Consultation – Staff Report (Country Report 14/345), para 3 and fn 1",
+    "date": "2014-12-02",
+    "url": "https://www.imf.org/external/pubs/ft/scr/2014/cr14345.pdf",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
    "IMF_CR21082": {
     "author": "IMF",
     "title": "Country Report 21/82: First Review under the Staff-Monitored Program (incl. PR 21/63)",
@@ -2562,6 +2606,160 @@
     "pages": "",
     "lang": "en"
    },
+   "LAT1985": {
+    "author": "Los Angeles Times (wire report)",
+    "title": "Food Price Rioting Flares for 3rd Day in Khartoum; 5 Dead",
+    "date": "1985-03-29",
+    "url": "https://www.latimes.com/archives/la-xpm-1985-03-29-mn-20416-story.html",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
+   "LOC1991_ABBUD": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.; history T. Ofcansky, economy R.O. Collins)",
+    "title": "Sudan: A Country Study (research completed June 1991) – 'The Abbud Military Government, 1958-64'",
+    "date": "1991-06 (publ. 1992)",
+    "url": "https://countrystudies.us/sudan/21.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text; catalogue http://hdl.loc.gov/loc.gdc/cntrystd.sd)",
+    "note": "Older, US-government source; figures as of 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
+   "LOC1991_CIVIL6469": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.; history T. Ofcansky, economy R.O. Collins)",
+    "title": "Sudan: A Country Study (research completed June 1991) – 'Return to Civilian Rule, 1964-69'",
+    "date": "1991-06 (publ. 1992)",
+    "url": "https://countrystudies.us/sudan/22.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text; catalogue http://hdl.loc.gov/loc.gdc/cntrystd.sd)",
+    "note": "Older, US-government source; figures as of 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
+   "LOC1991_ECON": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.; history T. Ofcansky, economy R.O. Collins)",
+    "title": "Sudan: A Country Study (research completed June 1991) – 'The Economy'",
+    "date": "1991-06 (publ. 1992)",
+    "url": "https://countrystudies.us/sudan/53.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text; catalogue http://hdl.loc.gov/loc.gdc/cntrystd.sd)",
+    "note": "Older, US-government source; figures as of 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
+   "LOC1991_ECONDEV": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.; history T. Ofcansky, economy R.O. Collins)",
+    "title": "Sudan: A Country Study (research completed June 1991) – 'Economic Development'",
+    "date": "1991-06 (publ. 1992)",
+    "url": "https://countrystudies.us/sudan/54.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text; catalogue http://hdl.loc.gov/loc.gdc/cntrystd.sd)",
+    "note": "Older, US-government source; figures as of 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
+   "LOC1991_ENERGY": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.; history T. Ofcansky, economy R.O. Collins)",
+    "title": "Sudan: A Country Study (research completed June 1991) – 'Energy'",
+    "date": "1991-06 (publ. 1992)",
+    "url": "https://countrystudies.us/sudan/61.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text; catalogue http://hdl.loc.gov/loc.gdc/cntrystd.sd)",
+    "note": "Older, US-government source; figures as of 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
+   "LOC1991_FINANCE": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.; history T. Ofcansky, economy R.O. Collins)",
+    "title": "Sudan: A Country Study (research completed June 1991) – 'Finance'",
+    "date": "1991-06 (publ. 1992)",
+    "url": "https://countrystudies.us/sudan/62.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text; catalogue http://hdl.loc.gov/loc.gdc/cntrystd.sd)",
+    "note": "Older, US-government source; figures as of 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
+   "LOC1991_GOV": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.; history T. Ofcansky, economy R.O. Collins)",
+    "title": "Sudan: A Country Study (research completed June 1991) – 'Government'",
+    "date": "1991-06 (publ. 1992)",
+    "url": "https://countrystudies.us/sudan/63.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text; catalogue http://hdl.loc.gov/loc.gdc/cntrystd.sd)",
+    "note": "Older, US-government source; figures as of 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
+   "LOC1991_MEDIA": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.; history T. Ofcansky, economy R.O. Collins)",
+    "title": "Sudan: A Country Study (research completed June 1991) – 'Media'",
+    "date": "1991-06 (publ. 1992)",
+    "url": "https://countrystudies.us/sudan/74.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text; catalogue http://hdl.loc.gov/loc.gdc/cntrystd.sd)",
+    "note": "Older, US-government source; figures as of 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
+   "LOC1991_NIMEIRI": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.; history T. Ofcansky, economy R.O. Collins)",
+    "title": "Sudan: A Country Study (research completed June 1991) – 'The Nimeiri Era, 1969-85'",
+    "date": "1991-06 (publ. 1992)",
+    "url": "https://countrystudies.us/sudan/23.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text; catalogue http://hdl.loc.gov/loc.gdc/cntrystd.sd)",
+    "note": "Older, US-government source; figures as of 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
+   "LOC1991_SADIQ": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.; history T. Ofcansky, economy R.O. Collins)",
+    "title": "Sudan: A Country Study (research completed June 1991) – 'Sadiq al Mahdi'",
+    "date": "1991-06 (publ. 1992)",
+    "url": "https://countrystudies.us/sudan/28.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text; catalogue http://hdl.loc.gov/loc.gdc/cntrystd.sd)",
+    "note": "Older, US-government source; figures as of 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
+   "LOC1991_TMC": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.; history T. Ofcansky, economy R.O. Collins)",
+    "title": "Sudan: A Country Study (research completed June 1991) – 'The Transitional Military Council'",
+    "date": "1991-06 (publ. 1992)",
+    "url": "https://countrystudies.us/sudan/27.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text; catalogue http://hdl.loc.gov/loc.gdc/cntrystd.sd)",
+    "note": "Older, US-government source; figures as of 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
+   "LSHTM2018": {
+    "author": "Checchi et al., London School of Hygiene & Tropical Medicine",
+    "title": "Estimates of crisis-attributable mortality in South Sudan, December 2013–April 2018",
+    "date": "2018-09",
+    "url": "https://reliefweb.int/sites/reliefweb.int/files/resources/LSHTM_mortality_South_Sudan_report.pdf",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "statistical estimate; excludes refugees abroad",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
+   "MERIP1985": {
+    "author": "MERIP (Middle East Report)",
+    "title": "The Generals Step In",
+    "date": "1985-09",
+    "url": "https://www.merip.org/1985/09/the-generals-step-in/",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
    "NAGA_PROJ": {
     "author": "Staatliches Museum Ägyptischer Kunst München",
     "title": "Das Grabungsprojekt | Naga",
@@ -2601,6 +2799,17 @@
     "url": "https://doi.org/10.1017/s0041977x00109383",
     "pages": "",
     "lang": "en"
+   },
+   "OHCHR_JUBA2017": {
+    "author": "OHCHR / UNMISS",
+    "title": "Report on violations and abuses ... in the context of the fighting in Juba, South Sudan, in July 2016",
+    "date": "2017-01-16",
+    "url": "https://www.ohchr.org/sites/default/files/Documents/Countries/SS/ReportJuba16Jan2017.pdf",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
    },
    "OHM_2690845": {
     "author": "OpenHistoricalMap contributors (last edit: CharliePlett, changeset 272117, 2026-09-21)",
@@ -2747,6 +2956,17 @@
     "pages": "",
     "lang": "en"
    },
+   "REUTERS_PIPE2024": {
+    "author": "Reuters",
+    "title": "Sudan war causes stoppages on South Sudan oil pipeline, officials say",
+    "date": "2024-03-25",
+    "url": "https://www.reuters.com/business/energy/sudan-war-causes-stoppages-south-sudan-oil-pipeline-officials-say-2024-03-25/",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
    "RILLY_SN22": {
     "author": "Claude Rilly",
     "title": "The QSAP Programme on the Temple of Queen Tiye in Sedeinga",
@@ -2875,6 +3095,28 @@
     "lang": "ru",
     "note": "From db/lens_ru.json (Analyst). Original title: История Судана. Kind: encyclopedia (crowd). fetched 2026-10-20 (curl/WebFetch, text read)"
    },
+   "SAS_OIL2024": {
+    "author": "Small Arms Survey (HSBA)",
+    "title": "Sudan's Oil Sector During the 2023–24 War (Situation Update)",
+    "date": "2024",
+    "url": "https://www.smallarmssurvey.org/sites/default/files/resources/SAS-HSBA-Situation-Update-2024-Sudan-Oil-EN.pdf",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
+   "SERIHERSCH2020": {
+    "author": "Iris Seri-Hersch",
+    "title": "Arabization and Islamization in the Making of the Sudanese 'Postcolonial' State (1946-1964), Cahiers d'études africaines 240, pp.779–804",
+    "date": "2020",
+    "url": "https://doi.org/10.4000/etudesafricaines.32202",
+    "verification": "search excerpt only 2026-10-20 – VERIFY (Cairn page returned empty)",
+    "note": "Distinct from registry FR_SERIHERSCH2009",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
    "SFDAS_HCS2017": {
     "author": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso",
     "title": "Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
@@ -2895,6 +3137,17 @@
     "pages": "",
     "lang": "en"
    },
+   "ST_HEGLIG2012": {
+    "author": "Sudan Tribune",
+    "title": "South Sudan shuts down oil production in the disputed border area of Heglig",
+    "date": "2012-04-12",
+    "url": "https://sudantribune.com/article/41621",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
    "TAKANA2016": {
     "author": "Yousif Suliman Saeed Takana (trans. Awad Al Awad)",
     "title": "Darfur – Struggle of Power and Resources, 1650–2002: An Institutional Perspective",
@@ -2906,6 +3159,17 @@
     "lang": "en",
     "note": "Open PDF read 2026-10-20; reports al-Tunisi (c.1803–11), a primary account at second hand"
    },
+   "TCRSS2011": {
+    "author": "Republic of South Sudan",
+    "title": "Transitional Constitution of the Republic of South Sudan, 2011 – Arts 1(4), 6, 8",
+    "date": "2011-07-09",
+    "url": "https://www.constituteproject.org/constitution/South_Sudan_2011.pdf?lang=en",
+    "verification": "search excerpt only 2026-10-20 – VERIFY (article text seen in excerpts of the MoJ PDF https://mojca.gov.ss/wp-content/uploads/2023/03/Transitional-Constitution-of-the-Republic-of-South-Sudan-2011.pdf and Constitute)",
+    "note": "primary legal text",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
    "UNESCO_HEF2025": {
     "author": "UNESCO Heritage Emergency Fund",
     "title": "Urgent Safeguarding Response for the Damaged Collections at the Sudan National Museum",
@@ -2916,6 +3180,17 @@
     "pages": "",
     "lang": "en",
     "via": "db/era_fill_modern.json"
+   },
+   "UNESCO_MGIEP_SSD": {
+    "author": "UNESCO MGIEP",
+    "title": "Education Systems in Post-conflict contexts: Case Study of South Sudan",
+    "date": "n.d.",
+    "url": "https://mgiep.unesco.org/article/education-systems-in-post-conflict-contexts-case-study-of-south-sudan",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
    },
    "UNESCO_PR2024": {
     "author": "UNESCO",
@@ -2986,6 +3261,17 @@
     "lang": "en",
     "via": "db/era_fill_modern.json"
    },
+   "WB_SDN1985": {
+    "author": "World Bank",
+    "title": "Prospects for Rehabilitation of the Sudanese Economy (report, 1985)",
+    "date": "1985",
+    "url": "https://documents1.worldbank.org/curated/en/553901468312898056/pdf/multi0page.pdf",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "exact report date VERIFY",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
    "WB_SEU2025": {
     "author": "World Bank",
     "title": "Sudan Economic Update: The Economic and Social Consequences of the Conflict – Charting a Path to Recovery (Executive Summary, para 4, para 15, Table 1)",
@@ -2996,6 +3282,28 @@
     "pages": "",
     "lang": "en",
     "via": "db/era_fill_modern.json"
+   },
+   "WB_SSD_OVERVIEW2026": {
+    "author": "World Bank",
+    "title": "South Sudan – Overview (country page)",
+    "date": "2026 (accessed 2026-10-20; cites FY25/FY26 data, portfolio as of Mar 2026)",
+    "url": "https://www.worldbank.org/en/country/southsudan/overview",
+    "verification": "fetched 2026-10-20",
+    "note": "page undated; figures as stated on 2026-10-20",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
+   },
+   "WB_SSEB2012": {
+    "author": "World Bank",
+    "title": "South Sudan Economic Brief, Issue No.1",
+    "date": "2012-04",
+    "url": "https://documents1.worldbank.org/curated/en/833711468169442089/pdf/774280BRI0SS0e00Box377296B00PUBLIC0.pdf",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
    },
    "WD:Q109284524": {
     "author": "Wikidata",
@@ -3872,6 +4180,17 @@
     "note": "Secondary/starting-point link",
     "pages": "",
     "lang": "en"
+   },
+   "WPR_JONGLEI": {
+    "author": "World Press Review",
+    "title": "Background: Sudan's Jonglei Canal Project",
+    "date": "n.d. (c.2000s)",
+    "url": "https://www.worldpress.org/jonglei.htm",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "journalistic background piece",
+    "pages": "",
+    "lang": "en",
+    "via": "db/era_fill_modern2.json"
    },
    "WP_BIRTAWIL": {
     "author": "Wikipedia contributors",
