@@ -1,0 +1,690 @@
+{
+ "meta": {
+  "generated_by": "research_patch.write_eras_index",
+  "years": "negative=BCE; 2026=present",
+  "id_rule": "ASCII slug of periods.json name; stable unless the English name changes",
+  "count": 68
+ },
+ "eras": [
+  {
+   "id": "khartoum-mesolithic-early-khartoum",
+   "name_en": "Khartoum Mesolithic (Early Khartoum)",
+   "name_ar": "الخرطوم الباكرة (العصر الحجري الوسيط)",
+   "stream": "Sudan – Middle Nile",
+   "start": -8500,
+   "end": -5000,
+   "dating_note": "Corrected -8000/-4900 -> c.8500–5000 cal BC for Early Khartoum ceramics of central Sudan (Garcea/Jesse et al., African Archaeological Review 2021 review). Northern 'Khartoum Variant' is c.8000–4900 cal BC. Site point = city-level approximation.",
+   "file": "data/eras/khartoum-mesolithic-early-khartoum.json"
+  },
+  {
+   "id": "khartoum-neolithic-shaheinab",
+   "name_en": "Khartoum Neolithic (Shaheinab)",
+   "name_ar": "العصر الحجري الحديث (الشهيناب)",
+   "stream": "Sudan – Middle Nile",
+   "start": -4900,
+   "end": -3800,
+   "dating_note": "Approximate; site coordinates from Wikidata (Esh-Shaheinab corrected from 16.13N). Kadero added as second Khartoum Neolithic site (coordinates approximate, Wikidata).",
+   "file": "data/eras/khartoum-neolithic-shaheinab.json"
+  },
+  {
+   "id": "a-group-lower-nubia",
+   "name_en": "A-Group (Lower Nubia)",
+   "name_ar": "المجموعة أ (النوبة السفلى)",
+   "stream": "Sudan – Middle Nile",
+   "start": -3800,
+   "end": -2900,
+   "dating_note": "UNESCO GHA II ch.9 (Sherif) places the A-Group's flowering c.3100 BCE, contemporary with Egypt's 1st Dynasty; -3800 start is a broad conventional bracket. Qustul coordinates corrected (Wikidata).",
+   "file": "data/eras/a-group-lower-nubia.json"
+  },
+  {
+   "id": "c-group-lower-nubia",
+   "name_en": "C-Group (Lower Nubia)",
+   "name_ar": "المجموعة ج (النوبة السفلى)",
+   "stream": "Sudan – Middle Nile",
+   "start": -2400,
+   "end": -1550,
+   "dating_note": "GHA II ch.9: C-Group appears late Old Kingdom/First Intermediate Period and lasts until Egyptianisation of Nubia in the 16th c. BCE; -2400 start sits at the early edge. Aniba verified: Pleiades 795777 (BAtlas 81 C3).",
+   "file": "data/eras/c-group-lower-nubia.json"
+  },
+  {
+   "id": "kingdom-of-kerma",
+   "name_en": "Kingdom of Kerma",
+   "name_ar": "مملكة كرمة",
+   "stream": "Sudan – Middle Nile",
+   "start": -2450,
+   "end": -1480,
+   "dating_note": "Corrected to Swiss Archaeological Mission chronology (kerma.ch). Note GHA II (1981) still dates 'Kerma' to -1730/-1580, i.e. only the Classic phase; superseded by Bonnet/Honegger excavations.",
+   "file": "data/eras/kingdom-of-kerma.json"
+  },
+  {
+   "id": "egyptian-new-kingdom-rule-in-nubia",
+   "name_en": "Egyptian New Kingdom rule in Nubia",
+   "name_ar": "حكم الدولة المصرية الحديثة في النوبة",
+   "stream": "Sudan – Middle Nile",
+   "start": -1500,
+   "end": -1070,
+   "dating_note": "WHC: Gebel Barkal sacred to Amun since c.1500 BCE. Soleb/Kurgus coordinates from Wikidata (approximate).",
+   "file": "data/eras/egyptian-new-kingdom-rule-in-nubia.json"
+  },
+  {
+   "id": "kingdom-of-kush-napatan-period",
+   "name_en": "Kingdom of Kush – Napatan period",
+   "name_ar": "مملكة كوش – العهد النبتي",
+   "stream": "Sudan – Middle Nile",
+   "start": -800,
+   "end": -270,
+   "dating_note": "Reign dates follow UNESCO GHA II ch.10 (Leclant, 1981); later scholarship revises several (incl. the Shabaka/Shebitku order) – treat as approximate. WHC gives Napatan 900–270 BCE; -800 start kept as display convention. Coordinates: Pleiades/Wikidata.",
+   "file": "data/eras/kingdom-of-kush-napatan-period.json"
+  },
+  {
+   "id": "kingdom-of-kush-meroitic-period",
+   "name_en": "Kingdom of Kush – Meroitic period",
+   "name_ar": "مملكة كوش – العهد المروي",
+   "stream": "Sudan – Middle Nile",
+   "start": -270,
+   "end": 350,
+   "dating_note": "Meroitic chronology uncertain (GHA II: 'particularly serious' for 2nd–1st c. BCE). Which kandake negotiated with Rome (Amanirenas vs Amanishakheto) is unresolved in GHA. End placed in the 4th century CE (350 is a placeholder year); cause debated: GHA II ascribes the overthrow to the Noba and concludes the kingdom 'had already collapsed at the time of Ezana's campaign'.",
+   "file": "data/eras/kingdom-of-kush-meroitic-period.json"
+  },
+  {
+   "id": "noba-x-group-ballana-culture",
+   "name_en": "Noba / X-Group (Ballana culture)",
+   "name_ar": "ثقافة بلانة (المجموعة إكس)",
+   "stream": "Sudan – Middle Nile",
+   "start": 350,
+   "end": 550,
+   "dating_note": "Approximate. Ballana coordinates verified: Pleiades 795783 (Barrington Atlas 81 B3). Site now under Lake Nasser.",
+   "file": "data/eras/noba-x-group-ballana-culture.json"
+  },
+  {
+   "id": "nobadia",
+   "name_en": "Nobadia",
+   "name_ar": "نوباتيا",
+   "stream": "Sudan – Middle Nile",
+   "start": 400,
+   "end": 700,
+   "dating_note": "Christianisation c.543 and merger with Makuria (7th c.) per standard accounts; specific dates not re-verified in a primary source in this pass.",
+   "file": "data/eras/nobadia.json"
+  },
+  {
+   "id": "makuria",
+   "name_en": "Makuria",
+   "name_ar": "المقرة",
+   "stream": "Sudan – Middle Nile",
+   "start": 500,
+   "end": 1500,
+   "dating_note": "End date approximate (kingdom fragmented in 14th–15th c.).",
+   "file": "data/eras/makuria.json"
+  },
+  {
+   "id": "alodia-alwa",
+   "name_en": "Alodia (Alwa)",
+   "name_ar": "علوة",
+   "stream": "Sudan – Middle Nile",
+   "start": 500,
+   "end": 1504,
+   "dating_note": "Fall c.1504 traditional (Funj/'Abdallab). Soba point confirmed by Wikidata Q1247214 (15.524N 32.681E), consistent with the original; there is no Pleiades entry; no excavation-report coordinate checked.",
+   "file": "data/eras/alodia-alwa.json"
+  },
+  {
+   "id": "funj-sultanate-of-sennar",
+   "name_en": "Funj Sultanate of Sennar",
+   "name_ar": "سلطنة الفونج (سنار)",
+   "stream": "Sudan – Middle Nile",
+   "start": 1504,
+   "end": 1821,
+   "dating_note": "1504–1821 per Holt & Daly. Foundation by a Shilluk band is a tradition, not established fact.",
+   "file": "data/eras/funj-sultanate-of-sennar.json"
+  },
+  {
+   "id": "turkiyya-ottoman-egyptian-rule",
+   "name_en": "Turkiyya (Ottoman-Egyptian rule)",
+   "name_ar": "التركية (الحكم التركي المصري)",
+   "stream": "Sudan – Middle Nile",
+   "start": 1821,
+   "end": 1885,
+   "dating_note": "",
+   "file": "data/eras/turkiyya-ottoman-egyptian-rule.json"
+  },
+  {
+   "id": "mahdist-state-mahdiyya",
+   "name_en": "Mahdist State (Mahdiyya)",
+   "name_ar": "الدولة المهدية",
+   "stream": "Sudan – Middle Nile",
+   "start": 1885,
+   "end": 1899,
+   "dating_note": "",
+   "file": "data/eras/mahdist-state-mahdiyya.json"
+  },
+  {
+   "id": "anglo-egyptian-sudan-condominium",
+   "name_en": "Anglo-Egyptian Sudan (Condominium)",
+   "name_ar": "الحكم الثنائي الإنجليزي المصري",
+   "stream": "Sudan – Middle Nile",
+   "start": 1899,
+   "end": 1956,
+   "dating_note": "",
+   "file": "data/eras/anglo-egyptian-sudan-condominium.json"
+  },
+  {
+   "id": "independent-sudan-first-parliamentary-period",
+   "name_en": "Independent Sudan – First parliamentary period",
+   "name_ar": "الاستقلال – الحكم البرلماني الأول",
+   "stream": "Sudan – Republic",
+   "start": 1956,
+   "end": 1958,
+   "dating_note": "",
+   "file": "data/eras/independent-sudan-first-parliamentary-period.json"
+  },
+  {
+   "id": "abboud-military-regime",
+   "name_en": "Abboud military regime",
+   "name_ar": "حكم عبود العسكري",
+   "stream": "Sudan – Republic",
+   "start": 1958,
+   "end": 1964,
+   "dating_note": "",
+   "file": "data/eras/abboud-military-regime.json"
+  },
+  {
+   "id": "second-parliamentary-period",
+   "name_en": "Second parliamentary period",
+   "name_ar": "الحكم البرلماني الثاني",
+   "stream": "Sudan – Republic",
+   "start": 1964,
+   "end": 1969,
+   "dating_note": "",
+   "file": "data/eras/second-parliamentary-period.json"
+  },
+  {
+   "id": "nimeiry-era-democratic-republic-of-sudan",
+   "name_en": "Nimeiry era (Democratic Republic of Sudan)",
+   "name_ar": "عهد نميري",
+   "stream": "Sudan – Republic",
+   "start": 1969,
+   "end": 1985,
+   "dating_note": "",
+   "file": "data/eras/nimeiry-era-democratic-republic-of-sudan.json"
+  },
+  {
+   "id": "transitional-third-parliamentary-period",
+   "name_en": "Transitional & third parliamentary period",
+   "name_ar": "الانتقال والحكم البرلماني الثالث",
+   "stream": "Sudan – Republic",
+   "start": 1985,
+   "end": 1989,
+   "dating_note": "",
+   "file": "data/eras/transitional-third-parliamentary-period.json"
+  },
+  {
+   "id": "al-bashir-ncp-ingaz-regime",
+   "name_en": "Al-Bashir / NCP (Ingaz) regime",
+   "name_ar": "نظام الإنقاذ (البشير)",
+   "stream": "Sudan – Republic",
+   "start": 1989,
+   "end": 2019,
+   "dating_note": "Holt & Daly 6th ed. (2011) covers to c.2010; 2011+ events still Wikipedia-sourced.",
+   "file": "data/eras/al-bashir-ncp-ingaz-regime.json"
+  },
+  {
+   "id": "december-revolution-transition",
+   "name_en": "December Revolution & transition",
+   "name_ar": "ثورة ديسمبر والفترة الانتقالية",
+   "stream": "Sudan – Republic",
+   "start": 2019,
+   "end": 2023,
+   "dating_note": "",
+   "file": "data/eras/december-revolution-transition.json"
+  },
+  {
+   "id": "war-in-sudan-saf-vs-rsf",
+   "name_en": "War in Sudan (SAF vs RSF)",
+   "name_ar": "حرب السودان (الجيش والدعم السريع)",
+   "stream": "Sudan – Republic",
+   "start": 2023,
+   "end": 2026,
+   "dating_note": "Ongoing; end=present. 'Government relocates to Port Sudan' not yet tied to a non-Wikipedia source (UN sources confirm the UN hub moved there).",
+   "file": "data/eras/war-in-sudan-saf-vs-rsf.json"
+  },
+  {
+   "id": "daju-kingdom",
+   "name_en": "Daju kingdom",
+   "name_ar": "مملكة الداجو",
+   "stream": "Sudan – Darfur & Kordofan",
+   "start": 1100,
+   "end": 1400,
+   "dating_note": "Very approximate; known mainly from oral tradition (O'Fahey 2008, 'Daju and Tunjur'). Jebel Marra point is a regional marker.",
+   "file": "data/eras/daju-kingdom.json"
+  },
+  {
+   "id": "tunjur-kingdom",
+   "name_en": "Tunjur kingdom",
+   "name_ar": "مملكة التنجر",
+   "stream": "Sudan – Darfur & Kordofan",
+   "start": 1400,
+   "end": 1650,
+   "dating_note": "Approximate. Ain Farah corrected 15.0N 24.9E -> 14.2657N 24.3161E (2nd Wikidata statement; matches de/ar Wikipedia). Wikidata's other value 16.76N 29.19E (repeated on rainerebert.com) lies outside Darfur and is rejected. MEDIUM confidence: the descriptive '15 km NW of Kutum' does not fit (point is c.35 km W of Kutum); no excavation-report coordinate found.",
+   "file": "data/eras/tunjur-kingdom.json"
+  },
+  {
+   "id": "sultanate-of-darfur-keira",
+   "name_en": "Sultanate of Darfur (Keira)",
+   "name_ar": "سلطنة دارفور (الكيرا)",
+   "stream": "Sudan – Darfur & Kordofan",
+   "start": 1650,
+   "end": 1874,
+   "dating_note": "Start corrected 1603→c.1650 (O'Fahey 2008). Older chronologies place Sulayman earlier; founding date genuinely uncertain. El Fasher date c.1790–91.",
+   "file": "data/eras/sultanate-of-darfur-keira.json"
+  },
+  {
+   "id": "restored-darfur-sultanate-ali-dinar",
+   "name_en": "Restored Darfur Sultanate (Ali Dinar)",
+   "name_ar": "سلطنة دارفور المستعادة (علي دينار)",
+   "stream": "Sudan – Darfur & Kordofan",
+   "start": 1898,
+   "end": 1916,
+   "dating_note": "",
+   "file": "data/eras/restored-darfur-sultanate-ali-dinar.json"
+  },
+  {
+   "id": "kingdom-of-taqali",
+   "name_en": "Kingdom of Taqali",
+   "name_ar": "مملكة تقلي",
+   "stream": "Sudan – Darfur & Kordofan",
+   "start": 1750,
+   "end": 1969,
+   "dating_note": "Founding c.1750 and end 1969 NOT verified. Holt & Daly: semi-autonomous after 1821 and integrated into Condominium local government; royal line claims Ja'ali holy-man ancestry.",
+   "file": "data/eras/kingdom-of-taqali.json"
+  },
+  {
+   "id": "shilluk-kingdom",
+   "name_en": "Shilluk Kingdom",
+   "name_ar": "مملكة الشلك",
+   "stream": "South Sudan – Upper Nile",
+   "start": 1490,
+   "end": 1861,
+   "dating_note": "Founding c.1490 traditional (Nyikang); 1861 end-point not re-verified.",
+   "file": "data/eras/shilluk-kingdom.json"
+  },
+  {
+   "id": "southern-sudan-under-condominium-sudan",
+   "name_en": "Southern Sudan under Condominium / Sudan",
+   "name_ar": "جنوب السودان (الحكم الثنائي/السودان)",
+   "stream": "South Sudan – Upper Nile",
+   "start": 1899,
+   "end": 2011,
+   "dating_note": "",
+   "file": "data/eras/southern-sudan-under-condominium-sudan.json"
+  },
+  {
+   "id": "republic-of-south-sudan",
+   "name_en": "Republic of South Sudan",
+   "name_ar": "جمهورية جنوب السودان",
+   "stream": "South Sudan – Upper Nile",
+   "start": 2011,
+   "end": 2026,
+   "dating_note": "",
+   "file": "data/eras/republic-of-south-sudan.json"
+  },
+  {
+   "id": "early-dynastic-old-kingdom-egypt",
+   "name_en": "Early Dynastic & Old Kingdom Egypt",
+   "name_ar": "مصر: الأسرات المبكرة والدولة القديمة",
+   "stream": "Egypt",
+   "start": -3100,
+   "end": -2181,
+   "dating_note": "",
+   "file": "data/eras/early-dynastic-old-kingdom-egypt.json"
+  },
+  {
+   "id": "middle-kingdom-egypt",
+   "name_en": "Middle Kingdom Egypt",
+   "name_ar": "مصر: الدولة الوسطى",
+   "stream": "Egypt",
+   "start": -2055,
+   "end": -1650,
+   "dating_note": "",
+   "file": "data/eras/middle-kingdom-egypt.json"
+  },
+  {
+   "id": "new-kingdom-egypt",
+   "name_en": "New Kingdom Egypt",
+   "name_ar": "مصر: الدولة الحديثة",
+   "stream": "Egypt",
+   "start": -1550,
+   "end": -1070,
+   "dating_note": "",
+   "file": "data/eras/new-kingdom-egypt.json"
+  },
+  {
+   "id": "late-period-persian-egypt",
+   "name_en": "Late Period / Persian Egypt",
+   "name_ar": "مصر: العصر المتأخر والفارسي",
+   "stream": "Egypt",
+   "start": -664,
+   "end": -332,
+   "dating_note": "",
+   "file": "data/eras/late-period-persian-egypt.json"
+  },
+  {
+   "id": "ptolemaic-egypt",
+   "name_en": "Ptolemaic Egypt",
+   "name_ar": "مصر البطلمية",
+   "stream": "Egypt",
+   "start": -305,
+   "end": -30,
+   "dating_note": "",
+   "file": "data/eras/ptolemaic-egypt.json"
+  },
+  {
+   "id": "roman-byzantine-egypt",
+   "name_en": "Roman & Byzantine Egypt",
+   "name_ar": "مصر الرومانية والبيزنطية",
+   "stream": "Egypt",
+   "start": -30,
+   "end": 641,
+   "dating_note": "",
+   "file": "data/eras/roman-byzantine-egypt.json"
+  },
+  {
+   "id": "islamic-egypt-rashidunfatimidayyubid",
+   "name_en": "Islamic Egypt (Rashidun–Fatimid–Ayyubid)",
+   "name_ar": "مصر الإسلامية",
+   "stream": "Egypt",
+   "start": 641,
+   "end": 1250,
+   "dating_note": "",
+   "file": "data/eras/islamic-egypt-rashidunfatimidayyubid.json"
+  },
+  {
+   "id": "mamluk-sultanate",
+   "name_en": "Mamluk Sultanate",
+   "name_ar": "سلطنة المماليك",
+   "stream": "Egypt",
+   "start": 1250,
+   "end": 1517,
+   "dating_note": "",
+   "file": "data/eras/mamluk-sultanate.json"
+  },
+  {
+   "id": "ottoman-egypt-muhammad-ali-dynasty",
+   "name_en": "Ottoman Egypt & Muhammad Ali dynasty",
+   "name_ar": "مصر العثمانية وأسرة محمد علي",
+   "stream": "Egypt",
+   "start": 1517,
+   "end": 1882,
+   "dating_note": "",
+   "file": "data/eras/ottoman-egypt-muhammad-ali-dynasty.json"
+  },
+  {
+   "id": "british-occupied-kingdom-of-egypt",
+   "name_en": "British-occupied / Kingdom of Egypt",
+   "name_ar": "مملكة مصر والاحتلال البريطاني",
+   "stream": "Egypt",
+   "start": 1882,
+   "end": 1953,
+   "dating_note": "",
+   "file": "data/eras/british-occupied-kingdom-of-egypt.json"
+  },
+  {
+   "id": "republic-of-egypt",
+   "name_en": "Republic of Egypt",
+   "name_ar": "جمهورية مصر",
+   "stream": "Egypt",
+   "start": 1953,
+   "end": 2026,
+   "dating_note": "",
+   "file": "data/eras/republic-of-egypt.json"
+  },
+  {
+   "id": "land-of-punt-d-mt",
+   "name_en": "Land of Punt / D'mt",
+   "name_ar": "بلاد بونت / دعمت",
+   "stream": "Ethiopia & Eritrea (Horn)",
+   "start": -980,
+   "end": -400,
+   "dating_note": "Approximate",
+   "file": "data/eras/land-of-punt-d-mt.json"
+  },
+  {
+   "id": "kingdom-of-aksum",
+   "name_en": "Kingdom of Aksum",
+   "name_ar": "مملكة أكسوم",
+   "stream": "Ethiopia & Eritrea (Horn)",
+   "start": 100,
+   "end": 940,
+   "dating_note": "",
+   "file": "data/eras/kingdom-of-aksum.json"
+  },
+  {
+   "id": "zagwe-dynasty",
+   "name_en": "Zagwe dynasty",
+   "name_ar": "أسرة زاغوي",
+   "stream": "Ethiopia & Eritrea (Horn)",
+   "start": 900,
+   "end": 1270,
+   "dating_note": "Start date debated",
+   "file": "data/eras/zagwe-dynasty.json"
+  },
+  {
+   "id": "ethiopian-empire-solomonic",
+   "name_en": "Ethiopian Empire (Solomonic)",
+   "name_ar": "الإمبراطورية الإثيوبية (السليمانية)",
+   "stream": "Ethiopia & Eritrea (Horn)",
+   "start": 1270,
+   "end": 1974,
+   "dating_note": "",
+   "file": "data/eras/ethiopian-empire-solomonic.json"
+  },
+  {
+   "id": "derg-federal-ethiopia",
+   "name_en": "Derg & Federal Ethiopia",
+   "name_ar": "الدرغ وإثيوبيا الفيدرالية",
+   "stream": "Ethiopia & Eritrea (Horn)",
+   "start": 1974,
+   "end": 2026,
+   "dating_note": "",
+   "file": "data/eras/derg-federal-ethiopia.json"
+  },
+  {
+   "id": "eritrea-italian-colony-independent",
+   "name_en": "Eritrea (Italian colony → independent)",
+   "name_ar": "إريتريا",
+   "stream": "Ethiopia & Eritrea (Horn)",
+   "start": 1890,
+   "end": 2026,
+   "dating_note": "",
+   "file": "data/eras/eritrea-italian-colony-independent.json"
+  },
+  {
+   "id": "kanem-empire",
+   "name_en": "Kanem Empire",
+   "name_ar": "إمبراطورية كانم",
+   "stream": "Chad & Central Sahara",
+   "start": 700,
+   "end": 1380,
+   "dating_note": "Approximate",
+   "file": "data/eras/kanem-empire.json"
+  },
+  {
+   "id": "bornu-empire",
+   "name_en": "Bornu Empire",
+   "name_ar": "إمبراطورية برنو",
+   "stream": "Chad & Central Sahara",
+   "start": 1380,
+   "end": 1893,
+   "dating_note": "",
+   "file": "data/eras/bornu-empire.json"
+  },
+  {
+   "id": "wadai-sultanate",
+   "name_en": "Wadai Sultanate",
+   "name_ar": "سلطنة وداي",
+   "stream": "Chad & Central Sahara",
+   "start": 1635,
+   "end": 1912,
+   "dating_note": "",
+   "file": "data/eras/wadai-sultanate.json"
+  },
+  {
+   "id": "french-chad-republic-of-chad",
+   "name_en": "French Chad → Republic of Chad",
+   "name_ar": "تشاد",
+   "stream": "Chad & Central Sahara",
+   "start": 1900,
+   "end": 2026,
+   "dating_note": "",
+   "file": "data/eras/french-chad-republic-of-chad.json"
+  },
+  {
+   "id": "garamantes-fezzan",
+   "name_en": "Garamantes (Fezzan)",
+   "name_ar": "الجرمنت (فزان)",
+   "stream": "Chad & Central Sahara",
+   "start": -500,
+   "end": 700,
+   "dating_note": "",
+   "file": "data/eras/garamantes-fezzan.json"
+  },
+  {
+   "id": "libya-ottoman-italian-independent",
+   "name_en": "Libya (Ottoman, Italian, independent)",
+   "name_ar": "ليبيا",
+   "stream": "Chad & Central Sahara",
+   "start": 1551,
+   "end": 2026,
+   "dating_note": "",
+   "file": "data/eras/libya-ottoman-italian-independent.json"
+  },
+  {
+   "id": "zande-kingdoms",
+   "name_en": "Zande kingdoms",
+   "name_ar": "ممالك الزاندي",
+   "stream": "Central Africa (CAR/Congo border)",
+   "start": 1700,
+   "end": 1905,
+   "dating_note": "Approximate",
+   "file": "data/eras/zande-kingdoms.json"
+  },
+  {
+   "id": "central-african-republic-ubangi-shari",
+   "name_en": "Central African Republic (Ubangi-Shari)",
+   "name_ar": "جمهورية أفريقيا الوسطى",
+   "stream": "Central Africa (CAR/Congo border)",
+   "start": 1903,
+   "end": 2026,
+   "dating_note": "",
+   "file": "data/eras/central-african-republic-ubangi-shari.json"
+  },
+  {
+   "id": "sabaean-south-arabian-kingdoms",
+   "name_en": "Sabaean & South Arabian kingdoms",
+   "name_ar": "سبأ وممالك جنوب الجزيرة",
+   "stream": "Red Sea & Arabia",
+   "start": -1000,
+   "end": 275,
+   "dating_note": "Approximate",
+   "file": "data/eras/sabaean-south-arabian-kingdoms.json"
+  },
+  {
+   "id": "rise-of-islam-caliphates",
+   "name_en": "Rise of Islam & Caliphates",
+   "name_ar": "ظهور الإسلام والخلافة",
+   "stream": "Red Sea & Arabia",
+   "start": 610,
+   "end": 1258,
+   "dating_note": "",
+   "file": "data/eras/rise-of-islam-caliphates.json"
+  },
+  {
+   "id": "suakin-red-sea-port-beja-ottoman",
+   "name_en": "Suakin – Red Sea port (Beja, Ottoman)",
+   "name_ar": "سواكن – ميناء البحر الأحمر",
+   "stream": "Red Sea & Arabia",
+   "start": 1100,
+   "end": 1922,
+   "dating_note": "",
+   "file": "data/eras/suakin-red-sea-port-beja-ottoman.json"
+  },
+  {
+   "id": "ottoman-hejaz-saudi-state",
+   "name_en": "Ottoman Hejaz & Saudi state",
+   "name_ar": "الحجاز العثماني والدولة السعودية",
+   "stream": "Red Sea & Arabia",
+   "start": 1517,
+   "end": 2026,
+   "dating_note": "",
+   "file": "data/eras/ottoman-hejaz-saudi-state.json"
+  },
+  {
+   "id": "beja-red-sea-hills-peoples",
+   "name_en": "Beja (Red Sea Hills peoples)",
+   "name_ar": "البجا (شعوب جبال البحر الأحمر)",
+   "stream": "Red Sea & Arabia",
+   "start": 275,
+   "end": 2026,
+   "dating_note": "Start c.275 CE = earliest dated Blemmyes activity in GHA II ch.7 (Probus 276–282). The Blemmyes=Beja equation is customary, NOT proven (GHA II ch.10); GHA II ch.11 says earlier Meroitic-era Majai/Reheres 'could have been' Beja ancestors, so earlier origins are possible. Ongoing people, not a polity.",
+   "file": "data/eras/beja-red-sea-hills-peoples.json"
+  },
+  {
+   "id": "abdallab-chiefdom-funj-vassal",
+   "name_en": "'Abdallab chiefdom (Funj vassal)",
+   "name_ar": "مشيخة العبدلاب (تابعة للفونج)",
+   "stream": "Sudan – Middle Nile",
+   "start": 1480,
+   "end": 1821,
+   "dating_note": "Start 'late 15th c.' per Holt & Daly; 1480 is approximate. Qarri coordinates from Wikidata (settlement, approximate). End 1821 = Turco-Egyptian conquest.",
+   "file": "data/eras/abdallab-chiefdom-funj-vassal.json"
+  },
+  {
+   "id": "ja-aliyyin-kingdom-sa-dab-funj-vassal",
+   "name_en": "Ja'aliyyin kingdom (Sa'dab, Funj vassal)",
+   "name_ar": "مملكة الجعليين (السعداب، تابعة للفونج)",
+   "stream": "Sudan – Middle Nile",
+   "start": 1500,
+   "end": 1821,
+   "dating_note": "'From the sixteenth century' (Holt & Daly); 1500 approximate.",
+   "file": "data/eras/ja-aliyyin-kingdom-sa-dab-funj-vassal.json"
+  },
+  {
+   "id": "musabba-at-sultanate-kordofan",
+   "name_en": "Musabba'at sultanate (Kordofan)",
+   "name_ar": "سلطنة المسبعات (كردفان)",
+   "stream": "Sudan – Darfur & Kordofan",
+   "start": 1680,
+   "end": 1785,
+   "dating_note": "Bracket from O'Fahey & Spaulding (BSOAS 1972 abstract: 'late seventeenth and eighteenth centuries'); 1734/1772/1782/1785 events taken from a Wikipedia summary citing O'Fahey 2008 pp.49–59 – book pages not directly checked. No capital location verified.",
+   "file": "data/eras/musabba-at-sultanate-kordofan.json"
+  },
+  {
+   "id": "dinka-jieng-communities",
+   "name_en": "Dinka (Jieng) communities",
+   "name_ar": "مجتمعات الدينكا (جيينق)",
+   "stream": "South Sudan – Upper Nile",
+   "start": 1500,
+   "end": 2026,
+   "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. ",
+   "file": "data/eras/dinka-jieng-communities.json"
+  },
+  {
+   "id": "nuer-naath-communities",
+   "name_en": "Nuer (Naath) communities",
+   "name_ar": "مجتمعات النوير (ناث)",
+   "stream": "South Sudan – Upper Nile",
+   "start": 1500,
+   "end": 2026,
+   "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. Nuer 19th-c. expansion still unsourced.",
+   "file": "data/eras/nuer-naath-communities.json"
+  },
+  {
+   "id": "anuak-anywaa-communities",
+   "name_en": "Anuak (Anywaa) communities",
+   "name_ar": "مجتمعات الأنواك (أنيوا)",
+   "stream": "South Sudan – Upper Nile",
+   "start": 1500,
+   "end": 2026,
+   "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. ",
+   "file": "data/eras/anuak-anywaa-communities.json"
+  }
+ ]
+}

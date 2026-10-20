@@ -1,0 +1,67 @@
+{
+ "id": "kingdom-of-kerma",
+ "name_en": "Kingdom of Kerma",
+ "name_ar": "مملكة كرمة",
+ "stream": "Sudan – Middle Nile",
+ "start": -2450,
+ "end": -1480,
+ "dating_note": "Corrected to Swiss Archaeological Mission chronology (kerma.ch). Note GHA II (1981) still dates 'Kerma' to -1730/-1580, i.e. only the Classic phase; superseded by Bonnet/Honegger excavations.",
+ "events": [
+  {
+   "en": "Western Deffufa mud-brick temple",
+   "ar": "معبد الدفوفة الغربية المبني من الطوب اللبن"
+  },
+  {
+   "en": "Largest African state outside Egypt in the 2nd millennium BCE",
+   "ar": "أكبر دولة أفريقية خارج مصر في الألف الثاني قبل الميلاد"
+  },
+  {
+   "en": "Sacked by Thutmose I c.1500 BCE",
+   "ar": "نهبها تحتمس الأول نحو 1500 ق.م"
+  },
+  {
+   "en": "Swiss mission phases: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE (Final Kerma to c.1450)",
+   "ar": "مراحل البعثة السويسرية: كرمة المبكرة نحو 2450–2050، والوسطى نحو 2050–1750، والكلاسيكية نحو 1750–1480 ق.م (وكرمة المتأخرة حتى نحو 1450)"
+  }
+ ],
+ "capitals": [
+  {
+   "name": "Kerma",
+   "lat": 19.6008,
+   "lon": 30.4097
+  }
+ ],
+ "geopolitics_en": "Rival of Egypt; the Middle Kingdom fixed its southern frontier at Semna; Kerma was sacked by Thutmose I c.1500 BCE.",
+ "geopolitics_ar": "منافسة لمصر؛ ثبّتت الدولة الوسطى حدودها الجنوبية عند سمنة؛ ونهب تحتمس الأول كرمة نحو 1500 ق.م.",
+ "culture_dominance_en": "Indigenous Nubian urban culture: deffufa temples and royal tumuli in the Classic phase (kerma.ch).",
+ "culture_dominance_ar": "ثقافة حضرية نوبية محلية: معابد الدفوفة والمدافن الملكية الركامية في المرحلة الكلاسيكية.",
+ "economy_en": null,
+ "economy_ar": null,
+ "regional_power": [
+  {
+   "actor": "Kerma",
+   "score": null,
+   "flag": "no source gives a comparative power measure"
+  },
+  {
+   "actor": "Middle/New Kingdom Egypt",
+   "score": null,
+   "flag": "unscored"
+  }
+ ],
+ "sources": [
+  "KERMA_MISSION",
+  "GHA2",
+  "SFDAS_HCS2017",
+  "GHA2_CH12",
+  "WP:Kerma_culture"
+ ],
+ "source_langs": [
+  "en",
+  "fr"
+ ],
+ "flags": [
+  "economy: no source-backed text yet"
+ ],
+ "curated": true
+}

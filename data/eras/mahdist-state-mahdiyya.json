@@ -1,0 +1,64 @@
+{
+ "id": "mahdist-state-mahdiyya",
+ "name_en": "Mahdist State (Mahdiyya)",
+ "name_ar": "الدولة المهدية",
+ "stream": "Sudan – Middle Nile",
+ "start": 1885,
+ "end": 1899,
+ "dating_note": "",
+ "events": [
+  {
+   "en": "Muhammad Ahmad declares himself Mahdi 1881",
+   "ar": "محمد أحمد يعلن نفسه المهدي 1881"
+  },
+  {
+   "en": "Fall of Khartoum, death of Gordon 1885",
+   "ar": "سقوط الخرطوم ومقتل غوردون 1885"
+  },
+  {
+   "en": "Khalifa Abdallahi rules",
+   "ar": "حكم الخليفة عبد الله"
+  },
+  {
+   "en": "Battle of Omdurman 1898; Umm Diwaykarat 1899",
+   "ar": "معركة أم درمان 1898؛ أم دبيكرات 1899"
+  }
+ ],
+ "capitals": [
+  {
+   "name": "Omdurman",
+   "lat": 15.64,
+   "lon": 32.48
+  }
+ ],
+ "geopolitics_en": "A jihad movement that defeated Hicks at Shaykan (5 Nov 1883), took Kordofan, Darfur and Bahr al-Ghazal, and with 'Uthman Digna the east except Suakin; Khartoum fell and Gordon was killed (26 Jan 1885). Under the Khalifa: defeat at Tushki (1889), loss of Tokar (1891) and Kassala (1894), and a long war with Ethiopia that weakened both states. Kitchener's conquest: Atbara (8 Apr 1898), Karari/Omdurman (2 Sep 1898), Umm Diwaykarat (24 Nov 1899) (GHA VII ch.4).",
+ "geopolitics_ar": "حركة جهادية هزمت هكس في شيكان (5 نوفمبر 1883)، واستولت على كردفان ودارفور وبحر الغزال، ثم على الشرق كله عدا سواكن بقيادة عثمان دقنة؛ وسقطت الخرطوم وقُتل غوردون (26 يناير 1885). وفي عهد الخليفة: الهزيمة في توشكي (1889)، وفقدان طوكر (1891) وكسلا (1894)، وحرب طويلة مع إثيوبيا أضعفت الدولتين. ثم فتح كتشنر: عطبرة (8 أبريل 1898)، وكرري/أم درمان (2 سبتمبر 1898)، وأم دبيكرات (24 نوفمبر 1899).",
+ "culture_dominance_en": "Aimed to restore the 'pure and primitive faith of Islam'; followers (Ansar) took the bay'a; the hijra to Jabal Qadir shifted leadership to westerners; institutions based on the Qur'an and Sunna; Mahdist sentiment survived the state (GHA VII ch.4).",
+ "culture_dominance_ar": "سعت إلى إحياء «الإسلام في صفائه الأول»؛ وأدى الأنصار البيعة؛ ونقلت الهجرة إلى جبل قدير القيادة إلى أهل الغرب؛ وقامت المؤسسات على القرآن والسنة؛ وبقيت العاطفة المهدية بعد زوال الدولة.",
+ "economy_en": "Discontent fed by heavy Turkish taxes and by the government's attempts to suppress the slave trade, 'an important source of wealth and the basis of the domestic and agrarian economy' (GHA VII ch.4).",
+ "economy_ar": "غذّى السخطَ ثقلُ الضرائب التركية ومحاولاتُ الحكومة قمع تجارة الرقيق التي كانت «مصدراً مهماً للثروة وأساس الاقتصاد المنزلي والزراعي».",
+ "regional_power": [
+  {
+   "actor": "Mahdist state (within Sudan, 1885–98)",
+   "score": 0.9,
+   "basis": "GHA VII ch.4: 'a powerful and militant state that dominated the Sudan for fourteen years'",
+   "method": "editorial ordinal: 0.9 = dominant power over the named region"
+  },
+  {
+   "actor": "Anglo-Egyptian forces (1896–99)",
+   "score": null,
+   "flag": "GHA VII: victories owed to 'superior armaments' – qualitative"
+  }
+ ],
+ "sources": [
+  "GHA7_CH4",
+  "HD2011",
+  "WP:Mahdist_State",
+  "WP:Battle_of_Omdurman"
+ ],
+ "source_langs": [
+  "en"
+ ],
+ "flags": [],
+ "curated": true
+}

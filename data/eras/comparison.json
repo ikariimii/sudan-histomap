@@ -1,0 +1,105 @@
+{
+ "meta": {
+  "lens_files": [],
+  "note": "auto = date comparison against db/lens_*.json; known = manually read divergences"
+ },
+ "known": [
+  {
+   "era": "kingdom-of-kerma",
+   "source": "SFDAS_HCS2017",
+   "lang": "fr",
+   "claim": "Groupe C et royaume de Kerma 2450–1450",
+   "main": "-2450/-1480 (+Final Kerma to c.1450 in key_events)",
+   "status": "agree"
+  },
+  {
+   "era": "a-group-lower-nubia",
+   "source": "SFDAS_HCS2017",
+   "lang": "fr",
+   "claim": "Groupe A, Pré-Kerma 3500–2500",
+   "main": "-3800/-2900",
+   "status": "conflict",
+   "note": "French synthesis brackets later start/end"
+  },
+  {
+   "era": "kingdom-of-kush-meroitic-period",
+   "source": "FR_MUSEE_MEROE",
+   "lang": "fr",
+   "claim": "Méroïtic dynasty takes power c.270 BCE",
+   "main": "start -270",
+   "status": "agree"
+  },
+  {
+   "era": "kingdom-of-kush-meroitic-period",
+   "source": "FR_MUSEE_MEROE",
+   "lang": "fr",
+   "claim": "Méroé succombe vers 270 apr. J.-C. sous les assauts des Noubas (from the West)",
+   "main": "collapsed in the 4th century CE; cause debated (Noba per GHA II; Aksumite campaign of Ezana)",
+   "status": "partial",
+   "note": "agent agrees with GHA II (Noba); date differs (c.270 vs 4th c.)"
+  },
+  {
+   "era": "kingdom-of-kush-meroitic-period",
+   "source": "FR_MUSEE_MEROE",
+   "lang": "fr",
+   "claim": "Amanirénas fought Petronius in a war of 25–21 BCE",
+   "main": "Napata taken 23 BCE, Samos 21/20 (GHA II); which kandake is unresolved",
+   "status": "partial",
+   "note": "French text names Amanirenas outright"
+  },
+  {
+   "era": "kingdom-of-kush-meroitic-period",
+   "source": "NAGA_PROJ",
+   "lang": "de",
+   "claim": "Naga Blütezeit 200 v. Chr.–250 n. Chr.",
+   "main": "no Naga-specific dates",
+   "status": "no-conflict"
+  },
+  {
+   "era": "kingdom-of-kush-napatan-period",
+   "source": "ZH_EMB_HIST2020",
+   "lang": "zh",
+   "claim": "公元前530年左右迁都麦罗埃 (capital moved to Meroe c.530 BCE); Psamtik II sacked Napata 591 BCE",
+   "main": "burial shift to Meroe c.270 BCE; GHA: Aspelta first attested Meroe sovereign",
+   "status": "partial",
+   "note": "capital vs royal burial distinction; 591 matches GHA"
+  },
+  {
+   "era": "kingdom-of-kerma",
+   "source": "ZH_EMB_HIST2020",
+   "lang": "zh",
+   "claim": "公元前1700年建立了库施王国(首都在科尔马) (Kush kingdom founded 1700 BCE with capital at Kerma)",
+   "main": "-2450 start",
+   "status": "phase-difference",
+   "note": "1700 BCE matches Classic Kerma (c.1750–1480 BCE, kerma.ch) and GHA II's Kerma (—1730 to —1580); dataset dates Early Kerma from 2450"
+  },
+  {
+   "era": "kingdom-of-kush-meroitic-period",
+   "source": "ZH_EMB_HIST2020",
+   "lang": "zh",
+   "claim": "公元350年，库施被阿克苏姆王国所消灭 (destroyed by Aksum 350 CE)",
+   "main": "collapsed in the 4th century CE; cause debated (Noba per GHA II; Aksumite campaign of Ezana)",
+   "status": "partial",
+   "note": "date agrees (4th c.); attributing the destruction to Aksum conflicts with GHA II, which says Meroe had already collapsed by Ezana's campaign"
+  },
+  {
+   "era": "kingdom-of-kush-napatan-period",
+   "source": "ZH_EMB_PYR2020",
+   "lang": "zh",
+   "claim": "约前950年摆脱埃及统治独立 (independent of Egypt c.950 BCE); 'Meroe' also given as capital from c.760 in another passage",
+   "main": "start -800 (display); WHC: Napatan 900–270",
+   "status": "partial",
+   "note": "source internally inconsistent"
+  },
+  {
+   "era": "anglo-egyptian-sudan-condominium",
+   "source": "BRE_AES",
+   "lang": "ru",
+   "claim": "Англо-египетский Судан — название Судана в 1899–1951",
+   "main": "1899–1956",
+   "status": "partial",
+   "note": "BRE ends the name at Egypt's 1951 denunciation; main runs to independence"
+  }
+ ],
+ "auto": []
+}

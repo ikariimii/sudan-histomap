@@ -1,0 +1,80 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta property="og:type" content="website"><meta property="og:image" content="https://sudan.indomando.com/social_1080x1350.png"><meta name="twitter:card" content="summary_large_image"><meta property="og:title" content="Sudan Histomap · era"><title>Sudan Histomap · Era</title>
+<!-- Era wiki template: era.html?id=<era-id>&lang=en|ar. Reads data/eras/<id>.json, comparison.json, periods.js (meta.sources). Read-only. -->
+<script src="lib/d3.min.js"></script><script src="lib/topojson.min.js"></script><script src="data/periods.js"></script><script src="data/world.js"></script><script src="data/i18n_ar.js"></script><script src="lib/views.js"></script>
+<style>
+@font-face{font-family:HSerif;src:url(lib/fonts/NotoSerif.ttf)}@font-face{font-family:HNaskh;src:url(lib/fonts/NotoNaskhArabic.ttf)}
+body{margin:0;background:#f4ead5;color:#2b1d0e;font:16px/1.55 HSerif,Georgia,serif}body.ar{font-family:HNaskh,serif;font-size:17px}
+header{background:#2b1d0e;color:#f4ead5;padding:10px 24px;display:flex;gap:16px;align-items:center}header a{color:#f4ead5;font-size:14px}header .sp{flex:1}
+main{max-width:1180px;margin:0 auto;padding:18px 24px;display:grid;grid-template-columns:1fr 380px;gap:22px}
+h1{margin:4px 0 2px;font-size:34px}.sub{color:#6b4a2a;margin-bottom:10px}
+section{background:#fffaf0;border:1px solid #c9b48a;border-radius:6px;padding:12px 16px;margin-bottom:14px}section h2{margin:0 0 6px;font-size:20px;border-bottom:2px solid #b5512f;padding-bottom:3px}
+.flag{background:repeating-linear-gradient(45deg,#fff4dc,#fff4dc 8px,#f6e3bb 8px,#f6e3bb 16px);border:2px dashed #c98a1a;color:#7a4a00;padding:8px 10px;border-radius:4px;font-style:italic}
+.tag{display:inline-block;font:bold 11px sans-serif;background:#2b1d0e;color:#fff;padding:1px 5px;border-radius:3px;margin:0 4px;direction:ltr}
+.note{font-size:13px;color:#6b5a40}ol.src li{margin-bottom:5px;font-size:14px}ol.src{direction:ltr;text-align:left}
+.cmp{border-left:6px solid;padding:6px 10px;margin:8px 0;background:#fff;font-size:14px}
+svg text{font-family:HSerif,serif}body.ar svg text.ar{font-family:HNaskh,serif}
+.pill{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;background:#e8dcc0;margin-inline-end:4px}
+</style></head><body>
+<header><b id="brand"></b><a id="back" href="index.html"></a><a id="idx" href="eras.html"></a><span class="sp"></span><a id="sw"></a></header>
+<main id="m"></main>
+<script>
+const Q=new URLSearchParams(location.search),AR=Q.get('lang')==='ar',id=Q.get('id');
+if(AR){document.body.classList.add('ar');document.documentElement.dir='rtl';document.documentElement.lang='ar';}
+const T=(en,ar)=>AR?ar:en,AD=n=>AR?String(n).replace(/\d/g,c=>'٠١٢٣٤٥٦٧٨٩'[c]):String(n);
+const fy=t=>t>=2026?T('present','الآن'):t<0?AD(-t)+T(' BCE',' ق.م'):AD(t)+T(' CE',' م');
+const q2=(k,v)=>{const q=new URLSearchParams(location.search);v?q.set(k,v):q.delete(k);return '?'+q};
+document.getElementById('brand').textContent=T('SUDAN HISTOMAP · Era wiki','خريطة تاريخ السودان · موسوعة العصور');
+document.getElementById('back').textContent=T('← Histomap','→ الخريطة');document.getElementById('back').href='index.html'+(AR?'?lang=ar':'');
+document.getElementById('idx').textContent=T('All eras','كل العصور');document.getElementById('idx').href='eras.html'+(AR?'?lang=ar':'');
+const sw=document.getElementById('sw');sw.textContent=AR?'English':'العربية';sw.href=q2('lang',AR?null:'ar');
+const E=id&&V.loadJSON('data/eras/'+encodeURIComponent(id)+'.json'),COMP=V.loadJSON('data/eras/comparison.json')||{known:[],auto:[]};
+const M=d3.select('#m');
+if(!E){M.html(`<section style="grid-column:1/-1"><h2>${T('Era not found','العصر غير موجود')}</h2><p class="flag">${T('No era file for id','لا يوجد ملف للمعرّف')} <code dir="ltr">${id||''}</code>.</p><a href="eras.html">${T('Browse all eras','تصفح كل العصور')}</a></section>`);}
+else{
+ document.title=(AR?E.name_ar:E.name_en)+' · Sudan Histomap';
+ const L=M.append('div'),R=M.append('div');
+ const flagBox=(what)=>`<div class="flag">⚑ ${T('Under research — no source-backed text yet for','قيد البحث — لا يوجد نص مدعوم بمصادر بعد عن')} ${what}.${(E.flags||[]).filter(f=>f.toLowerCase().startsWith(what.split(' ')[0].toLowerCase())).map(f=>' <span dir="ltr">('+f+')</span>').join('')}</div>`;
+ L.append('h1').text(AR?E.name_ar:E.name_en);
+ L.append('div').attr('class','sub').html(`${AR?'<span dir="ltr">'+E.name_en+'</span> · ':''}${fy(E.start)} – ${fy(E.end)} · ${E.stream} ${E.curated?`<span class="pill">${T('curated','محرَّر')}</span>`:`<span class="pill">${T('auto-generated','مولَّد آلياً')}</span>`} ${(E.source_langs||[]).map(l=>'<span class="tag">'+l.toUpperCase()+'</span>').join('')}`);
+ if(E.dating_note)L.append('div').attr('class','note').attr('dir','ltr').style('text-align',AR?'right':'left').html('<b>'+T('Dating note','ملاحظة التأريخ')+':</b> '+E.dating_note);
+ const sec=(title,body)=>L.append('section').html(`<h2>${title}</h2>`+body);
+ const txt=(k,label)=>{const v=E[k+(AR?'_ar':'_en')];return v?`<p style="margin:0">${v}</p>`:flagBox(label)};
+ sec(T('Key events','الأحداث الرئيسية'),(E.events||[]).length?'<ul style="margin:0">'+E.events.map(e=>`<li>${AR?(e.ar||e.en):e.en}</li>`).join('')+'</ul>':flagBox('events'));
+ sec(T('Geopolitics','الجغرافيا السياسية'),txt('geopolitics','geopolitics'));
+ sec(T('Culture & dominance','الثقافة والهيمنة'),txt('culture_dominance','culture'));
+ sec(T('Economy & trade','الاقتصاد والتجارة'),txt('economy','economy'));
+ // power balance
+ const pb=L.append('section');pb.append('h2').text(T('Regional power balance (0–1)','ميزان القوى الإقليمي (٠–١)'));
+ const RP=E.regional_power||[];
+ if(!RP.length)pb.html(pb.html()+flagBox('regional power'));
+ else{const W=680,rh=46,H=RP.length*rh+34,s=pb.append('svg').attr('width','100%').attr('viewBox',`0 0 ${W} ${H}`),x0=230,x=d3.scaleLinear([0,1],[0,W-x0-20]);
+  const X=v=>AR?W-x0-x(v):x0+x(v);
+  [0,.25,.5,.75,1].forEach(v=>{s.append('line').attr('x1',X(v)).attr('x2',X(v)).attr('y1',4).attr('y2',H-24).attr('stroke','#c9b48a').attr('stroke-dasharray','2 3');s.append('text').attr('x',X(v)).attr('y',H-8).attr('text-anchor','middle').attr('font-size',12).text(AD(v))});
+  RP.forEach((r,i)=>{const y=8+i*rh;s.append('text').attr('x',AR?W-10:10).attr('y',y+21).attr('font-size',14).attr('text-anchor','start').attr('direction',AR?'rtl':'ltr').text(r.actor.length>30?r.actor.slice(0,29)+'…':r.actor).append('title').text(r.actor);
+   if(r.score==null){s.append('rect').attr('x',AR?X(1):x0).attr('y',y+4).attr('width',x(1)).attr('height',26).attr('fill','none').attr('stroke','#c98a1a').attr('stroke-dasharray','6 4');
+    s.append('text').attr('class','ar').attr('x',AR?W-x0-x(.5):x0+x(.5)).attr('y',y+22).attr('text-anchor','middle').attr('font-size',13).attr('font-style','italic').attr('fill','#7a4a00').text(T('unsourced — not imputed','غير موثّق — لم يُقدَّر'));}
+   else{s.append('rect').attr('x',AR?X(r.score):x0).attr('y',y+4).attr('width',x(r.score)).attr('height',26).attr('fill','#b5512f');s.append('text').attr('x',AR?X(r.score)-6:x0+x(r.score)+6).attr('y',y+22).attr('font-size',13).attr('text-anchor','start').attr('direction',AR?'rtl':'ltr').attr('font-weight','bold').text(AD(r.score));}});
+  pb.append('div').attr('class','note').attr('dir','ltr').style('text-align',AR?'right':'left').html(RP.map(r=>`<b>${r.actor}</b>: ${r.score==null?'<i>unsourced</i> — '+(r.flag||''):r.score+' — '+(r.basis||'')+(r.method?' <small>('+r.method+')</small>':'')}`).join('<br>'));
+  pb.append('div').attr('class','note').text(T('Scores appear only where a cited source makes an explicit claim; the number mapping is editorial. Null scores are never filled in.','تظهر الدرجات فقط حين يقدّم مصدر موثّق ادعاءً صريحاً؛ والتحويل إلى رقم تحريري. لا تُملأ القيم الفارغة أبداً.'));}
+ // map
+ const ms=R.append('section');ms.append('h2').text(T('Map: sites, capitals & trade','الخريطة: المواقع والعواصم والتجارة'));
+ {const W=360,H=380,s=ms.append('svg').attr('width',W).attr('height',H).style('background','#cfe0e8').style('border','1px solid #8a7'),C=E.capitals||[];
+  const cs=C.length?C:[{lat:15,lon:32}],lon=d3.extent(cs,c=>c.lon),lat=d3.extent(cs,c=>c.lat);
+  const proj=d3.geoMercator().center([(lon[0]+lon[1])/2,(lat[0]+lat[1])/2]).scale(C.length<2?1000:Math.min(2400,1100/Math.max(4,lon[1]-lon[0],lat[1]-lat[0])*6)).translate([W/2,H/2]),path=d3.geoPath(proj);
+  s.append('g').selectAll('path').data(topojson.feature(WORLD,WORLD.objects.countries).features).join('path').attr('d',path).attr('fill',d=>['Sudan','S. Sudan','South Sudan'].includes(d.properties.name)?'#e8c9a0':'#efe6d2').attr('stroke','#8a7a60').attr('stroke-width',.6);
+  const boxes=C.map(c=>{const p=proj([c.lon,c.lat]);return[p[0]-5,p[1]-5,p[0]+5,p[1]+5]}),OFF=[[8,4,'start'],[-8,4,'end'],[0,-9,'middle'],[0,17,'middle'],[10,-10,'start'],[-10,-10,'end'],[10,18,'start'],[-10,18,'end'],[0,-24,'middle'],[0,30,'middle']];
+  C.forEach(c=>{const p=proj([c.lon,c.lat]);s.append('circle').attr('cx',p[0]).attr('cy',p[1]).attr('r',5).attr('fill','#7c2f2a').attr('stroke','#fff').attr('stroke-width',1.5).append('title').text(c.name);});
+  C.forEach(c=>{const p=proj([c.lon,c.lat]),wd=c.name.length*6.2;for(const [dx,dy,an] of OFF){const x0=p[0]+(an=='start'?dx:an=='end'?dx-wd:dx-wd/2),bb=[x0,p[1]+dy-11,x0+wd,p[1]+dy+2];
+   if(bb[0]<2||bb[2]>W-2||bb[1]<2||bb[3]>H-2)continue;if(!boxes.some(q=>bb[0]<q[2]&&bb[2]>q[0]&&bb[1]<q[3]&&bb[3]>q[1])){boxes.push(bb);s.append('text').attr('x',p[0]+dx).attr('y',p[1]+dy).attr('text-anchor',an).attr('direction','ltr').attr('font-size',12).attr('stroke','#f4ead5').attr('stroke-width',3).attr('paint-order','stroke').text(c.name);break}}});
+  s.append('text').attr('x',W-6).attr('y',H-6).attr('text-anchor','end').attr('font-size',9).attr('direction','ltr').text('Boundaries: Natural Earth (PD) · modern borders for orientation');
+  ms.append('div').attr('class','note').html((C.length?'':flagBox('sites')+' ')+(E['economy'+(AR?'_ar':'_en')]?`<b>${T('Trade/economy','التجارة/الاقتصاد')}:</b> ${E['economy'+(AR?'_ar':'_en')]}`:'')+`<div class="flag" style="margin-top:6px">⚑ ${T('Trade-route geometry is not in the dataset yet; routes are not drawn rather than guessed.','لا توجد إحداثيات لطرق التجارة في البيانات بعد؛ لذلك لم تُرسم بدلاً من تخمينها.')}</div>`);}
+ // lens comparison
+ const cb=R.append('section');cb.append('h2').text(T('Lens comparison','مقارنة العدسات'));
+ const cmp=[...(COMP.known||[]),...(COMP.auto||[])].filter(k=>k.era===E.id);
+ cb.html(cb.html()+(cmp.length?cmp.map(k=>{const st=V.STATUS[k.status]||[k.status,k.status,'#888'];return `<div class="cmp" style="border-color:${st[2]}"><span class="tag">${(k.lang||'').toUpperCase()}</span><b style="color:${st[2]}">${AR?st[1]:st[0]}</b><div dir="ltr" style="text-align:left"><i>${k.claim||''}</i><br><b>Main:</b> ${k.main||''}${k.note?'<br><small>'+k.note+'</small>':''}<br><small>${V.cite(k.source).html}</small></div></div>`}).join(''):flagBox('lens comparison')+`<p class="note">${T('Lens files from the Geopolitical Analyst (db/lens_*.json) are not delivered yet.','ملفات العدسات (db/lens_*.json) لم تصل بعد.')}</p>`));
+ // citations
+ const cs2=R.append('section');cs2.append('h2').text(T('Citations','المراجع'));
+ const S=E.sources||[];cs2.html(cs2.html()+(S.length?'<ol class="src">'+S.map(i=>{const c=V.cite(i);return `<li>${c.lang&&c.lang!=='en'?'<span class="tag">'+c.lang.toUpperCase()+'</span>':''}${c.html}</li>`}).join('')+'</ol>':flagBox('citations')));
+ if((E.flags||[]).length)cs2.append('div').attr('class','note').attr('dir','ltr').html('<b>Flags:</b> '+E.flags.join('; '));
+}
+</script></body></html>

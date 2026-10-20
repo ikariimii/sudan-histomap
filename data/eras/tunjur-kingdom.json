@@ -1,0 +1,44 @@
+{
+ "id": "tunjur-kingdom",
+ "name_en": "Tunjur kingdom",
+ "name_ar": "مملكة التنجر",
+ "stream": "Sudan – Darfur & Kordofan",
+ "start": 1400,
+ "end": 1650,
+ "dating_note": "Approximate. Ain Farah corrected 15.0N 24.9E -> 14.2657N 24.3161E (2nd Wikidata statement; matches de/ar Wikipedia). Wikidata's other value 16.76N 29.19E (repeated on rainerebert.com) lies outside Darfur and is rejected. MEDIUM confidence: the descriptive '15 km NW of Kutum' does not fit (point is c.35 km W of Kutum); no excavation-report coordinate found.",
+ "events": [
+  {
+   "en": "Ruled Darfur and Wadai before the Keira",
+   "ar": "حكموا دارفور ووداي قبل الكيرا"
+  }
+ ],
+ "capitals": [
+  {
+   "name": "Ain Farah",
+   "lat": 14.2657,
+   "lon": 24.3161
+  }
+ ],
+ "geopolitics_en": null,
+ "geopolitics_ar": null,
+ "culture_dominance_en": null,
+ "culture_dominance_ar": null,
+ "economy_en": null,
+ "economy_ar": null,
+ "regional_power": [],
+ "sources": [
+  "WD:Q405860",
+  "OFAHEY2008",
+  "WP:Tunjur_people"
+ ],
+ "source_langs": [
+  "en"
+ ],
+ "flags": [
+  "geopolitics: no source-backed text yet",
+  "culture_dominance: no source-backed text yet",
+  "economy: no source-backed text yet",
+  "regional_power: no actors scored"
+ ],
+ "curated": false
+}

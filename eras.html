@@ -1,0 +1,21 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta property="og:type" content="website"><meta property="og:image" content="https://sudan.indomando.com/social_1080x1350.png"><meta name="twitter:card" content="summary_large_image"><meta property="og:title" content="Sudan Histomap · eras"><title>Sudan Histomap · Era index</title>
+<script src="lib/d3.min.js"></script><script src="data/periods.js"></script><script src="data/i18n_ar.js"></script><script src="lib/views.js"></script>
+<style>@font-face{font-family:HSerif;src:url(lib/fonts/NotoSerif.ttf)}@font-face{font-family:HNaskh;src:url(lib/fonts/NotoNaskhArabic.ttf)}
+body{margin:0;background:#f4ead5;color:#2b1d0e;font:15px/1.5 HSerif,Georgia,serif}body.ar{font-family:HNaskh,serif}
+header{background:#2b1d0e;color:#f4ead5;padding:10px 24px;display:flex;gap:16px}header a{color:#f4ead5}header .sp{flex:1}
+main{max-width:1180px;margin:0 auto;padding:16px 24px;columns:2;column-gap:28px}h2{break-after:avoid;margin:10px 0 4px;font-size:19px;border-bottom:2px solid #b5512f}
+.row{break-inside:avoid;padding:3px 0;border-bottom:1px dotted #c9b48a}.row a{color:#2b1d0e;font-weight:bold;text-decoration:none}.d{color:#6b5a40;font-size:13px}
+.b{display:inline-block;font:bold 10px sans-serif;padding:1px 5px;border-radius:3px;margin-inline-start:4px}.c{background:#3f7d4a;color:#fff}.f{background:#f6e3bb;color:#7a4a00;border:1px dashed #c98a1a}.x{background:#b3261e;color:#fff}.l{background:#2b1d0e;color:#fff}</style></head><body>
+<header><b id="t"></b><a id="back"></a><span class="sp"></span><a id="sw"></a></header><main id="m"></main>
+<script>
+window.AR_STREAMS=(window.AR&&window.AR.streams)||null;const AR=new URLSearchParams(location.search).get('lang')==='ar',T=(e,a)=>AR?a:e,AD=n=>AR?String(n).replace(/\d/g,c=>'٠١٢٣٤٥٦٧٨٩'[c]):String(n);
+if(AR){document.body.classList.add('ar');document.documentElement.dir='rtl'}
+const fy=t=>t>=2026?T('present','الآن'):t<0?AD(-t)+T(' BCE',' ق.م'):AD(t);
+document.getElementById('t').textContent=T('SUDAN HISTOMAP · Era index','خريطة تاريخ السودان · فهرس العصور');
+const b=document.getElementById('back');b.textContent=T('← Histomap','→ الخريطة');b.href='index.html'+(AR?'?lang=ar':'');
+const sw=document.getElementById('sw');sw.textContent=AR?'English':'العربية';sw.href=AR?'eras.html':'eras.html?lang=ar';
+const I=V.loadJSON('data/eras/index.json'),C=V.loadJSON('data/eras/comparison.json')||{known:[],auto:[]},M=d3.select('#m');
+if(!I)M.html('<p>'+T('Could not load data/eras/index.json','تعذّر تحميل الفهرس')+'</p>');
+else{const by=d3.group(I.eras,e=>e.stream);by.forEach((es,st)=>{M.append('h2').text(AR&&window.AR_STREAMS?AR_STREAMS[st]||st:st);es.sort((a,b)=>a.start-b.start).forEach(e=>{const E=V.loadJSON(e.file)||{},n=(E.flags||[]).length,cf=[...C.known,...C.auto].filter(k=>k.era===e.id);
+ M.append('div').attr('class','row').html(`<a href="era.html?id=${e.id}${AR?'&lang=ar':''}">${AR?e.name_ar:e.name_en}</a> <span class="d">${fy(e.start)}–${fy(e.end)}</span>${E.curated?`<span class="b c">${T('curated','محرَّر')}</span>`:''}${n?`<span class="b f">⚑ ${AD(n)}</span>`:''}${cf.some(k=>k.status==='conflict')?`<span class="b x">≠ ${T('conflict','تعارض')}</span>`:''}${(E.source_langs||[]).filter(l=>l!=='en').map(l=>`<span class="b l">${l.toUpperCase()}</span>`).join('')}`);});});}
+</script></body></html>
