@@ -1,0 +1,494 @@
+{
+ "meta": {
+  "title": "Modern trade & supply routes (cited)",
+  "built": "2026-10-20",
+  "format": "matches _draft-alt/test_routes.json and era.html: routes[]{id,name_en,name_ar,era_ids,sources,waypoints[{name,lat,lon,sources?,approx?}]}",
+  "note": "Coordinates from the Wikidata/Wikipedia coordinates API except where flagged. approx:true = waypoint not documented as being on the route, or its location estimated → era.html dashes it.",
+  "source_registry": {
+   "WIKIDATA_COORDS": {
+    "author": "Wikidata / English Wikipedia (coordinates API)",
+    "title": "P625 coordinate location, queried 2026-10-20",
+    "publisher": "Wikimedia",
+    "year": "2026",
+    "url": "https://www.wikidata.org/",
+    "lang": "en",
+    "verification": "fetched 2026-10-20 via API"
+   },
+   "SUDANTRIBUNE_2014_PIPE": {
+    "author": "Sudan Tribune",
+    "title": "Sudan to assume full ownership of oil pipelines by end of 2016: minister",
+    "publisher": "Sudan Tribune",
+    "year": "2014-06-09",
+    "url": "https://sudantribune.com/article/50085",
+    "lang": "en",
+    "verification": "search-index text only (sudantribune.com returns 403 to curl) — VERIFY"
+   },
+   "MEES_1999": {
+    "author": "MEES",
+    "title": "Sudan Inaugurates Mechanical Completion Of Export Pipeline",
+    "publisher": "Middle East Economic Survey 42:23",
+    "year": "1999-06-07",
+    "url": "https://archives.mees.com/issues/641/articles/25882",
+    "lang": "en",
+    "verification": "search-index text only — VERIFY"
+   },
+   "SUDANUPDATE_OIL": {
+    "author": "Sudan Update",
+    "title": "Raising the Stakes: Oil and Conflict in Sudan",
+    "publisher": "Sudan Update",
+    "year": "1999",
+    "url": "http://www.sudanupdate.org/REPORTS/Oil/Oil.pdf",
+    "lang": "en",
+    "verification": "search-index text only — VERIFY"
+   },
+   "GEM_GNOP": {
+    "author": "Global Energy Monitor",
+    "title": "Greater Nile Oil Pipeline",
+    "publisher": "GEM.wiki",
+    "year": "2026",
+    "url": "https://www.gem.wiki/Greater_Nile_Oil_Pipeline",
+    "lang": "en",
+    "verification": "search-index text only — VERIFY"
+   },
+   "WP_PETRODAR": {
+    "author": "Wikipedia",
+    "title": "Petrodar",
+    "publisher": "Wikipedia (en)",
+    "year": "2026",
+    "url": "https://en.wikipedia.org/wiki/Petrodar",
+    "lang": "en",
+    "verification": "fetched 2026-10-20 via API extract"
+   },
+   "WP_PORTSUDAN": {
+    "author": "Wikipedia",
+    "title": "Port Sudan",
+    "publisher": "Wikipedia (en)",
+    "year": "2026",
+    "url": "https://en.wikipedia.org/wiki/Port_Sudan",
+    "lang": "en",
+    "verification": "fetched 2026-10-20 via API extract"
+   },
+   "GEO-001": {
+    "note": "see db/geopolitics_sources.json",
+    "id": "GEO-001"
+   },
+   "GEO-011": {
+    "note": "see db/geopolitics_sources.json",
+    "id": "GEO-011"
+   },
+   "GEO-032": {
+    "note": "see db/geopolitics_sources.json",
+    "id": "GEO-032"
+   },
+   "GEO-033": {
+    "note": "see db/geopolitics_sources.json",
+    "id": "GEO-033"
+   },
+   "GEO-070": {
+    "note": "see db/geopolitics_sources.json",
+    "id": "GEO-070"
+   },
+   "GEO-074": {
+    "note": "see db/geopolitics_sources.json",
+    "id": "GEO-074"
+   },
+   "GEO-080": {
+    "note": "see db/geopolitics_sources.json",
+    "id": "GEO-080"
+   },
+   "GEO-067": {
+    "note": "see db/geopolitics_sources.json",
+    "id": "GEO-067"
+   },
+   "GEO-020": {
+    "note": "see db/geopolitics_sources.json",
+    "id": "GEO-020"
+   },
+   "GEO-079": {
+    "note": "see db/geopolitics_sources.json",
+    "id": "GEO-079"
+   },
+   "GEO-038": {
+    "note": "see db/geopolitics_sources.json",
+    "id": "GEO-038"
+   }
+  },
+  "citation_warning": "era.html resolves route/waypoint source IDs via periods.json meta.sources; these IDs are NOT in that table yet, so they show '(unresolved ID)' until the Historian or Map Designer adds source_registry entries to meta.sources."
+ },
+ "routes": [
+  {
+   "id": "greater-nile-oil-pipeline",
+   "name_en": "Greater Nile Oil Pipeline (Heglig → Marsa Bashayer)",
+   "name_ar": "خط أنابيب النيل الكبير (هجليج ← مرسى بشائر)",
+   "kind": "oil pipeline",
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime",
+    "december-revolution-transition",
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "sources": [
+    "SUDANTRIBUNE_2014_PIPE",
+    "MEES_1999",
+    "SUDANUPDATE_OIL",
+    "GEM_GNOP"
+   ],
+   "summary_en": "About 1,610 km and 250,000 bpd, built by GNPOC (CNPC 40%). It runs from Heglig via the El Obeid and Khartoum refineries to the Bashayer terminal south of Port Sudan. First export was on 30 Aug 1999.",
+   "summary_ar": "خط طوله نحو 1610 كم وطاقته 250 ألف برميل يوميًا، أنشأته شركة النيل الكبرى (حصة الشركة الصينية 40%). يمتد من هجليج عبر مصفاتي الأبيض والخرطوم إلى مرفأ بشائر جنوب بورتسودان، وصدّر أول شحنة في 30 أغسطس 1999.",
+   "waypoints": [
+    {
+     "name": "Heglig",
+     "lat": 9.9994,
+     "lon": 29.3986,
+     "sources": [
+      "WIKIDATA_COORDS",
+      "MEES_1999"
+     ]
+    },
+    {
+     "name": "El Obeid",
+     "lat": 13.1833,
+     "lon": 30.2167,
+     "sources": [
+      "WIKIDATA_COORDS",
+      "SUDANTRIBUNE_2014_PIPE",
+      "SUDANUPDATE_OIL"
+     ]
+    },
+    {
+     "name": "Khartoum",
+     "lat": 15.6,
+     "lon": 32.5,
+     "sources": [
+      "WIKIDATA_COORDS",
+      "SUDANTRIBUNE_2014_PIPE"
+     ]
+    },
+    {
+     "name": "Atbara",
+     "lat": 17.7167,
+     "lon": 33.9833,
+     "sources": [
+      "WIKIDATA_COORDS",
+      "SUDANUPDATE_OIL"
+     ],
+     "approx": true,
+     "note": "Pipeline was bombed 'just outside Atbara' (Sep 1999); exact alignment between Khartoum and the coast not sourced — segment approximate"
+    },
+    {
+     "name": "Marsa Bashayer (≈15 km S of Port Sudan)",
+     "lat": 19.47,
+     "lon": 37.25,
+     "sources": [
+      "MEES_1999"
+     ],
+     "approx": true,
+     "note": "No surveyed coordinate; placed ≈15 km south of Port Sudan per MEES — approximate"
+    }
+   ],
+   "flags": [
+    "Line between waypoints is straight, not the true pipeline alignment",
+    "Pipeline sources are search-index text only (VERIFY)"
+   ]
+  },
+  {
+   "id": "petrodar-melut-pipeline",
+   "name_en": "South Sudan oil export route: PetroDar / Melut Basin pipeline (Palouge → Port Sudan)",
+   "name_ar": "مسار تصدير نفط جنوب السودان: خط بترودار / حوض ملوط (فلوج ← بورتسودان)",
+   "kind": "oil pipeline",
+   "era_ids": [
+    "republic-of-south-sudan",
+    "war-in-sudan-saf-vs-rsf",
+    "al-bashir-ncp-ingaz-regime"
+   ],
+   "sources": [
+    "WP_PETRODAR",
+    "SUDANTRIBUNE_2014_PIPE",
+    "GEM_GNOP"
+   ],
+   "summary_en": "South Sudan is landlocked, and both of its export lines cross Sudan. PetroDar runs almost 1,600 km from Palouge in the Melut Basin to Port Sudan. Unity-field crude joins the Greater Nile line at Heglig. Khartoum closed the pipeline more than once as leverage.",
+   "summary_ar": "جنوب السودان دولة حبيسة، وخطّا تصديره يمرّان كلاهما عبر السودان. يمتد خط بترودار نحو 1600 كم من فلوج في حوض ملوط إلى بورتسودان، ويلتحق نفط حقل الوحدة بخط النيل الكبير عند هجليج. وقد أغلقت الخرطوم الخط أكثر من مرة ورقةَ ضغط.",
+   "waypoints": [
+    {
+     "name": "Melut Basin (Palouge field area, near Melut)",
+     "lat": 10.4404,
+     "lon": 32.2015,
+     "sources": [
+      "WIKIDATA_COORDS",
+      "WP_PETRODAR"
+     ],
+     "approx": true,
+     "note": "Palouge has no verified coordinate; Melut town used as a stand-in"
+    },
+    {
+     "name": "Khartoum",
+     "lat": 15.6,
+     "lon": 32.5,
+     "sources": [
+      "WIKIDATA_COORDS"
+     ],
+     "approx": true,
+     "note": "Intermediate pump stations (Algabaleen, Jebel Umm Ali, …) not geolocated; path approximate"
+    },
+    {
+     "name": "Port Sudan",
+     "lat": 19.6019,
+     "lon": 37.2075,
+     "sources": [
+      "WIKIDATA_COORDS",
+      "WP_PETRODAR"
+     ]
+    }
+   ],
+   "branch_note": "Unity field → Heglig → Greater Nile line (see greater-nile-oil-pipeline); Bentiu 9.26,29.8 (Wikipedia) is the Unity State capital",
+   "flags": [
+    "Approximate path; only the endpoints are sourced"
+   ]
+  },
+  {
+   "id": "gold-sudan-chad-uae",
+   "name_en": "Gold smuggling corridor: Darfur → Chad → UAE",
+   "name_ar": "ممر تهريب الذهب: دارفور ← تشاد ← الإمارات",
+   "kind": "gold smuggling (illicit)",
+   "era_ids": [
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "sources": [
+    "GEO-074",
+    "GEO-067"
+   ],
+   "summary_en": "Swissaid, via SWI (GEO-074): in 2024 the UAE received 29 t of gold directly from Sudan, plus volumes via Egypt (27 t), Chad (18 t) and Libya (9 t). ZDF (GEO-067) says 80–90% of the gold is smuggled, mostly to the UAE. The sources name countries, not crossing points.",
+   "summary_ar": "بحسب سويس إيد عبر SWI (GEO-074): تلقّت الإمارات عام 2024 نحو 29 طنًا من الذهب مباشرة من السودان، إضافة إلى كميات عبر مصر (27 طنًا) وتشاد (18 طنًا) وليبيا (9 أطنان). ويقول تقرير ZDF (GEO-067) إن 80–90% من الذهب مُهرَّب، ومعظمه إلى الإمارات. والمصادر تسمّي الدول لا نقاط العبور.",
+   "waypoints": [
+    {
+     "name": "Nyala (Darfur, RSF-held hub)",
+     "lat": 12.05,
+     "lon": 24.8833,
+     "sources": [
+      "WIKIDATA_COORDS"
+     ],
+     "approx": true,
+     "note": "Origin point is representative; the sources do not name the mines or towns"
+    },
+    {
+     "name": "Adré (border crossing)",
+     "lat": 13.4672,
+     "lon": 22.1967,
+     "sources": [
+      "WIKIDATA_COORDS"
+     ],
+     "approx": true,
+     "note": "Crossing point not named in gold sources — illustrative"
+    },
+    {
+     "name": "N'Djamena",
+     "lat": 12.1053,
+     "lon": 15.0447,
+     "sources": [
+      "WIKIDATA_COORDS"
+     ],
+     "approx": true,
+     "note": "Transit city not named in gold sources — illustrative"
+    },
+    {
+     "name": "Dubai",
+     "lat": 25.2047,
+     "lon": 55.2708,
+     "sources": [
+      "WIKIDATA_COORDS",
+      "GEO-074"
+     ]
+    }
+   ],
+   "flags": [
+    "Only the countries are sourced; all intermediate waypoints are illustrative (approx)"
+   ]
+  },
+  {
+   "id": "gold-sudan-egypt",
+   "name_en": "Gold smuggling corridor: Sudan → Egypt (→ UAE)",
+   "name_ar": "ممر تهريب الذهب: السودان ← مصر (← الإمارات)",
+   "kind": "gold smuggling (illicit)",
+   "era_ids": [
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "sources": [
+    "GEO-074",
+    "GEO-080"
+   ],
+   "summary_en": "Interfax (GEO-080), citing the UN, says gold is also smuggled out through Egypt. Swissaid (GEO-074) says 27 t reached the UAE via Egypt in 2024.",
+   "summary_ar": "ينقل إنترفاكس (GEO-080) عن الأمم المتحدة أن الذهب يُهرَّب أيضًا عبر مصر، وتقول سويس إيد (GEO-074) إن 27 طنًا وصلت إلى الإمارات عبر مصر عام 2024.",
+   "waypoints": [
+    {
+     "name": "Abu Hamad (northern gold belt)",
+     "lat": 19.5433,
+     "lon": 33.3378,
+     "sources": [
+      "WIKIDATA_COORDS"
+     ],
+     "approx": true,
+     "note": "Origin not named in the sources — illustrative"
+    },
+    {
+     "name": "Wadi Halfa (border)",
+     "lat": 21.7833,
+     "lon": 31.3667,
+     "sources": [
+      "WIKIDATA_COORDS"
+     ],
+     "approx": true,
+     "note": "Crossing not named — illustrative"
+    },
+    {
+     "name": "Aswan",
+     "lat": 24.0889,
+     "lon": 32.8997,
+     "sources": [
+      "WIKIDATA_COORDS"
+     ],
+     "approx": true,
+     "note": "Transit not named — illustrative"
+    },
+    {
+     "name": "Dubai",
+     "lat": 25.2047,
+     "lon": 55.2708,
+     "sources": [
+      "WIKIDATA_COORDS",
+      "GEO-074"
+     ]
+    }
+   ],
+   "flags": [
+    "Only the countries are sourced; intermediate waypoints are illustrative"
+   ]
+  },
+  {
+   "id": "port-sudan-suakin-sea-lanes",
+   "name_en": "Red Sea lanes: Port Sudan / Suakin ↔ Jeddah, Suez, Bab el-Mandeb",
+   "name_ar": "ممرات البحر الأحمر: بورتسودان / سواكن ↔ جدة والسويس وباب المندب",
+   "kind": "sea lane",
+   "era_ids": [
+    "december-revolution-transition",
+    "war-in-sudan-saf-vs-rsf",
+    "al-bashir-ncp-ingaz-regime"
+   ],
+   "sources": [
+    "GEO-011",
+    "GEO-020",
+    "WP_PORTSUDAN"
+   ],
+   "summary_en": "Port Sudan has been the government seat since 2023 and a focus of base bids. The 2017 Turkey–Suakin deal is in GEO-020; the Suakin gas-berth MoU (Jul 2026) and the Port Sudan–Mersin twinning are in GEO-011. Abu Amama, a port proposed for the UAE about 200 km north of Port Sudan (Wikipedia), is not plotted because it has no coordinate.",
+   "summary_ar": "بورتسودان مقرّ الحكومة منذ 2023 ومحطّ عروض القواعد. اتفاق تركيا بشأن سواكن عام 2017 في GEO-020، ومذكرة رصيف الغاز في سواكن (يوليو 2026) وتوأمة بورتسودان ومرسين في GEO-011. أما ميناء أبو عمامة المقترح للإمارات، على بعد نحو 200 كم شمال بورتسودان (ويكيبيديا)، فلم يُرسم لعدم توفر إحداثياته.",
+   "waypoints": [
+    {
+     "name": "Suez",
+     "lat": 29.9667,
+     "lon": 32.55,
+     "sources": [
+      "WIKIDATA_COORDS"
+     ],
+     "approx": true,
+     "note": "Lane end; sea track drawn as straight segments — approximate"
+    },
+    {
+     "name": "Jeddah",
+     "lat": 21.5433,
+     "lon": 39.1728,
+     "sources": [
+      "WIKIDATA_COORDS"
+     ]
+    },
+    {
+     "name": "Port Sudan",
+     "lat": 19.6019,
+     "lon": 37.2075,
+     "sources": [
+      "WIKIDATA_COORDS"
+     ]
+    },
+    {
+     "name": "Suakin",
+     "lat": 19.1025,
+     "lon": 37.33,
+     "sources": [
+      "WIKIDATA_COORDS"
+     ]
+    },
+    {
+     "name": "Bab el-Mandeb",
+     "lat": 12.5833,
+     "lon": 43.3333,
+     "sources": [
+      "WIKIDATA_COORDS"
+     ],
+     "approx": true,
+     "note": "Strait centroid; track approximate"
+    }
+   ],
+   "flags": [
+    "Sea track is schematic (straight segments)"
+   ]
+  },
+  {
+   "id": "amdjarass-rsf-supply",
+   "name_en": "RSF supply route: Abu Dhabi → Am Djarass (Chad) → Darfur / El Fasher",
+   "name_ar": "طريق إمداد الدعم السريع: أبوظبي ← أم جرس (تشاد) ← دارفور / الفاشر",
+   "kind": "military supply (alleged)",
+   "era_ids": [
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "sources": [
+    "GEO-001",
+    "GEO-033",
+    "GEO-070",
+    "GEO-032"
+   ],
+   "summary_en": "The UN Panel (GEO-001) found credible allegations that cargo flights from Abu Dhabi unloaded arms at Am Djarass several times a week, which were then trucked to the RSF in Darfur. The UAE says the flights were humanitarian. GEO-033 reports an air bridge to Chad whose cargo was not identified. El País (GEO-070) also describes the Amdjarass route.",
+   "summary_ar": "وجد فريق خبراء الأمم المتحدة (GEO-001) ادعاءات ذات مصداقية بأن رحلات شحن من أبوظبي كانت تُفرغ أسلحة في أم جرس عدة مرات أسبوعيًا، ثم تُنقل بالشاحنات إلى الدعم السريع في دارفور. وتقول الإمارات إن الرحلات إنسانية. ويذكر GEO-033 جسرًا جويًا إلى تشاد لم تُحدَّد حمولته، ويصف تقرير إل باييس (GEO-070) طريق أم جرس أيضًا.",
+   "waypoints": [
+    {
+     "name": "Abu Dhabi",
+     "lat": 24.4667,
+     "lon": 54.3667,
+     "sources": [
+      "WIKIDATA_COORDS",
+      "GEO-001"
+     ]
+    },
+    {
+     "name": "Am Djarass",
+     "lat": 16.0659,
+     "lon": 22.8431,
+     "sources": [
+      "WIKIDATA_COORDS",
+      "GEO-001",
+      "GEO-070"
+     ]
+    },
+    {
+     "name": "Kutum (North Darfur)",
+     "lat": 14.2056,
+     "lon": 24.65,
+     "sources": [
+      "WIKIDATA_COORDS"
+     ],
+     "approx": true,
+     "note": "Overland track into Darfur not specified by the sources — illustrative"
+    },
+    {
+     "name": "El Fasher",
+     "lat": 13.627,
+     "lon": 25.3496,
+     "sources": [
+      "WIKIDATA_COORDS",
+      "GEO-032"
+     ]
+    }
+   ],
+   "flags": [
+    "Allegation, denied by the UAE",
+    "Overland waypoints are illustrative"
+   ]
+  }
+ ]
+}
