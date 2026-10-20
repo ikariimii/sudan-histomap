@@ -114,7 +114,7 @@ function headerBlock(W,title,sub,y,fs){svg.append('text').attr('x',W/2).attr('y'
 function foot(W,y,fs){[DISC,CREDIT].forEach((t,k)=>{wrap(t,Math.floor(W/(fs*.5))).forEach((l,j)=>svg.append('text').attr('x',W/2).attr('y',y+k*fs*2.6+j*fs*1.2).attr('text-anchor','middle').attr('font-size',k?fs*.85:fs).attr('font-style',k?null:'italic').attr('direction',AR_ON&&!k?'rtl':'ltr').text(l))});}
 // lens / diff controls
 {const L2=k=>V.LANGS[k][AR_ON?1:0],ls=d3.select('#lens'),ds=d3.select('#diff');d3.select('#lensl').text(AR_ON?'عدسة المصادر:':'Source lens:');d3.select('#diffl').text(AR_ON?'مقارنة:':'Diff vs main:');d3.select('#eralk').text(AR_ON?'فهرس العصور':'Era wiki');
- Object.keys(V.LANGS).forEach(k=>ls.append('option').attr('value',k).property('selected',k===LENS).text(L2(k)));
+ Object.keys(V.LANGS).filter(k=>k!=='en').forEach(k=>ls.append('option').attr('value',k).property('selected',k===LENS).text(L2(k)));
  ds.append('option').attr('value','').text(AR_ON?'— بلا —':'— off —');Object.keys(V.LANGS).filter(k=>k!=='main').forEach(k=>ds.append('option').attr('value',k).property('selected',k===DIFF).text(L2(k)));
  const go=(k,v)=>{const q=new URLSearchParams(location.search);v&&v!=='main'?q.set(k,v):q.delete(k);location.search=q};ls.on('change',e=>go('lens',e.target.value));ds.on('change',e=>go('diff',e.target.value));
  const bar=d3.select('#lensbar');let t=(AR_ON?'العدسة: ':'Lens: ')+'<b>'+L2(LENS)+'</b>';
@@ -133,8 +133,8 @@ const SPLITS={'meroe-fall':{dom:[200,420],ticks:[200,250,270,300,350,400],band:[
    {h:['Explanation B: Aksum / Ezana','التفسير الثاني: أكسوم / عيزانا'],col:'#3f6478',seg:[200,350],marks:[
      {t:350,l:['Mid-4th century CE: an inscription of King Ezana of Aksum records a campaign in the region','منتصف القرن الرابع الميلادي: يسجل نقش الملك الأكسومي عيزانا حملة في المنطقة'],src:'GHA2',lang:'en'},
      {t:350,l:['350 CE: PRC embassy page (not an academic source): Aksum destroyed Kush','350م: صفحة للسفارة الصينية (ليست مصدراً أكاديمياً): أكسوم قضت على كوش'],src:'ZH_EMB_HIST2020',lang:'zh',dy:1}]}],
-  body:[['Some archaeologists stress internal change instead. The safest summary: Meroe ended in the 4th century CE, and the cause is debated.','ويركّز بعض الآثاريين على التحولات الداخلية. الخلاصة: زالت مروي في القرن الرابع الميلادي، وسبب زوالها موضع جدل.']],
-  srcs:['FR_MUSEE_MEROE','GHA2','ZH_EMB_HIST2020']},
+  body:[['Some scholars (e.g. Edwards 2011) argue against a single external cause. The safest summary: Meroe ended in the 4th century CE, and the cause is debated.','ويعارض بعض الباحثين (مثل إدواردز 2011) تفسير الزوال بسبب خارجي واحد. الخلاصة: زالت مروي في القرن الرابع الميلادي، وسبب زوالها موضع جدل.']],
+  srcs:['FR_MUSEE_MEROE','GHA2','ZH_EMB_HIST2020'],extraSrc:['[EN] D.N. Edwards (2011) "From Meroe to \'Nubia\' – exploring culture change without the \'Noba\'" (title/abstract verified; not yet in source registry)','[EN] د. ن. إدواردز (2011) "From Meroe to \'Nubia\' – exploring culture change without the \'Noba\'" (تحقق من العنوان والملخص فقط)']},
  'kerma-start':{dom:[-2550,-1400],ticks:[-2450,-2050,-1750,-1700,-1480],
   t:['2450 or 1700 BCE?','2450 أم 1700 ق.م؟'],pill:['NO CONTRADICTION','لا تناقض','#3f7d4a'],
   sub:['Two dates for Kerma (Kush): both can be right','تاريخان لكرمة (كوش): وكلاهما قد يكون صحيحاً'],
@@ -166,7 +166,7 @@ if(SPLIT&&SPLITS[SPLIT]){const c=SPLITS[SPLIT],W=1080,H=1350,T2=a=>a[AR_ON?1:0];
  c.body.forEach(b=>put(T2(b),{b:1,fs:19}));
  put(AR_ON?'⚠ مصدر zh = صفحة للسفارة الصينية (نص حكومي تعريفي)، ليست مصدراً أكاديمياً.':'⚠ zh source = PRC embassy page (government popular text), not an academic source.',{b:1,col:'#b3261e',fs:16});
  put(AR_ON?'المصادر:':'Sources:',{b:1,fs:15});
- c.srcs.forEach(id=>{const r=V.srcTable()[id]||{};put('['+(r.lang||'?').toUpperCase()+'] '+[r.author,r.year&&'('+r.year+')',r.title].filter(Boolean).join(' '),{dir:'ltr',fs:13,w:120});});
+ c.srcs.forEach(id=>{const r=V.srcTable()[id]||{};put('['+(r.lang||'?').toUpperCase()+'] '+[r.author,r.year&&'('+r.year+')',r.title].filter(Boolean).join(' '),{dir:'ltr',fs:13,w:120});});if(c.extraSrc)put(T2(c.extraSrc),{dir:AR_ON?'rtl':'ltr',fs:13,w:120});
  if(Q.get('draft')!=='0'){svg.append('text').attr('x',AR_ON?40:W-40).attr('y',H-34).attr('text-anchor',AR_ON?'start':'end').attr('font-size',22).attr('font-weight','bold').attr('fill','#b3261e').attr('opacity',.8).attr('direction','ltr').text(AR_ON?'مسودة — بانتظار التدقيق':'DRAFT · pending fact-check');
   svg.append('text').attr('transform',`translate(${W/2},${(top+bot)/2}) rotate(-28)`).attr('text-anchor','middle').attr('font-size',110).attr('font-weight','bold').attr('fill','#b3261e').attr('opacity',.06).text(AR_ON?'مسودة':'DRAFT');}
  svg.append('text').attr('x',AR_ON?W-60:60).attr('y',H-34).attr('font-size',12).attr('text-anchor',AR_ON?'end':'start').attr('direction','ltr').text('Sudan Histomap · Noto fonts (SIL OFL) · after Sparks, Histomap (1931, PD)');}
@@ -207,7 +207,7 @@ if(DIFF&&LENS_STATE==='ok'){const RANK={conflict:3,partial:2,agree:1,'no-conflic
   el.on('mousemove',ev=>tip.style('display','block').style('left',Math.min(ev.clientX+14,innerWidth-440)+'px').style('top',Math.min(ev.clientY+14,innerHeight-260)+'px').html(html)).on('mouseleave',()=>tip.style('display','none'));});}
 function mainSrc(d){return (d.sources||[]).slice(0,2)}
 function tipText(k,d){return `[${V.STATUS[k.status]?V.STATUS[k.status][0]:k.status}] ${k.claim||''}\n  ${V.LANGS[DIFF][0]}: ${V.citeText(k.source)}\n  Main: ${k.main||(fy(d.start)+'–'+fy(d.end))}\n  Main sources: ${mainSrc(d).map(V.citeText).join('; ')}${k.note?'\n  Note: '+k.note:''}`}
-function tipHTML(k,d){const st=V.STATUS[k.status]||[k.status,k.status,'#888'];return `<div style="direction:${AR_ON?'rtl':'ltr'};text-align:start"><b style="color:${st[2]}">${AR_ON?st[1]:st[0].toUpperCase()}</b> · <b>${nm(d)}</b><br><b>${V.LANGS[DIFF][AR_ON?1:0]}:</b> <bdi dir="ltr">${k.claim||'—'}</bdi><br><small><bdi dir="ltr">${V.cite(k.source).html}</bdi></small><br><b>${AR_ON?'الرئيسية':'Main'}:</b> <bdi dir="ltr">${k.main||(fy(d.start)+'–'+fy(d.end))}</bdi><br><small><bdi dir="ltr">${mainSrc(d).map(i=>V.cite(i).html).join('<br>')}</bdi></small>${k.note?'<br><i><bdi dir="ltr">'+k.note+'</bdi></i>':''}</div>`}
+function tipHTML(k,d){const st=V.STATUS[k.status]||[k.status,k.status,'#888'];return `<div style="direction:${AR_ON?'rtl':'ltr'};text-align:start"><b style="color:${st[2]}">${AR_ON?st[1]:st[0].toUpperCase()}</b> · <b>${nm(d)}</b><br><b>${V.LANGS[DIFF][AR_ON?1:0]}:</b> <bdi>${(AR_ON&&k.claim_ar)||k.claim||'—'}</bdi><br><small><bdi dir="ltr">${V.cite(k.source).html}</bdi></small><br><b>${AR_ON?'الرئيسية':'Main'}:</b> <bdi>${(AR_ON&&k.main_ar)||k.main||(fy(d.start)+'–'+fy(d.end))}</bdi><br><small><bdi dir="ltr">${mainSrc(d).map(i=>V.cite(i).html).join('<br>')}</bdi></small>${k.note?'<br><i><bdi>'+((AR_ON&&k.note_ar)||k.note)+'</bdi></i>':''}</div>`}
 // interactive map/panel
 const side=document.getElementById('side'),info=document.getElementById('info');info.textContent=AR_ON?AR.ui.sel:'Select a band to see details & sources.';
 if(DIFF&&DIFFS.length){info.innerHTML=`<h3 style="margin:0 0 6px">${AR_ON?'المقارنة':'Comparison'}: ${V.LANGS[DIFF][AR_ON?1:0]} ${AR_ON?'مقابل الرئيسية':'vs main'} (${DIFFS.length})</h3>`+DIFFS.map(k=>{const e=ERA_BY_ID[k.era],d=HISTO.periods.find(p=>e&&p.name===e.name_en)||{name:k.era,sources:[],start:0,end:0};return '<div style="border-left:5px solid '+(V.STATUS[k.status]||['','','#888'])[2]+';padding:4px 8px;margin:6px 0">'+tipHTML(k,d)+'</div>'}).join('');}
