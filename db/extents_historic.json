@@ -335,6 +335,42 @@
       "HD2011"
      ],
      "coord_source": "Wikidata Q867052"
+    },
+    {
+     "name": "al-Tuwaisha (Al Tiwaisha, الطويشة) – eastern limit per al-Tunisi",
+     "lat": 12.3004726,
+     "lon": 26.7003811,
+     "source_ids": [
+      "TAKANA2016"
+     ],
+     "coord_source": "https://www.openstreetmap.org/node/7730407134 (place=town, ODbL; matched on Arabic name الطويشة; district relation 20154037; Wikidata Q133452741 'Tawisha District' has no coordinates). Same Tuwaisha that TAKANA2016 names as an eastern Darfur centre (native-administration section p.144; also named as a Mahdist emirate). Confidence high for the town; that al-Tunisi's border point was the modern town is assumed."
+    },
+    {
+     "name": "Geneina (الجنينة) – centre of Dar Masalit, western limit per al-Tunisi",
+     "lat": 13.45,
+     "lon": 22.45,
+     "source_ids": [
+      "TAKANA2016"
+     ],
+     "coord_source": "Wikidata Q311309 (CC0), GeoNames 379303 via Wikidata P1566. Geneina became the Masalit capital after al-Tunisi's time; anchor only."
+    },
+    {
+     "name": "Dar Masalit (region point)",
+     "lat": 12.75,
+     "lon": 22.58333,
+     "source_ids": [
+      "TAKANA2016"
+     ],
+     "coord_source": "Wikidata Q56545571 'Dār Masālīţ' (CC0; P31 region), GeoNames 376712 via P1566. Outline candidate: OSM relation 3774664 'سلطنة دار المساليت' – a modern administrative unit (ODbL), not a historic boundary; not used as geometry."
+    },
+    {
+     "name": "Dar Fertit (region point) – beyond the empty southern march per al-Tunisi",
+     "lat": 8.33333,
+     "lon": 26.0,
+     "source_ids": [
+      "TAKANA2016"
+     ],
+     "coord_source": "Wikidata Q1165582 'Dār Fertit' (CC0). The item is typed as an ethnic group with a single point; no extent found. Low confidence: a region centroid, not a frontier point."
     }
    ],
    "control_limits_en": "West: wars with Wadai 'ended in stalemate', with tension 'usually caused by the machinations of the tributary states along the border, Qimr, Tama, or Sila' (OFAHEY2018_FWD). Al-Tunisi (as reported by Takana) put the borders 'from al-Tuwaisha in the east to the last point in Dar Masalit in the west'; south: 'the empty land between the Fur sultanate and Dar Firteet'; north: from al-Mazroob, with Zaghawa, Midob and Barti as affiliated kingdoms (TAKANA2016, p.9). East/Kordofan: before c.1785 Kordofan was 'a vast area west of the White Nile under no central rule' (OFAHEY2018_FWD) and 'a debatable land between the rulers of Sennar and Darfur' (HD2011). 'Darfur rule over Kordofan was to last just under forty years (1785–1821)'; Darfur and Kordofan together 'covered some 866,000 square kilometers' (OFAHEY2018_FWD). Kordofan was lost when Musallim was killed at Bara on 19 Aug 1821 (OFAHEY2018_FWD); the Kayra 'ruled Darfur until 1874' (GHA6_CH14).",
@@ -348,7 +384,7 @@
    ],
    "ohm_ids": [],
    "cshapes": null,
-   "notes": "Two extents: core Darfur (c.1650–1874) and Darfur plus Kordofan (1785–1821). O'Fahey 2008 was not read (table of contents only; frontiers chapter p.178), so it is listed as further reading, not as the basis for any phrase. OFAHEY2018_FWD was read through the search index only. The foreword says Tayrab led the army into Kordofan 'in the early 1780s' and also gives 1785 as the start of Darfur rule. The al-Tunisi borders describe c.1803–11 and reach us at second hand via Takana. Place names al-Tuwaisha, Dar Firteet and al-Mazroob have no Wikidata coordinates, so they are not anchored. The earlier ZH_EMB_HIST2020 phrase was replaced with scholarly sources.",
+   "notes": "Two extents: core Darfur (c.1650–1874) and Darfur plus Kordofan (1785–1821). O'Fahey 2008 was not read (table of contents only; frontiers chapter p.178), so it is listed as further reading, not as the basis for any phrase. OFAHEY2018_FWD was read through the search index only. The foreword says Tayrab led the army into Kordofan 'in the early 1780s' and also gives 1785 as the start of Darfur rule. The al-Tunisi borders describe c.1803–11 and reach us at second hand via Takana. Place names al-Tuwaisha, Dar Firteet and al-Mazroob have no Wikidata coordinates, so they are not anchored. The earlier ZH_EMB_HIST2020 phrase was replaced with scholarly sources. Pass 14 frontier anchors: al-Tuwaisha resolved (OSM node 7730407134); Geneina, Dar Masalit and Dar Fertit are region/centre points only. al-Mazroob is UNRESOLVED: al-Tunisi calls it 'the first water well that meets those coming from the Egyptian border' (TAKANA2016 p.9), but OSM has only same-name settlements that don't fit: node 7730430502 (13.9019, 29.3194, West Bara, North Kordofan), node 13355388871 (11.5789, 26.9764, Adila, East Darfur), node 11119507330 'Mazrub' (13.5366, 22.8861, Kirendik, West Darfur), node 7731805418 'Mazrūb' pond (10.6167, 28.1167, West Kordofan). GeoNames could not be queried (API unreachable). Not anchored.",
    "license": "Wikidata coordinates: CC0; limit text: short quotations from cited works",
    "ohm_source_ids": [],
    "geojson": null
