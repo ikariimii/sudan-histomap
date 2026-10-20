@@ -95,7 +95,70 @@
    ],
    "ohm_ids": [],
    "cshapes": null,
-   "notes": "Two distinct extents: the 25th Dynasty maximum (c.713–656 BCE) and the post-593 BCE kingdom south of the Second Cataract. ZH_EMB_HIST2020 says Shabaka moved the capital to Memphis (popular text).",
+   "notes": "Two distinct extents: the 25th Dynasty maximum (c.713–656 BCE) and the post-593 BCE kingdom south of the Second Cataract. ZH_EMB_HIST2020 says Shabaka moved the capital to Memphis (popular text). Pass 16: sub-period reaches added under 'phases' (text only, low confidence; no geometry).",
+   "phases": [
+    {
+     "year_from": -800,
+     "year_to": -713,
+     "label": "Before the 25th Dynasty",
+     "confidence": "low",
+     "reach_en": "No source read gives limits. GHA II says Kashta's Egyptian-style cartouches are on a stele found at Elephantine, from a time (c.−750) 'when the Nubians occupied at least part of Upper Egypt' (GHA2 ch.10, Leclant, p.280). Nothing on the southern reach for this sub-period, and nothing at all for the earliest rulers ('the names of the earliest rulers are unknown', p.279–80).",
+     "anchors": [
+      {
+       "name": "Jebel Barkal / Napata",
+       "lat": 18.5368,
+       "lon": 31.8276,
+       "source_ids": [
+        "GHA2"
+       ],
+       "coord_source": "Wikidata Q499019"
+      },
+      {
+       "name": "Elephantine (Kashta stele find-spot; not a border)",
+       "lat": 24.09,
+       "lon": 32.89,
+       "source_ids": [
+        "GHA2"
+       ],
+       "coord_source": "Wikidata Q284009"
+      }
+     ],
+     "sources": [
+      "GHA2"
+     ]
+    },
+    {
+     "year_from": -656,
+     "year_to": -593,
+     "label": "After withdrawal from Egypt",
+     "confidence": "low",
+     "reach_en": "'In the far north, Lower Nubia, a kind of no man's land, remained in dispute between the Meroites and whoever were masters of Egypt' (GHA2 ch.10, pp.283–284); 'during the early part of the Napatan period Lower Nubia was for a considerable length of time entirely depopulated' and repopulated only from the 3rd/2nd c. BCE (GHA2 ch.11, Hakem, p.306). Southern limits: 'archaeological exploration has not been carried far enough … to indicate the limits … to the south'; accepted to include central Sudan 'at least as far as Sennar on the Blue Nile and Kosti on the White Nile' (GHA2 p.284) – a statement about the Kushite kingdom generally, NOT dated to 656–593. Post-593 northern limit: no power downstream of the Second Cataract (KERMA_MISSION).",
+     "anchors": [
+      {
+       "name": "Jebel Barkal / Napata",
+       "lat": 18.5368,
+       "lon": 31.8276,
+       "source_ids": [
+        "GHA2"
+       ],
+       "coord_source": "Wikidata Q499019"
+      },
+      {
+       "name": "Second Cataract (post-593 limit)",
+       "lat": 21.48,
+       "lon": 30.97,
+       "source_ids": [
+        "KERMA_MISSION"
+       ],
+       "coord_source": "Wikidata Q11948049"
+      }
+     ],
+     "sources": [
+      "GHA2",
+      "KERMA_MISSION"
+     ]
+    }
+   ],
    "license": "Wikidata coordinates: CC0; limit text: short quotations from cited works",
    "ohm_source_ids": [],
    "geojson": null
@@ -153,7 +216,57 @@
    ],
    "ohm_ids": [],
    "cshapes": null,
-   "notes": "Northern frontier is well sourced (Samos). The southern and eastern limits are vague; the Naga 'southernmost city' claim is single-source and should be checked.",
+   "notes": "Northern frontier is well sourced (Samos). The southern and eastern limits are vague; the Naga 'southernmost city' claim is single-source and should be checked. Pass 16: sub-period reaches added under 'phases' (text only, low confidence; no geometry).",
+   "phases": [
+    {
+     "year_from": -270,
+     "year_to": -20,
+     "label": "Early Meroitic, before the Roman treaty",
+     "confidence": "low",
+     "reach_en": "Reach of the kingdom (whole Napatan–Meroitic span, not dated more closely): 'from Lower Nubia to the south of Sennar and to Gebel Moya region in the southern Gezira plain and included extensive areas between the Nile valley and the Red Sea'; areas west of the Nile 'probably under Meroitic influence though their extent is still unknown' (GHA2 ch.11, Hakem, p.306). North: Philae and Dakka have 'sanctuaries of common Egyptian and Nubian dedication' under Ergamenes/Arkamani (late 3rd c. BCE) (GHA2 ch.10, p.287); the Dodecaschoenus (Aswan to Hiera Sycaminos) 'had belonged to the Ptolemies, but the rulers of Meroe … had long since added it to their kingdom' before Petronius' campaign (GHA2 p.209). The Samos frontier at Hiera Sycaminos dates from 21/20 BCE (end of this window). Lower Nubia repopulated only from the 3rd/2nd c. BCE (p.306), so a northern edge at Dakka/Maharraqa is defensible for the later part only.",
+     "anchors": [
+      {
+       "name": "Meroë",
+       "lat": 16.9351,
+       "lon": 33.7507,
+       "source_ids": [
+        "GHA2"
+       ],
+       "coord_source": "Wikidata Q5780"
+      },
+      {
+       "name": "Temple of Dakka (Arkamani)",
+       "lat": 22.8014,
+       "lon": 32.5456,
+       "source_ids": [
+        "GHA2"
+       ],
+       "coord_source": "Wikidata Q291241"
+      },
+      {
+       "name": "Jebel Moya (southern Gezira)",
+       "lat": 13.5,
+       "lon": 33.333333,
+       "source_ids": [
+        "GHA2"
+       ],
+       "coord_source": "Wikidata Q55640121"
+      },
+      {
+       "name": "Sennar (town)",
+       "lat": 13.55,
+       "lon": 33.6,
+       "source_ids": [
+        "GHA2"
+       ],
+       "coord_source": "Wikidata Q611867"
+      }
+     ],
+     "sources": [
+      "GHA2"
+     ]
+    }
+   ],
    "license": "Wikidata coordinates: CC0; Pleiades coordinates: CC BY 3.0; limit text: short quotations from cited works",
    "ohm_source_ids": [],
    "geojson": null
@@ -227,7 +340,8 @@
    "source_ids": [
     "GHA2_CH12",
     "FR_MUSEE_MEROE",
-    "DERDA_LAJTAR2019"
+    "DERDA_LAJTAR2019",
+    "WP_MAKURIA"
    ],
    "ohm_ids": [
     2960090,
@@ -235,7 +349,78 @@
     2960088
    ],
    "cshapes": null,
-   "notes": "The OHM relations carry no source tag; check them against the cited text before use. Two extents: before and after the union with Nobadia. OHM 2960090 (450–1265) reaches c.23.7°N, so it includes Nobadia's territory from 450, which conflicts with GHA2_CH12 (Nobadia was a separate kingdom from Philae to the Second Cataract until the union). Union with Nobadia: c.630 (Derda & Łajtar 2019) to c.697+ (Merkurios, GHA2_CH12); split the extent at the union with a disputed-date flag.",
+   "notes": "The OHM relations carry no source tag; check them against the cited text before use. Two extents: before and after the union with Nobadia. OHM 2960090 (450–1265) reaches c.23.7°N, so it includes Nobadia's territory from 450, which conflicts with GHA2_CH12 (Nobadia was a separate kingdom from Philae to the Second Cataract until the union). Union with Nobadia: c.630 (Derda & Łajtar 2019) to c.697+ (Merkurios, GHA2_CH12); split the extent at the union with a disputed-date flag. Pass 16: sub-period reaches added under 'phases' (text only, low confidence; no geometry).",
+   "phases": [
+    {
+     "year_from": 1276,
+     "year_to": 1365,
+     "label": "Mamluk vassal kingdom",
+     "confidence": "low",
+     "reach_en": "Wikipedia (flagged): after 1276 Makuria became a Mamluk vassal and had to 'transfer Lower Nubia to Baybars', though this 'was probably never put into action'; under king Siti (c.1330s) Nubian sources run 'from Lower Nubia to Kordofan' (WP_MAKURIA citing Seignobos 2018, Ruffini 2012 pp.253–254). The Alodia border was 'somewhere between Abu Hamad and the Nile-Atbara confluence' (WP citing Welsby 2014) – for the earlier kingdom, not dated to this window. No scholarly text read by us.",
+     "anchors": [
+      {
+       "name": "Old Dongola",
+       "lat": 18.2231,
+       "lon": 30.7439,
+       "source_ids": [
+        "WP_MAKURIA"
+       ],
+       "coord_source": "Wikidata Q433112"
+      },
+      {
+       "name": "Abu Hamad (approx. southern border zone)",
+       "lat": 19.5375,
+       "lon": 33.3275,
+       "source_ids": [
+        "WP_MAKURIA"
+       ],
+       "coord_source": "Wikidata Q2439710"
+      }
+     ],
+     "sources": [
+      "WP_MAKURIA"
+     ]
+    },
+    {
+     "year_from": 1366,
+     "year_to": 1500,
+     "label": "Rump kingdom at Gebel Adda",
+     "confidence": "low",
+     "reach_en": "Wikipedia (flagged): after the 1365 civil war Dongola was abandoned and the kingdom centred on Gebel Adda and Qasr Ibrim, 'extending at least from Qasr Ibrim in the north to Meinarti at the 2nd cataract', perhaps from the 1st to the 3rd cataract, matching the 'castle house' distribution (WP_MAKURIA citing Gerhards 2025 pp.188–189). Last known king Joel, 1463; collapse probably late 15th c. Use the Qasr Ibrim–Meinarti stretch as the minimum.",
+     "anchors": [
+      {
+       "name": "Gebel Adda (capital after 1365)",
+       "lat": 22.2971,
+       "lon": 31.6369,
+       "source_ids": [
+        "WP_MAKURIA"
+       ],
+       "coord_source": "Wikidata Q1496812"
+      },
+      {
+       "name": "Qasr Ibrim (minimum northern point)",
+       "lat": 22.6502,
+       "lon": 31.9915,
+       "source_ids": [
+        "WP_MAKURIA"
+       ],
+       "coord_source": "Wikidata Q2121453"
+      },
+      {
+       "name": "Meinarti (minimum southern point, 2nd cataract)",
+       "lat": 21.0069,
+       "lon": 30.5778,
+       "source_ids": [
+        "WP_MAKURIA"
+       ],
+       "coord_source": "Wikidata Q168588"
+      }
+     ],
+     "sources": [
+      "WP_MAKURIA"
+     ]
+    }
+   ],
    "license": "Wikidata coordinates: CC0; OHM geometry: CC0 1.0; limit text: short quotations from cited works",
    "ohm_source_ids": [
     "OHM_2960090",
@@ -421,6 +606,15 @@
       "HD2011"
      ],
      "coord_source": "Wikidata Q571215"
+    },
+    {
+     "name": "Salima (Selima) Oasis – route junction, not a border",
+     "lat": 21.3667,
+     "lon": 29.3167,
+     "source_ids": [
+      "HD2011"
+     ],
+     "coord_source": "Wikidata Q85800315"
     }
    ],
    "control_limits_en": "In 1821 the lands 'from Nubia to the Ethiopian foothills and from the Atbara to Darfur' became part of Muhammad Ali's empire (ZH_EMB_HIST2020: 从努比亚至衣索比亚山麓和从阿特巴拉河至达尔富尔). Darfur was held by the Kayra until 1874 (GHA6_CH14). In Equatoria, Baker and Gordon 'were unable to extend Turkish administration … beyond a few scattered posts' (GHA6_CH14).",
@@ -428,13 +622,14 @@
    "source_ids": [
     "ZH_EMB_HIST2020",
     "GHA6_CH14",
-    "HD2011"
+    "HD2011",
+    "OHM_2690845"
    ],
    "ohm_ids": [
     2690845
    ],
    "cshapes": null,
-   "notes": "OHM 2690845 'Turco-Egyptian Sudan' (1820–1867), no source tag. Its polygon reaches c.22.3°E, so it includes Darfur, which conflicts with GHA6_CH14 (Darfur held by the Kayra until 1874). OHM 2690836 (Khedivate of Egypt) was dropped because it covers Egypt only. Extents grow in stages: 1821, then Taka/Kassala, Equatoria posts, Darfur 1874.",
+   "notes": "OHM 2690845 'Turco-Egyptian Sudan' (1820–1867), no source tag. Its polygon reaches c.22.3°E, so it includes Darfur, which conflicts with GHA6_CH14 (Darfur held by the Kayra until 1874). OHM 2690836 (Khedivate of Egypt) was dropped because it covers Egypt only. Extents grow in stages: 1821, then Taka/Kassala, Equatoria posts, Darfur 1874. Pass 16: OHM 2690845 tags (checked 2026-10-20) carry no source tag, and colony_of=Britain is wrong for 1820–67; its north-west corner is unsourced. Scholarly statements found: GHA VI ch.14 (Ibrahim, p.372) gives the extent only at the end of the period – 'from the second cataract to the equatorial lakes and from the Red Sea to Darfur', Darfur being added under Ismail (1874). HD2011 (intro, pp.8–9) places Darfur's frontier-post at Suwayna on the Darb al-Arba'in, which met the Nile route at the Salima (Selima) Oasis (Wikidata Q85800315, 21.3667N 29.3167E) – that describes the pre-1820 route, not a Turkiyya border. No source read gives a north-western limit for 1821–1874. Recommendation: before 1874 clip the western edge at Darfur's eastern border (Kordofan was taken in 1821, Darfur only in 1874) and do not draw anything into the Libyan desert; mark the north-west edge 'unsourced'.",
    "license": "Wikidata coordinates: CC0; OHM geometry: CC0 1.0; limit text: short quotations from cited works",
    "ohm_source_ids": [
     "OHM_2690845"
@@ -507,7 +702,8 @@
    "control_limits_ar": "«منذ يناير 1899 أُعلن السودان الشرقي ملكاً مشتركاً (حكماً ثنائياً) لبريطانيا العظمى ومصر، وتحوّل فعلياً إلى مستعمرة بريطانية» (الموسوعة الروسية الكبرى). ولم «تنطفئ نهائياً» دولة الفور المسلمة «حتى 1916» (هولت وديلي)، فظلت دارفور خارج السيطرة المباشرة حتى ذلك العام.",
    "source_ids": [
     "BRE_AES",
-    "HD2011"
+    "HD2011",
+    "IBS18_1962"
    ],
    "ohm_ids": [
     2831546,
@@ -517,7 +713,28 @@
     2803203
    ],
    "cshapes": null,
-   "notes": "OHM Anglo-Egyptian Sudan series: 1899-06-19→1902, 1902→1910-06-10, 1910-06-10→1912, 1912→1934, 1934→1956-01-01, all without source tags. CShapes 2.0 also covers dependencies from 1886, but it is CC BY-NC-SA, so do not use it for shapes.",
+   "notes": "OHM Anglo-Egyptian Sudan series: 1899-06-19→1902, 1902→1910-06-10, 1910-06-10→1912, 1912→1934, 1934→1956-01-01, all without source tags. CShapes 2.0 also covers dependencies from 1886, but it is CC BY-NC-SA, so do not use it for shapes. Pass 16: Halaib Triangle and Bir Tawil dates under 'disputed_features' (IBS18_1962 primary for 1899/1902/1958).",
+   "disputed_features": {
+    "halaib": {
+     "start": 1902,
+     "start_note": "Administrative line made by arrêté of 25 Jul 1902 and decree of 4 Nov 1902 (IBS18_1962 p.3); the 22nd-parallel political line dates from the 19 Jan 1899 Agreement (p.2). The territory becomes a two-sided dispute at independence in 1956 (WP_HALAIB); first open crisis: Egyptian note of 1 Feb 1958, plebiscite set for 21 Feb 1958 (IBS18_1962 p.5).",
+     "recommend": "Draw 'Sudan-administered north of 22°N' 1902–1956; 'disputed' 1956–present; Egyptian control from 1995 (expulsion of Sudanese police after the June 1995 Addis Ababa attempt on Mubarak); Sudanese forces withdrew Jan 2000. 1990s dates are Wikipedia-only (citing Ofcansky 2002 p.985), flagged. WP_HALAIB also says 'in 1994 the Egyptian military moved to take control', and elsewhere 'under Egyptian administration since mid-1990' – inconsistent; use 1995 with a note.",
+     "sources": [
+      "IBS18_1962",
+      "WP_HALAIB"
+     ]
+    },
+    "bir_tawil": {
+     "start": 1902,
+     "end": "ongoing",
+     "start_note": "Egypt-administered area south of 22°N under the 1902 line (IBS18_1962 pp.3–4; Ababda grazing). Unclaimed by either state from 1956 on (WP_BIRTAWIL).",
+     "recommend": "Draw 'Egypt-administered south of 22°N' 1902–1956; 'unclaimed (terra nullius)' 1956–ongoing.",
+     "sources": [
+      "IBS18_1962",
+      "WP_BIRTAWIL"
+     ]
+    }
+   },
    "license": "Wikidata coordinates: CC0; OHM geometry: CC0 1.0; limit text: short quotations from cited works",
    "ohm_source_ids": [
     "OHM_2831546",

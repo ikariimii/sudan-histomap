@@ -2430,6 +2430,16 @@
     "pages": "",
     "lang": "en"
    },
+   "IBS18_1962": {
+    "author": "The Geographer, Office of the Geographer, Bureau of Intelligence and Research, US Department of State",
+    "title": "International Boundary Study No. 18: Sudan – Egypt (United Arab Republic) Boundary",
+    "publisher": "US Department of State (FSU College of Law mirror)",
+    "year": "1962",
+    "pages": "pp.2–5",
+    "url": "https://library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs018.pdf",
+    "lang": "en",
+    "note": "Full text read 2026-10-20. Primary government study; written 1962, so it says nothing about the 1990s."
+   },
    "ICG2014": {
     "author": "International Crisis Group",
     "title": "South Sudan: A Civil War by Any Other Name (Africa Report 217)",
@@ -2591,14 +2601,14 @@
     "lang": "en"
    },
    "OHM_2690845": {
-    "author": "OpenHistoricalMap contributors",
-    "title": "Turco-Egyptian Sudan (1820–1867), relation 2690845",
-    "publisher": "OpenHistoricalMap",
-    "year": "",
+    "author": "OpenHistoricalMap contributors (last edit: CharliePlett, changeset 272117, 2026-09-21)",
+    "title": "Relation 2690845 'Turco-Egyptian Sudan' (start_date 1820, end_date 1867)",
+    "publisher": "OpenHistoricalMap (CC0)",
+    "year": "2026",
     "pages": "",
-    "url": "https://www.openhistoricalmap.org/relation/2690845",
+    "url": "https://www.openhistoricalmap.org/api/0.6/relation/2690845.json",
     "lang": "en",
-    "note": "CC0 1.0. The relation has no source tag, so its geometry is unverified against the cited texts. Raw download is in db/extents/raw/ohm_2690845.json"
+    "note": "Tags checked 2026-10-20: no source, source:* or note tag; tags include colony_of=Britain (wrong for 1820–67), wikidata Q2464621, wikipedia es:Sudán turco. Member ways not checked one by one."
    },
    "OHM_2803203": {
     "author": "OpenHistoricalMap contributors",
@@ -3521,16 +3531,6 @@
     "pages": "",
     "lang": "en"
    },
-   "WP:Makuria": {
-    "author": "Wikipedia contributors",
-    "title": "Makuria",
-    "publisher": "Wikipedia",
-    "year": "",
-    "url": "https://en.wikipedia.org/wiki/Makuria",
-    "note": "Secondary/starting-point link",
-    "pages": "",
-    "lang": "en"
-   },
    "WP:Mamluk_Sultanate": {
     "author": "Wikipedia contributors",
     "title": "Mamluk Sultanate",
@@ -3870,6 +3870,36 @@
     "note": "Secondary/starting-point link",
     "pages": "",
     "lang": "en"
+   },
+   "WP_BIRTAWIL": {
+    "author": "Wikipedia contributors",
+    "title": "Bir Tawil",
+    "publisher": "Wikipedia",
+    "year": "2026",
+    "pages": "",
+    "url": "https://en.wikipedia.org/wiki/Bir_Tawil",
+    "lang": "en",
+    "note": "WIKIPEDIA – flagged; cross-check only."
+   },
+   "WP_HALAIB": {
+    "author": "Wikipedia contributors",
+    "title": "Halaib Triangle",
+    "publisher": "Wikipedia",
+    "year": "2026",
+    "pages": "",
+    "url": "https://en.wikipedia.org/wiki/Halaib_Triangle",
+    "lang": "en",
+    "note": "WIKIPEDIA – flagged. Used only for post-1962 dates; its own citations are Ofcansky 2002 (Africa South of the Sahara, p.985), Dzurek & Schofield 2001 (IBRU, p.4) and a 2002 briefing; not read by us."
+   },
+   "WP_MAKURIA": {
+    "author": "Wikipedia contributors",
+    "title": "Makuria",
+    "publisher": "Wikipedia",
+    "year": "2026",
+    "pages": "sections 'Decline' and 'Terminal period'",
+    "url": "https://en.wikipedia.org/wiki/Makuria",
+    "lang": "en",
+    "note": "WIKIPEDIA – flagged. Late-period reach rests on its citations of Gerhards 2025 (IJAHS 58/2, pp.183–202, esp. pp.188–190) and Ruffini 2012 (pp.253–254), Seignobos 2018; none read by us."
    },
    "XINHUA_GOLD2025": {
     "author": "Xinhua (reporting a Sudanese Mineral Resources Company report)",
@@ -4390,7 +4420,7 @@
    ],
    "sources": [
     "WELSBY2002",
-    "WP:Makuria",
+    "WP_MAKURIA",
     "WP:Baqt",
     "GHA2_CH12",
     "DERDA_LAJTAR2019"
