@@ -13,6 +13,7 @@ section{background:#fffaf0;border:1px solid #c9b48a;border-radius:6px;padding:12
 .note{font-size:13px;color:#6b5a40}ol.src li{margin-bottom:5px;font-size:14px}ol.src{direction:ltr;text-align:left}
 .cmp{border-left:6px solid;padding:6px 10px;margin:8px 0;background:#fff;font-size:14px}
 svg text{font-family:HSerif,serif}body.ar svg text.ar{font-family:HNaskh,serif}
+.rcbox{background:#f7f5f0;border:1px dashed #a89f8e;color:#4a4438}.rcbox h2{border-bottom-color:#a89f8e}.rcb{background:#f1efe9;border:1px dashed #a89f8e;color:#5d5548}
 .pill{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;background:#e8dcc0;margin-inline-end:4px}
 main>*{min-width:0}svg{max-width:100%;height:auto}section{overflow-wrap:anywhere}
 @media (max-width:760px){main{grid-template-columns:1fr;padding:12px}header{flex-wrap:wrap;padding:8px 12px}h1{font-size:26px}}
@@ -29,26 +30,32 @@ document.getElementById('brand').textContent=T('SUDAN HISTOMAP · Era wiki','خ�
 document.getElementById('back').textContent=T('← Histomap','→ الخريطة');document.getElementById('back').href='index.html'+(AR?'?lang=ar':'');
 document.getElementById('idx').textContent=T('All eras','كل العصور');document.getElementById('idx').href='eras.html'+(AR?'?lang=ar':'');
 const sw=document.getElementById('sw');sw.textContent=AR?'English':'العربية';sw.href=q2('lang',AR?null:'ar');
-const E=id&&V.loadJSON('data/eras/'+encodeURIComponent(id)+'.json'),COMP=V.loadJSON('data/eras/comparison.json')||{known:[],auto:[]};
+const IDX=V.loadJSON('data/eras/index.json'),E=id&&(!IDX||(IDX.eras||[]).some(e=>e.id===id))&&V.loadJSON('data/eras/'+encodeURIComponent(id)+'.json'),COMP=V.loadJSON('data/eras/comparison.json')||{known:[],auto:[]};
 const M=d3.select('#m');
 if(!E){M.html(`<section style="grid-column:1/-1"><h2>${T('Era not found','العصر غير موجود')}</h2><p class="flag">${T('No era file for id','لا يوجد ملف للمعرّف')} <code dir="ltr">${id||''}</code>.</p><a href="eras.html">${T('Browse all eras','تصفح كل العصور')}</a></section>`);}
 else{
  document.title=(AR?E.name_ar:E.name_en)+' · Sudan Histomap';
  const L=M.append('div'),R=M.append('div');
- const flagBox=(what)=>`<div class="flag">⚑ ${T('Under research — no source-backed text yet for','قيد البحث — لا يوجد نص مدعوم بمصادر بعد عن')} ${what}.${(E.flags||[]).filter(f=>f.toLowerCase().startsWith(what.split(' ')[0].toLowerCase())).map(f=>' <span dir="ltr">('+f+')</span>').join('')}</div>`;
+ const WAR={events:'الأحداث',geopolitics:'الجغرافيا السياسية',culture:'الثقافة والهيمنة','regional power':'ميزان القوى الإقليمي',sites:'المواقع',citations:'المراجع'};
+ const flagBox=(what)=>`<div class="flag">⚑ ${T('Under research — no source-backed text yet for','قيد البحث — لا يوجد نص مدعوم بمصادر بعد عن')} ${AR?(WAR[what]||what):what}.${(E.flags||[]).filter(f=>f.toLowerCase().startsWith(what.split(' ')[0].toLowerCase())).map(f=>' <span dir="ltr">('+f+')</span>').join('')}</div>`;
  L.append('h1').text(AR?E.name_ar:E.name_en);
- L.append('div').attr('class','sub').html(`${AR?'<span dir="ltr">'+E.name_en+'</span> · ':''}${fy(E.start)} – ${fy(E.end)} · ${E.stream} ${E.curated?`<span class="pill">${T('curated','محرَّر')}</span>`:`<span class="pill">${T('auto-generated','مولَّد آلياً')}</span>`} ${(E.source_langs||[]).map(l=>'<span class="tag">'+l.toUpperCase()+'</span>').join('')}`);
+ L.append('div').attr('class','sub').html(`${AR?'<span dir="ltr">'+E.name_en+'</span> · ':''}${fy(E.start)} – ${fy(E.end)} · ${AR&&window.AR&&window.AR.streams?window.AR.streams[E.stream]||E.stream:E.stream} ${E.curated?`<span class="pill">${T('curated','محرَّر')}</span>`:`<span class="pill">${T('auto-generated','مولَّد آلياً')}</span>`} ${(E.source_langs||[]).map(l=>'<span class="tag">'+l.toUpperCase()+'</span>').join('')}`);
  if(E.dating_note)L.append('div').attr('class','note').attr('dir','ltr').style('text-align',AR?'right':'left').html('<b>'+T('Dating note','ملاحظة التأريخ')+':</b> '+E.dating_note);
  const sec=(title,body)=>L.append('section').html(`<h2>${title}</h2>`+body);
  const txt=(k,label)=>{const v=E[k+(AR?'_ar':'_en')];return v?`<p style="margin:0">${v}</p>`:flagBox(label)};
  sec(T('Key events','الأحداث الرئيسية'),(E.events||[]).length?'<ul style="margin:0">'+E.events.map(e=>`<li>${AR?(e.ar||e.en):e.en}</li>`).join('')+'</ul>':flagBox('events'));
+ const SUD=['Sudan – Middle Nile','Sudan – Republic','Sudan – Darfur & Kordofan','South Sudan – Upper Nile'],RCW=!SUD.includes(E.stream)&&!['geopolitics','culture_dominance','economy'].some(k=>E[k+'_en']||E[k+'_ar']);
+ if(RCW){L.select('.sub').html(L.select('.sub').html().replace(/<span class="pill">[^<]*<\/span>/,`<span class="pill rcb">${T('Regional context · research in progress','سياق إقليمي · البحث جارٍ')}</span>`));
+  L.append('section').attr('class','rcbox').html(`<h2>${T('Regional context, research in progress','سياق إقليمي، البحث جارٍ')}</h2><p style="margin:0">${T('No source-backed narrative yet for geopolitics, culture & dominance, economy & trade or the regional power balance. Only the dates, capitals, events and citations shown here come from the dataset; nothing is filled in.','لا يوجد بعد نص مدعوم بمصادر عن الجغرافيا السياسية أو الثقافة والهيمنة أو الاقتصاد والتجارة أو ميزان القوى الإقليمي. التواريخ والعواصم والأحداث والمراجع المعروضة هنا وحدها مأخوذة من البيانات؛ ولا يُملأ أي شيء من عندنا.')}</p>`);}
+ if(!RCW){
  sec(T('Geopolitics','الجغرافيا السياسية'),txt('geopolitics','geopolitics'));
  sec(T('Culture & dominance','الثقافة والهيمنة'),txt('culture_dominance','culture'));
  sec(T('Economy & trade','الاقتصاد والتجارة'),txt('economy','economy'));
  // power balance
- const pb=L.append('section');pb.append('h2').text(T('Regional power balance (0–1)','ميزان القوى الإقليمي (٠–١)'));
+ }
+ const pb=RCW?d3.select(null):L.append('section');pb.append('h2').text(T('Regional power balance (0–1)','ميزان القوى الإقليمي (٠–١)'));
  const RP=E.regional_power||[];
- if(!RP.length)pb.html(pb.html()+flagBox('regional power'));
+ if(RCW){}else if(!RP.length)pb.html(pb.html()+flagBox('regional power'));
  else{const W=680,rh=46,H=RP.length*rh+34,s=pb.append('svg').attr('width','100%').attr('viewBox',`0 0 ${W} ${H}`),x0=230,x=d3.scaleLinear([0,1],[0,W-x0-20]);
   const X=v=>AR?W-x0-x(v):x0+x(v);
   [0,.25,.5,.75,1].forEach(v=>{s.append('line').attr('x1',X(v)).attr('x2',X(v)).attr('y1',4).attr('y2',H-24).attr('stroke','#c9b48a').attr('stroke-dasharray','2 3');s.append('text').attr('x',X(v)).attr('y',H-8).attr('text-anchor','middle').attr('font-size',12).text(AD(v))});

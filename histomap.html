@@ -40,6 +40,7 @@ if(LENS!=='main'){LENS_FILE=lensSrcs(V.loadJSON('db/lens_'+LENS+'.json'));
   P=out;if(!P.length)LENS_STATE='empty';}}
 const ALL=LENS==='main'?[...new Set(HISTO.periods.map(d=>d.stream))]:[...new Set(HISTO.periods.map(d=>d.stream))].filter(s=>P.some(p=>p.stream===s));
 const EV=d=>(AR_ON&&d.key_events_ar&&d.key_events_ar.length)?d.key_events_ar:(d.key_events||[]);
+const WIPF=V.loadJSON('data/eras/regional-wip.json')||{names:[]},WIP=new Set(WIPF.names||[]),RCT=AR_ON?'سياق إقليمي · البحث جارٍ':'Regional context · research in progress';
 const nm=d=>AR_ON?(AR.names[d.name]||d.name):d.name, sn=s=>AR_ON?(AR.streams[s]||s):s;
 const AD=n=>AR_ON?String(n).replace(/\d/g,c=>'٠١٢٣٤٥٦٧٨٩'[c]):String(n);
 const fy=t=>t>=2026?(AR_ON?AR.ui.present:'present'):t<0?AD(-t)+' '+(AR_ON?AR.ui.bce:'BCE'):AD(t)+(t<1000?' '+(AR_ON?AR.ui.ce:'CE'):'');
@@ -79,7 +80,7 @@ function block(svg,o){
  PS.forEach(d=>{const i=o.streams.indexOf(d.stream),lw=cw/d._k,ln=rtl?d._k-1-d._lane:d._lane,w=Math.max(4,lw*(d._k>1?Math.max(.55,d.prominence):d.prominence)*.94-2),x=colX(i)+ln*lw+(lw-w)/2;
   const y0=y(Math.max(d.start,t0)),y1=y(Math.min(d.end,t1)),h=Math.max(3,y1-y0),foc=o.focus&&o.focus.test(d.name);
   g.append('rect').attr('class','band').datum(d).attr('fill',FILL[d.name]||pal(d.stream)).attr('rx',5).attr('x',x).attr('width',w).attr('y',y0).attr('height',h)
-   .attr('opacity',o.focus?(foc?1:.35):.95).attr('stroke-width',foc?2:.6).on('click',(e,dd)=>select(dd)).append('title').text(nm(d));
+   .attr('opacity',o.focus?(foc?1:.35):WIP.has(d.name)?.45:.95).attr('stroke-width',foc?2:.6).attr('stroke-dasharray',WIP.has(d.name)?'4 3':null).on('click',(e,dd)=>select(dd)).append('title').text(nm(d)+(WIP.has(d.name)?' — '+RCT:''));
   const fs=o.fs*(foc?1.08:.92),mc=Math.max(5,Math.floor(w/(fs*.6))),lines=wrap(nm(d),mc);
   if(h>=lines.length*fs*1.15+6&&lines.length<=4&&mc>=7){const t=g.append('text').attr('class','lbl').attr('font-size',fs).attr('font-weight',foc?'bold':null).attr('direction',rtl?'rtl':'ltr')
     .attr('fill',d3.lab(pal(d.stream)).l<45&&!FILL[d.name]?'#fbf3e2':'#1b120a').attr('paint-order','stroke');
@@ -124,6 +125,7 @@ function foot(W,y,fs){[DISC,CREDIT].forEach((t,k)=>{wrap(t,Math.floor(W/(fs*.5))
  const bar=d3.select('#lensbar');let t=(AR_ON?'العدسة: ':'Lens: ')+'<b>'+L2(LENS)+'</b>';
  if(LENS!=='main')t+=LENS_STATE==='ok'?(AR_ON?` — ${AD(P.length)} فترة من db/lens_${LENS}.json`:` — ${P.length} periods from db/lens_${LENS}.json (dates as given by those sources)`):(AR_ON?' — لا توجد بيانات بعد':' — no data yet');
  if(DIFF)t+=(AR_ON?' · وضع المقارنة: ':' · Diff mode: ')+'<b>'+L2(DIFF)+'</b> '+(AR_ON?'مقابل البيانات الرئيسية':'vs main')+' — '+['agree','partial','conflict','no-conflict'].map(k=>`<span style="display:inline-block;width:12px;height:12px;border:3px solid ${V.STATUS[k][2]};vertical-align:middle"></span> ${V.STATUS[k][AR_ON?1:0]}`).join(' &nbsp;');
+ if(LENS==='main'&&!DIFF&&WIP.size)t+=` · <span id="wipcount" title="${AR_ON?'عصور سياق إقليمي بلا نص مدعوم بمصادر بعد':'Regional-context eras with no source-backed narrative yet'}"><span style="display:inline-block;width:12px;height:12px;border:1px dashed #555;opacity:.6;vertical-align:middle"></span> ${RCT}: ${AD(WIP.size)}</span>`;
  bar.html(t);}
 const SPLIT=Q.get('splitcard');
 // Split-timeline cards for the "Sudan through other eyes" series. Text follows social/drafts-ep1-4-x.md (EN/AR),
@@ -248,7 +250,7 @@ function draw(t,sel){const c=P.filter(d=>d.start<=t&&d.end>=t).flatMap(d=>(d.cap
   if(!ok)t.attr('display','none');d3.select(this).selectAll('title').remove();d3.select(this).append('title').text(d.name);});
  d3.select('#yrl').text(fy(t));d3.selectAll('.band').classed('sel',d=>d===sel);}
 function select(d){document.body.classList.remove('nopanel');const t=Math.round((d.start+Math.min(d.end,2026))/2);document.getElementById('yr').value=t;draw(t,d);
- info.innerHTML=`<h3 style="margin:0">${nm(d)}</h3>${AR_ON?'<div dir="ltr" style="font-size:12px">'+d.name+'</div>':''}<i>${sn(d.stream)} · ${fy(d.start)} – ${fy(d.end)}</i>${d.dating_note?' <small dir="ltr" style="unicode-bidi:isolate">('+d.dating_note+')</small>':''}<ul dir="${AR_ON?'rtl':'ltr'}">${EV(d).map(e=>'<li>'+e+'</li>').join('')}</ul><b>${AR_ON?'العواصم/المواقع':'Capitals/sites'}:</b> ${(d.capitals||[]).map(c=>c.name).join(', ')}<br>${d._lensItem&&LFR(d._lensItem)?`<div class="framing" style="border-inline-start:4px solid #c98a1a;background:#fbf1dc;padding:4px 8px;margin:6px 0"><b>${AR_ON?'ملاحظة التأطير':'Framing note'}:</b> <bdi>${LFR(d._lensItem)}</bdi></div>`:''}<b>${AR_ON?'المصادر':'Sources'}:</b> <ol dir="ltr" style="margin:4px 0">${(d.sources||[]).map(cite).join('')}</ol>`;}
+ info.innerHTML=`<h3 style="margin:0">${nm(d)}</h3>${AR_ON?'<div dir="ltr" style="font-size:12px">'+d.name+'</div>':''}<i>${sn(d.stream)} · ${fy(d.start)} – ${fy(d.end)}</i>${WIP.has(d.name)?`<div style="background:#f7f5f0;border:1px dashed #a89f8e;color:#4a4438;padding:4px 8px;margin:6px 0;font-size:13px">${RCT}${ERA_BY_NAME[d.name]?` · <a href="era.html?id=${ERA_BY_NAME[d.name].id}${AR_ON?'&lang=ar':''}">${AR_ON?'صفحة العصر':'era page'}</a>`:''}</div>`:''}${d.dating_note?' <small dir="ltr" style="unicode-bidi:isolate">('+d.dating_note+')</small>':''}<ul dir="${AR_ON?'rtl':'ltr'}">${EV(d).map(e=>'<li>'+e+'</li>').join('')}</ul><b>${AR_ON?'العواصم/المواقع':'Capitals/sites'}:</b> ${(d.capitals||[]).map(c=>c.name).join(', ')}<br>${d._lensItem&&LFR(d._lensItem)?`<div class="framing" style="border-inline-start:4px solid #c98a1a;background:#fbf1dc;padding:4px 8px;margin:6px 0"><b>${AR_ON?'ملاحظة التأطير':'Framing note'}:</b> <bdi>${LFR(d._lensItem)}</bdi></div>`:''}<b>${AR_ON?'المصادر':'Sources'}:</b> <ol dir="ltr" style="margin:4px 0">${(d.sources||[]).map(cite).join('')}</ol>`;}
 // Full citations: resolve IDs via a sources table (HISTO.sources or HISTO.meta.sources, keyed by id) if the dataset provides one; otherwise describe the URL.
 function cite(src){const T=Object.assign({},V.srcTable(),HISTO.sources||{}),r=(typeof src=='string'&&T[src])||(typeof src=='object'?src:null);
  if(r){const t=[r.lang&&r.lang!=='en'?'<span style="font:bold 10px sans-serif;background:#2b1d0e;color:#fff;padding:0 3px;border-radius:2px">'+r.lang.toUpperCase()+'</span>':'',r.author,r.year&&'('+r.year+')',r.title&&'<i>'+r.title+'</i>'+(r.title_en&&r.title_en!==r.title?' ['+r.title_en+']':''),r.publisher,r.pages].filter(Boolean).join(' ');return `<li>${t||src}${r.url?` <a href="${r.url}" target="_blank">link</a>`:''}${V.badges(r)}</li>`}
