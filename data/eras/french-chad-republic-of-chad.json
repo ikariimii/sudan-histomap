@@ -23,14 +23,18 @@
    "lon": 15.06
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
+ "geopolitics_en": "Chad's conflicts spill directly into Darfur. In the 1980s western Darfur was a battleground between Hissène Habré's troops and Libyan-backed rebels under Idriss Déby, a Zaghawa supported by Darfur's Zaghawa; in May 1990 Chadian soldiers entered al-Fashir; Déby's MPS armed Zaghawa and Arab militias who turned on the Fur; after Déby took power in Dec 1990 he closed the SPLM office (LOC1991_CHAD). After years of proxy war, the 15 Jan 2010 N'Djamena Agreement committed each side to end support for the other's rebels by 21 Feb 2010 and created a frontier-security protocol (NDJAMENA2010) [VERIFY]; a 3,000-strong joint border force deployed under joint command at El Geneina, then Abéché; Déby visited Khartoum on 8–9 Feb 2010, the first such visit since 2004, and helped negotiate the Feb 2010 Doha framework with JEM (UNSC_S2010_217) [VERIFY]. In the 2023 war Chad is described as aligned more closely with the RSF and as having allegedly let the UAE ship arms into Sudan from its territory (ICG_B204) [VERIFY; allegation], while hosting a major refugee influx: Chad prepared for at least 120,000 more Sudanese after the RSF took El Fasher (GEO-079); see also GEO-037, GEO-038. French colonial phase not covered by a read source [thin].",
+ "geopolitics_ar": "تمتد صراعات تشاد مباشرة إلى دارفور. ففي الثمانينيات كان غرب دارفور ساحة معركة بين قوات حسين حبري ومتمردين مدعومين من ليبيا بقيادة إدريس ديبي، وهو من الزغاوة ويدعمه زغاوة دارفور؛ وفي مايو 1990 دخل جنود تشاديون الفاشر؛ وسلحت حركة الإنقاذ الوطني التابعة لديبي ميليشيات من الزغاوة والعرب انقلبت على الفور؛ وبعد تولي ديبي السلطة في ديسمبر 1990 أغلق مكتب الحركة الشعبية (LOC1991_CHAD). وبعد سنوات من الحرب بالوكالة، ألزم اتفاق انجمينا في 15 يناير 2010 كل طرف بوقف دعم متمردي الآخر بحلول 21 فبراير 2010 وأنشأ بروتوكولًا لأمن الحدود (NDJAMENA2010) [يحتاج تحقق]؛ وانتشرت قوة حدودية مشتركة من 3,000 جندي بقيادة مشتركة في الجنينة ثم أبشي؛ وزار ديبي الخرطوم في 8–9 فبراير 2010، في أول زيارة منذ 2004، وساعد في التفاوض على اتفاق الدوحة الإطاري مع حركة العدل والمساواة (UNSC_S2010_217) [يحتاج تحقق]. وفي حرب 2023 توصف تشاد بأنها أقرب إلى الدعم السريع ويُزعم أنها سمحت للإمارات بشحن أسلحة إلى السودان عبر أراضيها (ICG_B204) [ادعاء – يحتاج تحقق]، بينما تستضيف تدفقًا كبيرًا من اللاجئين: استعدت تشاد لاستقبال 120,000 سوداني إضافي على الأقل بعد سيطرة الدعم السريع على الفاشر (GEO-079)؛ انظر أيضًا GEO-037 وGEO-038. أما المرحلة الاستعمارية الفرنسية فلم يغطها مصدر مقروء. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
  "culture_dominance_en": null,
  "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "economy_en": "On 10 Apr 2010 the Chad–Sudan border reopened at three points for the first time since 2003 and cross-border trade resumed (UNSC_S2010_217) [SINGLE-SOURCE; VERIFY].",
+ "economy_ar": "في 10 أبريل 2010 أعيد فتح الحدود التشادية-السودانية عند ثلاث نقاط لأول مرة منذ 2003 واستؤنفت التجارة العابرة للحدود (UNSC_S2010_217) [مصدر واحد؛ يحتاج تحقق]. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
  "regional_power": [],
  "sources": [
+  "LOC1991_CHAD",
+  "NDJAMENA2010",
+  "UNSC_S2010_217",
+  "ICG_B204",
   "GHA7_CH17",
   "GHA8",
   "WP:Chad"
@@ -39,10 +43,10 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
   "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "UAE arms via Chad: allegation reported by ICG – contested, VERIFY",
+  "French colonial phase 1900–1960 thin"
  ],
- "curated": false
+ "curated": true
 }

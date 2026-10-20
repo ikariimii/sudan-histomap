@@ -23,14 +23,20 @@
    "lon": 38.93
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
+ "geopolitics_en": "Eritrea's war of independence (1961, about 30 years) sent hundreds of thousands of refugees into eastern Sudan; camps there held over a million people at their late-1980s peak, and the 1998 Ethiopia–Eritrea war brought a new influx (SAS_HSBA_WP3). Sudan openly backed Eritrean liberation movements from the late 1970s (LOC_ETH1991_BORDER). After independence, Eritrea hosted the Sudanese opposition: Beja Congress politicians moved there in the early 1990s to join the NDA; the Rashaida Free Lions (1999) had 'strong support' from Asmara; in 2005 they formed the Eastern Front, whose dependence on Eritrea weakened it. Eritrea mediated the Eastern Sudan Peace Agreement of 14 Oct 2006, which reopened the border and improved Asmara–Khartoum ties (SAS_HSBA_WP3). From 1996 the SPLA also based a 'New Sudan Brigade' in western Eritrea (HRW1998_SPLA) [VERIFY]. In the Tigray war period Eritrea kept influence among cross-border tribes such as the Beni Amer (GEO-015). In the 2023 war Eritrea backs the army (ICG_B204) and has aided army-aligned militias in the east (ICG_ETH_ERI); Sudan War Monitor reports two Eritrea-backed militias, the UPFLJ 'Eastern Corps' and NMJD, deploying in Kassala in late Oct 2024 (SWM_ERI2024) [VERIFY]. Colonial phase (Italian colony from 1890) not covered by a read source [thin; WP:Eritrea only].",
+ "geopolitics_ar": "دفعت حرب استقلال إريتريا (منذ 1961 ولنحو 30 عامًا) مئات الآلاف من اللاجئين إلى شرق السودان؛ وضمت المخيمات هناك أكثر من مليون شخص في ذروتها أواخر الثمانينيات، وجلبت حرب إثيوبيا-إريتريا عام 1998 موجة جديدة (SAS_HSBA_WP3). ودعم السودان علنًا حركات التحرير الإريترية منذ أواخر السبعينيات (LOC_ETH1991_BORDER). وبعد الاستقلال استضافت إريتريا المعارضة السودانية: انتقل سياسيو مؤتمر البجا إليها مطلع التسعينيات للانضمام إلى التجمع الوطني الديمقراطي؛ وحظيت الأسود الحرة الرشايدة (1999) «بدعم قوي» من أسمرا؛ وفي 2005 شكلا جبهة الشرق التي أضعفها اعتمادها على إريتريا. وتوسطت إريتريا في اتفاق سلام شرق السودان في 14 أكتوبر 2006، الذي أعاد فتح الحدود وحسّن العلاقات بين أسمرا والخرطوم (SAS_HSBA_WP3). ومنذ 1996 أقام الجيش الشعبي «لواء السودان الجديد» في غرب إريتريا (HRW1998_SPLA) [يحتاج تحقق]. وخلال حرب تيغراي احتفظت إريتريا بنفوذ بين القبائل العابرة للحدود مثل بني عامر (GEO-015). وفي حرب 2023 تدعم إريتريا الجيش (ICG_B204) وساعدت ميليشيات متحالفة معه في الشرق (ICG_ETH_ERI)؛ ويفيد Sudan War Monitor بانتشار ميليشيتين مدعومتين من إريتريا، «الأورطة الشرقية» التابعة للجبهة الشعبية المتحدة للتحرير والعدالة والحركة الوطنية للعدالة والتنمية، في كسلا أواخر أكتوبر 2024 (SWM_ERI2024) [يحتاج تحقق]. أما المرحلة الاستعمارية الإيطالية (منذ 1890) فلم يغطها مصدر مقروء. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
  "culture_dominance_en": null,
  "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "economy_en": "The 2006 ESPA provided a four-year USD 600 million development fund for the eastern region, controlled in practice by the NCP (SAS_HSBA_WP3) [SINGLE-SOURCE]. The east is described as an economic frontier with road, rail and oil-pipeline links and cross-border smuggling to Eritrea and Egypt (SAS_HSBA_WP3).",
+ "economy_ar": "نص اتفاق سلام الشرق لعام 2006 على صندوق تنمية للإقليم الشرقي بقيمة 600 مليون دولار على أربع سنوات، يسيطر عليه حزب المؤتمر الوطني عمليًا (SAS_HSBA_WP3) [مصدر واحد]. ويوصف الشرق بأنه تخم اقتصادي ذو روابط طرق وسكك حديد وخط أنابيب نفط، مع تهريب عابر للحدود نحو إريتريا ومصر (SAS_HSBA_WP3). [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
  "regional_power": [],
  "sources": [
+  "LOC_ETH1991_BORDER",
+  "HRW1998_SPLA",
+  "SAS_HSBA_WP3",
+  "ICG_B204",
+  "ICG_ETH_ERI",
+  "SWM_ERI2024",
   "GHA7_CH17",
   "GHA8",
   "WP:Eritrea"
@@ -39,10 +45,10 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
   "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Italian colonial phase 1890–1941/52 thin – no read source",
+  "Eastern Corps/NMJD from SWM excerpt – VERIFY"
  ],
- "curated": false
+ "curated": true
 }

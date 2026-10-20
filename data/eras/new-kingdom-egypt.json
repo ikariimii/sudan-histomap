@@ -23,14 +23,17 @@
    "lon": 32.64
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "Kush ended when Tuthmose I 'conquered Nubia beyond the Fourth Cataract' (GHA II ch.9, p.261). A viceroy, titled 'King's son of Kush' from the reign of Tuthmose IV, governed Wawat (Nekhen to the Second Cataract) and Kush (Second to Fourth Cataracts). He commanded garrisons and the troops escorting expeditions to the gold mines, and he delivered Nubia's tribute to the vizier at Thebes (p.270). Under Ramses XI the viceroy Pa-nehesi and his Nubian troops intervened in Upper Egypt, and Herihor later became viceroy, vizier and then king (p.274).",
+ "geopolitics_ar": "انتهت مملكة كوش حين «فتح تحتمس الأول النوبة إلى ما بعد الشلال الرابع» (تاريخ أفريقيا العام II، الفصل 9، ص261). وكان نائب للملك، يحمل لقب «ابن الملك في كوش» منذ عهد تحتمس الرابع، يحكم واوات (من نخن إلى الشلال الثاني) وكوش (من الشلال الثاني إلى الرابع). وكان يقود الحاميات والقوات التي ترافق البعثات إلى مناجم الذهب، ويسلّم جزية النوبة إلى الوزير في طيبة (ص270). وفي عهد رمسيس الحادي عشر تدخّل نائب الملك بانحسي وقواته النوبية في صعيد مصر، ثم أصبح حريحور نائباً للملك ووزيراً ثم ملكاً (ص274). [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "Egyptian administration brought 'complete egyptianization of Nubia': Nubians adopted Egyptian religion, burial rites and techniques. Princes' sons were educated at the royal court, where they 'forgot their own language'; Djehuty-hotep, Prince of Serra, lived as an upper-class Egyptian (GHA II ch.9, p.271). Yoyotte notes that Egypt 'firmly implanted the worship of the Theban god [Amun] in the land of Kush' (ch.3, p.128). Zayed adds that, although egyptianized, the people of the upper valley 'did not become Egyptian' (ch.4, p.144).",
+ "culture_dominance_ar": "أدّت الإدارة المصرية إلى «تمصير كامل للنوبة»: فقد تبنّى النوبيون الديانة المصرية وطقوس الدفن والتقنيات. وتعلّم أبناء الأمراء في البلاط الملكي حيث «نسوا لغتهم»، وعاش جحوتي حتب، أمير سرة، عيشة المصريين من الطبقة العليا (تاريخ أفريقيا العام II، الفصل 9، ص271). ويذكر يويوت أن مصر «رسّخت عبادة إله طيبة [آمون] في أرض كوش» (الفصل 3، ص128). ويضيف زايد أن سكان الوادي الأعلى، رغم تمصيرهم، «لم يصبحوا مصريين» (الفصل 4، ص144). [WORKING TRANSLATION – needs native Arabic review]",
+ "economy_en": "'The principal product of Nubia was gold.' Under Tuthmose III the annual tribute of Wawat alone was 550 pounds. Gold came from the Wadi Allaqi and Wadi Gabgaba mines in the eastern desert and from mines along the Nile as far south as Abu Hamed. Other tribute included ebony, ivory, cattle, and by the late 18th Dynasty manufactured goods such as shields, stools and beds (GHA II ch.9, p.273). Seti I and Ramses II tried to supply the gold-mine route with water (p.269).",
+ "economy_ar": "«كان الذهب المنتَج الرئيسي للنوبة». ففي عهد تحتمس الثالث بلغت الجزية السنوية لواوات وحدها 550 رطلاً. وجاء الذهب من مناجم وادي العلاقي ووادي جبجبة في الصحراء الشرقية ومن مناجم على امتداد النيل حتى أبو حمد جنوباً. وشملت الجزية أيضاً الأبنوس والعاج والماشية، ومع أواخر الأسرة الثامنة عشرة سلعاً مصنوعة مثل الدروع والكراسي والأسرّة (تاريخ أفريقيا العام II، الفصل 9، ص273). وحاول سيتي الأول ورمسيس الثاني توفير المياه لطريق مناجم الذهب (ص269). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA2_CH3",
+  "GHA2_CH4",
+  "GHA2_CH9",
   "GHA2_CH12",
   "WP:New_Kingdom_of_Egypt"
  ],
@@ -38,10 +41,8 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field"
  ],
- "curated": false
+ "curated": true
 }

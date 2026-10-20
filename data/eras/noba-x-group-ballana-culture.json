@@ -23,12 +23,14 @@
  "geopolitics_ar": "صراع ما بعد مروي بين البليميين والنوباديين؛ سيطر النوباديون على وادي النيل ودفعوا البليميين إلى الصحراء الشرقية؛ ويميل لوكلان إلى أن النوباديين هم سادة بلانة وقسطل.",
  "culture_dominance_en": "Rich royal tumuli at Ballana (excavated by Emery, 1938); some Christian presence before the official conversion is argued from Faras (dating contested) (GHA II ch.12).",
  "culture_dominance_ar": "مدافن ملكية ركامية غنية في بلانة (نقّب عنها إمري 1938)؛ ويُستدل من فرس على وجود مسيحي قبل التنصير الرسمي (والتأريخ موضع خلاف).",
- "economy_en": null,
- "economy_ar": null,
+ "economy_en": "Two kinds of evidence only. (1) Imports: the Ballana and Qustul tumuli held Alexandrian silverware, huge bronze lamps and an ivory-inlaid chest, while the pottery stayed of traditional Meroitic type (GHA II ch.10, p.294). (2) Frontier payments: when Diocletian gave up Lower Nubia, the Blemmyes and Nobades were to guard Rome's southern frontier and 'were paid sums which their petty kings ... enjoyed calling tribute' (GHA II ch.7, p.215). Production and trade are not described.",
+ "economy_ar": "نوعان من الأدلة فقط. (1) الواردات: احتوت مدافن بلانة وقسطل على أوانٍ فضية سكندرية ومصابيح برونزية ضخمة وصندوق مطعّم بالعاج، بينما بقي الفخار من الطراز المروي التقليدي (تاريخ أفريقيا العام II، الفصل 10، ص294). (2) مدفوعات الحدود: حين تخلّى ديوكلتيانوس عن النوبة السفلى، كُلّف البليميون والنوباديون بحراسة الحدود الجنوبية لروما و«كانوا يتقاضون مبالغ يحلو لملوكهم الصغار أن يسمّوها جزية» (تاريخ أفريقيا العام II، الفصل 7، ص215). ولا يُوصف الإنتاج أو التجارة. [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
   "GHA2",
   "GHA2_CH12",
+  "GHA2_CH10",
+  "GHA2_CH7",
   "PL:795783",
   "WELSBY2002",
   "WP:Ballana_culture"
@@ -37,9 +39,9 @@
   "en"
  ],
  "flags": [
-  "economy: no source-backed text yet",
   "regional_power: no actors scored",
-  "null reason – economy: GHA II ch.10 describes Alexandrian silverware and bronze lamps in the Ballana/Qustul tombs but does not discuss production or trade; GHA III not on the box; not inferred"
+  "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "Ballana economy: inferred only from imports and Roman payments; GHA III not read"
  ],
  "curated": true
 }

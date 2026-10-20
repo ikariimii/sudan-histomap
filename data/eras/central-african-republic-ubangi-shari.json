@@ -19,14 +19,16 @@
    "lon": 18.56
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
+ "geopolitics_en": "Since the 2023 war, the RSF is reported to be increasingly crossing into CAR, doing business and recruiting fighters from armed groups there, while a UN report confirms the Sudanese army stepping up air raids along the CAR border; Crisis Group says the incursions have greatly worsened criminal violence in the north, especially Vakaga prefecture (ICG_RADAR2024, 21 Jun 2024) [VERIFY]. UNHCR reports allegations of RSF presence in Vakaga, which hosts most Sudanese refugees in CAR; most arrive via Am Dafock, 65 km from Birao, and the Korsi settlement at Birao held 11,196 refugees by 13 Apr 2024 (UNHCR_CAR2024) [VERIFY]. Colonial Ubangi-Shari and pre-2023 relations not covered by a read source [thin].",
+ "geopolitics_ar": "منذ حرب 2023 تفيد التقارير بأن قوات الدعم السريع تعبر بشكل متزايد إلى جمهورية أفريقيا الوسطى، فتمارس التجارة وتجند مقاتلين من الجماعات المسلحة هناك، بينما يؤكد تقرير أممي تكثيف الجيش السوداني غاراته الجوية على طول الحدود؛ وتقول مجموعة الأزمات إن هذه التوغلات فاقمت العنف الإجرامي في الشمال، خاصة في محافظة فاكاغا (ICG_RADAR2024، 21 يونيو 2024) [يحتاج تحقق]. وتورد المفوضية ادعاءات بوجود الدعم السريع في فاكاغا التي تستضيف معظم اللاجئين السودانيين في البلاد؛ ويصل أغلبهم عبر أم دافوك على بعد 65 كم من بيراو، وبلغ عدد اللاجئين في مستوطنة كورسي ببيراو 11,196 بحلول 13 أبريل 2024 (UNHCR_CAR2024) [يحتاج تحقق]. أما أوبانغي-شاري الاستعمارية والعلاقات قبل 2023 فلم يغطها مصدر مقروء. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
  "culture_dominance_en": null,
  "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "economy_en": "Crisis Group warns trade disruption from the incursions could aggravate the humanitarian situation in northern CAR (ICG_RADAR2024) [SINGLE-SOURCE; VERIFY].",
+ "economy_ar": "تحذر مجموعة الأزمات من أن تعطل التجارة بسبب التوغلات قد يفاقم الوضع الإنساني في شمال أفريقيا الوسطى (ICG_RADAR2024) [مصدر واحد؛ يحتاج تحقق]. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
  "regional_power": [],
  "sources": [
+  "ICG_RADAR2024",
+  "UNHCR_CAR2024",
   "GHA7_CH17",
   "GHA8",
   "WP:Central_African_Republic"
@@ -35,10 +37,10 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
   "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Colonial and 1960–2022 relations thin",
+  "RSF presence in Vakaga = allegations per UNHCR"
  ],
- "curated": false
+ "curated": true
 }

@@ -481,6 +481,20 @@
     "lang": "en",
     "note": "Checked from title and abstract only (Leicester repository record; SUP catalogue lists the chapter); full text not read. No DOI found. Secondary source: argues culture change from Meroe to medieval Nubia need not be explained by a Noba ethnic replacement."
    },
+   "EJOSSAH_DERG_SPLA": {
+    "author": "(author not verified)",
+    "title": "The Derg-SPLM/A Cooperation: An Aspect of Ethio-Sudan Proxy Wars",
+    "title_en": "same",
+    "publisher": "Ethiopian Journal of the Social Sciences and Humanities (EJOSSAH) vol.5 no.2 (academic; Ethiopian MoD archives)",
+    "bias": "Academic; Ethiopian-archive based",
+    "date": "(VERIFY)",
+    "url": "https://doi.org/10.4314/ejossah.v5i2.63648",
+    "verification": "abstract/search excerpt only 2026-10-20 – VERIFY",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
+   },
    "EP1940_ANUAK": {
     "author": "E.E. Evans-Pritchard",
     "title": "The Political System of the Anuak of the Anglo-Egyptian Sudan",
@@ -2336,6 +2350,17 @@
     "pages": "",
     "lang": "en"
    },
+   "GHA2_CH10": {
+    "author": "J. Leclant",
+    "title": "The empire of Kush: Napata and Meroe, ch.10 (General History of Africa II)",
+    "publisher": "UNESCO / Heinemann / University of California Press",
+    "year": "1981",
+    "pages": "pp.278–297",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265",
+    "lang": "en",
+    "note": "Box copy /workspace/gha2.pdf (printed page = PDF page − 17).",
+    "via": "db/era_fill_hist20.json"
+   },
    "GHA2_CH10_P265": {
     "author": "N.M. Sherif (ch.10), in G. Mokhtar (ed.)",
     "title": "General History of Africa, II: Ancient Civilizations of Africa – 'Nubia before Napata'",
@@ -2347,6 +2372,17 @@
     "note": "",
     "id": "GHA2_CH10_P265",
     "via": "db/regional_extents_sources.json"
+   },
+   "GHA2_CH11": {
+    "author": "A.A. Hakem (with I. Hrbek and J. Vercoutter)",
+    "title": "The civilization of Napata and Meroe, ch.11 (General History of Africa II)",
+    "publisher": "UNESCO / Heinemann / University of California Press",
+    "year": "1981",
+    "pages": "pp.298–325",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265",
+    "lang": "en",
+    "note": "Box copy /workspace/gha2.pdf (printed page = PDF page − 17).",
+    "via": "db/era_fill_hist20.json"
    },
    "GHA2_CH12": {
     "author": "K. Michałowski",
@@ -2368,6 +2404,94 @@
     "note": "chapter-author attribution to verify against TOC",
     "id": "GHA2_CH16_P385_415",
     "via": "db/regional_extents_sources.json"
+   },
+   "GHA2_CH2": {
+    "author": "A. Abu Bakr",
+    "title": "Pharaonic Egypt, ch.2 (General History of Africa II)",
+    "publisher": "UNESCO / Heinemann / University of California Press",
+    "year": "1981",
+    "pages": "pp.84–111",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265",
+    "lang": "en",
+    "note": "Box copy /workspace/gha2.pdf (printed page = PDF page − 17).",
+    "via": "db/era_fill_hist20.json"
+   },
+   "GHA2_CH3": {
+    "author": "J. Yoyotte",
+    "title": "Pharaonic Egypt: society, economy and culture, ch.3 (General History of Africa II)",
+    "publisher": "UNESCO / Heinemann / University of California Press",
+    "year": "1981",
+    "pages": "pp.112–135",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265",
+    "lang": "en",
+    "note": "Box copy /workspace/gha2.pdf (printed page = PDF page − 17).",
+    "via": "db/era_fill_hist20.json"
+   },
+   "GHA2_CH4": {
+    "author": "A.H. Zayed (with J. Dévisse)",
+    "title": "Egypt's relations with the rest of Africa, ch.4 (General History of Africa II)",
+    "publisher": "UNESCO / Heinemann / University of California Press",
+    "year": "1981",
+    "pages": "pp.136–154",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265",
+    "lang": "en",
+    "note": "Box copy /workspace/gha2.pdf (printed page = PDF page − 17).",
+    "via": "db/era_fill_hist20.json"
+   },
+   "GHA2_CH6": {
+    "author": "H. Riad (with J. Dévisse)",
+    "title": "Egypt in the hellenistic era, ch.6 (General History of Africa II)",
+    "publisher": "UNESCO / Heinemann / University of California Press",
+    "year": "1981",
+    "pages": "pp.184–207",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265",
+    "lang": "en",
+    "note": "Box copy /workspace/gha2.pdf (printed page = PDF page − 17).",
+    "via": "db/era_fill_hist20.json"
+   },
+   "GHA2_CH7": {
+    "author": "S. Donadoni",
+    "title": "Egypt under Roman domination, ch.7 (General History of Africa II)",
+    "publisher": "UNESCO / Heinemann / University of California Press",
+    "year": "1981",
+    "pages": "pp.208–225",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265",
+    "lang": "en",
+    "note": "Box copy /workspace/gha2.pdf (printed page = PDF page − 17).",
+    "via": "db/era_fill_hist20.json"
+   },
+   "GHA2_CH8": {
+    "author": "S. Adam (with J. Vercoutter)",
+    "title": "The importance of Nubia: a link between Central Africa and the Mediterranean, ch.8 (General History of Africa II)",
+    "publisher": "UNESCO / Heinemann / University of California Press",
+    "year": "1981",
+    "pages": "pp.226–244",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265",
+    "lang": "en",
+    "note": "Box copy /workspace/gha2.pdf (printed page = PDF page − 17).",
+    "via": "db/era_fill_hist20.json"
+   },
+   "GHA2_CH9": {
+    "author": "N.M. Sherif",
+    "title": "Nubia before Napata (−3100 to −750), ch.9 (General History of Africa II)",
+    "publisher": "UNESCO / Heinemann / University of California Press",
+    "year": "1981",
+    "pages": "pp.245–277",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265",
+    "lang": "en",
+    "note": "Box copy /workspace/gha2.pdf (printed page = PDF page − 17).",
+    "via": "db/era_fill_hist20.json"
+   },
+   "GHA4_CH16": {
+    "author": "L. Kropáček",
+    "title": "Nubia from the late 12th century to the Funj conquest in the early 16th century, ch.16 (General History of Africa IV)",
+    "publisher": "UNESCO / Heinemann / University of California Press",
+    "year": "1984",
+    "pages": "pp.398–422",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184287",
+    "lang": "en",
+    "note": "Box copy /workspace/ghaiv.pdf (printed = PDF − 24).",
+    "via": "db/era_fill_hist20.json"
    },
    "GHA4_CH16_P399_405": {
     "author": "L. Kropáček (ch.16)",
@@ -2441,6 +2565,28 @@
     "url": "https://unesdoc.unesco.org/ark:/48223/pf0000121577",
     "via": "db/regional_extents_sources.json"
    },
+   "GHA5_CH6": {
+    "author": "R. Veselý",
+    "title": "The Ottoman conquest of Egypt, ch.6 (General History of Africa V)",
+    "publisher": "UNESCO / Heinemann / University of California Press",
+    "year": "1992",
+    "pages": "pp.137–169",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184290",
+    "lang": "en",
+    "note": "Box copy /workspace/ghav.pdf (printed = PDF − 27).",
+    "via": "db/era_fill_hist20.json"
+   },
+   "GHA5_CH7": {
+    "author": "Y.F. Hasan and B.A. Ogot",
+    "title": "The Sudan, 1500–1800, ch.7 (General History of Africa V)",
+    "publisher": "UNESCO / Heinemann / University of California Press",
+    "year": "1992",
+    "pages": "pp.170–199",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184290",
+    "lang": "en",
+    "note": "Box copy /workspace/ghav.pdf (printed = PDF − 27).",
+    "via": "db/era_fill_hist20.json"
+   },
    "GHA5_CH7_P178_188": {
     "author": "Y.F. Hasan & B.A. Ogot (ch.7)",
     "title": "General History of Africa, V: Africa from the Sixteenth to the Eighteenth Century (ed. B.A. Ogot) – 'The Sudan, 1500–1800'",
@@ -2476,6 +2622,17 @@
     "lang": "en",
     "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184295",
     "via": "db/regional_extents_sources.json"
+   },
+   "GHA6_CH13": {
+    "author": "A. Abdel-Malek",
+    "title": "The renaissance of Egypt, 1805–81, ch.13 (General History of Africa VI)",
+    "publisher": "UNESCO / Heinemann / University of California Press",
+    "year": "1989",
+    "pages": "pp.325–355",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184295",
+    "lang": "en",
+    "note": "Box copy /workspace/ghavi.pdf (printed = PDF − 27).",
+    "via": "db/era_fill_hist20.json"
    },
    "GHA6_CH14": {
     "author": "H.A. Ibrahim (with B.A. Ogot)",
@@ -2645,6 +2802,20 @@
     "pages": "",
     "lang": "en"
    },
+   "HRW1998_SPLA": {
+    "author": "Human Rights Watch",
+    "title": "Global Trade, Local Impact: Arms Transfers to all Sides in the Civil War in Sudan – 'The SPLA' chapter",
+    "title_en": "same",
+    "publisher": "Human Rights Watch (rights NGO)",
+    "bias": "International human-rights NGO",
+    "date": "1998-08",
+    "url": "https://www.hrw.org/legacy/reports98/sudan/Sudarm988-07.htm",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "Report title from HRW legacy series; VERIFY title wording",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
+   },
    "IBS18_1962": {
     "author": "The Geographer, Office of the Geographer, Bureau of Intelligence and Research, US Department of State",
     "title": "International Boundary Study No. 18: Sudan – Egypt (United Arab Republic) Boundary",
@@ -2681,6 +2852,48 @@
     "url": "https://www.crisisgroup.org/africa/horn-africa/sudan/reversing-sudans-dangerous-coup",
     "pages": "",
     "lang": "en"
+   },
+   "ICG_B204": {
+    "author": "International Crisis Group",
+    "title": "Sudan's Calamitous War: Finding a Path toward Peace (Africa Briefing N°204)",
+    "title_en": "same",
+    "publisher": "International Crisis Group (independent conflict-prevention NGO)",
+    "bias": "Brussels-based NGO; Western-funded",
+    "date": "2025 (VERIFY; cites a Nov 2024 briefing)",
+    "url": "https://www.crisisgroup.org/africa/horn-africa/sudan/b204-sudans-calamitous-war-finding-path-toward-peace",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
+   },
+   "ICG_ETH_ERI": {
+    "author": "International Crisis Group",
+    "title": "Ethiopia and Eritrea Slide Closer to War amid Tigray Upheaval",
+    "title_en": "same",
+    "publisher": "International Crisis Group",
+    "bias": "Brussels-based NGO; Western-funded",
+    "date": "2025 (VERIFY)",
+    "url": "https://www.crisisgroup.org/africa/horn-africa/ethiopiaeritrea/ethiopia-and-eritrea-slide-closer-war-amid-tigray-upheaval",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
+   },
+   "ICG_RADAR2024": {
+    "author": "International Crisis Group (Charles Bouessel)",
+    "title": "On Our Radar 2024 – entry of 21 June 2024 (Central African Republic)",
+    "title_en": "same",
+    "publisher": "International Crisis Group",
+    "bias": "Brussels-based NGO",
+    "date": "2024-06-21",
+    "url": "https://www.crisisgroup.org/sco/global/our-radar-2024",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
    },
    "IMF_CR14345": {
     "author": "IMF",
@@ -2808,6 +3021,20 @@
     "lang": "en",
     "via": "db/era_fill_modern2.json"
    },
+   "LOC1991_CHAD": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+    "title": "Sudan: A Country Study – 'Chad'",
+    "title_en": "same",
+    "publisher": "U.S. Library of Congress (US government; dated)",
+    "bias": "US-government country study; Cold War-era framing",
+    "date": "1991-06 (publ. 1992)",
+    "url": "https://countrystudies.us/sudan/78.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+    "note": "Older, US-government source; figures as of 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
+   },
    "LOC1991_CIVIL6469": {
     "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.; history T. Ofcansky, economy R.O. Collins)",
     "title": "Sudan: A Country Study (research completed June 1991) – 'Return to Civilian Rule, 1964-69'",
@@ -2818,6 +3045,20 @@
     "pages": "",
     "lang": "en",
     "via": "db/era_fill_modern2.json"
+   },
+   "LOC1991_CONDO": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+    "title": "Sudan: A Country Study – 'The Anglo-Egyptian Condominium, 1899-1955'",
+    "title_en": "same",
+    "publisher": "U.S. Library of Congress (US government; dated)",
+    "bias": "US-government country study; Cold War-era framing",
+    "date": "1991-06 (publ. 1992)",
+    "url": "https://countrystudies.us/sudan/15.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+    "note": "Older, US-government source; figures as of 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
    },
    "LOC1991_ECON": {
     "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.; history T. Ofcansky, economy R.O. Collins)",
@@ -2841,6 +3082,20 @@
     "lang": "en",
     "via": "db/era_fill_modern2.json"
    },
+   "LOC1991_EGYPT": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+    "title": "Sudan: A Country Study – 'Egypt'",
+    "title_en": "same",
+    "publisher": "U.S. Library of Congress (US government; dated)",
+    "bias": "US-government country study; Cold War-era framing",
+    "date": "1991-06 (publ. 1992)",
+    "url": "https://countrystudies.us/sudan/76.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+    "note": "Older, US-government source; figures as of 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
+   },
    "LOC1991_ENERGY": {
     "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.; history T. Ofcansky, economy R.O. Collins)",
     "title": "Sudan: A Country Study (research completed June 1991) – 'Energy'",
@@ -2863,6 +3118,20 @@
     "lang": "en",
     "via": "db/era_fill_modern2.json"
    },
+   "LOC1991_FOREIGN": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+    "title": "Sudan: A Country Study – 'Foreign Relations'",
+    "title_en": "same",
+    "publisher": "U.S. Library of Congress (US government; dated)",
+    "bias": "US-government country study; Cold War-era framing",
+    "date": "1991-06 (publ. 1992)",
+    "url": "https://countrystudies.us/sudan/75.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+    "note": "Older, US-government source; figures as of 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
+   },
    "LOC1991_GOV": {
     "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.; history T. Ofcansky, economy R.O. Collins)",
     "title": "Sudan: A Country Study (research completed June 1991) – 'Government'",
@@ -2874,6 +3143,34 @@
     "lang": "en",
     "via": "db/era_fill_modern2.json"
    },
+   "LOC1991_INDEP": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+    "title": "Sudan: A Country Study – 'The Road to Independence'",
+    "title_en": "same",
+    "publisher": "U.S. Library of Congress (US government; dated)",
+    "bias": "US-government country study; Cold War-era framing",
+    "date": "1991-06 (publ. 1992)",
+    "url": "https://countrystudies.us/sudan/18.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+    "note": "Older, US-government source; figures as of 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
+   },
+   "LOC1991_LIBYA": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+    "title": "Sudan: A Country Study – 'Libya'",
+    "title_en": "same",
+    "publisher": "U.S. Library of Congress (US government; dated)",
+    "bias": "US-government country study; Cold War-era framing",
+    "date": "1991-06 (publ. 1992)",
+    "url": "https://countrystudies.us/sudan/77.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+    "note": "Older, US-government source; figures as of 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
+   },
    "LOC1991_MEDIA": {
     "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.; history T. Ofcansky, economy R.O. Collins)",
     "title": "Sudan: A Country Study (research completed June 1991) – 'Media'",
@@ -2884,6 +3181,20 @@
     "pages": "",
     "lang": "en",
     "via": "db/era_fill_modern2.json"
+   },
+   "LOC1991_NATIONALISM": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+    "title": "Sudan: A Country Study – 'Rise of Sudanese Nationalism'",
+    "title_en": "same",
+    "publisher": "U.S. Library of Congress (US government; dated)",
+    "bias": "US-government country study; Cold War-era framing",
+    "date": "1991-06 (publ. 1992)",
+    "url": "https://countrystudies.us/sudan/17.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+    "note": "Older, US-government source; figures as of 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
    },
    "LOC1991_NIMEIRI": {
     "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.; history T. Ofcansky, economy R.O. Collins)",
@@ -2918,6 +3229,62 @@
     "lang": "en",
     "via": "db/era_fill_modern2.json"
    },
+   "LOC_ETH1991_BORDER": {
+    "author": "U.S. Library of Congress, Federal Research Division (T.P. Ofcansky & L. Berry eds.)",
+    "title": "Ethiopia: A Country Study (research completed 1991) – 'Ethiopia's Border Politics'",
+    "title_en": "same",
+    "publisher": "U.S. Library of Congress (US government; dated)",
+    "bias": "US-government country study; Cold War-era framing",
+    "date": "1991 (publ. 1993)",
+    "url": "https://countrystudies.us/ethiopia/139.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+    "note": "US-government; written before the Derg's fall in May 1991",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
+   },
+   "LOC_LBY1987_FOURTHSHORE": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+    "title": "Libya: A Country Study – 'The Fourth Shore'",
+    "title_en": "same",
+    "publisher": "U.S. Library of Congress (US government; dated)",
+    "bias": "US-government country study; Cold War-era framing",
+    "date": "1987 (VERIFY exact research date)",
+    "url": "https://countrystudies.us/libya/22.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+    "note": "US-government; dated",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
+   },
+   "LOC_LBY1987_ITALOSANUSI": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+    "title": "Libya: A Country Study – 'The Second Italo-Sanusi War'",
+    "title_en": "same",
+    "publisher": "U.S. Library of Congress (US government; dated)",
+    "bias": "US-government country study; Cold War-era framing",
+    "date": "1987 (VERIFY exact research date)",
+    "url": "https://countrystudies.us/libya/21.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+    "note": "US-government; dated",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
+   },
+   "LOC_LBY1987_SANUSI": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+    "title": "Libya: A Country Study – 'The Sanusi Order'",
+    "title_en": "same",
+    "publisher": "U.S. Library of Congress (US government; dated)",
+    "bias": "US-government country study; Cold War-era framing",
+    "date": "1987 (VERIFY exact research date)",
+    "url": "https://countrystudies.us/libya/18.htm",
+    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+    "note": "US-government; dated",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
+   },
    "LSHTM2018": {
     "author": "Checchi et al., London School of Hygiene & Tropical Medicine",
     "title": "Estimates of crisis-attributable mortality in South Sudan, December 2013–April 2018",
@@ -2948,6 +3315,20 @@
     "url": "https://naga-projekt.de/das-grabungsprojekt/",
     "lang": "de",
     "pages": ""
+   },
+   "NDJAMENA2010": {
+    "author": "Governments of Chad and Sudan (signed M. Faki Mahamat; G. Salahaddin Atabani)",
+    "title": "Accord de N'Djamena sur la normalisation des relations entre le Tchad et le Soudan (15 janvier 2010)",
+    "title_en": "N'Djamena Agreement on the normalisation of relations between Chad and Sudan",
+    "publisher": "UN Peacemaker / PA-X Peace Agreements Database (Univ. of Edinburgh)",
+    "bias": "Primary text",
+    "date": "2010-01-15",
+    "url": "https://www.peaceagreements.org/agreements/716/",
+    "verification": "PA-X coding and communiqué read via search excerpt 2026-10-20 – VERIFY; UN copy https://peacemaker.un.org/sites/default/files/document/files/2024/05/sd20td100115accord20de20ndjamena.pdf",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
    },
    "OFAHEY2008": {
     "author": "R.S. O'Fahey",
@@ -3275,6 +3656,20 @@
     "lang": "ru",
     "note": "From db/lens_ru.json (Analyst). Original title: История Судана. Kind: encyclopedia (crowd). fetched 2026-10-20 (curl/WebFetch, text read)"
    },
+   "SAS_HSBA_WP3": {
+    "author": "John Young",
+    "title": "The Eastern Front and the Struggle against Marginalization (HSBA Working Paper 3)",
+    "title_en": "same",
+    "publisher": "Small Arms Survey, Geneva (independent research project)",
+    "bias": "Swiss-based independent research; Western-funded",
+    "date": "2007-05",
+    "url": "https://www.smallarmssurvey.org/sites/default/files/resources/HSBA-WP-03-Eastern-Front.pdf",
+    "verification": "full PDF read 2026-10-20 (pp. summary, 12)",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
+   },
    "SAS_OIL2024": {
     "author": "Small Arms Survey (HSBA)",
     "title": "Sudan's Oil Sector During the 2023–24 War (Situation Update)",
@@ -3327,6 +3722,20 @@
     "pages": "",
     "lang": "en",
     "via": "db/era_fill_modern2.json"
+   },
+   "SWM_ERI2024": {
+    "author": "Sudan War Monitor",
+    "title": "Eritrea-backed militias deploy in eastern Sudan",
+    "title_en": "same",
+    "publisher": "Sudan War Monitor (independent Substack newsletter)",
+    "bias": "Independent OSINT newsletter; anonymous security sources",
+    "date": "2024-11-15",
+    "url": "https://sudanwarmonitor.com/p/eritrea-backed-militias-deploy-in",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
    },
    "TAKANA2016": {
     "author": "Yousif Suliman Saeed Takana (trans. Awad Al Awad)",
@@ -3383,6 +3792,20 @@
     "lang": "en",
     "via": "db/era_fill_modern.json"
    },
+   "UNHCR_CAR2024": {
+    "author": "UNHCR Central African Republic",
+    "title": "Central African Republic (CAR) – Sudan Situation External Update, 17 April 2024",
+    "title_en": "same",
+    "publisher": "UNHCR via ReliefWeb (UN agency)",
+    "bias": "UN agency",
+    "date": "2024-04-17",
+    "url": "https://reliefweb.int/attachments/21d230df-d113-4a45-8c20-18598ab20113/Sudan%20Situation%20-%20UNHCR%20CAR%20External%20Update%20-%20%2017%20April%20%202024.pdf",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
+   },
    "UNNEWS2023": {
     "author": "UN News",
     "title": "UN chief and officials condemn fighting between Sudanese forces",
@@ -3391,6 +3814,36 @@
     "url": "https://news.un.org/en/story/2023/04/1135702",
     "pages": "",
     "lang": "en"
+   },
+   "UNPOE_S2024_65": {
+    "author": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005))",
+    "title": "Letter dated 15 January 2024 from the Panel of Experts on the Sudan addressed to the President of the Security Council (final report)",
+    "title_en": "same",
+    "publisher": "United Nations Security Council",
+    "symbol": "S/2024/65",
+    "date": "2024-01-15",
+    "year": "2024",
+    "url": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf",
+    "pages": "2, 15-16 (paras. 44-47), 40 (para. 147)",
+    "lang": "en",
+    "bias": "UN expert panel; Libya findings attributed to 'various sources' and not independently confirmed",
+    "verification": "PDF downloaded and read 2026-10-20; symbol and date confirmed from the document",
+    "via": "db/era_fill_modern3.json"
+   },
+   "UNPOE_S2025_239": {
+    "author": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005))",
+    "title": "Letter dated 14 April 2025 from the President of the Security Council acting in the absence of a Chair of the Security Council Committee established pursuant to resolution 1591 (2005) concerning the Sudan addressed to the President of the Security Council (final report of the Panel of Experts)",
+    "title_en": "same",
+    "publisher": "United Nations Security Council",
+    "symbol": "S/2025/239",
+    "date": "2025-04-17",
+    "year": "2025",
+    "url": "https://documents.un.org/api/symbol/access?s=S/2025/239&l=en&t=pdf",
+    "pages": "19 (paras. 62-63), 24-25 (paras. 71-72), 29-31 (paras. 94, 98-100, 104), 37 (annex 5)",
+    "lang": "en",
+    "bias": "UN expert panel; Libya findings based on interviews (fn. 76, 103); ammunition origin not traced at time of writing; original language French",
+    "verification": "PDF downloaded and read 2026-10-20; symbol and date confirmed from the document",
+    "via": "db/era_fill_modern3.json"
    },
    "UNSC1996": {
     "author": "UN Security Council",
@@ -3410,6 +3863,20 @@
     "pages": "",
     "lang": "en"
    },
+   "UNSC_S2010_217": {
+    "author": "UN Secretary-General",
+    "title": "Report of the Secretary-General on MINURCAT, S/2010/217",
+    "title_en": "same",
+    "publisher": "United Nations Security Council (via securitycouncilreport.org)",
+    "bias": "UN",
+    "date": "2010-04 (VERIFY)",
+    "url": "https://www.securitycouncilreport.org/atf/cf/%7B65BFCF9B-6D27-4E9C-8CD3-CF6E4FF96FF9%7D/CAR%20S%202010%20217.pdf",
+    "verification": "search excerpt (paras 2–3) 2026-10-20 – VERIFY",
+    "note": "Report title inferred from symbol; VERIFY",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
+   },
    "UNSC_SC15257": {
     "author": "UN Security Council",
     "title": "Press Statement on Clashes in Sudan (SC/15257)",
@@ -3418,6 +3885,20 @@
     "url": "https://press.un.org/en/2023/sc15257.doc.htm",
     "pages": "",
     "lang": "en"
+   },
+   "UNTS6519_1959": {
+    "author": "Governments of the United Arab Republic and the Republic of the Sudan",
+    "title": "Agreement for the full utilization of the Nile waters (Cairo, 8 Nov 1959), UNTS vol. 453, No. 6519",
+    "title_en": "same",
+    "publisher": "United Nations Treaty Series (primary treaty text)",
+    "bias": "Primary bilateral text; Ethiopia and upstream states not party",
+    "date": "1959-11-08",
+    "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20453/volume-453-I-6519-English.pdf",
+    "verification": "text read via search excerpt of UNTS and internationalwaterlaw.org copy (https://www.internationalwaterlaw.org/documents/regionaldocs/UAR_Sudan1959_and_Protocol1960.pdf) 2026-10-20 – figures quoted verbatim; full PDF not opened – VERIFY",
+    "note": "",
+    "pages": "",
+    "lang": "en",
+    "via": "/tmp/era_fill_modern3_p20b.json"
    },
    "WB_MPO2024": {
     "author": "World Bank",

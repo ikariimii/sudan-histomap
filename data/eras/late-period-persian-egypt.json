@@ -19,14 +19,17 @@
    "lon": 30.77
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "After the Assyrian attacks the Kushites withdrew south, and Egypt, reunified by Psammetik I of Sais, became 'Mediterranean-oriented' (GHA II ch.10, p.282). In 591 BC, Psammetik II's army, stiffened with Greek and Carian mercenaries, invaded Kush, which Leclant links to the fall of Napata (p.285). Cambyses' army failed to cross the Batn el-Hagar and retreated with heavy losses, but the Persians still 'counted the inhabitants of Kush as their subjects', and Kushite contingents served under Darius and Xerxes (p.286).",
+ "geopolitics_ar": "بعد هجمات الآشوريين انسحب الكوشيون جنوباً، وأصبحت مصر التي وحّدها بسماتيك الأول من سايس «متجهة نحو المتوسط» (تاريخ أفريقيا العام II، الفصل 10، ص282). وفي 591 ق.م غزا جيش بسماتيك الثاني، المعزَّز بمرتزقة يونانيين وكاريين، أرض كوش، وهو ما يربطه لوكلان بسقوط نبتة (ص285). وفشل جيش قمبيز في عبور بطن الحجر وتراجع بخسائر فادحة، لكن الفرس ظلوا «يعدّون سكان كوش من رعاياهم»، وخدمت فرق كوشية في جيوش دارا وخشايارشا (ص286). [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "Zayed argues that the egyptianized people of the upper valley kept 'a distinct culture', expressed 'albeit in Egyptian form, even at the time of the thirtieth dynasty' (GHA II ch.4, p.144). Herodotus, who reached Elephantine around 450 BC, described it as the frontier between Egypt and 'Ethiopia' and was the first geographer to name Meroe, having met Meroites at Aswan (ch.6, p.197).",
+ "culture_dominance_ar": "يرى زايد أن سكان الوادي الأعلى المتمصّرين حافظوا على «ثقافة متميزة» عبّرت عن نفسها «وإن في قالب مصري، حتى في زمن الأسرة الثلاثين» (تاريخ أفريقيا العام II، الفصل 4، ص144). ووصف هيرودوت، الذي بلغ إلفنتين نحو 450 ق.م، تلك المدينة بأنها الحد بين مصر و«إثيوبيا»، وكان أول جغرافي يذكر مروي بالاسم بعد أن التقى مرويين في أسوان (الفصل 6، ص197). [WORKING TRANSLATION – needs native Arabic review]",
+ "economy_en": "Sources refer to 'gifts of gold, ebony, elephant tusks and even children', with 'the ancient tributes formerly levied by Egypt seemingly going to Persepolis and Susa' (GHA II ch.10, p.286).",
+ "economy_ar": "تشير المصادر إلى «هدايا من الذهب والأبنوس وأنياب الفيلة بل والأطفال»، وكانت «الجزى القديمة التي كانت مصر تجبيها تذهب على ما يبدو إلى برسيبوليس وسوسة» (تاريخ أفريقيا العام II، الفصل 10، ص286). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA2_CH4",
+  "GHA2_CH6",
+  "GHA2_CH10",
   "GHA2_CH12",
   "WP:Late_Period_of_ancient_Egypt"
  ],
@@ -34,10 +37,9 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "Persian tribute from Kush: 'seemingly' (GHA II p.286) – hedged in source"
  ],
- "curated": false
+ "curated": true
 }

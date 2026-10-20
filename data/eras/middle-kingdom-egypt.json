@@ -19,14 +19,18 @@
    "lon": 31.2
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "Under the 12th Dynasty, Nubia was 'effectively occupied as far as Semna', where Senusret III set up a stela as 'an unmistakable boundary mark' forbidding Nubians to pass downstream (GHA II ch.9, p.255). Senusret III reduced Lower Nubia to 'the status of a province of Egypt' (ch.2, p.98). The kings built fourteen forts in Nubia 'to safeguard their frontiers and trading expeditions' (ch.4, p.143). After the Middle Kingdom collapsed, an independent kingdom of Kush held Nubia south of Elephantine, and the Hyksos king Apophis sought its alliance (ch.9, p.261).",
+ "geopolitics_ar": "في عهد الأسرة الثانية عشرة «احتُلت النوبة فعلياً حتى سمنة»، حيث أقام سنوسرت الثالث لوحة بوصفها «علامة حدودية لا لبس فيها» تمنع النوبيين من العبور شمالاً (تاريخ أفريقيا العام II، الفصل 9، ص255). وجعل سنوسرت الثالث النوبة السفلى «في منزلة إقليم مصري» (الفصل 2، ص98). وبنى الملوك أربعة عشر حصناً في النوبة «لحماية حدودهم وبعثاتهم التجارية» (الفصل 4، ص143). وبعد انهيار الدولة الوسطى سيطرت مملكة كوش المستقلة على النوبة جنوب إلفنتين، وسعى ملك الهكسوس أبوبي إلى التحالف معها (الفصل 9، ص261). [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "Stelae from Buhen show Egyptian families living in Nubia for long periods in the Middle Kingdom. They had Egyptian names and 'worshipped the local gods' (GHA II ch.4, p.143). Abu Bakr suggests Amenemhet I may have founded the fortified trading post at Kerma, 'seemingly a centre of Egyptian influence from the reign of Senusret I' (ch.2, p.98). Sherif notes that this reading of Kerma's Western Deffufa has been questioned (ch.9, p.259).",
+ "culture_dominance_ar": "تُظهر لوحات من بوهين أسراً مصرية عاشت طويلاً في النوبة في عهد الدولة الوسطى، وكانت لها أسماء مصرية و«تعبد الآلهة المحلية» (تاريخ أفريقيا العام II، الفصل 4، ص143). ويرى أبو بكر أن أمنمحات الأول ربما أسّس المركز التجاري المحصّن في كرمة، «الذي كان على ما يبدو مركزاً للنفوذ المصري منذ عهد سنوسرت الأول» (الفصل 2، ص98). ويشير شريف إلى أن هذا التفسير للدفوفة الغربية في كرمة قد شُكّك فيه (الفصل 9، ص259). [WORKING TRANSLATION – needs native Arabic review]",
+ "economy_en": "Rocks in the Second Cataract were circumvented by a slipway for hauling boats, and a dam was built at Semna to ease navigation (GHA II ch.8, p.239). Adam argues that the Theban pharaohs knew Africa south of Semna was 'richly endowed with the raw materials and manpower Egypt lacked' (p.241). Inscriptions of Senusret I's reign record expeditions to Punt by sea (ch.4, p.145).",
+ "economy_ar": "تُجووزت صخور الشلال الثاني بممر لجرّ القوارب، وبُني سد في سمنة لتسهيل الملاحة (تاريخ أفريقيا العام II، الفصل 8، ص239). ويرى آدم أن فراعنة طيبة كانوا يعلمون أن أفريقيا جنوب سمنة «غنية بالمواد الخام والأيدي العاملة التي تفتقر إليها مصر» (ص241). وتسجّل نقوش من عهد سنوسرت الأول بعثات بحرية إلى بونت (الفصل 4، ص145). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA2_CH2",
+  "GHA2_CH4",
+  "GHA2_CH8",
+  "GHA2_CH9",
   "GHA2_CH12",
   "WP:Middle_Kingdom_of_Egypt"
  ],
@@ -34,10 +38,9 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "CONTESTED – Kerma as Egyptian trading post (GHA II p.98) vs Sherif's doubts (p.259)"
  ],
- "curated": false
+ "curated": true
 }

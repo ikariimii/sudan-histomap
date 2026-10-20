@@ -23,14 +23,16 @@
    "lon": 31.23
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "After Egypt came under Arab rule in 641, the Arabs signed a baqt with Nubia: an annual tribute of slaves and goods in return for food and clothing. Abdallah ibn Abi Sarh still raided Dongola in 651–2 (GHA II ch.12, p.333). Under the Fatimids relations were 'fairly friendly'. In 1102–3 the Nubian king handed the rebel Kanz al-Dawla back to Egypt, and troops were stationed at Aswan to guard the frontier (GHA IV ch.16, pp.399, 401). Ayyubid relations began in 1172 with a Nubian attack; Turan Shah counter-attacked and occupied Qasr Ibrim for a time (p.401).",
+ "geopolitics_ar": "بعد أن خضعت مصر للحكم العربي عام 641 وقّع العرب مع النوبة اتفاقية البقط: جزية سنوية من الرقيق والسلع مقابل الطعام والكساء. ومع ذلك أغار عبد الله بن أبي السرح على دنقلا في 651–652 (تاريخ أفريقيا العام II، الفصل 12، ص333). وفي العهد الفاطمي كانت العلاقات «ودية إلى حد كبير». ففي 1102–1103 سلّم ملك النوبة الثائر كنز الدولة إلى مصر، ورابطت قوات في أسوان لحراسة الحدود (تاريخ أفريقيا العام IV، الفصل 16، ص399، 401). وبدأت العلاقات الأيوبية عام 1172 بهجوم نوبي، فردّ توران شاه واحتل قصر إبريم مدة (ص401). [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "With the Arab conquest, 'Christian Nubia was severed from the Mediterranean culture for centuries' (GHA II ch.12, p.333), but links with the Coptic patriarchate of Alexandria continued, with the Nubian king acting as its protector (GHA IV ch.16, p.399). Excavated pottery shows Fatimid designs influencing Nubian manufacture (p.399). Kropáček says merchants did more to spread Islam than official Fatimid missionaries, and 'trade paved the way for Islamization' (p.401). Northern Nubia was progressively Arabized and Islamized between the 9th and 12th centuries (p.402).",
+ "culture_dominance_ar": "مع الفتح العربي «انقطعت النوبة المسيحية عن الثقافة المتوسطية قروناً» (تاريخ أفريقيا العام II، الفصل 12، ص333)، لكن الروابط مع البطريركية القبطية في الإسكندرية استمرت، وكان ملك النوبة حامياً لها (تاريخ أفريقيا العام IV، الفصل 16، ص399). ويُظهر الفخار المكتشف تأثير الزخارف الفاطمية في الصناعة النوبية (ص399). ويقول كروباتشيك إن التجار أسهموا في نشر الإسلام أكثر من الدعاة الفاطميين الرسميين، وإن «التجارة مهّدت الطريق للأسلمة» (ص401). وتعرّب شمال النوبة وتأسلم تدريجياً بين القرنين التاسع والثاني عشر (ص402). [WORKING TRANSLATION – needs native Arabic review]",
+ "economy_en": "Kropáček calls the baqt 'a convenient formula for economic interdependence', observed for six centuries despite occasional raids (GHA IV ch.16, p.398). Muslim merchants could travel freely in Nubia, though settlement was usually tolerated only in the northern borderland (p.401). Black troops of Sudani origin, 'largely obtained from Mukurra and 'Alwa', were an important part of the Fatimid army (p.401).",
+ "economy_ar": "يصف كروباتشيك البقط بأنه «صيغة مناسبة للاعتماد الاقتصادي المتبادل»، ظلّ مرعياً ستة قرون رغم غارات متفرقة (تاريخ أفريقيا العام IV، الفصل 16، ص398). وكان للتجار المسلمين حرية التنقل في النوبة، وإن كان الاستيطان لا يُسمح به عادة إلا في الإقليم الحدودي الشمالي (ص401). وكانت القوات السوداء من أصل سوداني، «المجلوبة في معظمها من المقرة وعلوة»، عنصراً مهماً في الجيش الفاطمي (ص401). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA2_CH12",
+  "GHA4_CH16",
   "GHAIII",
   "GHAIV",
   "WP:Muslim_conquest_of_Egypt",
@@ -40,10 +42,9 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "GHA III (7th–11th c.) not on the box; early-Islamic part rests on GHA II ch.12 and GHA IV ch.16 only"
  ],
- "curated": false
+ "curated": true
 }

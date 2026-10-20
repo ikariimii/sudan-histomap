@@ -27,23 +27,25 @@
  "geopolitics_ar": "تقع في السفوح الشمالية الشرقية لجبال النوبة. وقد «شجّع حكامها هجرة المستوطنين وبسطوا سيادتهم على مساحة واسعة». وبقيت في حكم شبه ذاتي بعد الفتح التركي المصري، ثم أُدمجت في نظام الحكم المحلي في عهد الحكم الثنائي (هولت وديلي، المقدمة ص7). ويضع تكنة قيام تقلي في القرن السابع عشر، إلى جانب سلطنتي الفور وبحيرة تشاد (ص129)، ويذكر سنار وتقلي جارتين شرقيتين لدارفور (ص173). [WORKING TRANSLATION – needs native Arabic review]",
  "culture_dominance_en": "A small Muslim state in the Nuba Mountains whose royal family 'derives its origin from the marriage of a Ja'ali holy man with an indigenous princess' (HD2011, intro p.4).",
  "culture_dominance_ar": "دولة إسلامية صغيرة في جبال النوبة «تعود أصول أسرتها المالكة إلى زواج رجل دين جعلي من أميرة محلية» (هولت وديلي، المقدمة ص4).",
- "economy_en": null,
- "economy_ar": null,
+ "economy_en": "Regional context only: the Funj 'penetrated the Nuba mountains, one of the principal slave-raiding regions', and reduced 'the newly established Islamized kingdom of Takali' to subordinate status. Captives from the non-Muslim 'hill-Nuba' were settled around Sennar as the sultan's slave bodyguard (GHA V ch.7, p.177). Whether Taqali was tributary is disputed (Ewald 1983, cited in fn.24). Nothing read describes Taqali's own production or trade.",
+ "economy_ar": "سياق إقليمي فقط: «توغّل الفونج في جبال النوبة، وهي من أهم مناطق الإغارة لجلب الرقيق»، وأخضعوا «مملكة تقلي المسلمة الناشئة» لوضع تابع. وأُسكن الأسرى من «نوبة الجبال» غير المسلمين حول سنار ليكونوا حرساً للسلطان من الرقيق (تاريخ أفريقيا العام V، الفصل 7، ص177). وتبعية تقلي محل خلاف (إيوالد 1983، الحاشية 24). ولا يصف أي مصدر مقروء إنتاج تقلي أو تجارتها. [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
   "HD2011",
   "TAKANA2016",
+  "GHA5_CH7",
   "WP:Kingdom_of_Taqali"
  ],
  "source_langs": [
   "en"
  ],
  "flags": [
-  "economy: no source-backed text yet",
   "regional_power: no actors scored",
   "Pass 13 text: Arabic is a working translation; needs native review",
   "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
-  "null reason – economy: only a general mention that Darfur and its neighbours (incl. Tagali) were 'in touch ... through trade' (Takana p.173); too general to use"
+  "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "CONTESTED – Funj–Taqali tributary relation disputed (GHA V p.177 fn.24)",
+  "UNVERIFIED – economy text is regional context, not Taqali's own economy"
  ],
  "curated": true
 }

@@ -23,14 +23,16 @@
    "lon": 29.92
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "The prefect Petronius led a punitive expedition, captured Napata in 23 BC and garrisoned Primis (Qasr Ibrim). A peace treaty followed at Samos in 21 or 20 BC (GHA II ch.10, p.290; ch.7, p.208). Diocletian (284–305) gave up Lower Nubia and paid the Blemmyes and Nobades to guard the southern frontier (ch.7, p.215). Procopius says he pulled the frontier back to the First Cataract and encouraged the Nobades to settle on the Nile as a screen against the Blemmyes; both peoples nevertheless attacked Philae around 450 (ch.10, pp.294–295). Under Justinian, between 535 and 537, Narses closed the temple of Philae (p.295).",
+ "geopolitics_ar": "قاد الوالي بترونيوس حملة تأديبية واستولى على نبتة عام 23 ق.م ووضع حامية في بريميس (قصر إبريم)، وتلتها معاهدة سلام في ساموس عام 21 أو 20 ق.م (تاريخ أفريقيا العام II، الفصل 10، ص290؛ الفصل 7، ص208). وتخلّى ديوكلتيانوس (284–305) عن النوبة السفلى ودفع للبليميين والنوباديين مقابل حراسة الحدود الجنوبية (الفصل 7، ص215). ويقول بروكوبيوس إنه أرجع الحدود إلى الشلال الأول وشجّع النوباديين على الاستقرار على النيل حاجزاً في وجه البليميين، ومع ذلك هاجم الشعبان فيلة نحو 450 (الفصل 10، ص294–295). وفي عهد جستنيان، بين 535 و537، أغلق نرسيس معبد فيلة (ص295). [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "Meroe's 'most constant relations' were with the temple of Isis at Philae, where embassies brought rich gifts and left graffiti in Demotic, Greek and Meroitic; one dated embassy, under Teqorideamani, came in AD 253 (GHA II ch.10, p.292). After Christianisation, the Blemmyes and Nobades were still allowed to visit Philae and to borrow the statue of Isis for festivals (p.295). Bishops resided on Philae from the 4th century, and Christianity gave Nubia access to Egypt and Byzantium (ch.12, p.331).",
+ "culture_dominance_ar": "كانت «أكثر علاقات مروي ثباتاً» مع معبد إيزيس في فيلة، حيث حملت السفارات هدايا ثمينة وتركت نقوشاً بالديموطيقية واليونانية والمروية؛ وجاءت سفارة مؤرخة في عهد تقريديماني عام 253م (تاريخ أفريقيا العام II، الفصل 10، ص292). وبعد انتشار المسيحية ظل البليميون والنوباديون يُسمح لهم بزيارة فيلة واستعارة تمثال إيزيس في الأعياد (ص295). وأقام الأساقفة في فيلة منذ القرن الرابع، وفتحت المسيحية للنوبة الطريق إلى مصر وبيزنطة (الفصل 12، ص331). [WORKING TRANSLATION – needs native Arabic review]",
+ "economy_en": "Roman coins reached Nubia and the Sudan 'though in very small numbers': a coin of Claudius at Meroe, one of Nero at Karanog, one of Diocletian 'far into Kordofan (El Obeid)', and a mid-4th-century coin at Sennar (GHA II ch.10, p.292). Under Diocletian, Rome paid the Blemmyes and Nobades sums which their kings called tribute (ch.7, p.215).",
+ "economy_ar": "وصلت النقود الرومانية إلى النوبة والسودان «وإن بأعداد قليلة جداً»: عملة لكلوديوس في مروي، وأخرى لنيرون في كرانوج، وأخرى لديوكلتيانوس «في عمق كردفان (الأبيض)»، وعملة من منتصف القرن الرابع في سنار (تاريخ أفريقيا العام II، الفصل 10، ص292). وفي عهد ديوكلتيانوس دفعت روما للبليميين والنوباديين مبالغ سمّاها ملوكهم جزية (الفصل 7، ص215). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA2_CH7",
+  "GHA2_CH10",
   "GHA2_CH12",
   "WP:Egypt_(Roman_province)"
  ],
@@ -38,10 +40,8 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field"
  ],
- "curated": false
+ "curated": true
 }

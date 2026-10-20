@@ -50,3 +50,4 @@ main li,main p,.note{overflow-wrap:anywhere}.src,.flags{list-style-position:insi
 .eras li.rc a{background:#f7f5f0;border-inline-start-style:dashed;color:var(--mute)}.eras li.rc b{font-weight:600}
 .rcb{display:inline-block;background:#f1efe9;color:#5d5548;border:1px dashed #a89f8e;border-radius:999px;font-size:12px;padding:0 7px;font-family:system-ui,sans-serif}
 .rcc{color:var(--mute);font-size:.9em}.rcbox{background:#f7f5f0;border:1px dashed #a89f8e;border-radius:6px;padding:10px 12px;color:#4a4438}.rcbox .rcb{margin-inline-end:6px}
+.eras b.wipn{font-weight:500;color:var(--mute);text-decoration:underline dashed #a89f8e}

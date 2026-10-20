@@ -23,14 +23,18 @@
    "lon": 31.25
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "Egypt reached the Second Cataract at Buhen by the reign of Djer (1st Dynasty) (GHA II ch.8, p.234). Snefru's annals on the Palermo Stone record campaigns against the Nubians (ch.2, p.92). Adam gives the figures as 110,000 prisoners and 200,000 cattle from Ta-Seti (ch.8, p.235), while Zayed cites 7,000 men (ch.4, p.141 fn.14). In the 6th Dynasty, Harkhuf of Elephantine made four journeys to Yam and found Irtet, Setu and Wawat 'united under one chief' (ch.9, p.251).",
+ "geopolitics_ar": "بلغت مصر الشلال الثاني عند بوهين في عهد جر (الأسرة الأولى) (تاريخ أفريقيا العام II، الفصل 8، ص234). وتسجّل حوليات سنفرو على حجر باليرمو حملات على النوبيين (الفصل 2، ص92). ويذكر آدم 110 آلاف أسير و200 ألف رأس من الماشية من تا-سيتي (الفصل 8، ص235)، بينما يذكر زايد 7000 رجل (الفصل 4، ص141، الحاشية 14). وفي الأسرة السادسة قام حرخوف من إلفنتين بأربع رحلات إلى يام، ووجد إرتت وستو وواوات «متحدة تحت زعيم واحد» (الفصل 9، ص251). [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "From the Old Kingdom, Egypt saw the Sudan as a source of manpower and livestock. 'Ta-Seti', its name for Lower Nubia, means 'land of the bow' (GHA II ch.4, p.141 and fn.14). An Old Kingdom settlement at Buhen has Pharaonic seals from the late 4th and 5th Dynasties (ch.8, p.235). Harkhuf brought a dancing dwarf from Yam for the young Pepi II (ch.9, p.251).",
+ "culture_dominance_ar": "منذ الدولة القديمة رأت مصر في السودان مصدراً للأيدي العاملة والماشية. و«تا-سيتي»، اسمها للنوبة السفلى، يعني «أرض القوس» (تاريخ أفريقيا العام II، الفصل 4، ص141 والحاشية 14). وفي بوهين مستوطنة من الدولة القديمة فيها أختام فرعونية من أواخر الأسرة الرابعة والخامسة (الفصل 8، ص235). وجلب حرخوف قزماً راقصاً من يام لبيبي الثاني الصغير (الفصل 9، ص251). [WORKING TRANSLATION – needs native Arabic review]",
+ "economy_en": "From about 2500 BC the Egyptians set up furnaces at Buhen to smelt local copper, which proves 'African copper was produced at this time' (GHA II ch.4, p.142 fn.15; ch.8, p.235). Harkhuf returned from Yam 'with 300 donkeys loaded with incense, ebony, oil, panther skins, elephant tusks' and other goods (ch.9, p.251).",
+ "economy_ar": "منذ نحو 2500 ق.م أقام المصريون أفراناً في بوهين لصهر النحاس المحلي، ما يثبت أن «النحاس الأفريقي كان يُنتج في ذلك الوقت» (تاريخ أفريقيا العام II، الفصل 4، ص142 الحاشية 15؛ الفصل 8، ص235). وعاد حرخوف من يام «ومعه 300 حمار محمّلة بالبخور والأبنوس والزيت وجلود الفهود وأنياب الفيلة» وغيرها (الفصل 9، ص251). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA2_CH2",
+  "GHA2_CH4",
+  "GHA2_CH8",
+  "GHA2_CH9",
   "GHA2_CH12",
   "WP:Old_Kingdom_of_Egypt"
  ],
@@ -38,10 +42,9 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "CONTESTED – Snefru's Nubian captives: 110,000 (GHA II p.235) vs 7,000 (p.141 fn.14)"
  ],
- "curated": false
+ "curated": true
 }

@@ -19,14 +19,17 @@
    "lon": 29.92
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "The Dodecaschoenus, about 120 km from Syene (Aswan) to Hiera Sycaminos, 'had belonged to the Ptolemies, but the rulers of Meroe ... had long since added it to their kingdom' (GHA II ch.7, p.208). Riad attributes Meroe's prosperity under Ergamenes and his successors 'essentially to its friendly relations with Egypt' (ch.6, p.203). Shared Egyptian–Nubian sanctuaries at Philae and Dakka confirm continuing relations (ch.10, p.287).",
+ "geopolitics_ar": "«كانت الدوديكاسخوينوس [نحو 120 كم من أسوان إلى هيرا سيكامينوس] تابعة للبطالمة، لكن حكام مروي ... ضمّوها إلى مملكتهم منذ زمن» (تاريخ أفريقيا العام II، الفصل 7، ص208). ويعزو رياض ازدهار مروي في عهد أركاماني وخلفائه «أساساً إلى علاقاتها الودية مع مصر» (الفصل 6، ص203). وتؤكد المعابد المشتركة المصرية النوبية في فيلة والدكة استمرار العلاقات (الفصل 10، ص287). [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "Diodorus says Ergamenes, 'steeped in Greek culture', defied the priests who could order a king's death and had some of them killed; GHA notes there is no corroboration for the priests' power over the king's life, and his identity among three Meroitic kings is uncertain (GHA II ch.10, p.287). His temple at Dakka is 'purely Egyptian in conception' (ch.6, p.203). At Musawwarat es-Sufra, hymns in good Ptolemaic Egyptian honour the Meroitic lion-god Apedemak (ch.10, p.287).",
+ "culture_dominance_ar": "يقول ديودوروس إن أركاماني، «المتشبّع بالثقافة اليونانية»، تحدّى الكهنة الذين كان بوسعهم أن يأمروا بموت الملك وقتل بعضهم؛ ويشير تاريخ أفريقيا العام إلى عدم وجود ما يؤيد سلطة الكهنة على حياة الملك، وإلى أن هويته بين ثلاثة ملوك مرويين غير مؤكدة (تاريخ أفريقيا العام II، الفصل 10، ص287). ومعبده في الدكة «مصري خالص في تصوره» (الفصل 6، ص203). وفي المصورات الصفراء تمجّد تراتيل بلغة مصرية بطلمية سليمة إله الأسد المروي أبادماك (الفصل 10، ص287). [WORKING TRANSLATION – needs native Arabic review]",
+ "economy_en": "The Ptolemies set up 'bases for elephant-hunting all along the African coast as far as Somalia' and built ships to carry the animals, because they needed war elephants against the Seleucids (GHA II ch.6, p.185). Riad says the only lasting result was cultural: Hippalus' discovery of the monsoon pattern, under Ptolemy III, shortened the voyage to India (p.185).",
+ "economy_ar": "أقام البطالمة «قواعد لصيد الفيلة على امتداد الساحل الأفريقي حتى الصومال» وبنوا سفناً لنقلها، لحاجتهم إلى فيلة الحرب في مواجهة السلوقيين (تاريخ أفريقيا العام II، الفصل 6، ص185). ويقول رياض إن النتيجة الدائمة الوحيدة كانت ثقافية: فاكتشاف هيبالوس لنمط الرياح الموسمية، في عهد بطليموس الثالث، قصّر الرحلة إلى الهند (ص185). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA2_CH6",
+  "GHA2_CH7",
+  "GHA2_CH10",
   "GHA2_CH12",
   "WP:Ptolemaic_Kingdom"
  ],
@@ -34,10 +37,9 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "CONTESTED – identity of 'Ergamenes' among three Meroitic kings (GHA II p.287)"
  ],
- "curated": false
+ "curated": true
 }

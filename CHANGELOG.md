@@ -2,6 +2,11 @@
 
 Site changes for sudan.indomando.com (built from `web/` by `web/build.py`). Newest first.
 
+## 2026-10-20 (later)
+
+- Chapter maps, timelines and the "neighbours at a glance" cards now mark the 29 in-progress regional eras (defined by the build-time list `data/eras/regional-wip.json`): hollow dashed capital dots, muted dashed names with a ° marker and one "Regional context · research in progress" badge line, tooltips in English and Arabic; timeline bars of such eras are dashed and lighter.
+- Map point labels move at most two lines from their marker when nudged apart, and a thin leader line ties a moved label back to its marker (e.g. Kordofan on the Funj map).
+
 ## 2026-10-20
 
 - Regional-context eras with no source-backed narrative yet (29 of 68: no geopolitics, culture or economy text in English or Arabic) are now marked "Regional context · research in progress" / "سياق إقليمي · البحث جارٍ":

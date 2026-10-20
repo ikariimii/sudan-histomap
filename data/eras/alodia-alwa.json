@@ -31,12 +31,13 @@
  "geopolitics_ar": "أقصى الممالك النوبية المسيحية الثلاث جنوباً بحلول نهاية القرن السادس (نوباتيا، المقرة، علوة).",
  "culture_dominance_en": "A Byzantine mission under Bishop Longinos reached Alodia c.580 with Nobadian support and found it already partly converted by the Aksumites (GHA II ch.12).",
  "culture_dominance_ar": "وصلت بعثة بيزنطية بقيادة الأسقف لونجينوس إلى علوة نحو 580 بدعم من النوباديين، ووجدتها قد تنصرت جزئياً على يد الأكسوميين.",
- "economy_en": null,
- "economy_ar": null,
+ "economy_en": "Kropáček says the usual picture of a flourishing Alodia rests mainly on Ibn Sulaym (from 975) and Abu Salih (early 13th c.), plus Muslim merchants' reports, 'for 'Alwa was a good market for the purchase of slaves'. Abu Salih describes the kingdom 'in full prosperity, with some 400 churches'. In its decline, Arab immigrants took control of pastures, and its human resources were 'probably already weakened by the slave trade' (GHA IV ch.16, p.406). No account of production or taxation was read.",
+ "economy_ar": "يقول كروباتشيك إن الصورة المعتادة لعلوة مملكةً مزدهرة تستند أساساً إلى ابن سليم (منذ 975) وأبي صالح (أوائل القرن الثالث عشر)، إضافة إلى روايات التجار المسلمين، «إذ كانت علوة سوقاً جيدة لشراء الرقيق». ويصف أبو صالح المملكة «في أوج ازدهارها، وفيها نحو 400 كنيسة». وفي مرحلة انحدارها سيطر المهاجرون العرب على المراعي، وكانت مواردها البشرية «قد أضعفتها تجارة الرقيق على الأرجح» (تاريخ أفريقيا العام IV، الفصل 16، ص406). ولم يُقرأ أي وصف للإنتاج أو الضرائب. [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
   "GHA2_CH12",
   "WELSBY2002",
+  "GHA4_CH16",
   "WD:Q1247214",
   "HD2011",
   "WP:Alodia"
@@ -45,9 +46,9 @@
   "en"
  ],
  "flags": [
-  "economy: no source-backed text yet",
   "regional_power: no actors scored",
-  "null reason – economy: no economic passage in GHA II ch.12 or HD2011 intro; Takana p.59 cites M.H. Awad (third-hand) that Maqurra and Alwa had a 'feudal' land system, which is too indirect to use; Welsby 2002 and GHA III not read"
+  "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "SINGLE-SOURCE (GHA IV ch.16 p.406, which itself summarises Ibn Sulaym and Abu Salih)"
  ],
  "curated": true
 }

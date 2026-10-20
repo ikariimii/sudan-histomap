@@ -19,14 +19,18 @@
    "lon": 31.24
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
+ "geopolitics_en": "For Sudan, this era is the Condominium. In January 1899 an Anglo-Egyptian agreement 'restored Egyptian rule in Sudan but as part of a condominium', designating territory south of the 22nd parallel as the Anglo-Egyptian Sudan; in practice the British governor-general ran it 'as if it were a colonial administration' (LOC1991_CONDO). After Sir Lee Stack was assassinated in Cairo in Nov 1924, Britain ordered all Egyptian troops and officials out of Sudan (LOC1991_CONDO). The 1936 Anglo-Egyptian Treaty left Sudan's status unresolved, and Sudanese nationalists split over union with Egypt versus independence (LOC1991_NATIONALISM). In Feb 1953 London and Cairo signed an accord granting Sudan a three-year transition to self-government after Naguib accepted Sudanese self-determination (LOC1991_INDEP). The 1902 administrative line that later underlies the Halaib dispute also dates from this era (IBS18_1962). On the Nile, the 1959 treaty notes that a 1929 Nile Waters Agreement 'only regulated a partial use of the natural river' (UNTS6519_1959) [1929 terms not read directly – VERIFY].",
+ "geopolitics_ar": "بالنسبة للسودان، هذه الحقبة هي حقبة الحكم الثنائي. ففي يناير 1899 أعاد اتفاق إنجليزي-مصري الحكم المصري إلى السودان ولكن في إطار حكم ثنائي، وحدّد الأراضي الواقعة جنوب خط العرض 22 بوصفها السودان الإنجليزي المصري، وفي الواقع أداره الحاكم العام البريطاني «كما لو كان إدارة استعمارية» (LOC1991_CONDO). وبعد اغتيال السير لي ستاك في القاهرة في نوفمبر 1924 أمرت بريطانيا بسحب جميع القوات والموظفين المصريين من السودان (LOC1991_CONDO). وترك اتفاق 1936 وضع السودان دون حسم، وانقسم الوطنيون السودانيون بين الاتحاد مع مصر والاستقلال (LOC1991_NATIONALISM). وفي فبراير 1953 وقّعت لندن والقاهرة اتفاقًا يمنح السودان فترة انتقالية مدتها ثلاث سنوات نحو الحكم الذاتي بعد قبول نجيب حق تقرير المصير (LOC1991_INDEP). ويعود إلى هذه الحقبة أيضًا الخط الإداري لعام 1902 الذي يقوم عليه لاحقًا نزاع حلايب (IBS18_1962). أما النيل فتذكر اتفاقية 1959 أن اتفاقية 1929 «لم تنظم إلا استخدامًا جزئيًا» للنهر (UNTS6519_1959) [شروط 1929 لم تُقرأ مباشرة – يحتاج تحقق]. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
  "culture_dominance_en": null,
  "culture_dominance_ar": null,
  "economy_en": null,
  "economy_ar": null,
  "regional_power": [],
  "sources": [
+  "LOC1991_CONDO",
+  "LOC1991_NATIONALISM",
+  "LOC1991_INDEP",
+  "UNTS6519_1959",
   "GHA7_CH17",
   "WP:Kingdom_of_Egypt"
  ],
@@ -34,10 +38,11 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
   "culture_dominance: no source-backed text yet",
   "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "economy: left null – no source read on Condominium-era Egypt–Sudan economic ties beyond existing Condominium era text",
+  "1929 agreement terms not read – VERIFY"
  ],
- "curated": false
+ "curated": true
 }

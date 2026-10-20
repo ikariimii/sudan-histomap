@@ -19,14 +19,15 @@
    "lon": 31.24
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "Baybars (1260–77) began active intervention in Nubia, motivated largely by Egypt's security, though Hasan also suggests an economic motive (GHA IV ch.16, p.402). King Dawud raided Egypt and took 'Aydhab in 1272. In 1276 a Mamluk expedition defeated him and enthroned his rival Shakanda, whose oath 'would practically have replaced the traditional bakt relationship by complete vassalage' (pp.402–403). King Shamamun resisted, then in 1290 offered an augmented baqt to Qalawun; further expeditions followed from 1305 (p.403). Nubia was never annexed (p.405).",
+ "geopolitics_ar": "بدأ بيبرس (1260–1277) تدخلاً فعلياً في النوبة بدافع أمن مصر في الغالب، وإن كان حسن يرجّح أيضاً دافعاً اقتصادياً (تاريخ أفريقيا العام IV، الفصل 16، ص402). وأغار الملك داود على مصر واستولى على عيذاب عام 1272. وفي 1276 هزمته حملة مملوكية ونصّبت منافسه شكندة، الذي كان قسمه «سيستبدل عملياً بعلاقة البقط التقليدية تبعيةً كاملة» (ص402–403). وقاوم الملك شمامون، ثم عرض عام 1290 على قلاوون بقطاً مضاعفاً، وتوالت الحملات منذ 1305 (ص403). ولم تُضمّ النوبة قط (ص405). [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "Mamluk punitive campaigns against Bedouin in Upper Egypt (1302, 1351, 1353, 1378, 1395) left them 'only one escape route ... into the Sudan', and nomads moved in growing numbers towards riverain Nubia (GHA IV ch.16, p.402). Under the 1276 terms, Nubians who did not embrace Islam paid jizya (p.403), and those who converted were protected against enslavement (p.416).",
+ "culture_dominance_ar": "خلّفت الحملات المملوكية التأديبية على البدو في صعيد مصر (1302، 1351، 1353، 1378، 1395) أمامهم «طريق هروب واحداً فقط ... إلى السودان»، فاتجه البدو بأعداد متزايدة نحو النوبة النهرية (تاريخ أفريقيا العام IV، الفصل 16، ص402). وبموجب شروط 1276 دفع النوبيون الذين لم يعتنقوا الإسلام الجزية (ص403)، وحُمي من أسلم منهم من الاسترقاق (ص416). [WORKING TRANSLATION – needs native Arabic review]",
+ "economy_en": "Shakanda promised an annual tribute of half the country's revenue plus a set number of animals, and the revenue of Maris went to the sultan (GHA IV ch.16, p.403). Sources put the captives taken to Egypt at 10,000, a figure Kropáček calls exaggerated (p.403). Ibn al-Furat estimated that 40,000 tribesmen and camp followers joined the 1289 campaign in search of booty (p.403).",
+ "economy_ar": "تعهّد شكندة بجزية سنوية قدرها نصف إيراد البلاد إضافة إلى عدد محدد من الحيوانات، وذهب إيراد المريس إلى السلطان (تاريخ أفريقيا العام IV، الفصل 16، ص403). وتقدّر المصادر الأسرى المنقولين إلى مصر بعشرة آلاف، وهو رقم يعدّه كروباتشيك مبالغاً فيه (ص403). وقدّر ابن الفرات أن 40 ألفاً من رجال القبائل وأتباعهم انضموا إلى حملة 1289 طلباً للغنيمة (ص403). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA4_CH16",
   "GHAIV",
   "WP:Mamluk_Sultanate"
  ],
@@ -34,10 +35,9 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "10,000 captives (1276) – figure judged exaggerated in GHA IV p.403"
  ],
- "curated": false
+ "curated": true
 }
