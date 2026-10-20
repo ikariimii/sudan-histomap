@@ -52,3 +52,5 @@ main li,main p,.note{overflow-wrap:anywhere}.src,.flags{list-style-position:insi
 .rcc{color:var(--mute);font-size:.9em}.rcbox{background:#f7f5f0;border:1px dashed #a89f8e;border-radius:6px;padding:10px 12px;color:#4a4438}.rcbox .rcb{margin-inline-end:6px}
 .eras b.wipn{font-weight:500;color:var(--mute);text-decoration:underline dashed #a89f8e}
 .mapmore{font-size:13px;color:var(--mute);margin:4px 0}
+.repb{display:inline-block;background:#b3261e;color:#fff;font:bold 10px/1.5 system-ui,sans-serif;letter-spacing:.02em;padding:0 5px;border-radius:3px;vertical-align:middle}
+.mm{white-space:nowrap}.listed{padding-inline-start:18px}.listed li{margin:4px 0}

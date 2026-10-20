@@ -2,6 +2,12 @@
 
 Site changes for sudan.indomando.com (built from `web/` by `web/build.py`). Newest first.
 
+## 2026-10-20 (reported entries)
+
+- Sourced extent entries with no geometry (e.g. Bir Mirgui and Jebel Eredi, UN PoE S/2025/239 paras 98 and 104) are never drawn; they are listed under the war map with their REPORTED badge, paragraph (`pages`) and `as_of` date. Unsourced entries without geometry are still listed as not drawn.
+- REPORTED is now a real badge element in the reference-point list and in the 'not labelled on the map' list (e.g. Mellit at 390px).
+- Main capital labels can switch to the other side of their dot, and markers are kept at a small distance (El Fasher vs Abéché on the Turkiyya map).
+
 ## 2026-10-20 (map labels)
 
 - Map labels are thinned by priority (main-era capitals, then area labels, cited points, context capitals). Labels that would overlap another label or marker, or leave the frame, are hidden and listed under the map; markers always stay. Long point labels fall back to a shorter form before being hidden.
