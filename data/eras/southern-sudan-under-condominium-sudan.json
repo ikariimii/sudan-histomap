@@ -27,8 +27,8 @@
    "lon": 31.58
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
+ "geopolitics_en": "Resistance to the early Condominium was local in character. It was led by the Nuer near the Sobat and White Nile, culminating in the 1927 revolt, and by the Azande under Yambio, who was defeated in 1905 and died in prison (GHA VII ch.4, pp.80–81). British policy developed the South 'in strict separation from the north': proselytising Islam was forbidden, Christian missions were encouraged, and mission schools taught in English. 'Two totally separate and mutually alien regions' resulted. In August 1955 the Equatoria Corps revolted against the northern takeover of posts (GHA VIII, pp.149–150).",
+ "geopolitics_ar": "كانت مقاومة الحكم الثنائي المبكر محلية الطابع. وقادها النوير قرب السوباط والنيل الأبيض، وبلغت ذروتها في ثورة 1927، والأزاندي بقيادة يامبيو الذي هُزم في 1905 ومات في السجن (تاريخ أفريقيا العام VII، الفصل 4، ص80–81). وطوّرت السياسة البريطانية الجنوب «بمعزل صارم عن الشمال»: فمُنع التبشير بالإسلام، وشُجّعت البعثات المسيحية، ودرّست مدارس البعثات بالإنجليزية. فنشأ «إقليمان منفصلان تماماً وغريبان أحدهما عن الآخر». وفي أغسطس 1955 تمردت الفرقة الاستوائية على تولّي الشماليين للمناصب (تاريخ أفريقيا العام VIII، ص149–150). [WORKING TRANSLATION – needs native Arabic review]",
  "culture_dominance_en": "Peoples of the South are not generally Muslims and do not claim Arab descent; islamisation and arabisation 'were restrained during the Condominium period, when European and American missionaries effected a limited christianization of the region' (HD2011, intro pp.2–3).",
  "culture_dominance_ar": "شعوب الجنوب ليست في عمومها مسلمة ولا تدّعي النسب العربي؛ وقد «كُبحت [نزعتا الأسلمة والتعريب] في فترة الحكم الثنائي، حين حقق المبشرون الأوروبيون والأمريكيون تنصيراً محدوداً في الإقليم» (هولت وديلي، المقدمة ص2–3).",
  "economy_en": null,
@@ -36,6 +36,8 @@
  "regional_power": [],
  "sources": [
   "HD2011",
+  "GHA7_CH4",
+  "GHA8",
   "UNSC1996",
   "WP:First_Sudanese_Civil_War",
   "WP:Second_Sudanese_Civil_War"
@@ -44,10 +46,11 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
   "economy: no source-backed text yet",
   "regional_power: no actors scored",
-  "Pass 13 text: Arabic is a working translation; needs native review"
+  "Pass 13 text: Arabic is a working translation; needs native review",
+  "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "null reason – economy: no economic passage on the South in GHA VII/VIII or HD2011 intro"
  ],
  "curated": true
 }

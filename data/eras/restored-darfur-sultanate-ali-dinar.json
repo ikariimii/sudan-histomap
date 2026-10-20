@@ -27,11 +27,12 @@
  "geopolitics_ar": "«تابعة اسمياً للسودان الإنجليزي المصري لكنها مستقلة فعلياً»؛ واستجاب علي دينار لدعوة العثمانيين إلى الجهاد في الحرب العالمية الأولى، فأغار على تشاد الفرنسية وهدد برنو البريطانية وحاول إثارة الثورة في كردفان؛ وهُزم وقُتل في 1916 و«ضُمّت دارفور كلياً إلى السودان» (تاريخ أفريقيا العام VII، الفصل 12، ص283).",
  "culture_dominance_en": null,
  "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "economy_en": "After the Mahdist defeat, Ali Dinar asked Khartoum to recognise him as sultan 'in return for loyalty to the government and payment of an annual tax'. Wingate agreed, writing that the government 'does not need money' and that the tax was a sign of loyalty (Takana 2016, pp.34–35). No source read describes the sultanate's internal economy or trade.",
+ "economy_ar": "بعد هزيمة المهدية، طلب علي دينار من الخرطوم الاعتراف به سلطاناً «مقابل الولاء للحكومة ودفع ضريبة سنوية». ووافق ونجت، وكتب أن الحكومة «لا تحتاج إلى المال» وأن الضريبة علامة ولاء (تكنة 2016، ص34–35). ولا يصف أي مصدر مقروء الاقتصاد الداخلي للسلطنة أو تجارتها. [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
   "GHA7_CH12",
+  "TAKANA2016",
   "OFAHEY2008",
   "HD2011",
   "WP:Ali_Dinar",
@@ -42,9 +43,11 @@
  ],
  "flags": [
   "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
   "regional_power: no actors scored",
-  "Pass 13 text: Arabic is a working translation; needs native review"
+  "Pass 13 text: Arabic is a working translation; needs native review",
+  "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "SINGLE-SOURCE (Takana 2016, which reports al-Tunisi, Nachtigal, Arkell and Balfour-Paul second-hand; O'Fahey 2008 not read)",
+  "null reason – culture: no cultural passage on Ali Dinar's court in Takana 2016, GHA VII or HD2011; not inferred"
  ],
  "curated": true
 }

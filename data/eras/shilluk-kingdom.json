@@ -35,8 +35,8 @@
  "geopolitics_ar": "أغاروا على مستوطنات العرب على النيل الأبيض وواجهوا جيرانهم الشماليين «على قدم المساواة» حتى ظهور الأسلحة النارية والبواخر (هولت وديلي).",
  "culture_dominance_en": null,
  "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "economy_en": "Before 1860 a trading system grew up in the kingdom, which the reth (king) 'could no longer control' as foreigners came to dominate it. Kaka in northern Shillukland became the main slave market of the White Nile after 1854. Kate Petherick called the Shilluk 'an industrious people' who 'cultivated grain to a large extent'. One raid by Muhammad al-Khayr is recorded as taking 500 slaves and 12,000 head of cattle. Turco-Egyptian rule then imposed heavy cattle taxes, an annual tribute of £15,000 on the Shilluk and Jieng, and cotton grown with forced labour around Fashoda (5,000–6,000 ha by 1874) (GHA VI ch.14, pp.366–367).",
+ "economy_ar": "قبل 1860 نشأ في المملكة نظام تجاري «لم يعد الرث (الملك) قادراً على السيطرة عليه» بعد أن هيمن عليه الأجانب. وأصبحت كاكا في شمال بلاد الشلك سوق الرقيق الرئيسية على النيل الأبيض بعد 1854. ووصفت كيت بيذريك الشلك بأنهم «شعب مجتهد» و«زرعوا الحبوب على نطاق واسع». وتسجّل المصادر غارة واحدة لمحمد الخير أُخذ فيها 500 من الرقيق و12 ألف رأس من الماشية. ثم فرض الحكم التركي المصري ضرائب ثقيلة على الماشية، وجزية سنوية قدرها 15 ألف جنيه على الشلك والجينق، وزراعة القطن بالسخرة حول فشودة (5–6 آلاف هكتار بحلول 1874) (تاريخ أفريقيا العام VI، الفصل 14، ص366–367). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [
   {
    "actor": "Shilluk",
@@ -46,6 +46,7 @@
  ],
  "sources": [
   "HD2011",
+  "GHA6_CH14",
   "WP:Shilluk_Kingdom"
  ],
  "source_langs": [
@@ -53,8 +54,8 @@
  ],
  "flags": [
   "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "null reason – culture/economy: HD2011 intro covers only range and raiding; Shilluk ethnography not read",
+  "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "null reason – culture: no Shilluk ethnography read; GHA VI only names the reth and Fashoda",
   "'equal terms' with northern neighbours is qualitative only"
  ],
  "curated": true

@@ -19,14 +19,15 @@
    "lon": 24.3
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
+ "geopolitics_en": "Balfour-Paul (as summarised by Theobald 1965, reported by Takana 2016, p.51) says the Dajo sultanate controlled the southern part of Darfur, while the Tunjur held the north. Its founders were immigrants from abroad, and power passed between the Dajo, Tunjur and Fur 'without much bloodshed'. Arkell went further and called the Dajo and Tunjur kingdoms extensions of Borno (Takana 2016, p.6). That claim is contested and is reported here only second-hand. Dates and limits are not given in these sources.",
+ "geopolitics_ar": "يقول بلفور-بول (كما لخّصه ثيوبالد 1965، ونقله تكنة 2016، ص51) إن سلطنة الداجو سيطرت على الجزء الجنوبي من دارفور، بينما سيطر التنجر على الشمال. وكان مؤسسوها مهاجرين من الخارج، وانتقلت السلطة بين الداجو والتنجر والفور «دون كثير من إراقة الدماء». وذهب آركل أبعد من ذلك فعدّ مملكتي الداجو والتنجر امتداداً لبرنو (تكنة 2016، ص6). وهذا الرأي خلافي ويُنقل هنا بصورة غير مباشرة فقط. ولا تذكر هذه المصادر تواريخ أو حدوداً. [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "Dajo oral traditions claim a migration into Darfur from the east (the Nile), although the Dajo also have clans around Lake Chad (Takana 2016, p.68). Takana says all the Darfur kingdoms, including the Dajo, 'were associated with the Arabs from the beginning' (Takana 2016, p.52). He dates Darfur's customary law to 'the rise of the early Darfur sultanates of Dajo and Tunjur' (p.109). Oral tradition, reported second-hand.",
+ "culture_dominance_ar": "تذكر روايات الداجو الشفهية هجرةً إلى دارفور من الشرق (النيل)، مع أن للداجو أيضاً عشائر حول بحيرة تشاد (تكنة 2016، ص68). ويقول تكنة إن ممالك دارفور كلها، ومنها الداجو، «ارتبطت بالعرب منذ البداية» (تكنة 2016، ص52). ويؤرّخ القانون العرفي في دارفور بـ«قيام سلطنتي الداجو والتنجر المبكرتين» (ص109). رواية شفهية منقولة بصورة غير مباشرة. [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": null,
  "economy_ar": null,
  "regional_power": [],
  "sources": [
+  "TAKANA2016",
   "OFAHEY2008",
   "WP:Daju_people",
   "WP:History_of_Darfur"
@@ -35,10 +36,12 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
   "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "SINGLE-SOURCE (Takana 2016, which reports al-Tunisi, Nachtigal, Arkell and Balfour-Paul second-hand; O'Fahey 2008 not read)",
+  "CONTESTED – Arkell's 'extension of Borno' thesis (reported in Takana p.6); Dajo dating not given in sources read",
+  "null reason – economy: no economic passage in Takana 2016 or the HD2011 intro; O'Fahey 2008 not read"
  ],
- "curated": false
+ "curated": true
 }

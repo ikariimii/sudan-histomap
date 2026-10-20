@@ -23,8 +23,8 @@
    "lon": 31.05
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
+ "geopolitics_en": "Lay in the north-eastern foothills of the Nuba Mountains. Its rulers 'encouraged the immigration of settlers and established their suzerainty over a considerable area'. It survived in semi-autonomy after the Turco-Egyptian conquest and was integrated into Condominium local government (HD2011, intro p.7). Takana places the rise of Tagali in the 17th century, alongside the Fur and Lake Chad sultanates (p.129), and names Sinnar and Tagali as Darfur's eastern neighbours (p.173).",
+ "geopolitics_ar": "تقع في السفوح الشمالية الشرقية لجبال النوبة. وقد «شجّع حكامها هجرة المستوطنين وبسطوا سيادتهم على مساحة واسعة». وبقيت في حكم شبه ذاتي بعد الفتح التركي المصري، ثم أُدمجت في نظام الحكم المحلي في عهد الحكم الثنائي (هولت وديلي، المقدمة ص7). ويضع تكنة قيام تقلي في القرن السابع عشر، إلى جانب سلطنتي الفور وبحيرة تشاد (ص129)، ويذكر سنار وتقلي جارتين شرقيتين لدارفور (ص173). [WORKING TRANSLATION – needs native Arabic review]",
  "culture_dominance_en": "A small Muslim state in the Nuba Mountains whose royal family 'derives its origin from the marriage of a Ja'ali holy man with an indigenous princess' (HD2011, intro p.4).",
  "culture_dominance_ar": "دولة إسلامية صغيرة في جبال النوبة «تعود أصول أسرتها المالكة إلى زواج رجل دين جعلي من أميرة محلية» (هولت وديلي، المقدمة ص4).",
  "economy_en": null,
@@ -32,16 +32,18 @@
  "regional_power": [],
  "sources": [
   "HD2011",
+  "TAKANA2016",
   "WP:Kingdom_of_Taqali"
  ],
  "source_langs": [
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
   "economy: no source-backed text yet",
   "regional_power: no actors scored",
-  "Pass 13 text: Arabic is a working translation; needs native review"
+  "Pass 13 text: Arabic is a working translation; needs native review",
+  "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "null reason – economy: only a general mention that Darfur and its neighbours (incl. Tagali) were 'in touch ... through trade' (Takana p.173); too general to use"
  ],
  "curated": true
 }
