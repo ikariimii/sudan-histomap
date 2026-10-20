@@ -2336,6 +2336,18 @@
     "pages": "",
     "lang": "en"
    },
+   "GHA2_CH10_P265": {
+    "author": "N.M. Sherif (ch.10), in G. Mokhtar (ed.)",
+    "title": "General History of Africa, II: Ancient Civilizations of Africa – 'Nubia before Napata'",
+    "publisher": "UNESCO / Heinemann / Univ. of California Press",
+    "year": "1981",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265",
+    "pages": "265, 270 (PDF on box: /workspace/gha2.pdf pp.282, 287)",
+    "lang": "en",
+    "note": "",
+    "id": "GHA2_CH10_P265",
+    "via": "db/regional_extents_sources.json"
+   },
    "GHA2_CH12": {
     "author": "K. Michałowski",
     "title": "The spreading of Christianity in Nubia (General History of Africa II, ch.12)",
@@ -2344,6 +2356,18 @@
     "pages": "pp.326–340",
     "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265",
     "lang": "en"
+   },
+   "GHA2_CH16_P385_415": {
+    "author": "Yu.M. Kobishchanov (ch.15) & T.T. Mekouria (ch.16), in G. Mokhtar (ed.)",
+    "title": "General History of Africa, II – Aksum chapters",
+    "publisher": "UNESCO / Heinemann / Univ. of California Press",
+    "year": "1981",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265",
+    "pages": "385–386, 414–415 (PDF pp.402–403, 431–432)",
+    "lang": "en",
+    "note": "chapter-author attribution to verify against TOC",
+    "id": "GHA2_CH16_P385_415",
+    "via": "db/regional_extents_sources.json"
    },
    "GHA6_CH14": {
     "author": "H.A. Ibrahim (with B.A. Ogot)",
@@ -4192,6 +4216,42 @@
     "lang": "en",
     "via": "db/era_fill_modern2.json"
    },
+   "WP_ABRAHA": {
+    "author": "Wikipedia contributors",
+    "title": "Abraha",
+    "publisher": "Wikipedia (flagged: tertiary)",
+    "year": "2026",
+    "url": "https://en.wikipedia.org/wiki/Abraha",
+    "pages": "",
+    "lang": "en",
+    "note": "Wikipedia – flagged; accessed 2026-10-20",
+    "id": "WP_ABRAHA",
+    "via": "db/regional_extents_sources.json"
+   },
+   "WP_AKSUM": {
+    "author": "Wikipedia contributors",
+    "title": "Kingdom of Aksum",
+    "publisher": "Wikipedia (flagged: tertiary)",
+    "year": "2026",
+    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Aksum",
+    "pages": "",
+    "lang": "en",
+    "note": "Wikipedia – flagged; accessed 2026-10-20",
+    "id": "WP_AKSUM",
+    "via": "db/regional_extents_sources.json"
+   },
+   "WP_AZANDE": {
+    "author": "Wikipedia contributors",
+    "title": "Azande people",
+    "publisher": "Wikipedia (flagged: tertiary)",
+    "year": "2026",
+    "url": "https://en.wikipedia.org/wiki/Azande_people",
+    "pages": "",
+    "lang": "en",
+    "note": "Wikipedia – flagged; accessed 2026-10-20",
+    "id": "WP_AZANDE",
+    "via": "db/regional_extents_sources.json"
+   },
    "WP_BIRTAWIL": {
     "author": "Wikipedia contributors",
     "title": "Bir Tawil",
@@ -4201,6 +4261,30 @@
     "url": "https://en.wikipedia.org/wiki/Bir_Tawil",
     "lang": "en",
     "note": "WIKIPEDIA – flagged; cross-check only."
+   },
+   "WP_ETHIOPIAN_EMPIRE": {
+    "author": "Wikipedia contributors",
+    "title": "Ethiopian Empire",
+    "publisher": "Wikipedia (flagged: tertiary)",
+    "year": "2026",
+    "url": "https://en.wikipedia.org/wiki/Ethiopian_Empire",
+    "pages": "",
+    "lang": "en",
+    "note": "Wikipedia – flagged; accessed 2026-10-20",
+    "id": "WP_ETHIOPIAN_EMPIRE",
+    "via": "db/regional_extents_sources.json"
+   },
+   "WP_GONDAR": {
+    "author": "Wikipedia contributors",
+    "title": "Gondar",
+    "publisher": "Wikipedia (flagged: tertiary)",
+    "year": "2026",
+    "url": "https://en.wikipedia.org/wiki/Gondar",
+    "pages": "",
+    "lang": "en",
+    "note": "Wikipedia – flagged; accessed 2026-10-20",
+    "id": "WP_GONDAR",
+    "via": "db/regional_extents_sources.json"
    },
    "WP_HALAIB": {
     "author": "Wikipedia contributors",
@@ -4212,6 +4296,42 @@
     "lang": "en",
     "note": "WIKIPEDIA – flagged. Used only for post-1962 dates; its own citations are Ofcansky 2002 (Africa South of the Sahara, p.985), Dzurek & Schofield 2001 (IBRU, p.4) and a 2002 briefing; not read by us."
    },
+   "WP_KADESH": {
+    "author": "Wikipedia contributors",
+    "title": "Battle of Kadesh",
+    "publisher": "Wikipedia (flagged: tertiary)",
+    "year": "2026",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Kadesh",
+    "pages": "",
+    "lang": "en",
+    "note": "Wikipedia – flagged; accessed 2026-10-20",
+    "id": "WP_KADESH",
+    "via": "db/regional_extents_sources.json"
+   },
+   "WP_KANEM_BORNU": {
+    "author": "Wikipedia contributors",
+    "title": "Kanem–Bornu Empire (cites Stapleton 2013 p.81; Brenner 1973 pp.33–34; Bosworth 2012 p.127)",
+    "publisher": "Wikipedia (flagged: tertiary)",
+    "year": "2026",
+    "url": "https://en.wikipedia.org/wiki/Kanem%E2%80%93Bornu_Empire",
+    "pages": "",
+    "lang": "en",
+    "note": "Wikipedia – flagged; accessed 2026-10-20",
+    "id": "WP_KANEM_BORNU",
+    "via": "db/regional_extents_sources.json"
+   },
+   "WP_KANISAH_KURGUS": {
+    "author": "Wikipedia contributors",
+    "title": "Kanisah Kurgus (cites Török 2009, Between Two Worlds, Brill, p.104)",
+    "publisher": "Wikipedia (flagged: tertiary)",
+    "year": "2026",
+    "url": "https://en.wikipedia.org/wiki/Kanisah_Kurgus",
+    "pages": "",
+    "lang": "en",
+    "note": "Wikipedia – flagged; accessed 2026-10-20",
+    "id": "WP_KANISAH_KURGUS",
+    "via": "db/regional_extents_sources.json"
+   },
    "WP_MAKURIA": {
     "author": "Wikipedia contributors",
     "title": "Makuria",
@@ -4221,6 +4341,78 @@
     "url": "https://en.wikipedia.org/wiki/Makuria",
     "lang": "en",
     "note": "WIKIPEDIA – flagged. Late-period reach rests on its citations of Gerhards 2025 (IJAHS 58/2, pp.183–202, esp. pp.188–190) and Ruffini 2012 (pp.253–254), Seignobos 2018; none read by us."
+   },
+   "WP_MAKURIA_2026": {
+    "author": "Wikipedia contributors",
+    "title": "Makuria (cites Seignobos 2018 pp.139–143; Seignobos 2020 pp.146–151)",
+    "publisher": "Wikipedia (flagged: tertiary)",
+    "year": "2026",
+    "url": "https://en.wikipedia.org/wiki/Makuria",
+    "pages": "",
+    "lang": "en",
+    "note": "Wikipedia – flagged; accessed 2026-10-20",
+    "id": "WP_MAKURIA_2026",
+    "via": "db/regional_extents_sources.json"
+   },
+   "WP_MAMLUK": {
+    "author": "Wikipedia contributors",
+    "title": "Mamluk Sultanate",
+    "publisher": "Wikipedia (flagged: tertiary)",
+    "year": "2026",
+    "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate",
+    "pages": "",
+    "lang": "en",
+    "note": "Wikipedia – flagged; accessed 2026-10-20",
+    "id": "WP_MAMLUK",
+    "via": "db/regional_extents_sources.json"
+   },
+   "WP_NAPATA": {
+    "author": "Wikipedia contributors",
+    "title": "Napata (coord 18.53N 31.84E)",
+    "publisher": "Wikipedia (flagged: tertiary)",
+    "year": "2026",
+    "url": "https://en.wikipedia.org/wiki/Napata",
+    "pages": "",
+    "lang": "en",
+    "note": "Wikipedia – flagged; accessed 2026-10-20",
+    "id": "WP_NAPATA",
+    "via": "db/regional_extents_sources.json"
+   },
+   "WP_NGAZARGAMU": {
+    "author": "Wikipedia contributors",
+    "title": "Birni Ngazargamu",
+    "publisher": "Wikipedia (flagged: tertiary)",
+    "year": "2026",
+    "url": "https://en.wikipedia.org/wiki/Ngazargamu",
+    "pages": "",
+    "lang": "en",
+    "note": "Wikipedia – flagged; accessed 2026-10-20",
+    "id": "WP_NGAZARGAMU",
+    "via": "db/regional_extents_sources.json"
+   },
+   "WP_THUTMOSE3": {
+    "author": "Wikipedia contributors",
+    "title": "Thutmose III",
+    "publisher": "Wikipedia (flagged: tertiary)",
+    "year": "2026",
+    "url": "https://en.wikipedia.org/wiki/Thutmose_III",
+    "pages": "",
+    "lang": "en",
+    "note": "Wikipedia – flagged; accessed 2026-10-20",
+    "id": "WP_THUTMOSE3",
+    "via": "db/regional_extents_sources.json"
+   },
+   "WP_WADAI": {
+    "author": "Wikipedia contributors",
+    "title": "Wadai Sultanate",
+    "publisher": "Wikipedia (flagged: tertiary)",
+    "year": "2026",
+    "url": "https://en.wikipedia.org/wiki/Wadai_Sultanate",
+    "pages": "",
+    "lang": "en",
+    "note": "Wikipedia – flagged; accessed 2026-10-20",
+    "id": "WP_WADAI",
+    "via": "db/regional_extents_sources.json"
    },
    "XINHUA_GOLD2025": {
     "author": "Xinhua (reporting a Sudanese Mineral Resources Company report)",
@@ -4336,6 +4528,16 @@
     "year": "",
     "url": "https://en.wikipedia.org/wiki/History_of_Sudan",
     "note": "Secondary; cited for 19 Dec 1955 parliamentary declaration (fetched 2026-10-20)",
+    "pages": "",
+    "lang": "en"
+   },
+   "WP:Jonglei_Canal": {
+    "author": "Wikipedia (en)",
+    "title": "Jonglei Canal",
+    "date": "accessed 2026-10-20",
+    "url": "https://en.wikipedia.org/wiki/Jonglei_Canal",
+    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "note": "tertiary",
     "pages": "",
     "lang": "en"
    }
