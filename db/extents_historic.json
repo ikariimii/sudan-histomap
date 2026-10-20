@@ -192,14 +192,15 @@
      "coord_source": "Wikidata Q11948049"
     }
    ],
-   "control_limits_en": "'The kingdom of the Nobadae (Nuba in Arabic), known as Nobadia, extended from Philae to the Second Cataract. Its capital was Faras' (GHA2_CH12).",
-   "control_limits_ar": "«امتدت مملكة النوباديين (النوبة بالعربية)، المعروفة بنوباتيا، من فيلة إلى الشلال الثاني، وكانت عاصمتها فرس» (تاريخ أفريقيا العام II، الفصل 12).",
+   "control_limits_en": "'The kingdom of the Nobadae (Nuba in Arabic), known as Nobadia, extended from Philae to the Second Cataract. Its capital was Faras' (GHA2_CH12). Derda & Łajtar (2019) give Nobadia 'between the first and the third Nile cataracts', capital first at Qasr Ibrim and later Faras.",
+   "control_limits_ar": "«امتدت مملكة النوباديين (النوبة بالعربية)، المعروفة بنوباتيا، من فيلة إلى الشلال الثاني، وكانت عاصمتها فرس» (تاريخ أفريقيا العام II، الفصل 12). ويحدد ديردا ولايتار (2019) نوباتيا «بين الشلالين الأول والثالث»، وكانت عاصمتها أولاً قصر إبريم ثم فرس.",
    "source_ids": [
-    "GHA2_CH12"
+    "GHA2_CH12",
+    "DERDA_LAJTAR2019"
    ],
    "ohm_ids": [],
    "cshapes": null,
-   "notes": "Later united with Makuria (GHA2_CH12); the date of the merger was not verified in this pass.",
+   "notes": "End of separate existence disputed: c.630 (Derda & Łajtar 2019), mid-7th c. (Maqrizi via GHA2_CH12), c.697 or later under Merkurios (GHA2_CH12), or late 6th c. (Godlewski hypothesis, via Derda & Łajtar). 700 is a placeholder.",
    "license": "Wikidata coordinates: CC0; limit text: short quotations from cited works",
    "ohm_source_ids": [],
    "geojson": null
@@ -225,7 +226,8 @@
    "control_limits_ar": "«وفي الجنوب، حتى مروي القديمة، نشأت في القرن السادس مملكة نوبية أخرى عاصمتها دنقلا العجوز» (تاريخ أفريقيا العام II، الفصل 12)؛ و«بين الشلالين الثالث والخامس نشأت مملكة المقرة حول مدينة دنقلا» (المتحف الفرنسي). ثم «اتحدت النوبة الشمالية والوسطى في دولة واحدة».",
    "source_ids": [
     "GHA2_CH12",
-    "FR_MUSEE_MEROE"
+    "FR_MUSEE_MEROE",
+    "DERDA_LAJTAR2019"
    ],
    "ohm_ids": [
     2960090,
@@ -233,7 +235,7 @@
     2960088
    ],
    "cshapes": null,
-   "notes": "The OHM relations carry no source tag; check them against the cited text before use. Two extents: before and after the union with Nobadia. OHM 2960090 (450–1265) reaches c.23.7°N, so it includes Nobadia's territory from 450, which conflicts with GHA2_CH12 (Nobadia was a separate kingdom from Philae to the Second Cataract until the union).",
+   "notes": "The OHM relations carry no source tag; check them against the cited text before use. Two extents: before and after the union with Nobadia. OHM 2960090 (450–1265) reaches c.23.7°N, so it includes Nobadia's territory from 450, which conflicts with GHA2_CH12 (Nobadia was a separate kingdom from Philae to the Second Cataract until the union). Union with Nobadia: c.630 (Derda & Łajtar 2019) to c.697+ (Merkurios, GHA2_CH12); split the extent at the union with a disputed-date flag.",
    "license": "Wikidata coordinates: CC0; OHM geometry: CC0 1.0; limit text: short quotations from cited works",
    "ohm_source_ids": [
     "OHM_2960090",
@@ -278,6 +280,15 @@
    "confidence": "medium",
    "anchor_sites": [
     {
+     "name": "Sennar (town)",
+     "lat": 13.55,
+     "lon": 33.6,
+     "source_ids": [
+      "HD2011"
+     ],
+     "coord_source": "Wikidata Q611867 (en label reads 'Sengs'; ar سنار, enwiki 'Sennar'); GeoNames 367644 'Sennar, Sudan'"
+    },
+    {
      "name": "Old Dongola",
      "lat": 18.2231,
      "lon": 30.7439,
@@ -295,7 +306,7 @@
    ],
    "ohm_ids": [],
    "cshapes": null,
-   "notes": "Sennar city has no clean Wikidata item (Q865534 is the state), so it is not anchored. Hannik has no Wikidata item. Southern and eastern limits not stated.",
+   "notes": "Sennar anchored to Wikidata Q611867 / GeoNames 367644. The capital in 1821 (old Sennar) may not coincide exactly with the modern town; flagged. Southern and eastern limits (Fazughli, Ethiopian marches) were not found in the sources read (HD2011 intro pp.1–9 only); still open.",
    "license": "Wikidata coordinates: CC0; limit text: short quotations from cited works",
    "ohm_source_ids": [],
    "geojson": null
@@ -304,7 +315,7 @@
    "era_id": "sultanate-of-darfur-keira",
    "year_from": 1650,
    "year_to": 1874,
-   "confidence": "low",
+   "confidence": "medium",
    "anchor_sites": [
     {
      "name": "El Fasher",
@@ -320,22 +331,24 @@
      "lat": 13.0,
      "lon": 29.5,
      "source_ids": [
-      "HD2011",
-      "ZH_EMB_HIST2020"
+      "OFAHEY2018_FWD",
+      "HD2011"
      ],
      "coord_source": "Wikidata Q867052"
     }
    ],
-   "control_limits_en": "Kordofan was 'a debatable land between the rulers of Sennar and Darfur' (HD2011); the Keira state expanded west, north and then east under Muhammad Tayrab and peaked after conquering Kordofan in 1785 (ZH_EMB_HIST2020). The Kayra 'ruled Darfur until 1874' (GHA6_CH14).",
-   "control_limits_ar": "كانت كردفان «أرضاً متنازعاً عليها بين حكام سنار ودارفور» (هولت وديلي)؛ وتوسعت دولة الكيرا غرباً وشمالاً ثم شرقاً في عهد محمد تيراب، وبلغت ذروتها بعد فتح كردفان عام 1785 (نص السفارة الصينية). و«حكم الكيرا دارفور حتى 1874» (تاريخ أفريقيا العام VI).",
+   "control_limits_en": "West: wars with Wadai 'ended in stalemate', with tension 'usually caused by the machinations of the tributary states along the border, Qimr, Tama, or Sila' (OFAHEY2018_FWD). Al-Tunisi (as reported by Takana) put the borders 'from al-Tuwaisha in the east to the last point in Dar Masalit in the west'; south: 'the empty land between the Fur sultanate and Dar Firteet'; north: from al-Mazroob, with Zaghawa, Midob and Barti as affiliated kingdoms (TAKANA2016, p.9). East/Kordofan: before c.1785 Kordofan was 'a vast area west of the White Nile under no central rule' (OFAHEY2018_FWD) and 'a debatable land between the rulers of Sennar and Darfur' (HD2011). 'Darfur rule over Kordofan was to last just under forty years (1785–1821)'; Darfur and Kordofan together 'covered some 866,000 square kilometers' (OFAHEY2018_FWD). Kordofan was lost when Musallim was killed at Bara on 19 Aug 1821 (OFAHEY2018_FWD); the Kayra 'ruled Darfur until 1874' (GHA6_CH14).",
+   "control_limits_ar": "الغرب: انتهت الحروب مع وداي «إلى طريق مسدود»، وكان التوتر ينشأ «عادةً من مكائد الدول التابعة على الحدود: القِمر والتاما والسيلا» (أوفاهي 2018). وبحسب التونسي (كما ينقل تكنة) امتدت حدود السلطنة «من الطويشة في الشرق إلى آخر نقطة في دار مساليت في الغرب»؛ وجنوباً «الأرض الخالية بين سلطنة الفور ودار فرتيت»؛ وشمالاً من المزروب، مع ممالك تابعة هي الزغاوة والميدوب والبرتي (تكنة 2016، ص9). الشرق/كردفان: قبل نحو 1785 كانت كردفان «منطقة شاسعة غرب النيل الأبيض لا تخضع لحكم مركزي» (أوفاهي 2018) و«أرضاً متنازعاً عليها بين حكام سنار ودارفور» (هولت وديلي). و«دام حكم دارفور لكردفان قرابة أربعين عاماً (1785–1821)»، وغطّت دارفور وكردفان معاً «نحو 866 ألف كيلومتر مربع» (أوفاهي 2018). وضاعت كردفان بمقتل مسلّم في بارا في 19 أغسطس 1821؛ و«حكم الكيرا دارفور حتى 1874» (تاريخ أفريقيا العام VI).",
    "source_ids": [
+    "OFAHEY2018_FWD",
+    "TAKANA2016",
     "HD2011",
-    "ZH_EMB_HIST2020",
-    "GHA6_CH14"
+    "GHA6_CH14",
+    "OFAHEY2008"
    ],
    "ohm_ids": [],
    "cshapes": null,
-   "notes": "The western limit (Wadai) is not stated in the sources read. O'Fahey 2008 should be read for limits. The Kordofan point is a region centroid, not a site.",
+   "notes": "Two extents: core Darfur (c.1650–1874) and Darfur plus Kordofan (1785–1821). O'Fahey 2008 was not read (table of contents only; frontiers chapter p.178), so it is listed as further reading, not as the basis for any phrase. OFAHEY2018_FWD was read through the search index only. The foreword says Tayrab led the army into Kordofan 'in the early 1780s' and also gives 1785 as the start of Darfur rule. The al-Tunisi borders describe c.1803–11 and reach us at second hand via Takana. Place names al-Tuwaisha, Dar Firteet and al-Mazroob have no Wikidata coordinates, so they are not anchored. The earlier ZH_EMB_HIST2020 phrase was replaced with scholarly sources.",
    "license": "Wikidata coordinates: CC0; limit text: short quotations from cited works",
    "ohm_source_ids": [],
    "geojson": null

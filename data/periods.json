@@ -305,6 +305,16 @@
     "lang": "de",
     "pages": ""
    },
+   "DERDA_LAJTAR2019": {
+    "author": "Tomasz Derda & Adam Łajtar",
+    "title": "Organization of the Church in Medieval Nubia in the Light of a Newly Discovered Wall Inscription in Dongola",
+    "publisher": "Jahrbuch der Österreichischen Byzantinistik 69 (Austrian Academy of Sciences)",
+    "year": "2019",
+    "pages": "pp.135–154 (merger: p.136 and n.4)",
+    "url": "https://doi.org/10.1553/joeb69S135",
+    "lang": "en",
+    "note": "Open PDF (austriaca.at) read in full text 2026-10-20; n.4 cites W. Godlewski, 'The Rise of Makuria', Nubian Studies 1998 (2004), pp.58–61"
+   },
    "DE_APUZ2026": {
     "id": "DE_APUZ2026",
     "author": "bpb – Aus Politik und Zeitgeschichte",
@@ -2416,7 +2426,19 @@
     "url": "https://books.google.com/books?id=HQxYJWkO7EEC",
     "isbn": "978-0-231-70038-2 (Columbia); 978-1-85065-853-5 (Hurst)",
     "pages": "",
-    "lang": "en"
+    "lang": "en",
+    "note": "Not read: only the table of contents was seen (via a bookseller listing): 'Tayrab, Kordofan and the Musabba'at' p.49; 'Kordofan' p.65; 'Darfur and Wadai' p.73; 'The loss of Kordofan' p.76; 'Frontiers, provinces and tributaries' p.178."
+   },
+   "OFAHEY2018_FWD": {
+    "author": "R.S. O'Fahey",
+    "title": "Foreword",
+    "edition": "In Muḥammad al-Tūnisī, In Darfur: An Account of the Sultanate and Its People, Vol. One, ed. & trans. Humphrey Davies (Library of Arabic Literature)",
+    "publisher": "New York University Press",
+    "year": "2018",
+    "pages": "pp.ix–xxi",
+    "url": "https://doi.org/10.18574/nyu/9781479811038.003.0004",
+    "lang": "en",
+    "note": "Read through the search engine's full-text index only; the DOI page is bot-blocked. Page numbers within ix–xxi are inferred from page markers in the indexed text (Wadai stalemate c.p.xii; Kordofan 1785–1821 c.p.xvi)"
    },
    "OFAHEY_SPAULDING1972": {
     "author": "R.S. O'Fahey & J. Spaulding",
@@ -2708,6 +2730,17 @@
     "url": "https://catdir.loc.gov/catdir/toc/ecip0615/2006019294.html",
     "pages": "",
     "lang": "en"
+   },
+   "TAKANA2016": {
+    "author": "Yousif Suliman Saeed Takana (trans. Awad Al Awad)",
+    "title": "Darfur – Struggle of Power and Resources, 1650–2002: An Institutional Perspective",
+    "publisher": "Chr. Michelsen Institute, Bergen",
+    "year": "2016",
+    "pages": "p.9 (al-Tunisi's account of the sultanate's borders)",
+    "url": "https://www.cmi.no/publications/file/5795-darfur-struggle-of-power-and-resources-1650-2002.pdf",
+    "isbn": "978-82-8062-583-0",
+    "lang": "en",
+    "note": "Open PDF read 2026-10-20; reports al-Tunisi (c.1803–11), a primary account at second hand"
    },
    "UNNEWS2023": {
     "author": "UN News",
@@ -4093,9 +4126,10 @@
    "sources": [
     "WELSBY2002",
     "GHA2_CH12",
-    "WP:Nobadia"
+    "WP:Nobadia",
+    "DERDA_LAJTAR2019"
    ],
-   "dating_note": "Christianisation c.543 and merger with Makuria (7th c.) per standard accounts; specific dates not re-verified in a primary source in this pass.",
+   "dating_note": "Christianisation c.543 and merger with Makuria (7th c.) per standard accounts; specific dates not re-verified in a primary source in this pass. Merger with Makuria: date disputed. GHA II ch.12 (Michałowski, pp.332–333) gives two versions: Maqrizi has one king, Qalidurut, ruling central and northern Nubia by the mid-7th c.; 'Christian sources seem to prove that the union of Nubia was the work of King Merkurios, who came to the throne in 697.' Derda & Łajtar (2019, p.136 and n.4): 'perhaps around 630'; the earliest indubitable proof of a greater Makuria including Nobadia is the reign of Merkurios (late 7th–early 8th c.); incorporation probably before the Arab raid on Dongola in 652; Godlewski has suggested the end of the 6th c. Welsby 2002 not read on this point.",
    "key_events_ar": [
     "اعتنقت المسيحية نحو 543 م",
     "اندمجت في المقرة في القرن السابع"
@@ -4128,9 +4162,11 @@
    "sources": [
     "WELSBY2002",
     "WP:Makuria",
-    "WP:Baqt"
+    "WP:Baqt",
+    "GHA2_CH12",
+    "DERDA_LAJTAR2019"
    ],
-   "dating_note": "End date approximate (kingdom fragmented in 14th–15th c.).",
+   "dating_note": "End date approximate (kingdom fragmented in 14th–15th c.). Merger with Makuria: date disputed. GHA II ch.12 (Michałowski, pp.332–333) gives two versions: Maqrizi has one king, Qalidurut, ruling central and northern Nubia by the mid-7th c.; 'Christian sources seem to prove that the union of Nubia was the work of King Merkurios, who came to the throne in 697.' Derda & Łajtar (2019, p.136 and n.4): 'perhaps around 630'; the earliest indubitable proof of a greater Makuria including Nobadia is the reign of Merkurios (late 7th–early 8th c.); incorporation probably before the Arab raid on Dongola in 652; Godlewski has suggested the end of the 6th c. Welsby 2002 not read on this point.",
    "key_events_ar": [
     "صد الجيوش العربية عند دنقلا 651/652",
     "معاهدة البقط مع مصر",
