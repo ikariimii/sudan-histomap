@@ -1,0 +1,6 @@
+
+## Analyst pass (2026-10-20): modern regional neighbours – db/era_fill_modern3.json
+- Staging file (not merged into data/eras): geopolitics_en/ar for republic-of-egypt, british-occupied-kingdom-of-egypt, derg-federal-ethiopia, eritrea-italian-colony-independent, french-chad-republic-of-chad, libya-ottoman-italian-independent, central-african-republic-ubangi-shari; economy_en/ar for all except british-occupied-kingdom-of-egypt (null, no source read).
+- New source IDs (22, no clashes with periods.json or era_fill_modern/2): LOC1991_FOREIGN, LOC1991_EGYPT, LOC1991_LIBYA, LOC1991_CHAD, LOC1991_CONDO, LOC1991_NATIONALISM, LOC1991_INDEP, LOC_ETH1991_BORDER, LOC_LBY1987_SANUSI, LOC_LBY1987_ITALOSANUSI, LOC_LBY1987_FOURTHSHORE, UNTS6519_1959, HRW1998_SPLA, EJOSSAH_DERG_SPLA, SAS_HSBA_WP3, NDJAMENA2010, UNSC_S2010_217, ICG_B204, ICG_ETH_ERI, ICG_RADAR2024, UNHCR_CAR2024, LSM_KUFRA2024, SWM_ERI2024. Reused: IBS18_1962, WP_HALAIB, GEO-012/015/016/017/037/038/056/079, AR_AJCS_5653.
+- Flags: [VERIFY] on search-excerpt sources; [SINGLE-SOURCE] marked; Halaib control dates shown side by side; ACLED/ISW data not used. Arabic is a working translation needing native review.
+- Thin: colonial phases (Italian Eritrea, French Chad, Ubangi-Shari, Ottoman Libya), CAR before 2023, Libya after 2011, 1929 Nile agreement terms.
