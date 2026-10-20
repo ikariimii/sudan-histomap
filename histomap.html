@@ -28,7 +28,7 @@ const LENS=Q.get('lens')||'main',DIFF=Q.get('diff');
 const ERAS=(V.loadJSON('data/eras/index.json')||{eras:[]}).eras,ERA_BY_NAME=Object.fromEntries(ERAS.map(e=>[e.name_en,e])),ERA_BY_ID=Object.fromEntries(ERAS.map(e=>[e.id,e]));
 const COMP=V.loadJSON('data/eras/comparison.json')||{known:[],auto:[]};
 let P=HISTO.periods,LENS_STATE='ok',LENS_FILE=null;
-function lensSrcs(f){if(f&&f.meta)V.addSources(f.meta.sources);if(f)V.addSources(f.sources&&!Array.isArray(f.sources)?f.sources:null);return f}
+V.addGeo();function lensSrcs(f){if(f&&f.meta)V.addSources(f.meta.sources);if(f)V.addSources(f.sources&&!Array.isArray(f.sources)?f.sources:null);return f}
 const LSUM=it=>(AR_ON?it.summary_ar:it.summary_en)||it.summary_en||it.claim||it.title||'',LFR=it=>(AR_ON?it.framing_ar:it.framing_en)||it.framing_en||'';
 if(LENS!=='main'){LENS_FILE=lensSrcs(V.loadJSON('db/lens_'+LENS+'.json'));
  if(!LENS_FILE){LENS_STATE='missing';P=[];}
@@ -247,7 +247,7 @@ function select(d){document.body.classList.remove('nopanel');const t=Math.round(
  info.innerHTML=`<h3 style="margin:0">${nm(d)}</h3>${AR_ON?'<div dir="ltr" style="font-size:12px">'+d.name+'</div>':''}<i>${sn(d.stream)} · ${fy(d.start)} – ${fy(d.end)}</i>${d.dating_note?' <small dir="ltr" style="unicode-bidi:isolate">('+d.dating_note+')</small>':''}<ul dir="${AR_ON?'rtl':'ltr'}">${EV(d).map(e=>'<li>'+e+'</li>').join('')}</ul><b>${AR_ON?'العواصم/المواقع':'Capitals/sites'}:</b> ${(d.capitals||[]).map(c=>c.name).join(', ')}<br>${d._lensItem&&LFR(d._lensItem)?`<div class="framing" style="border-inline-start:4px solid #c98a1a;background:#fbf1dc;padding:4px 8px;margin:6px 0"><b>${AR_ON?'ملاحظة التأطير':'Framing note'}:</b> <bdi>${LFR(d._lensItem)}</bdi></div>`:''}<b>${AR_ON?'المصادر':'Sources'}:</b> <ol dir="ltr" style="margin:4px 0">${(d.sources||[]).map(cite).join('')}</ol>`;}
 // Full citations: resolve IDs via a sources table (HISTO.sources or HISTO.meta.sources, keyed by id) if the dataset provides one; otherwise describe the URL.
 function cite(src){const T=Object.assign({},V.srcTable(),HISTO.sources||{}),r=(typeof src=='string'&&T[src])||(typeof src=='object'?src:null);
- if(r){const t=[r.lang&&r.lang!=='en'?'<span style="font:bold 10px sans-serif;background:#2b1d0e;color:#fff;padding:0 3px;border-radius:2px">'+r.lang.toUpperCase()+'</span>':'',r.author,r.year&&'('+r.year+')',r.title&&'<i>'+r.title+'</i>'+(r.title_en&&r.title_en!==r.title?' ['+r.title_en+']':''),r.publisher,r.pages].filter(Boolean).join(' ');return `<li>${t||src}${r.url?` <a href="${r.url}" target="_blank">link</a>`:''}</li>`}
+ if(r){const t=[r.lang&&r.lang!=='en'?'<span style="font:bold 10px sans-serif;background:#2b1d0e;color:#fff;padding:0 3px;border-radius:2px">'+r.lang.toUpperCase()+'</span>':'',r.author,r.year&&'('+r.year+')',r.title&&'<i>'+r.title+'</i>'+(r.title_en&&r.title_en!==r.title?' ['+r.title_en+']':''),r.publisher,r.pages].filter(Boolean).join(' ');return `<li>${t||src}${r.url?` <a href="${r.url}" target="_blank">link</a>`:''}${V.badges(r)}</li>`}
  if(!/^https?:/.test(src))return `<li>${V.cite(src).html}</li>`;
  const u=new URL(src),h=u.hostname.replace(/^www\./,''),last=decodeURIComponent(u.pathname.split('/').filter(Boolean).pop()||'').replace(/_/g,' ');
  const pub={'en.wikipedia.org':'Wikipedia','wikidata.org':'Wikidata','unesdoc.unesco.org':'UNESCO, General History of Africa (UNESDOC)','whc.unesco.org':'UNESCO World Heritage Centre','kerma.ch':'Swiss-French Archaeological Mission to Kerma'}[h]||h;
