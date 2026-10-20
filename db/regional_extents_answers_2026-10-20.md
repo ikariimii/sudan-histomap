@@ -37,3 +37,30 @@ Sources: db/regional_extents_sources.json. GHA II read from /workspace/gha2.pdf.
 - GHA II: Kaleb's expedition against Dhu Nuwas c.525; garrison of 10,000 left; Sumyafa Ashwa installed at Zafar under Abreha [GHA2_CH16 p.415]; Abraha as vassal king of Himyar paying yearly tribute to Aksum, Aksum appointing south-Arabian kings [GHA2 pp.385–386].
 - Abraha reign 535–560/570, d. c.570; Persian intervention 570–578 [WP_ABRAHA; WP_AKSUM].
 - **Recommendation:** include Yemen/Himyar only **525–c.570 as Aksumite vassal (Himyar under Sumyafa Ashwa then Abraha)**; whether Abraha stayed loyal after usurping (c.535) is not verified here, so badge 535–570 "tributary, contested"; exclude before 525 and after 570. A pre-632 shape including Arabia throughout is wrong. Confidence medium. (A 3rd-c. Aksumite presence in Tihama exists in the literature but was not verified here — unsourced.)
+
+---
+## Pass 19d update (GHA IV & V now on box)
+Files: /workspace/ghaiv.pdf (774 pp., title "General history of Africa, IV: Africa from the twelfth to the sixteenth century", from sahistory.org.za mirror) and /workspace/ghav.pdf (1071 pp., "General history of Africa, V…", 2000 reprint, from repository.out.ac.tz) — UNESDOC direct /images/ links returned a 1 KB HTML page, and db/refs/t_184287.pdf / t_184290.pdf are 1.9 KB stubs (not books). Printed page = PDF − 24 (IV), − 27 (V).
+
+### (a) Mamluks & Makuria — now GHA-backed (supersedes WP-only)
+- Frontier: Fatimids stationed troops "at Aswan to guard the frontier" after the 1102–3 Banu Kanz revolt [GHA4_CH16, p.401].
+- 1276: Baybars' expedition defeated Dawud, enthroned Shakanda; oath "would practically have replaced the traditional bakt relationship by complete vassalage": half the revenue as tribute, jizya, and "Maris, or more probably its revenue, was assigned to the direct control of the sultan" [p.403]. Mamluk garrison left at Dunkula, killed by Shamamun; 1290 Qalawun accepts augmented bakt [p.403]. 1305 expedition [p.403].
+- 1317: Barshambu (first Muslim king), mosque tablet 29 May 1317; killed by Kanz al-Dawla Shuja' al-Din; 1323–4 expedition restores Karanbas, Kanz al-Dawla drives him out, no further Mamluk intervention [p.404]. 1365–6 Mamluk troops sent at Nubian request; kings at al-Daw; last reference 1397 [p.404].
+- **"The recorded facts indicate that Nubia was never annexed"** [p.405].
+- Early 15th c.: "probable loss of the devastated province of Aswan" from Mamluk control [GHA4_EGYPT_P392].
+- **Recommendation (now medium-high, GHA-sourced):** Mamluk polygon south limit = Aswan / First Cataract 1250–1517; Makuria 1276–c.1365 hatched "vassal/tributary"; optional 1276 badge "Maris (Lower Nubia) – revenue assigned to sultan, control uncertain". Badge Aswan itself "contested/lost" c.1400–1420s (date range approximate; source gives only "probable").
+
+### (b) Ngazargamu end
+- Founded c.1472 by Ali Gaji, capital "throughout [Sefuwa] rule in Borno" [GHA5_BORNU, p.493]. GHA VI p.559: reformers captured it, couldn't hold it, "the site was simply abandoned" — **no year in GHA**. Keep **1809** (1808 sack / 1809 abandonment) from WP_KANEM_BORNU (Stapleton 2013; Brenner 1973), flagged; confidence medium-high.
+
+### (c) Bornu extent & Wadai limits
+- Kanem zenith tied to Fezzan–Kawar route [GHA4_KANEM_P247] — no line limits in GHA; 13th-c. extent still WP-only, do NOT extend to Nile.
+- Borno 16th–17th c.: metropolitan province ~20 000 km² [p.498]; satellites Mandara and Bagirmi [p.497]; Wadai founded by Abd al-Karim (r.1611–55) inside Borno's orbit, checking Bagirmi [pp.511–512]; Bagirmi independent under Muhammad al-Amin (c.1715–85), Wadai under Jawda (1747–95) expanding toward Bahr al-Ghazal (Chad) [p.513] → Borno eastern limit: Bagirmi until c.1715, then Borno proper (~Lake Chad/Kanem).
+- Wadai–Darfur: Wadai west of Darfur with semi-independent buffer kingdoms between; Dar Zaghawa contested, "resolved in favour of the Kayra" [GHA5_CH7, pp.187–188]. Recommend Wadai east limit = buffer zone (badge), low-medium. No GHA coordinates.
+
+### (d) Ethiopia 1270–1769 — now GHA-backed
+- 1270–1314: territories "limited to the old Zagwe possessions, with some unimportant recent acquisitions in the Shoa area" [GHA4_CH17, p.434].
+- 1314–44 Amde-Siyon: Damot & Hadya 1316–17, then Gojjam, Ifat c.1332; tribute from dependent territories [pp.434–435, 438].
+- 1529 Sembera Kure → Muslim armies over the highlands until 1543 [GHA5_CH24, p.713]; Lebna Dengel d.1540, Galawdewos restoration [p.714]; 1529–1632 "struggle for survival" [p.723].
+- 1636 Fasiladas' fixed residence at Gondar [p.725]; disintegration/anarchy after c.1755, to 1855 [pp.724, 733].
+- Still unsourced: polygons for any phase; WP Zemene Mesafint start 1769 vs GHA "after about 1755" — use 1755 (GHA) with 1769 noted.
