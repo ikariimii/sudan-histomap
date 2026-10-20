@@ -32,8 +32,7 @@ function duration(){const list=P.eras.slice().sort((x,y)=>(y.b-y.a)-(x.b-x.a));c
   g.addEventListener('click',pick);g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();pick()}})})}
 function load(src){return new Promise((ok,no)=>{const s=document.createElement('script');s.src=src;s.onload=ok;s.onerror=no;document.head.appendChild(s)})}
 async function map(){const box=document.createElement('div');box.textContent='…';root.appendChild(box);
- await load('/lib/d3.min.js');await load('/lib/topojson.min.js');const topo=await (await fetch('/data/countries-50m.json')).json();box.remove();
- const obj=topo.objects.countries||topo.objects[Object.keys(topo.objects)[0]];const land=topojson.feature(topo,obj);
+ await load('/lib/d3.min.js');/* regional base map: Natural Earth 1:50m clipped to the region (built by tools/make_basemap.py) */const land=await (await fetch('/basemap-region.json')).json();box.remove();
  const Wm=600,Hm=560,pr=d3.geoMercator().center([33,16]).scale(950).translate([Wm/2,Hm/2]),path=d3.geoPath(pr);
  const svg=d3.select(root).append('svg').style('max-width','620px').style('margin','0 auto').attr('viewBox',`0 0 ${Wm} ${Hm}`).attr('role','img').style('background','#dfe9ee');
  svg.append('g').selectAll('path').data(land.features).join('path').attr('d',path).attr('fill',d=>['729','728'].includes(String(d.id))?'#efe0c6':'#f4efe6').attr('stroke','#b9ad99').attr('stroke-width',.6);
