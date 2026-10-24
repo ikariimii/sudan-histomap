@@ -1,0 +1,41 @@
+{
+ "type": "FeatureCollection",
+ "meta": {
+  "built_by": "scratch/build_groups.py",
+  "from_": [
+   "db/groups.json",
+   "db/relations.json"
+  ],
+  "batch": 1,
+  "era_id": "beja-red-sea-hills-peoples",
+  "note": "Stable ids: grp-<group>-homeland-<n>, grp-<group>-control-<era>-<n>, relation ids from relations.json. list_only features have geometry null."
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "id": "grp-beja-control-beja-red-sea-hills-peoples-1",
+   "geometry": null,
+   "properties": {
+    "id": "grp-beja-control-beja-red-sea-hills-peoples-1",
+    "list_only": true,
+    "kind": "control",
+    "group": "beja",
+    "era_id": "beja-red-sea-hills-peoples",
+    "start": 275,
+    "end": 2026,
+    "certainty": "medium",
+    "label_en": "Beja: Red Sea Hills hinterland behind 'Aydhab, Badi' and Suakin",
+    "label_ar": "البجا: Red Sea Hills hinterland behind 'Aydhab, Badi' and Suakin [Arabic text pending native-speaker review.]",
+    "label_detail_en": "Nomadic Beja held the hinterland; with no centralized organization, treaties with Muslim Egypt covered only some groups.",
+    "label_detail_ar": "",
+    "source_ids": [
+     "GHA3_CH3"
+    ],
+    "cite": [
+     "GHA3_CH3 p.82"
+    ],
+    "null_reason": "no gazetteer anchor for this place in the cited source; no source gives limits"
+   }
+  }
+ ]
+}

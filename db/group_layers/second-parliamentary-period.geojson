@@ -1,0 +1,48 @@
+{
+ "type": "FeatureCollection",
+ "meta": {
+  "built_by": "scratch/build_groups.py",
+  "from_": [
+   "db/groups.json",
+   "db/relations.json"
+  ],
+  "batch": 1,
+  "era_id": "second-parliamentary-period",
+  "note": "Stable ids: grp-<group>-homeland-<n>, grp-<group>-control-<era>-<n>, relation ids from relations.json. list_only features have geometry null."
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "id": "grp-nubians-control-second-parliamentary-period-2",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.9167,
+     14.9667
+    ]
+   },
+   "properties": {
+    "id": "grp-nubians-control-second-parliamentary-period-2",
+    "kind": "control",
+    "group": "nubians",
+    "era_id": "second-parliamentary-period",
+    "start": 1964,
+    "end": 1969,
+    "certainty": "medium",
+    "label_en": "Nubians (Nile Nubians): Khashm al Qirbah (Atbara River)",
+    "label_ar": "النوبيون: Khashm al Qirbah (Atbara River) [Arabic text pending native-speaker review.]",
+    "label_detail_en": "In the mid-1960s, before the Aswan High Dam flooded their land, 35,000–50,000 Nile Nubians were resettled at Khashm al Qirbah.",
+    "label_detail_ar": "",
+    "source_ids": [
+     "LOC1991_MUSLIMPEOPLES"
+    ],
+    "cite": [
+     "LOC1991_MUSLIMPEOPLES § Nubians"
+    ],
+    "badge": "APPROXIMATE",
+    "gazetteer": "wikidata:Q2345160",
+    "coord_source": "Wikidata P625"
+   }
+  }
+ ]
+}

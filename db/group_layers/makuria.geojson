@@ -1,0 +1,80 @@
+{
+ "type": "FeatureCollection",
+ "meta": {
+  "built_by": "scratch/build_groups.py",
+  "from_": [
+   "db/groups.json",
+   "db/relations.json"
+  ],
+  "batch": 1,
+  "era_id": "makuria",
+  "note": "Stable ids: grp-<group>-homeland-<n>, grp-<group>-control-<era>-<n>, relation ids from relations.json. list_only features have geometry null."
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "id": "grp-nubians-control-makuria-1",
+   "geometry": null,
+   "properties": {
+    "id": "grp-nubians-control-makuria-1",
+    "list_only": true,
+    "kind": "control",
+    "group": "nubians",
+    "era_id": "makuria",
+    "start": 500,
+    "end": 1500,
+    "certainty": "medium",
+    "label_en": "Nubians (Nile Nubians): Mukurra (capital Dunkula)",
+    "label_ar": "النوبيون: Mukurra (capital Dunkula) [Arabic text pending native-speaker review.]",
+    "label_detail_en": "Nubian kingdom; from the 14th century Arab groups (Banu 'l-Kanz and allies) took a growing role in the succession at Dunkula.",
+    "label_detail_ar": "",
+    "source_ids": [
+     "GHA4_CH16"
+    ],
+    "cite": [
+     "GHA4_CH16 p.404"
+    ],
+    "null_reason": "no gazetteer anchor for this place in the cited source; no source gives limits"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rel-beja-04",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      37.33,
+      19.1025
+     ],
+     [
+      30.7439,
+      18.2231
+     ]
+    ]
+   },
+   "properties": {
+    "id": "rel-beja-04",
+    "kind": "relation",
+    "type": "conflict",
+    "group": "beja",
+    "era_id": "makuria",
+    "start": 500,
+    "end": 1500,
+    "badge": "SINGLE-SOURCE",
+    "certainty": "low",
+    "other": "Nubia (Makuria)",
+    "from_anchor": "Suakin",
+    "to_anchor": "Old Dongola (Wikidata Q433112, era makuria)",
+    "label_en": "Little is known of Nubian policy towards the Beja, who 'probably' raided the settled riverain areas from time to time.",
+    "label_ar": "لا يُعرف الكثير عن سياسة النوبة تجاه البجا، الذين ربما أغاروا أحياناً على المناطق النهرية المستقرة. [Arabic text pending native-speaker review.]",
+    "source_ids": [
+     "GHA4_CH16"
+    ],
+    "cite": [
+     "GHA4_CH16 p.417"
+    ]
+   }
+  }
+ ]
+}

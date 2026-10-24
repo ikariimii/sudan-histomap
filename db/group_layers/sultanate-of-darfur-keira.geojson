@@ -1,0 +1,42 @@
+{
+ "type": "FeatureCollection",
+ "meta": {
+  "built_by": "scratch/build_groups.py",
+  "from_": [
+   "db/groups.json",
+   "db/relations.json"
+  ],
+  "batch": 1,
+  "era_id": "sultanate-of-darfur-keira",
+  "note": "Stable ids: grp-<group>-homeland-<n>, grp-<group>-control-<era>-<n>, relation ids from relations.json. list_only features have geometry null."
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "id": "grp-fur-control-sultanate-of-darfur-keira-1",
+   "geometry": null,
+   "properties": {
+    "id": "grp-fur-control-sultanate-of-darfur-keira-1",
+    "list_only": true,
+    "kind": "control",
+    "group": "fur",
+    "era_id": "sultanate-of-darfur-keira",
+    "start": 1650,
+    "end": 1874,
+    "certainty": "medium",
+    "label_en": "Fur: Darfur: Libyan Desert to the north, Bahr al-'Arab to the south, Kordofan disputed to the east",
+    "label_ar": "الفور: Darfur: Libyan Desert to the north, Bahr al-'Arab to the south, Kordofan disputed to the east [Arabic text pending native-speaker review.]",
+    "label_detail_en": "The Kayra sultanate (c.1640–1874) had natural borders in the Libyan Desert and the Bahr al-'Arab; Ahmad Bukr annexed Dar Kimr.",
+    "label_detail_ar": "",
+    "source_ids": [
+     "GHA5_CH7"
+    ],
+    "cite": [
+     "GHA5_CH7 p.187",
+     "GHA5_CH7 p.188"
+    ],
+    "null_reason": "no gazetteer anchor for this place in the cited source; no source gives limits"
+   }
+  }
+ ]
+}

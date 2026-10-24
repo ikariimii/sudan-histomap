@@ -1,0 +1,135 @@
+{
+ "type": "FeatureCollection",
+ "meta": {
+  "built_by": "scratch/build_groups.py",
+  "from_": [
+   "db/groups.json",
+   "db/relations.json"
+  ],
+  "batch": 1,
+  "era_id": "turkiyya-ottoman-egyptian-rule",
+  "note": "Stable ids: grp-<group>-homeland-<n>, grp-<group>-control-<era>-<n>, relation ids from relations.json. list_only features have geometry null."
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "id": "rel-jaaliyyin-03",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      33.4339,
+      16.6914
+     ],
+     [
+      32.5265,
+      15.6031
+     ]
+    ]
+   },
+   "properties": {
+    "id": "rel-jaaliyyin-03",
+    "kind": "relation",
+    "type": "conflict",
+    "group": "jaaliyyin",
+    "era_id": "turkiyya-ottoman-egyptian-rule",
+    "start": 1821,
+    "end": 1885,
+    "badge": "SINGLE-SOURCE",
+    "certainty": "high",
+    "other": "Turco-Egyptian government",
+    "from_anchor": "Shendi",
+    "to_anchor": "Khartoum (Wikidata Q1963, era turkiyya-ottoman-egyptian-rule)",
+    "label_en": "In late October 1822, after Isma'il demanded a heavy levy at Shendi and struck Mak Nimir, Nimir and his men burned Isma'il and his staff; the revolt spread to other regions.",
+    "label_ar": "في أواخر أكتوبر 1822، بعد أن فرض إسماعيل إتاوة باهظة في شندي وأهان المك نمر، أحرق نمر ورجاله إسماعيل وحاشيته، وامتدت الثورة إلى مناطق أخرى. [Arabic text pending native-speaker review.]",
+    "source_ids": [
+     "GHA6_CH14"
+    ],
+    "cite": [
+     "GHA6_CH14 p.362"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rel-funj-05",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      33.6,
+      13.55
+     ],
+     [
+      32.5265,
+      15.6031
+     ]
+    ]
+   },
+   "properties": {
+    "id": "rel-funj-05",
+    "kind": "relation",
+    "type": "conflict",
+    "group": "funj",
+    "era_id": "turkiyya-ottoman-egyptian-rule",
+    "start": 1821,
+    "end": 1885,
+    "badge": "SINGLE-SOURCE",
+    "certainty": "high",
+    "other": "Turco-Egyptian forces",
+    "from_anchor": "Sennar",
+    "to_anchor": "Khartoum (Wikidata Q1963, era turkiyya-ottoman-egyptian-rule)",
+    "label_en": "When Turco-Egyptian forces approached Sennar in 1821 the sultanate was too feeble to resist and capitulated.",
+    "label_ar": "حين اقتربت القوات التركية المصرية من سنار سنة 1821 كانت السلطنة أضعف من أن تقاوم فاستسلمت. [Arabic text pending native-speaker review.]",
+    "source_ids": [
+     "GHA5_CH7",
+     "GHA6_CH14"
+    ],
+    "cite": [
+     "GHA5_CH7 p.185",
+     "GHA6_CH14 p.356"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rel-fur-06",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      24.27,
+      12.95
+     ],
+     [
+      32.5265,
+      15.6031
+     ]
+    ]
+   },
+   "properties": {
+    "id": "rel-fur-06",
+    "kind": "relation",
+    "type": "conflict",
+    "group": "fur",
+    "era_id": "turkiyya-ottoman-egyptian-rule",
+    "start": 1821,
+    "end": 1885,
+    "badge": "SINGLE-SOURCE",
+    "certainty": "high",
+    "other": "al-Zubayr / Turco-Egyptian regime",
+    "from_anchor": "Jebel Marra",
+    "to_anchor": "Khartoum (Wikidata Q1963, era turkiyya-ottoman-egyptian-rule)",
+    "label_en": "Sultan Ibrahim was defeated and killed at Manawashi in 1874 and Darfur was annexed; Kayra family members led resistance, notably Amir Harun's revolt from 1877.",
+    "label_ar": "هُزم السلطان إبراهيم وقُتل في منواشي سنة 1874 وضُمت دارفور، وقاد أفراد من أسرة الكيرا المقاومة، وأبرزها ثورة الأمير هارون منذ 1877. [Arabic text pending native-speaker review.]",
+    "source_ids": [
+     "GHA6_CH14"
+    ],
+    "cite": [
+     "GHA6_CH14 p.371",
+     "GHA6_CH14 p.362"
+    ]
+   }
+  }
+ ]
+}

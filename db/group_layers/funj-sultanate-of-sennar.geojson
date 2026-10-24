@@ -1,0 +1,252 @@
+{
+ "type": "FeatureCollection",
+ "meta": {
+  "built_by": "scratch/build_groups.py",
+  "from_": [
+   "db/groups.json",
+   "db/relations.json"
+  ],
+  "batch": 1,
+  "era_id": "funj-sultanate-of-sennar",
+  "note": "Stable ids: grp-<group>-homeland-<n>, grp-<group>-control-<era>-<n>, relation ids from relations.json. list_only features have geometry null."
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "id": "grp-shaigiyya-control-funj-sultanate-of-sennar-1",
+   "geometry": null,
+   "properties": {
+    "id": "grp-shaigiyya-control-funj-sultanate-of-sennar-1",
+    "list_only": true,
+    "kind": "control",
+    "group": "shaigiyya",
+    "era_id": "funj-sultanate-of-sennar",
+    "start": 1504,
+    "end": 1821,
+    "certainty": "medium",
+    "label_en": "Shaigiyya: region of Dongola (Dünküla)",
+    "label_ar": "الشايقية: region of Dongola (Dünküla) [Arabic text pending native-speaker review.]",
+    "label_detail_en": "Shaigiyya warriors became a major force in the Dongola region; their rise disrupted the Nile caravan route in the 18th century.",
+    "label_detail_ar": "",
+    "source_ids": [
+     "GHA5_CH7"
+    ],
+    "cite": [
+     "GHA5_CH7 p.185",
+     "GHA5_CH7 p.181"
+    ],
+    "null_reason": "no gazetteer anchor for this place in the cited source; no source gives limits"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "grp-funj-control-funj-sultanate-of-sennar-1",
+   "geometry": null,
+   "properties": {
+    "id": "grp-funj-control-funj-sultanate-of-sennar-1",
+    "list_only": true,
+    "kind": "control",
+    "group": "funj",
+    "era_id": "funj-sultanate-of-sennar",
+    "start": 1504,
+    "end": 1821,
+    "certainty": "medium",
+    "label_en": "Funj: Sennar and the Gezira; through 'Abdallab vassals north to Hajar al-'Asal, and indirectly to the Third Cataract",
+    "label_ar": "الفونج: Sennar and the Gezira; through 'Abdallab vassals north to Hajar al-'Asal, and indirectly to the Third Cataract [Arabic text pending native-speaker review.]",
+    "label_detail_en": "Ruled from Sennar; the descendants of 'Ajib ruled directly as far north as Hajar al-'Asal and indirectly over the Nile chieftaincies to the Ottoman border at the Third Cataract.",
+    "label_detail_ar": "",
+    "source_ids": [
+     "GHA5_CH7"
+    ],
+    "cite": [
+     "GHA5_CH7 p.174"
+    ],
+    "null_reason": "no gazetteer anchor for this place in the cited source; no source gives limits"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "grp-funj-control-funj-sultanate-of-sennar-2",
+   "geometry": null,
+   "properties": {
+    "id": "grp-funj-control-funj-sultanate-of-sennar-2",
+    "list_only": true,
+    "kind": "control",
+    "group": "funj",
+    "era_id": "funj-sultanate-of-sennar",
+    "start": 1504,
+    "end": 1821,
+    "certainty": "medium",
+    "label_en": "Funj: Kordofan (disputed)",
+    "label_ar": "الفونج: Kordofan (disputed) [Arabic text pending native-speaker review.]",
+    "label_detail_en": "Disputed with the Fur sultanate; the Funj were finally driven out of Kordofan.",
+    "label_detail_ar": "",
+    "source_ids": [
+     "GHA5_CH7"
+    ],
+    "cite": [
+     "GHA5_CH7 p.185",
+     "GHA5_CH7 p.187"
+    ],
+    "null_reason": "no gazetteer anchor for this place in the cited source; no source gives limits"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rel-nubians-02",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      31.3775,
+      21.7928
+     ],
+     [
+      33.6,
+      13.55
+     ]
+    ]
+   },
+   "properties": {
+    "id": "rel-nubians-02",
+    "kind": "relation",
+    "type": "subjugation",
+    "group": "nubians",
+    "era_id": "funj-sultanate-of-sennar",
+    "start": 1504,
+    "end": 1821,
+    "badge": "SINGLE-SOURCE",
+    "certainty": "medium",
+    "other": "Funj sultanate / 'Abdallab",
+    "from_anchor": "Wadi Halfa",
+    "to_anchor": "Sennar (town) (Wikidata Q611867, era funj-sultanate-of-sennar)",
+    "label_en": "Funj authority reached lower Nubia, which had first depended on the 'Abdallab; the Ottoman frontier was fixed at Hannik c.1622.",
+    "label_ar": "امتدت سلطة الفونج إلى النوبة السفلى التابعة أصلاً للعبدلاب، واستقرت الحدود العثمانية عند حنك نحو 1622. [Arabic text pending native-speaker review.]",
+    "source_ids": [
+     "GHA5_CH7"
+    ],
+    "cite": [
+     "GHA5_CH7 pp.174–175"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rel-funj-01",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      33.6,
+      13.55
+     ],
+     [
+      32.631633,
+      16.235551
+     ]
+    ]
+   },
+   "properties": {
+    "id": "rel-funj-01",
+    "kind": "relation",
+    "type": "subjugation",
+    "group": "funj",
+    "era_id": "funj-sultanate-of-sennar",
+    "start": 1504,
+    "end": 1821,
+    "badge": "SINGLE-SOURCE",
+    "certainty": "high",
+    "other": "'Abdallab",
+    "from_anchor": "Sennar",
+    "to_anchor": "Qerri (Wikidata Q11924140, era abdallab-chiefdom-funj-vassal)",
+    "label_en": "At Arbaji in 1504 the Funj defeated the 'Abdallab, whose king became a vassal; the 'Abdallab ruled the north as junior partners until 1820.",
+    "label_ar": "هزم الفونج العبدلاب في أربجي سنة 1504 فصار ملكهم تابعاً، وظل العبدلاب يحكمون الشمال شركاءَ أصغر حتى 1820. [Arabic text pending native-speaker review.]",
+    "source_ids": [
+     "GHA5_CH7"
+    ],
+    "cite": [
+     "GHA5_CH7 p.173"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rel-funj-02",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      33.6,
+      13.55
+     ],
+     [
+      32.631633,
+      16.235551
+     ]
+    ]
+   },
+   "properties": {
+    "id": "rel-funj-02",
+    "kind": "relation",
+    "type": "conflict",
+    "group": "funj",
+    "era_id": "funj-sultanate-of-sennar",
+    "start": 1504,
+    "end": 1821,
+    "badge": "SINGLE-SOURCE",
+    "certainty": "medium",
+    "other": "'Abdallab",
+    "from_anchor": "Sennar",
+    "to_anchor": "Qerri (Wikidata Q11924140, era abdallab-chiefdom-funj-vassal)",
+    "label_en": "Shaykh 'Ajib I defeated the Funj, then was defeated and killed at Karkoj; Shaykh Idris wad al-Akbar negotiated a settlement.",
+    "label_ar": "هزم الشيخ عجيب الأول الفونج ثم هُزم وقُتل في كركوج، وتوسط الشيخ إدريس ود الأكبر في الصلح. [Arabic text pending native-speaker review.]",
+    "source_ids": [
+     "GHA5_CH7"
+    ],
+    "cite": [
+     "GHA5_CH7 p.174"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rel-funj-04",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      33.6,
+      13.55
+     ],
+     [
+      25.3496,
+      13.627
+     ]
+    ]
+   },
+   "properties": {
+    "id": "rel-funj-04",
+    "kind": "relation",
+    "type": "conflict",
+    "group": "funj",
+    "era_id": "funj-sultanate-of-sennar",
+    "start": 1504,
+    "end": 1821,
+    "badge": "SINGLE-SOURCE",
+    "certainty": "medium",
+    "other": "Fur sultanate",
+    "from_anchor": "Sennar",
+    "to_anchor": "El Fasher (Wikidata Q311204, era sultanate-of-darfur-keira)",
+    "label_en": "Funj–Fur rivalry over Kordofan; the Funj were ultimately driven out of Kordofan.",
+    "label_ar": "تنافس الفونج والفور على كردفان، وطُرد الفونج منها في النهاية. [Arabic text pending native-speaker review.]",
+    "source_ids": [
+     "GHA5_CH7"
+    ],
+    "cite": [
+     "GHA5_CH7 p.183",
+     "GHA5_CH7 p.185"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,281 @@
+{
+ "type": "FeatureCollection",
+ "meta": {
+  "built_by": "scratch/build_groups.py",
+  "from_": [
+   "db/groups.json",
+   "db/relations.json"
+  ],
+  "batch": 1,
+  "era_id": null,
+  "note": "Stable ids: grp-<group>-homeland-<n>, grp-<group>-control-<era>-<n>, relation ids from relations.json. list_only features have geometry null."
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "id": "grp-beja-homeland-1",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.33,
+     19.1025
+    ]
+   },
+   "properties": {
+    "id": "grp-beja-homeland-1",
+    "kind": "homeland",
+    "group": "beja",
+    "badge": "APPROXIMATE",
+    "label_en": "Beja homeland: Suakin",
+    "label_ar": "موطن البجا: Suakin [Arabic text pending native-speaker review.]",
+    "label_detail_en": "Red Sea Hills and their hinterland, from the Red Sea littoral inland; settled Bisharin on the Atbara River, settled Hadendowa near Tokar, Bani Amir along the border with northern Ethiopia/Eritrea. Anchor point only; text only; no source gives limits.",
+    "label_detail_ar": "تلال البحر الأحمر وما يليها من الداخل؛ بشاريون مستقرون على نهر عطبرة، وهدندوة مستقرون قرب طوكر، وبنو عامر على الحدود مع شمال إثيوبيا/إريتريا. [Arabic text pending native-speaker review.]",
+    "gazetteer": "wikidata:Q571215",
+    "coord_source": "Wikidata P625",
+    "source_ids": [
+     "GHA3_CH3",
+     "LOC1991_MUSLIMPEOPLES"
+    ],
+    "cite": [
+     "LOC1991_MUSLIMPEOPLES § Beja",
+     "GHA3_CH3 p.82",
+     "GHA3_CH3 p.82"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "grp-beja-homeland-2",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.7278,
+     18.4258
+    ]
+   },
+   "properties": {
+    "id": "grp-beja-homeland-2",
+    "kind": "homeland",
+    "group": "beja",
+    "badge": "APPROXIMATE",
+    "label_en": "Beja homeland: Tokar",
+    "label_ar": "موطن البجا: Tokar [Arabic text pending native-speaker review.]",
+    "label_detail_en": "Red Sea Hills and their hinterland, from the Red Sea littoral inland; settled Bisharin on the Atbara River, settled Hadendowa near Tokar, Bani Amir along the border with northern Ethiopia/Eritrea. Anchor point only; text only; no source gives limits.",
+    "label_detail_ar": "تلال البحر الأحمر وما يليها من الداخل؛ بشاريون مستقرون على نهر عطبرة، وهدندوة مستقرون قرب طوكر، وبنو عامر على الحدود مع شمال إثيوبيا/إريتريا. [Arabic text pending native-speaker review.]",
+    "gazetteer": "wikidata:Q1010754",
+    "coord_source": "Wikidata P625",
+    "source_ids": [
+     "GHA3_CH3",
+     "LOC1991_MUSLIMPEOPLES"
+    ],
+    "cite": [
+     "LOC1991_MUSLIMPEOPLES § Beja",
+     "GHA3_CH3 p.82",
+     "LOC1991_MUSLIMPEOPLES § Beja"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "grp-nubians-homeland-1",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3775,
+     21.7928
+    ]
+   },
+   "properties": {
+    "id": "grp-nubians-homeland-1",
+    "kind": "homeland",
+    "group": "nubians",
+    "badge": "APPROXIMATE",
+    "label_en": "Nubians (Nile Nubians) homeland: Wadi Halfa",
+    "label_ar": "موطن النوبيون: Wadi Halfa [Arabic text pending native-speaker review.]",
+    "label_detail_en": "The Nile valley in far northern Sudan and southern Egypt. Anchor point only; text only.",
+    "label_detail_ar": "وادي النيل في أقصى شمال السودان وجنوب مصر. [Arabic text pending native-speaker review.]",
+    "gazetteer": "wikidata:Q740865",
+    "coord_source": "Wikidata P625",
+    "source_ids": [
+     "LOC1991_MUSLIMPEOPLES"
+    ],
+    "cite": [
+     "LOC1991_MUSLIMPEOPLES § Nubians",
+     "LOC1991_MUSLIMPEOPLES § Nubians"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "grp-nubians-homeland-2",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.4839,
+     19.1769
+    ]
+   },
+   "properties": {
+    "id": "grp-nubians-homeland-2",
+    "kind": "homeland",
+    "group": "nubians",
+    "badge": "APPROXIMATE",
+    "label_en": "Nubians (Nile Nubians) homeland: Dongola",
+    "label_ar": "موطن النوبيون: Dongola [Arabic text pending native-speaker review.]",
+    "label_detail_en": "The Nile valley in far northern Sudan and southern Egypt. Anchor point only; text only.",
+    "label_detail_ar": "وادي النيل في أقصى شمال السودان وجنوب مصر. [Arabic text pending native-speaker review.]",
+    "gazetteer": "wikidata:Q821321",
+    "coord_source": "Wikidata P625",
+    "source_ids": [
+     "LOC1991_MUSLIMPEOPLES"
+    ],
+    "cite": [
+     "LOC1991_MUSLIMPEOPLES § Nubians",
+     "LOC1991_MUSLIMPEOPLES § Nubians"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "grp-jaaliyyin-homeland-1",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.4339,
+     16.6914
+    ]
+   },
+   "properties": {
+    "id": "grp-jaaliyyin-homeland-1",
+    "kind": "homeland",
+    "group": "jaaliyyin",
+    "badge": "APPROXIMATE",
+    "label_en": "Ja'aliyyin homeland: Shendi",
+    "label_ar": "موطن الجعليون: Shendi [Arabic text pending native-speaker review.]",
+    "label_detail_en": "Riverine, sedentary peoples of the Nile from Dongola to just north of Khartoum; LOC also counts members of the group who moved elsewhere. Anchor point only; text only.",
+    "label_detail_ar": "شعوب نهرية مستقرة على النيل من دنقلا إلى شمال الخرطوم بقليل. [Arabic text pending native-speaker review.]",
+    "gazetteer": "wikidata:Q997838",
+    "coord_source": "Wikidata P625",
+    "source_ids": [
+     "GHA5_CH7",
+     "LOC1991_MUSLIMPEOPLES"
+    ],
+    "cite": [
+     "LOC1991_MUSLIMPEOPLES § Arabs",
+     "GHA5_CH7 p.183"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "grp-shaigiyya-homeland",
+   "geometry": null,
+   "properties": {
+    "id": "grp-shaigiyya-homeland",
+    "list_only": true,
+    "kind": "homeland",
+    "group": "shaigiyya",
+    "label_en": "Shaigiyya homeland (not mapped)",
+    "label_ar": "موطن الشايقية (غير مرسوم) [Arabic text pending native-speaker review.]",
+    "null_reason": "sources read give only 'the region of Dunkula' as where Shaigiyya warriors became a major force (18th c.), not a homeland",
+    "source_ids": []
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "grp-funj-homeland-1",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.6,
+     13.55
+    ]
+   },
+   "properties": {
+    "id": "grp-funj-homeland-1",
+    "kind": "homeland",
+    "group": "funj",
+    "badge": "APPROXIMATE",
+    "label_en": "Funj homeland: Sennar",
+    "label_ar": "موطن الفونج: Sennar [Arabic text pending native-speaker review.]",
+    "label_detail_en": "Cattle nomads migrating down the Blue Nile; their remote origin is uncertain. They ruled from Sennar. Anchor point only; text only.",
+    "label_detail_ar": "رعاة ماشية هاجروا على امتداد النيل الأزرق، وأصلهم البعيد غير مؤكد، وحكموا من سنار. [Arabic text pending native-speaker review.]",
+    "gazetteer": "wikidata:Q611867",
+    "coord_source": "Wikidata P625",
+    "source_ids": [
+     "GHA5_CH7"
+    ],
+    "cite": [
+     "GHA5_CH7 pp.173–174",
+     "GHA5_CH7 p.174"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "grp-fur-homeland-1",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.27,
+     12.95
+    ]
+   },
+   "properties": {
+    "id": "grp-fur-homeland-1",
+    "kind": "homeland",
+    "group": "fur",
+    "badge": "APPROXIMATE",
+    "label_en": "Fur homeland: Jebel Marra",
+    "label_ar": "موطن الفور: Jebel Marra [Arabic text pending native-speaker review.]",
+    "label_detail_en": "A sedentary, cultivating people long settled on and around Jebel Marra; their sultanate's capital was al-Fashir from the 18th century. Anchor point only; text only.",
+    "label_detail_ar": "شعب مزارع مستقر منذ زمن طويل في جبل مرة وما حوله، وكانت الفاشر عاصمة سلطنته منذ القرن الثامن عشر. [Arabic text pending native-speaker review.]",
+    "gazetteer": "wikidata:Q886772",
+    "coord_source": "Wikidata P625",
+    "source_ids": [
+     "GHA5_CH7",
+     "LOC1991_MUSLIMPEOPLES"
+    ],
+    "cite": [
+     "LOC1991_MUSLIMPEOPLES § Fur",
+     "GHA5_CH7 p.187",
+     "GHA5_CH7 p.190",
+     "GHA5_CH7 p.187"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "grp-fur-homeland-2",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.3496,
+     13.627
+    ]
+   },
+   "properties": {
+    "id": "grp-fur-homeland-2",
+    "kind": "homeland",
+    "group": "fur",
+    "badge": "APPROXIMATE",
+    "label_en": "Fur homeland: al-Fashir",
+    "label_ar": "موطن الفور: al-Fashir [Arabic text pending native-speaker review.]",
+    "label_detail_en": "A sedentary, cultivating people long settled on and around Jebel Marra; their sultanate's capital was al-Fashir from the 18th century. Anchor point only; text only.",
+    "label_detail_ar": "شعب مزارع مستقر منذ زمن طويل في جبل مرة وما حوله، وكانت الفاشر عاصمة سلطنته منذ القرن الثامن عشر. [Arabic text pending native-speaker review.]",
+    "gazetteer": "wikidata:Q311204",
+    "coord_source": "Wikidata P625",
+    "source_ids": [
+     "GHA5_CH7",
+     "LOC1991_MUSLIMPEOPLES"
+    ],
+    "cite": [
+     "LOC1991_MUSLIMPEOPLES § Fur",
+     "GHA5_CH7 p.187",
+     "GHA5_CH7 p.190",
+     "GHA5_CH7 p.190"
+    ]
+   }
+  }
+ ]
+}
