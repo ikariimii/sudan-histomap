@@ -66,16 +66,14 @@
    "era_id": "republic-of-south-sudan",
    "place": "Ilemi Triangle",
    "badge": "CONTESTED",
-   "flags": [
-    "VERIFY"
-   ],
-   "text_en": "Disputed between Kenya and South Sudan; administered by Kenya. [VERIFY]",
-   "cite": null,
-   "cite_null_reason": "No registered source read by the Historian covers Ilemi; cite left to the Analyst.",
+   "text_en": "Disputed between Kenya and South Sudan; administered by Kenya.",
+   "cite": "ILEMI_PCGN_SSD2024",
    "gazetteer": "wikidata:Q973527",
    "lat": 4.9913,
    "lon": 35.3275,
-   "geometry": "point only; no limits drawn"
+   "geometry": "point only; no limits drawn",
+   "page": "p.3, section 'Ilemi Triangle'",
+   "cite_note": "Registered via research_patch Pass 25 from Analyst db/source_entry_ilemi.json (5b8fbd1); UK PCGN mapping guidance, citation-only licence."
   },
   {
    "era_id": "republic-of-south-sudan",

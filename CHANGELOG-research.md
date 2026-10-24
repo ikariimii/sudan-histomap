@@ -111,3 +111,7 @@
 - The Kingdom era could then take a 1937–1953 NMC v6.0 CINC share, cited "NMC v6.0, 1937–1953" and marked [VERIFY]. It would cover 17 Egypt (651) rows over the same comparison set (RP-CINC-SHARE-1). The value has not been computed yet.
 - British-occupied Egypt keeps its null reason: "COW counts Egypt as a state only from 1937; earlier years are not scored".
 - Needs: Innovation Manager sign-off on the split and its boundary year (1922 or 1936/1937), and Map Designer extents for both eras.
+
+## Pass 25 (Historian, 2026-10-24)
+- Registered ILEMI_PCGN_SSD2024 (UK PCGN, Toponymic Factfile: South Sudan, 2024, p.3; citation-only licence) from the Analyst's db/source_entry_ilemi.json (5b8fbd1).
+- In db/era_anchor_fill_hist23b.json, the Ilemi Triangle CONTESTED note now cites ILEMI_PCGN_SSD2024 in place of [VERIFY]. No extents written.
