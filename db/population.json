@@ -1,0 +1,667 @@
+{
+ "meta": {
+  "file": "db/population.json",
+  "author": "Sudan Geopolitical Analyst",
+  "generated": "2026-10-24",
+  "units": "persons",
+  "conventions": "point/low/high summarise the era; see range_kind for what the range means. Each figure in estimates[] carries its own year, territory, method, sources and badges. Badges: CENSUS, MODEL, CONTESTED, SINGLE-SOURCE.",
+  "not_used": {
+   "McEvedy & Jones 1978": "Not accessible legitimately from the box (no licensed copy); not quoted from memory.",
+   "HYDE 3.3 grids": "Direct aggregation over Sudan borders not feasible (download portal bot-walled); country series via OWID used instead."
+  },
+  "sources": {
+   "POP_WPP2024": {
+    "title": "World Population Prospects 2024, Total Population by Sex (CSV, Medium/Low/High and probabilistic variants)",
+    "author": "UN DESA, Population Division",
+    "year": 2024,
+    "url": "https://population.un.org/wpp/",
+    "file": "WPP2024_TotalPopulationBySex.csv.gz",
+    "licence": "CC BY 3.0 IGO",
+    "note": "Latest release reachable on 2026-10-24 (no WPP2026 CSV found). Values are 1 July, thousands; Sudan LocID 729, South Sudan LocID 728, current borders; former Sudan = sum."
+   },
+   "POP_LAVERGNE1994": {
+    "title": "Quelques aspects de l'évolution démographique du Soudan 1956-1993",
+    "author": "Marc Lavergne",
+    "year": 1994,
+    "url": "https://doi.org/10.4000/ema.1445",
+    "licence": "OpenEdition (Égypte/Monde arabe 17); cited, not redistributed",
+    "note": "Gives national census totals 1/1/1956 10.263 M, 3/4/1973 14.819 M, 14/2/1983 20.594 M, 15/4/1993 24.941 M (provisional, northern states)."
+   },
+   "POP_ALIAHMED_UNSD": {
+    "title": "The Fifth population census in Sudan: a census with a full coverage and a high accuracy",
+    "author": "A.H. Ali Ahmed (Neelain University, ex-director CBS)",
+    "year": 2009,
+    "url": "https://unstats.un.org/unsd/demographic/sources/census/countries/SDN.pdf",
+    "licence": "UNSD document; cited",
+    "note": "Section 1 Background: 1955/56 enumerated 10.1 M adjusted to 10.3 M; 1973 preliminary 12.3 M adjusted to 14.8 M after PES; 1983 20.6 M adjusted to 19.1 M; 1993 24.9 M adjusted to 25.9 M, rural South not covered. Year of paper not printed; 2009 inferred from content (VERIFY)."
+   },
+   "POP_ILO_SSM5": {
+    "title": "Sources and Methods, Vol. 5: Population Censuses – Sudan",
+    "author": "ILO Department of Statistics",
+    "year": null,
+    "url": "https://webapps.ilo.org/ilostat-files/SSM/SSM5/E/SD.html",
+    "licence": "ILO; cited",
+    "note": "1993 census held 15 April; three southern regions only partially covered; final tabulation June 1995."
+   },
+   "POP_CBS2008": {
+    "title": "5th Sudan Population and Housing Census 2008: Priority Results (submitted to the Population Census Council)",
+    "author": "Central Bureau of Statistics (CBS) & SSCCSE",
+    "year": 2009,
+    "url": "https://nbs.gov.ss/assets/images/Priority%20Results%20from%205th%20Sudan%20Population%20and%20Housing%20Census%20-%202008.pdf",
+    "licence": "Government publication; cited",
+    "pages": "p.3 (Table T01); Table T02",
+    "note": "Table T01 total 39,154,490 (M 20,073,977 / F 19,080,513)."
+   },
+   "POP_ST2009_RESULTS": {
+    "title": "Sudan announces details of contested census results",
+    "author": "Sudan Tribune",
+    "year": 2009,
+    "url": "https://sudantribune.com/article/31111",
+    "licence": "news; cited",
+    "note": "21 May 2009: total 39,154,490; Southern Sudan 8,260,490 (21%)."
+   },
+   "POP_ST2009_REJECT": {
+    "title": "South Sudan parliament throws out census results",
+    "author": "Sudan Tribune",
+    "year": 2009,
+    "url": "https://sudantribune.com/article/31605",
+    "licence": "news; cited",
+    "note": "7 July 2009: Southern Sudan Legislative Assembly declares 2008 results null and void; GoSS cabinet rejected them days earlier (sudantribune.com/article/31571)."
+   },
+   "POP_HRW2004_APPA": {
+    "title": "Darfur Destroyed, Appendix A: Population of Sudan: Ethnic Census of 1956",
+    "author": "Human Rights Watch",
+    "year": 2004,
+    "url": "https://www.hrw.org/reports/2004/sudan0504/appendixa.pdf",
+    "licence": "HRW; cited",
+    "pages": "Appendix A, p.1",
+    "note": "Quotes the 1955/56 census grouping shares (597 tribes in 56 tribal groups). Primary: Republic of Sudan, First Population Census of Sudan 1955/56, Final Report vol.3 (1962) — not accessed by us."
+   },
+   "POP_HYDE33": {
+    "title": "History database of the Global Environment (HYDE) 3.3",
+    "author": "K. Klein Goldewijk et al., Utrecht University / PBL",
+    "year": 2023,
+    "url": "https://doi.org/10.24416/UU01-AEZZIT",
+    "licence": "CC BY",
+    "note": "Gridded/country tables not downloadable from the box (geo.public.data.uu.nl behind a bot wall on 2026-10-24); country values read via POP_OWID_POP, which uses HYDE v3.3 for 10,000 BCE–1799."
+   },
+   "POP_OWID_POP": {
+    "title": "Population (historical), country series, current borders",
+    "author": "Our World in Data (HYDE 3.3; Gapminder v7; UN WPP 2024)",
+    "year": 2024,
+    "url": "https://ourworldindata.org/grapher/population",
+    "licence": "CC BY 4.0",
+    "note": "Downloaded 2026-10-24 as CSV; codes SDN, SSD. HYDE 3.3 <1800, Gapminder v7 1800–1949."
+   }
+  }
+ },
+ "eras": {
+  "anglo-egyptian-sudan-condominium": {
+   "era_id": "anglo-egyptian-sudan-condominium",
+   "name_en": "Anglo-Egyptian Sudan (Condominium)",
+   "start": 1899,
+   "end": 1956,
+   "reference_year": 1956,
+   "territory": "former Sudan (incl. present South Sudan)",
+   "low": 8683000,
+   "high": 10263000,
+   "point": 10263000,
+   "range_kind": "spread between sources at era end (WPP 1950 vs census 1956)",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 1950,
+     "value": 8683193,
+     "territory": "former Sudan = WPP Sudan + South Sudan",
+     "method": "UN WPP 2024 estimate, 1 July",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "census",
+     "year": 1956,
+     "value": 10263000,
+     "low": 10100000,
+     "high": 10263000,
+     "territory": "former Sudan (Anglo-Egyptian Sudan; incl. present South Sudan)",
+     "method": "1955/56 First Population Census, adjusted national total (sample enumeration used in parts of the South and for scattered nomads)",
+     "sources": [
+      "POP_LAVERGNE1994",
+      "POP_ALIAHMED_UNSD"
+     ],
+     "badges": [
+      "CENSUS"
+     ],
+     "caveat": "Enumerated ~10.1 M, adjusted to ~10.3 M; coverage in the South and among nomads relied on chiefs and sampling."
+    }
+   ],
+   "ethnic_shares": {
+    "year": 1956,
+    "basis": "1955/56 census grouping of 597 registered tribes into categories (census-defined, self-chosen tribe)",
+    "sources": [
+     "POP_HRW2004_APPA"
+    ],
+    "badges": [
+     "CENSUS",
+     "SINGLE-SOURCE"
+    ],
+    "caveat": "Read from HRW quotation of the census, not the Final Report itself; categories are the census's own and crude.",
+    "shares_pct": {
+     "Arabs": 39,
+     "Southerners": 30,
+     "Westerners": 13,
+     "Beja": 6,
+     "Nuba": 6,
+     "Nubiyin (Nubians)": 3,
+     "Foreigners & miscellaneous": 3
+    }
+   },
+   "note": "Pre-1950 Condominium years: no census; Gapminder interpolation available but not used for the era figure.",
+   "badges": [
+    "CENSUS",
+    "MODEL"
+   ]
+  },
+  "southern-sudan-under-condominium-sudan": {
+   "era_id": "southern-sudan-under-condominium-sudan",
+   "name_en": "Southern Sudan under Condominium / Sudan",
+   "start": 1899,
+   "end": 2011,
+   "reference_year": 2008,
+   "territory": "present South Sudan territory",
+   "low": 2493283,
+   "high": 9745953,
+   "point": 8260490,
+   "range_kind": "spread across era (WPP 1950 → 2010) with 2008 census point",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 1950,
+     "value": 2493283,
+     "territory": "South Sudan (current borders)",
+     "method": "UN WPP 2024",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "census",
+     "year": 2008,
+     "value": 8260490,
+     "territory": "Southern Sudan (10 states)",
+     "method": "2008 census priority results",
+     "sources": [
+      "POP_ST2009_RESULTS",
+      "POP_CBS2008"
+     ],
+     "badges": [
+      "CENSUS",
+      "CONTESTED"
+     ],
+     "caveat": "Rejected by GoSS/SSLA; Southern officials claimed about one third of national population."
+    },
+    {
+     "kind": "model",
+     "year": 2008,
+     "value": 8817647,
+     "territory": "South Sudan",
+     "method": "UN WPP 2024",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "CENSUS",
+    "MODEL",
+    "CONTESTED"
+   ],
+   "note": "The South is also inside the former-Sudan totals of the Republic eras; do not add."
+  },
+  "independent-sudan-first-parliamentary-period": {
+   "era_id": "independent-sudan-first-parliamentary-period",
+   "name_en": "Independent Sudan – First parliamentary period",
+   "start": 1956,
+   "end": 1958,
+   "reference_year": 1957,
+   "territory": "former Sudan (incl. present South Sudan)",
+   "point": 10433545,
+   "low": null,
+   "high": null,
+   "range_kind": "single model estimate",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 1957,
+     "value": 10433545,
+     "territory": "former Sudan = WPP Sudan 7629449 + South Sudan 2804096",
+     "method": "UN WPP 2024 estimate, 1 July",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ]
+  },
+  "abboud-military-regime": {
+   "era_id": "abboud-military-regime",
+   "name_en": "Abboud military regime",
+   "start": 1958,
+   "end": 1964,
+   "reference_year": 1961,
+   "territory": "former Sudan (incl. present South Sudan)",
+   "point": 11611665,
+   "low": null,
+   "high": null,
+   "range_kind": "single model estimate",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 1961,
+     "value": 11611665,
+     "territory": "former Sudan = WPP Sudan 8634941 + South Sudan 2976724",
+     "method": "UN WPP 2024 estimate, 1 July",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ]
+  },
+  "second-parliamentary-period": {
+   "era_id": "second-parliamentary-period",
+   "name_en": "Second parliamentary period",
+   "start": 1964,
+   "end": 1969,
+   "reference_year": 1967,
+   "territory": "former Sudan (incl. present South Sudan)",
+   "point": 13828245,
+   "low": null,
+   "high": null,
+   "range_kind": "single model estimate",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 1967,
+     "value": 13828245,
+     "territory": "former Sudan = WPP Sudan 10550597 + South Sudan 3277648",
+     "method": "UN WPP 2024 estimate, 1 July",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ]
+  },
+  "nimeiry-era-democratic-republic-of-sudan": {
+   "era_id": "nimeiry-era-democratic-republic-of-sudan",
+   "name_en": "Nimeiry era (Democratic Republic of Sudan)",
+   "start": 1969,
+   "end": 1985,
+   "reference_year": 1973,
+   "territory": "former Sudan (incl. present South Sudan)",
+   "low": 12300000,
+   "high": 23771344,
+   "point": 14819000,
+   "range_kind": "spread of estimates across the era (1973 and 1983 censuses, WPP)",
+   "estimates": [
+    {
+     "kind": "census",
+     "year": 1973,
+     "value": 14819000,
+     "low": 12300000,
+     "high": 14819000,
+     "territory": "former Sudan",
+     "method": "Second census (3 Apr 1973), adjusted after post-enumeration survey",
+     "sources": [
+      "POP_LAVERGNE1994",
+      "POP_ALIAHMED_UNSD"
+     ],
+     "badges": [
+      "CENSUS"
+     ],
+     "caveat": "Preliminary count only 12.3 M: missed Gezira labour camps, parts of the South and northern nomads."
+    },
+    {
+     "kind": "model",
+     "year": 1973,
+     "value": 16676698,
+     "territory": "former Sudan",
+     "method": "UN WPP 2024",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "census",
+     "year": 1983,
+     "value": 20594000,
+     "low": 19100000,
+     "high": 20594000,
+     "territory": "former Sudan",
+     "method": "Third census (14 Feb 1983)",
+     "sources": [
+      "POP_LAVERGNE1994",
+      "POP_ALIAHMED_UNSD"
+     ],
+     "badges": [
+      "CENSUS",
+      "CONTESTED"
+     ],
+     "caveat": "20.594 M per Lavergne; Ali Ahmed gives 20.6 M \"adjusted to 19.1 M\"; accuracy concerns in the South (chiefs filling forms)."
+    },
+    {
+     "kind": "model",
+     "year": 1983,
+     "value": 23771344,
+     "territory": "former Sudan",
+     "method": "UN WPP 2024",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "CENSUS",
+    "MODEL",
+    "CONTESTED"
+   ]
+  },
+  "transitional-third-parliamentary-period": {
+   "era_id": "transitional-third-parliamentary-period",
+   "name_en": "Transitional & third parliamentary period",
+   "start": 1985,
+   "end": 1989,
+   "reference_year": 1987,
+   "territory": "former Sudan (incl. present South Sudan)",
+   "point": 25667299,
+   "low": null,
+   "high": null,
+   "range_kind": "single model estimate",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 1987,
+     "value": 25667299,
+     "territory": "former Sudan = WPP Sudan 20704904 + South Sudan 4962395",
+     "method": "UN WPP 2024 estimate, 1 July",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ]
+  },
+  "al-bashir-ncp-ingaz-regime": {
+   "era_id": "al-bashir-ncp-ingaz-regime",
+   "name_en": "Al-Bashir / NCP (Ingaz) regime",
+   "start": 1989,
+   "end": 2019,
+   "reference_year": 2008,
+   "territory": "former Sudan to 2011; Sudan only from July 2011",
+   "low": 24940683,
+   "high": 42441627,
+   "point": 39154490,
+   "range_kind": "spread of estimates across the era",
+   "estimates": [
+    {
+     "kind": "census",
+     "year": 1993,
+     "value": 24940683,
+     "low": 24940683,
+     "high": 25900000,
+     "territory": "northern states + partial South (rural South not enumerated)",
+     "method": "Fourth census (15 Apr 1993)",
+     "sources": [
+      "POP_LAVERGNE1994",
+      "POP_ALIAHMED_UNSD",
+      "POP_ILO_SSM5"
+     ],
+     "badges": [
+      "CENSUS"
+     ],
+     "caveat": "Not a national count: rural southern areas omitted (war); nomads under-covered (3% vs 11% in 1983); some overcount for ration purposes. Adjusted later to 25.9 M."
+    },
+    {
+     "kind": "model",
+     "year": 1993,
+     "value": 28401594,
+     "territory": "former Sudan",
+     "method": "UN WPP 2024",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "census",
+     "year": 2008,
+     "value": 39154490,
+     "territory": "former Sudan (North 30,894,000 + South 8,260,490)",
+     "method": "Fifth census (22 Apr–6 May 2008), priority results Table T01",
+     "sources": [
+      "POP_CBS2008",
+      "POP_ST2009_RESULTS",
+      "POP_ST2009_REJECT"
+     ],
+     "badges": [
+      "CENSUS",
+      "CONTESTED"
+     ],
+     "caveat": "Rejected by the GoSS and Southern Sudan Legislative Assembly (July 2009) as undercounting the South and southern IDPs in the North; Darfur and nomad growth disputed. North figure = total minus South."
+    },
+    {
+     "kind": "model",
+     "year": 2008,
+     "value": 42441627,
+     "territory": "former Sudan",
+     "method": "UN WPP 2024",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 2015,
+     "value": 40024431,
+     "territory": "Sudan (post-2011 borders)",
+     "method": "UN WPP 2024",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "CENSUS",
+    "MODEL",
+    "CONTESTED"
+   ],
+   "note": "Era straddles the 2011 secession; figures before and after are not comparable territories."
+  },
+  "republic-of-south-sudan": {
+   "era_id": "republic-of-south-sudan",
+   "name_en": "Republic of South Sudan",
+   "start": 2011,
+   "end": 2026,
+   "reference_year": 2024,
+   "territory": "South Sudan (neighbour state from 2011)",
+   "point": 11943408,
+   "low": 11887895,
+   "high": 12997877,
+   "range_kind": "point = WPP 2024 Medium for 2024; low/high = 80% PI for 2026",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 2011,
+     "value": 10288109,
+     "territory": "South Sudan",
+     "method": "UN WPP 2024",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 2024,
+     "value": 11943408,
+     "territory": "South Sudan",
+     "method": "UN WPP 2024 Medium",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "caveat": "No census since 2008; large refugee and returnee flows."
+  },
+  "december-revolution-transition": {
+   "era_id": "december-revolution-transition",
+   "name_en": "December Revolution & transition",
+   "start": 2019,
+   "end": 2023,
+   "reference_year": 2021,
+   "territory": "Sudan (post-2011 borders)",
+   "point": 48066924,
+   "low": null,
+   "high": null,
+   "range_kind": "single model estimate",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 2021,
+     "value": 48066924,
+     "territory": "Sudan",
+     "method": "UN WPP 2024 estimate",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "note": "No census since 2008; WPP is a projection from 2008 base plus surveys."
+  },
+  "war-in-sudan-saf-vs-rsf": {
+   "era_id": "war-in-sudan-saf-vs-rsf",
+   "name_en": "War in Sudan (SAF vs RSF)",
+   "start": 2023,
+   "end": 2026,
+   "reference_year": 2024,
+   "territory": "Sudan (post-2011 borders)",
+   "point": 50448963,
+   "low": 51754190,
+   "high": 54371309,
+   "range_kind": "point = WPP 2024 Medium for 2024; low/high = WPP 80% prediction interval for 2026",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 2023,
+     "value": 50042791,
+     "territory": "Sudan",
+     "method": "UN WPP 2024 estimate (last estimate year)",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 2024,
+     "value": 50448963,
+     "territory": "Sudan",
+     "method": "UN WPP 2024 Medium projection",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 2026,
+     "value": 53282719,
+     "low": 51754190,
+     "high": 54371309,
+     "territory": "Sudan",
+     "method": "UN WPP 2024 Medium, 80% PI",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "caveat": "De jure modelled population; war deaths, refugee outflows and internal displacement since April 2023 are not measured and may not be fully reflected. Not a count of people present."
+  }
+ }
+}
