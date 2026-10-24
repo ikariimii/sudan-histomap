@@ -41,24 +41,21 @@
  "flags": [
   "regional_power: no actors scored",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
-  "power_cinc_share: computed with RP-CINC-SHARE-1 but the 8-state regional set has very few members in these years (Sudan not a COW state before 1956), so the share is near 1.0 by construction [VERIFY – Analyst ruling needed]; uninformative as a relative figure",
+  "power_cinc_share null: only one state in the comparison set (Egypt is the only regional-set state in COW NMC v6.0 for 1855–1882) [VERIFY]",
   "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field"
  ],
  "curated": true,
  "power_cinc_share": [
   {
-   "actor": "Egypt (Muhammad Ali dynasty)",
-   "share": 1.0,
-   "year_range": [
-    1855,
-    1882
-   ],
-   "basis": "COW NMC v6 CINC: Egypt is the only regional-set state in data 1855–1882 (28 yrs), so the share is 1.00 by construction",
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
    "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
    "source_ids": [
     "COW_NMC6"
    ],
-   "flag": "power_cinc_share: computed with RP-CINC-SHARE-1 but the 8-state regional set has very few members in these years (Sudan not a COW state before 1956), so the share is near 1.0 by construction [VERIFY – Analyst ruling needed]; uninformative as a relative figure"
+   "flag": "power_cinc_share null: only one state in the comparison set (Egypt is the only regional-set state in COW NMC v6.0 for 1855–1882) [VERIFY]"
   }
  ]
 }

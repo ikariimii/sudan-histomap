@@ -58,7 +58,7 @@
  "flags": [
   "regional_power: no actors scored",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
-  "power_cinc_share: computed with RP-CINC-SHARE-1 but the 8-state regional set has very few members in these years (Sudan not a COW state before 1956), so the share is near 1.0 by construction [VERIFY – Analyst ruling needed]",
+  "power_cinc_share: computed with RP-CINC-SHARE-1 but the 8-state regional set has very few members in these years (Sudan not a COW state before 1956), so the share is near 1.0 by construction [VERIFY]",
   "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "SINGLE-SOURCE – Dawit's invasion of the Aswan region rests on al-Maqrizi as quoted in GHA IV ch.17, p.450; Seyfe-Ar'ad's march to the Nile rests on a 15th-c. Italian traveller (same page)",
   "1889 Matamma: Mahdist side not read in this pass"
@@ -72,12 +72,12 @@
     1898,
     1974
    ],
-   "basis": "COW NMC v6 CINC: mean share of the regional set over 73 Ethiopia-in-data years 1898–1974 (1936–40 occupation gap); min 0.14, max 1.00",
+   "basis": "COW NMC v6.0 CINC: mean share of the regional set over the 73 in-era years with Ethiopia (530) rows, 1898–1936 and 1941–1974 (no rows 1937–1940; Ethiopia not a system member before 1898); min 0.14, max 1.00",
    "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
    "source_ids": [
     "COW_NMC6"
    ],
-   "flag": "power_cinc_share: computed with RP-CINC-SHARE-1 but the 8-state regional set has very few members in these years (Sudan not a COW state before 1956), so the share is near 1.0 by construction [VERIFY – Analyst ruling needed]"
+   "flag": "power_cinc_share: computed with RP-CINC-SHARE-1 but the 8-state regional set has very few members in these years (Sudan not a COW state before 1956), so the share is near 1.0 by construction [VERIFY]"
   }
  ]
 }

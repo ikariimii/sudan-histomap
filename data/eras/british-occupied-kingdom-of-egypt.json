@@ -45,25 +45,22 @@
   "Pass 22b text (Analyst modern fill 4): Arabic is a [WORKING TRANSLATION – needs native Arabic review]",
   "culture_dominance: Pass 22d, GHA VII ch.21 pp.555–556 + ch.23 p.601; Arabic is a working translation",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
-  "power_cinc_share: computed with RP-CINC-SHARE-1 but the 8-state regional set has very few members in these years (Sudan not a COW state before 1956), so the share is near 1.0 by construction [VERIFY – Analyst ruling needed]",
+  "power_cinc_share null: within the era 1882–1922 COW NMC v6.0 has an Egypt (651) row only for 1882 (Egypt is a system member 1855–1882 and from 1937), so there are no in-era years to score [VERIFY]",
   "economy: Egyptian budget figures SINGLE-SOURCE (GHA VII ch.17, citing Allan & Smith 1948 and Gaitskell 1959)",
   "1929 agreement terms not read – VERIFY"
  ],
  "curated": true,
  "power_cinc_share": [
   {
-   "actor": "Egypt",
-   "share": 0.77,
-   "year_range": [
-    1882,
-    1953
-   ],
-   "basis": "COW NMC v6 CINC: mean share of the regional set over the 18 Egypt-in-data years 1882 and 1937–1953 (COW codes Egypt 1855–1882 and 1937–); min 0.64, max 1.00",
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
    "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
    "source_ids": [
     "COW_NMC6"
    ],
-   "flag": "power_cinc_share: computed with RP-CINC-SHARE-1 but the 8-state regional set has very few members in these years (Sudan not a COW state before 1956), so the share is near 1.0 by construction [VERIFY – Analyst ruling needed]"
+   "flag": "power_cinc_share null: within the era 1882–1922 COW NMC v6.0 has an Egypt (651) row only for 1882 (Egypt is a system member 1855–1882 and from 1937), so there are no in-era years to score [VERIFY]"
   }
  ]
 }

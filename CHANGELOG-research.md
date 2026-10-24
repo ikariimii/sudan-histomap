@@ -85,3 +85,8 @@
 ## Pass 23b (Historian): research_patch.py no longer writes extents files
 - `write_era_files` no longer calls `write_extents()`. `write_extents()` and `write_extent_geojson()` are now no-ops at the end of research_patch.py, so the pipeline never writes db/extents_historic.json or db/extents/*. Map Designer owns those files.
 - Checked across a full rebuild: db/extents_historic.json kept 62 items and sha256 1a70489b…c510c0, and every db/extents/* file hash was unchanged.
+
+## Pass 23c (Historian): CINC coverage checked against the COW NMC v6.0 rows
+- British-occupied Egypt (1882–1922): share set to null. The only in-era Egypt (651) row is for 1882. Egypt is a system member for 1855–1882 and from 1937. [VERIFY]
+- Ethiopian Empire: share 0.65, the mean over the 73 in-era Ethiopia (530) rows, 1898–1936 and 1941–1974. There are no rows for 1937–1940. Min 0.14, max 1.00. [VERIFY]
+- Ottoman Egypt: share set to null because only one state is in the comparison set. [VERIFY]
