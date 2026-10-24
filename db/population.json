@@ -1380,7 +1380,8 @@
       "POP_OWID_POP"
      ],
      "badges": [
-      "MODEL"
+      "MODEL",
+      "SINGLE-SOURCE"
      ]
     },
     {
@@ -1393,7 +1394,8 @@
       "POP_OWID_POP"
      ],
      "badges": [
-      "MODEL"
+      "MODEL",
+      "SINGLE-SOURCE"
      ]
     },
     {
@@ -1406,7 +1408,8 @@
       "POP_OWID_POP"
      ],
      "badges": [
-      "MODEL"
+      "MODEL",
+      "SINGLE-SOURCE"
      ]
     }
    ],
@@ -1414,7 +1417,7 @@
     "MODEL",
     "SINGLE-SOURCE"
    ],
-   "caveat": "Gapminder pre-1950 values for Sudan are smooth interpolations, not counts; Gapminder is an extra source beyond the brief (needs IM OK)."
+   "caveat": "Gapminder pre-1950 values for Sudan are smooth interpolations, not counts. Gapminder v7 is the only source for this era; approved by the Innovation Manager with MODEL and SINGLE-SOURCE badges."
   },
   "british-occupied-kingdom-of-egypt": {
    "era_id": "british-occupied-kingdom-of-egypt",
