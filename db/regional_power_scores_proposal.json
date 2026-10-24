@@ -2,8 +2,8 @@
  "meta": {
   "built": "2026-10-20",
   "owner": "Sudan Geopolitical Analyst",
-  "status": "PROPOSAL – NEEDS INNOVATION MANAGER SIGN-OFF ON METHOD; not merged into data/eras",
-  "schema": "regional_power entries follow data/eras exactly: {actor, score (0–1 or null), basis, method, flag}. Existing scores (Kush 0.9, Mahdist 0.9) are editorial ordinals; these are computed shares and so are not directly comparable – decide before merging.",
+  "status": "METHOD APPROVED by Innovation Manager 2026-10-24 for modern eras only (CINC 1816–2016); staging file, not merged into data/eras",
+  "schema": "Two separate fields, never mixed or rescaled: `power_cinc_share` = computed CINC regional share {actor, share (0–1 or null), year_range [from,to] actually scored, basis, method, source_ids, flag, null_reason}, cited to COW_NMC6 with the year range, valid 1816–2016 only; `power_editorial` = existing hand-assigned ordinals (Kush, Mahdist) badged EDITORIAL, copied unchanged from data/eras. No new hand scores before 1816.",
   "method": {
    "id": "RP-CINC-SHARE-1",
    "formula": "score = mean over era years y in [max(start,1816), min(end,2016)] with data of CINC_actor(y) / Σ_{c in set} CINC_c(y); rounded to 2 dp",
@@ -20,8 +20,8 @@
     "bias": "academic; Cold-War realist index (pop, urban pop, iron/steel, energy, mil personnel, mil spending); weak for low-industry states",
     "date": "2021 (data 1816–2016)",
     "url": "https://correlatesofwar.org/data-sets/national-material-capabilities/",
-    "license": "free academic use with citation (COW terms) [VERIFY licence wording]",
-    "verification": "downloaded NMC_Documentation-6.0.zip 2026-10-20, NMC-60-abridged.csv read"
+    "license": "No licence statement found: the COW NMC page (correlatesofwar.org, read 2026-10-24) and the v6.0 codebook PDF (read 2026-10-24) give no licence or terms; the page asks users 'to give the version number and cite an article of record' (Singer, Bremer & Stuckey 1972). Reuse rights beyond citation are not stated.",
+    "verification": "downloaded NMC_Documentation-6.0.zip 2026-10-20, NMC-60-abridged.csv read; licence/terms check 2026-10-24: COW NMC page + NMC_Documentation_v6_0 PDF read. Note: the page now offers v7.0 (1816–2022); this proposal uses v6.0 as approved."
    },
    "WB_WDI_API": {
     "author": "World Bank",
@@ -34,7 +34,13 @@
     "license": "CC BY 4.0",
     "verification": "API queried 2026-10-20"
    }
-  }
+  },
+  "rulings_2026-10-24": [
+   "power_cinc_share only for years 1816–2016",
+   "power_editorial kept separate, badged EDITORIAL, no rescaling/mixing",
+   "no new pre-1816 hand scores",
+   "2019 and 2023 eras: null, reason 'data ends 2016'"
+  ]
  },
  "items": [
   {
@@ -42,19 +48,6 @@
    "era_years": [
     1956,
     1958
-   ],
-   "regional_power": [
-    {
-     "actor": "Republic of Sudan",
-     "score": 0.1,
-     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1956–1958 (3 yrs); min 0.10, max 0.10; last-year CINCs SDN 0.00086, EGY 0.00532, ETH 0.00210, LBY 0.00021",
-     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
-     "source_ids": [
-      "COW_NMC6",
-      "WB_WDI_API"
-     ],
-     "flag": "COW Sudan (ccode 625) includes South Sudan before 2011"
-    }
    ],
    "indicators": {
     "cinc_first_year": {
@@ -136,26 +129,31 @@
       "source": "WB_WDI_API"
      }
     }
-   }
+   },
+   "power_cinc_share": [
+    {
+     "actor": "Republic of Sudan",
+     "share": 0.1,
+     "year_range": [
+      1956,
+      1958
+     ],
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1956–1958 (3 yrs); min 0.10, max 0.10; last-year CINCs SDN 0.00086, EGY 0.00532, ETH 0.00210, LBY 0.00021",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "COW Sudan (ccode 625) includes South Sudan before 2011",
+     "cite": "COW NMC v6.0 CINC, 1956–1958"
+    }
+   ]
   },
   {
    "era_id": "abboud-military-regime",
    "era_years": [
     1958,
     1964
-   ],
-   "regional_power": [
-    {
-     "actor": "Republic of Sudan",
-     "score": 0.1,
-     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1958–1964 (7 yrs); min 0.09, max 0.10; last-year CINCs SDN 0.00089, EGY 0.00602, ETH 0.00208, TCD 0.00019, LBY 0.00033, CAF 0.00013",
-     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
-     "source_ids": [
-      "COW_NMC6",
-      "WB_WDI_API"
-     ],
-     "flag": "COW Sudan (ccode 625) includes South Sudan before 2011"
-    }
    ],
    "indicators": {
     "cinc_first_year": {
@@ -233,26 +231,31 @@
       "source": "WB_WDI_API"
      }
     }
-   }
+   },
+   "power_cinc_share": [
+    {
+     "actor": "Republic of Sudan",
+     "share": 0.1,
+     "year_range": [
+      1958,
+      1964
+     ],
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1958–1964 (7 yrs); min 0.09, max 0.10; last-year CINCs SDN 0.00089, EGY 0.00602, ETH 0.00208, TCD 0.00019, LBY 0.00033, CAF 0.00013",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "COW Sudan (ccode 625) includes South Sudan before 2011",
+     "cite": "COW NMC v6.0 CINC, 1958–1964"
+    }
+   ]
   },
   {
    "era_id": "second-parliamentary-period",
    "era_years": [
     1964,
     1969
-   ],
-   "regional_power": [
-    {
-     "actor": "Republic of Sudan",
-     "score": 0.09,
-     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1964–1969 (6 yrs); min 0.09, max 0.10; last-year CINCs SDN 0.00103, EGY 0.00665, ETH 0.00171, TCD 0.00024, LBY 0.00048, CAF 0.00014",
-     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
-     "source_ids": [
-      "COW_NMC6",
-      "WB_WDI_API"
-     ],
-     "flag": "COW Sudan (ccode 625) includes South Sudan before 2011"
-    }
    ],
    "indicators": {
     "cinc_first_year": {
@@ -330,26 +333,31 @@
       "source": "WB_WDI_API"
      }
     }
-   }
+   },
+   "power_cinc_share": [
+    {
+     "actor": "Republic of Sudan",
+     "share": 0.09,
+     "year_range": [
+      1964,
+      1969
+     ],
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1964–1969 (6 yrs); min 0.09, max 0.10; last-year CINCs SDN 0.00103, EGY 0.00665, ETH 0.00171, TCD 0.00024, LBY 0.00048, CAF 0.00014",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "COW Sudan (ccode 625) includes South Sudan before 2011",
+     "cite": "COW NMC v6.0 CINC, 1964–1969"
+    }
+   ]
   },
   {
    "era_id": "nimeiry-era-democratic-republic-of-sudan",
    "era_years": [
     1969,
     1985
-   ],
-   "regional_power": [
-    {
-     "actor": "Democratic Republic of the Sudan",
-     "score": 0.11,
-     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1969–1985 (17 yrs); min 0.10, max 0.13; last-year CINCs SDN 0.00184, EGY 0.00802, ETH 0.00349, TCD 0.00033, LBY 0.00159, CAF 0.00021",
-     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
-     "source_ids": [
-      "COW_NMC6",
-      "WB_WDI_API"
-     ],
-     "flag": "COW Sudan (ccode 625) includes South Sudan before 2011"
-    }
    ],
    "indicators": {
     "cinc_first_year": {
@@ -426,26 +434,31 @@
       "source": "WB_WDI_API"
      }
     }
-   }
+   },
+   "power_cinc_share": [
+    {
+     "actor": "Democratic Republic of the Sudan",
+     "share": 0.11,
+     "year_range": [
+      1969,
+      1985
+     ],
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1969–1985 (17 yrs); min 0.10, max 0.13; last-year CINCs SDN 0.00184, EGY 0.00802, ETH 0.00349, TCD 0.00033, LBY 0.00159, CAF 0.00021",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "COW Sudan (ccode 625) includes South Sudan before 2011",
+     "cite": "COW NMC v6.0 CINC, 1969–1985"
+    }
+   ]
   },
   {
    "era_id": "transitional-third-parliamentary-period",
    "era_years": [
     1985,
     1989
-   ],
-   "regional_power": [
-    {
-     "actor": "Republic of Sudan",
-     "score": 0.12,
-     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1985–1989 (5 yrs); min 0.11, max 0.12; last-year CINCs SDN 0.00197, EGY 0.00862, ETH 0.00368, TCD 0.00048, LBY 0.00179, CAF 0.00022",
-     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
-     "source_ids": [
-      "COW_NMC6",
-      "WB_WDI_API"
-     ],
-     "flag": "COW Sudan (ccode 625) includes South Sudan before 2011"
-    }
    ],
    "indicators": {
     "cinc_first_year": {
@@ -522,26 +535,31 @@
       "source": "WB_WDI_API"
      }
     }
-   }
+   },
+   "power_cinc_share": [
+    {
+     "actor": "Republic of Sudan",
+     "share": 0.12,
+     "year_range": [
+      1985,
+      1989
+     ],
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1985–1989 (5 yrs); min 0.11, max 0.12; last-year CINCs SDN 0.00197, EGY 0.00862, ETH 0.00368, TCD 0.00048, LBY 0.00179, CAF 0.00022",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "COW Sudan (ccode 625) includes South Sudan before 2011",
+     "cite": "COW NMC v6.0 CINC, 1985–1989"
+    }
+   ]
   },
   {
    "era_id": "al-bashir-ncp-ingaz-regime",
    "era_years": [
     1989,
     2019
-   ],
-   "regional_power": [
-    {
-     "actor": "Republic of Sudan (Government of Sudan / NCP)",
-     "score": 0.13,
-     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1989–2016 (28 yrs); min 0.12, max 0.18; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
-     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
-     "source_ids": [
-      "COW_NMC6",
-      "WB_WDI_API"
-     ],
-     "flag": "[PARTIAL COVERAGE] era 1989–2019; scored on 1989–2016 only; years outside are null (pre-state, pre-1816 or post-2016); COW Sudan (ccode 625) includes South Sudan before 2011"
-    }
    ],
    "indicators": {
     "cinc_first_year": {
@@ -618,21 +636,31 @@
       "source": "WB_WDI_API"
      }
     }
-   }
+   },
+   "power_cinc_share": [
+    {
+     "actor": "Republic of Sudan (Government of Sudan / NCP)",
+     "share": 0.13,
+     "year_range": [
+      1989,
+      2016
+     ],
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1989–2016 (28 yrs); min 0.12, max 0.18; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "[PARTIAL COVERAGE] era 1989–2019; scored on 1989–2016 only; years outside are null (pre-state, pre-1816 or post-2016); COW Sudan (ccode 625) includes South Sudan before 2011",
+     "cite": "COW NMC v6.0 CINC, 1989–2016"
+    }
+   ]
   },
   {
    "era_id": "december-revolution-transition",
    "era_years": [
     2019,
     2023
-   ],
-   "regional_power": [
-    {
-     "actor": "Republic of Sudan",
-     "score": null,
-     "flag": "no CINC: COW NMC v6 ends 2016 and era starts 2019; WDI indicators listed for context only, not scored",
-     "method": "CINC regional share (see method_id RP-CINC-SHARE-1)"
-    }
    ],
    "indicators": {
     "wdi_latest": {
@@ -662,21 +690,27 @@
       "source": "WB_WDI_API"
      }
     }
-   }
+   },
+   "power_cinc_share": [
+    {
+     "actor": "Republic of Sudan",
+     "share": null,
+     "year_range": null,
+     "basis": null,
+     "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+     "source_ids": [
+      "COW_NMC6"
+     ],
+     "flag": "no CINC: COW NMC v6 ends 2016 and era starts 2019; WDI indicators listed for context only, not scored",
+     "null_reason": "data ends 2016"
+    }
+   ]
   },
   {
    "era_id": "war-in-sudan-saf-vs-rsf",
    "era_years": [
     2023,
     2026
-   ],
-   "regional_power": [
-    {
-     "actor": "Republic of Sudan (SAF-led government)",
-     "score": null,
-     "flag": "no CINC: COW NMC v6 ends 2016 and era starts 2023; WDI indicators listed for context only, not scored",
-     "method": "CINC regional share (see method_id RP-CINC-SHARE-1)"
-    }
    ],
    "indicators": {
     "wdi_latest": {
@@ -706,26 +740,27 @@
       "source": "WB_WDI_API"
      }
     }
-   }
+   },
+   "power_cinc_share": [
+    {
+     "actor": "Republic of Sudan (SAF-led government)",
+     "share": null,
+     "year_range": null,
+     "basis": null,
+     "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+     "source_ids": [
+      "COW_NMC6"
+     ],
+     "flag": "no CINC: COW NMC v6 ends 2016 and era starts 2023; WDI indicators listed for context only, not scored",
+     "null_reason": "data ends 2016"
+    }
+   ]
   },
   {
    "era_id": "republic-of-south-sudan",
    "era_years": [
     2011,
     2026
-   ],
-   "regional_power": [
-    {
-     "actor": "Republic of South Sudan",
-     "score": 0.07,
-     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 2011–2016 (6 yrs); min 0.02, max 0.09; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
-     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
-     "source_ids": [
-      "COW_NMC6",
-      "WB_WDI_API"
-     ],
-     "flag": "[PARTIAL COVERAGE] era 2011–2026; scored on 2011–2016 only; years outside are null (pre-state, pre-1816 or post-2016)"
-    }
    ],
    "indicators": {
     "cinc_first_year": {
@@ -802,26 +837,31 @@
       "source": "WB_WDI_API"
      }
     }
-   }
+   },
+   "power_cinc_share": [
+    {
+     "actor": "Republic of South Sudan",
+     "share": 0.07,
+     "year_range": [
+      2011,
+      2016
+     ],
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 2011–2016 (6 yrs); min 0.02, max 0.09; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "[PARTIAL COVERAGE] era 2011–2026; scored on 2011–2016 only; years outside are null (pre-state, pre-1816 or post-2016)",
+     "cite": "COW NMC v6.0 CINC, 2011–2016"
+    }
+   ]
   },
   {
    "era_id": "republic-of-egypt",
    "era_years": [
     1953,
     2026
-   ],
-   "regional_power": [
-    {
-     "actor": "Egypt (Republic / UAR / ARE)",
-     "score": 0.55,
-     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1953–2016 (64 yrs); min 0.41, max 0.70; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
-     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
-     "source_ids": [
-      "COW_NMC6",
-      "WB_WDI_API"
-     ],
-     "flag": "[PARTIAL COVERAGE] era 1953–2026; scored on 1953–2016 only; years outside are null (pre-state, pre-1816 or post-2016)"
-    }
    ],
    "indicators": {
     "cinc_first_year": {
@@ -898,26 +938,31 @@
       "source": "WB_WDI_API"
      }
     }
-   }
+   },
+   "power_cinc_share": [
+    {
+     "actor": "Egypt (Republic / UAR / ARE)",
+     "share": 0.55,
+     "year_range": [
+      1953,
+      2016
+     ],
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1953–2016 (64 yrs); min 0.41, max 0.70; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "[PARTIAL COVERAGE] era 1953–2026; scored on 1953–2016 only; years outside are null (pre-state, pre-1816 or post-2016)",
+     "cite": "COW NMC v6.0 CINC, 1953–2016"
+    }
+   ]
   },
   {
    "era_id": "derg-federal-ethiopia",
    "era_years": [
     1974,
     2026
-   ],
-   "regional_power": [
-    {
-     "actor": "Ethiopia",
-     "score": 0.2,
-     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1974–2016 (43 yrs); min 0.14, max 0.24; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
-     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
-     "source_ids": [
-      "COW_NMC6",
-      "WB_WDI_API"
-     ],
-     "flag": "[PARTIAL COVERAGE] era 1974–2026; scored on 1974–2016 only; years outside are null (pre-state, pre-1816 or post-2016)"
-    }
    ],
    "indicators": {
     "cinc_first_year": {
@@ -994,26 +1039,31 @@
       "source": "WB_WDI_API"
      }
     }
-   }
+   },
+   "power_cinc_share": [
+    {
+     "actor": "Ethiopia",
+     "share": 0.2,
+     "year_range": [
+      1974,
+      2016
+     ],
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1974–2016 (43 yrs); min 0.14, max 0.24; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "[PARTIAL COVERAGE] era 1974–2026; scored on 1974–2016 only; years outside are null (pre-state, pre-1816 or post-2016)",
+     "cite": "COW NMC v6.0 CINC, 1974–2016"
+    }
+   ]
   },
   {
    "era_id": "eritrea-italian-colony-independent",
    "era_years": [
     1890,
     2026
-   ],
-   "regional_power": [
-    {
-     "actor": "Eritrea (state)",
-     "score": 0.08,
-     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1993–2016 (24 yrs); min 0.03, max 0.10; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
-     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
-     "source_ids": [
-      "COW_NMC6",
-      "WB_WDI_API"
-     ],
-     "flag": "[PARTIAL COVERAGE] era 1890–2026; scored on 1993–2016 only; years outside are null (pre-state, pre-1816 or post-2016)"
-    }
    ],
    "indicators": {
     "cinc_first_year": {
@@ -1090,26 +1140,31 @@
       "source": "WB_WDI_API"
      }
     }
-   }
+   },
+   "power_cinc_share": [
+    {
+     "actor": "Eritrea (state)",
+     "share": 0.08,
+     "year_range": [
+      1993,
+      2016
+     ],
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1993–2016 (24 yrs); min 0.03, max 0.10; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "[PARTIAL COVERAGE] era 1890–2026; scored on 1993–2016 only; years outside are null (pre-state, pre-1816 or post-2016)",
+     "cite": "COW NMC v6.0 CINC, 1993–2016"
+    }
+   ]
   },
   {
    "era_id": "french-chad-republic-of-chad",
    "era_years": [
     1900,
     2026
-   ],
-   "regional_power": [
-    {
-     "actor": "Chad (state)",
-     "score": 0.03,
-     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1960–2016 (57 yrs); min 0.02, max 0.04; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
-     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
-     "source_ids": [
-      "COW_NMC6",
-      "WB_WDI_API"
-     ],
-     "flag": "[PARTIAL COVERAGE] era 1900–2026; scored on 1960–2016 only; years outside are null (pre-state, pre-1816 or post-2016)"
-    }
    ],
    "indicators": {
     "cinc_first_year": {
@@ -1186,26 +1241,31 @@
       "source": "WB_WDI_API"
      }
     }
-   }
+   },
+   "power_cinc_share": [
+    {
+     "actor": "Chad (state)",
+     "share": 0.03,
+     "year_range": [
+      1960,
+      2016
+     ],
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1960–2016 (57 yrs); min 0.02, max 0.04; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "[PARTIAL COVERAGE] era 1900–2026; scored on 1960–2016 only; years outside are null (pre-state, pre-1816 or post-2016)",
+     "cite": "COW NMC v6.0 CINC, 1960–2016"
+    }
+   ]
   },
   {
    "era_id": "libya-ottoman-italian-independent",
    "era_years": [
     1551,
     2026
-   ],
-   "regional_power": [
-    {
-     "actor": "Libya (state)",
-     "score": 0.07,
-     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1951–2016 (66 yrs); min 0.02, max 0.15; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
-     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
-     "source_ids": [
-      "COW_NMC6",
-      "WB_WDI_API"
-     ],
-     "flag": "[PARTIAL COVERAGE] era 1551–2026; scored on 1951–2016 only; years outside are null (pre-state, pre-1816 or post-2016)"
-    }
    ],
    "indicators": {
     "cinc_first_year": {
@@ -1282,26 +1342,31 @@
       "source": "WB_WDI_API"
      }
     }
-   }
+   },
+   "power_cinc_share": [
+    {
+     "actor": "Libya (state)",
+     "share": 0.07,
+     "year_range": [
+      1951,
+      2016
+     ],
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1951–2016 (66 yrs); min 0.02, max 0.15; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "[PARTIAL COVERAGE] era 1551–2026; scored on 1951–2016 only; years outside are null (pre-state, pre-1816 or post-2016)",
+     "cite": "COW NMC v6.0 CINC, 1951–2016"
+    }
+   ]
   },
   {
    "era_id": "central-african-republic-ubangi-shari",
    "era_years": [
     1903,
     2026
-   ],
-   "regional_power": [
-    {
-     "actor": "Central African Republic (state)",
-     "score": 0.01,
-     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1960–2016 (57 yrs); min 0.01, max 0.02; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
-     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); PROPOSAL pending Innovation Manager sign-off",
-     "source_ids": [
-      "COW_NMC6",
-      "WB_WDI_API"
-     ],
-     "flag": "[PARTIAL COVERAGE] era 1903–2026; scored on 1960–2016 only; years outside are null (pre-state, pre-1816 or post-2016)"
-    }
    ],
    "indicators": {
     "cinc_first_year": {
@@ -1378,7 +1443,45 @@
       "source": "WB_WDI_API"
      }
     }
-   }
+   },
+   "power_cinc_share": [
+    {
+     "actor": "Central African Republic (state)",
+     "share": 0.01,
+     "year_range": [
+      1960,
+      2016
+     ],
+     "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1960–2016 (57 yrs); min 0.01, max 0.02; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+     "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+     "source_ids": [
+      "COW_NMC6",
+      "WB_WDI_API"
+     ],
+     "flag": "[PARTIAL COVERAGE] era 1903–2026; scored on 1960–2016 only; years outside are null (pre-state, pre-1816 or post-2016)",
+     "cite": "COW NMC v6.0 CINC, 1960–2016"
+    }
+   ]
+  }
+ ],
+ "power_editorial": [
+  {
+   "era_id": "kingdom-of-kush-napatan-period",
+   "actor": "Kush (25th Dynasty, c.713–664 BCE)",
+   "score": 0.9,
+   "basis": "GHA II: Shabaka brought the entire Nile valley to the Delta under Kush",
+   "method": "editorial ordinal: 0.9 = ruler of the whole named region",
+   "badge": "EDITORIAL",
+   "note": "copied unchanged from data/eras; not comparable with power_cinc_share; not rescaled"
+  },
+  {
+   "era_id": "mahdist-state-mahdiyya",
+   "actor": "Mahdist state (within Sudan, 1885–98)",
+   "score": 0.9,
+   "basis": "GHA VII ch.4: 'a powerful and militant state that dominated the Sudan for fourteen years'",
+   "method": "editorial ordinal: 0.9 = dominant power over the named region",
+   "badge": "EDITORIAL",
+   "note": "copied unchanged from data/eras; not comparable with power_cinc_share; not rescaled"
   }
  ]
 }
