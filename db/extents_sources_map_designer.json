@@ -677,6 +677,34 @@
      "ja-aliyyin-kingdom-sa-dab-funj-vassal"
     ],
     "note": "Gazetteer anchor only; range from HD2011 p.4."
+   },
+   "WD:Q740865": {
+    "id": "WD:Q740865",
+    "author": "Wikidata contributors",
+    "title": "Wadi Halfa (Q740865), city in Northern state, Sudan; 21.792778N 31.3775E",
+    "publisher": "Wikimedia Foundation",
+    "date": "retrieved 2026-10-24",
+    "url": "https://www.wikidata.org/wiki/Q740865",
+    "license": "CC0 1.0",
+    "verification": "wbgetentities API read 2026-10-24; GeoNames 364132",
+    "used_by": [
+     "c-group-lower-nubia"
+    ],
+    "note": "Gazetteer anchor only."
+   },
+   "WD:Q571215": {
+    "id": "WD:Q571215",
+    "author": "Wikidata contributors",
+    "title": "Suakin (Q571215), Red Sea port, Sudan; 19.1025N 37.33E",
+    "publisher": "Wikimedia Foundation",
+    "date": "retrieved 2026-10-24",
+    "url": "https://www.wikidata.org/wiki/Q571215",
+    "license": "CC0 1.0",
+    "verification": "wbgetentities API read 2026-10-24; GeoNames 367544",
+    "used_by": [
+     "beja-red-sea-hills-peoples"
+    ],
+    "note": "Gazetteer anchor only."
    }
   }
  }
