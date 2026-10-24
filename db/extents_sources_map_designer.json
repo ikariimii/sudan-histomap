@@ -649,6 +649,34 @@
      "abdallab-chiefdom-funj-vassal"
     ],
     "note": "Gazetteer anchor only; the seat attribution is GHA5_CH7 p.172 (\"Kerri\")."
+   },
+   "WD:Q753897": {
+    "id": "WD:Q753897",
+    "author": "Wikidata contributors",
+    "title": "Atbarah River (Q753897); mouth coordinates 17.678333N 33.971944E (P625, applies to part: river mouth)",
+    "publisher": "Wikimedia Foundation",
+    "date": "retrieved 2026-10-24",
+    "url": "https://www.wikidata.org/wiki/Q753897",
+    "license": "CC0 1.0",
+    "verification": "wbgetentities API read 2026-10-24; GeoNames 343242 (river)",
+    "used_by": [
+     "ja-aliyyin-kingdom-sa-dab-funj-vassal"
+    ],
+    "note": "Gazetteer anchor only; range from HD2011 p.4."
+   },
+   "WD:Q107003278": {
+    "id": "WD:Q107003278",
+    "author": "Wikidata contributors",
+    "title": "Khaniq as Sablukah / Sabaluqa Gorge (Q107003278), gorge in Sudan; coordinates 16.3075N 32.6436E",
+    "publisher": "Wikimedia Foundation",
+    "date": "retrieved 2026-10-24",
+    "url": "https://www.wikidata.org/wiki/Q107003278",
+    "license": "CC0 1.0",
+    "verification": "wbgetentities API read 2026-10-24 (P31 gorge); related Q71109996 sixth cataract, GeoNames 367866",
+    "used_by": [
+     "ja-aliyyin-kingdom-sa-dab-funj-vassal"
+    ],
+    "note": "Gazetteer anchor only; range from HD2011 p.4."
    }
   }
  }
