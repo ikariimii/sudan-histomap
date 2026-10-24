@@ -2,6 +2,16 @@
 
 Site changes for sudan.indomando.com (built from `web/` by `web/build.py`). Newest first.
 
+## 2026-10-24 (regional power visual, mobile legibility)
+
+- Regional power: the CINC line shows the 'CINC share' label and the COW NMC v6.0 citation from the data's own source ID (COW_NMC6). Where the data's null_reason is 'data ends 2016' (war era, December revolution), it says so (Arabic 'تنتهي البيانات عام ٢٠١٦').
+- Editorial scores in `regional_power` (Kush 25th Dynasty 0.9, Mahdist state 0.9) are shown separately, with a blue EDITORIAL badge (Arabic 'تقييم تحريري', pending native review), a 0–1 bar, and the data's basis and method. Unscored actors keep 'Research in progress'.
+- Geometry states: eras with sourced points but no polygon (28) now show 'Located by points, no sourced border' (Arabic pending native review) on the map, the era page and era lists. 'Border not yet mapped' is kept for the 9 eras with no geometry at all.
+- Map badges use 11px text.
+- Era pages: where the data has the approved, merged `power_cinc_share` (modern eras only), a compact bar shows each actor's CINC share, with years, method flag and citation (Arabic numerals on Arabic pages). Rows without a value keep 'Research in progress' with the data's null reason. Proposal scores (db/regional_power_scores_proposal.*) are not used.
+- Chapter pages with scored eras get a collapsible comparison strip.
+- Map: on narrow screens the REPORTED/CONTESTED/SINGLE-SOURCE map badge text is scaled up so it stays legible; Arabic map tooltip source citations are isolated left-to-right, so mixed-direction punctuation no longer jumbles.
+
 ## 2026-10-24 (single-source badge)
 
 - Points the data badges 'SINGLE-SOURCE (Wikipedia)' (Pi-Ramesses, Kurgus frontier) show an amber badge in the same style as REPORTED and CONTESTED; Arabic 'مصدر واحد' is pending native review.

@@ -52,9 +52,13 @@ main li,main p,.note{overflow-wrap:anywhere}.src,.flags{list-style-position:insi
 .rcc{color:var(--mute);font-size:.9em}.rcbox{background:#f7f5f0;border:1px dashed #a89f8e;border-radius:6px;padding:10px 12px;color:#4a4438}.rcbox .rcb{margin-inline-end:6px}
 .eras b.wipn{font-weight:500;color:var(--mute);text-decoration:underline dashed #a89f8e}
 .mapmore{font-size:13px;color:var(--mute);margin:4px 0}
-.repb{display:inline-block;background:#b3261e;color:#fff;font:bold 10px/1.5 system-ui,sans-serif;letter-spacing:.02em;padding:0 5px;border-radius:3px;vertical-align:middle}
+.repb{display:inline-block;background:#b3261e;color:#fff;font:bold 11px/1.5 system-ui,sans-serif;letter-spacing:.02em;padding:0 5px;border-radius:3px;vertical-align:middle}
 .mm{white-space:nowrap}.listed{padding-inline-start:18px}.listed li{margin:4px 0}
 .arrev{display:inline-block;font:12px/1.6 system-ui,sans-serif;color:#5d5548;border:1px solid #cfc6b5;border-radius:999px;padding:0 7px;background:#faf7f0;vertical-align:middle}.arrev.en{font-size:11px;opacity:.75;border-style:dashed}
 .extnote{color:var(--muted,#6b6257);font-size:.95em}
 .repb.cont{background:#7a3db8}
 .repb.single{background:#a86b00}
+.cinc{list-style:none;padding:0}.cinc li{margin:.5em 0;line-height:1.5}.ca{font-weight:600}.cbar{display:inline-block;width:min(220px,50vw);height:10px;background:#ece4d6;border-radius:5px;vertical-align:middle;overflow:hidden}.cbar>span{display:block;height:100%;border-radius:5px}.cv{font-variant-numeric:tabular-nums}.cf{color:#6b6257}.cstrip{margin:1em 0}
+
+.repb.edit{background:#2f5d8a;color:#fff}.cl{white-space:nowrap;font-size:.85em;color:#5a5048;margin-inline-end:.3em}
+.geob{display:inline-block;font:600 11px/1.5 system-ui,sans-serif;padding:0 5px;border-radius:9px;border:1px dashed #c9a24a;background:#fff3d6;color:#6b4a12;vertical-align:middle}.geob.pts{border-color:#5b7fa6;background:#eef3f8;color:#2f4f73}
