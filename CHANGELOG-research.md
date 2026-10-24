@@ -44,3 +44,8 @@
 - db/regional_power_scores_proposal.json and .md use method RP-CINC-SHARE-1: the mean share of COW NMC v6 CINC within the 8-state set over the years each era overlaps 1816–2016. WDI values are included for context only.
   - 13 eras are scored. December-revolution and the 2023 war era are null because NMC ends in 2016.
   - The method NEEDS INNOVATION MANAGER SIGN-OFF, because these computed scores are not comparable with the existing editorial ordinal scores.
+
+## Historian Pass 21b – 2026-10-24
+- db/egypt_points_citecheck.md: I checked the 13 points in the six ancient-Egypt eras from f23668a against the GHA II PDF. All 12 GHA page cites are OK and none need correcting. One precision note: Semna p.240 is in ch.8. Pi-Ramesses cites Wikipedia only, with no page.
+- research_patch.py Pass 21b registers 35 sources from db/extents_sources_modern_neighbours.json meta.sources into REFS (Pass 19 style): OHM_*, IBS*, ICJ_LBY_TCD1994, UNSC_RES915_1994, UNGA_RES289IV/390V, EEBC2002, PCA_ABYEI2009, LOC_TCD1988, EXT_NE_ADMIN0, EXT_GEOBOUNDARIES_NB. Three are tagged [VERIFY]: EEBC2002, LOC_TCD1988 and EXT_GEOBOUNDARIES_NB.
+- Checks: verify_citations ran 136 checks with 0 problems. checkurls shows only the known pre-existing 403/406/429/000 hosts.
