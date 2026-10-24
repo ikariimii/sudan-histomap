@@ -1,0 +1,64 @@
+{
+ "meta": {
+  "owner": "Sudan Historian",
+  "built": "2026-10-24",
+  "status": "fill file for Map Designer; not in sudan.db; no extents files written",
+  "sources": {
+   "GHA1": {
+    "id": "GHA1",
+    "author": "J. Ki-Zerbo (ed.)",
+    "title": "General History of Africa, I: Methodology and African Prehistory",
+    "publisher": "UNESCO / Heinemann / University of California Press",
+    "year": "1981",
+    "url": "https://unesdoc.unesco.org/ (UNESCO open access); copy read: https://sahistory.org.za/sites/default/files/archive_files/general_history_africa_i.pdf",
+    "pages": "",
+    "lang": "en",
+    "note": "Read on the box 2026-10-24 (pdftotext); printed pages taken from the running page numbers. NOT yet in the periods.json registry; register before citing on the site"
+   }
+  }
+ },
+ "anchors": [
+  {
+   "era_id": "khartoum-neolithic-shaheinab",
+   "place": "Esh Shaheinab",
+   "cite": "GHA1_CH19",
+   "page": "p.480",
+   "quote": "Esh Shaheinab, in the Sudan, which is situated on an old terrace slightly to the north of the confluence of the Blue and White Niles",
+   "also": [
+    "GHA1_CH25 pp.642–643 (Shaheinabian)",
+    "GHA1_CH28 p.720"
+   ],
+   "gazetteer": "wikidata:Q109284524",
+   "lat": 16.0624,
+   "lon": 32.5394,
+   "flags": [
+    "SINGLE-SOURCE (GHA I)",
+    "coordinates from Wikidata P625, precision 0.0001"
+   ]
+  },
+  {
+   "era_id": "khartoum-neolithic-shaheinab",
+   "place": "Kadero",
+   "cite": "GHA1_CH19",
+   "page": "p.480",
+   "quote": "At the Kadero site, which is located nearby and is very similar in the type of material discovered",
+   "also": [
+    "GHA1_CH25 p.643 ('The Kadero site currently being excavated, which is of a later period, has yielded burials')"
+   ],
+   "gazetteer": "wikidata:Q109284535",
+   "lat": 15.75,
+   "lon": 32.55,
+   "flags": [
+    "APPROXIMATE – Wikidata P625 precision 0.01",
+    "SINGLE-SOURCE (GHA I)"
+   ]
+  }
+ ],
+ "not_found": [
+  {
+   "era_id": "khartoum-mesolithic-early-khartoum",
+   "place": "Khartoum hospital site (Early Khartoum type site)",
+   "reason": "GHA I p.720 (ch.28) says only 'a site in Khartoum itself', and p.642 (ch.25) 'the excavations at Khartoum'. The word 'hospital' does not occur in GHA I. Arkell's Early Khartoum (1949) and Shaheinab (1953) are not open access (OUP; only paywalled reviews found). Krzyżaniak's open PAM 1 (1990) pp.26–28 report on Kadero gives no coordinates, and the Heidelberg Propylaeum Kadero volume (which states coordinates) was behind a bot wall and was not read. No point is given and no town coordinate is inferred."
+  }
+ ]
+}
