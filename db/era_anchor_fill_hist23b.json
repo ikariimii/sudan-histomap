@@ -60,5 +60,37 @@
    "place": "Khartoum hospital site (Early Khartoum type site)",
    "reason": "GHA I p.720 (ch.28) says only 'a site in Khartoum itself', and p.642 (ch.25) 'the excavations at Khartoum'. The word 'hospital' does not occur in GHA I. Arkell's Early Khartoum (1949) and Shaheinab (1953) are not open access (OUP; only paywalled reviews found). Krzyżaniak's open PAM 1 (1990) pp.26–28 report on Kadero gives no coordinates, and the Heidelberg Propylaeum Kadero volume (which states coordinates) was behind a bot wall and was not read. No point is given and no town coordinate is inferred."
   }
+ ],
+ "contested_notes": [
+  {
+   "era_id": "republic-of-south-sudan",
+   "place": "Ilemi Triangle",
+   "badge": "CONTESTED",
+   "flags": [
+    "VERIFY"
+   ],
+   "text_en": "Disputed between Kenya and South Sudan; administered by Kenya. [VERIFY]",
+   "cite": null,
+   "cite_null_reason": "No registered source read by the Historian covers Ilemi; cite left to the Analyst.",
+   "gazetteer": "wikidata:Q973527",
+   "lat": 4.9913,
+   "lon": 35.3275,
+   "geometry": "point only; no limits drawn"
+  },
+  {
+   "era_id": "republic-of-south-sudan",
+   "also_eras": [
+    "al-bashir-ncp-ingaz-regime"
+   ],
+   "place": "Kafia Kingi",
+   "badge": "CONTESTED",
+   "text_en": "Kafia Kingi is claimed by both Sudan and South Sudan. The OHM relations for the two states overlap there, so the overlap reflects the dispute, not an error in either polygon. Show as a contested point, and don't assign it to either side.",
+   "cite": "EXT_RVI_KAFIA",
+   "cite_note": "Registered by the Map Designer (see db/extents_sources_modern_neighbours.json); not re-read by the Historian.",
+   "gazetteer": "wikidata:Q844262",
+   "lat": 9.273123,
+   "lon": 24.417404,
+   "geometry": "point only; no extents edited"
+  }
  ]
 }
