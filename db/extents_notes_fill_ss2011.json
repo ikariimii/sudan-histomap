@@ -1,0 +1,168 @@
+{
+ "meta": {
+  "owner": "Sudan Historian",
+  "built": "2026-10-24",
+  "status": "notes only; no extents files written",
+  "matches": [
+   "42cd6d9",
+   "e7bd3eb",
+   "7b070d0"
+  ],
+  "ar_status": "Arabic text pending native-speaker review."
+ },
+ "notes": [
+  {
+   "outline": "sudan-1956-2011",
+   "era_ids": [
+    "independent-sudan-first-parliamentary-period",
+    "abboud-military-regime",
+    "second-parliamentary-period",
+    "nimeiry-era-democratic-republic-of-sudan",
+    "transitional-third-parliamentary-period",
+    "al-bashir-ncp-ingaz-regime"
+   ],
+   "ohm": [
+    "2801037",
+    "2926748",
+    "2926753"
+   ],
+   "text_en": "Republic of Sudan national outline, 1 Jan 1956 to 9 July 2011. It includes the south (today South Sudan) until South Sudan became independent on 9 July 2011. In al-bashir-ncp-ingaz-regime (1989–2019) the outline changes on that date.",
+   "text_ar": "الحدود الوطنية لجمهورية السودان من 1 يناير 1956 حتى 9 يوليو 2011، وتشمل الجنوب (جنوب السودان حالياً) حتى استقلاله في 9 يوليو 2011. وفي حقبة الإنقاذ (1989–2019) يتغير الخط في ذلك التاريخ.",
+   "cite": [
+    {
+     "source": "EXT_OHM",
+     "page": "",
+     "relations": [
+      "2801037",
+      "2926748",
+      "2926753"
+     ],
+     "read": "registered by the Map Designer; geometry not re-read by the Historian"
+    },
+    {
+     "source": "UNSC1996",
+     "page": "p.1 (preamble)",
+     "quote": "Welcoming the establishment of the Republic of South Sudan on 9 July 2011 upon its proclamation as an independent state",
+     "read": "read by the Historian 2026-10-24"
+    }
+   ],
+   "badge": null
+  },
+  {
+   "outline": "sudan-post-2011",
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime",
+    "december-revolution-transition",
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "ohm": [
+    "2801039"
+   ],
+   "text_en": "Republic of Sudan national outline from 9 July 2011. It excludes South Sudan, which is shown as a separate neighbour era. The Abyei Area is cut out and shown as a CONTESTED point. Kafia Kingi (administered by Sudan) stays inside both OHM outlines and is shown only as a CONTESTED point. The war-era outline is national only; SAF/RSF control areas are not traced.",
+   "text_ar": "الحدود الوطنية لجمهورية السودان منذ 9 يوليو 2011، ولا تشمل جنوب السودان (حقبة دولة مجاورة مستقلة). تُستثنى منطقة أبيي وتظهر نقطة متنازعاً عليها؛ وتبقى كافيا كنجي (التي يديرها السودان) داخل حدود الدولتين في OHM وتظهر نقطة متنازعاً عليها فقط. حدود حقبة الحرب وطنية فقط دون رسم مناطق سيطرة الجيش والدعم السريع.",
+   "cite": [
+    {
+     "source": "EXT_OHM",
+     "page": "",
+     "relations": [
+      "2801039"
+     ],
+     "read": "registered by the Map Designer; geometry not re-read by the Historian"
+    },
+    {
+     "source": "UNSC1996",
+     "page": "p.1 (preamble)",
+     "quote": "Welcoming the establishment of the Republic of South Sudan on 9 July 2011 upon its proclamation as an independent state",
+     "read": "read by the Historian 2026-10-24"
+    },
+    {
+     "source": "EXT_RVI_KAFIA",
+     "page": "",
+     "read": "registered by the Map Designer; not re-read by the Historian"
+    }
+   ],
+   "badge": "CONTESTED",
+   "contested_points": [
+    {
+     "place": "Abyei Area",
+     "gazetteer": "wikidata:Q336494",
+     "cite": null,
+     "cite_null_reason": "no source on Abyei read by the Historian; see Map Designer 42cd6d9"
+    },
+    {
+     "place": "Kafia Kingi",
+     "gazetteer": "wikidata:Q844262",
+     "cite": {
+      "source": "EXT_RVI_KAFIA",
+      "page": "",
+      "read": "registered by the Map Designer; not re-read by the Historian"
+     }
+    }
+   ]
+  },
+  {
+   "outline": "south-sudan",
+   "era_ids": [
+    "republic-of-south-sudan"
+   ],
+   "ohm": [
+    "2801038"
+   ],
+   "text_en": "Republic of South Sudan national outline from independence on 9 July 2011. Abyei is cut out as a CONTESTED point. The Ilemi Triangle area (Natural Earth line) is cut out and shown as a CONTESTED point: disputed between South Sudan and Kenya and administered by Kenya. Kafia Kingi is a CONTESTED point covered by both OHM outlines.",
+   "text_ar": "الحدود الوطنية لجمهورية جنوب السودان منذ الاستقلال في 9 يوليو 2011. تُستثنى أبيي نقطةً متنازعاً عليها، ويُستثنى مثلث إليمي (خط Natural Earth) ويظهر نقطة متنازعاً عليها بين جنوب السودان وكينيا التي تديره، وكافيا كنجي نقطة متنازع عليها تغطيها حدود الدولتين في OHM.",
+   "cite": [
+    {
+     "source": "EXT_OHM",
+     "page": "",
+     "relations": [
+      "2801038"
+     ],
+     "read": "registered by the Map Designer; geometry not re-read by the Historian"
+    },
+    {
+     "source": "UNSC1996",
+     "page": "p.1 (preamble)",
+     "quote": "Welcoming the establishment of the Republic of South Sudan on 9 July 2011 upon its proclamation as an independent state",
+     "read": "read by the Historian 2026-10-24"
+    },
+    {
+     "source": "ILEMI_PCGN_SSD2024",
+     "page": "p.3, section 'Ilemi Triangle'",
+     "read": "registered via research_patch Pass 25; quoted entry read"
+    },
+    {
+     "source": "EXT_RVI_KAFIA",
+     "page": "",
+     "read": "registered by the Map Designer; not re-read by the Historian"
+    }
+   ],
+   "badge": "CONTESTED",
+   "contested_points": [
+    {
+     "place": "Ilemi Triangle",
+     "gazetteer": "wikidata:Q973527",
+     "cite": {
+      "source": "ILEMI_PCGN_SSD2024",
+      "page": "p.3, section 'Ilemi Triangle'",
+      "read": "registered via research_patch Pass 25; quoted entry read"
+     }
+    },
+    {
+     "place": "Abyei Area",
+     "gazetteer": "wikidata:Q336494",
+     "cite": null,
+     "cite_null_reason": "no source on Abyei read by the Historian"
+    },
+    {
+     "place": "Kafia Kingi",
+     "gazetteer": "wikidata:Q844262",
+     "cite": {
+      "source": "EXT_RVI_KAFIA",
+      "page": "",
+      "read": "registered by the Map Designer; not re-read by the Historian"
+     }
+    }
+   ]
+  }
+ ]
+}
