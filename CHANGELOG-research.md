@@ -81,3 +81,7 @@
 - Applied the 11 badges exactly as proposed (CONTESTED / SINGLE-SOURCE / REPORTED; existing VERIFY kept); french-chad 'allegedly'/'[VERIFY; allegation]' replaced by [VERIFY] [CONTESTED]; no denials added, no other wording changed.
 - Flag hygiene: stale 'left null'/'null reason' flags removed where a field is filled (incl. british-occupied Egypt economy); Ali Dinar's 4 culture null reasons merged into one.
 - Full rebuild incl. web/build.py; data/eras/all.json regenerated after the era files.
+
+## Pass 23b (Historian): research_patch.py no longer writes extents files
+- `write_era_files` no longer calls `write_extents()`. `write_extents()` and `write_extent_geojson()` are now no-ops at the end of research_patch.py, so the pipeline never writes db/extents_historic.json or db/extents/*. Map Designer owns those files.
+- Checked across a full rebuild: db/extents_historic.json kept 62 items and sha256 1a70489b…c510c0, and every db/extents/* file hash was unchanged.
