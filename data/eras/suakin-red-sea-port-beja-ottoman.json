@@ -23,14 +23,21 @@
    "lon": 37.33
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "Arab merchants settled at Sawakin in the 8th century (GHA III ch.3, p.82). The Mamluks took it a few years before 1272 (GHA IV ch.16, p.402); in 1264–5 Baybars punished its ruler, later made him the Mamluk representative, and set an annual tribute; the Mamluks retook it in the mid-15th century (p.418; see also ch.15, p.381). Özdemir put Sawakin under Ottoman suzerainty, and with Massawa (1557) it formed the province of Habesh; in 1571 the Funj, or the Beja, besieged it for three months (GHA V ch.6, p.175). Under the Mahdiyya, Osman Digna held the east except Sawakin and the Berber–Sawakin road (GHA VII ch.4, p.76).",
+ "geopolitics_ar": "استقر تجار عرب في سواكن في القرن الثامن (تاريخ أفريقيا العام III، الفصل 3، ص82). واستولى عليها المماليك قبل 1272 ببضع سنين (IV، الفصل 16، ص402)؛ وفي 1264–1265 عاقب بيبرس حاكمها ثم جعله ممثلاً للمماليك وفرض جزية سنوية، واستعادها المماليك في منتصف القرن الخامس عشر (ص418؛ وانظر الفصل 15، ص381). ووضع أوزدمير سواكن تحت السيادة العثمانية، وشكّلت مع مصوع (1557) ولاية الحبش؛ وفي 1571 حاصرها الفونج، أو البجا، ثلاثة أشهر (V، الفصل 6، ص175). وفي عهد المهدية سيطر عثمان دقنة على الشرق ما عدا سواكن وطريق بربر–سواكن (VII، الفصل 4، ص76). [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "Sawakin grew as a Muslim merchant town where Arabs ran the trade and Beja chiefs took shares (GHA IV ch.16, p.417). By the Funj period, the Hadariba led its trade, and the Ottomans chose the local amir from among them (GHA V ch.7, pp.177, 184).",
+ "culture_dominance_ar": "نمت سواكن مدينةً تجارية إسلامية يدير فيها العرب التجارة ويأخذ زعماء البجا حصصاً منها (تاريخ أفريقيا العام IV، الفصل 16، ص417). وبحلول عهد الفونج كان الحضارمة يتصدّرون تجارتها، واختار العثمانيون الأمير المحلي من بينهم (V، الفصل 7، ص177 و184). [WORKING TRANSLATION – needs native Arabic review]",
+ "economy_en": "From the Fatimids until the Portuguese, the Red Sea was the main route to India; Muslim merchants developed 'Aydhab and Sawakin, and Sawakin was probably Nubia's main outlet (GHA IV ch.16, pp.417–418). Baybars's tribute was 80 slaves, 300 camels and 30 kintars of ivory a year (p.418). Under the Funj, Sawakin was Sennar's main outlet by the 'Sudan Road' (GHA V ch.6, p.175; ch.7, p.181). The Hadariba traded slaves from Shendi for Indian goods, making Sawakin the main slave centre after Cairo and Massawa (ch.7, p.184). In the 19th century a railway from Suakin to Khartoum was planned (GHA VI ch.13, p.334).",
+ "economy_ar": "من عهد الفاطميين حتى وصول البرتغاليين كان البحر الأحمر الطريق الرئيسي إلى الهند؛ وطوّر التجار المسلمون عيذاب وسواكن، وكانت سواكن على الأرجح المنفذ الرئيسي للنوبة (تاريخ أفريقيا العام IV، الفصل 16، ص417–418). وكانت جزية بيبرس 80 رأساً من الرقيق و300 جمل و30 قنطاراً من العاج سنوياً (ص418). وفي عهد الفونج كانت سواكن المنفذ الرئيسي لسنار عبر «طريق السودان» (V، الفصل 6، ص175؛ الفصل 7، ص181). وبادل الحضارمة الرقيق القادم من شندي بالبضائع الهندية، فصارت سواكن أكبر مركز للرقيق بعد القاهرة ومصوع (الفصل 7، ص184). وفي القرن التاسع عشر خُطط لسكة حديد من سواكن إلى الخرطوم (VI، الفصل 13، ص334). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA3_CH3",
+  "GHA4_CH15",
+  "GHA4_CH16",
+  "GHA5_CH6",
+  "GHA5_CH7",
+  "GHA6_CH14",
+  "GHA7_CH4",
   "HD2011",
   "WP:Suakin"
  ],
@@ -38,10 +45,10 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "1571 siege attributed to the Funj or the Beja – sources differ (GHA V ch.6, p.175)",
+  "Tribute figures (80 slaves, 300 camels, 30 kintars ivory) are single-source (GHA IV ch.16, p.418)"
  ],
- "curated": false
+ "curated": true
 }

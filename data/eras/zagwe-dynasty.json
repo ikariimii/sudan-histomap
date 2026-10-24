@@ -19,14 +19,16 @@
    "lon": 39.04
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "In the late 10th century, when a queen from the south sacked the Aksumite lands, the Ethiopian king appealed to the Coptic patriarch through the Nubian king George (Djirdjis) for a new metropolitan (GHA III ch.19, pp.565–566). The Zagwe dynasty then replaced the old line and moved the centre south while keeping many Aksumite traditions; it peaked in the 12th–13th centuries under kings such as Lalibela (p.568). A Zagwe expedition against Damot failed (GHA IV ch.17, p.431). In 1270, Yikunno-Amlak, backed by Shoan Christians and Muslims, overthrew the Zagwe (pp.430, 433).",
+ "geopolitics_ar": "في أواخر القرن العاشر، حين اجتاحت ملكة قادمة من الجنوب الأراضي الأكسومية، لجأ الملك الإثيوبي إلى البطريرك القبطي عبر ملك النوبة جرجس طالباً مطراناً جديداً (تاريخ أفريقيا العام III، الفصل 19، ص565–566). ثم حلّت سلالة زاغوي محل السلالة القديمة ونقلت المركز جنوباً مع الحفاظ على كثير من تقاليد أكسوم، وبلغت ذروتها في القرنين الثاني عشر والثالث عشر في عهد ملوك منهم لاليبيلا (ص568). وفشلت حملة زاغوية على داموت (IV، الفصل 17، ص431). وفي 1270 أطاح يكونو أملاك، بدعم من مسيحيي شوا ومسلميها، بسلالة زاغوي (ص430 و433). [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "The See of Aksum had been held since the 4th century by a Coptic bishop from Alexandria, and Ethiopia used the Egyptian liturgy (GHA III ch.19, p.565). Ge'ez was the language of court and church (p.568), and the later churches of Lalibela bear wall paintings (p.573). The Zagwe homeland of Wag and Lasta was Agew-speaking (GHA IV ch.17, p.425).",
+ "culture_dominance_ar": "كان كرسي أكسوم منذ القرن الرابع يشغله أسقف قبطي من الإسكندرية، واستخدمت إثيوبيا الليتورجيا المصرية (تاريخ أفريقيا العام III، الفصل 19، ص565). وكانت الجعزية لغة البلاط والكنيسة (ص568)، وتحمل كنائس لاليبيلا اللاحقة رسوماً جدارية (ص573). وكانت موطن الزاغوي في واغ ولاستا ناطقة بالأغو (IV، الفصل 17، ص425). [WORKING TRANSLATION – needs native Arabic review]",
+ "economy_en": "By the mid-13th century the Zagwe kingdom no longer used only the Dahlak sultanate as its Red Sea outlet and had begun to use the Zeila route through its southern provinces (GHA IV ch.17, p.430). Muslims controlled the caravan trade from the Gulf of Aden, and Christians in Shoa and Amhara acted as middlemen to the Zagwe heartland (p.432). The source gives no Zagwe trade with the Sudan.",
+ "economy_ar": "بحلول منتصف القرن الثالث عشر لم تعد مملكة زاغوي تعتمد على سلطنة دهلك وحدها منفذاً إلى البحر الأحمر، وبدأت تستخدم طريق زيلع عبر أقاليمها الجنوبية (تاريخ أفريقيا العام IV، الفصل 17، ص430). وسيطر المسلمون على تجارة القوافل من خليج عدن، وعمل مسيحيو شوا وأمهرة وسطاء نحو قلب المملكة (ص432). ولا يذكر المصدر تجارة زاغوية مع السودان. [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA3_CH19",
+  "GHA4_CH17",
   "GHAIV",
   "WP:Zagwe_dynasty"
  ],
@@ -34,10 +36,10 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "No direct Zagwe–Nubia contact is documented in GHA III/IV; the Nubian king's role (p.566) is the pre-Zagwe 10th-century crisis",
+  "Zagwe origin story is described by Mekouria as 'romanticized' tradition (GHA III ch.19, p.568)"
  ],
- "curated": false
+ "curated": true
 }

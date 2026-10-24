@@ -32,14 +32,18 @@
    "lon": 38.74
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "The Solomonids sent slaves, gold and gifts to the Mamluk sultans whenever they needed a new Egyptian bishop, but grew more aggressive after Amde-Siyon (1314–44). Al-Maqrizi reports that Dawit (1380–1412) invaded the Aswan region (GHA IV ch.17, p.450). Ethiopia fought two border wars with the Funj: one in 1618–19, which Ethiopia won, and one in 1744, when Iyasu II was routed on the Dindera (GHA V ch.7, p.178). Yohannes IV demanded Matamma and Bogos back from Egypt (GHA VI ch.15, p.409), agreed in 1884 to help evacuate Egyptian garrisons from the Sudan, and was killed fighting the Mahdists at Matamma on 10 March 1889 (GHA VII ch.11, pp.267–268).",
+ "geopolitics_ar": "أرسل السليمانيون الرقيق والذهب والهدايا إلى سلاطين المماليك كلما احتاجوا إلى أسقف مصري جديد، لكنهم صاروا أكثر عدوانية بعد عمدة صهيون (1314–1344). ويذكر المقريزي أن داويت (1380–1412) غزا منطقة أسوان (تاريخ أفريقيا العام IV، الفصل 17، ص450). وخاضت إثيوبيا حربين حدوديتين مع الفونج: الأولى في 1618–1619 وانتهت لصالح إثيوبيا، والثانية في 1744 حين هُزم إياسو الثاني على نهر الدندر (V، الفصل 7، ص178). وطالب يوحنا الرابع مصر بإعادة المتمة وبوغوس (VI، الفصل 15، ص409)، ووافق في 1884 على المساعدة في إجلاء الحاميات المصرية من السودان، وقُتل وهو يقاتل المهديين في المتمة في 10 مارس 1889 (VII، الفصل 11، ص267–268). [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "The Church stayed spiritually dependent on Alexandria and was led by Egyptian bishops, though a late-15th-century movement tried, and failed, to break away (GHA IV ch.17, pp.445–446). To the Christians of Ethiopia, Sennar was the main land route to the outside world; new bishops from Egypt and European missionaries came that way (GHA V ch.7, p.178).",
+ "culture_dominance_ar": "بقيت الكنيسة تابعة روحياً للإسكندرية ويرأسها أساقفة مصريون، وإن حاولت حركة في أواخر القرن الخامس عشر الانفصال وفشلت (تاريخ أفريقيا العام IV، الفصل 17، ص445–446). وكانت سنار بالنسبة إلى مسيحيي إثيوبيا الطريق البري الرئيسي إلى العالم الخارجي؛ ومنها جاء الأساقفة الجدد من مصر والمبشرون الأوروبيون (V، الفصل 7، ص178). [WORKING TRANSLATION – needs native Arabic review]",
+ "economy_en": "Amde-Siyon's conquests gave the kingdom control over the inland end of the Gulf of Aden trade routes (GHA IV ch.17, p.434). Funj–Ethiopian relations show 'positive co-operation and economic interdependence' (GHA V ch.7, p.178). Ethiopian goods reached Sennar, and later Shendi, which Burckhardt called the market for Ethiopian and Fur commerce (p.183). Ethiopians were among the slaves sold at Shendi (p.184).",
+ "economy_ar": "منحت فتوحات عمدة صهيون المملكةَ السيطرة على الطرف الداخلي لطرق تجارة خليج عدن (تاريخ أفريقيا العام IV، الفصل 17، ص434). وتُظهر العلاقات بين الفونج وإثيوبيا «تعاوناً إيجابياً وترابطاً اقتصادياً» (V، الفصل 7، ص178). ووصلت البضائع الإثيوبية إلى سنار، ثم إلى شندي التي وصفها بوركهارت بأنها سوق التجارة الإثيوبية والفوراوية (ص183). وكان بين الرقيق المبيعين في شندي إثيوبيون (ص184). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA4_CH17",
+  "GHA5_CH7",
+  "GHA6_CH15",
+  "GHA7_CH11",
   "GHAIV",
   "GHAV",
   "GHA6_CH14",
@@ -51,10 +55,10 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "SINGLE-SOURCE – Dawit's invasion of the Aswan region rests on al-Maqrizi as quoted in GHA IV ch.17, p.450; Seyfe-Ar'ad's march to the Nile rests on a 15th-c. Italian traveller (same page)",
+  "1889 Matamma: Mahdist side not read in this pass"
  ],
- "curated": false
+ "curated": true
 }

@@ -19,14 +19,16 @@
    "lon": 15.6
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "Lange calls Kanem the first and largest state between the Nile and the Niger (GHA III ch.15, p.447). Al-Khuwarizmi (c. 840) mapped the Zaghawa south of the Fezzan and south of Nubian 'Alwa (p.447). In the 13th century the Zaghawa, pushed out of power in Kanem, pressed on the Daju of Darfur at the south end of the Darfur–Egypt route (p.440). Kanem then reached its height: in al-'Umari's day its empire ran from Zella 'on the Egyptian side' to Kaka (GHA IV ch.10, p.252). Whether it reached Darfur is not certain (p.252).",
+ "geopolitics_ar": "يصف لانغ كانم بأنها أول دولة وأكبرها بين النيل والنيجر (تاريخ أفريقيا العام III، الفصل 15، ص447). ووضع الخوارزمي (نحو 840) الزغاوة على خريطته جنوب فزان وجنوب مملكة علوة النوبية (ص447). وفي القرن الثالث عشر ضغط الزغاوة، بعد إقصائهم عن الحكم في كانم، على الداجو في دارفور عند الطرف الجنوبي لطريق دارفور–مصر (ص440). وبلغت كانم أوجها حينها: ففي زمن العمري امتدت من زلة «من جهة مصر» إلى كاكا (IV، الفصل 10، ص252). ولا يُعرف يقيناً إن كانت قد امتدت إلى دارفور (ص252). [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "Islam reached Kanem through Kawar, probably first in the Ibadi form carried by Berber traders (GHA III ch.15, pp.451, 459). King Hummay (1075–86) was not the first Muslim ruler; Islam had been spreading for two centuries before him (p.459). The Saharan-language peoples of Kanem, Zaghawa, Teda-Daza and Kanuri, are Nilo-Saharan speakers (p.444). The Zaghawa are still recognized as a distinct people by the Arabs of Chad and the Sudan (p.440).",
+ "culture_dominance_ar": "وصل الإسلام إلى كانم عبر كوار، وعلى الأرجح أولاً في صيغته الإباضية التي حملها تجار أمازيغ (تاريخ أفريقيا العام III، الفصل 15، ص451 و459). ولم يكن الملك هُمّي (1075–1086) أول حاكم مسلم؛ فقد كان الإسلام ينتشر منذ قرنين قبله (ص459). وتتكلم شعوب كانم الناطقة باللغات الصحراوية، الزغاوة والتيدا-دازا والكانوري، لغات نيلية-صحراوية (ص444). ولا يزال عرب تشاد والسودان يعدّون الزغاوة شعباً متميزاً (ص440). [WORKING TRANSLATION – needs native Arabic review]",
+ "economy_en": "The camel, probably introduced from the Nile valley, opened Saharan crossings (GHA III ch.15, p.437). Lange conjectures that early trade with the Nile valley through Darfur and Kordofan mattered more than the Fezzan route (p.437). The king probably held a monopoly on acquiring slaves (p.459). Kawar exported alum as far as Egypt, and the Fezzan controlled both the north–south and the Egypt–west African routes (GHA IV ch.10, p.249).",
+ "economy_ar": "فتح الجمل، الذي أُدخل على الأرجح من وادي النيل، طرق عبور الصحراء (تاريخ أفريقيا العام III، الفصل 15، ص437). ويرجّح لانغ أن التجارة المبكرة مع وادي النيل عبر دارفور وكردفان كانت أهم من طريق فزان (ص437). وكان الملك على الأرجح يحتكر الحصول على الرقيق (ص459). وصدّرت كوار الشبّ حتى مصر، وتحكّمت فزان في الطريق الشمالي-الجنوبي وفي الطريق بين مصر وغرب أفريقيا معاً (IV، الفصل 10، ص249). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA3_CH15",
+  "GHA4_CH10",
   "GHA3_CH8",
   "GHAIV",
   "WP:Kanem_Empire"
@@ -35,10 +37,10 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "CONJECTURE (source's own word) – early Kanem trade with the Nile valley via Darfur/Kordofan 'more important' (GHA III ch.15, p.437)",
+  "Zaghawa identity: Lange argues the name grew with the Kanem state; the present-day Zaghawa are not the same as the medieval group (GHA IV ch.10, p.246 n.18)"
  ],
- "curated": false
+ "curated": true
 }

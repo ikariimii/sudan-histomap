@@ -23,14 +23,18 @@
    "lon": 45.33
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "GHA II gives no direct link between Saba and the Sudan; Saba reaches this story through the Horn. Kings of D'mt styled themselves 'mukarrib of D'iamat and Saba'' (GHA II ch.13, pp.353–354). Later the flow reversed: Sabaean inscriptions of the 2nd–3rd centuries record Aksumites fighting in Yemen (ch.15, p.381), and Ezana called himself king of Himyar and Saba (ch.16, p.411).",
+ "geopolitics_ar": "لا يقدّم المجلد الثاني صلة مباشرة بين سبأ والسودان؛ فسبأ تدخل هذه القصة عبر القرن الأفريقي. فقد تلقّب ملوك دعمت بـ«مكرب دعمت وسبأ» (تاريخ أفريقيا العام II، الفصل 13، ص353–354). ثم انعكس الاتجاه: إذ تسجّل نقوش سبئية من القرنين الثاني والثالث قتال الأكسوميين في اليمن (الفصل 15، ص381)، وتلقّب عيزانا بملك حمير وسبأ (الفصل 16، ص411). [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "In the Ethiopian highlands, the South Arabian period is marked by the Yeha temple, its links to Marib, and the Sabaean gods Almaqah and 'Astar (GHA II ch.13, pp.343, 345, 352). Local culture absorbed these into an 'Ethiopo-Sabaean' synthesis (p.355).",
+ "culture_dominance_ar": "في المرتفعات الإثيوبية تميّزت الفترة العربية الجنوبية بمعبد يحا وصلاته بمأرب، وبالمعبودين السبئيين ألمقه وعثتر (تاريخ أفريقيا العام II، الفصل 13، ص343 و345 و352). واستوعبت الثقافة المحلية ذلك في تركيب «إثيوبي-سبئي» (ص355). [WORKING TRANSLATION – needs native Arabic review]",
+ "economy_en": "South Arabia supplied incense to Egypt before Egyptian ships went to Punt for it directly (GHA II ch.4, p.145). No Sabaean trade with the Sudan is documented in GHA II.",
+ "economy_ar": "كانت بلاد العرب الجنوبية تورّد البخور إلى مصر قبل أن تذهب السفن المصرية إلى بونت لجلبه مباشرة (تاريخ أفريقيا العام II، الفصل 4، ص145). ولا يوثّق المجلد الثاني أي تجارة سبئية مع السودان. [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA2_CH4",
+  "GHA2_CH13",
+  "GHA2_CH15",
+  "GHA2_CH16",
   "GHA2_CH12",
   "WP:Sabaeans"
  ],
@@ -38,10 +42,10 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "INDIRECT – GHA II gives no direct Saba–Sudan link; text covers Saba's presence in the Horn and its rivalry with Aksum",
+  "SINGLE-SOURCE – each point rests on one GHA II chapter"
  ],
- "curated": false
+ "curated": true
 }

@@ -23,14 +23,19 @@
    "lon": 20.83
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "'Abd al-Karim b. Jame, who had studied in Bornu, founded Wadai in the 17th century (GHA V ch.17, p.511). Small kingdoms between Wadai and Darfur split their loyalty between the two sultanates (ch.7, p.187). Wadai paid tribute to Darfur as it had to the Tunjur, until Sultan Ya'qub stopped paying and invaded as far as Kabkabiyya; he was driven out (p.188). In the mid-18th century, Muhammad Jawda of Wadai defeated a Fur invasion and captured the Fur sultan (p.188). Tayrab of Darfur then made a treaty with Wadai that held for a hundred years (p.189). Wadai's isolation let it survive until 1911 (GHA VI ch.17, p.476).",
+ "geopolitics_ar": "أسس عبد الكريم بن جامع، الذي درس في برنو، سلطنة وداي في القرن السابع عشر (تاريخ أفريقيا العام V، الفصل 17، ص511). وكانت الممالك الصغيرة بين وداي ودارفور توزّع ولاءها بين السلطنتين (الفصل 7، ص187). ودفعت وداي الجزية لدارفور كما كانت تدفعها للتنجر، حتى أوقفها السلطان يعقوب وغزا حتى كبكابية، فطُرد (ص188). وفي منتصف القرن الثامن عشر هزم محمد جودة سلطان وداي غزواً فوراوياً وأسر سلطان الفور (ص188). ثم عقد تيراب سلطان دارفور معاهدة مع وداي دامت مئة عام (ص189). وأتاحت عزلة وداي بقاءها حتى 1911 (VI، الفصل 17، ص476). [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "Wadai fell within Bornu's political, cultural and commercial orbit (GHA V ch.17, pp.511–512). In the 19th century, the Sanusiyya brotherhood spread south along the Benghazi–Wadai route and mediated among the desert nomads (GHA VI ch.20, p.530; ch.17, p.473).",
+ "culture_dominance_ar": "وقعت وداي في فلك برنو السياسي والثقافي والتجاري (تاريخ أفريقيا العام V، الفصل 17، ص511–512). وفي القرن التاسع عشر انتشرت الطريقة السنوسية جنوباً على طريق بنغازي–وداي وتوسطت بين بدو الصحراء (VI، الفصل 20، ص530؛ الفصل 17، ص473). [WORKING TRANSLATION – needs native Arabic review]",
+ "economy_en": "Wadai's sultans promoted a direct Benghazi–Wadai route that bypassed Bornu and Darfur; by 1900 it was more vital than any other trans-Saharan route (GHA VI ch.20, p.530). It sent slaves to Egypt into the late 19th century and carried the most modern repeating rifles into the desert (p.533). The rise of this route caused Darfur's Darb al-Arba'in to decline after the mid-century (p.530). Earlier, slaves from Bornu–Wadai were already sold in the Nile valley (GHA V ch.7, p.184).",
+ "economy_ar": "شجّع سلاطين وداي طريقاً مباشراً بين بنغازي ووداي يتجاوز برنو ودارفور؛ وبحلول 1900 صار أهم طرق الصحراء الكبرى (تاريخ أفريقيا العام VI، الفصل 20، ص530). وظل ينقل الرقيق إلى مصر حتى أواخر القرن التاسع عشر، وحمل أحدث البنادق المتكررة إلى الصحراء (ص533). وأدى صعود هذا الطريق إلى تراجع درب الأربعين الدارفوري بعد منتصف القرن (ص530). وقبل ذلك كان رقيق من برنو ووداي يُباع في وادي النيل (V، الفصل 7، ص184). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA5_CH7",
+  "GHA5_CH17",
+  "GHA6_CH17",
+  "GHA6_CH20",
+  "GHA6_CH22",
   "GHAV",
   "GHA6_CH14",
   "WP:Wadai_Sultanate"
@@ -39,10 +44,9 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "Darfur–Wadai war details come from Darfur-centred narrative (GHA V ch.7); Wadai-side sources not read"
  ],
- "curated": false
+ "curated": true
 }

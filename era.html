@@ -14,6 +14,7 @@ section{background:#fffaf0;border:1px solid #c9b48a;border-radius:6px;padding:12
 .cmp{border-left:6px solid;padding:6px 10px;margin:8px 0;background:#fff;font-size:14px}
 svg text{font-family:HSerif,serif}body.ar svg text.ar{font-family:HNaskh,serif}
 .rcbox{background:#f7f5f0;border:1px dashed #a89f8e;color:#4a4438}.rcbox h2{border-bottom-color:#a89f8e}.rcb{background:#f1efe9;border:1px dashed #a89f8e;color:#5d5548}
+.arrev{display:inline-block;font:13px/1.6 HNaskh,system-ui,sans-serif;color:#4a3c28;border:1px solid #b9a37a;border-radius:999px;padding:0 8px;background:#fff6e2;vertical-align:middle}.arrev.en{font:11px/1.6 system-ui,sans-serif;opacity:.7;border-style:dashed;background:none}
 .pill{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;background:#e8dcc0;margin-inline-end:4px}
 main>*{min-width:0}svg{max-width:100%;height:auto}section{overflow-wrap:anywhere}
 @media (max-width:760px){main{grid-template-columns:1fr;padding:12px}header{flex-wrap:wrap;padding:8px 12px}h1{font-size:26px}}
@@ -39,7 +40,7 @@ else{
  const WAR={events:'الأحداث',geopolitics:'الجغرافيا السياسية',culture:'الثقافة والهيمنة','regional power':'ميزان القوى الإقليمي',sites:'المواقع',citations:'المراجع'};
  const flagBox=(what)=>`<div class="flag">⚑ ${T('Under research — no source-backed text yet for','قيد البحث — لا يوجد نص مدعوم بمصادر بعد عن')} ${AR?(WAR[what]||what):what}.${(E.flags||[]).filter(f=>f.toLowerCase().startsWith(what.split(' ')[0].toLowerCase())).map(f=>' <span dir="ltr">('+f+')</span>').join('')}</div>`;
  L.append('h1').text(AR?E.name_ar:E.name_en);
- L.append('div').attr('class','sub').html(`${AR?'<span dir="ltr">'+E.name_en+'</span> · ':''}${fy(E.start)} – ${fy(E.end)} · ${AR&&window.AR&&window.AR.streams?window.AR.streams[E.stream]||E.stream:E.stream} ${E.curated?`<span class="pill">${T('curated','محرَّر')}</span>`:`<span class="pill">${T('auto-generated','مولَّد آلياً')}</span>`} ${(E.source_langs||[]).map(l=>'<span class="tag">'+l.toUpperCase()+'</span>').join('')}`);
+ L.append('div').attr('class','sub').html(`${AR?'<span dir="ltr">'+E.name_en+'</span> · ':''}${fy(E.start)} – ${fy(E.end)} · ${AR&&window.AR&&window.AR.streams?window.AR.streams[E.stream]||E.stream:E.stream} ${E.curated?`<span class="pill">${T('curated','محرَّر')}</span>`:`<span class="pill">${T('auto-generated','مولَّد آلياً')}</span>`} ${(E.source_langs||[]).map(l=>'<span class="tag">'+l.toUpperCase()+'</span>').join('')}${(E.flags||[]).some(f=>/WORKING TRANSLATION/i.test(f))?` <span class="arrev${AR?'':' en'}" title="${T('The Arabic text is a working translation awaiting native-speaker review (flag in the data)','النص العربي ترجمة أولية بانتظار مراجعة متحدث أصلي (وسم في البيانات)')}">${T('Arabic under review','الترجمة العربية قيد المراجعة')}</span>`:''}`);
  if(E.dating_note)L.append('div').attr('class','note').attr('dir','ltr').style('text-align',AR?'right':'left').html('<b>'+T('Dating note','ملاحظة التأريخ')+':</b> '+E.dating_note);
  const sec=(title,body)=>L.append('section').html(`<h2>${title}</h2>`+body);
  const txt=(k,label)=>{const v=E[k+(AR?'_ar':'_en')];return v?`<p style="margin:0">${v}</p>`:flagBox(label)};

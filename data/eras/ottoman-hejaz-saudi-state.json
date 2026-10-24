@@ -23,14 +23,17 @@
    "lon": 46.68
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "After 1517 the Ottoman sultans, like the Mamluks before them, became guardians of Mecca and Medina and of the pilgrim routes from Africa (GHA V ch.6, p.138). Egypt fought the Wahhabis of Arabia in 1813–19, just before its 1820–3 Sudan campaign (GHA VI ch.13, fig. 13.1, p.328). In the current war, representatives of the SAF and RSF signed the Declaration of Commitment to Protect the Civilians of Sudan in Jeddah on 11 May 2023, facilitated by Saudi Arabia and the United States (JEDDAH2023).",
+ "geopolitics_ar": "بعد 1517 أصبح السلاطين العثمانيون، كالمماليك قبلهم، حماة مكة والمدينة وطرق الحج القادمة من أفريقيا (تاريخ أفريقيا العام V، الفصل 6، ص138). وحاربت مصر الوهابيين في الجزيرة العربية في 1813–1819، قبيل حملتها على السودان في 1820–1823 (VI، الفصل 13، الشكل 13.1، ص328). وفي الحرب الحالية وقّع ممثلو القوات المسلحة السودانية وقوات الدعم السريع في جدة يوم 11 مايو 2023 «إعلان الالتزام بحماية المدنيين في السودان» بتيسير من السعودية والولايات المتحدة (JEDDAH2023). [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "Most Sufi orders in the Funj Sudan came from the Hijaz. Taj al-Din al-Bahari came from Mecca in 1577, at a Sudanese merchant-pilgrim's invitation, and brought the Qadiriyya; Hammad ibn Muhammad al-Majdhub, who studied in the Hijaz, brought the Shadhiliyya (GHA V ch.7, pp.179–180). Teachers from the Hijaz also worked in the early Funj kingdom (p.179).",
+ "culture_dominance_ar": "جاءت معظم الطرق الصوفية في سودان الفونج من الحجاز. فقد قدم تاج الدين البهاري من مكة عام 1577 بدعوة من تاجر حاج سوداني، وأدخل الطريقة القادرية؛ وأدخل حمد بن محمد المجذوب، الذي درس في الحجاز، الطريقة الشاذلية (تاريخ أفريقيا العام V، الفصل 7، ص179–180). كما عمل معلمون من الحجاز في مملكة الفونج المبكرة (ص179). [WORKING TRANSLATION – needs native Arabic review]",
+ "economy_en": "The 'Sudan Road' from Darfur and Sennar to Sawakin carried both trade and pilgrims to the Hijaz. By the early 19th century it was known as far as Futa Toro, as a shorter and cheaper pilgrim route than the desert crossing through Egypt (GHA V ch.7, p.181). Ottoman Egypt sent cash, grain and the Ka'ba cover to the Hijaz (ch.6, p.143); no figures for Sudanese trade with Arabia were read.",
+ "economy_ar": "حمل «طريق السودان» من دارفور وسنار إلى سواكن التجارة والحجاج إلى الحجاز معاً. وبحلول أوائل القرن التاسع عشر عُرف حتى فوتا تورو، بوصفه طريق حج أقصر وأرخص من عبور الصحراء عبر مصر (تاريخ أفريقيا العام V، الفصل 7، ص181). وكانت مصر العثمانية ترسل النقود والحبوب وكسوة الكعبة إلى الحجاز (الفصل 6، ص143)؛ ولم تُقرأ أي أرقام عن تجارة السودان مع الجزيرة العربية. [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA5_CH6",
+  "GHA5_CH7",
+  "GHA6_CH13",
   "JEDDAH2023",
   "WP:Saudi_Arabia",
   "WP:Treaty_of_Jeddah_(2023)"
@@ -39,10 +42,10 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "GAP – nothing read on Saudi–Sudan relations between c.1820 and 2023 (no GHA coverage of the Saudi state; Cambridge/EI not read)",
+  "Muhammad 'Ali's 1813–19 campaign against the Wahhabis is from a GHA VI map (fig. 13.1, p.328), not narrative text"
  ],
- "curated": false
+ "curated": true
 }

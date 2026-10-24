@@ -28,14 +28,16 @@
    "lon": 44.36
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "Early Muslim converts fled to Christian Ethiopia and were received by the Negus (GHA III ch.2, p.35). In 651–2 an Arab army reached Dongola; Nubian resistance led to the bakt, which El Fasi and Hrbek call a non-aggression pact. It lasted some 600 years and kept Nubia as a sphere of influence rather than a province (ch.3, pp.81–82). Partial treaties were made with the Beja (p.82), and in 1315 a Muslim king on the Dongola throne ended the bakt (p.83).",
+ "geopolitics_ar": "هاجر المسلمون الأوائل إلى الحبشة المسيحية فاستقبلهم النجاشي (تاريخ أفريقيا العام III، الفصل 2، ص35). وفي 651–652 بلغ جيش عربي دنقلا؛ فأدت المقاومة النوبية إلى البقط، الذي يسميه الفاسي وهربك معاهدة عدم اعتداء. ودام نحو 600 سنة، وأبقى النوبة منطقة نفوذ لا ولاية (الفصل 3، ص81–82). وعُقدت معاهدات جزئية مع البجا (ص82)، وفي 1315 أنهى ملك مسلم على عرش دنقلا البقط (ص83). [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "From the 8th century, Arab nomads moved into the lands between the Nile and the Red Sea, and Arabs intermarried with Beja chiefs (GHA III ch.3, p.82). Most Beja were formally Islamized by the 14th century (p.83).",
+ "culture_dominance_ar": "منذ القرن الثامن انتقل بدو عرب إلى الأراضي الواقعة بين النيل والبحر الأحمر، وتصاهر العرب مع زعماء البجا (تاريخ أفريقيا العام III، الفصل 3، ص82). وأصبح معظم البجا مسلمين رسمياً بحلول القرن الرابع عشر (ص83). [WORKING TRANSLATION – needs native Arabic review]",
+ "economy_en": "Mecca was a commercial centre on the caravan route, and the pilgrimage brought profit (GHA III ch.2, p.33). The bakt allowed free travel and trade (ch.3, p.81). Arab merchants had a quarter in Dongola, and from the 8th century they settled in 'Aydhab, Badi' and Sawakin (p.82).",
+ "economy_ar": "كانت مكة مركزاً تجارياً على طريق القوافل، وكان الحج يدرّ أرباحاً (تاريخ أفريقيا العام III، الفصل 2، ص33). وأتاح البقط حرية التنقل والتجارة (الفصل 3، ص81). وكان للتجار العرب حيّ في دنقلا، ومنذ القرن الثامن استقروا في عيذاب وباضع وسواكن (ص82). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA3_CH2",
+  "GHA3_CH3",
   "GHA3_CH8",
   "WP:Rashidun_Caliphate",
   "WP:Abbasid_Caliphate"
@@ -44,10 +46,9 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "Bakt as 'non-aggression pact' and its 600-year duration follow El Fasi & Hrbek (GHA III ch.3, pp.81–82); its character (treaty vs. trade arrangement) is debated – see Pass 21 note in Islamic Egypt era"
  ],
- "curated": false
+ "curated": true
 }

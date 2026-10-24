@@ -2,6 +2,22 @@
 
 Site changes for sudan.indomando.com (built from `web/` by `web/build.py`). Newest first.
 
+## 2026-10-24 (single-source badge)
+
+- Points the data badges 'SINGLE-SOURCE (Wikipedia)' (Pi-Ramesses, Kurgus frontier) show an amber badge in the same style as REPORTED and CONTESTED; Arabic 'مصدر واحد' is pending native review.
+
+## 2026-10-24 (new extents: contested points, reference points)
+
+- Rebuilt with the new extents (Egypt stream, modern-neighbour eras, dated reference points). Places the data badges CONTESTED (Badme, Aouzou) now show a purple 'CONTESTED' / 'متنازع عليها' badge on the map label, in the hover title, in the list under the map and on era pages, instead of the raw '[CONTESTED]' text. Dated reference points keep their own labels and dates from the data.
+
+## 2026-10-24 (HTTPS, border state)
+
+- Era pages and chapter maps now say 'Border not yet mapped' / 'الحدود لم تُرسم بعد' on the map itself when an era has no sourced border polygon, instead of a blank or missing map. This one badge replaces the old 'area: research in progress' note under chapter maps; the explanation under era maps stays as plain text. Self-links were already all https://sudan.indomando.com (none on http:// or github.io).
+
+## 2026-10-20 (explorer: Arabic review badge)
+
+- The explorer's era view (era.html) and the histomap details panel show the same 'Arabic under review' / 'الترجمة العربية قيد المراجعة' badge, driven by the WORKING TRANSLATION entry in the era's flags (prominent in Arabic, subtle in English).
+
 ## 2026-10-20 (chapters index)
 
 - New chapters index at /chapters/ and /ar/chapters/ (all 7 chapters with dates, era counts, the interaction line and in-progress counts), linked from the header and from chapter and era breadcrumbs, with its own OG card and sitemap entries.

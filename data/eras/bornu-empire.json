@@ -19,14 +19,17 @@
    "lon": 11.8
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "The Mamluk sultans of Egypt wrote to both the king of Kanem and the king of Bornu (GHA IV ch.10, p.256). Lange asks whether the Bulala drive into Kanem was tied to the westward movement of Arab tribes, such as the Juhayna, after Christian Nubia broke up in the early 14th century (p.258). In about 1574, Idris Alawoma sent an embassy to Istanbul to secure Bornu's pilgrims and traders in Ottoman lands (GHA V ch.17, p.503). In the 17th century Wadai was founded with Bornu's blessing and stayed in its orbit (pp.511–512). In 1846, Wadai invaded Bornu at the mai's invitation (GHA VI ch.22, p.594).",
+ "geopolitics_ar": "كان سلاطين المماليك في مصر يراسلون ملك كانم وملك برنو كليهما (تاريخ أفريقيا العام IV، الفصل 10، ص256). ويتساءل لانغ هل ارتبط زحف البولالا على كانم بتحرك قبائل عربية، كجهينة، غرباً بعد تفكك النوبة المسيحية في أوائل القرن الرابع عشر (ص258). ونحو 1574 أرسل إدريس ألوما سفارة إلى إسطنبول لتأمين حجاج برنو وتجارها في الأراضي العثمانية (V، الفصل 17، ص503). وفي القرن السابع عشر تأسست وداي بمباركة برنو وبقيت في فلكها (ص511–512). وفي 1846 غزت وداي برنو بدعوة من الماي (VI، الفصل 22، ص594). [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "Most of the Kanem-Bornu people had been Muslim since the 13th century (GHA IV ch.10, p.250). Mai 'Ali Gaji was invested as Khalifa about ten years before Askiya Muhammad of Songhay (GHA V ch.17, p.495). By the 17th century Bornu was the dominant power in the Bilad al-Sudan and a centre of learning (p.512). Kanuri words for maize ('Egyptian') and pawpaw ('melon from Egypt') suggest these crops came via Egypt on the pilgrim route (p.512).",
+ "culture_dominance_ar": "كان معظم سكان كانم-برنو مسلمين منذ القرن الثالث عشر (تاريخ أفريقيا العام IV، الفصل 10، ص250). ونُصّب الماي علي غاجي خليفةً قبل أسكيا محمد ملك سنغاي بنحو عشر سنين (V، الفصل 17، ص495). وبحلول القرن السابع عشر كانت برنو القوة الغالبة في بلاد السودان ومركزاً للعلم (ص512). وتدل كلمات الكانوري للذرة الشامية («المصرية») والبابايا («بطيخ مصر») على أن هذه المحاصيل جاءت من مصر عبر طريق الحج (ص512). [WORKING TRANSLATION – needs native Arabic review]",
+ "economy_en": "Bornu sent slaves, eunuchs, skins, ivory, perfumes, leather goods and gold across the Sahara to North Africa and Egypt, in exchange for horses, armour, copper and bronze (GHA V ch.17, p.499). It controlled the salt sources at Muniyo, Bilma and Lake Chad (p.512) until Tuareg raids cost it Bilma around 1759 (p.512). Around 1400, Bir b. Idris complained to Egypt that Arabs were enslaving his Muslim subjects (GHA IV ch.10, p.250).",
+ "economy_ar": "أرسلت برنو الرقيق والخصيان والجلود والعاج والعطور والمصنوعات الجلدية والذهب عبر الصحراء إلى شمال أفريقيا ومصر، مقابل الخيول والدروع والنحاس والبرونز (تاريخ أفريقيا العام V، الفصل 17، ص499). وسيطرت على مصادر الملح في مونيو وبلما وبحيرة تشاد (ص512) حتى خسرت بلما نحو 1759 بسبب غارات الطوارق (ص512). ونحو 1400 شكا بير بن إدريس إلى مصر من أن العرب يستعبدون رعاياه المسلمين (IV، الفصل 10، ص250). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA4_CH10",
+  "GHA5_CH17",
+  "GHA6_CH22",
   "GHAIV",
   "GHAV",
   "GHA6_CH14",
@@ -36,10 +39,9 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "Link between Bulala/Arab pressure on Kanem and the fall of Christian Nubia is posed as a question by Lange (GHA IV ch.10, p.258)"
  ],
- "curated": false
+ "curated": true
 }

@@ -28,14 +28,17 @@
    "lon": 39.66
   }
  ],
- "geopolitics_en": null,
- "geopolitics_ar": null,
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "geopolitics_en": "Ptolemy knew both Meroe and Adulis; Aksumite envoys visited Meroe as friends, and while Zoscales ruled the Eritrean coast, Meroe still held the Beja desert (GHA II ch.15, p.381). Aksum conquered the declining Meroitic kingdom in the 4th century. The empire then covered northern Ethiopia, parts of the Sudan and southern Arabia, with vassal kings including those of Himyar and 'Alwa (p.384). Ezana's titles set him apart from the Kasu and Beja (ch.16, p.411), and his DAE 11 inscription records a victory over the Noba beyond the Takazze (p.416).",
+ "geopolitics_ar": "عرف بطليموس مروي وعدوليس معاً؛ وزار مبعوثون أكسوميون مروي بوصفهم أصدقاء، وبينما حكم زوسكاليس الساحل الإريتري ظلت مروي مسيطرة على صحراء البجا (تاريخ أفريقيا العام II، الفصل 15، ص381). وفتحت أكسوم مملكة مروي المتراجعة في القرن الرابع، فشملت الإمبراطورية شمال إثيوبيا وأجزاء من السودان وجنوب الجزيرة العربية، مع ملوك تابعين منهم ملوك حمير وعلوة (ص384). وتميّز ألقاب عيزانا بينه وبين الكاسو والبجا (الفصل 16، ص411)، ويسجّل نقشه DAE 11 انتصاره على النوبة وراء نهر تكازي (ص416). [WORKING TRANSLATION – needs native Arabic review]",
+ "culture_dominance_en": "Kobishanov sees Meroitic influence predominating at Aksum in the 2nd–3rd centuries (GHA II ch.15, p.399), including in architecture (p.395). Followers of the Egyptian-Meroitic religion lived at Aksum, Adulis and Matara (p.397). Aksum also issued Greek-legend coins and wrote Ge'ez (p.398).",
+ "culture_dominance_ar": "يرى كوبيشانوف أن التأثير المروي كان غالباً في أكسوم في القرنين الثاني والثالث (تاريخ أفريقيا العام II، الفصل 15، ص399)، ومنه العمارة (ص395). وعاش أتباع الديانة المصرية-المروية في أكسوم وعدوليس ومطرة (ص397). وسكّت أكسوم كذلك نقوداً بكتابة يونانية وكتبت بالجعزية (ص398). [WORKING TRANSLATION – needs native Arabic review]",
+ "economy_en": "The Periplus names Koloè as the ivory market and Adulis as the market town (GHA II ch.14, p.369). Meroitic objects found at Aksum were trade goods or, more likely, spoils of war or tribute. Cotton cloth and iron may have come from Meroe, and gold from Sasu and perhaps from Beja country (ch.15, p.389).",
+ "economy_ar": "يذكر كتاب «الطواف» أن كولوي كانت سوق العاج وأن عدوليس كانت المدينة التجارية (تاريخ أفريقيا العام II، الفصل 14، ص369). وكانت المصنوعات المروية الموجودة في أكسوم سلعاً تجارية أو، على الأرجح، غنائم حرب أو جزية. وربما جاءت الأقمشة القطنية والحديد من مروي، والذهب من ساسو وربما من بلاد البجا (الفصل 15، ص389). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA2_CH14",
+  "GHA2_CH15",
+  "GHA2_CH16",
   "GHA2_CH12",
   "WP:Kingdom_of_Aksum",
   "WP:Ezana_of_Axum"
@@ -44,10 +47,10 @@
   "en"
  ],
  "flags": [
-  "geopolitics: no source-backed text yet",
-  "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
-  "regional_power: no actors scored"
+  "regional_power: no actors scored",
+  "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "CONTESTED/SINGLE-SOURCE – Aksumite conquest of Meroe and vassal 'Alwa rest on Kobishanov (GHA II ch.15, p.384) reading Ezana's inscriptions; the scale and date of Meroe's end are debated",
+  "Meroitic objects at Aksum: trade goods or more likely spoils/tribute (Kobishanov's interpretation, p.389)"
  ],
- "curated": false
+ "curated": true
 }
