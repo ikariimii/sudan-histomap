@@ -733,6 +733,23 @@
      "khartoum-neolithic-shaheinab"
     ],
     "note": "Gazetteer anchor only."
+   },
+   "WD:Q336494": {
+    "id": "WD:Q336494",
+    "author": "Wikidata contributors",
+    "title": "Abyei Area (Q336494), disputed territory (P31 Q15239622), country Sudan and South Sudan; 9.595N 28.436E",
+    "publisher": "Wikimedia Foundation",
+    "date": "retrieved 2026-10-24",
+    "url": "https://www.wikidata.org/wiki/Q336494",
+    "license": "CC0 1.0",
+    "verification": "wbgetentities API read 2026-10-24; GeoNames 380308",
+    "used_by": [
+     "al-bashir-ncp-ingaz-regime",
+     "december-revolution-transition",
+     "war-in-sudan-saf-vs-rsf",
+     "republic-of-south-sudan"
+    ],
+    "note": "CONTESTED point; area not drawn."
    }
   }
  }
