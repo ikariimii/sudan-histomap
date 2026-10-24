@@ -345,7 +345,7 @@
     "bias": "binding judgment; neutral",
     "date": "1994-02-03",
     "url": "https://www.icj-cij.org/case/83",
-    "verification": "case page URL; judgment text not re-read this session [VERIFY paragraph cites]",
+    "verification": "ICJ case page read 2026-10-24 (https://www.icj-cij.org/case/83): Judgment delivered 3 Feb 1994; Court held the 1955 Franco-Libyan treaty defined the frontier (1899 declaration, 1919 convention, 1902 Franco-Italian exchange). Judgment PDF itself blocked by a Cloudflare challenge – no paragraph cites given; Aouzou '1973' start NOT in what was read",
     "id": "ICJ_LBY_TCD1994"
    },
    "UNSC_RES915_1994": {
@@ -356,7 +356,7 @@
     "bias": "UN; neutral",
     "date": "1994-05-04",
     "url": "https://undocs.org/S/RES/915(1994)",
-    "verification": "URL pattern; not fetched [VERIFY]",
+    "verification": "read 2026-10-24 (documents.un.org PDF of S/RES/915(1994)): adopted 3373rd meeting, 4 May 1994; establishes UNASOG to observe Libyan withdrawal under the 4 Apr 1994 Surt agreement implementing the ICJ judgment of 3 Feb 1994",
     "id": "UNSC_RES915_1994"
    },
    "UNGA_RES390V": {
@@ -367,7 +367,7 @@
     "bias": "UN; neutral",
     "date": "1950-12-02",
     "url": "https://undocs.org/A/RES/390(V)",
-    "verification": "URL pattern; not fetched [VERIFY]",
+    "verification": "read 2026-10-24 (A/RES/390(V) text): adopted 316th plenary, 2 Dec 1950; Eritrea 'federated with Ethiopia under the sovereignty of the Ethiopian Crown'; transition not beyond 15 Sep 1952",
     "id": "UNGA_RES390V"
    },
    "UNGA_RES289IV": {
@@ -378,7 +378,7 @@
     "bias": "UN; neutral",
     "date": "1949-11-21",
     "url": "https://undocs.org/A/RES/289(IV)",
-    "verification": "date confirmed in IBS3_1978; URL not fetched",
+    "verification": "read 2026-10-24 (scanned A/RES/289(IV), p.1 image): 289(IV) A recommends Libya (Cyrenaica, Tripolitania, Fezzan) become 'an independent and sovereign State', effective 'not later than 1 January 1952'. The actual independence date 24 Dec 1951 is NOT in this resolution. Date 21 Nov 1949 from IBS3_1978 (not seen on the scan page read)",
     "id": "UNGA_RES289IV"
    },
    "EEBC2002": {
@@ -389,7 +389,7 @@
     "bias": "binding arbitral decision; neutral",
     "date": "2002-04-13",
     "url": "https://legal.un.org/riaa/cases/vol_XXV/83-195.pdf",
-    "verification": "not fetched this session [VERIFY page cites]",
+    "verification": "read 2026-10-24 (RIAA XXV pp.83–195): mandate to delimit the border on the basis of the 1900, 1902 and 1908 treaties confirmed. Badme appears at paras 5.94–5.95 (Ethiopian administration evidence); no explicit sentence 'Badme awarded to Eritrea' found in the text read – that claim keeps [VERIFY] (needs the dispositif/map)",
     "id": "EEBC2002"
    },
    "PCA_ABYEI2009": {
@@ -400,7 +400,7 @@
     "bias": "binding arbitral award; neutral",
     "date": "2009-07-22",
     "url": "https://pca-cpa.org/en/cases/92/",
-    "verification": "not fetched this session [VERIFY]",
+    "verification": "PCA case 92 page read 2026-10-24: Abyei Arbitration, Government of Sudan / SPLM/A; arbitration agreement deposited 11 Jul 2008; Final Award 22 Jul 2009",
     "id": "PCA_ABYEI2009"
    },
    "LOC_TCD1988": {
@@ -420,6 +420,9 @@
    "Italian Eritrea 1936–41 inside AOI: no separate shape",
    "Insurgent control (EPLF/TPLF 1974–91, Chad civil wars, CAR armed groups, Libya 2014– split) not traced",
    "Ethiopia–Sudan 1902 treaty text not re-read"
+  ],
+  "changes": [
+   "2026-10-24: [VERIFY] cleared only for UNSC 915, UNGA 390(V), UNGA 289(IV) A content, PCA Abyei, EEBC mandate, ICJ holding (case page) – all read; kept for ICJ paragraph cites, Badme award wording, Libya 24 Dec 1951 date, treaty texts, Gwynn line, EPLF Asmara date, Chad north 1910s, Aouzou 1973 start, OHM 2839926 naming, geoBoundaries licence, LOC_TCD1988 index"
   ]
  },
  "items": [
@@ -436,13 +439,14 @@
     "license": "CC0 1.0",
     "method": "use OHM geometry; badge 1936–41 as approximate"
    },
-   "control_limits_en": "Colony proclaimed 1890 (OHM start_date 1890-01-01). Limits with Ethiopia fixed by Italo-Ethiopian treaties 1900/1902/1908 [VERIFY – treaty texts not read].",
+   "control_limits_en": "Colony proclaimed 1890 (OHM start_date 1890-01-01). Limits with Ethiopia fixed by Italo-Ethiopian treaties 1900/1902/1908 (the EEBC 2002 mandate was to delimit on these treaties – EEBC2002; treaty texts themselves not read).",
    "disputed_areas": [],
    "certainty": "medium",
    "confidence": "medium",
    "source_ids": [
     "OHM_2690839",
-    "WP:Eritrea"
+    "WP:Eritrea",
+    "EEBC2002"
    ],
    "note": "1936–41 AOI phase has no separate OHM shape"
   },
@@ -534,7 +538,7 @@
    "disputed_areas": [
     {
      "name": "Badme",
-     "status": "awarded to Eritrea by EEBC 13 Apr 2002; Ethiopian administration continued for years after [CONTESTED implementation]",
+     "status": "awarded to Eritrea by EEBC 13 Apr 2002 [VERIFY – not found explicitly in RIAA text read]; Ethiopian administration continued for years after [CONTESTED implementation]",
      "source_ids": [
       "EEBC2002",
       "ICG_ETH_ERI"
@@ -793,7 +797,7 @@
     },
     {
      "name": "Abyei",
-     "status": "Sudan–South Sudan, PCA 2009 award (context only; not adjacent to CAR)",
+     "status": "Government of Sudan / SPLM/A, PCA Final Award 22 Jul 2009 (context only; not adjacent to CAR)",
      "source_ids": [
       "PCA_ABYEI2009"
      ]
@@ -889,7 +893,7 @@
     "license": "Public domain / CC BY 4.0",
     "method": "use as-is; disputed areas from EXT_NE_DISPUTED, no hand-drawn lines"
    },
-   "control_limits_en": "Independence 24 Dec 1951 per UNGA 289 (IV) (OHM 2801143). Aouzou claim 1973–94 ended by ICJ.",
+   "control_limits_en": "Independence recommended by UNGA 289 (IV) A for not later than 1 Jan 1952; achieved 24 Dec 1951 [VERIFY – date not in the resolution] (OHM 2801143). Aouzou claim 1973–94 ended by ICJ.",
    "disputed_areas": [
     {
      "name": "Aouzou Strip",
