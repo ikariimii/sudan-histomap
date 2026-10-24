@@ -68,3 +68,6 @@
 - Null fields keep explicit "null reason" flags (culture: British-occupied Egypt, CAR/Ubangi-Shari, Ali Dinar's Darfur); stale null-reason flags removed where fields are now filled.
 - `power_cinc_share` added as a DERIVED figure from COW NMC v6.0 CINC (1816–2016; method RP-CINC-SHARE-1), not comparable with editorial regional_power. Licence: none stated by COW; cited per COW's request (version + Singer, Bremer & Stuckey 1972). War era (2023–) = null (data ends 2016).
 - Front-end rendering of power_cinc_share is left to Web.
+
+## Historian Pass 22c — register Map Designer extent-only sources
+- Registered db/extents_sources_map_designer.json (Map Designer 5f1fada, 36 entries: 33 OHM relations + 3 refs); IDs already registered skipped; entries without OHM source tags carry a visible "[VERIFY – no source tags]" title flag.

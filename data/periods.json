@@ -3410,7 +3410,10 @@
     "note": "Older, US-government source; figures as of 1991",
     "pages": "",
     "lang": "en",
-    "via": "/tmp/era_fill_modern3_p20b.json"
+    "via": "/tmp/era_fill_modern3_p20b.json",
+    "id": "LOC1991_CHAD",
+    "registry_note": "Already registered in the source-tree data/periods.json (Historian); copied here unchanged for reference — no new registration needed.",
+    "year": "1991"
    },
    "LOC1991_CIVIL6469": {
     "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.; history T. Ofcansky, economy R.O. Collins)",
@@ -3972,6 +3975,28 @@
     "lang": "en",
     "via": "db/era_fill_modern2.json"
    },
+   "OHM_2690836": {
+    "id": "OHM_2690836",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Khedivate of Egypt",
+    "title_en": "Khedivate of Egypt",
+    "publisher": "OpenHistoricalMap",
+    "date": "1867/1899-01",
+    "url": "https://www.openhistoricalmap.org/relation/2690836",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation source tags: {\"source\": \"Hammond's Atlas of the Modern World, 1917\", \"source:url\": \"https://commons.wikimedia.org/wiki/File:Africa1910s.jpg\"}",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2690836.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q2743756",
+    "used_by": [
+     "british-occupied-kingdom-of-egypt",
+     "ottoman-egypt-muhammad-ali-dynasty"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1867",
+    "via": "db/extents_sources_map_designer.json"
+   },
    "OHM_2690839": {
     "author": "OpenHistoricalMap contributors",
     "title": "Italian Eritrea",
@@ -3988,6 +4013,27 @@
     "year": "1890",
     "via": "db/extents_sources_modern_neighbours.json"
    },
+   "OHM_2690843": {
+    "id": "OHM_2690843",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Ethiopian Empire",
+    "title_en": "Ethiopian Empire",
+    "publisher": "OpenHistoricalMap",
+    "date": "1889/1928-08-02",
+    "url": "https://www.openhistoricalmap.org/relation/2690843",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation source tags: {\"source\": \"Hammond's Atlas of the Modern World, 1917\", \"source:url\": \"https://commons.wikimedia.org/wiki/File:Africa1910s.jpg\"}",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2690843.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q207521",
+    "used_by": [
+     "ethiopian-empire-solomonic"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1889",
+    "via": "db/extents_sources_map_designer.json"
+   },
    "OHM_2690845": {
     "author": "OpenHistoricalMap contributors (last edit: CharliePlett, changeset 272117, 2026-09-21)",
     "title": "Relation 2690845 'Turco-Egyptian Sudan' (start_date 1820, end_date 1867)",
@@ -3997,6 +4043,27 @@
     "url": "https://www.openhistoricalmap.org/api/0.6/relation/2690845.json",
     "lang": "en",
     "note": "Tags checked 2026-10-20: no source, source:* or note tag; tags include colony_of=Britain (wrong for 1820–67), wikidata Q2464621, wikipedia es:Sudán turco. Member ways not checked one by one."
+   },
+   "OHM_2744372": {
+    "id": "OHM_2744372",
+    "author": "OpenHistoricalMap contributors",
+    "title": "United Arab Republic [VERIFY – no source tags]",
+    "title_en": "United Arab Republic",
+    "publisher": "OpenHistoricalMap",
+    "date": "1961-09-28/1967-06-10",
+    "url": "https://www.openhistoricalmap.org/relation/2744372",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2744372.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q170468",
+    "used_by": [
+     "republic-of-egypt"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1961",
+    "via": "db/extents_sources_map_designer.json"
    },
    "OHM_2801143": {
     "author": "OpenHistoricalMap contributors",
@@ -4056,6 +4123,48 @@
     "lang": "en",
     "note": "CC0 1.0. The relation has no source tag, so its geometry is unverified against the cited texts. Raw download is in db/extents/raw/ohm_2803203.json"
    },
+   "OHM_2803204": {
+    "id": "OHM_2803204",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Kingdom of Egypt [VERIFY – no source tags]",
+    "title_en": "Kingdom of Egypt",
+    "publisher": "OpenHistoricalMap",
+    "date": "1922-02-28/1953-06-18",
+    "url": "https://www.openhistoricalmap.org/relation/2803204",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2803204.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q124943",
+    "used_by": [
+     "british-occupied-kingdom-of-egypt"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1922",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2803205": {
+    "id": "OHM_2803205",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Sultanate of Egypt [VERIFY – no source tags]",
+    "title_en": "Sultanate of Egypt",
+    "publisher": "OpenHistoricalMap",
+    "date": "1914-12-19/1922-02-28",
+    "url": "https://www.openhistoricalmap.org/relation/2803205",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2803205.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q370173",
+    "used_by": [
+     "british-occupied-kingdom-of-egypt"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1914",
+    "via": "db/extents_sources_map_designer.json"
+   },
    "OHM_2803439": {
     "author": "OpenHistoricalMap contributors",
     "title": "Ethiopia (1993-)",
@@ -4088,6 +4197,27 @@
     "year": "1962",
     "via": "db/extents_sources_modern_neighbours.json"
    },
+   "OHM_2803441": {
+    "id": "OHM_2803441",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Occupied Enemy Territory Administration in Ethiopia [VERIFY – no source tags]",
+    "title_en": "Occupied Enemy Territory Administration in Ethiopia",
+    "publisher": "OpenHistoricalMap",
+    "date": "1941-11-27/1942-01-31",
+    "url": "https://www.openhistoricalmap.org/relation/2803441",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2803441.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "",
+    "used_by": [
+     "ethiopian-empire-solomonic"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1941",
+    "via": "db/extents_sources_map_designer.json"
+   },
    "OHM_2803445": {
     "author": "OpenHistoricalMap contributors",
     "title": "Eritrea",
@@ -4103,6 +4233,90 @@
     "lang": "en",
     "year": "1993",
     "via": "db/extents_sources_modern_neighbours.json"
+   },
+   "OHM_2803446": {
+    "id": "OHM_2803446",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Ethiopia (1942-1952) [VERIFY – no source tags]",
+    "title_en": "Ethiopia (1942-1952)",
+    "publisher": "OpenHistoricalMap",
+    "date": "1942-01-31/1952",
+    "url": "https://www.openhistoricalmap.org/relation/2803446",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2803446.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "",
+    "used_by": [
+     "ethiopian-empire-solomonic"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1942",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2809431": {
+    "id": "OHM_2809431",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Kanem–Bornu Empire [VERIFY – no source tags]",
+    "title_en": "Kanem–Bornu Empire",
+    "publisher": "OpenHistoricalMap",
+    "date": "0700/1380",
+    "url": "https://www.openhistoricalmap.org/relation/2809431",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2809431.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q1139762",
+    "used_by": [
+     "kanem-empire"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "0700",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2828408": {
+    "id": "OHM_2828408",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Egypt [VERIFY – no source tags]",
+    "title_en": "Egypt",
+    "publisher": "OpenHistoricalMap",
+    "date": "1982-04-26/open",
+    "url": "https://www.openhistoricalmap.org/relation/2828408",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2828408.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q79",
+    "used_by": [
+     "republic-of-egypt"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1982",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2828409": {
+    "id": "OHM_2828409",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Egypt [VERIFY – no source tags]",
+    "title_en": "Egypt",
+    "publisher": "OpenHistoricalMap",
+    "date": "1971-09-11/1982-04-25",
+    "url": "https://www.openhistoricalmap.org/relation/2828409",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2828409.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q79",
+    "used_by": [
+     "republic-of-egypt"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1971",
+    "via": "db/extents_sources_map_designer.json"
    },
    "OHM_2831546": {
     "author": "OpenHistoricalMap contributors",
@@ -4161,6 +4375,27 @@
     "lang": "en",
     "year": "1979",
     "via": "db/extents_sources_modern_neighbours.json"
+   },
+   "OHM_2839468": {
+    "id": "OHM_2839468",
+    "author": "OpenHistoricalMap contributors",
+    "title": "United Arab Republic [VERIFY – no source tags]",
+    "title_en": "United Arab Republic",
+    "publisher": "OpenHistoricalMap",
+    "date": "1958-02-22/1961-09-29",
+    "url": "https://www.openhistoricalmap.org/relation/2839468",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2839468.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q170468",
+    "used_by": [
+     "republic-of-egypt"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1958",
+    "via": "db/extents_sources_map_designer.json"
    },
    "OHM_2839746": {
     "author": "OpenHistoricalMap contributors",
@@ -4242,6 +4477,50 @@
     "year": "1958",
     "via": "db/extents_sources_modern_neighbours.json"
    },
+   "OHM_2839930": {
+    "id": "OHM_2839930",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Ubangi-Shari-Chad [VERIFY – no source tags]",
+    "title_en": "Ubangi-Shari-Chad",
+    "publisher": "OpenHistoricalMap",
+    "date": "1909/1910-01-15",
+    "url": "https://www.openhistoricalmap.org/relation/2839930",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2839930.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q1421888",
+    "used_by": [
+     "central-african-republic-ubangi-shari",
+     "french-chad-republic-of-chad"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1909",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2839931": {
+    "id": "OHM_2839931",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Ubangi-Shari-Chad [VERIFY – no source tags]",
+    "title_en": "Ubangi-Shari-Chad",
+    "publisher": "OpenHistoricalMap",
+    "date": "1906-02-11/1909",
+    "url": "https://www.openhistoricalmap.org/relation/2839931",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2839931.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q1421888",
+    "used_by": [
+     "central-african-republic-ubangi-shari",
+     "french-chad-republic-of-chad"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1906",
+    "via": "db/extents_sources_map_designer.json"
+   },
    "OHM_2839932": {
     "author": "OpenHistoricalMap contributors",
     "title": "Ubangi-Shari",
@@ -4306,6 +4585,27 @@
     "year": "1910",
     "via": "db/extents_sources_modern_neighbours.json"
    },
+   "OHM_2852460": {
+    "id": "OHM_2852460",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Kingdom of Aksum [VERIFY – no source tags]",
+    "title_en": "Kingdom of Aksum",
+    "publisher": "OpenHistoricalMap",
+    "date": "0050/0632",
+    "url": "https://www.openhistoricalmap.org/relation/2852460",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2852460.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q139377",
+    "used_by": [
+     "kingdom-of-aksum"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "0050",
+    "via": "db/extents_sources_map_designer.json"
+   },
    "OHM_2856878": {
     "author": "OpenHistoricalMap contributors",
     "title": "Shilluk Kingdom (1490–1861), relation 2856878",
@@ -4315,6 +4615,69 @@
     "url": "https://www.openhistoricalmap.org/relation/2856878",
     "lang": "en",
     "note": "CC0 1.0. The relation has no source tag, so its geometry is unverified against the cited texts. Raw download is in db/extents/raw/ohm_2856878.json"
+   },
+   "OHM_2860225": {
+    "id": "OHM_2860225",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Kingdom of Aksum [VERIFY – no source tags]",
+    "title_en": "Kingdom of Aksum",
+    "publisher": "OpenHistoricalMap",
+    "date": "0632/0960",
+    "url": "https://www.openhistoricalmap.org/relation/2860225",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2860225.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q139377",
+    "used_by": [
+     "kingdom-of-aksum"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "0632",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2878087": {
+    "id": "OHM_2878087",
+    "author": "OpenHistoricalMap contributors",
+    "title": "United Arab Republic [VERIFY – no source tags]",
+    "title_en": "United Arab Republic",
+    "publisher": "OpenHistoricalMap",
+    "date": "1967-06-10/1971-09-11",
+    "url": "https://www.openhistoricalmap.org/relation/2878087",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2878087.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q170468",
+    "used_by": [
+     "republic-of-egypt"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1967",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2878088": {
+    "id": "OHM_2878088",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Republic of Egypt [VERIFY – no source tags]",
+    "title_en": "Republic of Egypt",
+    "publisher": "OpenHistoricalMap",
+    "date": "1953-06-19/1958",
+    "url": "https://www.openhistoricalmap.org/relation/2878088",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2878088.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "",
+    "used_by": [
+     "republic-of-egypt"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1953",
+    "via": "db/extents_sources_map_designer.json"
    },
    "OHM_2885943": {
     "author": "OpenHistoricalMap contributors",
@@ -4348,6 +4711,70 @@
     "year": "1959",
     "via": "db/extents_sources_modern_neighbours.json"
    },
+   "OHM_2918030": {
+    "id": "OHM_2918030",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Ubangi-Shari-Chad [VERIFY – no source tags]",
+    "title_en": "Ubangi-Shari-Chad",
+    "publisher": "OpenHistoricalMap",
+    "date": "1912-12-17/1916-07-20",
+    "url": "https://www.openhistoricalmap.org/relation/2918030",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2918030.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q1421888",
+    "used_by": [
+     "central-african-republic-ubangi-shari",
+     "french-chad-republic-of-chad"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1912",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2921538": {
+    "id": "OHM_2921538",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Eyalet of Egypt [VERIFY – no source tags]",
+    "title_en": "Eyalet of Egypt",
+    "publisher": "OpenHistoricalMap",
+    "date": "1517/1830",
+    "url": "https://www.openhistoricalmap.org/relation/2921538",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2921538.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q491507",
+    "used_by": [
+     "ottoman-egypt-muhammad-ali-dynasty"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1517",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2923091": {
+    "id": "OHM_2923091",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Ethiopian Empire",
+    "title_en": "Ethiopian Empire",
+    "publisher": "OpenHistoricalMap",
+    "date": "1928-08-02/1936-05-09",
+    "url": "https://www.openhistoricalmap.org/relation/2923091",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation source tags: {\"source\": \"Hammond's Atlas of the Modern World, 1917\", \"source:url\": \"https://commons.wikimedia.org/wiki/File:Africa1910s.jpg\"}",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2923091.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q207521",
+    "used_by": [
+     "ethiopian-empire-solomonic"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1928",
+    "via": "db/extents_sources_map_designer.json"
+   },
    "OHM_2926749": {
     "author": "OpenHistoricalMap contributors",
     "title": "Anglo-Egyptian Sudan (1902–1910-06-10), relation 2926749",
@@ -4357,6 +4784,132 @@
     "url": "https://www.openhistoricalmap.org/relation/2926749",
     "lang": "en",
     "note": "CC0 1.0. The relation has no source tag, so its geometry is unverified against the cited texts. Raw download is in db/extents/raw/ohm_2926749.json"
+   },
+   "OHM_2926750": {
+    "id": "OHM_2926750",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Khedivate of Egypt",
+    "title_en": "Khedivate of Egypt",
+    "publisher": "OpenHistoricalMap",
+    "date": "1902/1914",
+    "url": "https://www.openhistoricalmap.org/relation/2926750",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation source tags: {\"source\": \"Hammond's Atlas of the Modern World, 1917\", \"source:url\": \"https://commons.wikimedia.org/wiki/File:Africa1910s.jpg\"}",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2926750.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q2743756",
+    "used_by": [
+     "british-occupied-kingdom-of-egypt"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1902",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2926752": {
+    "id": "OHM_2926752",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Khedivate of Egypt",
+    "title_en": "Khedivate of Egypt",
+    "publisher": "OpenHistoricalMap",
+    "date": "1899-03-26/1902",
+    "url": "https://www.openhistoricalmap.org/relation/2926752",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation source tags: {\"source\": \"Hammond's Atlas of the Modern World, 1917\", \"source:url\": \"https://commons.wikimedia.org/wiki/File:Africa1910s.jpg\"}",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2926752.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q2743756",
+    "used_by": [
+     "british-occupied-kingdom-of-egypt"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1899",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2951102": {
+    "id": "OHM_2951102",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Eyalet of Egypt [VERIFY – no source tags]",
+    "title_en": "Eyalet of Egypt",
+    "publisher": "OpenHistoricalMap",
+    "date": "1830/1840",
+    "url": "https://www.openhistoricalmap.org/relation/2951102",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2951102.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q491507",
+    "used_by": [
+     "ottoman-egypt-muhammad-ali-dynasty"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1830",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2951103": {
+    "id": "OHM_2951103",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Eyalet of Egypt [VERIFY – no source tags]",
+    "title_en": "Eyalet of Egypt",
+    "publisher": "OpenHistoricalMap",
+    "date": "1840/1867",
+    "url": "https://www.openhistoricalmap.org/relation/2951103",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2951103.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q491507",
+    "used_by": [
+     "ottoman-egypt-muhammad-ali-dynasty"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1840",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2960086": {
+    "id": "OHM_2960086",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Mamluk Sultanate",
+    "title_en": "Mamluk Sultanate",
+    "publisher": "OpenHistoricalMap",
+    "date": "1268-05-18/1276",
+    "url": "https://www.openhistoricalmap.org/relation/2960086",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation source tags: {\"source:date\": \"1317\", \"source:geometry\": \"https://en.wikipedia.org/wiki/Mamluk_Sultanate#/media/File:Mamluk_Sultanate_of_Cairo_1317_AD.jpg\"}",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2960086.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q282428",
+    "used_by": [
+     "mamluk-sultanate"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1268",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2960087": {
+    "id": "OHM_2960087",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Mamluk Sultanate",
+    "title_en": "Mamluk Sultanate",
+    "publisher": "OpenHistoricalMap",
+    "date": "1289-04-27/1291-05-18",
+    "url": "https://www.openhistoricalmap.org/relation/2960087",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation source tags: {\"source:date\": \"1317\", \"source:geometry\": \"https://en.wikipedia.org/wiki/Mamluk_Sultanate#/media/File:Mamluk_Sultanate_of_Cairo_1317_AD.jpg\"}",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2960087.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q282428",
+    "used_by": [
+     "mamluk-sultanate"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1289",
+    "via": "db/extents_sources_map_designer.json"
    },
    "OHM_2960088": {
     "author": "OpenHistoricalMap contributors",
@@ -4387,6 +4940,153 @@
     "url": "https://www.openhistoricalmap.org/relation/2960090",
     "lang": "en",
     "note": "CC0 1.0. The relation has no source tag, so its geometry is unverified against the cited texts. Raw download is in db/extents/raw/ohm_2960090.json"
+   },
+   "OHM_2960092": {
+    "id": "OHM_2960092",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Mamluk Sultanate",
+    "title_en": "Mamluk Sultanate",
+    "publisher": "OpenHistoricalMap",
+    "date": "1516-08-24/1517-01-22",
+    "url": "https://www.openhistoricalmap.org/relation/2960092",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation source tags: {\"source:date\": \"1317\", \"source:geometry\": \"https://en.wikipedia.org/wiki/Mamluk_Sultanate#/media/File:Mamluk_Sultanate_of_Cairo_1317_AD.jpg\"}",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2960092.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q282428",
+    "used_by": [
+     "mamluk-sultanate"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1516",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2960093": {
+    "id": "OHM_2960093",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Mamluk Sultanate",
+    "title_en": "Mamluk Sultanate",
+    "publisher": "OpenHistoricalMap",
+    "date": "1276/1289-04-27",
+    "url": "https://www.openhistoricalmap.org/relation/2960093",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation source tags: {\"source:date\": \"1317\", \"source:geometry\": \"https://en.wikipedia.org/wiki/Mamluk_Sultanate#/media/File:Mamluk_Sultanate_of_Cairo_1317_AD.jpg\"}",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2960093.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q282428",
+    "used_by": [
+     "mamluk-sultanate"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1276",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2960095": {
+    "id": "OHM_2960095",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Mamluk Sultanate",
+    "title_en": "Mamluk Sultanate",
+    "publisher": "OpenHistoricalMap",
+    "date": "1261/1265",
+    "url": "https://www.openhistoricalmap.org/relation/2960095",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation source tags: {\"source:date\": \"1317\", \"source:geometry\": \"https://en.wikipedia.org/wiki/Mamluk_Sultanate#/media/File:Mamluk_Sultanate_of_Cairo_1317_AD.jpg\"}",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2960095.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q282428",
+    "used_by": [
+     "mamluk-sultanate"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1261",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2960096": {
+    "id": "OHM_2960096",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Mamluk Sultanate",
+    "title_en": "Mamluk Sultanate",
+    "publisher": "OpenHistoricalMap",
+    "date": "1291-05-18/1516-08-24",
+    "url": "https://www.openhistoricalmap.org/relation/2960096",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation source tags: {\"source:date\": \"1317\", \"source:geometry\": \"https://en.wikipedia.org/wiki/Mamluk_Sultanate#/media/File:Mamluk_Sultanate_of_Cairo_1317_AD.jpg\"}",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2960096.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q282428",
+    "used_by": [
+     "mamluk-sultanate"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1291",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2960097": {
+    "id": "OHM_2960097",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Mamluk Sultanate",
+    "title_en": "Mamluk Sultanate",
+    "publisher": "OpenHistoricalMap",
+    "date": "1266/1268",
+    "url": "https://www.openhistoricalmap.org/relation/2960097",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation source tags: {\"source:date\": \"1317\", \"source:geometry\": \"https://en.wikipedia.org/wiki/Mamluk_Sultanate#/media/File:Mamluk_Sultanate_of_Cairo_1317_AD.jpg\"}",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2960097.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q282428",
+    "used_by": [
+     "mamluk-sultanate"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1266",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2960098": {
+    "id": "OHM_2960098",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Mamluk Sultanate [VERIFY – no source tags]",
+    "title_en": "Mamluk Sultanate",
+    "publisher": "OpenHistoricalMap",
+    "date": "1265/1266",
+    "url": "https://www.openhistoricalmap.org/relation/2960098",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation has no source tags – verify",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2960098.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q282428",
+    "used_by": [
+     "mamluk-sultanate"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1265",
+    "via": "db/extents_sources_map_designer.json"
+   },
+   "OHM_2960099": {
+    "id": "OHM_2960099",
+    "author": "OpenHistoricalMap contributors",
+    "title": "Mamluk Sultanate",
+    "title_en": "Mamluk Sultanate",
+    "publisher": "OpenHistoricalMap",
+    "date": "1250-05-02/1261",
+    "url": "https://www.openhistoricalmap.org/relation/2960099",
+    "license": "CC0 1.0",
+    "bias": "volunteer-edited; relation source tags: {\"source:date\": \"1317\", \"source:geometry\": \"https://en.wikipedia.org/wiki/Mamluk_Sultanate#/media/File:Mamluk_Sultanate_of_Cairo_1317_AD.jpg\"}",
+    "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2960099.json (fetched 2026-10; geometry used, simplified 0.01°)",
+    "wikidata": "Q282428",
+    "used_by": [
+     "mamluk-sultanate"
+    ],
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "pages": "",
+    "lang": "en",
+    "year": "1250",
+    "via": "db/extents_sources_map_designer.json"
    },
    "OHM_2961762": {
     "author": "OpenHistoricalMap contributors",
