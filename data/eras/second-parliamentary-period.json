@@ -28,6 +28,8 @@
  "regional_power": [],
  "sources": [
   "GHA8",
+  "COW_NMC6",
+  "WB_WDI_API",
   "LOC1991_CIVIL6469",
   "LOC1991_ECON",
   "LOC1991_ECONDEV",
@@ -43,10 +45,30 @@
  "flags": [
   "regional_power: no actors scored",
   "Pass 13 text: Arabic is a working translation; needs native review",
+  "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
+  "COW Sudan (ccode 625) includes South Sudan before 2011",
   "Arabic is a WORKING TRANSLATION needing native review",
   "SINGLE-SOURCE: per-capita income USD 86→104 (LOC1991_ECONDEV)",
   "Gezira cotton figures for 1964–69 not found in sources read",
   "VERIFY: SERIHERSCH2020"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": "Republic of Sudan",
+   "share": 0.09,
+   "year_range": [
+    1964,
+    1969
+   ],
+   "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1964–1969 (6 yrs); min 0.09, max 0.10; last-year CINCs SDN 0.00103, EGY 0.00665, ETH 0.00171, TCD 0.00024, LBY 0.00048, CAF 0.00014",
+   "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+   "source_ids": [
+    "COW_NMC6",
+    "WB_WDI_API"
+   ],
+   "flag": "COW Sudan (ccode 625) includes South Sudan before 2011",
+   "cite": "COW NMC v6.0 CINC, 1964–1969"
+  }
+ ]
 }

@@ -27,6 +27,8 @@
  "economy_ar": "تحذر مجموعة الأزمات من أن تعطل التجارة بسبب التوغلات قد يفاقم الوضع الإنساني في شمال أفريقيا الوسطى (ICG_RADAR2024) [مصدر واحد؛ يحتاج تحقق]. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
  "regional_power": [],
  "sources": [
+  "COW_NMC6",
+  "WB_WDI_API",
   "ICG_RADAR2024",
   "UNHCR_CAR2024",
   "GHA7_CH17",
@@ -39,8 +41,30 @@
  "flags": [
   "culture_dominance: no source-backed text yet",
   "regional_power: no actors scored",
+  "culture: left null – no source read",
+  "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
+  "[PARTIAL COVERAGE] era 1903–2026; scored on 1960–2016 only; years outside are null (pre-state, pre-1816 or post-2016)",
   "Colonial and 1960–2022 relations thin",
-  "RSF presence in Vakaga = allegations per UNHCR"
+  "RSF presence in Vakaga = allegations per UNHCR",
+  "null reason – culture: No LOC country study exists for CAR; no GHA/open source on Sudan–CAR cultural ties read this session; not inferred"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": "Central African Republic (state)",
+   "share": 0.01,
+   "year_range": [
+    1960,
+    2016
+   ],
+   "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1960–2016 (57 yrs); min 0.01, max 0.02; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+   "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+   "source_ids": [
+    "COW_NMC6",
+    "WB_WDI_API"
+   ],
+   "flag": "[PARTIAL COVERAGE] era 1903–2026; scored on 1960–2016 only; years outside are null (pre-state, pre-1816 or post-2016)",
+   "cite": "COW NMC v6.0 CINC, 1960–2016"
+  }
+ ]
 }

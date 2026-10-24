@@ -41,6 +41,8 @@
  "sources": [
   "GHA8",
   "HD2011",
+  "COW_NMC6",
+  "WB_WDI_API",
   "LOC1991_NIMEIRI",
   "LOC1991_TMC",
   "LOC1991_ECON",
@@ -60,11 +62,31 @@
  ],
  "flags": [
   "regional_power: no actors scored",
+  "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
+  "COW Sudan (ccode 625) includes South Sudan before 2011",
   "Arabic is a WORKING TRANSLATION needing native review",
   "SINGLE-SOURCE: Feb 1985 devaluation figures (WB_SDN1985)",
   "Differing estimates: Jonglei length dug (240 vs 250 km); riot start date (26 vs 30 Mar 1985)",
   "VERIFY: WB_SDN1985, MERIP1985, LAT1985, WPR_JONGLEI, WP:Jonglei_Canal",
   "1983 'Islamic economic laws': sources read only mention 1984 efforts to Islamize the economy and Faisal Islamic Bank privileges protected from 1983 (LOC1991_FINANCE); no specific economic statute named"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": "Democratic Republic of the Sudan",
+   "share": 0.11,
+   "year_range": [
+    1969,
+    1985
+   ],
+   "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1969–1985 (17 yrs); min 0.10, max 0.13; last-year CINCs SDN 0.00184, EGY 0.00802, ETH 0.00349, TCD 0.00033, LBY 0.00159, CAF 0.00021",
+   "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+   "source_ids": [
+    "COW_NMC6",
+    "WB_WDI_API"
+   ],
+   "flag": "COW Sudan (ccode 625) includes South Sudan before 2011",
+   "cite": "COW NMC v6.0 CINC, 1969–1985"
+  }
+ ]
 }

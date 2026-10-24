@@ -33,6 +33,8 @@
  "sources": [
   "GHA8",
   "HD2011",
+  "COW_NMC6",
+  "WB_WDI_API",
   "WP:History_of_Sudan_(1956–1969)"
  ],
  "source_langs": [
@@ -40,7 +42,27 @@
  ],
  "flags": [
   "regional_power: no actors scored",
-  "Pass 13 text: Arabic is a working translation; needs native review"
+  "Pass 13 text: Arabic is a working translation; needs native review",
+  "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
+  "COW Sudan (ccode 625) includes South Sudan before 2011"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": "Republic of Sudan",
+   "share": 0.1,
+   "year_range": [
+    1956,
+    1958
+   ],
+   "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1956–1958 (3 yrs); min 0.10, max 0.10; last-year CINCs SDN 0.00086, EGY 0.00532, ETH 0.00210, LBY 0.00021",
+   "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+   "source_ids": [
+    "COW_NMC6",
+    "WB_WDI_API"
+   ],
+   "flag": "COW Sudan (ccode 625) includes South Sudan before 2011",
+   "cite": "COW NMC v6.0 CINC, 1956–1958"
+  }
+ ]
 }

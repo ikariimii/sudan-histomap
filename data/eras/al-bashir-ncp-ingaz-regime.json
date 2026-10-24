@@ -61,6 +61,8 @@
   "RU_RIA_2011",
   "ZH_YU2008",
   "ZH_SUN2009",
+  "COW_NMC6",
+  "WB_WDI_API",
   "HD2011",
   "WP:Omar_al-Bashir",
   "WP:War_in_Darfur",
@@ -79,8 +81,28 @@
   "Several lens sources are Wikipedia or opinion pieces (AR_SUDANILE2013 is a Communist Party historian's opinion article); academic Arabic and Western monographs still needed",
   "ZH_YU2008/ZH_SUN2009 were read through the search index's full text; a direct PDF fetch was not possible (lens_zh flag)",
   "The 43bn debt and 510,000 bpd figures are single-source and unverified",
+  "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
+  "[PARTIAL COVERAGE] era 1989–2019; scored on 1989–2016 only; years outside are null (pre-state, pre-1816 or post-2016); COW Sudan (ccode 625) includes South Sudan before 2011",
   "no source gives a comparable measure of power",
   "ICG2019 calls Hemedti 'the most powerful man in the security forces' (2019) – qualitative, after the era; not scored"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": "Republic of Sudan (Government of Sudan / NCP)",
+   "share": 0.13,
+   "year_range": [
+    1989,
+    2016
+   ],
+   "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 1989–2016 (28 yrs); min 0.12, max 0.18; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+   "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+   "source_ids": [
+    "COW_NMC6",
+    "WB_WDI_API"
+   ],
+   "flag": "[PARTIAL COVERAGE] era 1989–2019; scored on 1989–2016 only; years outside are null (pre-state, pre-1816 or post-2016); COW Sudan (ccode 625) includes South Sudan before 2011",
+   "cite": "COW NMC v6.0 CINC, 1989–2016"
+  }
+ ]
 }

@@ -23,15 +23,15 @@
  "geopolitics_ar": "بالنسبة للسودان، هذه الحقبة هي حقبة الحكم الثنائي. ففي يناير 1899 أعاد اتفاق إنجليزي-مصري الحكم المصري إلى السودان ولكن في إطار حكم ثنائي، وحدّد الأراضي الواقعة جنوب خط العرض 22 بوصفها السودان الإنجليزي المصري، وفي الواقع أداره الحاكم العام البريطاني «كما لو كان إدارة استعمارية» (LOC1991_CONDO). وبعد اغتيال السير لي ستاك في القاهرة في نوفمبر 1924 أمرت بريطانيا بسحب جميع القوات والموظفين المصريين من السودان (LOC1991_CONDO). وترك اتفاق 1936 وضع السودان دون حسم، وانقسم الوطنيون السودانيون بين الاتحاد مع مصر والاستقلال (LOC1991_NATIONALISM). وفي فبراير 1953 وقّعت لندن والقاهرة اتفاقًا يمنح السودان فترة انتقالية مدتها ثلاث سنوات نحو الحكم الذاتي بعد قبول نجيب حق تقرير المصير (LOC1991_INDEP). ويعود إلى هذه الحقبة أيضًا الخط الإداري لعام 1902 الذي يقوم عليه لاحقًا نزاع حلايب (IBS18_1962). أما النيل فتذكر اتفاقية 1959 أن اتفاقية 1929 «لم تنظم إلا استخدامًا جزئيًا» للنهر (UNTS6519_1959) [شروط 1929 لم تُقرأ مباشرة – يحتاج تحقق]. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
  "culture_dominance_en": null,
  "culture_dominance_ar": null,
- "economy_en": null,
- "economy_ar": null,
+ "economy_en": "For Sudan, the Condominium economy rested partly on Egyptian money. Because taxes in Sudan were light, Britain and Egypt agreed that Egypt would give Sudan financial aid and loans for development and the budget: Egypt's contribution to the Sudanese budget was about £E 2.8 million for 1899–1916, and Egyptian loans about £E 5.4 million for 1900–10 (GHA VII ch.17, pp.455–456). The Gezira cotton scheme, started in 1911 by the Sudan government and the private Sudan Plantations Syndicate to supply Britain's textile industry, made cotton 'the mainstay of the country's economy' (LOC1991_CONDO; GHA VII ch.17, p.455, which gives the 40/35/25 tenant/government/syndicate split and the Sennar Dam of 1925).",
+ "economy_ar": "بالنسبة للسودان، قام اقتصاد الحكم الثنائي جزئيًا على المال المصري. فلأن الضرائب في السودان كانت خفيفة، اتفقت بريطانيا ومصر على أن تقدّم مصر للسودان معونات وقروضًا للتنمية والموازنة: بلغت مساهمة مصر في الموازنة السودانية نحو 2.8 مليون جنيه مصري للفترة 1899–1916، والقروض المصرية نحو 5.4 مليون جنيه للفترة 1900–1910 (تاريخ أفريقيا العام VII، الفصل 17، ص 455–456). وجعل مشروع الجزيرة للقطن، الذي أطلقته حكومة السودان ونقابة مزارع السودان الخاصة عام 1911 لتزويد صناعة النسيج البريطانية، القطنَ «عماد اقتصاد البلاد» (LOC1991_CONDO؛ تاريخ أفريقيا العام VII، الفصل 17، ص 455، الذي يذكر قسمة 40/35/25 بين المزارعين والحكومة والنقابة وخزان سنار عام 1925). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "GHA7_CH17",
   "LOC1991_CONDO",
   "LOC1991_NATIONALISM",
   "LOC1991_INDEP",
   "UNTS6519_1959",
-  "GHA7_CH17",
   "WP:Kingdom_of_Egypt"
  ],
  "source_langs": [
@@ -39,10 +39,13 @@
  ],
  "flags": [
   "culture_dominance: no source-backed text yet",
-  "economy: no source-backed text yet",
   "regional_power: no actors scored",
+  "Pass 22b text (Analyst modern fill 4): Arabic is a [WORKING TRANSLATION – needs native Arabic review]",
+  "culture: left null – no source read",
+  "economy: Egyptian budget figures SINGLE-SOURCE (GHA VII ch.17, citing Allan & Smith 1948 and Gaitskell 1959)",
   "economy: left null – no source read on Condominium-era Egypt–Sudan economic ties beyond existing Condominium era text",
-  "1929 agreement terms not read – VERIFY"
+  "1929 agreement terms not read – VERIFY",
+  "null reason – culture: No source read on Egyptian cultural influence in Sudan in 1882–1953 (LOC's Al-Azhar passage concerns the Turkiyah, 1821–85, a different era); not inferred"
  ],
  "curated": true
 }

@@ -39,6 +39,8 @@
  "economy_ar": "ورث جنوب السودان معظم نفط السودان السابق لكنه يصدّره عبر خطوط أنابيب السودان. وتتفاوت تقديرات الاعتماد على النفط: 98% من الموازنة (BBC_SHUTDOWN2012، يناير 2012) مقابل 95% من الإيرادات الحكومية و99% من الصادرات ونحو نصف الناتج المحلي (IMF_CR14345، الحاشية 1، 2014) [كلاهما VERIFY]. في يناير 2012 أوقف كل الإنتاج، وكان نحو 330 ألف برميل يوميًا، بسبب نزاع على رسوم العبور [SINGLE-SOURCE: IMF_CR14345 الفقرة 3؛ VERIFY]، وحذّر البنك الدولي من تراجع العملة ومن «ركود تضخمي» (WB_SSEB2012، أبريل 2012) [VERIFY]. وأصابت حرب السودان عام 2023 طريق التصدير: إذ تجمّد خام مزيج دار في خط بترودار في 10 فبراير 2024 لتعذّر وصول الديزل إلى محطة ضخ، ثم وقع تمزق كبير وأُعلنت القوة القاهرة (REUTERS_PIPE2024؛ SAS_OIL2024) [VERIFY؛ تختلف التقارير في تاريخ إعلان القوة القاهرة]. ويقول البنك الدولي إن الإنتاج تراجع بحدة في السنة المالية 2025 بعد توقف خط دار، ثم تعافى إلى 157 ألف برميل يوميًا مطلع 2026 بفضل اتفاق أمني لحماية منشآت التصدير في السودان؛ وبلغ متوسط التضخم (مقيسًا بأسعار الغذاء) 234%، ووصلت متأخرات الرواتب إلى 8–13 شهرًا بحلول يناير 2026، وارتفع الفقر المدقع من 84% (2024) إلى 87% (2025) [SINGLE-SOURCE: WB_SSD_OVERVIEW2026]. [Arabic: WORKING TRANSLATION – needs native review]",
  "regional_power": [],
  "sources": [
+  "COW_NMC6",
+  "WB_WDI_API",
   "UNESCO_MGIEP_SSD",
   "WB_SSD_OVERVIEW2026",
   "WB_SSEB2012",
@@ -63,10 +65,30 @@
  ],
  "flags": [
   "regional_power: no actors scored",
+  "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
+  "[PARTIAL COVERAGE] era 2011–2026; scored on 2011–2016 only; years outside are null (pre-state, pre-1816 or post-2016)",
   "Arabic is a WORKING TRANSLATION needing native review",
   "SINGLE-SOURCE: LSHTM2018 death estimate; IMF_CR14345 330k b/d; WB_SSD_OVERVIEW2026 FY25/26 figures and Feb 2027 extension",
   "VERIFY: all items marked – read via search excerpts only",
   "Oil dependence shown as differing estimates (BBC 98% budget vs IMF 95% revenue)"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": "Republic of South Sudan",
+   "share": 0.07,
+   "year_range": [
+    2011,
+    2016
+   ],
+   "basis": "COW NMC v6 CINC: mean share of the 8-state regional set over 2011–2016 (6 yrs); min 0.02, max 0.09; last-year CINCs SDN 0.00443, EGY 0.01006, ETH 0.00417, ERI 0.00226, TCD 0.00072, LBY 0.00077, CAF 0.00027, SSD 0.00187",
+   "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1); method approved 2026-10-24 (modern eras only)",
+   "source_ids": [
+    "COW_NMC6",
+    "WB_WDI_API"
+   ],
+   "flag": "[PARTIAL COVERAGE] era 2011–2026; scored on 2011–2016 only; years outside are null (pre-state, pre-1816 or post-2016)",
+   "cite": "COW NMC v6.0 CINC, 2011–2016"
+  }
+ ]
 }

@@ -62,6 +62,7 @@
   "UNNEWS2023",
   "JEDDAH2023",
   "IPC_FRC2024",
+  "COW_NMC6",
   "WB_MPO2024",
   "WB_SEU2025",
   "IPC_FRC_DEC2024",
@@ -80,9 +81,25 @@
   "en"
  ],
  "flags": [
+  "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
+  "no CINC: COW NMC v6 ends 2016 and era starts 2023; WDI indicators listed for context only, not scored",
   "Arabic: working translation, needs native review",
   "ongoing war; no defensible score",
   "ongoing war; no defensible score"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": "Republic of Sudan (SAF-led government)",
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "flag": "no CINC: COW NMC v6 ends 2016 and era starts 2023; WDI indicators listed for context only, not scored",
+   "null_reason": "data ends 2016"
+  }
+ ]
 }

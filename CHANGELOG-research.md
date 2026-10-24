@@ -62,3 +62,9 @@
 - [VERIFY] cleared after reading: UNSC 915, UNGA 390(V), UNGA 289(IV) A content, PCA Abyei 2009 (case page), EEBC 2002 mandate, ICJ 1994 holding (case page), COW NMC licence wording (no licence stated; citation requested). Kept: ICJ paragraph cites (judgment PDF behind Cloudflare), Badme award wording, Libya 24 Dec 1951 date, treaty texts, Gwynn line, EPLF Asmara date, Chad north 1910s, Aouzou 1973 start, OHM 2839926 naming, geoBoundaries licence, LOC_TCD1988 index.
 - db/regional_power_scores_proposal.json/.md: `power_cinc_share` (COW NMC v6 CINC, year range per era, 1816–2016 only) and separate `power_editorial` (Kush, Mahdist 0.9, EDITORIAL, unchanged); 2019 and 2023 eras null "data ends 2016"; caveats added (low-industry bias, Egypt pre-1960 inflation, South Sudan inside COW Sudan pre-2011 vs WDI, scale not comparable with editorial).
 - verify_citations: 136 checks, 0 problems (run serially).
+
+## Historian Pass 22b — merge era_fill_modern4 + COW NMC v6.0 CINC shares (derived)
+- Merged db/era_fill_modern4.json (Analyst 677d6c5/7cff461/04a1505, final): empty fields filled; all SINGLE-SOURCE / VERIFY / EDITORIAL / native-review badges preserved; 13 LOC source IDs registered; GHA VIII ch.30 Mazrui p.924 used.
+- Null fields keep explicit "null reason" flags (culture: British-occupied Egypt, CAR/Ubangi-Shari, Ali Dinar's Darfur); stale null-reason flags removed where fields are now filled.
+- `power_cinc_share` added as a DERIVED figure from COW NMC v6.0 CINC (1816–2016; method RP-CINC-SHARE-1), not comparable with editorial regional_power. Licence: none stated by COW; cited per COW's request (version + Singer, Bremer & Stuckey 1972). War era (2023–) = null (data ends 2016).
+- Front-end rendering of power_cinc_share is left to Web.

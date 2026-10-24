@@ -19,25 +19,27 @@
  "capitals": [],
  "geopolitics_en": "Evans-Pritchard classes the Anuak with the Shilluk-speaking (Luo) Nilotes, and says they occupy a continuous territory (1940, pp.3, 5). Seen from the Nuer side, the Pibor river separated the Lou Nuer from the Anuak, the Lou's use of the Geni and Pibor was disputed by the Anuak and Beir, and the Nuer had evacuated part of 'Anuakland', partly because of tsetse and stock losses (pp.62, 68, 112). Small pockets of Anuak on the Sobat had been 'conquered but not absorbed' by the Nuer (p.221). This is an outsider's (Nuer-focused) account. Evans-Pritchard's Anuak monograph (EP1940_ANUAK) was not read.",
  "geopolitics_ar": "يصنّف إيفانز-بريتشارد الأنواك ضمن النيليين الناطقين بلغات قريبة من الشلك (اللوو)، ويقول إنهم يشغلون أرضاً متصلة (1940، ص3، 5). ومن جهة النوير، كان نهر البيبور يفصل نوير اللو عن الأنواك، وكان الأنواك والبير ينازعون اللو في استخدام الجيني والبيبور، وكان النوير قد أخلوا جزءاً من «أرض الأنواك»، ويعود ذلك جزئياً إلى ذبابة تسي تسي وخسارة الماشية (ص62، 68، 112). وكانت جيوب صغيرة من الأنواك على السوباط «مغلوبة لكنها غير مندمجة» في مجتمع النوير (ص221). هذه رواية من الخارج (تركّز على النوير). ولم تُقرأ دراسة إيفانز-بريتشارد عن الأنواك (EP1940_ANUAK). [WORKING TRANSLATION – needs native Arabic review]",
- "culture_dominance_en": null,
- "culture_dominance_ar": null,
+ "culture_dominance_en": "Language and identity only; no ethnography read. The Library of Congress study classes the Anuak with the Nuer in the East Sudanic family of Nilo-Saharan and says that, whereas most Nuer are in Sudan, 'the Anuak live almost entirely in Ethiopia' (LOC_ETH1991_NILOSAHARAN). GHA V places the Anywa in the Northern Luo group on the Sudan–Ethiopia border (GHAV, ch.7, p.193). [SINGLE-SOURCE per point; no source on Anuak religion, kingship or language use read]",
+ "culture_dominance_ar": "اللغة والهوية فقط؛ لم تُقرأ أي دراسة إثنوغرافية. تصنّف دراسة مكتبة الكونغرس الأنواك مع النوير ضمن العائلة السودانية الشرقية من اللغات النيلية الصحراوية، وتذكر أنه بينما يعيش معظم النوير في السودان «يعيش الأنواك كلهم تقريبًا في إثيوبيا» (LOC_ETH1991_NILOSAHARAN). ويضع تاريخ أفريقيا العام الخامس الأنيوا ضمن مجموعة اللوو الشمالية على الحدود السودانية الإثيوبية (GHAV، الفصل 7، ص 193). [مصدر واحد لكل نقطة] [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "The Anuak are described as a people with 'few or no cattle', whom the Nuer held in contempt for it (Evans-Pritchard 1940, p.16). The Nuer obtained good dug-out canoes from the Anuak by exchange or theft (p.72), and possibly tobacco from the Anuak of the Baro and Gila rivers, though more likely by raiding (p.88). This is a Nuer-centred, 1930s account and does not describe Anuak production directly.",
  "economy_ar": "يوصف الأنواك بأنهم شعب «قليل الماشية أو بلا ماشية»، واحتقرهم النوير لذلك (إيفانز-بريتشارد 1940، ص16). وحصل النوير على قوارب جذوع جيدة من الأنواك بالمقايضة أو السرقة (ص72)، وربما على التبغ من أنواك نهري بارو وجيلا، وإن كان الأرجح أنه بالإغارة (ص88). هذه رواية تتمحور حول النوير من الثلاثينيات، ولا تصف إنتاج الأنواك مباشرة. [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
   "EP1940_NUER",
+  "LOC_ETH1991_NILOSAHARAN",
+  "GHAV",
   "EP1940_ANUAK"
  ],
  "source_langs": [
   "en"
  ],
  "flags": [
-  "culture_dominance: no source-backed text yet",
   "regional_power: no actors scored",
   "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "SINGLE-SOURCE – outsider view from Evans-Pritchard's Nuer monograph (1930s fieldwork)",
-  "null reason – culture: no Anuak cultural passage read (EP1940_ANUAK not on the box)",
-  "null reason – culture: GHA V ch.7 p.193 only places the Anywa in the Northern Luo group, straddling the Sudan–Ethiopia border; Evans-Pritchard 1940 has only Nuer-centred remarks (pp.38, 108); no Anuak ethnography read"
+  "Pass 22b text (Analyst modern fill 4): Arabic is a [WORKING TRANSLATION – needs native Arabic review]",
+  "SINGLE-SOURCE – each statement rests on one source",
+  "culture: language/location only, no Anuak cultural ethnography read (EP1940_ANUAK still not on the box)"
  ],
  "curated": true
 }
