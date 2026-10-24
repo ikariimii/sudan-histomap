@@ -103,3 +103,11 @@
 ## Pass 24b (Historian): Innovation Manager reversed the Egypt ruling
 - British-occupied Egypt CINC share set to null: "COW counts Egypt as a state only from 1937; earlier years are not scored". This replaces the 0.77 from Pass 24.
 - No separate Kingdom of Egypt era exists, so none was created. 1937–1953 is covered by british-occupied-kingdom-of-egypt (1882–1953). republic-of-egypt starts in 1953.
+
+## Backlog idea (Historian, 2026-10-24): not done, needs sign-off
+- Split "British-occupied / Kingdom of Egypt" (british-occupied-kingdom-of-egypt, 1882–1953) into two eras:
+  - British-occupied Egypt (1882–1922/1936)
+  - Kingdom of Egypt (1922/1937–1953)
+- The Kingdom era could then take a 1937–1953 NMC v6.0 CINC share, cited "NMC v6.0, 1937–1953" and marked [VERIFY]. It would cover 17 Egypt (651) rows over the same comparison set (RP-CINC-SHARE-1). The value has not been computed yet.
+- British-occupied Egypt keeps its null reason: "COW counts Egypt as a state only from 1937; earlier years are not scored".
+- Needs: Innovation Manager sign-off on the split and its boundary year (1922 or 1936/1937), and Map Designer extents for both eras.
