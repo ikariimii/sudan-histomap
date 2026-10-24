@@ -608,6 +608,47 @@
      "mamluk-sultanate"
     ],
     "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+   },
+   "WD:Q584387": {
+    "id": "WD:Q584387",
+    "author": "Wikidata contributors",
+    "title": "Faras (Q584387) – archaeological site in Sudan (Nubia); coordinates 22.2N 31.46E",
+    "publisher": "Wikimedia Foundation",
+    "date": "retrieved 2026-10-24",
+    "url": "https://www.wikidata.org/wiki/Q584387",
+    "license": "CC0 1.0",
+    "verification": "wbgetentities API read 2026-10-24: P625 22.2/31.46, P1584 Pleiades 795838, P1566 GeoNames 363416",
+    "used_by": [
+     "a-group-lower-nubia"
+    ],
+    "note": "Gazetteer anchor only; the A-Group attribution is GHA2_CH9 pp.245, 249."
+   },
+   "PL:795838": {
+    "id": "PL:795838",
+    "author": "Pleiades gazetteer",
+    "title": "Place 795838 (Faras / Pachoras)",
+    "publisher": "ISAW, NYU",
+    "date": "[VERIFY] page not opened; ID via Wikidata P1584",
+    "url": "https://pleiades.stoa.org/places/795838",
+    "license": "CC BY 3.0",
+    "used_by": [
+     "a-group-lower-nubia"
+    ],
+    "note": "Cross-reference only."
+   },
+   "WD:Q11924140": {
+    "id": "WD:Q11924140",
+    "author": "Wikidata contributors",
+    "title": "Qerri / Gerri (Q11924140) – settlement in Sudan; coordinates 16.235551N 32.631633E",
+    "publisher": "Wikimedia Foundation",
+    "date": "retrieved 2026-10-24",
+    "url": "https://www.wikidata.org/wiki/Q11924140",
+    "license": "CC0 1.0",
+    "verification": "wbgetentities API read 2026-10-24: P625 16.235551/32.631633, P17 Sudan, P1566 GeoNames 368398",
+    "used_by": [
+     "abdallab-chiefdom-funj-vassal"
+    ],
+    "note": "Gazetteer anchor only; the seat attribution is GHA5_CH7 p.172 (\"Kerri\")."
    }
   }
  }
