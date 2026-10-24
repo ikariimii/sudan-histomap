@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "author": "Sudan Historian",
+    "date": "2026-10-24",
+    "purpose": "Far-end anchors for batch 1 relation arrows (db/group_layers, Map Designer 4539333). Wikidata labels/coords checked live via wikidata.org API on 2026-10-24; entity-place pairing checked in the GHA full texts on the box.",
+    "wikidata_note": "Coordinates are Wikidata P625 (point), not boundaries. Arabic labels are Wikidata's, a working translation needing native review.",
+    "rules": "Anchors are APPROXIMATE points only; no limits implied."
+  },
+  "verified": [
+    {"entity": "Nubia (Makuria)", "qid": "Q433112", "label_en": "Old Dongola", "label_ar": "دنقلا العجوز", "lat": 18.223056, "lon": 30.743889,
+     "verdict": "confirmed", "cite": {"source": "GHA4_CH16", "page": "p.399"}, "quote": "al-Mukurra (in Graeco-Coptic, Makuria) with its capital in Dunkula (Old Dongola)", "badge": "APPROXIMATE"},
+    {"entity": "Turco-Egyptian government, its forces, and al-Zubayr", "qid": "Q1963", "label_en": "Khartoum", "label_ar": "الخرطوم", "lat": 15.60308, "lon": 32.52654,
+     "verdict": "confirmed with caveat", "cite": {"source": "GHA6_CH14", "page": "p.363"}, "quote": "a governor-general based at the newly founded town of Khartoum",
+     "caveat": "Khartoum is the seat of the regime only after it was founded in the 1820s. For the 1821 Sennar capitulation (rel-funj-05) and the 1822 Shendi revolt (rel-jaaliyyin-03) the anchor is a symbol of the regime, not where its forces stood. Al-Zubayr was a trader active in Bahr al-Ghazal, not based in Khartoum; for rel-fur-06 the anchor stands for the regime only.",
+     "badge": "APPROXIMATE; EDITORIAL for rel-funj-05, rel-jaaliyyin-03 and rel-fur-06"},
+    {"entity": "Fur sultanate", "qid": "Q311204", "label_en": "Al-Fashir", "label_ar": "الفاشر", "lat": 13.626983, "lon": 25.349583,
+     "verdict": "confirmed with caveat", "cite": {"source": "GHA5_CH7", "page": "p.190"}, "quote": "Until then the Fur sultans had no fixed capital. The growth of a permanent capital at al-Fashir ... in the reign of 'Abd al-Rahman",
+     "caveat": "Before 'Abd al-Rahman's reign the Fur sultans had no fixed capital, so for earlier relations (rel-fur-01 Sulayman Solongdungu, rel-fur-04 Ya'qub / 'Umar Lel) al-Fashir is an anachronistic symbol of the sultanate.",
+     "badge": "APPROXIMATE; EDITORIAL for pre-'Abd al-Rahman arrows"},
+    {"entity": "Funj", "qid": "Q611867", "label_en": "Sennar", "label_ar": "سنار", "lat": 13.55, "lon": 33.6,
+     "verdict": "confirmed; label corrected", "label_issue": "Wikidata's English label reads 'Sengs' (an error on Wikidata); the Arabic label سنار and description 'Town in Sennar State, Sudan' match. Display 'Sennar'; we do not edit Wikidata.",
+     "cite": {"source": "GHA5_CH7", "page": "p.178"}, "quote": "the two monarchs conducted the war from their capitals ... Iyasu II marched at the head of a large Ethiopian army against Sennar",
+     "badge": "APPROXIMATE"},
+    {"entity": "'Abdallab", "qid": "Q11924140", "label_en": "Qerri", "label_ar": "قري الوادي", "lat": 16.235551, "lon": 32.631633,
+     "verdict": "confirmed", "cite": {"source": "GHA5_CH7", "page": "p.172"}, "quote": "'Abdallah Djamma' and his descendants, the 'Abdallabi, administered the new regime from Kerri, north of Soba, on the main Nile",
+     "badge": "APPROXIMATE"}
+  ],
+  "new_anchors": [
+    {"entity": "Tunjur", "relations": ["rel-fur-01"], "qid": "Q405860", "label_en": "Ain Farah", "label_ar": "عين فرح", "lat": 16.7603, "lon": 29.1878,
+     "cite": {"source": "GHA4_CH16", "page": "p.421"}, "quote": "the verification of Christian influence at 'Ayn Farah led him [Arkell] to restate it, saying that Tundjur rule was under Nubian protection ... Uri in northern Darfur, in Arkell's view, was a centre of Tundjur rule",
+     "note": "Uri is the better-attested centre in the text but has no Wikidata item found; Ain Farah is the Wikidata-listed site the same page ties to the Tunjur. Both rest on Arkell's hypotheses as reported by Kropacek.",
+     "badge": "APPROXIMATE; SINGLE-SOURCE; CONTESTED"},
+    {"entity": "Wadai", "relations": ["rel-fur-04"], "qid": "Q1974522", "label_en": "Ouara (Wara)", "label_ar": "وارا", "lat": 14.226667, "lon": 20.672222,
+     "cite": {"source": "GHA4_CH16", "page": "p.421"}, "quote": "the legendary Tundjur 'pagan kingdom' of Wadai with its capital at Wara",
+     "note": "The registered source names Wara as capital of the Tunjur-era Wadai kingdom, not explicitly of the 17th–18th-century sultanate in rel-fur-04. Wikidata Q1132786 (Ouaddai Empire) lists a capital (P36) but I did not use an unsourced claim.",
+     "badge": "APPROXIMATE; SINGLE-SOURCE; VERIFY"},
+    {"entity": "Masalit", "relations": ["rel-fur-07"], "qid": "Q56545571", "label_en": "Dar Masalit", "label_ar": null, "lat": 12.75, "lon": 22.58333,
+     "cite": {"source": "GHA7_CH23", "page": "p.593"}, "quote": "By May 1922, this period of resistance in Dar Masalit had ended.",
+     "note": "Q56545571 is a geographic region (P31 Q82794) with no labels on Wikidata; the point is its region point, not a town. No Arabic label; Arabic 'دار مساليت' would be our working translation, needing native review.",
+     "badge": "APPROXIMATE; SINGLE-SOURCE"}
+  ],
+  "nulls": [
+    {"entity": "Shaigiyya", "relations": ["rel-shaigiyya-01", "rel-shaigiyya-02", "rel-shaigiyya-03"], "anchor": null,
+     "reason": "GHA5_CH7 p.185 only says the Shaykiyya 'became a major force in the region of Dunkula'; GHA7_CH4 p.74 names no place. No registered source I have read names a Shaigiyya settlement, so no point is given. Dongola is already the Danagla anchor and would be misleading."},
+    {"entity": "Hamaj (regents)", "relations": ["rel-funj-03"], "anchor": null,
+     "reason": "GHA5_CH7 p.185: 'Hamadj' was 'applied by Sudanese Arabs to some of the ancient peoples of the Djazira', a region with no point. As regents they ruled at Sennar, so an arrow Funj-Hamaj would have zero length. Gezira State (Q309469) is a modern unit and would be anachronistic."}
+  ]
+}
