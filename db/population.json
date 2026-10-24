@@ -96,6 +96,1370 @@
   }
  },
  "eras": {
+  "khartoum-mesolithic-early-khartoum": {
+   "era_id": "khartoum-mesolithic-early-khartoum",
+   "name_en": "Khartoum Mesolithic (Early Khartoum)",
+   "start": -8500,
+   "end": -5000,
+   "reference_year": -7000,
+   "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+   "point": 55072,
+   "low": 33007,
+   "high": 153412,
+   "range_kind": "HYDE values at the series years inside the era (-8000, -7000, -6000, -5000); change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": -8000,
+     "value": 33007,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": -7000,
+     "value": 55072,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": -6000,
+     "value": 91905,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": -5000,
+     "value": 153412,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "caveat": "HYDE prehistoric/ancient country values are model allocations of regional totals, not archaeological counts; they cover the whole modern territory, not the polity. Mesolithic-era values are essentially extrapolations."
+  },
+  "khartoum-neolithic-shaheinab": {
+   "era_id": "khartoum-neolithic-shaheinab",
+   "name_en": "Khartoum Neolithic (Shaheinab)",
+   "start": -4900,
+   "end": -3800,
+   "reference_year": -4000,
+   "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+   "point": 256161,
+   "low": 256161,
+   "high": 256161,
+   "range_kind": "HYDE values at the series years inside the era (-4000); change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": -4000,
+     "value": 256161,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "caveat": "HYDE prehistoric/ancient country values are model allocations of regional totals, not archaeological counts; they cover the whole modern territory, not the polity. Only one HYDE step (-4000) falls inside the era."
+  },
+  "a-group-lower-nubia": {
+   "era_id": "a-group-lower-nubia",
+   "name_en": "A-Group (Lower Nubia)",
+   "start": -3800,
+   "end": -2900,
+   "reference_year": -3000,
+   "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+   "point": 427882,
+   "low": 427882,
+   "high": 427882,
+   "range_kind": "HYDE values at the series years inside the era (-3000); change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": -3000,
+     "value": 427882,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "caveat": "HYDE prehistoric/ancient country values are model allocations of regional totals, not archaeological counts; they cover the whole modern territory, not the polity. "
+  },
+  "early-dynastic-old-kingdom-egypt": {
+   "era_id": "early-dynastic-old-kingdom-egypt",
+   "name_en": "Early Dynastic & Old Kingdom Egypt",
+   "start": -3100,
+   "end": -2181,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "kingdom-of-kerma": {
+   "era_id": "kingdom-of-kerma",
+   "name_en": "Kingdom of Kerma",
+   "start": -2450,
+   "end": -1480,
+   "reference_year": -2000,
+   "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+   "point": 715031,
+   "low": 715031,
+   "high": 715031,
+   "range_kind": "HYDE values at the series years inside the era (-2000); change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": -2000,
+     "value": 715031,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "caveat": "HYDE prehistoric/ancient country values are model allocations of regional totals, not archaeological counts; they cover the whole modern territory, not the polity. "
+  },
+  "c-group-lower-nubia": {
+   "era_id": "c-group-lower-nubia",
+   "name_en": "C-Group (Lower Nubia)",
+   "start": -2400,
+   "end": -1550,
+   "reference_year": -2000,
+   "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+   "point": 715031,
+   "low": 715031,
+   "high": 715031,
+   "range_kind": "HYDE values at the series years inside the era (-2000); change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": -2000,
+     "value": 715031,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "caveat": "HYDE prehistoric/ancient country values are model allocations of regional totals, not archaeological counts; they cover the whole modern territory, not the polity. "
+  },
+  "middle-kingdom-egypt": {
+   "era_id": "middle-kingdom-egypt",
+   "name_en": "Middle Kingdom Egypt",
+   "start": -2055,
+   "end": -1650,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "new-kingdom-egypt": {
+   "era_id": "new-kingdom-egypt",
+   "name_en": "New Kingdom Egypt",
+   "start": -1550,
+   "end": -1070,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "egyptian-new-kingdom-rule-in-nubia": {
+   "era_id": "egyptian-new-kingdom-rule-in-nubia",
+   "name_en": "Egyptian New Kingdom rule in Nubia",
+   "start": -1500,
+   "end": -1070,
+   "reference_year": -1000,
+   "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+   "point": 1195508,
+   "low": 1195508,
+   "high": 1195508,
+   "range_kind": "HYDE values at the series years inside the era (-1000); change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": -1000,
+     "value": 1195508,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "caveat": "HYDE prehistoric/ancient country values are model allocations of regional totals, not archaeological counts; they cover the whole modern territory, not the polity. Nearest HYDE step (-1000) is at the end of the era."
+  },
+  "sabaean-south-arabian-kingdoms": {
+   "era_id": "sabaean-south-arabian-kingdoms",
+   "name_en": "Sabaean & South Arabian kingdoms",
+   "start": -1000,
+   "end": 275,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "land-of-punt-d-mt": {
+   "era_id": "land-of-punt-d-mt",
+   "name_en": "Land of Punt / D'mt",
+   "start": -980,
+   "end": -400,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "kingdom-of-kush-napatan-period": {
+   "era_id": "kingdom-of-kush-napatan-period",
+   "name_en": "Kingdom of Kush – Napatan period",
+   "start": -800,
+   "end": -270,
+   "reference_year": 0,
+   "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+   "point": 2000091,
+   "low": 1195508,
+   "high": 2000091,
+   "range_kind": "HYDE values at the series years inside the era (-1000, 0); change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": -1000,
+     "value": 1195508,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 0,
+     "value": 2000091,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "caveat": "HYDE prehistoric/ancient country values are model allocations of regional totals, not archaeological counts; they cover the whole modern territory, not the polity. No HYDE step strictly inside -800/-270; bracketing steps -1000 and 0 CE shown."
+  },
+  "late-period-persian-egypt": {
+   "era_id": "late-period-persian-egypt",
+   "name_en": "Late Period / Persian Egypt",
+   "start": -664,
+   "end": -332,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "garamantes-fezzan": {
+   "era_id": "garamantes-fezzan",
+   "name_en": "Garamantes (Fezzan)",
+   "start": -500,
+   "end": 700,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "ptolemaic-egypt": {
+   "era_id": "ptolemaic-egypt",
+   "name_en": "Ptolemaic Egypt",
+   "start": -305,
+   "end": -30,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "kingdom-of-kush-meroitic-period": {
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "name_en": "Kingdom of Kush – Meroitic period",
+   "start": -270,
+   "end": 350,
+   "reference_year": 0,
+   "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+   "point": 2000091,
+   "low": 2000091,
+   "high": 2206841,
+   "range_kind": "HYDE values at the series years inside the era (0, 100, 200, 300); change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 0,
+     "value": 2000091,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 100,
+     "value": 2066761,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 200,
+     "value": 2135653,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 300,
+     "value": 2206841,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "caveat": "HYDE prehistoric/ancient country values are model allocations of regional totals, not archaeological counts; they cover the whole modern territory, not the polity. "
+  },
+  "roman-byzantine-egypt": {
+   "era_id": "roman-byzantine-egypt",
+   "name_en": "Roman & Byzantine Egypt",
+   "start": -30,
+   "end": 641,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "kingdom-of-aksum": {
+   "era_id": "kingdom-of-aksum",
+   "name_en": "Kingdom of Aksum",
+   "start": 100,
+   "end": 940,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "beja-red-sea-hills-peoples": {
+   "era_id": "beja-red-sea-hills-peoples",
+   "name_en": "Beja (Red Sea Hills peoples)",
+   "start": 275,
+   "end": 2026,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
+   "badges": []
+  },
+  "noba-x-group-ballana-culture": {
+   "era_id": "noba-x-group-ballana-culture",
+   "name_en": "Noba / X-Group (Ballana culture)",
+   "start": 350,
+   "end": 550,
+   "reference_year": 400,
+   "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+   "point": 2280403,
+   "low": 2280403,
+   "high": 2356416,
+   "range_kind": "HYDE values at the series years inside the era (400, 500); change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 400,
+     "value": 2280403,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 500,
+     "value": 2356416,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "caveat": "HYDE prehistoric/ancient country values are model allocations of regional totals, not archaeological counts; they cover the whole modern territory, not the polity. "
+  },
+  "nobadia": {
+   "era_id": "nobadia",
+   "name_en": "Nobadia",
+   "start": 400,
+   "end": 700,
+   "reference_year": 500,
+   "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+   "point": 2356416,
+   "low": 2280403,
+   "high": 2516129,
+   "range_kind": "HYDE values at the series years inside the era (400, 500, 600, 700); change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 400,
+     "value": 2280403,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 500,
+     "value": 2356416,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 600,
+     "value": 2434963,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 700,
+     "value": 2516129,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "caveat": "HYDE prehistoric/ancient country values are model allocations of regional totals, not archaeological counts; they cover the whole modern territory, not the polity. "
+  },
+  "alodia-alwa": {
+   "era_id": "alodia-alwa",
+   "name_en": "Alodia (Alwa)",
+   "start": 500,
+   "end": 1504,
+   "reference_year": 1000,
+   "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+   "point": 3000000,
+   "low": 2356416,
+   "high": 4000000,
+   "range_kind": "HYDE values at the series years inside the era (500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500); change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 500,
+     "value": 2356416,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 600,
+     "value": 2434963,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 700,
+     "value": 2516129,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 800,
+     "value": 2600000,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 900,
+     "value": 2800000,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 1000,
+     "value": 3000000,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 1100,
+     "value": 3100000,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 1200,
+     "value": 3200000,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 1300,
+     "value": 3466666,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 1400,
+     "value": 3733333,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 1500,
+     "value": 4000000,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "caveat": "HYDE prehistoric/ancient country values are model allocations of regional totals, not archaeological counts; they cover the whole modern territory, not the polity. "
+  },
+  "makuria": {
+   "era_id": "makuria",
+   "name_en": "Makuria",
+   "start": 500,
+   "end": 1500,
+   "reference_year": 1000,
+   "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+   "point": 3000000,
+   "low": 2356416,
+   "high": 4000000,
+   "range_kind": "HYDE values at the series years inside the era (500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500); change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 500,
+     "value": 2356416,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 600,
+     "value": 2434963,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 700,
+     "value": 2516129,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 800,
+     "value": 2600000,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 900,
+     "value": 2800000,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 1000,
+     "value": 3000000,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 1100,
+     "value": 3100000,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 1200,
+     "value": 3200000,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 1300,
+     "value": 3466666,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 1400,
+     "value": 3733333,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 1500,
+     "value": 4000000,
+     "territory": "HYDE \"Sudan\" country series (OWID SDN; no separate South Sudan value for these years — territory assumed former Sudan, VERIFY)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "caveat": "HYDE prehistoric/ancient country values are model allocations of regional totals, not archaeological counts; they cover the whole modern territory, not the polity. "
+  },
+  "rise-of-islam-caliphates": {
+   "era_id": "rise-of-islam-caliphates",
+   "name_en": "Rise of Islam & Caliphates",
+   "start": 610,
+   "end": 1258,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "islamic-egypt-rashidunfatimidayyubid": {
+   "era_id": "islamic-egypt-rashidunfatimidayyubid",
+   "name_en": "Islamic Egypt (Rashidun–Fatimid–Ayyubid)",
+   "start": 641,
+   "end": 1250,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "kanem-empire": {
+   "era_id": "kanem-empire",
+   "name_en": "Kanem Empire",
+   "start": 700,
+   "end": 1380,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "zagwe-dynasty": {
+   "era_id": "zagwe-dynasty",
+   "name_en": "Zagwe dynasty",
+   "start": 900,
+   "end": 1270,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "daju-kingdom": {
+   "era_id": "daju-kingdom",
+   "name_en": "Daju kingdom",
+   "start": 1100,
+   "end": 1400,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
+   "badges": []
+  },
+  "suakin-red-sea-port-beja-ottoman": {
+   "era_id": "suakin-red-sea-port-beja-ottoman",
+   "name_en": "Suakin – Red Sea port (Beja, Ottoman)",
+   "start": 1100,
+   "end": 1922,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
+   "badges": []
+  },
+  "mamluk-sultanate": {
+   "era_id": "mamluk-sultanate",
+   "name_en": "Mamluk Sultanate",
+   "start": 1250,
+   "end": 1517,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "ethiopian-empire-solomonic": {
+   "era_id": "ethiopian-empire-solomonic",
+   "name_en": "Ethiopian Empire (Solomonic)",
+   "start": 1270,
+   "end": 1974,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "bornu-empire": {
+   "era_id": "bornu-empire",
+   "name_en": "Bornu Empire",
+   "start": 1380,
+   "end": 1893,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "tunjur-kingdom": {
+   "era_id": "tunjur-kingdom",
+   "name_en": "Tunjur kingdom",
+   "start": 1400,
+   "end": 1650,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
+   "badges": []
+  },
+  "abdallab-chiefdom-funj-vassal": {
+   "era_id": "abdallab-chiefdom-funj-vassal",
+   "name_en": "'Abdallab chiefdom (Funj vassal)",
+   "start": 1480,
+   "end": 1821,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
+   "badges": []
+  },
+  "shilluk-kingdom": {
+   "era_id": "shilluk-kingdom",
+   "name_en": "Shilluk Kingdom",
+   "start": 1490,
+   "end": 1861,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
+   "badges": []
+  },
+  "anuak-anywaa-communities": {
+   "era_id": "anuak-anywaa-communities",
+   "name_en": "Anuak (Anywaa) communities",
+   "start": 1500,
+   "end": 2026,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
+   "badges": []
+  },
+  "dinka-jieng-communities": {
+   "era_id": "dinka-jieng-communities",
+   "name_en": "Dinka (Jieng) communities",
+   "start": 1500,
+   "end": 2026,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
+   "badges": []
+  },
+  "ja-aliyyin-kingdom-sa-dab-funj-vassal": {
+   "era_id": "ja-aliyyin-kingdom-sa-dab-funj-vassal",
+   "name_en": "Ja'aliyyin kingdom (Sa'dab, Funj vassal)",
+   "start": 1500,
+   "end": 1821,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
+   "badges": []
+  },
+  "nuer-naath-communities": {
+   "era_id": "nuer-naath-communities",
+   "name_en": "Nuer (Naath) communities",
+   "start": 1500,
+   "end": 2026,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
+   "badges": []
+  },
+  "funj-sultanate-of-sennar": {
+   "era_id": "funj-sultanate-of-sennar",
+   "name_en": "Funj Sultanate of Sennar",
+   "start": 1504,
+   "end": 1821,
+   "reference_year": 1700,
+   "territory": "modern Sudan + South Sudan (country series summed)",
+   "point": 5500200,
+   "low": 5159300,
+   "high": 5500200,
+   "range_kind": "HYDE values at the series years inside the era (1600, 1700); change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 1600,
+     "value": 5159300,
+     "territory": "modern Sudan + South Sudan (country series summed)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 1700,
+     "value": 5500200,
+     "territory": "modern Sudan + South Sudan (country series summed)",
+     "method": "HYDE 3.3 country estimate (hindcast from land-use/suitability model), via OWID",
+     "sources": [
+      "POP_OWID_POP",
+      "POP_HYDE33"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "caveat": "HYDE prehistoric/ancient country values are model allocations of regional totals, not archaeological counts; they cover the whole modern territory, not the polity. From 1600 HYDE provides separate SDN and SSD values (summed). 1710–1790 values in the OWID series are not used due to a level break at 1710."
+  },
+  "ottoman-egypt-muhammad-ali-dynasty": {
+   "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+   "name_en": "Ottoman Egypt & Muhammad Ali dynasty",
+   "start": 1517,
+   "end": 1882,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "ottoman-hejaz-saudi-state": {
+   "era_id": "ottoman-hejaz-saudi-state",
+   "name_en": "Ottoman Hejaz & Saudi state",
+   "start": 1517,
+   "end": 2026,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "libya-ottoman-italian-independent": {
+   "era_id": "libya-ottoman-italian-independent",
+   "name_en": "Libya (Ottoman, Italian, independent)",
+   "start": 1551,
+   "end": 2026,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "wadai-sultanate": {
+   "era_id": "wadai-sultanate",
+   "name_en": "Wadai Sultanate",
+   "start": 1635,
+   "end": 1912,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "sultanate-of-darfur-keira": {
+   "era_id": "sultanate-of-darfur-keira",
+   "name_en": "Sultanate of Darfur (Keira)",
+   "start": 1650,
+   "end": 1874,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
+   "badges": []
+  },
+  "musabba-at-sultanate-kordofan": {
+   "era_id": "musabba-at-sultanate-kordofan",
+   "name_en": "Musabba'at sultanate (Kordofan)",
+   "start": 1680,
+   "end": 1785,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
+   "badges": []
+  },
+  "zande-kingdoms": {
+   "era_id": "zande-kingdoms",
+   "name_en": "Zande kingdoms",
+   "start": 1700,
+   "end": 1905,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
+   "badges": []
+  },
+  "kingdom-of-taqali": {
+   "era_id": "kingdom-of-taqali",
+   "name_en": "Kingdom of Taqali",
+   "start": 1750,
+   "end": 1969,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
+   "badges": []
+  },
+  "turkiyya-ottoman-egyptian-rule": {
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "name_en": "Turkiyya (Ottoman-Egyptian rule)",
+   "start": 1821,
+   "end": 1885,
+   "reference_year": 1850,
+   "territory": "modern Sudan + South Sudan (current borders)",
+   "point": 5893779,
+   "low": 5214748,
+   "high": 6667430,
+   "range_kind": "modelled values at era start/end",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 1821,
+     "value": 5214748,
+     "territory": "SDN+SSD current borders",
+     "method": "Gapminder v7 reconstruction (via OWID)",
+     "sources": [
+      "POP_OWID_POP"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 1850,
+     "value": 5893779,
+     "territory": "SDN+SSD current borders",
+     "method": "Gapminder v7 reconstruction (via OWID)",
+     "sources": [
+      "POP_OWID_POP"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 1885,
+     "value": 6667430,
+     "territory": "SDN+SSD current borders",
+     "method": "Gapminder v7 reconstruction (via OWID)",
+     "sources": [
+      "POP_OWID_POP"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "caveat": "Gapminder pre-1950 values for Sudan are smooth interpolations, not counts; Gapminder is an extra source beyond the brief (needs IM OK)."
+  },
+  "british-occupied-kingdom-of-egypt": {
+   "era_id": "british-occupied-kingdom-of-egypt",
+   "name_en": "British-occupied / Kingdom of Egypt",
+   "start": 1882,
+   "end": 1953,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "mahdist-state-mahdiyya": {
+   "era_id": "mahdist-state-mahdiyya",
+   "name_en": "Mahdist State (Mahdiyya)",
+   "start": 1885,
+   "end": 1899,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Only a smooth modelled interpolation (Gapminder) exists; it cannot reflect the war/famine losses debated for 1885–1899. No defensible figure.",
+   "badges": []
+  },
+  "eritrea-italian-colony-independent": {
+   "era_id": "eritrea-italian-colony-independent",
+   "name_en": "Eritrea (Italian colony → independent)",
+   "start": 1890,
+   "end": 2026,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "restored-darfur-sultanate-ali-dinar": {
+   "era_id": "restored-darfur-sultanate-ali-dinar",
+   "name_en": "Restored Darfur Sultanate (Ali Dinar)",
+   "start": 1898,
+   "end": 1916,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
+   "badges": []
+  },
   "anglo-egyptian-sudan-condominium": {
    "era_id": "anglo-egyptian-sudan-condominium",
    "name_en": "Anglo-Egyptian Sudan (Condominium)",
@@ -227,6 +1591,39 @@
     "CONTESTED"
    ],
    "note": "The South is also inside the former-Sudan totals of the Republic eras; do not add."
+  },
+  "french-chad-republic-of-chad": {
+   "era_id": "french-chad-republic-of-chad",
+   "name_en": "French Chad → Republic of Chad",
+   "start": 1900,
+   "end": 2026,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "central-african-republic-ubangi-shari": {
+   "era_id": "central-african-republic-ubangi-shari",
+   "name_en": "Central African Republic (Ubangi-Shari)",
+   "start": 1903,
+   "end": 2026,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
+  "republic-of-egypt": {
+   "era_id": "republic-of-egypt",
+   "name_en": "Republic of Egypt",
+   "start": 1953,
+   "end": 2026,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
   },
   "independent-sudan-first-parliamentary-period": {
    "era_id": "independent-sudan-first-parliamentary-period",
@@ -401,6 +1798,17 @@
     "CONTESTED"
    ]
   },
+  "derg-federal-ethiopia": {
+   "era_id": "derg-federal-ethiopia",
+   "name_en": "Derg & Federal Ethiopia",
+   "start": 1974,
+   "end": 2026,
+   "point": null,
+   "low": null,
+   "high": null,
+   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
+   "badges": []
+  },
   "transitional-third-parliamentary-period": {
    "era_id": "transitional-third-parliamentary-period",
    "name_en": "Transitional & third parliamentary period",
@@ -531,12 +1939,12 @@
    "name_en": "Republic of South Sudan",
    "start": 2011,
    "end": 2026,
-   "reference_year": 2024,
+   "reference_year": 2026,
    "territory": "South Sudan (neighbour state from 2011)",
-   "point": 11943408,
+   "point": 12436037,
    "low": 11887895,
    "high": 12997877,
-   "range_kind": "point = WPP 2024 Medium for 2024; low/high = 80% PI for 2026",
+   "range_kind": "point = WPP 2024 Medium projection for 2026; low/high = its 80% prediction interval",
    "estimates": [
     {
      "kind": "model",
@@ -608,12 +2016,12 @@
    "name_en": "War in Sudan (SAF vs RSF)",
    "start": 2023,
    "end": 2026,
-   "reference_year": 2024,
+   "reference_year": 2026,
    "territory": "Sudan (post-2011 borders)",
-   "point": 50448963,
+   "point": 53282719,
    "low": 51754190,
    "high": 54371309,
-   "range_kind": "point = WPP 2024 Medium for 2024; low/high = WPP 80% prediction interval for 2026",
+   "range_kind": "point = WPP 2024 Medium projection for 2026; low/high = its 80% prediction interval",
    "estimates": [
     {
      "kind": "model",
