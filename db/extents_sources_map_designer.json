@@ -750,6 +750,23 @@
      "republic-of-south-sudan"
     ],
     "note": "CONTESTED point; area not drawn."
+   },
+   "WD:Q844262": {
+    "id": "WD:Q844262",
+    "author": "Wikidata contributors",
+    "title": "Kafia Kingi (Q844262), disputed territory (P31 Q15239622), country Sudan and South Sudan; 9.273123N 24.417404E",
+    "publisher": "Wikimedia Foundation",
+    "date": "retrieved 2026-10-24",
+    "url": "https://www.wikidata.org/wiki/Q844262",
+    "license": "CC0 1.0",
+    "verification": "wbgetentities API read 2026-10-24; GeoNames 373130",
+    "used_by": [
+     "al-bashir-ncp-ingaz-regime",
+     "december-revolution-transition",
+     "war-in-sudan-saf-vs-rsf",
+     "republic-of-south-sudan"
+    ],
+    "note": "CONTESTED point; area not drawn (no gazetteer polygon)."
    }
   }
  }
