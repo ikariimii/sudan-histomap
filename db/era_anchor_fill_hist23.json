@@ -1,0 +1,45 @@
+{
+ "meta": {
+  "owner": "Sudan Historian",
+  "built": "2026-10-24",
+  "status": "fill file for Map Designer; not in sudan.db",
+  "note": "Point anchors with printed-page cites from GHA scans read on the box (/workspace/ghatxt). Coordinates from Wikidata P625 (fetched 2026-10-24). All APPROXIMATE: modern-town coordinates for a region named in the text."
+ },
+ "anchors": [
+  {
+   "era_id": "c-group-lower-nubia",
+   "place": "Wadi Halfa region",
+   "cite": "GHA2_CH9",
+   "page": "p.252",
+   "quote": "The houses discovered in the region of Wadi Haifa [Halfa] were of two types…; C-Group from Kubanieh North (northern limit) to Akasha (southern finds)",
+   "gazetteer": "wikidata:Q740865",
+   "lat": 21.792777777778,
+   "lon": 31.3775,
+   "flags": [
+    "APPROXIMATE – modern town coordinate for a region",
+    "SINGLE-SOURCE"
+   ]
+  },
+  {
+   "era_id": "beja-red-sea-hills-peoples",
+   "place": "Sawakin (Suakin)",
+   "cite": "GHA3_CH3",
+   "page": "p.82",
+   "quote": "coastal towns like 'Aydhâb, Bâdi' and Sawâkin … The hinterland was inhabited by the … Bëdja … without any centralized political organization",
+   "gazetteer": "wikidata:Q571215",
+   "lat": 19.1025,
+   "lon": 37.33,
+   "flags": [
+    "APPROXIMATE – a town in Beja country, NOT a capital: GHA says the Beja had no centralized political organization",
+    "SINGLE-SOURCE"
+   ]
+  }
+ ],
+ "not_found": {
+  "khartoum-neolithic-shaheinab (Esh-Shaheinab, Kadero)": "not named in GHA II–VII scans on the box (GHA I, the likely source, is not on the box)",
+  "khartoum-mesolithic-early-khartoum (Khartoum hospital site)": "GHA II cites only Arkell 1949 'Early Khartoum' in the bibliography (PDF p.768), no page text; GHA I not on the box",
+  "c-group Aniba / Faras": "GHA II names Aniba and Faras only for New Kingdom/Meroitic contexts (pp.143–144, 313), not as C-Group sites",
+  "southern-sudan capital": "no Juba/Mongalla/Rejaf/Wau in GHA VII scan",
+  "ja-aliyyin Shendi": "not inferred, per instruction"
+ }
+}
