@@ -99,3 +99,7 @@
 - Source: UNESCO General History of Africa I (open access), read from the sahistory.org.za mirror. Printed page = PDF page − 23.
 - British-occupied Egypt CINC share: 0.77 (min 0.64, max 1.00). Cite: "NMC v6.0, 1882, 1937–1953 scored" (18 rows). COW treats Egypt as sovereign from 1937 (post-1936 treaty). [VERIFY]
 - db/extents_historic.json is unchanged: 62 items, sha256 1a70489b…c510c0.
+
+## Pass 24b (Historian): Innovation Manager reversed the Egypt ruling
+- British-occupied Egypt CINC share set to null: "COW counts Egypt as a state only from 1937; earlier years are not scored". This replaces the 0.77 from Pass 24.
+- No separate Kingdom of Egypt era exists, so none was created. 1937–1953 is covered by british-occupied-kingdom-of-egypt (1882–1953). republic-of-egypt starts in 1953.
