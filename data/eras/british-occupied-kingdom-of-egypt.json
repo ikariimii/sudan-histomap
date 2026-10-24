@@ -45,22 +45,25 @@
   "Pass 22b text (Analyst modern fill 4): Arabic is a [WORKING TRANSLATION – needs native Arabic review]",
   "culture_dominance: Pass 22d, GHA VII ch.21 pp.555–556 + ch.23 p.601; Arabic is a working translation",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
-  "power_cinc_share null: within the era 1882–1922 COW NMC v6.0 has an Egypt (651) row only for 1882 (Egypt is a system member 1855–1882 and from 1937), so there are no in-era years to score [VERIFY]",
+  "power_cinc_share: COW treats Egypt as sovereign from 1937 (post-1936 treaty); the regional set has few members in these years, so the share leans toward 1.0 [VERIFY]",
   "economy: Egyptian budget figures SINGLE-SOURCE (GHA VII ch.17, citing Allan & Smith 1948 and Gaitskell 1959)",
   "1929 agreement terms not read – VERIFY"
  ],
  "curated": true,
  "power_cinc_share": [
   {
-   "actor": null,
-   "share": null,
-   "year_range": null,
-   "basis": null,
+   "actor": "Egypt",
+   "share": 0.77,
+   "year_range": [
+    1882,
+    1953
+   ],
+   "basis": "NMC v6.0, 1882, 1937–1953 scored: mean share of the regional set over the 18 in-era Egypt (651) rows (none for 1883–1936); min 0.64, max 1.00. COW treats Egypt as sovereign from 1937 (post-1936 treaty)",
    "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
    "source_ids": [
     "COW_NMC6"
    ],
-   "flag": "power_cinc_share null: within the era 1882–1922 COW NMC v6.0 has an Egypt (651) row only for 1882 (Egypt is a system member 1855–1882 and from 1937), so there are no in-era years to score [VERIFY]"
+   "flag": "power_cinc_share: COW treats Egypt as sovereign from 1937 (post-1936 treaty); the regional set has few members in these years, so the share leans toward 1.0 [VERIFY]"
   }
  ]
 }

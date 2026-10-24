@@ -90,3 +90,12 @@
 - British-occupied Egypt (1882–1922): share set to null. The only in-era Egypt (651) row is for 1882. Egypt is a system member for 1855–1882 and from 1937. [VERIFY]
 - Ethiopian Empire: share 0.65, the mean over the 73 in-era Ethiopia (530) rows, 1898–1936 and 1941–1974. There are no rows for 1937–1940. Min 0.14, max 1.00. [VERIFY]
 - Ottoman Egypt: share set to null because only one state is in the comparison set. [VERIFY]
+
+## Pass 24 (Historian): GHA I registered; British-occupied Egypt CINC ruling applied
+- New source IDs:
+  - GHA1_CH19: Sutton, pp.451–486
+  - GHA1_CH25: Debono, pp.634–655
+  - GHA1_CH28: Vercoutter, pp.706–729
+- Source: UNESCO General History of Africa I (open access), read from the sahistory.org.za mirror. Printed page = PDF page − 23.
+- British-occupied Egypt CINC share: 0.77 (min 0.64, max 1.00). Cite: "NMC v6.0, 1882, 1937–1953 scored" (18 rows). COW treats Egypt as sovereign from 1937 (post-1936 treaty). [VERIFY]
+- db/extents_historic.json is unchanged: 62 items, sha256 1a70489b…c510c0.
