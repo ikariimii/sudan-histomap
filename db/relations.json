@@ -1,0 +1,475 @@
+{
+ "meta": {
+  "owner": "Sudan Historian",
+  "built": "2026-10-24",
+  "batch": 1,
+  "status": "draft batch 1; Arabic text is a working translation pending native review",
+  "badges": [
+   "SINGLE-SOURCE",
+   "CONTESTED",
+   "REPORTED",
+   "TRADITION"
+  ],
+  "relation_types": [
+   "alliance",
+   "conflict",
+   "trade",
+   "subjugation",
+   "migration"
+  ],
+  "rules": "Coordinates from Wikidata P625 only. LOC Country Study cites use the section heading as locator (web edition has no page numbers). Map limits are text only. Unsourced fields are null with a reason.",
+  "note": "Source of truth; groups.json inline relations are generated from this file."
+ },
+ "relations": [
+  {
+   "id": "rel-beja-01",
+   "group": "beja",
+   "era_id": "beja-red-sea-hills-peoples",
+   "other_group_or_state": "Muslim Egypt",
+   "type": "conflict",
+   "text_en": "Beja incursions harassed Upper Egypt for a long time; Muslim governments answered with treaties like the one with the Nubians.",
+   "text_ar": "أغارت جماعات من البجا على صعيد مصر زمناً طويلاً، فعقدت الحكومات الإسلامية معها معاهدات شبيهة بمعاهدة النوبة.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA3_CH3",
+    "page": "p.82"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-beja-02",
+   "group": "beja",
+   "era_id": "beja-red-sea-hills-peoples",
+   "other_group_or_state": "Arab nomadic groups",
+   "type": "migration",
+   "text_en": "Arab nomadic groups moved into Beja country and intermarried with Beja ruling families; their children became chiefs of some Beja groups. The contacts did not end in complete fusion.",
+   "text_ar": "هاجرت جماعات عربية بدوية إلى بلاد البجا وتصاهرت مع أسرها الحاكمة، فصار أبناؤها زعماء لبعض جماعات البجا، دون اندماج كامل.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": [
+    {
+     "source": "GHA3_CH3",
+     "page": "p.82"
+    },
+    {
+     "source": "GHA4_CH16",
+     "page": "p.412"
+    }
+   ],
+   "badge": "REPORTED",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-beja-03",
+   "group": "beja",
+   "era_id": "makuria",
+   "other_group_or_state": "Arab merchants / Red Sea ports ('Aydhab, Suakin)",
+   "type": "trade",
+   "text_en": "Trade between the ports and the Nile valley ran through Beja country but was mainly in Arab hands; Beja goodwill was needed for caravan safety.",
+   "text_ar": "مرّت التجارة بين الموانئ ووادي النيل عبر بلاد البجا وكانت في أيدي العرب أساساً، واحتاجت سلامة القوافل إلى رضا البجا.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": [
+    {
+     "source": "GHA4_CH16",
+     "page": "p.417"
+    },
+    {
+     "source": "GHA3_CH3",
+     "page": "p.83"
+    }
+   ],
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-beja-04",
+   "group": "beja",
+   "era_id": "makuria",
+   "other_group_or_state": "Nubia (Makuria)",
+   "type": "conflict",
+   "text_en": "Little is known of Nubian policy towards the Beja, who 'probably' raided the settled riverain areas from time to time.",
+   "text_ar": "لا يُعرف الكثير عن سياسة النوبة تجاه البجا، الذين ربما أغاروا أحياناً على المناطق النهرية المستقرة.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA4_CH16",
+    "page": "p.417"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "low"
+  },
+  {
+   "id": "rel-nubians-01",
+   "group": "nubians",
+   "era_id": "makuria",
+   "other_group_or_state": "Banu 'l-Kanz and other Arab groups",
+   "type": "migration",
+   "text_en": "Arab immigrants flowed steadily into northern Nubia; the Banu 'l-Kanz gained a share of land and leadership through intermarriage and matrilineal succession, and a Kanz candidate claimed the throne as the king's sister's son.",
+   "text_ar": "تدفق المهاجرون العرب على شمال النوبة، ونال بنو الكنز نصيباً من الأرض والزعامة بالمصاهرة والوراثة عن طريق الأم.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": [
+    {
+     "source": "GHA4_CH16",
+     "page": "pp.404–405"
+    },
+    {
+     "source": "GHA3_CH3",
+     "page": "p.83"
+    }
+   ],
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-nubians-02",
+   "group": "nubians",
+   "era_id": "funj-sultanate-of-sennar",
+   "other_group_or_state": "Funj sultanate / 'Abdallab",
+   "type": "subjugation",
+   "text_en": "Funj authority reached lower Nubia, which had first depended on the 'Abdallab; the Ottoman frontier was fixed at Hannik c.1622.",
+   "text_ar": "امتدت سلطة الفونج إلى النوبة السفلى التابعة أصلاً للعبدلاب، واستقرت الحدود العثمانية عند حنك نحو 1622.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": [
+    {
+     "source": "GHA5_CH7",
+     "page": "pp.174–175"
+    }
+   ],
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-nubians-03",
+   "group": "nubians",
+   "era_id": "funj-sultanate-of-sennar",
+   "other_group_or_state": "Sennar–Egypt trade",
+   "type": "trade",
+   "text_en": "The Danakla, with the Ja'aliyyin of Shendi, were middlemen in the trade between Sennar and Egypt.",
+   "text_ar": "كان الدناقلة، مع جعليي شندي، وسطاء في التجارة بين سنار ومصر.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA5_CH7",
+    "page": "p.183"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-jaaliyyin-01",
+   "group": "jaaliyyin",
+   "era_id": "ja-aliyyin-kingdom-sa-dab-funj-vassal",
+   "other_group_or_state": "Sennar–Egypt trade",
+   "type": "trade",
+   "text_en": "The Ja'aliyyin of Shendi and the Danakla were middlemen between Sennar and Egypt; by about 1800 Shendi had succeeded Sennar as the main caravan market.",
+   "text_ar": "كان جعليو شندي والدناقلة وسطاء في التجارة بين سنار ومصر، وخلفت شندي سنار سوقاً رئيسية للقوافل في مطلع القرن التاسع عشر.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA5_CH7",
+    "page": "p.183"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-jaaliyyin-02",
+   "group": "jaaliyyin",
+   "era_id": "ja-aliyyin-kingdom-sa-dab-funj-vassal",
+   "other_group_or_state": "'Abdallab / Funj sultanate",
+   "type": "subjugation",
+   "text_en": "The 'Abdallab ruled indirectly over the Nile-valley chieftaincies as Funj vassals; later the Sa'dab of Shendi became virtually autonomous.",
+   "text_ar": "حكم العبدلاب، بوصفهم أتباعاً للفونج، مشيخات وادي النيل حكماً غير مباشر، ثم صار السعداب في شندي شبه مستقلين.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": [
+    {
+     "source": "GHA5_CH7",
+     "page": "p.174"
+    },
+    {
+     "source": "GHA5_CH7",
+     "page": "p.185"
+    }
+   ],
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-jaaliyyin-03",
+   "group": "jaaliyyin",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "other_group_or_state": "Turco-Egyptian government",
+   "type": "conflict",
+   "text_en": "In late October 1822, after Isma'il demanded a heavy levy at Shendi and struck Mak Nimir, Nimir and his men burned Isma'il and his staff; the revolt spread to other regions.",
+   "text_ar": "في أواخر أكتوبر 1822، بعد أن فرض إسماعيل إتاوة باهظة في شندي وأهان المك نمر، أحرق نمر ورجاله إسماعيل وحاشيته، وامتدت الثورة إلى مناطق أخرى.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA6_CH14",
+    "page": "p.362"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "high"
+  },
+  {
+   "id": "rel-shaigiyya-01",
+   "group": "shaigiyya",
+   "era_id": "funj-sultanate-of-sennar",
+   "other_group_or_state": "'Abdallab / Funj sultanate",
+   "type": "conflict",
+   "text_en": "About the mid-17th century the Shaigiyya chieftaincy challenged 'Abdallab hegemony and asserted its independence from the Funj sultanate.",
+   "text_ar": "في منتصف القرن السابع عشر تقريباً تحدّت مشيخة الشايقية هيمنة العبدلاب وأعلنت استقلالها عن سلطنة الفونج.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA5_CH7",
+    "page": "p.174"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-shaigiyya-02",
+   "group": "shaigiyya",
+   "era_id": "funj-sultanate-of-sennar",
+   "other_group_or_state": "Mamluks (from Egypt)",
+   "type": "conflict",
+   "text_en": "Mamluks fleeing Muhammad 'Ali's massacre in 1811 set up a camp at New Dongola and fought the Shaigiyya.",
+   "text_ar": "أقام المماليك الفارون من مذبحة محمد علي سنة 1811 معسكراً في دنقلا العرضي وحاربوا الشايقية.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA5_CH7",
+    "page": "p.185"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-shaigiyya-03",
+   "group": "shaigiyya",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "other_group_or_state": "Turco-Egyptian government",
+   "type": "alliance",
+   "text_en": "The government's partiality to the Shaigiyya (and the Khatmiyya) aroused the jealousy of other groups, who then backed the Mahdi.",
+   "text_ar": "أثار تحيّز الحكومة للشايقية (وللختمية) غيرة جماعات أخرى دفعتها إلى مناصرة المهدي.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA7_CH4",
+    "page": "p.74"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-funj-01",
+   "group": "funj",
+   "era_id": "funj-sultanate-of-sennar",
+   "other_group_or_state": "'Abdallab",
+   "type": "subjugation",
+   "text_en": "At Arbaji in 1504 the Funj defeated the 'Abdallab, whose king became a vassal; the 'Abdallab ruled the north as junior partners until 1820.",
+   "text_ar": "هزم الفونج العبدلاب في أربجي سنة 1504 فصار ملكهم تابعاً، وظل العبدلاب يحكمون الشمال شركاءَ أصغر حتى 1820.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA5_CH7",
+    "page": "p.173"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "high"
+  },
+  {
+   "id": "rel-funj-02",
+   "group": "funj",
+   "era_id": "funj-sultanate-of-sennar",
+   "other_group_or_state": "'Abdallab",
+   "type": "conflict",
+   "text_en": "Shaykh 'Ajib I defeated the Funj, then was defeated and killed at Karkoj; Shaykh Idris wad al-Akbar negotiated a settlement.",
+   "text_ar": "هزم الشيخ عجيب الأول الفونج ثم هُزم وقُتل في كركوج، وتوسط الشيخ إدريس ود الأكبر في الصلح.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA5_CH7",
+    "page": "p.174"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-funj-03",
+   "group": "funj",
+   "era_id": "funj-sultanate-of-sennar",
+   "other_group_or_state": "Hamaj regents",
+   "type": "subjugation",
+   "text_en": "From 1762 Abu Likaylik and his successors were hereditary regents and the Funj sultans 'no more than puppets'. The Hamaj were credited with a Ja'ali pedigree but were neither Funj nor Arabs.",
+   "text_ar": "منذ 1762 صار أبو لكيلك وخلفاؤه أوصياء بالوراثة، وغدا سلاطين الفونج «دمى»؛ ونُسب الهمج إلى الجعليين وهم ليسوا فونجاً ولا عرباً.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA5_CH7",
+    "page": "p.185"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "high"
+  },
+  {
+   "id": "rel-funj-04",
+   "group": "funj",
+   "era_id": "funj-sultanate-of-sennar",
+   "other_group_or_state": "Fur sultanate",
+   "type": "conflict",
+   "text_en": "Funj–Fur rivalry over Kordofan; the Funj were ultimately driven out of Kordofan.",
+   "text_ar": "تنافس الفونج والفور على كردفان، وطُرد الفونج منها في النهاية.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": [
+    {
+     "source": "GHA5_CH7",
+     "page": "p.183"
+    },
+    {
+     "source": "GHA5_CH7",
+     "page": "p.185"
+    }
+   ],
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-funj-05",
+   "group": "funj",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "other_group_or_state": "Turco-Egyptian forces",
+   "type": "conflict",
+   "text_en": "When Turco-Egyptian forces approached Sennar in 1821 the sultanate was too feeble to resist and capitulated.",
+   "text_ar": "حين اقتربت القوات التركية المصرية من سنار سنة 1821 كانت السلطنة أضعف من أن تقاوم فاستسلمت.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": [
+    {
+     "source": "GHA5_CH7",
+     "page": "p.185"
+    },
+    {
+     "source": "GHA6_CH14",
+     "page": "p.356"
+    }
+   ],
+   "badge": "SINGLE-SOURCE",
+   "certainty": "high"
+  },
+  {
+   "id": "rel-fur-01",
+   "group": "fur",
+   "era_id": "sultanate-of-darfur-keira",
+   "other_group_or_state": "Tunjur",
+   "type": "conflict",
+   "text_en": "Sulayman Solongdungu, probably the dynasty's founder, drove out the Tunjur and annexed the area around Jebel Marra.",
+   "text_ar": "طرد سليمان سولونج، المرجح أنه مؤسس الأسرة، التنجر وضم المنطقة حول جبل مرة.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA5_CH7",
+    "page": "pp.187–188"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-fur-02",
+   "group": "fur",
+   "era_id": "sultanate-of-darfur-keira",
+   "other_group_or_state": "Habbaniyya, Ma'aliyya, Rizeigat, Misseriya",
+   "type": "alliance",
+   "text_en": "Camel- and cattle-nomad Arab groups assisted Sulayman Solongdungu's campaigns.",
+   "text_ar": "ساعدت جماعات عربية من رعاة الإبل والبقر في حملات سليمان سولونج.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA5_CH7",
+    "page": "p.188"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-fur-03",
+   "group": "fur",
+   "era_id": "sultanate-of-darfur-keira",
+   "other_group_or_state": "Zaghawa",
+   "type": "subjugation",
+   "text_en": "The Kayra consolidated their hold on Dar Zaghawa through marriage alliances and by backing one section against another, in competition with Wadai.",
+   "text_ar": "وطّد الكيرا سيطرتهم على دار زغاوة بالمصاهرة ومساندة فرع على آخر، في تنافس مع وداي.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA5_CH7",
+    "page": "p.188"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-fur-04",
+   "group": "fur",
+   "era_id": "sultanate-of-darfur-keira",
+   "other_group_or_state": "Wadai",
+   "type": "conflict",
+   "text_en": "Sultan Ya'qub of Wadai invaded as far as Kabkabiyya and was driven out; in the mid-18th century Wadai defeated 'Umar Lel's army and captured the sultan.",
+   "text_ar": "غزا سلطان وداي يعقوب حتى كبكابية وطُرد، وفي منتصف القرن الثامن عشر هزمت وداي جيش عمر ليل وأسرت السلطان.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA5_CH7",
+    "page": "p.188"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-fur-05",
+   "group": "fur",
+   "era_id": "sultanate-of-darfur-keira",
+   "other_group_or_state": "Egypt (Forty Days Road)",
+   "type": "trade",
+   "text_en": "Darfur's long-distance trade to Egypt ran on the Darb al-Arba'in and was largely under state control.",
+   "text_ar": "مرت تجارة دارفور البعيدة إلى مصر عبر درب الأربعين وكانت إلى حد بعيد تحت سيطرة الدولة.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": [
+    {
+     "source": "GHA5_CH7",
+     "page": "p.183"
+    },
+    {
+     "source": "GHA5_CH7",
+     "page": "p.187"
+    }
+   ],
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-fur-06",
+   "group": "fur",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "other_group_or_state": "al-Zubayr / Turco-Egyptian regime",
+   "type": "conflict",
+   "text_en": "Sultan Ibrahim was defeated and killed at Manawashi in 1874 and Darfur was annexed; Kayra family members led resistance, notably Amir Harun's revolt from 1877.",
+   "text_ar": "هُزم السلطان إبراهيم وقُتل في منواشي سنة 1874 وضُمت دارفور، وقاد أفراد من أسرة الكيرا المقاومة، وأبرزها ثورة الأمير هارون منذ 1877.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": [
+    {
+     "source": "GHA6_CH14",
+     "page": "p.371"
+    },
+    {
+     "source": "GHA6_CH14",
+     "page": "p.362"
+    }
+   ],
+   "badge": "SINGLE-SOURCE",
+   "certainty": "high"
+  },
+  {
+   "id": "rel-fur-07",
+   "group": "fur",
+   "era_id": "anglo-egyptian-sudan-condominium",
+   "other_group_or_state": "Masalit",
+   "type": "conflict",
+   "text_en": "In the first half of the 20th century the Masalit gradually moved into part of a formerly Fur-controlled territory, through local skirmishes by villages on both sides rather than by the sultanates.",
+   "text_ar": "في النصف الأول من القرن العشرين توسّع المساليت تدريجياً في جزء من أرض كانت تحت سيطرة الفور، عبر مناوشات محلية بين قرى الجانبين لا بين السلطنتين.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "LOC1991_MUSLIMPEOPLES",
+    "page": "§ Masalit, Daju, and Berti"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  }
+ ]
+}
