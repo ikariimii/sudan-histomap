@@ -71,3 +71,13 @@
 
 ## Historian Pass 22c — register Map Designer extent-only sources
 - Registered db/extents_sources_map_designer.json (Map Designer 5f1fada, 36 entries: 33 OHM relations + 3 refs); IDs already registered skipped; entries without OHM source tags carry a visible "[VERIFY – no source tags]" title flag.
+
+## Historian Pass 22d — culture for 3 eras + CINC for unscored 1816–2016 eras
+- british-occupied-kingdom-of-egypt culture_dominance EN/AR filled from GHA VII ch.21 pp.555–556 (Y.A. Talib section: press 169→282 titles 1898–1913, al-Azhar reform) and ch.23 p.601 (H.A. Ibrahim: Wafd claim to Sudan, 'Unity of the Nile Valley'); [SINGLE-SOURCE per point]; Arabic = working translation.
+- central-african-republic-ubangi-shari and restored-darfur-sultanate-ali-dinar culture left null with reasons (no page-cited culture passage in GHA VII / LOC).
+- power_cinc_share (COW NMC v6.0, RP-CINC-SHARE-1) added for british-occupied Egypt 0.77, Ethiopian Empire 0.65, Ottoman/Muhammad Ali Egypt 1.00 — all flagged [VERIFY]: regional set has very few COW members in those years, share near 1.0 by construction. Null with reason (not COW members / outside set) for Hejaz-Saudi, southern Sudan (condominium), Ali Dinar, Wadai, Taqali, Zande, Bornu, Suakin, Beja, Anuak, Dinka, Nuer. No editorial scores pre-1816.
+
+## Historian Pass 23 — Analyst badge proposals (db/modern_render_badge_check.md, e5d7fa2)
+- Applied the 11 badges exactly as proposed (CONTESTED / SINGLE-SOURCE / REPORTED; existing VERIFY kept); french-chad 'allegedly'/'[VERIFY; allegation]' replaced by [VERIFY] [CONTESTED]; no denials added, no other wording changed.
+- Flag hygiene: stale 'left null'/'null reason' flags removed where a field is filled (incl. british-occupied Egypt economy); Ali Dinar's 4 culture null reasons merged into one.
+- Full rebuild incl. web/build.py; data/eras/all.json regenerated after the era files.
