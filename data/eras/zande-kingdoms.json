@@ -27,6 +27,7 @@
  "economy_ar": "طوّر الزاندي زراعة عالية الإنتاج أطعمت سكاناً كثيفين، نحو 40 نسمة في الكيلومتر المربع في سبعينيات القرن التاسع عشر بحسب شفاينفورت، وزاد عددهم بالأسرى المأخوذين في غارات الأرستقراطية (تاريخ أفريقيا العام VI، الفصل 12، ص300). وفي القرن التاسع عشر أقام التجار السودانيون زرائب وقواعد محصّنة في بلاد الزاندي، ومزجوا احتكار الدولة والتجارة الخاصة بالقوة المسلحة (ص306). وقبل 1800 كانت دارفور تأخذ جزية من النحاس قرب حفرة النحاس، شمال أراضي الزاندي (V، الفصل 7، ص199). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "COW_NMC6",
   "GHA5_CH7",
   "GHA5_CH18",
   "GHA6_CH12",
@@ -40,8 +41,23 @@
  ],
  "flags": [
   "regional_power: no actors scored",
+  "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
+  "power_cinc_share null: not a COW system member; no new editorial score added (Pass 22d)",
   "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "Pre-1800 Zande history rests on genealogies; M'Bokolo warns 19th-c. data 'can only be projected back with the greatest caution' (GHA V ch.18, p.523)"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "flag": "power_cinc_share null: not a COW system member; no new editorial score added (Pass 22d)"
+  }
+ ]
 }

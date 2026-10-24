@@ -31,6 +31,7 @@
  "economy_ar": "حمل «طريق السودان» من دارفور وسنار إلى سواكن التجارة والحجاج إلى الحجاز معاً. وبحلول أوائل القرن التاسع عشر عُرف حتى فوتا تورو، بوصفه طريق حج أقصر وأرخص من عبور الصحراء عبر مصر (تاريخ أفريقيا العام V، الفصل 7، ص181). وكانت مصر العثمانية ترسل النقود والحبوب وكسوة الكعبة إلى الحجاز (الفصل 6، ص143)؛ ولم تُقرأ أي أرقام عن تجارة السودان مع الجزيرة العربية. [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "COW_NMC6",
   "GHA5_CH6",
   "GHA5_CH7",
   "GHA6_CH13",
@@ -43,9 +44,24 @@
  ],
  "flags": [
   "regional_power: no actors scored",
+  "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
+  "power_cinc_share null: Saudi Arabia (COW 670) is outside the 8-state regional set; Ottoman Hejaz not a COW state; no new editorial score added (Pass 22d)",
   "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "GAP – nothing read on Saudi–Sudan relations between c.1820 and 2023 (no GHA coverage of the Saudi state; Cambridge/EI not read)",
   "Muhammad 'Ali's 1813–19 campaign against the Wahhabis is from a GHA VI map (fig. 13.1, p.328), not narrative text"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "flag": "power_cinc_share null: Saudi Arabia (COW 670) is outside the 8-state regional set; Ottoman Hejaz not a COW state; no new editorial score added (Pass 22d)"
+  }
+ ]
 }

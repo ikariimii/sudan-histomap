@@ -27,6 +27,7 @@
  "economy_ar": "أرسلت برنو الرقيق والخصيان والجلود والعاج والعطور والمصنوعات الجلدية والذهب عبر الصحراء إلى شمال أفريقيا ومصر، مقابل الخيول والدروع والنحاس والبرونز (تاريخ أفريقيا العام V، الفصل 17، ص499). وسيطرت على مصادر الملح في مونيو وبلما وبحيرة تشاد (ص512) حتى خسرت بلما نحو 1759 بسبب غارات الطوارق (ص512). ونحو 1400 شكا بير بن إدريس إلى مصر من أن العرب يستعبدون رعاياه المسلمين (IV، الفصل 10، ص250). [WORKING TRANSLATION – needs native Arabic review]",
  "regional_power": [],
  "sources": [
+  "COW_NMC6",
   "GHA4_CH10",
   "GHA5_CH17",
   "GHA6_CH22",
@@ -40,8 +41,23 @@
  ],
  "flags": [
   "regional_power: no actors scored",
+  "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
+  "power_cinc_share null: not a COW system member; no new editorial score added (Pass 22d)",
   "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "Link between Bulala/Arab pressure on Kanem and the fall of Christian Nubia is posed as a question by Lange (GHA IV ch.10, p.258)"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "flag": "power_cinc_share null: not a COW system member; no new editorial score added (Pass 22d)"
+  }
+ ]
 }

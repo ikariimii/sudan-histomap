@@ -33,6 +33,7 @@
  "sources": [
   "HD2011",
   "TAKANA2016",
+  "COW_NMC6",
   "GHA5_CH7",
   "WP:Kingdom_of_Taqali"
  ],
@@ -43,9 +44,24 @@
   "regional_power: no actors scored",
   "Pass 13 text: Arabic is a working translation; needs native review",
   "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
+  "power_cinc_share null: not a COW system member; no new editorial score added (Pass 22d)",
   "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "CONTESTED – Funj–Taqali tributary relation disputed (GHA V p.177 fn.24)",
   "UNVERIFIED – economy text is regional context, not Taqali's own economy"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "flag": "power_cinc_share null: not a COW system member; no new editorial score added (Pass 22d)"
+  }
+ ]
 }

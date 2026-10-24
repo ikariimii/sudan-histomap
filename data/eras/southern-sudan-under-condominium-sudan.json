@@ -38,6 +38,7 @@
   "HD2011",
   "GHA7_CH4",
   "GHA8",
+  "COW_NMC6",
   "LOC1991_SOUTHPOL",
   "LOC1991_SOUTHUNITY",
   "LOC1991_NONMUSLIM",
@@ -53,9 +54,24 @@
   "regional_power: no actors scored",
   "Pass 13 text: Arabic is a working translation; needs native review",
   "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
+  "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
+  "power_cinc_share null: a region, not a COW state, before 2011; no new editorial score added (Pass 22d)",
   "Pass 22b text (Analyst modern fill 4): Arabic is a [WORKING TRANSLATION – needs native Arabic review]",
   "economy: qualitative only, no figures; LOC dated 1991",
   "GHA VIII remark re-read 2026-10-24: ch.30 'Towards the year 2000', Ali A. Mazrui, p.924 (page cite corrected from 923); passing comment, SINGLE-SOURCE"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "flag": "power_cinc_share null: a region, not a COW state, before 2011; no new editorial score added (Pass 22d)"
+  }
+ ]
 }

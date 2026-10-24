@@ -26,6 +26,7 @@
  "regional_power": [],
  "sources": [
   "EP1940_NUER",
+  "COW_NMC6",
   "LOC_ETH1991_NILOSAHARAN",
   "GHAV",
   "EP1940_ANUAK"
@@ -37,9 +38,24 @@
   "regional_power: no actors scored",
   "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "SINGLE-SOURCE – outsider view from Evans-Pritchard's Nuer monograph (1930s fieldwork)",
+  "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
+  "power_cinc_share null: communities, not a COW state; no new editorial score added (Pass 22d)",
   "Pass 22b text (Analyst modern fill 4): Arabic is a [WORKING TRANSLATION – needs native Arabic review]",
   "SINGLE-SOURCE – each statement rests on one source",
   "culture: language/location only, no Anuak cultural ethnography read (EP1940_ANUAK still not on the box)"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "flag": "power_cinc_share null: communities, not a COW state; no new editorial score added (Pass 22d)"
+  }
+ ]
 }
