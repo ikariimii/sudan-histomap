@@ -1,0 +1,227 @@
+{
+ "_meta": {
+  "author": "Sudan Geopolitical Analyst",
+  "accessed": "2026-10-24",
+  "note": "All quotes copied from pdftotext of the downloaded PDFs. PCA_ABYEI2009 is already registered in data/periods.json; this file adds paragraph-level pins and the Final Award PDF URL (case page https://pca-cpa.org/en/cases/92/ links it as 'Final Award'). Page numbers are the award's printed page numbers."
+ },
+ "entries": [
+  {
+   "id": "PCA_ABYEI2009",
+   "status": "read",
+   "already_registered": true,
+   "title": "Abyei Arbitration (Government of Sudan / SPLM/A), Final Award 22 July 2009",
+   "author": "Permanent Court of Arbitration (Arbitral Tribunal)",
+   "year": 2009,
+   "url": "https://pcacases.com/web/sendAttach/18820",
+   "case_page": "https://pca-cpa.org/en/cases/92/",
+   "licence": "citation only (public arbitral award; no licence stated)",
+   "pins": [
+    {
+     "para": "770(a)(3)",
+     "page": 267,
+     "supports": "northern boundary of Abyei Area",
+     "quote": "The northern boundary of the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905 runs along latitude 10°10’00”N, from longitude 27°50’00”E to longitude 29°00’00”E."
+    },
+    {
+     "para": "770(b)(1)-(2)",
+     "page": 267,
+     "supports": "southern boundary",
+     "quote": "The southern boundary as established by the ABC Experts is therefore confirmed, subject to paragraph (c) below.",
+     "context_quote": "“[t]he southern boundary shall be the Kordofan – Bahr el-Ghazal – Upper Nile boundary as it was defined on 1 January 1956,”"
+    },
+    {
+     "para": "770(c)(2)",
+     "page": "267-268",
+     "supports": "eastern boundary",
+     "quote": "The eastern boundary of the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905 runs in a straight line along longitude 29°00’00”E, from latitude 10°10’00”N south to the Kordofan – Upper Nile boundary as it was defined on 1 January 1956."
+    },
+    {
+     "para": "770(d)(2)",
+     "page": 268,
+     "supports": "western boundary",
+     "quote": "The western boundary of the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905 runs in a straight line along longitude 27°50’00”E, from latitude 10°10’00”N south to the Kordofan – Darfur boundary as it was defined on 1 January 1956, and continuing on the Kordofan – Darfur boundary until it meets the southern boundary confirmed in paragraph (b) above."
+    },
+    {
+     "para": "770(e)(2)",
+     "page": 268,
+     "supports": "Misseriya grazing rights preserved",
+     "quote": "The exercise of established traditional rights within or in the vicinity of the Abyei Area, particularly the right (guaranteed by Section 1.1.3 of the Abyei Protocol) of the Misseriya and other nomadic peoples to graze cattle and move across the Abyei Area (as defined in this Award), remains unaffected."
+    },
+    {
+     "para": "770(e)(1)",
+     "page": 268,
+     "supports": "Ngok and Misseriya secondary rights",
+     "quote": "In respect of the ABC Experts’ decision that “[t]he Ngok and Misseriya shall retain their established secondary rights to the use of land north and south of this boundary,” the ABC Experts did not exceed their mandate."
+    },
+    {
+     "para": "772",
+     "page": 269,
+     "supports": "corner points (WGS84)",
+     "quote": "Point 1: 9°47’ N* 27°50'00\" E; Point 2: 10°10'00\" N 27°50'00\" E; Point 3: 10°10'00\" N 29°00'00\" E; Point 4: 9°40’ N* 29°00'00\" E. * Note: these latitude values are approximate only and have been derived graphically from maps submitted by the Parties.",
+     "note": "quote condensed from the table; values verbatim"
+    },
+    {
+     "para": "113",
+     "page": 38,
+     "supports": "Ngok Dinka nine chiefdoms transferred to Kordofan 1905 (Protocol definition); Protocol signed 26 May 2004",
+     "quote": "The Abyei Protocol (“Abyei Protocol”) was signed on May 26, 2004 and provided for agreed principles in administering the Abyei Area upon signing of the peace agreement. Notably, Section 1.1.2 of the Abyei Protocol defined the territory as “the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905.”"
+    }
+   ]
+  },
+  {
+   "id": "UNSC1990",
+   "status": "read",
+   "title": "Security Council resolution 1990 (2011) [S/RES/1990 (2011)]",
+   "author": "United Nations Security Council",
+   "year": 2011,
+   "date": "2011-06-27",
+   "url": "https://documents.un.org/api/symbol/access?s=S/RES/1990(2011)&l=en&t=pdf",
+   "licence": "citation only (UN document; UN terms of use)",
+   "pins": [
+    {
+     "para": "OP 1",
+     "page": 2,
+     "supports": "UNISFA established",
+     "quote": "Decides to establish, for a period of 6 months, the United Nations Interim Security Force for Abyei (UNISFA), taking into account the Agreement between the Government of Sudan and the Sudan People’s Liberation Movement on Temporary Arrangements for the Administration and Security of the Abyei Area, and further decides that UNISFA shall comprise a maximum of 4,200 military personnel, 50 police personnel, and appropriate civilian support;"
+    },
+    {
+     "para": "OP 2(a)",
+     "page": 2,
+     "supports": "Abyei Area as defined by the PCA; demilitarised",
+     "quote": "Monitor and verify the redeployment of any Sudan Armed Forces, Sudan People’s Liberation Army or its successor, from the Abyei Area as defined by the Permanent Court of Arbitration; henceforth, the Abyei Area shall be demilitarized from any forces other than UNISFA and the Abyei Police Service,"
+    },
+    {
+     "para": "OP 3",
+     "page": 3,
+     "supports": "Chapter VII protection mandate",
+     "quote": "Acting under Chapter VII of the Charter of the United Nations, authorizes UNISFA within its capabilities and its area of deployment to take the necessary actions to:",
+     "note": "sub-paras (a)-(f) incl. (d) protect civilians under imminent threat, (f) ensure security in the Abyei Area"
+    },
+    {
+     "para": "OP 9",
+     "page": 3,
+     "supports": "final status unresolved",
+     "quote": "Calls upon the Government of Sudan and the Government of Southern Sudan or its successor urgently to fulfil their commitment under the CPA to resolve peacefully the final status of Abyei,"
+    }
+   ]
+  },
+  {
+   "id": "ABYEI_PROTOCOL2004",
+   "status": "read_via_quotation",
+   "title": "Protocol between the GoS and SPLM on the Resolution of the Abyei Conflict (Abyei Protocol), signed 26 May 2004, part of the CPA of 9 January 2005",
+   "author": "Government of Sudan and SPLM/A",
+   "year": 2004,
+   "url": null,
+   "licence": "citation only",
+   "note": "Primary text NOT read: UN Peacemaker URL tried returned 404. Wording below is as quoted in PCA_ABYEI2009 (para 589, p.205; footnote 1182, p.244). Cite as 'Abyei Protocol, as quoted in PCA_ABYEI2009' until the primary is read.",
+   "pins": [
+    {
+     "para": "1.1.2 (via PCA para 589, p.205)",
+     "quote": "The territory is defined as the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905;"
+    },
+    {
+     "para": "1.1.3 (via PCA para 589, p.205)",
+     "quote": "The Misseriya and other nomadic peoples retain their traditional rights to graze cattle and move across the territory of Abyei."
+    },
+    {
+     "para": "1.3 (via PCA fn 1182, p.244)",
+     "quote": "Simultaneously with the referendum for southern Sudan, the residents of Abyei will cast a separate ballot. The proposition voted on in the separate ballot will present the residents of Abyei with the following choices, irrespective of the results of the southern referendum: a. That Abyei retain its special administrative status in the north; b. That Abyei be part of Bahr el Ghazal."
+    },
+    {
+     "para": "8.1 (via PCA fn 1182, p.244)",
+     "quote": "There shall be established by the Presidency an Abyei Referendum Commission to conduct Abyei referendum simultaneously with the referendum of Southern Sudan. The composition of the Commission shall be determined by the Presidency."
+    }
+   ]
+  },
+  {
+   "id": "UNSG_S2013_706",
+   "status": "read",
+   "title": "Report of the Secretary-General on the situation in Abyei [S/2013/706]",
+   "author": "United Nations Secretary-General",
+   "year": 2013,
+   "url": "https://documents.un.org/api/symbol/access?s=S/2013/706&l=en&t=pdf",
+   "licence": "citation only (UN document; UN terms of use)",
+   "pins": [
+    {
+     "para": "11",
+     "page": 2,
+     "supports": "Oct 2013 unilateral community vote and announced result",
+     "quote": "voting in the unilateral community referendum was conducted in 29 centres in Abyei town and 6 in the Agok area from 27 to 29 October. On 31 October, the Ngok Dinka leadership announced that 99.99 per cent of eligible voters had opted for the Abyei Area to become part of South Sudan and that, from that day forward, the Area would be part of South Sudan."
+    },
+    {
+     "para": "12",
+     "page": 3,
+     "supports": "Sudan rejected; AU condemned; South Sudan silent",
+     "quote": "the Chairperson of the African Union Commission, Nkosazana Dlamini-Zuma, condemned the unilateral referendum, noting that it could further complicate efforts to find a mutually acceptable solution to the Abyei dispute. The Government of South Sudan refrained from publicly commenting on the vote, while the Government of the Sudan and the Misseriya community termed the referendum illegitimate and in contravention of the agreements between the two parties."
+    },
+    {
+     "para": "9",
+     "page": 2,
+     "supports": "registration",
+     "quote": "According to the commission, a total of 64,775 people were registered to vote.",
+     "note": "figure is the Ngok Dinka commission's own claim, not UN-verified"
+    }
+   ]
+  },
+  {
+   "id": "UNSG_S2014_28",
+   "status": "downloaded_not_read",
+   "title": "Report of the Secretary-General on the situation in Abyei [S/2014/28]",
+   "author": "United Nations Secretary-General",
+   "year": 2014,
+   "url": "https://documents.un.org/api/symbol/access?s=S/2014/28&l=en&t=pdf",
+   "licence": "citation only",
+   "note": "not read; do not cite"
+  }
+ ],
+ "suggested_wording_en": [
+  {
+   "field": "abyei.definition",
+   "text": "The Abyei Area is defined as the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905.",
+   "cites": [
+    "ABYEI_PROTOCOL2004 s.1.1.2 (via PCA_ABYEI2009 para 589)",
+    "PCA_ABYEI2009 para 113"
+   ]
+  },
+  {
+   "field": "abyei.boundary",
+   "text": "In 2009 the Permanent Court of Arbitration set the area's boundaries: latitude 10°10'N in the north, longitudes 27°50'E and 29°00'E in the west and east, and the 1 January 1956 Kordofan–Bahr el-Ghazal–Upper Nile line in the south.",
+   "cites": [
+    "PCA_ABYEI2009 para 770(a)-(d), 772"
+   ]
+  },
+  {
+   "field": "abyei.grazing",
+   "text": "The award left unaffected the right of the Misseriya and other nomadic peoples to graze cattle and move across the Abyei Area.",
+   "cites": [
+    "PCA_ABYEI2009 para 770(e)(2)"
+   ]
+  },
+  {
+   "field": "abyei.unisfa",
+   "text": "In June 2011 the UN Security Council created the UN Interim Security Force for Abyei (UNISFA) and required the area, as defined by the PCA, to be demilitarised except for UNISFA and the Abyei Police Service.",
+   "cites": [
+    "UNSC1990 OP 1, OP 2(a)"
+   ]
+  },
+  {
+   "field": "abyei.status",
+   "badge": "CONTESTED",
+   "text": "Abyei's final status is unresolved. The referendum promised in the 2005 peace agreement, to be held alongside South Sudan's in January 2011, has not taken place.",
+   "cites": [
+    "ABYEI_PROTOCOL2004 s.1.3, 8.1 (via PCA_ABYEI2009 fn 1182)",
+    "UNSC1990 OP 9"
+   ],
+   "note": "'has not taken place' rests on UNSC1990 OP 9 (2011) and S/2013/706; a recent SG report should be read before stating it as current."
+  },
+  {
+   "field": "abyei.referendum_2013",
+   "badge": "CONTESTED",
+   "text": "In October 2013 the Ngok Dinka held a unilateral community referendum; their leaders announced 99.99% for joining South Sudan. Sudan called it illegitimate, the African Union Commission condemned it, and South Sudan did not publicly comment. It has no recognised legal effect.",
+   "cites": [
+    "UNSG_S2013_706 paras 11-12"
+   ],
+   "note": "Last sentence is my synthesis from para 12 (no party or the AU accepted it); drop it if the Historian wants quote-only text."
+  }
+ ]
+}
