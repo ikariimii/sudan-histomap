@@ -1,0 +1,1520 @@
+{
+  "meta": {
+    "built": "2026-10-24",
+    "badge": "EDITORIAL",
+    "status": "review queue only; no Arabic text was rewritten",
+    "sources_read": [
+      "data/eras/*.json (all.json skipped as an aggregate)",
+      "data/periods.json (structure only)",
+      "/workspace/sudan-histomap/social/drafts-ep*-x.md",
+      "/workspace/sudan-histomap/exports/split_*_ar*.png"
+    ],
+    "flag_detection": "an era is listed if any string contains 'WORKING TRANSLATION'; ar_fields_flagged = JSON paths of Arabic strings carrying the marker; flag_notes_in = non-Arabic fields (e.g. flags[]) that mention it",
+    "priority_method": {
+      "traffic_data": "NONE: no analytics exist, so the editorial proxy below replaces highest-traffic",
+      "tiers": {
+        "1": "war-in-sudan-saf-vs-rsf, december-revolution-transition (+ the social section, ranked alongside)",
+        "2": "other Sudan/South Sudan stream eras with end > 1956 not starting 1821-1955 (includes long-running communities and Taqali extending past 1956)",
+        "3": "Sudan/South Sudan stream eras starting 1821-1955 (Turkiyya, Mahdiyya, Condominium era; includes the restored Darfur sultanate and Southern Sudan under the Condominium)",
+        "4": "neighbour-stream eras with end >= 1956",
+        "5": "all other (older) eras"
+      },
+      "within_tier": "newest first: end year desc, then start year desc"
+    },
+    "sensitivity": "contested_badge = era JSON contains CONTESTED; war_figures = war-in-sudan era only; flag = either, or tier 1",
+    "word_count": "approximate: whitespace tokens containing Arabic letters, across all Arabic strings in the item",
+    "counts": {
+      "eras": 50,
+      "by_tier": {
+        "1": 2,
+        "2": 9,
+        "3": 2,
+        "4": 8,
+        "5": 29
+      },
+      "social_items": 16
+    }
+  },
+  "social": [
+    {
+      "kind": "split_card_png",
+      "path": "/workspace/sudan-histomap/exports/split_meroe-fall_ar_1080x1350.png",
+      "episode": 1,
+      "ar_word_count_approx": 177,
+      "count_method": "tesseract -l ara OCR of the PNG (approximate)",
+      "null_reason": null,
+      "tier": "1 (social, ranked alongside tier 1)",
+      "note": "pre-publication, needs native review + Agrescatti approval"
+    },
+    {
+      "kind": "split_card_png",
+      "path": "/workspace/sudan-histomap/exports/split_meroe-fall_ar_nodraft_1080x1350.png",
+      "episode": 1,
+      "ar_word_count_approx": null,
+      "count_method": null,
+      "null_reason": "no-DRAFT-label variant; assumed same Arabic copy, not separately OCR-counted",
+      "tier": "1 (social, ranked alongside tier 1)",
+      "note": "pre-publication, needs native review + Agrescatti approval"
+    },
+    {
+      "kind": "x_thread",
+      "path": "/workspace/sudan-histomap/social/drafts-ep1-4-x.md",
+      "episode": 1,
+      "title": "Ep1: How did Meroe end?",
+      "ar_word_count_approx": 100,
+      "tier": "1 (social, ranked alongside tier 1)",
+      "note": "pre-publication, needs native review + Agrescatti approval"
+    },
+    {
+      "kind": "split_card_png",
+      "path": "/workspace/sudan-histomap/exports/split_kerma-start_ar_1080x1350.png",
+      "episode": 2,
+      "ar_word_count_approx": 163,
+      "count_method": "tesseract -l ara OCR of the PNG (approximate)",
+      "null_reason": null,
+      "tier": "1 (social, ranked alongside tier 1)",
+      "note": "pre-publication, needs native review + Agrescatti approval"
+    },
+    {
+      "kind": "split_card_png",
+      "path": "/workspace/sudan-histomap/exports/split_kerma-start_ar_nodraft_1080x1350.png",
+      "episode": 2,
+      "ar_word_count_approx": null,
+      "count_method": null,
+      "null_reason": "no-DRAFT-label variant; assumed same Arabic copy, not separately OCR-counted",
+      "tier": "1 (social, ranked alongside tier 1)",
+      "note": "pre-publication, needs native review + Agrescatti approval"
+    },
+    {
+      "kind": "x_thread",
+      "path": "/workspace/sudan-histomap/social/drafts-ep1-4-x.md",
+      "episode": 2,
+      "title": "Ep2: 2450 or 1700 BCE? Two dates for Kerma, no contradiction",
+      "ar_word_count_approx": 63,
+      "tier": "1 (social, ranked alongside tier 1)",
+      "note": "pre-publication, needs native review + Agrescatti approval"
+    },
+    {
+      "kind": "x_thread",
+      "path": "/workspace/sudan-histomap/social/drafts-ep1-4-x.md",
+      "episode": 3,
+      "title": "Ep3: The kandake who faced Rome",
+      "ar_word_count_approx": 61,
+      "tier": "1 (social, ranked alongside tier 1)",
+      "note": "pre-publication, needs native review + Agrescatti approval"
+    },
+    {
+      "kind": "split_card_png",
+      "path": "/workspace/sudan-histomap/exports/split_condominium-end_ar_1080x1350.png",
+      "episode": 4,
+      "ar_word_count_approx": 139,
+      "count_method": "tesseract -l ara OCR of the PNG (approximate)",
+      "null_reason": null,
+      "tier": "1 (social, ranked alongside tier 1)",
+      "note": "pre-publication, needs native review + Agrescatti approval"
+    },
+    {
+      "kind": "split_card_png",
+      "path": "/workspace/sudan-histomap/exports/split_condominium-end_ar_nodraft_1080x1350.png",
+      "episode": 4,
+      "ar_word_count_approx": null,
+      "count_method": null,
+      "null_reason": "no-DRAFT-label variant; assumed same Arabic copy, not separately OCR-counted",
+      "tier": "1 (social, ranked alongside tier 1)",
+      "note": "pre-publication, needs native review + Agrescatti approval"
+    },
+    {
+      "kind": "x_thread",
+      "path": "/workspace/sudan-histomap/social/drafts-ep1-4-x.md",
+      "episode": 4,
+      "title": "Ep4: When did \"Anglo-Egyptian Sudan\" end?",
+      "ar_word_count_approx": 52,
+      "tier": "1 (social, ranked alongside tier 1)",
+      "note": "pre-publication, needs native review + Agrescatti approval"
+    },
+    {
+      "kind": "split_card_png",
+      "path": "/workspace/sudan-histomap/exports/split_mahdiyya-names_ar_1080x1350.png",
+      "episode": 5,
+      "ar_word_count_approx": 155,
+      "count_method": "tesseract -l ara OCR of the PNG (approximate)",
+      "null_reason": null,
+      "tier": "1 (social, ranked alongside tier 1)",
+      "note": "pre-publication, needs native review + Agrescatti approval"
+    },
+    {
+      "kind": "split_card_png",
+      "path": "/workspace/sudan-histomap/exports/split_mahdiyya-names_ar_nodraft_1080x1350.png",
+      "episode": 5,
+      "ar_word_count_approx": null,
+      "count_method": null,
+      "null_reason": "no-DRAFT-label variant; assumed same Arabic copy, not separately OCR-counted",
+      "tier": "1 (social, ranked alongside tier 1)",
+      "note": "pre-publication, needs native review + Agrescatti approval"
+    },
+    {
+      "kind": "x_thread",
+      "path": "/workspace/sudan-histomap/social/drafts-ep5-6-x.md",
+      "episode": 5,
+      "title": "Ep5: One movement, many names: the Mahdiyya",
+      "ar_word_count_approx": 80,
+      "tier": "1 (social, ranked alongside tier 1)",
+      "note": "pre-publication, needs native review + Agrescatti approval"
+    },
+    {
+      "kind": "x_thread",
+      "path": "/workspace/sudan-histomap/social/drafts-ep5-6-x.md",
+      "episode": 6,
+      "title": "Ep6: When did Anglo-Egyptian rule begin and end?",
+      "ar_word_count_approx": 79,
+      "tier": "1 (social, ranked alongside tier 1)",
+      "note": "pre-publication, needs native review + Agrescatti approval"
+    },
+    {
+      "kind": "split_card_png",
+      "path": "/workspace/sudan-histomap/exports/split_nubia-union_ar_1080x1350.png",
+      "episode": 7,
+      "ar_word_count_approx": 132,
+      "count_method": "tesseract -l ara OCR of the PNG (approximate)",
+      "null_reason": null,
+      "tier": "1 (social, ranked alongside tier 1)",
+      "note": "pre-publication, needs native review + Agrescatti approval"
+    },
+    {
+      "kind": "x_thread",
+      "path": "/workspace/sudan-histomap/social/drafts-ep7-x.md",
+      "episode": 7,
+      "title": "Ep7 — When did Nobadia and Makuria unite? (DRAFT, Historian fact-check PASSED; pending native Arabic review + Agrescatti approval)",
+      "ar_word_count_approx": 122,
+      "tier": "1 (social, ranked alongside tier 1)",
+      "note": "pre-publication, needs native review + Agrescatti approval"
+    }
+  ],
+  "eras": [
+    {
+      "era_id": "war-in-sudan-saf-vs-rsf",
+      "file": "data/eras/war-in-sudan-saf-vs-rsf.json",
+      "title_en": "War in Sudan (SAF vs RSF)",
+      "title_ar": "حرب السودان (الجيش والدعم السريع)",
+      "years": [
+        2023,
+        2026
+      ],
+      "stream": "Sudan – Republic",
+      "tier": 1,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 473,
+      "sensitivity": {
+        "contested_badge": true,
+        "war_figures": true,
+        "flag": true
+      },
+      "rank": 1
+    },
+    {
+      "era_id": "december-revolution-transition",
+      "file": "data/eras/december-revolution-transition.json",
+      "title_en": "December Revolution & transition",
+      "title_ar": "ثورة ديسمبر والفترة الانتقالية",
+      "years": [
+        2019,
+        2023
+      ],
+      "stream": "Sudan – Republic",
+      "tier": 1,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar"
+      ],
+      "flag_notes_in": [],
+      "ar_word_count_approx": 353,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": true
+      },
+      "rank": 2
+    },
+    {
+      "era_id": "republic-of-south-sudan",
+      "file": "data/eras/republic-of-south-sudan.json",
+      "title_en": "Republic of South Sudan",
+      "title_ar": "جمهورية جنوب السودان",
+      "years": [
+        2011,
+        2026
+      ],
+      "stream": "South Sudan – Upper Nile",
+      "tier": 2,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[3]"
+      ],
+      "ar_word_count_approx": 429,
+      "sensitivity": {
+        "contested_badge": true,
+        "war_figures": false,
+        "flag": true
+      },
+      "rank": 3
+    },
+    {
+      "era_id": "anuak-anywaa-communities",
+      "file": "data/eras/anuak-anywaa-communities.json",
+      "title_en": "Anuak (Anywaa) communities",
+      "title_ar": "مجتمعات الأنواك (أنيوا)",
+      "years": [
+        1500,
+        2026
+      ],
+      "stream": "South Sudan – Upper Nile",
+      "tier": 2,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "extent_rendering.reason_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]",
+        "flags[4]"
+      ],
+      "ar_word_count_approx": 233,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 4
+    },
+    {
+      "era_id": "dinka-jieng-communities",
+      "file": "data/eras/dinka-jieng-communities.json",
+      "title_en": "Dinka (Jieng) communities",
+      "title_ar": "مجتمعات الدينكا (جيينق)",
+      "years": [
+        1500,
+        2026
+      ],
+      "stream": "South Sudan – Upper Nile",
+      "tier": 2,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "extent_rendering.reason_ar"
+      ],
+      "flag_notes_in": [
+        "flags[3]"
+      ],
+      "ar_word_count_approx": 185,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 5
+    },
+    {
+      "era_id": "nuer-naath-communities",
+      "file": "data/eras/nuer-naath-communities.json",
+      "title_en": "Nuer (Naath) communities",
+      "title_ar": "مجتمعات النوير (ناث)",
+      "years": [
+        1500,
+        2026
+      ],
+      "stream": "South Sudan – Upper Nile",
+      "tier": 2,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "extent_rendering.reason_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[1]"
+      ],
+      "ar_word_count_approx": 208,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 6
+    },
+    {
+      "era_id": "transitional-third-parliamentary-period",
+      "file": "data/eras/transitional-third-parliamentary-period.json",
+      "title_en": "Transitional & third parliamentary period",
+      "title_ar": "الانتقال والحكم البرلماني الثالث",
+      "years": [
+        1985,
+        1989
+      ],
+      "stream": "Sudan – Republic",
+      "tier": 2,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar"
+      ],
+      "flag_notes_in": [
+        "flags[3]"
+      ],
+      "ar_word_count_approx": 234,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 7
+    },
+    {
+      "era_id": "nimeiry-era-democratic-republic-of-sudan",
+      "file": "data/eras/nimeiry-era-democratic-republic-of-sudan.json",
+      "title_en": "Nimeiry era (Democratic Republic of Sudan)",
+      "title_ar": "عهد نميري",
+      "years": [
+        1969,
+        1985
+      ],
+      "stream": "Sudan – Republic",
+      "tier": 2,
+      "ar_fields_flagged": [
+        "economy_ar"
+      ],
+      "flag_notes_in": [
+        "flags[3]"
+      ],
+      "ar_word_count_approx": 243,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 8
+    },
+    {
+      "era_id": "second-parliamentary-period",
+      "file": "data/eras/second-parliamentary-period.json",
+      "title_en": "Second parliamentary period",
+      "title_ar": "الحكم البرلماني الثاني",
+      "years": [
+        1964,
+        1969
+      ],
+      "stream": "Sudan – Republic",
+      "tier": 2,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar"
+      ],
+      "flag_notes_in": [
+        "flags[4]"
+      ],
+      "ar_word_count_approx": 254,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 9
+    },
+    {
+      "era_id": "kingdom-of-taqali",
+      "file": "data/eras/kingdom-of-taqali.json",
+      "title_en": "Kingdom of Taqali",
+      "title_ar": "مملكة تقلي",
+      "years": [
+        1750,
+        1969
+      ],
+      "stream": "Sudan – Darfur & Kordofan",
+      "tier": 2,
+      "ar_fields_flagged": [
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[1]",
+        "flags[4]"
+      ],
+      "ar_word_count_approx": 158,
+      "sensitivity": {
+        "contested_badge": true,
+        "war_figures": false,
+        "flag": true
+      },
+      "rank": 10
+    },
+    {
+      "era_id": "abboud-military-regime",
+      "file": "data/eras/abboud-military-regime.json",
+      "title_en": "Abboud military regime",
+      "title_ar": "حكم عبود العسكري",
+      "years": [
+        1958,
+        1964
+      ],
+      "stream": "Sudan – Republic",
+      "tier": 2,
+      "ar_fields_flagged": [
+        "culture_dominance_ar"
+      ],
+      "flag_notes_in": [
+        "flags[4]"
+      ],
+      "ar_word_count_approx": 155,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 11
+    },
+    {
+      "era_id": "southern-sudan-under-condominium-sudan",
+      "file": "data/eras/southern-sudan-under-condominium-sudan.json",
+      "title_en": "Southern Sudan under Condominium / Sudan",
+      "title_ar": "جنوب السودان (الحكم الثنائي/السودان)",
+      "years": [
+        1899,
+        2011
+      ],
+      "stream": "South Sudan – Upper Nile",
+      "tier": 3,
+      "ar_fields_flagged": [
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[1]",
+        "flags[4]"
+      ],
+      "ar_word_count_approx": 223,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 12
+    },
+    {
+      "era_id": "restored-darfur-sultanate-ali-dinar",
+      "file": "data/eras/restored-darfur-sultanate-ali-dinar.json",
+      "title_en": "Restored Darfur Sultanate (Ali Dinar)",
+      "title_ar": "سلطنة دارفور المستعادة (علي دينار)",
+      "years": [
+        1898,
+        1916
+      ],
+      "stream": "Sudan – Darfur & Kordofan",
+      "tier": 3,
+      "ar_fields_flagged": [
+        "economy_ar"
+      ],
+      "flag_notes_in": [
+        "flags[1]",
+        "flags[6]"
+      ],
+      "ar_word_count_approx": 134,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 13
+    },
+    {
+      "era_id": "derg-federal-ethiopia",
+      "file": "data/eras/derg-federal-ethiopia.json",
+      "title_en": "Derg & Federal Ethiopia",
+      "title_ar": "الدرغ وإثيوبيا الفيدرالية",
+      "years": [
+        1974,
+        2026
+      ],
+      "stream": "Ethiopia & Eritrea (Horn)",
+      "tier": 4,
+      "ar_fields_flagged": [
+        "culture_dominance_ar"
+      ],
+      "flag_notes_in": [
+        "flags[1]"
+      ],
+      "ar_word_count_approx": 346,
+      "sensitivity": {
+        "contested_badge": true,
+        "war_figures": false,
+        "flag": true
+      },
+      "rank": 14
+    },
+    {
+      "era_id": "republic-of-egypt",
+      "file": "data/eras/republic-of-egypt.json",
+      "title_en": "Republic of Egypt",
+      "title_ar": "جمهورية مصر",
+      "years": [
+        1953,
+        2026
+      ],
+      "stream": "Egypt",
+      "tier": 4,
+      "ar_fields_flagged": [
+        "culture_dominance_ar"
+      ],
+      "flag_notes_in": [
+        "flags[1]"
+      ],
+      "ar_word_count_approx": 307,
+      "sensitivity": {
+        "contested_badge": true,
+        "war_figures": false,
+        "flag": true
+      },
+      "rank": 15
+    },
+    {
+      "era_id": "central-african-republic-ubangi-shari",
+      "file": "data/eras/central-african-republic-ubangi-shari.json",
+      "title_en": "Central African Republic (Ubangi-Shari)",
+      "title_ar": "جمهورية أفريقيا الوسطى",
+      "years": [
+        1903,
+        2026
+      ],
+      "stream": "Central Africa (CAR/Congo border)",
+      "tier": 4,
+      "ar_fields_flagged": [],
+      "flag_notes_in": [
+        "flags[2]"
+      ],
+      "ar_word_count_approx": 174,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 16
+    },
+    {
+      "era_id": "french-chad-republic-of-chad",
+      "file": "data/eras/french-chad-republic-of-chad.json",
+      "title_en": "French Chad → Republic of Chad",
+      "title_ar": "تشاد",
+      "years": [
+        1900,
+        2026
+      ],
+      "stream": "Chad & Central Sahara",
+      "tier": 4,
+      "ar_fields_flagged": [
+        "culture_dominance_ar"
+      ],
+      "flag_notes_in": [
+        "flags[1]"
+      ],
+      "ar_word_count_approx": 309,
+      "sensitivity": {
+        "contested_badge": true,
+        "war_figures": false,
+        "flag": true
+      },
+      "rank": 17
+    },
+    {
+      "era_id": "eritrea-italian-colony-independent",
+      "file": "data/eras/eritrea-italian-colony-independent.json",
+      "title_en": "Eritrea (Italian colony → independent)",
+      "title_ar": "إريتريا",
+      "years": [
+        1890,
+        2026
+      ],
+      "stream": "Ethiopia & Eritrea (Horn)",
+      "tier": 4,
+      "ar_fields_flagged": [
+        "culture_dominance_ar"
+      ],
+      "flag_notes_in": [
+        "flags[1]"
+      ],
+      "ar_word_count_approx": 310,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 18
+    },
+    {
+      "era_id": "libya-ottoman-italian-independent",
+      "file": "data/eras/libya-ottoman-italian-independent.json",
+      "title_en": "Libya (Ottoman, Italian, independent)",
+      "title_ar": "ليبيا",
+      "years": [
+        1551,
+        2026
+      ],
+      "stream": "Chad & Central Sahara",
+      "tier": 4,
+      "ar_fields_flagged": [
+        "culture_dominance_ar"
+      ],
+      "flag_notes_in": [
+        "flags[1]"
+      ],
+      "ar_word_count_approx": 314,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 19
+    },
+    {
+      "era_id": "ottoman-hejaz-saudi-state",
+      "file": "data/eras/ottoman-hejaz-saudi-state.json",
+      "title_en": "Ottoman Hejaz & Saudi state",
+      "title_ar": "الحجاز العثماني والدولة السعودية",
+      "years": [
+        1517,
+        2026
+      ],
+      "stream": "Red Sea & Arabia",
+      "tier": 4,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[2]"
+      ],
+      "ar_word_count_approx": 193,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 20
+    },
+    {
+      "era_id": "ethiopian-empire-solomonic",
+      "file": "data/eras/ethiopian-empire-solomonic.json",
+      "title_en": "Ethiopian Empire (Solomonic)",
+      "title_ar": "الإمبراطورية الإثيوبية (السليمانية)",
+      "years": [
+        1270,
+        1974
+      ],
+      "stream": "Ethiopia & Eritrea (Horn)",
+      "tier": 4,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[2]"
+      ],
+      "ar_word_count_approx": 209,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 21
+    },
+    {
+      "era_id": "british-occupied-kingdom-of-egypt",
+      "file": "data/eras/british-occupied-kingdom-of-egypt.json",
+      "title_en": "British-occupied / Kingdom of Egypt",
+      "title_ar": "مملكة مصر والاحتلال البريطاني",
+      "years": [
+        1882,
+        1953
+      ],
+      "stream": "Egypt",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 329,
+      "sensitivity": {
+        "contested_badge": true,
+        "war_figures": false,
+        "flag": true
+      },
+      "rank": 22
+    },
+    {
+      "era_id": "suakin-red-sea-port-beja-ottoman",
+      "file": "data/eras/suakin-red-sea-port-beja-ottoman.json",
+      "title_en": "Suakin – Red Sea port (Beja, Ottoman)",
+      "title_ar": "سواكن – ميناء البحر الأحمر",
+      "years": [
+        1100,
+        1922
+      ],
+      "stream": "Red Sea & Arabia",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[2]"
+      ],
+      "ar_word_count_approx": 240,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 23
+    },
+    {
+      "era_id": "wadai-sultanate",
+      "file": "data/eras/wadai-sultanate.json",
+      "title_en": "Wadai Sultanate",
+      "title_ar": "سلطنة وداي",
+      "years": [
+        1635,
+        1912
+      ],
+      "stream": "Chad & Central Sahara",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[2]"
+      ],
+      "ar_word_count_approx": 202,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 24
+    },
+    {
+      "era_id": "zande-kingdoms",
+      "file": "data/eras/zande-kingdoms.json",
+      "title_en": "Zande kingdoms",
+      "title_ar": "ممالك الزاندي",
+      "years": [
+        1700,
+        1905
+      ],
+      "stream": "Central Africa (CAR/Congo border)",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[2]"
+      ],
+      "ar_word_count_approx": 237,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 25
+    },
+    {
+      "era_id": "bornu-empire",
+      "file": "data/eras/bornu-empire.json",
+      "title_en": "Bornu Empire",
+      "title_ar": "إمبراطورية برنو",
+      "years": [
+        1380,
+        1893
+      ],
+      "stream": "Chad & Central Sahara",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[2]"
+      ],
+      "ar_word_count_approx": 220,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 26
+    },
+    {
+      "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+      "file": "data/eras/ottoman-egypt-muhammad-ali-dynasty.json",
+      "title_en": "Ottoman Egypt & Muhammad Ali dynasty",
+      "title_ar": "مصر العثمانية وأسرة محمد علي",
+      "years": [
+        1517,
+        1882
+      ],
+      "stream": "Egypt",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[2]"
+      ],
+      "ar_word_count_approx": 222,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 27
+    },
+    {
+      "era_id": "shilluk-kingdom",
+      "file": "data/eras/shilluk-kingdom.json",
+      "title_en": "Shilluk Kingdom",
+      "title_ar": "مملكة الشلك",
+      "years": [
+        1490,
+        1861
+      ],
+      "stream": "South Sudan – Upper Nile",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]",
+        "flags[1]"
+      ],
+      "ar_word_count_approx": 228,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 28
+    },
+    {
+      "era_id": "musabba-at-sultanate-kordofan",
+      "file": "data/eras/musabba-at-sultanate-kordofan.json",
+      "title_en": "Musabba'at sultanate (Kordofan)",
+      "title_ar": "سلطنة المسبعات (كردفان)",
+      "years": [
+        1680,
+        1785
+      ],
+      "stream": "Sudan – Darfur & Kordofan",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 229,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 29
+    },
+    {
+      "era_id": "tunjur-kingdom",
+      "file": "data/eras/tunjur-kingdom.json",
+      "title_en": "Tunjur kingdom",
+      "title_ar": "مملكة التنجر",
+      "years": [
+        1400,
+        1650
+      ],
+      "stream": "Sudan – Darfur & Kordofan",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]",
+        "flags[3]"
+      ],
+      "ar_word_count_approx": 181,
+      "sensitivity": {
+        "contested_badge": true,
+        "war_figures": false,
+        "flag": true
+      },
+      "rank": 30
+    },
+    {
+      "era_id": "mamluk-sultanate",
+      "file": "data/eras/mamluk-sultanate.json",
+      "title_en": "Mamluk Sultanate",
+      "title_ar": "سلطنة المماليك",
+      "years": [
+        1250,
+        1517
+      ],
+      "stream": "Egypt",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 183,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 31
+    },
+    {
+      "era_id": "alodia-alwa",
+      "file": "data/eras/alodia-alwa.json",
+      "title_en": "Alodia (Alwa)",
+      "title_ar": "علوة",
+      "years": [
+        500,
+        1504
+      ],
+      "stream": "Sudan – Middle Nile",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "economy_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 178,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 32
+    },
+    {
+      "era_id": "daju-kingdom",
+      "file": "data/eras/daju-kingdom.json",
+      "title_en": "Daju kingdom",
+      "title_ar": "مملكة الداجو",
+      "years": [
+        1100,
+        1400
+      ],
+      "stream": "Sudan – Darfur & Kordofan",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]",
+        "flags[3]"
+      ],
+      "ar_word_count_approx": 178,
+      "sensitivity": {
+        "contested_badge": true,
+        "war_figures": false,
+        "flag": true
+      },
+      "rank": 33
+    },
+    {
+      "era_id": "kanem-empire",
+      "file": "data/eras/kanem-empire.json",
+      "title_en": "Kanem Empire",
+      "title_ar": "إمبراطورية كانم",
+      "years": [
+        700,
+        1380
+      ],
+      "stream": "Chad & Central Sahara",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 216,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 34
+    },
+    {
+      "era_id": "zagwe-dynasty",
+      "file": "data/eras/zagwe-dynasty.json",
+      "title_en": "Zagwe dynasty",
+      "title_ar": "أسرة زاغوي",
+      "years": [
+        900,
+        1270
+      ],
+      "stream": "Ethiopia & Eritrea (Horn)",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 195,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 35
+    },
+    {
+      "era_id": "rise-of-islam-caliphates",
+      "file": "data/eras/rise-of-islam-caliphates.json",
+      "title_en": "Rise of Islam & Caliphates",
+      "title_ar": "ظهور الإسلام والخلافة",
+      "years": [
+        610,
+        1258
+      ],
+      "stream": "Red Sea & Arabia",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 149,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 36
+    },
+    {
+      "era_id": "islamic-egypt-rashidunfatimidayyubid",
+      "file": "data/eras/islamic-egypt-rashidunfatimidayyubid.json",
+      "title_en": "Islamic Egypt (Rashidun–Fatimid–Ayyubid)",
+      "title_ar": "مصر الإسلامية",
+      "years": [
+        641,
+        1250
+      ],
+      "stream": "Egypt",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 410,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 37
+    },
+    {
+      "era_id": "kingdom-of-aksum",
+      "file": "data/eras/kingdom-of-aksum.json",
+      "title_en": "Kingdom of Aksum",
+      "title_ar": "مملكة أكسوم",
+      "years": [
+        100,
+        940
+      ],
+      "stream": "Ethiopia & Eritrea (Horn)",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 181,
+      "sensitivity": {
+        "contested_badge": true,
+        "war_figures": false,
+        "flag": true
+      },
+      "rank": 38
+    },
+    {
+      "era_id": "garamantes-fezzan",
+      "file": "data/eras/garamantes-fezzan.json",
+      "title_en": "Garamantes (Fezzan)",
+      "title_ar": "الجرمنت (فزان)",
+      "years": [
+        -500,
+        700
+      ],
+      "stream": "Chad & Central Sahara",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 173,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 39
+    },
+    {
+      "era_id": "roman-byzantine-egypt",
+      "file": "data/eras/roman-byzantine-egypt.json",
+      "title_en": "Roman & Byzantine Egypt",
+      "title_ar": "مصر الرومانية والبيزنطية",
+      "years": [
+        -30,
+        641
+      ],
+      "stream": "Egypt",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 233,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 40
+    },
+    {
+      "era_id": "noba-x-group-ballana-culture",
+      "file": "data/eras/noba-x-group-ballana-culture.json",
+      "title_en": "Noba / X-Group (Ballana culture)",
+      "title_ar": "ثقافة بلانة (المجموعة إكس)",
+      "years": [
+        350,
+        550
+      ],
+      "stream": "Sudan – Middle Nile",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "economy_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 131,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 41
+    },
+    {
+      "era_id": "sabaean-south-arabian-kingdoms",
+      "file": "data/eras/sabaean-south-arabian-kingdoms.json",
+      "title_en": "Sabaean & South Arabian kingdoms",
+      "title_ar": "سبأ وممالك جنوب الجزيرة",
+      "years": [
+        -1000,
+        275
+      ],
+      "stream": "Red Sea & Arabia",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 130,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 42
+    },
+    {
+      "era_id": "ptolemaic-egypt",
+      "file": "data/eras/ptolemaic-egypt.json",
+      "title_en": "Ptolemaic Egypt",
+      "title_ar": "مصر البطلمية",
+      "years": [
+        -305,
+        -30
+      ],
+      "stream": "Egypt",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 187,
+      "sensitivity": {
+        "contested_badge": true,
+        "war_figures": false,
+        "flag": true
+      },
+      "rank": 43
+    },
+    {
+      "era_id": "late-period-persian-egypt",
+      "file": "data/eras/late-period-persian-egypt.json",
+      "title_en": "Late Period / Persian Egypt",
+      "title_ar": "مصر: العصر المتأخر والفارسي",
+      "years": [
+        -664,
+        -332
+      ],
+      "stream": "Egypt",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 184,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 44
+    },
+    {
+      "era_id": "land-of-punt-d-mt",
+      "file": "data/eras/land-of-punt-d-mt.json",
+      "title_en": "Land of Punt / D'mt",
+      "title_ar": "بلاد بونت / دعمت",
+      "years": [
+        -980,
+        -400
+      ],
+      "stream": "Ethiopia & Eritrea (Horn)",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 178,
+      "sensitivity": {
+        "contested_badge": true,
+        "war_figures": false,
+        "flag": true
+      },
+      "rank": 45
+    },
+    {
+      "era_id": "new-kingdom-egypt",
+      "file": "data/eras/new-kingdom-egypt.json",
+      "title_en": "New Kingdom Egypt",
+      "title_ar": "مصر: الدولة الحديثة",
+      "years": [
+        -1550,
+        -1070
+      ],
+      "stream": "Egypt",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 234,
+      "sensitivity": {
+        "contested_badge": false,
+        "war_figures": false,
+        "flag": false
+      },
+      "rank": 46
+    },
+    {
+      "era_id": "middle-kingdom-egypt",
+      "file": "data/eras/middle-kingdom-egypt.json",
+      "title_en": "Middle Kingdom Egypt",
+      "title_ar": "مصر: الدولة الوسطى",
+      "years": [
+        -2055,
+        -1650
+      ],
+      "stream": "Egypt",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 216,
+      "sensitivity": {
+        "contested_badge": true,
+        "war_figures": false,
+        "flag": true
+      },
+      "rank": 47
+    },
+    {
+      "era_id": "early-dynastic-old-kingdom-egypt",
+      "file": "data/eras/early-dynastic-old-kingdom-egypt.json",
+      "title_en": "Early Dynastic & Old Kingdom Egypt",
+      "title_ar": "مصر: الأسرات المبكرة والدولة القديمة",
+      "years": [
+        -3100,
+        -2181
+      ],
+      "stream": "Egypt",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]"
+      ],
+      "ar_word_count_approx": 190,
+      "sensitivity": {
+        "contested_badge": true,
+        "war_figures": false,
+        "flag": true
+      },
+      "rank": 48
+    },
+    {
+      "era_id": "khartoum-neolithic-shaheinab",
+      "file": "data/eras/khartoum-neolithic-shaheinab.json",
+      "title_en": "Khartoum Neolithic (Shaheinab)",
+      "title_ar": "العصر الحجري الحديث (الشهيناب)",
+      "years": [
+        -4900,
+        -3800
+      ],
+      "stream": "Sudan – Middle Nile",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]",
+        "flags[1]"
+      ],
+      "ar_word_count_approx": 195,
+      "sensitivity": {
+        "contested_badge": true,
+        "war_figures": false,
+        "flag": true
+      },
+      "rank": 49
+    },
+    {
+      "era_id": "khartoum-mesolithic-early-khartoum",
+      "file": "data/eras/khartoum-mesolithic-early-khartoum.json",
+      "title_en": "Khartoum Mesolithic (Early Khartoum)",
+      "title_ar": "الخرطوم الباكرة (العصر الحجري الوسيط)",
+      "years": [
+        -8500,
+        -5000
+      ],
+      "stream": "Sudan – Middle Nile",
+      "tier": 5,
+      "ar_fields_flagged": [
+        "culture_dominance_ar",
+        "economy_ar",
+        "geopolitics_ar"
+      ],
+      "flag_notes_in": [
+        "flags[0]",
+        "flags[1]"
+      ],
+      "ar_word_count_approx": 247,
+      "sensitivity": {
+        "contested_badge": true,
+        "war_figures": false,
+        "flag": true
+      },
+      "rank": 50
+    }
+  ]
+}
