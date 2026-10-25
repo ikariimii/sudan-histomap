@@ -73,7 +73,7 @@ async function render(anim=true){
  $('en').textContent=AR?e.ar:e.en;r.setAttribute('aria-valuetext',`${AR?e.ar:e.en}${AR?'،':','} ${fy(e.a)} – ${fy(e.b)}`);if(render.last!==e.id){if(render.last)$('live').textContent=`${AR?e.ar:e.en}. ${fy(e.a)} – ${fy(e.b)}. ${num(i+1)} ${T.live_of} ${num(ES.length)}`;render.last=e.id}$('yrs').innerHTML=`<bdi>${fy(e.a)}</bdi> – <bdi>${fy(e.b)}</bdi> · ${esc(AR?e.sa:e.s)} · ${num(i+1)}/${num(ES.length)}`;
  $('nob').innerHTML=e.g==='pts'?`<span class="pts"${AR?' title="Arabic label under native-speaker review"':''}>${T.pts}</span>`:e.g==='none'?`<span class="none">${T.none}</span>`:e.g==='hml'?`<button type="button" class="hmlb" data-hml="1" aria-pressed="${on.has('hml')}">${AR?'معروض على طبقة الأوطان *':'Shown on the Homelands layer'}</button>`:'';if(BD)$('nob').insertAdjacentHTML('beforeend',`<span class="bdb" role="note">${esc(T.bd.badge)}</span>`);
  drawBase(e);
- const ctl=on.has('ctl'),areas=ctl?g.features.filter(f=>f.geometry.type!=='Point'&&act(f.properties,e,Y)):[],pts=ctl?g.features.filter(f=>f.geometry.type==='Point'&&act(f.properties,e,Y)):[];
+ const ctl=on.has('ctl'),areas=ctl?g.features.filter(f=>f.geometry.type!=='Point'&&!f.properties.zone&&act(f.properties,e,Y)):[],pts=ctl?g.features.filter(f=>f.geometry.type==='Point'&&act(f.properties,e,Y)):[];
  // areas: morph matched shapes, crossfade the rest
  const D=anim?DUR:0,NEW=areas.map(f=>({f,box:bbox(f)})),used=new Set();
  gX.selectAll('path.ext').interrupt().remove();gX.selectAll('path.old').interrupt().remove();
@@ -99,7 +99,7 @@ async function render(anim=true){
  const LB=[];areas.forEach(f=>{const q=f.properties.label_point;const xy=q?proj(q):path.centroid(f);if(lab(f.properties))LB.push({xy,t:short(lab(f.properties)),pri:3,big:1})});
  pts.forEach(f=>LB.push({xy:proj(f.geometry.coordinates),t:short(lab(f.properties)),pri:rep(f.properties)?2.5:2,rep:rep(f.properties),dx:9}));caps.forEach(c=>LB.push({xy:proj([c[1],c[2]]),t:c[0],pri:2,dx:8}));
  LBS=LB;
- await layersDraw(e);if(on.has('hml'))hmlDraw();prefetch(i);if(BD)zonesDraw(e,D);
+ await layersDraw(e);if(on.has('hml'))hmlDraw();prefetch(i);zonesDraw(e,D,ctl?g.features.filter(f=>f.properties.zone&&f.geometry.type!=='Point'):[]);
  // card
  const cj=await cardj(e);if(e!==ES[i])return;$('card').innerHTML=cj?cj[L]:`<p><span class="gap">${T.wip}</span></p>`;layerInfo(e);$('feat').hidden=true;
  place()}
@@ -134,9 +134,9 @@ svg.on('click',()=>{$('feat').hidden=true});
 // --- border zones (db/border_drafts). Unlisted: only with ?layers=borders-draft (DRAFT badge, no chip, no legend row) unless the build sets bdPub.
 const BDQ=(Q.get('layers')||'').split(',').includes('borders-draft'),BD=BDQ||!!M.layers.bdPub,ZJ={};
 const zj=e=>(M.layers.bd||[]).includes(e.id)?(ZJ[e.id]||(ZJ[e.id]=getj('/bd/'+e.id+'.json').then(g=>{g.features.forEach(rw);return g.features}).catch(()=>[]))):Promise.resolve([]);
-if(BD)svg.select('defs').each(function(){this.insertAdjacentHTML('beforeend','<pattern id="lowconf" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#e8eef2" stroke-width="1"/></pattern><pattern id="conthatch" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#e0a63e" stroke-width="2"/></pattern><filter id="zfeather"><feGaussianBlur stdDeviation="6"/></filter>')});
+function zdefs(){if(document.getElementById('lowconf'))return;svg.select('defs').each(function(){this.insertAdjacentHTML('beforeend','<pattern id="lowconf" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#e8eef2" stroke-width="1"/></pattern><pattern id="conthatch" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#e0a63e" stroke-width="2"/></pattern><filter id="zfeather"><feGaussianBlur stdDeviation="6"/></filter>')});}
 const ZO=['influence','claimed','core','contested'],ZW=c=>c>=.7?T.bd.hi:c>=.4?T.bd.med:T.bd.lo;
-async function zonesDraw(e,D){const fs=await zj(e);if(e!==ES[i])return;const red=matchMedia('(prefers-reduced-motion: reduce)').matches;D=red?0:D;
+async function zonesDraw(e,D,pub=[]){zdefs();const fs=pub.concat(BD?await zj(e):[]);if(e!==ES[i])return;const red=matchMedia('(prefers-reduced-motion: reduce)').matches;D=red?0:D;
  gZ.selectAll('g.z').interrupt().transition().duration(D?350:0).style('opacity',0).remove();
  const g=gZ.append('g').attr('class','z');const sorted=fs.slice().sort((a,b)=>ZO.indexOf(a.properties.zone)-ZO.indexOf(b.properties.zone));
  sorted.forEach(f=>{const p=f.properties,z=p.zone,d=path(f),k=ZO.indexOf(z);const s=g.append('g').attr('class','zf zf-'+z).style('opacity',D?0:1);
@@ -148,7 +148,7 @@ async function zonesDraw(e,D){const fs=await zj(e);if(e!==ES[i])return;const red
   if(p.confidence<.5)s.append('path').attr('d',d).attr('fill','url(#lowconf)').style('opacity',.5*(1-p.confidence)).attr('pointer-events','none');
   if(D)s.transition().delay(k*80).duration(350).style('opacity',1)})}
 function zcard(f){const p=f.properties;
- $('feat').innerHTML=`<button class="x" aria-label="${esc(T.close)}">×</button><span class="bdb">DRAFT</span> <b>${esc(T.bd[p.zone]||p.zone)}</b> ${(p.badges||[]).map(x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`).join(' ')}<br><small>${esc(T.bd.conf)}: ${esc(ZW(p.confidence))} (${num(p.confidence)})${p.signoff!=='approved'?' · '+esc(T.bd.nv):''}</small>`+
+ $('feat').innerHTML=`<button class="x" aria-label="${esc(T.close)}">×</button>${p.signoff!=='approved'?'<span class="bdb">DRAFT</span> ':''}<b>${esc(T.bd[p.zone]||p.zone)}</b> ${(p.badges||[]).map(x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`).join(' ')}<br><small>${esc(T.bd.conf)}: ${esc(ZW(p.confidence))} (${num(p.confidence)})${p.signoff!=='approved'?' · '+esc(T.bd.nv):''}</small>`+
   `<p>${esc(T.bd.basis)}: <bdi dir="ltr">${esc(p.basis||'—')}</bdi></p><p class="extnote">${(p.sources||[]).map(s=>`<bdi dir="ltr">${esc(s.citation)}</bdi>${s.url?` <a href="${esc(s.url)}" rel="noopener">link</a>`:''}`).join('<br>')}<br><small>${esc(p.version||'')}</small></p>`;
  $('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true};if($('sheet').classList.contains('peek'))snap('half');$('feat').scrollIntoView({block:'nearest'})}
 // --- optional layers: drawn only from delivered, sourced files
