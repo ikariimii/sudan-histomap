@@ -5653,10 +5653,10 @@
     "title": "Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
     "publisher": "Soleb / Bleu autour / SFDAS",
     "year": "2017",
-    "url": "https://sfdas.com/IMG/pdf/histoire_et_civilisations_du_soudan_15_bd.pdf",
+    "url": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html",
     "isbn": "978-2-918157-24-3",
     "lang": "fr",
-    "note": "Free PDF; ToC shows 'Groupe C et royaume de Kerma 2450-1450', 'Groupe A, Pré-Kerma 3500-2500'",
+    "note": "Free PDF; ToC shows 'Groupe C et royaume de Kerma 2450-1450', 'Groupe A, Pré-Kerma 3500-2500' | Old sfdas.com PDF URL dead (QA 2026-10-25); same work at the publisher's page (free bd.zip holds the same 976-page PDF). Print ISBN kept as isbn because page cites refer to the print edition; digital edition ISBN 978-2-918157-30-4 (soleb.com).",
     "pages": ""
    },
    "SPAULDING1985": {
@@ -6328,7 +6328,7 @@
     "publisher": "Wikipedia",
     "year": "",
     "url": "https://en.wikipedia.org/wiki/Early_Khartoum",
-    "note": "Secondary/starting-point link",
+    "note": "Secondary/starting-point link DEAD LINK (QA 2026-10-25); no longer cited, replaced per db/dead_link_replacements.json.",
     "pages": "",
     "lang": "en"
    },
@@ -6498,7 +6498,7 @@
     "publisher": "Wikipedia",
     "year": "",
     "url": "https://en.wikipedia.org/wiki/Khartoum_Neolithic",
-    "note": "Secondary/starting-point link",
+    "note": "Secondary/starting-point link DEAD LINK (QA 2026-10-25); no longer cited, replaced per db/dead_link_replacements.json.",
     "pages": "",
     "lang": "en"
    },
@@ -6678,7 +6678,7 @@
     "publisher": "Wikipedia",
     "year": "",
     "url": "https://en.wikipedia.org/wiki/Ottoman_Egyptian_invasion_of_Sudan",
-    "note": "Secondary/starting-point link",
+    "note": "Secondary/starting-point link DEAD LINK (QA 2026-10-25); no longer cited, replaced per db/dead_link_replacements.json.",
     "pages": "",
     "lang": "en"
    },
@@ -7415,14 +7415,16 @@
     "lang": "en"
    },
    "EIA_SDN2013": {
-    "author": "US Energy Information Administration",
-    "title": "Sudan and South Sudan country analysis (updated 5 Sep 2013)",
+    "author": "U.S. Energy Information Administration (EIA)",
+    "title": "Sudan and South Sudan - Analysis",
     "date": "2013-09-05",
     "url": "https://web.archive.org/web/20140327064441/www.eia.gov/countries/cab.cfm?fips=su",
     "verification": "Read in full by the Analyst (db/economic_second_sources_for_historian.json): '5 billion barrels of proved crude oil reserves as of January 1, 2013'; 'peak of 486,000 bb/d in 2010 ... around 453,000 bbl/d in 2011'",
     "note": "Wayback copy 2014-03-27",
     "pages": "Oil paras 2–3",
-    "lang": "en"
+    "lang": "en",
+    "publisher": "U.S. Energy Information Administration",
+    "year": "2013"
    },
    "MSM1972": {
     "author": "محمد صالح محيي الدين (Muhammad Salih Muhyi al-Din)",
@@ -7437,20 +7439,22 @@
    },
    "WB_MPO_SDN_OCT2026": {
     "author": "World Bank",
-    "title": "Macro Poverty Outlook: Sudan, October 2026",
-    "date": "2026-10",
+    "title": "SUDAN MPO",
+    "date": null,
     "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
-    "verification": "Table read 2026-10-25 (p.2): 'Real GDP growth, at constant market prices -29.4 (2023) -14.0 (2024)'; 'Services -45.6 (2023)'",
+    "verification": "Read in full 2026-10-25 at the URL. Title from PDF metadata ('SUDAN MPO'). No publication date is printed (data 'as of June 2026'), so year/date are null; 'OCT2026' in the id is the release round, not a printed date. Table p.2: 'Real GDP growth, at constant market prices -29.4 (2023) -14.0 (2024)'; 'Services -45.6 (2023)'",
     "note": "Same document as WB_MPO2026 (registered under the ID the Analyst uses).",
     "pages": "p.2 table",
-    "lang": "en"
+    "lang": "en",
+    "publisher": "World Bank",
+    "year": null
    },
    "CBOS_POL2007": {
     "author": "Central Bank of Sudan",
     "title": "Central Bank of Sudan Policies for 2007",
     "publisher": "Central Bank of Sudan (CBOS)",
-    "year": "2007",
-    "date": "2007",
+    "year": "2006",
+    "date": "2006-12-28",
     "url": "https://cbos.gov.sd/en/content/central-bank-sudan-policies-2007",
     "verification": "Page read 2026-10-25: 'maintaining inflation rates in the limit of (8%) on average and realizing a real growth rate in GDP of (10%) ... nominal growth rate in money supply of (34%)'; dual banking system (Islamic North, conventional South) under CPA Wealth Sharing Protocol",
     "pages": "",
@@ -7502,8 +7506,7 @@
     }
    ],
    "sources": [
-    "AAR2021",
-    "WP:Early_Khartoum"
+    "AAR2021"
    ],
    "dating_note": "Corrected -8000/-4900 -> c.8500–5000 cal BC for Early Khartoum ceramics of central Sudan (Garcea/Jesse et al., African Archaeological Review 2021 review). Northern 'Khartoum Variant' is c.8000–4900 cal BC. Site point = city-level approximation.",
    "key_events_ar": [
@@ -7515,11 +7518,6 @@
      {
       "id": "AAR2021",
       "title": "Seventy Years of Pottery Studies in the Archaeology of Mesolithic and Neolithic Sudan"
-     },
-     {
-      "id": "WP:Early_Khartoum",
-      "title": "Early Khartoum",
-      "kind": "tertiary (Wikipedia)"
      }
     ],
     "zones": [],
@@ -7550,8 +7548,7 @@
    ],
    "sources": [
     "WD:Q109284524",
-    "WD:Q109284535",
-    "WP:Khartoum_Neolithic"
+    "WD:Q109284535"
    ],
    "dating_note": "Approximate; site coordinates from Wikidata (Esh-Shaheinab corrected from 16.13N). Kadero added as second Khartoum Neolithic site (coordinates approximate, Wikidata).",
    "key_events_ar": [
@@ -7566,11 +7563,6 @@
      {
       "id": "WD:Q109284535",
       "title": "Q109284535 (coordinates)"
-     },
-     {
-      "id": "WP:Khartoum_Neolithic",
-      "title": "Khartoum Neolithic",
-      "kind": "tertiary (Wikipedia)"
      }
     ],
     "zones": [],
@@ -8331,7 +8323,7 @@
    "sources": [
     "HD2011",
     "WP:Turco-Egyptian_Sudan",
-    "WP:Ottoman_Egyptian_invasion_of_Sudan"
+    "SFDAS_HCS2017"
    ],
    "dating_note": "",
    "key_events_ar": [
@@ -8351,9 +8343,9 @@
       "kind": "tertiary (Wikipedia)"
      },
      {
-      "id": "WP:Ottoman_Egyptian_invasion_of_Sudan",
-      "title": "Ottoman Egyptian invasion of Sudan",
-      "kind": "tertiary (Wikipedia)"
+      "id": "SFDAS_HCS2017",
+      "title": "Histoire et civilisations du Soudan (ch. 'La création du Soudan moderne (1820-1885, Turkiyya)', p.556)",
+      "pages": "556"
      }
     ],
     "zones": [],
