@@ -1,1 +1,67 @@
-{"type": "FeatureCollection", "rendering": "homelands_layer", "homelands_ids": [], "badges": ["APPROXIMATE"], "note": "No cited dated boundary; rendered via the undated Homelands layer", "historian_note": {"path": "data/eras/anuak-anywaa-communities.json", "field": "extent_rendering", "commit": "4cec0d8", "cites": [{"source_id": "EP1940_NUER", "page": "p.5", "quote": "The Nuer, the Shilluk, and the Anuak each occupy a continuous territory"}, {"source_id": "EP1940_NUER", "page": "p.112", "quote": "the Pibor separates the Lou tribe from the Anuak people"}, {"source_id": "EP1940_NUER", "page": "p.133", "quote": "at one time the Anuak extended far westward of their present distribution"}]}, "features": [], "zero_features_reason": "No Anuak record exists in db/group_layers/homelands.geojson (and none in db/groups.json), so no feature is copied."}
+{
+ "type": "FeatureCollection",
+ "rendering": "homelands_layer",
+ "homelands_ids": [],
+ "badges": [
+  "APPROXIMATE"
+ ],
+ "note": "No cited dated boundary; rendered via the undated Homelands layer",
+ "historian_note": {
+  "path": "data/eras/anuak-anywaa-communities.json",
+  "field": "extent_rendering",
+  "commit": "4cec0d8",
+  "cites": [
+   {
+    "source_id": "EP1940_NUER",
+    "page": "p.5",
+    "quote": "The Nuer, the Shilluk, and the Anuak each occupy a continuous territory"
+   },
+   {
+    "source_id": "EP1940_NUER",
+    "page": "p.112",
+    "quote": "the Pibor separates the Lou tribe from the Anuak people"
+   },
+   {
+    "source_id": "EP1940_NUER",
+    "page": "p.133",
+    "quote": "at one time the Anuak extended far westward of their present distribution"
+   }
+  ]
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.2185,
+     8.4337
+    ]
+   },
+   "properties": {
+    "kind": "river_anchor",
+    "label_en": "Pibor River (river anchor)",
+    "sources": [
+     "EP1940_NUER",
+     "WD:Q3179125"
+    ],
+    "source": "EP1940_NUER",
+    "pages": "112",
+    "cite": {
+     "source_id": "EP1940_NUER",
+     "page": "p.112",
+     "note": "\"the Pibor separates the Lou tribe from the Anuak people\""
+    },
+    "badges": [
+     "APPROXIMATE"
+    ],
+    "badge": "APPROXIMATE",
+    "certainty": "low",
+    "note": "river anchor, not homeland centre",
+    "method": "river anchor (not a border, not a homeland centre)",
+    "geometry_source": "Wikidata P625 of Q3179125, copied from db/groups.json (aa0783a)",
+    "license": "CC0 1.0 (Wikidata)"
+   }
+  }
+ ]
+}

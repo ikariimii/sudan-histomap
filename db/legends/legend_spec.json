@@ -339,7 +339,7 @@
    "size_px": 22,
    "stroke": "#ffffff",
    "stroke_width": 1,
-   "time_window": "shown only when the scrub year is inside both the era and that flag's used_years (partial-era flags note their window in the popup)",
+   "time_window": "shown when the scrub year is inside the era AND inside ANY of that flag's used_windows (list of [start,end]; e.g. Libya 1949-1969 and 2011-2026); popup states the windows",
    "multiple": "joint_flags (e.g. Condominium UK + Egypt) drawn side by side, centred on the anchor, 2px gap",
    "verify_badge": "VERIFY = dashed 1px frame + small 'VERIFY' chip",
    "text_only": "emblem.text_only entries (e.g. Mahdist banner colours) appear only in the popup; no marker",

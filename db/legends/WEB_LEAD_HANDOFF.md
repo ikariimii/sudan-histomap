@@ -55,7 +55,7 @@ Files (data only, no view code touched): `legend_spec.json` (symbol classes, unc
 
 - Source: `db/era_symbols.json` (Analyst, b0cc447) for image, author, licence and cite. Position: `db/era_focus.json` `flag_anchor` (null anchor = no marker). Built into each `db/legends/eras/<era>.json` as `layers.flags`.
 - Marker: ~22 px, 1 px white border. Credit, licence, Commons link and usage cite go in the popup.
-- Date window: show a flag only when the scrub year is inside the era AND inside that flag's `used_years`. Partial-era flags state their window in the popup.
+- Date window: show a flag only when the scrub year is inside the era AND inside ANY window in that flag's `used_windows` (a list of [start,end], e.g. Libya 1949-1969 and 2011-2026). Popup states the windows.
 - Joint flags (`type: joint_flags`, e.g. Condominium UK + Egypt): draw side by side, centred on the anchor.
 - `VERIFY` badge: dashed frame plus a small "VERIFY" chip.
 - Text-only emblems (`emblem.text_only`, e.g. Mahdist black/red/green military flags): popup text only, no marker.

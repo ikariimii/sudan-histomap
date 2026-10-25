@@ -30,13 +30,13 @@ for p in periods:
     role_c = [c for c in cities if any(r.get('era_id') == sl for r in c['properties'].get('roles', []))]
     cg = [shape(c['geometry']) for c in role_c]
     fv = (json.load(open(f'{R}/data/eras/{sl}.json')).get('focus_view') if os.path.exists(f'{R}/data/eras/{sl}.json') else None)
-    if not fv or not fv.get('bbox'):
+    if (not fv or not fv.get('bbox')) and not eg:
         out[sl] = {'name': p['name'], 'stream': p['stream'], 'start': p['start'], 'end': p['end'], 'zoom': None,
                    'flag_anchor': None, 'flag_anchor_basis': None,
                    'null_reason': 'focus_view is null in data/eras (no cited extent features or city coordinates)',
                    'cities_with_role': sorted(c['properties']['id'] for c in role_c)}
         audit.append((sl, p, role_c)); continue
-    fb = fv['bbox']
+    fb = fv['bbox'] if fv and fv.get('bbox') else None
     polys = [g for g in eg if g.geom_type in ('Polygon', 'MultiPolygon')]
     if polys:
         u = unary_union(polys)
@@ -52,7 +52,7 @@ for p in periods:
         else:
             anchor, ab = [round(pts[0].x, 3), round(pts[0].y, 3)], 'extent-point'
     out[sl] = {'name': p['name'], 'stream': p['stream'], 'start': p['start'], 'end': p['end'],
-               'zoom': zoom(fb), 'zoom_basis': 'derived from data/eras/<era>.json focus_view.bbox',
+               'zoom': zoom(fb) if fb else None, 'zoom_basis': 'derived from data/eras/<era>.json focus_view.bbox' if fb else 'null: focus_view is null in data/eras',
                'flag_anchor': anchor, 'flag_anchor_basis': ab, 'cities_with_role': sorted(c['properties']['id'] for c in role_c)}
     audit.append((sl, p, role_c))
 meta = {'owner': 'Sudan Map Designer', 'script': 'db/era_focus/build_era_focus.py',

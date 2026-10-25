@@ -992,9 +992,12 @@
    "start": 1500,
    "end": 2026,
    "zoom": null,
-   "flag_anchor": null,
-   "flag_anchor_basis": null,
-   "null_reason": "focus_view is null in data/eras (no cited extent features or city coordinates)",
+   "zoom_basis": "null: focus_view is null in data/eras",
+   "flag_anchor": [
+    33.218,
+    8.434
+   ],
+   "flag_anchor_basis": "extent-point",
    "cities_with_role": []
   },
   "anuak-anywaa-communities": {
@@ -1003,9 +1006,12 @@
    "start": 1500,
    "end": 2026,
    "zoom": null,
-   "flag_anchor": null,
-   "flag_anchor_basis": null,
-   "null_reason": "focus_view is null in data/eras (no cited extent features or city coordinates)",
+   "zoom_basis": "null: focus_view is null in data/eras",
+   "flag_anchor": [
+    33.218,
+    8.434
+   ],
+   "flag_anchor_basis": "extent-point",
    "cities_with_role": []
   }
  }

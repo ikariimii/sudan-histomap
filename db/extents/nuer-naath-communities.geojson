@@ -1,1 +1,104 @@
-{"type": "FeatureCollection", "rendering": "homelands_layer", "homelands_ids": ["grp-nuer-homeland"], "badges": ["APPROXIMATE"], "note": "No cited dated boundary; rendered via the undated Homelands layer", "historian_note": {"path": "data/eras/nuer-naath-communities.json", "field": "extent_rendering", "commit": "4cec0d8", "cites": [{"source_id": "EP1940_NUER", "page": "p.112", "note": "tribal sections described by rivers (Zeraf, Pibor) that separate them from neighbours"}, {"source_id": "QASIM_MAWSUA", "vol": 6, "page": "p.2524", "pdf_page": 2473, "quote": "قبيلة نيلية تسكن بحر الغزال حتى نهر السوباط", "quote_en": "a Nilotic tribe living from Bahr al-Ghazal to the Sobat river", "quote_en_status": "working translation (Historian)", "badge": "VERIFY"}]}, "features": [], "zero_features_reason": "grp-nuer-homeland is list_only with geometry null in db/group_layers/homelands.geojson (no settlement point checked), so no feature is copied."}
+{
+ "type": "FeatureCollection",
+ "rendering": "homelands_layer",
+ "homelands_ids": [
+  "grp-nuer-homeland"
+ ],
+ "badges": [
+  "APPROXIMATE"
+ ],
+ "note": "No cited dated boundary; rendered via the undated Homelands layer",
+ "historian_note": {
+  "path": "data/eras/nuer-naath-communities.json",
+  "field": "extent_rendering",
+  "commit": "4cec0d8",
+  "cites": [
+   {
+    "source_id": "EP1940_NUER",
+    "page": "p.112",
+    "note": "tribal sections described by rivers (Zeraf, Pibor) that separate them from neighbours"
+   },
+   {
+    "source_id": "QASIM_MAWSUA",
+    "vol": 6,
+    "page": "p.2524",
+    "pdf_page": 2473,
+    "quote": "قبيلة نيلية تسكن بحر الغزال حتى نهر السوباط",
+    "quote_en": "a Nilotic tribe living from Bahr al-Ghazal to the Sobat river",
+    "quote_en_status": "working translation (Historian)",
+    "badge": "VERIFY"
+   }
+  ]
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.2185,
+     8.4337
+    ]
+   },
+   "properties": {
+    "kind": "river_anchor",
+    "label_en": "Pibor River (river anchor, Lou side)",
+    "sources": [
+     "EP1940_NUER",
+     "WD:Q3179125"
+    ],
+    "source": "EP1940_NUER",
+    "pages": "112",
+    "cite": {
+     "source_id": "EP1940_NUER",
+     "page": "p.112",
+     "note": "\"the Pibor separates the Lou tribe from the Anuak people\""
+    },
+    "badges": [
+     "APPROXIMATE"
+    ],
+    "badge": "APPROXIMATE",
+    "certainty": "low",
+    "note": "river anchor, not homeland centre (Lou Nuer side)",
+    "method": "river anchor (not a border, not a homeland centre)",
+    "geometry_source": "Wikidata P625 of Q3179125, copied from db/groups.json (aa0783a)",
+    "license": "CC0 1.0 (Wikidata)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.164444444444,
+     9.4125
+    ]
+   },
+   "properties": {
+    "kind": "river_anchor",
+    "label_en": "Bahr el Zeraf (river anchor)",
+    "sources": [
+     "EP1940_NUER",
+     "WD:Q1112393"
+    ],
+    "source": "EP1940_NUER",
+    "pages": "112",
+    "cite": {
+     "source_id": "EP1940_NUER",
+     "page": "p.112",
+     "note": "paraphrased, page check pending"
+    },
+    "badges": [
+     "APPROXIMATE",
+     "VERIFY"
+    ],
+    "badge": "APPROXIMATE",
+    "certainty": "low",
+    "note": "river anchor, not homeland centre",
+    "method": "river anchor (not a border, not a homeland centre)",
+    "geometry_source": "Wikidata P625 of Q1112393, copied from db/groups.json (aa0783a)",
+    "license": "CC0 1.0 (Wikidata)"
+   }
+  }
+ ]
+}

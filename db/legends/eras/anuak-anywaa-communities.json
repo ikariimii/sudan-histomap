@@ -6,8 +6,25 @@
  "end": 2026,
  "layers": {
   "extents": {
-   "file": null,
-   "features": []
+   "file": "db/extents/anuak-anywaa-communities.geojson",
+   "features": [
+    {
+     "feature_index": 0,
+     "id": null,
+     "label_en": "Pibor River (river anchor)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "EP1940_NUER",
+      "WD:Q3179125"
+     ]
+    }
+   ]
   },
   "groups": {
    "file": null,
@@ -1144,7 +1161,8 @@
   "city_other",
   "city_port",
   "city_religious",
-  "city_trade"
+  "city_trade",
+  "extent_label_point"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1163,7 +1181,8 @@
   "city_port": 2,
   "city_religious": 1,
   "city_trade": 1,
-  "extent_features": 0,
+  "extent_label_point": 1,
+  "extent_features": 1,
   "group_features": 0,
   "cities": 41
  },
@@ -1190,6 +1209,7 @@
  "interactive": {
   "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
   "layer_toggles": [
+   "extents",
    "cities",
    "homelands",
    "basemap_rivers",
@@ -1210,8 +1230,13 @@
   "what_changed": {
    "previous_era_id": "nuer-naath-communities",
    "basis": "previous era in same stream by start year",
-   "extents_added": [],
-   "extents_removed": [],
+   "extents_added": [
+    "Pibor River (river anchor)"
+   ],
+   "extents_removed": [
+    "Bahr el Zeraf (river anchor)",
+    "Pibor River (river anchor, Lou side)"
+   ],
    "cities_added": [],
    "cities_removed": [],
    "capitals_added": [],

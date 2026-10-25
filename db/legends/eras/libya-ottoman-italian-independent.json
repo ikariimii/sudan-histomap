@@ -1205,13 +1205,21 @@
      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Libya.svg",
      "author": "Various  The SVG code is valid. This  vector image was created with a text editor.",
      "licence": "Public domain",
-     "used_years": null,
+     "used_windows": [
+      [
+       1949,
+       1969
+      ],
+      [
+       2011,
+       2026
+      ]
+     ],
      "badges": [
-      "VERIFY",
       "MODERN_SVG_RENDERING"
      ],
-     "verify": true,
-     "note": "current national flag only; not checked against a source"
+     "verify": false,
+     "note": "Partial coverage: used 1949–1969 and 2011–2026. The 1969 red-white-black flag, the 1977–2011 plain green flag, the Ottoman flags and Italian rule (no own flag, 1911–42) are not given."
     }
    ],
    "popup_text_only": null,

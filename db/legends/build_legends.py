@@ -26,7 +26,7 @@ def flag_layer(sl):
     if fl:
         for x in (fl.get('flags') if fl.get('type') == 'joint_flags' else [fl]):
             items.append({'symbol_class': 'flag', 'file_page': x.get('file_page'), 'image_url': x.get('image_url'),
-                          'author': x.get('author'), 'licence': x.get('licence'), 'used_years': x.get('used_years'),
+                          'author': x.get('author'), 'licence': x.get('licence'), 'used_windows': (lambda u: [] if not u else ([list(w) for w in u] if isinstance(u[0], list) else [list(u)]))(x.get('used_years')),
                           'badges': x.get('badges') or [], 'verify': 'VERIFY' in (x.get('badges') or []), 'note': x.get('note')})
     em = v.get('emblem')
     return {'file': 'db/era_symbols.json', 'anchor': anc if items else None, 'anchor_file': 'db/era_focus.json',
