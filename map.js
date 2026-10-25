@@ -64,7 +64,7 @@ const dpts=p=>'M'+p.map(q=>q[0].toFixed(1)+','+q[1].toFixed(1)).join('L')+'Z';
 // --- draw base
 function drawBase(e){if(!BASE)return;const y=Y??e.b,post=y>=2011;
  gL.selectAll('path').data(BASE.features).join('path').attr('d',path).attr('class',d=>'land'+(d.properties.name==='Sudan'?' sdn':d.properties.name==='S. Sudan'?(post?' ssd':' ssd-old'):''));
- const ss=BASE.features.find(d=>d.properties.name==='S. Sudan');gC.selectAll('text').data(post&&ss?[ss]:[]).join('text').attr('class','cl').attr('text-anchor','middle').style('display',null).attr('transform',d=>`translate(${path.centroid(d)})`).text(T.ssd)}
+ const ss=BASE.features.find(d=>d.properties.name==='S. Sudan');gC.selectAll('text').data(post&&ss?[ss]:[]).join('text').attr('class','cl mk').attr('text-anchor','middle').style('display',null).each(function(d){this.__xy=path.centroid(d)}).attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`}).text(T.ssd)}// counter-scaled like markers so the label stays 11px during fly/zoom
 let OLD=[];// previously drawn area features [{f,d,box}]
 async function render(anim=true){
  const e=ES[i];r.value=i;url();const g=await ext(e);if(e!==ES[i])return;
