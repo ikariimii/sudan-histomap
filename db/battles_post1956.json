@@ -1,0 +1,644 @@
+{
+ "meta": {
+  "scope": "Sudan & South Sudan 1956–present; major wars and decisive battles only (staging for data/battles.json)",
+  "author": "Sudan Geopolitical Analyst",
+  "coords": "GeoNames town centroids (coord_cite) → precision approximate; otherwise region-only",
+  "rules": "2023+ SAF–RSF items REPORTED only, UN Panel cites, no control/winner claims; no fatality figures",
+  "new_war_ids": [
+   "south-kordofan-blue-nile-2011",
+   "second-civil-war",
+   "darfur-war",
+   "south-sudan-civil-war",
+   "sudan-south-sudan-border-2012",
+   "war-2023"
+  ],
+  "dropped": [
+   "First civil war 1956–72 (Anyanya): no readable source fetched",
+   "Bor 1983 mutiny: HRW 1993 names it without a date",
+   "N'Djamena 2008: S/PRST/2008/3 does not name the town or Sudanese role",
+   "Blue Nile Sept 2011 (Damazin/Kurmuk): no readable UN source found",
+   "Bor/Kongor 1991 Nasir raids: massacre, not a battle"
+  ],
+  "updated": "2026-10-25"
+ },
+ "battles": [
+  {
+   "id": "juba-1992",
+   "war_id": "second-civil-war",
+   "name_en": "SPLA-Torit attacks on Juba",
+   "name_ar": "هجمات الجيش الشعبي (فصيل توريت) على جوبا [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date_from": "1992-06-07",
+   "date_to": "1992-07-06",
+   "lat": 4.851645,
+   "lon": 31.582475,
+   "precision": "approximate",
+   "place_id": "juba",
+   "coord_cite": {
+    "source_id": "GEONAMES",
+    "pages": "geonameid 373303"
+   },
+   "sides": [
+    "SPLA-Torit",
+    "Sudan government forces"
+   ],
+   "outcome_en": "SPLA-Torit incursions into Juba in June and July 1992; town remained besieged (per HRW)",
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime",
+    "southern-sudan-under-condominium-sudan"
+   ],
+   "cite": {
+    "source_id": "HRW1993_CIVDEV",
+    "pages": "Ch. II (government offensive), note 5; Ch. IV (battle for Juba)"
+   },
+   "badges": [
+    "SINGLE-SOURCE",
+    "SOURCED",
+    "APPROXIMATE"
+   ],
+   "image": {}
+  },
+  {
+   "id": "bor-1992",
+   "war_id": "second-civil-war",
+   "name_en": "Government dry-season offensive on Bor",
+   "name_ar": "هجوم الحكومة على بور (حملة موسم الجفاف) [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date": "1992-04-04",
+   "lat": 6.208889,
+   "lon": 31.558611,
+   "precision": "approximate",
+   "place_id": "bor",
+   "coord_cite": {
+    "source_id": "GEONAMES",
+    "pages": "geonameid 377241"
+   },
+   "sides": [
+    "Sudan government forces",
+    "SPLA-Torit"
+   ],
+   "outcome_en": "Government advance from Malakal reached Bor on 4 April 1992 (per HRW)",
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime",
+    "southern-sudan-under-condominium-sudan"
+   ],
+   "cite": {
+    "source_id": "HRW1993_CIVDEV",
+    "pages": "Ch. II, 1992 dry-season offensive (three-prong advance)"
+   },
+   "badges": [
+    "SINGLE-SOURCE",
+    "SOURCED",
+    "APPROXIMATE"
+   ],
+   "image": {}
+  },
+  {
+   "id": "kapoeta-1992",
+   "war_id": "second-civil-war",
+   "name_en": "Attack on Kapoeta",
+   "name_ar": "الهجوم على كبويتا [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date": "1992-05-28",
+   "lat": 4.772222,
+   "lon": 33.591389,
+   "precision": "approximate",
+   "place_id": "kapoeta",
+   "coord_cite": {
+    "source_id": "GEONAMES",
+    "pages": "geonameid 372884"
+   },
+   "sides": [
+    "Sudan government forces",
+    "Toposa militia",
+    "SPLA-Torit"
+   ],
+   "outcome_en": "Government and militia attack on Kapoeta, 28 May 1992 (per HRW)",
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime",
+    "southern-sudan-under-condominium-sudan"
+   ],
+   "cite": {
+    "source_id": "HRW1993_CIVDEV",
+    "pages": "Ch. II, \"Indiscriminate Government Bombing and the Capture of Kapoeta and Torit in 1992\""
+   },
+   "badges": [
+    "SINGLE-SOURCE",
+    "SOURCED",
+    "APPROXIMATE"
+   ],
+   "image": {}
+  },
+  {
+   "id": "torit-1992",
+   "war_id": "second-civil-war",
+   "name_en": "Government offensive on Torit",
+   "name_ar": "هجوم الحكومة على توريت [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date": "1992-07-13",
+   "lat": 4.41177,
+   "lon": 32.570457,
+   "precision": "approximate",
+   "place_id": "torit",
+   "coord_cite": {
+    "source_id": "GEONAMES",
+    "pages": "geonameid 365742"
+   },
+   "sides": [
+    "Sudan government forces",
+    "SPLA-Torit"
+   ],
+   "outcome_en": "Government offensive reached SPLA-Torit headquarters on 13 July 1992 (per HRW)",
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime",
+    "southern-sudan-under-condominium-sudan"
+   ],
+   "cite": {
+    "source_id": "HRW1993_CIVDEV",
+    "pages": "Ch. II, \"Capture of Kapoeta and Torit in 1992\""
+   },
+   "badges": [
+    "SINGLE-SOURCE",
+    "SOURCED",
+    "APPROXIMATE"
+   ],
+   "image": {}
+  },
+  {
+   "id": "el-fasher-2003",
+   "war_id": "darfur-war",
+   "name_en": "SLA raid on El Fasher airbase",
+   "name_ar": "غارة حركة تحرير السودان على الفاشر [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date": "2003-04",
+   "lat": 13.627928,
+   "lon": 25.349364,
+   "precision": "approximate",
+   "place_id": "el-fasher",
+   "coord_cite": {
+    "source_id": "GEONAMES",
+    "pages": "geonameid 379555"
+   },
+   "sides": [
+    "Sudan Liberation Army (SLA)",
+    "Sudan government forces"
+   ],
+   "outcome_en": "Rebel surprise attack; aircraft damaged and depots looted (per HRW)",
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime"
+   ],
+   "cite": {
+    "source_id": "HRW2004_DARFUR",
+    "pages": "\"Darfur in Flames\" (Apr 2004), section \"Background\""
+   },
+   "badges": [
+    "SINGLE-SOURCE",
+    "SOURCED",
+    "APPROXIMATE"
+   ],
+   "image": {},
+   "note": "Source gives month only."
+  },
+  {
+   "id": "omdurman-2008",
+   "war_id": "darfur-war",
+   "name_en": "JEM attack on Omdurman",
+   "name_ar": "هجوم حركة العدل والمساواة على أم درمان [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date": "2008-05-10",
+   "lat": 15.644527,
+   "lon": 32.477732,
+   "precision": "approximate",
+   "place_id": "omdurman",
+   "coord_cite": {
+    "source_id": "GEONAMES",
+    "pages": "geonameid 365137"
+   },
+   "sides": [
+    "Justice and Equality Movement (JEM)",
+    "Sudan government forces"
+   ],
+   "outcome_en": "Attack condemned by the UN Security Council (S/PRST/2008/15)",
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime"
+   ],
+   "cite": {
+    "source_id": "UNSC_PRST_2008_15",
+    "pages": "p.1, para 1"
+   },
+   "badges": [
+    "SOURCED",
+    "APPROXIMATE"
+   ],
+   "image": {}
+  },
+  {
+   "id": "kadugli-2011",
+   "war_id": "south-kordofan-blue-nile-2011",
+   "name_en": "Outbreak of fighting in Kadugli",
+   "name_ar": "اندلاع القتال في كادقلي [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date": "2011-06-05",
+   "lat": 11.011111,
+   "lon": 29.718333,
+   "precision": "approximate",
+   "place_id": "kadugli",
+   "coord_cite": {
+    "source_id": "GEONAMES",
+    "pages": "geonameid 373141"
+   },
+   "sides": [
+    "Sudanese Armed Forces (SAF)",
+    "SPLA-North"
+   ],
+   "outcome_en": "Fighting broke out in Kadugli on 5 June 2011 (per OHCHR)",
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime"
+   ],
+   "cite": {
+    "source_id": "OHCHR_SK2011",
+    "pages": "para 1 (p.2)"
+   },
+   "badges": [
+    "SOURCED",
+    "APPROXIMATE"
+   ],
+   "image": {}
+  },
+  {
+   "id": "heglig-2012",
+   "war_id": "sudan-south-sudan-border-2012",
+   "name_en": "Heglig crisis",
+   "name_ar": "أزمة هجليج [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date": "2012-04",
+   "precision": "region",
+   "region_name": "Heglig oil field area, Sudan–South Sudan border (South Kordofan)",
+   "sides": [
+    "SPLA (South Sudan)",
+    "Sudanese Armed Forces (SAF)"
+   ],
+   "outcome_en": "SPLA occupation condemned and withdrawal demanded by the Security Council; withdrawal later welcomed (S/RES/2046)",
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime",
+    "republic-of-south-sudan"
+   ],
+   "cite": {
+    "source_id": "UNSC_PRST_2012_12",
+    "pages": "p.1, paras 1–2; also UNSC2046 preamble"
+   },
+   "badges": [
+    "SOURCED",
+    "PARTIAL"
+   ],
+   "image": {},
+   "note": "GeoNames \"Heglig\" match is ambiguous (returns a place in Al Jazirah), so region-only."
+  },
+  {
+   "id": "bor-2013",
+   "war_id": "south-sudan-civil-war",
+   "name_en": "Fighting for Bor",
+   "name_ar": "القتال على بور [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date_from": "2013-12-18",
+   "date_to": "2013-12-31",
+   "lat": 6.208889,
+   "lon": 31.558611,
+   "precision": "approximate",
+   "place_id": "bor",
+   "coord_cite": {
+    "source_id": "GEONAMES",
+    "pages": "geonameid 377241"
+   },
+   "sides": [
+    "SPLA (government)",
+    "SPLA defectors / opposition (8th Division)"
+   ],
+   "outcome_en": "Town changed hands several times; see cited report",
+   "era_ids": [
+    "republic-of-south-sudan",
+    "dinka-jieng-communities",
+    "nuer-naath-communities"
+   ],
+   "cite": {
+    "source_id": "UNMISS_HRR2014",
+    "pages": "paras 41, 91–92 (pp.16, 25)"
+   },
+   "badges": [
+    "SOURCED",
+    "CONTESTED",
+    "APPROXIMATE"
+   ],
+   "image": {}
+  },
+  {
+   "id": "malakal-2013",
+   "war_id": "south-sudan-civil-war",
+   "name_en": "Fighting for Malakal",
+   "name_ar": "القتال على ملكال [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date_from": "2013-12-25",
+   "date_to": "2014-04",
+   "lat": 9.533424,
+   "lon": 31.660485,
+   "precision": "approximate",
+   "place_id": "malakal",
+   "coord_cite": {
+    "source_id": "GEONAMES",
+    "pages": "geonameid 370737"
+   },
+   "sides": [
+    "SPLA (government)",
+    "SPLA 7th Division defectors",
+    "White Army"
+   ],
+   "outcome_en": "Repeated fighting; both parties held the town at different times (per UNMISS)",
+   "era_ids": [
+    "republic-of-south-sudan",
+    "dinka-jieng-communities",
+    "nuer-naath-communities"
+   ],
+   "cite": {
+    "source_id": "UNMISS_HRR2014",
+    "pages": "paras 41, 150 (pp.16, 34)"
+   },
+   "badges": [
+    "SOURCED",
+    "CONTESTED",
+    "APPROXIMATE"
+   ],
+   "image": {}
+  },
+  {
+   "id": "bentiu-2013",
+   "war_id": "south-sudan-civil-war",
+   "name_en": "Fighting for Bentiu",
+   "name_ar": "القتال على بانتيو [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date_from": "2013-12-19",
+   "date_to": "2014-01-10",
+   "lat": 9.257222,
+   "lon": 29.798333,
+   "precision": "approximate",
+   "place_id": "bentiu",
+   "coord_cite": {
+    "source_id": "GEONAMES",
+    "pages": "geonameid 377472"
+   },
+   "sides": [
+    "SPLA (government)",
+    "SPLA 4th Division defectors / opposition"
+   ],
+   "outcome_en": "Fighting centred on Bentiu town; see cited report",
+   "era_ids": [
+    "republic-of-south-sudan",
+    "dinka-jieng-communities",
+    "nuer-naath-communities"
+   ],
+   "cite": {
+    "source_id": "UNMISS_HRR2014",
+    "pages": "paras 41, 192–193 (pp.16, 41)"
+   },
+   "badges": [
+    "SOURCED",
+    "CONTESTED",
+    "APPROXIMATE"
+   ],
+   "image": {},
+   "note": "UNMISS gives 19 Dec (exec. summary) and 21 Dec (paras 41, 192) for the opposition entry; start date uses earlier figure."
+  },
+  {
+   "id": "khartoum-2023",
+   "war_id": "war-2023",
+   "name_en": "Fighting in Khartoum (start of the war)",
+   "name_ar": "القتال في الخرطوم (بداية الحرب) [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date": "2023-04-15",
+   "lat": 15.551772,
+   "lon": 32.532406,
+   "precision": "approximate",
+   "place_id": "khartoum",
+   "coord_cite": {
+    "source_id": "GEONAMES",
+    "pages": "geonameid 379252"
+   },
+   "sides": [
+    "Sudanese Armed Forces (SAF)",
+    "Rapid Support Forces (RSF)"
+   ],
+   "outcome_en": "Reported fighting; see cited report",
+   "era_ids": [
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "cite": {
+    "source_id": "UNPOE_S2024_65",
+    "pages": "para 4 (PDF p.5)"
+   },
+   "badges": [
+    "REPORTED",
+    "APPROXIMATE"
+   ],
+   "image": {}
+  },
+  {
+   "id": "el-geneina-2023",
+   "war_id": "war-2023",
+   "name_en": "Fighting reported in El Geneina",
+   "name_ar": "القتال المُبلَّغ عنه في الجنينة [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date_from": "2023-04-24",
+   "date_to": "2023-06-19",
+   "lat": 13.452622,
+   "lon": 22.447248,
+   "precision": "approximate",
+   "place_id": "geneina",
+   "coord_cite": {
+    "source_id": "GEONAMES",
+    "pages": "geonameid 379303"
+   },
+   "sides": [
+    "Rapid Support Forces (RSF) and allied militias",
+    "Sudanese Armed Forces (SAF) / local armed groups"
+   ],
+   "outcome_en": "Reported fighting; see cited report",
+   "era_ids": [
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "cite": {
+    "source_id": "UNPOE_S2024_65",
+    "pages": "Table 1 (PDF p.6); sect. VI"
+   },
+   "badges": [
+    "REPORTED",
+    "APPROXIMATE"
+   ],
+   "image": {}
+  },
+  {
+   "id": "nyala-2023",
+   "war_id": "war-2023",
+   "name_en": "Fighting reported around Nyala (SAF 16th Division)",
+   "name_ar": "القتال المُبلَّغ عنه حول نيالا [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date": "2023-10-21",
+   "lat": 12.048882,
+   "lon": 24.880694,
+   "precision": "approximate",
+   "place_id": "nyala",
+   "coord_cite": {
+    "source_id": "GEONAMES",
+    "pages": "geonameid 369004"
+   },
+   "sides": [
+    "Rapid Support Forces (RSF)",
+    "Sudanese Armed Forces (SAF)"
+   ],
+   "outcome_en": "Reported fighting; see cited report",
+   "era_ids": [
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "cite": {
+    "source_id": "UNPOE_S2024_65",
+    "pages": "Table 1 (PDF p.6); sect. VII"
+   },
+   "badges": [
+    "REPORTED",
+    "APPROXIMATE"
+   ],
+   "image": {}
+  },
+  {
+   "id": "zalingei-2023",
+   "war_id": "war-2023",
+   "name_en": "Fighting reported in Zalingei (SAF 21st Division)",
+   "name_ar": "القتال المُبلَّغ عنه في زالنجي [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date": "2023-10-31",
+   "lat": 12.909179,
+   "lon": 23.470578,
+   "precision": "approximate",
+   "place_id": "zalingei",
+   "coord_cite": {
+    "source_id": "GEONAMES",
+    "pages": "geonameid 363533"
+   },
+   "sides": [
+    "Rapid Support Forces (RSF)",
+    "Sudanese Armed Forces (SAF)"
+   ],
+   "outcome_en": "Reported fighting; see cited report",
+   "era_ids": [
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "cite": {
+    "source_id": "UNPOE_S2024_65",
+    "pages": "Table 1 (PDF p.6)"
+   },
+   "badges": [
+    "REPORTED",
+    "APPROXIMATE"
+   ],
+   "image": {}
+  },
+  {
+   "id": "ardamatta-2023",
+   "war_id": "war-2023",
+   "name_en": "Fighting reported at Ardamatta (SAF 15th Division)",
+   "name_ar": "القتال المُبلَّغ عنه في أردمتا [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date_from": "2023-11-01",
+   "date_to": "2023-11-04",
+   "precision": "region",
+   "region_name": "Ardamatta, near El Geneina, West Darfur",
+   "sides": [
+    "Rapid Support Forces (RSF)",
+    "Sudanese Armed Forces (SAF)"
+   ],
+   "outcome_en": "Reported fighting; see cited report",
+   "era_ids": [
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "cite": {
+    "source_id": "UNPOE_S2024_65",
+    "pages": "Table 1 (PDF p.6); sect. VI"
+   },
+   "badges": [
+    "REPORTED"
+   ],
+   "image": {},
+   "note": "Ardamatta is near El Geneina; no gazetteer entry checked, so region-only."
+  },
+  {
+   "id": "el-fasher-2024",
+   "war_id": "war-2023",
+   "name_en": "Fighting reported in and around El Fasher",
+   "name_ar": "القتال المُبلَّغ عنه في الفاشر ومحيطها [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date_from": "2024",
+   "date_to": "2025-10-26",
+   "lat": 13.627928,
+   "lon": 25.349364,
+   "precision": "approximate",
+   "place_id": "el-fasher",
+   "coord_cite": {
+    "source_id": "GEONAMES",
+    "pages": "geonameid 379555"
+   },
+   "sides": [
+    "Rapid Support Forces (RSF)",
+    "Sudanese Armed Forces (SAF) and allied Joint Force"
+   ],
+   "outcome_en": "Reported fighting; see cited report",
+   "era_ids": [
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "cite": {
+    "source_id": "GEO-032",
+    "pages": "para 31 (PDF p.12), sect. III.C.1"
+   },
+   "badges": [
+    "REPORTED",
+    "APPROXIMATE"
+   ],
+   "image": {},
+   "note": "Panel: epicentre \"from early 2024\"; start month not given."
+  }
+ ],
+ "sources_to_register": [
+  {
+   "id": "UNMISS_HRR2014",
+   "citation": "UNMISS, \"Conflict in South Sudan: A Human Rights Report\", 8 May 2014",
+   "url": "https://unmiss.unmissions.org/sites/default/files/unmiss_conflict_in_south_sudan_-_a_human_rights_report.pdf"
+  },
+  {
+   "id": "HRW1993_CIVDEV",
+   "citation": "Human Rights Watch/Africa, \"Civilian Devastation: Abuses by All Parties in the War in Southern Sudan\", 1993",
+   "url": "https://www.hrw.org/reports/1993/sudan/"
+  },
+  {
+   "id": "HRW2004_DARFUR",
+   "citation": "Human Rights Watch, \"Darfur in Flames: Atrocities in Western Sudan\", Vol.16 No.5(A), April 2004, Background section",
+   "url": "https://www.hrw.org/reports/2004/sudan0404/3.htm"
+  },
+  {
+   "id": "UNSC_PRST_2008_15",
+   "citation": "UN Security Council, Statement by the President, S/PRST/2008/15, 13 May 2008",
+   "url": "https://documents.un.org/api/symbol/access?s=S/PRST/2008/15&l=en&t=pdf"
+  },
+  {
+   "id": "UNSC_PRST_2012_12",
+   "citation": "UN Security Council, Statement by the President, S/PRST/2012/12, 12 April 2012",
+   "url": "https://documents.un.org/api/symbol/access?s=S/PRST/2012/12&l=en&t=pdf"
+  },
+  {
+   "id": "UNSC2046",
+   "citation": "UN Security Council Resolution 2046 (2012), S/RES/2046(2012), 2 May 2012",
+   "url": "https://documents.un.org/api/symbol/access?s=S/RES/2046(2012)&l=en&t=pdf"
+  },
+  {
+   "id": "OHCHR_SK2011",
+   "citation": "OHCHR, \"Preliminary report on violations of international human rights and humanitarian law in Southern Kordofan from 5 to 30 June 2011\" (13th periodic report), August 2011",
+   "url": "https://reliefweb.int/sites/reliefweb.int/files/resources/Full_report_217.pdf"
+  }
+ ]
+}
