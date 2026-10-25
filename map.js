@@ -34,7 +34,7 @@ function fit(){const sh=$('sheet').getBoundingClientRect();const top=desk()?70:1
  proj.fitExtent([[x1,top],[x2,bot]],{type:'MultiPoint',coordinates:[[21.8,3.4],[38.6,22.2]]})}
 const zoom=d3.zoom().scaleExtent([1,12]).on('zoom',ev=>{TR=ev.transform;root.attr('transform',ev.transform);K=ev.transform.k;scaleMarks();$('reset').hidden=K<1.05&&Math.abs(ev.transform.x)<2}).on('end',()=>{place();cityThin();hmlDraw()});
 svg.call(zoom).on('dblclick.zoom',null);$('reset').onclick=()=>svg.transition().duration(DUR).call(zoom.transform,d3.zoomIdentity);
-function scaleMarks(){root.selectAll('.mk').attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`})}
+function scaleMarks(){root.selectAll('.mk').attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`});clearTimeout(scaleMarks.t);scaleMarks.t=setTimeout(()=>{if(typeof hmlThin==='function')hmlThin()},120)}
 const rw=f=>{const G=f.geometry,rv=a=>a.slice().reverse();if(G.type==='Polygon'){if(d3.geoArea(f)>2*Math.PI)G.coordinates=G.coordinates.map(rv)}else if(G.type==='MultiPolygon')G.coordinates=G.coordinates.map(p=>d3.geoArea({type:'Polygon',coordinates:p})>2*Math.PI?p.map(rv):p);return f};
 let BASE=null;const C={},CARD={},LD={};
 const getj=u=>fetch(u).then(x=>{if(!x.ok)throw new Error(u+' '+x.status);return x.json()});
@@ -184,7 +184,14 @@ const hLab=p=>{const s=AR?(p.ar||p.en):(p.en||p.ar);return String(s||'').replace
 async function hmlDraw(){const d=on.has('hml')?await hj():null;const pts=d?d.pts:[];
  const s=gH.selectAll('g.hm').data(pts,p=>p.id);s.exit().remove();
  const n=s.enter().append('g').attr('class',p=>'hm mk'+(p.b==='APPROXIMATE'?' apx':'')+(p.b==='CONTESTED'?' cont':'')).each(function(p){this.__xy=proj(p.ll)}).attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`}).on('click',hmlTap);
- n.filter(p=>p.b==='APPROXIMATE').append('circle').attr('class','halo').attr('r',6.5);n.append('circle').attr('class','dot').attr('r',4);n.append('title').text(p=>hLab(p)+' · '+T.hnd)}
+ n.filter(p=>p.b==='APPROXIMATE').append('circle').attr('class','halo').attr('r',6.5);n.append('circle').attr('class','dot').attr('r',4);n.append('text').attr('class','hl').attr('x',AR?-8:8).attr('y',3).attr('direction',AR?'rtl':'ltr').text(p=>hLab(p).split(/[:：]/)[0]);n.append('title').text(p=>hLab(p)+' · '+T.hnd);hmlThin()}
+ // homeland labels: only past HK zoom, lowest priority, culled against every other visible label
+const HK=2.5;function hmlThin(){const ts=gH.selectAll('text.hl').nodes();if(!ts.length)return;if(K<HK){ts.forEach(t=>t.setAttribute('visibility','hidden'));return}
+ const vis=t=>{if(t.getAttribute('visibility')==='hidden'||t.style.display==='none')return false;const s=getComputedStyle(t);return s.visibility!=='hidden'&&s.display!=='none'};
+ const box=b=>[b.left-2,b.top-1,b.right+2,b.bottom+1],hit=(a,b)=>a[0]<b[2]&&b[0]<a[2]&&a[1]<b[3]&&b[1]<a[3];
+ const ob=[...svg.node().querySelectorAll('text')].filter(t=>!t.classList.contains('hl')&&vis(t)).map(t=>t.getBoundingClientRect()).filter(b=>b.width).map(box);
+ ['sheet','top','layers','nob','lgb','lgp'].forEach(id=>{const e=$(id);if(e&&!e.hidden){const b=e.getBoundingClientRect();if(b.width)ob.push([b.left,b.top,b.right,b.bottom])}});
+ ts.forEach(t=>{t.setAttribute('visibility','visible');const b=t.getBoundingClientRect(),bb=box(b);if(!b.width||b.left<2||b.right>innerWidth-2||ob.some(o=>hit(o,bb)))t.setAttribute('visibility','hidden');else ob.push(bb)})}
 function hmlTap(ev,p){ev.stopPropagation();const ar=AR&&/\[Arabic text pending/.test(p.ar||'');
  const B=x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`;
  $('feat').innerHTML=`<button class="x" aria-label="close">×</button><b>${esc(hLab(p))}</b> ${p.b?B(p.b):''}${ar?' '+B('AR-REVIEW'):''}<p><small>${esc(T.hnd)}</small></p>`+

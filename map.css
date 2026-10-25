@@ -78,3 +78,4 @@ html[dir=rtl] .nav{transform:scaleX(-1)}
 .hm .halo{fill:none;stroke:#009E73;stroke-dasharray:2 1.5;stroke-width:1}
 .hm.cont .dot{stroke:#e0a63e;stroke-width:1.5}
 .nscore .ns,.repb.ns{background:#3a4652;color:#dfe6ec}
+.hm text.hl{font-size:10px;font-variant:small-caps;fill:#5fd3ad;paint-order:stroke;stroke:#101418;stroke-width:3px;stroke-linejoin:round;pointer-events:none}
