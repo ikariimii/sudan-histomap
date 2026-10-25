@@ -1,0 +1,104 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       25.22,
+       14.27
+      ],
+      [
+       25.15149157926016,
+       13.925584910871418
+      ],
+      [
+       24.956396103067892,
+       13.633603896932106
+      ],
+      [
+       24.664415089128582,
+       13.438508420739842
+      ],
+      [
+       24.32,
+       13.37
+      ],
+      [
+       23.97558491087142,
+       13.438508420739842
+      ],
+      [
+       23.68360389693211,
+       13.633603896932106
+      ],
+      [
+       23.48850842073984,
+       13.925584910871418
+      ],
+      [
+       23.42,
+       14.27
+      ],
+      [
+       23.48850842073984,
+       14.614415089128581
+      ],
+      [
+       23.68360389693211,
+       14.906396103067893
+      ],
+      [
+       23.97558491087142,
+       15.101491579260157
+      ],
+      [
+       24.32,
+       15.17
+      ],
+      [
+       24.664415089128582,
+       15.101491579260157
+      ],
+      [
+       24.956396103067892,
+       14.906396103067893
+      ],
+      [
+       25.15149157926016,
+       14.614415089128581
+      ],
+      [
+       25.22,
+       14.27
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "era_id": "tunjur-kingdom",
+    "zone": "core",
+    "confidence": 0.3,
+    "badges": [
+     "APPROXIMATE",
+     "EDITORIAL",
+     "SINGLE-SOURCE"
+    ],
+    "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
+    "basis": "Northern Jebel Marra / Ain Farah area; radius editorial.",
+    "sources": [
+     {
+      "id": "OFAHEY2008",
+      "citation": "R.S. O'Fahey (2008) The Darfur Sultanate: A History",
+      "url": "https://books.google.com/books?id=HQxYJWkO7EEC"
+     }
+    ],
+    "status": "DRAFT – not live, needs Historian sign-off",
+    "version": "bd-0.1 2026-10-24"
+   }
+  }
+ ]
+}

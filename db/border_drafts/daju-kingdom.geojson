@@ -1,0 +1,104 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       25.169999999999998,
+       12.95
+      ],
+      [
+       25.10149157926016,
+       12.605584910871418
+      ],
+      [
+       24.90639610306789,
+       12.313603896932106
+      ],
+      [
+       24.61441508912858,
+       12.118508420739841
+      ],
+      [
+       24.27,
+       12.049999999999999
+      ],
+      [
+       23.925584910871418,
+       12.118508420739841
+      ],
+      [
+       23.633603896932108,
+       12.313603896932106
+      ],
+      [
+       23.43850842073984,
+       12.605584910871418
+      ],
+      [
+       23.37,
+       12.95
+      ],
+      [
+       23.43850842073984,
+       13.29441508912858
+      ],
+      [
+       23.633603896932108,
+       13.586396103067893
+      ],
+      [
+       23.925584910871418,
+       13.781491579260157
+      ],
+      [
+       24.27,
+       13.85
+      ],
+      [
+       24.61441508912858,
+       13.781491579260157
+      ],
+      [
+       24.90639610306789,
+       13.586396103067893
+      ],
+      [
+       25.10149157926016,
+       13.29441508912858
+      ],
+      [
+       25.169999999999998,
+       12.95
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "era_id": "daju-kingdom",
+    "zone": "core",
+    "confidence": 0.25,
+    "badges": [
+     "APPROXIMATE",
+     "EDITORIAL",
+     "SINGLE-SOURCE"
+    ],
+    "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
+    "basis": "South-east of Jebel Marra; radius editorial.",
+    "sources": [
+     {
+      "id": "OFAHEY2008",
+      "citation": "R.S. O'Fahey (2008) The Darfur Sultanate: A History",
+      "url": "https://books.google.com/books?id=HQxYJWkO7EEC"
+     }
+    ],
+    "status": "DRAFT – not live, needs Historian sign-off",
+    "version": "bd-0.1 2026-10-24"
+   }
+  }
+ ]
+}

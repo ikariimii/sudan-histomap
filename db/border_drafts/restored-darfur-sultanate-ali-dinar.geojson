@@ -1,0 +1,68 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.4,
+       15.2
+      ],
+      [
+       25.8,
+       16.2
+      ],
+      [
+       27.4,
+       14.4
+      ],
+      [
+       27.0,
+       11.0
+      ],
+      [
+       24.2,
+       10.4
+      ],
+      [
+       22.6,
+       12.0
+      ],
+      [
+       22.4,
+       15.2
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "era_id": "restored-darfur-sultanate-ali-dinar",
+    "zone": "core",
+    "confidence": 0.5,
+    "badges": [
+     "APPROXIMATE",
+     "VERIFY"
+    ],
+    "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
+    "basis": "Darfur roughly in its Condominium-era provincial outline; west edge with Wadai contested until 1919-23 boundary work (verify).",
+    "sources": [
+     {
+      "id": "HD2011",
+      "citation": "P.M. Holt & M.W. Daly (2011) A History of the Sudan, 6th ed.",
+      "url": "https://doi.org/10.4324/9781315834030"
+     },
+     {
+      "id": "OFS1974",
+      "citation": "R.S. O'Fahey & J.L. Spaulding (1974) Kingdoms of the Sudan, Methuen (Routledge reissue 2016)",
+      "url": "https://doi.org/10.4324/9781315451138"
+     }
+    ],
+    "status": "DRAFT – not live, needs Historian sign-off",
+    "version": "bd-0.1 2026-10-24"
+   }
+  }
+ ]
+}
