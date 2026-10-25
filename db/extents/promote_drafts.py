@@ -27,6 +27,9 @@ R = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DEF = os.path.join(R, 'db/border_drafts')  # synced staging folder; this script lives outside it
 ZONES = ('core', 'claimed', 'influence', 'contested')
 NEED = ('zone', 'confidence', 'badges', 'sources', 'basis_en', 'by', 'date')
+# signoff keys consumed by the standard mapping below; any OTHER signoff key (e.g. editorial_scope,
+# editorial_note_en) is carried into the promoted properties unchanged.
+STD = set(NEED) | {'status', 'commit', 'pages', 'start', 'end', 'label_en', 'label_ar', 'geometry', 'contested_point'}
 
 def load(p): return json.load(open(p, encoding='utf-8'))
 
@@ -71,6 +74,8 @@ def main():
                      'label_en': so.get('label_en'), 'label_ar': so.get('label_ar'),
                      'method': p.get('method'), 'signoff': {x: so.get(x) for x in ('by', 'date', 'commit')},
                      'draft_version': p.get('version')}
+            for x, v in so.items():
+                if x not in STD and x not in props: props[x] = v
             out.setdefault(era, []).append({'type': 'Feature', 'geometry': geom, 'properties': props})
             rep.append(('OK', did, f'{so["zone"]} conf {c} {sorted(b)}'))
     for r in rep: print(*r, sep='\t')
@@ -78,6 +83,12 @@ def main():
     for era, feats in out.items():
         fp = os.path.join(R, 'db/extents', era + '.geojson'); fc = load(fp)
         ids = {x['properties']['draft_id'] for x in feats}
+        old = {(x.get('properties') or {}).get('draft_id'): x['properties'] for x in fc['features']
+               if (x.get('properties') or {}).get('draft_id') in ids}
+        for ft in feats:  # carry extra properties set on the earlier promotion (e.g. Alodia editorial_*)
+            for x, v in (old.get(ft['properties']['draft_id']) or {}).items():
+                if x not in ft['properties']:
+                    ft['properties'][x] = v; print('CARRY', ft['properties']['draft_id'], x)
         keep = [x for x in fc['features'] if (x.get('properties') or {}).get('draft_id') not in ids]
         fc['features'] = keep + feats
         fc['extent_rendering'] = {'mode': 'zones', 'zones_from': 'db/border_drafts/promote_drafts.py'}
