@@ -995,7 +995,7 @@
    ],
    "ohm_ids": [],
    "cshapes": null,
-   "notes": "Gleichen 1905 vol. I (Sudan Government officers, HMSO; public domain) gives river-bank limits, drawn as APPROXIMATE SINGLE-SOURCE points at named places with Wikidata coordinates, c.1899–1904 only. No polygon: the text describes riverine strips, not an enclosed area; meridian limits are text only. EP1940 (in copyright, lead only) no longer cited in the geometry. Pending registry ID GLEICHEN1905_V1 (Historian).",
+   "notes": "Gleichen 1905 vol. I (Sudan Government officers, HMSO; public domain) gives river-bank limits, drawn as APPROXIMATE SINGLE-SOURCE points at named places with Wikidata coordinates, c.1899–1904 only. No polygon: the text describes riverine strips, not an enclosed area; meridian limits are text only. Registry ID GLEICHEN1905_V1.",
    "license": "Wikidata coordinates: CC0; limit text: public domain (Gleichen 1905, HMSO)",
    "geojson": "db/extents/dinka-jieng-communities.geojson"
   },
@@ -1056,15 +1056,15 @@
    ],
    "ohm_ids": [],
    "cshapes": null,
-   "notes": "Gleichen 1905 vol. I (Sudan Government officers, HMSO; public domain) gives river-bank limits, drawn as APPROXIMATE SINGLE-SOURCE points at named places with Wikidata coordinates, c.1899–1904 only. No polygon: the text describes riverine strips, not an enclosed area; meridian limits are text only. EP1940 (in copyright, lead only) no longer cited in the geometry. Pending registry ID GLEICHEN1905_V1 (Historian).",
+   "notes": "Gleichen 1905 vol. I (Sudan Government officers, HMSO; public domain) gives river-bank limits, drawn as APPROXIMATE SINGLE-SOURCE points at named places with Wikidata coordinates, c.1899–1904 only. No polygon: the text describes riverine strips, not an enclosed area; meridian limits are text only. Registry ID GLEICHEN1905_V1.",
    "license": "Wikidata coordinates: CC0; limit text: public domain (Gleichen 1905, HMSO)",
    "geojson": "db/extents/nuer-naath-communities.geojson"
   },
   {
    "era_id": "anuak-anywaa-communities",
    "rendering": "homelands_layer",
-   "rendering_reason": "No cited dated boundary; rendered via the undated Homelands layer (Historian note data/eras/anuak-anywaa-communities.json extent_rendering, 4cec0d8)",
-   "items_previous_reason": "people, not a polity. List-only (Pass 32): no Anuak entry in db/groups.json yet and no limit text read (EP1940_ANUAK registered but not read for limits); no area or point drawn.",
+   "rendering_reason": "No cited dated boundary; rendered via the undated Homelands layer (Historian note data/eras/anuak-anywaa-communities.json extent_rendering, 56e5bb9)",
+   "items_previous_reason": "people, not a polity. List-only (Pass 32): no Anuak entry in db/groups.json yet and no limit text read; no area or point drawn.",
    "year_from": 1899,
    "year_to": 1904,
    "confidence": "low",
@@ -1117,7 +1117,7 @@
    ],
    "ohm_ids": [],
    "cshapes": null,
-   "notes": "Gleichen 1905 vol. I (Sudan Government officers, HMSO; public domain) gives river-bank limits, drawn as APPROXIMATE SINGLE-SOURCE points at named places with Wikidata coordinates, c.1899–1904 only. No polygon: the text describes riverine strips, not an enclosed area; meridian limits are text only. EP1940 (in copyright, lead only) no longer cited in the geometry. Pending registry ID GLEICHEN1905_V1 (Historian).",
+   "notes": "Gleichen 1905 vol. I (Sudan Government officers, HMSO; public domain) gives river-bank limits, drawn as APPROXIMATE SINGLE-SOURCE points at named places with Wikidata coordinates, c.1899–1904 only. No polygon: the text describes riverine strips, not an enclosed area; meridian limits are text only. Registry ID GLEICHEN1905_V1.",
    "license": "Wikidata coordinates: CC0; limit text: public domain (Gleichen 1905, HMSO)",
    "geojson": "db/extents/anuak-anywaa-communities.geojson"
   },
