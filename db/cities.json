@@ -1,0 +1,3001 @@
+{
+ "meta": {
+  "layer": "cities",
+  "built": "2026-10-24",
+  "note": "No population or war status (Analyst layer). Dates null where sources read do not state them."
+ },
+ "places": [
+  {
+   "id": "kerma",
+   "name_en": "Kerma",
+   "name_ar": "كرمة",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1107569",
+   "lat": 19.6008,
+   "lon": 30.40973,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1107569"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "GHA II dates only the classic Kerma phase (-1730 to -1580), not the foundation of the site",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "kingdom-of-kerma",
+     "role": "capital",
+     "start": -1730,
+     "end": -1580,
+     "source_id": "GHA2_CH9",
+     "page": "258",
+     "note": "classic Kerma phase as dated in GHA II"
+    }
+   ],
+   "history_en": "Capital of the Kerma kingdom of Upper Nubia.",
+   "history_ar": "عاصمة مملكة كرمة في النوبة العليا.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA2_CH9",
+     "page": "258"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1107569"
+    }
+   ]
+  },
+  {
+   "id": "napata",
+   "name_en": "Napata",
+   "name_ar": "نبتة",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q743282",
+   "lat": 18.53333,
+   "lon": 31.81667,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q743282"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "kingdom-of-kush-napatan-period",
+     "role": "capital",
+     "start": -800,
+     "end": -300,
+     "source_id": "GHA2_CH10",
+     "page": "283",
+     "note": "\"first capital of the Kushite Empire\"; end = transfer to Meroe c.-300 (GHA II p.301)"
+    },
+    {
+     "era_id": "kingdom-of-kush-meroitic-period",
+     "role": "religious",
+     "start": -270,
+     "end": null,
+     "source_id": "GHA2_CH10",
+     "page": "285",
+     "note": "remained religious capital after the transfer; end not stated"
+    }
+   ],
+   "history_en": "First capital of Kush; later its religious centre.",
+   "history_ar": "أول عاصمة لمملكة كوش ثم مركزها الديني.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA2_CH10",
+     "page": "283"
+    },
+    {
+     "id": "GHA2_CH10",
+     "page": "285"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q743282"
+    }
+   ]
+  },
+  {
+   "id": "jebel-barkal",
+   "name_en": "Jebel Barkal",
+   "name_ar": "جبل البركل",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q499019",
+   "lat": 18.5368,
+   "lon": 31.8276,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q499019"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "egyptian-new-kingdom-rule-in-nubia",
+     "role": "religious",
+     "start": -1290,
+     "end": null,
+     "source_id": "GHA2_CH9",
+     "page": "268",
+     "note": "great Amun temple probably built by Seti I; start = Seti I accession per era, end not stated"
+    }
+   ],
+   "history_en": "Sacred mountain of Amun at Napata; Egyptian and Kushite temples.",
+   "history_ar": "جبل آمون المقدس في نبتة.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA2_CH9",
+     "page": "268"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q499019"
+    }
+   ]
+  },
+  {
+   "id": "el-kurru",
+   "name_en": "El-Kurru",
+   "name_ar": "الكرو",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q2119834",
+   "lat": 18.40923,
+   "lon": 31.771,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q2119834"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "kingdom-of-kush-napatan-period",
+     "role": "religious",
+     "start": null,
+     "end": null,
+     "source_id": "GHA2_CH11",
+     "page": "300",
+     "note": "earliest Kushite royal cemetery; dates not stated"
+    }
+   ],
+   "history_en": "Earliest royal cemetery of the Kushite kings.",
+   "history_ar": "أقدم مقبرة ملكية لملوك كوش.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA2_CH11",
+     "page": "300"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q2119834"
+    }
+   ]
+  },
+  {
+   "id": "nuri",
+   "name_en": "Nuri",
+   "name_ar": "نوري",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q2119839",
+   "lat": 18.5667,
+   "lon": 31.9167,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q2119839"
+   },
+   "category": "ancient",
+   "founded": {
+    "year": -664,
+    "badge": "APPROXIMATE",
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q2119839",
+    "note": "Wikidata P571 only; GHA II p.281 confirms Taharqa built at Nuri"
+   },
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "kingdom-of-kush-napatan-period",
+     "role": "religious",
+     "start": null,
+     "end": null,
+     "source_id": "GHA2_CH10",
+     "page": "285",
+     "note": "royal burials at Nuri continued to the end of the 4th century BCE"
+    }
+   ],
+   "history_en": "Royal pyramid field begun by Taharqa.",
+   "history_ar": "حقل أهرامات ملكية بدأه طهارقا.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA2_CH10",
+     "page": "285"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q2119839"
+    }
+   ]
+  },
+  {
+   "id": "meroe",
+   "name_en": "Meroë",
+   "name_ar": "أهرامات مروي",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q5780",
+   "lat": 16.93514,
+   "lon": 33.75075,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q5780"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "Wikidata P571 gives -2500, unsupported by GHA; left null",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "kingdom-of-kush-meroitic-period",
+     "role": "capital",
+     "start": -300,
+     "end": null,
+     "source_id": "GHA2_CH11",
+     "page": "301",
+     "note": "capital moved to Meroe \"around -300, after the reign of Nastasen\"; end not stated"
+    }
+   ],
+   "history_en": "Capital of Kush from about -300.",
+   "history_ar": "عاصمة كوش منذ نحو 300 ق.م.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA2_CH11",
+     "page": "301"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q5780"
+    }
+   ]
+  },
+  {
+   "id": "musawwarat",
+   "name_en": "Musawwarat es-Sufra",
+   "name_ar": "المصورات الصفراء",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q286426",
+   "lat": 16.41583,
+   "lon": 33.32361,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q286426"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "kingdom-of-kush-meroitic-period",
+     "role": "religious",
+     "start": null,
+     "end": null,
+     "source_id": "GHA2_CH11",
+     "page": "318",
+     "note": "Lion temple of Apedemak"
+    }
+   ],
+   "history_en": "Meroitic temple complex with the Lion Temple of Apedemak.",
+   "history_ar": "مجمع معابد مروي فيه معبد الأسد لأباداماك.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA2_CH11",
+     "page": "318"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q286426"
+    }
+   ]
+  },
+  {
+   "id": "naqa",
+   "name_en": "Naqa",
+   "name_ar": "النقعة",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1760360",
+   "lat": 16.26944,
+   "lon": 33.275,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1760360"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [],
+   "history_en": "Meroitic temple site in the Butana.",
+   "history_ar": "موقع معابد مروية في البطانة.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1760360"
+    }
+   ]
+  },
+  {
+   "id": "wad-ban-naqa",
+   "name_en": "Wad ban Naqa",
+   "name_ar": "ود بانقا",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q2538648",
+   "lat": 16.51111,
+   "lon": 33.11222,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q2538648"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "kingdom-of-kush-meroitic-period",
+     "role": "religious",
+     "start": null,
+     "end": null,
+     "source_id": "GHA2_CH11",
+     "page": "314",
+     "note": "temples near Meroe"
+    }
+   ],
+   "history_en": "Meroitic temple and palace site near Meroe.",
+   "history_ar": "موقع معابد وقصر مروي قرب مروي.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA2_CH11",
+     "page": "314"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q2538648"
+    }
+   ]
+  },
+  {
+   "id": "sedeinga",
+   "name_en": "Sedeinga",
+   "name_ar": "أهرامات صادنقا",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q3954148",
+   "lat": 20.3849,
+   "lon": 30.32604,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q3954148"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [],
+   "history_en": "Sedeinga: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q3954148"
+    }
+   ]
+  },
+  {
+   "id": "soleb",
+   "name_en": "Soleb",
+   "name_ar": "صوليب",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1457914",
+   "lat": 20.43333,
+   "lon": 30.33333,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1457914"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [],
+   "history_en": "Soleb: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1457914"
+    }
+   ]
+  },
+  {
+   "id": "buhen",
+   "name_en": "Buhen",
+   "name_ar": "بوهين",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1002656",
+   "lat": 21.91667,
+   "lon": 31.28333,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1002656"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "middle-kingdom-egypt",
+     "role": "garrison",
+     "start": null,
+     "end": null,
+     "source_id": "GHA2_CH9",
+     "page": "266",
+     "note": "Middle Kingdom citadel"
+    },
+    {
+     "era_id": "egyptian-new-kingdom-rule-in-nubia",
+     "role": "garrison",
+     "start": null,
+     "end": null,
+     "source_id": "GHA2_CH9",
+     "page": "265",
+     "note": "fortress rebuilt by Amosis"
+    }
+   ],
+   "history_en": "Egyptian fortress town at the Second Cataract.",
+   "history_ar": "مدينة حصينة مصرية عند الشلال الثاني.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA2_CH9",
+     "page": "265"
+    },
+    {
+     "id": "GHA2_CH9",
+     "page": "266"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1002656"
+    }
+   ]
+  },
+  {
+   "id": "semna",
+   "name_en": "Semna",
+   "name_ar": "سمنة",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1485667",
+   "lat": 21.5,
+   "lon": 30.96667,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1485667"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "middle-kingdom-egypt",
+     "role": "garrison",
+     "start": -1991,
+     "end": -1786,
+     "source_id": "GHA2_CH9",
+     "page": "255",
+     "note": "southern border fortress under the 12th dynasty"
+    }
+   ],
+   "history_en": "Middle Kingdom border fortress at the Second Cataract.",
+   "history_ar": "حصن حدودي للدولة الوسطى عند الشلال الثاني.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA2_CH9",
+     "page": "255"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1485667"
+    }
+   ]
+  },
+  {
+   "id": "jebel-moya",
+   "name_en": "Jebel Moya",
+   "name_ar": "جبل موية",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q55640121",
+   "lat": 13.5,
+   "lon": 33.33333,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q55640121"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [],
+   "history_en": "Jebel Moya: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q55640121"
+    }
+   ]
+  },
+  {
+   "id": "faras",
+   "name_en": "Faras",
+   "name_ar": "فرس (النوبة)",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q584387",
+   "lat": 22.2,
+   "lon": 31.46,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q584387"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "GHA III p.195 dates the cathedral foundation inscription to 707, not the town",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "nobadia",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "GHA3_CH8",
+     "page": "194"
+    }
+   ],
+   "history_en": "Capital of Nobadia; cathedral with famous murals.",
+   "history_ar": "عاصمة نوباديا وفيها كاتدرائية بجدارياتها الشهيرة.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA3_CH8",
+     "page": "194"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q584387"
+    }
+   ]
+  },
+  {
+   "id": "qasr-ibrim",
+   "name_en": "Qasr Ibrim",
+   "name_ar": "قصر إبريم",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q2121453",
+   "lat": 22.65019,
+   "lon": 31.99153,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q2121453"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "roman-byzantine-egypt",
+     "role": "garrison",
+     "start": -23,
+     "end": null,
+     "source_id": "GHA2_CH10",
+     "page": "290",
+     "note": "Roman garrison at Primis after Petronius took Napata in -23"
+    }
+   ],
+   "history_en": "Fortified hilltop town of Lower Nubia (Primis).",
+   "history_ar": "مدينة حصينة على تل في النوبة السفلى.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA2_CH10",
+     "page": "290"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q2121453"
+    }
+   ]
+  },
+  {
+   "id": "philae",
+   "name_en": "Philae",
+   "name_ar": "فيلة",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q245062",
+   "lat": 24.02153,
+   "lon": 32.88417,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q245062"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [],
+   "history_en": "Philae: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q245062"
+    }
+   ]
+  },
+  {
+   "id": "abu-simbel",
+   "name_en": "Abu Simbel",
+   "name_ar": "أبو سمبل",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q134140",
+   "lat": 22.33694,
+   "lon": 31.62556,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q134140"
+   },
+   "category": "ancient",
+   "founded": {
+    "year": -1274,
+    "badge": "APPROXIMATE",
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q134140",
+    "note": "Wikidata P571 (temples) only"
+   },
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [],
+   "history_en": "Rock temples of Ramesses II.",
+   "history_ar": "معابد رمسيس الثاني الصخرية.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q134140"
+    }
+   ]
+  },
+  {
+   "id": "old-dongola",
+   "name_en": "Old Dongola",
+   "name_ar": "دنقلا العجوز",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q433112",
+   "lat": 18.22306,
+   "lon": 30.74389,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q433112"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "makuria",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "GHA3_CH8",
+     "page": "194"
+    }
+   ],
+   "history_en": "Capital of Makuria and of united Nubia.",
+   "history_ar": "عاصمة المقرة والنوبة الموحدة.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA3_CH8",
+     "page": "194"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q433112"
+    }
+   ]
+  },
+  {
+   "id": "banganarti",
+   "name_en": "Banganarti",
+   "name_ar": "بنقنارتي قبلي",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q806461",
+   "lat": 18.16668,
+   "lon": 30.78494,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q806461"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [],
+   "history_en": "Banganarti: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q806461"
+    }
+   ]
+  },
+  {
+   "id": "soba",
+   "name_en": "Soba",
+   "name_ar": "سوبا (مدينة)",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1247214",
+   "lat": 15.52397,
+   "lon": 32.68094,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1247214"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "Wikidata P571 gives 400, unsupported by sources read",
+   "abandoned": {
+    "year": 1523,
+    "badge": "APPROXIMATE",
+    "source_id": "GHA5_CH7",
+    "page": "172",
+    "note": "in ruins when Reubeni passed in 1523 (terminus ante quem)"
+   },
+   "roles": [
+    {
+     "era_id": "alodia-alwa",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "GHA3_CH8",
+     "page": "196"
+    }
+   ],
+   "history_en": "Capital of Alodia (Alwa) on the Blue Nile.",
+   "history_ar": "عاصمة مملكة علوة على النيل الأزرق.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA3_CH8",
+     "page": "196"
+    },
+    {
+     "id": "GHA5_CH7",
+     "page": "172"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1247214"
+    }
+   ]
+  },
+  {
+   "id": "aswan",
+   "name_en": "Aswan",
+   "name_ar": "أسوان",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q29888",
+   "lat": 24.08892,
+   "lon": 32.89973,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q29888"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Aswan: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q29888"
+    }
+   ]
+  },
+  {
+   "id": "aksum",
+   "name_en": "Aksum",
+   "name_ar": "أكسوم",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q5832",
+   "lat": 14.11667,
+   "lon": 38.73333,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q5832"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "kingdom-of-aksum",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "GHA2_CH15",
+     "page": "389",
+     "note": "\"citizens of the capital community\""
+    }
+   ],
+   "history_en": "Capital of the Aksumite kingdom.",
+   "history_ar": "عاصمة مملكة أكسوم.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA2_CH15",
+     "page": "389"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q5832"
+    }
+   ]
+  },
+  {
+   "id": "adulis",
+   "name_en": "Adulis",
+   "name_ar": "عدوليس",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q378940",
+   "lat": 15.26361,
+   "lon": 39.66056,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q378940"
+   },
+   "category": "ancient",
+   "founded": {
+    "year": -250,
+    "badge": "CONTESTED",
+    "source_id": "GHA2",
+    "page": "343",
+    "year_text": "mid-3rd century BCE",
+    "note": "GHA II: port founded under Ptolemy II, mid-3rd c. BCE; Wikidata P571 gives -1450"
+   },
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "kingdom-of-aksum",
+     "role": "port",
+     "start": 75,
+     "end": null,
+     "source_id": "GHA2",
+     "page": "343",
+     "note": "Pliny (c.+75) calls it an important port"
+    }
+   ],
+   "history_en": "Red Sea port, later the harbour of Aksum.",
+   "history_ar": "ميناء على البحر الأحمر صار ميناء أكسوم.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA2",
+     "page": "343"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q378940"
+    }
+   ]
+  },
+  {
+   "id": "aidhab",
+   "name_en": "Aidhab",
+   "name_ar": "عيذاب",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q404028",
+   "lat": 22.33083,
+   "lon": 36.49028,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q404028"
+   },
+   "category": "ancient",
+   "founded": {
+    "year": 700,
+    "badge": "APPROXIMATE",
+    "source_id": "GHAIII",
+    "page": "82",
+    "year_text": "by the 8th century CE",
+    "note": "Arab merchants settled there in the 2nd/8th century; first attestation, not foundation"
+   },
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "mamluk-sultanate",
+     "role": "port",
+     "start": null,
+     "end": null,
+     "source_id": "GHAIV",
+     "page": "375",
+     "note": "port for oriental trade"
+    }
+   ],
+   "history_en": "Medieval Red Sea port for trade and pilgrims.",
+   "history_ar": "ميناء على البحر الأحمر في العصور الوسطى للتجارة والحجيج.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHAIII",
+     "page": "82"
+    },
+    {
+     "id": "GHAIV",
+     "page": "375"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q404028"
+    }
+   ]
+  },
+  {
+   "id": "suakin",
+   "name_en": "Suakin",
+   "name_ar": "سواكن",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q571215",
+   "lat": 19.1025,
+   "lon": 37.33,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q571215"
+   },
+   "category": "ancient",
+   "founded": {
+    "year": 700,
+    "badge": "APPROXIMATE",
+    "source_id": "GHAIII",
+    "page": "82",
+    "year_text": "by the 8th century CE",
+    "note": "Arab merchants settled there in the 2nd/8th century; first attestation"
+   },
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "suakin-red-sea-port-beja-ottoman",
+     "role": "garrison",
+     "start": null,
+     "end": null,
+     "source_id": "GHA5_CH7",
+     "page": "175",
+     "note": "passed to Ottoman suzerainty; Ottoman garrisons"
+    }
+   ],
+   "history_en": "Historic coral-built Red Sea port.",
+   "history_ar": "ميناء تاريخي مبني من المرجان على البحر الأحمر.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA5_CH7",
+     "page": "175"
+    },
+    {
+     "id": "GHAIII",
+     "page": "82"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q571215"
+    }
+   ]
+  },
+  {
+   "id": "sennar",
+   "name_en": "Sennar",
+   "name_ar": "سنار",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q611867",
+   "lat": 13.55,
+   "lon": 33.6,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q611867"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "GHA V gives 1504 for the Funj sultanate, not the town",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Namesake of the Funj sultanate on the Blue Nile.",
+   "history_ar": "مدينة على النيل الأزرق تحمل اسم سلطنة الفونج.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q611867"
+    }
+   ]
+  },
+  {
+   "id": "qerri",
+   "name_en": "Qerri",
+   "name_ar": "قري الوادي",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q11924140",
+   "lat": 16.23555,
+   "lon": 32.63163,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q11924140"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "abdallab-chiefdom-funj-vassal",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "GHA5_CH7",
+     "page": "172",
+     "note": "the Abdallab administered from Kerri"
+    }
+   ],
+   "history_en": "Seat of the Abdallab chiefs north of Soba.",
+   "history_ar": "مقر مشايخ العبدلاب شمال سوبا.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA5_CH7",
+     "page": "172"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q11924140"
+    }
+   ]
+  },
+  {
+   "id": "kobbe",
+   "name_en": "Kobbei",
+   "name_ar": "كوبي",
+   "name_ar_source": "working translation — needs native review",
+   "wikidata": "Q6424293",
+   "lat": 14.06667,
+   "lon": 23.96667,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q6424293"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [],
+   "history_en": "Kobbei: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q6424293"
+    }
+   ]
+  },
+  {
+   "id": "ain-farah",
+   "name_en": "Ain Farah",
+   "name_ar": "عين فرح",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q405860",
+   "lat": 16.7603,
+   "lon": 29.1878,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q405860"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "tunjur-kingdom",
+     "role": "religious",
+     "start": null,
+     "end": null,
+     "source_id": "GHA4_CH16",
+     "page": "420",
+     "note": "monastery/churches with 8th-11th c. Nubian pottery; era assignment approximate"
+    }
+   ],
+   "history_en": "Hilltop ruins in north Darfur with church remains.",
+   "history_ar": "أطلال على تل في شمال دارفور فيها بقايا كنائس.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA4_CH16",
+     "page": "420"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q405860"
+    }
+   ]
+  },
+  {
+   "id": "shendi",
+   "name_en": "Shendi",
+   "name_ar": "شندي",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q997838",
+   "lat": 16.69139,
+   "lon": 33.43389,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q997838"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Shendi: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q997838"
+    }
+   ]
+  },
+  {
+   "id": "berber",
+   "name_en": "Berber",
+   "name_ar": "بربر",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q375935",
+   "lat": 18.0153,
+   "lon": 33.99444,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q375935"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Berber: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q375935"
+    }
+   ]
+  },
+  {
+   "id": "metemma-ethiopia",
+   "name_en": "Metemma (Ethiopia)",
+   "name_ar": "المتمة الإثيوبية",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1246740",
+   "lat": 12.96139,
+   "lon": 36.14917,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1246740"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Metemma (Ethiopia): settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1246740"
+    }
+   ]
+  },
+  {
+   "id": "gallabat",
+   "name_en": "Gallabat",
+   "name_ar": "القلابات",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1014416",
+   "lat": 12.96667,
+   "lon": 36.15,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1014416"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Gallabat: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1014416"
+    }
+   ]
+  },
+  {
+   "id": "korti",
+   "name_en": "Korti",
+   "name_ar": "كورتي",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q472841",
+   "lat": 18.11667,
+   "lon": 31.55,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q472841"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Korti: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q472841"
+    }
+   ]
+  },
+  {
+   "id": "el-obeid",
+   "name_en": "El Obeid",
+   "name_ar": "الأبيض",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q309475",
+   "lat": 13.18333,
+   "lon": 30.21667,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q309475"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "El Obeid: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q309475"
+    }
+   ]
+  },
+  {
+   "id": "el-fasher",
+   "name_en": "El Fasher",
+   "name_ar": "الفاشر",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q311204",
+   "lat": 13.62698,
+   "lon": 25.34958,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q311204"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "GHA V p.190 describes the growth of a permanent capital under Abd al-Rahman but gives no year",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "sultanate-of-darfur-keira",
+     "role": "capital",
+     "start": null,
+     "end": 1874,
+     "source_id": "GHA5_CH7",
+     "page": "190",
+     "note": "permanent capital from the reign of Abd al-Rahman; end = era end"
+    }
+   ],
+   "history_en": "Permanent capital of the Keira sultanate of Darfur.",
+   "history_ar": "العاصمة الدائمة لسلطنة دارفور.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA5_CH7",
+     "page": "190"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q311204"
+    }
+   ]
+  },
+  {
+   "id": "gondar",
+   "name_en": "Gondar",
+   "name_ar": "غوندر",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q218861",
+   "lat": 12.6,
+   "lon": 37.46667,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q218861"
+   },
+   "category": "ancient",
+   "founded": {
+    "year": 1636,
+    "badge": "CONTESTED",
+    "source_id": "GHA5_CH24_P713_733",
+    "page": "724",
+    "note": "GHA V: Fasiladas built a fixed residence in 1636; Wikidata P571 gives 1635"
+   },
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "ethiopian-empire-solomonic",
+     "role": "capital",
+     "start": 1636,
+     "end": null,
+     "source_id": "GHA5_CH24_P713_733",
+     "page": "724"
+    }
+   ],
+   "history_en": "Royal capital of Ethiopia from Fasiladas.",
+   "history_ar": "العاصمة الملكية لإثيوبيا منذ فاسيلداس.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA5_CH24_P713_733",
+     "page": "724"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q218861"
+    }
+   ]
+  },
+  {
+   "id": "massawa",
+   "name_en": "Massawa",
+   "name_ar": "مصوع",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q275635",
+   "lat": 15.6,
+   "lon": 39.43333,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q275635"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "suakin-red-sea-port-beja-ottoman",
+     "role": "port",
+     "start": 1557,
+     "end": null,
+     "source_id": "GHA5_CH7",
+     "page": "175",
+     "note": "annexed by the Ottomans in 1557 (province of Habesh)"
+    }
+   ],
+   "history_en": "Red Sea port annexed by the Ottomans in 1557.",
+   "history_ar": "ميناء على البحر الأحمر ضمه العثمانيون سنة 1557.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA5_CH7",
+     "page": "175"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q275635"
+    }
+   ]
+  },
+  {
+   "id": "fashoda",
+   "name_en": "Kodok (Fashoda)",
+   "name_ar": "فشودة",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1888763",
+   "lat": 9.8875,
+   "lon": 32.11028,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1888763"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "shilluk-kingdom",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "GHA6_CH14",
+     "page": "366",
+     "note": "Shilluk royal capital, destroyed by traders"
+    }
+   ],
+   "history_en": "Shilluk royal seat, later Kodok.",
+   "history_ar": "مقر ملوك الشلك، ثم كودوك.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA6_CH14",
+     "page": "366"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1888763"
+    }
+   ]
+  },
+  {
+   "id": "dongola",
+   "name_en": "Dongola",
+   "name_ar": "دنقلا",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q821321",
+   "lat": 19.17694,
+   "lon": 30.48389,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q821321"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Dongola: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q821321"
+    }
+   ]
+  },
+  {
+   "id": "wadi-halfa",
+   "name_en": "Wadi Halfa",
+   "name_ar": "وادي حلفا",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q740865",
+   "lat": 21.79278,
+   "lon": 31.3775,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q740865"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Wadi Halfa: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q740865"
+    }
+   ]
+  },
+  {
+   "id": "khartoum",
+   "name_en": "Khartoum",
+   "name_ar": "الخرطوم",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1963",
+   "lat": 15.60308,
+   "lon": 32.52654,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1963"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "GHA VI p.363 calls it \"newly founded\" in the 1820s but gives no year",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "turkiyya-ottoman-egyptian-rule",
+     "role": "capital",
+     "start": null,
+     "end": 1885,
+     "source_id": "GHA6_CH14",
+     "page": "363",
+     "note": "seat of the governor-general"
+    },
+    {
+     "era_id": "anglo-egyptian-sudan-condominium",
+     "role": "capital",
+     "start": 1899,
+     "end": 1956,
+     "source_id": "GHAVII",
+     "page": "81",
+     "note": "\"the government in Khartoum\" (1904)"
+    }
+   ],
+   "history_en": "Capital at the confluence of the Niles.",
+   "history_ar": "العاصمة عند ملتقى النيلين.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA6_CH14",
+     "page": "363"
+    },
+    {
+     "id": "GHAVII",
+     "page": "81"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1963"
+    }
+   ]
+  },
+  {
+   "id": "omdurman",
+   "name_en": "Omdurman",
+   "name_ar": "أم درمان",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q180921",
+   "lat": 15.68352,
+   "lon": 32.46289,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q180921"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "mahdist-state-mahdiyya",
+     "role": "capital",
+     "start": null,
+     "end": 1898,
+     "source_id": "GHA7_CH4",
+     "page": "78",
+     "note": "the Khalifa's capital; end = battle of 1898"
+    }
+   ],
+   "history_en": "Mahdist capital on the west bank of the Nile.",
+   "history_ar": "عاصمة المهدية على الضفة الغربية للنيل.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA7_CH4",
+     "page": "78"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q180921"
+    }
+   ]
+  },
+  {
+   "id": "port-sudan",
+   "name_en": "Port Sudan",
+   "name_ar": "بورتسودان",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q208718",
+   "lat": 19.61583,
+   "lon": 37.21639,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q208718"
+   },
+   "category": "modern",
+   "founded": {
+    "year": 1906,
+    "badge": "CONTESTED",
+    "source_id": "GHAVII",
+    "page": "455",
+    "note": "GHA VII: built in 1906; Wikidata P571 gives 1905"
+   },
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "anglo-egyptian-sudan-condominium",
+     "role": "port",
+     "start": 1906,
+     "end": 1956,
+     "source_id": "GHAVII",
+     "page": "455"
+    }
+   ],
+   "history_en": "Sudan's main seaport, built under the Condominium.",
+   "history_ar": "الميناء الرئيسي للسودان، أنشئ في عهد الحكم الثنائي.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHAVII",
+     "page": "455"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q208718"
+    }
+   ]
+  },
+  {
+   "id": "kassala",
+   "name_en": "Kassala",
+   "name_ar": "كسلا",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q686813",
+   "lat": 15.45,
+   "lon": 36.4,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q686813"
+   },
+   "category": "modern",
+   "founded": {
+    "year": 1840,
+    "badge": "APPROXIMATE",
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q686813",
+    "note": "Wikidata P571 only"
+   },
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "turkiyya-ottoman-egyptian-rule",
+     "role": "garrison",
+     "start": null,
+     "end": 1865,
+     "source_id": "GHA6_CH14",
+     "page": "363",
+     "note": "military revolt at Kassala in 1865"
+    }
+   ],
+   "history_en": "Eastern town founded as an Egyptian post.",
+   "history_ar": "مدينة شرقية نشأت مركزا مصريا.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA6_CH14",
+     "page": "363"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q686813"
+    }
+   ]
+  },
+  {
+   "id": "wad-madani",
+   "name_en": "Wad Madani",
+   "name_ar": "ود مدني",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q852528",
+   "lat": 14.4,
+   "lon": 33.51,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q852528"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "turkiyya-ottoman-egyptian-rule",
+     "role": "garrison",
+     "start": null,
+     "end": null,
+     "source_id": "GHA6_CH14",
+     "page": "360",
+     "note": "scene of a garrison rising in 1844"
+    }
+   ],
+   "history_en": "Main town of the Gezira.",
+   "history_ar": "كبرى مدن الجزيرة.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA6_CH14",
+     "page": "360"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q852528"
+    }
+   ]
+  },
+  {
+   "id": "juba",
+   "name_en": "Juba",
+   "name_ar": "جوبا",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1947",
+   "lat": 4.85389,
+   "lon": 31.5825,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1947"
+   },
+   "category": "modern",
+   "founded": {
+    "year": 1922,
+    "badge": "APPROXIMATE",
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1947",
+    "note": "Wikidata P571 only"
+   },
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Capital of South Sudan on the White Nile.",
+   "history_ar": "عاصمة جنوب السودان على النيل الأبيض.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1947"
+    }
+   ]
+  },
+  {
+   "id": "malakal",
+   "name_en": "Malakal",
+   "name_ar": "ملكال",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q220049",
+   "lat": 9.53333,
+   "lon": 31.65,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q220049"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Malakal: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q220049"
+    }
+   ]
+  },
+  {
+   "id": "wau",
+   "name_en": "Wau",
+   "name_ar": "واو",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q276534",
+   "lat": 7.7,
+   "lon": 27.98333,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q276534"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Wau: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q276534"
+    }
+   ]
+  },
+  {
+   "id": "nyala",
+   "name_en": "Nyala",
+   "name_ar": "نيالا",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q851576",
+   "lat": 12.05,
+   "lon": 24.88333,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q851576"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Nyala: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q851576"
+    }
+   ]
+  },
+  {
+   "id": "el-geneina",
+   "name_en": "El Geneina",
+   "name_ar": "الجنينة",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q311309",
+   "lat": 13.45,
+   "lon": 22.45,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q311309"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "El Geneina: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q311309"
+    }
+   ]
+  },
+  {
+   "id": "asmara",
+   "name_en": "Asmara",
+   "name_ar": "أسمرة",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q3642",
+   "lat": 15.33333,
+   "lon": 38.91667,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q3642"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "Wikidata P571 (1897) conflicts with GHA VII (capital by 1889); left null",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "eritrea-italian-colony-independent",
+     "role": "capital",
+     "start": 1889,
+     "end": null,
+     "source_id": "GHA7_CH11",
+     "page": "268",
+     "note": "capital of the Italian colony by end of 1889"
+    }
+   ],
+   "history_en": "Capital of Eritrea.",
+   "history_ar": "عاصمة إريتريا.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA7_CH11",
+     "page": "268"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q3642"
+    }
+   ]
+  },
+  {
+   "id": "ndjamena",
+   "name_en": "N'Djamena",
+   "name_ar": "انجمينا",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q3659",
+   "lat": 12.11,
+   "lon": 15.05,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q3659"
+   },
+   "category": "modern",
+   "founded": {
+    "year": 1900,
+    "badge": "APPROXIMATE",
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q3659",
+    "note": "Wikidata P571 29 May 1900 (as Fort-Lamy); not corroborated in GHA"
+   },
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Capital of Chad, founded as Fort-Lamy.",
+   "history_ar": "عاصمة تشاد، أسست باسم فور لامي.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q3659"
+    }
+   ]
+  },
+  {
+   "id": "abeche",
+   "name_en": "Abeche",
+   "name_ar": "أبشي",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q242587",
+   "lat": 13.83306,
+   "lon": 20.83472,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q242587"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Abeche: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q242587"
+    }
+   ]
+  },
+  {
+   "id": "kufra",
+   "name_en": "Kufra",
+   "name_ar": "الكفرة",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q172114",
+   "lat": 24.18333,
+   "lon": 23.28333,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q172114"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Kufra: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q172114"
+    }
+   ]
+  },
+  {
+   "id": "bangui",
+   "name_en": "Bangui",
+   "name_ar": "بنغي",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q3832",
+   "lat": 4.37325,
+   "lon": 18.56283,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q3832"
+   },
+   "category": "modern",
+   "founded": {
+    "year": 1889,
+    "badge": "APPROXIMATE",
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q3832",
+    "note": "Wikidata P571 only"
+   },
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Capital of the Central African Republic.",
+   "history_ar": "عاصمة جمهورية أفريقيا الوسطى.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q3832"
+    }
+   ]
+  },
+  {
+   "id": "atbara",
+   "name_en": "Atbara",
+   "name_ar": "عطبرة",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q753906",
+   "lat": 17.71667,
+   "lon": 33.98333,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q753906"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "anglo-egyptian-sudan-condominium",
+     "role": "trade",
+     "start": 1906,
+     "end": 1956,
+     "source_id": "GHAVII",
+     "page": "455",
+     "note": "railway hub linked to Port Sudan (role = railway trade)"
+    }
+   ],
+   "history_en": "Railway town at the Atbara–Nile confluence.",
+   "history_ar": "مدينة السكك الحديدية عند ملتقى عطبرة والنيل.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHAVII",
+     "page": "455"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q753906"
+    }
+   ]
+  },
+  {
+   "id": "gedaref",
+   "name_en": "Gedaref",
+   "name_ar": "القضارف",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q311199",
+   "lat": 14.03333,
+   "lon": 35.38333,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q311199"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Gedaref: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q311199"
+    }
+   ]
+  },
+  {
+   "id": "kosti",
+   "name_en": "Kosti",
+   "name_ar": "كوستي",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q587715",
+   "lat": 13.16667,
+   "lon": 32.66667,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q587715"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Kosti: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q587715"
+    }
+   ]
+  },
+  {
+   "id": "bor",
+   "name_en": "Bor",
+   "name_ar": "بور",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q893274",
+   "lat": 6.21667,
+   "lon": 31.55,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q893274"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "turkiyya-ottoman-egyptian-rule",
+     "role": "garrison",
+     "start": null,
+     "end": null,
+     "source_id": "GHA6_CH14",
+     "page": "371",
+     "note": "government garrison"
+    }
+   ],
+   "history_en": "Nile town in Jonglei; former government post.",
+   "history_ar": "مدينة نيلية في جونقلي، كانت مركزا حكوميا.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA6_CH14",
+     "page": "371"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q893274"
+    }
+   ]
+  },
+  {
+   "id": "rumbek",
+   "name_en": "Rumbek",
+   "name_ar": "رمبيك",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q607336",
+   "lat": 6.8,
+   "lon": 29.68333,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q607336"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Rumbek: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q607336"
+    }
+   ]
+  },
+  {
+   "id": "ouara",
+   "name_en": "Ouara",
+   "name_ar": "وارا",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1974522",
+   "lat": 14.22667,
+   "lon": 20.67222,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1974522"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [],
+   "history_en": "Ouara: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1974522"
+    }
+   ]
+  },
+  {
+   "id": "kutum",
+   "name_en": "Kutum",
+   "name_ar": "كتم",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q3317346",
+   "lat": 14.20556,
+   "lon": 24.65,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q3317346"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Kutum: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q3317346"
+    }
+   ]
+  },
+  {
+   "id": "ed-damer",
+   "name_en": "Ed Damer",
+   "name_ar": "الدامر",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q311312",
+   "lat": 17.59278,
+   "lon": 33.95917,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q311312"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Ed Damer: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q311312"
+    }
+   ]
+  },
+  {
+   "id": "karima",
+   "name_en": "Karima",
+   "name_ar": "كريمة",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1729372",
+   "lat": 18.545,
+   "lon": 31.845,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1729372"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Karima: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1729372"
+    }
+   ]
+  },
+  {
+   "id": "merowe",
+   "name_en": "Merowe",
+   "name_ar": "مروي",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q2784541",
+   "lat": 18.47036,
+   "lon": 31.81126,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q2784541"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Merowe: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q2784541"
+    }
+   ]
+  },
+  {
+   "id": "kadugli",
+   "name_en": "Kadugli",
+   "name_ar": "كادوقلي",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1011819",
+   "lat": 11.01667,
+   "lon": 29.71667,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1011819"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Kadugli: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1011819"
+    }
+   ]
+  },
+  {
+   "id": "ed-daein",
+   "name_en": "Ed Daein",
+   "name_ar": "الضعين",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q288196",
+   "lat": 11.43333,
+   "lon": 26.15,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q288196"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Ed Daein: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q288196"
+    }
+   ]
+  },
+  {
+   "id": "zalingei",
+   "name_en": "Zalingei",
+   "name_ar": "زالنجي",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q4118131",
+   "lat": 12.9,
+   "lon": 23.48333,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q4118131"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Zalingei: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q4118131"
+    }
+   ]
+  },
+  {
+   "id": "ed-damazin",
+   "name_en": "Ed Damazin",
+   "name_ar": "الدمازين",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q311307",
+   "lat": 11.76667,
+   "lon": 34.35,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q311307"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Ed Damazin: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q311307"
+    }
+   ]
+  },
+  {
+   "id": "tokar",
+   "name_en": "Tokar",
+   "name_ar": "طوكر",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1010754",
+   "lat": 18.42583,
+   "lon": 37.72778,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1010754"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Tokar: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1010754"
+    }
+   ]
+  },
+  {
+   "id": "yei",
+   "name_en": "Yei",
+   "name_ar": "ياي",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1561403",
+   "lat": 4.08333,
+   "lon": 30.68333,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1561403"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Yei: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1561403"
+    }
+   ]
+  },
+  {
+   "id": "aweil",
+   "name_en": "Aweil",
+   "name_ar": "أويل",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q791685",
+   "lat": 8.76667,
+   "lon": 27.4,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q791685"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Aweil: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q791685"
+    }
+   ]
+  },
+  {
+   "id": "torit",
+   "name_en": "Torit",
+   "name_ar": "توريت",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1010278",
+   "lat": 4.41667,
+   "lon": 32.56667,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1010278"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Torit: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1010278"
+    }
+   ]
+  },
+  {
+   "id": "renk",
+   "name_en": "Renk",
+   "name_ar": "الرنك",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q775361",
+   "lat": 11.74306,
+   "lon": 32.80472,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q775361"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Renk: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q775361"
+    }
+   ]
+  },
+  {
+   "id": "nimule",
+   "name_en": "Nimule",
+   "name_ar": "نمولي",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1992727",
+   "lat": 3.6,
+   "lon": 32.06,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1992727"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Nimule: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1992727"
+    }
+   ]
+  },
+  {
+   "id": "dilling",
+   "name_en": "Dilling",
+   "name_ar": "الدلنج",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q5210211",
+   "lat": 12.04594,
+   "lon": 29.65105,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q5210211"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Dilling: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q5210211"
+    }
+   ]
+  },
+  {
+   "id": "babanusa",
+   "name_en": "Babanusa",
+   "name_ar": "بابنوسة",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q4116057",
+   "lat": 11.3291,
+   "lon": 27.8102,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q4116057"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Babanusa: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q4116057"
+    }
+   ]
+  },
+  {
+   "id": "en-nahud",
+   "name_en": "En Nahud",
+   "name_ar": "النهود",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q287343",
+   "lat": 12.7,
+   "lon": 28.43333,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q287343"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "En Nahud: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q287343"
+    }
+   ]
+  },
+  {
+   "id": "umm-ruwaba",
+   "name_en": "Umm Ruwaba",
+   "name_ar": "أم روابة",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q2618048",
+   "lat": 12.90583,
+   "lon": 31.21556,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q2618048"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Umm Ruwaba: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q2618048"
+    }
+   ]
+  },
+  {
+   "id": "abu-hamad",
+   "name_en": "Abu Hamad",
+   "name_ar": "أبو حمد",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q2439710",
+   "lat": 19.5375,
+   "lon": 33.3275,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q2439710"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Abu Hamad: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q2439710"
+    }
+   ]
+  },
+  {
+   "id": "gondokoro",
+   "name_en": "Gondokoro",
+   "name_ar": "غندكرو",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1391631",
+   "lat": 4.9,
+   "lon": 31.66667,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1391631"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "turkiyya-ottoman-egyptian-rule",
+     "role": "garrison",
+     "start": 1874,
+     "end": null,
+     "source_id": "GHA6_CH14",
+     "page": "370",
+     "note": "Baker arrived 1874"
+    }
+   ],
+   "history_en": "Upper Nile trading station and base for Baker.",
+   "history_ar": "محطة تجارية على النيل الأعلى وقاعدة لبيكر.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA6_CH14",
+     "page": "370"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1391631"
+    }
+   ]
+  },
+  {
+   "id": "lado",
+   "name_en": "Lado",
+   "name_ar": "لادو",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q3215967",
+   "lat": 5.03389,
+   "lon": 31.68528,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q3215967"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": {
+    "year": null,
+    "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+   },
+   "roles": [
+    {
+     "era_id": "turkiyya-ottoman-egyptian-rule",
+     "role": "garrison",
+     "start": 1876,
+     "end": null,
+     "source_id": "GHA6_CH14",
+     "page": "371",
+     "note": "Gordon withdrew to Lado in 1876"
+    }
+   ],
+   "history_en": "Equatoria station after 1876.",
+   "history_ar": "محطة في الاستوائية بعد 1876.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA6_CH14",
+     "page": "371"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q3215967"
+    }
+   ]
+  },
+  {
+   "id": "deim-zubeir",
+   "name_en": "Deim Zubeir",
+   "name_ar": "ديم الزبير",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q985357",
+   "lat": 7.71667,
+   "lon": 26.21667,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q985357"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Deim Zubeir: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q985357"
+    }
+   ]
+  },
+  {
+   "id": "mekelle",
+   "name_en": "Mekelle",
+   "name_ar": "ميكيلي",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q332319",
+   "lat": 13.49694,
+   "lon": 39.47694,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q332319"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Mekelle: settlement shown for location; no history line sourced yet.",
+   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q332319"
+    }
+   ]
+  }
+ ]
+}
