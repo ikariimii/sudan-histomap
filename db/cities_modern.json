@@ -2755,53 +2755,63 @@
    "population": null,
    "null_reason": "2008 town figure not published in available tables; no WUP2018 entry",
    "wup": {
-    "city_code": 1780,
-    "city_name_wup": "Torit",
-    "file": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx",
-    "row": 14394,
-    "figures": [
-     {
-      "year": 2015,
-      "value": 253168,
-      "value_thousands": 253.168,
-      "kind": "model",
-      "projection": false,
-      "source_id": "WUP2025",
-      "page_or_table": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx, sheet 'Data', Excel row 14394, Index 14393, City_Code 1780, City_Name 'Torit'",
-      "badges": [
-       "MODEL"
-      ]
-     },
-     {
-      "year": 2020,
-      "value": 360288,
-      "value_thousands": 360.288,
-      "kind": "model",
-      "projection": false,
-      "source_id": "WUP2025",
-      "page_or_table": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx, sheet 'Data', Excel row 14394, Index 14393, City_Code 1780, City_Name 'Torit'",
-      "badges": [
-       "MODEL"
-      ]
-     },
-     {
-      "year": 2025,
-      "value": 424731,
-      "value_thousands": 424.731,
-      "kind": "model",
-      "projection": true,
-      "source_id": "WUP2025",
-      "page_or_table": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx, sheet 'Data', Excel row 14394, Index 14393, City_Code 1780, City_Name 'Torit'",
-      "badges": [
-       "MODEL"
-      ]
-     }
-    ],
-    "note": "WUP2025 DEGURBA city (contiguous ≥1,500/km² grid cells); boundary differs from census town/locality, so figures are not comparable with census counts",
+    "value": null,
+    "null_reason": "WUP grid-boundary artifact, figures inconsistent",
     "badges": [
      "VERIFY"
     ],
-    "verify_note": "WUP2025 value exceeds Juba; likely DEGURBA grid boundary artefact"
+    "source_note": {
+     "source_id": "WUP2025",
+     "raw_withheld": {
+      "city_code": 1780,
+      "city_name_wup": "Torit",
+      "file": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx",
+      "row": 14394,
+      "figures": [
+       {
+        "year": 2015,
+        "value": 253168,
+        "value_thousands": 253.168,
+        "kind": "model",
+        "projection": false,
+        "source_id": "WUP2025",
+        "page_or_table": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx, sheet 'Data', Excel row 14394, Index 14393, City_Code 1780, City_Name 'Torit'",
+        "badges": [
+         "MODEL"
+        ]
+       },
+       {
+        "year": 2020,
+        "value": 360288,
+        "value_thousands": 360.288,
+        "kind": "model",
+        "projection": false,
+        "source_id": "WUP2025",
+        "page_or_table": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx, sheet 'Data', Excel row 14394, Index 14393, City_Code 1780, City_Name 'Torit'",
+        "badges": [
+         "MODEL"
+        ]
+       },
+       {
+        "year": 2025,
+        "value": 424731,
+        "value_thousands": 424.731,
+        "kind": "model",
+        "projection": true,
+        "source_id": "WUP2025",
+        "page_or_table": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx, sheet 'Data', Excel row 14394, Index 14393, City_Code 1780, City_Name 'Torit'",
+        "badges": [
+         "MODEL"
+        ]
+       }
+      ],
+      "note": "WUP2025 DEGURBA city (contiguous ≥1,500/km² grid cells); boundary differs from census town/locality, so figures are not comparable with census counts",
+      "badges": [
+       "VERIFY"
+      ],
+      "verify_note": "WUP2025 value exceeds Juba; likely DEGURBA grid boundary artefact"
+     }
+    }
    }
   },
   "renk": {
@@ -2893,53 +2903,63 @@
    "population": null,
    "null_reason": "2008 town figure not published in available tables; no WUP2018 entry",
    "wup": {
-    "city_code": 1403,
-    "city_name_wup": "Nimule",
-    "file": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx",
-    "row": 14387,
-    "figures": [
-     {
-      "year": 2015,
-      "value": 362553,
-      "value_thousands": 362.553,
-      "kind": "model",
-      "projection": false,
-      "source_id": "WUP2025",
-      "page_or_table": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx, sheet 'Data', Excel row 14387, Index 14386, City_Code 1403, City_Name 'Nimule'",
-      "badges": [
-       "MODEL"
-      ]
-     },
-     {
-      "year": 2020,
-      "value": 500633,
-      "value_thousands": 500.633,
-      "kind": "model",
-      "projection": false,
-      "source_id": "WUP2025",
-      "page_or_table": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx, sheet 'Data', Excel row 14387, Index 14386, City_Code 1403, City_Name 'Nimule'",
-      "badges": [
-       "MODEL"
-      ]
-     },
-     {
-      "year": 2025,
-      "value": 581444,
-      "value_thousands": 581.444,
-      "kind": "model",
-      "projection": true,
-      "source_id": "WUP2025",
-      "page_or_table": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx, sheet 'Data', Excel row 14387, Index 14386, City_Code 1403, City_Name 'Nimule'",
-      "badges": [
-       "MODEL"
-      ]
-     }
-    ],
-    "note": "WUP2025 DEGURBA city (contiguous ≥1,500/km² grid cells); boundary differs from census town/locality, so figures are not comparable with census counts",
+    "value": null,
+    "null_reason": "WUP grid-boundary artifact, figures inconsistent",
     "badges": [
      "VERIFY"
     ],
-    "verify_note": "WUP2025 value exceeds Juba; likely DEGURBA grid boundary artefact"
+    "source_note": {
+     "source_id": "WUP2025",
+     "raw_withheld": {
+      "city_code": 1403,
+      "city_name_wup": "Nimule",
+      "file": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx",
+      "row": 14387,
+      "figures": [
+       {
+        "year": 2015,
+        "value": 362553,
+        "value_thousands": 362.553,
+        "kind": "model",
+        "projection": false,
+        "source_id": "WUP2025",
+        "page_or_table": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx, sheet 'Data', Excel row 14387, Index 14386, City_Code 1403, City_Name 'Nimule'",
+        "badges": [
+         "MODEL"
+        ]
+       },
+       {
+        "year": 2020,
+        "value": 500633,
+        "value_thousands": 500.633,
+        "kind": "model",
+        "projection": false,
+        "source_id": "WUP2025",
+        "page_or_table": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx, sheet 'Data', Excel row 14387, Index 14386, City_Code 1403, City_Name 'Nimule'",
+        "badges": [
+         "MODEL"
+        ]
+       },
+       {
+        "year": 2025,
+        "value": 581444,
+        "value_thousands": 581.444,
+        "kind": "model",
+        "projection": true,
+        "source_id": "WUP2025",
+        "page_or_table": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx, sheet 'Data', Excel row 14387, Index 14386, City_Code 1403, City_Name 'Nimule'",
+        "badges": [
+         "MODEL"
+        ]
+       }
+      ],
+      "note": "WUP2025 DEGURBA city (contiguous ≥1,500/km² grid cells); boundary differs from census town/locality, so figures are not comparable with census counts",
+      "badges": [
+       "VERIFY"
+      ],
+      "verify_note": "WUP2025 value exceeds Juba; likely DEGURBA grid boundary artefact"
+     }
+    }
    }
   },
   "aswan": {
@@ -3218,53 +3238,63 @@
     }
    ],
    "wup": {
-    "city_code": 730,
-    "city_name_wup": "Asmara",
-    "file": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx",
-    "row": 5674,
-    "figures": [
-     {
-      "year": 2015,
-      "value": 337857,
-      "value_thousands": 337.857,
-      "kind": "model",
-      "projection": false,
-      "source_id": "WUP2025",
-      "page_or_table": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx, sheet 'Data', Excel row 5674, Index 5673, City_Code 730, City_Name 'Asmara'",
-      "badges": [
-       "MODEL"
-      ]
-     },
-     {
-      "year": 2020,
-      "value": 214404,
-      "value_thousands": 214.404,
-      "kind": "model",
-      "projection": false,
-      "source_id": "WUP2025",
-      "page_or_table": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx, sheet 'Data', Excel row 5674, Index 5673, City_Code 730, City_Name 'Asmara'",
-      "badges": [
-       "MODEL"
-      ]
-     },
-     {
-      "year": 2025,
-      "value": 228270,
-      "value_thousands": 228.27,
-      "kind": "model",
-      "projection": true,
-      "source_id": "WUP2025",
-      "page_or_table": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx, sheet 'Data', Excel row 5674, Index 5673, City_Code 730, City_Name 'Asmara'",
-      "badges": [
-       "MODEL"
-      ]
-     }
-    ],
-    "note": "WUP2025 DEGURBA city (contiguous ≥1,500/km² grid cells); boundary differs from census town/locality, so figures are not comparable with census counts",
+    "value": null,
+    "null_reason": "WUP grid-boundary artifact, figures inconsistent",
     "badges": [
      "VERIFY"
     ],
-    "verify_note": "WUP2025 shows 2015→2020 drop 337,857→214,404; likely boundary/input change"
+    "source_note": {
+     "source_id": "WUP2025",
+     "raw_withheld": {
+      "city_code": 730,
+      "city_name_wup": "Asmara",
+      "file": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx",
+      "row": 5674,
+      "figures": [
+       {
+        "year": 2015,
+        "value": 337857,
+        "value_thousands": 337.857,
+        "kind": "model",
+        "projection": false,
+        "source_id": "WUP2025",
+        "page_or_table": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx, sheet 'Data', Excel row 5674, Index 5673, City_Code 730, City_Name 'Asmara'",
+        "badges": [
+         "MODEL"
+        ]
+       },
+       {
+        "year": 2020,
+        "value": 214404,
+        "value_thousands": 214.404,
+        "kind": "model",
+        "projection": false,
+        "source_id": "WUP2025",
+        "page_or_table": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx, sheet 'Data', Excel row 5674, Index 5673, City_Code 730, City_Name 'Asmara'",
+        "badges": [
+         "MODEL"
+        ]
+       },
+       {
+        "year": 2025,
+        "value": 228270,
+        "value_thousands": 228.27,
+        "kind": "model",
+        "projection": true,
+        "source_id": "WUP2025",
+        "page_or_table": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx, sheet 'Data', Excel row 5674, Index 5673, City_Code 730, City_Name 'Asmara'",
+        "badges": [
+         "MODEL"
+        ]
+       }
+      ],
+      "note": "WUP2025 DEGURBA city (contiguous ≥1,500/km² grid cells); boundary differs from census town/locality, so figures are not comparable with census counts",
+      "badges": [
+       "VERIFY"
+      ],
+      "verify_note": "WUP2025 shows 2015→2020 drop 337,857→214,404; likely boundary/input change"
+     }
+    }
    }
   },
   "massawa": {
