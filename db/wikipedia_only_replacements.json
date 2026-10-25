@@ -1,0 +1,52 @@
+{
+ "_meta": {
+  "purpose": "Replacements for claims in data/eras/*.json whose only inline cite is Wikipedia (WP:* ids or registry ids whose url is wikipedia.org). Modern eras (start >= 1956) are listed first. Every replacement was read in full on 2026-10-25. Nothing in data/ was edited; the Historian applies the changes.",
+  "method": "Every *_en string in data/eras/*.json was split into sentences, and the cite ids were collected (registry ids in parentheses plus bare WP:* tokens). A sentence was kept when all of its ids are Wikipedia. Result: 3 claims in 2 eras. Arabic fields mirror the English ones and need the same cite change.",
+  "war_control_claims": "None of the 3 claims is a war-control claim, so nothing is marked CUT.",
+  "prepared": "2026-10-25"
+ },
+ "claims": [
+  {
+   "era": "al-bashir-ncp-ingaz-regime", "start": 1989, "field": "culture_dominance_en",
+   "claim": "Islamisation from the early 1990s (RU_WIKI_HIST)",
+   "current_cites": ["RU_WIKI_HIST"],
+   "replacement": {
+    "registry_id": "SFDAS_HCS2017",
+    "citation": "Satti, Noureddine. Chapter 'Le Soudan aujourd'hui' (section 'Islamisme et politique au Soudan'), in Histoire et civilisations du Soudan. Soleb / Bleu autour / SFDAS, 2017.",
+    "url": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html",
+    "pages": "771-772",
+    "lang": "fr",
+    "quote": "Jusqu’au coup d’État de juin 1989 qui a amené au pouvoir le régime islamiste du colonel Omar Hassan Ahmed el-Bechir. [...] L’islamisme soudanais ne fait pas exception : son objectif ultime est l’islamisation de la société par des moyens musclés"
+   },
+   "note": "The source dates the regime's Islamisation aim from the June 1989 coup. It does not say 'early 1990s'. The Historian should either match the text to the source or keep the wording and add [SINGLE-SOURCE]. I have not reworded anything."
+  },
+  {
+   "era": "al-bashir-ncp-ingaz-regime", "start": 1989, "field": "culture_dominance_en",
+   "claim": "sharia applied in the North only under the CPA (FR_WIKI_HIST)",
+   "current_cites": ["FR_WIKI_HIST"],
+   "replacement": {
+    "registry_id": "CPA_2005",
+    "citation": "The Comprehensive Peace Agreement between the Government of the Republic of the Sudan and the SPLM/SPLA (2005), Chapter I: The Machakos Protocol, s. 3.2.2.",
+    "url": "https://ucdp.uu.se/Downloads/fullpeace/Sud%2020050109.pdf",
+    "pages": "p. 4 (Chapter I; PDF page 26)",
+    "lang": "en",
+    "quote": "Nationally enacted legislation having effect only in respect of the states outside Southern Sudan shall have as its source of legislation Sharia and the consensus of the people."
+   },
+   "note": "Primary treaty text, 261 pp, downloaded and text-extracted in full on 2026-10-25. The UN Peacemaker copy returns 404, so I used the UCDP copy, which is the URL already in the registry."
+  },
+  {
+   "era": "eritrea-italian-colony-independent", "start": 1890, "field": "geopolitics_en",
+   "claim": "Colonial phase (Italian colony from 1890) not covered by a read source [thin; WP:Eritrea only].",
+   "current_cites": ["WP:Eritrea"],
+   "replacement": {
+    "registry_id": "EEBC2002",
+    "citation": "Eritrea-Ethiopia Boundary Commission, Decision regarding delimitation of the border between Eritrea and Ethiopia, 13 April 2002. UN Reports of International Arbitral Awards (RIAA) vol. XXV, pp. 83-195.",
+    "url": "https://legal.un.org/riaa/cases/vol_XXV/83-195.pdf",
+    "pages": "104",
+    "lang": "en",
+    "quote": "On 1 January 1890, Italy formally established the Colony of Eritrea."
+   },
+   "note": "This is not a modern era (it starts in 1890) and is listed after the modern ones. The registry title of EEBC2002 still carries [VERIFY]. I read the decision in full on 2026-10-25, so the Historian may drop that tag. The bracketed note '[thin; WP:Eritrea only]' would then be out of date; any rewording is the Historian's call."
+  }
+ ]
+}
