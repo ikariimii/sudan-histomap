@@ -154,3 +154,7 @@ body.embed #about,body.embed #lang,body.embed #srchb{display:none}#embo{font-siz
 @media (max-width:999px){#feat{max-height:calc(min(88vh,100vh - var(--chipb,120px) - 10px) - 28px);overflow-y:auto;overscroll-behavior:contain}}
 .clo ul{margin:4px 0;padding-inline-start:18px}.clo li{margin:4px 0}.clo h2{font-size:14px;margin:10px 0 2px}
 .bts g.bt circle.bthz{stroke:none;pointer-events:all}.bts g.bt .bzg path{stroke:#fbecc8;fill:none;stroke-linecap:round;stroke-linejoin:round}.bts g.bt.past circle.bthz{opacity:.45}.bts g.bt.past .bzg path{stroke:#c9d3db}.bts g.pr-zone circle.bth{r:15}.bts g.bt:focus-visible .bzg path{stroke:#ffd166}
+/* 'How we know' strip on the era card: compact chips, wraps on narrow screens */
+.hwks{display:flex;flex-wrap:wrap;gap:.25em .4em;align-items:center;font-size:12px;line-height:1.5;margin:.3em 0 .6em;padding:.35em .5em;border-radius:.5em;background:rgba(138,90,31,.08)}
+.hwks b{font-weight:700}.hwks span{white-space:nowrap}.hwks span+span::before,.hwks span+a::before{content:'·';margin-inline-end:.4em;color:#6b6257}
+.hwks span:has(bdi[dir="ltr"]){white-space:normal}.hwks .vchip{margin-inline-start:0}.hwks a{color:inherit;text-decoration:underline;min-height:24px;display:inline-flex;align-items:center}
