@@ -2464,6 +2464,19 @@
     "verification": "read in full 2026-10-25 via WebFetch (curl gets 403 bot block)",
     "via": "db/geopolitics_sources.json"
    },
+   "GEO-096": {
+    "author": "UN Security Council",
+    "title": "Resolution 2736 (2024), adopted by the Security Council at its 9655th meeting, on 13 June 2024",
+    "title_en": "same",
+    "publisher": "UN Security Council (S/RES/2736 (2024))",
+    "year": "2024-06-13",
+    "url": "https://documents.un.org/api/symbol/access?s=S/RES/2736(2024)&l=en&t=pdf",
+    "pages": "",
+    "lang": "en",
+    "affiliation_bias": "UN",
+    "verification": "read in full (3 pp.) 2026-10-25 via documents.un.org PDF + pdftotext",
+    "via": "db/geopolitics_sources.json"
+   },
    "GEONAMES": {
     "author": "GeoNames",
     "title": "GeoNames geographical database (feature pages)",
