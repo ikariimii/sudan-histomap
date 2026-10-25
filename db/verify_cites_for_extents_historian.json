@@ -57,18 +57,19 @@
    "id": "ABDALLAB-S-ARBAJI",
    "place": "Arbaji (Arbagi, أربجي; formerly Hellet Amara)",
    "role": "southern limit, 'the dividing line between Abdallab and Funj influence' (MSM1972 p.149)",
-   "lat": 14.767769,
-   "lon": 33.365999,
-   "coord_source": "No gazetteer coordinate for Arbaji itself: Wikidata Q12179334 has no P625 and enwiki 'Arbaji' has no coordinates. enwiki 'Arbaji' (read 2026-10-25) places it 'opposite Rufaa on the left bank of the Blue Nile'; point given is Rufa'a, Wikidata Q12213557 (P625 14.767769N 33.365999E). Arbaji lies just across the river (west bank).",
+   "lat": 14.726,
+   "lon": 33.3525,
+   "coord_source": "NGA GNS UFI 98562051 (14.726N 33.3525E), the point cited for Arbaji in db/cities.json (source_id NGA_GNS, badge APPROXIMATE). Replaces the earlier DERIVED Rufa'a point (Wikidata Q12213557); Wikidata Q12179334 for Arbaji has no P625.",
    "badges": [
-    "DERIVED",
     "APPROXIMATE"
    ],
    "target": "db/extents/abdallab-chiefdom-funj-vassal.geojson (influence zone)",
    "purpose": "anchor points for redrawing the Abdallab influence zone to MSM1972 p.149 (pdf p.144)",
    "source_id": "MSM1972",
    "page": "p.149",
-   "quote_en_from_draft": "to the borders of Abyssinia and Suakin in the east, to Kab Bulul at the borders of the Fur sultanate in the west, and to Arbaji ... in the south"
+   "quote_en_from_draft": "to the borders of Abyssinia and Suakin in the east, to Kab Bulul at the borders of the Fur sultanate in the west, and to Arbaji ... in the south",
+   "coord_source_id": "NGA_GNS",
+   "coord_page": "UFI 98562051"
   },
   {
    "id": "ABDALLAB-N-ASWAN",
