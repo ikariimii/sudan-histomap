@@ -15,20 +15,20 @@
    "DERIVED"
   ],
   "era_count": 68,
-  "files_scanned": 311
+  "files_scanned": 314
  },
  "totals": {
   "SINGLE-SOURCE": 260,
-  "CONTESTED": 170,
+  "CONTESTED": 171,
   "VERIFY": 80,
-  "REPORTED": 20,
+  "REPORTED": 24,
   "MODEL": 109,
   "EDITORIAL": 67,
   "APPROXIMATE": 480,
   "PARTIAL": 5,
   "DERIVED": 328
  },
- "grand_total": 1519,
+ "grand_total": 1524,
  "inline_totals": {
   "SINGLE-SOURCE": 22,
   "CONTESTED": 9,
@@ -959,14 +959,14 @@
     "SINGLE-SOURCE": 0,
     "CONTESTED": 3,
     "VERIFY": 1,
-    "REPORTED": 0,
+    "REPORTED": 1,
     "MODEL": 3,
     "EDITORIAL": 0,
     "APPROXIMATE": 11,
     "PARTIAL": 0,
     "DERIVED": 3
    },
-   "total": 21,
+   "total": 22,
    "inline_badges": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 1,
@@ -982,6 +982,7 @@
    "files": [
     "data/eras/french-chad-republic-of-chad.json",
     "db/ar_review_queue.json",
+    "db/era_events_post1956.json",
     "db/extents/french-chad-republic-of-chad.geojson",
     "db/map_sources.json",
     "db/population.json"
@@ -2168,14 +2169,14 @@
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
     "VERIFY": 0,
-    "REPORTED": 0,
+    "REPORTED": 1,
     "MODEL": 0,
     "EDITORIAL": 0,
     "APPROXIMATE": 3,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 4,
+   "total": 5,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2191,6 +2192,7 @@
    "files": [
     "data/eras/ottoman-hejaz-saudi-state.json",
     "db/era_economy.json",
+    "db/era_events_post1956.json",
     "db/extents/ottoman-hejaz-saudi-state.geojson",
     "db/map_sources.json"
    ]
@@ -2295,7 +2297,7 @@
    "source_types_total": 16,
    "counts": {
     "SINGLE-SOURCE": 12,
-    "CONTESTED": 31,
+    "CONTESTED": 32,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 3,
@@ -2304,7 +2306,7 @@
     "PARTIAL": 1,
     "DERIVED": 1
    },
-   "total": 58,
+   "total": 59,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 1,
@@ -2322,6 +2324,7 @@
     "db/battles_post1956.json",
     "db/era_anchor_fill_hist23b.json",
     "db/era_economy.json",
+    "db/era_events_post1956.json",
     "db/extents/republic-of-south-sudan.geojson",
     "db/extents_historic.json",
     "db/extents_notes_fill_ss2011.json",
@@ -2912,14 +2915,14 @@
     "SINGLE-SOURCE": 4,
     "CONTESTED": 28,
     "VERIFY": 0,
-    "REPORTED": 14,
+    "REPORTED": 16,
     "MODEL": 4,
     "EDITORIAL": 0,
     "APPROXIMATE": 13,
     "PARTIAL": 0,
     "DERIVED": 5
    },
-   "total": 68,
+   "total": 70,
    "inline_badges": {
     "SINGLE-SOURCE": 11,
     "CONTESTED": 4,
@@ -2936,6 +2939,7 @@
     "data/eras/war-in-sudan-saf-vs-rsf.json",
     "db/battles_post1956.json",
     "db/era_economy.json",
+    "db/era_events_post1956.json",
     "db/extents/war-in-sudan-saf-vs-rsf.geojson",
     "db/extents_historic.json",
     "db/extents_notes_fill_ss2011.json",
