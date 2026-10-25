@@ -4,7 +4,8 @@
   "built": "2026-10-24",
   "note": "No population or war status (Analyst layer). Dates null where sources read do not state them.",
   "pass2": "2026-10-24: first_attested field (IM ruling), map_from, 3 places added",
-  "pass3": "2026-10-24: last_attested for undated ruins without a role end year"
+  "pass3": "2026-10-24: last_attested for undated ruins without a role end year",
+  "pass4": "2026-10-24: first_attested Naqa/Kobbe; last_attested Musawwarat/Buhen/Kobbe; Soleb/Abu Simbel/Ain Farah null with reasons"
  },
  "places": [
   {
@@ -439,6 +440,10 @@
      "page": "318"
     },
     {
+     "id": "GHA2_CH11",
+     "page": "319"
+    },
+    {
      "id": "WIKIDATA_CITIES",
      "page": "Q286426"
     }
@@ -454,8 +459,13 @@
     "year": -270,
     "basis": "first_attested"
    },
-   "last_attested": null,
-   "last_attested_reason": "GHA II pp.318-321 date only early temple phases (before -500); no later dated mention found in sources read"
+   "last_attested": {
+    "year": -41,
+    "badge": "LAST_ATTESTED+APPROXIMATE",
+    "source_id": "GHA2_CH11",
+    "page": "319",
+    "basis": "after the Amun temple of Meroe (earliest names Amanikhabale -65 to -41, Amanishakhete -41 to -12) \"other similar Amun temples of a smaller size were built at Meroe, Musawwarat es-Sufra, Naqa\" (year = start of Amanishakhete; construction date not stated)"
+   }
   },
   {
    "id": "naqa",
@@ -483,6 +493,10 @@
    "source_ids": [
     {
      "id": "GHA2_CH10",
+     "page": "288"
+    },
+    {
+     "id": "GHA2_CH10",
      "page": "291"
     },
     {
@@ -490,14 +504,23 @@
      "page": "Q1760360"
     }
    ],
-   "map_from": null,
-   "list_only_reason": "no cited founded or first-attested date in sources read",
+   "map_from": {
+    "year": -170,
+    "basis": "first_attested"
+   },
    "last_attested": {
     "year": 12,
     "badge": "LAST_ATTESTED+APPROXIMATE",
     "source_id": "GHA2_CH10",
     "page": "291",
     "basis": "Natakamani and Amanitere (-12 to +12) \"devoted particular attention to Naga\" (year = end of reign)"
+   },
+   "first_attested": {
+    "year": -170,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2_CH10",
+    "page": "288",
+    "basis": "Queen Shanakdakhete (about -170 to -160): \"an edifice in her name at Naga\" bears some of the most ancient known Meroitic hieroglyphic inscriptions (year = start of reign, approximate)"
    }
   },
   {
@@ -649,7 +672,7 @@
     "basis": "first_attested"
    },
    "last_attested": null,
-   "last_attested_reason": "only the -1400 temple building is dated in sources read"
+   "last_attested_reason": "GHA II p.308 lists Soleb among large Upper Nubian urban centres of the Napatan period, but gives no date; only the -1400 temple is dated"
   },
   {
    "id": "buhen",
@@ -703,6 +726,10 @@
      "page": "266"
     },
     {
+     "id": "GHA2_CH9",
+     "page": "268"
+    },
+    {
      "id": "WIKIDATA_CITIES",
      "page": "Q1002656"
     }
@@ -718,8 +745,13 @@
     "year": -2055,
     "basis": "first_attested"
    },
-   "last_attested": null,
-   "last_attested_reason": "GHA II dates only Old/Middle/New Kingdom phases; no end of occupation stated"
+   "last_attested": {
+    "year": -1319,
+    "badge": "LAST_ATTESTED+APPROXIMATE",
+    "source_id": "GHA2_CH9",
+    "page": "268",
+    "basis": "Ramses I (-1320 to -1318), in the second year of his reign, set up a stele in the temple of Hatshepsut at Buhen recording new buildings"
+   }
   },
   {
    "id": "semna",
@@ -1040,7 +1072,7 @@
     "basis": "founded"
    },
    "last_attested": null,
-   "last_attested_reason": "no dated late mention found in sources read"
+   "last_attested_reason": "GHA II-VI and MacMichael 1922 text on the box give no dated mention after the founding"
   },
   {
    "id": "old-dongola",
@@ -1659,18 +1691,31 @@
      "page": "203"
     },
     {
+     "id": "MACMICHAEL1922_V1",
+     "page": "216"
+    },
+    {
      "id": "WIKIDATA_CITIES",
      "page": "Q6424293"
     }
    ],
-   "map_from": null,
-   "list_only_reason": "no cited founded or first-attested date in sources read",
-   "last_attested": {
+   "map_from": {
     "year": 1750,
+    "basis": "first_attested"
+   },
+   "last_attested": {
+    "year": 1793,
     "badge": "LAST_ATTESTED+APPROXIMATE",
     "source_id": "MACMICHAEL1922_V1",
+    "page": "216",
+    "basis": "Browne (Travels, p.241) quoted on \"the merchants of Kobbe in Darfur\" (p.216 n.5); Browne was in Darfur in 1793 (p.222 n.1); revises pass3 1750"
+   },
+   "first_attested": {
+    "year": 1750,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "MACMICHAEL1922_V1",
     "page": "203",
-    "basis": "Terayfia driven from Dongola in the 18th century \"took to trading at Kobbe\" (year = mid-century); Browne quoted on the merchants of Kobbe, p.216"
+    "basis": "Terayfia driven from Dongola \"in the eighteenth century ... took to trading at Kobbe\" (year = mid-century, approximate)"
    }
   },
   {
@@ -1728,7 +1773,7 @@
     "basis": "first_attested"
    },
    "last_attested": null,
-   "last_attested_reason": "GHA IV p.420 dates the Christian buildings 8th-13th c., but the cited role is the later Tunjur era (from 1400); no dated Tunjur-era mention found, so a year would contradict the role"
+   "last_attested_reason": "GHA IV p.420 dates the Christian buildings 8th-13th c., before the map start (1400, Tunjur era); no dated Tunjur-era mention found, so no year is set"
   },
   {
    "id": "shendi",
