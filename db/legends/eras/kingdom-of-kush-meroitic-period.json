@@ -1,0 +1,620 @@
+{
+ "era_id": "kingdom-of-kush-meroitic-period",
+ "name_en": "Kingdom of Kush – Meroitic period",
+ "stream": "Sudan – Middle Nile",
+ "start": -270,
+ "end": 350,
+ "layers": {
+  "extents": {
+   "file": "db/extents/kingdom-of-kush-meroitic-period.geojson",
+   "features": [
+    {
+     "feature_index": 0,
+     "id": null,
+     "label_en": "Meroitic Kush after the Treaty of Samos: Hiera Sycaminos to Naga – strip width along the Nile is a display choice, not a sourced boundary",
+     "symbol_class": "control_extent_approx",
+     "certainty": "low",
+     "badges": [],
+     "start": -20,
+     "end": 350,
+     "source_ids": [
+      "GHA2",
+      "NAGA_PROJ",
+      "NATURAL_EARTH"
+     ]
+    },
+    {
+     "feature_index": 1,
+     "id": null,
+     "label_en": "Philae (reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [],
+     "start": -270,
+     "end": -20,
+     "source_ids": [
+      "GHA2"
+     ]
+    },
+    {
+     "feature_index": 2,
+     "id": null,
+     "label_en": "Dakka (reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [],
+     "start": -270,
+     "end": -20,
+     "source_ids": [
+      "GHA2"
+     ]
+    },
+    {
+     "feature_index": 3,
+     "id": null,
+     "label_en": "Sennar",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [],
+     "start": -270,
+     "end": -20,
+     "source_ids": [
+      "GHA2"
+     ]
+    },
+    {
+     "feature_index": 4,
+     "id": null,
+     "label_en": "Jebel Moya (reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [],
+     "start": -270,
+     "end": -20,
+     "source_ids": [
+      "GHA2"
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "file": null,
+   "features": []
+  },
+  "cities": {
+   "file": "db/city_layers/cities.geojson",
+   "features": [
+    {
+     "id": "jebel-barkal",
+     "name_en": "Jebel Barkal",
+     "name_ar": "جبل البركل",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": -1290,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "268"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "268"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q499019"
+      }
+     ]
+    },
+    {
+     "id": "meroe",
+     "name_en": "Meroë",
+     "name_ar": "أهرامات مروي",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-kush-meroitic-period",
+       "start": -300,
+       "end": null,
+       "source_id": "GHA2_CH11",
+       "page": "301"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH11",
+       "page": "301"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q5780"
+      }
+     ]
+    },
+    {
+     "id": "musawwarat",
+     "name_en": "Musawwarat es-Sufra",
+     "name_ar": "المصورات الصفراء",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-meroitic-period",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH11",
+       "page": "318"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH11",
+       "page": "318"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q286426"
+      }
+     ]
+    },
+    {
+     "id": "wad-ban-naqa",
+     "name_en": "Wad ban Naqa",
+     "name_ar": "ود بانقا",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-meroitic-period",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH11",
+       "page": "314"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH11",
+       "page": "314"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q2538648"
+      }
+     ]
+    },
+    {
+     "id": "soleb",
+     "name_en": "Soleb",
+     "name_ar": "صوليب",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "144"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1457914"
+      }
+     ]
+    },
+    {
+     "id": "buhen",
+     "name_en": "Buhen",
+     "name_ar": "بوهين",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "middle-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "role": "garrison",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "265"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "265"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1002656"
+      }
+     ]
+    },
+    {
+     "id": "qasr-ibrim",
+     "name_en": "Qasr Ibrim",
+     "name_ar": "قصر إبريم",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "roman-byzantine-egypt",
+       "start": -23,
+       "end": null,
+       "source_id": "GHA2_CH10",
+       "page": "290"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "290"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q2121453"
+      }
+     ]
+    },
+    {
+     "id": "philae",
+     "name_en": "Philae",
+     "name_ar": "فيلة",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH12",
+       "page": "331"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q245062"
+      }
+     ]
+    },
+    {
+     "id": "abu-simbel",
+     "name_en": "Abu Simbel",
+     "name_ar": "أبو سمبل",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q134140"
+      }
+     ]
+    },
+    {
+     "id": "aswan",
+     "name_en": "Aswan",
+     "name_ar": "أسوان",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "238"
+      },
+      {
+       "id": "GHA3_CH8",
+       "page": "195"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q29888"
+      }
+     ]
+    },
+    {
+     "id": "aksum",
+     "name_en": "Aksum",
+     "name_ar": "أكسوم",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-aksum",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH15",
+       "page": "389"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH15",
+       "page": "389"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q5832"
+      }
+     ]
+    },
+    {
+     "id": "adulis",
+     "name_en": "Adulis",
+     "name_ar": "عدوليس",
+     "symbol_class": "city_port",
+     "roles_in_era": [
+      {
+       "role": "port",
+       "era_id": "kingdom-of-aksum",
+       "start": 75,
+       "end": null,
+       "source_id": "GHA2",
+       "page": "343"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "CONTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "343"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q378940"
+      }
+     ]
+    },
+    {
+     "id": "kawa",
+     "name_en": "Kawa (Gematon)",
+     "name_ar": "كوة",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "APPROXIMATE-COORDS",
+      "AR-REVIEW"
+     ],
+     "source_ids": [
+      {
+       "id": "PLEIADES_805647",
+       "page": "805647"
+      },
+      {
+       "id": "SARS_KAWA",
+       "page": "project page"
+      }
+     ]
+    }
+   ]
+  },
+  "homelands": {
+   "file": "db/group_layers/homelands.geojson",
+   "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
+   "drawn": 14,
+   "list_only": 7
+  }
+ },
+ "symbol_classes_present": [
+  "city_capital",
+  "city_garrison",
+  "city_other",
+  "city_port",
+  "city_religious",
+  "control_extent_approx",
+  "extent_label_point"
+ ],
+ "badges_present": [
+  "APPROXIMATE",
+  "APPROXIMATE-COORDS",
+  "AR-REVIEW",
+  "CONTESTED",
+  "FIRST-ATTESTED",
+  "RUIN-UNDATED"
+ ],
+ "counts": {
+  "city_capital": 2,
+  "city_garrison": 2,
+  "city_other": 5,
+  "city_port": 1,
+  "city_religious": 3,
+  "control_extent_approx": 1,
+  "extent_label_point": 4,
+  "extent_features": 5,
+  "group_features": 0,
+  "cities": 13
+ },
+ "context": {
+  "key_events_en": [
+   "Ergamenes/Arkamani (3rd c. BCE), friendly relations with Ptolemaic Egypt",
+   "Queen Shanakdakhete (c.170–160 BCE): among earliest Meroitic hieroglyphic inscriptions (Naqa)",
+   "Taniydamani (late 2nd c. BCE): first long Meroitic texts",
+   "Iron working at Meroe; Meroitic script transliterated by Griffith 1909, language still not understood",
+   "Kandakes Amanirenas and Amanishakheto; Prince/King Akinidad; war with Rome: Napata taken by Petronius 23 BCE (GHA), Treaty of Samos 21/20 BCE",
+   "Natakamani & Amanitore (GHA: c.12 BCE–12 CE; dating debated): Naqa Lion Temple, Amara, restoration of Napata",
+   "Collapsed in the 4th century CE; cause debated (Noba per GHA II; Aksumite campaign of Ezana)"
+  ],
+  "key_events_ar": [
+   "أرجامنيس/أركاماني (القرن الثالث ق.م)، علاقات ودية مع مصر البطلمية",
+   "الملكة شنكداخيتي (نحو 170–160 ق.م): من أقدم النقوش المروية الهيروغليفية (النقعة)",
+   "تانيدأماني (أواخر القرن الثاني ق.م): أول النصوص المروية الطويلة",
+   "صناعة الحديد في مروي؛ نقحرة الخط المروي على يد غريفيث 1909، ولا تزال اللغة غير مفهومة",
+   "الكنداكتان أماني ريناس وأماني شاخيتو؛ الأمير/الملك أكينيداد؛ الحرب مع روما: بترونيوس يستولي على نبتة 23 ق.م (تاريخ أفريقيا العام)، ومعاهدة ساموس 21/20 ق.م",
+   "نتكاماني وأماني تيري (تاريخ أفريقيا العام: نحو 12 ق.م–12 م؛ والتأريخ موضع جدل): معبد الأسد في النقعة، وعمارة، وترميم نبتة",
+   "انهارت في القرن الرابع الميلادي؛ والسبب موضع خلاف (النوبة بحسب تاريخ أفريقيا العام II؛ وحملة عيزانا الأكسومية)"
+  ],
+  "key_events_source_ids": [
+   "PL:795855",
+   "RILLY_SN22",
+   "GHA2_CH12",
+   "WHC1336",
+   "WELSBY1996",
+   "WP:Meroë",
+   "WP:Kingdom_of_Kush",
+   "WP:Amanirenas",
+   "EDWARDS2011"
+  ],
+  "dating_note": "Meroitic chronology uncertain (GHA II: 'particularly serious' for 2nd–1st c. BCE). Which kandake negotiated with Rome (Amanirenas vs Amanishakheto) is unresolved in GHA. End placed in the 4th century CE (350 is a placeholder year); cause debated: GHA II ascribes the overthrow to the Noba and concludes the kingdom 'had already collapsed at the time of Ezana's campaign'.",
+  "capitals": [
+   {
+    "name": "Meroë",
+    "lat": 16.9351,
+    "lon": 33.7507
+   },
+   {
+    "name": "Naqa",
+    "lat": 16.2694,
+    "lon": 33.275
+   },
+   {
+    "name": "Musawwarat es-Sufra",
+    "lat": 16.4158,
+    "lon": 33.3236
+   },
+   {
+    "name": "Wad ban Naqa",
+    "lat": 16.5111,
+    "lon": 33.1122
+   },
+   {
+    "name": "Hamadab",
+    "lat": 16.9117,
+    "lon": 33.6919
+   },
+   {
+    "name": "Sedeinga",
+    "lat": 20.5435,
+    "lon": 30.2871
+   }
+  ],
+  "control_limits_en": "After the war with Rome (Treaty of Samos, 21/20 BCE) 'the frontier between the Roman and Meroitic empires was fixed at Hiera Sycaminos (Muharraqa)'; a Roman garrison at Primis (Qasr Ibrim) was later withdrawn (GHA2, ch.10). Naga is described as Meroe's southernmost city (NAGA_PROJ). Kush expanded south to around Khartoum (ZH_EMB_HIST2020, popular text).",
+  "control_limits_ar": "بعد الحرب مع روما (معاهدة ساموس 21/20 ق.م) «ثُبّتت الحدود بين الإمبراطوريتين الرومانية والمروية عند هييرا سيكامينوس (المحرّقة)»، وسُحبت لاحقاً الحامية الرومانية من بريميس (قصر إبريم) (تاريخ أفريقيا العام II، الفصل 10). ويوصف النقعة بأنها أقصى مدن مروي جنوباً (مشروع النقعة). وتوسعت كوش جنوباً حتى منطقة الخرطوم (نص السفارة الصينية، نص شعبي).",
+  "control_limits_source_ids": [
+   "GHA2",
+   "NAGA_PROJ",
+   "ZH_EMB_HIST2020"
+  ],
+  "control_confidence": "medium"
+ },
+ "interactive": {
+  "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
+  "layer_toggles": [
+   "extents",
+   "cities",
+   "homelands",
+   "basemap_rivers",
+   "basemap_terrain",
+   "graticule"
+  ],
+  "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
+  "badge_filter": [
+   "APPROXIMATE",
+   "APPROXIMATE-COORDS",
+   "AR-REVIEW",
+   "CONTESTED",
+   "FIRST-ATTESTED",
+   "RUIN-UNDATED"
+  ],
+  "what_changed": {
+   "previous_era_id": "kingdom-of-kush-napatan-period",
+   "basis": "previous era in same stream by start year",
+   "extents_added": [
+    "Dakka (reference marker)",
+    "Jebel Moya (reference marker)",
+    "Meroitic Kush after the Treaty of Samos: Hiera Sycaminos to Naga – strip width along the Nile is a display choice, not a sourced boundary",
+    "Philae (reference marker)",
+    "Sennar"
+   ],
+   "extents_removed": [
+    "Elephantine (find-spot, not a border)",
+    "Kush after Psamtik II: south of the Second Cataract – strip width along the Nile is a display choice, not a sourced boundary",
+    "Kush, 25th Dynasty maximum: Delta to the confluence of the Niles – strip width along the Nile is a display choice, not a sourced boundary"
+   ],
+   "cities_added": [
+    "adulis",
+    "aksum",
+    "philae",
+    "qasr-ibrim"
+   ],
+   "cities_removed": [
+    "el-kurru",
+    "napata",
+    "nuri"
+   ],
+   "capitals_added": [
+    "aksum"
+   ],
+   "capitals_removed": [
+    "napata"
+   ],
+   "groups_added": [],
+   "groups_removed": []
+  }
+ }
+}

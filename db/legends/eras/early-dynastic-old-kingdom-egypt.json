@@ -1,0 +1,143 @@
+{
+ "era_id": "early-dynastic-old-kingdom-egypt",
+ "name_en": "Early Dynastic & Old Kingdom Egypt",
+ "stream": "Egypt",
+ "start": -3100,
+ "end": -2181,
+ "layers": {
+  "extents": {
+   "file": "db/extents/early-dynastic-old-kingdom-egypt.geojson",
+   "features": [
+    {
+     "feature_index": 0,
+     "id": null,
+     "label_en": "Elephantine (southern nome seat, reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "medium",
+     "badges": [],
+     "start": -3100,
+     "end": -2181,
+     "source_ids": [
+      "GHA2_CH2"
+     ]
+    },
+    {
+     "feature_index": 1,
+     "id": null,
+     "label_en": "Buhen (Old Kingdom outpost, reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [],
+     "start": -2613,
+     "end": -2345,
+     "source_ids": [
+      "GHA2_CH9",
+      "GHA2_CH8"
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "file": null,
+   "features": []
+  },
+  "cities": {
+   "file": "db/city_layers/cities.geojson",
+   "features": [
+    {
+     "id": "aswan",
+     "name_en": "Aswan",
+     "name_ar": "أسوان",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "238"
+      },
+      {
+       "id": "GHA3_CH8",
+       "page": "195"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q29888"
+      }
+     ]
+    }
+   ]
+  },
+  "homelands": {
+   "file": "db/group_layers/homelands.geojson",
+   "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
+   "drawn": 14,
+   "list_only": 7
+  }
+ },
+ "symbol_classes_present": [
+  "city_other",
+  "extent_label_point"
+ ],
+ "badges_present": [
+  "AR-REVIEW",
+  "FIRST-ATTESTED"
+ ],
+ "counts": {
+  "city_other": 1,
+  "extent_label_point": 2,
+  "extent_features": 2,
+  "group_features": 0,
+  "cities": 1
+ },
+ "context": {
+  "key_events_en": [
+   "Unification c.3100 BCE",
+   "Giza pyramids"
+  ],
+  "key_events_ar": [
+   "التوحيد نحو 3100 ق.م",
+   "أهرامات الجيزة"
+  ],
+  "key_events_source_ids": [
+   "GHA2_CH12",
+   "WP:Old_Kingdom_of_Egypt"
+  ],
+  "dating_note": null,
+  "capitals": [
+   {
+    "name": "Memphis",
+    "lat": 29.84,
+    "lon": 31.25
+   }
+  ],
+  "control_limits_en": "No limit line in GHA II. Elephantine nomarch (p.94); Old Kingdom colony at Buhen in the 4th–5th dynasties (pp.235, 250).",
+  "control_limits_ar": "لا خط حدود في تاريخ أفريقيا العام II. حاكم إلفنتين (ص94)؛ مستعمرة بوهين في الأسرتين الرابعة والخامسة (ص235، 250). [Arabic text pending native-speaker review.]",
+  "control_limits_source_ids": [
+   "GHA2_CH2",
+   "GHA2_CH9",
+   "GHA2_CH8"
+  ],
+  "control_confidence": "low"
+ },
+ "interactive": {
+  "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
+  "layer_toggles": [
+   "extents",
+   "cities",
+   "homelands",
+   "basemap_rivers",
+   "basemap_terrain",
+   "graticule"
+  ],
+  "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
+  "badge_filter": [
+   "AR-REVIEW",
+   "FIRST-ATTESTED"
+  ],
+  "what_changed": null
+ }
+}

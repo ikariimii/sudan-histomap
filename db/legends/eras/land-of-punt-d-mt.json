@@ -1,0 +1,374 @@
+{
+ "era_id": "land-of-punt-d-mt",
+ "name_en": "Land of Punt / D'mt",
+ "stream": "Ethiopia & Eritrea (Horn)",
+ "start": -980,
+ "end": -400,
+ "layers": {
+  "extents": {
+   "file": "db/extents/land-of-punt-d-mt.geojson",
+   "features": [
+    {
+     "feature_index": 0,
+     "id": null,
+     "label_en": "Yeha (D'mt temple centre, reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "start": -500,
+     "end": -400,
+     "source_ids": [
+      "GHA2_CH13",
+      "GHA2_CH4"
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "file": null,
+   "features": []
+  },
+  "cities": {
+   "file": "db/city_layers/cities.geojson",
+   "features": [
+    {
+     "id": "napata",
+     "name_en": "Napata",
+     "name_ar": "نبتة",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-kush-napatan-period",
+       "start": -800,
+       "end": -300,
+       "source_id": "GHA2_CH10",
+       "page": "283"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "283"
+      },
+      {
+       "id": "GHA2_CH10",
+       "page": "285"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q743282"
+      }
+     ]
+    },
+    {
+     "id": "jebel-barkal",
+     "name_en": "Jebel Barkal",
+     "name_ar": "جبل البركل",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": -1290,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "268"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "268"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q499019"
+      }
+     ]
+    },
+    {
+     "id": "el-kurru",
+     "name_en": "El-Kurru",
+     "name_ar": "الكرو",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-napatan-period",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH11",
+       "page": "300"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH11",
+       "page": "300"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q2119834"
+      }
+     ]
+    },
+    {
+     "id": "nuri",
+     "name_en": "Nuri",
+     "name_ar": "نوري",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-napatan-period",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH10",
+       "page": "285"
+      }
+     ],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "285"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q2119839"
+      }
+     ]
+    },
+    {
+     "id": "soleb",
+     "name_en": "Soleb",
+     "name_ar": "صوليب",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "144"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1457914"
+      }
+     ]
+    },
+    {
+     "id": "buhen",
+     "name_en": "Buhen",
+     "name_ar": "بوهين",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "middle-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "role": "garrison",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "265"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "265"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1002656"
+      }
+     ]
+    },
+    {
+     "id": "abu-simbel",
+     "name_en": "Abu Simbel",
+     "name_ar": "أبو سمبل",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q134140"
+      }
+     ]
+    },
+    {
+     "id": "aswan",
+     "name_en": "Aswan",
+     "name_ar": "أسوان",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "238"
+      },
+      {
+       "id": "GHA3_CH8",
+       "page": "195"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q29888"
+      }
+     ]
+    },
+    {
+     "id": "kawa",
+     "name_en": "Kawa (Gematon)",
+     "name_ar": "كوة",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "APPROXIMATE-COORDS",
+      "AR-REVIEW"
+     ],
+     "source_ids": [
+      {
+       "id": "PLEIADES_805647",
+       "page": "805647"
+      },
+      {
+       "id": "SARS_KAWA",
+       "page": "project page"
+      }
+     ]
+    }
+   ]
+  },
+  "homelands": {
+   "file": "db/group_layers/homelands.geojson",
+   "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
+   "drawn": 14,
+   "list_only": 7
+  }
+ },
+ "symbol_classes_present": [
+  "city_capital",
+  "city_garrison",
+  "city_other",
+  "city_religious",
+  "extent_label_point"
+ ],
+ "badges_present": [
+  "APPROXIMATE",
+  "APPROXIMATE-COORDS",
+  "AR-REVIEW",
+  "FIRST-ATTESTED",
+  "RUIN-UNDATED"
+ ],
+ "counts": {
+  "city_capital": 1,
+  "city_garrison": 1,
+  "city_other": 4,
+  "city_religious": 3,
+  "extent_label_point": 1,
+  "extent_features": 1,
+  "group_features": 0,
+  "cities": 9
+ },
+ "context": {
+  "key_events_en": [
+   "D'mt kingdom in Eritrea/Tigray"
+  ],
+  "key_events_ar": [
+   "مملكة دعمت في إريتريا/تيغراي"
+  ],
+  "key_events_source_ids": [
+   "GHA2_CH12",
+   "WP:Dʿmt"
+  ],
+  "dating_note": "Approximate",
+  "capitals": [
+   {
+    "name": "Yeha",
+    "lat": 14.29,
+    "lon": 39.02
+   }
+  ],
+  "control_limits_en": "No limit line in the cited sources; reference point(s) only, open edges. South Arabian period of the 5th–4th c. BCE marked by the Yeha temple (GHA II ch.13 pp.343, 345); kings styled 'mukarrib of D'iamat and Saba'' over clans of the northern Ethiopian highlands (pp.353–354). Punt itself is unlocated ('boundaries uncertain', GHA II ch.4 pp.144–145) and is not marked. Dates −500/−400 are display values for the 5th–4th c. Open edges: no limit line in the source; not a border.",
+  "control_limits_ar": "الحقبة العربية الجنوبية في القرنين الخامس والرابع ق.م. يميزها معبد يحا (تاريخ أفريقيا العام II، الفصل 13، ص343، 345). بلاد بونت غير محددة الموقع ولم تُعلَّم. حدود مفتوحة: لا خط حدود في المصدر. [Arabic text pending native-speaker review.]",
+  "control_limits_source_ids": [
+   "GHA2_CH13",
+   "GHA2_CH4"
+  ],
+  "control_confidence": "low"
+ },
+ "interactive": {
+  "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
+  "layer_toggles": [
+   "extents",
+   "cities",
+   "homelands",
+   "basemap_rivers",
+   "basemap_terrain",
+   "graticule"
+  ],
+  "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
+  "badge_filter": [
+   "APPROXIMATE",
+   "APPROXIMATE-COORDS",
+   "AR-REVIEW",
+   "FIRST-ATTESTED",
+   "RUIN-UNDATED"
+  ],
+  "what_changed": null
+ }
+}

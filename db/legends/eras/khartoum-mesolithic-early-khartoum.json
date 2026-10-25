@@ -1,0 +1,72 @@
+{
+ "era_id": "khartoum-mesolithic-early-khartoum",
+ "name_en": "Khartoum Mesolithic (Early Khartoum)",
+ "stream": "Sudan – Middle Nile",
+ "start": -8500,
+ "end": -5000,
+ "layers": {
+  "extents": {
+   "file": null,
+   "features": []
+  },
+  "groups": {
+   "file": null,
+   "features": []
+  },
+  "cities": {
+   "file": "db/city_layers/cities.geojson",
+   "features": []
+  },
+  "homelands": {
+   "file": "db/group_layers/homelands.geojson",
+   "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
+   "drawn": 14,
+   "list_only": 7
+  }
+ },
+ "symbol_classes_present": [],
+ "badges_present": [],
+ "counts": {
+  "extent_features": 0,
+  "group_features": 0,
+  "cities": 0
+ },
+ "context": {
+  "key_events_en": [
+   "Wavy-line pottery among the earliest ceramics in Africa",
+   "Fishing/hunting settlements along the Nile near Khartoum"
+  ],
+  "key_events_ar": [
+   "فخار الخطوط المتموجة من أقدم الفخار في أفريقيا",
+   "مستوطنات صيد الأسماك والقنص على ضفاف النيل قرب الخرطوم"
+  ],
+  "key_events_source_ids": [
+   "AAR2021",
+   "WP:Early_Khartoum"
+  ],
+  "dating_note": "Corrected -8000/-4900 -> c.8500–5000 cal BC for Early Khartoum ceramics of central Sudan (Garcea/Jesse et al., African Archaeological Review 2021 review). Northern 'Khartoum Variant' is c.8000–4900 cal BC. Site point = city-level approximation.",
+  "capitals": [
+   {
+    "name": "Early Khartoum site",
+    "lat": 15.6,
+    "lon": 32.53
+   }
+  ],
+  "control_limits_en": null,
+  "control_limits_ar": null,
+  "control_limits_source_ids": null,
+  "control_confidence": null
+ },
+ "interactive": {
+  "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
+  "layer_toggles": [
+   "homelands",
+   "basemap_rivers",
+   "basemap_terrain",
+   "graticule"
+  ],
+  "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
+  "badge_filter": [],
+  "what_changed": null
+ }
+}

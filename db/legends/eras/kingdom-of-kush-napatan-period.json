@@ -1,0 +1,566 @@
+{
+ "era_id": "kingdom-of-kush-napatan-period",
+ "name_en": "Kingdom of Kush – Napatan period",
+ "stream": "Sudan – Middle Nile",
+ "start": -800,
+ "end": -270,
+ "layers": {
+  "extents": {
+   "file": "db/extents/kingdom-of-kush-napatan-period.geojson",
+   "features": [
+    {
+     "feature_index": 0,
+     "id": null,
+     "label_en": "Kush, 25th Dynasty maximum: Delta to the confluence of the Niles – strip width along the Nile is a display choice, not a sourced boundary",
+     "symbol_class": "control_extent_approx",
+     "certainty": "low",
+     "badges": [],
+     "start": -713,
+     "end": -656,
+     "source_ids": [
+      "KERMA_MISSION",
+      "GHA2",
+      "ZH_EMB_HIST2020",
+      "NATURAL_EARTH"
+     ]
+    },
+    {
+     "feature_index": 1,
+     "id": null,
+     "label_en": "Kush after Psamtik II: south of the Second Cataract – strip width along the Nile is a display choice, not a sourced boundary",
+     "symbol_class": "control_extent_approx",
+     "certainty": "low",
+     "badges": [],
+     "start": -593,
+     "end": -270,
+     "source_ids": [
+      "KERMA_MISSION",
+      "NATURAL_EARTH"
+     ]
+    },
+    {
+     "feature_index": 2,
+     "id": null,
+     "label_en": "Elephantine (find-spot, not a border)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [],
+     "start": -800,
+     "end": -713,
+     "source_ids": [
+      "GHA2"
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "file": null,
+   "features": []
+  },
+  "cities": {
+   "file": "db/city_layers/cities.geojson",
+   "features": [
+    {
+     "id": "napata",
+     "name_en": "Napata",
+     "name_ar": "نبتة",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-kush-napatan-period",
+       "start": -800,
+       "end": -300,
+       "source_id": "GHA2_CH10",
+       "page": "283"
+      },
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-meroitic-period",
+       "start": -270,
+       "end": null,
+       "source_id": "GHA2_CH10",
+       "page": "285"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "283"
+      },
+      {
+       "id": "GHA2_CH10",
+       "page": "285"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q743282"
+      }
+     ]
+    },
+    {
+     "id": "jebel-barkal",
+     "name_en": "Jebel Barkal",
+     "name_ar": "جبل البركل",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": -1290,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "268"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "268"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q499019"
+      }
+     ]
+    },
+    {
+     "id": "el-kurru",
+     "name_en": "El-Kurru",
+     "name_ar": "الكرو",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-napatan-period",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH11",
+       "page": "300"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH11",
+       "page": "300"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q2119834"
+      }
+     ]
+    },
+    {
+     "id": "nuri",
+     "name_en": "Nuri",
+     "name_ar": "نوري",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-napatan-period",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH10",
+       "page": "285"
+      }
+     ],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "285"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q2119839"
+      }
+     ]
+    },
+    {
+     "id": "meroe",
+     "name_en": "Meroë",
+     "name_ar": "أهرامات مروي",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-kush-meroitic-period",
+       "start": -300,
+       "end": null,
+       "source_id": "GHA2_CH11",
+       "page": "301"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH11",
+       "page": "301"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q5780"
+      }
+     ]
+    },
+    {
+     "id": "musawwarat",
+     "name_en": "Musawwarat es-Sufra",
+     "name_ar": "المصورات الصفراء",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-meroitic-period",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH11",
+       "page": "318"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH11",
+       "page": "318"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q286426"
+      }
+     ]
+    },
+    {
+     "id": "wad-ban-naqa",
+     "name_en": "Wad ban Naqa",
+     "name_ar": "ود بانقا",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-meroitic-period",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH11",
+       "page": "314"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH11",
+       "page": "314"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q2538648"
+      }
+     ]
+    },
+    {
+     "id": "soleb",
+     "name_en": "Soleb",
+     "name_ar": "صوليب",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "144"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1457914"
+      }
+     ]
+    },
+    {
+     "id": "buhen",
+     "name_en": "Buhen",
+     "name_ar": "بوهين",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "middle-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "role": "garrison",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "265"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "265"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1002656"
+      }
+     ]
+    },
+    {
+     "id": "abu-simbel",
+     "name_en": "Abu Simbel",
+     "name_ar": "أبو سمبل",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q134140"
+      }
+     ]
+    },
+    {
+     "id": "aswan",
+     "name_en": "Aswan",
+     "name_ar": "أسوان",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "238"
+      },
+      {
+       "id": "GHA3_CH8",
+       "page": "195"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q29888"
+      }
+     ]
+    },
+    {
+     "id": "kawa",
+     "name_en": "Kawa (Gematon)",
+     "name_ar": "كوة",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "APPROXIMATE-COORDS",
+      "AR-REVIEW"
+     ],
+     "source_ids": [
+      {
+       "id": "PLEIADES_805647",
+       "page": "805647"
+      },
+      {
+       "id": "SARS_KAWA",
+       "page": "project page"
+      }
+     ]
+    }
+   ]
+  },
+  "homelands": {
+   "file": "db/group_layers/homelands.geojson",
+   "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
+   "drawn": 14,
+   "list_only": 7
+  }
+ },
+ "symbol_classes_present": [
+  "city_capital",
+  "city_garrison",
+  "city_other",
+  "city_religious",
+  "control_extent_approx",
+  "extent_label_point"
+ ],
+ "badges_present": [
+  "APPROXIMATE",
+  "APPROXIMATE-COORDS",
+  "AR-REVIEW",
+  "FIRST-ATTESTED",
+  "RUIN-UNDATED"
+ ],
+ "counts": {
+  "city_capital": 2,
+  "city_garrison": 1,
+  "city_other": 4,
+  "city_religious": 5,
+  "control_extent_approx": 2,
+  "extent_label_point": 1,
+  "extent_features": 3,
+  "group_features": 0,
+  "cities": 12
+ },
+ "context": {
+  "key_events_en": [
+   "Alara, then Kashta (c.760–750 BCE); Kushites in Upper Egypt c.750",
+   "Peye (Piye/'Piankhi') reign from c.751 BCE; Victory Stela; conquest of Egypt c.728/727",
+   "Shabaka from c.713 BCE founds 25th Dynasty rule over all Egypt",
+   "Shabataka (Shebitku) c.700–690; Taharqa 690–664 BCE (cenotaph/pyramid at Nuri)",
+   "Tanwetamani (Tanoutamon) 664–c.656; Assyrian sack of Thebes 663; Kushite withdrawal",
+   "Atlanarsa 653–643, Senkamanisken 643–623, Anlamani 623–593, Aspelta 593–568 BCE",
+   "Psamtik II's expedition captures Napata (GHA: 591 BCE; widely dated 593 BCE)",
+   "Royal burials at El-Kurru then Nuri; burial shift to Meroe c.270 BCE"
+  ],
+  "key_events_ar": [
+   "ألارا ثم كاشتا (نحو 760–750 ق.م)؛ الكوشيون في صعيد مصر نحو 750",
+   "حكم بيي (بيا/«بعنخي») منذ نحو 751 ق.م؛ لوحة النصر؛ فتح مصر نحو 728/727",
+   "شباكا منذ نحو 713 ق.م يؤسس حكم الأسرة الخامسة والعشرين على مصر كلها",
+   "شبتاكا (شبتكو) نحو 700–690؛ طهارقا 690–664 ق.م (ضريحه الرمزي/هرمه في نوري)",
+   "تانوت أماني 664–نحو 656؛ نهب الآشوريين لطيبة 663؛ انسحاب الكوشيين",
+   "أتلانرسا 653–643، سنكامانيسكن 643–623، أنلاماني 623–593، أسبلتا 593–568 ق.م",
+   "حملة بسماتيك الثاني تستولي على نبتة (تاريخ أفريقيا العام: 591 ق.م؛ ويُؤرَّخ على نطاق واسع بـ593 ق.م)",
+   "المدافن الملكية في الكرو ثم نوري؛ انتقال الدفن إلى مروي نحو 270 ق.م"
+  ],
+  "key_events_source_ids": [
+   "GHA2_CH12",
+   "WELSBY1996",
+   "WHC1073",
+   "WP:Kingdom_of_Kush",
+   "WP:Twenty-fifth_Dynasty_of_Egypt"
+  ],
+  "dating_note": "Reign dates follow UNESCO GHA II ch.10 (Leclant, 1981); later scholarship revises several (incl. the Shabaka/Shebitku order) – treat as approximate. WHC gives Napatan 900–270 BCE; -800 start kept as display convention. Coordinates: Pleiades/Wikidata.",
+  "capitals": [
+   {
+    "name": "Jebel Barkal / Napata",
+    "lat": 18.5368,
+    "lon": 31.8276
+   },
+   {
+    "name": "El-Kurru",
+    "lat": 18.4089,
+    "lon": 31.7705
+   },
+   {
+    "name": "Nuri",
+    "lat": 18.5643,
+    "lon": 31.9161
+   },
+   {
+    "name": "Kawa (Gematon)",
+    "lat": 19.1231,
+    "lon": 30.4966
+   }
+  ],
+  "control_limits_en": "25th Dynasty (713–656 BCE): 'a vast empire spreading from the Egyptian Delta to the confluence of the Blue and White Niles' (KERMA_MISSION); Shabaka 'brought the entire Nile valley as far as the Delta under the empire of Kush' (GHA2). After Psamtik II's expedition the kings 'do not extend their power downstream from the Second Cataract' (KERMA_MISSION).",
+  "control_limits_ar": "الأسرة الخامسة والعشرون (713–656 ق.م): «إمبراطورية شاسعة تمتد من الدلتا المصرية إلى ملتقى النيلين الأزرق والأبيض» (بعثة كرمة)؛ وقد «ضمّ شباكا وادي النيل كله حتى الدلتا إلى إمبراطورية كوش» (تاريخ أفريقيا العام II). وبعد حملة بسماتيك الثاني «لم يمدّ الملوك سلطانهم إلى ما وراء الشلال الثاني شمالاً» (بعثة كرمة).",
+  "control_limits_source_ids": [
+   "KERMA_MISSION",
+   "GHA2",
+   "ZH_EMB_HIST2020"
+  ],
+  "control_confidence": "medium"
+ },
+ "interactive": {
+  "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
+  "layer_toggles": [
+   "extents",
+   "cities",
+   "homelands",
+   "basemap_rivers",
+   "basemap_terrain",
+   "graticule"
+  ],
+  "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
+  "badge_filter": [
+   "APPROXIMATE",
+   "APPROXIMATE-COORDS",
+   "AR-REVIEW",
+   "FIRST-ATTESTED",
+   "RUIN-UNDATED"
+  ],
+  "what_changed": {
+   "previous_era_id": "egyptian-new-kingdom-rule-in-nubia",
+   "basis": "previous era in same stream by start year",
+   "extents_added": [
+    "Elephantine (find-spot, not a border)",
+    "Kush after Psamtik II: south of the Second Cataract – strip width along the Nile is a display choice, not a sourced boundary",
+    "Kush, 25th Dynasty maximum: Delta to the confluence of the Niles – strip width along the Nile is a display choice, not a sourced boundary"
+   ],
+   "extents_removed": [
+    "Kurgus frontier",
+    "Napata / Fourth Cataract",
+    "Soleb (temple)"
+   ],
+   "cities_added": [
+    "el-kurru",
+    "meroe",
+    "musawwarat",
+    "napata",
+    "nuri",
+    "wad-ban-naqa"
+   ],
+   "cities_removed": [],
+   "capitals_added": [
+    "meroe",
+    "napata"
+   ],
+   "capitals_removed": [],
+   "groups_added": [],
+   "groups_removed": []
+  }
+ }
+}

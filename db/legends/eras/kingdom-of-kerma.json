@@ -1,0 +1,268 @@
+{
+ "era_id": "kingdom-of-kerma",
+ "name_en": "Kingdom of Kerma",
+ "stream": "Sudan – Middle Nile",
+ "start": -2450,
+ "end": -1480,
+ "layers": {
+  "extents": {
+   "file": "db/extents/kingdom-of-kerma.geojson",
+   "features": [
+    {
+     "feature_index": 0,
+     "id": null,
+     "label_en": "Kerma – Upper Nubia – strip width along the Nile is a display choice, not a sourced boundary",
+     "symbol_class": "control_extent_approx",
+     "certainty": "low",
+     "badges": [],
+     "start": -2450,
+     "end": -1480,
+     "source_ids": [
+      "KERMA_MISSION",
+      "GHA2",
+      "NATURAL_EARTH"
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "file": null,
+   "features": []
+  },
+  "cities": {
+   "file": "db/city_layers/cities.geojson",
+   "features": [
+    {
+     "id": "kerma",
+     "name_en": "Kerma",
+     "name_ar": "كرمة",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-kerma",
+       "start": -1730,
+       "end": -1580,
+       "source_id": "GHA2_CH9",
+       "page": "258"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "258"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1107569"
+      }
+     ]
+    },
+    {
+     "id": "buhen",
+     "name_en": "Buhen",
+     "name_ar": "بوهين",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "middle-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "role": "garrison",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "265"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "265"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1002656"
+      }
+     ]
+    },
+    {
+     "id": "semna",
+     "name_en": "Semna",
+     "name_ar": "سمنة",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "middle-kingdom-egypt",
+       "start": -1991,
+       "end": -1786,
+       "source_id": "GHA2_CH9",
+       "page": "255"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "255"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1485667"
+      }
+     ]
+    },
+    {
+     "id": "aswan",
+     "name_en": "Aswan",
+     "name_ar": "أسوان",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "238"
+      },
+      {
+       "id": "GHA3_CH8",
+       "page": "195"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q29888"
+      }
+     ]
+    }
+   ]
+  },
+  "homelands": {
+   "file": "db/group_layers/homelands.geojson",
+   "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
+   "drawn": 14,
+   "list_only": 7
+  }
+ },
+ "symbol_classes_present": [
+  "city_capital",
+  "city_garrison",
+  "city_other",
+  "control_extent_approx"
+ ],
+ "badges_present": [
+  "AR-REVIEW",
+  "FIRST-ATTESTED",
+  "RUIN-UNDATED"
+ ],
+ "counts": {
+  "city_capital": 1,
+  "city_garrison": 2,
+  "city_other": 1,
+  "control_extent_approx": 1,
+  "extent_features": 1,
+  "group_features": 0,
+  "cities": 4
+ },
+ "context": {
+  "key_events_en": [
+   "Western Deffufa mud-brick temple",
+   "Largest African state outside Egypt in the 2nd millennium BCE",
+   "Sacked by Thutmose I c.1500 BCE",
+   "Swiss mission phases: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE (Final Kerma to c.1450)"
+  ],
+  "key_events_ar": [
+   "معبد الدفوفة الغربية المبني من الطوب اللبن",
+   "أكبر دولة أفريقية خارج مصر في الألف الثاني قبل الميلاد",
+   "نهبها تحتمس الأول نحو 1500 ق.م",
+   "مراحل البعثة السويسرية: كرمة المبكرة نحو 2450–2050، والوسطى نحو 2050–1750، والكلاسيكية نحو 1750–1480 ق.م (وكرمة المتأخرة حتى نحو 1450)"
+  ],
+  "key_events_source_ids": [
+   "KERMA_MISSION",
+   "GHA2_CH12",
+   "WP:Kerma_culture"
+  ],
+  "dating_note": "Corrected to Swiss Archaeological Mission chronology (kerma.ch). Note GHA II (1981) still dates 'Kerma' to -1730/-1580, i.e. only the Classic phase; superseded by Bonnet/Honegger excavations.",
+  "capitals": [
+   {
+    "name": "Kerma",
+    "lat": 19.6008,
+    "lon": 30.4097
+   }
+  ],
+  "control_limits_en": "Kerma 'will dominate Upper Nubia for almost a thousand years'; in Classic Kerma (c.1750–1480 BCE) 'the influence of its rulers spreads even to Lower Nubia' (KERMA_MISSION). During the Middle Kingdom 'the southern boundary of the Egyptian Middle Kingdom was unquestionably fixed at Semna by Senusret III' (GHA2, ch.9).",
+  "control_limits_ar": "«ستهيمن [كرمة] على النوبة العليا قرابة ألف عام»؛ وفي كرمة الكلاسيكية (نحو 1750–1480 ق.م) «امتد نفوذ حكامها حتى النوبة السفلى» (بعثة كرمة). وفي عهد الدولة الوسطى «ثبّت سنوسرت الثالث الحدّ الجنوبي للدولة المصرية الوسطى عند سمنة بلا شك» (تاريخ أفريقيا العام II، الفصل 9).",
+  "control_limits_source_ids": [
+   "KERMA_MISSION",
+   "GHA2"
+  ],
+  "control_confidence": "medium"
+ },
+ "interactive": {
+  "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
+  "layer_toggles": [
+   "extents",
+   "cities",
+   "homelands",
+   "basemap_rivers",
+   "basemap_terrain",
+   "graticule"
+  ],
+  "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
+  "badge_filter": [
+   "AR-REVIEW",
+   "FIRST-ATTESTED",
+   "RUIN-UNDATED"
+  ],
+  "what_changed": {
+   "previous_era_id": "a-group-lower-nubia",
+   "basis": "previous era in same stream by start year",
+   "extents_added": [
+    "Kerma – Upper Nubia – strip width along the Nile is a display choice, not a sourced boundary"
+   ],
+   "extents_removed": [
+    "Faras (A-Group graves, reference marker)"
+   ],
+   "cities_added": [
+    "aswan",
+    "buhen",
+    "kerma",
+    "semna"
+   ],
+   "cities_removed": [],
+   "capitals_added": [
+    "kerma"
+   ],
+   "capitals_removed": [],
+   "groups_added": [],
+   "groups_removed": []
+  }
+ }
+}

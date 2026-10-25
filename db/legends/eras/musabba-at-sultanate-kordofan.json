@@ -1,0 +1,655 @@
+{
+ "era_id": "musabba-at-sultanate-kordofan",
+ "name_en": "Musabba'at sultanate (Kordofan)",
+ "stream": "Sudan – Darfur & Kordofan",
+ "start": 1680,
+ "end": 1785,
+ "layers": {
+  "extents": {
+   "file": "db/extents/musabba-at-sultanate-kordofan.geojson",
+   "features": [
+    {
+     "feature_index": 0,
+     "id": null,
+     "label_en": "Kordofan (region)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [],
+     "start": 1680,
+     "end": 1785,
+     "source_ids": [
+      "OFAHEY_SPAULDING1972",
+      "OFAHEY2008"
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "file": null,
+   "features": []
+  },
+  "cities": {
+   "file": "db/city_layers/cities.geojson",
+   "features": [
+    {
+     "id": "musawwarat",
+     "name_en": "Musawwarat es-Sufra",
+     "name_ar": "المصورات الصفراء",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-meroitic-period",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH11",
+       "page": "318"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH11",
+       "page": "318"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q286426"
+      }
+     ]
+    },
+    {
+     "id": "soleb",
+     "name_en": "Soleb",
+     "name_ar": "صوليب",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "144"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1457914"
+      }
+     ]
+    },
+    {
+     "id": "buhen",
+     "name_en": "Buhen",
+     "name_ar": "بوهين",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "middle-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "role": "garrison",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "265"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "265"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1002656"
+      }
+     ]
+    },
+    {
+     "id": "abu-simbel",
+     "name_en": "Abu Simbel",
+     "name_ar": "أبو سمبل",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q134140"
+      }
+     ]
+    },
+    {
+     "id": "aswan",
+     "name_en": "Aswan",
+     "name_ar": "أسوان",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "238"
+      },
+      {
+       "id": "GHA3_CH8",
+       "page": "195"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q29888"
+      }
+     ]
+    },
+    {
+     "id": "aksum",
+     "name_en": "Aksum",
+     "name_ar": "أكسوم",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-aksum",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH15",
+       "page": "389"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH15",
+       "page": "389"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q5832"
+      }
+     ]
+    },
+    {
+     "id": "suakin",
+     "name_en": "Suakin",
+     "name_ar": "سواكن",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "suakin-red-sea-port-beja-ottoman",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "175"
+      }
+     ],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA5_CH7",
+       "page": "175"
+      },
+      {
+       "id": "GHAIII",
+       "page": "82"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q571215"
+      }
+     ]
+    },
+    {
+     "id": "sennar",
+     "name_en": "Sennar",
+     "name_ar": "سنار",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA4_CH16",
+       "page": "406"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "183"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q611867"
+      }
+     ]
+    },
+    {
+     "id": "qerri",
+     "name_en": "Qerri",
+     "name_ar": "قري الوادي",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "abdallab-chiefdom-funj-vassal",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "172"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA5_CH7",
+       "page": "172"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q11924140"
+      }
+     ]
+    },
+    {
+     "id": "ain-farah",
+     "name_en": "Ain Farah",
+     "name_ar": "عين فرح",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "tunjur-kingdom",
+       "start": null,
+       "end": null,
+       "source_id": "GHA4_CH16",
+       "page": "420"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA4_CH16",
+       "page": "420"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q405860"
+      }
+     ]
+    },
+    {
+     "id": "korti",
+     "name_en": "Korti",
+     "name_ar": "كورتي",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "MACMICHAEL1922_V1",
+       "page": "216"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q472841"
+      }
+     ]
+    },
+    {
+     "id": "el-fasher",
+     "name_en": "El Fasher",
+     "name_ar": "الفاشر",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "sultanate-of-darfur-keira",
+       "start": null,
+       "end": 1874,
+       "source_id": "GHA5_CH7",
+       "page": "190"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA5_CH7",
+       "page": "190"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q311204"
+      }
+     ]
+    },
+    {
+     "id": "gondar",
+     "name_en": "Gondar",
+     "name_ar": "غوندر",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "ethiopian-empire-solomonic",
+       "start": 1636,
+       "end": null,
+       "source_id": "GHA5_CH24_P713_733",
+       "page": "724"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "CONTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA5_CH24_P713_733",
+       "page": "724"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q218861"
+      }
+     ]
+    },
+    {
+     "id": "massawa",
+     "name_en": "Massawa",
+     "name_ar": "مصوع",
+     "symbol_class": "city_port",
+     "roles_in_era": [
+      {
+       "role": "port",
+       "era_id": "suakin-red-sea-port-beja-ottoman",
+       "start": 1557,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "175"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA5_CH7",
+       "page": "175"
+      },
+      {
+       "id": "GHAV",
+       "page": "706"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q275635"
+      }
+     ]
+    },
+    {
+     "id": "fashoda",
+     "name_en": "Kodok (Fashoda)",
+     "name_ar": "فشودة",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "shilluk-kingdom",
+       "start": null,
+       "end": null,
+       "source_id": "GHA6_CH14",
+       "page": "366"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA6_CH14",
+       "page": "366"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1888763"
+      }
+     ]
+    },
+    {
+     "id": "kufra",
+     "name_en": "Kufra",
+     "name_ar": "الكفرة",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHAIII",
+       "page": "283"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q172114"
+      }
+     ]
+    },
+    {
+     "id": "rumbek",
+     "name_en": "Rumbek",
+     "name_ar": "رمبيك",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHAV",
+       "page": "777"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q607336"
+      }
+     ]
+    },
+    {
+     "id": "arbaji",
+     "name_en": "Arbaji",
+     "name_ar": "أربجي",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "APPROXIMATE-COORDS",
+      "AR-REVIEW"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA4_CH16",
+       "page": "406"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "173"
+      },
+      {
+       "id": "NGA_GNS",
+       "page": "UFI 98562051"
+      }
+     ]
+    }
+   ]
+  },
+  "homelands": {
+   "file": "db/group_layers/homelands.geojson",
+   "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
+   "drawn": 14,
+   "list_only": 7
+  }
+ },
+ "symbol_classes_present": [
+  "city_capital",
+  "city_garrison",
+  "city_other",
+  "city_port",
+  "city_religious",
+  "extent_label_point"
+ ],
+ "badges_present": [
+  "APPROXIMATE",
+  "APPROXIMATE-COORDS",
+  "AR-REVIEW",
+  "CONTESTED",
+  "FIRST-ATTESTED",
+  "RUIN-UNDATED"
+ ],
+ "counts": {
+  "city_capital": 5,
+  "city_garrison": 2,
+  "city_other": 8,
+  "city_port": 1,
+  "city_religious": 2,
+  "extent_label_point": 1,
+  "extent_features": 1,
+  "group_features": 0,
+  "cities": 18
+ },
+ "context": {
+  "key_events_en": [
+   "Exiled Keira faction contesting Kordofan with Funj and Darfur, late 17th–18th c.",
+   "Isawi dislodges Funj (Ghudiyat) administration c.1734",
+   "Hashim b. 'Isawi retakes Kordofan c.1772; ousted by Funj 1782",
+   "Darfur's Muhammad Tayrab conquers Kordofan c.1785"
+  ],
+  "key_events_ar": [
+   "فرع منفي من الكيرا نازع الفونج ودارفور على كردفان، أواخر القرن السابع عشر–القرن الثامن عشر",
+   "عيساوي يطرد إدارة الفونج (الغديات) نحو 1734",
+   "هاشم بن عيساوي يستعيد كردفان نحو 1772؛ ويطرده الفونج 1782",
+   "محمد تيراب سلطان دارفور يفتح كردفان نحو 1785"
+  ],
+  "key_events_source_ids": [
+   "OFAHEY_SPAULDING1972",
+   "OFAHEY2008",
+   "WP:Muhammad_Tayrab"
+  ],
+  "dating_note": "Bracket from O'Fahey & Spaulding (BSOAS 1972 abstract: 'late seventeenth and eighteenth centuries'); 1734/1772/1782/1785 events taken from a Wikipedia summary citing O'Fahey 2008 pp.49–59 – book pages not directly checked. No capital location verified.",
+  "capitals": [],
+  "control_limits_en": null,
+  "control_limits_ar": null,
+  "control_limits_source_ids": null,
+  "control_confidence": null
+ },
+ "interactive": {
+  "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
+  "layer_toggles": [
+   "extents",
+   "cities",
+   "homelands",
+   "basemap_rivers",
+   "basemap_terrain",
+   "graticule"
+  ],
+  "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
+  "badge_filter": [
+   "APPROXIMATE",
+   "APPROXIMATE-COORDS",
+   "AR-REVIEW",
+   "CONTESTED",
+   "FIRST-ATTESTED",
+   "RUIN-UNDATED"
+  ],
+  "what_changed": {
+   "previous_era_id": "sultanate-of-darfur-keira",
+   "basis": "previous era in same stream by start year",
+   "extents_added": [
+    "Kordofan (region)"
+   ],
+   "extents_removed": [
+    "Dar Fertit (reference marker)",
+    "Dar Masalit (reference marker)",
+    "Geneina (reference marker)",
+    "Keira Darfur sultanate (Darfur proper, west to Dar Masalit) – shape uses modern (2020) state boundaries, not historical ones",
+    "Keira Darfur sultanate, 1821–1874 (Darfur proper; ruled until 1874, GHA VI) – shape uses modern (2020) state boundaries, not historical ones",
+    "Keira Darfur with Kordofan, 1785–1821 (lost at Bara 1821) – shape uses modern (2020) state boundaries, not historical ones",
+    "al-Tuwaisha (reference marker)"
+   ],
+   "cities_added": [],
+   "cities_removed": [
+    "berber",
+    "el-matamma",
+    "el-obeid",
+    "gallabat",
+    "gedaref",
+    "gondokoro",
+    "kassala",
+    "shendi",
+    "wad-madani"
+   ],
+   "capitals_added": [],
+   "capitals_removed": [],
+   "groups_added": [],
+   "groups_removed": [
+    "grp-fur-control-sultanate-of-darfur-keira-1",
+    "grp-fur-control-sultanate-of-darfur-keira-3",
+    "rel-fur-01",
+    "rel-fur-04"
+   ]
+  }
+ }
+}

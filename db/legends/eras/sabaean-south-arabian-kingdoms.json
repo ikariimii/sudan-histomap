@@ -1,0 +1,573 @@
+{
+ "era_id": "sabaean-south-arabian-kingdoms",
+ "name_en": "Sabaean & South Arabian kingdoms",
+ "stream": "Red Sea & Arabia",
+ "start": -1000,
+ "end": 275,
+ "layers": {
+  "extents": {
+   "file": "db/extents/sabaean-south-arabian-kingdoms.geojson",
+   "features": [
+    {
+     "feature_index": 0,
+     "id": null,
+     "label_en": "Ma'rib (Sabaean centre, reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "start": -1000,
+     "end": 275,
+     "source_ids": [
+      "GHA2_CH13",
+      "GHA2_CH15"
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "file": null,
+   "features": []
+  },
+  "cities": {
+   "file": "db/city_layers/cities.geojson",
+   "features": [
+    {
+     "id": "napata",
+     "name_en": "Napata",
+     "name_ar": "نبتة",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-kush-napatan-period",
+       "start": -800,
+       "end": -300,
+       "source_id": "GHA2_CH10",
+       "page": "283"
+      },
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-meroitic-period",
+       "start": -270,
+       "end": null,
+       "source_id": "GHA2_CH10",
+       "page": "285"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "283"
+      },
+      {
+       "id": "GHA2_CH10",
+       "page": "285"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q743282"
+      }
+     ]
+    },
+    {
+     "id": "jebel-barkal",
+     "name_en": "Jebel Barkal",
+     "name_ar": "جبل البركل",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": -1290,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "268"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "268"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q499019"
+      }
+     ]
+    },
+    {
+     "id": "el-kurru",
+     "name_en": "El-Kurru",
+     "name_ar": "الكرو",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-napatan-period",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH11",
+       "page": "300"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH11",
+       "page": "300"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q2119834"
+      }
+     ]
+    },
+    {
+     "id": "nuri",
+     "name_en": "Nuri",
+     "name_ar": "نوري",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-napatan-period",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH10",
+       "page": "285"
+      }
+     ],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "285"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q2119839"
+      }
+     ]
+    },
+    {
+     "id": "meroe",
+     "name_en": "Meroë",
+     "name_ar": "أهرامات مروي",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-kush-meroitic-period",
+       "start": -300,
+       "end": null,
+       "source_id": "GHA2_CH11",
+       "page": "301"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH11",
+       "page": "301"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q5780"
+      }
+     ]
+    },
+    {
+     "id": "musawwarat",
+     "name_en": "Musawwarat es-Sufra",
+     "name_ar": "المصورات الصفراء",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-meroitic-period",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH11",
+       "page": "318"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH11",
+       "page": "318"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q286426"
+      }
+     ]
+    },
+    {
+     "id": "wad-ban-naqa",
+     "name_en": "Wad ban Naqa",
+     "name_ar": "ود بانقا",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-meroitic-period",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH11",
+       "page": "314"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH11",
+       "page": "314"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q2538648"
+      }
+     ]
+    },
+    {
+     "id": "soleb",
+     "name_en": "Soleb",
+     "name_ar": "صوليب",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "144"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1457914"
+      }
+     ]
+    },
+    {
+     "id": "buhen",
+     "name_en": "Buhen",
+     "name_ar": "بوهين",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "middle-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "role": "garrison",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "265"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "265"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1002656"
+      }
+     ]
+    },
+    {
+     "id": "qasr-ibrim",
+     "name_en": "Qasr Ibrim",
+     "name_ar": "قصر إبريم",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "roman-byzantine-egypt",
+       "start": -23,
+       "end": null,
+       "source_id": "GHA2_CH10",
+       "page": "290"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "290"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q2121453"
+      }
+     ]
+    },
+    {
+     "id": "abu-simbel",
+     "name_en": "Abu Simbel",
+     "name_ar": "أبو سمبل",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q134140"
+      }
+     ]
+    },
+    {
+     "id": "aswan",
+     "name_en": "Aswan",
+     "name_ar": "أسوان",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "238"
+      },
+      {
+       "id": "GHA3_CH8",
+       "page": "195"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q29888"
+      }
+     ]
+    },
+    {
+     "id": "aksum",
+     "name_en": "Aksum",
+     "name_ar": "أكسوم",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-aksum",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH15",
+       "page": "389"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH15",
+       "page": "389"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q5832"
+      }
+     ]
+    },
+    {
+     "id": "adulis",
+     "name_en": "Adulis",
+     "name_ar": "عدوليس",
+     "symbol_class": "city_port",
+     "roles_in_era": [
+      {
+       "role": "port",
+       "era_id": "kingdom-of-aksum",
+       "start": 75,
+       "end": null,
+       "source_id": "GHA2",
+       "page": "343"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "CONTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "343"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q378940"
+      }
+     ]
+    },
+    {
+     "id": "kawa",
+     "name_en": "Kawa (Gematon)",
+     "name_ar": "كوة",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "APPROXIMATE-COORDS",
+      "AR-REVIEW"
+     ],
+     "source_ids": [
+      {
+       "id": "PLEIADES_805647",
+       "page": "805647"
+      },
+      {
+       "id": "SARS_KAWA",
+       "page": "project page"
+      }
+     ]
+    }
+   ]
+  },
+  "homelands": {
+   "file": "db/group_layers/homelands.geojson",
+   "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
+   "drawn": 14,
+   "list_only": 7
+  }
+ },
+ "symbol_classes_present": [
+  "city_capital",
+  "city_garrison",
+  "city_other",
+  "city_port",
+  "city_religious",
+  "extent_label_point"
+ ],
+ "badges_present": [
+  "APPROXIMATE",
+  "APPROXIMATE-COORDS",
+  "AR-REVIEW",
+  "CONTESTED",
+  "FIRST-ATTESTED",
+  "RUIN-UNDATED"
+ ],
+ "counts": {
+  "city_capital": 3,
+  "city_garrison": 2,
+  "city_other": 4,
+  "city_port": 1,
+  "city_religious": 5,
+  "extent_label_point": 1,
+  "extent_features": 1,
+  "group_features": 0,
+  "cities": 15
+ },
+ "context": {
+  "key_events_en": [
+   "Incense trade",
+   "Influence on D'mt/Aksum"
+  ],
+  "key_events_ar": [
+   "تجارة البخور",
+   "التأثير في دعمت/أكسوم"
+  ],
+  "key_events_source_ids": [
+   "GHA2_CH12",
+   "WP:Sabaeans"
+  ],
+  "dating_note": "Approximate",
+  "capitals": [
+   {
+    "name": "Ma'rib",
+    "lat": 15.43,
+    "lon": 45.33
+   }
+  ],
+  "control_limits_en": "No limit line in the cited sources; reference point(s) only, open edges. The Yeha temple has links to Marib (GHA II ch.13 p.345); Sabaean gods Almaqah and 'Astar (p.352); D'mt kings styled 'mukarrib of D'iamat and Saba'' (pp.353–354). GHA II gives no Sabaean territory. Coordinates: Wikidata Q335478 (Ma'rib city). Open edges: no limit line in the source; not a border.",
+  "control_limits_ar": "لمعبد يحا صلات بمأرب (II، الفصل 13، ص345). لا يذكر المصدر أراضي سبأ. حدود مفتوحة: لا خط حدود في المصدر. [Arabic text pending native-speaker review.]",
+  "control_limits_source_ids": [
+   "GHA2_CH13",
+   "GHA2_CH15"
+  ],
+  "control_confidence": "low"
+ },
+ "interactive": {
+  "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
+  "layer_toggles": [
+   "extents",
+   "cities",
+   "homelands",
+   "basemap_rivers",
+   "basemap_terrain",
+   "graticule"
+  ],
+  "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
+  "badge_filter": [
+   "APPROXIMATE",
+   "APPROXIMATE-COORDS",
+   "AR-REVIEW",
+   "CONTESTED",
+   "FIRST-ATTESTED",
+   "RUIN-UNDATED"
+  ],
+  "what_changed": null
+ }
+}

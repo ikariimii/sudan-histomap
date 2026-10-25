@@ -1,0 +1,645 @@
+{
+ "era_id": "roman-byzantine-egypt",
+ "name_en": "Roman & Byzantine Egypt",
+ "stream": "Egypt",
+ "start": -30,
+ "end": 641,
+ "layers": {
+  "extents": {
+   "file": "db/extents/roman-byzantine-egypt.geojson",
+   "features": [
+    {
+     "feature_index": 0,
+     "id": null,
+     "label_en": "Alexandria (capital, reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "high",
+     "badges": [],
+     "start": -30,
+     "end": 641,
+     "source_ids": [
+      "GHA2_CH7"
+     ]
+    },
+    {
+     "feature_index": 1,
+     "id": null,
+     "label_en": "Hiera Sycaminos frontier (reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "medium",
+     "badges": [],
+     "start": -20,
+     "end": 284,
+     "source_ids": [
+      "GHA2_CH7",
+      "GHA2_CH10",
+      "PLEIADES_795815"
+     ]
+    },
+    {
+     "feature_index": 2,
+     "id": null,
+     "label_en": "Philae / First Cataract frontier (reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [],
+     "start": 284,
+     "end": 641,
+     "source_ids": [
+      "GHA2_CH7",
+      "GHA2_CH10"
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "file": null,
+   "features": []
+  },
+  "cities": {
+   "file": "db/city_layers/cities.geojson",
+   "features": [
+    {
+     "id": "jebel-barkal",
+     "name_en": "Jebel Barkal",
+     "name_ar": "جبل البركل",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": -1290,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "268"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "268"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q499019"
+      }
+     ]
+    },
+    {
+     "id": "meroe",
+     "name_en": "Meroë",
+     "name_ar": "أهرامات مروي",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-kush-meroitic-period",
+       "start": -300,
+       "end": null,
+       "source_id": "GHA2_CH11",
+       "page": "301"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH11",
+       "page": "301"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q5780"
+      }
+     ]
+    },
+    {
+     "id": "musawwarat",
+     "name_en": "Musawwarat es-Sufra",
+     "name_ar": "المصورات الصفراء",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-meroitic-period",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH11",
+       "page": "318"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH11",
+       "page": "318"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q286426"
+      }
+     ]
+    },
+    {
+     "id": "wad-ban-naqa",
+     "name_en": "Wad ban Naqa",
+     "name_ar": "ود بانقا",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-meroitic-period",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH11",
+       "page": "314"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH11",
+       "page": "314"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q2538648"
+      }
+     ]
+    },
+    {
+     "id": "soleb",
+     "name_en": "Soleb",
+     "name_ar": "صوليب",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "144"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1457914"
+      }
+     ]
+    },
+    {
+     "id": "buhen",
+     "name_en": "Buhen",
+     "name_ar": "بوهين",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "middle-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "role": "garrison",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "265"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "265"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1002656"
+      }
+     ]
+    },
+    {
+     "id": "faras",
+     "name_en": "Faras",
+     "name_ar": "فرس (النوبة)",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "nobadia",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH8",
+       "page": "194"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH8",
+       "page": "194"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q584387"
+      }
+     ]
+    },
+    {
+     "id": "qasr-ibrim",
+     "name_en": "Qasr Ibrim",
+     "name_ar": "قصر إبريم",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "roman-byzantine-egypt",
+       "start": -23,
+       "end": null,
+       "source_id": "GHA2_CH10",
+       "page": "290"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "290"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q2121453"
+      }
+     ]
+    },
+    {
+     "id": "philae",
+     "name_en": "Philae",
+     "name_ar": "فيلة",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH12",
+       "page": "331"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q245062"
+      }
+     ]
+    },
+    {
+     "id": "abu-simbel",
+     "name_en": "Abu Simbel",
+     "name_ar": "أبو سمبل",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q134140"
+      }
+     ]
+    },
+    {
+     "id": "old-dongola",
+     "name_en": "Old Dongola",
+     "name_ar": "دنقلا العجوز",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "makuria",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH8",
+       "page": "194"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH8",
+       "page": "194"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q433112"
+      }
+     ]
+    },
+    {
+     "id": "soba",
+     "name_en": "Soba",
+     "name_ar": "سوبا (مدينة)",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "alodia-alwa",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH8",
+       "page": "196"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH8",
+       "page": "196"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "172"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1247214"
+      }
+     ]
+    },
+    {
+     "id": "aswan",
+     "name_en": "Aswan",
+     "name_ar": "أسوان",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "238"
+      },
+      {
+       "id": "GHA3_CH8",
+       "page": "195"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q29888"
+      }
+     ]
+    },
+    {
+     "id": "aksum",
+     "name_en": "Aksum",
+     "name_ar": "أكسوم",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-aksum",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH15",
+       "page": "389"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH15",
+       "page": "389"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q5832"
+      }
+     ]
+    },
+    {
+     "id": "adulis",
+     "name_en": "Adulis",
+     "name_ar": "عدوليس",
+     "symbol_class": "city_port",
+     "roles_in_era": [
+      {
+       "role": "port",
+       "era_id": "kingdom-of-aksum",
+       "start": 75,
+       "end": null,
+       "source_id": "GHA2",
+       "page": "343"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "CONTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "343"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q378940"
+      }
+     ]
+    },
+    {
+     "id": "kawa",
+     "name_en": "Kawa (Gematon)",
+     "name_ar": "كوة",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "APPROXIMATE-COORDS",
+      "AR-REVIEW"
+     ],
+     "source_ids": [
+      {
+       "id": "PLEIADES_805647",
+       "page": "805647"
+      },
+      {
+       "id": "SARS_KAWA",
+       "page": "project page"
+      }
+     ]
+    }
+   ]
+  },
+  "homelands": {
+   "file": "db/group_layers/homelands.geojson",
+   "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
+   "drawn": 14,
+   "list_only": 7
+  }
+ },
+ "symbol_classes_present": [
+  "city_capital",
+  "city_garrison",
+  "city_other",
+  "city_port",
+  "city_religious",
+  "extent_label_point"
+ ],
+ "badges_present": [
+  "APPROXIMATE",
+  "APPROXIMATE-COORDS",
+  "AR-REVIEW",
+  "CONTESTED",
+  "FIRST-ATTESTED",
+  "RUIN-UNDATED"
+ ],
+ "counts": {
+  "city_capital": 5,
+  "city_garrison": 2,
+  "city_other": 5,
+  "city_port": 1,
+  "city_religious": 3,
+  "extent_label_point": 3,
+  "extent_features": 3,
+  "group_features": 0,
+  "cities": 16
+ },
+ "context": {
+  "key_events_en": [
+   "Petronius' punitive campaign captures Napata 23 BCE after Meroitic sack of Aswan (GHA II)",
+   "Treaty of Samos 21/20 BCE; frontier at Hiera Sycaminos (Maharraqa)"
+  ],
+  "key_events_ar": [
+   "حملة بترونيوس التأديبية تستولي على نبتة 23 ق.م بعد نهب المرويين لأسوان (تاريخ أفريقيا العام، المجلد الثاني)",
+   "معاهدة ساموس 21/20 ق.م؛ الحدود عند هيرا سيكامينوس (المحرقة)"
+  ],
+  "key_events_source_ids": [
+   "GHA2_CH12",
+   "WP:Egypt_(Roman_province)"
+  ],
+  "dating_note": null,
+  "capitals": [
+   {
+    "name": "Alexandria",
+    "lat": 31.2,
+    "lon": 29.92
+   }
+  ],
+  "control_limits_en": "Frontier \"fixed at Hiera Sycaminos (Muharraqa)\" (GHA II p.290); Diocletian \"pulled back the frontier to the First Cataract\" (p.294; p.215).",
+  "control_limits_ar": "ثُبّتت الحدود عند المحرّقة (ص290)؛ وأعادها دقلديانوس إلى الشلال الأول (ص294، 215). [Arabic text pending native-speaker review.]",
+  "control_limits_source_ids": [
+   "GHA2_CH7",
+   "GHA2_CH10",
+   "PLEIADES_795815"
+  ],
+  "control_confidence": "medium"
+ },
+ "interactive": {
+  "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
+  "layer_toggles": [
+   "extents",
+   "cities",
+   "homelands",
+   "basemap_rivers",
+   "basemap_terrain",
+   "graticule"
+  ],
+  "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
+  "badge_filter": [
+   "APPROXIMATE",
+   "APPROXIMATE-COORDS",
+   "AR-REVIEW",
+   "CONTESTED",
+   "FIRST-ATTESTED",
+   "RUIN-UNDATED"
+  ],
+  "what_changed": {
+   "previous_era_id": "ptolemaic-egypt",
+   "basis": "previous era in same stream by start year",
+   "extents_added": [
+    "Hiera Sycaminos frontier (reference marker)",
+    "Philae / First Cataract frontier (reference marker)"
+   ],
+   "extents_removed": [
+    "Hiera Sycaminos, end of the Dodecaschoenus (reference marker)"
+   ],
+   "cities_added": [
+    "aksum",
+    "faras",
+    "old-dongola",
+    "philae",
+    "qasr-ibrim",
+    "soba"
+   ],
+   "cities_removed": [
+    "napata"
+   ],
+   "capitals_added": [
+    "aksum",
+    "faras",
+    "old-dongola",
+    "soba"
+   ],
+   "capitals_removed": [
+    "napata"
+   ],
+   "groups_added": [],
+   "groups_removed": []
+  }
+ }
+}

@@ -1,0 +1,387 @@
+{
+ "meta": {
+  "owner": "Sudan Map Designer",
+  "built": "2026-10-24",
+  "basis": "El Hiloush, Principles of Maps, via 'Cartography Knowledge Graph and AI Agent Skills' (user-supplied PDF, 2026-10-23). Design rules marked synthesis in that guide are applied as standard GIS practice.",
+  "one_line_classification": "Small-scale interactive thematic history map of Sudan and its neighbours, qualitative categories (polity control, groups, settlement roles), time-scrubbed across 68 eras, web screen 390 px to desktop."
+ },
+ "six_declarations": {
+  "earth_model": "WGS 84 ellipsoid (a=6378137 m, 1/f=298.257223563)",
+  "datum": "WGS 84; all layers stored in EPSG:4326 (Wikidata P625, Pleiades, OpenHistoricalMap, Natural Earth are WGS 84). No datum transformation applied; none needed.",
+  "projection_display": {
+   "default": "EPSG:3857 Web Mercator (conformal; preserves local shape and direction). At Sudan's latitudes (~3-23°N) area inflation is ~0.1-17%, uneven north-south.",
+   "area_comparison": "Equal-area option: Lambert Azimuthal Equal-Area centred 30°E 15°N (proj string '+proj=laea +lat_0=15 +lon_0=30 +datum=WGS84 +units=m'). Use for any 'which polity was bigger' view and for all area numbers. Mercator must never be used for area comparison.",
+   "disclosure_en": "Web Mercator display: shapes are true locally, areas are not comparable; switch to equal-area to compare sizes.",
+   "disclosure_ar": "عرض ميركاتور للويب: الأشكال صحيحة محلياً لكن المساحات غير قابلة للمقارنة؛ استخدم الإسقاط متساوي المساحة للمقارنة.",
+   "disclosure_ar_status": "working translation, needs native review"
+  },
+  "scale": "Small scale (smaller than 1:500,000 at all usable zooms). Positions are anchor points and generalised extents: never use for measurement claims. Distances/areas, if shown, computed in the LAEA CRS in metres, never in degrees.",
+  "vintage": "Per layer: each era's extent/city/group record carries its source_ids and the dataset build date (2026-10-24). Modern population: UN WUP 2025 revision (MODEL).",
+  "classification": "Qualitative only: distinct hues/shapes for categories; no ordered ramps. Population (if shown) as proportional symbols of totals, never choropleth of raw counts.",
+  "height_reference": "Terrain basemap heights are orthometric (above mean sea level) as published by the basemap provider; no ellipsoidal heights shown."
+ },
+ "visual_hierarchy": [
+  "1 figure: control extents + contested symbols (strongest)",
+  "2 cities by role, relation arrows",
+  "3 homeland soft areas/points",
+  "4 basemap rivers + terrain (muted, 40-60% opacity)",
+  "5 graticule + marginalia (quietest)"
+ ],
+ "palette_note": "Polity fills use a qualitative, colour-vision-safe set (Okabe-Ito hues) assigned per polity id; checked to survive greyscale by pairing every hue with a distinct dash/shape.",
+ "symbol_classes": [
+  {
+   "id": "control_extent",
+   "geometry": "polygon",
+   "label_en": "Area of control (cited extent)",
+   "label_ar": "منطقة سيطرة (حدود موثقة)",
+   "label_ar_status": "working translation, needs native review",
+   "fill": "per-polity Okabe-Ito hue",
+   "fill_opacity": 0.35,
+   "stroke": "same hue, 70% darker",
+   "stroke_width": 1.5,
+   "dash": null
+  },
+  {
+   "id": "control_extent_approx",
+   "geometry": "polygon",
+   "label_en": "Approximate area of control",
+   "label_ar": "منطقة سيطرة تقريبية",
+   "label_ar_status": "working translation, needs native review",
+   "fill": "per-polity hue",
+   "fill_opacity": 0.18,
+   "stroke": "same hue",
+   "stroke_width": 1.2,
+   "dash": [
+    4,
+    3
+   ],
+   "edge": "feathered 6px inner glow, no hard edge"
+  },
+  {
+   "id": "extent_label_point",
+   "geometry": "point",
+   "label_en": "Polity anchor / label point",
+   "label_ar": "نقطة مرجعية للكيان",
+   "label_ar_status": "working translation, needs native review",
+   "shape": "small ring",
+   "size": 7,
+   "stroke": "#333",
+   "fill": "none"
+  },
+  {
+   "id": "boundary_line",
+   "geometry": "line",
+   "label_en": "Boundary",
+   "label_ar": "حد",
+   "label_ar_status": "working translation, needs native review",
+   "stroke": "#555",
+   "stroke_width": 1.2,
+   "dash": null
+  },
+  {
+   "id": "contested_point",
+   "geometry": "point",
+   "label_en": "Contested area (point, not a polygon)",
+   "label_ar": "منطقة متنازع عليها (نقطة)",
+   "label_ar_status": "working translation, needs native review",
+   "shape": "hatched diamond",
+   "size": 12,
+   "fill": "#E69F00",
+   "stroke": "#7a4f00",
+   "note": "Abyei, Kafia Kingi, Ilemi, Halaib, Bir Tawil. Never filled as a polygon owned by either state."
+  },
+  {
+   "id": "contested_boundary_line",
+   "geometry": "line",
+   "label_en": "Contested boundary line",
+   "label_ar": "خط حدودي متنازع عليه",
+   "label_ar_status": "working translation, needs native review",
+   "stroke": "#E69F00",
+   "stroke_width": 1.8,
+   "dash": [
+    6,
+    4
+   ]
+  },
+  {
+   "id": "reported_point",
+   "geometry": "point",
+   "label_en": "Reported location",
+   "label_ar": "موقع مُبلَّغ عنه",
+   "label_ar_status": "working translation, needs native review",
+   "shape": "open triangle",
+   "size": 9,
+   "stroke": "#CC79A7"
+  },
+  {
+   "id": "homeland_point",
+   "geometry": "point",
+   "label_en": "Group homeland (anchor point)",
+   "label_ar": "موطن جماعة (نقطة مرجعية)",
+   "label_ar_status": "working translation, needs native review",
+   "shape": "circle",
+   "size": 8,
+   "fill": "#009E73",
+   "fill_opacity": 0.6
+  },
+  {
+   "id": "homeland_soft_area",
+   "geometry": "polygon",
+   "label_en": "Group homeland (soft area)",
+   "label_ar": "موطن جماعة (منطقة غير محددة)",
+   "label_ar_status": "working translation, needs native review",
+   "fill": "#009E73",
+   "fill_opacity": 0.12,
+   "stroke": "none",
+   "edge": "radial fade, no outline: limits not given by sources"
+  },
+  {
+   "id": "group_control_point",
+   "geometry": "point",
+   "label_en": "Group control (anchor)",
+   "label_ar": "سيطرة جماعة (نقطة)",
+   "label_ar_status": "working translation, needs native review",
+   "shape": "square",
+   "size": 8,
+   "fill": "#009E73"
+  },
+  {
+   "id": "relation_arrow_alliance",
+   "geometry": "line",
+   "label_en": "Alliance",
+   "label_ar": "تحالف",
+   "label_ar_status": "working translation, needs native review",
+   "stroke": "#0072B2",
+   "stroke_width": 2,
+   "dash": null,
+   "arrowhead": "both"
+  },
+  {
+   "id": "relation_arrow_conflict",
+   "geometry": "line",
+   "label_en": "Conflict / raid",
+   "label_ar": "صراع / غارة",
+   "label_ar_status": "working translation, needs native review",
+   "stroke": "#D55E00",
+   "stroke_width": 2,
+   "dash": null,
+   "arrowhead": "end"
+  },
+  {
+   "id": "relation_arrow_subjugation",
+   "geometry": "line",
+   "label_en": "Subjugation / tribute",
+   "label_ar": "إخضاع / جزية",
+   "label_ar_status": "working translation, needs native review",
+   "stroke": "#000000",
+   "stroke_width": 2,
+   "dash": [
+    2,
+    2
+   ],
+   "arrowhead": "end"
+  },
+  {
+   "id": "relation_arrow_trade",
+   "geometry": "line",
+   "label_en": "Trade",
+   "label_ar": "تجارة",
+   "label_ar_status": "working translation, needs native review",
+   "stroke": "#56B4E9",
+   "stroke_width": 1.5,
+   "dash": [
+    8,
+    3
+   ],
+   "arrowhead": "end"
+  },
+  {
+   "id": "relation_arrow_migration",
+   "geometry": "line",
+   "label_en": "Migration",
+   "label_ar": "هجرة",
+   "label_ar_status": "working translation, needs native review",
+   "stroke": "#F0E442",
+   "stroke_width": 1.5,
+   "dash": [
+    1,
+    3
+   ],
+   "arrowhead": "end",
+   "halo": "#333"
+  },
+  {
+   "id": "city_capital",
+   "geometry": "point",
+   "label_en": "Capital",
+   "label_ar": "عاصمة",
+   "label_ar_status": "working translation, needs native review",
+   "shape": "star",
+   "size": 14,
+   "fill": "#000",
+   "stroke": "#fff",
+   "label": "bold, larger"
+  },
+  {
+   "id": "city_garrison",
+   "geometry": "point",
+   "label_en": "Garrison town",
+   "label_ar": "بلدة حامية",
+   "label_ar_status": "working translation, needs native review",
+   "shape": "square",
+   "size": 8,
+   "fill": "#555"
+  },
+  {
+   "id": "city_religious",
+   "geometry": "point",
+   "label_en": "Religious centre",
+   "label_ar": "مركز ديني",
+   "label_ar_status": "working translation, needs native review",
+   "shape": "cross-in-circle",
+   "size": 9,
+   "fill": "#555"
+  },
+  {
+   "id": "city_port",
+   "geometry": "point",
+   "label_en": "Port",
+   "label_ar": "ميناء",
+   "label_ar_status": "working translation, needs native review",
+   "shape": "anchor",
+   "size": 9,
+   "fill": "#0072B2"
+  },
+  {
+   "id": "city_trade",
+   "geometry": "point",
+   "label_en": "Trade town",
+   "label_ar": "مدينة تجارية",
+   "label_ar_status": "working translation, needs native review",
+   "shape": "diamond",
+   "size": 8,
+   "fill": "#555"
+  },
+  {
+   "id": "city_other",
+   "geometry": "point",
+   "label_en": "Town (attested, no role in this era)",
+   "label_ar": "بلدة (موثقة، دون دور في هذه الحقبة)",
+   "label_ar_status": "working translation, needs native review",
+   "shape": "dot",
+   "size": 5,
+   "fill": "#777"
+  },
+  {
+   "id": "ruin",
+   "geometry": "point",
+   "label_en": "Ruin (after last cited role)",
+   "label_ar": "أطلال (بعد آخر دور موثق)",
+   "label_ar_status": "working translation, needs native review",
+   "shape": "dot with x",
+   "size": 7,
+   "fill": "none",
+   "stroke": "#777",
+   "note": "Reserved: in current data visible_to = last role end, so ruins disappear rather than show as ruins."
+  },
+  {
+   "id": "list_only_text",
+   "geometry": "none",
+   "label_en": "Listed, not drawn (no location/date)",
+   "label_ar": "مدرج دون رسم (لا موقع/تاريخ)",
+   "label_ar_status": "working translation, needs native review",
+   "note": "appears only in the legend list panel"
+  },
+  {
+   "id": "basemap_rivers",
+   "geometry": "line",
+   "label_en": "Rivers (Nile system)",
+   "label_ar": "الأنهار (منظومة النيل)",
+   "label_ar_status": "working translation, needs native review",
+   "stroke": "#7fb3d5",
+   "stroke_width": "0.8-2 by order",
+   "label": "italic blue",
+   "source": "Natural Earth rivers (public domain)"
+  },
+  {
+   "id": "basemap_terrain",
+   "geometry": "raster",
+   "label_en": "Terrain (hillshade + hypsometric tint)",
+   "label_ar": "التضاريس",
+   "label_ar_status": "working translation, needs native review",
+   "opacity": 0.45,
+   "note": "hillshade never alone: pair with tint key in metres above sea level; source must be PD/CC0/CC BY (e.g. Natural Earth raster, PD)"
+  }
+ ],
+ "uncertainty_encoding": {
+  "APPROXIMATE": {
+   "rule": "dashed outline [4,3], halve fill opacity, feathered edge",
+   "legend_en": "Approximate",
+   "legend_ar": "تقريبي"
+  },
+  "CONTESTED": {
+   "rule": "amber hatch + dashed line; points only for the 5 disputed areas; tooltip lists both claims",
+   "legend_en": "Contested",
+   "legend_ar": "متنازع عليه"
+  },
+  "SINGLE-SOURCE": {
+   "rule": "small '1' superscript glyph on label; popup states single source",
+   "legend_en": "Single source",
+   "legend_ar": "مصدر واحد"
+  },
+  "VERIFY": {
+   "rule": "hollow symbol + '?' glyph; excluded from social exports",
+   "legend_en": "Needs verification",
+   "legend_ar": "يحتاج تحقق"
+  },
+  "EDITORIAL": {
+   "rule": "italic grey label, 'ed.' tag",
+   "legend_en": "Editorial judgement",
+   "legend_ar": "تقدير تحريري"
+  },
+  "TRADITION": {
+   "rule": "dotted outline/arrow [1,3]; popup 'according to tradition'",
+   "legend_en": "Oral/written tradition",
+   "legend_ar": "رواية تقليدية"
+  },
+  "FIRST-ATTESTED": {
+   "rule": "symbol appears with a left-open fade-in tick on the time slider: place is older than its first mention",
+   "legend_en": "Shown from first mention",
+   "legend_ar": "يظهر منذ أول ذكر"
+  },
+  "RUIN-UNDATED": {
+   "rule": "symbol fades out over the last role's end; no hard end tick",
+   "legend_en": "End date not cited",
+   "legend_ar": "تاريخ النهاية غير موثق"
+  },
+  "MODEL": {
+   "rule": "value in grey italics with 'model' tag; proportional circle with dashed rim",
+   "legend_en": "Modelled figure (UN WUP 2025)",
+   "legend_ar": "رقم تقديري (نموذج)"
+  },
+  "REPORTED": {
+   "rule": "open triangle; popup names reporting body",
+   "legend_en": "Reported",
+   "legend_ar": "مُبلَّغ عنه"
+  },
+  "_ar_status": "working translation, needs native review"
+ },
+ "gis_furniture": {
+  "scale_bar": "metric (km) + imperial toggle; recomputed for latitude of map centre (Mercator scale varies by latitude); hide numeric RF on web",
+  "graticule": "5° lines, labelled at frame edge, 0.5px #999 at 50%; toggle; densify lines so they curve correctly in LAEA",
+  "north_arrow": "shown only in LAEA mode (north not uniformly up away from centre); omitted in Web Mercator where north is up",
+  "credit_line": "Datum WGS 84 · Display EPSG:3857 (or LAEA 30°E 15°N) · Data: OpenHistoricalMap (CC0), Wikidata (CC0), Pleiades (CC BY 3.0), Natural Earth (PD), UN WUP 2025 (CC BY 3.0 IGO) · cited sources per feature · build 2026-10-24",
+  "info_panel": "metadata panel stating the six declarations (interactive equivalent of marginalia)"
+ },
+ "pre_delivery_checklist": [
+  "six declarations present",
+  "every layer has CRS EPSG:4326",
+  "heights orthometric labelled",
+  "no measurement in degrees",
+  "no raw-count choropleth",
+  "every drawn symbol class has a legend row (use eras/<slug>.json symbol_classes_present)",
+  "greyscale + 390px check",
+  "contested policy applied",
+  "licences listed"
+ ]
+}

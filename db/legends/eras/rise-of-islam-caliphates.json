@@ -1,0 +1,605 @@
+{
+ "era_id": "rise-of-islam-caliphates",
+ "name_en": "Rise of Islam & Caliphates",
+ "stream": "Red Sea & Arabia",
+ "start": 610,
+ "end": 1258,
+ "layers": {
+  "extents": {
+   "file": "db/extents/rise-of-islam-caliphates.geojson",
+   "features": [
+    {
+     "feature_index": 0,
+     "id": null,
+     "label_en": "Mecca (reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "start": 610,
+     "end": 1258,
+     "source_ids": [
+      "GHA3_CH2",
+      "GHA3_CH3"
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "file": null,
+   "features": []
+  },
+  "cities": {
+   "file": "db/city_layers/cities.geojson",
+   "features": [
+    {
+     "id": "musawwarat",
+     "name_en": "Musawwarat es-Sufra",
+     "name_ar": "المصورات الصفراء",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-meroitic-period",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH11",
+       "page": "318"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH11",
+       "page": "318"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q286426"
+      }
+     ]
+    },
+    {
+     "id": "soleb",
+     "name_en": "Soleb",
+     "name_ar": "صوليب",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "144"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1457914"
+      }
+     ]
+    },
+    {
+     "id": "buhen",
+     "name_en": "Buhen",
+     "name_ar": "بوهين",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "middle-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "role": "garrison",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "265"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "265"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1002656"
+      }
+     ]
+    },
+    {
+     "id": "faras",
+     "name_en": "Faras",
+     "name_ar": "فرس (النوبة)",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "nobadia",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH8",
+       "page": "194"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH8",
+       "page": "194"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q584387"
+      }
+     ]
+    },
+    {
+     "id": "qasr-ibrim",
+     "name_en": "Qasr Ibrim",
+     "name_ar": "قصر إبريم",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "roman-byzantine-egypt",
+       "start": -23,
+       "end": null,
+       "source_id": "GHA2_CH10",
+       "page": "290"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "290"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q2121453"
+      }
+     ]
+    },
+    {
+     "id": "abu-simbel",
+     "name_en": "Abu Simbel",
+     "name_ar": "أبو سمبل",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q134140"
+      }
+     ]
+    },
+    {
+     "id": "old-dongola",
+     "name_en": "Old Dongola",
+     "name_ar": "دنقلا العجوز",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "makuria",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH8",
+       "page": "194"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH8",
+       "page": "194"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q433112"
+      }
+     ]
+    },
+    {
+     "id": "soba",
+     "name_en": "Soba",
+     "name_ar": "سوبا (مدينة)",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "alodia-alwa",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH8",
+       "page": "196"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH8",
+       "page": "196"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "172"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1247214"
+      }
+     ]
+    },
+    {
+     "id": "aswan",
+     "name_en": "Aswan",
+     "name_ar": "أسوان",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "238"
+      },
+      {
+       "id": "GHA3_CH8",
+       "page": "195"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q29888"
+      }
+     ]
+    },
+    {
+     "id": "aksum",
+     "name_en": "Aksum",
+     "name_ar": "أكسوم",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-aksum",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH15",
+       "page": "389"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH15",
+       "page": "389"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q5832"
+      }
+     ]
+    },
+    {
+     "id": "adulis",
+     "name_en": "Adulis",
+     "name_ar": "عدوليس",
+     "symbol_class": "city_port",
+     "roles_in_era": [
+      {
+       "role": "port",
+       "era_id": "kingdom-of-aksum",
+       "start": 75,
+       "end": null,
+       "source_id": "GHA2",
+       "page": "343"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "CONTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "343"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q378940"
+      }
+     ]
+    },
+    {
+     "id": "aidhab",
+     "name_en": "Aidhab",
+     "name_ar": "عيذاب",
+     "symbol_class": "city_port",
+     "roles_in_era": [
+      {
+       "role": "port",
+       "era_id": "mamluk-sultanate",
+       "start": null,
+       "end": null,
+       "source_id": "GHAIV",
+       "page": "375"
+      }
+     ],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHAIII",
+       "page": "82"
+      },
+      {
+       "id": "GHAIV",
+       "page": "375"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q404028"
+      }
+     ]
+    },
+    {
+     "id": "suakin",
+     "name_en": "Suakin",
+     "name_ar": "سواكن",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "suakin-red-sea-port-beja-ottoman",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "175"
+      }
+     ],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA5_CH7",
+       "page": "175"
+      },
+      {
+       "id": "GHAIII",
+       "page": "82"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q571215"
+      }
+     ]
+    },
+    {
+     "id": "kufra",
+     "name_en": "Kufra",
+     "name_ar": "الكفرة",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHAIII",
+       "page": "283"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q172114"
+      }
+     ]
+    }
+   ]
+  },
+  "homelands": {
+   "file": "db/group_layers/homelands.geojson",
+   "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
+   "drawn": 14,
+   "list_only": 7
+  }
+ },
+ "symbol_classes_present": [
+  "city_capital",
+  "city_garrison",
+  "city_other",
+  "city_port",
+  "city_religious",
+  "extent_label_point"
+ ],
+ "badges_present": [
+  "APPROXIMATE",
+  "AR-REVIEW",
+  "CONTESTED",
+  "FIRST-ATTESTED",
+  "RUIN-UNDATED"
+ ],
+ "counts": {
+  "city_capital": 4,
+  "city_garrison": 3,
+  "city_other": 4,
+  "city_port": 2,
+  "city_religious": 1,
+  "extent_label_point": 1,
+  "extent_features": 1,
+  "group_features": 0,
+  "cities": 14
+ },
+ "context": {
+  "key_events_en": [
+   "First Hijra to Aksum c.615",
+   "Abbasid trade via Red Sea"
+  ],
+  "key_events_ar": [
+   "الهجرة الأولى إلى أكسوم (الحبشة) نحو 615",
+   "التجارة العباسية عبر البحر الأحمر"
+  ],
+  "key_events_source_ids": [
+   "GHA3_CH8",
+   "WP:Rashidun_Caliphate",
+   "WP:Abbasid_Caliphate"
+  ],
+  "dating_note": null,
+  "capitals": [
+   {
+    "name": "Medina",
+    "lat": 24.47,
+    "lon": 39.61
+   },
+   {
+    "name": "Baghdad",
+    "lat": 33.31,
+    "lon": 44.36
+   }
+  ],
+  "control_limits_en": "No limit line in the cited sources; reference point(s) only, open edges. Mecca a commercial centre on the caravan route, with profit from pilgrimage (GHA III ch.2 p.33); early converts fled to Ethiopia (p.35). Caliphal frontier with Nubia was a treaty (the bakt), not annexation (GHA III ch.3 pp.81–82). The caliphates' extent is not drawn: no limit in the cited pages. Open edges: no limit line in the source; not a border.",
+  "control_limits_ar": "مكة مركز تجاري على طريق القوافل (III، الفصل 2، ص33). الحد مع النوبة معاهدة البقط لا ضم (الفصل 3، ص81–82). حدود مفتوحة: لا خط حدود في المصدر. [Arabic text pending native-speaker review.]",
+  "control_limits_source_ids": [
+   "GHA3_CH2",
+   "GHA3_CH3"
+  ],
+  "control_confidence": "low"
+ },
+ "interactive": {
+  "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
+  "layer_toggles": [
+   "extents",
+   "cities",
+   "homelands",
+   "basemap_rivers",
+   "basemap_terrain",
+   "graticule"
+  ],
+  "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
+  "badge_filter": [
+   "APPROXIMATE",
+   "AR-REVIEW",
+   "CONTESTED",
+   "FIRST-ATTESTED",
+   "RUIN-UNDATED"
+  ],
+  "what_changed": {
+   "previous_era_id": "beja-red-sea-hills-peoples",
+   "basis": "previous era in same stream by start year",
+   "extents_added": [
+    "Mecca (reference marker)"
+   ],
+   "extents_removed": [
+    "Suakin (Beja-country town, reference marker; not a capital)"
+   ],
+   "cities_added": [],
+   "cities_removed": [
+    "ain-farah",
+    "arbaji",
+    "asmara",
+    "atbara",
+    "bangui",
+    "berber",
+    "bor",
+    "el-fasher",
+    "el-matamma",
+    "el-obeid",
+    "fashoda",
+    "gallabat",
+    "gedaref",
+    "gondar",
+    "gondokoro",
+    "juba",
+    "kassala",
+    "kawa",
+    "khartoum",
+    "korti",
+    "lado",
+    "massawa",
+    "mekelle",
+    "meroe",
+    "metemma-ethiopia",
+    "ndjamena",
+    "omdurman",
+    "philae",
+    "port-sudan",
+    "qerri",
+    "rumbek",
+    "sennar",
+    "shendi",
+    "tokar",
+    "wad-madani"
+   ],
+   "capitals_added": [],
+   "capitals_removed": [
+    "asmara",
+    "el-fasher",
+    "fashoda",
+    "gondar",
+    "khartoum",
+    "meroe",
+    "omdurman",
+    "qerri"
+   ],
+   "groups_added": [],
+   "groups_removed": [
+    "grp-beja-control-beja-red-sea-hills-peoples-1"
+   ]
+  }
+ }
+}

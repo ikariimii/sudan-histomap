@@ -1,0 +1,871 @@
+{
+ "era_id": "makuria",
+ "name_en": "Makuria",
+ "stream": "Sudan – Middle Nile",
+ "start": 500,
+ "end": 1500,
+ "layers": {
+  "extents": {
+   "file": "db/extents/makuria.geojson",
+   "features": [
+    {
+     "feature_index": 0,
+     "id": null,
+     "label_en": "Makuria before the union with Nobadia (until c. 7th century, disputed)",
+     "symbol_class": "control_extent_approx",
+     "certainty": "low",
+     "badges": [],
+     "start": 450,
+     "end": 700,
+     "source_ids": [
+      "OHM_2960090",
+      "DERDA_LAJTAR2019",
+      "GHA2_CH12"
+     ]
+    },
+    {
+     "feature_index": 1,
+     "id": null,
+     "label_en": "Makuria after the union with Nobadia (from c. 7th century, disputed)",
+     "symbol_class": "control_extent_approx",
+     "certainty": "low",
+     "badges": [],
+     "start": 700,
+     "end": 1265,
+     "source_ids": [
+      "OHM_2960090",
+      "DERDA_LAJTAR2019",
+      "GHA2_CH12"
+     ]
+    },
+    {
+     "feature_index": 2,
+     "id": null,
+     "label_en": "Kingdom of Makuria, 1265–1268 (OHM 2960089)",
+     "symbol_class": "control_extent_approx",
+     "certainty": "low",
+     "badges": [],
+     "start": 1265,
+     "end": 1268,
+     "source_ids": [
+      "OHM_2960089"
+     ]
+    },
+    {
+     "feature_index": 3,
+     "id": null,
+     "label_en": "Kingdom of Makuria, 1268–1276 (OHM 2960088)",
+     "symbol_class": "control_extent_approx",
+     "certainty": "low",
+     "badges": [],
+     "start": 1268,
+     "end": 1276,
+     "source_ids": [
+      "OHM_2960088"
+     ]
+    },
+    {
+     "feature_index": 4,
+     "id": null,
+     "label_en": "Gebel Adda (reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [],
+     "start": 1366,
+     "end": 1500,
+     "source_ids": [
+      "Wikipedia contributors, \"Makuria\", English Wikipedia (fetched 2026-10-20; cites Gerhards 2025, Ruffini 2012, Seignobos 2018) – flagged, no scholarly text read"
+     ]
+    },
+    {
+     "feature_index": 5,
+     "id": null,
+     "label_en": "Qasr Ibrim (reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [],
+     "start": 1366,
+     "end": 1500,
+     "source_ids": [
+      "Wikipedia contributors, \"Makuria\", English Wikipedia (fetched 2026-10-20; cites Gerhards 2025, Ruffini 2012, Seignobos 2018) – flagged, no scholarly text read"
+     ]
+    },
+    {
+     "feature_index": 6,
+     "id": null,
+     "label_en": "Meinarti (reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [],
+     "start": 1366,
+     "end": 1500,
+     "source_ids": [
+      "Wikipedia contributors, \"Makuria\", English Wikipedia (fetched 2026-10-20; cites Gerhards 2025, Ruffini 2012, Seignobos 2018) – flagged, no scholarly text read"
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "file": "db/group_layers/makuria.geojson",
+   "features": [
+    {
+     "id": "grp-nubians-control-makuria-1",
+     "kind": "control",
+     "type": null,
+     "group": "nubians",
+     "symbol_class": "list_only_text",
+     "drawn": false,
+     "label_en": "Nubians (Nile Nubians): Mukurra (capital Dunkula)",
+     "badges": [],
+     "source_ids": [
+      "GHA4_CH16"
+     ],
+     "cite": [
+      "GHA4_CH16 p.404"
+     ]
+    },
+    {
+     "id": "rel-beja-04",
+     "kind": "relation",
+     "type": "conflict",
+     "group": "beja",
+     "symbol_class": "relation_arrow_conflict",
+     "drawn": true,
+     "label_en": "Little is known of Nubian policy towards the Beja, who 'probably' raided the settled riverain areas from time to time.",
+     "badges": [
+      "SINGLE-SOURCE"
+     ],
+     "source_ids": [
+      "GHA4_CH16"
+     ],
+     "cite": [
+      "GHA4_CH16 p.417"
+     ]
+    }
+   ]
+  },
+  "cities": {
+   "file": "db/city_layers/cities.geojson",
+   "features": [
+    {
+     "id": "musawwarat",
+     "name_en": "Musawwarat es-Sufra",
+     "name_ar": "المصورات الصفراء",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-meroitic-period",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH11",
+       "page": "318"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH11",
+       "page": "318"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q286426"
+      }
+     ]
+    },
+    {
+     "id": "soleb",
+     "name_en": "Soleb",
+     "name_ar": "صوليب",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "144"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1457914"
+      }
+     ]
+    },
+    {
+     "id": "buhen",
+     "name_en": "Buhen",
+     "name_ar": "بوهين",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "middle-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "role": "garrison",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "265"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "265"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1002656"
+      }
+     ]
+    },
+    {
+     "id": "faras",
+     "name_en": "Faras",
+     "name_ar": "فرس (النوبة)",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "nobadia",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH8",
+       "page": "194"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH8",
+       "page": "194"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q584387"
+      }
+     ]
+    },
+    {
+     "id": "qasr-ibrim",
+     "name_en": "Qasr Ibrim",
+     "name_ar": "قصر إبريم",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "roman-byzantine-egypt",
+       "start": -23,
+       "end": null,
+       "source_id": "GHA2_CH10",
+       "page": "290"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "290"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q2121453"
+      }
+     ]
+    },
+    {
+     "id": "philae",
+     "name_en": "Philae",
+     "name_ar": "فيلة",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH12",
+       "page": "331"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q245062"
+      }
+     ]
+    },
+    {
+     "id": "abu-simbel",
+     "name_en": "Abu Simbel",
+     "name_ar": "أبو سمبل",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q134140"
+      }
+     ]
+    },
+    {
+     "id": "old-dongola",
+     "name_en": "Old Dongola",
+     "name_ar": "دنقلا العجوز",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "makuria",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH8",
+       "page": "194"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH8",
+       "page": "194"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q433112"
+      }
+     ]
+    },
+    {
+     "id": "soba",
+     "name_en": "Soba",
+     "name_ar": "سوبا (مدينة)",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "alodia-alwa",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH8",
+       "page": "196"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH8",
+       "page": "196"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "172"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1247214"
+      }
+     ]
+    },
+    {
+     "id": "aswan",
+     "name_en": "Aswan",
+     "name_ar": "أسوان",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "238"
+      },
+      {
+       "id": "GHA3_CH8",
+       "page": "195"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q29888"
+      }
+     ]
+    },
+    {
+     "id": "aksum",
+     "name_en": "Aksum",
+     "name_ar": "أكسوم",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-aksum",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH15",
+       "page": "389"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH15",
+       "page": "389"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q5832"
+      }
+     ]
+    },
+    {
+     "id": "adulis",
+     "name_en": "Adulis",
+     "name_ar": "عدوليس",
+     "symbol_class": "city_port",
+     "roles_in_era": [
+      {
+       "role": "port",
+       "era_id": "kingdom-of-aksum",
+       "start": 75,
+       "end": null,
+       "source_id": "GHA2",
+       "page": "343"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "CONTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "343"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q378940"
+      }
+     ]
+    },
+    {
+     "id": "aidhab",
+     "name_en": "Aidhab",
+     "name_ar": "عيذاب",
+     "symbol_class": "city_port",
+     "roles_in_era": [
+      {
+       "role": "port",
+       "era_id": "mamluk-sultanate",
+       "start": null,
+       "end": null,
+       "source_id": "GHAIV",
+       "page": "375"
+      }
+     ],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHAIII",
+       "page": "82"
+      },
+      {
+       "id": "GHAIV",
+       "page": "375"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q404028"
+      }
+     ]
+    },
+    {
+     "id": "suakin",
+     "name_en": "Suakin",
+     "name_ar": "سواكن",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "suakin-red-sea-port-beja-ottoman",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "175"
+      }
+     ],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA5_CH7",
+       "page": "175"
+      },
+      {
+       "id": "GHAIII",
+       "page": "82"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q571215"
+      }
+     ]
+    },
+    {
+     "id": "qerri",
+     "name_en": "Qerri",
+     "name_ar": "قري الوادي",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "abdallab-chiefdom-funj-vassal",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "172"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA5_CH7",
+       "page": "172"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q11924140"
+      }
+     ]
+    },
+    {
+     "id": "ain-farah",
+     "name_en": "Ain Farah",
+     "name_ar": "عين فرح",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "tunjur-kingdom",
+       "start": null,
+       "end": null,
+       "source_id": "GHA4_CH16",
+       "page": "420"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA4_CH16",
+       "page": "420"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q405860"
+      }
+     ]
+    },
+    {
+     "id": "fashoda",
+     "name_en": "Kodok (Fashoda)",
+     "name_ar": "فشودة",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "shilluk-kingdom",
+       "start": null,
+       "end": null,
+       "source_id": "GHA6_CH14",
+       "page": "366"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA6_CH14",
+       "page": "366"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1888763"
+      }
+     ]
+    },
+    {
+     "id": "kufra",
+     "name_en": "Kufra",
+     "name_ar": "الكفرة",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHAIII",
+       "page": "283"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q172114"
+      }
+     ]
+    },
+    {
+     "id": "rumbek",
+     "name_en": "Rumbek",
+     "name_ar": "رمبيك",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHAV",
+       "page": "777"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q607336"
+      }
+     ]
+    },
+    {
+     "id": "arbaji",
+     "name_en": "Arbaji",
+     "name_ar": "أربجي",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "APPROXIMATE-COORDS",
+      "AR-REVIEW"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA4_CH16",
+       "page": "406"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "173"
+      },
+      {
+       "id": "NGA_GNS",
+       "page": "UFI 98562051"
+      }
+     ]
+    }
+   ]
+  },
+  "homelands": {
+   "file": "db/group_layers/homelands.geojson",
+   "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
+   "drawn": 14,
+   "list_only": 7
+  }
+ },
+ "symbol_classes_present": [
+  "city_capital",
+  "city_garrison",
+  "city_other",
+  "city_port",
+  "city_religious",
+  "control_extent_approx",
+  "extent_label_point",
+  "list_only_text",
+  "relation_arrow_conflict"
+ ],
+ "badges_present": [
+  "APPROXIMATE",
+  "APPROXIMATE-COORDS",
+  "AR-REVIEW",
+  "CONTESTED",
+  "FIRST-ATTESTED",
+  "RUIN-UNDATED",
+  "SINGLE-SOURCE"
+ ],
+ "counts": {
+  "city_capital": 6,
+  "city_garrison": 3,
+  "city_other": 7,
+  "city_port": 2,
+  "city_religious": 2,
+  "control_extent_approx": 4,
+  "extent_label_point": 3,
+  "list_only_text": 1,
+  "relation_arrow_conflict": 1,
+  "extent_features": 7,
+  "group_features": 2,
+  "cities": 20
+ },
+ "context": {
+  "key_events_en": [
+   "Repulsed Arab armies at Dongola 651/652",
+   "Baqt treaty with Egypt",
+   "Faras cathedral frescoes",
+   "Decline under Mamluk pressure, 14th c."
+  ],
+  "key_events_ar": [
+   "صد الجيوش العربية عند دنقلا 651/652",
+   "معاهدة البقط مع مصر",
+   "جداريات كاتدرائية فرس",
+   "الانحدار تحت ضغط المماليك، القرن الرابع عشر"
+  ],
+  "key_events_source_ids": [
+   "WELSBY2002",
+   "WP_MAKURIA",
+   "WP:Baqt",
+   "GHA2_CH12",
+   "DERDA_LAJTAR2019"
+  ],
+  "dating_note": "End date approximate (kingdom fragmented in 14th–15th c.). Merger with Makuria: date disputed. GHA II ch.12 (Michałowski, pp.332–333) gives two versions: Maqrizi has one king, Qalidurut, ruling central and northern Nubia by the mid-7th c.; 'Christian sources seem to prove that the union of Nubia was the work of King Merkurios, who came to the throne in 697.' Derda & Łajtar (2019, p.136 and n.4): 'perhaps around 630'; the earliest indubitable proof of a greater Makuria including Nobadia is the reign of Merkurios (late 7th–early 8th c.); incorporation probably before the Arab raid on Dongola in 652; Godlewski has suggested the end of the 6th c. Welsby 2002 not read on this point.",
+  "capitals": [
+   {
+    "name": "Old Dongola",
+    "lat": 18.22,
+    "lon": 30.75
+   },
+   {
+    "name": "Banganarti",
+    "lat": 18.1667,
+    "lon": 30.7849
+   }
+  ],
+  "control_limits_en": "'In the south, as far as ancient Meroe, another Nubian kingdom emerged in the sixth century with Old Dongola … as its capital' (GHA2_CH12); 'Entre la 3e et la 5e cataracte, se crée le royaume de Makouria, autour de la ville de Dongola' (FR_MUSEE_MEROE). 'Northern and Central Nubia united to form one state' (GHA2_CH12).",
+  "control_limits_ar": "«وفي الجنوب، حتى مروي القديمة، نشأت في القرن السادس مملكة نوبية أخرى عاصمتها دنقلا العجوز» (تاريخ أفريقيا العام II، الفصل 12)؛ و«بين الشلالين الثالث والخامس نشأت مملكة المقرة حول مدينة دنقلا» (المتحف الفرنسي). ثم «اتحدت النوبة الشمالية والوسطى في دولة واحدة».",
+  "control_limits_source_ids": [
+   "GHA2_CH12",
+   "FR_MUSEE_MEROE",
+   "DERDA_LAJTAR2019",
+   "WP_MAKURIA"
+  ],
+  "control_confidence": "medium"
+ },
+ "interactive": {
+  "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
+  "layer_toggles": [
+   "extents",
+   "groups",
+   "cities",
+   "homelands",
+   "basemap_rivers",
+   "basemap_terrain",
+   "graticule"
+  ],
+  "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
+  "badge_filter": [
+   "APPROXIMATE",
+   "APPROXIMATE-COORDS",
+   "AR-REVIEW",
+   "CONTESTED",
+   "FIRST-ATTESTED",
+   "RUIN-UNDATED",
+   "SINGLE-SOURCE"
+  ],
+  "what_changed": {
+   "previous_era_id": "nobadia",
+   "basis": "previous era in same stream by start year",
+   "extents_added": [
+    "Gebel Adda (reference marker)",
+    "Kingdom of Makuria, 1265–1268 (OHM 2960089)",
+    "Kingdom of Makuria, 1268–1276 (OHM 2960088)",
+    "Makuria after the union with Nobadia (from c. 7th century, disputed)",
+    "Makuria before the union with Nobadia (until c. 7th century, disputed)",
+    "Meinarti (reference marker)",
+    "Qasr Ibrim (reference marker)"
+   ],
+   "extents_removed": [
+    "Nobadia: Philae to the Third Cataract, until c. 7th century, disputed – strip width along the Nile is a display choice, not a sourced boundary"
+   ],
+   "cities_added": [
+    "ain-farah",
+    "arbaji",
+    "fashoda",
+    "kufra",
+    "qerri",
+    "rumbek"
+   ],
+   "cities_removed": [],
+   "capitals_added": [
+    "fashoda",
+    "qerri"
+   ],
+   "capitals_removed": [],
+   "groups_added": [
+    "grp-nubians-control-makuria-1",
+    "rel-beja-04"
+   ],
+   "groups_removed": []
+  }
+ }
+}

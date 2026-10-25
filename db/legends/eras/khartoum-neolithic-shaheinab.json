@@ -1,0 +1,134 @@
+{
+ "era_id": "khartoum-neolithic-shaheinab",
+ "name_en": "Khartoum Neolithic (Shaheinab)",
+ "stream": "Sudan – Middle Nile",
+ "start": -4900,
+ "end": -3800,
+ "layers": {
+  "extents": {
+   "file": "db/extents/khartoum-neolithic-shaheinab.geojson",
+   "features": [
+    {
+     "feature_index": 0,
+     "id": null,
+     "label_en": "Esh Shaheinab (Khartoum Neolithic type site, reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "SINGLE-SOURCE"
+     ],
+     "start": -4900,
+     "end": -3800,
+     "source_ids": [
+      "GHA1_CH19",
+      "WD:Q109284524"
+     ]
+    },
+    {
+     "feature_index": 1,
+     "id": null,
+     "label_en": "Kadero (Khartoum Neolithic site, reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "start": -4900,
+     "end": -3800,
+     "source_ids": [
+      "GHA1_CH19",
+      "GHA1_CH25",
+      "WD:Q109284535"
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "file": null,
+   "features": []
+  },
+  "cities": {
+   "file": "db/city_layers/cities.geojson",
+   "features": []
+  },
+  "homelands": {
+   "file": "db/group_layers/homelands.geojson",
+   "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
+   "drawn": 14,
+   "list_only": 7
+  }
+ },
+ "symbol_classes_present": [
+  "extent_label_point"
+ ],
+ "badges_present": [
+  "APPROXIMATE",
+  "SINGLE-SOURCE"
+ ],
+ "counts": {
+  "extent_label_point": 2,
+  "extent_features": 2,
+  "group_features": 0,
+  "cities": 0
+ },
+ "context": {
+  "key_events_en": [
+   "Domesticated cattle, sheep and goat at Esh-Shaheinab"
+  ],
+  "key_events_ar": [
+   "أبقار وضأن وماعز مستأنسة في الشهيناب"
+  ],
+  "key_events_source_ids": [
+   "WD:Q109284524",
+   "WD:Q109284535",
+   "WP:Khartoum_Neolithic"
+  ],
+  "dating_note": "Approximate; site coordinates from Wikidata (Esh-Shaheinab corrected from 16.13N). Kadero added as second Khartoum Neolithic site (coordinates approximate, Wikidata).",
+  "capitals": [
+   {
+    "name": "Esh-Shaheinab",
+    "lat": 16.0624,
+    "lon": 32.5394
+   },
+   {
+    "name": "Kadero",
+    "lat": 15.75,
+    "lon": 32.55
+   }
+  ],
+  "control_limits_en": null,
+  "control_limits_ar": null,
+  "control_limits_source_ids": null,
+  "control_confidence": null
+ },
+ "interactive": {
+  "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
+  "layer_toggles": [
+   "extents",
+   "homelands",
+   "basemap_rivers",
+   "basemap_terrain",
+   "graticule"
+  ],
+  "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
+  "badge_filter": [
+   "APPROXIMATE",
+   "SINGLE-SOURCE"
+  ],
+  "what_changed": {
+   "previous_era_id": "khartoum-mesolithic-early-khartoum",
+   "basis": "previous era in same stream by start year",
+   "extents_added": [
+    "Esh Shaheinab (Khartoum Neolithic type site, reference marker)",
+    "Kadero (Khartoum Neolithic site, reference marker)"
+   ],
+   "extents_removed": [],
+   "cities_added": [],
+   "cities_removed": [],
+   "capitals_added": [],
+   "capitals_removed": [],
+   "groups_added": [],
+   "groups_removed": []
+  }
+ }
+}

@@ -1,0 +1,337 @@
+{
+ "era_id": "egyptian-new-kingdom-rule-in-nubia",
+ "name_en": "Egyptian New Kingdom rule in Nubia",
+ "stream": "Sudan – Middle Nile",
+ "start": -1500,
+ "end": -1070,
+ "layers": {
+  "extents": {
+   "file": "db/extents/egyptian-new-kingdom-rule-in-nubia.geojson",
+   "features": [
+    {
+     "feature_index": 0,
+     "id": null,
+     "label_en": "Kurgus frontier",
+     "symbol_class": "extent_label_point",
+     "certainty": "medium",
+     "badges": [],
+     "start": -1500,
+     "end": -1070,
+     "source_ids": [
+      "GHA2_CH10_P265"
+     ]
+    },
+    {
+     "feature_index": 1,
+     "id": null,
+     "label_en": "Napata / Fourth Cataract",
+     "symbol_class": "extent_label_point",
+     "certainty": "medium",
+     "badges": [],
+     "start": -1500,
+     "end": -1070,
+     "source_ids": [
+      "GHA2",
+      "WHC1073"
+     ]
+    },
+    {
+     "feature_index": 2,
+     "id": null,
+     "label_en": "Soleb (temple)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [],
+     "start": -1500,
+     "end": -1070,
+     "source_ids": [
+      "WP:Viceroy_of_Kush",
+      "GHA2"
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "file": null,
+   "features": []
+  },
+  "cities": {
+   "file": "db/city_layers/cities.geojson",
+   "features": [
+    {
+     "id": "jebel-barkal",
+     "name_en": "Jebel Barkal",
+     "name_ar": "جبل البركل",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": -1290,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "268"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "268"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q499019"
+      }
+     ]
+    },
+    {
+     "id": "soleb",
+     "name_en": "Soleb",
+     "name_ar": "صوليب",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "144"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1457914"
+      }
+     ]
+    },
+    {
+     "id": "buhen",
+     "name_en": "Buhen",
+     "name_ar": "بوهين",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "middle-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "role": "garrison",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "265"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "265"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1002656"
+      }
+     ]
+    },
+    {
+     "id": "abu-simbel",
+     "name_en": "Abu Simbel",
+     "name_ar": "أبو سمبل",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q134140"
+      }
+     ]
+    },
+    {
+     "id": "aswan",
+     "name_en": "Aswan",
+     "name_ar": "أسوان",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "238"
+      },
+      {
+       "id": "GHA3_CH8",
+       "page": "195"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q29888"
+      }
+     ]
+    },
+    {
+     "id": "kawa",
+     "name_en": "Kawa (Gematon)",
+     "name_ar": "كوة",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "APPROXIMATE-COORDS",
+      "AR-REVIEW"
+     ],
+     "source_ids": [
+      {
+       "id": "PLEIADES_805647",
+       "page": "805647"
+      },
+      {
+       "id": "SARS_KAWA",
+       "page": "project page"
+      }
+     ]
+    }
+   ]
+  },
+  "homelands": {
+   "file": "db/group_layers/homelands.geojson",
+   "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
+   "drawn": 14,
+   "list_only": 7
+  }
+ },
+ "symbol_classes_present": [
+  "city_garrison",
+  "city_other",
+  "city_religious",
+  "extent_label_point"
+ ],
+ "badges_present": [
+  "APPROXIMATE",
+  "APPROXIMATE-COORDS",
+  "AR-REVIEW",
+  "FIRST-ATTESTED",
+  "RUIN-UNDATED"
+ ],
+ "counts": {
+  "city_garrison": 1,
+  "city_other": 4,
+  "city_religious": 1,
+  "extent_label_point": 3,
+  "extent_features": 3,
+  "group_features": 0,
+  "cities": 6
+ },
+ "context": {
+  "key_events_en": [
+   "Viceroy of Kush administers Nubia",
+   "Temples at Jebel Barkal, Soleb, Abu Simbel"
+  ],
+  "key_events_ar": [
+   "نائب الملك في كوش يدير النوبة",
+   "معابد في جبل البركل وصولب وأبو سمبل"
+  ],
+  "key_events_source_ids": [
+   "WHC1073",
+   "GHA2_CH12",
+   "WP:Viceroy_of_Kush"
+  ],
+  "dating_note": "WHC: Gebel Barkal sacred to Amun since c.1500 BCE. Soleb/Kurgus coordinates from Wikidata (approximate).",
+  "capitals": [
+   {
+    "name": "Jebel Barkal / Napata",
+    "lat": 18.54,
+    "lon": 31.83
+   },
+   {
+    "name": "Soleb",
+    "lat": 20.4333,
+    "lon": 30.3333
+   },
+   {
+    "name": "Kurgus",
+    "lat": 19.2308,
+    "lon": 33.4772
+   }
+  ],
+  "control_limits_en": null,
+  "control_limits_ar": null,
+  "control_limits_source_ids": null,
+  "control_confidence": null
+ },
+ "interactive": {
+  "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
+  "layer_toggles": [
+   "extents",
+   "cities",
+   "homelands",
+   "basemap_rivers",
+   "basemap_terrain",
+   "graticule"
+  ],
+  "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
+  "badge_filter": [
+   "APPROXIMATE",
+   "APPROXIMATE-COORDS",
+   "AR-REVIEW",
+   "FIRST-ATTESTED",
+   "RUIN-UNDATED"
+  ],
+  "what_changed": {
+   "previous_era_id": "c-group-lower-nubia",
+   "basis": "previous era in same stream by start year",
+   "extents_added": [
+    "Kurgus frontier",
+    "Napata / Fourth Cataract",
+    "Soleb (temple)"
+   ],
+   "extents_removed": [
+    "Wadi Halfa region (C-Group houses, reference marker)"
+   ],
+   "cities_added": [
+    "abu-simbel",
+    "jebel-barkal",
+    "kawa",
+    "soleb"
+   ],
+   "cities_removed": [
+    "kerma",
+    "semna"
+   ],
+   "capitals_added": [],
+   "capitals_removed": [
+    "kerma"
+   ],
+   "groups_added": [],
+   "groups_removed": []
+  }
+ }
+}

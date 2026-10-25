@@ -1,0 +1,275 @@
+{
+ "era_id": "middle-kingdom-egypt",
+ "name_en": "Middle Kingdom Egypt",
+ "stream": "Egypt",
+ "start": -2055,
+ "end": -1650,
+ "layers": {
+  "extents": {
+   "file": "db/extents/middle-kingdom-egypt.geojson",
+   "features": [
+    {
+     "feature_index": 0,
+     "id": null,
+     "label_en": "Semna (southern frontier, reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "medium",
+     "badges": [],
+     "start": -1870,
+     "end": -1650,
+     "source_ids": [
+      "GHA2_CH9",
+      "GHA2_CH8",
+      "GHA2"
+     ]
+    },
+    {
+     "feature_index": 1,
+     "id": null,
+     "label_en": "Buhen fortress (reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "medium",
+     "badges": [],
+     "start": -1991,
+     "end": -1650,
+     "source_ids": [
+      "GHA2_CH9"
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "file": null,
+   "features": []
+  },
+  "cities": {
+   "file": "db/city_layers/cities.geojson",
+   "features": [
+    {
+     "id": "kerma",
+     "name_en": "Kerma",
+     "name_ar": "كرمة",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-kerma",
+       "start": -1730,
+       "end": -1580,
+       "source_id": "GHA2_CH9",
+       "page": "258"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "258"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1107569"
+      }
+     ]
+    },
+    {
+     "id": "buhen",
+     "name_en": "Buhen",
+     "name_ar": "بوهين",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "middle-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "role": "garrison",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "265"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "265"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1002656"
+      }
+     ]
+    },
+    {
+     "id": "semna",
+     "name_en": "Semna",
+     "name_ar": "سمنة",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "middle-kingdom-egypt",
+       "start": -1991,
+       "end": -1786,
+       "source_id": "GHA2_CH9",
+       "page": "255"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "255"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1485667"
+      }
+     ]
+    },
+    {
+     "id": "aswan",
+     "name_en": "Aswan",
+     "name_ar": "أسوان",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "238"
+      },
+      {
+       "id": "GHA3_CH8",
+       "page": "195"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q29888"
+      }
+     ]
+    }
+   ]
+  },
+  "homelands": {
+   "file": "db/group_layers/homelands.geojson",
+   "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
+   "drawn": 14,
+   "list_only": 7
+  }
+ },
+ "symbol_classes_present": [
+  "city_capital",
+  "city_garrison",
+  "city_other",
+  "extent_label_point"
+ ],
+ "badges_present": [
+  "AR-REVIEW",
+  "FIRST-ATTESTED",
+  "RUIN-UNDATED"
+ ],
+ "counts": {
+  "city_capital": 1,
+  "city_garrison": 2,
+  "city_other": 1,
+  "extent_label_point": 2,
+  "extent_features": 2,
+  "group_features": 0,
+  "cities": 4
+ },
+ "context": {
+  "key_events_en": [
+   "Fortresses at the Second Cataract (Buhen, Semna)"
+  ],
+  "key_events_ar": [
+   "قلاع عند الشلال الثاني (بوهن، سمنة)"
+  ],
+  "key_events_source_ids": [
+   "GHA2_CH12",
+   "WP:Middle_Kingdom_of_Egypt"
+  ],
+  "dating_note": null,
+  "capitals": [
+   {
+    "name": "Itjtawy",
+    "lat": 29.4,
+    "lon": 31.2
+   }
+  ],
+  "control_limits_en": "\"The southern boundary of the Egyptian Middle Kingdom was unquestionably fixed at Semna by Senusret III\" (GHA II p.258; pp.240, 255).",
+  "control_limits_ar": "«ثُبّت الحد الجنوبي للدولة الوسطى عند سمنة على يد سنوسرت الثالث» (ص258). [Arabic text pending native-speaker review.]",
+  "control_limits_source_ids": [
+   "GHA2_CH9",
+   "GHA2"
+  ],
+  "control_confidence": "medium"
+ },
+ "interactive": {
+  "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
+  "layer_toggles": [
+   "extents",
+   "cities",
+   "homelands",
+   "basemap_rivers",
+   "basemap_terrain",
+   "graticule"
+  ],
+  "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
+  "badge_filter": [
+   "AR-REVIEW",
+   "FIRST-ATTESTED",
+   "RUIN-UNDATED"
+  ],
+  "what_changed": {
+   "previous_era_id": "early-dynastic-old-kingdom-egypt",
+   "basis": "previous era in same stream by start year",
+   "extents_added": [
+    "Buhen fortress (reference marker)",
+    "Semna (southern frontier, reference marker)"
+   ],
+   "extents_removed": [
+    "Buhen (Old Kingdom outpost, reference marker)",
+    "Elephantine (southern nome seat, reference marker)"
+   ],
+   "cities_added": [
+    "buhen",
+    "kerma",
+    "semna"
+   ],
+   "cities_removed": [],
+   "capitals_added": [
+    "kerma"
+   ],
+   "capitals_removed": [],
+   "groups_added": [],
+   "groups_removed": []
+  }
+ }
+}

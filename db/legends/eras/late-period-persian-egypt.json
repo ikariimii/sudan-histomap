@@ -1,0 +1,365 @@
+{
+ "era_id": "late-period-persian-egypt",
+ "name_en": "Late Period / Persian Egypt",
+ "stream": "Egypt",
+ "start": -664,
+ "end": -332,
+ "layers": {
+  "extents": {
+   "file": "db/extents/late-period-persian-egypt.geojson",
+   "features": [
+    {
+     "feature_index": 0,
+     "id": null,
+     "label_en": "Elephantine, \"frontier between Egypt and Ethiopia\" (reference marker)",
+     "symbol_class": "extent_label_point",
+     "certainty": "medium",
+     "badges": [],
+     "start": -525,
+     "end": -332,
+     "source_ids": [
+      "GHA2_CH6",
+      "GHA2_CH2",
+      "GHA2_CH10"
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "file": null,
+   "features": []
+  },
+  "cities": {
+   "file": "db/city_layers/cities.geojson",
+   "features": [
+    {
+     "id": "napata",
+     "name_en": "Napata",
+     "name_ar": "نبتة",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-kush-napatan-period",
+       "start": -800,
+       "end": -300,
+       "source_id": "GHA2_CH10",
+       "page": "283"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "283"
+      },
+      {
+       "id": "GHA2_CH10",
+       "page": "285"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q743282"
+      }
+     ]
+    },
+    {
+     "id": "jebel-barkal",
+     "name_en": "Jebel Barkal",
+     "name_ar": "جبل البركل",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": -1290,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "268"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "268"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q499019"
+      }
+     ]
+    },
+    {
+     "id": "nuri",
+     "name_en": "Nuri",
+     "name_ar": "نوري",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "kingdom-of-kush-napatan-period",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH10",
+       "page": "285"
+      }
+     ],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "285"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q2119839"
+      }
+     ]
+    },
+    {
+     "id": "soleb",
+     "name_en": "Soleb",
+     "name_ar": "صوليب",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "144"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1457914"
+      }
+     ]
+    },
+    {
+     "id": "buhen",
+     "name_en": "Buhen",
+     "name_ar": "بوهين",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "middle-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "role": "garrison",
+       "era_id": "egyptian-new-kingdom-rule-in-nubia",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "265"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH9",
+       "page": "265"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "266"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1002656"
+      }
+     ]
+    },
+    {
+     "id": "abu-simbel",
+     "name_en": "Abu Simbel",
+     "name_ar": "أبو سمبل",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q134140"
+      }
+     ]
+    },
+    {
+     "id": "aswan",
+     "name_en": "Aswan",
+     "name_ar": "أسوان",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "238"
+      },
+      {
+       "id": "GHA3_CH8",
+       "page": "195"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q29888"
+      }
+     ]
+    },
+    {
+     "id": "kawa",
+     "name_en": "Kawa (Gematon)",
+     "name_ar": "كوة",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "APPROXIMATE-COORDS",
+      "AR-REVIEW"
+     ],
+     "source_ids": [
+      {
+       "id": "PLEIADES_805647",
+       "page": "805647"
+      },
+      {
+       "id": "SARS_KAWA",
+       "page": "project page"
+      }
+     ]
+    }
+   ]
+  },
+  "homelands": {
+   "file": "db/group_layers/homelands.geojson",
+   "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
+   "drawn": 14,
+   "list_only": 7
+  }
+ },
+ "symbol_classes_present": [
+  "city_capital",
+  "city_garrison",
+  "city_other",
+  "city_religious",
+  "extent_label_point"
+ ],
+ "badges_present": [
+  "APPROXIMATE",
+  "APPROXIMATE-COORDS",
+  "AR-REVIEW",
+  "FIRST-ATTESTED",
+  "RUIN-UNDATED"
+ ],
+ "counts": {
+  "city_capital": 1,
+  "city_garrison": 1,
+  "city_other": 4,
+  "city_religious": 2,
+  "extent_label_point": 1,
+  "extent_features": 1,
+  "group_features": 0,
+  "cities": 8
+ },
+ "context": {
+  "key_events_en": [
+   "26th Dynasty; Psamtik II's expedition takes Napata (GHA II: 591 BCE; often 593 BCE)"
+  ],
+  "key_events_ar": [
+   "الأسرة السادسة والعشرون؛ حملة بسماتيك الثاني تستولي على نبتة (تاريخ أفريقيا العام، المجلد الثاني: 591 ق.م؛ وكثيراً ما تُؤرَّخ بـ593 ق.م)"
+  ],
+  "key_events_source_ids": [
+   "GHA2_CH12",
+   "WP:Late_Period_of_ancient_Egypt"
+  ],
+  "dating_note": null,
+  "capitals": [
+   {
+    "name": "Sais",
+    "lat": 30.96,
+    "lon": 30.77
+   }
+  ],
+  "control_limits_en": "Herodotus (c.−450) described Elephantine as \"the frontier between Egypt and Ethiopia\" (GHA II p.197); Cambyses' army could not cross the Batn el-Hagar (p.286).",
+  "control_limits_ar": "وصف هيرودوت إلفنتين بأنها «الحد بين مصر وإثيوبيا» (ص197)؛ ولم يعبر جيش قمبيز بطن الحجر (ص286). [Arabic text pending native-speaker review.]",
+  "control_limits_source_ids": [
+   "GHA2_CH6",
+   "GHA2_CH2",
+   "GHA2_CH10"
+  ],
+  "control_confidence": "low"
+ },
+ "interactive": {
+  "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
+  "layer_toggles": [
+   "extents",
+   "cities",
+   "homelands",
+   "basemap_rivers",
+   "basemap_terrain",
+   "graticule"
+  ],
+  "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
+  "badge_filter": [
+   "APPROXIMATE",
+   "APPROXIMATE-COORDS",
+   "AR-REVIEW",
+   "FIRST-ATTESTED",
+   "RUIN-UNDATED"
+  ],
+  "what_changed": {
+   "previous_era_id": "new-kingdom-egypt",
+   "basis": "previous era in same stream by start year",
+   "extents_added": [
+    "Elephantine, \"frontier between Egypt and Ethiopia\" (reference marker)"
+   ],
+   "extents_removed": [
+    "Kurgus frontier (reference marker)",
+    "Napata / Fourth Cataract (reference marker)",
+    "Pi-Ramesses (reference marker)"
+   ],
+   "cities_added": [
+    "napata",
+    "nuri"
+   ],
+   "cities_removed": [],
+   "capitals_added": [
+    "napata"
+   ],
+   "capitals_removed": [],
+   "groups_added": [],
+   "groups_removed": []
+  }
+ }
+}
