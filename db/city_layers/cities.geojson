@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "meta": {
-  "source": "db/cities.json @8ccca3c",
+  "source": "db/cities.json @16a96ed",
   "rule": "visible_from = map_from (founded, else first_attested, badge FIRST-ATTESTED); no map_from = list_only; abandoned null = inhabited_today; abandoned {year:null} = ruin (RUIN-UNDATED, inhabited_today false) ending at last_attested (carrying its badge), else last cited role end, else open"
  },
  "list_only": [
@@ -19,6 +19,11 @@
    "id": "banganarti",
    "name_en": "Banganarti",
    "reason": "no cited founded or first-attested date in sources read"
+  },
+  {
+   "id": "el-fasher",
+   "name_en": "El Fasher",
+   "reason": "first_attested NO-SOURCE: GHA V p.190 prints 1741–2 for the fashir, inconsistent with p.189 (c.1790); likely 1791–2, unconfirmed."
   },
   {
    "id": "dongola",
@@ -2053,56 +2058,6 @@
      }
     ],
     "map_from": 1865
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     25.34958,
-     13.62698
-    ]
-   },
-   "properties": {
-    "id": "el-fasher",
-    "name_en": "El Fasher",
-    "name_ar": "الفاشر",
-    "wikidata": "Q311204",
-    "category": "ancient",
-    "visible_from": 1650,
-    "visible_from_basis": "first_attested",
-    "visible_to": null,
-    "inhabited_today": true,
-    "roles": [
-     {
-      "era_id": "sultanate-of-darfur-keira",
-      "role": "capital",
-      "start": null,
-      "end": 1874,
-      "source_id": "GHA5_CH7",
-      "page": "190",
-      "note": "permanent capital from the reign of Abd al-Rahman; end = era end"
-     }
-    ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
-    "history_en": "Permanent capital of the Keira sultanate of Darfur.",
-    "history_ar": "العاصمة الدائمة لسلطنة دارفور.",
-    "history_source": null,
-    "source_ids": [
-     {
-      "id": "GHA5_CH7",
-      "page": "190"
-     },
-     {
-      "id": "WIKIDATA_CITIES",
-      "page": "Q311204"
-     }
-    ],
-    "map_from": 1650
    }
   },
   {
