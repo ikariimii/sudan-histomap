@@ -77,13 +77,24 @@ def main():
                           'base_source': ['schematic great-circle between place-data endpoints'], 'base_source_text': ', '.join(map(str, pr.get('endpoint_sources') or [])),
                           'base_source_null_reason': None, 'badges': pr.get('badges') or [], 'confidence': None, 'certainty': None,
                           'checked_against': [], 'overlay_mean_error_km': None, 'overlay_null_reason': 'schematic line, not traced'})
+        mf = os.path.join(R, 'db/ethno_markers/seligman1932.geojson')
+        for k, ft in enumerate(json.load(open(mf, encoding='utf-8'))['features'] if os.path.exists(mf) and p['start'] < 1956 else []):
+            pr = ft['properties']
+            if pr['era_id'] != e: continue
+            items.append({'layer': 'ethno_markers', 'file': 'db/ethno_markers/seligman1932.geojson', 'feature_index': k, 'feature_id': pr['id'],
+                          'label_en': pr['label_en'], 'zone_type': 'label_marker', 'geometry_type': 'Point',
+                          'cites': [{'id': 'SELIGMAN1932', 'pages': pr['sources'][0]['plate']}],
+                          'base_source': ['georeferenced period map (Seligman 1932, RMS 1.33 km)'], 'base_source_text': pr['method'],
+                          'base_source_null_reason': None, 'badges': pr['badges'], 'confidence': None, 'certainty': None,
+                          'date_note': pr['date_note'], 'note': pr['note'],
+                          'checked_against': [], 'overlay_mean_error_km': None, 'overlay_null_reason': 'label position, not a traced shape'})
         eras[e] = {'name_en': p['name'], 'stream': p['stream'], 'start': p['start'], 'end': p['end'], 'shapes': items,
                    'counts': {'shapes': len(items), 'contested': sum(1 for x in items if 'contested' in x['zone_type'] or 'CONTESTED' in x['badges']),
                               'trade_routes': sum(1 for x in items if x['layer'] == 'trade_routes'),
                               'base_source_null': sum(1 for x in items if x['base_source'] is None)}}
     meta = {'generated_by': 'db/map_sources/build_map_sources.py', 'owner': 'Sudan Map Designer',
-            'inputs': ['data/periods.json', 'db/extents/*.geojson', 'db/trade_routes/*.geojson', 'db/border_overlay_maps.json'],
-            'schema': {'eras.<era_id>.shapes[]': {'layer': 'extents|trade_routes', 'file': 'path', 'feature_index': 'int', 'feature_id': 'properties.id or null',
+            'inputs': ['data/periods.json', 'db/extents/*.geojson', 'db/trade_routes/*.geojson', 'db/ethno_markers/seligman1932.geojson', 'db/border_overlay_maps.json'],
+            'schema': {'eras.<era_id>.shapes[]': {'layer': 'extents|trade_routes|ethno_markers', 'file': 'path', 'feature_index': 'int', 'feature_id': 'properties.id or null',
                        'label_en': 'str|null', 'zone_type': 'core|claimed|influence|contested|contested_point|extent|point|line|list_only|trade_route',
                        'cites': '[{id, pages}] from sources/source/cite/pages', 'base_source': 'list of base-source types matched in the feature own provenance properties, or null',
                        'base_source_text': 'the provenance text matched', 'base_source_null_reason': 'why base_source is null', 'badges': 'list', 'confidence': 'number|null',

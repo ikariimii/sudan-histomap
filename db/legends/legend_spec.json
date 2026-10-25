@@ -452,6 +452,21 @@
    "pattern": "45° hairlines, 6px spacing, stroke #e8eef2",
    "opacity_rule": "0.5*(1-confidence)",
    "applies_when": "confidence < 0.5"
+  },
+  {
+   "id": "ethno_label_marker",
+   "geometry": "point",
+   "label_en": "Where the 1932 Seligman map places the name (1910s–30s); not a boundary or claim",
+   "label_ar": null,
+   "label_ar_status": "needs translation and native review",
+   "fill": null,
+   "stroke": "dashed, 50% opacity",
+   "halo": "soft unfilled ring, ~40 km",
+   "og_preview": false,
+   "badges": [
+    "APPROXIMATE",
+    "SINGLE-SOURCE"
+   ]
   }
  ],
  "uncertainty_encoding": {

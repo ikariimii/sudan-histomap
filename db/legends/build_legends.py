@@ -41,6 +41,16 @@ def route_layer(sl):
              'symbol_class': 'trade_route', 'badges': x['properties'].get('badges') or [], 'cite': x['properties'].get('cite')}
             for x in json.load(open(f, encoding='utf-8'))['features']]
 
+def ethno_layer(sl, start):
+    f = os.path.join(R, 'db/ethno_markers/seligman1932.geojson')
+    if not os.path.exists(f) or start >= 1956: return []
+    return [{'id': x['properties']['id'], 'label_en': x['properties']['label_en'], 'symbol_class': 'ethno_label_marker',
+             'coord': x['geometry']['coordinates'], 'badges': x['properties']['badges'], 'note': x['properties']['note'],
+             'date_note': x['properties']['date_note'], 'caption_en': x['properties']['caption_en'],
+             'display_hint': x['properties']['display_hint'], 'source_ids': [c['id'] for c in x['properties']['sources']],
+             'plate': x['properties']['sources'][0]['plate']}
+            for x in json.load(open(f, encoding='utf-8'))['features'] if x['properties']['era_id'] == sl]
+
 def flag_layer(sl):
     v = SYM.get(sl) or {}; fl = v.get('flag'); anc = (FOC.get(sl) or {}).get('flag_anchor')
     items = []
@@ -145,6 +155,12 @@ def era(i, p):
         out['layers']['trade_routes'] = {'file': f'db/trade_routes/{sl}.geojson', 'features': rt}
         cls['trade_route'] = len(rt)
         for x in rt: bs |= set(x['badges'])
+    em = ethno_layer(sl, s)
+    if em:
+        out['layers']['ethno_markers'] = {'file': 'db/ethno_markers/seligman1932.geojson', 'og_preview': False,
+                                          'note': 'Soft unfilled halo at the label position; not a boundary or claim. Excluded from OG images.', 'features': em}
+        cls['ethno_label_marker'] = len(em)
+        for x in em: bs |= set(x['badges'])
     out['symbol_classes_present'] = sorted(cls); out['counts'] = dict(sorted(cls.items()))
     out['counts'].update({'extent_features': len(ext), 'group_features': len(grp), 'cities': len(cit)})
     out['badges_present'] = sorted(bs)
