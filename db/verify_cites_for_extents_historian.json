@@ -121,6 +121,21 @@
    "source_id": "MSM1972",
    "page": "p.149",
    "quote_en_from_draft": "to the borders of Abyssinia and Suakin in the east, to Kab Bulul at the borders of the Fur sultanate in the west, and to Arbaji ... in the south"
+  },
+  {
+   "id": "HEGLIG-OILFIELD",
+   "place": "Heglig (هجليج), oil-field settlement",
+   "role": "location point for the Heglig oil field in the Abyei-area/Heglig border zone; location only, no control or ownership claim",
+   "lat": 9.9994444,
+   "lon": 29.3986111,
+   "coord_source": "Wikidata Q1320844 'Heglig' (human settlement), P625 9.9994444N 29.3986111E, read 2026-10-25. Wikidata has no separate item for the oil field itself; the nearby Heglig airstrip (Q1431440) is at 9.9949N 29.3977E. No UN/OCHA gazetteer point checked.",
+   "coord_source_id": "WD:Q1320844",
+   "badges": [
+    "APPROXIMATE",
+    "SINGLE-SOURCE"
+   ],
+   "target": "any cited place layer / trade-route endpoint (not db/extents)",
+   "purpose": "oil-field location point; any control or contested-status statement needs a separate UN or aid-agency cite"
   }
  ]
 }
