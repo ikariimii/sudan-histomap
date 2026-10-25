@@ -339,5 +339,37 @@
    "ar": "{base_alt}؛ متنازع عليه [VERIFY]"
   },
   "colourblind": "amber is backed by the diamond shape and the ring, so it is never colour alone"
+ },
+ "end_badge": {
+  "applies_to": "any war in db/wars.json with a non-empty end_badge (any value, e.g. VERIFY); the text comes from the value, there is no per-value styling",
+  "timeline_war_bar": {
+   "normal": "solid bar in war colour",
+   "end_segment": "last 15% of the bar (min 12px) fades from opacity 1 to 0.35 and switches to dash 3 2 at the same weight",
+   "badge": {
+    "shape": "pill 14px high, #14232f fill, 1px #e0a63e border, #e0a63e text 10px",
+    "position": "just after the bar end (before it in RTL)",
+    "text_en": "end date unverified",
+    "text_ar": "تاريخ النهاية غير مؤكد [VERIFY]",
+    "raw_value": "show the end_badge value as a small prefix tag when it isn't 'VERIFY', e.g. 'DISPUTED · end date unverified'"
+   }
+  },
+  "hover": {
+   "target": "badge and faded end segment",
+   "tooltip": "end_note (EN; in AR mode use end_note_ar if present, else the EN text marked [VERIFY])",
+   "fallback": "if end_note is empty, show only the badge text"
+  },
+  "war_footprint_label": {
+   "badge": "the same pill after the war name and date span (before in RTL); the date span renders as 'from – to?' with the end year at 0.6 opacity",
+   "hover": "same end_note tooltip"
+  },
+  "legend": {
+   "en": "End date unverified",
+   "ar": "تاريخ النهاية غير مؤكد [VERIFY]"
+  },
+  "alt_text": {
+   "en": "{war}, {from} to {to}; end date unverified",
+   "ar": "{war}، {from} إلى {to}؛ تاريخ النهاية غير مؤكد [VERIFY]"
+  },
+  "colourblind": "the amber is backed by the dash change, the fade and the text badge"
  }
 }
