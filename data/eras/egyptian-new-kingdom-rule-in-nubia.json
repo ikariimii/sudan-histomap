@@ -111,5 +111,39 @@
    "WP:Viceroy_of_Kush",
    "WIKIDATA_CITIES"
   ]
+ },
+ "how_we_know": {
+  "sources": [
+   {
+    "id": "GHA2_CH9",
+    "title": "Nubia before Napata (−3100 to −750), ch.9 (General History of Africa II)",
+    "pages": "GHA II ch.9 pp.267, 270"
+   },
+   {
+    "id": "DAVIES2003",
+    "title": "La frontière méridionale de l'Empire : les Égyptiens à Kurgus",
+    "pages": "Davies 2003 pp.23–37; GHA II pp.241, 261"
+   },
+   {
+    "id": "SARS_KURGUS",
+    "title": "Kurgus – Investigations at Kurgus, a joint SARS–British Museum project (1998–2012, 2014–2018)",
+    "pages": "Davies 2003 pp.23–37; GHA II pp.241, 261"
+   }
+  ],
+  "zones": [
+   {
+    "zone": "core",
+    "confidence": 0.6,
+    "status": "approved",
+    "plain_en": "Core territory: fairly high confidence (0.6)."
+   },
+   {
+    "zone": "claimed",
+    "confidence": 0.6,
+    "status": "approved",
+    "plain_en": "Claimed limit: fairly high confidence (0.6)."
+   }
+  ],
+  "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
  }
 }

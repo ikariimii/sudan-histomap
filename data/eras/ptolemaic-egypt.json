@@ -104,5 +104,39 @@
    "GHA2_CH6",
    "GHA2_CH7"
   ]
+ },
+ "how_we_know": {
+  "sources": [
+   {
+    "id": "GHA2_CH6",
+    "title": "Egypt in the hellenistic era, ch.6 (General History of Africa II)",
+    "pages": "GHA II pp.184, 208"
+   },
+   {
+    "id": "GHA2_CH7",
+    "title": "Egypt under Roman domination, ch.7 (General History of Africa II)",
+    "pages": "GHA II pp.184, 208"
+   },
+   {
+    "id": "GHA2_CH10",
+    "title": "The empire of Kush: Napata and Meroe, ch.10 (General History of Africa II)",
+    "pages": "GHA II pp.203, 208, 288"
+   }
+  ],
+  "zones": [
+   {
+    "zone": "core",
+    "confidence": 0.75,
+    "status": "approved",
+    "plain_en": "Core territory: fairly high confidence (0.75)."
+   },
+   {
+    "zone": "contested",
+    "confidence": 0.4,
+    "status": "approved",
+    "plain_en": "Contested zone: moderate confidence (0.4) – drawn as a single point, not an area."
+   }
+  ],
+  "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
  }
 }

@@ -90,5 +90,33 @@
   "source_ids": [
    "HD2011"
   ]
+ },
+ "how_we_know": {
+  "sources": [
+   {
+    "id": "MACMICHAEL1922_V1",
+    "title": "A History of the Arabs in the Sudan and some account of the people who preceded them and of the tribes inhabiting Darfur, Vol. I",
+    "pages": "MacMichael 1922 I pp.85–86; GHA VII ch.12 p.283"
+   },
+   {
+    "id": "GHA7_CH12",
+    "title": "The First World War and its consequences (General History of Africa VII, ch.12)",
+    "pages": "MacMichael 1922 I pp.85–86; GHA VII ch.12 p.283"
+   },
+   {
+    "id": "HD2011",
+    "title": "A History of the Sudan: From the Coming of Islam to the Present Day",
+    "pages": "MacMichael 1922 I pp.85–86; GHA VII ch.12 p.283"
+   }
+  ],
+  "zones": [
+   {
+    "zone": "core",
+    "confidence": 0.5,
+    "status": "approved",
+    "plain_en": "Core territory: moderate confidence (0.5)."
+   }
+  ],
+  "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
  }
 }

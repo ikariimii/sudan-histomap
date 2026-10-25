@@ -104,5 +104,39 @@
    "GHA5_CH7",
    "ZH_EMB_HIST2020"
   ]
+ },
+ "how_we_know": {
+  "sources": [
+   {
+    "id": "GHA4_CH16",
+    "title": "Nubia from the late 12th century to the Funj conquest in the early 16th century, ch.16 (General History of Africa IV)",
+    "pages": "GHA IV ch.16 p.406"
+   },
+   {
+    "id": "OFS1974",
+    "title": "Kingdoms of the Sudan",
+    "pages": "GHA IV ch.16 p.406"
+   },
+   {
+    "id": "HD2011",
+    "title": "A History of the Sudan: From the Coming of Islam to the Present Day",
+    "pages": "GHA IV ch.16 p.406"
+   }
+  ],
+  "zones": [
+   {
+    "zone": "core",
+    "confidence": 0.6,
+    "status": "approved",
+    "plain_en": "Core territory: fairly high confidence (0.6)."
+   },
+   {
+    "zone": "claimed",
+    "confidence": 0.35,
+    "status": "not-verified",
+    "plain_en": "Claimed limit: moderate confidence (0.35); not yet verified."
+   }
+  ],
+  "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
  }
 }

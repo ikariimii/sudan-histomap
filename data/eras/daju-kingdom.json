@@ -77,5 +77,28 @@
   "source_ids": [
    "OFAHEY2008"
   ]
+ },
+ "how_we_know": {
+  "sources": [
+   {
+    "id": "GHA4_CH16",
+    "title": "Nubia from the late 12th century to the Funj conquest in the early 16th century, ch.16 (General History of Africa IV)",
+    "pages": "GHA IV ch.16 p.420"
+   },
+   {
+    "id": "OFAHEY2008",
+    "title": "The Darfur Sultanate: A History",
+    "pages": "GHA IV ch.16 p.420"
+   }
+  ],
+  "zones": [
+   {
+    "zone": "core",
+    "confidence": 0.3,
+    "status": "approved",
+    "plain_en": "Core territory: low confidence (0.3)."
+   }
+  ],
+  "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
  }
 }

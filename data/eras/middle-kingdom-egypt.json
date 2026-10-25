@@ -89,5 +89,29 @@
    "GHA2_CH9",
    "WIKIDATA_CITIES"
   ]
+ },
+ "how_we_know": {
+  "sources": [
+   {
+    "id": "GHA2_CH9",
+    "title": "Nubia before Napata (−3100 to −750), ch.9 (General History of Africa II)",
+    "pages": "GHA II ch.9 p.255"
+   }
+  ],
+  "zones": [
+   {
+    "zone": "core",
+    "confidence": 0.7,
+    "status": "approved",
+    "plain_en": "Core territory: fairly high confidence (0.7)."
+   },
+   {
+    "zone": "claimed",
+    "confidence": 0.6,
+    "status": "approved",
+    "plain_en": "Claimed limit: fairly high confidence (0.6)."
+   }
+  ],
+  "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
  }
 }

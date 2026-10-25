@@ -82,5 +82,28 @@
   "source_ids": [
    "HD2011"
   ]
+ },
+ "how_we_know": {
+  "sources": [
+   {
+    "id": "GHA5_CH7",
+    "title": "The Sudan, 1500–1800, ch.7 (General History of Africa V)",
+    "pages": "GHA V ch.7 p.183"
+   },
+   {
+    "id": "HD2011",
+    "title": "A History of the Sudan: From the Coming of Islam to the Present Day",
+    "pages": "GHA V ch.7 p.183"
+   }
+  ],
+  "zones": [
+   {
+    "zone": "core",
+    "confidence": 0.45,
+    "status": "approved",
+    "plain_en": "Core territory: moderate confidence (0.45)."
+   }
+  ],
+  "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
  }
 }

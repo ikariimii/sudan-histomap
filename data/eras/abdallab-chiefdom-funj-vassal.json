@@ -88,5 +88,34 @@
    "GHA5_CH7",
    "WIKIDATA_CITIES"
   ]
+ },
+ "how_we_know": {
+  "sources": [
+   {
+    "id": "GHA5_CH7",
+    "title": "The Sudan, 1500–1800, ch.7 (General History of Africa V)",
+    "pages": "GHA V ch.7 p.172"
+   },
+   {
+    "id": "OFS1974",
+    "title": "Kingdoms of the Sudan",
+    "pages": ""
+   }
+  ],
+  "zones": [
+   {
+    "zone": "core",
+    "confidence": 0.4,
+    "status": "approved",
+    "plain_en": "Core territory: moderate confidence (0.4)."
+   },
+   {
+    "zone": "influence",
+    "confidence": 0.25,
+    "status": "not-verified",
+    "plain_en": "Zone of influence: low confidence (0.25); not yet verified."
+   }
+  ],
+  "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
  }
 }

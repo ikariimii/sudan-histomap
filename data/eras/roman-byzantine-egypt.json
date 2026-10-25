@@ -91,5 +91,34 @@
    "GHA2_CH7",
    "WIKIDATA_CITIES"
   ]
+ },
+ "how_we_know": {
+  "sources": [
+   {
+    "id": "GHA2_CH7",
+    "title": "Egypt under Roman domination, ch.7 (General History of Africa II)",
+    "pages": "GHA II ch.7 p.210"
+   },
+   {
+    "id": "GHA2_CH10",
+    "title": "The empire of Kush: Napata and Meroe, ch.10 (General History of Africa II)",
+    "pages": "GHA II pp.208, 290, 294"
+   }
+  ],
+  "zones": [
+   {
+    "zone": "core",
+    "confidence": 0.75,
+    "status": "approved",
+    "plain_en": "Core territory: fairly high confidence (0.75)."
+   },
+   {
+    "zone": "claimed",
+    "confidence": 0.5,
+    "status": "approved",
+    "plain_en": "Claimed limit: moderate confidence (0.5)."
+   }
+  ],
+  "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
  }
 }

@@ -79,5 +79,28 @@
   "source_ids": [
    "OFAHEY_SPAULDING1972"
   ]
+ },
+ "how_we_know": {
+  "sources": [
+   {
+    "id": "GHA5_CH7",
+    "title": "The Sudan, 1500–1800, ch.7 (General History of Africa V)",
+    "pages": "GHA V ch.7 pp.187–189"
+   },
+   {
+    "id": "OFS1972",
+    "title": "Hāshim and the Musabba'āt",
+    "pages": "GHA V ch.7 pp.187–189"
+   }
+  ],
+  "zones": [
+   {
+    "zone": "influence",
+    "confidence": 0.3,
+    "status": "approved",
+    "plain_en": "Zone of influence: low confidence (0.3)."
+   }
+  ],
+  "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
  }
 }
