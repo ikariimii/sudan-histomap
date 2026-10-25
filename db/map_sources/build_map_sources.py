@@ -52,6 +52,14 @@ def zone_type(p, g):
     if g is None: return 'list_only'
     if 'CONTESTED' in badges(p): return 'contested_point' if g['type'] == 'Point' else 'contested'
     return {'Point': 'point', 'MultiPoint': 'point', 'LineString': 'line', 'MultiLineString': 'line'}.get(g['type'], 'extent')
+AR = json.load(open(os.path.join(R, 'db/map_sources/labels_ar.json'), encoding='utf-8'))['ar']
+def add_ar(x):  # Arabic label/reason translations from labels_ar.json (all [VERIFY]); inserted after each English key
+    out = {}
+    for k, v in x.items():
+        out[k] = v
+        if k in ('label_en', 'base_source_null_reason', 'overlay_null_reason'):
+            out['label_ar' if k == 'label_en' else k + '_ar'] = AR.get(v) if v else None
+    return out
 def main():
     eras, shapes = {}, {}
     for p in P:
@@ -88,6 +96,7 @@ def main():
                           'base_source_null_reason': None, 'badges': pr['badges'], 'confidence': None, 'certainty': None,
                           'date_note': pr['date_note'], 'note': pr['note'],
                           'checked_against': [], 'overlay_mean_error_km': None, 'overlay_null_reason': 'label position, not a traced shape'})
+        items = [add_ar(x) for x in items]
         eras[e] = {'name_en': p['name'], 'stream': p['stream'], 'start': p['start'], 'end': p['end'], 'shapes': items,
                    'counts': {'shapes': len(items), 'contested': sum(1 for x in items if 'contested' in x['zone_type'] or 'CONTESTED' in x['badges']),
                               'trade_routes': sum(1 for x in items if x['layer'] == 'trade_routes'),
@@ -95,11 +104,11 @@ def main():
     meta = {'generated_by': 'db/map_sources/build_map_sources.py', 'owner': 'Sudan Map Designer',
             'inputs': ['data/periods.json', 'db/extents/*.geojson', 'db/trade_routes/*.geojson', 'db/ethno_markers/seligman1932.geojson', 'db/border_overlay_maps.json'],
             'schema': {'eras.<era_id>.shapes[]': {'layer': 'extents|trade_routes|ethno_markers', 'file': 'path', 'feature_index': 'int', 'feature_id': 'properties.id or null',
-                       'label_en': 'str|null', 'zone_type': 'core|claimed|influence|contested|contested_point|extent|point|line|list_only|trade_route',
+                       'label_en': 'str|null', 'label_ar': 'Arabic of label_en from labels_ar.json, ends [VERIFY]', 'zone_type': 'core|claimed|influence|contested|contested_point|extent|point|line|list_only|trade_route',
                        'cites': '[{id, pages}] from sources/source/cite/pages', 'base_source': 'list of base-source types matched in the feature own provenance properties, or null',
                        'base_source_text': 'the provenance text matched', 'base_source_null_reason': 'why base_source is null', 'badges': 'list', 'confidence': 'number|null',
                        'certainty': 'word|null', 'checked_against': '[{title, mean_error_km, gcp_count}] maps in border_overlay_maps.json this draft was checked against; mean_error_km is the georeferencing error of the MAP (2nd-order polynomial RMS), not of the shape', 'overlay_mean_error_km': 'error of the shape if traced from a georeferenced map; null everywhere (none traced)',
-                       'overlay_null_reason': 'why null'}},
+                       'overlay_null_reason': 'why null', 'base_source_null_reason_ar / overlay_null_reason_ar': 'Arabic of the reason from labels_ar.json, ends [VERIFY]'}},
             'checked_against_note': 'mean_error_km values are the errors of the maps the shape was checked against, not of the shape.',
             'rules': 'Derived only from the input files; nothing inferred. Base source is null when the properties do not name one.',
             'totals': {'eras': len(eras), 'shapes': sum(v['counts']['shapes'] for v in eras.values()),
