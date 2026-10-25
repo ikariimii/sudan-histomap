@@ -359,19 +359,52 @@
       }
     ]
   },
-  "dropped": {
-    "war-in-sudan-saf-vs-rsf#2": "Famine declared 2024: only UN-family source read (S/2025/239 p.20) says 'risk of famine'; declaration source is IPC, not allowed for 2023+",
-    "war-in-sudan-saf-vs-rsf#3": "IPC FRC Zamzam famine July 2024: IPC not in allowed source set (UN/OCHA/ACLED/Panel); no UN doc read confirms it",
-    "december-revolution-transition#2": "Coup 25 Oct 2021: not found in S/RES/2524, S/RES/2636, S/2024/65 or S/2025/239",
-    "republic-of-south-sudan#3": "R-TGoNU 22 Feb 2020: not found in S/RES/2514 or S/RES/2459",
-    "republic-of-egypt#0": "Aswan High Dam / Wadi Halfa 1964: no readable source fetched",
-    "french-chad-republic-of-chad#0": "Chad independence 1960: no readable source fetched",
-    "central-african-republic-ubangi-shari#0": "CAR independence 1960: no readable source fetched",
-    "independent-sudan-first-parliamentary-period#1": "PM al-Azhari then Khalil: not named in any readable source read (S/2005/60 pp.19-20, HRW1993)",
-    "december-revolution-transition#4": "Sovereignty Council/PM Hamdok: S/2024/65 p.6 only mentions 'former Prime Minister, Abdallah Hamdok' and the Sovereignty Council in a 2023 timeline; no date for the transition-era fact",
-    "war-in-sudan-saf-vs-rsf#4": "Government relocation to Port Sudan: S/2024/65 and S/2025/239 mention Port Sudan but neither states a relocation of government",
-    "derg-federal-ethiopia#0": "GERD construction from 2011: no readable source read prints it"
-  },
+  "dropped": [
+    {
+      "event_id": "central-african-republic-ubangi-shari#0",
+      "reason": "CAR independence 1960: no readable source fetched"
+    },
+    {
+      "event_id": "december-revolution-transition#2",
+      "reason": "Coup 25 Oct 2021: not found in S/RES/2524, S/RES/2636, S/2024/65 or S/2025/239"
+    },
+    {
+      "event_id": "december-revolution-transition#4",
+      "reason": "Sovereignty Council/PM Hamdok: S/2024/65 p.6 only mentions 'former Prime Minister, Abdallah Hamdok' and the Sovereignty Council in a 2023 timeline; no date for the transition-era fact"
+    },
+    {
+      "event_id": "derg-federal-ethiopia#0",
+      "reason": "GERD construction from 2011: no readable source read prints it"
+    },
+    {
+      "event_id": "french-chad-republic-of-chad#0",
+      "reason": "Chad independence 1960: no readable source fetched"
+    },
+    {
+      "event_id": "independent-sudan-first-parliamentary-period#1",
+      "reason": "PM al-Azhari then Khalil: not named in any readable source read (S/2005/60 pp.19-20, HRW1993)"
+    },
+    {
+      "event_id": "republic-of-egypt#0",
+      "reason": "Aswan High Dam / Wadi Halfa 1964: no readable source fetched"
+    },
+    {
+      "event_id": "republic-of-south-sudan#3",
+      "reason": "R-TGoNU 22 Feb 2020: not found in S/RES/2514 or S/RES/2459"
+    },
+    {
+      "event_id": "war-in-sudan-saf-vs-rsf#2",
+      "reason": "Famine declared 2024: only UN-family source read (S/2025/239 p.20) says 'risk of famine'; declaration source is IPC, not allowed for 2023+"
+    },
+    {
+      "event_id": "war-in-sudan-saf-vs-rsf#3",
+      "reason": "IPC FRC Zamzam famine July 2024: IPC not in allowed source set (UN/OCHA/ACLED/Panel); no UN doc read confirms it"
+    },
+    {
+      "event_id": "war-in-sudan-saf-vs-rsf#4",
+      "reason": "Government relocation to Port Sudan: S/2024/65 and S/2025/239 mention Port Sudan but neither states a relocation of government"
+    }
+  ],
   "sources_to_register": [
     {
       "id": "UNSG_S2011_413",
