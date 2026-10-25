@@ -1239,8 +1239,164 @@
       {
        "place": "Abyei Area",
        "gazetteer": "wikidata:Q336494",
-       "cite": null,
-       "cite_null_reason": "no source on Abyei read by the Historian; see Map Designer 42cd6d9"
+       "cite": [
+        {
+         "source": "PCA_ABYEI2009",
+         "page": "pp.267–269, paras 770, 772"
+        },
+        {
+         "source": "UNSC1990",
+         "page": "pp.2–3, OP 1, 2(a), 9"
+        },
+        {
+         "source": "ABYEI_PROTOCOL2004",
+         "page": "ss.1.1.2, 1.3 (via PCA_ABYEI2009)"
+        },
+        {
+         "source": "UNSG_S2013_706",
+         "page": "p.3, paras 11–12"
+        }
+       ],
+       "badge": "CONTESTED",
+       "notes": [
+        {
+         "field": "abyei.definition",
+         "badge": "SINGLE-SOURCE",
+         "text_en": "The Abyei Area is defined as the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905.",
+         "text_ar": "تُعرَّف منطقة أبيي بأنها منطقة مشيخات دينكا نقوك التسع التي نُقلت إلى كردفان عام 1905.",
+         "cite": [
+          {
+           "source": "ABYEI_PROTOCOL2004",
+           "page": "s.1.1.2 (via PCA_ABYEI2009 para 589, p.205)",
+           "quote": "The territory is defined as the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905;",
+           "read": "read only via the PCA award's quotation"
+          },
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "p.38, para 113",
+           "quote": "Section 1.1.2 of the Abyei Protocol defined the territory as “the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905.”"
+          }
+         ],
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.boundary",
+         "text_en": "In 2009 the Permanent Court of Arbitration set the area's boundaries: latitude 10°10'N in the north, longitudes 27°50'E and 29°00'E in the west and east, and the 1 January 1956 Kordofan–Bahr el-Ghazal–Upper Nile line in the south.",
+         "text_ar": "في عام 2009 حددت محكمة التحكيم الدائمة حدود المنطقة: خط العرض 10°10' شمالاً في الشمال، وخطا الطول 27°50' و29°00' شرقاً في الغرب والشرق، وفي الجنوب حدود كردفان – بحر الغزال – أعالي النيل كما كانت في 1 يناير 1956.",
+         "cite": [
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "pp.267–268, para 770(a)(3)",
+           "quote": "The northern boundary ... runs along latitude 10°10’00”N, from longitude 27°50’00”E to longitude 29°00’00”E."
+          },
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "pp.267–268, para 770(b)–(d)",
+           "quote": "“[t]he southern boundary shall be the Kordofan – Bahr el-Ghazal – Upper Nile boundary as it was defined on 1 January 1956,”"
+          },
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "p.269, para 772",
+           "quote": "these latitude values are approximate only and have been derived graphically from maps submitted by the Parties."
+          }
+         ],
+         "note": "Corner points 1 and 4 latitudes are approximate per the award itself (para 772).",
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.grazing",
+         "text_en": "The award left unaffected the right of the Misseriya and other nomadic peoples to graze cattle and move across the Abyei Area.",
+         "text_ar": "أبقى قرار التحكيم على حق المسيرية وغيرهم من الرحّل في رعي الماشية والتنقل عبر منطقة أبيي دون مساس.",
+         "cite": [
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "p.268, para 770(e)(2)",
+           "quote": "the right (guaranteed by Section 1.1.3 of the Abyei Protocol) of the Misseriya and other nomadic peoples to graze cattle and move across the Abyei Area (as defined in this Award), remains unaffected."
+          }
+         ],
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.unisfa",
+         "text_en": "In June 2011 the UN Security Council created the UN Interim Security Force for Abyei (UNISFA) and required the area, as defined by the PCA, to be demilitarised except for UNISFA and the Abyei Police Service.",
+         "text_ar": "في يونيو 2011 أنشأ مجلس الأمن الدولي قوة الأمم المتحدة الأمنية المؤقتة لأبيي (يونيسفا)، وقرر أن تكون المنطقة، بحدودها التي رسمتها محكمة التحكيم الدائمة، منزوعة السلاح إلا من يونيسفا وشرطة أبيي.",
+         "cite": [
+          {
+           "source": "UNSC1990",
+           "page": "p.2, OP 1",
+           "quote": "Decides to establish, for a period of 6 months, the United Nations Interim Security Force for Abyei (UNISFA)"
+          },
+          {
+           "source": "UNSC1990",
+           "page": "p.2, OP 2(a)",
+           "quote": "the Abyei Area shall be demilitarized from any forces other than UNISFA and the Abyei Police Service"
+          }
+         ],
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.status",
+         "badge": "CONTESTED",
+         "text_en": "Abyei's status is disputed. The referendum promised in the 2005 peace agreement, to be held alongside South Sudan's in January 2011, has not taken place.",
+         "text_ar": "وضع أبيي متنازع عليه. ولم يُجرَ الاستفتاء الذي نصّ عليه اتفاق السلام لعام 2005، والذي كان مقرراً بالتزامن مع استفتاء جنوب السودان في يناير 2011.",
+         "cite": [
+          {
+           "source": "ABYEI_PROTOCOL2004",
+           "page": "ss.1.3, 8.1 (via PCA_ABYEI2009 fn 1182, p.244)",
+           "quote": "Simultaneously with the referendum for southern Sudan, the residents of Abyei will cast a separate ballot.",
+           "read": "read only via the PCA award's quotation"
+          },
+          {
+           "source": "UNSC1990",
+           "page": "p.3, OP 9",
+           "quote": "urgently to fulfil their commitment under the CPA to resolve peacefully the final status of Abyei,"
+          }
+         ],
+         "note": "'has not taken place' rests on UNSC1990 (2011) and UNSG_S2013_706 (2013); no later report has been read.",
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.final_status",
+         "badge": "VERIFY",
+         "text_en": "Final status unresolved.",
+         "text_ar": "الوضع النهائي لم يُحسم بعد.",
+         "cite": [
+          {
+           "source": "UNSC1990",
+           "page": "p.3, OP 9",
+           "quote": "to resolve peacefully the final status of Abyei,"
+          },
+          {
+           "source": "UNSG_S2013_706",
+           "page": "p.3, paras 11–12",
+           "quote": "the Government of the Sudan and the Misseriya community termed the referendum illegitimate"
+          }
+         ],
+         "note": "Sourced only to 2011–2013 documents (latest: S/2013/706). VERIFY against a current UN Secretary-General report before showing as present-day.",
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.referendum_2013",
+         "badge": "CONTESTED",
+         "text_en": "In October 2013 the Ngok Dinka held a unilateral community referendum; their leaders announced 99.99% for joining South Sudan. Sudan called it illegitimate, the African Union Commission condemned it, and South Sudan did not publicly comment.",
+         "text_ar": "في أكتوبر 2013 أجرى دينكا نقوك استفتاءً مجتمعياً أحادي الجانب، وأعلن قادتهم أن 99.99% صوّتوا للانضمام إلى جنوب السودان. ووصفته حكومة السودان بأنه غير شرعي، وأدانته مفوضية الاتحاد الأفريقي، ولم تعلّق حكومة جنوب السودان علناً.",
+         "cite": [
+          {
+           "source": "UNSG_S2013_706",
+           "page": "p.3, para 11",
+           "quote": "On 31 October, the Ngok Dinka leadership announced that 99.99 per cent of eligible voters had opted for the Abyei Area to become part of South Sudan"
+          },
+          {
+           "source": "UNSG_S2013_706",
+           "page": "p.3, para 12",
+           "quote": "the Chairperson of the African Union Commission, Nkosazana Dlamini-Zuma, condemned the unilateral referendum ... The Government of South Sudan refrained from publicly commenting on the vote, while the Government of the Sudan and the Misseriya community termed the referendum illegitimate"
+          }
+         ],
+         "note": "Analyst's synthesis sentence 'It has no recognised legal effect' deliberately removed (not in the source).",
+         "text_ar_status": "working translation – needs native-speaker review"
+        }
+       ],
+       "notes_from": "Analyst db/source_entry_abyei.json (e07992c, a35ffd4); UNSG_S2014_28 not cited (not read)"
       },
       {
        "place": "Kafia Kingi",
@@ -1310,8 +1466,164 @@
       {
        "place": "Abyei Area",
        "gazetteer": "wikidata:Q336494",
-       "cite": null,
-       "cite_null_reason": "no source on Abyei read by the Historian; see Map Designer 42cd6d9"
+       "cite": [
+        {
+         "source": "PCA_ABYEI2009",
+         "page": "pp.267–269, paras 770, 772"
+        },
+        {
+         "source": "UNSC1990",
+         "page": "pp.2–3, OP 1, 2(a), 9"
+        },
+        {
+         "source": "ABYEI_PROTOCOL2004",
+         "page": "ss.1.1.2, 1.3 (via PCA_ABYEI2009)"
+        },
+        {
+         "source": "UNSG_S2013_706",
+         "page": "p.3, paras 11–12"
+        }
+       ],
+       "badge": "CONTESTED",
+       "notes": [
+        {
+         "field": "abyei.definition",
+         "badge": "SINGLE-SOURCE",
+         "text_en": "The Abyei Area is defined as the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905.",
+         "text_ar": "تُعرَّف منطقة أبيي بأنها منطقة مشيخات دينكا نقوك التسع التي نُقلت إلى كردفان عام 1905.",
+         "cite": [
+          {
+           "source": "ABYEI_PROTOCOL2004",
+           "page": "s.1.1.2 (via PCA_ABYEI2009 para 589, p.205)",
+           "quote": "The territory is defined as the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905;",
+           "read": "read only via the PCA award's quotation"
+          },
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "p.38, para 113",
+           "quote": "Section 1.1.2 of the Abyei Protocol defined the territory as “the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905.”"
+          }
+         ],
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.boundary",
+         "text_en": "In 2009 the Permanent Court of Arbitration set the area's boundaries: latitude 10°10'N in the north, longitudes 27°50'E and 29°00'E in the west and east, and the 1 January 1956 Kordofan–Bahr el-Ghazal–Upper Nile line in the south.",
+         "text_ar": "في عام 2009 حددت محكمة التحكيم الدائمة حدود المنطقة: خط العرض 10°10' شمالاً في الشمال، وخطا الطول 27°50' و29°00' شرقاً في الغرب والشرق، وفي الجنوب حدود كردفان – بحر الغزال – أعالي النيل كما كانت في 1 يناير 1956.",
+         "cite": [
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "pp.267–268, para 770(a)(3)",
+           "quote": "The northern boundary ... runs along latitude 10°10’00”N, from longitude 27°50’00”E to longitude 29°00’00”E."
+          },
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "pp.267–268, para 770(b)–(d)",
+           "quote": "“[t]he southern boundary shall be the Kordofan – Bahr el-Ghazal – Upper Nile boundary as it was defined on 1 January 1956,”"
+          },
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "p.269, para 772",
+           "quote": "these latitude values are approximate only and have been derived graphically from maps submitted by the Parties."
+          }
+         ],
+         "note": "Corner points 1 and 4 latitudes are approximate per the award itself (para 772).",
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.grazing",
+         "text_en": "The award left unaffected the right of the Misseriya and other nomadic peoples to graze cattle and move across the Abyei Area.",
+         "text_ar": "أبقى قرار التحكيم على حق المسيرية وغيرهم من الرحّل في رعي الماشية والتنقل عبر منطقة أبيي دون مساس.",
+         "cite": [
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "p.268, para 770(e)(2)",
+           "quote": "the right (guaranteed by Section 1.1.3 of the Abyei Protocol) of the Misseriya and other nomadic peoples to graze cattle and move across the Abyei Area (as defined in this Award), remains unaffected."
+          }
+         ],
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.unisfa",
+         "text_en": "In June 2011 the UN Security Council created the UN Interim Security Force for Abyei (UNISFA) and required the area, as defined by the PCA, to be demilitarised except for UNISFA and the Abyei Police Service.",
+         "text_ar": "في يونيو 2011 أنشأ مجلس الأمن الدولي قوة الأمم المتحدة الأمنية المؤقتة لأبيي (يونيسفا)، وقرر أن تكون المنطقة، بحدودها التي رسمتها محكمة التحكيم الدائمة، منزوعة السلاح إلا من يونيسفا وشرطة أبيي.",
+         "cite": [
+          {
+           "source": "UNSC1990",
+           "page": "p.2, OP 1",
+           "quote": "Decides to establish, for a period of 6 months, the United Nations Interim Security Force for Abyei (UNISFA)"
+          },
+          {
+           "source": "UNSC1990",
+           "page": "p.2, OP 2(a)",
+           "quote": "the Abyei Area shall be demilitarized from any forces other than UNISFA and the Abyei Police Service"
+          }
+         ],
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.status",
+         "badge": "CONTESTED",
+         "text_en": "Abyei's status is disputed. The referendum promised in the 2005 peace agreement, to be held alongside South Sudan's in January 2011, has not taken place.",
+         "text_ar": "وضع أبيي متنازع عليه. ولم يُجرَ الاستفتاء الذي نصّ عليه اتفاق السلام لعام 2005، والذي كان مقرراً بالتزامن مع استفتاء جنوب السودان في يناير 2011.",
+         "cite": [
+          {
+           "source": "ABYEI_PROTOCOL2004",
+           "page": "ss.1.3, 8.1 (via PCA_ABYEI2009 fn 1182, p.244)",
+           "quote": "Simultaneously with the referendum for southern Sudan, the residents of Abyei will cast a separate ballot.",
+           "read": "read only via the PCA award's quotation"
+          },
+          {
+           "source": "UNSC1990",
+           "page": "p.3, OP 9",
+           "quote": "urgently to fulfil their commitment under the CPA to resolve peacefully the final status of Abyei,"
+          }
+         ],
+         "note": "'has not taken place' rests on UNSC1990 (2011) and UNSG_S2013_706 (2013); no later report has been read.",
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.final_status",
+         "badge": "VERIFY",
+         "text_en": "Final status unresolved.",
+         "text_ar": "الوضع النهائي لم يُحسم بعد.",
+         "cite": [
+          {
+           "source": "UNSC1990",
+           "page": "p.3, OP 9",
+           "quote": "to resolve peacefully the final status of Abyei,"
+          },
+          {
+           "source": "UNSG_S2013_706",
+           "page": "p.3, paras 11–12",
+           "quote": "the Government of the Sudan and the Misseriya community termed the referendum illegitimate"
+          }
+         ],
+         "note": "Sourced only to 2011–2013 documents (latest: S/2013/706). VERIFY against a current UN Secretary-General report before showing as present-day.",
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.referendum_2013",
+         "badge": "CONTESTED",
+         "text_en": "In October 2013 the Ngok Dinka held a unilateral community referendum; their leaders announced 99.99% for joining South Sudan. Sudan called it illegitimate, the African Union Commission condemned it, and South Sudan did not publicly comment.",
+         "text_ar": "في أكتوبر 2013 أجرى دينكا نقوك استفتاءً مجتمعياً أحادي الجانب، وأعلن قادتهم أن 99.99% صوّتوا للانضمام إلى جنوب السودان. ووصفته حكومة السودان بأنه غير شرعي، وأدانته مفوضية الاتحاد الأفريقي، ولم تعلّق حكومة جنوب السودان علناً.",
+         "cite": [
+          {
+           "source": "UNSG_S2013_706",
+           "page": "p.3, para 11",
+           "quote": "On 31 October, the Ngok Dinka leadership announced that 99.99 per cent of eligible voters had opted for the Abyei Area to become part of South Sudan"
+          },
+          {
+           "source": "UNSG_S2013_706",
+           "page": "p.3, para 12",
+           "quote": "the Chairperson of the African Union Commission, Nkosazana Dlamini-Zuma, condemned the unilateral referendum ... The Government of South Sudan refrained from publicly commenting on the vote, while the Government of the Sudan and the Misseriya community termed the referendum illegitimate"
+          }
+         ],
+         "note": "Analyst's synthesis sentence 'It has no recognised legal effect' deliberately removed (not in the source).",
+         "text_ar_status": "working translation – needs native-speaker review"
+        }
+       ],
+       "notes_from": "Analyst db/source_entry_abyei.json (e07992c, a35ffd4); UNSG_S2014_28 not cited (not read)"
       },
       {
        "place": "Kafia Kingi",
@@ -1381,8 +1693,164 @@
       {
        "place": "Abyei Area",
        "gazetteer": "wikidata:Q336494",
-       "cite": null,
-       "cite_null_reason": "no source on Abyei read by the Historian; see Map Designer 42cd6d9"
+       "cite": [
+        {
+         "source": "PCA_ABYEI2009",
+         "page": "pp.267–269, paras 770, 772"
+        },
+        {
+         "source": "UNSC1990",
+         "page": "pp.2–3, OP 1, 2(a), 9"
+        },
+        {
+         "source": "ABYEI_PROTOCOL2004",
+         "page": "ss.1.1.2, 1.3 (via PCA_ABYEI2009)"
+        },
+        {
+         "source": "UNSG_S2013_706",
+         "page": "p.3, paras 11–12"
+        }
+       ],
+       "badge": "CONTESTED",
+       "notes": [
+        {
+         "field": "abyei.definition",
+         "badge": "SINGLE-SOURCE",
+         "text_en": "The Abyei Area is defined as the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905.",
+         "text_ar": "تُعرَّف منطقة أبيي بأنها منطقة مشيخات دينكا نقوك التسع التي نُقلت إلى كردفان عام 1905.",
+         "cite": [
+          {
+           "source": "ABYEI_PROTOCOL2004",
+           "page": "s.1.1.2 (via PCA_ABYEI2009 para 589, p.205)",
+           "quote": "The territory is defined as the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905;",
+           "read": "read only via the PCA award's quotation"
+          },
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "p.38, para 113",
+           "quote": "Section 1.1.2 of the Abyei Protocol defined the territory as “the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905.”"
+          }
+         ],
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.boundary",
+         "text_en": "In 2009 the Permanent Court of Arbitration set the area's boundaries: latitude 10°10'N in the north, longitudes 27°50'E and 29°00'E in the west and east, and the 1 January 1956 Kordofan–Bahr el-Ghazal–Upper Nile line in the south.",
+         "text_ar": "في عام 2009 حددت محكمة التحكيم الدائمة حدود المنطقة: خط العرض 10°10' شمالاً في الشمال، وخطا الطول 27°50' و29°00' شرقاً في الغرب والشرق، وفي الجنوب حدود كردفان – بحر الغزال – أعالي النيل كما كانت في 1 يناير 1956.",
+         "cite": [
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "pp.267–268, para 770(a)(3)",
+           "quote": "The northern boundary ... runs along latitude 10°10’00”N, from longitude 27°50’00”E to longitude 29°00’00”E."
+          },
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "pp.267–268, para 770(b)–(d)",
+           "quote": "“[t]he southern boundary shall be the Kordofan – Bahr el-Ghazal – Upper Nile boundary as it was defined on 1 January 1956,”"
+          },
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "p.269, para 772",
+           "quote": "these latitude values are approximate only and have been derived graphically from maps submitted by the Parties."
+          }
+         ],
+         "note": "Corner points 1 and 4 latitudes are approximate per the award itself (para 772).",
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.grazing",
+         "text_en": "The award left unaffected the right of the Misseriya and other nomadic peoples to graze cattle and move across the Abyei Area.",
+         "text_ar": "أبقى قرار التحكيم على حق المسيرية وغيرهم من الرحّل في رعي الماشية والتنقل عبر منطقة أبيي دون مساس.",
+         "cite": [
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "p.268, para 770(e)(2)",
+           "quote": "the right (guaranteed by Section 1.1.3 of the Abyei Protocol) of the Misseriya and other nomadic peoples to graze cattle and move across the Abyei Area (as defined in this Award), remains unaffected."
+          }
+         ],
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.unisfa",
+         "text_en": "In June 2011 the UN Security Council created the UN Interim Security Force for Abyei (UNISFA) and required the area, as defined by the PCA, to be demilitarised except for UNISFA and the Abyei Police Service.",
+         "text_ar": "في يونيو 2011 أنشأ مجلس الأمن الدولي قوة الأمم المتحدة الأمنية المؤقتة لأبيي (يونيسفا)، وقرر أن تكون المنطقة، بحدودها التي رسمتها محكمة التحكيم الدائمة، منزوعة السلاح إلا من يونيسفا وشرطة أبيي.",
+         "cite": [
+          {
+           "source": "UNSC1990",
+           "page": "p.2, OP 1",
+           "quote": "Decides to establish, for a period of 6 months, the United Nations Interim Security Force for Abyei (UNISFA)"
+          },
+          {
+           "source": "UNSC1990",
+           "page": "p.2, OP 2(a)",
+           "quote": "the Abyei Area shall be demilitarized from any forces other than UNISFA and the Abyei Police Service"
+          }
+         ],
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.status",
+         "badge": "CONTESTED",
+         "text_en": "Abyei's status is disputed. The referendum promised in the 2005 peace agreement, to be held alongside South Sudan's in January 2011, has not taken place.",
+         "text_ar": "وضع أبيي متنازع عليه. ولم يُجرَ الاستفتاء الذي نصّ عليه اتفاق السلام لعام 2005، والذي كان مقرراً بالتزامن مع استفتاء جنوب السودان في يناير 2011.",
+         "cite": [
+          {
+           "source": "ABYEI_PROTOCOL2004",
+           "page": "ss.1.3, 8.1 (via PCA_ABYEI2009 fn 1182, p.244)",
+           "quote": "Simultaneously with the referendum for southern Sudan, the residents of Abyei will cast a separate ballot.",
+           "read": "read only via the PCA award's quotation"
+          },
+          {
+           "source": "UNSC1990",
+           "page": "p.3, OP 9",
+           "quote": "urgently to fulfil their commitment under the CPA to resolve peacefully the final status of Abyei,"
+          }
+         ],
+         "note": "'has not taken place' rests on UNSC1990 (2011) and UNSG_S2013_706 (2013); no later report has been read.",
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.final_status",
+         "badge": "VERIFY",
+         "text_en": "Final status unresolved.",
+         "text_ar": "الوضع النهائي لم يُحسم بعد.",
+         "cite": [
+          {
+           "source": "UNSC1990",
+           "page": "p.3, OP 9",
+           "quote": "to resolve peacefully the final status of Abyei,"
+          },
+          {
+           "source": "UNSG_S2013_706",
+           "page": "p.3, paras 11–12",
+           "quote": "the Government of the Sudan and the Misseriya community termed the referendum illegitimate"
+          }
+         ],
+         "note": "Sourced only to 2011–2013 documents (latest: S/2013/706). VERIFY against a current UN Secretary-General report before showing as present-day.",
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.referendum_2013",
+         "badge": "CONTESTED",
+         "text_en": "In October 2013 the Ngok Dinka held a unilateral community referendum; their leaders announced 99.99% for joining South Sudan. Sudan called it illegitimate, the African Union Commission condemned it, and South Sudan did not publicly comment.",
+         "text_ar": "في أكتوبر 2013 أجرى دينكا نقوك استفتاءً مجتمعياً أحادي الجانب، وأعلن قادتهم أن 99.99% صوّتوا للانضمام إلى جنوب السودان. ووصفته حكومة السودان بأنه غير شرعي، وأدانته مفوضية الاتحاد الأفريقي، ولم تعلّق حكومة جنوب السودان علناً.",
+         "cite": [
+          {
+           "source": "UNSG_S2013_706",
+           "page": "p.3, para 11",
+           "quote": "On 31 October, the Ngok Dinka leadership announced that 99.99 per cent of eligible voters had opted for the Abyei Area to become part of South Sudan"
+          },
+          {
+           "source": "UNSG_S2013_706",
+           "page": "p.3, para 12",
+           "quote": "the Chairperson of the African Union Commission, Nkosazana Dlamini-Zuma, condemned the unilateral referendum ... The Government of South Sudan refrained from publicly commenting on the vote, while the Government of the Sudan and the Misseriya community termed the referendum illegitimate"
+          }
+         ],
+         "note": "Analyst's synthesis sentence 'It has no recognised legal effect' deliberately removed (not in the source).",
+         "text_ar_status": "working translation – needs native-speaker review"
+        }
+       ],
+       "notes_from": "Analyst db/source_entry_abyei.json (e07992c, a35ffd4); UNSG_S2014_28 not cited (not read)"
       },
       {
        "place": "Kafia Kingi",
@@ -1466,8 +1934,164 @@
       {
        "place": "Abyei Area",
        "gazetteer": "wikidata:Q336494",
-       "cite": null,
-       "cite_null_reason": "no source on Abyei read by the Historian"
+       "cite": [
+        {
+         "source": "PCA_ABYEI2009",
+         "page": "pp.267–269, paras 770, 772"
+        },
+        {
+         "source": "UNSC1990",
+         "page": "pp.2–3, OP 1, 2(a), 9"
+        },
+        {
+         "source": "ABYEI_PROTOCOL2004",
+         "page": "ss.1.1.2, 1.3 (via PCA_ABYEI2009)"
+        },
+        {
+         "source": "UNSG_S2013_706",
+         "page": "p.3, paras 11–12"
+        }
+       ],
+       "badge": "CONTESTED",
+       "notes": [
+        {
+         "field": "abyei.definition",
+         "badge": "SINGLE-SOURCE",
+         "text_en": "The Abyei Area is defined as the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905.",
+         "text_ar": "تُعرَّف منطقة أبيي بأنها منطقة مشيخات دينكا نقوك التسع التي نُقلت إلى كردفان عام 1905.",
+         "cite": [
+          {
+           "source": "ABYEI_PROTOCOL2004",
+           "page": "s.1.1.2 (via PCA_ABYEI2009 para 589, p.205)",
+           "quote": "The territory is defined as the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905;",
+           "read": "read only via the PCA award's quotation"
+          },
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "p.38, para 113",
+           "quote": "Section 1.1.2 of the Abyei Protocol defined the territory as “the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905.”"
+          }
+         ],
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.boundary",
+         "text_en": "In 2009 the Permanent Court of Arbitration set the area's boundaries: latitude 10°10'N in the north, longitudes 27°50'E and 29°00'E in the west and east, and the 1 January 1956 Kordofan–Bahr el-Ghazal–Upper Nile line in the south.",
+         "text_ar": "في عام 2009 حددت محكمة التحكيم الدائمة حدود المنطقة: خط العرض 10°10' شمالاً في الشمال، وخطا الطول 27°50' و29°00' شرقاً في الغرب والشرق، وفي الجنوب حدود كردفان – بحر الغزال – أعالي النيل كما كانت في 1 يناير 1956.",
+         "cite": [
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "pp.267–268, para 770(a)(3)",
+           "quote": "The northern boundary ... runs along latitude 10°10’00”N, from longitude 27°50’00”E to longitude 29°00’00”E."
+          },
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "pp.267–268, para 770(b)–(d)",
+           "quote": "“[t]he southern boundary shall be the Kordofan – Bahr el-Ghazal – Upper Nile boundary as it was defined on 1 January 1956,”"
+          },
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "p.269, para 772",
+           "quote": "these latitude values are approximate only and have been derived graphically from maps submitted by the Parties."
+          }
+         ],
+         "note": "Corner points 1 and 4 latitudes are approximate per the award itself (para 772).",
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.grazing",
+         "text_en": "The award left unaffected the right of the Misseriya and other nomadic peoples to graze cattle and move across the Abyei Area.",
+         "text_ar": "أبقى قرار التحكيم على حق المسيرية وغيرهم من الرحّل في رعي الماشية والتنقل عبر منطقة أبيي دون مساس.",
+         "cite": [
+          {
+           "source": "PCA_ABYEI2009",
+           "page": "p.268, para 770(e)(2)",
+           "quote": "the right (guaranteed by Section 1.1.3 of the Abyei Protocol) of the Misseriya and other nomadic peoples to graze cattle and move across the Abyei Area (as defined in this Award), remains unaffected."
+          }
+         ],
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.unisfa",
+         "text_en": "In June 2011 the UN Security Council created the UN Interim Security Force for Abyei (UNISFA) and required the area, as defined by the PCA, to be demilitarised except for UNISFA and the Abyei Police Service.",
+         "text_ar": "في يونيو 2011 أنشأ مجلس الأمن الدولي قوة الأمم المتحدة الأمنية المؤقتة لأبيي (يونيسفا)، وقرر أن تكون المنطقة، بحدودها التي رسمتها محكمة التحكيم الدائمة، منزوعة السلاح إلا من يونيسفا وشرطة أبيي.",
+         "cite": [
+          {
+           "source": "UNSC1990",
+           "page": "p.2, OP 1",
+           "quote": "Decides to establish, for a period of 6 months, the United Nations Interim Security Force for Abyei (UNISFA)"
+          },
+          {
+           "source": "UNSC1990",
+           "page": "p.2, OP 2(a)",
+           "quote": "the Abyei Area shall be demilitarized from any forces other than UNISFA and the Abyei Police Service"
+          }
+         ],
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.status",
+         "badge": "CONTESTED",
+         "text_en": "Abyei's status is disputed. The referendum promised in the 2005 peace agreement, to be held alongside South Sudan's in January 2011, has not taken place.",
+         "text_ar": "وضع أبيي متنازع عليه. ولم يُجرَ الاستفتاء الذي نصّ عليه اتفاق السلام لعام 2005، والذي كان مقرراً بالتزامن مع استفتاء جنوب السودان في يناير 2011.",
+         "cite": [
+          {
+           "source": "ABYEI_PROTOCOL2004",
+           "page": "ss.1.3, 8.1 (via PCA_ABYEI2009 fn 1182, p.244)",
+           "quote": "Simultaneously with the referendum for southern Sudan, the residents of Abyei will cast a separate ballot.",
+           "read": "read only via the PCA award's quotation"
+          },
+          {
+           "source": "UNSC1990",
+           "page": "p.3, OP 9",
+           "quote": "urgently to fulfil their commitment under the CPA to resolve peacefully the final status of Abyei,"
+          }
+         ],
+         "note": "'has not taken place' rests on UNSC1990 (2011) and UNSG_S2013_706 (2013); no later report has been read.",
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.final_status",
+         "badge": "VERIFY",
+         "text_en": "Final status unresolved.",
+         "text_ar": "الوضع النهائي لم يُحسم بعد.",
+         "cite": [
+          {
+           "source": "UNSC1990",
+           "page": "p.3, OP 9",
+           "quote": "to resolve peacefully the final status of Abyei,"
+          },
+          {
+           "source": "UNSG_S2013_706",
+           "page": "p.3, paras 11–12",
+           "quote": "the Government of the Sudan and the Misseriya community termed the referendum illegitimate"
+          }
+         ],
+         "note": "Sourced only to 2011–2013 documents (latest: S/2013/706). VERIFY against a current UN Secretary-General report before showing as present-day.",
+         "text_ar_status": "working translation – needs native-speaker review"
+        },
+        {
+         "field": "abyei.referendum_2013",
+         "badge": "CONTESTED",
+         "text_en": "In October 2013 the Ngok Dinka held a unilateral community referendum; their leaders announced 99.99% for joining South Sudan. Sudan called it illegitimate, the African Union Commission condemned it, and South Sudan did not publicly comment.",
+         "text_ar": "في أكتوبر 2013 أجرى دينكا نقوك استفتاءً مجتمعياً أحادي الجانب، وأعلن قادتهم أن 99.99% صوّتوا للانضمام إلى جنوب السودان. ووصفته حكومة السودان بأنه غير شرعي، وأدانته مفوضية الاتحاد الأفريقي، ولم تعلّق حكومة جنوب السودان علناً.",
+         "cite": [
+          {
+           "source": "UNSG_S2013_706",
+           "page": "p.3, para 11",
+           "quote": "On 31 October, the Ngok Dinka leadership announced that 99.99 per cent of eligible voters had opted for the Abyei Area to become part of South Sudan"
+          },
+          {
+           "source": "UNSG_S2013_706",
+           "page": "p.3, para 12",
+           "quote": "the Chairperson of the African Union Commission, Nkosazana Dlamini-Zuma, condemned the unilateral referendum ... The Government of South Sudan refrained from publicly commenting on the vote, while the Government of the Sudan and the Misseriya community termed the referendum illegitimate"
+          }
+         ],
+         "note": "Analyst's synthesis sentence 'It has no recognised legal effect' deliberately removed (not in the source).",
+         "text_ar_status": "working translation – needs native-speaker review"
+        }
+       ],
+       "notes_from": "Analyst db/source_entry_abyei.json (e07992c, a35ffd4); UNSG_S2014_28 not cited (not read)"
       },
       {
        "place": "Kafia Kingi",
