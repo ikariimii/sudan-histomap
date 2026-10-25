@@ -65,6 +65,58 @@
   },
   {
    "type": "Feature",
+   "id": "rel-shaigiyya-03",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      31.55,
+      18.116667
+     ],
+     [
+      32.52654,
+      15.60308
+     ]
+    ]
+   },
+   "properties": {
+    "id": "rel-shaigiyya-03",
+    "kind": "relation",
+    "type": "alliance",
+    "group": "shaigiyya",
+    "era_id": "turkiyya-ottoman-egyptian-rule",
+    "start": 1821,
+    "end": 1885,
+    "badge": "SINGLE-SOURCE",
+    "certainty": "medium",
+    "other": "Turco-Egyptian government",
+    "from_anchor": "Korti",
+    "from_badges": [
+     "APPROXIMATE"
+    ],
+    "from_note": null,
+    "to_anchor": "Khartoum (Wikidata Q1963)",
+    "to_anchor_ar": "الخرطوم",
+    "to_badges": [
+     "APPROXIMATE"
+    ],
+    "to_cite": [
+     "GHA6_CH14 p.363"
+    ],
+    "to_note": "Khartoum is the seat of the regime only after it was founded in the 1820s. For the 1821 Sennar capitulation (rel-funj-05) and the 1822 Shendi revolt (rel-jaaliyyin-03) the anchor is a symbol of the regime, not where its forces stood. Al-Zubayr was a trader active in Bahr al-Ghazal, not based in Khartoum; for rel-fur-06 the anchor stands for the regime only.",
+    "label_en": "The government's partiality to the Shaigiyya (and the Khatmiyya) aroused the jealousy of other groups, who then backed the Mahdi.",
+    "label_ar": "أثار تحيّز الحكومة للشايقية (وللختمية) غيرة جماعات أخرى دفعتها إلى مناصرة المهدي. [Arabic text pending native-speaker review.]",
+    "source_ids": [
+     "GHA6_CH14",
+     "GHA7_CH4"
+    ],
+    "cite": [
+     "GHA7_CH4 p.74"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "id": "rel-funj-05",
    "geometry": {
     "type": "LineString",
