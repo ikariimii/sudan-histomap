@@ -1,0 +1,413 @@
+{
+ "meta": {
+  "scope": "Kush to 1956 plus Torit 1955; major wars and decisive battles only",
+  "coords": "db/cities.json entries only; precision region = no lat/lon",
+  "updated": "2026-10-25"
+ },
+ "battles": [
+  {
+   "id": "kerma--1500",
+   "war_id": "kushite-egyptian-wars",
+   "name_en": "Thutmose I's campaign against Kerma",
+   "name_ar": "حملة تحتمس الأول على كرمة [يحتاج تحقق]",
+   "date": "-1500",
+   "lat": 19.6008,
+   "lon": 30.40973,
+   "precision": "approximate",
+   "place_id": "kerma",
+   "sides": [
+    "New Kingdom Egypt (Thutmose I)",
+    "Kingdom of Kerma"
+   ],
+   "outcome_en": "Egyptian victory; the kingdom of Kerma was defeated (c.1500 BCE, shortly before)",
+   "era_ids": [
+    "kingdom-of-kerma",
+    "egyptian-new-kingdom-rule-in-nubia",
+    "new-kingdom-egypt"
+   ],
+   "cite": {
+    "source_id": "SFDAS_HCS2017",
+    "pages": "92"
+   },
+   "image": {}
+  },
+  {
+   "id": "kerma--593",
+   "war_id": "kushite-egyptian-wars",
+   "name_en": "Psamtik II's expedition against Napatan Kush (Pnoubs/Kerma)",
+   "name_ar": "حملة بسماتيك الثاني على مملكة نبتة (بنوبس/كرمة) [يحتاج تحقق]",
+   "date": "-593",
+   "lat": 19.6008,
+   "lon": 30.40973,
+   "precision": "approximate",
+   "place_id": "kerma",
+   "sides": [
+    "Late Period Egypt (Psamtik II)",
+    "Kingdom of Kush (Napatan)"
+   ],
+   "outcome_en": "Egyptian expedition reached Pnoubs/Kerma and ravaged the country",
+   "era_ids": [
+    "kingdom-of-kush-napatan-period",
+    "late-period-persian-egypt"
+   ],
+   "cite": {
+    "source_id": "SFDAS_HCS2017",
+    "pages": "164–165"
+   },
+   "image": {}
+  },
+  {
+   "id": "napata--23",
+   "war_id": "roman-meroitic-war",
+   "name_en": "Petronius's expedition and capture of Napata",
+   "name_ar": "حملة بترونيوس والاستيلاء على نبتة [يحتاج تحقق]",
+   "date": "-23",
+   "lat": 18.53333,
+   "lon": 31.81667,
+   "precision": "approximate",
+   "place_id": "napata",
+   "sides": [
+    "Roman Egypt (Petronius)",
+    "Kingdom of Kush (Meroitic)"
+   ],
+   "outcome_en": "Roman force captured Napata; a garrison was placed at Primis (Qasr Ibrim)",
+   "era_ids": [
+    "kingdom-of-kush-meroitic-period",
+    "roman-byzantine-egypt"
+   ],
+   "cite": {
+    "source_id": "GHA2_CH10",
+    "pages": "290"
+   },
+   "image": {}
+  },
+  {
+   "id": "meroe-330",
+   "war_id": "aksum-kush-war",
+   "name_en": "Ezana of Aksum's campaign against the Kushites and Noba",
+   "name_ar": "حملة عيزانا ملك أكسوم على الكوشيين والنوبة [يحتاج تحقق]",
+   "date_from": "330",
+   "date_to": "350",
+   "precision": "region",
+   "sides": [
+    "Kingdom of Aksum (Ezana)",
+    "Kushites (Kasu)",
+    "Noba"
+   ],
+   "outcome_en": "Aksumite campaign recorded in Ezana's inscriptions; the Meroitic state disappeared between 330 and 350 CE",
+   "era_ids": [
+    "kingdom-of-kush-meroitic-period",
+    "kingdom-of-aksum",
+    "noba-x-group-ballana-culture"
+   ],
+   "cite": {
+    "source_id": "SFDAS_HCS2017",
+    "pages": "325"
+   },
+   "image": {}
+  },
+  {
+   "id": "dongola-642",
+   "war_id": "arab-nubian-wars",
+   "name_en": "First Arab campaign against Makuria",
+   "name_ar": "الحملة العربية الأولى على المقرة [يحتاج تحقق]",
+   "date": "642",
+   "precision": "region",
+   "sides": [
+    "Arab army (Abdallah ibn Abi Sarh)",
+    "Kingdom of Makuria"
+   ],
+   "outcome_en": "Nubian counter-offensive turned back the Arab army",
+   "era_ids": [
+    "makuria",
+    "islamic-egypt-rashidunfatimidayyubid",
+    "rise-of-islam-caliphates"
+   ],
+   "cite": {
+    "source_id": "SFDAS_HCS2017",
+    "pages": "405"
+   },
+   "image": {}
+  },
+  {
+   "id": "dongola-652",
+   "war_id": "arab-nubian-wars",
+   "name_en": "Siege of Dongola and the Baqt treaty",
+   "name_ar": "حصار دنقلا ومعاهدة البقط [يحتاج تحقق]",
+   "date": "652",
+   "lat": 18.22306,
+   "lon": 30.74389,
+   "precision": "approximate",
+   "place_id": "old-dongola",
+   "sides": [
+    "Arab army (Abdallah ibn Abi Sarh)",
+    "Kingdom of Makuria"
+   ],
+   "outcome_en": "Expedition launched 651 besieged Dongola; ended in a truce and the Baqt treaty (652), which kept Makuria independent",
+   "era_ids": [
+    "makuria",
+    "islamic-egypt-rashidunfatimidayyubid",
+    "rise-of-islam-caliphates"
+   ],
+   "cite": {
+    "source_id": "SFDAS_HCS2017",
+    "pages": "405"
+   },
+   "image": {}
+  },
+  {
+   "id": "arbaji-1504",
+   "war_id": "funj-abdallab-war",
+   "name_en": "Battle of Arbaji",
+   "name_ar": "معركة أربجي [يحتاج تحقق]",
+   "date": "1504",
+   "lat": 14.726,
+   "lon": 33.3525,
+   "precision": "approximate",
+   "place_id": "arbaji",
+   "sides": [
+    "Funj",
+    "Abdallab"
+   ],
+   "outcome_en": "Funj victory; the Abdallabi king became a Funj vassal",
+   "era_ids": [
+    "funj-sultanate-of-sennar",
+    "abdallab-chiefdom-funj-vassal",
+    "alodia-alwa"
+   ],
+   "cite": {
+    "source_id": "GHA5_CH7",
+    "pages": "173"
+   },
+   "image": {}
+  },
+  {
+   "id": "kordofan-1747",
+   "war_id": "kordofan-wars",
+   "name_en": "Funj campaign against the Musabba'at in Kordofan",
+   "name_ar": "حملة الفونج على المسبعات في كردفان [يحتاج تحقق]",
+   "date": "1747",
+   "precision": "region",
+   "sides": [
+    "Funj Sultanate (Muhammad Abu Likaylik)",
+    "Musabba'at"
+   ],
+   "outcome_en": "Decisive Funj victory after initial setbacks; Abu Likaylik ruled Kordofan as viceroy",
+   "era_ids": [
+    "funj-sultanate-of-sennar",
+    "musabba-at-sultanate-kordofan"
+   ],
+   "cite": {
+    "source_id": "GHA5_CH7",
+    "pages": "178"
+   },
+   "image": {}
+  },
+  {
+   "id": "shaykan-1883",
+   "war_id": "mahdist-war",
+   "name_en": "Battle of Shaykan",
+   "name_ar": "معركة شيكان [يحتاج تحقق]",
+   "date": "1883-11-05",
+   "precision": "region",
+   "sides": [
+    "Mahdist Ansar",
+    "Egyptian army (Hicks Pasha)"
+   ],
+   "outcome_en": "Mahdist victory; a turning point of the Mahdist revolution",
+   "era_ids": [
+    "turkiyya-ottoman-egyptian-rule",
+    "mahdist-state-mahdiyya"
+   ],
+   "cite": {
+    "source_id": "GHA7_CH4",
+    "pages": "76"
+   },
+   "image": {}
+  },
+  {
+   "id": "khartoum-1885",
+   "war_id": "mahdist-war",
+   "name_en": "Fall of Khartoum",
+   "name_ar": "سقوط الخرطوم [يحتاج تحقق]",
+   "date": "1885-01-26",
+   "lat": 15.60308,
+   "lon": 32.52654,
+   "precision": "approximate",
+   "place_id": "khartoum",
+   "sides": [
+    "Mahdist Ansar",
+    "Turco-Egyptian garrison (Gordon)"
+   ],
+   "outcome_en": "Mahdist forces took the town after a long siege, ending Turco-Egyptian rule",
+   "era_ids": [
+    "turkiyya-ottoman-egyptian-rule",
+    "mahdist-state-mahdiyya"
+   ],
+   "cite": {
+    "source_id": "GHA7_CH4",
+    "pages": "76–77"
+   },
+   "image": {}
+  },
+  {
+   "id": "toski-1889",
+   "war_id": "mahdist-war",
+   "name_en": "Battle of Toski",
+   "name_ar": "معركة توشكي [يحتاج تحقق]",
+   "date": "1889",
+   "precision": "region",
+   "sides": [
+    "Mahdist army (Abd al-Rahman al-Nujumi)",
+    "Egyptian army"
+   ],
+   "outcome_en": "Mahdist invasion of Egypt was defeated",
+   "era_ids": [
+    "mahdist-state-mahdiyya",
+    "british-occupied-kingdom-of-egypt"
+   ],
+   "cite": {
+    "source_id": "GHA7_CH4",
+    "pages": "77"
+   },
+   "image": {}
+  },
+  {
+   "id": "gallabat-1889",
+   "war_id": "mahdist-ethiopian-war",
+   "name_en": "Battle of Gallabat (Matamma)",
+   "name_ar": "معركة القلابات (المتمة) [يحتاج تحقق]",
+   "date": "1889-03-10",
+   "lat": 12.96667,
+   "lon": 36.15,
+   "precision": "approximate",
+   "place_id": "gallabat",
+   "sides": [
+    "Ethiopian Empire (Yohannes IV)",
+    "Mahdist State"
+   ],
+   "outcome_en": "Emperor mortally wounded at the close of the battle; his army dispersed",
+   "era_ids": [
+    "mahdist-state-mahdiyya",
+    "ethiopian-empire-solomonic"
+   ],
+   "cite": {
+    "source_id": "GHA7_CH11",
+    "pages": "268"
+   },
+   "image": {}
+  },
+  {
+   "id": "atbara-1898",
+   "war_id": "anglo-egyptian-reconquest",
+   "name_en": "Battle of the Atbara",
+   "name_ar": "معركة عطبرة [يحتاج تحقق]",
+   "date": "1898-04-08",
+   "precision": "region",
+   "sides": [
+    "Mahdist Ansar (Mahmud Ahmad)",
+    "Anglo-Egyptian army"
+   ],
+   "outcome_en": "Anglo-Egyptian victory; Mahmud Ahmad captured",
+   "era_ids": [
+    "mahdist-state-mahdiyya"
+   ],
+   "cite": {
+    "source_id": "GHA7_CH4",
+    "pages": "78"
+   },
+   "image": {}
+  },
+  {
+   "id": "karari-1898",
+   "war_id": "anglo-egyptian-reconquest",
+   "name_en": "Battle of Karari (Omdurman)",
+   "name_ar": "معركة كرري (أم درمان) [يحتاج تحقق]",
+   "date": "1898-09-02",
+   "precision": "region",
+   "sides": [
+    "Mahdist State (Khalifa Abdallahi)",
+    "Anglo-Egyptian army"
+   ],
+   "outcome_en": "Anglo-Egyptian victory; the Khalifa withdrew to Kordofan",
+   "era_ids": [
+    "mahdist-state-mahdiyya",
+    "anglo-egyptian-sudan-condominium"
+   ],
+   "cite": {
+    "source_id": "GHA7_CH4",
+    "pages": "78"
+   },
+   "image": {}
+  },
+  {
+   "id": "umm-diwaykarat-1899",
+   "war_id": "anglo-egyptian-reconquest",
+   "name_en": "Battle of Umm Diwaykarat",
+   "name_ar": "معركة أم دبيكرات [يحتاج تحقق]",
+   "date": "1899-11-24",
+   "precision": "region",
+   "sides": [
+    "Mahdist State (Khalifa Abdallahi)",
+    "Anglo-Egyptian army"
+   ],
+   "outcome_en": "The Khalifa died on the field; collapse of the Mahdist state",
+   "era_ids": [
+    "mahdist-state-mahdiyya",
+    "anglo-egyptian-sudan-condominium"
+   ],
+   "cite": {
+    "source_id": "GHA7_CH4",
+    "pages": "78"
+   },
+   "image": {}
+  },
+  {
+   "id": "darfur-1916",
+   "war_id": "darfur-campaign-1916",
+   "name_en": "Defeat of Sultan Ali Dinar",
+   "name_ar": "هزيمة السلطان علي دينار [يحتاج تحقق]",
+   "date": "1916",
+   "precision": "region",
+   "sides": [
+    "Anglo-Egyptian Sudan",
+    "Darfur Sultanate (Ali Dinar)"
+   ],
+   "outcome_en": "Ali Dinar defeated and killed; Darfur incorporated into Sudan",
+   "era_ids": [
+    "restored-darfur-sultanate-ali-dinar",
+    "anglo-egyptian-sudan-condominium"
+   ],
+   "cite": {
+    "source_id": "GHA7_CH12",
+    "pages": "283"
+   },
+   "image": {}
+  },
+  {
+   "id": "torit-1955",
+   "war_id": "first-civil-war",
+   "name_en": "Torit mutiny (Equatoria Corps revolt)",
+   "name_ar": "تمرد توريت (الفرقة الاستوائية) [يحتاج تحقق]",
+   "date": "1955-08",
+   "lat": 4.41667,
+   "lon": 32.56667,
+   "precision": "approximate",
+   "place_id": "torit",
+   "sides": [
+    "Equatoria Corps",
+    "Sudan government"
+   ],
+   "outcome_en": "Mutineers soon surrendered; disorder spread in the south",
+   "era_ids": [
+    "anglo-egyptian-sudan-condominium",
+    "southern-sudan-under-condominium-sudan"
+   ],
+   "cite": {
+    "source_id": "GHA8",
+    "pages": "149"
+   },
+   "image": {}
+  }
+ ]
+}

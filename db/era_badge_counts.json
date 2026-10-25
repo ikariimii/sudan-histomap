@@ -15,12 +15,12 @@
    "DERIVED"
   ],
   "era_count": 68,
-  "files_scanned": 305
+  "files_scanned": 306
  },
  "totals": {
   "SINGLE-SOURCE": 251,
   "CONTESTED": 161,
-  "VERIFY": 38,
+  "VERIFY": 66,
   "REPORTED": 14,
   "MODEL": 109,
   "EDITORIAL": 67,
@@ -28,7 +28,7 @@
   "PARTIAL": 3,
   "DERIVED": 328
  },
- "grand_total": 1426,
+ "grand_total": 1454,
  "inline_totals": {
   "SINGLE-SOURCE": 22,
   "CONTESTED": 9,
@@ -298,7 +298,7 @@
    "counts": {
     "SINGLE-SOURCE": 12,
     "CONTESTED": 0,
-    "VERIFY": 1,
+    "VERIFY": 3,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 3,
@@ -306,7 +306,7 @@
     "PARTIAL": 0,
     "DERIVED": 13
    },
-   "total": 48,
+   "total": 50,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -999,7 +999,7 @@
    "counts": {
     "SINGLE-SOURCE": 29,
     "CONTESTED": 0,
-    "VERIFY": 1,
+    "VERIFY": 5,
     "REPORTED": 2,
     "MODEL": 3,
     "EDITORIAL": 2,
@@ -1007,7 +1007,7 @@
     "PARTIAL": 0,
     "DERIVED": 12
    },
-   "total": 73,
+   "total": 77,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1385,7 +1385,7 @@
    "counts": {
     "SINGLE-SOURCE": 4,
     "CONTESTED": 0,
-    "VERIFY": 6,
+    "VERIFY": 8,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 3,
@@ -1393,7 +1393,7 @@
     "PARTIAL": 0,
     "DERIVED": 3
    },
-   "total": 20,
+   "total": 22,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1429,7 +1429,7 @@
    "counts": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 1,
-    "VERIFY": 2,
+    "VERIFY": 6,
     "REPORTED": 0,
     "MODEL": 5,
     "EDITORIAL": 4,
@@ -1437,7 +1437,7 @@
     "PARTIAL": 0,
     "DERIVED": 11
    },
-   "total": 34,
+   "total": 38,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1473,7 +1473,7 @@
    "counts": {
     "SINGLE-SOURCE": 4,
     "CONTESTED": 0,
-    "VERIFY": 0,
+    "VERIFY": 1,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 4,
@@ -1481,7 +1481,7 @@
     "PARTIAL": 0,
     "DERIVED": 7
    },
-   "total": 24,
+   "total": 25,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1496,6 +1496,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/kingdom-of-kush-napatan-period.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/extents/kingdom-of-kush-napatan-period.geojson",
     "db/map_sources.json",
@@ -1687,7 +1688,7 @@
    "counts": {
     "SINGLE-SOURCE": 3,
     "CONTESTED": 0,
-    "VERIFY": 1,
+    "VERIFY": 8,
     "REPORTED": 1,
     "MODEL": 0,
     "EDITORIAL": 1,
@@ -1695,7 +1696,7 @@
     "PARTIAL": 0,
     "DERIVED": 3
    },
-   "total": 11,
+   "total": 18,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1732,7 +1733,7 @@
    "counts": {
     "SINGLE-SOURCE": 8,
     "CONTESTED": 0,
-    "VERIFY": 2,
+    "VERIFY": 5,
     "REPORTED": 0,
     "MODEL": 12,
     "EDITORIAL": 4,
@@ -1740,7 +1741,7 @@
     "PARTIAL": 0,
     "DERIVED": 13
    },
-   "total": 56,
+   "total": 59,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2337,7 +2338,7 @@
    "counts": {
     "SINGLE-SOURCE": 4,
     "CONTESTED": 2,
-    "VERIFY": 0,
+    "VERIFY": 2,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
@@ -2345,7 +2346,7 @@
     "PARTIAL": 0,
     "DERIVED": 3
    },
-   "total": 16,
+   "total": 18,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2360,6 +2361,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/restored-darfur-sultanate-ali-dinar.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/extents/restored-darfur-sultanate-ali-dinar.geojson",
     "db/groups.json",
@@ -2812,7 +2814,7 @@
    "counts": {
     "SINGLE-SOURCE": 23,
     "CONTESTED": 0,
-    "VERIFY": 0,
+    "VERIFY": 3,
     "REPORTED": 0,
     "MODEL": 4,
     "EDITORIAL": 6,
@@ -2820,7 +2822,7 @@
     "PARTIAL": 0,
     "DERIVED": 7
    },
-   "total": 54,
+   "total": 57,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2835,6 +2837,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/turkiyya-ottoman-egyptian-rule.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/extents/turkiyya-ottoman-egyptian-rule.geojson",
     "db/group_layers/turkiyya-ottoman-egyptian-rule.geojson",
