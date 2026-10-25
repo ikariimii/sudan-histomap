@@ -97,52 +97,77 @@
  ],
  "kingdom-of-kush-napatan-period": [
   {
-   "date": -760,
-   "en": "Alara, then Kashta (c.760–750 BCE); Kushites in Upper Egypt c.750",
-   "ar": "ألارا ثم كاشتا (نحو 760–750 ق.م)؛ الكوشيون في صعيد مصر نحو 750",
-   "cite": "NO-SOURCE"
+   "date": null,
+   "en": "",
+   "ar": "",
+   "cite": "NO-SOURCE",
+   "removed": "r25 triage: dates in text not found in any registered source; see audit/r25/historian_event_triage.md"
   },
   {
-   "date": -751,
-   "en": "Peye (Piye/'Piankhi') reign from c.751 BCE; Victory Stela; conquest of Egypt c.728/727",
-   "ar": "حكم بيي (بيا/«بعنخي») منذ نحو 751 ق.م؛ لوحة النصر؛ فتح مصر نحو 728/727",
-   "cite": "NO-SOURCE"
+   "date": null,
+   "en": "",
+   "ar": "",
+   "cite": "NO-SOURCE",
+   "removed": "r25 triage: dates in text not found in any registered source; see audit/r25/historian_event_triage.md"
   },
   {
    "date": -713,
    "en": "Shabaka from c.713 BCE founds 25th Dynasty rule over all Egypt",
    "ar": "شباكا منذ نحو 713 ق.م يؤسس حكم الأسرة الخامسة والعشرين على مصر كلها",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA2_CH10",
+    "pages": "pp.280–281"
+   }
   },
   {
    "date": -690,
    "en": "Shabataka (Shebitku) c.700–690; Taharqa 690–664 BCE (cenotaph/pyramid at Nuri)",
    "ar": "شبتاكا (شبتكو) نحو 700–690؛ طهارقا 690–664 ق.م (ضريحه الرمزي/هرمه في نوري)",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA2_CH10",
+    "pages": "p.281"
+   }
   },
   {
    "date": -593,
    "en": "Atlanarsa 653–643, Senkamanisken 643–623, Anlamani 623–593, Aspelta 593–568 BCE",
    "ar": "أتلانرسا 653–643، سنكامانيسكن 643–623، أنلاماني 623–593، أسبلتا 593–568 ق.م",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA2_CH10",
+    "pages": "pp.284–285"
+   }
   },
   {
    "date": -591,
    "en": "Psamtik II's expedition captures Napata (GHA: 591 BCE; widely dated 593 BCE)",
    "ar": "حملة بسماتيك الثاني تستولي على نبتة (تاريخ أفريقيا العام: 591 ق.م؛ ويُؤرَّخ على نطاق واسع بـ593 ق.م)",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA2_CH10",
+    "pages": "p.285",
+    "cite_text": "GHA II p.285: 'In −591'; SFDAS_HCS2017 p.164 gives 593 BCE (year 3 of Psamtik II)"
+   }
   },
   {
    "date": -270,
    "en": "Royal burials at El-Kurru then Nuri; burial shift to Meroe c.270 BCE",
    "ar": "المدافن الملكية في الكرو ثم نوري؛ انتقال الدفن إلى مروي نحو 270 ق.م",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "SFDAS_HCS2017",
+    "pages": "p.157",
+    "cite_text": "'À partir de 280-270 av. J.-C., elles se déplacent à proximité de Méroé'"
+   },
+   "approx": true
   },
   {
-   "date": 664,
+   "date": -664,
    "en": "Tanwetamani (Tanoutamon) 664–c.656; Assyrian sack of Thebes 663; Kushite withdrawal",
    "ar": "تانوت أماني 664–نحو 656؛ نهب الآشوريين لطيبة 663؛ انسحاب الكوشيين",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "SFDAS_HCS2017",
+    "pages": "pp.120, 154–157",
+    "cite_text": "Taharqo d. 664 (p.154); sack of Thebes, Tanouétamani flees south (p.155); last attested year 9 = 656 (p.157); 25th dyn. ends 663 (p.120)"
+   },
+   "date_note": "date sign corrected 664 → −664 (BCE), SFDAS p.154"
   }
  ],
  "kingdom-of-kush-meroitic-period": [
@@ -150,43 +175,67 @@
    "date": -170,
    "en": "Queen Shanakdakhete (c.170–160 BCE): among earliest Meroitic hieroglyphic inscriptions (Naqa)",
    "ar": "الملكة شنكداخيتي (نحو 170–160 ق.م): من أقدم النقوش المروية الهيروغليفية (النقعة)",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA2_CH10",
+    "pages": "pp.288–289"
+   }
   },
   {
    "date": 1909,
    "en": "Iron working at Meroe; Meroitic script transliterated by Griffith 1909, language still not understood",
    "ar": "صناعة الحديد في مروي؛ نقحرة الخط المروي على يد غريفيث 1909، ولا تزال اللغة غير مفهومة",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA2_CH10",
+    "pages": "pp.286, 289"
+   }
   },
   {
    "date": null,
    "en": "Ergamenes/Arkamani (3rd c. BCE), friendly relations with Ptolemaic Egypt",
    "ar": "أرجامنيس/أركاماني (القرن الثالث ق.م)، علاقات ودية مع مصر البطلمية",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA2_CH10",
+    "pages": "p.287"
+   }
   },
   {
    "date": null,
    "en": "Taniydamani (late 2nd c. BCE): first long Meroitic texts",
    "ar": "تانيدأماني (أواخر القرن الثاني ق.م): أول النصوص المروية الطويلة",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA2_CH10",
+    "pages": "p.289"
+   }
   },
   {
-   "date": null,
+   "date": -23,
    "en": "Kandakes Amanirenas and Amanishakheto; Prince/King Akinidad; war with Rome: Napata taken by Petronius 23 BCE (GHA), Treaty of Samos 21/20 BCE",
    "ar": "الكنداكتان أماني ريناس وأماني شاخيتو؛ الأمير/الملك أكينيداد؛ الحرب مع روما: بترونيوس يستولي على نبتة 23 ق.م (تاريخ أفريقيا العام)، ومعاهدة ساموس 21/20 ق.م",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA2_CH10",
+    "pages": "pp.289–290"
+   },
+   "date_note": "GHA II p.290: Petronius 'captured Napata in −23'"
   },
   {
-   "date": null,
+   "date": -12,
    "en": "Natakamani & Amanitore (GHA: c.12 BCE–12 CE; dating debated): Naqa Lion Temple, Amara, restoration of Napata",
    "ar": "نتكاماني وأماني تيري (تاريخ أفريقيا العام: نحو 12 ق.م–12 م؛ والتأريخ موضع جدل): معبد الأسد في النقعة، وعمارة، وترميم نبتة",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA2_CH10",
+    "pages": "pp.290–291"
+   },
+   "approx": true,
+   "date_note": "GHA II p.290: Natakamani and Amanitere '(−12 to +12)'"
   },
   {
    "date": null,
    "en": "Collapsed in the 4th century CE; cause debated (Noba per GHA II; Aksumite campaign of Ezana)",
    "ar": "انهارت في القرن الرابع الميلادي؛ والسبب موضع خلاف (النوبة بحسب تاريخ أفريقيا العام II؛ وحملة عيزانا الأكسومية)",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA2_CH10",
+    "pages": "pp.292–293"
+   }
   }
  ],
  "noba-x-group-ballana-culture": [
