@@ -2,7 +2,7 @@
  "meta": {
   "generated_by": "Sudan Geopolitical Analyst",
   "date": "2026-10-20",
-  "note": "Staging file; not merged into data/eras. Field names are the exact era-file names (geopolitics_en/ar, economy_en/ar); only fields empty in data/eras were filled; null = no source read. All Arabic is a WORKING TRANSLATION needing native review. Existing IDs reused from data/periods.json: IBS18_1962, WP_HALAIB, GEO-012, GEO-015, GEO-016, GEO-017, GEO-037, GEO-038, GEO-056, GEO-079, AR_AJCS_5653, EEBC2002 (replaces WP:Eritrea, 2026-10-25). [VERIFY] = read only via search excerpts. [SINGLE-SOURCE] = one source only. ACLED/ISW data not used. LOC* = Library of Congress Country Studies (US-government, dated). Per-era 'flags' list thin spots.",
+  "note": "Staging file; not merged into data/eras. Field names are the exact era-file names (geopolitics_en/ar, economy_en/ar); only fields empty in data/eras were filled; null = no source read. All Arabic is a WORKING TRANSLATION needing native review. Existing IDs reused from data/periods.json: IBS18_1962, WP_HALAIB, GEO-012, GEO-015, GEO-016, GEO-017, GEO-037, GEO-038, GEO-056, GEO-079, AR_AJCS_5653, EEBC2002. [VERIFY] = read only via search excerpts. [SINGLE-SOURCE] = one source only. ACLED/ISW data not used. LOC* = Library of Congress Country Studies (US-government, dated). Per-era 'flags' list thin spots.",
   "arabic_review": "needs native review",
   "sources": {
    "LOC1991_FOREIGN": {

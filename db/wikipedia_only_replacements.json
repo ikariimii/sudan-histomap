@@ -65,10 +65,8 @@
    "era": "eritrea-italian-colony-independent",
    "start": 1890,
    "field": "geopolitics_en",
-   "claim": "Colonial phase (Italian colony from 1890) not covered by a read source [thin; WP:Eritrea only].",
-   "current_cites": [
-    "WP:Eritrea"
-   ],
+   "claim": "Colonial phase (Italian colony from 1890); formerly cited only to a Wikipedia article on Eritrea, now EEBC2002 p.104 para 2.5.",
+   "current_cites": [],
    "replacement": {
     "registry_id": "EEBC2002",
     "citation": "Eritrea-Ethiopia Boundary Commission, Decision regarding delimitation of the border between Eritrea and Ethiopia, 13 April 2002. UN Reports of International Arbitral Awards (RIAA) vol. XXV, pp. 83-195.",
@@ -77,7 +75,11 @@
     "lang": "en",
     "quote": "On 1 January 1890, Italy formally established the Colony of Eritrea."
    },
-   "note": "This is not a modern era (it starts in 1890) and is listed after the modern ones. The registry title of EEBC2002 still carries [VERIFY]. I read the decision in full on 2026-10-25, so the Historian may drop that tag. The bracketed note '[thin; WP:Eritrea only]' would then be out of date; any rewording is the Historian's call."
+   "note": "This is not a modern era (it starts in 1890) and is listed after the modern ones. The registry title of EEBC2002 still carries [VERIFY]. I read the decision in full on 2026-10-25, so the Historian may drop that tag. The bracketed note '[thin; Wikipedia-only]' would then be out of date; any rewording is the Historian's call.",
+   "former_wp_id": "Wikipedia: Eritrea",
+   "resolved": true,
+   "resolved_date": "2026-10-25",
+   "resolved_to": "EEBC2002 p.104"
   }
  ],
  "thread_eras": [
@@ -456,9 +458,7 @@
     "owner_file": "data/eras/eritrea-italian-colony-independent.json (mirrored in data/periods.json key_events, data/eras/all.json)",
     "era": "eritrea-italian-colony-independent",
     "item": "Italian colony 1890",
-    "current_wp_ids": [
-     "WP:Eritrea"
-    ],
+    "current_wp_ids": [],
     "replacement": {
      "registry_id": "EEBC2002",
      "citation": "EEBC, Decision regarding delimitation of the border between Eritrea and Ethiopia, 13 April 2002",
@@ -466,16 +466,18 @@
      "quote": "On 1 January 1890, Italy formally established the Colony of Eritrea."
     },
     "status": "MATCHED",
-    "note": null
+    "note": null,
+    "former_wp_id": "Wikipedia: Eritrea",
+    "resolved": true,
+    "resolved_date": "2026-10-25",
+    "resolved_to": "EEBC2002 p.104"
    },
    {
     "type": "event",
     "owner_file": "data/eras/eritrea-italian-colony-independent.json (mirrored in data/periods.json key_events, data/eras/all.json)",
     "era": "eritrea-italian-colony-independent",
     "item": "Independence 1993",
-    "current_wp_ids": [
-     "WP:Eritrea"
-    ],
+    "current_wp_ids": [],
     "replacement": {
      "registry_id": "EEBC2002",
      "citation": "EEBC, Decision regarding delimitation of the border between Eritrea and Ethiopia, 13 April 2002",
@@ -483,7 +485,12 @@
      "quote": "On 27 April 1993, Eritrea became independent and was admitted as a member of the United Nations."
     },
     "status": "MATCHED",
-    "note": null
+    "note": null,
+    "former_wp_id": "Wikipedia: Eritrea",
+    "resolved": true,
+    "resolved_date": "2026-10-25",
+    "resolved_to": "EEBC2002 p.105",
+    "resolved_note": "Independence 1993 is supported by p.105 para 2.12, not p.104 para 2.5, so resolved_to records the page that actually supports it."
    },
    {
     "type": "event",
@@ -589,9 +596,7 @@
     "owner_file": "db/extents_historic.json",
     "era": "eritrea-italian-colony-independent",
     "item": "Colony proclaimed 1890 (lines ~2816 control_limits_en)",
-    "current_wp_ids": [
-     "WP:Eritrea"
-    ],
+    "current_wp_ids": [],
     "replacement": {
      "registry_id": "EEBC2002",
      "citation": "EEBC, Decision regarding delimitation of the border between Eritrea and Ethiopia, 13 April 2002",
@@ -599,16 +604,18 @@
      "quote": "On 1 January 1890, Italy formally established the Colony of Eritrea."
     },
     "status": "MATCHED",
-    "note": "EEBC2002 is already co-cited; WP:Eritrea is redundant."
+    "note": "EEBC2002 is already co-cited; the Wikipedia cite is redundant.",
+    "former_wp_id": "Wikipedia: Eritrea",
+    "resolved": true,
+    "resolved_date": "2026-10-25",
+    "resolved_to": "EEBC2002 p.104"
    },
    {
     "type": "extent",
     "owner_file": "db/extents_per_era_modern_neighbours.json",
     "era": "eritrea-italian-colony-independent",
     "item": "Colony proclaimed 1890 (lines ~38 and ~89)",
-    "current_wp_ids": [
-     "WP:Eritrea"
-    ],
+    "current_wp_ids": [],
     "replacement": {
      "registry_id": "EEBC2002",
      "citation": "EEBC, Decision regarding delimitation of the border between Eritrea and Ethiopia, 13 April 2002",
@@ -616,16 +623,18 @@
      "quote": "On 1 January 1890, Italy formally established the Colony of Eritrea."
     },
     "status": "MATCHED",
-    "note": "EEBC2002 is already co-cited; WP:Eritrea is redundant."
+    "note": "EEBC2002 is already co-cited; the Wikipedia cite is redundant.",
+    "former_wp_id": "Wikipedia: Eritrea",
+    "resolved": true,
+    "resolved_date": "2026-10-25",
+    "resolved_to": "EEBC2002 p.104"
    },
    {
     "type": "extent",
     "owner_file": "db/extents_sources_modern_neighbours.json",
     "era": "eritrea-italian-colony-independent",
     "item": "Colony proclaimed 1890 (lines ~448)",
-    "current_wp_ids": [
-     "WP:Eritrea"
-    ],
+    "current_wp_ids": [],
     "replacement": {
      "registry_id": "EEBC2002",
      "citation": "EEBC, Decision regarding delimitation of the border between Eritrea and Ethiopia, 13 April 2002",
@@ -633,16 +642,18 @@
      "quote": "On 1 January 1890, Italy formally established the Colony of Eritrea."
     },
     "status": "MATCHED",
-    "note": "EEBC2002 is already co-cited; WP:Eritrea is redundant."
+    "note": "EEBC2002 is already co-cited; the Wikipedia cite is redundant.",
+    "former_wp_id": "Wikipedia: Eritrea",
+    "resolved": true,
+    "resolved_date": "2026-10-25",
+    "resolved_to": "EEBC2002 p.104"
    },
    {
     "type": "extent",
     "owner_file": "db/border_transitions.json",
     "era": "eritrea-italian-colony-independent",
-    "item": "Colony proclaimed 1890 (lines ~1801 (from-cites OHM_2690839 + WP:Eritrea only))",
-    "current_wp_ids": [
-     "WP:Eritrea"
-    ],
+    "item": "Colony proclaimed 1890 (lines ~1801 (from-cites OHM_2690839 + Wikipedia: Eritrea only))",
+    "current_wp_ids": [],
     "replacement": {
      "registry_id": "EEBC2002",
      "citation": "EEBC, Decision regarding delimitation of the border between Eritrea and Ethiopia, 13 April 2002",
@@ -650,7 +661,11 @@
      "quote": "On 1 January 1890, Italy formally established the Colony of Eritrea."
     },
     "status": "MATCHED",
-    "note": null
+    "note": null,
+    "former_wp_id": "Wikipedia: Eritrea",
+    "resolved": true,
+    "resolved_date": "2026-10-25",
+    "resolved_to": "EEBC2002 p.104"
    }
   ],
   "not_processed": {
@@ -680,7 +695,7 @@
     "WP_ETHIOPIAN_EMPIRE": 1,
     "WP_GONDAR": 1,
     "WP:Ethiopian_Empire": 7,
-    "WP:Eritrea": 2,
+    "Wikipedia: Eritrea [resolved to EEBC2002, 2026-10-25]": 2,
     "WP:Kanem_Empire": 1,
     "WP_KANEM_BORNU": 1,
     "WP_NGAZARGAMU": 1,
