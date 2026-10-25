@@ -38,7 +38,8 @@
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
   "power_cinc_share null: communities, not a COW state; no new editorial score added (Pass 22d)",
   "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
-  "SINGLE-SOURCE – GHA V ch.7 (Ogot); no Dinka ethnography read"
+  "SINGLE-SOURCE – GHA V ch.7 (Ogot); no Dinka ethnography read",
+  "extent_rendering: homelands-layer (resolved, not a gap; Pass 34)"
  ],
  "curated": true,
  "power_cinc_share": [
@@ -54,5 +55,29 @@
    "flag": "power_cinc_share null: communities, not a COW state; no new editorial score added (Pass 22d)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "extent_rendering": {
+  "mode": "homelands-layer",
+  "reason": "The sources give ranges and rivers, not limits, so no territory polygon is drawn; the Homelands layer is the intended rendering.",
+  "reason_ar": "تذكر المصادر نطاقات وأنهارًا لا حدودًا، لذلك لا يُرسم مضلّع للأراضي؛ وطبقة الأوطان هي طريقة العرض المقصودة. [WORKING TRANSLATION – needs native Arabic review]",
+  "source_id": "QASIM_MAWSUA",
+  "page": "vol.2 p.911",
+  "cites": [
+   {
+    "source_id": "QASIM_MAWSUA",
+    "vol": 2,
+    "page": "p.911",
+    "pdf_page": 909,
+    "quote": "يمتد موطنهم من الرنك شمالا الى حدود يوغندا",
+    "quote_en": "their homeland stretches from Renk in the north to the Uganda border",
+    "quote_en_status": "working translation (Historian)",
+    "badge": "VERIFY"
+   },
+   {
+    "source_id": "EP1940_NUER",
+    "page": "p.112",
+    "note": "Nuer–Dinka divisions described by rivers, not surveyed limits"
+   }
+  ]
+ }
 }

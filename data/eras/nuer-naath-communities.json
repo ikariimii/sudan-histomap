@@ -40,7 +40,8 @@
   "Pass 13 text: Arabic is a working translation; needs native review",
   "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
-  "power_cinc_share null: communities, not a COW state; no new editorial score added (Pass 22d)"
+  "power_cinc_share null: communities, not a COW state; no new editorial score added (Pass 22d)",
+  "extent_rendering: homelands-layer (resolved, not a gap; Pass 34)"
  ],
  "curated": true,
  "power_cinc_share": [
@@ -56,5 +57,29 @@
    "flag": "power_cinc_share null: communities, not a COW state; no new editorial score added (Pass 22d)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "extent_rendering": {
+  "mode": "homelands-layer",
+  "reason": "The sources give ranges and rivers, not limits, so no territory polygon is drawn; the Homelands layer is the intended rendering.",
+  "reason_ar": "تذكر المصادر نطاقات وأنهارًا لا حدودًا، لذلك لا يُرسم مضلّع للأراضي؛ وطبقة الأوطان هي طريقة العرض المقصودة. [WORKING TRANSLATION – needs native Arabic review]",
+  "source_id": "EP1940_NUER",
+  "page": "p.112",
+  "cites": [
+   {
+    "source_id": "EP1940_NUER",
+    "page": "p.112",
+    "note": "tribal sections described by rivers (Zeraf, Pibor) that separate them from neighbours"
+   },
+   {
+    "source_id": "QASIM_MAWSUA",
+    "vol": 6,
+    "page": "p.2524",
+    "pdf_page": 2473,
+    "quote": "قبيلة نيلية تسكن بحر الغزال حتى نهر السوباط",
+    "quote_en": "a Nilotic tribe living from Bahr al-Ghazal to the Sobat river",
+    "quote_en_status": "working translation (Historian)",
+    "badge": "VERIFY"
+   }
+  ]
+ }
 }

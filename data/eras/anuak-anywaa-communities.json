@@ -41,7 +41,8 @@
   "power_cinc_share null: communities, not a COW state; no new editorial score added (Pass 22d)",
   "Pass 22b text (Analyst modern fill 4): Arabic is a [WORKING TRANSLATION – needs native Arabic review]",
   "SINGLE-SOURCE – each statement rests on one source",
-  "culture: language/location only, no Anuak cultural ethnography read (EP1940_ANUAK still not on the box)"
+  "culture: language/location only, no Anuak cultural ethnography read (EP1940_ANUAK still not on the box)",
+  "extent_rendering: homelands-layer (resolved, not a gap; Pass 34)"
  ],
  "curated": true,
  "power_cinc_share": [
@@ -57,5 +58,29 @@
    "flag": "power_cinc_share null: communities, not a COW state; no new editorial score added (Pass 22d)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "extent_rendering": {
+  "mode": "homelands-layer",
+  "reason": "The sources give ranges and rivers, not limits, so no territory polygon is drawn; the Homelands layer is the intended rendering.",
+  "reason_ar": "تذكر المصادر نطاقات وأنهارًا لا حدودًا، لذلك لا يُرسم مضلّع للأراضي؛ وطبقة الأوطان هي طريقة العرض المقصودة. [WORKING TRANSLATION – needs native Arabic review]",
+  "source_id": "EP1940_NUER",
+  "page": "p.112",
+  "cites": [
+   {
+    "source_id": "EP1940_NUER",
+    "page": "p.5",
+    "quote": "The Nuer, the Shilluk, and the Anuak each occupy a continuous territory"
+   },
+   {
+    "source_id": "EP1940_NUER",
+    "page": "p.112",
+    "quote": "the Pibor separates the Lou tribe from the Anuak people"
+   },
+   {
+    "source_id": "EP1940_NUER",
+    "page": "p.133",
+    "quote": "at one time the Anuak extended far westward of their present distribution"
+   }
+  ]
+ }
 }

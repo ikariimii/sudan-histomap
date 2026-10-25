@@ -42,7 +42,8 @@
   "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "CONTESTED – Sahara–Nile direction of contact unresolved (AAR2021)",
-  "geopolitics here = contacts/exchange only; no states"
+  "geopolitics here = contacts/exchange only; no states",
+  "extent_rendering: site-cluster footprint null – GHA I names sites but gives no coordinates (Pass 34)"
  ],
  "curated": true,
  "power_cinc_share": [
@@ -59,5 +60,28 @@
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "extent_rendering": {
+  "mode": "site-cluster",
+  "footprint": null,
+  "null_reason": "GHA I names the sites and the range extremes but gives no coordinates; no registered source on the box places them, so no footprint is computed.",
+  "inputs": [
+   {
+    "name": "Early Khartoum (Khartoum hospital site)",
+    "placed_by_source": "in Khartoum itself",
+    "coord": null,
+    "source_id": "GHA1_CH28",
+    "page": "p.720",
+    "quote": "traces have been found on a site in Khartoum itself. This site, Early Khartoum"
+   },
+   {
+    "name": "Khartoumian range (over a dozen localities)",
+    "placed_by_source": "from Kassala in the east, some 400 km of desert to the west, as far as Dongola in the north and almost to Abu Hijar on the White Nile in the south",
+    "coord": null,
+    "source_id": "GHA1_CH25",
+    "page": "p.642",
+    "quote": "It is found in over a dozen localities spread over an enormous area"
+   }
+  ]
+ }
 }
