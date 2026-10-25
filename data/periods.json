@@ -7824,10 +7824,10 @@
    "end": -1480,
    "prominence": 0.7,
    "key_events": [
-    "Western Deffufa mud-brick temple",
+    "Western Deffufa mud-brick temple (SFDAS_HCS2017 p.80)",
     "Largest African state outside Egypt in the 2nd millennium BCE",
-    "Sacked by Thutmose I c.1500 BCE",
-    "Swiss mission phases: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE (Final Kerma to c.1450)"
+    "Severe blow from Thutmose I's campaign, shortly before c.1500 BCE (SFDAS_HCS2017 p.92)",
+    "Phases: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1550 BCE (Final Kerma c.1550–1450) (SFDAS_HCS2017 p.69)"
    ],
    "capitals": [
     {
@@ -7839,14 +7839,15 @@
    "sources": [
     "KERMA_MISSION",
     "GHA2_CH19",
-    "WP:Kerma_culture"
+    "WP:Kerma_culture",
+    "SFDAS_HCS2017"
    ],
    "dating_note": "Corrected to Swiss Archaeological Mission chronology (kerma.ch). Note GHA II (1981) still dates 'Kerma' to -1730/-1580, i.e. only the Classic phase; superseded by Bonnet/Honegger excavations.",
    "key_events_ar": [
-    "معبد الدفوفة الغربية المبني من الطوب اللبن",
+    "معبد الدفوفة الغربية المبني من الطوب اللبن (SFDAS_HCS2017 p.80)",
     "أكبر دولة أفريقية خارج مصر في الألف الثاني قبل الميلاد",
-    "نهبها تحتمس الأول نحو 1500 ق.م",
-    "مراحل البعثة السويسرية: كرمة المبكرة نحو 2450–2050، والوسطى نحو 2050–1750، والكلاسيكية نحو 1750–1480 ق.م (وكرمة المتأخرة حتى نحو 1450)"
+    "نهبها تحتمس الأول نحو 1500 ق.م [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.92)",
+    "مراحل البعثة السويسرية: كرمة المبكرة نحو 2450–2050، والوسطى نحو 2050–1750، والكلاسيكية نحو 1750–1480 ق.م (وكرمة المتأخرة حتى نحو 1450) [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.69)"
    ],
    "how_we_know": {
     "sources": [
@@ -7862,6 +7863,10 @@
       "id": "WP:Kerma_culture",
       "title": "Kerma culture",
       "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "SFDAS_HCS2017",
+      "title": "Histoire et civilisations du Soudan, de la Préhistoire à nos jours"
      }
     ],
     "zones": [],
@@ -8245,10 +8250,10 @@
    "end": 1500,
    "prominence": 0.7,
    "key_events": [
-    "Repulsed Arab armies at Dongola 651/652",
-    "Baqt treaty with Egypt",
-    "Faras cathedral frescoes",
-    "Decline under Mamluk pressure, 14th c."
+    "Repulsed Arab armies at Dongola 651/652 (SFDAS_HCS2017 p.405)",
+    "Baqt treaty with Egypt (SFDAS_HCS2017 p.405)",
+    "Faras cathedral frescoes (SFDAS_HCS2017 p.404)",
+    "Decline under Mamluk pressure, 14th c. (SFDAS_HCS2017 pp.419–420)"
    ],
    "capitals": [
     {
@@ -8266,14 +8271,15 @@
     "WELSBY2002",
     "WP_MAKURIA",
     "GHA2_CH12",
-    "DERDA_LAJTAR2019"
+    "DERDA_LAJTAR2019",
+    "SFDAS_HCS2017"
    ],
    "dating_note": "End date approximate (kingdom fragmented in 14th–15th c.). Merger with Makuria: date disputed. GHA II ch.12 (Michałowski, pp.332–333) gives two versions: Maqrizi has one king, Qalidurut, ruling central and northern Nubia by the mid-7th c.; 'Christian sources seem to prove that the union of Nubia was the work of King Merkurios, who came to the throne in 697.' Derda & Łajtar (2019, p.136 and n.4): 'perhaps around 630'; the earliest indubitable proof of a greater Makuria including Nobadia is the reign of Merkurios (late 7th–early 8th c.); incorporation probably before the Arab raid on Dongola in 652; Godlewski has suggested the end of the 6th c. Welsby 2002 not read on this point.",
    "key_events_ar": [
-    "صد الجيوش العربية عند دنقلا 651/652",
-    "معاهدة البقط مع مصر",
-    "جداريات كاتدرائية فرس",
-    "الانحدار تحت ضغط المماليك، القرن الرابع عشر"
+    "صد الجيوش العربية عند دنقلا 651/652 (SFDAS_HCS2017 p.405)",
+    "معاهدة البقط مع مصر (SFDAS_HCS2017 p.405)",
+    "جداريات كاتدرائية فرس (SFDAS_HCS2017 p.404)",
+    "الانحدار تحت ضغط المماليك، القرن الرابع عشر (SFDAS_HCS2017 pp.419–420)"
    ],
    "how_we_know": {
     "sources": [
@@ -8293,6 +8299,10 @@
      {
       "id": "DERDA_LAJTAR2019",
       "title": "Organization of the Church in Medieval Nubia in the Light of a Newly Discovered Wall Inscription in Dongola"
+     },
+     {
+      "id": "SFDAS_HCS2017",
+      "title": "Histoire et civilisations du Soudan, de la Préhistoire à nos jours"
      }
     ],
     "zones": [],
@@ -8488,9 +8498,9 @@
    "end": 1899,
    "prominence": 0.75,
    "key_events": [
-    "Muhammad Ahmad declares himself Mahdi 1881",
-    "Fall of Khartoum, death of Gordon 1885",
-    "Khalifa Abdallahi rules",
+    "Muhammad Ahmad declares himself Mahdi 1881 (SFDAS_HCS2017 p.613)",
+    "Fall of Khartoum, death of Gordon 1885 (SFDAS_HCS2017 p.567)",
+    "Khalifa Abdallahi rules (SFDAS_HCS2017 p.621)",
     "Battle of Omdurman 1898; Umm Diwaykarat 1899"
    ],
    "capitals": [
@@ -8502,13 +8512,14 @@
    ],
    "sources": [
     "HD2011",
-    "WP:Mahdist_State"
+    "WP:Mahdist_State",
+    "SFDAS_HCS2017"
    ],
    "dating_note": "",
    "key_events_ar": [
-    "محمد أحمد يعلن نفسه المهدي 1881",
-    "سقوط الخرطوم ومقتل غوردون 1885",
-    "حكم الخليفة عبد الله",
+    "محمد أحمد يعلن نفسه المهدي 1881 (SFDAS_HCS2017 p.613)",
+    "سقوط الخرطوم ومقتل غوردون 1885 (SFDAS_HCS2017 p.567)",
+    "حكم الخليفة عبد الله (SFDAS_HCS2017 p.621)",
     "معركة أم درمان 1898؛ أم دبيكرات 1899"
    ],
    "how_we_know": {
@@ -8521,6 +8532,10 @@
       "id": "WP:Mahdist_State",
       "title": "Mahdist State",
       "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "SFDAS_HCS2017",
+      "title": "Histoire et civilisations du Soudan, de la Préhistoire à nos jours"
      }
     ],
     "zones": [],
@@ -8534,10 +8549,10 @@
    "end": 1956,
    "prominence": 0.75,
    "key_events": [
-    "Condominium Agreement 19 Jan 1899",
+    "Condominium Agreement 19 Jan 1899 (SFDAS_HCS2017 p.639)",
     "Gezira Scheme 1925",
-    "Southern Policy",
-    "Self-government 1953"
+    "Southern Policy (SFDAS_HCS2017 p.643)",
+    "Self-government 1953 (SFDAS_HCS2017 p.660)"
    ],
    "capitals": [
     {
@@ -8548,14 +8563,15 @@
    ],
    "sources": [
     "HD2011",
-    "WP:Anglo-Egyptian_Sudan"
+    "WP:Anglo-Egyptian_Sudan",
+    "SFDAS_HCS2017"
    ],
    "dating_note": "",
    "key_events_ar": [
-    "اتفاقية الحكم الثنائي 19 يناير 1899",
+    "اتفاقية الحكم الثنائي 19 يناير 1899 (SFDAS_HCS2017 p.639)",
     "مشروع الجزيرة 1925",
-    "سياسة الجنوب",
-    "الحكم الذاتي 1953"
+    "سياسة الجنوب (SFDAS_HCS2017 p.643)",
+    "الحكم الذاتي 1953 (SFDAS_HCS2017 p.660)"
    ],
    "how_we_know": {
     "sources": [
@@ -8567,6 +8583,10 @@
       "id": "WP:Anglo-Egyptian_Sudan",
       "title": "Anglo-Egyptian Sudan",
       "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "SFDAS_HCS2017",
+      "title": "Histoire et civilisations du Soudan, de la Préhistoire à nos jours"
      }
     ],
     "zones": [],
@@ -8804,10 +8824,10 @@
    "end": 2019,
    "prominence": 0.7,
    "key_events": [
-    "30 June 1989 coup",
+    "30 June 1989 coup (SFDAS_HCS2017 p.731)",
     "Darfur war from 2003; ICC warrants 2009",
-    "Comprehensive Peace Agreement 2005",
-    "South Sudan secedes 9 July 2011"
+    "Comprehensive Peace Agreement 2005 (CPA_2005 cover letter p.1)",
+    "South Sudan secedes 9 July 2011 (UNSC1996 p.1)"
    ],
    "capitals": [
     {
@@ -8818,16 +8838,17 @@
    ],
    "sources": [
     "HD2011",
-    "WP:Omar_al-Bashir",
     "WP:War_in_Darfur",
-    "WP:Comprehensive_Peace_Agreement"
+    "SFDAS_HCS2017",
+    "CPA_2005",
+    "UNSC1996"
    ],
-   "dating_note": "Holt & Daly 6th ed. (2011) covers to c.2010; 2011+ events still Wikipedia-sourced.",
+   "dating_note": "Holt & Daly 6th ed. (2011) covers to c.2010; the 9 July 2011 secession is cited to UNSC1996.",
    "key_events_ar": [
-    "انقلاب 30 يونيو 1989",
+    "انقلاب 30 يونيو 1989 (SFDAS_HCS2017 p.731)",
     "حرب دارفور منذ 2003؛ مذكرات المحكمة الجنائية الدولية 2009",
-    "اتفاقية السلام الشامل 2005",
-    "انفصال جنوب السودان 9 يوليو 2011"
+    "اتفاقية السلام الشامل 2005 (CPA_2005 cover letter p.1)",
+    "انفصال جنوب السودان 9 يوليو 2011 (UNSC1996 p.1)"
    ],
    "how_we_know": {
     "sources": [
@@ -8836,24 +8857,26 @@
       "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
      },
      {
-      "id": "WP:Omar_al-Bashir",
-      "title": "Omar al-Bashir",
-      "kind": "tertiary (Wikipedia)"
-     },
-     {
       "id": "WP:War_in_Darfur",
       "title": "War in Darfur",
       "kind": "tertiary (Wikipedia)"
      },
      {
-      "id": "WP:Comprehensive_Peace_Agreement",
-      "title": "Comprehensive Peace Agreement",
-      "kind": "tertiary (Wikipedia)"
+      "id": "SFDAS_HCS2017",
+      "title": "Histoire et civilisations du Soudan, de la Préhistoire à nos jours"
+     },
+     {
+      "id": "CPA_2005",
+      "title": "The Comprehensive Peace Agreement between the Government of the Republic of the Sudan and the SPLM/SPLA"
+     },
+     {
+      "id": "UNSC1996",
+      "title": "Resolution 1996 (2011) [UNMISS]"
      }
     ],
     "zones": [],
     "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
-    "dating": "Holt & Daly 6th ed. (2011) covers to c.2010; 2011+ events still Wikipedia-sourced."
+    "dating": "Holt & Daly 6th ed. (2011) covers to c.2010; the 9 July 2011 secession is cited to UNSC1996."
    }
   },
   {
@@ -10179,8 +10202,8 @@
    "end": 2026,
    "prominence": 0.3,
    "key_events": [
-    "Italian colony 1890",
-    "Independence 1993"
+    "Italian colony 1890 (EEBC2002 p.104)",
+    "Independence 1993 (EEBC2002 p.105)"
    ],
    "capitals": [
     {
@@ -10192,12 +10215,13 @@
    "sources": [
     "GHA7_CH17",
     "GHA8",
-    "WP:Eritrea"
+    "WP:Eritrea",
+    "EEBC2002"
    ],
    "dating_note": "",
    "key_events_ar": [
-    "مستعمرة إيطالية 1890",
-    "الاستقلال 1993"
+    "مستعمرة إيطالية 1890 (EEBC2002 p.104)",
+    "الاستقلال 1993 (EEBC2002 p.105)"
    ],
    "how_we_know": {
     "sources": [
@@ -10213,6 +10237,10 @@
       "id": "WP:Eritrea",
       "title": "Eritrea",
       "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "EEBC2002",
+      "title": "Decision regarding delimitation of the border between Eritrea and Ethiopia, 13 April 2002 (RIAA vol. XXV)"
      }
     ],
     "zones": [],

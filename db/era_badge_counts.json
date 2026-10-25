@@ -18,17 +18,17 @@
   "files_scanned": 302
  },
  "totals": {
-  "SINGLE-SOURCE": 228,
+  "SINGLE-SOURCE": 220,
   "CONTESTED": 161,
-  "VERIFY": 5,
+  "VERIFY": 7,
   "REPORTED": 14,
   "MODEL": 109,
   "EDITORIAL": 67,
-  "APPROXIMATE": 453,
+  "APPROXIMATE": 445,
   "PARTIAL": 3,
   "DERIVED": 330
  },
- "grand_total": 1370,
+ "grand_total": 1356,
  "inline_totals": {
   "SINGLE-SOURCE": 22,
   "CONTESTED": 9,
@@ -43,21 +43,21 @@
  "inline_grand_total": 45,
  "inline_method": "Exact bracketed tags [NAME] or [NAME: note] for the 9 badge names in data/eras/*.json text fields (excluding all.json, badge keys and Arabic _ar/ar fields); a tag is not counted when the enclosing object already has the same structured badge. Not included in totals/grand_total.",
  "source_types_totals": {
-  "un_aid_agency": 32,
+  "un_aid_agency": 33,
   "intl_financial": 23,
   "government": 50,
-  "scholarly": 234,
-  "wikipedia_only": 84,
+  "scholarly": 237,
+  "wikipedia_only": 82,
   "news": 5,
   "other": 110
  },
- "source_types_grand_total": 538,
+ "source_types_grand_total": 540,
  "source_types_distinct_ids": {
   "un_aid_agency": 30,
   "intl_financial": 11,
   "government": 39,
   "scholarly": 72,
-  "wikipedia_only": 82,
+  "wikipedia_only": 80,
   "news": 4,
   "other": 37
  },
@@ -191,15 +191,15 @@
   },
   "al-bashir-ncp-ingaz-regime": {
    "source_types": {
-    "un_aid_agency": 1,
+    "un_aid_agency": 2,
     "intl_financial": 1,
     "government": 1,
     "scholarly": 3,
-    "wikipedia_only": 7,
+    "wikipedia_only": 5,
     "news": 0,
     "other": 8
    },
-   "source_types_total": 21,
+   "source_types_total": 20,
    "counts": {
     "SINGLE-SOURCE": 3,
     "CONTESTED": 29,
@@ -288,12 +288,12 @@
     "un_aid_agency": 0,
     "intl_financial": 0,
     "government": 0,
-    "scholarly": 3,
+    "scholarly": 4,
     "wikipedia_only": 1,
     "news": 0,
     "other": 2
    },
-   "source_types_total": 6,
+   "source_types_total": 7,
    "counts": {
     "SINGLE-SOURCE": 12,
     "CONTESTED": 0,
@@ -342,17 +342,17 @@
    },
    "source_types_total": 6,
    "counts": {
-    "SINGLE-SOURCE": 5,
+    "SINGLE-SOURCE": 3,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 7,
+    "APPROXIMATE": 5,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 13,
+   "total": 9,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -369,7 +369,6 @@
     "data/eras/anuak-anywaa-communities.json",
     "db/era_economy.json",
     "db/era_fill_modern4.json",
-    "db/ethno_markers/seligman1932.geojson",
     "db/extents/anuak-anywaa-communities.geojson",
     "db/map_sources.json"
    ]
@@ -732,17 +731,17 @@
    },
    "source_types_total": 4,
    "counts": {
-    "SINGLE-SOURCE": 6,
+    "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 9,
+    "APPROXIMATE": 5,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 16,
+   "total": 8,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -759,7 +758,6 @@
     "data/eras/dinka-jieng-communities.json",
     "db/era_economy.json",
     "db/era_fill_hist20.json",
-    "db/ethno_markers/seligman1932.geojson",
     "db/extents/dinka-jieng-communities.geojson",
     "db/map_sources.json"
    ]
@@ -1376,7 +1374,7 @@
    "counts": {
     "SINGLE-SOURCE": 4,
     "CONTESTED": 0,
-    "VERIFY": 0,
+    "VERIFY": 2,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 3,
@@ -1384,7 +1382,7 @@
     "PARTIAL": 0,
     "DERIVED": 3
    },
-   "total": 14,
+   "total": 16,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1399,6 +1397,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/kingdom-of-kerma.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/extents/kingdom-of-kerma.geojson",
     "db/map_sources.json",
@@ -1667,12 +1666,12 @@
     "un_aid_agency": 0,
     "intl_financial": 0,
     "government": 0,
-    "scholarly": 2,
+    "scholarly": 3,
     "wikipedia_only": 1,
     "news": 0,
     "other": 1
    },
-   "source_types_total": 4,
+   "source_types_total": 5,
    "counts": {
     "SINGLE-SOURCE": 3,
     "CONTESTED": 0,
@@ -1711,12 +1710,12 @@
     "un_aid_agency": 0,
     "intl_financial": 0,
     "government": 0,
-    "scholarly": 3,
+    "scholarly": 4,
     "wikipedia_only": 1,
     "news": 0,
     "other": 1
    },
-   "source_types_total": 5,
+   "source_types_total": 6,
    "counts": {
     "SINGLE-SOURCE": 8,
     "CONTESTED": 0,
@@ -2061,17 +2060,17 @@
    },
    "source_types_total": 3,
    "counts": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 10,
+    "APPROXIMATE": 8,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 13,
+   "total": 9,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2087,7 +2086,6 @@
    "files": [
     "data/eras/nuer-naath-communities.json",
     "db/era_economy.json",
-    "db/ethno_markers/seligman1932.geojson",
     "db/extents/nuer-naath-communities.geojson",
     "db/map_sources.json"
    ]
@@ -2532,17 +2530,17 @@
    },
    "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 8,
+    "SINGLE-SOURCE": 6,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 4,
+    "APPROXIMATE": 2,
     "PARTIAL": 0,
     "DERIVED": 4
    },
-   "total": 16,
+   "total": 12,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2558,7 +2556,6 @@
    "files": [
     "data/eras/shilluk-kingdom.json",
     "db/era_economy.json",
-    "db/ethno_markers/seligman1932.geojson",
     "db/extents/shilluk-kingdom.geojson",
     "db/groups.json",
     "db/map_sources.json",
@@ -2577,17 +2574,17 @@
    },
    "source_types_total": 11,
    "counts": {
-    "SINGLE-SOURCE": 4,
+    "SINGLE-SOURCE": 6,
     "CONTESTED": 10,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
-    "APPROXIMATE": 14,
+    "APPROXIMATE": 16,
     "PARTIAL": 0,
     "DERIVED": 2
    },
-   "total": 33,
+   "total": 37,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2603,6 +2600,7 @@
    "files": [
     "data/eras/southern-sudan-under-condominium-sudan.json",
     "db/era_economy.json",
+    "db/ethno_markers/seligman1932.geojson",
     "db/extents/southern-sudan-under-condominium-sudan.geojson",
     "db/extents_historic.json",
     "db/map_sources.json",
