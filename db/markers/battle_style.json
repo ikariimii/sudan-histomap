@@ -168,7 +168,7 @@
  ],
  "war_footprint": {
   "trigger": "select a war chip, or select a battle and choose 'show war'",
-  "palette_note": "16 slots: the 11 war_ids in data/wars.json (c02b4d0, first-civil-war shared with the Analyst) plus 5 more post-1956 Analyst ids. The parent asked for 14; the actual union is 16. Hues repeat a family only when the dash pattern differs. Marker glyphs keep their precision colours; the war hue goes to the hull, timeline ticks and a 2 px outline in war mode.",
+  "palette_note": "17 slots: the 11 war_ids in data/wars.json (c02b4d0, first-civil-war shared with the Analyst) plus 6 more post-1956 Analyst ids (south-kordofan-blue-nile-2011 added from fa486bd: lime #a6d854 with a dotted 1 2 dash, a hue and dash no other war uses). The parent asked for 14; the actual union is 16. Hues repeat a family only when the dash pattern differs. Marker glyphs keep their precision colours; the war hue goes to the hull, timeline ticks and a 2 px outline in war mode.",
   "war_palette": {
    "kushite-egyptian-wars": {
     "colour": "#e69f00",
@@ -249,6 +249,11 @@
     "colour": "#f2f4f7",
     "hull_dash": "dash 4 2 1 2",
     "id_source": "Analyst"
+   },
+   "south-kordofan-blue-nile-2011": {
+    "colour": "#a6d854",
+    "hull_dash": "1 2",
+    "id_source": "Analyst (db/battles_post1956.json fa486bd)"
    }
   },
   "treatment": {
@@ -281,5 +286,43 @@
   ],
   "collision": "greedy by priority with 3 px padding; a lower-priority label that collides is hidden (marker stays, label on hover). City labels outrank non-decisive battle labels but not decisive ones. At z<=5 only decisive labels show.",
   "rtl": "in AR mode, mirror placement and keep the year as Arabic-Indic numerals [VERIFY]; parentheses mirror automatically with dir=rtl"
+ },
+ "contested": {
+  "applies_to": "items with badge 'CONTESTED' (e.g. south-sudan-civil-war 2013 battles in db/battles_post1956.json)",
+  "consistent_with": "map.css .hm.cont .dot uses an amber #e0a63e 1.5px outline for contested points; the same amber is used here",
+  "marker": {
+   "outer_ring": "#e0a63e 1.5px, drawn 1.5px outside the base icon's edge",
+   "corner_badge": {
+    "file": "badge_contested.svg",
+    "size": "40% of marker size, min 8px",
+    "position": "top-right (top-left in RTL), offset so it overlaps the icon edge by 25%"
+   }
+  },
+  "combine": {
+   "exact": "base icon + ring + badge",
+   "approximate": "ring is drawn outside the vermillion ring with a 1px gap",
+   "region": "badge on the glyph centre's top-right; the halo is unchanged; the area outline goes amber dashed 4 3",
+   "reported": "badge + ring; the ring keeps the dashes (3 2.2) in amber so both states read"
+  },
+  "states": {
+   "hover": "badge scales with the marker",
+   "selected": "yellow #ffd54a selection outline drawn outside the amber ring"
+  },
+  "timeline_tick": "amber 3px diamond cap on the tick",
+  "label": {
+   "en": "Contested",
+   "ar": "متنازع عليه [VERIFY]",
+   "suffix_en": "{label} (contested)",
+   "suffix_ar": "{label} (متنازع عليه) [VERIFY]"
+  },
+  "legend": {
+   "en": "Contested: sources disagree on control or outcome",
+   "ar": "متنازع عليه: تختلف المصادر حول السيطرة أو النتيجة [VERIFY]"
+  },
+  "alt_text": {
+   "en": "{base_alt}; contested",
+   "ar": "{base_alt}؛ متنازع عليه [VERIFY]"
+  },
+  "colourblind": "amber is backed by the diamond shape and the ring, so it is never colour alone"
  }
 }

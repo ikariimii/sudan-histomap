@@ -28,7 +28,8 @@
    "kordofan-1747",
    "umm-diwaykarat-1899",
    "torit-1955"
-  ]
+  ],
+  "post1956_check": "2026-10-25: none of the 17 ids in db/battles_post1956.json (fa486bd) are keyed here (clashes: none); no images were added for them, and none for war-2023."
  },
  "battles": {
   "kerma--1500": [
@@ -116,7 +117,8 @@
     "battle_id": "meroe-330",
     "war_id": "aksum-kush-war",
     "evidence_type": "inscription",
-    "note": "Trilingual Ezana stela at Aksum. Not confirmed to be the Noba-campaign text (RIE 189) [VERIFY with Historian]."
+    "note": "Ezana trilingual stela at Aksum [VERIFY]. The Noba-campaign inscription may be DAE 11; not confirmed to be the stone shown here, pending the Historian's cite.",
+    "verify": true
    }
   ],
   "dongola-642": [],
@@ -146,7 +148,10 @@
     "battle_id": "dongola-652",
     "war_id": "arab-nubian-wars",
     "evidence_type": "archaeology",
-    "note": "North Church, Old Dongola: Makurian site context (13th c.?), not a depiction of the 652 siege."
+    "note": "North Church, Old Dongola: Makurian site context (13th c.?), not a depiction of the 652 siege.",
+    "site_view": true,
+    "caption_en": "Site of the siege of Dongola (652): North Church, Old Dongola",
+    "caption_ar": "موقع حصار دنقلا (652): الكنيسة الشمالية، دنقلا العجوز [VERIFY]"
    }
   ],
   "arbaji-1504": [],
@@ -391,7 +396,10 @@
     "battle_id": "gallabat-1889",
     "war_id": "mahdist-ethiopian-war",
     "evidence_type": "photograph",
-    "note": "Battlefield view published 1905, not an image of the battle."
+    "note": "Battlefield view published 1905, not an image of the battle.",
+    "site_view": true,
+    "caption_en": "Site of the Battle of Gallabat (1889), photographed c.1905",
+    "caption_ar": "موقع معركة القلابات (1889)، صورة نحو 1905 [VERIFY]"
    }
   ],
   "atbara-1898": [
@@ -640,7 +648,6 @@
  "pending_ids": {
   "el-teb-1884": {
    "note": "suggested slug; the Historian will assign the id in pass 2",
-   "war_id_suggested": "mahdist-war",
    "images": [
     {
      "file_title": "File:Melton-Prior-batalla-de-El-Teb-28-01-1884.jpg",
@@ -720,11 +727,12 @@
      "war_id": "mahdist-war",
      "evidence_type": "period-illustration"
     }
-   ]
+   ],
+   "war_id": "mahdist-war",
+   "war_id_provisional": true
   },
   "tamai-1884": {
    "note": "suggested slug; the Historian will assign the id in pass 2",
-   "war_id_suggested": "mahdist-war",
    "images": [
     {
      "file_title": "File:Battle of Tamai.jpg",
@@ -804,11 +812,12 @@
      "war_id": "mahdist-war",
      "evidence_type": "period-illustration"
     }
-   ]
+   ],
+   "war_id": "mahdist-war",
+   "war_id_provisional": true
   },
   "abu-klea-1885": {
    "note": "suggested slug; the Historian will assign the id in pass 2",
-   "war_id_suggested": "mahdist-war",
    "images": [
     {
      "file_title": "File:Battle of Abu Klea, William Barnes Wollen.jpg",
@@ -888,11 +897,12 @@
      "war_id": "mahdist-war",
      "evidence_type": "primary-account"
     }
-   ]
+   ],
+   "war_id": "mahdist-war",
+   "war_id_provisional": true
   },
   "ginnis-1885": {
    "note": "suggested slug; the Historian will assign the id in pass 2",
-   "war_id_suggested": "mahdist-war (suggested; Historian to confirm, may be outside major-battle scope)",
    "images": [
     {
      "file_title": "File:Battle of Ginnis (1886), London News.jpg",
@@ -946,11 +956,12 @@
      "war_id": "mahdist-war",
      "evidence_type": "period-illustration"
     }
-   ]
+   ],
+   "war_id": "mahdist-war",
+   "war_id_provisional": true
   },
   "ferkeh-1896": {
    "note": "suggested slug; the Historian will assign the id in pass 2",
-   "war_id_suggested": "anglo-egyptian-reconquest",
    "images": [
     {
      "file_title": "File:Battle of Ferkeh, June 7 1896.png",
@@ -978,11 +989,12 @@
      "war_id": "anglo-egyptian-reconquest",
      "evidence_type": "period-illustration"
     }
-   ]
+   ],
+   "war_id": "anglo-egyptian-reconquest",
+   "war_id_provisional": true
   },
   "kassala-1894": {
    "note": "suggested slug; the Historian will assign the id in pass 2",
-   "war_id_suggested": "mahdist-war (Italian–Mahdist front; suggested)",
    "images": [
     {
      "file_title": "File:Fattori - Episodio della battaglia di Kassala, 1906, GG32.jpg",
@@ -1010,11 +1022,12 @@
      "war_id": "mahdist-war",
      "evidence_type": "period-illustration"
     }
-   ]
+   ],
+   "war_id": "mahdist-war",
+   "war_id_provisional": true
   },
   "memphis--728": {
    "note": "suggested slug; the Historian will assign the id in pass 2",
-   "war_id_suggested": "kushite-egyptian-wars (Piye's conquest of Egypt; suggested)",
    "images": [
     {
      "file_title": "File:Stele of Piye (complete).jpg",
@@ -1039,7 +1052,7 @@
      },
      "credit_line": "Auguste Mariette, 1872-01-01, Public domain, via Wikimedia Commons",
      "battle_id": "memphis--728",
-     "war_id": "kushite-egyptian-wars",
+     "war_id": "piye-conquest-of-egypt",
      "evidence_type": "inscription"
     },
     {
@@ -1065,7 +1078,7 @@
      },
      "credit_line": "Tangopaso, 2022-08-15, Public domain, via Wikimedia Commons",
      "battle_id": "memphis--728",
-     "war_id": "kushite-egyptian-wars",
+     "war_id": "piye-conquest-of-egypt",
      "evidence_type": "inscription"
     },
     {
@@ -1091,10 +1104,13 @@
      },
      "credit_line": "Auguste Mariette (1821-1881), 2014-04-24 17:40:07, Public domain, via Wikimedia Commons",
      "battle_id": "memphis--728",
-     "war_id": "kushite-egyptian-wars",
+     "war_id": "piye-conquest-of-egypt",
      "evidence_type": "period-illustration"
     }
-   ]
+   ],
+   "war_id": "piye-conquest-of-egypt",
+   "war_id_provisional": true,
+   "war_id_note": "piye-conquest-of-egypt is a provisional id not in data/wars.json; the alternative is kushite-egyptian-wars"
   },
   "gallabat-1940": {
    "note": "suggested slug; the Historian will assign the id in pass 2",
@@ -1152,7 +1168,8 @@
      "war_id": "east-african-campaign-1940",
      "evidence_type": "photograph"
     }
-   ]
+   ],
+   "war_id_provisional": true
   },
   "korti": {
    "note": "Korti (1820, Shayqiyya vs Turco-Egyptian, or the 1884–85 camp): no free period image found",
