@@ -536,8 +536,7 @@
     "quote_status": "original source text",
     "quote_en": "...the main Fur branches [began] to consolidate their leadership and take power from the Daju and the Tunjur",
     "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
-    "badge": "VERIFY",
-    "ocr_note": "Tesseract OCR, not checked against the page image"
+    "ocr_note": "Checked against the page image (scan pdf_page 400) on 2026-10-24: quote matches printed text."
    },
    "badge": "SINGLE-SOURCE",
    "certainty": "medium"
@@ -787,7 +786,7 @@
     {
      "source": "QASIM_MAWSUA",
      "vol": 6,
-     "page": "p.2563",
+     "page": "p.2561",
      "pdf_page": 2511,
      "pdf_file": "6-vol combined scan",
      "quote": "وحاول الفونج التخلص منهم فلم يستطيعوا حتى الفتح المصرى",
@@ -795,8 +794,7 @@
      "quote_status": "original source text",
      "quote_en": "the Funj tried to rid themselves of them but could not, until the Egyptian conquest",
      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
-     "badge": "VERIFY",
-     "ocr_note": "Tesseract OCR, not checked against the page image"
+     "ocr_note": "Checked against the page image (scan pdf_page 2511) on 2026-10-24: quote matches printed text. Printed page number on the image is 2561 (pdf_page 2511 is a composite scan whose footer reads 2563)."
     },
     {
      "source": "GHA5_CH7",
@@ -818,7 +816,7 @@
    "cite": {
     "source": "QASIM_MAWSUA",
     "vol": 6,
-    "page": "p.2563",
+    "page": "p.2561",
     "pdf_page": 2511,
     "pdf_file": "6-vol combined scan",
     "quote": "وحارب الشكرية وهزمهم وقتل شيخهم ابا على",
@@ -826,8 +824,7 @@
     "quote_status": "original source text",
     "quote_en": "he fought the Shukriyya, defeated them and killed their shaykh Abu 'Ali",
     "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
-    "badge": "VERIFY",
-    "ocr_note": "Tesseract OCR, not checked against the page image"
+    "ocr_note": "Checked against the page image (scan pdf_page 2511) on 2026-10-24: quote matches printed text. Printed page number on the image is 2561 (pdf_page 2511 is a composite scan whose footer reads 2563)."
    },
    "badge": "SINGLE-SOURCE",
    "certainty": "medium"
