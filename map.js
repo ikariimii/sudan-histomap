@@ -100,6 +100,7 @@ function nobPos(){const b=$('layers').getBoundingClientRect();document.documentE
 function place(){setTimeout(cityThin,0);nobPos();const t=TR;gT.selectAll('*').remove();const placed=[],hid=[];
  // obstacles: the card and the top chrome
  const ob=['sheet','top','layers','nob'].map(id=>$(id).getBoundingClientRect()).filter(b=>b.width).map(b=>({x:b.left,y:b.top,w:b.width,h:b.height}));
+ root.selectAll('.mk').nodes().forEach(n=>{const s=n.querySelector('rect,circle,path');if(!s)return;const b=s.getBoundingClientRect();if(b.width)ob.push({x:b.left+1,y:b.top+1,w:Math.max(0,b.width-2),h:Math.max(0,b.height-2)})});
  const ov=(a,c)=>a.x<c.x+c.w&&c.x<a.x+a.w&&a.y<c.y+c.h&&c.y<a.y+a.h;
  LBS.slice().sort((a,b)=>b.pri-a.pri).forEach(o=>{const sx=t.applyX(o.xy[0]),sy=t.applyY(o.xy[1]);if(sx<0||sx>W()||sy<0||sy>H()){return}
   const gg=gT.append('g').attr('transform',`translate(${sx},${sy})`);const tx=gg.append('text').attr('class','lb'+(o.big?' big':'')).text(o.t);
