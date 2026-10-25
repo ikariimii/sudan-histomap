@@ -1036,7 +1036,7 @@
       "badges": [
         "NO-SOURCE"
       ],
-      "note": "No source read in full names this era's currency; not filled from memory (checked GHA II/V/VI/VII for coin, currency, thaler, Maria Theresa on 2026-10-25: no Sudan-specific hit for this era)."
+      "note": "NO-SOURCE. No numismatic catalogue record applies: no coinage is recorded for this era in the GHA texts read, and no museum record checked on 2026-10-25 names a currency for it."
     },
     "main_trade": {
       "exports": {
@@ -1456,7 +1456,7 @@
       "badges": [
         "NO-SOURCE"
       ],
-      "note": "No source read in full names this era's currency; not filled from memory (checked GHA II/V/VI/VII for coin, currency, thaler, Maria Theresa on 2026-10-25: no Sudan-specific hit for this era)."
+      "note": "NO-SOURCE. No numismatic catalogue record applies: no coinage is recorded for this era in the GHA texts read, and no museum record checked on 2026-10-25 names a currency for it."
     },
     "main_trade": {
       "exports": {
@@ -1525,7 +1525,7 @@
       "badges": [
         "NO-SOURCE"
       ],
-      "note": "No source read in full names this era's currency; not filled from memory (checked GHA II/V/VI/VII for coin, currency, thaler, Maria Theresa on 2026-10-25: no Sudan-specific hit for this era)."
+      "note": "NO-SOURCE. No numismatic catalogue record applies: no coinage is recorded for this era in the GHA texts read, and no museum record checked on 2026-10-25 names a currency for it."
     },
     "main_trade": {
       "exports": {
@@ -1665,7 +1665,7 @@
       "badges": [
         "NO-SOURCE"
       ],
-      "note": "No source read in full names this era's currency; not filled from memory (checked GHA II/V/VI/VII for coin, currency, thaler, Maria Theresa on 2026-10-25: no Sudan-specific hit for this era)."
+      "note": "NO-SOURCE. Searched the British Museum, ANS MANTIS and Numista on 2026-10-25: no record ties a Maria Theresa thaler (or any coin) to Darfur or the Keira sultanate. The BM thaler records found have Ethiopian or Omani provenance (e.g. Af1972,30.27, 2010,6018.1), so they are not used."
     },
     "main_trade": {
       "exports": {
@@ -1726,15 +1726,28 @@
       "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
     },
     "currency": {
-      "name": null,
-      "type": null,
-      "issuer": null,
-      "example_artifact": null,
-      "cite": null,
-      "badges": [
-        "NO-SOURCE"
+      "name": "20 piastres (qirsh), silver, struck at Omdurman (Umm Durman) under the Khalifa",
+      "type": "coin",
+      "issuer": "Abdullahi ibn Muhammad (the Khalifa), Mahdist State",
+      "example_artifact": {
+        "label": "British Museum 1922,0620.3: silver 20 piastres, Omdurman, 1893 (AH 1311), 35 mm, 21.04 g",
+        "museum_number": "1922,0620.3",
+        "url": "https://www.britishmuseum.org/collection/object/C_1922-0620-3"
+      },
+      "cite": "BM_1922_0620_3",
+      "page": "museum no. 1922,0620.3",
+      "also_cite": [
+        {
+          "cite": "ANS_1952_75_15",
+          "page": "accession 1952.75.15",
+          "url": "http://numismatics.org/collection/1952.75.15",
+          "note": "silver 20 qirsh, 'duribe umm durman 1302', regnal year 9, Mahdist State"
+        }
       ],
-      "note": "No source read in full names this era's currency; not filled from memory (checked GHA II/V/VI/VII for coin, currency, thaler, Maria Theresa on 2026-10-25: no Sudan-specific hit for this era)."
+      "badges": [
+        "SOURCED"
+      ],
+      "note": "Both records themselves assign the coin to the Mahdiya / Mahdist State, so no EDITORIAL link is needed. They show that this coin existed, not how widely it circulated or what share of exchange it carried. No Maria Theresa thaler record tied to the Mahdiyya was found."
     },
     "main_trade": {
       "exports": {
