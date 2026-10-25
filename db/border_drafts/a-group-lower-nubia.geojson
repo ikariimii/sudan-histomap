@@ -91,16 +91,32 @@
      "EDITORIAL"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "GHA II ch.9 pp.245,249 place A-Group sites in Lower Nubia between the 1st and 2nd cataracts; corridor = Nile ±0.3°. Cultural zone, not a state border.",
+    "basis": "GHA II ch.9 pp.245, 249 place A-Group sites in Lower Nubia between the 1st and 2nd cataracts; corridor = Nile ±0.3°. Cultural zone, not a state border.",
     "sources": [
      {
-      "id": "GHA2",
-      "citation": "G. Mokhtar (ed.) (1981) General History of Africa II: Ancient Civilizations of Africa (UNESCO)",
+      "id": "GHA2_CH9",
+      "citation": "N.M. Sherif, Nubia before Napata (−3100 to −750), ch.9 (General History of Africa II) (1981)",
       "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "influence",
+     "confidence": 0.35,
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "sources": [
+      "GHA2_CH9"
+     ],
+     "basis_en": "GHA II ch.9 pp.245, 249 place A-Group sites in Lower Nubia between the 1st and 2nd cataracts; corridor = Nile ±0.3°. Cultural zone, not a state border.",
+     "pages": "GHA II ch.9 pp.245, 249"
+    }
    }
   }
  ]

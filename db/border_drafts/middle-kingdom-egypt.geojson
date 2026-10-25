@@ -107,16 +107,32 @@
      "DERIVED"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Egyptian Nile valley south of Cairo to Aswan (Delta not drawn in this draft).",
+    "basis": "Egyptian Nile valley south of Cairo to Aswan; Nubia beyond was occupied 'as far as Semna' (GHA II ch.9 p.255). Delta not drawn in this draft.",
     "sources": [
      {
-      "id": "GHA2",
-      "citation": "G. Mokhtar (ed.) (1981) General History of Africa II: Ancient Civilizations of Africa (UNESCO)",
+      "id": "GHA2_CH9",
+      "citation": "N.M. Sherif, Nubia before Napata (−3100 to −750), ch.9 (General History of Africa II) (1981)",
       "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "core",
+     "confidence": 0.7,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "sources": [
+      "GHA2_CH9"
+     ],
+     "basis_en": "Egyptian Nile valley south of Cairo to Aswan; Nubia beyond was occupied 'as far as Semna' (GHA II ch.9 p.255). Delta not drawn in this draft.",
+     "pages": "GHA II ch.9 p.255"
+    }
    }
   },
   {
@@ -192,16 +208,31 @@
      "APPROXIMATE"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Fortress frontier to Semna (2nd cataract), GHA II ch.9 pp.255,258.",
+    "basis": "'Nubia was effectively occupied as far as Semna, where the southern border of the kingdom was firmly established' (GHA II ch.9 p.255); fortresses p.258.",
     "sources": [
      {
-      "id": "GHA2",
-      "citation": "G. Mokhtar (ed.) (1981) General History of Africa II: Ancient Civilizations of Africa (UNESCO)",
+      "id": "GHA2_CH9",
+      "citation": "N.M. Sherif, Nubia before Napata (−3100 to −750), ch.9 (General History of Africa II) (1981)",
       "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "claimed",
+     "confidence": 0.6,
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "sources": [
+      "GHA2_CH9"
+     ],
+     "basis_en": "'Nubia was effectively occupied as far as Semna, where the southern border of the kingdom was firmly established' (GHA II ch.9 p.255); fortresses p.258.",
+     "pages": "GHA II ch.9 pp.255, 258"
+    }
    }
   }
  ]

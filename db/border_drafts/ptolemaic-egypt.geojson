@@ -115,69 +115,47 @@
      "DERIVED"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Nile valley + Delta; southern edge at the Dodekaschoinos per GHA II ch.6-7 pp.189-190, 208.",
+    "basis": "Nile valley + Delta; southern edge at Aswan/Dodecaschoenus: 'about 120 kilometres from Syene (Aswan) to Hiera Sycaminos (Muharraqa). It had belonged to the Ptolemies' (GHA II ch.7 p.208); Nubian threat p.184. Draft's pp.189–190 had no matching text; corrected.",
     "sources": [
      {
-      "id": "GHA2",
-      "citation": "G. Mokhtar (ed.) (1981) General History of Africa II: Ancient Civilizations of Africa (UNESCO)",
+      "id": "GHA2_CH6",
+      "citation": "H. Riad (with J. Dévisse), Egypt in the hellenistic era, ch.6 (General History of Africa II) (1981)",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
+     },
+     {
+      "id": "GHA2_CH7",
+      "citation": "S. Donadoni, Egypt under Roman domination, ch.7 (General History of Africa II) (1981)",
       "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "core",
+     "confidence": 0.75,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "sources": [
+      "GHA2_CH6",
+      "GHA2_CH7"
+     ],
+     "basis_en": "Nile valley + Delta; southern edge at Aswan/Dodecaschoenus: 'about 120 kilometres from Syene (Aswan) to Hiera Sycaminos (Muharraqa). It had belonged to the Ptolemies' (GHA II ch.7 p.208); Nubian threat p.184. Draft's pp.189–190 had no matching text; corrected.",
+     "pages": "GHA II pp.184, 208"
+    }
    }
   },
   {
    "type": "Feature",
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       32.9454162397056,
-       23.012346361222214
-      ],
-      [
-       32.85947817031082,
-       22.86747282479007
-      ],
-      [
-       32.67663082452437,
-       22.811094633168366
-      ],
-      [
-       32.5240314899606,
-       22.882418797519243
-      ],
-      [
-       32.45000260079044,
-       23.05885965423875
-      ],
-      [
-       32.66043637996696,
-       24.161479171488384
-      ],
-      [
-       32.74052182968918,
-       24.28252717520993
-      ],
-      [
-       32.89885965423875,
-       24.33999739920956
-      ],
-      [
-       33.0759685100394,
-       24.267581202480756
-      ],
-      [
-       33.14999739920956,
-       24.091140345761247
-      ],
-      [
-       32.9454162397056,
-       23.012346361222214
-      ]
-     ]
+     32.7032,
+     23.0613
     ]
    },
    "properties": {
@@ -189,16 +167,48 @@
      "CONTESTED"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Dodekaschoinos frontier zone shared/contested with Meroe.",
+    "basis": "Dodecaschoenus (Aswan–Hiera Sycaminos) held by the Ptolemies but contested by Meroe (GHA II p.208); Ergamenes' temple at Dakka (p.203); Ptolemy VI colonies in the Triacontaschoenus (p.288). Shown as a point at Hiera Sycaminos (existing anchor, extents_historic.json), not a polygon.",
     "sources": [
      {
-      "id": "GHA2",
-      "citation": "G. Mokhtar (ed.) (1981) General History of Africa II: Ancient Civilizations of Africa (UNESCO)",
+      "id": "GHA2_CH7",
+      "citation": "S. Donadoni, Egypt under Roman domination, ch.7 (General History of Africa II) (1981)",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
+     },
+     {
+      "id": "GHA2_CH6",
+      "citation": "H. Riad (with J. Dévisse), Egypt in the hellenistic era, ch.6 (General History of Africa II) (1981)",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
+     },
+     {
+      "id": "GHA2_CH10",
+      "citation": "J. Leclant, The empire of Kush: Napata and Meroe, ch.10 (General History of Africa II) (1981)",
       "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "contested",
+     "confidence": 0.4,
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED"
+     ],
+     "sources": [
+      "GHA2_CH7",
+      "GHA2_CH6",
+      "GHA2_CH10"
+     ],
+     "basis_en": "Dodecaschoenus (Aswan–Hiera Sycaminos) held by the Ptolemies but contested by Meroe (GHA II p.208); Ergamenes' temple at Dakka (p.203); Ptolemy VI colonies in the Triacontaschoenus (p.288). Shown as a point at Hiera Sycaminos (existing anchor, extents_historic.json), not a polygon.",
+     "pages": "GHA II pp.203, 208, 288",
+     "contested_point": [
+      32.7032,
+      23.0613
+     ]
+    }
    }
   }
  ]

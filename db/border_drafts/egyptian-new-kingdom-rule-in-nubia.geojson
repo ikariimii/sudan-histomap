@@ -118,16 +118,31 @@
      "APPROXIMATE"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Viceroyalty of Kush to Napata/Gebel Barkal, GHA II ch.10 pp.265,270.",
+    "basis": "Viceroyalty of Kush: 'the whole area south between the Second and Fourth Cataracts was called Kush' (GHA II ch.9 p.270); Napata p.267. Draft's 'ch.10 pp.265,270' corrected: these pages are ch.9 and p.265 does not support the claim.",
     "sources": [
      {
-      "id": "GHA2",
-      "citation": "G. Mokhtar (ed.) (1981) General History of Africa II: Ancient Civilizations of Africa (UNESCO)",
+      "id": "GHA2_CH9",
+      "citation": "N.M. Sherif, Nubia before Napata (−3100 to −750), ch.9 (General History of Africa II) (1981)",
       "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "core",
+     "confidence": 0.6,
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "sources": [
+      "GHA2_CH9"
+     ],
+     "basis_en": "Viceroyalty of Kush: 'the whole area south between the Second and Fourth Cataracts was called Kush' (GHA II ch.9 p.270); Napata p.267. Draft's 'ch.10 pp.265,270' corrected: these pages are ch.9 and p.265 does not support the claim.",
+     "pages": "GHA II ch.9 pp.267, 270"
+    }
    }
   },
   {
@@ -206,27 +221,48 @@
    "properties": {
     "era_id": "egyptian-new-kingdom-rule-in-nubia",
     "zone": "claimed",
-    "confidence": 0.5,
+    "confidence": 0.6,
     "badges": [
-     "APPROXIMATE",
-     "SINGLE-SOURCE"
+     "APPROXIMATE"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Boundary stelae of Thutmose I and III at Hagar el-Merwa, Kurgus, ~40 km upstream of Abu Hamed (claimed limit, not administered land).",
+    "basis": "Boundary inscriptions of Thutmose I and III on Hagr el-Merwa, Kurgus, '40km upstream of the Nile bend at Abu Hamed' (SARS; Davies 2003). GHA II p.261: 'Tuthmose I conquered Nubia beyond the Fourth Cataract'. Claimed limit, not administered land. SINGLE-SOURCE removed.",
     "sources": [
      {
       "id": "DAVIES2003",
-      "citation": "W.V. Davies (2003) La frontière méridionale de l'Empire: les Égyptiens à Kurgus, BSFE 157, 23-37",
+      "citation": "W. Vivian Davies (trans. Marie-Claire Cuvillier), La frontière méridionale de l'Empire : les Égyptiens à Kurgus (2003)",
       "url": "https://doi.org/10.3406/bsfe.2003.2624"
      },
      {
       "id": "SARS_KURGUS",
-      "citation": "Sudan Archaeological Research Society, Kurgus fieldwork page",
+      "citation": "Sudan Archaeological Research Society, Kurgus – Investigations at Kurgus, a joint SARS–British Museum project (1998–2012, 2014–2018) ()",
       "url": "https://www.sudarchrs.org.uk/fieldwork/kurgus/"
+     },
+     {
+      "id": "GHA2_CH9",
+      "citation": "N.M. Sherif, Nubia before Napata (−3100 to −750), ch.9 (General History of Africa II) (1981)",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "claimed",
+     "confidence": 0.6,
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "sources": [
+      "DAVIES2003",
+      "SARS_KURGUS",
+      "GHA2_CH9"
+     ],
+     "basis_en": "Boundary inscriptions of Thutmose I and III on Hagr el-Merwa, Kurgus, '40km upstream of the Nile bend at Abu Hamed' (SARS; Davies 2003). GHA II p.261: 'Tuthmose I conquered Nubia beyond the Fourth Cataract'. Claimed limit, not administered land. SINGLE-SOURCE removed.",
+     "pages": "Davies 2003 pp.23–37; GHA II pp.241, 261"
+    }
    }
   }
  ]

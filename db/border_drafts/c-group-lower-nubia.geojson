@@ -91,16 +91,32 @@
      "EDITORIAL"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "GHA II ch.9 p.252: C-Group in Lower Nubia; cultural zone, not a state border.",
+    "basis": "GHA II ch.9 pp.251, 253–254: C-Group in Lower Nubia (draft's p.252 had no matching text; corrected). Cultural zone, not a state border.",
     "sources": [
      {
-      "id": "GHA2",
-      "citation": "G. Mokhtar (ed.) (1981) General History of Africa II: Ancient Civilizations of Africa (UNESCO)",
+      "id": "GHA2_CH9",
+      "citation": "N.M. Sherif, Nubia before Napata (−3100 to −750), ch.9 (General History of Africa II) (1981)",
       "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "influence",
+     "confidence": 0.35,
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "sources": [
+      "GHA2_CH9"
+     ],
+     "basis_en": "GHA II ch.9 pp.251, 253–254: C-Group in Lower Nubia (draft's p.252 had no matching text; corrected). Cultural zone, not a state border.",
+     "pages": "GHA II ch.9 pp.251, 253–254"
+    }
    }
   }
  ]
