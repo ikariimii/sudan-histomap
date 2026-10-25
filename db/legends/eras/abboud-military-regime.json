@@ -891,6 +891,35 @@
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
    "list_only": 7
+  },
+  "flags": {
+   "file": "db/era_symbols.json",
+   "anchor": [
+    30.232,
+    15.77
+   ],
+   "anchor_file": "db/era_focus.json",
+   "flags": [
+    {
+     "symbol_class": "flag",
+     "file_page": "https://commons.wikimedia.org/wiki/File:Flag_of_Sudan_(1956%E2%80%931970).svg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Sudan_%281956%E2%80%931970%29.svg",
+     "author": "Mysid",
+     "licence": "Public domain",
+     "used_years": [
+      1956,
+      1970
+     ],
+     "badges": [
+      "MODERN_SVG_RENDERING"
+     ],
+     "verify": false,
+     "note": null
+    }
+   ],
+   "popup_text_only": null,
+   "display_hint": "flag",
+   "null_reason": null
   }
  },
  "symbol_classes_present": [
@@ -899,7 +928,8 @@
   "city_other",
   "city_port",
   "city_religious",
-  "control_extent"
+  "control_extent",
+  "flag"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -916,6 +946,7 @@
   "city_port": 1,
   "city_religious": 1,
   "control_extent": 2,
+  "flag": 1,
   "extent_features": 2,
   "group_features": 0,
   "cities": 35

@@ -994,6 +994,35 @@
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
    "list_only": 7
+  },
+  "flags": {
+   "file": "db/era_symbols.json",
+   "anchor": [
+    29.388,
+    16.614
+   ],
+   "anchor_file": "db/era_focus.json",
+   "flags": [
+    {
+     "symbol_class": "flag",
+     "file_page": "https://commons.wikimedia.org/wiki/File:Flag_of_Sudan.svg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Sudan.svg",
+     "author": "See File history below for details.",
+     "licence": "Public domain",
+     "used_years": [
+      1970,
+      2026
+     ],
+     "badges": [
+      "MODERN_SVG_RENDERING"
+     ],
+     "verify": false,
+     "note": null
+    }
+   ],
+   "popup_text_only": null,
+   "display_hint": "flag",
+   "null_reason": null
   }
  },
  "symbol_classes_present": [
@@ -1004,7 +1033,8 @@
   "city_religious",
   "contested_boundary_line",
   "contested_point",
-  "control_extent"
+  "control_extent",
+  "flag"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1023,6 +1053,7 @@
   "contested_boundary_line": 3,
   "contested_point": 2,
   "control_extent": 3,
+  "flag": 1,
   "extent_features": 8,
   "group_features": 0,
   "cities": 35

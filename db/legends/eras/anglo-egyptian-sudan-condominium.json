@@ -998,6 +998,67 @@
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
    "list_only": 7
+  },
+  "flags": {
+   "file": "db/era_symbols.json",
+   "anchor": [
+    30.229,
+    15.769
+   ],
+   "anchor_file": "db/era_focus.json",
+   "flags": [
+    {
+     "symbol_class": "flag",
+     "file_page": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom_(3-5).svg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg",
+     "author": "Original: Acts of Union 1800 Vector:  Yaddah",
+     "licence": "Public domain",
+     "used_years": [
+      1899,
+      1956
+     ],
+     "badges": [
+      "MODERN_SVG_RENDERING"
+     ],
+     "verify": false,
+     "note": null
+    },
+    {
+     "symbol_class": "flag",
+     "file_page": "https://commons.wikimedia.org/wiki/File:Flag_of_Egypt_(1882%E2%80%931922).svg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Flag_of_Egypt_%281882%E2%80%931922%29.svg",
+     "author": "Converted to svg by Daniel78",
+     "licence": "Public domain",
+     "used_years": [
+      1899,
+      1923
+     ],
+     "badges": [
+      "MODERN_SVG_RENDERING"
+     ],
+     "verify": false,
+     "note": null
+    },
+    {
+     "symbol_class": "flag",
+     "file_page": "https://commons.wikimedia.org/wiki/File:Flag_of_Egypt_(1922-1958).svg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Egypt_%281922-1958%29.svg",
+     "author": "Mysid",
+     "licence": "Public domain",
+     "used_years": [
+      1923,
+      1956
+     ],
+     "badges": [
+      "MODERN_SVG_RENDERING"
+     ],
+     "verify": false,
+     "note": null
+    }
+   ],
+   "popup_text_only": null,
+   "display_hint": "joint flags (UK + Egypt)",
+   "null_reason": null
   }
  },
  "symbol_classes_present": [
@@ -1008,6 +1069,7 @@
   "city_religious",
   "city_trade",
   "control_extent_approx",
+  "flag",
   "relation_arrow_conflict"
  ],
  "badges_present": [
@@ -1027,6 +1089,7 @@
   "city_religious": 1,
   "city_trade": 1,
   "control_extent_approx": 6,
+  "flag": 3,
   "relation_arrow_conflict": 1,
   "extent_features": 6,
   "group_features": 1,

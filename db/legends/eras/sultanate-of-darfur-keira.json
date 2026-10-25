@@ -888,6 +888,15 @@
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
    "list_only": 7
+  },
+  "flags": {
+   "file": "db/era_symbols.json",
+   "anchor": null,
+   "anchor_file": "db/era_focus.json",
+   "flags": [],
+   "popup_text_only": null,
+   "display_hint": "no known flag",
+   "null_reason": "No flag verified for this polity. Commons designs found were not checked against an attested source, so per policy no design is shown."
   }
  },
  "symbol_classes_present": [

@@ -1011,6 +1011,33 @@
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
    "list_only": 7
+  },
+  "flags": {
+   "file": "db/era_symbols.json",
+   "anchor": [
+    19.458,
+    9.024
+   ],
+   "anchor_file": "db/era_focus.json",
+   "flags": [
+    {
+     "symbol_class": "flag",
+     "file_page": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Central_African_Republic.svg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Central_African_Republic.svg",
+     "author": "Barthélemy Boganda",
+     "licence": "Public domain",
+     "used_years": null,
+     "badges": [
+      "VERIFY",
+      "MODERN_SVG_RENDERING"
+     ],
+     "verify": true,
+     "note": "current national flag only; not checked against a source"
+    }
+   ],
+   "popup_text_only": null,
+   "display_hint": "flag",
+   "null_reason": null
   }
  },
  "symbol_classes_present": [
@@ -1022,6 +1049,7 @@
   "city_trade",
   "control_extent",
   "control_extent_approx",
+  "flag",
   "list_only_text"
  ],
  "badges_present": [
@@ -1041,6 +1069,7 @@
   "city_trade": 1,
   "control_extent": 3,
   "control_extent_approx": 3,
+  "flag": 1,
   "list_only_text": 2,
   "extent_features": 8,
   "group_features": 0,

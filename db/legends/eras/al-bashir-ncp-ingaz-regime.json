@@ -1030,6 +1030,35 @@
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
    "list_only": 7
+  },
+  "flags": {
+   "file": "db/era_symbols.json",
+   "anchor": [
+    30.23,
+    15.76
+   ],
+   "anchor_file": "db/era_focus.json",
+   "flags": [
+    {
+     "symbol_class": "flag",
+     "file_page": "https://commons.wikimedia.org/wiki/File:Flag_of_Sudan.svg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Sudan.svg",
+     "author": "See File history below for details.",
+     "licence": "Public domain",
+     "used_years": [
+      1970,
+      2026
+     ],
+     "badges": [
+      "MODERN_SVG_RENDERING"
+     ],
+     "verify": false,
+     "note": null
+    }
+   ],
+   "popup_text_only": null,
+   "display_hint": "flag",
+   "null_reason": null
   }
  },
  "symbol_classes_present": [
@@ -1041,6 +1070,7 @@
   "contested_boundary_line",
   "contested_point",
   "control_extent",
+  "flag",
   "list_only_text"
  ],
  "badges_present": [
@@ -1060,6 +1090,7 @@
   "contested_boundary_line": 3,
   "contested_point": 2,
   "control_extent": 4,
+  "flag": 1,
   "list_only_text": 1,
   "extent_features": 9,
   "group_features": 1,

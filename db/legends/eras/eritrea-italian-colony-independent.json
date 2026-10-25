@@ -1015,6 +1015,33 @@
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
    "list_only": 7
+  },
+  "flags": {
+   "file": "db/era_symbols.json",
+   "anchor": [
+    38.963,
+    8.005
+   ],
+   "anchor_file": "db/era_focus.json",
+   "flags": [
+    {
+     "symbol_class": "flag",
+     "file_page": "https://commons.wikimedia.org/wiki/File:Flag_of_Eritrea.svg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Flag_of_Eritrea.svg",
+     "author": "Unknown authorUnknown author",
+     "licence": "Public domain",
+     "used_years": null,
+     "badges": [
+      "VERIFY",
+      "MODERN_SVG_RENDERING"
+     ],
+     "verify": true,
+     "note": "current national flag (post-independence) only; not checked against a source"
+    }
+   ],
+   "popup_text_only": null,
+   "display_hint": "flag",
+   "null_reason": null
   }
  },
  "symbol_classes_present": [
@@ -1026,6 +1053,7 @@
   "city_trade",
   "contested_point",
   "control_extent",
+  "flag",
   "list_only_text"
  ],
  "badges_present": [
@@ -1045,6 +1073,7 @@
   "city_trade": 1,
   "contested_point": 1,
   "control_extent": 6,
+  "flag": 1,
   "list_only_text": 1,
   "extent_features": 8,
   "group_features": 0,

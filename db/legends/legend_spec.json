@@ -328,6 +328,24 @@
    "label_ar_status": "working translation, needs native review",
    "opacity": 0.45,
    "note": "hillshade never alone: pair with tint key in metres above sea level; source must be PD/CC0/CC BY (e.g. Natural Earth raster, PD)"
+  },
+  {
+   "id": "flag",
+   "geometry": "point (marker image)",
+   "label_en": "Attested flag",
+   "label_ar": "علم موثق",
+   "label_ar_status": "working translation, needs native review",
+   "data": "image/credit from db/era_symbols.json; position = db/era_focus.json flag_anchor",
+   "size_px": 22,
+   "stroke": "#ffffff",
+   "stroke_width": 1,
+   "time_window": "shown only when the scrub year is inside both the era and that flag's used_years (partial-era flags note their window in the popup)",
+   "multiple": "joint_flags (e.g. Condominium UK + Egypt) drawn side by side, centred on the anchor, 2px gap",
+   "verify_badge": "VERIFY = dashed 1px frame + small 'VERIFY' chip",
+   "text_only": "emblem.text_only entries (e.g. Mahdist banner colours) appear only in the popup; no marker",
+   "null": "flag null / display_hint 'no known flag' = no marker; popup may show the null reason",
+   "war_era": "war-in-sudan-saf-vs-rsf shows only the state flag of Sudan, with popup note: 'state flag only; implies no territorial control'. Armed-group flags are never shown.",
+   "popup": "author, licence, Commons file page link, usage_source cite; MODERN_SVG_RENDERING badge"
   }
  ],
  "uncertainty_encoding": {

@@ -1016,6 +1016,35 @@
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
    "list_only": 7
+  },
+  "flags": {
+   "file": "db/era_symbols.json",
+   "anchor": [
+    29.299,
+    26.301
+   ],
+   "anchor_file": "db/era_focus.json",
+   "flags": [
+    {
+     "symbol_class": "flag",
+     "file_page": "https://commons.wikimedia.org/wiki/File:Flag_of_Egypt_(1922-1958).svg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Egypt_%281922-1958%29.svg",
+     "author": "Mysid",
+     "licence": "Public domain",
+     "used_years": [
+      1923,
+      1953
+     ],
+     "badges": [
+      "MODERN_SVG_RENDERING"
+     ],
+     "verify": false,
+     "note": "For 1882–1923 Britannica describes the khedival red flag with three white crescents and stars (File:Flag of Egypt (1882–1922).svg)"
+    }
+   ],
+   "popup_text_only": null,
+   "display_hint": "flag",
+   "null_reason": null
   }
  },
  "symbol_classes_present": [
@@ -1025,7 +1054,8 @@
   "city_port",
   "city_religious",
   "city_trade",
-  "control_extent"
+  "control_extent",
+  "flag"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1044,6 +1074,7 @@
   "city_religious": 1,
   "city_trade": 1,
   "control_extent": 5,
+  "flag": 1,
   "extent_features": 5,
   "group_features": 0,
   "cities": 36

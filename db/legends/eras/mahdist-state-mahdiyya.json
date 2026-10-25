@@ -878,6 +878,30 @@
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
    "list_only": 7
+  },
+  "flags": {
+   "file": "db/era_symbols.json",
+   "anchor": null,
+   "anchor_file": "db/era_focus.json",
+   "flags": [],
+   "popup_text_only": {
+    "text_only": true,
+    "description": "Mahdist military flags: black, red, and green",
+    "source": {
+     "author": "Whitney Smith",
+     "title": "flag of the Sudan",
+     "publisher": "Encyclopædia Britannica (Britannica Scholars)",
+     "url": "https://kids.britannica.com/scholars/article/flag-of-the-Sudan/93962",
+     "quote": "His military flags were black, red, and green.",
+     "url_check": "read OK via WebFetch 2026-10-24"
+    },
+    "badges": [
+     "REPORTED"
+    ],
+    "image": null
+   },
+   "display_hint": "no known flag",
+   "null_reason": "Britannica (flag of the Sudan) records only that Mahdist military flags were black, red and green, so no single attested design is available. Commons Mahdist flag images are reconstructions."
   }
  },
  "symbol_classes_present": [

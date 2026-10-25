@@ -1143,6 +1143,35 @@
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
    "list_only": 7
+  },
+  "flags": {
+   "file": "db/era_symbols.json",
+   "anchor": [
+    39.826,
+    21.422
+   ],
+   "anchor_file": "db/era_focus.json",
+   "flags": [
+    {
+     "symbol_class": "flag",
+     "file_page": "https://commons.wikimedia.org/wiki/File:Flag_of_Saudi_Arabia.svg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg",
+     "author": "The Shura Council",
+     "licence": "Public domain",
+     "used_years": [
+      1973,
+      2026
+     ],
+     "badges": [
+      "MODERN_SVG_RENDERING"
+     ],
+     "verify": false,
+     "note": "Covers only 1973–2026 of a 1517–2026 era"
+    }
+   ],
+   "popup_text_only": null,
+   "display_hint": "flag",
+   "null_reason": null
   }
  },
  "symbol_classes_present": [
@@ -1152,7 +1181,8 @@
   "city_port",
   "city_religious",
   "city_trade",
-  "extent_label_point"
+  "extent_label_point",
+  "flag"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1172,6 +1202,7 @@
   "city_religious": 1,
   "city_trade": 1,
   "extent_label_point": 1,
+  "flag": 1,
   "extent_features": 1,
   "group_features": 0,
   "cities": 41

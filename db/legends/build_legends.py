@@ -17,6 +17,21 @@ H = {i['era_id']: i for i in J('db/extents_historic.json')['items']}
 C = J('db/city_layers/cities.geojson')
 HOM = J('db/group_layers/homelands.geojson')['features']
 NOW = 2026
+SYM = J('db/era_symbols.json')['eras']
+FOC = J('db/era_focus.json')['eras']
+
+def flag_layer(sl):
+    v = SYM.get(sl) or {}; fl = v.get('flag'); anc = (FOC.get(sl) or {}).get('flag_anchor')
+    items = []
+    if fl:
+        for x in (fl.get('flags') if fl.get('type') == 'joint_flags' else [fl]):
+            items.append({'symbol_class': 'flag', 'file_page': x.get('file_page'), 'image_url': x.get('image_url'),
+                          'author': x.get('author'), 'licence': x.get('licence'), 'used_years': x.get('used_years'),
+                          'badges': x.get('badges') or [], 'verify': 'VERIFY' in (x.get('badges') or []), 'note': x.get('note')})
+    em = v.get('emblem')
+    return {'file': 'db/era_symbols.json', 'anchor': anc if items else None, 'anchor_file': 'db/era_focus.json',
+            'flags': items, 'popup_text_only': em if em and em.get('text_only') else None,
+            'display_hint': v.get('display_hint'), 'null_reason': v.get('flag_null_reason') if not items else None}
 
 def ext_class(f):
     p, g = f['properties'], f['geometry']
@@ -78,6 +93,8 @@ def era(i, p):
     out['layers']['cities'] = {'file': 'db/city_layers/cities.geojson', 'features': cit}
     out['layers']['homelands'] = {'file': 'db/group_layers/homelands.geojson', 'note': 'Homeland points carry no dates; shown as a background toggle in every era, off by default.',
                                   'drawn': sum(1 for f in HOM if f['geometry']), 'list_only': sum(1 for f in HOM if not f['geometry'])}
+    out['layers']['flags'] = flag_layer(sl)
+    if out['layers']['flags']['flags'] and out['layers']['flags']['anchor']: cls['flag'] = len(out['layers']['flags']['flags'])
     out['symbol_classes_present'] = sorted(cls); out['counts'] = dict(sorted(cls.items()))
     out['counts'].update({'extent_features': len(ext), 'group_features': len(grp), 'cities': len(cit)})
     out['badges_present'] = sorted(bs)

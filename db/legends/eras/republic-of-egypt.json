@@ -977,6 +977,35 @@
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
    "list_only": 7
+  },
+  "flags": {
+   "file": "db/era_symbols.json",
+   "anchor": [
+    29.639,
+    26.56
+   ],
+   "anchor_file": "db/era_focus.json",
+   "flags": [
+    {
+     "symbol_class": "flag",
+     "file_page": "https://commons.wikimedia.org/wiki/File:Flag_of_Egypt.svg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg",
+     "author": "See File history below for details.",
+     "licence": "Public domain",
+     "used_years": [
+      1984,
+      2026
+     ],
+     "badges": [
+      "MODERN_SVG_RENDERING"
+     ],
+     "verify": false,
+     "note": "The current design dates from 1984 only. The 1953–1958 national flag, the 1958 UAR flag and the 1972 hawk flag cover the earlier part of this era and are not given here."
+    }
+   ],
+   "popup_text_only": null,
+   "display_hint": "flag",
+   "null_reason": null
   }
  },
  "symbol_classes_present": [
@@ -986,7 +1015,8 @@
   "city_port",
   "city_religious",
   "city_trade",
-  "control_extent"
+  "control_extent",
+  "flag"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1004,6 +1034,7 @@
   "city_religious": 1,
   "city_trade": 1,
   "control_extent": 6,
+  "flag": 1,
   "extent_features": 6,
   "group_features": 0,
   "cities": 35
