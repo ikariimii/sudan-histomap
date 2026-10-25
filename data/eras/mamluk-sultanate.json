@@ -28,6 +28,7 @@
  "regional_power": [],
  "sources": [
   "GHA4_CH16",
+  "COW_NMC6",
   "GHAIV",
   "WP:Mamluk_Sultanate"
  ],
@@ -39,5 +40,19 @@
   "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "10,000 captives (1276) – figure judged exaggerated in GHA IV p.403"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
+   "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
+  }
+ ]
 }

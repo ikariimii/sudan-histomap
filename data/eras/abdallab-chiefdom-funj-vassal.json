@@ -46,6 +46,7 @@
  ],
  "sources": [
   "HD2011",
+  "COW_NMC6",
   "SPAULDING1985"
  ],
  "source_langs": [
@@ -55,5 +56,19 @@
   "Pass 13 text: Arabic is a working translation; needs native review",
   "unscored"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "null_reason": "not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated",
+   "flag": "power_cinc_share null: not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated (Pass 27)"
+  }
+ ]
 }

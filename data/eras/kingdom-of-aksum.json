@@ -39,6 +39,7 @@
   "GHA2_CH14",
   "GHA2_CH15",
   "GHA2_CH16",
+  "COW_NMC6",
   "GHA2_CH12",
   "WP:Kingdom_of_Aksum",
   "WP:Ezana_of_Axum"
@@ -52,5 +53,19 @@
   "CONTESTED/SINGLE-SOURCE – Aksumite conquest of Meroe and vassal 'Alwa rest on Kobishanov (GHA II ch.15, p.384) reading Ezana's inscriptions; the scale and date of Meroe's end are debated",
   "Meroitic objects at Aksum: trade goods or more likely spoils/tribute (Kobishanov's interpretation, p.389)"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
+   "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
+  }
+ ]
 }

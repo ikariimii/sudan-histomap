@@ -42,6 +42,7 @@
  "regional_power": [],
  "sources": [
   "GHA2",
+  "COW_NMC6",
   "WHC1073",
   "GHA2_CH12",
   "WP:Viceroy_of_Kush"
@@ -53,5 +54,19 @@
   "regional_power: no actors scored",
   "Pass 13 text: Arabic is a working translation; needs native review"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
+   "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
+  }
+ ]
 }

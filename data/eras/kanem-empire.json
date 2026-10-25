@@ -29,6 +29,7 @@
  "sources": [
   "GHA3_CH15",
   "GHA4_CH10",
+  "COW_NMC6",
   "GHA3_CH8",
   "GHAIV",
   "WP:Kanem_Empire"
@@ -42,5 +43,19 @@
   "CONJECTURE (source's own word) – early Kanem trade with the Nile valley via Darfur/Kordofan 'more important' (GHA III ch.15, p.437)",
   "Zaghawa identity: Lange argues the name grew with the Kanem state; the present-day Zaghawa are not the same as the medieval group (GHA IV ch.10, p.246 n.18)"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
+   "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
+  }
+ ]
 }

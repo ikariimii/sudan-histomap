@@ -38,6 +38,7 @@
  "sources": [
   "GHA3_CH2",
   "GHA3_CH3",
+  "COW_NMC6",
   "GHA3_CH8",
   "WP:Rashidun_Caliphate",
   "WP:Abbasid_Caliphate"
@@ -50,5 +51,19 @@
   "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "Bakt as 'non-aggression pact' and its 600-year duration follow El Fasi & Hrbek (GHA III ch.3, pp.81–82); its character (treaty vs. trade arrangement) is debated – see Pass 21 note in Islamic Egypt era"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
+   "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
+  }
+ ]
 }

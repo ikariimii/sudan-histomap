@@ -32,6 +32,7 @@
  "regional_power": [],
  "sources": [
   "AAR2021",
+  "COW_NMC6",
   "WP:Early_Khartoum"
  ],
  "source_langs": [
@@ -44,5 +45,19 @@
   "CONTESTED – Sahara–Nile direction of contact unresolved (AAR2021)",
   "geopolitics here = contacts/exchange only; no states"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
+   "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
+  }
+ ]
 }

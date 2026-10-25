@@ -28,6 +28,7 @@
  "regional_power": [],
  "sources": [
   "TAKANA2016",
+  "COW_NMC6",
   "GHA5_CH7",
   "WD:Q405860",
   "OFAHEY2008",
@@ -43,5 +44,19 @@
   "CONTESTED – Arab lineage of Tunjur sultans rests on a lineage document reported by Takana; Arkell's Borno thesis",
   "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
+   "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
+  }
+ ]
 }

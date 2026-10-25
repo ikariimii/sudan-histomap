@@ -35,6 +35,7 @@
   "GHA4_CH16",
   "GHA3_CH7",
   "GHA3_CH8",
+  "COW_NMC6",
   "GHAIV",
   "WP:Muslim_conquest_of_Egypt",
   "WP:Fatimid_Caliphate"
@@ -47,5 +48,19 @@
   "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "Pass 21: GHA III ch.7–8 added"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
+   "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
+  }
+ ]
 }

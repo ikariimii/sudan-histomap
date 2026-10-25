@@ -29,6 +29,7 @@
  "sources": [
   "GHA2_CH4",
   "GHA2_CH13",
+  "COW_NMC6",
   "GHA2_CH12",
   "WP:Dʿmt"
  ],
@@ -41,5 +42,19 @@
   "CONTESTED – Punt's location: 'almost' agreed to be the Horn, boundaries uncertain; Herzog's overland (Sudan) route theory disputed (GHA II ch.4, pp.144–145)",
   "SINGLE-SOURCE – D'mt kingship rests on GHA II ch.13 (de Contenson) reading of Rbh/Lmm inscriptions"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
+   "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
+  }
+ ]
 }

@@ -35,6 +35,7 @@
  "sources": [
   "TAKANA2016",
   "HD2011",
+  "COW_NMC6",
   "OFAHEY_SPAULDING1972",
   "OFAHEY2008",
   "WP:Muhammad_Tayrab"
@@ -47,5 +48,19 @@
   "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "UNVERIFIED – economy text is regional context (HD2011 p.8), not about the Musaba'at as such"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
+   "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
+  }
+ ]
 }

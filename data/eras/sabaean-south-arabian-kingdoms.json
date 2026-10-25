@@ -35,6 +35,7 @@
   "GHA2_CH13",
   "GHA2_CH15",
   "GHA2_CH16",
+  "COW_NMC6",
   "GHA2_CH12",
   "WP:Sabaeans"
  ],
@@ -47,5 +48,19 @@
   "INDIRECT – GHA II gives no direct Saba–Sudan link; text covers Saba's presence in the Horn and its rivalry with Aksum",
   "SINGLE-SOURCE – each point rests on one GHA II chapter"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
+   "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
+  }
+ ]
 }

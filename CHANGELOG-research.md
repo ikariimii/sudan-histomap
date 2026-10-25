@@ -1,122 +1,182 @@
+# CHANGELOG – research pass 1 (Sudan Historian, 2026-10-19)
 
-## Analyst pass (2026-10-20): modern regional neighbours – db/era_fill_modern3.json
-- Staging file (not merged into data/eras): geopolitics_en/ar for republic-of-egypt, british-occupied-kingdom-of-egypt, derg-federal-ethiopia, eritrea-italian-colony-independent, french-chad-republic-of-chad, libya-ottoman-italian-independent, central-african-republic-ubangi-shari; economy_en/ar for all except british-occupied-kingdom-of-egypt (null, no source read).
-- New source IDs (23, no clashes with periods.json or era_fill_modern/2): LOC1991_FOREIGN, LOC1991_EGYPT, LOC1991_LIBYA, LOC1991_CHAD, LOC1991_CONDO, LOC1991_NATIONALISM, LOC1991_INDEP, LOC_ETH1991_BORDER, LOC_LBY1987_SANUSI, LOC_LBY1987_ITALOSANUSI, LOC_LBY1987_FOURTHSHORE, UNTS6519_1959, HRW1998_SPLA, EJOSSAH_DERG_SPLA, SAS_HSBA_WP3, NDJAMENA2010, UNSC_S2010_217, ICG_B204, ICG_ETH_ERI, ICG_RADAR2024, UNHCR_CAR2024, LSM_KUFRA2024, SWM_ERI2024. Reused: IBS18_1962, WP_HALAIB, GEO-012/015/016/017/037/038/056/079, AR_AJCS_5653.
-- Flags: [VERIFY] on search-excerpt sources; [SINGLE-SOURCE] marked; Halaib control dates shown side by side; ACLED/ISW data not used. Arabic is a working translation needing native review.
-- Thin: colonial phases (Italian Eritrea, French Chad, Ubangi-Shari, Ottoman Libya), CAR before 2023, Libya after 2011, 1929 Nile agreement terms.
+Backups: `data/backup/periods.v1.orig.json`, `data/backup/periods.v1.orig.js`, `data/backup/build_data.v1.orig.py`.
+Mechanism: all edits live in `research_patch.py`, called by `build_data.py` right before it writes the files, so running the build again keeps them. Schema unchanged: same 9 keys. `sources` stays a list of URLs because index.html renders them as links. The rendered link label is the URL's last path segment, so book links can show up as ids, for example `34888835`.
+Result: 61 → 68 entries. JSON valid; periods.js regenerated and loads (68).
 
-## Extents: Sudan-proper eras (Map Designer, 2026-10-20, commit b368a5b)
+## Sources consulted (all verified online this session)
+| Key | Reference | URL used |
+|---|---|---|
+| HD | P.M. Holt & M.W. Daly, *A History of the Sudan*, 6th ed., Routledge/Longman 2011, ISBN 978-1-4058-7445-8 (read in full: Introduction pp.1–9 and ToC) | doi.org/10.4324/9781315834030 |
+| GHA2 | UNESCO *General History of Africa* II, ed. G. Mokhtar, 1981 (CC BY-SA IGO). Read: ch.9 Sherif "Nubia before Napata" p.245; ch.10 Leclant "The empire of Kush: Napata and Meroe" pp.278–297 | unesdoc.unesco.org/ark:/48223/pf0000184265 |
+| WEL96 | D.A. Welsby, *The Kingdom of Kush*, British Museum Press 1996 (catalogue/ToC only, with an appendix listing the rulers) | WorldCat 34888835 |
+| WEL02 | D.A. Welsby, *The Medieval Kingdoms of Nubia*, BMP 2002 (record via JAH review only) | doi 10.1017/s002185370323855x |
+| OF08 | R.S. O'Fahey, *The Darfur Sultanate: A History*, Hurst/Columbia 2008 (blurb and ToC only; gives c.1650–1916) | Google Books HQxYJWkO7EEC |
+| OFS72 | O'Fahey & Spaulding, "Hāshim and the Musabba'āt", BSOAS 1972 (abstract only) | doi 10.1017/s0041977x00109383 |
+| SP85 | J. Spaulding, *The Heroic Age in Sinnār* (LoC ToC record only) | catdir.loc.gov |
+| EP | Evans-Pritchard, *The Nuer* (1940, full PDF read for intro) and *The Political System of the Anuak* (1940, record only) | monoskop PDF; doi 10.4324/9781003135395 |
+| KERMA | Swiss-Sudanese Archaeological Mission at Kerma, chronology page | kerma.ch/en/history/ |
+| WHC | UNESCO WHC 1073 (Gebel Barkal) and 1336 (Island of Meroe), brief synthesis | whc.unesco.org |
+| Geo | Wikidata P625 / Pleiades reprPoint for site coordinates | per site |
+
+"Record/ToC only" means I confirmed the book exists and what it covers, but I did not read the specific pages. For those books I cite no page numbers.
+
+## Corrections (dates/facts)
+1. **Kingdom of Kerma**: −2500/−1500 → **−2450/−1480**, using the Kerma mission's phases (Early 2450–2050, Middle 2050–1750, Classic 1750–1480, Final to 1450). GHA II's 1981 range of −1730/−1580 covers only the Classic phase and is noted as superseded.
+2. **Sultanate of Darfur (Keira)**: start 1603 → **1650** (O'Fahey 2008: c.1650–1916). Flagged as genuinely uncertain.
+3. **Psamtik II's raid on Napata**: was "593 BCE". It now reads "GHA: 591 BCE; often 593 BCE" in both the Napatan and Late Period entries.
+4. **Rome vs Kush**: "Petronius campaign 24 BCE" → **Napata taken 23 BCE** (GHA), after the Meroitic sack of Aswan. Samos 21/20 BCE confirmed; frontier at Hiera Sycaminos added.
+5. **Amanirenas "resists Rome 25–21 BCE"** replaced with the GHA wording: which kandake (Amanirenas or Amanishakheto) negotiated is unresolved.
+6. Coordinates corrected: Esh-Shaheinab 16.13→16.0624 N; Qustul 22.1/31.5 → 22.2333/31.6167; Faras lon 31.48→31.46; Jebel Barkal, Kerma, Meroë, Naqa, Musawwarat and Suakin refined to Wikidata/Pleiades values (changes ≤0.01°).
+
+## Enrichment of existing entries
+- **Napatan**: Alara, Kashta, Peye, Shabaka, Shabataka, Taharqa, Tanwetamani, Atlanarsa, Senkamanisken, Anlamani and Aspelta, with GHA II reign dates. Sites added: El-Kurru, Nuri, Kawa.
+- **Meroitic**: Arkamani/Ergamenes, Shanakdakhete, Taniydamani, Amanirenas, Amanishakheto, Akinidad, Natakamani & Amanitore; Griffith's 1909 transliteration; Ezana's campaign. Sites added: Wad ban Naqa, Hamadab.
+- Other sites added: Kadero (Khartoum Neolithic), Faras (A-Group), Soleb and Kurgus (New Kingdom), Qasr Ibrim (Nobadia), Banganarti (Makuria).
+- Funj: Upper Nubia suzerainty, vassal Dongola, 'Abdallab status (HD). Shilluk: reach to Aba Island and the tradition of a Shilluk origin for the Funj (HD). Darfur: Tayrab's Kordofan conquest, al-Fashir c.1790/91.
+
+## Source swaps (Wikipedia kept as a secondary link; stronger source added first)
+HD added to: Alodia, Funj, Turkiyya, Mahdiyya, Condominium, all five Republic periods 1956–1989, Bashir era, Southern Sudan 1899–2011, Darfur (Keira), Ali Dinar, Taqali, Shilluk, Suakin.
+GHA2 added to: A-Group, C-Group, Kerma, New Kingdom rule in Nubia, Napatan, Meroitic, Ballana, Nobadia, Late Period, Ptolemaic, Roman Egypt, Old/Middle/New Kingdom Egypt, Aksum, D'mt, Garamantes, Sabaean.
+Others: Welsby 1996 (Napatan, Meroitic); Welsby 2002 (Ballana, Nobadia, Makuria, Alodia); O'Fahey 2008 (Daju, Tunjur, Keira, Ali Dinar); Spaulding (Funj); WHC 1073/1336; kerma.ch.
+**Still Wikipedia-only (22):** Khartoum Mesolithic, December Revolution, 2023 war, Republic of South Sudan, and the 18 regional context entries: Egypt after 641, Zagwe, Solomonic, Derg, Eritrea, Kanem, Bornu, Wadai, Chad, Libya, Zande, CAR, Rise of Islam, Saudi.
+
+## Additions (7)
+'Abdallab chiefdom (1480–1821); Ja'aliyyin kingdom/Sa'dab (1500–1821); Musabba'at sultanate (1680–1785); Beja peoples (700–2026); Dinka (Jieng), Nuer (Naath) and Anuak (Anywaa) communities (1500–2026).
+
+## Open uncertainties / to-do
+- **Ain Farah (Tunjur)**: Wikidata's 16.76N 29.19E conflicts with the original 15.0N 24.9E. The original is kept and flagged.
+- Taqali start 1750 and end 1969 are unverified. The Shilluk end date of 1861 is unverified.
+- Not checked this pass: coordinates for Soba, Ballana, Aniba and Sedeinga. Pleiades (20.54N) and Wikidata (20.38N) disagree on Sedeinga, so I did not add it.
+- Napatan/Meroitic reign dates come from GHA 1981. Later work revises several of them, including the order of Shabaka and Shebitku. These need checking against Welsby 1996's appendix of rulers, which I did not read.
+- The dated Musabba'at events (1734/1772/1782/1785) come from a Wikipedia summary of O'Fahey 2008 pp.49–59. I have not checked the book itself.
+- The start dates for Beja, Dinka, Nuer and Anuak (700/1500) are display conventions only, and each entry's dating_note says so. These are peoples, not states. Not yet sourced: Nuer eastward expansion in the 19th c., Anuak geography, Beja–Blemmyes links.
+- I did not read Nobadia's c.543 conversion or Makuria's 651/652 date in a primary source this pass.
+- Visual: the new Middle Nile and South Sudan entries overlap existing bands, and index.html supports only 2 lanes, so some bands will overlap on screen. Consider lower prominence or a third lane.
+
+# Pass 2 – follow-up (2026-10-19, ~18:55 EDT)
+Schema unchanged. Edits are in `research_patch.py` under `apply2()`. Rebuilt: 68 entries; JSON valid.
+
+## 1. Coordinates
+| Site | Old | New | Source | Status |
+|---|---|---|---|---|
+| Ain Farah (Tunjur) | 15.0, 24.9 | **14.2657, 24.3161** | Wikidata Q405860 (2nd value; same as de/ar Wikipedia) | MEDIUM confidence. The other Wikidata value (16.76, 29.19) falls outside Darfur and is rejected. The "15 km NW of Kutum" description doesn't fit (this point is about 35 km W of Kutum). No excavation-report coordinate found. **Open.** |
+| Soba (Alodia) | 15.52, 32.68 | 15.524, 32.6809 | Wikidata Q1247214 | Confirmed. No Pleiades entry. |
+| Ballana | 22.27, 31.58 | 22.2667, 31.5667 | Pleiades 795783 (Barrington Atlas 81 B3) | Verified |
+| Aniba | 22.67, 32.03 | 22.6683, 32.017 | Pleiades 795777 (BAtlas 81 C3) | Verified |
+| Sedeinga (added to Meroitic) | – | 20.5435, 30.2871 | Pleiades 795855 | Verified. Fits Rilly (SARS *Sudan & Nubia* 22): "14 km north of Soleb". Wikidata's 20.38N (south of Soleb) and French Wikipedia's temple coordinates (which match Soleb) are rejected. |
+
+## 2. Placeholder starts
+- **Beja**: 700 → **275 CE**. This is the earliest dated activity of the Blemmyes in GHA II ch.7 (suppressed under Probus, 276–282). GHA II ch.10 calls the Blemmyes "customarily identified with the Bedja", so I flagged the equation as customary, not proven. Earlier Majai/Reheres ancestry is flagged as possible (GHA II ch.11). Sources: Holt & Daly and GHA II only; Wikipedia removed.
+- **Dinka / Nuer / Anuak**: no source gives a datable start. They stay at 1500 and are now marked "UNSOURCED START (display placeholder)".
+
+## 3. Wikipedia-only entries: 22 → 0 (Wikipedia kept as a secondary link)
+- **Khartoum Mesolithic**: −8000/−4900 → **−8500/−5000** (Early Khartoum ceramics c.8500–5000 cal BC; *African Archaeological Review* 2021 review).
+- **December Revolution**: Crisis Group Report 281 (2019), Crisis Group statement of 26 Oct 2021, UNSC res. 2524 (2020). Added events: Constitutional Document of 17 Aug 2019 and UNITAMS.
+- **War in Sudan**: UN News (15 Apr 2023), UNSC press statement SC/15257, IPC Famine Review Committee (1 Aug 2024), Jeddah Declaration (11 May 2023). "Government to Port Sudan" is still not backed by a non-Wikipedia source.
+- **Republic of South Sudan**: UNSC res. 1996 (2011), Crisis Group Report 217 (2014), R-ARCSS text (12 Sep 2018), ACCORD on the transitional government formed 22 Feb 2020. Key events rewritten with these dates.
+- **18 regional entries**: cited at volume level to UNESCO General History of Africa III–VIII. I confirmed what each volume covers but did not read the chapters. Saudi entry: Jeddah Declaration.
+
+## 4. Database
+Per the new rule, I wrote nothing to `sudan.db` directly. I added `db/history_sources.json` (36 records, same format as `geopolitics_sources.json`) and a guarded loader in `db/seed.py`. A copy is in `data/sources.json`. Ran `python3 seed.py && python3 checkurls.py && python3 ideas.py`: all three exited 0. DB now has 68 periods, 82 places, 89 sources (36 HIS-*), 35 datasets, 64 ideas. Seven HIS URLs fail the check: six return 403 because the sites block bots (WorldCat, Crisis Group ×3, IPC, state.gov), and the SARS PDF timed out. Each was read or found in search earlier in this session.
+
+# Pass 3: meta.sources and key_events_ar (2026-10-19, ~19:05 EDT)
+Code: `research_patch.py` → `REFS`, `AR_EVENTS`, `apply3()`, `finalize()`. `build_data.py` gained one line, `research_patch.finalize()`, which adds `meta.sources` and also writes `meta` into `periods.js`. Previously `periods.js` held only `periods`, so the details panel could not resolve IDs.
+
+## meta.sources
+- Format matches `cite()` in index.html: `HISTO.meta.sources[id] = {author, year, title, publisher, pages, url}`. Extra fields `edition`, `isbn` and `note` are stored too; the panel does not display them.
+- 118 IDs, all referenced and all resolving:
+  - 31 curated (e.g. `HD2011`, `GHA2`, `WELSBY1996`, `OFAHEY2008`, `ICG2019`, `UNSC1996`, `GHAIII`–`GHAVIII`)
+  - 80 `WP:<slug>` (Wikipedia, secondary)
+  - 7 `WD:`/`PL:` (Wikidata/Pleiades coordinates)
+- Each period's `sources` array now holds IDs, not URLs.
+- ISBNs are included only where I saw them online: Holt & Daly 978-1-4058-7445-8; Welsby 1996 978-0-7141-0986-2; Welsby 2002 0-7141-1947-4; O'Fahey 978-0-231-70038-2 / 978-1-85065-853-5; GHA II 92-3-101708-X.
+- No ISBN or year is given for GHA III–VIII, Spaulding, Evans-Pritchard, or the web sources (year left blank where unverified).
+
+## key_events_ar
+- 165/165 events translated into Modern Standard Arabic across all 68 periods. Translation only; no added content. Validated: no period is missing translations, and no Latin script remains.
+- Standard forms used: كوش، مروي، نبتة، كرمة، الفونج، سنار، العبدلاب، الجعليون/السعداب، دارفور، الكيرا، كردفان، المقرة، علوة، سوبا، البجة، الشلك، فشودة، النوير، الأنواك، الدينكا.
+
+## Transliteration uncertainties (please review with an Arabic-speaking specialist)
+- **Kushite royal names**: Arabic has no fixed academic standard for these. Used: بيي (بعنخي), شباكا, شبتاكا, طهارقا, تانوت أماني, أتلانرسا, سنكامانيسكن, أنلاماني, أسبلتا, أركاماني, شنكداخيتي, تانيدأماني, أماني ريناس, أماني شاخيتو, أكينيداد, نتكاماني, أماني تيري.
+- **Sulayman "Solongdungu"** → سليمان (سولونج). Shortened form; check against Arabic Darfur histories.
+- **Darfur/Kordofan names**: تيراب (Tayrab), الغديات (Ghudiyat), النابتاب (Nabtab), قرّي (Qarri), قوز رجب, حلفاية الملوك, أم دبيكرات (Umm Diwaykarat, using the common Sudanese spelling).
+- **Other place names**: Hiera Sycaminos → هيرا سيكامينوس (المحرقة). Petronius → بترونيوس. Blemmyes → البليميون. Nobades → النوباديون. Avungara → الأفونغارا. D'mt → دعمت.
+- **Organisation acronyms** spelled out or transliterated: يونيتامس (UNITAMS), أونميس (UNMISS), مجموعة الأزمات الدولية (ICG), التصنيف المرحلي المتكامل (IPC), أكورد (ACCORD).
+- **"Kandakes"** → الكنداكتان (dual form).
+
+## Rebuild
+`build_data.py`, then `seed.py && checkurls.py && ideas.py`: all exited 0. DB: 68 periods, 82 places, 89 sources. The DB `periods.sources` field now stores IDs.
+
+# Pass 4: eras (2026-10-20, ~00:55 EDT)
+Following the scope change, I did not build data/views/<lang>.json. The language-only sets in db/lens_*.json belong to the Geopolitical Analyst.
+
+- **data/eras/index.json**: 68 eras, each with id, English and Arabic name, and dates. Generated by `write_eras_index()`.
+- **data/eras/<id>.json**: 68 files from `write_era_files()`, with events in English and Arabic.
+  - 11 eras have curated geopolitics, culture and economy text in English and Arabic: Kerma, Napatan, Meroitic, Funj, 'Abdallab, Ja'aliyyin, Darfur (Keira), Beja, Shilluk, Condominium, 2023 war.
+  - The other 57 eras have events only. Their empty sections are null and flagged; there are 239 flags in total.
+  - **regional_power**: one score only, Kush under the 25th Dynasty = 0.9, based on GHA II ("brought the entire Nile valley as far as the Delta under the empire of Kush"). Every other actor is null and flagged.
+- **New language-tagged sources** (all checked online):
+  - zh: two PRC Embassy in Sudan history pages. These are government popular texts, not academic.
+  - ru: the Great Russian Encyclopedia article "Anglo-Egyptian Sudan" (Orlov), and the record for *История Судана в новое и новейшее время* (Nauka 1992, ISBN 5-02-017341-X). The book itself was not read.
+  - fr: SFDAS, *Histoire et civilisations du Soudan* (2017, ISBN 978-2-918157-24-3, free PDF), and the French Culture Ministry's virtual national-museum page "Méroé et les royaumes médiévaux".
+  - de: DAI page for the Musawwarat project, and the Naga project page (Munich).
+  - All 126 sources in meta.sources now carry a `lang` field. They were also added to db/history_sources.json (now 44 records, with the language set).
+- **data/eras/comparison.json**: 11 divergences I read directly (status: 3 agree, 3 conflict, 4 partial, 1 no-conflict). The `auto` section is empty because no db/lens_*.json files exist yet; the comparator runs on every build.
+- **Rebuild**: build_data.py, then seed.py, checkurls.py and ideas.py, all exited 0. DB sources by language: en 36, zh 2, ru 2, fr 2, de 2.
+- **Gaps**:
+  - No Arabic or Spanish sources yet. The NCAM and Sudanese university publications I planned to look for were not found this pass.
+  - No CNKI or 中国大百科全书 text was reachable; the Chinese sources are embassy pages only.
+  - Great Russian Encyclopedia articles on Kush and the Mahdiyya were not found.
+
+## Pass 5 (2026-10-19): filling the priority eras
+- Added REFS (all lang en): GHA6_CH14 (Ibrahim/Ogot, Sudan in the 19th c.), GHA7_CH4 (Ibrahim, NE Africa resistance), GHA8 (Sudan passages pp.148–150 and others), GHA2_CH12 (Michałowski). The ICG2019 wording was verified against the live report page.
+- ERA entries added: a-group, c-group, noba-x-group-ballana, nobadia, makuria, alodia-alwa, turkiyya, mahdiyya, independent-sudan-first-parliamentary, abboud, nimeiry, transitional-third-parliamentary, december-revolution. The condominium entry was extended with economy and culture text.
+- Power: added Mahdist state = 0.9 (GHA VII: "dominated the Sudan for fourteen years"; editorial ordinal). The Turkiyya-eve balance and Anglo-Egyptian superiority are null with flags (the sources are qualitative only).
+- Divergence noted: Makuria was first Melkite (567–70) and later Monophysite (660–700), against a simplified "Monophysite Nubia" (GHA II ch.12).
+- No db/lens_*.json yet, so the comparison was not rerun.
+
+## Pass 6 (2026-10-20): end of Meroe and comparison fixes
+- Meroitic key event (EN/AR) changed from "Collapse by time of Ezana of Aksum's campaign…" to "Collapsed in the 4th century CE; cause debated (Noba per GHA II; Aksumite campaign of Ezana)". The dating note now says 350 is a placeholder year and quotes GHA II. The period already cites GHA2.
+- comparison.json: FR_MUSEE_MEROE end of Meroe changed from conflict to partial (agent agrees, date differs); ZH_EMB_HIST2020 end changed from agree to partial (date agrees, Aksum attribution conflicts with GHA II); ZH_EMB_HIST2020 Kerma 1700 BCE changed from conflict to phase-difference (Classic Kerma).
+- The built data/periods.js and periods.json were copied to /workspace/sudan-histomap-site/data/ (not committed, not pushed).
+
+## Pass 7 (2026-10-20)
+- Added a Makuria divergence to KNOWN_DIVERGENCES (EN/AR, cites GHA2 ch.12): Makuria was Melkite from c.567–70 and Monophysite only from c.660–700, against the "Monophysite Nubia" simplification. Rebuilt; changed data files copied to the site folder (not pushed).
+
+## Pass 8 (2026-10-20)
+- Added EDWARDS2011 (D.N. Edwards, "From Meroe to 'Nubia': exploring culture change without the 'Noba'", in Rondot, Alpi & Villeneuve (eds), La Pioche et la Plume, PUPS 2011, pp.501–514, ISBN 978-2-84050-760-4) to meta.sources and to db/history_sources.json (HIS-026), lang en. Checked from title and abstract only. Attached as a secondary source on the Meroitic period and era file.
+- Pass 9 (2026-10-20): merged 46 lens source IDs from db/lens_*.json into meta.sources (177 total, 0 unresolved); comparison rerun: 38 auto + 12 known.
+
+## Pass 9 (2026-10-20): al-Bashir era
+- Filled data/eras/al-bashir-ncp-ingaz-regime.json (EN/AR geopolitics, culture, economy) from the six db/lens_*.json al-Bashir items plus ICG2019. Lens source IDs were imported into REFS read-only (lens files were not modified). Power scores are null with flags. write_era_files now also carries ERA flags and power flags.
+
+## Pass 10–11 (2026-10-20): extents for the Map Designer
+- New db/extents_historic.json, generated by research_patch.write_extents() on every build.
+  - 13 sourced eras, 18 left empty (items:null with a reason), 9 modern eras with CShapes references only.
+  - Anchor coordinates come from Wikidata QIDs and Pleiades 795815.
+- New refs: PLEIADES_795815, CSHAPES2 (NON-COMMERCIAL, reference only), and OHM_<id> for the relations used.
+- db/extents/<era-id>.geojson written from OHM (CC0) relations, with raw downloads in db/extents/raw/: makuria (3), turkiyya (1), anglo-egyptian-sudan-condominium (5), shilluk-kingdom (1). Each feature has properties.source = OHM_<id>, certainty low, and a license field.
+- OHM 2690836 was dropped (Egypt-only polygon). Conflicts between OHM shapes and the texts are noted per item.
+
+## Pass 12 (2026-10-20): Nobadia–Makuria merger, Darfur limits, Sennar anchor
+- New refs: DERDA_LAJTAR2019 (JÖB 69, open PDF read in full, p.136 and n.4), OFAHEY2018_FWD (O'Fahey's foreword to al-Tunisi, In Darfur, NYU 2018, pp.ix–xxi; read through the search index only), TAKANA2016 (CMI 2016, open PDF, p.9). OFAHEY2008 note: table of contents seen only.
+- Nobadia/Makuria dating notes now record the merger dispute: c.630 / pre-652 (Derda & Łajtar), mid-7th c. Qalidurut (Maqrizi via GHA II pp.332–333), Merkurios from 697 (GHA II), late 6th c. (Godlewski hypothesis). Welsby 2002 not read.
+- extents_historic.json: Darfur raised to medium, with west/south/north limits (al-Tunisi via Takana), Wadai stalemate and tributaries, and Kordofan 1785–1821 (O'Fahey). Funj anchored at Sennar (Wikidata Q611867 / GeoNames 367644). Nobadia/Makuria merger notes added. db/extents/*.geojson not touched (Map Designer owns them).
+
+## Pass 13 (2026-10-20): economy/culture fill
+- New refs: GHA7_CH12 (Crowder, p.283), GHA7_CH17 (Abdussalam & Abusedra, pp.455–456). Added page notes to GHA8 (pp.6, 33–34, 322, 761). All texts read in full on the box (UNESCO PDFs; Holt & Daly intro pp.1–9; Evans-Pritchard 1940).
+- Filled (EN+AR): Kerma econ; C-Group econ; Egyptian New Kingdom rule in Nubia (geo/culture/econ); Condominium econ; Southern Sudan under the Condominium (culture); first parliamentary period econ; Abboud econ; second parliamentary period geo; Ali Dinar's sultanate geo; 'Abdallab culture; Ja'aliyyin culture; Taqali culture; Dinka geo+econ; Nuer econ.
+- Null with reason (flagged in era files): Ballana econ, Alwa econ, Shilluk culture/econ, 1985–89 culture/econ, Nimeiri econ, 2019 culture, 2023 war culture/econ. Khartoum Mesolithic/Neolithic left uncurated (GHA I not available).
+- Arabic is a working translation, flagged for native review. No power scores added. db/extents/*.geojson, sudan.db, lens and Analyst files not touched.
+- Pass 14: Darfur frontier anchors (al-Tuwaisha OSM node 7730407134; Geneina Q311309; Dar Masalit Q56545571; Dar Fertit Q1165582). al-Mazroob unresolved (candidates in notes).
+
+## Extents: Sudan-proper eras (Map Designer, 2026-10-20 09:xx EDT)
 - New db/extents/*.geojson, points only (no sourced limit closes a polygon; no edges invented; no CShapes/ACLED): Funj/Sennar (Sennar medium; Old Dongola by 1523, Third Cataract stand-in for Hannik after 1585, Kordofan contested: low; HD2011, ZH_EMB_HIST2020), Alodia (Soba, low; GHA2_CH12, ZH_EMB_HIST2020), Egyptian New Kingdom rule in Nubia (Kurgus GHA II p.265 and Napata p.270 medium; Soleb low), Ballana (Ballana Pleiades 795783, Qustul; low), Ali Dinar (El Fasher, low; HD2011), Daju (Jebel Marra Q886772, low; OFAHEY2008), Tunjur (Ain Farah Q405860, low; OFAHEY2008), Taqali (Nuba Mountains Q1129989 stand-in, low; HD2011), Musabba'at (Kordofan Q867052, low; OFAHEY_SPAULDING1972).
 - Gaps: Hannik and Taqali have no Wikidata coordinate; Funj south/east limits, Alodia borders, Ali Dinar extent, Daju/Tunjur/Taqali/Musabba'at limits unsourced. Arabic labels pending native review. Script: scratch/build_sudan_proper.py (run from build_regional.py).
 
-## Historian Pass 20 / 20b (Sudan Historian, 2026-10-20)
-- Pass 20 (db/era_fill_hist20.json, merged by research_patch.py `_p20`). Filled: economy for Alodia (GHA IV ch.16 p.406, SINGLE-SOURCE), Daju (GHA V ch.7 p.187, oral tradition, SINGLE-SOURCE), Tunjur (GHA V pp.187–188), Taqali (GHA V p.177, regional context, CONTESTED tributary status), Ballana (GHA II pp.215, 294, imports and Roman payments only); culture for Shilluk (GHA V pp.193, 197) and Dinka/Jieng (GHA V pp.171, 193, 196, SINGLE-SOURCE); geopolitics for Khartoum Mesolithic and Neolithic (contacts and exchange only, AAR2021, CONTESTED).
-- Left null with reasons: Anuak culture, Ali Dinar culture, Southern Sudan (Condominium) economy.
-- Egypt stream, all 9 eras (geopolitics, culture, economy, EN+AR): Old, Middle and New Kingdom, Late/Persian, Ptolemaic, Roman/Byzantine (GHA II chs 2–4, 6–12), Islamic (GHA II ch.12 p.333, GHA IV ch.16 pp.398–402; GHA III not on the box), Mamluk (GHA IV ch.16 pp.402–405, 416), Ottoman/Muhammad Ali (GHA V ch.6 pp.142, 145; ch.7 pp.178–188; GHA VI ch.13 p.329; ch.14 pp.356–361). 13 new chapter-level source IDs (GHA2_CH2…GHA6_CH13).
-- Pass 20b: merges the Analyst's db/era_fill_modern3.json through `_p15`, plus a Pass 18b-style force-add of WP:/WD:/PL: IDs. The Analyst's flags are kept, and british-occupied-kingdom-of-egypt economy stays null. The Libya Kufra passage is replaced with the merged wording from db/kufra_poe_check.md (2970ffe), with the [REPORTED – UN PoE, interview-based] badge and [SINGLE-SOURCE – S/2024/65 para. 47] on the Subul al-Salam / 128 Brigade clause. LSM_KUFRA2024 is replaced by UNPOE_S2024_65 and UNPOE_S2025_239, and the old 'Kufra corridor … VERIFY' flag is replaced by REPORTED and SINGLE-SOURCE flags.
-- All Arabic is a working translation pending native review. verify_citations: 136 checks, 0 problems. checkurls: no new failures (44 existing 403/406/000 bot-blocks).
-
-## Extents: UN PoE S/2025/239 points on the current war (Map Designer, 2026-10-20)
-- war-in-sudan-saf-vs-rsf: two [REPORTED] points, para. 71 (p. 24, Kufra fuel-route endpoints), as of 2025-04-17, source UNPOE_S2025_239 (already registered). El Malha 15.0941N 26.1612E (GeoNames 379152, matches OSM node 3246118934; low: town vs locality). Mellit 14.1333N 25.55E (Wikidata Q12245024 / GeoNames 370181; medium). Points only: no routes, arrows or areas; SAF/RSF control layer still untraced.
-- Skipped, no GeoNames/Wikidata/OSM match (Nominatim and GeoNames search empty; Overpass at capacity): Bir Mirgui (para. 98, p. 30) and Jebel Eredi (para. 104, p. 32, 19 Nov 2024 ambush). Paragraph text checked in db/refs/S_2025_239_EN.pdf. Arabic labels pending native review.
-
-## Historian Pass 21 + follow-up extents search (Sudan Historian, 2026-10-20)
-- GHA III obtained from https://sahistory.org.za/sites/default/files/archive_files/general_history_africa_iii.pdf (891 PDF pages; printed = PDF − 22). It is kept in /workspace and not in this repo.
-- Pass 21 adds GHA3_CH7 (Bianquis) and GHA3_CH8 (Jakobielski).
-  - Islamic Egypt geopolitics: the bakt terms (pp.194–195), jurists' view of the bakt and the gold/emerald-mine clashes (p.168), the 836–7 revision (p.209) and the Fatimid renewal (p.182).
-  - Islamic Egypt economy: Nubian imports and exports, barter, and the customs frontier at 'Akasha (p.207), plus Kordofan/Darfur as a possible source of bakt slaves (p.199).
-  - Alodia economy: Ibn Salim via al-Maqrizi (p.196) and Ibn Hawqal (p.199).
-  - The "GHA III not on box" flag is removed.
-- Unchanged:
-  - Ballana economy: GHA III starts in the 7th century and does not cover Ballana.
-  - The three nulls (Anuak culture, Ali Dinar culture, southern Condominium economy): GHA III does not cover them.
-- db/regional_extents_answers_2026-10-20.md has a new follow-up section:
-  - Funj southern limit FOUND (GHA V p.177: "to the south of Fazughli", text only).
-  - Hannik coordinate NOT FOUND (GHA V p.175 text only; Wikidata and OSM gave no match, and Wadi Hanik at 15.8N 34.0E was rejected).
-  - Ali Dinar's named limits NOT FOUND (GHA VII p.283 has none).
-- verify_citations: 136 checks, 0 problems. checkurls: no new failures.
-
-## Modern-neighbour extents sources + regional_power proposal (Sudan Geopolitical Analyst, 2026-10-20)
-- db/extents_sources_modern_neighbours.json is a proposal and has not been merged. It has 17 phases across 5 eras (Eritrea, Derg/federal Ethiopia, Chad, CAR, Libya). Geometry comes from 22 dated OHM admin_level=2 relations (CC0, found by tag search; geometry not checked) and from Natural Earth admin_0 and geoBoundaries for current borders.
-  - Limits are cited to IBS 3, 10, 15 and 16 (read), the ICJ Libya/Chad judgment of 3 Feb 1994, S/RES/915, UNGA 390(V) and 289(IV), EEBC 2002 and PCA Abyei 2009.
-  - Disputed areas: Aouzou 1973–94, Badme, al-Fashaga and the Sarra Triangle. The Sarra date is [CONTESTED]: IBS10 gives 20 Jul 1934 and IBS3 gives 29 Jul 1934. Kafia Kingi and Abyei are included as context only.
-  - Gaps: Libya 1551–1934 has no open polygon. Italian Eritrea 1936–41 has no polygon. Insurgent control and Libya 2014– are left untraced.
-- db/regional_power_scores_proposal.json and .md use method RP-CINC-SHARE-1: the mean share of COW NMC v6 CINC within the 8-state set over the years each era overlaps 1816–2016. WDI values are included for context only.
-  - 13 eras are scored. December-revolution and the 2023 war era are null because NMC ends in 2016.
-  - The method NEEDS INNOVATION MANAGER SIGN-OFF, because these computed scores are not comparable with the existing editorial ordinal scores.
-
-## Historian Pass 21b – 2026-10-24
-- db/egypt_points_citecheck.md: I checked the 13 points in the six ancient-Egypt eras from f23668a against the GHA II PDF. All 12 GHA page cites are OK and none need correcting. One precision note: Semna p.240 is in ch.8. Pi-Ramesses cites Wikipedia only, with no page.
-- research_patch.py Pass 21b registers 35 sources from db/extents_sources_modern_neighbours.json meta.sources into REFS (Pass 19 style): OHM_*, IBS*, ICJ_LBY_TCD1994, UNSC_RES915_1994, UNGA_RES289IV/390V, EEBC2002, PCA_ABYEI2009, LOC_TCD1988, EXT_NE_ADMIN0, EXT_GEOBOUNDARIES_NB. Three are tagged [VERIFY]: EEBC2002, LOC_TCD1988 and EXT_GEOBOUNDARIES_NB.
-- Checks: verify_citations ran 136 checks with 0 problems. checkurls shows only the known pre-existing 403/406/429/000 hosts.
-
-## Historian Pass 22 – 2026-10-24
-- db/era_fill_hist22.json plus a Pass 22 loader in research_patch.py fill geopolitics, culture_dominance and economy (EN and AR) for 13 eras that were empty: Bornu, Solomonic Ethiopia, Garamantes, Kanem, Aksum, Punt/D'mt, Ottoman Hejaz/Saudi, Rise of Islam, Sabaean, Suakin, Wadai, Zagwe and Zande. Everything is written from Sudan's side and cites UNESCO GHA II–VII by printed page. JEDDAH2023 is used for the 2023 talks.
-- 20 GHA chapter references are new (GHA2_CH13–16, GHA2_CH20, GHA3_CH2/3/15/19, GHA4_CH10/15/17, GHA5_CH17/18, GHA6_CH12/15/17/20/22, GHA7_CH11).
-- Badges: SINGLE-SOURCE (Garamantes, Dawit's Aswan raid), CONTESTED (Punt's location, Aksum's conquest of Meroe), INDIRECT (Sabaean, Zagwe–Nubia), GAP (Hejaz 1820–2023).
-- All Arabic is marked as a working translation that needs native review. No field is left null, and the "no source-backed text yet" flags are cleared.
-
-## 2026-10-24 – Sudan Geopolitical Analyst: modern fill 4, per-era neighbour extents, CINC rulings
-- db/era_fill_modern4.json (staging, not merged): filled culture_dominance EN+AR for anuak, derg-federal-ethiopia, eritrea, french-chad, libya, republic-of-egypt; economy EN+AR for british-occupied-kingdom-of-egypt and southern-sudan-under-condominium. Left null with reasons: culture_dominance for british-occupied-kingdom-of-egypt, central-african-republic-ubangi-shari, restored-darfur-sultanate-ali-dinar (no source read). New IDs: LOC1991_SOUTHPOL, LOC1991_SOUTHUNITY, LOC1991_NONMUSLIM, LOC1991_MUSLIMPEOPLES, LOC1991_INDSUDAN, LOC1991_EDUCATION, LOC_ETH1991_NILOSAHARAN, LOC_ETH1991_ETHIOSEMITIC, LOC_ETH1991_TOPO, LOC_ETH1991_ERITREANMOV, LOC_ETH1991_ISLAM, LOC_TCD1988_NILOSAHARAN, LOC_TCD1988_NIGSUDAN (no clashes with periods.json). GHA VIII cite re-read: ch.30 (Mazrui) p.924, corrected from p.923.
-- db/extents_per_era_modern_neighbours.json: 5 per-era entries (17 phases) in extents_historic.json format, phases identical to db/extents_sources_modern_neighbours.json; badges/nulls kept.
-- [VERIFY] cleared after reading: UNSC 915, UNGA 390(V), UNGA 289(IV) A content, PCA Abyei 2009 (case page), EEBC 2002 mandate, ICJ 1994 holding (case page), COW NMC licence wording (no licence stated; citation requested). Kept: ICJ paragraph cites (judgment PDF behind Cloudflare), Badme award wording, Libya 24 Dec 1951 date, treaty texts, Gwynn line, EPLF Asmara date, Chad north 1910s, Aouzou 1973 start, OHM 2839926 naming, geoBoundaries licence, LOC_TCD1988 index.
-- db/regional_power_scores_proposal.json/.md: `power_cinc_share` (COW NMC v6 CINC, year range per era, 1816–2016 only) and separate `power_editorial` (Kush, Mahdist 0.9, EDITORIAL, unchanged); 2019 and 2023 eras null "data ends 2016"; caveats added (low-industry bias, Egypt pre-1960 inflation, South Sudan inside COW Sudan pre-2011 vs WDI, scale not comparable with editorial).
-- verify_citations: 136 checks, 0 problems (run serially).
-
-## Historian Pass 22b — merge era_fill_modern4 + COW NMC v6.0 CINC shares (derived)
-- Merged db/era_fill_modern4.json (Analyst 677d6c5/7cff461/04a1505, final): empty fields filled; all SINGLE-SOURCE / VERIFY / EDITORIAL / native-review badges preserved; 13 LOC source IDs registered; GHA VIII ch.30 Mazrui p.924 used.
-- Null fields keep explicit "null reason" flags (culture: British-occupied Egypt, CAR/Ubangi-Shari, Ali Dinar's Darfur); stale null-reason flags removed where fields are now filled.
-- `power_cinc_share` added as a DERIVED figure from COW NMC v6.0 CINC (1816–2016; method RP-CINC-SHARE-1), not comparable with editorial regional_power. Licence: none stated by COW; cited per COW's request (version + Singer, Bremer & Stuckey 1972). War era (2023–) = null (data ends 2016).
-- Front-end rendering of power_cinc_share is left to Web.
-
-## Historian Pass 22c — register Map Designer extent-only sources
-- Registered db/extents_sources_map_designer.json (Map Designer 5f1fada, 36 entries: 33 OHM relations + 3 refs); IDs already registered skipped; entries without OHM source tags carry a visible "[VERIFY – no source tags]" title flag.
-
-## Historian Pass 22d — culture for 3 eras + CINC for unscored 1816–2016 eras
-- british-occupied-kingdom-of-egypt culture_dominance EN/AR filled from GHA VII ch.21 pp.555–556 (Y.A. Talib section: press 169→282 titles 1898–1913, al-Azhar reform) and ch.23 p.601 (H.A. Ibrahim: Wafd claim to Sudan, 'Unity of the Nile Valley'); [SINGLE-SOURCE per point]; Arabic = working translation.
-- central-african-republic-ubangi-shari and restored-darfur-sultanate-ali-dinar culture left null with reasons (no page-cited culture passage in GHA VII / LOC).
-- power_cinc_share (COW NMC v6.0, RP-CINC-SHARE-1) added for british-occupied Egypt 0.77, Ethiopian Empire 0.65, Ottoman/Muhammad Ali Egypt 1.00 — all flagged [VERIFY]: regional set has very few COW members in those years, share near 1.0 by construction. Null with reason (not COW members / outside set) for Hejaz-Saudi, southern Sudan (condominium), Ali Dinar, Wadai, Taqali, Zande, Bornu, Suakin, Beja, Anuak, Dinka, Nuer. No editorial scores pre-1816.
-
-## Historian Pass 23 — Analyst badge proposals (db/modern_render_badge_check.md, e5d7fa2)
-- Applied the 11 badges exactly as proposed (CONTESTED / SINGLE-SOURCE / REPORTED; existing VERIFY kept); french-chad 'allegedly'/'[VERIFY; allegation]' replaced by [VERIFY] [CONTESTED]; no denials added, no other wording changed.
-- Flag hygiene: stale 'left null'/'null reason' flags removed where a field is filled (incl. british-occupied Egypt economy); Ali Dinar's 4 culture null reasons merged into one.
-- Full rebuild incl. web/build.py; data/eras/all.json regenerated after the era files.
-
-## Pass 23b (Historian): research_patch.py no longer writes extents files
-- `write_era_files` no longer calls `write_extents()`. `write_extents()` and `write_extent_geojson()` are now no-ops at the end of research_patch.py, so the pipeline never writes db/extents_historic.json or db/extents/*. Map Designer owns those files.
-- Checked across a full rebuild: db/extents_historic.json kept 62 items and sha256 1a70489b…c510c0, and every db/extents/* file hash was unchanged.
-
-## Pass 23c (Historian): CINC coverage checked against the COW NMC v6.0 rows
-- British-occupied Egypt (1882–1922): share set to null. The only in-era Egypt (651) row is for 1882. Egypt is a system member for 1855–1882 and from 1937. [VERIFY]
-- Ethiopian Empire: share 0.65, the mean over the 73 in-era Ethiopia (530) rows, 1898–1936 and 1941–1974. There are no rows for 1937–1940. Min 0.14, max 1.00. [VERIFY]
-- Ottoman Egypt: share set to null because only one state is in the comparison set. [VERIFY]
-
-## Pass 24 (Historian): GHA I registered; British-occupied Egypt CINC ruling applied
-- New source IDs:
-  - GHA1_CH19: Sutton, pp.451–486
-  - GHA1_CH25: Debono, pp.634–655
-  - GHA1_CH28: Vercoutter, pp.706–729
-- Source: UNESCO General History of Africa I (open access), read from the sahistory.org.za mirror. Printed page = PDF page − 23.
-- British-occupied Egypt CINC share: 0.77 (min 0.64, max 1.00). Cite: "NMC v6.0, 1882, 1937–1953 scored" (18 rows). COW treats Egypt as sovereign from 1937 (post-1936 treaty). [VERIFY]
-- db/extents_historic.json is unchanged: 62 items, sha256 1a70489b…c510c0.
-
-## Pass 24b (Historian): Innovation Manager reversed the Egypt ruling
-- British-occupied Egypt CINC share set to null: "COW counts Egypt as a state only from 1937; earlier years are not scored". This replaces the 0.77 from Pass 24.
-- No separate Kingdom of Egypt era exists, so none was created. 1937–1953 is covered by british-occupied-kingdom-of-egypt (1882–1953). republic-of-egypt starts in 1953.
-
-## Backlog idea (Historian, 2026-10-24): not done, needs sign-off
-- Split "British-occupied / Kingdom of Egypt" (british-occupied-kingdom-of-egypt, 1882–1953) into two eras:
-  - British-occupied Egypt (1882–1922/1936)
-  - Kingdom of Egypt (1922/1937–1953)
-- The Kingdom era could then take a 1937–1953 NMC v6.0 CINC share, cited "NMC v6.0, 1937–1953" and marked [VERIFY]. It would cover 17 Egypt (651) rows over the same comparison set (RP-CINC-SHARE-1). The value has not been computed yet.
-- British-occupied Egypt keeps its null reason: "COW counts Egypt as a state only from 1937; earlier years are not scored".
-- Needs: Innovation Manager sign-off on the split and its boundary year (1922 or 1936/1937), and Map Designer extents for both eras.
-
-## Pass 25 (Historian, 2026-10-24)
-- Registered ILEMI_PCGN_SSD2024 (UK PCGN, Toponymic Factfile: South Sudan, 2024, p.3; citation-only licence) from the Analyst's db/source_entry_ilemi.json (5b8fbd1).
-- In db/era_anchor_fill_hist23b.json, the Ilemi Triangle CONTESTED note now cites ILEMI_PCGN_SSD2024 in place of [VERIFY]. No extents written.
-
-## Pass 26: Abyei sources (Historian, 2026-10-24 EDT)
-- Registered UNSC1990, ABYEI_PROTOCOL2004 (read ONLY via quotation in PCA_ABYEI2009; URL is the PCA case page) and UNSG_S2013_706, from Analyst db/source_entry_abyei.json (e07992c, a35ffd4). UNSG_S2014_28 not registered or cited (downloaded, not read).
-- db/extents_notes_fill_ss2011.json: the two null Abyei cites (Sudan post-2011, South Sudan) filled with para/page cites, quotes and EN/AR notes (AR = working translation, needs native review). Analyst sentence "It has no recognised legal effect" removed. 2013 vote and status lines CONTESTED; "Final status unresolved" VERIFY (sourced only to 2011–2013). Map Designer must re-merge into extents_historic.json.
-- Rebuild: build_data.py only (seed.py skipped: it writes sudan.db). Offline verify: 1,223 checks, 0 problems, 537 IDs. extents_historic.json unchanged (62 items).
+## Pass 27 (2026-10-24): power_cinc_share for eras ending before 1900
+- 37 pre-1900 eras without a CINC entry now carry power_cinc_share null with null_reason, cite COW_NMC6 (method RP-CINC-SHARE-1). No scores, no estimates.
+- 30 eras end before 1816: "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated".
+- 7 eras overlap 1816+ but the actor is not a COW system member ('Abdallab, Funj, Ja'aliyyin, Shilluk, Keira Darfur, Turkiyya, Mahdist state): "not a COW system member: ... not estimated".
+- Existing pre-1900 entries kept: Ottoman Egypt (only one state in the comparison set), Bornu (not a COW member, Pass 22d). Editorial regional_power ordinals unchanged. sudan.db and db/extents* not touched.

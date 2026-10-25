@@ -28,6 +28,7 @@
  "regional_power": [],
  "sources": [
   "GHA2_CH20",
+  "COW_NMC6",
   "GHA2_CH12",
   "WP:Garamantes"
  ],
@@ -39,5 +40,19 @@
   "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "SINGLE-SOURCE – GHA II ch.20 (Salama) only; no direct Garamantes–Nile-valley contact is documented in it, only routes"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
+   "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
+  }
+ ]
 }

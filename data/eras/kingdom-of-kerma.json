@@ -53,6 +53,7 @@
   "KERMA_MISSION",
   "GHA2",
   "SFDAS_HCS2017",
+  "COW_NMC6",
   "GHA2_CH12",
   "WP:Kerma_culture"
  ],
@@ -65,5 +66,19 @@
   "no source gives a comparative power measure",
   "unscored"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
+   "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
+  }
+ ]
 }
