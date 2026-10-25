@@ -404,6 +404,19 @@ var STY=null;
   box.querySelector('button').onclick=async()=>{const m=box.querySelector('.sharemsg');try{await navigator.clipboard.writeText(code);m.textContent=B.ok}catch(x){ta.focus();ta.select()}};
   b.onclick=()=>{box.hidden=!box.hidden;b.setAttribute('aria-expanded',String(!box.hidden));if(!box.hidden)ta.focus()};
   w.querySelector('.share').after(' ',b);w.after(box)}})();
+// Where am I: one-shot browser geolocation -> marker on the map. On-device only: kept in memory, never stored, sent or added to the URL
+(()=>{const WI=T.wai;if(!WI||!navigator.geolocation)return;let P=null;const gW=root.append('g').attr('class','wai');
+ const b=document.createElement('button');b.type='button';b.id='wai';b.className='chip';b.textContent='◎';b.title=WI.b;b.setAttribute('aria-label',WI.b);b.setAttribute('aria-pressed','false');$('reset').after(b);
+ const st=document.createElement('p');st.id='waim';st.setAttribute('aria-live','polite');st.className='sr';document.body.appendChild(st);
+ const say=(t,vis)=>{st.textContent=t;st.className=vis?'':'sr';clearTimeout(say.t);if(vis)say.t=setTimeout(()=>{st.className='sr'},6000)};
+ const draw=()=>{gW.selectAll('*').remove();if(!P)return;const xy=proj(P);const m=gW.append('g').attr('class','mk waimk');m.node().__xy=xy;m.attr('transform',`translate(${xy})scale(${1/K})`);
+  m.append('circle').attr('r',13).attr('class','wair');m.append('circle').attr('r',6).attr('class','waid');m.append('title').text(WI.here);return xy};
+ addEventListener('resize',()=>setTimeout(draw,60));
+ b.onclick=()=>{if(P){P=null;draw();b.setAttribute('aria-pressed','false');say(WI.off,true);return}
+  b.disabled=true;navigator.geolocation.getCurrentPosition(g=>{b.disabled=false;P=[g.coords.longitude,g.coords.latitude];b.setAttribute('aria-pressed','true');const xy=draw();
+   const inb=P[0]>=RELIEF_BOX[0]&&P[0]<=RELIEF_BOX[2]&&P[1]>=RELIEF_BOX[1]&&P[1]<=RELIEF_BOX[3];
+   if(inb){const sh=$('sheet').getBoundingClientRect(),c=desk()?[AR?(sh.right+W())/2:sh.left/2,H()/2]:[W()/2,(120+Math.min(sh.top,H()))/2];svg.transition().duration(RM?0:DUR).call(zoom.translateTo,xy[0],xy[1],c)}say((inb?WI.here:WI.out)+'. '+WI.note,true)},
+   ()=>{b.disabled=false;say(WI.err+'. '+WI.note,true)},{enableHighAccuracy:false,timeout:15000,maximumAge:300000})}})();
 // --- start
 window.__hm={scale:k=>svg.call(zoom.scaleTo,k)};// test hook (QA only, no side effects)
 const eth1932=()=>{const e=ES[i];if(on.has('eth')&&(M.layers.eth||[]).includes(e.id)&&e.a<=1932&&1932<=e.b)Y=1932};eth1932();
