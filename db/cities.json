@@ -2283,17 +2283,10 @@
      "page": "Q311204"
     }
    ],
-   "first_attested": {
-    "year": 1650,
-    "badge": "FIRST_ATTESTED",
-    "source_id": "GHA5_CH7",
-    "page": "190",
-    "basis": "first cited era role (capital) has no stated start; year = start bound of era sultanate-of-darfur-keira (era bound, not a dated mention)"
-   },
-   "map_from": {
-    "year": 1650,
-    "basis": "first_attested"
-   }
+   "first_attested": null,
+   "map_from": null,
+   "first_attested_reason": "NO-SOURCE. The previous 1650 was the Keira era start bound, not a dated mention, so it had no support. GHA V ch.7 p.190, checked as an image at 300 dpi (crops/gha5_p190_fashir.png), prints 'in 1741–2' for 'Abd al-Rahman's new fashir at Khor Tandalti, but p.189 places his accession c.1790, so the intended year is likely 1791–2. Unconfirmed; no year set.",
+   "list_only_reason": "first_attested NO-SOURCE: GHA V p.190 prints 1741–2 for the fashir, inconsistent with p.189 (c.1790); likely 1791–2, unconfirmed."
   },
   {
    "id": "gondar",
