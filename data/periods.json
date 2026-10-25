@@ -2477,6 +2477,19 @@
     "verification": "read in full (3 pp.) 2026-10-25 via documents.un.org PDF + pdftotext",
     "via": "db/geopolitics_sources.json"
    },
+   "GEO-097": {
+    "author": "UN OCHA",
+    "title": "Sudan: Clashes between the Sudanese Armed Forces & and Rapid Support Forces, Flash update (16 April 2023) [EN/AR]",
+    "title_en": "same",
+    "publisher": "UN OCHA (flash update)",
+    "year": "2023-04-16",
+    "url": "https://www.unocha.org/publications/report/sudan/sudan-clashes-between-sudanese-armed-forces-and-rapid-support-forces-flash-update-16-april-2023-enar",
+    "pages": "",
+    "lang": "en",
+    "affiliation_bias": "UN agency (OCHA)",
+    "verification": "read in full 2026-10-25 via WebFetch (unocha.org HTML of the English version); curl HTTP 200 2026-10-25",
+    "via": "db/geopolitics_sources.json"
+   },
    "GEONAMES": {
     "author": "GeoNames",
     "title": "GeoNames geographical database (feature pages)",
