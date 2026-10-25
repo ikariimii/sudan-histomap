@@ -1,8 +1,8 @@
 {
  "type": "FeatureCollection",
  "meta": {
-  "source": "db/cities.json @6215ea7",
-  "rule": "IM ruling 2026-10-24: visible_from = founded, else first_attested (badge FIRST-ATTESTED); neither = list_only, not drawn; abandoned {year:null} = ruin: visible_to = last cited role end, badge RUIN-UNDATED, inhabited_today false"
+  "source": "db/cities.json @a506d14",
+  "rule": "visible_from = map_from (founded, else first_attested, badge FIRST-ATTESTED); no map_from = list_only; abandoned {year:null} = ruin ending at last cited role, RUIN-UNDATED, inhabited_today false"
  },
  "features": [
   {
@@ -21,8 +21,9 @@
     "wikidata": "Q1107569",
     "category": "ancient",
     "visible_from": -1730,
-    "visible_from_basis": "first_cited_role",
+    "visible_from_basis": "first_attested",
     "visible_to": -1580,
+    "inhabited_today": false,
     "roles": [
      {
       "era_id": "kingdom-of-kerma",
@@ -41,6 +42,7 @@
     ],
     "history_en": "Capital of the Kerma kingdom of Upper Nubia.",
     "history_ar": "عاصمة مملكة كرمة في النوبة العليا.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "GHA2_CH9",
@@ -50,9 +52,7 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q1107569"
      }
-    ],
-    "visible_to_basis": "last_cited_role",
-    "inhabited_today": false
+    ]
    }
   },
   {
@@ -71,8 +71,9 @@
     "wikidata": "Q743282",
     "category": "ancient",
     "visible_from": -800,
-    "visible_from_basis": "first_cited_role",
+    "visible_from_basis": "first_attested",
     "visible_to": -300,
+    "inhabited_today": false,
     "roles": [
      {
       "era_id": "kingdom-of-kush-napatan-period",
@@ -100,6 +101,7 @@
     ],
     "history_en": "First capital of Kush; later its religious centre.",
     "history_ar": "أول عاصمة لمملكة كوش ثم مركزها الديني.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "GHA2_CH10",
@@ -113,9 +115,7 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q743282"
      }
-    ],
-    "visible_to_basis": "last_cited_role",
-    "inhabited_today": false
+    ]
    }
   },
   {
@@ -134,8 +134,9 @@
     "wikidata": "Q499019",
     "category": "ancient",
     "visible_from": -1290,
-    "visible_from_basis": "first_cited_role",
+    "visible_from_basis": "first_attested",
     "visible_to": null,
+    "inhabited_today": false,
     "roles": [
      {
       "era_id": "egyptian-new-kingdom-rule-in-nubia",
@@ -154,6 +155,7 @@
     ],
     "history_en": "Sacred mountain of Amun at Napata; Egyptian and Kushite temples.",
     "history_ar": "جبل آمون المقدس في نبتة.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "GHA2_CH9",
@@ -163,9 +165,57 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q499019"
      }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.771,
+     18.40923
+    ]
+   },
+   "properties": {
+    "id": "el-kurru",
+    "name_en": "El-Kurru",
+    "name_ar": "الكرو",
+    "wikidata": "Q2119834",
+    "category": "ancient",
+    "visible_from": -800,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": false,
+    "roles": [
+     {
+      "era_id": "kingdom-of-kush-napatan-period",
+      "role": "religious",
+      "start": null,
+      "end": null,
+      "source_id": "GHA2_CH11",
+      "page": "300",
+      "note": "earliest Kushite royal cemetery; dates not stated"
+     }
     ],
-    "visible_to_basis": "ruin_undated",
-    "inhabited_today": false
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW",
+     "RUIN-UNDATED"
+    ],
+    "history_en": "Earliest royal cemetery of the Kushite kings.",
+    "history_ar": "أقدم مقبرة ملكية لملوك كوش.",
+    "history_source": null,
+    "source_ids": [
+     {
+      "id": "GHA2_CH11",
+      "page": "300"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q2119834"
+     }
+    ]
    }
   },
   {
@@ -186,6 +236,7 @@
     "visible_from": -664,
     "visible_from_basis": "founded",
     "visible_to": null,
+    "inhabited_today": false,
     "roles": [
      {
       "era_id": "kingdom-of-kush-napatan-period",
@@ -204,6 +255,7 @@
     ],
     "history_en": "Royal pyramid field begun by Taharqa.",
     "history_ar": "حقل أهرامات ملكية بدأه طهارقا.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "GHA2_CH10",
@@ -213,9 +265,7 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q2119839"
      }
-    ],
-    "visible_to_basis": "ruin_undated",
-    "inhabited_today": false
+    ]
    }
   },
   {
@@ -234,8 +284,9 @@
     "wikidata": "Q5780",
     "category": "ancient",
     "visible_from": -300,
-    "visible_from_basis": "first_cited_role",
+    "visible_from_basis": "first_attested",
     "visible_to": null,
+    "inhabited_today": false,
     "roles": [
      {
       "era_id": "kingdom-of-kush-meroitic-period",
@@ -254,6 +305,7 @@
     ],
     "history_en": "Capital of Kush from about -300.",
     "history_ar": "عاصمة كوش منذ نحو 300 ق.م.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "GHA2_CH11",
@@ -263,9 +315,213 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q5780"
      }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.32361,
+     16.41583
+    ]
+   },
+   "properties": {
+    "id": "musawwarat",
+    "name_en": "Musawwarat es-Sufra",
+    "name_ar": "المصورات الصفراء",
+    "wikidata": "Q286426",
+    "category": "ancient",
+    "visible_from": -270,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": false,
+    "roles": [
+     {
+      "era_id": "kingdom-of-kush-meroitic-period",
+      "role": "religious",
+      "start": null,
+      "end": null,
+      "source_id": "GHA2_CH11",
+      "page": "318",
+      "note": "Lion temple of Apedemak"
+     }
     ],
-    "visible_to_basis": "ruin_undated",
-    "inhabited_today": false
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW",
+     "RUIN-UNDATED"
+    ],
+    "history_en": "Meroitic temple complex with the Lion Temple of Apedemak.",
+    "history_ar": "مجمع معابد مروي فيه معبد الأسد لأباداماك.",
+    "history_source": null,
+    "source_ids": [
+     {
+      "id": "GHA2_CH11",
+      "page": "318"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q286426"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.11222,
+     16.51111
+    ]
+   },
+   "properties": {
+    "id": "wad-ban-naqa",
+    "name_en": "Wad ban Naqa",
+    "name_ar": "ود بانقا",
+    "wikidata": "Q2538648",
+    "category": "ancient",
+    "visible_from": -270,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": false,
+    "roles": [
+     {
+      "era_id": "kingdom-of-kush-meroitic-period",
+      "role": "religious",
+      "start": null,
+      "end": null,
+      "source_id": "GHA2_CH11",
+      "page": "314",
+      "note": "temples near Meroe"
+     }
+    ],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW",
+     "RUIN-UNDATED"
+    ],
+    "history_en": "Meroitic temple and palace site near Meroe.",
+    "history_ar": "موقع معابد وقصر مروي قرب مروي.",
+    "history_source": null,
+    "source_ids": [
+     {
+      "id": "GHA2_CH11",
+      "page": "314"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q2538648"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.33333,
+     20.43333
+    ]
+   },
+   "properties": {
+    "id": "soleb",
+    "name_en": "Soleb",
+    "name_ar": "صوليب",
+    "wikidata": "Q1457914",
+    "category": "ancient",
+    "visible_from": -1400,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": false,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW",
+     "RUIN-UNDATED"
+    ],
+    "history_en": "Temple of Soleb built about -1400 under Egyptian rule.",
+    "history_ar": "بُني معبد صولب نحو 1400 ق.م في عهد الحكم المصري.",
+    "history_source": {
+     "source_id": "GHA2",
+     "page": "144"
+    },
+    "source_ids": [
+     {
+      "id": "GHA2",
+      "page": "144"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q1457914"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.28333,
+     21.91667
+    ]
+   },
+   "properties": {
+    "id": "buhen",
+    "name_en": "Buhen",
+    "name_ar": "بوهين",
+    "wikidata": "Q1002656",
+    "category": "ancient",
+    "visible_from": -2055,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": false,
+    "roles": [
+     {
+      "era_id": "middle-kingdom-egypt",
+      "role": "garrison",
+      "start": null,
+      "end": null,
+      "source_id": "GHA2_CH9",
+      "page": "266",
+      "note": "Middle Kingdom citadel"
+     },
+     {
+      "era_id": "egyptian-new-kingdom-rule-in-nubia",
+      "role": "garrison",
+      "start": null,
+      "end": null,
+      "source_id": "GHA2_CH9",
+      "page": "265",
+      "note": "fortress rebuilt by Amosis"
+     }
+    ],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW",
+     "RUIN-UNDATED"
+    ],
+    "history_en": "Egyptian fortress town at the Second Cataract.",
+    "history_ar": "مدينة حصينة مصرية عند الشلال الثاني.",
+    "history_source": null,
+    "source_ids": [
+     {
+      "id": "GHA2_CH9",
+      "page": "265"
+     },
+     {
+      "id": "GHA2_CH9",
+      "page": "266"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q1002656"
+     }
+    ]
    }
   },
   {
@@ -284,8 +540,9 @@
     "wikidata": "Q1485667",
     "category": "ancient",
     "visible_from": -1991,
-    "visible_from_basis": "first_cited_role",
+    "visible_from_basis": "first_attested",
     "visible_to": -1786,
+    "inhabited_today": false,
     "roles": [
      {
       "era_id": "middle-kingdom-egypt",
@@ -304,6 +561,7 @@
     ],
     "history_en": "Middle Kingdom border fortress at the Second Cataract.",
     "history_ar": "حصن حدودي للدولة الوسطى عند الشلال الثاني.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "GHA2_CH9",
@@ -313,9 +571,56 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q1485667"
      }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.46,
+     22.2
+    ]
+   },
+   "properties": {
+    "id": "faras",
+    "name_en": "Faras",
+    "name_ar": "فرس (النوبة)",
+    "wikidata": "Q584387",
+    "category": "ancient",
+    "visible_from": 400,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": false,
+    "roles": [
+     {
+      "era_id": "nobadia",
+      "role": "capital",
+      "start": null,
+      "end": null,
+      "source_id": "GHA3_CH8",
+      "page": "194"
+     }
     ],
-    "visible_to_basis": "last_cited_role",
-    "inhabited_today": false
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW",
+     "RUIN-UNDATED"
+    ],
+    "history_en": "Capital of Nobadia; cathedral with famous murals.",
+    "history_ar": "عاصمة نوباديا وفيها كاتدرائية بجدارياتها الشهيرة.",
+    "history_source": null,
+    "source_ids": [
+     {
+      "id": "GHA3_CH8",
+      "page": "194"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q584387"
+     }
+    ]
    }
   },
   {
@@ -334,8 +639,9 @@
     "wikidata": "Q2121453",
     "category": "ancient",
     "visible_from": -23,
-    "visible_from_basis": "first_cited_role",
+    "visible_from_basis": "first_attested",
     "visible_to": null,
+    "inhabited_today": false,
     "roles": [
      {
       "era_id": "roman-byzantine-egypt",
@@ -354,6 +660,7 @@
     ],
     "history_en": "Fortified hilltop town of Lower Nubia (Primis).",
     "history_ar": "مدينة حصينة على تل في النوبة السفلى.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "GHA2_CH10",
@@ -363,9 +670,50 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q2121453"
      }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.88417,
+     24.02153
+    ]
+   },
+   "properties": {
+    "id": "philae",
+    "name_en": "Philae",
+    "name_ar": "فيلة",
+    "wikidata": "Q245062",
+    "category": "ancient",
+    "visible_from": 300,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": false,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW",
+     "RUIN-UNDATED"
     ],
-    "visible_to_basis": "ruin_undated",
-    "inhabited_today": false
+    "history_en": "Island temple site; seat of bishops from the 4th century.",
+    "history_ar": "جزيرة معابد، مقر أساقفة منذ القرن الرابع.",
+    "history_source": {
+     "source_id": "GHA2_CH12",
+     "page": "331"
+    },
+    "source_ids": [
+     {
+      "id": "GHA2_CH12",
+      "page": "331"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q245062"
+     }
+    ]
    }
   },
   {
@@ -386,6 +734,7 @@
     "visible_from": -1274,
     "visible_from_basis": "founded",
     "visible_to": null,
+    "inhabited_today": false,
     "roles": [],
     "badges": [
      "APPROXIMATE",
@@ -394,14 +743,209 @@
     ],
     "history_en": "Rock temples of Ramesses II.",
     "history_ar": "معابد رمسيس الثاني الصخرية.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "WIKIDATA_CITIES",
       "page": "Q134140"
      }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.74389,
+     18.22306
+    ]
+   },
+   "properties": {
+    "id": "old-dongola",
+    "name_en": "Old Dongola",
+    "name_ar": "دنقلا العجوز",
+    "wikidata": "Q433112",
+    "category": "ancient",
+    "visible_from": 500,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": false,
+    "roles": [
+     {
+      "era_id": "makuria",
+      "role": "capital",
+      "start": null,
+      "end": null,
+      "source_id": "GHA3_CH8",
+      "page": "194"
+     }
     ],
-    "visible_to_basis": "ruin_undated",
-    "inhabited_today": false
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW",
+     "RUIN-UNDATED"
+    ],
+    "history_en": "Capital of Makuria and of united Nubia.",
+    "history_ar": "عاصمة المقرة والنوبة الموحدة.",
+    "history_source": null,
+    "source_ids": [
+     {
+      "id": "GHA3_CH8",
+      "page": "194"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q433112"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.68094,
+     15.52397
+    ]
+   },
+   "properties": {
+    "id": "soba",
+    "name_en": "Soba",
+    "name_ar": "سوبا (مدينة)",
+    "wikidata": "Q1247214",
+    "category": "ancient",
+    "visible_from": 500,
+    "visible_from_basis": "first_attested",
+    "visible_to": 1523,
+    "inhabited_today": false,
+    "roles": [
+     {
+      "era_id": "alodia-alwa",
+      "role": "capital",
+      "start": null,
+      "end": null,
+      "source_id": "GHA3_CH8",
+      "page": "196"
+     }
+    ],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
+    ],
+    "history_en": "Capital of Alodia (Alwa) on the Blue Nile.",
+    "history_ar": "عاصمة مملكة علوة على النيل الأزرق.",
+    "history_source": null,
+    "source_ids": [
+     {
+      "id": "GHA3_CH8",
+      "page": "196"
+     },
+     {
+      "id": "GHA5_CH7",
+      "page": "172"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q1247214"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.89973,
+     24.08892
+    ]
+   },
+   "properties": {
+    "id": "aswan",
+    "name_en": "Aswan",
+    "name_ar": "أسوان",
+    "wikidata": "Q29888",
+    "category": "ancient",
+    "visible_from": -2200,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
+    ],
+    "history_en": "Egypt's southern frontier town; received Nubian tribute under the baqt.",
+    "history_ar": "مدينة الحدود الجنوبية لمصر، كانت تتسلم جزية النوبة بموجب البقط.",
+    "history_source": {
+     "source_id": "GHA3_CH8",
+     "page": "195"
+    },
+    "source_ids": [
+     {
+      "id": "GHA2",
+      "page": "238"
+     },
+     {
+      "id": "GHA3_CH8",
+      "page": "195"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q29888"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     38.73333,
+     14.11667
+    ]
+   },
+   "properties": {
+    "id": "aksum",
+    "name_en": "Aksum",
+    "name_ar": "أكسوم",
+    "wikidata": "Q5832",
+    "category": "ancient",
+    "visible_from": 100,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [
+     {
+      "era_id": "kingdom-of-aksum",
+      "role": "capital",
+      "start": null,
+      "end": null,
+      "source_id": "GHA2_CH15",
+      "page": "389",
+      "note": "\"citizens of the capital community\""
+     }
+    ],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
+    ],
+    "history_en": "Capital of the Aksumite kingdom.",
+    "history_ar": "عاصمة مملكة أكسوم.",
+    "history_source": null,
+    "source_ids": [
+     {
+      "id": "GHA2_CH15",
+      "page": "389"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q5832"
+     }
+    ]
    }
   },
   {
@@ -422,6 +966,7 @@
     "visible_from": -250,
     "visible_from_basis": "founded",
     "visible_to": null,
+    "inhabited_today": false,
     "roles": [
      {
       "era_id": "kingdom-of-aksum",
@@ -440,6 +985,7 @@
     ],
     "history_en": "Red Sea port, later the harbour of Aksum.",
     "history_ar": "ميناء على البحر الأحمر صار ميناء أكسوم.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "GHA2",
@@ -449,9 +995,7 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q378940"
      }
-    ],
-    "visible_to_basis": "ruin_undated",
-    "inhabited_today": false
+    ]
    }
   },
   {
@@ -472,6 +1016,7 @@
     "visible_from": 700,
     "visible_from_basis": "founded",
     "visible_to": null,
+    "inhabited_today": false,
     "roles": [
      {
       "era_id": "mamluk-sultanate",
@@ -490,6 +1035,7 @@
     ],
     "history_en": "Medieval Red Sea port for trade and pilgrims.",
     "history_ar": "ميناء على البحر الأحمر في العصور الوسطى للتجارة والحجيج.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "GHAIII",
@@ -503,9 +1049,7 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q404028"
      }
-    ],
-    "visible_to_basis": "ruin_undated",
-    "inhabited_today": false
+    ]
    }
   },
   {
@@ -526,6 +1070,7 @@
     "visible_from": 700,
     "visible_from_basis": "founded",
     "visible_to": null,
+    "inhabited_today": true,
     "roles": [
      {
       "era_id": "suakin-red-sea-port-beja-ottoman",
@@ -543,6 +1088,7 @@
     ],
     "history_en": "Historic coral-built Red Sea port.",
     "history_ar": "ميناء تاريخي مبني من المرجان على البحر الأحمر.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "GHA5_CH7",
@@ -556,8 +1102,458 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q571215"
      }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.6,
+     13.55
+    ]
+   },
+   "properties": {
+    "id": "sennar",
+    "name_en": "Sennar",
+    "name_ar": "سنار",
+    "wikidata": "Q611867",
+    "category": "ancient",
+    "visible_from": 1504,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
     ],
-    "inhabited_today": true
+    "history_en": "Funj capital; a major commercial centre described in 1701.",
+    "history_ar": "عاصمة الفونج، ومركز تجاري كبير وُصف سنة 1701.",
+    "history_source": {
+     "source_id": "GHA5_CH7",
+     "page": "183"
+    },
+    "source_ids": [
+     {
+      "id": "GHA4_CH16",
+      "page": "406"
+     },
+     {
+      "id": "GHA5_CH7",
+      "page": "183"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q611867"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.63163,
+     16.23555
+    ]
+   },
+   "properties": {
+    "id": "qerri",
+    "name_en": "Qerri",
+    "name_ar": "قري الوادي",
+    "wikidata": "Q11924140",
+    "category": "ancient",
+    "visible_from": 1480,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": false,
+    "roles": [
+     {
+      "era_id": "abdallab-chiefdom-funj-vassal",
+      "role": "capital",
+      "start": null,
+      "end": null,
+      "source_id": "GHA5_CH7",
+      "page": "172",
+      "note": "the Abdallab administered from Kerri"
+     }
+    ],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW",
+     "RUIN-UNDATED"
+    ],
+    "history_en": "Seat of the Abdallab chiefs north of Soba.",
+    "history_ar": "مقر مشايخ العبدلاب شمال سوبا.",
+    "history_source": null,
+    "source_ids": [
+     {
+      "id": "GHA5_CH7",
+      "page": "172"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q11924140"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.1878,
+     16.7603
+    ]
+   },
+   "properties": {
+    "id": "ain-farah",
+    "name_en": "Ain Farah",
+    "name_ar": "عين فرح",
+    "wikidata": "Q405860",
+    "category": "ancient",
+    "visible_from": 1400,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": false,
+    "roles": [
+     {
+      "era_id": "tunjur-kingdom",
+      "role": "religious",
+      "start": null,
+      "end": null,
+      "source_id": "GHA4_CH16",
+      "page": "420",
+      "note": "monastery/churches with 8th-11th c. Nubian pottery; era assignment approximate"
+     }
+    ],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW",
+     "RUIN-UNDATED"
+    ],
+    "history_en": "Hilltop ruins in north Darfur with church remains.",
+    "history_ar": "أطلال على تل في شمال دارفور فيها بقايا كنائس.",
+    "history_source": null,
+    "source_ids": [
+     {
+      "id": "GHA4_CH16",
+      "page": "420"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q405860"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.43389,
+     16.69139
+    ]
+   },
+   "properties": {
+    "id": "shendi",
+    "name_en": "Shendi",
+    "name_ar": "شندي",
+    "wikidata": "Q997838",
+    "category": "ancient",
+    "visible_from": 1801,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
+    ],
+    "history_en": "Ja'aliyin seat where Mek Nimir burned Isma'il Pasha in 1822.",
+    "history_ar": "مقر الجعليين حيث أحرق المك نمر إسماعيل باشا سنة 1822.",
+    "history_source": {
+     "source_id": "GHA6_CH14",
+     "page": "362"
+    },
+    "source_ids": [
+     {
+      "id": "GHA6_CH14",
+      "page": "362"
+     },
+     {
+      "id": "MACMICHAEL1922_V1",
+      "page": "233"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q997838"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.99444,
+     18.0153
+    ]
+   },
+   "properties": {
+    "id": "berber",
+    "name_en": "Berber",
+    "name_ar": "بربر",
+    "wikidata": "Q375935",
+    "category": "ancient",
+    "visible_from": 1821,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
+    ],
+    "history_en": "Nile town taxed heavily after the 1821 conquest.",
+    "history_ar": "مدينة نيلية فُرضت عليها ضرائب باهظة بعد غزو 1821.",
+    "history_source": {
+     "source_id": "GHA6_CH14",
+     "page": "362"
+    },
+    "source_ids": [
+     {
+      "id": "GHA6_CH14",
+      "page": "362"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q375935"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.14917,
+     12.96139
+    ]
+   },
+   "properties": {
+    "id": "metemma-ethiopia",
+    "name_en": "Metemma (Ethiopia)",
+    "name_ar": "المتمة الإثيوبية",
+    "wikidata": "Q1246740",
+    "category": "modern",
+    "visible_from": 1889,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
+    ],
+    "history_en": "Border town; site of the 1889 battle of Matamma.",
+    "history_ar": "بلدة حدودية وموقع معركة المتمة سنة 1889.",
+    "history_source": {
+     "source_id": "GHA7_CH11",
+     "page": "268"
+    },
+    "source_ids": [
+     {
+      "id": "GHA7_CH11",
+      "page": "268"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q1246740"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.15,
+     12.96667
+    ]
+   },
+   "properties": {
+    "id": "gallabat",
+    "name_en": "Gallabat",
+    "name_ar": "القلابات",
+    "wikidata": "Q1014416",
+    "category": "ancient",
+    "visible_from": 1840,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
+    ],
+    "history_en": "Border market town facing Metemma.",
+    "history_ar": "بلدة سوق حدودية مقابل المتمة.",
+    "history_source": {
+     "source_id": "MACMICHAEL1922_V1",
+     "page": "254"
+    },
+    "source_ids": [
+     {
+      "id": "MACMICHAEL1922_V1",
+      "page": "254"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q1014416"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.55,
+     18.11667
+    ]
+   },
+   "properties": {
+    "id": "korti",
+    "name_en": "Korti",
+    "name_ar": "كورتي",
+    "wikidata": "Q472841",
+    "category": "ancient",
+    "visible_from": 1699,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
+    ],
+    "history_en": "Nile town where caravans left the river for the Bayuda in 1699.",
+    "history_ar": "بلدة نيلية كانت القوافل تترك عندها النهر إلى صحراء بيوضة.",
+    "history_source": {
+     "source_id": "MACMICHAEL1922_V1",
+     "page": "216"
+    },
+    "source_ids": [
+     {
+      "id": "MACMICHAEL1922_V1",
+      "page": "216"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q472841"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.21667,
+     13.18333
+    ]
+   },
+   "properties": {
+    "id": "el-obeid",
+    "name_en": "El Obeid",
+    "name_ar": "الأبيض",
+    "wikidata": "Q309475",
+    "category": "ancient",
+    "visible_from": 1865,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
+    ],
+    "history_en": "Kordofan town; a scene of military risings under Turco-Egyptian rule.",
+    "history_ar": "مدينة في كردفان شهدت تمردات عسكرية في العهد التركي المصري.",
+    "history_source": {
+     "source_id": "GHA6_CH14",
+     "page": "363"
+    },
+    "source_ids": [
+     {
+      "id": "GHA6_CH14",
+      "page": "363"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q309475"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.34958,
+     13.62698
+    ]
+   },
+   "properties": {
+    "id": "el-fasher",
+    "name_en": "El Fasher",
+    "name_ar": "الفاشر",
+    "wikidata": "Q311204",
+    "category": "ancient",
+    "visible_from": 1650,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [
+     {
+      "era_id": "sultanate-of-darfur-keira",
+      "role": "capital",
+      "start": null,
+      "end": 1874,
+      "source_id": "GHA5_CH7",
+      "page": "190",
+      "note": "permanent capital from the reign of Abd al-Rahman; end = era end"
+     }
+    ],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
+    ],
+    "history_en": "Permanent capital of the Keira sultanate of Darfur.",
+    "history_ar": "العاصمة الدائمة لسلطنة دارفور.",
+    "history_source": null,
+    "source_ids": [
+     {
+      "id": "GHA5_CH7",
+      "page": "190"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q311204"
+     }
+    ]
    }
   },
   {
@@ -578,6 +1574,7 @@
     "visible_from": 1636,
     "visible_from_basis": "founded",
     "visible_to": null,
+    "inhabited_today": true,
     "roles": [
      {
       "era_id": "ethiopian-empire-solomonic",
@@ -594,6 +1591,7 @@
     ],
     "history_en": "Royal capital of Ethiopia from Fasiladas.",
     "history_ar": "العاصمة الملكية لإثيوبيا منذ فاسيلداس.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "GHA5_CH24_P713_733",
@@ -603,8 +1601,7 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q218861"
      }
-    ],
-    "inhabited_today": true
+    ]
    }
   },
   {
@@ -622,9 +1619,10 @@
     "name_ar": "مصوع",
     "wikidata": "Q275635",
     "category": "ancient",
-    "visible_from": 1557,
-    "visible_from_basis": "first_cited_role",
+    "visible_from": 1520,
+    "visible_from_basis": "first_attested",
     "visible_to": null,
+    "inhabited_today": true,
     "roles": [
      {
       "era_id": "suakin-red-sea-port-beja-ottoman",
@@ -642,17 +1640,70 @@
     ],
     "history_en": "Red Sea port annexed by the Ottomans in 1557.",
     "history_ar": "ميناء على البحر الأحمر ضمه العثمانيون سنة 1557.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "GHA5_CH7",
       "page": "175"
      },
      {
+      "id": "GHAV",
+      "page": "706"
+     },
+     {
       "id": "WIKIDATA_CITIES",
       "page": "Q275635"
      }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.11028,
+     9.8875
+    ]
+   },
+   "properties": {
+    "id": "fashoda",
+    "name_en": "Kodok (Fashoda)",
+    "name_ar": "فشودة",
+    "wikidata": "Q1888763",
+    "category": "ancient",
+    "visible_from": 1490,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [
+     {
+      "era_id": "shilluk-kingdom",
+      "role": "capital",
+      "start": null,
+      "end": null,
+      "source_id": "GHA6_CH14",
+      "page": "366",
+      "note": "Shilluk royal capital, destroyed by traders"
+     }
     ],
-    "inhabited_today": true
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
+    ],
+    "history_en": "Shilluk royal seat, later Kodok.",
+    "history_ar": "مقر ملوك الشلك، ثم كودوك.",
+    "history_source": null,
+    "source_ids": [
+     {
+      "id": "GHA6_CH14",
+      "page": "366"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q1888763"
+     }
+    ]
    }
   },
   {
@@ -671,8 +1722,9 @@
     "wikidata": "Q1963",
     "category": "modern",
     "visible_from": 1899,
-    "visible_from_basis": "first_cited_role",
+    "visible_from_basis": "first_attested",
     "visible_to": null,
+    "inhabited_today": true,
     "roles": [
      {
       "era_id": "turkiyya-ottoman-egyptian-rule",
@@ -699,6 +1751,7 @@
     ],
     "history_en": "Capital at the confluence of the Niles.",
     "history_ar": "العاصمة عند ملتقى النيلين.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "GHA6_CH14",
@@ -712,8 +1765,56 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q1963"
      }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.46289,
+     15.68352
+    ]
+   },
+   "properties": {
+    "id": "omdurman",
+    "name_en": "Omdurman",
+    "name_ar": "أم درمان",
+    "wikidata": "Q180921",
+    "category": "modern",
+    "visible_from": 1885,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [
+     {
+      "era_id": "mahdist-state-mahdiyya",
+      "role": "capital",
+      "start": null,
+      "end": 1898,
+      "source_id": "GHA7_CH4",
+      "page": "78",
+      "note": "the Khalifa's capital; end = battle of 1898"
+     }
     ],
-    "inhabited_today": true
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
+    ],
+    "history_en": "Mahdist capital on the west bank of the Nile.",
+    "history_ar": "عاصمة المهدية على الضفة الغربية للنيل.",
+    "history_source": null,
+    "source_ids": [
+     {
+      "id": "GHA7_CH4",
+      "page": "78"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q180921"
+     }
+    ]
    }
   },
   {
@@ -734,6 +1835,7 @@
     "visible_from": 1906,
     "visible_from_basis": "founded",
     "visible_to": null,
+    "inhabited_today": true,
     "roles": [
      {
       "era_id": "anglo-egyptian-sudan-condominium",
@@ -750,6 +1852,7 @@
     ],
     "history_en": "Sudan's main seaport, built under the Condominium.",
     "history_ar": "الميناء الرئيسي للسودان، أنشئ في عهد الحكم الثنائي.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "GHAVII",
@@ -759,8 +1862,7 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q208718"
      }
-    ],
-    "inhabited_today": true
+    ]
    }
   },
   {
@@ -781,6 +1883,7 @@
     "visible_from": 1840,
     "visible_from_basis": "founded",
     "visible_to": null,
+    "inhabited_today": true,
     "roles": [
      {
       "era_id": "turkiyya-ottoman-egyptian-rule",
@@ -796,8 +1899,12 @@
      "APPROXIMATE",
      "AR-REVIEW"
     ],
-    "history_en": "Eastern town founded as an Egyptian post.",
-    "history_ar": "مدينة شرقية نشأت مركزا مصريا.",
+    "history_en": "Eastern town; scene of the 1865 garrison mutiny.",
+    "history_ar": "مدينة شرقية شهدت تمرد الحامية سنة 1865.",
+    "history_source": {
+     "source_id": "GHA6_CH14",
+     "page": "363"
+    },
     "source_ids": [
      {
       "id": "GHA6_CH14",
@@ -807,8 +1914,56 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q686813"
      }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.51,
+     14.4
+    ]
+   },
+   "properties": {
+    "id": "wad-madani",
+    "name_en": "Wad Madani",
+    "name_ar": "ود مدني",
+    "wikidata": "Q852528",
+    "category": "modern",
+    "visible_from": 1821,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [
+     {
+      "era_id": "turkiyya-ottoman-egyptian-rule",
+      "role": "garrison",
+      "start": null,
+      "end": null,
+      "source_id": "GHA6_CH14",
+      "page": "360",
+      "note": "scene of a garrison rising in 1844"
+     }
     ],
-    "inhabited_today": true
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
+    ],
+    "history_en": "Main town of the Gezira.",
+    "history_ar": "كبرى مدن الجزيرة.",
+    "history_source": null,
+    "source_ids": [
+     {
+      "id": "GHA6_CH14",
+      "page": "360"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q852528"
+     }
+    ]
    }
   },
   {
@@ -829,6 +1984,7 @@
     "visible_from": 1922,
     "visible_from_basis": "founded",
     "visible_to": null,
+    "inhabited_today": true,
     "roles": [],
     "badges": [
      "APPROXIMATE",
@@ -836,13 +1992,13 @@
     ],
     "history_en": "Capital of South Sudan on the White Nile.",
     "history_ar": "عاصمة جنوب السودان على النيل الأبيض.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "WIKIDATA_CITIES",
       "page": "Q1947"
      }
-    ],
-    "inhabited_today": true
+    ]
    }
   },
   {
@@ -861,8 +2017,9 @@
     "wikidata": "Q3642",
     "category": "modern",
     "visible_from": 1889,
-    "visible_from_basis": "first_cited_role",
+    "visible_from_basis": "first_attested",
     "visible_to": null,
+    "inhabited_today": true,
     "roles": [
      {
       "era_id": "eritrea-italian-colony-independent",
@@ -880,6 +2037,7 @@
     ],
     "history_en": "Capital of Eritrea.",
     "history_ar": "عاصمة إريتريا.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "GHA7_CH11",
@@ -889,8 +2047,7 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q3642"
      }
-    ],
-    "inhabited_today": true
+    ]
    }
   },
   {
@@ -911,6 +2068,7 @@
     "visible_from": 1900,
     "visible_from_basis": "founded",
     "visible_to": null,
+    "inhabited_today": true,
     "roles": [],
     "badges": [
      "APPROXIMATE",
@@ -918,13 +2076,55 @@
     ],
     "history_en": "Capital of Chad, founded as Fort-Lamy.",
     "history_ar": "عاصمة تشاد، أسست باسم فور لامي.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "WIKIDATA_CITIES",
       "page": "Q3659"
      }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.28333,
+     24.18333
+    ]
+   },
+   "properties": {
+    "id": "kufra",
+    "name_en": "Kufra",
+    "name_ar": "الكفرة",
+    "wikidata": "Q172114",
+    "category": "modern",
+    "visible_from": 950,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
     ],
-    "inhabited_today": true
+    "history_en": "Saharan oasis on the route from Cyrenaica to Wadai.",
+    "history_ar": "واحة صحراوية على الطريق من برقة إلى وداي.",
+    "history_source": {
+     "source_id": "GHAIII",
+     "page": "283"
+    },
+    "source_ids": [
+     {
+      "id": "GHAIII",
+      "page": "283"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q172114"
+     }
+    ]
    }
   },
   {
@@ -945,6 +2145,7 @@
     "visible_from": 1889,
     "visible_from_basis": "founded",
     "visible_to": null,
+    "inhabited_today": true,
     "roles": [],
     "badges": [
      "APPROXIMATE",
@@ -952,13 +2153,13 @@
     ],
     "history_en": "Capital of the Central African Republic.",
     "history_ar": "عاصمة جمهورية أفريقيا الوسطى.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "WIKIDATA_CITIES",
       "page": "Q3832"
      }
-    ],
-    "inhabited_today": true
+    ]
    }
   },
   {
@@ -976,9 +2177,10 @@
     "name_ar": "عطبرة",
     "wikidata": "Q753906",
     "category": "modern",
-    "visible_from": 1906,
-    "visible_from_basis": "first_cited_role",
+    "visible_from": 1898,
+    "visible_from_basis": "first_attested",
     "visible_to": null,
+    "inhabited_today": true,
     "roles": [
      {
       "era_id": "anglo-egyptian-sudan-condominium",
@@ -994,9 +2196,17 @@
      "FIRST-ATTESTED",
      "AR-REVIEW"
     ],
-    "history_en": "Railway town at the Atbara–Nile confluence.",
-    "history_ar": "مدينة السكك الحديدية عند ملتقى عطبرة والنيل.",
+    "history_en": "Railway town; site of the 1898 battle of Atbara.",
+    "history_ar": "مدينة السكك الحديدية وموقع معركة عطبرة 1898.",
+    "history_source": {
+     "source_id": "GHA7_CH4",
+     "page": "78"
+    },
     "source_ids": [
+     {
+      "id": "GHA7_CH4",
+      "page": "78"
+     },
      {
       "id": "GHAVII",
       "page": "455"
@@ -1005,8 +2215,182 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q753906"
      }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.38333,
+     14.03333
+    ]
+   },
+   "properties": {
+    "id": "gedaref",
+    "name_en": "Gedaref",
+    "name_ar": "القضارف",
+    "wikidata": "Q311199",
+    "category": "modern",
+    "visible_from": 1822,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
     ],
-    "inhabited_today": true
+    "history_en": "Eastern town; refuge during the 1822 revolt.",
+    "history_ar": "مدينة شرقية لجأ إليها الفارون أثناء ثورة 1822.",
+    "history_source": {
+     "source_id": "GHA6_CH14",
+     "page": "362"
+    },
+    "source_ids": [
+     {
+      "id": "GHA6_CH14",
+      "page": "362"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q311199"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.55,
+     6.21667
+    ]
+   },
+   "properties": {
+    "id": "bor",
+    "name_en": "Bor",
+    "name_ar": "بور",
+    "wikidata": "Q893274",
+    "category": "modern",
+    "visible_from": 1885,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [
+     {
+      "era_id": "turkiyya-ottoman-egyptian-rule",
+      "role": "garrison",
+      "start": null,
+      "end": null,
+      "source_id": "GHA6_CH14",
+      "page": "371",
+      "note": "government garrison"
+     }
+    ],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
+    ],
+    "history_en": "Nile town in Jonglei; former government post.",
+    "history_ar": "مدينة نيلية في جونقلي، كانت مركزا حكوميا.",
+    "history_source": null,
+    "source_ids": [
+     {
+      "id": "GHA6_CH14",
+      "page": "371"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q893274"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.68333,
+     6.8
+    ]
+   },
+   "properties": {
+    "id": "rumbek",
+    "name_en": "Rumbek",
+    "name_ar": "رمبيك",
+    "wikidata": "Q607336",
+    "category": "modern",
+    "visible_from": 1500,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
+    ],
+    "history_en": "Early Luo settlement (Wipac) in Bahr al-Ghazal.",
+    "history_ar": "موضع استيطان مبكر للوو (ويباك) في بحر الغزال.",
+    "history_source": {
+     "source_id": "GHAV",
+     "page": "777"
+    },
+    "source_ids": [
+     {
+      "id": "GHAV",
+      "page": "777"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q607336"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.72778,
+     18.42583
+    ]
+   },
+   "properties": {
+    "id": "tokar",
+    "name_en": "Tokar",
+    "name_ar": "طوكر",
+    "wikidata": "Q1010754",
+    "category": "modern",
+    "visible_from": 1891,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
+    ],
+    "history_en": "Red Sea coastal town; lost by the Mahdists in 1891.",
+    "history_ar": "بلدة ساحلية خسرها الأنصار سنة 1891.",
+    "history_source": {
+     "source_id": "GHA7_CH4",
+     "page": "77"
+    },
+    "source_ids": [
+     {
+      "id": "GHA7_CH4",
+      "page": "77"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q1010754"
+     }
+    ]
    }
   },
   {
@@ -1024,9 +2408,10 @@
     "name_ar": "غندكرو",
     "wikidata": "Q1391631",
     "category": "ancient",
-    "visible_from": 1874,
-    "visible_from_basis": "first_cited_role",
+    "visible_from": 1859,
+    "visible_from_basis": "first_attested",
     "visible_to": null,
+    "inhabited_today": false,
     "roles": [
      {
       "era_id": "turkiyya-ottoman-egyptian-rule",
@@ -1045,7 +2430,12 @@
     ],
     "history_en": "Upper Nile trading station and base for Baker.",
     "history_ar": "محطة تجارية على النيل الأعلى وقاعدة لبيكر.",
+    "history_source": null,
     "source_ids": [
+     {
+      "id": "GHA6_CH14",
+      "page": "366"
+     },
      {
       "id": "GHA6_CH14",
       "page": "370"
@@ -1054,9 +2444,7 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q1391631"
      }
-    ],
-    "visible_to_basis": "ruin_undated",
-    "inhabited_today": false
+    ]
    }
   },
   {
@@ -1075,8 +2463,9 @@
     "wikidata": "Q3215967",
     "category": "ancient",
     "visible_from": 1876,
-    "visible_from_basis": "first_cited_role",
+    "visible_from_basis": "first_attested",
     "visible_to": null,
+    "inhabited_today": false,
     "roles": [
      {
       "era_id": "turkiyya-ottoman-egyptian-rule",
@@ -1095,6 +2484,7 @@
     ],
     "history_en": "Equatoria station after 1876.",
     "history_ar": "محطة في الاستوائية بعد 1876.",
+    "history_source": null,
     "source_ids": [
      {
       "id": "GHA6_CH14",
@@ -1104,327 +2494,354 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q3215967"
      }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.47694,
+     13.49694
+    ]
+   },
+   "properties": {
+    "id": "mekelle",
+    "name_en": "Mekelle",
+    "name_ar": "ميكيلي",
+    "wikidata": "Q332319",
+    "category": "modern",
+    "visible_from": 1934,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW"
     ],
-    "visible_to_basis": "ruin_undated",
-    "inhabited_today": false
+    "history_en": "Tigray town with an early government school.",
+    "history_ar": "مدينة في تيغراي فيها مدرسة حكومية مبكرة.",
+    "history_source": {
+     "source_id": "GHAVII",
+     "page": "731"
+    },
+    "source_ids": [
+     {
+      "id": "GHAVII",
+      "page": "731"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q332319"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.3525,
+     14.726
+    ]
+   },
+   "properties": {
+    "id": "arbaji",
+    "name_en": "Arbaji",
+    "name_ar": "أربجي",
+    "wikidata": "Q12179334",
+    "category": "ancient",
+    "visible_from": 1475,
+    "visible_from_basis": "founded",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [],
+    "badges": [
+     "APPROXIMATE",
+     "AR-REVIEW",
+     "APPROXIMATE-COORDS"
+    ],
+    "history_en": "Southernmost Arab town in the Gezira; the Funj defeated the Abdallab there in 1504.",
+    "history_ar": "أقصى بلدة عربية جنوبا في الجزيرة؛ هزم فيها الفونج العبدلاب سنة 1504.",
+    "history_source": {
+     "source_id": "GHA5_CH7",
+     "page": "173"
+    },
+    "source_ids": [
+     {
+      "id": "GHA4_CH16",
+      "page": "406"
+     },
+     {
+      "id": "GHA5_CH7",
+      "page": "173"
+     },
+     {
+      "id": "NGA_GNS",
+      "page": "UFI 98562051"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.3565,
+     16.7095
+    ]
+   },
+   "properties": {
+    "id": "el-matamma",
+    "name_en": "El Matamma (Sudan)",
+    "name_ar": "المتمة",
+    "wikidata": "Q54900535",
+    "category": "modern",
+    "visible_from": 1801,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW",
+     "APPROXIMATE-COORDS"
+    ],
+    "history_en": "Ja'aliyin headquarters sacked by the Mahdist amir Mahmud in 1897.",
+    "history_ar": "مقر الجعليين الذي اجتاحه الأمير محمود ود أحمد سنة 1897.",
+    "history_source": {
+     "source_id": "MACMICHAEL1922_V1",
+     "page": "235"
+    },
+    "source_ids": [
+     {
+      "id": "GEONAMES",
+      "page": "379127"
+     },
+     {
+      "id": "MACMICHAEL1922_V1",
+      "page": "233"
+     },
+     {
+      "id": "MACMICHAEL1922_V1",
+      "page": "235"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.49661,
+     19.12313
+    ]
+   },
+   "properties": {
+    "id": "kawa",
+    "name_en": "Kawa (Gematon)",
+    "name_ar": "كوة",
+    "wikidata": null,
+    "category": "ancient",
+    "visible_from": -1350,
+    "visible_from_basis": "founded",
+    "visible_to": 350,
+    "inhabited_today": false,
+    "roles": [],
+    "badges": [
+     "APPROXIMATE",
+     "AR-REVIEW",
+     "APPROXIMATE-COORDS"
+    ],
+    "history_en": "Egyptian and Kushite temple town (Gematon) near Dongola.",
+    "history_ar": "مدينة معابد مصرية وكوشية (جماتون) قرب دنقلا.",
+    "history_source": {
+     "source_id": "SARS_KAWA",
+     "page": "project page"
+    },
+    "source_ids": [
+     {
+      "id": "PLEIADES_805647",
+      "page": "805647"
+     },
+     {
+      "id": "SARS_KAWA",
+      "page": "project page"
+     }
+    ]
    }
   }
  ],
  "list_only": [
   {
-   "id": "el-kurru",
-   "name_en": "El-Kurru",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "musawwarat",
-   "name_en": "Musawwarat es-Sufra",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
    "id": "naqa",
    "name_en": "Naqa",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "wad-ban-naqa",
-   "name_en": "Wad ban Naqa",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "sedeinga",
    "name_en": "Sedeinga",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "soleb",
-   "name_en": "Soleb",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "buhen",
-   "name_en": "Buhen",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "jebel-moya",
    "name_en": "Jebel Moya",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "faras",
-   "name_en": "Faras",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "philae",
-   "name_en": "Philae",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "old-dongola",
-   "name_en": "Old Dongola",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "banganarti",
    "name_en": "Banganarti",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "soba",
-   "name_en": "Soba",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "aswan",
-   "name_en": "Aswan",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "aksum",
-   "name_en": "Aksum",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "sennar",
-   "name_en": "Sennar",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "qerri",
-   "name_en": "Qerri",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "kobbe",
    "name_en": "Kobbei",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "ain-farah",
-   "name_en": "Ain Farah",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "shendi",
-   "name_en": "Shendi",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "berber",
-   "name_en": "Berber",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "metemma-ethiopia",
-   "name_en": "Metemma (Ethiopia)",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "gallabat",
-   "name_en": "Gallabat",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "korti",
-   "name_en": "Korti",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "el-obeid",
-   "name_en": "El Obeid",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "el-fasher",
-   "name_en": "El Fasher",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "fashoda",
-   "name_en": "Kodok (Fashoda)",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "dongola",
    "name_en": "Dongola",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "wadi-halfa",
    "name_en": "Wadi Halfa",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "omdurman",
-   "name_en": "Omdurman",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "wad-madani",
-   "name_en": "Wad Madani",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "malakal",
    "name_en": "Malakal",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "wau",
    "name_en": "Wau",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "nyala",
    "name_en": "Nyala",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "el-geneina",
    "name_en": "El Geneina",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "abeche",
    "name_en": "Abeche",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "kufra",
-   "name_en": "Kufra",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "gedaref",
-   "name_en": "Gedaref",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "kosti",
    "name_en": "Kosti",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "bor",
-   "name_en": "Bor",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "rumbek",
-   "name_en": "Rumbek",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "ouara",
    "name_en": "Ouara",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "kutum",
    "name_en": "Kutum",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "ed-damer",
    "name_en": "Ed Damer",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "karima",
    "name_en": "Karima",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "merowe",
    "name_en": "Merowe",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "kadugli",
    "name_en": "Kadugli",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "ed-daein",
    "name_en": "Ed Daein",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "zalingei",
    "name_en": "Zalingei",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "ed-damazin",
    "name_en": "Ed Damazin",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "tokar",
-   "name_en": "Tokar",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "yei",
    "name_en": "Yei",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "aweil",
    "name_en": "Aweil",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "torit",
    "name_en": "Torit",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "renk",
    "name_en": "Renk",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "nimule",
    "name_en": "Nimule",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "dilling",
    "name_en": "Dilling",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "babanusa",
    "name_en": "Babanusa",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "en-nahud",
    "name_en": "En Nahud",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "umm-ruwaba",
    "name_en": "Umm Ruwaba",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "abu-hamad",
    "name_en": "Abu Hamad",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "deim-zubeir",
    "name_en": "Deim Zubeir",
-   "reason": "no founded or first_attested year yet"
-  },
-  {
-   "id": "mekelle",
-   "name_en": "Mekelle",
-   "reason": "no founded or first_attested year yet"
+   "reason": "no cited founded or first-attested date in sources read"
   }
  ]
 }
