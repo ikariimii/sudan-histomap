@@ -1,0 +1,134 @@
+{
+ "_meta": {
+  "owner": "Sudan Historian",
+  "date": "2026-10-25",
+  "purpose": "Era membership for the 7 ?story= chapters. The Web Lead renders it; only the ids order matters. Era dates come from data/eras/*.json."
+ },
+ "chapters": [
+  {
+   "s": "origins-kerma",
+   "n": 1,
+   "en": "Origins & Kerma",
+   "ar": "البدايات وكرمة",
+   "ids": [
+    "khartoum-mesolithic-early-khartoum",
+    "khartoum-neolithic-shaheinab",
+    "a-group-lower-nubia",
+    "kingdom-of-kerma",
+    "c-group-lower-nubia",
+    "egyptian-new-kingdom-rule-in-nubia"
+   ],
+   "changed": false,
+   "note_en": "Unchanged. Kerma's home chapter: 'capital of the first historical state of Sudan', c.2450–1500 BCE (SFDAS_HCS2017 p.56). New Kingdom rule closes the chapter as the bridge to Kush."
+  },
+  {
+   "s": "kush-meroe",
+   "n": 2,
+   "en": "Kush: Napata & Meroe",
+   "ar": "كوش: نبتة ومروي",
+   "ids": [
+    "egyptian-new-kingdom-rule-in-nubia",
+    "kingdom-of-kush-napatan-period",
+    "kingdom-of-kush-meroitic-period"
+   ],
+   "changed": true,
+   "note_en": "Kerma removed. Egyptian texts already call Kerma 'Kush' from Senusret I (SFDAS_HCS2017 p.72), but Kerma ends c.1480 BCE, more than six centuries before the Napatan era (from c.800 BCE in data/eras). The chapter title 'Napata & Meroe' names the later kingdom, and Kerma is already covered in chapter 1. The NK bridge stays as the opener."
+  },
+  {
+   "s": "christian-nubia",
+   "n": 3,
+   "en": "Christian Nubia",
+   "ar": "النوبة المسيحية",
+   "ids": [
+    "noba-x-group-ballana-culture",
+    "nobadia",
+    "makuria",
+    "alodia-alwa"
+   ],
+   "changed": true,
+   "note_en": "Reduced to the post-Meroitic and three Nubian kingdoms (SFDAS_HCS2017 p.394, Nobadia/Makuria/Alodia). Removed date-overlap entries that are not Nubian: Daju and Tunjur (Darfur), Abdallab, Ja'aliyyin, Shilluk, Anuak, Dinka and Nuer (eras start 1490–1500, at the very end of Alodia). They move to chapter 4."
+  },
+  {
+   "s": "funj-darfur",
+   "n": 4,
+   "en": "Funj & Darfur Sultanates",
+   "ar": "سلطنتا الفونج ودارفور",
+   "ids": [
+    "daju-kingdom",
+    "tunjur-kingdom",
+    "abdallab-chiefdom-funj-vassal",
+    "ja-aliyyin-kingdom-sa-dab-funj-vassal",
+    "shilluk-kingdom",
+    "anuak-anywaa-communities",
+    "dinka-jieng-communities",
+    "nuer-naath-communities",
+    "funj-sultanate-of-sennar",
+    "sultanate-of-darfur-keira",
+    "musabba-at-sultanate-kordofan",
+    "kingdom-of-taqali"
+   ],
+   "changed": true,
+   "note_en": "Daju added as the earliest Darfur era (1100–1400 in data/eras), before Tunjur (1400–1650) and Keira. Otherwise unchanged."
+  },
+  {
+   "s": "turkiyya-mahdiyya",
+   "n": 5,
+   "en": "Turkiyya & Mahdiyya",
+   "ar": "التركية والمهدية",
+   "ids": [
+    "shilluk-kingdom",
+    "anuak-anywaa-communities",
+    "dinka-jieng-communities",
+    "nuer-naath-communities",
+    "sultanate-of-darfur-keira",
+    "kingdom-of-taqali",
+    "turkiyya-ottoman-egyptian-rule",
+    "mahdist-state-mahdiyya",
+    "restored-darfur-sultanate-ali-dinar"
+   ],
+   "changed": false,
+   "note_en": "Unchanged."
+  },
+  {
+   "s": "condominium",
+   "n": 6,
+   "en": "Condominium",
+   "ar": "الحكم الثنائي",
+   "ids": [
+    "anuak-anywaa-communities",
+    "dinka-jieng-communities",
+    "nuer-naath-communities",
+    "kingdom-of-taqali",
+    "restored-darfur-sultanate-ali-dinar",
+    "anglo-egyptian-sudan-condominium",
+    "southern-sudan-under-condominium-sudan"
+   ],
+   "changed": false,
+   "note_en": "Unchanged."
+  },
+  {
+   "s": "independence-today",
+   "n": 7,
+   "en": "Independence to today",
+   "ar": "من الاستقلال إلى اليوم",
+   "ids": [
+    "anuak-anywaa-communities",
+    "dinka-jieng-communities",
+    "nuer-naath-communities",
+    "kingdom-of-taqali",
+    "southern-sudan-under-condominium-sudan",
+    "independent-sudan-first-parliamentary-period",
+    "abboud-military-regime",
+    "second-parliamentary-period",
+    "nimeiry-era-democratic-republic-of-sudan",
+    "transitional-third-parliamentary-period",
+    "al-bashir-ncp-ingaz-regime",
+    "republic-of-south-sudan",
+    "december-revolution-transition",
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "changed": false,
+   "note_en": "Unchanged. Long-running community eras (Anuak, Dinka, Nuer, Taqali to 1969) appear by date overlap; that is correct."
+  }
+ ]
+}
