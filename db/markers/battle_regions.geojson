@@ -1,0 +1,284 @@
+{
+ "type": "FeatureCollection",
+ "_meta": {
+  "owner": "Sudan Map Designer",
+  "date": "2026-10-25",
+  "coords": "Wikidata P625, looked up 2026-10-25; points, not boundaries",
+  "style": "db/markers/battle_style.json battle.variants.region",
+  "left_out": {
+   "meroe-330": "Campaign across the Meroitic/Noba region; no cited battlefield locality.",
+   "dongola-642": "Cite (SFDAS p.405) gives no battlefield locality for the 642 campaign.",
+   "kordofan-1747": "Campaign across Kordofan; no cited locality, only a province.",
+   "toski-1889": "Wikidata Q1252684 has no P625; Toshka items lack coords or are the canal scheme; no precise cite.",
+   "atbara-1898": "Wikidata Q1276340 has no P625; Atbara town is not the battlefield (Nakheila, upstream).",
+   "umm-diwaykarat-1899": "Wikidata Q476402 locates it only in Kordofan (region-wide).",
+   "darfur-1916": "Cite does not name a battlefield; Battle of Beringia Q2888134 has no P625.",
+   "ferkeh-1896": "Wikidata Q2237506 has no P625; no gazetteer coord for Firket found."
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.250917,
+     29.844667
+    ]
+   },
+   "properties": {
+    "battle_id": "memphis--720",
+    "label_en": "Piye's capture of Memphis",
+    "kind": "centroid",
+    "radius_km": 10,
+    "precision": "approximate",
+    "marker_style": "battle_region",
+    "source_ids": [
+     {
+      "source_id": "WIKIDATA_CITIES",
+      "page": "Q5715",
+      "property": "P625"
+     }
+    ],
+    "badges": [
+     "APPROXIMATE"
+    ],
+    "note": "Wikidata Q5715 (Memphis, Egypt) P625; city-area halo, battle site within the ancient city."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.2167,
+     13.1833
+    ]
+   },
+   "properties": {
+    "battle_id": "shaykan-1883",
+    "label_en": "Battle of Shaykan",
+    "kind": "centroid",
+    "radius_km": 40,
+    "precision": "approximate",
+    "marker_style": "battle_region",
+    "source_ids": [
+     {
+      "source_id": "WIKIDATA_CITIES",
+      "page": "Q478597",
+      "property": "P625"
+     }
+    ],
+    "badges": [
+     "APPROXIMATE"
+    ],
+    "note": "Wikidata Q478597 (battle item) P625. The point coincides with El Obeid town; the battlefield lay in the Shaykan forest south of it, so drawn as a wide 40 km approximate halo."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.68528,
+     18.61111
+    ]
+   },
+   "properties": {
+    "battle_id": "el-teb-1884",
+    "label_en": "Battle of El Teb",
+    "kind": "centroid",
+    "radius_km": 10,
+    "precision": "approximate",
+    "marker_style": "battle_region",
+    "source_ids": [
+     {
+      "source_id": "WIKIDATA_CITIES",
+      "page": "Q309620",
+      "property": "P625"
+     }
+    ],
+    "badges": [
+     "APPROXIMATE"
+    ],
+    "note": "Wikidata Q309620 (El Teb halting-place) P625; matches 'near Tokar' (Gleichen V1 p.15)."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.18333,
+     18.95
+    ]
+   },
+   "properties": {
+    "battle_id": "tamai-1884",
+    "label_en": "Battle of Tamai",
+    "kind": "centroid",
+    "radius_km": 10,
+    "precision": "approximate",
+    "marker_style": "battle_region",
+    "source_ids": [
+     {
+      "source_id": "WIKIDATA_CITIES",
+      "page": "Q604356",
+      "property": "P625"
+     }
+    ],
+    "badges": [
+     "APPROXIMATE"
+    ],
+    "note": "Wikidata Q604356 (battle item) P625."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.3,
+     16.98333
+    ]
+   },
+   "properties": {
+    "battle_id": "abu-klea-1885",
+    "label_en": "Battle of Abu Klea",
+    "kind": "centroid",
+    "radius_km": 10,
+    "precision": "approximate",
+    "marker_style": "battle_region",
+    "source_ids": [
+     {
+      "source_id": "WIKIDATA_CITIES",
+      "page": "Q1288821",
+      "property": "P625"
+     }
+    ],
+    "badges": [
+     "APPROXIMATE"
+    ],
+    "note": "Wikidata Q1288821 (battle item) P625; Bayuda, Korti–Metemma route."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.49446,
+     20.82047
+    ]
+   },
+   "properties": {
+    "battle_id": "ginnis-1885",
+    "label_en": "Battle of Ginnis",
+    "kind": "centroid",
+    "radius_km": 10,
+    "precision": "approximate",
+    "marker_style": "battle_region",
+    "source_ids": [
+     {
+      "source_id": "WIKIDATA_CITIES",
+      "page": "Q2888625",
+      "property": "P625"
+     }
+    ],
+    "badges": [
+     "APPROXIMATE"
+    ],
+    "note": "Wikidata Q2888625 (battle item) P625; Ginnis/Kosheh, east bank."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.52013,
+     15.75194
+    ]
+   },
+   "properties": {
+    "battle_id": "karari-1898",
+    "label_en": "Battle of Karari (Omdurman)",
+    "kind": "centroid",
+    "radius_km": 10,
+    "precision": "approximate",
+    "marker_style": "battle_region",
+    "source_ids": [
+     {
+      "source_id": "WIKIDATA_CITIES",
+      "page": "Q1137302",
+      "property": "P625"
+     }
+    ],
+    "badges": [
+     "APPROXIMATE"
+    ],
+    "note": "Wikidata Q1137302 (Battle of Omdurman 1898) P625; Karari plain north of Omdurman."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.39861,
+     9.99944
+    ]
+   },
+   "properties": {
+    "battle_id": "heglig-2012",
+    "label_en": "Heglig crisis",
+    "kind": "centroid",
+    "radius_km": 25,
+    "precision": "approximate",
+    "marker_style": "battle_region",
+    "source_ids": [
+     {
+      "source_id": "WIKIDATA_CITIES",
+      "page": "Q1320844",
+      "property": "P625"
+     }
+    ],
+    "badges": [
+     "APPROXIMATE",
+     "CONTESTED"
+    ],
+    "note": "Wikidata Q1320844 (Heglig settlement) P625; 25 km halo for the oil-field area. Area claimed by both states: drawn CONTESTED. No fatality or control claim."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.50418,
+     13.47556
+    ]
+   },
+   "properties": {
+    "battle_id": "ardamatta-2023",
+    "label_en": "Fighting reported at Ardamatta",
+    "kind": "centroid",
+    "radius_km": 5,
+    "precision": "approximate",
+    "marker_style": "battle_region",
+    "source_ids": [
+     {
+      "source_id": "WIKIDATA_CITIES",
+      "page": "Q25406785",
+      "property": "P625"
+     }
+    ],
+    "badges": [
+     "APPROXIMATE",
+     "REPORTED"
+    ],
+    "note": "Wikidata Q25406785 (Ardamata village, West Darfur) P625. Event cite UNPOE_S2024_65 Table 1. No fatality or control claim."
+   }
+  }
+ ]
+}
