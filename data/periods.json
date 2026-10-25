@@ -4222,9 +4222,9 @@
     "title": "Report on violations and abuses ... in the context of the fighting in Juba, South Sudan, in July 2016",
     "date": "2017-01-16",
     "url": "https://www.ohchr.org/sites/default/files/Documents/Countries/SS/ReportJuba16Jan2017.pdf",
-    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "verification": "Read in full 2026-10-25 (31-page PDF): p.3 executive summary (Analyst handoff said p.2) 'the fighting between the Sudan People's Liberation Army (SPLA) and the Sudan People's Liberation Movement/Army in Opposition'; p.14 paras 32-33, 'Riek Machar also fled Juba'",
     "note": "",
-    "pages": "",
+    "pages": "p.3; p.14 paras 32–33",
     "lang": "en",
     "via": "db/era_fill_modern2.json"
    },
@@ -5709,7 +5709,7 @@
     "title": "Transitional Constitution of the Republic of South Sudan, 2011 – Arts 1(4), 6, 8",
     "date": "2011-07-09",
     "url": "https://www.constituteproject.org/constitution/South_Sudan_2011.pdf?lang=en",
-    "verification": "search excerpt only 2026-10-20 – VERIFY (article text seen in excerpts of the MoJ PDF https://mojca.gov.ss/wp-content/uploads/2023/03/Transitional-Constitution-of-the-Republic-of-South-Sudan-2011.pdf and Constitute)",
+    "verification": "Read in full 2026-10-25 (constituteproject PDF): Art 1(4) 'multi-ethnic, multi-cultural, multi-lingual, multi-religious and multi-racial'; Art 6(1)-(2) national languages, English official working language and language of instruction; Art 8(1) 'Religion and State shall be separate'",
     "note": "primary legal text",
     "pages": "",
     "lang": "en",
@@ -5993,9 +5993,9 @@
     "title": "South Sudan Economic Brief, Issue No.1",
     "date": "2012-04",
     "url": "https://documents1.worldbank.org/curated/en/833711468169442089/pdf/774280BRI0SS0e00Box377296B00PUBLIC0.pdf",
-    "verification": "search excerpt only 2026-10-20 – VERIFY",
+    "verification": "Read in full 2026-10-25 at the URL: p.1 'further depreciation of the SSP seems inevitable'; 'economy is likely to experience stagflation'",
     "note": "",
-    "pages": "",
+    "pages": "p.1",
     "lang": "en",
     "via": "db/era_fill_modern2.json"
    },
@@ -7352,6 +7352,26 @@
     "verification": "Read in full 2026-10-25 (PDF at the URL): preamble 'underscoring that the future status of Abyei shall be resolved by negotiations between the parties in a manner consistent with the CPA'; OP1 'Decides to extend until 15 November 2026 the mandate of UNISFA'",
     "note": "UN source",
     "pages": "preamble; OP 1; OP 4",
+    "lang": "en"
+   },
+   "S_PRST_2012_12": {
+    "author": "UN Security Council",
+    "title": "Statement by the President of the Security Council, S/PRST/2012/12 (full text in SC/10606, 6749th meeting)",
+    "date": "2012-04-12",
+    "url": "https://press.un.org/en/2012/sc10606.doc.htm",
+    "verification": "Read in full 2026-10-25: 'the seizure and occupation of the town of Heglig and its oil fields in Sudan by the SPLA'; 'The Security Council demands a complete, immediate, and unconditional: end to all fighting; withdrawal of the SPLA from Heglig'",
+    "note": "UN source",
+    "pages": "PRST para 1",
+    "lang": "en"
+   },
+   "S_RES_2046": {
+    "author": "UN Security Council",
+    "title": "Resolution 2046 (2012), S/RES/2046(2012)",
+    "date": "2012-05-02",
+    "url": "https://unscr.com/en/resolutions/doc/2046/",
+    "verification": "Read in full 2026-10-25 (PDF at the URL): preamble 'Welcoming the withdrawal from Heglig of the army of South Sudan'",
+    "note": "UN source",
+    "pages": "p.2, preamble",
     "lang": "en"
    }
   }
