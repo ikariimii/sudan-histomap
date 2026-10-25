@@ -43,15 +43,15 @@
  "inline_grand_total": 39,
  "inline_method": "Exact bracketed tags [NAME] or [NAME: note] for the 9 badge names in data/eras/*.json text fields (excluding all.json, badge keys and Arabic _ar/ar fields); a tag is not counted when the enclosing object already has the same structured badge. Not included in totals/grand_total.",
  "source_types_totals": {
-  "un_aid_agency": 35,
+  "un_aid_agency": 36,
   "intl_financial": 24,
-  "government": 50,
+  "government": 51,
   "scholarly": 239,
   "wikipedia_only": 75,
   "news": 5,
-  "other": 111
+  "other": 112
  },
- "source_types_grand_total": 539,
+ "source_types_grand_total": 542,
  "source_types_distinct_ids": {
   "un_aid_agency": 32,
   "intl_financial": 12,
@@ -59,7 +59,7 @@
   "scholarly": 70,
   "wikipedia_only": 74,
   "news": 4,
-  "other": 36
+  "other": 37
  },
  "source_types_method": "Per era: distinct registry IDs in data/eras/<id>.json sources, each classified once from data/periods.json meta.sources fields (publisher/author, then url domain, ISBN, note as fallback). Totals sum era counts (an ID cited by several eras counts once per era); source_types_distinct_ids counts each ID once overall. Rules in db/build_badge_counts.py header; unclear IDs -> other.",
  "eras_with_zero_badges": [],
@@ -690,9 +690,9 @@
     "scholarly": 2,
     "wikipedia_only": 2,
     "news": 0,
-    "other": 4
+    "other": 5
    },
-   "source_types_total": 13,
+   "source_types_total": 14,
    "counts": {
     "SINGLE-SOURCE": 2,
     "CONTESTED": 5,
@@ -1082,13 +1082,13 @@
    "source_types": {
     "un_aid_agency": 0,
     "intl_financial": 1,
-    "government": 0,
+    "government": 1,
     "scholarly": 2,
     "wikipedia_only": 1,
     "news": 0,
     "other": 1
    },
-   "source_types_total": 5,
+   "source_types_total": 6,
    "counts": {
     "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
@@ -2727,7 +2727,7 @@
   },
   "transitional-third-parliamentary-period": {
    "source_types": {
-    "un_aid_agency": 0,
+    "un_aid_agency": 1,
     "intl_financial": 1,
     "government": 6,
     "scholarly": 2,
@@ -2735,7 +2735,7 @@
     "news": 1,
     "other": 1
    },
-   "source_types_total": 12,
+   "source_types_total": 13,
    "counts": {
     "SINGLE-SOURCE": 6,
     "CONTESTED": 0,
