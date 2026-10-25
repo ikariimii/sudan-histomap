@@ -292,13 +292,14 @@ function lgSw(r){const w=(p,ex='')=>`<svg width="26" height="18" viewBox="-13 -9
  return w(sh||'<text x="0" y="4" text-anchor="middle" font-size="11" fill="#9fb3c2">?</text>')}
 const LGL={ctl:()=>T.l.ctl,cty:()=>T.l.cty,grp:()=>T.l.grp,rel:()=>T.l.rel,hml:()=>T.l.hml};
 let lgOpen=false;
-async function legendDraw(e){const b=$('lgb'),p=$('lgp');if(!b||!p)return;const d=await lgj(e.id),sp=await LGS;if(e!==ES[i])return;
+async function legendDraw(e){const b=$('lgb'),p=$('lgp');if(!b||!p)return;p.setAttribute('role','region');p.setAttribute('aria-label',T.legendl||T.lg);const d=await lgj(e.id),sp=await LGS;if(e!==ES[i])return;
  const rows=d?d.rows.filter(r=>on.has(r.l)):[];b.textContent=`${T.lg}${rows.length?' · '+num(rows.length):''}`;b.setAttribute('aria-expanded',lgOpen);
  let h='';const ls=[...new Set(rows.map(r=>r.l))];
  if(!rows.length)h=`<p><span class="gap">${T.wip}</span> <span class="gapt">${esc(T.lgnone)}</span></p>`;
  for(const l of ls){h+=`<h4>${esc(LGL[l]?LGL[l]():l)}</h4><ul>`+rows.filter(r=>r.l===l).map(r=>`<li role="listitem" aria-label="${esc((AR?(r.ar||r.en):r.en)+' '+r.n)}">${lgSw(r)}<span>${esc(AR?(r.ar||r.en):r.en)}${AR&&r.arw?' <sup title="'+esc(T.lgarw)+'">*</sup>':''}</span><span class="n"><bdi>${num(r.n)}</bdi></span></li>`).join('')+'</ul>';
   const bd=(d.badges||{})[l]||[];if(bd.length)h+=`<p>${bd.map(x=>`<span class="repb">${esc(AR?(x.ar||(BL[x.id]&&BL[x.id][1])||x.en):(x.en!==x.id?x.en:(BL[x.id]?BL[x.id][0]:x.en)))} <bdi>${num(x.n)}</bdi></span>`).join(' ')}</p>`;
   const sr=(d.src||{})[l]||[];if(sr.length)h+=`<details class="srcs"><summary>${esc(T.lgsrc)} (${num(sr.length)})</summary><ul>${sr.map(x=>`<li dir="ltr"><bdi>${esc(x.c)}</bdi>${x.u?` <a href="${esc(x.u)}" rel="noopener">${esc(T.lnk)}</a>`:''}</li>`).join('')}</ul></details>`}
+ if(on.has('bat')&&M.layers.bat)h+=`<h4>${esc(AR?'المعارك *':'Battles')}</h4><ul><li role="listitem"><svg width="26" height="26" viewBox="-13 -13 26 26" aria-hidden="true" class="bts"><g class="bt cur"><circle class="bth" r="12"/><circle class="btc" r="8"/><path d="M-4,-4L4,4M4,-4L-4,4"/></g></svg><span>${esc(BT.cur)}</span></li><li role="listitem"><svg width="26" height="26" viewBox="-13 -13 26 26" aria-hidden="true" class="bts"><g class="bt past"><circle class="btc" r="8"/><path d="M-4,-4L4,4M4,-4L-4,4"/></g></svg><span>${esc(BT.past)}</span></li></ul>`;
  if(sp&&sp.credit)h+=`<details class="cr"><summary>${esc(T.lgcred)} ⓘ</summary><p dir="ltr">${esc(sp.credit)}</p><p>${esc(AR?(sp.dis_ar||sp.dis_en):sp.dis_en)}</p></details>`;
  h+=`<p class="lgm"><a href="${AR?'/ar':''}/methodology/">${esc(T.meth||'')}</a></p>`;
  p.innerHTML=h;p.hidden=!lgOpen;lgFit()}
@@ -440,14 +441,20 @@ window.__hm={scale:k=>svg.call(zoom.scaleTo,k)};// test hook (QA only, no side e
 const eth1932=()=>{const e=ES[i];if(on.has('eth')&&(M.layers.eth||[]).includes(e.id)&&e.a<=1932&&1932<=e.b)Y=1932};eth1932();
 // --- Battles layer (?layers=battles) + era Events timeline. Built only when web/features.json turns them on and the
 // data passed the build cite checks (or a local HM_DEV_STUB build: EXAMPLE DATA badge). Every item carries a cite.
-var BTD=null,gBt=null,gEp=null,ST=null,EVD=null;const BT=AR?{d:'التاريخ *',sd:'الأطراف *',oc:'النتيجة *',src:'المصدر *',img:'الصورة *',ev:'أحداث العصر *',war:'الحرب *',stub:'بيانات مثال (تجريبية)، ليست بحثًا *',fly:'اعرض على الخريطة *',pg:'ص'}:{d:'Date',sd:'Sides',oc:'Outcome',src:'Source',img:'Image',ev:'Events in this era',war:'War',stub:'EXAMPLE DATA (stub), not research',fly:'Show on map',pg:'p.'};
+var BTD=null,gBt=null,gEp=null,ST=null,EVD=null;const BT=AR?{d:'التاريخ *',sd:'الأطراف *',oc:'النتيجة *',src:'المصدر *',img:'الصورة *',ev:'أحداث العصر *',war:'الحرب *',stub:'بيانات مثال (تجريبية)، ليست بحثًا *',fly:'اعرض على الخريطة *',pg:'ص',cur:'معركة هذا العام *',past:'معركة سابقة في هذا العصر *'}:{d:'Date',sd:'Sides',oc:'Outcome',src:'Source',img:'Image',ev:'Events in this era',war:'War',stub:'EXAMPLE DATA (stub), not research',fly:'Show on map',pg:'p.',cur:'Battle this year',past:'Earlier battle in this era'};
 const bpick=a=>a?(AR?(a[1]||a[0]):(a[0]||a[1]))||'':'';
 const bcite=s=>s.map(c=>`<bdi dir="ltr">${esc(c.c)}${c.p?', '+esc(/^\s*(pp?\.|ص)/.test(c.p)?c.p:(/^\d/.test(c.p)?'p. '+c.p:c.p)):''}</bdi>${c.u?` <a href="${esc(c.u)}" rel="noopener">${esc(T.lnk||'link')}</a>`:''}`).join('<br>');
 async function batDraw(e){if(!M.layers.bat)return;gBt=gBt||root.append('g').attr('class','bts');if(!on.has('bat')){gBt.selectAll('*').remove();return}
- if(!BTD)BTD=await getj('/b.json').catch(()=>({battles:[]}));if(e!==ES[i])return;const y=Y??e.b,y2=Math.min(e.b,((ST||[]).find(t=>t>y)??e.b+1)-1),B=BTD.battles.filter(b=>b.a<=y2&&y<=b.b);// a scrubber step stands for [step, next step)
+ if(!BTD)BTD=await getj('/b.json').catch(()=>({battles:[]}));if(e!==ES[i])return;const y=Y??e.b,y2=Math.min(e.b,((ST||[]).find(t=>t>y)??e.b+1)-1);// a scrubber step stands for [step, next step)
+ // window = the wider of the battle's war range (db/wars.json) and the active era; earlier battles in it show muted, the current (or nearest earlier) one highlighted, later ones hidden
+ const win=b=>b.w&&b.w.a!=null?[Math.min(e.a,b.w.a),Math.max(e.b,b.w.b??b.w.a)]:[e.a,e.b];
+ const rel=b=>(b.a<=e.b&&b.b>=e.a)||(b.w&&b.w.a!=null&&b.w.a<=e.b&&(b.w.b??b.w.a)>=e.a);// battle in this era, or its war overlaps it
+ const B=BTD.battles.filter(b=>{if(!rel(b))return false;const w=win(b);return w[0]<=y2&&y<=w[1]&&b.a<=y2});
+ const ma=B.length?Math.max(...B.map(b=>b.a)):null,C=new Set(B.filter(b=>b.a===ma).map(b=>b.id));// highlight: the latest battle at or before the step (ties share it)
  const k=gBt.selectAll('g.bt').data(B,b=>b.id);k.exit().remove();
- const n=k.enter().append('g').attr('class',b=>'bt mk pr-'+b.pr).each(function(b){this.__xy=proj(b.ll)}).on('click',(ev,b)=>{ev.stopPropagation();batCard(b)});
- n.append('circle').attr('r',8);n.append('path').attr('d','M-4,-4L4,4M4,-4L-4,4');n.append('title').text(b=>bpick([b.en,b.ar]));scaleMarks();a11yMarks()}
+ const n=k.enter().append('g').each(function(b){this.__xy=proj(b.ll)}).on('click',(ev,b)=>{ev.stopPropagation();batCard(b)});
+ n.append('circle').attr('class','bth').attr('r',12);n.append('circle').attr('class','btc').attr('r',8);n.append('path').attr('d','M-4,-4L4,4M4,-4L-4,4');n.append('title');
+ n.merge(k).attr('class',b=>'bt mk pr-'+b.pr+(C.has(b.id)?' cur':' past')).select('title').text(b=>bpick([b.en,b.ar])+' · '+(C.has(b.id)?BT.cur:BT.past));scaleMarks();a11yMarks()}
 // war line + end_badge (battle_style.json end_badge, Map Designer 93199e3): 'from – to?' with the end year dimmed, pill badge; end_note on hover (title) and tap (toggle)
 function batWar(w){if(!w)return'';const e=BTD.ebs||{},raw=w.eb&&w.eb.toUpperCase()!=='VERIFY'?w.eb+' · ':'',lb=raw+(AR?e.ar:e.en),nt=w.nt?(AR?(w.nt[1]||(w.nt[0]?w.nt[0]+' [VERIFY]':'')):(w.nt[0]||'')):'';
  return `<p><b>${BT.war}:</b> <span dir="auto">${esc(bpick([w.en,w.ar]))}</span> <bdi dir="ltr">${esc(fy(w.a))} – <span class="${w.eb?'wye':''}">${esc(fy(w.b))}${w.eb?'?':''}</span></bdi>`+(w.eb?` <button type="button" class="ebd" aria-expanded="false" aria-controls="ebn"${nt?` title="${esc(nt)}"`:''}>${esc(lb)}</button>`:'')+'</p>'+(w.eb&&nt?`<p id="ebn" class="ebn" dir="auto" hidden>${esc(nt)}</p>`:'')+`<p class="extnote"><b>${BT.war} · ${BT.src}:</b> ${bcite(w.s)}</p>`}

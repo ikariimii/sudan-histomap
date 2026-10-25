@@ -136,8 +136,11 @@ body.embed #about,body.embed #lang,body.embed #srchb{display:none}#embo{font-siz
 #cmpbar input{min-height:44px;margin:0}#cmpbar input::-webkit-slider-thumb{width:26px;height:26px}#cmpbar input::-moz-range-thumb{width:26px;height:26px}#cmpbar>span{font-weight:600}
 .cmpdv line{stroke:#fff;stroke-width:2;filter:drop-shadow(0 0 2px #000)}.cmph{cursor:ew-resize;touch-action:none}.cmph .hit{fill:transparent}.cmph .knob{fill:#0f1b24;stroke:#fff;stroke-width:2}.cmph path{fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}body.sfull .cmpdv{display:none}
 /* Battles layer + era Events timeline (feature-flagged; see web/features.json) */
-.bts g.bt{cursor:pointer}.bts g.bt circle{fill:#6b1f1f;stroke:#f3c0a8;stroke-width:1.5}.bts g.bt path{stroke:#fff;stroke-width:2;fill:none;stroke-linecap:round}
-.bts g.pr-region circle{stroke-dasharray:3 2}.bts g.pr-reported circle{fill:#3a2a2a}.bts g.bt:focus-visible circle{stroke:#ffd166;stroke-width:3}
+.bts g.bt{cursor:pointer}.bts g.bt circle.btc{fill:#6b1f1f;stroke:#f3c0a8;stroke-width:1.5}.bts g.bt path{stroke:#fff;stroke-width:2;fill:none;stroke-linecap:round}
+.bts g.pr-region circle.btc{stroke-dasharray:3 2}.bts g.pr-reported circle.btc{fill:#3a2a2a}.bts g.bt:focus-visible circle.btc{stroke:#ffd166;stroke-width:3}
+/* battle timing: current = gold halo ring + full marker; earlier in era = muted slate, dashed outline, thinner X (shape+line, not colour alone) */
+.bts g.bt circle.bth{fill:none;stroke:#ffd166;stroke-width:2.5}.bts g.bt.past circle.bth{display:none}.bts g.bt.past circle.btc{fill:#2b3238;stroke:#c9d3db;stroke-dasharray:3 2}.bts g.bt.past path{stroke:#c9d3db;stroke-width:1.5}
+#lgp svg.bts{vertical-align:middle;overflow:visible}
 .evpin circle{fill:none;stroke:#ffd166;stroke-width:3}
 .evt ol{list-style:none;padding:0;margin:4px 0}.evt li{margin:6px 0;padding-inline-start:8px;border-inline-start:2px solid var(--c,#7a8a96);overflow-wrap:anywhere}
 .evt .evgo{display:block;width:100%;box-sizing:border-box;min-height:44px;padding:6px 0;background:none;border:0;color:inherit;font:inherit;text-align:start;cursor:pointer}
