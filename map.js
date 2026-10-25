@@ -361,6 +361,17 @@ function shareBtn(e){const h=$('card').querySelector('h2,h1');if(!h)return;const
 // Map sources panel (lazy): /ms/<id>.json, inserted after the card; open state kept per session
 const MSC={};function msPanel(e){const old=document.getElementById('msrc');if(old)old.remove();if(!((M.layers||{}).ms||[]).includes(e.id))return;
  (MSC[e.id]||(MSC[e.id]=getj('/ms/'+e.id+'.json').catch(()=>null))).then(j=>{if(!j||e!==ES[i])return;const w=document.createElement('div');w.id='msrc';w.innerHTML=j[L];$('card').after(w)})}
+// era search: header button opens a small dialog-less panel; matches EN+AR names (Arabic folded: harakat, alef/ya/ta-marbuta forms)
+const fold=s=>(s||'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f\u064B-\u0652\u0670\u0640]/g,'').replace(/[أإآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').replace(/ؤ/g,'و').replace(/ئ/g,'ي').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+(()=>{const S=T.srch;if(!S)return;const b=document.createElement('button');b.type='button';b.id='srchb';b.className='chip';b.textContent=S.b;b.setAttribute('aria-expanded','false');b.setAttribute('aria-controls','srch');$('about').before(b);
+ const p=document.createElement('div');p.id='srch';p.hidden=true;p.setAttribute('role','search');p.innerHTML=`<label for="srchi" class="sr">${esc(S.l)}</label><input id="srchi" type="search" autocomplete="off" placeholder="${esc(S.ph)}" aria-describedby="srchn"><button type="button" class="chip" id="srchx" aria-label="${esc(S.x)}">×</button><p id="srchn" class="sr" aria-live="polite"></p><ul id="srchr"></ul>`;document.body.appendChild(p);
+ const I=$('srchi'),R=$('srchr'),F=ES.map(e=>fold(e.en+' '+e.ar+' '+e.id.replace(/-/g,' ')));
+ const close=f=>{p.hidden=true;b.setAttribute('aria-expanded','false');if(f!==false)b.focus()};
+ const pick=k=>{close(false);tourStop();go(k);setTimeout(()=>$('sheet').focus(),50)};
+ const run=()=>{const q=fold(I.value);R.innerHTML='';if(!q){$('srchn').textContent='';return}const w=q.split(' ');const hit=[];F.forEach((t,k)=>{if(w.every(x=>t.includes(x)))hit.push(k)});
+  $('srchn').textContent=hit.length===1?S.n1:hit.length?`${num(hit.length)} ${S.n}`:S.z;hit.slice(0,12).forEach(k=>{const e=ES[k],li=document.createElement('li'),a=document.createElement('button');a.type='button';a.innerHTML=`${esc(AR?e.ar:e.en)} <small><bdi>${fy(e.a)}</bdi> – <bdi>${fy(e.b)}</bdi></small>`;a.onclick=()=>pick(k);li.appendChild(a);R.appendChild(li)})};
+ b.onclick=()=>{if(p.hidden){p.hidden=false;b.setAttribute('aria-expanded','true');I.focus();run()}else close()};$('srchx').onclick=()=>close();I.addEventListener('input',run);
+ p.addEventListener('keydown',ev=>{if(ev.key==='Escape'){ev.stopPropagation();close()}else if(ev.key==='Enter'&&ev.target===I){const f=R.querySelector('button');if(f)f.click()}else if(ev.key==='ArrowDown'||ev.key==='ArrowUp'){const L=[I,...R.querySelectorAll('button')];const k=L.indexOf(document.activeElement);if(k<0)return;ev.preventDefault();L[Math.max(0,Math.min(L.length-1,k+(ev.key==='ArrowDown'?1:-1)))].focus()}});})();
 // --- start
 window.__hm={scale:k=>svg.call(zoom.scaleTo,k)};// test hook (QA only, no side effects)
 const eth1932=()=>{const e=ES[i];if(on.has('eth')&&(M.layers.eth||[]).includes(e.id)&&e.a<=1932&&1932<=e.b)Y=1932};eth1932();
