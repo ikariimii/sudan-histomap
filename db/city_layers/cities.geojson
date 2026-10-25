@@ -2,7 +2,7 @@
  "type": "FeatureCollection",
  "meta": {
   "source": "db/cities.json @6215ea7",
-  "rule": "IM ruling 2026-10-24: visible_from = founded, else first_attested (badge FIRST-ATTESTED); neither = list_only, not drawn"
+  "rule": "IM ruling 2026-10-24: visible_from = founded, else first_attested (badge FIRST-ATTESTED); neither = list_only, not drawn; abandoned {year:null} = ruin: visible_to = last cited role end, badge RUIN-UNDATED, inhabited_today false"
  },
  "features": [
   {
@@ -22,7 +22,7 @@
     "category": "ancient",
     "visible_from": -1730,
     "visible_from_basis": "first_cited_role",
-    "visible_to": null,
+    "visible_to": -1580,
     "roles": [
      {
       "era_id": "kingdom-of-kerma",
@@ -36,7 +36,8 @@
     ],
     "badges": [
      "FIRST-ATTESTED",
-     "AR-REVIEW"
+     "AR-REVIEW",
+     "RUIN-UNDATED"
     ],
     "history_en": "Capital of the Kerma kingdom of Upper Nubia.",
     "history_ar": "عاصمة مملكة كرمة في النوبة العليا.",
@@ -49,7 +50,9 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q1107569"
      }
-    ]
+    ],
+    "visible_to_basis": "last_cited_role",
+    "inhabited_today": false
    }
   },
   {
@@ -69,7 +72,7 @@
     "category": "ancient",
     "visible_from": -800,
     "visible_from_basis": "first_cited_role",
-    "visible_to": null,
+    "visible_to": -300,
     "roles": [
      {
       "era_id": "kingdom-of-kush-napatan-period",
@@ -92,7 +95,8 @@
     ],
     "badges": [
      "FIRST-ATTESTED",
-     "AR-REVIEW"
+     "AR-REVIEW",
+     "RUIN-UNDATED"
     ],
     "history_en": "First capital of Kush; later its religious centre.",
     "history_ar": "أول عاصمة لمملكة كوش ثم مركزها الديني.",
@@ -109,7 +113,9 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q743282"
      }
-    ]
+    ],
+    "visible_to_basis": "last_cited_role",
+    "inhabited_today": false
    }
   },
   {
@@ -143,7 +149,8 @@
     ],
     "badges": [
      "FIRST-ATTESTED",
-     "AR-REVIEW"
+     "AR-REVIEW",
+     "RUIN-UNDATED"
     ],
     "history_en": "Sacred mountain of Amun at Napata; Egyptian and Kushite temples.",
     "history_ar": "جبل آمون المقدس في نبتة.",
@@ -156,7 +163,9 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q499019"
      }
-    ]
+    ],
+    "visible_to_basis": "ruin_undated",
+    "inhabited_today": false
    }
   },
   {
@@ -190,7 +199,8 @@
     ],
     "badges": [
      "APPROXIMATE",
-     "AR-REVIEW"
+     "AR-REVIEW",
+     "RUIN-UNDATED"
     ],
     "history_en": "Royal pyramid field begun by Taharqa.",
     "history_ar": "حقل أهرامات ملكية بدأه طهارقا.",
@@ -203,7 +213,9 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q2119839"
      }
-    ]
+    ],
+    "visible_to_basis": "ruin_undated",
+    "inhabited_today": false
    }
   },
   {
@@ -237,7 +249,8 @@
     ],
     "badges": [
      "FIRST-ATTESTED",
-     "AR-REVIEW"
+     "AR-REVIEW",
+     "RUIN-UNDATED"
     ],
     "history_en": "Capital of Kush from about -300.",
     "history_ar": "عاصمة كوش منذ نحو 300 ق.م.",
@@ -250,7 +263,9 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q5780"
      }
-    ]
+    ],
+    "visible_to_basis": "ruin_undated",
+    "inhabited_today": false
    }
   },
   {
@@ -270,7 +285,7 @@
     "category": "ancient",
     "visible_from": -1991,
     "visible_from_basis": "first_cited_role",
-    "visible_to": null,
+    "visible_to": -1786,
     "roles": [
      {
       "era_id": "middle-kingdom-egypt",
@@ -284,7 +299,8 @@
     ],
     "badges": [
      "FIRST-ATTESTED",
-     "AR-REVIEW"
+     "AR-REVIEW",
+     "RUIN-UNDATED"
     ],
     "history_en": "Middle Kingdom border fortress at the Second Cataract.",
     "history_ar": "حصن حدودي للدولة الوسطى عند الشلال الثاني.",
@@ -297,7 +313,9 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q1485667"
      }
-    ]
+    ],
+    "visible_to_basis": "last_cited_role",
+    "inhabited_today": false
    }
   },
   {
@@ -331,7 +349,8 @@
     ],
     "badges": [
      "FIRST-ATTESTED",
-     "AR-REVIEW"
+     "AR-REVIEW",
+     "RUIN-UNDATED"
     ],
     "history_en": "Fortified hilltop town of Lower Nubia (Primis).",
     "history_ar": "مدينة حصينة على تل في النوبة السفلى.",
@@ -344,7 +363,9 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q2121453"
      }
-    ]
+    ],
+    "visible_to_basis": "ruin_undated",
+    "inhabited_today": false
    }
   },
   {
@@ -368,7 +389,8 @@
     "roles": [],
     "badges": [
      "APPROXIMATE",
-     "AR-REVIEW"
+     "AR-REVIEW",
+     "RUIN-UNDATED"
     ],
     "history_en": "Rock temples of Ramesses II.",
     "history_ar": "معابد رمسيس الثاني الصخرية.",
@@ -377,7 +399,9 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q134140"
      }
-    ]
+    ],
+    "visible_to_basis": "ruin_undated",
+    "inhabited_today": false
    }
   },
   {
@@ -411,7 +435,8 @@
     ],
     "badges": [
      "CONTESTED",
-     "AR-REVIEW"
+     "AR-REVIEW",
+     "RUIN-UNDATED"
     ],
     "history_en": "Red Sea port, later the harbour of Aksum.",
     "history_ar": "ميناء على البحر الأحمر صار ميناء أكسوم.",
@@ -424,7 +449,9 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q378940"
      }
-    ]
+    ],
+    "visible_to_basis": "ruin_undated",
+    "inhabited_today": false
    }
   },
   {
@@ -458,7 +485,8 @@
     ],
     "badges": [
      "APPROXIMATE",
-     "AR-REVIEW"
+     "AR-REVIEW",
+     "RUIN-UNDATED"
     ],
     "history_en": "Medieval Red Sea port for trade and pilgrims.",
     "history_ar": "ميناء على البحر الأحمر في العصور الوسطى للتجارة والحجيج.",
@@ -475,7 +503,9 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q404028"
      }
-    ]
+    ],
+    "visible_to_basis": "ruin_undated",
+    "inhabited_today": false
    }
   },
   {
@@ -526,7 +556,8 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q571215"
      }
-    ]
+    ],
+    "inhabited_today": true
    }
   },
   {
@@ -572,7 +603,8 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q218861"
      }
-    ]
+    ],
+    "inhabited_today": true
    }
   },
   {
@@ -619,7 +651,8 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q275635"
      }
-    ]
+    ],
+    "inhabited_today": true
    }
   },
   {
@@ -679,7 +712,8 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q1963"
      }
-    ]
+    ],
+    "inhabited_today": true
    }
   },
   {
@@ -725,7 +759,8 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q208718"
      }
-    ]
+    ],
+    "inhabited_today": true
    }
   },
   {
@@ -772,7 +807,8 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q686813"
      }
-    ]
+    ],
+    "inhabited_today": true
    }
   },
   {
@@ -805,7 +841,8 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q1947"
      }
-    ]
+    ],
+    "inhabited_today": true
    }
   },
   {
@@ -852,7 +889,8 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q3642"
      }
-    ]
+    ],
+    "inhabited_today": true
    }
   },
   {
@@ -885,7 +923,8 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q3659"
      }
-    ]
+    ],
+    "inhabited_today": true
    }
   },
   {
@@ -918,7 +957,8 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q3832"
      }
-    ]
+    ],
+    "inhabited_today": true
    }
   },
   {
@@ -965,7 +1005,8 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q753906"
      }
-    ]
+    ],
+    "inhabited_today": true
    }
   },
   {
@@ -999,7 +1040,8 @@
     ],
     "badges": [
      "FIRST-ATTESTED",
-     "AR-REVIEW"
+     "AR-REVIEW",
+     "RUIN-UNDATED"
     ],
     "history_en": "Upper Nile trading station and base for Baker.",
     "history_ar": "محطة تجارية على النيل الأعلى وقاعدة لبيكر.",
@@ -1012,7 +1054,9 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q1391631"
      }
-    ]
+    ],
+    "visible_to_basis": "ruin_undated",
+    "inhabited_today": false
    }
   },
   {
@@ -1046,7 +1090,8 @@
     ],
     "badges": [
      "FIRST-ATTESTED",
-     "AR-REVIEW"
+     "AR-REVIEW",
+     "RUIN-UNDATED"
     ],
     "history_en": "Equatoria station after 1876.",
     "history_ar": "محطة في الاستوائية بعد 1876.",
@@ -1059,7 +1104,9 @@
       "id": "WIKIDATA_CITIES",
       "page": "Q3215967"
      }
-    ]
+    ],
+    "visible_to_basis": "ruin_undated",
+    "inhabited_today": false
    }
   }
  ],
