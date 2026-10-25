@@ -77,6 +77,8 @@ const isCA=f=>f.geometry.type!=='Point'&&((f.properties.badges||[]).includes('CO
 // 'How sure are we?' (legend_spec confidence_key; zone properties.cs): edge + overlay on top of the zone-type colours, no new colours.
 // one table for map paths AND key swatches. solid before 1899 = soft dashed edge (IM: no hard outline before the Condominium); 1899+ = crisp line
 const CKS=(s,a)=>s==='contested'?{e:{stroke:'#e0a63e','stroke-width':2},o:'url(#hatch-cont)'}:s==='hatched'?{e:{'stroke-dasharray':'4 3'},o:'url(#lowconf)'}:a<1899?{e:{'stroke-dasharray':'1.5 3','stroke-opacity':.6}}:{e:{'stroke-width':1.6}};
+// caption from legend_spec confidence_key caption_en/ar; AR missing or not Arabic script -> EN + VERIFY chip; no caption_en -> built-in EN line
+const ckCap=k=>{const c=(k&&k.c)||[],en=c[0]||'All historical borders are approximate',ar=c[1];return AR?(ar&&/[\u0600-\u06FF]/.test(ar)?esc(ar):`<span lang="en" dir="ltr">${esc(en)}</span>`+vchipH()):esc(en)};
 const ckLab=(r,a)=>r.s==='solid'&&a<1899&&!/approximate edge/i.test(r.en||'')?(AR?null:'Core area (approximate edge)'):bpick([r.en,r.ar]);
 const HATCH='<pattern id="hatch-cont" patternUnits="userSpaceOnUse" width="7" height="7" patternTransform="rotate(45)"><rect width="7" height="7" fill="#e0a63e" fill-opacity=".14"/><line x1="0" y1="0" x2="0" y2="7" stroke="#1a1208" stroke-width="3.2"/><line x1="0" y1="0" x2="0" y2="7" stroke="#f2b84b" stroke-width="1.6"/></pattern>';
 async function render(anim=true){
@@ -112,7 +114,7 @@ async function render(anim=true){
  scaleMarks();
  // labels (priority thinning + leader lines, as on the era map)
  const LB=[];areas.forEach(f=>{const q=f.properties.label_point;const xy=q?proj(q):path.centroid(f);if(lab(f.properties))LB.push({xy,t:short(lab(f.properties)),pri:3,big:1})});
- pts.forEach(f=>LB.push({xy:proj(f.geometry.coordinates),t:short(lab(f.properties)),pri:rep(f.properties)?2.5:2,rep:rep(f.properties),dx:9}));caps.forEach(c=>LB.push({xy:proj([c[1],c[2]]),t:c[0],pri:2,dx:8}));
+ pts.forEach(f=>LB.push({xy:proj(f.geometry.coordinates),t:short(lab(f.properties)),pri:rep(f.properties)?2.5:2,rep:rep(f.properties),dx:9}));caps.forEach(c=>LB.push({xy:proj([c[1],c[2]]),t:AR&&c[3]||c[0],pri:2,dx:8}));
  LBS=LB;
  await layersDraw(e);batDraw(e);if(gEp)gEp.selectAll('*').remove();if(on.has('hml'))hmlDraw();prefetch(i);zonesDraw(e,D,ctl?g.features.filter(f=>f.properties.zone&&f.geometry.type!=='Point'):[]);
  // card
@@ -312,7 +314,7 @@ async function legendDraw(e){const b=$('lgb'),p=$('lgp');if(!b||!p)return;p.setA
  if(!rows.length)h=`<p><span class="gap">${T.wip}</span> <span class="gapt">${esc(T.lgnone)}</span></p>`;
  {zdefs();const g0=await ext(e);if(e!==ES[i])return;const cs=new Set(g0.features.filter(f=>f.properties.zone&&f.properties.cs&&f.geometry.type!=='Point').map(f=>f.properties.cs));if(g0.features.some(f=>isCA(f)||(f.geometry.type==='Point'&&(f.properties.badge==='CONTESTED'||(f.properties.badges||[]).includes('CONTESTED')))))cs.add('contested');
  if(on.has('ctl')&&cs.size&&sp&&sp.ck){const sw=s=>{const c=CKS(s,e.a),at=Object.entries(c.e).map(([k,v])=>`${k}="${v}"`).join(' ');return `<svg width="26" height="18" viewBox="-13 -9 26 18" aria-hidden="true"><rect x="-10" y="-6" width="20" height="12" fill="#7a6bd0" fill-opacity="${s==='contested'?0:.35}" stroke="#7a6bd0" stroke-width="1.2" ${at}/>${c.o?`<rect x="-10" y="-6" width="20" height="12" fill="${c.o}" stroke="none"/>`:''}${s==='contested'?'<path d="M7,-3L10,0L7,3L4,0Z" fill="#0b141b" stroke="#e0a63e" stroke-width="1.2"/>':''}</svg>`};
-  h+=`<h4>${esc(bpick(sp.ck.t))}</h4><ul class="ckey">`+sp.ck.rows.filter(r=>cs.has(r.s)).map(r=>{const t=ckLab(r,e.a);return `<li role="listitem">${sw(r.s)}<span>${t?esc(t):`<span lang="en" dir="ltr">Core area (approximate edge)</span>${vchipH()}`}</span></li>`}).join('')+`</ul><p class="cknote">${AR?'<span lang="en" dir="ltr">All historical borders are approximate</span>'+vchipH():'All historical borders are approximate'}</p>`}}
+  h+=`<h4>${esc(bpick(sp.ck.t))}</h4><ul class="ckey">`+sp.ck.rows.filter(r=>cs.has(r.s)).map(r=>{const t=ckLab(r,e.a);return `<li role="listitem">${sw(r.s)}<span>${t?esc(t):`<span lang="en" dir="ltr">Core area (approximate edge)</span>${vchipH()}`}</span></li>`}).join('')+`</ul><p class="cknote">${ckCap(sp.ck)}</p>`}}
  for(const l of ls){h+=`<h4>${esc(LGL[l]?LGL[l]():l)}</h4><ul>`+rows.filter(r=>r.l===l).map(r=>`<li role="listitem" aria-label="${esc(lgN(r)+' '+r.n)}">${lgSw(r)}<span>${esc(lgN(r))}${AR&&r.arw?' <sup title="'+esc(T.lgarw)+'">*</sup>':''}</span><span class="n"><bdi>${num(r.n)}</bdi></span></li>`).join('')+'</ul>';
   const bd=(d.badges||{})[l]||[];if(bd.length)h+=`<p>${bd.map(x=>`<span class="repb">${esc(AR?(x.ar||(BL[x.id]&&BL[x.id][1])||LGB[x.id]||x.en):(x.en!==x.id?x.en:(BL[x.id]?BL[x.id][0]:x.en)))} <bdi>${num(x.n)}</bdi></span>`).join(' ')}</p>`;
   const sr=(d.src||{})[l]||[];if(sr.length)h+=`<details class="srcs"><summary>${esc(T.lgsrc)} (${num(sr.length)})</summary><ul>${sr.map(x=>`<li dir="ltr"><bdi>${esc(x.c)}</bdi>${x.u?` <a href="${esc(x.u)}" rel="noopener">${esc(T.lnk)}</a>`:''}</li>`).join('')}</ul></details>`}
