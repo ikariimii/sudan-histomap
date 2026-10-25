@@ -14,3 +14,8 @@ What would unblock a polygon:
 - Nuer and Anuak: a page-level read of the EP1940 sketch maps (cite only, no tracing), or a PD/CC map with tribal limits.
 - Dinka: Seligman 1932 *Pagan Tribes of the Nilotic Sudan* map, if a scan is placed on the box and read.
 - Early Khartoum: Arkell 1949, registered and read.
+
+## Update 2026-10-25: Seligman 1932 drafts
+Draft (not promoted) homeland shapes now exist for Nuer, Dinka and Anuak, plus Shilluk, from the Seligman 1932 folding Tribal Map of Southern Sudan.
+They are label-span buffers at confidence 0.3 (APPROXIMATE, SINGLE-SOURCE, EDITORIAL); the plate draws no boundary lines. See
+db/border_drafts/SELIGMAN1932_GEOREF.md. The rows above still describe the live state. Khartoum Mesolithic stays point-only (no Arkell map found).

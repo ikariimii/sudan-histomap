@@ -1,0 +1,125 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       29.72642560519906,
+       9.01517754694711
+      ],
+      [
+       32.1686224125072,
+       8.970128175043458
+      ],
+      [
+       33.38843946011704,
+       9.006063538287933
+      ],
+      [
+       33.498050836798214,
+       8.964990064487592
+      ],
+      [
+       33.583600406311255,
+       8.885096664859708
+      ],
+      [
+       33.6320640222066,
+       8.778546385262151
+      ],
+      [
+       33.636063538287935,
+       8.661560539882963
+      ],
+      [
+       33.5949900644876,
+       8.551949163201794
+      ],
+      [
+       33.559256313252625,
+       8.505239971921108
+      ],
+      [
+       33.51509666485971,
+       8.466399593688747
+      ],
+      [
+       33.408546385262156,
+       8.417935977793409
+      ],
+      [
+       32.16250234265194,
+       8.370093706077563
+      ],
+      [
+       29.774958695141432,
+       8.420042360915208
+      ],
+      [
+       29.716536730000442,
+       8.42678947262937
+      ],
+      [
+       29.6091607727614,
+       8.47339513703798
+      ],
+      [
+       29.527793539207984,
+       8.557544156353906
+      ],
+      [
+       29.484822453052892,
+       8.66642560519906
+      ],
+      [
+       29.486789472629372,
+       8.78346326999956
+      ],
+      [
+       29.533395137037978,
+       8.890839227238601
+      ],
+      [
+       29.617544156353905,
+       8.972206460792018
+      ],
+      [
+       29.72642560519906,
+       9.01517754694711
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "era_id": "nuer-naath-communities",
+    "zone": "homeland",
+    "confidence": 0.3,
+    "badges": [
+     "APPROXIMATE",
+     "SINGLE-SOURCE",
+     "EDITORIAL"
+    ],
+    "method": "Seligman 1932 plate georeferenced from 30 printed graticule intersections (28–36°E × 4–14°N), gdal order-2 polynomial, GCP RMS 1.33 km (LOO 1.71 km). The plate draws NO tribal boundary lines, only spread-letter labels. Shape = 0.3° buffer around the line through the centres of the spread letters of the 'NUER' label. The edge is therefore inferred (EDITORIAL), not traced.",
+    "label_positions": "NUER: N 29.78E 8.72N, U 30.97E 8.70N, E 32.17E 8.67N, R 33.34E 8.71N",
+    "basis": "Seligman & Seligman 1932, folding Tribal Map of Southern Sudan: placement of the spread label NUER.",
+    "temporal_note": "Shows the c.1910s–1930s distribution recorded by the Seligmans, not the full span of the era.",
+    "sources": [
+     {
+      "id": "SELIGMAN1932",
+      "registered": false,
+      "citation": "C.G. Seligman & B.Z. Seligman, Pagan Tribes of the Nilotic Sudan (London: Routledge, 1932), folding plate 'Tribal Map of Southern Sudan' (unpaginated, end of volume; graticule 24–36°E, 4–16°N)",
+      "url": "https://archive.org/details/in.gov.ignca.2109/page/n717/mode/1up",
+      "plate": "folding 'Tribal Map of Southern Sudan', scan leaf n717 of in.gov.ignca.2109"
+     }
+    ],
+    "status": "DRAFT – not live, needs Historian sign-off; SELIGMAN1932 not yet in the registry",
+    "version": "bd-0.1 2026-10-25 (Sudan Map Designer)",
+    "note": "The separate spread label 'JEKAING' (32.7–33.9°E, 9.2°N) is not included: the plate doesn't tie it to NUER."
+   }
+  }
+ ]
+}
