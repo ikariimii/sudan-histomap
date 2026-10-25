@@ -87,6 +87,18 @@
  },
  "key_cities": null,
  "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
- "focus_view": null,
- "focus_view_null_reason": "no extent geometry and no cited city coordinates for this era"
+ "focus_view": {
+  "bbox": [
+   31.7185,
+   6.9337,
+   34.7185,
+   9.9337
+  ],
+  "badge": "APPROXIMATE",
+  "source_ids": [
+   "EP1940_NUER"
+  ],
+  "page": "112",
+  "basis": "Pibor River anchor only (db/extents river_anchor, WD:Q3179125) padded 1.5°; EP1940_NUER p.112: \"the Pibor separates the Lou tribe from the Anuak people\""
+ }
 }

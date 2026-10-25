@@ -84,6 +84,18 @@
  },
  "key_cities": null,
  "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
- "focus_view": null,
- "focus_view_null_reason": "no extent geometry and no cited city coordinates for this era"
+ "focus_view": {
+  "bbox": [
+   29.6644,
+   6.9337,
+   34.7185,
+   10.9125
+  ],
+  "badge": "APPROXIMATE",
+  "source_ids": [
+   "EP1940_NUER"
+  ],
+  "page": "112",
+  "basis": "Pibor River (WD:Q3179125) + Bahr el Zeraf (WD:Q1112393) anchors from db/extents, padded 1.5°; EP1940_NUER p.112: \"the Pibor separates the Lou tribe from the Anuak people\"; \"the Zeraf separates the Thiang and Lak from the Dinka\" (EP1940_NUER p.112, printed page; verified in local OCR)"
+ }
 }
