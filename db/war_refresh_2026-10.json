@@ -1,0 +1,584 @@
+{
+  "meta": {
+    "era": "war-in-sudan-saf-vs-rsf",
+    "built": "2026-10-24",
+    "status": "draft, not merged",
+    "rules": [
+      "no territorial-control claims",
+      "ACLED reference only",
+      "badges REPORTED/CONTESTED/SINGLE-SOURCE"
+    ]
+  },
+  "old_record_figures": [
+    {
+      "figure": "24.6m (IPC_FRC_DEC2024, Dec 2024 analysis)",
+      "field": "IPC Phase 3+"
+    },
+    {
+      "figure": "Famine in Zamzam, Abu Shouk, Al Salam camps and W. Nuba Mountains (Oct–Nov 2024); projected in 5 more N. Darfur localities to May 2025; 17 at risk",
+      "field": "IPC famine-classified areas"
+    },
+    {
+      "figure": "11.3m (IOM_DTM2025, to 15 Apr 2025)",
+      "field": "IOM IDPs total"
+    },
+    {
+      "figure": "8.6m",
+      "field": "IOM IDPs since Apr 2023"
+    },
+    {
+      "figure": "3.9m",
+      "field": "IOM cross-border"
+    },
+    {
+      "figure": "'over 15 million'",
+      "field": "IOM overall displaced"
+    },
+    {
+      "figure": "12.9m (8.9m internal, 3.8m abroad)",
+      "field": "WB_SEU2025 forcibly displaced"
+    }
+  ],
+  "figures": [
+    {
+      "field": "ocha_hnrp2026_pin",
+      "value": 33700000,
+      "unit": "people",
+      "as_of": "2026-02-26",
+      "scope": "Sudan, nationwide, 2026 plan year",
+      "source_id": "OCHA_HNRP2026",
+      "url": "https://humanitarianaction.info/plan/1514/document/sudan-humanitarian-needs-and-response-plan-2026/article/hnrp-rrp-financial-requirements-breakdown",
+      "page_or_section": "Summary: People in need 33.7M",
+      "badges": [
+        "REPORTED",
+        "SINGLE-SOURCE"
+      ]
+    },
+    {
+      "field": "ocha_hnrp2026_targeted",
+      "value": 20400000,
+      "unit": "people",
+      "as_of": "2026-02-26",
+      "scope": "Sudan, 2026 plan",
+      "source_id": "OCHA_HNRP2026",
+      "url": "https://humanitarianaction.info/plan/1514/document/sudan-humanitarian-needs-and-response-plan-2026/article/hnrp-rrp-financial-requirements-breakdown",
+      "page_or_section": "Summary: People Targeted 20.4M",
+      "badges": [
+        "REPORTED",
+        "SINGLE-SOURCE"
+      ]
+    },
+    {
+      "field": "ocha_hnrp2026_prioritized",
+      "value": 14000000,
+      "unit": "people",
+      "as_of": "2026-02-26",
+      "scope": "Sudan, severity 4–5 areas",
+      "source_id": "OCHA_HNRP2026",
+      "url": "https://humanitarianaction.info/plan/1514/document/sudan-humanitarian-needs-and-response-plan-2026/article/hnrp-rrp-financial-requirements-breakdown",
+      "page_or_section": "Summary: People Prioritized 14.0M",
+      "badges": [
+        "REPORTED",
+        "SINGLE-SOURCE"
+      ]
+    },
+    {
+      "field": "ocha_hnrp2026_requirements_usd",
+      "value": 2866228593,
+      "unit": "USD",
+      "as_of": "2026-10-24",
+      "scope": "Sudan HNRP 2026 (plan id 1514), revised requirements",
+      "source_id": "OCHA_FTS",
+      "url": "https://api.hpc.tools/v2/public/plan/1514",
+      "page_or_section": "revisedRequirements",
+      "badges": [
+        "REPORTED",
+        "SINGLE-SOURCE"
+      ],
+      "note": "HNRP summary rounds to $2.9B"
+    },
+    {
+      "field": "ocha_hnrp2026_funded_usd",
+      "value": 1326751916,
+      "unit": "USD",
+      "as_of": "2026-10-24",
+      "scope": "funding reported to FTS against plan 1514",
+      "source_id": "OCHA_FTS",
+      "url": "https://api.hpc.tools/v1/public/fts/flow?planId=1514&groupby=plan",
+      "page_or_section": "totalFunding",
+      "badges": [
+        "REPORTED",
+        "SINGLE-SOURCE"
+      ]
+    },
+    {
+      "field": "ocha_hnrp2026_funded_pct",
+      "value": 46.3,
+      "unit": "percent",
+      "as_of": "2026-10-24",
+      "scope": "computed 1,326,751,916 / 2,866,228,593 (FTS, retrieved 2026-10-24)",
+      "source_id": "OCHA_FTS",
+      "url": "https://fts.unocha.org/plans/1514/summary",
+      "page_or_section": "computed from FTS API values",
+      "badges": [
+        "REPORTED",
+        "DERIVED"
+      ],
+      "note": "IPC Alert (12 Oct 2026) cites a 57% funding gap of the HNRP, consistent with ~43% funded at an earlier date"
+    },
+    {
+      "field": "iom_idps_total",
+      "value": 8585611,
+      "unit": "people",
+      "as_of": "2026-09 (end Sep; published 2026-10-18)",
+      "scope": "Sudan, all 18 states; all IDPs incl. pre-2023",
+      "source_id": "IOM_DTM_SNAP10",
+      "url": "https://reliefweb.int/report/sudan/dtm-sudan-displacement-and-return-snapshot-update-10-18-october-2026",
+      "page_or_section": "Main Findings",
+      "badges": [
+        "REPORTED",
+        "CONTESTED"
+      ],
+      "note": "UNHCR portal shows 6,409,546 IDPs displaced since Apr 2023 (IOM/OCHA, 20 Sep 2026); IPC (Jun 2026) says >8.9m. Scopes differ. Peak 11,585,384 in Jan 2025 (DTM Update 9)."
+    },
+    {
+      "field": "iom_idps_peak",
+      "value": 11585384,
+      "unit": "people",
+      "as_of": "2025-01",
+      "scope": "highest recorded IDP total",
+      "source_id": "IOM_DTM_SNAP9",
+      "url": "https://dtm.iom.int/sites/g/files/tmzbdl1461/files/reports/DTM%20Sudan%20Displacement%20and%20Return%20Snapshot%20%2810%29.pdf",
+      "page_or_section": "p.3 summary",
+      "badges": [
+        "REPORTED",
+        "SINGLE-SOURCE"
+      ]
+    },
+    {
+      "field": "iom_returnees",
+      "value": 5273334,
+      "unit": "people",
+      "as_of": "2026-09 (published 2026-10-18)",
+      "scope": "returned individuals across nine states; 82% from internal displacement, 18% from abroad",
+      "source_id": "IOM_DTM_SNAP10",
+      "url": "https://reliefweb.int/report/sudan/dtm-sudan-displacement-and-return-snapshot-update-10-18-october-2026",
+      "page_or_section": "Main Findings",
+      "badges": [
+        "REPORTED",
+        "SINGLE-SOURCE"
+      ]
+    },
+    {
+      "field": "iom_cross_border_out",
+      "value": 4681314,
+      "unit": "people",
+      "as_of": "2026-09-17 (per-country dates: Egypt 2025-01-31 to South Sudan 2026-09-16)",
+      "scope": "cumulative crossings from Sudan since 15 Apr 2023; not net of returns",
+      "source_id": "IOM_DTM_SNAP9",
+      "url": "https://dtm.iom.int/sites/g/files/tmzbdl1461/files/reports/DTM%20Sudan%20Displacement%20and%20Return%20Snapshot%20%2810%29.pdf",
+      "page_or_section": "Cross-Border Movement section, p.30 and footnote 6",
+      "badges": [
+        "REPORTED",
+        "CONTESTED"
+      ],
+      "note": "UNHCR: 4,637,854 newly arrived refugees, asylum seekers and returnees (5 Oct 2026). File name says (10) but the content is Update 9, 20 Sep 2026; the Update 10 summary on ReliefWeb gives no cross-border total."
+    },
+    {
+      "field": "unhcr_total_forcibly_displaced",
+      "value": 11321158,
+      "unit": "people",
+      "as_of": "2026-10-05",
+      "scope": "inside + outside Sudan (COR, IOM, OCHA, UNHCR)",
+      "source_id": "UNHCR_ODP",
+      "url": "https://data.unhcr.org/en/situations/sudansituation",
+      "page_or_section": "headline: Total Forcibly Displaced",
+      "badges": [
+        "REPORTED",
+        "CONTESTED"
+      ],
+      "note": "Uses the 6.41m IDP figure; IOM-based total would be higher"
+    },
+    {
+      "field": "unhcr_outside_total",
+      "value": 4637854,
+      "unit": "people",
+      "as_of": "2026-10-05",
+      "scope": "newly arrived refugees, asylum seekers and returnees outside Sudan",
+      "source_id": "UNHCR_ODP",
+      "url": "https://data.unhcr.org/en/situations/sudansituation",
+      "page_or_section": "Outside Sudan",
+      "badges": [
+        "REPORTED",
+        "CONTESTED"
+      ]
+    },
+    {
+      "field": "unhcr_new_refugees_total",
+      "value": 3695741,
+      "unit": "people",
+      "as_of": "2026-10-05",
+      "scope": "newly arrived refugees/asylum seekers since Apr 2023",
+      "source_id": "UNHCR_ODP",
+      "url": "https://data.unhcr.org/en/situations/sudansituation",
+      "page_or_section": "Outside Sudan",
+      "badges": [
+        "REPORTED"
+      ]
+    },
+    {
+      "field": "unhcr_refugee_returnees_total",
+      "value": 942113,
+      "unit": "people",
+      "as_of": "2026-10-05",
+      "scope": "newly arrived refugee returnees (non-Sudanese going home)",
+      "source_id": "UNHCR_ODP",
+      "url": "https://data.unhcr.org/en/situations/sudansituation",
+      "page_or_section": "Outside Sudan",
+      "badges": [
+        "REPORTED"
+      ]
+    },
+    {
+      "field": "unhcr_new_refugees_egypt",
+      "value": 1500000,
+      "unit": "people",
+      "as_of": "2025-01-31",
+      "scope": "newly arrived refugees/asylum seekers from Sudan in Egypt",
+      "source_id": "UNHCR_ODP",
+      "url": "https://data.unhcr.org/population/get/sublocation?widget_id=677407&sv_id=63&population_group=5550&forcesublocation=0&fromDate=1900-01-01",
+      "page_or_section": "population group 5550",
+      "badges": [
+        "REPORTED",
+        "CONTESTED"
+      ],
+      "note": "Government of Egypt figure; UNHCR Egypt records 1,083,603 who approached UNHCR, 886,953 registered (8 Oct 2026)"
+    },
+    {
+      "field": "unhcr_new_refugees_chad",
+      "value": 969277,
+      "unit": "people",
+      "as_of": "2026-10-05",
+      "scope": "newly arrived refugees/asylum seekers from Sudan in Chad",
+      "source_id": "UNHCR_ODP",
+      "url": "https://data.unhcr.org/population/get/sublocation?widget_id=677407&sv_id=63&population_group=5550&forcesublocation=0&fromDate=1900-01-01",
+      "page_or_section": "population group 5550",
+      "badges": [
+        "REPORTED"
+      ]
+    },
+    {
+      "field": "unhcr_new_refugees_libya",
+      "value": 569703,
+      "unit": "people",
+      "as_of": "2026-09-21",
+      "scope": "newly arrived refugees/asylum seekers from Sudan in Libya",
+      "source_id": "UNHCR_ODP",
+      "url": "https://data.unhcr.org/population/get/sublocation?widget_id=677407&sv_id=63&population_group=5550&forcesublocation=0&fromDate=1900-01-01",
+      "page_or_section": "population group 5550",
+      "badges": [
+        "REPORTED"
+      ]
+    },
+    {
+      "field": "unhcr_new_refugees_south_sudan",
+      "value": 470433,
+      "unit": "people",
+      "as_of": "2026-10-05",
+      "scope": "newly arrived refugees/asylum seekers from Sudan in South Sudan",
+      "source_id": "UNHCR_ODP",
+      "url": "https://data.unhcr.org/population/get/sublocation?widget_id=677407&sv_id=63&population_group=5550&forcesublocation=0&fromDate=1900-01-01",
+      "page_or_section": "population group 5550",
+      "badges": [
+        "REPORTED"
+      ]
+    },
+    {
+      "field": "unhcr_new_refugees_uganda",
+      "value": 92471,
+      "unit": "people",
+      "as_of": "2026-10-05",
+      "scope": "newly arrived refugees/asylum seekers from Sudan in Uganda",
+      "source_id": "UNHCR_ODP",
+      "url": "https://data.unhcr.org/population/get/sublocation?widget_id=677407&sv_id=63&population_group=5550&forcesublocation=0&fromDate=1900-01-01",
+      "page_or_section": "population group 5550",
+      "badges": [
+        "REPORTED"
+      ]
+    },
+    {
+      "field": "unhcr_new_refugees_ethiopia",
+      "value": 55826,
+      "unit": "people",
+      "as_of": "2025-09-08",
+      "scope": "newly arrived refugees/asylum seekers from Sudan in Ethiopia",
+      "source_id": "UNHCR_ODP",
+      "url": "https://data.unhcr.org/population/get/sublocation?widget_id=677407&sv_id=63&population_group=5550&forcesublocation=0&fromDate=1900-01-01",
+      "page_or_section": "population group 5550",
+      "badges": [
+        "REPORTED"
+      ]
+    },
+    {
+      "field": "unhcr_new_refugees_central_african_republic",
+      "value": 38031,
+      "unit": "people",
+      "as_of": "2026-10-05",
+      "scope": "newly arrived refugees/asylum seekers from Sudan in Central African Republic",
+      "source_id": "UNHCR_ODP",
+      "url": "https://data.unhcr.org/population/get/sublocation?widget_id=677407&sv_id=63&population_group=5550&forcesublocation=0&fromDate=1900-01-01",
+      "page_or_section": "population group 5550",
+      "badges": [
+        "REPORTED"
+      ]
+    },
+    {
+      "field": "unhcr_returnees_south_sudan",
+      "value": 913587,
+      "unit": "people",
+      "as_of": "2026-10-05",
+      "scope": "refugee returnees arriving from Sudan in South Sudan",
+      "source_id": "UNHCR_ODP",
+      "url": "https://data.unhcr.org/population/get/sublocation?widget_id=677407&sv_id=63&population_group=5551&forcesublocation=0&fromDate=1900-01-01",
+      "page_or_section": "population group 5551",
+      "badges": [
+        "REPORTED"
+      ]
+    },
+    {
+      "field": "unhcr_returnees_ethiopia",
+      "value": 21393,
+      "unit": "people",
+      "as_of": "2025-12-01",
+      "scope": "refugee returnees arriving from Sudan in Ethiopia",
+      "source_id": "UNHCR_ODP",
+      "url": "https://data.unhcr.org/population/get/sublocation?widget_id=677407&sv_id=63&population_group=5551&forcesublocation=0&fromDate=1900-01-01",
+      "page_or_section": "population group 5551",
+      "badges": [
+        "REPORTED"
+      ]
+    },
+    {
+      "field": "unhcr_returnees_central_african_republic",
+      "value": 7133,
+      "unit": "people",
+      "as_of": "2026-06-29",
+      "scope": "refugee returnees arriving from Sudan in Central African Republic",
+      "source_id": "UNHCR_ODP",
+      "url": "https://data.unhcr.org/population/get/sublocation?widget_id=677407&sv_id=63&population_group=5551&forcesublocation=0&fromDate=1900-01-01",
+      "page_or_section": "population group 5551",
+      "badges": [
+        "REPORTED"
+      ]
+    },
+    {
+      "field": "ipc_phase3plus",
+      "value": 19500000,
+      "unit": "people",
+      "as_of": "Feb–May 2026 (published 2026-06-03)",
+      "scope": "country-wide, ~41% of population",
+      "source_id": "IPC_SDN_2026",
+      "url": "https://reliefweb.int/report/sudan/sudan-ipc-acute-food-insecurity-analysis-l-february-2026-january-2027-published-3-june-2026",
+      "page_or_section": "summary",
+      "badges": [
+        "REPORTED",
+        "SINGLE-SOURCE"
+      ]
+    },
+    {
+      "field": "ipc_phase5",
+      "value": 135000,
+      "unit": "people",
+      "as_of": "Feb–May 2026",
+      "scope": "people in IPC Phase 5 (Catastrophe)",
+      "source_id": "IPC_SDN_2026",
+      "url": "https://reliefweb.int/report/sudan/sudan-ipc-acute-food-insecurity-analysis-l-february-2026-january-2027-published-3-june-2026",
+      "page_or_section": "summary",
+      "badges": [
+        "REPORTED",
+        "SINGLE-SOURCE"
+      ]
+    },
+    {
+      "field": "ipc_famine_classified_areas",
+      "value": 0,
+      "unit": "areas",
+      "as_of": "Feb–May 2026",
+      "scope": "areas classified Famine",
+      "source_id": "IPC_SDN_2026",
+      "url": "https://reliefweb.int/report/sudan/sudan-ipc-acute-food-insecurity-analysis-l-february-2026-january-2027-published-3-june-2026",
+      "page_or_section": "summary: \"no area is in Famine\"",
+      "badges": [
+        "REPORTED",
+        "SINGLE-SOURCE"
+      ],
+      "note": "El Fasher and Kadugli towns had been classified Famine earlier; improvement attributed to people moving away"
+    },
+    {
+      "field": "ipc_risk_of_famine_areas",
+      "value": 14,
+      "unit": "areas",
+      "as_of": "projection to Jan 2027",
+      "scope": "areas at risk of Famine (N/S Darfur, S Kordofan), worst case",
+      "source_id": "IPC_SDN_2026",
+      "url": "https://reliefweb.int/report/sudan/sudan-ipc-acute-food-insecurity-analysis-l-february-2026-january-2027-published-3-june-2026",
+      "page_or_section": "summary",
+      "badges": [
+        "REPORTED",
+        "SINGLE-SOURCE"
+      ]
+    },
+    {
+      "field": "ipc_projection_periods",
+      "value": "Jun–Sep 2026; Oct 2026–Jan 2027",
+      "unit": "text",
+      "as_of": "2026-06-03",
+      "scope": "projection periods; projected Phase 3+ given only for 56 areas/IDP settlements (~8.3m people): 5.6m then 4.9m",
+      "source_id": "IPC_SDN_2026",
+      "url": "https://www.foodsecurityportal.org/sites/default/files/2026-05/IPC_Sudan_Acute_Food_Insecurity_Feb2026_Jan2027_Special_Snapshot.pdf",
+      "page_or_section": "Special Snapshot, projection section",
+      "badges": [
+        "REPORTED",
+        "SINGLE-SOURCE"
+      ],
+      "note": "No national projected total. The 5.6m/4.9m figures cover a subset only, so they are not comparable to 19.5m."
+    },
+    {
+      "field": "ipc_alert_oct2026",
+      "value": "2 IDP camps in South Darfur with acute malnutrition above famine thresholds; 57% HNRP funding gap",
+      "unit": "text",
+      "as_of": "2026-10-12",
+      "scope": "alert, not a new classification",
+      "source_id": "IPC_ALERT_OCT2026",
+      "url": "https://www.foodsecurityportal.org/_assets/sites/default/files/2026-10/IPC_Alert_Sudan_Oct2026.pdf",
+      "page_or_section": "Nationwide key figures",
+      "badges": [
+        "REPORTED",
+        "SINGLE-SOURCE"
+      ]
+    },
+    {
+      "field": "fatalities",
+      "value": null,
+      "null_reason": "No UN-sourced national fatality figure was fetched. ACLED is reference only under the project rule, so it is not used.",
+      "badges": []
+    }
+  ],
+  "diff": [
+    {
+      "field": "IPC Phase 3+",
+      "old": "24.6m (IPC_FRC_DEC2024, Dec 2024 analysis)",
+      "new": "19.5m (Feb–May 2026, published 2026-06-03)"
+    },
+    {
+      "field": "IPC famine-classified areas",
+      "old": "Famine in Zamzam, Abu Shouk, Al Salam camps and W. Nuba Mountains (Oct–Nov 2024); projected in 5 more N. Darfur localities to May 2025; 17 at risk",
+      "new": "0 areas in Famine; 14 at risk (to Jan 2027); Oct 2026 alert: 2 S. Darfur camps above famine malnutrition thresholds"
+    },
+    {
+      "field": "IOM IDPs total",
+      "old": "11.3m (IOM_DTM2025, to 15 Apr 2025)",
+      "new": "8,585,611 (end Sep 2026, Update 10)"
+    },
+    {
+      "field": "IOM IDPs since Apr 2023",
+      "old": "8.6m",
+      "new": "not given in Update 10 summary (UNHCR portal: 6,409,546, IOM/OCHA, 20 Sep 2026)"
+    },
+    {
+      "field": "IOM cross-border",
+      "old": "3.9m",
+      "new": "4,681,314 (17 Sep 2026, Update 9)"
+    },
+    {
+      "field": "IOM overall displaced",
+      "old": "'over 15 million'",
+      "new": "not restated; UNHCR total forcibly displaced 11,321,158 (5 Oct 2026)"
+    },
+    {
+      "field": "IOM returnees",
+      "old": "(none)",
+      "new": "5,273,334"
+    },
+    {
+      "field": "WB_SEU2025 forcibly displaced",
+      "old": "12.9m (8.9m internal, 3.8m abroad)",
+      "new": "not refreshed (World Bank not in scope)"
+    },
+    {
+      "field": "OCHA PIN / targeted / funding",
+      "old": "(none)",
+      "new": "33.7m / 20.4m / 46.3% funded (FTS, 24 Oct 2026)"
+    },
+    {
+      "field": "UNHCR refugees by country",
+      "old": "(none)",
+      "new": "see figures (Egypt 1.5m govt, Chad 969k, Libya 570k, South Sudan 470k + 914k returnees, Uganda 92k, Ethiopia 56k, CAR 38k)"
+    }
+  ],
+  "sources": {
+    "OCHA_HNRP2026": {
+      "title": "Sudan Humanitarian Needs and Response Plan 2026",
+      "title_en": "Sudan Humanitarian Needs and Response Plan 2026",
+      "publisher": "UN OCHA (humanitarianaction.info)",
+      "bias": "UN humanitarian planning figures; scope narrowed by funding-driven prioritisation",
+      "date": "2026-02-26",
+      "url": "https://humanitarianaction.info/plan/1514/document/sudan-humanitarian-needs-and-response-plan-2026/article/hnrp-rrp-financial-requirements-breakdown",
+      "license": "UN terms of use; OCHA content generally reusable with attribution"
+    },
+    "OCHA_FTS": {
+      "title": "Financial Tracking Service – Sudan HNRP 2026 (plan 1514)",
+      "title_en": "same",
+      "publisher": "UN OCHA FTS",
+      "bias": "only funding reported to FTS is counted; live figure",
+      "date": "retrieved 2026-10-24",
+      "url": "https://fts.unocha.org/plans/1514/summary",
+      "license": "FTS data, attribution to OCHA FTS"
+    },
+    "IOM_DTM_SNAP10": {
+      "title": "DTM Sudan Displacement and Return Snapshot – Update 10 (18 October 2026)",
+      "title_en": "same",
+      "publisher": "IOM Displacement Tracking Matrix (via ReliefWeb)",
+      "bias": "key-informant estimates; access-limited areas may be under-counted",
+      "date": "2026-10-18",
+      "url": "https://reliefweb.int/report/sudan/dtm-sudan-displacement-and-return-snapshot-update-10-18-october-2026",
+      "license": "IOM DTM: reuse with attribution"
+    },
+    "IOM_DTM_SNAP9": {
+      "title": "Sudan Displacement and Return Snapshot – Update 9 (20 Sep 2026)",
+      "title_en": "same",
+      "publisher": "IOM DTM",
+      "bias": "as above; cross-border figures compiled from mixed government and agency sources, cumulative and not net of returns",
+      "date": "2026-09-20",
+      "url": "https://dtm.iom.int/sites/g/files/tmzbdl1461/files/reports/DTM%20Sudan%20Displacement%20and%20Return%20Snapshot%20%2810%29.pdf",
+      "license": "IOM DTM: reuse with attribution"
+    },
+    "UNHCR_ODP": {
+      "title": "Sudan situation – Operational Data Portal",
+      "title_en": "same",
+      "publisher": "UNHCR",
+      "bias": "mixes UNHCR, government (e.g. Egypt) and IOM figures; per-country dates differ",
+      "date": "2026-10-05",
+      "url": "https://data.unhcr.org/en/situations/sudansituation",
+      "license": "UNHCR ODP terms: attribution to UNHCR"
+    },
+    "IPC_SDN_2026": {
+      "title": "Sudan: IPC Acute Food Insecurity Analysis, February 2026 – January 2027",
+      "title_en": "same",
+      "publisher": "IPC Global Initiative / IPC Sudan TWG",
+      "bias": "consensus technical analysis; data gaps in inaccessible areas (e.g. El Obeid, Bara not analysed); the Government of Sudan has disputed earlier IPC famine findings",
+      "date": "2026-06-03",
+      "url": "https://reliefweb.int/report/sudan/sudan-ipc-acute-food-insecurity-analysis-l-february-2026-january-2027-published-3-june-2026",
+      "license": "IPC: reuse with attribution"
+    },
+    "IPC_ALERT_OCT2026": {
+      "title": "IPC Alert | New evidence reveals rapidly worsening conditions across Greater Darfur and Kordofan",
+      "title_en": "same",
+      "publisher": "IPC Global Initiative",
+      "bias": "alert, not a classification; \"does not necessarily reflect the views of individual agencies or the Government of Sudan\"",
+      "date": "2026-10-12",
+      "url": "https://www.foodsecurityportal.org/_assets/sites/default/files/2026-10/IPC_Alert_Sudan_Oct2026.pdf",
+      "license": "IPC: reuse with attribution"
+    }
+  }
+}
