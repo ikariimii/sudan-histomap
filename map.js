@@ -459,12 +459,12 @@ var BTD=null,gBt=null,gEp=null,ST=null,EVD=null;const BT=AR?{zone:'منطقة �
 const bpick=a=>a?(AR?(a[1]||a[0]):(a[0]||a[1]))||'':'';
 const bcite=s=>s.map(c=>`<bdi dir="ltr">${esc(c.c)}${c.p?', '+esc(/^\s*(pp?\.|ص)/.test(c.p)?c.p:(/^\d/.test(c.p)?'p. '+c.p:c.p)):''}</bdi>${c.u?` <a href="${esc(c.u)}" rel="noopener">${esc(T.lnk||'link')}</a>`:''}`).join('<br>');
 async function batDraw(e){if(!M.layers.bat)return;gBt=gBt||root.append('g').attr('class','bts');if(!on.has('bat')){gBt.selectAll('*').remove();btList([]);return}
- if(!BTD)BTD=await getj('/b.json').catch(()=>({battles:[]}));if(e!==ES[i])return;const y=Y??e.b,y2=Math.min(e.b,((ST||[]).find(t=>t>y)??e.b+1)-1);// a scrubber step stands for [step, next step)
- // window = the wider of the battle's war range (db/wars.json) and the active era; earlier battles in it show muted, the current (or nearest earlier) one highlighted, later ones hidden
- const win=b=>b.w&&b.w.a!=null?[Math.min(e.a,b.w.a),Math.max(e.b,b.w.b??b.w.a)]:[e.a,e.b];
- const rel=b=>(b.a<=e.b&&b.b>=e.a)||(b.w&&b.w.a!=null&&b.w.a<=e.b&&(b.w.b??b.w.a)>=e.a);// battle in this era, or its war overlaps it
- const B=BTD.battles.filter(b=>{if(!rel(b))return false;const w=win(b);return w[0]<=y2&&y<=w[1]&&b.a<=y2});
- const ma=B.length?Math.max(...B.map(b=>b.a)):null,C=new Set(B.filter(b=>b.a===ma).map(b=>b.id));// highlight: the latest battle at or before the step (ties share it)
+ if(!BTD)BTD=await getj('/b.json').catch(()=>({battles:[]}));if(e!==ES[i])return;const y=(!ST||ST.length<2)?e.b:(Y??e.b),pv=(ST&&ST.length>1)?ST.filter(t=>t<y).pop()??-Infinity:-Infinity;// y = scrubber year (single-step eras, e.g. Mahdist: the era end); pv = previous step
+ // eligibility only: the battle is in this era, or its war (db/wars.json) overlaps it. Eligibility never overrides the battle's own year:
+ // by>y hidden; by==y, or the latest eligible by<=y inside this step window (pv,y], gold; any other by<y muted
+ const rel=b=>(b.a<=e.b&&b.b>=e.a)||(b.w&&b.w.a!=null&&b.w.a<=e.b&&(b.w.b??b.w.a)>=e.a);
+ const B=BTD.battles.filter(b=>rel(b)&&b.a<=y);
+ const ma=B.length?Math.max(...B.map(b=>b.a)):null,C=new Set(B.filter(b=>b.a===y||(b.a===ma&&b.a>pv)).map(b=>b.id));
  btList(B,C);bzDefs();const k=gBt.selectAll('g.bt').data(B.filter(b=>b.ll||b.hz),b=>b.id);k.exit().remove();
  const n=k.enter().append('g').each(function(b){const p=b.ll||b.hz.ll;this.__xy=proj(p);if(b.hz){const q=proj([p[0],p[1]+b.hz.r/111.32]);this.__rk=Math.hypot(q[0]-this.__xy[0],q[1]-this.__xy[1])}}).on('click',(ev,b)=>{ev.stopPropagation();batCard(b)});
  const z=n.filter(b=>!!b.hz);z.append('circle').attr('class','bthz').attr('fill','url(#bzh)');
