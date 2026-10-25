@@ -150,6 +150,7 @@ def era(i, p):
         c = 'city_capital_list_only' if any(r.get('role') == 'capital' for r in rr) else 'city_list_only'
         b = {'LIST-ONLY', 'NO-DATE'}; bs |= b; cls[c] = cls.get(c, 0) + 1
         cit.append({'id': q['id'], 'name_en': q['name_en'], 'name_ar': q.get('name_ar'), 'symbol_class': c, 'drawn': False,
+                    'display_en': q['name_en'] + (f" (to {max(r['end'] for r in rr if r.get('end') is not None)})" if any(r.get('end') is not None for r in rr) else ''),
                     'roles_in_era': [{k: r.get(k) for k in ('role', 'era_id', 'start', 'end', 'source_id', 'page')} for r in rr],
                     'badges': sorted(b), 'source_ids': q.get('source_ids') or []})
     out['layers']['cities'] = {'file': 'db/city_layers/cities.geojson', 'features': cit}
