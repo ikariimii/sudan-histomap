@@ -7,7 +7,13 @@
  "links": [
   {
    "current_url": "https://en.wikipedia.org/wiki/Early_Khartoum",
-   "locations": ["data/periods.json meta.sources 'WP:Early_Khartoum' (line 6325; url line 6330; cited at lines 7482, 7496)", "data/periods.js (mirror)", "data/eras/khartoum-mesolithic-early-khartoum.json", "db/legends/eras/*", "data/backup/*"],
+   "locations": [
+    "data/periods.json meta.sources 'WP:Early_Khartoum' (line 6325; url line 6330; cited at lines 7482, 7496)",
+    "data/periods.js (mirror)",
+    "data/eras/khartoum-mesolithic-early-khartoum.json",
+    "db/legends/eras/*",
+    "data/backup/*"
+   ],
    "owner": "Historian (data/periods.json, data/eras); Sudan Map Designer (db/legends)",
    "replacement": {
     "registry_id": "AAR2021",
@@ -23,7 +29,13 @@
   },
   {
    "current_url": "https://en.wikipedia.org/wiki/Khartoum_Neolithic",
-   "locations": ["data/periods.json meta.sources 'WP:Khartoum_Neolithic' (line 6495; url line 6500; cited at lines 7530, 7547)", "data/periods.js (mirror)", "data/eras/khartoum-neolithic-shaheinab.json", "db/legends/eras/*", "data/backup/*"],
+   "locations": [
+    "data/periods.json meta.sources 'WP:Khartoum_Neolithic' (line 6495; url line 6500; cited at lines 7530, 7547)",
+    "data/periods.js (mirror)",
+    "data/eras/khartoum-neolithic-shaheinab.json",
+    "db/legends/eras/*",
+    "data/backup/*"
+   ],
    "owner": "Historian (data/periods.json, data/eras); Sudan Map Designer (db/legends)",
    "replacement": {
     "registry_id": "AAR2021",
@@ -39,11 +51,17 @@
   },
   {
    "current_url": "https://en.wikipedia.org/wiki/Ottoman_Egyptian_invasion_of_Sudan",
-   "locations": ["data/periods.json meta.sources 'WP:Ottoman_Egyptian_invasion_of_Sudan' (line 6675; url line 6680; cited at lines 8310, 8330)", "data/periods.js (mirror)", "data/eras/turkiyya-ottoman-egyptian-rule.json", "db/legends/eras/*", "data/backup/*"],
+   "locations": [
+    "data/periods.json meta.sources 'WP:Ottoman_Egyptian_invasion_of_Sudan' (line 6675; url line 6680; cited at lines 8310, 8330)",
+    "data/periods.js (mirror)",
+    "data/eras/turkiyya-ottoman-egyptian-rule.json",
+    "db/legends/eras/*",
+    "data/backup/*"
+   ],
    "owner": "Historian (data/periods.json, data/eras); Sudan Map Designer (db/legends)",
    "replacement": {
-    "registry_id": null,
-    "registry_note": "Needs a new registry entry, or an update of the existing sfdas entry at line ~5651 with the new URL (see link 4), and then a cite with pages '556'. The id is the Historian's choice.",
+    "registry_id": "SFDAS_HCS2017",
+    "registry_note": "Existing registry id SFDAS_HCS2017 (data/periods.json line 5651). Cite it with pages '556' once its url is updated (see link 4).",
     "citation": "François, Bernard. 'Le Soudan de 1820 à nos jours', chapter 2 'La création du Soudan moderne (1820-1885, Turkiyya)', in Histoire et civilisations du Soudan, de la Préhistoire à nos jours. Soleb / Bleu autour / SFDAS, 2017. Chapter starts p. 551; quote p. 556.",
     "url": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html",
     "pages": "556",
@@ -55,15 +73,26 @@
   },
   {
    "current_url": "https://sfdas.com/IMG/pdf/histoire_et_civilisations_du_soudan_15_bd.pdf",
-   "locations": ["data/periods.json meta.sources sfdas entry 'Histoire et civilisations du Soudan…' (url line 5656, ISBN 978-2-918157-24-3)", "data/periods.js (mirror)", "m/a-group-lower-nubia.json", "m/c-group-lower-nubia.json", "m/kingdom-of-kerma.json", "data/backup/*"],
+   "locations": [
+    "data/periods.json meta.sources 'SFDAS_HCS2017' (line 5651; url line 5656, ISBN 978-2-918157-24-3)",
+    "data/periods.js (mirror)",
+    "m/a-group-lower-nubia.json",
+    "m/c-group-lower-nubia.json",
+    "m/kingdom-of-kerma.json",
+    "data/backup/*"
+   ],
    "owner": "Historian (data/periods.json); Sudan Web Experience (m/*.json)",
    "replacement": {
     "same_work": true,
     "url": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html",
     "direct_download": "https://www.soleb.com/pdf/soudan/Histoire-et-civilisations-du-Soudan-pdf-bd.zip",
-    "other_formats": ["https://www.soleb.com/pdf/soudan/Histoire-et-civilisations-du-Soudan-pdf.zip", "https://www.soleb.com/pdf/soudan/Histoire-et-civilisations-du-Soudan-epub.zip"],
+    "other_formats": [
+     "https://www.soleb.com/pdf/soudan/Histoire-et-civilisations-du-Soudan-pdf.zip",
+     "https://www.soleb.com/pdf/soudan/Histoire-et-civilisations-du-Soudan-epub.zip"
+    ],
     "institutional_page": "http://sfdas.com/publications/publications-de-la-sfdas/article/histoire-et-civilisations-du-soudan_lang-fr/",
-    "isbn_note": "The soleb page gives ISBN 978-2-918157-30-4 for the digital edition; the registry has 978-2-918157-24-3 (print). Keep the print ISBN or add the digital one: Historian's call."
+    "isbn_note": "The soleb page gives ISBN 978-2-918157-30-4 for the digital edition; the registry has 978-2-918157-24-3 (print). Keep the print ISBN or add the digital one: Historian's call.",
+    "registry_id": "SFDAS_HCS2017"
    },
    "secondary_pointer": null,
    "check": "On 2026-10-25 the soleb page returned HTTP 200. The bd.zip returned HTTP 200, application/zip, 32,040,966 bytes, Last-Modified 2019-08-29. It holds 'Histoire et civilisations du Soudan [15] bd.pdf' (the same file name as the dead link), whose PDF metadata title is 'Histoire et civilisations du Soudan, de la Préhistoire à nos jours', 976 pages. The text extracts and the ToC loads."
