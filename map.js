@@ -20,9 +20,9 @@ $('lang').href=(AR?'/':'/ar/')+(lq.toString()?'?'+lq:'');$('prev').setAttribute(
 $('skip').textContent=T.skip;$('map').setAttribute('aria-label',T.mapl);$('svg').setAttribute('aria-label',T.mapl+'. '+T.featl);$('svgt').textContent=T.mapl;$('layers').setAttribute('aria-label',T.layersl);
 $('grab').setAttribute('aria-label',T.sheet+' · '+T.sheetst.half);$('grab').setAttribute('aria-expanded','true');
 $('reset').title=T.reset;$('reset').setAttribute('aria-label',T.reset);$('within').querySelector('label').textContent=T.within;
-const LAY=['ctl','grp','rel','eth','pop','cty','hml','trd','evd'],on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x==='trade'?'trd':x==='evidence'?'evd':x).filter(x=>LAY.includes(x)));
+const LAY=['ctl','grp','rel','eth','pop','cty','hml','trd','evd','now'],on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x==='trade'?'trd':x==='evidence'?'evd':x==='then-now'?'now':x).filter(x=>LAY.includes(x)));
 LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=T.l[k];b.setAttribute('aria-pressed',on.has(k));b.dataset.k=k;
- b.onclick=()=>{on.has(k)?on.delete(k):on.add(k);if(k==='eth'&&on.has(k))eth1932();b.setAttribute('aria-pressed',on.has(k));url();if(k==='evd'){evdStyle();layerInfo(ES[i]);return}render(false);if(k==='hml')hmlDraw()};$('layers').appendChild(b)});
+ b.onclick=()=>{on.has(k)?on.delete(k):on.add(k);if(k==='eth'&&on.has(k))eth1932();b.setAttribute('aria-pressed',on.has(k));url();if(k==='evd'){evdStyle();layerInfo(ES[i]);return}if(k==='now'){cmpDraw();return}render(false);if(k==='hml')hmlDraw()};$('layers').appendChild(b)});
 document.addEventListener('click',ev=>{const t=ev.target.closest&&ev.target.closest('[data-hml]');if(!t)return;ev.preventDefault();if(!on.has('hml')){on.add('hml');const c=document.querySelector('#layers .chip[data-k=hml]');if(c)c.setAttribute('aria-pressed','true');url();render(false);hmlDraw()}});
 // --- era index
 let i=Math.max(0,ES.findIndex(e=>e.id===Q.get('era')));const r=$('r');r.max=ES.length-1;r.value=i;r.setAttribute('aria-label',T.era);
@@ -37,7 +37,7 @@ const RELIEF_BOX=[12,-3,48,27];let RHI=false;function relief(){const a=proj([REL
 function fit(){const sh=$('sheet').getBoundingClientRect();const top=desk()?70:120,bot=desk()?H()-20:Math.max(top+160,H()-Math.min(sh.height,H()*.44)-8);
  const x1=desk()?(AR?sh.right+20:20):10,x2=desk()?(AR?W()-20:sh.left-20):W()-10;
  proj.fitExtent([[x1,top],[x2,bot]],{type:'MultiPoint',coordinates:[[21.8,3.4],[38.6,22.2]]});relief()}
-const zoom=d3.zoom().scaleExtent([1,12]).on('zoom',ev=>{TR=ev.transform;root.attr('transform',ev.transform);K=ev.transform.k;scaleMarks();$('reset').hidden=K<1.05&&Math.abs(ev.transform.x)<2}).on('end',()=>{if(!RHI&&K>=2)relief();place();cityThin();hmlDraw()});
+const zoom=d3.zoom().scaleExtent([1,12]).on('zoom',ev=>{TR=ev.transform;root.attr('transform',ev.transform);K=ev.transform.k;scaleMarks();cmpClip();$('reset').hidden=K<1.05&&Math.abs(ev.transform.x)<2}).on('end',()=>{if(!RHI&&K>=2)relief();place();cityThin();hmlDraw()});
 svg.call(zoom).on('dblclick.zoom',null);$('reset').onclick=()=>svg.transition().duration(DUR).call(zoom.transform,d3.zoomIdentity);
 function scaleMarks(){root.selectAll('.mk').attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`});clearTimeout(scaleMarks.t);scaleMarks.t=setTimeout(()=>{if(typeof hmlThin==='function')hmlThin()},120)}
 const rw=f=>{const G=f.geometry,rv=a=>a.slice().reverse();if(G.type==='Polygon'){if(d3.geoArea(f)>2*Math.PI)G.coordinates=G.coordinates.map(rv)}else if(G.type==='MultiPolygon')G.coordinates=G.coordinates.map(p=>d3.geoArea({type:'Polygon',coordinates:p})>2*Math.PI?p.map(rv):p);return f};
@@ -82,7 +82,7 @@ async function render(anim=true){
  NEW.forEach(n=>{const p=gX.append('path').attr('class','ext'+(String(n.f.properties.certainty||'').toLowerCase()==='low'?' low':'')).datum(n.f).on('click',(ev)=>{ev.stopPropagation();feat(n.f,e)});
   if(D&&!RM&&n.m>=0){const a=resample(ringOf(OLD[n.m].f)),b=align(a,resample(ringOf(n.f)));const it=d3.interpolateArray(a,b);p.attr('d',dpts(a)).transition().duration(D).ease(d3.easeCubicInOut).attrTween('d',()=>t=>dpts(it(t))).on('end',function(){d3.select(this).attr('d',path(n.f))})}
   else{p.attr('d',path(n.f)).style('opacity',D?0:1);if(D)p.transition().duration(D).style('opacity',1)}});
- OLD=NEW.map(n=>({f:n.f,box:n.box}));evdStyle();
+ OLD=NEW.map(n=>({f:n.f,box:n.box}));evdStyle();cmpDraw();
  // points (diamonds) and capitals
  // open lines: never filled; dashed when the feature says so (line_style/style.dash), arrowhead only when it says arrow
  const lns=ctl?(g.lines||[]).filter(f=>act(f.properties,e,Y)):[];const dsh=p=>p.line_style==='dashed'||!!(p.style&&p.style.dash);
@@ -131,6 +131,19 @@ function evdStyle(){zdefs();const ev=on.has('evd');document.body.classList.toggl
  [...gX.selectAll('path.ext:not(.old)').nodes(),...gZ.selectAll('path.zn').nodes()].forEach(function(n){const f=n.__data__;(function(){const zn=this.classList.contains('zn');const c=f?cf(f.properties):null,s=this.style;if(!ev){s.fillOpacity='';s.strokeDasharray='';s.strokeOpacity='';return}
   s.fillOpacity=c==null?'.06':String(.08+.5*c);s.strokeOpacity=c==null?'.6':String(.4+.6*c);s.strokeDasharray=c==null?'2 4':(c<.5?'6 4':'');
   if(!zn&&c!=null&&c<.5)gEv.append('path').attr('d',this.getAttribute('d')).attr('fill','url(#lowconf)').style('opacity',.9*(1-c))}).call(n)})}
+// --- Then and now (?layers=now): range splits the screen; historical areas on one side, today's borders (the existing
+// Natural Earth admin-0 basemap, BASE) on the other. No new geometry. Native range = keyboard; no animation (reduced-motion safe).
+const gNow=root.append('g').attr('class','nowb').attr('pointer-events','none');let CMP=50;
+function cmpClip(){const d=svg.select('defs');if(!on.has('now')){gX.attr('clip-path',null);gZ.attr('clip-path',null);gNow.attr('clip-path',null);return}
+ ['cThen','cNow'].forEach(id=>{if(d.select('#'+id).empty())d.append('clipPath').attr('id',id).attr('clipPathUnits','userSpaceOnUse').append('rect')});
+ const s=AR?W()*(1-CMP/100):W()*CMP/100,x=(s-TR.x)/TR.k,BIG=1e5,L=[-BIG,x-(-BIG)],R=[x,BIG];const th=AR?R:L,nw=AR?L:R;
+ d.select('#cThen rect').attr('x',th[0]).attr('width',th[1]).attr('y',-BIG).attr('height',2*BIG);d.select('#cNow rect').attr('x',nw[0]).attr('width',nw[1]).attr('y',-BIG).attr('height',2*BIG);
+ gX.attr('clip-path','url(#cThen)');gZ.attr('clip-path','url(#cThen)');gNow.attr('clip-path','url(#cNow)')}
+function cmpDraw(){const ok=on.has('now')&&BASE;let b=$('cmpbar');gNow.selectAll('*').remove();
+ if(!ok){if(b)b.hidden=true;cmpClip();return}
+ if(!b){b=document.createElement('div');b.id='cmpbar';b.innerHTML=`<span>${esc(T.cmp.then)}</span><input id="cmpr" type="range" min="0" max="100" step="1" aria-label="${esc(T.cmp.aria)}"><span>${esc(T.cmp.now)}</span><small>${esc(T.cmp.src)}${BASE.source?': <bdi dir="ltr">'+esc(typeof BASE.source==='string'?BASE.source:(BASE.source.name||BASE.source.citation||''))+'</bdi>':''}</small>`;$('layers').append(b);
+  const r=b.querySelector('input');r.value=CMP;r.oninput=()=>{CMP=+r.value;r.setAttribute('aria-valuetext',`${T.cmp.then} ${CMP}% · ${T.cmp.now} ${100-CMP}%`);cmpClip()}}
+ b.hidden=false;gNow.selectAll('path').data(BASE.features).join('path').attr('d',path);cmpClip()}
 // --- 1932 ethnographic label markers (?layers=eth): per-era /eth/<id>.json; dashed unfilled halo, never an area.
 const gEt=root.append('g').attr('class','eth'),ETH={};
 async function ethDraw(e){const has=(M.layers.eth||[]).includes(e.id),c=document.querySelector('#layers .chip[data-k=eth]');if(c)c.hidden=!has;gEt.selectAll('*').remove();if(!has||!on.has('eth'))return;
