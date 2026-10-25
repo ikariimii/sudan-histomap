@@ -26,7 +26,7 @@ LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.ty
 document.addEventListener('click',ev=>{const t=ev.target.closest&&ev.target.closest('[data-hml]');if(!t)return;ev.preventDefault();if(!on.has('hml')){on.add('hml');const c=document.querySelector('#layers .chip[data-k=hml]');if(c)c.setAttribute('aria-pressed','true');url();render(false);hmlDraw()}});
 // --- era index
 let i=Math.max(0,ES.findIndex(e=>e.id===Q.get('era')));const r=$('r');r.max=ES.length-1;r.value=i;r.setAttribute('aria-label',T.era);
-function url(){const q=new URLSearchParams();q.set('era',ES[i].id);if(STY)q.set('story',STY.s);const ly=[...on].sort().concat(BDQ?['borders-draft']:[]).join(',');if(ly!=='ctl')q.set('layers',ly);history.replaceState(null,'',(AR?'/ar/':'/')+'?'+q)}
+function url(){const q=new URLSearchParams();q.set('era',ES[i].id);if(STY)q.set('story',STY.s);if(Q.get('embed')==='1')q.set('embed','1');const ly=[...on].sort().concat(BDQ?['borders-draft']:[]).join(',');if(ly!=='ctl')q.set('layers',ly);history.replaceState(null,'',(AR?'/ar/':'/')+'?'+q)}
 // --- map
 const svg=d3.select('#svg'),W=()=>innerWidth,H=()=>innerHeight,desk=()=>innerWidth>=1000;
 const root=svg.append('g'),gB=root.append('g').attr('class','relief'),gZ=root.append('g').attr('class','zones'),gL=root.append('g'),gC=root.append('g'),gX=root.append('g'),gN=root.append('g'),gG=root.append('g'),gH=root.append('g').attr('class','hml'),gY=root.append('g').attr('class','cities'),gR=root.append('g'),gP=root.append('g'),gK=root.append('g'),gT=root.append('g'),gF=root.append('g').attr('class','flags');
@@ -392,6 +392,18 @@ var STY=null;
   cs.forEach(c=>{const b=document.createElement('button');b.type='button';b.className='chip';b.innerHTML=`▶ ${esc(S.watch)} <small>(${esc(S.inch)} ${num(c.n)}: ${esc(AR?c.ar:c.en)})</small>`;b.onclick=()=>{start(c,false);$('stx2').focus()};w.appendChild(b)});$('card').after(w)}
  new MutationObserver(()=>{if(!$('stcta'))cta()}).observe($('card').parentNode,{childList:true});new MutationObserver(cta).observe($('card'),{childList:true});
  const q=Q.get('story'),c0=CS.find(c=>c.s===q);if(c0)start(c0,!Q.get('era'));cta()})();
+// embed snippet: "Embed" next to Share opens copyable <iframe> code for this era; ?embed=1 = framed view (no about/lang/search, brand links out)
+(()=>{const B=T.emb;if(!B)return;const EMB=Q.get('embed')==='1';
+ if(EMB){document.body.classList.add('embed');const br=$('brand');const a=document.createElement('a');a.id='embo';a.className='chip';a.target='_blank';a.rel='noopener';a.textContent=B.open+' ↗';br.after(a);
+  const ou=()=>{const q=new URLSearchParams(location.search);q.delete('embed');a.href=B.site+(AR?'/ar/':'/')+'?'+q.toString()};ou();addEventListener('click',()=>setTimeout(ou,0),true)}
+ const s0=shareBtn;shareBtn=e=>{s0(e);const w=$('card').querySelector('.sharep');if(!w||EMB)return;const b=document.createElement('button');b.type='button';b.className='share';b.textContent=B.b;b.setAttribute('aria-expanded','false');
+  const src=B.site+(AR?'/ar/':'/')+'?era='+encodeURIComponent(e.id)+'&embed=1',code=`<iframe src="${src}" title="${esc(AR?e.ar:e.en)} · Sudan Histomap" width="100%" height="600" style="border:0" loading="lazy" allow="clipboard-write"></iframe>`;
+  const box=document.createElement('div');box.className='embbox';box.hidden=true;const id='embc-'+e.id;
+  box.innerHTML=`<label for="${id}">${esc(B.l)}</label><textarea id="${id}" readonly rows="3" dir="ltr" spellcheck="false"></textarea><button type="button" class="share">${esc(B.c)}</button> <span class="sharemsg" aria-live="polite"></span>`;
+  const ta=box.querySelector('textarea');ta.value=code;ta.onfocus=()=>ta.select();
+  box.querySelector('button').onclick=async()=>{const m=box.querySelector('.sharemsg');try{await navigator.clipboard.writeText(code);m.textContent=B.ok}catch(x){ta.focus();ta.select()}};
+  b.onclick=()=>{box.hidden=!box.hidden;b.setAttribute('aria-expanded',String(!box.hidden));if(!box.hidden)ta.focus()};
+  w.querySelector('.share').after(' ',b);w.after(box)}})();
 // --- start
 window.__hm={scale:k=>svg.call(zoom.scaleTo,k)};// test hook (QA only, no side effects)
 const eth1932=()=>{const e=ES[i];if(on.has('eth')&&(M.layers.eth||[]).includes(e.id)&&e.a<=1932&&1932<=e.b)Y=1932};eth1932();
