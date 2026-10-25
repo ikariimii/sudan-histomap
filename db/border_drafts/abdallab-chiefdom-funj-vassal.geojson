@@ -239,8 +239,8 @@
        "limit_cite": "MSM1972 p.149"
       }
      ],
-     "west_edge_note": "VERIFY: west edge unchanged from bd-0.1, pending a cited Kab Bulul coordinate from the Historian (MSM1972 p.149 'Kab Bulul at the borders of the Fur sultanate').",
-     "north_edge_note": "CONTESTED: northern limit is disputed, Aswan (Abdallab tradition, MSM1972 p.149) vs the Third Cataract (MSM1972 p.151). Drawn edge (~19.88N) is unchanged and not an endorsement of either. No CONTESTED point added: Third Cataract has no coordinate in our place data (Aswan does: db/cities.json, WIKIDATA_CITIES Q29888)."
+     "north_edge_note": "CONTESTED northern limit: Aswan (Abdallab tradition, MSM1972 p.149) vs the Third Cataract (other writers, MSM1972 p.151). Both shown as paired CONTESTED points; the drawn north edge (~19.88N) is unchanged and endorses neither.",
+     "west_edge_note": "West limit: MSM1972 p.149 names Kab Bulul 'at the borders of the Fur sultanate' as the western limit. Kab Bulul could not be located in any source (Historian search 2026-10-25, db/verify_cites_for_extents_historian.json ABDALLAB-W-KAB-BULUL, 19944c6), so the drawn west edge (unchanged from bd-0.1) is EDITORIAL and does not mark Kab Bulul."
     },
     "redraw_2026_10_25": "Redrawn by Sudan Map Designer on the Innovation Manager's decision (2026-10-25) to the MSM1972 p.149 limits: east edge extended to Suakin, south edge to Arbaji (union of the bd-0.1 shape with the convex hull of its eastern vertices plus the two places). APPROXIMATE, EDITORIAL; text not narrowed.",
     "vertex_sources": [
@@ -261,8 +261,118 @@
       "limit_cite": "MSM1972 p.149"
      }
     ],
-    "west_edge_note": "VERIFY: west edge unchanged from bd-0.1, pending a cited Kab Bulul coordinate from the Historian (MSM1972 p.149 'Kab Bulul at the borders of the Fur sultanate').",
-    "north_edge_note": "CONTESTED: northern limit is disputed, Aswan (Abdallab tradition, MSM1972 p.149) vs the Third Cataract (MSM1972 p.151). Drawn edge (~19.88N) is unchanged and not an endorsement of either. No CONTESTED point added: Third Cataract has no coordinate in our place data (Aswan does: db/cities.json, WIKIDATA_CITIES Q29888)."
+    "north_edge_note": "CONTESTED northern limit: Aswan (Abdallab tradition, MSM1972 p.149) vs the Third Cataract (other writers, MSM1972 p.151). Both shown as paired CONTESTED points; the drawn north edge (~19.88N) is unchanged and endorses neither.",
+    "west_edge_note": "West limit: MSM1972 p.149 names Kab Bulul 'at the borders of the Fur sultanate' as the western limit. Kab Bulul could not be located in any source (Historian search 2026-10-25, db/verify_cites_for_extents_historian.json ABDALLAB-W-KAB-BULUL, 19944c6), so the drawn west edge (unchanged from bd-0.1) is EDITORIAL and does not mark Kab Bulul."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.89973,
+     24.08892
+    ]
+   },
+   "properties": {
+    "era_id": "abdallab-chiefdom-funj-vassal",
+    "zone": "contested",
+    "confidence": 0.3,
+    "badges": [
+     "APPROXIMATE",
+     "CONTESTED",
+     "EDITORIAL"
+    ],
+    "basis": "Northern limit of Abdallab influence per Abdallab tradition: Aswan (MSM1972 p.149); contested with Third Cataract (MSM1972 p.151). Point marks the named place, not a line.",
+    "sources": [
+     {
+      "id": "MSM1972"
+     }
+    ],
+    "coord_source": "db/cities.json id 'aswan' (WIKIDATA_CITIES Q29888); same in Historian anchor file",
+    "status": "DRAFT",
+    "version": "bd-0.1 2026-10-25",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-25",
+     "commit": "19944c6",
+     "approved_via": "db/verify_cites_for_extents_historian.json item ABDALLAB-N-ASWAN (Historian handoff, applied by Sudan Map Designer)",
+     "zone": "contested",
+     "confidence": 0.3,
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED",
+      "EDITORIAL"
+     ],
+     "sources": [
+      "MSM1972"
+     ],
+     "basis_en": "Northern limit of Abdallab influence per Abdallab tradition: Aswan (MSM1972 p.149); contested with Third Cataract (MSM1972 p.151). Point marks the named place, not a line.",
+     "pages": "MSM1972 p.149",
+     "contested_point": [
+      32.89973,
+      24.08892
+     ],
+     "coord_source": "db/cities.json id 'aswan' (WIKIDATA_CITIES Q29888); same in Historian anchor file",
+     "contested_with": "Third Cataract",
+     "label_en": "Aswan: contested Abdallab northern limit"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.37,
+     19.76
+    ]
+   },
+   "properties": {
+    "era_id": "abdallab-chiefdom-funj-vassal",
+    "zone": "contested",
+    "confidence": 0.3,
+    "badges": [
+     "APPROXIMATE",
+     "CONTESTED",
+     "EDITORIAL"
+    ],
+    "basis": "Northern limit of Abdallab influence per other writers: Third Cataract of the Nile (MSM1972 p.151); contested with Aswan (MSM1972 p.149). Point marks the named place, not a line.",
+    "sources": [
+     {
+      "id": "MSM1972"
+     }
+    ],
+    "coord_source": "Wikidata Q71108004 P625 (19.76N 30.37E, precision 0.01), via Historian anchor file and re-read from wikidata.org 2026-10-25",
+    "status": "DRAFT",
+    "version": "bd-0.1 2026-10-25",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-25",
+     "commit": "19944c6",
+     "approved_via": "db/verify_cites_for_extents_historian.json item ABDALLAB-N-THIRD-CATARACT (Historian handoff, applied by Sudan Map Designer)",
+     "zone": "contested",
+     "confidence": 0.3,
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED",
+      "EDITORIAL"
+     ],
+     "sources": [
+      "MSM1972"
+     ],
+     "basis_en": "Northern limit of Abdallab influence per other writers: Third Cataract of the Nile (MSM1972 p.151); contested with Aswan (MSM1972 p.149). Point marks the named place, not a line.",
+     "pages": "MSM1972 p.151",
+     "contested_point": [
+      30.37,
+      19.76
+     ],
+     "coord_source": "Wikidata Q71108004 P625 (19.76N 30.37E, precision 0.01), via Historian anchor file and re-read from wikidata.org 2026-10-25",
+     "contested_with": "Aswan",
+     "label_en": "Third Cataract of the Nile: contested Abdallab northern limit"
+    }
    }
   }
  ]

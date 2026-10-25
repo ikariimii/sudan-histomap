@@ -66,12 +66,60 @@
      "confidence": 0.25,
      "confidence_word": "low",
      "low_confidence_overlay": true
+    },
+    {
+     "feature_index": 3,
+     "id": "zone-abdallab-chiefdom-funj-vassal-contested-2",
+     "label_en": "Aswan: contested Abdallab northern limit",
+     "symbol_class": "zone_contested",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED",
+      "EDITORIAL",
+      "SINGLE-SOURCE"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "MSM1972"
+     ],
+     "zone": "contested",
+     "confidence": 0.3,
+     "confidence_word": "low",
+     "low_confidence_overlay": true
+    },
+    {
+     "feature_index": 4,
+     "id": "zone-abdallab-chiefdom-funj-vassal-contested-3",
+     "label_en": "Third Cataract of the Nile: contested Abdallab northern limit",
+     "symbol_class": "zone_contested",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED",
+      "EDITORIAL",
+      "SINGLE-SOURCE"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "MSM1972"
+     ],
+     "zone": "contested",
+     "confidence": 0.3,
+     "confidence_word": "low",
+     "low_confidence_overlay": true
     }
    ],
    "borders_legend": [
     {
      "badge": "APPROXIMATE",
      "legend_en": "Approximate"
+    },
+    {
+     "badge": "CONTESTED",
+     "legend_en": "Contested (amber point, never a polygon)"
     },
     {
      "badge": "EDITORIAL",
@@ -1314,6 +1362,7 @@
   "extent_label_point",
   "list_only_text",
   "low_confidence",
+  "zone_contested",
   "zone_core",
   "zone_influence"
  ],
@@ -1338,10 +1387,11 @@
   "city_town": 4,
   "extent_label_point": 1,
   "list_only_text": 1,
-  "low_confidence": 2,
+  "low_confidence": 4,
+  "zone_contested": 2,
   "zone_core": 1,
   "zone_influence": 1,
-  "extent_features": 3,
+  "extent_features": 5,
   "group_features": 1,
   "cities": 35
  },
@@ -1402,7 +1452,9 @@
    "previous_era_id": "alodia-alwa",
    "basis": "previous era in same stream by start year",
    "extents_added": [
-    "Qerri (ʿAbdallab seat, reference marker)"
+    "Aswan: contested Abdallab northern limit",
+    "Qerri (ʿAbdallab seat, reference marker)",
+    "Third Cataract of the Nile: contested Abdallab northern limit"
    ],
    "extents_removed": [
     "Soba (capital)"
