@@ -30,7 +30,8 @@
   "GLEICHEN1905_V2",
   "LOC_ETH1991_NILOSAHARAN",
   "GHAV",
-  "EP1940_ANUAK"
+  "EP1940_ANUAK",
+  "GLEICHEN1905_V1"
  ],
  "source_langs": [
   "en"
@@ -65,23 +66,18 @@
   "mode": "homelands-layer",
   "reason": "The sources give ranges and rivers, not limits, so no territory polygon is drawn; the Homelands layer is the intended rendering.",
   "reason_ar": "تذكر المصادر نطاقات وأنهارًا لا حدودًا، لذلك لا يُرسم مضلّع للأراضي؛ وطبقة الأوطان هي طريقة العرض المقصودة. [WORKING TRANSLATION – needs native Arabic review]",
-  "source_id": "EP1940_NUER",
-  "page": "p.112",
+  "source_id": "GLEICHEN1905_V1",
+  "page": "p.132",
   "cites": [
    {
-    "source_id": "EP1940_NUER",
-    "page": "p.5",
-    "quote": "The Nuer, the Shilluk, and the Anuak each occupy a continuous territory"
+    "source_id": "GLEICHEN1905_V1",
+    "page": "p.132",
+    "quote": "a small tract of Anuak country, sandwiched in between the Dinkas in the west and the large and powerful Nuer tribe to the east"
    },
    {
-    "source_id": "EP1940_NUER",
-    "page": "p.112",
-    "quote": "the Pibor separates the Lou tribe from the Anuak people"
-   },
-   {
-    "source_id": "EP1940_NUER",
-    "page": "p.133",
-    "quote": "at one time the Anuak extended far westward of their present distribution"
+    "source_id": "GLEICHEN1905_V1",
+    "page": "p.134",
+    "quote": "The eastern Anuaks of the Baro (or Ufeno, as they call it) inhabit that portion of the river bank extending east of 34° 10' to the mouth of the Baro river gorge"
    }
   ]
  },

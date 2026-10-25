@@ -46,12 +46,12 @@
   "un_aid_agency": 35,
   "intl_financial": 24,
   "government": 50,
-  "scholarly": 241,
+  "scholarly": 240,
   "wikipedia_only": 75,
   "news": 5,
-  "other": 110
+  "other": 113
  },
- "source_types_grand_total": 540,
+ "source_types_grand_total": 542,
  "source_types_distinct_ids": {
   "un_aid_agency": 32,
   "intl_financial": 12,
@@ -59,7 +59,7 @@
   "scholarly": 72,
   "wikipedia_only": 74,
   "news": 4,
-  "other": 37
+  "other": 38
  },
  "source_types_method": "Per era: distinct registry IDs in data/eras/<id>.json sources, each classified once from data/periods.json meta.sources fields (publisher/author, then url domain, ISBN, note as fallback). Totals sum era counts (an ID cited by several eras counts once per era); source_types_distinct_ids counts each ID once overall. Rules in db/build_badge_counts.py header; unclear IDs -> other.",
  "eras_with_zero_badges": [],
@@ -340,9 +340,9 @@
     "scholarly": 3,
     "wikipedia_only": 0,
     "news": 0,
-    "other": 2
+    "other": 3
    },
-   "source_types_total": 6,
+   "source_types_total": 7,
    "counts": {
     "SINGLE-SOURCE": 9,
     "CONTESTED": 0,
@@ -727,10 +727,10 @@
     "un_aid_agency": 0,
     "intl_financial": 0,
     "government": 0,
-    "scholarly": 3,
+    "scholarly": 2,
     "wikipedia_only": 0,
     "news": 0,
-    "other": 1
+    "other": 2
    },
    "source_types_total": 4,
    "counts": {
@@ -2065,9 +2065,9 @@
     "scholarly": 2,
     "wikipedia_only": 0,
     "news": 0,
-    "other": 1
+    "other": 2
    },
-   "source_types_total": 3,
+   "source_types_total": 4,
    "counts": {
     "SINGLE-SOURCE": 6,
     "CONTESTED": 0,

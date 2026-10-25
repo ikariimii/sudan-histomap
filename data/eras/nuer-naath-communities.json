@@ -31,7 +31,8 @@
  "sources": [
   "EP1940_NUER",
   "GHA7_CH4",
-  "COW_NMC6"
+  "COW_NMC6",
+  "GLEICHEN1905_V1"
  ],
  "source_langs": [
   "en"
@@ -62,14 +63,9 @@
   "mode": "homelands-layer",
   "reason": "The sources give ranges and rivers, not limits, so no territory polygon is drawn; the Homelands layer is the intended rendering.",
   "reason_ar": "تذكر المصادر نطاقات وأنهارًا لا حدودًا، لذلك لا يُرسم مضلّع للأراضي؛ وطبقة الأوطان هي طريقة العرض المقصودة. [WORKING TRANSLATION – needs native Arabic review]",
-  "source_id": "EP1940_NUER",
-  "page": "p.112",
+  "source_id": "GLEICHEN1905_V1",
+  "page": "p.132",
   "cites": [
-   {
-    "source_id": "EP1940_NUER",
-    "page": "p.112",
-    "note": "tribal sections described by rivers (Zeraf, Pibor) that separate them from neighbours"
-   },
    {
     "source_id": "QASIM_MAWSUA",
     "vol": 6,
@@ -79,6 +75,16 @@
     "quote_en": "a Nilotic tribe living from Bahr al-Ghazal to the Sobat river",
     "quote_en_status": "working translation (Historian)",
     "ocr_note": "Checked against the page image (scan pdf_page 2473) on 2026-10-24: quote matches printed text."
+   },
+   {
+    "source_id": "GLEICHEN1905_V1",
+    "page": "p.132",
+    "quote": "The Nuer territory along the Sobat and Baro rivers extends from about east 32° 33' to about 34° 10'"
+   },
+   {
+    "source_id": "GLEICHEN1905_V1",
+    "page": "p.142",
+    "quote": "The inhabitants of the island formed by the Zeraf, Jebel, and White Nile are Nuers, who also occupy the right bank of the Zeraf from its mouth to about opposite Shambe"
    }
   ]
  },

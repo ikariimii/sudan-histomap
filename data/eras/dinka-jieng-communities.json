@@ -28,7 +28,7 @@
   "HD2011",
   "COW_NMC6",
   "GHA5_CH7",
-  "EP1940_NUER"
+  "GLEICHEN1905_V1"
  ],
  "source_langs": [
   "en"
@@ -74,9 +74,14 @@
     "ocr_note": "Checked against the page image (scan pdf_page 909) on 2026-10-24: quote matches printed text."
    },
    {
-    "source_id": "EP1940_NUER",
-    "page": "p.112",
-    "note": "Nuer–Dinka divisions described by rivers, not surveyed limits"
+    "source_id": "GLEICHEN1905_V1",
+    "page": "p.126",
+    "quote": "The Dinka country on the White Nile, extends from Jebelein southwards to about 10 miles south of Kodok"
+   },
+   {
+    "source_id": "GLEICHEN1905_V1",
+    "page": "p.132",
+    "quote": "The Dinka tribe thence occupy both banks of the river Sobat to about 32° 16' east"
    }
   ]
  },
