@@ -1,0 +1,41 @@
+{
+ "meta": {
+  "by": "Sudan Historian",
+  "date": "2026-10-25",
+  "for": "Map Designer (applies to db/extents; Historian does not edit db/extents)",
+  "rule": "page cites read in full only"
+ },
+ "items": [
+  {
+   "id": "CONDO-SOUTH-ABYEI-1905",
+   "target": "db/extents/southern-sudan-under-condominium-sudan.geojson, feature 0 (ssd-condominium-1899-1955)",
+   "action": "add period note (label_detail_en/_ar addition or period_note field)",
+   "replaces": "present-day Abyei note (3b9bab7 already dropped it from feature 4; nothing else to remove)",
+   "proposed_period_note_en": "In 1905 the Condominium transferred the nine Ngok Dinka chiefdoms (Sultan Rob's people) from Bahr al-Ghazal to Kordofan Province; this later defined the Abyei Area (PCA_ABYEI2009, Glossary 'Abyei Area'; para 669, p.234, quoting the March 1905 Sudan Intelligence Report). The line is not drawn.",
+   "proposed_period_note_ar": "في عام 1905 نقلت إدارة الحكم الثنائي مشيخات دينكا نقوك التسع (قوم السلطان روب) من بحر الغزال إلى مديرية كردفان، وهي ما عُرّفت به لاحقًا منطقة أبيي (PCA_ABYEI2009، المسرد «منطقة أبيي»؛ الفقرة 669، ص.234، نقلًا عن تقرير مخابرات السودان لشهر مارس 1905). الخط غير مرسوم. [Arabic text pending native-speaker review.]",
+   "source_id": "PCA_ABYEI2009",
+   "source": "Abyei Arbitration (GoS/SPLM/A), Final Award, PCA, 22 July 2009",
+   "url": "https://www.haguejusticeportal.net/Docs/Court%20Documents/PCA/Abyei_Final_Award_EN.pdf",
+   "alt_url": "https://pca-cpa.org/en/cases/92/",
+   "pins": [
+    {
+     "page": "Glossary (front matter)",
+     "quote": "Abyei Area or Formula: the area of the nine Ngok Dinka chiefdoms transferred to Kordofan in 1905"
+    },
+    {
+     "page": "para 669, p.234",
+     "quote": "It has been decided that Sultan Rob, whose country is on the Kir river, and Sheikh Rihan of Toj, mentioned in the last Intelligence Report, are to belong to Kordofan Province."
+    },
+    {
+     "page": "para 245, pp.85–86 (SPLM/A pleading, fuller quote)",
+     "quote": "These people have, on certain occasions, complained of raids made on them by southern Kordofan Arabs, and it has therefore been considered advisable to place them under the same Governor as the Arabs of whose conduct they complain."
+    }
+   ],
+   "read": "full 286-page PDF via pdftotext 2026-10-25",
+   "badges": [
+    "APPROXIMATE"
+   ],
+   "note": "the reasons for the transfer (para 245) are a party's pleading quoting the SIR; the note above states only the transfer itself"
+  }
+ ]
+}
