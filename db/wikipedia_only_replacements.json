@@ -7,9 +7,13 @@
  },
  "claims": [
   {
-   "era": "al-bashir-ncp-ingaz-regime", "start": 1989, "field": "culture_dominance_en",
+   "era": "al-bashir-ncp-ingaz-regime",
+   "start": 1989,
+   "field": "culture_dominance_en",
    "claim": "Islamisation from the early 1990s (RU_WIKI_HIST)",
-   "current_cites": ["RU_WIKI_HIST"],
+   "current_cites": [
+    "RU_WIKI_HIST"
+   ],
    "replacement": {
     "registry_id": "SFDAS_HCS2017",
     "citation": "Satti, Noureddine. Chapter 'Le Soudan aujourd'hui' (section 'Islamisme et politique au Soudan'), in Histoire et civilisations du Soudan. Soleb / Bleu autour / SFDAS, 2017.",
@@ -21,9 +25,13 @@
    "note": "The source dates the regime's Islamisation aim from the June 1989 coup. It does not say 'early 1990s'. The Historian should either match the text to the source or keep the wording and add [SINGLE-SOURCE]. I have not reworded anything."
   },
   {
-   "era": "al-bashir-ncp-ingaz-regime", "start": 1989, "field": "culture_dominance_en",
+   "era": "al-bashir-ncp-ingaz-regime",
+   "start": 1989,
+   "field": "culture_dominance_en",
    "claim": "sharia applied in the North only under the CPA (FR_WIKI_HIST)",
-   "current_cites": ["FR_WIKI_HIST"],
+   "current_cites": [
+    "FR_WIKI_HIST"
+   ],
    "replacement": {
     "registry_id": "CPA_2005",
     "citation": "The Comprehensive Peace Agreement between the Government of the Republic of the Sudan and the SPLM/SPLA (2005), Chapter I: The Machakos Protocol, s. 3.2.2.",
@@ -35,9 +43,13 @@
    "note": "Primary treaty text, 261 pp, downloaded and text-extracted in full on 2026-10-25. The UN Peacemaker copy returns 404, so I used the UCDP copy, which is the URL already in the registry."
   },
   {
-   "era": "eritrea-italian-colony-independent", "start": 1890, "field": "geopolitics_en",
+   "era": "eritrea-italian-colony-independent",
+   "start": 1890,
+   "field": "geopolitics_en",
    "claim": "Colonial phase (Italian colony from 1890) not covered by a read source [thin; WP:Eritrea only].",
-   "current_cites": ["WP:Eritrea"],
+   "current_cites": [
+    "WP:Eritrea"
+   ],
    "replacement": {
     "registry_id": "EEBC2002",
     "citation": "Eritrea-Ethiopia Boundary Commission, Decision regarding delimitation of the border between Eritrea and Ethiopia, 13 April 2002. UN Reports of International Arbitral Awards (RIAA) vol. XXV, pp. 83-195.",
@@ -47,6 +59,96 @@
     "quote": "On 1 January 1890, Italy formally established the Colony of Eritrea."
    },
    "note": "This is not a modern era (it starts in 1890) and is listed after the modern ones. The registry title of EEBC2002 still carries [VERIFY]. I read the decision in full on 2026-10-25, so the Historian may drop that tag. The bracketed note '[thin; WP:Eritrea only]' would then be out of date; any rewording is the Historian's call."
+  }
+ ],
+ "thread_eras": [
+  {
+   "era": "kingdom-of-kush-meroitic-period",
+   "wikipedia_ids_in_sources_list": [
+    "WP:Meroë",
+    "WP:Kingdom_of_Kush",
+    "WP:Amanirenas"
+   ],
+   "inline_uses": [],
+   "other_sources_in_list": [
+    "GHA2",
+    "WHC1336",
+    "NAGA_PROJ",
+    "DAI_MUSAWWARAT",
+    "FR_MUSEE_MEROE",
+    "ZH_EMB_HIST2020",
+    "EDWARDS2011",
+    "COW_NMC6",
+    "PL:795855",
+    "RILLY_SN22",
+    "GHA2_CH12",
+    "WELSBY1996"
+   ],
+   "status": "NO-WIKIPEDIA-ONLY-CLAIM",
+   "note": "Scanned every *_en sentence on 2026-10-25: each cited sentence carries a non-Wikipedia id, and these Wikipedia ids are cited inline nowhere in the era file. No claim depends on them, so there is nothing to replace. The Historian may drop them from the sources list; I have not edited data/."
+  },
+  {
+   "era": "kingdom-of-kerma",
+   "wikipedia_ids_in_sources_list": [
+    "WP:Kerma_culture"
+   ],
+   "inline_uses": [],
+   "other_sources_in_list": [
+    "KERMA_MISSION",
+    "GHA2",
+    "SFDAS_HCS2017",
+    "COW_NMC6",
+    "GHA2_CH12"
+   ],
+   "status": "NO-WIKIPEDIA-ONLY-CLAIM",
+   "note": "Scanned every *_en sentence on 2026-10-25: each cited sentence carries a non-Wikipedia id, and these Wikipedia ids are cited inline nowhere in the era file. No claim depends on them, so there is nothing to replace. The Historian may drop them from the sources list; I have not edited data/."
+  },
+  {
+   "era": "anglo-egyptian-sudan-condominium",
+   "wikipedia_ids_in_sources_list": [
+    "WP:Anglo-Egyptian_Sudan"
+   ],
+   "inline_uses": [],
+   "other_sources_in_list": [
+    "BRE_AES",
+    "GHA8",
+    "HD2011",
+    "GHA7_CH17",
+    "COW_NMC6"
+   ],
+   "status": "NO-WIKIPEDIA-ONLY-CLAIM",
+   "note": "Scanned every *_en sentence on 2026-10-25: each cited sentence carries a non-Wikipedia id, and these Wikipedia ids are cited inline nowhere in the era file. No claim depends on them, so there is nothing to replace. The Historian may drop them from the sources list; I have not edited data/."
+  },
+  {
+   "era": "mahdist-state-mahdiyya",
+   "wikipedia_ids_in_sources_list": [
+    "WP:Mahdist_State",
+    "WP:Battle_of_Omdurman"
+   ],
+   "inline_uses": [],
+   "other_sources_in_list": [
+    "GHA7_CH4",
+    "HD2011",
+    "COW_NMC6"
+   ],
+   "status": "NO-WIKIPEDIA-ONLY-CLAIM",
+   "note": "Scanned every *_en sentence on 2026-10-25: each cited sentence carries a non-Wikipedia id, and these Wikipedia ids are cited inline nowhere in the era file. No claim depends on them, so there is nothing to replace. The Historian may drop them from the sources list; I have not edited data/."
+  },
+  {
+   "era": "makuria",
+   "wikipedia_ids_in_sources_list": [
+    "WP_MAKURIA",
+    "WP:Baqt"
+   ],
+   "inline_uses": [],
+   "other_sources_in_list": [
+    "GHA2_CH12",
+    "WELSBY2002",
+    "COW_NMC6",
+    "DERDA_LAJTAR2019"
+   ],
+   "status": "NO-WIKIPEDIA-ONLY-CLAIM",
+   "note": "Scanned every *_en sentence on 2026-10-25: each cited sentence carries a non-Wikipedia id, and these Wikipedia ids are cited inline nowhere in the era file. No claim depends on them, so there is nothing to replace. The Historian may drop them from the sources list; I have not edited data/."
   }
  ]
 }
