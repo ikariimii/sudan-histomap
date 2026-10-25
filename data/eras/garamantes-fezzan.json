@@ -19,8 +19,8 @@
    "lon": 13.08
   }
  ],
- "geopolitics_en": "Salama calls the Garamantes, with Garama (Jerma) as chief town, the only organized state of the Saharan interior. They dominated the Fezzan and took tribute from its peoples. They resisted Rome, were beaten in −19 and +69, and then became a client state; their civilization lasted about ten centuries, up to the Arabs (GHA II ch.20, p.522). Roman sources have Maternus travelling with the Garamantian king against the 'Ethiopians' as far as Agisymba (p.517); the location is uncertain.",
- "geopolitics_ar": "يصف سالاما الجرمنت، وعاصمتهم جرمة، بأنهم الدولة المنظمة الوحيدة في داخل الصحراء. فقد سيطروا على فزان وفرضوا الإتاوة على شعوبها. وقاوموا روما، فهُزموا عام 19 ق.م. وعام 69م، ثم صاروا دولة تابعة؛ ودامت حضارتهم نحو عشرة قرون حتى مجيء العرب (تاريخ أفريقيا العام II، الفصل 20، ص522). وتذكر المصادر الرومانية أن ماتيرنوس رافق ملك الجرمنت في حملة على «الإثيوبيين» حتى أجيسيمبا (ص517)، وموقعها غير مؤكد. [WORKING TRANSLATION – needs native Arabic review]",
+ "geopolitics_en": "Salama calls the Garamantes, with Garama (Jerma) as chief town, the only organized state of the Saharan interior. They dominated the Fezzan and took tribute from its peoples. They resisted Rome, were beaten in −19 and +69, and then became a client state; their civilization lasted about ten centuries, up to the Arabs (GHA II ch.20, p.522). Roman sources have Maternus travelling with the Garamantian king against the 'Ethiopians' as far as Agisymba (p.517); the location is uncertain. Mahjoubi confirms that Cornelius Balbus attacked the Garamantes in −19 and that Julius Maternus reached Garama and travelled on 'accompanied by the king of the Garamantes and his army' (GHA II ch.19, p.490). Warmington adds that 'it was via the Garamantes that the Romans obtained more knowledge of the interior' (ch.18, p.451).",
+ "geopolitics_ar": "يصف سالاما الجرمنت، وعاصمتهم جرمة، بأنهم الدولة المنظمة الوحيدة في داخل الصحراء. فقد سيطروا على فزان وفرضوا الإتاوة على شعوبها. وقاوموا روما، فهُزموا عام 19 ق.م. وعام 69م، ثم صاروا دولة تابعة؛ ودامت حضارتهم نحو عشرة قرون حتى مجيء العرب (تاريخ أفريقيا العام II، الفصل 20، ص522). وتذكر المصادر الرومانية أن ماتيرنوس رافق ملك الجرمنت في حملة على «الإثيوبيين» حتى أجيسيمبا (ص517)، وموقعها غير مؤكد. [WORKING TRANSLATION – needs native Arabic review] ويؤكد المحجوبي أن كورنيليوس بالبوس هاجم الجرمنت سنة 19 ق.م، وأن يوليوس ماترنوس بلغ جرمة ومضى «يرافقه ملك الجرمنت وجيشه» (الجزء الثاني، الفصل 19، ص490). ويضيف وورمنغتون أن الرومان عرفوا المزيد عن الداخل الأفريقي «عن طريق الجرمنت» (الفصل 18، ص451).",
  "culture_dominance_en": "The Garamantian state had a Berber-type tribal hierarchy under a supreme chief (agueklid). The central and southern Sahara stayed animist; a claimed late-6th-century conversion is not confirmed by archaeology (GHA II ch.20, p.522). Their famous chariots were probably parade vehicles, not war or trade carts (p.528).",
  "culture_dominance_ar": "كانت دولة الجرمنت ذات تراتبية قبلية من النمط الأمازيغي تحت زعيم أعلى (أغليد). وبقيت الصحراء الوسطى والجنوبية على الديانات الإحيائية؛ ولم تؤكد الآثار ما يُروى عن تنصّر في أواخر القرن السادس (تاريخ أفريقيا العام II، الفصل 20، ص522). وكانت عرباتهم الشهيرة على الأرجح عربات استعراض لا عربات حرب أو تجارة (ص528). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "The Garamantes channelled Saharan trade north to the Syrtic ports. From Garama, routes ran east towards the Nile valley, either by the northern oases (Zuila, Zella, Aujila, Siwa) or by a southern line through Kufra (GHA II ch.20, p.526). This is the only Sudan-facing link in the source, and it concerns routes, not recorded exchange.",
@@ -29,7 +29,8 @@
  "sources": [
   "GHA2_CH20",
   "COW_NMC6",
-  "GHA2_CH12",
+  "GHA2_CH18",
+  "GHA2_CH19",
   "WP:Garamantes"
  ],
  "source_langs": [
@@ -37,7 +38,8 @@
  ],
  "flags": [
   "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
-  "SINGLE-SOURCE – GHA II ch.20 (Salama) only; no direct Garamantes–Nile-valley contact is documented in it, only routes"
+  "Pass 34: second and third sources found – GHA II ch.18 p.451 (Warmington) and ch.19 p.490 (Mahjoubi) confirm Balbus's attack of −19 and Maternus's journey with the Garamantian king; SINGLE-SOURCE lifted. Still no direct Garamantes–Nile-valley contact documented in GHA I–III or MacMichael (routes only)",
+  "Pass 34 text: Arabic is a [WORKING TRANSLATION – needs native Arabic review]"
  ],
  "curated": true,
  "power_cinc_share": [

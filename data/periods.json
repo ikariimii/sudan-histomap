@@ -405,6 +405,16 @@
     "note": "Read 2026-10-24. Constitute Project translation (Jefri J. Ruchti tr.); citation only, short quotes.",
     "via": "research_patch Pass 32"
    },
+   "CAR_CONST2023": {
+    "author": "Central African Republic",
+    "title": "Constitution de la République centrafricaine, promulguée le 30 août 2023 (Digithèque MJP text, via ILO NATLEX)",
+    "year": "2023",
+    "lang": "fr",
+    "pages": "Art. 1",
+    "url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/118285/CAF-118285.pdf",
+    "note": "Read 2026-10-24. Citation only, short quote.",
+    "via": "research_patch Pass 34"
+   },
    "COW_NMC6": {
     "author": "Singer, Bremer & Stuckey (1972); Greig & Enterline (v6.0)",
     "title": "Correlates of War National Material Capabilities v6.0 (abridged CSV)",
@@ -2596,6 +2606,26 @@
     "id": "GHA2_CH16_P385_415",
     "via": "db/regional_extents_sources.json"
    },
+   "GHA2_CH18": {
+    "author": "B. H. Warmington",
+    "title": "The Carthaginian period, ch.18 (General History of Africa II)",
+    "year": "1981",
+    "lang": "en",
+    "pages": "pp.441–464; Pass 34: p.451",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265",
+    "note": "UNESCO GHA II, read from the full text on the box.",
+    "via": "research_patch Pass 34"
+   },
+   "GHA2_CH19": {
+    "author": "A. Mahjoubi and P. Salama",
+    "title": "The Roman and post-Roman period in North Africa, ch.19 (General History of Africa II)",
+    "year": "1981",
+    "lang": "en",
+    "pages": "pp.465–512; Pass 34: p.490 (Part I, Mahjoubi)",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265",
+    "note": "UNESCO GHA II, read from the full text on the box.",
+    "via": "research_patch Pass 34"
+   },
    "GHA2_CH2": {
     "author": "A. Abu Bakr",
     "title": "Pharaonic Egypt, ch.2 (General History of Africa II)",
@@ -3199,6 +3229,17 @@
     "note": "Volume-level citation; chapters not checked",
     "pages": "",
     "lang": "en"
+   },
+   "GLEICHEN1905_V2": {
+    "author": "Count Gleichen (ed.)",
+    "title": "The Anglo-Egyptian Sudan: a compendium prepared by officers of the Sudan Government, Vol. II (Routes)",
+    "publisher": "HMSO",
+    "year": "1905",
+    "lang": "en",
+    "pages": "Route 138 (Gore to Abwong, on Sobat)",
+    "url": "https://archive.org/details/angloegyptiansud02glei_0",
+    "note": "Colonial intelligence compendium (public domain); read via the Internet Archive OCR text. Outsider, route-report view.",
+    "via": "research_patch Pass 34"
    },
    "HD2011": {
     "author": "P.M. Holt & M.W. Daly",
@@ -7281,7 +7322,7 @@
     }
    ],
    "sources": [
-    "GHA2_CH12",
+    "GHA2_CH19",
     "WP:A-Group_culture"
    ],
    "dating_note": "UNESCO GHA II ch.9 (Sherif) places the A-Group's flowering c.3100 BCE, contemporary with Egypt's 1st Dynasty; -3800 start is a broad conventional bracket. Qustul coordinates corrected (Wikidata).",
@@ -7308,7 +7349,7 @@
    ],
    "sources": [
     "PL:795777",
-    "GHA2_CH12",
+    "GHA2_CH19",
     "WP:C-Group_culture"
    ],
    "dating_note": "GHA II ch.9: C-Group appears late Old Kingdom/First Intermediate Period and lasts until Egyptianisation of Nubia in the 16th c. BCE; -2400 start sits at the early edge. Aniba verified: Pleiades 795777 (BAtlas 81 C3).",
@@ -7337,7 +7378,7 @@
    ],
    "sources": [
     "KERMA_MISSION",
-    "GHA2_CH12",
+    "GHA2_CH19",
     "WP:Kerma_culture"
    ],
    "dating_note": "Corrected to Swiss Archaeological Mission chronology (kerma.ch). Note GHA II (1981) still dates 'Kerma' to -1730/-1580, i.e. only the Classic phase; superseded by Bonnet/Honegger excavations.",
@@ -7377,7 +7418,7 @@
    ],
    "sources": [
     "WHC1073",
-    "GHA2_CH12",
+    "GHA2_CH19",
     "WP:Viceroy_of_Kush"
    ],
    "dating_note": "WHC: Gebel Barkal sacred to Amun since c.1500 BCE. Soleb/Kurgus coordinates from Wikidata (approximate).",
@@ -7425,7 +7466,7 @@
     }
    ],
    "sources": [
-    "GHA2_CH12",
+    "GHA2_CH19",
     "WELSBY1996",
     "WHC1073",
     "WP:Kingdom_of_Kush",
@@ -7493,7 +7534,7 @@
    "sources": [
     "PL:795855",
     "RILLY_SN22",
-    "GHA2_CH12",
+    "GHA2_CH19",
     "WHC1336",
     "WELSBY1996",
     "WP:Meroë",
@@ -7531,7 +7572,7 @@
    "sources": [
     "PL:795783",
     "WELSBY2002",
-    "GHA2_CH12",
+    "GHA2_CH19",
     "WP:Ballana_culture"
    ],
    "dating_note": "Approximate. Ballana coordinates verified: Pleiades 795783 (Barrington Atlas 81 B3). Site now under Lake Nasser.",
@@ -7563,8 +7604,9 @@
    ],
    "sources": [
     "WELSBY2002",
-    "GHA2_CH12",
+    "GHA2_CH19",
     "WP:Nobadia",
+    "GHA2_CH12",
     "DERDA_LAJTAR2019"
    ],
    "dating_note": "Christianisation c.543 and merger with Makuria (7th c.) per standard accounts; specific dates not re-verified in a primary source in this pass. Merger with Makuria: date disputed. GHA II ch.12 (Michałowski, pp.332–333) gives two versions: Maqrizi has one king, Qalidurut, ruling central and northern Nubia by the mid-7th c.; 'Christian sources seem to prove that the union of Nubia was the work of King Merkurios, who came to the throne in 697.' Derda & Łajtar (2019, p.136 and n.4): 'perhaps around 630'; the earliest indubitable proof of a greater Makuria including Nobadia is the reign of Merkurios (late 7th–early 8th c.); incorporation probably before the Arab raid on Dongola in 652; Godlewski has suggested the end of the 6th c. Welsby 2002 not read on this point.",
@@ -8272,7 +8314,7 @@
     }
    ],
    "sources": [
-    "GHA2_CH12",
+    "GHA2_CH19",
     "WP:Old_Kingdom_of_Egypt"
    ],
    "dating_note": "",
@@ -8298,7 +8340,7 @@
     }
    ],
    "sources": [
-    "GHA2_CH12",
+    "GHA2_CH19",
     "WP:Middle_Kingdom_of_Egypt"
    ],
    "dating_note": "",
@@ -8324,7 +8366,7 @@
     }
    ],
    "sources": [
-    "GHA2_CH12",
+    "GHA2_CH19",
     "WP:New_Kingdom_of_Egypt"
    ],
    "dating_note": "",
@@ -8350,7 +8392,7 @@
     }
    ],
    "sources": [
-    "GHA2_CH12",
+    "GHA2_CH19",
     "WP:Late_Period_of_ancient_Egypt"
    ],
    "dating_note": "",
@@ -8375,7 +8417,7 @@
     }
    ],
    "sources": [
-    "GHA2_CH12",
+    "GHA2_CH19",
     "WP:Ptolemaic_Kingdom"
    ],
    "dating_note": "",
@@ -8401,7 +8443,7 @@
     }
    ],
    "sources": [
-    "GHA2_CH12",
+    "GHA2_CH19",
     "WP:Egypt_(Roman_province)"
    ],
    "dating_note": "",
@@ -8557,7 +8599,7 @@
     }
    ],
    "sources": [
-    "GHA2_CH12",
+    "GHA2_CH19",
     "WP:Dʿmt"
    ],
    "dating_note": "Approximate",
@@ -8588,7 +8630,7 @@
     }
    ],
    "sources": [
-    "GHA2_CH12",
+    "GHA2_CH19",
     "WP:Kingdom_of_Aksum",
     "WP:Ezana_of_Axum"
    ],
@@ -8841,7 +8883,7 @@
     }
    ],
    "sources": [
-    "GHA2_CH12",
+    "GHA2_CH19",
     "WP:Garamantes"
    ],
    "dating_note": "",
@@ -8946,7 +8988,7 @@
     }
    ],
    "sources": [
-    "GHA2_CH12",
+    "GHA2_CH19",
     "WP:Sabaeans"
    ],
    "dating_note": "Approximate",
@@ -9066,7 +9108,7 @@
    ],
    "sources": [
     "HD2011",
-    "GHA2_CH12"
+    "GHA2_CH19"
    ],
    "dating_note": "Start c.275 CE = earliest dated Blemmyes activity in GHA II ch.7 (Probus 276–282). The Blemmyes=Beja equation is customary, NOT proven (GHA II ch.10); GHA II ch.11 says earlier Meroitic-era Majai/Reheres 'could have been' Beja ancestors, so earlier origins are possible. Ongoing people, not a polity.",
    "key_events_ar": [

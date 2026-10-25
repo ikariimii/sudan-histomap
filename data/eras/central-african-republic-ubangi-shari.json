@@ -21,13 +21,14 @@
  ],
  "geopolitics_en": "Since the 2023 war, the RSF is reported to be increasingly crossing into CAR, doing business and recruiting fighters from armed groups there, while a UN report confirms the Sudanese army stepping up air raids along the CAR border; Crisis Group says the incursions have greatly worsened criminal violence in the north, especially Vakaga prefecture (ICG_RADAR2024, 21 Jun 2024) [VERIFY]. UNHCR reports allegations of RSF presence in Vakaga, which hosts most Sudanese refugees in CAR [REPORTED]; most arrive via Am Dafock, 65 km from Birao, and the Korsi settlement at Birao held 11,196 refugees by 13 Apr 2024 (UNHCR_CAR2024) [VERIFY]. Colonial Ubangi-Shari and pre-2023 relations not covered by a read source [thin].",
  "geopolitics_ar": "منذ حرب 2023 تفيد التقارير بأن قوات الدعم السريع تعبر بشكل متزايد إلى جمهورية أفريقيا الوسطى، فتمارس التجارة وتجند مقاتلين من الجماعات المسلحة هناك، بينما يؤكد تقرير أممي تكثيف الجيش السوداني غاراته الجوية على طول الحدود؛ وتقول مجموعة الأزمات إن هذه التوغلات فاقمت العنف الإجرامي في الشمال، خاصة في محافظة فاكاغا (ICG_RADAR2024، 21 يونيو 2024) [يحتاج تحقق]. وتورد المفوضية ادعاءات بوجود الدعم السريع في فاكاغا التي تستضيف معظم اللاجئين السودانيين في البلاد؛ ويصل أغلبهم عبر أم دافوك على بعد 65 كم من بيراو، وبلغ عدد اللاجئين في مستوطنة كورسي ببيراو 11,196 بحلول 13 أبريل 2024 (UNHCR_CAR2024) [يحتاج تحقق]. أما أوبانغي-شاري الاستعمارية والعلاقات قبل 2023 فلم يغطها مصدر مقروء. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
- "culture_dominance_en": "The 2016 constitution defines a secular republic whose \"national language is Sango\" and whose official languages are Sango and French (CAR Constitution 2016, Art. 24). Present-day state only; no cited source on colonial-era Ubangi-Shari culture.",
- "culture_dominance_ar": "يعرّف دستور 2016 جمهوريةً علمانية «لغتها الوطنية هي السانغو» ولغتاها الرسميتان السانغو والفرنسية (دستور جمهورية أفريقيا الوسطى 2016، المادة 24). يخص الدولة الحالية فقط؛ لا يوجد مصدر موثّق عن ثقافة أوبانغي-شاري في الحقبة الاستعمارية.",
+ "culture_dominance_en": "The 2016 constitution defines a secular republic whose \"national language is Sango\" and whose official languages are Sango and French (CAR Constitution 2016, Art. 24). Present-day state only; no cited source on colonial-era Ubangi-Shari culture. The 2023 constitution, which replaced it, keeps this: 'Sa langue nationale est le Sängö. Ses langues officielles sont le français et le Sängö' (CAR Constitution 2023, Art. 1).",
+ "culture_dominance_ar": "يعرّف دستور 2016 جمهوريةً علمانية «لغتها الوطنية هي السانغو» ولغتاها الرسميتان السانغو والفرنسية (دستور جمهورية أفريقيا الوسطى 2016، المادة 24). يخص الدولة الحالية فقط؛ لا يوجد مصدر موثّق عن ثقافة أوبانغي-شاري في الحقبة الاستعمارية. ويحتفظ دستور 2023 الذي حلّ محله بذلك: «لغتها الوطنية السانغو، ولغتاها الرسميتان الفرنسية والسانغو» (دستور 2023، المادة 1).",
  "economy_en": "Crisis Group warns trade disruption from the incursions could aggravate the humanitarian situation in northern CAR (ICG_RADAR2024) [SINGLE-SOURCE; VERIFY].",
  "economy_ar": "تحذر مجموعة الأزمات من أن تعطل التجارة بسبب التوغلات قد يفاقم الوضع الإنساني في شمال أفريقيا الوسطى (ICG_RADAR2024) [مصدر واحد؛ يحتاج تحقق]. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
  "regional_power": [],
  "sources": [
   "CAR_CONST2016",
+  "CAR_CONST2023",
   "COW_NMC6",
   "WB_WDI_API",
   "ICG_RADAR2024",
@@ -37,12 +38,14 @@
   "WP:Central_African_Republic"
  ],
  "source_langs": [
-  "en"
+  "en",
+  "fr"
  ],
  "flags": [
   "regional_power: no actors scored",
-  "SINGLE-SOURCE culture_dominance (CAR Constitution 2016, Art. 24); covers the modern republic only, not 1903–1960 (Pass 32)",
   "Pass 32 text: Arabic is a [WORKING TRANSLATION – needs native Arabic review]",
+  "SINGLE-SOURCE (issuer) culture_dominance – two primary texts of the same state agree (CAR Constitution 2016 Art. 24; 2023 Art. 1); no independent secondary source found (GHA VII–VIII silent on Sango; CIA World Factbook retired Feb 2026); modern republic only, not 1903–1960 (Pass 34)",
+  "Pass 34 text: Arabic is a [WORKING TRANSLATION – needs native Arabic review]",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
   "[PARTIAL COVERAGE] era 1903–2026; scored on 1960–2016 only; years outside are null (pre-state, pre-1816 or post-2016)",
   "Colonial and 1960–2022 relations thin",

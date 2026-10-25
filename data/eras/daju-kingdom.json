@@ -19,8 +19,8 @@
    "lon": 24.3
   }
  ],
- "geopolitics_en": "Balfour-Paul (as summarised by Theobald 1965, reported by Takana 2016, p.51) says the Dajo sultanate controlled the southern part of Darfur, while the Tunjur held the north. Its founders were immigrants from abroad, and power passed between the Dajo, Tunjur and Fur 'without much bloodshed'. Arkell went further and called the Dajo and Tunjur kingdoms extensions of Borno (Takana 2016, p.6). That claim is contested and is reported here only second-hand. Dates and limits are not given in these sources.",
- "geopolitics_ar": "يقول بلفور-بول (كما لخّصه ثيوبالد 1965، ونقله تكنة 2016، ص51) إن سلطنة الداجو سيطرت على الجزء الجنوبي من دارفور، بينما سيطر التنجر على الشمال. وكان مؤسسوها مهاجرين من الخارج، وانتقلت السلطة بين الداجو والتنجر والفور «دون كثير من إراقة الدماء». وذهب آركل أبعد من ذلك فعدّ مملكتي الداجو والتنجر امتداداً لبرنو (تكنة 2016، ص6). وهذا الرأي خلافي ويُنقل هنا بصورة غير مباشرة فقط. ولا تذكر هذه المصادر تواريخ أو حدوداً. [WORKING TRANSLATION – needs native Arabic review]",
+ "geopolitics_en": "Balfour-Paul (as summarised by Theobald 1965, reported by Takana 2016, p.51) says the Dajo sultanate controlled the southern part of Darfur, while the Tunjur held the north. Its founders were immigrants from abroad, and power passed between the Dajo, Tunjur and Fur 'without much bloodshed'. Arkell went further and called the Dajo and Tunjur kingdoms extensions of Borno (Takana 2016, p.6). That claim is contested and is reported here only second-hand. Dates and limits are not given in these sources. GHA IV agrees that there is 'general agreement only on the fairly peaceful succession of power from the Dädju in the south to the Tundjur in the north and finally to the Für', and adds that the two 'may have flourished for some time simultaneously' (GHA IV ch.16, p.420). MacMichael says each 'in turn was the most powerful tribe' and their 'main spheres … were always distinct' (1922, vol. I, p.67).",
+ "geopolitics_ar": "يقول بلفور-بول (كما لخّصه ثيوبالد 1965، ونقله تكنة 2016، ص51) إن سلطنة الداجو سيطرت على الجزء الجنوبي من دارفور، بينما سيطر التنجر على الشمال. وكان مؤسسوها مهاجرين من الخارج، وانتقلت السلطة بين الداجو والتنجر والفور «دون كثير من إراقة الدماء». وذهب آركل أبعد من ذلك فعدّ مملكتي الداجو والتنجر امتداداً لبرنو (تكنة 2016، ص6). وهذا الرأي خلافي ويُنقل هنا بصورة غير مباشرة فقط. ولا تذكر هذه المصادر تواريخ أو حدوداً. [WORKING TRANSLATION – needs native Arabic review] ويتفق الجزء الرابع من التاريخ العام لأفريقيا على «انتقال سلمي إلى حد ما للسلطة من الداجو في الجنوب إلى التنجر في الشمال ثم إلى الفور»، ويضيف أن الدولتين ربما ازدهرتا متزامنتين بعض الوقت (الفصل 16، ص420). ويقول ماكمايكل إن كلاً منهما كانت «بدورها أقوى قبيلة» وإن مجاليهما الرئيسيين ظلا متمايزين (1922، المجلد الأول، ص67).",
  "culture_dominance_en": "Dajo oral traditions claim a migration into Darfur from the east (the Nile), although the Dajo also have clans around Lake Chad (Takana 2016, p.68). Takana says all the Darfur kingdoms, including the Dajo, 'were associated with the Arabs from the beginning' (Takana 2016, p.52). He dates Darfur's customary law to 'the rise of the early Darfur sultanates of Dajo and Tunjur' (p.109). Oral tradition, reported second-hand.",
  "culture_dominance_ar": "تذكر روايات الداجو الشفهية هجرةً إلى دارفور من الشرق (النيل)، مع أن للداجو أيضاً عشائر حول بحيرة تشاد (تكنة 2016، ص68). ويقول تكنة إن ممالك دارفور كلها، ومنها الداجو، «ارتبطت بالعرب منذ البداية» (تكنة 2016، ص52). ويؤرّخ القانون العرفي في دارفور بـ«قيام سلطنتي الداجو والتنجر المبكرتين» (ص109). رواية شفهية منقولة بصورة غير مباشرة. [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "Hasan & Ogot report the oral tradition that the Daju kingdom 'flourished during the thirteenth and fourteenth centuries' and that, 'on losing control over the trade', the Daju were succeeded by the Tunjur early in the 15th century (GHA V ch.7, p.187). Which trade is not specified. Oral tradition, reported second-hand.",
@@ -29,6 +29,8 @@
  "sources": [
   "TAKANA2016",
   "COW_NMC6",
+  "GHA4_CH16",
+  "MACMICHAEL1922_V1",
   "GHA5_CH7",
   "OFAHEY2008",
   "WP:Daju_people",
@@ -39,10 +41,11 @@
  ],
  "flags": [
   "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
-  "SINGLE-SOURCE (Takana 2016, which reports al-Tunisi, Nachtigal, Arkell and Balfour-Paul second-hand; O'Fahey 2008 not read)",
   "CONTESTED – Arkell's 'extension of Borno' thesis (reported in Takana p.6); Dajo dating not given in sources read",
-  "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
-  "SINGLE-SOURCE – Daju economy rests on oral tradition reported in GHA V p.187"
+  "Pass 34: second source found – GHA IV ch.16 p.420 ('fairly peaceful succession of power from the Dädju in the south to the Tundjur in the north and finally to the Für') and MacMichael 1922 vol. I pp.67, 76. Not fully independent: GHA IV n.48 rests on Balfour-Paul 1955, as Takana does. Dates disagree: MacMichael p.76 'about the sixteenth century' for the Tunjur take-over vs GHA V p.187 'beginning of the fifteenth century'",
+  "SINGLE-SOURCE – Daju economy rests on oral tradition reported in GHA V p.187 (Pass 34: kept; MacMichael 1922 vol. I p.74 describes 20th-century Daju farming and cattle, not the kingdom's trade; GHA IV ch.16 pp.420–421 silent on Daju trade)",
+  "Pass 34 text: Arabic is a [WORKING TRANSLATION – needs native Arabic review]",
+  "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field"
  ],
  "curated": true,
  "power_cinc_share": [
