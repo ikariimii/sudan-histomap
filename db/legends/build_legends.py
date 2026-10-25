@@ -19,6 +19,27 @@ HOM = J('db/group_layers/homelands.geojson')['features']
 NOW = 2026
 SYM = J('db/era_symbols.json')['eras']
 FOC = J('db/era_focus.json')['eras']
+SPEC = J('db/legends/legend_spec.json')
+_eco = J('db/era_economy.json') if os.path.exists(os.path.join(R, 'db/era_economy.json')) else {}
+ECO = (_eco.get('eras') if isinstance(_eco.get('eras'), dict) else {k: v for k, v in _eco.items() if k != 'meta' and isinstance(v, dict)}) if isinstance(_eco, dict) else {}
+
+def economy_layer(sl):
+    """Economy rating legend row; only for eras with an entry in db/era_economy.json."""
+    e = ECO.get(sl)
+    if not e: return None
+    r = e.get('rating') if e.get('rating') in ('good', 'mixed', 'bad', 'unknown') else 'unknown'
+    b = badges(e) | set(e.get('rating_badges') or [])
+    sty = next(c for c in SPEC['economy_rating']['classes'] if c['rating'] == r)
+    return {'file': 'db/era_economy.json', 'rating': r, 'symbol_class': sty['id'], 'badges': sorted(b),
+            'editorial_marker': 'EDITORIAL' in b, 'rating_basis_en': e.get('rating_basis_en'),
+            'cite': e.get('cite') or e.get('rating_cite')}
+
+def route_layer(sl):
+    f = os.path.join(R, 'db/trade_routes', sl + '.geojson')
+    if not os.path.exists(f): return []
+    return [{'id': x['properties']['id'], 'label_en': x['properties'].get('label_en'), 'commodity': x['properties'].get('commodity'),
+             'symbol_class': 'trade_route', 'badges': x['properties'].get('badges') or [], 'cite': x['properties'].get('cite')}
+            for x in json.load(open(f, encoding='utf-8'))['features']]
 
 def flag_layer(sl):
     v = SYM.get(sl) or {}; fl = v.get('flag'); anc = (FOC.get(sl) or {}).get('flag_anchor')
@@ -108,6 +129,15 @@ def era(i, p):
                                   'drawn': sum(1 for f in HOM if f['geometry']), 'list_only': sum(1 for f in HOM if not f['geometry'])}
     out['layers']['flags'] = flag_layer(sl)
     if out['layers']['flags']['flags'] and out['layers']['flags']['anchor']: cls['flag'] = len(out['layers']['flags']['flags'])
+    ec = economy_layer(sl)
+    if ec:
+        out['layers']['economy'] = ec; cls[ec['symbol_class']] = 1; bs |= set(ec['badges'])
+        if ec['editorial_marker']: cls['economy_editorial_marker'] = 1
+    rt = route_layer(sl)
+    if rt:
+        out['layers']['trade_routes'] = {'file': f'db/trade_routes/{sl}.geojson', 'features': rt}
+        cls['trade_route'] = len(rt)
+        for x in rt: bs |= set(x['badges'])
     out['symbol_classes_present'] = sorted(cls); out['counts'] = dict(sorted(cls.items()))
     out['counts'].update({'extent_features': len(ext), 'group_features': len(grp), 'cities': len(cit)})
     out['badges_present'] = sorted(bs)

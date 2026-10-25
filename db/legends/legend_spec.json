@@ -579,5 +579,95 @@
    "low_confidence_overlay": "low_confidence class when confidence < 0.5",
    "editorial_forced_below": 0.4
   }
+ },
+ "economy_rating": {
+  "file": "db/era_economy.json",
+  "field": "rating",
+  "added": "2026-10-25",
+  "rule": "Shown only in eras with an entry in db/era_economy.json. Rating never by colour alone: each has a distinct shape + glyph; Okabe-Ito hues, checked in greyscale and deuteranopia/protanopia (good vs bad differ by shape and direction, not only hue).",
+  "classes": [
+   {
+    "id": "economy_good",
+    "rating": "good",
+    "fill": "#009E73",
+    "stroke": "#00543F",
+    "shape": "triangle_up",
+    "glyph": "▲",
+    "label_en": "Economy: good",
+    "label_ar": "الاقتصاد: جيد",
+    "label_ar_status": "needs native review"
+   },
+   {
+    "id": "economy_mixed",
+    "rating": "mixed",
+    "fill": "#E69F00",
+    "stroke": "#7A5500",
+    "shape": "diamond",
+    "glyph": "◆",
+    "label_en": "Economy: mixed",
+    "label_ar": "الاقتصاد: متباين",
+    "label_ar_status": "needs native review"
+   },
+   {
+    "id": "economy_bad",
+    "rating": "bad",
+    "fill": "#D55E00",
+    "stroke": "#6E3100",
+    "shape": "triangle_down",
+    "glyph": "▼",
+    "label_en": "Economy: bad",
+    "label_ar": "الاقتصاد: سيئ",
+    "label_ar_status": "needs native review"
+   },
+   {
+    "id": "economy_unknown",
+    "rating": "unknown",
+    "fill": "#BBBBBB",
+    "stroke": "#666666",
+    "shape": "circle",
+    "glyph": "?",
+    "label_en": "Economy: unknown (no source)",
+    "label_ar": "الاقتصاد: غير معروف (لا مصدر)",
+    "label_ar_status": "needs native review"
+   }
+  ],
+  "editorial_marker": {
+   "when": "rating badges include EDITORIAL",
+   "style": "dotted ring around the symbol, stroke #000000, width 1.5px, dash [1,2], gap 2px",
+   "label_en": "Editorial judgement (no source states the rating directly)",
+   "label_ar": "تقدير تحريري (لا يذكر مصدر التقييم مباشرة)",
+   "label_ar_status": "needs native review"
+  },
+  "chip": "Web Lead renders as Economy chip on era card; the glyph + label are shown with the colour."
+ },
+ "trade_route": {
+  "id": "trade_route",
+  "geometry": "line",
+  "file_pattern": "db/trade_routes/<era>.geojson",
+  "builder": "db/trade_routes/build_trade_routes.py",
+  "style": {
+   "dash": [
+    6,
+    4
+   ],
+   "width": 2,
+   "arrow": "arrowhead at to_id end; both ends if direction == \"both\"",
+   "opacity": 0.85,
+   "casing": "#FFFFFF 1px for contrast"
+  },
+  "colour_by": "commodity (case-insensitive match); otherwise default",
+  "commodity_colours": {
+   "gold": "#F0E442",
+   "ivory": "#CC79A7",
+   "iron": "#56B4E9",
+   "grain": "#009E73",
+   "oil": "#000000",
+   "default": "#0072B2"
+  },
+  "commodity_note": "Colour is secondary: commodity name is in the tooltip and legend row label.",
+  "schematic_rule": "Great-circle between cited endpoints; schematic=true; APPROXIMATE (dashes widen to [3,4] per uncertainty_encoding) unless the source gives a path.",
+  "label_en": "Trade route (schematic)",
+  "label_ar": "طريق تجاري (تخطيطي)",
+  "label_ar_status": "needs native review"
  }
 }
