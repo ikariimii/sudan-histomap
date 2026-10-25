@@ -18,7 +18,7 @@
   "files_scanned": 280
  },
  "totals": {
-  "SINGLE-SOURCE": 192,
+  "SINGLE-SOURCE": 180,
   "CONTESTED": 116,
   "VERIFY": 2,
   "REPORTED": 10,
@@ -28,7 +28,7 @@
   "PARTIAL": 3,
   "DERIVED": 51
  },
- "grand_total": 630,
+ "grand_total": 618,
  "eras_with_zero_badges": [],
  "eras": {
   "a-group-lower-nubia": {
@@ -88,7 +88,7 @@
   },
   "al-bashir-ncp-ingaz-regime": {
    "counts": {
-    "SINGLE-SOURCE": 6,
+    "SINGLE-SOURCE": 3,
     "CONTESTED": 20,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -98,7 +98,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 33,
+   "total": 30,
    "files": [
     "data/eras/al-bashir-ncp-ingaz-regime.json",
     "db/extents/al-bashir-ncp-ingaz-regime.geojson",
@@ -285,7 +285,7 @@
   },
   "december-revolution-transition": {
    "counts": {
-    "SINGLE-SOURCE": 6,
+    "SINGLE-SOURCE": 3,
     "CONTESTED": 18,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -295,7 +295,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 29,
+   "total": 26,
    "files": [
     "data/eras/december-revolution-transition.json",
     "db/extents/december-revolution-transition.geojson",
@@ -993,7 +993,7 @@
   },
   "republic-of-south-sudan": {
    "counts": {
-    "SINGLE-SOURCE": 7,
+    "SINGLE-SOURCE": 4,
     "CONTESTED": 22,
     "VERIFY": 1,
     "REPORTED": 0,
@@ -1003,7 +1003,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 36,
+   "total": 33,
    "files": [
     "data/eras/republic-of-south-sudan.json",
     "db/era_anchor_fill_hist23b.json",
@@ -1263,7 +1263,7 @@
   },
   "war-in-sudan-saf-vs-rsf": {
    "counts": {
-    "SINGLE-SOURCE": 7,
+    "SINGLE-SOURCE": 4,
     "CONTESTED": 18,
     "VERIFY": 0,
     "REPORTED": 4,
@@ -1273,7 +1273,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 36,
+   "total": 33,
    "files": [
     "data/eras/war-in-sudan-saf-vs-rsf.json",
     "db/extents/war-in-sudan-saf-vs-rsf.geojson",
