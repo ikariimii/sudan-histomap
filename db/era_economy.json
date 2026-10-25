@@ -2067,13 +2067,21 @@
         ],
         "note": "No source read covers this."
       },
-      "routes": [],
+      "routes": [
+        {
+          "from": "kobbe",
+          "to": "asyut",
+          "commodity": "slaves",
+          "cite": "HD2011",
+          "page": "intro pp.8–9"
+        }
+      ],
       "cite": "GHA6_CH20",
       "badges": [
         "SOURCED"
       ],
       "page": "526, 530",
-      "note": "The Kababish carried trade on the Darb al-Arba'in between Darfur and the lower Nile (GHA VI p.526). The Benghazi–Wadai route, bypassing Darfur, made the Darb al-Arba'in decline after the mid-19th century (GHA VI p.530). No route line drawn: no Asyut point in the city layers."
+      "note": "The Kababish carried trade on the Darb al-Arba'in between Darfur and the lower Nile (GHA VI p.526). The Benghazi–Wadai route, bypassing Darfur, made the Darb al-Arba'in decline after the mid-19th century (GHA VI p.530)."
     },
     "economic_base": {
       "value": "Long-distance caravan trade and slave raiding; tribute from Wadai, which had paid it to the Tunjur kings and continued paying it to the Keira",
@@ -4405,7 +4413,66 @@
         "note": "WB/IMF/UN publish GDP by state, not by kingdom or region; a whole-Sudan figure would read as Taqali's own economy (IM ruling 2026-10-25), so none is shown."
       }
     ],
-    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's.",
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read rates this era's economy."
+    },
+    "rating_basis_en": {
+      "value": "No source read rates this era's economy.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "NO-SOURCE: not researched for this era."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": "Regional context only: the Funj 'penetrated the Nuba mountains, one of the principal slave-raiding regions', and reduced 'the newly established Islamized kingdom of Takali' to subordinate status. Captives from the non-Muslim 'hill-Nuba' were settled around Sennar as the sultan's slave bodyguard (GHA V ch.7, p.177). Whether Taqali was tributary is disputed (Ewald 1983, cited in fn.24). Nothing read describes Taqali's own production or trade.",
+      "cite": "GHA5_CH7",
+      "page": "177",
+      "badges": [
+        "SOURCED",
+        "DERIVED"
+      ],
+      "note": "Pre-1956 part only: copied word for word from this era's economy_en, which carries its own cites. Regional context only; nothing read describes Taqali's own economy."
+    }
   },
   "southern-sudan-under-condominium-sudan": {
     "indicators": [
@@ -4454,7 +4521,70 @@
         "note": "WB WDI API, NY.GDP.MKTP.CD, country SSD, lastupdated 2026-10-08; unrounded."
       }
     ],
-    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's.",
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read rates this era's economy."
+    },
+    "rating_basis_en": {
+      "value": "No source read rates this era's economy.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "NO-SOURCE: not researched for this era."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": "The South's economy was held back by the Southern Policy. The Condominium's 'closed door' ordinances barred northern Sudanese from entering or working in the south, and 'although potentially a rich agricultural zone, the south's economic development suffered because of the region's isolation' (LOC1991_SOUTHPOL). In 1946 the Sudan Administrative Conference agreed to abolish the closed-door trade restrictions and let southerners seek work in the north (LOC1991_SOUTHUNITY). GHA VIII adds only that Southern Sudan 'was neither politically free nor economically protected' (GHAVIII, p.924).",
+      "cite": [
+        "LOC1991_SOUTHPOL",
+        "LOC1991_SOUTHUNITY",
+        "GHAVIII"
+      ],
+      "page": "GHAVIII p.924",
+      "badges": [
+        "SOURCED",
+        "DERIVED"
+      ],
+      "note": "Pre-1956 part only: copied word for word from this era's economy_en, which carries its own cites. Excerpted sentences; the Azande Scheme sentence (it runs to 1983) was left out."
+    }
   },
   "republic-of-egypt": {
     "indicators": [
@@ -4481,7 +4611,64 @@
         "note": "WB WDI API, NY.GDP.MKTP.CD, country EGY, lastupdated 2026-10-08; unrounded."
       }
     ],
-    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's.",
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read rates this era's economy."
+    },
+    "rating_basis_en": {
+      "value": "No source read rates this era's economy.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "NO-SOURCE: not researched for this era."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "NO-SOURCE for the pre-1956 part: this era's economy_en covers only post-1956 material. Post-1956 indicators belong to the Analyst."
+    }
   },
   "ethiopian-empire-solomonic": {
     "indicators": [
@@ -4508,7 +4695,69 @@
         "note": "WB WDI API, NY.GDP.MKTP.CD, country ETH, lastupdated 2026-10-08; unrounded."
       }
     ],
-    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's.",
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read rates this era's economy."
+    },
+    "rating_basis_en": {
+      "value": "No source read rates this era's economy.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "NO-SOURCE: not researched for this era."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": "Amde-Siyon's conquests gave the kingdom control over the inland end of the Gulf of Aden trade routes (GHA IV ch.17, p.434). Funj–Ethiopian relations show 'positive co-operation and economic interdependence' (GHA V ch.7, p.178). Ethiopian goods reached Sennar, and later Shendi, which Burckhardt called the market for Ethiopian and Fur commerce (p.183). Ethiopians were among the slaves sold at Shendi (p.184).",
+      "cite": [
+        "GHA4_CH17",
+        "GHA5_CH7"
+      ],
+      "page": "GHA IV p.434; GHA V pp.178, 183, 184",
+      "badges": [
+        "SOURCED",
+        "DERIVED"
+      ],
+      "note": "Pre-1956 part only: copied word for word from this era's economy_en, which carries its own cites."
+    }
   },
   "eritrea-italian-colony-independent": {
     "indicators": [
@@ -4535,7 +4784,64 @@
         "note": "WB WDI API, NY.GDP.MKTP.CD, country ERI, lastupdated 2026-10-08; unrounded. Last ERI value in WDI."
       }
     ],
-    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's.",
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read rates this era's economy."
+    },
+    "rating_basis_en": {
+      "value": "No source read rates this era's economy.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "NO-SOURCE: not researched for this era."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "NO-SOURCE for the pre-1956 part: this era's economy_en covers only post-1956 material. Post-1956 indicators belong to the Analyst."
+    }
   },
   "french-chad-republic-of-chad": {
     "indicators": [
@@ -4562,7 +4868,64 @@
         "note": "WB WDI API, NY.GDP.MKTP.CD, country TCD, lastupdated 2026-10-08; unrounded."
       }
     ],
-    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's.",
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read rates this era's economy."
+    },
+    "rating_basis_en": {
+      "value": "No source read rates this era's economy.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "NO-SOURCE: not researched for this era."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "NO-SOURCE for the pre-1956 part: this era's economy_en covers only post-1956 material. Post-1956 indicators belong to the Analyst."
+    }
   },
   "libya-ottoman-italian-independent": {
     "indicators": [
@@ -4589,7 +4952,64 @@
         "note": "WB WDI API, NY.GDP.MKTP.CD, country LBY, lastupdated 2026-10-08; unrounded."
       }
     ],
-    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's.",
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read rates this era's economy."
+    },
+    "rating_basis_en": {
+      "value": "No source read rates this era's economy.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "NO-SOURCE: not researched for this era."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "NO-SOURCE for the pre-1956 part: this era's economy_en covers only post-1956 material. Post-1956 indicators belong to the Analyst."
+    }
   },
   "central-african-republic-ubangi-shari": {
     "indicators": [
@@ -4616,7 +5036,64 @@
         "note": "WB WDI API, NY.GDP.MKTP.CD, country CAF, lastupdated 2026-10-08; unrounded."
       }
     ],
-    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's.",
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read rates this era's economy."
+    },
+    "rating_basis_en": {
+      "value": "No source read rates this era's economy.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "NO-SOURCE: not researched for this era."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "NO-SOURCE for the pre-1956 part: this era's economy_en covers only post-1956 material. Post-1956 indicators belong to the Analyst."
+    }
   },
   "ottoman-hejaz-saudi-state": {
     "indicators": [
@@ -4643,7 +5120,69 @@
         "note": "WB WDI API, NY.GDP.MKTP.CD, country SAU, lastupdated 2026-10-08; unrounded."
       }
     ],
-    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's.",
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read rates this era's economy."
+    },
+    "rating_basis_en": {
+      "value": "No source read rates this era's economy.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "NO-SOURCE: not researched for this era."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": "The 'Sudan Road' from Darfur and Sennar to Sawakin carried both trade and pilgrims to the Hijaz. By the early 19th century it was known as far as Futa Toro, as a shorter and cheaper pilgrim route than the desert crossing through Egypt (GHA V ch.7, p.181). Ottoman Egypt sent cash, grain and the Ka'ba cover to the Hijaz (ch.6, p.143); no figures for Sudanese trade with Arabia were read.",
+      "cite": [
+        "GHA5_CH7",
+        "GHA5_CH6"
+      ],
+      "page": "GHA V p.181; ch.6 p.143",
+      "badges": [
+        "SOURCED",
+        "DERIVED"
+      ],
+      "note": "Pre-1956 part only: copied word for word from this era's economy_en, which carries its own cites."
+    }
   },
   "beja-red-sea-hills-peoples": {
     "indicators": [
@@ -4659,7 +5198,66 @@
         "note": "WB/IMF/UN publish GDP by state, not by community or people; no figure can be attributed to this entry without invention."
       }
     ],
-    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's.",
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read rates this era's economy."
+    },
+    "rating_basis_en": {
+      "value": "No source read rates this era's economy.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "NO-SOURCE: not researched for this era."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": "Camel nomadism; some sedentarisation linked to the modern Gash and Tokar agricultural schemes (Holt & Daly, intro p.6).",
+      "cite": "HD2011",
+      "page": "intro p.6",
+      "badges": [
+        "SOURCED",
+        "DERIVED"
+      ],
+      "note": "Pre-1956 part only: copied word for word from this era's economy_en, which carries its own cites."
+    }
   },
   "dinka-jieng-communities": {
     "indicators": [
@@ -4675,7 +5273,66 @@
         "note": "WB/IMF/UN publish GDP by state, not by community or people; no figure can be attributed to this entry without invention."
       }
     ],
-    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's.",
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read rates this era's economy."
+    },
+    "rating_basis_en": {
+      "value": "No source read rates this era's economy.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "NO-SOURCE: not researched for this era."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": "Cattle herders; most live 'in the grassy flood-plains of the Bahr al-Ghazal, where they herd their cattle', others on the east bank of the White Nile (HD2011, intro p.3).",
+      "cite": "HD2011",
+      "page": "intro p.3",
+      "badges": [
+        "SOURCED",
+        "DERIVED"
+      ],
+      "note": "Pre-1956 part only: copied word for word from this era's economy_en, which carries its own cites."
+    }
   },
   "nuer-naath-communities": {
     "indicators": [
@@ -4691,7 +5348,66 @@
         "note": "WB/IMF/UN publish GDP by state, not by community or people; no figure can be attributed to this entry without invention."
       }
     ],
-    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's.",
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read rates this era's economy."
+    },
+    "rating_basis_en": {
+      "value": "No source read rates this era's economy.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "NO-SOURCE: not researched for this era."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": "'Pre-eminently pastoral, though they grow more millet and maize than is commonly supposed'; horticulture is seen 'as toil forced on them by poverty of stock', and pastoral pursuits take precedence because cattle also carry social value (Evans-Pritchard 1940, pp.16–21; ethnography of the 1930s).",
+      "cite": "EP1940_NUER",
+      "page": "16–21",
+      "badges": [
+        "SOURCED",
+        "DERIVED"
+      ],
+      "note": "Pre-1956 part only: copied word for word from this era's economy_en, which carries its own cites."
+    }
   },
   "anuak-anywaa-communities": {
     "indicators": [
@@ -4707,6 +5423,65 @@
         "note": "WB/IMF/UN publish GDP by state, not by community or people; no figure can be attributed to this entry without invention."
       }
     ],
-    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's.",
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read rates this era's economy."
+    },
+    "rating_basis_en": {
+      "value": "No source read rates this era's economy.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "NO-SOURCE: not researched for this era."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers the pre-1956 part of this era."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": "The Anuak are described as a people with 'few or no cattle', whom the Nuer held in contempt for it (Evans-Pritchard 1940, p.16). The Nuer obtained good dug-out canoes from the Anuak by exchange or theft (p.72), and possibly tobacco from the Anuak of the Baro and Gila rivers, though more likely by raiding (p.88). This is a Nuer-centred, 1930s account and does not describe Anuak production directly.",
+      "cite": "EP1940_NUER",
+      "page": "16, 72, 88",
+      "badges": [
+        "SOURCED",
+        "DERIVED"
+      ],
+      "note": "Pre-1956 part only: copied word for word from this era's economy_en, which carries its own cites."
+    }
   }
 }
