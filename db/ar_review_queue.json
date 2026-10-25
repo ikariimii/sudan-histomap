@@ -2819,27 +2819,29 @@
       "era_id": "kingdom-of-kerma",
       "file": "data/eras/kingdom-of-kerma.json",
       "field_ar": "events[3].ar",
-      "arabic_sentence": "مراحل البعثة السويسرية: كرمة المبكرة نحو 2450–2050، والوسطى نحو 2050–1750، والكلاسيكية نحو 1750–1480 ق.م (وكرمة المتأخرة حتى نحو 1450) [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.69)",
+      "arabic_sentence": "مراحل البعثة السويسرية: كرمة المبكرة نحو 2450–2050، والوسطى نحو 2050–1750، والكلاسيكية نحو 1750–1550 ق.م (وكرمة المتأخرة حتى نحو 1450) [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.69)",
       "badge": "VERIFY",
       "field_en": "events[3].en",
       "revised_english": "Swiss mission phases: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1550 BCE, and Final Kerma c.1550–1450 BCE (SFDAS_HCS2017 p.69)",
       "reason": "Arabic gives Classic Kerma as c.1750–1480 BCE; SFDAS_HCS2017 p.69 gives Classic 1750–1550 and Final Kerma 1550–1450 BCE.",
       "action": "Native reviewer: change Classic end to 1550 and state Final Kerma 1550–1450 to match the working English.",
       "origin_commit": "Kerma Classic 1480 fix",
-      "added": "2026-10-25"
+      "added": "2026-10-25",
+      "note": "Digits corrected per Innovation Manager (Classic 1480 -> 1550); Final Kerma phrase 'حتى نحو 1450' has no start year, so no wording added. Wording still needs native review."
     },
     {
       "era_id": "kingdom-of-kerma",
       "file": "data/periods.json",
       "field_ar": "key_events_ar[3] (Kingdom of Kerma; mirrored in data/periods.js)",
-      "arabic_sentence": "مراحل البعثة السويسرية: كرمة المبكرة نحو 2450–2050، والوسطى نحو 2050–1750، والكلاسيكية نحو 1750–1480 ق.م (وكرمة المتأخرة حتى نحو 1450) [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.69)",
+      "arabic_sentence": "مراحل البعثة السويسرية: كرمة المبكرة نحو 2450–2050، والوسطى نحو 2050–1750، والكلاسيكية نحو 1750–1550 ق.م (وكرمة المتأخرة حتى نحو 1450) [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.69)",
       "badge": "VERIFY",
       "field_en": "key_events[3]",
       "revised_english": "Swiss mission phases: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1550 BCE, and Final Kerma c.1550–1450 BCE (SFDAS_HCS2017 p.69)",
       "reason": "Arabic gives Classic Kerma as c.1750–1480 BCE; SFDAS_HCS2017 p.69 gives Classic 1750–1550 and Final Kerma 1550–1450 BCE.",
       "action": "Native reviewer: change Classic end to 1550 and state Final Kerma 1550–1450 to match the working English.",
       "origin_commit": "Kerma Classic 1480 fix",
-      "added": "2026-10-25"
+      "added": "2026-10-25",
+      "note": "Digits corrected per Innovation Manager (Classic 1480 -> 1550); Final Kerma phrase 'حتى نحو 1450' has no start year, so no wording added. Wording still needs native review."
     }
   ]
 }
