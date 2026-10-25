@@ -1,0 +1,297 @@
+{
+  "meta": {
+    "author": "Sudan Geopolitical Analyst",
+    "date": "2026-10-25",
+    "basis": "/workspace/audit/r25/battles_drop_log.md: era_events dated >=1956 not live (NO-SOURCE). Same event ids (era#index) and fields as data/era_events.json (date, en, ar, cite{source_id,pages}); extra fields: event_id, quote, badge, cite_extra. en text trimmed to what the cited source states. No fatality figures, no control claims, no coordinates.",
+    "kept": 19,
+    "dropped": 9
+  },
+  "events": {
+    "independent-sudan-first-parliamentary-period": [
+      {
+        "event_id": "independent-sudan-first-parliamentary-period#0",
+        "date": 1956,
+        "en": "Independence 1956 (HRW1993_CIVDEV Introduction and Summary (HTML, no page numbers))",
+        "ar": "الاستقلال 1956 [يحتاج تحقق] (HRW1993_CIVDEV Introduction and Summary (HTML, no page numbers))",
+        "cite": {
+          "source_id": "HRW1993_CIVDEV",
+          "pages": "Introduction and Summary (HTML, no page numbers)"
+        },
+        "quote": "The role of Islam in Sudan, and Sudan's identification as an Arab or African state, are questions that have been open since independence in 1956."
+      }
+    ],
+    "nimeiry-era-democratic-republic-of-sudan": [
+      {
+        "event_id": "nimeiry-era-democratic-republic-of-sudan#0",
+        "date": 1969,
+        "en": "Nimeiri military rule from 1969 (HRW1993_CIVDEV Introduction and Summary (HTML, no page numbers), note 14)",
+        "ar": "حكم نميري العسكري منذ 1969 [يحتاج تحقق] (HRW1993_CIVDEV Introduction and Summary (HTML, no page numbers), note 14)",
+        "cite": {
+          "source_id": "HRW1993_CIVDEV",
+          "pages": "Introduction and Summary (HTML, no page numbers), note 14"
+        },
+        "quote": "...or the 1983 attempt of the Nimeiri military dictatorship (1969-85)--to apply Islamic law, or shar'ia , to the south."
+      },
+      {
+        "event_id": "nimeiry-era-democratic-republic-of-sudan#1",
+        "date": 1972,
+        "en": "1972 autonomy agreement ends first civil war (HRW1993_CIVDEV Introduction and Summary (HTML, no page numbers))",
+        "ar": "اتفاق الحكم الذاتي 1972 ينهي الحرب الأهلية الأولى [يحتاج تحقق] (HRW1993_CIVDEV Introduction and Summary (HTML, no page numbers))",
+        "cite": {
+          "source_id": "HRW1993_CIVDEV",
+          "pages": "Introduction and Summary (HTML, no page numbers)"
+        },
+        "quote": "The conflict was punctuated by an autonomy agreement in 1972 that ended the first civil war between southern separatist forces and the central government, then headed by President Jaafar Nimieri, a military dictator."
+      },
+      {
+        "event_id": "nimeiry-era-democratic-republic-of-sudan#2",
+        "date": 1983,
+        "en": "1983 attempt to apply Islamic law (shari'a) to the south; SPLA formed 1983 (HRW1993_CIVDEV Introduction and Summary (HTML, no page numbers), note 14; Glossary)",
+        "ar": "محاولة 1983 لتطبيق الشريعة على الجنوب؛ تأسيس الحركة الشعبية 1983 [يحتاج تحقق] (HRW1993_CIVDEV Introduction and Summary (HTML, no page numbers), note 14; Glossary)",
+        "cite": {
+          "source_id": "HRW1993_CIVDEV",
+          "pages": "Introduction and Summary (HTML, no page numbers), note 14; Glossary"
+        },
+        "quote": "...or the 1983 attempt of the Nimeiri military dictatorship (1969-85)--to apply Islamic law, or shar'ia , to the south. | Glossary: Anya-Nya II rebel south Sudanese forces who, together with former members of the Sudanese army, formed the SPLA in 1983"
+      },
+      {
+        "event_id": "nimeiry-era-democratic-republic-of-sudan#3",
+        "date": 1985,
+        "en": "1985 popular uprising overthrows military government (HRW1993_CIVDEV Introduction and Summary (HTML, no page numbers))",
+        "ar": "انتفاضة شعبية 1985 تطيح بالحكم العسكري [يحتاج تحقق] (HRW1993_CIVDEV Introduction and Summary (HTML, no page numbers))",
+        "cite": {
+          "source_id": "HRW1993_CIVDEV",
+          "pages": "Introduction and Summary (HTML, no page numbers)"
+        },
+        "quote": "Popular movements, engaging in strikes and street demonstrations, almost without bloodshed overthrew two military governments in 1969 and 1985.",
+        "cite_extra": {
+          "caveat": "Source sentence says '1969 and 1985'; only 1985 is used here. Historian review advised."
+        }
+      }
+    ],
+    "transitional-third-parliamentary-period": [
+      {
+        "event_id": "transitional-third-parliamentary-period#0",
+        "date": 1986,
+        "en": "Elected (democratic) government 1986–89 (HRW1993_CIVDEV Introduction and Summary (HTML, no page numbers), note 14)",
+        "ar": "حكومة ديمقراطية منتخبة 1986–1989 [يحتاج تحقق] (HRW1993_CIVDEV Introduction and Summary (HTML, no page numbers), note 14)",
+        "cite": {
+          "source_id": "HRW1993_CIVDEV",
+          "pages": "Introduction and Summary (HTML, no page numbers), note 14"
+        },
+        "quote": "...whether the present one, the prior democratic one (1986-89), or the 1983 attempt..."
+      }
+    ],
+    "al-bashir-ncp-ingaz-regime": [
+      {
+        "event_id": "al-bashir-ncp-ingaz-regime#1",
+        "date": 2003,
+        "en": "Darfur conflict: incidents from February 2003; ICC arrest warrant for President al-Bashir, 4 March 2009 (UNSC_S2005_60 PDF p.2)",
+        "ar": "نزاع دارفور منذ فبراير 2003؛ مذكرة توقيف من المحكمة الجنائية الدولية بحق البشير 4 مارس 2009 [يحتاج تحقق] (UNSC_S2005_60 PDF p.2)",
+        "cite": {
+          "source_id": "UNSC_S2005_60",
+          "pages": "PDF p.2"
+        },
+        "quote": "...it focused in particular on incidents that occurred from February 2003",
+        "cite_extra": {
+          "source_id": "UN_NEWS_2009_292942",
+          "pages": "web article, para 1",
+          "quote": "4 March 2009 ... The International Criminal Court (ICC) today issued an arrest warrant for war crimes and crimes against humanity committed in the strife-torn Darfur region by Sudanese President Omar Al-Bashir, the first sitting Head of State to be indicted by the Court."
+        }
+      }
+    ],
+    "december-revolution-transition": [
+      {
+        "event_id": "december-revolution-transition#0",
+        "date": 2018,
+        "en": "December 2018 revolution (UNPOE_S2024_65 PDF p.30)",
+        "ar": "ثورة ديسمبر 2018 [يحتاج تحقق] (UNPOE_S2024_65 PDF p.30)",
+        "cite": {
+          "source_id": "UNPOE_S2024_65",
+          "pages": "PDF p.30"
+        },
+        "quote": "...a close associate of Hemedti after the December 2018 revolution..."
+      },
+      {
+        "event_id": "december-revolution-transition#1",
+        "date": 2019,
+        "en": "Constitutional Document signed 17 August 2019 (UNSC2524 p.1, preamble)",
+        "ar": "توقيع الوثيقة الدستورية 17 أغسطس 2019 [يحتاج تحقق] (UNSC2524 p.1, preamble)",
+        "cite": {
+          "source_id": "UNSC2524",
+          "pages": "p.1, preamble"
+        },
+        "quote": "Welcoming the signing of the Constitutional Document on 17 August 2019"
+      },
+      {
+        "event_id": "december-revolution-transition#3",
+        "date": 2020,
+        "en": "UNITAMS created by UNSC res. 2524, 3 June 2020 (UNSC2524 p.1 header; p.3 op. para 1)",
+        "ar": "إنشاء بعثة يونيتامس بقرار مجلس الأمن 2524، 3 يونيو 2020 [يحتاج تحقق] (UNSC2524 p.1 header; p.3 op. para 1)",
+        "cite": {
+          "source_id": "UNSC2524",
+          "pages": "p.1 header; p.3 op. para 1"
+        },
+        "quote": "Adopted by the Security Council on 3 June 2020 ... 1. Decides to establish a United Nations Integrated Transition Assistance [Mission in Sudan (UNITAMS)]",
+        "cite_extra": {
+          "note": "source era_events.json has date 2524 (resolution number); corrected to 2020"
+        }
+      }
+    ],
+    "war-in-sudan-saf-vs-rsf": [
+      {
+        "event_id": "war-in-sudan-saf-vs-rsf#0",
+        "date": 2023,
+        "en": "Fighting between SAF and RSF starts 15 April 2023 in Khartoum (REPORTED) (UNPOE_S2024_65 PDF p.5, para 4)",
+        "ar": "اندلاع القتال بين القوات المسلحة والدعم السريع في الخرطوم 15 أبريل 2023 (مُبلَّغ عنه) [يحتاج تحقق] (UNPOE_S2024_65 PDF p.5, para 4)",
+        "cite": {
+          "source_id": "UNPOE_S2024_65",
+          "pages": "PDF p.5, para 4"
+        },
+        "quote": "The conflict that started on 15 April in Khartoum between SAF and RSF spread to Darfur by the end of that month.",
+        "badge": "REPORTED"
+      },
+      {
+        "event_id": "war-in-sudan-saf-vs-rsf#1",
+        "date": 2023,
+        "en": "Jeddah Declaration of Commitment to Protect the Civilians of Sudan, 11 May 2023 (REPORTED) (UNPOE_S2024_65 PDF p.37, para 133)",
+        "ar": "إعلان جدة للالتزام بحماية المدنيين 11 مايو 2023 (مُبلَّغ عنه) [يحتاج تحقق] (UNPOE_S2024_65 PDF p.37, para 133)",
+        "cite": {
+          "source_id": "UNPOE_S2024_65",
+          "pages": "PDF p.37, para 133"
+        },
+        "quote": "On 11 May, the parties signed the Jeddah Declaration of Commitment to Protect the Civilians of Sudan, in which they made a commitment to allow for humanitarian access and respect international humanitarian law.",
+        "badge": "REPORTED"
+      }
+    ],
+    "southern-sudan-under-condominium-sudan": [
+      {
+        "event_id": "southern-sudan-under-condominium-sudan#1",
+        "date": 1983,
+        "en": "Second Civil War 1983–2005: SPLA formed 1983; CPA signed 9 January 2005 (HRW1993_CIVDEV Glossary)",
+        "ar": "الحرب الأهلية الثانية 1983–2005 [يحتاج تحقق] (HRW1993_CIVDEV Glossary)",
+        "cite": {
+          "source_id": "HRW1993_CIVDEV",
+          "pages": "Glossary"
+        },
+        "quote": "Anya-Nya II rebel south Sudanese forces who, together with former members of the Sudanese army, formed the SPLA in 1983",
+        "cite_extra": {
+          "source_id": "UNSC1590",
+          "pages": "p.1, preamble para 3",
+          "quote": "Welcoming the signing of the Comprehensive Peace Agreement ... in Nairobi, Kenya on 9 January 2005,"
+        }
+      },
+      {
+        "event_id": "southern-sudan-under-condominium-sudan#2",
+        "date": 2011,
+        "en": "Referendum on self-determination for Southern Sudan, 9 January 2011 (UNSG_S2011_413 PDF p.2, para 4)",
+        "ar": "استفتاء تقرير المصير لجنوب السودان 9 يناير 2011 [يحتاج تحقق] (UNSG_S2011_413 PDF p.2, para 4)",
+        "cite": {
+          "source_id": "UNSG_S2011_413",
+          "pages": "PDF p.2, para 4"
+        },
+        "quote": "On 9 January 2011, voting took place in the referendum on self-determination for Southern Sudan."
+      }
+    ],
+    "republic-of-south-sudan": [
+      {
+        "event_id": "republic-of-south-sudan#0",
+        "date": 2011,
+        "en": "Independence 9 July 2011; UNMISS created by UNSC res. 1996 (8 Jul 2011) (UNSC1996 p.1 preamble; p.3 op. para 1)",
+        "ar": "الاستقلال 9 يوليو 2011؛ إنشاء بعثة أونميس بالقرار 1996 (8 يوليو 2011) [يحتاج تحقق] (UNSC1996 p.1 preamble; p.3 op. para 1)",
+        "cite": {
+          "source_id": "UNSC1996",
+          "pages": "p.1 preamble; p.3 op. para 1"
+        },
+        "quote": "Welcoming the establishment of the Republic of South Sudan on 9 July 2011 ... 1. Decides to establish as of 9 July 2011 the United Nations Mission in the Republic of South Sudan"
+      },
+      {
+        "event_id": "republic-of-south-sudan#1",
+        "date": 2013,
+        "en": "Civil war from 15 December 2013 (CONTESTED) (UNMISS_HRR2014 PDF p.10, para 1)",
+        "ar": "الحرب الأهلية منذ 15 ديسمبر 2013 (متنازع عليه) [يحتاج تحقق] (UNMISS_HRR2014 PDF p.10, para 1)",
+        "cite": {
+          "source_id": "UNMISS_HRR2014",
+          "pages": "PDF p.10, para 1"
+        },
+        "quote": "On 15 December 2013, an internal power struggle within the Sudan People’s Liberation [Movement ...]",
+        "badge": "CONTESTED"
+      },
+      {
+        "event_id": "republic-of-south-sudan#2",
+        "date": 2018,
+        "en": "Revitalised Agreement on the Resolution of the Conflict in South Sudan (R-ARCSS), 2018 (UNSC2459 p.1, preamble)",
+        "ar": "الاتفاق المنشط لحل النزاع في جنوب السودان 2018 [يحتاج تحقق] (UNSC2459 p.1, preamble)",
+        "cite": {
+          "source_id": "UNSC2459",
+          "pages": "p.1, preamble"
+        },
+        "quote": "Underlining that the 2018 “Revitalised Agreement on the Resolution of the Conflict in the Republic of South Sudan” (the Revitalised Agreement) is an important..."
+      }
+    ],
+    "french-chad-republic-of-chad": [
+      {
+        "event_id": "french-chad-republic-of-chad#1",
+        "date": 2003,
+        "en": "Hosts Sudanese refugees from Darfur (2004/05) and again in 2023 (REPORTED for 2023) (UNSC_S2005_60 PDF p.3)",
+        "ar": "يستضيف لاجئين سودانيين من دارفور ومجددًا في 2023 [يحتاج تحقق] (UNSC_S2005_60 PDF p.3)",
+        "cite": {
+          "source_id": "UNSC_S2005_60",
+          "pages": "PDF p.3"
+        },
+        "quote": "...more than 200,000 refugees from Darfur in neighbouring Chad.",
+        "cite_extra": {
+          "source_id": "UNPOE_S2024_65",
+          "pages": "PDF p.15",
+          "quote": "...in particular to establish a field hospital in Am Djarass for Sudanese refugees."
+        },
+        "badge": "REPORTED"
+      }
+    ],
+    "ottoman-hejaz-saudi-state": [
+      {
+        "event_id": "ottoman-hejaz-saudi-state#1",
+        "date": 2023,
+        "en": "Jeddah talks on Sudan war, from May 2023 (REPORTED) (UNPOE_S2024_65 PDF p.37, para 133)",
+        "ar": "محادثات جدة بشأن حرب السودان منذ مايو 2023 (مُبلَّغ عنه) [يحتاج تحقق] (UNPOE_S2024_65 PDF p.37, para 133)",
+        "cite": {
+          "source_id": "UNPOE_S2024_65",
+          "pages": "PDF p.37, para 133"
+        },
+        "quote": "Early in May, talks on a ceasefire and humanitarian assistance started in Jeddah, under the auspices of authorities from Saudi Arabia and the United States.",
+        "badge": "REPORTED"
+      }
+    ]
+  },
+  "dropped": {
+    "abboud-military-regime#0": "Coup Nov 1958: no readable source read this session states it (HRW1993 mentions 1958 only in an ICRC citation)",
+    "abboud-military-regime#1": "October Revolution 1964: no readable source; HRW1993 sentence says '1969 and 1985', not 1964",
+    "war-in-sudan-saf-vs-rsf#2": "Famine declared 2024: only UN-family source read (S/2025/239 p.20) says 'risk of famine'; declaration source is IPC, not allowed for 2023+",
+    "war-in-sudan-saf-vs-rsf#3": "IPC FRC Zamzam famine July 2024: IPC not in allowed source set (UN/OCHA/ACLED/Panel); no UN doc read confirms it",
+    "december-revolution-transition#2": "Coup 25 Oct 2021: not found in S/RES/2524, S/RES/2636, S/2024/65 or S/2025/239",
+    "republic-of-south-sudan#3": "R-TGoNU 22 Feb 2020: not found in S/RES/2514 or S/RES/2459",
+    "republic-of-egypt#0": "Aswan High Dam / Wadi Halfa 1964: no readable source fetched",
+    "french-chad-republic-of-chad#0": "Chad independence 1960: no readable source fetched",
+    "central-african-republic-ubangi-shari#0": "CAR independence 1960: no readable source fetched"
+  },
+  "sources_to_register": [
+    {
+      "id": "UNSG_S2011_413",
+      "author": "UN Secretary-General",
+      "title": "Report of the Secretary-General on children and armed conflict in the Sudan (S/2011/413)",
+      "year": "2011",
+      "url": "https://documents.un.org/api/symbol/access?s=S/2011/413&l=en&t=pdf",
+      "pages": "PDF p.2 para 4",
+      "lang": "en"
+    },
+    {
+      "id": "UNSC2459",
+      "author": "UN Security Council",
+      "title": "Resolution 2459 (2019)",
+      "year": "2019",
+      "url": "https://documents.un.org/api/symbol/access?s=S/RES/2459(2019)&l=en&t=pdf",
+      "pages": "p.1 preamble",
+      "lang": "en"
+    }
+  ]
+}
