@@ -2,6 +2,21 @@
 
 Site changes for sudan.indomando.com (built from `web/` by `web/build.py`). Newest first.
 
+## 2026-10-24 (one continuous map)
+- Open line features (LineString/MultiLineString) are now drawn in the control and group layers: never filled, dashed when the feature says so (PCA 2009 Abyei award lines), arrowheads only on arrows; each line opens its citation, source pins and badges on tap.
+
+- The site root `/` is now one full-screen map of all 68 eras. A timeline scrubber, the arrow buttons, the arrow keys or a swipe on the card moves between eras; these are mirrored in Arabic. Matching control areas morph from one era to the next and everything else crossfades. Animation is off under reduced motion. Pinch or scroll zooms the map, and a reset button returns to the full view.
+- Each era's story card sits in a bottom sheet with peek, half and full sizes; on desktop it becomes a side panel. The card keeps every badge the era pages had: geometry state, Arabic under review, regional context, REPORTED/CONTESTED/SINGLE-SOURCE, CINC and EDITORIAL. It also keeps the events, culture, economy, power and sources sections and the dating note. There are no tables, and nothing scrolls sideways at 390px.
+- Eras with several dated snapshots get a "Year within era" slider. Tapping an area or point shows its label, badge, certainty, dates and citation. Labels are thinned by priority and use leader lines, as on the old era map; labels that don't fit are listed under the card.
+- South Sudan is drawn as a neighbouring state from 2011 and as part of Sudan before that.
+- Layers you can turn on and off: Areas of control, Peoples, Relations and Population. The layers are built from the delivered data files:
+  - Peoples: db/group_layers. Points are keyed by stable ID, so they glide between eras.
+  - Relations: arrows coloured by type (alliance, conflict, trade, subjugation, migration), with a legend. Low certainty is drawn dashed. Relations that have no anchor are listed as text with the reason.
+  - Population: db/population.json, shown as a sparkline plus the era figure, range, badges, territory, caveat and sources.
+  - Every item shows its own badges and sources. Where an era has no data for a layer, the card says "Research in progress".
+- Deep links: `?era=<id>`, `?lang=ar` and `?layers=` can be combined. Old URLs are now static redirects, with a meta refresh and a JS fallback, to the matching map view: era pages (EN and AR), chapters, `/eras/`, `/compare/`, `/ar/`, `era.html`, `eras.html`, and `histomap.html` without tool parameters. The share pages at /eras/<id>/ keep their OG cards. `histomap.html` with lens/diff/poster/print parameters still opens the tool.
+- First load is about 245KB uncompressed and about 95KB gzipped: a d3 subset bundle, a simplified basemap and one era card.
+
 ## 2026-10-24 (regional power visual, mobile legibility)
 
 - Regional power: the CINC line shows the 'CINC share' label and the COW NMC v6.0 citation from the data's own source ID (COW_NMC6). Where the data's null_reason is 'data ends 2016' (war era, December revolution), it says so (Arabic 'تنتهي البيانات عام ٢٠١٦').

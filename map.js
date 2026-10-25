@@ -1,0 +1,161 @@
+// Sudan Histomap: one continuous map page. All data comes from window.MAP (built from data/eras + db/extents by web/build.py)
+// and per-era files (/extents/<id>.json, /m/<id>.json). Nothing is invented; missing layers show 'Research in progress'.
+(function(){
+const M=window.MAP,Q=new URLSearchParams(location.search),L=Q.get('lang')==='ar'?'ar':'en',AR=L==='ar',T=M.t[L],ES=M.eras;
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches,DUR=RM?0:650;
+const $=id=>document.getElementById(id),esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const num=n=>AR?String(n).replace(/\d/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]):String(n);
+const fy=y=>y>=2026?(AR?'اليوم':'present'):y<0?num(-y)+(AR?' ق.م':' BCE'):num(y)+(AR?' م':' CE');
+const BL={REPORTED:['REPORTED','مُبلَّغ عنه','#e0574c'],CONTESTED:['CONTESTED','متنازع عليها','#b07ae0'],'SINGLE-SOURCE':['SINGLE-SOURCE','مصدر واحد','#e0a63e']};/* 'مصدر واحد' pending native review */
+const rep=p=>{const b=String(p.badge||'').toUpperCase().split(' (')[0];return BL[b]?b:''};
+const unrep=s=>String(s||'').replace(/\s*\[(REPORTED|CONTESTED|مُبلَّغ عنه|متنازع عليها)\]/g,'');
+const lab=p=>unrep(AR?(p.label_ar||p.label_en):(p.label_en||p.label_ar));
+const short=s=>{s=String(s).split(/ [–—] /)[0];if(s.length>34)s=s.split(/[(（,،:]/)[0].trim();return s.length>40?s.slice(0,38)+'…':s};
+// --- chrome
+document.title=T.title+' · '+(AR?'Sudan Histomap':'خريطة تاريخ السودان');
+$('brand').textContent=T.title;$('about').textContent=T.about;$('about').href=(AR?'/ar':'')+'/about/';
+const lq=new URLSearchParams(Q);if(AR)lq.delete('lang');else lq.set('lang','ar');$('lang').textContent=T.lang;$('lang').setAttribute('hreflang',AR?'en':'ar');
+$('lang').addEventListener('click',e=>{e.preventDefault();const q=new URLSearchParams(location.search);AR?q.delete('lang'):q.set('lang','ar');location.search=q.toString()});
+$('lang').href='/?'+lq.toString();$('prev').setAttribute('aria-label',T.prev);$('next').setAttribute('aria-label',T.next);$('grab').setAttribute('aria-label',T.sheet);
+$('reset').title=T.reset;$('reset').setAttribute('aria-label',T.reset);$('within').querySelector('label').textContent=T.within;
+const LAY=['ctl','grp','rel','pop'],on=new Set((Q.get('layers')||'ctl').split(',').filter(x=>LAY.includes(x)));
+LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=T.l[k];b.setAttribute('aria-pressed',on.has(k));b.dataset.k=k;
+ b.onclick=()=>{on.has(k)?on.delete(k):on.add(k);b.setAttribute('aria-pressed',on.has(k));url();render(false)};$('layers').appendChild(b)});
+// --- era index
+let i=Math.max(0,ES.findIndex(e=>e.id===Q.get('era')));const r=$('r');r.max=ES.length-1;r.value=i;r.setAttribute('aria-label',T.era);
+function url(){const q=new URLSearchParams();q.set('era',ES[i].id);if(AR)q.set('lang','ar');const ly=[...on].sort().join(',');if(ly!=='ctl')q.set('layers',ly);history.replaceState(null,'','/?'+q)}
+// --- map
+const svg=d3.select('#svg'),W=()=>innerWidth,H=()=>innerHeight,desk=()=>innerWidth>=1000;
+const root=svg.append('g'),gL=root.append('g'),gC=root.append('g'),gX=root.append('g'),gN=root.append('g'),gG=root.append('g'),gR=root.append('g'),gP=root.append('g'),gK=root.append('g'),gT=root.append('g');
+svg.append('defs').html('<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#f08c6c"/></marker>');
+const proj=d3.geoMercator(),path=d3.geoPath(proj);let K=1,TR=d3.zoomIdentity;
+function fit(){const sh=$('sheet').getBoundingClientRect();const top=desk()?70:120,bot=desk()?H()-20:Math.max(top+160,H()-Math.min(sh.height,H()*.44)-8);
+ const x1=desk()?(AR?sh.right+20:20):10,x2=desk()?(AR?W()-20:sh.left-20):W()-10;
+ proj.fitExtent([[x1,top],[x2,bot]],{type:'MultiPoint',coordinates:[[21.8,3.4],[38.6,22.2]]})}
+const zoom=d3.zoom().scaleExtent([1,12]).on('zoom',ev=>{TR=ev.transform;root.attr('transform',ev.transform);K=ev.transform.k;scaleMarks();$('reset').hidden=K<1.05&&Math.abs(ev.transform.x)<2}).on('end',()=>place());
+svg.call(zoom).on('dblclick.zoom',null);$('reset').onclick=()=>svg.transition().duration(DUR).call(zoom.transform,d3.zoomIdentity);
+function scaleMarks(){root.selectAll('.mk').attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`})}
+const rw=f=>{const G=f.geometry,rv=a=>a.slice().reverse();if(G.type==='Polygon'){if(d3.geoArea(f)>2*Math.PI)G.coordinates=G.coordinates.map(rv)}else if(G.type==='MultiPolygon')G.coordinates=G.coordinates.map(p=>d3.geoArea({type:'Polygon',coordinates:p})>2*Math.PI?p.map(rv):p);return f};
+let BASE=null;const C={},CARD={},LD={};
+const getj=u=>fetch(u).then(x=>{if(!x.ok)throw new Error(u+' '+x.status);return x.json()});
+function ext(e){if(!e.x)return Promise.resolve({features:[],lines:[]});return C[e.id]||(C[e.id]=getj('/extents/'+e.id+'.json').then(g=>{g.features.forEach(f=>{if(f.geometry.type!=='Point')rw(f)});g.lines=g.lines||[];return g}).catch(()=>({features:[],lines:[]})))}
+function cardj(e){return CARD[e.id]||(CARD[e.id]=getj('/m/'+e.id+'.json').catch(()=>null))}
+function layer(k){const f=M.layers[k];if(!f)return Promise.resolve(null);return LD[k]||(LD[k]=Promise.all([].concat(f).map(u=>getj(u).catch(()=>null))).then(a=>a.filter(Boolean)))}
+// --- year within era (features carry their own start/end; end exclusive except the era's final year)
+const act=(p,e,y)=>{const a=p.start??e.a,b=p.end??e.b;return a<=y&&(y<b||(y===b&&b>=e.b))};
+let Y=null;function steps(e,g){const s=new Set([e.a]);g.features.forEach(f=>{const a=f.properties.start;if(a!=null&&a>e.a&&a<e.b)s.add(a)});return [...s].sort((x,z)=>x-z)}
+// --- morph helpers: resample the largest projected outer ring to N points
+const N=96;function ringOf(f){const G=f.geometry;const polys=G.type==='Polygon'?[G.coordinates]:G.coordinates;let best=null,ba=-1;polys.forEach(p=>{const a=d3.geoArea({type:'Polygon',coordinates:p});if(a>ba){ba=a;best=p[0]}});return best.map(c=>proj(c))}
+function resample(pts){const L=[0];for(let k=1;k<pts.length;k++)L.push(L[k-1]+Math.hypot(pts[k][0]-pts[k-1][0],pts[k][1]-pts[k-1][1]));const tot=L[L.length-1]||1,o=[];let j=0;
+ for(let k=0;k<N;k++){const d=k/N*tot;while(j<L.length-2&&L[j+1]<d)j++;const t=(d-L[j])/((L[j+1]-L[j])||1);o.push([pts[j][0]+(pts[j+1][0]-pts[j][0])*t,pts[j][1]+(pts[j+1][1]-pts[j][1])*t])}return o}
+function align(a,b){let bi=0,bd=1e18;for(let k=0;k<N;k++){const d=Math.hypot(a[0][0]-b[k][0],a[0][1]-b[k][1]);if(d<bd){bd=d;bi=k}}return b.slice(bi).concat(b.slice(0,bi))}
+const bbox=f=>path.bounds(f),iou=(A,B)=>{const x=Math.max(0,Math.min(A[1][0],B[1][0])-Math.max(A[0][0],B[0][0])),y=Math.max(0,Math.min(A[1][1],B[1][1])-Math.max(A[0][1],B[0][1]));const I=x*y,U=(A[1][0]-A[0][0])*(A[1][1]-A[0][1])+(B[1][0]-B[0][0])*(B[1][1]-B[0][1])-I;return U>0?I/U:0};
+const dpts=p=>'M'+p.map(q=>q[0].toFixed(1)+','+q[1].toFixed(1)).join('L')+'Z';
+// --- draw base
+function drawBase(e){if(!BASE)return;const y=Y??e.b,post=y>=2011;
+ gL.selectAll('path').data(BASE.features).join('path').attr('d',path).attr('class',d=>'land'+(d.properties.name==='Sudan'?' sdn':d.properties.name==='S. Sudan'?(post?' ssd':' ssd-old'):''));
+ const ss=BASE.features.find(d=>d.properties.name==='S. Sudan');gC.selectAll('text').data(post&&ss?[ss]:[]).join('text').attr('class','cl').attr('text-anchor','middle').attr('transform',d=>`translate(${path.centroid(d)})`).text(T.ssd)}
+let OLD=[];// previously drawn area features [{f,d,box}]
+async function render(anim=true){
+ const e=ES[i];r.value=i;url();const g=await ext(e);if(e!==ES[i])return;
+ const st=steps(e,g);if(Y==null||Y<e.a||Y>e.b)Y=st[st.length-1];
+ const wi=$('within');wi.hidden=st.length<2;if(st.length>1){const w=$('w');w.min=0;w.max=st.length-1;w.value=Math.max(0,st.findIndex(s=>s===Y));$('wo').textContent=fy(Y)}
+ document.documentElement.style.setProperty('--c',e.c);
+ $('en').textContent=AR?e.ar:e.en;$('yrs').innerHTML=`<bdi>${fy(e.a)}</bdi> – <bdi>${fy(e.b)}</bdi> · ${esc(AR?e.sa:e.s)} · ${num(i+1)}/${num(ES.length)}`;
+ $('nob').innerHTML=e.g==='pts'?`<span class="pts"${AR?' title="Arabic label under native-speaker review"':''}>${T.pts}</span>`:e.g==='none'?`<span class="none">${T.none}</span>`:'';
+ drawBase(e);
+ const ctl=on.has('ctl'),areas=ctl?g.features.filter(f=>f.geometry.type!=='Point'&&act(f.properties,e,Y)):[],pts=ctl?g.features.filter(f=>f.geometry.type==='Point'&&act(f.properties,e,Y)):[];
+ // areas: morph matched shapes, crossfade the rest
+ const D=anim?DUR:0,NEW=areas.map(f=>({f,box:bbox(f)})),used=new Set();
+ gX.selectAll('path.ext').interrupt().remove();gX.selectAll('path.old').interrupt().remove();
+ NEW.forEach(n=>{let bi=-1,bv=.25;OLD.forEach((o,k)=>{if(used.has(k))return;const v=iou(o.box,n.box);if(v>bv){bv=v;bi=k}});n.m=bi;if(bi>=0)used.add(bi)});
+ OLD.forEach((o,k)=>{if(used.has(k)||!D)return;gX.append('path').attr('class','ext old').attr('d',path(o.f)).style('opacity',1).transition().duration(D).style('opacity',0).remove()});
+ NEW.forEach(n=>{const p=gX.append('path').attr('class','ext'+(String(n.f.properties.certainty||'').toLowerCase()==='low'?' low':'')).datum(n.f).on('click',(ev)=>{ev.stopPropagation();feat(n.f,e)});
+  if(D&&n.m>=0){const a=resample(ringOf(OLD[n.m].f)),b=align(a,resample(ringOf(n.f)));const it=d3.interpolateArray(a,b);p.attr('d',dpts(a)).transition().duration(D).ease(d3.easeCubicInOut).attrTween('d',()=>t=>dpts(it(t))).on('end',function(){d3.select(this).attr('d',path(n.f))})}
+  else{p.attr('d',path(n.f)).style('opacity',D?0:1);if(D)p.transition().duration(D).style('opacity',1)}});
+ OLD=NEW.map(n=>({f:n.f,box:n.box}));
+ // points (diamonds) and capitals
+ // open lines: never filled; dashed when the feature says so (line_style/style.dash), arrowhead only when it says arrow
+ const lns=ctl?(g.lines||[]).filter(f=>act(f.properties,e,Y)):[];const dsh=p=>p.line_style==='dashed'||!!(p.style&&p.style.dash);
+ gN.selectAll('path.ln').data(lns,f=>e.id+(f.properties.fid||JSON.stringify(f.geometry.coordinates[0]))).join(en=>en.append('path').call(p=>p.append('title')).on('click',(ev,f)=>{ev.stopPropagation();feat(f,e)}))
+  .attr('class',f=>'ln'+(dsh(f.properties)?' dash':'')+(f.properties.arrow?' arr':'')).attr('fill','none').attr('d',f=>path(f.geometry)).attr('marker-end',f=>f.properties.arrow?'url(#ah-ln)':null).each(function(f){this.querySelector('title').textContent=lab(f.properties)||''});
+ const pk=gP.selectAll('g.pt').data(pts,f=>e.id+f.geometry.coordinates);pk.exit().remove();
+ const pn=pk.enter().append('g').attr('class',f=>'pt mk'+(String(f.properties.certainty||'').toLowerCase()==='low'?' low':'')).each(function(f){this.__xy=proj(f.geometry.coordinates)}).on('click',(ev,f)=>{ev.stopPropagation();feat(f,e)});
+ pn.append('rect').attr('x',-5).attr('y',-5).attr('width',10).attr('height',10).attr('transform','rotate(45)');pn.append('title').text(f=>lab(f.properties));
+ if(D)pn.style('opacity',0).transition().duration(D).style('opacity',1);
+ const caps=(e.caps||[]).filter(c=>!pts.some(f=>Math.abs(f.geometry.coordinates[0]-c[1])<.05&&Math.abs(f.geometry.coordinates[1]-c[2])<.05));
+ const ck=gK.selectAll('g.cap').data(caps,c=>e.id+c[0]);ck.exit().remove();const cn=ck.enter().append('g').attr('class','cap mk').each(function(c){this.__xy=proj([c[1],c[2]])});cn.append('circle').attr('r',4.5);cn.append('title').text(c=>c[0]);
+ scaleMarks();
+ // labels (priority thinning + leader lines, as on the era map)
+ const LB=[];areas.forEach(f=>{const q=f.properties.label_point;const xy=q?proj(q):path.centroid(f);if(lab(f.properties))LB.push({xy,t:short(lab(f.properties)),pri:3,big:1})});
+ pts.forEach(f=>LB.push({xy:proj(f.geometry.coordinates),t:short(lab(f.properties)),pri:rep(f.properties)?2.5:2,rep:rep(f.properties),dx:9}));caps.forEach(c=>LB.push({xy:proj([c[1],c[2]]),t:c[0],pri:2,dx:8}));
+ LBS=LB;
+ await layersDraw(e);
+ // card
+ const cj=await cardj(e);if(e!==ES[i])return;$('card').innerHTML=cj?cj[L]:`<p><span class="gap">${T.wip}</span></p>`;layerInfo(e);$('feat').hidden=true;
+ place()}
+let LBS=[];
+function nobPos(){const b=$('layers').getBoundingClientRect();$('nob').style.top=(b.bottom+6)+'px'}
+function place(){nobPos();const t=TR;gT.selectAll('*').remove();const placed=[],hid=[];
+ // obstacles: the card and the top chrome
+ const ob=['sheet','top','layers','nob'].map(id=>$(id).getBoundingClientRect()).filter(b=>b.width).map(b=>({x:b.left,y:b.top,w:b.width,h:b.height}));
+ const ov=(a,c)=>a.x<c.x+c.w&&c.x<a.x+a.w&&a.y<c.y+c.h&&c.y<a.y+a.h;
+ LBS.slice().sort((a,b)=>b.pri-a.pri).forEach(o=>{const sx=t.applyX(o.xy[0]),sy=t.applyY(o.xy[1]);if(sx<0||sx>W()||sy<0||sy>H()){return}
+  const gg=gT.append('g').attr('transform',`translate(${sx},${sy})`);const tx=gg.append('text').attr('class','lb'+(o.big?' big':'')).text(o.t);
+  if(o.rep){tx.append('tspan').attr('class','rep').attr('fill',BL[o.rep][2]).text(' '+BL[o.rep][AR?1:0])}
+  const lh=16,dx0=o.dx?(AR?-o.dx:o.dx):0,an0=o.big?'middle':'start';let ok=null;
+  for(const k of [0,1,-1,2,-2,3,-3])for(const side of (o.dx?[0,1]:[0])){const dx=side?-dx0:dx0,an=o.big?'middle':(side?'end':'start');tx.attr('x',dx).attr('y',4+k*lh).attr('text-anchor',an);
+   const b=tx.node().getBoundingClientRect(),bb={x:b.left-2,y:b.top-1,w:b.width+4,h:b.height+2};if(bb.x<2||bb.x+bb.w>W()-2)continue;if(!placed.some(p=>ov(p,bb))&&!ob.some(p=>ov(p,bb))){ok={k,dx,bb};break}if(ok)break}
+  if(!ok){gg.remove();hid.push(o);return}placed.push(ok.bb);
+  if(ok.k!==0&&o.pri>=2.5)gg.insert('line','text').attr('class','ld').attr('x1',0).attr('y1',0).attr('x2',ok.dx).attr('y2',ok.k*lh+(ok.k<0?2:-8))});
+ $('hidden').innerHTML=hid.length?T.hidden+': '+[...new Set(hid.map(o=>o.t))].map(esc).join(AR?'، ':', '):''}
+// --- tap a feature for details
+function feat(f,e){const p=f.properties,b=rep(p);const det=AR?(p.label_detail_ar||p.label_detail_en):(p.label_detail_en||p.label_detail_ar);
+ $('feat').innerHTML=`<button class="x" aria-label="close">×</button><b>${esc(lab(p)||'—')}</b>${b?` <span class="repb${b==='CONTESTED'?' cont':b==='SINGLE-SOURCE'?' single':''}">${esc(b==='SINGLE-SOURCE'&&!AR?p.badge:BL[b][AR?1:0])}</span>`:''}${p.certainty?` <small>[${esc(p.certainty)}]</small>`:''}`+
+  (p.start!=null?`<br><small><bdi>${fy(p.start)}</bdi> – <bdi>${fy(p.end??e.b)}</bdi></small>`:'')+(det?`<p>${esc(det)}</p>`:'')+
+  `<p class="extnote"><bdi dir="ltr">${esc(p.citation||p.source)}${p.pages?' pp. '+esc(p.pages):''}</bdi>${p.url?` <a href="${esc(p.url)}" rel="noopener">link</a>`:''}${p.source_pins?Object.entries(p.source_pins).map(([k,v])=>`<br><bdi dir="ltr">${esc(k)}: ${esc(v)}</bdi>`).join(''):''}${(p.badges||[]).filter(x=>x!==b).map(x=>` <span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`).join('')}${p.geometry_citation?`<br>${AR?'الهندسة':'Geometry'}: <bdi dir="ltr">${esc(p.geometry_citation)}</bdi>`:''}</p>`;
+ $('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true};if($('sheet').classList.contains('peek'))snap('half');$('feat').scrollIntoView({block:'nearest'})}
+svg.on('click',()=>{$('feat').hidden=true});
+// --- optional layers: drawn only from delivered, sourced files
+const srcd=x=>!!(x&&(x.source||x.source_id||(x.source_ids&&x.source_ids.length)||(x.sources&&x.sources.length)||(x.properties&&(x.properties.source||(x.properties.source_ids||[]).length))));
+const items=d=>!d?[]:Array.isArray(d)?d:d.features||d.groups||d.relations||d.series||d.data||d.items||[];
+const yrIn=(x,e,y)=>{const p=x.properties||x;const a=p.start??p.from_year??-1e9,b=p.end??p.to_year??1e9;return a<=y&&y<=b};
+const anchor=id=>{const e=ES.find(z=>z.id===id);if(!e)return null;const g=C[e.id];const c=e.caps&&e.caps[0];return c?[c[1],c[2]]:null};
+const RC={alliance:'#4fb06b',conflict:'#e0574c',trade:'#e0a63e',subjugation:'#b07ae0',migration:'#5aa9e6'};
+svg.select('defs').html(Object.entries(RC).map(([k,c])=>`<marker id="ah-${k}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="${c}"/></marker>`).join('')+'<marker id="ah-ln" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#f0d26c"/></marker>');
+const GJ={};function glj(e){if(!M.layers.glBuilt||!(M.layers.g||[]).includes(e.id))return Promise.resolve([]);return GJ[e.id]||(GJ[e.id]=getj('/g/'+e.id+'.json').catch(()=>[]))}
+function glTap(ev,f){ev.stopPropagation();const li=document.querySelector(`#card li[data-id="${CSS.escape(f.id)}"]`);$('feat').innerHTML='<button class="x" aria-label="close">×</button>'+(li?li.innerHTML:esc(AR?f.ar:f.en));$('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true};if($('sheet').classList.contains('peek'))snap('half')}
+async function layersDraw(e){const fs=(on.has('grp')||on.has('rel'))?await glj(e):[];const D=RM?0:DUR;
+ const pts=on.has('grp')?fs.filter(f=>f.k!=='relation'&&f.geo&&f.geo.type==='Point'):[];
+ // stable ids: the same group feature glides to its new anchor between eras
+ const s=gG.selectAll('g.grp').data(pts,f=>f.id);s.exit().remove();
+ const n=s.enter().append('g').attr('class',f=>'grp mk '+(f.k||'')).on('click',glTap);n.append('circle').attr('r',7);n.append('title');
+ n.merge(s).each(function(f){const to=proj(f.geo.coordinates),fr=this.__xy||to;this.__xy=to;if(D&&fr!==to&&(fr[0]!==to[0]||fr[1]!==to[1])){const el=this,it=d3.interpolateArray(fr,to);d3.select(el).transition().duration(D).tween('m',()=>t=>{el.__xy=it(t);el.setAttribute('transform',`translate(${el.__xy})scale(${1/K})`)})}}).select('title').text(f=>(AR?f.ar:f.en)+(f.b?' ['+f.b+']':''));
+ const ln=on.has('rel')?fs.filter(f=>f.k==='relation'&&f.geo&&/LineString$/.test(f.geo.type)):[];
+ const r=gR.selectAll('path.rel').data(ln,f=>f.id);r.exit().remove();
+ r.enter().append('path').attr('class',f=>'rel '+(f.t||'')).on('click',glTap).append('title').merge(r.select('title')).text(f=>(AR?f.ar:f.en)+(f.b?' ['+f.b+']':''));
+ gR.selectAll('path.rel').attr('stroke',f=>RC[f.t]||'#ccc').attr('marker-end',f=>RC[f.t]?`url(#ah-${f.t})`:null).attr('stroke-dasharray',f=>String(f.c).toLowerCase()==='low'?'5 4':null)
+  .attr('d',f=>{if(f.geo.type==='MultiLineString')return path(f.geo);const c=f.geo.coordinates,a=proj(c[0]),b=proj(c[c.length-1]),mx=(a[0]+b[0])/2,my=(a[1]+b[1])/2,dx=b[0]-a[0],dy=b[1]-a[1];return `M${a}Q${mx-dy*.2},${my+dx*.2} ${b}`});
+ // population stays in the card (sparkline); no invented geography for it
+ scaleMarks()}
+async function layerInfo(e){const box=$('layerinfo');if(!box)return;let h='';
+ const pl=document.querySelector('.poplayer');if(pl)pl.hidden=!on.has('pop');const gl=document.querySelector('.grplayer'),rl=document.querySelector('.rellayer');if(gl)gl.hidden=!on.has('grp');if(rl)rl.hidden=!on.has('rel');
+ for(const k of ['grp','rel','pop']){if(!on.has(k)||(k==='pop'&&pl)||(k==='grp'&&gl)||(k==='rel'&&rl))continue;const d=await layer(k);const gapT={grp:T.grpgap,rel:T.relgap,pop:T.popgap}[k];
+  if(!d||!d.length||!d.flatMap(items).length){h+=`<p class="lgap"><b>${T.l[k]}:</b> <span class="gap">${T.wip}</span> <span class="gapt">${esc(gapT)}</span></p>`;continue}
+  if(k==='pop'){const s=d.flatMap(items).filter(x=>x.year!=null&&x.value!=null&&(x.lat==null)).sort((a,b)=>a.year-b.year);if(s.length<2){h+=`<p class="lgap"><b>${T.l.pop}:</b> <span class="gap">${T.wip}</span></p>`;continue}
+   const x0=s[0].year,x1=s[s.length-1].year,v1=Math.max(...s.map(x=>+x.value)),X=y=>(y-x0)/(x1-x0||1)*300+10,Yv=v=>40-(+v/v1)*34;const inE=s.filter(x=>x.year>=e.a&&x.year<=e.b);const last=inE[inE.length-1];
+   h+=`<p class="lgap"><b>${T.l.pop}</b>${last?` · <bdi>${fy(last.year)}</bdi>: <b>${num((+last.value).toLocaleString(AR?'ar':'en'))}</b>`:` · <span class="gap">${T.wip}</span>`}</p><svg class="spark" viewBox="0 0 320 46" role="img" aria-label="${esc(T.l.pop)}" style="transform:${AR?'scaleX(-1)':'none'}"><rect x="${X(Math.max(e.a,x0))}" y="0" width="${Math.max(2,X(Math.min(e.b,x1))-X(Math.max(e.a,x0)))}" height="46" fill="#8cc8f022"/><polyline fill="none" stroke="#8cc8f0" stroke-width="2" points="${s.map(x=>X(x.year)+','+Yv(x.value)).join(' ')}"/></svg><p class="extnote"><bdi dir="ltr">${esc([...new Set(s.flatMap(x=>[].concat(x.source||x.source_ids||[])))].join('; '))}</bdi></p>`;continue}
+  const n=d.flatMap(items).filter(x=>srcd(x)).length;h+=`<p class="lgap"><b>${T.l[k]}:</b> ${num(n)}</p>`}
+ box.innerHTML=h}
+// --- navigation
+function go(n){n=Math.max(0,Math.min(ES.length-1,n));if(n===i)return;i=n;Y=null;render(true)}
+r.addEventListener('input',()=>go(+r.value));$('prev').onclick=()=>go(i-1);$('next').onclick=()=>go(i+1);
+$('w').addEventListener('input',()=>{const e=ES[i];ext(e).then(g=>{Y=steps(e,g)[+$('w').value];render(true)})});
+addEventListener('keydown',ev=>{if(ev.target.tagName==='INPUT')return;if(ev.key==='ArrowRight')go(i+(AR?-1:1));if(ev.key==='ArrowLeft')go(i+(AR?1:-1))});
+let sx=null;const hd=$('head');hd.addEventListener('pointerdown',ev=>{sx=ev.clientX});hd.addEventListener('pointerup',ev=>{if(sx==null)return;const d=ev.clientX-sx;sx=null;if(Math.abs(d)>50)go(i+((d<0)!==AR?1:-1))});
+const SN=['peek','half','full'];function snap(s){const sh=$('sheet');SN.forEach(c=>sh.classList.remove(c));sh.classList.add(s);setTimeout(place,320)}
+$('grab').onclick=()=>{const sh=$('sheet'),c=SN.find(x=>sh.classList.contains(x))||'half';snap(SN[(SN.indexOf(c)+1)%3])};
+let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(()=>{fit();OLD=[];render(false)},150)});
+// --- start
+fit();getj('/basemap-map.json').then(b=>{BASE=b;render(false)}).catch(()=>render(false));
+})();
