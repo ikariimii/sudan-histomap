@@ -33,7 +33,7 @@
   "rules": "Derived only from the input files; nothing inferred. Base source is null when the properties do not name one.",
   "totals": {
    "eras": 68,
-   "shapes": 247,
+   "shapes": 246,
    "base_source_null": 7,
    "overlay_error_non_null": 0,
    "checked_against_shapes": 25
@@ -1155,8 +1155,8 @@
      "geometry_type": "Point",
      "cites": [
       {
-       "id": "Wikipedia contributors, \"Makuria\", English Wikipedia (fetched 2026-10-20; cites Gerhards 2025, Ruffini 2012, Seignobos 2018) – flagged, no scholarly text read",
-       "pages": null
+       "id": "SFDAS_HCS2017",
+       "pages": "p.420"
       }
      ],
      "base_source": [
@@ -1170,7 +1170,7 @@
      ],
      "confidence": 0.3,
      "certainty": "low",
-     "start": 1366,
+     "start": 1365,
      "end": 1500,
      "checked_against": [],
      "overlay_mean_error_km": null,
@@ -1186,8 +1186,8 @@
      "geometry_type": "Point",
      "cites": [
       {
-       "id": "Wikipedia contributors, \"Makuria\", English Wikipedia (fetched 2026-10-20; cites Gerhards 2025, Ruffini 2012, Seignobos 2018) – flagged, no scholarly text read",
-       "pages": null
+       "id": "SFDAS_HCS2017",
+       "pages": "p.420"
       }
      ],
      "base_source": [
@@ -1201,38 +1201,7 @@
      ],
      "confidence": 0.3,
      "certainty": "low",
-     "start": 1366,
-     "end": 1500,
-     "checked_against": [],
-     "overlay_mean_error_km": null,
-     "overlay_null_reason": "not traced from a georeferenced map"
-    },
-    {
-     "layer": "extents",
-     "file": "db/extents/makuria.geojson",
-     "feature_index": 6,
-     "feature_id": null,
-     "label_en": "Meinarti (reference marker)",
-     "zone_type": "point",
-     "geometry_type": "Point",
-     "cites": [
-      {
-       "id": "Wikipedia contributors, \"Makuria\", English Wikipedia (fetched 2026-10-20; cites Gerhards 2025, Ruffini 2012, Seignobos 2018) – flagged, no scholarly text read",
-       "pages": null
-      }
-     ],
-     "base_source": [
-      "Wikidata"
-     ],
-     "base_source_text": "Wikidata (CC0 1.0): coordinates of Q168588 (Meinarti) | CC0 1.0 (Wikidata) | reference marker (not a border)",
-     "base_source_null_reason": null,
-     "badges": [
-      "APPROXIMATE",
-      "DERIVED"
-     ],
-     "confidence": 0.3,
-     "certainty": "low",
-     "start": 1366,
+     "start": 1365,
      "end": 1500,
      "checked_against": [],
      "overlay_mean_error_km": null,
@@ -1269,7 +1238,7 @@
     }
    ],
    "counts": {
-    "shapes": 8,
+    "shapes": 7,
     "contested": 0,
     "trade_routes": 1,
     "base_source_null": 0
@@ -7789,7 +7758,7 @@
        "pages": null
       },
       {
-       "id": "WP:Eritrea",
+       "id": "EEBC2002",
        "pages": null
       }
      ],
@@ -7820,7 +7789,7 @@
      "geometry_type": null,
      "cites": [
       {
-       "id": "WP:Eritrea",
+       "id": "EEBC2002",
        "pages": null
       },
       {

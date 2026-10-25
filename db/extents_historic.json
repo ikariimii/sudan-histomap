@@ -353,19 +353,21 @@
    "phases": [
     {
      "year_from": 1276,
-     "year_to": 1365,
+     "year_to": 1364,
      "label": "Mamluk vassal kingdom",
      "confidence": "low",
-     "reach_en": "Wikipedia (flagged): after 1276 Makuria became a Mamluk vassal and had to 'transfer Lower Nubia to Baybars', though this 'was probably never put into action'; under king Siti (c.1330s) Nubian sources run 'from Lower Nubia to Kordofan' (WP_MAKURIA citing Seignobos 2018, Ruffini 2012 pp.253–254). The Alodia border was 'somewhere between Abu Hamad and the Nile-Atbara confluence' (WP citing Welsby 2014) – for the earlier kingdom, not dated to this window. No scholarly text read by us.",
+     "reach_en": "Wikipedia (flagged): after 1276 Makuria became a Mamluk vassal and had to 'transfer Lower Nubia to Baybars', though this 'was probably never put into action'; under king Siti (c.1330s) Nubian sources run 'from Lower Nubia to Kordofan' (WP_MAKURIA citing Seignobos 2018, Ruffini 2012 pp.253–254). The Alodia border was 'somewhere between Abu Hamad and the Nile-Atbara confluence' (WP citing Welsby 2014) – for the earlier kingdom, not dated to this window. No scholarly text read by us. SFDAS_HCS2017 p.419 (read via the Analyst's checklist quote) supports only the 1276 vassalage: the Mamluk army 'poussa jusqu’à Dongola en 1276', restored king Shékanda and imposed 'un lourd tribut et la cession de provinces entières'. The Siti 'Lower Nubia to Kordofan' reach and the Abu Hamad anchor remain Wikipedia-only (flagged).",
      "anchors": [
       {
        "name": "Old Dongola",
        "lat": 18.2231,
        "lon": 30.7439,
        "source_ids": [
+        "SFDAS_HCS2017",
         "WP_MAKURIA"
        ],
-       "coord_source": "Wikidata Q433112"
+       "coord_source": "Wikidata Q433112",
+       "pages": "SFDAS_HCS2017 p.419"
       },
       {
        "name": "Abu Hamad (approx. southern border zone)",
@@ -378,46 +380,40 @@
       }
      ],
      "sources": [
+      "SFDAS_HCS2017",
       "WP_MAKURIA"
      ]
     },
     {
-     "year_from": 1366,
+     "year_from": 1365,
      "year_to": 1500,
      "label": "Rump kingdom at Gebel Adda",
      "confidence": "low",
-     "reach_en": "Wikipedia (flagged): after the 1365 civil war Dongola was abandoned and the kingdom centred on Gebel Adda and Qasr Ibrim, 'extending at least from Qasr Ibrim in the north to Meinarti at the 2nd cataract', perhaps from the 1st to the 3rd cataract, matching the 'castle house' distribution (WP_MAKURIA citing Gerhards 2025 pp.188–189). Last known king Joel, 1463; collapse probably late 15th c. Use the Qasr Ibrim–Meinarti stretch as the minimum.",
+     "reach_en": "SFDAS_HCS2017 p.420: 'En 1364 […] la capitale de Makouria, Old Dongola, fut abandonnée […] La cour royale se retira en Basse-Nubie, à Daw (actuel Gébel Adda), tandis que l’éparque de Nobadia était établi un peu au nord, à Qasr Ibrim. […] Le dernier roi connu est Joël, vers 1484.' Points only (Gebel Adda, Qasr Ibrim); no southern limit or reach is sourced.",
      "anchors": [
       {
-       "name": "Gebel Adda (capital after 1365)",
+       "name": "Gebel Adda (Daw; royal court after 1364)",
        "lat": 22.2971,
        "lon": 31.6369,
        "source_ids": [
-        "WP_MAKURIA"
+        "SFDAS_HCS2017"
        ],
-       "coord_source": "Wikidata Q1496812"
+       "coord_source": "Wikidata Q1496812",
+       "pages": "p.420"
       },
       {
-       "name": "Qasr Ibrim (minimum northern point)",
+       "name": "Qasr Ibrim (seat of the eparch of Nobadia)",
        "lat": 22.6502,
        "lon": 31.9915,
        "source_ids": [
-        "WP_MAKURIA"
+        "SFDAS_HCS2017"
        ],
-       "coord_source": "Wikidata Q2121453"
-      },
-      {
-       "name": "Meinarti (minimum southern point, 2nd cataract)",
-       "lat": 21.0069,
-       "lon": 30.5778,
-       "source_ids": [
-        "WP_MAKURIA"
-       ],
-       "coord_source": "Wikidata Q168588"
+       "coord_source": "Wikidata Q2121453",
+       "pages": "p.420"
       }
      ],
      "sources": [
-      "WP_MAKURIA"
+      "SFDAS_HCS2017"
      ]
     }
    ],
@@ -2813,7 +2809,6 @@
    "control_limits_ar": "انظر الحقول الإنجليزية؛ النص العربي لكل عنصر في ملف geojson. [Arabic text pending native-speaker review.]",
    "source_ids": [
     "OHM_2690839",
-    "WP:Eritrea",
     "EEBC2002",
     "OHM_2839746",
     "UNGA_RES390V",

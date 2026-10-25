@@ -90,10 +90,10 @@
       "APPROXIMATE",
       "DERIVED"
      ],
-     "start": 1366,
+     "start": 1365,
      "end": 1500,
      "source_ids": [
-      "Wikipedia contributors, \"Makuria\", English Wikipedia (fetched 2026-10-20; cites Gerhards 2025, Ruffini 2012, Seignobos 2018) – flagged, no scholarly text read"
+      "SFDAS_HCS2017"
      ],
      "low_confidence_overlay": true
     },
@@ -107,27 +107,10 @@
       "APPROXIMATE",
       "DERIVED"
      ],
-     "start": 1366,
+     "start": 1365,
      "end": 1500,
      "source_ids": [
-      "Wikipedia contributors, \"Makuria\", English Wikipedia (fetched 2026-10-20; cites Gerhards 2025, Ruffini 2012, Seignobos 2018) – flagged, no scholarly text read"
-     ],
-     "low_confidence_overlay": true
-    },
-    {
-     "feature_index": 6,
-     "id": null,
-     "label_en": "Meinarti (reference marker)",
-     "symbol_class": "extent_label_point",
-     "certainty": "low",
-     "badges": [
-      "APPROXIMATE",
-      "DERIVED"
-     ],
-     "start": 1366,
-     "end": 1500,
-     "source_ids": [
-      "Wikipedia contributors, \"Makuria\", English Wikipedia (fetched 2026-10-20; cites Gerhards 2025, Ruffini 2012, Seignobos 2018) – flagged, no scholarly text read"
+      "SFDAS_HCS2017"
      ],
      "low_confidence_overlay": true
     }
@@ -1308,33 +1291,34 @@
   "city_town": 1,
   "control_extent_approx": 4,
   "economy_unknown": 1,
-  "extent_label_point": 3,
+  "extent_label_point": 2,
   "list_only_text": 1,
-  "low_confidence": 7,
+  "low_confidence": 6,
   "relation_arrow_conflict": 1,
   "trade_route": 1,
-  "extent_features": 7,
+  "extent_features": 6,
   "group_features": 2,
   "cities": 29
  },
  "context": {
   "key_events_en": [
-   "Repulsed Arab armies at Dongola 651/652",
-   "Baqt treaty with Egypt",
-   "Faras cathedral frescoes",
-   "Decline under Mamluk pressure, 14th c."
+   "Repulsed Arab armies at Dongola 651/652 (SFDAS_HCS2017 p.405)",
+   "Baqt treaty with Egypt (SFDAS_HCS2017 p.405)",
+   "Faras cathedral frescoes (SFDAS_HCS2017 p.404)",
+   "Decline under Mamluk pressure, 14th c. (SFDAS_HCS2017 pp.419–420)"
   ],
   "key_events_ar": [
-   "صد الجيوش العربية عند دنقلا 651/652",
-   "معاهدة البقط مع مصر",
-   "جداريات كاتدرائية فرس",
-   "الانحدار تحت ضغط المماليك، القرن الرابع عشر"
+   "صد الجيوش العربية عند دنقلا 651/652 (SFDAS_HCS2017 p.405)",
+   "معاهدة البقط مع مصر (SFDAS_HCS2017 p.405)",
+   "جداريات كاتدرائية فرس (SFDAS_HCS2017 p.404)",
+   "الانحدار تحت ضغط المماليك، القرن الرابع عشر (SFDAS_HCS2017 pp.419–420)"
   ],
   "key_events_source_ids": [
    "WELSBY2002",
    "WP_MAKURIA",
    "GHA2_CH12",
-   "DERDA_LAJTAR2019"
+   "DERDA_LAJTAR2019",
+   "SFDAS_HCS2017"
   ],
   "dating_note": "End date approximate (kingdom fragmented in 14th–15th c.). Merger with Makuria: date disputed. GHA II ch.12 (Michałowski, pp.332–333) gives two versions: Maqrizi has one king, Qalidurut, ruling central and northern Nubia by the mid-7th c.; 'Christian sources seem to prove that the union of Nubia was the work of King Merkurios, who came to the throne in 697.' Derda & Łajtar (2019, p.136 and n.4): 'perhaps around 630'; the earliest indubitable proof of a greater Makuria including Nobadia is the reign of Merkurios (late 7th–early 8th c.); incorporation probably before the Arab raid on Dongola in 652; Godlewski has suggested the end of the 6th c. Welsby 2002 not read on this point.",
   "capitals": [
@@ -1393,7 +1377,6 @@
     "Kingdom of Makuria, 1268–1276 (OHM 2960088)",
     "Makuria after the union with Nobadia (from c. 7th century, disputed)",
     "Makuria before the union with Nobadia (until c. 7th century, disputed)",
-    "Meinarti (reference marker)",
     "Qasr Ibrim (reference marker)"
    ],
    "extents_removed": [
