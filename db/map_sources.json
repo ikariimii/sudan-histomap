@@ -23,17 +23,19 @@
     "badges": "list",
     "confidence": "number|null",
     "certainty": "word|null",
-    "overlay_maps": "titles from border_overlay_maps.json for this draft",
-    "overlay_mean_error_km": "number only if in border_overlay_maps.json, else null",
+    "checked_against": "[{title, mean_error_km, gcp_count}] maps in border_overlay_maps.json this draft was checked against; mean_error_km is the georeferencing error of the MAP (2nd-order polynomial RMS), not of the shape",
+    "overlay_mean_error_km": "error of the shape if traced from a georeferenced map; null everywhere (none traced)",
     "overlay_null_reason": "why null"
    }
   },
+  "checked_against_note": "mean_error_km values are the errors of the maps the shape was checked against, not of the shape.",
   "rules": "Derived only from the input files; nothing inferred. Base source is null when the properties do not name one.",
   "totals": {
    "eras": 68,
    "shapes": 245,
    "base_source_null": 7,
-   "overlay_error_non_null": 0
+   "overlay_error_non_null": 0,
+   "checked_against_shapes": 25
   }
  },
  "eras": {
@@ -86,7 +88,7 @@
      "certainty": "low",
      "start": -4900,
      "end": -3800,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -124,7 +126,7 @@
      "certainty": "low",
      "start": -4900,
      "end": -3800,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -176,7 +178,7 @@
      "certainty": "low",
      "start": -3800,
      "end": -2900,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -208,11 +210,15 @@
      "certainty": "low",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "Map of Nubia comprising the country between the First and Second Cataracts of the Nile, from a survey made by H. Parke and J. J. Scoles in 1824 (c. 1:460,000)"
+     "checked_against": [
+      {
+       "title": "Map of Nubia comprising the country between the First and Second Cataracts of the Nile, from a survey made by H. Parke and J. J. Scoles in 1824 (c. 1:460,000)",
+       "mean_error_km": 1.95,
+       "gcp_count": 9
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     }
    ],
    "counts": {
@@ -258,7 +264,7 @@
      "certainty": "low",
      "start": -2400,
      "end": -1550,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -290,11 +296,15 @@
      "certainty": "low",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "Map of Nubia comprising the country between the First and Second Cataracts of the Nile, from a survey made by H. Parke and J. J. Scoles in 1824 (c. 1:460,000)"
+     "checked_against": [
+      {
+       "title": "Map of Nubia comprising the country between the First and Second Cataracts of the Nile, from a survey made by H. Parke and J. J. Scoles in 1824 (c. 1:460,000)",
+       "mean_error_km": 1.95,
+       "gcp_count": 9
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     }
    ],
    "counts": {
@@ -345,7 +355,7 @@
      "certainty": "low",
      "start": -2450,
      "end": -1480,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -390,7 +400,7 @@
      "certainty": "medium",
      "start": -1500,
      "end": -1070,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -425,7 +435,7 @@
      "certainty": "medium",
      "start": -1500,
      "end": -1070,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -460,7 +470,7 @@
      "certainty": "low",
      "start": -1500,
      "end": -1070,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -491,11 +501,15 @@
      "certainty": "medium",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "Map of Nubia comprising the country between the First and Second Cataracts of the Nile, from a survey made by H. Parke and J. J. Scoles in 1824 (c. 1:460,000)"
+     "checked_against": [
+      {
+       "title": "Map of Nubia comprising the country between the First and Second Cataracts of the Nile, from a survey made by H. Parke and J. J. Scoles in 1824 (c. 1:460,000)",
+       "mean_error_km": 1.95,
+       "gcp_count": 9
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     },
     {
      "layer": "extents",
@@ -531,11 +545,15 @@
      "certainty": "medium",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "Map of Nubia comprising the country between the First and Second Cataracts of the Nile, from a survey made by H. Parke and J. J. Scoles in 1824 (c. 1:460,000)"
+     "checked_against": [
+      {
+       "title": "Map of Nubia comprising the country between the First and Second Cataracts of the Nile, from a survey made by H. Parke and J. J. Scoles in 1824 (c. 1:460,000)",
+       "mean_error_km": 1.95,
+       "gcp_count": 9
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     }
    ],
    "counts": {
@@ -590,7 +608,7 @@
      "certainty": "low",
      "start": -713,
      "end": -656,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -625,7 +643,7 @@
      "certainty": "low",
      "start": -593,
      "end": -270,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -656,7 +674,7 @@
      "certainty": "low",
      "start": -800,
      "end": -713,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -709,7 +727,7 @@
      "certainty": "low",
      "start": -20,
      "end": 350,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -740,7 +758,7 @@
      "certainty": "low",
      "start": -270,
      "end": -20,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -771,7 +789,7 @@
      "certainty": "low",
      "start": -270,
      "end": -20,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -802,7 +820,7 @@
      "certainty": "low",
      "start": -270,
      "end": -20,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -833,7 +851,7 @@
      "certainty": "low",
      "start": -270,
      "end": -20,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -887,7 +905,7 @@
      "certainty": "low",
      "start": 350,
      "end": 550,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -918,7 +936,7 @@
      "certainty": "low",
      "start": 350,
      "end": 550,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -967,7 +985,7 @@
      "certainty": "low",
      "start": 400,
      "end": 700,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -1021,7 +1039,7 @@
      "certainty": "low",
      "start": 450,
      "end": 700,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -1060,7 +1078,7 @@
      "certainty": "low",
      "start": 700,
      "end": 1265,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -1091,7 +1109,7 @@
      "certainty": "low",
      "start": 1265,
      "end": 1268,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -1122,7 +1140,7 @@
      "certainty": "low",
      "start": 1268,
      "end": 1276,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -1153,7 +1171,7 @@
      "certainty": "low",
      "start": 1366,
      "end": 1500,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -1184,7 +1202,7 @@
      "certainty": "low",
      "start": 1366,
      "end": 1500,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -1215,7 +1233,7 @@
      "certainty": "low",
      "start": 1366,
      "end": 1500,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -1244,7 +1262,7 @@
      ],
      "confidence": null,
      "certainty": null,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "schematic line, not traced"
     }
@@ -1297,7 +1315,7 @@
      "certainty": "low",
      "start": 500,
      "end": 1504,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -1336,11 +1354,15 @@
      "certainty": "medium",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "Map of part of Eastern Sudan, Kordofan, Abyssinia etc., from the latest surveys and explorations"
+     "checked_against": [
+      {
+       "title": "Map of part of Eastern Sudan, Kordofan, Abyssinia etc., from the latest surveys and explorations",
+       "mean_error_km": 2.3,
+       "gcp_count": 7
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     },
     {
      "layer": "extents",
@@ -1373,11 +1395,15 @@
      "certainty": "low",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "Map of part of Eastern Sudan, Kordofan, Abyssinia etc., from the latest surveys and explorations"
+     "checked_against": [
+      {
+       "title": "Map of part of Eastern Sudan, Kordofan, Abyssinia etc., from the latest surveys and explorations",
+       "mean_error_km": 2.3,
+       "gcp_count": 7
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     }
    ],
    "counts": {
@@ -1424,7 +1450,7 @@
      "certainty": "medium",
      "start": 1504,
      "end": 1821,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -1455,7 +1481,7 @@
      "certainty": "low",
      "start": 1600,
      "end": 1650,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -1490,7 +1516,7 @@
      "certainty": "low",
      "start": 1523,
      "end": 1821,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -1525,7 +1551,7 @@
      "certainty": "low",
      "start": 1504,
      "end": 1821,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -1556,7 +1582,7 @@
      "certainty": "low",
      "start": 1504,
      "end": 1821,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -1594,12 +1620,20 @@
      "certainty": "medium",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
-      "Map of part of Eastern Sudan, Kordofan, Abyssinia etc., from the latest surveys and explorations"
+     "checked_against": [
+      {
+       "title": "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
+       "mean_error_km": 6.95,
+       "gcp_count": 10
+      },
+      {
+       "title": "Map of part of Eastern Sudan, Kordofan, Abyssinia etc., from the latest surveys and explorations",
+       "mean_error_km": 2.3,
+       "gcp_count": 7
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     },
     {
      "layer": "extents",
@@ -1640,12 +1674,20 @@
      "certainty": "low",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
-      "Map of part of Eastern Sudan, Kordofan, Abyssinia etc., from the latest surveys and explorations"
+     "checked_against": [
+      {
+       "title": "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
+       "mean_error_km": 6.95,
+       "gcp_count": 10
+      },
+      {
+       "title": "Map of part of Eastern Sudan, Kordofan, Abyssinia etc., from the latest surveys and explorations",
+       "mean_error_km": 2.3,
+       "gcp_count": 7
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     }
    ],
    "counts": {
@@ -1697,7 +1739,7 @@
      "certainty": "low",
      "start": 1821,
      "end": 1874,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -1737,7 +1779,7 @@
      "certainty": "low",
      "start": 1874,
      "end": 1885,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -1768,7 +1810,7 @@
      "certainty": "low",
      "start": 1821,
      "end": 1885,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -1817,7 +1859,7 @@
      "certainty": "low",
      "start": 1885,
      "end": 1899,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -1871,7 +1913,7 @@
      "certainty": "low",
      "start": 1899,
      "end": 1902,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -1911,7 +1953,7 @@
      "certainty": "low",
      "start": 1902,
      "end": 1910,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -1951,7 +1993,7 @@
      "certainty": "low",
      "start": 1910,
      "end": 1912,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -1991,7 +2033,7 @@
      "certainty": "low",
      "start": 1912,
      "end": 1916,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2022,7 +2064,7 @@
      "certainty": "low",
      "start": 1916,
      "end": 1934,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2053,7 +2095,7 @@
      "certainty": "low",
      "start": 1934,
      "end": 1956,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2081,7 +2123,7 @@
      ],
      "confidence": null,
      "certainty": null,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "schematic line, not traced"
     }
@@ -2123,7 +2165,7 @@
      "certainty": "high",
      "start": 1956,
      "end": 1958,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -2165,7 +2207,7 @@
      "certainty": "high",
      "start": 1958,
      "end": 1960,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2193,7 +2235,7 @@
      "certainty": "high",
      "start": 1960,
      "end": 1964,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -2235,7 +2277,7 @@
      "certainty": "high",
      "start": 1964,
      "end": 1969,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -2277,7 +2319,7 @@
      "certainty": "high",
      "start": 1969,
      "end": 1985,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -2319,7 +2361,7 @@
      "certainty": "high",
      "start": 1985,
      "end": 1989,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -2364,7 +2406,7 @@
      "certainty": "medium",
      "start": 1989,
      "end": 2011,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2396,7 +2438,7 @@
      "certainty": "medium",
      "start": 2011,
      "end": 2019,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2446,7 +2488,7 @@
      "certainty": "medium",
      "start": 2011,
      "end": 2019,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2476,7 +2518,7 @@
      "certainty": "medium",
      "start": 2011,
      "end": 2019,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2532,7 +2574,7 @@
      "certainty": "high",
      "start": 1989,
      "end": 1995,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2591,7 +2633,7 @@
      "certainty": "medium",
      "start": 1995,
      "end": 2019,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2621,7 +2663,7 @@
      "certainty": "medium",
      "start": 2011,
      "end": 2019,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2652,7 +2694,7 @@
      "certainty": "medium",
      "start": 2011,
      "end": 2019,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2683,7 +2725,7 @@
      "certainty": "medium",
      "start": 2011,
      "end": 2019,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2711,7 +2753,7 @@
      ],
      "confidence": null,
      "certainty": null,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "schematic line, not traced"
     }
@@ -2754,7 +2796,7 @@
      "certainty": "high",
      "start": 2019,
      "end": 2023,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2804,7 +2846,7 @@
      "certainty": "medium",
      "start": 2019,
      "end": 2023,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2834,7 +2876,7 @@
      "certainty": "medium",
      "start": 2019,
      "end": 2023,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2893,7 +2935,7 @@
      "certainty": "medium",
      "start": 2019,
      "end": 2023,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2928,7 +2970,7 @@
      "certainty": "medium",
      "start": 2019,
      "end": 2023,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2958,7 +3000,7 @@
      "certainty": "medium",
      "start": 2019,
      "end": 2023,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -2989,7 +3031,7 @@
      "certainty": "medium",
      "start": 2019,
      "end": 2023,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3020,7 +3062,7 @@
      "certainty": "medium",
      "start": 2019,
      "end": 2023,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -3063,7 +3105,7 @@
      "certainty": "high",
      "start": 2023,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3113,7 +3155,7 @@
      "certainty": "medium",
      "start": 2023,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3143,7 +3185,7 @@
      "certainty": "medium",
      "start": 2023,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3202,7 +3244,7 @@
      "certainty": "medium",
      "start": 2023,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3237,7 +3279,7 @@
      "certainty": "medium",
      "start": 2023,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3268,7 +3310,7 @@
      "certainty": "low",
      "start": 2024,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3300,7 +3342,7 @@
      "certainty": "medium",
      "start": 2024,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3332,7 +3374,7 @@
      "certainty": "low",
      "start": 2024,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "no geometry"
     },
@@ -3364,7 +3406,7 @@
      "certainty": "low",
      "start": 2024,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "no geometry"
     },
@@ -3394,7 +3436,7 @@
      "certainty": "medium",
      "start": 2023,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3425,7 +3467,7 @@
      "certainty": "medium",
      "start": 2023,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3456,7 +3498,7 @@
      "certainty": "medium",
      "start": 2023,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -3505,7 +3547,7 @@
      "certainty": "low",
      "start": 1100,
      "end": 1400,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3540,12 +3582,20 @@
      "certainty": "low",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
-      "A Map of the Nile, from the equatorial lakes to the Mediterranean, embracing the Egyptian Sudan (Kordofan, Darfur, etc. and Abyssinia)"
+     "checked_against": [
+      {
+       "title": "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
+       "mean_error_km": 6.95,
+       "gcp_count": 10
+      },
+      {
+       "title": "A Map of the Nile, from the equatorial lakes to the Mediterranean, embracing the Egyptian Sudan (Kordofan, Darfur, etc. and Abyssinia)",
+       "mean_error_km": 21.28,
+       "gcp_count": 9
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     }
    ],
    "counts": {
@@ -3592,7 +3642,7 @@
      "certainty": "low",
      "start": 1400,
      "end": 1650,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3627,12 +3677,20 @@
      "certainty": "low",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
-      "A Map of the Nile, from the equatorial lakes to the Mediterranean, embracing the Egyptian Sudan (Kordofan, Darfur, etc. and Abyssinia)"
+     "checked_against": [
+      {
+       "title": "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
+       "mean_error_km": 6.95,
+       "gcp_count": 10
+      },
+      {
+       "title": "A Map of the Nile, from the equatorial lakes to the Mediterranean, embracing the Egyptian Sudan (Kordofan, Darfur, etc. and Abyssinia)",
+       "mean_error_km": 21.28,
+       "gcp_count": 9
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     }
    ],
    "counts": {
@@ -3687,7 +3745,7 @@
      "certainty": "low",
      "start": 1650,
      "end": 1785,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3726,7 +3784,7 @@
      "certainty": "low",
      "start": 1785,
      "end": 1821,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3769,7 +3827,7 @@
      "certainty": "low",
      "start": 1821,
      "end": 1874,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3801,7 +3859,7 @@
      "certainty": "low",
      "start": 1650,
      "end": 1874,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3833,7 +3891,7 @@
      "certainty": "low",
      "start": 1650,
      "end": 1874,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3865,7 +3923,7 @@
      "certainty": "low",
      "start": 1650,
      "end": 1874,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3897,7 +3955,7 @@
      "certainty": "low",
      "start": 1650,
      "end": 1874,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -3946,7 +4004,7 @@
      "certainty": "low",
      "start": 1898,
      "end": 1916,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -3988,12 +4046,20 @@
      "certainty": "medium",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
-      "A Map of the Nile, from the equatorial lakes to the Mediterranean, embracing the Egyptian Sudan (Kordofan, Darfur, etc. and Abyssinia)"
+     "checked_against": [
+      {
+       "title": "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
+       "mean_error_km": 6.95,
+       "gcp_count": 10
+      },
+      {
+       "title": "A Map of the Nile, from the equatorial lakes to the Mediterranean, embracing the Egyptian Sudan (Kordofan, Darfur, etc. and Abyssinia)",
+       "mean_error_km": 21.28,
+       "gcp_count": 9
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     },
     {
      "layer": "extents",
@@ -4024,12 +4090,20 @@
      "certainty": "medium",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
-      "A Map of the Nile, from the equatorial lakes to the Mediterranean, embracing the Egyptian Sudan (Kordofan, Darfur, etc. and Abyssinia)"
+     "checked_against": [
+      {
+       "title": "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
+       "mean_error_km": 6.95,
+       "gcp_count": 10
+      },
+      {
+       "title": "A Map of the Nile, from the equatorial lakes to the Mediterranean, embracing the Egyptian Sudan (Kordofan, Darfur, etc. and Abyssinia)",
+       "mean_error_km": 21.28,
+       "gcp_count": 9
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     }
    ],
    "counts": {
@@ -4076,7 +4150,7 @@
      "certainty": "low",
      "start": 1750,
      "end": 1969,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -4111,12 +4185,20 @@
      "certainty": "medium",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
-      "Carte du Kordofan, dressée par le major H. G. Prout (Expédition Prout 1875-77)"
+     "checked_against": [
+      {
+       "title": "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
+       "mean_error_km": 6.95,
+       "gcp_count": 10
+      },
+      {
+       "title": "Carte du Kordofan, dressée par le major H. G. Prout (Expédition Prout 1875-77)",
+       "mean_error_km": 0.01,
+       "gcp_count": 8
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     }
    ],
    "counts": {
@@ -4159,7 +4241,7 @@
      "certainty": "low",
      "start": 1490,
      "end": 1861,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -4207,7 +4289,7 @@
      "certainty": "low",
      "start": 1899,
      "end": 1955,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -4245,7 +4327,7 @@
      "certainty": "low",
      "start": 1956,
      "end": 2011,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -4280,7 +4362,7 @@
      "certainty": "low",
      "start": 1972,
      "end": 1983,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -4318,7 +4400,7 @@
      "certainty": "low",
      "start": 2005,
      "end": 2011,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -4368,7 +4450,7 @@
      "certainty": "medium",
      "start": 1956,
      "end": 2011,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -4398,7 +4480,7 @@
      "certainty": "medium",
      "start": 1956,
      "end": 2011,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -4436,7 +4518,7 @@
      "certainty": "medium",
      "start": 1956,
      "end": 2011,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -4479,7 +4561,7 @@
      "certainty": "high",
      "start": 2011,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -4529,7 +4611,7 @@
      "certainty": "medium",
      "start": 2011,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -4559,7 +4641,7 @@
      "certainty": "medium",
      "start": 2011,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -4597,7 +4679,7 @@
      "certainty": "medium",
      "start": 2011,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -4627,7 +4709,7 @@
      "certainty": "medium",
      "start": 2011,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -4658,7 +4740,7 @@
      "certainty": "medium",
      "start": 2011,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -4689,7 +4771,7 @@
      "certainty": "medium",
      "start": 2011,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -4734,7 +4816,7 @@
      "certainty": "medium",
      "start": -3100,
      "end": -2181,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -4769,7 +4851,7 @@
      "certainty": "low",
      "start": -2613,
      "end": -2345,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -4822,7 +4904,7 @@
      "certainty": "medium",
      "start": -1870,
      "end": -1650,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -4853,7 +4935,7 @@
      "certainty": "medium",
      "start": -1991,
      "end": -1650,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -4885,12 +4967,20 @@
      "certainty": "high",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "Map of Nubia comprising the country between the First and Second Cataracts of the Nile, from a survey made by H. Parke and J. J. Scoles in 1824 (c. 1:460,000)",
-      "Carte géographique de l'Égypte et des pays environnans, réduite d'après la carte topographique levée pendant l'expédition de l'armée française (sheet 1 of 2)"
+     "checked_against": [
+      {
+       "title": "Map of Nubia comprising the country between the First and Second Cataracts of the Nile, from a survey made by H. Parke and J. J. Scoles in 1824 (c. 1:460,000)",
+       "mean_error_km": 1.95,
+       "gcp_count": 9
+      },
+      {
+       "title": "Carte géographique de l'Égypte et des pays environnans, réduite d'après la carte topographique levée pendant l'expédition de l'armée française (sheet 1 of 2)",
+       "mean_error_km": 11.1,
+       "gcp_count": 9
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     },
     {
      "layer": "extents",
@@ -4919,12 +5009,20 @@
      "certainty": "medium",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "Map of Nubia comprising the country between the First and Second Cataracts of the Nile, from a survey made by H. Parke and J. J. Scoles in 1824 (c. 1:460,000)",
-      "Carte géographique de l'Égypte et des pays environnans, réduite d'après la carte topographique levée pendant l'expédition de l'armée française (sheet 1 of 2)"
+     "checked_against": [
+      {
+       "title": "Map of Nubia comprising the country between the First and Second Cataracts of the Nile, from a survey made by H. Parke and J. J. Scoles in 1824 (c. 1:460,000)",
+       "mean_error_km": 1.95,
+       "gcp_count": 9
+      },
+      {
+       "title": "Carte géographique de l'Égypte et des pays environnans, réduite d'après la carte topographique levée pendant l'expédition de l'armée française (sheet 1 of 2)",
+       "mean_error_km": 11.1,
+       "gcp_count": 9
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     }
    ],
    "counts": {
@@ -4966,7 +5064,7 @@
      "certainty": "low",
      "start": -1550,
      "end": -1070,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -4996,7 +5094,7 @@
      "certainty": "low",
      "start": -1525,
      "end": -1070,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -5027,7 +5125,7 @@
      "certainty": "medium",
      "start": -1525,
      "end": -1070,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -5080,7 +5178,7 @@
      "certainty": "medium",
      "start": -525,
      "end": -332,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -5122,7 +5220,7 @@
      "certainty": "high",
      "start": -305,
      "end": -30,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -5157,7 +5255,7 @@
      "certainty": "low",
      "start": -305,
      "end": -30,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -5192,11 +5290,15 @@
      "certainty": "high",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "Carte géographique de l'Égypte et des pays environnans, réduite d'après la carte topographique levée pendant l'expédition de l'armée française (sheet 1 of 2)"
+     "checked_against": [
+      {
+       "title": "Carte géographique de l'Égypte et des pays environnans, réduite d'après la carte topographique levée pendant l'expédition de l'armée française (sheet 1 of 2)",
+       "mean_error_km": 11.1,
+       "gcp_count": 9
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     },
     {
      "layer": "extents",
@@ -5233,11 +5335,15 @@
      "certainty": "medium",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "Carte géographique de l'Égypte et des pays environnans, réduite d'après la carte topographique levée pendant l'expédition de l'armée française (sheet 1 of 2)"
+     "checked_against": [
+      {
+       "title": "Carte géographique de l'Égypte et des pays environnans, réduite d'après la carte topographique levée pendant l'expédition de l'armée française (sheet 1 of 2)",
+       "mean_error_km": 11.1,
+       "gcp_count": 9
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     }
    ],
    "counts": {
@@ -5277,7 +5383,7 @@
      "certainty": "high",
      "start": -30,
      "end": 641,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -5316,7 +5422,7 @@
      "certainty": "medium",
      "start": -20,
      "end": 284,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -5351,7 +5457,7 @@
      "certainty": "low",
      "start": 284,
      "end": 641,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -5383,11 +5489,15 @@
      "certainty": "high",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "Carte géographique de l'Égypte et des pays environnans, réduite d'après la carte topographique levée pendant l'expédition de l'armée française (sheet 1 of 2)"
+     "checked_against": [
+      {
+       "title": "Carte géographique de l'Égypte et des pays environnans, réduite d'après la carte topographique levée pendant l'expédition de l'armée française (sheet 1 of 2)",
+       "mean_error_km": 11.1,
+       "gcp_count": 9
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     },
     {
      "layer": "extents",
@@ -5419,11 +5529,15 @@
      "certainty": "medium",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "Carte géographique de l'Égypte et des pays environnans, réduite d'après la carte topographique levée pendant l'expédition de l'armée française (sheet 1 of 2)"
+     "checked_against": [
+      {
+       "title": "Carte géographique de l'Égypte et des pays environnans, réduite d'après la carte topographique levée pendant l'expédition de l'armée française (sheet 1 of 2)",
+       "mean_error_km": 11.1,
+       "gcp_count": 9
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     }
    ],
    "counts": {
@@ -5466,7 +5580,7 @@
      "certainty": "medium",
      "start": 641,
      "end": 969,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -5505,7 +5619,7 @@
      "certainty": "medium",
      "start": 652,
      "end": 1250,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -5572,7 +5686,7 @@
      "certainty": "high",
      "start": 1250,
      "end": 1261,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -5625,7 +5739,7 @@
      "certainty": "high",
      "start": 1261,
      "end": 1265,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -5678,7 +5792,7 @@
      "certainty": "high",
      "start": 1265,
      "end": 1266,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -5731,7 +5845,7 @@
      "certainty": "high",
      "start": 1266,
      "end": 1268,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -5784,7 +5898,7 @@
      "certainty": "high",
      "start": 1268,
      "end": 1276,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -5837,7 +5951,7 @@
      "certainty": "high",
      "start": 1276,
      "end": 1289,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -5890,7 +6004,7 @@
      "certainty": "high",
      "start": 1289,
      "end": 1291,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -5943,7 +6057,7 @@
      "certainty": "high",
      "start": 1291,
      "end": 1516,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -5996,7 +6110,7 @@
      "certainty": "high",
      "start": 1516,
      "end": 1517,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -6027,7 +6141,7 @@
      "certainty": "low",
      "start": 1265,
      "end": 1517,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -6058,7 +6172,7 @@
      "certainty": "low",
      "start": 1265,
      "end": 1517,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -6115,7 +6229,7 @@
      "certainty": "low",
      "start": 1517,
      "end": 1830,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -6158,7 +6272,7 @@
      "certainty": "low",
      "start": 1830,
      "end": 1840,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -6201,7 +6315,7 @@
      "certainty": "low",
      "start": 1840,
      "end": 1867,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -6244,7 +6358,7 @@
      "certainty": "low",
      "start": 1867,
      "end": 1882,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -6297,7 +6411,7 @@
      "certainty": "medium",
      "start": 1882,
      "end": 1899,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -6336,7 +6450,7 @@
      "certainty": "medium",
      "start": 1899,
      "end": 1902,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -6375,7 +6489,7 @@
      "certainty": "medium",
      "start": 1902,
      "end": 1914,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -6414,7 +6528,7 @@
      "certainty": "medium",
      "start": 1914,
      "end": 1922,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -6453,7 +6567,7 @@
      "certainty": "medium",
      "start": 1922,
      "end": 1953,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -6502,7 +6616,7 @@
      "certainty": "medium",
      "start": 1953,
      "end": 1958,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -6537,7 +6651,7 @@
      "certainty": "medium",
      "start": 1958,
      "end": 1961,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -6572,7 +6686,7 @@
      "certainty": "medium",
      "start": 1961,
      "end": 1967,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -6607,7 +6721,7 @@
      "certainty": "medium",
      "start": 1967,
      "end": 1971,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -6642,7 +6756,7 @@
      "certainty": "medium",
      "start": 1971,
      "end": 1982,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -6681,7 +6795,7 @@
      "certainty": "medium",
      "start": 1982,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -6729,7 +6843,7 @@
      "certainty": "low",
      "start": -500,
      "end": -400,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -6794,7 +6908,7 @@
      "certainty": "low",
      "start": 100,
      "end": 525,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -6845,7 +6959,7 @@
      "certainty": "medium",
      "start": 525,
      "end": 535,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -6896,7 +7010,7 @@
      "certainty": "medium",
      "start": 535,
      "end": 570,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -6947,7 +7061,7 @@
      "certainty": "low",
      "start": 570,
      "end": 632,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -6986,7 +7100,7 @@
      "certainty": "low",
      "start": 632,
      "end": 940,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -7034,7 +7148,7 @@
      "certainty": "low",
      "start": 1100,
      "end": 1270,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -7095,7 +7209,7 @@
      "certainty": "medium",
      "start": 1636,
      "end": 1855,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -7146,7 +7260,7 @@
      "certainty": "low",
      "start": 1889,
      "end": 1928,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -7197,7 +7311,7 @@
      "certainty": "low",
      "start": 1928,
      "end": 1936,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -7248,7 +7362,7 @@
      "certainty": "low",
      "start": 1941,
      "end": 1942,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -7299,7 +7413,7 @@
      "certainty": "low",
      "start": 1942,
      "end": 1952,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -7350,7 +7464,7 @@
      "certainty": "low",
      "start": 1952,
      "end": 1962,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -7401,7 +7515,7 @@
      "certainty": "low",
      "start": 1962,
      "end": 1974,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -7450,7 +7564,7 @@
      "certainty": "medium",
      "start": 1974,
      "end": 1991,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -7481,7 +7595,7 @@
      "certainty": "medium",
      "start": 1991,
      "end": 1993,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -7517,7 +7631,7 @@
      "certainty": "high",
      "start": 1993,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -7549,7 +7663,7 @@
      "certainty": "low",
      "start": 1974,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "no geometry"
     },
@@ -7583,7 +7697,7 @@
      "certainty": "low",
      "start": 2002,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -7632,7 +7746,7 @@
      "certainty": "medium",
      "start": 1890,
      "end": 1936,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -7665,7 +7779,7 @@
      "certainty": "low",
      "start": 1936,
      "end": 1941,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "no geometry"
     },
@@ -7696,7 +7810,7 @@
      "certainty": "medium",
      "start": 1941,
      "end": 1952,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -7728,7 +7842,7 @@
      "certainty": "high",
      "start": 1952,
      "end": 1962,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -7763,7 +7877,7 @@
      "certainty": "medium",
      "start": 1962,
      "end": 1991,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -7798,7 +7912,7 @@
      "certainty": "medium",
      "start": 1991,
      "end": 1993,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -7834,7 +7948,7 @@
      "certainty": "high",
      "start": 1993,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -7868,7 +7982,7 @@
      "certainty": "low",
      "start": 2002,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -7925,7 +8039,7 @@
      "certainty": "low",
      "start": 700,
      "end": 1380,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -7975,7 +8089,7 @@
      "certainty": "high",
      "start": 1472,
      "end": 1809,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -8006,7 +8120,7 @@
      "certainty": "low",
      "start": 1814,
      "end": 1893,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -8059,7 +8173,7 @@
      "certainty": "low",
      "start": 1635,
      "end": 1912,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -8098,7 +8212,7 @@
      "certainty": "low",
      "start": 1635,
      "end": 1912,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -8146,7 +8260,7 @@
      "certainty": "low",
      "start": 1900,
      "end": 1906,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -8180,7 +8294,7 @@
      "certainty": "low",
      "start": 1906,
      "end": 1909,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -8214,7 +8328,7 @@
      "certainty": "low",
      "start": 1909,
      "end": 1910,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -8248,7 +8362,7 @@
      "certainty": "low",
      "start": 1912,
      "end": 1916,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -8285,7 +8399,7 @@
      "certainty": "low",
      "start": 1910,
      "end": 1958,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "no geometry"
     },
@@ -8313,7 +8427,7 @@
      "certainty": "high",
      "start": 1958,
      "end": 1960,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -8357,7 +8471,7 @@
      "certainty": "high",
      "start": 1960,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -8395,7 +8509,7 @@
      "certainty": "low",
      "start": 1973,
      "end": 1994,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -8439,7 +8553,7 @@
      "certainty": "low",
      "start": -500,
      "end": 700,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -8488,7 +8602,7 @@
      "certainty": "low",
      "start": 1551,
      "end": 1911,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -8523,7 +8637,7 @@
      "certainty": "low",
      "start": 1911,
      "end": 1934,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -8559,7 +8673,7 @@
      "certainty": "high",
      "start": 1934,
      "end": 1943,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -8589,7 +8703,7 @@
      "certainty": "medium",
      "start": 1943,
      "end": 1949,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -8619,7 +8733,7 @@
      "certainty": "medium",
      "start": 1949,
      "end": 1951,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -8651,7 +8765,7 @@
      "certainty": "high",
      "start": 1951,
      "end": 1959,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -8687,7 +8801,7 @@
      "certainty": "high",
      "start": 1959,
      "end": 2014,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -8720,7 +8834,7 @@
      "certainty": "low",
      "start": 2014,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "no geometry"
     },
@@ -8754,7 +8868,7 @@
      "certainty": "low",
      "start": 1973,
      "end": 1994,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -8803,7 +8917,7 @@
      "certainty": "medium",
      "start": 1700,
      "end": 1905,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -8838,7 +8952,7 @@
      "certainty": "low",
      "start": 1700,
      "end": 1905,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -8885,7 +8999,7 @@
      "certainty": "low",
      "start": 1903,
      "end": 1906,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "no geometry"
     },
@@ -8919,7 +9033,7 @@
      "certainty": "low",
      "start": 1906,
      "end": 1909,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -8953,7 +9067,7 @@
      "certainty": "low",
      "start": 1909,
      "end": 1910,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -8987,7 +9101,7 @@
      "certainty": "low",
      "start": 1912,
      "end": 1916,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -9024,7 +9138,7 @@
      "certainty": "low",
      "start": 1910,
      "end": 1958,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "no geometry"
     },
@@ -9052,7 +9166,7 @@
      "certainty": "high",
      "start": 1958,
      "end": 1960,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -9080,7 +9194,7 @@
      "certainty": "high",
      "start": 1960,
      "end": 1979,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -9120,7 +9234,7 @@
      "certainty": "high",
      "start": 1979,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -9168,7 +9282,7 @@
      "certainty": "low",
      "start": -1000,
      "end": 275,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -9216,7 +9330,7 @@
      "certainty": "low",
      "start": 610,
      "end": 1258,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -9272,7 +9386,7 @@
      "certainty": "low",
      "start": 1100,
      "end": 1922,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -9316,7 +9430,7 @@
      "certainty": "low",
      "start": 1517,
      "end": 1916,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -9364,7 +9478,7 @@
      "certainty": "low",
      "start": 275,
      "end": 2026,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -9416,7 +9530,7 @@
      "certainty": "low",
      "start": 1480,
      "end": 1821,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -9448,12 +9562,20 @@
      "certainty": "medium",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
-      "Map of part of Eastern Sudan, Kordofan, Abyssinia etc., from the latest surveys and explorations"
+     "checked_against": [
+      {
+       "title": "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
+       "mean_error_km": 6.95,
+       "gcp_count": 10
+      },
+      {
+       "title": "Map of part of Eastern Sudan, Kordofan, Abyssinia etc., from the latest surveys and explorations",
+       "mean_error_km": 2.3,
+       "gcp_count": 7
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     },
     {
      "layer": "extents",
@@ -9486,12 +9608,20 @@
      "certainty": "low",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
-      "Map of part of Eastern Sudan, Kordofan, Abyssinia etc., from the latest surveys and explorations"
+     "checked_against": [
+      {
+       "title": "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
+       "mean_error_km": 6.95,
+       "gcp_count": 10
+      },
+      {
+       "title": "Map of part of Eastern Sudan, Kordofan, Abyssinia etc., from the latest surveys and explorations",
+       "mean_error_km": 2.3,
+       "gcp_count": 7
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     },
     {
      "layer": "extents",
@@ -9522,12 +9652,20 @@
      "certainty": "low",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
-      "Map of part of Eastern Sudan, Kordofan, Abyssinia etc., from the latest surveys and explorations"
+     "checked_against": [
+      {
+       "title": "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
+       "mean_error_km": 6.95,
+       "gcp_count": 10
+      },
+      {
+       "title": "Map of part of Eastern Sudan, Kordofan, Abyssinia etc., from the latest surveys and explorations",
+       "mean_error_km": 2.3,
+       "gcp_count": 7
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     },
     {
      "layer": "extents",
@@ -9558,12 +9696,20 @@
      "certainty": "low",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
-      "Map of part of Eastern Sudan, Kordofan, Abyssinia etc., from the latest surveys and explorations"
+     "checked_against": [
+      {
+       "title": "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
+       "mean_error_km": 6.95,
+       "gcp_count": 10
+      },
+      {
+       "title": "Map of part of Eastern Sudan, Kordofan, Abyssinia etc., from the latest surveys and explorations",
+       "mean_error_km": 2.3,
+       "gcp_count": 7
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     }
    ],
    "counts": {
@@ -9609,7 +9755,7 @@
      "certainty": "low",
      "start": 1500,
      "end": 1821,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -9643,7 +9789,7 @@
      "certainty": "low",
      "start": 1500,
      "end": 1821,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -9678,12 +9824,20 @@
      "certainty": "medium",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
-      "Map of part of Eastern Sudan, Kordofan, Abyssinia etc., from the latest surveys and explorations"
+     "checked_against": [
+      {
+       "title": "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
+       "mean_error_km": 6.95,
+       "gcp_count": 10
+      },
+      {
+       "title": "Map of part of Eastern Sudan, Kordofan, Abyssinia etc., from the latest surveys and explorations",
+       "mean_error_km": 2.3,
+       "gcp_count": 7
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     }
    ],
    "counts": {
@@ -9730,7 +9884,7 @@
      "certainty": "low",
      "start": 1680,
      "end": 1785,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -9765,13 +9919,25 @@
      "certainty": "low",
      "start": null,
      "end": null,
-     "overlay_maps": [
-      "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
-      "Carte du Kordofan, dressée par le major H. G. Prout (Expédition Prout 1875-77)",
-      "A Map of the Nile, from the equatorial lakes to the Mediterranean, embracing the Egyptian Sudan (Kordofan, Darfur, etc. and Abyssinia)"
+     "checked_against": [
+      {
+       "title": "The Anglo-Egyptian Sudan. Compiled in the Intelligence Office, Khartoum, May 1904",
+       "mean_error_km": 6.95,
+       "gcp_count": 10
+      },
+      {
+       "title": "Carte du Kordofan, dressée par le major H. G. Prout (Expédition Prout 1875-77)",
+       "mean_error_km": 0.01,
+       "gcp_count": 8
+      },
+      {
+       "title": "A Map of the Nile, from the equatorial lakes to the Mediterranean, embracing the Egyptian Sudan (Kordofan, Darfur, etc. and Abyssinia)",
+       "mean_error_km": 21.28,
+       "gcp_count": 9
+      }
      ],
      "overlay_mean_error_km": null,
-     "overlay_null_reason": "border_overlay_maps.json lists these maps for this draft, but as overlay checks of a hand-placed draft (not traced) and the file holds no mean-error field"
+     "overlay_null_reason": "not traced; this draft was only checked against the maps in checked_against"
     }
    ],
    "counts": {
@@ -9841,7 +10007,7 @@
      "certainty": "low",
      "start": null,
      "end": null,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -9893,7 +10059,7 @@
      "certainty": "low",
      "start": null,
      "end": null,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     },
@@ -9931,7 +10097,7 @@
      "certainty": "low",
      "start": null,
      "end": null,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
@@ -9983,7 +10149,7 @@
      "certainty": "low",
      "start": null,
      "end": null,
-     "overlay_maps": [],
+     "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }

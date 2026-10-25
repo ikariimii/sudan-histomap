@@ -104,7 +104,11 @@
   ],
   "projection_note": "Graticule printed every 5 deg (labels 25/30/35 E top and bottom); meridians converge southward, so a polyconic/conic-type projection: use a 2nd-order polynomial or thin-plate spline, not affine.",
   "accuracy_note": "Nile valley ~2-5 km; Darfur/Kordofan route-traverse positions ~10-20 km. Pixel positions read from a 3840-px preview and scaled (x1.795), so +-5-10 px full-res.",
-  "why_chosen": "Period map for Ali Dinar's restored sultanate: Darfur shown outside Condominium administration with Dar Zaghawa/Dar Tama/Dar Gimr and the 1904 trade route; also covers Sennar/Gezira/Shendi for Funj, Abdallab and Ja'aliyyin drafts. High-res TIFF, legible."
+  "why_chosen": "Period map for Ali Dinar's restored sultanate: Darfur shown outside Condominium administration with Dar Zaghawa/Dar Tama/Dar Gimr and the 1904 trade route; also covers Sennar/Gezira/Shendi for Funj, Abdallab and Ja'aliyyin drafts. High-res TIFF, legible.",
+  "mean_error_km": 6.95,
+  "mean_error_method": "2nd-order polynomial (gdalwarp -order 2); RMS of GCP residuals",
+  "gcp_count": 10,
+  "mean_error_source": "db/extents/OVERLAY_CHECK.md, Georeferencing residuals table"
  },
  {
   "draft_ids": [
@@ -188,7 +192,11 @@
   ],
   "projection_note": "30' graticule, labelled 29°-33°E (top) and 11°30'-15°30'N (left), Greenwich. Spacing equal in lon and lat (~842 preview px/deg): equirectangular-style plate; affine fit is adequate.",
   "accuracy_note": "Graticule points are exact in map space; the survey's own positional error vs modern ground is likely 5-15 km (astronomical fixes + traverses). Not checked against towns: El Obeid was not found near its graticule position in the preview, so verify with 2-3 features (e.g. Jebel Kordofan, White Nile bank) before use. +-5-10 px.",
-  "why_chosen": "Egyptian General Staff survey of Kordofan 1875-77, the closest open survey to the late Musabba'at/Kordofan period; tribe names (Bagara Hawazma, Gowama, Hamar) printed; southern edge reaches the Nuba hills for Taqali."
+  "why_chosen": "Egyptian General Staff survey of Kordofan 1875-77, the closest open survey to the late Musabba'at/Kordofan period; tribe names (Bagara Hawazma, Gowama, Hamar) printed; southern edge reaches the Nuba hills for Taqali.",
+  "mean_error_km": 0.01,
+  "mean_error_method": "2nd-order polynomial (gdalwarp -order 2); RMS of GCP residuals",
+  "gcp_count": 8,
+  "mean_error_source": "db/extents/OVERLAY_CHECK.md, Georeferencing residuals table"
  },
  {
   "draft_ids": [
@@ -266,7 +274,11 @@
   ],
   "projection_note": "Border graticule ticks every 5 deg (30/35/40E, 20/15N); bottom edge ~12N. ~326 preview px/deg lon vs ~347 lat; rectangular-looking. Affine OK for the Nile valley, polynomial better overall.",
   "accuracy_note": "Khartoum plots ~0.2 deg (~25 km) off the graticule-predicted spot, so expect 10-25 km error; trust the town points over the corner ticks for the Gezira. +-5-10 px.",
-  "why_chosen": "Shows the Nile from Berber to Sennar with Soba ruins (Alodia capital), Halfaya/Qarri area (Abdallab), Shendi/Metemma (Ja'aliyyin) and Sennar, plus the Butana and Gezira; legible pre-Mahdist place names."
+  "why_chosen": "Shows the Nile from Berber to Sennar with Soba ruins (Alodia capital), Halfaya/Qarri area (Abdallab), Shendi/Metemma (Ja'aliyyin) and Sennar, plus the Butana and Gezira; legible pre-Mahdist place names.",
+  "mean_error_km": 2.3,
+  "mean_error_method": "2nd-order polynomial (gdalwarp -order 2); RMS of GCP residuals",
+  "gcp_count": 7,
+  "mean_error_source": "db/extents/OVERLAY_CHECK.md, Georeferencing residuals table"
  },
  {
   "draft_ids": [
@@ -360,7 +372,11 @@
   ],
   "projection_note": "Top border labelled every 4 deg (20-48E, ~103 preview px/deg); latitude labels too small to read in preview. Small-scale conic-type projection: use polynomial/TPS on the town points.",
   "accuracy_note": "Small scale (~1:5M). Darfur positions ~15-30 km; Nile towns ~5-10 km. +-5-10 px.",
-  "why_chosen": "Pre-Mahdist Darfur with Jebel Marra, Kabkabiya, Kobbe, Tura (Tora) and Dar Zaghawa/Tokonawi, plus Wadai/Dar Sila to the west, giving Keira-era context for the Daju (south Jebel Marra) and Tunjur (north) drafts; also Kordofan/El Obeid."
+  "why_chosen": "Pre-Mahdist Darfur with Jebel Marra, Kabkabiya, Kobbe, Tura (Tora) and Dar Zaghawa/Tokonawi, plus Wadai/Dar Sila to the west, giving Keira-era context for the Daju (south Jebel Marra) and Tunjur (north) drafts; also Kordofan/El Obeid.",
+  "mean_error_km": 21.28,
+  "mean_error_method": "2nd-order polynomial (gdalwarp -order 2); RMS of GCP residuals",
+  "gcp_count": 9,
+  "mean_error_source": "db/extents/OVERLAY_CHECK.md, Georeferencing residuals table"
  },
  {
   "draft_ids": [
@@ -454,7 +470,11 @@
   ],
   "projection_note": "Border ticks only (24N, 22N, 22°30'N, 32E, 33E visible); no full graticule. Large inset plan of Philae and text blocks cover the west half, so fit on the Nile only. Polynomial/TPS along the river.",
   "accuracy_note": "Pre-inundation Lower Nubia (before the Aswan dams and Lake Nasser); sites like Kalabsha, Sebua and Faras are at their ORIGINAL locations, use original-site coordinates. Expect 3-8 km error. +-10 px.",
-  "why_chosen": "The only open, legible large-scale survey of the whole Lower Nubian Nile valley (Aswan to the Second Cataract) before it was flooded: core area of the A-Group, C-Group and Egyptian New Kingdom/Middle Kingdom fort drafts. Labels temples and ancient sites."
+  "why_chosen": "The only open, legible large-scale survey of the whole Lower Nubian Nile valley (Aswan to the Second Cataract) before it was flooded: core area of the A-Group, C-Group and Egyptian New Kingdom/Middle Kingdom fort drafts. Labels temples and ancient sites.",
+  "mean_error_km": 1.95,
+  "mean_error_method": "2nd-order polynomial (gdalwarp -order 2); RMS of GCP residuals",
+  "gcp_count": 9,
+  "mean_error_source": "db/extents/OVERLAY_CHECK.md, Georeferencing residuals table"
  },
  {
   "draft_ids": [
@@ -547,6 +567,10 @@
   ],
   "projection_note": "Faint graticule with border degree scale (Paris meridian likely; not used). Folded/dissected sheet in 15 panels with visible seams: small panel offsets possible, so use TPS rather than affine.",
   "accuracy_note": "Survey of the French expedition 1798-1801; Delta and Nile valley ~2-5 km, Sinai/desert margins 10-20 km. Seams can add a few px offset. +-10 px.",
-  "why_chosen": "Accurate early survey of the whole of Egypt (Delta to Upper Egypt, Sinai, Red Sea coast) with ancient site names (Tentyris, Thebes, Abydos, Peluse) for the Ptolemaic and Roman/Byzantine Egypt drafts."
+  "why_chosen": "Accurate early survey of the whole of Egypt (Delta to Upper Egypt, Sinai, Red Sea coast) with ancient site names (Tentyris, Thebes, Abydos, Peluse) for the Ptolemaic and Roman/Byzantine Egypt drafts.",
+  "mean_error_km": 11.1,
+  "mean_error_method": "2nd-order polynomial (gdalwarp -order 2); RMS of GCP residuals",
+  "gcp_count": 9,
+  "mean_error_source": "db/extents/OVERLAY_CHECK.md, Georeferencing residuals table"
  }
 ]

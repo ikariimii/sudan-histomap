@@ -4,7 +4,7 @@
   "owner": "Sudan Map Designer",
   "era_order": "data/periods.json, consecutive eras in the same stream sorted by start, end (same as db/legends what_changed)",
   "rules": "Pairs only live db/extents polygons; no new geometry. Each from-polygon is paired with the next-era polygon of highest overlap (IoU). mode: hold (identical), morph (IoU >= 0.3), cross_fade (overlap but IoU < 0.3). Non-overlapping shapes go to fade_out / fade_in. shared_edge_km_approx and changed_sides are display aids computed from the two live geometries (bbox side deltas), not sourced limits.",
-  "overlay_maps_file": "db/border_overlay_maps.json (maps listed in db/map_sources.json overlay_maps per shape)",
+  "overlay_maps_file": "db/border_overlay_maps.json (maps listed in db/map_sources.json checked_against per shape)",
   "totals": {
    "era_steps": 59,
    "pairs": 69
