@@ -203,7 +203,12 @@
           "pages": "PDF p.5, para 4"
         },
         "quote": "The conflict that started on 15 April in Khartoum between SAF and RSF spread to Darfur by the end of that month.",
-        "badge": "REPORTED"
+        "badge": "REPORTED",
+        "badges": [
+          "REPORTED",
+          "SINGLE-SOURCE"
+        ],
+        "single_source_reason": "S/2025/239 and S/RES/2736 (2024) read in full; neither states 15 April 2023 in Khartoum"
       },
       {
         "event_id": "war-in-sudan-saf-vs-rsf#1",
@@ -215,7 +220,17 @@
           "pages": "PDF p.37, para 133"
         },
         "quote": "On 11 May, the parties signed the Jeddah Declaration of Commitment to Protect the Civilians of Sudan, in which they made a commitment to allow for humanitarian access and respect international humanitarian law.",
-        "badge": "REPORTED"
+        "badge": "REPORTED",
+        "cite_extra": [
+          {
+            "source_id": "UNPOE_S2025_239",
+            "pages": "para 76 (PDF p.25): 'Jeddah Declaration of May 2023'"
+          },
+          {
+            "source_id": "GEO-096",
+            "pages": "op. para 3, p.2"
+          }
+        ]
       }
     ],
     "southern-sudan-under-condominium-sudan": [
@@ -318,7 +333,13 @@
           "pages": "PDF p.37, para 133"
         },
         "quote": "Early in May, talks on a ceasefire and humanitarian assistance started in Jeddah, under the auspices of authorities from Saudi Arabia and the United States.",
-        "badge": "REPORTED"
+        "badge": "REPORTED",
+        "cite_extra": [
+          {
+            "source_id": "UNPOE_S2025_239",
+            "pages": "para 76 (p.25); para 80 (pp.26-27): format 'adopted in Jeddah', Saudi co-organiser"
+          }
+        ]
       }
     ],
     "abboud-military-regime": [
