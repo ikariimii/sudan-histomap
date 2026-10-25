@@ -15,12 +15,12 @@
    "DERIVED"
   ],
   "era_count": 68,
-  "files_scanned": 303
+  "files_scanned": 304
  },
  "totals": {
   "SINGLE-SOURCE": 251,
   "CONTESTED": 161,
-  "VERIFY": 16,
+  "VERIFY": 19,
   "REPORTED": 14,
   "MODEL": 109,
   "EDITORIAL": 67,
@@ -28,7 +28,7 @@
   "PARTIAL": 3,
   "DERIVED": 328
  },
- "grand_total": 1404,
+ "grand_total": 1407,
  "inline_totals": {
   "SINGLE-SOURCE": 22,
   "CONTESTED": 9,
@@ -46,12 +46,12 @@
   "un_aid_agency": 35,
   "intl_financial": 24,
   "government": 50,
-  "scholarly": 240,
+  "scholarly": 241,
   "wikipedia_only": 75,
   "news": 5,
   "other": 110
  },
- "source_types_grand_total": 539,
+ "source_types_grand_total": 540,
  "source_types_distinct_ids": {
   "un_aid_agency": 32,
   "intl_financial": 12,
@@ -1380,7 +1380,7 @@
    "counts": {
     "SINGLE-SOURCE": 4,
     "CONTESTED": 0,
-    "VERIFY": 3,
+    "VERIFY": 4,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 3,
@@ -1388,7 +1388,7 @@
     "PARTIAL": 0,
     "DERIVED": 3
    },
-   "total": 17,
+   "total": 18,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1415,16 +1415,16 @@
     "un_aid_agency": 0,
     "intl_financial": 0,
     "government": 1,
-    "scholarly": 5,
+    "scholarly": 6,
     "wikipedia_only": 0,
     "news": 0,
     "other": 6
    },
-   "source_types_total": 12,
+   "source_types_total": 13,
    "counts": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 1,
-    "VERIFY": 0,
+    "VERIFY": 2,
     "REPORTED": 0,
     "MODEL": 5,
     "EDITORIAL": 4,
@@ -1432,7 +1432,7 @@
     "PARTIAL": 0,
     "DERIVED": 11
    },
-   "total": 32,
+   "total": 34,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1447,6 +1447,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/kingdom-of-kush-meroitic-period.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/extents/kingdom-of-kush-meroitic-period.geojson",
     "db/map_sources.json",

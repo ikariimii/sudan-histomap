@@ -2580,6 +2580,45 @@
       "action": "Native reviewer: bring the Arabic in line with the revised English.",
       "origin_commit": "funj-keira batch",
       "added": "2026-10-25"
+    },
+    {
+      "era_id": "kingdom-of-kerma",
+      "file": "data/eras/kingdom-of-kerma.json",
+      "field_ar": "culture_dominance_ar",
+      "arabic_sentence": "ثقافة حضرية نوبية محلية: معابد الدفوفة والمدافن الملكية الركامية في المرحلة الكلاسيكية.",
+      "badge": "VERIFY",
+      "field_en": "culture_dominance_en",
+      "revised_english": "Indigenous Nubian urban culture: deffufa temples and royal tumuli in the Classic phase (SFDAS_HCS2017 pp.65, 69).",
+      "reason": "English re-cited from a vague web cite (kerma.ch / Naga project / French museum text) to SFDAS_HCS2017 page cites; Arabic not rewritten.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English.",
+      "origin_commit": "vague-cites pass",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "kingdom-of-kush-meroitic-period",
+      "file": "data/eras/kingdom-of-kush-meroitic-period.json",
+      "field_ar": "geopolitics_ar",
+      "arabic_sentence": "بعد استيلاء بترونيوس على نبتة (23 ق.م) تخلّت معاهدة ساموس (21/20 ق.م) عن الجزية الرومانية وحدّدت الحدود عند هيرا سيكامينوس (تاريخ أفريقيا العام II). ويصف مشروع النقعة النقعةَ بأنها أقصى مدن مروي جنوباً، ومروي بأنها «منافس قوي» لمصر البطلمية والرومانية. وانهارت المملكة بحلول حملة عيزانا نحو منتصف القرن الرابع الميلادي.",
+      "badge": "VERIFY",
+      "field_en": "geopolitics_en",
+      "revised_english": "After Petronius took Napata (23 BCE), the Treaty of Samos (21/20 BCE) renounced Roman tribute and set the frontier at Hiera Sycaminos (GHA II). Naga's temples belong to the building programme of Amanitore and Natakamani (SFDAS_HCS2017 p.282). Collapse by the time of Ezana's campaign, c. mid-4th c. CE.",
+      "reason": "English re-cited from a vague web cite (kerma.ch / Naga project / French museum text) to SFDAS_HCS2017 page cites; Arabic not rewritten.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English.",
+      "origin_commit": "vague-cites pass",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "kingdom-of-kush-meroitic-period",
+      "file": "data/eras/kingdom-of-kush-meroitic-period.json",
+      "field_ar": "culture_dominance_ar",
+      "arabic_sentence": "ابتكارات محلية: الكتابة المروية، والعبادة الرسمية لآلهة محلية مثل الإله الأسد أباداماك، والملكات الحاكمات (الكنداكات). وتجمع النقعة بين عناصر أفريقية ومصرية وهلنستية.",
+      "badge": "VERIFY",
+      "field_en": "culture_dominance_en",
+      "revised_english": "Local innovations: Meroitic writing, official cult of indigenous gods such as the lion-god Apedemak, ruling queens (Kandakes) (SFDAS_HCS2017 pp.211, 230, 344). Naga's buildings mix Egyptian models with Hellenistic and Roman elements (SFDAS_HCS2017 p.282).",
+      "reason": "English re-cited from a vague web cite (kerma.ch / Naga project / French museum text) to SFDAS_HCS2017 page cites; Arabic not rewritten.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English.",
+      "origin_commit": "vague-cites pass",
+      "added": "2026-10-25"
     }
   ]
 }
