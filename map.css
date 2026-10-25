@@ -107,3 +107,9 @@ body.sfull #lgb,body.sfull #lgp,body.sfull #reset{visibility:hidden}
 .zones path.zn{cursor:pointer}
 #lgp .lgm{margin:.6em 0 0;font-size:13px}
 
+/* Economy chip: text label always shown; pill colours >=4.5:1 */
+.econ{margin:.5rem 0}.econ>summary{cursor:pointer}
+.ecp{display:inline-block;padding:.15rem .6rem;border-radius:999px;font-size:.85rem;font-weight:600;border:1px solid currentColor}
+.ecp.good{background:#d8f0dc;color:#14532d}.ecp.mixed{background:#fbecc8;color:#6b4300}.ecp.bad{background:#f9d9d6;color:#7f1d1d}.ecp.unknown{background:#e6e6ea;color:#33333d}
+.ecb{display:inline-block;margin-inline-start:.35rem;padding:0 .35rem;border-radius:4px;background:#2c3440;color:#f2f4f7;font-size:.75rem}
+.ecs{margin:.2rem 0 .4rem;font-size:.8rem}.ecimg{float:inline-end;border-radius:4px}
