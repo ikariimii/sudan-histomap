@@ -3546,6 +3546,32 @@
       "action": "review",
       "origin_commit": "c5849df / 1910545",
       "added": "2026-10-25"
+    },
+    {
+      "era_id": null,
+      "file": "data/glossary_names.json",
+      "field_ar": "entries[id=khartoum].term_ar",
+      "arabic_sentence": "الخرطوم [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "entries[id=khartoum].term_en",
+      "revised_english": "Khartoum",
+      "note": "Place-name form copied as printed in QASIM_MAWSUA vol. 4 p.1421; checked on page image. Native review of the glossary form needed.",
+      "action": "review",
+      "origin_commit": "pending (glossary commit)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": null,
+      "file": "data/glossary_names.json",
+      "field_ar": "entries[id=port_sudan].term_ar",
+      "arabic_sentence": "بورتسودان [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "entries[id=port_sudan].term_en",
+      "revised_english": "Port Sudan",
+      "note": "Place-name form copied as printed in QASIM_MAWSUA vol. 4 p.1506; checked on page image. Native review of the glossary form needed.",
+      "action": "review",
+      "origin_commit": "pending (glossary commit)",
+      "added": "2026-10-25"
     }
   ]
 }

@@ -3,7 +3,7 @@
     "title": "Glossary of historical name forms",
     "owner": "Sudan Historian",
     "created": "2026-10-25",
-    "note": "Name forms only as given in the cited pages (read on the box copies: SFDAS_HCS2017 PDF, printed page = PDF page - 15; HD2011 intro, pp.1-7). Cite ids are registered in data/periods.json. No term_ar: none of the cited pages gives an Arabic-script form, so none is supplied (no Arabic queued). Variant spellings in French follow SFDAS (e.g. Koush, Méroé, Fung, Bedjas).",
+    "note": "Name forms only as given in the cited pages (read on the box copies: SFDAS_HCS2017 PDF, printed page = PDF page - 15; HD2011 intro, pp.1-7). Cite ids are registered in data/periods.json. term_ar only where a cited page prints the Arabic form (khartoum, port_sudan: QASIM_MAWSUA vol. 4, checked on page image), tagged [يحتاج تحقق] and queued; otherwise none supplied. Variant spellings in French follow SFDAS (e.g. Koush, Méroé, Fung, Bedjas).",
     "rendering": "Web Lead renders; badges use the project badge set."
   },
   "entries": [
@@ -75,7 +75,21 @@
      "note_en": "Medieval Muslim geographers' name for the belt of Africa south of the Sahara; Holt & Daly use 'eastern Bilad al-Sudan' for the lands south of Egypt.",
      "era_ids": ["makuria", "alodia-alwa", "funj-sultanate-of-sennar", "sultanate-of-darfur-keira"],
      "cites": [{"id": "HD2011", "page": "1"}, {"id": "HD2011", "page": "7"}],
-     "badges": ["SINGLE-SOURCE"]}
+     "badges": ["SINGLE-SOURCE"]},
+    {"id": "khartoum", "term_en": "Khartoum",
+     "term_ar": "الخرطوم [يحتاج تحقق]",
+     "variants": [],
+     "note_en": "Arabic form as printed in QASIM_MAWSUA vol. 4 ('جامعة الخرطوم', 'معهد الخرطوم الدولى').",
+     "era_ids": [],
+     "cites": [{"id": "QASIM_MAWSUA", "page": "1421 (vol. 4; scan PDF p.13)"}],
+     "badges": ["SINGLE-SOURCE", "VERIFY"]},
+    {"id": "port_sudan", "term_en": "Port Sudan",
+     "term_ar": "بورتسودان [يحتاج تحقق]",
+     "variants": [],
+     "note_en": "Arabic form as printed in QASIM_MAWSUA vol. 4 ('معهد بورتسودان').",
+     "era_ids": [],
+     "cites": [{"id": "QASIM_MAWSUA", "page": "1506 (vol. 4; scan PDF p.98)"}],
+     "badges": ["SINGLE-SOURCE", "VERIFY"]}
   ],
   "omitted": []
 }
