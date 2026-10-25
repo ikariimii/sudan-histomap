@@ -1148,7 +1148,7 @@
       "badges": [
         "NO-SOURCE"
       ],
-      "note": "No source read in full names this era's currency; not filled from memory."
+      "note": "No source read in full names this era's currency; not filled from memory (checked GHA II/V/VI/VII for coin, currency, thaler, Maria Theresa on 2026-10-25: no Sudan-specific hit for this era)."
     },
     "main_trade": {
       "exports": {
@@ -1227,15 +1227,16 @@
       "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
     },
     "currency": {
-      "name": null,
+      "name": "no Meroitic coinage cited; Roman coins reached Nubia 'in very small numbers'",
       "type": null,
       "issuer": null,
       "example_artifact": null,
-      "cite": null,
+      "cite": "GHA2_CH10",
+      "page": "p.292",
       "badges": [
-        "NO-SOURCE"
+        "EDITORIAL"
       ],
-      "note": "No source read in full names this era's currency; not filled from memory."
+      "note": "GHA II p.292 lists stray Roman coins (Claudius at Meroe, Nero at Karanog, Diocletian at El Obeid, a 4th-century coin at Sennar) as 'modest remains' of contact, not a currency. Barter is not stated on this page, so it is not claimed."
     },
     "main_trade": {
       "exports": {
@@ -1299,15 +1300,16 @@
       "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
     },
     "currency": {
-      "name": null,
-      "type": null,
+      "name": "none named; baqt obligations paid in kind (slaves)",
+      "type": "commodity exchange",
       "issuer": null,
       "example_artifact": null,
-      "cite": null,
+      "cite": "GHAIII",
+      "page": "p.6 (ch.1); GHA III ch.3 p.81",
       "badges": [
-        "NO-SOURCE"
+        "EDITORIAL"
       ],
-      "note": "No source read in full names this era's currency; not filled from memory."
+      "note": "The source describes the baqt as slaves sent to Egypt, not as money; 'commodity exchange' is the Historian's label. Goods returned under the baqt are not in the pages read."
     },
     "main_trade": {
       "exports": {
@@ -1393,15 +1395,17 @@
       "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
     },
     "currency": {
-      "name": null,
-      "type": null,
+      "name": "cash (coin); 'dollars' in Isma'il's 1822 Shendi demand",
+      "type": "coin",
       "issuer": null,
       "example_artifact": null,
-      "cite": null,
+      "cite": "GHA6_CH14",
+      "page": "p.362",
       "badges": [
-        "NO-SOURCE"
+        "SOURCED",
+        "SINGLE-SOURCE"
       ],
-      "note": "No source read in full names this era's currency; not filled from memory."
+      "note": "GHA VI p.362: the government insisted taxes be paid in cash 'though the common usage of coins was still restricted to merchants and townspeople'; Isma'il demanded '30000 dollars and 6000 slaves' at Shendi. The source does not name the piastre for this era, so no piastre is claimed."
     },
     "main_trade": {
       "exports": {
@@ -1473,15 +1477,17 @@
       "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
     },
     "currency": {
-      "name": null,
-      "type": null,
+      "name": "Egyptian pound (£E) and piastre",
+      "type": "coin",
       "issuer": null,
       "example_artifact": null,
-      "cite": null,
+      "cite": "GHA7_CH17",
+      "page": "pp.455, 457",
       "badges": [
-        "NO-SOURCE"
+        "SOURCED",
+        "SINGLE-SOURCE"
       ],
-      "note": "No source read in full names this era's currency; not filled from memory."
+      "note": "GHA VII p.455: Egyptian contribution to the Sudan budget £E 2.8 million (1899-1916); p.457: Egyptian loans c.£E 5.4 million (1900-10) and land tax 'between 10 piastres and 100' . Issuer not stated in the source."
     },
     "main_trade": {
       "exports": {
@@ -1562,7 +1568,7 @@
       "badges": [
         "NO-SOURCE"
       ],
-      "note": "No source read in full names this era's currency; not filled from memory."
+      "note": "No source read in full names this era's currency; not filled from memory (checked GHA II/V/VI/VII for coin, currency, thaler, Maria Theresa on 2026-10-25: no Sudan-specific hit for this era)."
     },
     "main_trade": {
       "exports": {
@@ -1631,7 +1637,7 @@
       "badges": [
         "NO-SOURCE"
       ],
-      "note": "No source read in full names this era's currency; not filled from memory."
+      "note": "No source read in full names this era's currency; not filled from memory (checked GHA II/V/VI/VII for coin, currency, thaler, Maria Theresa on 2026-10-25: no Sudan-specific hit for this era)."
     },
     "main_trade": {
       "exports": {
@@ -1692,15 +1698,17 @@
       "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
     },
     "currency": {
-      "name": null,
-      "type": null,
+      "name": "millet (dhurra) and dammur cloth; foreign silver for large deals",
+      "type": "commodity money",
       "issuer": null,
       "example_artifact": null,
-      "cite": null,
+      "cite": "HD2011",
+      "page": "intro pp.7–9",
       "badges": [
-        "NO-SOURCE"
+        "SOURCED",
+        "SINGLE-SOURCE"
       ],
-      "note": "No source read in full names this era's currency; not filled from memory."
+      "note": "Carried from the era file's economy_en (Holt & Daly, intro pp.7–9). No Maria Theresa thaler claim: not found in a source read in full."
     },
     "main_trade": {
       "exports": {
@@ -1769,7 +1777,7 @@
       "badges": [
         "NO-SOURCE"
       ],
-      "note": "No source read in full names this era's currency; not filled from memory."
+      "note": "No source read in full names this era's currency; not filled from memory (checked GHA II/V/VI/VII for coin, currency, thaler, Maria Theresa on 2026-10-25: no Sudan-specific hit for this era)."
     },
     "main_trade": {
       "exports": {
@@ -1838,7 +1846,7 @@
       "badges": [
         "NO-SOURCE"
       ],
-      "note": "No source read in full names this era's currency; not filled from memory."
+      "note": "No source read in full names this era's currency; not filled from memory (checked GHA II/V/VI/VII for coin, currency, thaler, Maria Theresa on 2026-10-25: no Sudan-specific hit for this era)."
     },
     "main_trade": {
       "exports": {
