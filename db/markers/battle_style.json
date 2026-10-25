@@ -1,0 +1,253 @@
+{
+ "_meta": {
+  "owner": "Sudan Map Designer",
+  "date": "2026-10-25",
+  "palette_source": "map.css (--bg #0f1b24, --acc #e0a63e, sky #8cc8f0, muted #9fb2bf) plus Okabe-Ito hues",
+  "schema_note": "/workspace/audit/r25/battles_events_schema.md did not exist when this was written; field names follow the Historian's battle id scheme ('<place>-<year>') and war_id."
+ },
+ "colourblind": "Precision is shown by shape (solid disc, ring, halo, dashed ring), never by colour alone. Battles (vermillion #f08c6c) and events (sky #8cc8f0) stay apart under deuteranopia, protanopia and tritanopia thanks to the glyph difference (swords vs pin) and the luminance contrast against #0f1b24. In the war palette, wars that sit close in hue under CVD are told apart by a different hull stroke dash.",
+ "battle": {
+  "glyph": "crossed swords, 24x24 viewBox",
+  "variants": {
+   "exact": {
+    "file": "battle_exact.svg",
+    "fill": "#f08c6c",
+    "glyph": "#0f1b24",
+    "stroke": "#0f1b24 1.5"
+   },
+   "approximate": {
+    "file": "battle_approximate.svg",
+    "fill": "#0f1b24 @0.75",
+    "ring": "#f08c6c 2",
+    "glyph": "#f08c6c"
+   },
+   "region": {
+    "file": "battle_region.svg",
+    "halo": "radial #f08c6c 0.55 to 0",
+    "glyph": "#fbecc8",
+    "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+   },
+   "reported": {
+    "file": "battle_reported.svg",
+    "use_when": "2023+ SAF-RSF items with status reported/unconfirmed",
+    "ring": "#b9a8a2 dash 3 2.2",
+    "glyph": "#b9a8a2",
+    "combine": "reported + region gives this icon plus the halo at 0.5 opacity"
+   }
+  },
+  "size_px_by_zoom": {
+   "<=5": 16,
+   "6-7": 20,
+   "8-9": 24,
+   ">=10": 32
+  },
+  "min_hit_target_px": 44,
+  "states": {
+   "hover": {
+    "scale": 1.15,
+    "outline": "#ffd54a 2",
+    "cursor": "pointer"
+   },
+   "selected": {
+    "scale": 1.25,
+    "outline": "#ffd54a 3",
+    "halo": "#ffd54a @0.35 r+6",
+    "raise_to_top": true
+   },
+   "dimmed_out_of_era": {
+    "opacity": 0.35
+   }
+  },
+  "alt_text": {
+   "en": "Battle of {name}, {year} – {precision} location",
+   "ar": "معركة {name}، {year} – موقع {precision} [VERIFY]"
+  },
+  "legend": {
+   "exact": {
+    "en": "Battle (exact site)",
+    "ar": "معركة (موقع دقيق) [VERIFY]"
+   },
+   "approximate": {
+    "en": "Battle (approximate site)",
+    "ar": "معركة (موقع تقريبي) [VERIFY]"
+   },
+   "region": {
+    "en": "Battle (somewhere in area)",
+    "ar": "معركة (في نطاق المنطقة) [VERIFY]"
+   },
+   "reported": {
+    "en": "Clash reported, unconfirmed (2023–)",
+    "ar": "اشتباك مُبلَّغ عنه غير مؤكد (2023–) [VERIFY]"
+   }
+  }
+ },
+ "event_pin": {
+  "applies_to": "era_events items with a place_id",
+  "variants": {
+   "exact": {
+    "file": "event_exact.svg",
+    "fill": "#8cc8f0"
+   },
+   "approximate": {
+    "file": "event_approximate.svg",
+    "outline": "#8cc8f0"
+   },
+   "region": {
+    "file": "event_region.svg",
+    "halo": "#8cc8f0 radial",
+    "outline_dash": "2 1.6"
+   }
+  },
+  "size_px_by_zoom": {
+   "<=5": 14,
+   "6-7": 18,
+   "8-9": 22,
+   ">=10": 28
+  },
+  "anchor": "bottom tip (12,22.5)",
+  "states": "same as battle; selected outline #ffd54a",
+  "coexistence": "Battle markers are centred on the point and pins are tip-anchored. When a battle and an event share a place_id or sit within 12 px, offset the pin +10 px east (west in RTL), draw a 1 px #9fb3c2 leader line, and keep the battle on top. Three or more markers within 24 px collapse into a count badge (#14232f fill, #e0a63e text) that expands on click.",
+  "alt_text": {
+   "en": "{title}, {year} – {precision} place",
+   "ar": "{title}، {year} – مكان {precision} [VERIFY]"
+  },
+  "legend": {
+   "exact": {
+    "en": "Event (exact place)",
+    "ar": "حدث (مكان دقيق) [VERIFY]"
+   },
+   "approximate": {
+    "en": "Event (approximate place)",
+    "ar": "حدث (مكان تقريبي) [VERIFY]"
+   },
+   "region": {
+    "en": "Event (area)",
+    "ar": "حدث (منطقة) [VERIFY]"
+   }
+  }
+ },
+ "timeline_ticks": {
+  "battle": {
+   "file": "tick_battle.svg",
+   "w": 3,
+   "h": "100% of track",
+   "colour": "war_palette colour, else #f08c6c",
+   "mark": "small x cap"
+  },
+  "event": {
+   "file": "tick_event.svg",
+   "w": 2,
+   "colour": "#8cc8f0",
+   "mark": "dot cap"
+  },
+  "reported": {
+   "file": "tick_reported.svg",
+   "w": 2,
+   "colour": "#b9a8a2",
+   "dash": "3 2"
+  },
+  "range_events": "bar from start to end at 0.4 opacity, ticks at the ends",
+  "hover": "tick to #ffd54a and show a tooltip",
+  "selected": "tick to #ffd54a, w+1, synced with the map marker",
+  "min_spacing_px": 3,
+  "overlap": "stack upward in 4 px steps"
+ },
+ "z_order_bottom_to_top": [
+  "basemap/land",
+  "extents (era polygons)",
+  "war_footprint hull",
+  "region halos (battle/event)",
+  "borders/rivers labels",
+  "cities",
+  "event pins",
+  "battle markers",
+  "reported clashes (same layer as battles, drawn under confirmed ones)",
+  "selected marker + leader lines",
+  "labels/tooltips",
+  "UI chrome (map.css z-index 6+)"
+ ],
+ "war_footprint": {
+  "trigger": "select a war chip, or select a battle and choose 'show war'",
+  "palette_note": "14 slots. The marker glyph keeps its vermillion; the war hue is used for the hull, timeline ticks and a 2 px marker outline in war mode. The pre-1956 ids are proposed by the Map Designer and the Historian owns the final ids; post-1956 ids come from the Analyst.",
+  "war_palette": {
+   "egypt-kush-wars": {
+    "colour": "#e69f00",
+    "hull_dash": "solid",
+    "id_source": "pre-1956, proposed"
+   },
+   "meroe-rome-war": {
+    "colour": "#cc79a7",
+    "hull_dash": "solid",
+    "id_source": "pre-1956, proposed"
+   },
+   "nubian-arab-war": {
+    "colour": "#56b4e9",
+    "hull_dash": "solid",
+    "id_source": "pre-1956, proposed"
+   },
+   "funj-keira-wars": {
+    "colour": "#f0e442",
+    "hull_dash": "solid",
+    "id_source": "pre-1956, proposed"
+   },
+   "turco-egyptian-conquest": {
+    "colour": "#d4a373",
+    "hull_dash": "dash 6 3",
+    "id_source": "pre-1956, proposed"
+   },
+   "mahdist-war": {
+    "colour": "#f08c6c",
+    "hull_dash": "solid",
+    "id_source": "pre-1956, proposed"
+   },
+   "ethiopian-mahdist-war": {
+    "colour": "#b07aa1",
+    "hull_dash": "dash 6 3",
+    "id_source": "pre-1956, proposed"
+   },
+   "east-africa-campaign-1940": {
+    "colour": "#9fb3c2",
+    "hull_dash": "dash 2 3",
+    "id_source": "pre-1956, proposed"
+   },
+   "first-civil-war": {
+    "colour": "#009e73",
+    "hull_dash": "solid",
+    "id_source": "Analyst (shared)"
+   },
+   "second-civil-war": {
+    "colour": "#5fd3ad",
+    "hull_dash": "dash 6 3",
+    "id_source": "Analyst"
+   },
+   "darfur-war": {
+    "colour": "#ffd54a",
+    "hull_dash": "dash 6 3",
+    "id_source": "Analyst"
+   },
+   "south-sudan-civil-war": {
+    "colour": "#8cc8f0",
+    "hull_dash": "dash 2 3",
+    "id_source": "Analyst"
+   },
+   "sudan-south-sudan-border-2012": {
+    "colour": "#c9a24a",
+    "hull_dash": "dash 2 3",
+    "id_source": "Analyst"
+   },
+   "war-2023": {
+    "colour": "#f8c0a8",
+    "hull_dash": "dash 4 2 1 2",
+    "id_source": "Analyst"
+   }
+  },
+  "treatment": {
+   "battles_in_war": "opacity 1, outline 2 px war colour; other battles dim to 0.25, cities stay",
+   "hull": "convex hull of the war's battle points (buffer 15 km; a single point gets a 25 km circle; region-precision points use their polygon), fill war colour @0.08, stroke war colour 1.5 px with hull_dash; RTL needs no change",
+   "sequence": "optional thin 1 px war-colour polyline joining battles in date order, with small arrowheads, off by default",
+   "label": "war name at the hull centroid, EN/AR [VERIFY], halo #0f1b24",
+   "legend_entry": "swatch of hull + war name + date span + battle count",
+   "multi_war": "up to 3 wars at once, each with its own hull dash; beyond that, show only the last selected"
+  }
+ }
+}
