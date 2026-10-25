@@ -763,6 +763,8 @@
  "confidence_key": {
   "title_en": "How sure are we?",
   "title_ar": "ما مدى تأكدنا؟ [يحتاج تحقق]",
+  "caption_en": "All historical borders are approximate",
+  "caption_ar": "جميع الحدود التاريخية تقريبية [يحتاج تحقق]",
   "field": "properties.confidence_style (set by db/border_drafts/promote_drafts.py conf_style)",
   "rows": [
    {
