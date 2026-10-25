@@ -1,101 +1,102 @@
 {
- "_meta": {
-  "purpose": "Replacements for 4 dead links flagged by QA. Each main replacement is a scholarly or institutional source read in full on 2026-10-25. Wikipedia appears only as a secondary pointer. Nothing in data/ or m/ was edited: owners apply the changes.",
-  "wayback": "No Wayback snapshot exists for any of the 4 current URLs (checked 2026-10-25).",
-  "prepared": "2026-10-25"
- },
- "links": [
-  {
-   "current_url": "https://en.wikipedia.org/wiki/Early_Khartoum",
-   "locations": [
-    "data/periods.json meta.sources 'WP:Early_Khartoum' (line 6325; url line 6330; cited at lines 7482, 7496)",
-    "data/periods.js (mirror)",
-    "data/eras/khartoum-mesolithic-early-khartoum.json",
-    "db/legends/eras/*",
-    "data/backup/*"
-   ],
-   "owner": "Historian (data/periods.json, data/eras); Sudan Map Designer (db/legends)",
-   "replacement": {
-    "registry_id": "AAR2021",
-    "already_registered": true,
-    "citation": "D'Ercole, G. 2021. African Archaeological Review 38.",
-    "url": "https://link.springer.com/article/10.1007/s10437-021-09432-y",
-    "quote": "In his 1949 publication, Arkell defined two main cultural phases, named the \"Wavy Line Culture\" or \"Early Khartoum\" (later re-named \"Khartoum Mesolithic\") and the \"Gouge Culture\" (or \"Khartoum Neolithic\")",
-    "quote_dates": "Early Khartoum ceramics of central Sudan (c. 8500–5000 cal BC)",
-    "underlying_work_not_read": "Arkell, A.J. 1949. Early Khartoum. Oxford University Press (cited in AAR2021's references; not read, so not cited directly)."
-   },
-   "secondary_pointer": "https://en.wikipedia.org/wiki/Dotted_wavy_line_and_wavy_line_pottery",
-   "check": "AAR2021 read in full via WebFetch on 2026-10-25; quotes copied verbatim. Secondary pointer returns HTTP 200."
+  "_meta": {
+    "purpose": "Replacements for 4 dead links flagged by QA. Each main replacement is a scholarly or institutional source read in full on 2026-10-25. Wikipedia appears only as a secondary pointer. Nothing in data/ or m/ was edited: owners apply the changes.",
+    "wayback": "No Wayback snapshot exists for any of the 4 current URLs (checked 2026-10-25).",
+    "prepared": "2026-10-25"
   },
-  {
-   "current_url": "https://en.wikipedia.org/wiki/Khartoum_Neolithic",
-   "locations": [
-    "data/periods.json meta.sources 'WP:Khartoum_Neolithic' (line 6495; url line 6500; cited at lines 7530, 7547)",
-    "data/periods.js (mirror)",
-    "data/eras/khartoum-neolithic-shaheinab.json",
-    "db/legends/eras/*",
-    "data/backup/*"
-   ],
-   "owner": "Historian (data/periods.json, data/eras); Sudan Map Designer (db/legends)",
-   "replacement": {
-    "registry_id": "AAR2021",
-    "already_registered": true,
-    "citation": "D'Ercole, G. 2021. African Archaeological Review 38.",
-    "url": "https://link.springer.com/article/10.1007/s10437-021-09432-y",
-    "quote": "The Khartoum Neolithic (also known as Shaheinab Neolithic from the site-type of Esh Shaheinab) started at the beginning of the fifth millennium BC.",
-    "quote_dates": "Esh Shaheinab Neolithic ceramics (c. 5000–3800 cal BC)",
-    "underlying_work_not_read": "Arkell, A.J. 1953. Shaheinab. Oxford University Press (cited in AAR2021's references; not read)."
-   },
-   "secondary_pointer": "https://en.wikipedia.org/wiki/Esh_Shaheinab",
-   "check": "AAR2021 read in full via WebFetch on 2026-10-25; quotes copied verbatim. Secondary pointer returns HTTP 200."
-  },
-  {
-   "current_url": "https://en.wikipedia.org/wiki/Ottoman_Egyptian_invasion_of_Sudan",
-   "locations": [
-    "data/periods.json meta.sources 'WP:Ottoman_Egyptian_invasion_of_Sudan' (line 6675; url line 6680; cited at lines 8310, 8330)",
-    "data/periods.js (mirror)",
-    "data/eras/turkiyya-ottoman-egyptian-rule.json",
-    "db/legends/eras/*",
-    "data/backup/*"
-   ],
-   "owner": "Historian (data/periods.json, data/eras); Sudan Map Designer (db/legends)",
-   "replacement": {
-    "registry_id": "SFDAS_HCS2017",
-    "registry_note": "Existing registry id SFDAS_HCS2017 (data/periods.json line 5651). Cite it with pages '556' once its url is updated (see link 4).",
-    "citation": "François, Bernard. 'Le Soudan de 1820 à nos jours', chapter 2 'La création du Soudan moderne (1820-1885, Turkiyya)', in Histoire et civilisations du Soudan, de la Préhistoire à nos jours. Soleb / Bleu autour / SFDAS, 2017. Chapter starts p. 551; quote p. 556.",
-    "url": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html",
-    "pages": "556",
-    "lang": "fr",
-    "quote": "L’expédition continue vers la capitale du royaume de Sennar, en proie à des luttes intestines qui lui permettent de l’occuper pacifiquement dès son entrée le 12 juin 1821. Le roi Badi IV offre sa soumission à Ismaïl Pacha"
-   },
-   "secondary_pointer": "https://en.wikipedia.org/wiki/Egyptian_conquest_of_Sudan_(1820–1824)",
-   "check": "Downloaded the publisher's free PDF (pdf-bd.zip) on 2026-10-25 and extracted the text. The quote was found on PDF page 572, printed page 556; the ToC lists the chapter at p. 551. Not used: Hill 1959 (archive.org access-restricted), Holt & Daly HD2011 (not read), Britannica (HTTP 403). Secondary pointer returns HTTP 200."
-  },
-  {
-   "current_url": "https://sfdas.com/IMG/pdf/histoire_et_civilisations_du_soudan_15_bd.pdf",
-   "locations": [
-    "data/periods.json meta.sources 'SFDAS_HCS2017' (line 5651; url line 5656, ISBN 978-2-918157-24-3)",
-    "data/periods.js (mirror)",
-    "m/a-group-lower-nubia.json",
-    "m/c-group-lower-nubia.json",
-    "m/kingdom-of-kerma.json",
-    "data/backup/*"
-   ],
-   "owner": "Historian (data/periods.json); Sudan Web Experience (m/*.json)",
-   "replacement": {
-    "same_work": true,
-    "url": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html",
-    "direct_download": "https://www.soleb.com/pdf/soudan/Histoire-et-civilisations-du-Soudan-pdf-bd.zip",
-    "other_formats": [
-     "https://www.soleb.com/pdf/soudan/Histoire-et-civilisations-du-Soudan-pdf.zip",
-     "https://www.soleb.com/pdf/soudan/Histoire-et-civilisations-du-Soudan-epub.zip"
-    ],
-    "institutional_page": "http://sfdas.com/publications/publications-de-la-sfdas/article/histoire-et-civilisations-du-soudan_lang-fr/",
-    "isbn_note": "The soleb page gives ISBN 978-2-918157-30-4 for the digital edition; the registry has 978-2-918157-24-3 (print). Keep the print ISBN or add the digital one: Historian's call.",
-    "registry_id": "SFDAS_HCS2017"
-   },
-   "secondary_pointer": null,
-   "check": "On 2026-10-25 the soleb page returned HTTP 200. The bd.zip returned HTTP 200, application/zip, 32,040,966 bytes, Last-Modified 2019-08-29. It holds 'Histoire et civilisations du Soudan [15] bd.pdf' (the same file name as the dead link), whose PDF metadata title is 'Histoire et civilisations du Soudan, de la Préhistoire à nos jours', 976 pages. The text extracts and the ToC loads."
-  }
- ]
+  "links": [
+    {
+      "current_url": "https://en.wikipedia.org/wiki/Early_Khartoum",
+      "locations": [
+        "data/periods.json meta.sources 'WP:Early_Khartoum' (line 6325; url line 6330; cited at lines 7482, 7496)",
+        "data/periods.js (mirror)",
+        "data/eras/khartoum-mesolithic-early-khartoum.json",
+        "db/legends/eras/*",
+        "data/backup/*"
+      ],
+      "owner": "Historian (data/periods.json, data/eras); Sudan Map Designer (db/legends)",
+      "replacement": {
+        "registry_id": "AAR2021",
+        "already_registered": true,
+        "citation": "D'Ercole, G. 2021. African Archaeological Review 38.",
+        "url": "https://link.springer.com/article/10.1007/s10437-021-09432-y",
+        "quote": "In his 1949 publication, Arkell defined two main cultural phases, named the \"Wavy Line Culture\" or \"Early Khartoum\" (later re-named \"Khartoum Mesolithic\") and the \"Gouge Culture\" (or \"Khartoum Neolithic\")",
+        "quote_dates": "Early Khartoum ceramics of central Sudan (c. 8500–5000 cal BC)",
+        "underlying_work_not_read": "Arkell, A.J. 1949. Early Khartoum. Oxford University Press (cited in AAR2021's references; not read, so not cited directly)."
+      },
+      "secondary_pointer": "https://en.wikipedia.org/wiki/Dotted_wavy_line_and_wavy_line_pottery",
+      "check": "AAR2021 read in full via WebFetch on 2026-10-25; quotes copied verbatim. Secondary pointer returns HTTP 200."
+    },
+    {
+      "current_url": "https://en.wikipedia.org/wiki/Khartoum_Neolithic",
+      "locations": [
+        "data/periods.json meta.sources 'WP:Khartoum_Neolithic' (line 6495; url line 6500; cited at lines 7530, 7547)",
+        "data/periods.js (mirror)",
+        "data/eras/khartoum-neolithic-shaheinab.json",
+        "db/legends/eras/*",
+        "data/backup/*"
+      ],
+      "owner": "Historian (data/periods.json, data/eras); Sudan Map Designer (db/legends)",
+      "replacement": {
+        "registry_id": "AAR2021",
+        "already_registered": true,
+        "citation": "D'Ercole, G. 2021. African Archaeological Review 38.",
+        "url": "https://link.springer.com/article/10.1007/s10437-021-09432-y",
+        "quote": "The Khartoum Neolithic (also known as Shaheinab Neolithic from the site-type of Esh Shaheinab) started at the beginning of the fifth millennium BC.",
+        "quote_dates": "Esh Shaheinab Neolithic ceramics (c. 5000–3800 cal BC)",
+        "underlying_work_not_read": "Arkell, A.J. 1953. Shaheinab. Oxford University Press (cited in AAR2021's references; not read)."
+      },
+      "secondary_pointer": "https://en.wikipedia.org/wiki/Esh_Shaheinab",
+      "check": "AAR2021 read in full via WebFetch on 2026-10-25; quotes copied verbatim. Secondary pointer returns HTTP 200."
+    },
+    {
+      "current_url": "https://en.wikipedia.org/wiki/Ottoman_Egyptian_invasion_of_Sudan",
+      "locations": [
+        "data/periods.json meta.sources 'WP:Ottoman_Egyptian_invasion_of_Sudan' (line 6675; url line 6680; cited at lines 8310, 8330)",
+        "data/periods.js (mirror)",
+        "data/eras/turkiyya-ottoman-egyptian-rule.json",
+        "db/legends/eras/*",
+        "data/backup/*"
+      ],
+      "owner": "Historian (data/periods.json, data/eras); Sudan Map Designer (db/legends)",
+      "replacement": {
+        "registry_id": "SFDAS_HCS2017",
+        "registry_note": "Existing registry id SFDAS_HCS2017 (data/periods.json line 5651). Cite it with pages '556' once its url is updated (see link 4).",
+        "citation": "François, Bernard. 'Le Soudan de 1820 à nos jours', chapter 2 'La création du Soudan moderne (1820-1885, Turkiyya)', in Histoire et civilisations du Soudan, de la Préhistoire à nos jours. Soleb / Bleu autour / SFDAS, 2017. Chapter starts p. 551; quote p. 556.",
+        "url": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html",
+        "pages": "556",
+        "lang": "fr",
+        "quote": "L’expédition continue vers la capitale du royaume de Sennar, en proie à des luttes intestines qui lui permettent de l’occuper pacifiquement dès son entrée le 12 juin 1821. Le roi Badi IV offre sa soumission à Ismaïl Pacha"
+      },
+      "secondary_pointer": "https://en.wikipedia.org/wiki/Egyptian_conquest_of_Sudan_(1820–1824)",
+      "check": "Downloaded the publisher's free PDF (pdf-bd.zip) on 2026-10-25 and extracted the text. The quote was found on PDF page 572, printed page 556; the ToC lists the chapter at p. 551. Not used: Hill 1959 (archive.org access-restricted), Holt & Daly HD2011 (not read), Britannica (HTTP 403). Secondary pointer returns HTTP 200."
+    },
+    {
+      "current_url": "https://sfdas.com/IMG/pdf/histoire_et_civilisations_du_soudan_15_bd.pdf",
+      "locations": [
+        "data/periods.json meta.sources 'SFDAS_HCS2017' (line 5651; url line 5656, ISBN 978-2-918157-24-3)",
+        "data/periods.js (mirror)",
+        "m/a-group-lower-nubia.json",
+        "m/c-group-lower-nubia.json",
+        "m/kingdom-of-kerma.json",
+        "data/backup/*"
+      ],
+      "owner": "Historian (data/periods.json); Sudan Web Experience (m/*.json)",
+      "replacement": {
+        "same_work": true,
+        "url": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html",
+        "direct_download": "https://www.soleb.com/pdf/soudan/Histoire-et-civilisations-du-Soudan-pdf-bd.zip",
+        "other_formats": [
+          "https://www.soleb.com/pdf/soudan/Histoire-et-civilisations-du-Soudan-pdf.zip",
+          "https://www.soleb.com/pdf/soudan/Histoire-et-civilisations-du-Soudan-epub.zip"
+        ],
+        "institutional_page": "http://sfdas.com/publications/publications-de-la-sfdas/article/histoire-et-civilisations-du-soudan_lang-fr/",
+        "isbn_note": "The soleb page gives ISBN 978-2-918157-30-4 for the digital edition; the registry has 978-2-918157-24-3 (print). Keep the print ISBN or add the digital one: Historian's call.",
+        "registry_id": "SFDAS_HCS2017"
+      },
+      "secondary_pointer": null,
+      "check": "On 2026-10-25 the soleb page returned HTTP 200. The bd.zip returned HTTP 200, application/zip, 32,040,966 bytes, Last-Modified 2019-08-29. It holds 'Histoire et civilisations du Soudan [15] bd.pdf' (the same file name as the dead link), whose PDF metadata title is 'Histoire et civilisations du Soudan, de la Préhistoire à nos jours', 976 pages. The text extracts and the ToC loads."
+    }
+  ],
+  "isbn_note": "Cite the print ISBN 978-2-918157-24-3 for SFDAS_HCS2017, because the page cites refer to the print edition (IM ruling, 2026-10-25). The soleb.com page lists 978-2-918157-30-4 for the digital edition."
 }
