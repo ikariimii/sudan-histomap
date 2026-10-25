@@ -96,6 +96,45 @@
     },
     "draft_version": "bd-0.1 2026-10-24"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.58333,
+     12.75
+    ]
+   },
+   "properties": {
+    "id": "zone-restored-darfur-sultanate-ali-dinar-contested-1",
+    "draft_id": "restored-darfur-sultanate-ali-dinar#1:contested",
+    "zone": "contested",
+    "confidence": 0.4,
+    "certainty": "medium",
+    "badges": [
+     "APPROXIMATE",
+     "CONTESTED"
+    ],
+    "source": "MACMICHAEL1922_V1",
+    "sources": [
+     "MACMICHAEL1922_V1",
+     "GHA7_CH12"
+    ],
+    "basis_en": "West borderland of Ali Dinar's restored sultanate: Dar Masalit is 'bounded to the west by Wadai… to the north by Dars Tama and Kimr, and to the east by the Fur', and Dar Tama 'has always been a bone of contention between the Sultans of Wadai and Darfur' (MacMichael I pp.85–86); of Dar Masalit itself: 'Like Dar Tama it has always been a bone of contention as between Wadai and Darfur' (ibid.); the sultanate was 'nominally tributary to, but effectively independent of, the Anglo-Egyptian Sudan' (GHA VII p.283). Shown as a single APPROXIMATE point at the Dar Masalit anchor; no Dar Tama point because no sourced historical coordinate was found (Wikidata Q2439275 is the modern Chadian Dar Tama Department, not used).",
+    "pages": "MacMichael 1922 I pp.85–86; GHA VII ch.12 p.283",
+    "start": null,
+    "end": null,
+    "label_en": null,
+    "label_ar": null,
+    "method": "hand-added point (not build_drafts.py); reused cited anchor, no new coordinate",
+    "signoff": {
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "commit": null
+    },
+    "draft_version": "bd-0.1 2026-10-24 (hand-appended)"
+   }
   }
  ],
  "extent_rendering": {

@@ -43,6 +43,27 @@
      "confidence": 0.5,
      "confidence_word": "medium",
      "low_confidence_overlay": false
+    },
+    {
+     "feature_index": 2,
+     "id": "zone-restored-darfur-sultanate-ali-dinar-contested-1",
+     "label_en": null,
+     "symbol_class": "zone_contested",
+     "certainty": "medium",
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "MACMICHAEL1922_V1",
+      "GHA7_CH12"
+     ],
+     "zone": "contested",
+     "confidence": 0.4,
+     "confidence_word": "medium",
+     "low_confidence_overlay": true
     }
    ]
   },
@@ -1563,6 +1584,8 @@
   "city_trade",
   "extent_label_point",
   "list_only_text",
+  "low_confidence",
+  "zone_contested",
   "zone_core"
  ],
  "badges_present": [
@@ -1584,8 +1607,10 @@
   "city_trade": 1,
   "extent_label_point": 1,
   "list_only_text": 1,
+  "low_confidence": 1,
+  "zone_contested": 1,
   "zone_core": 1,
-  "extent_features": 2,
+  "extent_features": 3,
   "group_features": 1,
   "cities": 45
  },
