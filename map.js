@@ -39,7 +39,7 @@ const RELIEF_BOX=[12,-3,48,27];let RHI=false;function relief(){const a=proj([REL
 function fit(){const sh=$('sheet').getBoundingClientRect();const top=desk()?70:120,bot=desk()?H()-20:Math.max(top+160,H()-Math.min(sh.height,H()*.44)-8);
  const x1=desk()?(AR?sh.right+20:20):10,x2=desk()?(AR?W()-20:sh.left-20):W()-10;
  proj.fitExtent([[x1,top],[x2,bot]],{type:'MultiPoint',coordinates:[[21.8,3.4],[38.6,22.2]]});relief()}
-const zoom=d3.zoom().scaleExtent([1,12]).on('zoom',ev=>{TR=ev.transform;root.attr('transform',ev.transform);K=ev.transform.k;scaleMarks();cmpClip();rsHide(K<1.05&&Math.abs(ev.transform.x)<2)}).on('end',()=>{if(!RHI&&K>=2)relief();place();cityThin();hmlDraw()});
+const zoom=d3.zoom().scaleExtent([1,12]).on('zoom',ev=>{TR=ev.transform;root.attr('transform',ev.transform);K=ev.transform.k;scaleMarks();hatchK();cmpClip();rsHide(K<1.05&&Math.abs(ev.transform.x)<2)}).on('end',()=>{if(!RHI&&K>=2)relief();place();cityThin();hmlDraw()});
 svg.call(zoom).on('dblclick.zoom',null);
 // labels are placed in screen space by place(): keep their group outside the zoomed root (else K is applied twice) and hide it mid-zoom
 svg.node().appendChild(gT.node());zoom.on('start.lb',()=>gT.style('display','none'));$('reset').onclick=()=>svg.transition().duration(DUR).call(zoom.transform,d3.zoomIdentity);
@@ -80,7 +80,7 @@ const CKS=(s,a)=>s==='contested'?{e:{stroke:'#e0a63e','stroke-width':2},o:'url(#
 // caption from legend_spec confidence_key caption_en/ar; AR missing or not Arabic script -> EN + VERIFY chip; no caption_en -> built-in EN line
 const ckCap=k=>{const c=(k&&k.c)||[],en=c[0]||'All historical borders are approximate',ar=c[1];return AR?(ar&&/[\u0600-\u06FF]/.test(ar)?esc(ar):`<span lang="en" dir="ltr">${esc(en)}</span>`+vchipH()):esc(en)};
 const ckLab=(r,a)=>r.s==='solid'&&a<1899&&!/approximate edge/i.test(r.en||'')?(AR?null:'Core area (approximate edge)'):bpick([r.en,r.ar]);
-const HATCH='<pattern id="hatch-cont" patternUnits="userSpaceOnUse" width="7" height="7" patternTransform="rotate(45)"><rect width="7" height="7" fill="#e0a63e" fill-opacity=".14"/><line x1="0" y1="0" x2="0" y2="7" stroke="#1a1208" stroke-width="3.2"/><line x1="0" y1="0" x2="0" y2="7" stroke="#f2b84b" stroke-width="1.6"/></pattern>';
+const HATCH='<pattern id="hatch-cont" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)"><rect width="8" height="8" fill="#e0a63e" fill-opacity=".14"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1a1208" stroke-width="3.2"/><line x1="0" y1="0" x2="0" y2="8" stroke="#f2b84b" stroke-width="1.6"/></pattern>';
 async function render(anim=true){
  const e=ES[i];r.value=i;url();const g=await ext(e);if(e!==ES[i])return;
  cam(e,g);
@@ -189,7 +189,9 @@ svg.on('click',()=>{$('feat').hidden=true});
 // --- border zones (db/border_drafts). Unlisted: only with ?layers=borders-draft (DRAFT badge, no chip, no legend row) unless the build sets bdPub.
 const BDQ=(Q.get('layers')||'').split(',').includes('borders-draft'),BD=BDQ||!!M.layers.bdPub,ZJ={};
 const zj=e=>(M.layers.bd||[]).includes(e.id)?(ZJ[e.id]||(ZJ[e.id]=getj('/bd/'+e.id+'.json').then(g=>{g.features.forEach(rw);return g.features}).catch(()=>[]))):Promise.resolve([]);
-function zdefs(){if(document.getElementById('lowconf'))return;svg.select('defs').each(function(){this.insertAdjacentHTML('beforeend','<pattern id="lowconf" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#e8eef2" stroke-width="1"/></pattern><pattern id="conthatch" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#e0a63e" stroke-width="2"/></pattern><filter id="zfeather"><feGaussianBlur stdDeviation="6"/></filter>')});}
+// constant ~8px on-screen hatch spacing: counter-scale the patterns by 1/K
+function hatchK(){[['lowconf',45],['conthatch',-45],['hatch-cont',45]].forEach(([id,a])=>{const n=document.getElementById(id);if(n)n.setAttribute('patternTransform',`rotate(${a}) scale(${1/(K||1)})`)})}
+function zdefs(){if(document.getElementById('lowconf'))return hatchK();svg.select('defs').each(function(){this.insertAdjacentHTML('beforeend','<pattern id="lowconf" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#e8eef2" stroke-width="1"/></pattern><pattern id="conthatch" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#e0a63e" stroke-width="2"/></pattern><filter id="zfeather"><feGaussianBlur stdDeviation="6"/></filter>')});hatchK();}
 const ZO=['influence','claimed','core','contested'],ZW=c=>c>=.7?T.bd.hi:c>=.4?T.bd.med:T.bd.lo;
 async function zonesDraw(e,D,pub=[]){zdefs();const fs=pub.concat(BD?await zj(e):[]);if(e!==ES[i])return;const red=matchMedia('(prefers-reduced-motion: reduce)').matches;D=red?0:D;
  gZ.selectAll('g.z').interrupt().transition().duration(D?500:0).style('opacity',0).remove();
