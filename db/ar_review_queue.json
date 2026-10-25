@@ -2541,6 +2541,45 @@
       "action": "Native reviewer: check the Arabic against the English; the Map Designer owns the file and removes the pending marker.",
       "origin_commit": "715603e",
       "added": "2026-10-25"
+    },
+    {
+      "era_id": "funj-sultanate-of-sennar",
+      "file": "data/eras/funj-sultanate-of-sennar.json",
+      "field_ar": "culture_dominance_ar",
+      "arabic_sentence": "انتشار الإسلام والطرق الصوفية؛ وانتشار الهوية النسبية العربية (الجعلية/العباسية، جهينة) بين سكان ضفاف النيل (هولت وديلي، المقدمة ص3، 5). [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "culture_dominance_en",
+      "revised_english": "The Fundj were rapidly Islamised (GHA V ch.7 p.173); most Sufi orders were introduced from the Hijaz, the Qadiriyya first, brought to the Djazira in 1577 (GHA V ch.7 pp.179–180); Arab genealogical identity (Ja'ali/'Abbasi, Juhayna) spreading among riverain peoples (Holt & Daly, intro pp.3, 5).",
+      "reason": "English re-cited to GHA V ch.7 / GHA VI ch.14 page cites (Funj/Keira batch); Arabic not rewritten and may still carry the old cite/claims.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English.",
+      "origin_commit": "funj-keira batch",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "sultanate-of-darfur-keira",
+      "file": "data/eras/sultanate-of-darfur-keira.json",
+      "field_ar": "geopolitics_ar",
+      "arabic_sentence": "حروب مع وداي غرباً؛ وتوسع شرقاً في كردفان نحو 1785؛ وفقدان كردفان بعد 1821؛ وفتحها الزبير 1874 (فهرس أوفاهي 2008؛ هولت وديلي، المقدمة ص1–9). [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "geopolitics_en",
+      "revised_english": "Wars with Wadai in the west, ended by Tayrab's treaty; eastward expansion into Kordofan under Muhammad Tayrab, held until the Turco-Egyptian conquest (GHA V ch.7 p.189); conquered by al-Zubayr 1874 (GHA VI ch.14 p.371).",
+      "reason": "English re-cited to GHA V ch.7 / GHA VI ch.14 page cites (Funj/Keira batch); Arabic not rewritten and may still carry the old cite/claims.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English.",
+      "origin_commit": "funj-keira batch",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "sultanate-of-darfur-keira",
+      "file": "data/eras/sultanate-of-darfur-keira.json",
+      "field_ar": "economy_ar",
+      "arabic_sentence": "درب الأربعين من كوبيه إلى أسيوط في مصر؛ وغزو الرقيق والاتجار بهم (هولت وديلي، المقدمة ص8–9؛ فهرس أوفاهي).",
+      "badge": "VERIFY",
+      "field_en": "economy_en",
+      "revised_english": "The Forty Days' Road (Darb al-arba'in) from Kubayh to Asyut in Egypt; slave raiding and trading (Holt & Daly, intro pp.8–9; GHA V ch.7 p.190).",
+      "reason": "English re-cited to GHA V ch.7 / GHA VI ch.14 page cites (Funj/Keira batch); Arabic not rewritten and may still carry the old cite/claims.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English.",
+      "origin_commit": "funj-keira batch",
+      "added": "2026-10-25"
     }
   ]
 }

@@ -15,24 +15,24 @@
    "DERIVED"
   ],
   "era_count": 68,
-  "files_scanned": 302
+  "files_scanned": 303
  },
  "totals": {
-  "SINGLE-SOURCE": 220,
+  "SINGLE-SOURCE": 251,
   "CONTESTED": 161,
-  "VERIFY": 13,
+  "VERIFY": 16,
   "REPORTED": 14,
   "MODEL": 109,
   "EDITORIAL": 67,
-  "APPROXIMATE": 443,
+  "APPROXIMATE": 455,
   "PARTIAL": 3,
   "DERIVED": 328
  },
- "grand_total": 1358,
+ "grand_total": 1404,
  "inline_totals": {
   "SINGLE-SOURCE": 22,
   "CONTESTED": 9,
-  "VERIFY": 13,
+  "VERIFY": 11,
   "REPORTED": 1,
   "MODEL": 0,
   "EDITORIAL": 0,
@@ -40,14 +40,14 @@
   "PARTIAL": 0,
   "DERIVED": 0
  },
- "inline_grand_total": 45,
+ "inline_grand_total": 43,
  "inline_method": "Exact bracketed tags [NAME] or [NAME: note] for the 9 badge names in data/eras/*.json text fields (excluding all.json, badge keys and Arabic _ar/ar fields); a tag is not counted when the enclosing object already has the same structured badge. Not included in totals/grand_total.",
  "source_types_totals": {
   "un_aid_agency": 35,
   "intl_financial": 24,
   "government": 50,
-  "scholarly": 237,
-  "wikipedia_only": 78,
+  "scholarly": 240,
+  "wikipedia_only": 75,
   "news": 5,
   "other": 110
  },
@@ -57,7 +57,7 @@
   "intl_financial": 12,
   "government": 39,
   "scholarly": 72,
-  "wikipedia_only": 76,
+  "wikipedia_only": 74,
   "news": 4,
   "other": 37
  },
@@ -119,7 +119,7 @@
    },
    "source_types_total": 9,
    "counts": {
-    "SINGLE-SOURCE": 1,
+    "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -129,7 +129,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 4,
+   "total": 5,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -144,6 +144,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/abboud-military-regime.json",
+    "db/era_economy.json",
     "db/population.json"
    ]
   },
@@ -343,17 +344,17 @@
    },
    "source_types_total": 6,
    "counts": {
-    "SINGLE-SOURCE": 3,
+    "SINGLE-SOURCE": 9,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 5,
+    "APPROXIMATE": 9,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 9,
+   "total": 19,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -371,6 +372,7 @@
     "db/era_economy.json",
     "db/era_fill_modern4.json",
     "db/extents/anuak-anywaa-communities.geojson",
+    "db/extents_historic.json",
     "db/map_sources.json"
    ]
   },
@@ -732,17 +734,17 @@
    },
    "source_types_total": 4,
    "counts": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 8,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 5,
+    "APPROXIMATE": 12,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 8,
+   "total": 21,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -760,6 +762,7 @@
     "db/era_economy.json",
     "db/era_fill_hist20.json",
     "db/extents/dinka-jieng-communities.geojson",
+    "db/extents_historic.json",
     "db/map_sources.json"
    ]
   },
@@ -855,11 +858,11 @@
     "intl_financial": 1,
     "government": 4,
     "scholarly": 2,
-    "wikipedia_only": 1,
+    "wikipedia_only": 0,
     "news": 0,
     "other": 6
    },
-   "source_types_total": 15,
+   "source_types_total": 14,
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 3,
@@ -982,8 +985,8 @@
     "un_aid_agency": 0,
     "intl_financial": 0,
     "government": 0,
-    "scholarly": 2,
-    "wikipedia_only": 1,
+    "scholarly": 3,
+    "wikipedia_only": 0,
     "news": 0,
     "other": 1
    },
@@ -991,7 +994,7 @@
    "counts": {
     "SINGLE-SOURCE": 29,
     "CONTESTED": 0,
-    "VERIFY": 0,
+    "VERIFY": 1,
     "REPORTED": 2,
     "MODEL": 3,
     "EDITORIAL": 2,
@@ -999,11 +1002,11 @@
     "PARTIAL": 0,
     "DERIVED": 12
    },
-   "total": 72,
+   "total": 73,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
-    "VERIFY": 1,
+    "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
@@ -1011,9 +1014,10 @@
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "inline_total": 1,
+   "inline_total": 0,
    "files": [
     "data/eras/funj-sultanate-of-sennar.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/extents/funj-sultanate-of-sennar.geojson",
     "db/group_layers/funj-sultanate-of-sennar.geojson",
@@ -1077,7 +1081,7 @@
    },
    "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 1,
+    "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -1087,7 +1091,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 4,
+   "total": 5,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1102,6 +1106,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/independent-sudan-first-parliamentary-period.json",
+    "db/era_economy.json",
     "db/population.json"
    ]
   },
@@ -2063,17 +2068,17 @@
    },
    "source_types_total": 3,
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 6,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 8,
+    "APPROXIMATE": 9,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 9,
+   "total": 16,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2090,6 +2095,7 @@
     "data/eras/nuer-naath-communities.json",
     "db/era_economy.json",
     "db/extents/nuer-naath-communities.geojson",
+    "db/extents_historic.json",
     "db/map_sources.json"
    ]
   },
@@ -2275,7 +2281,7 @@
    },
    "source_types_total": 16,
    "counts": {
-    "SINGLE-SOURCE": 8,
+    "SINGLE-SOURCE": 12,
     "CONTESTED": 28,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -2285,7 +2291,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 47,
+   "total": 51,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 1,
@@ -2491,7 +2497,7 @@
    },
    "source_types_total": 11,
    "counts": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 5,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -2501,7 +2507,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 9,
+   "total": 12,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2657,16 +2663,16 @@
     "un_aid_agency": 0,
     "intl_financial": 0,
     "government": 0,
-    "scholarly": 2,
-    "wikipedia_only": 1,
+    "scholarly": 4,
+    "wikipedia_only": 0,
     "news": 0,
     "other": 1
    },
-   "source_types_total": 4,
+   "source_types_total": 5,
    "counts": {
     "SINGLE-SOURCE": 17,
     "CONTESTED": 2,
-    "VERIFY": 1,
+    "VERIFY": 3,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 2,
@@ -2674,11 +2680,11 @@
     "PARTIAL": 0,
     "DERIVED": 15
    },
-   "total": 57,
+   "total": 59,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
-    "VERIFY": 1,
+    "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
@@ -2686,9 +2692,10 @@
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "inline_total": 1,
+   "inline_total": 0,
    "files": [
     "data/eras/sultanate-of-darfur-keira.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/extents/sultanate-of-darfur-keira.geojson",
     "db/group_layers/sultanate-of-darfur-keira.geojson",
@@ -2710,7 +2717,7 @@
    },
    "source_types_total": 12,
    "counts": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 6,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -2720,7 +2727,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 5,
+   "total": 9,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2735,6 +2742,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/transitional-third-parliamentary-period.json",
+    "db/era_economy.json",
     "db/population.json"
    ]
   },
