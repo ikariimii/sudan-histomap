@@ -471,6 +471,81 @@
       ],
       "note": "Ongoing; date_to null by rule. No control or fatality claims.",
       "origin": "db/wars_post1956.json (7c86fbe), Analyst; content unchanged, keys mapped to schema"
+    },
+    {
+      "id": "piye-conquest-of-egypt",
+      "name_en": "Piye's conquest of Egypt",
+      "name_ar": "غزو بيي لمصر [يحتاج تحقق]",
+      "era_ids": [
+        "kingdom-of-kush-napatan-period"
+      ],
+      "start": "-720",
+      "end": "-720",
+      "belligerents": [
+        "Kush (Piye)",
+        "Tefnakht of Sais and allied Delta rulers"
+      ],
+      "causes_en": "Tefnakht of Sais united the Delta, occupied Memphis and besieged Heracleopolis; Piye sent an army after the ruler of Hermopolis joined him (GHA II p.106).",
+      "cites": [
+        {
+          "source_id": "GHA2_CH2",
+          "pages": "106"
+        },
+        {
+          "source_id": "GHA2_CH10",
+          "pages": "280"
+        },
+        {
+          "source_id": "SFDAS_HCS2017",
+          "pages": "137–138"
+        }
+      ],
+      "date_note": "GHA II p.106: 'about −720'. SFDAS p.137: campaign of regnal year 21."
+    },
+    {
+      "id": "mamluk-makuria-wars",
+      "name_en": "Mamluk expeditions into Makuria",
+      "name_ar": "الحملات المملوكية على المقرة [يحتاج تحقق]",
+      "era_ids": [
+        "makuria",
+        "mamluk-sultanate"
+      ],
+      "start": "1276",
+      "end": "1326",
+      "belligerents": [
+        "Mamluk Sultanate",
+        "Makuria"
+      ],
+      "outcome_en": "Mamluk forces repeatedly installed rulers at Dongola and imposed tribute (SFDAS p.419).",
+      "cites": [
+        {
+          "source_id": "SFDAS_HCS2017",
+          "pages": "419"
+        }
+      ]
+    },
+    {
+      "id": "ottoman-nubia-campaign",
+      "name_en": "Ottoman occupation of northern Nubia",
+      "name_ar": "الاحتلال العثماني لشمال النوبة [يحتاج تحقق]",
+      "era_ids": [
+        "ottoman-egypt-muhammad-ali-dynasty",
+        "funj-sultanate-of-sennar"
+      ],
+      "start": "1560",
+      "end": "1560",
+      "belligerents": [
+        "Ottoman Empire (Özdemir Pasha)",
+        "Funj Sultanate"
+      ],
+      "outcome_en": "Ottoman province with its capital at Qasr Ibrim, garrisons at Aswan, Qasr Ibrim and Sai (SFDAS pp.423–424).",
+      "cites": [
+        {
+          "source_id": "SFDAS_HCS2017",
+          "pages": "420, 423–424"
+        }
+      ],
+      "date_note": "'vers 1560' (SFDAS p.420)."
     }
   ]
 }

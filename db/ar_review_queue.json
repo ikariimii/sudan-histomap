@@ -3232,6 +3232,84 @@
       "action": "Native reviewer: confirm standard Arabic form of the name.",
       "origin_commit": "Battles layer",
       "added": "2026-10-25"
+    },
+    {
+      "era_id": "kingdom-of-kush-napatan-period",
+      "file": "db/wars.json",
+      "field_ar": "name_ar",
+      "arabic_sentence": "غزو بيي لمصر [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "name_en",
+      "revised_english": "Piye's conquest of Egypt",
+      "reason": "New Arabic name written by Historian, pass 2; needs native review",
+      "action": "verify",
+      "origin_commit": "pass2",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "makuria",
+      "file": "db/wars.json",
+      "field_ar": "name_ar",
+      "arabic_sentence": "الحملات المملوكية على المقرة [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "name_en",
+      "revised_english": "Mamluk expeditions into Makuria",
+      "reason": "New Arabic name written by Historian, pass 2; needs native review",
+      "action": "verify",
+      "origin_commit": "pass2",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+      "file": "db/wars.json",
+      "field_ar": "name_ar",
+      "arabic_sentence": "الاحتلال العثماني لشمال النوبة [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "name_en",
+      "revised_english": "Ottoman occupation of northern Nubia",
+      "reason": "New Arabic name written by Historian, pass 2; needs native review",
+      "action": "verify",
+      "origin_commit": "pass2",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "kingdom-of-kush-napatan-period",
+      "file": "data/battles.json",
+      "field_ar": "name_ar",
+      "arabic_sentence": "استيلاء بيي على منف [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "name_en",
+      "revised_english": "Piye's capture of Memphis",
+      "reason": "New Arabic name written by Historian, pass 2; needs native review",
+      "action": "verify",
+      "origin_commit": "pass2",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "makuria",
+      "file": "data/battles.json",
+      "field_ar": "name_ar",
+      "arabic_sentence": "الحملة المملوكية على دنقلا [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "name_en",
+      "revised_english": "Mamluk expedition to Dongola",
+      "reason": "New Arabic name written by Historian, pass 2; needs native review",
+      "action": "verify",
+      "origin_commit": "pass2",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+      "file": "data/battles.json",
+      "field_ar": "name_ar",
+      "arabic_sentence": "الاستيلاء العثماني على قصر إبريم [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "name_en",
+      "revised_english": "Ottoman capture of Qasr Ibrim",
+      "reason": "New Arabic name written by Historian, pass 2; needs native review",
+      "action": "verify",
+      "origin_commit": "pass2",
+      "added": "2026-10-25"
     }
   ]
 }

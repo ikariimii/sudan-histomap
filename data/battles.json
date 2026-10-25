@@ -825,6 +825,175 @@
           "page": "149"
         }
       ]
+    },
+    {
+      "id": "memphis--720",
+      "war_id": "piye-conquest-of-egypt",
+      "name_en": "Piye's capture of Memphis",
+      "name_ar": "استيلاء بيي على منف [يحتاج تحقق]",
+      "date": "-720",
+      "precision": "region",
+      "region": "Memphis, Lower Egypt (no gazetteer coordinate registered)",
+      "sides": [
+        "Kush (Piye)",
+        "Defenders of Memphis (Tefnakht's coalition)"
+      ],
+      "commanders": {
+        "Kush": [
+          "Piye (Piankhy)"
+        ]
+      },
+      "outcome_en": "Piye took Memphis and received the submission of the Delta rulers (SFDAS p.138).",
+      "era_ids": [
+        "kingdom-of-kush-napatan-period"
+      ],
+      "cite": {
+        "source_id": "SFDAS_HCS2017",
+        "pages": "137–138"
+      },
+      "evidence_type": "inscription/archaeology",
+      "significance_en": "The Victory Stela of Piye, a 159-line granite text, narrates the campaign of year 21 (SFDAS p.137). After Hermopolis his army moved on Memphis, where the enemy chiefs had entrenched (SFDAS p.138).",
+      "decisive": false,
+      "id_note": "Requested id memphis--728 not used: no registered page gives 728; GHA II p.106 gives 'about −720'.",
+      "cites": [
+        {
+          "source_id": "SFDAS_HCS2017",
+          "pages": "137–138"
+        },
+        {
+          "source_id": "GHA2_CH2",
+          "pages": "106"
+        },
+        {
+          "source_id": "GHA2_CH10",
+          "pages": "280"
+        }
+      ],
+      "label": "Piye's capture of Memphis 720 BCE",
+      "decisive_note": "No cited page calls it decisive.",
+      "image": {},
+      "start": -720,
+      "end": -720,
+      "sources": [
+        {
+          "id": "SFDAS_HCS2017",
+          "page": "137–138"
+        },
+        {
+          "id": "GHA2_CH2",
+          "page": "106"
+        },
+        {
+          "id": "GHA2_CH10",
+          "page": "280"
+        }
+      ]
+    },
+    {
+      "id": "dongola-1276",
+      "war_id": "mamluk-makuria-wars",
+      "name_en": "Mamluk expedition to Dongola",
+      "name_ar": "الحملة المملوكية على دنقلا [يحتاج تحقق]",
+      "date": "1276",
+      "precision": "approximate",
+      "place_id": "old-dongola",
+      "sides": [
+        "Mamluk Sultanate (Baybars)",
+        "Makuria"
+      ],
+      "commanders": {
+        "Mamluk Sultanate": [
+          "Baybars (sultan)"
+        ]
+      },
+      "outcome_en": "Mamluk army reached Dongola and set Shekanda on the throne under heavy tribute (SFDAS p.419).",
+      "era_ids": [
+        "makuria",
+        "mamluk-sultanate"
+      ],
+      "cite": {
+        "source_id": "SFDAS_HCS2017",
+        "pages": "419"
+      },
+      "evidence_type": "scholarly synthesis",
+      "significance_en": "Baybars's army invaded Nubia and reached Dongola in 1276. It installed King Shekanda with a heavy tribute and ceded whole provinces to Mamluk control (SFDAS p.419).",
+      "decisive": false,
+      "cites": [
+        {
+          "source_id": "SFDAS_HCS2017",
+          "pages": "419"
+        }
+      ],
+      "lat": 18.22306,
+      "lon": 30.74389,
+      "label": "Mamluk expedition to Dongola 1276",
+      "decisive_note": "No cited page calls it decisive.",
+      "image": {},
+      "start": 1276,
+      "end": 1276,
+      "sources": [
+        {
+          "id": "SFDAS_HCS2017",
+          "page": "419"
+        }
+      ]
+    },
+    {
+      "id": "qasr-ibrim-1560",
+      "war_id": "ottoman-nubia-campaign",
+      "name_en": "Ottoman capture of Qasr Ibrim",
+      "name_ar": "الاستيلاء العثماني على قصر إبريم [يحتاج تحقق]",
+      "date": "1560",
+      "date_note": "'vers 1560' (SFDAS p.420)",
+      "precision": "approximate",
+      "place_id": "qasr-ibrim",
+      "sides": [
+        "Ottoman Empire",
+        "Nubian holders of Qasr Ibrim"
+      ],
+      "commanders": {
+        "Ottoman Empire": [
+          "Özdemir Pasha"
+        ]
+      },
+      "outcome_en": "Ottoman forts built at Aswan, Qasr Ibrim and Sai; Qasr Ibrim became the provincial capital (SFDAS pp.423–424).",
+      "era_ids": [
+        "ottoman-egypt-muhammad-ali-dynasty"
+      ],
+      "cite": {
+        "source_id": "SFDAS_HCS2017",
+        "pages": "423"
+      },
+      "evidence_type": "scholarly synthesis",
+      "significance_en": "Özdemir Pasha took Qasr Ibrim and left Bosnian battalions to build forts at Aswan, Qasr Ibrim and Sai. The province, with Qasr Ibrim as capital, lasted until Napoleon's invasion of Egypt (SFDAS pp.423–424).",
+      "decisive": false,
+      "cites": [
+        {
+          "source_id": "SFDAS_HCS2017",
+          "pages": "423"
+        },
+        {
+          "source_id": "SFDAS_HCS2017",
+          "pages": "420, 424"
+        }
+      ],
+      "lat": 22.65019,
+      "lon": 31.99153,
+      "label": "Ottoman capture of Qasr Ibrim 1560",
+      "decisive_note": "No cited page calls it decisive.",
+      "image": {},
+      "start": 1560,
+      "end": 1560,
+      "sources": [
+        {
+          "id": "SFDAS_HCS2017",
+          "page": "423"
+        },
+        {
+          "id": "SFDAS_HCS2017",
+          "page": "420, 424"
+        }
+      ]
     }
   ]
 }
