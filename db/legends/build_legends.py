@@ -51,7 +51,7 @@ def city_cls(p, s, e):
     ends = [r['end'] for r in p['roles'] if r.get('end') is not None]
     if p.get('inhabited_today') is False and not roles and ends and s > max(ends): return 'ruin', roles
     rl = roles[0]['role'] if roles else 'other'
-    return {'garrison': 'city_garrison', 'religious': 'city_religious', 'port': 'city_port', 'trade': 'city_trade'}.get(rl, 'city_other'), roles
+    return {'garrison': 'city_garrison', 'religious': 'city_religious', 'port': 'city_port', 'trade': 'city_trade', 'town': 'city_town', 'cult_centre': 'city_cult_centre', 'political_centre': 'city_political_centre'}.get(rl, 'city_other'), roles
 
 def era(i, p):
     s, e = p['start'], p['end']; sl = slug(p['name'])

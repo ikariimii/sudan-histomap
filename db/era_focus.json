@@ -141,8 +141,10 @@
     31.567,
     22.267
    ],
-   "flag_anchor_basis": "extent-point",
-   "cities_with_role": []
+   "flag_anchor_basis": "main-city:ballana",
+   "cities_with_role": [
+    "ballana"
+   ]
   },
   "nobadia": {
    "name": "Nobadia",
@@ -203,8 +205,12 @@
     33.6,
     13.55
    ],
-   "flag_anchor_basis": "extent-point",
-   "cities_with_role": []
+   "flag_anchor_basis": "main-city:sennar",
+   "cities_with_role": [
+    "arbaji",
+    "sennar",
+    "shendi"
+   ]
   },
   "turkiyya-ottoman-egyptian-rule": {
    "name": "Turkiyya (Ottoman-Egyptian rule)",
@@ -219,11 +225,14 @@
    ],
    "flag_anchor_basis": "polygon-pole",
    "cities_with_role": [
+    "berber",
     "bor",
+    "el-obeid",
     "gondokoro",
     "kassala",
     "khartoum",
     "lado",
+    "shendi",
     "wad-madani"
    ]
   },
@@ -273,7 +282,9 @@
     15.747
    ],
    "flag_anchor_basis": "polygon-pole",
-   "cities_with_role": []
+   "cities_with_role": [
+    "khartoum"
+   ]
   },
   "abboud-military-regime": {
    "name": "Abboud military regime",
@@ -301,7 +312,11 @@
     15.77
    ],
    "flag_anchor_basis": "polygon-pole",
-   "cities_with_role": []
+   "cities_with_role": [
+    "juba",
+    "khartoum",
+    "wau"
+   ]
   },
   "nimeiry-era-democratic-republic-of-sudan": {
    "name": "Nimeiry era (Democratic Republic of Sudan)",
@@ -315,7 +330,9 @@
     15.77
    ],
    "flag_anchor_basis": "polygon-pole",
-   "cities_with_role": []
+   "cities_with_role": [
+    "khartoum"
+   ]
   },
   "transitional-third-parliamentary-period": {
    "name": "Transitional & third parliamentary period",
@@ -329,7 +346,9 @@
     15.77
    ],
    "flag_anchor_basis": "polygon-pole",
-   "cities_with_role": []
+   "cities_with_role": [
+    "khartoum"
+   ]
   },
   "al-bashir-ncp-ingaz-regime": {
    "name": "Al-Bashir / NCP (Ingaz) regime",
@@ -371,7 +390,9 @@
     16.614
    ],
    "flag_anchor_basis": "polygon-pole",
-   "cities_with_role": []
+   "cities_with_role": [
+    "khartoum"
+   ]
   },
   "daju-kingdom": {
    "name": "Daju kingdom",
@@ -460,7 +481,8 @@
    ],
    "flag_anchor_basis": "polygon-pole",
    "cities_with_role": [
-    "fashoda"
+    "fashoda",
+    "malakal"
    ]
   },
   "southern-sudan-under-condominium-sudan": {
@@ -475,7 +497,10 @@
     7.117
    ],
    "flag_anchor_basis": "polygon-pole",
-   "cities_with_role": []
+   "cities_with_role": [
+    "juba",
+    "malakal"
+   ]
   },
   "republic-of-south-sudan": {
    "name": "Republic of South Sudan",
@@ -499,11 +524,14 @@
    "zoom": 6,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    32.89,
-    24.09
+    31.283,
+    21.917
    ],
-   "flag_anchor_basis": "extent-point",
-   "cities_with_role": []
+   "flag_anchor_basis": "main-city:buhen",
+   "cities_with_role": [
+    "aswan",
+    "buhen"
+   ]
   },
   "middle-kingdom-egypt": {
    "name": "Middle Kingdom Egypt",
@@ -530,11 +558,13 @@
    "zoom": 4,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    31.836,
-    30.799
+    31.283,
+    21.917
    ],
-   "flag_anchor_basis": "extent-point",
-   "cities_with_role": []
+   "flag_anchor_basis": "main-city:buhen",
+   "cities_with_role": [
+    "buhen"
+   ]
   },
   "late-period-persian-egypt": {
    "name": "Late Period / Persian Egypt",
@@ -561,8 +591,13 @@
     29.892,
     31.198
    ],
-   "flag_anchor_basis": "extent-point",
-   "cities_with_role": []
+   "flag_anchor_basis": "main-city:alexandria",
+   "cities_with_role": [
+    "alexandria",
+    "aswan",
+    "philae",
+    "thebes"
+   ]
   },
   "roman-byzantine-egypt": {
    "name": "Roman & Byzantine Egypt",
@@ -588,11 +623,16 @@
    "zoom": 5,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    31.238,
-    30.005
+    31.236,
+    30.044
    ],
-   "flag_anchor_basis": "extent-point",
-   "cities_with_role": []
+   "flag_anchor_basis": "main-city:cairo",
+   "cities_with_role": [
+    "aidhab",
+    "aswan",
+    "cairo",
+    "fustat"
+   ]
   },
   "mamluk-sultanate": {
    "name": "Mamluk Sultanate",
@@ -622,7 +662,11 @@
     28.009
    ],
    "flag_anchor_basis": "polygon-pole",
-   "cities_with_role": []
+   "cities_with_role": [
+    "alexandria",
+    "aswan",
+    "cairo"
+   ]
   },
   "british-occupied-kingdom-of-egypt": {
    "name": "British-occupied / Kingdom of Egypt",
@@ -650,7 +694,9 @@
     26.56
    ],
    "flag_anchor_basis": "polygon-pole",
-   "cities_with_role": []
+   "cities_with_role": [
+    "cairo"
+   ]
   },
   "land-of-punt-d-mt": {
    "name": "Land of Punt / D'mt",
@@ -660,11 +706,14 @@
    "zoom": 6,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    39.017,
-    14.283
+    39.661,
+    15.264
    ],
-   "flag_anchor_basis": "extent-point",
-   "cities_with_role": []
+   "flag_anchor_basis": "main-city:adulis",
+   "cities_with_role": [
+    "adulis",
+    "yeha"
+   ]
   },
   "kingdom-of-aksum": {
    "name": "Kingdom of Aksum",
@@ -694,8 +743,10 @@
     39.046,
     12.036
    ],
-   "flag_anchor_basis": "extent-point",
-   "cities_with_role": []
+   "flag_anchor_basis": "main-city:lalibela",
+   "cities_with_role": [
+    "lalibela"
+   ]
   },
   "ethiopian-empire-solomonic": {
    "name": "Ethiopian Empire (Solomonic)",
@@ -725,7 +776,9 @@
     8.538
    ],
    "flag_anchor_basis": "polygon-pole",
-   "cities_with_role": []
+   "cities_with_role": [
+    "addis-ababa"
+   ]
   },
   "eritrea-italian-colony-independent": {
    "name": "Eritrea (Italian colony → independent)",
@@ -768,8 +821,10 @@
     12.228,
     13.047
    ],
-   "flag_anchor_basis": "extent-point",
-   "cities_with_role": []
+   "flag_anchor_basis": "main-city:ngazargamu",
+   "cities_with_role": [
+    "ngazargamu"
+   ]
   },
   "wadai-sultanate": {
    "name": "Wadai Sultanate",
@@ -797,7 +852,9 @@
     17.426
    ],
    "flag_anchor_basis": "polygon-pole",
-   "cities_with_role": []
+   "cities_with_role": [
+    "ndjamena"
+   ]
   },
   "garamantes-fezzan": {
    "name": "Garamantes (Fezzan)",
@@ -825,7 +882,11 @@
     26.115
    ],
    "flag_anchor_basis": "polygon-pole",
-   "cities_with_role": []
+   "cities_with_role": [
+    "benghazi",
+    "kufra",
+    "tripoli"
+   ]
   },
   "zande-kingdoms": {
    "name": "Zande kingdoms",
@@ -877,11 +938,14 @@
    "zoom": 6,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    39.826,
-    21.422
+    39.61,
+    24.47
    ],
-   "flag_anchor_basis": "extent-point",
-   "cities_with_role": []
+   "flag_anchor_basis": "main-city:medina",
+   "cities_with_role": [
+    "mecca",
+    "medina"
+   ]
   },
   "suakin-red-sea-port-beja-ottoman": {
    "name": "Suakin – Red Sea port (Beja, Ottoman)",
@@ -908,11 +972,14 @@
    "zoom": 6,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    39.826,
-    21.422
+    39.61,
+    24.47
    ],
-   "flag_anchor_basis": "extent-point",
-   "cities_with_role": []
+   "flag_anchor_basis": "main-city:medina",
+   "cities_with_role": [
+    "mecca",
+    "medina"
+   ]
   },
   "beja-red-sea-hills-peoples": {
    "name": "Beja (Red Sea Hills peoples)",
@@ -952,11 +1019,13 @@
    "zoom": 6,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    33.972,
-    17.678
+    33.434,
+    16.691
    ],
-   "flag_anchor_basis": "extent-point",
-   "cities_with_role": []
+   "flag_anchor_basis": "main-city:shendi",
+   "cities_with_role": [
+    "shendi"
+   ]
   },
   "musabba-at-sultanate-kordofan": {
    "name": "Musabba'at sultanate (Kordofan)",
@@ -991,8 +1060,8 @@
    "stream": "South Sudan – Upper Nile",
    "start": 1500,
    "end": 2026,
-   "zoom": null,
-   "zoom_basis": "null: focus_view is null in data/eras",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     33.218,
     8.434
@@ -1005,8 +1074,8 @@
    "stream": "South Sudan – Upper Nile",
    "start": 1500,
    "end": 2026,
-   "zoom": null,
-   "zoom_basis": "null: focus_view is null in data/eras",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     33.218,
     8.434

@@ -269,6 +269,45 @@
    "fill": "#555"
   },
   {
+   "id": "city_political_centre",
+   "geometry": "point",
+   "label_en": "Political centre",
+   "label_ar": "مركز سياسي",
+   "label_ar_status": "working translation, needs native review",
+   "shape": "pentagon (filled)",
+   "size": 9,
+   "fill": "#e8eef2",
+   "stroke": "#0b141b",
+   "renderer_path": "M0,-4.6L4.4,-1.4L2.7,3.7L-2.7,3.7L-4.4,-1.4Z",
+   "decision": "New class for check_cities role added in acea4d6. Not yet in map.js CSH (falls back to CSH.other dot until the Web Lead adds this renderer_path). Chosen to be distinct from star/square/diamond/up-triangle/cross/dot, from ruin (hollow dashed circle), extent_label_point (hollow circle) and reported_point (hollow red up-triangle)."
+  },
+  {
+   "id": "city_cult_centre",
+   "geometry": "point",
+   "label_en": "Cult centre",
+   "label_ar": "مركز عبادة",
+   "label_ar_status": "working translation, needs native review",
+   "shape": "triangle (point down, filled)",
+   "size": 9,
+   "fill": "#e8eef2",
+   "stroke": "#0b141b",
+   "renderer_path": "M0,4.4L4.4,-3.6L-4.4,-3.6Z",
+   "decision": "New class for check_cities role added in acea4d6. Not yet in map.js CSH (falls back to CSH.other dot until the Web Lead adds this renderer_path). Chosen to be distinct from star/square/diamond/up-triangle/cross/dot, from ruin (hollow dashed circle), extent_label_point (hollow circle) and reported_point (hollow red up-triangle). Point-down separates it from port (point up)."
+  },
+  {
+   "id": "city_town",
+   "geometry": "point",
+   "label_en": "Town",
+   "label_ar": "بلدة",
+   "label_ar_status": "working translation, needs native review",
+   "shape": "hexagon (filled)",
+   "size": 8,
+   "fill": "#e8eef2",
+   "stroke": "#0b141b",
+   "renderer_path": "M0,-4L3.5,-2L3.5,2L0,4L-3.5,2L-3.5,-2Z",
+   "decision": "New class for check_cities role added in acea4d6. Not yet in map.js CSH (falls back to CSH.other dot until the Web Lead adds this renderer_path). Chosen to be distinct from star/square/diamond/up-triangle/cross/dot, from ruin (hollow dashed circle), extent_label_point (hollow circle) and reported_point (hollow red up-triangle)."
+  },
+  {
    "id": "city_other",
    "geometry": "point",
    "label_en": "Town (attested, no role in this era)",

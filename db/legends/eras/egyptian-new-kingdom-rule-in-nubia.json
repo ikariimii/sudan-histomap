@@ -137,6 +137,22 @@
        "end": null,
        "source_id": "GHA2_CH9",
        "page": "265"
+      },
+      {
+       "role": "garrison",
+       "era_id": "early-dynastic-old-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "250"
+      },
+      {
+       "role": "garrison",
+       "era_id": "new-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH4",
+       "page": "143"
       }
      ],
      "badges": [
@@ -157,6 +173,14 @@
       {
        "id": "GHA2_CH9",
        "page": "268"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "250"
+      },
+      {
+       "id": "GHA2_CH4",
+       "page": "143"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -186,8 +210,41 @@
      "id": "aswan",
      "name_en": "Aswan",
      "name_ar": "أسوان",
-     "symbol_class": "city_other",
-     "roles_in_era": [],
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "early-dynastic-old-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "250"
+      },
+      {
+       "role": "garrison",
+       "era_id": "ptolemaic-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH7",
+       "page": "208"
+      },
+      {
+       "role": "garrison",
+       "era_id": "islamic-egypt-rashidunfatimidayyubid",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH7",
+       "page": "168"
+      },
+      {
+       "role": "garrison",
+       "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "175"
+      }
+     ],
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED"
@@ -200,6 +257,22 @@
       {
        "id": "GHA3_CH8",
        "page": "195"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "250"
+      },
+      {
+       "id": "GHA2_CH7",
+       "page": "208"
+      },
+      {
+       "id": "GHA3_CH7",
+       "page": "168"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "175"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -262,8 +335,8 @@
   "RUIN-UNDATED"
  ],
  "counts": {
-  "city_garrison": 1,
-  "city_other": 4,
+  "city_garrison": 2,
+  "city_other": 3,
   "city_religious": 1,
   "extent_label_point": 3,
   "extent_features": 3,

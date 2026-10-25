@@ -92,8 +92,41 @@
      "id": "aswan",
      "name_en": "Aswan",
      "name_ar": "أسوان",
-     "symbol_class": "city_other",
-     "roles_in_era": [],
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "early-dynastic-old-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "250"
+      },
+      {
+       "role": "garrison",
+       "era_id": "ptolemaic-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH7",
+       "page": "208"
+      },
+      {
+       "role": "garrison",
+       "era_id": "islamic-egypt-rashidunfatimidayyubid",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH7",
+       "page": "168"
+      },
+      {
+       "role": "garrison",
+       "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "175"
+      }
+     ],
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED"
@@ -106,6 +139,22 @@
       {
        "id": "GHA3_CH8",
        "page": "195"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "250"
+      },
+      {
+       "id": "GHA2_CH7",
+       "page": "208"
+      },
+      {
+       "id": "GHA3_CH7",
+       "page": "168"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "175"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -181,8 +230,17 @@
      "id": "sennar",
      "name_en": "Sennar",
      "name_ar": "سنار",
-     "symbol_class": "city_other",
-     "roles_in_era": [],
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "funj-sultanate-of-sennar",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "177"
+      }
+     ],
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED"
@@ -195,6 +253,10 @@
       {
        "id": "GHA5_CH7",
        "page": "183"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "177"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -237,8 +299,33 @@
      "id": "shendi",
      "name_en": "Shendi",
      "name_ar": "شندي",
-     "symbol_class": "city_other",
-     "roles_in_era": [],
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "trade",
+       "era_id": "funj-sultanate-of-sennar",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "181"
+      },
+      {
+       "role": "capital",
+       "era_id": "ja-aliyyin-kingdom-sa-dab-funj-vassal",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "183"
+      },
+      {
+       "role": "town",
+       "era_id": "turkiyya-ottoman-egyptian-rule",
+       "start": 1822,
+       "end": null,
+       "source_id": "GHA6_CH14",
+       "page": "362"
+      }
+     ],
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED"
@@ -253,6 +340,14 @@
        "page": "233"
       },
       {
+       "id": "GHA5_CH7",
+       "page": "181"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "183"
+      },
+      {
        "id": "WIKIDATA_CITIES",
        "page": "Q997838"
       }
@@ -262,8 +357,17 @@
      "id": "berber",
      "name_en": "Berber",
      "name_ar": "بربر",
-     "symbol_class": "city_other",
-     "roles_in_era": [],
+     "symbol_class": "city_town",
+     "roles_in_era": [
+      {
+       "role": "town",
+       "era_id": "turkiyya-ottoman-egyptian-rule",
+       "start": 1821,
+       "end": null,
+       "source_id": "GHA6_CH14",
+       "page": "362"
+      }
+     ],
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED"
@@ -346,8 +450,17 @@
      "id": "el-obeid",
      "name_en": "El Obeid",
      "name_ar": "الأبيض",
-     "symbol_class": "city_other",
-     "roles_in_era": [],
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "turkiyya-ottoman-egyptian-rule",
+       "start": null,
+       "end": null,
+       "source_id": "GHA6_CH14",
+       "page": "363"
+      }
+     ],
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED"
@@ -499,6 +612,38 @@
        "end": 1956,
        "source_id": "GHAVII",
        "page": "81"
+      },
+      {
+       "role": "capital",
+       "era_id": "independent-sudan-first-parliamentary-period",
+       "start": null,
+       "end": null,
+       "source_id": "LOC1991_INDSUDAN",
+       "page": "countrystudies.us/sudan/20.htm"
+      },
+      {
+       "role": "capital",
+       "era_id": "second-parliamentary-period",
+       "start": null,
+       "end": null,
+       "source_id": "LOC1991_CIVIL6469",
+       "page": "countrystudies.us/sudan/22.htm"
+      },
+      {
+       "role": "capital",
+       "era_id": "nimeiry-era-democratic-republic-of-sudan",
+       "start": null,
+       "end": null,
+       "source_id": "LOC1991_NIMEIRI",
+       "page": "countrystudies.us/sudan/23.htm"
+      },
+      {
+       "role": "capital",
+       "era_id": "transitional-third-parliamentary-period",
+       "start": null,
+       "end": null,
+       "source_id": "LOC1991_SADIQ",
+       "page": "countrystudies.us/sudan/28.htm"
       }
      ],
      "badges": [
@@ -513,6 +658,26 @@
       {
        "id": "GHAVII",
        "page": "81"
+      },
+      {
+       "id": "LOC1991_INDSUDAN",
+       "page": "countrystudies.us/sudan/20.htm"
+      },
+      {
+       "id": "LOC1991_CIVIL6469",
+       "page": "countrystudies.us/sudan/22.htm"
+      },
+      {
+       "id": "LOC1991_NIMEIRI",
+       "page": "countrystudies.us/sudan/23.htm"
+      },
+      {
+       "id": "LOC1991_SADIQ",
+       "page": "countrystudies.us/sudan/28.htm"
+      },
+      {
+       "id": "UNNEWS2023",
+       "page": "web"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -602,6 +767,48 @@
      ]
     },
     {
+     "id": "malakal",
+     "name_en": "Malakal",
+     "name_ar": "ملكال",
+     "symbol_class": "city_town",
+     "roles_in_era": [
+      {
+       "role": "town",
+       "era_id": "shilluk-kingdom",
+       "start": 1490,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "193"
+      },
+      {
+       "role": "town",
+       "era_id": "southern-sudan-under-condominium-sudan",
+       "start": null,
+       "end": null,
+       "source_id": "LOC1991_NONMUSLIM",
+       "page": "countrystudies.us/sudan/39.htm"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "LOC1991_NONMUSLIM",
+       "page": "countrystudies.us/sudan/39.htm"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "193"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q220049"
+      }
+     ]
+    },
+    {
      "id": "asmara",
      "name_en": "Asmara",
      "name_ar": "أسمرة",
@@ -635,8 +842,17 @@
      "id": "kufra",
      "name_en": "Kufra",
      "name_ar": "الكفرة",
-     "symbol_class": "city_other",
-     "roles_in_era": [],
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "libya-ottoman-italian-independent",
+       "start": null,
+       "end": null,
+       "source_id": "LOC_LBY1987_SANUSI",
+       "page": "countrystudies.us/libya/18.htm"
+      }
+     ],
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED"
@@ -645,6 +861,10 @@
       {
        "id": "GHAIII",
        "page": "283"
+      },
+      {
+       "id": "LOC_LBY1987_SANUSI",
+       "page": "countrystudies.us/libya/18.htm"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -823,8 +1043,17 @@
      "id": "arbaji",
      "name_en": "Arbaji",
      "name_ar": "أربجي",
-     "symbol_class": "city_other",
-     "roles_in_era": [],
+     "symbol_class": "city_town",
+     "roles_in_era": [
+      {
+       "role": "town",
+       "era_id": "funj-sultanate-of-sennar",
+       "start": 1504,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "173"
+      }
+     ],
      "badges": [
       "APPROXIMATE",
       "APPROXIMATE-COORDS",
@@ -870,6 +1099,387 @@
        "page": "235"
       }
      ]
+    },
+    {
+     "id": "alexandria",
+     "name_en": "Alexandria",
+     "name_ar": "الإسكندرية",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "ptolemaic-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH6",
+       "page": "184"
+      },
+      {
+       "role": "port",
+       "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+       "start": null,
+       "end": null,
+       "source_id": "GHA6_CH13",
+       "page": "325"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH6",
+       "page": "184"
+      },
+      {
+       "id": "GHA6_CH13",
+       "page": "325"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q87"
+      }
+     ]
+    },
+    {
+     "id": "cairo",
+     "name_en": "Cairo",
+     "name_ar": "القاهرة",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "islamic-egypt-rashidunfatimidayyubid",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH7",
+       "page": "163"
+      },
+      {
+       "role": "capital",
+       "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+       "start": null,
+       "end": null,
+       "source_id": "GHA6_CH13",
+       "page": "325"
+      },
+      {
+       "role": "capital",
+       "era_id": "republic-of-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "LOC1991_EGYPT",
+       "page": "countrystudies.us/sudan/76.htm"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH7",
+       "page": "163"
+      },
+      {
+       "id": "GHA6_CH13",
+       "page": "325"
+      },
+      {
+       "id": "LOC1991_EGYPT",
+       "page": "countrystudies.us/sudan/76.htm"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q85"
+      }
+     ]
+    },
+    {
+     "id": "fustat",
+     "name_en": "Fustat",
+     "name_ar": "الفسطاط",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "islamic-egypt-rashidunfatimidayyubid",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH7",
+       "page": "171"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH7",
+       "page": "171"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q839456"
+      }
+     ]
+    },
+    {
+     "id": "ngazargamu",
+     "name_en": "Ngazargamu",
+     "name_ar": "نغازارغامو",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "bornu-empire",
+       "start": null,
+       "end": null,
+       "source_id": "GHA4_CH10",
+       "page": "265"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA4_CH10",
+       "page": "265"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1496614"
+      }
+     ]
+    },
+    {
+     "id": "yeha",
+     "name_en": "Yeha",
+     "name_ar": "يحا",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "land-of-punt-d-mt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH13",
+       "page": "343"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH13",
+       "page": "343"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1081229"
+      }
+     ]
+    },
+    {
+     "id": "lalibela",
+     "name_en": "Lalibela",
+     "name_ar": "لاليبيلا",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "zagwe-dynasty",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH19",
+       "page": "573"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH19",
+       "page": "573"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q207590"
+      }
+     ]
+    },
+    {
+     "id": "medina",
+     "name_en": "Medina",
+     "name_ar": "المدينة المنورة",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "rise-of-islam-caliphates",
+       "start": 622,
+       "end": null,
+       "source_id": "GHA3_CH2",
+       "page": "35"
+      },
+      {
+       "role": "religious",
+       "era_id": "ottoman-hejaz-saudi-state",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH6",
+       "page": "138"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH2",
+       "page": "35"
+      },
+      {
+       "id": "GHA5_CH6",
+       "page": "138"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q35484"
+      }
+     ]
+    },
+    {
+     "id": "mecca",
+     "name_en": "Mecca",
+     "name_ar": "مكة المكرمة",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "rise-of-islam-caliphates",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH2",
+       "page": "31"
+      },
+      {
+       "role": "religious",
+       "era_id": "ottoman-hejaz-saudi-state",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH6",
+       "page": "138"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH2",
+       "page": "31"
+      },
+      {
+       "id": "GHA5_CH6",
+       "page": "138"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q5806"
+      }
+     ]
+    },
+    {
+     "id": "thebes",
+     "name_en": "Thebes",
+     "name_ar": "طيبة",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH7",
+       "page": "208"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q101583"
+      }
+     ]
+    },
+    {
+     "id": "ballana",
+     "name_en": "Ballana",
+     "name_ar": "بلانة (النوبة القديمة)",
+     "symbol_class": "city_political_centre",
+     "roles_in_era": [
+      {
+       "role": "political_centre",
+       "era_id": "noba-x-group-ballana-culture",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH10",
+       "page": "294"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "294"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q18832705"
+      }
+     ]
+    },
+    {
+     "id": "tripoli",
+     "name_en": "Tripoli",
+     "name_ar": "طرابلس",
+     "symbol_class": "city_town",
+     "roles_in_era": [
+      {
+       "role": "town",
+       "era_id": "libya-ottoman-italian-independent",
+       "start": null,
+       "end": null,
+       "source_id": "LOC_LBY1987_SANUSI",
+       "page": "countrystudies.us/libya/18.htm"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "LOC_LBY1987_SANUSI",
+       "page": "countrystudies.us/libya/18.htm"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q3579"
+      }
+     ]
     }
    ]
   },
@@ -908,8 +1518,10 @@
   "city_capital",
   "city_garrison",
   "city_other",
+  "city_political_centre",
   "city_port",
   "city_religious",
+  "city_town",
   "control_extent_approx",
   "list_only_text"
  ],
@@ -923,16 +1535,18 @@
   "RUIN-UNDATED"
  ],
  "counts": {
-  "city_capital": 6,
-  "city_garrison": 4,
-  "city_other": 20,
+  "city_capital": 14,
+  "city_garrison": 5,
+  "city_other": 14,
+  "city_political_centre": 1,
   "city_port": 1,
-  "city_religious": 1,
+  "city_religious": 5,
+  "city_town": 4,
   "control_extent_approx": 1,
   "list_only_text": 1,
   "extent_features": 1,
   "group_features": 1,
-  "cities": 32
+  "cities": 44
  },
  "context": {
   "key_events_en": [

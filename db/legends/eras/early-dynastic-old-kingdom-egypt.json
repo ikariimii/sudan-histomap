@@ -48,8 +48,41 @@
      "id": "aswan",
      "name_en": "Aswan",
      "name_ar": "أسوان",
-     "symbol_class": "city_other",
-     "roles_in_era": [],
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "early-dynastic-old-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "250"
+      },
+      {
+       "role": "garrison",
+       "era_id": "ptolemaic-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH7",
+       "page": "208"
+      },
+      {
+       "role": "garrison",
+       "era_id": "islamic-egypt-rashidunfatimidayyubid",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH7",
+       "page": "168"
+      },
+      {
+       "role": "garrison",
+       "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "175"
+      }
+     ],
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED"
@@ -62,6 +95,22 @@
       {
        "id": "GHA3_CH8",
        "page": "195"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "250"
+      },
+      {
+       "id": "GHA2_CH7",
+       "page": "208"
+      },
+      {
+       "id": "GHA3_CH7",
+       "page": "168"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "175"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -88,7 +137,7 @@
   }
  },
  "symbol_classes_present": [
-  "city_other",
+  "city_garrison",
   "extent_label_point"
  ],
  "badges_present": [
@@ -96,7 +145,7 @@
   "FIRST-ATTESTED"
  ],
  "counts": {
-  "city_other": 1,
+  "city_garrison": 1,
   "extent_label_point": 2,
   "extent_features": 2,
   "group_features": 0,

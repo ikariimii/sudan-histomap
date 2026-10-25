@@ -302,8 +302,41 @@
      "id": "aswan",
      "name_en": "Aswan",
      "name_ar": "أسوان",
-     "symbol_class": "city_other",
-     "roles_in_era": [],
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "early-dynastic-old-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "250"
+      },
+      {
+       "role": "garrison",
+       "era_id": "ptolemaic-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH7",
+       "page": "208"
+      },
+      {
+       "role": "garrison",
+       "era_id": "islamic-egypt-rashidunfatimidayyubid",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH7",
+       "page": "168"
+      },
+      {
+       "role": "garrison",
+       "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "175"
+      }
+     ],
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED"
@@ -318,6 +351,22 @@
        "page": "195"
       },
       {
+       "id": "GHA2_CH9",
+       "page": "250"
+      },
+      {
+       "id": "GHA2_CH7",
+       "page": "208"
+      },
+      {
+       "id": "GHA3_CH7",
+       "page": "168"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "175"
+      },
+      {
        "id": "WIKIDATA_CITIES",
        "page": "Q29888"
       }
@@ -327,8 +376,17 @@
      "id": "adulis",
      "name_en": "Adulis",
      "name_ar": "عدوليس",
-     "symbol_class": "city_other",
-     "roles_in_era": [],
+     "symbol_class": "city_port",
+     "roles_in_era": [
+      {
+       "role": "port",
+       "era_id": "land-of-punt-d-mt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH13",
+       "page": "343"
+      }
+     ],
      "badges": [
       "AR-REVIEW",
       "CONTESTED",
@@ -343,6 +401,10 @@
       {
        "id": "GHA3_CH19",
        "page": "562"
+      },
+      {
+       "id": "GHA2_CH13",
+       "page": "343"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -371,6 +433,108 @@
        "page": "project page"
       }
      ]
+    },
+    {
+     "id": "alexandria",
+     "name_en": "Alexandria",
+     "name_ar": "الإسكندرية",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "ptolemaic-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH6",
+       "page": "184"
+      },
+      {
+       "role": "port",
+       "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+       "start": null,
+       "end": null,
+       "source_id": "GHA6_CH13",
+       "page": "325"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH6",
+       "page": "184"
+      },
+      {
+       "id": "GHA6_CH13",
+       "page": "325"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q87"
+      }
+     ]
+    },
+    {
+     "id": "yeha",
+     "name_en": "Yeha",
+     "name_ar": "يحا",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "land-of-punt-d-mt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH13",
+       "page": "343"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH13",
+       "page": "343"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1081229"
+      }
+     ]
+    },
+    {
+     "id": "thebes",
+     "name_en": "Thebes",
+     "name_ar": "طيبة",
+     "symbol_class": "city_town",
+     "roles_in_era": [
+      {
+       "role": "town",
+       "era_id": "ptolemaic-egypt",
+       "start": null,
+       "end": -88,
+       "source_id": "GHA2_CH7",
+       "page": "208"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH7",
+       "page": "208"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q101583"
+      }
+     ]
     }
    ]
   },
@@ -392,8 +556,11 @@
  },
  "symbol_classes_present": [
   "city_capital",
+  "city_garrison",
   "city_other",
+  "city_port",
   "city_religious",
+  "city_town",
   "extent_label_point"
  ],
  "badges_present": [
@@ -406,13 +573,16 @@
   "RUIN-UNDATED"
  ],
  "counts": {
-  "city_capital": 2,
-  "city_other": 6,
-  "city_religious": 3,
+  "city_capital": 3,
+  "city_garrison": 1,
+  "city_other": 4,
+  "city_port": 1,
+  "city_religious": 4,
+  "city_town": 1,
   "extent_label_point": 2,
   "extent_features": 2,
   "group_features": 0,
-  "cities": 11
+  "cities": 14
  },
  "context": {
   "key_events_en": [
@@ -474,15 +644,18 @@
    ],
    "cities_added": [
     "adulis",
+    "alexandria",
     "meroe",
     "musawwarat",
     "naqa",
+    "thebes",
     "wad-ban-naqa"
    ],
    "cities_removed": [
     "nuri"
    ],
    "capitals_added": [
+    "alexandria",
     "meroe"
    ],
    "capitals_removed": [],

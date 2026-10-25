@@ -15,6 +15,7 @@ Files (data only, no view code touched): `legend_spec.json` (symbol classes, unc
 - Port and religious-centre shapes in `legend_spec.json` now match `map.js` CSH (triangle, plus-cross); see each class's `decision`. No change needed in your code.
 - `ruin`: hollow grey circle, dashed outline (svg in the spec). Draw from `visible_from` to `visible_to`; role shape while a cited role is active, ruin symbol after. `visible_to` null + RUIN-UNDATED = open end: keep drawing in later eras with a '?' tick. `visible_to_basis` is now last_attested / last_cited_role / abandoned; show it in the popup with its badge.
 - Open-ended ruins right now: Soleb, Abu Simbel, Ain Farah.
+- New role classes (check_cities acea4d6): `city_town` filled light hexagon `M0,-4L3.5,-2L3.5,2L0,4L-3.5,2L-3.5,-2Z`; `city_cult_centre` filled light triangle point-down `M0,4.4L4.4,-3.6L-4.4,-3.6Z`; `city_political_centre` filled light pentagon `M0,-4.6L4.4,-1.4L2.7,3.7L-2.7,3.7L-4.4,-1.4Z` (fill #e8eef2, stroke #0b141b). Please add them to map.js CSH as `town`, `cult_centre`, `political_centre`; until then they fall back to the `other` dot. Cities layer is now built by `db/city_layers/build_cities.py`.
 
 ## Homelands layer
 - Spec in `legend_spec.homelands_layer`: `db/group_layers/homelands.geojson`, off by default, era-independent (undated), soft area (no outline) or point, badge chips in popup. Toggle label "Homelands (undated)"; Arabic flagged for native review.

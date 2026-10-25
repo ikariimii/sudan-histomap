@@ -220,8 +220,41 @@
      "id": "aswan",
      "name_en": "Aswan",
      "name_ar": "أسوان",
-     "symbol_class": "city_other",
-     "roles_in_era": [],
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "early-dynastic-old-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "250"
+      },
+      {
+       "role": "garrison",
+       "era_id": "ptolemaic-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH7",
+       "page": "208"
+      },
+      {
+       "role": "garrison",
+       "era_id": "islamic-egypt-rashidunfatimidayyubid",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH7",
+       "page": "168"
+      },
+      {
+       "role": "garrison",
+       "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "175"
+      }
+     ],
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED"
@@ -234,6 +267,22 @@
       {
        "id": "GHA3_CH8",
        "page": "195"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "250"
+      },
+      {
+       "id": "GHA2_CH7",
+       "page": "208"
+      },
+      {
+       "id": "GHA3_CH7",
+       "page": "168"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "175"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -262,6 +311,36 @@
        "page": "project page"
       }
      ]
+    },
+    {
+     "id": "yeha",
+     "name_en": "Yeha",
+     "name_ar": "يحا",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "land-of-punt-d-mt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH13",
+       "page": "343"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH13",
+       "page": "343"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1081229"
+      }
+     ]
     }
    ]
   },
@@ -283,6 +362,7 @@
  },
  "symbol_classes_present": [
   "city_capital",
+  "city_garrison",
   "city_other",
   "city_religious",
   "extent_label_point"
@@ -297,12 +377,13 @@
  ],
  "counts": {
   "city_capital": 1,
-  "city_other": 4,
-  "city_religious": 3,
+  "city_garrison": 1,
+  "city_other": 3,
+  "city_religious": 4,
   "extent_label_point": 1,
   "extent_features": 1,
   "group_features": 0,
-  "cities": 8
+  "cities": 9
  },
  "context": {
   "key_events_en": [
