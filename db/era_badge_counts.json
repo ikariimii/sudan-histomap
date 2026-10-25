@@ -15,12 +15,12 @@
    "DERIVED"
   ],
   "era_count": 68,
-  "files_scanned": 304
+  "files_scanned": 305
  },
  "totals": {
   "SINGLE-SOURCE": 251,
   "CONTESTED": 161,
-  "VERIFY": 19,
+  "VERIFY": 25,
   "REPORTED": 14,
   "MODEL": 109,
   "EDITORIAL": 67,
@@ -28,11 +28,11 @@
   "PARTIAL": 3,
   "DERIVED": 328
  },
- "grand_total": 1407,
+ "grand_total": 1413,
  "inline_totals": {
   "SINGLE-SOURCE": 22,
   "CONTESTED": 9,
-  "VERIFY": 11,
+  "VERIFY": 2,
   "REPORTED": 2,
   "MODEL": 0,
   "EDITORIAL": 0,
@@ -40,7 +40,7 @@
   "PARTIAL": 0,
   "DERIVED": 0
  },
- "inline_grand_total": 49,
+ "inline_grand_total": 40,
  "inline_method": "Exact bracketed tags [NAME] or [NAME: note] for the 9 badge names in data/eras/*.json text fields (excluding all.json, badge keys and Arabic _ar/ar fields); a tag is not counted when the enclosing object already has the same structured badge. Not included in totals/grand_total.",
  "source_types_totals": {
   "un_aid_agency": 35,
@@ -563,7 +563,7 @@
    "counts": {
     "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
-    "VERIFY": 0,
+    "VERIFY": 1,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
@@ -571,11 +571,11 @@
     "PARTIAL": 0,
     "DERIVED": 5
    },
-   "total": 21,
+   "total": 22,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
-    "VERIFY": 2,
+    "VERIFY": 0,
     "REPORTED": 1,
     "MODEL": 0,
     "EDITORIAL": 0,
@@ -583,9 +583,10 @@
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "inline_total": 3,
+   "inline_total": 1,
    "files": [
     "data/eras/central-african-republic-ubangi-shari.json",
+    "db/ar_review_queue.json",
     "db/extents/central-african-republic-ubangi-shari.geojson",
     "db/map_sources.json",
     "db/population.json"
@@ -693,7 +694,7 @@
    "counts": {
     "SINGLE-SOURCE": 2,
     "CONTESTED": 5,
-    "VERIFY": 0,
+    "VERIFY": 1,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
@@ -701,11 +702,11 @@
     "PARTIAL": 0,
     "DERIVED": 5
    },
-   "total": 19,
+   "total": 20,
    "inline_badges": {
     "SINGLE-SOURCE": 3,
     "CONTESTED": 1,
-    "VERIFY": 3,
+    "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
@@ -713,9 +714,10 @@
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "inline_total": 7,
+   "inline_total": 4,
    "files": [
     "data/eras/derg-federal-ethiopia.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/extents/derg-federal-ethiopia.geojson",
     "db/map_sources.json",
@@ -866,7 +868,7 @@
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 3,
-    "VERIFY": 1,
+    "VERIFY": 2,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
@@ -874,11 +876,11 @@
     "PARTIAL": 0,
     "DERIVED": 11
    },
-   "total": 29,
+   "total": 30,
    "inline_badges": {
     "SINGLE-SOURCE": 3,
     "CONTESTED": 0,
-    "VERIFY": 2,
+    "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
@@ -886,7 +888,7 @@
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "inline_total": 5,
+   "inline_total": 3,
    "files": [
     "data/eras/eritrea-italian-colony-independent.json",
     "db/ar_review_queue.json",
@@ -952,7 +954,7 @@
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 3,
-    "VERIFY": 0,
+    "VERIFY": 1,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
@@ -960,11 +962,11 @@
     "PARTIAL": 0,
     "DERIVED": 3
    },
-   "total": 20,
+   "total": 21,
    "inline_badges": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 1,
-    "VERIFY": 3,
+    "VERIFY": 2,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
@@ -972,9 +974,10 @@
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "inline_total": 5,
+   "inline_total": 4,
    "files": [
     "data/eras/french-chad-republic-of-chad.json",
+    "db/ar_review_queue.json",
     "db/extents/french-chad-republic-of-chad.geojson",
     "db/map_sources.json",
     "db/population.json"
@@ -2241,7 +2244,7 @@
    "counts": {
     "SINGLE-SOURCE": 2,
     "CONTESTED": 1,
-    "VERIFY": 0,
+    "VERIFY": 2,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
@@ -2249,11 +2252,11 @@
     "PARTIAL": 0,
     "DERIVED": 13
    },
-   "total": 31,
+   "total": 33,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 1,
-    "VERIFY": 1,
+    "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
@@ -2261,9 +2264,10 @@
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "inline_total": 2,
+   "inline_total": 1,
    "files": [
     "data/eras/republic-of-egypt.json",
+    "db/ar_review_queue.json",
     "db/era_fill_modern4.json",
     "db/extents/republic-of-egypt.geojson",
     "db/map_sources.json",
