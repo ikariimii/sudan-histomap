@@ -49,6 +49,8 @@ function scaleMarks(){root.selectAll('.mk').attr('transform',function(){return `
 const rw=f=>{const G=f.geometry,rv=a=>a.slice().reverse();if(G.type==='Polygon'){if(d3.geoArea(f)>2*Math.PI)G.coordinates=G.coordinates.map(rv)}else if(G.type==='MultiPolygon')G.coordinates=G.coordinates.map(p=>d3.geoArea({type:'Polygon',coordinates:p})>2*Math.PI?p.map(rv):p);return f};
 let BASE=null;const C={},CARD={},LD={};
 const getj=u=>fetch(u).then(x=>{if(!x.ok)throw new Error(u+' '+x.status);return x.json()});
+// draft / low-certainty / VERIFY extents never morph (an in-between shape would imply precision the data lacks): they crossfade, keeping their dashed draft style
+const xdr=f=>{const q=(f&&f.properties)||{};return String(q.certainty||'').toLowerCase()==='low'||!!q.draft||q.zone!=null||/VERIFY|DRAFT|APPROX/i.test(JSON.stringify(q.badges||q.badge||''))||/draft/i.test(String(q.style||q.line_style||''))};
 function ext(e){if(!e.x)return Promise.resolve({features:[],lines:[]});return C[e.id]||(C[e.id]=getj('/extents/'+e.id+'.json').then(g=>{g.features.forEach(f=>{if(f.geometry.type!=='Point')rw(f)});g.lines=g.lines||[];return g}).catch(()=>({features:[],lines:[]})))}
 // neighbour prefetch: once the current era has drawn and the browser is idle, warm the per-era files of the eras either side
 // (skipped on Save-Data / 2G). Same fetch caches as on demand, so a prefetched era is not downloaded twice.
@@ -81,12 +83,12 @@ async function render(anim=true){
  drawBase(e);
  const ctl=on.has('ctl'),areas=ctl?g.features.filter(f=>f.geometry.type!=='Point'&&!f.properties.zone&&act(f.properties,e,Y)):[],pts=ctl?g.features.filter(f=>f.geometry.type==='Point'&&act(f.properties,e,Y)):[];
  // areas: morph matched shapes, crossfade the rest
- const D=anim?(RM?240:DUR):0,NEW=areas.map(f=>({f,box:bbox(f)})),used=new Set();
+ const D=anim?(RM?0:500):0,NEW=areas.map(f=>({f,box:bbox(f)})),used=new Set();
  gX.selectAll('path.ext').interrupt().remove();gX.selectAll('path.old').interrupt().remove();
  NEW.forEach(n=>{let bi=-1,bv=.25;OLD.forEach((o,k)=>{if(used.has(k))return;const v=iou(o.box,n.box);if(v>bv){bv=v;bi=k}});n.m=bi;if(bi>=0)used.add(bi)});
  OLD.forEach((o,k)=>{if(used.has(k)||!D)return;gX.append('path').attr('class','ext old').attr('d',path(o.f)).style('opacity',1).transition().duration(D).style('opacity',0).remove()});
  NEW.forEach(n=>{const p=gX.append('path').attr('class','ext'+(String(n.f.properties.certainty||'').toLowerCase()==='low'?' low':'')).datum(n.f).on('click',(ev)=>{ev.stopPropagation();feat(n.f,e)});
-  if(D&&!RM&&n.m>=0){const a=resample(ringOf(OLD[n.m].f)),b=align(a,resample(ringOf(n.f)));const it=d3.interpolateArray(a,b);p.attr('d',dpts(a)).transition().duration(D).ease(d3.easeCubicInOut).attrTween('d',()=>t=>dpts(it(t))).on('end',function(){d3.select(this).attr('d',path(n.f))})}
+  if(D&&!RM&&n.m>=0&&!xdr(n.f)&&!xdr(OLD[n.m].f)){const a=resample(ringOf(OLD[n.m].f)),b=align(a,resample(ringOf(n.f)));const it=d3.interpolateArray(a,b);p.attr('d',dpts(a)).transition().duration(D).ease(d3.easeCubicInOut).attrTween('d',()=>t=>dpts(it(t))).on('end',function(){d3.select(this).attr('d',path(n.f))})}
   else{p.attr('d',path(n.f)).style('opacity',D?0:1);if(D)p.transition().duration(D).style('opacity',1)}});
  OLD=NEW.map(n=>({f:n.f,box:n.box}));evdStyle();cmpDraw();
  // points (diamonds) and capitals
@@ -181,7 +183,7 @@ const zj=e=>(M.layers.bd||[]).includes(e.id)?(ZJ[e.id]||(ZJ[e.id]=getj('/bd/'+e.
 function zdefs(){if(document.getElementById('lowconf'))return;svg.select('defs').each(function(){this.insertAdjacentHTML('beforeend','<pattern id="lowconf" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#e8eef2" stroke-width="1"/></pattern><pattern id="conthatch" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#e0a63e" stroke-width="2"/></pattern><filter id="zfeather"><feGaussianBlur stdDeviation="6"/></filter>')});}
 const ZO=['influence','claimed','core','contested'],ZW=c=>c>=.7?T.bd.hi:c>=.4?T.bd.med:T.bd.lo;
 async function zonesDraw(e,D,pub=[]){zdefs();const fs=pub.concat(BD?await zj(e):[]);if(e!==ES[i])return;const red=matchMedia('(prefers-reduced-motion: reduce)').matches;D=red?0:D;
- gZ.selectAll('g.z').interrupt().transition().duration(D?350:0).style('opacity',0).remove();
+ gZ.selectAll('g.z').interrupt().transition().duration(D?500:0).style('opacity',0).remove();
  const g=gZ.append('g').attr('class','z');const sorted=fs.slice().sort((a,b)=>ZO.indexOf(a.properties.zone)-ZO.indexOf(b.properties.zone));
  sorted.forEach(f=>{const p=f.properties,z=p.zone,d=path(f),k=ZO.indexOf(z);const s=g.append('g').attr('class','zf zf-'+z).style('opacity',D?0:1);
   const a=s.append('path').attr('d',d).attr('class','zn').datum(f).attr('tabindex',0).attr('role','button').attr('aria-label',`${T.bd[z]||z}: ${p.basis||''}`).on('click',ev=>{ev.stopPropagation();zcard(f)});
