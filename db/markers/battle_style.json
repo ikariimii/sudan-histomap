@@ -168,7 +168,7 @@
  ],
  "war_footprint": {
   "trigger": "select a war chip, or select a battle and choose 'show war'",
-  "palette_note": "17 slots: the 11 war_ids in data/wars.json (c02b4d0, first-civil-war shared with the Analyst) plus 6 more post-1956 Analyst ids (south-kordofan-blue-nile-2011 added from fa486bd: lime #a6d854 with a dotted 1 2 dash, a hue and dash no other war uses). The parent asked for 14; the actual union is 16. Hues repeat a family only when the dash pattern differs. Marker glyphs keep their precision colours; the war hue goes to the hull, timeline ticks and a 2 px outline in war mode.",
+  "palette_note": "20 slots covering every war_id in db/wars.json plus the Analyst's post-1956 ids. Each slot differs from the others in hue, dash pattern or both.",
   "war_palette": {
    "kushite-egyptian-wars": {
     "colour": "#e69f00",
@@ -254,6 +254,21 @@
     "colour": "#a6d854",
     "hull_dash": "1 2",
     "id_source": "Analyst (db/battles_post1956.json fa486bd)"
+   },
+   "piye-conquest-of-egypt": {
+    "colour": "#7fc4a2",
+    "hull_dash": "dash 1 3",
+    "id_source": "db/wars.json (Historian pass 2)"
+   },
+   "mamluk-makuria-wars": {
+    "colour": "#f2d27a",
+    "hull_dash": "dash 8 2",
+    "id_source": "db/wars.json (Historian pass 2)"
+   },
+   "ottoman-nubia-campaign": {
+    "colour": "#ff9da7",
+    "hull_dash": "dash 1 3",
+    "id_source": "db/wars.json (Historian pass 2)"
    }
   },
   "treatment": {
@@ -278,7 +293,7 @@
   "placement": "preferred to the right of the marker (left in RTL), then above, below, the opposite side; 4 px offset from the icon edge; never over the marker of another battle",
   "priority": [
    "selected",
-   "decisive (battles.json decisive/importance flag; until the Historian adds one: khartoum-1885, karari-1898, shaykan-1883, gallabat-1889, dongola-652, napata--23, kerma--1500)",
+   "decisive: read from the decisive flag in data/battles.json (no hard-coded list)",
    "battles in current era",
    "other major battles",
    "event pins",
