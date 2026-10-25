@@ -531,10 +531,14 @@
    "cite": "NO-SOURCE"
   },
   {
-   "date": null,
+   "date": 1956,
+   "year_end": 1958,
    "en": "PM Ismail al-Azhari, then Abdallah Khalil",
    "ar": "رئيس الوزراء إسماعيل الأزهري ثم عبد الله خليل",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "LOC1991_INDSUDAN",
+    "pages": "HTML, no page numbers"
+   }
   }
  ],
  "abboud-military-regime": [
@@ -553,10 +557,14 @@
  ],
  "second-parliamentary-period": [
   {
-   "date": null,
+   "date": 1964,
+   "year_end": 1969,
    "en": "Civilian governments; First Sudanese Civil War continues",
    "ar": "حكومات مدنية؛ استمرار الحرب الأهلية السودانية الأولى",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "LOC1991_CIVIL6469",
+    "pages": "HTML, no page numbers"
+   }
   }
  ],
  "nimeiry-era-democratic-republic-of-sudan": [
@@ -593,10 +601,13 @@
    "cite": "NO-SOURCE"
   },
   {
-   "date": null,
+   "date": 1985,
    "en": "Swar al-Dahab transitional council",
    "ar": "المجلس الانتقالي برئاسة سوار الذهب",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "UNSC_S2005_60",
+    "pages": "p.20, para 46"
+   }
   }
  ],
  "al-bashir-ncp-ingaz-regime": [
@@ -680,16 +691,18 @@
    "cite": "NO-SOURCE"
   },
   {
-   "date": 2024,
-   "en": "Mass displacement; famine declared in parts of Darfur 2024",
-   "ar": "نزوح جماعي؛ إعلان المجاعة في أجزاء من دارفور 2024",
-   "cite": "NO-SOURCE"
+   "date": null,
+   "en": "",
+   "ar": "",
+   "cite": "NO-SOURCE",
+   "removed": "IPC sole source; needs UN/OCHA/WFP cite"
   },
   {
-   "date": 2024,
-   "en": "IPC Famine Review Committee: famine plausibly ongoing in Zamzam camp, July 2024 (published 1 Aug 2024)",
-   "ar": "لجنة مراجعة المجاعة التابعة للتصنيف المرحلي المتكامل: المجاعة مرجحة الاستمرار في معسكر زمزم، يوليو 2024 (نُشر في 1 أغسطس 2024)",
-   "cite": "NO-SOURCE"
+   "date": null,
+   "en": "",
+   "ar": "",
+   "cite": "NO-SOURCE",
+   "removed": "IPC sole source; needs UN/OCHA/WFP cite"
   },
   {
    "date": null,
@@ -1128,10 +1141,14 @@
  ],
  "derg-federal-ethiopia": [
   {
-   "date": null,
+   "date": 2011,
    "en": "GERD on Blue Nile (construction from 2011)",
    "ar": "سد النهضة على النيل الأزرق (بدء البناء 2011)",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GEO-016",
+    "pages": "HTML, no page numbers"
+   },
+   "badge": "SINGLE-SOURCE"
   }
  ],
  "eritrea-italian-colony-independent": [
