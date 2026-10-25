@@ -2,7 +2,7 @@
  "meta": {
   "owner": "Sudan Historian",
   "built": "2026-10-24",
-  "batch": "1 + 2 (QASIM_MAWSUA vol. 4 additions and stubs)",
+  "batch": "1 + 2 (QASIM_MAWSUA vol. 4 additions and stubs) + 2b (Nuba, Dinka, Nuer, Shilluk, Masalit, Baggara)",
   "status": "draft batch 1; Arabic text is a working translation pending native review",
   "badges": [
    "APPROXIMATE",
@@ -2467,6 +2467,896 @@
    ],
    "batch": "2 (QASIM_MAWSUA stub; other sources to follow)",
    "relations": [],
+   "relations_generated_from": "db/relations.json"
+  },
+  {
+   "id": "nuba",
+   "name_en": "Nuba",
+   "name_ar": {
+    "value": "النوبة (جبال النوبة)",
+    "status": "working translation – needs native-speaker review"
+   },
+   "aliases": [
+    {
+     "name": "not to be confused with the Nile Nubians (group 'nubians')",
+     "note": "name only; no source read links the two"
+    }
+   ],
+   "subgroups": {
+    "value": null,
+    "null_reason": "LOC gives only 'perhaps three dozen small groups'; no source read names them",
+    "count_text": "perhaps three dozen small groups",
+    "cite": {
+     "source": "LOC1991_NONMUSLIM",
+     "page": "§ Nuba",
+     "quote": "perhaps three dozen small groups collectively called the Nuba but varying considerably in their culture and social organization"
+    }
+   },
+   "language_family": {
+    "value": "Kurdufanian languages (LOC term), generally not mutually intelligible",
+    "cite": {
+     "source": "LOC1991_NONMUSLIM",
+     "page": "§ Nuba",
+     "quote": "The Kurdufanian languages these people spoke were not generally mutually intelligible except for those of some adjacent communities"
+    },
+    "note": "LOC gives no higher classification"
+   },
+   "homeland": {
+    "text_en": "The Nuba Mountains of southern Kordofan. In the 16th–18th centuries the area between the Nile and the Nuba Hills was a frontier zone of the Nuba and Shilluk, before Bakkara Arabs occupied it in the second half of the 19th century.",
+    "text_ar": "جبال النوبة في جنوب كردفان. وفي القرون 16–18 كانت المنطقة بين النيل وتلال النوبة منطقة تخوم بين النوبة والشلك، قبل أن يشغلها عرب البقارة في النصف الثاني من القرن التاسع عشر.",
+    "text_ar_status": "working translation – needs native-speaker review",
+    "cite": [
+     {
+      "source": "LOC1991_NONMUSLIM",
+      "page": "§ Nuba",
+      "quote": "Living in the Nuba Mountains of southern Kurdufan State"
+     },
+     {
+      "source": "GHA5_CH7",
+      "page": "p.195"
+     }
+    ],
+    "anchors": [
+     {
+      "place": "Nuba Mountains",
+      "gazetteer": "wikidata:Q1129989",
+      "lat": 12.0,
+      "lon": 30.75,
+      "coord_source": "Wikidata P625",
+      "cite": {
+       "source": "LOC1991_NONMUSLIM",
+       "page": "§ Nuba",
+       "quote": "the Nuba Mountains of southern Kurdufan"
+      },
+      "note": "APPROXIMATE: Wikidata point for the whole range, not a settlement"
+     }
+    ],
+    "map_limits": "text only",
+    "badge": "APPROXIMATE"
+   },
+   "controlled_areas": [],
+   "ancestry": {
+    "value": null,
+    "null_reason": "not stated in sources read; LOC notes some groups patrilineal, some matrilineal (social organisation, not ancestry)"
+   },
+   "origin": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "sources": [
+    "LOC1991_NONMUSLIM",
+    "GHA5_CH7",
+    "GHA7_CH4"
+   ],
+   "batch": "2b (LOC 1991, GHA, MacMichael 1922)",
+   "relations": [
+    {
+     "id": "rel-nuba-01",
+     "era_id": "shilluk-kingdom",
+     "other_group_or_state": "Shilluk",
+     "type": "conflict",
+     "text_en": "Shilluk Reth Dhokoth (c.1670–90) raided into the Nuba mountains.",
+     "text_ar": "شنّ رث الشلك دوكوث (نحو 1670–1690) غارات على جبال النوبة.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": {
+      "source": "GHA5_CH7",
+      "page": "p.196"
+     },
+     "badge": "SINGLE-SOURCE",
+     "certainty": "medium"
+    },
+    {
+     "id": "rel-nuba-02",
+     "era_id": "anglo-egyptian-sudan-condominium",
+     "other_group_or_state": "Condominium government",
+     "type": "conflict",
+     "text_en": "Several Nuba communities resisted British rule: an uprising at Talodi in 1906, and Mek Faki 'Ali of the Miri hills, who held out for two years until his arrest in 1916.",
+     "text_ar": "قاومت جماعات نوبية عدة الحكم البريطاني: انتفاضة تلودي عام 1906، والمك فكي علي من جبال ميري الذي صمد عامين حتى اعتقاله عام 1916.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": {
+      "source": "GHA7_CH4",
+      "page": "p.81"
+     },
+     "badge": "SINGLE-SOURCE",
+     "certainty": "medium"
+    }
+   ],
+   "relations_generated_from": "db/relations.json"
+  },
+  {
+   "id": "dinka",
+   "name_en": "Dinka (Jieng)",
+   "name_ar": {
+    "value": "الدينكا (جينق)",
+    "status": "working translation – needs native-speaker review"
+   },
+   "aliases": [
+    {
+     "name": "Jieng (self-name used by GHA)",
+     "cite": {
+      "source": "GHA5_CH7",
+      "page": "p.193"
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ],
+   "subgroups": [
+    {
+     "name": "Aliab",
+     "cite": {
+      "source": "GHA7_CH23",
+      "page": "p.594",
+      "quote": "the Aliab Dinka uprising (1919-20)"
+     }
+    },
+    {
+     "name": "Bor",
+     "cite": {
+      "source": "GHA7_CH23",
+      "page": "p.594",
+      "quote": "the Bor Dinka were only with difficulty restrained from rising in support of the Aliab"
+     }
+    },
+    {
+     "name": "Rueng and Ngok",
+     "cite": {
+      "source": "GHA5_CH7",
+      "page": "p.197"
+     },
+     "badge": "SINGLE-SOURCE",
+     "note": "GHA: the Jieng who crossed the Sobat c.1780–1820 were 'probably' Rueng and Ngok"
+    }
+   ],
+   "language_family": {
+    "value": "Nilotic (Western Nilotic), Eastern Sudanic branch of Nilo-Saharan",
+    "cite": [
+     {
+      "source": "LOC1991_NONMUSLIM",
+      "page": "§ Nilotes",
+      "quote": "The term refers to people speaking languages of one section of the Nilotic subbranch of the Eastern Sudanic branch of Nilo-Saharan"
+     },
+     {
+      "source": "GHA5_CH7",
+      "page": "p.192",
+      "quote": "classification chart: Western Nilotic – Jieng, Naath, Luo (incl. Shilluk)"
+     }
+    ]
+   },
+   "homeland": {
+    "text_en": "Widely distributed over the northern part of the southern region, particularly Upper Nile (Aali an Nil) and Bahr al Ghazal. Transhumant cattle-keepers.",
+    "text_ar": "منتشرون في الجزء الشمالي من الإقليم الجنوبي، خاصة أعالي النيل وبحر الغزال. رعاة ماشية يمارسون الترحال الموسمي.",
+    "text_ar_status": "working translation – needs native-speaker review",
+    "cite": [
+     {
+      "source": "LOC1991_NONMUSLIM",
+      "page": "§ Nilotes",
+      "quote": "The Dinka were widely distributed over the northern portion of the southern region, particularly in Aali an Nil and Bahr al Ghazal"
+     },
+     {
+      "source": "GHA5_CH7",
+      "page": "p.193"
+     }
+    ],
+    "anchors": [
+     {
+      "place": "Bor",
+      "gazetteer": "wikidata:Q893274",
+      "lat": 6.2166666666667,
+      "lon": 31.55,
+      "coord_source": "Wikidata P625",
+      "cite": {
+       "source": "GHA7_CH23",
+       "page": "p.594",
+       "quote": "the Bor Dinka"
+      },
+      "note": "APPROXIMATE: Bor is the town named for the Bor Dinka section; one reference point, not the extent of Dinka land"
+     }
+    ],
+    "map_limits": "text only",
+    "badge": "APPROXIMATE"
+   },
+   "controlled_areas": [],
+   "ancestry": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "origin": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "sources": [
+    "LOC1991_NONMUSLIM",
+    "GHA5_CH7",
+    "GHA6_CH14",
+    "GHA7_CH4",
+    "GHA7_CH23"
+   ],
+   "batch": "2b (LOC 1991, GHA, MacMichael 1922)",
+   "subgroups_count_text": {
+    "text": "as many as twenty-five tribal groups",
+    "cite": {
+     "source": "LOC1991_NONMUSLIM",
+     "page": "§ Nilotes",
+     "quote": "The Dinka are considered to have as many as twenty-five tribal groups"
+    }
+   },
+   "relations": [
+    {
+     "id": "rel-dinka-01",
+     "era_id": "funj-sultanate-of-sennar",
+     "other_group_or_state": "Funj",
+     "type": "conflict",
+     "text_en": "The Jieng (Dinka) pushed into southern Funj territory from about 1630.",
+     "text_ar": "توغل الجينق (الدينكا) في جنوب أراضي الفونج منذ نحو 1630.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": {
+      "source": "GHA5_CH7",
+      "page": "p.196"
+     },
+     "badge": "SINGLE-SOURCE",
+     "certainty": "medium"
+    },
+    {
+     "id": "rel-dinka-02",
+     "era_id": "anglo-egyptian-sudan-condominium",
+     "other_group_or_state": "Condominium government",
+     "type": "conflict",
+     "text_en": "The Aliab Dinka rose in 1919–20, and the prophet Ariendit (Bul Yol) mobilised many Dinka against colonial rule until his followers were dispersed in 1922.",
+     "text_ar": "انتفض دينكا عالياب في 1919–1920، وحشد النبي أريينديت (بول يول) كثيراً من الدينكا ضد الحكم الاستعماري حتى تفرق أتباعه عام 1922.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": [
+      {
+       "source": "GHA7_CH23",
+       "page": "p.594"
+      },
+      {
+       "source": "GHA7_CH23",
+       "page": "p.595"
+      }
+     ],
+     "badge": "SINGLE-SOURCE",
+     "certainty": "medium"
+    }
+   ],
+   "relations_generated_from": "db/relations.json"
+  },
+  {
+   "id": "nuer",
+   "name_en": "Nuer (Naath)",
+   "name_ar": {
+    "value": "النوير (ناث)",
+    "status": "working translation – needs native-speaker review"
+   },
+   "aliases": [
+    {
+     "name": "Naath (self-name used by GHA)",
+     "cite": {
+      "source": "GHA5_CH7",
+      "page": "p.193"
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ],
+   "subgroups": {
+    "value": null,
+    "null_reason": "LOC gives only a count; GHA names 'western Nuer' only as a region",
+    "count_text": "nine or ten separately named groups",
+    "cite": {
+     "source": "LOC1991_NONMUSLIM",
+     "page": "§ Nilotes",
+     "quote": "The Nuer have nine or ten separately named groups"
+    }
+   },
+   "language_family": {
+    "value": "Nilotic (Western Nilotic), Eastern Sudanic branch of Nilo-Saharan",
+    "cite": [
+     {
+      "source": "LOC1991_NONMUSLIM",
+      "page": "§ Nilotes",
+      "quote": "The term refers to people speaking languages of one section of the Nilotic subbranch of the Eastern Sudanic branch of Nilo-Saharan"
+     },
+     {
+      "source": "GHA5_CH7",
+      "page": "p.192",
+      "quote": "classification chart: Western Nilotic – Jieng, Naath, Luo (incl. Shilluk)"
+     }
+    ]
+   },
+   "homeland": {
+    "text_en": "The lands adjoining the Sobat river and the White Nile; western Nuerland included Lake Jorr.",
+    "text_ar": "الأراضي المجاورة لنهر السوباط والنيل الأبيض؛ وتشمل أرض النوير الغربية بحيرة جور.",
+    "text_ar_status": "working translation – needs native-speaker review",
+    "cite": [
+     {
+      "source": "GHA7_CH4",
+      "page": "p.81",
+      "quote": "the Nuer people living in the lands adjoining the river Sobat and the White Nile"
+     },
+     {
+      "source": "GHA7_CH23",
+      "page": "p.595"
+     }
+    ],
+    "anchors": [],
+    "null_reason": "sources read name rivers and a lake only; no settlement point checked",
+    "map_limits": "text only"
+   },
+   "controlled_areas": [],
+   "ancestry": [
+    {
+     "text_en": "The Nuer absorbed some Dinka, and some present-day Nuer sections have significant Dinka components.",
+     "cite": {
+      "source": "LOC1991_NONMUSLIM",
+      "page": "§ Nilotes",
+      "quote": "The Nuer absorbed some of the Dinka, and some present-day sections of the Nuer have significant Dinka components."
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ],
+   "origin": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "sources": [
+    "LOC1991_NONMUSLIM",
+    "GHA5_CH7",
+    "GHA7_CH4",
+    "GHA7_CH23"
+   ],
+   "batch": "2b (LOC 1991, GHA, MacMichael 1922)",
+   "relations": [
+    {
+     "id": "rel-nuer-01",
+     "era_id": "anglo-egyptian-sudan-condominium",
+     "other_group_or_state": "Condominium government",
+     "type": "conflict",
+     "text_en": "The Nuer refused to recognise the new government; leaders Dengkur and Diu were active until 1906–07, Dowl Diu attacked a post in 1914, and resistance culminated in the revolt of 1927–28.",
+     "text_ar": "رفض النوير الاعتراف بالحكومة الجديدة؛ نشط الزعيمان دنقكور وديو حتى 1906–1907، وهاجم دول ديو مركزاً حكومياً عام 1914، وبلغت المقاومة ذروتها في ثورة 1927–1928.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": [
+      {
+       "source": "GHA7_CH4",
+       "page": "p.81"
+      },
+      {
+       "source": "GHA7_CH23",
+       "page": "p.595"
+      }
+     ],
+     "badge": "SINGLE-SOURCE",
+     "certainty": "medium"
+    }
+   ],
+   "relations_generated_from": "db/relations.json"
+  },
+  {
+   "id": "shilluk",
+   "name_en": "Shilluk (Collo)",
+   "name_ar": {
+    "value": "الشلك (شولو)",
+    "status": "working translation – needs native-speaker review"
+   },
+   "aliases": [
+    {
+     "name": "Collo (self-name)",
+     "cite": {
+      "source": "LOC1991_NONMUSLIM",
+      "page": "§ Nilotes",
+      "quote": "the Shilluk (self-named Collo)"
+     }
+    }
+   ],
+   "subgroups": {
+    "value": null,
+    "null_reason": "not named in sources read; GHA says Funj and Nuba elements were incorporated (p.193)"
+   },
+   "language_family": {
+    "value": "Nilotic (Western Nilotic), Eastern Sudanic branch of Nilo-Saharan",
+    "cite": [
+     {
+      "source": "LOC1991_NONMUSLIM",
+      "page": "§ Nilotes",
+      "quote": "The term refers to people speaking languages of one section of the Nilotic subbranch of the Eastern Sudanic branch of Nilo-Saharan"
+     },
+     {
+      "source": "GHA5_CH7",
+      "page": "p.192",
+      "quote": "classification chart: Western Nilotic – Jieng, Naath, Luo (incl. Shilluk)"
+     }
+    ]
+   },
+   "homeland": {
+    "text_en": "A compact strip on the west bank of the Nile, from Tonga to Muomo near the Nile–Sobat confluence; villages lined the bank for about 100 miles. Fashoda, founded by Reth Tugo, became the permanent royal seat.",
+    "text_ar": "شريط متصل على الضفة الغربية للنيل من تونجا إلى مومو قرب ملتقى النيل والسوباط، وتمتد القرى على الضفة نحو 100 ميل. وأصبحت فشودة التي أسسها الرث توجو مقراً ملكياً دائماً.",
+    "text_ar_status": "working translation – needs native-speaker review",
+    "cite": [
+     {
+      "source": "GHA5_CH7",
+      "page": "p.193"
+     },
+     {
+      "source": "GHA5_CH7",
+      "page": "p.197"
+     },
+     {
+      "source": "LOC1991_NONMUSLIM",
+      "page": "§ Nilotes",
+      "quote": "settled mainly in a limited, uninterrupted area along the west bank of the Bahr al Jabal, just north of the point where it becomes the White Nile proper"
+     }
+    ],
+    "anchors": [
+     {
+      "place": "Fashoda (Kodok)",
+      "gazetteer": "wikidata:Q1888763",
+      "lat": 9.8875,
+      "lon": 32.110277777777775,
+      "coord_source": "Wikidata P625",
+      "cite": {
+       "source": "GHA5_CH7",
+       "page": "p.197"
+      },
+      "note": "Fashoda = modern Kodok (Wikidata ar label فشودة)"
+     }
+    ],
+    "map_limits": "text only",
+    "badge": "SINGLE-SOURCE",
+    "conflict_note": "LOC places them on the Bahr al Jabal just north of where it becomes the White Nile; GHA places the heartland at the Nile–Sobat confluence. Both are given."
+   },
+   "controlled_areas": [
+    {
+     "era_id": "shilluk-kingdom",
+     "place": "'Bahr Scheluk' (White Nile reach)",
+     "text_en": "The Shilluk dominated the White Nile reach known as 'Bahr Scheluk' from Reth Odak Ocollo (c.1600–35) until 1861; Shilluk raids reached the site of Khartoum in 1780.",
+     "cite": [
+      {
+       "source": "GHA5_CH7",
+       "page": "p.195"
+      },
+      {
+       "source": "GHA5_CH7",
+       "page": "p.197"
+      }
+     ],
+     "certainty": "medium"
+    }
+   ],
+   "ancestry": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "origin": {
+    "value": "Tradition names Nyikang as founder. GHA dates the first settlement near Malakal to Nyikang (c.1490–1517), after driving out the Funj; LOC calls Nyiking the mythical hero and putative founder.",
+    "cite": [
+     {
+      "source": "GHA5_CH7",
+      "page": "p.193"
+     },
+     {
+      "source": "LOC1991_NONMUSLIM",
+      "page": "§ Nilotes",
+      "quote": "the mythical hero Nyiking, putative founder of the Shilluk"
+     }
+    ],
+    "badge": "TRADITION"
+   },
+   "sources": [
+    "LOC1991_NONMUSLIM",
+    "GHA5_CH7",
+    "GHA6_CH14"
+   ],
+   "batch": "2b (LOC 1991, GHA, MacMichael 1922)",
+   "relations": [
+    {
+     "id": "rel-shilluk-01",
+     "era_id": "funj-sultanate-of-sennar",
+     "other_group_or_state": "Funj",
+     "type": "alliance",
+     "text_en": "The Funj and the Shilluk allied against the Jieng (Dinka), who had been pushing into southern Funj territory since about 1630.",
+     "text_ar": "تحالف الفونج والشلك ضد الجينق (الدينكا) الذين كانوا يتوغلون في جنوب أراضي الفونج منذ نحو 1630.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": {
+      "source": "GHA5_CH7",
+      "page": "p.196"
+     },
+     "badge": "SINGLE-SOURCE",
+     "certainty": "medium"
+    },
+    {
+     "id": "rel-shilluk-02",
+     "era_id": "shilluk-kingdom",
+     "other_group_or_state": "Darfur sultanate",
+     "type": "alliance",
+     "text_en": "The Shilluk supported Darfur against the Funj.",
+     "text_ar": "ساند الشلك دارفور ضد الفونج.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": {
+      "source": "GHA5_CH7",
+      "page": "p.195"
+     },
+     "badge": "SINGLE-SOURCE",
+     "certainty": "medium"
+    },
+    {
+     "id": "rel-shilluk-03",
+     "era_id": "shilluk-kingdom",
+     "other_group_or_state": "Nuba",
+     "type": "conflict",
+     "text_en": "Reth Dhokoth (c.1670–90) raided into the Nuba mountains.",
+     "text_ar": "شنّ الرث دوكوث (نحو 1670–1690) غارات على جبال النوبة.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": {
+      "source": "GHA5_CH7",
+      "page": "p.196"
+     },
+     "badge": "SINGLE-SOURCE",
+     "certainty": "medium"
+    },
+    {
+     "id": "rel-shilluk-04",
+     "era_id": "turkiyya-ottoman-egyptian-rule",
+     "other_group_or_state": "Turco-Egyptian traders (Muhammad al-Khayr)",
+     "type": "conflict",
+     "text_en": "After Reth Kwatker expelled Arab traders in 1860, Muhammad al-Khayr attacked with Baggara cavalry and riflemen and destroyed Fashoda; by 1863 the Shilluk forced the traders back.",
+     "text_ar": "بعد أن طرد الرث كواتكير التجار العرب عام 1860 هاجمهم محمد الخير بفرسان من البقارة ورماة ودمّر فشودة؛ وبحلول 1863 أجبر الشلك التجار على التراجع.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": {
+      "source": "GHA6_CH14",
+      "page": "p.366"
+     },
+     "badge": "SINGLE-SOURCE",
+     "certainty": "medium"
+    }
+   ],
+   "relations_generated_from": "db/relations.json"
+  },
+  {
+   "id": "masalit",
+   "name_en": "Masalit",
+   "name_ar": {
+    "value": "المساليت",
+    "status": "working translation – needs native-speaker review"
+   },
+   "aliases": [
+    {
+     "name": "Masalat (self-name); Masarak (Tama name)",
+     "cite": {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.85",
+      "quote": "They call themselves Masalat as a rule, but are usually known to others as Masalit. The Tama call them Masarak."
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ],
+   "subgroups": {
+    "value": null,
+    "null_reason": "MacMichael lists sub-tribes on p.87, but the OCR column text is garbled; not transcribed (VERIFY against page image)"
+   },
+   "language_family": {
+    "value": "Nilo-Saharan (LOC lists them among Darfur peoples speaking Nilo-Saharan languages)",
+    "cite": {
+     "source": "LOC1991_MUSLIMPEOPLES",
+     "page": "§ Masalit, Daju, and Berti",
+     "quote": "peoples living in Darfur in the 1990s who spoke Nilo-Saharan languages"
+    }
+   },
+   "homeland": {
+    "text_en": "Dar Masalit on the Sudan–Chad border, c. 7,000–7,500 sq. miles, bounded west by Wadai, south by Dar Sula, north by Dars Tama and Kimr, east by the Fur (MacMichael, 1922).",
+    "text_ar": "دار مساليت على الحدود السودانية التشادية، نحو 7000–7500 ميل مربع، يحدها وداي غرباً ودار سولا جنوباً ودارا تاما والقمر شمالاً والفور شرقاً (ماكمايكل 1922).",
+    "text_ar_status": "working translation – needs native-speaker review",
+    "cite": [
+     {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.85",
+      "quote": "The Masalit country is 7000 to 7500 square miles in extent and is bounded to the west by Wadai, to the south by Dar Sula, to the north by Dars Tama and Kimr, and to the east by the Fur."
+     },
+     {
+      "source": "LOC1991_MUSLIMPEOPLES",
+      "page": "§ Masalit, Daju, and Berti",
+      "quote": "The Masalit, living on the Sudan-Chad border, were the largest group."
+     }
+    ],
+    "anchors": [],
+    "null_reason": "no settlement named in the sources read (Geneina does not appear in them)",
+    "map_limits": "text only; MacMichael's bounds are neighbouring territories, not coordinates",
+    "badge": "SINGLE-SOURCE"
+   },
+   "controlled_areas": [
+    {
+     "era_id": "mahdist-state-mahdiyya",
+     "place": "Dar Masalit (with Erenga and Mun)",
+     "text_en": "Only in the Mahdist period did a single Masalit amir unite the Erenga, Mun and Masalit; near its end he took the title of Sultan and claimed full independence.",
+     "cite": {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.86",
+      "quote": "It was only in the Dervish days that a single Masalati amir united under his rule the Erenga, Mun and Masalit, and not until the close of the Dervish days that he assumed the title of Sultan and claimed complete independence."
+     },
+     "certainty": "medium"
+    }
+   ],
+   "ancestry": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "origin": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "sources": [
+    "LOC1991_MUSLIMPEOPLES",
+    "MACMICHAEL1922_V1"
+   ],
+   "batch": "2b (LOC 1991, GHA, MacMichael 1922)",
+   "relations": [
+    {
+     "id": "rel-masalit-01",
+     "era_id": "sultanate-of-darfur-keira",
+     "other_group_or_state": "Darfur sultanate",
+     "type": "subjugation",
+     "text_en": "Before the Egyptian conquest of Darfur, Dar Masalit was part of Darfur's western district under the viceroy of the west; the Masalit had only firrash, lower-ranking chiefs.",
+     "text_ar": "قبل الفتح المصري لدارفور كانت دار مساليت جزءاً من الإقليم الغربي لدارفور تحت مقدوم الغرب، ولم يكن للمساليت إلا «فرّاش» أدنى رتبة.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.86"
+     },
+     "badge": "SINGLE-SOURCE",
+     "certainty": "medium"
+    },
+    {
+     "id": "rel-masalit-02",
+     "era_id": "wadai-sultanate",
+     "other_group_or_state": "Wadai",
+     "type": "conflict",
+     "text_en": "Dar Masalit was contested between Wadai and Darfur; MacMichael says Wadai held no rights there and only made occasional attacks.",
+     "text_ar": "كانت دار مساليت موضع نزاع بين وداي ودارفور؛ ويقول ماكمايكل إن وداي لم تملك فيها حقوقاً وإنما شنت عليها هجمات متفرقة.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.86"
+     },
+     "badge": "SINGLE-SOURCE",
+     "certainty": "medium"
+    }
+   ],
+   "relations_generated_from": "db/relations.json"
+  },
+  {
+   "id": "baggara",
+   "name_en": "Baggara (Bakkara)",
+   "name_ar": {
+    "value": "البقارة",
+    "status": "working translation – needs native-speaker review"
+   },
+   "aliases": [
+    {
+     "name": "Bakkara / Baqqara ('cattlemen')",
+     "cite": {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.271",
+      "quote": "The word \"Bakkara\" means no more than \"cattlemen\""
+     },
+     "note": "MacMichael says the term is sometimes also applied to other cattle-owning tribes"
+    }
+   ],
+   "subgroups": [
+    {
+     "name": "Beni Selim (White Nile)",
+     "cite": {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.273"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Awlad Hamayd (Kordofan)",
+     "cite": {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.273"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Habbania (Kordofan branch and southern Darfur)",
+     "cite": {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.273"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Hawazma (between El Obeid, Dilling and Talodi)",
+     "cite": {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.273"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Messiria (south of Abu Zabad)",
+     "cite": {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.273"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Humr (El Odaya to Bahr el 'Arab)",
+     "cite": {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.273"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Rizaykat (southern Darfur)",
+     "cite": {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.273"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Ta'aisha (southern Darfur)",
+     "cite": {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.273"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Beni Helba (southern Darfur, Wadai)",
+     "cite": {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.273"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Salamat (Wadai, Bornu, Bagirmi)",
+     "cite": {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.273"
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ],
+   "language_family": {
+    "value": "Arabic (Semitic)",
+    "cite": {
+     "source": "LOC1991_MUSLIMPEOPLES",
+     "page": "§ Arabs"
+    },
+    "note": "LOC treats the Baqqara among Arabic speakers"
+   },
+   "homeland": {
+    "text_en": "A belt of country roughly south of 13°N from the White Nile to Lake Chad (MacMichael, 1922); seasonal movement south in the dry season and north in the rains.",
+    "text_ar": "حزام يمتد تقريباً جنوب خط العرض 13 من النيل الأبيض إلى بحيرة تشاد (ماكمايكل 1922)؛ مع ترحال موسمي جنوباً في الجفاف وشمالاً في الأمطار.",
+    "text_ar_status": "working translation – needs native-speaker review",
+    "cite": [
+     {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.271",
+      "quote": "the rich belt of country which may be roughly described as lying south of the thirteenth parallel of latitude and stretching from the White Nile to Lake Chad"
+     },
+     {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.272"
+     }
+    ],
+    "anchors": [],
+    "null_reason": "a belt, not a point; sub-tribe locations are text only",
+    "map_limits": "text only",
+    "badge": "APPROXIMATE"
+   },
+   "controlled_areas": [],
+   "ancestry": {
+    "value": "Group identity was partly occupational: LOC says a sedentary Fur who becomes a cattle nomad is perceived as Baqqara, and MacMichael says no real dividing line can be drawn between the Bakkara tribes.",
+    "cite": [
+     {
+      "source": "LOC1991_MUSLIMPEOPLES",
+      "page": "§ Arabs",
+      "quote": "when a sedentary Fur becomes a cattle nomad, he is perceived as a Baqqara"
+     },
+     {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.272"
+     }
+    ],
+    "badge": "SINGLE-SOURCE"
+   },
+   "origin": {
+    "value": "Arabic-speaking cattle nomads; LOC says they moved south and west. Traditional genealogies make the Bakkara and the camel-owning Fezara branches of one 'Guhayna' group.",
+    "cite": [
+     {
+      "source": "LOC1991_MUSLIMPEOPLES",
+      "page": "§ Arabs",
+      "quote": "The Baqqara, for example, who moved south and west"
+     },
+     {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.273",
+      "quote": "the Bakkara and the camel-owning Fezara group to the north are both branches of the same great \"Guhayna\" group"
+     }
+    ],
+    "badge": "TRADITION"
+   },
+   "sources": [
+    "LOC1991_MUSLIMPEOPLES",
+    "GHA5_CH7",
+    "GHA6_CH14",
+    "MACMICHAEL1922_V1"
+   ],
+   "batch": "2b (LOC 1991, GHA, MacMichael 1922)",
+   "colonial_framing": [
+    {
+     "quote": "The southern group intermarried with the older negro inhabitants and became darker in complexion",
+     "cite": {
+      "source": "MACMICHAEL1922_V1",
+      "page": "p.274"
+     },
+     "note": "Colonial racial framing quoted as the 1922 author's view only, not as fact. MacMichael's evaluative character judgements (pp.272–273) are deliberately not reproduced."
+    },
+    {
+     "quote": "encountered the Negroid peoples of those areas",
+     "cite": {
+      "source": "LOC1991_MUSLIMPEOPLES",
+      "page": "§ Arabs"
+     },
+     "note": "Dated racial terminology in the LOC text; quoted, not adopted."
+    }
+   ],
+   "relations": [
+    {
+     "id": "rel-baggara-01",
+     "era_id": "turkiyya-ottoman-egyptian-rule",
+     "other_group_or_state": "Turco-Egyptian government / Jieng (Dinka)",
+     "type": "conflict",
+     "text_en": "The Baggara were to pay tax in cattle to the governor of Kordofan, or in slaves if they could not; GHA says they therefore raided the Jieng for slaves.",
+     "text_ar": "كان على البقارة أداء الضرائب ماشيةً لحاكم كردفان أو رقيقاً إن عجزوا؛ ويقول المصدر إنهم لذلك أغاروا على الجينق طلباً للرقيق.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": {
+      "source": "GHA6_CH14",
+      "page": "p.364"
+     },
+     "badge": "SINGLE-SOURCE",
+     "certainty": "medium"
+    },
+    {
+     "id": "rel-baggara-02",
+     "era_id": "turkiyya-ottoman-egyptian-rule",
+     "other_group_or_state": "Nuba / Shilluk frontier",
+     "type": "migration",
+     "text_en": "Bakkara Arabs occupied the former Nuba–Shilluk frontier zone between the Nile and the Nuba Hills in the second half of the 19th century.",
+     "text_ar": "شغل عرب البقارة منطقة التخوم السابقة بين النوبة والشلك بين النيل وتلال النوبة في النصف الثاني من القرن التاسع عشر.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": {
+      "source": "GHA5_CH7",
+      "page": "p.195"
+     },
+     "badge": "SINGLE-SOURCE",
+     "certainty": "medium"
+    }
+   ],
    "relations_generated_from": "db/relations.json"
   }
  ]

@@ -2,7 +2,7 @@
  "meta": {
   "owner": "Sudan Historian",
   "built": "2026-10-24",
-  "batch": "1 + 2 (QASIM_MAWSUA vol. 4 additions and stubs)",
+  "batch": "1 + 2 (QASIM_MAWSUA vol. 4 additions and stubs) + 2b (Nuba, Dinka, Nuer, Shilluk, Masalit, Baggara)",
   "status": "draft batch 1; Arabic text is a working translation pending native review",
   "badges": [
    "APPROXIMATE",
@@ -538,6 +538,226 @@
     "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
     "badge": "VERIFY",
     "ocr_note": "Tesseract OCR, not checked against the page image"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-shilluk-01",
+   "group": "shilluk",
+   "era_id": "funj-sultanate-of-sennar",
+   "other_group_or_state": "Funj",
+   "type": "alliance",
+   "text_en": "The Funj and the Shilluk allied against the Jieng (Dinka), who had been pushing into southern Funj territory since about 1630.",
+   "text_ar": "تحالف الفونج والشلك ضد الجينق (الدينكا) الذين كانوا يتوغلون في جنوب أراضي الفونج منذ نحو 1630.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA5_CH7",
+    "page": "p.196"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-shilluk-02",
+   "group": "shilluk",
+   "era_id": "shilluk-kingdom",
+   "other_group_or_state": "Darfur sultanate",
+   "type": "alliance",
+   "text_en": "The Shilluk supported Darfur against the Funj.",
+   "text_ar": "ساند الشلك دارفور ضد الفونج.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA5_CH7",
+    "page": "p.195"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-shilluk-03",
+   "group": "shilluk",
+   "era_id": "shilluk-kingdom",
+   "other_group_or_state": "Nuba",
+   "type": "conflict",
+   "text_en": "Reth Dhokoth (c.1670–90) raided into the Nuba mountains.",
+   "text_ar": "شنّ الرث دوكوث (نحو 1670–1690) غارات على جبال النوبة.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA5_CH7",
+    "page": "p.196"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-shilluk-04",
+   "group": "shilluk",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "other_group_or_state": "Turco-Egyptian traders (Muhammad al-Khayr)",
+   "type": "conflict",
+   "text_en": "After Reth Kwatker expelled Arab traders in 1860, Muhammad al-Khayr attacked with Baggara cavalry and riflemen and destroyed Fashoda; by 1863 the Shilluk forced the traders back.",
+   "text_ar": "بعد أن طرد الرث كواتكير التجار العرب عام 1860 هاجمهم محمد الخير بفرسان من البقارة ورماة ودمّر فشودة؛ وبحلول 1863 أجبر الشلك التجار على التراجع.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA6_CH14",
+    "page": "p.366"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-nuba-01",
+   "group": "nuba",
+   "era_id": "shilluk-kingdom",
+   "other_group_or_state": "Shilluk",
+   "type": "conflict",
+   "text_en": "Shilluk Reth Dhokoth (c.1670–90) raided into the Nuba mountains.",
+   "text_ar": "شنّ رث الشلك دوكوث (نحو 1670–1690) غارات على جبال النوبة.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA5_CH7",
+    "page": "p.196"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-nuba-02",
+   "group": "nuba",
+   "era_id": "anglo-egyptian-sudan-condominium",
+   "other_group_or_state": "Condominium government",
+   "type": "conflict",
+   "text_en": "Several Nuba communities resisted British rule: an uprising at Talodi in 1906, and Mek Faki 'Ali of the Miri hills, who held out for two years until his arrest in 1916.",
+   "text_ar": "قاومت جماعات نوبية عدة الحكم البريطاني: انتفاضة تلودي عام 1906، والمك فكي علي من جبال ميري الذي صمد عامين حتى اعتقاله عام 1916.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA7_CH4",
+    "page": "p.81"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-dinka-01",
+   "group": "dinka",
+   "era_id": "funj-sultanate-of-sennar",
+   "other_group_or_state": "Funj",
+   "type": "conflict",
+   "text_en": "The Jieng (Dinka) pushed into southern Funj territory from about 1630.",
+   "text_ar": "توغل الجينق (الدينكا) في جنوب أراضي الفونج منذ نحو 1630.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA5_CH7",
+    "page": "p.196"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-dinka-02",
+   "group": "dinka",
+   "era_id": "anglo-egyptian-sudan-condominium",
+   "other_group_or_state": "Condominium government",
+   "type": "conflict",
+   "text_en": "The Aliab Dinka rose in 1919–20, and the prophet Ariendit (Bul Yol) mobilised many Dinka against colonial rule until his followers were dispersed in 1922.",
+   "text_ar": "انتفض دينكا عالياب في 1919–1920، وحشد النبي أريينديت (بول يول) كثيراً من الدينكا ضد الحكم الاستعماري حتى تفرق أتباعه عام 1922.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": [
+    {
+     "source": "GHA7_CH23",
+     "page": "p.594"
+    },
+    {
+     "source": "GHA7_CH23",
+     "page": "p.595"
+    }
+   ],
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-nuer-01",
+   "group": "nuer",
+   "era_id": "anglo-egyptian-sudan-condominium",
+   "other_group_or_state": "Condominium government",
+   "type": "conflict",
+   "text_en": "The Nuer refused to recognise the new government; leaders Dengkur and Diu were active until 1906–07, Dowl Diu attacked a post in 1914, and resistance culminated in the revolt of 1927–28.",
+   "text_ar": "رفض النوير الاعتراف بالحكومة الجديدة؛ نشط الزعيمان دنقكور وديو حتى 1906–1907، وهاجم دول ديو مركزاً حكومياً عام 1914، وبلغت المقاومة ذروتها في ثورة 1927–1928.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": [
+    {
+     "source": "GHA7_CH4",
+     "page": "p.81"
+    },
+    {
+     "source": "GHA7_CH23",
+     "page": "p.595"
+    }
+   ],
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-masalit-01",
+   "group": "masalit",
+   "era_id": "sultanate-of-darfur-keira",
+   "other_group_or_state": "Darfur sultanate",
+   "type": "subjugation",
+   "text_en": "Before the Egyptian conquest of Darfur, Dar Masalit was part of Darfur's western district under the viceroy of the west; the Masalit had only firrash, lower-ranking chiefs.",
+   "text_ar": "قبل الفتح المصري لدارفور كانت دار مساليت جزءاً من الإقليم الغربي لدارفور تحت مقدوم الغرب، ولم يكن للمساليت إلا «فرّاش» أدنى رتبة.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "MACMICHAEL1922_V1",
+    "page": "p.86"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-masalit-02",
+   "group": "masalit",
+   "era_id": "wadai-sultanate",
+   "other_group_or_state": "Wadai",
+   "type": "conflict",
+   "text_en": "Dar Masalit was contested between Wadai and Darfur; MacMichael says Wadai held no rights there and only made occasional attacks.",
+   "text_ar": "كانت دار مساليت موضع نزاع بين وداي ودارفور؛ ويقول ماكمايكل إن وداي لم تملك فيها حقوقاً وإنما شنت عليها هجمات متفرقة.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "MACMICHAEL1922_V1",
+    "page": "p.86"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-baggara-01",
+   "group": "baggara",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "other_group_or_state": "Turco-Egyptian government / Jieng (Dinka)",
+   "type": "conflict",
+   "text_en": "The Baggara were to pay tax in cattle to the governor of Kordofan, or in slaves if they could not; GHA says they therefore raided the Jieng for slaves.",
+   "text_ar": "كان على البقارة أداء الضرائب ماشيةً لحاكم كردفان أو رقيقاً إن عجزوا؛ ويقول المصدر إنهم لذلك أغاروا على الجينق طلباً للرقيق.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA6_CH14",
+    "page": "p.364"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-baggara-02",
+   "group": "baggara",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "other_group_or_state": "Nuba / Shilluk frontier",
+   "type": "migration",
+   "text_en": "Bakkara Arabs occupied the former Nuba–Shilluk frontier zone between the Nile and the Nuba Hills in the second half of the 19th century.",
+   "text_ar": "شغل عرب البقارة منطقة التخوم السابقة بين النوبة والشلك بين النيل وتلال النوبة في النصف الثاني من القرن التاسع عشر.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "GHA5_CH7",
+    "page": "p.195"
    },
    "badge": "SINGLE-SOURCE",
    "certainty": "medium"

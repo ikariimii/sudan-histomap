@@ -192,3 +192,10 @@ Following the scope change, I did not build data/views/<lang>.json. The language
 - ethiopian-empire-solomonic: power_cinc_share = 0.24 PARTIAL, 1941–1974 only, COW_NMC6 (RP-CINC-SHARE-1), taken from db/regional_power_scores_post1900.json (Analyst, 44078a3).
 - Retired the 0.65 [VERIFY] over 1898–1974 (dd154c8) and its "near 1.0 by construction" flag.
 - Excluded: 1898–1936 (Ethiopia the only state of the comparison set, same ruling as Ottoman Egypt); 1937–1940 (no COW rows during the Italian occupation); before 1898 (not a COW member).
+
+## Pass 30 — groups batch 2b: Nuba, Dinka, Nuer, Shilluk, Masalit, Baggara (Historian, 2026-10-24)
+- New registry ID MACMICHAEL1922_V1 (MacMichael, *A History of the Arabs in the Sudan*, vol. I, 1922; Internet Archive, US public domain). Used for Masalit pp.85–86 and Baggara pp.271–274. Colonial racial framing appears only as notes in `colonial_framing`, never as fact.
+- Six full group entries in db/groups.json, built by db/build_groups_b2.py. Sources: LOC 1991, GHA V ch.7 (pp.192–197), GHA VI ch.14 (pp.364, 366), GHA VII ch.4 (p.81) and ch.23 (pp.594–595).
+- Homeland anchors (Wikidata P625, checked live): Nuba Mountains Q1129989 (APPROXIMATE), Bor Q893274 for the Dinka (APPROXIMATE), Fashoda/Kodok Q1888763 for the Shilluk. Nuer, Masalit and Baggara have no anchor, with a null reason given.
+- 13 new relations (28 → 41).
+- Not used: Seligman 1932, because no full text with clear legal status was read; LOC's 20th-century Masalit–Fur skirmish and militia passages, under the modern-violence rule (UN/HRW only).
