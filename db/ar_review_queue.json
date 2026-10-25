@@ -3401,6 +3401,19 @@
       "action": "Native reviewer: add the GHA V c.1640–1874 dating to match the English, keeping O'Fahey's c.1650.",
       "origin_commit": "Keira c.1640 GHA V",
       "added": "2026-10-25"
+    },
+    {
+      "era_id": "mahdist-state-mahdiyya",
+      "file": "db/wars.json",
+      "field_ar": "wars[italian-mahdist-war].name_ar",
+      "arabic_sentence": "الحرب الإيطالية المهدية [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "name_en",
+      "revised_english": "Italian–Mahdist war (Eritrean frontier)",
+      "reason": "New Arabic war name written by Historian for kassala-1894 reassignment; needs native review",
+      "action": "verify",
+      "origin_commit": "kassala-1894 war reassignment",
+      "added": "2026-10-25"
     }
   ]
 }

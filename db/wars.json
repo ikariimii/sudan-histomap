@@ -181,9 +181,7 @@
         "Mahdist forces (eastern Sudan)",
         "British Desert Column",
         "Mahdist forces",
-        "Anglo-Egyptian frontier force",
-        "Italian colonial forces",
-        "Mahdist garrison of Kassala"
+        "Anglo-Egyptian frontier force"
       ],
       "belligerents_note": "From the sides of this war's cited battles in data/battles.json."
     },
@@ -574,6 +572,31 @@
         }
       ],
       "date_note": "'vers 1560' (SFDAS p.420)."
+    },
+    {
+      "id": "italian-mahdist-war",
+      "name_en": "Italian–Mahdist war (Eritrean frontier)",
+      "name_ar": "الحرب الإيطالية المهدية [يحتاج تحقق]",
+      "era_ids": [
+        "mahdist-state-mahdiyya",
+        "eritrea-italian-colony-independent"
+      ],
+      "start": "1893",
+      "end": "1897",
+      "end_badge": "VERIFY",
+      "belligerents": [
+        "Italian colonial forces",
+        "Mahdist garrison of Kassala"
+      ],
+      "outcome_en": "Mahdist attack on Agordat repulsed (1893); Italians under Baratieri captured Kassala the next year; Kassala retroceded to Egypt on Christmas Day in a ceremony with Colonel Parsons (River War I pp.355–358).",
+      "cites": [
+        {
+          "source_id": "RIVERWAR1899_V1",
+          "pages": "355–358"
+        }
+      ],
+      "date_note": "Start: 'in 1893 ... attacked the Europeans at Agordat' (River War I p.355). End: transfer 'on Christmas Day' (p.357), retrocession complete p.358; pp.357–358 print no year. 1897 is inferred from context (after Adowa 1896 and the Dongola advance, p.356), so end_badge VERIFY.",
+      "belligerents_note": "From the sides of this war's cited battles in data/battles.json."
     }
   ]
 }
