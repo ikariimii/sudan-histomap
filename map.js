@@ -20,7 +20,7 @@ $('lang').href=(AR?'/':'/ar/')+(lq.toString()?'?'+lq:'');$('prev').setAttribute(
 $('skip').textContent=T.skip;$('map').setAttribute('aria-label',T.mapl);$('svg').setAttribute('aria-label',T.mapl+'. '+T.featl);$('svgt').textContent=T.mapl;$('layers').setAttribute('aria-label',T.layersl);
 $('grab').setAttribute('aria-label',T.sheet+' · '+T.sheetst.half);$('grab').setAttribute('aria-expanded','true');
 $('reset').title=T.reset;$('reset').setAttribute('aria-label',T.reset);$('within').querySelector('label').textContent=T.within;
-const LAY=['ctl','grp','rel','pop','cty','hml','trd','evd'],on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x==='trade'?'trd':x==='evidence'?'evd':x).filter(x=>LAY.includes(x)));
+const LAY=['ctl','grp','rel','eth','pop','cty','hml','trd','evd'],on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x==='trade'?'trd':x==='evidence'?'evd':x).filter(x=>LAY.includes(x)));
 LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=T.l[k];b.setAttribute('aria-pressed',on.has(k));b.dataset.k=k;
  b.onclick=()=>{on.has(k)?on.delete(k):on.add(k);b.setAttribute('aria-pressed',on.has(k));url();if(k==='evd'){evdStyle();layerInfo(ES[i]);return}render(false);if(k==='hml')hmlDraw()};$('layers').appendChild(b)});
 document.addEventListener('click',ev=>{const t=ev.target.closest&&ev.target.closest('[data-hml]');if(!t)return;ev.preventDefault();if(!on.has('hml')){on.add('hml');const c=document.querySelector('#layers .chip[data-k=hml]');if(c)c.setAttribute('aria-pressed','true');url();render(false);hmlDraw()}});
@@ -131,6 +131,15 @@ function evdStyle(){zdefs();const ev=on.has('evd');document.body.classList.toggl
  [...gX.selectAll('path.ext:not(.old)').nodes(),...gZ.selectAll('path.zn').nodes()].forEach(function(n){const f=n.__data__;(function(){const zn=this.classList.contains('zn');const c=f?cf(f.properties):null,s=this.style;if(!ev){s.fillOpacity='';s.strokeDasharray='';s.strokeOpacity='';return}
   s.fillOpacity=c==null?'.06':String(.08+.5*c);s.strokeOpacity=c==null?'.6':String(.4+.6*c);s.strokeDasharray=c==null?'2 4':(c<.5?'6 4':'');
   if(!zn&&c!=null&&c<.5)gEv.append('path').attr('d',this.getAttribute('d')).attr('fill','url(#lowconf)').style('opacity',.9*(1-c))}).call(n)})}
+// --- 1932 ethnographic label markers (?layers=eth): per-era /eth/<id>.json; dashed unfilled halo, never an area.
+const gEt=root.append('g').attr('class','eth'),ETH={};
+async function ethDraw(e){const has=(M.layers.eth||[]).includes(e.id),c=document.querySelector('#layers .chip[data-k=eth]');if(c)c.hidden=!has;gEt.selectAll('*').remove();if(!has||!on.has('eth'))return;
+ const d=ETH[e.id]||(ETH[e.id]=await fetch('/eth/'+e.id+'.json').then(r=>r.ok?r.json():[]).catch(()=>[]));if(e!==ES[i])return;
+ d.filter(m=>m.pre==null||(e.a<m.pre&&(Y==null||Y<m.pre))).forEach(m=>{const [x,y]=proj(m.c),r=Math.abs(proj([m.c[0],m.c[1]+m.km/111])[1]-y);const g=gEt.append('g').attr('class','ethm').attr('tabindex',0).attr('role','button').attr('aria-label',`${m.n}: ${T.ethcap}`).on('click',ev=>{ev.stopPropagation();ethCard(m)}).on('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ethCard(m)}});
+  g.append('circle').attr('cx',x).attr('cy',y).attr('r',r).attr('fill','none').attr('stroke','#c9a227').attr('stroke-opacity',m.op).attr('stroke-width',1.4).attr('stroke-dasharray','5 4').attr('vector-effect','non-scaling-stroke');
+  g.append('circle').attr('cx',x).attr('cy',y).attr('r',3).attr('fill','#c9a227');
+  g.append('text').attr('x',x).attr('y',y-6).attr('text-anchor','middle').attr('class','ethl').text(m.n)})}
+function ethCard(m){$('feat').innerHTML=`<button class="x" aria-label="${esc(T.close)}">×</button><b lang="en">${esc(m.n)}</b> ${m.b.map(x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`).join(' ')}<p>${esc(AR?(m.cap_ar||T.ethcap):T.ethcap)}</p>${m.dn&&!AR?`<p><small>${esc(m.dn)}</small></p>`:''}<p class="extnote"><bdi dir="ltr">${esc(m.src)}${m.pl?' · '+esc(m.pl):''}</bdi>${m.u?` <a href="${esc(m.u)}" rel="noopener">link</a>`:''}</p>`;$('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true}}
 // --- tap a feature for details
 function feat(f,e){const p=f.properties,b=rep(p);const det=AR?(p.label_detail_ar||p.label_detail_en):(p.label_detail_en||p.label_detail_ar);
  $('feat').innerHTML=`<button class="x" aria-label="close">×</button><b>${esc(lab(p)||'—')}</b>${b?` <span class="repb${b==='CONTESTED'?' cont':b==='SINGLE-SOURCE'?' single':''}">${esc(b==='SINGLE-SOURCE'&&!AR?p.badge:BL[b][AR?1:0])}</span>`:''}${p.certainty?` <small>[${esc(p.certainty)}]</small>`:''}`+
@@ -170,7 +179,7 @@ function glTap(ev,f){ev.stopPropagation();const li=document.querySelector(`#card
 let TRD=null;const gTr=root.append('g').attr('class','trade');
 async function tradeDraw(e){gTr.selectAll('*').remove();if(!on.has('trd'))return;if(!TRD)TRD=await fetch('/trade.json').then(r=>r.ok?r.json():[]).catch(()=>[]);const ar=document.documentElement.lang==='ar';
  TRD.filter(r=>r.eras.includes(e.id||e)&&r.w.length>1).forEach(r=>{gTr.append('path').attr('d',path({type:'LineString',coordinates:r.w.map(w=>[w[0],w[1]])})).attr('fill','none').attr('stroke','#e8b04a').attr('stroke-width',2).attr('stroke-dasharray',r.w.some(w=>w[2])?'5 4':null).attr('vector-effect','non-scaling-stroke').attr('tabindex',0).attr('role','img').attr('aria-label',(ar&&r.ar||r.en)+' — '+r.s.map(s=>s.c).join('; ')).append('title').text((ar&&r.ar||r.en)+'\n'+r.s.map(s=>s.c).join('\n'))})}
-async function layersDraw(e){tradeDraw(e);{const hg=!!M.layers.glBuilt&&(M.layers.g||[]).includes(e.id);['grp','rel'].forEach(k=>{const c=document.querySelector('#layers .chip[data-k='+k+']');if(c)c.hidden=!hg})}const fs=(on.has('grp')||on.has('rel'))?await glj(e):[];const D=RM?0:DUR;
+async function layersDraw(e){tradeDraw(e);ethDraw(e);{const hg=!!M.layers.glBuilt&&(M.layers.g||[]).includes(e.id);['grp','rel'].forEach(k=>{const c=document.querySelector('#layers .chip[data-k='+k+']');if(c)c.hidden=!hg})}const fs=(on.has('grp')||on.has('rel'))?await glj(e):[];const D=RM?0:DUR;
  const pts=on.has('grp')?fs.filter(f=>f.k!=='relation'&&f.geo&&f.geo.type==='Point'):[];
  // stable ids: the same group feature glides to its new anchor between eras
  const s=gG.selectAll('g.grp').data(pts,f=>f.id);s.exit().remove();

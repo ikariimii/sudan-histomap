@@ -119,3 +119,4 @@ body.sfull #lgb,body.sfull #lgp,body.sfull #reset{visibility:hidden}
 
 /* Evidence mode */
 .evd>summary{cursor:pointer}.evp{font-weight:600}.evb{display:flex;flex-wrap:wrap;gap:4px}.hwk ul{margin:.2em 0;padding-inline-start:1.2em}.evc{color:var(--ink)}
+.ethl{font:600 10px system-ui,sans-serif;fill:#e8d27a;paint-order:stroke;stroke:#0008;stroke-width:3px;pointer-events:none}.ethm{cursor:pointer}
