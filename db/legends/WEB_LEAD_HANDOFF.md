@@ -18,6 +18,7 @@ Files (data only, no view code touched): `legend_spec.json` (symbol classes, unc
 
 ## Homelands layer
 - Spec in `legend_spec.homelands_layer`: `db/group_layers/homelands.geojson`, off by default, era-independent (undated), soft area (no outline) or point, badge chips in popup. Toggle label "Homelands (undated)"; Arabic flagged for native review.
+- Homeland labels render at `#5fd3ad` (not Okabe-Ito `#009E73`) for readability on the dark basemap; fill/stroke unchanged (Innovation Manager ruling, 2026-10-24).
 
 ## GIS furniture
 - Credit/datum line always visible (collapsed to "WGS 84 · Web Mercator ⓘ" on mobile).

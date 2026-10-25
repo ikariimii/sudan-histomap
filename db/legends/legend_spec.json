@@ -415,8 +415,10 @@
   "style": {
    "soft_area": "fill #009E73 at 0.12, no stroke, radial fade, only where a source gives an area",
    "point": "circle 8 px, fill #009E73 at 0.6, white 0.8 px halo",
-   "label": "group name, small caps, #009E73 darkened, below city labels"
+   "label": "group name, small caps, #5fd3ad, below city labels"
   },
+  "label_colour": "#5fd3ad",
+  "label_colour_note": "Labels render at #5fd3ad instead of Okabe-Ito #009E73 for readability on the dark basemap (Innovation Manager ruling, 2026-10-24)",
   "badge_display": "Badge chips (e.g. SINGLE-SOURCE, APPROXIMATE, CONTESTED, AR-REVIEW) in popup; APPROXIMATE points get a dashed halo; CONTESTED gets the amber outline from uncertainty_encoding.",
   "toggle_label_en": "Homelands (undated)",
   "toggle_label_ar": "المواطن (غير مؤرخة)",
