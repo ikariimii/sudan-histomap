@@ -2,13 +2,15 @@
  "meta": {
   "owner": "Sudan Historian",
   "built": "2026-10-24",
-  "batch": 1,
+  "batch": "1 + 2 (QASIM_MAWSUA vol. 4 additions and stubs)",
   "status": "draft batch 1; Arabic text is a working translation pending native review",
   "badges": [
-   "SINGLE-SOURCE",
+   "APPROXIMATE",
    "CONTESTED",
    "REPORTED",
-   "TRADITION"
+   "SINGLE-SOURCE",
+   "TRADITION",
+   "VERIFY"
   ],
   "relation_types": [
    "alliance",
@@ -18,6 +20,7 @@
    "migration"
   ],
   "rules": "Coordinates from Wikidata P625 only. LOC Country Study cites use the section heading as locator (web edition has no page numbers). Map limits are text only. Unsourced fields are null with a reason.",
+  "qasim_note": "QASIM_MAWSUA = 'Awn al-Sharif Qasim, Mawsu'at al-qaba'il wa-al-ansab fi al-Sudan (1996), vol. 4 only (ظ ع غ ف), printed page = PDF page + 1408. Arabic quotes are original source text; quote_en is a working translation. Quotes marked VERIFY were not checked against the page image. Genealogies are TRADITION.",
   "note": "Source of truth; groups.json inline relations are generated from this file."
  },
  "relations": [
@@ -467,6 +470,74 @@
    "cite": {
     "source": "LOC1991_MUSLIMPEOPLES",
     "page": "§ Masalit, Daju, and Berti"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-funj-06",
+   "group": "funj",
+   "era_id": "alodia-alwa",
+   "other_group_or_state": "'Abdallab",
+   "type": "alliance",
+   "text_en": "The Funj, led by 'Amara Dunqas, allied with the 'Abdallab and brought down the kingdom of Alwa.",
+   "text_ar": "تحالف الفونج بقيادة زعيمهم عمارة دنقس مع العبدلاب فأسقطوا دولة علوة.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "QASIM_MAWSUA",
+    "page": "p.1812",
+    "pdf_page": 404,
+    "quote": "تحالفوا بقيادة زعيمهم عمارة دنقس (م) مع العبدلاب (م) فاسقطوا دولة علوة (م)",
+    "quote_lang": "ar",
+    "quote_status": "original source text",
+    "quote_en": "led by their chief 'Amara Dunqas they allied with the 'Abdallab and brought down the state of Alwa",
+    "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-abdallab-01",
+   "group": "abdallab",
+   "era_id": "alodia-alwa",
+   "other_group_or_state": "Funj",
+   "type": "alliance",
+   "text_en": "The 'Abdallab allied with the Funj under 'Amara Dunqas to bring down Alwa (as told under the Funj entry).",
+   "text_ar": "تحالف العبدلاب مع الفونج بقيادة عمارة دنقس فأسقطوا دولة علوة.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "QASIM_MAWSUA",
+    "page": "p.1812",
+    "pdf_page": 404,
+    "quote": "تحالفوا بقيادة زعيمهم عمارة دنقس (م) مع العبدلاب (م) فاسقطوا دولة علوة (م)",
+    "quote_lang": "ar",
+    "quote_status": "original source text",
+    "quote_en": "led by their chief 'Amara Dunqas they allied with the 'Abdallab and brought down the state of Alwa",
+    "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-tunjur-01",
+   "group": "tunjur",
+   "era_id": "tunjur-kingdom",
+   "other_group_or_state": "Fur (Kayra)",
+   "type": "conflict",
+   "text_en": "The Fur under the Kayra consolidated their leadership and took power from the Daju and the Tunjur.",
+   "text_ar": "وطّد الفور بقيادة الكيرا زعامتهم وانتزعوا السلطة من الداجو والتنجر.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "QASIM_MAWSUA",
+    "page": "p.1808",
+    "pdf_page": 400,
+    "quote": "فروع الفور الرئيسية فى توطيد زعامتهم وانتزاع السلطة من الداجو والتنجور",
+    "quote_lang": "ar",
+    "quote_status": "original source text",
+    "quote_en": "...the main Fur branches [began] to consolidate their leadership and take power from the Daju and the Tunjur",
+    "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+    "badge": "VERIFY",
+    "ocr_note": "Tesseract OCR, not checked against the page image"
    },
    "badge": "SINGLE-SOURCE",
    "certainty": "medium"

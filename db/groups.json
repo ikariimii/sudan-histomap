@@ -2,13 +2,15 @@
  "meta": {
   "owner": "Sudan Historian",
   "built": "2026-10-24",
-  "batch": 1,
+  "batch": "1 + 2 (QASIM_MAWSUA vol. 4 additions and stubs)",
   "status": "draft batch 1; Arabic text is a working translation pending native review",
   "badges": [
-   "SINGLE-SOURCE",
+   "APPROXIMATE",
    "CONTESTED",
    "REPORTED",
-   "TRADITION"
+   "SINGLE-SOURCE",
+   "TRADITION",
+   "VERIFY"
   ],
   "relation_types": [
    "alliance",
@@ -17,7 +19,8 @@
    "subjugation",
    "migration"
   ],
-  "rules": "Coordinates from Wikidata P625 only. LOC Country Study cites use the section heading as locator (web edition has no page numbers). Map limits are text only. Unsourced fields are null with a reason."
+  "rules": "Coordinates from Wikidata P625 only. LOC Country Study cites use the section heading as locator (web edition has no page numbers). Map limits are text only. Unsourced fields are null with a reason.",
+  "qasim_note": "QASIM_MAWSUA = 'Awn al-Sharif Qasim, Mawsu'at al-qaba'il wa-al-ansab fi al-Sudan (1996), vol. 4 only (ظ ع غ ف), printed page = PDF page + 1408. Arabic quotes are original source text; quote_en is a working translation. Quotes marked VERIFY were not checked against the page image. Genealogies are TRADITION."
  },
  "groups": [
   {
@@ -88,6 +91,22 @@
       "page": "p.83"
      },
      "note": "northernmost Beja groups, gradually Arabized"
+    },
+    {
+     "name": "'Adilwiyab",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1536",
+      "pdf_page": 128,
+      "quote": "عديلوياب: فرع من البجا",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "'Adilwiyab: a branch of the Beja",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
     }
    ],
    "language_family": {
@@ -191,7 +210,8 @@
     "GHA3_CH8",
     "GHA4_CH16",
     "GHA4_CH17",
-    "LOC1991_MUSLIMPEOPLES"
+    "LOC1991_MUSLIMPEOPLES",
+    "QASIM_MAWSUA"
    ],
    "relations": [
     {
@@ -270,7 +290,7 @@
    "relations_generated_from": "db/relations.json",
    "origin": {
     "value": null,
-    "null_reason": "no claim found in the sources read for batch 1"
+    "null_reason": "not stated in any source read (QASIM_MAWSUA vol. 4 has no Beja main entry; it is under ب in another volume)"
    }
   },
   {
@@ -305,8 +325,99 @@
    "subgroups": [
     {
      "name": "Mahas",
-     "value": null,
-     "null_reason": "not named in any source read"
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1458",
+      "pdf_page": 50,
+      "quote": "ولد بمشكيلة بارض المحس",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "born at Mushkayla in the land of the Mahas",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "sections": [
+      {
+       "name": "'Abudab",
+       "cite": {
+        "source": "QASIM_MAWSUA",
+        "page": "p.1487",
+        "pdf_page": 79,
+        "quote": "عبوداب: فرع من المحس",
+        "quote_lang": "ar",
+        "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+        "quote_en": "'Abudab: a branch of the Mahas",
+        "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+        "badge": "VERIFY",
+        "ocr_note": "Tesseract OCR, not checked against the page image"
+       }
+      },
+      {
+       "name": "'Ubaydab",
+       "cite": {
+        "source": "QASIM_MAWSUA",
+        "page": "p.1494",
+        "pdf_page": 86,
+        "quote": "عبيداب: فرع من المحس",
+        "quote_lang": "ar",
+        "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+        "quote_en": "'Ubaydab: a branch of the Mahas",
+        "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+        "badge": "VERIFY",
+        "ocr_note": "Tesseract OCR, not checked against the page image"
+       }
+      },
+      {
+       "name": "Fallatab",
+       "cite": {
+        "source": "QASIM_MAWSUA",
+        "page": "p.1803",
+        "pdf_page": 395,
+        "quote": "فلآتاب: فرع من المحس",
+        "quote_lang": "ar",
+        "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+        "quote_en": "Fallatab: a branch of the Mahas",
+        "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+        "badge": "VERIFY",
+        "ocr_note": "Tesseract OCR, not checked against the page image"
+       }
+      }
+     ],
+     "places_text_only": [
+      {
+       "place": "Mushkayla (مشكيلة)",
+       "cite": {
+        "source": "QASIM_MAWSUA",
+        "page": "p.1458",
+        "pdf_page": 50,
+        "quote": "بمشكيلة بارض المحس",
+        "quote_lang": "ar",
+        "quote_status": "original source text",
+        "quote_en": "at Mushkayla in the land of the Mahas",
+        "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+        "badge": "VERIFY",
+        "ocr_note": "Tesseract OCR, not checked against the page image"
+       }
+      },
+      {
+       "place": "Jazirat Mikha'il (جزيرة ميخائيل)",
+       "cite": {
+        "source": "QASIM_MAWSUA",
+        "page": "p.1589",
+        "pdf_page": 181,
+        "quote": "جزيرة ميخائيل بارض المحس",
+        "quote_lang": "ar",
+        "quote_status": "original source text",
+        "quote_en": "Mikha'il Island in the land of the Mahas",
+        "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+        "badge": "VERIFY",
+        "ocr_note": "Tesseract OCR, not checked against the page image"
+       }
+      }
+     ],
+     "note": "No Wikidata coordinate checked for Mushkayla or Jazirat Mikha'il; text only.",
+     "badge": "SINGLE-SOURCE"
     },
     {
      "name": "Danagla (Danakla)",
@@ -318,7 +429,7 @@
     {
      "name": "Halfawiyin",
      "value": null,
-     "null_reason": "not named in any source read; LOC describes the Khashm al Qirbah resettlement without the name"
+     "null_reason": "not named in any source read (QASIM_MAWSUA vol. 4 included)"
     }
    ],
    "related_groups": [
@@ -341,7 +452,7 @@
    ],
    "language_family": {
     "value": null,
-    "null_reason": "LOC says only 'a related language'; no source read names the family"
+    "null_reason": "LOC says only 'a related language'; QASIM_MAWSUA vol. 4 calls words 'Nubian' (نوبية) and mentions the 'rutana' of the Danagla but names no language family"
    },
    "homeland": {
     "text_en": "The Nile valley in far northern Sudan and southern Egypt.",
@@ -415,7 +526,8 @@
     "GHA4_CH16",
     "GHA5_CH7",
     "GHA6_CH14",
-    "LOC1991_MUSLIMPEOPLES"
+    "LOC1991_MUSLIMPEOPLES",
+    "QASIM_MAWSUA"
    ],
    "relations": [
     {
@@ -519,6 +631,70 @@
       "source": "GHA5_CH7",
       "page": "p.183"
      }
+    },
+    {
+     "name": "'Abdrab",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1482",
+      "pdf_page": 74,
+      "quote": "عبدراب: فرع من الجعليين",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "'Abdrab: a branch of the Ja'aliyyin",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "'Ajulab",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1525",
+      "pdf_page": 117,
+      "quote": "عجولاب: فرع من الجعليين",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "'Ajulab: a branch of the Ja'aliyyin",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "'Aqaqla",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1583",
+      "pdf_page": 175,
+      "quote": "عقاقلة: فرع من الجعليين",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "'Aqaqla: a branch of the Ja'aliyyin",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Fadlab",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1745",
+      "pdf_page": 337,
+      "quote": "فاضلاب: فرع من الجعليين",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "Fadlab: a branch of the Ja'aliyyin",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
     }
    ],
    "language_family": {
@@ -583,7 +759,8 @@
    "sources": [
     "GHA5_CH7",
     "GHA6_CH14",
-    "LOC1991_MUSLIMPEOPLES"
+    "LOC1991_MUSLIMPEOPLES",
+    "QASIM_MAWSUA"
    ],
    "relations": [
     {
@@ -641,7 +818,7 @@
    "relations_generated_from": "db/relations.json",
    "origin": {
     "value": null,
-    "null_reason": "no claim found in the sources read for batch 1"
+    "null_reason": "not stated in QASIM_MAWSUA vol. 4 (main entry is under ج in another volume); vol. 4 p.1807 mentions Hasan Kardam 'ancestor of the Ja'aliyyin' only in passing"
    }
   },
   {
@@ -668,13 +845,46 @@
    ],
    "language_family": {
     "value": null,
-    "null_reason": "not stated in any source read"
+    "null_reason": "not stated in any source read (QASIM_MAWSUA vol. 4 included)"
    },
    "homeland": {
-    "text_en": null,
-    "null_reason": "sources read give only 'the region of Dunkula' as where Shaigiyya warriors became a major force (18th c.), not a homeland",
-    "anchors": [],
-    "map_limits": "text only"
+    "text_en": "The source places villages and sites 'in the land of the Shaigiyya' (ارض الشايقية / ديار الشايقية) on the Nile around Korti; it does not give limits.",
+    "text_ar": "يضع المصدر قرى ومواضع «بأرض الشايقية» على النيل حول كورتي، دون أن يحدد تخومها.",
+    "text_ar_status": "working translation – needs native-speaker review",
+    "cite": [
+     {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1719",
+      "pdf_page": 311,
+      "quote": "عُرَيْبة: مكان قرب كورتى بارض الشايقية",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "'Urayba: a place near Korti in the land of the Shaigiyya",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     }
+    ],
+    "anchors": [
+     {
+      "place": "Korti",
+      "gazetteer": "wikidata:Q472841",
+      "lat": 18.11666667,
+      "lon": 31.55,
+      "coord_source": "Wikidata P625",
+      "cite": {
+       "source": "QASIM_MAWSUA",
+       "page": "p.1719",
+       "pdf_page": 311,
+       "quote": "مكان قرب كورتى بارض الشايقية",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "a place near Korti in the land of the Shaigiyya",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+      },
+      "note": "APPROXIMATE: Korti is named as the reference town for a site in Shaigiyya land; the source names no capital"
+     }
+    ],
+    "map_limits": "text only; no source gives limits",
+    "badge": "SINGLE-SOURCE"
    },
    "controlled_areas": [
     {
@@ -696,7 +906,8 @@
    ],
    "sources": [
     "GHA5_CH7",
-    "GHA7_CH4"
+    "GHA7_CH4",
+    "QASIM_MAWSUA"
    ],
    "relations": [
     {
@@ -746,17 +957,179 @@
     }
    ],
    "relations_generated_from": "db/relations.json",
-   "subgroups": {
-    "value": null,
-    "null_reason": "no claim found in the sources read for batch 1"
-   },
-   "ancestry": {
-    "value": null,
-    "null_reason": "no claim found in the sources read for batch 1"
-   },
+   "subgroups": [
+    {
+     "name": "'Adlanab",
+     "name_ar": "عدلاناب",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1535",
+      "pdf_page": 127,
+      "quote": "عدلاناب: فرع من الشايقية",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "'Adlanab: a branch of the Shaigiyya",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "'Abdallab (Shaigiyya branch)",
+     "name_ar": "عبدلاب",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1484",
+      "pdf_page": 76,
+      "quote": "عبدلاب: فرع من الشايقية",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "'Abdallab (Shaigiyya branch): a branch of the Shaigiyya",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "'Abbudab",
+     "name_ar": "عبّوداب",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1486",
+      "pdf_page": 78,
+      "quote": "عبّوداب: فرع من الشايقية",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "'Ababdab? / 'Abbudab: a branch of the Shaigiyya",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "'Alyab",
+     "name_ar": "عالياب",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1435",
+      "pdf_page": 27,
+      "quote": "عالياب: فرع من الشايقية",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "'Alyab: a branch of the Shaigiyya",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "'Aydab",
+     "name_ar": "عايداب",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1439",
+      "pdf_page": 31,
+      "quote": "عايداب: فرع من الشايقية",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "'Aydab: a branch of the Shaigiyya",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "'Usumab",
+     "name_ar": "عسوماب",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1567",
+      "pdf_page": 159,
+      "quote": "عسوماب: فرع من الشايقية",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "'Usumab: a branch of the Shaigiyya",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "'Atitlab",
+     "name_ar": "عَطيتلاب",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1578",
+      "pdf_page": 170,
+      "quote": "عَطيتلاب: فرع من الشايقية",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "'Atitlab: a branch of the Shaigiyya",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "'Ananab",
+     "name_ar": "عنيناب",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1666",
+      "pdf_page": 258,
+      "quote": "عنيناب: فرع من الشايقية",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "'Ananab: a branch of the Shaigiyya",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ],
+   "ancestry": [
+    {
+     "text_en": "The source's genealogy names an eponymous ancestor Shayiq (شايق) whose sons are the ancestors of Shaigiyya sections, e.g. 'Adlan b. Shayiq of the 'Adlanab and 'Awn b. Shayiq of the 'Awniyya. Given as the source's account, not as fact.",
+     "cite": [
+      {
+       "source": "QASIM_MAWSUA",
+       "page": "p.1534",
+       "pdf_page": 126,
+       "quote": "عدلان بن شايق جد العدلاناب (م) الشايقية",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "'Adlan b. Shayiq, ancestor of the 'Adlanab of the Shaigiyya",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+       "badge": "VERIFY",
+       "ocr_note": "Tesseract OCR, not checked against the page image"
+      },
+      {
+       "source": "QASIM_MAWSUA",
+       "page": "p.1690",
+       "pdf_page": 282,
+       "quote": "عون بن شايق جد العونية",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "'Awn b. Shayiq, ancestor of the 'Awniyya",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+       "badge": "VERIFY",
+       "ocr_note": "Tesseract OCR, not checked against the page image"
+      }
+     ],
+     "badge": "TRADITION"
+    }
+   ],
    "origin": {
     "value": null,
-    "null_reason": "no claim found in the sources read for batch 1"
+    "null_reason": "not stated in any source read (QASIM_MAWSUA vol. 4 has no main Shaigiyya entry; it is under ش in another volume)"
    }
   },
   {
@@ -794,6 +1167,16 @@
      {
       "source": "GHA5_CH7",
       "page": "pp.173–174"
+     },
+     {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1812",
+      "pdf_page": 404,
+      "quote": "قبيل من الناس فى منطقة جبال النيل الازرق معروفة بجبال لول (م) جنوب سنار",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "a people of the Blue Nile mountains region known as the Jibal Lul, south of Sennar",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
      }
     ],
     "anchors": [
@@ -810,7 +1193,39 @@
       "note": "Wikidata label currently reads 'Sengs' (enwiki: Sennar)"
      }
     ],
-    "map_limits": "text only"
+    "map_limits": "text only",
+    "qasim_text_en": "QASIM_MAWSUA puts the Funj in the Blue Nile mountains known as Jibal Lul, south of Sennar, and says Funj still live in Dar Funj on the Blue Nile and on 'the Funj island' in northern Sudan.",
+    "qasim_text_ar": "يضع المصدر الفونج في منطقة جبال النيل الأزرق المعروفة بجبال لول جنوب سنار، ويذكر أنهم ما زالوا يسكنون دار فونج بالنيل الأزرق وجزيرة الفونج في شمال السودان.",
+    "qasim_text_ar_status": "working translation – needs native-speaker review",
+    "places_text_only": [
+     {
+      "place": "Jibal Lul (جبال لول)",
+      "note": "no gazetteer coordinate checked; text only",
+      "cite": {
+       "source": "QASIM_MAWSUA",
+       "page": "p.1812",
+       "pdf_page": 404,
+       "quote": "معروفة بجبال لول (م) جنوب سنار",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "known as the Jibal Lul, south of Sennar",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+      }
+     },
+     {
+      "place": "Dar Funj (دار فونج), Blue Nile",
+      "cite": {
+       "source": "QASIM_MAWSUA",
+       "page": "p.1813",
+       "pdf_page": 405,
+       "quote": "دار فونج منطقة فى محافظة النيل الازرق يسكنها الفونج",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "Dar Funj: an area in Blue Nile province inhabited by the Funj",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+      }
+     }
+    ]
    },
    "origin": [
     {
@@ -818,6 +1233,20 @@
      "cite": {
       "source": "GHA5_CH7",
       "page": "p.173"
+     },
+     "badge": "CONTESTED"
+    },
+    {
+     "text_en": "QASIM_MAWSUA: scholars have long debated whether the Funj are of Shilluk, Umayyad or Abyssinian origin, 'and research has not yet produced a decisive view'; some say they are from the Qanja, others from the Banu Hilal. Kept alongside Bruce's Shilluk account.",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1813",
+      "pdf_page": 405,
+      "quote": "وقد دار جدل كبير بين الباحثين حول اصلهم هل هم من الشلك ام من الامويين ام من اصل حبشى ولم يسفر البحث عن رأى قاطع حتى الآن",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "There has been much debate among researchers on their origin: whether they are of the Shilluk, of the Umayyads, or of Abyssinian origin; research has not yet produced a decisive view.",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
      },
      "badge": "CONTESTED"
     }
@@ -864,12 +1293,29 @@
       }
      ],
      "certainty": "medium"
+    },
+    {
+     "era_id": "funj-sultanate-of-sennar",
+     "place": "Sennar (capital)",
+     "text_en": "Allied with the 'Abdallab under 'Amara Dunqas, the Funj overthrew Alwa and founded their state with its capital at Sennar in 910 AH / 1504; it lasted until 1235 AH / 1821 under 28 sultans.",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1812",
+      "pdf_page": 404,
+      "quote": "واقاموادولة الفونج وعاصمتها سنار عام ٩١٠هـ/ ١٥٠٤م",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "and they founded the Funj state, its capital Sennar, in 910 AH / 1504 CE",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "certainty": "medium"
     }
    ],
    "sources": [
     "GHA5_CH7",
     "GHA6_CH14",
-    "LOC1991_MUSLIMPEOPLES"
+    "LOC1991_MUSLIMPEOPLES",
+    "QASIM_MAWSUA"
    ],
    "relations": [
     {
@@ -958,12 +1404,33 @@
      ],
      "badge": "SINGLE-SOURCE",
      "certainty": "high"
+    },
+    {
+     "id": "rel-funj-06",
+     "era_id": "alodia-alwa",
+     "other_group_or_state": "'Abdallab",
+     "type": "alliance",
+     "text_en": "The Funj, led by 'Amara Dunqas, allied with the 'Abdallab and brought down the kingdom of Alwa.",
+     "text_ar": "تحالف الفونج بقيادة زعيمهم عمارة دنقس مع العبدلاب فأسقطوا دولة علوة.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1812",
+      "pdf_page": 404,
+      "quote": "تحالفوا بقيادة زعيمهم عمارة دنقس (م) مع العبدلاب (م) فاسقطوا دولة علوة (م)",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "led by their chief 'Amara Dunqas they allied with the 'Abdallab and brought down the state of Alwa",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "SINGLE-SOURCE",
+     "certainty": "medium"
     }
    ],
    "relations_generated_from": "db/relations.json",
    "subgroups": {
     "value": null,
-    "null_reason": "no claim found in the sources read for batch 1"
+    "null_reason": "no Funj subgroup list in QASIM_MAWSUA vol. 4 (it lists the sultans only); not stated in other sources read"
    }
   },
   {
@@ -995,6 +1462,66 @@
        "page": "p.356"
       }
      ]
+    },
+    {
+     "name": "Kunjara (east)",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1809",
+      "pdf_page": 401,
+      "quote": "ويقسمهم التونسى الى: كُنْجارة (م) فى الشرق ، وكَرَاكيت (م) فى جبل سى (م) ، والتَمُورْكة (م) فى الجنوب الغربى خلف جبل مرة",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "al-Tunisi divides them into the Kunjara in the east, the Karakit on Jebel Si, and the Tamurka in the south-west behind Jebel Marra",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "note": "al-Tunisi's division as reported by QASIM_MAWSUA, which adds that 'distinguishing between them is difficult'",
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Karakit (Jebel Si)",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1809",
+      "pdf_page": 401,
+      "quote": "ويقسمهم التونسى الى: كُنْجارة (م) فى الشرق ، وكَرَاكيت (م) فى جبل سى (م) ، والتَمُورْكة (م) فى الجنوب الغربى خلف جبل مرة",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "al-Tunisi divides them into the Kunjara in the east, the Karakit on Jebel Si, and the Tamurka in the south-west behind Jebel Marra",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "note": "al-Tunisi's division as reported by QASIM_MAWSUA, which adds that 'distinguishing between them is difficult'",
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Tamurka (south-west, behind Jebel Marra)",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1809",
+      "pdf_page": 401,
+      "quote": "ويقسمهم التونسى الى: كُنْجارة (م) فى الشرق ، وكَرَاكيت (م) فى جبل سى (م) ، والتَمُورْكة (م) فى الجنوب الغربى خلف جبل مرة",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "al-Tunisi divides them into the Kunjara in the east, the Karakit on Jebel Si, and the Tamurka in the south-west behind Jebel Marra",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "note": "al-Tunisi's division as reported by QASIM_MAWSUA, which adds that 'distinguishing between them is difficult'",
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Tunjur (as 'a branch of the Fur')",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1808",
+      "pdf_page": 400,
+      "quote": "وكان التنجر (م) وهم فرع من الفور يسيطرون على المنطقة من مركزهم فى جبل حريز شرق جبل مرة",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Tunjur, a branch of the Fur, controlled the area from their centre at Jebel Hariz east of Jebel Marra",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "CONTESTED",
+     "note": "QASIM_MAWSUA counts the Tunjur as a Fur branch; GHA V (pp.187–188) treats them as the people the Fur drove out. Both views kept."
     }
    ],
    "language_family": {
@@ -1017,6 +1544,16 @@
      {
       "source": "GHA5_CH7",
       "page": "p.190"
+     },
+     {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1807",
+      "pdf_page": 399,
+      "quote": "فور: قبيلة كبيرة بها سمّيت دارفور(م) فى غرب السودان ومركزهم جبل مَرّة",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "Fur: a large tribe after whom Darfur in western Sudan is named; their centre is Jebel Marra",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
      }
     ],
     "anchors": [
@@ -1077,12 +1614,42 @@
       }
      ],
      "certainty": "high"
+    },
+    {
+     "era_id": "sultanate-of-darfur-keira",
+     "place": "Darfur",
+     "text_en": "QASIM_MAWSUA dates the Fur kingdom 848–1291 AH (c.1445–1874), counting 16 sultans before Sulayman Solongdungu from 'another tradition'; GHA V dates the Kayra sultanate c.1640–1874. Both kept.",
+     "cite": [
+      {
+       "source": "QASIM_MAWSUA",
+       "page": "p.1807",
+       "pdf_page": 399,
+       "quote": "فأسسوا مملكة قوية فى دارفور دامت من سنة ٨٤٨ هـ الى سنة ١٢٩١هـ",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "they founded a strong kingdom in Darfur that lasted from 848 AH to 1291 AH",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+      },
+      {
+       "source": "QASIM_MAWSUA",
+       "page": "p.1809",
+       "pdf_page": 401,
+       "quote": "وتذكر رواية اخرى للفور ان السلاطين المذكورين اعلاه قد سبقهم سلاطين آخرون",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "another Fur tradition says the sultans listed above were preceded by other sultans",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+      }
+     ],
+     "badge": "CONTESTED",
+     "certainty": "low"
     }
    ],
    "sources": [
     "GHA5_CH7",
     "GHA6_CH14",
-    "LOC1991_MUSLIMPEOPLES"
+    "LOC1991_MUSLIMPEOPLES",
+    "QASIM_MAWSUA"
    ],
    "relations": [
     {
@@ -1204,14 +1771,703 @@
     }
    ],
    "relations_generated_from": "db/relations.json",
+   "ancestry": [
+    {
+     "text_en": "Their tradition says Banu Hilal led by Ahmad al-Ma'qur, a descendant of Abu Zayd al-Hilali, came to Jebel Marra, mixed with the Fur, and that his grandson Sulayman Solongdungu united the Fur; the Kayra are traced to the Banu 'Abbas and Banu Hilal. Given as the source's account, not as fact.",
+     "cite": [
+      {
+       "source": "QASIM_MAWSUA",
+       "page": "p.1808",
+       "pdf_page": 400,
+       "quote": "وتذكر روايتهم ان بعض بنى هلال بقيادة احمد المعقور ، من احفاد ابى زيد الهلالى الذى ينتمى لبنى العباس جاءوا الى جبل مَرّة موطن الفور واختلطوا بهم",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "Their tradition says that some Banu Hilal led by Ahmad al-Ma'qur, a descendant of Abu Zayd al-Hilali, came to Jebel Marra, the Fur homeland, and mixed with them",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+      },
+      {
+       "source": "QASIM_MAWSUA",
+       "page": "p.1808",
+       "pdf_page": 400,
+       "quote": "الكيرا الذين ينتسبون الى بنى العباس وبنى هلال",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "the Kayra, who trace their descent to the Banu 'Abbas and Banu Hilal",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+      }
+     ],
+     "badge": "TRADITION"
+    }
+   ],
+   "origin": [
+    {
+     "text_en": "QASIM_MAWSUA reports that researchers disagree on Fur origins and gives as 'most likely' a mixture later mixed with Arabs (the source uses dated racial categories: 'Zanj', 'Hamites', 'Semitic Arabs'). It also reports Arkell's two explanations (descendants of Fur, brother of Firat, ancestor of the Fertit; or Fertit who stayed and converted, 'Fur' meaning 'followers'), a tradition that 'Fur' means 'the Black', and a view that they are part of the Nuba.",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1809",
+      "pdf_page": 401,
+      "quote": "واختلف الباحثون حول اصل الفور والراجح انهم خليط من الزنج والحاميين ثم اختلطوا بالساميين العرب",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "Researchers disagree on the origin of the Fur; the most likely view is that they are a mixture of Zanj and Hamites who then mixed with Semitic Arabs.",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "CONTESTED",
+     "editorial_note": "Quoted as the source's 1996 wording; the racial categories are the source's, not the project's."
+    }
+   ]
+  },
+  {
+   "id": "abdallab",
+   "name_en": "'Abdallab",
+   "name_ar": {
+    "value": "العبدلاب",
+    "status": "working translation – needs native-speaker review"
+   },
+   "aliases": {
+    "value": null,
+    "null_reason": "not in sources read"
+   },
+   "subgroups": [
+    {
+     "name": "Shawarab (via Shawir)",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1483",
+      "pdf_page": 75,
+      "quote": "وولد عبد الله جماع ثمانية أولاد",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "'Abdallah Jamma' had eight sons",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "TRADITION"
+    },
+    {
+     "name": "'Antarab (via 'Antar)",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1483",
+      "pdf_page": 75,
+      "quote": "وولد عبد الله جماع ثمانية أولاد",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "'Abdallah Jamma' had eight sons",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "TRADITION"
+    },
+    {
+     "name": "'Ajibab (via 'Ajib al-Manjilak)",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1483",
+      "pdf_page": 75,
+      "quote": "وولد عبد الله جماع ثمانية أولاد",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "'Abdallah Jamma' had eight sons",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "TRADITION"
+    },
+    {
+     "name": "Inqiriyab (via Idris al-Inqir)",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1483",
+      "pdf_page": 75,
+      "quote": "وولد عبد الله جماع ثمانية أولاد",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "'Abdallah Jamma' had eight sons",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "TRADITION"
+    },
+    {
+     "name": "Diyumab (via Muhammad Diyuma, at Hajar al-'Asal)",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1483",
+      "pdf_page": 75,
+      "quote": "وولد عبد الله جماع ثمانية أولاد",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "'Abdallah Jamma' had eight sons",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "TRADITION"
+    },
+    {
+     "name": "'Abbudab (via 'Abbuda, at Atbara)",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1483",
+      "pdf_page": 75,
+      "quote": "وولد عبد الله جماع ثمانية أولاد",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "'Abdallah Jamma' had eight sons",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "TRADITION"
+    }
+   ],
+   "language_family": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "homeland": {
+    "text_en": "Their centres were Halfayat al-Muluk, Qerri, Shambat, al-Hilaliyya, 'Ad al-Shaykh and others.",
+    "text_ar": "مراكزهم حلفاية الملوك وقرّي وشمبات والهلالية وعد الشيخ وغيرها.",
+    "text_ar_status": "working translation – needs native-speaker review",
+    "cite": {
+     "source": "QASIM_MAWSUA",
+     "page": "p.1483",
+     "pdf_page": 75,
+     "quote": "ومراكزهم حلفاية الملوك وقرّى وشمبات والهلالية وعد الشيخ وغيرها",
+     "quote_lang": "ar",
+     "quote_status": "original source text",
+     "quote_en": "their centres are Halfayat al-Muluk, Qerri, Shambat, al-Hilaliyya, 'Ad al-Shaykh and others",
+     "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+    },
+    "anchors": [
+     {
+      "place": "Qerri",
+      "gazetteer": "wikidata:Q11924140",
+      "lat": 16.235551,
+      "lon": 32.631633,
+      "coord_source": "Wikidata P625",
+      "cite": {
+       "source": "QASIM_MAWSUA",
+       "page": "p.1483",
+       "pdf_page": 75,
+       "quote": "ومراكزهم حلفاية الملوك وقرّى",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "their centres are Halfayat al-Muluk, Qerri",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+      }
+     }
+    ],
+    "map_limits": "text only"
+   },
+   "controlled_areas": [
+    {
+     "era_id": "abdallab-chiefdom-funj-vassal",
+     "place": "'Abdallab shaykhdom",
+     "text_en": "The 'Abdallab shaykhdom lasted from 910 AH / 1505 to 1235 AH / 1821, under eighteen shaykhs.",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1483",
+      "pdf_page": 75,
+      "quote": "واستمرت مشيخة العبدلاب من ٩١٠هـ/ ١٥٠٥م الى ١٢٣٥هـ/ ١٨٢١م",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the 'Abdallab shaykhdom lasted from 910 AH / 1505 CE to 1235 AH / 1821 CE",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "certainty": "medium"
+    }
+   ],
+   "ancestry": [
+    {
+     "text_en": "A Juhayna tribe tracing descent to 'Abdallah Jamma', of the Qawasma of Rifa'a; their tradition says 'Abdallah Jamma's mother was of Juhayna Rifa'a and his father Husayni. Given as the source's account, not as fact.",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1483",
+      "pdf_page": 75,
+      "quote": "عَبْدُلاب: قبيلة جهنية تنتسب الى عبد الله جماع (م) وهم من القواسمة (م) من رفاعة (م) الجهنية",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "'Abdallab: a Juhayna tribe that traces its descent to 'Abdallah Jamma'; they are of the Qawasma of Juhayna Rifa'a",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "TRADITION"
+    }
+   ],
+   "origin": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "sources": [
+    "QASIM_MAWSUA"
+   ],
+   "batch": "2 (QASIM_MAWSUA stub; other sources to follow)",
+   "relations": [
+    {
+     "id": "rel-abdallab-01",
+     "era_id": "alodia-alwa",
+     "other_group_or_state": "Funj",
+     "type": "alliance",
+     "text_en": "The 'Abdallab allied with the Funj under 'Amara Dunqas to bring down Alwa (as told under the Funj entry).",
+     "text_ar": "تحالف العبدلاب مع الفونج بقيادة عمارة دنقس فأسقطوا دولة علوة.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1812",
+      "pdf_page": 404,
+      "quote": "تحالفوا بقيادة زعيمهم عمارة دنقس (م) مع العبدلاب (م) فاسقطوا دولة علوة (م)",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "led by their chief 'Amara Dunqas they allied with the 'Abdallab and brought down the state of Alwa",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "SINGLE-SOURCE",
+     "certainty": "medium"
+    }
+   ],
+   "relations_generated_from": "db/relations.json"
+  },
+  {
+   "id": "tunjur",
+   "name_en": "Tunjur",
+   "name_ar": {
+    "value": "التنجر",
+    "status": "working translation – needs native-speaker review"
+   },
+   "aliases": [
+    {
+     "name": "Tunjur / al-Tanajir (also 'a branch of the Fur' per this source)",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1808",
+      "pdf_page": 400,
+      "quote": "وكان التنجر (م) وهم فرع من الفور",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Tunjur, who are a branch of the Fur",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "CONTESTED",
+     "note": "see fur.subgroups"
+    }
+   ],
+   "subgroups": {
+    "value": null,
+    "null_reason": "not in sources read"
+   },
+   "language_family": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "homeland": {
+    "text_en": "Dar Fur-Tanaq in northern Darfur, north-west of Kutum, a mountain chain inhabited by Tunjur and Fur, where Zaghawa graze; it contains Furra, once capital of the Tunjur sultanate. Their earlier centre was Jebel Hariz, east of Jebel Marra.",
+    "text_ar": "دار فورتَنَق في شمال دارفور شمال غرب كتم، سلسلة جبال يسكنها التنجر والفور ويرعى فيها الزغاوة، وفيها مدينة فرّة عاصمة سلطنة التنجر سابقاً؛ وكان مركزهم جبل حريز شرق جبل مرة.",
+    "text_ar_status": "working translation – needs native-speaker review",
+    "cite": [
+     {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1810",
+      "pdf_page": 402,
+      "quote": "دار فورتَنَق: شمال دارفور شمال غرب كُتُم بها سلسلة من الجبال ويسكنها التنجور والفور",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "Dar Fur-Tanaq: northern Darfur, north-west of Kutum; it has a chain of mountains and is inhabited by the Tunjur and the Fur",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1808",
+      "pdf_page": 400,
+      "quote": "من مركزهم فى جبل حريز شرق جبل مرة",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "from their centre at Jebel Hariz east of Jebel Marra",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     }
+    ],
+    "anchors": [
+     {
+      "place": "Kutum",
+      "gazetteer": "wikidata:Q3317346",
+      "lat": 14.20555556,
+      "lon": 24.65,
+      "coord_source": "Wikidata P625",
+      "cite": {
+       "source": "QASIM_MAWSUA",
+       "page": "p.1810",
+       "pdf_page": 402,
+       "quote": "شمال غرب كُتُم",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "north-west of Kutum",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+      },
+      "note": "APPROXIMATE: Kutum is the source's reference town; the Tunjur area lies north-west of it. Furra and Jebel Hariz have no gazetteer coordinate checked."
+     }
+    ],
+    "map_limits": "text only",
+    "badge": "SINGLE-SOURCE"
+   },
+   "controlled_areas": [
+    {
+     "era_id": "tunjur-kingdom",
+     "place": "Furra (فرّة), Dar Fur-Tanaq",
+     "text_en": "Furra was the capital of the Tunjur sultanate and seat of their last sultan Shaw Dorshid.",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1810",
+      "pdf_page": 402,
+      "quote": "وتقع فيها مدينة فرّة التى كانت عاصمة لسلطنة التنجور (م) وحاضرة آخر سلاطينهم شاو دور شيد",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "in it lies the town of Furra, which was the capital of the Tunjur sultanate and seat of their last sultan Shaw Dorshid",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "certainty": "low"
+    }
+   ],
    "ancestry": {
     "value": null,
-    "null_reason": "no claim found in the sources read for batch 1"
+    "null_reason": "not stated in sources read"
    },
    "origin": {
     "value": null,
-    "null_reason": "no claim found in the sources read for batch 1"
-   }
+    "null_reason": "not stated in sources read"
+   },
+   "sources": [
+    "QASIM_MAWSUA"
+   ],
+   "batch": "2 (QASIM_MAWSUA stub; other sources to follow)",
+   "relations": [
+    {
+     "id": "rel-tunjur-01",
+     "era_id": "tunjur-kingdom",
+     "other_group_or_state": "Fur (Kayra)",
+     "type": "conflict",
+     "text_en": "The Fur under the Kayra consolidated their leadership and took power from the Daju and the Tunjur.",
+     "text_ar": "وطّد الفور بقيادة الكيرا زعامتهم وانتزعوا السلطة من الداجو والتنجر.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1808",
+      "pdf_page": 400,
+      "quote": "فروع الفور الرئيسية فى توطيد زعامتهم وانتزاع السلطة من الداجو والتنجور",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "...the main Fur branches [began] to consolidate their leadership and take power from the Daju and the Tunjur",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE",
+     "certainty": "medium"
+    }
+   ],
+   "relations_generated_from": "db/relations.json"
+  },
+  {
+   "id": "kababish",
+   "name_en": "Kababish",
+   "name_ar": {
+    "value": "الكبابيش",
+    "status": "working translation – needs native-speaker review"
+   },
+   "aliases": {
+    "value": null,
+    "null_reason": "not in sources read"
+   },
+   "subgroups": [
+    {
+     "name": "'Usayfir",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1575",
+      "pdf_page": 167,
+      "quote": "عصيفير: فرع من الكبابيش",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "'Usayfir: a branch of the Kababish",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "'Alawna",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1597",
+      "pdf_page": 189,
+      "quote": "علاونة: فرع من الكبابيش",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "'Alawna: a branch of the Kababish",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "'Ayayid",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1694",
+      "pdf_page": 286,
+      "quote": "عياييد: فرع من الكبابيش",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "'Ayayid: a branch of the Kababish",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Ghilaiban",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1725",
+      "pdf_page": 317,
+      "quote": "غليبان: فرع من الكبابيش",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "Ghilaiban: a branch of the Kababish",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Ghanawab",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1728",
+      "pdf_page": 320,
+      "quote": "غناواب: فرع من الكبابيش",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "Ghanawab: a branch of the Kababish",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ],
+   "language_family": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "homeland": {
+    "text_en": null,
+    "null_reason": "not stated in sources read",
+    "anchors": [],
+    "map_limits": "text only"
+   },
+   "controlled_areas": [],
+   "ancestry": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "origin": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "sources": [
+    "QASIM_MAWSUA"
+   ],
+   "batch": "2 (QASIM_MAWSUA stub; other sources to follow)",
+   "relations": [],
+   "relations_generated_from": "db/relations.json"
+  },
+  {
+   "id": "rashaida",
+   "name_en": "Rashaida",
+   "name_ar": {
+    "value": "الرشايدة",
+    "status": "working translation – needs native-speaker review"
+   },
+   "aliases": {
+    "value": null,
+    "null_reason": "not in sources read"
+   },
+   "subgroups": [
+    {
+     "name": "'Uraynat",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1558",
+      "pdf_page": 150,
+      "quote": "عرينات: فرع من الرشايدة",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "'Uraynat: a branch of the Rashaida",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "'Uwaymirat",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1694",
+      "pdf_page": 286,
+      "quote": "عويمرات: فرع من الرشايدة",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "'Uwaymirat: a branch of the Rashaida",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ],
+   "language_family": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "homeland": {
+    "text_en": null,
+    "null_reason": "not stated in sources read",
+    "anchors": [],
+    "map_limits": "text only"
+   },
+   "controlled_areas": [],
+   "ancestry": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "origin": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "sources": [
+    "QASIM_MAWSUA"
+   ],
+   "batch": "2 (QASIM_MAWSUA stub; other sources to follow)",
+   "relations": [],
+   "relations_generated_from": "db/relations.json"
+  },
+  {
+   "id": "zaghawa",
+   "name_en": "Zaghawa",
+   "name_ar": {
+    "value": "الزغاوة",
+    "status": "working translation – needs native-speaker review"
+   },
+   "aliases": {
+    "value": null,
+    "null_reason": "not in sources read"
+   },
+   "subgroups": [
+    {
+     "name": "'Aqaba",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1583",
+      "pdf_page": 175,
+      "quote": "عقابا: فرع من الزغاوة",
+      "quote_lang": "ar",
+      "quote_status": "normalised entry-heading form (headword + group named), not verbatim; see the printed page",
+      "quote_en": "'Aqaba: a branch of the Zaghawa",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ],
+   "language_family": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "homeland": {
+    "text_en": null,
+    "null_reason": "vol. 4 says only that Zaghawa graze in Dar Fur-Tanaq (north-west of Kutum); not a homeland",
+    "anchors": [],
+    "map_limits": "text only",
+    "grazing_note_cite": {
+     "source": "QASIM_MAWSUA",
+     "page": "p.1810",
+     "pdf_page": 402,
+     "quote": "ويرعى فيها الزغاوة (م)",
+     "quote_lang": "ar",
+     "quote_status": "original source text",
+     "quote_en": "and the Zaghawa graze there",
+     "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+    }
+   },
+   "controlled_areas": [],
+   "ancestry": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "origin": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "sources": [
+    "QASIM_MAWSUA"
+   ],
+   "batch": "2 (QASIM_MAWSUA stub; other sources to follow)",
+   "relations": [],
+   "relations_generated_from": "db/relations.json"
+  },
+  {
+   "id": "azande",
+   "name_en": "Azande",
+   "name_ar": {
+    "value": "الأزاندي",
+    "status": "working translation – needs native-speaker review"
+   },
+   "aliases": [
+    {
+     "name": "Fertit (فرتيت), a label applied to some southern tribes, especially the Azande",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "page": "p.1767",
+      "pdf_page": 359,
+      "quote": "فرتيت: لقب يطلق على بعض قبائل الجنوب خاصة الازاندى",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "Fertit: a label applied to some tribes of the South, especially the Azande",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE",
+     "note": "exonym; usage contested in other literature not read here"
+    }
+   ],
+   "subgroups": {
+    "value": null,
+    "null_reason": "not in sources read"
+   },
+   "language_family": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "homeland": {
+    "text_en": null,
+    "null_reason": "not stated in sources read",
+    "anchors": [],
+    "map_limits": "text only"
+   },
+   "controlled_areas": [],
+   "ancestry": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "origin": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "sources": [
+    "QASIM_MAWSUA"
+   ],
+   "batch": "2 (QASIM_MAWSUA stub; other sources to follow)",
+   "relations": [],
+   "relations_generated_from": "db/relations.json"
   }
  ]
 }

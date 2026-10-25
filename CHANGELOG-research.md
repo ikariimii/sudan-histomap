@@ -180,3 +180,10 @@ Following the scope change, I did not build data/views/<lang>.json. The language
 - 30 eras end before 1816: "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated".
 - 7 eras overlap 1816+ but the actor is not a COW system member ('Abdallab, Funj, Ja'aliyyin, Shilluk, Keira Darfur, Turkiyya, Mahdist state): "not a COW system member: ... not estimated".
 - Existing pre-1900 entries kept: Ottoman Egypt (only one state in the comparison set), Bornu (not a COW member, Pass 22d). Editorial regional_power ordinals unchanged. sudan.db and db/extents* not touched.
+
+## 2026-10-24 — Pass 28: QASIM_MAWSUA (user-supplied, vol. 4)
+- Registered QASIM_MAWSUA: 'Awn al-Sharif Qasim, Mawsu'at al-qaba'il wa-al-ansab fi al-Sudan, 1st ed. 1996, Khartoum. The user supplied vol. 4 only (letters ظ ع غ ف, printed pp.1409–1820; PDF p.N = printed p.N+1408). The scan and OCR are kept off-repo for copyright reasons.
+- Groups: Shaigiyya homeland text, Korti anchor (APPROXIMATE), subgroups and Shayiq genealogy (TRADITION); Mahas sections; Funj Jibal Lul homeland, origin debate (CONTESTED) and Sennar 1504; Fur origin (CONTESTED), Banu Hilal genealogy (TRADITION), al-Tunisi subgroups and kingdom dating vs GHA (CONTESTED); Ja'aliyyin and Beja subgroups.
+- New stub groups: abdallab (Qerri anchor, 1505–1821, Juhayna genealogy TRADITION), tunjur (Kutum anchor APPROXIMATE, Furra), kababish, rashaida, zaghawa, azande.
+- Relations: Funj–'Abdallab alliance against Alwa; Kayra Fur vs Tunjur.
+- Quotes are Arabic originals with working English translations. OCR-only quotes carry VERIFY.
