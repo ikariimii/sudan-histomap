@@ -1,337 +1,337 @@
 {
- "meta": {
-  "generated_by": "Sudan Geopolitical Analyst",
-  "date": "2026-10-20",
-  "note": "Staging file; not merged into data/eras. Field names are the exact era-file names (geopolitics_en/ar, economy_en/ar); only fields empty in data/eras were filled; null = no source read. All Arabic is a WORKING TRANSLATION needing native review. Existing IDs reused from data/periods.json: IBS18_1962, WP_HALAIB, GEO-012, GEO-015, GEO-016, GEO-017, GEO-037, GEO-038, GEO-056, GEO-079, AR_AJCS_5653, EEBC2002. [VERIFY] = read only via search excerpts. [SINGLE-SOURCE] = one source only. ACLED/ISW data not used. LOC* = Library of Congress Country Studies (US-government, dated). Per-era 'flags' list thin spots.",
-  "arabic_review": "needs native review",
-  "sources": {
-   "LOC1991_FOREIGN": {
-    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
-    "title": "Sudan: A Country Study – 'Foreign Relations'",
-    "title_en": "same",
-    "publisher": "U.S. Library of Congress (US government; dated)",
-    "bias": "US-government country study; Cold War-era framing",
-    "date": "1991-06 (publ. 1992)",
-    "url": "https://countrystudies.us/sudan/75.htm",
-    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
-    "note": "Older, US-government source; figures as of 1991"
-   },
-   "LOC1991_EGYPT": {
-    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
-    "title": "Sudan: A Country Study – 'Egypt'",
-    "title_en": "same",
-    "publisher": "U.S. Library of Congress (US government; dated)",
-    "bias": "US-government country study; Cold War-era framing",
-    "date": "1991-06 (publ. 1992)",
-    "url": "https://countrystudies.us/sudan/76.htm",
-    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
-    "note": "Older, US-government source; figures as of 1991"
-   },
-   "LOC1991_LIBYA": {
-    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
-    "title": "Sudan: A Country Study – 'Libya'",
-    "title_en": "same",
-    "publisher": "U.S. Library of Congress (US government; dated)",
-    "bias": "US-government country study; Cold War-era framing",
-    "date": "1991-06 (publ. 1992)",
-    "url": "https://countrystudies.us/sudan/77.htm",
-    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
-    "note": "Older, US-government source; figures as of 1991"
-   },
-   "LOC1991_CHAD": {
-    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
-    "title": "Sudan: A Country Study – 'Chad'",
-    "title_en": "same",
-    "publisher": "U.S. Library of Congress (US government; dated)",
-    "bias": "US-government country study; Cold War-era framing",
-    "date": "1991-06 (publ. 1992)",
-    "url": "https://countrystudies.us/sudan/78.htm",
-    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
-    "note": "Older, US-government source; figures as of 1991"
-   },
-   "LOC1991_CONDO": {
-    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
-    "title": "Sudan: A Country Study – 'The Anglo-Egyptian Condominium, 1899-1955'",
-    "title_en": "same",
-    "publisher": "U.S. Library of Congress (US government; dated)",
-    "bias": "US-government country study; Cold War-era framing",
-    "date": "1991-06 (publ. 1992)",
-    "url": "https://countrystudies.us/sudan/15.htm",
-    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
-    "note": "Older, US-government source; figures as of 1991"
-   },
-   "LOC1991_NATIONALISM": {
-    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
-    "title": "Sudan: A Country Study – 'Rise of Sudanese Nationalism'",
-    "title_en": "same",
-    "publisher": "U.S. Library of Congress (US government; dated)",
-    "bias": "US-government country study; Cold War-era framing",
-    "date": "1991-06 (publ. 1992)",
-    "url": "https://countrystudies.us/sudan/17.htm",
-    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
-    "note": "Older, US-government source; figures as of 1991"
-   },
-   "LOC1991_INDEP": {
-    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
-    "title": "Sudan: A Country Study – 'The Road to Independence'",
-    "title_en": "same",
-    "publisher": "U.S. Library of Congress (US government; dated)",
-    "bias": "US-government country study; Cold War-era framing",
-    "date": "1991-06 (publ. 1992)",
-    "url": "https://countrystudies.us/sudan/18.htm",
-    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
-    "note": "Older, US-government source; figures as of 1991"
-   },
-   "LOC_ETH1991_BORDER": {
-    "author": "U.S. Library of Congress, Federal Research Division (T.P. Ofcansky & L. Berry eds.)",
-    "title": "Ethiopia: A Country Study (research completed 1991) – 'Ethiopia's Border Politics'",
-    "title_en": "same",
-    "publisher": "U.S. Library of Congress (US government; dated)",
-    "bias": "US-government country study; Cold War-era framing",
-    "date": "1991 (publ. 1993)",
-    "url": "https://countrystudies.us/ethiopia/139.htm",
-    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
-    "note": "US-government; written before the Derg's fall in May 1991"
-   },
-   "LOC_LBY1987_SANUSI": {
-    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
-    "title": "Libya: A Country Study – 'The Sanusi Order'",
-    "title_en": "same",
-    "publisher": "U.S. Library of Congress (US government; dated)",
-    "bias": "US-government country study; Cold War-era framing",
-    "date": "1987 (VERIFY exact research date)",
-    "url": "https://countrystudies.us/libya/18.htm",
-    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
-    "note": "US-government; dated"
-   },
-   "LOC_LBY1987_ITALOSANUSI": {
-    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
-    "title": "Libya: A Country Study – 'The Second Italo-Sanusi War'",
-    "title_en": "same",
-    "publisher": "U.S. Library of Congress (US government; dated)",
-    "bias": "US-government country study; Cold War-era framing",
-    "date": "1987 (VERIFY exact research date)",
-    "url": "https://countrystudies.us/libya/21.htm",
-    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
-    "note": "US-government; dated"
-   },
-   "LOC_LBY1987_FOURTHSHORE": {
-    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
-    "title": "Libya: A Country Study – 'The Fourth Shore'",
-    "title_en": "same",
-    "publisher": "U.S. Library of Congress (US government; dated)",
-    "bias": "US-government country study; Cold War-era framing",
-    "date": "1987 (VERIFY exact research date)",
-    "url": "https://countrystudies.us/libya/22.htm",
-    "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
-    "note": "US-government; dated"
-   },
-   "UNTS6519_1959": {
-    "author": "Governments of the United Arab Republic and the Republic of the Sudan",
-    "title": "Agreement for the full utilization of the Nile waters (Cairo, 8 Nov 1959), UNTS vol. 453, No. 6519",
-    "title_en": "same",
-    "publisher": "United Nations Treaty Series (primary treaty text)",
-    "bias": "Primary bilateral text; Ethiopia and upstream states not party",
-    "date": "1959-11-08",
-    "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20453/volume-453-I-6519-English.pdf",
-    "verification": "text read via search excerpt of UNTS and internationalwaterlaw.org copy (https://www.internationalwaterlaw.org/documents/regionaldocs/UAR_Sudan1959_and_Protocol1960.pdf) 2026-10-20 – figures quoted verbatim; full PDF not opened – VERIFY",
-    "note": ""
-   },
-   "HRW1998_SPLA": {
-    "author": "Human Rights Watch",
-    "title": "Global Trade, Local Impact: Arms Transfers to all Sides in the Civil War in Sudan – 'The SPLA' chapter",
-    "title_en": "same",
-    "publisher": "Human Rights Watch (rights NGO)",
-    "bias": "International human-rights NGO",
-    "date": "1998-08",
-    "url": "https://www.hrw.org/legacy/reports98/sudan/Sudarm988-07.htm",
-    "verification": "search excerpt only 2026-10-20 – VERIFY",
-    "note": "Report title from HRW legacy series; VERIFY title wording"
-   },
-   "EJOSSAH_DERG_SPLA": {
-    "author": "(author not verified)",
-    "title": "The Derg-SPLM/A Cooperation: An Aspect of Ethio-Sudan Proxy Wars",
-    "title_en": "same",
-    "publisher": "Ethiopian Journal of the Social Sciences and Humanities (EJOSSAH) vol.5 no.2 (academic; Ethiopian MoD archives)",
-    "bias": "Academic; Ethiopian-archive based",
-    "date": "(VERIFY)",
-    "url": "https://doi.org/10.4314/ejossah.v5i2.63648",
-    "verification": "abstract/search excerpt only 2026-10-20 – VERIFY",
-    "note": ""
-   },
-   "SAS_HSBA_WP3": {
-    "author": "John Young",
-    "title": "The Eastern Front and the Struggle against Marginalization (HSBA Working Paper 3)",
-    "title_en": "same",
-    "publisher": "Small Arms Survey, Geneva (independent research project)",
-    "bias": "Swiss-based independent research; Western-funded",
-    "date": "2007-05",
-    "url": "https://www.smallarmssurvey.org/sites/default/files/resources/HSBA-WP-03-Eastern-Front.pdf",
-    "verification": "full PDF read 2026-10-20 (pp. summary, 12)",
-    "note": ""
-   },
-   "NDJAMENA2010": {
-    "author": "Governments of Chad and Sudan (signed M. Faki Mahamat; G. Salahaddin Atabani)",
-    "title": "Accord de N'Djamena sur la normalisation des relations entre le Tchad et le Soudan (15 janvier 2010)",
-    "title_en": "N'Djamena Agreement on the normalisation of relations between Chad and Sudan",
-    "publisher": "UN Peacemaker / PA-X Peace Agreements Database (Univ. of Edinburgh)",
-    "bias": "Primary text",
-    "date": "2010-01-15",
-    "url": "https://www.peaceagreements.org/agreements/716/",
-    "verification": "PA-X coding and communiqué read via search excerpt 2026-10-20 – VERIFY; UN copy https://peacemaker.un.org/sites/default/files/document/files/2024/05/sd20td100115accord20de20ndjamena.pdf",
-    "note": ""
-   },
-   "UNSC_S2010_217": {
-    "author": "UN Secretary-General",
-    "title": "Report of the Secretary-General on MINURCAT, S/2010/217",
-    "title_en": "same",
-    "publisher": "United Nations Security Council (via securitycouncilreport.org)",
-    "bias": "UN",
-    "date": "2010-04 (VERIFY)",
-    "url": "https://www.securitycouncilreport.org/atf/cf/%7B65BFCF9B-6D27-4E9C-8CD3-CF6E4FF96FF9%7D/CAR%20S%202010%20217.pdf",
-    "verification": "search excerpt (paras 2–3) 2026-10-20 – VERIFY",
-    "note": "Report title inferred from symbol; VERIFY"
-   },
-   "ICG_B204": {
-    "author": "International Crisis Group",
-    "title": "Sudan's Calamitous War: Finding a Path toward Peace (Africa Briefing N°204)",
-    "title_en": "same",
-    "publisher": "International Crisis Group (independent conflict-prevention NGO)",
-    "bias": "Brussels-based NGO; Western-funded",
-    "date": "2025 (VERIFY; cites a Nov 2024 briefing)",
-    "url": "https://www.crisisgroup.org/africa/horn-africa/sudan/b204-sudans-calamitous-war-finding-path-toward-peace",
-    "verification": "search excerpt only 2026-10-20 – VERIFY",
-    "note": ""
-   },
-   "ICG_ETH_ERI": {
-    "author": "International Crisis Group",
-    "title": "Ethiopia and Eritrea Slide Closer to War amid Tigray Upheaval",
-    "title_en": "same",
-    "publisher": "International Crisis Group",
-    "bias": "Brussels-based NGO; Western-funded",
-    "date": "2025 (VERIFY)",
-    "url": "https://www.crisisgroup.org/africa/horn-africa/ethiopiaeritrea/ethiopia-and-eritrea-slide-closer-war-amid-tigray-upheaval",
-    "verification": "search excerpt only 2026-10-20 – VERIFY",
-    "note": ""
-   },
-   "ICG_RADAR2024": {
-    "author": "International Crisis Group (Charles Bouessel)",
-    "title": "On Our Radar 2024 – entry of 21 June 2024 (Central African Republic)",
-    "title_en": "same",
-    "publisher": "International Crisis Group",
-    "bias": "Brussels-based NGO",
-    "date": "2024-06-21",
-    "url": "https://www.crisisgroup.org/sco/global/our-radar-2024",
-    "verification": "search excerpt only 2026-10-20 – VERIFY",
-    "note": ""
-   },
-   "UNHCR_CAR2024": {
-    "author": "UNHCR Central African Republic",
-    "title": "Central African Republic (CAR) – Sudan Situation External Update, 17 April 2024",
-    "title_en": "same",
-    "publisher": "UNHCR via ReliefWeb (UN agency)",
-    "bias": "UN agency",
-    "date": "2024-04-17",
-    "url": "https://reliefweb.int/attachments/21d230df-d113-4a45-8c20-18598ab20113/Sudan%20Situation%20-%20UNHCR%20CAR%20External%20Update%20-%20%2017%20April%20%202024.pdf",
-    "verification": "search excerpt only 2026-10-20 – VERIFY",
-    "note": ""
-   },
-   "LSM_KUFRA2024": {
-    "author": "Libya Security Monitor",
-    "title": "UN PoE report highlights Sudan smuggling via Kufra",
-    "title_en": "same",
-    "publisher": "Libya Security Monitor (UK-based risk-analysis site); summarises UN Panel of Experts on Sudan report (S/2024/65)",
-    "bias": "Private security-analysis outlet; secondary summary of a UN report",
-    "date": "2024-01-13",
-    "url": "https://libyasecuritymonitor.com/un-poe-report-highlights-sudan-smuggling-via-kufra/",
-    "verification": "fetched 2026-10-20; underlying UN report not opened (UN PDF download failed) – VERIFY against S/2024/65",
-    "note": "UN report symbol S/2024/65 not confirmed – VERIFY"
-   },
-   "SWM_ERI2024": {
-    "author": "Sudan War Monitor",
-    "title": "Eritrea-backed militias deploy in eastern Sudan",
-    "title_en": "same",
-    "publisher": "Sudan War Monitor (independent Substack newsletter)",
-    "bias": "Independent OSINT newsletter; anonymous security sources",
-    "date": "2024-11-15",
-    "url": "https://sudanwarmonitor.com/p/eritrea-backed-militias-deploy-in",
-    "verification": "search excerpt only 2026-10-20 – VERIFY",
-    "note": ""
-   }
+  "meta": {
+    "generated_by": "Sudan Geopolitical Analyst",
+    "date": "2026-10-20",
+    "note": "Staging file; not merged into data/eras. Field names are the exact era-file names (geopolitics_en/ar, economy_en/ar); only fields empty in data/eras were filled; null = no source read. All Arabic is a WORKING TRANSLATION needing native review. Existing IDs reused from data/periods.json: IBS18_1962, WP_HALAIB, GEO-012, GEO-015, GEO-016, GEO-017, GEO-037, GEO-038, GEO-056, GEO-079, AR_AJCS_5653, EEBC2002. [VERIFY] = read only via search excerpts. [SINGLE-SOURCE] = one source only. ACLED/ISW data not used. LOC* = Library of Congress Country Studies (US-government, dated). Per-era 'flags' list thin spots.",
+    "arabic_review": "needs native review",
+    "sources": {
+      "LOC1991_FOREIGN": {
+        "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+        "title": "Sudan: A Country Study – 'Foreign Relations'",
+        "title_en": "same",
+        "publisher": "U.S. Library of Congress (US government; dated)",
+        "bias": "US-government country study; Cold War-era framing",
+        "date": "1991-06 (publ. 1992)",
+        "url": "https://countrystudies.us/sudan/75.htm",
+        "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+        "note": "Older, US-government source; figures as of 1991"
+      },
+      "LOC1991_EGYPT": {
+        "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+        "title": "Sudan: A Country Study – 'Egypt'",
+        "title_en": "same",
+        "publisher": "U.S. Library of Congress (US government; dated)",
+        "bias": "US-government country study; Cold War-era framing",
+        "date": "1991-06 (publ. 1992)",
+        "url": "https://countrystudies.us/sudan/76.htm",
+        "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+        "note": "Older, US-government source; figures as of 1991"
+      },
+      "LOC1991_LIBYA": {
+        "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+        "title": "Sudan: A Country Study – 'Libya'",
+        "title_en": "same",
+        "publisher": "U.S. Library of Congress (US government; dated)",
+        "bias": "US-government country study; Cold War-era framing",
+        "date": "1991-06 (publ. 1992)",
+        "url": "https://countrystudies.us/sudan/77.htm",
+        "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+        "note": "Older, US-government source; figures as of 1991"
+      },
+      "LOC1991_CHAD": {
+        "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+        "title": "Sudan: A Country Study – 'Chad'",
+        "title_en": "same",
+        "publisher": "U.S. Library of Congress (US government; dated)",
+        "bias": "US-government country study; Cold War-era framing",
+        "date": "1991-06 (publ. 1992)",
+        "url": "https://countrystudies.us/sudan/78.htm",
+        "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+        "note": "Older, US-government source; figures as of 1991"
+      },
+      "LOC1991_CONDO": {
+        "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+        "title": "Sudan: A Country Study – 'The Anglo-Egyptian Condominium, 1899-1955'",
+        "title_en": "same",
+        "publisher": "U.S. Library of Congress (US government; dated)",
+        "bias": "US-government country study; Cold War-era framing",
+        "date": "1991-06 (publ. 1992)",
+        "url": "https://countrystudies.us/sudan/15.htm",
+        "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+        "note": "Older, US-government source; figures as of 1991"
+      },
+      "LOC1991_NATIONALISM": {
+        "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+        "title": "Sudan: A Country Study – 'Rise of Sudanese Nationalism'",
+        "title_en": "same",
+        "publisher": "U.S. Library of Congress (US government; dated)",
+        "bias": "US-government country study; Cold War-era framing",
+        "date": "1991-06 (publ. 1992)",
+        "url": "https://countrystudies.us/sudan/17.htm",
+        "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+        "note": "Older, US-government source; figures as of 1991"
+      },
+      "LOC1991_INDEP": {
+        "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+        "title": "Sudan: A Country Study – 'The Road to Independence'",
+        "title_en": "same",
+        "publisher": "U.S. Library of Congress (US government; dated)",
+        "bias": "US-government country study; Cold War-era framing",
+        "date": "1991-06 (publ. 1992)",
+        "url": "https://countrystudies.us/sudan/18.htm",
+        "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+        "note": "Older, US-government source; figures as of 1991"
+      },
+      "LOC_ETH1991_BORDER": {
+        "author": "U.S. Library of Congress, Federal Research Division (T.P. Ofcansky & L. Berry eds.)",
+        "title": "Ethiopia: A Country Study (research completed 1991) – 'Ethiopia's Border Politics'",
+        "title_en": "same",
+        "publisher": "U.S. Library of Congress (US government; dated)",
+        "bias": "US-government country study; Cold War-era framing",
+        "date": "1991 (publ. 1993)",
+        "url": "https://countrystudies.us/ethiopia/139.htm",
+        "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+        "note": "US-government; written before the Derg's fall in May 1991"
+      },
+      "LOC_LBY1987_SANUSI": {
+        "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+        "title": "Libya: A Country Study – 'The Sanusi Order'",
+        "title_en": "same",
+        "publisher": "U.S. Library of Congress (US government; dated)",
+        "bias": "US-government country study; Cold War-era framing",
+        "date": "1987 (VERIFY exact research date)",
+        "url": "https://countrystudies.us/libya/18.htm",
+        "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+        "note": "US-government; dated"
+      },
+      "LOC_LBY1987_ITALOSANUSI": {
+        "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+        "title": "Libya: A Country Study – 'The Second Italo-Sanusi War'",
+        "title_en": "same",
+        "publisher": "U.S. Library of Congress (US government; dated)",
+        "bias": "US-government country study; Cold War-era framing",
+        "date": "1987 (VERIFY exact research date)",
+        "url": "https://countrystudies.us/libya/21.htm",
+        "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+        "note": "US-government; dated"
+      },
+      "LOC_LBY1987_FOURTHSHORE": {
+        "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+        "title": "Libya: A Country Study – 'The Fourth Shore'",
+        "title_en": "same",
+        "publisher": "U.S. Library of Congress (US government; dated)",
+        "bias": "US-government country study; Cold War-era framing",
+        "date": "1987 (VERIFY exact research date)",
+        "url": "https://countrystudies.us/libya/22.htm",
+        "verification": "fetched 2026-10-20 (countrystudies.us mirror of LOC text)",
+        "note": "US-government; dated"
+      },
+      "UNTS6519_1959": {
+        "author": "Governments of the United Arab Republic and the Republic of the Sudan",
+        "title": "Agreement for the full utilization of the Nile waters (Cairo, 8 Nov 1959), UNTS vol. 453, No. 6519",
+        "title_en": "same",
+        "publisher": "United Nations Treaty Series (primary treaty text)",
+        "bias": "Primary bilateral text; Ethiopia and upstream states not party",
+        "date": "1959-11-08",
+        "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20453/volume-453-I-6519-English.pdf",
+        "verification": "text read via search excerpt of UNTS and internationalwaterlaw.org copy (https://www.internationalwaterlaw.org/documents/regionaldocs/UAR_Sudan1959_and_Protocol1960.pdf) 2026-10-20 – figures quoted verbatim; full PDF not opened – VERIFY",
+        "note": ""
+      },
+      "HRW1998_SPLA": {
+        "author": "Human Rights Watch",
+        "title": "Global Trade, Local Impact: Arms Transfers to all Sides in the Civil War in Sudan – 'The SPLA' chapter",
+        "title_en": "same",
+        "publisher": "Human Rights Watch (rights NGO)",
+        "bias": "International human-rights NGO",
+        "date": "1998-08",
+        "url": "https://www.hrw.org/legacy/reports98/sudan/Sudarm988-07.htm",
+        "verification": "search excerpt only 2026-10-20 – VERIFY",
+        "note": "Report title from HRW legacy series; VERIFY title wording"
+      },
+      "EJOSSAH_DERG_SPLA": {
+        "author": "(author not verified)",
+        "title": "The Derg-SPLM/A Cooperation: An Aspect of Ethio-Sudan Proxy Wars",
+        "title_en": "same",
+        "publisher": "Ethiopian Journal of the Social Sciences and Humanities (EJOSSAH) vol.5 no.2 (academic; Ethiopian MoD archives)",
+        "bias": "Academic; Ethiopian-archive based",
+        "date": "(VERIFY)",
+        "url": "https://doi.org/10.4314/ejossah.v5i2.63648",
+        "verification": "abstract/search excerpt only 2026-10-20 – VERIFY",
+        "note": ""
+      },
+      "SAS_HSBA_WP3": {
+        "author": "John Young",
+        "title": "The Eastern Front and the Struggle against Marginalization (HSBA Working Paper 3)",
+        "title_en": "same",
+        "publisher": "Small Arms Survey, Geneva (independent research project)",
+        "bias": "Swiss-based independent research; Western-funded",
+        "date": "2007-05",
+        "url": "https://www.smallarmssurvey.org/sites/default/files/resources/HSBA-WP-03-Eastern-Front.pdf",
+        "verification": "full PDF read 2026-10-20 (pp. summary, 12)",
+        "note": ""
+      },
+      "NDJAMENA2010": {
+        "author": "Governments of Chad and Sudan (signed M. Faki Mahamat; G. Salahaddin Atabani)",
+        "title": "Accord de N'Djamena sur la normalisation des relations entre le Tchad et le Soudan (15 janvier 2010)",
+        "title_en": "N'Djamena Agreement on the normalisation of relations between Chad and Sudan",
+        "publisher": "UN Peacemaker / PA-X Peace Agreements Database (Univ. of Edinburgh)",
+        "bias": "Primary text",
+        "date": "2010-01-15",
+        "url": "https://www.peaceagreements.org/agreements/716/",
+        "verification": "PA-X coding and communiqué read via search excerpt 2026-10-20 – VERIFY; UN copy https://peacemaker.un.org/sites/default/files/document/files/2024/05/sd20td100115accord20de20ndjamena.pdf",
+        "note": ""
+      },
+      "UNSC_S2010_217": {
+        "author": "UN Secretary-General",
+        "title": "Report of the Secretary-General on MINURCAT, S/2010/217",
+        "title_en": "same",
+        "publisher": "United Nations Security Council (via securitycouncilreport.org)",
+        "bias": "UN",
+        "date": "2010-04 (VERIFY)",
+        "url": "https://www.securitycouncilreport.org/atf/cf/%7B65BFCF9B-6D27-4E9C-8CD3-CF6E4FF96FF9%7D/CAR%20S%202010%20217.pdf",
+        "verification": "search excerpt (paras 2–3) 2026-10-20 – VERIFY",
+        "note": "Report title inferred from symbol; VERIFY"
+      },
+      "ICG_B204": {
+        "author": "International Crisis Group",
+        "title": "Sudan's Calamitous War: Finding a Path toward Peace (Africa Briefing N°204)",
+        "title_en": "same",
+        "publisher": "International Crisis Group (independent conflict-prevention NGO)",
+        "bias": "Brussels-based NGO; Western-funded",
+        "date": "2025 (VERIFY; cites a Nov 2024 briefing)",
+        "url": "https://www.crisisgroup.org/africa/horn-africa/sudan/b204-sudans-calamitous-war-finding-path-toward-peace",
+        "verification": "search excerpt only 2026-10-20 – VERIFY",
+        "note": ""
+      },
+      "ICG_ETH_ERI": {
+        "author": "International Crisis Group",
+        "title": "Ethiopia and Eritrea Slide Closer to War amid Tigray Upheaval",
+        "title_en": "same",
+        "publisher": "International Crisis Group",
+        "bias": "Brussels-based NGO; Western-funded",
+        "date": "2025 (VERIFY)",
+        "url": "https://www.crisisgroup.org/africa/horn-africa/ethiopiaeritrea/ethiopia-and-eritrea-slide-closer-war-amid-tigray-upheaval",
+        "verification": "search excerpt only 2026-10-20 – VERIFY",
+        "note": ""
+      },
+      "ICG_RADAR2024": {
+        "author": "International Crisis Group (Charles Bouessel)",
+        "title": "On Our Radar 2024 – entry of 21 June 2024 (Central African Republic)",
+        "title_en": "same",
+        "publisher": "International Crisis Group",
+        "bias": "Brussels-based NGO",
+        "date": "2024-06-21",
+        "url": "https://www.crisisgroup.org/sco/global/our-radar-2024",
+        "verification": "search excerpt only 2026-10-20 – VERIFY",
+        "note": ""
+      },
+      "UNHCR_CAR2024": {
+        "author": "UNHCR Central African Republic",
+        "title": "Central African Republic (CAR) – Sudan Situation External Update, 17 April 2024",
+        "title_en": "same",
+        "publisher": "UNHCR via ReliefWeb (UN agency)",
+        "bias": "UN agency",
+        "date": "2024-04-17",
+        "url": "https://reliefweb.int/attachments/21d230df-d113-4a45-8c20-18598ab20113/Sudan%20Situation%20-%20UNHCR%20CAR%20External%20Update%20-%20%2017%20April%20%202024.pdf",
+        "verification": "search excerpt only 2026-10-20 – VERIFY",
+        "note": ""
+      },
+      "LSM_KUFRA2024": {
+        "author": "Libya Security Monitor",
+        "title": "UN PoE report highlights Sudan smuggling via Kufra",
+        "title_en": "same",
+        "publisher": "Libya Security Monitor (UK-based risk-analysis site); summarises UN Panel of Experts on Sudan report (S/2024/65)",
+        "bias": "Private security-analysis outlet; secondary summary of a UN report",
+        "date": "2024-01-13",
+        "url": "https://libyasecuritymonitor.com/un-poe-report-highlights-sudan-smuggling-via-kufra/",
+        "verification": "fetched 2026-10-20; underlying UN report not opened (UN PDF download failed) – VERIFY against S/2024/65",
+        "note": "UN report symbol S/2024/65 not confirmed – VERIFY"
+      },
+      "SWM_ERI2024": {
+        "author": "Sudan War Monitor",
+        "title": "Eritrea-backed militias deploy in eastern Sudan",
+        "title_en": "same",
+        "publisher": "Sudan War Monitor (independent Substack newsletter)",
+        "bias": "Independent OSINT newsletter; anonymous security sources",
+        "date": "2024-11-15",
+        "url": "https://sudanwarmonitor.com/p/eritrea-backed-militias-deploy-in",
+        "verification": "search excerpt only 2026-10-20 – VERIFY",
+        "note": ""
+      }
+    }
+  },
+  "eras": {
+    "british-occupied-kingdom-of-egypt": {
+      "geopolitics_en": "For Sudan, this era is the Condominium. In January 1899 an Anglo-Egyptian agreement 'restored Egyptian rule in Sudan but as part of a condominium', designating territory south of the 22nd parallel as the Anglo-Egyptian Sudan; in practice the British governor-general ran it 'as if it were a colonial administration' (LOC1991_CONDO). After Sir Lee Stack was assassinated in Cairo in Nov 1924, Britain ordered all Egyptian troops and officials out of Sudan (LOC1991_CONDO). The 1936 Anglo-Egyptian Treaty left Sudan's status unresolved, and Sudanese nationalists split over union with Egypt versus independence (LOC1991_NATIONALISM). In Feb 1953 London and Cairo signed an accord granting Sudan a three-year transition to self-government after Naguib accepted Sudanese self-determination (LOC1991_INDEP). The 1902 administrative line that later underlies the Halaib dispute also dates from this era (IBS18_1962). On the Nile, the 1959 treaty notes that a 1929 Nile Waters Agreement 'only regulated a partial use of the natural river' (UNTS6519_1959) [1929 terms not read directly – VERIFY].",
+      "geopolitics_ar": "بالنسبة للسودان، هذه الحقبة هي حقبة الحكم الثنائي. ففي يناير 1899 أعاد اتفاق إنجليزي-مصري الحكم المصري إلى السودان ولكن في إطار حكم ثنائي، وحدّد الأراضي الواقعة جنوب خط العرض 22 بوصفها السودان الإنجليزي المصري، وفي الواقع أداره الحاكم العام البريطاني «كما لو كان إدارة استعمارية» (LOC1991_CONDO). وبعد اغتيال السير لي ستاك في القاهرة في نوفمبر 1924 أمرت بريطانيا بسحب جميع القوات والموظفين المصريين من السودان (LOC1991_CONDO). وترك اتفاق 1936 وضع السودان دون حسم، وانقسم الوطنيون السودانيون بين الاتحاد مع مصر والاستقلال (LOC1991_NATIONALISM). وفي فبراير 1953 وقّعت لندن والقاهرة اتفاقًا يمنح السودان فترة انتقالية مدتها ثلاث سنوات نحو الحكم الذاتي بعد قبول نجيب حق تقرير المصير (LOC1991_INDEP). ويعود إلى هذه الحقبة أيضًا الخط الإداري لعام 1902 الذي يقوم عليه لاحقًا نزاع حلايب (IBS18_1962). أما النيل فتذكر اتفاقية 1959 أن اتفاقية 1929 «لم تنظم إلا استخدامًا جزئيًا» للنهر (UNTS6519_1959) [شروط 1929 لم تُقرأ مباشرة – يحتاج تحقق]. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
+      "economy_en": null,
+      "economy_ar": null,
+      "flags": [
+        "economy: left null – no source read on Condominium-era Egypt–Sudan economic ties beyond existing Condominium era text",
+        "1929 agreement terms not read – VERIFY"
+      ]
+    },
+    "republic-of-egypt": {
+      "geopolitics_en": "Egypt is Sudan's most important northern neighbour and a party to the Nile regime. The 8 Nov 1959 Cairo agreement allowed Egypt to build the Sudd el-Aali (High Dam) at Aswan and Sudan the Roseires reservoir (UNTS6519_1959). From 1 Feb 1958 Egypt claimed the territory north of the 22nd parallel, opening the Halaib dispute (IBS18_1962); effective Egyptian control dates are contested – 1992/93, 1994, 1995 or 2000 depending on source (see db/halaib_dates_check.md; WP_HALAIB). Under Nimeiri, Sudan backed Egypt after the 1979 peace with Israel; Mubarak gave Nimeiri asylum in 1985, and after 1989 relations collapsed: Egypt hosted the opposition NDA, accused Khartoum of aiming Iraqi missiles at the High Dam, and by mid-1991 openly funded the DUP and SPLM (LOC1991_EGYPT; LOC1991_FOREIGN). Egypt has always opposed the GERD; Sudan, after first backing it under Bashir, hardened its stance after the Oct 2021 coup as the two armies held joint exercises (GEO-015). In the 2023 war, Egypt and Saudi Arabia back the Sudanese army (ICG_ETH_ERI, 'A Seesaw Relationship') [SINGLE-SOURCE: no UN/aid-agency second source]; see also GEO-012 (Egyptian state-affiliated, pro-SAF) and AR_AJCS_5653.",
+      "geopolitics_ar": "مصر أهم جار شمالي للسودان وطرف في نظام مياه النيل. أتاح اتفاق القاهرة في 8 نوفمبر 1959 لمصر بناء السد العالي في أسوان وللسودان بناء خزان الروصيرص (UNTS6519_1959). ومنذ 1 فبراير 1958 طالبت مصر بالأراضي الواقعة شمال خط العرض 22، فبدأ نزاع حلايب (IBS18_1962)؛ أما تاريخ السيطرة المصرية الفعلية فمتنازع عليه: 1992/93 أو 1994 أو 1995 أو 2000 بحسب المصدر (انظر db/halaib_dates_check.md؛ WP_HALAIB). وفي عهد نميري ساند السودان مصر بعد سلامها مع إسرائيل عام 1979، ومنح مبارك نميري اللجوء عام 1985، وبعد 1989 انهارت العلاقات: استضافت مصر التجمع الوطني الديمقراطي المعارض، واتهمت الخرطوم بتوجيه صواريخ عراقية نحو السد العالي، وبحلول منتصف 1991 كانت تمول علنًا الحزب الاتحادي الديمقراطي والحركة الشعبية (LOC1991_EGYPT؛ LOC1991_FOREIGN). وعارضت مصر سد النهضة دائمًا؛ أما السودان فبعد تأييده الأولي في عهد البشير تشدد موقفه بعد انقلاب أكتوبر 2021 مع إجراء الجيشين مناورات مشتركة (GEO-015). وفي حرب 2023 تدعم مصر والسعودية الجيش السوداني (ICG_ETH_ERI) [مصدر واحد] [يحتاج تحقق]؛ انظر أيضًا GEO-012 وAR_AJCS_5653. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
+      "economy_en": "Water is the core economic tie. The 1959 agreement set 'established rights' of 48 bn m³/yr for Egypt and 4 bn m³/yr for Sudan (at Aswan); the High Dam's net benefit of 22 bn m³ (mean flow 84 bn m³ minus 10 bn m³ storage losses) was split 14.5 to Sudan and 7.5 to Egypt, giving totals of 55.5 bn m³ (Egypt) and 18.5 bn m³ (Sudan) (UNTS6519_1959 pp.64, 66); Egypt agreed to pay Sudan E£15 million as full compensation for damage to existing Sudanese properties from High Dam storage (UNTS6519_1959 p.68; instalment schedule Annex 2, p.76). Chatham House notes Sudan 'currently takes far less' than its allocated share (GEO-015) [SINGLE-SOURCE]. A 1990 Libya–Sudan rapprochement was 'not viewed favorably in Cairo' (LOC1991_LIBYA). The event file's Aswan High Dam/Wadi Halfa flooding item belongs to this agreement.",
+      "economy_ar": "المياه هي الرابط الاقتصادي الأساسي. حددت اتفاقية 1959 «الحقوق المكتسبة» بـ48 مليار م³ سنويًا لمصر و4 مليارات م³ للسودان (مقاسة عند أسوان)؛ وقُسمت الفائدة الصافية للسد العالي البالغة 22 مليار م³ (متوسط الإيراد 84 مليارًا ناقص 10 مليارات فواقد تخزين) بواقع 14.5 للسودان و7.5 لمصر، ليصبح المجموع 55.5 مليار م³ لمصر و18.5 مليار م³ للسودان (UNTS6519_1959) [يحتاج تحقق من النص الكامل]. وتشير تشاتام هاوس إلى أن السودان يستهلك حاليًا أقل بكثير من حصته (GEO-015) [مصدر واحد]. وكان التقارب الليبي-السوداني عام 1990 «غير مرحب به في القاهرة» (LOC1991_LIBYA). [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
+      "flags": [
+        "Halaib control date: differing estimates (1992/93, 1994, 1995, 2000) shown side by side",
+        "2023-war alignment from ICG search excerpt – VERIFY",
+        "Arabic Wikipedia gives Sudan's share of the 22 bn as 20 bn – a known error; UNTS text gives 14.5 (not used)"
+      ]
+    },
+    "derg-federal-ethiopia": {
+      "geopolitics_en": "Ethiopia–Sudan relations ran through mutual proxy war. LOC says relations were 'generally good until the mid-1980s'; Haile Selassie had mediated the 1972 settlement, but Ethiopia resented Eritrean guerrillas operating from Sudan; Sudan recalled its ambassador in Jan 1977, openly backed Eritrean movements, a 1980 treaty eased tensions, and the 1981 Ethiopia–Libya–South Yemen pact and Ethiopian support for the SPLA revived them (LOC_ETH1991_BORDER). HRW says the Derg gave the SPLA uniforms, logistics, arms, training 'and even political direction', and that when Mengistu fell in 1991 the SPLA and several hundred thousand refugees fled back into Sudan (HRW1998_SPLA, 'The Opposition Forces'). Under the federal government (since 1991) the flashpoints are the GERD, built 30 km from the border, and al-Fashaga: Sudan's claim rests on the 1902 Anglo-Ethiopian Treaty and the 1903 Gwynn Line; Ethiopian farmers cultivated it from 1996 with Khartoum's tacit acquiescence, until the SAF retook almost all of it after the Tigray war began in Nov 2020 (GEO-015). In the 2023 war, Ethiopia is described as leaning towards the RSF (ICG_ETH_ERI, 'A Seesaw Relationship'; ICG_B204, sec. II.B) [SINGLE-SOURCE: no UN/aid-agency second source]; GEO-056 (single anonymous Sudanese government source) alleges training and supply [SINGLE-SOURCE, contested].",
+      "geopolitics_ar": "مرت العلاقات الإثيوبية-السودانية بحرب بالوكالة متبادلة. تقول مكتبة الكونغرس إن العلاقات كانت «جيدة عمومًا حتى منتصف الثمانينيات»؛ فقد توسط هيلا سيلاسي في تسوية 1972، لكن إثيوبيا استاءت من نشاط المقاتلين الإريتريين انطلاقًا من السودان؛ واستدعى السودان سفيره في يناير 1977 ودعم علنًا الحركات الإريترية، ثم خففت معاهدة 1980 التوتر، قبل أن يعيده الحلف الإثيوبي-الليبي-اليمني الجنوبي عام 1981 ودعم إثيوبيا للجيش الشعبي (LOC_ETH1991_BORDER). وتقول هيومن رايتس ووتش إن الدرق زود الجيش الشعبي بالزي والإمداد والسلاح والتدريب «بل والتوجيه السياسي»، وإنه عند سقوط منغستو عام 1991 فر الجيش الشعبي ومئات الآلاف من اللاجئين عائدين إلى السودان (HRW1998_SPLA) [يحتاج تحقق]؛ وتضيف دراسة أرشيفية طرق الإمداد ومحطة إذاعة ومخيمات غامبيلا (EJOSSAH_DERG_SPLA) [يحتاج تحقق]. وفي ظل الحكومة الفيدرالية (منذ 1991) تتركز بؤر التوتر في سد النهضة المبني على بعد 30 كم من الحدود، وفي الفشقة: يستند ادعاء السودان إلى المعاهدة الإنجليزية-الإثيوبية لعام 1902 وخط قوين لعام 1903؛ وزرعها مزارعون إثيوبيون منذ 1996 بقبول ضمني من الخرطوم، حتى استعاد الجيش السوداني معظمها بعد اندلاع حرب تيغراي في نوفمبر 2020 (GEO-015). وفي حرب 2023 توصف إثيوبيا بأنها تميل نحو الدعم السريع (ICG_ETH_ERI؛ ICG_B204) [مصدر واحد] [يحتاج تحقق]؛ ويزعم GEO-056 (مصدر حكومي سوداني مجهول) تقديم تدريب وإمداد [مصدر واحد، متنازع عليه]. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
+      "economy_en": "Chatham House reports that the SAF's 2020 move gave Sudan control over '600,000 acres of valuable agricultural land' in al-Fashaga, with sesame and other cash crops previously exported via Ethiopia; GERD water releases have disrupted Sudan's Roseires dam (unannounced release 2020; silt clogging turbines 2021), and in mid-2022 the parties agreed to share GERD operating data; Bashir had expected flood control, irrigation and cheap surplus electricity from the dam (GEO-015) [SINGLE-SOURCE for the acreage]. See GEO-016/GEO-017 for the energy-trade argument.",
+      "economy_ar": "تفيد تشاتام هاوس بأن تحرك الجيش السوداني عام 2020 منح السودان السيطرة على «600 ألف فدان (acre) من الأراضي الزراعية القيمة» في الفشقة، حيث كان السمسم ومحاصيل نقدية أخرى تُصدَّر سابقًا عبر إثيوبيا؛ وأربكت تصريفات سد النهضة سد الروصيرص السوداني (تصريف دون إخطار عام 2020، وانسداد التوربينات بالطمي عام 2021)، واتفقت الأطراف منتصف 2022 على تبادل بيانات تشغيل السد؛ وكان البشير يتوقع من السد ضبط الفيضانات والري وكهرباء فائضة رخيصة (GEO-015) [مصدر واحد للمساحة]. انظر GEO-016 وGEO-017. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
+      "flags": [
+        "Ethiopia-RSF alignment: ICG excerpt + contested single anonymous source (GEO-056) – VERIFY",
+        "Imperial 1974 start: era file covers Derg+federal only"
+      ]
+    },
+    "eritrea-italian-colony-independent": {
+      "geopolitics_en": "Eritrea's war of independence (1961, about 30 years) sent hundreds of thousands of refugees into eastern Sudan; camps there held over a million people at their late-1980s peak, and the 1998 Ethiopia–Eritrea war brought a new influx (SAS_HSBA_WP3). Sudan openly backed Eritrean liberation movements from the late 1970s (LOC_ETH1991_BORDER). After independence, Eritrea hosted the Sudanese opposition: Beja Congress politicians moved there in the early 1990s to join the NDA; the Rashaida Free Lions (1999) had 'strong support' from Asmara; in 2005 they formed the Eastern Front, whose dependence on Eritrea weakened it. Eritrea mediated the Eastern Sudan Peace Agreement of 14 Oct 2006, which reopened the border and improved Asmara–Khartoum ties (SAS_HSBA_WP3). From 1996 the SPLA also based a military force known as the New Sudan Brigade in western Eritrea (HRW1998_SPLA, 'The Opposition Forces'). In the Tigray war period Eritrea kept influence among cross-border tribes such as the Beni Amer (GEO-015). In the 2023 war Eritrea backs the army (ICG_B204) and has aided army-aligned militias in the east (ICG_ETH_ERI); Sudan War Monitor reports two Eritrea-backed militias deployed in Kassala State: the Eastern Corps, military wing of the UPFLJ, which announced its deployment on 28 Oct 2024, and NMJD forces, whose unannounced arrival preceded it (SWM_ERI2024) [SINGLE-SOURCE: no UN/aid-agency second source]. Italy formally established the Colony of Eritrea on 1 January 1890 (EEBC2002 p.104 para 2.5); the rest of the colonial phase is not covered by a read source [thin].",
+      "geopolitics_ar": "دفعت حرب استقلال إريتريا (منذ 1961 ولنحو 30 عامًا) مئات الآلاف من اللاجئين إلى شرق السودان؛ وضمت المخيمات هناك أكثر من مليون شخص في ذروتها أواخر الثمانينيات، وجلبت حرب إثيوبيا-إريتريا عام 1998 موجة جديدة (SAS_HSBA_WP3). ودعم السودان علنًا حركات التحرير الإريترية منذ أواخر السبعينيات (LOC_ETH1991_BORDER). وبعد الاستقلال استضافت إريتريا المعارضة السودانية: انتقل سياسيو مؤتمر البجا إليها مطلع التسعينيات للانضمام إلى التجمع الوطني الديمقراطي؛ وحظيت الأسود الحرة الرشايدة (1999) «بدعم قوي» من أسمرا؛ وفي 2005 شكلا جبهة الشرق التي أضعفها اعتمادها على إريتريا. وتوسطت إريتريا في اتفاق سلام شرق السودان في 14 أكتوبر 2006، الذي أعاد فتح الحدود وحسّن العلاقات بين أسمرا والخرطوم (SAS_HSBA_WP3). ومنذ 1996 أقام الجيش الشعبي «لواء السودان الجديد» في غرب إريتريا (HRW1998_SPLA) [يحتاج تحقق]. وخلال حرب تيغراي احتفظت إريتريا بنفوذ بين القبائل العابرة للحدود مثل بني عامر (GEO-015). وفي حرب 2023 تدعم إريتريا الجيش (ICG_B204) وساعدت ميليشيات متحالفة معه في الشرق (ICG_ETH_ERI)؛ ويفيد Sudan War Monitor بانتشار ميليشيتين مدعومتين من إريتريا، «الأورطة الشرقية» التابعة للجبهة الشعبية المتحدة للتحرير والعدالة والحركة الوطنية للعدالة والتنمية، في كسلا أواخر أكتوبر 2024 (SWM_ERI2024) [مصدر واحد] [يحتاج تحقق]. أعلنت إيطاليا رسميًا مستعمرة إريتريا في 1 يناير 1890 (EEBC2002 ص.104 الفقرة 2.5)؛ أما بقية المرحلة الاستعمارية فلم يغطها مصدر مقروء. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
+      "economy_en": "The 2006 ESPA provided a four-year USD 600 million development fund for the eastern region, controlled in practice by the NCP (SAS_HSBA_WP3) [SINGLE-SOURCE]. The east is described as an economic frontier with road, rail and oil-pipeline links and cross-border smuggling to Eritrea and Egypt (SAS_HSBA_WP3).",
+      "economy_ar": "نص اتفاق سلام الشرق لعام 2006 على صندوق تنمية للإقليم الشرقي بقيمة 600 مليون دولار على أربع سنوات، يسيطر عليه حزب المؤتمر الوطني عمليًا (SAS_HSBA_WP3) [مصدر واحد]. ويوصف الشرق بأنه تخم اقتصادي ذو روابط طرق وسكك حديد وخط أنابيب نفط، مع تهريب عابر للحدود نحو إريتريا ومصر (SAS_HSBA_WP3). [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
+      "flags": [
+        "Italian colonial phase 1890–1941/52 thin – only the 1890 proclamation read (EEBC2002 p.104 para 2.5)",
+        "Eastern Corps/NMJD from SWM excerpt – VERIFY"
+      ]
+    },
+    "french-chad-republic-of-chad": {
+      "geopolitics_en": "Chad's conflicts spill directly into Darfur. In the 1980s western Darfur was a battleground between Hissène Habré's troops and Libyan-backed rebels under Idriss Déby, a Zaghawa supported by Darfur's Zaghawa; in May 1990 Chadian soldiers entered al-Fashir; Déby's MPS armed Zaghawa and Arab militias who turned on the Fur; after Déby took power in Dec 1990 he closed the SPLM office (LOC1991_CHAD). After years of proxy war, the 15 Jan 2010 N'Djamena Agreement committed each side to end support for the other's rebels by 21 Feb 2010 and was signed with an Additional Frontier Security Protocol (NDJAMENA2010, p.1 Arts 1, 2, 4; Final Joint Communiqué); a 3,000-strong joint border force deployed under joint command at El Geneina, then Abéché; Déby visited Khartoum on 8–9 Feb 2010, the first such visit since 2004, and helped negotiate the Feb 2010 Doha framework with JEM (UNSC_S2010_217) [VERIFY]. In the 2023 war Chad is described as aligned more closely with the RSF and as having allegedly let the UAE ship arms into Sudan from its territory (ICG_B204) [VERIFY; allegation; SINGLE-SOURCE], while hosting a major refugee influx: UNHCR reported on 25 Nov 2025 that over 9,500 refugees had crossed into eastern Chad since 24 October 2025 (reported humanitarian situation; GEO-095, UNHCR) [SINGLE-SOURCE]; see also GEO-037, GEO-038. French colonial phase not covered by a read source [thin].",
+      "geopolitics_ar": "تمتد صراعات تشاد مباشرة إلى دارفور. ففي الثمانينيات كان غرب دارفور ساحة معركة بين قوات حسين حبري ومتمردين مدعومين من ليبيا بقيادة إدريس ديبي، وهو من الزغاوة ويدعمه زغاوة دارفور؛ وفي مايو 1990 دخل جنود تشاديون الفاشر؛ وسلحت حركة الإنقاذ الوطني التابعة لديبي ميليشيات من الزغاوة والعرب انقلبت على الفور؛ وبعد تولي ديبي السلطة في ديسمبر 1990 أغلق مكتب الحركة الشعبية (LOC1991_CHAD). وبعد سنوات من الحرب بالوكالة، ألزم اتفاق انجمينا في 15 يناير 2010 كل طرف بوقف دعم متمردي الآخر بحلول 21 فبراير 2010 وأنشأ بروتوكولًا لأمن الحدود (NDJAMENA2010) [يحتاج تحقق]؛ وانتشرت قوة حدودية مشتركة من 3,000 جندي بقيادة مشتركة في الجنينة ثم أبشي؛ وزار ديبي الخرطوم في 8–9 فبراير 2010، في أول زيارة منذ 2004، وساعد في التفاوض على اتفاق الدوحة الإطاري مع حركة العدل والمساواة (UNSC_S2010_217) [يحتاج تحقق]. وفي حرب 2023 توصف تشاد بأنها أقرب إلى الدعم السريع ويُزعم أنها سمحت للإمارات بشحن أسلحة إلى السودان عبر أراضيها (ICG_B204) [ادعاء – مصدر واحد – يحتاج تحقق]، بينما تستضيف تدفقًا كبيرًا من اللاجئين: أفادت المفوضية السامية للأمم المتحدة لشؤون اللاجئين في 25 نوفمبر 2025 بعبور أكثر من 9,500 لاجئ إلى شرق تشاد منذ 24 أكتوبر 2025 (وضع إنساني مُبلَّغ عنه؛ GEO-095، المفوضية) [مصدر واحد] [يحتاج تحقق]؛ انظر أيضًا GEO-037 وGEO-038. أما المرحلة الاستعمارية الفرنسية فلم يغطها مصدر مقروء. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
+      "economy_en": "On 10 Apr 2010 the Chad–Sudan border reopened at three points for the first time since 2003 and cross-border trade resumed (UNSC_S2010_217) [SINGLE-SOURCE; VERIFY].",
+      "economy_ar": "في 10 أبريل 2010 أعيد فتح الحدود التشادية-السودانية عند ثلاث نقاط لأول مرة منذ 2003 واستؤنفت التجارة العابرة للحدود (UNSC_S2010_217) [مصدر واحد؛ يحتاج تحقق]. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
+      "flags": [
+        "UAE arms via Chad: allegation reported by ICG – contested, VERIFY",
+        "French colonial phase 1900–1960 thin"
+      ]
+    },
+    "libya-ottoman-italian-independent": {
+      "geopolitics_en": "Before independence, Libya touched Sudan through the Sanusi order: its centre at Jaghbub lay on the main trade route 'between the Sudan and the coast', and in 1895 it moved its headquarters south to Kufra (LOC_LBY1987_SANUSI). Kufra, the last Sanusi stronghold, fell to Italy in 1931 (LOC_LBY1987_ITALOSANUSI), and a 1934 accord with Britain and Egypt transferred the Sarra Triangle, a corner of the Anglo-Egyptian Sudan, to Italian control (LOC_LBY1987_FOURTHSHORE). Under Qaddafi, relations swung between hostility and cordiality: Nimeiri hosted anti-Qaddafi broadcasts while Libya trained anti-Nimeiri forces and supported the SPLM; Sadiq al-Mahdi let Libyan forces base in Darfur to help Chadian rebels until Sudan asked them to leave in 1988 under Egyptian and US pressure; after 1989 a unity agreement was negotiated (1990) and Qaddafi visited Khartoum (LOC1991_LIBYA). In the 2023 war, a UN Panel of Experts report (Jan 2024, via LSM_KUFRA2024) cites sources saying the RSF used a supply route to Darfur from southern Libya via Kufra for fuel, Land Cruisers and weapons, with coordination by LNA-aligned brigades such as Subul al-Salam (UNPOE_S2024_65 paras 44-47, PDF p.16; UNPOE_S2025_239 para 71, PDF p.24, Kufra smuggling routes) [REPORTED; ACLED/ISW not used].",
+      "geopolitics_ar": "قبل الاستقلال ارتبطت ليبيا بالسودان عبر الطريقة السنوسية: فمركزها في الجغبوب كان على طريق التجارة الرئيسي «بين السودان والساحل»، وفي 1895 نقلت مقرها جنوبًا إلى الكفرة (LOC_LBY1987_SANUSI). وسقطت الكفرة، آخر معاقل السنوسية، بيد إيطاليا عام 1931 (LOC_LBY1987_ITALOSANUSI)، ونقل اتفاق عام 1934 مع بريطانيا ومصر مثلث السارة، وهو ركن من السودان الإنجليزي المصري، إلى السيطرة الإيطالية (LOC_LBY1987_FOURTHSHORE). وفي عهد القذافي تأرجحت العلاقات بين العداء والود: استضاف نميري بثًا معاديًا للقذافي بينما درّبت ليبيا قوات معادية لنميري ودعمت الحركة الشعبية؛ وسمح الصادق المهدي لقوات ليبية بالتمركز في دارفور لمساعدة متمردين تشاديين حتى طلب السودان رحيلها عام 1988 تحت ضغط مصري وأمريكي؛ وبعد 1989 جرى التفاوض على اتفاق وحدة (1990) وزار القذافي الخرطوم (LOC1991_LIBYA). وفي حرب 2023 يستشهد تقرير لفريق خبراء الأمم المتحدة (يناير 2024، عبر LSM_KUFRA2024) بمصادر تقول إن الدعم السريع استخدم طريق إمداد إلى دارفور من جنوب ليبيا عبر الكفرة للوقود وسيارات لاند كروزر والسلاح، بتنسيق مع ألوية موالية للجيش الوطني الليبي مثل سبل السلام (UNPOE_S2024_65 ص.16 الفقرات 44-47؛ UNPOE_S2025_239 ص.24) [مُبلَّغ عنه] [يحتاج تحقق]. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
+      "economy_en": "In 1990 Libya and Sudan signed a trade and development protocol providing Libyan investment in Sudanese agriculture in exchange for guaranteed access to Sudanese food, and agreed to plan easier travel between Darfur and Libya's Al Khalij area (LOC1991_LIBYA) [SINGLE-SOURCE].",
+      "economy_ar": "في 1990 وقّعت ليبيا والسودان بروتوكولًا للتجارة والتنمية ينص على استثمار ليبي في الزراعة السودانية مقابل ضمان الوصول إلى الغذاء السوداني، واتفقتا على تخطيط تسهيل التنقل بين دارفور ومنطقة الخليج الليبية (LOC1991_LIBYA) [مصدر واحد]. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
+      "flags": [
+        "Ottoman phase 1551–1911 not covered",
+        "Kufra corridor via secondary summary of UN PoE report – VERIFY",
+        "2011 fall of Qaddafi and Darfur effects not covered – thin"
+      ]
+    },
+    "central-african-republic-ubangi-shari": {
+      "geopolitics_en": "Since the 2023 war, the RSF is reported to be increasingly crossing into CAR, doing business and recruiting fighters from armed groups there, while ICG reported that the Sudanese army was stepping up air raids along the CAR border [SINGLE-SOURCE]; Crisis Group says the incursions have greatly exacerbated criminal violence in CAR's north, especially in Vakaga prefecture (ICG_RADAR2024, 21 Jun 2024 entry). UNHCR reports allegations of RSF presence in Vakaga, and the UN Panel reports RSF recruitment among CAR opposition groups in the Vakaga border area (UNPOE_S2025_239 para 64, PDF p.23) [REPORTED], which hosts most Sudanese refugees in CAR; most arrive via Am Dafock, 65 km from Birao, and the Korsi settlement at Birao held 11,196 refugees by 13 Apr 2024 (UNHCR_CAR2024 pp.1-2). Colonial Ubangi-Shari and pre-2023 relations not covered by a read source [thin].",
+      "geopolitics_ar": "منذ حرب 2023 تفيد التقارير بأن قوات الدعم السريع تعبر بشكل متزايد إلى جمهورية أفريقيا الوسطى، فتمارس التجارة وتجند مقاتلين من الجماعات المسلحة هناك، بينما أفادت مجموعة الأزمات الدولية بأن الجيش السوداني يكثف غاراته الجوية على طول الحدود [مصدر واحد] [يحتاج تحقق]؛ وتقول مجموعة الأزمات إن هذه التوغلات فاقمت العنف الإجرامي في الشمال، خاصة في محافظة فاكاغا (ICG_RADAR2024، 21 يونيو 2024) [يحتاج تحقق]. ويفيد فريق خبراء الأمم المتحدة بتجنيد الدعم السريع في صفوف جماعات معارضة من أفريقيا الوسطى في منطقة فاكاغا الحدودية (UNPOE_S2025_239 الفقرة 64) [مُبلَّغ عنه] [يحتاج تحقق]. وتورد المفوضية ادعاءات بوجود الدعم السريع في فاكاغا التي تستضيف معظم اللاجئين السودانيين في البلاد؛ ويصل أغلبهم عبر أم دافوك على بعد 65 كم من بيراو، وبلغ عدد اللاجئين في مستوطنة كورسي ببيراو 11,196 بحلول 13 أبريل 2024 (UNHCR_CAR2024) [يحتاج تحقق]. أما أوبانغي-شاري الاستعمارية والعلاقات قبل 2023 فلم يغطها مصدر مقروء. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
+      "economy_en": "Crisis Group warns trade disruption from the incursions could aggravate the humanitarian situation in northern CAR (ICG_RADAR2024) [SINGLE-SOURCE; VERIFY].",
+      "economy_ar": "تحذر مجموعة الأزمات من أن تعطل التجارة بسبب التوغلات قد يفاقم الوضع الإنساني في شمال أفريقيا الوسطى (ICG_RADAR2024) [مصدر واحد؛ يحتاج تحقق]. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
+      "flags": [
+        "Colonial and 1960–2022 relations thin",
+        "RSF presence in Vakaga = allegations per UNHCR"
+      ]
+    }
   }
- },
- "eras": {
-  "british-occupied-kingdom-of-egypt": {
-   "geopolitics_en": "For Sudan, this era is the Condominium. In January 1899 an Anglo-Egyptian agreement 'restored Egyptian rule in Sudan but as part of a condominium', designating territory south of the 22nd parallel as the Anglo-Egyptian Sudan; in practice the British governor-general ran it 'as if it were a colonial administration' (LOC1991_CONDO). After Sir Lee Stack was assassinated in Cairo in Nov 1924, Britain ordered all Egyptian troops and officials out of Sudan (LOC1991_CONDO). The 1936 Anglo-Egyptian Treaty left Sudan's status unresolved, and Sudanese nationalists split over union with Egypt versus independence (LOC1991_NATIONALISM). In Feb 1953 London and Cairo signed an accord granting Sudan a three-year transition to self-government after Naguib accepted Sudanese self-determination (LOC1991_INDEP). The 1902 administrative line that later underlies the Halaib dispute also dates from this era (IBS18_1962). On the Nile, the 1959 treaty notes that a 1929 Nile Waters Agreement 'only regulated a partial use of the natural river' (UNTS6519_1959) [1929 terms not read directly – VERIFY].",
-   "geopolitics_ar": "بالنسبة للسودان، هذه الحقبة هي حقبة الحكم الثنائي. ففي يناير 1899 أعاد اتفاق إنجليزي-مصري الحكم المصري إلى السودان ولكن في إطار حكم ثنائي، وحدّد الأراضي الواقعة جنوب خط العرض 22 بوصفها السودان الإنجليزي المصري، وفي الواقع أداره الحاكم العام البريطاني «كما لو كان إدارة استعمارية» (LOC1991_CONDO). وبعد اغتيال السير لي ستاك في القاهرة في نوفمبر 1924 أمرت بريطانيا بسحب جميع القوات والموظفين المصريين من السودان (LOC1991_CONDO). وترك اتفاق 1936 وضع السودان دون حسم، وانقسم الوطنيون السودانيون بين الاتحاد مع مصر والاستقلال (LOC1991_NATIONALISM). وفي فبراير 1953 وقّعت لندن والقاهرة اتفاقًا يمنح السودان فترة انتقالية مدتها ثلاث سنوات نحو الحكم الذاتي بعد قبول نجيب حق تقرير المصير (LOC1991_INDEP). ويعود إلى هذه الحقبة أيضًا الخط الإداري لعام 1902 الذي يقوم عليه لاحقًا نزاع حلايب (IBS18_1962). أما النيل فتذكر اتفاقية 1959 أن اتفاقية 1929 «لم تنظم إلا استخدامًا جزئيًا» للنهر (UNTS6519_1959) [شروط 1929 لم تُقرأ مباشرة – يحتاج تحقق]. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
-   "economy_en": null,
-   "economy_ar": null,
-   "flags": [
-    "economy: left null – no source read on Condominium-era Egypt–Sudan economic ties beyond existing Condominium era text",
-    "1929 agreement terms not read – VERIFY"
-   ]
-  },
-  "republic-of-egypt": {
-   "geopolitics_en": "Egypt is Sudan's most important northern neighbour and a party to the Nile regime. The 8 Nov 1959 Cairo agreement allowed Egypt to build the Sudd el-Aali (High Dam) at Aswan and Sudan the Roseires reservoir (UNTS6519_1959). From 1 Feb 1958 Egypt claimed the territory north of the 22nd parallel, opening the Halaib dispute (IBS18_1962); effective Egyptian control dates are contested – 1992/93, 1994, 1995 or 2000 depending on source (see db/halaib_dates_check.md; WP_HALAIB). Under Nimeiri, Sudan backed Egypt after the 1979 peace with Israel; Mubarak gave Nimeiri asylum in 1985, and after 1989 relations collapsed: Egypt hosted the opposition NDA, accused Khartoum of aiming Iraqi missiles at the High Dam, and by mid-1991 openly funded the DUP and SPLM (LOC1991_EGYPT; LOC1991_FOREIGN). Egypt has always opposed the GERD; Sudan, after first backing it under Bashir, hardened its stance after the Oct 2021 coup as the two armies held joint exercises (GEO-015). In the 2023 war, Egypt and Saudi Arabia back the Sudanese army (ICG_ETH_ERI, 'A Seesaw Relationship') [SINGLE-SOURCE: no UN/aid-agency second source]; see also GEO-012 (Egyptian state-affiliated, pro-SAF) and AR_AJCS_5653.",
-   "geopolitics_ar": "مصر أهم جار شمالي للسودان وطرف في نظام مياه النيل. أتاح اتفاق القاهرة في 8 نوفمبر 1959 لمصر بناء السد العالي في أسوان وللسودان بناء خزان الروصيرص (UNTS6519_1959). ومنذ 1 فبراير 1958 طالبت مصر بالأراضي الواقعة شمال خط العرض 22، فبدأ نزاع حلايب (IBS18_1962)؛ أما تاريخ السيطرة المصرية الفعلية فمتنازع عليه: 1992/93 أو 1994 أو 1995 أو 2000 بحسب المصدر (انظر db/halaib_dates_check.md؛ WP_HALAIB). وفي عهد نميري ساند السودان مصر بعد سلامها مع إسرائيل عام 1979، ومنح مبارك نميري اللجوء عام 1985، وبعد 1989 انهارت العلاقات: استضافت مصر التجمع الوطني الديمقراطي المعارض، واتهمت الخرطوم بتوجيه صواريخ عراقية نحو السد العالي، وبحلول منتصف 1991 كانت تمول علنًا الحزب الاتحادي الديمقراطي والحركة الشعبية (LOC1991_EGYPT؛ LOC1991_FOREIGN). وعارضت مصر سد النهضة دائمًا؛ أما السودان فبعد تأييده الأولي في عهد البشير تشدد موقفه بعد انقلاب أكتوبر 2021 مع إجراء الجيشين مناورات مشتركة (GEO-015). وفي حرب 2023 تدعم مصر والسعودية الجيش السوداني (ICG_ETH_ERI) [مصدر واحد] [يحتاج تحقق]؛ انظر أيضًا GEO-012 وAR_AJCS_5653. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
-   "economy_en": "Water is the core economic tie. The 1959 agreement set 'established rights' of 48 bn m³/yr for Egypt and 4 bn m³/yr for Sudan (at Aswan); the High Dam's net benefit of 22 bn m³ (mean flow 84 bn m³ minus 10 bn m³ storage losses) was split 14.5 to Sudan and 7.5 to Egypt, giving totals of 55.5 bn m³ (Egypt) and 18.5 bn m³ (Sudan) (UNTS6519_1959 pp.64, 66); Egypt agreed to pay Sudan E£15 million as full compensation for damage to existing Sudanese properties from High Dam storage (UNTS6519_1959 p.68; instalment schedule Annex 2, p.76). Chatham House notes Sudan 'currently takes far less' than its allocated share (GEO-015) [SINGLE-SOURCE]. A 1990 Libya–Sudan rapprochement was 'not viewed favorably in Cairo' (LOC1991_LIBYA). The event file's Aswan High Dam/Wadi Halfa flooding item belongs to this agreement.",
-   "economy_ar": "المياه هي الرابط الاقتصادي الأساسي. حددت اتفاقية 1959 «الحقوق المكتسبة» بـ48 مليار م³ سنويًا لمصر و4 مليارات م³ للسودان (مقاسة عند أسوان)؛ وقُسمت الفائدة الصافية للسد العالي البالغة 22 مليار م³ (متوسط الإيراد 84 مليارًا ناقص 10 مليارات فواقد تخزين) بواقع 14.5 للسودان و7.5 لمصر، ليصبح المجموع 55.5 مليار م³ لمصر و18.5 مليار م³ للسودان (UNTS6519_1959) [يحتاج تحقق من النص الكامل]. وتشير تشاتام هاوس إلى أن السودان يستهلك حاليًا أقل بكثير من حصته (GEO-015) [مصدر واحد]. وكان التقارب الليبي-السوداني عام 1990 «غير مرحب به في القاهرة» (LOC1991_LIBYA). [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
-   "flags": [
-    "Halaib control date: differing estimates (1992/93, 1994, 1995, 2000) shown side by side",
-    "2023-war alignment from ICG search excerpt – VERIFY",
-    "Arabic Wikipedia gives Sudan's share of the 22 bn as 20 bn – a known error; UNTS text gives 14.5 (not used)"
-   ]
-  },
-  "derg-federal-ethiopia": {
-   "geopolitics_en": "Ethiopia–Sudan relations ran through mutual proxy war. LOC says relations were 'generally good until the mid-1980s'; Haile Selassie had mediated the 1972 settlement, but Ethiopia resented Eritrean guerrillas operating from Sudan; Sudan recalled its ambassador in Jan 1977, openly backed Eritrean movements, a 1980 treaty eased tensions, and the 1981 Ethiopia–Libya–South Yemen pact and Ethiopian support for the SPLA revived them (LOC_ETH1991_BORDER). HRW says the Derg gave the SPLA uniforms, logistics, arms, training 'and even political direction', and that when Mengistu fell in 1991 the SPLA and several hundred thousand refugees fled back into Sudan (HRW1998_SPLA, 'The Opposition Forces'). Under the federal government (since 1991) the flashpoints are the GERD, built 30 km from the border, and al-Fashaga: Sudan's claim rests on the 1902 Anglo-Ethiopian Treaty and the 1903 Gwynn Line; Ethiopian farmers cultivated it from 1996 with Khartoum's tacit acquiescence, until the SAF retook almost all of it after the Tigray war began in Nov 2020 (GEO-015). In the 2023 war, Ethiopia is described as leaning towards the RSF (ICG_ETH_ERI, 'A Seesaw Relationship'; ICG_B204, sec. II.B) [SINGLE-SOURCE: no UN/aid-agency second source]; GEO-056 (single anonymous Sudanese government source) alleges training and supply [SINGLE-SOURCE, contested].",
-   "geopolitics_ar": "مرت العلاقات الإثيوبية-السودانية بحرب بالوكالة متبادلة. تقول مكتبة الكونغرس إن العلاقات كانت «جيدة عمومًا حتى منتصف الثمانينيات»؛ فقد توسط هيلا سيلاسي في تسوية 1972، لكن إثيوبيا استاءت من نشاط المقاتلين الإريتريين انطلاقًا من السودان؛ واستدعى السودان سفيره في يناير 1977 ودعم علنًا الحركات الإريترية، ثم خففت معاهدة 1980 التوتر، قبل أن يعيده الحلف الإثيوبي-الليبي-اليمني الجنوبي عام 1981 ودعم إثيوبيا للجيش الشعبي (LOC_ETH1991_BORDER). وتقول هيومن رايتس ووتش إن الدرق زود الجيش الشعبي بالزي والإمداد والسلاح والتدريب «بل والتوجيه السياسي»، وإنه عند سقوط منغستو عام 1991 فر الجيش الشعبي ومئات الآلاف من اللاجئين عائدين إلى السودان (HRW1998_SPLA) [يحتاج تحقق]؛ وتضيف دراسة أرشيفية طرق الإمداد ومحطة إذاعة ومخيمات غامبيلا (EJOSSAH_DERG_SPLA) [يحتاج تحقق]. وفي ظل الحكومة الفيدرالية (منذ 1991) تتركز بؤر التوتر في سد النهضة المبني على بعد 30 كم من الحدود، وفي الفشقة: يستند ادعاء السودان إلى المعاهدة الإنجليزية-الإثيوبية لعام 1902 وخط قوين لعام 1903؛ وزرعها مزارعون إثيوبيون منذ 1996 بقبول ضمني من الخرطوم، حتى استعاد الجيش السوداني معظمها بعد اندلاع حرب تيغراي في نوفمبر 2020 (GEO-015). وفي حرب 2023 توصف إثيوبيا بأنها تميل نحو الدعم السريع (ICG_ETH_ERI؛ ICG_B204) [مصدر واحد] [يحتاج تحقق]؛ ويزعم GEO-056 (مصدر حكومي سوداني مجهول) تقديم تدريب وإمداد [مصدر واحد، متنازع عليه]. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
-   "economy_en": "Chatham House reports that the SAF's 2020 move gave Sudan control over '600,000 acres of valuable agricultural land' in al-Fashaga, with sesame and other cash crops previously exported via Ethiopia; GERD water releases have disrupted Sudan's Roseires dam (unannounced release 2020; silt clogging turbines 2021), and in mid-2022 the parties agreed to share GERD operating data; Bashir had expected flood control, irrigation and cheap surplus electricity from the dam (GEO-015) [SINGLE-SOURCE for the acreage]. See GEO-016/GEO-017 for the energy-trade argument.",
-   "economy_ar": "تفيد تشاتام هاوس بأن تحرك الجيش السوداني عام 2020 منح السودان السيطرة على «600 ألف فدان (acre) من الأراضي الزراعية القيمة» في الفشقة، حيث كان السمسم ومحاصيل نقدية أخرى تُصدَّر سابقًا عبر إثيوبيا؛ وأربكت تصريفات سد النهضة سد الروصيرص السوداني (تصريف دون إخطار عام 2020، وانسداد التوربينات بالطمي عام 2021)، واتفقت الأطراف منتصف 2022 على تبادل بيانات تشغيل السد؛ وكان البشير يتوقع من السد ضبط الفيضانات والري وكهرباء فائضة رخيصة (GEO-015) [مصدر واحد للمساحة]. انظر GEO-016 وGEO-017. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
-   "flags": [
-    "Ethiopia-RSF alignment: ICG excerpt + contested single anonymous source (GEO-056) – VERIFY",
-    "Imperial 1974 start: era file covers Derg+federal only"
-   ]
-  },
-  "eritrea-italian-colony-independent": {
-   "geopolitics_en": "Eritrea's war of independence (1961, about 30 years) sent hundreds of thousands of refugees into eastern Sudan; camps there held over a million people at their late-1980s peak, and the 1998 Ethiopia–Eritrea war brought a new influx (SAS_HSBA_WP3). Sudan openly backed Eritrean liberation movements from the late 1970s (LOC_ETH1991_BORDER). After independence, Eritrea hosted the Sudanese opposition: Beja Congress politicians moved there in the early 1990s to join the NDA; the Rashaida Free Lions (1999) had 'strong support' from Asmara; in 2005 they formed the Eastern Front, whose dependence on Eritrea weakened it. Eritrea mediated the Eastern Sudan Peace Agreement of 14 Oct 2006, which reopened the border and improved Asmara–Khartoum ties (SAS_HSBA_WP3). From 1996 the SPLA also based a military force known as the New Sudan Brigade in western Eritrea (HRW1998_SPLA, 'The Opposition Forces'). In the Tigray war period Eritrea kept influence among cross-border tribes such as the Beni Amer (GEO-015). In the 2023 war Eritrea backs the army (ICG_B204) and has aided army-aligned militias in the east (ICG_ETH_ERI); Sudan War Monitor reports two Eritrea-backed militias deployed in Kassala State: the Eastern Corps, military wing of the UPFLJ, which announced its deployment on 28 Oct 2024, and NMJD forces, whose unannounced arrival preceded it (SWM_ERI2024) [SINGLE-SOURCE: no UN/aid-agency second source]. Italy formally established the Colony of Eritrea on 1 January 1890 (EEBC2002 p.104 para 2.5); the rest of the colonial phase is not covered by a read source [thin].",
-   "geopolitics_ar": "دفعت حرب استقلال إريتريا (منذ 1961 ولنحو 30 عامًا) مئات الآلاف من اللاجئين إلى شرق السودان؛ وضمت المخيمات هناك أكثر من مليون شخص في ذروتها أواخر الثمانينيات، وجلبت حرب إثيوبيا-إريتريا عام 1998 موجة جديدة (SAS_HSBA_WP3). ودعم السودان علنًا حركات التحرير الإريترية منذ أواخر السبعينيات (LOC_ETH1991_BORDER). وبعد الاستقلال استضافت إريتريا المعارضة السودانية: انتقل سياسيو مؤتمر البجا إليها مطلع التسعينيات للانضمام إلى التجمع الوطني الديمقراطي؛ وحظيت الأسود الحرة الرشايدة (1999) «بدعم قوي» من أسمرا؛ وفي 2005 شكلا جبهة الشرق التي أضعفها اعتمادها على إريتريا. وتوسطت إريتريا في اتفاق سلام شرق السودان في 14 أكتوبر 2006، الذي أعاد فتح الحدود وحسّن العلاقات بين أسمرا والخرطوم (SAS_HSBA_WP3). ومنذ 1996 أقام الجيش الشعبي «لواء السودان الجديد» في غرب إريتريا (HRW1998_SPLA) [يحتاج تحقق]. وخلال حرب تيغراي احتفظت إريتريا بنفوذ بين القبائل العابرة للحدود مثل بني عامر (GEO-015). وفي حرب 2023 تدعم إريتريا الجيش (ICG_B204) وساعدت ميليشيات متحالفة معه في الشرق (ICG_ETH_ERI)؛ ويفيد Sudan War Monitor بانتشار ميليشيتين مدعومتين من إريتريا، «الأورطة الشرقية» التابعة للجبهة الشعبية المتحدة للتحرير والعدالة والحركة الوطنية للعدالة والتنمية، في كسلا أواخر أكتوبر 2024 (SWM_ERI2024) [مصدر واحد] [يحتاج تحقق]. أعلنت إيطاليا رسميًا مستعمرة إريتريا في 1 يناير 1890 (EEBC2002 ص.104 الفقرة 2.5)؛ أما بقية المرحلة الاستعمارية فلم يغطها مصدر مقروء. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
-   "economy_en": "The 2006 ESPA provided a four-year USD 600 million development fund for the eastern region, controlled in practice by the NCP (SAS_HSBA_WP3) [SINGLE-SOURCE]. The east is described as an economic frontier with road, rail and oil-pipeline links and cross-border smuggling to Eritrea and Egypt (SAS_HSBA_WP3).",
-   "economy_ar": "نص اتفاق سلام الشرق لعام 2006 على صندوق تنمية للإقليم الشرقي بقيمة 600 مليون دولار على أربع سنوات، يسيطر عليه حزب المؤتمر الوطني عمليًا (SAS_HSBA_WP3) [مصدر واحد]. ويوصف الشرق بأنه تخم اقتصادي ذو روابط طرق وسكك حديد وخط أنابيب نفط، مع تهريب عابر للحدود نحو إريتريا ومصر (SAS_HSBA_WP3). [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
-   "flags": [
-    "Italian colonial phase 1890–1941/52 thin – only the 1890 proclamation read (EEBC2002 p.104 para 2.5)",
-    "Eastern Corps/NMJD from SWM excerpt – VERIFY"
-   ]
-  },
-  "french-chad-republic-of-chad": {
-   "geopolitics_en": "Chad's conflicts spill directly into Darfur. In the 1980s western Darfur was a battleground between Hissène Habré's troops and Libyan-backed rebels under Idriss Déby, a Zaghawa supported by Darfur's Zaghawa; in May 1990 Chadian soldiers entered al-Fashir; Déby's MPS armed Zaghawa and Arab militias who turned on the Fur; after Déby took power in Dec 1990 he closed the SPLM office (LOC1991_CHAD). After years of proxy war, the 15 Jan 2010 N'Djamena Agreement committed each side to end support for the other's rebels by 21 Feb 2010 and was signed with an Additional Frontier Security Protocol (NDJAMENA2010, p.1 Arts 1, 2, 4; Final Joint Communiqué); a 3,000-strong joint border force deployed under joint command at El Geneina, then Abéché; Déby visited Khartoum on 8–9 Feb 2010, the first such visit since 2004, and helped negotiate the Feb 2010 Doha framework with JEM (UNSC_S2010_217) [VERIFY]. In the 2023 war Chad is described as aligned more closely with the RSF and as having allegedly let the UAE ship arms into Sudan from its territory (ICG_B204) [VERIFY; allegation; SINGLE-SOURCE], while hosting a major refugee influx: UNHCR reported on 25 Nov 2025 that over 9,500 refugees had crossed into eastern Chad since 24 October 2025 (reported humanitarian situation; GEO-095, UNHCR) [SINGLE-SOURCE]; see also GEO-037, GEO-038. French colonial phase not covered by a read source [thin].",
-   "geopolitics_ar": "تمتد صراعات تشاد مباشرة إلى دارفور. ففي الثمانينيات كان غرب دارفور ساحة معركة بين قوات حسين حبري ومتمردين مدعومين من ليبيا بقيادة إدريس ديبي، وهو من الزغاوة ويدعمه زغاوة دارفور؛ وفي مايو 1990 دخل جنود تشاديون الفاشر؛ وسلحت حركة الإنقاذ الوطني التابعة لديبي ميليشيات من الزغاوة والعرب انقلبت على الفور؛ وبعد تولي ديبي السلطة في ديسمبر 1990 أغلق مكتب الحركة الشعبية (LOC1991_CHAD). وبعد سنوات من الحرب بالوكالة، ألزم اتفاق انجمينا في 15 يناير 2010 كل طرف بوقف دعم متمردي الآخر بحلول 21 فبراير 2010 وأنشأ بروتوكولًا لأمن الحدود (NDJAMENA2010) [يحتاج تحقق]؛ وانتشرت قوة حدودية مشتركة من 3,000 جندي بقيادة مشتركة في الجنينة ثم أبشي؛ وزار ديبي الخرطوم في 8–9 فبراير 2010، في أول زيارة منذ 2004، وساعد في التفاوض على اتفاق الدوحة الإطاري مع حركة العدل والمساواة (UNSC_S2010_217) [يحتاج تحقق]. وفي حرب 2023 توصف تشاد بأنها أقرب إلى الدعم السريع ويُزعم أنها سمحت للإمارات بشحن أسلحة إلى السودان عبر أراضيها (ICG_B204) [ادعاء – مصدر واحد – يحتاج تحقق]، بينما تستضيف تدفقًا كبيرًا من اللاجئين: أفادت المفوضية السامية للأمم المتحدة لشؤون اللاجئين في 25 نوفمبر 2025 بعبور أكثر من 9,500 لاجئ إلى شرق تشاد منذ 24 أكتوبر 2025 (وضع إنساني مُبلَّغ عنه؛ GEO-095، المفوضية) [مصدر واحد] [يحتاج تحقق]؛ انظر أيضًا GEO-037 وGEO-038. أما المرحلة الاستعمارية الفرنسية فلم يغطها مصدر مقروء. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
-   "economy_en": "On 10 Apr 2010 the Chad–Sudan border reopened at three points for the first time since 2003 and cross-border trade resumed (UNSC_S2010_217) [SINGLE-SOURCE; VERIFY].",
-   "economy_ar": "في 10 أبريل 2010 أعيد فتح الحدود التشادية-السودانية عند ثلاث نقاط لأول مرة منذ 2003 واستؤنفت التجارة العابرة للحدود (UNSC_S2010_217) [مصدر واحد؛ يحتاج تحقق]. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
-   "flags": [
-    "UAE arms via Chad: allegation reported by ICG – contested, VERIFY",
-    "French colonial phase 1900–1960 thin"
-   ]
-  },
-  "libya-ottoman-italian-independent": {
-   "geopolitics_en": "Before independence, Libya touched Sudan through the Sanusi order: its centre at Jaghbub lay on the main trade route 'between the Sudan and the coast', and in 1895 it moved its headquarters south to Kufra (LOC_LBY1987_SANUSI). Kufra, the last Sanusi stronghold, fell to Italy in 1931 (LOC_LBY1987_ITALOSANUSI), and a 1934 accord with Britain and Egypt transferred the Sarra Triangle, a corner of the Anglo-Egyptian Sudan, to Italian control (LOC_LBY1987_FOURTHSHORE). Under Qaddafi, relations swung between hostility and cordiality: Nimeiri hosted anti-Qaddafi broadcasts while Libya trained anti-Nimeiri forces and supported the SPLM; Sadiq al-Mahdi let Libyan forces base in Darfur to help Chadian rebels until Sudan asked them to leave in 1988 under Egyptian and US pressure; after 1989 a unity agreement was negotiated (1990) and Qaddafi visited Khartoum (LOC1991_LIBYA). In the 2023 war, a UN Panel of Experts report (Jan 2024, via LSM_KUFRA2024) cites sources saying the RSF used a supply route to Darfur from southern Libya via Kufra for fuel, Land Cruisers and weapons, with coordination by LNA-aligned brigades such as Subul al-Salam (UNPOE_S2024_65 paras 44-47, PDF p.16; UNPOE_S2025_239 para 71, PDF p.24, Kufra smuggling routes) [REPORTED; ACLED/ISW not used].",
-   "geopolitics_ar": "قبل الاستقلال ارتبطت ليبيا بالسودان عبر الطريقة السنوسية: فمركزها في الجغبوب كان على طريق التجارة الرئيسي «بين السودان والساحل»، وفي 1895 نقلت مقرها جنوبًا إلى الكفرة (LOC_LBY1987_SANUSI). وسقطت الكفرة، آخر معاقل السنوسية، بيد إيطاليا عام 1931 (LOC_LBY1987_ITALOSANUSI)، ونقل اتفاق عام 1934 مع بريطانيا ومصر مثلث السارة، وهو ركن من السودان الإنجليزي المصري، إلى السيطرة الإيطالية (LOC_LBY1987_FOURTHSHORE). وفي عهد القذافي تأرجحت العلاقات بين العداء والود: استضاف نميري بثًا معاديًا للقذافي بينما درّبت ليبيا قوات معادية لنميري ودعمت الحركة الشعبية؛ وسمح الصادق المهدي لقوات ليبية بالتمركز في دارفور لمساعدة متمردين تشاديين حتى طلب السودان رحيلها عام 1988 تحت ضغط مصري وأمريكي؛ وبعد 1989 جرى التفاوض على اتفاق وحدة (1990) وزار القذافي الخرطوم (LOC1991_LIBYA). وفي حرب 2023 يستشهد تقرير لفريق خبراء الأمم المتحدة (يناير 2024، عبر LSM_KUFRA2024) بمصادر تقول إن الدعم السريع استخدم طريق إمداد إلى دارفور من جنوب ليبيا عبر الكفرة للوقود وسيارات لاند كروزر والسلاح، بتنسيق مع ألوية موالية للجيش الوطني الليبي مثل سبل السلام (UNPOE_S2024_65 ص.16 الفقرات 44-47؛ UNPOE_S2025_239 ص.24) [مُبلَّغ عنه] [يحتاج تحقق]. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
-   "economy_en": "In 1990 Libya and Sudan signed a trade and development protocol providing Libyan investment in Sudanese agriculture in exchange for guaranteed access to Sudanese food, and agreed to plan easier travel between Darfur and Libya's Al Khalij area (LOC1991_LIBYA) [SINGLE-SOURCE].",
-   "economy_ar": "في 1990 وقّعت ليبيا والسودان بروتوكولًا للتجارة والتنمية ينص على استثمار ليبي في الزراعة السودانية مقابل ضمان الوصول إلى الغذاء السوداني، واتفقتا على تخطيط تسهيل التنقل بين دارفور ومنطقة الخليج الليبية (LOC1991_LIBYA) [مصدر واحد]. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
-   "flags": [
-    "Ottoman phase 1551–1911 not covered",
-    "Kufra corridor via secondary summary of UN PoE report – VERIFY",
-    "2011 fall of Qaddafi and Darfur effects not covered – thin"
-   ]
-  },
-  "central-african-republic-ubangi-shari": {
-   "geopolitics_en": "Since the 2023 war, the RSF is reported to be increasingly crossing into CAR, doing business and recruiting fighters from armed groups there, while a UN report confirms the Sudanese army stepping up air raids along the CAR border; Crisis Group says the incursions have greatly exacerbated criminal violence in CAR's north, especially in Vakaga prefecture (ICG_RADAR2024, 21 Jun 2024 entry). UNHCR reports allegations of RSF presence in Vakaga, and the UN Panel reports RSF recruitment among CAR opposition groups in the Vakaga border area (UNPOE_S2025_239 para 64, PDF p.23) [REPORTED], which hosts most Sudanese refugees in CAR; most arrive via Am Dafock, 65 km from Birao, and the Korsi settlement at Birao held 11,196 refugees by 13 Apr 2024 (UNHCR_CAR2024 pp.1-2). Colonial Ubangi-Shari and pre-2023 relations not covered by a read source [thin].",
-   "geopolitics_ar": "منذ حرب 2023 تفيد التقارير بأن قوات الدعم السريع تعبر بشكل متزايد إلى جمهورية أفريقيا الوسطى، فتمارس التجارة وتجند مقاتلين من الجماعات المسلحة هناك، بينما يؤكد تقرير أممي تكثيف الجيش السوداني غاراته الجوية على طول الحدود؛ وتقول مجموعة الأزمات إن هذه التوغلات فاقمت العنف الإجرامي في الشمال، خاصة في محافظة فاكاغا (ICG_RADAR2024، 21 يونيو 2024) [يحتاج تحقق]. ويفيد فريق خبراء الأمم المتحدة بتجنيد الدعم السريع في صفوف جماعات معارضة من أفريقيا الوسطى في منطقة فاكاغا الحدودية (UNPOE_S2025_239 الفقرة 64) [مُبلَّغ عنه] [يحتاج تحقق]. وتورد المفوضية ادعاءات بوجود الدعم السريع في فاكاغا التي تستضيف معظم اللاجئين السودانيين في البلاد؛ ويصل أغلبهم عبر أم دافوك على بعد 65 كم من بيراو، وبلغ عدد اللاجئين في مستوطنة كورسي ببيراو 11,196 بحلول 13 أبريل 2024 (UNHCR_CAR2024) [يحتاج تحقق]. أما أوبانغي-شاري الاستعمارية والعلاقات قبل 2023 فلم يغطها مصدر مقروء. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
-   "economy_en": "Crisis Group warns trade disruption from the incursions could aggravate the humanitarian situation in northern CAR (ICG_RADAR2024) [SINGLE-SOURCE; VERIFY].",
-   "economy_ar": "تحذر مجموعة الأزمات من أن تعطل التجارة بسبب التوغلات قد يفاقم الوضع الإنساني في شمال أفريقيا الوسطى (ICG_RADAR2024) [مصدر واحد؛ يحتاج تحقق]. [ترجمة عمل تحتاج إلى مراجعة لغوية من ناطق أصلي]",
-   "flags": [
-    "Colonial and 1960–2022 relations thin",
-    "RSF presence in Vakaga = allegations per UNHCR"
-   ]
-  }
- }
 }
