@@ -91,7 +91,7 @@ async function render(anim=true){
  const LB=[];areas.forEach(f=>{const q=f.properties.label_point;const xy=q?proj(q):path.centroid(f);if(lab(f.properties))LB.push({xy,t:short(lab(f.properties)),pri:3,big:1})});
  pts.forEach(f=>LB.push({xy:proj(f.geometry.coordinates),t:short(lab(f.properties)),pri:rep(f.properties)?2.5:2,rep:rep(f.properties),dx:9}));caps.forEach(c=>LB.push({xy:proj([c[1],c[2]]),t:c[0],pri:2,dx:8}));
  LBS=LB;
- await layersDraw(e);
+ await layersDraw(e);if(on.has('hml'))hmlDraw();
  // card
  const cj=await cardj(e);if(e!==ES[i])return;$('card').innerHTML=cj?cj[L]:`<p><span class="gap">${T.wip}</span></p>`;layerInfo(e);$('feat').hidden=true;
  place()}
@@ -192,7 +192,10 @@ const HK=2.5;function hmlThin(){const ts=gH.selectAll('text.hl').nodes();if(!ts.
  const box=b=>[b.left-2,b.top-1,b.right+2,b.bottom+1],hit=(a,b)=>a[0]<b[2]&&b[0]<a[2]&&a[1]<b[3]&&b[1]<a[3];
  const ob=[...svg.node().querySelectorAll('text')].filter(t=>!t.classList.contains('hl')&&vis(t)).map(t=>t.getBoundingClientRect()).filter(b=>b.width).map(box);
  ['sheet','top','layers','nob','lgb','lgp'].forEach(id=>{const e=$(id);if(e&&!e.hidden){const b=e.getBoundingClientRect();if(b.width)ob.push([b.left,b.top,b.right,b.bottom])}});
- ts.forEach(t=>{t.setAttribute('visibility','visible');const b=t.getBoundingClientRect(),bb=box(b);if(!b.width||b.left<2||b.right>innerWidth-2||ob.some(o=>hit(o,bb)))t.setAttribute('visibility','hidden');else ob.push(bb)})}
+ const TRY=[[8,3,'start',10],[-8,3,'end',10],[0,-8,'middle',10],[0,14,'middle',10],[7,3,'start',8.5],[-7,3,'end',8.5],[0,-7,'middle',8.5],[0,12,'middle',8.5]];
+ ts.forEach(t=>{t.setAttribute('visibility','visible');let ok=false;for(const [x,y,an,fs] of TRY){const xx=AR&&an!=='middle'?-x:x;t.setAttribute('x',xx);t.setAttribute('y',y);t.setAttribute('text-anchor',AR?(an==='start'?'end':an==='end'?'start':an):an);t.style.fontSize=fs+'px';t.removeAttribute('direction');if(AR)t.setAttribute('direction','rtl');
+  const b=t.getBoundingClientRect(),bb=box(b);if(b.width&&b.left>=2&&b.right<=innerWidth-2&&!ob.some(o=>hit(o,bb))){ob.push(bb);ok=true;break}}
+  if(!ok)t.setAttribute('visibility','hidden')})}
 function hmlTap(ev,p){ev.stopPropagation();const ar=AR&&/\[Arabic text pending/.test(p.ar||'');
  const B=x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`;
  $('feat').innerHTML=`<button class="x" aria-label="close">×</button><b>${esc(hLab(p))}</b> ${p.b?B(p.b):''}${ar?' '+B('AR-REVIEW'):''}<p><small>${esc(T.hnd)}</small></p>`+
@@ -247,6 +250,7 @@ const SN=['peek','half','full'];function snap(s){document.body.classList.toggle(
 $('grab').onclick=()=>{const sh=$('sheet'),c=SN.find(x=>sh.classList.contains(x))||'half';snap(SN[(SN.indexOf(c)+1)%3])};
 let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(()=>{fit();OLD=[];render(false)},150)});
 // --- start
+window.__hm={scale:k=>svg.call(zoom.scaleTo,k)};// test hook (QA only, no side effects)
 fit();getj('/basemap-map.json').then(b=>{BASE=b;render(false)}).catch(()=>render(false));
 })();
 
