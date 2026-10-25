@@ -18,7 +18,7 @@ const lq=new URLSearchParams(Q);if(AR)lq.delete('lang');else lq.set('lang','ar')
 $('lang').addEventListener('click',e=>{e.preventDefault();const q=new URLSearchParams(location.search);AR?q.delete('lang'):q.set('lang','ar');location.search=q.toString()});
 $('lang').href='/?'+lq.toString();$('prev').setAttribute('aria-label',T.prev);$('next').setAttribute('aria-label',T.next);$('grab').setAttribute('aria-label',T.sheet);
 $('reset').title=T.reset;$('reset').setAttribute('aria-label',T.reset);$('within').querySelector('label').textContent=T.within;
-const LAY=['ctl','grp','rel','pop','cty'],on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x).filter(x=>LAY.includes(x)));
+const LAY=['ctl','grp','rel','pop','cty','hml'],on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x).filter(x=>LAY.includes(x)));
 LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=T.l[k];b.setAttribute('aria-pressed',on.has(k));b.dataset.k=k;
  b.onclick=()=>{on.has(k)?on.delete(k):on.add(k);b.setAttribute('aria-pressed',on.has(k));url();render(false)};$('layers').appendChild(b)});
 // --- era index
@@ -26,13 +26,13 @@ let i=Math.max(0,ES.findIndex(e=>e.id===Q.get('era')));const r=$('r');r.max=ES.l
 function url(){const q=new URLSearchParams();q.set('era',ES[i].id);if(AR)q.set('lang','ar');const ly=[...on].sort().join(',');if(ly!=='ctl')q.set('layers',ly);history.replaceState(null,'','/?'+q)}
 // --- map
 const svg=d3.select('#svg'),W=()=>innerWidth,H=()=>innerHeight,desk=()=>innerWidth>=1000;
-const root=svg.append('g'),gL=root.append('g'),gC=root.append('g'),gX=root.append('g'),gN=root.append('g'),gG=root.append('g'),gY=root.append('g').attr('class','cities'),gR=root.append('g'),gP=root.append('g'),gK=root.append('g'),gT=root.append('g');
+const root=svg.append('g'),gL=root.append('g'),gC=root.append('g'),gX=root.append('g'),gN=root.append('g'),gG=root.append('g'),gH=root.append('g').attr('class','hml'),gY=root.append('g').attr('class','cities'),gR=root.append('g'),gP=root.append('g'),gK=root.append('g'),gT=root.append('g');
 svg.append('defs').html('<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#f08c6c"/></marker>');
 const proj=d3.geoMercator(),path=d3.geoPath(proj);let K=1,TR=d3.zoomIdentity;
 function fit(){const sh=$('sheet').getBoundingClientRect();const top=desk()?70:120,bot=desk()?H()-20:Math.max(top+160,H()-Math.min(sh.height,H()*.44)-8);
  const x1=desk()?(AR?sh.right+20:20):10,x2=desk()?(AR?W()-20:sh.left-20):W()-10;
  proj.fitExtent([[x1,top],[x2,bot]],{type:'MultiPoint',coordinates:[[21.8,3.4],[38.6,22.2]]})}
-const zoom=d3.zoom().scaleExtent([1,12]).on('zoom',ev=>{TR=ev.transform;root.attr('transform',ev.transform);K=ev.transform.k;scaleMarks();$('reset').hidden=K<1.05&&Math.abs(ev.transform.x)<2}).on('end',()=>{place();cityThin()});
+const zoom=d3.zoom().scaleExtent([1,12]).on('zoom',ev=>{TR=ev.transform;root.attr('transform',ev.transform);K=ev.transform.k;scaleMarks();$('reset').hidden=K<1.05&&Math.abs(ev.transform.x)<2}).on('end',()=>{place();cityThin();hmlDraw()});
 svg.call(zoom).on('dblclick.zoom',null);$('reset').onclick=()=>svg.transition().duration(DUR).call(zoom.transform,d3.zoomIdentity);
 function scaleMarks(){root.selectAll('.mk').attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`})}
 const rw=f=>{const G=f.geometry,rv=a=>a.slice().reverse();if(G.type==='Polygon'){if(d3.geoArea(f)>2*Math.PI)G.coordinates=G.coordinates.map(rv)}else if(G.type==='MultiPolygon')G.coordinates=G.coordinates.map(p=>d3.geoArea({type:'Polygon',coordinates:p})>2*Math.PI?p.map(rv):p);return f};
@@ -104,9 +104,9 @@ function place(){setTimeout(cityThin,0);nobPos();const t=TR;gT.selectAll('*').re
   const gg=gT.append('g').attr('transform',`translate(${sx},${sy})`);const tx=gg.append('text').attr('class','lb'+(o.big?' big':'')).text(o.t);
   if(o.rep){tx.append('tspan').attr('class','rep').attr('fill',BL[o.rep][2]).text(' '+BL[o.rep][AR?1:0])}
   const lh=16,dx0=o.dx?(AR?-o.dx:o.dx):0,an0=o.big?'middle':'start';let ok=null;
-  for(const k of [0,1,-1,2,-2,3,-3])for(const side of (o.dx?[0,1]:[0])){const dx=side?-dx0:dx0,an=o.big?'middle':(side?'end':'start');tx.attr('x',dx).attr('y',4+k*lh).attr('text-anchor',an);
-   const b=tx.node().getBoundingClientRect(),bb={x:b.left-2,y:b.top-1,w:b.width+4,h:b.height+2};if(bb.x<2||bb.x+bb.w>W()-2)continue;if(!placed.some(p=>ov(p,bb))&&!ob.some(p=>ov(p,bb))){ok={k,dx,bb};break}if(ok)break}
-  if(!ok){gg.remove();hid.push(o);return}placed.push(ok.bb);
+  P:for(const k of [0,1,-1,2,-2,3,-3])for(const side of (o.dx?[0,1]:[0])){const dx=side?-dx0:dx0,an=o.big?'middle':(side?'end':'start');tx.attr('x',dx).attr('y',4+k*lh).attr('text-anchor',an);
+   const b=tx.node().getBoundingClientRect(),bb={x:b.left-2,y:b.top-1,w:b.width+4,h:b.height+2};if(bb.x<2||bb.x+bb.w>W()-2)continue;if(!placed.some(p=>ov(p,bb))&&!ob.some(p=>ov(p,bb))){ok={k,dx,bb,an};break P}}
+  if(!ok){gg.remove();hid.push(o);return}tx.attr('x',ok.dx).attr('y',4+ok.k*lh).attr('text-anchor',ok.an);placed.push(ok.bb);
   if(ok.k!==0&&o.pri>=2.5)gg.insert('line','text').attr('class','ld').attr('x1',0).attr('y1',0).attr('x2',ok.dx).attr('y2',ok.k*lh+(ok.k<0?2:-8))});
  $('hidden').innerHTML=hid.length?T.hidden+': '+[...new Set(hid.map(o=>o.t))].map(esc).join(AR?'، ':', '):''}
 // --- tap a feature for details
@@ -152,7 +152,7 @@ async function layerInfo(e){const box=$('layerinfo');if(!box)return;let h='';
   if(d.lo&&d.lo.length)h+=`<p class="lgap"><button class="lob" type="button">${esc(T.lolist)} (${num(d.lo.length)})</button></p>`}}
  box.innerHTML=h;legendDraw(e);const lb=box.querySelector('.lob');if(lb)lb.onclick=ev=>cityList(ev)}
 const RK={capital:['Capital','عاصمة'],garrison:['Garrison','حامية'],port:['Port','ميناء'],religious:['Religious centre','مركز ديني'],trade:['Trade centre','مركز تجاري']};
-Object.assign(BL,{'FIRST-ATTESTED':BL['FIRST-ATTESTED']||['First attested','أول ذكر موثّق'],UNDATED:BL.UNDATED||['Undated','غير مؤرّخ'],'AR-REVIEW':BL['AR-REVIEW']||['Arabic under review','العربية قيد المراجعة'],APPROXIMATE:BL.APPROXIMATE||['Approximate','تقريبي'],'RUIN-UNDATED':BL['RUIN-UNDATED']||['Ruin, end undated','أطلال، نهاية غير مؤرّخة']});
+Object.assign(BL,{'APPROXIMATE-COORDS':['Approximate location','موقع تقريبي *'],'FIRST-ATTESTED':BL['FIRST-ATTESTED']||['First attested','أول ذكر موثّق'],UNDATED:BL.UNDATED||['Undated','غير مؤرّخ'],'AR-REVIEW':BL['AR-REVIEW']||['Arabic under review','العربية قيد المراجعة'],APPROXIMATE:BL.APPROXIMATE||['Approximate','تقريبي'],'RUIN-UNDATED':BL['RUIN-UNDATED']||['Ruin, end undated','أطلال، نهاية غير مؤرّخة']});
 async function cityList(ev){ev.stopPropagation();const d=await cty();if(!d)return;const B=x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`;
  $('feat').innerHTML=`<button class="x" aria-label="close">×</button><b>${esc(T.lolist)}</b><p class="gapt">${esc(T.lonote)}</p><ul class="lol">`+d.lo.map(c=>`<li><bdi>${esc(AR?(c.ar||c.en):(c.en||c.ar))}</bdi> ${(c.b||[]).map(B).join(' ')}${c.why&&!(AR&&/^no founded/i.test(c.why))?`<br><small class="gapt">${esc(c.why)}</small>`:''}</li>`).join('')+'</ul>';
  $('feat').hidden=false;if($('sheet').classList.contains('peek'))snap('half');const x=$('feat').querySelector('.x');if(x)x.onclick=()=>{$('feat').hidden=true;$('feat').classList.remove('on')}}
@@ -167,7 +167,7 @@ async function citiesDraw(e,D){const d=on.has('cty')?await cty():null;if(e!==ES[
  const n=s.enter().append('g').attr('class','cty mk').each(function(c){this.__xy=proj(c.ll)}).attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`}).style('opacity',D?0:1).on('click',cityTap);
  n.append('path');n.append('text').attr('class','ctl2');n.append('title');
  n.transition().duration(D).style('opacity',1);
- const m=n.merge(s);m.classed('capital',c=>c.cap).raise();
+ const m=n.merge(s);m.classed('capital',c=>c.cap).classed('ruin',isRuin).classed('oe',c=>isRuin(c)&&c.a==null).raise();m.selectAll('text.rq').remove();m.filter(c=>isRuin(c)&&c.a==null).append('text').attr('class','rq').attr('x',3.2).attr('y',-3.2).text('?');
  m.select('path').attr('d',cShape);
  m.select('text').attr('x',AR?-9:9).attr('y',4).attr('direction',AR?'rtl':'ltr').attr('text-anchor','start').text(cName);
  m.select('title').text(c=>cName(c)+(c.cap?' · '+T.capital:''));
@@ -175,15 +175,30 @@ async function citiesDraw(e,D){const d=on.has('cty')?await cty():null;if(e!==ES[
 // label thinning: capitals first, then cities with a role this era, then the rest; greedy screen-space boxes
 // role shapes (legend uses the same paths)
 const CSH={capital:'M0,-7L2,-2.2L7,-2.2L3,1L4.5,6.5L0,3.2L-4.5,6.5L-3,1L-7,-2.2L-2,-2.2Z',garrison:'M-3.4,-3.4h6.8v6.8h-6.8z',trade:'M0,-4.6L4.6,0L0,4.6L-4.6,0Z',port:'M0,-4.4L4.4,3.6L-4.4,3.6Z',religious:'M-1.3,-4.4h2.6v3.1h3.1v2.6h-3.1v3.1h-2.6v-3.1h-3.1v-2.6h3.1z',other:'M-3.2,0a3.2,3.2 0 1,0 6.4,0a3.2,3.2 0 1,0 -6.4,0'};
-const cShape=c=>{const r=c.r[ES[i].id];return c.cap?CSH.capital:CSH[r&&r.k]||CSH.other};
+CSH.ruin='M-3.6,0a3.6,3.6 0 1,0 7.2,0a3.6,3.6 0 1,0 -7.2,0';
+const cY=()=>Y!=null?Y:ES[i].b;
+function isRuin(c){const y=cY();if(!c.ru||c.f>y||(c.a!=null&&c.a<y))return false;if(Object.values(c.r).some(r=>(r.y0==null||r.y0<=y)&&(r.y1==null||y<=r.y1)))return false;return c.lr==null||y>c.lr}
+const cShape=c=>{if(isRuin(c))return CSH.ruin;const r=c.r[ES[i].id];return c.cap?CSH.capital:CSH[r&&r.k]||CSH.other};
+let HJ=null;const hj=()=>M.layers.hBuilt?(HJ||(HJ=getj('/g/_homelands.json').catch(()=>null))):Promise.resolve(null);
+const hLab=p=>{const s=AR?(p.ar||p.en):(p.en||p.ar);return String(s||'').replace(/\s*\[Arabic text pending[^\]]*\]/,'')};
+async function hmlDraw(){const d=on.has('hml')?await hj():null;const pts=d?d.pts:[];
+ const s=gH.selectAll('g.hm').data(pts,p=>p.id);s.exit().remove();
+ const n=s.enter().append('g').attr('class',p=>'hm mk'+(p.b==='APPROXIMATE'?' apx':'')+(p.b==='CONTESTED'?' cont':'')).each(function(p){this.__xy=proj(p.ll)}).attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`}).on('click',hmlTap);
+ n.filter(p=>p.b==='APPROXIMATE').append('circle').attr('class','halo').attr('r',6.5);n.append('circle').attr('class','dot').attr('r',4);n.append('title').text(p=>hLab(p)+' · '+T.hnd)}
+function hmlTap(ev,p){ev.stopPropagation();const ar=AR&&/\[Arabic text pending/.test(p.ar||'');
+ const B=x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`;
+ $('feat').innerHTML=`<button class="x" aria-label="close">×</button><b>${esc(hLab(p))}</b> ${p.b?B(p.b):''}${ar?' '+B('AR-REVIEW'):''}<p><small>${esc(T.hnd)}</small></p>`+
+  `<p>${esc(AR?(p.da||p.de):p.de)}</p>`+(p.cite?`<p class="extnote"><bdi dir="ltr">${esc(p.cite)}</bdi></p>`:'')+
+  (p.s&&p.s.length?`<ol class="src">${p.s.map(x=>`<li><bdi dir="ltr">${esc(x.c)}</bdi>${x.u?` <a href="${esc(x.u)}" rel="noopener">link</a>`:''}</li>`).join('')}</ol>`:'');
+ $('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true}}
 const LGC={};const lgj=id=>LGC[id]||(LGC[id]=fetch(`/lg/${id}.json`).then(r=>r.ok?r.json():null).catch(()=>null));
 const LGS=fetch('/lg/_spec.json').then(r=>r.ok?r.json():null).catch(()=>null);
 function lgSw(r){const w=(p,ex='')=>`<svg width="26" height="18" viewBox="-13 -9 26 18" aria-hidden="true"${ex}>${p}</svg>`;
  if(r.id.startsWith('city_')){const k=r.id.slice(5);return w(`<path d="${CSH[k]||CSH.other}" class="lgcty${k==='capital'?' capital':''}" fill="${k==='capital'?'#f0c24c':'#e8eef2'}" stroke="#0b141b" stroke-width=".8"/>`)}
  if(r.id.startsWith('relation_arrow_')){const k=r.id.slice(15);return w(`<line x1="-11" y1="0" x2="9" y2="0" stroke="${RC[k]||'#ccc'}" stroke-width="2" marker-end="url(#ah-${k})"/>`)}
- const sh={control_extent:'<rect x="-10" y="-6" width="20" height="12" fill="#7a6bd0" fill-opacity=".35" stroke="#7a6bd0"/>',control_extent_approx:'<rect x="-10" y="-6" width="20" height="12" fill="#7a6bd0" fill-opacity=".18" stroke="#7a6bd0" stroke-dasharray="4 3"/>',extent_label_point:'<circle r="3.5" fill="none" stroke="#e8eef2" stroke-width="1.5"/>',contested_point:'<path d="M0,-5L5,0L0,5L-5,0Z" fill="none" stroke="#e0a63e" stroke-width="1.5"/>',contested_boundary_line:'<line x1="-11" y1="0" x2="11" y2="0" stroke="#e0a63e" stroke-width="2" stroke-dasharray="4 3"/>',boundary_line:'<line x1="-11" y1="0" x2="11" y2="0" stroke="#e8eef2" stroke-width="1.5"/>',reported_point:'<path d="M0,-5L5,4L-5,4Z" fill="none" stroke="#e0574c" stroke-width="1.5"/>',group_control_point:'<rect x="-4" y="-4" width="8" height="8" fill="#5aa9e6"/>',homeland_point:'<circle r="4" fill="#5aa9e6"/>',list_only_text:'<text x="0" y="4" text-anchor="middle" font-size="11" fill="#9fb3c2">≡</text>'}[r.id];
+ const sh={control_extent:'<rect x="-10" y="-6" width="20" height="12" fill="#7a6bd0" fill-opacity=".35" stroke="#7a6bd0"/>',control_extent_approx:'<rect x="-10" y="-6" width="20" height="12" fill="#7a6bd0" fill-opacity=".18" stroke="#7a6bd0" stroke-dasharray="4 3"/>',extent_label_point:'<circle r="3.5" fill="none" stroke="#e8eef2" stroke-width="1.5"/>',contested_point:'<path d="M0,-5L5,0L0,5L-5,0Z" fill="none" stroke="#e0a63e" stroke-width="1.5"/>',contested_boundary_line:'<line x1="-11" y1="0" x2="11" y2="0" stroke="#e0a63e" stroke-width="2" stroke-dasharray="4 3"/>',boundary_line:'<line x1="-11" y1="0" x2="11" y2="0" stroke="#e8eef2" stroke-width="1.5"/>',reported_point:'<path d="M0,-5L5,4L-5,4Z" fill="none" stroke="#e0574c" stroke-width="1.5"/>',group_control_point:'<rect x="-4" y="-4" width="8" height="8" fill="#5aa9e6"/>',homeland_point:'<circle r="6.5" fill="none" stroke="#009E73" stroke-dasharray="2 1.5"/><circle r="4" fill="#009E73" fill-opacity=".6" stroke="#fff" stroke-width=".8"/>',homeland_soft_area:'<rect x="-10" y="-6" width="20" height="12" fill="#009E73" fill-opacity=".12"/>',ruin:'<circle r="3.6" fill="none" stroke="#8a8f94" stroke-width="1.3" stroke-dasharray="2 1.5"/>',list_only_text:'<text x="0" y="4" text-anchor="middle" font-size="11" fill="#9fb3c2">≡</text>'}[r.id];
  return w(sh||'<text x="0" y="4" text-anchor="middle" font-size="11" fill="#9fb3c2">?</text>')}
-const LGL={ctl:()=>T.l.ctl,cty:()=>T.l.cty,grp:()=>T.l.grp,rel:()=>T.l.rel,hml:()=>T.l.grp};
+const LGL={ctl:()=>T.l.ctl,cty:()=>T.l.cty,grp:()=>T.l.grp,rel:()=>T.l.rel,hml:()=>T.l.hml};
 let lgOpen=false;
 async function legendDraw(e){const b=$('lgb'),p=$('lgp');if(!b||!p)return;const d=await lgj(e.id),sp=await LGS;if(e!==ES[i])return;
  const rows=d?d.rows.filter(r=>on.has(r.l)):[];b.textContent=`${T.lg}${rows.length?' · '+num(rows.length):''}`;b.setAttribute('aria-expanded',lgOpen);
@@ -208,7 +223,7 @@ function cityTap(ev,c){ev.stopPropagation();const e=ES[i],r=c.r[e.id],d=CJ&&CJ.t
  const B=x=>`<span class="repb${x==='CONTESTED'?' cont':x==='SINGLE-SOURCE'?' single':''}">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`;
  const rk=r&&RK[r.k],role=r?(AR?(r.ar||(rk&&rk[1])||r.en):(rk?rk[0]:(r.en||r.ar))):null;
  $('feat').innerHTML=`<button class="x" aria-label="close">×</button><b>${esc(cName(c))}</b>${r&&r.cap?` <span class="capb">★ ${esc(T.capital)}</span>`:''} ${(c.b||[]).map(B).join(' ')}`+
-  `<br><small>${esc(c.fb&&c.fb!=='founded'?T.firstatt:T.founded)}: <bdi>${fy(c.f)}</bdi>${c.fc?` [${esc(c.fc)}]`:''}${c.a!=null?` · ${esc(T.abandoned)}: <bdi>${fy(c.a)}</bdi>`:''}</small>`+
+  `<br><small>${esc(c.fb&&c.fb!=='founded'?T.firstatt:T.founded)}: <bdi>${fy(c.f)}</bdi>${c.fc?` [${esc(c.fc)}]`:''}${c.a!=null?` · ${esc(c.vb&&T['vb_'+c.vb]||T.abandoned)}: <bdi>${fy(c.a)}</bdi>`:(c.ru?` · ${esc(T.oe)}`:'')}</small>`+
   `<p><b>${esc(T.role)}:</b> ${role?esc(role):`<span class="gap">${esc(T.norole)}</span>`}</p>`+
   ((AR?(c.h_ar||c.h_en):(c.h_en||c.h_ar))?`<p>${esc(AR?(c.h_ar||c.h_en):(c.h_en||c.h_ar))}</p>`:'')+
   `<p class="extnote">${c.s.map(x=>`<bdi dir="ltr">${esc(x.c)}${x.p?' · '+esc(x.p):''}</bdi>${x.u?` <a href="${esc(x.u)}" rel="noopener">link</a>`:''}`).join('<br>')}${r&&r.s&&r.s.length?`<br><small>${esc(T.role)}: <bdi dir="ltr">${r.s.map(esc).join(', ')}</bdi></small>`:''}</p>`+

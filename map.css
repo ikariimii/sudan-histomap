@@ -69,3 +69,12 @@ html[dir=rtl] .nav{transform:scaleX(-1)}
 #lgp ul{list-style:none;margin:0;padding:0}#lgp li{display:flex;align-items:center;gap:8px;min-height:28px}
 #lgp li svg{flex:0 0 26px}#lgp .n{margin-inline-start:auto;color:#9fb3c2}#lgp .cr{margin-top:6px;color:#9fb3c2;font-size:11px}
 #lgp .srcs{font-size:11px;color:#c5d3dd}#lgp .srcs a{color:inherit}
+/* legend spec 'ruin': hollow grey dashed circle, italic grey label, lowest priority */
+.cty.ruin path{fill:none;stroke:#8a8f94;stroke-width:1.3;stroke-dasharray:2 1.5;opacity:.85}
+.cty.ruin text.ctl2{fill:#8a8f94;font-style:italic;font-weight:400}
+.cty text.rq{font-size:7px;fill:#8a8f94;stroke-width:2px;font-style:normal}
+/* homelands_layer: green points, approx dashed halo, contested amber outline */
+.hm .dot{fill:#009E73;fill-opacity:.6;stroke:#fff;stroke-width:.8;cursor:pointer}
+.hm .halo{fill:none;stroke:#009E73;stroke-dasharray:2 1.5;stroke-width:1}
+.hm.cont .dot{stroke:#e0a63e;stroke-width:1.5}
+.nscore .ns,.repb.ns{background:#3a4652;color:#dfe6ec}

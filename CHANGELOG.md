@@ -1,5 +1,6 @@
 # Changelog
 
+- Map: ruin symbol per legend spec (dashed grey, open-end '?' for RUIN-UNDATED, popup end basis); Homelands (undated) toggle (?layers=homelands) with legend rows and popups; unscored regional power shown as 'Not scored: no cited comparative measure'; APPROXIMATE-COORDS label; era-label placement fix (Sennar/Kordofan overlap); funj-darfur chapter now opens the Funj era; equal-area clause dropped from the shown disclaimer.
 - Per-era GIS legend (db/legends): collapsible Legend chip/panel, EN/AR (RTL), rows only for the current era and active layers, badges and source cites as given, role shapes for city markers, "Research in progress" fallback; panel sized to stay clear of the bottom sheet.
 - Cities & towns layer (?layers=cty): toggle, era/year filtering, capital stars, fades (instant under reduced motion), collision-thinned labels, tap card with sources/badges; reads db/city_layers/cities.geojson (visible from founded or first-attested year, FIRST-ATTESTED badge); undated places only in a list sheet; ?layers=cities alias.
 
