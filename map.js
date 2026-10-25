@@ -496,3 +496,5 @@ async function cityLO(e){const d=await lgj(e.id);if(e!==ES[i]||!d||!(d.lo||[]).l
  $('card').appendChild(s)}
 fit();getj('/basemap-map.json').then(b=>{BASE=b;render(false)}).catch(()=>render(false));
 })();
+document.addEventListener('click',ev=>{const b=ev.target.closest&&ev.target.closest('button.hwkt');document.querySelectorAll('button.hwkt[aria-expanded="true"]').forEach(x=>{if(x!==b)x.setAttribute('aria-expanded','false')});if(b)b.setAttribute('aria-expanded',b.getAttribute('aria-expanded')==='true'?'false':'true')});
+document.addEventListener('keydown',ev=>{if(ev.key==='Escape')document.querySelectorAll('button.hwkt[aria-expanded="true"]').forEach(x=>x.setAttribute('aria-expanded','false'))});

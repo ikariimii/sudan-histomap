@@ -158,3 +158,6 @@ body.embed #about,body.embed #lang,body.embed #srchb{display:none}#embo{font-siz
 .hwks{display:flex;flex-wrap:wrap;gap:.25em .4em;align-items:center;font-size:12px;line-height:1.5;margin:.3em 0 .6em;padding:.35em .5em;border-radius:.5em;background:rgba(138,90,31,.08)}
 .hwks b{font-weight:700}.hwks span{white-space:nowrap}.hwks span+span::before,.hwks span+a::before{content:'·';margin-inline-end:.4em;color:#6b6257}
 .hwks span:has(bdi[dir="ltr"]){white-space:normal}.hwks .vchip{margin-inline-start:0}.hwks a{color:inherit;text-decoration:underline;min-height:24px;display:inline-flex;align-items:center}
+.hwkk{position:relative;white-space:nowrap}.hwkk+span::before{content:none!important}.hwkt{font:inherit;color:inherit;background:none;border:0;padding:0 .1em;min-height:24px;text-decoration:underline dotted;cursor:help}
+.hwtip{display:none;position:absolute;inset-inline-start:0;top:100%;z-index:30;background:#2b2520;color:#fff;padding:.3em .5em;border-radius:.35em;font-size:12px;white-space:normal;width:max-content;max-width:min(220px,70vw)}
+.hwkt:hover+.hwtip,.hwkt:focus-visible+.hwtip,.hwkt[aria-expanded="true"]+.hwtip{display:block}
