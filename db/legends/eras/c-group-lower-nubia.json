@@ -81,10 +81,10 @@
       {
        "role": "capital",
        "era_id": "kingdom-of-kerma",
-       "start": -1730,
-       "end": -1580,
-       "source_id": "GHA2_CH9",
-       "page": "258"
+       "start": -2450,
+       "end": -1450,
+       "source_id": "SFDAS_HCS2017",
+       "page": "59, 69, 95"
       }
      ],
      "badges": [
@@ -93,6 +93,10 @@
       "RUIN-UNDATED"
      ],
      "source_ids": [
+      {
+       "id": "SFDAS_HCS2017",
+       "page": "59, 69, 95"
+      },
       {
        "id": "GHA2_CH9",
        "page": "258"

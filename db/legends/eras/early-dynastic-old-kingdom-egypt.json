@@ -66,6 +66,41 @@
    "file": "db/city_layers/cities.geojson",
    "features": [
     {
+     "id": "kerma",
+     "name_en": "Kerma",
+     "name_ar": "كرمة",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-kerma",
+       "start": -2450,
+       "end": -1450,
+       "source_id": "SFDAS_HCS2017",
+       "page": "59, 69, 95"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "SFDAS_HCS2017",
+       "page": "59, 69, 95"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "258"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1107569"
+      }
+     ]
+    },
+    {
      "id": "aswan",
      "name_en": "Aswan",
      "name_ar": "أسوان",
@@ -173,6 +208,7 @@
   }
  },
  "symbol_classes_present": [
+  "city_capital",
   "city_garrison",
   "economy_unknown",
   "extent_label_point",
@@ -182,16 +218,18 @@
   "APPROXIMATE",
   "AR-REVIEW",
   "DERIVED",
-  "FIRST-ATTESTED"
+  "FIRST-ATTESTED",
+  "RUIN-UNDATED"
  ],
  "counts": {
+  "city_capital": 1,
   "city_garrison": 1,
   "economy_unknown": 1,
   "extent_label_point": 2,
   "low_confidence": 1,
   "extent_features": 2,
   "group_features": 0,
-  "cities": 1
+  "cities": 2
  },
  "context": {
   "key_events_en": [
@@ -238,7 +276,8 @@
    "APPROXIMATE",
    "AR-REVIEW",
    "DERIVED",
-   "FIRST-ATTESTED"
+   "FIRST-ATTESTED",
+   "RUIN-UNDATED"
   ],
   "what_changed": null
  }

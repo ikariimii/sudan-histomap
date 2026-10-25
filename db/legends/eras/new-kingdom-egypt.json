@@ -78,6 +78,41 @@
    "file": "db/city_layers/cities.geojson",
    "features": [
     {
+     "id": "kerma",
+     "name_en": "Kerma",
+     "name_ar": "كرمة",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-kerma",
+       "start": -2450,
+       "end": -1450,
+       "source_id": "SFDAS_HCS2017",
+       "page": "59, 69, 95"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "SFDAS_HCS2017",
+       "page": "59, 69, 95"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "258"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1107569"
+      }
+     ]
+    },
+    {
      "id": "jebel-barkal",
      "name_en": "Jebel Barkal",
      "name_ar": "جبل البركل",
@@ -355,6 +390,7 @@
   }
  },
  "symbol_classes_present": [
+  "city_capital",
   "city_garrison",
   "city_other",
   "city_religious",
@@ -372,6 +408,7 @@
   "SINGLE-SOURCE"
  ],
  "counts": {
+  "city_capital": 1,
   "city_garrison": 2,
   "city_other": 3,
   "city_religious": 1,
@@ -379,7 +416,7 @@
   "extent_label_point": 3,
   "extent_features": 3,
   "group_features": 0,
-  "cities": 6
+  "cities": 7
  },
  "context": {
   "key_events_en": [
@@ -451,13 +488,10 @@
     "soleb"
    ],
    "cities_removed": [
-    "kerma",
     "semna"
    ],
    "capitals_added": [],
-   "capitals_removed": [
-    "kerma"
-   ],
+   "capitals_removed": [],
    "groups_added": [],
    "groups_removed": []
   }

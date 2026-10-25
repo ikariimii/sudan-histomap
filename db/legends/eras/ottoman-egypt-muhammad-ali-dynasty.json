@@ -652,36 +652,6 @@
      ]
     },
     {
-     "id": "el-fasher",
-     "name_en": "El Fasher",
-     "name_ar": "الفاشر",
-     "symbol_class": "city_capital",
-     "roles_in_era": [
-      {
-       "role": "capital",
-       "era_id": "sultanate-of-darfur-keira",
-       "start": null,
-       "end": 1874,
-       "source_id": "GHA5_CH7",
-       "page": "190"
-      }
-     ],
-     "badges": [
-      "AR-REVIEW",
-      "FIRST-ATTESTED"
-     ],
-     "source_ids": [
-      {
-       "id": "GHA5_CH7",
-       "page": "190"
-      },
-      {
-       "id": "WIKIDATA_CITIES",
-       "page": "Q311204"
-      }
-     ]
-    },
-    {
      "id": "gondar",
      "name_en": "Gondar",
      "name_ar": "غوندر",
@@ -1520,7 +1490,7 @@
   "RUIN-UNDATED"
  ],
  "counts": {
-  "city_capital": 14,
+  "city_capital": 13,
   "city_garrison": 7,
   "city_other": 9,
   "city_political_centre": 1,
@@ -1532,7 +1502,7 @@
   "low_confidence": 4,
   "extent_features": 4,
   "group_features": 0,
-  "cities": 41
+  "cities": 40
  },
  "context": {
   "key_events_en": [
@@ -1602,7 +1572,6 @@
    ],
    "cities_added": [
     "berber",
-    "el-fasher",
     "el-matamma",
     "el-obeid",
     "gallabat",
@@ -1623,7 +1592,6 @@
     "old-dongola"
    ],
    "capitals_added": [
-    "el-fasher",
     "el-obeid",
     "gondar",
     "shendi"

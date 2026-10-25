@@ -600,36 +600,6 @@
      ]
     },
     {
-     "id": "el-fasher",
-     "name_en": "El Fasher",
-     "name_ar": "الفاشر",
-     "symbol_class": "city_capital",
-     "roles_in_era": [
-      {
-       "role": "capital",
-       "era_id": "sultanate-of-darfur-keira",
-       "start": null,
-       "end": 1874,
-       "source_id": "GHA5_CH7",
-       "page": "190"
-      }
-     ],
-     "badges": [
-      "AR-REVIEW",
-      "FIRST-ATTESTED"
-     ],
-     "source_ids": [
-      {
-       "id": "GHA5_CH7",
-       "page": "190"
-      },
-      {
-       "id": "WIKIDATA_CITIES",
-       "page": "Q311204"
-      }
-     ]
-    },
-    {
      "id": "gondar",
      "name_en": "Gondar",
      "name_ar": "غوندر",
@@ -1967,7 +1937,7 @@
   "RUIN-UNDATED"
  ],
  "counts": {
-  "city_capital": 19,
+  "city_capital": 18,
   "city_garrison": 8,
   "city_other": 13,
   "city_political_centre": 1,
@@ -1980,7 +1950,7 @@
   "flag": 1,
   "extent_features": 1,
   "group_features": 0,
-  "cities": 56
+  "cities": 55
  },
  "context": {
   "key_events_en": [

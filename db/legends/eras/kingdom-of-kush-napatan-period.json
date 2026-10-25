@@ -676,7 +676,8 @@
    "WELSBY1996",
    "WHC1073",
    "WP:Kingdom_of_Kush",
-   "WP:Twenty-fifth_Dynasty_of_Egypt"
+   "WP:Twenty-fifth_Dynasty_of_Egypt",
+   "SFDAS_HCS2017"
   ],
   "dating_note": "Reign dates follow UNESCO GHA II ch.10 (Leclant, 1981); later scholarship revises several (incl. the Shabaka/Shebitku order) – treat as approximate. WHC gives Napatan 900–270 BCE; -800 start kept as display convention. Coordinates: Pleiades/Wikidata.",
   "capitals": [
@@ -755,14 +756,17 @@
     "yeha"
    ],
    "cities_removed": [
-    "buhen"
+    "buhen",
+    "kerma"
    ],
    "capitals_added": [
     "alexandria",
     "meroe",
     "napata"
    ],
-   "capitals_removed": [],
+   "capitals_removed": [
+    "kerma"
+   ],
    "groups_added": [],
    "groups_removed": []
   }

@@ -546,27 +546,6 @@
      ]
     },
     {
-     "id": "el-fasher",
-     "name_en": "El Fasher",
-     "name_ar": "الفاشر",
-     "symbol_class": "city_other",
-     "roles_in_era": [],
-     "badges": [
-      "AR-REVIEW",
-      "FIRST-ATTESTED"
-     ],
-     "source_ids": [
-      {
-       "id": "GHA5_CH7",
-       "page": "190"
-      },
-      {
-       "id": "WIKIDATA_CITIES",
-       "page": "Q311204"
-      }
-     ]
-    },
-    {
      "id": "gondar",
      "name_en": "Gondar",
      "name_ar": "غوندر",
@@ -1793,7 +1772,7 @@
  "counts": {
   "city_capital": 15,
   "city_garrison": 5,
-  "city_other": 14,
+  "city_other": 13,
   "city_political_centre": 1,
   "city_port": 2,
   "city_religious": 5,
@@ -1804,7 +1783,7 @@
   "flag": 1,
   "extent_features": 5,
   "group_features": 0,
-  "cities": 49
+  "cities": 48
  },
  "context": {
   "key_events_en": [
@@ -1896,7 +1875,6 @@
     "omdurman"
    ],
    "capitals_removed": [
-    "el-fasher",
     "qerri",
     "soba"
    ],
