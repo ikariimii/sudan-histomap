@@ -88,13 +88,14 @@
     "date": "1961-09-28/1967-06-10",
     "url": "https://www.openhistoricalmap.org/relation/2744372",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2744372.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "Q170468",
     "used_by": [
      "republic-of-egypt"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2803204": {
     "id": "OHM_2803204",
@@ -105,13 +106,14 @@
     "date": "1922-02-28/1953-06-18",
     "url": "https://www.openhistoricalmap.org/relation/2803204",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2803204.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "Q124943",
     "used_by": [
      "british-occupied-kingdom-of-egypt"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2803205": {
     "id": "OHM_2803205",
@@ -122,13 +124,14 @@
     "date": "1914-12-19/1922-02-28",
     "url": "https://www.openhistoricalmap.org/relation/2803205",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2803205.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "Q370173",
     "used_by": [
      "british-occupied-kingdom-of-egypt"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2803441": {
     "id": "OHM_2803441",
@@ -139,13 +142,14 @@
     "date": "1941-11-27/1942-01-31",
     "url": "https://www.openhistoricalmap.org/relation/2803441",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2803441.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "",
     "used_by": [
      "ethiopian-empire-solomonic"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2803446": {
     "id": "OHM_2803446",
@@ -156,13 +160,14 @@
     "date": "1942-01-31/1952",
     "url": "https://www.openhistoricalmap.org/relation/2803446",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2803446.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "",
     "used_by": [
      "ethiopian-empire-solomonic"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2809431": {
     "id": "OHM_2809431",
@@ -173,13 +178,14 @@
     "date": "0700/1380",
     "url": "https://www.openhistoricalmap.org/relation/2809431",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2809431.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "Q1139762",
     "used_by": [
      "kanem-empire"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2828408": {
     "id": "OHM_2828408",
@@ -190,13 +196,16 @@
     "date": "1982-04-26/open",
     "url": "https://www.openhistoricalmap.org/relation/2828408",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag. Land boundary corroborated by Natural Earth Admin 0 – Countries 1:10m v5.1.1 (EXT_NE_ADMIN0): polygon overlap (IoU, land only) 0.997 on 2026-10-25",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2828408.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "Q79",
     "used_by": [
      "republic-of-egypt"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "corroborated_by": [
+     "EXT_NE_ADMIN0"
+    ]
    },
    "OHM_2828409": {
     "id": "OHM_2828409",
@@ -207,13 +216,14 @@
     "date": "1971-09-11/1982-04-25",
     "url": "https://www.openhistoricalmap.org/relation/2828409",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2828409.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "Q79",
     "used_by": [
      "republic-of-egypt"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2839468": {
     "id": "OHM_2839468",
@@ -224,13 +234,14 @@
     "date": "1958-02-22/1961-09-29",
     "url": "https://www.openhistoricalmap.org/relation/2839468",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2839468.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "Q170468",
     "used_by": [
      "republic-of-egypt"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2839930": {
     "id": "OHM_2839930",
@@ -241,14 +252,15 @@
     "date": "1909/1910-01-15",
     "url": "https://www.openhistoricalmap.org/relation/2839930",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2839930.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "Q1421888",
     "used_by": [
      "central-african-republic-ubangi-shari",
      "french-chad-republic-of-chad"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2839931": {
     "id": "OHM_2839931",
@@ -259,14 +271,15 @@
     "date": "1906-02-11/1909",
     "url": "https://www.openhistoricalmap.org/relation/2839931",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2839931.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "Q1421888",
     "used_by": [
      "central-african-republic-ubangi-shari",
      "french-chad-republic-of-chad"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2852460": {
     "id": "OHM_2852460",
@@ -277,13 +290,14 @@
     "date": "0050/0632",
     "url": "https://www.openhistoricalmap.org/relation/2852460",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2852460.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "Q139377",
     "used_by": [
      "kingdom-of-aksum"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2860225": {
     "id": "OHM_2860225",
@@ -294,13 +308,14 @@
     "date": "0632/0960",
     "url": "https://www.openhistoricalmap.org/relation/2860225",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2860225.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "Q139377",
     "used_by": [
      "kingdom-of-aksum"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2878087": {
     "id": "OHM_2878087",
@@ -311,13 +326,14 @@
     "date": "1967-06-10/1971-09-11",
     "url": "https://www.openhistoricalmap.org/relation/2878087",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2878087.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "Q170468",
     "used_by": [
      "republic-of-egypt"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2878088": {
     "id": "OHM_2878088",
@@ -328,13 +344,14 @@
     "date": "1953-06-19/1958",
     "url": "https://www.openhistoricalmap.org/relation/2878088",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2878088.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "",
     "used_by": [
      "republic-of-egypt"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2918030": {
     "id": "OHM_2918030",
@@ -345,14 +362,15 @@
     "date": "1912-12-17/1916-07-20",
     "url": "https://www.openhistoricalmap.org/relation/2918030",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2918030.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "Q1421888",
     "used_by": [
      "central-african-republic-ubangi-shari",
      "french-chad-republic-of-chad"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2921538": {
     "id": "OHM_2921538",
@@ -363,13 +381,14 @@
     "date": "1517/1830",
     "url": "https://www.openhistoricalmap.org/relation/2921538",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2921538.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "Q491507",
     "used_by": [
      "ottoman-egypt-muhammad-ali-dynasty"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2923091": {
     "id": "OHM_2923091",
@@ -431,13 +450,14 @@
     "date": "1830/1840",
     "url": "https://www.openhistoricalmap.org/relation/2951102",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2951102.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "Q491507",
     "used_by": [
      "ottoman-egypt-muhammad-ali-dynasty"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2951103": {
     "id": "OHM_2951103",
@@ -448,13 +468,14 @@
     "date": "1840/1867",
     "url": "https://www.openhistoricalmap.org/relation/2951103",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2951103.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "Q491507",
     "used_by": [
      "ottoman-egypt-muhammad-ali-dynasty"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2960086": {
     "id": "OHM_2960086",
@@ -584,13 +605,14 @@
     "date": "1265/1266",
     "url": "https://www.openhistoricalmap.org/relation/2960098",
     "license": "CC0 1.0",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "verification": "tags read from cached Overpass extract db/extents/raw/ohm_2960098.json (fetched 2026-10; geometry used, simplified 0.01°)",
     "wikidata": "Q282428",
     "used_by": [
      "mamluk-sultanate"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only"
    },
    "OHM_2960099": {
     "id": "OHM_2960099",

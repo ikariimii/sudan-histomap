@@ -10,264 +10,296 @@
     "title": "Italian Eritrea",
     "title_en": "Italian Eritrea",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "date": "1890-01-01/1936-06-01",
     "url": "https://www.openhistoricalmap.org/relation/2690839",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2690839"
+    "id": "OHM_2690839",
+    "status": "reference-only"
    },
    "OHM_2839746": {
     "author": "OpenHistoricalMap contributors",
     "title": "British Eritrea",
     "title_en": "British Eritrea",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "date": "1941-11-27/1952",
     "url": "https://www.openhistoricalmap.org/relation/2839746",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2839746"
+    "id": "OHM_2839746",
+    "status": "reference-only"
    },
    "OHM_2839747": {
     "author": "OpenHistoricalMap contributors",
     "title": "Ethiopian–Eritrean Federation (1952-1962)",
     "title_en": "Ethiopian–Eritrean Federation (1952-1962)",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "date": "1952/1962",
     "url": "https://www.openhistoricalmap.org/relation/2839747",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2839747"
+    "id": "OHM_2839747",
+    "status": "reference-only"
    },
    "OHM_2803440": {
     "author": "OpenHistoricalMap contributors",
     "title": "Ethiopia (1962-1991)",
     "title_en": "Ethiopia (1962-1991)",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "date": "1962/1991-09-15",
     "url": "https://www.openhistoricalmap.org/relation/2803440",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2803440"
+    "id": "OHM_2803440",
+    "status": "reference-only"
    },
    "OHM_2885943": {
     "author": "OpenHistoricalMap contributors",
     "title": "Ethiopia (1991-1993)",
     "title_en": "Ethiopia (1991-1993)",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "date": "1991-09-15/1993",
     "url": "https://www.openhistoricalmap.org/relation/2885943",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2885943"
+    "id": "OHM_2885943",
+    "status": "reference-only"
    },
    "OHM_2803439": {
     "author": "OpenHistoricalMap contributors",
     "title": "Ethiopia (1993-)",
     "title_en": "Ethiopia (1993-)",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag. Land boundary corroborated by Natural Earth Admin 0 – Countries 1:10m v5.1.1 (EXT_NE_ADMIN0): polygon overlap (IoU, land only) 0.99 on 2026-10-25",
     "date": "1993/–",
     "url": "https://www.openhistoricalmap.org/relation/2803439",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2803439"
+    "id": "OHM_2803439",
+    "corroborated_by": [
+     "EXT_NE_ADMIN0"
+    ]
    },
    "OHM_2803445": {
     "author": "OpenHistoricalMap contributors",
     "title": "Eritrea",
     "title_en": "Eritrea",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag. Land boundary corroborated by Natural Earth Admin 0 – Countries 1:10m v5.1.1 (EXT_NE_ADMIN0): polygon overlap (IoU, land only) 0.969 on 2026-10-25",
     "date": "1993/–",
     "url": "https://www.openhistoricalmap.org/relation/2803445",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2803445"
+    "id": "OHM_2803445",
+    "corroborated_by": [
+     "EXT_NE_ADMIN0"
+    ]
    },
    "OHM_2839914": {
     "author": "OpenHistoricalMap contributors",
     "title": "Territory of Chad",
     "title_en": "Territory of Chad",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "date": "1900-09-05/1906-02-11",
     "url": "https://www.openhistoricalmap.org/relation/2839914",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2839914"
+    "id": "OHM_2839914",
+    "status": "reference-only"
    },
    "OHM_2840001": {
     "author": "OpenHistoricalMap contributors",
     "title": "French Equatorial Africa",
     "title_en": "French Equatorial Africa",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "date": "1910-01-15/1911-11-04",
     "url": "https://www.openhistoricalmap.org/relation/2840001",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2840001"
+    "id": "OHM_2840001",
+    "status": "reference-only"
    },
    "OHM_2839999": {
     "author": "OpenHistoricalMap contributors",
     "title": "French Equatorial Africa",
     "title_en": "French Equatorial Africa",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "date": "1916-07-20/1934-06-30",
     "url": "https://www.openhistoricalmap.org/relation/2839999",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2839999"
+    "id": "OHM_2839999",
+    "status": "reference-only"
    },
    "OHM_2839997": {
     "author": "OpenHistoricalMap contributors",
     "title": "French Equatorial Africa",
     "title_en": "French Equatorial Africa",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "date": "1934-06-30/1958-11-28",
     "url": "https://www.openhistoricalmap.org/relation/2839997",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2839997"
+    "id": "OHM_2839997",
+    "status": "reference-only"
    },
    "OHM_2964456": {
     "author": "OpenHistoricalMap contributors",
     "title": "French Chad",
     "title_en": "French Chad",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "date": "1958-11-28/1960-08-11",
     "url": "https://www.openhistoricalmap.org/relation/2964456",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2964456"
+    "id": "OHM_2964456",
+    "status": "reference-only"
    },
    "OHM_2801984": {
     "author": "OpenHistoricalMap contributors",
     "title": "Chad",
     "title_en": "Chad",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag. Land boundary corroborated by Natural Earth Admin 0 – Countries 1:10m v5.1.1 (EXT_NE_ADMIN0): polygon overlap (IoU, land only) 0.99 on 2026-10-25",
     "date": "1960-08-11/–",
     "url": "https://www.openhistoricalmap.org/relation/2801984",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2801984"
+    "id": "OHM_2801984",
+    "corroborated_by": [
+     "EXT_NE_ADMIN0"
+    ]
    },
    "OHM_2839932": {
     "author": "OpenHistoricalMap contributors",
     "title": "Ubangi-Shari",
     "title_en": "Ubangi-Shari",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "date": "1903-12-29/1906-02-11",
     "url": "https://www.openhistoricalmap.org/relation/2839932",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2839932"
+    "id": "OHM_2839932",
+    "status": "reference-only"
    },
    "OHM_2839927": {
     "author": "OpenHistoricalMap contributors",
     "title": "Central African Republic",
     "title_en": "Central African Republic",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "date": "1958-12-01/1960-08-13",
     "url": "https://www.openhistoricalmap.org/relation/2839927",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2839927"
+    "id": "OHM_2839927",
+    "status": "reference-only"
    },
    "OHM_2839926": {
     "author": "OpenHistoricalMap contributors",
     "title": "Central African Republic",
     "title_en": "Central African Republic",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "date": "1960-08-13/1979-09-21",
     "url": "https://www.openhistoricalmap.org/relation/2839926",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2839926"
+    "id": "OHM_2839926",
+    "status": "reference-only"
    },
    "OHM_2831663": {
     "author": "OpenHistoricalMap contributors",
     "title": "Central African Republic",
     "title_en": "Central African Republic",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag. Land boundary corroborated by Natural Earth Admin 0 – Countries 1:10m v5.1.1 (EXT_NE_ADMIN0): polygon overlap (IoU, land only) 0.989 on 2026-10-25",
     "date": "1979-09-21/–",
     "url": "https://www.openhistoricalmap.org/relation/2831663",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2831663"
+    "id": "OHM_2831663",
+    "corroborated_by": [
+     "EXT_NE_ADMIN0"
+    ]
    },
    "OHM_2803189": {
     "author": "OpenHistoricalMap contributors",
     "title": "Italian Libya",
     "title_en": "Italian Libya",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "date": "1934/1943",
     "url": "https://www.openhistoricalmap.org/relation/2803189",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2803189"
+    "id": "OHM_2803189",
+    "status": "reference-only"
    },
    "OHM_2831555": {
     "author": "OpenHistoricalMap contributors",
     "title": "British Military Administration of Libya",
     "title_en": "British Military Administration of Libya",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "date": "1943-05-13/1949-03-01",
     "url": "https://www.openhistoricalmap.org/relation/2831555",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2831555"
+    "id": "OHM_2831555",
+    "status": "reference-only"
    },
    "OHM_2831554": {
     "author": "OpenHistoricalMap contributors",
     "title": "British Military Administration of Libya",
     "title_en": "British Military Administration of Libya",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "date": "1949-03-01/1951-12-24",
     "url": "https://www.openhistoricalmap.org/relation/2831554",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2831554"
+    "id": "OHM_2831554",
+    "status": "reference-only"
    },
    "OHM_2801143": {
     "author": "OpenHistoricalMap contributors",
     "title": "Libya",
     "title_en": "Libya",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag and no published map corroborating this exact outline was found – reference-only geometry (approximate, not an authoritative boundary)",
     "date": "1951-12-24/1959-02-18",
     "url": "https://www.openhistoricalmap.org/relation/2801143",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2801143"
+    "id": "OHM_2801143",
+    "status": "reference-only"
    },
    "OHM_2888602": {
     "author": "OpenHistoricalMap contributors",
     "title": "Libya",
     "title_en": "Libya",
     "publisher": "OpenHistoricalMap",
-    "bias": "volunteer-edited; relation has no source tags – verify",
+    "bias": "volunteer-edited; relation carries no source:* tag. Land boundary corroborated by Natural Earth Admin 0 – Countries 1:10m v5.1.1 (EXT_NE_ADMIN0): polygon overlap (IoU, land only) 0.994 on 2026-10-25",
     "date": "1959-02-18/–",
     "url": "https://www.openhistoricalmap.org/relation/2888602",
     "license": "CC0 1.0",
     "verification": "admin_level=2 relation found via OHM Overpass 2026-10-20 (tags only, geometry not inspected)",
-    "id": "OHM_2888602"
+    "id": "OHM_2888602",
+    "corroborated_by": [
+     "EXT_NE_ADMIN0"
+    ]
    },
    "EXT_NE_ADMIN0": {
     "author": "Natural Earth",
