@@ -20,7 +20,7 @@
  "totals": {
   "SINGLE-SOURCE": 260,
   "CONTESTED": 170,
-  "VERIFY": 78,
+  "VERIFY": 79,
   "REPORTED": 20,
   "MODEL": 109,
   "EDITORIAL": 67,
@@ -28,11 +28,11 @@
   "PARTIAL": 5,
   "DERIVED": 328
  },
- "grand_total": 1517,
+ "grand_total": 1518,
  "inline_totals": {
   "SINGLE-SOURCE": 22,
   "CONTESTED": 9,
-  "VERIFY": 4,
+  "VERIFY": 2,
   "REPORTED": 2,
   "MODEL": 0,
   "EDITORIAL": 0,
@@ -40,7 +40,7 @@
   "PARTIAL": 0,
   "DERIVED": 0
  },
- "inline_grand_total": 42,
+ "inline_grand_total": 40,
  "inline_method": "Exact bracketed tags [NAME] or [NAME: note] for the 9 badge names in data/eras/*.json text fields (excluding all.json, badge keys and Arabic _ar/ar fields); a tag is not counted when the enclosing object already has the same structured badge. Not included in totals/grand_total.",
  "source_types_totals": {
   "un_aid_agency": 35,
@@ -2688,7 +2688,7 @@
    "counts": {
     "SINGLE-SOURCE": 17,
     "CONTESTED": 2,
-    "VERIFY": 5,
+    "VERIFY": 6,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 2,
@@ -2696,11 +2696,11 @@
     "PARTIAL": 0,
     "DERIVED": 15
    },
-   "total": 61,
+   "total": 62,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
-    "VERIFY": 2,
+    "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
@@ -2708,7 +2708,7 @@
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "inline_total": 2,
+   "inline_total": 0,
    "files": [
     "data/eras/sultanate-of-darfur-keira.json",
     "db/ar_review_queue.json",
