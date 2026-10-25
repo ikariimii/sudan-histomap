@@ -18,32 +18,32 @@
   "files_scanned": 278
  },
  "totals": {
-  "SINGLE-SOURCE": 226,
-  "CONTESTED": 340,
+  "SINGLE-SOURCE": 252,
+  "CONTESTED": 342,
   "VERIFY": 30,
   "REPORTED": 17,
   "MODEL": 109,
-  "EDITORIAL": 7,
-  "APPROXIMATE": 791,
+  "EDITORIAL": 43,
+  "APPROXIMATE": 833,
   "PARTIAL": 3,
-  "DERIVED": 48
+  "DERIVED": 60
  },
- "grand_total": 1571,
+ "grand_total": 1689,
  "eras_with_zero_badges": [],
  "eras": {
   "a-group-lower-nubia": {
    "counts": {
-    "SINGLE-SOURCE": 1,
+    "SINGLE-SOURCE": 5,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 2,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 5,
+    "EDITORIAL": 4,
+    "APPROXIMATE": 7,
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "total": 8,
+   "total": 18,
    "files": [
     "data/eras/a-group-lower-nubia.json",
     "db/extents/a-group-lower-nubia.geojson",
@@ -72,17 +72,17 @@
   },
   "abdallab-chiefdom-funj-vassal": {
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 4,
     "CONTESTED": 3,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 12,
+    "EDITORIAL": 4,
+    "APPROXIMATE": 14,
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "total": 15,
+   "total": 25,
    "files": [
     "data/eras/abdallab-chiefdom-funj-vassal.json",
     "db/extents/abdallab-chiefdom-funj-vassal.geojson",
@@ -118,15 +118,16 @@
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 12,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 12,
+    "EDITORIAL": 4,
+    "APPROXIMATE": 16,
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "total": 37,
+   "total": 45,
    "files": [
     "data/eras/alodia-alwa.json",
     "db/era_fill_hist20.json",
+    "db/extents/alodia-alwa.geojson",
     "db/group_layers/alodia-alwa.geojson",
     "db/groups.json",
     "db/legends/eras/alodia-alwa.json",
@@ -237,17 +238,17 @@
   },
   "c-group-lower-nubia": {
    "counts": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 6,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 2,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 6,
+    "EDITORIAL": 4,
+    "APPROXIMATE": 8,
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "total": 10,
+   "total": 20,
    "files": [
     "data/eras/c-group-lower-nubia.json",
     "db/era_anchor_fill_hist23.json",
@@ -284,15 +285,16 @@
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 6,
+    "EDITORIAL": 4,
+    "APPROXIMATE": 8,
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "total": 9,
+   "total": 15,
    "files": [
     "data/eras/daju-kingdom.json",
     "db/era_fill_hist20.json",
+    "db/extents/daju-kingdom.geojson",
     "db/legends/eras/daju-kingdom.json"
    ]
   },
@@ -379,19 +381,20 @@
   },
   "egyptian-new-kingdom-rule-in-nubia": {
    "counts": {
-    "SINGLE-SOURCE": 1,
+    "SINGLE-SOURCE": 5,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 0,
-    "APPROXIMATE": 7,
+    "APPROXIMATE": 11,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 11,
+   "total": 19,
    "files": [
     "data/eras/egyptian-new-kingdom-rule-in-nubia.json",
+    "db/extents/egyptian-new-kingdom-rule-in-nubia.geojson",
     "db/legends/eras/egyptian-new-kingdom-rule-in-nubia.json",
     "db/population.json"
    ]
@@ -464,13 +467,14 @@
     "REPORTED": 2,
     "MODEL": 3,
     "EDITORIAL": 0,
-    "APPROXIMATE": 19,
+    "APPROXIMATE": 21,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 67,
+   "total": 69,
    "files": [
     "data/eras/funj-sultanate-of-sennar.json",
+    "db/extents/funj-sultanate-of-sennar.geojson",
     "db/group_layers/funj-sultanate-of-sennar.geojson",
     "db/groups.json",
     "db/legends/eras/funj-sultanate-of-sennar.json",
@@ -541,12 +545,12 @@
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 17,
+    "EDITORIAL": 4,
+    "APPROXIMATE": 19,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 29,
+   "total": 35,
    "files": [
     "data/eras/ja-aliyyin-kingdom-sa-dab-funj-vassal.json",
     "db/extents/ja-aliyyin-kingdom-sa-dab-funj-vassal.geojson",
@@ -697,15 +701,16 @@
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 14,
+    "EDITORIAL": 4,
+    "APPROXIMATE": 16,
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "total": 20,
+   "total": 26,
    "files": [
     "data/eras/kingdom-of-taqali.json",
     "db/era_fill_hist20.json",
+    "db/extents/kingdom-of-taqali.geojson",
     "db/legends/eras/kingdom-of-taqali.json"
    ]
   },
@@ -830,20 +835,22 @@
   },
   "middle-kingdom-egypt": {
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 6,
     "CONTESTED": 2,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 0,
+    "APPROXIMATE": 6,
     "PARTIAL": 0,
-    "DERIVED": 1
+    "DERIVED": 5
    },
-   "total": 3,
+   "total": 19,
    "files": [
     "data/eras/middle-kingdom-egypt.json",
-    "db/era_fill_hist20.json"
+    "db/era_fill_hist20.json",
+    "db/extents/middle-kingdom-egypt.geojson",
+    "db/legends/eras/middle-kingdom-egypt.json"
    ]
   },
   "musabba-at-sultanate-kordofan": {
@@ -853,14 +860,15 @@
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 9,
+    "EDITORIAL": 4,
+    "APPROXIMATE": 11,
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "total": 13,
+   "total": 19,
    "files": [
     "data/eras/musabba-at-sultanate-kordofan.json",
+    "db/extents/musabba-at-sultanate-kordofan.geojson",
     "db/legends/eras/musabba-at-sultanate-kordofan.json"
    ]
   },
@@ -1000,19 +1008,20 @@
   "ptolemaic-egypt": {
    "counts": {
     "SINGLE-SOURCE": 0,
-    "CONTESTED": 5,
+    "CONTESTED": 7,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 7,
+    "APPROXIMATE": 11,
     "PARTIAL": 0,
-    "DERIVED": 1
+    "DERIVED": 5
    },
-   "total": 13,
+   "total": 23,
    "files": [
     "data/eras/ptolemaic-egypt.json",
     "db/era_fill_hist20.json",
+    "db/extents/ptolemaic-egypt.geojson",
     "db/legends/eras/ptolemaic-egypt.json"
    ]
   },
@@ -1069,13 +1078,14 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 13,
+    "APPROXIMATE": 15,
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "total": 23,
+   "total": 25,
    "files": [
     "data/eras/restored-darfur-sultanate-ali-dinar.json",
+    "db/extents/restored-darfur-sultanate-ali-dinar.geojson",
     "db/groups.json",
     "db/legends/eras/restored-darfur-sultanate-ali-dinar.json",
     "db/relations.json",
@@ -1103,19 +1113,20 @@
   },
   "roman-byzantine-egypt": {
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 4,
     "CONTESTED": 3,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 7,
+    "APPROXIMATE": 11,
     "PARTIAL": 0,
-    "DERIVED": 1
+    "DERIVED": 5
    },
-   "total": 11,
+   "total": 23,
    "files": [
     "data/eras/roman-byzantine-egypt.json",
+    "db/extents/roman-byzantine-egypt.geojson",
     "db/legends/eras/roman-byzantine-egypt.json"
    ]
   },
@@ -1267,14 +1278,15 @@
     "VERIFY": 2,
     "REPORTED": 0,
     "MODEL": 0,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 8,
+    "EDITORIAL": 4,
+    "APPROXIMATE": 10,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 17,
+   "total": 23,
    "files": [
     "data/eras/tunjur-kingdom.json",
+    "db/extents/tunjur-kingdom.geojson",
     "db/groups.json",
     "db/legends/eras/tunjur-kingdom.json",
     "db/relations.json"
