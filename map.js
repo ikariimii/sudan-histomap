@@ -95,7 +95,7 @@ async function render(anim=true){
  const cj=await cardj(e);if(e!==ES[i])return;$('card').innerHTML=cj?cj[L]:`<p><span class="gap">${T.wip}</span></p>`;layerInfo(e);$('feat').hidden=true;
  place()}
 let LBS=[];
-function nobPos(){const b=$('layers').getBoundingClientRect();$('nob').style.top=(b.bottom+6)+'px'}
+function nobPos(){const b=$('layers').getBoundingClientRect();$('nob').style.top=(b.bottom+6)+'px';setTimeout(lgFit,0)}
 function place(){setTimeout(cityThin,0);nobPos();const t=TR;gT.selectAll('*').remove();const placed=[],hid=[];
  // obstacles: the card and the top chrome
  const ob=['sheet','top','layers','nob'].map(id=>$(id).getBoundingClientRect()).filter(b=>b.width).map(b=>({x:b.left,y:b.top,w:b.width,h:b.height}));
@@ -150,7 +150,7 @@ async function layerInfo(e){const box=$('layerinfo');if(!box)return;let h='';
  if(on.has('cty')){const d=await cty();if(!d||!d.cities.length)h+=`<p class="lgap"><b>${T.l.cty}:</b> <span class="gap">${T.wip}</span> <span class="gapt">${esc(T.ctygap)}</span></p>`;
   else{const v=d.cities.filter(c=>cityVis(c,e)),nc=v.filter(c=>c.r[e.id]&&c.r[e.id].cap).length;h+=`<p class="lgap"><b>${T.l.cty}:</b> ${num(v.length)}${nc?` · ★ ${num(nc)}`:''}${d.stub?` <span class="gap">${esc(T.stub)}</span>`:''}</p>`;
   if(d.lo&&d.lo.length)h+=`<p class="lgap"><button class="lob" type="button">${esc(T.lolist)} (${num(d.lo.length)})</button></p>`}}
- box.innerHTML=h;const lb=box.querySelector('.lob');if(lb)lb.onclick=ev=>cityList(ev)}
+ box.innerHTML=h;legendDraw(e);const lb=box.querySelector('.lob');if(lb)lb.onclick=ev=>cityList(ev)}
 const RK={capital:['Capital','عاصمة'],garrison:['Garrison','حامية'],port:['Port','ميناء'],religious:['Religious centre','مركز ديني'],trade:['Trade centre','مركز تجاري']};
 Object.assign(BL,{'FIRST-ATTESTED':BL['FIRST-ATTESTED']||['First attested','أول ذكر موثّق'],UNDATED:BL.UNDATED||['Undated','غير مؤرّخ'],'AR-REVIEW':BL['AR-REVIEW']||['Arabic under review','العربية قيد المراجعة'],APPROXIMATE:BL.APPROXIMATE||['Approximate','تقريبي'],'RUIN-UNDATED':BL['RUIN-UNDATED']||['Ruin, end undated','أطلال، نهاية غير مؤرّخة']});
 async function cityList(ev){ev.stopPropagation();const d=await cty();if(!d)return;const B=x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`;
@@ -168,11 +168,36 @@ async function citiesDraw(e,D){const d=on.has('cty')?await cty():null;if(e!==ES[
  n.append('path');n.append('text').attr('class','ctl2');n.append('title');
  n.transition().duration(D).style('opacity',1);
  const m=n.merge(s);m.classed('capital',c=>c.cap).raise();
- m.select('path').attr('d',c=>c.cap?'M0,-7L2,-2.2L7,-2.2L3,1L4.5,6.5L0,3.2L-4.5,6.5L-3,1L-7,-2.2L-2,-2.2Z':'M-3.2,0a3.2,3.2 0 1,0 6.4,0a3.2,3.2 0 1,0 -6.4,0');
+ m.select('path').attr('d',cShape);
  m.select('text').attr('x',AR?-9:9).attr('y',4).attr('direction',AR?'rtl':'ltr').attr('text-anchor','start').text(cName);
  m.select('title').text(c=>cName(c)+(c.cap?' · '+T.capital:''));
  cityThin()}
 // label thinning: capitals first, then cities with a role this era, then the rest; greedy screen-space boxes
+// role shapes (legend uses the same paths)
+const CSH={capital:'M0,-7L2,-2.2L7,-2.2L3,1L4.5,6.5L0,3.2L-4.5,6.5L-3,1L-7,-2.2L-2,-2.2Z',garrison:'M-3.4,-3.4h6.8v6.8h-6.8z',trade:'M0,-4.6L4.6,0L0,4.6L-4.6,0Z',port:'M0,-4.4L4.4,3.6L-4.4,3.6Z',religious:'M-1.3,-4.4h2.6v3.1h3.1v2.6h-3.1v3.1h-2.6v-3.1h-3.1v-2.6h3.1z',other:'M-3.2,0a3.2,3.2 0 1,0 6.4,0a3.2,3.2 0 1,0 -6.4,0'};
+const cShape=c=>{const r=c.r[ES[i].id];return c.cap?CSH.capital:CSH[r&&r.k]||CSH.other};
+const LGC={};const lgj=id=>LGC[id]||(LGC[id]=fetch(`/lg/${id}.json`).then(r=>r.ok?r.json():null).catch(()=>null));
+const LGS=fetch('/lg/_spec.json').then(r=>r.ok?r.json():null).catch(()=>null);
+function lgSw(r){const w=(p,ex='')=>`<svg width="26" height="18" viewBox="-13 -9 26 18" aria-hidden="true"${ex}>${p}</svg>`;
+ if(r.id.startsWith('city_')){const k=r.id.slice(5);return w(`<path d="${CSH[k]||CSH.other}" class="lgcty${k==='capital'?' capital':''}" fill="${k==='capital'?'#f0c24c':'#e8eef2'}" stroke="#0b141b" stroke-width=".8"/>`)}
+ if(r.id.startsWith('relation_arrow_')){const k=r.id.slice(15);return w(`<line x1="-11" y1="0" x2="9" y2="0" stroke="${RC[k]||'#ccc'}" stroke-width="2" marker-end="url(#ah-${k})"/>`)}
+ const sh={control_extent:'<rect x="-10" y="-6" width="20" height="12" fill="#7a6bd0" fill-opacity=".35" stroke="#7a6bd0"/>',control_extent_approx:'<rect x="-10" y="-6" width="20" height="12" fill="#7a6bd0" fill-opacity=".18" stroke="#7a6bd0" stroke-dasharray="4 3"/>',extent_label_point:'<circle r="3.5" fill="none" stroke="#e8eef2" stroke-width="1.5"/>',contested_point:'<path d="M0,-5L5,0L0,5L-5,0Z" fill="none" stroke="#e0a63e" stroke-width="1.5"/>',contested_boundary_line:'<line x1="-11" y1="0" x2="11" y2="0" stroke="#e0a63e" stroke-width="2" stroke-dasharray="4 3"/>',boundary_line:'<line x1="-11" y1="0" x2="11" y2="0" stroke="#e8eef2" stroke-width="1.5"/>',reported_point:'<path d="M0,-5L5,4L-5,4Z" fill="none" stroke="#e0574c" stroke-width="1.5"/>',group_control_point:'<rect x="-4" y="-4" width="8" height="8" fill="#5aa9e6"/>',homeland_point:'<circle r="4" fill="#5aa9e6"/>',list_only_text:'<text x="0" y="4" text-anchor="middle" font-size="11" fill="#9fb3c2">≡</text>'}[r.id];
+ return w(sh||'<text x="0" y="4" text-anchor="middle" font-size="11" fill="#9fb3c2">?</text>')}
+const LGL={ctl:()=>T.l.ctl,cty:()=>T.l.cty,grp:()=>T.l.grp,rel:()=>T.l.rel,hml:()=>T.l.grp};
+let lgOpen=false;
+async function legendDraw(e){const b=$('lgb'),p=$('lgp');if(!b||!p)return;const d=await lgj(e.id),sp=await LGS;if(e!==ES[i])return;
+ const rows=d?d.rows.filter(r=>on.has(r.l)):[];b.textContent=`${T.lg}${rows.length?' · '+num(rows.length):''}`;b.setAttribute('aria-expanded',lgOpen);
+ let h='';const ls=[...new Set(rows.map(r=>r.l))];
+ if(!rows.length)h=`<p><span class="gap">${T.wip}</span> <span class="gapt">${esc(T.lgnone)}</span></p>`;
+ for(const l of ls){h+=`<h4>${esc(LGL[l]?LGL[l]():l)}</h4><ul>`+rows.filter(r=>r.l===l).map(r=>`<li role="listitem" aria-label="${esc((AR?(r.ar||r.en):r.en)+' '+r.n)}">${lgSw(r)}<span>${esc(AR?(r.ar||r.en):r.en)}${AR&&r.arw?' <sup title="'+esc(T.lgarw)+'">*</sup>':''}</span><span class="n"><bdi>${num(r.n)}</bdi></span></li>`).join('')+'</ul>';
+  const bd=(d.badges||{})[l]||[];if(bd.length)h+=`<p>${bd.map(x=>`<span class="repb">${esc(AR?(x.ar||(BL[x.id]&&BL[x.id][1])||x.en):(x.en!==x.id?x.en:(BL[x.id]?BL[x.id][0]:x.en)))} <bdi>${num(x.n)}</bdi></span>`).join(' ')}</p>`;
+  const sr=(d.src||{})[l]||[];if(sr.length)h+=`<details class="srcs"><summary>${esc(T.lgsrc)} (${num(sr.length)})</summary><ul>${sr.map(x=>`<li dir="ltr"><bdi>${esc(x.c)}</bdi>${x.u?` <a href="${esc(x.u)}" rel="noopener">link</a>`:''}</li>`).join('')}</ul></details>`}
+ if(sp&&sp.credit)h+=`<details class="cr"><summary>${esc(T.lgcred)} ⓘ</summary><p dir="ltr">${esc(sp.credit)}</p><p>${esc(AR?(sp.dis_ar||sp.dis_en):sp.dis_en)}</p></details>`;
+ p.innerHTML=h;p.hidden=!lgOpen;lgFit()}
+function lgFit(){const b=$('lgb'),p=$('lgp'),s=$('sheet');if(!b||!p)return;const L=$('layers').getBoundingClientRect(),N=$('nob').getBoundingClientRect();const t0=Math.max(L.bottom,N.height?N.bottom:0)+8;b.style.top=t0+'px';const bt=b.getBoundingClientRect().bottom+6;p.style.top=bt+'px';if(p.hidden)return;const S=s?s.getBoundingClientRect():null,P=p.getBoundingClientRect();const cov=S&&S.width&&S.left<P.right&&S.right>P.left;const lim=(cov?S.top:innerHeight)-bt-8;p.style.maxHeight=Math.max(120,lim)+'px'}
+addEventListener('resize',lgFit);
+{const b=document.getElementById('lgb');if(b)b.onclick=ev=>{ev.stopPropagation();lgOpen=!lgOpen;b.setAttribute('aria-expanded',lgOpen);document.getElementById('lgp').hidden=!lgOpen;lgFit()}}
+document.addEventListener('DOMContentLoaded',()=>{});
 function cityThin(){const e=ES[i],W=svg.node().clientWidth||390,H=svg.node().clientHeight||600,sr=svg.node().getBoundingClientRect(),boxes=[...gT.selectAll('text').nodes(),...gK.selectAll('text').nodes()].filter(t=>t.style.display!=='none'&&t.getAttribute('visibility')!=='hidden').map(t=>{const b=t.getBoundingClientRect();return [b.left-sr.left-2,b.top-sr.top-2,b.right-sr.left+2,b.bottom-sr.top+2]}).filter(b=>b[2]>b[0]);
  const g=gY.selectAll('g.cty:not(.gone)').nodes().map(n=>({n,c:d3.select(n).datum()}));
  g.sort((a,b)=>(b.c.cap-a.c.cap)||((!!b.c.r[e.id])-(!!a.c.r[e.id]))||String(a.c.id).localeCompare(b.c.id));
@@ -195,9 +220,10 @@ r.addEventListener('input',()=>go(+r.value));$('prev').onclick=()=>go(i-1);$('ne
 $('w').addEventListener('input',()=>{const e=ES[i];ext(e).then(g=>{Y=steps(e,g)[+$('w').value];render(true)})});
 addEventListener('keydown',ev=>{if(ev.target.tagName==='INPUT')return;if(ev.key==='ArrowRight')go(i+(AR?-1:1));if(ev.key==='ArrowLeft')go(i+(AR?1:-1))});
 let sx=null;const hd=$('head');hd.addEventListener('pointerdown',ev=>{sx=ev.clientX});hd.addEventListener('pointerup',ev=>{if(sx==null)return;const d=ev.clientX-sx;sx=null;if(Math.abs(d)>50)go(i+((d<0)!==AR?1:-1))});
-const SN=['peek','half','full'];function snap(s){const sh=$('sheet');SN.forEach(c=>sh.classList.remove(c));sh.classList.add(s);setTimeout(place,320)}
+const SN=['peek','half','full'];function snap(s){setTimeout(lgFit,350);const sh=$('sheet');SN.forEach(c=>sh.classList.remove(c));sh.classList.add(s);setTimeout(place,320)}
 $('grab').onclick=()=>{const sh=$('sheet'),c=SN.find(x=>sh.classList.contains(x))||'half';snap(SN[(SN.indexOf(c)+1)%3])};
 let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(()=>{fit();OLD=[];render(false)},150)});
 // --- start
 fit();getj('/basemap-map.json').then(b=>{BASE=b;render(false)}).catch(()=>render(false));
 })();
+

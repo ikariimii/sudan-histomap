@@ -62,3 +62,10 @@ html[dir=rtl] .nav{transform:scaleX(-1)}
 .cty{cursor:pointer}.capb{display:inline-block;font-size:.75em;padding:0 .4em;border-radius:.6em;background:#ffd34d;color:#2a2000}
 .lob{font:inherit;background:none;border:1px solid currentColor;border-radius:14px;padding:4px 10px;color:inherit;cursor:pointer}
 .lol{list-style:none;padding:0;margin:.5em 0}.lol li{padding:6px 0;border-bottom:1px solid #ffffff1a}
+
+#lgb{position:fixed;inset-inline-start:10px;top:calc(130px + env(safe-area-inset-top));z-index:6;min-height:44px}
+#lgp{position:fixed;inset-inline-start:10px;top:calc(180px + env(safe-area-inset-top));z-index:6;width:min(340px,calc(100vw - 20px));overflow:auto;background:#0f1b24f2;border:1px solid #4a6273;border-radius:12px;padding:8px 10px;font-size:13px;box-sizing:border-box}
+#lgp h4{margin:.5em 0 .2em;font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:#9fb3c2}
+#lgp ul{list-style:none;margin:0;padding:0}#lgp li{display:flex;align-items:center;gap:8px;min-height:28px}
+#lgp li svg{flex:0 0 26px}#lgp .n{margin-inline-start:auto;color:#9fb3c2}#lgp .cr{margin-top:6px;color:#9fb3c2;font-size:11px}
+#lgp .srcs{font-size:11px;color:#c5d3dd}#lgp .srcs a{color:inherit}

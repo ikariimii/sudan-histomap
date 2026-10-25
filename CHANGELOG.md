@@ -1,5 +1,6 @@
 # Changelog
 
+- Per-era GIS legend (db/legends): collapsible Legend chip/panel, EN/AR (RTL), rows only for the current era and active layers, badges and source cites as given, role shapes for city markers, "Research in progress" fallback; panel sized to stay clear of the bottom sheet.
 - Cities & towns layer (?layers=cty): toggle, era/year filtering, capital stars, fades (instant under reduced motion), collision-thinned labels, tap card with sources/badges; reads db/city_layers/cities.geojson (visible from founded or first-attested year, FIRST-ATTESTED badge); undated places only in a list sheet; ?layers=cities alias.
 
 Site changes for sudan.indomando.com (built from `web/` by `web/build.py`). Newest first.
