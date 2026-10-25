@@ -7463,7 +7463,23 @@
    "key_events_ar": [
     "فخار الخطوط المتموجة من أقدم الفخار في أفريقيا",
     "مستوطنات صيد الأسماك والقنص على ضفاف النيل قرب الخرطوم"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "AAR2021",
+      "title": "Seventy Years of Pottery Studies in the Archaeology of Mesolithic and Neolithic Sudan"
+     },
+     {
+      "id": "WP:Early_Khartoum",
+      "title": "Early Khartoum",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "Corrected -8000/-4900 -> c.8500–5000 cal BC for Early Khartoum ceramics of central Sudan (Garcea/Jesse et al., African Archaeological Review 2021 review). Northern 'Khartoum Variant' is c.8000–4900 cal BC. Site point = city-level approximation."
+   }
   },
   {
    "name": "Khartoum Neolithic (Shaheinab)",
@@ -7494,7 +7510,27 @@
    "dating_note": "Approximate; site coordinates from Wikidata (Esh-Shaheinab corrected from 16.13N). Kadero added as second Khartoum Neolithic site (coordinates approximate, Wikidata).",
    "key_events_ar": [
     "أبقار وضأن وماعز مستأنسة في الشهيناب"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "WD:Q109284524",
+      "title": "Q109284524 (coordinates)"
+     },
+     {
+      "id": "WD:Q109284535",
+      "title": "Q109284535 (coordinates)"
+     },
+     {
+      "id": "WP:Khartoum_Neolithic",
+      "title": "Khartoum Neolithic",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "Approximate; site coordinates from Wikidata (Esh-Shaheinab corrected from 16.13N). Kadero added as second Khartoum Neolithic site (coordinates approximate, Wikidata)."
+   }
   },
   {
    "name": "A-Group (Lower Nubia)",
@@ -7620,7 +7656,27 @@
     "أكبر دولة أفريقية خارج مصر في الألف الثاني قبل الميلاد",
     "نهبها تحتمس الأول نحو 1500 ق.م",
     "مراحل البعثة السويسرية: كرمة المبكرة نحو 2450–2050، والوسطى نحو 2050–1750، والكلاسيكية نحو 1750–1480 ق.م (وكرمة المتأخرة حتى نحو 1450)"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "KERMA_MISSION",
+      "title": "History (Kerma chronology)"
+     },
+     {
+      "id": "GHA2_CH19",
+      "title": "The Roman and post-Roman period in North Africa, ch.19 (General History of Africa II)"
+     },
+     {
+      "id": "WP:Kerma_culture",
+      "title": "Kerma culture",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "Corrected to Swiss Archaeological Mission chronology (kerma.ch). Note GHA II (1981) still dates 'Kerma' to -1730/-1580, i.e. only the Classic phase; superseded by Bonnet/Honegger excavations."
+   }
   },
   {
    "name": "Egyptian New Kingdom rule in Nubia",
@@ -7749,7 +7805,36 @@
     "أتلانرسا 653–643، سنكامانيسكن 643–623، أنلاماني 623–593، أسبلتا 593–568 ق.م",
     "حملة بسماتيك الثاني تستولي على نبتة (تاريخ أفريقيا العام: 591 ق.م؛ ويُؤرَّخ على نطاق واسع بـ593 ق.م)",
     "المدافن الملكية في الكرو ثم نوري؛ انتقال الدفن إلى مروي نحو 270 ق.م"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHA2_CH19",
+      "title": "The Roman and post-Roman period in North Africa, ch.19 (General History of Africa II)"
+     },
+     {
+      "id": "WELSBY1996",
+      "title": "The Kingdom of Kush: The Napatan and Meroitic Empires"
+     },
+     {
+      "id": "WHC1073",
+      "title": "Gebel Barkal and the Sites of the Napatan Region"
+     },
+     {
+      "id": "WP:Kingdom_of_Kush",
+      "title": "Kingdom of Kush",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:Twenty-fifth_Dynasty_of_Egypt",
+      "title": "Twenty-fifth Dynasty of Egypt",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "Reign dates follow UNESCO GHA II ch.10 (Leclant, 1981); later scholarship revises several (incl. the Shabaka/Shebitku order) – treat as approximate. WHC gives Napatan 900–270 BCE; -800 start kept as display convention. Coordinates: Pleiades/Wikidata."
+   }
   },
   {
    "name": "Kingdom of Kush – Meroitic period",
@@ -7818,7 +7903,53 @@
     "الكنداكتان أماني ريناس وأماني شاخيتو؛ الأمير/الملك أكينيداد؛ الحرب مع روما: بترونيوس يستولي على نبتة 23 ق.م (تاريخ أفريقيا العام)، ومعاهدة ساموس 21/20 ق.م",
     "نتكاماني وأماني تيري (تاريخ أفريقيا العام: نحو 12 ق.م–12 م؛ والتأريخ موضع جدل): معبد الأسد في النقعة، وعمارة، وترميم نبتة",
     "انهارت في القرن الرابع الميلادي؛ والسبب موضع خلاف (النوبة بحسب تاريخ أفريقيا العام II؛ وحملة عيزانا الأكسومية)"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "PL:795855",
+      "title": "Place 795855"
+     },
+     {
+      "id": "RILLY_SN22",
+      "title": "The QSAP Programme on the Temple of Queen Tiye in Sedeinga"
+     },
+     {
+      "id": "GHA2_CH19",
+      "title": "The Roman and post-Roman period in North Africa, ch.19 (General History of Africa II)"
+     },
+     {
+      "id": "WHC1336",
+      "title": "Archaeological Sites of the Island of Meroe"
+     },
+     {
+      "id": "WELSBY1996",
+      "title": "The Kingdom of Kush: The Napatan and Meroitic Empires"
+     },
+     {
+      "id": "WP:Meroë",
+      "title": "Meroë",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:Kingdom_of_Kush",
+      "title": "Kingdom of Kush",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:Amanirenas",
+      "title": "Amanirenas",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "EDWARDS2011",
+      "title": "From Meroe to 'Nubia': exploring culture change without the 'Noba'"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "Meroitic chronology uncertain (GHA II: 'particularly serious' for 2nd–1st c. BCE). Which kandake negotiated with Rome (Amanirenas vs Amanishakheto) is unresolved in GHA. End placed in the 4th century CE (350 is a placeholder year); cause debated: GHA II ascribes the overthrow to the Noba and concludes the kingdom 'had already collapsed at the time of Ezana's campaign'."
+   }
   },
   {
    "name": "Noba / X-Group (Ballana culture)",
@@ -7845,7 +7976,31 @@
    "dating_note": "Approximate. Ballana coordinates verified: Pleiades 795783 (Barrington Atlas 81 B3). Site now under Lake Nasser.",
    "key_events_ar": [
     "تلال المدافن الملكية لما بعد العهد المروي في بلانة وقسطل"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "PL:795783",
+      "title": "Place 795783"
+     },
+     {
+      "id": "WELSBY2002",
+      "title": "The Medieval Kingdoms of Nubia: Pagans, Christians and Muslims along the Middle Nile"
+     },
+     {
+      "id": "GHA2_CH19",
+      "title": "The Roman and post-Roman period in North Africa, ch.19 (General History of Africa II)"
+     },
+     {
+      "id": "WP:Ballana_culture",
+      "title": "Ballana culture",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "Approximate. Ballana coordinates verified: Pleiades 795783 (Barrington Atlas 81 B3). Site now under Lake Nasser."
+   }
   },
   {
    "name": "Nobadia",
@@ -7880,7 +8035,35 @@
    "key_events_ar": [
     "اعتنقت المسيحية نحو 543 م",
     "اندمجت في المقرة في القرن السابع"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "WELSBY2002",
+      "title": "The Medieval Kingdoms of Nubia: Pagans, Christians and Muslims along the Middle Nile"
+     },
+     {
+      "id": "GHA2_CH19",
+      "title": "The Roman and post-Roman period in North Africa, ch.19 (General History of Africa II)"
+     },
+     {
+      "id": "WP:Nobadia",
+      "title": "Nobadia",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "GHA2_CH12",
+      "title": "The spreading of Christianity in Nubia (General History of Africa II, ch.12)"
+     },
+     {
+      "id": "DERDA_LAJTAR2019",
+      "title": "Organization of the Church in Medieval Nubia in the Light of a Newly Discovered Wall Inscription in Dongola"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "Christianisation c.543 and merger with Makuria (7th c.) per standard accounts; specific dates not re-verified in a primary source in this pass. Merger with Makuria: date disputed. GHA II ch.12 (Michałowski, pp.332–333) gives two versions: Maqrizi has one king, Qalidurut, ruling central and northern Nubia by the mid-7th c.; 'Christian sources seem to prove that the union of Nubia was the work of King Merkurios, who came to the throne in 697.' Derda & Łajtar (2019, p.136 and n.4): 'perhaps around 630'; the earliest indubitable proof of a greater Makuria including Nobadia is the reign of Merkurios (late 7th–early 8th c.); incorporation probably before the Arab raid on Dongola in 652; Godlewski has suggested the end of the 6th c. Welsby 2002 not read on this point."
+   }
   },
   {
    "name": "Makuria",
@@ -7919,7 +8102,36 @@
     "معاهدة البقط مع مصر",
     "جداريات كاتدرائية فرس",
     "الانحدار تحت ضغط المماليك، القرن الرابع عشر"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "WELSBY2002",
+      "title": "The Medieval Kingdoms of Nubia: Pagans, Christians and Muslims along the Middle Nile"
+     },
+     {
+      "id": "WP_MAKURIA",
+      "title": "Makuria",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:Baqt",
+      "title": "Baqt",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "GHA2_CH12",
+      "title": "The spreading of Christianity in Nubia (General History of Africa II, ch.12)"
+     },
+     {
+      "id": "DERDA_LAJTAR2019",
+      "title": "Organization of the Church in Medieval Nubia in the Light of a Newly Discovered Wall Inscription in Dongola"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "End date approximate (kingdom fragmented in 14th–15th c.). Merger with Makuria: date disputed. GHA II ch.12 (Michałowski, pp.332–333) gives two versions: Maqrizi has one king, Qalidurut, ruling central and northern Nubia by the mid-7th c.; 'Christian sources seem to prove that the union of Nubia was the work of King Merkurios, who came to the throne in 697.' Derda & Łajtar (2019, p.136 and n.4): 'perhaps around 630'; the earliest indubitable proof of a greater Makuria including Nobadia is the reign of Merkurios (late 7th–early 8th c.); incorporation probably before the Arab raid on Dongola in 652; Godlewski has suggested the end of the 6th c. Welsby 2002 not read on this point."
+   }
   },
   {
    "name": "Alodia (Alwa)",
@@ -8080,7 +8292,27 @@
     "غزو قوات محمد علي 1820–1821",
     "تأسيس الخرطوم عاصمةً نحو 1824",
     "توسع تجارة الرقيق والعاج"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "HD2011",
+      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
+     },
+     {
+      "id": "WP:Turco-Egyptian_Sudan",
+      "title": "Turco-Egyptian Sudan",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:Ottoman_Egyptian_invasion_of_Sudan",
+      "title": "Ottoman Egyptian invasion of Sudan",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Mahdist State (Mahdiyya)",
@@ -8112,7 +8344,27 @@
     "سقوط الخرطوم ومقتل غوردون 1885",
     "حكم الخليفة عبد الله",
     "معركة أم درمان 1898؛ أم دبيكرات 1899"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "HD2011",
+      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
+     },
+     {
+      "id": "WP:Mahdist_State",
+      "title": "Mahdist State",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:Battle_of_Omdurman",
+      "title": "Battle of Omdurman",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Anglo-Egyptian Sudan (Condominium)",
@@ -8143,7 +8395,22 @@
     "مشروع الجزيرة 1925",
     "سياسة الجنوب",
     "الحكم الذاتي 1953"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "HD2011",
+      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
+     },
+     {
+      "id": "WP:Anglo-Egyptian_Sudan",
+      "title": "Anglo-Egyptian Sudan",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Independent Sudan – First parliamentary period",
@@ -8170,7 +8437,22 @@
    "key_events_ar": [
     "الاستقلال 1 يناير 1956",
     "رئيس الوزراء إسماعيل الأزهري ثم عبد الله خليل"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "HD2011",
+      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
+     },
+     {
+      "id": "WP:History_of_Sudan_(1956–1969)",
+      "title": "History of Sudan (1956–1969)",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Abboud military regime",
@@ -8198,7 +8480,27 @@
    "key_events_ar": [
     "انقلاب نوفمبر 1958",
     "ثورة أكتوبر 1964 تنهي الحكم"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "HD2011",
+      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
+     },
+     {
+      "id": "WP:Ibrahim_Abboud",
+      "title": "Ibrahim Abboud",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:October_1964_Revolution",
+      "title": "October 1964 Revolution",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Second parliamentary period",
@@ -8223,7 +8525,22 @@
    "dating_note": "",
    "key_events_ar": [
     "حكومات مدنية؛ استمرار الحرب الأهلية السودانية الأولى"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "HD2011",
+      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
+     },
+     {
+      "id": "WP:History_of_Sudan_(1956–1969)",
+      "title": "History of Sudan (1956–1969)",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Nimeiry era (Democratic Republic of Sudan)",
@@ -8255,7 +8572,27 @@
     "اتفاقية أديس أبابا 1972 تنهي الحرب الأهلية الأولى",
     "قوانين سبتمبر 1983؛ اندلاع الحرب الأهلية الثانية",
     "انتفاضة أبريل 1985"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "HD2011",
+      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
+     },
+     {
+      "id": "WP:Gaafar_Nimeiry",
+      "title": "Gaafar Nimeiry",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:Addis_Ababa_Agreement_(1972)",
+      "title": "Addis Ababa Agreement (1972)",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Transitional & third parliamentary period",
@@ -8282,7 +8619,22 @@
    "key_events_ar": [
     "المجلس الانتقالي برئاسة سوار الذهب",
     "رئيس الوزراء الصادق المهدي 1986–1989"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "HD2011",
+      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
+     },
+     {
+      "id": "WP:Sadiq_al-Mahdi",
+      "title": "Sadiq al-Mahdi",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Al-Bashir / NCP (Ingaz) regime",
@@ -8315,7 +8667,33 @@
     "حرب دارفور منذ 2003؛ مذكرات المحكمة الجنائية الدولية 2009",
     "اتفاقية السلام الشامل 2005",
     "انفصال جنوب السودان 9 يوليو 2011"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "HD2011",
+      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
+     },
+     {
+      "id": "WP:Omar_al-Bashir",
+      "title": "Omar al-Bashir",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:War_in_Darfur",
+      "title": "War in Darfur",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:Comprehensive_Peace_Agreement",
+      "title": "Comprehensive Peace Agreement",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "Holt & Daly 6th ed. (2011) covers to c.2010; 2011+ events still Wikipedia-sourced."
+   }
   },
   {
    "name": "December Revolution & transition",
@@ -8351,7 +8729,35 @@
     "الانقلاب العسكري 25 أكتوبر 2021",
     "توقيع الوثيقة الدستورية 17 أغسطس 2019؛ حمدوك رئيساً للوزراء؛ تشكيل الحكومة 8 سبتمبر 2019 (مجموعة الأزمات الدولية)",
     "إنشاء بعثة يونيتامس بقرار مجلس الأمن 2524، 3 يونيو 2020"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "ICG2019",
+      "title": "Safeguarding Sudan's Revolution (Africa Report 281)"
+     },
+     {
+      "id": "ICG2021",
+      "title": "Reversing Sudan's Dangerous Coup"
+     },
+     {
+      "id": "UNSC2524",
+      "title": "Resolution 2524 (2020) [UNITAMS]"
+     },
+     {
+      "id": "WP:Sudanese_revolution",
+      "title": "Sudanese revolution",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:2021_Sudanese_coup_d'état",
+      "title": "2021 Sudanese coup d'état",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "War in Sudan (SAF vs RSF)",
@@ -8392,7 +8798,35 @@
     "انتقال الحكومة إلى بورتسودان",
     "إعلان جدة لحماية المدنيين، 11 مايو 2023",
     "لجنة مراجعة المجاعة التابعة للتصنيف المرحلي المتكامل: المجاعة مرجحة الاستمرار في معسكر زمزم، يوليو 2024 (نُشر في 1 أغسطس 2024)"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "UNNEWS2023",
+      "title": "UN chief and officials condemn fighting between Sudanese forces"
+     },
+     {
+      "id": "UNSC_SC15257",
+      "title": "Press Statement on Clashes in Sudan (SC/15257)"
+     },
+     {
+      "id": "IPC_FRC2024",
+      "title": "Famine Review Committee report: Zamzam camp, North Darfur, Sudan"
+     },
+     {
+      "id": "JEDDAH2023",
+      "title": "Jeddah Declaration of Commitment to Protect the Civilians of Sudan"
+     },
+     {
+      "id": "WP:Sudanese_civil_war_(2023–present)",
+      "title": "Sudanese civil war (2023–present)",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "Ongoing; end=present. 'Government relocates to Port Sudan' not yet tied to a non-Wikipedia source (UN sources confirm the UN hub moved there)."
+   }
   },
   {
    "name": "Daju kingdom",
@@ -8522,7 +8956,27 @@
     "التوسع في كردفان في عهد محمد تيراب نحو 1785",
     "تثبيت العاصمة في الفاشر نحو 1790/1791 في عهد عبد الرحمن",
     "فتحها الزبير رحمة 1874"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "OFAHEY2008",
+      "title": "The Darfur Sultanate: A History"
+     },
+     {
+      "id": "HD2011",
+      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
+     },
+     {
+      "id": "WP:Sultanate_of_Darfur",
+      "title": "Sultanate of Darfur",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "Start corrected 1603→c.1650 (O'Fahey 2008). Older chronologies place Sulayman earlier; founding date genuinely uncertain. El Fasher date c.1790–91."
+   }
   },
   {
    "name": "Restored Darfur Sultanate (Ali Dinar)",
@@ -8660,7 +9114,23 @@
     "المقر الملكي في فشودة",
     "هولت وديلي: امتد نطاقهم سابقاً حتى جزيرة أبا (منتصف القرن التاسع عشر)؛ وأغاروا على مستوطنات العرب على مجرى النيل الأبيض حتى مطلع العهد التركي المصري",
     "تنسب الرواية التقليدية تأسيس دولة الفونج إلى عصبة محاربين من الشلك"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "HD2011",
+      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
+     },
+     {
+      "id": "WP:Shilluk_Kingdom",
+      "title": "Shilluk Kingdom",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "Founding c.1490 traditional (Nyikang); 1861 end-point not re-verified."
+   }
   },
   {
    "name": "Southern Sudan under Condominium / Sudan",
@@ -8691,7 +9161,31 @@
     "الحرب الأهلية الأولى 1955–1972",
     "الحرب الأهلية الثانية 1983–2005",
     "الاستفتاء يناير 2011"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "UNSC1996",
+      "title": "Resolution 1996 (2011) [UNMISS]"
+     },
+     {
+      "id": "HD2011",
+      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
+     },
+     {
+      "id": "WP:First_Sudanese_Civil_War",
+      "title": "First Sudanese Civil War",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:Second_Sudanese_Civil_War",
+      "title": "Second Sudanese Civil War",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Republic of South Sudan",
@@ -8726,7 +9220,39 @@
     "الحرب الأهلية منذ 15 ديسمبر 2013 (مجموعة الأزمات الدولية 2014)",
     "توقيع الاتفاقية المنشطة لحل النزاع في جنوب السودان 12 سبتمبر 2018",
     "تشكيل حكومة الوحدة الوطنية الانتقالية المنشطة 22 فبراير 2020 (أكورد)"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "UNSC1996",
+      "title": "Resolution 1996 (2011) [UNMISS]"
+     },
+     {
+      "id": "ICG2014",
+      "title": "South Sudan: A Civil War by Any Other Name (Africa Report 217)"
+     },
+     {
+      "id": "RARCSS2018",
+      "title": "Revitalised Agreement on the Resolution of the Conflict in the Republic of South Sudan"
+     },
+     {
+      "id": "ACCORD2020",
+      "title": "The Formation of the Revitalized Transitional Government of National Unity in South Sudan"
+     },
+     {
+      "id": "WP:South_Sudan",
+      "title": "South Sudan",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:South_Sudanese_Civil_War",
+      "title": "South Sudanese Civil War",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Early Dynastic & Old Kingdom Egypt",
@@ -8753,7 +9279,22 @@
    "key_events_ar": [
     "التوحيد نحو 3100 ق.م",
     "أهرامات الجيزة"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHA2_CH19",
+      "title": "The Roman and post-Roman period in North Africa, ch.19 (General History of Africa II)"
+     },
+     {
+      "id": "WP:Old_Kingdom_of_Egypt",
+      "title": "Old Kingdom of Egypt",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Middle Kingdom Egypt",
@@ -8829,7 +9370,22 @@
    "key_events_ar": [
     "فتح كوش",
     "رمسيس الثاني"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHA2_CH19",
+      "title": "The Roman and post-Roman period in North Africa, ch.19 (General History of Africa II)"
+     },
+     {
+      "id": "WP:New_Kingdom_of_Egypt",
+      "title": "New Kingdom of Egypt",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Late Period / Persian Egypt",
@@ -8854,7 +9410,22 @@
    "dating_note": "",
    "key_events_ar": [
     "الأسرة السادسة والعشرون؛ حملة بسماتيك الثاني تستولي على نبتة (تاريخ أفريقيا العام، المجلد الثاني: 591 ق.م؛ وكثيراً ما تُؤرَّخ بـ593 ق.م)"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHA2_CH19",
+      "title": "The Roman and post-Roman period in North Africa, ch.19 (General History of Africa II)"
+     },
+     {
+      "id": "WP:Late_Period_of_ancient_Egypt",
+      "title": "Late Period of ancient Egypt",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Ptolemaic Egypt",
@@ -8998,7 +9569,31 @@
    "key_events_ar": [
     "الفتح العربي 641",
     "القاهرة الفاطمية 969"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHA3_CH8",
+      "title": "Christian Nubia at the height of its civilization (General History of Africa III, ch.8)"
+     },
+     {
+      "id": "GHAIV",
+      "title": "General History of Africa, IV: Africa from the Twelfth to the Sixteenth Century"
+     },
+     {
+      "id": "WP:Muslim_conquest_of_Egypt",
+      "title": "Muslim conquest of Egypt",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:Fatimid_Caliphate",
+      "title": "Fatimid Caliphate",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Mamluk Sultanate",
@@ -9023,7 +9618,22 @@
    "dating_note": "",
    "key_events_ar": [
     "حملات على المقرة"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHAIV",
+      "title": "General History of Africa, IV: Africa from the Twelfth to the Sixteenth Century"
+     },
+     {
+      "id": "WP:Mamluk_Sultanate",
+      "title": "Mamluk Sultanate",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Ottoman Egypt & Muhammad Ali dynasty",
@@ -9049,7 +9659,26 @@
    "dating_note": "",
    "key_events_ar": [
     "محمد علي يغزو السودان 1820"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHAV",
+      "title": "General History of Africa, V: Africa from the Sixteenth to the Eighteenth Century"
+     },
+     {
+      "id": "GHA6_CH14",
+      "title": "The Sudan in the nineteenth century (General History of Africa VI, ch.14)"
+     },
+     {
+      "id": "WP:Muhammad_Ali_dynasty",
+      "title": "Muhammad Ali dynasty",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "British-occupied / Kingdom of Egypt",
@@ -9074,7 +9703,22 @@
    "dating_note": "",
    "key_events_ar": [
     "شريكا الحكم الثنائي في السودان 1899"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHA7_CH17",
+      "title": "The colonial economy: North Africa (General History of Africa VII, ch.17)"
+     },
+     {
+      "id": "WP:Kingdom_of_Egypt",
+      "title": "Kingdom of Egypt",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Republic of Egypt",
@@ -9099,7 +9743,22 @@
    "dating_note": "",
    "key_events_ar": [
     "السد العالي في أسوان؛ تهجير النوبيين وإغراق وادي حلفا 1964"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHA8",
+      "title": "General History of Africa VIII: Africa since 1935 – Sudan passages ('North Africa and the Horn', pp.148–150; economy and political-succession passages)"
+     },
+     {
+      "id": "WP:Aswan_Dam",
+      "title": "Aswan Dam",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Land of Punt / D'mt",
@@ -9124,7 +9783,23 @@
    "dating_note": "Approximate",
    "key_events_ar": [
     "مملكة دعمت في إريتريا/تيغراي"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHA2_CH19",
+      "title": "The Roman and post-Roman period in North Africa, ch.19 (General History of Africa II)"
+     },
+     {
+      "id": "WP:Dʿmt",
+      "title": "Dʿmt",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "Approximate"
+   }
   },
   {
    "name": "Kingdom of Aksum",
@@ -9157,7 +9832,27 @@
    "key_events_ar": [
     "المسيحية في عهد عيزانا نحو ثلاثينيات القرن الرابع",
     "حملة على مروي/النوبة نحو 350"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHA2_CH19",
+      "title": "The Roman and post-Roman period in North Africa, ch.19 (General History of Africa II)"
+     },
+     {
+      "id": "WP:Kingdom_of_Aksum",
+      "title": "Kingdom of Aksum",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:Ezana_of_Axum",
+      "title": "Ezana of Axum",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Zagwe dynasty",
@@ -9182,7 +9877,23 @@
    "dating_note": "Start date debated",
    "key_events_ar": [
     "كنائس لاليبلا المنحوتة في الصخر"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHAIV",
+      "title": "General History of Africa, IV: Africa from the Twelfth to the Sixteenth Century"
+     },
+     {
+      "id": "WP:Zagwe_dynasty",
+      "title": "Zagwe dynasty",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "Start date debated"
+   }
   },
   {
    "name": "Ethiopian Empire (Solomonic)",
@@ -9220,7 +9931,39 @@
     "عهد غوندار 1636–1769",
     "معركة القلابات ضد المهدويين 1889",
     "عدوة 1896"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHAIV",
+      "title": "General History of Africa, IV: Africa from the Twelfth to the Sixteenth Century"
+     },
+     {
+      "id": "GHAV",
+      "title": "General History of Africa, V: Africa from the Sixteenth to the Eighteenth Century"
+     },
+     {
+      "id": "GHA6_CH14",
+      "title": "The Sudan in the nineteenth century (General History of Africa VI, ch.14)"
+     },
+     {
+      "id": "GHA7_CH17",
+      "title": "The colonial economy: North Africa (General History of Africa VII, ch.17)"
+     },
+     {
+      "id": "WP:Ethiopian_Empire",
+      "title": "Ethiopian Empire",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:Battle_of_Gallabat",
+      "title": "Battle of Gallabat",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Derg & Federal Ethiopia",
@@ -9246,7 +9989,27 @@
    "dating_note": "",
    "key_events_ar": [
     "سد النهضة على النيل الأزرق (بدء البناء 2011)"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHA8",
+      "title": "General History of Africa VIII: Africa since 1935 – Sudan passages ('North Africa and the Horn', pp.148–150; economy and political-succession passages)"
+     },
+     {
+      "id": "WP:Derg",
+      "title": "Derg",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:Grand_Ethiopian_Renaissance_Dam",
+      "title": "Grand Ethiopian Renaissance Dam",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Eritrea (Italian colony → independent)",
@@ -9274,7 +10037,26 @@
    "key_events_ar": [
     "مستعمرة إيطالية 1890",
     "الاستقلال 1993"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHA7_CH17",
+      "title": "The colonial economy: North Africa (General History of Africa VII, ch.17)"
+     },
+     {
+      "id": "GHA8",
+      "title": "General History of Africa VIII: Africa since 1935 – Sudan passages ('North Africa and the Horn', pp.148–150; economy and political-succession passages)"
+     },
+     {
+      "id": "WP:Eritrea",
+      "title": "Eritrea",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Kanem Empire",
@@ -9300,7 +10082,27 @@
    "dating_note": "Approximate",
    "key_events_ar": [
     "اعتناق الإسلام في القرن الحادي عشر"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHA3_CH8",
+      "title": "Christian Nubia at the height of its civilization (General History of Africa III, ch.8)"
+     },
+     {
+      "id": "GHAIV",
+      "title": "General History of Africa, IV: Africa from the Twelfth to the Sixteenth Century"
+     },
+     {
+      "id": "WP:Kanem_Empire",
+      "title": "Kanem Empire",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "Approximate"
+   }
   },
   {
    "name": "Bornu Empire",
@@ -9327,7 +10129,30 @@
    "dating_note": "",
    "key_events_ar": [
     "إدريس ألوما في القرن السادس عشر"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHAIV",
+      "title": "General History of Africa, IV: Africa from the Twelfth to the Sixteenth Century"
+     },
+     {
+      "id": "GHAV",
+      "title": "General History of Africa, V: Africa from the Sixteenth to the Eighteenth Century"
+     },
+     {
+      "id": "GHA6_CH14",
+      "title": "The Sudan in the nineteenth century (General History of Africa VI, ch.14)"
+     },
+     {
+      "id": "WP:Bornu_Empire",
+      "title": "Bornu Empire",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Wadai Sultanate",
@@ -9355,7 +10180,26 @@
    "key_events_ar": [
     "منافسة دارفور وجارتها",
     "الغزو الفرنسي 1909–1912"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHAV",
+      "title": "General History of Africa, V: Africa from the Sixteenth to the Eighteenth Century"
+     },
+     {
+      "id": "GHA6_CH14",
+      "title": "The Sudan in the nineteenth century (General History of Africa VI, ch.14)"
+     },
+     {
+      "id": "WP:Wadai_Sultanate",
+      "title": "Wadai Sultanate",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "French Chad → Republic of Chad",
@@ -9383,7 +10227,26 @@
    "key_events_ar": [
     "الاستقلال 1960",
     "تستضيف لاجئين سودانيين منذ 2003 و2023"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHA7_CH17",
+      "title": "The colonial economy: North Africa (General History of Africa VII, ch.17)"
+     },
+     {
+      "id": "GHA8",
+      "title": "General History of Africa VIII: Africa since 1935 – Sudan passages ('North Africa and the Horn', pp.148–150; economy and political-succession passages)"
+     },
+     {
+      "id": "WP:Chad",
+      "title": "Chad",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Garamantes (Fezzan)",
@@ -9408,7 +10271,22 @@
    "dating_note": "",
    "key_events_ar": [
     "التجارة عبر الصحراء في ليبيا"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHA2_CH19",
+      "title": "The Roman and post-Roman period in North Africa, ch.19 (General History of Africa II)"
+     },
+     {
+      "id": "WP:Garamantes",
+      "title": "Garamantes",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Libya (Ottoman, Italian, independent)",
@@ -9435,7 +10313,30 @@
    "dating_note": "",
    "key_events_ar": [
     "الاستقلال 1951"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHAV",
+      "title": "General History of Africa, V: Africa from the Sixteenth to the Eighteenth Century"
+     },
+     {
+      "id": "GHA7_CH17",
+      "title": "The colonial economy: North Africa (General History of Africa VII, ch.17)"
+     },
+     {
+      "id": "GHA8",
+      "title": "General History of Africa VIII: Africa since 1935 – Sudan passages ('North Africa and the Horn', pp.148–150; economy and political-succession passages)"
+     },
+     {
+      "id": "WP:History_of_Libya",
+      "title": "History of Libya",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Zande kingdoms",
@@ -9461,7 +10362,27 @@
    "dating_note": "Approximate",
    "key_events_ar": [
     "دول يحكمها الأفونغارا تمتد عبر السودان والكونغو وأفريقيا الوسطى"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHAV",
+      "title": "General History of Africa, V: Africa from the Sixteenth to the Eighteenth Century"
+     },
+     {
+      "id": "GHA6_CH14",
+      "title": "The Sudan in the nineteenth century (General History of Africa VI, ch.14)"
+     },
+     {
+      "id": "WP:Zande_people",
+      "title": "Zande people",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "Approximate"
+   }
   },
   {
    "name": "Central African Republic (Ubangi-Shari)",
@@ -9487,7 +10408,26 @@
    "dating_note": "",
    "key_events_ar": [
     "الاستقلال 1960"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHA7_CH17",
+      "title": "The colonial economy: North Africa (General History of Africa VII, ch.17)"
+     },
+     {
+      "id": "GHA8",
+      "title": "General History of Africa VIII: Africa since 1935 – Sudan passages ('North Africa and the Horn', pp.148–150; economy and political-succession passages)"
+     },
+     {
+      "id": "WP:Central_African_Republic",
+      "title": "Central African Republic",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Sabaean & South Arabian kingdoms",
@@ -9514,7 +10454,23 @@
    "key_events_ar": [
     "تجارة البخور",
     "التأثير في دعمت/أكسوم"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHA2_CH19",
+      "title": "The Roman and post-Roman period in North Africa, ch.19 (General History of Africa II)"
+     },
+     {
+      "id": "WP:Sabaeans",
+      "title": "Sabaeans",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "Approximate"
+   }
   },
   {
    "name": "Rise of Islam & Caliphates",
@@ -9547,7 +10503,27 @@
    "key_events_ar": [
     "الهجرة الأولى إلى أكسوم (الحبشة) نحو 615",
     "التجارة العباسية عبر البحر الأحمر"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "GHA3_CH8",
+      "title": "Christian Nubia at the height of its civilization (General History of Africa III, ch.8)"
+     },
+     {
+      "id": "WP:Rashidun_Caliphate",
+      "title": "Rashidun Caliphate",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:Abbasid_Caliphate",
+      "title": "Abbasid Caliphate",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Suakin – Red Sea port (Beja, Ottoman)",
@@ -9574,7 +10550,22 @@
    "key_events_ar": [
     "ميناء ولاية الحبش العثمانية منذ القرن السادس عشر",
     "حلّت محلها بورتسودان (افتُتحت 1909)"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "HD2011",
+      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
+     },
+     {
+      "id": "WP:Suakin",
+      "title": "Suakin",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Ottoman Hejaz & Saudi state",
@@ -9602,7 +10593,27 @@
    "key_events_ar": [
     "المملكة العربية السعودية 1932",
     "محادثات جدة بشأن حرب السودان 2023"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "JEDDAH2023",
+      "title": "Jeddah Declaration of Commitment to Protect the Civilians of Sudan"
+     },
+     {
+      "id": "WP:Saudi_Arabia",
+      "title": "Saudi Arabia",
+      "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "WP:Treaty_of_Jeddah_(2023)",
+      "title": "Treaty of Jeddah (2023)",
+      "kind": "tertiary (Wikipedia)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY."
+   }
   },
   {
    "name": "Beja (Red Sea Hills peoples)",
@@ -9637,7 +10648,22 @@
     "رعاة إبل رحّل في تلال البحر الأحمر؛ أسلمة تدريجية وتعريب متفاوت",
     "العبابدة (في الشمال) يتحدثون العربية؛ توسع نحو الجنوب في القرن الثامن عشر؛ الهدندوة في التاكا (القاش) بحلول مطلع القرن التاسع عشر",
     "النابتاب، العشيرة الحاكمة لبني عامر، يدّعون النسب الجعلي"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "HD2011",
+      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
+     },
+     {
+      "id": "GHA2_CH19",
+      "title": "The Roman and post-Roman period in North Africa, ch.19 (General History of Africa II)"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "Start c.275 CE = earliest dated Blemmyes activity in GHA II ch.7 (Probus 276–282). The Blemmyes=Beja equation is customary, NOT proven (GHA II ch.10); GHA II ch.11 says earlier Meroitic-era Majai/Reheres 'could have been' Beja ancestors, so earlier origins are possible. Ongoing people, not a polity."
+   }
   },
   {
    "name": "'Abdallab chiefdom (Funj vassal)",
@@ -9818,7 +10844,22 @@
    "key_events_ar": [
     "مجموعة قبائل بلا ملكية مركزية، معظمها في سهول بحر الغزال الفيضية وبعضها شرق النيل الأبيض (هولت وديلي)",
     "رعي الأبقار؛ قريبون ثقافياً من النوير، ويشكلون معهم فرعاً نيلياً (إيفانز-بريتشارد 1940)"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "HD2011",
+      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
+     },
+     {
+      "id": "EP1940_NUER",
+      "title": "The Nuer: A Description of the Modes of Livelihood and Political Institutions of a Nilotic People"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. "
+   }
   },
   {
    "name": "Nuer (Naath) communities",
@@ -9840,7 +10881,18 @@
     "يسمّون أنفسهم «ناث»؛ نحو 200,000 نسمة في ثلاثينيات القرن العشرين (إيفانز-بريتشارد)",
     "المستنقعات والسافانا على جانبي النيل جنوب ملتقى السوباط وبحر الغزال وعلى ضفتي الرافدين",
     "تنقل موسمي بين القرى ومعسكرات الماشية في موسم الجفاف"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "EP1940_NUER",
+      "title": "The Nuer: A Description of the Modes of Livelihood and Political Institutions of a Nilotic People"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. Nuer 19th-c. expansion still unsourced."
+   }
   },
   {
    "name": "Anuak (Anywaa) communities",
@@ -9861,7 +10913,22 @@
    "key_events_ar": [
     "شعب نيلي يتحدث لغة من مجموعة الشلك (اللوو) (إيفانز-بريتشارد 1940)",
     "دُرسوا في كتاب إيفانز-بريتشارد «النظام السياسي للأنواك» (1940)"
-   ]
+   ],
+   "how_we_know": {
+    "sources": [
+     {
+      "id": "EP1940_ANUAK",
+      "title": "The Political System of the Anuak of the Anglo-Egyptian Sudan"
+     },
+     {
+      "id": "EP1940_NUER",
+      "title": "The Nuer: A Description of the Modes of Livelihood and Political Institutions of a Nilotic People"
+     }
+    ],
+    "zones": [],
+    "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
+    "dating": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. "
+   }
   }
  ]
 }
