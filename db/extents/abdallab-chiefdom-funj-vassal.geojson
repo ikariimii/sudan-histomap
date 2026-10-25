@@ -126,6 +126,134 @@
     },
     "draft_version": "bd-0.1 2026-10-24"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       32.99410936219317,
+       19.657653014809128
+      ],
+      [
+       33.06776700375213,
+       19.77264895549708
+      ],
+      [
+       33.179824832492024,
+       19.850703792328858
+      ],
+      [
+       33.34755526023267,
+       19.878913610559277
+      ],
+      [
+       37.33,
+       19.1025
+      ],
+      [
+       33.3525,
+       14.726
+      ],
+      [
+       32.77674729159722,
+       15.351774751305518
+      ],
+      [
+       32.5972563156225,
+       15.256522798414673
+      ],
+      [
+       32.39509587375386,
+       15.277043537420653
+      ],
+      [
+       32.28177475130552,
+       15.353252708402781
+      ],
+      [
+       32.20624367280343,
+       15.467026917760817
+      ],
+      [
+       32.18000156025861,
+       15.601045073485777
+      ],
+      [
+       32.20704353742065,
+       15.734904126246143
+      ],
+      [
+       32.83138957049112,
+       16.507127024199498
+      ],
+      [
+       32.97241490203909,
+       19.488956124994065
+      ],
+      [
+       32.99410936219317,
+       19.657653014809128
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "zone-abdallab-chiefdom-funj-vassal-influence-1",
+    "draft_id": "abdallab-chiefdom-funj-vassal#1:influence",
+    "zone": "influence",
+    "confidence": 0.25,
+    "certainty": "low",
+    "badges": [
+     "APPROXIMATE",
+     "EDITORIAL"
+    ],
+    "source": "OFS1974",
+    "sources": [
+     "OFS1974",
+     "MSM1972"
+    ],
+    "basis_en": "Abdallab sources say their armies expanded the realm 'to the borders of Abyssinia and Suakin in the east, to Kab Bulul at the borders of the Fur sultanate in the west, and to Arbaji, which was taken as the dividing line between Abdallab and Funj influence, in the south' (MSM1972 p.149). The northern limit is disputed: Abdallab tradition says Aswan (p.149); others put it at the Third Cataract (p.151). Zone kept EDITORIAL and APPROXIMATE.",
+    "pages": "MSM1972 printed pp.149–151 (pdf pp.144–146)",
+    "start": null,
+    "end": null,
+    "label_en": null,
+    "label_ar": null,
+    "method": "bd-0.1 anchor/buffer shape, extended to cited places (see redraw_2026_10_25); hand-placed, not traced",
+    "signoff": {
+     "by": "Sudan Historian",
+     "date": "2026-10-25",
+     "commit": null
+    },
+    "draft_version": "bd-0.1 2026-10-24",
+    "reason": "",
+    "ofahey1974_check": "2026-10-24: O'Fahey & Spaulding 1974 ch.5 not readable. archive.org kingdomsofsudan0000ofah is access-restricted (metadata access-restricted-item=true; _djvu.txt returns 401; search-inside returns 'Item not available'). HathiTrust record 001608322 (uc1.b4449655) is search-only, and full-text search was blocked by a Cloudflare challenge (403). No page found, so the status stays not-verified.",
+    "quote_ar": "حتى امتدت الى حدود الحبشة وسواكن في الشرق، والى «كاب بلول» عند حدود سلطنة الفور في الغرب، والى أريحي – التي اعتبرت حداً فاصلاً بين نفوذ العبدلاب ونفوذ الفونج – في الجنوب (ص149)؛ وقد أيد القول بامتداد مشيخة العبدلاب في الشمال الى الشلال الثالث (ص151)",
+    "note": "OFS1974 still unread; approval rests on MSM1972, which reports Abdallab traditions and later writers rather than fixing a line.",
+    "redraw_2026_10_25": "Redrawn by Sudan Map Designer on the Innovation Manager's decision (2026-10-25) to the MSM1972 p.149 limits: east edge extended to Suakin, south edge to Arbaji (union of the bd-0.1 shape with the convex hull of its eastern vertices plus the two places). APPROXIMATE, EDITORIAL; text not narrowed.",
+    "vertex_sources": [
+     {
+      "place": "Suakin",
+      "id": "suakin",
+      "lon": 37.33,
+      "lat": 19.1025,
+      "coord_source": "db/cities.json suakin coord_source WIKIDATA_CITIES Q571215",
+      "limit_cite": "MSM1972 p.149"
+     },
+     {
+      "place": "Arbaji",
+      "id": "arbaji",
+      "lon": 33.3525,
+      "lat": 14.726,
+      "coord_source": "db/cities.json arbaji coord_source NGA_GNS UFI 98562051 (APPROXIMATE)",
+      "limit_cite": "MSM1972 p.149"
+     }
+    ],
+    "west_edge_note": "VERIFY: west edge unchanged from bd-0.1, pending a cited Kab Bulul coordinate from the Historian (MSM1972 p.149 'Kab Bulul at the borders of the Fur sultanate').",
+    "north_edge_note": "CONTESTED: northern limit is disputed, Aswan (Abdallab tradition, MSM1972 p.149) vs the Third Cataract (MSM1972 p.151). Drawn edge (~19.88N) is unchanged and not an endorsement of either. No CONTESTED point added: Third Cataract has no coordinate in our place data (Aswan does: db/cities.json, WIKIDATA_CITIES Q29888)."
+   }
   }
  ],
  "extent_rendering": {

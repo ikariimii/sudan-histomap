@@ -45,6 +45,27 @@
      "confidence": 0.4,
      "confidence_word": "medium",
      "low_confidence_overlay": true
+    },
+    {
+     "feature_index": 2,
+     "id": "zone-abdallab-chiefdom-funj-vassal-influence-1",
+     "label_en": null,
+     "symbol_class": "zone_influence",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "OFS1974",
+      "MSM1972"
+     ],
+     "zone": "influence",
+     "confidence": 0.25,
+     "confidence_word": "low",
+     "low_confidence_overlay": true
     }
    ],
    "borders_legend": [
@@ -1293,7 +1314,8 @@
   "extent_label_point",
   "list_only_text",
   "low_confidence",
-  "zone_core"
+  "zone_core",
+  "zone_influence"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1316,9 +1338,10 @@
   "city_town": 4,
   "extent_label_point": 1,
   "list_only_text": 1,
-  "low_confidence": 1,
+  "low_confidence": 2,
   "zone_core": 1,
-  "extent_features": 2,
+  "zone_influence": 1,
+  "extent_features": 3,
   "group_features": 1,
   "cities": 35
  },

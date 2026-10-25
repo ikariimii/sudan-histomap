@@ -110,18 +110,6 @@
     "coordinates": [
      [
       [
-       33.12664846315487,
-       16.872318225331973
-      ],
-      [
-       33.59968531278307,
-       18.0162073344329
-      ],
-      [
-       32.97241490203909,
-       19.488956124994065
-      ],
-      [
        32.99410936219317,
        19.657653014809128
       ],
@@ -138,24 +126,12 @@
        19.878913610559277
       ],
       [
-       33.508778307395666,
-       19.824724872816716
+       37.33,
+       19.1025
       ],
       [
-       33.62541994684718,
-       19.700934654379576
-      ],
-      [
-       34.300703792328854,
-       18.160175167507976
-      ],
-      [
-       34.32363033693828,
-       17.953530521773658
-      ],
-      [
-       33.72066443401728,
-       16.495027728131884
+       33.3525,
+       14.726
       ],
       [
        32.77674729159722,
@@ -186,8 +162,16 @@
        15.734904126246143
       ],
       [
-       33.12664846315487,
-       16.872318225331973
+       32.83138957049112,
+       16.507127024199498
+      ],
+      [
+       32.97241490203909,
+       19.488956124994065
+      ],
+      [
+       32.99410936219317,
+       19.657653014809128
       ]
      ]
     ]
@@ -200,7 +184,7 @@
      "APPROXIMATE",
      "EDITORIAL"
     ],
-    "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
+    "method": "bd-0.1 anchor/buffer shape, extended to cited places (see redraw_2026_10_25); hand-placed, not traced",
     "basis": "Northern overlordship under the Funj (O'Fahey & Spaulding 1974 ch.5). Not verified: the archive.org copy is lending-only and no text is on the box; page not checked.",
     "sources": [
      {
@@ -235,8 +219,50 @@
      "ofahey1974_check": "2026-10-24: O'Fahey & Spaulding 1974 ch.5 not readable. archive.org kingdomsofsudan0000ofah is access-restricted (metadata access-restricted-item=true; _djvu.txt returns 401; search-inside returns 'Item not available'). HathiTrust record 001608322 (uc1.b4449655) is search-only, and full-text search was blocked by a Cloudflare challenge (403). No page found, so the status stays not-verified.",
      "pages": "MSM1972 printed pp.149–151 (pdf pp.144–146)",
      "quote_ar": "حتى امتدت الى حدود الحبشة وسواكن في الشرق، والى «كاب بلول» عند حدود سلطنة الفور في الغرب، والى أريحي – التي اعتبرت حداً فاصلاً بين نفوذ العبدلاب ونفوذ الفونج – في الجنوب (ص149)؛ وقد أيد القول بامتداد مشيخة العبدلاب في الشمال الى الشلال الثالث (ص151)",
-     "note": "OFS1974 still unread; approval rests on MSM1972, which reports Abdallab traditions and later writers rather than fixing a line."
-    }
+     "note": "OFS1974 still unread; approval rests on MSM1972, which reports Abdallab traditions and later writers rather than fixing a line.",
+     "redraw_2026_10_25": "Redrawn by Sudan Map Designer on the Innovation Manager's decision (2026-10-25) to the MSM1972 p.149 limits: east edge extended to Suakin, south edge to Arbaji (union of the bd-0.1 shape with the convex hull of its eastern vertices plus the two places). APPROXIMATE, EDITORIAL; text not narrowed.",
+     "vertex_sources": [
+      {
+       "place": "Suakin",
+       "id": "suakin",
+       "lon": 37.33,
+       "lat": 19.1025,
+       "coord_source": "db/cities.json suakin coord_source WIKIDATA_CITIES Q571215",
+       "limit_cite": "MSM1972 p.149"
+      },
+      {
+       "place": "Arbaji",
+       "id": "arbaji",
+       "lon": 33.3525,
+       "lat": 14.726,
+       "coord_source": "db/cities.json arbaji coord_source NGA_GNS UFI 98562051 (APPROXIMATE)",
+       "limit_cite": "MSM1972 p.149"
+      }
+     ],
+     "west_edge_note": "VERIFY: west edge unchanged from bd-0.1, pending a cited Kab Bulul coordinate from the Historian (MSM1972 p.149 'Kab Bulul at the borders of the Fur sultanate').",
+     "north_edge_note": "CONTESTED: northern limit is disputed, Aswan (Abdallab tradition, MSM1972 p.149) vs the Third Cataract (MSM1972 p.151). Drawn edge (~19.88N) is unchanged and not an endorsement of either. No CONTESTED point added: Third Cataract has no coordinate in our place data (Aswan does: db/cities.json, WIKIDATA_CITIES Q29888)."
+    },
+    "redraw_2026_10_25": "Redrawn by Sudan Map Designer on the Innovation Manager's decision (2026-10-25) to the MSM1972 p.149 limits: east edge extended to Suakin, south edge to Arbaji (union of the bd-0.1 shape with the convex hull of its eastern vertices plus the two places). APPROXIMATE, EDITORIAL; text not narrowed.",
+    "vertex_sources": [
+     {
+      "place": "Suakin",
+      "id": "suakin",
+      "lon": 37.33,
+      "lat": 19.1025,
+      "coord_source": "db/cities.json suakin coord_source WIKIDATA_CITIES Q571215",
+      "limit_cite": "MSM1972 p.149"
+     },
+     {
+      "place": "Arbaji",
+      "id": "arbaji",
+      "lon": 33.3525,
+      "lat": 14.726,
+      "coord_source": "db/cities.json arbaji coord_source NGA_GNS UFI 98562051 (APPROXIMATE)",
+      "limit_cite": "MSM1972 p.149"
+     }
+    ],
+    "west_edge_note": "VERIFY: west edge unchanged from bd-0.1, pending a cited Kab Bulul coordinate from the Historian (MSM1972 p.149 'Kab Bulul at the borders of the Fur sultanate').",
+    "north_edge_note": "CONTESTED: northern limit is disputed, Aswan (Abdallab tradition, MSM1972 p.149) vs the Third Cataract (MSM1972 p.151). Drawn edge (~19.88N) is unchanged and not an endorsement of either. No CONTESTED point added: Third Cataract has no coordinate in our place data (Aswan does: db/cities.json, WIKIDATA_CITIES Q29888)."
    }
   }
  ]
