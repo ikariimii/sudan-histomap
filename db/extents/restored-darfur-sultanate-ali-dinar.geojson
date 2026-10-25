@@ -21,7 +21,10 @@
     "end": 1916,
     "certainty": "low",
     "confidence": 0.3,
-    "badges": ["APPROXIMATE", "DERIVED"],
+    "badges": [
+     "APPROXIMATE",
+     "DERIVED"
+    ],
     "label_en": "El Fasher (capital)",
     "label_ar": "الفاشر (العاصمة)",
     "label_detail_en": "Ali Dinar ruled from El Fasher; the Fur state \"was not finally extinguished until 1916\" (HD2011). Point only; approximate edges not drawn (unsourced).",
@@ -96,7 +99,8 @@
      "date": "2026-10-24",
      "commit": null
     },
-    "draft_version": "bd-0.1 2026-10-24"
+    "draft_version": "bd-0.1 2026-10-24",
+    "confidence_style": "solid"
    }
   },
   {
@@ -135,7 +139,8 @@
      "date": "2026-10-24",
      "commit": null
     },
-    "draft_version": "bd-0.1 2026-10-24 (hand-appended)"
+    "draft_version": "bd-0.1 2026-10-24 (hand-appended)",
+    "confidence_style": "contested"
    }
   }
  ],

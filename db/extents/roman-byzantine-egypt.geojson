@@ -49,7 +49,10 @@
     "end": 284,
     "certainty": "medium",
     "confidence": 0.6,
-    "badges": ["APPROXIMATE", "DERIVED"],
+    "badges": [
+     "APPROXIMATE",
+     "DERIVED"
+    ],
     "label_en": "Hiera Sycaminos frontier (reference marker)",
     "label_ar": "حدود المحرّقة (علامة مرجعية)",
     "label_detail_en": "After Petronius, \"the frontier between the Roman and Meroitic empires was fixed at Hiera Sycaminos (Muharraqa)\" (GHA II p.290; p.208). Start −20 follows this dataset's Meroitic extent (Samos treaty); end 284 = Diocletian's accession (GHA gives only his reign).",
@@ -79,7 +82,10 @@
     "end": 641,
     "certainty": "low",
     "confidence": 0.3,
-    "badges": ["APPROXIMATE", "DERIVED"],
+    "badges": [
+     "APPROXIMATE",
+     "DERIVED"
+    ],
     "label_en": "Philae / First Cataract frontier (reference marker)",
     "label_ar": "فيلة / الشلال الأول (علامة مرجعية)",
     "label_detail_en": "Diocletian (284–305) \"gave up Nubia\" (GHA II p.215) and \"pulled back the frontier to the First Cataract\" towards the end of the 3rd century (p.294). Other works date this to 298; shown here from 284 (reign start) as a different tradition, low.",
@@ -535,6 +541,7 @@
      "commit": null
     },
     "draft_version": "bd-0.1 2026-10-24",
+    "confidence_style": "solid",
     "edge_check": "Jacotin 1818 overlay (OVERLAY_CHECK.md 2026-10-24)"
    }
   },
@@ -617,7 +624,8 @@
      "date": "2026-10-24",
      "commit": null
     },
-    "draft_version": "bd-0.1 2026-10-24"
+    "draft_version": "bd-0.1 2026-10-24",
+    "confidence_style": "hatched"
    }
   }
  ],

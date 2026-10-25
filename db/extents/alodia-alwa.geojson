@@ -22,7 +22,10 @@
     "end": 1504,
     "certainty": "low",
     "confidence": 0.3,
-    "badges": ["APPROXIMATE", "DERIVED"],
+    "badges": [
+     "APPROXIMATE",
+     "DERIVED"
+    ],
     "label_en": "Soba (capital)",
     "label_ar": "سوبا (العاصمة)",
     "label_detail_en": "Alodia was the southern of the three Nubian kingdoms (GHA2_CH12), \"in the heartland of the old Kushite kingdom\", capital Soba (ZH_EMB_HIST2020). Point only; approximate edges not drawn (unsourced).",
@@ -137,7 +140,7 @@
      "DRZEWIECKI_SOBA",
      "WELSBY2002"
     ],
-    "basis_en": "Core around Soba, 'on the right bank of the Blue Nile, approximately 15 km from Khartoum' (Drzewiecki & Ryndziewicz 2019), and the northern Gezira (GHA IV p.418). VERIFY removed.",
+    "basis_en": "Core around Soba, 'on the right bank of the Blue Nile, approximately 15 km from Khartoum' (Drzewiecki & Ryndziewicz 2019), and the northern Gezira (GHA IV p.418). VERIFY removed. Southern band of the core beyond the Wad Hedani sites is EDITORIAL: 'the southernmost sites of the same culture have been discerned near Wad Hedani, although a further extension is fairly probable' (GHA IV p.418). Cut line pending the Historian's cited Wad Hedani coordinate; geometry not split.",
     "pages": "GHA IV ch.16 p.418; Drzewiecki & Ryndziewicz 2019 abstract",
     "start": null,
     "end": null,
@@ -150,6 +153,7 @@
      "commit": null
     },
     "draft_version": "bd-0.1 2026-10-24",
+    "confidence_style": "solid",
     "editorial_scope": "southern band beyond Wad Hedani only (cut line pending)",
     "editorial_note_en": "Southern band of the core beyond the Wad Hedani sites is EDITORIAL: 'the southernmost sites of the same culture have been discerned near Wad Hedani, although a further extension is fairly probable' (GHA IV p.418). Cut line pending the Historian's cited Wad Hedani coordinate; geometry not split."
    }
@@ -392,7 +396,8 @@
      "date": "2026-10-24",
      "commit": null
     },
-    "draft_version": "bd-0.1 2026-10-24"
+    "draft_version": "bd-0.1 2026-10-24",
+    "confidence_style": "hatched"
    }
   }
  ],

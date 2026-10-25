@@ -21,7 +21,10 @@
     "end": 1785,
     "certainty": "low",
     "confidence": 0.3,
-    "badges": ["APPROXIMATE", "DERIVED"],
+    "badges": [
+     "APPROXIMATE",
+     "DERIVED"
+    ],
     "label_en": "Kordofan (region)",
     "label_ar": "كردفان (إقليم)",
     "label_detail_en": "Exiled Keira faction contesting Kordofan with the Funj and Darfur, late 17th–18th c. (O'Fahey & Spaulding 1972). No capital location verified; region centroid. Point only; approximate edges not drawn (unsourced).",
@@ -199,7 +202,8 @@
      "date": "2026-10-24",
      "commit": null
     },
-    "draft_version": "bd-0.1 2026-10-24"
+    "draft_version": "bd-0.1 2026-10-24",
+    "confidence_style": "hatched"
    }
   }
  ],

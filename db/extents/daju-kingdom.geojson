@@ -21,7 +21,10 @@
     "end": 1400,
     "certainty": "low",
     "confidence": 0.3,
-    "badges": ["APPROXIMATE", "DERIVED"],
+    "badges": [
+     "APPROXIMATE",
+     "DERIVED"
+    ],
     "label_en": "Jebel Marra region",
     "label_ar": "منطقة جبل مرة",
     "label_detail_en": "Early recorded dynasty of Darfur, known mainly from oral tradition (O'Fahey 2008, \"Daju and Tunjur\"). Regional marker; dates very approximate. Point only; approximate edges not drawn (unsourced).",
@@ -135,7 +138,8 @@
      "date": "2026-10-24",
      "commit": null
     },
-    "draft_version": "bd-0.1 2026-10-24"
+    "draft_version": "bd-0.1 2026-10-24",
+    "confidence_style": "solid"
    }
   }
  ],

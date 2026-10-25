@@ -124,7 +124,8 @@
      "date": "2026-10-24",
      "commit": null
     },
-    "draft_version": "bd-0.1 2026-10-24"
+    "draft_version": "bd-0.1 2026-10-24",
+    "confidence_style": "solid"
    }
   },
   {
@@ -228,6 +229,7 @@
      "commit": null
     },
     "draft_version": "bd-0.1 2026-10-24",
+    "confidence_style": "hatched",
     "reason": "",
     "ofahey1974_check": "2026-10-24: O'Fahey & Spaulding 1974 ch.5 not readable. archive.org kingdomsofsudan0000ofah is access-restricted (metadata access-restricted-item=true; _djvu.txt returns 401; search-inside returns 'Item not available'). HathiTrust record 001608322 (uc1.b4449655) is search-only, and full-text search was blocked by a Cloudflare challenge (403). No page found, so the status stays not-verified.",
     "quote_ar": "حتى امتدت الى حدود الحبشة وسواكن في الشرق، والى «كاب بلول» عند حدود سلطنة الفور في الغرب، والى أريحي – التي اعتبرت حداً فاصلاً بين نفوذ العبدلاب ونفوذ الفونج – في الجنوب (ص149)؛ وقد أيد القول بامتداد مشيخة العبدلاب في الشمال الى الشلال الثالث (ص151)",
@@ -293,6 +295,7 @@
      "commit": "19944c6"
     },
     "draft_version": "bd-0.1 2026-10-25",
+    "confidence_style": "contested",
     "approved_via": "db/verify_cites_for_extents_historian.json item ABDALLAB-N-ASWAN (Historian handoff, applied by Sudan Map Designer)",
     "coord_source": "db/cities.json id 'aswan' (WIKIDATA_CITIES Q29888); same in Historian anchor file",
     "contested_with": "Third Cataract"
@@ -336,6 +339,7 @@
      "commit": "19944c6"
     },
     "draft_version": "bd-0.1 2026-10-25",
+    "confidence_style": "contested",
     "approved_via": "db/verify_cites_for_extents_historian.json item ABDALLAB-N-THIRD-CATARACT (Historian handoff, applied by Sudan Map Designer)",
     "coord_source": "Wikidata Q71108004 P625 (19.76N 30.37E, precision 0.01), via Historian anchor file and re-read from wikidata.org 2026-10-25",
     "contested_with": "Aswan"

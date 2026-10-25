@@ -53,6 +53,7 @@ def offline():
         for k,L in doc.items():
             if k=='meta' or not isinstance(L,list): continue
             for j,v in enumerate(L):
+                if v.get('removed'): continue
                 out.append(dict(id=v.get('id') or f'{k}#{j}',era_id=k,year=_be_y(v.get('year',v.get('date'))),year_end=_be_y(v.get('year_end')),approx=v.get('approx'),
                     text_en=v.get('text_en',v.get('en')),text_ar=v.get('text_ar',v.get('ar')),place=v.get('place'),sources=_be_src_list(v)))
         return out

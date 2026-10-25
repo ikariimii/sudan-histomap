@@ -48,7 +48,10 @@
     "end": -30,
     "certainty": "low",
     "confidence": 0.3,
-    "badges": ["APPROXIMATE", "DERIVED"],
+    "badges": [
+     "APPROXIMATE",
+     "DERIVED"
+    ],
     "label_en": "Hiera Sycaminos, end of the Dodecaschoenus (reference marker)",
     "label_ar": "المحرّقة، نهاية الدوديكاسخينوس (علامة مرجعية)",
     "label_detail_en": "The Dodecaschene, Syene to Hiera Sycaminos (~120 km), \"had belonged to the Ptolemies, but the rulers of Meroe … had long since added it to their kingdom\" (GHA II p.208). Held only for part of the era; dates of loss not given, hence low.",
@@ -504,6 +507,7 @@
      "commit": null
     },
     "draft_version": "bd-0.1 2026-10-24",
+    "confidence_style": "solid",
     "edge_check": "Jacotin 1818 overlay (OVERLAY_CHECK.md 2026-10-24)"
    }
   },
@@ -544,7 +548,8 @@
      "date": "2026-10-24",
      "commit": null
     },
-    "draft_version": "bd-0.1 2026-10-24"
+    "draft_version": "bd-0.1 2026-10-24",
+    "confidence_style": "contested"
    }
   }
  ],

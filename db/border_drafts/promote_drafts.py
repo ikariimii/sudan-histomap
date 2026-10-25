@@ -28,6 +28,13 @@ DEF = '/workspace/sudan-histomap/db/border_drafts'
 ZONES = ('core', 'claimed', 'influence', 'contested')
 NEED = ('zone', 'confidence', 'badges', 'sources', 'basis_en', 'by', 'date')
 
+def conf_style(zone, badges):
+    """'How sure are we?' key (legend_spec confidence_key): CONTESTED -> contested pattern;
+    core -> solid (signed-off, cited); APPROXIMATE or claimed/influence -> hatched."""
+    if 'CONTESTED' in badges or zone == 'contested': return 'contested'
+    if zone == 'core': return 'solid'
+    return 'hatched'
+
 def load(p): return json.load(open(p, encoding='utf-8'))
 
 def main():
@@ -70,7 +77,8 @@ def main():
                      'basis_en': so['basis_en'], 'pages': so.get('pages'), 'start': so.get('start'), 'end': so.get('end'),
                      'label_en': so.get('label_en'), 'label_ar': so.get('label_ar'),
                      'method': p.get('method'), 'signoff': {x: so.get(x) for x in ('by', 'date', 'commit')},
-                     'draft_version': p.get('version')}
+                     'draft_version': p.get('version'),
+                     'confidence_style': conf_style(so['zone'], b)}
             out.setdefault(era, []).append({'type': 'Feature', 'geometry': geom, 'properties': props})
             rep.append(('OK', did, f'{so["zone"]} conf {c} {sorted(b)}'))
     for r in rep: print(*r, sep='\t')
@@ -79,6 +87,12 @@ def main():
         fp = os.path.join(R, 'db/extents', era + '.geojson'); fc = load(fp)
         ids = {x['properties']['draft_id'] for x in feats}
         keep = [x for x in fc['features'] if (x.get('properties') or {}).get('draft_id') not in ids]
+        # carry over hand-added provenance keys (notes, coord_source, edge checks...) from an earlier promotion
+        # of the same draft_id; promoted keys always come from signoff and are never overridden
+        prev = {(x.get('properties') or {}).get('draft_id'): x['properties'] for x in fc['features'] if (x.get('properties') or {}).get('draft_id') in ids}
+        for x in feats:
+            for k, v in (prev.get(x['properties']['draft_id']) or {}).items():
+                if k not in x['properties']: x['properties'][k] = v
         fc['features'] = keep + feats
         fc['extent_rendering'] = {'mode': 'zones', 'zones_from': 'db/border_drafts/promote_drafts.py'}
         print(('WRITE' if a.write else 'DRY'), fp, f'{len(keep)} kept + {len(feats)} zone')

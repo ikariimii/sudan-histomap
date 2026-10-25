@@ -21,7 +21,10 @@
     "end": 1969,
     "certainty": "low",
     "confidence": 0.3,
-    "badges": ["APPROXIMATE", "DERIVED"],
+    "badges": [
+     "APPROXIMATE",
+     "DERIVED"
+    ],
     "label_en": "Nuba Mountains (region)",
     "label_ar": "جبال النوبة (إقليم)",
     "label_detail_en": "Nuba Mountains kingdom, semi-autonomous after 1821 (HD2011). Taqali (Wikidata Q1111926) has no coordinate, so the Nuba Mountains centroid stands in. Founding c.1750 and end 1969 not verified. Point only; approximate edges not drawn (unsourced).",
@@ -135,7 +138,8 @@
      "date": "2026-10-24",
      "commit": null
     },
-    "draft_version": "bd-0.1 2026-10-24"
+    "draft_version": "bd-0.1 2026-10-24",
+    "confidence_style": "solid"
    }
   }
  ],
