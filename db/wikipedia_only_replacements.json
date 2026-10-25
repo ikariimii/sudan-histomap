@@ -169,5 +169,525 @@
    "status": "NO-WIKIPEDIA-ONLY-CLAIM",
    "note": "Scanned every *_en sentence on 2026-10-25: each cited sentence carries a non-Wikipedia id, and these Wikipedia ids are cited inline nowhere in the era file. No claim depends on them, so there is nothing to replace. The Historian may drop them from the sources list; I have not edited data/."
   }
- ]
+ ],
+ "events_and_extents": {
+  "_meta": {
+   "date": "2026-10-25",
+   "scope": "Event lists in data/eras/*.json and WP-only cites in extent/map files. Thread eras come first, then modern events. No data/ or db/extents files were edited. Replacements are only from sources read in full.",
+   "counts": {
+    "items": 28,
+    "by_status": {
+     "MATCHED": 21,
+     "UNMATCHED": 3,
+     "MATCHED_WITH_MISMATCH": 2,
+     "PARTIAL": 2
+    },
+    "by_type": {
+     "event": 22,
+     "extent": 6
+    }
+   }
+  },
+  "items": [
+   {
+    "type": "event",
+    "owner_file": "data/eras/kingdom-of-kerma.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "kerma",
+    "item": "Western Deffufa mud-brick temple",
+    "current_wp_ids": [
+     "WP:Kerma_culture"
+    ],
+    "replacement": {
+     "registry_id": "SFDAS_HCS2017",
+     "citation": "SFDAS, Histoire et civilisations du Soudan (2017)",
+     "pages": "p. 80",
+     "quote": "tout autour du temple principal, la deffufa occidentale. Ce monument imposant, le plus ancien édifice en briques crues au monde conservé dans son élévation, culmine encore aujourd’hui à plus de 17 m"
+    },
+    "status": "MATCHED",
+    "note": null
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/kingdom-of-kerma.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "kerma",
+    "item": "Largest African state outside Egypt in the 2nd millennium BCE",
+    "current_wp_ids": [
+     "WP:Kerma_culture"
+    ],
+    "replacement": null,
+    "status": "UNMATCHED",
+    "note": "SFDAS p. 56 has only 'capitale du premier État historique du Soudan entre 2 450 et 1 500 av. J.-C.', which does not support 'largest'. No source read in full supports the superlative; keep WP or Historian to decide."
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/kingdom-of-kerma.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "kerma",
+    "item": "Sacked by Thutmose I c.1500 BCE",
+    "current_wp_ids": [
+     "WP:Kerma_culture"
+    ],
+    "replacement": {
+     "registry_id": "SFDAS_HCS2017",
+     "citation": "SFDAS, Histoire et civilisations du Soudan (2017)",
+     "pages": "p. 92",
+     "quote": "Sous le règne suivant, celui de Thoutmosis Ier, l’expédition contre Koush, lancée dès l’an 2 (à placer sans doute peu avant 1 500 av. J.-C.), prit une toute autre ampleur et porta un coup sévère au royaume de Kerma."
+    },
+    "status": "MATCHED",
+    "note": "Source says 'coup sévère', not 'sacked'; wording left to Historian."
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/kingdom-of-kerma.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "kerma",
+    "item": "Swiss mission phases: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE (Final Kerma to c.1450)",
+    "current_wp_ids": [
+     "WP:Kerma_culture"
+    ],
+    "replacement": {
+     "registry_id": "SFDAS_HCS2017",
+     "citation": "SFDAS, Histoire et civilisations du Soudan (2017)",
+     "pages": "p. 69",
+     "quote": "Kerma ancien (2 450-2 050 av. J.-C.), Kerma moyen (2 050-1 750 av. J.-C.), Kerma classique (1 750-1 550 av. J.-C.). On ajoute parfois une période « Kerma final » (1 550-1 450 av. J.-C.)"
+    },
+    "status": "MATCHED_WITH_MISMATCH",
+    "note": "Classic Kerma end: source 1550 BCE vs event 1480 BCE. Era text not reworded."
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/makuria.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "makuria",
+    "item": "Repulsed Arab armies at Dongola 651/652",
+    "current_wp_ids": [
+     "WP_MAKURIA"
+    ],
+    "replacement": {
+     "registry_id": "SFDAS_HCS2017",
+     "citation": "SFDAS, Histoire et civilisations du Soudan (2017)",
+     "pages": "p. 405",
+     "quote": "Pour la première fois depuis leur sortie triomphale d’Arabie, les musulmans rencontrèrent une résistance inattendue en Nubie et durent composer avec leur ennemi."
+    },
+    "status": "MATCHED",
+    "note": "Same page: 'En 651 Abdallah Abou Sarh … atteignit sans difficulté la capitale, Dongola, et en fit le siège'. Result described as negotiated armistice."
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/makuria.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "makuria",
+    "item": "Baqt treaty with Egypt",
+    "current_wp_ids": [
+     "WP_MAKURIA"
+    ],
+    "replacement": {
+     "registry_id": "SFDAS_HCS2017",
+     "citation": "SFDAS, Histoire et civilisations du Soudan (2017)",
+     "pages": "p. 405",
+     "quote": "Il porte le nom de Baqt, qui est probablement un rare dérivé arabe du latin pactum, « pacte » […] Signé en l’an 31 de l’Hégire, soit en 652, il comporte quatre clauses."
+    },
+    "status": "MATCHED",
+    "note": "p. 406: 'ce traité resta en vigueur jusqu’au xiiie siècle'."
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/makuria.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "makuria",
+    "item": "Faras cathedral frescoes",
+    "current_wp_ids": [
+     "WP_MAKURIA"
+    ],
+    "replacement": {
+     "registry_id": "SFDAS_HCS2017",
+     "citation": "SFDAS, Histoire et civilisations du Soudan (2017)",
+     "pages": "p. 404",
+     "quote": "Les fresques des cathédrales de Faras et Dongola nous ont conservé plusieurs portraits, que l’on considère traditionnellement comme ceux des éparques de Nobadia"
+    },
+    "status": "MATCHED",
+    "note": "Also p. 30: 'Les artistes médiévaux de Dongola et de Faras ont porté l’art de la fresque à des niveaux alors inégalés'."
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/makuria.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "makuria",
+    "item": "Decline under Mamluk pressure, 14th c.",
+    "current_wp_ids": [
+     "WP_MAKURIA"
+    ],
+    "replacement": {
+     "registry_id": "SFDAS_HCS2017",
+     "citation": "SFDAS, Histoire et civilisations du Soudan (2017)",
+     "pages": "p. 419",
+     "quote": "Les années 1315 à 1326 connurent une alternance, au gré des batailles où intervinrent sans cesse les armées mameloukes, entre Kérenbès, le dernier roi chrétien de Makouria, pou[r …]"
+    },
+    "status": "MATCHED",
+    "note": "p. 420: 'En 1364, devant les assauts répétés des tribus arabisées, la capitale de Makouria, Old Dongola, fut abandonnée'. The source credits Arab tribes as well as Mamluks."
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/mahdist-state-mahdiyya.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "mahdiyya",
+    "item": "Muhammad Ahmad declares himself Mahdi 1881",
+    "current_wp_ids": [
+     "WP:Mahdist_State"
+    ],
+    "replacement": {
+     "registry_id": "SFDAS_HCS2017",
+     "citation": "SFDAS, Histoire et civilisations du Soudan (2017)",
+     "pages": "p. 613",
+     "quote": "En mars 1881, Muhammad Ahmad Abdallah se proclame le Mahdi et prend les armes contre les « Turcs », c’est-à-dire les Égyptiens"
+    },
+    "status": "MATCHED",
+    "note": "There is an internal discrepancy: p. 566 says 'En mai 1881'. The year agrees."
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/mahdist-state-mahdiyya.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "mahdiyya",
+    "item": "Fall of Khartoum, death of Gordon 1885",
+    "current_wp_ids": [
+     "WP:Mahdist_State"
+    ],
+    "replacement": {
+     "registry_id": "SFDAS_HCS2017",
+     "citation": "SFDAS, Histoire et civilisations du Soudan (2017)",
+     "pages": "p. 567",
+     "quote": "Cette montée en puissance aboutit à la chute de Khartoum en janvier 1885 — malgré le retour de Gordon en 1884"
+    },
+    "status": "MATCHED",
+    "note": "p. 621: the Mahdi died 'six mois après la mort de Gordon'."
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/mahdist-state-mahdiyya.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "mahdiyya",
+    "item": "Khalifa Abdallahi rules",
+    "current_wp_ids": [
+     "WP:Mahdist_State"
+    ],
+    "replacement": {
+     "registry_id": "SFDAS_HCS2017",
+     "citation": "SFDAS, Histoire et civilisations du Soudan (2017)",
+     "pages": "p. 621",
+     "quote": "son successeur désigné de son vivant, le khalife Abdullahi, prend la tête du régime"
+    },
+    "status": "MATCHED",
+    "note": null
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/mahdist-state-mahdiyya.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "mahdiyya",
+    "item": "Battle of Omdurman 1898; Umm Diwaykarat 1899",
+    "current_wp_ids": [
+     "WP:Mahdist_State"
+    ],
+    "replacement": {
+     "registry_id": "SFDAS_HCS2017",
+     "citation": "SFDAS, Histoire et civilisations du Soudan (2017)",
+     "pages": "p. 629",
+     "quote": "Le 2 septembre 1898, la bataille de Karari, près d’Omdurman, voit l’écrasement des forces mahdistes […] même si le Khalifa Abdullahi ne sera éliminé qu’en novembre 1899"
+    },
+    "status": "PARTIAL",
+    "note": "The source dates Omdurman/Karari 1898 and the Khalifa's end to November 1899, but doesn't name Umm Diwaykarat. Casualty figures on that page were deliberately not quoted."
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/anglo-egyptian-sudan-condominium.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "condominium",
+    "item": "Condominium Agreement 19 Jan 1899",
+    "current_wp_ids": [
+     "WP:Anglo-Egyptian_Sudan"
+    ],
+    "replacement": {
+     "registry_id": "SFDAS_HCS2017",
+     "citation": "SFDAS, Histoire et civilisations du Soudan (2017)",
+     "pages": "p. 639",
+     "quote": "le traité anglo-égyptien instituant le condominium est signé le 19 janvier 1899"
+    },
+    "status": "MATCHED",
+    "note": null
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/anglo-egyptian-sudan-condominium.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "condominium",
+    "item": "Gezira Scheme 1925",
+    "current_wp_ids": [
+     "WP:Anglo-Egyptian_Sudan"
+    ],
+    "replacement": null,
+    "status": "UNMATCHED",
+    "note": "SFDAS mentions the Gezira only as a modern farming region (p. 759) and the Sennar dam only as a tourist excursion (p. 680). No 1925 scheme date was found in any source read in full."
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/anglo-egyptian-sudan-condominium.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "condominium",
+    "item": "Southern Policy",
+    "current_wp_ids": [
+     "WP:Anglo-Egyptian_Sudan"
+    ],
+    "replacement": {
+     "registry_id": "SFDAS_HCS2017",
+     "citation": "SFDAS, Histoire et civilisations du Soudan (2017)",
+     "pages": "p. 643",
+     "quote": "Ces décisions anticipent le début de la Southern policy qui sera développée formellement à partir de 1924."
+    },
+    "status": "MATCHED",
+    "note": null
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/anglo-egyptian-sudan-condominium.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "condominium",
+    "item": "Self-government 1953",
+    "current_wp_ids": [
+     "WP:Anglo-Egyptian_Sudan"
+    ],
+    "replacement": {
+     "registry_id": "SFDAS_HCS2017",
+     "citation": "SFDAS, Histoire et civilisations du Soudan (2017)",
+     "pages": "p. 660",
+     "quote": "Un accord est signé, qui propose une période transitoire d’autonomie sous contrôle international, puis l’auto-détermination du Soudan. En mars 1953, les Anglais signent avec les Égyptiens le dernier acte du condominium"
+    },
+    "status": "MATCHED",
+    "note": null
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/eritrea-italian-colony-independent.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "eritrea-italian-colony-independent",
+    "item": "Italian colony 1890",
+    "current_wp_ids": [
+     "WP:Eritrea"
+    ],
+    "replacement": {
+     "registry_id": "EEBC2002",
+     "citation": "EEBC, Decision regarding delimitation of the border between Eritrea and Ethiopia, 13 April 2002",
+     "pages": "p. 104, para. 2.5",
+     "quote": "On 1 January 1890, Italy formally established the Colony of Eritrea."
+    },
+    "status": "MATCHED",
+    "note": null
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/eritrea-italian-colony-independent.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "eritrea-italian-colony-independent",
+    "item": "Independence 1993",
+    "current_wp_ids": [
+     "WP:Eritrea"
+    ],
+    "replacement": {
+     "registry_id": "EEBC2002",
+     "citation": "EEBC, Decision regarding delimitation of the border between Eritrea and Ethiopia, 13 April 2002",
+     "pages": "p. 105, para. 2.12",
+     "quote": "On 27 April 1993, Eritrea became independent and was admitted as a member of the United Nations."
+    },
+    "status": "MATCHED",
+    "note": null
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/al-bashir-ncp-ingaz-regime.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "bashir",
+    "item": "30 June 1989 coup",
+    "current_wp_ids": [
+     "WP:Omar_al-Bashir"
+    ],
+    "replacement": {
+     "registry_id": "SFDAS_HCS2017",
+     "citation": "SFDAS, Histoire et civilisations du Soudan (2017)",
+     "pages": "p. 731",
+     "quote": "Le 30 juin 1989, le colonel Omar Hassan el-Bechir, qu’appuie le mouvement islamiste, renverse le gouvernement par un cou[p d’État]"
+    },
+    "status": "MATCHED",
+    "note": null
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/al-bashir-ncp-ingaz-regime.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "bashir",
+    "item": "Darfur war from 2003; ICC warrants 2009",
+    "current_wp_ids": [
+     "WP:War_in_Darfur"
+    ],
+    "replacement": null,
+    "status": "UNMATCHED",
+    "note": "No UN or IFI document covering the 2003 onset or the 2009 ICC warrant has been read in full. Candidates: UN S/2005/60 (Commission of Inquiry) and S/RES/1593 (2005)."
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/al-bashir-ncp-ingaz-regime.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "bashir",
+    "item": "Comprehensive Peace Agreement 2005",
+    "current_wp_ids": [
+     "WP:Comprehensive_Peace_Agreement"
+    ],
+    "replacement": {
+     "registry_id": "CPA_2005",
+     "citation": "Comprehensive Peace Agreement, UN transmittal letter",
+     "pages": "cover letter, p. 1",
+     "quote": "People’s Liberation Movement/Army signed a Comprehensive Peace Agreement on 9 January 2005, in Nairobi, Kenya, witnessed by the international community."
+    },
+    "status": "MATCHED",
+    "note": null
+   },
+   {
+    "type": "event",
+    "owner_file": "data/eras/al-bashir-ncp-ingaz-regime.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+    "era": "bashir",
+    "item": "South Sudan secedes 9 July 2011",
+    "current_wp_ids": [
+     "WP:Omar_al-Bashir",
+     "WP:Comprehensive_Peace_Agreement"
+    ],
+    "replacement": {
+     "registry_id": "UNSC1996",
+     "citation": "UN Security Council resolution 1996 (2011), S/RES/1996 (2011)",
+     "url": "https://peacekeeping.un.org/sites/default/files/past/unmis/documents/sres1996_2011.pdf",
+     "pages": "p. 1, preamble",
+     "quote": "Welcoming the establishment of the Republic of South Sudan on 9 July 2011"
+    },
+    "status": "MATCHED",
+    "note": "Read in full (8 pp.)."
+   },
+   {
+    "type": "extent",
+    "owner_file": "db/extents_historic.json",
+    "era": "makuria",
+    "item": "Phase 1276–1365 'Mamluk vassal kingdom' reach_en and Old Dongola anchor",
+    "current_wp_ids": [
+     "WP_MAKURIA"
+    ],
+    "replacement": {
+     "registry_id": "SFDAS_HCS2017",
+     "citation": "SFDAS, Histoire et civilisations du Soudan (2017)",
+     "pages": "p. 419",
+     "quote": "Son armée envahit la Nubie et poussa jusqu’à Dongola en 1276, où elle rétablit sur le trône le roi Shékanda, lui imposant toutefois un lourd tribut et la cession de provinces entières au pouvoir mamelouk."
+    },
+    "status": "PARTIAL",
+    "note": "Supports vassalage and a land cession in 1276. It doesn't support 'Lower Nubia to Kordofan' under Siti, or the Abu Hamad border anchor. The same claims appear in db/border_transitions.json (9 makuria transitions, WP_MAKURIA/WP_MAKURIA_2026)."
+   },
+   {
+    "type": "extent",
+    "owner_file": "db/extents_historic.json",
+    "era": "makuria",
+    "item": "Phase 1366–1500 'Rump kingdom at Gebel Adda' reach_en, Gebel Adda and Qasr Ibrim anchors",
+    "current_wp_ids": [
+     "WP_MAKURIA"
+    ],
+    "replacement": {
+     "registry_id": "SFDAS_HCS2017",
+     "citation": "SFDAS, Histoire et civilisations du Soudan (2017)",
+     "pages": "p. 420",
+     "quote": "En 1364 […] la capitale de Makouria, Old Dongola, fut abandonnée […] La cour royale se retira en Basse-Nubie, à Daw (actuel Gébel Adda), tandis que l’éparque de Nobadia était établi un peu au nord, à Qasr Ibrim. […] Le dernier roi connu est Joël, vers 1484."
+    },
+    "status": "MATCHED_WITH_MISMATCH",
+    "note": "Source gives 1364, not 1365, and has the last king Joël c.1484 rather than 1463. The Meinarti anchor and 'Qasr Ibrim to Meinarti' reach are unsupported."
+   },
+   {
+    "type": "extent",
+    "owner_file": "db/extents_historic.json",
+    "era": "eritrea-italian-colony-independent",
+    "item": "Colony proclaimed 1890 (lines ~2816 control_limits_en)",
+    "current_wp_ids": [
+     "WP:Eritrea"
+    ],
+    "replacement": {
+     "registry_id": "EEBC2002",
+     "citation": "EEBC, Decision regarding delimitation of the border between Eritrea and Ethiopia, 13 April 2002",
+     "pages": "p. 104, para. 2.5",
+     "quote": "On 1 January 1890, Italy formally established the Colony of Eritrea."
+    },
+    "status": "MATCHED",
+    "note": "EEBC2002 is already co-cited; WP:Eritrea is redundant."
+   },
+   {
+    "type": "extent",
+    "owner_file": "db/extents_per_era_modern_neighbours.json",
+    "era": "eritrea-italian-colony-independent",
+    "item": "Colony proclaimed 1890 (lines ~38 and ~89)",
+    "current_wp_ids": [
+     "WP:Eritrea"
+    ],
+    "replacement": {
+     "registry_id": "EEBC2002",
+     "citation": "EEBC, Decision regarding delimitation of the border between Eritrea and Ethiopia, 13 April 2002",
+     "pages": "p. 104, para. 2.5",
+     "quote": "On 1 January 1890, Italy formally established the Colony of Eritrea."
+    },
+    "status": "MATCHED",
+    "note": "EEBC2002 is already co-cited; WP:Eritrea is redundant."
+   },
+   {
+    "type": "extent",
+    "owner_file": "db/extents_sources_modern_neighbours.json",
+    "era": "eritrea-italian-colony-independent",
+    "item": "Colony proclaimed 1890 (lines ~448)",
+    "current_wp_ids": [
+     "WP:Eritrea"
+    ],
+    "replacement": {
+     "registry_id": "EEBC2002",
+     "citation": "EEBC, Decision regarding delimitation of the border between Eritrea and Ethiopia, 13 April 2002",
+     "pages": "p. 104, para. 2.5",
+     "quote": "On 1 January 1890, Italy formally established the Colony of Eritrea."
+    },
+    "status": "MATCHED",
+    "note": "EEBC2002 is already co-cited; WP:Eritrea is redundant."
+   },
+   {
+    "type": "extent",
+    "owner_file": "db/border_transitions.json",
+    "era": "eritrea-italian-colony-independent",
+    "item": "Colony proclaimed 1890 (lines ~1801 (from-cites OHM_2690839 + WP:Eritrea only))",
+    "current_wp_ids": [
+     "WP:Eritrea"
+    ],
+    "replacement": {
+     "registry_id": "EEBC2002",
+     "citation": "EEBC, Decision regarding delimitation of the border between Eritrea and Ethiopia, 13 April 2002",
+     "pages": "p. 104, para. 2.5",
+     "quote": "On 1 January 1890, Italy formally established the Colony of Eritrea."
+    },
+    "status": "MATCHED",
+    "note": null
+   }
+  ],
+  "not_processed": {
+   "owner_file": "db/map_sources.json",
+   "note": "This file has 30 distinct WP ids (91 uses). They haven't been processed in this batch; it's the remaining backlog.",
+   "wp_id_counts": {
+    "WP:Viceroy_of_Kush": 1,
+    "WP:Ballana_culture": 2,
+    "WP:Alodia": 1,
+    "WP:Funj_Sultanate": 1,
+    "WP:Daju_people": 1,
+    "WP:Tunjur_people": 1,
+    "WP:Ali_Dinar": 1,
+    "WP:Kingdom_of_Taqali": 1,
+    "WP:New_Kingdom_of_Egypt": 1,
+    "WP:Baqt": 1,
+    "WP:Mamluk_Sultanate": 9,
+    "WP_MAKURIA": 9,
+    "WP_MAKURIA_2026": 9,
+    "WP_MAMLUK": 11,
+    "WP:Muhammad_Ali_dynasty": 4,
+    "WP:Kingdom_of_Egypt": 5,
+    "WP_HALAIB": 1,
+    "WP:Kingdom_of_Aksum": 5,
+    "WP_ABRAHA": 4,
+    "WP_AKSUM": 4,
+    "WP_ETHIOPIAN_EMPIRE": 1,
+    "WP_GONDAR": 1,
+    "WP:Ethiopian_Empire": 7,
+    "WP:Eritrea": 2,
+    "WP:Kanem_Empire": 1,
+    "WP_KANEM_BORNU": 1,
+    "WP_NGAZARGAMU": 1,
+    "WP:Bornu_Empire": 1,
+    "WP:Wadai_Sultanate": 2,
+    "WP:History_of_Libya": 2
+   }
+  }
+ }
 }
