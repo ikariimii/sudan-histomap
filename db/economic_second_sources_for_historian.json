@@ -13,7 +13,8 @@
     "not_fetchable": [
       "IMF REO MCD Apr 2024 PDF (Access Denied / timeout)",
       "IMF REO .md (404)"
-    ]
+    ],
+    "cite_check": "2026-10-25: era slugs checked against data/eras ids and data/periods.json names; current_cite values checked against each era's economy_en text and sources list."
   },
   "items": [
     {
@@ -32,7 +33,7 @@
     {
       "era": "al-bashir-ncp-ingaz-regime",
       "figure": "Reserves of 6bn barrels",
-      "current_cite": "RIA (2011)",
+      "current_cite": "RU_RIA_2011",
       "decision": "MISMATCH",
       "second_source": {
         "source": "US EIA, Sudan and South Sudan country analysis (last updated 5 Sep 2013; Wayback copy 2014-03-27)",
@@ -40,12 +41,13 @@
         "page": "Oil, para 2 (citing OGJ)",
         "quote": "Sudan and South Sudan have 5 billion barrels of proved crude oil reserves as of January 1, 2013"
       },
-      "note": "Different dates (2011 vs 1 Jan 2013); no winner picked."
+      "note": "Different dates (2011 vs 1 Jan 2013); no winner picked.",
+      "cite_note": "Era text writes 'RIA (2011)'; the era's sources list gives the id RU_RIA_2011."
     },
     {
       "era": "al-bashir-ncp-ingaz-regime",
       "figure": "510,000 bpd",
-      "current_cite": "RIA (2011)",
+      "current_cite": "RU_RIA_2011",
       "decision": "MISMATCH",
       "second_source": {
         "source": "US EIA, Sudan and South Sudan country analysis (last updated 5 Sep 2013; Wayback copy 2014-03-27)",
@@ -53,7 +55,8 @@
         "page": "Oil > Production, para 3",
         "quote": "Total oil production reached its peak of 486,000 bb/d in 2010, but declined to around 453,000 bbl/d in 2011"
       },
-      "note": "Figures differ; no winner picked."
+      "note": "Figures differ; no winner picked.",
+      "cite_note": "Era text writes 'RIA (2011)'; the era's sources list gives the id RU_RIA_2011."
     },
     {
       "era": "al-bashir-ncp-ingaz-regime",
@@ -69,7 +72,8 @@
       "current_cite": "ICG",
       "decision": "NO-SECOND-SOURCE",
       "second_source": null,
-      "reason": "No independent second source read in full this pass."
+      "reason": "No independent second source read in full this pass.",
+      "cite_note": "Era text writes 'ICG:' with no id; the only ICG id in its sources list is ICG2019, which is not assumed here."
     },
     {
       "era": "december-revolution-transition",
@@ -155,7 +159,7 @@
     {
       "era": "war-in-sudan-saf-vs-rsf",
       "figure": "2023 GDP contraction c. 29.4%",
-      "current_cite": "WB_SEU2025",
+      "current_cite": "WB_SEU2025 para 4, Table 1",
       "decision": "KEEP",
       "second_source": {
         "source": "World Bank, Macro Poverty Outlook Sudan, October 2026",
@@ -168,7 +172,7 @@
     {
       "era": "war-in-sudan-saf-vs-rsf",
       "figure": "Further 13.5% contraction in 2024",
-      "current_cite": "WB_SEU2025",
+      "current_cite": "WB_SEU2025 para 4, Table 1",
       "decision": "MISMATCH",
       "second_source": {
         "source": "World Bank, Macro Poverty Outlook Sudan, October 2026",
@@ -197,7 +201,7 @@
     {
       "era": "war-in-sudan-saf-vs-rsf",
       "figure": "Inflation 2023 65.8% CPI",
-      "current_cite": "WB_SEU2025",
+      "current_cite": "WB_SEU2025 Table 1",
       "decision": "KEEP",
       "second_source": {
         "source": "World Bank, Macro Poverty Outlook Sudan, October 2026",
@@ -218,7 +222,7 @@
     {
       "era": "war-in-sudan-saf-vs-rsf",
       "figure": "Services shrank 43.2% in 2023",
-      "current_cite": "WB_SEU2025",
+      "current_cite": "WB_SEU2025 Table 1",
       "decision": "MISMATCH",
       "second_source": {
         "source": "World Bank, Macro Poverty Outlook Sudan, October 2026",
@@ -247,7 +251,7 @@
     {
       "era": "nimeiry-era-democratic-republic-of-sudan",
       "figure": "Feb 1985 devaluation LSd 1.30 to 2.50 per USD",
-      "current_cite": "WB_SDN1985",
+      "current_cite": "WB_SDN1985, Report 5496-SU, pdf p.3",
       "decision": "NO-SECOND-SOURCE",
       "second_source": null,
       "reason": "No independent second source read in full this pass."
@@ -287,7 +291,7 @@
     {
       "era": "british-occupied-kingdom-of-egypt",
       "figure": "Egypt's budget contribution c. £E 2.8m (1899–1916); loans c. £E 5.4m (1900–10)",
-      "current_cite": "GHA VII ch.17 pp.455–456",
+      "current_cite": "GHA VII ch.17, pp.455–456",
       "decision": "NO-SECOND-SOURCE",
       "second_source": null,
       "reason": "No independent second source read in full this pass."
@@ -295,7 +299,7 @@
     {
       "era": "british-occupied-kingdom-of-egypt",
       "figure": "Gezira 40/35/25 tenant/government/syndicate split; Sennar Dam 1925",
-      "current_cite": "GHA VII ch.17 p.455",
+      "current_cite": "LOC1991_CONDO; GHA VII ch.17, p.455",
       "decision": "NO-SECOND-SOURCE",
       "second_source": null,
       "reason": "No independent second source read in full this pass."
@@ -303,7 +307,7 @@
     {
       "era": "shilluk-kingdom",
       "figure": "Annual tribute £15,000; cotton 5,000–6,000 ha by 1874",
-      "current_cite": "GHA VI ch.14 pp.366–367",
+      "current_cite": "GHA VI ch.14, pp.366–367",
       "decision": "NO-SECOND-SOURCE",
       "second_source": null,
       "reason": "No independent second source read in full this pass."
@@ -319,7 +323,7 @@
     {
       "era": "derg-federal-ethiopia",
       "figure": "600,000 acres of agricultural land in al-Fashaga",
-      "current_cite": "GEO-015 (Chatham House)",
+      "current_cite": "GEO-015",
       "decision": "NO-SECOND-SOURCE",
       "second_source": null,
       "reason": "No independent second source read in full this pass."
