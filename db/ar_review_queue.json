@@ -1663,6 +1663,19 @@
     },
     {
       "kind": "artifact_caption",
+      "id": "artcap:daju-kingdom",
+      "era_id": "daju-kingdom",
+      "path": "/workspace/sudan-histomap/web/art_captions_ar.json",
+      "location": "web/art_captions_ar.json → captions[\"daju-kingdom\"].ar",
+      "en": "Deriba crater lake, Jebel Marra, the mountain heartland of the Daju kingdom in Darfur.",
+      "ar": "بحيرة فوهة دريبة، جبل مرة، الموطن الجبلي لمملكة الداجو في دارفور.",
+      "ar_word_count_approx": 11,
+      "tier": null,
+      "status": "pending",
+      "note": "working translation of db/era_artifacts.json caption_en, shown with * in AR map card; needs native review"
+    },
+    {
+      "kind": "artifact_caption",
       "id": "artcap:december-revolution-transition",
       "era_id": "december-revolution-transition",
       "path": "/workspace/sudan-histomap/web/art_captions_ar.json",
@@ -1819,6 +1832,19 @@
     },
     {
       "kind": "artifact_caption",
+      "id": "artcap:ja-aliyyin-kingdom-sa-dab-funj-vassal",
+      "era_id": "ja-aliyyin-kingdom-sa-dab-funj-vassal",
+      "path": "/workspace/sudan-histomap/web/art_captions_ar.json",
+      "location": "web/art_captions_ar.json → captions[\"ja-aliyyin-kingdom-sa-dab-funj-vassal\"].ar",
+      "en": "Residence of the makk (king) of Shendi, the Ja'aliyyin capital, in a 19th-century wood engraving.",
+      "ar": "مقر المك (الملك) في شندي، عاصمة الجعليين، في نقش خشبي من القرن التاسع عشر.",
+      "ar_word_count_approx": 14,
+      "tier": null,
+      "status": "pending",
+      "note": "working translation of db/era_artifacts.json caption_en, shown with * in AR map card; needs native review"
+    },
+    {
+      "kind": "artifact_caption",
       "id": "artcap:khartoum-mesolithic-early-khartoum",
       "era_id": "khartoum-mesolithic-early-khartoum",
       "path": "/workspace/sudan-histomap/web/art_captions_ar.json",
@@ -1891,6 +1917,19 @@
       "en": "Granite ram of Amun protecting King Taharqa, from Kawa.",
       "ar": "كبش آمون الغرانيتي يحمي الملك طهارقا، من كوة.",
       "ar_word_count_approx": 8,
+      "tier": null,
+      "status": "pending",
+      "note": "working translation of db/era_artifacts.json caption_en, shown with * in AR map card; needs native review"
+    },
+    {
+      "kind": "artifact_caption",
+      "id": "artcap:kingdom-of-taqali",
+      "era_id": "kingdom-of-taqali",
+      "path": "/workspace/sudan-histomap/web/art_captions_ar.json",
+      "location": "web/art_captions_ar.json → captions[\"kingdom-of-taqali\"].ar",
+      "en": "The Nuba Mountains of southern Kordofan, where the Taqali kingdom lay.",
+      "ar": "جبال النوبة في جنوب كردفان، حيث قامت مملكة تقلي.",
+      "ar_word_count_approx": 9,
       "tier": null,
       "status": "pending",
       "note": "working translation of db/era_artifacts.json caption_en, shown with * in AR map card; needs native review"
@@ -2255,6 +2294,32 @@
       "en": "Khartoum under Turco-Egyptian rule, engraving after a photo.",
       "ar": "الخرطوم في عهد الحكم التركي المصري، نقش محفور عن صورة فوتوغرافية.",
       "ar_word_count_approx": 11,
+      "tier": null,
+      "status": "pending",
+      "note": "working translation of db/era_artifacts.json caption_en, shown with * in AR map card; needs native review"
+    },
+    {
+      "kind": "artifact_caption",
+      "id": "artcap:wadai-sultanate",
+      "era_id": "wadai-sultanate",
+      "path": "/workspace/sudan-histomap/web/art_captions_ar.json",
+      "location": "web/art_captions_ar.json → captions[\"wadai-sultanate\"].ar",
+      "en": "Ruins of Ouara (Wara), the 17th–19th-century capital of the Wadai Sultanate, near Abéché, Chad.",
+      "ar": "أطلال وارا (Ouara)، عاصمة سلطنة وداي بين القرنين السابع عشر والتاسع عشر، قرب أبشة، تشاد.",
+      "ar_word_count_approx": 15,
+      "tier": null,
+      "status": "pending",
+      "note": "working translation of db/era_artifacts.json caption_en, shown with * in AR map card; needs native review"
+    },
+    {
+      "kind": "artifact_caption",
+      "id": "artcap:war-in-sudan-saf-vs-rsf",
+      "era_id": "war-in-sudan-saf-vs-rsf",
+      "path": "/workspace/sudan-histomap/web/art_captions_ar.json",
+      "location": "web/art_captions_ar.json → captions[\"war-in-sudan-saf-vs-rsf\"].ar",
+      "en": "Sunset over Khartoum and the Nile (neutral landscape).",
+      "ar": "غروب الشمس فوق الخرطوم والنيل (منظر طبيعي محايد).",
+      "ar_word_count_approx": 8,
       "tier": null,
       "status": "pending",
       "note": "working translation of db/era_artifacts.json caption_en, shown with * in AR map card; needs native review"
