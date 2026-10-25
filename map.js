@@ -59,6 +59,7 @@ function drawBase(e){if(!BASE)return;const y=Y??e.b,post=y>=2011;
 let OLD=[];// previously drawn area features [{f,d,box}]
 async function render(anim=true){
  const e=ES[i];r.value=i;url();const g=await ext(e);if(e!==ES[i])return;
+ cam(e,g);
  const st=steps(e,g);if(Y==null||Y<e.a||Y>e.b)Y=st[st.length-1];
  const wi=$('within');wi.hidden=st.length<2;if(st.length>1){const w=$('w');w.min=0;w.max=st.length-1;w.value=Math.max(0,st.findIndex(s=>s===Y));$('wo').textContent=fy(Y)}
  document.documentElement.style.setProperty('--c',e.c);
@@ -242,6 +243,14 @@ function cityTap(ev,c){ev.stopPropagation();const e=ES[i],r=c.r[e.id],d=CJ&&CJ.t
   (M.layers.cStub?`<p class="gap">${esc(T.stub)}</p>`:'');
  $('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true};if($('sheet').classList.contains('peek'))snap('half')}
 // --- navigation
+// era camera: fly to focus_view.bbox [w,s,e,n] (fallback: extent bounds, then whole region) inside the area not covered by the sheet/side card. Manual zoom is kept until the era changes.
+let CE=null;function cam(e,g){if(e.id===CE)return;const first=CE===null;CE=e.id;
+ let b=e.fv;if(!b&&g&&g.features&&g.features.length){const q=d3.geoBounds({type:'FeatureCollection',features:g.features});if(q.every(p=>p.every(isFinite)))b=[q[0][0],q[0][1],q[1][0],q[1][1]]}
+ let t=d3.zoomIdentity;if(b){const sh=$('sheet').getBoundingClientRect(),top=desk()?70:120,bot=desk()?H()-20:Math.max(top+120,H()-Math.min(sh.height,H()*.44)-8),x1=desk()?(AR?sh.right+20:20):10,x2=desk()?(AR?W()-20:sh.left-20):W()-10;
+  {const cx=(b[0]+b[2])/2,cy=(b[1]+b[3])/2,hx=Math.max((b[2]-b[0])/2,1.5),hy=Math.max((b[3]-b[1])/2,1.5);b=[cx-hx,cy-hy,cx+hx,cy+hy]}// min 3° window so point-like foci keep context
+  const p=proj([b[0],b[3]]),q=proj([b[2],b[1]]),dx=Math.max(q[0]-p[0],8),dy=Math.max(q[1]-p[1],8);const k=Math.max(1,Math.min(6,.85*Math.min((x2-x1)/dx,(bot-top)/dy)));
+  t=k<1.02?d3.zoomIdentity:d3.zoomIdentity.translate((x1+x2)/2-k*(p[0]+q[0])/2,(top+bot)/2-k*(p[1]+q[1])/2).scale(k)}
+ if(first||RM)svg.interrupt().call(zoom.transform,t);else svg.interrupt().transition('cam').duration(1000).call(zoom.transform,t)}
 function go(n){n=Math.max(0,Math.min(ES.length-1,n));if(n===i)return;i=n;Y=null;render(true)}
 r.addEventListener('input',()=>go(+r.value));$('prev').onclick=()=>go(i-1);$('next').onclick=()=>go(i+1);
 $('w').addEventListener('input',()=>{const e=ES[i];ext(e).then(g=>{Y=steps(e,g)[+$('w').value];render(true)})});
