@@ -5269,9 +5269,9 @@
     "lang": "ar",
     "url": "https://books.google.com/books?id=NzguAQAAIAAJ",
     "edition": "1st ed. (الطبعة الأولى 1996م), deposit no. 26/110",
-    "pages": "Vol. 4 (al-juz' al-rabi'), printed pp.1409–1820; scan PDF p.N = printed p.N+1408",
-    "note": "7 vols, 2628 pp. in all (Google Books record, URL = vol. 4 catalogue record, snippet view only). Supplied by the user (Agrescatti) as a 414-page image-only PDF scan of vol. 4 only (entries ظ, ع, غ, ف); other volumes not seen. Read via Tesseract Arabic OCR on the box; quotes checked against the page image unless marked VERIFY. Scan and OCR text kept off-repo (copyright); citation only, short quotes. Genealogical claims are the source's account (TRADITION).",
-    "via": "research_patch Pass 28"
+    "pages": "Vols 1–6 (6-vol set: 1 أ–ج, 2 ح–ز, 3 س–ط, 4 ظ–ف, 5 ق–م, 6 م–ي). Vol. 4 cites: scan PDF p.N = printed p.N+1408. Other vols: cites give printed page plus pdf_page in the 2636-page combined scan; the offset is not constant (vol.1 −3, vol.2 +2, vol.3 +37, vol.6 +30 to +51).",
+    "note": "Supplied by the user (Agrescatti): first a 414-page scan of vol. 4 only, then a 2636-page combined scan of all six volumes (title page lists 6 vols; the Google Books record says 7 vols, 2628 pp.). Image-only scans read via Tesseract Arabic OCR on the box; quotes checked against the page image unless marked VERIFY. The combined scan has missing, out-of-order and repeated pages in vol. 6 (PDF p.2561 onward repeats about pp.2460–2535). Scans and OCR text kept off-repo (copyright); citation only, short quotes. Genealogical claims are the source's account (TRADITION).",
+    "via": "research_patch Pass 28; Pass 31 (vols 1–3, 6)"
    },
    "RARCSS2018": {
     "author": "IGAD (text via Peace Accords Matrix, Univ. of Notre Dame)",

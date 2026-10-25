@@ -199,3 +199,10 @@ Following the scope change, I did not build data/views/<lang>.json. The language
 - Homeland anchors (Wikidata P625, checked live): Nuba Mountains Q1129989 (APPROXIMATE), Bor Q893274 for the Dinka (APPROXIMATE), Fashoda/Kodok Q1888763 for the Shilluk. Nuer, Masalit and Baggara have no anchor, with a null reason given.
 - 13 new relations (28 → 41).
 - Not used: Seligman 1932, because no full text with clear legal status was read; LOC's 20th-century Masalit–Fur skirmish and militia passages, under the modern-violence rule (UN/HRW only).
+
+## 2026-10-24 — Pass 31: QASIM_MAWSUA vols 1–3 and 6 (user-supplied 6-vol combined scan)
+- Registry: QASIM_MAWSUA now covers the 6-vol set; new cites carry `vol`, printed `page`, and `pdf_page` in the 2636-page combined scan (offset not constant).
+- groups: Beja (p.221), Baggara (pp.312–313), Ja'aliyyin (pp.471–472), Dinka (pp.911–912), Shilluk (pp.1251–1252), Masalit (pp.2285–2286, anchor Dar Masalit Q56545571 APPROXIMATE), Nuba and Nubians (pp.2509–2510), Nuer (p.2524); new stub group Hamaj (pp.2560, 2563).
+- relations: rel-hamaj-01, rel-hamaj-02, rel-masalit-03.
+- CONTESTED: Hamaj origin (Qasim "Arabized, mixed with Arabs" vs GHA "neither Funj nor Arabs"); Nuba origins (Qasim reports a scholarly dispute). Ja'ali Abbasid genealogy kept as TRADITION beside the LOC view.
+- Caveats: Tesseract OCR; VERIFY where not checked against the image; Arabic needs native review; "Hamites" wording quoted only.

@@ -20,7 +20,7 @@
    "migration"
   ],
   "rules": "Coordinates from Wikidata P625 only. LOC Country Study cites use the section heading as locator (web edition has no page numbers). Map limits are text only. Unsourced fields are null with a reason.",
-  "qasim_note": "QASIM_MAWSUA = 'Awn al-Sharif Qasim, Mawsu'at al-qaba'il wa-al-ansab fi al-Sudan (1996), vol. 4 only (ظ ع غ ف), printed page = PDF page + 1408. Arabic quotes are original source text; quote_en is a working translation. Quotes marked VERIFY were not checked against the page image. Genealogies are TRADITION."
+  "qasim_note": "QASIM_MAWSUA = 'Awn al-Sharif Qasim, Mawsu'at al-qaba'il wa-al-ansab fi al-Sudan (1996), 6 vols. Cites without 'vol' are vol. 4 (ظ ع غ ف; pdf_page = page in the 414-page vol. 4 scan, printed page = PDF page + 1408). Cites with 'vol' and pdf_file '6-vol combined scan' use the 2636-page combined scan; printed pages are read off the page image (the PDF-to-print offset varies, and vol. 6 has missing, out-of-order and repeated pages). Arabic quotes are original source text; quote_en is a working translation. Quotes marked VERIFY were not checked against the page image. Genealogies are TRADITION. Dated racial wording (e.g. 'Hamites') is quoted only."
  },
  "groups": [
   {
@@ -45,6 +45,25 @@
       "page": "p.198"
      },
      "note": "GHA III p.198 says the Blemmyes were 'a nomadic Bëdja people'."
+    },
+    {
+     "name": "Mija / Mijoy (ancient Egyptian name, per this source); Bujja (Arab name)",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 1,
+      "page": "p.221",
+      "pdf_page": 224,
+      "pdf_file": "6-vol combined scan",
+      "quote": "قوم من الحاميين في شرق السودان عرفهم قدماء المصريين باسم ميجا",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "a people 'of the Hamites' in eastern Sudan, whom the ancient Egyptians knew by the name Mija",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE",
+     "note": "'Hamites/Hamitic' (الحاميين) is the source's dated racial classification, quoted only; not used as a site category."
     }
    ],
    "subgroups": [
@@ -123,8 +142,23 @@
      {
       "source": "GHA4_CH16",
       "page": "p.412"
+     },
+     {
+      "source": "QASIM_MAWSUA",
+      "vol": 1,
+      "page": "p.221",
+      "pdf_page": 224,
+      "pdf_file": "6-vol combined scan",
+      "quote": "الهدندوة (م) والأمرآر (م) والبشاريون (م) والبنو عامر",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Hadendowa, the Amarar, the Bishariyyin and the Bani 'Amir",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
      }
-    ]
+    ],
+    "qasim_note": "Qasim (vol.1 p.221) calls the language Tibdawi/Bidawi and says the Bani 'Amir speak Semitic Tigre (VERIFY OCR)."
    },
    "homeland": {
     "text_en": "Red Sea Hills and their hinterland, from the Red Sea littoral inland; settled Bisharin on the Atbara River, settled Hadendowa near Tokar, Bani Amir along the border with northern Ethiopia/Eritrea.",
@@ -138,6 +172,20 @@
      {
       "source": "GHA3_CH3",
       "page": "p.82"
+     },
+     {
+      "source": "QASIM_MAWSUA",
+      "vol": 1,
+      "page": "p.221",
+      "pdf_page": 224,
+      "pdf_file": "6-vol combined scan",
+      "quote": "قوم من الحاميين في شرق السودان عرفهم قدماء المصريين باسم ميجا",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "a people 'of the Hamites' in eastern Sudan, whom the ancient Egyptians knew by the name Mija",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
      }
     ],
     "anchors": [
@@ -290,7 +338,7 @@
    "relations_generated_from": "db/relations.json",
    "origin": {
     "value": null,
-    "null_reason": "not stated in any source read (QASIM_MAWSUA vol. 4 has no Beja main entry; it is under ب in another volume)"
+    "null_reason": "not stated as a homeland-of-origin claim; QASIM_MAWSUA vol.1 p.221 gives only a dated racial label (see aliases note)"
    }
   },
   {
@@ -430,6 +478,38 @@
      "name": "Halfawiyin",
      "value": null,
      "null_reason": "not named in any source read (QASIM_MAWSUA vol. 4 included)"
+    },
+    {
+     "name": "Kunuz (Kenuz)",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2509",
+      "pdf_page": 2460,
+      "pdf_file": "6-vol combined scan",
+      "quote": "ولغتهم النوبية في اربع لهجات هي الكنزية (م كنوز) والسكوتية (م سكوت) او الفديجة والمحسية (م محس) والدنقلاوية (م دناقلة)",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "their language is Nubian, in four dialects: Kenzi (Kunuz), Sukkoti or Fadija, Mahasi (Mahas) and Dongolawi (Danagla)",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Sukkot",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2509",
+      "pdf_page": 2460,
+      "pdf_file": "6-vol combined scan",
+      "quote": "ولغتهم النوبية في اربع لهجات هي الكنزية (م كنوز) والسكوتية (م سكوت) او الفديجة والمحسية (م محس) والدنقلاوية (م دناقلة)",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "their language is Nubian, in four dialects: Kenzi (Kunuz), Sukkoti or Fadija, Mahasi (Mahas) and Dongolawi (Danagla)",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "SINGLE-SOURCE"
     }
    ],
    "related_groups": [
@@ -451,8 +531,20 @@
     }
    ],
    "language_family": {
-    "value": null,
-    "null_reason": "LOC says only 'a related language'; QASIM_MAWSUA vol. 4 calls words 'Nubian' (نوبية) and mentions the 'rutana' of the Danagla but names no language family"
+    "value": "Nubian, in four dialects: Kenzi, Sukkoti/Fadija, Mahasi, Dongolawi (per Qasim)",
+    "cite": {
+     "source": "QASIM_MAWSUA",
+     "vol": 6,
+     "page": "p.2509",
+     "pdf_page": 2460,
+     "pdf_file": "6-vol combined scan",
+     "quote": "ولغتهم النوبية في اربع لهجات هي الكنزية (م كنوز) والسكوتية (م سكوت) او الفديجة والمحسية (م محس) والدنقلاوية (م دناقلة)",
+     "quote_lang": "ar",
+     "quote_status": "original source text",
+     "quote_en": "their language is Nubian, in four dialects: Kenzi (Kunuz), Sukkoti or Fadija, Mahasi (Mahas) and Dongolawi (Danagla)",
+     "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+    },
+    "badge": "SINGLE-SOURCE"
    },
    "homeland": {
     "text_en": "The Nile valley in far northern Sudan and southern Egypt.",
@@ -590,8 +682,21 @@
     "null_reason": "no claim found in the sources read for batch 1"
    },
    "origin": {
-    "value": null,
-    "null_reason": "no claim found in the sources read for batch 1"
+    "value": "An ancient people of northern Sudan and southern Egypt who built the kingdoms of Nobatia (al-Maris), Makuria and Alwa (per Qasim).",
+    "cite": {
+     "source": "QASIM_MAWSUA",
+     "vol": 6,
+     "page": "p.2509",
+     "pdf_page": 2460,
+     "pdf_file": "6-vol combined scan",
+     "quote": "سكنوا شمال السودان وجنوب مصر، واقاموا حضارة قديمة",
+     "quote_lang": "ar",
+     "quote_status": "original source text",
+     "quote_en": "they lived in northern Sudan and southern Egypt and built an ancient civilisation",
+     "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+    },
+    "badge": "SINGLE-SOURCE",
+    "note": "Qasim calls them 'of the Hamites' (من الحاميين), dated racial wording, quoted only."
    }
   },
   {
@@ -695,6 +800,78 @@
       "ocr_note": "Tesseract OCR, not checked against the page image"
      },
      "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Nafi'ab",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 1,
+      "page": "p.472",
+      "pdf_page": 475,
+      "pdf_file": "6-vol combined scan",
+      "quote": "والكراكسة (م) والنافعاب (م) والنفيعاب (م) والسعداب (م) والمحمداب (م)",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Karaksa, Nafi'ab, Nufay'ab, Sa'dab and Muhammadab",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Nufay'ab",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 1,
+      "page": "p.472",
+      "pdf_page": 475,
+      "pdf_file": "6-vol combined scan",
+      "quote": "والكراكسة (م) والنافعاب (م) والنفيعاب (م) والسعداب (م) والمحمداب (م)",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Karaksa, Nafi'ab, Nufay'ab, Sa'dab and Muhammadab",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Muhammadab",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 1,
+      "page": "p.472",
+      "pdf_page": 475,
+      "pdf_file": "6-vol combined scan",
+      "quote": "والكراكسة (م) والنافعاب (م) والنفيعاب (م) والسعداب (م) والمحمداب (م)",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Karaksa, Nafi'ab, Nufay'ab, Sa'dab and Muhammadab",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Karaksa",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 1,
+      "page": "p.472",
+      "pdf_page": 475,
+      "pdf_file": "6-vol combined scan",
+      "quote": "والكراكسة (م) والنافعاب (م) والنفيعاب (م) والسعداب (م) والمحمداب (م)",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Karaksa, Nafi'ab, Nufay'ab, Sa'dab and Muhammadab",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "SINGLE-SOURCE"
     }
    ],
    "language_family": {
@@ -709,10 +886,40 @@
     "text_en": "Riverine, sedentary peoples of the Nile from Dongola to just north of Khartoum; LOC also counts members of the group who moved elsewhere.",
     "text_ar": "شعوب نهرية مستقرة على النيل من دنقلا إلى شمال الخرطوم بقليل.",
     "text_ar_status": "working translation – needs native-speaker review",
-    "cite": {
-     "source": "LOC1991_MUSLIMPEOPLES",
-     "page": "§ Arabs"
-    },
+    "cite": [
+     {
+      "source": "LOC1991_MUSLIMPEOPLES",
+      "page": "§ Arabs"
+     },
+     {
+      "source": "QASIM_MAWSUA",
+      "vol": 1,
+      "page": "p.471",
+      "pdf_page": 474,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وبالاخص من ابى حمد الى الخرطوم",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "especially from Abu Hamad to Khartoum",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     {
+      "source": "QASIM_MAWSUA",
+      "vol": 1,
+      "page": "p.472",
+      "pdf_page": 475,
+      "pdf_file": "6-vol combined scan",
+      "quote": "الجعليون ابناء عرمان (م) من العبيدية الى السبلوقة تقريبا",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Ja'aliyyin, sons of 'Arman, from al-'Ubaydiyya to roughly the Sabaloka",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     }
+    ],
     "anchors": [
      {
       "place": "Shendi",
@@ -726,7 +933,8 @@
       }
      }
     ],
-    "map_limits": "text only"
+    "map_limits": "text only",
+    "qasim_note": "Qasim: the broad Ja'ali grouping lives mainly from Abu Hamad to Khartoum; the Ja'aliyyin proper (sons of 'Arman) from al-'Ubaydiyya to about the Sabaloka (vol.1 pp.471–472)."
    },
    "controlled_areas": [
     {
@@ -754,6 +962,25 @@
       "page": "§ Arabs"
      },
      "badge": "TRADITION"
+    },
+    {
+     "text_en": "Descent from Ibrahim Ja'al, traced to al-'Abbas (hence 'Abbasiyya); in the broad sense all sons of Ibrahim Ja'al through Hasan Kardam, including Mirafab, Rubatab, Manasir, Shaigiyya, Jawabra and others.",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 1,
+      "page": "p.471",
+      "pdf_page": 474,
+      "pdf_file": "6-vol combined scan",
+      "quote": "ينتسبون الى ابراهيم جعل (م) الذى ينتهى نسبه الى سيدنا العباس ولذلك فهم يسمون ايضا عباسية",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "they trace descent to Ibrahim Ja'al, whose lineage goes back to al-'Abbas, and so are also called 'Abbasiyya",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "TRADITION",
+     "conflict_note": "LOC (§ Arabs) says Sudanese saw the Jaali as mainly indigenous peoples gradually arabized. Both views kept."
     }
    ],
    "sources": [
@@ -818,7 +1045,7 @@
    "relations_generated_from": "db/relations.json",
    "origin": {
     "value": null,
-    "null_reason": "not stated in QASIM_MAWSUA vol. 4 (main entry is under ج in another volume); vol. 4 p.1807 mentions Hasan Kardam 'ancestor of the Ja'aliyyin' only in passing"
+    "null_reason": "Qasim's account (vol.1 p.471) is a genealogy, recorded under ancestry (TRADITION)"
    }
   },
   {
@@ -2482,16 +2709,72 @@
      "note": "name only; no source read links the two"
     }
    ],
-   "subgroups": {
-    "value": null,
-    "null_reason": "LOC gives only 'perhaps three dozen small groups'; no source read names them",
-    "count_text": "perhaps three dozen small groups",
-    "cite": {
-     "source": "LOC1991_NONMUSLIM",
-     "page": "§ Nuba",
-     "quote": "perhaps three dozen small groups collectively called the Nuba but varying considerably in their culture and social organization"
+   "subgroups": [
+    {
+     "name": "Kawalib",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2509",
+      "pdf_page": 2460,
+      "pdf_file": "6-vol combined scan",
+      "quote": "ومنهم الكواليب (م) والغلفان (م) والنيمانج (م)",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "among them the Kawalib, the Ghulfan and the Nyimang",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Ghulfan",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2509",
+      "pdf_page": 2460,
+      "pdf_file": "6-vol combined scan",
+      "quote": "ومنهم الكواليب (م) والغلفان (م) والنيمانج (م)",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "among them the Kawalib, the Ghulfan and the Nyimang",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Nyimang",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2509",
+      "pdf_page": 2460,
+      "pdf_file": "6-vol combined scan",
+      "quote": "ومنهم الكواليب (م) والغلفان (م) والنيمانج (م)",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "among them the Kawalib, the Ghulfan and the Nyimang",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Lagawa (Rifi Lagawa emirate of seven hills)",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2509",
+      "pdf_page": 2460,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وتتكون امارة النوبة بريفى لقاوة من سبع جبال",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Nuba emirate in rural Lagawa consists of seven hills",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "SINGLE-SOURCE"
     }
-   },
+   ],
    "language_family": {
     "value": "Kurdufanian languages (LOC term), generally not mutually intelligible",
     "cite": {
@@ -2535,18 +2818,61 @@
     "badge": "APPROXIMATE"
    },
    "controlled_areas": [],
-   "ancestry": {
-    "value": null,
-    "null_reason": "not stated in sources read; LOC notes some groups patrilineal, some matrilineal (social organisation, not ancestry)"
-   },
+   "ancestry": [
+    {
+     "text_en": "Some Nuba claim descent from the Funj (tradition reported by Qasim).",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2510",
+      "pdf_page": 2461,
+      "pdf_file": "6-vol combined scan",
+      "quote": "ويزعم بعض النوبا انهم من الفونج",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "some Nuba claim that they are of the Funj",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "TRADITION"
+    }
+   ],
    "origin": {
-    "value": null,
-    "null_reason": "not stated in sources read"
+    "value": "Disputed: Qasim says scholars differ on Nuba origins and on their link with the Nile Nubians; some hill groups (e.g. Dilling, Kadaru) are said to be closely tied to, and to share roots with, the Danagla.",
+    "cite": [
+     {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2509",
+      "pdf_page": 2460,
+      "pdf_file": "6-vol combined scan",
+      "quote": "اختلف العلماء في اصولهم وفي صلتهم بنوبة وادي النيل",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "scholars differ on their origins and on their link with the Nubians of the Nile valley",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2509",
+      "pdf_page": 2460,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وهم على صلات وثيقة بالقبائل الشمالية وتتصل جذورهم بالدناقلة",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "they have close ties with the northern tribes and their roots connect with the Danagla",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     }
+    ],
+    "badge": "CONTESTED"
    },
    "sources": [
     "LOC1991_NONMUSLIM",
     "GHA5_CH7",
-    "GHA7_CH4"
+    "GHA7_CH4",
+    "QASIM_MAWSUA"
    ],
    "batch": "2b (LOC 1991, GHA, MacMichael 1922)",
    "relations": [
@@ -2581,7 +2907,8 @@
      "certainty": "medium"
     }
    ],
-   "relations_generated_from": "db/relations.json"
+   "relations_generated_from": "db/relations.json",
+   "subgroups_note": "LOC: 'perhaps three dozen small groups'; Qasim divides them into Eastern and Western Hills Nuba and names the groups above (vol.6 pp.2509–2510)."
   },
   {
    "id": "dinka",
@@ -2598,6 +2925,24 @@
       "page": "p.193"
      },
      "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Jieng (self-name; VERIFY OCR جيئق)",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 2,
+      "page": "p.912",
+      "pdf_page": 910,
+      "pdf_file": "6-vol combined scan",
+      "quote": "جيئق",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "Jieng",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "VERIFY"
     }
    ],
    "subgroups": [
@@ -2625,6 +2970,96 @@
      },
      "badge": "SINGLE-SOURCE",
      "note": "GHA: the Jieng who crossed the Sobat c.1780–1820 were 'probably' Rueng and Ngok"
+    },
+    {
+     "name": "Agar",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 2,
+      "page": "p.911",
+      "pdf_page": 909,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وأهمها الاجار (م) والعالياب وبور والرك وملوال",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "chief among them the Agar, Aliab, Bor, Rek and Malwal",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Rek",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 2,
+      "page": "p.911",
+      "pdf_page": 909,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وأهمها الاجار (م) والعالياب وبور والرك وملوال",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "chief among them the Agar, Aliab, Bor, Rek and Malwal",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Malwal",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 2,
+      "page": "p.911",
+      "pdf_page": 909,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وأهمها الاجار (م) والعالياب وبور والرك وملوال",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "chief among them the Agar, Aliab, Bor, Rek and Malwal",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Atwot",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 2,
+      "page": "p.911",
+      "pdf_page": 909,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وأهمها الاجار (م) والعالياب وبور والرك وملوال",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "chief among them the Agar, Aliab, Bor, Rek and Malwal",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Twic",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 2,
+      "page": "p.911",
+      "pdf_page": 909,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وأهمها الاجار (م) والعالياب وبور والرك وملوال",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "chief among them the Agar, Aliab, Bor, Rek and Malwal",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "VERIFY"
     }
    ],
    "language_family": {
@@ -2639,6 +3074,20 @@
       "source": "GHA5_CH7",
       "page": "p.192",
       "quote": "classification chart: Western Nilotic – Jieng, Naath, Luo (incl. Shilluk)"
+     },
+     {
+      "source": "QASIM_MAWSUA",
+      "vol": 2,
+      "page": "p.911",
+      "pdf_page": 909,
+      "pdf_file": "6-vol combined scan",
+      "quote": "يتحدثون احدى اللغات السودانية الشرقية",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "they speak one of the Eastern Sudanic languages",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
      }
     ]
    },
@@ -2655,6 +3104,34 @@
      {
       "source": "GHA5_CH7",
       "page": "p.193"
+     },
+     {
+      "source": "QASIM_MAWSUA",
+      "vol": 2,
+      "page": "p.911",
+      "pdf_page": 909,
+      "pdf_file": "6-vol combined scan",
+      "quote": "احدى القبائل النيلية الكبرى تسكن بحر الغزال وأعالى النيل",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "one of the great Nilotic tribes, living in Bahr al-Ghazal and the Upper Nile",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     {
+      "source": "QASIM_MAWSUA",
+      "vol": 2,
+      "page": "p.911",
+      "pdf_page": 909,
+      "pdf_file": "6-vol combined scan",
+      "quote": "يمتد موطنهم من الرنك شمالا الى حدود يوغندا",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "their homeland stretches from Renk in the north to the Uganda border",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
      }
     ],
     "anchors": [
@@ -2689,7 +3166,8 @@
     "GHA5_CH7",
     "GHA6_CH14",
     "GHA7_CH4",
-    "GHA7_CH23"
+    "GHA7_CH23",
+    "QASIM_MAWSUA"
    ],
    "batch": "2b (LOC 1991, GHA, MacMichael 1922)",
    "subgroups_count_text": {
@@ -2757,16 +3235,152 @@
      "badge": "SINGLE-SOURCE"
     }
    ],
-   "subgroups": {
-    "value": null,
-    "null_reason": "LOC gives only a count; GHA names 'western Nuer' only as a region",
-    "count_text": "nine or ten separately named groups",
-    "cite": {
-     "source": "LOC1991_NONMUSLIM",
-     "page": "§ Nilotes",
-     "quote": "The Nuer have nine or ten separately named groups"
+   "subgroups": [
+    {
+     "name": "Lou",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2524",
+      "pdf_page": 2473,
+      "pdf_file": "6-vol combined scan",
+      "quote": "نوير اللاو ، ليك ، قاوير ، نقوك ، جيكانج ، تيانج ، دوك",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "Lou Nuer, Leek, Gaawar, Ngok, Jikany, Thiang, Dok",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Leek",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2524",
+      "pdf_page": 2473,
+      "pdf_file": "6-vol combined scan",
+      "quote": "نوير اللاو ، ليك ، قاوير ، نقوك ، جيكانج ، تيانج ، دوك",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "Lou Nuer, Leek, Gaawar, Ngok, Jikany, Thiang, Dok",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Gaawar",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2524",
+      "pdf_page": 2473,
+      "pdf_file": "6-vol combined scan",
+      "quote": "نوير اللاو ، ليك ، قاوير ، نقوك ، جيكانج ، تيانج ، دوك",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "Lou Nuer, Leek, Gaawar, Ngok, Jikany, Thiang, Dok",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Jikany",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2524",
+      "pdf_page": 2473,
+      "pdf_file": "6-vol combined scan",
+      "quote": "نوير اللاو ، ليك ، قاوير ، نقوك ، جيكانج ، تيانج ، دوك",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "Lou Nuer, Leek, Gaawar, Ngok, Jikany, Thiang, Dok",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Thiang",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2524",
+      "pdf_page": 2473,
+      "pdf_file": "6-vol combined scan",
+      "quote": "نوير اللاو ، ليك ، قاوير ، نقوك ، جيكانج ، تيانج ، دوك",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "Lou Nuer, Leek, Gaawar, Ngok, Jikany, Thiang, Dok",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Dok",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2524",
+      "pdf_page": 2473,
+      "pdf_file": "6-vol combined scan",
+      "quote": "نوير اللاو ، ليك ، قاوير ، نقوك ، جيكانج ، تيانج ، دوك",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "Lou Nuer, Leek, Gaawar, Ngok, Jikany, Thiang, Dok",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Bul",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2524",
+      "pdf_page": 2473,
+      "pdf_file": "6-vol combined scan",
+      "quote": "نوير اللاو ، ليك ، قاوير ، نقوك ، جيكانج ، تيانج ، دوك",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "Lou Nuer, Leek, Gaawar, Ngok, Jikany, Thiang, Dok",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Jagei",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2524",
+      "pdf_page": 2473,
+      "pdf_file": "6-vol combined scan",
+      "quote": "نوير اللاو ، ليك ، قاوير ، نقوك ، جيكانج ، تيانج ، دوك",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "Lou Nuer, Leek, Gaawar, Ngok, Jikany, Thiang, Dok",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
+     },
+     "badge": "VERIFY"
     }
-   },
+   ],
    "language_family": {
     "value": "Nilotic (Western Nilotic), Eastern Sudanic branch of Nilo-Saharan",
     "cite": [
@@ -2795,10 +3409,24 @@
      {
       "source": "GHA7_CH23",
       "page": "p.595"
+     },
+     {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2524",
+      "pdf_page": 2473,
+      "pdf_file": "6-vol combined scan",
+      "quote": "قبيلة نيلية تسكن بحر الغزال حتى نهر السوباط",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "a Nilotic tribe living from Bahr al-Ghazal to the Sobat river",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
      }
     ],
     "anchors": [],
-    "null_reason": "sources read name rivers and a lake only; no settlement point checked",
+    "null_reason": "sources read (incl. QASIM_MAWSUA vol.6 p.2524) name rivers and regions only; no settlement point checked",
     "map_limits": "text only"
    },
    "controlled_areas": [],
@@ -2821,7 +3449,8 @@
     "LOC1991_NONMUSLIM",
     "GHA5_CH7",
     "GHA7_CH4",
-    "GHA7_CH23"
+    "GHA7_CH23",
+    "QASIM_MAWSUA"
    ],
    "batch": "2b (LOC 1991, GHA, MacMichael 1922)",
    "relations": [
@@ -2902,6 +3531,20 @@
       "source": "LOC1991_NONMUSLIM",
       "page": "§ Nilotes",
       "quote": "settled mainly in a limited, uninterrupted area along the west bank of the Bahr al Jabal, just north of the point where it becomes the White Nile proper"
+     },
+     {
+      "source": "QASIM_MAWSUA",
+      "vol": 3,
+      "page": "p.1252",
+      "pdf_page": 1215,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وشرق النيل ما بين كدوك والتوفيقية الى نهر السوباط",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "and east of the Nile between Kodok and Tawfiqiyya to the Sobat river",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
      }
     ],
     "anchors": [
@@ -2920,7 +3563,8 @@
     ],
     "map_limits": "text only",
     "badge": "SINGLE-SOURCE",
-    "conflict_note": "LOC places them on the Bahr al Jabal just north of where it becomes the White Nile; GHA places the heartland at the Nile–Sobat confluence. Both are given."
+    "conflict_note": "LOC places them on the Bahr al Jabal just north of where it becomes the White Nile; GHA places the heartland at the Nile–Sobat confluence. Both are given.",
+    "qasim_note": "Qasim vol.3 pp.1251–1252 (the text starting 'between Kaka' runs over a page break; VERIFY)."
    },
    "controlled_areas": [
     {
@@ -2955,6 +3599,20 @@
       "source": "LOC1991_NONMUSLIM",
       "page": "§ Nilotes",
       "quote": "the mythical hero Nyiking, putative founder of the Shilluk"
+     },
+     {
+      "source": "QASIM_MAWSUA",
+      "vol": 3,
+      "page": "p.1252",
+      "pdf_page": 1215,
+      "pdf_file": "6-vol combined scan",
+      "quote": "ونظامهم وراثى فى بيت نياكانق اول ملوكهم ، ويقيم ملكهم فى فشودة",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "their system is hereditary in the house of Nyikang, their first king, and their king resides at Fashoda",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
      }
     ],
     "badge": "TRADITION"
@@ -2962,7 +3620,8 @@
    "sources": [
     "LOC1991_NONMUSLIM",
     "GHA5_CH7",
-    "GHA6_CH14"
+    "GHA6_CH14",
+    "QASIM_MAWSUA"
    ],
    "batch": "2b (LOC 1991, GHA, MacMichael 1922)",
    "relations": [
@@ -3047,10 +3706,280 @@
      "badge": "SINGLE-SOURCE"
     }
    ],
-   "subgroups": {
-    "value": null,
-    "null_reason": "MacMichael lists sub-tribes on p.87, but the OCR column text is garbled; not transcribed (VERIFY against page image)"
-   },
+   "subgroups": [
+    {
+     "name": "Fukunyung",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2286",
+      "pdf_page": 2256,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وينقسم المساليت الى سبعة عشر فرعاً",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Masalit divide into seventeen branches",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Mistereng",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2286",
+      "pdf_page": 2256,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وينقسم المساليت الى سبعة عشر فرعاً",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Masalit divide into seventeen branches",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Asumung",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2286",
+      "pdf_page": 2256,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وينقسم المساليت الى سبعة عشر فرعاً",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Masalit divide into seventeen branches",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Sirbung",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2286",
+      "pdf_page": 2256,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وينقسم المساليت الى سبعة عشر فرعاً",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Masalit divide into seventeen branches",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Mararit",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2286",
+      "pdf_page": 2256,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وينقسم المساليت الى سبعة عشر فرعاً",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Masalit divide into seventeen branches",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Nyirnung",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2286",
+      "pdf_page": 2256,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وينقسم المساليت الى سبعة عشر فرعاً",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Masalit divide into seventeen branches",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Minjiri",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2286",
+      "pdf_page": 2256,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وينقسم المساليت الى سبعة عشر فرعاً",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Masalit divide into seventeen branches",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Sumung",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2286",
+      "pdf_page": 2256,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وينقسم المساليت الى سبعة عشر فرعاً",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Masalit divide into seventeen branches",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Abdrag",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2286",
+      "pdf_page": 2256,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وينقسم المساليت الى سبعة عشر فرعاً",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Masalit divide into seventeen branches",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Ajmung",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2286",
+      "pdf_page": 2256,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وينقسم المساليت الى سبعة عشر فرعاً",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Masalit divide into seventeen branches",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Kiryung",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2286",
+      "pdf_page": 2256,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وينقسم المساليت الى سبعة عشر فرعاً",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Masalit divide into seventeen branches",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Kusubi",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2286",
+      "pdf_page": 2256,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وينقسم المساليت الى سبعة عشر فرعاً",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Masalit divide into seventeen branches",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Furung",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2286",
+      "pdf_page": 2256,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وينقسم المساليت الى سبعة عشر فرعاً",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Masalit divide into seventeen branches",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Daju (from Dar Sila)",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2286",
+      "pdf_page": 2256,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وينقسم المساليت الى سبعة عشر فرعاً",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Masalit divide into seventeen branches",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Amutung",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2286",
+      "pdf_page": 2256,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وينقسم المساليت الى سبعة عشر فرعاً",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Masalit divide into seventeen branches",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Mundira",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2286",
+      "pdf_page": 2256,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وينقسم المساليت الى سبعة عشر فرعاً",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Masalit divide into seventeen branches",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "VERIFY"
+    },
+    {
+     "name": "Manjiri",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2286",
+      "pdf_page": 2256,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وينقسم المساليت الى سبعة عشر فرعاً",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Masalit divide into seventeen branches",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "VERIFY"
+    }
+   ],
    "language_family": {
     "value": "Nilo-Saharan (LOC lists them among Darfur peoples speaking Nilo-Saharan languages)",
     "cite": {
@@ -3073,10 +4002,46 @@
       "source": "LOC1991_MUSLIMPEOPLES",
       "page": "§ Masalit, Daju, and Berti",
       "quote": "The Masalit, living on the Sudan-Chad border, were the largest group."
+     },
+     {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2285",
+      "pdf_page": 2255,
+      "pdf_file": "6-vol combined scan",
+      "quote": "يحدون غرباً بودّاى وجنوباً بدار سلا (م) وشمالاً بدار تاما (م) والقمر (م) وشرقاً بالفور",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "bounded on the west by Wadai, on the south by Dar Sila, on the north by Dar Tama and the Qimr, and on the east by the Fur",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
      }
     ],
-    "anchors": [],
-    "null_reason": "no settlement named in the sources read (Geneina does not appear in them)",
+    "anchors": [
+     {
+      "place": "Dar Masalit",
+      "gazetteer": "wikidata:Q56545571",
+      "lat": 12.75,
+      "lon": 22.58333,
+      "coord_source": "Wikidata P625",
+      "cite": {
+       "source": "QASIM_MAWSUA",
+       "vol": 6,
+       "page": "p.2285",
+       "pdf_page": 2255,
+       "pdf_file": "6-vol combined scan",
+       "quote": "يحدون غرباً بودّاى وجنوباً بدار سلا (م) وشمالاً بدار تاما (م) والقمر (م) وشرقاً بالفور",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "bounded on the west by Wadai, on the south by Dar Sila, on the north by Dar Tama and the Qimr, and on the east by the Fur",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+       "badge": "VERIFY",
+       "ocr_note": "Tesseract OCR, not checked against the page image"
+      },
+      "note": "APPROXIMATE: Wikidata point for the Dar Masalit region; Qasim gives bounds, not a point."
+     }
+    ],
     "map_limits": "text only; MacMichael's bounds are neighbouring territories, not coordinates",
     "badge": "SINGLE-SOURCE"
    },
@@ -3093,17 +4058,46 @@
      "certainty": "medium"
     }
    ],
-   "ancestry": {
-    "value": null,
-    "null_reason": "not stated in sources read"
-   },
+   "ancestry": [
+    {
+     "text_en": "They trace their lineage to the Bani Khuzam and the Messiria; another account traces the Masalit and the house of Bahr al-Din to the Husayniyya Ja'fariyya.",
+     "cite": [
+      {
+       "source": "QASIM_MAWSUA",
+       "vol": 6,
+       "page": "p.2286",
+       "pdf_page": 2256,
+       "pdf_file": "6-vol combined scan",
+       "quote": "ويصلون نسبهم ببني خزام (م) والمسيرية",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "they link their lineage to the Bani Khuzam and the Messiria",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+      },
+      {
+       "source": "QASIM_MAWSUA",
+       "vol": 6,
+       "page": "p.2286",
+       "pdf_page": 2256,
+       "pdf_file": "6-vol combined scan",
+       "quote": "وهناك رواية ترجع المساليت وآل بحر الدين الى الحسينية الجعفرية",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "there is an account tracing the Masalit and the house of Bahr al-Din to the Husayniyya Ja'fariyya",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+      }
+     ],
+     "badge": "TRADITION"
+    }
+   ],
    "origin": {
     "value": null,
     "null_reason": "not stated in sources read"
    },
    "sources": [
     "LOC1991_MUSLIMPEOPLES",
-    "MACMICHAEL1922_V1"
+    "MACMICHAEL1922_V1",
+    "QASIM_MAWSUA"
    ],
    "batch": "2b (LOC 1991, GHA, MacMichael 1922)",
    "relations": [
@@ -3136,9 +4130,33 @@
      },
      "badge": "SINGLE-SOURCE",
      "certainty": "medium"
+    },
+    {
+     "id": "rel-masalit-03",
+     "era_id": "restored-darfur-sultanate-ali-dinar",
+     "other_group_or_state": "Darfur sultanate ('Ali Dinar)",
+     "type": "conflict",
+     "text_en": "Sultan Abubakr Isma'il fought 'Ali Dinar; in 1905 'Ali Dinar's troops seized him and took him to El Fasher, and one of 'Ali Dinar's commanders took over Dar Masalit for a time.",
+     "text_ar": "حارب السلطان أبوبكر إسماعيل علي دينار، وفي 1905م قبض عليه جنود علي دينار وأخذوه إلى الفاشر، واستولى أحد قواد علي دينار على دار مساليت.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2286",
+      "pdf_page": 2256,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وفى عام ١٩٠٥م قبض عليه جنود علي دينار واخذوه للفاشر",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "in 1905 'Ali Dinar's soldiers seized him and took him to El Fasher",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "SINGLE-SOURCE",
+     "certainty": "medium"
     }
    ],
-   "relations_generated_from": "db/relations.json"
+   "relations_generated_from": "db/relations.json",
+   "subgroups_note": "17 branches as printed in Qasim vol.6 p.2286, read from the page image; romanisation is provisional (VERIFY). The Erenga and Mun in the north are independent branches."
   },
   {
    "id": "baggara",
@@ -3238,6 +4256,38 @@
       "page": "p.273"
      },
      "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Rizayqat (Darfur)",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 1,
+      "page": "p.312",
+      "pdf_page": 315,
+      "pdf_file": "6-vol combined scan",
+      "quote": "الحوازمة ... المسيرية ... الحمر ... الرزيقات والهبانية والتعايشة وبنى هلبة",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Hawazma ... Messiria ... Humr ... Rizayqat, Habbaniyya, Ta'aisha and Bani Halba",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "name": "Habbaniyya (Darfur; a branch in Kordofan)",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 1,
+      "page": "p.312",
+      "pdf_page": 315,
+      "pdf_file": "6-vol combined scan",
+      "quote": "الحوازمة ... المسيرية ... الحمر ... الرزيقات والهبانية والتعايشة وبنى هلبة",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the Hawazma ... Messiria ... Humr ... Rizayqat, Habbaniyya, Ta'aisha and Bani Halba",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "SINGLE-SOURCE"
     }
    ],
    "language_family": {
@@ -3261,29 +4311,61 @@
      {
       "source": "MACMICHAEL1922_V1",
       "page": "p.272"
+     },
+     {
+      "source": "QASIM_MAWSUA",
+      "vol": 1,
+      "page": "p.312",
+      "pdf_page": 315,
+      "pdf_file": "6-vol combined scan",
+      "quote": "مخصصة بالقبائل الجهنية في غرب السودان التي ترعى البقر ومعظمهم في كردفان ودارفور",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "specifically the Juhayna tribes of western Sudan that herd cattle, most of them in Kordofan and Darfur",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
      }
     ],
     "anchors": [],
-    "null_reason": "a belt, not a point; sub-tribe locations are text only",
+    "null_reason": "a belt across Kordofan and Darfur, not a point; QASIM_MAWSUA vol.1 p.312 locates sub-tribes by text only",
     "map_limits": "text only",
     "badge": "APPROXIMATE"
    },
    "controlled_areas": [],
-   "ancestry": {
-    "value": "Group identity was partly occupational: LOC says a sedentary Fur who becomes a cattle nomad is perceived as Baqqara, and MacMichael says no real dividing line can be drawn between the Bakkara tribes.",
-    "cite": [
-     {
-      "source": "LOC1991_MUSLIMPEOPLES",
-      "page": "§ Arabs",
-      "quote": "when a sedentary Fur becomes a cattle nomad, he is perceived as a Baqqara"
-     },
-     {
-      "source": "MACMICHAEL1922_V1",
-      "page": "p.272"
-     }
-    ],
-    "badge": "SINGLE-SOURCE"
-   },
+   "ancestry": [
+    {
+     "text_en": "Most claim descent from Juhayna; many trace to al-Junayd b. Ahmad, of the Ja'aliyyin who migrated to Kordofan. Ta'aisha, Habbaniyya, Awlad Hamid and Salim are sons of Hammad b. Junayd; Hawazma, Messiria, Humr and Rizayqat sons of his brother 'Atiyya.",
+     "cite": [
+      {
+       "source": "QASIM_MAWSUA",
+       "vol": 1,
+       "page": "p.312",
+       "pdf_page": 315,
+       "pdf_file": "6-vol combined scan",
+       "quote": "مخصصة بالقبائل الجهنية في غرب السودان التي ترعى البقر ومعظمهم في كردفان ودارفور",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "specifically the Juhayna tribes of western Sudan that herd cattle, most of them in Kordofan and Darfur",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+      },
+      {
+       "source": "QASIM_MAWSUA",
+       "vol": 1,
+       "page": "p.313",
+       "pdf_page": 316,
+       "pdf_file": "6-vol combined scan",
+       "quote": "والكل ينتسبون الى جهينة",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "and all trace their descent to Juhayna",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+       "badge": "VERIFY",
+       "ocr_note": "Tesseract OCR, not checked against the page image"
+      }
+     ],
+     "badge": "TRADITION",
+     "note": "Qasim cites Muhammad 'Awad Muhammad and MacMichael for this; genealogy is the tribes' own account."
+    }
+   ],
    "origin": {
     "value": "Arabic-speaking cattle nomads; LOC says they moved south and west. Traditional genealogies make the Bakkara and the camel-owning Fezara branches of one 'Guhayna' group.",
     "cite": [
@@ -3304,7 +4386,8 @@
     "LOC1991_MUSLIMPEOPLES",
     "GHA5_CH7",
     "GHA6_CH14",
-    "MACMICHAEL1922_V1"
+    "MACMICHAEL1922_V1",
+    "QASIM_MAWSUA"
    ],
    "batch": "2b (LOC 1991, GHA, MacMichael 1922)",
    "colonial_framing": [
@@ -3352,6 +4435,206 @@
      "cite": {
       "source": "GHA5_CH7",
       "page": "p.195"
+     },
+     "badge": "SINGLE-SOURCE",
+     "certainty": "medium"
+    }
+   ],
+   "relations_generated_from": "db/relations.json"
+  },
+  {
+   "id": "hamaj",
+   "name_en": "Hamaj",
+   "name_ar": {
+    "value": "الهمج",
+    "status": "working translation – needs native-speaker review"
+   },
+   "aliases": [
+    {
+     "name": "Hamajawi (singular)",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2560",
+      "pdf_page": 2509,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وواحدهم همجاوي",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "singular Hamajawi",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "SINGLE-SOURCE",
+     "note": "Qasim says the name may have been a label given them by contemporaries among the Funj state's people, with a pejorative sense."
+    }
+   ],
+   "subgroups": {
+    "value": null,
+    "null_reason": "not named in sources read"
+   },
+   "language_family": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "homeland": {
+    "text_en": "Southern Jazira / the Funj mountains (renamed Jibal Idris in the Turkish period); their centre was Jebel Qeli south of Karkoj.",
+    "text_ar": "جنوب الجزيرة وجبال الفونج (جبال ادريس)، ومركزهم جبل قلي جنوب كركوج.",
+    "text_ar_status": "working translation – needs native-speaker review",
+    "cite": [
+     {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2560",
+      "pdf_page": 2509,
+      "pdf_file": "6-vol combined scan",
+      "quote": "ومركزهم جبل قلى جنوب كركوج",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "their centre is Jebel Qeli, south of Karkoj",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     }
+    ],
+    "anchors": [],
+    "null_reason": "Jebel Qeli not matched to a Wikidata item with coordinates; not anchored",
+    "map_limits": "text only",
+    "badge": "SINGLE-SOURCE"
+   },
+   "controlled_areas": [
+    {
+     "era_id": "funj-sultanate-of-sennar",
+     "place": "Sennar (Funj court)",
+     "text_en": "From Muhammad Abu Likaylik, Hamaj viziers held power at the Funj court until the Egyptian conquest of 1821.",
+     "cite": [
+      {
+       "source": "QASIM_MAWSUA",
+       "vol": 6,
+       "page": "p.2560",
+       "pdf_page": 2509,
+       "pdf_file": "6-vol combined scan",
+       "quote": "والهمج قبيل من الناس كان منهم وزراء الفونج",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "the Hamaj, a people from among whom came the viziers of the Funj",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+      },
+      {
+       "source": "GHA5_CH7",
+       "page": "p.185"
+      }
+     ],
+     "certainty": "medium"
+    }
+   ],
+   "ancestry": [
+    {
+     "text_en": "Abu Likaylik's genealogy makes them 'Awadiyya Ja'aliyyin.",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2560",
+      "pdf_page": 2509,
+      "pdf_file": "6-vol combined scan",
+      "quote": "فقيل انهم من العوضية الجعليين كما يظهر من نسب ابي لكيلك",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "it is said they are from the 'Awadiyya Ja'aliyyin, as appears from Abu Likaylik's genealogy",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     "badge": "TRADITION"
+    }
+   ],
+   "origin": {
+    "value": "Disputed. Qasim: 'more likely' Arabized remnants of the original peoples of the southern Jazira who mixed with Arabs; some researchers say a mix of Nuba and Arabs; others link them to the 'Awadiyya. GHA: credited with a Ja'ali pedigree but 'neither Funj nor Arabs'.",
+    "cite": [
+     {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2560",
+      "pdf_page": 2509,
+      "pdf_file": "6-vol combined scan",
+      "quote": "والارجح ان الهمج متعربون اختلطوا بالعرب",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "the more likely view is that the Hamaj are Arabized people who mixed with the Arabs",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+     },
+     {
+      "source": "GHA5_CH7",
+      "page": "p.185"
+     }
+    ],
+    "badge": "CONTESTED"
+   },
+   "sources": [
+    "QASIM_MAWSUA",
+    "GHA5_CH7"
+   ],
+   "batch": "2 (QASIM_MAWSUA stub, vol. 6; other sources to follow)",
+   "relations": [
+    {
+     "id": "rel-hamaj-01",
+     "era_id": "funj-sultanate-of-sennar",
+     "other_group_or_state": "Funj sultans",
+     "type": "subjugation",
+     "text_en": "Hamaj viziers led by Muhammad Abu Likaylik and his kin dominated the Funj sultans; the Funj could not rid themselves of them until the Egyptian conquest.",
+     "text_ar": "سيطر وزراء الهمج بقيادة محمد أبو لكيلك وأهله على سلاطين الفونج، ولم يستطع الفونج التخلص منهم حتى الفتح المصري.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": [
+      {
+       "source": "QASIM_MAWSUA",
+       "vol": 6,
+       "page": "p.2560",
+       "pdf_page": 2509,
+       "pdf_file": "6-vol combined scan",
+       "quote": "والهمج قبيل من الناس كان منهم وزراء الفونج",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "the Hamaj, a people from among whom came the viziers of the Funj",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+      },
+      {
+       "source": "QASIM_MAWSUA",
+       "vol": 6,
+       "page": "p.2563",
+       "pdf_page": 2511,
+       "pdf_file": "6-vol combined scan",
+       "quote": "وحاول الفونج التخلص منهم فلم يستطيعوا حتى الفتح المصرى",
+       "quote_lang": "ar",
+       "quote_status": "original source text",
+       "quote_en": "the Funj tried to rid themselves of them but could not, until the Egyptian conquest",
+       "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+       "badge": "VERIFY",
+       "ocr_note": "Tesseract OCR, not checked against the page image"
+      },
+      {
+       "source": "GHA5_CH7",
+       "page": "p.185"
+      }
+     ],
+     "badge": "REPORTED",
+     "certainty": "high"
+    },
+    {
+     "id": "rel-hamaj-02",
+     "era_id": "funj-sultanate-of-sennar",
+     "other_group_or_state": "Shukriyya",
+     "type": "conflict",
+     "text_en": "The Hamaj vizier Badi b. Rajab fought the Shukriyya, defeated them and killed their shaykh Abu 'Ali.",
+     "text_ar": "حارب الوزير الهمجي بادي بن رجب الشكرية وهزمهم وقتل شيخهم أبا علي.",
+     "text_ar_status": "working translation – needs native-speaker review",
+     "cite": {
+      "source": "QASIM_MAWSUA",
+      "vol": 6,
+      "page": "p.2563",
+      "pdf_page": 2511,
+      "pdf_file": "6-vol combined scan",
+      "quote": "وحارب الشكرية وهزمهم وقتل شيخهم ابا على",
+      "quote_lang": "ar",
+      "quote_status": "original source text",
+      "quote_en": "he fought the Shukriyya, defeated them and killed their shaykh Abu 'Ali",
+      "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+      "badge": "VERIFY",
+      "ocr_note": "Tesseract OCR, not checked against the page image"
      },
      "badge": "SINGLE-SOURCE",
      "certainty": "medium"

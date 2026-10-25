@@ -761,6 +761,100 @@
    },
    "badge": "SINGLE-SOURCE",
    "certainty": "medium"
+  },
+  {
+   "id": "rel-hamaj-01",
+   "group": "hamaj",
+   "era_id": "funj-sultanate-of-sennar",
+   "other_group_or_state": "Funj sultans",
+   "type": "subjugation",
+   "text_en": "Hamaj viziers led by Muhammad Abu Likaylik and his kin dominated the Funj sultans; the Funj could not rid themselves of them until the Egyptian conquest.",
+   "text_ar": "سيطر وزراء الهمج بقيادة محمد أبو لكيلك وأهله على سلاطين الفونج، ولم يستطع الفونج التخلص منهم حتى الفتح المصري.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": [
+    {
+     "source": "QASIM_MAWSUA",
+     "vol": 6,
+     "page": "p.2560",
+     "pdf_page": 2509,
+     "pdf_file": "6-vol combined scan",
+     "quote": "والهمج قبيل من الناس كان منهم وزراء الفونج",
+     "quote_lang": "ar",
+     "quote_status": "original source text",
+     "quote_en": "the Hamaj, a people from among whom came the viziers of the Funj",
+     "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+    },
+    {
+     "source": "QASIM_MAWSUA",
+     "vol": 6,
+     "page": "p.2563",
+     "pdf_page": 2511,
+     "pdf_file": "6-vol combined scan",
+     "quote": "وحاول الفونج التخلص منهم فلم يستطيعوا حتى الفتح المصرى",
+     "quote_lang": "ar",
+     "quote_status": "original source text",
+     "quote_en": "the Funj tried to rid themselves of them but could not, until the Egyptian conquest",
+     "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+     "badge": "VERIFY",
+     "ocr_note": "Tesseract OCR, not checked against the page image"
+    },
+    {
+     "source": "GHA5_CH7",
+     "page": "p.185"
+    }
+   ],
+   "badge": "REPORTED",
+   "certainty": "high"
+  },
+  {
+   "id": "rel-hamaj-02",
+   "group": "hamaj",
+   "era_id": "funj-sultanate-of-sennar",
+   "other_group_or_state": "Shukriyya",
+   "type": "conflict",
+   "text_en": "The Hamaj vizier Badi b. Rajab fought the Shukriyya, defeated them and killed their shaykh Abu 'Ali.",
+   "text_ar": "حارب الوزير الهمجي بادي بن رجب الشكرية وهزمهم وقتل شيخهم أبا علي.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "QASIM_MAWSUA",
+    "vol": 6,
+    "page": "p.2563",
+    "pdf_page": 2511,
+    "pdf_file": "6-vol combined scan",
+    "quote": "وحارب الشكرية وهزمهم وقتل شيخهم ابا على",
+    "quote_lang": "ar",
+    "quote_status": "original source text",
+    "quote_en": "he fought the Shukriyya, defeated them and killed their shaykh Abu 'Ali",
+    "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review",
+    "badge": "VERIFY",
+    "ocr_note": "Tesseract OCR, not checked against the page image"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
+  },
+  {
+   "id": "rel-masalit-03",
+   "group": "masalit",
+   "era_id": "restored-darfur-sultanate-ali-dinar",
+   "other_group_or_state": "Darfur sultanate ('Ali Dinar)",
+   "type": "conflict",
+   "text_en": "Sultan Abubakr Isma'il fought 'Ali Dinar; in 1905 'Ali Dinar's troops seized him and took him to El Fasher, and one of 'Ali Dinar's commanders took over Dar Masalit for a time.",
+   "text_ar": "حارب السلطان أبوبكر إسماعيل علي دينار، وفي 1905م قبض عليه جنود علي دينار وأخذوه إلى الفاشر، واستولى أحد قواد علي دينار على دار مساليت.",
+   "text_ar_status": "working translation – needs native-speaker review",
+   "cite": {
+    "source": "QASIM_MAWSUA",
+    "vol": 6,
+    "page": "p.2286",
+    "pdf_page": 2256,
+    "pdf_file": "6-vol combined scan",
+    "quote": "وفى عام ١٩٠٥م قبض عليه جنود علي دينار واخذوه للفاشر",
+    "quote_lang": "ar",
+    "quote_status": "original source text",
+    "quote_en": "in 1905 'Ali Dinar's soldiers seized him and took him to El Fasher",
+    "quote_en_status": "working translation of the Arabic original (Historian); needs native-speaker review"
+   },
+   "badge": "SINGLE-SOURCE",
+   "certainty": "medium"
   }
  ]
 }
