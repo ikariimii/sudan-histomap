@@ -688,6 +688,118 @@
     "WP:Wadai_Sultanate": 2,
     "WP:History_of_Libya": 2
    }
+  },
+  "followup_2026_10_25": {
+   "_meta": {
+    "numbering": "0-based index into events_and_extents.items; matches the requested 1, 11, 13, 19, 22",
+    "registry_note": "New IDs are only proposed, not added: the registry lives in data/periods.json, and data/ is off-limits in this task. The Historian should register WB_TP120_1990, UNSC_S2005_60 and UN_NEWS_2009_292942 before citing them.",
+    "counts": {
+     "matched": 2,
+     "partial": 2,
+     "unmatched": 1
+    }
+   },
+   "items": [
+    {
+     "index": 1,
+     "item": "Largest African state outside Egypt in the 2nd millennium BCE",
+     "owner_file": "data/eras/kingdom-of-kerma.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+     "prior_status": "UNMATCHED",
+     "verdict": "unmatched",
+     "sources": [
+      {
+       "registry_id": "SFDAS_HCS2017",
+       "pages": "p. 56",
+       "quote": "capitale du premier État historique du Soudan entre 2 450 et 1 500 av. J.-C."
+      }
+     ],
+     "proposed_wording": "Capital of the first historical state of Sudan, c.2450–1500 BCE",
+     "note": "I didn't find a full-text, lawfully public source for the 'largest African state outside Egypt' superlative. Search abstracts (e.g. Chaix & Grant 1992 or Honegger, doi:10.5070/d68061375) don't count. The proposed wording follows SFDAS p. 56."
+    },
+    {
+     "index": 11,
+     "item": "Battle of Omdurman 1898; Umm Diwaykarat 1899",
+     "owner_file": "data/eras/mahdist-state-mahdiyya.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+     "prior_status": "PARTIAL",
+     "verdict": "partial",
+     "sources": [
+      {
+       "registry_id": "SFDAS_HCS2017",
+       "pages": "p. 629",
+       "quote": "Le 2 septembre 1898, la bataille de Karari, près d’Omdurman, voit l’écrasement des forces mahdistes […] même si le Khalifa Abdullahi ne sera éliminé qu’en novembre 1899"
+      },
+      {
+       "registry_id": "SFDAS_HCS2017",
+       "pages": "p. 639",
+       "quote": "Avant même la disparition du Khalifa Abdullahi (tué en novembre 1899)"
+      }
+     ],
+     "proposed_wording": "Battle of Karari (Omdurman) 1898; end of Khalifa Abdallahi, November 1899",
+     "note": "No source read in full names Umm Diwaykarat. Yagi's thesis (theses.fr 1990MON30044) is not openly available in full, and I didn't use the Wikipedia page or newspaper transcriptions. The casualty figures on p. 629 are not quoted."
+    },
+    {
+     "index": 13,
+     "item": "Gezira Scheme 1925",
+     "owner_file": "data/eras/anglo-egyptian-sudan-condominium.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+     "prior_status": "UNMATCHED",
+     "verdict": "matched",
+     "sources": [
+      {
+       "registry_id": null,
+       "proposed_registry_id": "WB_TP120_1990",
+       "citation": "Plusquellec, H., The Gezira Irrigation Scheme in Sudan: Objectives, Design, and Performance, World Bank Technical Paper 120 (1990)",
+       "url": "https://documents1.worldbank.org/curated/en/377141468778504847/pdf/multi-page.pdf",
+       "pages": "printed p. 16 (PDF p. 26)",
+       "quote": "The Sennar dam is situated on the Blue Nile some 260 km southwest of Khartoum. The dam, completed in 1925, was built to supply the Gezira irrigation scheme by gravity from head works on the left bank of the river."
+      }
+     ],
+     "proposed_wording": null,
+     "note": "IFI source, read in full (112 PDF pp.). It dates the Sennar dam, which feeds the scheme, to 1925; it doesn't use the phrase 'scheme founded 1925'. If the Historian wants exact support, the wording could be 'Sennar dam completed 1925 to supply the Gezira Scheme'."
+    },
+    {
+     "index": 19,
+     "item": "Darfur war from 2003; ICC warrants 2009",
+     "owner_file": "data/eras/al-bashir-ncp-ingaz-regime.json (mirrored in data/periods.json key_events, data/eras/all.json)",
+     "prior_status": "UNMATCHED",
+     "verdict": "matched",
+     "sources": [
+      {
+       "registry_id": null,
+       "proposed_registry_id": "UNSC_S2005_60",
+       "citation": "Report of the International Commission of Inquiry on Darfur to the UN Secretary-General, S/2005/60 (25 Jan 2005)",
+       "url": "https://documents.un.org/api/symbol/access?s=S/2005/60&l=en&t=pdf",
+       "pages": "PDF p. 29 (also PDF p. 12)",
+       "quote": "insurgents took up arms against the central authorities in or around 2002. However, the scale of rebel attacks increased noticeably in February 2003."
+      },
+      {
+       "registry_id": null,
+       "proposed_registry_id": "UN_NEWS_2009_292942",
+       "citation": "UN News, 'ICC issues arrest warrant for Sudanese President for war crimes in Darfur', 4 March 2009",
+       "url": "https://news.un.org/en/story/2009/03/292942",
+       "pages": "single web page",
+       "quote": "The International Criminal Court (ICC) today issued an arrest warrant for war crimes and crimes against humanity committed in the strife-torn Darfur region by Sudanese President Omar Al-Bashir"
+      }
+     ],
+     "proposed_wording": null,
+     "note": "Both UN sources were read in full (S/2005/60 is 189 PDF pp.). The year 2003 matches, but S/2005/60 puts the insurgency's start 'in or around 2002'; the Historian may want to word it as 'escalation from 2003'. S/RES/1593 wasn't needed. The death estimate in the UN News article was not used."
+    },
+    {
+     "index": 22,
+     "item": "Phase 1276–1365 'Mamluk vassal kingdom' reach_en and Old Dongola anchor",
+     "owner_file": "db/extents_historic.json",
+     "prior_status": "PARTIAL",
+     "verdict": "partial",
+     "sources": [
+      {
+       "registry_id": "SFDAS_HCS2017",
+       "pages": "p. 419",
+       "quote": "Son armée envahit la Nubie et poussa jusqu’à Dongola en 1276, où elle rétablit sur le trône le roi Shékanda, lui imposant toutefois un lourd tribut et la cession de provinces entières au pouvoir mamelouk."
+      }
+     ],
+     "proposed_wording": "After 1276 Makuria was a Mamluk tributary that ceded whole provinces; capital Old Dongola. (Drop the 'Lower Nubia to Kordofan' reach and the Abu Hamad anchor, or keep them flagged low-confidence on WP_MAKURIA.)",
+     "note": "Seignobos 2018 and Ruffini 2012 are not openly available in full, so the Siti-era reach and the Abu Hamad border stay unsupported. The same caveat applies to the 9 makuria transitions in db/border_transitions.json."
+    }
+   ]
   }
  }
 }
