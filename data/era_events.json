@@ -668,7 +668,10 @@
    "date": null,
    "en": "Early recorded dynasty of Darfur (dates uncertain)",
    "ar": "أسرة حاكمة مبكرة مدونة في دارفور (التواريخ غير مؤكدة)",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "SFDAS_HCS2017",
+    "pages": "p.434"
+   }
   }
  ],
  "tunjur-kingdom": [
@@ -676,7 +679,10 @@
    "date": null,
    "en": "Ruled Darfur and Wadai before the Keira",
    "ar": "حكموا دارفور ووداي قبل الكيرا",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "SFDAS_HCS2017",
+    "pages": "pp.434–435"
+   }
   }
  ],
  "sultanate-of-darfur-keira": [
@@ -684,7 +690,10 @@
    "date": 1640,
    "en": "Fur dynasty from around Jabal Marra; Sulayman Solongdungu probably the founder; the Kayra sultanate flourished c.1640–1874, restored 1898, annexed 1916 (GHA V ch.7 p.187); O'Fahey (2008) dates it c.1650–1916 (page not confirmed)",
    "ar": "أسرة الكيرا من جبل مرة؛ المؤسس سليمان (سولونج) – يؤرخ أوفاهي السلطنة بنحو 1650–1916 [يحتاج تحقق]",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA5_CH7",
+    "pages": "p.187"
+   }
   },
   {
    "date": 1874,
@@ -742,13 +751,24 @@
    "date": null,
    "en": "Nuba Mountains kingdom; tributary to Funj/Darfur at times",
    "ar": "مملكة في جبال النوبة؛ تابعة بالخراج للفونج/دارفور أحياناً",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA5_CH7",
+    "pages": "p.177"
+   },
+   "cite_extra": [
+    {
+     "source_id": "HD2011",
+     "pages": "pp.4, 7"
+    }
+   ],
+   "date_note": "GHA V p.177 n.24: the tributary relation to the Funj is disputed"
   },
   {
    "date": null,
-   "en": "Incorporated into Condominium administration",
-   "ar": "أُدمجت في إدارة الحكم الثنائي",
-   "cite": "NO-SOURCE"
+   "en": "",
+   "ar": "",
+   "cite": "NO-SOURCE",
+   "removed": "r25 triage: no registered source read this round states Taqali incorporation into the Condominium administration"
   }
  ],
  "shilluk-kingdom": [
@@ -1315,7 +1335,10 @@
    "date": null,
    "en": "Exiled Keira faction contesting Kordofan with Funj and Darfur, late 17th–18th c.",
    "ar": "فرع منفي من الكيرا نازع الفونج ودارفور على كردفان، أواخر القرن السابع عشر–القرن الثامن عشر",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA5_CH7",
+    "pages": "pp.187–189"
+   }
   }
  ],
  "dinka-jieng-communities": [
