@@ -291,14 +291,16 @@
    }
   },
   {
-   "date": null,
+   "date": 629,
    "en": "Merged into Makuria in the 7th century",
    "ar": "اندمجت في المقرة في القرن السابع",
    "cite": {
     "source_id": "SFDAS_HCS2017",
     "pages": "pp.402–404",
     "cite_text": "Annexation by Makuria, possibly at the Sassanid withdrawal in 629 (p.404)"
-   }
+   },
+   "approx": true,
+   "date_note": "SFDAS p.404: Makuria probably annexed Nobadia at the Sassanid withdrawal from Egypt in 629 ('plutôt lors du retrait … en 629')"
   }
  ],
  "makuria": [
@@ -972,22 +974,25 @@
  ],
  "roman-byzantine-egypt": [
   {
-   "date": null,
+   "date": -23,
    "en": "Petronius' punitive campaign captures Napata 23 BCE after Meroitic sack of Aswan (GHA II)",
    "ar": "حملة بترونيوس التأديبية تستولي على نبتة 23 ق.م بعد نهب المرويين لأسوان (تاريخ أفريقيا العام، المجلد الثاني)",
    "cite": {
     "source_id": "GHA2",
     "pages": "pp.208, 290"
-   }
+   },
+   "date_note": "GHA II p.290: Petronius 'captured Napata in —23'"
   },
   {
-   "date": null,
+   "date": -21,
    "en": "Treaty of Samos 21/20 BCE; frontier at Hiera Sycaminos (Maharraqa)",
    "ar": "معاهدة ساموس 21/20 ق.م؛ الحدود عند هيرا سيكامينوس (المحرقة)",
    "cite": {
     "source_id": "GHA2",
     "pages": "pp.208, 290"
-   }
+   },
+   "approx": true,
+   "date_note": "GHA II p.290: 'In —21 or —20 a peace treaty was negotiated at Samos'"
   }
  ],
  "islamic-egypt-rashidunfatimidayyubid": [
@@ -1319,13 +1324,15 @@
  ],
  "beja-red-sea-hills-peoples": [
   {
-   "date": null,
+   "date": 276,
    "en": "Blemmyes (GHA II: 'customarily identified with the Bedja tribes') raid Upper Egypt; suppressed under Probus (276–282 CE)",
    "ar": "البليميون (تاريخ أفريقيا العام، المجلد الثاني: «يُطابَقون عادةً مع قبائل البجة») يغيرون على صعيد مصر؛ قُمعوا في عهد بروبوس (276–282 م)",
    "cite": {
     "source_id": "GHA2",
     "pages": "pp.215, 294"
-   }
+   },
+   "approx": true,
+   "date_note": "GHA II p.215: Blemmyes dominated under Probus (276-82); year = start of reign"
   },
   {
    "date": null,
