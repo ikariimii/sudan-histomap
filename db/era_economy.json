@@ -1,0 +1,1117 @@
+{
+  "_meta": {
+    "owner_scope": "Sudan Geopolitical Analyst fills eras from 1956 onward; the Historian fills earlier eras in this same file. Do not edit the other owner's keys.",
+    "built": "2026-10-25",
+    "rules": "Ratings cite a reason; EDITORIAL unless the source says it directly. Modern indicators from WB/IMF/UN read in full or IMF/WB ids already in era sources (exceptions badged). No invented numbers, no fatality or control figures. Arabic is a working translation pending native review.",
+    "to_register": [
+      "WB_MPO_SDN_OCT2026",
+      "EIA_SDN2013",
+      "CBOS_POL2007"
+    ]
+  },
+  "independent-sudan-first-parliamentary-period": {
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read assesses the economy in 1956–58."
+    },
+    "rating_basis_en": {
+      "value": "No source read rates economic conditions in this period.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "rating_basis_ar": {
+      "value": "لا يقيّم أي مصدر مقروء الأوضاع الاقتصادية في هذه الفترة.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE",
+        "WORKING-TRANSLATION"
+      ],
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read in full names this era's currency; not filled from memory."
+    },
+    "main_trade": {
+      "exports": {
+        "value": "Gezira cotton ('the backbone of the Sudan economy')",
+        "cite": "GHA8",
+        "badges": [
+          "SOURCED"
+        ],
+        "page": "p.322"
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [],
+      "cite": "GHA8",
+      "badges": [
+        "SOURCED"
+      ]
+    },
+    "economic_base": {
+      "value": "Gezira cotton scheme, run since 1950 by the Sudan Gezira Board, about 26,000 tenant farmers in 1958",
+      "cite": "GHA8",
+      "badges": [
+        "SOURCED"
+      ],
+      "page": "p.322"
+    },
+    "indicators": [
+      {
+        "name": "Gezira tenant farmers",
+        "value": 26000,
+        "unit": "farmers",
+        "year": 1958,
+        "cite": "GHA8",
+        "badges": [
+          "SOURCED",
+          "NOT-IFI"
+        ],
+        "note": "GHA VIII p.322 (UNESCO); a pre-modern-era count, not a WB/IMF/UN macro figure"
+      }
+    ]
+  },
+  "abboud-military-regime": {
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "Era text: 'No source read covers economic policy under Abboud.'"
+    },
+    "rating_basis_en": {
+      "value": "No source read covers economic policy under Abboud.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "rating_basis_ar": {
+      "value": "لا يغطي أي مصدر مقروء السياسة الاقتصادية في عهد عبود.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE",
+        "WORKING-TRANSLATION"
+      ],
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read in full names this era's currency; not filled from memory."
+    },
+    "main_trade": {
+      "exports": {
+        "value": "Gezira cotton",
+        "cite": "GHA8",
+        "badges": [
+          "SOURCED"
+        ],
+        "page": "p.322"
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [],
+      "cite": "GHA8",
+      "badges": [
+        "SOURCED"
+      ]
+    },
+    "economic_base": {
+      "value": "Gezira scheme, 'the backbone of the Sudan economy', about 26,000 tenants in 1958",
+      "cite": "GHA8",
+      "badges": [
+        "SOURCED"
+      ],
+      "page": "p.322"
+    },
+    "indicators": []
+  },
+  "second-parliamentary-period": {
+    "rating": {
+      "value": "mixed",
+      "cite": "LOC1991_ECONDEV",
+      "badges": [
+        "EDITORIAL"
+      ]
+    },
+    "rating_basis_en": {
+      "value": "Editorial reading of LOC1991_ECONDEV: per-capita income rose, but spending outran revenue, reserves were depleted and by 1967 the Ten-Year Plan was abandoned with creditworthiness 'open to question'.",
+      "cite": "LOC1991_ECONDEV",
+      "badges": [
+        "EDITORIAL"
+      ]
+    },
+    "rating_basis_ar": {
+      "value": "قراءة تحريرية لـ LOC1991_ECONDEV: ارتفع دخل الفرد، لكن الإنفاق تجاوز الإيرادات واستُنزفت الاحتياطيات، وبحلول 1967 تُخلي عن الخطة العشرية وأصبحت الجدارة الائتمانية للسودان 'موضع تساؤل'.",
+      "cite": "LOC1991_ECONDEV",
+      "badges": [
+        "EDITORIAL",
+        "WORKING-TRANSLATION"
+      ],
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read in full names this era's currency; not filled from memory."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "Era text: 'No source read gives 1960s Gezira cotton output or prices.'"
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": "Irrigated Gezira Scheme and Sudan Railways; Ten-Year Plan works (Khashm al-Qirba, Managil extension, Roseires Dam)",
+      "cite": "LOC1991_ECONDEV",
+      "badges": [
+        "SOURCED"
+      ]
+    },
+    "indicators": [],
+    "indicators_note": "Per-capita USD 86 to 104 (LOC1991_ECONDEV) left out: not a WB/IMF/UN figure."
+  },
+  "nimeiry-era-democratic-republic-of-sudan": {
+    "rating": {
+      "value": "mixed",
+      "cite": "LOC1991_ECONDEV",
+      "badges": [
+        "EDITORIAL"
+      ]
+    },
+    "rating_basis_en": {
+      "value": "Editorial reading: Gulf capital and Chevron's oil finds (LOC1991_ECON; LOC1991_ENERGY) against deficit financing, inflation and debt arrears from the late 1970s (LOC1991_ECONDEV) and the 1985 devaluation (WB_SDN1985).",
+      "cite": "LOC1991_ECONDEV",
+      "badges": [
+        "EDITORIAL"
+      ]
+    },
+    "rating_basis_ar": {
+      "value": "قراءة تحريرية: رؤوس أموال خليجية واكتشافات شيفرون النفطية، مقابل تمويل العجز والتضخم ومتأخرات الديون منذ أواخر السبعينيات وتخفيض قيمة العملة عام 1985.",
+      "cite": "LOC1991_ECONDEV",
+      "badges": [
+        "EDITORIAL",
+        "WORKING-TRANSLATION"
+      ],
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": "Sudanese pound (LSd)",
+      "type": "banknote",
+      "issuer": null,
+      "example_artifact": null,
+      "cite": "WB_SDN1985",
+      "page": "pdf p.3",
+      "badges": [
+        "SOURCED"
+      ],
+      "note": "Name and symbol as in the era text citing WB_SDN1985; type 'banknote' and issuer not stated in a source read, so issuer is null.",
+      "type_note": "type is EDITORIAL"
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": "Nationalisations 1970–71, then denationalisation and the 1974 'open door'; Gulf capital for a 'breadbasket' strategy; Chevron oil finds at Abu Jabirah (1979) and Unity (1980)",
+      "cite": "LOC1991_ECONDEV",
+      "badges": [
+        "SOURCED"
+      ],
+      "note": "Also LOC1991_ECON, LOC1991_ENERGY"
+    },
+    "indicators": [
+      {
+        "name": "Exchange rate before Feb 1985 package",
+        "value": 1.3,
+        "unit": "LSd per USD",
+        "year": 1985,
+        "cite": "WB_SDN1985",
+        "badges": [
+          "SINGLE-SOURCE"
+        ],
+        "note": "pdf p.3"
+      },
+      {
+        "name": "Exchange rate after Feb 1985 devaluation",
+        "value": 2.5,
+        "unit": "LSd per USD",
+        "year": 1985,
+        "cite": "WB_SDN1985",
+        "badges": [
+          "SINGLE-SOURCE"
+        ],
+        "note": "pdf p.3"
+      }
+    ]
+  },
+  "transitional-third-parliamentary-period": {
+    "rating": {
+      "value": "bad",
+      "cite": "LOC1991_TMC",
+      "badges": [
+        "SOURCED"
+      ],
+      "note": "The source says it directly: the economy was 'in shambles' at the 1985 takeover."
+    },
+    "rating_basis_en": {
+      "value": "LOC1991_TMC: at the 1985 takeover the economy was 'in shambles'; in Feb 1986 the IMF declared Sudan bankrupt.",
+      "cite": "LOC1991_TMC",
+      "badges": [
+        "SOURCED"
+      ]
+    },
+    "rating_basis_ar": {
+      "value": "بحسب LOC1991_TMC: كان الاقتصاد عند استيلاء 1985 'في حالة خراب'، وفي فبراير 1986 أعلن صندوق النقد الدولي إفلاس السودان.",
+      "cite": "LOC1991_TMC",
+      "badges": [
+        "SOURCED",
+        "WORKING-TRANSLATION"
+      ],
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": "Sudanese pound",
+      "type": "banknote",
+      "issuer": null,
+      "example_artifact": "Sudan 1 pound 1987 reverse.jpg",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "Name and type taken only from the db/era_artifacts.json image entry for this era (a 1987 one-pound note); no text source read; issuer null."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": "Agriculture and industry in decline; recovery programme from Aug 1987 and a three-year reform programme from Oct 1988",
+      "cite": "LOC1991_ECONDEV",
+      "badges": [
+        "SOURCED"
+      ],
+      "note": "Debt, capacity and output figures (LOC1991_TMC) left out of indicators: not WB/IMF/UN. Famine death estimate excluded (fatality figure)."
+    },
+    "indicators": []
+  },
+  "al-bashir-ncp-ingaz-regime": {
+    "rating": {
+      "value": "mixed",
+      "cite": "ICG2019",
+      "badges": [
+        "EDITORIAL"
+      ]
+    },
+    "rating_basis_en": {
+      "value": "Editorial reading: oil exports from 1999 (ZH_YU2008) against rising debt (AR_SUDANILE2013) and the 2011 loss of southern oil, which deepened the slump that sparked the 2018–19 revolution (era text, 'ICG').",
+      "cite": "ICG2019",
+      "badges": [
+        "EDITORIAL"
+      ],
+      "note": "Era text writes 'ICG'; ICG2019 is the only ICG id in its sources."
+    },
+    "rating_basis_ar": {
+      "value": "قراءة تحريرية: صادرات نفطية منذ 1999 مقابل تزايد الديون وفقدان نفط الجنوب عام 2011 الذي عمّق الركود الذي أشعل ثورة 2018–2019.",
+      "cite": "ICG2019",
+      "badges": [
+        "EDITORIAL",
+        "WORKING-TRANSLATION"
+      ],
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": "Sudanese dinar, then (from 2007) Sudanese pound",
+      "type": "banknote",
+      "issuer": "Central Bank of Sudan",
+      "example_artifact": "Sudan 200 Dinar note.jpg",
+      "cite": null,
+      "cite_current": {
+        "proposed_id": "CBOS_POL2007",
+        "author": "Central Bank of Sudan (Governor Sabir Mohamed Hassan)",
+        "title": "Central Bank of Sudan Policies for 2007 (circular dated 2006-12-28), The Currency Pillar",
+        "url": "https://cbos.gov.sd/en/content/central-bank-sudan-policies-2007",
+        "read_in_full": "2026-10-25"
+      },
+      "badges": [
+        "PARTLY-SOURCED"
+      ],
+      "changes": [
+        {
+          "change": "Sudanese pound replaced by the Sudanese dinar, 1992",
+          "cite": null,
+          "badges": [
+            "NO-SOURCE"
+          ],
+          "note": "No WB/IMF/UN or central-bank text naming 1992 was read in full (IMF CR 07/343 blocked); not filled from memory."
+        },
+        {
+          "change": "Dinar to Sudanese pound, 2007",
+          "cite": null,
+          "cite_current": {
+            "proposed_id": "CBOS_POL2007",
+            "author": "Central Bank of Sudan (Governor Sabir Mohamed Hassan)",
+            "title": "Central Bank of Sudan Policies for 2007 (circular dated 2006-12-28), The Currency Pillar",
+            "url": "https://cbos.gov.sd/en/content/central-bank-sudan-policies-2007",
+            "read_in_full": "2026-10-25"
+          },
+          "quote": "the new national currency (the Sudanese pound) will be introduced throughout the country effective the beginning of 2007 … During the year 2007, the Sudanese pound and the Sudanese dinar will be circulating side by side",
+          "badges": [
+            "SOURCED"
+          ]
+        }
+      ]
+    },
+    "main_trade": {
+      "exports": {
+        "value": "Crude oil, exported by pipeline across the North",
+        "cite": "RU_RIA_2011",
+        "badges": [
+          "SOURCED"
+        ]
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [
+        {
+          "from": "Heglig",
+          "to": "port-sudan",
+          "commodity": "crude oil",
+          "cite": null,
+          "cite_current": {
+            "proposed_id": "EIA_SDN2013",
+            "author": "US Energy Information Administration",
+            "title": "Sudan and South Sudan country analysis (updated 2013-09-05)",
+            "url": "https://web.archive.org/web/20140327064441/www.eia.gov/countries/cab.cfm?fips=su",
+            "read_in_full": "2026-10-25",
+            "note": "US government agency, not WB/IMF/UN; used only under the parent's CONTESTED ruling for reserves and oil output"
+          },
+          "note": "EIA: 'the GNPOC export pipeline that runs from the Heglig processing facility to Port Sudan'. Heglig is not in db/cities.json, db/cities_modern.json or db/city_layers/cities.geojson, so it is plain text and the builder will skip this route."
+        }
+      ],
+      "cite": "RU_RIA_2011",
+      "badges": [
+        "SOURCED"
+      ]
+    },
+    "economic_base": {
+      "value": "Oil: with CNPC's help Sudan went from oil importer to exporter in 1999",
+      "cite": "ZH_YU2008",
+      "badges": [
+        "SOURCED"
+      ],
+      "note": "EIA_SDN2013 agrees: production 'grew rapidly in 1999 with the completion of the GNPOC export pipeline'"
+    },
+    "indicators": [
+      {
+        "name": "Oil reserves",
+        "value": 6000000000,
+        "unit": "barrels",
+        "year": 2011,
+        "cite": "RU_RIA_2011",
+        "badges": [
+          "CONTESTED"
+        ]
+      },
+      {
+        "name": "Proved oil reserves (Sudan and South Sudan)",
+        "value": 5000000000,
+        "unit": "barrels",
+        "year": 2013,
+        "cite": null,
+        "badges": [
+          "CONTESTED"
+        ],
+        "cite_current": {
+          "proposed_id": "EIA_SDN2013",
+          "author": "US Energy Information Administration",
+          "title": "Sudan and South Sudan country analysis (updated 2013-09-05)",
+          "url": "https://web.archive.org/web/20140327064441/www.eia.gov/countries/cab.cfm?fips=su",
+          "read_in_full": "2026-10-25",
+          "note": "US government agency, not WB/IMF/UN; used only under the parent's CONTESTED ruling for reserves and oil output"
+        },
+        "note": "as of 1 Jan 2013"
+      },
+      {
+        "name": "Oil output",
+        "value": 510000,
+        "unit": "barrels per day",
+        "year": 2011,
+        "cite": "RU_RIA_2011",
+        "badges": [
+          "CONTESTED"
+        ]
+      },
+      {
+        "name": "Oil output",
+        "value": 453000,
+        "unit": "barrels per day",
+        "year": 2011,
+        "cite": null,
+        "badges": [
+          "CONTESTED"
+        ],
+        "cite_current": {
+          "proposed_id": "EIA_SDN2013",
+          "author": "US Energy Information Administration",
+          "title": "Sudan and South Sudan country analysis (updated 2013-09-05)",
+          "url": "https://web.archive.org/web/20140327064441/www.eia.gov/countries/cab.cfm?fips=su",
+          "read_in_full": "2026-10-25",
+          "note": "US government agency, not WB/IMF/UN; used only under the parent's CONTESTED ruling for reserves and oil output"
+        },
+        "note": "EIA also gives a 2010 peak of 486,000 bb/d"
+      }
+    ],
+    "indicators_note": "Reserves and output shown from both sources without picking one (parent ruling). Neither is WB/IMF/UN. Debt USD 43bn (AR_SUDANILE2013) and the 70% security-budget figure (ICG) left out: not WB/IMF/UN."
+  },
+  "december-revolution-transition": {
+    "rating": {
+      "value": "bad",
+      "cite": "ICG2019",
+      "badges": [
+        "SOURCED"
+      ],
+      "note": "The source says it directly: 'crushing economic crisis'."
+    },
+    "rating_basis_en": {
+      "value": "ICG2019 describes a 'crushing economic crisis'; inflation reached 342% y-o-y in Mar 2021 (IMF_CR21143 para 6).",
+      "cite": "ICG2019",
+      "badges": [
+        "SOURCED"
+      ]
+    },
+    "rating_basis_ar": {
+      "value": "تصف ICG2019 'أزمة اقتصادية خانقة'؛ وبلغ التضخم 342% على أساس سنوي في مارس 2021.",
+      "cite": "ICG2019",
+      "badges": [
+        "SOURCED",
+        "WORKING-TRANSLATION"
+      ],
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": "Sudanese pound (SDG)",
+      "type": "banknote",
+      "issuer": "Central Bank of Sudan",
+      "example_artifact": null,
+      "cite": "IMF_CR21143",
+      "page": "para 6",
+      "badges": [
+        "SOURCED"
+      ],
+      "note": "Managed float from 21 Feb 2021 (AJA_FLOAT2021; IMF_CR21143 para 6); type 'banknote' EDITORIAL."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": "IMF Staff-Monitored Program from 2020; fuel-subsidy removal, higher electricity tariffs and exchange-rate unification",
+      "cite": "IMF_CR21082",
+      "badges": [
+        "SOURCED"
+      ]
+    },
+    "indicators": [
+      {
+        "name": "Inflation, y-o-y",
+        "value": 342,
+        "unit": "percent",
+        "year": 2021,
+        "cite": "IMF_CR21143",
+        "badges": [
+          "SINGLE-SOURCE"
+        ],
+        "note": "Mar 2021, para 6"
+      },
+      {
+        "name": "External debt, NPV",
+        "value": 56,
+        "unit": "USD billion",
+        "year": 2020,
+        "cite": "IMF_PR21199",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "end-2020; also WB press release 2021/187/AFR (joint release)"
+      },
+      {
+        "name": "External debt, NPV",
+        "value": 163,
+        "unit": "percent of GDP",
+        "year": 2020,
+        "cite": "IMF_PR21199",
+        "badges": [
+          "SOURCED"
+        ]
+      },
+      {
+        "name": "Enhanced-HIPC debt relief, NPV",
+        "value": 23.3,
+        "unit": "USD billion",
+        "year": 2021,
+        "cite": "IMF_PR21199",
+        "badges": [
+          "SOURCED"
+        ]
+      }
+    ],
+    "indicators_note": "Jan 2021 inflation 304.33% (AJA_FLOAT2021 citing Anadolu) and SDG 375/USD (AJA citing Reuters) left out: not WB/IMF/UN."
+  },
+  "war-in-sudan-saf-vs-rsf": {
+    "rating": {
+      "value": "bad",
+      "cite": null,
+      "badges": [
+        "SOURCED"
+      ],
+      "cite_current": {
+        "proposed_id": "WB_MPO_SDN_OCT2026",
+        "author": "World Bank",
+        "title": "Macro Poverty Outlook: Sudan (October 2026)",
+        "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
+        "read_in_full": "2026-10-25"
+      },
+      "note": "The source says it directly: 'The conflict that erupted in April 2023 has caused severe economic contraction and reversed development gains.'"
+    },
+    "rating_basis_en": {
+      "value": "World Bank MPO Oct 2026: 'severe economic contraction'; real GDP -29.4% in 2023 and -14.0% in 2024.",
+      "cite": null,
+      "badges": [
+        "SOURCED"
+      ],
+      "cite_current": {
+        "proposed_id": "WB_MPO_SDN_OCT2026",
+        "author": "World Bank",
+        "title": "Macro Poverty Outlook: Sudan (October 2026)",
+        "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
+        "read_in_full": "2026-10-25"
+      }
+    },
+    "rating_basis_ar": {
+      "value": "بحسب توقعات البنك الدولي (أكتوبر 2026): 'انكماش اقتصادي حاد'؛ تراجع الناتج المحلي الحقيقي 29.4% في 2023 و14.0% في 2024.",
+      "cite": null,
+      "badges": [
+        "SOURCED",
+        "WORKING-TRANSLATION"
+      ],
+      "cite_current": {
+        "proposed_id": "WB_MPO_SDN_OCT2026",
+        "author": "World Bank",
+        "title": "Macro Poverty Outlook: Sudan (October 2026)",
+        "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
+        "read_in_full": "2026-10-25"
+      },
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": "Sudanese pound",
+      "type": "banknote",
+      "issuer": null,
+      "example_artifact": null,
+      "cite": "WB_MPO2024",
+      "badges": [
+        "SOURCED"
+      ],
+      "note": "WB_MPO2024: the pound fell 94% (official) and 125% (parallel) since Apr 2023; MPO Oct 2026: 'The Sudanese pound depreciated by around 48 percent between December 2025 and end July 2026'. Type EDITORIAL; issuer null."
+    },
+    "main_trade": {
+      "exports": {
+        "value": "Gold, 'Sudan's dominant export commodity in 2025' and 53% of total exports in Q1 2026",
+        "cite": null,
+        "badges": [
+          "SOURCED"
+        ],
+        "cite_current": {
+          "proposed_id": "WB_MPO_SDN_OCT2026",
+          "author": "World Bank",
+          "title": "Macro Poverty Outlook: Sudan (October 2026)",
+          "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
+          "read_in_full": "2026-10-25"
+        }
+      },
+      "imports": {
+        "value": "Food and petroleum products; petroleum 26% of import value in Q1 2026",
+        "cite": null,
+        "badges": [
+          "SOURCED"
+        ],
+        "cite_current": {
+          "proposed_id": "WB_MPO_SDN_OCT2026",
+          "author": "World Bank",
+          "title": "Macro Poverty Outlook: Sudan (October 2026)",
+          "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
+          "read_in_full": "2026-10-25"
+        }
+      },
+      "routes": [],
+      "cite": null,
+      "cite_current": {
+        "proposed_id": "WB_MPO_SDN_OCT2026",
+        "author": "World Bank",
+        "title": "Macro Poverty Outlook: Sudan (October 2026)",
+        "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
+        "read_in_full": "2026-10-25"
+      },
+      "badges": [
+        "SOURCED"
+      ],
+      "note": "Gold flows to the UAE are CONTESTED (GEO-002/067/074) and the gum arabic smuggling route via Chad names no place, so no route is drawn."
+    },
+    "economic_base": {
+      "value": "Gold and agriculture in relatively secure areas; services concentrated in Khartoum collapsed",
+      "cite": null,
+      "badges": [
+        "SOURCED"
+      ],
+      "cite_current": {
+        "proposed_id": "WB_MPO_SDN_OCT2026",
+        "author": "World Bank",
+        "title": "Macro Poverty Outlook: Sudan (October 2026)",
+        "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
+        "read_in_full": "2026-10-25"
+      }
+    },
+    "indicators": [
+      {
+        "name": "Real GDP growth",
+        "value": -29.4,
+        "unit": "percent",
+        "year": 2023,
+        "cite": "WB_SEU2025",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "Table 1; MPO Oct 2026 gives the same"
+      },
+      {
+        "name": "Real GDP growth",
+        "value": -12,
+        "unit": "percent",
+        "year": 2023,
+        "cite": "WB_MPO2024",
+        "badges": [
+          "CONTESTED"
+        ],
+        "note": "Apr 2024 early estimate"
+      },
+      {
+        "name": "Real GDP growth",
+        "value": -14.0,
+        "unit": "percent",
+        "year": 2024,
+        "cite": null,
+        "badges": [
+          "SOURCED"
+        ],
+        "cite_current": {
+          "proposed_id": "WB_MPO_SDN_OCT2026",
+          "author": "World Bank",
+          "title": "Macro Poverty Outlook: Sudan (October 2026)",
+          "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
+          "read_in_full": "2026-10-25"
+        },
+        "note": "main value (parent ruling)"
+      },
+      {
+        "name": "Real GDP growth",
+        "value": -13.5,
+        "unit": "percent",
+        "year": 2024,
+        "cite": "WB_SEU2025",
+        "badges": [
+          "CONTESTED"
+        ],
+        "note": "older figure, para 4, Table 1"
+      },
+      {
+        "name": "Services growth",
+        "value": -45.6,
+        "unit": "percent",
+        "year": 2023,
+        "cite": null,
+        "badges": [
+          "SOURCED"
+        ],
+        "cite_current": {
+          "proposed_id": "WB_MPO_SDN_OCT2026",
+          "author": "World Bank",
+          "title": "Macro Poverty Outlook: Sudan (October 2026)",
+          "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
+          "read_in_full": "2026-10-25"
+        },
+        "note": "main value (parent ruling)"
+      },
+      {
+        "name": "Services growth",
+        "value": -43.2,
+        "unit": "percent",
+        "year": 2023,
+        "cite": "WB_SEU2025",
+        "badges": [
+          "CONTESTED"
+        ],
+        "note": "older figure, Table 1"
+      },
+      {
+        "name": "Inflation (CPI)",
+        "value": 65.8,
+        "unit": "percent",
+        "year": 2023,
+        "cite": "WB_SEU2025",
+        "badges": [
+          "CONTESTED"
+        ],
+        "note": "Table 1; MPO Oct 2026 gives the same"
+      },
+      {
+        "name": "Inflation",
+        "value": 230,
+        "unit": "percent (about)",
+        "year": 2023,
+        "cite": "WB_MPO2024",
+        "badges": [
+          "CONTESTED"
+        ],
+        "note": "'about 230%'"
+      },
+      {
+        "name": "Inflation (CPI)",
+        "value": 170.0,
+        "unit": "percent",
+        "year": 2024,
+        "cite": null,
+        "badges": [
+          "SOURCED"
+        ],
+        "cite_current": {
+          "proposed_id": "WB_MPO_SDN_OCT2026",
+          "author": "World Bank",
+          "title": "Macro Poverty Outlook: Sudan (October 2026)",
+          "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
+          "read_in_full": "2026-10-25"
+        }
+      },
+      {
+        "name": "Inflation, y-o-y",
+        "value": 51.3,
+        "unit": "percent",
+        "year": 2026,
+        "cite": null,
+        "badges": [
+          "SOURCED"
+        ],
+        "cite_current": {
+          "proposed_id": "WB_MPO_SDN_OCT2026",
+          "author": "World Bank",
+          "title": "Macro Poverty Outlook: Sudan (October 2026)",
+          "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
+          "read_in_full": "2026-10-25"
+        },
+        "note": "end June 2026"
+      }
+    ],
+    "indicators_note": "Gold 64.4 t / USD 1.6bn (XINHUA_GOLD2025) and gum arabic revenue (AYIN_GUM2024) left out: not WB/IMF/UN. No fatality or control figures."
+  },
+  "republic-of-south-sudan": {
+    "rating": {
+      "value": "bad",
+      "cite": "WB_SSD_OVERVIEW2026",
+      "badges": [
+        "EDITORIAL"
+      ]
+    },
+    "rating_basis_en": {
+      "value": "Editorial reading of WB_SSD_OVERVIEW2026: output fell after the DAR pipeline shutdown, FY25 inflation averaged 234%, salary arrears reached 8–13 months and extreme poverty rose to 87%.",
+      "cite": "WB_SSD_OVERVIEW2026",
+      "badges": [
+        "EDITORIAL"
+      ]
+    },
+    "rating_basis_ar": {
+      "value": "قراءة تحريرية لـ WB_SSD_OVERVIEW2026: تراجع الإنتاج بعد توقف خط أنابيب DAR، وبلغ متوسط التضخم 234% في السنة المالية 2025، ووصلت متأخرات الرواتب إلى 8–13 شهرًا، وارتفع الفقر المدقع إلى 87%.",
+      "cite": "WB_SSD_OVERVIEW2026",
+      "badges": [
+        "EDITORIAL",
+        "WORKING-TRANSLATION"
+      ],
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": "South Sudanese Pound (SSP)",
+      "type": "banknote",
+      "issuer": null,
+      "example_artifact": null,
+      "cite": "WB_SSEB2012",
+      "page": "p.5 (also p.4)",
+      "badges": [
+        "SOURCED"
+      ],
+      "quote": "Shortly after independence in July 2011, South Sudan issued its own currency, the South Sudanese Pound (SSP)",
+      "note": "Type EDITORIAL; issuer not named in the passage read."
+    },
+    "main_trade": {
+      "exports": {
+        "value": "Oil, exported through Sudan's pipelines",
+        "cite": "SC_16212",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "'South Sudan's oil flow and exports through Sudan have experienced significant disruptions'"
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [],
+      "cite": "SC_16212",
+      "badges": [
+        "SOURCED"
+      ],
+      "note": "No source read gives route endpoints."
+    },
+    "economic_base": {
+      "value": "Oil; production shut down in January 2012",
+      "cite": "WB_SSEB2012",
+      "badges": [
+        "SOURCED"
+      ]
+    },
+    "indicators": [
+      {
+        "name": "Oil output",
+        "value": 157000,
+        "unit": "barrels per day",
+        "year": 2026,
+        "cite": "WB_SSD_OVERVIEW2026",
+        "badges": [
+          "SINGLE-SOURCE"
+        ],
+        "note": "early FY26"
+      },
+      {
+        "name": "Inflation (food-proxied), FY average",
+        "value": 234,
+        "unit": "percent",
+        "year": 2025,
+        "cite": "WB_SSD_OVERVIEW2026",
+        "badges": [
+          "SINGLE-SOURCE"
+        ]
+      },
+      {
+        "name": "Extreme poverty",
+        "value": 87,
+        "unit": "percent of population",
+        "year": 2025,
+        "cite": "WB_SSD_OVERVIEW2026",
+        "badges": [
+          "SINGLE-SOURCE"
+        ]
+      },
+      {
+        "name": "Extreme poverty",
+        "value": 84,
+        "unit": "percent of population",
+        "year": 2024,
+        "cite": "WB_SSD_OVERVIEW2026",
+        "badges": [
+          "SINGLE-SOURCE"
+        ]
+      }
+    ]
+  },
+  "derg-federal-ethiopia": {
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "Era economy text covers only al-Fashaga and GERD; no source rates the economy."
+    },
+    "rating_basis_en": {
+      "value": "No source read rates this era's economy.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "rating_basis_ar": {
+      "value": "لا يقيّم أي مصدر مقروء اقتصاد هذه الحقبة.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE",
+        "WORKING-TRANSLATION"
+      ],
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read in full names this era's currency; not filled from memory."
+    },
+    "main_trade": {
+      "exports": {
+        "value": "Sesame and other cash crops from al-Fashaga, previously exported via Ethiopia",
+        "cite": "GEO-015",
+        "badges": [
+          "SINGLE-SOURCE"
+        ]
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [],
+      "cite": "GEO-015",
+      "badges": [
+        "SINGLE-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read covers this."
+    },
+    "indicators": [],
+    "indicators_note": "600,000 acres (GEO-015, Chatham House) left out: not WB/IMF/UN."
+  }
+}
