@@ -548,13 +548,13 @@
    },
    "EEBC2002": {
     "author": "Eritrea-Ethiopia Boundary Commission",
-    "title": "Decision regarding delimitation of the border between Eritrea and Ethiopia, 13 April 2002 (RIAA vol. XXV) [VERIFY]",
+    "title": "Decision regarding delimitation of the border between Eritrea and Ethiopia, 13 April 2002 (RIAA vol. XXV)",
     "title_en": "same",
     "publisher": "UN Office of Legal Affairs (RIAA) / PCA",
     "bias": "binding arbitral decision; neutral",
     "date": "2002-04-13",
     "url": "https://legal.un.org/riaa/cases/vol_XXV/83-195.pdf",
-    "verification": "read 2026-10-24 (RIAA XXV pp.83–195): mandate to delimit the border on the basis of the 1900, 1902 and 1908 treaties confirmed. Badme appears at paras 5.94–5.95 (Ethiopian administration evidence); no explicit sentence 'Badme awarded to Eritrea' found in the text read – that claim keeps [VERIFY] (needs the dispositif/map)",
+    "verification": "read 2026-10-24 (RIAA XXV pp.83–195): mandate to delimit the border on the basis of the 1900, 1902 and 1908 treaties confirmed. Badme appears at paras 5.94–5.95 (Ethiopian administration evidence); no explicit sentence 'Badme awarded to Eritrea' found in the text read – that claim keeps [VERIFY] (needs the dispositif/map) | read again 2026-10-25 (Analyst): p.104 'On 1 January 1890, Italy formally established the Colony of Eritrea.' [VERIFY] dropped from title; Badme claim keeps its own [VERIFY].",
     "id": "EEBC2002",
     "pages": "",
     "lang": "en",
@@ -7616,6 +7616,27 @@
     "pages": "",
     "lang": "en",
     "note": "WDI API series"
+   },
+   "PATEY_TWQ2007": {
+    "author": "Luke Anthony Patey",
+    "title": "State rules: Oil companies and armed conflict in Sudan",
+    "publisher": "Third World Quarterly 28(5), Taylor & Francis",
+    "year": "2007",
+    "pages": "pp.997–1016",
+    "doi": "10.1080/01436590701371728",
+    "url": "https://doi.org/10.1080/01436590701371728",
+    "lang": "en",
+    "note": "DOI, title, vol/issue/pages checked on Crossref 2026-10-25. Free author PDF (PAX): https://paxforpeace.nl/wp-content/uploads/import/2021-04/0508-luke-patey-staterules.pdf, read 2026-10-25; p.1009: state-owned oil companies from China, Malaysia and India came to dominate Sudan's oil industry, with CNPC buying the former Chevron concession in 1995. Oil sector only."
+   },
+   "SELIGMAN1932": {
+    "author": "C.G. Seligman and Brenda Z. Seligman",
+    "title": "Pagan Tribes of the Nilotic Sudan",
+    "publisher": "George Routledge & Sons, London",
+    "year": "1932",
+    "pages": "folding Tribal Map of Southern Sudan, scan leaf n717",
+    "url": "https://archive.org/details/in.gov.ignca.2109",
+    "lang": "en",
+    "note": "Internet Archive copy (Digital Library of India / Central Archaeological Library, New Delhi, book 2109); URL checked HTTP 200 on 2026-10-25. Folding Tribal Map of Southern Sudan at scan leaf n717 (https://archive.org/details/in.gov.ignca.2109/page/n717/mode/1up), lat/long grid 24–36E, 4–16N. Rights: the scan is not committed to this repo or republished; only approximate label positions read from the plate are used, badged SINGLE-SOURCE."
    }
   }
  },
@@ -8059,9 +8080,6 @@
     "GHA2_CH19",
     "WHC1336",
     "WELSBY1996",
-    "WP:Meroë",
-    "WP:Kingdom_of_Kush",
-    "WP:Amanirenas",
     "EDWARDS2011"
    ],
    "dating_note": "Meroitic chronology uncertain (GHA II: 'particularly serious' for 2nd–1st c. BCE). Which kandake negotiated with Rome (Amanirenas vs Amanishakheto) is unresolved in GHA. End placed in the 4th century CE (350 is a placeholder year); cause debated: GHA II ascribes the overthrow to the Noba and concludes the kingdom 'had already collapsed at the time of Ezana's campaign'.",
@@ -8095,21 +8113,6 @@
      {
       "id": "WELSBY1996",
       "title": "The Kingdom of Kush: The Napatan and Meroitic Empires"
-     },
-     {
-      "id": "WP:Meroë",
-      "title": "Meroë",
-      "kind": "tertiary (Wikipedia)"
-     },
-     {
-      "id": "WP:Kingdom_of_Kush",
-      "title": "Kingdom of Kush",
-      "kind": "tertiary (Wikipedia)"
-     },
-     {
-      "id": "WP:Amanirenas",
-      "title": "Amanirenas",
-      "kind": "tertiary (Wikipedia)"
      },
      {
       "id": "EDWARDS2011",
@@ -8262,7 +8265,6 @@
    "sources": [
     "WELSBY2002",
     "WP_MAKURIA",
-    "WP:Baqt",
     "GHA2_CH12",
     "DERDA_LAJTAR2019"
    ],
@@ -8282,11 +8284,6 @@
      {
       "id": "WP_MAKURIA",
       "title": "Makuria",
-      "kind": "tertiary (Wikipedia)"
-     },
-     {
-      "id": "WP:Baqt",
-      "title": "Baqt",
       "kind": "tertiary (Wikipedia)"
      },
      {
@@ -8505,8 +8502,7 @@
    ],
    "sources": [
     "HD2011",
-    "WP:Mahdist_State",
-    "WP:Battle_of_Omdurman"
+    "WP:Mahdist_State"
    ],
    "dating_note": "",
    "key_events_ar": [
@@ -8524,11 +8520,6 @@
      {
       "id": "WP:Mahdist_State",
       "title": "Mahdist State",
-      "kind": "tertiary (Wikipedia)"
-     },
-     {
-      "id": "WP:Battle_of_Omdurman",
-      "title": "Battle of Omdurman",
       "kind": "tertiary (Wikipedia)"
      }
     ],
