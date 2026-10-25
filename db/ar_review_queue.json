@@ -3481,6 +3481,71 @@
       "action": "translate",
       "origin_commit": "IM ruling era_events anuak#0 Arabic cut",
       "added": "2026-10-25"
+    },
+    {
+      "era_id": null,
+      "file": "db/legends/legend_spec.json",
+      "field_ar": "confidence_key.title_ar",
+      "arabic_sentence": "ما مدى تأكدنا؟ [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "confidence_key.title_en",
+      "revised_english": "How sure are we?",
+      "note": "Map legend confidence key; working translation added by Map Designer (c5849df site / 1910545 source), tag kept. Native review needed; no Arabic reworded by Historian.",
+      "action": "review",
+      "origin_commit": "c5849df / 1910545",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": null,
+      "file": "db/legends/legend_spec.json",
+      "field_ar": "confidence_key.caption_ar",
+      "arabic_sentence": "جميع الحدود التاريخية تقريبية [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "confidence_key.caption_en",
+      "revised_english": "All historical borders are approximate",
+      "note": "Map legend confidence key; working translation added by Map Designer (c5849df site / 1910545 source), tag kept. Native review needed; no Arabic reworded by Historian.",
+      "action": "review",
+      "origin_commit": "c5849df / 1910545",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": null,
+      "file": "db/legends/legend_spec.json",
+      "field_ar": "confidence_key.rows[0].legend_ar (solid)",
+      "arabic_sentence": "منطقة أساسية (حدود تقريبية) [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "confidence_key.rows[0].legend_en",
+      "revised_english": "Core area (approximate edge)",
+      "note": "Map legend confidence key; working translation added by Map Designer (c5849df site / 1910545 source), tag kept. Native review needed; no Arabic reworded by Historian.",
+      "action": "review",
+      "origin_commit": "c5849df / 1910545",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": null,
+      "file": "db/legends/legend_spec.json",
+      "field_ar": "confidence_key.rows[1].legend_ar (hatched)",
+      "arabic_sentence": "مظلل بخطوط: حدود تقريبية أو منطقة نفوذ [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "confidence_key.rows[1].legend_en",
+      "revised_english": "Hatched: approximate edge or area of influence",
+      "note": "Map legend confidence key; working translation added by Map Designer (c5849df site / 1910545 source), tag kept. Native review needed; no Arabic reworded by Historian.",
+      "action": "review",
+      "origin_commit": "c5849df / 1910545",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": null,
+      "file": "db/legends/legend_spec.json",
+      "field_ar": "confidence_key.rows[2].legend_ar (contested)",
+      "arabic_sentence": "نمط النزاع: منطقة متنازع عليها [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "confidence_key.rows[2].legend_en",
+      "revised_english": "Contested pattern: disputed between claimants",
+      "note": "Map legend confidence key; working translation added by Map Designer (c5849df site / 1910545 source), tag kept. Native review needed; no Arabic reworded by Historian.",
+      "action": "review",
+      "origin_commit": "c5849df / 1910545",
+      "added": "2026-10-25"
     }
   ]
 }
