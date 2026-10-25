@@ -168,52 +168,62 @@
  ],
  "war_footprint": {
   "trigger": "select a war chip, or select a battle and choose 'show war'",
-  "palette_note": "14 slots. The marker glyph keeps its vermillion; the war hue is used for the hull, timeline ticks and a 2 px marker outline in war mode. The pre-1956 ids are proposed by the Map Designer and the Historian owns the final ids; post-1956 ids come from the Analyst.",
+  "palette_note": "16 slots: the 11 war_ids in data/wars.json (c02b4d0, first-civil-war shared with the Analyst) plus 5 more post-1956 Analyst ids. The parent asked for 14; the actual union is 16. Hues repeat a family only when the dash pattern differs. Marker glyphs keep their precision colours; the war hue goes to the hull, timeline ticks and a 2 px outline in war mode.",
   "war_palette": {
-   "egypt-kush-wars": {
+   "kushite-egyptian-wars": {
     "colour": "#e69f00",
     "hull_dash": "solid",
-    "id_source": "pre-1956, proposed"
+    "id_source": "data/wars.json (Historian)"
    },
-   "meroe-rome-war": {
+   "roman-meroitic-war": {
     "colour": "#cc79a7",
     "hull_dash": "solid",
-    "id_source": "pre-1956, proposed"
+    "id_source": "data/wars.json (Historian)"
    },
-   "nubian-arab-war": {
-    "colour": "#56b4e9",
-    "hull_dash": "solid",
-    "id_source": "pre-1956, proposed"
-   },
-   "funj-keira-wars": {
-    "colour": "#f0e442",
-    "hull_dash": "solid",
-    "id_source": "pre-1956, proposed"
-   },
-   "turco-egyptian-conquest": {
+   "aksum-kush-war": {
     "colour": "#d4a373",
     "hull_dash": "dash 6 3",
-    "id_source": "pre-1956, proposed"
+    "id_source": "data/wars.json (Historian)"
+   },
+   "arab-nubian-wars": {
+    "colour": "#56b4e9",
+    "hull_dash": "solid",
+    "id_source": "data/wars.json (Historian)"
+   },
+   "funj-abdallab-war": {
+    "colour": "#f0e442",
+    "hull_dash": "solid",
+    "id_source": "data/wars.json (Historian)"
+   },
+   "kordofan-wars": {
+    "colour": "#c9a24a",
+    "hull_dash": "dash 6 3",
+    "id_source": "data/wars.json (Historian)"
    },
    "mahdist-war": {
     "colour": "#f08c6c",
     "hull_dash": "solid",
-    "id_source": "pre-1956, proposed"
+    "id_source": "data/wars.json (Historian)"
    },
-   "ethiopian-mahdist-war": {
+   "mahdist-ethiopian-war": {
     "colour": "#b07aa1",
     "hull_dash": "dash 6 3",
-    "id_source": "pre-1956, proposed"
+    "id_source": "data/wars.json (Historian)"
    },
-   "east-africa-campaign-1940": {
-    "colour": "#9fb3c2",
+   "anglo-egyptian-reconquest": {
+    "colour": "#f8c0a8",
     "hull_dash": "dash 2 3",
-    "id_source": "pre-1956, proposed"
+    "id_source": "data/wars.json (Historian)"
+   },
+   "darfur-campaign-1916": {
+    "colour": "#9fb3c2",
+    "hull_dash": "dash 6 3",
+    "id_source": "data/wars.json (Historian)"
    },
    "first-civil-war": {
     "colour": "#009e73",
     "hull_dash": "solid",
-    "id_source": "Analyst (shared)"
+    "id_source": "data/wars.json (Historian)"
    },
    "second-civil-war": {
     "colour": "#5fd3ad",
@@ -231,12 +241,12 @@
     "id_source": "Analyst"
    },
    "sudan-south-sudan-border-2012": {
-    "colour": "#c9a24a",
+    "colour": "#e0a63e",
     "hull_dash": "dash 2 3",
     "id_source": "Analyst"
    },
    "war-2023": {
-    "colour": "#f8c0a8",
+    "colour": "#f2f4f7",
     "hull_dash": "dash 4 2 1 2",
     "id_source": "Analyst"
    }
@@ -249,5 +259,27 @@
    "legend_entry": "swatch of hull + war name + date span + battle count",
    "multi_war": "up to 3 wars at once, each with its own hull dash; beyond that, show only the last selected"
   }
+ },
+ "label": {
+  "text": {
+   "en": "{short_name} {year}, with an alt name in brackets where one is common, e.g. 'Karari (Omdurman) 1898', 'Shaykan 1883', 'Kerma 1500 BCE'",
+   "ar": "{name_ar} {year_ar}, e.g. 'كرري (أم درمان) ١٨٩٨' [VERIFY]; BCE as 'ق.م' [VERIFY]",
+   "bce": "ids use a double hyphen (kerma--1500); labels show '1500 BCE' / '١٥٠٠ ق.م' [VERIFY]"
+  },
+  "font": "map.css UI font, 12px at z<=6, 13px at z7-9, 14px at z>=10; weight 600 for decisive, 400 otherwise",
+  "fill": "#eef2f4",
+  "halo": "#0f1b24 2.5px",
+  "reported_fill": "#b9a8a2 italic",
+  "placement": "preferred to the right of the marker (left in RTL), then above, below, the opposite side; 4 px offset from the icon edge; never over the marker of another battle",
+  "priority": [
+   "selected",
+   "decisive (battles.json decisive/importance flag; until the Historian adds one: khartoum-1885, karari-1898, shaykan-1883, gallabat-1889, dongola-652, napata--23, kerma--1500)",
+   "battles in current era",
+   "other major battles",
+   "event pins",
+   "reported clashes"
+  ],
+  "collision": "greedy by priority with 3 px padding; a lower-priority label that collides is hidden (marker stays, label on hover). City labels outrank non-decisive battle labels but not decisive ones. At z<=5 only decisive labels show.",
+  "rtl": "in AR mode, mirror placement and keep the year as Arabic-Indic numerals [VERIFY]; parentheses mirror automatically with dir=rtl"
  }
 }

@@ -1,22 +1,156 @@
 {
  "_meta": {
-  "description": "Credited, freely licensed images of major Sudan battles. Metadata only, plus Commons 320px thumbnail URLs; no files are stored.",
-  "key_scheme": "Historian battle ids: kebab-case '<place>-<year>' (start year for ranges, negative for BCE). The Historian owns the ids in battles.json; these keys are PROPOSED until they are matched.",
-  "licence_policy": "PD, CC0, CC BY or CC BY-SA, or Flickr Commons \"No known restrictions\"; the licence was read from the Commons API extmetadata on 2026-10-25, and every file, page and thumb URL returned HTTP 200 (curl -L) that day.",
-  "war_id_note": "war_id values from markers/battle_style.json war_palette; pre-1956 ids are proposed.",
-  "excluded": {
-   "File:MahdistsvsEthiopians.png": "CC0 dedication is by the uploader for a photo of an Ethiopian painting (dated 1935, artist unknown); the underlying artwork's copyright status is not established, so it is excluded",
-   "File:Storming Ferkeh.jpg": "Commons date (1895) comes before the battle (1896); excluded until the source book is confirmed"
-  },
-  "dropped_as_minor": [
-   "kirbekan-1885",
-   "tofrek-1885"
+  "description": "Credited, freely licensed images for battles in data/battles.json (Historian, c02b4d0). Metadata only, plus 320 px Commons thumbnail URLs; no image files are stored.",
+  "keys": "Exact ids from data/battles.json. BCE years use a double hyphen ('kerma--1500' = 1500 BCE). war_id is read from data/battles.json / data/wars.json (both read-only).",
+  "licence_policy": "PD, CC0, CC BY or CC BY-SA, or Flickr Commons no known restrictions. Licence read from the Commons API extmetadata on 2026-10-25. Every file, page and thumb URL returned HTTP 200 that day.",
+  "evidence_type_values": [
+   "primary-account",
+   "inscription",
+   "archaeology",
+   "period-illustration",
+   "photograph"
   ],
-  "no_free_image_found": [],
+  "evidence_type_note": "primary-account = contemporary official or participant maps/plans. Period illustrations made after the event are dated by the image date.",
+  "excluded": {
+   "File:MahdistsvsEthiopians.png": "CC0 here is the uploader's dedication of a photo of an Ethiopian painting (1935, artist unknown). The artwork's own status is unverified.",
+   "File:Storming Ferkeh.jpg": "Commons date of 1895 is before the battle of 1896; not resolved.",
+   "File:Ali Dinar.jpg": "Photo of a corpse taken as a trophy. Excluded on dignity grounds even though the PD claim is plausible.",
+   "File:ALKHALIFA ABD ALLAH DEATH.jpg": "An 1899 photo with an uploader CC BY-SA 4.0 tag and no clear author, so the licence is unreliable. It is also a death photo.",
+   "File:Church of the Granite Columns 2007-10-03 02.jpg": "Commons has no author or date metadata, so a credit cannot be verified.",
+   "File:EzanaGreekTablet.jpg": "Commons credits a Flickr user, but the description is mixed; a duplicate of Ezana evidence already covered."
+  },
   "compiled_by": "Sudan Map Designer",
-  "date": "2026-10-25"
+  "date": "2026-10-25",
+  "no_free_image_found": [
+   "napata--23",
+   "dongola-642",
+   "arbaji-1504",
+   "kordofan-1747",
+   "umm-diwaykarat-1899",
+   "torit-1955"
+  ]
  },
  "battles": {
+  "kerma--1500": [
+   {
+    "file_title": "File:Tombos Stela Lepsius.png",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Tombos_Stela_Lepsius.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Tombos_Stela_Lepsius.png",
+    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Tombos_Stela_Lepsius.png/330px-Tombos_Stela_Lepsius.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2096,
+    "height": 2376,
+    "mime": "image/png",
+    "author": "Karl Richard Lepsius (1810-84)",
+    "date": "before 1884",
+    "licence": "Public domain",
+    "licence_url": null,
+    "usage_terms": "Public domain",
+    "description": "Drawing of the Tombos Stela of pharaoh Thutmose I. Rock inscription from Tombos, Nubia.",
+    "credit_source": "Denkmaeler aus Aegypten und Aethiopien - Abth. III, Bl. 5.",
+    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+    "http": {
+     "file_url": "200",
+     "page_url": "200",
+     "thumb_url_320": "200"
+    },
+    "credit_line": "Karl Richard Lepsius (1810-84), before 1884, Public domain, via Wikimedia Commons",
+    "battle_id": "kerma--1500",
+    "war_id": "kushite-egyptian-wars",
+    "evidence_type": "inscription",
+    "note": "Lepsius drawing of the Tombos rock stela of Thutmose I (an inscription recording the campaign; it does not show the battle)."
+   }
+  ],
+  "kerma--593": [
+   {
+    "file_title": "File:Victory stela of Psamtik II at Kalabsha by John Campana.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Victory_stela_of_Psamtik_II_at_Kalabsha_by_John_Campana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Victory_stela_of_Psamtik_II_at_Kalabsha_by_John_Campana.jpg",
+    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Victory_stela_of_Psamtik_II_at_Kalabsha_by_John_Campana.jpg/330px-Victory_stela_of_Psamtik_II_at_Kalabsha_by_John_Campana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 600,
+    "height": 800,
+    "mime": "image/jpeg",
+    "author": "tutincommon (John Campana)",
+    "date": "2004-01-08",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "usage_terms": "Creative Commons Attribution 2.0",
+    "description": "This is a well preserved victory stela which was erected by Pharaoh Psamtik II of the 26th Saite dynasty (c.592 BC) at Kalabsha when he returned from campaigning in Nubia. Psamtik II had sacked the Kushite capital of Napata and defeated his rival there--king Aspelta of Nubia.",
+    "credit_source": "https://www.flickr.com/photos/10647023@N04/1109085699/in/set-72157601419744826/",
+    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+    "http": {
+     "file_url": "200",
+     "page_url": "200",
+     "thumb_url_320": "200"
+    },
+    "credit_line": "tutincommon (John Campana), 2004-01-08, CC BY 2.0, via Wikimedia Commons",
+    "battle_id": "kerma--593",
+    "war_id": "kushite-egyptian-wars",
+    "evidence_type": "inscription",
+    "note": "Psamtik II victory stela (Kalabsha) recording the Nubian campaign."
+   }
+  ],
+  "napata--23": [],
+  "meroe-330": [
+   {
+    "file_title": "File:Inscription d'Ezana 185bis.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Inscription_d%27Ezana_185bis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Inscription_d%27Ezana_185bis.jpg",
+    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Inscription_d%27Ezana_185bis.jpg/330px-Inscription_d%27Ezana_185bis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2848,
+    "height": 4288,
+    "mime": "image/jpeg",
+    "author": "Breton jean-francois",
+    "date": "2013-01-26",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+    "description": "Axoum. Stèle d'Ezana avec inscriptions en trois écritures, à 600 mètres environ au nord-est du \"Champ des stèles\".",
+    "credit_source": "Own work",
+    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+    "http": {
+     "file_url": "200",
+     "page_url": "200",
+     "thumb_url_320": "200"
+    },
+    "credit_line": "Breton jean-francois, 2013-01-26, CC BY-SA 4.0, via Wikimedia Commons",
+    "battle_id": "meroe-330",
+    "war_id": "aksum-kush-war",
+    "evidence_type": "inscription",
+    "note": "Trilingual Ezana stela at Aksum. Not confirmed to be the Noba-campaign text (RIE 189) [VERIFY with Historian]."
+   }
+  ],
+  "dongola-642": [],
+  "dongola-652": [
+   {
+    "file_title": "File:North Church, Old Dongola.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/North_Church%2C_Old_Dongola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:North_Church,_Old_Dongola.jpg",
+    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/North_Church%2C_Old_Dongola.jpg/330px-North_Church%2C_Old_Dongola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2272,
+    "height": 1704,
+    "mime": "image/jpeg",
+    "author": "Nubian Image Archive",
+    "date": "2005-11-17",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "usage_terms": "Creative Commons Attribution 2.0",
+    "description": "The remains of the North Church in Old Dongola, the former capital of the Nubian kingdom of Makuria. Probably errected in the 13th century. See Godlewski: \"Dongola - ancient Tungul. archaeological guide, pp. 72-74.",
+    "credit_source": "https://www.flickr.com/photos/132357696@N07/30250982000/in/photolist-V4L1fV-DpQppA-US3GKP-UPixsj-V4L7dg-UPiB3W-UPifhN-V4LAE6-TQ9PyP-UtBvxQ-US5kw2-V4KjmX-N6bc2b-MFbk4m-US4wKr-DhcmBr-NunoXm-MvjEJY-6hfkGg-CTjup8",
+    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+    "http": {
+     "file_url": "200",
+     "page_url": "200",
+     "thumb_url_320": "200"
+    },
+    "credit_line": "Nubian Image Archive, 2005-11-17, CC BY 2.0, via Wikimedia Commons",
+    "battle_id": "dongola-652",
+    "war_id": "arab-nubian-wars",
+    "evidence_type": "archaeology",
+    "note": "North Church, Old Dongola: Makurian site context (13th c.?), not a depiction of the 652 siege."
+   }
+  ],
+  "arbaji-1504": [],
+  "kordofan-1747": [],
   "shaykan-1883": [
    {
     "file_title": "File:The army of Hicks Pasha on the march.jpg",
@@ -39,10 +173,10 @@
      "page_url": "200",
      "thumb_url_320": "200"
     },
-    "credit_line": "Unknown author, 1883 – Public domain – via Wikimedia Commons",
+    "credit_line": "Unknown author, 1883, Public domain, via Wikimedia Commons",
+    "battle_id": "shaykan-1883",
     "war_id": "mahdist-war",
-    "depicts": "shaykan-1883",
-    "kind": "artwork/illustration"
+    "evidence_type": "period-illustration"
    },
    {
     "file_title": "File:Death of Hicks Pasha.jpg",
@@ -65,10 +199,10 @@
      "page_url": "200",
      "thumb_url_320": "200"
     },
-    "credit_line": "Robert Talbot Kelly, circa 1896 – Public domain – via Wikimedia Commons",
+    "credit_line": "Robert Talbot Kelly, circa 1896, Public domain, via Wikimedia Commons",
+    "battle_id": "shaykan-1883",
     "war_id": "mahdist-war",
-    "depicts": "shaykan-1883",
-    "kind": "artwork/illustration"
+    "evidence_type": "period-illustration"
    },
    {
     "file_title": "File:Route of Hicks' Army.jpg",
@@ -91,10 +225,10 @@
      "page_url": "200",
      "thumb_url_320": "200"
     },
-    "credit_line": "Unknown author, 1900 – Public domain – via Wikimedia Commons",
+    "credit_line": "Unknown author, 1900, Public domain, via Wikimedia Commons",
+    "battle_id": "shaykan-1883",
     "war_id": "mahdist-war",
-    "depicts": "shaykan-1883",
-    "kind": "map/plan"
+    "evidence_type": "primary-account"
    }
   ],
   "khartoum-1885": [
@@ -119,10 +253,10 @@
      "page_url": "200",
      "thumb_url_320": "200"
     },
-    "credit_line": "George W. Joy, 1893 – Public domain – via Wikimedia Commons",
+    "credit_line": "George W. Joy, 1893, Public domain, via Wikimedia Commons",
+    "battle_id": "khartoum-1885",
     "war_id": "mahdist-war",
-    "depicts": "khartoum-1885",
-    "kind": "artwork/illustration"
+    "evidence_type": "period-illustration"
    },
    {
     "file_title": "File:George William Joy (1844-1925) - General Gordon's Last Stand - LEEAG.PA.1920.0274 - Leeds Art Gallery.jpg",
@@ -145,10 +279,10 @@
      "page_url": "200",
      "thumb_url_320": "200"
     },
-    "credit_line": "George W. Joy, 1893 – Public domain – via Wikimedia Commons",
+    "credit_line": "George W. Joy, 1893, Public domain, via Wikimedia Commons",
+    "battle_id": "khartoum-1885",
     "war_id": "mahdist-war",
-    "depicts": "khartoum-1885",
-    "kind": "artwork/illustration"
+    "evidence_type": "period-illustration"
    },
    {
     "file_title": "File:Image taken from page 167 of 'Gordon and the Mahdi, an illustrated narrative of the war in the Soudan, etc' (11307159874).jpg",
@@ -171,144 +305,10 @@
      "page_url": "200",
      "thumb_url_320": "200"
     },
-    "credit_line": "The British Library, 2013-12-10 13:04 – No known copyright restrictions (Flickr Commons, British Library) – via Wikimedia Commons",
+    "credit_line": "The British Library, 2013-12-10 13:04, No known copyright restrictions (Flickr Commons), via Wikimedia Commons",
+    "battle_id": "khartoum-1885",
     "war_id": "mahdist-war",
-    "depicts": "khartoum-1885",
-    "kind": "artwork/illustration"
-   }
-  ],
-  "abu-klea-1885": [
-   {
-    "file_title": "File:Battle of Abu Klea, William Barnes Wollen.jpg",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Battle_of_Abu_Klea%2C_William_Barnes_Wollen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Abu_Klea,_William_Barnes_Wollen.jpg",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Battle_of_Abu_Klea%2C_William_Barnes_Wollen.jpg/330px-Battle_of_Abu_Klea%2C_William_Barnes_Wollen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 1500,
-    "height": 1000,
-    "mime": "image/jpeg",
-    "author": "William Barnes Wollen",
-    "date": "before 1936",
-    "licence": "Public domain",
-    "licence_url": null,
-    "usage_terms": "Public domain",
-    "description": "Bataille d'Abu Klea. Huile sur toile.",
-    "credit_source": "http://www.directart.co.uk/mall/images/dhm0111detail.jpg",
-    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
-    "http": {
-     "file_url": "200",
-     "page_url": "200",
-     "thumb_url_320": "200"
-    },
-    "credit_line": "William Barnes Wollen, before 1936 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "abu-klea-1885",
-    "kind": "artwork/illustration"
-   },
-   {
-    "file_title": "File:Action of Abu Klea Jan. 17th 1885.png",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Action_of_Abu_Klea_Jan._17th_1885.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Action_of_Abu_Klea_Jan._17th_1885.png",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Action_of_Abu_Klea_Jan._17th_1885.png/330px-Action_of_Abu_Klea_Jan._17th_1885.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 7137,
-    "height": 2961,
-    "mime": "image/png",
-    "author": "Great Britain. War Office. Intelligence Division",
-    "date": "1888",
-    "licence": "Public domain",
-    "licence_url": null,
-    "usage_terms": "Public domain",
-    "description": "Action of Abu Klea Jan. 17th 1885 [cartographic material] / Surveyed by W. Verner Feb. 16th 1885. Lithd. at the Intell. Div. War Office ; Printed for Her Majest's Stationery Office, by Harrison and Sons, St. Martin's Lane. Series: History of the Sudan campaign; no. 4.",
-    "credit_source": "National Library of Australia Digital Collection",
-    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
-    "http": {
-     "file_url": "200",
-     "page_url": "200",
-     "thumb_url_320": "200"
-    },
-    "credit_line": "Great Britain. War Office. Intelligence Division, 1888 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "abu-klea-1885",
-    "kind": "artwork/illustration"
-   },
-   {
-    "file_title": "File:MACDONALD(1887) p263 SKETCH MAP OF BATTLE FIELD OF ABU-KLEA.jpg",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/MACDONALD%281887%29_p263_SKETCH_MAP_OF_BATTLE_FIELD_OF_ABU-KLEA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:MACDONALD(1887)_p263_SKETCH_MAP_OF_BATTLE_FIELD_OF_ABU-KLEA.jpg",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/MACDONALD%281887%29_p263_SKETCH_MAP_OF_BATTLE_FIELD_OF_ABU-KLEA.jpg/330px-MACDONALD%281887%29_p263_SKETCH_MAP_OF_BATTLE_FIELD_OF_ABU-KLEA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 2989,
-    "height": 2079,
-    "mime": "image/jpeg",
-    "author": "Unknown author",
-    "date": "1887",
-    "licence": "Public domain",
-    "licence_url": null,
-    "usage_terms": "Public domain",
-    "description": "",
-    "credit_source": "This file is from the Mechanical Curator collection, a set of over 1 million images scanned from out-of-copyright books and released to Flickr Commons by the British Library in London, England. \n View image on Flickr \n View all images from book \n\n View catalogue entry for book.",
-    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
-    "http": {
-     "file_url": "200",
-     "page_url": "200",
-     "thumb_url_320": "200"
-    },
-    "credit_line": "Unknown author, 1887 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "abu-klea-1885",
-    "kind": "map/plan"
-   }
-  ],
-  "ginnis-1885": [
-   {
-    "file_title": "File:Battle of Ginnis (1886), London News.jpg",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Battle_of_Ginnis_%281886%29%2C_London_News.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Ginnis_(1886),_London_News.jpg",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Battle_of_Ginnis_%281886%29%2C_London_News.jpg/330px-Battle_of_Ginnis_%281886%29%2C_London_News.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 1191,
-    "height": 736,
-    "mime": "image/jpeg",
-    "author": "Amédée Forestier (1845 - 1930)",
-    "date": "1886-01-30",
-    "licence": "Public domain",
-    "licence_url": null,
-    "usage_terms": "Public domain",
-    "description": "Bataille de Ginnis, 1886. Gravure parue dans l'Illustrated London News.\nThe Soudan Frontier Conflict, the Battle of Ginnis, on 30 December. Illustration for The Illustrated London News, 30 January 1886.",
-    "credit_source": "http://www.old-print.com/cgi-bin/item/MAR1042337#",
-    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
-    "http": {
-     "file_url": "200",
-     "page_url": "200",
-     "thumb_url_320": "200"
-    },
-    "credit_line": "Amédée Forestier (1845 - 1930), 1886-01-30 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "ginnis-1885",
-    "kind": "artwork/illustration"
-   },
-   {
-    "file_title": "File:Attack upon Ginnis - 30th december 1885.jpg",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Attack_upon_Ginnis_-_30th_december_1885.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Attack_upon_Ginnis_-_30th_december_1885.jpg",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Attack_upon_Ginnis_-_30th_december_1885.jpg/330px-Attack_upon_Ginnis_-_30th_december_1885.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 2163,
-    "height": 1704,
-    "mime": "image/jpeg",
-    "author": "Unknown author",
-    "date": "1891",
-    "licence": "Public domain",
-    "licence_url": null,
-    "usage_terms": "Public domain",
-    "description": "1) Sketch showing order of march - Attack upon Ginnis - 30th december 1885, 2) Eye sketch showing position of troops in attack upon Ginnis - 30th december 1885",
-    "credit_source": "Mahdiism and the Egyptian Sudan, by F. R. Wingate. London, MacMillian and Co., 1891.",
-    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
-    "http": {
-     "file_url": "200",
-     "page_url": "200",
-     "thumb_url_320": "200"
-    },
-    "credit_line": "Unknown author, 1891 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "ginnis-1885",
-    "kind": "artwork/illustration"
+    "evidence_type": "period-illustration"
    }
   ],
   "toski-1889": [
@@ -333,10 +333,10 @@
      "page_url": "200",
      "thumb_url_320": "200"
     },
-    "credit_line": "Unknown author, c. 1909 – Public domain – via Wikimedia Commons",
+    "credit_line": "Unknown author, c. 1909, Public domain, via Wikimedia Commons",
+    "battle_id": "toski-1889",
     "war_id": "mahdist-war",
-    "depicts": "toski-1889",
-    "kind": "artwork/illustration"
+    "evidence_type": "period-illustration"
    },
    {
     "file_title": "File:Sketch of ground showing positions of the troops during action of Toski - 3rd August 1889.jpg",
@@ -359,196 +359,10 @@
      "page_url": "200",
      "thumb_url_320": "200"
     },
-    "credit_line": "Unknown author, 1891 – Public domain – via Wikimedia Commons",
+    "credit_line": "Unknown author, 1891, Public domain, via Wikimedia Commons",
+    "battle_id": "toski-1889",
     "war_id": "mahdist-war",
-    "depicts": "toski-1889",
-    "kind": "map/plan"
-   }
-  ],
-  "atbara-1898": [
-   {
-    "file_title": "File:Atbara.jpg",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Atbara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Atbara.jpg",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Atbara.jpg/330px-Atbara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 1034,
-    "height": 1250,
-    "mime": "image/jpeg",
-    "author": "Richard Caton Woodville Jr.",
-    "date": "before 1927",
-    "licence": "Public domain",
-    "licence_url": null,
-    "usage_terms": "Public domain",
-    "description": "Bataille d'Atbara 1898.",
-    "credit_source": "http://3.bp.blogspot.com/_m7PhTGSm_1s/R68sD94i-4I/AAAAAAAAAIU/jQ-ZQOdFATA/s1600-h/Atbara.jpg",
-    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
-    "http": {
-     "file_url": "200",
-     "page_url": "200",
-     "thumb_url_320": "200"
-    },
-    "credit_line": "Richard Caton Woodville Jr., before 1927 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "atbara-1898",
-    "kind": "artwork/illustration"
-   },
-   {
-    "file_title": "File:Battle of Atbara 1.jpg",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Battle_of_Atbara_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Atbara_1.jpg",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Battle_of_Atbara_1.jpg/330px-Battle_of_Atbara_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 1200,
-    "height": 747,
-    "mime": "image/jpeg",
-    "author": "Godfrey Douglas Giles (1859 - 1941)",
-    "date": "1899",
-    "licence": "Public domain",
-    "licence_url": null,
-    "usage_terms": "Public domain",
-    "description": "After the battle. The emir Mahmud brought prisoner to Herbert Kitchener. Atbara, 8 April 1898. National Army Museum.",
-    "credit_source": "Art UK",
-    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
-    "http": {
-     "file_url": "200",
-     "page_url": "200",
-     "thumb_url_320": "200"
-    },
-    "credit_line": "Godfrey Douglas Giles (1859 - 1941), 1899 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "atbara-1898",
-    "kind": "artwork/illustration"
-   },
-   {
-    "file_title": "File:Battle of the Atbara. Time 7.40 a.m.png",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Battle_of_the_Atbara._Time_7.40_a.m.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Battle_of_the_Atbara._Time_7.40_a.m.png",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Battle_of_the_Atbara._Time_7.40_a.m.png/330px-Battle_of_the_Atbara._Time_7.40_a.m.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 2865,
-    "height": 1857,
-    "mime": "image/png",
-    "author": "Unknown author",
-    "date": "1903",
-    "licence": "Public domain",
-    "licence_url": null,
-    "usage_terms": "Public domain",
-    "description": "Battle of the Atbara. Time 7.40 a.m.",
-    "credit_source": "With Kitchener in the Soudan. A Story of Atbara and Omdurman. By G. A. Henty, Blackie & Son 1903.",
-    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
-    "http": {
-     "file_url": "200",
-     "page_url": "200",
-     "thumb_url_320": "200"
-    },
-    "credit_line": "Unknown author, 1903 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "atbara-1898",
-    "kind": "map/plan"
-   }
-  ],
-  "karari-1898": [
-   {
-    "file_title": "File:Richard Caton Woodville (1856-1927) - The Charge of the 21st Lancers at the Battle of Omdurman, 2 September 1898 - WAG 152 - Walker Art Gallery.jpg",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Richard_Caton_Woodville_%281856-1927%29_-_The_Charge_of_the_21st_Lancers_at_the_Battle_of_Omdurman%2C_2_September_1898_-_WAG_152_-_Walker_Art_Gallery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Richard_Caton_Woodville_(1856-1927)_-_The_Charge_of_the_21st_Lancers_at_the_Battle_of_Omdurman,_2_September_1898_-_WAG_152_-_Walker_Art_Gallery.jpg",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Richard_Caton_Woodville_%281856-1927%29_-_The_Charge_of_the_21st_Lancers_at_the_Battle_of_Omdurman%2C_2_September_1898_-_WAG_152_-_Walker_Art_Gallery.jpg/330px-Richard_Caton_Woodville_%281856-1927%29_-_The_Charge_of_the_21st_Lancers_at_the_Battle_of_Omdurman%2C_2_September_1898_-_WAG_152_-_Walker_Art_Gallery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 1000,
-    "height": 628,
-    "mime": "image/jpeg",
-    "author": "Richard Caton Woodville Jr.",
-    "date": "1898",
-    "licence": "Public domain",
-    "licence_url": null,
-    "usage_terms": "Public domain",
-    "description": "",
-    "credit_source": "Art UK",
-    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
-    "http": {
-     "file_url": "200",
-     "page_url": "200",
-     "thumb_url_320": "200"
-    },
-    "credit_line": "Richard Caton Woodville Jr., 1898 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "karari-1898",
-    "kind": "artwork/illustration"
-   },
-   {
-    "file_title": "File:Battle of Omdurman Frank Dadd 1898.jpg",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Battle_of_Omdurman_Frank_Dadd_1898.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Omdurman_Frank_Dadd_1898.jpg",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Battle_of_Omdurman_Frank_Dadd_1898.jpg/330px-Battle_of_Omdurman_Frank_Dadd_1898.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 585,
-    "height": 435,
-    "mime": "image/jpeg",
-    "author": "Frank Dadd / William T. Maud",
-    "date": "28 September 1898",
-    "licence": "Public domain",
-    "licence_url": null,
-    "usage_terms": "Public domain",
-    "description": "The Battle of Omdurman, the Opening Charge of the Dervishes against the British Division. Illustration for The Graphic, 24 September 1898.\n\nThe Battle of Omdurman, 2 September 1898, by Frank Dadd, from sketch by W. T. Maud.",
-    "credit_source": "https://www.fineartstorehouse.com/collections/heritage-images/battle-omdurman-11799812.html#v2_scrolltoinfo",
-    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
-    "http": {
-     "file_url": "200",
-     "page_url": "200",
-     "thumb_url_320": "200"
-    },
-    "credit_line": "Frank Dadd / William T. Maud, 28 September 1898 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "karari-1898",
-    "kind": "artwork/illustration"
-   },
-   {
-    "file_title": "File:Battle of Omdurman. First Dervish attack.png",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Battle_of_Omdurman._First_Dervish_attack.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Omdurman._First_Dervish_attack.png",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Battle_of_Omdurman._First_Dervish_attack.png/330px-Battle_of_Omdurman._First_Dervish_attack.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 2200,
-    "height": 1566,
-    "mime": "image/png",
-    "author": "B.V. Darbishire",
-    "date": "1898",
-    "licence": "Public domain",
-    "licence_url": null,
-    "usage_terms": "Public domain",
-    "description": "Battle of Omdurman. First Dervish attack",
-    "credit_source": "The Downfall of the Dervishes or The Avenging of Gordon, by Ernest N. Bennett, Methuen & Co., 1899",
-    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
-    "http": {
-     "file_url": "200",
-     "page_url": "200",
-     "thumb_url_320": "200"
-    },
-    "credit_line": "B.V. Darbishire, 1898 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "karari-1898",
-    "kind": "map/plan"
-   },
-   {
-    "file_title": "File:Sketch map of the Battle of Omdurman 2nd Sept. 1898.png",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Sketch_map_of_the_Battle_of_Omdurman_2nd_Sept._1898.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Sketch_map_of_the_Battle_of_Omdurman_2nd_Sept._1898.png",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Sketch_map_of_the_Battle_of_Omdurman_2nd_Sept._1898.png/330px-Sketch_map_of_the_Battle_of_Omdurman_2nd_Sept._1898.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 4100,
-    "height": 3976,
-    "mime": "image/png",
-    "author": "Great Britain. War Office. Intelligence Division.",
-    "date": "1898",
-    "licence": "Public domain",
-    "licence_url": null,
-    "usage_terms": "Public domain",
-    "description": "Sketch map of the Battle of Omdurman 2nd Sept. 1898",
-    "credit_source": "Durham University Library, SAD.430/13/6",
-    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
-    "http": {
-     "file_url": "200",
-     "page_url": "200",
-     "thumb_url_320": "200"
-    },
-    "credit_line": "Great Britain. War Office. Intelligence Division., 1898 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "karari-1898",
-    "kind": "map/plan"
+    "evidence_type": "primary-account"
    }
   ],
   "gallabat-1889": [
@@ -573,133 +387,54 @@
      "page_url": "200",
      "thumb_url_320": "200"
     },
-    "credit_line": "John Ward, 1905 – Public domain – via Wikimedia Commons",
-    "war_id": "ethiopian-mahdist-war",
-    "depicts": "gallabat-1889",
-    "kind": "battlefield view"
+    "credit_line": "John Ward, 1905, Public domain, via Wikimedia Commons",
+    "battle_id": "gallabat-1889",
+    "war_id": "mahdist-ethiopian-war",
+    "evidence_type": "photograph",
+    "note": "Battlefield view published 1905, not an image of the battle."
    }
   ],
-  "el-teb-1884": [
+  "atbara-1898": [
    {
-    "file_title": "File:Melton-Prior-batalla-de-El-Teb-28-01-1884.jpg",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Melton-Prior-batalla-de-El-Teb-28-01-1884.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Melton-Prior-batalla-de-El-Teb-28-01-1884.jpg",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Melton-Prior-batalla-de-El-Teb-28-01-1884.jpg/330px-Melton-Prior-batalla-de-El-Teb-28-01-1884.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 1102,
-    "height": 802,
+    "file_title": "File:Atbara.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Atbara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Atbara.jpg",
+    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Atbara.jpg/330px-Atbara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1034,
+    "height": 1250,
     "mime": "image/jpeg",
-    "author": "Melton Prior / Manuel Alcázar y Ruiz / Eugenio Vela",
-    "date": "1884-01-29",
+    "author": "Richard Caton Woodville Jr.",
+    "date": "before 1927",
     "licence": "Public domain",
     "licence_url": null,
     "usage_terms": "Public domain",
-    "description": "War of the Sudan - battle of El-Teb 29.1.1884",
-    "credit_source": "La Ilustración española y americana  Año XXVIII. Núm. 12. Madrid, 30.3.1884",
+    "description": "Bataille d'Atbara 1898.",
+    "credit_source": "http://3.bp.blogspot.com/_m7PhTGSm_1s/R68sD94i-4I/AAAAAAAAAIU/jQ-ZQOdFATA/s1600-h/Atbara.jpg",
     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
     "http": {
      "file_url": "200",
      "page_url": "200",
      "thumb_url_320": "200"
     },
-    "credit_line": "Melton Prior / Manuel Alcázar y Ruiz / Eugenio Vela, 1884-01-29 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "el-teb-1884",
-    "kind": "artwork/illustration"
+    "credit_line": "Richard Caton Woodville Jr., before 1927, Public domain, via Wikimedia Commons",
+    "battle_id": "atbara-1898",
+    "war_id": "anglo-egyptian-reconquest",
+    "evidence_type": "period-illustration"
    },
    {
-    "file_title": "File:Józef Chełmoński Bitwa pod El Teb 1884.jpg",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/J%C3%B3zef_Che%C5%82mo%C5%84ski_Bitwa_pod_El_Teb_1884.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:J%C3%B3zef_Che%C5%82mo%C5%84ski_Bitwa_pod_El_Teb_1884.jpg",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/J%C3%B3zef_Che%C5%82mo%C5%84ski_Bitwa_pod_El_Teb_1884.jpg/330px-J%C3%B3zef_Che%C5%82mo%C5%84ski_Bitwa_pod_El_Teb_1884.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 3000,
-    "height": 2008,
-    "mime": "image/jpeg",
-    "author": "Józef Chełmoński",
-    "date": "1884",
-    "licence": "Public domain",
-    "licence_url": null,
-    "usage_terms": "Public domain",
-    "description": "Józef Chełmoński, Bitwa pod El Teb, tusz lawowany, papier Angerera, 42,8 x 63,7 cm w świetle passe-partout",
-    "credit_source": "https://www.sda.pl/aukcja/obiekty/jozef-chelmonski-bitwa-pod-el-teb-1884-r,37912,pl",
-    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
-    "http": {
-     "file_url": "200",
-     "page_url": "200",
-     "thumb_url_320": "200"
-    },
-    "credit_line": "Józef Chełmoński, 1884 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "el-teb-1884",
-    "kind": "artwork/illustration"
-   },
-   {
-    "file_title": "File:Bataille d'El Teb.jpg",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Bataille_d%27El_Teb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Bataille_d%27El_Teb.jpg",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Bataille_d%27El_Teb.jpg/330px-Bataille_d%27El_Teb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "file_title": "File:Battle of Atbara 1.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Battle_of_Atbara_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Atbara_1.jpg",
+    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Battle_of_Atbara_1.jpg/330px-Battle_of_Atbara_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "width": 1200,
-    "height": 689,
+    "height": 747,
     "mime": "image/jpeg",
-    "author": "Godfrey Douglas Giles",
-    "date": "1884",
+    "author": "Godfrey Douglas Giles (1859 - 1941)",
+    "date": "1899",
     "licence": "Public domain",
     "licence_url": null,
     "usage_terms": "Public domain",
-    "description": "Charge at El Teb, Sudan. Oil on canvas. Museum of the King's Royal Hussars",
-    "credit_source": "https://artuk.org/discover/artworks/charge-at-el-teb-sudan-24252",
-    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
-    "http": {
-     "file_url": "200",
-     "page_url": "200",
-     "thumb_url_320": "200"
-    },
-    "credit_line": "Godfrey Douglas Giles, 1884 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "el-teb-1884",
-    "kind": "artwork/illustration"
-   }
-  ],
-  "tamai-1884": [
-   {
-    "file_title": "File:Battle of Tamai.jpg",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Battle_of_Tamai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Tamai.jpg",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Battle_of_Tamai.jpg/330px-Battle_of_Tamai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 640,
-    "height": 366,
-    "mime": "image/jpeg",
-    "author": "Geoffrey Douglas Giles (1857-1941)",
-    "date": "1886",
-    "licence": "Public domain",
-    "licence_url": null,
-    "usage_terms": "Public domain",
-    "description": "An incident at the Battle of Tamai, eastern Sudan, March 13,1884",
-    "credit_source": "artnet.com – Transferred from en.wikipedia; transferred to Commons by User:Off2riorob using CommonsHelper. Original uploader was Raoulduke47 at en.wikipedia",
-    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
-    "http": {
-     "file_url": "200",
-     "page_url": "200",
-     "thumb_url_320": "200"
-    },
-    "credit_line": "Geoffrey Douglas Giles (1857-1941), 1886 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "tamai-1884",
-    "kind": "artwork/illustration"
-   },
-   {
-    "file_title": "File:Bataille de Tamai.jpg",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Bataille_de_Tamai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Bataille_de_Tamai.jpg",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Bataille_de_Tamai.jpg/330px-Bataille_de_Tamai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 1200,
-    "height": 824,
-    "mime": "image/jpeg",
-    "author": "Godfrey Douglas Giles",
-    "date": "1885",
-    "licence": "Public domain",
-    "licence_url": null,
-    "usage_terms": "Public domain",
-    "description": "Battle of Tamai (1884). Oil on canvas. National Army Museum.",
+    "description": "After the battle. The emir Mahmud brought prisoner to Herbert Kitchener. Atbara, 8 April 1898. National Army Museum.",
     "credit_source": "Art UK",
     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
     "http": {
@@ -707,65 +442,781 @@
      "page_url": "200",
      "thumb_url_320": "200"
     },
-    "credit_line": "Godfrey Douglas Giles, 1885 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "tamai-1884",
-    "kind": "artwork/illustration"
+    "credit_line": "Godfrey Douglas Giles (1859 - 1941), 1899, Public domain, via Wikimedia Commons",
+    "battle_id": "atbara-1898",
+    "war_id": "anglo-egyptian-reconquest",
+    "evidence_type": "period-illustration"
    },
    {
-    "file_title": "File:Battle of Tamai map.jpg",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Battle_of_Tamai_map.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Tamai_map.jpg",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Battle_of_Tamai_map.jpg/330px-Battle_of_Tamai_map.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 1803,
-    "height": 1446,
-    "mime": "image/jpeg",
-    "author": "Archibald Forbes, Arthur Griffiths and others.",
-    "date": "1895",
+    "file_title": "File:Battle of the Atbara. Time 7.40 a.m.png",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Battle_of_the_Atbara._Time_7.40_a.m.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Battle_of_the_Atbara._Time_7.40_a.m.png",
+    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Battle_of_the_Atbara._Time_7.40_a.m.png/330px-Battle_of_the_Atbara._Time_7.40_a.m.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2865,
+    "height": 1857,
+    "mime": "image/png",
+    "author": "Unknown author",
+    "date": "1903",
     "licence": "Public domain",
     "licence_url": null,
     "usage_terms": "Public domain",
-    "description": "A British map of the 1884 Battle of Tamai.",
-    "credit_source": "This file is from the Mechanical Curator collection, a set of over 1 million images scanned from out-of-copyright books and released to Flickr Commons by the British Library in London, England. \n  View in BL Georeferencer  \n View image on Flickr \n View all images from book \n\n View catalogue entry fo",
+    "description": "Battle of the Atbara. Time 7.40 a.m.",
+    "credit_source": "With Kitchener in the Soudan. A Story of Atbara and Omdurman. By G. A. Henty, Blackie & Son 1903.",
     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
     "http": {
      "file_url": "200",
      "page_url": "200",
      "thumb_url_320": "200"
     },
-    "credit_line": "Archibald Forbes, Arthur Griffiths and others., 1895 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "tamai-1884",
-    "kind": "map/plan"
+    "credit_line": "Unknown author, 1903, Public domain, via Wikimedia Commons",
+    "battle_id": "atbara-1898",
+    "war_id": "anglo-egyptian-reconquest",
+    "evidence_type": "primary-account"
    }
   ],
-  "ferkeh-1896": [
+  "karari-1898": [
    {
-    "file_title": "File:Battle of Ferkeh, June 7 1896.png",
-    "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Battle_of_Ferkeh%2C_June_7_1896.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "page_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Ferkeh,_June_7_1896.png",
-    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Battle_of_Ferkeh%2C_June_7_1896.png/330px-Battle_of_Ferkeh%2C_June_7_1896.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "width": 1648,
-    "height": 1804,
-    "mime": "image/png",
-    "author": "Andrew Hilliard Atteridge",
-    "date": "1897",
+    "file_title": "File:Richard Caton Woodville (1856-1927) - The Charge of the 21st Lancers at the Battle of Omdurman, 2 September 1898 - WAG 152 - Walker Art Gallery.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Richard_Caton_Woodville_%281856-1927%29_-_The_Charge_of_the_21st_Lancers_at_the_Battle_of_Omdurman%2C_2_September_1898_-_WAG_152_-_Walker_Art_Gallery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Richard_Caton_Woodville_(1856-1927)_-_The_Charge_of_the_21st_Lancers_at_the_Battle_of_Omdurman,_2_September_1898_-_WAG_152_-_Walker_Art_Gallery.jpg",
+    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Richard_Caton_Woodville_%281856-1927%29_-_The_Charge_of_the_21st_Lancers_at_the_Battle_of_Omdurman%2C_2_September_1898_-_WAG_152_-_Walker_Art_Gallery.jpg/330px-Richard_Caton_Woodville_%281856-1927%29_-_The_Charge_of_the_21st_Lancers_at_the_Battle_of_Omdurman%2C_2_September_1898_-_WAG_152_-_Walker_Art_Gallery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1000,
+    "height": 628,
+    "mime": "image/jpeg",
+    "author": "Richard Caton Woodville Jr.",
+    "date": "1898",
     "licence": "Public domain",
     "licence_url": null,
     "usage_terms": "Public domain",
-    "description": "Battle of Ferkeh, June 7 1896",
-    "credit_source": "This image has been extracted from another file",
+    "description": "",
+    "credit_source": "Art UK",
     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
     "http": {
      "file_url": "200",
      "page_url": "200",
      "thumb_url_320": "200"
     },
-    "credit_line": "Andrew Hilliard Atteridge, 1897 – Public domain – via Wikimedia Commons",
-    "war_id": "mahdist-war",
-    "depicts": "ferkeh-1896",
-    "kind": "artwork/illustration"
+    "credit_line": "Richard Caton Woodville Jr., 1898, Public domain, via Wikimedia Commons",
+    "battle_id": "karari-1898",
+    "war_id": "anglo-egyptian-reconquest",
+    "evidence_type": "period-illustration"
+   },
+   {
+    "file_title": "File:Battle of Omdurman Frank Dadd 1898.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Battle_of_Omdurman_Frank_Dadd_1898.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Omdurman_Frank_Dadd_1898.jpg",
+    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Battle_of_Omdurman_Frank_Dadd_1898.jpg/330px-Battle_of_Omdurman_Frank_Dadd_1898.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 585,
+    "height": 435,
+    "mime": "image/jpeg",
+    "author": "Frank Dadd / William T. Maud",
+    "date": "28 September 1898",
+    "licence": "Public domain",
+    "licence_url": null,
+    "usage_terms": "Public domain",
+    "description": "The Battle of Omdurman, the Opening Charge of the Dervishes against the British Division. Illustration for The Graphic, 24 September 1898.\n\nThe Battle of Omdurman, 2 September 1898, by Frank Dadd, from sketch by W. T. Maud.",
+    "credit_source": "https://www.fineartstorehouse.com/collections/heritage-images/battle-omdurman-11799812.html#v2_scrolltoinfo",
+    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+    "http": {
+     "file_url": "200",
+     "page_url": "200",
+     "thumb_url_320": "200"
+    },
+    "credit_line": "Frank Dadd / William T. Maud, 28 September 1898, Public domain, via Wikimedia Commons",
+    "battle_id": "karari-1898",
+    "war_id": "anglo-egyptian-reconquest",
+    "evidence_type": "period-illustration"
+   },
+   {
+    "file_title": "File:Battle of Omdurman. First Dervish attack.png",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Battle_of_Omdurman._First_Dervish_attack.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Omdurman._First_Dervish_attack.png",
+    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Battle_of_Omdurman._First_Dervish_attack.png/330px-Battle_of_Omdurman._First_Dervish_attack.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2200,
+    "height": 1566,
+    "mime": "image/png",
+    "author": "B.V. Darbishire",
+    "date": "1898",
+    "licence": "Public domain",
+    "licence_url": null,
+    "usage_terms": "Public domain",
+    "description": "Battle of Omdurman. First Dervish attack",
+    "credit_source": "The Downfall of the Dervishes or The Avenging of Gordon, by Ernest N. Bennett, Methuen & Co., 1899",
+    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+    "http": {
+     "file_url": "200",
+     "page_url": "200",
+     "thumb_url_320": "200"
+    },
+    "credit_line": "B.V. Darbishire, 1898, Public domain, via Wikimedia Commons",
+    "battle_id": "karari-1898",
+    "war_id": "anglo-egyptian-reconquest",
+    "evidence_type": "primary-account"
+   },
+   {
+    "file_title": "File:Sketch map of the Battle of Omdurman 2nd Sept. 1898.png",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Sketch_map_of_the_Battle_of_Omdurman_2nd_Sept._1898.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Sketch_map_of_the_Battle_of_Omdurman_2nd_Sept._1898.png",
+    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Sketch_map_of_the_Battle_of_Omdurman_2nd_Sept._1898.png/330px-Sketch_map_of_the_Battle_of_Omdurman_2nd_Sept._1898.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4100,
+    "height": 3976,
+    "mime": "image/png",
+    "author": "Great Britain. War Office. Intelligence Division.",
+    "date": "1898",
+    "licence": "Public domain",
+    "licence_url": null,
+    "usage_terms": "Public domain",
+    "description": "Sketch map of the Battle of Omdurman 2nd Sept. 1898",
+    "credit_source": "Durham University Library, SAD.430/13/6",
+    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+    "http": {
+     "file_url": "200",
+     "page_url": "200",
+     "thumb_url_320": "200"
+    },
+    "credit_line": "Great Britain. War Office. Intelligence Division., 1898, Public domain, via Wikimedia Commons",
+    "battle_id": "karari-1898",
+    "war_id": "anglo-egyptian-reconquest",
+    "evidence_type": "primary-account"
    }
-  ]
+  ],
+  "umm-diwaykarat-1899": [],
+  "darfur-1916": [
+   {
+    "file_title": "File:Imam Ali Dinar of Darfúr attacks the English troops in northern Sudan, 1916.png",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Imam_Ali_Dinar_of_Darf%C3%BAr_attacks_the_English_troops_in_northern_Sudan%2C_1916.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Imam_Ali_Dinar_of_Darf%C3%BAr_attacks_the_English_troops_in_northern_Sudan,_1916.png",
+    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Imam_Ali_Dinar_of_Darf%C3%BAr_attacks_the_English_troops_in_northern_Sudan%2C_1916.png/330px-Imam_Ali_Dinar_of_Darf%C3%BAr_attacks_the_English_troops_in_northern_Sudan%2C_1916.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2069,
+    "height": 1298,
+    "mime": "image/png",
+    "author": "Bruno Richter",
+    "date": "1916",
+    "licence": "Public domain",
+    "licence_url": null,
+    "usage_terms": "Public domain",
+    "description": "The Imam Ali Dinar of Darfúr attacks the English troops in northern Sudan, 1916",
+    "credit_source": "Der Krieg 1914/16 in Wort und Bild, 94. Heftː\n\nhttps://digi.landesbibliothek.at/viewer/image/AC09345259_94191416/21/",
+    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+    "http": {
+     "file_url": "200",
+     "page_url": "200",
+     "thumb_url_320": "200"
+    },
+    "credit_line": "Bruno Richter, 1916, Public domain, via Wikimedia Commons",
+    "battle_id": "darfur-1916",
+    "war_id": "darfur-campaign-1916",
+    "evidence_type": "period-illustration"
+   },
+   {
+    "file_title": "File:AREA OF THE OPERATIONS AGAINST THE SULTAN OF DARFUR (1916).png",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/AREA_OF_THE_OPERATIONS_AGAINST_THE_SULTAN_OF_DARFUR_%281916%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:AREA_OF_THE_OPERATIONS_AGAINST_THE_SULTAN_OF_DARFUR_(1916).png",
+    "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/AREA_OF_THE_OPERATIONS_AGAINST_THE_SULTAN_OF_DARFUR_%281916%29.png/330px-AREA_OF_THE_OPERATIONS_AGAINST_THE_SULTAN_OF_DARFUR_%281916%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1599,
+    "height": 1945,
+    "mime": "image/png",
+    "author": "Unknown author",
+    "date": "1916",
+    "licence": "Public domain",
+    "licence_url": null,
+    "usage_terms": "Public domain",
+    "description": "Ali Dinar, Sultan of Darfur, who had long been truculent, gathered a force at Jebel-el-Hilla, in February, 1916. Colonel Kelly advanced from Nahud to Abiat and, after a sharp engagement at Beringia, ...",
+    "credit_source": "WILSON, H. W.. The Great war. [S.l.]: Amalgated press limited, 1916. Volume 6. Online: https://digitalnistudovna.army.cz/uuid/uuid:d87e60cf-1165-11e8-b685-005056b73ae5",
+    "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+    "http": {
+     "file_url": "200",
+     "page_url": "200",
+     "thumb_url_320": "200"
+    },
+    "credit_line": "Unknown author, 1916, Public domain, via Wikimedia Commons",
+    "battle_id": "darfur-1916",
+    "war_id": "darfur-campaign-1916",
+    "evidence_type": "primary-account"
+   }
+  ],
+  "torit-1955": []
+ },
+ "pending_ids": {
+  "el-teb-1884": {
+   "note": "suggested slug; the Historian will assign the id in pass 2",
+   "war_id_suggested": "mahdist-war",
+   "images": [
+    {
+     "file_title": "File:Melton-Prior-batalla-de-El-Teb-28-01-1884.jpg",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Melton-Prior-batalla-de-El-Teb-28-01-1884.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Melton-Prior-batalla-de-El-Teb-28-01-1884.jpg",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Melton-Prior-batalla-de-El-Teb-28-01-1884.jpg/330px-Melton-Prior-batalla-de-El-Teb-28-01-1884.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1102,
+     "height": 802,
+     "mime": "image/jpeg",
+     "author": "Melton Prior / Manuel Alcázar y Ruiz / Eugenio Vela",
+     "date": "1884-01-29",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "War of the Sudan - battle of El-Teb 29.1.1884",
+     "credit_source": "La Ilustración española y americana  Año XXVIII. Núm. 12. Madrid, 30.3.1884",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Melton Prior / Manuel Alcázar y Ruiz / Eugenio Vela, 1884-01-29, Public domain, via Wikimedia Commons",
+     "battle_id": "el-teb-1884",
+     "war_id": "mahdist-war",
+     "evidence_type": "period-illustration"
+    },
+    {
+     "file_title": "File:Józef Chełmoński Bitwa pod El Teb 1884.jpg",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/J%C3%B3zef_Che%C5%82mo%C5%84ski_Bitwa_pod_El_Teb_1884.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:J%C3%B3zef_Che%C5%82mo%C5%84ski_Bitwa_pod_El_Teb_1884.jpg",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/J%C3%B3zef_Che%C5%82mo%C5%84ski_Bitwa_pod_El_Teb_1884.jpg/330px-J%C3%B3zef_Che%C5%82mo%C5%84ski_Bitwa_pod_El_Teb_1884.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3000,
+     "height": 2008,
+     "mime": "image/jpeg",
+     "author": "Józef Chełmoński",
+     "date": "1884",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "Józef Chełmoński, Bitwa pod El Teb, tusz lawowany, papier Angerera, 42,8 x 63,7 cm w świetle passe-partout",
+     "credit_source": "https://www.sda.pl/aukcja/obiekty/jozef-chelmonski-bitwa-pod-el-teb-1884-r,37912,pl",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Józef Chełmoński, 1884, Public domain, via Wikimedia Commons",
+     "battle_id": "el-teb-1884",
+     "war_id": "mahdist-war",
+     "evidence_type": "period-illustration"
+    },
+    {
+     "file_title": "File:Bataille d'El Teb.jpg",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Bataille_d%27El_Teb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Bataille_d%27El_Teb.jpg",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Bataille_d%27El_Teb.jpg/330px-Bataille_d%27El_Teb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1200,
+     "height": 689,
+     "mime": "image/jpeg",
+     "author": "Godfrey Douglas Giles",
+     "date": "1884",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "Charge at El Teb, Sudan. Oil on canvas. Museum of the King's Royal Hussars",
+     "credit_source": "https://artuk.org/discover/artworks/charge-at-el-teb-sudan-24252",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Godfrey Douglas Giles, 1884, Public domain, via Wikimedia Commons",
+     "battle_id": "el-teb-1884",
+     "war_id": "mahdist-war",
+     "evidence_type": "period-illustration"
+    }
+   ]
+  },
+  "tamai-1884": {
+   "note": "suggested slug; the Historian will assign the id in pass 2",
+   "war_id_suggested": "mahdist-war",
+   "images": [
+    {
+     "file_title": "File:Battle of Tamai.jpg",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Battle_of_Tamai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Tamai.jpg",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Battle_of_Tamai.jpg/330px-Battle_of_Tamai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 640,
+     "height": 366,
+     "mime": "image/jpeg",
+     "author": "Geoffrey Douglas Giles (1857-1941)",
+     "date": "1886",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "An incident at the Battle of Tamai, eastern Sudan, March 13,1884",
+     "credit_source": "artnet.com – Transferred from en.wikipedia; transferred to Commons by User:Off2riorob using CommonsHelper. Original uploader was Raoulduke47 at en.wikipedia",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Geoffrey Douglas Giles (1857-1941), 1886, Public domain, via Wikimedia Commons",
+     "battle_id": "tamai-1884",
+     "war_id": "mahdist-war",
+     "evidence_type": "period-illustration"
+    },
+    {
+     "file_title": "File:Bataille de Tamai.jpg",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Bataille_de_Tamai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Bataille_de_Tamai.jpg",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Bataille_de_Tamai.jpg/330px-Bataille_de_Tamai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1200,
+     "height": 824,
+     "mime": "image/jpeg",
+     "author": "Godfrey Douglas Giles",
+     "date": "1885",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "Battle of Tamai (1884). Oil on canvas. National Army Museum.",
+     "credit_source": "Art UK",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Godfrey Douglas Giles, 1885, Public domain, via Wikimedia Commons",
+     "battle_id": "tamai-1884",
+     "war_id": "mahdist-war",
+     "evidence_type": "period-illustration"
+    },
+    {
+     "file_title": "File:Battle of Tamai map.jpg",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Battle_of_Tamai_map.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Tamai_map.jpg",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Battle_of_Tamai_map.jpg/330px-Battle_of_Tamai_map.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1803,
+     "height": 1446,
+     "mime": "image/jpeg",
+     "author": "Archibald Forbes, Arthur Griffiths and others.",
+     "date": "1895",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "A British map of the 1884 Battle of Tamai.",
+     "credit_source": "This file is from the Mechanical Curator collection, a set of over 1 million images scanned from out-of-copyright books and released to Flickr Commons by the British Library in London, England. \n  View in BL Georeferencer  \n View image on Flickr \n View all images from book \n\n View catalogue entry fo",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Archibald Forbes, Arthur Griffiths and others., 1895, Public domain, via Wikimedia Commons",
+     "battle_id": "tamai-1884",
+     "war_id": "mahdist-war",
+     "evidence_type": "period-illustration"
+    }
+   ]
+  },
+  "abu-klea-1885": {
+   "note": "suggested slug; the Historian will assign the id in pass 2",
+   "war_id_suggested": "mahdist-war",
+   "images": [
+    {
+     "file_title": "File:Battle of Abu Klea, William Barnes Wollen.jpg",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Battle_of_Abu_Klea%2C_William_Barnes_Wollen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Abu_Klea,_William_Barnes_Wollen.jpg",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Battle_of_Abu_Klea%2C_William_Barnes_Wollen.jpg/330px-Battle_of_Abu_Klea%2C_William_Barnes_Wollen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1500,
+     "height": 1000,
+     "mime": "image/jpeg",
+     "author": "William Barnes Wollen",
+     "date": "before 1936",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "Bataille d'Abu Klea. Huile sur toile.",
+     "credit_source": "http://www.directart.co.uk/mall/images/dhm0111detail.jpg",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "William Barnes Wollen, before 1936, Public domain, via Wikimedia Commons",
+     "battle_id": "abu-klea-1885",
+     "war_id": "mahdist-war",
+     "evidence_type": "period-illustration"
+    },
+    {
+     "file_title": "File:Action of Abu Klea Jan. 17th 1885.png",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Action_of_Abu_Klea_Jan._17th_1885.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Action_of_Abu_Klea_Jan._17th_1885.png",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Action_of_Abu_Klea_Jan._17th_1885.png/330px-Action_of_Abu_Klea_Jan._17th_1885.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 7137,
+     "height": 2961,
+     "mime": "image/png",
+     "author": "Great Britain. War Office. Intelligence Division",
+     "date": "1888",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "Action of Abu Klea Jan. 17th 1885 [cartographic material] / Surveyed by W. Verner Feb. 16th 1885. Lithd. at the Intell. Div. War Office ; Printed for Her Majest's Stationery Office, by Harrison and Sons, St. Martin's Lane. Series: History of the Sudan campaign; no. 4.",
+     "credit_source": "National Library of Australia Digital Collection",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Great Britain. War Office. Intelligence Division, 1888, Public domain, via Wikimedia Commons",
+     "battle_id": "abu-klea-1885",
+     "war_id": "mahdist-war",
+     "evidence_type": "period-illustration"
+    },
+    {
+     "file_title": "File:MACDONALD(1887) p263 SKETCH MAP OF BATTLE FIELD OF ABU-KLEA.jpg",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/MACDONALD%281887%29_p263_SKETCH_MAP_OF_BATTLE_FIELD_OF_ABU-KLEA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:MACDONALD(1887)_p263_SKETCH_MAP_OF_BATTLE_FIELD_OF_ABU-KLEA.jpg",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/MACDONALD%281887%29_p263_SKETCH_MAP_OF_BATTLE_FIELD_OF_ABU-KLEA.jpg/330px-MACDONALD%281887%29_p263_SKETCH_MAP_OF_BATTLE_FIELD_OF_ABU-KLEA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2989,
+     "height": 2079,
+     "mime": "image/jpeg",
+     "author": "Unknown author",
+     "date": "1887",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "",
+     "credit_source": "This file is from the Mechanical Curator collection, a set of over 1 million images scanned from out-of-copyright books and released to Flickr Commons by the British Library in London, England. \n View image on Flickr \n View all images from book \n\n View catalogue entry for book.",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Unknown author, 1887, Public domain, via Wikimedia Commons",
+     "battle_id": "abu-klea-1885",
+     "war_id": "mahdist-war",
+     "evidence_type": "primary-account"
+    }
+   ]
+  },
+  "ginnis-1885": {
+   "note": "suggested slug; the Historian will assign the id in pass 2",
+   "war_id_suggested": "mahdist-war (suggested; Historian to confirm, may be outside major-battle scope)",
+   "images": [
+    {
+     "file_title": "File:Battle of Ginnis (1886), London News.jpg",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Battle_of_Ginnis_%281886%29%2C_London_News.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Ginnis_(1886),_London_News.jpg",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Battle_of_Ginnis_%281886%29%2C_London_News.jpg/330px-Battle_of_Ginnis_%281886%29%2C_London_News.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1191,
+     "height": 736,
+     "mime": "image/jpeg",
+     "author": "Amédée Forestier (1845 - 1930)",
+     "date": "1886-01-30",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "Bataille de Ginnis, 1886. Gravure parue dans l'Illustrated London News.\nThe Soudan Frontier Conflict, the Battle of Ginnis, on 30 December. Illustration for The Illustrated London News, 30 January 1886.",
+     "credit_source": "http://www.old-print.com/cgi-bin/item/MAR1042337#",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Amédée Forestier (1845 - 1930), 1886-01-30, Public domain, via Wikimedia Commons",
+     "battle_id": "ginnis-1885",
+     "war_id": "mahdist-war",
+     "evidence_type": "period-illustration"
+    },
+    {
+     "file_title": "File:Attack upon Ginnis - 30th december 1885.jpg",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Attack_upon_Ginnis_-_30th_december_1885.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Attack_upon_Ginnis_-_30th_december_1885.jpg",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Attack_upon_Ginnis_-_30th_december_1885.jpg/330px-Attack_upon_Ginnis_-_30th_december_1885.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2163,
+     "height": 1704,
+     "mime": "image/jpeg",
+     "author": "Unknown author",
+     "date": "1891",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "1) Sketch showing order of march - Attack upon Ginnis - 30th december 1885, 2) Eye sketch showing position of troops in attack upon Ginnis - 30th december 1885",
+     "credit_source": "Mahdiism and the Egyptian Sudan, by F. R. Wingate. London, MacMillian and Co., 1891.",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Unknown author, 1891, Public domain, via Wikimedia Commons",
+     "battle_id": "ginnis-1885",
+     "war_id": "mahdist-war",
+     "evidence_type": "period-illustration"
+    }
+   ]
+  },
+  "ferkeh-1896": {
+   "note": "suggested slug; the Historian will assign the id in pass 2",
+   "war_id_suggested": "anglo-egyptian-reconquest",
+   "images": [
+    {
+     "file_title": "File:Battle of Ferkeh, June 7 1896.png",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Battle_of_Ferkeh%2C_June_7_1896.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Ferkeh,_June_7_1896.png",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Battle_of_Ferkeh%2C_June_7_1896.png/330px-Battle_of_Ferkeh%2C_June_7_1896.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1648,
+     "height": 1804,
+     "mime": "image/png",
+     "author": "Andrew Hilliard Atteridge",
+     "date": "1897",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "Battle of Ferkeh, June 7 1896",
+     "credit_source": "This image has been extracted from another file",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Andrew Hilliard Atteridge, 1897, Public domain, via Wikimedia Commons",
+     "battle_id": "ferkeh-1896",
+     "war_id": "anglo-egyptian-reconquest",
+     "evidence_type": "period-illustration"
+    }
+   ]
+  },
+  "kassala-1894": {
+   "note": "suggested slug; the Historian will assign the id in pass 2",
+   "war_id_suggested": "mahdist-war (Italian–Mahdist front; suggested)",
+   "images": [
+    {
+     "file_title": "File:Fattori - Episodio della battaglia di Kassala, 1906, GG32.jpg",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Fattori_-_Episodio_della_battaglia_di_Kassala%2C_1906%2C_GG32.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Fattori_-_Episodio_della_battaglia_di_Kassala,_1906,_GG32.jpg",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Fattori_-_Episodio_della_battaglia_di_Kassala%2C_1906%2C_GG32.jpg/330px-Fattori_-_Episodio_della_battaglia_di_Kassala%2C_1906%2C_GG32.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 813,
+     "height": 550,
+     "mime": "image/jpeg",
+     "author": "Giovanni Fattori",
+     "date": "1906",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "Episodio della battaglia di Kassala",
+     "credit_source": "http://www.brolettodinovara.it/it/museo-online/sezione/pittura-di-attualita?codice=GG32",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Giovanni Fattori, 1906, Public domain, via Wikimedia Commons",
+     "battle_id": "kassala-1894",
+     "war_id": "mahdist-war",
+     "evidence_type": "period-illustration"
+    }
+   ]
+  },
+  "memphis--728": {
+   "note": "suggested slug; the Historian will assign the id in pass 2",
+   "war_id_suggested": "kushite-egyptian-wars (Piye's conquest of Egypt; suggested)",
+   "images": [
+    {
+     "file_title": "File:Stele of Piye (complete).jpg",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Stele_of_Piye_%28complete%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Stele_of_Piye_(complete).jpg",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Stele_of_Piye_%28complete%29.jpg/330px-Stele_of_Piye_%28complete%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 8610,
+     "height": 3904,
+     "mime": "image/jpeg",
+     "author": "Auguste Mariette",
+     "date": "1872-01-01",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "Stele of Piye (complete)",
+     "credit_source": "Monuments diversPublished in 1872",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Auguste Mariette, 1872-01-01, Public domain, via Wikimedia Commons",
+     "battle_id": "memphis--728",
+     "war_id": "kushite-egyptian-wars",
+     "evidence_type": "inscription"
+    },
+    {
+     "file_title": "File:Piye Stele (Louvre Museum reconstruction).jpg",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Piye_Stele_%28Louvre_Museum_reconstruction%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Piye_Stele_(Louvre_Museum_reconstruction).jpg",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Piye_Stele_%28Louvre_Museum_reconstruction%29.jpg/330px-Piye_Stele_%28Louvre_Museum_reconstruction%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3556,
+     "height": 4364,
+     "mime": "image/jpeg",
+     "author": "Tangopaso",
+     "date": "2022-08-15",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "Piye Stele (Louvre Museum reconstruction)",
+     "credit_source": "This image has been extracted from another file",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Tangopaso, 2022-08-15, Public domain, via Wikimedia Commons",
+     "battle_id": "memphis--728",
+     "war_id": "kushite-egyptian-wars",
+     "evidence_type": "inscription"
+    },
+    {
+     "file_title": "File:Osorkon IV submitting to Piye.jpg",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Osorkon_IV_submitting_to_Piye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Osorkon_IV_submitting_to_Piye.jpg",
+     "thumb_url_320": "https://upload.wikimedia.org/wikipedia/commons/1/11/Osorkon_IV_submitting_to_Piye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 138,
+     "height": 112,
+     "mime": "image/jpeg",
+     "author": "Auguste Mariette (1821-1881)",
+     "date": "2014-04-24 17:40:07",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "Drawing of the upper-right part of the victory stele of pharaoh Piye, depicting Piye being tributed by four Nile Delta rulers: Nimlot (holding an horse) and his queen (before him), Osorkon IV, Iuput II and Peftjauawybast [see note for details]. Original stele in granite, found at Jebel Barkal and datable to the reign of Piye, 25th dynasty, now in the Cairo Museum.",
+     "credit_source": "This image has been extracted from another file",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Auguste Mariette (1821-1881), 2014-04-24 17:40:07, Public domain, via Wikimedia Commons",
+     "battle_id": "memphis--728",
+     "war_id": "kushite-egyptian-wars",
+     "evidence_type": "period-illustration"
+    }
+   ]
+  },
+  "gallabat-1940": {
+   "note": "suggested slug; the Historian will assign the id in pass 2",
+   "war_id_suggested": "east-african-campaign-1940 (not in wars.json; suggested)",
+   "images": [
+    {
+     "file_title": "File:The Mt Officer - 1st Bn, Essex Regt, at Gallabat Art.IWMARTLD1034.jpg",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/The_Mt_Officer_-_1st_Bn%2C_Essex_Regt%2C_at_Gallabat_Art.IWMARTLD1034.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:The_Mt_Officer_-_1st_Bn,_Essex_Regt,_at_Gallabat_Art.IWMARTLD1034.jpg",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/The_Mt_Officer_-_1st_Bn%2C_Essex_Regt%2C_at_Gallabat_Art.IWMARTLD1034.jpg/330px-The_Mt_Officer_-_1st_Bn%2C_Essex_Regt%2C_at_Gallabat_Art.IWMARTLD1034.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 800,
+     "height": 634,
+     "mime": "image/jpeg",
+     "author": "Bawden, Edward",
+     "date": "between 1939 and 1945",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "The Mt Officer - 1st Bn, Essex Regt, at Gallabat\nimage: A tent in a wooded area. A soldier with a moustache is sitting under the shade of the tent. Two others are sitting\n\nin the sunshine in front of the tent. One has a pith helmet at his side. In the background other soldiers are sitting on the ground among the trees.",
+     "credit_source": "http://media.iwm.org.uk/iwm/mediaLib//138/media-138708/large.jpg\n\n\n\n\n\nThis photograph Art.IWM ART LD 1034 comes from the collections of the Imperial War Museums.",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Bawden, Edward, between 1939 and 1945, Public domain, via Wikimedia Commons",
+     "battle_id": "gallabat-1940",
+     "war_id": "east-african-campaign-1940",
+     "evidence_type": "period-illustration"
+    },
+    {
+     "file_title": "File:The Campaign in East Africa 1940-41 E1227.jpg",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/The_Campaign_in_East_Africa_1940-41_E1227.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:The_Campaign_in_East_Africa_1940-41_E1227.jpg",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/The_Campaign_in_East_Africa_1940-41_E1227.jpg/330px-The_Campaign_in_East_Africa_1940-41_E1227.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 800,
+     "height": 603,
+     "mime": "image/jpeg",
+     "author": "Unknown author",
+     "date": "between 1939 and 1945",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "The Campaign in East Africa 1940-41\nSmoke rising from Fort Gallabat, on the Sudan-Abyssinian frontier, 22 November 1940.",
+     "credit_source": "http://media.iwm.org.uk/iwm/mediaLib//39/media-39143/large.jpg\n\n\n\n\n\nThis photograph E 1227 comes from the collections of the Imperial War Museums.",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Unknown author, between 1939 and 1945, Public domain, via Wikimedia Commons",
+     "battle_id": "gallabat-1940",
+     "war_id": "east-african-campaign-1940",
+     "evidence_type": "photograph"
+    }
+   ]
+  },
+  "korti": {
+   "note": "Korti (1820, Shayqiyya vs Turco-Egyptian, or the 1884–85 camp): no free period image found",
+   "images": []
+  }
+ },
+ "context_images": {
+  "semna--1860": {
+   "note": "Senusret III Semna border stela. This is frontier/conquest evidence, not a battle in data/battles.json; it is offered for the kushite-egyptian-wars war card.",
+   "war_id": "kushite-egyptian-wars",
+   "images": [
+    {
+     "file_title": "File:Border stela Senusret III Berlin.jpg",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Border_stela_Senusret_III_Berlin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Border_stela_Senusret_III_Berlin.jpg",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Border_stela_Senusret_III_Berlin.jpg/330px-Border_stela_Senusret_III_Berlin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3264,
+     "height": 2448,
+     "mime": "image/jpeg",
+     "author": "Photograph: Andreas Praefcke",
+     "date": "Upload 19-May-2007 (photo February 2006)",
+     "licence": "Public domain",
+     "licence_url": null,
+     "usage_terms": "Public domain",
+     "description": "Border Stela of w:Senusret III. Middle Kingdom of Egypt, 12th dynasty, c. 1860 BC. A prisoner (hieroglyph) can be found in lines 3, 4, 5, and 6.Six lines of Egyptian hieroglyphs:Line 0.5Line 1:Nile CrocodileLine 2:Lion HindquartersLine 3:Line 4:HandLine 5:Nile Crocodile, Legs Walking-(Away)Line 6:Man Falling,Collection: Ägyptisches Museum Berlin",
+     "credit_source": "Own work",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Photograph: Andreas Praefcke, Upload 19-May-2007 (photo February 2006), Public domain, via Wikimedia Commons",
+     "battle_id": "semna--1860",
+     "war_id": "kushite-egyptian-wars",
+     "evidence_type": "inscription"
+    },
+    {
+     "file_title": "File:Border Stela of Senusret III Ägyptisches Museum Berlin.jpg",
+     "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Border_Stela_of_Senusret_III_%C3%84gyptisches_Museum_Berlin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Border_Stela_of_Senusret_III_%C3%84gyptisches_Museum_Berlin.jpg",
+     "thumb_url_320": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Border_Stela_of_Senusret_III_%C3%84gyptisches_Museum_Berlin.jpg/330px-Border_Stela_of_Senusret_III_%C3%84gyptisches_Museum_Berlin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1354,
+     "height": 2031,
+     "mime": "image/jpeg",
+     "author": "Marcus Cyron",
+     "date": "2007-10-26",
+     "licence": "CC BY-SA 3.0",
+     "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+     "description": "Border Stela of w:Senusret III]. Middle Kingdom of Egypt, 12th dynasty, c. 1860 BC,",
+     "credit_source": "Own work",
+     "licence_verified_via": "Commons API imageinfo/extmetadata 2026-10-25",
+     "http": {
+      "file_url": "200",
+      "page_url": "200",
+      "thumb_url_320": "200"
+     },
+     "credit_line": "Marcus Cyron, 2007-10-26, CC BY-SA 3.0, via Wikimedia Commons",
+     "battle_id": "semna--1860",
+     "war_id": "kushite-egyptian-wars",
+     "evidence_type": "inscription"
+    }
+   ]
+  }
  }
 }
