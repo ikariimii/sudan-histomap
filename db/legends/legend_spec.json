@@ -385,6 +385,73 @@
    "null": "flag null / display_hint 'no known flag' = no marker; popup may show the null reason",
    "war_era": "war-in-sudan-saf-vs-rsf shows only the state flag of Sudan, with popup note: 'state flag only; implies no territorial control'. Armed-group flags are never shown.",
    "popup": "author, licence, Commons file page link, usage_source cite; MODERN_SVG_RENDERING badge"
+  },
+  {
+   "id": "zone_core",
+   "geometry": "polygon",
+   "label_en": "Core area of control (signed-off estimate)",
+   "label_ar": "منطقة السيطرة الأساسية (تقدير معتمد)",
+   "label_ar_status": "working translation, needs native review",
+   "fill": "#7a6bd0",
+   "fill_opacity": 0.35,
+   "stroke": "solid 1.2px",
+   "dash": null,
+   "feather": null,
+   "source": "db/border_drafts/README.md bd-0.1"
+  },
+  {
+   "id": "zone_claimed",
+   "geometry": "polygon",
+   "label_en": "Claimed area (not administered)",
+   "label_ar": "منطقة مُطالَب بها (غير مُدارة)",
+   "label_ar_status": "working translation, needs native review",
+   "fill": "#7a6bd0",
+   "fill_opacity": 0.18,
+   "stroke": "1.2px",
+   "dash": [
+    4,
+    3
+   ],
+   "feather": null,
+   "source": "db/border_drafts/README.md bd-0.1"
+  },
+  {
+   "id": "zone_influence",
+   "geometry": "polygon",
+   "label_en": "Area of influence",
+   "label_ar": "منطقة نفوذ",
+   "label_ar_status": "working translation, needs native review",
+   "fill": "#7a6bd0",
+   "fill_opacity": 0.08,
+   "stroke": "none",
+   "dash": null,
+   "feather": "radial/feathered edge (blur 6px or 3-step inset .08/.05/.02)",
+   "source": "db/border_drafts/README.md bd-0.1"
+  },
+  {
+   "id": "zone_contested",
+   "geometry": "point",
+   "label_en": "Contested zone (point marker)",
+   "label_ar": "منطقة متنازع عليها (علامة نقطية)",
+   "label_ar_status": "working translation, needs native review",
+   "fill": "#e0a63e",
+   "fill_opacity": 0.6,
+   "stroke": "#e0a63e",
+   "dash": [
+    4,
+    3
+   ],
+   "note": "Contested stays points-only per uncertainty_encoding.CONTESTED; never a polygon."
+  },
+  {
+   "id": "low_confidence",
+   "geometry": "pattern overlay",
+   "label_en": "Low-confidence estimate",
+   "label_ar": "تقدير منخفض الثقة",
+   "label_ar_status": "working translation, needs native review",
+   "pattern": "45° hairlines, 6px spacing, stroke #e8eef2",
+   "opacity_rule": "0.5*(1-confidence)",
+   "applies_when": "confidence < 0.5"
   }
  ],
  "uncertainty_encoding": {
@@ -481,5 +548,36 @@
   "toggle_label_ar": "المواطن (غير مؤرخة)",
   "toggle_label_ar_status": "working translation, needs native review",
   "popup": "name EN/AR, source_ids with page cites, note 'Not dated: shown for orientation, not as era control'."
+ },
+ "zone_styling": {
+  "draw_order_bottom_to_top": [
+   "zone_influence",
+   "zone_claimed",
+   "zone_core",
+   "zone_contested"
+  ],
+  "fill_opacity_by_zone": {
+   "core": 0.35,
+   "claimed": 0.18,
+   "influence": 0.08,
+   "contested": 0.6
+  },
+  "confidence_badge": {
+   "field": "confidence",
+   "words": {
+    "high": ">=0.7",
+    "medium": ">=0.4",
+    "low": "<0.4"
+   },
+   "words_ar": {
+    "high": "عالية",
+    "medium": "متوسطة",
+    "low": "منخفضة"
+   },
+   "words_ar_status": "working translation, needs native review",
+   "badge_en": "Confidence: {word} ({value})",
+   "low_confidence_overlay": "low_confidence class when confidence < 0.5",
+   "editorial_forced_below": 0.4
+  }
  }
 }

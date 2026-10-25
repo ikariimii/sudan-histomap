@@ -38,11 +38,18 @@ def ext_class(f):
     b = badges(p)
     if g is None: return 'list_only_text'
     t = g['type']
+    z = p.get('zone')
+    if z == 'contested' or (z and t == 'Point'): return 'zone_contested' if z == 'contested' else 'extent_label_point'
+    if z in ('core', 'claimed', 'influence'): return 'zone_' + z
     if 'CONTESTED' in b and 'Line' in t: return 'contested_boundary_line'
     if 'CONTESTED' in b: return 'contested_point'
     if t == 'Point': return 'reported_point' if 'REPORTED' in b else 'extent_label_point'
     if 'Line' in t: return 'boundary_line'
     return 'control_extent_approx' if 'APPROXIMATE' in b or p.get('certainty') == 'low' else 'control_extent'
+
+def conf_word(c):
+    if not isinstance(c, (int, float)): return None
+    return 'high' if c >= 0.7 else 'medium' if c >= 0.4 else 'low'
 
 def city_cls(p, s, e):
     roles = [r for r in p['roles'] if (r.get('start') is None or r['start'] <= e) and (r.get('end') is None or r['end'] >= s)]
@@ -68,6 +75,12 @@ def era(i, p):
             ext.append({'feature_index': k, 'id': pr.get('id'), 'label_en': pr.get('label_en'), 'symbol_class': c,
                         'certainty': pr.get('certainty'), 'badges': sorted(b), 'start': pr.get('start'), 'end': pr.get('end'),
                         'source_ids': sids})
+            if pr.get('zone'):
+                cf = pr.get('confidence')
+                ext[-1].update({'zone': pr['zone'], 'confidence': cf, 'confidence_word': conf_word(cf),
+                                'low_confidence_overlay': isinstance(cf, (int, float)) and cf < 0.5})
+            if pr.get('zone') and isinstance(pr.get('confidence'), (int, float)) and pr['confidence'] < 0.5:
+                cls['low_confidence'] = cls.get('low_confidence', 0) + 1
     out['layers']['extents'] = {'file': f'db/extents/{sl}.geojson' if ext else None, 'features': ext}
     # groups
     gf = os.path.join(R, 'db/group_layers', sl + '.geojson'); grp = []
