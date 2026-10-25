@@ -7520,6 +7520,102 @@
     "pages": "",
     "lang": "en",
     "note": ""
+   },
+   "WB_WDI_GDP_EGY": {
+    "author": "World Bank",
+    "title": "World Development Indicators: GDP (current US$), Egypt (NY.GDP.MKTP.CD)",
+    "publisher": "World Bank",
+    "year": "2026",
+    "date": "2026-10-08",
+    "url": "https://api.worldbank.org/v2/country/EGY/indicator/NY.GDP.MKTP.CD?format=json&per_page=100",
+    "verification": "URL resolved 2026-10-25 (HTTP 200, JSON). Dataset lastupdated 2026-10-08.",
+    "pages": "",
+    "lang": "en",
+    "note": "WDI API series"
+   },
+   "WB_WDI_GDP_ERI": {
+    "author": "World Bank",
+    "title": "World Development Indicators: GDP (current US$), Eritrea (NY.GDP.MKTP.CD)",
+    "publisher": "World Bank",
+    "year": "2026",
+    "date": "2026-10-08",
+    "url": "https://api.worldbank.org/v2/country/ERI/indicator/NY.GDP.MKTP.CD?format=json&per_page=100",
+    "verification": "URL resolved 2026-10-25 (HTTP 200, JSON). Dataset lastupdated 2026-10-08.",
+    "pages": "",
+    "lang": "en",
+    "note": "WDI API series"
+   },
+   "WB_WDI_GDP_TCD": {
+    "author": "World Bank",
+    "title": "World Development Indicators: GDP (current US$), Chad (NY.GDP.MKTP.CD)",
+    "publisher": "World Bank",
+    "year": "2026",
+    "date": "2026-10-08",
+    "url": "https://api.worldbank.org/v2/country/TCD/indicator/NY.GDP.MKTP.CD?format=json&per_page=100",
+    "verification": "URL resolved 2026-10-25 (HTTP 200, JSON). Dataset lastupdated 2026-10-08.",
+    "pages": "",
+    "lang": "en",
+    "note": "WDI API series"
+   },
+   "WB_WDI_GDP_LBY": {
+    "author": "World Bank",
+    "title": "World Development Indicators: GDP (current US$), Libya (NY.GDP.MKTP.CD)",
+    "publisher": "World Bank",
+    "year": "2026",
+    "date": "2026-10-08",
+    "url": "https://api.worldbank.org/v2/country/LBY/indicator/NY.GDP.MKTP.CD?format=json&per_page=100",
+    "verification": "URL resolved 2026-10-25 (HTTP 200, JSON). Dataset lastupdated 2026-10-08.",
+    "pages": "",
+    "lang": "en",
+    "note": "WDI API series"
+   },
+   "WB_WDI_GDP_CAF": {
+    "author": "World Bank",
+    "title": "World Development Indicators: GDP (current US$), Central African Republic (NY.GDP.MKTP.CD)",
+    "publisher": "World Bank",
+    "year": "2026",
+    "date": "2026-10-08",
+    "url": "https://api.worldbank.org/v2/country/CAF/indicator/NY.GDP.MKTP.CD?format=json&per_page=100",
+    "verification": "URL resolved 2026-10-25 (HTTP 200, JSON). Dataset lastupdated 2026-10-08.",
+    "pages": "",
+    "lang": "en",
+    "note": "WDI API series"
+   },
+   "WB_WDI_GDP_SAU": {
+    "author": "World Bank",
+    "title": "World Development Indicators: GDP (current US$), Saudi Arabia (NY.GDP.MKTP.CD)",
+    "publisher": "World Bank",
+    "year": "2026",
+    "date": "2026-10-08",
+    "url": "https://api.worldbank.org/v2/country/SAU/indicator/NY.GDP.MKTP.CD?format=json&per_page=100",
+    "verification": "URL resolved 2026-10-25 (HTTP 200, JSON). Dataset lastupdated 2026-10-08.",
+    "pages": "",
+    "lang": "en",
+    "note": "WDI API series"
+   },
+   "WB_WDI_GDP_ETH": {
+    "author": "World Bank",
+    "title": "World Development Indicators: GDP (current US$), Ethiopia (NY.GDP.MKTP.CD)",
+    "publisher": "World Bank",
+    "year": "2026",
+    "date": "2026-10-08",
+    "url": "https://api.worldbank.org/v2/country/ETH/indicator/NY.GDP.MKTP.CD?format=json&per_page=100",
+    "verification": "URL resolved 2026-10-25 (HTTP 200, JSON). Dataset lastupdated 2026-10-08.",
+    "pages": "",
+    "lang": "en",
+    "note": "WDI API series"
+   },
+   "WB_WDI_GDP_SSD": {
+    "author": "World Bank",
+    "title": "World Development Indicators: GDP (current US$), South Sudan (NY.GDP.MKTP.CD)",
+    "publisher": "World Bank",
+    "year": "2026",
+    "date": "2026-10-08",
+    "url": "https://api.worldbank.org/v2/country/SSD/indicator/NY.GDP.MKTP.CD?format=json&per_page=100",
+    "verification": "URL resolved 2026-10-25 (HTTP 200, JSON). Dataset lastupdated 2026-10-08.",
+    "pages": "",
+    "lang": "en",
+    "note": "WDI API series"
    }
   }
  },
