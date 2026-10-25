@@ -7617,6 +7617,30 @@
     "lang": "en",
     "note": "WDI API series"
    },
+   "WB_WDI_EXP_SDN": {
+    "author": "World Bank",
+    "title": "World Development Indicators: Exports of goods and services (current US$), Sudan (NE.EXP.GNFS.CD)",
+    "publisher": "World Bank",
+    "year": "2026",
+    "date": "2026-10-08",
+    "url": "https://api.worldbank.org/v2/country/SDN/indicator/NE.EXP.GNFS.CD?format=json&per_page=100",
+    "verification": "URL resolved 2026-10-25 (HTTP 200, JSON, 66 rows). Dataset lastupdated 2026-10-08.",
+    "pages": "",
+    "lang": "en",
+    "note": "WDI API series. Human-readable page: https://data.worldbank.org/indicator/NE.EXP.GNFS.CD?locations=SD (timed out from the box 2026-10-25; API copy used, as for WB_WDI_GDP_*)."
+   },
+   "WB_WDI_EXP_SSD": {
+    "author": "World Bank",
+    "title": "World Development Indicators: Exports of goods and services (current US$), South Sudan (NE.EXP.GNFS.CD)",
+    "publisher": "World Bank",
+    "year": "2026",
+    "date": "2026-10-08",
+    "url": "https://api.worldbank.org/v2/country/SSD/indicator/NE.EXP.GNFS.CD?format=json&per_page=100",
+    "verification": "URL resolved 2026-10-25 (HTTP 200, JSON, 66 rows). Dataset lastupdated 2026-10-08.",
+    "pages": "",
+    "lang": "en",
+    "note": "WDI API series. Human-readable page: https://data.worldbank.org/indicator/NE.EXP.GNFS.CD?locations=SS (timed out from the box 2026-10-25; API copy used, as for WB_WDI_GDP_*)."
+   },
    "PATEY_TWQ2007": {
     "author": "Luke Anthony Patey",
     "title": "State rules: Oil companies and armed conflict in Sudan",
