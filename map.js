@@ -38,7 +38,9 @@ function fit(){const sh=$('sheet').getBoundingClientRect();const top=desk()?70:1
  const x1=desk()?(AR?sh.right+20:20):10,x2=desk()?(AR?W()-20:sh.left-20):W()-10;
  proj.fitExtent([[x1,top],[x2,bot]],{type:'MultiPoint',coordinates:[[21.8,3.4],[38.6,22.2]]});relief()}
 const zoom=d3.zoom().scaleExtent([1,12]).on('zoom',ev=>{TR=ev.transform;root.attr('transform',ev.transform);K=ev.transform.k;scaleMarks();cmpClip();$('reset').hidden=K<1.05&&Math.abs(ev.transform.x)<2}).on('end',()=>{if(!RHI&&K>=2)relief();place();cityThin();hmlDraw()});
-svg.call(zoom).on('dblclick.zoom',null);$('reset').onclick=()=>svg.transition().duration(DUR).call(zoom.transform,d3.zoomIdentity);
+svg.call(zoom).on('dblclick.zoom',null);
+// labels are placed in screen space by place(): keep their group outside the zoomed root (else K is applied twice) and hide it mid-zoom
+svg.node().appendChild(gT.node());zoom.on('start.lb',()=>gT.style('display','none'));$('reset').onclick=()=>svg.transition().duration(DUR).call(zoom.transform,d3.zoomIdentity);
 function scaleMarks(){root.selectAll('.mk').attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`});clearTimeout(scaleMarks.t);scaleMarks.t=setTimeout(()=>{if(typeof hmlThin==='function')hmlThin()},120)}
 const rw=f=>{const G=f.geometry,rv=a=>a.slice().reverse();if(G.type==='Polygon'){if(d3.geoArea(f)>2*Math.PI)G.coordinates=G.coordinates.map(rv)}else if(G.type==='MultiPolygon')G.coordinates=G.coordinates.map(p=>d3.geoArea({type:'Polygon',coordinates:p})>2*Math.PI?p.map(rv):p);return f};
 let BASE=null;const C={},CARD={},LD={};
@@ -110,7 +112,7 @@ const FSEL='path.zn,g.pt,path.ext,path.ln,g.cty,g.hm,g.grp,path.rel';function a1
 let LASTF=null;svg.on('keydown.a11y',ev=>{const t=ev.target;if(!(t.matches&&t.matches(FSEL)))return;if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();LASTF=t;t.dispatchEvent(new MouseEvent('click',{bubbles:true}));setTimeout(()=>{if(!$('feat').hidden)$('feat').focus()},60)}});
 new MutationObserver(()=>{clearTimeout(a11yMarks.t);a11yMarks.t=setTimeout(a11yMarks,80)}).observe(document.getElementById('svg'),{childList:true,subtree:true});
 function nobPos(){const b=$('layers').getBoundingClientRect();document.documentElement.style.setProperty('--chipb',Math.round(b.bottom)+'px');$('nob').style.top=(b.bottom+6)+'px';setTimeout(lgFit,0)}
-function place(){setTimeout(cityThin,0);nobPos();const t=TR;gT.selectAll('*').remove();const placed=[],hid=[];
+function place(){setTimeout(cityThin,0);nobPos();const t=TR;gT.style('display',null).selectAll('*').remove();const placed=[],hid=[];
  // obstacles: the card and the top chrome
  const ob=['sheet','top','layers','nob'].map(id=>$(id).getBoundingClientRect()).filter(b=>b.width).map(b=>({x:b.left,y:b.top,w:b.width,h:b.height}));
  root.selectAll('.mk').nodes().forEach(n=>{const s=n.querySelector('rect,circle,path');if(!s)return;const b=s.getBoundingClientRect();if(b.width)ob.push({x:b.left+1,y:b.top+1,w:Math.max(0,b.width-2),h:Math.max(0,b.height-2)})});
