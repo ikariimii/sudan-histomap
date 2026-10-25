@@ -33,7 +33,7 @@
   "rules": "Derived only from the input files; nothing inferred. Base source is null when the properties do not name one.",
   "totals": {
    "eras": 68,
-   "shapes": 251,
+   "shapes": 247,
    "base_source_null": 7,
    "overlay_error_non_null": 0,
    "checked_against_shapes": 25
@@ -10070,72 +10070,10 @@
      "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
-    },
-    {
-     "layer": "ethno_markers",
-     "file": "db/ethno_markers/seligman1932.geojson",
-     "feature_index": 1,
-     "feature_id": "seligman1932-dinka-jieng-communities-0",
-     "label_en": "Dinka",
-     "zone_type": "label_marker",
-     "geometry_type": "Point",
-     "cites": [
-      {
-       "id": "SELIGMAN1932",
-       "pages": "folding 'Tribal Map of Southern Sudan', unpaginated, end of volume; scan leaf n717"
-      }
-     ],
-     "base_source": [
-      "georeferenced period map (Seligman 1932, RMS 1.33 km)"
-     ],
-     "base_source_text": "centroid of the georeferenced spread-letter centres (30 graticule GCPs, order-2, RMS 1.33 km); see db/border_drafts/SELIGMAN1932_GEOREF.md",
-     "base_source_null_reason": null,
-     "badges": [
-      "APPROXIMATE",
-      "SINGLE-SOURCE"
-     ],
-     "confidence": null,
-     "certainty": null,
-     "date_note": "Distribution as recorded by the Seligmans in the 1910s–30s (map published 1932); not the era's full span.",
-     "note": "Where the 1932 Seligman map places the name; not a boundary or claim.",
-     "checked_against": [],
-     "overlay_mean_error_km": null,
-     "overlay_null_reason": "label position, not a traced shape"
-    },
-    {
-     "layer": "ethno_markers",
-     "file": "db/ethno_markers/seligman1932.geojson",
-     "feature_index": 2,
-     "feature_id": "seligman1932-dinka-jieng-communities-1",
-     "label_en": "Dinka",
-     "zone_type": "label_marker",
-     "geometry_type": "Point",
-     "cites": [
-      {
-       "id": "SELIGMAN1932",
-       "pages": "folding 'Tribal Map of Southern Sudan', unpaginated, end of volume; scan leaf n717"
-      }
-     ],
-     "base_source": [
-      "georeferenced period map (Seligman 1932, RMS 1.33 km)"
-     ],
-     "base_source_text": "centroid of the georeferenced spread-letter centres (30 graticule GCPs, order-2, RMS 1.33 km); see db/border_drafts/SELIGMAN1932_GEOREF.md",
-     "base_source_null_reason": null,
-     "badges": [
-      "APPROXIMATE",
-      "SINGLE-SOURCE"
-     ],
-     "confidence": null,
-     "certainty": null,
-     "date_note": "Distribution as recorded by the Seligmans in the 1910s–30s (map published 1932); not the era's full span.",
-     "note": "Where the 1932 Seligman map places the name; not a boundary or claim.",
-     "checked_against": [],
-     "overlay_mean_error_km": null,
-     "overlay_null_reason": "label position, not a traced shape"
     }
    ],
    "counts": {
-    "shapes": 3,
+    "shapes": 1,
     "contested": 0,
     "trade_routes": 0,
     "base_source_null": 0
@@ -10222,41 +10160,10 @@
      "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
-    },
-    {
-     "layer": "ethno_markers",
-     "file": "db/ethno_markers/seligman1932.geojson",
-     "feature_index": 0,
-     "feature_id": "seligman1932-nuer-naath-communities-0",
-     "label_en": "Nuer",
-     "zone_type": "label_marker",
-     "geometry_type": "Point",
-     "cites": [
-      {
-       "id": "SELIGMAN1932",
-       "pages": "folding 'Tribal Map of Southern Sudan', unpaginated, end of volume; scan leaf n717"
-      }
-     ],
-     "base_source": [
-      "georeferenced period map (Seligman 1932, RMS 1.33 km)"
-     ],
-     "base_source_text": "centroid of the georeferenced spread-letter centres (30 graticule GCPs, order-2, RMS 1.33 km); see db/border_drafts/SELIGMAN1932_GEOREF.md",
-     "base_source_null_reason": null,
-     "badges": [
-      "APPROXIMATE",
-      "SINGLE-SOURCE"
-     ],
-     "confidence": null,
-     "certainty": null,
-     "date_note": "Distribution as recorded by the Seligmans in the 1910s–30s (map published 1932); not the era's full span.",
-     "note": "Where the 1932 Seligman map places the name; not a boundary or claim.",
-     "checked_against": [],
-     "overlay_mean_error_km": null,
-     "overlay_null_reason": "label position, not a traced shape"
     }
    ],
    "counts": {
-    "shapes": 3,
+    "shapes": 2,
     "contested": 0,
     "trade_routes": 0,
     "base_source_null": 0
@@ -10305,41 +10212,10 @@
      "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
-    },
-    {
-     "layer": "ethno_markers",
-     "file": "db/ethno_markers/seligman1932.geojson",
-     "feature_index": 3,
-     "feature_id": "seligman1932-anuak-anywaa-communities-0",
-     "label_en": "Anuak",
-     "zone_type": "label_marker",
-     "geometry_type": "Point",
-     "cites": [
-      {
-       "id": "SELIGMAN1932",
-       "pages": "folding 'Tribal Map of Southern Sudan', unpaginated, end of volume; scan leaf n717"
-      }
-     ],
-     "base_source": [
-      "georeferenced period map (Seligman 1932, RMS 1.33 km)"
-     ],
-     "base_source_text": "centroid of the georeferenced spread-letter centres (30 graticule GCPs, order-2, RMS 1.33 km); see db/border_drafts/SELIGMAN1932_GEOREF.md",
-     "base_source_null_reason": null,
-     "badges": [
-      "APPROXIMATE",
-      "SINGLE-SOURCE"
-     ],
-     "confidence": null,
-     "certainty": null,
-     "date_note": "Distribution as recorded by the Seligmans in the 1910s–30s (map published 1932); not the era's full span.",
-     "note": "Where the 1932 Seligman map places the name; not a boundary or claim.",
-     "checked_against": [],
-     "overlay_mean_error_km": null,
-     "overlay_null_reason": "label position, not a traced shape"
     }
    ],
    "counts": {
-    "shapes": 2,
+    "shapes": 1,
     "contested": 0,
     "trade_routes": 0,
     "base_source_null": 0

@@ -49,7 +49,7 @@ def ethno_layer(sl, start):
              'date_note': x['properties']['date_note'], 'caption_en': x['properties']['caption_en'],
              'display_hint': x['properties']['display_hint'], 'source_ids': [c['id'] for c in x['properties']['sources']],
              'plate': x['properties']['sources'][0]['plate']}
-            for x in json.load(open(f, encoding='utf-8'))['features'] if x['properties']['era_id'] == sl]
+            for x in json.load(open(f, encoding='utf-8'))['features'] if x['properties']['era_id'] == sl and not x['properties'].get('hold')]
 
 def flag_layer(sl):
     v = SYM.get(sl) or {}; fl = v.get('flag'); anc = (FOC.get(sl) or {}).get('flag_anchor')

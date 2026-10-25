@@ -1920,44 +1920,6 @@
     ]
    },
    "cite": null
-  },
-  "ethno_markers": {
-   "file": "db/ethno_markers/seligman1932.geojson",
-   "og_preview": false,
-   "note": "Soft unfilled halo at the label position; not a boundary or claim. Excluded from OG images.",
-   "features": [
-    {
-     "id": "seligman1932-anuak-anywaa-communities-0",
-     "label_en": "Anuak",
-     "symbol_class": "ethno_label_marker",
-     "coord": [
-      33.848,
-      7.258
-     ],
-     "badges": [
-      "APPROXIMATE",
-      "SINGLE-SOURCE"
-     ],
-     "note": "Where the 1932 Seligman map places the name; not a boundary or claim.",
-     "date_note": "Distribution as recorded by the Seligmans in the 1910s–30s (map published 1932); not the era's full span.",
-     "caption_en": "Anuak: Where the 1932 Seligman map places the name; not a boundary or claim. (1910s–30s)",
-     "display_hint": {
-      "style": "soft_halo",
-      "fill": null,
-      "stroke": "dashed",
-      "halo_radius_km": 40,
-      "opacity": 0.5,
-      "label": true,
-      "no_area": true,
-      "exclude_from_og": true,
-      "show_only_pre": 1956
-     },
-     "source_ids": [
-      "SELIGMAN1932"
-     ],
-     "plate": "folding 'Tribal Map of Southern Sudan', unpaginated, end of volume; scan leaf n717"
-    }
-   ]
   }
  },
  "symbol_classes_present": [
@@ -1970,7 +1932,6 @@
   "city_town",
   "city_trade",
   "economy_unknown",
-  "ethno_label_marker",
   "extent_label_point"
  ],
  "badges_present": [
@@ -1981,8 +1942,7 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
-  "RUIN-UNDATED",
-  "SINGLE-SOURCE"
+  "RUIN-UNDATED"
  ],
  "counts": {
   "city_capital": 19,
@@ -1994,7 +1954,6 @@
   "city_town": 7,
   "city_trade": 1,
   "economy_unknown": 1,
-  "ethno_label_marker": 1,
   "extent_label_point": 1,
   "extent_features": 1,
   "group_features": 0,
@@ -2039,8 +1998,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
-   "RUIN-UNDATED",
-   "SINGLE-SOURCE"
+   "RUIN-UNDATED"
   ],
   "what_changed": {
    "previous_era_id": "nuer-naath-communities",

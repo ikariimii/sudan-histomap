@@ -17,7 +17,7 @@
    },
    "properties": {
     "id": "seligman1932-nuer-naath-communities-0",
-    "era_id": "nuer-naath-communities",
+    "era_id": null,
     "label_en": "Nuer",
     "map_label": "NUER",
     "kind": "ethno_label_marker",
@@ -48,7 +48,10 @@
      "exclude_from_og": true,
      "show_only_pre": 1956
     },
-    "og_preview": false
+    "og_preview": false,
+    "hold": true,
+    "hold_reason": "Awaiting confirmation that show_only_pre 1956 is honoured by the era view (Innovation Manager, 2026-10-25)",
+    "held_era_id": "nuer-naath-communities"
    }
   },
   {
@@ -62,7 +65,7 @@
    },
    "properties": {
     "id": "seligman1932-dinka-jieng-communities-0",
-    "era_id": "dinka-jieng-communities",
+    "era_id": null,
     "label_en": "Dinka",
     "map_label": "DINKA (west label)",
     "kind": "ethno_label_marker",
@@ -93,7 +96,10 @@
      "exclude_from_og": true,
      "show_only_pre": 1956
     },
-    "og_preview": false
+    "og_preview": false,
+    "hold": true,
+    "hold_reason": "Awaiting confirmation that show_only_pre 1956 is honoured by the era view (Innovation Manager, 2026-10-25)",
+    "held_era_id": "dinka-jieng-communities"
    }
   },
   {
@@ -107,7 +113,7 @@
    },
    "properties": {
     "id": "seligman1932-dinka-jieng-communities-1",
-    "era_id": "dinka-jieng-communities",
+    "era_id": null,
     "label_en": "Dinka",
     "map_label": "DINKA (east label)",
     "kind": "ethno_label_marker",
@@ -138,7 +144,10 @@
      "exclude_from_og": true,
      "show_only_pre": 1956
     },
-    "og_preview": false
+    "og_preview": false,
+    "hold": true,
+    "hold_reason": "Awaiting confirmation that show_only_pre 1956 is honoured by the era view (Innovation Manager, 2026-10-25)",
+    "held_era_id": "dinka-jieng-communities"
    }
   },
   {
@@ -152,7 +161,7 @@
    },
    "properties": {
     "id": "seligman1932-anuak-anywaa-communities-0",
-    "era_id": "anuak-anywaa-communities",
+    "era_id": null,
     "label_en": "Anuak",
     "map_label": "ANUAK",
     "kind": "ethno_label_marker",
@@ -183,7 +192,10 @@
      "exclude_from_og": true,
      "show_only_pre": 1956
     },
-    "og_preview": false
+    "og_preview": false,
+    "hold": true,
+    "hold_reason": "Awaiting confirmation that show_only_pre 1956 is honoured by the era view (Innovation Manager, 2026-10-25)",
+    "held_era_id": "anuak-anywaa-communities"
    }
   },
   {

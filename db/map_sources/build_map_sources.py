@@ -80,7 +80,7 @@ def main():
         mf = os.path.join(R, 'db/ethno_markers/seligman1932.geojson')
         for k, ft in enumerate(json.load(open(mf, encoding='utf-8'))['features'] if os.path.exists(mf) and p['start'] < 1956 else []):
             pr = ft['properties']
-            if pr['era_id'] != e: continue
+            if pr['era_id'] != e or pr.get('hold'): continue
             items.append({'layer': 'ethno_markers', 'file': 'db/ethno_markers/seligman1932.geojson', 'feature_index': k, 'feature_id': pr['id'],
                           'label_en': pr['label_en'], 'zone_type': 'label_marker', 'geometry_type': 'Point',
                           'cites': [{'id': 'SELIGMAN1932', 'pages': pr['sources'][0]['plate']}],
