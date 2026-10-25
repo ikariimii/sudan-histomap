@@ -37,7 +37,7 @@ const proj=d3.geoMercator(),path=d3.geoPath(proj);let K=1,TR=d3.zoomIdentity;
 // topographic basemap: Natural Earth relief pre-rendered in Web Mercator over RELIEF_BOX (web/basemap/make_relief.py); placed by its corners, so the root zoom transform keeps it aligned. 900px by default, 1800px once zoomed in or on desktop.
 const RELIEF_BOX=[12,-3,48,27];let RHI=false;function relief(){const a=proj([RELIEF_BOX[0],RELIEF_BOX[3]]),b=proj([RELIEF_BOX[2],RELIEF_BOX[1]]);if(!RHI&&(K>=2||desk()))RHI=true;gB.selectAll('image').data([RHI?'/img/relief-1800.webp':'/img/relief-900.webp']).join('image').attr('href',d=>d).attr('x',a[0]).attr('y',a[1]).attr('width',b[0]-a[0]).attr('height',b[1]-a[1]).attr('preserveAspectRatio','none')}
 function fit(){const sh=$('sheet').getBoundingClientRect();const top=desk()?70:120,bot=desk()?H()-20:Math.max(top+160,H()-Math.min(sh.height,H()*.44)-8);
- const x1=desk()?(AR?sh.right+20:20):10,x2=desk()?(AR?W()-20:sh.left-20):W()-10;
+ const x1=desk()?(AR?sh.right+20:20):10,x2=desk()?(AR?W()-20:sh.left-20):W()-(AR?10:66);/* ~56px right pad (EN phone/tablet) so Halaib clears the ◎ button at inline-end */
  proj.fitExtent([[x1,top],[x2,bot]],{type:'MultiPoint',coordinates:[[21.8,3.4],[38.6,22.2]]});relief()}
 const zoom=d3.zoom().scaleExtent([1,12]).on('zoom',ev=>{TR=ev.transform;root.attr('transform',ev.transform);K=ev.transform.k;scaleMarks();hatchK();cmpClip();rsHide(K<1.05&&Math.abs(ev.transform.x)<2)}).on('end',()=>{if(!RHI&&K>=2)relief();place();cityThin();hmlDraw()});
 svg.call(zoom).on('dblclick.zoom',null);
@@ -352,7 +352,7 @@ let CE=null;function cam(e,g){if(e.id===CE)return;const first=CE===null;CE=e.id;
   const xs=[],ys=[],w=c=>{if(typeof c[0]==='number'){if(isFinite(c[0])&&isFinite(c[1])){xs.push(c[0]);ys.push(c[1])}}else c.forEach(w)};
   ((g&&g.features)||[]).forEach(f=>f.geometry&&w(f.geometry.coordinates));if(!xs.length)(e.caps||[]).forEach(c=>{xs.push(c[1]);ys.push(c[2])});
   if(xs.length)b=[Math.min(...xs),Math.min(...ys),Math.max(...xs),Math.max(...ys)]}
- let t=d3.zoomIdentity;if(b){const sh=$('sheet').getBoundingClientRect(),top=desk()?70:120,bot=desk()?H()-20:Math.max(top+120,H()-Math.min(sh.height,H()*.44)-8),x1=desk()?(AR?sh.right+20:20):10,x2=desk()?(AR?W()-20:sh.left-20):W()-10;
+ let t=d3.zoomIdentity;if(b){const sh=$('sheet').getBoundingClientRect(),top=desk()?70:120,bot=desk()?H()-20:Math.max(top+120,H()-Math.min(sh.height,H()*.44)-8),x1=desk()?(AR?sh.right+20:20):10,x2=desk()?(AR?W()-20:sh.left-20):W()-(AR?10:66);/* ~56px right pad (EN phone/tablet) so Halaib clears the ◎ button at inline-end */
   {const cx=(b[0]+b[2])/2,cy=(b[1]+b[3])/2,hx=Math.max((b[2]-b[0])/2,1.5),hy=Math.max((b[3]-b[1])/2,1.5);b=[cx-hx,cy-hy,cx+hx,cy+hy]}// min 3° window so point-like foci keep context
   const p=proj([b[0],b[3]]),q=proj([b[2],b[1]]),dx=Math.max(q[0]-p[0],8),dy=Math.max(q[1]-p[1],8);const k=Math.max(1,Math.min(6,.85*Math.min((x2-x1)/dx,(bot-top)/dy)));
   t=d3.zoomIdentity.translate((x1+x2)/2-k*(p[0]+q[0])/2,(top+bot)/2-k*(p[1]+q[1])/2).scale(k)}
