@@ -43,7 +43,7 @@
  "inline_grand_total": 36,
  "inline_method": "Exact bracketed tags [NAME] or [NAME: note] for the 9 badge names in data/eras/*.json text fields (excluding all.json, badge keys and Arabic _ar/ar fields); a tag is not counted when the enclosing object already has the same structured badge. Not included in totals/grand_total.",
  "source_types_totals": {
-  "un_aid_agency": 32,
+  "un_aid_agency": 39,
   "intl_financial": 24,
   "government": 51,
   "scholarly": 239,
@@ -51,9 +51,9 @@
   "news": 5,
   "other": 112
  },
- "source_types_grand_total": 538,
+ "source_types_grand_total": 545,
  "source_types_distinct_ids": {
-  "un_aid_agency": 28,
+  "un_aid_agency": 30,
   "intl_financial": 12,
   "government": 39,
   "scholarly": 70,
@@ -109,7 +109,7 @@
   },
   "abboud-military-regime": {
    "source_types": {
-    "un_aid_agency": 0,
+    "un_aid_agency": 1,
     "intl_financial": 1,
     "government": 1,
     "scholarly": 4,
@@ -117,7 +117,7 @@
     "news": 0,
     "other": 1
    },
-   "source_types_total": 9,
+   "source_types_total": 10,
    "counts": {
     "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
@@ -1080,7 +1080,7 @@
   },
   "independent-sudan-first-parliamentary-period": {
    "source_types": {
-    "un_aid_agency": 0,
+    "un_aid_agency": 1,
     "intl_financial": 1,
     "government": 1,
     "scholarly": 2,
@@ -1088,7 +1088,7 @@
     "news": 0,
     "other": 1
    },
-   "source_types_total": 6,
+   "source_types_total": 7,
    "counts": {
     "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
@@ -1942,7 +1942,7 @@
   },
   "nimeiry-era-democratic-republic-of-sudan": {
    "source_types": {
-    "un_aid_agency": 0,
+    "un_aid_agency": 1,
     "intl_financial": 2,
     "government": 6,
     "scholarly": 3,
@@ -1950,7 +1950,7 @@
     "news": 0,
     "other": 3
    },
-   "source_types_total": 17,
+   "source_types_total": 18,
    "counts": {
     "SINGLE-SOURCE": 3,
     "CONTESTED": 2,
@@ -2157,7 +2157,7 @@
   },
   "ottoman-hejaz-saudi-state": {
    "source_types": {
-    "un_aid_agency": 0,
+    "un_aid_agency": 1,
     "intl_financial": 0,
     "government": 1,
     "scholarly": 3,
@@ -2165,7 +2165,7 @@
     "news": 0,
     "other": 1
    },
-   "source_types_total": 7,
+   "source_types_total": 8,
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2287,7 +2287,7 @@
   },
   "republic-of-south-sudan": {
    "source_types": {
-    "un_aid_agency": 6,
+    "un_aid_agency": 7,
     "intl_financial": 3,
     "government": 0,
     "scholarly": 1,
@@ -2295,7 +2295,7 @@
     "news": 0,
     "other": 4
    },
-   "source_types_total": 16,
+   "source_types_total": 17,
    "counts": {
     "SINGLE-SOURCE": 12,
     "CONTESTED": 32,
@@ -2592,7 +2592,7 @@
   },
   "southern-sudan-under-condominium-sudan": {
    "source_types": {
-    "un_aid_agency": 1,
+    "un_aid_agency": 2,
     "intl_financial": 0,
     "government": 3,
     "scholarly": 4,
@@ -2600,7 +2600,7 @@
     "news": 0,
     "other": 1
    },
-   "source_types_total": 11,
+   "source_types_total": 12,
    "counts": {
     "SINGLE-SOURCE": 10,
     "CONTESTED": 10,
@@ -2903,7 +2903,7 @@
   },
   "war-in-sudan-saf-vs-rsf": {
    "source_types": {
-    "un_aid_agency": 11,
+    "un_aid_agency": 12,
     "intl_financial": 3,
     "government": 1,
     "scholarly": 2,
@@ -2911,7 +2911,7 @@
     "news": 1,
     "other": 5
    },
-   "source_types_total": 24,
+   "source_types_total": 25,
    "counts": {
     "SINGLE-SOURCE": 5,
     "CONTESTED": 29,
