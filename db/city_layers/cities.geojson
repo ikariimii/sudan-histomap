@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "meta": {
-  "source": "db/cities.json @f808992",
+  "source": "db/cities.json @8ccca3c",
   "rule": "visible_from = map_from (founded, else first_attested, badge FIRST-ATTESTED); no map_from = list_only; abandoned null = inhabited_today; abandoned {year:null} = ruin (RUIN-UNDATED, inhabited_today false) ending at last_attested (carrying its badge), else last cited role end, else open"
  },
  "list_only": [
@@ -167,19 +167,19 @@
     "name_ar": "كرمة",
     "wikidata": "Q1107569",
     "category": "ancient",
-    "visible_from": -1730,
+    "visible_from": -2450,
     "visible_from_basis": "first_attested",
-    "visible_to": -1580,
+    "visible_to": -1450,
     "inhabited_today": false,
     "roles": [
      {
       "era_id": "kingdom-of-kerma",
       "role": "capital",
-      "start": -1730,
-      "end": -1580,
-      "source_id": "GHA2_CH9",
-      "page": "258",
-      "note": "classic Kerma phase as dated in GHA II"
+      "start": -2450,
+      "end": -1450,
+      "source_id": "SFDAS_HCS2017",
+      "page": "59, 69, 95",
+      "note": "Kerma kingdom 2450–1450 BCE: Early 2450–2050, Middle 2050–1750, Classic 1750–1550, Final 1550–1450 (SFDAS_HCS2017 p.69; chapter span p.59; city abandoned after c.1470 campaign, p.95)"
      }
     ],
     "badges": [
@@ -192,6 +192,10 @@
     "history_source": null,
     "source_ids": [
      {
+      "id": "SFDAS_HCS2017",
+      "page": "59, 69, 95"
+     },
+     {
       "id": "GHA2_CH9",
       "page": "258"
      },
@@ -200,7 +204,7 @@
       "page": "Q1107569"
      }
     ],
-    "map_from": -1730,
+    "map_from": -2450,
     "visible_to_basis": "last_cited_role"
    }
   },
