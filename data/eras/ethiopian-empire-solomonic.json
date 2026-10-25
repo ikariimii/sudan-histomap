@@ -58,26 +58,27 @@
  "flags": [
   "regional_power: no actors scored",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
-  "power_cinc_share: computed with RP-CINC-SHARE-1 but the 8-state regional set has very few members in these years (Sudan not a COW state before 1956), so the share is near 1.0 by construction [VERIFY]",
   "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "SINGLE-SOURCE – Dawit's invasion of the Aswan region rests on al-Maqrizi as quoted in GHA IV ch.17, p.450; Seyfe-Ar'ad's march to the Nile rests on a 15th-c. Italian traveller (same page)",
-  "1889 Matamma: Mahdist side not read in this pass"
+  "1889 Matamma: Mahdist side not read in this pass",
+  "PARTIAL: covers 1941–1974 of a 1270–1974 era (Pass 29; replaces 0.65 VERIFY over 1898–1974 from dd154c8, retired by IM ruling)"
  ],
  "curated": true,
  "power_cinc_share": [
   {
    "actor": "Ethiopian Empire",
-   "share": 0.65,
+   "share": 0.24,
    "year_range": [
-    1898,
+    1941,
     1974
    ],
-   "basis": "COW NMC v6.0 CINC: mean share of the regional set over the 73 in-era years with Ethiopia (530) rows, 1898–1936 and 1941–1974 (no rows 1937–1940; Ethiopia not a system member before 1898); min 0.14, max 1.00",
-   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "basis": "COW NMC v6 CINC: mean share of the regional set over 1941–1974 (34 yrs); min 0.14, max 0.36. Not scored: 1898–1936 (Ethiopia the only state of the set in COW, share trivially 1.0, same ruling as Ottoman Egypt), 1937–1940 (Ethiopia absent from COW during Italian occupation), and before 1898 (Ethiopia not in COW; Historian's pre-1900 range)",
+   "method": "computed: mean_y[CINC_actor / Σ CINC_regional_set] (RP-CINC-SHARE-1), years with ≥2 states in the set only",
    "source_ids": [
     "COW_NMC6"
    ],
-   "flag": "power_cinc_share: computed with RP-CINC-SHARE-1 but the 8-state regional set has very few members in these years (Sudan not a COW state before 1956), so the share is near 1.0 by construction [VERIFY]"
+   "flag": "PARTIAL: covers 1941–1974 of a 1270–1974 era (Pass 29; replaces 0.65 VERIFY over 1898–1974 from dd154c8, retired by IM ruling)",
+   "null_reason": null
   }
  ]
 }

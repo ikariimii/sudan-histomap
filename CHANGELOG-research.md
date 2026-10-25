@@ -187,3 +187,8 @@ Following the scope change, I did not build data/views/<lang>.json. The language
 - New stub groups: abdallab (Qerri anchor, 1505–1821, Juhayna genealogy TRADITION), tunjur (Kutum anchor APPROXIMATE, Furra), kababish, rashaida, zaghawa, azande.
 - Relations: Funj–'Abdallab alliance against Alwa; Kayra Fur vs Tunjur.
 - Quotes are Arabic originals with working English translations. OCR-only quotes carry VERIFY.
+
+## 2026-10-24 — Pass 29: Ethiopian Empire power_cinc_share (IM ruling)
+- ethiopian-empire-solomonic: power_cinc_share = 0.24 PARTIAL, 1941–1974 only, COW_NMC6 (RP-CINC-SHARE-1), taken from db/regional_power_scores_post1900.json (Analyst, 44078a3).
+- Retired the 0.65 [VERIFY] over 1898–1974 (dd154c8) and its "near 1.0 by construction" flag.
+- Excluded: 1898–1936 (Ethiopia the only state of the comparison set, same ruling as Ottoman Egypt); 1937–1940 (no COW rows during the Italian occupation); before 1898 (not a COW member).
