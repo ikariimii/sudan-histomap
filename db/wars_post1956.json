@@ -1,0 +1,211 @@
+{
+ "meta": {
+  "scope": "Post-1956 wars for battles_post1956.json (staging for data/wars.json)",
+  "author": "Sudan Geopolitical Analyst",
+  "fields": "data/wars.json fields + belligerents/causes/outcome/significance/cites; NO-SOURCE where unsupported",
+  "updated": "2026-10-25"
+ },
+ "wars": [
+  {
+   "war_id": "second-civil-war",
+   "name_en": "Second Sudanese civil war",
+   "name_ar": "الحرب الأهلية السودانية الثانية [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date_from": "1983",
+   "date_to": "2005-01",
+   "era_ids": [
+    "nimeiry-era-democratic-republic-of-sudan",
+    "transitional-third-parliamentary-period",
+    "al-bashir-ncp-ingaz-regime",
+    "southern-sudan-under-condominium-sudan"
+   ],
+   "belligerents": [
+    "Government of Sudan",
+    "SPLM/A (split 1991 into SPLA-Torit and SPLA-Nasir/United)"
+   ],
+   "causes": "NO-SOURCE",
+   "outcome": "Ended by the January 2005 Comprehensive Peace Agreement (S/RES/2046 preamble)",
+   "significance": "NO-SOURCE",
+   "cite": {
+    "source_id": "HRW1993_CIVDEV",
+    "pages": "Glossary (SPLA formed 1983); Background (1991 split)"
+   },
+   "cites": [
+    {
+     "source_id": "HRW1993_CIVDEV",
+     "pages": "Glossary (SPLA formed 1983); Background (1991 split)"
+    },
+    {
+     "source_id": "UNSC2046",
+     "pages": "preamble (January 2005 Comprehensive Peace Agreement)"
+    }
+   ],
+   "note": "Start year from SPLA formation in 1983 (HRW); exact start date NO-SOURCE."
+  },
+  {
+   "war_id": "darfur-war",
+   "name_en": "War in Darfur",
+   "name_ar": "الحرب في دارفور [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date_from": "2003-02",
+   "date_to": null,
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime"
+   ],
+   "belligerents": [
+    "Government of Sudan",
+    "Sudan Liberation Army (SLA)",
+    "Justice and Equality Movement (JEM)"
+   ],
+   "causes": "Early SLA demands: regional development, end to tribal militias, power-sharing (per HRW 2004 Background)",
+   "outcome": "NO-SOURCE",
+   "significance": "NO-SOURCE",
+   "cite": {
+    "source_id": "HRW2004_DARFUR",
+    "pages": "Background section (SLA emerged Feb 2003; April 2003 El Fashir attack)"
+   },
+   "cites": [
+    {
+     "source_id": "HRW2004_DARFUR",
+     "pages": "Background section (SLA emerged Feb 2003; April 2003 El Fashir attack)"
+    },
+    {
+     "source_id": "UNSC_PRST_2008_15",
+     "pages": "p.1 (JEM attack on Omdurman, 10 May 2008)"
+    }
+   ],
+   "note": "date_to NO-SOURCE."
+  },
+  {
+   "war_id": "south-kordofan-blue-nile-2011",
+   "name_en": "South Kordofan and Blue Nile conflict",
+   "name_ar": "النزاع في جنوب كردفان والنيل الأزرق [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date_from": "2011-06-05",
+   "date_to": null,
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime"
+   ],
+   "belligerents": [
+    "Sudanese Armed Forces (SAF)",
+    "SPLA-North"
+   ],
+   "causes": "NO-SOURCE",
+   "outcome": "NO-SOURCE",
+   "significance": "NO-SOURCE",
+   "cite": {
+    "source_id": "OHCHR_SK2011",
+    "pages": "para 1 (p.2), paras 4–5"
+   },
+   "cites": [
+    {
+     "source_id": "OHCHR_SK2011",
+     "pages": "para 1 (p.2), paras 4–5"
+    },
+    {
+     "source_id": "UNSC2046",
+     "pages": "preamble (continued fighting in Southern Kordofan and Blue Nile, May 2012)"
+    }
+   ],
+   "note": "Blue Nile start date NO-SOURCE; date_to NO-SOURCE."
+  },
+  {
+   "war_id": "sudan-south-sudan-border-2012",
+   "name_en": "Sudan–South Sudan border conflict (Heglig crisis)",
+   "name_ar": "نزاع الحدود بين السودان وجنوب السودان (أزمة هجليج) [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date_from": "2012",
+   "date_to": null,
+   "era_ids": [
+    "al-bashir-ncp-ingaz-regime",
+    "republic-of-south-sudan"
+   ],
+   "belligerents": [
+    "Sudan (SAF)",
+    "South Sudan (SPLA)"
+   ],
+   "causes": "NO-SOURCE",
+   "outcome": "Security Council welcomed SPLA withdrawal from Heglig and demanded cessation of hostilities (S/RES/2046)",
+   "significance": "NO-SOURCE",
+   "cite": {
+    "source_id": "UNSC_PRST_2012_12",
+    "pages": "p.1"
+   },
+   "cites": [
+    {
+     "source_id": "UNSC_PRST_2012_12",
+     "pages": "p.1"
+    },
+    {
+     "source_id": "UNSC2046",
+     "pages": "preamble; Chapter VII determination"
+    }
+   ],
+   "note": "Start month and date_to NO-SOURCE."
+  },
+  {
+   "war_id": "south-sudan-civil-war",
+   "name_en": "South Sudanese civil war",
+   "name_ar": "الحرب الأهلية في جنوب السودان [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date_from": "2013-12-15",
+   "date_to": null,
+   "era_ids": [
+    "republic-of-south-sudan",
+    "dinka-jieng-communities",
+    "nuer-naath-communities"
+   ],
+   "belligerents": [
+    "Government of South Sudan (SPLA)",
+    "SPLM/A in opposition (Riek Machar) and allied forces, incl. White Army"
+   ],
+   "causes": "Internal power struggle within the SPLM; fighting began in Juba on 15 Dec 2013 (UNMISS paras 1–2)",
+   "outcome": "NO-SOURCE",
+   "significance": "NO-SOURCE",
+   "cite": {
+    "source_id": "UNMISS_HRR2014",
+    "pages": "paras 1–2, 39–41 (pp.3, 10, 16)"
+   },
+   "cites": [
+    {
+     "source_id": "UNMISS_HRR2014",
+     "pages": "paras 1–2, 39–41 (pp.3, 10, 16)"
+    }
+   ],
+   "note": "date_to NO-SOURCE (source covers to May 2014)."
+  },
+  {
+   "war_id": "war-2023",
+   "name_en": "War in Sudan (SAF vs RSF)",
+   "name_ar": "الحرب في السودان (الجيش والدعم السريع) [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date_from": "2023-04-15",
+   "date_to": null,
+   "era_ids": [
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "belligerents": [
+    "Sudanese Armed Forces (SAF)",
+    "Rapid Support Forces (RSF)"
+   ],
+   "causes": "NO-SOURCE",
+   "outcome": "NO-SOURCE",
+   "significance": "NO-SOURCE",
+   "cite": {
+    "source_id": "UNPOE_S2024_65",
+    "pages": "para 4 (PDF p.5)"
+   },
+   "cites": [
+    {
+     "source_id": "UNPOE_S2024_65",
+     "pages": "para 4 (PDF p.5)"
+    },
+    {
+     "source_id": "GEO-032",
+     "pages": "Summary (PDF p.1)"
+    }
+   ],
+   "note": "Ongoing; date_to null by rule. No control or fatality claims."
+  }
+ ]
+}
