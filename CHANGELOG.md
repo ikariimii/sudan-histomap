@@ -18,6 +18,9 @@
 
 Site changes for sudan.indomando.com (built from `web/` by `web/build.py`). Newest first.
 
+## 2026-10-24 — Faster era stepping
+- After an era has drawn, the map quietly fetches the small per-era files for the previous and next eras, so stepping is instant. Skipped when the browser asks to save data. The map still never downloads the full 430 KB era archive (data/eras/all.json), which stays for the other tools.
+
 ## 2026-10-24 — Border zones renderer (draft, not public)
 - The map can draw the bd-0.1 border-zone drafts (core / claimed / influence / contested, with low-confidence hatching) from db/border_drafts, loaded per era.
 - Off in the public build: no layer chip and no legend row. It appears only through an unlisted review link and always carries a DRAFT badge, until the Historian's sign-off gate is complete.

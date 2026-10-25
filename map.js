@@ -44,6 +44,9 @@ const rw=f=>{const G=f.geometry,rv=a=>a.slice().reverse();if(G.type==='Polygon')
 let BASE=null;const C={},CARD={},LD={};
 const getj=u=>fetch(u).then(x=>{if(!x.ok)throw new Error(u+' '+x.status);return x.json()});
 function ext(e){if(!e.x)return Promise.resolve({features:[],lines:[]});return C[e.id]||(C[e.id]=getj('/extents/'+e.id+'.json').then(g=>{g.features.forEach(f=>{if(f.geometry.type!=='Point')rw(f)});g.lines=g.lines||[];return g}).catch(()=>({features:[],lines:[]})))}
+// neighbour prefetch: once the current era has drawn and the browser is idle, warm the per-era files of the eras either side
+// (skipped on Save-Data / 2G). Same fetch caches as on demand, so a prefetched era is not downloaded twice.
+function prefetch(k){const n=navigator.connection;if(n&&(n.saveData||/2g/.test(n.effectiveType||'')))return;clearTimeout(prefetch.t);prefetch.t=setTimeout(()=>(window.requestIdleCallback||setTimeout)(()=>{if(k!==i)return;[k+1,k-1].forEach(x=>{const e=ES[x];if(!e)return;ext(e);cardj(e);if(typeof lgj==='function')lgj(e.id)})}),1200)}
 function cardj(e){return CARD[e.id]||(CARD[e.id]=getj('/m/'+e.id+'.json').catch(()=>null))}
 function layer(k){const f=M.layers[k];if(!f)return Promise.resolve(null);return LD[k]||(LD[k]=Promise.all([].concat(f).map(u=>getj(u).catch(()=>null))).then(a=>a.filter(Boolean)))}
 // --- year within era (features carry their own start/end; end exclusive except the era's final year)
@@ -96,7 +99,7 @@ async function render(anim=true){
  const LB=[];areas.forEach(f=>{const q=f.properties.label_point;const xy=q?proj(q):path.centroid(f);if(lab(f.properties))LB.push({xy,t:short(lab(f.properties)),pri:3,big:1})});
  pts.forEach(f=>LB.push({xy:proj(f.geometry.coordinates),t:short(lab(f.properties)),pri:rep(f.properties)?2.5:2,rep:rep(f.properties),dx:9}));caps.forEach(c=>LB.push({xy:proj([c[1],c[2]]),t:c[0],pri:2,dx:8}));
  LBS=LB;
- await layersDraw(e);if(on.has('hml'))hmlDraw();if(BD)zonesDraw(e,D);
+ await layersDraw(e);if(on.has('hml'))hmlDraw();prefetch(i);if(BD)zonesDraw(e,D);
  // card
  const cj=await cardj(e);if(e!==ES[i])return;$('card').innerHTML=cj?cj[L]:`<p><span class="gap">${T.wip}</span></p>`;layerInfo(e);$('feat').hidden=true;
  place()}
