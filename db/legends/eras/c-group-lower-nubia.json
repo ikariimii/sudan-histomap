@@ -23,6 +23,27 @@
       "GHA2_CH9",
       "WD:Q740865"
      ]
+    },
+    {
+     "feature_index": 1,
+     "id": "zone-c-group-lower-nubia-influence-0",
+     "label_en": null,
+     "symbol_class": "zone_influence",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL",
+      "SINGLE-SOURCE"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "GHA2_CH9"
+     ],
+     "zone": "influence",
+     "confidence": 0.35,
+     "confidence_word": "low",
+     "low_confidence_overlay": true
     }
    ]
   },
@@ -262,20 +283,26 @@
  "symbol_classes_present": [
   "city_capital",
   "city_garrison",
-  "extent_label_point"
+  "extent_label_point",
+  "low_confidence",
+  "zone_influence"
  ],
  "badges_present": [
   "APPROXIMATE",
   "AR-REVIEW",
+  "EDITORIAL",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
-  "RUIN-UNDATED"
+  "RUIN-UNDATED",
+  "SINGLE-SOURCE"
  ],
  "counts": {
   "city_capital": 1,
   "city_garrison": 3,
   "extent_label_point": 1,
-  "extent_features": 1,
+  "low_confidence": 1,
+  "zone_influence": 1,
+  "extent_features": 2,
   "group_features": 0,
   "cities": 4
  },
@@ -318,9 +345,11 @@
   "badge_filter": [
    "APPROXIMATE",
    "AR-REVIEW",
+   "EDITORIAL",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
-   "RUIN-UNDATED"
+   "RUIN-UNDATED",
+   "SINGLE-SOURCE"
   ],
   "what_changed": {
    "previous_era_id": "kingdom-of-kerma",

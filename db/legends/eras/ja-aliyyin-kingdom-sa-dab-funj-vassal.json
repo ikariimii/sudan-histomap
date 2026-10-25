@@ -39,6 +39,27 @@
       "HD2011",
       "WD:Q107003278"
      ]
+    },
+    {
+     "feature_index": 2,
+     "id": "zone-ja-aliyyin-kingdom-sa-dab-funj-vassal-core-0",
+     "label_en": null,
+     "symbol_class": "zone_core",
+     "certainty": "medium",
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "GHA5_CH7",
+      "HD2011"
+     ],
+     "zone": "core",
+     "confidence": 0.45,
+     "confidence_word": "medium",
+     "low_confidence_overlay": true
     }
    ]
   },
@@ -1290,13 +1311,16 @@
   "city_town",
   "extent_label_point",
   "group_control_point",
-  "relation_arrow_subjugation"
+  "low_confidence",
+  "relation_arrow_subjugation",
+  "zone_core"
  ],
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "EDITORIAL",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
   "RUIN-UNDATED",
@@ -1312,8 +1336,10 @@
   "city_town": 4,
   "extent_label_point": 2,
   "group_control_point": 1,
+  "low_confidence": 1,
   "relation_arrow_subjugation": 1,
-  "extent_features": 2,
+  "zone_core": 1,
+  "extent_features": 3,
   "group_features": 2,
   "cities": 35
  },
@@ -1361,6 +1387,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "EDITORIAL",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
    "RUIN-UNDATED",

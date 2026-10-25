@@ -1,1 +1,311 @@
-{"type":"FeatureCollection","notes":"Points only. Southern frontier Hiera Sycaminos (−20 to 284), then First Cataract (from Diocletian). No sourced northern/western lines.","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[29.8925,31.1975]},"properties":{"source":"GHA2_CH7","sources":["GHA2_CH7"],"start":-30,"end":641,"certainty":"high","label_en":"Alexandria (capital, reference marker)","label_ar":"الإسكندرية (العاصمة، علامة مرجعية)","label_detail_en":"Roman central government established in Alexandria, \"which now became the capital instead of Memphis\" (GHA II p.210).","label_detail_ar":"أُقيمت الحكومة المركزية الرومانية في الإسكندرية «التي صارت العاصمة بدلاً من منف» (ص210). [Arabic text pending native-speaker review.]","method":"reference marker (not a border)","geometry_source":"Wikidata (CC0 1.0): coordinates of Q87","license":"CC0 1.0 (Wikidata)","pages":"210"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[32.7032,23.0613]},"properties":{"source":"GHA2_CH7","sources":["GHA2_CH7","GHA2_CH10","PLEIADES_795815"],"start":-20,"end":284,"certainty":"medium","label_en":"Hiera Sycaminos frontier (reference marker)","label_ar":"حدود المحرّقة (علامة مرجعية)","label_detail_en":"After Petronius, \"the frontier between the Roman and Meroitic empires was fixed at Hiera Sycaminos (Muharraqa)\" (GHA II p.290; p.208). Start −20 follows this dataset's Meroitic extent (Samos treaty); end 284 = Diocletian's accession (GHA gives only his reign).","label_detail_ar":"«ثُبّتت الحدود بين الإمبراطوريتين الرومانية والمروية عند المحرّقة» (تاريخ أفريقيا العام II ص290، 208). [Arabic text pending native-speaker review.]","method":"reference marker (not a border)","geometry_source":"Pleiades 795815 (CC BY 3.0): Hierasykaminos","license":"CC BY 3.0 (Pleiades; attribution required)","pages":"208, 290"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[32.8842,24.0215]},"properties":{"source":"GHA2_CH7","sources":["GHA2_CH7","GHA2_CH10"],"start":284,"end":641,"certainty":"low","label_en":"Philae / First Cataract frontier (reference marker)","label_ar":"فيلة / الشلال الأول (علامة مرجعية)","label_detail_en":"Diocletian (284–305) \"gave up Nubia\" (GHA II p.215) and \"pulled back the frontier to the First Cataract\" towards the end of the 3rd century (p.294). Other works date this to 298; shown here from 284 (reign start) as a different tradition, low.","label_detail_ar":"تخلى دقلديانوس (284–305) عن النوبة وأعاد الحدود إلى الشلال الأول (ص215، 294). يؤرخها آخرون بعام 298. [Arabic text pending native-speaker review.]","method":"reference marker (not a border)","geometry_source":"Wikidata (CC0 1.0): coordinates of Q245062","license":"CC0 1.0 (Wikidata)","pages":"215, 294"}}]}
+{
+ "type": "FeatureCollection",
+ "notes": "Points only. Southern frontier Hiera Sycaminos (−20 to 284), then First Cataract (from Diocletian). No sourced northern/western lines.",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.8925,
+     31.1975
+    ]
+   },
+   "properties": {
+    "source": "GHA2_CH7",
+    "sources": [
+     "GHA2_CH7"
+    ],
+    "start": -30,
+    "end": 641,
+    "certainty": "high",
+    "label_en": "Alexandria (capital, reference marker)",
+    "label_ar": "الإسكندرية (العاصمة، علامة مرجعية)",
+    "label_detail_en": "Roman central government established in Alexandria, \"which now became the capital instead of Memphis\" (GHA II p.210).",
+    "label_detail_ar": "أُقيمت الحكومة المركزية الرومانية في الإسكندرية «التي صارت العاصمة بدلاً من منف» (ص210). [Arabic text pending native-speaker review.]",
+    "method": "reference marker (not a border)",
+    "geometry_source": "Wikidata (CC0 1.0): coordinates of Q87",
+    "license": "CC0 1.0 (Wikidata)",
+    "pages": "210"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.7032,
+     23.0613
+    ]
+   },
+   "properties": {
+    "source": "GHA2_CH7",
+    "sources": [
+     "GHA2_CH7",
+     "GHA2_CH10",
+     "PLEIADES_795815"
+    ],
+    "start": -20,
+    "end": 284,
+    "certainty": "medium",
+    "label_en": "Hiera Sycaminos frontier (reference marker)",
+    "label_ar": "حدود المحرّقة (علامة مرجعية)",
+    "label_detail_en": "After Petronius, \"the frontier between the Roman and Meroitic empires was fixed at Hiera Sycaminos (Muharraqa)\" (GHA II p.290; p.208). Start −20 follows this dataset's Meroitic extent (Samos treaty); end 284 = Diocletian's accession (GHA gives only his reign).",
+    "label_detail_ar": "«ثُبّتت الحدود بين الإمبراطوريتين الرومانية والمروية عند المحرّقة» (تاريخ أفريقيا العام II ص290، 208). [Arabic text pending native-speaker review.]",
+    "method": "reference marker (not a border)",
+    "geometry_source": "Pleiades 795815 (CC BY 3.0): Hierasykaminos",
+    "license": "CC BY 3.0 (Pleiades; attribution required)",
+    "pages": "208, 290"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.8842,
+     24.0215
+    ]
+   },
+   "properties": {
+    "source": "GHA2_CH7",
+    "sources": [
+     "GHA2_CH7",
+     "GHA2_CH10"
+    ],
+    "start": 284,
+    "end": 641,
+    "certainty": "low",
+    "label_en": "Philae / First Cataract frontier (reference marker)",
+    "label_ar": "فيلة / الشلال الأول (علامة مرجعية)",
+    "label_detail_en": "Diocletian (284–305) \"gave up Nubia\" (GHA II p.215) and \"pulled back the frontier to the First Cataract\" towards the end of the 3rd century (p.294). Other works date this to 298; shown here from 284 (reign start) as a different tradition, low.",
+    "label_detail_ar": "تخلى دقلديانوس (284–305) عن النوبة وأعاد الحدود إلى الشلال الأول (ص215، 294). يؤرخها آخرون بعام 298. [Arabic text pending native-speaker review.]",
+    "method": "reference marker (not a border)",
+    "geometry_source": "Wikidata (CC0 1.0): coordinates of Q245062",
+    "license": "CC0 1.0 (Wikidata)",
+    "pages": "215, 294"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       31.488054979151432,
+       30.00887561537666
+      ],
+      [
+       31.062171124704385,
+       28.12566858202739
+      ],
+      [
+       31.409600177615186,
+       27.34395321297809
+      ],
+      [
+       32.929556121363774,
+       25.799015085438644
+      ],
+      [
+       33.14991925963151,
+       24.096353240530277
+      ],
+      [
+       33.09722065331692,
+       23.936364021449247
+      ],
+      [
+       32.954987993634504,
+       23.846122324605034
+      ],
+      [
+       32.76643482513101,
+       23.878670058765408
+      ],
+      [
+       32.66268642815913,
+       24.011372596252162
+      ],
+      [
+       32.462494310267545,
+       25.58395229913918
+      ],
+      [
+       31.007763379875332,
+       27.040171711255343
+      ],
+      [
+       30.56321666291312,
+       28.019789955254968
+      ],
+      [
+       30.556192119852714,
+       28.155296632610728
+      ],
+      [
+       30.963034212595353,
+       29.94910040515782
+      ],
+      [
+       29.718635953712393,
+       31.027932912170318
+      ],
+      [
+       29.65064549141077,
+       31.182046475381576
+      ],
+      [
+       29.6958567628224,
+       31.344310563420184
+      ],
+      [
+       29.85769191064961,
+       31.446394045332916
+      ],
+      [
+       30.044310563420183,
+       31.404143237177596
+      ],
+      [
+       30.280450721357106,
+       31.2
+      ],
+      [
+       32.3,
+       31.2
+      ],
+      [
+       31.6,
+       30.1
+      ],
+      [
+       31.47700231262094,
+       30.1
+      ],
+      [
+       31.488054979151432,
+       30.00887561537666
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "zone-roman-byzantine-egypt-core-0",
+    "draft_id": "roman-byzantine-egypt#0:core",
+    "zone": "core",
+    "confidence": 0.75,
+    "certainty": "high",
+    "badges": [
+     "APPROXIMATE",
+     "DERIVED",
+     "SINGLE-SOURCE"
+    ],
+    "source": "GHA2_CH7",
+    "sources": [
+     "GHA2_CH7"
+    ],
+    "basis_en": "Province of Egypt organised under a prefect with Thebaid and nomes (GHA II ch.7 p.210).",
+    "pages": "GHA II ch.7 p.210",
+    "start": null,
+    "end": null,
+    "label_en": null,
+    "label_ar": null,
+    "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
+    "signoff": {
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "commit": null
+    },
+    "draft_version": "bd-0.1 2026-10-24"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       32.9454162397056,
+       23.012346361222214
+      ],
+      [
+       32.85947817031082,
+       22.86747282479007
+      ],
+      [
+       32.67663082452437,
+       22.811094633168366
+      ],
+      [
+       32.5240314899606,
+       22.882418797519243
+      ],
+      [
+       32.45000260079044,
+       23.05885965423875
+      ],
+      [
+       32.66043637996696,
+       24.161479171488384
+      ],
+      [
+       32.74052182968918,
+       24.28252717520993
+      ],
+      [
+       32.89885965423875,
+       24.33999739920956
+      ],
+      [
+       33.0759685100394,
+       24.267581202480756
+      ],
+      [
+       33.14999739920956,
+       24.091140345761247
+      ],
+      [
+       32.9454162397056,
+       23.012346361222214
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "zone-roman-byzantine-egypt-claimed-1",
+    "draft_id": "roman-byzantine-egypt#1:claimed",
+    "zone": "claimed",
+    "confidence": 0.5,
+    "certainty": "medium",
+    "badges": [
+     "APPROXIMATE"
+    ],
+    "source": "GHA2_CH10",
+    "sources": [
+     "GHA2_CH10",
+     "GHA2_CH7"
+    ],
+    "basis_en": "After the Samos treaty (21/20 BCE) 'the frontier between the Roman and Meroitic empires was fixed at Hiera Sycaminos' (GHA II ch.10 p.290). Withdrawal: 'towards the end of the third century… Diocletian pulled back the frontier to the First Cataract' (p.294); no exact year in GHA, so c.298 stays APPROXIMATE. VERIFY removed.",
+    "pages": "GHA II pp.208, 290, 294",
+    "start": null,
+    "end": null,
+    "label_en": null,
+    "label_ar": null,
+    "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
+    "signoff": {
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "commit": null
+    },
+    "draft_version": "bd-0.1 2026-10-24"
+   }
+  }
+ ],
+ "extent_rendering": {
+  "mode": "zones",
+  "zones_from": "db/border_drafts/promote_drafts.py"
+ }
+}

@@ -34,6 +34,49 @@
       "GHA2_CH7",
       "PLEIADES_795815"
      ]
+    },
+    {
+     "feature_index": 2,
+     "id": "zone-ptolemaic-egypt-core-0",
+     "label_en": null,
+     "symbol_class": "zone_core",
+     "certainty": "high",
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "GHA2_CH6",
+      "GHA2_CH7"
+     ],
+     "zone": "core",
+     "confidence": 0.75,
+     "confidence_word": "high",
+     "low_confidence_overlay": false
+    },
+    {
+     "feature_index": 3,
+     "id": "zone-ptolemaic-egypt-contested-1",
+     "label_en": null,
+     "symbol_class": "zone_contested",
+     "certainty": "medium",
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "GHA2_CH7",
+      "GHA2_CH6",
+      "GHA2_CH10"
+     ],
+     "zone": "contested",
+     "confidence": 0.4,
+     "confidence_word": "medium",
+     "low_confidence_overlay": true
     }
    ]
   },
@@ -561,13 +604,17 @@
   "city_port",
   "city_religious",
   "city_town",
-  "extent_label_point"
+  "extent_label_point",
+  "low_confidence",
+  "zone_contested",
+  "zone_core"
  ],
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
   "RUIN-UNDATED"
@@ -580,7 +627,10 @@
   "city_religious": 4,
   "city_town": 1,
   "extent_label_point": 2,
-  "extent_features": 2,
+  "low_confidence": 1,
+  "zone_contested": 1,
+  "zone_core": 1,
+  "extent_features": 4,
   "group_features": 0,
   "cities": 14
  },
@@ -628,6 +678,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
    "RUIN-UNDATED"

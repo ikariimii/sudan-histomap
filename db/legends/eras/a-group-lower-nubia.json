@@ -24,6 +24,27 @@
       "WD:Q584387",
       "PL:795838"
      ]
+    },
+    {
+     "feature_index": 1,
+     "id": "zone-a-group-lower-nubia-influence-0",
+     "label_en": null,
+     "symbol_class": "zone_influence",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL",
+      "SINGLE-SOURCE"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "GHA2_CH9"
+     ],
+     "zone": "influence",
+     "confidence": 0.35,
+     "confidence_word": "low",
+     "low_confidence_overlay": true
     }
    ]
   },
@@ -52,14 +73,20 @@
   }
  },
  "symbol_classes_present": [
-  "extent_label_point"
+  "extent_label_point",
+  "low_confidence",
+  "zone_influence"
  ],
  "badges_present": [
-  "APPROXIMATE"
+  "APPROXIMATE",
+  "EDITORIAL",
+  "SINGLE-SOURCE"
  ],
  "counts": {
   "extent_label_point": 1,
-  "extent_features": 1,
+  "low_confidence": 1,
+  "zone_influence": 1,
+  "extent_features": 2,
   "group_features": 0,
   "cities": 0
  },
@@ -105,7 +132,9 @@
   ],
   "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
   "badge_filter": [
-   "APPROXIMATE"
+   "APPROXIMATE",
+   "EDITORIAL",
+   "SINGLE-SOURCE"
   ],
   "what_changed": {
    "previous_era_id": "khartoum-neolithic-shaheinab",

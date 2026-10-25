@@ -21,6 +21,28 @@
       "HD2011",
       "WP:Ali_Dinar"
      ]
+    },
+    {
+     "feature_index": 1,
+     "id": "zone-restored-darfur-sultanate-ali-dinar-core-0",
+     "label_en": null,
+     "symbol_class": "zone_core",
+     "certainty": "medium",
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "MACMICHAEL1922_V1",
+      "GHA7_CH12",
+      "HD2011",
+      "OFS1974"
+     ],
+     "zone": "core",
+     "confidence": 0.5,
+     "confidence_word": "medium",
+     "low_confidence_overlay": false
     }
    ]
   },
@@ -1540,7 +1562,8 @@
   "city_town",
   "city_trade",
   "extent_label_point",
-  "list_only_text"
+  "list_only_text",
+  "zone_core"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1561,7 +1584,8 @@
   "city_trade": 1,
   "extent_label_point": 1,
   "list_only_text": 1,
-  "extent_features": 1,
+  "zone_core": 1,
+  "extent_features": 2,
   "group_features": 1,
   "cities": 45
  },

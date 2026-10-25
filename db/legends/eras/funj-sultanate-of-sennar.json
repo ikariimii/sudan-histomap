@@ -75,6 +75,27 @@
      "source_ids": [
       "HD2011"
      ]
+    },
+    {
+     "feature_index": 5,
+     "id": "zone-funj-sultanate-of-sennar-core-0",
+     "label_en": null,
+     "symbol_class": "zone_core",
+     "certainty": "medium",
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "GHA4_CH16",
+      "OFS1974",
+      "HD2011"
+     ],
+     "zone": "core",
+     "confidence": 0.6,
+     "confidence_word": "medium",
+     "low_confidence_overlay": false
     }
    ]
   },
@@ -1446,7 +1467,8 @@
   "extent_label_point",
   "list_only_text",
   "relation_arrow_conflict",
-  "relation_arrow_subjugation"
+  "relation_arrow_subjugation",
+  "zone_core"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1470,7 +1492,8 @@
   "list_only_text": 4,
   "relation_arrow_conflict": 3,
   "relation_arrow_subjugation": 2,
-  "extent_features": 5,
+  "zone_core": 1,
+  "extent_features": 6,
   "group_features": 9,
   "cities": 35
  },

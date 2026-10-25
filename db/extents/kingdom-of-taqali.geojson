@@ -1,1 +1,144 @@
-{"type":"FeatureCollection","notes":"Point only (region centroid). No limits sourced.","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[30.75,12.0]},"properties":{"source":"HD2011","sources":["HD2011","WP:Kingdom_of_Taqali"],"start":1750,"end":1969,"certainty":"low","label_en":"Nuba Mountains (region)","label_ar":"جبال النوبة (إقليم)","label_detail_en":"Nuba Mountains kingdom, semi-autonomous after 1821 (HD2011). Taqali (Wikidata Q1111926) has no coordinate, so the Nuba Mountains centroid stands in. Founding c.1750 and end 1969 not verified. Point only; approximate edges not drawn (unsourced).","label_detail_ar":"مملكة في جبال النوبة، شبه مستقلة بعد 1821 (هولت وديلي). لا إحداثيات لتقلي في ويكي بيانات، فاستُخدم مركز جبال النوبة. نقطة فقط؛ لم تُرسم حدود تقريبية (غير موثقة). [Arabic text pending native-speaker review.]","method":"reference marker (not a border)","geometry_source":"Wikidata (CC0 1.0): coordinates of Q1129989","license":"CC0 1.0 (Wikidata)"}}]}
+{
+ "type": "FeatureCollection",
+ "notes": "Point only (region centroid). No limits sourced.",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.75,
+     12.0
+    ]
+   },
+   "properties": {
+    "source": "HD2011",
+    "sources": [
+     "HD2011",
+     "WP:Kingdom_of_Taqali"
+    ],
+    "start": 1750,
+    "end": 1969,
+    "certainty": "low",
+    "label_en": "Nuba Mountains (region)",
+    "label_ar": "جبال النوبة (إقليم)",
+    "label_detail_en": "Nuba Mountains kingdom, semi-autonomous after 1821 (HD2011). Taqali (Wikidata Q1111926) has no coordinate, so the Nuba Mountains centroid stands in. Founding c.1750 and end 1969 not verified. Point only; approximate edges not drawn (unsourced).",
+    "label_detail_ar": "مملكة في جبال النوبة، شبه مستقلة بعد 1821 (هولت وديلي). لا إحداثيات لتقلي في ويكي بيانات، فاستُخدم مركز جبال النوبة. نقطة فقط؛ لم تُرسم حدود تقريبية (غير موثقة). [Arabic text pending native-speaker review.]",
+    "method": "reference marker (not a border)",
+    "geometry_source": "Wikidata (CC0 1.0): coordinates of Q1129989",
+    "license": "CC0 1.0 (Wikidata)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       31.2,
+       12.0
+      ],
+      [
+       31.16574578963008,
+       11.82779245543571
+      ],
+      [
+       31.068198051533948,
+       11.681801948466054
+      ],
+      [
+       30.92220754456429,
+       11.58425421036992
+      ],
+      [
+       30.75,
+       11.55
+      ],
+      [
+       30.57779245543571,
+       11.58425421036992
+      ],
+      [
+       30.431801948466052,
+       11.681801948466054
+      ],
+      [
+       30.33425421036992,
+       11.82779245543571
+      ],
+      [
+       30.3,
+       12.0
+      ],
+      [
+       30.33425421036992,
+       12.17220754456429
+      ],
+      [
+       30.431801948466052,
+       12.318198051533946
+      ],
+      [
+       30.57779245543571,
+       12.41574578963008
+      ],
+      [
+       30.75,
+       12.45
+      ],
+      [
+       30.92220754456429,
+       12.41574578963008
+      ],
+      [
+       31.068198051533948,
+       12.318198051533946
+      ],
+      [
+       31.16574578963008,
+       12.17220754456429
+      ],
+      [
+       31.2,
+       12.0
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "zone-kingdom-of-taqali-core-0",
+    "draft_id": "kingdom-of-taqali#0:core",
+    "zone": "core",
+    "confidence": 0.4,
+    "certainty": "medium",
+    "badges": [
+     "APPROXIMATE",
+     "EDITORIAL"
+    ],
+    "source": "GHA5_CH7",
+    "sources": [
+     "GHA5_CH7",
+     "HD2011"
+    ],
+    "basis_en": "'the newly established Islamized kingdom of Takali was reduced to subordinate status' (GHA V ch.7 p.177), Jebel Taqali, NE Nuba Mountains.",
+    "pages": "GHA V ch.7 p.177",
+    "start": null,
+    "end": null,
+    "label_en": null,
+    "label_ar": null,
+    "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
+    "signoff": {
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "commit": null
+    },
+    "draft_version": "bd-0.1 2026-10-24"
+   }
+  }
+ ],
+ "extent_rendering": {
+  "mode": "zones",
+  "zones_from": "db/border_drafts/promote_drafts.py"
+ }
+}

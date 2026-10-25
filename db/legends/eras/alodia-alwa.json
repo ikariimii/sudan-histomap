@@ -22,6 +22,48 @@
       "ZH_EMB_HIST2020",
       "WP:Alodia"
      ]
+    },
+    {
+     "feature_index": 1,
+     "id": "zone-alodia-alwa-core-0",
+     "label_en": null,
+     "symbol_class": "zone_core",
+     "certainty": "medium",
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "GHA4_CH16",
+      "DRZEWIECKI_SOBA",
+      "WELSBY2002"
+     ],
+     "zone": "core",
+     "confidence": 0.4,
+     "confidence_word": "medium",
+     "low_confidence_overlay": true
+    },
+    {
+     "feature_index": 2,
+     "id": "zone-alodia-alwa-claimed-1",
+     "label_en": null,
+     "symbol_class": "zone_claimed",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "TSAKOS2011_ALWA",
+      "GHA4_CH16"
+     ],
+     "zone": "claimed",
+     "confidence": 0.25,
+     "confidence_word": "low",
+     "low_confidence_overlay": true
     }
    ]
   },
@@ -1157,13 +1199,17 @@
   "city_religious",
   "city_town",
   "extent_label_point",
-  "relation_arrow_alliance"
+  "low_confidence",
+  "relation_arrow_alliance",
+  "zone_claimed",
+  "zone_core"
  ],
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "EDITORIAL",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
@@ -1179,8 +1225,11 @@
   "city_religious": 6,
   "city_town": 2,
   "extent_label_point": 1,
+  "low_confidence": 2,
   "relation_arrow_alliance": 1,
-  "extent_features": 1,
+  "zone_claimed": 1,
+  "zone_core": 1,
+  "extent_features": 3,
   "group_features": 1,
   "cities": 30
  },
@@ -1234,6 +1283,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "EDITORIAL",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",

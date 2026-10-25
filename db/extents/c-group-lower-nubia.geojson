@@ -1,1 +1,150 @@
-{"type": "FeatureCollection", "notes": "Point only (region marker). GHA II p.252. Edges open.", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [31.3775, 21.792777777778]}, "properties": {"source": "GHA2_CH9", "sources": ["GHA2_CH9", "WD:Q740865"], "pages": "252", "start": -2400, "end": -1550, "certainty": "low", "badge": "APPROXIMATE", "label_en": "Wadi Halfa region (C-Group houses, reference marker)", "label_ar": "منطقة وادي حلفا (مساكن المجموعة ج، علامة مرجعية)", "label_detail_en": "GHA II ch.9 p.252: C-Group houses \"discovered in the region of Wadi Halfa\" (round stone-walled and square mud-brick rooms). Region, not a site: the point is the modern town (Wikidata Q740865, GeoNames 364132). Dates are the era bracket. Point only; edges open, no border drawn.", "label_detail_ar": "تاريخ أفريقيا العام II ف9 ص252: مساكن المجموعة ج المكتشفة «في منطقة وادي حلفا». النقطة هي المدينة الحديثة وتمثل المنطقة. نقطة فقط؛ الحدود مفتوحة. [Arabic text pending native-speaker review.]", "method": "reference marker (not a border)", "geometry_source": "Wikidata (CC0 1.0): coordinates of Q740865", "license": "CC0 1.0 (Wikidata)"}}]}
+{
+ "type": "FeatureCollection",
+ "notes": "Point only (region marker). GHA II p.252. Edges open.",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3775,
+     21.792777777778
+    ]
+   },
+   "properties": {
+    "source": "GHA2_CH9",
+    "sources": [
+     "GHA2_CH9",
+     "WD:Q740865"
+    ],
+    "pages": "252",
+    "start": -2400,
+    "end": -1550,
+    "certainty": "low",
+    "badge": "APPROXIMATE",
+    "label_en": "Wadi Halfa region (C-Group houses, reference marker)",
+    "label_ar": "منطقة وادي حلفا (مساكن المجموعة ج، علامة مرجعية)",
+    "label_detail_en": "GHA II ch.9 p.252: C-Group houses \"discovered in the region of Wadi Halfa\" (round stone-walled and square mud-brick rooms). Region, not a site: the point is the modern town (Wikidata Q740865, GeoNames 364132). Dates are the era bracket. Point only; edges open, no border drawn.",
+    "label_detail_ar": "تاريخ أفريقيا العام II ف9 ص252: مساكن المجموعة ج المكتشفة «في منطقة وادي حلفا». النقطة هي المدينة الحديثة وتمثل المنطقة. نقطة فقط؛ الحدود مفتوحة. [Arabic text pending native-speaker review.]",
+    "method": "reference marker (not a border)",
+    "geometry_source": "Wikidata (CC0 1.0): coordinates of Q740865",
+    "license": "CC0 1.0 (Wikidata)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       32.99449948764672,
+       23.002815633466657
+      ],
+      [
+       32.9022808092064,
+       22.83845435182156
+      ],
+      [
+       31.49959150093419,
+       21.559694168210168
+      ],
+      [
+       31.3939598513994,
+       21.509259668465177
+      ],
+      [
+       31.277068484936773,
+       21.503087748628698
+      ],
+      [
+       31.166713052467365,
+       21.542118027547236
+      ],
+      [
+       31.079694168210168,
+       21.62040849906581
+      ],
+      [
+       31.02030943793691,
+       21.813622298275597
+      ],
+      [
+       31.09697795729199,
+       22.000651858865915
+      ],
+      [
+       32.42442013503764,
+       23.214620423357776
+      ],
+      [
+       32.622315353911084,
+       24.203539584843668
+      ],
+      [
+       32.73219286858262,
+       24.33867803812454
+      ],
+      [
+       32.869233338185914,
+       24.38841818396475
+      ],
+      [
+       32.98577500578606,
+       24.377476344039646
+      ],
+      [
+       33.08925820630763,
+       24.322768836714058
+      ],
+      [
+       33.16392856054879,
+       24.232624384053512
+      ],
+      [
+       33.19841818396475,
+       24.12076666181408
+      ],
+      [
+       32.99449948764672,
+       23.002815633466657
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "zone-c-group-lower-nubia-influence-0",
+    "draft_id": "c-group-lower-nubia#0:influence",
+    "zone": "influence",
+    "confidence": 0.35,
+    "certainty": "low",
+    "badges": [
+     "APPROXIMATE",
+     "EDITORIAL",
+     "SINGLE-SOURCE"
+    ],
+    "source": "GHA2_CH9",
+    "sources": [
+     "GHA2_CH9"
+    ],
+    "basis_en": "GHA II ch.9 pp.251, 253–254: C-Group in Lower Nubia (draft's p.252 had no matching text; corrected). Cultural zone, not a state border.",
+    "pages": "GHA II ch.9 pp.251, 253–254",
+    "start": null,
+    "end": null,
+    "label_en": null,
+    "label_ar": null,
+    "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
+    "signoff": {
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "commit": null
+    },
+    "draft_version": "bd-0.1 2026-10-24"
+   }
+  }
+ ],
+ "extent_rendering": {
+  "mode": "zones",
+  "zones_from": "db/border_drafts/promote_drafts.py"
+ }
+}

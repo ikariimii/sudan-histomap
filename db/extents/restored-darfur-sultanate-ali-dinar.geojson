@@ -1,1 +1,105 @@
-{"type":"FeatureCollection","notes":"Point only. Only an end date is sourced; no spatial limit for 1898–1916.","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[25.349583,13.626983]},"properties":{"source":"HD2011","sources":["HD2011","WP:Ali_Dinar"],"start":1898,"end":1916,"certainty":"low","label_en":"El Fasher (capital)","label_ar":"الفاشر (العاصمة)","label_detail_en":"Ali Dinar ruled from El Fasher; the Fur state \"was not finally extinguished until 1916\" (HD2011). Point only; approximate edges not drawn (unsourced).","label_detail_ar":"حكم علي دينار من الفاشر؛ ولم تنطفئ دولة الفور «نهائياً حتى 1916» (هولت وديلي). نقطة فقط؛ لم تُرسم حدود تقريبية (غير موثقة). [Arabic text pending native-speaker review.]","method":"reference marker (not a border)","geometry_source":"Wikidata (CC0 1.0): coordinates of Q311204","license":"CC0 1.0 (Wikidata)"}}]}
+{
+ "type": "FeatureCollection",
+ "notes": "Point only. Only an end date is sourced; no spatial limit for 1898–1916.",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.349583,
+     13.626983
+    ]
+   },
+   "properties": {
+    "source": "HD2011",
+    "sources": [
+     "HD2011",
+     "WP:Ali_Dinar"
+    ],
+    "start": 1898,
+    "end": 1916,
+    "certainty": "low",
+    "label_en": "El Fasher (capital)",
+    "label_ar": "الفاشر (العاصمة)",
+    "label_detail_en": "Ali Dinar ruled from El Fasher; the Fur state \"was not finally extinguished until 1916\" (HD2011). Point only; approximate edges not drawn (unsourced).",
+    "label_detail_ar": "حكم علي دينار من الفاشر؛ ولم تنطفئ دولة الفور «نهائياً حتى 1916» (هولت وديلي). نقطة فقط؛ لم تُرسم حدود تقريبية (غير موثقة). [Arabic text pending native-speaker review.]",
+    "method": "reference marker (not a border)",
+    "geometry_source": "Wikidata (CC0 1.0): coordinates of Q311204",
+    "license": "CC0 1.0 (Wikidata)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.4,
+       15.2
+      ],
+      [
+       25.8,
+       16.2
+      ],
+      [
+       27.4,
+       14.4
+      ],
+      [
+       27.0,
+       11.0
+      ],
+      [
+       24.2,
+       10.4
+      ],
+      [
+       22.6,
+       12.0
+      ],
+      [
+       22.4,
+       15.2
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "zone-restored-darfur-sultanate-ali-dinar-core-0",
+    "draft_id": "restored-darfur-sultanate-ali-dinar#0:core",
+    "zone": "core",
+    "confidence": 0.5,
+    "certainty": "medium",
+    "badges": [
+     "APPROXIMATE"
+    ],
+    "source": "MACMICHAEL1922_V1",
+    "sources": [
+     "MACMICHAEL1922_V1",
+     "GHA7_CH12",
+     "HD2011",
+     "OFS1974"
+    ],
+    "basis_en": "'nominally tributary to, but effectively independent of, the Anglo-Egyptian Sudan' (GHA VII p.283). West edge: Dar Masalit is 'bounded to the west by Wadai… to the east by the Fur', and Dar Tama 'has always been a bone of contention between the Sultans of Wadai and Darfur' (MacMichael I pp.85–86). So the core stops east of Dar Masalit/Tama, which should be drawn as a contested zone (geometry not yet drawn). VERIFY removed.",
+    "pages": "MacMichael 1922 I pp.85–86; GHA VII ch.12 p.283",
+    "start": null,
+    "end": null,
+    "label_en": null,
+    "label_ar": null,
+    "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
+    "signoff": {
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "commit": null
+    },
+    "draft_version": "bd-0.1 2026-10-24"
+   }
+  }
+ ],
+ "extent_rendering": {
+  "mode": "zones",
+  "zones_from": "db/border_drafts/promote_drafts.py"
+ }
+}

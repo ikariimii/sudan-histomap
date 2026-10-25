@@ -21,6 +21,27 @@
       "OFAHEY2008",
       "WP:Daju_people"
      ]
+    },
+    {
+     "feature_index": 1,
+     "id": "zone-daju-kingdom-core-0",
+     "label_en": null,
+     "symbol_class": "zone_core",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "GHA4_CH16",
+      "OFAHEY2008"
+     ],
+     "zone": "core",
+     "confidence": 0.3,
+     "confidence_word": "low",
+     "low_confidence_overlay": true
     }
    ]
   },
@@ -808,11 +829,14 @@
   "city_political_centre",
   "city_port",
   "city_religious",
-  "extent_label_point"
+  "extent_label_point",
+  "low_confidence",
+  "zone_core"
  ],
  "badges_present": [
   "APPROXIMATE",
   "AR-REVIEW",
+  "EDITORIAL",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
@@ -826,7 +850,9 @@
   "city_port": 1,
   "city_religious": 5,
   "extent_label_point": 1,
-  "extent_features": 1,
+  "low_confidence": 1,
+  "zone_core": 1,
+  "extent_features": 2,
   "group_features": 0,
   "cities": 21
  },
@@ -869,6 +895,7 @@
   "badge_filter": [
    "APPROXIMATE",
    "AR-REVIEW",
+   "EDITORIAL",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",

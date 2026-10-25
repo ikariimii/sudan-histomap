@@ -49,6 +49,47 @@
       "GHA2_CH7",
       "GHA2_CH10"
      ]
+    },
+    {
+     "feature_index": 3,
+     "id": "zone-roman-byzantine-egypt-core-0",
+     "label_en": null,
+     "symbol_class": "zone_core",
+     "certainty": "high",
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED",
+      "SINGLE-SOURCE"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "GHA2_CH7"
+     ],
+     "zone": "core",
+     "confidence": 0.75,
+     "confidence_word": "high",
+     "low_confidence_overlay": false
+    },
+    {
+     "feature_index": 4,
+     "id": "zone-roman-byzantine-egypt-claimed-1",
+     "label_en": null,
+     "symbol_class": "zone_claimed",
+     "certainty": "medium",
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "GHA2_CH10",
+      "GHA2_CH7"
+     ],
+     "zone": "claimed",
+     "confidence": 0.5,
+     "confidence_word": "medium",
+     "low_confidence_overlay": false
     }
    ]
   },
@@ -906,17 +947,21 @@
   "city_political_centre",
   "city_port",
   "city_religious",
-  "extent_label_point"
+  "extent_label_point",
+  "zone_claimed",
+  "zone_core"
  ],
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
-  "RUIN-UNDATED"
+  "RUIN-UNDATED",
+  "SINGLE-SOURCE"
  ],
  "counts": {
   "city_capital": 9,
@@ -926,7 +971,9 @@
   "city_port": 1,
   "city_religious": 5,
   "extent_label_point": 3,
-  "extent_features": 3,
+  "zone_claimed": 1,
+  "zone_core": 1,
+  "extent_features": 5,
   "group_features": 0,
   "cities": 23
  },
@@ -976,10 +1023,12 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
-   "RUIN-UNDATED"
+   "RUIN-UNDATED",
+   "SINGLE-SOURCE"
   ],
   "what_changed": {
    "previous_era_id": "ptolemaic-egypt",

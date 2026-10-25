@@ -40,10 +40,10 @@
    "zoom": 6,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    31.46,
-    22.2
+    32.701,
+    23.098
    ],
-   "flag_anchor_basis": "extent-point",
+   "flag_anchor_basis": "polygon-pole",
    "cities_with_role": []
   },
   "c-group-lower-nubia": {
@@ -54,10 +54,10 @@
    "zoom": 6,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    31.378,
-    21.793
+    32.701,
+    23.098
    ],
-   "flag_anchor_basis": "extent-point",
+   "flag_anchor_basis": "polygon-pole",
    "cities_with_role": []
   },
   "kingdom-of-kerma": {
@@ -84,10 +84,10 @@
    "zoom": 5,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    31.828,
-    18.537
+    33.298,
+    19.461
    ],
-   "flag_anchor_basis": "main-city:jebel-barkal",
+   "flag_anchor_basis": "polygon-pole",
    "cities_with_role": [
     "buhen",
     "jebel-barkal"
@@ -186,10 +186,10 @@
    "zoom": 6,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    32.681,
-    15.524
+    32.907,
+    14.516
    ],
-   "flag_anchor_basis": "main-city:soba",
+   "flag_anchor_basis": "polygon-pole",
    "cities_with_role": [
     "soba"
    ]
@@ -202,10 +202,10 @@
    "zoom": 4,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    33.6,
-    13.55
+    32.805,
+    15.073
    ],
-   "flag_anchor_basis": "main-city:sennar",
+   "flag_anchor_basis": "polygon-pole",
    "cities_with_role": [
     "arbaji",
     "sennar",
@@ -405,7 +405,7 @@
     24.27,
     12.95
    ],
-   "flag_anchor_basis": "extent-point",
+   "flag_anchor_basis": "polygon-pole",
    "cities_with_role": []
   },
   "tunjur-kingdom": {
@@ -416,10 +416,10 @@
    "zoom": 5,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    29.188,
-    16.76
+    24.32,
+    14.27
    ],
-   "flag_anchor_basis": "main-city:ain-farah",
+   "flag_anchor_basis": "polygon-pole",
    "cities_with_role": [
     "ain-farah"
    ]
@@ -448,10 +448,10 @@
    "zoom": 6,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    25.35,
-    13.627
+    24.894,
+    13.453
    ],
-   "flag_anchor_basis": "extent-point",
+   "flag_anchor_basis": "polygon-pole",
    "cities_with_role": []
   },
   "kingdom-of-taqali": {
@@ -465,7 +465,7 @@
     30.75,
     12.0
    ],
-   "flag_anchor_basis": "extent-point",
+   "flag_anchor_basis": "polygon-pole",
    "cities_with_role": []
   },
   "shilluk-kingdom": {
@@ -541,10 +541,10 @@
    "zoom": 7,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    31.283,
-    21.917
+    31.211,
+    30.043
    ],
-   "flag_anchor_basis": "main-city:buhen",
+   "flag_anchor_basis": "polygon-pole",
    "cities_with_role": [
     "buhen",
     "semna"
@@ -588,10 +588,10 @@
    "zoom": 4,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    29.892,
-    31.198
+    31.148,
+    30.6
    ],
-   "flag_anchor_basis": "main-city:alexandria",
+   "flag_anchor_basis": "polygon-pole",
    "cities_with_role": [
     "alexandria",
     "aswan",
@@ -607,10 +607,10 @@
    "zoom": 4,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    31.992,
-    22.65
+    31.135,
+    30.599
    ],
-   "flag_anchor_basis": "main-city:qasr-ibrim",
+   "flag_anchor_basis": "polygon-pole",
    "cities_with_role": [
     "qasr-ibrim"
    ]
@@ -1003,10 +1003,10 @@
    "zoom": 6,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    32.632,
-    16.236
+    32.544,
+    15.691
    ],
-   "flag_anchor_basis": "main-city:qerri",
+   "flag_anchor_basis": "polygon-pole",
    "cities_with_role": [
     "qerri"
    ]
@@ -1019,10 +1019,10 @@
    "zoom": 6,
    "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
-    33.434,
-    16.691
+    33.477,
+    16.777
    ],
-   "flag_anchor_basis": "main-city:shendi",
+   "flag_anchor_basis": "polygon-pole",
    "cities_with_role": [
     "shendi"
    ]
@@ -1038,7 +1038,7 @@
     29.5,
     13.0
    ],
-   "flag_anchor_basis": "extent-point",
+   "flag_anchor_basis": "polygon-pole",
    "cities_with_role": []
   },
   "dinka-jieng-communities": {
