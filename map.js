@@ -137,13 +137,14 @@ function evdStyle(){zdefs();const ev=on.has('evd');document.body.classList.toggl
 // --- Then and now (?layers=now): range splits the screen; historical areas on one side, today's borders (the existing
 // Natural Earth admin-0 basemap, BASE) on the other. No new geometry. Native range = keyboard; no animation (reduced-motion safe).
 const gNow=root.append('g').attr('class','nowb').attr('pointer-events','none');let CMP=50;
-function cmpDiv(s){let g=svg.select('g.cmpdv');if(s==null){g.remove();cmpPos();return}
+function cmpY(){let t=0,b=H();for(const id of ['layers','lgb','hint','lgp','nob','reset','wai']){const e=$(id);if(e&&!e.hidden&&getComputedStyle(e).display!=='none'){const r=e.getBoundingClientRect();if(r.height&&r.bottom<H()*.8)t=Math.max(t,r.bottom)}}const sh=$('sheet');if(sh&&!desk()){const r=sh.getBoundingClientRect();b=Math.min(b,r.top)}return b-t>=52?Math.round((t+b)/2):$('hint')?null:Math.round(H()*.42)}
+function cmpDiv(s){cmpDiv.s=s;let g=svg.select('g.cmpdv');if(s==null){g.remove();cmpPos();return}
  if(g.empty()){g=svg.append('g').attr('class','cmpdv').attr('aria-hidden','true');g.append('line');const h=g.append('g').attr('class','cmph');h.append('circle').attr('class','hit').attr('r',22);h.append('circle').attr('class','knob').attr('r',14);h.append('path').attr('d','M-5,-5l-4,5l4,5M5,-5l4,5l-4,5');
   const hn=h.node();let dr=false;const mv=ev=>{if(!dr)return;const p=Math.max(0,Math.min(100,Math.round(100*ev.clientX/W())));CMP=AR?100-p:p;const r=$('cmpr');if(r){r.value=CMP;r.oninput()}};
-  ['mousedown','touchstart','wheel'].forEach(t=>hn.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));hn.addEventListener('pointerdown',ev=>{ev.stopPropagation();ev.preventDefault();dr=true;try{hn.setPointerCapture(ev.pointerId)}catch(_){}});hn.addEventListener('pointermove',mv);['pointerup','pointercancel'].forEach(t=>hn.addEventListener(t,()=>{dr=false}));cmpPos()}
- g.select('line').attr('x1',s).attr('x2',s).attr('y1',0).attr('y2',H());g.select('.cmph').attr('transform',`translate(${s},${Math.round(H()*.42)})`)}
+  ['mousedown','touchstart','wheel'].forEach(t=>hn.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));hn.addEventListener('pointerdown',ev=>{ev.stopPropagation();ev.preventDefault();dr=true;try{hn.setPointerCapture(ev.pointerId)}catch(_){}});hn.addEventListener('pointermove',mv);['pointerup','pointercancel'].forEach(t=>hn.addEventListener(t,()=>{dr=false}));cmpPos();setTimeout(cmpPos,700);if(!cmpDiv.l){cmpDiv.l=1;const sh=$('sheet');if(sh)sh.addEventListener('transitionend',()=>{if(cmpDiv.s!=null)cmpPos()})}}
+ g.select('line').attr('x1',s).attr('x2',s).attr('y1',0).attr('y2',H());{const y=cmpY();g.select('.cmph').style('display',y==null?'none':null).attr('transform',`translate(${s},${y||0})`)}}
 // keep the corner buttons clear of the open then/now bar (it lives inside #layers)
-function cmpPos(){const b=$('cmpbar'),o=b&&!b.hidden,lb=$('layers').getBoundingClientRect().bottom;const rs=$('reset'),wa=$('wai');if(rs)rs.style.top=o?(lb+8)+'px':'';if(wa)wa.style.top=o?(lb+56)+'px':'';nobPos()}
+function cmpPos(){const b=$('cmpbar'),o=b&&!b.hidden,lb=$('layers').getBoundingClientRect().bottom;const rs=$('reset'),wa=$('wai');if(rs)rs.style.top=o?(lb+8)+'px':'';if(wa)wa.style.top=o?(lb+56)+'px':'';nobPos();if(cmpDiv.s!=null){const h=svg.select('g.cmpdv .cmph');if(!h.empty()){const y=cmpY();h.style('display',y==null?'none':null).attr('transform',`translate(${cmpDiv.s},${y||0})`)}}}
 function cmpClip(){const d=svg.select('defs');if(!on.has('now')){gX.attr('clip-path',null);gZ.attr('clip-path',null);gNow.attr('clip-path',null);cmpDiv(null);return}
  ['cThen','cNow'].forEach(id=>{if(d.select('#'+id).empty())d.append('clipPath').attr('id',id).attr('clipPathUnits','userSpaceOnUse').append('rect')});
  const s=AR?W()*(1-CMP/100):W()*CMP/100,x=(s-TR.x)/TR.k,BIG=1e5,L=[-BIG,x-(-BIG)],R=[x,BIG];const th=AR?R:L,nw=AR?L:R;
@@ -422,16 +423,16 @@ var STY=null;
  const draw=()=>{gW.selectAll('*').remove();if(!P)return;const xy=proj(P);const m=gW.append('g').attr('class','mk waimk');m.node().__xy=xy;m.attr('transform',`translate(${xy})scale(${1/K})`);
   m.append('circle').attr('r',13).attr('class','wair');m.append('circle').attr('r',6).attr('class','waid');m.append('title').text(WI.here);return xy};
  addEventListener('resize',()=>setTimeout(draw,60));
- b.onclick=()=>{if(P){P=null;draw();b.setAttribute('aria-pressed','false');say(WI.off,true);return}
-  b.disabled=true;navigator.geolocation.getCurrentPosition(g=>{b.disabled=false;P=[g.coords.longitude,g.coords.latitude];b.setAttribute('aria-pressed','true');const xy=draw();
+ b.onclick=()=>{if(b.getAttribute('aria-busy')==='true')return;if(P){P=null;draw();b.setAttribute('aria-pressed','false');say(WI.off,true);return}
+  const busy=v=>{if(v){b.setAttribute('aria-disabled','true');b.setAttribute('aria-busy','true')}else{b.removeAttribute('aria-disabled');b.removeAttribute('aria-busy')}};busy(true);navigator.geolocation.getCurrentPosition(g=>{busy(false);P=[g.coords.longitude,g.coords.latitude];b.setAttribute('aria-pressed','true');const xy=draw();
    const inb=P[0]>=RELIEF_BOX[0]&&P[0]<=RELIEF_BOX[2]&&P[1]>=RELIEF_BOX[1]&&P[1]<=RELIEF_BOX[3];
    if(inb){const sh=$('sheet').getBoundingClientRect(),c=desk()?[AR?(sh.right+W())/2:sh.left/2,H()/2]:[W()/2,(120+Math.min(sh.top,H()))/2];svg.transition().duration(RM?0:DUR).call(zoom.translateTo,xy[0],xy[1],c)}say((inb?WI.here:WI.out)+'. '+WI.note,true)},
-   ()=>{b.disabled=false;say(WI.err+'. '+WI.note,true)},{enableHighAccuracy:false,timeout:15000,maximumAge:300000})}})();
+   ()=>{busy(false);say(WI.err+'. '+WI.note,true)},{enableHighAccuracy:false,timeout:15000,maximumAge:300000})}})();
 // first-visit hint: points to play tour / search / layers; dismissal remembered in localStorage only; not in embed or story mode
 (()=>{const H=T.hint;if(!H||Q.get('embed')==='1'||Q.get('story'))return;const K1='hm_hint1';try{if(localStorage.getItem(K1))return}catch(_){}
- const d=document.createElement('section');d.id='hint';d.setAttribute('aria-label',H.l);d.innerHTML=`<b>${esc(H.h)}</b><p>${esc(H.t)}</p><div><button type="button" class="chip" id="hintp">${esc(H.p)}</button><button type="button" class="chip" id="hintx">${esc(H.x)}</button></div>`;document.body.appendChild(d);
- const off=()=>{try{localStorage.setItem(K1,'1')}catch(_){}d.remove();removeEventListener('keydown',ek)},ek=e=>{if(e.key==='Escape'&&d.isConnected)off()};addEventListener('keydown',ek);
- $('hintx').onclick=()=>{off();const t=$('tour');if(t)t.focus()};$('hintp').onclick=()=>{off();const t=$('tour');if(t){t.click();t.focus()}}})();
+ const prev=document.activeElement,back=()=>{const t=prev&&prev!==document.body&&prev.isConnected&&!prev.closest('#hint')?prev:$('tour');if(t)t.focus()};const d=document.createElement('section');d.id='hint';d.setAttribute('aria-label',H.l);d.innerHTML=`<b>${esc(H.h)}</b><p>${esc(H.t)}</p><div><button type="button" class="chip" id="hintp">${esc(H.p)}</button><button type="button" class="chip" id="hintx">${esc(H.x)}</button></div>`;document.body.appendChild(d);
+ const off=()=>{try{localStorage.setItem(K1,'1')}catch(_){}d.remove();removeEventListener('keydown',ek);if(cmpDiv.s!=null)cmpDiv(cmpDiv.s)},ek=e=>{if(e.key==='Escape'&&d.isConnected){off();back()}};addEventListener('keydown',ek);
+ $('hintx').onclick=()=>{off();back()};$('hintp').onclick=()=>{off();const t=$('tour');if(t){t.click();t.focus()}}})();
 // --- start
 window.__hm={scale:k=>svg.call(zoom.scaleTo,k)};// test hook (QA only, no side effects)
 const eth1932=()=>{const e=ES[i];if(on.has('eth')&&(M.layers.eth||[]).includes(e.id)&&e.a<=1932&&1932<=e.b)Y=1932};eth1932();
