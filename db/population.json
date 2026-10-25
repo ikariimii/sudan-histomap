@@ -93,7 +93,8 @@
     "licence": "CC BY 4.0",
     "note": "Downloaded 2026-10-24 as CSV; codes SDN, SSD. HYDE 3.3 <1800, Gapminder v7 1800–1949."
    }
-  }
+  },
+  "updated_2026-10-24": "Filled 6 modern neighbour-state eras from UN WPP 2024 (MODEL); earlier rule kept neighbours null"
  },
  "eras": {
   "khartoum-mesolithic-early-khartoum": {
@@ -1297,11 +1298,47 @@
    "name_en": "Libya (Ottoman, Italian, independent)",
    "start": 1551,
    "end": 2026,
-   "point": null,
-   "low": null,
-   "high": null,
-   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
-   "badges": []
+   "point": 7381023,
+   "low": 1131460,
+   "high": 7381023,
+   "null_reason": null,
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "territory": "Libya (neighbour state)",
+   "reference_year": 2024,
+   "range_kind": "WPP 2024 values at 1950 and 2024; change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 1950,
+     "value": 1131460,
+     "territory": "Libya",
+     "method": "UN WPP 2024 estimate",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 2024,
+     "value": 7381023,
+     "territory": "Libya",
+     "method": "UN WPP 2024 Medium",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "caveat": "Neighbour state; WPP 2024 national figure, current borders. No figure before 1950 (era starts 1551); not estimated."
   },
   "wadai-sultanate": {
    "era_id": "wadai-sultanate",
@@ -1446,11 +1483,47 @@
    "name_en": "Eritrea (Italian colony → independent)",
    "start": 1890,
    "end": 2026,
-   "point": null,
-   "low": null,
-   "high": null,
-   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
-   "badges": []
+   "point": 3535603,
+   "low": 814866,
+   "high": 3535603,
+   "null_reason": null,
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "territory": "Eritrea (neighbour state)",
+   "reference_year": 2024,
+   "range_kind": "WPP 2024 values at 1950 and 2024; change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 1950,
+     "value": 814866,
+     "territory": "Eritrea",
+     "method": "UN WPP 2024 estimate",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 2024,
+     "value": 3535603,
+     "territory": "Eritrea",
+     "method": "UN WPP 2024 Medium",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "caveat": "Neighbour state; WPP 2024 national figure, current borders. No figure before 1950 (era starts 1890); not estimated. Eritrea a separate state only from 1993; WPP back-series 1950–1992 covers the same territory."
   },
   "restored-darfur-sultanate-ali-dinar": {
    "era_id": "restored-darfur-sultanate-ali-dinar",
@@ -1600,33 +1673,140 @@
    "name_en": "French Chad → Republic of Chad",
    "start": 1900,
    "end": 2026,
-   "point": null,
-   "low": null,
-   "high": null,
-   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
-   "badges": []
+   "point": 20299123,
+   "low": 2525454,
+   "high": 20299123,
+   "null_reason": null,
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "territory": "Chad (neighbour state)",
+   "reference_year": 2024,
+   "range_kind": "WPP 2024 values at 1950 and 2024; change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 1950,
+     "value": 2525454,
+     "territory": "Chad",
+     "method": "UN WPP 2024 estimate",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 2024,
+     "value": 20299123,
+     "territory": "Chad",
+     "method": "UN WPP 2024 Medium",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "caveat": "Neighbour state; WPP 2024 national figure, current borders. No figure before 1950 (era starts 1900); not estimated."
   },
   "central-african-republic-ubangi-shari": {
    "era_id": "central-african-republic-ubangi-shari",
    "name_en": "Central African Republic (Ubangi-Shari)",
    "start": 1903,
    "end": 2026,
-   "point": null,
-   "low": null,
-   "high": null,
-   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
-   "badges": []
+   "point": 5330690,
+   "low": 1438057,
+   "high": 5330690,
+   "null_reason": null,
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "territory": "Central African Republic (neighbour state)",
+   "reference_year": 2024,
+   "range_kind": "WPP 2024 values at 1950 and 2024; change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 1950,
+     "value": 1438057,
+     "territory": "Central African Republic",
+     "method": "UN WPP 2024 estimate",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 2024,
+     "value": 5330690,
+     "territory": "Central African Republic",
+     "method": "UN WPP 2024 Medium",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "caveat": "Neighbour state; WPP 2024 national figure, current borders. No figure before 1950 (era starts 1903); not estimated."
   },
   "republic-of-egypt": {
    "era_id": "republic-of-egypt",
    "name_en": "Republic of Egypt",
    "start": 1953,
    "end": 2026,
-   "point": null,
-   "low": null,
-   "high": null,
-   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
-   "badges": []
+   "point": 116538258,
+   "low": 22644142,
+   "high": 116538258,
+   "null_reason": null,
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "territory": "Egypt (neighbour state)",
+   "reference_year": 2024,
+   "range_kind": "WPP 2024 values at 1953 and 2024; change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 1953,
+     "value": 22644142,
+     "territory": "Egypt",
+     "method": "UN WPP 2024 estimate",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 2024,
+     "value": 116538258,
+     "territory": "Egypt",
+     "method": "UN WPP 2024 Medium",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "caveat": "Neighbour state; WPP 2024 national figure, current borders."
   },
   "independent-sudan-first-parliamentary-period": {
    "era_id": "independent-sudan-first-parliamentary-period",
@@ -1806,11 +1986,46 @@
    "name_en": "Derg & Federal Ethiopia",
    "start": 1974,
    "end": 2026,
-   "point": null,
-   "low": null,
-   "high": null,
-   "null_reason": "Neighbour polity outside Sudan; db/population.json covers Sudan (and South Sudan) territory only.",
-   "badges": []
+   "point": 132059767,
+   "low": 30957273,
+   "high": 132059767,
+   "null_reason": null,
+   "badges": [
+    "MODEL",
+    "SINGLE-SOURCE"
+   ],
+   "territory": "Ethiopia (neighbour state)",
+   "reference_year": 2024,
+   "range_kind": "WPP 2024 values at 1974 and 2024; change over time, not an error band",
+   "estimates": [
+    {
+     "kind": "model",
+     "year": 1974,
+     "value": 30957273,
+     "territory": "Ethiopia",
+     "method": "UN WPP 2024 estimate",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 2024,
+     "value": 132059767,
+     "territory": "Ethiopia",
+     "method": "UN WPP 2024 Medium",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "caveat": "Neighbour state; WPP 2024 national figure, current borders."
   },
   "transitional-third-parliamentary-period": {
    "era_id": "transitional-third-parliamentary-period",
