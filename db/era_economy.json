@@ -420,14 +420,7 @@
       "type": "banknote",
       "issuer": "Central Bank of Sudan",
       "example_artifact": "Sudan 200 Dinar note.jpg",
-      "cite": null,
-      "cite_current": {
-        "proposed_id": "CBOS_POL2007",
-        "author": "Central Bank of Sudan (Governor Sabir Mohamed Hassan)",
-        "title": "Central Bank of Sudan Policies for 2007 (circular dated 2006-12-28), The Currency Pillar",
-        "url": "https://cbos.gov.sd/en/content/central-bank-sudan-policies-2007",
-        "read_in_full": "2026-10-25"
-      },
+      "cite": "CBOS_POL2007",
       "badges": [
         "PARTLY-SOURCED"
       ],
@@ -442,14 +435,7 @@
         },
         {
           "change": "Dinar to Sudanese pound, 2007",
-          "cite": null,
-          "cite_current": {
-            "proposed_id": "CBOS_POL2007",
-            "author": "Central Bank of Sudan (Governor Sabir Mohamed Hassan)",
-            "title": "Central Bank of Sudan Policies for 2007 (circular dated 2006-12-28), The Currency Pillar",
-            "url": "https://cbos.gov.sd/en/content/central-bank-sudan-policies-2007",
-            "read_in_full": "2026-10-25"
-          },
+          "cite": "CBOS_POL2007",
           "quote": "the new national currency (the Sudanese pound) will be introduced throughout the country effective the beginning of 2007 … During the year 2007, the Sudanese pound and the Sudanese dinar will be circulating side by side",
           "badges": [
             "SOURCED"
@@ -478,16 +464,9 @@
           "from": "Heglig",
           "to": "port-sudan",
           "commodity": "crude oil",
-          "cite": null,
-          "cite_current": {
-            "proposed_id": "EIA_SDN2013",
-            "author": "US Energy Information Administration",
-            "title": "Sudan and South Sudan country analysis (updated 2013-09-05)",
-            "url": "https://web.archive.org/web/20140327064441/www.eia.gov/countries/cab.cfm?fips=su",
-            "read_in_full": "2026-10-25",
-            "note": "US government agency, not WB/IMF/UN; used only under the parent's CONTESTED ruling for reserves and oil output"
-          },
-          "note": "EIA: 'the GNPOC export pipeline that runs from the Heglig processing facility to Port Sudan'. Heglig is not in db/cities.json, db/cities_modern.json or db/city_layers/cities.geojson, so it is plain text and the builder will skip this route."
+          "cite": "EIA_SDN2013",
+          "note": "EIA: 'the GNPOC export pipeline that runs from the Heglig processing facility to Port Sudan'. Heglig is not in db/cities.json, db/cities_modern.json or db/city_layers/cities.geojson, so it is plain text and the builder will skip this route.",
+          "cite_note": "US government agency, not WB/IMF/UN; used only under the parent's CONTESTED ruling for reserves and oil output"
         }
       ],
       "cite": "RU_RIA_2011",
@@ -519,19 +498,12 @@
         "value": 5000000000,
         "unit": "barrels",
         "year": 2013,
-        "cite": null,
+        "cite": "EIA_SDN2013",
         "badges": [
           "CONTESTED"
         ],
-        "cite_current": {
-          "proposed_id": "EIA_SDN2013",
-          "author": "US Energy Information Administration",
-          "title": "Sudan and South Sudan country analysis (updated 2013-09-05)",
-          "url": "https://web.archive.org/web/20140327064441/www.eia.gov/countries/cab.cfm?fips=su",
-          "read_in_full": "2026-10-25",
-          "note": "US government agency, not WB/IMF/UN; used only under the parent's CONTESTED ruling for reserves and oil output"
-        },
-        "note": "as of 1 Jan 2013"
+        "note": "as of 1 Jan 2013",
+        "cite_note": "US government agency, not WB/IMF/UN; used only under the parent's CONTESTED ruling for reserves and oil output"
       },
       {
         "name": "Oil output",
@@ -548,19 +520,12 @@
         "value": 453000,
         "unit": "barrels per day",
         "year": 2011,
-        "cite": null,
+        "cite": "EIA_SDN2013",
         "badges": [
           "CONTESTED"
         ],
-        "cite_current": {
-          "proposed_id": "EIA_SDN2013",
-          "author": "US Energy Information Administration",
-          "title": "Sudan and South Sudan country analysis (updated 2013-09-05)",
-          "url": "https://web.archive.org/web/20140327064441/www.eia.gov/countries/cab.cfm?fips=su",
-          "read_in_full": "2026-10-25",
-          "note": "US government agency, not WB/IMF/UN; used only under the parent's CONTESTED ruling for reserves and oil output"
-        },
-        "note": "EIA also gives a 2010 peak of 486,000 bb/d"
+        "note": "EIA also gives a 2010 peak of 486,000 bb/d",
+        "cite_note": "US government agency, not WB/IMF/UN; used only under the parent's CONTESTED ruling for reserves and oil output"
       }
     ],
     "indicators_note": "Reserves and output shown from both sources without picking one (parent ruling). Neither is WB/IMF/UN. Debt USD 43bn (AR_SUDANILE2013) and the 70% security-budget figure (ICG) left out: not WB/IMF/UN."
@@ -681,47 +646,26 @@
   "war-in-sudan-saf-vs-rsf": {
     "rating": {
       "value": "bad",
-      "cite": null,
+      "cite": "WB_MPO_SDN_OCT2026",
       "badges": [
         "SOURCED"
       ],
-      "cite_current": {
-        "proposed_id": "WB_MPO_SDN_OCT2026",
-        "author": "World Bank",
-        "title": "Macro Poverty Outlook: Sudan (October 2026)",
-        "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
-        "read_in_full": "2026-10-25"
-      },
       "note": "The source says it directly: 'The conflict that erupted in April 2023 has caused severe economic contraction and reversed development gains.'"
     },
     "rating_basis_en": {
       "value": "World Bank MPO Oct 2026: 'severe economic contraction'; real GDP -29.4% in 2023 and -14.0% in 2024.",
-      "cite": null,
+      "cite": "WB_MPO_SDN_OCT2026",
       "badges": [
         "SOURCED"
-      ],
-      "cite_current": {
-        "proposed_id": "WB_MPO_SDN_OCT2026",
-        "author": "World Bank",
-        "title": "Macro Poverty Outlook: Sudan (October 2026)",
-        "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
-        "read_in_full": "2026-10-25"
-      }
+      ]
     },
     "rating_basis_ar": {
       "value": "بحسب توقعات البنك الدولي (أكتوبر 2026): 'انكماش اقتصادي حاد'؛ تراجع الناتج المحلي الحقيقي 29.4% في 2023 و14.0% في 2024.",
-      "cite": null,
+      "cite": "WB_MPO_SDN_OCT2026",
       "badges": [
         "SOURCED",
         "WORKING-TRANSLATION"
       ],
-      "cite_current": {
-        "proposed_id": "WB_MPO_SDN_OCT2026",
-        "author": "World Bank",
-        "title": "Macro Poverty Outlook: Sudan (October 2026)",
-        "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
-        "read_in_full": "2026-10-25"
-      },
       "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
     },
     "currency": {
@@ -738,41 +682,20 @@
     "main_trade": {
       "exports": {
         "value": "Gold, 'Sudan's dominant export commodity in 2025' and 53% of total exports in Q1 2026",
-        "cite": null,
+        "cite": "WB_MPO_SDN_OCT2026",
         "badges": [
           "SOURCED"
-        ],
-        "cite_current": {
-          "proposed_id": "WB_MPO_SDN_OCT2026",
-          "author": "World Bank",
-          "title": "Macro Poverty Outlook: Sudan (October 2026)",
-          "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
-          "read_in_full": "2026-10-25"
-        }
+        ]
       },
       "imports": {
         "value": "Food and petroleum products; petroleum 26% of import value in Q1 2026",
-        "cite": null,
+        "cite": "WB_MPO_SDN_OCT2026",
         "badges": [
           "SOURCED"
-        ],
-        "cite_current": {
-          "proposed_id": "WB_MPO_SDN_OCT2026",
-          "author": "World Bank",
-          "title": "Macro Poverty Outlook: Sudan (October 2026)",
-          "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
-          "read_in_full": "2026-10-25"
-        }
+        ]
       },
       "routes": [],
-      "cite": null,
-      "cite_current": {
-        "proposed_id": "WB_MPO_SDN_OCT2026",
-        "author": "World Bank",
-        "title": "Macro Poverty Outlook: Sudan (October 2026)",
-        "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
-        "read_in_full": "2026-10-25"
-      },
+      "cite": "WB_MPO_SDN_OCT2026",
       "badges": [
         "SOURCED"
       ],
@@ -780,17 +703,10 @@
     },
     "economic_base": {
       "value": "Gold and agriculture in relatively secure areas; services concentrated in Khartoum collapsed",
-      "cite": null,
+      "cite": "WB_MPO_SDN_OCT2026",
       "badges": [
         "SOURCED"
-      ],
-      "cite_current": {
-        "proposed_id": "WB_MPO_SDN_OCT2026",
-        "author": "World Bank",
-        "title": "Macro Poverty Outlook: Sudan (October 2026)",
-        "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
-        "read_in_full": "2026-10-25"
-      }
+      ]
     },
     "indicators": [
       {
@@ -820,17 +736,10 @@
         "value": -14.0,
         "unit": "percent",
         "year": 2024,
-        "cite": null,
+        "cite": "WB_MPO_SDN_OCT2026",
         "badges": [
           "SOURCED"
         ],
-        "cite_current": {
-          "proposed_id": "WB_MPO_SDN_OCT2026",
-          "author": "World Bank",
-          "title": "Macro Poverty Outlook: Sudan (October 2026)",
-          "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
-          "read_in_full": "2026-10-25"
-        },
         "note": "main value (parent ruling)"
       },
       {
@@ -849,17 +758,10 @@
         "value": -45.6,
         "unit": "percent",
         "year": 2023,
-        "cite": null,
+        "cite": "WB_MPO_SDN_OCT2026",
         "badges": [
           "SOURCED"
         ],
-        "cite_current": {
-          "proposed_id": "WB_MPO_SDN_OCT2026",
-          "author": "World Bank",
-          "title": "Macro Poverty Outlook: Sudan (October 2026)",
-          "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
-          "read_in_full": "2026-10-25"
-        },
         "note": "main value (parent ruling)"
       },
       {
@@ -900,34 +802,20 @@
         "value": 170.0,
         "unit": "percent",
         "year": 2024,
-        "cite": null,
+        "cite": "WB_MPO_SDN_OCT2026",
         "badges": [
           "SOURCED"
-        ],
-        "cite_current": {
-          "proposed_id": "WB_MPO_SDN_OCT2026",
-          "author": "World Bank",
-          "title": "Macro Poverty Outlook: Sudan (October 2026)",
-          "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
-          "read_in_full": "2026-10-25"
-        }
+        ]
       },
       {
         "name": "Inflation, y-o-y",
         "value": 51.3,
         "unit": "percent",
         "year": 2026,
-        "cite": null,
+        "cite": "WB_MPO_SDN_OCT2026",
         "badges": [
           "SOURCED"
         ],
-        "cite_current": {
-          "proposed_id": "WB_MPO_SDN_OCT2026",
-          "author": "World Bank",
-          "title": "Macro Poverty Outlook: Sudan (October 2026)",
-          "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
-          "read_in_full": "2026-10-25"
-        },
         "note": "end June 2026"
       }
     ],
