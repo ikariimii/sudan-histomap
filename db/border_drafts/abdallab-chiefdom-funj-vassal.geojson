@@ -207,14 +207,19 @@
       "id": "OFS1974",
       "citation": "R.S. O'Fahey & J.L. Spaulding, Kingdoms of the Sudan (1974)",
       "url": "https://openlibrary.org/works/OL4466628W"
+     },
+     {
+      "id": "MSM1972",
+      "citation": "Muhammad Salih Muhyi al-Din, Mashyakhat al-'Abdallab wa-atharuha fi hayat al-Sudan al-siyasiya (al-Dar al-Sudaniyya, 1972)",
+      "url": ""
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
     "version": "bd-0.1 2026-10-24",
     "signoff": {
-     "status": "not-verified",
+     "status": "approved",
      "by": "Sudan Historian",
-     "date": "2026-10-24",
+     "date": "2026-10-25",
      "zone": "influence",
      "confidence": 0.25,
      "badges": [
@@ -222,11 +227,15 @@
       "EDITORIAL"
      ],
      "sources": [
-      "OFS1974"
+      "OFS1974",
+      "MSM1972"
      ],
-     "basis_en": "Northern overlordship under the Funj (O'Fahey & Spaulding 1974 ch.5). Not verified: the archive.org copy is lending-only and no text is on the box; page not checked.",
-     "reason": "OFS1974 text not readable; ch.5 page unchecked",
-     "ofahey1974_check": "2026-10-24: O'Fahey & Spaulding 1974 ch.5 not readable. archive.org kingdomsofsudan0000ofah is access-restricted (metadata access-restricted-item=true; _djvu.txt returns 401; search-inside returns 'Item not available'). HathiTrust record 001608322 (uc1.b4449655) is search-only, and full-text search was blocked by a Cloudflare challenge (403). No page found, so the status stays not-verified."
+     "basis_en": "Abdallab sources say their armies expanded the realm 'to the borders of Abyssinia and Suakin in the east, to Kab Bulul at the borders of the Fur sultanate in the west, and to Arbaji, which was taken as the dividing line between Abdallab and Funj influence, in the south' (MSM1972 p.149). The northern limit is disputed: Abdallab tradition says Aswan (p.149); others put it at the Third Cataract (p.151). Zone kept EDITORIAL and APPROXIMATE.",
+     "reason": "",
+     "ofahey1974_check": "2026-10-24: O'Fahey & Spaulding 1974 ch.5 not readable. archive.org kingdomsofsudan0000ofah is access-restricted (metadata access-restricted-item=true; _djvu.txt returns 401; search-inside returns 'Item not available'). HathiTrust record 001608322 (uc1.b4449655) is search-only, and full-text search was blocked by a Cloudflare challenge (403). No page found, so the status stays not-verified.",
+     "pages": "MSM1972 printed pp.149–151 (pdf pp.144–146)",
+     "quote_ar": "حتى امتدت الى حدود الحبشة وسواكن في الشرق، والى «كاب بلول» عند حدود سلطنة الفور في الغرب، والى أريحي – التي اعتبرت حداً فاصلاً بين نفوذ العبدلاب ونفوذ الفونج – في الجنوب (ص149)؛ وقد أيد القول بامتداد مشيخة العبدلاب في الشمال الى الشلال الثالث (ص151)",
+     "note": "OFS1974 still unread; approval rests on MSM1972, which reports Abdallab traditions and later writers rather than fixing a line."
     }
    }
   }

@@ -365,14 +365,19 @@
       "id": "HD2011",
       "citation": "P.M. Holt & M.W. Daly, A History of the Sudan: From the Coming of Islam to the Present Day (2011)",
       "url": "https://doi.org/10.4324/9781315834030"
+     },
+     {
+      "id": "MSM1972",
+      "citation": "Muhammad Salih Muhyi al-Din, Mashyakhat al-'Abdallab wa-atharuha fi hayat al-Sudan al-siyasiya (al-Dar al-Sudaniyya, 1972)",
+      "url": ""
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
     "version": "bd-0.1 2026-10-24",
     "signoff": {
-     "status": "not-verified",
+     "status": "approved",
      "by": "Sudan Historian",
-     "date": "2026-10-24",
+     "date": "2026-10-25",
      "zone": "claimed",
      "confidence": 0.35,
      "badges": [
@@ -382,11 +387,12 @@
      "sources": [
       "GHA5_CH7",
       "OFS1974",
-      "HD2011"
+      "HD2011",
+      "MSM1972"
      ],
-     "basis_en": "Tributary north (Abdallab at Kerri, GHA V p.172) and Kordofan rivalry with the Darfur sultans (p.187). The extent down to Dongola is not checked page by page.",
-     "pages": "GHA V ch.7 pp.172, 177, 187",
-     "reason": "northern limit to Dongola is not supported by any page checked"
+     "basis_en": "North to Dongola through the Abdallab vassals: Holt & Daly (intro p.8) put 'the vassal-kingdom of Dongola' on the route to the frontier-post of Mushu, south of the Third Cataract; MSM1972 p.151 reports the Abdallab sway 'from Arbaji to the Third Cataract', and p.279 calls Dongola the capital 'of one of the important provinces subject to them'. Kordofan rivalry with Darfur: GHA V p.187. Claimed zone, EDITORIAL.",
+     "pages": "GHA V ch.7 pp.172, 177, 187; HD2011 intro p.8; MSM1972 printed pp.150–151, 279",
+     "reason": ""
     }
    }
   }
