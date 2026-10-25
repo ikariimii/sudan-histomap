@@ -15,24 +15,24 @@
    "DERIVED"
   ],
   "era_count": 68,
-  "files_scanned": 287
+  "files_scanned": 291
  },
  "totals": {
-  "SINGLE-SOURCE": 189,
-  "CONTESTED": 125,
+  "SINGLE-SOURCE": 192,
+  "CONTESTED": 128,
   "VERIFY": 1,
   "REPORTED": 10,
   "MODEL": 109,
-  "EDITORIAL": 29,
-  "APPROXIMATE": 248,
+  "EDITORIAL": 44,
+  "APPROXIMATE": 256,
   "PARTIAL": 3,
   "DERIVED": 168
  },
- "grand_total": 882,
+ "grand_total": 911,
  "inline_totals": {
-  "SINGLE-SOURCE": 21,
+  "SINGLE-SOURCE": 22,
   "CONTESTED": 9,
-  "VERIFY": 14,
+  "VERIFY": 13,
   "REPORTED": 1,
   "MODEL": 0,
   "EDITORIAL": 0,
@@ -107,17 +107,17 @@
   },
   "abdallab-chiefdom-funj-vassal": {
    "counts": {
-    "SINGLE-SOURCE": 1,
-    "CONTESTED": 0,
+    "SINGLE-SOURCE": 3,
+    "CONTESTED": 2,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
-    "EDITORIAL": 1,
-    "APPROXIMATE": 3,
+    "EDITORIAL": 4,
+    "APPROXIMATE": 6,
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "total": 5,
+   "total": 15,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -211,12 +211,12 @@
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 2,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 8,
+    "EDITORIAL": 3,
+    "APPROXIMATE": 10,
     "PARTIAL": 0,
     "DERIVED": 7
    },
-   "total": 28,
+   "total": 33,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -231,11 +231,13 @@
    "inline_total": 0,
    "files": [
     "data/eras/anglo-egyptian-sudan-condominium.json",
+    "db/era_economy.json",
     "db/extents/anglo-egyptian-sudan-condominium.geojson",
     "db/group_layers/anglo-egyptian-sudan-condominium.geojson",
     "db/groups.json",
     "db/population.json",
-    "db/relations.json"
+    "db/relations.json",
+    "db/trade_routes/anglo-egyptian-sudan-condominium.geojson"
    ]
   },
   "anuak-anywaa-communities": {
@@ -504,7 +506,7 @@
    },
    "total": 13,
    "inline_badges": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 3,
     "CONTESTED": 1,
     "VERIFY": 3,
     "REPORTED": 0,
@@ -514,7 +516,7 @@
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "inline_total": 6,
+   "inline_total": 7,
    "files": [
     "data/eras/derg-federal-ethiopia.json",
     "db/era_economy.json",
@@ -586,7 +588,7 @@
   },
   "egyptian-new-kingdom-rule-in-nubia": {
    "counts": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 3,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -596,7 +598,7 @@
     "PARTIAL": 0,
     "DERIVED": 4
    },
-   "total": 13,
+   "total": 14,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -611,6 +613,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/egyptian-new-kingdom-rule-in-nubia.json",
+    "db/era_economy.json",
     "db/extents/egyptian-new-kingdom-rule-in-nubia.geojson",
     "db/population.json"
    ]
@@ -715,12 +718,12 @@
     "VERIFY": 0,
     "REPORTED": 2,
     "MODEL": 3,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 16,
+    "EDITORIAL": 1,
+    "APPROXIMATE": 17,
     "PARTIAL": 0,
     "DERIVED": 6
    },
-   "total": 55,
+   "total": 57,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1005,7 +1008,7 @@
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
-    "VERIFY": 1,
+    "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
@@ -1013,7 +1016,7 @@
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "inline_total": 1,
+   "inline_total": 0,
    "files": [
     "data/eras/kingdom-of-kerma.json",
     "db/extents/kingdom-of-kerma.geojson",
@@ -1023,16 +1026,16 @@
   "kingdom-of-kush-meroitic-period": {
    "counts": {
     "SINGLE-SOURCE": 1,
-    "CONTESTED": 0,
+    "CONTESTED": 1,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 5,
-    "EDITORIAL": 0,
+    "EDITORIAL": 3,
     "APPROXIMATE": 5,
     "PARTIAL": 0,
     "DERIVED": 6
    },
-   "total": 17,
+   "total": 21,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1047,6 +1050,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/kingdom-of-kush-meroitic-period.json",
+    "db/era_economy.json",
     "db/extents/kingdom-of-kush-meroitic-period.geojson",
     "db/population.json"
    ]
@@ -1245,12 +1249,12 @@
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 12,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 9,
+    "EDITORIAL": 2,
+    "APPROXIMATE": 11,
     "PARTIAL": 0,
     "DERIVED": 8
    },
-   "total": 37,
+   "total": 41,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1265,11 +1269,13 @@
    "inline_total": 0,
    "files": [
     "data/eras/makuria.json",
+    "db/era_economy.json",
     "db/extents/makuria.geojson",
     "db/group_layers/makuria.geojson",
     "db/groups.json",
     "db/population.json",
-    "db/relations.json"
+    "db/relations.json",
+    "db/trade_routes/makuria.geojson"
    ]
   },
   "mamluk-sultanate": {
@@ -2024,12 +2030,12 @@
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 4,
-    "EDITORIAL": 3,
+    "EDITORIAL": 6,
     "APPROXIMATE": 11,
     "PARTIAL": 0,
     "DERIVED": 4
    },
-   "total": 44,
+   "total": 47,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2044,6 +2050,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/turkiyya-ottoman-egyptian-rule.json",
+    "db/era_economy.json",
     "db/extents/turkiyya-ottoman-egyptian-rule.geojson",
     "db/group_layers/turkiyya-ottoman-egyptian-rule.geojson",
     "db/groups.json",
