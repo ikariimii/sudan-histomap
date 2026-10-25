@@ -40,7 +40,7 @@
  ],
  "flags": [
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
-  "power_cinc_share null: only one state in the comparison set (Egypt is the only regional-set state in COW NMC v6.0 for 1855–1882) [VERIFY]",
+  "power_cinc_share null: only one state in the comparison set (Egypt is the only regional-set state in COW NMC v6.0 for 1855–1882) (COW_NMC6, ccode rows, 1855–1882)",
   "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field"
  ],
  "curated": true,
@@ -54,7 +54,7 @@
    "source_ids": [
     "COW_NMC6"
    ],
-   "flag": "power_cinc_share null: only one state in the comparison set (Egypt is the only regional-set state in COW NMC v6.0 for 1855–1882) [VERIFY]"
+   "flag": "power_cinc_share null: only one state in the comparison set (Egypt is the only regional-set state in COW NMC v6.0 for 1855–1882) (COW_NMC6, ccode rows, 1855–1882)"
   }
  ],
  "regional_power_null_reason": "no cited comparative measure",

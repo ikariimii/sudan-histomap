@@ -2842,6 +2842,32 @@
       "origin_commit": "Kerma Classic 1480 fix",
       "added": "2026-10-25",
       "note": "Digits corrected per Innovation Manager (Classic 1480 -> 1550); Final Kerma phrase 'حتى نحو 1450' has no start year, so no wording added. Wording still needs native review."
+    },
+    {
+      "era_id": "sultanate-of-darfur-keira",
+      "file": "data/eras/sultanate-of-darfur-keira.json",
+      "field_ar": "geopolitics_ar",
+      "arabic_sentence": "حروب مع وداي غرباً؛ وتوسع شرقاً في كردفان نحو 1785؛ وفقدان كردفان بعد 1821؛ وفتحها الزبير 1874 (هولت وديلي، المقدمة ص1–9). [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "geopolitics_en",
+      "revised_english": "Wars with Wadai in the west, ended by Tayrab's treaty; eastward expansion into Kordofan under Muhammad Tayrab, held until the Turco-Egyptian conquest (GHA V ch.7 p.189); conquered by al-Zubayr 1874 (GHA VI ch.14 p.371).",
+      "reason": "Vague cite 'O'Fahey index' removed from Arabic; English cites GHA V/VI/Holt & Daly pages.",
+      "action": "Native reviewer: align Arabic with the English and its cites.",
+      "origin_commit": "QA vague-cite pass",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "sultanate-of-darfur-keira",
+      "file": "data/eras/sultanate-of-darfur-keira.json",
+      "field_ar": "economy_ar",
+      "arabic_sentence": "درب الأربعين من كوبيه إلى أسيوط في مصر؛ وغزو الرقيق والاتجار بهم (هولت وديلي، المقدمة ص8–9). [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "economy_en",
+      "revised_english": "The Forty Days' Road (Darb al-arba'in) from Kubayh to Asyut in Egypt; slave raiding and trading (Holt & Daly, intro pp.8–9; GHA V ch.7 p.190).",
+      "reason": "Vague cite 'O'Fahey index' removed from Arabic; English cites GHA V/VI/Holt & Daly pages.",
+      "action": "Native reviewer: align Arabic with the English and its cites.",
+      "origin_commit": "QA vague-cite pass",
+      "added": "2026-10-25"
     }
   ]
 }

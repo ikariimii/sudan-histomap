@@ -20,7 +20,7 @@
  "totals": {
   "SINGLE-SOURCE": 251,
   "CONTESTED": 161,
-  "VERIFY": 36,
+  "VERIFY": 38,
   "REPORTED": 14,
   "MODEL": 109,
   "EDITORIAL": 67,
@@ -28,11 +28,11 @@
   "PARTIAL": 3,
   "DERIVED": 328
  },
- "grand_total": 1424,
+ "grand_total": 1426,
  "inline_totals": {
   "SINGLE-SOURCE": 22,
   "CONTESTED": 9,
-  "VERIFY": 2,
+  "VERIFY": 4,
   "REPORTED": 2,
   "MODEL": 0,
   "EDITORIAL": 0,
@@ -40,18 +40,18 @@
   "PARTIAL": 0,
   "DERIVED": 0
  },
- "inline_grand_total": 40,
+ "inline_grand_total": 42,
  "inline_method": "Exact bracketed tags [NAME] or [NAME: note] for the 9 badge names in data/eras/*.json text fields (excluding all.json, badge keys and Arabic _ar/ar fields); a tag is not counted when the enclosing object already has the same structured badge. Not included in totals/grand_total.",
  "source_types_totals": {
   "un_aid_agency": 35,
   "intl_financial": 24,
   "government": 50,
-  "scholarly": 237,
+  "scholarly": 238,
   "wikipedia_only": 75,
   "news": 5,
-  "other": 113
+  "other": 111
  },
- "source_types_grand_total": 539,
+ "source_types_grand_total": 538,
  "source_types_distinct_ids": {
   "un_aid_agency": 32,
   "intl_financial": 12,
@@ -59,7 +59,7 @@
   "scholarly": 70,
   "wikipedia_only": 74,
   "news": 4,
-  "other": 38
+  "other": 36
  },
  "source_types_method": "Per era: distinct registry IDs in data/eras/<id>.json sources, each classified once from data/periods.json meta.sources fields (publisher/author, then url domain, ISBN, note as fallback). Totals sum era counts (an ID cited by several eras counts once per era); source_types_distinct_ids counts each ID once overall. Rules in db/build_badge_counts.py header; unclear IDs -> other.",
  "eras_with_zero_badges": [],
@@ -990,12 +990,12 @@
     "un_aid_agency": 0,
     "intl_financial": 0,
     "government": 0,
-    "scholarly": 3,
+    "scholarly": 4,
     "wikipedia_only": 0,
     "news": 0,
     "other": 1
    },
-   "source_types_total": 4,
+   "source_types_total": 5,
    "counts": {
     "SINGLE-SOURCE": 29,
     "CONTESTED": 0,
@@ -1379,9 +1379,9 @@
     "scholarly": 3,
     "wikipedia_only": 0,
     "news": 0,
-    "other": 2
+    "other": 1
    },
-   "source_types_total": 5,
+   "source_types_total": 4,
    "counts": {
     "SINGLE-SOURCE": 4,
     "CONTESTED": 0,
@@ -1423,9 +1423,9 @@
     "scholarly": 6,
     "wikipedia_only": 0,
     "news": 0,
-    "other": 6
+    "other": 5
    },
-   "source_types_total": 13,
+   "source_types_total": 12,
    "counts": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 1,
@@ -2680,7 +2680,7 @@
    "counts": {
     "SINGLE-SOURCE": 17,
     "CONTESTED": 2,
-    "VERIFY": 3,
+    "VERIFY": 5,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 2,
@@ -2688,11 +2688,11 @@
     "PARTIAL": 0,
     "DERIVED": 15
    },
-   "total": 59,
+   "total": 61,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
-    "VERIFY": 0,
+    "VERIFY": 2,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
@@ -2700,7 +2700,7 @@
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "inline_total": 0,
+   "inline_total": 2,
    "files": [
     "data/eras/sultanate-of-darfur-keira.json",
     "db/ar_review_queue.json",

@@ -22,7 +22,7 @@
    },
    "category": "ancient",
    "founded": null,
-   "founded_reason": "GHA II dates only the classic Kerma phase (-1730 to -1580), not the foundation of the site",
+   "founded_reason": "SFDAS_HCS2017 p.69 dates Early Kerma from 2450 BCE (kingdom phases, not a foundation date of the site); GHA II's -1730/-1580 covers only the Classic phase",
    "abandoned": {
     "year": null,
     "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
@@ -31,17 +31,21 @@
     {
      "era_id": "kingdom-of-kerma",
      "role": "capital",
-     "start": -1730,
-     "end": -1580,
-     "source_id": "GHA2_CH9",
-     "page": "258",
-     "note": "classic Kerma phase as dated in GHA II"
+     "start": -2450,
+     "end": -1450,
+     "source_id": "SFDAS_HCS2017",
+     "page": "59, 69, 95",
+     "note": "Kerma kingdom 2450–1450 BCE: Early 2450–2050, Middle 2050–1750, Classic 1750–1550, Final 1550–1450 (SFDAS_HCS2017 p.69; chapter span p.59; city abandoned after c.1470 campaign, p.95)"
     }
    ],
    "history_en": "Capital of the Kerma kingdom of Upper Nubia.",
    "history_ar": "عاصمة مملكة كرمة في النوبة العليا.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "SFDAS_HCS2017",
+     "page": "59, 69, 95"
+    },
     {
      "id": "GHA2_CH9",
      "page": "258"
@@ -52,14 +56,14 @@
     }
    ],
    "first_attested": {
-    "year": -1730,
+    "year": -2450,
     "badge": "FIRST_ATTESTED",
-    "source_id": "GHA2_CH9",
-    "page": "258",
+    "source_id": "SFDAS_HCS2017",
+    "page": "69",
     "basis": "first cited era role (capital, kingdom-of-kerma) with stated start"
    },
    "map_from": {
-    "year": -1730,
+    "year": -2450,
     "basis": "first_attested"
    }
   },

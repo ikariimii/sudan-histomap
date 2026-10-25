@@ -7891,7 +7891,6 @@
     }
    ],
    "sources": [
-    "KERMA_MISSION",
     "GHA2_CH19",
     "SFDAS_HCS2017"
    ],
@@ -7905,16 +7904,13 @@
    "how_we_know": {
     "sources": [
      {
-      "id": "KERMA_MISSION",
-      "title": "History (Kerma chronology)"
-     },
-     {
       "id": "GHA2_CH19",
       "title": "The Roman and post-Roman period in North Africa, ch.19 (General History of Africa II)"
      },
      {
       "id": "SFDAS_HCS2017",
-      "title": "Histoire et civilisations du Soudan, de la Préhistoire à nos jours"
+      "title": "Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+      "pages": "pp.56, 59, 69, 80, 91–92, 95"
      }
     ],
     "zones": [],
@@ -8133,9 +8129,10 @@
     "GHA2_CH19",
     "WHC1336",
     "WELSBY1996",
-    "EDWARDS2011"
+    "EDWARDS2011",
+    "SFDAS_HCS2017"
    ],
-   "dating_note": "Meroitic chronology uncertain (GHA II: 'particularly serious' for 2nd–1st c. BCE). Which kandake negotiated with Rome (Amanirenas vs Amanishakheto) is unresolved in GHA. End placed in the 4th century CE (350 is a placeholder year); cause debated: GHA II ascribes the overthrow to the Noba and concludes the kingdom 'had already collapsed at the time of Ezana's campaign'.",
+   "dating_note": "Meroitic chronology uncertain (GHA II: 'particularly serious' for 2nd–1st c. BCE). Which kandake negotiated with Rome (Amanirenas vs Amanishakheto) is unresolved in GHA. End placed in the 4th century CE (350 is a placeholder year); cause debated: GHA II ascribes the overthrow to the Noba and concludes the kingdom 'had already collapsed at the time of Ezana's campaign'. SFDAS_HCS2017 p.325 places the end c.330–350 CE.",
    "key_events_ar": [
     "أرجامنيس/أركاماني (القرن الثالث ق.م)، علاقات ودية مع مصر البطلمية",
     "الملكة شنكداخيتي (نحو 170–160 ق.م): من أقدم النقوش المروية الهيروغليفية (النقعة)",
@@ -8170,11 +8167,16 @@
      {
       "id": "EDWARDS2011",
       "title": "From Meroe to 'Nubia': exploring culture change without the 'Noba'"
+     },
+     {
+      "id": "SFDAS_HCS2017",
+      "title": "Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+      "pages": "pp.211, 230, 282, 325, 344"
      }
     ],
     "zones": [],
     "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
-    "dating": "Meroitic chronology uncertain (GHA II: 'particularly serious' for 2nd–1st c. BCE). Which kandake negotiated with Rome (Amanirenas vs Amanishakheto) is unresolved in GHA. End placed in the 4th century CE (350 is a placeholder year); cause debated: GHA II ascribes the overthrow to the Noba and concludes the kingdom 'had already collapsed at the time of Ezana's campaign'."
+    "dating": "Meroitic chronology uncertain (GHA II: 'particularly serious' for 2nd–1st c. BCE). Which kandake negotiated with Rome (Amanirenas vs Amanishakheto) is unresolved in GHA. End placed in the 4th century CE (350 is a placeholder year); cause debated: GHA II ascribes the overthrow to the Noba and concludes the kingdom 'had already collapsed at the time of Ezana's campaign'. SFDAS_HCS2017 p.325 places the end c.330–350 CE."
    }
   },
   {
@@ -8445,9 +8447,10 @@
    "sources": [
     "HD2011",
     "SPAULDING1985",
-    "GHA5_CH7"
+    "GHA5_CH7",
+    "GHA6_CH14"
    ],
-   "dating_note": "1504–1821: Funj victory over the 'Abdallabi at Arbaji in 1504 (GHA V ch.7 p.173); Turco-Egyptian forces take Sennar in 1821 (GHA V ch.7 p.185). Foundation by a Shilluk band is a tradition, not established fact [NO-SOURCE: no page read].",
+   "dating_note": "1504–1821: Funj victory over the 'Abdallabi at Arbaji in 1504 (GHA V ch.7 p.173); Turco-Egyptian forces take Sennar in 1821 (GHA V ch.7 p.185; GHA VI ch.14 p.356: the Sennar rulers 'capitulated to the Turkish rulers in 1821' after the sultanate's disintegration into 'weak and hostile shaykhdoms'). Foundation by a Shilluk band is a tradition, not established fact [NO-SOURCE: no page read].",
    "key_events_ar": [
     "أسسها عمارة دنقس 1504 [يحتاج تحقق]",
     "انتشار الإسلام والطرق الصوفية [يحتاج تحقق]",
@@ -8470,6 +8473,11 @@
       "id": "HD2011",
       "title": "A History of the Sudan: From the Coming of Islam to the Present Day",
       "pages": "GHA IV ch.16 p.406"
+     },
+     {
+      "id": "GHA6_CH14",
+      "title": "The Sudan in the nineteenth century, ch.14 (General History of Africa VI)",
+      "pages": "p.356"
      }
     ],
     "zones": [
@@ -9162,7 +9170,7 @@
    "end": 1874,
    "prominence": 0.55,
    "key_events": [
-    "Fur dynasty from around Jabal Marra; Sulayman Solongdungu probably the founder; the Kayra sultanate flourished c.1640–1874, restored 1898, annexed 1916 (GHA V ch.7 p.187); O'Fahey dates it c.1650–1916",
+    "Fur dynasty from around Jabal Marra; Sulayman Solongdungu probably the founder; the Kayra sultanate flourished c.1640–1874, restored 1898, annexed 1916 (GHA V ch.7 p.187); O'Fahey dates it c.1650–1916 [VERIFY: O'Fahey 2008 page not confirmed]",
     "Muhammad Tayrab takes Kordofan from the Musabba'at; it stays with the Fur until the Turco-Egyptian conquest (GHA V ch.7 p.189)",
     "Permanent capital grows at al-Fashir under 'Abd al-Rahman (d. 1801–2) (GHA V ch.7 pp.190–191)",
     "Sultan Ibrahim defeated and killed by al-Zubayr at Manawashi, 1874; Darfur annexed to the Turco-Egyptian regime (GHA VI ch.14 p.371)"
@@ -9180,7 +9188,7 @@
     "GHA5_CH7",
     "GHA6_CH14"
    ],
-   "dating_note": "Start corrected 1603→c.1650 (O'Fahey 2008). Older chronologies place Sulayman earlier; founding date genuinely uncertain. El Fasher date c.1790–91.",
+   "dating_note": "Start corrected 1603→c.1650 (O'Fahey 2008) [VERIFY: O'Fahey 2008 page not confirmed]; GHA V ch.7 p.187 gives c.1640. GHA VI ch.14 p.356: the Kayra 'ruled Därfür until 1874'. Older chronologies place Sulayman earlier; founding date genuinely uncertain. El Fasher date c.1790–91.",
    "key_events_ar": [
     "أسرة الكيرا من جبل مرة؛ المؤسس سليمان (سولونج) – يؤرخ أوفاهي السلطنة بنحو 1650–1916 [يحتاج تحقق]",
     "التوسع في كردفان في عهد محمد تيراب نحو 1785 [يحتاج تحقق]",
@@ -9201,11 +9209,16 @@
       "id": "WP:Sultanate_of_Darfur",
       "title": "Sultanate of Darfur",
       "kind": "tertiary (Wikipedia)"
+     },
+     {
+      "id": "GHA6_CH14",
+      "title": "The Sudan in the nineteenth century, ch.14 (General History of Africa VI)",
+      "pages": "pp.356, 371"
      }
     ],
     "zones": [],
     "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
-    "dating": "Start corrected 1603→c.1650 (O'Fahey 2008). Older chronologies place Sulayman earlier; founding date genuinely uncertain. El Fasher date c.1790–91."
+    "dating": "Start corrected 1603→c.1650 (O'Fahey 2008) [VERIFY: O'Fahey 2008 page not confirmed]; GHA V ch.7 p.187 gives c.1640. GHA VI ch.14 p.356: the Kayra 'ruled Därfür until 1874'. Older chronologies place Sulayman earlier; founding date genuinely uncertain. El Fasher date c.1790–91."
    }
   },
   {
