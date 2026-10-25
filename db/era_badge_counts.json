@@ -15,20 +15,20 @@
    "DERIVED"
   ],
   "era_count": 68,
-  "files_scanned": 291
+  "files_scanned": 295
  },
  "totals": {
-  "SINGLE-SOURCE": 192,
-  "CONTESTED": 128,
+  "SINGLE-SOURCE": 218,
+  "CONTESTED": 161,
   "VERIFY": 1,
-  "REPORTED": 10,
+  "REPORTED": 14,
   "MODEL": 109,
-  "EDITORIAL": 44,
-  "APPROXIMATE": 256,
+  "EDITORIAL": 67,
+  "APPROXIMATE": 441,
   "PARTIAL": 3,
-  "DERIVED": 168
+  "DERIVED": 322
  },
- "grand_total": 911,
+ "grand_total": 1336,
  "inline_totals": {
   "SINGLE-SOURCE": 22,
   "CONTESTED": 9,
@@ -42,21 +42,51 @@
  },
  "inline_grand_total": 45,
  "inline_method": "Exact bracketed tags [NAME] or [NAME: note] for the 9 badge names in data/eras/*.json text fields (excluding all.json, badge keys and Arabic _ar/ar fields); a tag is not counted when the enclosing object already has the same structured badge. Not included in totals/grand_total.",
+ "source_types_totals": {
+  "un_aid_agency": 30,
+  "intl_financial": 23,
+  "government": 50,
+  "scholarly": 232,
+  "wikipedia_only": 89,
+  "news": 5,
+  "other": 110
+ },
+ "source_types_grand_total": 539,
+ "source_types_distinct_ids": {
+  "un_aid_agency": 28,
+  "intl_financial": 11,
+  "government": 39,
+  "scholarly": 71,
+  "wikipedia_only": 86,
+  "news": 4,
+  "other": 37
+ },
+ "source_types_method": "Per era: distinct registry IDs in data/eras/<id>.json sources, each classified once from data/periods.json meta.sources fields (publisher/author, then url domain, ISBN, note as fallback). Totals sum era counts (an ID cited by several eras counts once per era); source_types_distinct_ids counts each ID once overall. Rules in db/build_badge_counts.py header; unclear IDs -> other.",
  "eras_with_zero_badges": [],
  "eras": {
   "a-group-lower-nubia": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 3,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 3,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 2,
-    "EDITORIAL": 1,
-    "APPROXIMATE": 3,
+    "EDITORIAL": 2,
+    "APPROXIMATE": 5,
     "PARTIAL": 0,
-    "DERIVED": 0
+    "DERIVED": 1
    },
-   "total": 8,
+   "total": 13,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -71,11 +101,23 @@
    "inline_total": 0,
    "files": [
     "data/eras/a-group-lower-nubia.json",
+    "db/era_economy.json",
     "db/extents/a-group-lower-nubia.geojson",
+    "db/map_sources.json",
     "db/population.json"
    ]
   },
   "abboud-military-regime": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 1,
+    "government": 1,
+    "scholarly": 4,
+    "wikipedia_only": 2,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 9,
    "counts": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 0,
@@ -106,18 +148,28 @@
    ]
   },
   "abdallab-chiefdom-funj-vassal": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 2,
+    "wikipedia_only": 0,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 3,
    "counts": {
-    "SINGLE-SOURCE": 3,
-    "CONTESTED": 2,
+    "SINGLE-SOURCE": 6,
+    "CONTESTED": 4,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
-    "EDITORIAL": 4,
-    "APPROXIMATE": 6,
+    "EDITORIAL": 8,
+    "APPROXIMATE": 11,
     "PARTIAL": 0,
-    "DERIVED": 0
+    "DERIVED": 1
    },
-   "total": 15,
+   "total": 30,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -132,22 +184,34 @@
    "inline_total": 0,
    "files": [
     "data/eras/abdallab-chiefdom-funj-vassal.json",
-    "db/extents/abdallab-chiefdom-funj-vassal.geojson"
+    "db/era_economy.json",
+    "db/extents/abdallab-chiefdom-funj-vassal.geojson",
+    "db/map_sources.json"
    ]
   },
   "al-bashir-ncp-ingaz-regime": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 1,
+    "government": 1,
+    "scholarly": 1,
+    "wikipedia_only": 7,
+    "news": 0,
+    "other": 8
+   },
+   "source_types_total": 18,
    "counts": {
     "SINGLE-SOURCE": 3,
-    "CONTESTED": 24,
+    "CONTESTED": 29,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 4,
     "EDITORIAL": 3,
-    "APPROXIMATE": 5,
+    "APPROXIMATE": 12,
     "PARTIAL": 0,
-    "DERIVED": 4
+    "DERIVED": 7
    },
-   "total": 43,
+   "total": 58,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -166,22 +230,34 @@
     "db/extents/al-bashir-ncp-ingaz-regime.geojson",
     "db/extents_historic.json",
     "db/extents_notes_fill_ss2011.json",
-    "db/population.json"
+    "db/map_sources.json",
+    "db/population.json",
+    "db/trade_routes/al-bashir-ncp-ingaz-regime.geojson"
    ]
   },
   "alodia-alwa": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 5,
+    "wikipedia_only": 2,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 8,
    "counts": {
     "SINGLE-SOURCE": 7,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 12,
-    "EDITORIAL": 2,
-    "APPROXIMATE": 6,
+    "EDITORIAL": 4,
+    "APPROXIMATE": 9,
     "PARTIAL": 0,
-    "DERIVED": 1
+    "DERIVED": 3
    },
-   "total": 28,
+   "total": 35,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -196,27 +272,39 @@
    "inline_total": 0,
    "files": [
     "data/eras/alodia-alwa.json",
+    "db/era_economy.json",
     "db/era_fill_hist20.json",
     "db/extents/alodia-alwa.geojson",
     "db/group_layers/alodia-alwa.geojson",
     "db/groups.json",
+    "db/map_sources.json",
     "db/population.json",
     "db/relations.json"
    ]
   },
   "anglo-egyptian-sudan-condominium": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 3,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 2
+   },
+   "source_types_total": 6,
    "counts": {
-    "SINGLE-SOURCE": 11,
+    "SINGLE-SOURCE": 12,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 3,
-    "APPROXIMATE": 10,
+    "APPROXIMATE": 17,
     "PARTIAL": 0,
-    "DERIVED": 7
+    "DERIVED": 13
    },
-   "total": 33,
+   "total": 47,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -235,12 +323,23 @@
     "db/extents/anglo-egyptian-sudan-condominium.geojson",
     "db/group_layers/anglo-egyptian-sudan-condominium.geojson",
     "db/groups.json",
+    "db/map_sources.json",
     "db/population.json",
     "db/relations.json",
     "db/trade_routes/anglo-egyptian-sudan-condominium.geojson"
    ]
   },
   "anuak-anywaa-communities": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 1,
+    "scholarly": 3,
+    "wikipedia_only": 0,
+    "news": 0,
+    "other": 2
+   },
+   "source_types_total": 6,
    "counts": {
     "SINGLE-SOURCE": 3,
     "CONTESTED": 0,
@@ -248,11 +347,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 4,
+    "APPROXIMATE": 5,
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "total": 7,
+   "total": 8,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -268,10 +367,21 @@
    "files": [
     "data/eras/anuak-anywaa-communities.json",
     "db/era_fill_modern4.json",
-    "db/extents/anuak-anywaa-communities.geojson"
+    "db/extents/anuak-anywaa-communities.geojson",
+    "db/map_sources.json"
    ]
   },
   "beja-red-sea-hills-peoples": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 3,
+    "wikipedia_only": 0,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 4,
    "counts": {
     "SINGLE-SOURCE": 3,
     "CONTESTED": 0,
@@ -279,11 +389,11 @@
     "REPORTED": 2,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 3,
+    "APPROXIMATE": 4,
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "total": 8,
+   "total": 9,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -301,10 +411,21 @@
     "db/era_anchor_fill_hist23.json",
     "db/extents/beja-red-sea-hills-peoples.geojson",
     "db/groups.json",
+    "db/map_sources.json",
     "db/relations.json"
    ]
   },
   "bornu-empire": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 6,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 8,
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -312,11 +433,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 1,
+    "APPROXIMATE": 2,
     "PARTIAL": 0,
-    "DERIVED": 2
+    "DERIVED": 4
    },
-   "total": 3,
+   "total": 6,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -331,10 +452,22 @@
    "inline_total": 0,
    "files": [
     "data/eras/bornu-empire.json",
-    "db/extents/bornu-empire.geojson"
+    "db/era_economy.json",
+    "db/extents/bornu-empire.geojson",
+    "db/map_sources.json"
    ]
   },
   "british-occupied-kingdom-of-egypt": {
+   "source_types": {
+    "un_aid_agency": 1,
+    "intl_financial": 0,
+    "government": 3,
+    "scholarly": 3,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 9,
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -342,11 +475,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 5,
+    "APPROXIMATE": 10,
     "PARTIAL": 0,
-    "DERIVED": 6
+    "DERIVED": 12
    },
-   "total": 11,
+   "total": 22,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 1,
@@ -361,22 +494,34 @@
    "inline_total": 1,
    "files": [
     "data/eras/british-occupied-kingdom-of-egypt.json",
-    "db/extents/british-occupied-kingdom-of-egypt.geojson"
+    "db/era_economy.json",
+    "db/extents/british-occupied-kingdom-of-egypt.geojson",
+    "db/map_sources.json"
    ]
   },
   "c-group-lower-nubia": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 3,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 2
+   },
+   "source_types_total": 6,
    "counts": {
-    "SINGLE-SOURCE": 3,
+    "SINGLE-SOURCE": 4,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 2,
-    "EDITORIAL": 1,
-    "APPROXIMATE": 4,
+    "EDITORIAL": 2,
+    "APPROXIMATE": 6,
     "PARTIAL": 0,
-    "DERIVED": 0
+    "DERIVED": 1
    },
-   "total": 10,
+   "total": 15,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -392,11 +537,23 @@
    "files": [
     "data/eras/c-group-lower-nubia.json",
     "db/era_anchor_fill_hist23.json",
+    "db/era_economy.json",
     "db/extents/c-group-lower-nubia.geojson",
+    "db/map_sources.json",
     "db/population.json"
    ]
   },
   "central-african-republic-ubangi-shari": {
+   "source_types": {
+    "un_aid_agency": 1,
+    "intl_financial": 1,
+    "government": 0,
+    "scholarly": 2,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 4
+   },
+   "source_types_total": 9,
    "counts": {
     "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
@@ -404,11 +561,11 @@
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
-    "APPROXIMATE": 6,
+    "APPROXIMATE": 11,
     "PARTIAL": 0,
-    "DERIVED": 3
+    "DERIVED": 5
    },
-   "total": 14,
+   "total": 21,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -424,22 +581,33 @@
    "files": [
     "data/eras/central-african-republic-ubangi-shari.json",
     "db/extents/central-african-republic-ubangi-shari.geojson",
+    "db/map_sources.json",
     "db/population.json"
    ]
   },
   "daju-kingdom": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 5,
+    "wikipedia_only": 2,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 8,
    "counts": {
     "SINGLE-SOURCE": 2,
     "CONTESTED": 1,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
-    "EDITORIAL": 1,
-    "APPROXIMATE": 3,
+    "EDITORIAL": 2,
+    "APPROXIMATE": 5,
     "PARTIAL": 0,
-    "DERIVED": 1
+    "DERIVED": 3
    },
-   "total": 8,
+   "total": 13,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -454,23 +622,35 @@
    "inline_total": 0,
    "files": [
     "data/eras/daju-kingdom.json",
+    "db/era_economy.json",
     "db/era_fill_hist20.json",
-    "db/extents/daju-kingdom.geojson"
+    "db/extents/daju-kingdom.geojson",
+    "db/map_sources.json"
    ]
   },
   "december-revolution-transition": {
+   "source_types": {
+    "un_aid_agency": 1,
+    "intl_financial": 4,
+    "government": 0,
+    "scholarly": 1,
+    "wikipedia_only": 2,
+    "news": 2,
+    "other": 4
+   },
+   "source_types_total": 14,
    "counts": {
     "SINGLE-SOURCE": 4,
-    "CONTESTED": 18,
+    "CONTESTED": 23,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 0,
-    "APPROXIMATE": 4,
+    "APPROXIMATE": 8,
     "PARTIAL": 0,
-    "DERIVED": 3
+    "DERIVED": 5
    },
-   "total": 31,
+   "total": 42,
    "inline_badges": {
     "SINGLE-SOURCE": 4,
     "CONTESTED": 0,
@@ -489,22 +669,33 @@
     "db/extents/december-revolution-transition.geojson",
     "db/extents_historic.json",
     "db/extents_notes_fill_ss2011.json",
+    "db/map_sources.json",
     "db/population.json"
    ]
   },
   "derg-federal-ethiopia": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 1,
+    "government": 4,
+    "scholarly": 2,
+    "wikipedia_only": 2,
+    "news": 0,
+    "other": 4
+   },
+   "source_types_total": 13,
    "counts": {
     "SINGLE-SOURCE": 2,
-    "CONTESTED": 3,
+    "CONTESTED": 5,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
-    "APPROXIMATE": 2,
+    "APPROXIMATE": 4,
     "PARTIAL": 0,
-    "DERIVED": 3
+    "DERIVED": 5
    },
-   "total": 13,
+   "total": 19,
    "inline_badges": {
     "SINGLE-SOURCE": 3,
     "CONTESTED": 1,
@@ -521,10 +712,21 @@
     "data/eras/derg-federal-ethiopia.json",
     "db/era_economy.json",
     "db/extents/derg-federal-ethiopia.geojson",
+    "db/map_sources.json",
     "db/population.json"
    ]
   },
   "dinka-jieng-communities": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 3,
+    "wikipedia_only": 0,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 4,
    "counts": {
     "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
@@ -532,40 +734,9 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 4,
+    "APPROXIMATE": 5,
     "PARTIAL": 0,
     "DERIVED": 0
-   },
-   "total": 6,
-   "inline_badges": {
-    "SINGLE-SOURCE": 0,
-    "CONTESTED": 0,
-    "VERIFY": 0,
-    "REPORTED": 0,
-    "MODEL": 0,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 0,
-    "PARTIAL": 0,
-    "DERIVED": 0
-   },
-   "inline_total": 0,
-   "files": [
-    "data/eras/dinka-jieng-communities.json",
-    "db/era_fill_hist20.json",
-    "db/extents/dinka-jieng-communities.geojson"
-   ]
-  },
-  "early-dynastic-old-kingdom-egypt": {
-   "counts": {
-    "SINGLE-SOURCE": 0,
-    "CONTESTED": 2,
-    "VERIFY": 0,
-    "REPORTED": 0,
-    "MODEL": 0,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 2,
-    "PARTIAL": 0,
-    "DERIVED": 3
    },
    "total": 7,
    "inline_badges": {
@@ -581,24 +752,78 @@
    },
    "inline_total": 0,
    "files": [
-    "data/eras/early-dynastic-old-kingdom-egypt.json",
+    "data/eras/dinka-jieng-communities.json",
     "db/era_fill_hist20.json",
-    "db/extents/early-dynastic-old-kingdom-egypt.geojson"
+    "db/extents/dinka-jieng-communities.geojson",
+    "db/map_sources.json"
+   ]
+  },
+  "early-dynastic-old-kingdom-egypt": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 5,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 7,
+   "counts": {
+    "SINGLE-SOURCE": 0,
+    "CONTESTED": 2,
+    "VERIFY": 0,
+    "REPORTED": 0,
+    "MODEL": 0,
+    "EDITORIAL": 0,
+    "APPROXIMATE": 4,
+    "PARTIAL": 0,
+    "DERIVED": 6
+   },
+   "total": 12,
+   "inline_badges": {
+    "SINGLE-SOURCE": 0,
+    "CONTESTED": 0,
+    "VERIFY": 0,
+    "REPORTED": 0,
+    "MODEL": 0,
+    "EDITORIAL": 0,
+    "APPROXIMATE": 0,
+    "PARTIAL": 0,
+    "DERIVED": 0
+   },
+   "inline_total": 0,
+   "files": [
+    "data/eras/early-dynastic-old-kingdom-egypt.json",
+    "db/era_economy.json",
+    "db/era_fill_hist20.json",
+    "db/extents/early-dynastic-old-kingdom-egypt.geojson",
+    "db/map_sources.json"
    ]
   },
   "egyptian-new-kingdom-rule-in-nubia": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 3,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 3,
+    "SINGLE-SOURCE": 4,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 0,
-    "APPROXIMATE": 5,
+    "APPROXIMATE": 10,
     "PARTIAL": 0,
-    "DERIVED": 4
+    "DERIVED": 7
    },
-   "total": 14,
+   "total": 23,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -615,22 +840,33 @@
     "data/eras/egyptian-new-kingdom-rule-in-nubia.json",
     "db/era_economy.json",
     "db/extents/egyptian-new-kingdom-rule-in-nubia.geojson",
+    "db/map_sources.json",
     "db/population.json"
    ]
   },
   "eritrea-italian-colony-independent": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 1,
+    "government": 4,
+    "scholarly": 2,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 6
+   },
+   "source_types_total": 14,
    "counts": {
     "SINGLE-SOURCE": 0,
-    "CONTESTED": 2,
+    "CONTESTED": 3,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
-    "APPROXIMATE": 6,
+    "APPROXIMATE": 11,
     "PARTIAL": 0,
-    "DERIVED": 6
+    "DERIVED": 11
    },
-   "total": 17,
+   "total": 28,
    "inline_badges": {
     "SINGLE-SOURCE": 3,
     "CONTESTED": 0,
@@ -646,10 +882,21 @@
    "files": [
     "data/eras/eritrea-italian-colony-independent.json",
     "db/extents/eritrea-italian-colony-independent.geojson",
+    "db/map_sources.json",
     "db/population.json"
    ]
   },
   "ethiopian-empire-solomonic": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 8,
+    "wikipedia_only": 2,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 11,
    "counts": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 0,
@@ -657,11 +904,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 7,
+    "APPROXIMATE": 14,
     "PARTIAL": 3,
-    "DERIVED": 8
+    "DERIVED": 15
    },
-   "total": 19,
+   "total": 33,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -677,22 +924,33 @@
    "files": [
     "data/eras/ethiopian-empire-solomonic.json",
     "db/extents/ethiopian-empire-solomonic.geojson",
+    "db/map_sources.json",
     "db/regional_power_scores_post1900.json"
    ]
   },
   "french-chad-republic-of-chad": {
+   "source_types": {
+    "un_aid_agency": 2,
+    "intl_financial": 1,
+    "government": 4,
+    "scholarly": 2,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 2
+   },
+   "source_types_total": 12,
    "counts": {
     "SINGLE-SOURCE": 0,
-    "CONTESTED": 2,
+    "CONTESTED": 3,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
-    "APPROXIMATE": 6,
+    "APPROXIMATE": 11,
     "PARTIAL": 0,
-    "DERIVED": 2
+    "DERIVED": 3
    },
-   "total": 13,
+   "total": 20,
    "inline_badges": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 1,
@@ -708,22 +966,33 @@
    "files": [
     "data/eras/french-chad-republic-of-chad.json",
     "db/extents/french-chad-republic-of-chad.geojson",
+    "db/map_sources.json",
     "db/population.json"
    ]
   },
   "funj-sultanate-of-sennar": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 2,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 4,
    "counts": {
-    "SINGLE-SOURCE": 28,
+    "SINGLE-SOURCE": 29,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 2,
     "MODEL": 3,
-    "EDITORIAL": 1,
-    "APPROXIMATE": 17,
+    "EDITORIAL": 2,
+    "APPROXIMATE": 24,
     "PARTIAL": 0,
-    "DERIVED": 6
+    "DERIVED": 12
    },
-   "total": 57,
+   "total": 72,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -738,14 +1007,26 @@
    "inline_total": 1,
    "files": [
     "data/eras/funj-sultanate-of-sennar.json",
+    "db/era_economy.json",
     "db/extents/funj-sultanate-of-sennar.geojson",
     "db/group_layers/funj-sultanate-of-sennar.geojson",
     "db/groups.json",
+    "db/map_sources.json",
     "db/population.json",
     "db/relations.json"
    ]
   },
   "garamantes-fezzan": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 3,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 5,
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -753,11 +1034,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 2,
+    "APPROXIMATE": 3,
     "PARTIAL": 0,
-    "DERIVED": 0
+    "DERIVED": 1
    },
-   "total": 2,
+   "total": 4,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -772,10 +1053,22 @@
    "inline_total": 0,
    "files": [
     "data/eras/garamantes-fezzan.json",
-    "db/extents/garamantes-fezzan.geojson"
+    "db/era_economy.json",
+    "db/extents/garamantes-fezzan.geojson",
+    "db/map_sources.json"
    ]
   },
   "independent-sudan-first-parliamentary-period": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 1,
+    "government": 0,
+    "scholarly": 2,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 5,
    "counts": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 0,
@@ -806,6 +1099,16 @@
    ]
   },
   "islamic-egypt-rashidunfatimidayyubid": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 5,
+    "wikipedia_only": 2,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 8,
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -813,11 +1116,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 2,
+    "APPROXIMATE": 4,
     "PARTIAL": 0,
-    "DERIVED": 3
+    "DERIVED": 6
    },
-   "total": 5,
+   "total": 10,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -832,22 +1135,34 @@
    "inline_total": 0,
    "files": [
     "data/eras/islamic-egypt-rashidunfatimidayyubid.json",
-    "db/extents/islamic-egypt-rashidunfatimidayyubid.geojson"
+    "db/era_economy.json",
+    "db/extents/islamic-egypt-rashidunfatimidayyubid.geojson",
+    "db/map_sources.json"
    ]
   },
   "ja-aliyyin-kingdom-sa-dab-funj-vassal": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 1,
+    "wikipedia_only": 0,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 2,
    "counts": {
     "SINGLE-SOURCE": 5,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
-    "EDITORIAL": 1,
-    "APPROXIMATE": 6,
+    "EDITORIAL": 2,
+    "APPROXIMATE": 9,
     "PARTIAL": 0,
-    "DERIVED": 1
+    "DERIVED": 2
    },
-   "total": 13,
+   "total": 18,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -862,13 +1177,25 @@
    "inline_total": 0,
    "files": [
     "data/eras/ja-aliyyin-kingdom-sa-dab-funj-vassal.json",
+    "db/era_economy.json",
     "db/extents/ja-aliyyin-kingdom-sa-dab-funj-vassal.geojson",
     "db/group_layers/ja-aliyyin-kingdom-sa-dab-funj-vassal.geojson",
     "db/groups.json",
+    "db/map_sources.json",
     "db/relations.json"
    ]
   },
   "kanem-empire": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 4,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 6,
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -876,11 +1203,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 1,
+    "APPROXIMATE": 2,
     "PARTIAL": 0,
-    "DERIVED": 2
+    "DERIVED": 4
    },
-   "total": 3,
+   "total": 6,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -895,10 +1222,22 @@
    "inline_total": 0,
    "files": [
     "data/eras/kanem-empire.json",
-    "db/extents/kanem-empire.geojson"
+    "db/era_economy.json",
+    "db/extents/kanem-empire.geojson",
+    "db/map_sources.json"
    ]
   },
   "khartoum-mesolithic-early-khartoum": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 1,
+    "wikipedia_only": 0,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 2,
    "counts": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 2,
@@ -930,18 +1269,28 @@
    ]
   },
   "khartoum-neolithic-shaheinab": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 1,
+    "wikipedia_only": 2,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 4,
    "counts": {
-    "SINGLE-SOURCE": 4,
+    "SINGLE-SOURCE": 5,
     "CONTESTED": 2,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 0,
-    "APPROXIMATE": 2,
+    "APPROXIMATE": 3,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 11,
+   "total": 13,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -959,10 +1308,21 @@
     "db/era_anchor_fill_hist23b.json",
     "db/era_fill_hist20.json",
     "db/extents/khartoum-neolithic-shaheinab.geojson",
+    "db/map_sources.json",
     "db/population.json"
    ]
   },
   "kingdom-of-aksum": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 4,
+    "wikipedia_only": 2,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 7,
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 1,
@@ -970,11 +1330,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 5,
+    "APPROXIMATE": 10,
     "PARTIAL": 0,
-    "DERIVED": 6
+    "DERIVED": 12
    },
-   "total": 12,
+   "total": 23,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -989,22 +1349,34 @@
    "inline_total": 0,
    "files": [
     "data/eras/kingdom-of-aksum.json",
-    "db/extents/kingdom-of-aksum.geojson"
+    "db/era_economy.json",
+    "db/extents/kingdom-of-aksum.geojson",
+    "db/map_sources.json"
    ]
   },
   "kingdom-of-kerma": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 3,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 2
+   },
+   "source_types_total": 6,
    "counts": {
-    "SINGLE-SOURCE": 1,
+    "SINGLE-SOURCE": 4,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 2,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 1,
+    "EDITORIAL": 3,
+    "APPROXIMATE": 2,
     "PARTIAL": 0,
-    "DERIVED": 2
+    "DERIVED": 3
    },
-   "total": 6,
+   "total": 14,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1019,23 +1391,35 @@
    "inline_total": 0,
    "files": [
     "data/eras/kingdom-of-kerma.json",
+    "db/era_economy.json",
     "db/extents/kingdom-of-kerma.geojson",
+    "db/map_sources.json",
     "db/population.json"
    ]
   },
   "kingdom-of-kush-meroitic-period": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 1,
+    "scholarly": 5,
+    "wikipedia_only": 3,
+    "news": 0,
+    "other": 6
+   },
+   "source_types_total": 15,
    "counts": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 1,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 5,
-    "EDITORIAL": 3,
-    "APPROXIMATE": 5,
+    "EDITORIAL": 4,
+    "APPROXIMATE": 10,
     "PARTIAL": 0,
-    "DERIVED": 6
+    "DERIVED": 11
    },
-   "total": 21,
+   "total": 32,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1052,22 +1436,33 @@
     "data/eras/kingdom-of-kush-meroitic-period.json",
     "db/era_economy.json",
     "db/extents/kingdom-of-kush-meroitic-period.geojson",
+    "db/map_sources.json",
     "db/population.json"
    ]
   },
   "kingdom-of-kush-napatan-period": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 1,
+    "scholarly": 6,
+    "wikipedia_only": 2,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 10,
    "counts": {
-    "SINGLE-SOURCE": 1,
+    "SINGLE-SOURCE": 4,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 3,
-    "EDITORIAL": 1,
-    "APPROXIMATE": 3,
+    "EDITORIAL": 4,
+    "APPROXIMATE": 6,
     "PARTIAL": 0,
-    "DERIVED": 4
+    "DERIVED": 7
    },
-   "total": 12,
+   "total": 24,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1082,24 +1477,36 @@
    "inline_total": 0,
    "files": [
     "data/eras/kingdom-of-kush-napatan-period.json",
+    "db/era_economy.json",
     "db/extents/kingdom-of-kush-napatan-period.geojson",
+    "db/map_sources.json",
     "db/population.json",
     "db/regional_power_scores_proposal.json"
    ]
   },
   "kingdom-of-taqali": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 3,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 5,
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 2,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
-    "EDITORIAL": 1,
-    "APPROXIMATE": 3,
+    "EDITORIAL": 2,
+    "APPROXIMATE": 5,
     "PARTIAL": 0,
-    "DERIVED": 1
+    "DERIVED": 2
    },
-   "total": 7,
+   "total": 11,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1115,10 +1522,21 @@
    "files": [
     "data/eras/kingdom-of-taqali.json",
     "db/era_fill_hist20.json",
-    "db/extents/kingdom-of-taqali.geojson"
+    "db/extents/kingdom-of-taqali.geojson",
+    "db/map_sources.json"
    ]
   },
   "land-of-punt-d-mt": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 3,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 5,
    "counts": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 1,
@@ -1126,11 +1544,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 2,
+    "APPROXIMATE": 3,
     "PARTIAL": 0,
-    "DERIVED": 0
+    "DERIVED": 1
    },
-   "total": 4,
+   "total": 6,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1145,10 +1563,22 @@
    "inline_total": 0,
    "files": [
     "data/eras/land-of-punt-d-mt.json",
-    "db/extents/land-of-punt-d-mt.geojson"
+    "db/era_economy.json",
+    "db/extents/land-of-punt-d-mt.geojson",
+    "db/map_sources.json"
    ]
   },
   "late-period-persian-egypt": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 4,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 6,
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1156,11 +1586,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 2,
+    "APPROXIMATE": 3,
     "PARTIAL": 0,
-    "DERIVED": 1
+    "DERIVED": 3
    },
-   "total": 3,
+   "total": 6,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1175,22 +1605,34 @@
    "inline_total": 0,
    "files": [
     "data/eras/late-period-persian-egypt.json",
-    "db/extents/late-period-persian-egypt.geojson"
+    "db/era_economy.json",
+    "db/extents/late-period-persian-egypt.geojson",
+    "db/map_sources.json"
    ]
   },
   "libya-ottoman-italian-independent": {
+   "source_types": {
+    "un_aid_agency": 2,
+    "intl_financial": 1,
+    "government": 4,
+    "scholarly": 3,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 12,
    "counts": {
     "SINGLE-SOURCE": 4,
-    "CONTESTED": 1,
+    "CONTESTED": 2,
     "VERIFY": 0,
     "REPORTED": 1,
     "MODEL": 3,
     "EDITORIAL": 0,
-    "APPROXIMATE": 6,
+    "APPROXIMATE": 11,
     "PARTIAL": 0,
-    "DERIVED": 4
+    "DERIVED": 7
    },
-   "total": 19,
+   "total": 28,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1207,22 +1649,33 @@
     "data/eras/libya-ottoman-italian-independent.json",
     "db/era_fill_modern4.json",
     "db/extents/libya-ottoman-italian-independent.geojson",
+    "db/map_sources.json",
     "db/population.json"
    ]
   },
   "mahdist-state-mahdiyya": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 2,
+    "wikipedia_only": 2,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 3,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 1,
     "MODEL": 0,
     "EDITORIAL": 1,
-    "APPROXIMATE": 1,
+    "APPROXIMATE": 2,
     "PARTIAL": 0,
-    "DERIVED": 2
+    "DERIVED": 3
    },
-   "total": 5,
+   "total": 10,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1237,24 +1690,36 @@
    "inline_total": 0,
    "files": [
     "data/eras/mahdist-state-mahdiyya.json",
+    "db/era_economy.json",
     "db/era_symbols.json",
     "db/extents/mahdist-state-mahdiyya.geojson",
+    "db/map_sources.json",
     "db/regional_power_scores_proposal.json"
    ]
   },
   "makuria": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 3,
+    "wikipedia_only": 2,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 6,
    "counts": {
     "SINGLE-SOURCE": 8,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 12,
-    "EDITORIAL": 2,
-    "APPROXIMATE": 11,
+    "EDITORIAL": 4,
+    "APPROXIMATE": 19,
     "PARTIAL": 0,
-    "DERIVED": 8
+    "DERIVED": 15
    },
-   "total": 41,
+   "total": 58,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1273,12 +1738,23 @@
     "db/extents/makuria.geojson",
     "db/group_layers/makuria.geojson",
     "db/groups.json",
+    "db/map_sources.json",
     "db/population.json",
     "db/relations.json",
     "db/trade_routes/makuria.geojson"
    ]
   },
   "mamluk-sultanate": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 2,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 4,
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1286,11 +1762,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 2,
+    "APPROXIMATE": 4,
     "PARTIAL": 0,
-    "DERIVED": 3
+    "DERIVED": 6
    },
-   "total": 5,
+   "total": 10,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1305,22 +1781,34 @@
    "inline_total": 0,
    "files": [
     "data/eras/mamluk-sultanate.json",
-    "db/extents/mamluk-sultanate.geojson"
+    "db/era_economy.json",
+    "db/extents/mamluk-sultanate.geojson",
+    "db/map_sources.json"
    ]
   },
   "middle-kingdom-egypt": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 5,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 7,
    "counts": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 4,
     "CONTESTED": 2,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 4,
+    "APPROXIMATE": 8,
     "PARTIAL": 0,
-    "DERIVED": 4
+    "DERIVED": 8
    },
-   "total": 12,
+   "total": 22,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1335,23 +1823,35 @@
    "inline_total": 0,
    "files": [
     "data/eras/middle-kingdom-egypt.json",
+    "db/era_economy.json",
     "db/era_fill_hist20.json",
-    "db/extents/middle-kingdom-egypt.geojson"
+    "db/extents/middle-kingdom-egypt.geojson",
+    "db/map_sources.json"
    ]
   },
   "musabba-at-sultanate-kordofan": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 5,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 7,
    "counts": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
-    "EDITORIAL": 1,
-    "APPROXIMATE": 3,
+    "EDITORIAL": 2,
+    "APPROXIMATE": 5,
     "PARTIAL": 0,
-    "DERIVED": 1
+    "DERIVED": 3
    },
-   "total": 6,
+   "total": 11,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1366,22 +1866,34 @@
    "inline_total": 0,
    "files": [
     "data/eras/musabba-at-sultanate-kordofan.json",
-    "db/extents/musabba-at-sultanate-kordofan.geojson"
+    "db/era_economy.json",
+    "db/extents/musabba-at-sultanate-kordofan.geojson",
+    "db/map_sources.json"
    ]
   },
   "new-kingdom-egypt": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 4,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 6,
    "counts": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 4,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 1,
+    "APPROXIMATE": 2,
     "PARTIAL": 0,
-    "DERIVED": 2
+    "DERIVED": 4
    },
-   "total": 5,
+   "total": 10,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1396,10 +1908,22 @@
    "inline_total": 0,
    "files": [
     "data/eras/new-kingdom-egypt.json",
-    "db/extents/new-kingdom-egypt.geojson"
+    "db/era_economy.json",
+    "db/extents/new-kingdom-egypt.geojson",
+    "db/map_sources.json"
    ]
   },
   "nimeiry-era-democratic-republic-of-sudan": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 2,
+    "government": 6,
+    "scholarly": 3,
+    "wikipedia_only": 3,
+    "news": 0,
+    "other": 3
+   },
+   "source_types_total": 17,
    "counts": {
     "SINGLE-SOURCE": 3,
     "CONTESTED": 2,
@@ -1431,6 +1955,16 @@
    ]
   },
   "noba-x-group-ballana-culture": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 5,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 2
+   },
+   "source_types_total": 8,
    "counts": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 0,
@@ -1438,11 +1972,11 @@
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
-    "APPROXIMATE": 2,
+    "APPROXIMATE": 4,
     "PARTIAL": 0,
-    "DERIVED": 3
+    "DERIVED": 6
    },
-   "total": 9,
+   "total": 14,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1457,11 +1991,23 @@
    "inline_total": 0,
    "files": [
     "data/eras/noba-x-group-ballana-culture.json",
+    "db/era_economy.json",
     "db/extents/noba-x-group-ballana-culture.geojson",
+    "db/map_sources.json",
     "db/population.json"
    ]
   },
   "nobadia": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 3,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 5,
    "counts": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 0,
@@ -1469,11 +2015,11 @@
     "REPORTED": 0,
     "MODEL": 5,
     "EDITORIAL": 0,
-    "APPROXIMATE": 1,
+    "APPROXIMATE": 2,
     "PARTIAL": 0,
-    "DERIVED": 2
+    "DERIVED": 4
    },
-   "total": 9,
+   "total": 12,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1488,11 +2034,23 @@
    "inline_total": 0,
    "files": [
     "data/eras/nobadia.json",
+    "db/era_economy.json",
     "db/extents/nobadia.geojson",
+    "db/map_sources.json",
     "db/population.json"
    ]
   },
   "nuer-naath-communities": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 2,
+    "wikipedia_only": 0,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 3,
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1500,11 +2058,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 6,
+    "APPROXIMATE": 8,
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "total": 6,
+   "total": 8,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1519,10 +2077,21 @@
    "inline_total": 0,
    "files": [
     "data/eras/nuer-naath-communities.json",
-    "db/extents/nuer-naath-communities.geojson"
+    "db/extents/nuer-naath-communities.geojson",
+    "db/map_sources.json"
    ]
   },
   "ottoman-egypt-muhammad-ali-dynasty": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 5,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 7,
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1530,11 +2099,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 4,
+    "APPROXIMATE": 8,
     "PARTIAL": 0,
-    "DERIVED": 5
+    "DERIVED": 10
    },
-   "total": 9,
+   "total": 18,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1549,10 +2118,22 @@
    "inline_total": 0,
    "files": [
     "data/eras/ottoman-egypt-muhammad-ali-dynasty.json",
-    "db/extents/ottoman-egypt-muhammad-ali-dynasty.geojson"
+    "db/era_economy.json",
+    "db/extents/ottoman-egypt-muhammad-ali-dynasty.geojson",
+    "db/map_sources.json"
    ]
   },
   "ottoman-hejaz-saudi-state": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 1,
+    "scholarly": 3,
+    "wikipedia_only": 2,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 7,
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1560,11 +2141,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 2,
+    "APPROXIMATE": 3,
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "total": 2,
+   "total": 3,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1579,22 +2160,33 @@
    "inline_total": 0,
    "files": [
     "data/eras/ottoman-hejaz-saudi-state.json",
-    "db/extents/ottoman-hejaz-saudi-state.geojson"
+    "db/extents/ottoman-hejaz-saudi-state.geojson",
+    "db/map_sources.json"
    ]
   },
   "ptolemaic-egypt": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 4,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 6,
    "counts": {
     "SINGLE-SOURCE": 0,
-    "CONTESTED": 3,
+    "CONTESTED": 4,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 3,
+    "APPROXIMATE": 6,
     "PARTIAL": 0,
-    "DERIVED": 3
+    "DERIVED": 6
    },
-   "total": 9,
+   "total": 16,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1609,11 +2201,23 @@
    "inline_total": 0,
    "files": [
     "data/eras/ptolemaic-egypt.json",
+    "db/era_economy.json",
     "db/era_fill_hist20.json",
-    "db/extents/ptolemaic-egypt.geojson"
+    "db/extents/ptolemaic-egypt.geojson",
+    "db/map_sources.json"
    ]
   },
   "republic-of-egypt": {
+   "source_types": {
+    "un_aid_agency": 1,
+    "intl_financial": 1,
+    "government": 5,
+    "scholarly": 1,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 2
+   },
+   "source_types_total": 11,
    "counts": {
     "SINGLE-SOURCE": 2,
     "CONTESTED": 1,
@@ -1621,11 +2225,11 @@
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
-    "APPROXIMATE": 6,
+    "APPROXIMATE": 12,
     "PARTIAL": 0,
-    "DERIVED": 7
+    "DERIVED": 13
    },
-   "total": 19,
+   "total": 31,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 1,
@@ -1642,22 +2246,33 @@
     "data/eras/republic-of-egypt.json",
     "db/era_fill_modern4.json",
     "db/extents/republic-of-egypt.geojson",
+    "db/map_sources.json",
     "db/population.json"
    ]
   },
   "republic-of-south-sudan": {
+   "source_types": {
+    "un_aid_agency": 6,
+    "intl_financial": 3,
+    "government": 0,
+    "scholarly": 1,
+    "wikipedia_only": 2,
+    "news": 0,
+    "other": 4
+   },
+   "source_types_total": 16,
    "counts": {
     "SINGLE-SOURCE": 8,
-    "CONTESTED": 22,
+    "CONTESTED": 28,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 3,
-    "APPROXIMATE": 2,
+    "APPROXIMATE": 4,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 39,
+   "total": 47,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 1,
@@ -1677,22 +2292,33 @@
     "db/extents/republic-of-south-sudan.geojson",
     "db/extents_historic.json",
     "db/extents_notes_fill_ss2011.json",
+    "db/map_sources.json",
     "db/population.json"
    ]
   },
   "restored-darfur-sultanate-ali-dinar": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 5,
+    "wikipedia_only": 2,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 8,
    "counts": {
     "SINGLE-SOURCE": 4,
-    "CONTESTED": 1,
+    "CONTESTED": 2,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 4,
+    "APPROXIMATE": 7,
     "PARTIAL": 0,
-    "DERIVED": 1
+    "DERIVED": 3
    },
-   "total": 10,
+   "total": 16,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1707,12 +2333,24 @@
    "inline_total": 0,
    "files": [
     "data/eras/restored-darfur-sultanate-ali-dinar.json",
+    "db/era_economy.json",
     "db/extents/restored-darfur-sultanate-ali-dinar.geojson",
     "db/groups.json",
+    "db/map_sources.json",
     "db/relations.json"
    ]
   },
   "rise-of-islam-caliphates": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 3,
+    "wikipedia_only": 2,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 6,
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1720,11 +2358,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 2,
+    "APPROXIMATE": 3,
     "PARTIAL": 0,
-    "DERIVED": 0
+    "DERIVED": 1
    },
-   "total": 2,
+   "total": 4,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1739,22 +2377,34 @@
    "inline_total": 0,
    "files": [
     "data/eras/rise-of-islam-caliphates.json",
-    "db/extents/rise-of-islam-caliphates.geojson"
+    "db/era_economy.json",
+    "db/extents/rise-of-islam-caliphates.geojson",
+    "db/map_sources.json"
    ]
   },
   "roman-byzantine-egypt": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 3,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 1,
+    "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 4,
+    "APPROXIMATE": 8,
     "PARTIAL": 0,
-    "DERIVED": 4
+    "DERIVED": 8
    },
-   "total": 9,
+   "total": 18,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1769,10 +2419,22 @@
    "inline_total": 0,
    "files": [
     "data/eras/roman-byzantine-egypt.json",
-    "db/extents/roman-byzantine-egypt.geojson"
+    "db/era_economy.json",
+    "db/extents/roman-byzantine-egypt.geojson",
+    "db/map_sources.json"
    ]
   },
   "sabaean-south-arabian-kingdoms": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 5,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 7,
    "counts": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 0,
@@ -1780,11 +2442,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 2,
+    "APPROXIMATE": 3,
     "PARTIAL": 0,
-    "DERIVED": 0
+    "DERIVED": 1
    },
-   "total": 3,
+   "total": 5,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1799,10 +2461,22 @@
    "inline_total": 0,
    "files": [
     "data/eras/sabaean-south-arabian-kingdoms.json",
-    "db/extents/sabaean-south-arabian-kingdoms.geojson"
+    "db/era_economy.json",
+    "db/extents/sabaean-south-arabian-kingdoms.geojson",
+    "db/map_sources.json"
    ]
   },
   "second-parliamentary-period": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 1,
+    "government": 4,
+    "scholarly": 3,
+    "wikipedia_only": 1,
+    "news": 1,
+    "other": 1
+   },
+   "source_types_total": 11,
    "counts": {
     "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
@@ -1835,6 +2509,16 @@
    ]
   },
   "shilluk-kingdom": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 3,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 5,
    "counts": {
     "SINGLE-SOURCE": 6,
     "CONTESTED": 0,
@@ -1842,11 +2526,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 1,
+    "APPROXIMATE": 2,
     "PARTIAL": 0,
-    "DERIVED": 2
+    "DERIVED": 4
    },
-   "total": 9,
+   "total": 12,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1861,24 +2545,36 @@
    "inline_total": 0,
    "files": [
     "data/eras/shilluk-kingdom.json",
+    "db/era_economy.json",
     "db/extents/shilluk-kingdom.geojson",
     "db/groups.json",
+    "db/map_sources.json",
     "db/relations.json"
    ]
   },
   "southern-sudan-under-condominium-sudan": {
+   "source_types": {
+    "un_aid_agency": 1,
+    "intl_financial": 0,
+    "government": 3,
+    "scholarly": 4,
+    "wikipedia_only": 2,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 11,
    "counts": {
-    "SINGLE-SOURCE": 3,
-    "CONTESTED": 7,
+    "SINGLE-SOURCE": 4,
+    "CONTESTED": 10,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
-    "APPROXIMATE": 10,
+    "APPROXIMATE": 14,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 24,
+   "total": 32,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1895,10 +2591,21 @@
     "data/eras/southern-sudan-under-condominium-sudan.json",
     "db/extents/southern-sudan-under-condominium-sudan.geojson",
     "db/extents_historic.json",
+    "db/map_sources.json",
     "db/population.json"
    ]
   },
   "suakin-red-sea-port-beja-ottoman": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 8,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 10,
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1906,11 +2613,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 1,
+    "APPROXIMATE": 2,
     "PARTIAL": 0,
-    "DERIVED": 1
+    "DERIVED": 2
    },
-   "total": 2,
+   "total": 4,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1925,22 +2632,34 @@
    "inline_total": 0,
    "files": [
     "data/eras/suakin-red-sea-port-beja-ottoman.json",
-    "db/extents/suakin-red-sea-port-beja-ottoman.geojson"
+    "db/era_economy.json",
+    "db/extents/suakin-red-sea-port-beja-ottoman.geojson",
+    "db/map_sources.json"
    ]
   },
   "sultanate-of-darfur-keira": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 2,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 4,
    "counts": {
-    "SINGLE-SOURCE": 16,
+    "SINGLE-SOURCE": 17,
     "CONTESTED": 2,
     "VERIFY": 1,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 2,
-    "APPROXIMATE": 11,
+    "APPROXIMATE": 18,
     "PARTIAL": 0,
-    "DERIVED": 8
+    "DERIVED": 15
    },
-   "total": 40,
+   "total": 55,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1955,13 +2674,25 @@
    "inline_total": 1,
    "files": [
     "data/eras/sultanate-of-darfur-keira.json",
+    "db/era_economy.json",
     "db/extents/sultanate-of-darfur-keira.geojson",
     "db/group_layers/sultanate-of-darfur-keira.geojson",
     "db/groups.json",
+    "db/map_sources.json",
     "db/relations.json"
    ]
   },
   "transitional-third-parliamentary-period": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 1,
+    "government": 6,
+    "scholarly": 2,
+    "wikipedia_only": 1,
+    "news": 1,
+    "other": 1
+   },
+   "source_types_total": 12,
    "counts": {
     "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
@@ -1992,18 +2723,28 @@
    ]
   },
   "tunjur-kingdom": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 5,
+    "wikipedia_only": 2,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 8,
    "counts": {
     "SINGLE-SOURCE": 2,
     "CONTESTED": 1,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
-    "EDITORIAL": 1,
-    "APPROXIMATE": 2,
+    "EDITORIAL": 2,
+    "APPROXIMATE": 4,
     "PARTIAL": 0,
-    "DERIVED": 2
+    "DERIVED": 4
    },
-   "total": 8,
+   "total": 13,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2018,24 +2759,36 @@
    "inline_total": 0,
    "files": [
     "data/eras/tunjur-kingdom.json",
+    "db/era_economy.json",
     "db/extents/tunjur-kingdom.geojson",
     "db/groups.json",
+    "db/map_sources.json",
     "db/relations.json"
    ]
   },
   "turkiyya-ottoman-egyptian-rule": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 4,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 6,
    "counts": {
-    "SINGLE-SOURCE": 22,
+    "SINGLE-SOURCE": 23,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 4,
     "EDITORIAL": 6,
-    "APPROXIMATE": 11,
+    "APPROXIMATE": 14,
     "PARTIAL": 0,
-    "DERIVED": 4
+    "DERIVED": 7
    },
-   "total": 47,
+   "total": 54,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2054,11 +2807,22 @@
     "db/extents/turkiyya-ottoman-egyptian-rule.geojson",
     "db/group_layers/turkiyya-ottoman-egyptian-rule.geojson",
     "db/groups.json",
+    "db/map_sources.json",
     "db/population.json",
     "db/relations.json"
    ]
   },
   "wadai-sultanate": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 7,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 9,
    "counts": {
     "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
@@ -2066,11 +2830,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 2,
+    "APPROXIMATE": 4,
     "PARTIAL": 0,
-    "DERIVED": 3
+    "DERIVED": 6
    },
-   "total": 7,
+   "total": 12,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2085,24 +2849,36 @@
    "inline_total": 0,
    "files": [
     "data/eras/wadai-sultanate.json",
+    "db/era_economy.json",
     "db/extents/wadai-sultanate.geojson",
     "db/groups.json",
+    "db/map_sources.json",
     "db/relations.json"
    ]
   },
   "war-in-sudan-saf-vs-rsf": {
+   "source_types": {
+    "un_aid_agency": 15,
+    "intl_financial": 3,
+    "government": 1,
+    "scholarly": 2,
+    "wikipedia_only": 1,
+    "news": 1,
+    "other": 5
+   },
+   "source_types_total": 28,
    "counts": {
     "SINGLE-SOURCE": 4,
-    "CONTESTED": 23,
+    "CONTESTED": 28,
     "VERIFY": 0,
-    "REPORTED": 4,
+    "REPORTED": 8,
     "MODEL": 4,
     "EDITORIAL": 0,
-    "APPROXIMATE": 4,
+    "APPROXIMATE": 8,
     "PARTIAL": 0,
-    "DERIVED": 3
+    "DERIVED": 5
    },
-   "total": 42,
+   "total": 57,
    "inline_badges": {
     "SINGLE-SOURCE": 11,
     "CONTESTED": 4,
@@ -2121,10 +2897,21 @@
     "db/extents/war-in-sudan-saf-vs-rsf.geojson",
     "db/extents_historic.json",
     "db/extents_notes_fill_ss2011.json",
+    "db/map_sources.json",
     "db/population.json"
    ]
   },
   "zagwe-dynasty": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 3,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 5,
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2132,11 +2919,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 2,
+    "APPROXIMATE": 3,
     "PARTIAL": 0,
-    "DERIVED": 0
+    "DERIVED": 1
    },
-   "total": 2,
+   "total": 4,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2151,10 +2938,22 @@
    "inline_total": 0,
    "files": [
     "data/eras/zagwe-dynasty.json",
-    "db/extents/zagwe-dynasty.geojson"
+    "db/era_economy.json",
+    "db/extents/zagwe-dynasty.geojson",
+    "db/map_sources.json"
    ]
   },
   "zande-kingdoms": {
+   "source_types": {
+    "un_aid_agency": 0,
+    "intl_financial": 0,
+    "government": 0,
+    "scholarly": 6,
+    "wikipedia_only": 1,
+    "news": 0,
+    "other": 1
+   },
+   "source_types_total": 8,
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2162,11 +2961,11 @@
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 2,
+    "APPROXIMATE": 4,
     "PARTIAL": 0,
-    "DERIVED": 3
+    "DERIVED": 6
    },
-   "total": 5,
+   "total": 10,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2181,7 +2980,9 @@
    "inline_total": 0,
    "files": [
     "data/eras/zande-kingdoms.json",
-    "db/extents/zande-kingdoms.geojson"
+    "db/era_economy.json",
+    "db/extents/zande-kingdoms.geojson",
+    "db/map_sources.json"
    ]
   }
  }
