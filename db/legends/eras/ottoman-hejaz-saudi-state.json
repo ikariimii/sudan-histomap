@@ -1933,7 +1933,13 @@
    "symbol_class": "economy_unknown",
    "badges": [],
    "editorial_marker": false,
-   "rating_basis_en": null,
+   "rating_basis_en": {
+    "value": "No source read rates this era's economy.",
+    "cite": null,
+    "badges": [
+     "NO-SOURCE"
+    ]
+   },
    "cite": null
   }
  },
