@@ -143,16 +143,16 @@ const SPLITS={'meroe-fall':{dom:[200,420],ticks:[200,250,270,300,350,400],band:[
   srcs:['FR_MUSEE_MEROE','GHA2','ZH_EMB_HIST2020','EDWARDS2011']},
  // Stamp: set factChecked:1 only with a recorded Historian fact-check PASS for this card (AR stamp text pending native review).
  // kerma-start: social/factcheck-drafts-ep1-4.md, 'Ep2 tweet 4 re-check (2026-10-20, Sudan Historian)': Verdict PASS -> 'pending review'.
- 'kerma-start':{factChecked:1,dom:[-2550,-1400],ticks:[-2450,-2050,-1750,-1700,-1480],
+ 'kerma-start':{factChecked:1,dom:[-2550,-1400],ticks:[-2450,-2050,-1750,-1700,-1450],
   t:['2450 or 1700 BCE?','2450 أم 1700 ق.م؟'],pill:['NO CONTRADICTION','لا تناقض','#3f7d4a'],
   sub:['Two dates for Kerma (Kush): both can be right','تاريخان لكرمة (كوش): وكلاهما قد يكون صحيحاً'],
-  cols:[{h:['Excavators: Swiss-Sudanese mission','المنقّبون: البعثة السويسرية السودانية'],col:'#3f6478',phases:[[-2450,-2050,['Early Kerma','كرمة المبكرة'],'#8fa9b8'],[-2050,-1750,['Middle Kerma','كرمة الوسطى'],'#6a8ca0'],[-1750,-1480,['Classic Kerma','كرمة الكلاسيكية'],'#3f6478']],marks:[
+  cols:[{h:['Excavators: Swiss-Sudanese mission','المنقّبون: البعثة السويسرية السودانية'],col:'#3f6478',phases:[[-2450,-2050,['Early Kerma','كرمة المبكرة'],'#8fa9b8'],[-2050,-1750,['Middle Kerma','كرمة الوسطى'],'#6a8ca0'],[-1750,-1550,['Classic Kerma','كرمة الكلاسيكية'],'#3f6478'],[-1550,-1450,['Final Kerma','كرمة المتأخرة [VERIFY]'],'#2b4a5a']],marks:[
      {t:-2450,l:['c.2450 BCE: Kerma culture begins ("Kush" in Egyptian texts)','نحو 2450 ق.م: بداية ثقافة كرمة («كوش» في النصوص المصرية)'],src:'KERMA_MISSION',lang:'en'}]},
    {h:['Other dates: both in the Classic phase','تواريخ أخرى: كلاهما في المرحلة الكلاسيكية'],col:'#b5512f',seg:[-1730,-1580],marks:[
      {t:-1700,l:['1700 BCE: PRC embassy page (2020; not an academic source): Kush founded at Kerma','1700 ق.م: صفحة للسفارة الصينية (2020؛ ليست مصدراً أكاديمياً): تأسيس كوش في كرمة'],src:'ZH_EMB_HIST2020',lang:'zh'},
      {t:-1580,l:['UNESCO General History of Africa II (1981): Kerma c.1730–1580 BCE','تاريخ أفريقيا العام لليونسكو (1981): كرمة نحو 1730–1580 ق.م'],src:'GHA2',lang:'en',below:1}]}],
   body:[['Its Classic phase ran c.1750–1550 BCE, followed by Final Kerma c.1550–1450 BCE (SFDAS p.69). UNESCO\'s 1981 General History of Africa dated Kerma to c.1730–1580 BCE, and a 2020 PRC embassy page says Kush was founded at Kerma in 1700 BCE. Both match the Classic phase, not the beginning.','امتدت مرحلتها الكلاسيكية نحو 1750–1550 ق.م، وتلتها كرمة المتأخرة نحو 1550–1450 ق.م (SFDAS ص 69) *. أرّخ «تاريخ أفريقيا العام» لليونسكو (1981) كرمة بنحو 1730–1580 ق.م، وتقول صفحة للسفارة الصينية (2020) إن كوش تأسست في كرمة عام 1700 ق.م، وكلاهما يوافق المرحلة الكلاسيكية لا البداية.']],
-  srcs:['KERMA_MISSION','ZH_EMB_HIST2020','GHA2','SFDAS_HCS2017']}};
+  srcs:['SFDAS_HCS2017','KERMA_MISSION','ZH_EMB_HIST2020','GHA2']}};
 if(SPLIT&&SPLITS[SPLIT]){const c=SPLITS[SPLIT],W=1080,H=1350,T2=a=>a[AR_ON?1:0];svg.attr('width',W).attr('height',H);
  svg.append('rect').attr('width',W).attr('height',H).attr('fill','#f4ead5');svg.append('rect').attr('x',14).attr('y',14).attr('width',W-28).attr('height',H-28).attr('fill','none').attr('stroke','#2b1d0e').attr('stroke-width',3);
  headerBlock(W,T2(c.t),T2(c.sub),88,c.tfs||56);
@@ -165,7 +165,8 @@ if(SPLIT&&SPLITS[SPLIT]){const c=SPLITS[SPLIT],W=1080,H=1350,T2=a=>a[AR_ON?1:0];
   svg.append('text').attr('x',cx).attr('y',top-40).attr('text-anchor','middle').attr('font-size',22).attr('font-weight','bold').attr('fill',k.col).attr('direction',AR_ON?'rtl':'ltr').text(T2(k.h));
   if(k.seg)svg.append('rect').attr('x',bx-20).attr('y',y(k.seg[0])).attr('width',40).attr('height',y(k.seg[1])-y(k.seg[0])).attr('rx',6).attr('fill',k.col).attr('opacity',.85);
   (k.phases||[]).forEach(p=>{svg.append('rect').attr('x',bx-20).attr('y',y(p[0])).attr('width',40).attr('height',y(p[1])-y(p[0])).attr('fill',p[3]).attr('stroke','#f4ead5').attr('stroke-width',2);
-   svg.append('text').attr('transform',`translate(${bx+(cx<ax?-32:32)},${(y(p[0])+y(p[1]))/2}) rotate(-90)`).attr('text-anchor','middle').attr('font-size',15).attr('font-weight','bold').attr('fill',p[3]).attr('direction',AR_ON?'rtl':'ltr').text(T2(p[2]));});
+   svg.append('text').attr('transform',`translate(${bx+(cx<ax?-32:32)},${(y(p[0])+y(p[1]))/2}) rotate(-90)`).attr('text-anchor','middle').attr('font-size',15).attr('font-weight','bold').attr('fill',p[3]).attr('direction',AR_ON?'rtl':'ltr').text(T2(p[2]));
+   {const n=svg.node().lastChild,hh=y(p[1])-y(p[0]);if(n.getComputedTextLength()>hh-8){const L=cx<ax;d3.select(n).attr('transform',null).attr('x',bx+(L?-26:26)).attr('y',(y(p[0])+y(p[1]))/2+5).attr('font-size',13).attr('text-anchor',L!==AR_ON?'end':'start');}}});
   k.marks.forEach(m=>{const my=y(m.t);svg.append('circle').attr('cx',bx).attr('cy',my).attr('r',11).attr('fill','#fff').attr('stroke','#2b1d0e').attr('stroke-width',4);
    const lines=wrap(T2(m.l),30),lx=cx<ax?bx-34:bx+34,anc=(cx<ax)!==AR_ON?'end':'start',base=m.mid?my-((lines.length-1)*21)/2+6:m.below||m.dy?my+28:my-((lines.length-1)*21)+(k.phases?30:6);
    lines.forEach((l,n)=>svg.append('text').attr('x',lx).attr('y',base+n*21).attr('text-anchor',anc).attr('direction',AR_ON?'rtl':'ltr').attr('font-size',17).attr('font-weight',n===0?'bold':null).attr('fill',m.ctx?'#6b5a40':m.lang==='zh'?'#7c2f2a':'#2b1d0e').attr('font-style',m.ctx?'italic':null).attr('stroke','#f4ead5').attr('stroke-width',5).attr('paint-order','stroke').text(l));});});
