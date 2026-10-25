@@ -385,6 +385,16 @@
     "lang": "ru",
     "pages": ""
    },
+   "CAR_CONST2016": {
+    "author": "Central African Republic",
+    "title": "Constitution of the Central African Republic, 2016 (English translation, Constitute Project)",
+    "year": "2016",
+    "lang": "en",
+    "pages": "Art. 24",
+    "url": "https://www.constituteproject.org/constitution/Central_African_Republic_2016?lang=en",
+    "note": "Read 2026-10-24. Constitute Project translation (Jefri J. Ruchti tr.); citation only, short quotes.",
+    "via": "research_patch Pass 32"
+   },
    "COW_NMC6": {
     "author": "Singer, Bremer & Stuckey (1972); Greig & Enterline (v6.0)",
     "title": "Correlates of War National Material Capabilities v6.0 (abridged CSV)",
@@ -2411,6 +2421,18 @@
     "verification": "fetched 2026-10-20",
     "via": "db/geopolitics_sources.json"
    },
+   "GEONAMES": {
+    "author": "GeoNames",
+    "title": "GeoNames geographical database (feature pages)",
+    "publisher": "GeoNames.org",
+    "year": "2026",
+    "lang": "en",
+    "url": "https://www.geonames.org/",
+    "accessed": "2026-10-24",
+    "pages": "per GeonameId",
+    "note": "El Matama 379127 at 16.7095, 33.3565 read on geonames.org",
+    "via": "db/lens_cities.json"
+   },
    "GHA1_CH19": {
     "publisher": "UNESCO / Heinemann / University of California Press",
     "year": "1981",
@@ -3402,6 +3424,42 @@
     "lang": "en",
     "via": "db/era_fill_modern.json"
    },
+   "IOM_DTM_SNAP10": {
+    "title": "DTM Sudan Displacement and Return Snapshot – Update 10 (18 October 2026)",
+    "title_en": "same",
+    "publisher": "IOM Displacement Tracking Matrix (via ReliefWeb)",
+    "bias": "key-informant estimates; access-limited areas may be under-counted",
+    "date": "2026-10-18",
+    "url": "https://reliefweb.int/report/sudan/dtm-sudan-displacement-and-return-snapshot-update-10-18-october-2026",
+    "license": "IOM DTM: reuse with attribution",
+    "via": "research_patch Pass 32b (db/war_refresh_2026-10.json, Analyst eb3a522)",
+    "lang": "en",
+    "pages": ""
+   },
+   "IOM_DTM_SNAP9": {
+    "title": "Sudan Displacement and Return Snapshot – Update 9 (20 Sep 2026)",
+    "title_en": "same",
+    "publisher": "IOM DTM",
+    "bias": "as above; cross-border figures compiled from mixed government and agency sources, cumulative and not net of returns",
+    "date": "2026-09-20",
+    "url": "https://dtm.iom.int/sites/g/files/tmzbdl1461/files/reports/DTM%20Sudan%20Displacement%20and%20Return%20Snapshot%20%2810%29.pdf",
+    "license": "IOM DTM: reuse with attribution",
+    "via": "research_patch Pass 32b (db/war_refresh_2026-10.json, Analyst eb3a522)",
+    "lang": "en",
+    "pages": ""
+   },
+   "IPC_ALERT_OCT2026": {
+    "title": "IPC Alert | New evidence reveals rapidly worsening conditions across Greater Darfur and Kordofan",
+    "title_en": "same",
+    "publisher": "IPC Global Initiative",
+    "bias": "alert, not a classification; \"does not necessarily reflect the views of individual agencies or the Government of Sudan\"",
+    "date": "2026-10-12",
+    "url": "https://www.foodsecurityportal.org/_assets/sites/default/files/2026-10/IPC_Alert_Sudan_Oct2026.pdf",
+    "license": "IPC: reuse with attribution",
+    "via": "research_patch Pass 32b (db/war_refresh_2026-10.json, Analyst eb3a522)",
+    "lang": "en",
+    "pages": ""
+   },
    "IPC_FRC2024": {
     "author": "IPC Famine Review Committee",
     "title": "Famine Review Committee report: Zamzam camp, North Darfur, Sudan",
@@ -3421,6 +3479,18 @@
     "pages": "",
     "lang": "en",
     "via": "db/era_fill_modern.json"
+   },
+   "IPC_SDN_2026": {
+    "title": "Sudan: IPC Acute Food Insecurity Analysis, February 2026 – January 2027",
+    "title_en": "same",
+    "publisher": "IPC Global Initiative / IPC Sudan TWG",
+    "bias": "consensus technical analysis; data gaps in inaccessible areas (e.g. El Obeid, Bara not analysed); the Government of Sudan has disputed earlier IPC famine findings",
+    "date": "2026-06-03",
+    "url": "https://reliefweb.int/report/sudan/sudan-ipc-acute-food-insecurity-analysis-l-february-2026-january-2027-published-3-june-2026",
+    "license": "IPC: reuse with attribution",
+    "via": "research_patch Pass 32b (db/war_refresh_2026-10.json, Analyst eb3a522)",
+    "lang": "en",
+    "pages": ""
    },
    "JEDDAH2023": {
     "author": "US Department of State",
@@ -4018,6 +4088,42 @@
     "pages": "",
     "lang": "en",
     "via": "/tmp/era_fill_modern3_p20b.json"
+   },
+   "NGA_GNS": {
+    "author": "US National Geospatial-Intelligence Agency",
+    "title": "GEOnet Names Server (GNS) record",
+    "publisher": "NGA",
+    "year": "2009",
+    "lang": "en",
+    "url": "http://www.fallingrain.com/world/SU/38/Arbaji.html",
+    "accessed": "2026-10-24",
+    "pages": "per UFI",
+    "note": "Arbaji UFI 98562051 (14.726, 33.3525), read via public mirrors (fallingrain.com, worldcitydb.com) of the GNS record; public-domain US government data",
+    "via": "db/lens_cities.json"
+   },
+   "OCHA_FTS": {
+    "title": "Financial Tracking Service – Sudan HNRP 2026 (plan 1514)",
+    "title_en": "same",
+    "publisher": "UN OCHA FTS",
+    "bias": "only funding reported to FTS is counted; live figure",
+    "date": "retrieved 2026-10-24",
+    "url": "https://fts.unocha.org/plans/1514/summary",
+    "license": "FTS data, attribution to OCHA FTS",
+    "via": "research_patch Pass 32b (db/war_refresh_2026-10.json, Analyst eb3a522)",
+    "lang": "en",
+    "pages": ""
+   },
+   "OCHA_HNRP2026": {
+    "title": "Sudan Humanitarian Needs and Response Plan 2026",
+    "title_en": "Sudan Humanitarian Needs and Response Plan 2026",
+    "publisher": "UN OCHA (humanitarianaction.info)",
+    "bias": "UN humanitarian planning figures; scope narrowed by funding-driven prioritisation",
+    "date": "2026-02-26",
+    "url": "https://humanitarianaction.info/plan/1514/document/sudan-humanitarian-needs-and-response-plan-2026/article/hnrp-rrp-financial-requirements-breakdown",
+    "license": "UN terms of use; OCHA content generally reusable with attribution",
+    "via": "research_patch Pass 32b (db/war_refresh_2026-10.json, Analyst eb3a522)",
+    "lang": "en",
+    "pages": ""
    },
    "OFAHEY2008": {
     "author": "R.S. O'Fahey",
@@ -5261,6 +5367,18 @@
     "url": "https://pleiades.stoa.org/places/795815",
     "lang": "en"
    },
+   "PLEIADES_805647": {
+    "author": "Pleiades gazetteer contributors",
+    "title": "Kawa (place 805647)",
+    "publisher": "Pleiades / ISAW NYU",
+    "year": "2024",
+    "lang": "en",
+    "url": "https://pleiades.stoa.org/places/805647",
+    "accessed": "2026-10-24",
+    "pages": "805647",
+    "note": "reprPoint 19.123131 N, 30.496606 E (CC BY)",
+    "via": "db/lens_cities.json"
+   },
    "QASIM_MAWSUA": {
     "author": "'Awn al-Sharif Qasim (عون الشريف قاسم)",
     "title": "موسوعة القبائل والأنساب في السودان وأشهر أسماء الأعلام والأماكن — Mawsu'at al-qaba'il wa-al-ansab fi al-Sudan wa-ashhar asma' al-a'lam wa-al-amakin (Encyclopedia of the Tribes and Genealogies of Sudan, and the Best-Known Names of People and Places) [EN title is a working translation]",
@@ -5269,9 +5387,9 @@
     "lang": "ar",
     "url": "https://books.google.com/books?id=NzguAQAAIAAJ",
     "edition": "1st ed. (الطبعة الأولى 1996م), deposit no. 26/110",
-    "pages": "Vols 1–6 (6-vol set: 1 أ–ج, 2 ح–ز, 3 س–ط, 4 ظ–ف, 5 ق–م, 6 م–ي). Vol. 4 cites: scan PDF p.N = printed p.N+1408. Other vols: cites give printed page plus pdf_page in the 2636-page combined scan; the offset is not constant (vol.1 −3, vol.2 +2, vol.3 +37, vol.6 +30 to +51).",
-    "note": "Supplied by the user (Agrescatti): first a 414-page scan of vol. 4 only, then a 2636-page combined scan of all six volumes (title page lists 6 vols; the Google Books record says 7 vols, 2628 pp.). Image-only scans read via Tesseract Arabic OCR on the box; quotes checked against the page image unless marked VERIFY. The combined scan has missing, out-of-order and repeated pages in vol. 6 (PDF p.2561 onward repeats about pp.2460–2535). Scans and OCR text kept off-repo (copyright); citation only, short quotes. Genealogical claims are the source's account (TRADITION).",
-    "via": "research_patch Pass 28; Pass 31 (vols 1–3, 6)"
+    "pages": "Vol. 4 (al-juz' al-rabi'), printed pp.1409–1820; scan PDF p.N = printed p.N+1408",
+    "note": "7 vols, 2628 pp. in all (Google Books record, URL = vol. 4 catalogue record, snippet view only). Supplied by the user (Agrescatti) as a 414-page image-only PDF scan of vol. 4 only (entries ظ, ع, غ, ف); other volumes not seen. Read via Tesseract Arabic OCR on the box; quotes checked against the page image unless marked VERIFY. Scan and OCR text kept off-repo (copyright); citation only, short quotes. Genealogical claims are the source's account (TRADITION).",
+    "via": "research_patch Pass 28"
    },
    "RARCSS2018": {
     "author": "IGAD (text via Peace Accords Matrix, Univ. of Notre Dame)",
@@ -5420,6 +5538,18 @@
     "url": "https://ru.wikipedia.org/wiki/История_Судана",
     "lang": "ru",
     "note": "From db/lens_ru.json (Analyst). Original title: История Судана. Kind: encyclopedia (crowd). fetched 2026-10-20 (curl/WebFetch, text read)"
+   },
+   "SARS_KAWA": {
+    "author": "Sudan Archaeological Research Society (D.A. Welsby)",
+    "title": "The Kawa Excavation Project 1997-2018",
+    "publisher": "SARS",
+    "year": "2023",
+    "lang": "en",
+    "url": "https://www.sudarchrs.org.uk/fieldwork/kawa-excavation-project/",
+    "accessed": "2026-10-24",
+    "pages": "project page",
+    "note": "Gematon name suggests foundation by Akhenaten (14th c. BC); town abandoned probably 4th c. AD",
+    "via": "db/lens_cities.json"
    },
    "SAS_HSBA_WP3": {
     "author": "John Young",
@@ -5600,6 +5730,18 @@
     "pages": "",
     "lang": "en",
     "via": "/tmp/era_fill_modern3_p20b.json"
+   },
+   "UNHCR_ODP": {
+    "title": "Sudan situation – Operational Data Portal",
+    "title_en": "same",
+    "publisher": "UNHCR",
+    "bias": "mixes UNHCR, government (e.g. Egypt) and IOM figures; per-country dates differ",
+    "date": "2026-10-05",
+    "url": "https://data.unhcr.org/en/situations/sudansituation",
+    "license": "UNHCR ODP terms: attribution to UNHCR",
+    "via": "research_patch Pass 32b (db/war_refresh_2026-10.json, Analyst eb3a522)",
+    "lang": "en",
+    "pages": ""
    },
    "UNNEWS2023": {
     "author": "UN News",
@@ -5896,6 +6038,18 @@
     "url": "https://whc.unesco.org/en/list/1336",
     "pages": "",
     "lang": "en"
+   },
+   "WIKIDATA_CITIES": {
+    "author": "Wikidata contributors",
+    "title": "Wikidata items for Cities & towns layer (labels, P625 coordinates, P571 inception)",
+    "publisher": "Wikimedia Foundation",
+    "year": "2026",
+    "lang": "en",
+    "url": "https://www.wikidata.org/",
+    "accessed": "2026-10-24",
+    "pages": "per-QID; page field = QID",
+    "note": "Fetched live via wbgetentities/EntityData on 2026-10-24",
+    "via": "db/lens_cities.json"
    },
    "WP:2021_Sudanese_coup_d'état": {
     "author": "Wikipedia contributors",

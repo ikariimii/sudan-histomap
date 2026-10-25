@@ -206,3 +206,8 @@ Following the scope change, I did not build data/views/<lang>.json. The language
 - relations: rel-hamaj-01, rel-hamaj-02, rel-masalit-03.
 - CONTESTED: Hamaj origin (Qasim "Arabized, mixed with Arabs" vs GHA "neither Funj nor Arabs"); Nuba origins (Qasim reports a scholarly dispute). Ja'ali Abbasid genealogy kept as TRADITION beside the LOC view.
 - Caveats: Tesseract OCR; VERIFY where not checked against the image; Arabic needs native review; "Hamites" wording quoted only.
+
+## 2026-10-24 — Pass 32 / 32b (Historian): culture_dominance, Condominium CINC null, Analyst CINC merge check, war-era refresh
+- culture_dominance EN+AR: central-african-republic-ubangi-shari (CAR_CONST2016 Art. 24, SINGLE-SOURCE, modern republic only); restored-darfur-sultanate-ali-dinar (MACMICHAEL1922_V1 p.94 n.1, SINGLE-SOURCE). Arabic is a working translation.
+- power_cinc_share: anglo-egyptian-sudan-condominium null (not a COW member; Sudan ccode 625 from 1956). Analyst proposal + post1900 files checked: 15 modern eras already identical, 12 nulls identical, 0 conflicts, 0 new; Ethiopian Empire 0.24 PARTIAL kept.
+- war-in-sudan-saf-vs-rsf economy (EN+AR): famine/displacement segment replaced with db/war_refresh_2026-10.json figures (IPC_SDN_2026, IPC_ALERT_OCT2026, IOM_DTM_SNAP10/9, UNHCR_ODP, OCHA_HNRP2026, OCHA_FTS); 7 sources registered.

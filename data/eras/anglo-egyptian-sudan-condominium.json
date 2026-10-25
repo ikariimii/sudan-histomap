@@ -54,6 +54,7 @@
   "GHA8",
   "HD2011",
   "GHA7_CH17",
+  "COW_NMC6",
   "WP:Anglo-Egyptian_Sudan"
  ],
  "source_langs": [
@@ -65,5 +66,19 @@
   "BRE: de facto colony - qualitative",
   "unscored"
  ],
- "curated": true
+ "curated": true,
+ "power_cinc_share": [
+  {
+   "actor": null,
+   "share": null,
+   "year_range": null,
+   "basis": null,
+   "method": "CINC regional share (see method_id RP-CINC-SHARE-1)",
+   "source_ids": [
+    "COW_NMC6"
+   ],
+   "null_reason": "not a COW system member: Sudan (ccode 625) enters COW only in 1956; the Condominium has no state row in COW NMC v6.0; not estimated",
+   "flag": "power_cinc_share null: not a COW system member: Sudan (ccode 625) enters COW only in 1956; the Condominium has no state row in COW NMC v6.0; not estimated (Pass 32)"
+  }
+ ]
 }
