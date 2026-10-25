@@ -30,7 +30,7 @@
  },
  "grand_total": 1534,
  "inline_totals": {
-  "SINGLE-SOURCE": 22,
+  "SINGLE-SOURCE": 19,
   "CONTESTED": 8,
   "VERIFY": 2,
   "REPORTED": 2,
@@ -40,10 +40,10 @@
   "PARTIAL": 0,
   "DERIVED": 0
  },
- "inline_grand_total": 39,
+ "inline_grand_total": 36,
  "inline_method": "Exact bracketed tags [NAME] or [NAME: note] for the 9 badge names in data/eras/*.json text fields (excluding all.json, badge keys and Arabic _ar/ar fields); a tag is not counted when the enclosing object already has the same structured badge. Not included in totals/grand_total.",
  "source_types_totals": {
-  "un_aid_agency": 36,
+  "un_aid_agency": 32,
   "intl_financial": 24,
   "government": 51,
   "scholarly": 239,
@@ -51,9 +51,9 @@
   "news": 5,
   "other": 112
  },
- "source_types_grand_total": 542,
+ "source_types_grand_total": 538,
  "source_types_distinct_ids": {
-  "un_aid_agency": 32,
+  "un_aid_agency": 28,
   "intl_financial": 12,
   "government": 39,
   "scholarly": 70,
@@ -2903,7 +2903,7 @@
   },
   "war-in-sudan-saf-vs-rsf": {
    "source_types": {
-    "un_aid_agency": 15,
+    "un_aid_agency": 11,
     "intl_financial": 3,
     "government": 1,
     "scholarly": 2,
@@ -2911,7 +2911,7 @@
     "news": 1,
     "other": 5
    },
-   "source_types_total": 28,
+   "source_types_total": 24,
    "counts": {
     "SINGLE-SOURCE": 5,
     "CONTESTED": 29,
@@ -2925,7 +2925,7 @@
    },
    "total": 74,
    "inline_badges": {
-    "SINGLE-SOURCE": 11,
+    "SINGLE-SOURCE": 8,
     "CONTESTED": 4,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -2935,7 +2935,7 @@
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "inline_total": 15,
+   "inline_total": 12,
    "files": [
     "data/eras/war-in-sudan-saf-vs-rsf.json",
     "db/ar_review_queue.json",
