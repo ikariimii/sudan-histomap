@@ -32,8 +32,10 @@
         "4": 8,
         "5": 29
       },
-      "social_items": 16
-    }
+      "social_items": 16,
+      "sentence_items": 4
+    },
+    "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
   "social": [
     {
@@ -2349,6 +2351,60 @@
       "tier": 5,
       "status": "pending",
       "note": "working translation of db/era_artifacts.json caption_en, shown with * in AR map card; needs native review"
+    }
+  ],
+  "sentence_items": [
+    {
+      "era_id": "al-bashir-ncp-ingaz-regime",
+      "file": "data/eras/al-bashir-ncp-ingaz-regime.json",
+      "field_ar": "culture_dominance_ar",
+      "arabic_sentence": "أسلمة منذ مطلع التسعينيات",
+      "badge": "VERIFY",
+      "field_en": "culture_dominance_en",
+      "revised_english": "Islamisation of society was the regime's aim from the June 1989 coup (SFDAS_HCS2017 pp.771–772)",
+      "reason": "Dating: English now dates Islamisation from the June 1989 coup per SFDAS_HCS2017 pp.771–772; Arabic still says 'from the early 1990s'.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English, then remove the [يحتاج تحقق] tag. Arabic not rewritten by the Historian.",
+      "origin_commit": "69a54a4",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "al-bashir-ncp-ingaz-regime",
+      "file": "data/eras/al-bashir-ncp-ingaz-regime.json",
+      "field_ar": "culture_dominance_ar",
+      "arabic_sentence": "وطُبّقت الشريعة في الشمال وحده بموجب اتفاق السلام الشامل",
+      "badge": "VERIFY",
+      "field_en": "culture_dominance_en",
+      "revised_english": "under the CPA, national legislation applying to the states outside Southern Sudan takes Sharia as a source (CPA_2005 Ch. I Machakos Protocol s.3.2.2)",
+      "reason": "English now follows Machakos Protocol s.3.2.2 (Sharia as a source of national legislation for states outside Southern Sudan); Arabic still says sharia was applied in the North only.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English, then remove the [يحتاج تحقق] tag. Arabic not rewritten by the Historian.",
+      "origin_commit": "69a54a4",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "al-bashir-ncp-ingaz-regime",
+      "file": "data/eras/al-bashir-ncp-ingaz-regime.json",
+      "field_ar": "economy_ar",
+      "arabic_sentence": "وجاءت الاستثمارات من الصين وماليزيا والهند",
+      "badge": "VERIFY",
+      "field_en": "economy_en",
+      "revised_english": "oil investment from China, Malaysia and India: their state-owned oil companies came to dominate the sector as Western firms pulled out (PATEY_TWQ2007 p.1009)",
+      "reason": "English narrowed to oil investment by state-owned oil companies (PATEY_TWQ2007 p.1009); Arabic still says investment in general.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English, then remove the [يحتاج تحقق] tag. Arabic not rewritten by the Historian.",
+      "origin_commit": "69a54a4",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "eritrea-italian-colony-independent",
+      "file": "data/eras/eritrea-italian-colony-independent.json",
+      "field_ar": "geopolitics_ar",
+      "arabic_sentence": "أما المرحلة الاستعمارية الإيطالية (منذ 1890) فلم يغطها مصدر مقروء",
+      "badge": "VERIFY",
+      "field_en": "geopolitics_en",
+      "revised_english": "Italy formally established the Colony of Eritrea on 1 January 1890 (EEBC2002 p.104).",
+      "reason": "English now states the 1 Jan 1890 founding of the colony cited to EEBC2002 p.104; Arabic still says no read source covers the colonial phase.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English, then remove the [يحتاج تحقق] tag. Arabic not rewritten by the Historian.",
+      "origin_commit": "69a54a4",
+      "added": "2026-10-25"
     }
   ]
 }

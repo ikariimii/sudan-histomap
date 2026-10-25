@@ -15,20 +15,20 @@
    "DERIVED"
   ],
   "era_count": 68,
-  "files_scanned": 301
+  "files_scanned": 302
  },
  "totals": {
-  "SINGLE-SOURCE": 218,
+  "SINGLE-SOURCE": 228,
   "CONTESTED": 161,
-  "VERIFY": 1,
+  "VERIFY": 5,
   "REPORTED": 14,
   "MODEL": 109,
   "EDITORIAL": 67,
-  "APPROXIMATE": 443,
+  "APPROXIMATE": 453,
   "PARTIAL": 3,
   "DERIVED": 330
  },
- "grand_total": 1346,
+ "grand_total": 1370,
  "inline_totals": {
   "SINGLE-SOURCE": 22,
   "CONTESTED": 9,
@@ -203,7 +203,7 @@
    "counts": {
     "SINGLE-SOURCE": 3,
     "CONTESTED": 29,
-    "VERIFY": 0,
+    "VERIFY": 3,
     "REPORTED": 0,
     "MODEL": 4,
     "EDITORIAL": 3,
@@ -211,7 +211,7 @@
     "PARTIAL": 0,
     "DERIVED": 7
    },
-   "total": 58,
+   "total": 61,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -226,6 +226,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/al-bashir-ncp-ingaz-regime.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/extents/al-bashir-ncp-ingaz-regime.geojson",
     "db/extents_historic.json",
@@ -341,17 +342,17 @@
    },
    "source_types_total": 6,
    "counts": {
-    "SINGLE-SOURCE": 3,
+    "SINGLE-SOURCE": 5,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 5,
+    "APPROXIMATE": 7,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 9,
+   "total": 13,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -368,6 +369,7 @@
     "data/eras/anuak-anywaa-communities.json",
     "db/era_economy.json",
     "db/era_fill_modern4.json",
+    "db/ethno_markers/seligman1932.geojson",
     "db/extents/anuak-anywaa-communities.geojson",
     "db/map_sources.json"
    ]
@@ -730,17 +732,17 @@
    },
    "source_types_total": 4,
    "counts": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 6,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 5,
+    "APPROXIMATE": 9,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 8,
+   "total": 16,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -757,6 +759,7 @@
     "data/eras/dinka-jieng-communities.json",
     "db/era_economy.json",
     "db/era_fill_hist20.json",
+    "db/ethno_markers/seligman1932.geojson",
     "db/extents/dinka-jieng-communities.geojson",
     "db/map_sources.json"
    ]
@@ -861,7 +864,7 @@
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 3,
-    "VERIFY": 0,
+    "VERIFY": 1,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
@@ -869,7 +872,7 @@
     "PARTIAL": 0,
     "DERIVED": 11
    },
-   "total": 28,
+   "total": 29,
    "inline_badges": {
     "SINGLE-SOURCE": 3,
     "CONTESTED": 0,
@@ -884,6 +887,7 @@
    "inline_total": 5,
    "files": [
     "data/eras/eritrea-italian-colony-independent.json",
+    "db/ar_review_queue.json",
     "db/extents/eritrea-italian-colony-independent.geojson",
     "db/map_sources.json",
     "db/population.json"
@@ -2057,17 +2061,17 @@
    },
    "source_types_total": 3,
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 8,
+    "APPROXIMATE": 10,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 9,
+   "total": 13,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2083,6 +2087,7 @@
    "files": [
     "data/eras/nuer-naath-communities.json",
     "db/era_economy.json",
+    "db/ethno_markers/seligman1932.geojson",
     "db/extents/nuer-naath-communities.geojson",
     "db/map_sources.json"
    ]
@@ -2527,17 +2532,17 @@
    },
    "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 6,
+    "SINGLE-SOURCE": 8,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 2,
+    "APPROXIMATE": 4,
     "PARTIAL": 0,
     "DERIVED": 4
    },
-   "total": 12,
+   "total": 16,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2553,6 +2558,7 @@
    "files": [
     "data/eras/shilluk-kingdom.json",
     "db/era_economy.json",
+    "db/ethno_markers/seligman1932.geojson",
     "db/extents/shilluk-kingdom.geojson",
     "db/groups.json",
     "db/map_sources.json",
