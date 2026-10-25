@@ -19,8 +19,8 @@
    "licence": {
     "Public domain": 21
    },
-   "VERIFY": 4,
-   "url_non200": "Britannica Scholars pages (5) return 403 to scripted requests but were read via WebFetch; all Commons file pages and image URLs return 200"
+   "VERIFY": 0,
+   "url_non200": "Britannica Scholars pages (9) return 403 to scripted requests but were read via WebFetch; all Commons file pages and image URLs return 200"
   }
  },
  "eras": {
@@ -331,14 +331,23 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Central_African_Republic.svg",
     "author": "Barthélemy Boganda",
     "licence": "Public domain",
-    "used_years": null,
-    "usage_source": null,
-    "usage_source_null_reason": "only Commons/Wikipedia consulted; no independent usage source read",
+    "used_years": [
+     1958,
+     2026
+    ],
+    "usage_source": {
+     "author": "Whitney Smith",
+     "title": "flag of the Central African Republic",
+     "publisher": "Encyclopædia Britannica (Britannica Scholars)",
+     "url": "https://kids.britannica.com/scholars/article/flag-of-the-Central-African-Republic/93834",
+     "quote": "an autonomous republic was proclaimed on December 1, 1958. ... Boganda renamed it the Central African Republic and designed its national flag. No changes were introduced in the flag design when complete independence was achieved on August 13, 1960, nor during the years 1976–79",
+     "url_check": "403 to scripted HEAD/curl (bot block); page content read OK via WebFetch 2026-10-24"
+    },
+    "usage_source_null_reason": null,
     "badges": [
-     "VERIFY",
      "MODERN_SVG_RENDERING"
     ],
-    "note": "current national flag only; not checked against a source",
+    "note": "Covers 1958–2026, including the Central African Empire 1976–79. It does not cover the colonial Ubangi-Shari period, when no territorial flag is attested.",
     "url_check": {
      "file_page": 200,
      "image_url": 200
@@ -481,14 +490,23 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Flag_of_Eritrea.svg",
     "author": "Unknown authorUnknown author",
     "licence": "Public domain",
-    "used_years": null,
-    "usage_source": null,
-    "usage_source_null_reason": "only Commons/Wikipedia consulted; no independent usage source read",
+    "used_years": [
+     1993,
+     2026
+    ],
+    "usage_source": {
+     "author": "Whitney Smith",
+     "title": "flag of Eritrea",
+     "publisher": "Encyclopædia Britannica (Britannica Scholars)",
+     "url": "https://kids.britannica.com/scholars/article/flag-of-Eritrea/93856",
+     "quote": "The new national flag was first officially hoisted at the proclamation of independence on May 24, 1993.",
+     "url_check": "403 to scripted HEAD/curl (bot block); page content read OK via WebFetch 2026-10-24"
+    },
+    "usage_source_null_reason": null,
     "badges": [
-     "VERIFY",
      "MODERN_SVG_RENDERING"
     ],
-    "note": "current national flag (post-independence) only; not checked against a source",
+    "note": "Covers only 1993–2026. Earlier flags are not given: the 1952–58 light-blue Eritrean flag, the Ethiopian flag after 1958, and Italian/British rule before 1952. Britannica says the 30-leaf wreath was standardized in 1995. The EPLF party flag (1977) is omitted under the armed-group rule.",
     "url_check": {
      "file_page": 200,
      "image_url": 200
@@ -546,14 +564,23 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Flag_of_Chad.svg",
     "author": "SKopp & others (see upload log)",
     "licence": "Public domain",
-    "used_years": null,
-    "usage_source": null,
-    "usage_source_null_reason": "only Commons/Wikipedia consulted; no independent usage source read",
+    "used_years": [
+     1959,
+     2026
+    ],
+    "usage_source": {
+     "author": "Whitney Smith",
+     "title": "flag of Chad",
+     "publisher": "Encyclopædia Britannica (Britannica Scholars)",
+     "url": "https://kids.britannica.com/scholars/article/flag-of-Chad/93835",
+     "quote": "A new design was therefore submitted in November 1959 and approved by acclamation on the 6th of that month.",
+     "url_check": "403 to scripted HEAD/curl (bot block); page content read OK via WebFetch 2026-10-24"
+    },
+    "usage_source_null_reason": null,
     "badges": [
-     "VERIFY",
      "MODERN_SVG_RENDERING"
     ],
-    "note": "current national flag only; not checked against a source",
+    "note": "Covers only 1959–2026. Before that the French Tricolor flew (\"When the Republic of Chad was proclaimed on November 28, 1958, it had no national flag\").",
     "url_check": {
      "file_page": 200,
      "image_url": 200
@@ -779,14 +806,29 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Libya.svg",
     "author": "Various  The SVG code is valid. This  vector image was created with a text editor.",
     "licence": "Public domain",
-    "used_years": null,
-    "usage_source": null,
-    "usage_source_null_reason": "only Commons/Wikipedia consulted; no independent usage source read",
+    "used_years": [
+     [
+      1949,
+      1969
+     ],
+     [
+      2011,
+      2026
+     ]
+    ],
+    "usage_source": {
+     "author": "Whitney Smith",
+     "title": "flag of Libya",
+     "publisher": "Encyclopædia Britannica (Britannica Scholars)",
+     "url": "https://kids.britannica.com/scholars/article/flag-of-Libya/93899",
+     "quote": "green and red horizontal stripes were added ... when the Libyan flag was established in 1949. No change was introduced at independence on December 24, 1951 ... Following the overthrow of Qaddafi in 2011, the 1949 flag was reinstated on August 3",
+     "url_check": "403 to scripted HEAD/curl (bot block); page content read OK via WebFetch 2026-10-24"
+    },
+    "usage_source_null_reason": null,
     "badges": [
-     "VERIFY",
      "MODERN_SVG_RENDERING"
     ],
-    "note": "current national flag only; not checked against a source",
+    "note": "Partial coverage: used 1949–1969 and 2011–2026. The 1969 red-white-black flag, the 1977–2011 plain green flag, the Ottoman flags and Italian rule (no own flag, 1911–42) are not given.",
     "url_check": {
      "file_page": 200,
      "image_url": 200
