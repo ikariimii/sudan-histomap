@@ -26,7 +26,7 @@ LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.ty
 document.addEventListener('click',ev=>{const t=ev.target.closest&&ev.target.closest('[data-hml]');if(!t)return;ev.preventDefault();if(!on.has('hml')){on.add('hml');const c=document.querySelector('#layers .chip[data-k=hml]');if(c)c.setAttribute('aria-pressed','true');url();render(false);hmlDraw()}});
 // --- era index
 let i=Math.max(0,ES.findIndex(e=>e.id===Q.get('era')));const r=$('r');r.max=ES.length-1;r.value=i;r.setAttribute('aria-label',T.era);
-function url(){const q=new URLSearchParams();q.set('era',ES[i].id);const ly=[...on].sort().concat(BDQ?['borders-draft']:[]).join(',');if(ly!=='ctl')q.set('layers',ly);history.replaceState(null,'',(AR?'/ar/':'/')+'?'+q)}
+function url(){const q=new URLSearchParams();q.set('era',ES[i].id);if(STY)q.set('story',STY.s);const ly=[...on].sort().concat(BDQ?['borders-draft']:[]).join(',');if(ly!=='ctl')q.set('layers',ly);history.replaceState(null,'',(AR?'/ar/':'/')+'?'+q)}
 // --- map
 const svg=d3.select('#svg'),W=()=>innerWidth,H=()=>innerHeight,desk=()=>innerWidth>=1000;
 const root=svg.append('g'),gB=root.append('g').attr('class','relief'),gZ=root.append('g').attr('class','zones'),gL=root.append('g'),gC=root.append('g'),gX=root.append('g'),gN=root.append('g'),gG=root.append('g'),gH=root.append('g').attr('class','hml'),gY=root.append('g').attr('class','cities'),gR=root.append('g'),gP=root.append('g'),gK=root.append('g'),gT=root.append('g'),gF=root.append('g').attr('class','flags');
@@ -372,6 +372,26 @@ const fold=s=>(s||'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f\u0
   $('srchn').textContent=hit.length===1?S.n1:hit.length?`${num(hit.length)} ${S.n}`:S.z;hit.slice(0,12).forEach(k=>{const e=ES[k],li=document.createElement('li'),a=document.createElement('button');a.type='button';a.innerHTML=`${esc(AR?e.ar:e.en)} <small><bdi>${fy(e.a)}</bdi> – <bdi>${fy(e.b)}</bdi></small>`;a.onclick=()=>pick(k);li.appendChild(a);R.appendChild(li)})};
  b.onclick=()=>{if(p.hidden){p.hidden=false;b.setAttribute('aria-expanded','true');I.focus();run()}else close()};$('srchx').onclick=()=>close();I.addEventListener('input',run);
  p.addEventListener('keydown',ev=>{if(ev.key==='Escape'){ev.stopPropagation();close()}else if(ev.key==='Enter'&&ev.target===I){const f=R.querySelector('button');if(f)f.click()}else if(ev.key==='ArrowDown'||ev.key==='ArrowUp'){const L=[I,...R.querySelectorAll('button')];const k=L.indexOf(document.activeElement);if(k<0)return;ev.preventDefault();L[Math.max(0,Math.min(L.length-1,k+(ev.key==='ArrowDown'?1:-1)))].focus()}});})();
+// story mode: ?story=<chapter> steps through that chapter's eras (prev/next/exit bar); era cards offer "play this chapter"
+var STY=null;
+(()=>{const SM=M.t.en.story,S=T.story;if(!SM||!S)return;const ix=id=>ES.findIndex(e=>e.id===id);
+ const CS=SM.c.map(c=>({...c,k:c.ids.map(ix).filter(k=>k>=0).sort((a,b)=>a-b)})).filter(c=>c.k.length>1);
+ const bar=document.createElement('div');bar.id='story';bar.hidden=true;bar.setAttribute('role','region');bar.setAttribute('aria-label',S.lbl);
+ bar.innerHTML=`<span id="stt"></span><span id="stn" aria-live="polite"></span><button type="button" class="nav" id="stp">‹</button><button type="button" class="nav" id="stx2">›</button><button type="button" class="chip" id="stx">×</button>`;
+ $('scrub').before(bar);$('stp').setAttribute('aria-label',S.prev);$('stx2').setAttribute('aria-label',S.next);$('stx').setAttribute('aria-label',S.x);$('stx').title=S.x;
+ const pos=()=>STY.k.indexOf(i);
+ const upd=()=>{if(!STY)return;const p=pos();$('stn').textContent=p<0?S.out:`${S.step} ${num(p+1)} ${S.of} ${num(STY.k.length)}`;
+  $('stp').disabled=p===0;$('stx2').disabled=p===STY.k.length-1;};
+ const step=d=>{tourStop();const p=pos();let k;if(p<0){k=d>0?STY.k.find(x=>x>i):[...STY.k].reverse().find(x=>x<i);if(k==null)k=STY.k[d>0?STY.k.length-1:0]}else k=STY.k[Math.max(0,Math.min(STY.k.length-1,p+d))];go(k);upd()};
+ const start=(c,first)=>{STY=c;bar.hidden=false;document.body.classList.add('storyon');$('stt').innerHTML=`${esc(S.ch)} ${num(c.n)}: <b>${esc(AR?c.ar:c.en)}</b>`;if(first&&pos()<0)go(c.k[0]);upd();url()};
+ const stop=()=>{STY=null;bar.hidden=true;document.body.classList.remove('storyon');url();const b=document.querySelector('#stcta button');if(b)b.focus()};
+ $('stp').onclick=()=>step(-1);$('stx2').onclick=()=>step(1);$('stx').onclick=stop;
+ bar.addEventListener('keydown',ev=>{if(ev.key==='Escape'){ev.stopPropagation();stop()}});
+ const g0=go;go=n=>{g0(n);upd();cta()};
+ function cta(){const o=$('stcta');if(o)o.remove();const cs=CS.filter(c=>c.k.includes(i));if(!cs.length||!$('card'))return;const w=document.createElement('div');w.id='stcta';
+  cs.forEach(c=>{const b=document.createElement('button');b.type='button';b.className='chip';b.innerHTML=`▶ ${esc(S.watch)} <small>(${esc(S.inch)} ${num(c.n)}: ${esc(AR?c.ar:c.en)})</small>`;b.onclick=()=>{start(c,false);$('stx2').focus()};w.appendChild(b)});$('card').after(w)}
+ new MutationObserver(()=>{if(!$('stcta'))cta()}).observe($('card').parentNode,{childList:true});new MutationObserver(cta).observe($('card'),{childList:true});
+ const q=Q.get('story'),c0=CS.find(c=>c.s===q);if(c0)start(c0,!Q.get('era'));cta()})();
 // --- start
 window.__hm={scale:k=>svg.call(zoom.scaleTo,k)};// test hook (QA only, no side effects)
 const eth1932=()=>{const e=ES[i];if(on.has('eth')&&(M.layers.eth||[]).includes(e.id)&&e.a<=1932&&1932<=e.b)Y=1932};eth1932();
