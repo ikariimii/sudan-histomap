@@ -54,7 +54,19 @@ for era,zone,g,conf,b,src,basis in D:
   out.setdefault(era,[]).append({"type":"Feature","geometry":mapping(g),"properties":{"era_id":era,"zone":zone,"confidence":conf,
    "badges":sorted(set(b+['EDITORIAL'] if conf<0.4 else b)),"method":"anchor points + Nile/area buffer (degrees), hand-placed; see README","basis":basis,
    "sources":[dict(id=s,**S[s]) for s in src],"status":"DRAFT – not live, needs Historian sign-off","version":"bd-0.1 2026-10-24"}})
+import argparse, datetime, glob, os
+ap=argparse.ArgumentParser(); ap.add_argument('--force',action='store_true',help='overwrite per-era files even if they carry signoffs')
+A=ap.parse_args()
+H=os.path.dirname(os.path.abspath(__file__))
+def signed(p):
+  try: return any((f.get('properties') or {}).get('signoff') for f in json.load(open(p,encoding='utf-8')).get('features',[]))
+  except FileNotFoundError: return False
+w=skip=0
 for era,fs in out.items():
-  json.dump({"type":"FeatureCollection","features":fs},open(f"{era}.geojson","w"),ensure_ascii=False,indent=1)
-json.dump({"type":"FeatureCollection","features":[f for fs in out.values() for f in fs]},open("_all_drafts.geojson","w"),ensure_ascii=False)
-print(len(out),"eras",sum(len(v) for v in out.values()),"features")
+  p=os.path.join(H,f"{era}.geojson")
+  if not A.force and signed(p): print(f"REFUSED {era}.geojson: has signed-off features (use --force to overwrite)"); skip+=1; continue
+  json.dump({"type":"FeatureCollection","features":fs},open(p,"w"),ensure_ascii=False,indent=1); w+=1
+# Roll-up = concatenation of per-era files on disk (authoritative), excluding _* and seligman1932-*
+roll=[f for p in sorted(glob.glob(os.path.join(H,'[!_]*.geojson'))) if not os.path.basename(p).startswith('seligman1932-') for f in json.load(open(p,encoding='utf-8'))['features']]
+json.dump({"type":"FeatureCollection","_meta":{"note":"Derived roll-up: concatenation of the per-era files in db/border_drafts/ (excluding _* and seligman1932-*). Do not edit by hand; per-era files are authoritative.","built":datetime.date.today().isoformat()},"features":roll},open(os.path.join(H,"_all_drafts.geojson"),"w"),ensure_ascii=False)
+print(len(out),"eras built;",w,"written,",skip,"refused; roll-up",len(roll),"features")
