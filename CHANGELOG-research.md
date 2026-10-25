@@ -115,3 +115,8 @@
 ## Pass 25 (Historian, 2026-10-24)
 - Registered ILEMI_PCGN_SSD2024 (UK PCGN, Toponymic Factfile: South Sudan, 2024, p.3; citation-only licence) from the Analyst's db/source_entry_ilemi.json (5b8fbd1).
 - In db/era_anchor_fill_hist23b.json, the Ilemi Triangle CONTESTED note now cites ILEMI_PCGN_SSD2024 in place of [VERIFY]. No extents written.
+
+## Pass 26: Abyei sources (Historian, 2026-10-24 EDT)
+- Registered UNSC1990, ABYEI_PROTOCOL2004 (read ONLY via quotation in PCA_ABYEI2009; URL is the PCA case page) and UNSG_S2013_706, from Analyst db/source_entry_abyei.json (e07992c, a35ffd4). UNSG_S2014_28 not registered or cited (downloaded, not read).
+- db/extents_notes_fill_ss2011.json: the two null Abyei cites (Sudan post-2011, South Sudan) filled with para/page cites, quotes and EN/AR notes (AR = working translation, needs native review). Analyst sentence "It has no recognised legal effect" removed. 2013 vote and status lines CONTESTED; "Final status unresolved" VERIFY (sourced only to 2011–2013). Map Designer must re-merge into extents_historic.json.
+- Rebuild: build_data.py only (seed.py skipped: it writes sudan.db). Offline verify: 1,223 checks, 0 problems, 537 IDs. extents_historic.json unchanged (62 items).

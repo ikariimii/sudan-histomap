@@ -24,6 +24,16 @@
     "lang": "en",
     "note": "Pass 17: full text read online 2026-10-20 (sections 'Mesolithic and Neolithic Periods in Sudan' and 'Arkell's Early Khartoum Mesolithic and Khartoum Neolithic')."
    },
+   "ABYEI_PROTOCOL2004": {
+    "author": "Government of Sudan and SPLM/A",
+    "title": "Protocol between the GoS and SPLM on the Resolution of the Abyei Conflict (Abyei Protocol), 26 May 2004, part of the CPA of 9 January 2005",
+    "year": "2004",
+    "lang": "en",
+    "pages": "ss.1.1.2, 1.1.3, 1.3, 8.1 (via PCA_ABYEI2009 para 589 p.205; fn 1182 p.244)",
+    "url": "https://pca-cpa.org/en/cases/92/",
+    "note": "READ ONLY VIA QUOTATION: primary text not read (UN Peacemaker URL returned 404). Wording is as quoted in the PCA Final Award (PCA_ABYEI2009); cite as 'Abyei Protocol, as quoted in PCA_ABYEI2009' until the primary is read. URL is the PCA case page (source of the quotes), not the Protocol itself.",
+    "via": "research_patch Pass 26"
+   },
    "ACCORD2020": {
     "author": "ACCORD, Conflict Trends",
     "title": "The Formation of the Revitalized Transitional Government of National Unity in South Sudan",
@@ -5607,6 +5617,16 @@
     "verification": "PDF downloaded and read 2026-10-20; symbol and date confirmed from the document",
     "via": "db/era_fill_modern3.json"
    },
+   "UNSC1990": {
+    "author": "United Nations Security Council",
+    "title": "Security Council resolution 1990 (2011) [S/RES/1990 (2011)]",
+    "year": "2011",
+    "lang": "en",
+    "pages": "pp.2–3 (OP 1, 2(a), 3, 9)",
+    "url": "https://documents.un.org/api/symbol/access?s=S/RES/1990(2011)&l=en&t=pdf",
+    "note": "Adopted 27 June 2011. Citation only (UN terms of use). Read by the Analyst; entry from db/source_entry_abyei.json, accessed 2026-10-24.",
+    "via": "research_patch Pass 26"
+   },
    "UNSC1996": {
     "author": "UN Security Council",
     "title": "Resolution 1996 (2011) [UNMISS]",
@@ -5662,6 +5682,16 @@
     "url": "https://press.un.org/en/2023/sc15257.doc.htm",
     "pages": "",
     "lang": "en"
+   },
+   "UNSG_S2013_706": {
+    "author": "United Nations Secretary-General",
+    "title": "Report of the Secretary-General on the situation in Abyei [S/2013/706]",
+    "year": "2013",
+    "lang": "en",
+    "pages": "pp.2–3 (paras 9–12)",
+    "url": "https://documents.un.org/api/symbol/access?s=S/2013/706&l=en&t=pdf",
+    "note": "Citation only (UN terms of use). Read by the Analyst; entry from db/source_entry_abyei.json (page pins fixed in a35ffd4), accessed 2026-10-24.",
+    "via": "research_patch Pass 26"
    },
    "UNTS6519_1959": {
     "author": "Governments of the United Arab Republic and the Republic of the Sudan",
