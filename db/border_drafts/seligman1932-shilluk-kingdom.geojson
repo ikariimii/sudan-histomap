@@ -8,84 +8,640 @@
     "coordinates": [
      [
       [
-       31.890487184708906,
-       10.460364617084684
+       31.60603,
+       9.41372
       ],
       [
-       31.996135340814167,
-       10.510764530373567
+       31.59084,
+       9.42068
       ],
       [
-       32.11302872169567,
-       10.516898179700107
+       31.58398,
+       9.41205
       ],
       [
-       32.170123898357375,
-       10.502798877256827
+       31.55137,
+       9.38649
       ],
       [
-       32.27072486542526,
-       10.442956337429582
+       31.50967,
+       9.36445
       ],
       [
-       32.34076729130758,
-       10.349170716332914
+       31.46396,
+       9.34894
       ],
       [
-       32.36958785159993,
-       10.23572002461002
+       31.41953,
+       9.34313
       ],
       [
-       32.35279887725683,
-       10.119876101642626
+       31.38437,
+       9.35163
       ],
       [
-       32.32783177255601,
-       10.066628630244665
+       31.36611,
+       9.35949
       ],
       [
-       32.24951281529109,
-       9.979635382915317
+       31.34912,
+       9.37995
       ],
       [
-       31.409170716332916,
-       9.359232708692424
+       31.32788,
+       9.38642
       ],
       [
-       31.29572002461002,
-       9.330412148400073
+       31.28296,
+       9.39155
       ],
       [
-       31.179876101642627,
-       9.347201122743174
+       31.12476,
+       9.43249
       ],
       [
-       31.126628630244667,
-       9.372168227443995
+       31.004,
+       9.49938
       ],
       [
-       31.039635382915318,
-       9.450487184708908
+       30.95972,
+       9.51447
       ],
       [
-       30.989235469626433,
-       9.55613534081417
+       30.93848,
+       9.5152
       ],
       [
-       30.983101820299893,
-       9.673028721695669
+       30.91113,
+       9.50344
       ],
       [
-       31.022168227443995,
-       9.783371369755336
+       30.88282,
+       9.50019
       ],
       [
-       31.100487184708907,
-       9.870364617084684
+       30.88282,
+       9.58991
       ],
       [
-       31.890487184708906,
-       10.460364617084684
+       30.88042,
+       9.5894
+      ],
+      [
+       30.92428,
+       9.60453
+      ],
+      [
+       30.98059,
+       9.60249
+      ],
+      [
+       31.04102,
+       9.58199
+      ],
+      [
+       31.15889,
+       9.51711
+      ],
+      [
+       31.29968,
+       9.48067
+      ],
+      [
+       31.34646,
+       9.47495
+      ],
+      [
+       31.37576,
+       9.46642
+      ],
+      [
+       31.39875,
+       9.45574
+      ],
+      [
+       31.42238,
+       9.43472
+      ],
+      [
+       31.44315,
+       9.43744
+      ],
+      [
+       31.47341,
+       9.4477
+      ],
+      [
+       31.50147,
+       9.46254
+      ],
+      [
+       31.51927,
+       9.47649
+      ],
+      [
+       31.53743,
+       9.49934
+      ],
+      [
+       31.54689,
+       9.52284
+      ],
+      [
+       31.54145,
+       9.54535
+      ],
+      [
+       31.54131,
+       9.56415
+      ],
+      [
+       31.55193,
+       9.6099
+      ],
+      [
+       31.56033,
+       9.62543
+      ],
+      [
+       31.5833,
+       9.65065
+      ],
+      [
+       31.59385,
+       9.67094
+      ],
+      [
+       31.60537,
+       9.68464
+      ],
+      [
+       31.61938,
+       9.69583
+      ],
+      [
+       31.64431,
+       9.70755
+      ],
+      [
+       31.66467,
+       9.72978
+      ],
+      [
+       31.69867,
+       9.75102
+      ],
+      [
+       31.745,
+       9.7655
+      ],
+      [
+       31.79003,
+       9.76861
+      ],
+      [
+       31.87412,
+       9.82927
+      ],
+      [
+       31.91561,
+       9.84534
+      ],
+      [
+       31.93046,
+       9.87139
+      ],
+      [
+       31.96003,
+       9.90854
+      ],
+      [
+       32.03626,
+       9.96079
+      ],
+      [
+       32.05822,
+       9.98075
+      ],
+      [
+       32.08418,
+       10.01536
+      ],
+      [
+       32.09916,
+       10.05521
+      ],
+      [
+       32.12246,
+       10.0823
+      ],
+      [
+       32.14449,
+       10.09695
+      ],
+      [
+       32.16657,
+       10.14713
+      ],
+      [
+       32.18705,
+       10.17234
+      ],
+      [
+       32.18804,
+       10.17564
+      ],
+      [
+       32.17827,
+       10.19176
+      ],
+      [
+       32.15512,
+       10.24987
+      ],
+      [
+       32.15099,
+       10.27929
+      ],
+      [
+       32.15587,
+       10.31599
+      ],
+      [
+       32.14461,
+       10.35442
+      ],
+      [
+       32.11753,
+       10.3557
+      ],
+      [
+       32.08478,
+       10.36416
+      ],
+      [
+       32.05261,
+       10.3802
+      ],
+      [
+       32.0292,
+       10.40739
+      ],
+      [
+       32.00934,
+       10.45038
+      ],
+      [
+       32.00714,
+       10.46747
+      ],
+      [
+       32.00992,
+       10.51718
+      ],
+      [
+       32.01909,
+       10.55965
+      ],
+      [
+       32.03626,
+       10.59963
+      ],
+      [
+       32.06038,
+       10.63527
+      ],
+      [
+       32.07751,
+       10.65427
+      ],
+      [
+       32.13849,
+       10.58717
+      ],
+      [
+       32.11172,
+       10.54914
+      ],
+      [
+       32.10498,
+       10.5299
+      ],
+      [
+       32.10068,
+       10.51142
+      ],
+      [
+       32.09805,
+       10.47033
+      ],
+      [
+       32.10864,
+       10.45143
+      ],
+      [
+       32.1333,
+       10.44477
+      ],
+      [
+       32.20371,
+       10.44533
+      ],
+      [
+       32.2209,
+       10.44086
+      ],
+      [
+       32.23154,
+       10.42963
+      ],
+      [
+       32.23506,
+       10.40856
+      ],
+      [
+       32.23506,
+       10.3642
+      ],
+      [
+       32.24814,
+       10.32319
+      ],
+      [
+       32.24194,
+       10.27883
+      ],
+      [
+       32.24414,
+       10.26838
+      ],
+      [
+       32.25986,
+       10.23171
+      ],
+      [
+       32.27856,
+       10.20307
+      ],
+      [
+       32.28296,
+       10.18542
+      ],
+      [
+       32.28037,
+       10.16706
+      ],
+      [
+       32.26621,
+       10.11982
+      ],
+      [
+       32.25903,
+       10.1103
+      ],
+      [
+       32.24658,
+       10.10412
+      ],
+      [
+       32.21836,
+       10.03454
+      ],
+      [
+       32.21216,
+       10.02534
+      ],
+      [
+       32.1835,
+       10.01525
+      ],
+      [
+       32.17651,
+       10.00764
+      ],
+      [
+       32.16836,
+       9.97902
+      ],
+      [
+       32.15527,
+       9.95746
+      ],
+      [
+       32.12524,
+       9.91913
+      ],
+      [
+       32.10126,
+       9.89734
+      ],
+      [
+       32.1626,
+       9.83057
+      ],
+      [
+       32.14198,
+       9.81343
+      ],
+      [
+       32.088,
+       9.77831
+      ],
+      [
+       32.05098,
+       9.7168
+      ],
+      [
+       32.03832,
+       9.70195
+      ],
+      [
+       32.02275,
+       9.69014
+      ],
+      [
+       31.99722,
+       9.67644
+      ],
+      [
+       31.96213,
+       9.66971
+      ],
+      [
+       31.86676,
+       9.6024
+      ],
+      [
+       31.82056,
+       9.58956
+      ],
+      [
+       31.78544,
+       9.5872
+      ],
+      [
+       31.76819,
+       9.56421
+      ],
+      [
+       31.73932,
+       9.54423
+      ],
+      [
+       31.74309,
+       9.51179
+      ],
+      [
+       31.73793,
+       9.48729
+      ],
+      [
+       31.72739,
+       9.46291
+      ],
+      [
+       31.71313,
+       9.44485
+      ],
+      [
+       31.6918,
+       9.4035
+      ],
+      [
+       31.72276,
+       9.39249
+      ],
+      [
+       31.75207,
+       9.4115
+      ],
+      [
+       31.76435,
+       9.42769
+      ],
+      [
+       31.77788,
+       9.43924
+      ],
+      [
+       31.81037,
+       9.45347
+      ],
+      [
+       31.837,
+       9.45535
+      ],
+      [
+       31.88226,
+       9.44851
+      ],
+      [
+       31.90427,
+       9.43688
+      ],
+      [
+       31.93572,
+       9.41122
+      ],
+      [
+       31.88408,
+       9.33677
+      ],
+      [
+       31.85098,
+       9.36359
+      ],
+      [
+       31.83008,
+       9.36518
+      ],
+      [
+       31.8251,
+       9.33173
+      ],
+      [
+       31.81372,
+       9.32263
+      ],
+      [
+       31.78613,
+       9.32775
+      ],
+      [
+       31.77856,
+       9.30104
+      ],
+      [
+       31.75659,
+       9.29475
+      ],
+      [
+       31.73828,
+       9.30219
+      ],
+      [
+       31.73164,
+       9.2989
+      ],
+      [
+       31.72583,
+       9.28469
+      ],
+      [
+       31.72061,
+       9.28168
+      ],
+      [
+       31.70664,
+       9.28754
+      ],
+      [
+       31.68408,
+       9.31066
+      ],
+      [
+       31.66943,
+       9.31586
+      ],
+      [
+       31.61631,
+       9.31989
+      ],
+      [
+       31.59131,
+       9.32807
+      ],
+      [
+       31.57666,
+       9.34313
+      ],
+      [
+       31.59204,
+       9.34963
+      ],
+      [
+       31.59678,
+       9.36017
+      ],
+      [
+       31.59121,
+       9.37079
+      ],
+      [
+       31.57666,
+       9.37726
+      ],
+      [
+       31.54287,
+       9.36469
+      ],
+      [
+       31.53623,
+       9.37726
+      ],
+      [
+       31.60603,
+       9.41372
       ]
      ]
     ]
@@ -99,21 +655,50 @@
      "SINGLE-SOURCE",
      "EDITORIAL"
     ],
-    "method": "Seligman 1932 plate georeferenced from 30 printed graticule intersections (28–36°E × 4–14°N), gdal order-2 polynomial, GCP RMS 1.33 km (LOO 1.71 km). The plate draws NO tribal boundary lines, only spread-letter labels. Shape = 0.3° buffer around the line through the centres of the spread letters of the 'SHILLUK' label. The edge is therefore inferred (EDITORIAL), not traced.",
-    "label_positions": "S 31.28/9.63 to K 32.07/10.22",
-    "basis": "Seligman & Seligman 1932, folding Tribal Map of Southern Sudan: placement of the spread label SHILLUK.",
-    "temporal_note": "Shows the c.1910s–1930s distribution recorded by the Seligmans, not the full span of the era.",
+    "label_en": "Shilluk country (as recorded by Seligman, 1932)",
+    "label_ar": "بلاد الشلك (كما سجّلها سليغمان، 1932) [يحتاج تحقق]",
+    "label_note": "As recorded by Seligman, 1932. A 1910s–30s ethnographic record, not a present-day homeland or a claim about current territory.",
+    "page_cites": [
+     "p.37"
+    ],
+    "basis": "Seligman & Seligman 1932, p.37: limits stated in the text only. Quote: The Shilluk country forms a narrow fringe on the west bank of the Nile, from Kaka in the north to within 30 miles of Lake No in the south. From Kodok to Taufikia the Shilluk also occupy the east bank, and their villages extend some 35 miles up the Sobat River, principally on the north bank.",
+    "method": "Text-limit redraw. Only the limits stated on p.37 are used; no coordinate is invented. Named places from Wikidata P625. Rivers: Natural Earth 10m rivers/lake centrelines (White Nile, Bahr el Jebel, Sobat, Akobo); Baro: OpenStreetMap ways (ODbL). Projection for distances: local equirectangular at 9°N. Bank bands are 10 km each side or on the stated bank (EDITORIAL width; the pages give banks, not widths).",
+    "edges": {
+     "west bank Nile, Kaka to 30 mi (48.3 km, measured along the river) downstream of Lake No; south end at 30.883E 9.500N": "STATED (p.37)",
+     "east bank Nile, Taufikia to Kodok": "STATED (p.37)",
+     "Sobat north bank, mouth to 35 mi (56.3 km) upstream; end at 31.884E 9.337N": "STATED (p.37); 'principally' means south-bank villages exist but are not drawn",
+     "band width 10 km": "EDITORIAL"
+    },
+    "place_coordinates": {
+     "Kaka": "Q2384486 (32.15E 10.5745N)",
+     "Kodok": "Q1888763 (32.1103E 9.8875N)",
+     "Taufikia": "Q20911591 (31.6041E 9.4157N)",
+     "Lake No": "Q403145 (30.465E 9.4978N)"
+    },
+    "temporal_note": "Shows the c.1910s–1930s distribution recorded by the Seligmans, not the full span of the era and not today.",
     "sources": [
+     {
+      "id": "SELIGMAN1932",
+      "registered": false,
+      "citation": "C.G. Seligman & B.Z. Seligman, Pagan Tribes of the Nilotic Sudan (London: Routledge, 1932), p.37",
+      "url": "https://archive.org/details/in.gov.ignca.2109/page/n717/mode/1up",
+      "plate": "folding 'Tribal Map of Southern Sudan', scan leaf n717 of in.gov.ignca.2109",
+      "pages": "p.37",
+      "page_urls": [
+       "https://archive.org/details/in.gov.ignca.2109/page/n70/mode/1up"
+      ]
+     },
      {
       "id": "SELIGMAN1932",
       "registered": false,
       "citation": "C.G. Seligman & B.Z. Seligman, Pagan Tribes of the Nilotic Sudan (London: Routledge, 1932), folding plate 'Tribal Map of Southern Sudan' (unpaginated, end of volume; graticule 24–36°E, 4–16°N)",
       "url": "https://archive.org/details/in.gov.ignca.2109/page/n717/mode/1up",
-      "plate": "folding 'Tribal Map of Southern Sudan', scan leaf n717 of in.gov.ignca.2109"
+      "plate": "folding 'Tribal Map of Southern Sudan', scan leaf n717 of in.gov.ignca.2109",
+      "role": "bd-0.1 plate-label draft, superseded; kept for reference"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off; SELIGMAN1932 not yet in the registry",
-    "version": "bd-0.1 2026-10-25 (Sudan Map Designer)"
+    "version": "bd-0.2 2026-10-25 (Sudan Map Designer): text-limit redraw from Seligman 1932 pp.37/105/108/206; replaces bd-0.1 plate-label buffer"
    }
   }
  ]

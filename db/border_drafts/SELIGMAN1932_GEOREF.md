@@ -61,9 +61,19 @@ spread letters of the main label, so every edge is inferred (EDITORIAL). Shows t
 
 | File | Label | bbox (W,S,E,N) |
 |---|---|---|
-| seligman1932-nuer-naath-communities.geojson | NUER | 29.48, 8.37, 33.64, 9.02 |
-| seligman1932-dinka-jieng-communities.geojson | DINKA ×2 (W and E of White Nile) | 27.39, 5.95, 33.60, 12.14 |
-| seligman1932-anuak-anywaa-communities.geojson | ANUAK | 32.99, 6.42, 34.73, 8.14 |
-| seligman1932-shilluk-kingdom.geojson | SHILLUK | 30.98, 9.33, 32.37, 10.52 |
+| seligman1932-nuer-naath-communities.geojson | NUER | 30.10, 7.45, 33.21, 9.58 (bd-0.2 text redraw, p.206) |
+| seligman1932-dinka-jieng-communities.geojson | DINKA ×2 (W and E of White Nile) | 27.39, 5.95, 33.60, 12.14 (bd-0.1 label buffer kept; VERIFY, pp.134–136 give no limits) |
+| seligman1932-anuak-anywaa-communities.geojson | ANUAK | 32.90, 6.53, 34.77, 8.71 (bd-0.2 text redraw, pp.105, 108) |
+| seligman1932-shilluk-kingdom.geojson | SHILLUK | 30.88, 9.28, 32.28, 10.65 (bd-0.2 text redraw, p.37) |
 
 Not used: Evans-Pritchard 1940 (in-copyright upload; lead only, not opened). Not built into `_all_drafts.geojson` (build_drafts.py not run).
+
+## bd-0.2 text-limit redraw (2026-10-25, after QA's final call; IM lifted the hold)
+Shilluk, Nuer and Anuak are redrawn from the limits the text states, not from the plate labels. Each is APPROXIMATE,
+carries its page cites, and is labelled "as recorded by Seligman, 1932" (not a present-day homeland); Arabic labels are
+tagged [يحتاج تحقق]. Per-edge STATED/EDITORIAL notes are in each feature's `edges` property.
+- **Shilluk, p.37:** west bank of the Nile from Kaka to 30 mi above Lake No; east bank Kodok–Taufikia; north bank of the Sobat for 35 mi from its mouth.
+- **Nuer, p.206:** both sides of the White Nile/Bahr el Jebel south of Lake No, south to about 7°30'N, east to the Sobat. Now includes the southern half the bd-0.1 draft left out. The SE closure (meridian of the Sobat head) and the west-bank width are EDITORIAL.
+- **Anuak, pp.105, 108:** Baro and Akobo banks, Sobat near Nasir, and the Pibor mouth (Ajungmir, not located). Cut at the Ethiopian line because the pages give no limit "into Abyssinia". The Gila is not drawn (no traced line available).
+- **Dinka:** not redrawn; pp.134–136 give no limits, so it stays VERIFY on the bd-0.1 label buffer.
+Inputs: Natural Earth 10m rivers and admin-0, OSM Baro ways (ODbL), Wikidata P625 for Kaka, Kodok, Taufikia, Lake No, Nasir. Bank bands are 10 km (EDITORIAL width).
