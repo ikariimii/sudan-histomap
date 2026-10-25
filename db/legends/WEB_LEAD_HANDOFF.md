@@ -11,10 +11,18 @@ Files (data only, no view code touched): `legend_spec.json` (symbol classes, unc
 - "What changed" drawer: `interactive.what_changed` (vs previous era in same stream): extents/cities/capitals/groups added/removed. Null for the first era of a stream.
 - Context card: `context.key_events_*` (cite `key_events_source_ids`), `control_limits_*` (cite `control_limits_source_ids`), `dating_note`.
 
+## Cities: role shapes, ruins
+- Port and religious-centre shapes in `legend_spec.json` now match `map.js` CSH (triangle, plus-cross); see each class's `decision`. No change needed in your code.
+- `ruin`: hollow grey circle, dashed outline (svg in the spec). Draw from `visible_from` to `visible_to`; role shape while a cited role is active, ruin symbol after. `visible_to` null + RUIN-UNDATED = open end: keep drawing in later eras with a '?' tick. `visible_to_basis` is now last_attested / last_cited_role / abandoned; show it in the popup with its badge.
+- Open-ended ruins right now: Soleb, Abu Simbel, Ain Farah.
+
+## Homelands layer
+- Spec in `legend_spec.homelands_layer`: `db/group_layers/homelands.geojson`, off by default, era-independent (undated), soft area (no outline) or point, badge chips in popup. Toggle label "Homelands (undated)"; Arabic flagged for native review.
+
 ## GIS furniture
 - Credit/datum line always visible (collapsed to "WGS 84 · Web Mercator ⓘ" on mobile).
 - Scale bar latitude-corrected; graticule 5°; north arrow only in equal-area mode.
-- Projection switch: Web Mercator (default) ↔ LAEA 30°E 15°N for size comparison (e.g. MapLibre globe/custom projection or d3-geo `geoAzimuthalEqualArea().rotate([-30,-15])`). Show the disclosure sentence on switch.
+- Projection switch: Web Mercator (default) ↔ LAEA 30°E 15°N for size comparison (e.g. MapLibre globe/custom projection or d3-geo `geoAzimuthalEqualArea().rotate([-30,-15])`). Show the disclosure sentence on switch. The disclosure and credit line no longer mention equal-area (removed 2026-10-24).
 - Contested: points/dashed lines only, amber hatch; never polygons owned by a state. South Sudan as separate neighbour from 2011-07-09.
 
 ## Accessibility & 390 px
@@ -39,6 +47,5 @@ Files (data only, no view code touched): `legend_spec.json` (symbol classes, unc
 | Pre-delivery checklist | `pre_delivery_checklist` |
 
 ## Known gaps
-- `ruin` class currently never triggers: `visible_to` = last role end, so ruins vanish rather than persist as ruins. Decide whether to show them past their end.
 - No river/terrain asset is committed yet; pick a PD/CC0/CC BY source (Natural Earth suggested), not done by me.
 - Homelands have no dates, so they are not tied to eras.
