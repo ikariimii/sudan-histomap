@@ -255,6 +255,7 @@ async function legendDraw(e){const b=$('lgb'),p=$('lgp');if(!b||!p)return;const 
   const bd=(d.badges||{})[l]||[];if(bd.length)h+=`<p>${bd.map(x=>`<span class="repb">${esc(AR?(x.ar||(BL[x.id]&&BL[x.id][1])||x.en):(x.en!==x.id?x.en:(BL[x.id]?BL[x.id][0]:x.en)))} <bdi>${num(x.n)}</bdi></span>`).join(' ')}</p>`;
   const sr=(d.src||{})[l]||[];if(sr.length)h+=`<details class="srcs"><summary>${esc(T.lgsrc)} (${num(sr.length)})</summary><ul>${sr.map(x=>`<li dir="ltr"><bdi>${esc(x.c)}</bdi>${x.u?` <a href="${esc(x.u)}" rel="noopener">link</a>`:''}</li>`).join('')}</ul></details>`}
  if(sp&&sp.credit)h+=`<details class="cr"><summary>${esc(T.lgcred)} ⓘ</summary><p dir="ltr">${esc(sp.credit)}</p><p>${esc(AR?(sp.dis_ar||sp.dis_en):sp.dis_en)}</p></details>`;
+ h+=`<p class="lgm"><a href="${AR?'/ar':''}/methodology/">${esc(T.meth||'')}</a></p>`;
  p.innerHTML=h;p.hidden=!lgOpen;lgFit()}
 function lgFit(){const b=$('lgb'),p=$('lgp'),s=$('sheet');if(!b||!p)return;const L=$('layers').getBoundingClientRect(),N=$('nob').getBoundingClientRect();const t0=Math.max(L.bottom,N.height?N.bottom:0)+8;b.style.top=t0+'px';const bt=b.getBoundingClientRect().bottom+6;p.style.top=bt+'px';if(p.hidden)return;const S=s?s.getBoundingClientRect():null,P=p.getBoundingClientRect();const cov=S&&S.width&&S.left<P.right&&S.right>P.left;const lim=(cov?S.top:innerHeight)-bt-8;p.style.maxHeight=Math.max(120,Math.min(lim,Math.round(innerHeight*(desk()?.6:.38))))+'px'}
 addEventListener('resize',lgFit);

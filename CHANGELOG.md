@@ -1,5 +1,6 @@
 # Changelog
 
+- Methodology: new /methodology/ page in English and Arabic (Arabic a working translation, marked *). It covers sources and citation, badge meanings, how borders, points and homelands are decided, CINC versus editorial scores, population, city dating, translation status, known gaps and licences, built only from the project's documentation and data files; counts are computed at build time. Linked from Data & sources and from the map legend.
 - Arabic entry page: /ar/ is now the full map in Arabic (lang from the path, dir=rtl, own title, canonical, AR OG card) instead of a redirect stub. / and /ar/ carry hreflang en/ar/x-default alternates. ?era= and ?layers= deep links work under /ar/; old /?lang=ar links, /ar/eras/…, /ar/chapters/… and era.html?lang=ar now redirect to /ar/?era=….
 - Map, artifacts: era cards show one artifact or site image per era (59 eras), from db/era_artifacts.json. Images are self-hosted at 480 and 960px WebP and lazy-loaded, with caption, museum or site, author, licence and a Wikimedia Commons link.
 - Map, basemap: Natural Earth shaded relief and 10m rivers (public domain) are re-projected to the map, with the Nile system emphasised. Mobile loads a 24KB image and switches to 83KB on desktop or at zoom 2× and up. Natural Earth is credited in the legend and About.

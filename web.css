@@ -62,3 +62,4 @@ main li,main p,.note{overflow-wrap:anywhere}.src,.flags{list-style-position:insi
 
 .repb.edit{background:#2f5d8a;color:#fff}.cl{white-space:nowrap;font-size:.85em;color:#5a5048;margin-inline-end:.3em}
 .geob{display:inline-block;font:600 11px/1.5 system-ui,sans-serif;padding:0 5px;border-radius:9px;border:1px dashed #c9a24a;background:#fff3d6;color:#6b4a12;vertical-align:middle}.geob.pts{border-color:#5b7fa6;background:#eef3f8;color:#2f4f73}
+.meth table{border-collapse:collapse;width:100%}.meth th,.meth td{border-bottom:1px solid #0002;padding:.35em .5em;text-align:start;vertical-align:top}.meth .tw{overflow-x:auto}.meth h2{margin-top:1.6em}
