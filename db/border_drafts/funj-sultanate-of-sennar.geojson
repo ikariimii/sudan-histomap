@@ -110,21 +110,43 @@
      "APPROXIMATE"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Gezira and Blue Nile heartland around Sennar.",
+    "basis": "Gezira and Blue Nile heartland: 'Funj sultanate with its centre at Sennar' (GHA IV ch.16 p.406).",
     "sources": [
      {
+      "id": "GHA4_CH16",
+      "citation": "L. Kropáček, Nubia from the late 12th century to the Funj conquest in the early 16th century, ch.16 (General History of Africa IV) (1984)",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184287"
+     },
+     {
       "id": "OFS1974",
-      "citation": "R.S. O'Fahey & J.L. Spaulding (1974) Kingdoms of the Sudan, Methuen (Routledge reissue 2016)",
-      "url": "https://doi.org/10.4324/9781315451138"
+      "citation": "R.S. O'Fahey & J.L. Spaulding, Kingdoms of the Sudan (1974)",
+      "url": "https://openlibrary.org/works/OL4466628W"
      },
      {
       "id": "HD2011",
-      "citation": "P.M. Holt & M.W. Daly (2011) A History of the Sudan, 6th ed.",
+      "citation": "P.M. Holt & M.W. Daly, A History of the Sudan: From the Coming of Islam to the Present Day (2011)",
       "url": "https://doi.org/10.4324/9781315834030"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "core",
+     "confidence": 0.6,
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "sources": [
+      "GHA4_CH16",
+      "OFS1974",
+      "HD2011"
+     ],
+     "basis_en": "Gezira and Blue Nile heartland: 'Funj sultanate with its centre at Sennar' (GHA IV ch.16 p.406).",
+     "pages": "GHA IV ch.16 p.406"
+    }
    }
   },
   {
@@ -327,26 +349,45 @@
      "EDITORIAL"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Tributary north (Abdallab/Ja'aliyyin to Dongola) and episodic Kordofan claims; vassals drawn separately.",
+    "basis": "Tributary north (Abdallab at Kerri, GHA V p.172) and Kordofan rivalry with the Darfur sultans (p.187). The extent down to Dongola is not checked page by page.",
     "sources": [
      {
+      "id": "GHA5_CH7",
+      "citation": "Y.F. Hasan and B.A. Ogot, The Sudan, 1500–1800, ch.7 (General History of Africa V) (1992)",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
+     },
+     {
       "id": "OFS1974",
-      "citation": "R.S. O'Fahey & J.L. Spaulding (1974) Kingdoms of the Sudan, Methuen (Routledge reissue 2016)",
-      "url": "https://doi.org/10.4324/9781315451138"
+      "citation": "R.S. O'Fahey & J.L. Spaulding, Kingdoms of the Sudan (1974)",
+      "url": "https://openlibrary.org/works/OL4466628W"
      },
      {
       "id": "HD2011",
-      "citation": "P.M. Holt & M.W. Daly (2011) A History of the Sudan, 6th ed.",
+      "citation": "P.M. Holt & M.W. Daly, A History of the Sudan: From the Coming of Islam to the Present Day (2011)",
       "url": "https://doi.org/10.4324/9781315834030"
-     },
-     {
-      "id": "GHA5",
-      "citation": "B.A. Ogot (ed.) (1992) General History of Africa V, ch.7 'The Sudan, 1500-1800' (Y.F. Hasan & B.A. Ogot)",
-      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "not-verified",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "claimed",
+     "confidence": 0.35,
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "sources": [
+      "GHA5_CH7",
+      "OFS1974",
+      "HD2011"
+     ],
+     "basis_en": "Tributary north (Abdallab at Kerri, GHA V p.172) and Kordofan rivalry with the Darfur sultans (p.187). The extent down to Dongola is not checked page by page.",
+     "pages": "GHA V ch.7 pp.172, 177, 187",
+     "reason": "northern limit to Dongola is not supported by any page checked"
+    }
    }
   }
  ]

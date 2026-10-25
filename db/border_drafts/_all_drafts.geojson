@@ -193,21 +193,32 @@
      "EDITORIAL"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Around Qarri north of the confluence (GHA V ch.7 p.172).",
+    "basis": "The Abdallab 'administered the new regime from Kerri, north of Soba' (GHA V ch.7 p.172).",
     "sources": [
      {
-      "id": "GHA5",
-      "citation": "B.A. Ogot (ed.) (1992) General History of Africa V, ch.7 'The Sudan, 1500-1800' (Y.F. Hasan & B.A. Ogot)",
+      "id": "GHA5_CH7",
+      "citation": "Y.F. Hasan and B.A. Ogot, The Sudan, 1500–1800, ch.7 (General History of Africa V) (1992)",
       "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
-     },
-     {
-      "id": "OFS1974",
-      "citation": "R.S. O'Fahey & J.L. Spaulding (1974) Kingdoms of the Sudan, Methuen (Routledge reissue 2016)",
-      "url": "https://doi.org/10.4324/9781315451138"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "core",
+     "confidence": 0.4,
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "sources": [
+      "GHA5_CH7"
+     ],
+     "basis_en": "The Abdallab 'administered the new regime from Kerri, north of Soba' (GHA V ch.7 p.172).",
+     "pages": "GHA V ch.7 p.172"
+    }
    }
   },
   {
@@ -308,16 +319,32 @@
      "EDITORIAL"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Northern overlordship under the Funj (O'Fahey & Spaulding ch.5).",
+    "basis": "Northern overlordship under the Funj (O'Fahey & Spaulding 1974 ch.5). Not verified: the archive.org copy is lending-only and no text is on the box; page not checked.",
     "sources": [
      {
       "id": "OFS1974",
-      "citation": "R.S. O'Fahey & J.L. Spaulding (1974) Kingdoms of the Sudan, Methuen (Routledge reissue 2016)",
-      "url": "https://doi.org/10.4324/9781315451138"
+      "citation": "R.S. O'Fahey & J.L. Spaulding, Kingdoms of the Sudan (1974)",
+      "url": "https://openlibrary.org/works/OL4466628W"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "not-verified",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "influence",
+     "confidence": 0.25,
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "sources": [
+      "OFS1974"
+     ],
+     "basis_en": "Northern overlordship under the Funj (O'Fahey & Spaulding 1974 ch.5). Not verified: the archive.org copy is lending-only and no text is on the box; page not checked.",
+     "reason": "OFS1974 text not readable; ch.5 page unchecked"
+    }
    }
   },
   {
@@ -414,25 +441,46 @@
     "zone": "core",
     "confidence": 0.4,
     "badges": [
-     "APPROXIMATE",
-     "VERIFY"
+     "APPROXIMATE"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Core around Soba on the Blue Nile and the northern Gezira.",
+    "basis": "Core around Soba, 'on the right bank of the Blue Nile, approximately 15 km from Khartoum' (Drzewiecki & Ryndziewicz 2019), and the northern Gezira (GHA IV p.418). VERIFY removed.",
     "sources": [
      {
-      "id": "WELSBY2002",
-      "citation": "D.A. Welsby (2002) The Medieval Kingdoms of Nubia, British Museum Press",
-      "url": "https://books.google.com/books?id=mXIPAQAAMAAJ"
+      "id": "GHA4_CH16",
+      "citation": "L. Kropáček, Nubia from the late 12th century to the Funj conquest in the early 16th century, ch.16 (General History of Africa IV) (1984)",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184287"
      },
      {
       "id": "DRZEWIECKI_SOBA",
-      "citation": "M. Drzewiecki et al. (2019) Developing a New Approach to Research at Soba, Archaeologies",
-      "url": "https://link.springer.com/article/10.1007/s11759-019-09370-x"
+      "citation": "Mariusz Drzewiecki & Robert Ryndziewicz, Developing a New Approach to Research at Soba, the Capital of the Medieval Kingdom of Alwa (2019)",
+      "url": "https://doi.org/10.1007/s11759-019-09370-x"
+     },
+     {
+      "id": "WELSBY2002",
+      "citation": "Derek A. Welsby, The Medieval Kingdoms of Nubia: Pagans, Christians and Muslims along the Middle Nile (2002)",
+      "url": "https://doi.org/10.1017/s002185370323855x"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "core",
+     "confidence": 0.4,
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "sources": [
+      "GHA4_CH16",
+      "DRZEWIECKI_SOBA",
+      "WELSBY2002"
+     ],
+     "basis_en": "Core around Soba, 'on the right bank of the Blue Nile, approximately 15 km from Khartoum' (Drzewiecki & Ryndziewicz 2019), and the northern Gezira (GHA IV p.418). VERIFY removed.",
+     "pages": "GHA IV ch.16 p.418; Drzewiecki & Ryndziewicz 2019 abstract"
+    }
    }
   },
   {
@@ -652,25 +700,41 @@
     "confidence": 0.25,
     "badges": [
      "APPROXIMATE",
-     "EDITORIAL",
-     "VERIFY"
+     "EDITORIAL"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Between the 5th cataract and lands south of Khartoum \"about which very little is known\" (Ochała, citing Welsby 2002); southern limit editorial.",
+    "basis": "'Alwa… between the 5th Cataract and the regions south of Khartoum (about which very little is known)' (Tsakos 2011 p.240; draft wrongly credited Ochała). Southern limit: 'It cannot even be said with certainty how far the limits of ʿAlwa extended. At present the southernmost sites of the same culture have been discerned near Wad Hedani, although a further extension is fairly probable' (GHA IV p.418). Edge south of Wad Hedani stays EDITORIAL; VERIFY removed.",
     "sources": [
      {
-      "id": "OCHALA_ALWA",
-      "citation": "V. Ochała, Miscellanea Epigraphica Nubica II: Languages and scripts in the Kingdom of Alwa (Collectanea Christiana Orientalia)",
-      "url": "https://journals.uco.es/cco/article/download/14673/13083/28959"
+      "id": "TSAKOS2011_ALWA",
+      "citation": "Alexandros Tsakos, Miscellanea Epigraphica Nubica II: Languages and scripts in the Kingdom of Alwa (2011)",
+      "url": "https://doi.org/10.21071/cco.v8i.14673"
      },
      {
-      "id": "WELSBY2002",
-      "citation": "D.A. Welsby (2002) The Medieval Kingdoms of Nubia, British Museum Press",
-      "url": "https://books.google.com/books?id=mXIPAQAAMAAJ"
+      "id": "GHA4_CH16",
+      "citation": "L. Kropáček, Nubia from the late 12th century to the Funj conquest in the early 16th century, ch.16 (General History of Africa IV) (1984)",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184287"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "claimed",
+     "confidence": 0.25,
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "sources": [
+      "TSAKOS2011_ALWA",
+      "GHA4_CH16"
+     ],
+     "basis_en": "'Alwa… between the 5th Cataract and the regions south of Khartoum (about which very little is known)' (Tsakos 2011 p.240; draft wrongly credited Ochała). Southern limit: 'It cannot even be said with certainty how far the limits of ʿAlwa extended. At present the southernmost sites of the same culture have been discerned near Wad Hedani, although a further extension is fairly probable' (GHA IV p.418). Edge south of Wad Hedani stays EDITORIAL; VERIFY removed.",
+     "pages": "Tsakos 2011 p.240; GHA IV ch.16 pp.406, 418"
+    }
    }
   },
   {
@@ -1263,21 +1327,43 @@
      "APPROXIMATE"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Gezira and Blue Nile heartland around Sennar.",
+    "basis": "Gezira and Blue Nile heartland: 'Funj sultanate with its centre at Sennar' (GHA IV ch.16 p.406).",
     "sources": [
      {
+      "id": "GHA4_CH16",
+      "citation": "L. Kropáček, Nubia from the late 12th century to the Funj conquest in the early 16th century, ch.16 (General History of Africa IV) (1984)",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184287"
+     },
+     {
       "id": "OFS1974",
-      "citation": "R.S. O'Fahey & J.L. Spaulding (1974) Kingdoms of the Sudan, Methuen (Routledge reissue 2016)",
-      "url": "https://doi.org/10.4324/9781315451138"
+      "citation": "R.S. O'Fahey & J.L. Spaulding, Kingdoms of the Sudan (1974)",
+      "url": "https://openlibrary.org/works/OL4466628W"
      },
      {
       "id": "HD2011",
-      "citation": "P.M. Holt & M.W. Daly (2011) A History of the Sudan, 6th ed.",
+      "citation": "P.M. Holt & M.W. Daly, A History of the Sudan: From the Coming of Islam to the Present Day (2011)",
       "url": "https://doi.org/10.4324/9781315834030"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "core",
+     "confidence": 0.6,
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "sources": [
+      "GHA4_CH16",
+      "OFS1974",
+      "HD2011"
+     ],
+     "basis_en": "Gezira and Blue Nile heartland: 'Funj sultanate with its centre at Sennar' (GHA IV ch.16 p.406).",
+     "pages": "GHA IV ch.16 p.406"
+    }
    }
   },
   {
@@ -1480,26 +1566,45 @@
      "EDITORIAL"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Tributary north (Abdallab/Ja'aliyyin to Dongola) and episodic Kordofan claims; vassals drawn separately.",
+    "basis": "Tributary north (Abdallab at Kerri, GHA V p.172) and Kordofan rivalry with the Darfur sultans (p.187). The extent down to Dongola is not checked page by page.",
     "sources": [
      {
+      "id": "GHA5_CH7",
+      "citation": "Y.F. Hasan and B.A. Ogot, The Sudan, 1500–1800, ch.7 (General History of Africa V) (1992)",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
+     },
+     {
       "id": "OFS1974",
-      "citation": "R.S. O'Fahey & J.L. Spaulding (1974) Kingdoms of the Sudan, Methuen (Routledge reissue 2016)",
-      "url": "https://doi.org/10.4324/9781315451138"
+      "citation": "R.S. O'Fahey & J.L. Spaulding, Kingdoms of the Sudan (1974)",
+      "url": "https://openlibrary.org/works/OL4466628W"
      },
      {
       "id": "HD2011",
-      "citation": "P.M. Holt & M.W. Daly (2011) A History of the Sudan, 6th ed.",
+      "citation": "P.M. Holt & M.W. Daly, A History of the Sudan: From the Coming of Islam to the Present Day (2011)",
       "url": "https://doi.org/10.4324/9781315834030"
-     },
-     {
-      "id": "GHA5",
-      "citation": "B.A. Ogot (ed.) (1992) General History of Africa V, ch.7 'The Sudan, 1500-1800' (Y.F. Hasan & B.A. Ogot)",
-      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "not-verified",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "claimed",
+     "confidence": 0.35,
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "sources": [
+      "GHA5_CH7",
+      "OFS1974",
+      "HD2011"
+     ],
+     "basis_en": "Tributary north (Abdallab at Kerri, GHA V p.172) and Kordofan rivalry with the Darfur sultans (p.187). The extent down to Dongola is not checked page by page.",
+     "pages": "GHA V ch.7 pp.172, 177, 187",
+     "reason": "northern limit to Dongola is not supported by any page checked"
+    }
    }
   },
   {
@@ -1576,16 +1681,38 @@
      "EDITORIAL"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Shendi reach of the Nile (Holt & Daly p.4); width editorial.",
+    "basis": "'Djaʿaliyyun of Shandi'; Shendi a large commercial centre (GHA V ch.7 p.183). Holt & Daly p.4 not checked locally. Width editorial.",
     "sources": [
      {
+      "id": "GHA5_CH7",
+      "citation": "Y.F. Hasan and B.A. Ogot, The Sudan, 1500–1800, ch.7 (General History of Africa V) (1992)",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
+     },
+     {
       "id": "HD2011",
-      "citation": "P.M. Holt & M.W. Daly (2011) A History of the Sudan, 6th ed.",
+      "citation": "P.M. Holt & M.W. Daly, A History of the Sudan: From the Coming of Islam to the Present Day (2011)",
       "url": "https://doi.org/10.4324/9781315834030"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "core",
+     "confidence": 0.45,
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "sources": [
+      "GHA5_CH7",
+      "HD2011"
+     ],
+     "basis_en": "'Djaʿaliyyun of Shandi'; Shendi a large commercial centre (GHA V ch.7 p.183). Holt & Daly p.4 not checked locally. Width editorial.",
+     "pages": "GHA V ch.7 p.183"
+    }
    }
   },
   {
@@ -2470,16 +2597,32 @@
      "DERIVED"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Province of Aegyptus, GHA II ch.7 p.210.",
+    "basis": "Province of Egypt organised under a prefect with Thebaid and nomes (GHA II ch.7 p.210).",
     "sources": [
      {
-      "id": "GHA2",
-      "citation": "G. Mokhtar (ed.) (1981) General History of Africa II: Ancient Civilizations of Africa (UNESCO)",
+      "id": "GHA2_CH7",
+      "citation": "S. Donadoni, Egypt under Roman domination, ch.7 (General History of Africa II) (1981)",
       "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "core",
+     "confidence": 0.75,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "sources": [
+      "GHA2_CH7"
+     ],
+     "basis_en": "Province of Egypt organised under a prefect with Thebaid and nomes (GHA II ch.7 p.210).",
+     "pages": "GHA II ch.7 p.210"
+    }
    }
   },
   {
@@ -2543,16 +2686,37 @@
      "APPROXIMATE"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Frontier to Hiera Sykaminos after the treaty with Meroe, GHA II ch.7 pp.208, 290; withdrawn to Aswan under Diocletian (verify date).",
+    "basis": "After the Samos treaty (21/20 BCE) 'the frontier between the Roman and Meroitic empires was fixed at Hiera Sycaminos' (GHA II ch.10 p.290). Withdrawal: 'towards the end of the third century… Diocletian pulled back the frontier to the First Cataract' (p.294); no exact year in GHA, so c.298 stays APPROXIMATE. VERIFY removed.",
     "sources": [
      {
-      "id": "GHA2",
-      "citation": "G. Mokhtar (ed.) (1981) General History of Africa II: Ancient Civilizations of Africa (UNESCO)",
+      "id": "GHA2_CH10",
+      "citation": "J. Leclant, The empire of Kush: Napata and Meroe, ch.10 (General History of Africa II) (1981)",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
+     },
+     {
+      "id": "GHA2_CH7",
+      "citation": "S. Donadoni, Egypt under Roman domination, ch.7 (General History of Africa II) (1981)",
       "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "claimed",
+     "confidence": 0.5,
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "sources": [
+      "GHA2_CH10",
+      "GHA2_CH7"
+     ],
+     "basis_en": "After the Samos treaty (21/20 BCE) 'the frontier between the Roman and Meroitic empires was fixed at Hiera Sycaminos' (GHA II ch.10 p.290). Withdrawal: 'towards the end of the third century… Diocletian pulled back the frontier to the First Cataract' (p.294); no exact year in GHA, so c.298 stays APPROXIMATE. VERIFY removed.",
+     "pages": "GHA II pp.208, 290, 294"
+    }
    }
   },
   {

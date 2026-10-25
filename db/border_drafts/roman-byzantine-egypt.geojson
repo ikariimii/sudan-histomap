@@ -115,16 +115,32 @@
      "DERIVED"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Province of Aegyptus, GHA II ch.7 p.210.",
+    "basis": "Province of Egypt organised under a prefect with Thebaid and nomes (GHA II ch.7 p.210).",
     "sources": [
      {
-      "id": "GHA2",
-      "citation": "G. Mokhtar (ed.) (1981) General History of Africa II: Ancient Civilizations of Africa (UNESCO)",
+      "id": "GHA2_CH7",
+      "citation": "S. Donadoni, Egypt under Roman domination, ch.7 (General History of Africa II) (1981)",
       "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "core",
+     "confidence": 0.75,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "sources": [
+      "GHA2_CH7"
+     ],
+     "basis_en": "Province of Egypt organised under a prefect with Thebaid and nomes (GHA II ch.7 p.210).",
+     "pages": "GHA II ch.7 p.210"
+    }
    }
   },
   {
@@ -188,16 +204,37 @@
      "APPROXIMATE"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Frontier to Hiera Sykaminos after the treaty with Meroe, GHA II ch.7 pp.208, 290; withdrawn to Aswan under Diocletian (verify date).",
+    "basis": "After the Samos treaty (21/20 BCE) 'the frontier between the Roman and Meroitic empires was fixed at Hiera Sycaminos' (GHA II ch.10 p.290). Withdrawal: 'towards the end of the third century… Diocletian pulled back the frontier to the First Cataract' (p.294); no exact year in GHA, so c.298 stays APPROXIMATE. VERIFY removed.",
     "sources": [
      {
-      "id": "GHA2",
-      "citation": "G. Mokhtar (ed.) (1981) General History of Africa II: Ancient Civilizations of Africa (UNESCO)",
+      "id": "GHA2_CH10",
+      "citation": "J. Leclant, The empire of Kush: Napata and Meroe, ch.10 (General History of Africa II) (1981)",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
+     },
+     {
+      "id": "GHA2_CH7",
+      "citation": "S. Donadoni, Egypt under Roman domination, ch.7 (General History of Africa II) (1981)",
       "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "claimed",
+     "confidence": 0.5,
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "sources": [
+      "GHA2_CH10",
+      "GHA2_CH7"
+     ],
+     "basis_en": "After the Samos treaty (21/20 BCE) 'the frontier between the Roman and Meroitic empires was fixed at Hiera Sycaminos' (GHA II ch.10 p.290). Withdrawal: 'towards the end of the third century… Diocletian pulled back the frontier to the First Cataract' (p.294); no exact year in GHA, so c.298 stays APPROXIMATE. VERIFY removed.",
+     "pages": "GHA II pp.208, 290, 294"
+    }
    }
   }
  ]
