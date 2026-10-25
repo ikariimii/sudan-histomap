@@ -6,8 +6,25 @@
     "to_register": [
       "WB_MPO_SDN_OCT2026",
       "EIA_SDN2013",
-      "CBOS_POL2007"
-    ]
+      "CBOS_POL2007",
+      "CBOS_CURMUS2012",
+      "WB_WDI_GDP_SDN",
+      "WB_SEU2023"
+    ],
+    "to_register_details": {
+      "CBOS_CURMUS2012": {
+        "title": "Central Bank of Sudan, Currency Museum (catalogue PDF, 129 pp., created 2012-01-18)",
+        "url": "https://cbos.gov.sd/sites/default/files/currency_museum_0.pdf"
+      },
+      "WB_WDI_GDP_SDN": {
+        "title": "World Bank, World Development Indicators: GDP (current US$), Sudan (NY.GDP.MKTP.CD), lastupdated 2026-10-08",
+        "url": "https://api.worldbank.org/v2/country/SDN/indicator/NY.GDP.MKTP.CD?format=json&per_page=100"
+      },
+      "WB_SEU2023": {
+        "title": "World Bank, Sudan Economic Update: Missed Opportunities amidst Deepening Fragility (2023)",
+        "url": "https://documents1.worldbank.org/curated/en/099540409212319137/pdf/IDU0f37ed18102619046f80a9740379de7348107.pdf"
+      }
+    }
   },
   "independent-sudan-first-parliamentary-period": {
     "rating": {
@@ -89,7 +106,8 @@
         ],
         "note": "GHA VIII p.322 (UNESCO); a pre-modern-era count, not a WB/IMF/UN macro figure"
       }
-    ]
+    ],
+    "indicators_note": "WB WDI GDP series for SDN begins in 1960; no value for 1956-58."
   },
   "abboud-military-regime": {
     "rating": {
@@ -158,7 +176,30 @@
       ],
       "page": "p.322"
     },
-    "indicators": []
+    "indicators": [
+      {
+        "name": "GDP (current US$)",
+        "value": 1126364161.7644,
+        "unit": "current US$",
+        "year": 1960,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 1388282600.1961,
+        "unit": "current US$",
+        "year": 1964,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      }
+    ]
   },
   "second-parliamentary-period": {
     "rating": {
@@ -202,7 +243,7 @@
         "badges": [
           "NO-SOURCE"
         ],
-        "note": "Era text: 'No source read gives 1960s Gezira cotton output or prices.'"
+        "note": "Era text: 'No source read gives 1960s Gezira cotton output or prices.' Searched WB_SDN1985 and SFDAS_HCS2017 text, Oct 2026: no export composition for this era; left NO-SOURCE."
       },
       "imports": {
         "value": null,
@@ -225,7 +266,30 @@
         "SOURCED"
       ]
     },
-    "indicators": [],
+    "indicators": [
+      {
+        "name": "GDP (current US$)",
+        "value": 1388282600.1961,
+        "unit": "current US$",
+        "year": 1964,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 1847501441.26221,
+        "unit": "current US$",
+        "year": 1969,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      }
+    ],
     "indicators_note": "Per-capita USD 86 to 104 (LOC1991_ECONDEV) left out: not a WB/IMF/UN figure."
   },
   "nimeiry-era-democratic-republic-of-sudan": {
@@ -263,16 +327,38 @@
         "SOURCED"
       ],
       "note": "Name and symbol as in the era text citing WB_SDN1985; type 'banknote' and issuer not stated in a source read, so issuer is null.",
-      "type_note": "type is EDITORIAL"
+      "type_note": "type is EDITORIAL",
+      "changes": [
+        {
+          "change": "Banknote size reduced and ten-pound colour changed, March 1973",
+          "cite": "CBOS_CURMUS2012",
+          "page": "printed p.6 (PDF p.7), 'Currencies After independence'",
+          "quote": "In March, 1973 during the regime of , “Jaafar Nimeiri”, the size of banknotes was minimized and the color of the (ten pounds note) was changed.",
+          "badges": [
+            "SOURCED"
+          ]
+        },
+        {
+          "change": "Denominations increased from 5 to 7; Nimeiry portrait and Hijri date added, January 1981",
+          "cite": "CBOS_CURMUS2012",
+          "page": "printed p.6 (PDF p.7), 'Currencies After independence'",
+          "quote": "January ,1981, banknotes denominations where increased from 5 to 7 .The notes showed the picture of Nimeiri with a turban, and the Hijri Chronology added beside Gregorian.",
+          "badges": [
+            "SOURCED"
+          ]
+        }
+      ]
     },
     "main_trade": {
       "exports": {
-        "value": null,
-        "cite": null,
+        "value": "Cotton (main export crop), then sorghum, sesame and gum arabic",
+        "cite": "WB_SDN1985",
         "badges": [
-          "NO-SOURCE"
+          "SOURCED"
         ],
-        "note": "No source read covers this."
+        "page": "Country Data p. ii (PDF p.8); p. xi para 24 (PDF p.17)",
+        "quote": "MERCHANDISE EXPORTS (AVERAGE 1981/82-1983/84): Cotton 194.0 [US$ mln] 33.5 [%]; Sorghum 59.4, 10.3; Sesame 53.0, 9.2; Gum Arabic 51.2; Other 194.7, 33.6; Total 579.0 | 'cotton (providing about 40 percent of the country's export revenues)'",
+        "note": "Table text from OCR; gum-arabic share prints as '8.1' in the OCR and is left out as unreliable. Covers 1981/82-1984 only, not the whole era."
       },
       "imports": {
         "value": null,
@@ -318,6 +404,28 @@
           "SINGLE-SOURCE"
         ],
         "note": "pdf p.3"
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 1847501441.26221,
+        "unit": "current US$",
+        "year": 1969,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 8075259600.3398,
+        "unit": "current US$",
+        "year": 1985,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       }
     ]
   },
@@ -355,7 +463,18 @@
       "badges": [
         "NO-SOURCE"
       ],
-      "note": "Name and type taken only from the db/era_artifacts.json image entry for this era (a 1987 one-pound note); no text source read; issuer null."
+      "note": "Name and type taken only from the db/era_artifacts.json image entry for this era (a 1987 one-pound note); no text source read; issuer null.",
+      "changes": [
+        {
+          "change": "Nimeiry-portrait notes withdrawn, Central Bank image restored, June 1985",
+          "cite": "CBOS_CURMUS2012",
+          "page": "printed p.6 (PDF p.7), 'Currencies After independence'",
+          "quote": "In June,1985, the banknotes with the picture of President Nimeri abolished after his removal from power, and the picture of the Central Bank put back.",
+          "badges": [
+            "SOURCED"
+          ]
+        }
+      ]
     },
     "main_trade": {
       "exports": {
@@ -364,7 +483,7 @@
         "badges": [
           "NO-SOURCE"
         ],
-        "note": "No source read covers this."
+        "note": "No source read covers this. Searched WB_SDN1985 and SFDAS_HCS2017 text, Oct 2026: no export composition for this era; left NO-SOURCE."
       },
       "imports": {
         "value": null,
@@ -388,7 +507,30 @@
       ],
       "note": "Debt, capacity and output figures (LOC1991_TMC) left out of indicators: not WB/IMF/UN. Famine death estimate excluded (fatality figure)."
     },
-    "indicators": []
+    "indicators": [
+      {
+        "name": "GDP (current US$)",
+        "value": 10092200000,
+        "unit": "current US$",
+        "year": 1986,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 21408111111.1111,
+        "unit": "current US$",
+        "year": 1989,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      }
+    ]
   },
   "al-bashir-ncp-ingaz-regime": {
     "rating": {
@@ -426,12 +568,14 @@
       ],
       "changes": [
         {
-          "change": "Sudanese pound replaced by the Sudanese dinar, 1992",
-          "cite": null,
+          "change": "Sudanese dinar issued alongside the pound, March 1992 (1 dinar = 10 pounds)",
+          "cite": "CBOS_CURMUS2012",
+          "page": "printed p.6 (PDF p.7), 'Currencies After independence'",
+          "quote": "In March, 1992, the dinar currency was issued, at that time, one dinar equal to 10 pounds, and it circulated alongside the pound until 1998.",
           "badges": [
-            "NO-SOURCE"
+            "SOURCED"
           ],
-          "note": "No WB/IMF/UN or central-bank text naming 1992 was read in full (IMF CR 07/343 blocked); not filled from memory."
+          "note": "CBOS gives March 1992; no day given, so none entered. Catalogue pp.121-122 list '25 dinars - March 1992' and '50 dinars - March 1992'."
         },
         {
           "change": "Dinar to Sudanese pound, 2007",
@@ -526,6 +670,94 @@
         ],
         "note": "EIA also gives a 2010 peak of 486,000 bb/d",
         "cite_note": "US government agency, not WB/IMF/UN; used only under the parent's CONTESTED ruling for reserves and oil output"
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 21408111111.1111,
+        "unit": "current US$",
+        "year": 1989,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 44171194366.2039,
+        "unit": "current US$",
+        "year": 1991,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 7031933491.84899,
+        "unit": "current US$",
+        "year": 1992,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded. Series falls from 44.17bn (1991) to 7.03bn (1992); not interpreted here."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 12257299147.2936,
+        "unit": "current US$",
+        "year": 2000,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 64833083257.1431,
+        "unit": "current US$",
+        "year": 2008,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 55018567210.5263,
+        "unit": "current US$",
+        "year": 2011,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 37632919966.6667,
+        "unit": "current US$",
+        "year": 2012,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 32333780383.2924,
+        "unit": "current US$",
+        "year": 2018,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       }
     ],
     "indicators_note": "Reserves and output shown from both sources without picking one (parent ruling). Neither is WB/IMF/UN. Debt USD 43bn (AR_SUDANILE2013) and the 70% security-budget figure (ICG) left out: not WB/IMF/UN."
@@ -569,12 +801,13 @@
     },
     "main_trade": {
       "exports": {
-        "value": null,
-        "cite": null,
+        "value": "Gold (46.4% of total exports in 2022), livestock (12.6%), cotton (8.8%)",
+        "cite": "WB_SEU2023",
         "badges": [
-          "NO-SOURCE"
+          "SOURCED"
         ],
-        "note": "No source read covers this."
+        "page": "p.23, footnote 3",
+        "quote": "the share of cotton in total exports doubled from 3.9 percent of total exports in 2021 to 8.8 percent in 2022. In 2022, gold accounted for 46.4 percent of total exports and livestock for 12.6 percent."
       },
       "imports": {
         "value": null,
@@ -639,6 +872,39 @@
         "badges": [
           "SOURCED"
         ]
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 32338079165.2893,
+        "unit": "current US$",
+        "year": 2019,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 34229513774.9936,
+        "unit": "current US$",
+        "year": 2021,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 51666875363.0963,
+        "unit": "current US$",
+        "year": 2022,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       }
     ],
     "indicators_note": "Jan 2021 inflation 304.33% (AJA_FLOAT2021 citing Anadolu) and SDG 375/USD (AJA citing Reuters) left out: not WB/IMF/UN."
@@ -817,6 +1083,39 @@
           "SOURCED"
         ],
         "note": "end June 2026"
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 39898289820.7951,
+        "unit": "current US$",
+        "year": 2023,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 49672435513.1126,
+        "unit": "current US$",
+        "year": 2024,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 60162634574.4689,
+        "unit": "current US$",
+        "year": 2025,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       }
     ],
     "indicators_note": "Gold 64.4 t / USD 1.6bn (XINHUA_GOLD2025) and gum arabic revenue (AYIN_GUM2024) left out: not WB/IMF/UN. No fatality or control figures."
