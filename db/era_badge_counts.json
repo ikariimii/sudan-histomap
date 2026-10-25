@@ -15,20 +15,20 @@
    "DERIVED"
   ],
   "era_count": 68,
-  "files_scanned": 306
+  "files_scanned": 310
  },
  "totals": {
-  "SINGLE-SOURCE": 251,
-  "CONTESTED": 161,
+  "SINGLE-SOURCE": 260,
+  "CONTESTED": 170,
   "VERIFY": 66,
-  "REPORTED": 14,
+  "REPORTED": 20,
   "MODEL": 109,
   "EDITORIAL": 67,
-  "APPROXIMATE": 455,
-  "PARTIAL": 3,
+  "APPROXIMATE": 480,
+  "PARTIAL": 5,
   "DERIVED": 328
  },
- "grand_total": 1454,
+ "grand_total": 1505,
  "inline_totals": {
   "SINGLE-SOURCE": 22,
   "CONTESTED": 9,
@@ -202,17 +202,17 @@
    },
    "source_types_total": 21,
    "counts": {
-    "SINGLE-SOURCE": 3,
+    "SINGLE-SOURCE": 8,
     "CONTESTED": 29,
     "VERIFY": 4,
     "REPORTED": 0,
     "MODEL": 4,
     "EDITORIAL": 3,
-    "APPROXIMATE": 12,
-    "PARTIAL": 0,
+    "APPROXIMATE": 19,
+    "PARTIAL": 1,
     "DERIVED": 7
    },
-   "total": 62,
+   "total": 75,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -228,6 +228,7 @@
    "files": [
     "data/eras/al-bashir-ncp-ingaz-regime.json",
     "db/ar_review_queue.json",
+    "db/battles_post1956.json",
     "db/era_economy.json",
     "db/extents/al-bashir-ncp-ingaz-regime.geojson",
     "db/extents_historic.json",
@@ -738,16 +739,16 @@
    "source_types_total": 4,
    "counts": {
     "SINGLE-SOURCE": 8,
-    "CONTESTED": 0,
+    "CONTESTED": 3,
     "VERIFY": 1,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 12,
+    "APPROXIMATE": 15,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 22,
+   "total": 28,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -763,6 +764,7 @@
    "files": [
     "data/eras/dinka-jieng-communities.json",
     "db/ar_review_queue.json",
+    "db/battles_post1956.json",
     "db/era_economy.json",
     "db/era_fill_hist20.json",
     "db/extents/dinka-jieng-communities.geojson",
@@ -2076,16 +2078,16 @@
    "source_types_total": 3,
    "counts": {
     "SINGLE-SOURCE": 6,
-    "CONTESTED": 0,
+    "CONTESTED": 3,
     "VERIFY": 4,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 9,
+    "APPROXIMATE": 12,
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 20,
+   "total": 26,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2101,6 +2103,7 @@
    "files": [
     "data/eras/nuer-naath-communities.json",
     "db/ar_review_queue.json",
+    "db/battles_post1956.json",
     "db/era_economy.json",
     "db/extents/nuer-naath-communities.geojson",
     "db/extents_historic.json",
@@ -2291,16 +2294,16 @@
    "source_types_total": 16,
    "counts": {
     "SINGLE-SOURCE": 12,
-    "CONTESTED": 28,
+    "CONTESTED": 31,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 3,
-    "APPROXIMATE": 4,
-    "PARTIAL": 0,
+    "APPROXIMATE": 7,
+    "PARTIAL": 1,
     "DERIVED": 1
    },
-   "total": 51,
+   "total": 58,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 1,
@@ -2315,6 +2318,7 @@
    "inline_total": 1,
    "files": [
     "data/eras/republic-of-south-sudan.json",
+    "db/battles_post1956.json",
     "db/era_anchor_fill_hist23b.json",
     "db/era_economy.json",
     "db/extents/republic-of-south-sudan.geojson",
@@ -2593,17 +2597,17 @@
    },
    "source_types_total": 11,
    "counts": {
-    "SINGLE-SOURCE": 6,
+    "SINGLE-SOURCE": 10,
     "CONTESTED": 10,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
-    "APPROXIMATE": 16,
+    "APPROXIMATE": 20,
     "PARTIAL": 0,
     "DERIVED": 2
    },
-   "total": 37,
+   "total": 45,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2618,6 +2622,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/southern-sudan-under-condominium-sudan.json",
+    "db/battles_post1956.json",
     "db/era_economy.json",
     "db/ethno_markers/seligman1932.geojson",
     "db/extents/southern-sudan-under-condominium-sudan.geojson",
@@ -2906,14 +2911,14 @@
     "SINGLE-SOURCE": 4,
     "CONTESTED": 28,
     "VERIFY": 0,
-    "REPORTED": 8,
+    "REPORTED": 14,
     "MODEL": 4,
     "EDITORIAL": 0,
-    "APPROXIMATE": 8,
+    "APPROXIMATE": 13,
     "PARTIAL": 0,
     "DERIVED": 5
    },
-   "total": 57,
+   "total": 68,
    "inline_badges": {
     "SINGLE-SOURCE": 11,
     "CONTESTED": 4,
@@ -2928,6 +2933,7 @@
    "inline_total": 15,
    "files": [
     "data/eras/war-in-sudan-saf-vs-rsf.json",
+    "db/battles_post1956.json",
     "db/era_economy.json",
     "db/extents/war-in-sudan-saf-vs-rsf.geojson",
     "db/extents_historic.json",

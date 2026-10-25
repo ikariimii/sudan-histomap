@@ -1,0 +1,476 @@
+{
+  "meta": {
+    "updated": "2026-10-25",
+    "schema": "id,name_en,name_ar,era_ids,start,end,belligerents[],causes_en,outcome_en,significance_en,cites[{source_id,pages}]; uncited fields omitted"
+  },
+  "wars": [
+    {
+      "id": "kushite-egyptian-wars",
+      "name_en": "Egyptian–Kushite wars",
+      "name_ar": "الحروب المصرية الكوشية [يحتاج تحقق]",
+      "era_ids": [
+        "kingdom-of-kerma",
+        "egyptian-new-kingdom-rule-in-nubia",
+        "kingdom-of-kush-napatan-period"
+      ],
+      "start": "-1500",
+      "end": "-593",
+      "cites": [
+        {
+          "source_id": "SFDAS_HCS2017",
+          "pages": "92, 164–165"
+        }
+      ],
+      "belligerents": [
+        "New Kingdom Egypt (Thutmose I)",
+        "Kingdom of Kerma",
+        "Late Period Egypt (Psamtik II)",
+        "Kingdom of Kush (Napatan)"
+      ],
+      "belligerents_note": "From the sides of this war's cited battles in data/battles.json."
+    },
+    {
+      "id": "roman-meroitic-war",
+      "name_en": "Roman–Meroitic war",
+      "name_ar": "الحرب الرومانية المروية [يحتاج تحقق]",
+      "era_ids": [
+        "kingdom-of-kush-meroitic-period",
+        "roman-byzantine-egypt"
+      ],
+      "start": "-23",
+      "end": "-23",
+      "belligerents": [
+        "Kingdom of Meroe",
+        "Roman Egypt (prefect Petronius)"
+      ],
+      "causes_en": "Meroitic forces attacked the Thebaid, taking Syene, Elephantine and Philae, after part of the Roman garrison left with Aelius Gallus for Arabia (SFDAS pp.243–244, quoting Strabo).",
+      "cites": [
+        {
+          "source_id": "SFDAS_HCS2017",
+          "pages": "243–244"
+        },
+        {
+          "source_id": "GHA2_CH10",
+          "pages": "290"
+        }
+      ],
+      "date_note": "Start set to −23 per GHA II p.290 (previous −25 had no page cite)."
+    },
+    {
+      "id": "aksum-kush-war",
+      "name_en": "Aksum's campaigns against Kush",
+      "name_ar": "حملات أكسوم على كوش [يحتاج تحقق]",
+      "era_ids": [
+        "kingdom-of-kush-meroitic-period",
+        "kingdom-of-aksum"
+      ],
+      "start": "330",
+      "end": "350",
+      "belligerents": [
+        "Kingdom of Aksum (Ezana)",
+        "Noba",
+        "Kasu (Kushites)"
+      ],
+      "cites": [
+        {
+          "source_id": "SFDAS_HCS2017",
+          "pages": "325–326"
+        }
+      ],
+      "note": "Ge'ez inscription of Ezana on the war against the Noba and Kasu is catalogued as DAE 11 (SFDAS p.326). RIE 189 equivalence not found in a registered source."
+    },
+    {
+      "id": "arab-nubian-wars",
+      "name_en": "Arab–Nubian wars",
+      "name_ar": "الحروب العربية النوبية [يحتاج تحقق]",
+      "era_ids": [
+        "makuria",
+        "islamic-egypt-rashidunfatimidayyubid"
+      ],
+      "start": "642",
+      "end": "652",
+      "cites": [
+        {
+          "source_id": "SFDAS_HCS2017",
+          "pages": "405"
+        }
+      ],
+      "belligerents": [
+        "Arab army (Abdallah ibn Abi Sarh)",
+        "Kingdom of Makuria"
+      ],
+      "belligerents_note": "From the sides of this war's cited battles in data/battles.json."
+    },
+    {
+      "id": "funj-abdallab-war",
+      "name_en": "Funj–Abdallab war",
+      "name_ar": "حرب الفونج والعبدلاب [يحتاج تحقق]",
+      "era_ids": [
+        "funj-sultanate-of-sennar",
+        "abdallab-chiefdom-funj-vassal"
+      ],
+      "start": "1504",
+      "end": "1504",
+      "outcome_en": "Funj victory; the Abdallabi king became a Funj vassal (GHA V ch.7 p.173).",
+      "cites": [
+        {
+          "source_id": "GHA5_CH7",
+          "pages": "173"
+        }
+      ],
+      "belligerents": [
+        "Funj",
+        "Abdallab"
+      ],
+      "belligerents_note": "From the sides of this war's cited battles in data/battles.json."
+    },
+    {
+      "id": "kordofan-wars",
+      "name_en": "Wars for Kordofan (Funj, Musabba'at, Darfur)",
+      "name_ar": "حروب كردفان (الفونج والمسبعات ودارفور) [يحتاج تحقق]",
+      "era_ids": [
+        "funj-sultanate-of-sennar",
+        "musabba-at-sultanate-kordofan",
+        "sultanate-of-darfur-keira"
+      ],
+      "start": "1747",
+      "end": null,
+      "cites": [
+        {
+          "source_id": "GHA5_CH7",
+          "pages": "178, 189"
+        }
+      ],
+      "belligerents": [
+        "Funj Sultanate (Muhammad Abu Likaylik)",
+        "Musabba'at"
+      ],
+      "belligerents_note": "From the sides of this war's cited battles in data/battles.json."
+    },
+    {
+      "id": "mahdist-war",
+      "name_en": "Mahdist war against Turco-Egyptian rule",
+      "name_ar": "الحرب المهدية ضد الحكم التركي المصري [يحتاج تحقق]",
+      "era_ids": [
+        "turkiyya-ottoman-egyptian-rule",
+        "mahdist-state-mahdiyya"
+      ],
+      "start": "1881",
+      "end": "1889",
+      "cites": [
+        {
+          "source_id": "GHA7_CH4",
+          "pages": "74–77"
+        }
+      ],
+      "belligerents": [
+        "Mahdist Ansar",
+        "Egyptian army (Hicks Pasha)",
+        "Turco-Egyptian garrison (Gordon)",
+        "Mahdist army (Abd al-Rahman al-Nujumi)",
+        "Egyptian army"
+      ],
+      "belligerents_note": "From the sides of this war's cited battles in data/battles.json."
+    },
+    {
+      "id": "mahdist-ethiopian-war",
+      "name_en": "Mahdist–Ethiopian war",
+      "name_ar": "الحرب المهدية الإثيوبية [يحتاج تحقق]",
+      "era_ids": [
+        "mahdist-state-mahdiyya",
+        "ethiopian-empire-solomonic"
+      ],
+      "start": "1889",
+      "end": "1889",
+      "cites": [
+        {
+          "source_id": "GHA7_CH11",
+          "pages": "268"
+        }
+      ],
+      "belligerents": [
+        "Ethiopian Empire (Yohannes IV)",
+        "Mahdist State"
+      ],
+      "belligerents_note": "From the sides of this war's cited battles in data/battles.json."
+    },
+    {
+      "id": "anglo-egyptian-reconquest",
+      "name_en": "Anglo-Egyptian reconquest of the Sudan",
+      "name_ar": "الاسترداد الإنجليزي المصري للسودان [يحتاج تحقق]",
+      "era_ids": [
+        "mahdist-state-mahdiyya",
+        "anglo-egyptian-sudan-condominium"
+      ],
+      "start": "1896",
+      "end": "1899",
+      "belligerents": [
+        "Mahdist State",
+        "Anglo-Egyptian army"
+      ],
+      "outcome_en": "Mahdist state collapsed after Karari (1898) and Umm Diwaykarat (1899) (GHA VII ch.4 p.78).",
+      "cites": [
+        {
+          "source_id": "GHA7_CH4",
+          "pages": "78"
+        },
+        {
+          "source_id": "RIVERWAR1899_V1",
+          "pages": "113, 449"
+        }
+      ]
+    },
+    {
+      "id": "darfur-campaign-1916",
+      "name_en": "Darfur campaign of 1916",
+      "name_ar": "حملة دارفور 1916 [يحتاج تحقق]",
+      "era_ids": [
+        "restored-darfur-sultanate-ali-dinar",
+        "anglo-egyptian-sudan-condominium"
+      ],
+      "start": "1916",
+      "end": "1916",
+      "cites": [
+        {
+          "source_id": "GHA7_CH12",
+          "pages": "283"
+        }
+      ],
+      "belligerents": [
+        "Anglo-Egyptian Sudan",
+        "Darfur Sultanate (Ali Dinar)"
+      ],
+      "belligerents_note": "From the sides of this war's cited battles in data/battles.json."
+    },
+    {
+      "id": "first-civil-war",
+      "name_en": "First Sudanese civil war",
+      "name_ar": "الحرب الأهلية السودانية الأولى [يحتاج تحقق]",
+      "era_ids": [
+        "anglo-egyptian-sudan-condominium",
+        "southern-sudan-under-condominium-sudan"
+      ],
+      "start": "1955",
+      "end": null,
+      "note": "Torit start held by Historian; extension owned by Analyst.",
+      "cites": [
+        {
+          "source_id": "GHA8",
+          "pages": "149"
+        }
+      ],
+      "belligerents": [
+        "Equatoria Corps",
+        "Sudan government"
+      ],
+      "belligerents_note": "From the sides of this war's cited battles in data/battles.json."
+    },
+    {
+      "id": "second-civil-war",
+      "name_en": "Second Sudanese civil war",
+      "name_ar": "الحرب الأهلية السودانية الثانية [يحتاج تحقق]",
+      "ar_status": "VERIFY",
+      "start": "1983",
+      "end": "2005-01",
+      "era_ids": [
+        "nimeiry-era-democratic-republic-of-sudan",
+        "transitional-third-parliamentary-period",
+        "al-bashir-ncp-ingaz-regime",
+        "southern-sudan-under-condominium-sudan"
+      ],
+      "belligerents": [
+        "Government of Sudan",
+        "SPLM/A (split 1991 into SPLA-Torit and SPLA-Nasir/United)"
+      ],
+      "causes_en": "NO-SOURCE",
+      "outcome_en": "Ended by the January 2005 Comprehensive Peace Agreement (S/RES/2046 preamble)",
+      "significance_en": "NO-SOURCE",
+      "cite": {
+        "source_id": "HRW1993_CIVDEV",
+        "pages": "Glossary (SPLA formed 1983); Background (1991 split)"
+      },
+      "cites": [
+        {
+          "source_id": "HRW1993_CIVDEV",
+          "pages": "Glossary (SPLA formed 1983); Background (1991 split)"
+        },
+        {
+          "source_id": "UNSC2046",
+          "pages": "preamble (January 2005 Comprehensive Peace Agreement)"
+        }
+      ],
+      "note": "Start year from SPLA formation in 1983 (HRW); exact start date NO-SOURCE.",
+      "origin": "db/wars_post1956.json (7c86fbe), Analyst; content unchanged, keys mapped to schema"
+    },
+    {
+      "id": "darfur-war",
+      "name_en": "War in Darfur",
+      "name_ar": "الحرب في دارفور [يحتاج تحقق]",
+      "ar_status": "VERIFY",
+      "start": "2003-02",
+      "end": null,
+      "era_ids": [
+        "al-bashir-ncp-ingaz-regime"
+      ],
+      "belligerents": [
+        "Government of Sudan",
+        "Sudan Liberation Army (SLA)",
+        "Justice and Equality Movement (JEM)"
+      ],
+      "causes_en": "Early SLA demands: regional development, end to tribal militias, power-sharing (per HRW 2004 Background)",
+      "outcome_en": "NO-SOURCE",
+      "significance_en": "NO-SOURCE",
+      "cite": {
+        "source_id": "HRW2004_DARFUR",
+        "pages": "Background section (SLA emerged Feb 2003; April 2003 El Fashir attack)"
+      },
+      "cites": [
+        {
+          "source_id": "HRW2004_DARFUR",
+          "pages": "Background section (SLA emerged Feb 2003; April 2003 El Fashir attack)"
+        },
+        {
+          "source_id": "UNSC_PRST_2008_15",
+          "pages": "p.1 (JEM attack on Omdurman, 10 May 2008)"
+        }
+      ],
+      "note": "date_to NO-SOURCE.",
+      "origin": "db/wars_post1956.json (7c86fbe), Analyst; content unchanged, keys mapped to schema"
+    },
+    {
+      "id": "south-kordofan-blue-nile-2011",
+      "name_en": "South Kordofan and Blue Nile conflict",
+      "name_ar": "النزاع في جنوب كردفان والنيل الأزرق [يحتاج تحقق]",
+      "ar_status": "VERIFY",
+      "start": "2011-06-05",
+      "end": null,
+      "era_ids": [
+        "al-bashir-ncp-ingaz-regime"
+      ],
+      "belligerents": [
+        "Sudanese Armed Forces (SAF)",
+        "SPLA-North"
+      ],
+      "causes_en": "NO-SOURCE",
+      "outcome_en": "NO-SOURCE",
+      "significance_en": "NO-SOURCE",
+      "cite": {
+        "source_id": "OHCHR_SK2011",
+        "pages": "para 1 (p.2), paras 4–5"
+      },
+      "cites": [
+        {
+          "source_id": "OHCHR_SK2011",
+          "pages": "para 1 (p.2), paras 4–5"
+        },
+        {
+          "source_id": "UNSC2046",
+          "pages": "preamble (continued fighting in Southern Kordofan and Blue Nile, May 2012)"
+        }
+      ],
+      "note": "Blue Nile start date NO-SOURCE; date_to NO-SOURCE.",
+      "origin": "db/wars_post1956.json (7c86fbe), Analyst; content unchanged, keys mapped to schema"
+    },
+    {
+      "id": "sudan-south-sudan-border-2012",
+      "name_en": "Sudan–South Sudan border conflict (Heglig crisis)",
+      "name_ar": "نزاع الحدود بين السودان وجنوب السودان (أزمة هجليج) [يحتاج تحقق]",
+      "ar_status": "VERIFY",
+      "start": "2012",
+      "end": null,
+      "era_ids": [
+        "al-bashir-ncp-ingaz-regime",
+        "republic-of-south-sudan"
+      ],
+      "belligerents": [
+        "Sudan (SAF)",
+        "South Sudan (SPLA)"
+      ],
+      "causes_en": "NO-SOURCE",
+      "outcome_en": "Security Council welcomed SPLA withdrawal from Heglig and demanded cessation of hostilities (S/RES/2046)",
+      "significance_en": "NO-SOURCE",
+      "cite": {
+        "source_id": "UNSC_PRST_2012_12",
+        "pages": "p.1"
+      },
+      "cites": [
+        {
+          "source_id": "UNSC_PRST_2012_12",
+          "pages": "p.1"
+        },
+        {
+          "source_id": "UNSC2046",
+          "pages": "preamble; Chapter VII determination"
+        }
+      ],
+      "note": "Start month and date_to NO-SOURCE.",
+      "origin": "db/wars_post1956.json (7c86fbe), Analyst; content unchanged, keys mapped to schema"
+    },
+    {
+      "id": "south-sudan-civil-war",
+      "name_en": "South Sudanese civil war",
+      "name_ar": "الحرب الأهلية في جنوب السودان [يحتاج تحقق]",
+      "ar_status": "VERIFY",
+      "start": "2013-12-15",
+      "end": null,
+      "era_ids": [
+        "republic-of-south-sudan",
+        "dinka-jieng-communities",
+        "nuer-naath-communities"
+      ],
+      "belligerents": [
+        "Government of South Sudan (SPLA)",
+        "SPLM/A in opposition (Riek Machar) and allied forces, incl. White Army"
+      ],
+      "causes_en": "Internal power struggle within the SPLM; fighting began in Juba on 15 Dec 2013 (UNMISS paras 1–2)",
+      "outcome_en": "NO-SOURCE",
+      "significance_en": "NO-SOURCE",
+      "cite": {
+        "source_id": "UNMISS_HRR2014",
+        "pages": "paras 1–2, 39–41 (pp.3, 10, 16)"
+      },
+      "cites": [
+        {
+          "source_id": "UNMISS_HRR2014",
+          "pages": "paras 1–2, 39–41 (pp.3, 10, 16)"
+        }
+      ],
+      "note": "date_to NO-SOURCE (source covers to May 2014).",
+      "origin": "db/wars_post1956.json (7c86fbe), Analyst; content unchanged, keys mapped to schema"
+    },
+    {
+      "id": "war-2023",
+      "name_en": "War in Sudan (SAF vs RSF)",
+      "name_ar": "الحرب في السودان (الجيش والدعم السريع) [يحتاج تحقق]",
+      "ar_status": "VERIFY",
+      "start": "2023-04-15",
+      "end": null,
+      "era_ids": [
+        "war-in-sudan-saf-vs-rsf"
+      ],
+      "belligerents": [
+        "Sudanese Armed Forces (SAF)",
+        "Rapid Support Forces (RSF)"
+      ],
+      "causes_en": "NO-SOURCE",
+      "outcome_en": "NO-SOURCE",
+      "significance_en": "NO-SOURCE",
+      "cite": {
+        "source_id": "UNPOE_S2024_65",
+        "pages": "para 4 (PDF p.5)"
+      },
+      "cites": [
+        {
+          "source_id": "UNPOE_S2024_65",
+          "pages": "para 4 (PDF p.5)"
+        },
+        {
+          "source_id": "GEO-032",
+          "pages": "Summary (PDF p.1)"
+        }
+      ],
+      "note": "Ongoing; date_to null by rule. No control or fatality claims.",
+      "origin": "db/wars_post1956.json (7c86fbe), Analyst; content unchanged, keys mapped to schema"
+    }
+  ]
+}

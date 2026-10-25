@@ -42,7 +42,7 @@ def offline():
         for b in json.load(open(bd+'battles.json',encoding='utf-8')).get('battles') or []:
             be('battle',b); n+=1
             if not isinstance(b.get('start'),int) or not isinstance(b.get('end',b.get('start')),int) or b.get('end',b.get('start'))<b.get('start',0): bad.append(('battle-dates',b.get('id'),''))
-            if not all(isinstance(b.get(k),(int,float)) for k in ('lon','lat')): bad.append(('battle-lonlat',b.get('id'),''))
+            if b.get('precision')!='region' and not all(isinstance(b.get(k),(int,float)) for k in ('lon','lat')): bad.append(('battle-lonlat',b.get('id'),''))
             for x in b.get('era_ids') or []:
                 if x not in EIDS: bad.append(('battle-era',b.get('id'),x))
             im=b.get('image')
