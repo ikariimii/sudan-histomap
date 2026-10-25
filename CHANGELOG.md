@@ -1,5 +1,12 @@
 # Changelog
 
+- Map, artifacts: era cards show one artifact or site image per era (59 eras), from db/era_artifacts.json. Images are self-hosted at 480 and 960px WebP and lazy-loaded, with caption, museum or site, author, licence and a Wikimedia Commons link.
+- Map, basemap: Natural Earth shaded relief and 10m rivers (public domain) are re-projected to the map, with the Nile system emphasised. Mobile loads a 24KB image and switches to 83KB on desktop or at zoom 2× and up. Natural Earth is credited in the legend and About.
+- Map, flags: era flags and emblems (19 eras) appear at the era's flag anchor while the slider year is in the flag's date range. Joint Condominium flags sit side by side, and VERIFY flags get a dashed frame. In the war era only Sudan's state flag is shown, with a note that this implies no territorial control. Cards show the flag with Commons credit and licence, or "No known flag". 14 flag SVGs are self-hosted.
+- Map, cities: each era's key cities are bold and always labelled, and other cities are quieter. New marker shapes for town, cult centre and political centre.
+- Map, camera: on an era change the map flies (about 1s) to the era's focus area, falling back to its shapes and then the whole region. It frames the part left visible by the sheet or side card, with a 3° minimum window and 6× maximum zoom. It jumps instantly under reduced motion, and manual zoom is kept until the era changes.
+- Map UX: the full sheet stops below the layer chips. The legend is capped to the space available. Homeland labels try four positions, then smaller text, and draw on load. The Arabic working-translation badge shows only on AR pages. Era labels avoid markers.
+
 - Map: eras rendered via the Homelands layer (extent_rendering homelands-layer: Dinka, Nuer, Anuak) show "Shown on the Homelands layer" with a button that turns the layer on and updates ?layers=; AR working-translation badge now reads "ترجمة أولية *"; legend and reset hidden while the sheet is full; the Homelands chip draws immediately.
 
 - Regional power: "Not scored" now only when an era has neither a CINC share nor an editorial score (52 eras); the 16 scored eras (14 CINC + Napatan Kush, Mahdist state) show values only. Homeland text labels (EN/AR) appear at zoom ≥2.5×, collision-culled against all other labels.
