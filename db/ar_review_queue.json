@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 4
+      "sentence_items": 6
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -2405,6 +2405,36 @@
       "action": "Native reviewer: bring the Arabic in line with the revised English, then remove the [يحتاج تحقق] tag. Arabic not rewritten by the Historian.",
       "origin_commit": "69a54a4",
       "added": "2026-10-25"
+    },
+    {
+      "file": "db/legends/legend_spec.json",
+      "badge": "VERIFY",
+      "action": "Native reviewer: check the draft is neutral and accurate, fix if needed, then remove the [يحتاج تحقق] tag. Draft by the Historian; English is the reference.",
+      "origin_commit": "c4d6d59",
+      "added": "2026-10-25",
+      "related": "db/ethno_markers/seligman1932.geojson (no label_ar slot there)",
+      "era_id": null,
+      "item": "legend row ethno_label_marker",
+      "field_ar": "legend rows[id=ethno_label_marker].label_ar",
+      "arabic_sentence": "موضع الاسم على خريطة سليغمان لعام 1932 (من العقد الثاني حتى الثلاثينيات من القرن العشرين)، وليس حدًا أو مطالبة [يحتاج تحقق]",
+      "field_en": "label_en",
+      "revised_english": "Where the 1932 Seligman map places the name (1910s–30s); not a boundary or claim",
+      "reason": "New legend row label; Arabic slot was null."
+    },
+    {
+      "file": "db/ar_review_queue.json (queue only; no caption_ar slot in marker data)",
+      "badge": "VERIFY",
+      "action": "Native reviewer: check the draft is neutral and accurate, fix if needed, then remove the [يحتاج تحقق] tag. Draft by the Historian; English is the reference.",
+      "origin_commit": "c4d6d59",
+      "added": "2026-10-25",
+      "related": "db/ethno_markers/seligman1932.geojson (no label_ar slot there)",
+      "era_id": null,
+      "item": "ethno marker caption",
+      "field_ar": null,
+      "arabic_sentence": "موضع تسمية إثنوغرافية على خريطة 1932، وليس حدًا أو مطالبة [يحتاج تحقق]",
+      "field_en": "agreed caption",
+      "revised_english": "1932 ethnographic label position, not a boundary or claim",
+      "reason": "Agreed caption for the Seligman 1932 markers; no Arabic slot exists, so the draft lives only here."
     }
   ]
 }
