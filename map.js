@@ -75,12 +75,12 @@ async function render(anim=true){
  drawBase(e);
  const ctl=on.has('ctl'),areas=ctl?g.features.filter(f=>f.geometry.type!=='Point'&&!f.properties.zone&&act(f.properties,e,Y)):[],pts=ctl?g.features.filter(f=>f.geometry.type==='Point'&&act(f.properties,e,Y)):[];
  // areas: morph matched shapes, crossfade the rest
- const D=anim?DUR:0,NEW=areas.map(f=>({f,box:bbox(f)})),used=new Set();
+ const D=anim?(RM?240:DUR):0,NEW=areas.map(f=>({f,box:bbox(f)})),used=new Set();
  gX.selectAll('path.ext').interrupt().remove();gX.selectAll('path.old').interrupt().remove();
  NEW.forEach(n=>{let bi=-1,bv=.25;OLD.forEach((o,k)=>{if(used.has(k))return;const v=iou(o.box,n.box);if(v>bv){bv=v;bi=k}});n.m=bi;if(bi>=0)used.add(bi)});
  OLD.forEach((o,k)=>{if(used.has(k)||!D)return;gX.append('path').attr('class','ext old').attr('d',path(o.f)).style('opacity',1).transition().duration(D).style('opacity',0).remove()});
  NEW.forEach(n=>{const p=gX.append('path').attr('class','ext'+(String(n.f.properties.certainty||'').toLowerCase()==='low'?' low':'')).datum(n.f).on('click',(ev)=>{ev.stopPropagation();feat(n.f,e)});
-  if(D&&n.m>=0){const a=resample(ringOf(OLD[n.m].f)),b=align(a,resample(ringOf(n.f)));const it=d3.interpolateArray(a,b);p.attr('d',dpts(a)).transition().duration(D).ease(d3.easeCubicInOut).attrTween('d',()=>t=>dpts(it(t))).on('end',function(){d3.select(this).attr('d',path(n.f))})}
+  if(D&&!RM&&n.m>=0){const a=resample(ringOf(OLD[n.m].f)),b=align(a,resample(ringOf(n.f)));const it=d3.interpolateArray(a,b);p.attr('d',dpts(a)).transition().duration(D).ease(d3.easeCubicInOut).attrTween('d',()=>t=>dpts(it(t))).on('end',function(){d3.select(this).attr('d',path(n.f))})}
   else{p.attr('d',path(n.f)).style('opacity',D?0:1);if(D)p.transition().duration(D).style('opacity',1)}});
  OLD=NEW.map(n=>({f:n.f,box:n.box}));
  // points (diamonds) and capitals
@@ -294,12 +294,22 @@ let CE=null;function cam(e,g){if(e.id===CE)return;const first=CE===null;CE=e.id;
   t=d3.zoomIdentity.translate((x1+x2)/2-k*(p[0]+q[0])/2,(top+bot)/2-k*(p[1]+q[1])/2).scale(k)}
  if(first||RM)svg.interrupt().call(zoom.transform,t);else svg.interrupt().transition('cam').duration(1000).call(zoom.transform,t)}
 function go(n){n=Math.max(0,Math.min(ES.length-1,n));if(n===i)return;i=n;Y=null;render(true)}
-r.addEventListener('input',()=>go(+r.value));
+r.addEventListener('input',()=>{tourStop();go(+r.value)});
+// era tour: play/pause next to the scrubber; flies to each era's area (camera is instant under reduced motion), dwells, stops at the last era.
+// Any manual era change pauses it; hidden tabs pause it. The live region already announces each era.
+const TB=document.createElement('button');TB.type='button';TB.id='tour';TB.className='nav tour';
+let TT=null;const tourSet=p=>{TB.setAttribute('aria-pressed',p);TB.setAttribute('aria-label',p?T.tour_pause:T.tour_play);TB.title=p?T.tour_pause:T.tour_play;TB.innerHTML=p?'<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 2h4v12H3zM9 2h4v12H9z" fill="currentColor"/></svg>':'<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M4 2l10 6-10 6z" fill="currentColor"/></svg>'};
+function tourStop(){if(TT){clearTimeout(TT);TT=null;tourSet(false)}}
+function tourStep(){if(i>=ES.length-1){tourStop();return}go(i+1);TT=setTimeout(tourStep,RM?5000:4200)}
+TB.onclick=()=>{if(TT){tourStop();return}tourSet(true);if(i>=ES.length-1){go(0);TT=setTimeout(tourStep,RM?5000:4200)}else tourStep()};
+tourSet(false);$('scrub').appendChild(TB);
+document.addEventListener('visibilitychange',()=>{if(document.hidden)tourStop()});
+['prev','next'].forEach(id=>$(id).addEventListener('click',tourStop,true));
 // slider keys (APG): arrows step one era (mirrored in RTL), Up/Down step, PageUp/PageDown ±5, Home/End first/last
-r.addEventListener('keydown',ev=>{const k=ev.key,m={ArrowRight:AR?-1:1,ArrowLeft:AR?1:-1,ArrowUp:1,ArrowDown:-1,PageUp:5,PageDown:-5};let n=null;if(k in m)n=i+m[k];else if(k==='Home')n=0;else if(k==='End')n=ES.length-1;if(n==null)return;ev.preventDefault();go(n)});
+r.addEventListener('keydown',ev=>{tourStop();const k=ev.key,m={ArrowRight:AR?-1:1,ArrowLeft:AR?1:-1,ArrowUp:1,ArrowDown:-1,PageUp:5,PageDown:-5};let n=null;if(k in m)n=i+m[k];else if(k==='Home')n=0;else if(k==='End')n=ES.length-1;if(n==null)return;ev.preventDefault();go(n)});
 addEventListener('keydown',ev=>{if(ev.key!=='Escape')return;if(!$('feat').hidden){$('feat').hidden=true;if(LASTF&&LASTF.isConnected)LASTF.focus();return}if(lgOpen){$('lgb').click();$('lgb').focus();return}if($('sheet').classList.contains('full'))snap('half')});$('prev').onclick=()=>go(i-1);$('next').onclick=()=>go(i+1);
 $('w').addEventListener('input',()=>{const e=ES[i];ext(e).then(g=>{Y=steps(e,g)[+$('w').value];render(true)})});
-addEventListener('keydown',ev=>{if(ev.target.tagName==='INPUT')return;if(ev.key==='ArrowRight')go(i+(AR?-1:1));if(ev.key==='ArrowLeft')go(i+(AR?1:-1))});
+addEventListener('keydown',ev=>{if(ev.target.tagName==='INPUT')return;if(ev.key==='ArrowRight'||ev.key==='ArrowLeft')tourStop();if(ev.key==='ArrowRight')go(i+(AR?-1:1));if(ev.key==='ArrowLeft')go(i+(AR?1:-1))});
 let sx=null;const hd=$('head');hd.addEventListener('pointerdown',ev=>{sx=ev.clientX});hd.addEventListener('pointerup',ev=>{if(sx==null)return;const d=ev.clientX-sx;sx=null;if(Math.abs(d)>50)go(i+((d<0)!==AR?1:-1))});
 const SN=['peek','half','full'];function snap(s){$('grab').setAttribute('aria-label',T.sheet+' · '+T.sheetst[s]);$('grab').setAttribute('aria-expanded',s!=='peek');document.body.classList.toggle('sfull',s==='full');setTimeout(lgFit,350);const sh=$('sheet');SN.forEach(c=>sh.classList.remove(c));sh.classList.add(s);setTimeout(place,320)}
 $('grab').onclick=()=>{const sh=$('sheet'),c=SN.find(x=>sh.classList.contains(x))||'half';snap(SN[(SN.indexOf(c)+1)%3])};

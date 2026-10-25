@@ -113,3 +113,6 @@ body.sfull #lgb,body.sfull #lgp,body.sfull #reset{visibility:hidden}
 .ecp.good{background:#d8f0dc;color:#14532d}.ecp.mixed{background:#fbecc8;color:#6b4300}.ecp.bad{background:#f9d9d6;color:#7f1d1d}.ecp.unknown{background:#e6e6ea;color:#33333d}
 .ecb{display:inline-block;margin-inline-start:.35rem;padding:0 .35rem;border-radius:4px;background:#2c3440;color:#f2f4f7;font-size:.75rem}
 .ecs{margin:.2rem 0 .4rem;font-size:.8rem}.ecimg{float:inline-end;border-radius:4px}
+
+/* era tour button */
+#scrub .tour{display:inline-flex;align-items:center;justify-content:center}#scrub .tour[aria-pressed=true]{background:var(--acc);color:#1a1a1a}
