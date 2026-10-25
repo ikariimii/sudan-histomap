@@ -5,7 +5,7 @@
  "stream": "Sudan – Republic",
  "start": 2023,
  "end": 2026,
- "dating_note": "Ongoing; end=present. 'Government relocates to Port Sudan' not yet tied to a non-Wikipedia source (UN sources confirm the UN hub moved there).",
+ "dating_note": "Ongoing; end=present.",
  "events": [
   {
    "en": "Fighting erupts 15 April 2023",
@@ -73,6 +73,7 @@
   "en"
  ],
  "flags": [
+  "Pass 32g: dating_note clause 'Government relocates to Port Sudan' cut: no UN/OCHA source states the relocation",
   "Pass 32b: famine/displacement/humanitarian figures refreshed from db/war_refresh_2026-10.json (UN sources only; no fatality or control figures); Arabic is a [WORKING TRANSLATION – needs native Arabic review]",
   "Pass 32c: removed the 'RSF control of Kordofan' territorial-control claim from the gum-arabic sentence (EN+AR); no control claims in this era's text",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
