@@ -5,7 +5,8 @@
   "scope": "VERIFY badges in modern-era extents (South Sudan, December Revolution, War in Sudan, al-Bashir), extents_notes_fill_ss2011.json, and modern items in extents_historic.json. Read-only; extents not edited.",
   "finding": "All 10 VERIFY badges are the same note, field abyei.final_status 'Final status unresolved.', cited only to 2011–2013 UN documents (UNSC1990, S/2013/706). They need a current UN source before being shown as present-day.",
   "rules": "No territorial-control claims; legal/status texts only. Quotes as read.",
-  "out_of_scope": "db/extents/southern-sudan-under-condominium-sudan.geojson features/4 carries the same VERIFY note, but that era is not modern, so it is not assessed here."
+  "out_of_scope": "db/extents/southern-sudan-under-condominium-sudan.geojson features/4 carries the same VERIFY note, but that era is not modern, so it is not assessed here.",
+  "updated": "2026-10-25: S/RES/2802(2025) read in full; UNISFA extension to 15 Nov 2026 (OP 1) and OP 4 wording confirmed"
  },
  "items": [
   {
@@ -23,11 +24,18 @@
      "read": "full page via WebFetch 2026-10-25"
     },
     {
-     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
-     "page": "preamble; OP 1, OP 4",
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted at the 10042nd (resumed) meeting, 14 Nov 2025 (document 25-18650)",
+     "page": "preamble; OP 1; OP 4",
      "url": "https://unscr.com/en/resolutions/doc/2802/",
-     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
-     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+     "alt_urls": [
+      "https://documents.un.org/doc/undoc/gen/n25/186/50/pdf/n2518650.pdf",
+      "https://press.un.org/en/2025/sc16223.doc.htm"
+     ],
+     "quote": "underscoring that the future status of Abyei shall be resolved by negotiations between the parties in a manner consistent with the CPA",
+     "quote_op1": "Decides to extend until 15 November 2026 the mandate of UNISFA as set out in paragraph 2 of resolution 1990 (2011)",
+     "quote_op4": "Determines that both parties should demonstrate measurable progress on border demarcation, including through:",
+     "read": "full text (12 pp., preamble and OP 1–36) via WebFetch of unscr.com, 2026-10-25",
+     "read_in_full": true
     }
    ],
    "recommendation": "clear",
@@ -48,11 +56,18 @@
      "read": "full page via WebFetch 2026-10-25"
     },
     {
-     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
-     "page": "preamble; OP 1, OP 4",
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted at the 10042nd (resumed) meeting, 14 Nov 2025 (document 25-18650)",
+     "page": "preamble; OP 1; OP 4",
      "url": "https://unscr.com/en/resolutions/doc/2802/",
-     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
-     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+     "alt_urls": [
+      "https://documents.un.org/doc/undoc/gen/n25/186/50/pdf/n2518650.pdf",
+      "https://press.un.org/en/2025/sc16223.doc.htm"
+     ],
+     "quote": "underscoring that the future status of Abyei shall be resolved by negotiations between the parties in a manner consistent with the CPA",
+     "quote_op1": "Decides to extend until 15 November 2026 the mandate of UNISFA as set out in paragraph 2 of resolution 1990 (2011)",
+     "quote_op4": "Determines that both parties should demonstrate measurable progress on border demarcation, including through:",
+     "read": "full text (12 pp., preamble and OP 1–36) via WebFetch of unscr.com, 2026-10-25",
+     "read_in_full": true
     }
    ],
    "recommendation": "clear",
@@ -73,11 +88,18 @@
      "read": "full page via WebFetch 2026-10-25"
     },
     {
-     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
-     "page": "preamble; OP 1, OP 4",
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted at the 10042nd (resumed) meeting, 14 Nov 2025 (document 25-18650)",
+     "page": "preamble; OP 1; OP 4",
      "url": "https://unscr.com/en/resolutions/doc/2802/",
-     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
-     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+     "alt_urls": [
+      "https://documents.un.org/doc/undoc/gen/n25/186/50/pdf/n2518650.pdf",
+      "https://press.un.org/en/2025/sc16223.doc.htm"
+     ],
+     "quote": "underscoring that the future status of Abyei shall be resolved by negotiations between the parties in a manner consistent with the CPA",
+     "quote_op1": "Decides to extend until 15 November 2026 the mandate of UNISFA as set out in paragraph 2 of resolution 1990 (2011)",
+     "quote_op4": "Determines that both parties should demonstrate measurable progress on border demarcation, including through:",
+     "read": "full text (12 pp., preamble and OP 1–36) via WebFetch of unscr.com, 2026-10-25",
+     "read_in_full": true
     }
    ],
    "recommendation": "clear",
@@ -98,11 +120,18 @@
      "read": "full page via WebFetch 2026-10-25"
     },
     {
-     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
-     "page": "preamble; OP 1, OP 4",
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted at the 10042nd (resumed) meeting, 14 Nov 2025 (document 25-18650)",
+     "page": "preamble; OP 1; OP 4",
      "url": "https://unscr.com/en/resolutions/doc/2802/",
-     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
-     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+     "alt_urls": [
+      "https://documents.un.org/doc/undoc/gen/n25/186/50/pdf/n2518650.pdf",
+      "https://press.un.org/en/2025/sc16223.doc.htm"
+     ],
+     "quote": "underscoring that the future status of Abyei shall be resolved by negotiations between the parties in a manner consistent with the CPA",
+     "quote_op1": "Decides to extend until 15 November 2026 the mandate of UNISFA as set out in paragraph 2 of resolution 1990 (2011)",
+     "quote_op4": "Determines that both parties should demonstrate measurable progress on border demarcation, including through:",
+     "read": "full text (12 pp., preamble and OP 1–36) via WebFetch of unscr.com, 2026-10-25",
+     "read_in_full": true
     }
    ],
    "recommendation": "clear",
@@ -123,11 +152,18 @@
      "read": "full page via WebFetch 2026-10-25"
     },
     {
-     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
-     "page": "preamble; OP 1, OP 4",
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted at the 10042nd (resumed) meeting, 14 Nov 2025 (document 25-18650)",
+     "page": "preamble; OP 1; OP 4",
      "url": "https://unscr.com/en/resolutions/doc/2802/",
-     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
-     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+     "alt_urls": [
+      "https://documents.un.org/doc/undoc/gen/n25/186/50/pdf/n2518650.pdf",
+      "https://press.un.org/en/2025/sc16223.doc.htm"
+     ],
+     "quote": "underscoring that the future status of Abyei shall be resolved by negotiations between the parties in a manner consistent with the CPA",
+     "quote_op1": "Decides to extend until 15 November 2026 the mandate of UNISFA as set out in paragraph 2 of resolution 1990 (2011)",
+     "quote_op4": "Determines that both parties should demonstrate measurable progress on border demarcation, including through:",
+     "read": "full text (12 pp., preamble and OP 1–36) via WebFetch of unscr.com, 2026-10-25",
+     "read_in_full": true
     }
    ],
    "recommendation": "clear",
@@ -148,11 +184,18 @@
      "read": "full page via WebFetch 2026-10-25"
     },
     {
-     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
-     "page": "preamble; OP 1, OP 4",
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted at the 10042nd (resumed) meeting, 14 Nov 2025 (document 25-18650)",
+     "page": "preamble; OP 1; OP 4",
      "url": "https://unscr.com/en/resolutions/doc/2802/",
-     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
-     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+     "alt_urls": [
+      "https://documents.un.org/doc/undoc/gen/n25/186/50/pdf/n2518650.pdf",
+      "https://press.un.org/en/2025/sc16223.doc.htm"
+     ],
+     "quote": "underscoring that the future status of Abyei shall be resolved by negotiations between the parties in a manner consistent with the CPA",
+     "quote_op1": "Decides to extend until 15 November 2026 the mandate of UNISFA as set out in paragraph 2 of resolution 1990 (2011)",
+     "quote_op4": "Determines that both parties should demonstrate measurable progress on border demarcation, including through:",
+     "read": "full text (12 pp., preamble and OP 1–36) via WebFetch of unscr.com, 2026-10-25",
+     "read_in_full": true
     }
    ],
    "recommendation": "clear",
@@ -173,11 +216,18 @@
      "read": "full page via WebFetch 2026-10-25"
     },
     {
-     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
-     "page": "preamble; OP 1, OP 4",
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted at the 10042nd (resumed) meeting, 14 Nov 2025 (document 25-18650)",
+     "page": "preamble; OP 1; OP 4",
      "url": "https://unscr.com/en/resolutions/doc/2802/",
-     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
-     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+     "alt_urls": [
+      "https://documents.un.org/doc/undoc/gen/n25/186/50/pdf/n2518650.pdf",
+      "https://press.un.org/en/2025/sc16223.doc.htm"
+     ],
+     "quote": "underscoring that the future status of Abyei shall be resolved by negotiations between the parties in a manner consistent with the CPA",
+     "quote_op1": "Decides to extend until 15 November 2026 the mandate of UNISFA as set out in paragraph 2 of resolution 1990 (2011)",
+     "quote_op4": "Determines that both parties should demonstrate measurable progress on border demarcation, including through:",
+     "read": "full text (12 pp., preamble and OP 1–36) via WebFetch of unscr.com, 2026-10-25",
+     "read_in_full": true
     }
    ],
    "recommendation": "clear",
@@ -198,11 +248,18 @@
      "read": "full page via WebFetch 2026-10-25"
     },
     {
-     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
-     "page": "preamble; OP 1, OP 4",
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted at the 10042nd (resumed) meeting, 14 Nov 2025 (document 25-18650)",
+     "page": "preamble; OP 1; OP 4",
      "url": "https://unscr.com/en/resolutions/doc/2802/",
-     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
-     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+     "alt_urls": [
+      "https://documents.un.org/doc/undoc/gen/n25/186/50/pdf/n2518650.pdf",
+      "https://press.un.org/en/2025/sc16223.doc.htm"
+     ],
+     "quote": "underscoring that the future status of Abyei shall be resolved by negotiations between the parties in a manner consistent with the CPA",
+     "quote_op1": "Decides to extend until 15 November 2026 the mandate of UNISFA as set out in paragraph 2 of resolution 1990 (2011)",
+     "quote_op4": "Determines that both parties should demonstrate measurable progress on border demarcation, including through:",
+     "read": "full text (12 pp., preamble and OP 1–36) via WebFetch of unscr.com, 2026-10-25",
+     "read_in_full": true
     }
    ],
    "recommendation": "clear",
@@ -223,11 +280,18 @@
      "read": "full page via WebFetch 2026-10-25"
     },
     {
-     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
-     "page": "preamble; OP 1, OP 4",
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted at the 10042nd (resumed) meeting, 14 Nov 2025 (document 25-18650)",
+     "page": "preamble; OP 1; OP 4",
      "url": "https://unscr.com/en/resolutions/doc/2802/",
-     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
-     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+     "alt_urls": [
+      "https://documents.un.org/doc/undoc/gen/n25/186/50/pdf/n2518650.pdf",
+      "https://press.un.org/en/2025/sc16223.doc.htm"
+     ],
+     "quote": "underscoring that the future status of Abyei shall be resolved by negotiations between the parties in a manner consistent with the CPA",
+     "quote_op1": "Decides to extend until 15 November 2026 the mandate of UNISFA as set out in paragraph 2 of resolution 1990 (2011)",
+     "quote_op4": "Determines that both parties should demonstrate measurable progress on border demarcation, including through:",
+     "read": "full text (12 pp., preamble and OP 1–36) via WebFetch of unscr.com, 2026-10-25",
+     "read_in_full": true
     }
    ],
    "recommendation": "clear",
@@ -248,11 +312,18 @@
      "read": "full page via WebFetch 2026-10-25"
     },
     {
-     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
-     "page": "preamble; OP 1, OP 4",
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted at the 10042nd (resumed) meeting, 14 Nov 2025 (document 25-18650)",
+     "page": "preamble; OP 1; OP 4",
      "url": "https://unscr.com/en/resolutions/doc/2802/",
-     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
-     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+     "alt_urls": [
+      "https://documents.un.org/doc/undoc/gen/n25/186/50/pdf/n2518650.pdf",
+      "https://press.un.org/en/2025/sc16223.doc.htm"
+     ],
+     "quote": "underscoring that the future status of Abyei shall be resolved by negotiations between the parties in a manner consistent with the CPA",
+     "quote_op1": "Decides to extend until 15 November 2026 the mandate of UNISFA as set out in paragraph 2 of resolution 1990 (2011)",
+     "quote_op4": "Determines that both parties should demonstrate measurable progress on border demarcation, including through:",
+     "read": "full text (12 pp., preamble and OP 1–36) via WebFetch of unscr.com, 2026-10-25",
+     "read_in_full": true
     }
    ],
    "recommendation": "clear",
