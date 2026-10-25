@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Check db/cities.json: source_ids in registry (data/periods.js meta.sources ∪ db/lens_*.json meta.sources,
 which research_patch Pass 9 merges), era_ids exist in data/eras, coords in regional bbox, no duplicate QIDs/ids;
-first_attested {year,badge FIRST_ATTESTED,source_id,page,basis} kept separate from founded; map_from = founded else first_attested, else list_only_reason."""
+first_attested {year,badge FIRST_ATTESTED,source_id,page,basis} kept separate from founded; map_from = founded else first_attested, else list_only_reason;
+last_attested {year,badge LAST_ATTESTED[+APPROXIMATE|+CONTESTED],source_id,page,basis} required (or null + last_attested_reason) on ruins with no abandoned year and no role end."""
 import json,glob,os,sys
 root=sys.argv[1] if len(sys.argv)>1 else os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 t=open(os.path.join(root,'data/periods.js')).read()
@@ -51,6 +52,18 @@ for r in P:
     if isinstance(a,dict):
         if a.get('year') is None and not a.get('reason'): bad.append(f'{i}: abandoned without year or reason')
         if a.get('year') is not None: src(r,a,'abandoned')
+    la=r.get('last_attested','__absent__')
+    undated_ruin=isinstance(a,dict) and a.get('year') is None and not any(ro.get('end') is not None for ro in r.get('roles',[]))
+    if undated_ruin and la=='__absent__': bad.append(f'{i}: undated ruin without last_attested field')
+    if la not in (None,'__absent__'):
+        if not undated_ruin: bad.append(f'{i}: last_attested only for ruins with no abandoned year and no role end')
+        bg=str(la.get('badge','')).split('+')
+        if bg[0]!='LAST_ATTESTED' or any(b not in ('APPROXIMATE','CONTESTED') for b in bg[1:]): bad.append(f'{i}: bad last_attested badge {la.get("badge")}')
+        if not isinstance(la.get('year'),int): bad.append(f'{i}: last_attested without integer year')
+        if not la.get('basis'): bad.append(f'{i}: last_attested without basis')
+        src(r,la,'last_attested')
+        if mf and la.get('year') is not None and isinstance(la.get('year'),int) and la['year']<mf['year']: bad.append(f'{i}: last_attested {la["year"]} before map_from {mf["year"]}')
+    if la is None and not r.get('last_attested_reason'): bad.append(f'{i}: null last_attested without last_attested_reason')
     for ro in r.get('roles',[]):
         if ro.get('era_id') not in eras: bad.append(f"{i}: era {ro.get('era_id')} missing")
         if ro.get('role') not in ROLES: bad.append(f"{i}: bad role {ro.get('role')}")

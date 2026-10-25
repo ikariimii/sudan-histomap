@@ -3,7 +3,8 @@
   "layer": "cities",
   "built": "2026-10-24",
   "note": "No population or war status (Analyst layer). Dates null where sources read do not state them.",
-  "pass2": "2026-10-24: first_attested field (IM ruling), map_from, 3 places added"
+  "pass2": "2026-10-24: first_attested field (IM ruling), map_from, 3 places added",
+  "pass3": "2026-10-24: last_attested for undated ruins without a role end year"
  },
  "places": [
   {
@@ -164,6 +165,10 @@
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
     {
+     "id": "GHA2_CH10",
+     "page": "291"
+    },
+    {
      "id": "GHA2_CH9",
      "page": "268"
     },
@@ -182,6 +187,13 @@
    "map_from": {
     "year": -1290,
     "basis": "first_attested"
+   },
+   "last_attested": {
+    "year": 12,
+    "badge": "LAST_ATTESTED+APPROXIMATE",
+    "source_id": "GHA2_CH10",
+    "page": "291",
+    "basis": "Natakamani and Amanitere (-12 to +12) restored the temple of Amun at Napata after Petronius (year = end of reign; temple read as the Barkal Amun temple)"
    }
   },
   {
@@ -219,6 +231,10 @@
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
     {
+     "id": "GHA2_CH10",
+     "page": "281"
+    },
+    {
      "id": "GHA2_CH11",
      "page": "300"
     },
@@ -237,6 +253,13 @@
    "map_from": {
     "year": -800,
     "basis": "first_attested"
+   },
+   "last_attested": {
+    "year": -690,
+    "badge": "LAST_ATTESTED+APPROXIMATE",
+    "source_id": "GHA2_CH10",
+    "page": "281",
+    "basis": "Taharqa (-690 to -664) abandoned the traditional necropolis of El-Kurru for Nuri (year = accession)"
    }
   },
   {
@@ -283,6 +306,10 @@
      "page": "285"
     },
     {
+     "id": "GHA2_CH11",
+     "page": "303"
+    },
+    {
      "id": "WIKIDATA_CITIES",
      "page": "Q2119839"
     }
@@ -298,6 +325,13 @@
    "map_from": {
     "year": -664,
     "basis": "founded"
+   },
+   "last_attested": {
+    "year": -310,
+    "badge": "LAST_ATTESTED+APPROXIMATE",
+    "source_id": "GHA2_CH11",
+    "page": "303",
+    "basis": "royal tombs of Nuri run from Taharqa to Nastasen (died about -310); later royal burials at Begrawiya (p.300)"
    }
   },
   {
@@ -335,6 +369,10 @@
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
     {
+     "id": "GHA2_CH10",
+     "page": "293"
+    },
+    {
      "id": "GHA2_CH11",
      "page": "301"
     },
@@ -353,6 +391,13 @@
    "map_from": {
     "year": -300,
     "basis": "first_attested"
+   },
+   "last_attested": {
+    "year": 330,
+    "badge": "LAST_ATTESTED+APPROXIMATE",
+    "source_id": "GHA2_CH10",
+    "page": "293",
+    "basis": "Meroitic kingdom \"had already collapsed\" by Ezana's campaign towards +330; last named reign Teqorideamani (+246 to +266), p.292"
    }
   },
   {
@@ -408,7 +453,9 @@
    "map_from": {
     "year": -270,
     "basis": "first_attested"
-   }
+   },
+   "last_attested": null,
+   "last_attested_reason": "GHA II pp.318-321 date only early temple phases (before -500); no later dated mention found in sources read"
   },
   {
    "id": "naqa",
@@ -435,12 +482,23 @@
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
     {
+     "id": "GHA2_CH10",
+     "page": "291"
+    },
+    {
      "id": "WIKIDATA_CITIES",
      "page": "Q1760360"
     }
    ],
    "map_from": null,
-   "list_only_reason": "no cited founded or first-attested date in sources read"
+   "list_only_reason": "no cited founded or first-attested date in sources read",
+   "last_attested": {
+    "year": 12,
+    "badge": "LAST_ATTESTED+APPROXIMATE",
+    "source_id": "GHA2_CH10",
+    "page": "291",
+    "basis": "Natakamani and Amanitere (-12 to +12) \"devoted particular attention to Naga\" (year = end of reign)"
+   }
   },
   {
    "id": "wad-ban-naqa",
@@ -477,6 +535,10 @@
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
     {
+     "id": "GHA2_CH10",
+     "page": "291"
+    },
+    {
      "id": "GHA2_CH11",
      "page": "314"
     },
@@ -495,6 +557,13 @@
    "map_from": {
     "year": -270,
     "basis": "first_attested"
+   },
+   "last_attested": {
+    "year": 12,
+    "badge": "LAST_ATTESTED+APPROXIMATE",
+    "source_id": "GHA2_CH10",
+    "page": "291",
+    "basis": "South Temple at Wad ben Naga is the work of Natakamani and Amanitere (-12 to +12) (year = end of reign)"
    }
   },
   {
@@ -527,7 +596,9 @@
     }
    ],
    "map_from": null,
-   "list_only_reason": "no cited founded or first-attested date in sources read"
+   "list_only_reason": "no cited founded or first-attested date in sources read",
+   "last_attested": null,
+   "last_attested_reason": "latest cited evidence (Meroitic glassware, GHA II p.292) is undated; Taharqa-era tomb (p.281) is not the last use"
   },
   {
    "id": "soleb",
@@ -576,7 +647,9 @@
    "map_from": {
     "year": -1400,
     "basis": "first_attested"
-   }
+   },
+   "last_attested": null,
+   "last_attested_reason": "only the -1400 temple building is dated in sources read"
   },
   {
    "id": "buhen",
@@ -644,7 +717,9 @@
    "map_from": {
     "year": -2055,
     "basis": "first_attested"
-   }
+   },
+   "last_attested": null,
+   "last_attested_reason": "GHA II dates only Old/Middle/New Kingdom phases; no end of occupation stated"
   },
   {
    "id": "semna",
@@ -731,7 +806,9 @@
     }
    ],
    "map_from": null,
-   "list_only_reason": "no cited founded or first-attested date in sources read"
+   "list_only_reason": "no cited founded or first-attested date in sources read",
+   "last_attested": null,
+   "last_attested_reason": "no mention found in GHA II-IV or MacMichael 1922 text on the box"
   },
   {
    "id": "faras",
@@ -771,6 +848,10 @@
      "page": "194"
     },
     {
+     "id": "GHA3_CH8",
+     "page": "213"
+    },
+    {
      "id": "WIKIDATA_CITIES",
      "page": "Q584387"
     }
@@ -785,6 +866,13 @@
    "map_from": {
     "year": 400,
     "basis": "first_attested"
+   },
+   "last_attested": {
+    "year": 1056,
+    "badge": "LAST_ATTESTED",
+    "source_id": "GHA3_CH8",
+    "page": "213",
+    "basis": "Merkurios (1037-56), latest bishop of Faras named in the chapter"
    }
   },
   {
@@ -826,6 +914,10 @@
      "page": "290"
     },
     {
+     "id": "GHA5_CH6",
+     "page": "145"
+    },
+    {
      "id": "WIKIDATA_CITIES",
      "page": "Q2121453"
     }
@@ -840,6 +932,13 @@
    "map_from": {
     "year": -23,
     "basis": "first_attested"
+   },
+   "last_attested": {
+    "year": 1550,
+    "badge": "LAST_ATTESTED+APPROXIMATE",
+    "source_id": "GHA5_CH6",
+    "page": "145",
+    "basis": "Ozdemir Pasha re-occupied Ibrim in the middle of the 16th century and garrisoned it with Bosnian troops (year = mid-century)"
    }
   },
   {
@@ -867,6 +966,10 @@
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
     {
+     "id": "GHA2_CH10",
+     "page": "295"
+    },
+    {
      "id": "GHA2_CH12",
      "page": "331"
     },
@@ -889,6 +992,13 @@
    "map_from": {
     "year": 300,
     "basis": "first_attested"
+   },
+   "last_attested": {
+    "year": 537,
+    "badge": "LAST_ATTESTED+APPROXIMATE",
+    "source_id": "GHA2_CH10",
+    "page": "295",
+    "basis": "Narses closed the temple of Philae and expelled the last priests between +535 and +537; ends the temple cult only, later Christian use not dated in sources read"
    }
   },
   {
@@ -928,7 +1038,9 @@
    "map_from": {
     "year": -1274,
     "basis": "founded"
-   }
+   },
+   "last_attested": null,
+   "last_attested_reason": "no dated late mention found in sources read"
   },
   {
    "id": "old-dongola",
@@ -968,6 +1080,10 @@
      "page": "194"
     },
     {
+     "id": "GHA4_CH16",
+     "page": "404"
+    },
+    {
      "id": "WIKIDATA_CITIES",
      "page": "Q433112"
     }
@@ -982,6 +1098,13 @@
    "map_from": {
     "year": 500,
     "basis": "first_attested"
+   },
+   "last_attested": {
+    "year": 1365,
+    "badge": "LAST_ATTESTED",
+    "source_id": "GHA4_CH16",
+    "page": "404",
+    "basis": "in the events of 1365-6 the king fled to al-Daw \"while Dunkula was left in ruins\""
    }
   },
   {
@@ -1014,7 +1137,9 @@
     }
    ],
    "map_from": null,
-   "list_only_reason": "no cited founded or first-attested date in sources read"
+   "list_only_reason": "no cited founded or first-attested date in sources read",
+   "last_attested": null,
+   "last_attested_reason": "no mention found in GHA II-IV text on the box"
   },
   {
    "id": "soba",
@@ -1224,6 +1349,10 @@
      "page": "343"
     },
     {
+     "id": "GHA3_CH19",
+     "page": "562"
+    },
+    {
      "id": "WIKIDATA_CITIES",
      "page": "Q378940"
     }
@@ -1238,6 +1367,13 @@
    "map_from": {
     "year": -250,
     "basis": "founded"
+   },
+   "last_attested": {
+    "year": 750,
+    "badge": "LAST_ATTESTED+APPROXIMATE",
+    "source_id": "GHA3_CH19",
+    "page": "562",
+    "basis": "Adulis \"was destroyed in about the eighth century\" (year = mid-century)"
    }
   },
   {
@@ -1281,6 +1417,10 @@
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
     {
+     "id": "GHA4_CH15",
+     "page": "390"
+    },
+    {
      "id": "GHAIII",
      "page": "82"
     },
@@ -1303,6 +1443,13 @@
    "map_from": {
     "year": 700,
     "basis": "founded"
+   },
+   "last_attested": {
+    "year": 1360,
+    "badge": "LAST_ATTESTED+APPROXIMATE",
+    "source_id": "GHA4_CH15",
+    "page": "390",
+    "basis": "the route from Aydhab to Qus became impassable and \"fell out of use in the 1360s\" (year = start of decade)"
    }
   },
   {
@@ -1456,6 +1603,10 @@
      "page": "172"
     },
     {
+     "id": "MACMICHAEL1922_V1",
+     "page": "215"
+    },
+    {
      "id": "WIKIDATA_CITIES",
      "page": "Q11924140"
     }
@@ -1470,6 +1621,13 @@
    "map_from": {
     "year": 1480,
     "basis": "first_attested"
+   },
+   "last_attested": {
+    "year": 1690,
+    "badge": "LAST_ATTESTED+APPROXIMATE",
+    "source_id": "MACMICHAEL1922_V1",
+    "page": "215",
+    "basis": "Shaigiyya subject to the Abdallab \"Mangil of Kerri\" until about 1690 (p.245: the later move to Halfayat al-Muluk is undated)"
    }
   },
   {
@@ -1497,12 +1655,23 @@
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
     {
+     "id": "MACMICHAEL1922_V1",
+     "page": "203"
+    },
+    {
      "id": "WIKIDATA_CITIES",
      "page": "Q6424293"
     }
    ],
    "map_from": null,
-   "list_only_reason": "no cited founded or first-attested date in sources read"
+   "list_only_reason": "no cited founded or first-attested date in sources read",
+   "last_attested": {
+    "year": 1750,
+    "badge": "LAST_ATTESTED+APPROXIMATE",
+    "source_id": "MACMICHAEL1922_V1",
+    "page": "203",
+    "basis": "Terayfia driven from Dongola in the 18th century \"took to trading at Kobbe\" (year = mid-century); Browne quoted on the merchants of Kobbe, p.216"
+   }
   },
   {
    "id": "ain-farah",
@@ -1557,7 +1726,9 @@
    "map_from": {
     "year": 1400,
     "basis": "first_attested"
-   }
+   },
+   "last_attested": null,
+   "last_attested_reason": "GHA IV p.420 dates the Christian buildings 8th-13th c., but the cited role is the later Tunjur era (from 1400); no dated Tunjur-era mention found, so a year would contradict the role"
   },
   {
    "id": "shendi",
@@ -3022,7 +3193,9 @@
     }
    ],
    "map_from": null,
-   "list_only_reason": "no cited founded or first-attested date in sources read"
+   "list_only_reason": "no cited founded or first-attested date in sources read",
+   "last_attested": null,
+   "last_attested_reason": "no mention found in GHA V-VI or MacMichael 1922 text on the box"
   },
   {
    "id": "kutum",
@@ -3649,6 +3822,13 @@
    "map_from": {
     "year": 1859,
     "basis": "first_attested"
+   },
+   "last_attested": {
+    "year": 1874,
+    "badge": "LAST_ATTESTED",
+    "source_id": "GHA6_CH14",
+    "page": "370",
+    "basis": "Baker arrived at Gondokoro in 1874 (latest dated mention found)"
    }
   },
   {
@@ -3704,6 +3884,13 @@
    "map_from": {
     "year": 1876,
     "basis": "first_attested"
+   },
+   "last_attested": {
+    "year": 1885,
+    "badge": "LAST_ATTESTED",
+    "source_id": "GHA6_CH14",
+    "page": "371",
+    "basis": "by 1885 the Bari chief Bego attacked Lado and Rejaf"
    }
   },
   {
