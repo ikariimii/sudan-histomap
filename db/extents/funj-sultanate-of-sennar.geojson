@@ -21,7 +21,10 @@
     "end": 1821,
     "certainty": "medium",
     "confidence": 0.6,
-    "badges": ["APPROXIMATE", "DERIVED"],
+    "badges": [
+     "APPROXIMATE",
+     "DERIVED"
+    ],
     "label_en": "Sennar (capital)",
     "label_ar": "سنار (العاصمة)",
     "label_detail_en": "Funj capital 1504–1821 (HD2011). Point is the modern town (Wikidata Q611867, labelled \"Sengs\"; GeoNames 367644); old Sennar may not coincide exactly. Point only; approximate edges not drawn (unsourced).",
@@ -49,7 +52,10 @@
     "end": 1650,
     "certainty": "low",
     "confidence": 0.3,
-    "badges": ["APPROXIMATE", "DERIVED"],
+    "badges": [
+     "APPROXIMATE",
+     "DERIVED"
+    ],
     "label_en": "Fazughli (probable southern limit, early 17th c.)",
     "label_ar": "فازوغلي (الحد الجنوبي المرجّح، أوائل القرن 17)",
     "label_detail_en": "GHA V ch.7 p.177: by the beginning of the 17th century Funj direct rule extended \"from Arbadjï to the south of Fazûghlî, which probably constituted the northern limits of the Ethiopian border\". Text only: the limit lies somewhere south of Fazughli; the southern edge stays open. Point is the Wikidata coordinate of Fazogli (Q5439246, a historical province, not a town). Point only; approximate edges not drawn (unsourced).",
@@ -79,7 +85,10 @@
     "end": 1821,
     "certainty": "low",
     "confidence": 0.3,
-    "badges": ["APPROXIMATE", "DERIVED"],
+    "badges": [
+     "APPROXIMATE",
+     "DERIVED"
+    ],
     "label_en": "Old Dongola (northern reach)",
     "label_ar": "دنقلا العجوز (الامتداد الشمالي)",
     "label_detail_en": "By 1523 the Funj sultanate reached north to Dongola (ZH_EMB_HIST2020); Dongola a vassal kingdom under Funj suzerainty (HD2011). Point only; approximate edges not drawn (unsourced).",
@@ -108,7 +117,10 @@
     "end": 1821,
     "certainty": "low",
     "confidence": 0.3,
-    "badges": ["APPROXIMATE", "DERIVED"],
+    "badges": [
+     "APPROXIMATE",
+     "DERIVED"
+    ],
     "label_en": "Third Cataract (northern limit)",
     "label_ar": "الشلال الثالث (الحد الشمالي)",
     "label_detail_en": "\"Upper Nubia, above the Third Cataract, was under the suzerainty of the Funj rulers\"; Lower Nubia was \"nominally at least\" Ottoman (HD2011). After 1585 Hannik, south of the Third Cataract, was the Funj–Ottoman border (ZH_EMB_HIST2020); Hannik has no Wikidata coordinate, so the cataract stands in. Point only; approximate edges not drawn (unsourced).",
@@ -136,7 +148,10 @@
     "end": 1821,
     "certainty": "low",
     "confidence": 0.3,
-    "badges": ["APPROXIMATE", "DERIVED"],
+    "badges": [
+     "APPROXIMATE",
+     "DERIVED"
+    ],
     "label_en": "Kordofan (contested with Darfur)",
     "label_ar": "كردفان (متنازع عليها مع دارفور)",
     "label_detail_en": "\"Kordofan was a debatable land between the rulers of Sennar and Darfur\" (HD2011). Region centroid, not a frontier. Point only; approximate edges not drawn (unsourced).",
@@ -275,6 +290,230 @@
      "commit": null
     },
     "draft_version": "bd-0.1 2026-10-24"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+     [
+      [
+       [
+        31.692398873325732,
+        18.805487709763558
+       ],
+       [
+        33.17855773244477,
+        19.79456395247432
+       ],
+       [
+        33.28921483539842,
+        19.828416275763328
+       ],
+       [
+        33.40445241997127,
+        19.817867658414414
+       ],
+       [
+        33.507124446997764,
+        19.764487614461366
+       ],
+       [
+        33.58195448905946,
+        19.676218486046036
+       ],
+       [
+        34.273345487395694,
+        18.082836494368976
+       ],
+       [
+        34.25723043711872,
+        17.90535583427421
+       ],
+       [
+        33.694490287142344,
+        16.54842002963922
+       ],
+       [
+        32.76133382712564,
+        15.408990417969658
+       ],
+       [
+        32.61622780955504,
+        15.312659148641654
+       ],
+       [
+        32.44205777963522,
+        15.313179209475127
+       ],
+       [
+        32.317235501119015,
+        15.388502321488097
+       ],
+       [
+        32.23559097006972,
+        15.542351729466429
+       ],
+       [
+        32.25318017493199,
+        15.71563210821098
+       ],
+       [
+        33.16998439698989,
+        16.846272764570266
+       ],
+       [
+        33.654015982385495,
+        18.016749143799633
+       ],
+       [
+        33.18850510384127,
+        19.081781608347782
+       ],
+       [
+        31.93193025466607,
+        18.251662761940864
+       ],
+       [
+        30.79410650709798,
+        17.924919526417526
+       ],
+       [
+        30.621049989012054,
+        17.944589588276028
+       ],
+       [
+        30.488086853862956,
+        18.05708969706204
+       ],
+       [
+        30.444919526417525,
+        18.16589349290202
+       ],
+       [
+        30.446675526163872,
+        18.282934513970954
+       ],
+       [
+        30.493087518058793,
+        18.390394325790602
+       ],
+       [
+        30.57708969706204,
+        18.47191314613704
+       ],
+       [
+        31.692398873325732,
+        18.805487709763558
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        30.5,
+        13.0
+       ],
+       [
+        30.423879532511286,
+        12.61731656763491
+       ],
+       [
+        30.207106781186546,
+        12.292893218813452
+       ],
+       [
+        29.88268343236509,
+        12.076120467488714
+       ],
+       [
+        29.5,
+        12.0
+       ],
+       [
+        29.11731656763491,
+        12.076120467488714
+       ],
+       [
+        28.792893218813454,
+        12.292893218813452
+       ],
+       [
+        28.576120467488714,
+        12.61731656763491
+       ],
+       [
+        28.5,
+        13.0
+       ],
+       [
+        28.576120467488714,
+        13.38268343236509
+       ],
+       [
+        28.792893218813454,
+        13.707106781186548
+       ],
+       [
+        29.11731656763491,
+        13.923879532511286
+       ],
+       [
+        29.5,
+        14.0
+       ],
+       [
+        29.88268343236509,
+        13.923879532511286
+       ],
+       [
+        30.207106781186546,
+        13.707106781186548
+       ],
+       [
+        30.423879532511286,
+        13.38268343236509
+       ],
+       [
+        30.5,
+        13.0
+       ]
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "zone-funj-sultanate-of-sennar-claimed-1",
+    "draft_id": "funj-sultanate-of-sennar#1:claimed",
+    "zone": "claimed",
+    "confidence": 0.35,
+    "certainty": "low",
+    "badges": [
+     "APPROXIMATE",
+     "EDITORIAL"
+    ],
+    "source": "GHA5_CH7",
+    "sources": [
+     "GHA5_CH7",
+     "OFS1974",
+     "HD2011",
+     "MSM1972"
+    ],
+    "basis_en": "North to Dongola through the Abdallab vassals: Holt & Daly (intro p.8) put 'the vassal-kingdom of Dongola' on the route to the frontier-post of Mushu, south of the Third Cataract; MSM1972 p.151 reports the Abdallab sway 'from Arbaji to the Third Cataract', and p.279 calls Dongola the capital 'of one of the important provinces subject to them'. Kordofan rivalry with Darfur: GHA V p.187. Claimed zone, EDITORIAL.",
+    "pages": "GHA V ch.7 pp.172, 177, 187; HD2011 intro p.8; MSM1972 printed pp.150–151, 279",
+    "start": null,
+    "end": null,
+    "label_en": null,
+    "label_ar": null,
+    "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
+    "signoff": {
+     "by": "Sudan Historian",
+     "date": "2026-10-25",
+     "commit": null
+    },
+    "draft_version": "bd-0.1 2026-10-24",
+    "reason": ""
    }
   }
  ],

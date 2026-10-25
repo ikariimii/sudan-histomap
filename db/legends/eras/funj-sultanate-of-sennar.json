@@ -115,6 +115,29 @@
      "confidence": 0.6,
      "confidence_word": "medium",
      "low_confidence_overlay": false
+    },
+    {
+     "feature_index": 6,
+     "id": "zone-funj-sultanate-of-sennar-claimed-1",
+     "label_en": null,
+     "symbol_class": "zone_claimed",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "GHA5_CH7",
+      "OFS1974",
+      "HD2011",
+      "MSM1972"
+     ],
+     "zone": "claimed",
+     "confidence": 0.35,
+     "confidence_word": "low",
+     "low_confidence_overlay": true
     }
    ],
    "borders_legend": [
@@ -125,6 +148,10 @@
     {
      "badge": "DERIVED",
      "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "EDITORIAL",
+     "legend_en": "Editorial judgement"
     },
     {
      "badge": "LOW-CONFIDENCE-HATCH",
@@ -1502,6 +1529,7 @@
   "low_confidence",
   "relation_arrow_conflict",
   "relation_arrow_subjugation",
+  "zone_claimed",
   "zone_core"
  ],
  "badges_present": [
@@ -1510,6 +1538,7 @@
   "AR-REVIEW",
   "CONTESTED",
   "DERIVED",
+  "EDITORIAL",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
   "RUIN-UNDATED",
@@ -1525,11 +1554,12 @@
   "city_town": 4,
   "extent_label_point": 5,
   "list_only_text": 4,
-  "low_confidence": 4,
+  "low_confidence": 5,
   "relation_arrow_conflict": 3,
   "relation_arrow_subjugation": 2,
+  "zone_claimed": 1,
   "zone_core": 1,
-  "extent_features": 6,
+  "extent_features": 7,
   "group_features": 9,
   "cities": 35
  },
@@ -1585,6 +1615,7 @@
    "AR-REVIEW",
    "CONTESTED",
    "DERIVED",
+   "EDITORIAL",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
    "RUIN-UNDATED",
