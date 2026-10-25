@@ -116,3 +116,6 @@ body.sfull #lgb,body.sfull #lgp,body.sfull #reset{visibility:hidden}
 
 /* era tour button */
 #scrub .tour{display:inline-flex;align-items:center;justify-content:center}#scrub .tour[aria-pressed=true]{background:var(--acc);color:#1a1a1a}
+
+/* Evidence mode */
+.evd>summary{cursor:pointer}.evp{font-weight:600}.evb{display:flex;flex-wrap:wrap;gap:4px}.hwk ul{margin:.2em 0;padding-inline-start:1.2em}.evc{color:var(--ink)}

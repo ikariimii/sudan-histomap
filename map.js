@@ -20,9 +20,9 @@ $('lang').href=(AR?'/':'/ar/')+(lq.toString()?'?'+lq:'');$('prev').setAttribute(
 $('skip').textContent=T.skip;$('map').setAttribute('aria-label',T.mapl);$('svg').setAttribute('aria-label',T.mapl+'. '+T.featl);$('svgt').textContent=T.mapl;$('layers').setAttribute('aria-label',T.layersl);
 $('grab').setAttribute('aria-label',T.sheet+' · '+T.sheetst.half);$('grab').setAttribute('aria-expanded','true');
 $('reset').title=T.reset;$('reset').setAttribute('aria-label',T.reset);$('within').querySelector('label').textContent=T.within;
-const LAY=['ctl','grp','rel','pop','cty','hml','trd'],on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x==='trade'?'trd':x).filter(x=>LAY.includes(x)));
+const LAY=['ctl','grp','rel','pop','cty','hml','trd','evd'],on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x==='trade'?'trd':x==='evidence'?'evd':x).filter(x=>LAY.includes(x)));
 LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=T.l[k];b.setAttribute('aria-pressed',on.has(k));b.dataset.k=k;
- b.onclick=()=>{on.has(k)?on.delete(k):on.add(k);b.setAttribute('aria-pressed',on.has(k));url();render(false);if(k==='hml')hmlDraw()};$('layers').appendChild(b)});
+ b.onclick=()=>{on.has(k)?on.delete(k):on.add(k);b.setAttribute('aria-pressed',on.has(k));url();if(k==='evd'){evdStyle();layerInfo(ES[i]);return}render(false);if(k==='hml')hmlDraw()};$('layers').appendChild(b)});
 document.addEventListener('click',ev=>{const t=ev.target.closest&&ev.target.closest('[data-hml]');if(!t)return;ev.preventDefault();if(!on.has('hml')){on.add('hml');const c=document.querySelector('#layers .chip[data-k=hml]');if(c)c.setAttribute('aria-pressed','true');url();render(false);hmlDraw()}});
 // --- era index
 let i=Math.max(0,ES.findIndex(e=>e.id===Q.get('era')));const r=$('r');r.max=ES.length-1;r.value=i;r.setAttribute('aria-label',T.era);
@@ -82,7 +82,7 @@ async function render(anim=true){
  NEW.forEach(n=>{const p=gX.append('path').attr('class','ext'+(String(n.f.properties.certainty||'').toLowerCase()==='low'?' low':'')).datum(n.f).on('click',(ev)=>{ev.stopPropagation();feat(n.f,e)});
   if(D&&!RM&&n.m>=0){const a=resample(ringOf(OLD[n.m].f)),b=align(a,resample(ringOf(n.f)));const it=d3.interpolateArray(a,b);p.attr('d',dpts(a)).transition().duration(D).ease(d3.easeCubicInOut).attrTween('d',()=>t=>dpts(it(t))).on('end',function(){d3.select(this).attr('d',path(n.f))})}
   else{p.attr('d',path(n.f)).style('opacity',D?0:1);if(D)p.transition().duration(D).style('opacity',1)}});
- OLD=NEW.map(n=>({f:n.f,box:n.box}));
+ OLD=NEW.map(n=>({f:n.f,box:n.box}));evdStyle();
  // points (diamonds) and capitals
  // open lines: never filled; dashed when the feature says so (line_style/style.dash), arrowhead only when it says arrow
  const lns=ctl?(g.lines||[]).filter(f=>act(f.properties,e,Y)):[];const dsh=p=>p.line_style==='dashed'||!!(p.style&&p.style.dash);
@@ -124,10 +124,17 @@ function place(){setTimeout(cityThin,0);nobPos();const t=TR;gT.selectAll('*').re
   if(!ok){gg.remove();hid.push(o);return}tx.attr('x',ok.dx).attr('y',4+ok.k*lh).attr('text-anchor',ok.an);placed.push(ok.bb);
   if(ok.k!==0&&o.pri>=2.5)gg.insert('line','text').attr('class','ld').attr('x1',0).attr('y1',0).attr('x2',ok.dx).attr('y2',ok.k*lh+(ok.k<0?2:-8))});
  $('hidden').innerHTML=hid.length?T.hidden+': '+[...new Set(hid.map(o=>o.t))].map(esc).join(AR?'، ':', '):''}
+// --- Evidence mode (?layers=evd): areas fade by their confidence score and are hatched below 0.5; no score = faint dashed outline. Tap shows cite + pages.
+const gEv=root.insert('g',function(){return gX.node().nextSibling}).attr('class','evh').attr('pointer-events','none');
+const cf=p=>typeof p.confidence==='number'?p.confidence:null;
+function evdStyle(){zdefs();const ev=on.has('evd');document.body.classList.toggle('evd',ev);gEv.selectAll('*').remove();
+ [...gX.selectAll('path.ext:not(.old)').nodes(),...gZ.selectAll('path.zn').nodes()].forEach(function(n){const f=n.__data__;(function(){const zn=this.classList.contains('zn');const c=f?cf(f.properties):null,s=this.style;if(!ev){s.fillOpacity='';s.strokeDasharray='';s.strokeOpacity='';return}
+  s.fillOpacity=c==null?'.06':String(.08+.5*c);s.strokeOpacity=c==null?'.6':String(.4+.6*c);s.strokeDasharray=c==null?'2 4':(c<.5?'6 4':'');
+  if(!zn&&c!=null&&c<.5)gEv.append('path').attr('d',this.getAttribute('d')).attr('fill','url(#lowconf)').style('opacity',.9*(1-c))}).call(n)})}
 // --- tap a feature for details
 function feat(f,e){const p=f.properties,b=rep(p);const det=AR?(p.label_detail_ar||p.label_detail_en):(p.label_detail_en||p.label_detail_ar);
  $('feat').innerHTML=`<button class="x" aria-label="close">×</button><b>${esc(lab(p)||'—')}</b>${b?` <span class="repb${b==='CONTESTED'?' cont':b==='SINGLE-SOURCE'?' single':''}">${esc(b==='SINGLE-SOURCE'&&!AR?p.badge:BL[b][AR?1:0])}</span>`:''}${p.certainty?` <small>[${esc(p.certainty)}]</small>`:''}`+
-  (p.start!=null?`<br><small><bdi>${fy(p.start)}</bdi> – <bdi>${fy(p.end??e.b)}</bdi></small>`:'')+(det?`<p>${esc(det)}</p>`:'')+
+  (on.has('evd')?`<br><small class="evc">${esc(cf(p)!=null?T.evc+': '+num(cf(p)):T.evn)}</small>`:'')+(p.start!=null?`<br><small><bdi>${fy(p.start)}</bdi> – <bdi>${fy(p.end??e.b)}</bdi></small>`:'')+(det?`<p>${esc(det)}</p>`:'')+
   `<p class="extnote"><bdi dir="ltr">${esc(p.citation||p.source)}${p.pages?' pp. '+esc(p.pages):''}</bdi>${p.url?` <a href="${esc(p.url)}" rel="noopener">link</a>`:''}${p.source_pins?Object.entries(p.source_pins).map(([k,v])=>`<br><bdi dir="ltr">${esc(k)}: ${esc(v)}</bdi>`).join(''):''}${(p.badges||[]).filter(x=>x!==b).map(x=>` <span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`).join('')}${p.geometry_citation?`<br>${AR?'الهندسة':'Geometry'}: <bdi dir="ltr">${esc(p.geometry_citation)}</bdi>`:''}</p>`;
  $('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true};if($('sheet').classList.contains('peek'))snap('half');$('feat').scrollIntoView({block:'nearest'})}
 svg.on('click',()=>{$('feat').hidden=true});
@@ -140,15 +147,15 @@ async function zonesDraw(e,D,pub=[]){zdefs();const fs=pub.concat(BD?await zj(e):
  gZ.selectAll('g.z').interrupt().transition().duration(D?350:0).style('opacity',0).remove();
  const g=gZ.append('g').attr('class','z');const sorted=fs.slice().sort((a,b)=>ZO.indexOf(a.properties.zone)-ZO.indexOf(b.properties.zone));
  sorted.forEach(f=>{const p=f.properties,z=p.zone,d=path(f),k=ZO.indexOf(z);const s=g.append('g').attr('class','zf zf-'+z).style('opacity',D?0:1);
-  const a=s.append('path').attr('d',d).attr('class','zn').attr('tabindex',0).attr('role','button').attr('aria-label',`${T.bd[z]||z}: ${p.basis||''}`).on('click',ev=>{ev.stopPropagation();zcard(f)});
+  const a=s.append('path').attr('d',d).attr('class','zn').datum(f).attr('tabindex',0).attr('role','button').attr('aria-label',`${T.bd[z]||z}: ${p.basis||''}`).on('click',ev=>{ev.stopPropagation();zcard(f)});
   if(z==='influence')a.attr('fill','#7a6bd0').attr('fill-opacity',.08).attr('stroke','none').attr('filter','url(#zfeather)');
   else if(z==='claimed')a.attr('fill','#7a6bd0').attr('fill-opacity',.18).attr('stroke','#7a6bd0').attr('stroke-width',1.2).attr('stroke-dasharray','4 3').attr('vector-effect','non-scaling-stroke');
   else if(z==='contested')a.attr('fill','url(#conthatch)').attr('stroke','#e0a63e').attr('stroke-width',1.2).attr('vector-effect','non-scaling-stroke');
   else a.attr('fill','#7a6bd0').attr('fill-opacity',.35).attr('stroke','#7a6bd0').attr('stroke-width',1.2).attr('vector-effect','non-scaling-stroke');
   if(p.confidence<.5)s.append('path').attr('d',d).attr('fill','url(#lowconf)').style('opacity',.5*(1-p.confidence)).attr('pointer-events','none');
-  if(D)s.transition().delay(k*80).duration(350).style('opacity',1)})}
+  if(D)s.transition().delay(k*80).duration(350).style('opacity',1)});evdStyle()}
 function zcard(f){const p=f.properties;
- $('feat').innerHTML=`<button class="x" aria-label="${esc(T.close)}">×</button>${p.signoff!=='approved'?'<span class="bdb">DRAFT</span> ':''}<b>${esc(T.bd[p.zone]||p.zone)}</b> ${(p.badges||[]).map(x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`).join(' ')}<br><small>${esc(T.bd.conf)}: ${esc(ZW(p.confidence))} (${num(p.confidence)})${p.signoff!=='approved'?' · '+esc(T.bd.nv):''}</small>`+
+ $('feat').innerHTML=`<button class="x" aria-label="${esc(T.close)}">×</button>${p.signoff!=='approved'?'<span class="bdb">DRAFT</span> ':''}<b>${esc(T.bd[p.zone]||p.zone)}</b>${on.has('evd')?` <small class="evc">${esc(cf(p)!=null?T.evc+': '+num(cf(p)):T.evn)}</small>`:''} ${(p.badges||[]).map(x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`).join(' ')}<br><small>${esc(T.bd.conf)}: ${esc(ZW(p.confidence))} (${num(p.confidence)})${p.signoff!=='approved'?' · '+esc(T.bd.nv):''}</small>`+
   `<p>${esc(T.bd.basis)}: <bdi dir="ltr">${esc(p.basis||'—')}</bdi></p><p class="extnote">${(p.sources||[]).map(s=>`<bdi dir="ltr">${esc(s.citation)}</bdi>${s.url?` <a href="${esc(s.url)}" rel="noopener">link</a>`:''}`).join('<br>')}<br><small>${esc(p.version||'')}</small></p>`;
  $('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true};if($('sheet').classList.contains('peek'))snap('half');$('feat').scrollIntoView({block:'nearest'})}
 // --- optional layers: drawn only from delivered, sourced files
@@ -178,7 +185,7 @@ async function layersDraw(e){tradeDraw(e);{const hg=!!M.layers.glBuilt&&(M.layer
  // population stays in the card (sparkline); no invented geography for it
  scaleMarks()}
 async function layerInfo(e){const box=$('layerinfo');if(!box)return;let h='';
- const pl=document.querySelector('.poplayer');if(pl)pl.hidden=!on.has('pop');const gl=document.querySelector('.grplayer'),rl=document.querySelector('.rellayer');if(gl)gl.hidden=!on.has('grp');if(rl)rl.hidden=!on.has('rel');
+ const pl=document.querySelector('.poplayer');if(pl)pl.hidden=!on.has('pop');const el=document.querySelector('.evdlayer');if(el)el.hidden=!on.has('evd');const gl=document.querySelector('.grplayer'),rl=document.querySelector('.rellayer');if(gl)gl.hidden=!on.has('grp');if(rl)rl.hidden=!on.has('rel');
  for(const k of ['grp','rel','pop']){if(!on.has(k)||(k==='pop'&&pl)||(k==='grp'&&gl)||(k==='rel'&&rl))continue;const d=await layer(k);const gapT={grp:T.grpgap,rel:T.relgap,pop:T.popgap}[k];
   if(!d||!d.length||!d.flatMap(items).length){h+=`<p class="lgap"><b>${T.l[k]}:</b> <span class="gap">${T.wip}</span> <span class="gapt">${esc(gapT)}</span></p>`;continue}
   if(k==='pop'){const s=d.flatMap(items).filter(x=>x.year!=null&&x.value!=null&&(x.lat==null)).sort((a,b)=>a.year-b.year);if(s.length<2){h+=`<p class="lgap"><b>${T.l.pop}:</b> <span class="gap">${T.wip}</span></p>`;continue}
