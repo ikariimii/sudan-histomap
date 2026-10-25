@@ -20,15 +20,15 @@
  "totals": {
   "SINGLE-SOURCE": 220,
   "CONTESTED": 161,
-  "VERIFY": 7,
+  "VERIFY": 13,
   "REPORTED": 14,
   "MODEL": 109,
   "EDITORIAL": 67,
-  "APPROXIMATE": 445,
+  "APPROXIMATE": 443,
   "PARTIAL": 3,
-  "DERIVED": 330
+  "DERIVED": 328
  },
- "grand_total": 1356,
+ "grand_total": 1358,
  "inline_totals": {
   "SINGLE-SOURCE": 22,
   "CONTESTED": 9,
@@ -43,21 +43,21 @@
  "inline_grand_total": 45,
  "inline_method": "Exact bracketed tags [NAME] or [NAME: note] for the 9 badge names in data/eras/*.json text fields (excluding all.json, badge keys and Arabic _ar/ar fields); a tag is not counted when the enclosing object already has the same structured badge. Not included in totals/grand_total.",
  "source_types_totals": {
-  "un_aid_agency": 33,
-  "intl_financial": 23,
+  "un_aid_agency": 35,
+  "intl_financial": 24,
   "government": 50,
   "scholarly": 237,
-  "wikipedia_only": 82,
+  "wikipedia_only": 78,
   "news": 5,
   "other": 110
  },
- "source_types_grand_total": 540,
+ "source_types_grand_total": 539,
  "source_types_distinct_ids": {
-  "un_aid_agency": 30,
-  "intl_financial": 11,
+  "un_aid_agency": 32,
+  "intl_financial": 12,
   "government": 39,
   "scholarly": 72,
-  "wikipedia_only": 80,
+  "wikipedia_only": 76,
   "news": 4,
   "other": 37
  },
@@ -191,19 +191,19 @@
   },
   "al-bashir-ncp-ingaz-regime": {
    "source_types": {
-    "un_aid_agency": 2,
+    "un_aid_agency": 4,
     "intl_financial": 1,
     "government": 1,
     "scholarly": 3,
-    "wikipedia_only": 5,
+    "wikipedia_only": 4,
     "news": 0,
     "other": 8
    },
-   "source_types_total": 20,
+   "source_types_total": 21,
    "counts": {
     "SINGLE-SOURCE": 3,
     "CONTESTED": 29,
-    "VERIFY": 3,
+    "VERIFY": 4,
     "REPORTED": 0,
     "MODEL": 4,
     "EDITORIAL": 3,
@@ -211,7 +211,7 @@
     "PARTIAL": 0,
     "DERIVED": 7
    },
-   "total": 61,
+   "total": 62,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -286,10 +286,10 @@
   "anglo-egyptian-sudan-condominium": {
    "source_types": {
     "un_aid_agency": 0,
-    "intl_financial": 0,
+    "intl_financial": 1,
     "government": 0,
     "scholarly": 4,
-    "wikipedia_only": 1,
+    "wikipedia_only": 0,
     "news": 0,
     "other": 2
    },
@@ -297,7 +297,7 @@
    "counts": {
     "SINGLE-SOURCE": 12,
     "CONTESTED": 0,
-    "VERIFY": 0,
+    "VERIFY": 1,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 3,
@@ -305,7 +305,7 @@
     "PARTIAL": 0,
     "DERIVED": 13
    },
-   "total": 47,
+   "total": 48,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -320,6 +320,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/anglo-egyptian-sudan-condominium.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/extents/anglo-egyptian-sudan-condominium.geojson",
     "db/group_layers/anglo-egyptian-sudan-condominium.geojson",
@@ -1366,15 +1367,15 @@
     "intl_financial": 0,
     "government": 0,
     "scholarly": 3,
-    "wikipedia_only": 1,
+    "wikipedia_only": 0,
     "news": 0,
     "other": 2
    },
-   "source_types_total": 6,
+   "source_types_total": 5,
    "counts": {
     "SINGLE-SOURCE": 4,
     "CONTESTED": 0,
-    "VERIFY": 2,
+    "VERIFY": 3,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 3,
@@ -1382,7 +1383,7 @@
     "PARTIAL": 0,
     "DERIVED": 3
    },
-   "total": 16,
+   "total": 17,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1667,15 +1668,15 @@
     "intl_financial": 0,
     "government": 0,
     "scholarly": 3,
-    "wikipedia_only": 1,
+    "wikipedia_only": 0,
     "news": 0,
     "other": 1
    },
-   "source_types_total": 5,
+   "source_types_total": 4,
    "counts": {
     "SINGLE-SOURCE": 3,
     "CONTESTED": 0,
-    "VERIFY": 0,
+    "VERIFY": 1,
     "REPORTED": 1,
     "MODEL": 0,
     "EDITORIAL": 1,
@@ -1683,7 +1684,7 @@
     "PARTIAL": 0,
     "DERIVED": 3
    },
-   "total": 10,
+   "total": 11,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1698,6 +1699,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/mahdist-state-mahdiyya.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/era_symbols.json",
     "db/extents/mahdist-state-mahdiyya.geojson",
@@ -1719,15 +1721,15 @@
    "counts": {
     "SINGLE-SOURCE": 8,
     "CONTESTED": 0,
-    "VERIFY": 0,
+    "VERIFY": 2,
     "REPORTED": 0,
     "MODEL": 12,
     "EDITORIAL": 4,
-    "APPROXIMATE": 19,
+    "APPROXIMATE": 17,
     "PARTIAL": 0,
-    "DERIVED": 15
+    "DERIVED": 13
    },
-   "total": 58,
+   "total": 56,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1742,6 +1744,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/makuria.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/extents/makuria.geojson",
     "db/group_layers/makuria.geojson",

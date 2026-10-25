@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 8
+      "sentence_items": 14
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -2460,6 +2460,86 @@
       "reason": "English event reworded to match SFDAS_HCS2017 p.69; Arabic still has the old wording/dates.",
       "action": "Native reviewer: bring the Arabic in line with the revised English, then remove the [يحتاج تحقق] tag. Arabic not rewritten by the Historian.",
       "origin_commit": "this commit (events_and_extents batch)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "kingdom-of-kerma",
+      "file": "data/eras/kingdom-of-kerma.json",
+      "field_ar": "events[1].ar",
+      "arabic_sentence": "أكبر دولة أفريقية خارج مصر في الألف الثاني قبل الميلاد",
+      "badge": "VERIFY",
+      "field_en": "events[1].en",
+      "revised_english": "Capital of the first historical state of Sudan, c.2450–1500 BCE (SFDAS_HCS2017 p.56)",
+      "reason": "English event reworded to match its new source; Arabic still has the old wording.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English, then remove the [يحتاج تحقق] tag. Arabic not rewritten by the Historian.",
+      "origin_commit": "this commit (events follow-up items 1, 11, 13, 19)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "mahdist-state-mahdiyya",
+      "file": "data/eras/mahdist-state-mahdiyya.json",
+      "field_ar": "events[3].ar",
+      "arabic_sentence": "معركة أم درمان 1898؛ أم دبيكرات 1899",
+      "badge": "VERIFY",
+      "field_en": "events[3].en",
+      "revised_english": "Battle of Karari (Omdurman) 1898; end of Khalifa Abdallahi, November 1899 (SFDAS_HCS2017 pp.629, 639)",
+      "reason": "English event reworded to match its new source; Arabic still has the old wording.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English, then remove the [يحتاج تحقق] tag. Arabic not rewritten by the Historian.",
+      "origin_commit": "this commit (events follow-up items 1, 11, 13, 19)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "anglo-egyptian-sudan-condominium",
+      "file": "data/eras/anglo-egyptian-sudan-condominium.json",
+      "field_ar": "events[1].ar",
+      "arabic_sentence": "مشروع الجزيرة 1925",
+      "badge": "VERIFY",
+      "field_en": "events[1].en",
+      "revised_english": "Sennar dam completed 1925 to supply the Gezira Scheme (WB_TP120_1990 p.16)",
+      "reason": "English event reworded to match its new source; Arabic still has the old wording.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English, then remove the [يحتاج تحقق] tag. Arabic not rewritten by the Historian.",
+      "origin_commit": "this commit (events follow-up items 1, 11, 13, 19)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "al-bashir-ncp-ingaz-regime",
+      "file": "data/eras/al-bashir-ncp-ingaz-regime.json",
+      "field_ar": "events[1].ar",
+      "arabic_sentence": "حرب دارفور منذ 2003؛ مذكرات المحكمة الجنائية الدولية 2009",
+      "badge": "VERIFY",
+      "field_en": "events[1].en",
+      "revised_english": "Darfur conflict: escalation from 2003 (UNSC_S2005_60 PDF p.29); ICC arrest warrant for President al-Bashir, March 2009 (UN_NEWS_2009_292942)",
+      "reason": "English event reworded to match its new source; Arabic still has the old wording.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English, then remove the [يحتاج تحقق] tag. Arabic not rewritten by the Historian.",
+      "origin_commit": "this commit (events follow-up items 1, 11, 13, 19)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "makuria",
+      "file": "db/extents/makuria.geojson",
+      "feature": "Gebel Adda (reference marker)",
+      "field_ar": "properties.label_detail_ar",
+      "arabic_sentence": "انتقل إليها البلاط الملكي (داو) بعد هجر دنقلا العجوز عام 1364. المصدر: SFDAS 2017، ص 420. [Arabic text pending native-speaker review.]",
+      "badge": "VERIFY",
+      "field_en": "properties.label_detail_en",
+      "revised_english": "Royal court withdrew here (Daw) after Old Dongola was abandoned in 1364. Source: SFDAS 2017 p.420.",
+      "reason": "Marker detail line reworded by the Map Designer to SFDAS_HCS2017 p.420; Arabic drafted and marked pending review.",
+      "action": "Native reviewer: check the Arabic against the English; the Map Designer owns the file and removes the pending marker.",
+      "origin_commit": "715603e",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "makuria",
+      "file": "db/extents/makuria.geojson",
+      "feature": "Qasr Ibrim (reference marker)",
+      "field_ar": "properties.label_detail_ar",
+      "arabic_sentence": "مقر إبارخ نوباتيا بعد 1364. المصدر: SFDAS 2017، ص 420. [Arabic text pending native-speaker review.]",
+      "badge": "VERIFY",
+      "field_en": "properties.label_detail_en",
+      "revised_english": "Seat of the eparch of Nobadia after 1364. Source: SFDAS 2017 p.420.",
+      "reason": "Marker detail line reworded by the Map Designer to SFDAS_HCS2017 p.420; Arabic drafted and marked pending review.",
+      "action": "Native reviewer: check the Arabic against the English; the Map Designer owns the file and removes the pending marker.",
+      "origin_commit": "715603e",
       "added": "2026-10-25"
     }
   ]

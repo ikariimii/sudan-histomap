@@ -7637,6 +7637,36 @@
     "url": "https://archive.org/details/in.gov.ignca.2109",
     "lang": "en",
     "note": "Internet Archive copy (Digital Library of India / Central Archaeological Library, New Delhi, book 2109); URL checked HTTP 200 on 2026-10-25. Folding Tribal Map of Southern Sudan at scan leaf n717 (https://archive.org/details/in.gov.ignca.2109/page/n717/mode/1up), lat/long grid 24–36E, 4–16N. Rights: the scan is not committed to this repo or republished; only approximate label positions read from the plate are used, badged SINGLE-SOURCE."
+   },
+   "WB_TP120_1990": {
+    "author": "Hervé Plusquellec",
+    "title": "The Gezira Irrigation Scheme in Sudan: Objectives, Design, and Performance (World Bank Technical Paper 120)",
+    "publisher": "World Bank",
+    "year": "1990",
+    "url": "https://documents1.worldbank.org/curated/en/377141468778504847/pdf/multi-page.pdf",
+    "pages": "",
+    "lang": "en",
+    "note": "URL returns the PDF (checked 2026-10-25). Printed p.16 (PDF p.26): Sennar dam completed 1925 to supply the Gezira scheme by gravity."
+   },
+   "UNSC_S2005_60": {
+    "author": "International Commission of Inquiry on Darfur",
+    "title": "Report of the International Commission of Inquiry on Darfur to the United Nations Secretary-General (S/2005/60)",
+    "publisher": "United Nations Security Council",
+    "year": "2005",
+    "url": "https://documents.un.org/api/symbol/access?s=S/2005/60&l=en&t=pdf",
+    "pages": "",
+    "lang": "en",
+    "note": "URL returns the PDF (checked 2026-10-25). Cover letter dated 31 January 2005, distributed 1 February 2005. PDF p.29: insurgents took up arms in or around 2002; the scale of rebel attacks increased noticeably in February 2003."
+   },
+   "UN_NEWS_2009_292942": {
+    "author": "UN News",
+    "title": "ICC issues arrest warrant for Sudanese President for war crimes in Darfur",
+    "publisher": "United Nations",
+    "year": "2009",
+    "url": "https://news.un.org/en/story/2009/03/292942",
+    "pages": "",
+    "lang": "en",
+    "note": "Page loads (checked 2026-10-25); dated 4 March 2009. Casualty estimate in the article not used."
    }
   }
  },
@@ -7825,7 +7855,7 @@
    "prominence": 0.7,
    "key_events": [
     "Western Deffufa mud-brick temple (SFDAS_HCS2017 p.80)",
-    "Largest African state outside Egypt in the 2nd millennium BCE",
+    "Capital of the first historical state of Sudan, c.2450–1500 BCE (SFDAS_HCS2017 p.56)",
     "Severe blow from Thutmose I's campaign, shortly before c.1500 BCE (SFDAS_HCS2017 p.92)",
     "Phases: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1550 BCE (Final Kerma c.1550–1450) (SFDAS_HCS2017 p.69)"
    ],
@@ -7839,13 +7869,12 @@
    "sources": [
     "KERMA_MISSION",
     "GHA2_CH19",
-    "WP:Kerma_culture",
     "SFDAS_HCS2017"
    ],
    "dating_note": "Corrected to Swiss Archaeological Mission chronology (kerma.ch). Note GHA II (1981) still dates 'Kerma' to -1730/-1580, i.e. only the Classic phase; superseded by Bonnet/Honegger excavations.",
    "key_events_ar": [
     "معبد الدفوفة الغربية المبني من الطوب اللبن (SFDAS_HCS2017 p.80)",
-    "أكبر دولة أفريقية خارج مصر في الألف الثاني قبل الميلاد",
+    "أكبر دولة أفريقية خارج مصر في الألف الثاني قبل الميلاد [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.56)",
     "نهبها تحتمس الأول نحو 1500 ق.م [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.92)",
     "مراحل البعثة السويسرية: كرمة المبكرة نحو 2450–2050، والوسطى نحو 2050–1750، والكلاسيكية نحو 1750–1480 ق.م (وكرمة المتأخرة حتى نحو 1450) [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.69)"
    ],
@@ -7858,11 +7887,6 @@
      {
       "id": "GHA2_CH19",
       "title": "The Roman and post-Roman period in North Africa, ch.19 (General History of Africa II)"
-     },
-     {
-      "id": "WP:Kerma_culture",
-      "title": "Kerma culture",
-      "kind": "tertiary (Wikipedia)"
      },
      {
       "id": "SFDAS_HCS2017",
@@ -8501,7 +8525,7 @@
     "Muhammad Ahmad declares himself Mahdi 1881 (SFDAS_HCS2017 p.613)",
     "Fall of Khartoum, death of Gordon 1885 (SFDAS_HCS2017 p.567)",
     "Khalifa Abdallahi rules (SFDAS_HCS2017 p.621)",
-    "Battle of Omdurman 1898; Umm Diwaykarat 1899"
+    "Battle of Karari (Omdurman) 1898; end of Khalifa Abdallahi, November 1899 (SFDAS_HCS2017 pp.629, 639)"
    ],
    "capitals": [
     {
@@ -8512,7 +8536,6 @@
    ],
    "sources": [
     "HD2011",
-    "WP:Mahdist_State",
     "SFDAS_HCS2017"
    ],
    "dating_note": "",
@@ -8520,18 +8543,13 @@
     "محمد أحمد يعلن نفسه المهدي 1881 (SFDAS_HCS2017 p.613)",
     "سقوط الخرطوم ومقتل غوردون 1885 (SFDAS_HCS2017 p.567)",
     "حكم الخليفة عبد الله (SFDAS_HCS2017 p.621)",
-    "معركة أم درمان 1898؛ أم دبيكرات 1899"
+    "معركة أم درمان 1898؛ أم دبيكرات 1899 [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (Omdurman) 1898; end of Khalifa Abdallahi, November 1899 (SFDAS_HCS2017 pp.629, 639)"
    ],
    "how_we_know": {
     "sources": [
      {
       "id": "HD2011",
       "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
-     },
-     {
-      "id": "WP:Mahdist_State",
-      "title": "Mahdist State",
-      "kind": "tertiary (Wikipedia)"
      },
      {
       "id": "SFDAS_HCS2017",
@@ -8550,7 +8568,7 @@
    "prominence": 0.75,
    "key_events": [
     "Condominium Agreement 19 Jan 1899 (SFDAS_HCS2017 p.639)",
-    "Gezira Scheme 1925",
+    "Sennar dam completed 1925 to supply the Gezira Scheme (WB_TP120_1990 p.16)",
     "Southern Policy (SFDAS_HCS2017 p.643)",
     "Self-government 1953 (SFDAS_HCS2017 p.660)"
    ],
@@ -8563,13 +8581,13 @@
    ],
    "sources": [
     "HD2011",
-    "WP:Anglo-Egyptian_Sudan",
-    "SFDAS_HCS2017"
+    "SFDAS_HCS2017",
+    "WB_TP120_1990"
    ],
    "dating_note": "",
    "key_events_ar": [
     "اتفاقية الحكم الثنائي 19 يناير 1899 (SFDAS_HCS2017 p.639)",
-    "مشروع الجزيرة 1925",
+    "مشروع الجزيرة 1925 [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (WB_TP120_1990 p.16)",
     "سياسة الجنوب (SFDAS_HCS2017 p.643)",
     "الحكم الذاتي 1953 (SFDAS_HCS2017 p.660)"
    ],
@@ -8580,13 +8598,12 @@
       "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
      },
      {
-      "id": "WP:Anglo-Egyptian_Sudan",
-      "title": "Anglo-Egyptian Sudan",
-      "kind": "tertiary (Wikipedia)"
-     },
-     {
       "id": "SFDAS_HCS2017",
       "title": "Histoire et civilisations du Soudan, de la Préhistoire à nos jours"
+     },
+     {
+      "id": "WB_TP120_1990",
+      "title": "The Gezira Irrigation Scheme in Sudan: Objectives, Design, and Performance (World Bank Technical Paper 120)"
      }
     ],
     "zones": [],
@@ -8825,7 +8842,7 @@
    "prominence": 0.7,
    "key_events": [
     "30 June 1989 coup (SFDAS_HCS2017 p.731)",
-    "Darfur war from 2003; ICC warrants 2009",
+    "Darfur conflict: escalation from 2003 (UNSC_S2005_60 PDF p.29); ICC arrest warrant for President al-Bashir, March 2009 (UN_NEWS_2009_292942)",
     "Comprehensive Peace Agreement 2005 (CPA_2005 cover letter p.1)",
     "South Sudan secedes 9 July 2011 (UNSC1996 p.1)"
    ],
@@ -8838,15 +8855,16 @@
    ],
    "sources": [
     "HD2011",
-    "WP:War_in_Darfur",
     "SFDAS_HCS2017",
     "CPA_2005",
-    "UNSC1996"
+    "UNSC1996",
+    "UNSC_S2005_60",
+    "UN_NEWS_2009_292942"
    ],
    "dating_note": "Holt & Daly 6th ed. (2011) covers to c.2010; the 9 July 2011 secession is cited to UNSC1996.",
    "key_events_ar": [
     "انقلاب 30 يونيو 1989 (SFDAS_HCS2017 p.731)",
-    "حرب دارفور منذ 2003؛ مذكرات المحكمة الجنائية الدولية 2009",
+    "حرب دارفور منذ 2003؛ مذكرات المحكمة الجنائية الدولية 2009 [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (UNSC_S2005_60 PDF p.29; UN_NEWS_2009_292942)",
     "اتفاقية السلام الشامل 2005 (CPA_2005 cover letter p.1)",
     "انفصال جنوب السودان 9 يوليو 2011 (UNSC1996 p.1)"
    ],
@@ -8855,11 +8873,6 @@
      {
       "id": "HD2011",
       "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
-     },
-     {
-      "id": "WP:War_in_Darfur",
-      "title": "War in Darfur",
-      "kind": "tertiary (Wikipedia)"
      },
      {
       "id": "SFDAS_HCS2017",
@@ -8872,6 +8885,14 @@
      {
       "id": "UNSC1996",
       "title": "Resolution 1996 (2011) [UNMISS]"
+     },
+     {
+      "id": "UNSC_S2005_60",
+      "title": "Report of the International Commission of Inquiry on Darfur to the United Nations Secretary-General (S/2005/60)"
+     },
+     {
+      "id": "UN_NEWS_2009_292942",
+      "title": "ICC issues arrest warrant for Sudanese President for war crimes in Darfur"
      }
     ],
     "zones": [],
