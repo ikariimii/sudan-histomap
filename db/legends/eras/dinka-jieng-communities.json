@@ -23,15 +23,56 @@
       "GHA5_CH7",
       "GHA7_CH23",
       "LOC1991_NONMUSLIM",
-      "QASIM_MAWSUA",
-      "EP1940_NUER"
+      "QASIM_MAWSUA"
      ]
+    },
+    {
+     "feature_index": 1,
+     "id": "gleichen1905-dinka-1",
+     "label_en": "Jebelein: northern limit of Dinka country on the White Nile (c.1900)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "SINGLE-SOURCE"
+     ],
+     "start": 1899,
+     "end": 1904,
+     "source_ids": [
+      "GLEICHEN1905_V1"
+     ],
+     "low_confidence_overlay": true
+    },
+    {
+     "feature_index": 2,
+     "id": "gleichen1905-dinka-2",
+     "label_en": "Kodok: southern limit of Dinka country on the White Nile is about 10 miles south of here (c.1900)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "SINGLE-SOURCE"
+     ],
+     "start": 1899,
+     "end": 1904,
+     "source_ids": [
+      "GLEICHEN1905_V1"
+     ],
+     "low_confidence_overlay": true
     }
    ],
    "borders_legend": [
     {
      "badge": "APPROXIMATE",
      "legend_en": "Approximate"
+    },
+    {
+     "badge": "SINGLE-SOURCE",
+     "legend_en": "Single source"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -1935,7 +1976,8 @@
   "city_town",
   "city_trade",
   "economy_unknown",
-  "extent_label_point"
+  "extent_label_point",
+  "low_confidence"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1945,7 +1987,8 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
-  "RUIN-UNDATED"
+  "RUIN-UNDATED",
+  "SINGLE-SOURCE"
  ],
  "counts": {
   "city_capital": 19,
@@ -1957,8 +2000,9 @@
   "city_town": 7,
   "city_trade": 1,
   "economy_unknown": 1,
-  "extent_label_point": 1,
-  "extent_features": 1,
+  "extent_label_point": 3,
+  "low_confidence": 2,
+  "extent_features": 3,
   "group_features": 0,
   "cities": 56
  },
@@ -1977,10 +2021,12 @@
   ],
   "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. ",
   "capitals": [],
-  "control_limits_en": null,
-  "control_limits_ar": null,
-  "control_limits_source_ids": null,
-  "control_confidence": null
+  "control_limits_en": "Gleichen 1905 vol. I: 'The Dinka country on the White Nile, extends from Jebelein southwards to about 10 miles south of Kodok, along the right bank' (p.126); on the Sobat 'The Dinka tribe thence occupy both banks of the river Sobat to about 32° 16' east' (p.132); in Bahr el Ghazal 'The Dinkas occupy the lowlands in the north of the province, their southern limit being the edge of the table-land' (p.159).",
+  "control_limits_ar": "غليشن 1905 المجلد الأول: «تمتد ديار الدينكا على النيل الأبيض من الجبلين جنوبًا إلى نحو 10 أميال جنوب كودوك على الضفة اليمنى» (ص126)؛ وعلى السوباط «يحتل الدينكا ضفتي نهر السوباط حتى نحو 32° 16' شرقًا» (ص132)؛ وفي بحر الغزال «يحتل الدينكا الأراضي المنخفضة في شمال المديرية، وحدّهم الجنوبي حافة الهضبة» (ص159). [Arabic text pending native-speaker review.]",
+  "control_limits_source_ids": [
+   "GLEICHEN1905_V1"
+  ],
+  "control_confidence": "low"
  },
  "interactive": {
   "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
@@ -2001,13 +2047,16 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
-   "RUIN-UNDATED"
+   "RUIN-UNDATED",
+   "SINGLE-SOURCE"
   ],
   "what_changed": {
    "previous_era_id": "shilluk-kingdom",
    "basis": "previous era in same stream by start year",
    "extents_added": [
-    "Dinka (Jieng) homeland: Bor"
+    "Dinka (Jieng) homeland: Bor",
+    "Jebelein: northern limit of Dinka country on the White Nile (c.1900)",
+    "Kodok: southern limit of Dinka country on the White Nile is about 10 miles south of here (c.1900)"
    ],
    "extents_removed": [
     "Shilluk Kingdom"

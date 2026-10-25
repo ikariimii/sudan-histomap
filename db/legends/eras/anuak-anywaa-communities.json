@@ -10,25 +10,51 @@
    "features": [
     {
      "feature_index": 0,
-     "id": null,
-     "label_en": "Pibor River (river anchor)",
+     "id": "gleichen1905-anuak-1",
+     "label_en": "Itang: enclave inside eastern Anuak territory on the Baro (c.1904)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
      "badges": [
-      "APPROXIMATE"
+      "APPROXIMATE",
+      "SINGLE-SOURCE"
      ],
-     "start": null,
-     "end": null,
+     "start": 1899,
+     "end": 1904,
      "source_ids": [
-      "EP1940_NUER",
-      "WD:Q3179125"
-     ]
+      "GLEICHEN1905_V1"
+     ],
+     "low_confidence_overlay": true
+    },
+    {
+     "feature_index": 1,
+     "id": "gleichen1905-anuak-2",
+     "label_en": "Pibor–Akobo junction (Akobo): Anuak dry-season colony at the Nuer edge (1901)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "SINGLE-SOURCE"
+     ],
+     "start": 1899,
+     "end": 1904,
+     "source_ids": [
+      "GLEICHEN1905_V1"
+     ],
+     "low_confidence_overlay": true
     }
    ],
    "borders_legend": [
     {
      "badge": "APPROXIMATE",
      "legend_en": "Approximate"
+    },
+    {
+     "badge": "SINGLE-SOURCE",
+     "legend_en": "Single source"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -1932,7 +1958,8 @@
   "city_town",
   "city_trade",
   "economy_unknown",
-  "extent_label_point"
+  "extent_label_point",
+  "low_confidence"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1942,7 +1969,8 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
-  "RUIN-UNDATED"
+  "RUIN-UNDATED",
+  "SINGLE-SOURCE"
  ],
  "counts": {
   "city_capital": 19,
@@ -1954,8 +1982,9 @@
   "city_town": 7,
   "city_trade": 1,
   "economy_unknown": 1,
-  "extent_label_point": 1,
-  "extent_features": 1,
+  "extent_label_point": 2,
+  "low_confidence": 2,
+  "extent_features": 2,
   "group_features": 0,
   "cities": 56
  },
@@ -1974,10 +2003,12 @@
   ],
   "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. ",
   "capitals": [],
-  "control_limits_en": null,
-  "control_limits_ar": null,
-  "control_limits_source_ids": null,
-  "control_confidence": null
+  "control_limits_en": "Gleichen 1905 vol. I: a small Anuak tract on the Sobat from Ashel 'some 25 to 30 miles of the river bank as far as the village of Wegin, which is the boundary between them and the Nuer tribe' (p.132); 'The eastern Anuaks of the Baro ... inhabit that portion of the river bank extending east of 34° 10' to the mouth of the Baro river gorge' (p.134); 'The Anuak territory terminates at the junction of the Akobo and Ajibur streams' (p.137).",
+  "control_limits_ar": "غليشن 1905 المجلد الأول: رقعة صغيرة للأنواك على السوباط من أشيل «نحو 25 إلى 30 ميلًا من ضفة النهر حتى قرية ويغين، وهي الحد بينهم وبين قبيلة النوير» (ص132)؛ «يسكن الأنواك الشرقيون على البارو ضفة النهر الممتدة شرق 34° 10' حتى مخرج خانق البارو» (ص134)؛ «تنتهي أراضي الأنواك عند ملتقى نهري أكوبو وأجيبور» (ص137). [Arabic text pending native-speaker review.]",
+  "control_limits_source_ids": [
+   "GLEICHEN1905_V1"
+  ],
+  "control_confidence": "low"
  },
  "interactive": {
   "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
@@ -1998,17 +2029,19 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
-   "RUIN-UNDATED"
+   "RUIN-UNDATED",
+   "SINGLE-SOURCE"
   ],
   "what_changed": {
    "previous_era_id": "nuer-naath-communities",
    "basis": "previous era in same stream by start year",
    "extents_added": [
-    "Pibor River (river anchor)"
+    "Itang: enclave inside eastern Anuak territory on the Baro (c.1904)",
+    "Pibor–Akobo junction (Akobo): Anuak dry-season colony at the Nuer edge (1901)"
    ],
    "extents_removed": [
-    "Bahr el Zeraf (river anchor)",
-    "Pibor River (river anchor, Lou side)"
+    "Nasser Post (Nasir): inside Nuer territory on the Sobat (c.1900)",
+    "Pibor–Akobo junction (Akobo): southern end of the Nuer reach on the Pibor (1901)"
    ],
    "cities_added": [],
    "cities_removed": [],

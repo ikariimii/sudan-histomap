@@ -33,7 +33,7 @@
   "rules": "Derived only from the input files; nothing inferred. Base source is null when the properties do not name one.",
   "totals": {
    "eras": 68,
-   "shapes": 246,
+   "shapes": 249,
    "base_source_null": 7,
    "overlay_error_non_null": 0,
    "checked_against_shapes": 25
@@ -10008,10 +10008,6 @@
        "pages": null
       },
       {
-       "id": "EP1940_NUER",
-       "pages": null
-      },
-      {
        "id": "LOC1991_NONMUSLIM",
        "pages": "§ Nilotes"
       },
@@ -10039,10 +10035,80 @@
      "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/dinka-jieng-communities.geojson",
+     "feature_index": 1,
+     "feature_id": "gleichen1905-dinka-1",
+     "label_en": "Jebelein: northern limit of Dinka country on the White Nile (c.1900)",
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GLEICHEN1905_V1",
+       "pages": "126"
+      },
+      {
+       "id": "GLEICHEN1905_V1",
+       "pages": "p.126"
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "Wikidata Q3720937 | Coordinates CC0 1.0 (Wikidata); text public domain (HMSO 1905, Crown copyright expired) | named place in a limit statement of Gleichen 1905 vol. I; point only, no area drawn (text describes river-bank strips, not an enclosed area) | Wikidata P625 of Q3720937 (Al Jabalayn, Sudan)",
+     "base_source_null_reason": null,
+     "badges": [
+      "APPROXIMATE",
+      "SINGLE-SOURCE"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1899,
+     "end": 1904,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/dinka-jieng-communities.geojson",
+     "feature_index": 2,
+     "feature_id": "gleichen1905-dinka-2",
+     "label_en": "Kodok: southern limit of Dinka country on the White Nile is about 10 miles south of here (c.1900)",
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GLEICHEN1905_V1",
+       "pages": "126"
+      },
+      {
+       "id": "GLEICHEN1905_V1",
+       "pages": "p.126"
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "Wikidata Q1888763 | Coordinates CC0 1.0 (Wikidata); text public domain (HMSO 1905, Crown copyright expired) | named place in a limit statement of Gleichen 1905 vol. I; point only, no area drawn (text describes river-bank strips, not an enclosed area) | Wikidata P625 of Q1888763 (Kodok, Upper Nile)",
+     "base_source_null_reason": null,
+     "badges": [
+      "APPROXIMATE",
+      "SINGLE-SOURCE"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1899,
+     "end": 1904,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map"
     }
    ],
    "counts": {
-    "shapes": 1,
+    "shapes": 3,
     "contested": 0,
     "trade_routes": 0,
     "base_source_null": 0
@@ -10058,36 +10124,33 @@
      "layer": "extents",
      "file": "db/extents/nuer-naath-communities.geojson",
      "feature_index": 0,
-     "feature_id": null,
-     "label_en": "Pibor River (river anchor, Lou side)",
+     "feature_id": "gleichen1905-nuer-1",
+     "label_en": "Nasser Post (Nasir): inside Nuer territory on the Sobat (c.1900)",
      "zone_type": "point",
      "geometry_type": "Point",
      "cites": [
       {
-       "id": "EP1940_NUER",
-       "pages": "112"
+       "id": "GLEICHEN1905_V1",
+       "pages": "133"
       },
       {
-       "id": "WD:Q3179125",
-       "pages": "112"
-      },
-      {
-       "id": "EP1940_NUER",
-       "pages": "p.112"
+       "id": "GLEICHEN1905_V1",
+       "pages": "p.133"
       }
      ],
      "base_source": [
       "Wikidata"
      ],
-     "base_source_text": "Wikidata P625 of Q3179125, copied from db/groups.json (aa0783a) | CC0 1.0 (Wikidata) | river anchor (not a border, not a homeland centre)",
+     "base_source_text": "Wikidata Q1965843 | Coordinates CC0 1.0 (Wikidata); text public domain (HMSO 1905, Crown copyright expired) | named place in a limit statement of Gleichen 1905 vol. I; point only, no area drawn (text describes river-bank strips, not an enclosed area) | Wikidata P625 of Q1965843 (Nasir, Upper Nile)",
      "base_source_null_reason": null,
      "badges": [
-      "APPROXIMATE"
+      "APPROXIMATE",
+      "SINGLE-SOURCE"
      ],
-     "confidence": null,
+     "confidence": 0.3,
      "certainty": "low",
-     "start": null,
-     "end": null,
+     "start": 1899,
+     "end": 1904,
      "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
@@ -10096,36 +10159,33 @@
      "layer": "extents",
      "file": "db/extents/nuer-naath-communities.geojson",
      "feature_index": 1,
-     "feature_id": null,
-     "label_en": "Bahr el Zeraf (river anchor)",
+     "feature_id": "gleichen1905-nuer-2",
+     "label_en": "Pibor–Akobo junction (Akobo): southern end of the Nuer reach on the Pibor (1901)",
      "zone_type": "point",
      "geometry_type": "Point",
      "cites": [
       {
-       "id": "EP1940_NUER",
-       "pages": "112"
+       "id": "GLEICHEN1905_V1",
+       "pages": "137"
       },
       {
-       "id": "WD:Q1112393",
-       "pages": "112"
-      },
-      {
-       "id": "EP1940_NUER",
-       "pages": "p.112"
+       "id": "GLEICHEN1905_V1",
+       "pages": "p.137"
       }
      ],
      "base_source": [
       "Wikidata"
      ],
-     "base_source_text": "Wikidata P625 of Q1112393, copied from db/groups.json (aa0783a) | CC0 1.0 (Wikidata) | river anchor (not a border, not a homeland centre)",
+     "base_source_text": "Wikidata Q530223 | Coordinates CC0 1.0 (Wikidata); text public domain (HMSO 1905, Crown copyright expired) | named place in a limit statement of Gleichen 1905 vol. I; point only, no area drawn (text describes river-bank strips, not an enclosed area) | Wikidata P625 of Q530223 (Akobo, Jonglei)",
      "base_source_null_reason": null,
      "badges": [
-      "APPROXIMATE"
+      "APPROXIMATE",
+      "SINGLE-SOURCE"
      ],
-     "confidence": null,
+     "confidence": 0.3,
      "certainty": "low",
-     "start": null,
-     "end": null,
+     "start": 1899,
+     "end": 1904,
      "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
@@ -10148,43 +10208,75 @@
      "layer": "extents",
      "file": "db/extents/anuak-anywaa-communities.geojson",
      "feature_index": 0,
-     "feature_id": null,
-     "label_en": "Pibor River (river anchor)",
+     "feature_id": "gleichen1905-anuak-1",
+     "label_en": "Itang: enclave inside eastern Anuak territory on the Baro (c.1904)",
      "zone_type": "point",
      "geometry_type": "Point",
      "cites": [
       {
-       "id": "EP1940_NUER",
-       "pages": "112"
+       "id": "GLEICHEN1905_V1",
+       "pages": "134"
       },
       {
-       "id": "WD:Q3179125",
-       "pages": "112"
-      },
-      {
-       "id": "EP1940_NUER",
-       "pages": "p.112"
+       "id": "GLEICHEN1905_V1",
+       "pages": "p.134"
       }
      ],
      "base_source": [
       "Wikidata"
      ],
-     "base_source_text": "Wikidata P625 of Q3179125, copied from db/groups.json (aa0783a) | CC0 1.0 (Wikidata) | river anchor (not a border, not a homeland centre)",
+     "base_source_text": "Wikidata Q3155900 | Coordinates CC0 1.0 (Wikidata); text public domain (HMSO 1905, Crown copyright expired) | named place in a limit statement of Gleichen 1905 vol. I; point only, no area drawn (text describes river-bank strips, not an enclosed area) | Wikidata P625 of Q3155900 (Itang woreda, Gambela; town item has no P625)",
      "base_source_null_reason": null,
      "badges": [
-      "APPROXIMATE"
+      "APPROXIMATE",
+      "SINGLE-SOURCE"
      ],
-     "confidence": null,
+     "confidence": 0.3,
      "certainty": "low",
-     "start": null,
-     "end": null,
+     "start": 1899,
+     "end": 1904,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/anuak-anywaa-communities.geojson",
+     "feature_index": 1,
+     "feature_id": "gleichen1905-anuak-2",
+     "label_en": "Pibor–Akobo junction (Akobo): Anuak dry-season colony at the Nuer edge (1901)",
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GLEICHEN1905_V1",
+       "pages": "137"
+      },
+      {
+       "id": "GLEICHEN1905_V1",
+       "pages": "p.137"
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "Wikidata Q530223 | Coordinates CC0 1.0 (Wikidata); text public domain (HMSO 1905, Crown copyright expired) | named place in a limit statement of Gleichen 1905 vol. I; point only, no area drawn (text describes river-bank strips, not an enclosed area) | Wikidata P625 of Q530223 (Akobo, Jonglei)",
+     "base_source_null_reason": null,
+     "badges": [
+      "APPROXIMATE",
+      "SINGLE-SOURCE"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1899,
+     "end": 1904,
      "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
     }
    ],
    "counts": {
-    "shapes": 1,
+    "shapes": 2,
     "contested": 0,
     "trade_routes": 0,
     "base_source_null": 0
