@@ -36,6 +36,90 @@
     "APPROXIMATE"
    ],
    "note": "the reasons for the transfer (para 245) are a party's pleading quoting the SIR; the note above states only the transfer itself"
+  },
+  {
+   "id": "ABDALLAB-E-SUAKIN",
+   "place": "Suakin",
+   "role": "eastern limit ('to the borders of Abyssinia and Suakin in the east', MSM1972 p.149)",
+   "lat": 19.1025,
+   "lon": 37.33,
+   "coord_source": "db/cities.json id 'suakin' (Wikidata Q571215)",
+   "badges": [
+    "APPROXIMATE"
+   ],
+   "target": "db/extents/abdallab-chiefdom-funj-vassal.geojson (influence zone)",
+   "purpose": "anchor points for redrawing the Abdallab influence zone to MSM1972 p.149 (pdf p.144)",
+   "source_id": "MSM1972",
+   "page": "p.149",
+   "quote_en_from_draft": "to the borders of Abyssinia and Suakin in the east, to Kab Bulul at the borders of the Fur sultanate in the west, and to Arbaji ... in the south"
+  },
+  {
+   "id": "ABDALLAB-S-ARBAJI",
+   "place": "Arbaji (Arbagi, أربجي; formerly Hellet Amara)",
+   "role": "southern limit, 'the dividing line between Abdallab and Funj influence' (MSM1972 p.149)",
+   "lat": 14.767769,
+   "lon": 33.365999,
+   "coord_source": "No gazetteer coordinate for Arbaji itself: Wikidata Q12179334 has no P625 and enwiki 'Arbaji' has no coordinates. enwiki 'Arbaji' (read 2026-10-25) places it 'opposite Rufaa on the left bank of the Blue Nile'; point given is Rufa'a, Wikidata Q12213557 (P625 14.767769N 33.365999E). Arbaji lies just across the river (west bank).",
+   "badges": [
+    "DERIVED",
+    "APPROXIMATE"
+   ],
+   "target": "db/extents/abdallab-chiefdom-funj-vassal.geojson (influence zone)",
+   "purpose": "anchor points for redrawing the Abdallab influence zone to MSM1972 p.149 (pdf p.144)",
+   "source_id": "MSM1972",
+   "page": "p.149",
+   "quote_en_from_draft": "to the borders of Abyssinia and Suakin in the east, to Kab Bulul at the borders of the Fur sultanate in the west, and to Arbaji ... in the south"
+  },
+  {
+   "id": "ABDALLAB-N-ASWAN",
+   "place": "Aswan",
+   "role": "northern limit per Abdallab tradition (MSM1972 p.149)",
+   "lat": 24.08892,
+   "lon": 32.89973,
+   "coord_source": "db/cities.json id 'aswan' (Wikidata Q29888)",
+   "badges": [
+    "CONTESTED"
+   ],
+   "contested_with": "ABDALLAB-N-THIRD-CATARACT",
+   "target": "db/extents/abdallab-chiefdom-funj-vassal.geojson (influence zone)",
+   "purpose": "anchor points for redrawing the Abdallab influence zone to MSM1972 p.149 (pdf p.144)",
+   "source_id": "MSM1972",
+   "page": "p.149",
+   "quote_en_from_draft": "to the borders of Abyssinia and Suakin in the east, to Kab Bulul at the borders of the Fur sultanate in the west, and to Arbaji ... in the south"
+  },
+  {
+   "id": "ABDALLAB-N-THIRD-CATARACT",
+   "place": "Third Cataract of the Nile",
+   "role": "northern limit per other writers (MSM1972 p.151)",
+   "lat": 19.76,
+   "lon": 30.37,
+   "coord_source": "Wikidata Q71108004 P625 (precision 0.01)",
+   "badges": [
+    "CONTESTED"
+   ],
+   "contested_with": "ABDALLAB-N-ASWAN",
+   "target": "db/extents/abdallab-chiefdom-funj-vassal.geojson (influence zone)",
+   "purpose": "anchor points for redrawing the Abdallab influence zone to MSM1972 p.149 (pdf p.144)",
+   "source_id": "MSM1972",
+   "page": "p.151",
+   "quote_en_from_draft": "to the borders of Abyssinia and Suakin in the east, to Kab Bulul at the borders of the Fur sultanate in the west, and to Arbaji ... in the south"
+  },
+  {
+   "id": "ABDALLAB-W-KAB-BULUL",
+   "place": "Kab Bulul (كاب بلول)",
+   "role": "western limit 'at the borders of the Fur sultanate' (MSM1972 p.149)",
+   "lat": null,
+   "lon": null,
+   "coord_source": "NOT LOCATED: no Wikidata item or gazetteer entry found (searched 'Kab Bulul', 'Kabbul', 'Bulul', 'كب بلول' on 2026-10-25). No coordinate given.",
+   "badges": [
+    "VERIFY"
+   ],
+   "suggestion": "Do not draw a western edge at a guessed point. Narrow the west wording to 'west towards the borders of the Fur sultanate (Kab Bulul, unlocated; MSM1972 p.149)' and keep the western edge EDITORIAL/APPROXIMATE, or stop the zone at the drawn Nile-Kordofan edge.",
+   "target": "db/extents/abdallab-chiefdom-funj-vassal.geojson (influence zone)",
+   "purpose": "anchor points for redrawing the Abdallab influence zone to MSM1972 p.149 (pdf p.144)",
+   "source_id": "MSM1972",
+   "page": "p.149",
+   "quote_en_from_draft": "to the borders of Abyssinia and Suakin in the east, to Kab Bulul at the borders of the Fur sultanate in the west, and to Arbaji ... in the south"
   }
  ]
 }
