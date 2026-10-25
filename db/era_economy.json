@@ -1113,5 +1113,764 @@
     },
     "indicators": [],
     "indicators_note": "Chatham House al-Fashaga acreage/control claim cut (modern control claim without UN or aid-agency cite)."
+  },
+  "egyptian-new-kingdom-rule-in-nubia": {
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "GHA II p.273 describes Egyptian exploitation of Nubian gold, not the economy's condition."
+    },
+    "rating_basis_en": {
+      "value": "No source read rates conditions in Nubia under New Kingdom rule.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "rating_basis_ar": {
+      "value": "لا يقيّم أي مصدر مقروء الأوضاع في النوبة تحت حكم الدولة الحديثة.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE",
+        "WORKING-TRANSLATION"
+      ],
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read in full names this era's currency; not filled from memory."
+    },
+    "main_trade": {
+      "exports": {
+        "value": "Gold, 'the principal product of Nubia', plus carnelian, haematite, amazonite, turquoise, malachite, granite and amethyst, mined for the Pharaoh",
+        "cite": "GHA2_CH9",
+        "badges": [
+          "SOURCED"
+        ],
+        "page": "p.273"
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [],
+      "cite": "GHA2_CH9",
+      "badges": [
+        "SOURCED"
+      ],
+      "routes_note": "Gold came from mines around Wadi el-Allaqi and Wadi Gabgada (p.273); neither is in the city data, so no route is drawn."
+    },
+    "economic_base": {
+      "value": "Mining for Egypt, intensified 'in a manner exceeding any previous exploitation'; gold from the Wadi el-Allaqi and Wadi Gabgada mines in the eastern desert",
+      "cite": "GHA2_CH9",
+      "badges": [
+        "SOURCED"
+      ],
+      "page": "p.273"
+    },
+    "indicators": [
+      {
+        "name": "Annual gold tribute of Wawat (reign of Tuthmose III)",
+        "value": 550,
+        "unit": "pounds",
+        "year": null,
+        "cite": "GHA2_CH9",
+        "page": "p.273",
+        "badges": [
+          "SINGLE-SOURCE",
+          "NOT-IFI"
+        ],
+        "note": "Year not given beyond the reign; GHA II says the tribute 'only amounted to 550 pounds'."
+      }
+    ]
+  },
+  "kingdom-of-kush-meroitic-period": {
+    "rating": {
+      "value": "good",
+      "cite": "GHA2_CH11",
+      "page": "p.311",
+      "badges": [
+        "EDITORIAL"
+      ],
+      "note": "Source speaks of Meroe's fame 'as one of the richest countries in the ancient world'; turned into a rating by the Historian."
+    },
+    "rating_basis_en": {
+      "value": "Products of the eastern-desert mines 'all went through Meroitic trade channels, and so increased the fame of Meroe as one of the richest countries in the ancient world'.",
+      "cite": "GHA2_CH11",
+      "badges": [
+        "EDITORIAL"
+      ],
+      "page": "p.311"
+    },
+    "rating_basis_ar": {
+      "value": "كانت منتجات مناجم الصحراء الشرقية تمر كلها عبر قنوات التجارة المروية، مما زاد من شهرة مروي بوصفها من أغنى بلدان العالم القديم.",
+      "cite": "GHA2_CH11",
+      "badges": [
+        "EDITORIAL",
+        "WORKING-TRANSLATION"
+      ],
+      "page": "p.311",
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read in full names this era's currency; not filled from memory."
+    },
+    "main_trade": {
+      "exports": {
+        "value": "Precious and semi-precious stones of the eastern desert (amethyst, carbuncle, hyacinth, chrysolite, beryl), passing through Meroitic trade channels",
+        "cite": "GHA2_CH11",
+        "badges": [
+          "SOURCED"
+        ],
+        "page": "p.311"
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [],
+      "cite": "GHA2_CH11",
+      "badges": [
+        "SOURCED"
+      ]
+    },
+    "economic_base": {
+      "value": "Iron working: large mounds of slag near Meroe, ore smelted in charcoal-fired furnaces (GHA II ch.6 p.204); but whether the slag is from iron smelting is disputed (Amborn) and 'more archaeological work is needed' (GHA II ch.11 pp.311-312).",
+      "cite": [
+        "GHA2_CH6",
+        "GHA2_CH11"
+      ],
+      "page": "p.204; pp.311-312",
+      "badges": [
+        "CONTESTED"
+      ]
+    },
+    "indicators": []
+  },
+  "makuria": {
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "Sources read describe the baqt, not the state of the economy."
+    },
+    "rating_basis_en": {
+      "value": "No source read rates Makuria's economy.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "rating_basis_ar": {
+      "value": "لا يقيّم أي مصدر مقروء اقتصاد المقرة.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE",
+        "WORKING-TRANSLATION"
+      ],
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read in full names this era's currency; not filled from memory."
+    },
+    "main_trade": {
+      "exports": {
+        "value": "Slaves sent to Egypt 'in accordance with the famous bakt treaty'",
+        "cite": "GHAIII",
+        "badges": [
+          "SOURCED"
+        ],
+        "page": "p.6 (ch.1)"
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [
+        {
+          "from": "old-dongola",
+          "to": "aswan",
+          "commodity": "slaves under the baqt; free travel and trade for subjects of both sides",
+          "cite": "GHA3_CH3",
+          "page": "p.81; GHA III ch.1 p.6",
+          "both_ways": true,
+          "badges": [
+            "EDITORIAL",
+            "APPROXIMATE"
+          ],
+          "note": "The baqt (after the 31/651-2 siege of Dongola) let subjects of each side travel and trade freely in the other's territory (p.81). Endpoints chosen by the Historian: Dongola as Makuria's capital, Aswan as the Egyptian frontier town; the source names no route."
+        }
+      ],
+      "cite": "GHA3_CH3",
+      "badges": [
+        "SOURCED"
+      ]
+    },
+    "economic_base": {
+      "value": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read covers this."
+    },
+    "indicators": [],
+    "baqt": {
+      "value": "Non-aggression pact after the Muslim attack on Dongola in 31/651-2; Makuria kept its independence and each side's subjects could travel and trade freely in the other's territory. It ended when Nubia's rulers became Muslim.",
+      "cite": "GHA3_CH3",
+      "badges": [
+        "SOURCED"
+      ],
+      "page": "pp.81, 83"
+    }
+  },
+  "turkiyya-ottoman-egyptian-rule": {
+    "rating": {
+      "value": "mixed",
+      "cite": "GHA6_CH14",
+      "page": "pp.361-362",
+      "badges": [
+        "EDITORIAL"
+      ],
+      "note": "Source reports both gains (agriculture, trade security) and harm (new taxation 'disrupted the economic life'); rating by the Historian."
+    },
+    "rating_basis_en": {
+      "value": "The Turkish administration improved irrigation and crops and gave traders greater security (p.361), but extended the Egyptian taxation system to the Sudan, which 'inevitably disrupted the economic life of the people', collected by brutal means (p.362); Muhammad Ali's gold mining at Fazughli failed (p.361).",
+      "cite": "GHA6_CH14",
+      "badges": [
+        "EDITORIAL"
+      ],
+      "page": "pp.361-362"
+    },
+    "rating_basis_ar": {
+      "value": "حسّنت الإدارة التركية الري والمحاصيل ووفرت للتجار أمنًا أكبر (ص.361)، لكنها مدّت نظام الضرائب المصري إلى السودان فأربك حتمًا الحياة الاقتصادية للناس، وكانت الجباية بوسائل وحشية (ص.362)؛ وفشل تعدين الذهب في فازوغلي (ص.361).",
+      "cite": "GHA6_CH14",
+      "badges": [
+        "EDITORIAL",
+        "WORKING-TRANSLATION"
+      ],
+      "page": "pp.361-362",
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read in full names this era's currency; not filled from memory."
+    },
+    "main_trade": {
+      "exports": {
+        "value": "Cattle sent each year to Egypt, plus hides and hair",
+        "cite": "GHA6_CH14",
+        "badges": [
+          "SOURCED"
+        ],
+        "page": "p.361"
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [],
+      "cite": "GHA6_CH14",
+      "badges": [
+        "SOURCED"
+      ]
+    },
+    "economic_base": {
+      "value": "Agriculture expanded with Egyptian experts (irrigation, new crops, locust control); new Egyptian-style taxes, e.g. heavy taxes on the Gezira and Berber in 1821 that led to the revolt of February 1822",
+      "cite": "GHA6_CH14",
+      "badges": [
+        "SOURCED"
+      ],
+      "page": "pp.361-362"
+    },
+    "taxes": {
+      "value": "Egyptian taxation system extended to the Sudan; the Sudanese 'had not experienced the payment of regular taxes' under the Funj; heavy taxes on the Gezira and Berber in 1821 by the Coptic intendant Hanna al-Tawil, revolt February 1822",
+      "cite": "GHA6_CH14",
+      "badges": [
+        "SOURCED"
+      ],
+      "page": "pp.361-362"
+    },
+    "indicators": []
+  },
+  "anglo-egyptian-sudan-condominium": {
+    "rating": {
+      "value": "mixed",
+      "cite": "GHA7_CH17",
+      "page": "p.457",
+      "badges": [
+        "EDITORIAL"
+      ],
+      "note": "Source calls the Gezira scheme 'quite beneficial' but adds 'there is a negative side'; rating by the Historian."
+    },
+    "rating_basis_en": {
+      "value": "The Gezira scheme 'proved quite beneficial both to the British and to those people of the Sudan who were directly involved in it', but infrastructure was 'totally inadequate', industrialization was neglected, and the South was totally neglected economically.",
+      "cite": "GHA7_CH17",
+      "badges": [
+        "EDITORIAL"
+      ],
+      "page": "p.457"
+    },
+    "rating_basis_ar": {
+      "value": "كان مشروع الجزيرة مفيدًا للبريطانيين ولمن شارك فيه مباشرة من أهل السودان، لكن البنية التحتية كانت قاصرة تمامًا، وأُهمل التصنيع، وأُهمل الجنوب اقتصاديًا إهمالًا تامًا.",
+      "cite": "GHA7_CH17",
+      "badges": [
+        "EDITORIAL",
+        "WORKING-TRANSLATION"
+      ],
+      "page": "p.457",
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read in full names this era's currency; not filled from memory."
+    },
+    "main_trade": {
+      "exports": {
+        "value": "Cotton from the Gezira (Djazira) scheme; gum from the western areas",
+        "cite": "GHA7_CH17",
+        "badges": [
+          "SOURCED"
+        ],
+        "page": "pp.455, 457"
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [
+        {
+          "from": "port-sudan",
+          "to": "atbara",
+          "commodity": "agricultural products by railway (line built when Port Sudan opened in 1906)",
+          "cite": "GHA7_CH17",
+          "page": "p.455",
+          "both_ways": true,
+          "badges": [
+            "APPROXIMATE"
+          ]
+        }
+      ],
+      "cite": "GHA7_CH17",
+      "badges": [
+        "SOURCED"
+      ]
+    },
+    "economic_base": {
+      "value": "Cotton: experiment at Zaydab in 1905, then the Djazira plain between the Blue and White Niles under the Sudan Plantation Syndicate, with government, syndicate and Sudanese tenants sharing roles",
+      "cite": "GHA7_CH17",
+      "badges": [
+        "SOURCED"
+      ],
+      "page": "p.455"
+    },
+    "indicators": []
+  },
+  "kingdom-of-kerma": {
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read assesses Kerma's economy."
+    },
+    "rating_basis_en": {
+      "value": "No source read assesses Kerma's economy.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "rating_basis_ar": {
+      "value": "لا يقيّم أي مصدر مقروء اقتصاد كرمة.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE",
+        "WORKING-TRANSLATION"
+      ],
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read in full names this era's currency; not filled from memory."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read covers this."
+    },
+    "indicators": []
+  },
+  "kingdom-of-kush-napatan-period": {
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read in full rates the Napatan economy; Kush gold pages not yet confirmed for this period."
+    },
+    "rating_basis_en": {
+      "value": "No source read in full rates the Napatan economy; Kush gold pages not yet confirmed for this period.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "rating_basis_ar": {
+      "value": "لا يقيّم أي مصدر مقروء اقتصاد الفترة النبتية.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE",
+        "WORKING-TRANSLATION"
+      ],
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read in full names this era's currency; not filled from memory."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read covers this."
+    },
+    "indicators": []
+  },
+  "funj-sultanate-of-sennar": {
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "Funj trade: GHA V ch.7 text on the box is not readable (OCR); no page confirmed, so left unknown."
+    },
+    "rating_basis_en": {
+      "value": "Funj trade: GHA V ch.7 text on the box is not readable (OCR); no page confirmed, so left unknown.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "rating_basis_ar": {
+      "value": "تجارة الفونج: نص GHA V غير مقروء؛ لم تُؤكد أي صفحة.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE",
+        "WORKING-TRANSLATION"
+      ],
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read in full names this era's currency; not filled from memory."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read covers this."
+    },
+    "indicators": []
+  },
+  "sultanate-of-darfur-keira": {
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "Darfur trade (Darb al-Arba'in): only a GHA V glossary entry read; no economic page confirmed (OFAHEY2008 not read in full)."
+    },
+    "rating_basis_en": {
+      "value": "Darfur trade (Darb al-Arba'in): only a GHA V glossary entry read; no economic page confirmed (OFAHEY2008 not read in full).",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "rating_basis_ar": {
+      "value": "تجارة دارفور: لم يُقرأ إلا مسرد GHA V؛ لا صفحة اقتصادية مؤكدة.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE",
+        "WORKING-TRANSLATION"
+      ],
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read in full names this era's currency; not filled from memory."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read covers this."
+    },
+    "indicators": []
+  },
+  "mahdist-state-mahdiyya": {
+    "rating": {
+      "value": "unknown",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read assesses the Mahdist economy."
+    },
+    "rating_basis_en": {
+      "value": "No source read assesses the Mahdist economy.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "rating_basis_ar": {
+      "value": "لا يقيّم أي مصدر مقروء اقتصاد الدولة المهدية.",
+      "cite": null,
+      "badges": [
+        "NO-SOURCE",
+        "WORKING-TRANSLATION"
+      ],
+      "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
+    },
+    "currency": {
+      "name": null,
+      "type": null,
+      "issuer": null,
+      "example_artifact": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read in full names this era's currency; not filled from memory."
+    },
+    "main_trade": {
+      "exports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "imports": {
+        "value": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "No source read covers this."
+      },
+      "routes": [],
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ]
+    },
+    "economic_base": {
+      "value": null,
+      "cite": null,
+      "badges": [
+        "NO-SOURCE"
+      ],
+      "note": "No source read covers this."
+    },
+    "indicators": []
   }
 }
