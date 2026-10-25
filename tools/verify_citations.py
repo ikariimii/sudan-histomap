@@ -59,7 +59,8 @@ def offline():
         return out
 
     # battles layer + era events timeline (data/battles.json, data/era_events.json; VC_STUB=1 checks data/_stub/ instead, allowing STUB_EXAMPLE)
-    warn=[]
+    warn=[];info=[]
+    DESCRIPTIVE_KEPT={'dinka-jieng-communities#0','dinka-jieng-communities#1','nuer-naath-communities#1','nuer-naath-communities#2','anuak-anywaa-communities#1'}  # IM ruling 2026-10-25
     stub=os.environ.get('VC_STUB')=='1';bd='data/_stub/' if stub else 'data/';EIDS={os.path.basename(f)[:-5] for f in glob.glob('data/eras/*.json')}
     def be(kind,it):
         nonlocal n
@@ -82,7 +83,10 @@ def offline():
         for v in _be_norm_ev(json.load(open(bd+'era_events.json',encoding='utf-8'))):
             be('event',v); n+=1
             if v.get('era_id') not in EIDS: bad.append(('event-era',v.get('id'),v.get('era_id')))
-            if not isinstance(v.get('year'),int): warn.append(('event',v.get('id'),'no year - dropped at build'))
+            if not isinstance(v.get('year'),int):
+                if v.get('id') in DESCRIPTIVE_KEPT: info.append(('event',v.get('id'),'descriptive, kept by ruling (IM 2026-10-25)'))
+                else: warn.append(('event',v.get('id'),'no year - dropped at build'))
+    [print('  INFO',*w) for w in info]
     if warn: print('battles/events warnings (not failures; these items are left out of the build):',len(warn));[print('  WARN',*w) for w in warn]
     print(n,'offline checks; problems:',len(bad),'(registry %d IDs)'%len(REG),flush=True)
     for b in bad: print(b,flush=True)
