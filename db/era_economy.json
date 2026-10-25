@@ -9,7 +9,15 @@
       "CBOS_POL2007",
       "CBOS_CURMUS2012",
       "WB_WDI_GDP_SDN",
-      "WB_SEU2023"
+      "WB_SEU2023",
+      "WB_WDI_GDP_EGY",
+      "WB_WDI_GDP_ERI",
+      "WB_WDI_GDP_TCD",
+      "WB_WDI_GDP_LBY",
+      "WB_WDI_GDP_CAF",
+      "WB_WDI_GDP_SAU",
+      "WB_WDI_GDP_ETH",
+      "WB_WDI_GDP_SSD"
     ],
     "to_register_details": {
       "CBOS_CURMUS2012": {
@@ -23,6 +31,38 @@
       "WB_SEU2023": {
         "title": "World Bank, Sudan Economic Update: Missed Opportunities amidst Deepening Fragility (2023)",
         "url": "https://documents1.worldbank.org/curated/en/099540409212319137/pdf/IDU0f37ed18102619046f80a9740379de7348107.pdf"
+      },
+      "WB_WDI_GDP_EGY": {
+        "title": "World Bank, World Development Indicators: GDP (current US$), Egypt (NY.GDP.MKTP.CD), lastupdated 2026-10-08",
+        "url": "https://api.worldbank.org/v2/country/EGY/indicator/NY.GDP.MKTP.CD?format=json&per_page=100"
+      },
+      "WB_WDI_GDP_ERI": {
+        "title": "World Bank, World Development Indicators: GDP (current US$), Eritrea (NY.GDP.MKTP.CD), lastupdated 2026-10-08",
+        "url": "https://api.worldbank.org/v2/country/ERI/indicator/NY.GDP.MKTP.CD?format=json&per_page=100"
+      },
+      "WB_WDI_GDP_TCD": {
+        "title": "World Bank, World Development Indicators: GDP (current US$), Chad (NY.GDP.MKTP.CD), lastupdated 2026-10-08",
+        "url": "https://api.worldbank.org/v2/country/TCD/indicator/NY.GDP.MKTP.CD?format=json&per_page=100"
+      },
+      "WB_WDI_GDP_LBY": {
+        "title": "World Bank, World Development Indicators: GDP (current US$), Libya (NY.GDP.MKTP.CD), lastupdated 2026-10-08",
+        "url": "https://api.worldbank.org/v2/country/LBY/indicator/NY.GDP.MKTP.CD?format=json&per_page=100"
+      },
+      "WB_WDI_GDP_CAF": {
+        "title": "World Bank, World Development Indicators: GDP (current US$), Central African Republic (NY.GDP.MKTP.CD), lastupdated 2026-10-08",
+        "url": "https://api.worldbank.org/v2/country/CAF/indicator/NY.GDP.MKTP.CD?format=json&per_page=100"
+      },
+      "WB_WDI_GDP_SAU": {
+        "title": "World Bank, World Development Indicators: GDP (current US$), Saudi Arabia (NY.GDP.MKTP.CD), lastupdated 2026-10-08",
+        "url": "https://api.worldbank.org/v2/country/SAU/indicator/NY.GDP.MKTP.CD?format=json&per_page=100"
+      },
+      "WB_WDI_GDP_ETH": {
+        "title": "World Bank, World Development Indicators: GDP (current US$), Ethiopia (NY.GDP.MKTP.CD), lastupdated 2026-10-08",
+        "url": "https://api.worldbank.org/v2/country/ETH/indicator/NY.GDP.MKTP.CD?format=json&per_page=100"
+      },
+      "WB_WDI_GDP_SSD": {
+        "title": "World Bank, World Development Indicators: GDP (current US$), South Sudan (NY.GDP.MKTP.CD), lastupdated 2026-10-08",
+        "url": "https://api.worldbank.org/v2/country/SSD/indicator/NY.GDP.MKTP.CD?format=json&per_page=100"
       }
     }
   },
@@ -4350,5 +4390,334 @@
       "note": "Carried over verbatim from this era's economy_en text, which carries its own page cites."
     },
     "indicators": []
+  },
+  "kingdom-of-taqali": {
+    "indicators": [
+      {
+        "name": "GDP (current US$)",
+        "value": 1126364161.7644,
+        "unit": "current US$",
+        "year": 1960,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; unrounded. Whole-Sudan series, not Taqali."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 1847501441.26221,
+        "unit": "current US$",
+        "year": 1969,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; unrounded. Whole-Sudan series, not Taqali."
+      }
+    ],
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+  },
+  "southern-sudan-under-condominium-sudan": {
+    "indicators": [
+      {
+        "name": "GDP (current US$)",
+        "value": 1126364161.7644,
+        "unit": "current US$",
+        "year": 1960,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; unrounded. Whole-Sudan series."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 55018567210.5263,
+        "unit": "current US$",
+        "year": 2011,
+        "cite": "WB_WDI_GDP_SDN",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; unrounded. Whole-Sudan series."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 14586253383.0632,
+        "unit": "current US$",
+        "year": 2008,
+        "cite": "WB_WDI_GDP_SSD",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country SSD, lastupdated 2026-10-08; unrounded. First SSD value in WDI."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 14907308932.7534,
+        "unit": "current US$",
+        "year": 2011,
+        "cite": "WB_WDI_GDP_SSD",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country SSD, lastupdated 2026-10-08; unrounded."
+      }
+    ],
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+  },
+  "republic-of-egypt": {
+    "indicators": [
+      {
+        "name": "GDP (current US$)",
+        "value": 4206270352.22633,
+        "unit": "current US$",
+        "year": 1960,
+        "cite": "WB_WDI_GDP_EGY",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country EGY, lastupdated 2026-10-08; unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 365254630179.737,
+        "unit": "current US$",
+        "year": 2025,
+        "cite": "WB_WDI_GDP_EGY",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country EGY, lastupdated 2026-10-08; unrounded."
+      }
+    ],
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+  },
+  "ethiopian-empire-solomonic": {
+    "indicators": [
+      {
+        "name": "GDP (current US$)",
+        "value": 1610511693.84215,
+        "unit": "current US$",
+        "year": 1960,
+        "cite": "WB_WDI_GDP_ETH",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country ETH, lastupdated 2026-10-08; unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 4577209966.18358,
+        "unit": "current US$",
+        "year": 1974,
+        "cite": "WB_WDI_GDP_ETH",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country ETH, lastupdated 2026-10-08; unrounded."
+      }
+    ],
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+  },
+  "eritrea-italian-colony-independent": {
+    "indicators": [
+      {
+        "name": "GDP (current US$)",
+        "value": 477101651.648376,
+        "unit": "current US$",
+        "year": 1992,
+        "cite": "WB_WDI_GDP_ERI",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country ERI, lastupdated 2026-10-08; unrounded. First ERI value in WDI."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 2065001626.01626,
+        "unit": "current US$",
+        "year": 2011,
+        "cite": "WB_WDI_GDP_ERI",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country ERI, lastupdated 2026-10-08; unrounded. Last ERI value in WDI."
+      }
+    ],
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+  },
+  "french-chad-republic-of-chad": {
+    "indicators": [
+      {
+        "name": "GDP (current US$)",
+        "value": 313582728.147574,
+        "unit": "current US$",
+        "year": 1960,
+        "cite": "WB_WDI_GDP_TCD",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country TCD, lastupdated 2026-10-08; unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 21472835225.4338,
+        "unit": "current US$",
+        "year": 2025,
+        "cite": "WB_WDI_GDP_TCD",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country TCD, lastupdated 2026-10-08; unrounded."
+      }
+    ],
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+  },
+  "libya-ottoman-italian-independent": {
+    "indicators": [
+      {
+        "name": "GDP (current US$)",
+        "value": 401644248.9423,
+        "unit": "current US$",
+        "year": 1960,
+        "cite": "WB_WDI_GDP_LBY",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country LBY, lastupdated 2026-10-08; unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 48098909613.6316,
+        "unit": "current US$",
+        "year": 2025,
+        "cite": "WB_WDI_GDP_LBY",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country LBY, lastupdated 2026-10-08; unrounded."
+      }
+    ],
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+  },
+  "central-african-republic-ubangi-shari": {
+    "indicators": [
+      {
+        "name": "GDP (current US$)",
+        "value": 112155598.492157,
+        "unit": "current US$",
+        "year": 1960,
+        "cite": "WB_WDI_GDP_CAF",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country CAF, lastupdated 2026-10-08; unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 3066109226.40165,
+        "unit": "current US$",
+        "year": 2025,
+        "cite": "WB_WDI_GDP_CAF",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country CAF, lastupdated 2026-10-08; unrounded."
+      }
+    ],
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+  },
+  "ottoman-hejaz-saudi-state": {
+    "indicators": [
+      {
+        "name": "GDP (current US$)",
+        "value": 1748124063.55556,
+        "unit": "current US$",
+        "year": 1960,
+        "cite": "WB_WDI_GDP_SAU",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country SAU, lastupdated 2026-10-08; unrounded."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 1276942933333.33,
+        "unit": "current US$",
+        "year": 2025,
+        "cite": "WB_WDI_GDP_SAU",
+        "badges": [
+          "SOURCED"
+        ],
+        "note": "WB WDI API, NY.GDP.MKTP.CD, country SAU, lastupdated 2026-10-08; unrounded."
+      }
+    ],
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+  },
+  "beja-red-sea-hills-peoples": {
+    "indicators": [
+      {
+        "name": "GDP (current US$)",
+        "value": null,
+        "unit": "current US$",
+        "year": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "WB/IMF/UN publish GDP by state, not by community or people; no figure can be attributed to this entry without invention."
+      }
+    ],
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+  },
+  "dinka-jieng-communities": {
+    "indicators": [
+      {
+        "name": "GDP (current US$)",
+        "value": null,
+        "unit": "current US$",
+        "year": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "WB/IMF/UN publish GDP by state, not by community or people; no figure can be attributed to this entry without invention."
+      }
+    ],
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+  },
+  "nuer-naath-communities": {
+    "indicators": [
+      {
+        "name": "GDP (current US$)",
+        "value": null,
+        "unit": "current US$",
+        "year": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "WB/IMF/UN publish GDP by state, not by community or people; no figure can be attributed to this entry without invention."
+      }
+    ],
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
+  },
+  "anuak-anywaa-communities": {
+    "indicators": [
+      {
+        "name": "GDP (current US$)",
+        "value": null,
+        "unit": "current US$",
+        "year": null,
+        "cite": null,
+        "badges": [
+          "NO-SOURCE"
+        ],
+        "note": "WB/IMF/UN publish GDP by state, not by community or people; no figure can be attributed to this entry without invention."
+      }
+    ],
+    "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
   }
 }
