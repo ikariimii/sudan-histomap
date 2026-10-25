@@ -808,7 +808,27 @@
   {
    "era_id": "khartoum-mesolithic-early-khartoum",
    "items": null,
-   "reason": "prehistoric site culture; no polity extent"
+   "reason": "prehistoric site culture; no polity extent. Points-only requested (Pass 32), but no site point could be cited, so none is drawn.",
+   "site_nulls": [
+    {
+     "place": "Early Khartoum (Khartoum hospital site)",
+     "cite": "GHA1_CH25 p.642; GHA1_CH28 p.720 (\"a site in Khartoum itself\")",
+     "qid": null,
+     "reason": "No Wikidata item for the site (wbsearchentities \"Early Khartoum\" returns only articles, 2026-10-24); GHA I gives no location beyond \"Khartoum itself\". Town coordinate not inferred."
+    },
+    {
+     "place": "Saggai",
+     "cite": null,
+     "qid": null,
+     "reason": "Not named in GHA I–VIII text on the box or in data/sources.json; no Wikidata item found."
+    },
+    {
+     "place": "Sarurab",
+     "cite": null,
+     "qid": null,
+     "reason": "Not named in GHA I–VIII text on the box or in data/sources.json; no Wikidata item found."
+    }
+   ]
   },
   {
    "era_id": "khartoum-neolithic-shaheinab",
@@ -872,23 +892,60 @@
   },
   {
    "era_id": "southern-sudan-under-condominium-sudan",
-   "items": null,
-   "reason": "no separate limit text; part of the Condominium extent"
+   "year_from": 1899,
+   "year_to": 2011,
+   "confidence": "low",
+   "source_ids": [
+    "EXT_OHM",
+    "LOC1991_CONDO",
+    "PCA_ABYEI2009",
+    "UNSC1996",
+    "WP:Addis_Ababa_Agreement_(1972)",
+    "WP:Comprehensive_Peace_Agreement",
+    "ABYEI_PROTOCOL2004"
+   ],
+   "dating_split": [
+    {
+     "from": 1899,
+     "to": 1955,
+     "label_en": "Condominium"
+    },
+    {
+     "from": 1956,
+     "to": 2011,
+     "label_en": "Southern Sudan within independent Sudan"
+    }
+   ],
+   "sub_layers": [
+    {
+     "from": 1972,
+     "to": 1983,
+     "label_en": "Southern Region (Addis Ababa Agreement)"
+    },
+    {
+     "from": 2005,
+     "to": 2011,
+     "label_en": "Government of Southern Sudan (CPA)"
+    }
+   ],
+   "notes": "Base outline is a stand-in for the 1 Jan 1956 provincial line (existing South Sudan OHM outline), badged APPROXIMATE; Abyei, Kafia Kingi, Ilemi are CONTESTED points.",
+   "geojson": "db/extents/southern-sudan-under-condominium-sudan.geojson",
+   "license": "OHM CC0; Wikidata CC0"
   },
   {
    "era_id": "dinka-jieng-communities",
    "items": null,
-   "reason": "people, not a polity"
+   "reason": "people, not a polity. Group-layer only (Pass 32): sources give regions (Upper Nile, Bahr al-Ghazal) and a Renk-to-Uganda range (QASIM_MAWSUA vol.2 p.911, OCR VERIFY), not limits; no area drawn. The Bor point in db/group_layers/homelands.geojson marks the Bor Dinka only."
   },
   {
    "era_id": "nuer-naath-communities",
    "items": null,
-   "reason": "people, not a polity"
+   "reason": "people, not a polity. Group-layer only (Pass 32): sources name only rivers and a lake (Sobat, White Nile, Lake Jorr; GHA7_CH4 p.81), no limits; no area and no point."
   },
   {
    "era_id": "anuak-anywaa-communities",
    "items": null,
-   "reason": "people, not a polity"
+   "reason": "people, not a polity. List-only (Pass 32): no Anuak entry in db/groups.json yet and no limit text read (EP1940_ANUAK registered but not read for limits); no area or point drawn."
   },
   {
    "era_id": "independent-sudan-first-parliamentary-period",

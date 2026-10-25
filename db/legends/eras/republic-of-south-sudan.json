@@ -1143,13 +1143,15 @@
    "previous_era_id": "southern-sudan-under-condominium-sudan",
    "basis": "previous era in same stream by start year",
    "extents_added": [
-    "Abyei (disputed) [CONTESTED]",
-    "Ilemi Triangle: disputed between Kenya and South Sudan; administered by Kenya [CONTESTED]",
-    "Kafia Kingi (disputed) [CONTESTED]",
     "PCA 2009 award boundary [CONTESTED]",
     "South Sudan"
    ],
-   "extents_removed": [],
+   "extents_removed": [
+    "Government of Southern Sudan (CPA, 2005–2011) [APPROXIMATE]",
+    "Southern Region (Addis Ababa Agreement, 1972–1983) [APPROXIMATE]",
+    "Southern Sudan under the Condominium (Bahr al-Ghazal, Equatoria, Upper Nile) [APPROXIMATE]",
+    "Southern Sudan within independent Sudan (1956 provincial line) [APPROXIMATE]"
+   ],
    "cities_added": [],
    "cities_removed": [],
    "capitals_added": [],
