@@ -4395,25 +4395,14 @@
     "indicators": [
       {
         "name": "GDP (current US$)",
-        "value": 1126364161.7644,
+        "value": null,
         "unit": "current US$",
-        "year": 1960,
-        "cite": "WB_WDI_GDP_SDN",
+        "year": null,
+        "cite": null,
         "badges": [
-          "SOURCED"
+          "NO-SOURCE"
         ],
-        "note": "WB WDI API, NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; unrounded. Whole-Sudan series, not Taqali."
-      },
-      {
-        "name": "GDP (current US$)",
-        "value": 1847501441.26221,
-        "unit": "current US$",
-        "year": 1969,
-        "cite": "WB_WDI_GDP_SDN",
-        "badges": [
-          "SOURCED"
-        ],
-        "note": "WB WDI API, NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; unrounded. Whole-Sudan series, not Taqali."
+        "note": "WB/IMF/UN publish GDP by state, not by kingdom or region; a whole-Sudan figure would read as Taqali's own economy (IM ruling 2026-10-25), so none is shown."
       }
     ],
     "indicators_scope": "Post-1956 indicators by the Sudan Geopolitical Analyst; pre-1956 fields are the Historian's."
