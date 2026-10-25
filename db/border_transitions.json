@@ -1,0 +1,4235 @@
+{
+ "meta": {
+  "generated_by": "db/map_sources/build_map_sources.py",
+  "owner": "Sudan Map Designer",
+  "era_order": "data/periods.json, consecutive eras in the same stream sorted by start, end (same as db/legends what_changed)",
+  "rules": "Pairs only live db/extents polygons; no new geometry. Each from-polygon is paired with the next-era polygon of highest overlap (IoU). mode: hold (identical), morph (IoU >= 0.3), cross_fade (overlap but IoU < 0.3). Non-overlapping shapes go to fade_out / fade_in. shared_edge_km_approx and changed_sides are display aids computed from the two live geometries (bbox side deltas), not sourced limits.",
+  "overlay_maps_file": "db/border_overlay_maps.json (maps listed in db/map_sources.json overlay_maps per shape)",
+  "totals": {
+   "era_steps": 59,
+   "pairs": 69
+  }
+ },
+ "transitions": [
+  {
+   "from_era": "zande-kingdoms",
+   "to_era": "central-african-republic-ubangi-shari",
+   "stream": "Central Africa (CAR/Congo border)",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": [
+    "central-african-republic-ubangi-shari#1",
+    "central-african-republic-ubangi-shari#2",
+    "central-african-republic-ubangi-shari#3",
+    "central-african-republic-ubangi-shari#5",
+    "central-african-republic-ubangi-shari#6",
+    "central-african-republic-ubangi-shari#7"
+   ]
+  },
+  {
+   "from_era": "garamantes-fezzan",
+   "to_era": "kanem-empire",
+   "stream": "Chad & Central Sahara",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": [
+    "kanem-empire#0"
+   ]
+  },
+  {
+   "from_era": "kanem-empire",
+   "to_era": "bornu-empire",
+   "stream": "Chad & Central Sahara",
+   "pairs": [],
+   "fade_out": [
+    "kanem-empire#0"
+   ],
+   "fade_in": []
+  },
+  {
+   "from_era": "bornu-empire",
+   "to_era": "libya-ottoman-italian-independent",
+   "stream": "Chad & Central Sahara",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": [
+    "libya-ottoman-italian-independent#2",
+    "libya-ottoman-italian-independent#3",
+    "libya-ottoman-italian-independent#4",
+    "libya-ottoman-italian-independent#5",
+    "libya-ottoman-italian-independent#6"
+   ]
+  },
+  {
+   "from_era": "libya-ottoman-italian-independent",
+   "to_era": "wadai-sultanate",
+   "stream": "Chad & Central Sahara",
+   "pairs": [],
+   "fade_out": [
+    "libya-ottoman-italian-independent#2",
+    "libya-ottoman-italian-independent#3",
+    "libya-ottoman-italian-independent#4",
+    "libya-ottoman-italian-independent#5",
+    "libya-ottoman-italian-independent#6"
+   ],
+   "fade_in": []
+  },
+  {
+   "from_era": "wadai-sultanate",
+   "to_era": "french-chad-republic-of-chad",
+   "stream": "Chad & Central Sahara",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": [
+    "french-chad-republic-of-chad#0",
+    "french-chad-republic-of-chad#1",
+    "french-chad-republic-of-chad#2",
+    "french-chad-republic-of-chad#3",
+    "french-chad-republic-of-chad#5",
+    "french-chad-republic-of-chad#6"
+   ]
+  },
+  {
+   "from_era": "early-dynastic-old-kingdom-egypt",
+   "to_era": "middle-kingdom-egypt",
+   "stream": "Egypt",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": [
+    "zone-middle-kingdom-egypt-core-0",
+    "zone-middle-kingdom-egypt-claimed-1"
+   ]
+  },
+  {
+   "from_era": "middle-kingdom-egypt",
+   "to_era": "new-kingdom-egypt",
+   "stream": "Egypt",
+   "pairs": [],
+   "fade_out": [
+    "zone-middle-kingdom-egypt-core-0",
+    "zone-middle-kingdom-egypt-claimed-1"
+   ],
+   "fade_in": []
+  },
+  {
+   "from_era": "new-kingdom-egypt",
+   "to_era": "late-period-persian-egypt",
+   "stream": "Egypt",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "late-period-persian-egypt",
+   "to_era": "ptolemaic-egypt",
+   "stream": "Egypt",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": [
+    "zone-ptolemaic-egypt-core-0"
+   ]
+  },
+  {
+   "from_era": "ptolemaic-egypt",
+   "to_era": "roman-byzantine-egypt",
+   "stream": "Egypt",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "ptolemaic-egypt",
+      "feature_id": "zone-ptolemaic-egypt-core-0",
+      "feature_index": 2,
+      "zone": "core",
+      "cites": [
+       {
+        "id": "GHA2_CH6",
+        "pages": "GHA II pp.184, 208"
+       },
+       {
+        "id": "GHA2_CH7",
+        "pages": "GHA II pp.184, 208"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "roman-byzantine-egypt",
+      "feature_id": "zone-roman-byzantine-egypt-core-0",
+      "feature_index": 3,
+      "zone": "core",
+      "cites": [
+       {
+        "id": "GHA2_CH7",
+        "pages": "GHA II ch.7 p.210"
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 2513.5,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    }
+   ],
+   "fade_out": [],
+   "fade_in": [
+    "zone-roman-byzantine-egypt-claimed-1"
+   ]
+  },
+  {
+   "from_era": "roman-byzantine-egypt",
+   "to_era": "islamic-egypt-rashidunfatimidayyubid",
+   "stream": "Egypt",
+   "pairs": [],
+   "fade_out": [
+    "zone-roman-byzantine-egypt-core-0",
+    "zone-roman-byzantine-egypt-claimed-1"
+   ],
+   "fade_in": []
+  },
+  {
+   "from_era": "islamic-egypt-rashidunfatimidayyubid",
+   "to_era": "mamluk-sultanate",
+   "stream": "Egypt",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": [
+    "mamluk-sultanate#0",
+    "mamluk-sultanate#1",
+    "mamluk-sultanate#2",
+    "mamluk-sultanate#3",
+    "mamluk-sultanate#4",
+    "mamluk-sultanate#5",
+    "mamluk-sultanate#6",
+    "mamluk-sultanate#7",
+    "mamluk-sultanate#8"
+   ]
+  },
+  {
+   "from_era": "mamluk-sultanate",
+   "to_era": "ottoman-egypt-muhammad-ali-dynasty",
+   "stream": "Egypt",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "mamluk-sultanate",
+      "feature_id": "mamluk-sultanate#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2960099",
+        "pages": "401"
+       },
+       {
+        "id": "GHAIV",
+        "pages": "401"
+       },
+       {
+        "id": "WP:Mamluk_Sultanate",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAKURIA",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAKURIA_2026",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAMLUK",
+        "pages": "401"
+       },
+       {
+        "id": "GHA4_CH16_P399_405",
+        "pages": "401"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+      "feature_id": "ottoman-egypt-muhammad-ali-dynasty#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2921538",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "WP:Muhammad_Ali_dynasty",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.576,
+     "shared_edge_km_approx": 2493.9,
+     "changed_sides": {
+      "west": "contracts 3.933 deg",
+      "south": "expands 2.462 deg",
+      "east": "expands 1.303 deg",
+      "north": "contracts 1.314 deg"
+     },
+     "area_change_pct": 23.5
+    },
+    {
+     "from": {
+      "era_id": "mamluk-sultanate",
+      "feature_id": "mamluk-sultanate#1",
+      "feature_index": 1,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2960095",
+        "pages": "401"
+       },
+       {
+        "id": "GHAIV",
+        "pages": "401"
+       },
+       {
+        "id": "WP:Mamluk_Sultanate",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAKURIA",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAKURIA_2026",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAMLUK",
+        "pages": "401"
+       },
+       {
+        "id": "GHA4_CH16_P399_405",
+        "pages": "401"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+      "feature_id": "ottoman-egypt-muhammad-ali-dynasty#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2921538",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "WP:Muhammad_Ali_dynasty",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.414,
+     "shared_edge_km_approx": 2319.5,
+     "changed_sides": {
+      "west": "contracts 3.933 deg",
+      "south": "expands 2.462 deg",
+      "east": "contracts 4.277 deg",
+      "north": "contracts 6.836 deg"
+     },
+     "area_change_pct": -20.5
+    },
+    {
+     "from": {
+      "era_id": "mamluk-sultanate",
+      "feature_id": "mamluk-sultanate#2",
+      "feature_index": 2,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2960098",
+        "pages": "401"
+       },
+       {
+        "id": "GHAIV",
+        "pages": "401"
+       },
+       {
+        "id": "WP:Mamluk_Sultanate",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAKURIA",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAKURIA_2026",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAMLUK",
+        "pages": "401"
+       },
+       {
+        "id": "GHA4_CH16_P399_405",
+        "pages": "401"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+      "feature_id": "ottoman-egypt-muhammad-ali-dynasty#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2921538",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "WP:Muhammad_Ali_dynasty",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.414,
+     "shared_edge_km_approx": 2324.8,
+     "changed_sides": {
+      "west": "contracts 3.933 deg",
+      "south": "expands 2.462 deg",
+      "east": "contracts 4.277 deg",
+      "north": "contracts 6.836 deg"
+     },
+     "area_change_pct": -20.5
+    },
+    {
+     "from": {
+      "era_id": "mamluk-sultanate",
+      "feature_id": "mamluk-sultanate#3",
+      "feature_index": 3,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2960097",
+        "pages": "401"
+       },
+       {
+        "id": "GHAIV",
+        "pages": "401"
+       },
+       {
+        "id": "WP:Mamluk_Sultanate",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAKURIA",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAKURIA_2026",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAMLUK",
+        "pages": "401"
+       },
+       {
+        "id": "GHA4_CH16_P399_405",
+        "pages": "401"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+      "feature_id": "ottoman-egypt-muhammad-ali-dynasty#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2921538",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "WP:Muhammad_Ali_dynasty",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.414,
+     "shared_edge_km_approx": 2324.8,
+     "changed_sides": {
+      "west": "contracts 3.933 deg",
+      "south": "expands 2.462 deg",
+      "east": "contracts 4.277 deg",
+      "north": "contracts 6.836 deg"
+     },
+     "area_change_pct": -20.5
+    },
+    {
+     "from": {
+      "era_id": "mamluk-sultanate",
+      "feature_id": "mamluk-sultanate#4",
+      "feature_index": 4,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2960086",
+        "pages": "401"
+       },
+       {
+        "id": "GHAIV",
+        "pages": "401"
+       },
+       {
+        "id": "WP:Mamluk_Sultanate",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAKURIA",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAKURIA_2026",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAMLUK",
+        "pages": "401"
+       },
+       {
+        "id": "GHA4_CH16_P399_405",
+        "pages": "401"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+      "feature_id": "ottoman-egypt-muhammad-ali-dynasty#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2921538",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "WP:Muhammad_Ali_dynasty",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.434,
+     "shared_edge_km_approx": 2331.3,
+     "changed_sides": {
+      "west": "contracts 3.933 deg",
+      "south": "expands 2.462 deg",
+      "east": "contracts 4.277 deg",
+      "north": "contracts 6.836 deg"
+     },
+     "area_change_pct": -25.8
+    },
+    {
+     "from": {
+      "era_id": "mamluk-sultanate",
+      "feature_id": "mamluk-sultanate#5",
+      "feature_index": 5,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2960093",
+        "pages": "401"
+       },
+       {
+        "id": "GHAIV",
+        "pages": "401"
+       },
+       {
+        "id": "WP:Mamluk_Sultanate",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAKURIA",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAKURIA_2026",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAMLUK",
+        "pages": "401"
+       },
+       {
+        "id": "GHA4_CH16_P399_405",
+        "pages": "401"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+      "feature_id": "ottoman-egypt-muhammad-ali-dynasty#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2921538",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "WP:Muhammad_Ali_dynasty",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.434,
+     "shared_edge_km_approx": 2331.3,
+     "changed_sides": {
+      "west": "contracts 3.933 deg",
+      "south": "expands 2.462 deg",
+      "east": "contracts 4.277 deg",
+      "north": "contracts 6.836 deg"
+     },
+     "area_change_pct": -25.8
+    },
+    {
+     "from": {
+      "era_id": "mamluk-sultanate",
+      "feature_id": "mamluk-sultanate#6",
+      "feature_index": 6,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2960087",
+        "pages": "401"
+       },
+       {
+        "id": "GHAIV",
+        "pages": "401"
+       },
+       {
+        "id": "WP:Mamluk_Sultanate",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAKURIA",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAKURIA_2026",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAMLUK",
+        "pages": "401"
+       },
+       {
+        "id": "GHA4_CH16_P399_405",
+        "pages": "401"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+      "feature_id": "ottoman-egypt-muhammad-ali-dynasty#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2921538",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "WP:Muhammad_Ali_dynasty",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.432,
+     "shared_edge_km_approx": 2331.0,
+     "changed_sides": {
+      "west": "contracts 3.933 deg",
+      "south": "expands 2.462 deg",
+      "east": "contracts 4.277 deg",
+      "north": "contracts 6.836 deg"
+     },
+     "area_change_pct": -26.2
+    },
+    {
+     "from": {
+      "era_id": "mamluk-sultanate",
+      "feature_id": "mamluk-sultanate#7",
+      "feature_index": 7,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2960096",
+        "pages": "401"
+       },
+       {
+        "id": "GHAIV",
+        "pages": "401"
+       },
+       {
+        "id": "WP:Mamluk_Sultanate",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAKURIA",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAKURIA_2026",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAMLUK",
+        "pages": "401"
+       },
+       {
+        "id": "GHA4_CH16_P399_405",
+        "pages": "401"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+      "feature_id": "ottoman-egypt-muhammad-ali-dynasty#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2921538",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "WP:Muhammad_Ali_dynasty",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.42,
+     "shared_edge_km_approx": 2292.5,
+     "changed_sides": {
+      "west": "contracts 3.933 deg",
+      "south": "expands 2.462 deg",
+      "east": "contracts 4.277 deg",
+      "north": "contracts 6.836 deg"
+     },
+     "area_change_pct": -29.8
+    },
+    {
+     "from": {
+      "era_id": "mamluk-sultanate",
+      "feature_id": "mamluk-sultanate#8",
+      "feature_index": 8,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2960092",
+        "pages": "401"
+       },
+       {
+        "id": "GHAIV",
+        "pages": "401"
+       },
+       {
+        "id": "WP:Mamluk_Sultanate",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAKURIA",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAKURIA_2026",
+        "pages": "401"
+       },
+       {
+        "id": "WP_MAMLUK",
+        "pages": "401"
+       },
+       {
+        "id": "GHA4_CH16_P399_405",
+        "pages": "401"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+      "feature_id": "ottoman-egypt-muhammad-ali-dynasty#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2921538",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "WP:Muhammad_Ali_dynasty",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.608,
+     "shared_edge_km_approx": 2469.8,
+     "changed_sides": {
+      "west": "contracts 3.933 deg",
+      "south": "expands 2.462 deg",
+      "east": "expands 1.303 deg",
+      "north": "contracts 1.314 deg"
+     },
+     "area_change_pct": 11.5
+    }
+   ],
+   "fade_out": [],
+   "fade_in": [
+    "ottoman-egypt-muhammad-ali-dynasty#1",
+    "ottoman-egypt-muhammad-ali-dynasty#2",
+    "ottoman-egypt-muhammad-ali-dynasty#3"
+   ]
+  },
+  {
+   "from_era": "ottoman-egypt-muhammad-ali-dynasty",
+   "to_era": "british-occupied-kingdom-of-egypt",
+   "stream": "Egypt",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+      "feature_id": "ottoman-egypt-muhammad-ali-dynasty#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2921538",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "WP:Muhammad_Ali_dynasty",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "british-occupied-kingdom-of-egypt",
+      "feature_id": "british-occupied-kingdom-of-egypt#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2690836",
+        "pages": null
+       },
+       {
+        "id": "WP:Kingdom_of_Egypt",
+        "pages": null
+       },
+       {
+        "id": "LOC1991_EGYPT",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 5284.3,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    },
+    {
+     "from": {
+      "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+      "feature_id": "ottoman-egypt-muhammad-ali-dynasty#1",
+      "feature_index": 1,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2951102",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "WP:Muhammad_Ali_dynasty",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "british-occupied-kingdom-of-egypt",
+      "feature_id": "british-occupied-kingdom-of-egypt#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2690836",
+        "pages": null
+       },
+       {
+        "id": "WP:Kingdom_of_Egypt",
+        "pages": null
+       },
+       {
+        "id": "LOC1991_EGYPT",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.982,
+     "shared_edge_km_approx": 5283.7,
+     "changed_sides": {
+      "west": "contracts 0.374 deg",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "contracts 4.056 deg"
+     },
+     "area_change_pct": -1.8
+    },
+    {
+     "from": {
+      "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+      "feature_id": "ottoman-egypt-muhammad-ali-dynasty#2",
+      "feature_index": 2,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2951103",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "WP:Muhammad_Ali_dynasty",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "british-occupied-kingdom-of-egypt",
+      "feature_id": "british-occupied-kingdom-of-egypt#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2690836",
+        "pages": null
+       },
+       {
+        "id": "WP:Kingdom_of_Egypt",
+        "pages": null
+       },
+       {
+        "id": "LOC1991_EGYPT",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 5284.3,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    },
+    {
+     "from": {
+      "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+      "feature_id": "ottoman-egypt-muhammad-ali-dynasty#3",
+      "feature_index": 3,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2690836",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "WP:Muhammad_Ali_dynasty",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "british-occupied-kingdom-of-egypt",
+      "feature_id": "british-occupied-kingdom-of-egypt#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2690836",
+        "pages": null
+       },
+       {
+        "id": "WP:Kingdom_of_Egypt",
+        "pages": null
+       },
+       {
+        "id": "LOC1991_EGYPT",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 5284.3,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    }
+   ],
+   "fade_out": [],
+   "fade_in": [
+    "british-occupied-kingdom-of-egypt#1",
+    "british-occupied-kingdom-of-egypt#2",
+    "british-occupied-kingdom-of-egypt#3",
+    "british-occupied-kingdom-of-egypt#4"
+   ]
+  },
+  {
+   "from_era": "british-occupied-kingdom-of-egypt",
+   "to_era": "republic-of-egypt",
+   "stream": "Egypt",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "british-occupied-kingdom-of-egypt",
+      "feature_id": "british-occupied-kingdom-of-egypt#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2690836",
+        "pages": null
+       },
+       {
+        "id": "WP:Kingdom_of_Egypt",
+        "pages": null
+       },
+       {
+        "id": "LOC1991_EGYPT",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "republic-of-egypt",
+      "feature_id": "republic-of-egypt#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2878088",
+        "pages": null
+       },
+       {
+        "id": "LOC1991_EGYPT",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.713,
+     "shared_edge_km_approx": 2964.3,
+     "changed_sides": {
+      "west": "contracts 0.854 deg",
+      "south": "contracts 0.098 deg",
+      "east": "contracts 0.69 deg",
+      "north": "unchanged"
+     },
+     "area_change_pct": 26.5
+    },
+    {
+     "from": {
+      "era_id": "british-occupied-kingdom-of-egypt",
+      "feature_id": "british-occupied-kingdom-of-egypt#1",
+      "feature_index": 1,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2926752",
+        "pages": null
+       },
+       {
+        "id": "WP:Kingdom_of_Egypt",
+        "pages": null
+       },
+       {
+        "id": "LOC1991_EGYPT",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "republic-of-egypt",
+      "feature_id": "republic-of-egypt#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2878088",
+        "pages": null
+       },
+       {
+        "id": "LOC1991_EGYPT",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.717,
+     "shared_edge_km_approx": 3229.4,
+     "changed_sides": {
+      "west": "contracts 0.854 deg",
+      "south": "expands 0.275 deg",
+      "east": "contracts 0.688 deg",
+      "north": "unchanged"
+     },
+     "area_change_pct": 28.2
+    },
+    {
+     "from": {
+      "era_id": "british-occupied-kingdom-of-egypt",
+      "feature_id": "british-occupied-kingdom-of-egypt#2",
+      "feature_index": 2,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2926750",
+        "pages": null
+       },
+       {
+        "id": "WP:Kingdom_of_Egypt",
+        "pages": null
+       },
+       {
+        "id": "LOC1991_EGYPT",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "republic-of-egypt",
+      "feature_id": "republic-of-egypt#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2878088",
+        "pages": null
+       },
+       {
+        "id": "LOC1991_EGYPT",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.733,
+     "shared_edge_km_approx": 3591.6,
+     "changed_sides": {
+      "west": "contracts 0.854 deg",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 31.1
+    },
+    {
+     "from": {
+      "era_id": "british-occupied-kingdom-of-egypt",
+      "feature_id": "british-occupied-kingdom-of-egypt#3",
+      "feature_index": 3,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2803205",
+        "pages": null
+       },
+       {
+        "id": "WP:Kingdom_of_Egypt",
+        "pages": null
+       },
+       {
+        "id": "LOC1991_EGYPT",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "republic-of-egypt",
+      "feature_id": "republic-of-egypt#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2878088",
+        "pages": null
+       },
+       {
+        "id": "LOC1991_EGYPT",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 5301.1,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    },
+    {
+     "from": {
+      "era_id": "british-occupied-kingdom-of-egypt",
+      "feature_id": "british-occupied-kingdom-of-egypt#4",
+      "feature_index": 4,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2803204",
+        "pages": null
+       },
+       {
+        "id": "WP:Kingdom_of_Egypt",
+        "pages": null
+       },
+       {
+        "id": "LOC1991_EGYPT",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "republic-of-egypt",
+      "feature_id": "republic-of-egypt#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2878088",
+        "pages": null
+       },
+       {
+        "id": "LOC1991_EGYPT",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.979,
+     "shared_edge_km_approx": 4944.2,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "expands 0.275 deg",
+      "east": "contracts 0.694 deg",
+      "north": "unchanged"
+     },
+     "area_change_pct": -1.7
+    }
+   ],
+   "fade_out": [],
+   "fade_in": [
+    "republic-of-egypt#1",
+    "republic-of-egypt#2",
+    "republic-of-egypt#3",
+    "republic-of-egypt#4",
+    "republic-of-egypt#5"
+   ]
+  },
+  {
+   "from_era": "land-of-punt-d-mt",
+   "to_era": "kingdom-of-aksum",
+   "stream": "Ethiopia & Eritrea (Horn)",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": [
+    "kingdom-of-aksum#0",
+    "kingdom-of-aksum#1",
+    "kingdom-of-aksum#2",
+    "kingdom-of-aksum#3",
+    "kingdom-of-aksum#4"
+   ]
+  },
+  {
+   "from_era": "kingdom-of-aksum",
+   "to_era": "zagwe-dynasty",
+   "stream": "Ethiopia & Eritrea (Horn)",
+   "pairs": [],
+   "fade_out": [
+    "kingdom-of-aksum#0",
+    "kingdom-of-aksum#1",
+    "kingdom-of-aksum#2",
+    "kingdom-of-aksum#3",
+    "kingdom-of-aksum#4"
+   ],
+   "fade_in": []
+  },
+  {
+   "from_era": "zagwe-dynasty",
+   "to_era": "ethiopian-empire-solomonic",
+   "stream": "Ethiopia & Eritrea (Horn)",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": [
+    "ethiopian-empire-solomonic#1",
+    "ethiopian-empire-solomonic#2",
+    "ethiopian-empire-solomonic#3",
+    "ethiopian-empire-solomonic#4",
+    "ethiopian-empire-solomonic#5",
+    "ethiopian-empire-solomonic#6"
+   ]
+  },
+  {
+   "from_era": "ethiopian-empire-solomonic",
+   "to_era": "eritrea-italian-colony-independent",
+   "stream": "Ethiopia & Eritrea (Horn)",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "ethiopian-empire-solomonic",
+      "feature_id": "ethiopian-empire-solomonic#1",
+      "feature_index": 1,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2690843",
+        "pages": null
+       },
+       {
+        "id": "GHAIV",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "GHA7_CH17",
+        "pages": null
+       },
+       {
+        "id": "WP:Ethiopian_Empire",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "eritrea-italian-colony-independent",
+      "feature_id": "eritrea-italian-colony-independent#3",
+      "feature_index": 3,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2839747",
+        "pages": null
+       },
+       {
+        "id": "UNGA_RES390V",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.872,
+     "shared_edge_km_approx": 4103.7,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "expands 0.059 deg",
+      "north": "expands 3.139 deg"
+     },
+     "area_change_pct": 14.6
+    },
+    {
+     "from": {
+      "era_id": "ethiopian-empire-solomonic",
+      "feature_id": "ethiopian-empire-solomonic#2",
+      "feature_index": 2,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2923091",
+        "pages": null
+       },
+       {
+        "id": "GHAIV",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "GHA7_CH17",
+        "pages": null
+       },
+       {
+        "id": "WP:Ethiopian_Empire",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "eritrea-italian-colony-independent",
+      "feature_id": "eritrea-italian-colony-independent#3",
+      "feature_index": 3,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2839747",
+        "pages": null
+       },
+       {
+        "id": "UNGA_RES390V",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.889,
+     "shared_edge_km_approx": 4488.3,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "expands 3.14 deg"
+     },
+     "area_change_pct": 12.5
+    },
+    {
+     "from": {
+      "era_id": "ethiopian-empire-solomonic",
+      "feature_id": "ethiopian-empire-solomonic#3",
+      "feature_index": 3,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2803441",
+        "pages": null
+       },
+       {
+        "id": "GHAIV",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "GHA7_CH17",
+        "pages": null
+       },
+       {
+        "id": "WP:Ethiopian_Empire",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "eritrea-italian-colony-independent",
+      "feature_id": "eritrea-italian-colony-independent#3",
+      "feature_index": 3,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2839747",
+        "pages": null
+       },
+       {
+        "id": "UNGA_RES390V",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.889,
+     "shared_edge_km_approx": 4488.3,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "expands 3.14 deg"
+     },
+     "area_change_pct": 12.5
+    },
+    {
+     "from": {
+      "era_id": "ethiopian-empire-solomonic",
+      "feature_id": "ethiopian-empire-solomonic#4",
+      "feature_index": 4,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2803446",
+        "pages": null
+       },
+       {
+        "id": "GHAIV",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "GHA7_CH17",
+        "pages": null
+       },
+       {
+        "id": "WP:Ethiopian_Empire",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "eritrea-italian-colony-independent",
+      "feature_id": "eritrea-italian-colony-independent#3",
+      "feature_index": 3,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2839747",
+        "pages": null
+       },
+       {
+        "id": "UNGA_RES390V",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.889,
+     "shared_edge_km_approx": 4488.3,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "expands 3.14 deg"
+     },
+     "area_change_pct": 12.5
+    },
+    {
+     "from": {
+      "era_id": "ethiopian-empire-solomonic",
+      "feature_id": "ethiopian-empire-solomonic#5",
+      "feature_index": 5,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2839747",
+        "pages": null
+       },
+       {
+        "id": "GHAIV",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "GHA7_CH17",
+        "pages": null
+       },
+       {
+        "id": "WP:Ethiopian_Empire",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "eritrea-italian-colony-independent",
+      "feature_id": "eritrea-italian-colony-independent#3",
+      "feature_index": 3,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2839747",
+        "pages": null
+       },
+       {
+        "id": "UNGA_RES390V",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 7291.3,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    },
+    {
+     "from": {
+      "era_id": "ethiopian-empire-solomonic",
+      "feature_id": "ethiopian-empire-solomonic#6",
+      "feature_index": 6,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2803440",
+        "pages": null
+       },
+       {
+        "id": "GHAIV",
+        "pages": null
+       },
+       {
+        "id": "GHAV",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "GHA7_CH17",
+        "pages": null
+       },
+       {
+        "id": "WP:Ethiopian_Empire",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "eritrea-italian-colony-independent",
+      "feature_id": "eritrea-italian-colony-independent#3",
+      "feature_index": 3,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2839747",
+        "pages": null
+       },
+       {
+        "id": "UNGA_RES390V",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 7291.3,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    }
+   ],
+   "fade_out": [],
+   "fade_in": [
+    "eritrea-italian-colony-independent#0",
+    "eritrea-italian-colony-independent#2",
+    "eritrea-italian-colony-independent#4",
+    "eritrea-italian-colony-independent#5",
+    "eritrea-italian-colony-independent#6"
+   ]
+  },
+  {
+   "from_era": "eritrea-italian-colony-independent",
+   "to_era": "derg-federal-ethiopia",
+   "stream": "Ethiopia & Eritrea (Horn)",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "eritrea-italian-colony-independent",
+      "feature_id": "eritrea-italian-colony-independent#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2690839",
+        "pages": null
+       },
+       {
+        "id": "WP:Eritrea",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "derg-federal-ethiopia",
+      "feature_id": "derg-federal-ethiopia#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2803440",
+        "pages": null
+       },
+       {
+        "id": "LOC_ETH1991_BORDER",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.111,
+     "shared_edge_km_approx": 2784.8,
+     "changed_sides": {
+      "west": "expands 3.436 deg",
+      "south": "expands 8.951 deg",
+      "east": "expands 4.774 deg",
+      "north": "unchanged"
+     },
+     "area_change_pct": 798.8
+    },
+    {
+     "from": {
+      "era_id": "eritrea-italian-colony-independent",
+      "feature_id": "eritrea-italian-colony-independent#2",
+      "feature_index": 2,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2839746",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "derg-federal-ethiopia",
+      "feature_id": "derg-federal-ethiopia#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2803440",
+        "pages": null
+       },
+       {
+        "id": "LOC_ETH1991_BORDER",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.111,
+     "shared_edge_km_approx": 2784.8,
+     "changed_sides": {
+      "west": "expands 3.436 deg",
+      "south": "expands 8.951 deg",
+      "east": "expands 4.774 deg",
+      "north": "unchanged"
+     },
+     "area_change_pct": 798.8
+    },
+    {
+     "from": {
+      "era_id": "eritrea-italian-colony-independent",
+      "feature_id": "eritrea-italian-colony-independent#3",
+      "feature_index": 3,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2839747",
+        "pages": null
+       },
+       {
+        "id": "UNGA_RES390V",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "derg-federal-ethiopia",
+      "feature_id": "derg-federal-ethiopia#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2803440",
+        "pages": null
+       },
+       {
+        "id": "LOC_ETH1991_BORDER",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 7291.3,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    },
+    {
+     "from": {
+      "era_id": "eritrea-italian-colony-independent",
+      "feature_id": "eritrea-italian-colony-independent#4",
+      "feature_index": 4,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2803440",
+        "pages": null
+       },
+       {
+        "id": "LOC_ETH1991_BORDER",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "derg-federal-ethiopia",
+      "feature_id": "derg-federal-ethiopia#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2803440",
+        "pages": null
+       },
+       {
+        "id": "LOC_ETH1991_BORDER",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 7291.3,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    },
+    {
+     "from": {
+      "era_id": "eritrea-italian-colony-independent",
+      "feature_id": "eritrea-italian-colony-independent#5",
+      "feature_index": 5,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2885943",
+        "pages": null
+       },
+       {
+        "id": "LOC_ETH1991_BORDER",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "derg-federal-ethiopia",
+      "feature_id": "derg-federal-ethiopia#1",
+      "feature_index": 1,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2885943",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 6214.9,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    },
+    {
+     "from": {
+      "era_id": "eritrea-italian-colony-independent",
+      "feature_id": "eritrea-italian-colony-independent#6",
+      "feature_index": 6,
+      "zone": null,
+      "cites": [
+       {
+        "id": "NATURAL_EARTH",
+        "pages": null
+       },
+       {
+        "id": "OHM_2803445",
+        "pages": null
+       },
+       {
+        "id": "EEBC2002",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "derg-federal-ethiopia",
+      "feature_id": "derg-federal-ethiopia#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2803440",
+        "pages": null
+       },
+       {
+        "id": "LOC_ETH1991_BORDER",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.099,
+     "shared_edge_km_approx": 306.5,
+     "changed_sides": {
+      "west": "expands 3.427 deg",
+      "south": "expands 8.956 deg",
+      "east": "expands 4.862 deg",
+      "north": "expands 0.029 deg"
+     },
+     "area_change_pct": 910.4
+    }
+   ],
+   "fade_out": [],
+   "fade_in": [
+    "derg-federal-ethiopia#2"
+   ]
+  },
+  {
+   "from_era": "sabaean-south-arabian-kingdoms",
+   "to_era": "beja-red-sea-hills-peoples",
+   "stream": "Red Sea & Arabia",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "beja-red-sea-hills-peoples",
+   "to_era": "rise-of-islam-caliphates",
+   "stream": "Red Sea & Arabia",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "rise-of-islam-caliphates",
+   "to_era": "suakin-red-sea-port-beja-ottoman",
+   "stream": "Red Sea & Arabia",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "suakin-red-sea-port-beja-ottoman",
+   "to_era": "ottoman-hejaz-saudi-state",
+   "stream": "Red Sea & Arabia",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "shilluk-kingdom",
+   "to_era": "dinka-jieng-communities",
+   "stream": "South Sudan – Upper Nile",
+   "pairs": [],
+   "fade_out": [
+    "shilluk-kingdom#0"
+   ],
+   "fade_in": []
+  },
+  {
+   "from_era": "dinka-jieng-communities",
+   "to_era": "nuer-naath-communities",
+   "stream": "South Sudan – Upper Nile",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "nuer-naath-communities",
+   "to_era": "anuak-anywaa-communities",
+   "stream": "South Sudan – Upper Nile",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "anuak-anywaa-communities",
+   "to_era": "southern-sudan-under-condominium-sudan",
+   "stream": "South Sudan – Upper Nile",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": [
+    "ssd-condominium-1899-1955",
+    "ssd-within-sudan-1956-2011",
+    "ssd-southern-region-1972-1983",
+    "ssd-goss-2005-2011"
+   ]
+  },
+  {
+   "from_era": "southern-sudan-under-condominium-sudan",
+   "to_era": "republic-of-south-sudan",
+   "stream": "South Sudan – Upper Nile",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "southern-sudan-under-condominium-sudan",
+      "feature_id": "ssd-condominium-1899-1955",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       },
+       {
+        "id": "LOC1991_CONDO",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "republic-of-south-sudan",
+      "feature_id": "republic-of-south-sudan#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 5685.4,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    },
+    {
+     "from": {
+      "era_id": "southern-sudan-under-condominium-sudan",
+      "feature_id": "ssd-within-sudan-1956-2011",
+      "feature_index": 1,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       },
+       {
+        "id": "PCA_ABYEI2009",
+        "pages": null
+       },
+       {
+        "id": "UNSC1996",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "republic-of-south-sudan",
+      "feature_id": "republic-of-south-sudan#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 5685.4,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    },
+    {
+     "from": {
+      "era_id": "southern-sudan-under-condominium-sudan",
+      "feature_id": "ssd-southern-region-1972-1983",
+      "feature_index": 2,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       },
+       {
+        "id": "ADDIS_ABABA_1972",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "republic-of-south-sudan",
+      "feature_id": "republic-of-south-sudan#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 5685.4,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    },
+    {
+     "from": {
+      "era_id": "southern-sudan-under-condominium-sudan",
+      "feature_id": "ssd-goss-2005-2011",
+      "feature_index": 3,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       },
+       {
+        "id": "CPA_2005",
+        "pages": null
+       },
+       {
+        "id": "ABYEI_PROTOCOL2004",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "republic-of-south-sudan",
+      "feature_id": "republic-of-south-sudan#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 5685.4,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    }
+   ],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "daju-kingdom",
+   "to_era": "tunjur-kingdom",
+   "stream": "Sudan – Darfur & Kordofan",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "daju-kingdom",
+      "feature_id": "zone-daju-kingdom-core-0",
+      "feature_index": 1,
+      "zone": "core",
+      "cites": [
+       {
+        "id": "GHA4_CH16",
+        "pages": "GHA IV ch.16 p.420"
+       },
+       {
+        "id": "OFAHEY2008",
+        "pages": "GHA IV ch.16 p.420"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "tunjur-kingdom",
+      "feature_id": "zone-tunjur-kingdom-core-0",
+      "feature_index": 1,
+      "zone": "core",
+      "cites": [
+       {
+        "id": "GHA4_CH16",
+        "pages": "GHA IV ch.16 pp.420–421"
+       },
+       {
+        "id": "OFAHEY2008",
+        "pages": "GHA IV ch.16 pp.420–421"
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.081,
+     "shared_edge_km_approx": 4.8,
+     "changed_sides": {
+      "west": "contracts 0.05 deg",
+      "south": "contracts 1.32 deg",
+      "east": "expands 0.05 deg",
+      "north": "expands 1.32 deg"
+     },
+     "area_change_pct": 0.0
+    }
+   ],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "tunjur-kingdom",
+   "to_era": "sultanate-of-darfur-keira",
+   "stream": "Sudan – Darfur & Kordofan",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "tunjur-kingdom",
+      "feature_id": "zone-tunjur-kingdom-core-0",
+      "feature_index": 1,
+      "zone": "core",
+      "cites": [
+       {
+        "id": "GHA4_CH16",
+        "pages": "GHA IV ch.16 pp.420–421"
+       },
+       {
+        "id": "OFAHEY2008",
+        "pages": "GHA IV ch.16 pp.420–421"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "sultanate-of-darfur-keira",
+      "feature_id": "sultanate-of-darfur-keira#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "TAKANA2016",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "HD2011",
+        "pages": null
+       },
+       {
+        "id": "EXT_HDX_CODAB",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.058,
+     "shared_edge_km_approx": 0.0,
+     "changed_sides": {
+      "west": "expands 1.606 deg",
+      "south": "expands 4.729 deg",
+      "east": "expands 2.363 deg",
+      "north": "expands 4.85 deg"
+     },
+     "area_change_pct": 1617.0
+    }
+   ],
+   "fade_out": [],
+   "fade_in": [
+    "sultanate-of-darfur-keira#1",
+    "sultanate-of-darfur-keira#2"
+   ]
+  },
+  {
+   "from_era": "sultanate-of-darfur-keira",
+   "to_era": "musabba-at-sultanate-kordofan",
+   "stream": "Sudan – Darfur & Kordofan",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "sultanate-of-darfur-keira",
+      "feature_id": "sultanate-of-darfur-keira#1",
+      "feature_index": 1,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OFAHEY2018_FWD",
+        "pages": null
+       },
+       {
+        "id": "TAKANA2016",
+        "pages": null
+       },
+       {
+        "id": "EXT_HDX_CODAB",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "musabba-at-sultanate-kordofan",
+      "feature_id": "zone-musabba-at-sultanate-kordofan-influence-0",
+      "feature_index": 1,
+      "zone": "influence",
+      "cites": [
+       {
+        "id": "GHA5_CH7",
+        "pages": "GHA V ch.7 pp.187–189"
+       },
+       {
+        "id": "OFS1972",
+        "pages": "GHA V ch.7 pp.187–189"
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.061,
+     "shared_edge_km_approx": 0.0,
+     "changed_sides": {
+      "west": "contracts 6.486 deg",
+      "south": "contracts 3.159 deg",
+      "east": "contracts 1.76 deg",
+      "north": "contracts 5.82 deg"
+     },
+     "area_change_pct": -93.9
+    }
+   ],
+   "fade_out": [
+    "sultanate-of-darfur-keira#0",
+    "sultanate-of-darfur-keira#2"
+   ],
+   "fade_in": []
+  },
+  {
+   "from_era": "musabba-at-sultanate-kordofan",
+   "to_era": "kingdom-of-taqali",
+   "stream": "Sudan – Darfur & Kordofan",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "musabba-at-sultanate-kordofan",
+      "feature_id": "zone-musabba-at-sultanate-kordofan-influence-0",
+      "feature_index": 1,
+      "zone": "influence",
+      "cites": [
+       {
+        "id": "GHA5_CH7",
+        "pages": "GHA V ch.7 pp.187–189"
+       },
+       {
+        "id": "OFS1972",
+        "pages": "GHA V ch.7 pp.187–189"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "kingdom-of-taqali",
+      "feature_id": "zone-kingdom-of-taqali-core-0",
+      "feature_index": 1,
+      "zone": "core",
+      "cites": [
+       {
+        "id": "GHA5_CH7",
+        "pages": "GHA V ch.7 p.177"
+       },
+       {
+        "id": "HD2011",
+        "pages": "GHA V ch.7 p.177"
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.002,
+     "shared_edge_km_approx": 8.1,
+     "changed_sides": {
+      "west": "contracts 2.0 deg",
+      "south": "expands 0.25 deg",
+      "east": "expands 0.5 deg",
+      "north": "contracts 1.75 deg"
+     },
+     "area_change_pct": -86.2
+    }
+   ],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "kingdom-of-taqali",
+   "to_era": "restored-darfur-sultanate-ali-dinar",
+   "stream": "Sudan – Darfur & Kordofan",
+   "pairs": [],
+   "fade_out": [
+    "zone-kingdom-of-taqali-core-0"
+   ],
+   "fade_in": [
+    "zone-restored-darfur-sultanate-ali-dinar-core-0"
+   ]
+  },
+  {
+   "from_era": "khartoum-mesolithic-early-khartoum",
+   "to_era": "khartoum-neolithic-shaheinab",
+   "stream": "Sudan – Middle Nile",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "khartoum-neolithic-shaheinab",
+   "to_era": "a-group-lower-nubia",
+   "stream": "Sudan – Middle Nile",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": [
+    "zone-a-group-lower-nubia-influence-0"
+   ]
+  },
+  {
+   "from_era": "a-group-lower-nubia",
+   "to_era": "kingdom-of-kerma",
+   "stream": "Sudan – Middle Nile",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "a-group-lower-nubia",
+      "feature_id": "zone-a-group-lower-nubia-influence-0",
+      "feature_index": 1,
+      "zone": "influence",
+      "cites": [
+       {
+        "id": "GHA2_CH9",
+        "pages": "GHA II ch.9 pp.245, 249"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "kingdom-of-kerma",
+      "feature_id": "kingdom-of-kerma#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "KERMA_MISSION",
+        "pages": null
+       },
+       {
+        "id": "GHA2",
+        "pages": null
+       },
+       {
+        "id": "NATURAL_EARTH",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.01,
+     "shared_edge_km_approx": 4.4,
+     "changed_sides": {
+      "west": "expands 1.019 deg",
+      "south": "expands 2.353 deg",
+      "east": "expands 0.439 deg",
+      "north": "contracts 2.589 deg"
+     },
+     "area_change_pct": 23.0
+    }
+   ],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "kingdom-of-kerma",
+   "to_era": "c-group-lower-nubia",
+   "stream": "Sudan – Middle Nile",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "kingdom-of-kerma",
+      "feature_id": "kingdom-of-kerma#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "KERMA_MISSION",
+        "pages": null
+       },
+       {
+        "id": "GHA2",
+        "pages": null
+       },
+       {
+        "id": "NATURAL_EARTH",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "c-group-lower-nubia",
+      "feature_id": "zone-c-group-lower-nubia-influence-0",
+      "feature_index": 1,
+      "zone": "influence",
+      "cites": [
+       {
+        "id": "GHA2_CH9",
+        "pages": "GHA II ch.9 pp.251, 253–254"
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.01,
+     "shared_edge_km_approx": 4.5,
+     "changed_sides": {
+      "west": "contracts 1.019 deg",
+      "south": "contracts 2.353 deg",
+      "east": "contracts 0.439 deg",
+      "north": "expands 2.589 deg"
+     },
+     "area_change_pct": -18.7
+    }
+   ],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "c-group-lower-nubia",
+   "to_era": "egyptian-new-kingdom-rule-in-nubia",
+   "stream": "Sudan – Middle Nile",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "c-group-lower-nubia",
+      "feature_id": "zone-c-group-lower-nubia-influence-0",
+      "feature_index": 1,
+      "zone": "influence",
+      "cites": [
+       {
+        "id": "GHA2_CH9",
+        "pages": "GHA II ch.9 pp.251, 253–254"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "egyptian-new-kingdom-rule-in-nubia",
+      "feature_id": "zone-egyptian-new-kingdom-rule-in-nubia-core-0",
+      "feature_index": 3,
+      "zone": "core",
+      "cites": [
+       {
+        "id": "GHA2_CH9",
+        "pages": "GHA II ch.9 pp.267, 270"
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.244,
+     "shared_edge_km_approx": 23.1,
+     "changed_sides": {
+      "west": "expands 0.87 deg",
+      "south": "expands 3.527 deg",
+      "east": "contracts 0.058 deg",
+      "north": "contracts 0.053 deg"
+     },
+     "area_change_pct": 100.4
+    }
+   ],
+   "fade_out": [],
+   "fade_in": [
+    "zone-egyptian-new-kingdom-rule-in-nubia-claimed-1"
+   ]
+  },
+  {
+   "from_era": "egyptian-new-kingdom-rule-in-nubia",
+   "to_era": "kingdom-of-kush-napatan-period",
+   "stream": "Sudan – Middle Nile",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "egyptian-new-kingdom-rule-in-nubia",
+      "feature_id": "zone-egyptian-new-kingdom-rule-in-nubia-core-0",
+      "feature_index": 3,
+      "zone": "core",
+      "cites": [
+       {
+        "id": "GHA2_CH9",
+        "pages": "GHA II ch.9 pp.267, 270"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "kingdom-of-kush-napatan-period",
+      "feature_id": "kingdom-of-kush-napatan-period#1",
+      "feature_index": 1,
+      "zone": null,
+      "cites": [
+       {
+        "id": "KERMA_MISSION",
+        "pages": null
+       },
+       {
+        "id": "NATURAL_EARTH",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.29,
+     "shared_edge_km_approx": 44.1,
+     "changed_sides": {
+      "west": "expands 0.149 deg",
+      "south": "contracts 0.124 deg",
+      "east": "expands 0.931 deg",
+      "north": "contracts 2.557 deg"
+     },
+     "area_change_pct": 20.8
+    },
+    {
+     "from": {
+      "era_id": "egyptian-new-kingdom-rule-in-nubia",
+      "feature_id": "zone-egyptian-new-kingdom-rule-in-nubia-claimed-1",
+      "feature_index": 4,
+      "zone": "claimed",
+      "cites": [
+       {
+        "id": "DAVIES2003",
+        "pages": "Davies 2003 pp.23–37; GHA II pp.241, 261"
+       },
+       {
+        "id": "SARS_KURGUS",
+        "pages": "Davies 2003 pp.23–37; GHA II pp.241, 261"
+       },
+       {
+        "id": "GHA2_CH9",
+        "pages": "Davies 2003 pp.23–37; GHA II pp.241, 261"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "kingdom-of-kush-napatan-period",
+      "feature_id": "kingdom-of-kush-napatan-period#1",
+      "feature_index": 1,
+      "zone": null,
+      "cites": [
+       {
+        "id": "KERMA_MISSION",
+        "pages": null
+       },
+       {
+        "id": "NATURAL_EARTH",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.245,
+     "shared_edge_km_approx": 38.6,
+     "changed_sides": {
+      "west": "expands 1.57 deg",
+      "south": "expands 0.185 deg",
+      "east": "expands 0.346 deg",
+      "north": "expands 2.004 deg"
+     },
+     "area_change_pct": 295.2
+    }
+   ],
+   "fade_out": [],
+   "fade_in": [
+    "kingdom-of-kush-napatan-period#0"
+   ]
+  },
+  {
+   "from_era": "kingdom-of-kush-napatan-period",
+   "to_era": "kingdom-of-kush-meroitic-period",
+   "stream": "Sudan – Middle Nile",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "kingdom-of-kush-napatan-period",
+      "feature_id": "kingdom-of-kush-napatan-period#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "KERMA_MISSION",
+        "pages": null
+       },
+       {
+        "id": "GHA2",
+        "pages": null
+       },
+       {
+        "id": "ZH_EMB_HIST2020",
+        "pages": null
+       },
+       {
+        "id": "NATURAL_EARTH",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "kingdom-of-kush-meroitic-period",
+      "feature_id": "kingdom-of-kush-meroitic-period#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "GHA2",
+        "pages": null
+       },
+       {
+        "id": "NAGA_PROJ",
+        "pages": null
+       },
+       {
+        "id": "NATURAL_EARTH",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.613,
+     "shared_edge_km_approx": 2865.0,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "contracts 0.365 deg",
+      "east": "unchanged",
+      "north": "contracts 6.789 deg"
+     },
+     "area_change_pct": -36.2
+    },
+    {
+     "from": {
+      "era_id": "kingdom-of-kush-napatan-period",
+      "feature_id": "kingdom-of-kush-napatan-period#1",
+      "feature_index": 1,
+      "zone": null,
+      "cites": [
+       {
+        "id": "KERMA_MISSION",
+        "pages": null
+       },
+       {
+        "id": "NATURAL_EARTH",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "kingdom-of-kush-meroitic-period",
+      "feature_id": "kingdom-of-kush-meroitic-period#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "GHA2",
+        "pages": null
+       },
+       {
+        "id": "NAGA_PROJ",
+        "pages": null
+       },
+       {
+        "id": "NATURAL_EARTH",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.527,
+     "shared_edge_km_approx": 1509.7,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "expands 2.4 deg",
+      "east": "expands 0.218 deg",
+      "north": "expands 1.58 deg"
+     },
+     "area_change_pct": 89.3
+    }
+   ],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "kingdom-of-kush-meroitic-period",
+   "to_era": "noba-x-group-ballana-culture",
+   "stream": "Sudan – Middle Nile",
+   "pairs": [],
+   "fade_out": [
+    "kingdom-of-kush-meroitic-period#0"
+   ],
+   "fade_in": []
+  },
+  {
+   "from_era": "noba-x-group-ballana-culture",
+   "to_era": "nobadia",
+   "stream": "Sudan – Middle Nile",
+   "pairs": [],
+   "fade_out": [],
+   "fade_in": [
+    "nobadia#0"
+   ]
+  },
+  {
+   "from_era": "nobadia",
+   "to_era": "makuria",
+   "stream": "Sudan – Middle Nile",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "nobadia",
+      "feature_id": "nobadia#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "DERDA_LAJTAR2019",
+        "pages": null
+       },
+       {
+        "id": "NATURAL_EARTH",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "makuria",
+      "feature_id": "makuria#1",
+      "feature_index": 1,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2960090",
+        "pages": null
+       },
+       {
+        "id": "DERDA_LAJTAR2019",
+        "pages": null
+       },
+       {
+        "id": "GHA2_CH12",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.23,
+     "shared_edge_km_approx": 41.9,
+     "changed_sides": {
+      "west": "expands 1.306 deg",
+      "south": "expands 4.47 deg",
+      "east": "expands 0.544 deg",
+      "north": "contracts 0.58 deg"
+     },
+     "area_change_pct": 155.5
+    }
+   ],
+   "fade_out": [],
+   "fade_in": [
+    "makuria#0",
+    "makuria#2",
+    "makuria#3"
+   ]
+  },
+  {
+   "from_era": "makuria",
+   "to_era": "alodia-alwa",
+   "stream": "Sudan – Middle Nile",
+   "pairs": [],
+   "fade_out": [
+    "makuria#0",
+    "makuria#1",
+    "makuria#2",
+    "makuria#3"
+   ],
+   "fade_in": [
+    "zone-alodia-alwa-core-0",
+    "zone-alodia-alwa-claimed-1"
+   ]
+  },
+  {
+   "from_era": "alodia-alwa",
+   "to_era": "abdallab-chiefdom-funj-vassal",
+   "stream": "Sudan – Middle Nile",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "alodia-alwa",
+      "feature_id": "zone-alodia-alwa-core-0",
+      "feature_index": 1,
+      "zone": "core",
+      "cites": [
+       {
+        "id": "GHA4_CH16",
+        "pages": "GHA IV ch.16 p.418; Drzewiecki & Ryndziewicz 2019 abstract"
+       },
+       {
+        "id": "DRZEWIECKI_SOBA",
+        "pages": "GHA IV ch.16 p.418; Drzewiecki & Ryndziewicz 2019 abstract"
+       },
+       {
+        "id": "WELSBY2002",
+        "pages": "GHA IV ch.16 p.418; Drzewiecki & Ryndziewicz 2019 abstract"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "abdallab-chiefdom-funj-vassal",
+      "feature_id": "zone-abdallab-chiefdom-funj-vassal-core-0",
+      "feature_index": 1,
+      "zone": "core",
+      "cites": [
+       {
+        "id": "GHA5_CH7",
+        "pages": "GHA V ch.7 p.172"
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.124,
+     "shared_edge_km_approx": 5.6,
+     "changed_sides": {
+      "west": "contracts 0.151 deg",
+      "south": "contracts 2.2 deg",
+      "east": "contracts 1.128 deg",
+      "north": "expands 0.489 deg"
+     },
+     "area_change_pct": -76.1
+    },
+    {
+     "from": {
+      "era_id": "alodia-alwa",
+      "feature_id": "zone-alodia-alwa-claimed-1",
+      "feature_index": 2,
+      "zone": "claimed",
+      "cites": [
+       {
+        "id": "TSAKOS2011_ALWA",
+        "pages": "Tsakos 2011 p.240; GHA IV ch.16 pp.406, 418"
+       },
+       {
+        "id": "GHA4_CH16",
+        "pages": "Tsakos 2011 p.240; GHA IV ch.16 pp.406, 418"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "abdallab-chiefdom-funj-vassal",
+      "feature_id": "zone-abdallab-chiefdom-funj-vassal-influence-1",
+      "feature_index": 2,
+      "zone": "influence",
+      "cites": [
+       {
+        "id": "OFS1974",
+        "pages": "MSM1972 printed pp.149–151 (pdf pp.144–146)"
+       },
+       {
+        "id": "MSM1972",
+        "pages": "MSM1972 printed pp.149–151 (pdf pp.144–146)"
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.159,
+     "shared_edge_km_approx": 133.8,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "contracts 3.273 deg",
+      "east": "expands 2.6 deg",
+      "north": "expands 1.132 deg"
+     },
+     "area_change_pct": 116.8
+    }
+   ],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "abdallab-chiefdom-funj-vassal",
+   "to_era": "ja-aliyyin-kingdom-sa-dab-funj-vassal",
+   "stream": "Sudan – Middle Nile",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "abdallab-chiefdom-funj-vassal",
+      "feature_id": "zone-abdallab-chiefdom-funj-vassal-influence-1",
+      "feature_index": 2,
+      "zone": "influence",
+      "cites": [
+       {
+        "id": "OFS1974",
+        "pages": "MSM1972 printed pp.149–151 (pdf pp.144–146)"
+       },
+       {
+        "id": "MSM1972",
+        "pages": "MSM1972 printed pp.149–151 (pdf pp.144–146)"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "ja-aliyyin-kingdom-sa-dab-funj-vassal",
+      "feature_id": "zone-ja-aliyyin-kingdom-sa-dab-funj-vassal-core-0",
+      "feature_index": 2,
+      "zone": "core",
+      "cites": [
+       {
+        "id": "GHA5_CH7",
+        "pages": "GHA V ch.7 p.183"
+       },
+       {
+        "id": "HD2011",
+        "pages": "GHA V ch.7 p.183"
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.071,
+     "shared_edge_km_approx": 0.0,
+     "changed_sides": {
+      "west": "contracts 0.771 deg",
+      "south": "contracts 1.441 deg",
+      "east": "contracts 3.121 deg",
+      "north": "contracts 1.959 deg"
+     },
+     "area_change_pct": -92.9
+    }
+   ],
+   "fade_out": [
+    "zone-abdallab-chiefdom-funj-vassal-core-0"
+   ],
+   "fade_in": []
+  },
+  {
+   "from_era": "ja-aliyyin-kingdom-sa-dab-funj-vassal",
+   "to_era": "funj-sultanate-of-sennar",
+   "stream": "Sudan – Middle Nile",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "ja-aliyyin-kingdom-sa-dab-funj-vassal",
+      "feature_id": "zone-ja-aliyyin-kingdom-sa-dab-funj-vassal-core-0",
+      "feature_index": 2,
+      "zone": "core",
+      "cites": [
+       {
+        "id": "GHA5_CH7",
+        "pages": "GHA V ch.7 p.183"
+       },
+       {
+        "id": "HD2011",
+        "pages": "GHA V ch.7 p.183"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "funj-sultanate-of-sennar",
+      "feature_id": "zone-funj-sultanate-of-sennar-claimed-1",
+      "feature_index": 6,
+      "zone": "claimed",
+      "cites": [
+       {
+        "id": "GHA5_CH7",
+        "pages": "GHA V ch.7 pp.172, 177, 187; HD2011 intro p.8; MSM1972 printed pp.150–151, 279"
+       },
+       {
+        "id": "OFS1974",
+        "pages": "GHA V ch.7 pp.172, 177, 187; HD2011 intro p.8; MSM1972 printed pp.150–151, 279"
+       },
+       {
+        "id": "HD2011",
+        "pages": "GHA V ch.7 pp.172, 177, 187; HD2011 intro p.8; MSM1972 printed pp.150–151, 279"
+       },
+       {
+        "id": "MSM1972",
+        "pages": "GHA V ch.7 pp.172, 177, 187; HD2011 intro p.8; MSM1972 printed pp.150–151, 279"
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.116,
+     "shared_edge_km_approx": 26.0,
+     "changed_sides": {
+      "west": "expands 4.451 deg",
+      "south": "expands 4.167 deg",
+      "east": "expands 0.065 deg",
+      "north": "expands 1.909 deg"
+     },
+     "area_change_pct": 733.4
+    }
+   ],
+   "fade_out": [],
+   "fade_in": [
+    "zone-funj-sultanate-of-sennar-core-0"
+   ]
+  },
+  {
+   "from_era": "funj-sultanate-of-sennar",
+   "to_era": "turkiyya-ottoman-egyptian-rule",
+   "stream": "Sudan – Middle Nile",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "funj-sultanate-of-sennar",
+      "feature_id": "zone-funj-sultanate-of-sennar-core-0",
+      "feature_index": 5,
+      "zone": "core",
+      "cites": [
+       {
+        "id": "GHA4_CH16",
+        "pages": "GHA IV ch.16 p.406"
+       },
+       {
+        "id": "OFS1974",
+        "pages": "GHA IV ch.16 p.406"
+       },
+       {
+        "id": "HD2011",
+        "pages": "GHA IV ch.16 p.406"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "turkiyya-ottoman-egyptian-rule",
+      "feature_id": "turkiyya-ottoman-egyptian-rule#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2690845",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "EXT_HDX_CODAB",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.043,
+     "shared_edge_km_approx": 0.0,
+     "changed_sides": {
+      "west": "expands 9.63 deg",
+      "south": "expands 6.99 deg",
+      "east": "expands 3.877 deg",
+      "north": "expands 5.845 deg"
+     },
+     "area_change_pct": 2214.9
+    },
+    {
+     "from": {
+      "era_id": "funj-sultanate-of-sennar",
+      "feature_id": "zone-funj-sultanate-of-sennar-claimed-1",
+      "feature_index": 6,
+      "zone": "claimed",
+      "cites": [
+       {
+        "id": "GHA5_CH7",
+        "pages": "GHA V ch.7 pp.172, 177, 187; HD2011 intro p.8; MSM1972 printed pp.150–151, 279"
+       },
+       {
+        "id": "OFS1974",
+        "pages": "GHA V ch.7 pp.172, 177, 187; HD2011 intro p.8; MSM1972 printed pp.150–151, 279"
+       },
+       {
+        "id": "HD2011",
+        "pages": "GHA V ch.7 pp.172, 177, 187; HD2011 intro p.8; MSM1972 printed pp.150–151, 279"
+       },
+       {
+        "id": "MSM1972",
+        "pages": "GHA V ch.7 pp.172, 177, 187; HD2011 intro p.8; MSM1972 printed pp.150–151, 279"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "turkiyya-ottoman-egyptian-rule",
+      "feature_id": "turkiyya-ottoman-egyptian-rule#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2690845",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "EXT_HDX_CODAB",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.054,
+     "shared_edge_km_approx": 0.0,
+     "changed_sides": {
+      "west": "expands 6.198 deg",
+      "south": "expands 7.785 deg",
+      "east": "expands 4.579 deg",
+      "north": "expands 2.216 deg"
+     },
+     "area_change_pct": 1752.8
+    }
+   ],
+   "fade_out": [],
+   "fade_in": [
+    "turkiyya-ottoman-egyptian-rule#1"
+   ]
+  },
+  {
+   "from_era": "turkiyya-ottoman-egyptian-rule",
+   "to_era": "mahdist-state-mahdiyya",
+   "stream": "Sudan – Middle Nile",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "turkiyya-ottoman-egyptian-rule",
+      "feature_id": "turkiyya-ottoman-egyptian-rule#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2690845",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "EXT_HDX_CODAB",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "mahdist-state-mahdiyya",
+      "feature_id": "mahdist-state-mahdiyya#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "GHA7_CH4",
+        "pages": null
+       },
+       {
+        "id": "EXT_HDX_CODAB",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "cross_fade",
+     "iou": 0.171,
+     "shared_edge_km_approx": 1051.3,
+     "changed_sides": {
+      "west": "expands 0.488 deg",
+      "south": "contracts 4.426 deg",
+      "east": "contracts 4.472 deg",
+      "north": "contracts 2.024 deg"
+     },
+     "area_change_pct": -47.3
+    },
+    {
+     "from": {
+      "era_id": "turkiyya-ottoman-egyptian-rule",
+      "feature_id": "turkiyya-ottoman-egyptian-rule#1",
+      "feature_index": 1,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2690845",
+        "pages": null
+       },
+       {
+        "id": "GHA6_CH14",
+        "pages": null
+       },
+       {
+        "id": "EXT_HDX_CODAB",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "mahdist-state-mahdiyya",
+      "feature_id": "mahdist-state-mahdiyya#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "GHA7_CH4",
+        "pages": null
+       },
+       {
+        "id": "EXT_HDX_CODAB",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.399,
+     "shared_edge_km_approx": 2234.6,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "contracts 4.426 deg",
+      "east": "contracts 4.472 deg",
+      "north": "contracts 2.024 deg"
+     },
+     "area_change_pct": -59.4
+    }
+   ],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "mahdist-state-mahdiyya",
+   "to_era": "anglo-egyptian-sudan-condominium",
+   "stream": "Sudan – Middle Nile",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "mahdist-state-mahdiyya",
+      "feature_id": "mahdist-state-mahdiyya#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "GHA7_CH4",
+        "pages": null
+       },
+       {
+        "id": "EXT_HDX_CODAB",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "anglo-egyptian-sudan-condominium",
+      "feature_id": "anglo-egyptian-sudan-condominium#5",
+      "feature_index": 5,
+      "zone": null,
+      "cites": [
+       {
+        "id": "OHM_2803203",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.358,
+     "shared_edge_km_approx": 1747.9,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "expands 5.141 deg",
+      "east": "expands 4.472 deg",
+      "north": "expands 3.236 deg"
+     },
+     "area_change_pct": 179.1
+    }
+   ],
+   "fade_out": [],
+   "fade_in": [
+    "anglo-egyptian-sudan-condominium#0",
+    "anglo-egyptian-sudan-condominium#1",
+    "anglo-egyptian-sudan-condominium#2",
+    "anglo-egyptian-sudan-condominium#3",
+    "anglo-egyptian-sudan-condominium#4"
+   ]
+  },
+  {
+   "from_era": "independent-sudan-first-parliamentary-period",
+   "to_era": "abboud-military-regime",
+   "stream": "Sudan – Republic",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "independent-sudan-first-parliamentary-period",
+      "feature_id": "independent-sudan-first-parliamentary-period#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "abboud-military-regime",
+      "feature_id": "abboud-military-regime#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.992,
+     "shared_edge_km_approx": 8771.4,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "contracts 1.031 deg"
+     },
+     "area_change_pct": -0.8
+    }
+   ],
+   "fade_out": [],
+   "fade_in": [
+    "abboud-military-regime#1"
+   ]
+  },
+  {
+   "from_era": "abboud-military-regime",
+   "to_era": "second-parliamentary-period",
+   "stream": "Sudan – Republic",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "abboud-military-regime",
+      "feature_id": "abboud-military-regime#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "second-parliamentary-period",
+      "feature_id": "second-parliamentary-period#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.992,
+     "shared_edge_km_approx": 7916.4,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "expands 0.199 deg",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.8
+    },
+    {
+     "from": {
+      "era_id": "abboud-military-regime",
+      "feature_id": "abboud-military-regime#1",
+      "feature_index": 1,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "second-parliamentary-period",
+      "feature_id": "second-parliamentary-period#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 8609.6,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    }
+   ],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "second-parliamentary-period",
+   "to_era": "nimeiry-era-democratic-republic-of-sudan",
+   "stream": "Sudan – Republic",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "second-parliamentary-period",
+      "feature_id": "second-parliamentary-period#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "nimeiry-era-democratic-republic-of-sudan",
+      "feature_id": "nimeiry-era-democratic-republic-of-sudan#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 8609.6,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    }
+   ],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "nimeiry-era-democratic-republic-of-sudan",
+   "to_era": "transitional-third-parliamentary-period",
+   "stream": "Sudan – Republic",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "nimeiry-era-democratic-republic-of-sudan",
+      "feature_id": "nimeiry-era-democratic-republic-of-sudan#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "transitional-third-parliamentary-period",
+      "feature_id": "transitional-third-parliamentary-period#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 8609.6,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    }
+   ],
+   "fade_out": [],
+   "fade_in": []
+  },
+  {
+   "from_era": "transitional-third-parliamentary-period",
+   "to_era": "al-bashir-ncp-ingaz-regime",
+   "stream": "Sudan – Republic",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "transitional-third-parliamentary-period",
+      "feature_id": "transitional-third-parliamentary-period#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "al-bashir-ncp-ingaz-regime",
+      "feature_id": "al-bashir-ncp-ingaz-regime#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 8609.6,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    }
+   ],
+   "fade_out": [],
+   "fade_in": [
+    "al-bashir-ncp-ingaz-regime#1",
+    "al-bashir-ncp-ingaz-regime#4",
+    "al-bashir-ncp-ingaz-regime#5"
+   ]
+  },
+  {
+   "from_era": "al-bashir-ncp-ingaz-regime",
+   "to_era": "december-revolution-transition",
+   "stream": "Sudan – Republic",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "al-bashir-ncp-ingaz-regime",
+      "feature_id": "al-bashir-ncp-ingaz-regime#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "december-revolution-transition",
+      "feature_id": "december-revolution-transition#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "morph",
+     "iou": 0.751,
+     "shared_edge_km_approx": 5581.6,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "contracts 5.182 deg",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": -24.9
+    },
+    {
+     "from": {
+      "era_id": "al-bashir-ncp-ingaz-regime",
+      "feature_id": "al-bashir-ncp-ingaz-regime#1",
+      "feature_index": 1,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "december-revolution-transition",
+      "feature_id": "december-revolution-transition#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 7611.2,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    },
+    {
+     "from": {
+      "era_id": "al-bashir-ncp-ingaz-regime",
+      "feature_id": "al-bashir-ncp-ingaz-regime#4",
+      "feature_index": 4,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_NE_DISPUTED",
+        "pages": "2–5"
+       },
+       {
+        "id": "IBS18_1962",
+        "pages": "2–5"
+       },
+       {
+        "id": "UN S/3963 (Sudan to the UN Secretary-General, 20 Feb 1958), quoted via EGYPIL",
+        "pages": "2–5"
+       },
+       {
+        "id": "EGYPIL: M. Hamad, \"The Situation in the Halaib Triangle – Timeline\" (6 Feb 2026), https://www.egypil.org/print/75",
+        "pages": "2–5"
+       },
+       {
+        "id": "Les Echos, \"Le Soudan et l'Egypte à couteaux tirés\" (Jun 1995)",
+        "pages": "2–5"
+       },
+       {
+        "id": "Carnegie Endowment, \"The Egypt-Sudan Border: A Story of Unfulfilled Promise\" (Jan 2021)",
+        "pages": "2–5"
+       },
+       {
+        "id": "Al Jazeera Net Encyclopedia, \"حلايب\" (14 Nov 2014)",
+        "pages": "2–5"
+       },
+       {
+        "id": "Al Nilin (alnilin.com/983231.htm, Sudanese outlet)",
+        "pages": "2–5"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "december-revolution-transition",
+      "feature_id": "december-revolution-transition#3",
+      "feature_index": 3,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_NE_DISPUTED",
+        "pages": "2–5"
+       },
+       {
+        "id": "IBS18_1962",
+        "pages": "2–5"
+       },
+       {
+        "id": "UN S/3963 (Sudan to the UN Secretary-General, 20 Feb 1958), quoted via EGYPIL",
+        "pages": "2–5"
+       },
+       {
+        "id": "EGYPIL: M. Hamad, \"The Situation in the Halaib Triangle – Timeline\" (6 Feb 2026), https://www.egypil.org/print/75",
+        "pages": "2–5"
+       },
+       {
+        "id": "Les Echos, \"Le Soudan et l'Egypte à couteaux tirés\" (Jun 1995)",
+        "pages": "2–5"
+       },
+       {
+        "id": "Carnegie Endowment, \"The Egypt-Sudan Border: A Story of Unfulfilled Promise\" (Jan 2021)",
+        "pages": "2–5"
+       },
+       {
+        "id": "Al Jazeera Net Encyclopedia, \"حلايب\" (14 Nov 2014)",
+        "pages": "2–5"
+       },
+       {
+        "id": "Al Nilin (alnilin.com/983231.htm, Sudanese outlet)",
+        "pages": "2–5"
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 812.4,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    },
+    {
+     "from": {
+      "era_id": "al-bashir-ncp-ingaz-regime",
+      "feature_id": "al-bashir-ncp-ingaz-regime#5",
+      "feature_index": 5,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_NE_DISPUTED",
+        "pages": "2–5"
+       },
+       {
+        "id": "IBS18_1962",
+        "pages": "2–5"
+       },
+       {
+        "id": "UN S/3963 (Sudan to the UN Secretary-General, 20 Feb 1958), quoted via EGYPIL",
+        "pages": "2–5"
+       },
+       {
+        "id": "EGYPIL: M. Hamad, \"The Situation in the Halaib Triangle – Timeline\" (6 Feb 2026), https://www.egypil.org/print/75",
+        "pages": "2–5"
+       },
+       {
+        "id": "Les Echos, \"Le Soudan et l'Egypte à couteaux tirés\" (Jun 1995)",
+        "pages": "2–5"
+       },
+       {
+        "id": "Carnegie Endowment, \"The Egypt-Sudan Border: A Story of Unfulfilled Promise\" (Jan 2021)",
+        "pages": "2–5"
+       },
+       {
+        "id": "Al Jazeera Net Encyclopedia, \"حلايب\" (14 Nov 2014)",
+        "pages": "2–5"
+       },
+       {
+        "id": "Al Nilin (alnilin.com/983231.htm, Sudanese outlet)",
+        "pages": "2–5"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "december-revolution-transition",
+      "feature_id": "december-revolution-transition#3",
+      "feature_index": 3,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_NE_DISPUTED",
+        "pages": "2–5"
+       },
+       {
+        "id": "IBS18_1962",
+        "pages": "2–5"
+       },
+       {
+        "id": "UN S/3963 (Sudan to the UN Secretary-General, 20 Feb 1958), quoted via EGYPIL",
+        "pages": "2–5"
+       },
+       {
+        "id": "EGYPIL: M. Hamad, \"The Situation in the Halaib Triangle – Timeline\" (6 Feb 2026), https://www.egypil.org/print/75",
+        "pages": "2–5"
+       },
+       {
+        "id": "Les Echos, \"Le Soudan et l'Egypte à couteaux tirés\" (Jun 1995)",
+        "pages": "2–5"
+       },
+       {
+        "id": "Carnegie Endowment, \"The Egypt-Sudan Border: A Story of Unfulfilled Promise\" (Jan 2021)",
+        "pages": "2–5"
+       },
+       {
+        "id": "Al Jazeera Net Encyclopedia, \"حلايب\" (14 Nov 2014)",
+        "pages": "2–5"
+       },
+       {
+        "id": "Al Nilin (alnilin.com/983231.htm, Sudanese outlet)",
+        "pages": "2–5"
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 812.4,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    }
+   ],
+   "fade_out": [],
+   "fade_in": [
+    "december-revolution-transition#4"
+   ]
+  },
+  {
+   "from_era": "december-revolution-transition",
+   "to_era": "war-in-sudan-saf-vs-rsf",
+   "stream": "Sudan – Republic",
+   "pairs": [
+    {
+     "from": {
+      "era_id": "december-revolution-transition",
+      "feature_id": "december-revolution-transition#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "to": {
+      "era_id": "war-in-sudan-saf-vs-rsf",
+      "feature_id": "war-in-sudan-saf-vs-rsf#0",
+      "feature_index": 0,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_OHM",
+        "pages": null
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 7611.2,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    },
+    {
+     "from": {
+      "era_id": "december-revolution-transition",
+      "feature_id": "december-revolution-transition#3",
+      "feature_index": 3,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_NE_DISPUTED",
+        "pages": "2–5"
+       },
+       {
+        "id": "IBS18_1962",
+        "pages": "2–5"
+       },
+       {
+        "id": "UN S/3963 (Sudan to the UN Secretary-General, 20 Feb 1958), quoted via EGYPIL",
+        "pages": "2–5"
+       },
+       {
+        "id": "EGYPIL: M. Hamad, \"The Situation in the Halaib Triangle – Timeline\" (6 Feb 2026), https://www.egypil.org/print/75",
+        "pages": "2–5"
+       },
+       {
+        "id": "Les Echos, \"Le Soudan et l'Egypte à couteaux tirés\" (Jun 1995)",
+        "pages": "2–5"
+       },
+       {
+        "id": "Carnegie Endowment, \"The Egypt-Sudan Border: A Story of Unfulfilled Promise\" (Jan 2021)",
+        "pages": "2–5"
+       },
+       {
+        "id": "Al Jazeera Net Encyclopedia, \"حلايب\" (14 Nov 2014)",
+        "pages": "2–5"
+       },
+       {
+        "id": "Al Nilin (alnilin.com/983231.htm, Sudanese outlet)",
+        "pages": "2–5"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "war-in-sudan-saf-vs-rsf",
+      "feature_id": "war-in-sudan-saf-vs-rsf#3",
+      "feature_index": 3,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_NE_DISPUTED",
+        "pages": "2–5"
+       },
+       {
+        "id": "IBS18_1962",
+        "pages": "2–5"
+       },
+       {
+        "id": "UN S/3963 (Sudan to the UN Secretary-General, 20 Feb 1958), quoted via EGYPIL",
+        "pages": "2–5"
+       },
+       {
+        "id": "EGYPIL: M. Hamad, \"The Situation in the Halaib Triangle – Timeline\" (6 Feb 2026), https://www.egypil.org/print/75",
+        "pages": "2–5"
+       },
+       {
+        "id": "Les Echos, \"Le Soudan et l'Egypte à couteaux tirés\" (Jun 1995)",
+        "pages": "2–5"
+       },
+       {
+        "id": "Carnegie Endowment, \"The Egypt-Sudan Border: A Story of Unfulfilled Promise\" (Jan 2021)",
+        "pages": "2–5"
+       },
+       {
+        "id": "Al Jazeera Net Encyclopedia, \"حلايب\" (14 Nov 2014)",
+        "pages": "2–5"
+       },
+       {
+        "id": "Al Nilin (alnilin.com/983231.htm, Sudanese outlet)",
+        "pages": "2–5"
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 812.4,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    },
+    {
+     "from": {
+      "era_id": "december-revolution-transition",
+      "feature_id": "december-revolution-transition#4",
+      "feature_index": 4,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_NE_DISPUTED",
+        "pages": "2–5"
+       },
+       {
+        "id": "IBS18_1962",
+        "pages": "2–5"
+       }
+      ]
+     },
+     "to": {
+      "era_id": "war-in-sudan-saf-vs-rsf",
+      "feature_id": "war-in-sudan-saf-vs-rsf#4",
+      "feature_index": 4,
+      "zone": null,
+      "cites": [
+       {
+        "id": "EXT_NE_DISPUTED",
+        "pages": "2–5"
+       },
+       {
+        "id": "IBS18_1962",
+        "pages": "2–5"
+       }
+      ]
+     },
+     "mode": "hold",
+     "iou": 1.0,
+     "shared_edge_km_approx": 221.4,
+     "changed_sides": {
+      "west": "unchanged",
+      "south": "unchanged",
+      "east": "unchanged",
+      "north": "unchanged"
+     },
+     "area_change_pct": 0.0
+    }
+   ],
+   "fade_out": [],
+   "fade_in": []
+  }
+ ]
+}
