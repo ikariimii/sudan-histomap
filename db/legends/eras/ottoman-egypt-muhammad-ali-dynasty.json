@@ -1479,6 +1479,21 @@
    "popup_text_only": null,
    "display_hint": "no known flag",
    "null_reason": "No flag verified for this polity. Commons designs found were not checked against an attested source, so per policy no design is shown."
+  },
+  "economy": {
+   "file": "db/era_economy.json",
+   "rating": "unknown",
+   "symbol_class": "economy_unknown",
+   "badges": [],
+   "editorial_marker": false,
+   "rating_basis_en": {
+    "value": "No source read rates this era's economy.",
+    "cite": null,
+    "badges": [
+     "NO-SOURCE"
+    ]
+   },
+   "cite": null
   }
  },
  "symbol_classes_present": [
@@ -1490,6 +1505,7 @@
   "city_religious",
   "city_town",
   "control_extent_approx",
+  "economy_unknown",
   "low_confidence"
  ],
  "badges_present": [
@@ -1512,6 +1528,7 @@
   "city_religious": 5,
   "city_town": 4,
   "control_extent_approx": 4,
+  "economy_unknown": 1,
   "low_confidence": 4,
   "extent_features": 4,
   "group_features": 0,

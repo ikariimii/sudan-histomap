@@ -830,6 +830,21 @@
    "popup_text_only": null,
    "display_hint": "no known flag",
    "null_reason": "No documented flag. Pre-modern state, culture or community; Commons designs for it would be modern reconstructions or fantasy flags."
+  },
+  "economy": {
+   "file": "db/era_economy.json",
+   "rating": "unknown",
+   "symbol_class": "economy_unknown",
+   "badges": [],
+   "editorial_marker": false,
+   "rating_basis_en": {
+    "value": "No source read rates this era's economy.",
+    "cite": null,
+    "badges": [
+     "NO-SOURCE"
+    ]
+   },
+   "cite": null
   }
  },
  "symbol_classes_present": [
@@ -839,6 +854,7 @@
   "city_political_centre",
   "city_port",
   "city_religious",
+  "economy_unknown",
   "extent_label_point"
  ],
  "badges_present": [
@@ -857,6 +873,7 @@
   "city_political_centre": 1,
   "city_port": 2,
   "city_religious": 4,
+  "economy_unknown": 1,
   "extent_label_point": 1,
   "extent_features": 1,
   "group_features": 0,

@@ -32,11 +32,29 @@
    "popup_text_only": null,
    "display_hint": "no known flag",
    "null_reason": "No documented flag. Pre-modern state, culture or community; Commons designs for it would be modern reconstructions or fantasy flags."
+  },
+  "economy": {
+   "file": "db/era_economy.json",
+   "rating": "unknown",
+   "symbol_class": "economy_unknown",
+   "badges": [],
+   "editorial_marker": false,
+   "rating_basis_en": {
+    "value": "No source read rates this era's economy.",
+    "cite": null,
+    "badges": [
+     "NO-SOURCE"
+    ]
+   },
+   "cite": null
   }
  },
- "symbol_classes_present": [],
+ "symbol_classes_present": [
+  "economy_unknown"
+ ],
  "badges_present": [],
  "counts": {
+  "economy_unknown": 1,
   "extent_features": 0,
   "group_features": 0,
   "cities": 0
@@ -51,8 +69,7 @@
    "مستوطنات صيد الأسماك والقنص على ضفاف النيل قرب الخرطوم"
   ],
   "key_events_source_ids": [
-   "AAR2021",
-   "WP:Early_Khartoum"
+   "AAR2021"
   ],
   "dating_note": "Corrected -8000/-4900 -> c.8500–5000 cal BC for Early Khartoum ceramics of central Sudan (Garcea/Jesse et al., African Archaeological Review 2021 review). Northern 'Khartoum Variant' is c.8000–4900 cal BC. Site point = city-level approximation.",
   "capitals": [

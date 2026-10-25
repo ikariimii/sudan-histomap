@@ -1772,6 +1772,15 @@
    "popup_text_only": null,
    "display_hint": "no known flag",
    "null_reason": "No regional flag; the southern region used no symbols of its own at independence (Britannica, flag of South Sudan). The 1990s banner was a movement flag and is not shown, per the armed-group rule."
+  },
+  "economy": {
+   "file": "db/era_economy.json",
+   "rating": "unknown",
+   "symbol_class": "economy_unknown",
+   "badges": [],
+   "editorial_marker": false,
+   "rating_basis_en": null,
+   "cite": null
   }
  },
  "symbol_classes_present": [
@@ -1784,7 +1793,8 @@
   "city_town",
   "city_trade",
   "contested_point",
-  "control_extent_approx"
+  "control_extent_approx",
+  "economy_unknown"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1806,6 +1816,7 @@
   "city_trade": 1,
   "contested_point": 3,
   "control_extent_approx": 4,
+  "economy_unknown": 1,
   "extent_features": 7,
   "group_features": 0,
   "cities": 50

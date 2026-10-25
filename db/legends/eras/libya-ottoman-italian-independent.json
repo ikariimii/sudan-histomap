@@ -2001,6 +2001,15 @@
    "popup_text_only": null,
    "display_hint": "flag",
    "null_reason": null
+  },
+  "economy": {
+   "file": "db/era_economy.json",
+   "rating": "unknown",
+   "symbol_class": "economy_unknown",
+   "badges": [],
+   "editorial_marker": false,
+   "rating_basis_en": null,
+   "cite": null
   }
  },
  "symbol_classes_present": [
@@ -2015,6 +2024,7 @@
   "contested_point",
   "control_extent",
   "control_extent_approx",
+  "economy_unknown",
   "extent_label_point",
   "flag",
   "list_only_text",
@@ -2043,6 +2053,7 @@
   "contested_point": 1,
   "control_extent": 3,
   "control_extent_approx": 2,
+  "economy_unknown": 1,
   "extent_label_point": 2,
   "flag": 1,
   "list_only_text": 1,

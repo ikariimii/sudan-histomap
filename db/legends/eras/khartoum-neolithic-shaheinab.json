@@ -75,9 +75,25 @@
    "popup_text_only": null,
    "display_hint": "no known flag",
    "null_reason": "No documented flag. Pre-modern state, culture or community; Commons designs for it would be modern reconstructions or fantasy flags."
+  },
+  "economy": {
+   "file": "db/era_economy.json",
+   "rating": "unknown",
+   "symbol_class": "economy_unknown",
+   "badges": [],
+   "editorial_marker": false,
+   "rating_basis_en": {
+    "value": "No source read rates this era's economy.",
+    "cite": null,
+    "badges": [
+     "NO-SOURCE"
+    ]
+   },
+   "cite": null
   }
  },
  "symbol_classes_present": [
+  "economy_unknown",
   "extent_label_point"
  ],
  "badges_present": [
@@ -85,6 +101,7 @@
   "SINGLE-SOURCE"
  ],
  "counts": {
+  "economy_unknown": 1,
   "extent_label_point": 2,
   "extent_features": 2,
   "group_features": 0,
@@ -99,8 +116,7 @@
   ],
   "key_events_source_ids": [
    "WD:Q109284524",
-   "WD:Q109284535",
-   "WP:Khartoum_Neolithic"
+   "WD:Q109284535"
   ],
   "dating_note": "Approximate; site coordinates from Wikidata (Esh-Shaheinab corrected from 16.13N). Kadero added as second Khartoum Neolithic site (coordinates approximate, Wikidata).",
   "capitals": [
