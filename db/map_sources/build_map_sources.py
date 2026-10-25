@@ -118,13 +118,17 @@ def sides(a, b):
         d = round((b.bounds[i] - a.bounds[i]) * s, 3)
         out[n] = 'unchanged' if abs(d) < 0.01 else ('expands' if d > 0 else 'contracts') + f' {abs(d)} deg'
     return out
+EXCLUDE_CITES = {'mamluk-sultanate': ('WP_MAKURIA', 'WP_MAKURIA_2026')}
+EXCLUDE_NOTE = 'WP_MAKURIA and WP_MAKURIA_2026 (same Wikipedia Makuria article) excluded from mamluk-sultanate transition cites: the Makuria post-1276 reach (Lower Nubia to Kordofan under Siti) and the Abu Hamad anchor are unsourced and removed. The OHM Mamluk polygons are reference only; they stop at c.19.9N and do not draw the Makuria reach, so no pair or shape part depended on it and geometry is unchanged. Makuria 1276-1364 rests on SFDAS_HCS2017 p.419 only (vassalage, cession of whole provinces), with no drawn limit.'
 def transitions(eras, shapes):
     order = sorted(eras, key=lambda e: (eras[e]['stream'], eras[e]['start'], eras[e]['end']))
     out, pairs = [], 0
     for a, b in zip(order, order[1:]):
         if eras[a]['stream'] != eras[b]['stream']: continue
         A, B = shapes.get(a, []), shapes.get(b, []); used = set(); prs = []
-        cite = lambda e, k: next(x['cites'] for x in eras[e]['shapes'] if x['layer'] == 'extents' and x['feature_index'] == k)
+        cite0 = lambda e, k: next(x['cites'] for x in eras[e]['shapes'] if x['layer'] == 'extents' and x['feature_index'] == k)
+        # Makuria after 1276: the Kordofan reach / Abu Hamad anchor are unsourced (only WP_MAKURIA); excluded per Innovation Manager ruling.
+        cite = lambda e, k: [c for c in cite0(e, k) if c['id'] not in EXCLUDE_CITES.get(e, ())]
         for fa, ka, pa, ga in A:
             best = None
             for fb, kb, pb, gb in B:
@@ -150,6 +154,7 @@ def transitions(eras, shapes):
             'era_order': 'data/periods.json, consecutive eras in the same stream sorted by start, end (same as db/legends what_changed)',
             'rules': 'Pairs only live db/extents polygons; no new geometry. Each from-polygon is paired with the next-era polygon of highest overlap (IoU). mode: hold (identical), morph (IoU >= 0.3), cross_fade (overlap but IoU < 0.3). Non-overlapping shapes go to fade_out / fade_in. shared_edge_km_approx and changed_sides are display aids computed from the two live geometries (bbox side deltas), not sourced limits.',
             'overlay_maps_file': 'db/border_overlay_maps.json (maps listed in db/map_sources.json checked_against per shape)',
+            'exclusions': {'cites': {k: list(v) for k, v in EXCLUDE_CITES.items()}, 'note': EXCLUDE_NOTE},
             'totals': {'era_steps': len(out), 'pairs': pairs}}
     json.dump({'meta': meta, 'transitions': out}, open(os.path.join(R, 'db/border_transitions.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('transitions:', meta['totals'])

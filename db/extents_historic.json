@@ -356,33 +356,23 @@
      "year_to": 1364,
      "label": "Mamluk vassal kingdom",
      "confidence": "low",
-     "reach_en": "Wikipedia (flagged): after 1276 Makuria became a Mamluk vassal and had to 'transfer Lower Nubia to Baybars', though this 'was probably never put into action'; under king Siti (c.1330s) Nubian sources run 'from Lower Nubia to Kordofan' (WP_MAKURIA citing Seignobos 2018, Ruffini 2012 pp.253–254). The Alodia border was 'somewhere between Abu Hamad and the Nile-Atbara confluence' (WP citing Welsby 2014) – for the earlier kingdom, not dated to this window. No scholarly text read by us. SFDAS_HCS2017 p.419 (read via the Analyst's checklist quote) supports only the 1276 vassalage: the Mamluk army 'poussa jusqu’à Dongola en 1276', restored king Shékanda and imposed 'un lourd tribut et la cession de provinces entières'. The Siti 'Lower Nubia to Kordofan' reach and the Abu Hamad anchor remain Wikipedia-only (flagged).",
+     "reach_en": "SFDAS_HCS2017 p.419: after the Mamluk army 'poussa jusqu’à Dongola en 1276', it restored king Shékanda and imposed 'un lourd tribut et la cession de provinces entières' (Makuria became a Mamluk vassal and lost whole provinces). No source we have read in full gives a territorial reach or southern limit for 1276–1364, so none is drawn or stated.",
      "anchors": [
       {
        "name": "Old Dongola",
        "lat": 18.2231,
        "lon": 30.7439,
        "source_ids": [
-        "SFDAS_HCS2017",
-        "WP_MAKURIA"
+        "SFDAS_HCS2017"
        ],
        "coord_source": "Wikidata Q433112",
        "pages": "SFDAS_HCS2017 p.419"
-      },
-      {
-       "name": "Abu Hamad (approx. southern border zone)",
-       "lat": 19.5375,
-       "lon": 33.3275,
-       "source_ids": [
-        "WP_MAKURIA"
-       ],
-       "coord_source": "Wikidata Q2439710"
       }
      ],
      "sources": [
-      "SFDAS_HCS2017",
-      "WP_MAKURIA"
-     ]
+      "SFDAS_HCS2017"
+     ],
+     "pages": "SFDAS_HCS2017 p.419"
     },
     {
      "year_from": 1365,
