@@ -1,0 +1,2122 @@
+{
+ "meta": {
+  "status": "DRAFT, not committed",
+  "built": "2026-10-24",
+  "keyed_by": "db/cities_ids.txt",
+  "rules": "no invented numbers; Sudan & South Sudan 2008 census CONTESTED; war_status = displacement/damage/siege as reported only, no territorial-control claims",
+  "known_gaps": [
+   "UN WUP2018 agglomeration figures not yet added (file unreachable)",
+   "census figures taken via citypopulation.de secondary compilation; page refs to original census volumes pending"
+  ]
+ },
+ "cities": {
+  "khartoum": {
+   "id": "khartoum",
+   "name_en": "Khartoum",
+   "name_ar": "الخرطوم",
+   "country": "SD",
+   "wikidata": "Q1963",
+   "wikidata_check": {
+    "label_en": "Khartoum",
+    "description": "capital city of Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 1410858,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Al-Kharṭūm [ Khartoum ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "UN DESA WUP2018 F12 file not retrievable this pass (population.un.org now serves WUP2025; archive.org timed out). Khartoum, Omdurman?, Port Sudan, Kassala, Nyala, El Obeid, Juba, Asmara, N'Djamena, Bangui, Gondar, Mekelle, Aswan likely listed (>300k) — TO FILL, not estimated."
+   },
+   "war_status": [
+    {
+     "as_of": "2026-01",
+     "statement": "Cumulative returns to Khartoum State reached 1,605,561; 339,583 people remained internally displaced in the state (state-level).",
+     "figure": 1605561,
+     "source_id": "IOM_DTM_DRO_02",
+     "url": "https://dtm.iom.int/sites/g/files/tmzbdl1461/files/reports/DTM%20Sudan%20Displacement%20and%20Return%20Overview%20%28Update%2002%29.pdf",
+     "badges": [
+      "REPORTED"
+     ]
+    }
+   ]
+  },
+  "omdurman": {
+   "id": "omdurman",
+   "name_en": "Omdurman",
+   "name_ar": "أم درمان",
+   "country": "SD",
+   "wikidata": "Q180921",
+   "wikidata_check": {
+    "label_en": "Omdurman",
+    "description": "city in Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 1849659,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Umm Durmān [ Omdurman ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": [
+    {
+     "as_of": "2025-05",
+     "statement": "Drone strikes targeted several power stations in Omdurman, causing widespread outages across Khartoum state.",
+     "figure": null,
+     "source_id": "OCHA_HU_2025_04_05",
+     "url": "https://www.unocha.org/publications/report/sudan/sudan-humanitarian-update-april-may-2025",
+     "badges": [
+      "REPORTED"
+     ]
+    }
+   ]
+  },
+  "port-sudan": {
+   "id": "port-sudan",
+   "name_en": "Port Sudan",
+   "name_ar": "بورتسودان",
+   "country": "SD",
+   "wikidata": "Q208718",
+   "wikidata_check": {
+    "label_en": "Port Sudan",
+    "description": "Port city on the Red Sea in Eastern Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 394561,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Būr Sūdān [ Port Sudan ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "UN DESA WUP2018 F12 file not retrievable this pass (population.un.org now serves WUP2025; archive.org timed out). Khartoum, Omdurman?, Port Sudan, Kassala, Nyala, El Obeid, Juba, Asmara, N'Djamena, Bangui, Gondar, Mekelle, Aswan likely listed (>300k) — TO FILL, not estimated."
+   },
+   "war_status": [
+    {
+     "as_of": "2025-05-12",
+     "statement": "Drone attacks (from 4 May 2025) struck the airport, fuel storage and a power transformer; >3,000 people fled within and beyond Red Sea state; UNHAS flights suspended.",
+     "figure": 3000,
+     "source_id": "OCHA_HU_2025_04_05",
+     "url": "https://www.unocha.org/publications/report/sudan/sudan-humanitarian-update-april-may-2025",
+     "badges": [
+      "REPORTED"
+     ]
+    }
+   ]
+  },
+  "kassala": {
+   "id": "kassala",
+   "name_en": "Kassala",
+   "name_ar": "كسلا",
+   "country": "SD",
+   "wikidata": "Q686813",
+   "wikidata_check": {
+    "label_en": "Kassala",
+    "description": "capital of the state of Kassala in Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 298529,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Kassalā', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "UN DESA WUP2018 F12 file not retrievable this pass (population.un.org now serves WUP2025; archive.org timed out). Khartoum, Omdurman?, Port Sudan, Kassala, Nyala, El Obeid, Juba, Asmara, N'Djamena, Bangui, Gondar, Mekelle, Aswan likely listed (>300k) — TO FILL, not estimated."
+   },
+   "war_status": [
+    {
+     "as_of": "2025-05",
+     "statement": "Drone strikes near Kassala airport displaced families from the Gharb Al Matar displacement site.",
+     "figure": null,
+     "source_id": "OCHA_HU_2025_04_05",
+     "url": "https://www.unocha.org/publications/report/sudan/sudan-humanitarian-update-april-may-2025",
+     "badges": [
+      "REPORTED"
+     ]
+    }
+   ]
+  },
+  "wad-madani": {
+   "id": "wad-madani",
+   "name_en": "Wad Madani",
+   "name_ar": "ود مدني",
+   "country": "SD",
+   "wikidata": "Q852528",
+   "wikidata_check": {
+    "label_en": "Wad Madani",
+    "description": "city in Gezira State, Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 289482,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Wad Madanī [ Medani ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "UN DESA WUP2018 F12 file not retrievable this pass (population.un.org now serves WUP2025; archive.org timed out). Khartoum, Omdurman?, Port Sudan, Kassala, Nyala, El Obeid, Juba, Asmara, N'Djamena, Bangui, Gondar, Mekelle, Aswan likely listed (>300k) — TO FILL, not estimated."
+   },
+   "war_status": [
+    {
+     "as_of": "2023-12-18",
+     "statement": "~509,796 individuals affected by clashes in Aj Jazirah incl. Wad Madani: ~275,796 newly displaced from Medani Al Kubra and Sharg Aj Jazirah, ~234,000 secondarily displaced (mostly from Khartoum). State-level, not town-only.",
+     "figure": 509796,
+     "source_id": "IOM_DTM_JAZIRAH_001",
+     "url": "https://dtm.iom.int/reports/dtm-sudan-focused-flash-alert-aj-jazirah-001",
+     "badges": [
+      "REPORTED",
+      "CONTESTED"
+     ]
+    },
+    {
+     "as_of": "2023-12-25",
+     "statement": "Up to 300,000 civilians fled Wad Madani and other areas of Al Jazirah in the first days of fighting; routes out reportedly blocked; extensive looting reported.",
+     "figure": 300000,
+     "source_id": "PROTECTION_WADMADANI_2023",
+     "url": "https://reliefweb.int/attachments/306067e8-d380-4da1-b027-94c0009c68a8/Wad%20Madani%20Protection%20of%20Civilians%20Flash%20Update%2025Dec2023_Final.pdf",
+     "badges": [
+      "REPORTED",
+      "CONTESTED"
+     ]
+    }
+   ]
+  },
+  "el-obeid": {
+   "id": "el-obeid",
+   "name_en": "El Obeid",
+   "name_ar": "الأبيض",
+   "country": "SD",
+   "wikidata": "Q309475",
+   "wikidata_check": {
+    "label_en": "El-Obeid",
+    "description": "city and capital of North Kurdufan, Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 345126,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Al-Ubayyiḍ [ El Obeid ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "UN DESA WUP2018 F12 file not retrievable this pass (population.un.org now serves WUP2025; archive.org timed out). Khartoum, Omdurman?, Port Sudan, Kassala, Nyala, El Obeid, Juba, Asmara, N'Djamena, Bangui, Gondar, Mekelle, Aswan likely listed (>300k) — TO FILL, not estimated."
+   },
+   "war_status": [
+    {
+     "as_of": "2026-05-08",
+     "statement": "Protection Cluster note on El Obeid: drone strikes and displacement toward the city reported (figure not extracted this pass — verify before use).",
+     "figure": null,
+     "source_id": "PROT_ELOBEID_2026_05",
+     "url": "https://reliefweb.int/report/sudan/sudan-protection-cluster-note-el-obeid-north-kordofan-8-may-2026",
+     "badges": [
+      "REPORTED",
+      "VERIFY"
+     ]
+    }
+   ]
+  },
+  "el-fasher": {
+   "id": "el-fasher",
+   "name_en": "El Fasher",
+   "name_ar": "الفاشر",
+   "country": "SD",
+   "wikidata": "Q311204",
+   "wikidata_check": {
+    "label_en": "Al-Fashir",
+    "description": "capital city of North Darfur, Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 217827,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Al-Fāshir [ El Fasher ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "UN DESA WUP2018 F12 file not retrievable this pass (population.un.org now serves WUP2025; archive.org timed out). Khartoum, Omdurman?, Port Sudan, Kassala, Nyala, El Obeid, Juba, Asmara, N'Djamena, Bangui, Gondar, Mekelle, Aswan likely listed (>300k) — TO FILL, not estimated."
+   },
+   "war_status": [
+    {
+     "as_of": "2025-12-08",
+     "statement": "Estimated 107,294 individuals (24,221 households) displaced from Al Fasher town and surrounding villages after the escalation of 26 Oct 2025; ~75% were already IDPs (many previously from Zamzam and Abu Shouk camps). Preliminary.",
+     "figure": 107294,
+     "source_id": "IOM_DTM_FASHER_012",
+     "url": "https://dtm.iom.int/reports/dtm-sudan-focused-flash-alert-al-fasher-north-darfur-update-012",
+     "badges": [
+      "REPORTED",
+      "PRELIMINARY"
+     ]
+    },
+    {
+     "as_of": "2025-11-02",
+     "statement": "Estimated 70,894 individuals displaced from Al Fasher town and surrounding villages, 26 Oct–2 Nov 2025 (earlier, lower preliminary count; superseded by Update 012).",
+     "figure": 70894,
+     "source_id": "IOM_DTM_FASHER_107",
+     "url": "https://reliefweb.int/report/sudan/dtm-sudan-flash-alert-al-fasher-al-fasher-town-north-darfur-update-107-02-november-2025",
+     "badges": [
+      "REPORTED",
+      "CONTESTED"
+     ]
+    },
+    {
+     "as_of": "2025-09",
+     "statement": "Famine Review Committee: classification of El Fasher town in IPC Phase 5 (Famine) is plausible.",
+     "figure": null,
+     "source_id": "IPC_FRC_2025_10",
+     "url": "https://reliefweb.int/report/sudan/famine-review-committee-sudan-october-2025-conclusions-and-recommendations",
+     "badges": [
+      "REPORTED"
+     ]
+    }
+   ]
+  },
+  "nyala": {
+   "id": "nyala",
+   "name_en": "Nyala",
+   "name_ar": "نيالا",
+   "country": "SD",
+   "wikidata": "Q851576",
+   "wikidata_check": {
+    "label_en": "Nyala",
+    "description": "capital of state of South Darfur in the south-west of Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 492984,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Nyālā', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "UN DESA WUP2018 F12 file not retrievable this pass (population.un.org now serves WUP2025; archive.org timed out). Khartoum, Omdurman?, Port Sudan, Kassala, Nyala, El Obeid, Juba, Asmara, N'Djamena, Bangui, Gondar, Mekelle, Aswan likely listed (>300k) — TO FILL, not estimated."
+   },
+   "war_status": [
+    {
+     "as_of": "2023-08-21",
+     "statement": "Clashes in Nyala town 11–17 Aug 2023 displaced ~10,000 households (~50,000 individuals) within Nyala and to nearby camps/localities.",
+     "figure": 50000,
+     "source_id": "OCHA_NYALA_FU1_2023",
+     "url": "https://www.unocha.org/publications/report/sudan/sudan-saf-and-rsf-clashes-nyala-south-darfur-flash-update-no-01-21-august-2023",
+     "badges": [
+      "REPORTED"
+     ]
+    }
+   ]
+  },
+  "el-geneina": {
+   "id": "el-geneina",
+   "name_en": "El Geneina",
+   "name_ar": "الجنينة",
+   "country": "SD",
+   "wikidata": "Q311309",
+   "wikidata_check": {
+    "label_en": "Geneina",
+    "description": "Human settlement in West Darfur, Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 134264,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Al-Junaynah [ Geneina ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": [
+    {
+     "as_of": "2023-06",
+     "statement": "301,055 IDPs recorded in West Darfur, all displaced from Ag Geneina locality (incl. to Ardamata); large cross-border flight to Adré, Chad.",
+     "figure": 301055,
+     "source_id": "IOM_DTM_SITREP10_2023",
+     "url": "https://reliefweb.int/attachments/4d72e4d9-bf2f-4ec8-9bda-07f63d3dcd87/DTM%20Sudan_____%20SitRep%2010.pdf",
+     "badges": [
+      "REPORTED"
+     ]
+    }
+   ]
+  },
+  "kadugli": {
+   "id": "kadugli",
+   "name_en": "Kadugli",
+   "name_ar": "كادوقلي",
+   "country": "SD",
+   "wikidata": "Q1011819",
+   "wikidata_check": {
+    "label_en": "Kaduqli",
+    "description": "capital city of South Kordofan State, Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 67095,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Kāduqlī', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": [
+    {
+     "as_of": "2025-09",
+     "statement": "Kadugli described as besieged; FRC found IPC Phase 5 (Famine) classification of Kadugli town plausible.",
+     "figure": null,
+     "source_id": "IPC_FRC_2025_10",
+     "url": "https://reliefweb.int/report/sudan/famine-review-committee-sudan-october-2025-conclusions-and-recommendations",
+     "badges": [
+      "REPORTED"
+     ]
+    },
+    {
+     "as_of": "2025-08-20",
+     "statement": "Estimated 50,000 civilians forced to flee Kadugli; those remaining under siege conditions.",
+     "figure": 50000,
+     "source_id": "HPC_KADUGLI_2025",
+     "url": "https://humanitarianaction.info/plan/1220/document/sudan-operational-response-plan-2025/article/kadugli-operational-response-planning",
+     "badges": [
+      "REPORTED"
+     ]
+    },
+    {
+     "as_of": "2025-12-04",
+     "statement": "Communities in Kadugli remain trapped under siege with severe movement restrictions; famine conditions identified.",
+     "figure": null,
+     "source_id": "OCHA_HCT_KORDOFAN_2025_12",
+     "url": "https://www.unocha.org/publications/report/sudan/statement-operational-humanitarian-country-team-sudan-violence-kordofan-region",
+     "badges": [
+      "REPORTED"
+     ]
+    }
+   ]
+  },
+  "dongola": {
+   "id": "dongola",
+   "name_en": "Dongola",
+   "name_ar": "دنقلا",
+   "country": "SD",
+   "wikidata": "Q821321",
+   "wikidata_check": {
+    "label_en": "Dongola",
+    "description": "capital of the state of Northern in Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 56167,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Dunqulā [ Dongola ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": null,
+   "war_status_null_reason": "no city-specific OCHA/IOM/ReliefWeb item gathered in this pass; not yet researched (not evidence of no impact)"
+  },
+  "atbara": {
+   "id": "atbara",
+   "name_en": "Atbara",
+   "name_ar": "عطبرة",
+   "country": "SD",
+   "wikidata": "Q753906",
+   "wikidata_check": {
+    "label_en": "Atbarah",
+    "description": "city in Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 112021,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row ''Aṭbarah [ Atbara ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": [
+    {
+     "as_of": "2025-05",
+     "statement": "Drone strikes again damaged the Atbara power station, cutting water supply in Atbara and Ad Damar.",
+     "figure": null,
+     "source_id": "OCHA_HU_2025_04_05",
+     "url": "https://www.unocha.org/publications/report/sudan/sudan-humanitarian-update-april-may-2025",
+     "badges": [
+      "REPORTED"
+     ]
+    }
+   ]
+  },
+  "shendi": {
+   "id": "shendi",
+   "name_en": "Shendi",
+   "name_ar": "شندي",
+   "country": "SD",
+   "wikidata": "Q997838",
+   "wikidata_check": {
+    "label_en": "Shendi",
+    "description": "human settlement in Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 63746,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Shandī [ Shendi ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": null,
+   "war_status_null_reason": "no city-specific OCHA/IOM/ReliefWeb item gathered in this pass; not yet researched (not evidence of no impact)"
+  },
+  "sennar": {
+   "id": "sennar",
+   "name_en": "Sennar",
+   "name_ar": "سنار",
+   "country": "SD",
+   "wikidata": "Q611867",
+   "wikidata_check": {
+    "label_en": "Sengs",
+    "description": "Town in Sennar State, Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities",
+    "warning": "English label on Wikidata reads 'Sengs' (likely vandalism); Arabic label سنار and description 'Town in Sennar State' match; QID cross-checked against citypopulation.de"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 123158,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Sannār [ Sennar ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": [
+    {
+     "as_of": "2024-07-29",
+     "statement": "Clashes in Sennar State (incl. Sinja) displaced an estimated 725,965 people, 25 Jun–29 Jul 2024; state-level, not Sennar town only.",
+     "figure": 725965,
+     "source_id": "IOM_DTM_SENNAR_001",
+     "url": "https://dtm.iom.int/reports/dtm-sudan-focused-flash-alert-sennar-update-001",
+     "badges": [
+      "REPORTED"
+     ]
+    }
+   ]
+  },
+  "gedaref": {
+   "id": "gedaref",
+   "name_en": "Gedaref",
+   "name_ar": "القضارف",
+   "country": "SD",
+   "wikidata": "Q311199",
+   "wikidata_check": {
+    "label_en": "Al Qadarif",
+    "description": "capital of the state of Al Qadarif, Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 269395,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Al-Qaḍārif [ Gedaref ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "UN DESA WUP2018 F12 file not retrievable this pass (population.un.org now serves WUP2025; archive.org timed out). Khartoum, Omdurman?, Port Sudan, Kassala, Nyala, El Obeid, Juba, Asmara, N'Djamena, Bangui, Gondar, Mekelle, Aswan likely listed (>300k) — TO FILL, not estimated."
+   },
+   "war_status": null,
+   "war_status_null_reason": "no city-specific OCHA/IOM/ReliefWeb item gathered in this pass; not yet researched (not evidence of no impact)"
+  },
+  "kosti": {
+   "id": "kosti",
+   "name_en": "Kosti",
+   "name_ar": "كوستي",
+   "country": "SD",
+   "wikidata": "Q587715",
+   "wikidata_check": {
+    "label_en": "Kosti",
+    "description": "major city in Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 213080,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Kūstī [ Kosti ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "UN DESA WUP2018 F12 file not retrievable this pass (population.un.org now serves WUP2025; archive.org timed out). Khartoum, Omdurman?, Port Sudan, Kassala, Nyala, El Obeid, Juba, Asmara, N'Djamena, Bangui, Gondar, Mekelle, Aswan likely listed (>300k) — TO FILL, not estimated."
+   },
+   "war_status": null,
+   "war_status_null_reason": "no city-specific OCHA/IOM/ReliefWeb item gathered in this pass; not yet researched (not evidence of no impact)"
+  },
+  "ed-damazin": {
+   "id": "ed-damazin",
+   "name_en": "Ed Damazin",
+   "name_ar": "الدمازين",
+   "country": "SD",
+   "wikidata": "Q311307",
+   "wikidata_check": {
+    "label_en": "Ad-Damazin",
+    "description": "capital of the Blue Nile state of Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 136788,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Ad-Damazīn', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": null,
+   "war_status_null_reason": "no city-specific OCHA/IOM/ReliefWeb item gathered in this pass; not yet researched (not evidence of no impact)"
+  },
+  "kutum": {
+   "id": "kutum",
+   "name_en": "Kutum",
+   "name_ar": "كتم",
+   "country": "SD",
+   "wikidata": "Q3317346",
+   "wikidata_check": {
+    "label_en": "Kutum",
+    "description": "town in the Sudanese state of North Darfur",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 34694,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Kotum [ Kutum ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": null,
+   "war_status_null_reason": "no city-specific OCHA/IOM/ReliefWeb item gathered in this pass; not yet researched (not evidence of no impact)"
+  },
+  "ed-damer": {
+   "id": "ed-damer",
+   "name_en": "Ed Damer",
+   "name_ar": "الدامر",
+   "country": "SD",
+   "wikidata": "Q311312",
+   "wikidata_check": {
+    "label_en": "Ad-Damir",
+    "description": "human settlement",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 73654,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Ad-Dāmir', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": [
+    {
+     "as_of": "2025-05",
+     "statement": "Power-station strike in Atbara disrupted water supply in Ad Damar; water prices doubled.",
+     "figure": null,
+     "source_id": "OCHA_HU_2025_04_05",
+     "url": "https://www.unocha.org/publications/report/sudan/sudan-humanitarian-update-april-may-2025",
+     "badges": [
+      "REPORTED"
+     ]
+    }
+   ]
+  },
+  "karima": {
+   "id": "karima",
+   "name_en": "Karima",
+   "name_ar": "كريمة",
+   "country": "SD",
+   "wikidata": "Q1729372",
+   "wikidata_check": {
+    "label_en": "Karima",
+    "description": "human settlement in Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": null,
+   "null_reason": "not listed as a separate town in published 2008 census locality tables seen (citypopulation.de); no WUP2018 entry (<300k)",
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": null,
+   "war_status_null_reason": "no city-specific OCHA/IOM/ReliefWeb item gathered in this pass; not yet researched (not evidence of no impact)"
+  },
+  "merowe": {
+   "id": "merowe",
+   "name_en": "Merowe",
+   "name_ar": "مروي",
+   "country": "SD",
+   "wikidata": "Q2784541",
+   "wikidata_check": {
+    "label_en": "Merowe",
+    "description": "city in Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": null,
+   "null_reason": "same as karima: no published 2008 town figure found; no WUP2018 entry",
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": null,
+   "war_status_null_reason": "no city-specific OCHA/IOM/ReliefWeb item gathered in this pass; not yet researched (not evidence of no impact)"
+  },
+  "ed-daein": {
+   "id": "ed-daein",
+   "name_en": "Ed Daein",
+   "name_ar": "الضعين",
+   "country": "SD",
+   "wikidata": "Q288196",
+   "wikidata_check": {
+    "label_en": "Ed Daein",
+    "description": "capital of East Darfur in Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 137103,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Aḍ-Ḍu'ayn [ El Duein ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": null,
+   "war_status_null_reason": "no city-specific OCHA/IOM/ReliefWeb item gathered in this pass; not yet researched (not evidence of no impact)"
+  },
+  "zalingei": {
+   "id": "zalingei",
+   "name_en": "Zalingei",
+   "name_ar": "زالنجي",
+   "country": "SD",
+   "wikidata": "Q4118131",
+   "wikidata_check": {
+    "label_en": "Zalingei",
+    "description": "capital city in the state of Central Darfur, Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 35061,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Zālingay [ Zalingei ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": null,
+   "war_status_null_reason": "no city-specific OCHA/IOM/ReliefWeb item gathered in this pass; not yet researched (not evidence of no impact)"
+  },
+  "tokar": {
+   "id": "tokar",
+   "name_en": "Tokar",
+   "name_ar": "طوكر",
+   "country": "SD",
+   "wikidata": "Q1010754",
+   "wikidata_check": {
+    "label_en": "Tokar",
+    "description": "town in northeastern Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 37051,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Ṭawkar [ Tokar ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": null,
+   "war_status_null_reason": "no city-specific OCHA/IOM/ReliefWeb item gathered in this pass; not yet researched (not evidence of no impact)"
+  },
+  "dilling": {
+   "id": "dilling",
+   "name_en": "Dilling",
+   "name_ar": "الدلنج",
+   "country": "SD",
+   "wikidata": "Q5210211",
+   "wikidata_check": {
+    "label_en": "Dalang",
+    "description": "town in South Kordofan State in Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 59089,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Ad-Dillinj [ Dalang ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": [
+    {
+     "as_of": "2025-12-04",
+     "statement": "Communities in Dilling remain trapped under siege; FRC (Oct 2025) could not classify due to extremely limited data.",
+     "figure": null,
+     "source_id": "OCHA_HCT_KORDOFAN_2025_12",
+     "url": "https://www.unocha.org/publications/report/sudan/statement-operational-humanitarian-country-team-sudan-violence-kordofan-region",
+     "badges": [
+      "REPORTED"
+     ]
+    }
+   ]
+  },
+  "babanusa": {
+   "id": "babanusa",
+   "name_en": "Babanusa",
+   "name_ar": "بابنوسة",
+   "country": "SD",
+   "wikidata": "Q4116057",
+   "wikidata_check": {
+    "label_en": "Babanusa",
+    "description": "town in western Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 32759,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Bābanūsah [ Babanusa ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": [
+    {
+     "as_of": "2025-12-04",
+     "statement": "Reports of sustained attacks on Babanusa over recent days.",
+     "figure": null,
+     "source_id": "OCHA_HCT_KORDOFAN_2025_12",
+     "url": "https://www.unocha.org/publications/report/sudan/statement-operational-humanitarian-country-team-sudan-violence-kordofan-region",
+     "badges": [
+      "REPORTED"
+     ]
+    }
+   ]
+  },
+  "en-nahud": {
+   "id": "en-nahud",
+   "name_en": "En Nahud",
+   "name_ar": "النهود",
+   "country": "SD",
+   "wikidata": "Q287343",
+   "wikidata_check": {
+    "label_en": "En Nahud",
+    "description": "city of the state of West Kordofan, Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 66184,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'An-Nuhūd [ El Nahud ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": null,
+   "war_status_null_reason": "no city-specific OCHA/IOM/ReliefWeb item gathered in this pass; not yet researched (not evidence of no impact)"
+  },
+  "umm-ruwaba": {
+   "id": "umm-ruwaba",
+   "name_en": "Umm Ruwaba",
+   "name_ar": "أم روابة",
+   "country": "SD",
+   "wikidata": "Q2618048",
+   "wikidata_check": {
+    "label_en": "Umm Ruwaba",
+    "description": "human settlement in Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 56833,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Umm Ruwābah', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": null,
+   "war_status_null_reason": "no city-specific OCHA/IOM/ReliefWeb item gathered in this pass; not yet researched (not evidence of no impact)"
+  },
+  "abu-hamad": {
+   "id": "abu-hamad",
+   "name_en": "Abu Hamad",
+   "name_ar": "أبو حمد",
+   "country": "SD",
+   "wikidata": "Q2439710",
+   "wikidata_check": {
+    "label_en": "Abu Hamad",
+    "description": "town of the state of River Nile, Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": null,
+   "null_reason": "no published 2008 town figure found; no WUP2018 entry",
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": null,
+   "war_status_null_reason": "no city-specific OCHA/IOM/ReliefWeb item gathered in this pass; not yet researched (not evidence of no impact)"
+  },
+  "wadi-halfa": {
+   "id": "wadi-halfa",
+   "name_en": "Wadi Halfa",
+   "name_ar": "وادي حلفا",
+   "country": "SD",
+   "wikidata": "Q740865",
+   "wikidata_check": {
+    "label_en": "Wadi Halfa",
+    "description": "city in Northern state, Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": null,
+   "null_reason": "no published 2008 town figure found (only New Halfa, a different town, is listed); no WUP2018 entry",
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": null,
+   "war_status_null_reason": "no city-specific OCHA/IOM/ReliefWeb item gathered in this pass; not yet researched (not evidence of no impact)"
+  },
+  "berber": {
+   "id": "berber",
+   "name_en": "Berber",
+   "name_ar": "بربر",
+   "country": "SD",
+   "wikidata": "Q375935",
+   "wikidata_check": {
+    "label_en": "Berber",
+    "description": "town of the state of River Nile, Sudan",
+    "P17": [
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 26203,
+     "kind": "census",
+     "source_id": "SD_CBS_2008",
+     "page_or_table": "citypopulation.de/SD cities table, row 'Barbar [ Berber ]', column 'Census 2008-04-22 (Cp, preliminary)'",
+     "badges": [
+      "CONTESTED",
+      "PRELIMINARY"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   },
+   "war_status": null,
+   "war_status_null_reason": "no city-specific OCHA/IOM/ReliefWeb item gathered in this pass; not yet researched (not evidence of no impact)"
+  },
+  "juba": {
+   "id": "juba",
+   "name_en": "Juba",
+   "name_ar": "جوبا",
+   "country": "SS",
+   "wikidata": "Q1947",
+   "wikidata_check": {
+    "label_en": "Juba",
+    "description": "capital of the Republic of South Sudan",
+    "P17": [
+     "Q958"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 230195,
+     "kind": "census",
+     "source_id": "SS_NBS_2008",
+     "page_or_table": "citypopulation.de/SS cities table, row 'Juba', column 'Fifth Sudan Population & Housing Census, 2008-04-22'",
+     "badges": [
+      "CONTESTED"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "UN DESA WUP2018 F12 file not retrievable this pass (population.un.org now serves WUP2025; archive.org timed out). Khartoum, Omdurman?, Port Sudan, Kassala, Nyala, El Obeid, Juba, Asmara, N'Djamena, Bangui, Gondar, Mekelle, Aswan likely listed (>300k) — TO FILL, not estimated."
+   }
+  },
+  "malakal": {
+   "id": "malakal",
+   "name_en": "Malakal",
+   "name_ar": "ملكال",
+   "country": "SS",
+   "wikidata": "Q220049",
+   "wikidata_check": {
+    "label_en": "Malakal",
+    "description": "city in South Sudan",
+    "P17": [
+     "Q958"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 114528,
+     "kind": "census",
+     "source_id": "SS_NBS_2008",
+     "page_or_table": "citypopulation.de/SS cities table, row 'Malakal', column 'Fifth Sudan Population & Housing Census, 2008-04-22'",
+     "badges": [
+      "CONTESTED"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   }
+  },
+  "wau": {
+   "id": "wau",
+   "name_en": "Wau",
+   "name_ar": "واو",
+   "country": "SS",
+   "wikidata": "Q276534",
+   "wikidata_check": {
+    "label_en": "Wau",
+    "description": "city in northwestern South Sudan",
+    "P17": [
+     "Q958",
+     "Q1049"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 118331,
+     "kind": "census",
+     "source_id": "SS_NBS_2008",
+     "page_or_table": "citypopulation.de/SS cities table, row 'Wau', column 'Fifth Sudan Population & Housing Census, 2008-04-22'",
+     "badges": [
+      "CONTESTED"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   }
+  },
+  "bor": {
+   "id": "bor",
+   "name_en": "Bor",
+   "name_ar": "بور",
+   "country": "SS",
+   "wikidata": "Q893274",
+   "wikidata_check": {
+    "label_en": "Bor",
+    "description": "city in South Sudan",
+    "P17": [
+     "Q958",
+     "Q124943"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 25188,
+     "kind": "census",
+     "source_id": "SS_NBS_2008",
+     "page_or_table": "citypopulation.de/SS cities table, row 'Bor', column 'Fifth Sudan Population & Housing Census, 2008-04-22'",
+     "badges": [
+      "CONTESTED"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   }
+  },
+  "rumbek": {
+   "id": "rumbek",
+   "name_en": "Rumbek",
+   "name_ar": "رمبيك",
+   "country": "SS",
+   "wikidata": "Q607336",
+   "wikidata_check": {
+    "label_en": "Rumbek",
+    "description": "human settlement",
+    "P17": [
+     "Q958"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 1983,
+     "value": 19399,
+     "kind": "census",
+     "source_id": "SD_CBS_1983",
+     "page_or_table": "citypopulation.de/SS cities table, row 'Rumbek', column 'Census 1983-02-01'",
+     "badges": [
+      "OUTDATED"
+     ],
+     "note": "no 2008 town figure published; 1983 is latest available"
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   }
+  },
+  "yei": {
+   "id": "yei",
+   "name_en": "Yei",
+   "name_ar": "ياي",
+   "country": "SS",
+   "wikidata": "Q1561403",
+   "wikidata_check": {
+    "label_en": "Yei",
+    "description": "City in South Sudan",
+    "P17": [
+     "Q958"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 69720,
+     "kind": "census",
+     "source_id": "SS_NBS_2008",
+     "page_or_table": "citypopulation.de/SS cities table, row 'Yei', column 'Fifth Sudan Population & Housing Census, 2008-04-22'",
+     "badges": [
+      "CONTESTED"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   }
+  },
+  "aweil": {
+   "id": "aweil",
+   "name_en": "Aweil",
+   "name_ar": "أويل",
+   "country": "SS",
+   "wikidata": "Q791685",
+   "wikidata_check": {
+    "label_en": "Aweil",
+    "description": "city in South Sudan",
+    "P17": [
+     "Q958"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 59217,
+     "kind": "census",
+     "source_id": "SS_NBS_2008",
+     "page_or_table": "citypopulation.de/SS cities table, row 'Aweil', column 'Fifth Sudan Population & Housing Census, 2008-04-22'",
+     "badges": [
+      "CONTESTED"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   }
+  },
+  "torit": {
+   "id": "torit",
+   "name_en": "Torit",
+   "name_ar": "توريت",
+   "country": "SS",
+   "wikidata": "Q1010278",
+   "wikidata_check": {
+    "label_en": "Torit",
+    "description": "city in South Sudan",
+    "P17": [
+     "Q958"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": null,
+   "null_reason": "2008 town figure not published in available tables; no WUP2018 entry",
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   }
+  },
+  "renk": {
+   "id": "renk",
+   "name_en": "Renk",
+   "name_ar": "الرنك",
+   "country": "SS",
+   "wikidata": "Q775361",
+   "wikidata_check": {
+    "label_en": "Renk",
+    "description": "human settlement in South Sudan",
+    "P17": [
+     "Q958"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2008,
+     "value": 69079,
+     "kind": "census",
+     "source_id": "SS_NBS_2008",
+     "page_or_table": "citypopulation.de/SS cities table, row 'Renk', column 'Fifth Sudan Population & Housing Census, 2008-04-22'",
+     "badges": [
+      "CONTESTED"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   }
+  },
+  "nimule": {
+   "id": "nimule",
+   "name_en": "Nimule",
+   "name_ar": "نمولي",
+   "country": "SS",
+   "wikidata": "Q1992727",
+   "wikidata_check": {
+    "label_en": "Nimule",
+    "description": "human settlement in South Sudan",
+    "P17": [
+     "Q958"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": null,
+   "null_reason": "2008 town figure not published in available tables; no WUP2018 entry",
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   }
+  },
+  "aswan": {
+   "id": "aswan",
+   "name_en": "Aswan",
+   "name_ar": "أسوان",
+   "country": "EG",
+   "wikidata": "Q29888",
+   "wikidata_check": {
+    "label_en": "Aswan",
+    "description": "Egyptian city",
+    "P17": [
+     "Q79"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2006,
+     "value": 266013,
+     "kind": "census",
+     "source_id": "EG_CAPMAS_2006",
+     "page_or_table": "citypopulation.de/EG cities table, row 'Aswān', column 'Census 2006-11-11'",
+     "badges": []
+    },
+    {
+     "year": 2023,
+     "value": 401890,
+     "kind": "model",
+     "source_id": "EG_CAPMAS_EST_2023",
+     "page_or_table": "citypopulation.de/EG cities table, row 'Aswān', column 'Estimate 2023-07-01'",
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "UN DESA WUP2018 F12 file not retrievable this pass (population.un.org now serves WUP2025; archive.org timed out). Khartoum, Omdurman?, Port Sudan, Kassala, Nyala, El Obeid, Juba, Asmara, N'Djamena, Bangui, Gondar, Mekelle, Aswan likely listed (>300k) — TO FILL, not estimated."
+   }
+  },
+  "gondar": {
+   "id": "gondar",
+   "name_en": "Gondar",
+   "name_ar": "غوندر",
+   "country": "ET",
+   "wikidata": "Q218861",
+   "wikidata_check": {
+    "label_en": "Gondar",
+    "description": "city, former capital of Ethiopia",
+    "P17": [
+     "Q115"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2007,
+     "value": 207044,
+     "kind": "census",
+     "source_id": "ET_CSA_2007",
+     "page_or_table": "citypopulation.de/ET cities table, row 'Gonder ( Gondar )', column 'Census 2007-05-28'",
+     "badges": []
+    },
+    {
+     "year": 2022,
+     "value": 466000,
+     "kind": "model",
+     "source_id": "ET_CSA_PROJ_2022",
+     "page_or_table": "citypopulation.de/ET cities table, row 'Gonder ( Gondar )', column 'Projection 2022-07-01'",
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "UN DESA WUP2018 F12 file not retrievable this pass (population.un.org now serves WUP2025; archive.org timed out). Khartoum, Omdurman?, Port Sudan, Kassala, Nyala, El Obeid, Juba, Asmara, N'Djamena, Bangui, Gondar, Mekelle, Aswan likely listed (>300k) — TO FILL, not estimated."
+   }
+  },
+  "mekelle": {
+   "id": "mekelle",
+   "name_en": "Mekelle",
+   "name_ar": "ميكيلي",
+   "country": "ET",
+   "wikidata": "Q332319",
+   "wikidata_check": {
+    "label_en": "Mekele",
+    "description": "the capital city in the northern Tigray Region of Ethiopia",
+    "P17": [
+     "Q115"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2007,
+     "value": 215914,
+     "kind": "census",
+     "source_id": "ET_CSA_2007",
+     "page_or_table": "citypopulation.de/ET cities table, row 'Mekele ( Debub Mekele & Semen Mekele )', column 'Census 2007-05-28'",
+     "badges": []
+    },
+    {
+     "year": 2022,
+     "value": 457900,
+     "kind": "model",
+     "source_id": "ET_CSA_PROJ_2022",
+     "page_or_table": "citypopulation.de/ET cities table, row 'Mekele ( Debub Mekele & Semen Mekele )', column 'Projection 2022-07-01'",
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "UN DESA WUP2018 F12 file not retrievable this pass (population.un.org now serves WUP2025; archive.org timed out). Khartoum, Omdurman?, Port Sudan, Kassala, Nyala, El Obeid, Juba, Asmara, N'Djamena, Bangui, Gondar, Mekelle, Aswan likely listed (>300k) — TO FILL, not estimated."
+   }
+  },
+  "asmara": {
+   "id": "asmara",
+   "name_en": "Asmara",
+   "name_ar": "أسمرة",
+   "country": "ER",
+   "wikidata": "Q3642",
+   "wikidata_check": {
+    "label_en": "Asmara",
+    "description": "capital city of Eritrea",
+    "P17": [
+     "Q986",
+     "Q115"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 1984,
+     "value": 275385,
+     "kind": "census",
+     "source_id": "ET_CSO_1984",
+     "page_or_table": "citypopulation.de/ER cities table, row 'Āsmera ( Asmara )', column 'Census 1984-05-09 (Ethiopian census, pre-independence)'",
+     "badges": []
+    },
+    {
+     "year": 1997,
+     "value": 380568,
+     "kind": "model",
+     "source_id": "ER_EST_1997",
+     "page_or_table": "citypopulation.de/ER cities table, row 'Āsmera ( Asmara )', column 'Estimate 1997-07-01'",
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "UN DESA WUP2018 F12 file not retrievable this pass (population.un.org now serves WUP2025; archive.org timed out). Khartoum, Omdurman?, Port Sudan, Kassala, Nyala, El Obeid, Juba, Asmara, N'Djamena, Bangui, Gondar, Mekelle, Aswan likely listed (>300k) — TO FILL, not estimated."
+   }
+  },
+  "massawa": {
+   "id": "massawa",
+   "name_en": "Massawa",
+   "name_ar": "مصوع",
+   "country": "ER",
+   "wikidata": "Q275635",
+   "wikidata_check": {
+    "label_en": "Massawa",
+    "description": "city on the Red Sea coast of Eritrea",
+    "P17": [
+     "Q986"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 1984,
+     "value": 15441,
+     "kind": "census",
+     "source_id": "ET_CSO_1984",
+     "page_or_table": "citypopulation.de/ER cities table, row 'Mits'iwa ( Massawa )', column 'Census 1984-05-09 (Ethiopian census, pre-independence)'",
+     "badges": []
+    },
+    {
+     "year": 1997,
+     "value": 27179,
+     "kind": "model",
+     "source_id": "ER_EST_1997",
+     "page_or_table": "citypopulation.de/ER cities table, row 'Mits'iwa ( Massawa )', column 'Estimate 1997-07-01'",
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   }
+  },
+  "ndjamena": {
+   "id": "ndjamena",
+   "name_en": "N'Djamena",
+   "name_ar": "انجمينا",
+   "country": "TD",
+   "wikidata": "Q3659",
+   "wikidata_check": {
+    "label_en": "N'Djamena",
+    "description": "capital and largest city of Chad",
+    "P17": [
+     "Q657",
+     "Q5501708"
+    ],
+    "verified": "2026-10-24 via wbgetentities",
+    "warning": "P17 also lists Q5501708 (French Equatorial Africa, historic)"
+   },
+   "population": [
+    {
+     "year": 2009,
+     "value": 951418,
+     "kind": "census",
+     "source_id": "TD_INSEED_2009",
+     "page_or_table": "citypopulation.de/TD cities table, row 'Ndjamena', column 'RGPH2 census 2009-05-20'",
+     "badges": []
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "UN DESA WUP2018 F12 file not retrievable this pass (population.un.org now serves WUP2025; archive.org timed out). Khartoum, Omdurman?, Port Sudan, Kassala, Nyala, El Obeid, Juba, Asmara, N'Djamena, Bangui, Gondar, Mekelle, Aswan likely listed (>300k) — TO FILL, not estimated."
+   }
+  },
+  "abeche": {
+   "id": "abeche",
+   "name_en": "Abeche",
+   "name_ar": "أبشي",
+   "country": "TD",
+   "wikidata": "Q242587",
+   "wikidata_check": {
+    "label_en": "Abéché",
+    "description": "city in Ouaddaï Region, Chad",
+    "P17": [
+     "Q657"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2009,
+     "value": 97963,
+     "kind": "census",
+     "source_id": "TD_INSEED_2009",
+     "page_or_table": "citypopulation.de/TD cities table, row 'Abéché', column 'RGPH2 census 2009-05-20'",
+     "badges": []
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   }
+  },
+  "kufra": {
+   "id": "kufra",
+   "name_en": "Kufra",
+   "name_ar": "الكفرة",
+   "country": "LY",
+   "wikidata": "Q172114",
+   "wikidata_check": {
+    "label_en": "Kufra",
+    "description": "oasis in Lybia",
+    "P17": [
+     "Q1016"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2006,
+     "value": 34349,
+     "kind": "census",
+     "source_id": "LY_BSC_2006",
+     "page_or_table": "citypopulation.de/LY cities table, row 'Al-Jawf ( incl. Al-Kufrah )', column 'Census 2006-04-15'",
+     "badges": [
+      "APPROXIMATE"
+     ]
+    }
+   ],
+   "population_note": "Libyan census reports the Al-Jawf locality (main town of the Kufra oasis, incl. al-Kufrah settlements); not a single-town figure.",
+   "wup2018": {
+    "value": null,
+    "null_reason": "not expected in WUP2018 (city <300k); not checked against file"
+   }
+  },
+  "bangui": {
+   "id": "bangui",
+   "name_en": "Bangui",
+   "name_ar": "بنغي",
+   "country": "CF",
+   "wikidata": "Q3832",
+   "wikidata_check": {
+    "label_en": "Bangui",
+    "description": "capital city of the Central African Republic",
+    "P17": [
+     "Q929"
+    ],
+    "verified": "2026-10-24 via wbgetentities"
+   },
+   "population": [
+    {
+     "year": 2003,
+     "value": 622771,
+     "kind": "census",
+     "source_id": "CF_ICASEES_2003",
+     "page_or_table": "citypopulation.de/CF cities table, row 'Bangui', column 'RGPH census 2003-12-08'",
+     "badges": []
+    },
+    {
+     "year": 2021,
+     "value": 812407,
+     "kind": "model",
+     "source_id": "CF_ICASEES_EST_2021",
+     "page_or_table": "citypopulation.de/CF cities table, row 'Bangui', column 'Estimate 2021-03-01'",
+     "badges": [
+      "MODEL"
+     ]
+    }
+   ],
+   "wup2018": {
+    "value": null,
+    "null_reason": "UN DESA WUP2018 F12 file not retrievable this pass (population.un.org now serves WUP2025; archive.org timed out). Khartoum, Omdurman?, Port Sudan, Kassala, Nyala, El Obeid, Juba, Asmara, N'Djamena, Bangui, Gondar, Mekelle, Aswan likely listed (>300k) — TO FILL, not estimated."
+   }
+  }
+ },
+ "sources": {
+  "SD_CBS_2008": {
+   "author": "Central Bureau of Statistics, Sudan",
+   "title": "التعداد السكاني الخامس للسودان 2008",
+   "title_en": "5th Sudan Population and Housing Census 2008 (preliminary town results), via City Population",
+   "publisher": "CBS Sudan / citypopulation.de",
+   "bias": "Sudan government; results disputed by SPLM and others (CONTESTED)",
+   "date": "2008-04-22",
+   "url": "https://www.citypopulation.de/en/sudan/cities/",
+   "license": "© Th. Brinkhoff; cite, do not bulk-republish"
+  },
+  "SD_CBS_1983": {
+   "author": "Department of Statistics, Sudan",
+   "title": "Population Census 1983",
+   "title_en": "Sudan Population Census 1983, via City Population",
+   "publisher": "Govt. of Sudan / citypopulation.de",
+   "bias": "Sudan government",
+   "date": "1983-02-01",
+   "url": "https://www.citypopulation.de/en/southsudan/cities/",
+   "license": "© Th. Brinkhoff; cite, do not bulk-republish"
+  },
+  "SS_NBS_2008": {
+   "author": "Southern Sudan Centre for Census, Statistics and Evaluation (now NBS South Sudan)",
+   "title": "5th Sudan Population and Housing Census 2008 – Southern Sudan",
+   "title_en": "same",
+   "publisher": "SSCCSE / citypopulation.de",
+   "bias": "results rejected by Government of Southern Sudan at the time (CONTESTED)",
+   "date": "2008-04-22",
+   "url": "https://www.citypopulation.de/en/southsudan/cities/",
+   "license": "© Th. Brinkhoff; cite, do not bulk-republish"
+  },
+  "EG_CAPMAS_2006": {
+   "author": "CAPMAS",
+   "title": "التعداد العام للسكان والإسكان والمنشآت 2006",
+   "title_en": "Egypt General Census 2006, via City Population",
+   "publisher": "CAPMAS / citypopulation.de",
+   "bias": "Egyptian government statistics office",
+   "date": "2006-11-11",
+   "url": "https://www.citypopulation.de/en/egypt/cities/",
+   "license": "© Th. Brinkhoff; cite, do not bulk-republish"
+  },
+  "EG_CAPMAS_EST_2023": {
+   "author": "CAPMAS",
+   "title": "تقديرات السكان 2023",
+   "title_en": "Egypt population estimate 2023, via City Population",
+   "publisher": "CAPMAS / citypopulation.de",
+   "bias": "Egyptian government",
+   "date": "2023-07-01",
+   "url": "https://www.citypopulation.de/en/egypt/cities/",
+   "license": "© Th. Brinkhoff; cite, do not bulk-republish"
+  },
+  "ET_CSA_2007": {
+   "author": "Central Statistical Agency, Ethiopia",
+   "title": "Population and Housing Census 2007",
+   "title_en": "same",
+   "publisher": "CSA / citypopulation.de",
+   "bias": "Ethiopian government",
+   "date": "2007-05-28",
+   "url": "https://www.citypopulation.de/en/ethiopia/cities/",
+   "license": "© Th. Brinkhoff; cite, do not bulk-republish"
+  },
+  "ET_CSA_PROJ_2022": {
+   "author": "Ethiopian Statistics Service",
+   "title": "Population projection 2022",
+   "title_en": "same",
+   "publisher": "ESS / citypopulation.de",
+   "bias": "Ethiopian government; Tigray projections made during/after 2020–22 war",
+   "date": "2022-07-01",
+   "url": "https://www.citypopulation.de/en/ethiopia/cities/",
+   "license": "© Th. Brinkhoff; cite, do not bulk-republish"
+  },
+  "ET_CSO_1984": {
+   "author": "Central Statistical Office, Ethiopia",
+   "title": "Population and Housing Census 1984",
+   "title_en": "same (covered Eritrea, then part of Ethiopia)",
+   "publisher": "CSO / citypopulation.de",
+   "bias": "Derg-era Ethiopian government",
+   "date": "1984-05-09",
+   "url": "https://www.citypopulation.de/en/eritrea/cities/",
+   "license": "© Th. Brinkhoff; cite, do not bulk-republish"
+  },
+  "ER_EST_1997": {
+   "author": "Govt. of Eritrea (estimate, as compiled)",
+   "title": "Population estimate 1997",
+   "title_en": "same",
+   "publisher": "citypopulation.de",
+   "bias": "Eritrea has held no national census since independence (1993)",
+   "date": "1997-07-01",
+   "url": "https://www.citypopulation.de/en/eritrea/cities/",
+   "license": "© Th. Brinkhoff; cite, do not bulk-republish"
+  },
+  "TD_INSEED_2009": {
+   "author": "INSEED Tchad",
+   "title": "Deuxième Recensement Général de la Population et de l'Habitat 2009",
+   "title_en": "Second General Population and Housing Census 2009",
+   "publisher": "INSEED / citypopulation.de",
+   "bias": "Chadian government",
+   "date": "2009-05-20",
+   "url": "https://www.citypopulation.de/en/chad/",
+   "license": "© Th. Brinkhoff; cite, do not bulk-republish"
+  },
+  "CF_ICASEES_2003": {
+   "author": "ICASEES (formerly DGSEE), RCA",
+   "title": "Recensement Général de la Population et de l'Habitation 2003",
+   "title_en": "General Population and Housing Census 2003",
+   "publisher": "ICASEES / citypopulation.de",
+   "bias": "CAR government",
+   "date": "2003-12-08",
+   "url": "https://www.citypopulation.de/en/centralafrica/cities/",
+   "license": "© Th. Brinkhoff; cite, do not bulk-republish"
+  },
+  "CF_ICASEES_EST_2021": {
+   "author": "ICASEES",
+   "title": "Estimation de la population 2021",
+   "title_en": "Population estimate 2021",
+   "publisher": "citypopulation.de",
+   "bias": "CAR government",
+   "date": "2021-03-01",
+   "url": "https://www.citypopulation.de/en/centralafrica/cities/",
+   "license": "© Th. Brinkhoff; cite, do not bulk-republish"
+  },
+  "LY_BSC_2006": {
+   "author": "Bureau of Statistics and Census, Libya",
+   "title": "التعداد العام للسكان 2006",
+   "title_en": "General Population Census 2006",
+   "publisher": "BSC / citypopulation.de",
+   "bias": "Libyan government (Gaddafi era)",
+   "date": "2006-04-15",
+   "url": "https://www.citypopulation.de/en/libya/",
+   "license": "© Th. Brinkhoff; cite, do not bulk-republish"
+  },
+  "IOM_DTM_FASHER_012": {
+   "author": "IOM DTM Sudan",
+   "title": "DTM Sudan Focused Flash Alert: Al Fasher, North Darfur (Update 012)",
+   "title_en": "same",
+   "publisher": "IOM",
+   "bias": "UN agency; remote key-informant data, preliminary",
+   "date": "2025-12-21",
+   "url": "https://dtm.iom.int/reports/dtm-sudan-focused-flash-alert-al-fasher-north-darfur-update-012",
+   "license": "IOM terms; cite"
+  },
+  "IOM_DTM_FASHER_107": {
+   "author": "IOM DTM Sudan",
+   "title": "DTM Sudan Flash Alert: Al Fasher (Al Fasher town), North Darfur (Update 107)",
+   "title_en": "same",
+   "publisher": "IOM via ReliefWeb",
+   "bias": "UN agency; preliminary",
+   "date": "2025-11-02",
+   "url": "https://reliefweb.int/report/sudan/dtm-sudan-flash-alert-al-fasher-al-fasher-town-north-darfur-update-107-02-november-2025",
+   "license": "IOM terms; cite"
+  },
+  "IOM_DTM_JAZIRAH_001": {
+   "author": "IOM DTM Sudan",
+   "title": "DTM Sudan Focused Flash Alert Aj Jazirah (001)",
+   "title_en": "same",
+   "publisher": "IOM",
+   "bias": "UN agency",
+   "date": "2023-12-28",
+   "url": "https://dtm.iom.int/reports/dtm-sudan-focused-flash-alert-aj-jazirah-001",
+   "license": "IOM terms; cite"
+  },
+  "IOM_DTM_SITREP10_2023": {
+   "author": "IOM DTM Sudan",
+   "title": "DTM Sudan Situation Report 10",
+   "title_en": "same",
+   "publisher": "IOM via ReliefWeb",
+   "bias": "UN agency",
+   "date": "2023-06",
+   "url": "https://reliefweb.int/attachments/4d72e4d9-bf2f-4ec8-9bda-07f63d3dcd87/DTM%20Sudan_____%20SitRep%2010.pdf",
+   "license": "IOM terms; cite"
+  },
+  "IOM_DTM_SENNAR_001": {
+   "author": "IOM DTM Sudan",
+   "title": "DTM Sudan Focused Flash Alert Sennar (Update 001)",
+   "title_en": "same",
+   "publisher": "IOM",
+   "bias": "UN agency",
+   "date": "2024-07-29",
+   "url": "https://dtm.iom.int/reports/dtm-sudan-focused-flash-alert-sennar-update-001",
+   "license": "IOM terms; cite"
+  },
+  "IOM_DTM_DRO_02": {
+   "author": "IOM DTM Sudan",
+   "title": "Sudan Displacement and Return Overview (Update 02)",
+   "title_en": "same",
+   "publisher": "IOM",
+   "bias": "UN agency",
+   "date": "2026-01",
+   "url": "https://dtm.iom.int/sites/g/files/tmzbdl1461/files/reports/DTM%20Sudan%20Displacement%20and%20Return%20Overview%20%28Update%2002%29.pdf",
+   "license": "IOM terms; cite"
+  },
+  "OCHA_HU_2025_04_05": {
+   "author": "UN OCHA Sudan",
+   "title": "Sudan Humanitarian Update (April – May 2025)",
+   "title_en": "same",
+   "publisher": "UN OCHA",
+   "bias": "UN agency",
+   "date": "2025-05",
+   "url": "https://www.unocha.org/publications/report/sudan/sudan-humanitarian-update-april-may-2025",
+   "license": "UN OCHA terms; cite"
+  },
+  "OCHA_NYALA_FU1_2023": {
+   "author": "UN OCHA Sudan",
+   "title": "Sudan: SAF and RSF clashes in Nyala, South Darfur - Flash Update No. 01",
+   "title_en": "same",
+   "publisher": "UN OCHA",
+   "bias": "UN agency",
+   "date": "2023-08-21",
+   "url": "https://www.unocha.org/publications/report/sudan/sudan-saf-and-rsf-clashes-nyala-south-darfur-flash-update-no-01-21-august-2023",
+   "license": "UN OCHA terms; cite"
+  },
+  "OCHA_HCT_KORDOFAN_2025_12": {
+   "author": "Operational Humanitarian Country Team in Sudan",
+   "title": "Statement on violence in the Kordofan region",
+   "title_en": "same",
+   "publisher": "UN OCHA",
+   "bias": "UN humanitarian country team",
+   "date": "2025-12-04",
+   "url": "https://www.unocha.org/publications/report/sudan/statement-operational-humanitarian-country-team-sudan-violence-kordofan-region",
+   "license": "UN OCHA terms; cite"
+  },
+  "IPC_FRC_2025_10": {
+   "author": "IPC Famine Review Committee",
+   "title": "Famine Review Committee Sudan, October 2025 - Conclusions and Recommendations",
+   "title_en": "same",
+   "publisher": "IPC via ReliefWeb",
+   "bias": "multi-agency technical body; remote analysis",
+   "date": "2025-10",
+   "url": "https://reliefweb.int/report/sudan/famine-review-committee-sudan-october-2025-conclusions-and-recommendations",
+   "license": "IPC terms; cite"
+  },
+  "HPC_KADUGLI_2025": {
+   "author": "Humanitarian partners (Sudan Operational Response Plan 2025)",
+   "title": "Kadugli Operational Response Planning",
+   "title_en": "same",
+   "publisher": "OCHA Humanitarian Action",
+   "bias": "humanitarian planning document; NGO (DRC) assessment data",
+   "date": "2025-08-20",
+   "url": "https://humanitarianaction.info/plan/1220/document/sudan-operational-response-plan-2025/article/kadugli-operational-response-planning",
+   "license": "cite"
+  },
+  "PROTECTION_WADMADANI_2023": {
+   "author": "Protection Sector Sudan",
+   "title": "Protection of Civilians Flash Update: Civilians Struggle to Reach Safety from Fighting in Al Jazirah",
+   "title_en": "same",
+   "publisher": "Protection Cluster via ReliefWeb",
+   "bias": "UNHCR-led cluster",
+   "date": "2023-12-25",
+   "url": "https://reliefweb.int/attachments/306067e8-d380-4da1-b027-94c0009c68a8/Wad%20Madani%20Protection%20of%20Civilians%20Flash%20Update%2025Dec2023_Final.pdf",
+   "license": "cite"
+  },
+  "PROT_ELOBEID_2026_05": {
+   "author": "Sudan Protection Cluster",
+   "title": "Sudan Protection Cluster Note - El Obeid, North Kordofan - 8 May 2026",
+   "title_en": "same",
+   "publisher": "ReliefWeb",
+   "bias": "UNHCR-led cluster",
+   "date": "2026-05-08",
+   "url": "https://reliefweb.int/report/sudan/sudan-protection-cluster-note-el-obeid-north-kordofan-8-may-2026",
+   "license": "cite"
+  },
+  "WIKIDATA": {
+   "author": "Wikidata contributors",
+   "title": "Wikidata",
+   "title_en": "Wikidata",
+   "publisher": "Wikimedia Foundation",
+   "bias": "crowd-sourced; QIDs only, no figures taken from it",
+   "date": "2026-10-24",
+   "url": "https://www.wikidata.org",
+   "license": "CC0"
+  }
+ }
+}
