@@ -223,6 +223,23 @@
    "label": "bold, larger"
   },
   {
+   "id": "city_capital_list_only",
+   "geometry": "none",
+   "label_en": "Capital (cited role, location date unknown – listed, not drawn)",
+   "label_ar": "عاصمة (دور موثق، تاريخ غير معروف – مدرجة دون رسم)",
+   "label_ar_status": "working translation, needs native review",
+   "shape": "list-only text",
+   "note": "Place with a cited role in this era but no cited founded or first-attested year; shown in the era list with no date."
+  },
+  {
+   "id": "city_list_only",
+   "geometry": "none",
+   "label_en": "Town (cited role, date unknown – listed, not drawn)",
+   "label_ar": "بلدة (دور موثق، تاريخ غير معروف – مدرجة دون رسم)",
+   "label_ar_status": "working translation, needs native review",
+   "shape": "list-only text"
+  },
+  {
    "id": "city_garrison",
    "geometry": "point",
    "label_en": "Garrison town",

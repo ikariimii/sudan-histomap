@@ -5,6 +5,7 @@ db/group_layers/*.geojson, db/city_layers/cities.geojson. Writes only db/legends
 import json, glob, os, re, unicodedata
 R = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 J = lambda p: json.load(open(os.path.join(R, p), encoding='utf-8'))
+CJ = J('db/cities.json')['places']
 def slug(s):
     s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode().lower()
     return re.sub(r'[^a-z0-9]+', '-', s).strip('-')
@@ -141,6 +142,16 @@ def era(i, p):
         cit.append({'id': pr['id'], 'name_en': pr['name_en'], 'name_ar': pr.get('name_ar'), 'symbol_class': c,
                     'roles_in_era': [{k: r.get(k) for k in ('role', 'era_id', 'start', 'end', 'source_id', 'page')} for r in roles],
                     'badges': sorted(b), 'source_ids': pr.get('source_ids') or []})
+    # list-only places (no cited map_from) that hold a cited role in this era: listed, not drawn, no date
+    for q in CJ:
+        if q.get('map_from'): continue
+        rr = [r for r in q.get('roles') or [] if r.get('era_id') == sl and r.get('source_id')]
+        if not rr: continue
+        c = 'city_capital_list_only' if any(r.get('role') == 'capital' for r in rr) else 'city_list_only'
+        b = {'LIST-ONLY', 'NO-DATE'}; bs |= b; cls[c] = cls.get(c, 0) + 1
+        cit.append({'id': q['id'], 'name_en': q['name_en'], 'name_ar': q.get('name_ar'), 'symbol_class': c, 'drawn': False,
+                    'roles_in_era': [{k: r.get(k) for k in ('role', 'era_id', 'start', 'end', 'source_id', 'page')} for r in rr],
+                    'badges': sorted(b), 'source_ids': q.get('source_ids') or []})
     out['layers']['cities'] = {'file': 'db/city_layers/cities.geojson', 'features': cit}
     out['layers']['homelands'] = {'file': 'db/group_layers/homelands.geojson', 'note': 'Homeland points carry no dates; shown as a background toggle in every era, off by default.',
                                   'drawn': sum(1 for f in HOM if f['geometry']), 'list_only': sum(1 for f in HOM if not f['geometry'])}

@@ -1455,6 +1455,37 @@
        "page": "Q3579"
       }
      ]
+    },
+    {
+     "id": "el-fasher",
+     "name_en": "El Fasher",
+     "name_ar": "الفاشر",
+     "symbol_class": "city_capital_list_only",
+     "drawn": false,
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "sultanate-of-darfur-keira",
+       "start": null,
+       "end": 1874,
+       "source_id": "GHA5_CH7",
+       "page": "190"
+      }
+     ],
+     "badges": [
+      "LIST-ONLY",
+      "NO-DATE"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA5_CH7",
+       "page": "190"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q311204"
+      }
+     ]
     }
    ]
   },
@@ -1506,6 +1537,7 @@
  },
  "symbol_classes_present": [
   "city_capital",
+  "city_capital_list_only",
   "city_garrison",
   "city_other",
   "city_political_centre",
@@ -1529,11 +1561,14 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "LIST-ONLY",
+  "NO-DATE",
   "RUIN-UNDATED",
   "SINGLE-SOURCE"
  ],
  "counts": {
   "city_capital": 12,
+  "city_capital_list_only": 1,
   "city_garrison": 5,
   "city_other": 9,
   "city_political_centre": 1,
@@ -1549,7 +1584,7 @@
   "trade_route": 1,
   "extent_features": 7,
   "group_features": 4,
-  "cities": 37
+  "cities": 38
  },
  "context": {
   "key_events_en": [
@@ -1610,6 +1645,8 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "LIST-ONLY",
+   "NO-DATE",
    "RUIN-UNDATED",
    "SINGLE-SOURCE"
   ],
@@ -1630,6 +1667,7 @@
    ],
    "cities_added": [
     "berber",
+    "el-fasher",
     "el-matamma",
     "el-obeid",
     "gallabat",
