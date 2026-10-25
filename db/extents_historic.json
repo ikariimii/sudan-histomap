@@ -955,17 +955,23 @@
   {
    "era_id": "dinka-jieng-communities",
    "items": null,
-   "reason": "people, not a polity. Group-layer only (Pass 32): sources give regions (Upper Nile, Bahr al-Ghazal) and a Renk-to-Uganda range (QASIM_MAWSUA vol.2 p.911, OCR VERIFY), not limits; no area drawn. The Bor point in db/group_layers/homelands.geojson marks the Bor Dinka only."
+   "reason": "people, not a polity. Group-layer only (Pass 32): sources give regions (Upper Nile, Bahr al-Ghazal) and a Renk-to-Uganda range (QASIM_MAWSUA vol.2 p.911, OCR VERIFY), not limits; no area drawn. The Bor point in db/group_layers/homelands.geojson marks the Bor Dinka only.",
+   "rendering": "homelands_layer",
+   "rendering_reason": "No cited dated boundary; rendered via the undated Homelands layer (Historian note data/eras/dinka-jieng-communities.json extent_rendering, 4cec0d8)"
   },
   {
    "era_id": "nuer-naath-communities",
    "items": null,
-   "reason": "people, not a polity. Group-layer only (Pass 32): sources name only rivers and a lake (Sobat, White Nile, Lake Jorr; GHA7_CH4 p.81), no limits; no area and no point."
+   "reason": "people, not a polity. Group-layer only (Pass 32): sources name only rivers and a lake (Sobat, White Nile, Lake Jorr; GHA7_CH4 p.81), no limits; no area and no point.",
+   "rendering": "homelands_layer",
+   "rendering_reason": "No cited dated boundary; rendered via the undated Homelands layer (Historian note data/eras/nuer-naath-communities.json extent_rendering, 4cec0d8)"
   },
   {
    "era_id": "anuak-anywaa-communities",
    "items": null,
-   "reason": "people, not a polity. List-only (Pass 32): no Anuak entry in db/groups.json yet and no limit text read (EP1940_ANUAK registered but not read for limits); no area or point drawn."
+   "reason": "people, not a polity. List-only (Pass 32): no Anuak entry in db/groups.json yet and no limit text read (EP1940_ANUAK registered but not read for limits); no area or point drawn.",
+   "rendering": "homelands_layer",
+   "rendering_reason": "No cited dated boundary; rendered via the undated Homelands layer (Historian note data/eras/anuak-anywaa-communities.json extent_rendering, 4cec0d8)"
   },
   {
    "era_id": "independent-sudan-first-parliamentary-period",

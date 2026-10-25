@@ -6,8 +6,28 @@
  "end": 2026,
  "layers": {
   "extents": {
-   "file": null,
-   "features": []
+   "file": "db/extents/dinka-jieng-communities.geojson",
+   "features": [
+    {
+     "feature_index": 0,
+     "id": "grp-dinka-homeland-1",
+     "label_en": "Dinka (Jieng) homeland: Bor",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "start": null,
+     "end": null,
+     "source_ids": [
+      "GHA5_CH7",
+      "GHA7_CH23",
+      "LOC1991_NONMUSLIM",
+      "QASIM_MAWSUA",
+      "EP1940_NUER"
+     ]
+    }
+   ]
   },
   "groups": {
    "file": null,
@@ -1135,7 +1155,8 @@
   "city_other",
   "city_port",
   "city_religious",
-  "city_trade"
+  "city_trade",
+  "extent_label_point"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1154,7 +1175,8 @@
   "city_port": 2,
   "city_religious": 1,
   "city_trade": 1,
-  "extent_features": 0,
+  "extent_label_point": 1,
+  "extent_features": 1,
   "group_features": 0,
   "cities": 41
  },
@@ -1181,6 +1203,7 @@
  "interactive": {
   "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
   "layer_toggles": [
+   "extents",
    "cities",
    "homelands",
    "basemap_rivers",
@@ -1201,7 +1224,9 @@
   "what_changed": {
    "previous_era_id": "shilluk-kingdom",
    "basis": "previous era in same stream by start year",
-   "extents_added": [],
+   "extents_added": [
+    "Dinka (Jieng) homeland: Bor"
+   ],
    "extents_removed": [
     "Shilluk Kingdom"
    ],
