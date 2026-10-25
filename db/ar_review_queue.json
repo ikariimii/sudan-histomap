@@ -3414,6 +3414,19 @@
       "action": "verify",
       "origin_commit": "kassala-1894 war reassignment",
       "added": "2026-10-25"
+    },
+    {
+      "era_id": "ethiopian-empire-solomonic",
+      "file": "data/era_events.json",
+      "field_ar": "ethiopian-empire-solomonic[0].ar",
+      "arabic_sentence": "عهد غوندار 1636 [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "en",
+      "revised_english": "Gondar period 1636",
+      "reason": "Uncited end year 1769 cut per Innovation Manager ruling 2026-10-25 (mirrored in data/eras, periods.json/js); needs native review",
+      "action": "verify",
+      "origin_commit": "IM ruling 1769 cut",
+      "added": "2026-10-25"
     }
   ]
 }
