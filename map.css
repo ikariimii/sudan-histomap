@@ -135,3 +135,11 @@ body.embed #about,body.embed #lang,body.embed #srchb{display:none}#embo{font-siz
 #hint{position:fixed;top:calc(var(--chipb,120px) + 8px);inset-inline:10px;margin-inline:auto;max-width:340px;z-index:7;background:#0f1b24f2;color:#e8eef2;border:1px solid #8cc8f0;border-radius:10px;padding:10px 12px;font-size:14px;line-height:1.4;box-shadow:0 4px 16px #0008}#hint p{margin:4px 0 8px}#hint div{display:flex;gap:8px;flex-wrap:wrap}#hint .chip{min-height:36px}body.embed #hint,body.storyon #hint{display:none}
 #cmpbar input{min-height:44px;margin:0}#cmpbar input::-webkit-slider-thumb{width:26px;height:26px}#cmpbar input::-moz-range-thumb{width:26px;height:26px}#cmpbar>span{font-weight:600}
 .cmpdv line{stroke:#fff;stroke-width:2;filter:drop-shadow(0 0 2px #000)}.cmph{cursor:ew-resize;touch-action:none}.cmph .hit{fill:transparent}.cmph .knob{fill:#0f1b24;stroke:#fff;stroke-width:2}.cmph path{fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}body.sfull .cmpdv{display:none}
+/* Battles layer + era Events timeline (feature-flagged; see web/features.json) */
+.bts g.bt{cursor:pointer}.bts g.bt circle{fill:#6b1f1f;stroke:#f3c0a8;stroke-width:1.5}.bts g.bt path{stroke:#fff;stroke-width:2;fill:none;stroke-linecap:round}
+.bts g.pr-region circle{stroke-dasharray:3 2}.bts g.pr-reported circle{fill:#3a2a2a}.bts g.bt:focus-visible circle{stroke:#ffd166;stroke-width:3}
+.evpin circle{fill:none;stroke:#ffd166;stroke-width:3}
+.evt ol{list-style:none;padding:0;margin:4px 0}.evt li{margin:6px 0;padding-inline-start:8px;border-inline-start:2px solid var(--c,#7a8a96);overflow-wrap:anywhere}
+.evt .evgo{display:block;width:100%;box-sizing:border-box;min-height:44px;padding:6px 0;background:none;border:0;color:inherit;font:inherit;text-align:start;cursor:pointer}
+.evt .evgo:focus-visible{outline:2px solid #ffd166;outline-offset:2px}.evt .evp{color:#ffd166}.evt .evn{margin:4px 0}.evt .evy{font-weight:600;margin-inline-end:.35em}
+.btim{margin:6px 0}.btim img{display:block;max-width:100%;height:auto;border-radius:6px}.btim figcaption{font-size:12px;color:var(--mute)}

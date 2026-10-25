@@ -28,6 +28,30 @@ def offline():
         pg=str(r.get('pages','') or '')
         if re.match(r'^p{1,2}\.',pg) and not re.search(r'[0-9ivxlc]',pg): bad.append(('page-format',k,pg))
         if re.search(r'GHA',k) and pg=='' : pass
+    # battles layer + era events timeline (data/battles.json, data/era_events.json; VC_STUB=1 checks data/_stub/ instead, allowing STUB_EXAMPLE)
+    stub=os.environ.get('VC_STUB')=='1';bd='data/_stub/' if stub else 'data/';EIDS={os.path.basename(f)[:-5] for f in glob.glob('data/eras/*.json')}
+    def be(kind,it):
+        nonlocal n
+        ss=it.get('sources') or []
+        if not ss: bad.append((kind+'-uncited',it.get('id'),'')); return
+        for c in ss:
+            n+=1; sid=c.get('id') if isinstance(c,dict) else c; pg=str((c.get('page') if isinstance(c,dict) else '') or '')
+            if sid not in REG and not (stub and sid=='STUB_EXAMPLE'): bad.append((kind+'-unregistered',it.get('id'),sid))
+            if re.match(r'^p{1,2}\.',pg) and not re.search(r'[0-9ivxlc]',pg): bad.append((kind+'-page-format',it.get('id'),pg))
+    if os.path.isfile(bd+'battles.json'):
+        for b in json.load(open(bd+'battles.json',encoding='utf-8')).get('battles') or []:
+            be('battle',b); n+=1
+            if not isinstance(b.get('start'),int) or not isinstance(b.get('end',b.get('start')),int) or b.get('end',b.get('start'))<b.get('start',0): bad.append(('battle-dates',b.get('id'),''))
+            if not all(isinstance(b.get(k),(int,float)) for k in ('lon','lat')): bad.append(('battle-lonlat',b.get('id'),''))
+            for x in b.get('era_ids') or []:
+                if x not in EIDS: bad.append(('battle-era',b.get('id'),x))
+            im=b.get('image')
+            if im and im.get('src') and not im.get('credit'): bad.append(('battle-image-no-credit',b.get('id'),im.get('src')))
+    if os.path.isfile(bd+'era_events.json'):
+        for v in json.load(open(bd+'era_events.json',encoding='utf-8')).get('events') or []:
+            be('event',v); n+=1
+            if v.get('era_id') not in EIDS: bad.append(('event-era',v.get('id'),v.get('era_id')))
+            if not isinstance(v.get('year'),int): bad.append(('event-year',v.get('id'),v.get('year')))
     print(n,'offline checks; problems:',len(bad),'(registry %d IDs)'%len(REG),flush=True)
     for b in bad: print(b,flush=True)
     sys.exit(1 if bad else 0)

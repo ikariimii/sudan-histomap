@@ -20,8 +20,8 @@ $('lang').href=(AR?'/':'/ar/')+(lq.toString()?'?'+lq:'');$('prev').setAttribute(
 $('skip').textContent=T.skip;$('map').setAttribute('aria-label',T.mapl);$('svg').setAttribute('aria-label',T.mapl+'. '+T.featl);$('svgt').textContent=T.mapl;$('layers').setAttribute('aria-label',T.layersl);
 $('grab').setAttribute('aria-label',T.sheet+' · '+T.sheetst.half);$('grab').setAttribute('aria-expanded','true');
 $('reset').title=T.reset;$('reset').setAttribute('aria-label',T.reset);$('within').querySelector('label').textContent=T.within;
-const LAY=['ctl','grp','rel','eth','pop','cty','hml','trd','evd','now'],on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x==='trade'?'trd':x==='evidence'?'evd':x==='then-now'?'now':x).filter(x=>LAY.includes(x)));
-LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=T.l[k];b.setAttribute('aria-pressed',on.has(k));b.dataset.k=k;if(k==='trd')b.setAttribute('aria-label',T.l.trd_aria);
+const LAY=['ctl','grp','rel','eth','pop','cty','hml','trd','evd','now'].concat(M.layers.bat?['bat']:[]),on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x==='trade'?'trd':x==='evidence'?'evd':x==='then-now'?'now':x==='battles'?'bat':x).filter(x=>LAY.includes(x)));
+LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=T.l[k]||(k==='bat'?(AR?'المعارك *':'Battles'):k);b.setAttribute('aria-pressed',on.has(k));b.dataset.k=k;if(k==='trd')b.setAttribute('aria-label',T.l.trd_aria);
  b.onclick=()=>{on.has(k)?on.delete(k):on.add(k);if(k==='eth'&&on.has(k))eth1932();b.setAttribute('aria-pressed',on.has(k));url();if(k==='evd'){evdStyle();layerInfo(ES[i]);return}if(k==='now'){cmpDraw();return}render(false);if(k==='hml')hmlDraw()};$('layers').appendChild(b)});
 document.addEventListener('click',ev=>{const t=ev.target.closest&&ev.target.closest('[data-hml]');if(!t)return;ev.preventDefault();if(!on.has('hml')){on.add('hml');const c=document.querySelector('#layers .chip[data-k=hml]');if(c)c.setAttribute('aria-pressed','true');url();render(false);hmlDraw()}});
 // --- era index
@@ -69,7 +69,7 @@ let OLD=[];// previously drawn area features [{f,d,box}]
 async function render(anim=true){
  const e=ES[i];r.value=i;url();const g=await ext(e);if(e!==ES[i])return;
  cam(e,g);
- const st=steps(e,g);if(Y==null||Y<e.a||Y>e.b)Y=st[st.length-1];
+ const st=steps(e,g);if(Y==null||Y<e.a||Y>e.b)Y=st[st.length-1];ST=st;
  const wi=$('within');wi.hidden=st.length<2;if(st.length>1){const w=$('w');w.min=0;w.max=st.length-1;w.value=Math.max(0,st.findIndex(s=>s===Y));$('wo').textContent=fy(Y)}
  document.documentElement.style.setProperty('--c',e.c);
  $('en').textContent=AR?e.ar:e.en;r.setAttribute('aria-valuetext',`${AR?e.ar:e.en}${AR?'،':','} ${fy(e.a)} – ${fy(e.b)}`);if(render.last!==e.id){if(render.last)$('live').textContent=`${AR?e.ar:e.en}. ${fy(e.a)} – ${fy(e.b)}. ${num(i+1)} ${T.live_of} ${num(ES.length)}`;render.last=e.id}$('yrs').innerHTML=`<bdi>${fy(e.a)}</bdi> – <bdi>${fy(e.b)}</bdi> · ${esc(AR?e.sa:e.s)} · ${num(i+1)}/${num(ES.length)}`;
@@ -101,14 +101,14 @@ async function render(anim=true){
  const LB=[];areas.forEach(f=>{const q=f.properties.label_point;const xy=q?proj(q):path.centroid(f);if(lab(f.properties))LB.push({xy,t:short(lab(f.properties)),pri:3,big:1})});
  pts.forEach(f=>LB.push({xy:proj(f.geometry.coordinates),t:short(lab(f.properties)),pri:rep(f.properties)?2.5:2,rep:rep(f.properties),dx:9}));caps.forEach(c=>LB.push({xy:proj([c[1],c[2]]),t:c[0],pri:2,dx:8}));
  LBS=LB;
- await layersDraw(e);if(on.has('hml'))hmlDraw();prefetch(i);zonesDraw(e,D,ctl?g.features.filter(f=>f.properties.zone&&f.geometry.type!=='Point'):[]);
+ await layersDraw(e);batDraw(e);if(gEp)gEp.selectAll('*').remove();if(on.has('hml'))hmlDraw();prefetch(i);zonesDraw(e,D,ctl?g.features.filter(f=>f.properties.zone&&f.geometry.type!=='Point'):[]);
  // card
- const cj=await cardj(e);if(e!==ES[i])return;$('card').innerHTML=cj?cj[L]:`<p><span class="gap">${T.wip}</span></p>`;shareBtn(e);layerInfo(e);msPanel(e);$('feat').hidden=true;
+ const cj=await cardj(e);if(e!==ES[i])return;$('card').innerHTML=cj?cj[L]:`<p><span class="gap">${T.wip}</span></p>`;evList(e);shareBtn(e);layerInfo(e);msPanel(e);$('feat').hidden=true;
  place()}
 render.last=null;let LBS=[];
 new MutationObserver(()=>{const x=$('feat').querySelector('.x');if(x)x.setAttribute('aria-label',T.close)}).observe($('feat'),{childList:true});
 // keyboard access to map features: every tappable mark is a focusable button named by its <title>
-const FSEL='path.zn,g.pt,path.ext,path.ln,g.cty,g.hm,g.grp,path.rel';function a11yMarks(){root.selectAll(FSEL).each(function(){const t=this.querySelector('title');const l=(t&&t.textContent)||this.getAttribute('aria-label')||(this.__data__&&this.__data__.properties&&lab(this.__data__.properties))||'';if(!l){this.removeAttribute('tabindex');return}this.setAttribute('tabindex','0');this.setAttribute('role','button');this.setAttribute('aria-label',l)})}
+const FSEL='g.bt,path.zn,g.pt,path.ext,path.ln,g.cty,g.hm,g.grp,path.rel';function a11yMarks(){root.selectAll(FSEL).each(function(){const t=this.querySelector('title');const l=(t&&t.textContent)||this.getAttribute('aria-label')||(this.__data__&&this.__data__.properties&&lab(this.__data__.properties))||'';if(!l){this.removeAttribute('tabindex');return}this.setAttribute('tabindex','0');this.setAttribute('role','button');this.setAttribute('aria-label',l)})}
 let LASTF=null;svg.on('keydown.a11y',ev=>{const t=ev.target;if(!(t.matches&&t.matches(FSEL)))return;if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();LASTF=t;t.dispatchEvent(new MouseEvent('click',{bubbles:true}));setTimeout(()=>{if(!$('feat').hidden)$('feat').focus()},60)}});
 new MutationObserver(()=>{clearTimeout(a11yMarks.t);a11yMarks.t=setTimeout(a11yMarks,80)}).observe(document.getElementById('svg'),{childList:true,subtree:true});
 function nobPos(){const b=$('layers').getBoundingClientRect();document.documentElement.style.setProperty('--chipb',Math.round(b.bottom)+'px');$('nob').style.top=(b.bottom+6)+'px';setTimeout(lgFit,0)}
@@ -436,5 +436,31 @@ var STY=null;
 // --- start
 window.__hm={scale:k=>svg.call(zoom.scaleTo,k)};// test hook (QA only, no side effects)
 const eth1932=()=>{const e=ES[i];if(on.has('eth')&&(M.layers.eth||[]).includes(e.id)&&e.a<=1932&&1932<=e.b)Y=1932};eth1932();
+// --- Battles layer (?layers=battles) + era Events timeline. Built only when web/features.json turns them on and the
+// data passed the build cite checks (or a local HM_DEV_STUB build: EXAMPLE DATA badge). Every item carries a cite.
+var BTD=null,gBt=null,gEp=null,ST=null,EVD=null;const BT=AR?{d:'التاريخ *',sd:'الأطراف *',oc:'النتيجة *',src:'المصدر *',img:'الصورة *',ev:'أحداث العصر *',stub:'بيانات مثال (تجريبية)، ليست بحثًا *',fly:'اعرض على الخريطة *',pg:'ص'}:{d:'Date',sd:'Sides',oc:'Outcome',src:'Source',img:'Image',ev:'Events in this era',stub:'EXAMPLE DATA (stub), not research',fly:'Show on map',pg:'p.'};
+const bpick=a=>a?(AR?(a[1]||a[0]):(a[0]||a[1]))||'':'';
+const bcite=s=>s.map(c=>`<bdi dir="ltr">${esc(c.c)}${c.p?', '+esc(/^\s*(pp?\.|ص)/.test(c.p)?c.p:(/^\d/.test(c.p)?'p. '+c.p:c.p)):''}</bdi>${c.u?` <a href="${esc(c.u)}" rel="noopener">${esc(T.lnk||'link')}</a>`:''}`).join('<br>');
+async function batDraw(e){if(!M.layers.bat)return;gBt=gBt||root.append('g').attr('class','bts');if(!on.has('bat')){gBt.selectAll('*').remove();return}
+ if(!BTD)BTD=await getj('/b.json').catch(()=>({battles:[]}));if(e!==ES[i])return;const y=Y??e.b,y2=Math.min(e.b,((ST||[]).find(t=>t>y)??e.b+1)-1),B=BTD.battles.filter(b=>b.a<=y2&&y<=b.b);// a scrubber step stands for [step, next step)
+ const k=gBt.selectAll('g.bt').data(B,b=>b.id);k.exit().remove();
+ const n=k.enter().append('g').attr('class',b=>'bt mk pr-'+b.pr).each(function(b){this.__xy=proj(b.ll)}).on('click',(ev,b)=>{ev.stopPropagation();batCard(b)});
+ n.append('circle').attr('r',8);n.append('path').attr('d','M-4,-4L4,4M4,-4L-4,4');n.append('title').text(b=>bpick([b.en,b.ar]));scaleMarks();a11yMarks()}
+function batCard(b){const p=$('feat'),dt=bpick(b.dt)||(b.a===b.b?fy(b.a):fy(b.a)+' – '+fy(b.b));
+ p.innerHTML=`<button class="x" aria-label="${esc(T.close)}">×</button><b dir="auto">${esc(bpick([b.en,b.ar]))}</b>${BTD.stub?` <span class="repb">${esc(BT.stub)}</span>`:''}`+
+  `<p><b>${BT.d}:</b> <bdi>${esc(dt)}</bdi></p>`+(b.sd.length?`<p><b>${BT.sd}:</b> ${b.sd.map(s=>`<bdi>${esc(bpick(s))}</bdi>`).join(' · ')}</p>`:'')+(bpick(b.oc)?`<p><b>${BT.oc}:</b> <span dir="auto">${esc(bpick(b.oc))}</span></p>`:'')+
+  (b.im?`<figure class="btim"><img src="${esc(b.im.src)}" alt="${esc(bpick(b.im.alt)||bpick([b.en,b.ar]))}" loading="lazy" decoding="async"><figcaption><bdi dir="auto">${esc(b.im.cr)}</bdi>${b.im.li?' · <bdi dir="ltr">'+esc(b.im.li)+'</bdi>':''}${b.im.u?` <a href="${esc(b.im.u)}" rel="noopener">${esc(T.lnk||'link')}</a>`:''}</figcaption></figure>`:'')+
+  `<p class="extnote"><b>${BT.src}:</b> ${bcite(b.s)}</p>`;
+ p.hidden=false;p.querySelector('.x').onclick=()=>{p.hidden=true};if($('sheet').classList.contains('peek'))snap('half');p.scrollIntoView({block:'nearest'})}
+async function evList(e){if(!M.layers.ev||!(M.layers.evE||[]).includes(e.id))return;const d=await getj('/ev/'+e.id+'.json').catch(()=>null);if(!d||e!==ES[i]||!d.events.length)return;
+ const s=document.createElement('section');s.className='evt';s.setAttribute('aria-labelledby','evth');
+ s.innerHTML=`<h2 id="evth">${BT.ev}</h2>${d.stub?`<p><span class="repb">${esc(BT.stub)}</span></p>`:''}<ol>`+d.events.map((v,k)=>{const y=`<bdi class="evy">${v.ap?'c. ':''}${fy(v.y)}${v.y2!=null?' – '+fy(v.y2):''}</bdi>`,t=`<span dir="auto">${esc(bpick(v.t))}</span>`;
+  return `<li>${v.pl?`<button type="button" class="evgo" data-k="${k}" aria-label="${esc(bpick(v.t)+' · '+BT.fly+(bpick(v.pl.n)?': '+bpick(v.pl.n):''))}">${y} ${t} <span class="evp" aria-hidden="true">⌖</span></button>`:`<p class="evn">${y} ${t}</p>`}<small class="extnote">${bcite(v.s)}</small></li>`}).join('')+'</ol>';
+ $('card').appendChild(s);EVD=d.events;if(!evList.on){evList.on=1;$('card').addEventListener('click',ev=>{const b=ev.target.closest&&ev.target.closest('.evgo');if(b&&EVD)evFly(EVD[+b.dataset.k])})}}
+function evFly(v){const [x,y]=proj(v.pl.ll),sh=$('sheet').getBoundingClientRect(),k=Math.max(K,4);
+ const cx=desk()?(AR?(sh.right+W())/2:sh.left/2):W()/2,cy=desk()?H()/2:Math.max(140,(sh.top+120)/2);
+ gEp=gEp||root.append('g').attr('class','evpin');gEp.selectAll('*').remove();const g=gEp.append('g').attr('class','mk evpm').each(function(){this.__xy=[x,y]});g.append('circle').attr('r',7);scaleMarks();
+ $('live').textContent=bpick(v.t)+(bpick(v.pl.n)?' · '+bpick(v.pl.n):'');
+ svg.transition().duration(RM?0:DUR).call(zoom.transform,d3.zoomIdentity.translate(cx,cy).scale(k).translate(-x,-y))}
 fit();getj('/basemap-map.json').then(b=>{BASE=b;render(false)}).catch(()=>render(false));
 })();
