@@ -330,6 +330,7 @@ const TB=document.createElement('button');TB.type='button';TB.id='tour';TB.class
 let TT=null;const tourSet=p=>{TB.setAttribute('aria-pressed',p);TB.setAttribute('aria-label',p?T.tour_pause:T.tour_play);TB.title=p?T.tour_pause:T.tour_play;TB.innerHTML=p?'<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 2h4v12H3zM9 2h4v12H9z" fill="currentColor"/></svg>':'<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M4 2l10 6-10 6z" fill="currentColor"/></svg>'};
 function tourStop(){if(TT){clearTimeout(TT);TT=null;tourSet(false)}}
 function tourStep(){if(i>=ES.length-1){tourStop();return}go(i+1);TT=setTimeout(tourStep,RM?5000:4200)}
+document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&TT)tourStop()},true);
 TB.onclick=()=>{if(TT){tourStop();return}tourSet(true);if(i>=ES.length-1){go(0);TT=setTimeout(tourStep,RM?5000:4200)}else tourStep()};
 tourSet(false);$('scrub').appendChild(TB);
 document.addEventListener('visibilitychange',()=>{if(document.hidden)tourStop()});
@@ -337,7 +338,7 @@ document.addEventListener('visibilitychange',()=>{if(document.hidden)tourStop()}
 // slider keys (APG): arrows step one era (mirrored in RTL), Up/Down step, PageUp/PageDown ±5, Home/End first/last
 r.addEventListener('keydown',ev=>{tourStop();const k=ev.key,m={ArrowRight:AR?-1:1,ArrowLeft:AR?1:-1,ArrowUp:1,ArrowDown:-1,PageUp:5,PageDown:-5};let n=null;if(k in m)n=i+m[k];else if(k==='Home')n=0;else if(k==='End')n=ES.length-1;if(n==null)return;ev.preventDefault();go(n)});
 addEventListener('keydown',ev=>{if(ev.key===' '&&TT&&!(ev.target.closest&&ev.target.closest('button,input,select,textarea,a,[role=button],summary'))){ev.preventDefault();tourStop()}});
-addEventListener('keydown',ev=>{if(ev.key!=='Escape')return;if(TT){ev.preventDefault();tourStop();TB.focus();return}if(!$('feat').hidden){$('feat').hidden=true;if(LASTF&&LASTF.isConnected)LASTF.focus();return}if(lgOpen){$('lgb').click();$('lgb').focus();return}if($('sheet').classList.contains('full'))snap('half')});$('prev').onclick=()=>go(i-1);$('next').onclick=()=>go(i+1);
+addEventListener('keydown',ev=>{if(ev.key!=='Escape')return;if(!$('feat').hidden){$('feat').hidden=true;if(LASTF&&LASTF.isConnected)LASTF.focus();return}if(lgOpen){$('lgb').click();$('lgb').focus();return}if($('sheet').classList.contains('full'))snap('half')});$('prev').onclick=()=>go(i-1);$('next').onclick=()=>go(i+1);
 $('w').addEventListener('input',()=>{const e=ES[i];ext(e).then(g=>{Y=steps(e,g)[+$('w').value];render(true)})});
 addEventListener('keydown',ev=>{if(ev.target.tagName==='INPUT')return;if(ev.key==='ArrowRight'||ev.key==='ArrowLeft')tourStop();if(ev.key==='ArrowRight')go(i+(AR?-1:1));if(ev.key==='ArrowLeft')go(i+(AR?1:-1))});
 let sx=null;const hd=$('head');hd.addEventListener('pointerdown',ev=>{sx=ev.clientX});hd.addEventListener('pointerup',ev=>{if(sx==null)return;const d=ev.clientX-sx;sx=null;if(Math.abs(d)>50)go(i+((d<0)!==AR?1:-1))});
