@@ -377,7 +377,7 @@ const fold=s=>(s||'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f\u0
 // story mode: ?story=<chapter> steps through that chapter's eras (prev/next/exit bar); era cards offer "play this chapter"
 var STY=null;
 (()=>{const SM=M.t.en.story,S=T.story;if(!SM||!S)return;const ix=id=>ES.findIndex(e=>e.id===id);
- const CS=SM.c.map(c=>({...c,k:c.ids.map(ix).filter(k=>k>=0).sort((a,b)=>a-b)})).filter(c=>c.k.length>1);
+ const CS=SM.c.map(c=>({...c,k:c.ids.map(ix).filter(k=>k>=0)})) // order = data/story_chapters.json ids.filter(c=>c.k.length>1);
  const bar=document.createElement('div');bar.id='story';bar.hidden=true;bar.setAttribute('role','region');bar.setAttribute('aria-label',S.lbl);
  bar.innerHTML=`<span id="stt"></span><span id="stn" aria-live="polite"></span><button type="button" class="nav" id="stp">‹</button><button type="button" class="nav" id="stx2">›</button><button type="button" class="chip" id="stx">×</button>`;
  $('scrub').before(bar);$('stp').setAttribute('aria-label',S.prev);$('stx2').setAttribute('aria-label',S.next);$('stx').setAttribute('aria-label',S.x);$('stx').title=S.x;
