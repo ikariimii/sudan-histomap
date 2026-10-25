@@ -105,7 +105,7 @@ async function render(anim=true){
  LBS=LB;
  await layersDraw(e);batDraw(e);if(gEp)gEp.selectAll('*').remove();if(on.has('hml'))hmlDraw();prefetch(i);zonesDraw(e,D,ctl?g.features.filter(f=>f.properties.zone&&f.geometry.type!=='Point'):[]);
  // card
- const cj=await cardj(e);if(e!==ES[i])return;$('card').innerHTML=cj?cj[L]:`<p><span class="gap">${T.wip}</span></p>`;evList(e);shareBtn(e);layerInfo(e);msPanel(e);$('feat').hidden=true;
+ const cj=await cardj(e);if(e!==ES[i])return;$('card').innerHTML=cj?cj[L]:`<p><span class="gap">${T.wip}</span></p>`;evList(e);cityLO(e);shareBtn(e);layerInfo(e);msPanel(e);$('feat').hidden=true;
  place()}
 render.last=null;let LBS=[];
 new MutationObserver(()=>{const x=$('feat').querySelector('.x');if(x)x.setAttribute('aria-label',T.close)}).observe($('feat'),{childList:true});
@@ -232,7 +232,7 @@ async function layerInfo(e){const box=$('layerinfo');if(!box)return;let h='';
   if(d.lo&&d.lo.length)h+=`<p class="lgap"><button class="lob" type="button">${esc(T.lolist)} (${num(d.lo.length)})</button></p>`}}
  box.innerHTML=h;legendDraw(e);const lb=box.querySelector('.lob');if(lb)lb.onclick=ev=>cityList(ev)}
 const RK={capital:['Capital','عاصمة'],garrison:['Garrison','حامية'],port:['Port','ميناء'],religious:['Religious centre','مركز ديني'],trade:['Trade centre','مركز تجاري']};
-Object.assign(BL,{'APPROXIMATE-COORDS':['Approximate location','موقع تقريبي *'],'FIRST-ATTESTED':BL['FIRST-ATTESTED']||['First attested','أول ذكر موثّق'],UNDATED:BL.UNDATED||['Undated','غير مؤرّخ'],'AR-REVIEW':BL['AR-REVIEW']||['Arabic under review','العربية قيد المراجعة'],APPROXIMATE:BL.APPROXIMATE||['Approximate','تقريبي'],'RUIN-UNDATED':BL['RUIN-UNDATED']||['Ruin, end undated','أطلال، نهاية غير مؤرّخة']});
+Object.assign(BL,{'LIST-ONLY':BL['LIST-ONLY']||['Listed, not drawn','مدرج دون رسم *'],'NO-DATE':BL['NO-DATE']||['No date','بلا تاريخ *'],'APPROXIMATE-COORDS':['Approximate location','موقع تقريبي *'],'FIRST-ATTESTED':BL['FIRST-ATTESTED']||['First attested','أول ذكر موثّق'],UNDATED:BL.UNDATED||['Undated','غير مؤرّخ'],'AR-REVIEW':BL['AR-REVIEW']||['Arabic under review','العربية قيد المراجعة'],APPROXIMATE:BL.APPROXIMATE||['Approximate','تقريبي'],'RUIN-UNDATED':BL['RUIN-UNDATED']||['Ruin, end undated','أطلال، نهاية غير مؤرّخة']});
 async function cityList(ev){ev.stopPropagation();const d=await cty();if(!d)return;const B=x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`;
  $('feat').innerHTML=`<button class="x" aria-label="close">×</button><b>${esc(T.lolist)}</b><p class="gapt">${esc(T.lonote)}</p><ul class="lol">`+d.lo.map(c=>`<li><bdi>${esc(AR?(c.ar||c.en):(c.en||c.ar))}</bdi> ${(c.b||[]).map(B).join(' ')}${c.why&&!(AR&&/^no founded/i.test(c.why))?`<br><small class="gapt">${esc(c.why)}</small>`:''}</li>`).join('')+'</ul>';
  $('feat').hidden=false;if($('sheet').classList.contains('peek'))snap('half');const x=$('feat').querySelector('.x');if(x)x.onclick=()=>{$('feat').hidden=true;$('feat').classList.remove('on')}}
@@ -481,5 +481,14 @@ function evFly(v){const [x,y]=proj(v.pl.ll),sh=$('sheet').getBoundingClientRect(
  gEp=gEp||root.append('g').attr('class','evpin');gEp.selectAll('*').remove();const g=gEp.append('g').attr('class','mk evpm').each(function(){this.__xy=[x,y]});g.append('circle').attr('r',7);scaleMarks();
  $('live').textContent=bpick(v.t)+(bpick(v.pl.n)?' · '+bpick(v.pl.n):'');
  svg.transition().duration(RM?0:DUR).call(zoom.transform,d3.zoomIdentity.translate(cx,cy).scale(k).translate(-x,-y))}
+/* list-only places with a cited role in this era (legend class city_capital_list_only / city_list_only): text on the era card, never a map pin */
+const LOT=AR?{h:'أماكن مدرجة دون رسم على الخريطة *',to:'حتى *',from:'من *',nd:'بلا موضع على الخريطة: لا يوجد تاريخ تأسيس أو أول ذكر موثّق *'}:{h:'Places listed, not drawn on the map',to:'to',from:'from',nd:'No map pin: no cited founded or first-attested date'};
+async function cityLO(e){const d=await lgj(e.id);if(e!==ES[i]||!d||!(d.lo||[]).length||document.getElementById('clo'))return;const B=x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`;
+ const s=document.createElement('section');s.id='clo';s.className='clo';s.setAttribute('aria-labelledby','cloh');
+ s.innerHTML=`<h2 id="cloh">${LOT.h}</h2><p class="gapt">${LOT.nd}</p><ul>`+d.lo.map(c=>{const nm=AR?(c.n_ar?esc(c.n_ar):`<bdi dir="ltr">${esc(c.n_en)}</bdi>`):esc(c.en||c.n_en);
+  const rr=c.rr.map(r=>{const rk=RK[r.r]?RK[r.r][AR?1:0]:r.r;const yr=r.a!=null&&r.b!=null?`<bdi>${esc(fy(r.a))} – ${esc(fy(r.b))}</bdi>`:r.b!=null?`${LOT.to} <bdi>${esc(fy(r.b))}</bdi>`:r.a!=null?`${LOT.from} <bdi>${esc(fy(r.a))}</bdi>`:'';
+   return `${esc(rk)}${AR&&yr?' ('+yr+')':''} · <small><bdi dir="ltr">${esc(r.s.c)}${r.p?', p. '+esc(r.p):''}</bdi>${r.s.u?` <a href="${esc(r.s.u)}" rel="noopener">${esc(T.lnk||'link')}</a>`:''}</small>`}).join('<br>');
+  return `<li><b>${nm}</b> ${(c.b||[]).map(B).join(' ')}<br>${rr}</li>`}).join('')+'</ul>';
+ $('card').appendChild(s)}
 fit();getj('/basemap-map.json').then(b=>{BASE=b;render(false)}).catch(()=>render(false));
 })();
