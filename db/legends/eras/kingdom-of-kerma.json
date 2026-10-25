@@ -3,7 +3,7 @@
  "name_en": "Kingdom of Kerma",
  "stream": "Sudan – Middle Nile",
  "start": -2450,
- "end": -1480,
+ "end": -1450,
  "layers": {
   "extents": {
    "file": "db/extents/kingdom-of-kerma.geojson",
@@ -19,7 +19,7 @@
       "DERIVED"
      ],
      "start": -2450,
-     "end": -1480,
+     "end": -1450,
      "source_ids": [
       "KERMA_MISSION",
       "GHA2",
@@ -336,7 +336,7 @@
    "GHA2_CH19",
    "SFDAS_HCS2017"
   ],
-  "dating_note": "Corrected to the Swiss mission chronology: Early Kerma 2450–2050, Middle 2050–1750, Classic 1750–1550 BCE (SFDAS_HCS2017 p.69). Note GHA II (1981) still dates 'Kerma' to -1730/-1580, i.e. only the Classic phase; superseded by Bonnet/Honegger excavations.",
+  "dating_note": "Corrected to the Swiss mission chronology: Early Kerma 2450–2050, Middle 2050–1750, Classic 1750–1550 BCE, and Final Kerma 1550–1450 BCE, 'correspondant aux longues luttes qui précédèrent la victoire définitive des Égyptiens' (SFDAS_HCS2017 p.69). Era end -1450 follows the chapter span 'le Groupe C et le royaume de Kerma 2450-1450' (p.59) and the campaign under Hatshepsut 'sans doute vers 1 470 av. J.-C.', after which 'La cité de Kerma fut définitivement abandonnée' (p.95). Note GHA II (1981) still dates 'Kerma' to -1730/-1580, i.e. only the Classic phase; superseded by Bonnet/Honegger excavations.",
   "capitals": [
    {
     "name": "Kerma",
@@ -344,8 +344,8 @@
     "lon": 30.4097
    }
   ],
-  "control_limits_en": "Kerma 'will dominate Upper Nubia for almost a thousand years'; in Classic Kerma (c.1750–1480 BCE) 'the influence of its rulers spreads even to Lower Nubia' (KERMA_MISSION). During the Middle Kingdom 'the southern boundary of the Egyptian Middle Kingdom was unquestionably fixed at Semna by Senusret III' (GHA2, ch.9).",
-  "control_limits_ar": "«ستهيمن [كرمة] على النوبة العليا قرابة ألف عام»؛ وفي كرمة الكلاسيكية (نحو 1750–1480 ق.م) «امتد نفوذ حكامها حتى النوبة السفلى» (بعثة كرمة). وفي عهد الدولة الوسطى «ثبّت سنوسرت الثالث الحدّ الجنوبي للدولة المصرية الوسطى عند سمنة بلا شك» (تاريخ أفريقيا العام II، الفصل 9).",
+  "control_limits_en": "Kerma 'will dominate Upper Nubia for almost a thousand years'; in Classic Kerma (c.1750–1550 BCE) 'the influence of its rulers spreads even to Lower Nubia' (KERMA_MISSION). During the Middle Kingdom 'the southern boundary of the Egyptian Middle Kingdom was unquestionably fixed at Semna by Senusret III' (GHA2, ch.9).",
+  "control_limits_ar": "«ستهيمن [كرمة] على النوبة العليا قرابة ألف عام»؛ وفي كرمة الكلاسيكية (نحو 1750–1550 ق.م [VERIFY]) «امتد نفوذ حكامها حتى النوبة السفلى» (بعثة كرمة). وفي عهد الدولة الوسطى «ثبّت سنوسرت الثالث الحدّ الجنوبي للدولة المصرية الوسطى عند سمنة بلا شك» (تاريخ أفريقيا العام II، الفصل 9).",
   "control_limits_source_ids": [
    "KERMA_MISSION",
    "GHA2"
