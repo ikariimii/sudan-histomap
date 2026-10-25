@@ -2,7 +2,7 @@
  "meta": {
   "owner": "Sudan Historian",
   "built": "2026-10-24",
-  "batch": "1 + 2 (QASIM_MAWSUA vol. 4 additions and stubs) + 2b (Nuba, Dinka, Nuer, Shilluk, Masalit, Baggara)",
+  "batch": "1 + 2 (QASIM_MAWSUA vol. 4 additions and stubs) + 2b (Nuba, Dinka, Nuer, Shilluk, Masalit, Baggara) + 3 (Anuak)",
   "status": "draft batch 1; Arabic text is a working translation pending native review",
   "badges": [
    "APPROXIMATE",
@@ -4641,6 +4641,88 @@
     }
    ],
    "relations_generated_from": "db/relations.json"
+  },
+  {
+   "id": "anuak",
+   "name_en": "Anuak (Anywaa)",
+   "name_ar": {
+    "value": "الأنواك (أنيواك)",
+    "status": "working translation – needs native-speaker review"
+   },
+   "aliases": [],
+   "subgroups": {
+    "value": null,
+    "null_reason": "EP1940_NUER names only the 'Eastern Anuak' (preface) and 'the Anuak of the Baro' (p.88) in passing, not as a subgroup list; EP1940_ANUAK not read"
+   },
+   "language_family": {
+    "value": "Shilluk-speaking (Luo) subdivision of the Nilotes",
+    "cite": [
+     {
+      "source": "EP1940_NUER",
+      "page": "p.3",
+      "quote": "Shilluk and various peoples who speak languages similar to Shilluk (Luo, Anuak, Lango, &c.)"
+     },
+     {
+      "source": "EP1940_NUER",
+      "page": "p.132",
+      "quote": "The Anuak, who also belong to the Shilluk-Luo group, border the Nuer to the south-east."
+     }
+    ]
+   },
+   "homeland": {
+    "text_en": "A continuous territory south-east of the Nuer; the Pibor river separated the Lou Nuer from the Anuak. Evans-Pritchard says the Anuak once extended far west of their 1930s distribution.",
+    "text_ar": "أرض متصلة إلى الجنوب الشرقي من النوير؛ وكان نهر البيبور يفصل نوير اللو عن الأنواك. ويذكر إيفانز-بريتشارد أن الأنواك امتدوا قديماً إلى الغرب كثيراً من توزيعهم في ثلاثينيات القرن العشرين.",
+    "text_ar_status": "working translation – needs native-speaker review",
+    "cite": [
+     {
+      "source": "EP1940_NUER",
+      "page": "p.5",
+      "quote": "The Nuer, the Shilluk, and the Anuak each occupy a continuous territory"
+     },
+     {
+      "source": "EP1940_NUER",
+      "page": "p.112",
+      "quote": "the Pibor separates the Lou tribe from the Anuak people"
+     },
+     {
+      "source": "EP1940_NUER",
+      "page": "p.132"
+     },
+     {
+      "source": "EP1940_NUER",
+      "page": "p.133",
+      "quote": "at one time the Anuak extended far westward of their present distribution"
+     }
+    ],
+    "badge": "SINGLE-SOURCE",
+    "note": "Outsider (Nuer-focused) account, 1940.",
+    "anchors": [
+     {
+      "place": "Pibor River",
+      "gazetteer": "wikidata:Q3179125",
+      "lat": 8.4337,
+      "lon": 33.2185,
+      "coord_source": "Wikidata P625",
+      "cite": {
+       "source": "EP1940_NUER",
+       "page": "p.112"
+      },
+      "note": "river named as the Lou Nuer–Anuak divide; the Wikidata point is a single river coordinate, not the homeland centre"
+     }
+    ]
+   },
+   "controlled_areas": [],
+   "ancestry": [],
+   "origin": {
+    "value": null,
+    "null_reason": "not stated in sources read"
+   },
+   "relations": [],
+   "sources": [
+    "EP1940_NUER"
+   ],
+   "batch": "3 (EP1940_NUER; EP1940_ANUAK registered but not read)",
+   "note": "Requested from EP1940_ANUAK; that monograph is not on the box, so every cite here is to The Nuer (1940)."
   }
  ]
 }
