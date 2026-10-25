@@ -63,6 +63,15 @@
    "page": "375",
    "first_attested": 1250,
    "last_attested": 1360
+  },
+  {
+   "city_id": "cairo",
+   "role": "capital/centre (listed in era capitals)",
+   "source_id": "GHA4_CH16",
+   "page": null,
+   "first_attested": 641,
+   "last_attested": null,
+   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
   }
  ],
  "focus_view": {

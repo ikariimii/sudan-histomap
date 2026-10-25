@@ -57,8 +57,32 @@
   }
  ],
  "regional_power_null_reason": "no cited comparative measure",
- "key_cities": null,
- "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "key_cities": [
+  {
+   "city_id": "philae",
+   "role": "religious",
+   "source_id": "GHA2_CH6",
+   "page": "203",
+   "first_attested": 300,
+   "last_attested": 537
+  },
+  {
+   "city_id": "aswan",
+   "role": "garrison",
+   "source_id": "GHA2_CH7",
+   "page": "208",
+   "first_attested": -2200,
+   "last_attested": null
+  },
+  {
+   "city_id": "alexandria",
+   "role": "capital",
+   "source_id": "GHA2_CH6",
+   "page": "184",
+   "first_attested": -305,
+   "last_attested": null
+  }
+ ],
  "focus_view": {
   "bbox": [
    29.079,

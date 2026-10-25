@@ -63,12 +63,11 @@
  "key_cities": [
   {
    "city_id": "shendi",
-   "role": "capital/centre (listed in era capitals)",
-   "source_id": "HD2011",
-   "page": null,
+   "role": "capital",
+   "source_id": "GHA5_CH7",
+   "page": "183",
    "first_attested": 1801,
-   "last_attested": null,
-   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+   "last_attested": null
   }
  ],
  "focus_view": {

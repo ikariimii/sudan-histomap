@@ -71,8 +71,16 @@
    "cite": "COW NMC v6.0 CINC, 1953–2016"
   }
  ],
- "key_cities": null,
- "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "key_cities": [
+  {
+   "city_id": "cairo",
+   "role": "capital",
+   "source_id": "LOC1991_EGYPT",
+   "page": "countrystudies.us/sudan/76.htm",
+   "first_attested": 641,
+   "last_attested": null
+  }
+ ],
  "focus_view": {
   "bbox": [
    22.877,

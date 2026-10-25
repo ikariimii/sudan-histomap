@@ -64,8 +64,24 @@
   }
  ],
  "regional_power_null_reason": "no cited comparative measure",
- "key_cities": null,
- "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "key_cities": [
+  {
+   "city_id": "medina",
+   "role": "religious",
+   "source_id": "GHA5_CH6",
+   "page": "138",
+   "first_attested": 622,
+   "last_attested": null
+  },
+  {
+   "city_id": "mecca",
+   "role": "religious",
+   "source_id": "GHA5_CH6",
+   "page": "138",
+   "first_attested": 610,
+   "last_attested": null
+  }
+ ],
  "focus_view": {
   "bbox": [
    38.326,

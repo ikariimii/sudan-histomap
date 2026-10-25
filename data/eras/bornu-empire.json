@@ -60,8 +60,16 @@
   }
  ],
  "regional_power_null_reason": "no cited comparative measure",
- "key_cities": null,
- "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "key_cities": [
+  {
+   "city_id": "ngazargamu",
+   "role": "capital",
+   "source_id": "GHA4_CH10",
+   "page": "265",
+   "first_attested": 1380,
+   "last_attested": null
+  }
+ ],
  "focus_view": {
   "bbox": [
    11.728,

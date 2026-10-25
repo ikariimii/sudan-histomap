@@ -992,7 +992,17 @@
     "year": null,
     "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
    },
-   "roles": [],
+   "roles": [
+    {
+     "era_id": "ptolemaic-egypt",
+     "role": "religious",
+     "start": null,
+     "end": null,
+     "source_id": "GHA2_CH6",
+     "page": "203",
+     "note": "Isis cult centre"
+    }
+   ],
    "history_en": "Island temple site; seat of bishops from the 4th century.",
    "history_ar": "جزيرة معابد، مقر أساقفة منذ القرن الرابع.",
    "history_ar_status": "working translation — needs native review",
@@ -1004,6 +1014,10 @@
     {
      "id": "GHA2_CH12",
      "page": "331"
+    },
+    {
+     "id": "GHA2_CH6",
+     "page": "203"
     },
     {
      "id": "WIKIDATA_CITIES",
@@ -1250,7 +1264,43 @@
    "founded": null,
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
-   "roles": [],
+   "roles": [
+    {
+     "era_id": "early-dynastic-old-kingdom-egypt",
+     "role": "garrison",
+     "start": null,
+     "end": null,
+     "source_id": "GHA2_CH9",
+     "page": "250",
+     "note": "southern border at Aswan in the Old Kingdom"
+    },
+    {
+     "era_id": "ptolemaic-egypt",
+     "role": "garrison",
+     "start": null,
+     "end": null,
+     "source_id": "GHA2_CH7",
+     "page": "208",
+     "note": "Syene"
+    },
+    {
+     "era_id": "islamic-egypt-rashidunfatimidayyubid",
+     "role": "garrison",
+     "start": null,
+     "end": null,
+     "source_id": "GHA3_CH7",
+     "page": "168"
+    },
+    {
+     "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+     "role": "garrison",
+     "start": null,
+     "end": null,
+     "source_id": "GHA5_CH7",
+     "page": "175",
+     "note": "Ottoman garrison"
+    }
+   ],
    "history_en": "Egypt's southern frontier town; received Nubian tribute under the baqt.",
    "history_ar": "مدينة الحدود الجنوبية لمصر، كانت تتسلم جزية النوبة بموجب البقط.",
    "history_ar_status": "working translation — needs native review",
@@ -1262,6 +1312,22 @@
     {
      "id": "GHA3_CH8",
      "page": "195"
+    },
+    {
+     "id": "GHA2_CH9",
+     "page": "250"
+    },
+    {
+     "id": "GHA2_CH7",
+     "page": "208"
+    },
+    {
+     "id": "GHA3_CH7",
+     "page": "168"
+    },
+    {
+     "id": "GHA5_CH7",
+     "page": "175"
     },
     {
      "id": "WIKIDATA_CITIES",
@@ -1370,6 +1436,14 @@
      "source_id": "GHA2",
      "page": "343",
      "note": "Pliny (c.+75) calls it an important port"
+    },
+    {
+     "era_id": "land-of-punt-d-mt",
+     "role": "port",
+     "start": null,
+     "end": null,
+     "source_id": "GHA2_CH13",
+     "page": "343"
     }
    ],
    "history_en": "Red Sea port, later the harbour of Aksum.",
@@ -1383,6 +1457,10 @@
     {
      "id": "GHA3_CH19",
      "page": "562"
+    },
+    {
+     "id": "GHA2_CH13",
+     "page": "343"
     },
     {
      "id": "WIKIDATA_CITIES",
@@ -1442,6 +1520,14 @@
      "source_id": "GHAIV",
      "page": "375",
      "note": "port for oriental trade"
+    },
+    {
+     "era_id": "islamic-egypt-rashidunfatimidayyubid",
+     "role": "port",
+     "start": null,
+     "end": null,
+     "source_id": "GHA4_CH16",
+     "page": "401"
     }
    ],
    "history_en": "Medieval Red Sea port for trade and pilgrims.",
@@ -1459,6 +1545,10 @@
     {
      "id": "GHAIV",
      "page": "375"
+    },
+    {
+     "id": "GHA4_CH16",
+     "page": "401"
     },
     {
      "id": "WIKIDATA_CITIES",
@@ -1562,7 +1652,17 @@
    "founded": null,
    "founded_reason": "GHA V gives 1504 for the Funj sultanate, not the town",
    "abandoned": null,
-   "roles": [],
+   "roles": [
+    {
+     "era_id": "funj-sultanate-of-sennar",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "GHA5_CH7",
+     "page": "177",
+     "note": "Funj consolidated at Sennar"
+    }
+   ],
    "history_en": "Funj capital; a major commercial centre described in 1701.",
    "history_ar": "عاصمة الفونج، ومركز تجاري كبير وُصف سنة 1701.",
    "history_ar_status": "working translation — needs native review",
@@ -1574,6 +1674,10 @@
     {
      "id": "GHA5_CH7",
      "page": "183"
+    },
+    {
+     "id": "GHA5_CH7",
+     "page": "177"
     },
     {
      "id": "WIKIDATA_CITIES",
@@ -1791,7 +1895,25 @@
    "founded": null,
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
-   "roles": [],
+   "roles": [
+    {
+     "era_id": "funj-sultanate-of-sennar",
+     "role": "trade",
+     "start": null,
+     "end": null,
+     "source_id": "GHA5_CH7",
+     "page": "181"
+    },
+    {
+     "era_id": "ja-aliyyin-kingdom-sa-dab-funj-vassal",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "GHA5_CH7",
+     "page": "183",
+     "note": "\"Dja'aliyyun of Shandi\""
+    }
+   ],
    "history_en": "Ja'aliyin seat where Mek Nimir burned Isma'il Pasha in 1822.",
    "history_ar": "مقر الجعليين حيث أحرق المك نمر إسماعيل باشا سنة 1822.",
    "history_ar_status": "working translation — needs native review",
@@ -1803,6 +1925,14 @@
     {
      "id": "MACMICHAEL1922_V1",
      "page": "233"
+    },
+    {
+     "id": "GHA5_CH7",
+     "page": "181"
+    },
+    {
+     "id": "GHA5_CH7",
+     "page": "183"
     },
     {
      "id": "WIKIDATA_CITIES",
@@ -2025,7 +2155,17 @@
    "founded": null,
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
-   "roles": [],
+   "roles": [
+    {
+     "era_id": "turkiyya-ottoman-egyptian-rule",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "GHA6_CH14",
+     "page": "363",
+     "note": "Kordofan"
+    }
+   ],
    "history_en": "Kordofan town; a scene of military risings under Turco-Egyptian rule.",
    "history_ar": "مدينة في كردفان شهدت تمردات عسكرية في العهد التركي المصري.",
    "history_ar_status": "working translation — needs native review",
@@ -2363,6 +2503,47 @@
      "source_id": "GHAVII",
      "page": "81",
      "note": "\"the government in Khartoum\" (1904)"
+    },
+    {
+     "era_id": "independent-sudan-first-parliamentary-period",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "LOC1991_INDSUDAN",
+     "page": "countrystudies.us/sudan/20.htm"
+    },
+    {
+     "era_id": "second-parliamentary-period",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "LOC1991_CIVIL6469",
+     "page": "countrystudies.us/sudan/22.htm"
+    },
+    {
+     "era_id": "nimeiry-era-democratic-republic-of-sudan",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "LOC1991_NIMEIRI",
+     "page": "countrystudies.us/sudan/23.htm"
+    },
+    {
+     "era_id": "transitional-third-parliamentary-period",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "LOC1991_SADIQ",
+     "page": "countrystudies.us/sudan/28.htm"
+    },
+    {
+     "era_id": "war-in-sudan-saf-vs-rsf",
+     "role": "capital",
+     "start": 2023,
+     "end": null,
+     "source_id": "UNNEWS2023",
+     "page": "web",
+     "note": "UN News: \"armed fighting in the Sudanese capital, Khartoum\""
     }
    ],
    "history_en": "Capital at the confluence of the Niles.",
@@ -2376,6 +2557,26 @@
     {
      "id": "GHAVII",
      "page": "81"
+    },
+    {
+     "id": "LOC1991_INDSUDAN",
+     "page": "countrystudies.us/sudan/20.htm"
+    },
+    {
+     "id": "LOC1991_CIVIL6469",
+     "page": "countrystudies.us/sudan/22.htm"
+    },
+    {
+     "id": "LOC1991_NIMEIRI",
+     "page": "countrystudies.us/sudan/23.htm"
+    },
+    {
+     "id": "LOC1991_SADIQ",
+     "page": "countrystudies.us/sudan/28.htm"
+    },
+    {
+     "id": "UNNEWS2023",
+     "page": "web"
     },
     {
      "id": "WIKIDATA_CITIES",
@@ -2674,6 +2875,10 @@
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
     {
+     "id": "LOC1991_NONMUSLIM",
+     "page": "countrystudies.us/sudan/39.htm"
+    },
+    {
      "id": "GHA5_CH7",
      "page": "193"
     },
@@ -2686,8 +2891,18 @@
     "source_id": "GHA5_CH7",
     "page": "193"
    },
-   "map_from": null,
-   "list_only_reason": "no cited founded or first-attested date in sources read"
+   "map_from": {
+    "year": 1490,
+    "basis": "first_attested"
+   },
+   "list_only_reason": null,
+   "first_attested": {
+    "year": 1490,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA5_CH7",
+    "page": "193",
+    "basis": "Shilluk \"first settlement was near Malakal, under their leader, Nyikang (c. 1490-1517)\""
+   }
   },
   {
    "id": "wau",
@@ -2711,12 +2926,26 @@
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
     {
+     "id": "LOC1991_CIVIL6469",
+     "page": "countrystudies.us/sudan/22.htm"
+    },
+    {
      "id": "WIKIDATA_CITIES",
      "page": "Q276534"
     }
    ],
-   "map_from": null,
-   "list_only_reason": "no cited founded or first-attested date in sources read"
+   "map_from": {
+    "year": 1964,
+    "basis": "first_attested"
+   },
+   "list_only_reason": null,
+   "first_attested": {
+    "year": 1964,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "LOC1991_CIVIL6469",
+    "page": "countrystudies.us/sudan/22.htm",
+    "basis": "\"government atrocities against civilians, especially at Juba and Waw\" (1964-69 section); year = start of that section, not a dated mention"
+   }
   },
   {
    "id": "nyala",
@@ -2849,11 +3078,24 @@
     "note": "Wikidata P571 29 May 1900 (as Fort-Lamy); not corroborated in GHA"
    },
    "abandoned": null,
-   "roles": [],
+   "roles": [
+    {
+     "era_id": "french-chad-republic-of-chad",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "LOC_TCD1988_NIGSUDAN",
+     "page": "countrystudies.us/chad/53.htm"
+    }
+   ],
    "history_en": "Capital of Chad, founded as Fort-Lamy.",
    "history_ar": "عاصمة تشاد، أسست باسم فور لامي.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "LOC_TCD1988_NIGSUDAN",
+     "page": "countrystudies.us/chad/53.htm"
+    },
     {
      "id": "WIKIDATA_CITIES",
      "page": "Q3659"
@@ -2909,7 +3151,17 @@
    "founded": null,
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
-   "roles": [],
+   "roles": [
+    {
+     "era_id": "libya-ottoman-italian-independent",
+     "role": "religious",
+     "start": null,
+     "end": null,
+     "source_id": "LOC_LBY1987_SANUSI",
+     "page": "countrystudies.us/libya/18.htm",
+     "note": "order HQ moved to Al Kufrah"
+    }
+   ],
    "history_en": "Saharan oasis on the route from Cyrenaica to Wadai.",
    "history_ar": "واحة صحراوية على الطريق من برقة إلى وداي.",
    "history_ar_status": "working translation — needs native review",
@@ -2917,6 +3169,10 @@
     {
      "id": "GHAIII",
      "page": "283"
+    },
+    {
+     "id": "LOC_LBY1987_SANUSI",
+     "page": "countrystudies.us/libya/18.htm"
     },
     {
      "id": "WIKIDATA_CITIES",
@@ -4163,6 +4419,580 @@
      "page": "project page"
     }
    ]
+  },
+  {
+   "id": "alexandria",
+   "name_en": "Alexandria",
+   "name_ar": "الإسكندرية",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q87",
+   "lat": 31.1975,
+   "lon": 29.8925,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q87"
+   },
+   "category": "historic",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "ptolemaic-egypt",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "GHA2_CH6",
+     "page": "184",
+     "note": "Ptolemaic capital"
+    },
+    {
+     "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+     "role": "port",
+     "start": null,
+     "end": null,
+     "source_id": "GHA6_CH13",
+     "page": "325"
+    }
+   ],
+   "history_en": "Ptolemaic capital (GHA II p.184); port of Ottoman/Muhammad Ali Egypt (GHA VI p.325).",
+   "history_ar": "عاصمة البطالمة (GHA II ص184)؛ ميناء مصر في العهد العثماني وعهد محمد علي (GHA VI ص325).",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA2_CH6",
+     "page": "184"
+    },
+    {
+     "id": "GHA6_CH13",
+     "page": "325"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q87"
+    }
+   ],
+   "first_attested": {
+    "year": -305,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2_CH6",
+    "page": "184",
+    "basis": "first cited era role (capital, ptolemaic-egypt) has no stated start; year = start bound of era ptolemaic-egypt (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": -305,
+    "basis": "first_attested"
+   },
+   "list_only_reason": null,
+   "history_source": {
+    "source_id": "GHA2_CH6",
+    "page": "184"
+   }
+  },
+  {
+   "id": "cairo",
+   "name_en": "Cairo",
+   "name_ar": "القاهرة",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q85",
+   "lat": 30.0444,
+   "lon": 31.2358,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q85"
+   },
+   "category": "historic",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "islamic-egypt-rashidunfatimidayyubid",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "GHA3_CH7",
+     "page": "163",
+     "note": "\"from Baghdad, first to Fustat, then to Cairo\""
+    },
+    {
+     "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "GHA6_CH13",
+     "page": "325",
+     "note": "\"the masses of Cairo and Alexandria\" (1805)"
+    },
+    {
+     "era_id": "republic-of-egypt",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "LOC1991_EGYPT",
+     "page": "countrystudies.us/sudan/76.htm",
+     "note": "Cairo's support of Nimeiri"
+    }
+   ],
+   "history_en": "Capital of Islamic Egypt after Fustat (GHA III p.163) and of Muhammad Ali's Egypt (GHA VI p.325).",
+   "history_ar": "عاصمة مصر الإسلامية بعد الفسطاط (GHA III ص163) وعاصمة مصر في عهد محمد علي (GHA VI ص325).",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA3_CH7",
+     "page": "163"
+    },
+    {
+     "id": "GHA6_CH13",
+     "page": "325"
+    },
+    {
+     "id": "LOC1991_EGYPT",
+     "page": "countrystudies.us/sudan/76.htm"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q85"
+    }
+   ],
+   "first_attested": {
+    "year": 641,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA3_CH7",
+    "page": "163",
+    "basis": "first cited era role (capital, islamic-egypt-rashidunfatimidayyubid) has no stated start; year = start bound of era islamic-egypt-rashidunfatimidayyubid (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 641,
+    "basis": "first_attested"
+   },
+   "list_only_reason": null,
+   "history_source": {
+    "source_id": "GHA3_CH7",
+    "page": "163"
+   }
+  },
+  {
+   "id": "fustat",
+   "name_en": "Fustat",
+   "name_ar": "الفسطاط",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q839456",
+   "lat": 30.005,
+   "lon": 31.2375,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q839456"
+   },
+   "category": "medieval",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "islamic-egypt-rashidunfatimidayyubid",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "GHA3_CH7",
+     "page": "171",
+     "note": "regional seat of Abbasid authority"
+    }
+   ],
+   "history_en": "First Arab capital of Egypt, seat of Abbasid provincial authority before Cairo (GHA III pp.163, 171).",
+   "history_ar": "أول عاصمة عربية لمصر، ومقر السلطة العباسية الإقليمية قبل القاهرة (GHA III ص163، 171).",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA3_CH7",
+     "page": "171"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q839456"
+    }
+   ],
+   "first_attested": {
+    "year": 641,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA3_CH7",
+    "page": "171",
+    "basis": "first cited era role (capital, islamic-egypt-rashidunfatimidayyubid) has no stated start; year = start bound of era islamic-egypt-rashidunfatimidayyubid (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 641,
+    "basis": "first_attested"
+   },
+   "list_only_reason": null,
+   "history_source": {
+    "source_id": "GHA3_CH7",
+    "page": "171"
+   }
+  },
+  {
+   "id": "ngazargamu",
+   "name_en": "Ngazargamu",
+   "name_ar": "نغازارغامو",
+   "name_ar_source": "working translation — needs native review",
+   "wikidata": "Q1496614",
+   "lat": 13.0472,
+   "lon": 12.2278,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1496614"
+   },
+   "category": "medieval",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "bornu-empire",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "GHA4_CH10",
+     "page": "265",
+     "note": "\"built the city of Gazargamo… capital of the Sefuwa for over three centuries\""
+    }
+   ],
+   "history_en": "Capital of the Sefuwa of Bornu for over three centuries (GHA IV p.265).",
+   "history_ar": "عاصمة السيفيين في برنو لأكثر من ثلاثة قرون (GHA IV ص265).",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA4_CH10",
+     "page": "265"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1496614"
+    }
+   ],
+   "first_attested": {
+    "year": 1380,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA4_CH10",
+    "page": "265",
+    "basis": "first cited era role (capital, bornu-empire) has no stated start; year = start bound of era bornu-empire (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 1380,
+    "basis": "first_attested"
+   },
+   "list_only_reason": null,
+   "history_source": {
+    "source_id": "GHA4_CH10",
+    "page": "265"
+   }
+  },
+  {
+   "id": "yeha",
+   "name_en": "Yeha",
+   "name_ar": "يحا",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1081229",
+   "lat": 14.2833,
+   "lon": 39.0167,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q1081229"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "land-of-punt-d-mt",
+     "role": "religious",
+     "start": null,
+     "end": null,
+     "source_id": "GHA2_CH13",
+     "page": "343",
+     "note": "\"the temple of Yeha\""
+    }
+   ],
+   "history_en": "Site of the temple of Yeha, the main surviving monument of the pre-Aksumite period, later a church (GHA II p.343).",
+   "history_ar": "موقع معبد يحا، أبرز معلم باقٍ من فترة ما قبل أكسوم، تحوّل لاحقًا إلى كنيسة (GHA II ص343).",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA2_CH13",
+     "page": "343"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q1081229"
+    }
+   ],
+   "first_attested": {
+    "year": -980,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2_CH13",
+    "page": "343",
+    "basis": "first cited era role (religious, land-of-punt-d-mt) has no stated start; year = start bound of era land-of-punt-d-mt (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": -980,
+    "basis": "first_attested"
+   },
+   "list_only_reason": null,
+   "history_source": {
+    "source_id": "GHA2_CH13",
+    "page": "343"
+   }
+  },
+  {
+   "id": "lalibela",
+   "name_en": "Lalibela",
+   "name_ar": "لاليبيلا",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q207590",
+   "lat": 12.0356,
+   "lon": 39.0462,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q207590"
+   },
+   "category": "medieval",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "zagwe-dynasty",
+     "role": "religious",
+     "start": null,
+     "end": null,
+     "source_id": "GHA3_CH19",
+     "page": "573",
+     "note": "rock churches (Beta-Maryam in Lalibela)"
+    }
+   ],
+   "history_en": "Seat of the rock-hewn churches of the Zagwe period (GHA III p.573).",
+   "history_ar": "موقع الكنائس المنحوتة في الصخر من عهد أسرة زاغوي (GHA III ص573).",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA3_CH19",
+     "page": "573"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q207590"
+    }
+   ],
+   "first_attested": {
+    "year": 900,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA3_CH19",
+    "page": "573",
+    "basis": "first cited era role (religious, zagwe-dynasty) has no stated start; year = start bound of era zagwe-dynasty (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 900,
+    "basis": "first_attested"
+   },
+   "list_only_reason": null,
+   "history_source": {
+    "source_id": "GHA3_CH19",
+    "page": "573"
+   }
+  },
+  {
+   "id": "medina",
+   "name_en": "Medina",
+   "name_ar": "المدينة المنورة",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q35484",
+   "lat": 24.47,
+   "lon": 39.61,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q35484"
+   },
+   "category": "historic",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "rise-of-islam-caliphates",
+     "role": "capital",
+     "start": 622,
+     "end": null,
+     "source_id": "GHA3_CH2",
+     "page": "35",
+     "note": "hijra 622"
+    },
+    {
+     "era_id": "ottoman-hejaz-saudi-state",
+     "role": "religious",
+     "start": null,
+     "end": null,
+     "source_id": "GHA5_CH6",
+     "page": "138"
+    }
+   ],
+   "history_en": "Madinat al-Nabi, destination of the hijra in 622, the first Islamic capital (GHA III p.35); holy city under the Ottomans (GHA V p.138).",
+   "history_ar": "مدينة النبي، وجهة الهجرة سنة 622 وأول عاصمة إسلامية (GHA III ص35)؛ مدينة مقدسة في العهد العثماني (GHA V ص138).",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA3_CH2",
+     "page": "35"
+    },
+    {
+     "id": "GHA5_CH6",
+     "page": "138"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q35484"
+    }
+   ],
+   "first_attested": {
+    "year": 622,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA3_CH2",
+    "page": "35",
+    "basis": "first cited era role (capital, rise-of-islam-caliphates) with stated start"
+   },
+   "map_from": {
+    "year": 622,
+    "basis": "first_attested"
+   },
+   "list_only_reason": null,
+   "history_source": {
+    "source_id": "GHA3_CH2",
+    "page": "35"
+   }
+  },
+  {
+   "id": "mecca",
+   "name_en": "Mecca",
+   "name_ar": "مكة المكرمة",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q5806",
+   "lat": 21.4225,
+   "lon": 39.8261,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q5806"
+   },
+   "category": "historic",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "rise-of-islam-caliphates",
+     "role": "religious",
+     "start": null,
+     "end": null,
+     "source_id": "GHA3_CH2",
+     "page": "31"
+    },
+    {
+     "era_id": "ottoman-hejaz-saudi-state",
+     "role": "religious",
+     "start": null,
+     "end": null,
+     "source_id": "GHA5_CH6",
+     "page": "138"
+    }
+   ],
+   "history_en": "Birthplace of the Prophet Muhammad (GHA III p.31); holy city under the Ottomans (GHA V p.138).",
+   "history_ar": "مسقط رأس النبي محمد (GHA III ص31)؛ مدينة مقدسة في العهد العثماني (GHA V ص138).",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GHA3_CH2",
+     "page": "31"
+    },
+    {
+     "id": "GHA5_CH6",
+     "page": "138"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q5806"
+    }
+   ],
+   "first_attested": {
+    "year": 610,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA3_CH2",
+    "page": "31",
+    "basis": "first cited era role (religious, rise-of-islam-caliphates) has no stated start; year = start bound of era rise-of-islam-caliphates (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 610,
+    "basis": "first_attested"
+   },
+   "list_only_reason": null,
+   "history_source": {
+    "source_id": "GHA3_CH2",
+    "page": "31"
+   }
+  },
+  {
+   "id": "addis-ababa",
+   "name_en": "Addis Ababa",
+   "name_ar": "أديس أبابا",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q3624",
+   "lat": 9.0358,
+   "lon": 38.7525,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q3624"
+   },
+   "category": "historic",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "derg-federal-ethiopia",
+     "role": "capital",
+     "start": null,
+     "end": null,
+     "source_id": "LOC_ETH1991_TOPO",
+     "page": "countrystudies.us/ethiopia/40.htm",
+     "note": "\"The national capital of Addis Ababa\""
+    }
+   ],
+   "history_en": "National capital of Ethiopia, in the centre of the country (LOC Ethiopia country study).",
+   "history_ar": "العاصمة الوطنية لإثيوبيا في وسط البلاد (دراسة مكتبة الكونغرس عن إثيوبيا).",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "LOC_ETH1991_TOPO",
+     "page": "countrystudies.us/ethiopia/40.htm"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q3624"
+    }
+   ],
+   "first_attested": {
+    "year": 1974,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "LOC_ETH1991_TOPO",
+    "page": "countrystudies.us/ethiopia/40.htm",
+    "basis": "first cited era role (capital, derg-federal-ethiopia) has no stated start; year = start bound of era derg-federal-ethiopia (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 1974,
+    "basis": "first_attested"
+   },
+   "list_only_reason": null,
+   "history_source": {
+    "source_id": "LOC_ETH1991_TOPO",
+    "page": "countrystudies.us/ethiopia/40.htm"
+   }
   }
  ]
 }

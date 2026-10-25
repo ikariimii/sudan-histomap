@@ -62,8 +62,17 @@
   }
  ],
  "regional_power_null_reason": "no cited comparative measure",
- "key_cities": null,
- "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "key_cities": [
+  {
+   "city_id": "cairo",
+   "role": "capital/centre (listed in era capitals)",
+   "source_id": "GHA7_CH21",
+   "page": null,
+   "first_attested": 641,
+   "last_attested": null,
+   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+  }
+ ],
  "focus_view": {
   "bbox": [
    22.481,

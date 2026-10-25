@@ -68,12 +68,11 @@
  "key_cities": [
   {
    "city_id": "khartoum",
-   "role": "capital/centre (listed in era capitals)",
-   "source_id": "GHA8",
-   "page": null,
+   "role": "capital",
+   "source_id": "LOC1991_INDSUDAN",
+   "page": "countrystudies.us/sudan/20.htm",
    "first_attested": 1899,
-   "last_attested": null,
-   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+   "last_attested": null
   }
  ],
  "focus_view": {

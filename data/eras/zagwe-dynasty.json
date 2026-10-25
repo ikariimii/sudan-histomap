@@ -57,8 +57,16 @@
   }
  ],
  "regional_power_null_reason": "no cited comparative measure",
- "key_cities": null,
- "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "key_cities": [
+  {
+   "city_id": "lalibela",
+   "role": "religious",
+   "source_id": "GHA3_CH19",
+   "page": "573",
+   "first_attested": 900,
+   "last_attested": null
+  }
+ ],
  "focus_view": {
   "bbox": [
    37.546,

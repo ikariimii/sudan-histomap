@@ -101,20 +101,19 @@
  "regional_power_null_reason": "no cited comparative measure",
  "key_cities": [
   {
+   "city_id": "khartoum",
+   "role": "capital",
+   "source_id": "UNNEWS2023",
+   "page": "web",
+   "first_attested": 1899,
+   "last_attested": null
+  },
+  {
    "city_id": "port-sudan",
    "role": "capital/centre (listed in era capitals)",
    "source_id": "UNNEWS2023",
    "page": null,
    "first_attested": 1906,
-   "last_attested": null,
-   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
-  },
-  {
-   "city_id": "khartoum",
-   "role": "capital/centre (listed in era capitals)",
-   "source_id": "UNNEWS2023",
-   "page": null,
-   "first_attested": 1899,
    "last_attested": null,
    "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
   }

@@ -63,8 +63,40 @@
   }
  ],
  "regional_power_null_reason": "no cited comparative measure",
- "key_cities": null,
- "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "key_cities": [
+  {
+   "city_id": "aswan",
+   "role": "garrison",
+   "source_id": "GHA3_CH7",
+   "page": "168",
+   "first_attested": -2200,
+   "last_attested": null
+  },
+  {
+   "city_id": "aidhab",
+   "role": "port",
+   "source_id": "GHA4_CH16",
+   "page": "401",
+   "first_attested": 1250,
+   "last_attested": 1360
+  },
+  {
+   "city_id": "cairo",
+   "role": "capital",
+   "source_id": "GHA3_CH7",
+   "page": "163",
+   "first_attested": 641,
+   "last_attested": null
+  },
+  {
+   "city_id": "fustat",
+   "role": "capital",
+   "source_id": "GHA3_CH7",
+   "page": "171",
+   "first_attested": 641,
+   "last_attested": null
+  }
+ ],
  "focus_view": {
   "bbox": [
    30.646,

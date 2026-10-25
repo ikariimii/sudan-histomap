@@ -72,8 +72,16 @@
    "cite": "COW NMC v6.0 CINC, 1974–2016"
   }
  ],
- "key_cities": null,
- "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "key_cities": [
+  {
+   "city_id": "addis-ababa",
+   "role": "capital",
+   "source_id": "LOC_ETH1991_TOPO",
+   "page": "countrystudies.us/ethiopia/40.htm",
+   "first_attested": 1974,
+   "last_attested": null
+  }
+ ],
  "focus_view": {
   "bbox": [
    31.491,

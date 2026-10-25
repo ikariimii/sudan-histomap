@@ -74,8 +74,16 @@
    "cite": "COW NMC v6.0 CINC, 1951–2016"
   }
  ],
- "key_cities": null,
- "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "key_cities": [
+  {
+   "city_id": "kufra",
+   "role": "religious",
+   "source_id": "LOC_LBY1987_SANUSI",
+   "page": "countrystudies.us/libya/18.htm",
+   "first_attested": 950,
+   "last_attested": null
+  }
+ ],
  "focus_view": {
   "bbox": [
    7.695,
