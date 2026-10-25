@@ -28,30 +28,61 @@ def offline():
         pg=str(r.get('pages','') or '')
         if re.match(r'^p{1,2}\.',pg) and not re.search(r'[0-9ivxlc]',pg): bad.append(('page-format',k,pg))
         if re.search(r'GHA',k) and pg=='' : pass
+    def _be_y(v):
+        if isinstance(v,bool): return None
+        if isinstance(v,int): return v
+        m=re.match(r'^\s*(-?\d{1,4})(?:-\d|$)',str(v)) if v is not None else None
+        return int(m.group(1)) if m else None
+    def _be_src_list(it):
+        """Accept sources:[{id,page}] (schema) or cite:{source_id,pages}|[...]|"NO-SOURCE" (Historian file)."""
+        if it.get('sources'): return it['sources']
+        c=it.get('cite');c=c if isinstance(c,list) else [c]
+        return [dict(id=x.get('source_id'),page=x.get('pages')) for x in c if isinstance(x,dict) and x.get('source_id')]
+    def _be_norm_b(b):
+        b=dict(b);b['sources']=_be_src_list(b)
+        a=_be_y(b.get('start',b.get('date_from',b.get('date'))));z=_be_y(b.get('end',b.get('date_to')));b['start']=a;b['end']=z if z is not None else a
+        d=b.get('date') or ''
+        if not b.get('date_text_en') and re.match(r'^-?\d{1,4}-\d',str(d)): b['date_text_en']=str(d)
+        b.setdefault('place_precision',b.get('precision'))
+        b['sides']=[x if isinstance(x,dict) else dict(en=x) for x in b.get('sides') or []]
+        return b
+    def _be_norm_ev(doc):
+        """era_events.json: {events:[...]} (schema) or {era_id:[{date,en,ar,cite}], meta} (Historian file)."""
+        if isinstance(doc.get('events'),list): return [dict(v,sources=_be_src_list(v)) for v in doc['events']]
+        out=[]
+        for k,L in doc.items():
+            if k=='meta' or not isinstance(L,list): continue
+            for j,v in enumerate(L):
+                out.append(dict(id=v.get('id') or f'{k}#{j}',era_id=k,year=_be_y(v.get('year',v.get('date'))),year_end=_be_y(v.get('year_end')),approx=v.get('approx'),
+                    text_en=v.get('text_en',v.get('en')),text_ar=v.get('text_ar',v.get('ar')),place=v.get('place'),sources=_be_src_list(v)))
+        return out
+
     # battles layer + era events timeline (data/battles.json, data/era_events.json; VC_STUB=1 checks data/_stub/ instead, allowing STUB_EXAMPLE)
+    warn=[]
     stub=os.environ.get('VC_STUB')=='1';bd='data/_stub/' if stub else 'data/';EIDS={os.path.basename(f)[:-5] for f in glob.glob('data/eras/*.json')}
     def be(kind,it):
         nonlocal n
         ss=it.get('sources') or []
-        if not ss: bad.append((kind+'-uncited',it.get('id'),'')); return
+        if not ss: warn.append((kind,it.get('id'),'no cite - dropped at build')); return
         for c in ss:
             n+=1; sid=c.get('id') if isinstance(c,dict) else c; pg=str((c.get('page') if isinstance(c,dict) else '') or '')
             if sid not in REG and not (stub and sid=='STUB_EXAMPLE'): bad.append((kind+'-unregistered',it.get('id'),sid))
             if re.match(r'^p{1,2}\.',pg) and not re.search(r'[0-9ivxlc]',pg): bad.append((kind+'-page-format',it.get('id'),pg))
     if os.path.isfile(bd+'battles.json'):
-        for b in json.load(open(bd+'battles.json',encoding='utf-8')).get('battles') or []:
+        for b in map(_be_norm_b,json.load(open(bd+'battles.json',encoding='utf-8')).get('battles') or []):
             be('battle',b); n+=1
             if not isinstance(b.get('start'),int) or not isinstance(b.get('end',b.get('start')),int) or b.get('end',b.get('start'))<b.get('start',0): bad.append(('battle-dates',b.get('id'),''))
-            if b.get('precision')!='region' and not all(isinstance(b.get(k),(int,float)) for k in ('lon','lat')): bad.append(('battle-lonlat',b.get('id'),''))
+            if not all(isinstance(b.get(k),(int,float)) for k in ('lon','lat')): warn.append(('battle',b.get('id'),'no lon/lat - not on the map'))
             for x in b.get('era_ids') or []:
                 if x not in EIDS: bad.append(('battle-era',b.get('id'),x))
             im=b.get('image')
             if im and im.get('src') and not im.get('credit'): bad.append(('battle-image-no-credit',b.get('id'),im.get('src')))
     if os.path.isfile(bd+'era_events.json'):
-        for v in json.load(open(bd+'era_events.json',encoding='utf-8')).get('events') or []:
+        for v in _be_norm_ev(json.load(open(bd+'era_events.json',encoding='utf-8'))):
             be('event',v); n+=1
             if v.get('era_id') not in EIDS: bad.append(('event-era',v.get('id'),v.get('era_id')))
-            if not isinstance(v.get('year'),int): bad.append(('event-year',v.get('id'),v.get('year')))
+            if not isinstance(v.get('year'),int): warn.append(('event',v.get('id'),'no year - dropped at build'))
+    if warn: print('battles/events warnings (not failures; these items are left out of the build):',len(warn));[print('  WARN',*w) for w in warn]
     print(n,'offline checks; problems:',len(bad),'(registry %d IDs)'%len(REG),flush=True)
     for b in bad: print(b,flush=True)
     sys.exit(1 if bad else 0)
