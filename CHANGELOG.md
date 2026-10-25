@@ -1,5 +1,6 @@
 # Changelog
 
+- Arabic entry page: /ar/ is now the full map in Arabic (lang from the path, dir=rtl, own title, canonical, AR OG card) instead of a redirect stub. / and /ar/ carry hreflang en/ar/x-default alternates. ?era= and ?layers= deep links work under /ar/; old /?lang=ar links, /ar/eras/…, /ar/chapters/… and era.html?lang=ar now redirect to /ar/?era=….
 - Map, artifacts: era cards show one artifact or site image per era (59 eras), from db/era_artifacts.json. Images are self-hosted at 480 and 960px WebP and lazy-loaded, with caption, museum or site, author, licence and a Wikimedia Commons link.
 - Map, basemap: Natural Earth shaded relief and 10m rivers (public domain) are re-projected to the map, with the Nile system emphasised. Mobile loads a 24KB image and switches to 83KB on desktop or at zoom 2× and up. Natural Earth is credited in the legend and About.
 - Map, flags: era flags and emblems (19 eras) appear at the era's flag anchor while the slider year is in the flag's date range. Joint Condominium flags sit side by side, and VERIFY flags get a dashed frame. In the war era only Sudan's state flag is shown, with a note that this implies no territorial control. Cards show the flag with Commons credit and licence, or "No known flag". 14 flag SVGs are self-hosted.

@@ -1,7 +1,7 @@
 // Sudan Histomap: one continuous map page. All data comes from window.MAP (built from data/eras + db/extents by web/build.py)
 // and per-era files (/extents/<id>.json, /m/<id>.json). Nothing is invented; missing layers show 'Research in progress'.
 (function(){
-const M=window.MAP,Q=new URLSearchParams(location.search),L=Q.get('lang')==='ar'?'ar':'en',AR=L==='ar',T=M.t[L],ES=M.eras;
+const M=window.MAP,Q=new URLSearchParams(location.search),L=/^\/ar\//.test(location.pathname)||Q.get('lang')==='ar'?'ar':'en',AR=L==='ar',T=M.t[L],ES=M.eras;
 const RM=matchMedia('(prefers-reduced-motion: reduce)').matches,DUR=RM?0:650;
 const $=id=>document.getElementById(id),esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const num=n=>AR?String(n).replace(/\d/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]):String(n);
@@ -14,9 +14,9 @@ const short=s=>{s=String(s).split(/ [–—] /)[0];if(s.length>34)s=s.split(/[(�
 // --- chrome
 document.title=T.title+' · '+(AR?'Sudan Histomap':'خريطة تاريخ السودان');
 $('brand').textContent=T.title;$('about').textContent=T.about;$('about').href=(AR?'/ar':'')+'/about/';
-const lq=new URLSearchParams(Q);if(AR)lq.delete('lang');else lq.set('lang','ar');$('lang').textContent=T.lang;$('lang').setAttribute('hreflang',AR?'en':'ar');
-$('lang').addEventListener('click',e=>{e.preventDefault();const q=new URLSearchParams(location.search);AR?q.delete('lang'):q.set('lang','ar');location.search=q.toString()});
-$('lang').href='/?'+lq.toString();$('prev').setAttribute('aria-label',T.prev);$('next').setAttribute('aria-label',T.next);$('grab').setAttribute('aria-label',T.sheet);
+const lq=new URLSearchParams(Q);lq.delete('lang');const lsw=()=>{const q=new URLSearchParams(location.search);q.delete('lang');const s=q.toString();return (AR?'/':'/ar/')+(s?'?'+s:'')};$('lang').textContent=T.lang;$('lang').setAttribute('hreflang',AR?'en':'ar');
+$('lang').addEventListener('click',e=>{e.preventDefault();location.href=lsw()});
+$('lang').href=(AR?'/':'/ar/')+(lq.toString()?'?'+lq:'');$('prev').setAttribute('aria-label',T.prev);$('next').setAttribute('aria-label',T.next);$('grab').setAttribute('aria-label',T.sheet);
 $('reset').title=T.reset;$('reset').setAttribute('aria-label',T.reset);$('within').querySelector('label').textContent=T.within;
 const LAY=['ctl','grp','rel','pop','cty','hml'],on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x).filter(x=>LAY.includes(x)));
 LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=T.l[k];b.setAttribute('aria-pressed',on.has(k));b.dataset.k=k;
@@ -24,7 +24,7 @@ LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.ty
 document.addEventListener('click',ev=>{const t=ev.target.closest&&ev.target.closest('[data-hml]');if(!t)return;ev.preventDefault();if(!on.has('hml')){on.add('hml');const c=document.querySelector('#layers .chip[data-k=hml]');if(c)c.setAttribute('aria-pressed','true');url();render(false);hmlDraw()}});
 // --- era index
 let i=Math.max(0,ES.findIndex(e=>e.id===Q.get('era')));const r=$('r');r.max=ES.length-1;r.value=i;r.setAttribute('aria-label',T.era);
-function url(){const q=new URLSearchParams();q.set('era',ES[i].id);if(AR)q.set('lang','ar');const ly=[...on].sort().join(',');if(ly!=='ctl')q.set('layers',ly);history.replaceState(null,'','/?'+q)}
+function url(){const q=new URLSearchParams();q.set('era',ES[i].id);const ly=[...on].sort().join(',');if(ly!=='ctl')q.set('layers',ly);history.replaceState(null,'',(AR?'/ar/':'/')+'?'+q)}
 // --- map
 const svg=d3.select('#svg'),W=()=>innerWidth,H=()=>innerHeight,desk=()=>innerWidth>=1000;
 const root=svg.append('g'),gB=root.append('g').attr('class','relief'),gL=root.append('g'),gC=root.append('g'),gX=root.append('g'),gN=root.append('g'),gG=root.append('g'),gH=root.append('g').attr('class','hml'),gY=root.append('g').attr('class','cities'),gR=root.append('g'),gP=root.append('g'),gK=root.append('g'),gT=root.append('g'),gF=root.append('g').attr('class','flags');
