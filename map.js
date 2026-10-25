@@ -20,7 +20,7 @@ $('lang').href=(AR?'/':'/ar/')+(lq.toString()?'?'+lq:'');$('prev').setAttribute(
 $('skip').textContent=T.skip;$('map').setAttribute('aria-label',T.mapl);$('svg').setAttribute('aria-label',T.mapl+'. '+T.featl);$('svgt').textContent=T.mapl;$('layers').setAttribute('aria-label',T.layersl);
 $('grab').setAttribute('aria-label',T.sheet+' · '+T.sheetst.half);$('grab').setAttribute('aria-expanded','true');
 $('reset').title=T.reset;$('reset').setAttribute('aria-label',T.reset);$('within').querySelector('label').textContent=T.within;
-const LAY=['ctl','grp','rel','pop','cty','hml'],on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x).filter(x=>LAY.includes(x)));
+const LAY=['ctl','grp','rel','pop','cty','hml'],on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x==='trade'?'trd':x).filter(x=>LAY.includes(x)));
 LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=T.l[k];b.setAttribute('aria-pressed',on.has(k));b.dataset.k=k;
  b.onclick=()=>{on.has(k)?on.delete(k):on.add(k);b.setAttribute('aria-pressed',on.has(k));url();render(false);if(k==='hml')hmlDraw()};$('layers').appendChild(b)});
 document.addEventListener('click',ev=>{const t=ev.target.closest&&ev.target.closest('[data-hml]');if(!t)return;ev.preventDefault();if(!on.has('hml')){on.add('hml');const c=document.querySelector('#layers .chip[data-k=hml]');if(c)c.setAttribute('aria-pressed','true');url();render(false);hmlDraw()}});
@@ -62,7 +62,7 @@ const dpts=p=>'M'+p.map(q=>q[0].toFixed(1)+','+q[1].toFixed(1)).join('L')+'Z';
 // --- draw base
 function drawBase(e){if(!BASE)return;const y=Y??e.b,post=y>=2011;
  gL.selectAll('path').data(BASE.features).join('path').attr('d',path).attr('class',d=>'land'+(d.properties.name==='Sudan'?' sdn':d.properties.name==='S. Sudan'?(post?' ssd':' ssd-old'):''));
- const ss=BASE.features.find(d=>d.properties.name==='S. Sudan');gC.selectAll('text').data(post&&ss?[ss]:[]).join('text').attr('class','cl').attr('text-anchor','middle').attr('transform',d=>`translate(${path.centroid(d)})`).text(T.ssd)}
+ const ss=BASE.features.find(d=>d.properties.name==='S. Sudan');gC.selectAll('text').data(post&&ss?[ss]:[]).join('text').attr('class','cl').attr('text-anchor','middle').style('display',null).attr('transform',d=>`translate(${path.centroid(d)})`).text(T.ssd)}
 let OLD=[];// previously drawn area features [{f,d,box}]
 async function render(anim=true){
  const e=ES[i];r.value=i;url();const g=await ext(e);if(e!==ES[i])return;
@@ -116,7 +116,7 @@ function place(){setTimeout(cityThin,0);nobPos();const t=TR;gT.selectAll('*').re
  root.selectAll('.mk').nodes().forEach(n=>{const s=n.querySelector('rect,circle,path');if(!s)return;const b=s.getBoundingClientRect();if(b.width)ob.push({x:b.left+1,y:b.top+1,w:Math.max(0,b.width-2),h:Math.max(0,b.height-2)})});
  const ov=(a,c)=>a.x<c.x+c.w&&c.x<a.x+a.w&&a.y<c.y+c.h&&c.y<a.y+a.h;
  LBS.slice().sort((a,b)=>b.pri-a.pri).forEach(o=>{const sx=t.applyX(o.xy[0]),sy=t.applyY(o.xy[1]);if(sx<0||sx>W()||sy<0||sy>H()){return}
-  const gg=gT.append('g').attr('transform',`translate(${sx},${sy})`);const tx=gg.append('text').attr('class','lb'+(o.big?' big':'')).text(o.t);
+  const gg=gT.append('g').attr('transform',`translate(${sx},${sy})`);const tx=gg.append('text').attr('class','lb'+(o.big?' big':'')).text(o.t);if(o.t===T.ssd)gC.selectAll('text.cl').style('display','none');
   if(o.rep){tx.append('tspan').attr('class','rep').attr('fill',BL[o.rep][2]).text(' '+BL[o.rep][AR?1:0])}
   const lh=16,dx0=o.dx?(AR?-o.dx:o.dx):0,an0=o.big?'middle':'start';let ok=null;
   P:for(const k of [0,1,-1,2,-2,3,-3])for(const side of (o.dx?[0,1]:[0])){const dx=side?-dx0:dx0,an=o.big?'middle':(side?'end':'start');tx.attr('x',dx).attr('y',4+k*lh).attr('text-anchor',an);
@@ -160,7 +160,10 @@ const RC={alliance:'#4fb06b',conflict:'#e0574c',trade:'#e0a63e',subjugation:'#b0
 svg.select('defs').html(Object.entries(RC).map(([k,c])=>`<marker id="ah-${k}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="${c}"/></marker>`).join('')+'<marker id="ah-ln" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#f0d26c"/></marker>');
 const GJ={};function glj(e){if(!M.layers.glBuilt||!(M.layers.g||[]).includes(e.id))return Promise.resolve([]);return GJ[e.id]||(GJ[e.id]=getj('/g/'+e.id+'.json').catch(()=>[]))}
 function glTap(ev,f){ev.stopPropagation();const li=document.querySelector(`#card li[data-id="${CSS.escape(f.id)}"]`);$('feat').innerHTML='<button class="x" aria-label="close">×</button>'+(li?li.innerHTML:esc(AR?f.ar:f.en));$('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true};if($('sheet').classList.contains('peek'))snap('half')}
-async function layersDraw(e){const fs=(on.has('grp')||on.has('rel'))?await glj(e):[];const D=RM?0:DUR;
+let TRD=null;const gTr=root.append('g').attr('class','trade');
+async function tradeDraw(e){gTr.selectAll('*').remove();if(!on.has('trd'))return;if(!TRD)TRD=await fetch('/trade.json').then(r=>r.ok?r.json():[]).catch(()=>[]);const ar=document.documentElement.lang==='ar';
+ TRD.filter(r=>r.eras.includes(e.id||e)&&r.w.length>1).forEach(r=>{gTr.append('path').attr('d',path({type:'LineString',coordinates:r.w.map(w=>[w[0],w[1]])})).attr('fill','none').attr('stroke','#e8b04a').attr('stroke-width',2).attr('stroke-dasharray',r.w.some(w=>w[2])?'5 4':null).attr('vector-effect','non-scaling-stroke').attr('tabindex',0).attr('role','img').attr('aria-label',(ar&&r.ar||r.en)+' — '+r.s.map(s=>s.c).join('; ')).append('title').text((ar&&r.ar||r.en)+'\n'+r.s.map(s=>s.c).join('\n'))})}
+async function layersDraw(e){tradeDraw(e);{const hg=!!M.layers.glBuilt&&(M.layers.g||[]).includes(e.id);['grp','rel'].forEach(k=>{const c=document.querySelector('#layers .chip[data-k='+k+']');if(c)c.hidden=!hg})}const fs=(on.has('grp')||on.has('rel'))?await glj(e):[];const D=RM?0:DUR;
  const pts=on.has('grp')?fs.filter(f=>f.k!=='relation'&&f.geo&&f.geo.type==='Point'):[];
  // stable ids: the same group feature glides to its new anchor between eras
  const s=gG.selectAll('g.grp').data(pts,f=>f.id);s.exit().remove();
@@ -281,11 +284,14 @@ function cityTap(ev,c){ev.stopPropagation();const e=ES[i],r=c.r[e.id],d=CJ&&CJ.t
 // --- navigation
 // era camera: fly to focus_view.bbox [w,s,e,n] (fallback: extent bounds, then whole region) inside the area not covered by the sheet/side card. Manual zoom is kept until the era changes.
 let CE=null;function cam(e,g){if(e.id===CE)return;const first=CE===null;CE=e.id;
- let b=e.fv;if(!b&&g&&g.features&&g.features.length){const q=d3.geoBounds({type:'FeatureCollection',features:g.features});if(q.every(p=>p.every(isFinite)))b=[q[0][0],q[0][1],q[1][0],q[1][1]]}
+ let b=e.fv;if(!b){// planar bbox of the era's extents (geoBounds returns the whole globe for reverse-wound rings), then its capitals
+  const xs=[],ys=[],w=c=>{if(typeof c[0]==='number'){if(isFinite(c[0])&&isFinite(c[1])){xs.push(c[0]);ys.push(c[1])}}else c.forEach(w)};
+  ((g&&g.features)||[]).forEach(f=>f.geometry&&w(f.geometry.coordinates));if(!xs.length)(e.caps||[]).forEach(c=>{xs.push(c[1]);ys.push(c[2])});
+  if(xs.length)b=[Math.min(...xs),Math.min(...ys),Math.max(...xs),Math.max(...ys)]}
  let t=d3.zoomIdentity;if(b){const sh=$('sheet').getBoundingClientRect(),top=desk()?70:120,bot=desk()?H()-20:Math.max(top+120,H()-Math.min(sh.height,H()*.44)-8),x1=desk()?(AR?sh.right+20:20):10,x2=desk()?(AR?W()-20:sh.left-20):W()-10;
   {const cx=(b[0]+b[2])/2,cy=(b[1]+b[3])/2,hx=Math.max((b[2]-b[0])/2,1.5),hy=Math.max((b[3]-b[1])/2,1.5);b=[cx-hx,cy-hy,cx+hx,cy+hy]}// min 3° window so point-like foci keep context
   const p=proj([b[0],b[3]]),q=proj([b[2],b[1]]),dx=Math.max(q[0]-p[0],8),dy=Math.max(q[1]-p[1],8);const k=Math.max(1,Math.min(6,.85*Math.min((x2-x1)/dx,(bot-top)/dy)));
-  t=k<1.02?d3.zoomIdentity:d3.zoomIdentity.translate((x1+x2)/2-k*(p[0]+q[0])/2,(top+bot)/2-k*(p[1]+q[1])/2).scale(k)}
+  t=d3.zoomIdentity.translate((x1+x2)/2-k*(p[0]+q[0])/2,(top+bot)/2-k*(p[1]+q[1])/2).scale(k)}
  if(first||RM)svg.interrupt().call(zoom.transform,t);else svg.interrupt().transition('cam').duration(1000).call(zoom.transform,t)}
 function go(n){n=Math.max(0,Math.min(ES.length-1,n));if(n===i)return;i=n;Y=null;render(true)}
 r.addEventListener('input',()=>go(+r.value));
