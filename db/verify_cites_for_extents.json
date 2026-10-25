@@ -1,0 +1,267 @@
+{
+ "meta": {
+  "author": "Sudan Geopolitical Analyst",
+  "generated": "2026-10-25",
+  "scope": "VERIFY badges in modern-era extents (South Sudan, December Revolution, War in Sudan, al-Bashir), extents_notes_fill_ss2011.json, and modern items in extents_historic.json. Read-only; extents not edited.",
+  "finding": "All 10 VERIFY badges are the same note, field abyei.final_status 'Final status unresolved.', cited only to 2011–2013 UN documents (UNSC1990, S/2013/706). They need a current UN source before being shown as present-day.",
+  "rules": "No territorial-control claims; legal/status texts only. Quotes as read.",
+  "out_of_scope": "db/extents/southern-sudan-under-condominium-sudan.geojson features/4 carries the same VERIFY note, but that era is not modern, so it is not assessed here."
+ },
+ "items": [
+  {
+   "file": "db/extents/republic-of-south-sudan.geojson",
+   "feature": "features/1/properties/contested_notes/5",
+   "field": "abyei.final_status",
+   "claim": "Final status unresolved.",
+   "existing_cite": "UNSC1990 p.3 OP9; UNSG_S2013_706 p.3 paras 11–12",
+   "new_cites": [
+    {
+     "cite": "UN Meetings Coverage SC/16212, 'With Abyei's Final Status Still Hanging, Security Council Urges Sudan, South Sudan to De-escalate Violence…', briefing by ASG Martha Ama Akyaa Pobee, 5 Nov 2025",
+     "page": "para 2",
+     "url": "https://press.un.org/en/2025/sc16212.doc.htm",
+     "quote": "The political process between Sudan and South Sudan on Abyei and border issues remains stalled, as it has been since the outbreak of the Sudan conflict in April 2023",
+     "read": "full page via WebFetch 2026-10-25"
+    },
+    {
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
+     "page": "preamble; OP 1, OP 4",
+     "url": "https://unscr.com/en/resolutions/doc/2802/",
+     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
+     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+    }
+   ],
+   "recommendation": "clear",
+   "note": "Two current UN texts (Nov 2025) show that Abyei's final status is still unsettled. Add both to the note's cite and drop VERIFY. Suggested wording: 'Final status unresolved (as of Nov 2025).' Re-check after the next UNISFA renewal (mandate ends 15 Nov 2026)."
+  },
+  {
+   "file": "db/extents/december-revolution-transition.geojson",
+   "feature": "features/1/properties/contested_notes/5",
+   "field": "abyei.final_status",
+   "claim": "Final status unresolved.",
+   "existing_cite": "UNSC1990 p.3 OP9; UNSG_S2013_706 p.3 paras 11–12",
+   "new_cites": [
+    {
+     "cite": "UN Meetings Coverage SC/16212, 'With Abyei's Final Status Still Hanging, Security Council Urges Sudan, South Sudan to De-escalate Violence…', briefing by ASG Martha Ama Akyaa Pobee, 5 Nov 2025",
+     "page": "para 2",
+     "url": "https://press.un.org/en/2025/sc16212.doc.htm",
+     "quote": "The political process between Sudan and South Sudan on Abyei and border issues remains stalled, as it has been since the outbreak of the Sudan conflict in April 2023",
+     "read": "full page via WebFetch 2026-10-25"
+    },
+    {
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
+     "page": "preamble; OP 1, OP 4",
+     "url": "https://unscr.com/en/resolutions/doc/2802/",
+     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
+     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+    }
+   ],
+   "recommendation": "clear",
+   "note": "Two current UN texts (Nov 2025) show that Abyei's final status is still unsettled. Add both to the note's cite and drop VERIFY. Suggested wording: 'Final status unresolved (as of Nov 2025).' Re-check after the next UNISFA renewal (mandate ends 15 Nov 2026)."
+  },
+  {
+   "file": "db/extents/war-in-sudan-saf-vs-rsf.geojson",
+   "feature": "features/1/properties/contested_notes/5",
+   "field": "abyei.final_status",
+   "claim": "Final status unresolved.",
+   "existing_cite": "UNSC1990 p.3 OP9; UNSG_S2013_706 p.3 paras 11–12",
+   "new_cites": [
+    {
+     "cite": "UN Meetings Coverage SC/16212, 'With Abyei's Final Status Still Hanging, Security Council Urges Sudan, South Sudan to De-escalate Violence…', briefing by ASG Martha Ama Akyaa Pobee, 5 Nov 2025",
+     "page": "para 2",
+     "url": "https://press.un.org/en/2025/sc16212.doc.htm",
+     "quote": "The political process between Sudan and South Sudan on Abyei and border issues remains stalled, as it has been since the outbreak of the Sudan conflict in April 2023",
+     "read": "full page via WebFetch 2026-10-25"
+    },
+    {
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
+     "page": "preamble; OP 1, OP 4",
+     "url": "https://unscr.com/en/resolutions/doc/2802/",
+     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
+     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+    }
+   ],
+   "recommendation": "clear",
+   "note": "Two current UN texts (Nov 2025) show that Abyei's final status is still unsettled. Add both to the note's cite and drop VERIFY. Suggested wording: 'Final status unresolved (as of Nov 2025).' Re-check after the next UNISFA renewal (mandate ends 15 Nov 2026)."
+  },
+  {
+   "file": "db/extents/al-bashir-ncp-ingaz-regime.geojson",
+   "feature": "features/2/properties/contested_notes/5",
+   "field": "abyei.final_status",
+   "claim": "Final status unresolved.",
+   "existing_cite": "UNSC1990 p.3 OP9; UNSG_S2013_706 p.3 paras 11–12",
+   "new_cites": [
+    {
+     "cite": "UN Meetings Coverage SC/16212, 'With Abyei's Final Status Still Hanging, Security Council Urges Sudan, South Sudan to De-escalate Violence…', briefing by ASG Martha Ama Akyaa Pobee, 5 Nov 2025",
+     "page": "para 2",
+     "url": "https://press.un.org/en/2025/sc16212.doc.htm",
+     "quote": "The political process between Sudan and South Sudan on Abyei and border issues remains stalled, as it has been since the outbreak of the Sudan conflict in April 2023",
+     "read": "full page via WebFetch 2026-10-25"
+    },
+    {
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
+     "page": "preamble; OP 1, OP 4",
+     "url": "https://unscr.com/en/resolutions/doc/2802/",
+     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
+     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+    }
+   ],
+   "recommendation": "clear",
+   "note": "Two current UN texts (Nov 2025) show that Abyei's final status is still unsettled. Add both to the note's cite and drop VERIFY. Suggested wording: 'Final status unresolved (as of Nov 2025).' Re-check after the next UNISFA renewal (mandate ends 15 Nov 2026)."
+  },
+  {
+   "file": "db/extents_notes_fill_ss2011.json",
+   "feature": "notes/1 (sudan-post-2011)/contested_points/0/notes/5",
+   "field": "abyei.final_status",
+   "claim": "Final status unresolved.",
+   "existing_cite": "UNSC1990 p.3 OP9; UNSG_S2013_706 p.3 paras 11–12",
+   "new_cites": [
+    {
+     "cite": "UN Meetings Coverage SC/16212, 'With Abyei's Final Status Still Hanging, Security Council Urges Sudan, South Sudan to De-escalate Violence…', briefing by ASG Martha Ama Akyaa Pobee, 5 Nov 2025",
+     "page": "para 2",
+     "url": "https://press.un.org/en/2025/sc16212.doc.htm",
+     "quote": "The political process between Sudan and South Sudan on Abyei and border issues remains stalled, as it has been since the outbreak of the Sudan conflict in April 2023",
+     "read": "full page via WebFetch 2026-10-25"
+    },
+    {
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
+     "page": "preamble; OP 1, OP 4",
+     "url": "https://unscr.com/en/resolutions/doc/2802/",
+     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
+     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+    }
+   ],
+   "recommendation": "clear",
+   "note": "Two current UN texts (Nov 2025) show that Abyei's final status is still unsettled. Add both to the note's cite and drop VERIFY. Suggested wording: 'Final status unresolved (as of Nov 2025).' Re-check after the next UNISFA renewal (mandate ends 15 Nov 2026)."
+  },
+  {
+   "file": "db/extents_notes_fill_ss2011.json",
+   "feature": "notes/2 (south-sudan)/contested_points/1/notes/5",
+   "field": "abyei.final_status",
+   "claim": "Final status unresolved.",
+   "existing_cite": "UNSC1990 p.3 OP9; UNSG_S2013_706 p.3 paras 11–12",
+   "new_cites": [
+    {
+     "cite": "UN Meetings Coverage SC/16212, 'With Abyei's Final Status Still Hanging, Security Council Urges Sudan, South Sudan to De-escalate Violence…', briefing by ASG Martha Ama Akyaa Pobee, 5 Nov 2025",
+     "page": "para 2",
+     "url": "https://press.un.org/en/2025/sc16212.doc.htm",
+     "quote": "The political process between Sudan and South Sudan on Abyei and border issues remains stalled, as it has been since the outbreak of the Sudan conflict in April 2023",
+     "read": "full page via WebFetch 2026-10-25"
+    },
+    {
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
+     "page": "preamble; OP 1, OP 4",
+     "url": "https://unscr.com/en/resolutions/doc/2802/",
+     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
+     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+    }
+   ],
+   "recommendation": "clear",
+   "note": "Two current UN texts (Nov 2025) show that Abyei's final status is still unsettled. Add both to the note's cite and drop VERIFY. Suggested wording: 'Final status unresolved (as of Nov 2025).' Re-check after the next UNISFA renewal (mandate ends 15 Nov 2026)."
+  },
+  {
+   "file": "db/extents_historic.json",
+   "feature": "items/35 (al-bashir)/outline_notes/1/contested_points/0/notes/5",
+   "field": "abyei.final_status",
+   "claim": "Final status unresolved.",
+   "existing_cite": "UNSC1990 p.3 OP9; UNSG_S2013_706 p.3 paras 11–12",
+   "new_cites": [
+    {
+     "cite": "UN Meetings Coverage SC/16212, 'With Abyei's Final Status Still Hanging, Security Council Urges Sudan, South Sudan to De-escalate Violence…', briefing by ASG Martha Ama Akyaa Pobee, 5 Nov 2025",
+     "page": "para 2",
+     "url": "https://press.un.org/en/2025/sc16212.doc.htm",
+     "quote": "The political process between Sudan and South Sudan on Abyei and border issues remains stalled, as it has been since the outbreak of the Sudan conflict in April 2023",
+     "read": "full page via WebFetch 2026-10-25"
+    },
+    {
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
+     "page": "preamble; OP 1, OP 4",
+     "url": "https://unscr.com/en/resolutions/doc/2802/",
+     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
+     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+    }
+   ],
+   "recommendation": "clear",
+   "note": "Two current UN texts (Nov 2025) show that Abyei's final status is still unsettled. Add both to the note's cite and drop VERIFY. Suggested wording: 'Final status unresolved (as of Nov 2025).' Re-check after the next UNISFA renewal (mandate ends 15 Nov 2026)."
+  },
+  {
+   "file": "db/extents_historic.json",
+   "feature": "items/36 (december-revolution)/outline_notes/0/contested_points/0/notes/5",
+   "field": "abyei.final_status",
+   "claim": "Final status unresolved.",
+   "existing_cite": "UNSC1990 p.3 OP9; UNSG_S2013_706 p.3 paras 11–12",
+   "new_cites": [
+    {
+     "cite": "UN Meetings Coverage SC/16212, 'With Abyei's Final Status Still Hanging, Security Council Urges Sudan, South Sudan to De-escalate Violence…', briefing by ASG Martha Ama Akyaa Pobee, 5 Nov 2025",
+     "page": "para 2",
+     "url": "https://press.un.org/en/2025/sc16212.doc.htm",
+     "quote": "The political process between Sudan and South Sudan on Abyei and border issues remains stalled, as it has been since the outbreak of the Sudan conflict in April 2023",
+     "read": "full page via WebFetch 2026-10-25"
+    },
+    {
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
+     "page": "preamble; OP 1, OP 4",
+     "url": "https://unscr.com/en/resolutions/doc/2802/",
+     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
+     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+    }
+   ],
+   "recommendation": "clear",
+   "note": "Two current UN texts (Nov 2025) show that Abyei's final status is still unsettled. Add both to the note's cite and drop VERIFY. Suggested wording: 'Final status unresolved (as of Nov 2025).' Re-check after the next UNISFA renewal (mandate ends 15 Nov 2026)."
+  },
+  {
+   "file": "db/extents_historic.json",
+   "feature": "items/37 (war-in-sudan)/outline_notes/0/contested_points/0/notes/5",
+   "field": "abyei.final_status",
+   "claim": "Final status unresolved.",
+   "existing_cite": "UNSC1990 p.3 OP9; UNSG_S2013_706 p.3 paras 11–12",
+   "new_cites": [
+    {
+     "cite": "UN Meetings Coverage SC/16212, 'With Abyei's Final Status Still Hanging, Security Council Urges Sudan, South Sudan to De-escalate Violence…', briefing by ASG Martha Ama Akyaa Pobee, 5 Nov 2025",
+     "page": "para 2",
+     "url": "https://press.un.org/en/2025/sc16212.doc.htm",
+     "quote": "The political process between Sudan and South Sudan on Abyei and border issues remains stalled, as it has been since the outbreak of the Sudan conflict in April 2023",
+     "read": "full page via WebFetch 2026-10-25"
+    },
+    {
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
+     "page": "preamble; OP 1, OP 4",
+     "url": "https://unscr.com/en/resolutions/doc/2802/",
+     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
+     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+    }
+   ],
+   "recommendation": "clear",
+   "note": "Two current UN texts (Nov 2025) show that Abyei's final status is still unsettled. Add both to the note's cite and drop VERIFY. Suggested wording: 'Final status unresolved (as of Nov 2025).' Re-check after the next UNISFA renewal (mandate ends 15 Nov 2026)."
+  },
+  {
+   "file": "db/extents_historic.json",
+   "feature": "items/38 (republic-of-south-sudan)/outline_notes/0/contested_points/1/notes/5",
+   "field": "abyei.final_status",
+   "claim": "Final status unresolved.",
+   "existing_cite": "UNSC1990 p.3 OP9; UNSG_S2013_706 p.3 paras 11–12",
+   "new_cites": [
+    {
+     "cite": "UN Meetings Coverage SC/16212, 'With Abyei's Final Status Still Hanging, Security Council Urges Sudan, South Sudan to De-escalate Violence…', briefing by ASG Martha Ama Akyaa Pobee, 5 Nov 2025",
+     "page": "para 2",
+     "url": "https://press.un.org/en/2025/sc16212.doc.htm",
+     "quote": "The political process between Sudan and South Sudan on Abyei and border issues remains stalled, as it has been since the outbreak of the Sudan conflict in April 2023",
+     "read": "full page via WebFetch 2026-10-25"
+    },
+    {
+     "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted 14 Nov 2025; extends UNISFA to 15 Nov 2026",
+     "page": "preamble; OP 1, OP 4",
+     "url": "https://unscr.com/en/resolutions/doc/2802/",
+     "quote": "Determines that both parties should demonstrate measurable progress on border demarcation",
+     "read": "resolution text excerpt via search extract 2026-10-25 (also press.un.org/en/2025/sc16223.doc.htm)"
+    }
+   ],
+   "recommendation": "clear",
+   "note": "Two current UN texts (Nov 2025) show that Abyei's final status is still unsettled. Add both to the note's cite and drop VERIFY. Suggested wording: 'Final status unresolved (as of Nov 2025).' Re-check after the next UNISFA renewal (mandate ends 15 Nov 2026)."
+  }
+ ],
+ "counts": {
+  "clear": 10,
+  "keep_VERIFY": 0,
+  "CONTESTED": 0
+ }
+}
