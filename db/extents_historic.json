@@ -1440,9 +1440,9 @@
         },
         {
          "field": "abyei.final_status",
-         "badge": "VERIFY",
-         "text_en": "Final status unresolved.",
-         "text_ar": "الوضع النهائي لم يُحسم بعد.",
+         "badge": null,
+         "text_en": "Final status unresolved (as of Nov 2025).",
+         "text_ar": "الوضع النهائي لم يُحسم بعد (حتى نوفمبر 2025). [Arabic text pending native-speaker review.]",
          "cite": [
           {
            "source": "UNSC1990",
@@ -1455,8 +1455,34 @@
            "quote": "the Government of the Sudan and the Misseriya community termed the referendum illegitimate"
           }
          ],
-         "note": "Sourced only to 2011–2013 documents (latest: S/2013/706). VERIFY against a current UN Secretary-General report before showing as present-day.",
-         "text_ar_status": "working translation – needs native-speaker review"
+         "note": "Earlier cites (2011–2013) supplemented with Nov 2025 UN texts (cite_current); recheck after the UNISFA mandate renewal.",
+         "text_ar_status": "working translation – needs native-speaker review",
+         "cite_current": [
+          {
+           "cite": "UN Meetings Coverage SC/16212, 'With Abyei's Final Status Still Hanging, Security Council Urges Sudan, South Sudan to De-escalate Violence…', briefing by ASG Martha Ama Akyaa Pobee, 5 Nov 2025",
+           "page": "para 2",
+           "url": "https://press.un.org/en/2025/sc16212.doc.htm",
+           "quote": "The political process between Sudan and South Sudan on Abyei and border issues remains stalled, as it has been since the outbreak of the Sudan conflict in April 2023",
+           "read": "full page via WebFetch 2026-10-25"
+          },
+          {
+           "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted at the 10042nd (resumed) meeting, 14 Nov 2025 (document 25-18650)",
+           "page": "preamble; OP 1; OP 4",
+           "url": "https://unscr.com/en/resolutions/doc/2802/",
+           "alt_urls": [
+            "https://press.un.org/en/2025/sc16223.doc.htm (adoption press release; seen via search only)"
+           ],
+           "quote": "underscoring that the future status of Abyei shall be resolved by negotiations between the parties in a manner consistent with the CPA",
+           "quote_op1": "Decides to extend until 15 November 2026 the mandate of UNISFA as set out in paragraph 2 of resolution 1990 (2011)",
+           "quote_op4": "Determines that both parties should demonstrate measurable progress on border demarcation, including through:",
+           "read": "full text (12 pp., preamble and OP 1–36) via WebFetch of unscr.com, 2026-10-25",
+           "read_in_full": true,
+           "read_note": "Read from a search extract only, not the full resolution text.",
+           "badge": "SINGLE-SOURCE"
+          }
+         ],
+         "recheck_after": "2026-11-15",
+         "verification_note": "VERIFY cleared per db/verify_cites_for_extents.json (7e0e33b). Status/legal texts only; no territorial-control claim."
         },
         {
          "field": "abyei.referendum_2013",
@@ -1667,9 +1693,9 @@
         },
         {
          "field": "abyei.final_status",
-         "badge": "VERIFY",
-         "text_en": "Final status unresolved.",
-         "text_ar": "الوضع النهائي لم يُحسم بعد.",
+         "badge": null,
+         "text_en": "Final status unresolved (as of Nov 2025).",
+         "text_ar": "الوضع النهائي لم يُحسم بعد (حتى نوفمبر 2025). [Arabic text pending native-speaker review.]",
          "cite": [
           {
            "source": "UNSC1990",
@@ -1682,8 +1708,34 @@
            "quote": "the Government of the Sudan and the Misseriya community termed the referendum illegitimate"
           }
          ],
-         "note": "Sourced only to 2011–2013 documents (latest: S/2013/706). VERIFY against a current UN Secretary-General report before showing as present-day.",
-         "text_ar_status": "working translation – needs native-speaker review"
+         "note": "Earlier cites (2011–2013) supplemented with Nov 2025 UN texts (cite_current); recheck after the UNISFA mandate renewal.",
+         "text_ar_status": "working translation – needs native-speaker review",
+         "cite_current": [
+          {
+           "cite": "UN Meetings Coverage SC/16212, 'With Abyei's Final Status Still Hanging, Security Council Urges Sudan, South Sudan to De-escalate Violence…', briefing by ASG Martha Ama Akyaa Pobee, 5 Nov 2025",
+           "page": "para 2",
+           "url": "https://press.un.org/en/2025/sc16212.doc.htm",
+           "quote": "The political process between Sudan and South Sudan on Abyei and border issues remains stalled, as it has been since the outbreak of the Sudan conflict in April 2023",
+           "read": "full page via WebFetch 2026-10-25"
+          },
+          {
+           "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted at the 10042nd (resumed) meeting, 14 Nov 2025 (document 25-18650)",
+           "page": "preamble; OP 1; OP 4",
+           "url": "https://unscr.com/en/resolutions/doc/2802/",
+           "alt_urls": [
+            "https://press.un.org/en/2025/sc16223.doc.htm (adoption press release; seen via search only)"
+           ],
+           "quote": "underscoring that the future status of Abyei shall be resolved by negotiations between the parties in a manner consistent with the CPA",
+           "quote_op1": "Decides to extend until 15 November 2026 the mandate of UNISFA as set out in paragraph 2 of resolution 1990 (2011)",
+           "quote_op4": "Determines that both parties should demonstrate measurable progress on border demarcation, including through:",
+           "read": "full text (12 pp., preamble and OP 1–36) via WebFetch of unscr.com, 2026-10-25",
+           "read_in_full": true,
+           "read_note": "Read from a search extract only, not the full resolution text.",
+           "badge": "SINGLE-SOURCE"
+          }
+         ],
+         "recheck_after": "2026-11-15",
+         "verification_note": "VERIFY cleared per db/verify_cites_for_extents.json (7e0e33b). Status/legal texts only; no territorial-control claim."
         },
         {
          "field": "abyei.referendum_2013",
@@ -1894,9 +1946,9 @@
         },
         {
          "field": "abyei.final_status",
-         "badge": "VERIFY",
-         "text_en": "Final status unresolved.",
-         "text_ar": "الوضع النهائي لم يُحسم بعد.",
+         "badge": null,
+         "text_en": "Final status unresolved (as of Nov 2025).",
+         "text_ar": "الوضع النهائي لم يُحسم بعد (حتى نوفمبر 2025). [Arabic text pending native-speaker review.]",
          "cite": [
           {
            "source": "UNSC1990",
@@ -1909,8 +1961,34 @@
            "quote": "the Government of the Sudan and the Misseriya community termed the referendum illegitimate"
           }
          ],
-         "note": "Sourced only to 2011–2013 documents (latest: S/2013/706). VERIFY against a current UN Secretary-General report before showing as present-day.",
-         "text_ar_status": "working translation – needs native-speaker review"
+         "note": "Earlier cites (2011–2013) supplemented with Nov 2025 UN texts (cite_current); recheck after the UNISFA mandate renewal.",
+         "text_ar_status": "working translation – needs native-speaker review",
+         "cite_current": [
+          {
+           "cite": "UN Meetings Coverage SC/16212, 'With Abyei's Final Status Still Hanging, Security Council Urges Sudan, South Sudan to De-escalate Violence…', briefing by ASG Martha Ama Akyaa Pobee, 5 Nov 2025",
+           "page": "para 2",
+           "url": "https://press.un.org/en/2025/sc16212.doc.htm",
+           "quote": "The political process between Sudan and South Sudan on Abyei and border issues remains stalled, as it has been since the outbreak of the Sudan conflict in April 2023",
+           "read": "full page via WebFetch 2026-10-25"
+          },
+          {
+           "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted at the 10042nd (resumed) meeting, 14 Nov 2025 (document 25-18650)",
+           "page": "preamble; OP 1; OP 4",
+           "url": "https://unscr.com/en/resolutions/doc/2802/",
+           "alt_urls": [
+            "https://press.un.org/en/2025/sc16223.doc.htm (adoption press release; seen via search only)"
+           ],
+           "quote": "underscoring that the future status of Abyei shall be resolved by negotiations between the parties in a manner consistent with the CPA",
+           "quote_op1": "Decides to extend until 15 November 2026 the mandate of UNISFA as set out in paragraph 2 of resolution 1990 (2011)",
+           "quote_op4": "Determines that both parties should demonstrate measurable progress on border demarcation, including through:",
+           "read": "full text (12 pp., preamble and OP 1–36) via WebFetch of unscr.com, 2026-10-25",
+           "read_in_full": true,
+           "read_note": "Read from a search extract only, not the full resolution text.",
+           "badge": "SINGLE-SOURCE"
+          }
+         ],
+         "recheck_after": "2026-11-15",
+         "verification_note": "VERIFY cleared per db/verify_cites_for_extents.json (7e0e33b). Status/legal texts only; no territorial-control claim."
         },
         {
          "field": "abyei.referendum_2013",
@@ -2135,9 +2213,9 @@
         },
         {
          "field": "abyei.final_status",
-         "badge": "VERIFY",
-         "text_en": "Final status unresolved.",
-         "text_ar": "الوضع النهائي لم يُحسم بعد.",
+         "badge": null,
+         "text_en": "Final status unresolved (as of Nov 2025).",
+         "text_ar": "الوضع النهائي لم يُحسم بعد (حتى نوفمبر 2025). [Arabic text pending native-speaker review.]",
          "cite": [
           {
            "source": "UNSC1990",
@@ -2150,8 +2228,34 @@
            "quote": "the Government of the Sudan and the Misseriya community termed the referendum illegitimate"
           }
          ],
-         "note": "Sourced only to 2011–2013 documents (latest: S/2013/706). VERIFY against a current UN Secretary-General report before showing as present-day.",
-         "text_ar_status": "working translation – needs native-speaker review"
+         "note": "Earlier cites (2011–2013) supplemented with Nov 2025 UN texts (cite_current); recheck after the UNISFA mandate renewal.",
+         "text_ar_status": "working translation – needs native-speaker review",
+         "cite_current": [
+          {
+           "cite": "UN Meetings Coverage SC/16212, 'With Abyei's Final Status Still Hanging, Security Council Urges Sudan, South Sudan to De-escalate Violence…', briefing by ASG Martha Ama Akyaa Pobee, 5 Nov 2025",
+           "page": "para 2",
+           "url": "https://press.un.org/en/2025/sc16212.doc.htm",
+           "quote": "The political process between Sudan and South Sudan on Abyei and border issues remains stalled, as it has been since the outbreak of the Sudan conflict in April 2023",
+           "read": "full page via WebFetch 2026-10-25"
+          },
+          {
+           "cite": "UN Security Council resolution 2802 (2025), S/RES/2802(2025), adopted at the 10042nd (resumed) meeting, 14 Nov 2025 (document 25-18650)",
+           "page": "preamble; OP 1; OP 4",
+           "url": "https://unscr.com/en/resolutions/doc/2802/",
+           "alt_urls": [
+            "https://press.un.org/en/2025/sc16223.doc.htm (adoption press release; seen via search only)"
+           ],
+           "quote": "underscoring that the future status of Abyei shall be resolved by negotiations between the parties in a manner consistent with the CPA",
+           "quote_op1": "Decides to extend until 15 November 2026 the mandate of UNISFA as set out in paragraph 2 of resolution 1990 (2011)",
+           "quote_op4": "Determines that both parties should demonstrate measurable progress on border demarcation, including through:",
+           "read": "full text (12 pp., preamble and OP 1–36) via WebFetch of unscr.com, 2026-10-25",
+           "read_in_full": true,
+           "read_note": "Read from a search extract only, not the full resolution text.",
+           "badge": "SINGLE-SOURCE"
+          }
+         ],
+         "recheck_after": "2026-11-15",
+         "verification_note": "VERIFY cleared per db/verify_cites_for_extents.json (7e0e33b). Status/legal texts only; no territorial-control claim."
         },
         {
          "field": "abyei.referendum_2013",

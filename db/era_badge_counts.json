@@ -15,12 +15,12 @@
    "DERIVED"
   ],
   "era_count": 68,
-  "files_scanned": 279
+  "files_scanned": 280
  },
  "totals": {
-  "SINGLE-SOURCE": 180,
+  "SINGLE-SOURCE": 192,
   "CONTESTED": 116,
-  "VERIFY": 15,
+  "VERIFY": 2,
   "REPORTED": 10,
   "MODEL": 109,
   "EDITORIAL": 16,
@@ -28,7 +28,7 @@
   "PARTIAL": 3,
   "DERIVED": 51
  },
- "grand_total": 631,
+ "grand_total": 630,
  "eras_with_zero_badges": [],
  "eras": {
   "a-group-lower-nubia": {
@@ -88,9 +88,9 @@
   },
   "al-bashir-ncp-ingaz-regime": {
    "counts": {
-    "SINGLE-SOURCE": 3,
+    "SINGLE-SOURCE": 6,
     "CONTESTED": 20,
-    "VERIFY": 3,
+    "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 4,
     "EDITORIAL": 0,
@@ -285,9 +285,9 @@
   },
   "december-revolution-transition": {
    "counts": {
-    "SINGLE-SOURCE": 3,
+    "SINGLE-SOURCE": 6,
     "CONTESTED": 18,
-    "VERIFY": 3,
+    "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 0,
@@ -993,9 +993,9 @@
   },
   "republic-of-south-sudan": {
    "counts": {
-    "SINGLE-SOURCE": 4,
+    "SINGLE-SOURCE": 7,
     "CONTESTED": 22,
-    "VERIFY": 4,
+    "VERIFY": 1,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
@@ -1129,7 +1129,7 @@
    "counts": {
     "SINGLE-SOURCE": 3,
     "CONTESTED": 7,
-    "VERIFY": 1,
+    "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
@@ -1137,7 +1137,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 25,
+   "total": 24,
    "files": [
     "data/eras/southern-sudan-under-condominium-sudan.json",
     "db/extents/southern-sudan-under-condominium-sudan.geojson",
@@ -1263,9 +1263,9 @@
   },
   "war-in-sudan-saf-vs-rsf": {
    "counts": {
-    "SINGLE-SOURCE": 4,
+    "SINGLE-SOURCE": 7,
     "CONTESTED": 18,
-    "VERIFY": 3,
+    "VERIFY": 0,
     "REPORTED": 4,
     "MODEL": 4,
     "EDITORIAL": 0,
