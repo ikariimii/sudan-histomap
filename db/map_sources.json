@@ -3848,7 +3848,7 @@
    "name_en": "Tunjur kingdom",
    "stream": "Sudan – Darfur & Kordofan",
    "start": 1400,
-   "end": 1650,
+   "end": 1640,
    "shapes": [
     {
      "layer": "extents",
@@ -3882,7 +3882,7 @@
      "confidence": 0.3,
      "certainty": "low",
      "start": 1400,
-     "end": 1650,
+     "end": 1640,
      "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map",
@@ -3948,7 +3948,7 @@
   "sultanate-of-darfur-keira": {
    "name_en": "Sultanate of Darfur (Keira)",
    "stream": "Sudan – Darfur & Kordofan",
-   "start": 1650,
+   "start": 1640,
    "end": 1874,
    "shapes": [
     {
@@ -3976,6 +3976,10 @@
       {
        "id": "EXT_HDX_CODAB",
        "pages": null
+      },
+      {
+       "id": "GHA5_CH7",
+       "pages": null
       }
      ],
      "base_source": [
@@ -3990,7 +3994,7 @@
      ],
      "confidence": 0.3,
      "certainty": "low",
-     "start": 1650,
+     "start": 1640,
      "end": 1785,
      "checked_against": [],
      "overlay_mean_error_km": null,
@@ -4098,6 +4102,10 @@
       {
        "id": "TAKANA2016",
        "pages": "9"
+      },
+      {
+       "id": "GHA5_CH7",
+       "pages": "9"
       }
      ],
      "base_source": [
@@ -4113,7 +4121,7 @@
      ],
      "confidence": 0.3,
      "certainty": "low",
-     "start": 1650,
+     "start": 1640,
      "end": 1874,
      "checked_against": [],
      "overlay_mean_error_km": null,
@@ -4133,6 +4141,10 @@
       {
        "id": "TAKANA2016",
        "pages": "9"
+      },
+      {
+       "id": "GHA5_CH7",
+       "pages": "9"
       }
      ],
      "base_source": [
@@ -4148,7 +4160,7 @@
      ],
      "confidence": 0.3,
      "certainty": "low",
-     "start": 1650,
+     "start": 1640,
      "end": 1874,
      "checked_against": [],
      "overlay_mean_error_km": null,
@@ -4168,6 +4180,10 @@
       {
        "id": "TAKANA2016",
        "pages": "9"
+      },
+      {
+       "id": "GHA5_CH7",
+       "pages": "9"
       }
      ],
      "base_source": [
@@ -4183,7 +4199,7 @@
      ],
      "confidence": 0.3,
      "certainty": "low",
-     "start": 1650,
+     "start": 1640,
      "end": 1874,
      "checked_against": [],
      "overlay_mean_error_km": null,
@@ -4203,6 +4219,10 @@
       {
        "id": "TAKANA2016",
        "pages": "9"
+      },
+      {
+       "id": "GHA5_CH7",
+       "pages": "9"
       }
      ],
      "base_source": [
@@ -4218,7 +4238,7 @@
      ],
      "confidence": 0.3,
      "certainty": "low",
-     "start": 1650,
+     "start": 1640,
      "end": 1874,
      "checked_against": [],
      "overlay_mean_error_km": null,
