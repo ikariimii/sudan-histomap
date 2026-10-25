@@ -36,7 +36,7 @@ def offline():
     def _be_src_list(it):
         """Accept sources:[{id,page}] (schema) or cite:{source_id,pages}|[...]|"NO-SOURCE" (Historian file)."""
         if it.get('sources'): return it['sources']
-        c=it.get('cite');c=c if isinstance(c,list) else [c]
+        c=it.get('cite') or it.get('cites');c=c if isinstance(c,list) else [c]
         return [dict(id=x.get('source_id'),page=x.get('pages')) for x in c if isinstance(x,dict) and x.get('source_id')]
     def _be_norm_b(b):
         b=dict(b);b['sources']=_be_src_list(b)

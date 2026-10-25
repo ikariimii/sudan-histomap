@@ -438,7 +438,7 @@ window.__hm={scale:k=>svg.call(zoom.scaleTo,k)};// test hook (QA only, no side e
 const eth1932=()=>{const e=ES[i];if(on.has('eth')&&(M.layers.eth||[]).includes(e.id)&&e.a<=1932&&1932<=e.b)Y=1932};eth1932();
 // --- Battles layer (?layers=battles) + era Events timeline. Built only when web/features.json turns them on and the
 // data passed the build cite checks (or a local HM_DEV_STUB build: EXAMPLE DATA badge). Every item carries a cite.
-var BTD=null,gBt=null,gEp=null,ST=null,EVD=null;const BT=AR?{d:'التاريخ *',sd:'الأطراف *',oc:'النتيجة *',src:'المصدر *',img:'الصورة *',ev:'أحداث العصر *',stub:'بيانات مثال (تجريبية)، ليست بحثًا *',fly:'اعرض على الخريطة *',pg:'ص'}:{d:'Date',sd:'Sides',oc:'Outcome',src:'Source',img:'Image',ev:'Events in this era',stub:'EXAMPLE DATA (stub), not research',fly:'Show on map',pg:'p.'};
+var BTD=null,gBt=null,gEp=null,ST=null,EVD=null;const BT=AR?{d:'التاريخ *',sd:'الأطراف *',oc:'النتيجة *',src:'المصدر *',img:'الصورة *',ev:'أحداث العصر *',war:'الحرب *',stub:'بيانات مثال (تجريبية)، ليست بحثًا *',fly:'اعرض على الخريطة *',pg:'ص'}:{d:'Date',sd:'Sides',oc:'Outcome',src:'Source',img:'Image',ev:'Events in this era',war:'War',stub:'EXAMPLE DATA (stub), not research',fly:'Show on map',pg:'p.'};
 const bpick=a=>a?(AR?(a[1]||a[0]):(a[0]||a[1]))||'':'';
 const bcite=s=>s.map(c=>`<bdi dir="ltr">${esc(c.c)}${c.p?', '+esc(/^\s*(pp?\.|ص)/.test(c.p)?c.p:(/^\d/.test(c.p)?'p. '+c.p:c.p)):''}</bdi>${c.u?` <a href="${esc(c.u)}" rel="noopener">${esc(T.lnk||'link')}</a>`:''}`).join('<br>');
 async function batDraw(e){if(!M.layers.bat)return;gBt=gBt||root.append('g').attr('class','bts');if(!on.has('bat')){gBt.selectAll('*').remove();return}
@@ -446,12 +446,15 @@ async function batDraw(e){if(!M.layers.bat)return;gBt=gBt||root.append('g').attr
  const k=gBt.selectAll('g.bt').data(B,b=>b.id);k.exit().remove();
  const n=k.enter().append('g').attr('class',b=>'bt mk pr-'+b.pr).each(function(b){this.__xy=proj(b.ll)}).on('click',(ev,b)=>{ev.stopPropagation();batCard(b)});
  n.append('circle').attr('r',8);n.append('path').attr('d','M-4,-4L4,4M4,-4L-4,4');n.append('title').text(b=>bpick([b.en,b.ar]));scaleMarks();a11yMarks()}
+// war line + end_badge (battle_style.json end_badge, Map Designer 93199e3): 'from – to?' with the end year dimmed, pill badge; end_note on hover (title) and tap (toggle)
+function batWar(w){if(!w)return'';const e=BTD.ebs||{},raw=w.eb&&w.eb.toUpperCase()!=='VERIFY'?w.eb+' · ':'',lb=raw+(AR?e.ar:e.en),nt=w.nt?(AR?(w.nt[1]||(w.nt[0]?w.nt[0]+' [VERIFY]':'')):(w.nt[0]||'')):'';
+ return `<p><b>${BT.war}:</b> <span dir="auto">${esc(bpick([w.en,w.ar]))}</span> <bdi dir="ltr">${esc(fy(w.a))} – <span class="${w.eb?'wye':''}">${esc(fy(w.b))}${w.eb?'?':''}</span></bdi>`+(w.eb?` <button type="button" class="ebd" aria-expanded="false" aria-controls="ebn"${nt?` title="${esc(nt)}"`:''}>${esc(lb)}</button>`:'')+'</p>'+(w.eb&&nt?`<p id="ebn" class="ebn" dir="auto" hidden>${esc(nt)}</p>`:'')+`<p class="extnote"><b>${BT.war} · ${BT.src}:</b> ${bcite(w.s)}</p>`}
 function batCard(b){const p=$('feat'),dt=bpick(b.dt)||(b.a===b.b?fy(b.a):fy(b.a)+' – '+fy(b.b));
  p.innerHTML=`<button class="x" aria-label="${esc(T.close)}">×</button><b dir="auto">${esc(bpick([b.en,b.ar]))}</b>${BTD.stub?` <span class="repb">${esc(BT.stub)}</span>`:''}`+
   `<p><b>${BT.d}:</b> <bdi>${esc(dt)}</bdi></p>`+(b.sd.length?`<p><b>${BT.sd}:</b> ${b.sd.map(s=>`<bdi>${esc(bpick(s))}</bdi>`).join(' · ')}</p>`:'')+(bpick(b.oc)?`<p><b>${BT.oc}:</b> <span dir="auto">${esc(bpick(b.oc))}</span></p>`:'')+
   (b.im?`<figure class="btim"><img src="${esc(b.im.src)}" alt="${esc(bpick(b.im.alt)||bpick([b.en,b.ar]))}" loading="lazy" decoding="async"><figcaption><bdi dir="auto">${esc(b.im.cr)}</bdi>${b.im.li?' · <bdi dir="ltr">'+esc(b.im.li)+'</bdi>':''}${b.im.u?` <a href="${esc(b.im.u)}" rel="noopener">${esc(T.lnk||'link')}</a>`:''}</figcaption></figure>`:'')+
-  `<p class="extnote"><b>${BT.src}:</b> ${bcite(b.s)}</p>`;
- p.hidden=false;p.querySelector('.x').onclick=()=>{p.hidden=true};if($('sheet').classList.contains('peek'))snap('half');p.scrollIntoView({block:'nearest'})}
+  batWar(b.w)+`<p class="extnote"><b>${BT.src}:</b> ${bcite(b.s)}</p>`;
+ p.hidden=false;p.querySelector('.x').onclick=()=>{p.hidden=true};const eb=p.querySelector('.ebd');if(eb)eb.onclick=()=>{const n=$('ebn'),o=n.hidden;n.hidden=!o;eb.setAttribute('aria-expanded',o)};if($('sheet').classList.contains('peek'))snap('half');p.scrollIntoView({block:'nearest'})}
 async function evList(e){if(!M.layers.ev||!(M.layers.evE||[]).includes(e.id))return;const d=await getj('/ev/'+e.id+'.json').catch(()=>null);if(!d||e!==ES[i]||!d.events.length)return;
  const s=document.createElement('section');s.className='evt';s.setAttribute('aria-labelledby','evth');
  s.innerHTML=`<h2 id="evth">${BT.ev}</h2>${d.stub?`<p><span class="repb">${esc(BT.stub)}</span></p>`:''}<ol>`+d.events.map((v,k)=>{const y=`<bdi class="evy">${v.ap?'c. ':''}${fy(v.y)}${v.y2!=null?' – '+fy(v.y2):''}</bdi>`,t=`<span dir="auto">${esc(bpick(v.t))}</span>`;
