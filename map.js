@@ -27,7 +27,7 @@ let i=Math.max(0,ES.findIndex(e=>e.id===Q.get('era')));const r=$('r');r.max=ES.l
 function url(){const q=new URLSearchParams();q.set('era',ES[i].id);if(AR)q.set('lang','ar');const ly=[...on].sort().join(',');if(ly!=='ctl')q.set('layers',ly);history.replaceState(null,'','/?'+q)}
 // --- map
 const svg=d3.select('#svg'),W=()=>innerWidth,H=()=>innerHeight,desk=()=>innerWidth>=1000;
-const root=svg.append('g'),gL=root.append('g'),gC=root.append('g'),gX=root.append('g'),gN=root.append('g'),gG=root.append('g'),gH=root.append('g').attr('class','hml'),gY=root.append('g').attr('class','cities'),gR=root.append('g'),gP=root.append('g'),gK=root.append('g'),gT=root.append('g');
+const root=svg.append('g'),gL=root.append('g'),gC=root.append('g'),gX=root.append('g'),gN=root.append('g'),gG=root.append('g'),gH=root.append('g').attr('class','hml'),gY=root.append('g').attr('class','cities'),gR=root.append('g'),gP=root.append('g'),gK=root.append('g'),gT=root.append('g'),gF=root.append('g').attr('class','flags');
 svg.append('defs').html('<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#f08c6c"/></marker>');
 const proj=d3.geoMercator(),path=d3.geoPath(proj);let K=1,TR=d3.zoomIdentity;
 function fit(){const sh=$('sheet').getBoundingClientRect();const top=desk()?70:120,bot=desk()?H()-20:Math.max(top+160,H()-Math.min(sh.height,H()*.44)-8);
@@ -139,7 +139,7 @@ async function layersDraw(e){const fs=(on.has('grp')||on.has('rel'))?await glj(e
  r.enter().append('path').attr('class',f=>'rel '+(f.t||'')).on('click',glTap).append('title').merge(r.select('title')).text(f=>(AR?f.ar:f.en)+(f.b?' ['+f.b+']':''));
  gR.selectAll('path.rel').attr('stroke',f=>RC[f.t]||'#ccc').attr('marker-end',f=>RC[f.t]?`url(#ah-${f.t})`:null).attr('stroke-dasharray',f=>String(f.c).toLowerCase()==='low'?'5 4':null)
   .attr('d',f=>{if(f.geo.type==='MultiLineString')return path(f.geo);const c=f.geo.coordinates,a=proj(c[0]),b=proj(c[c.length-1]),mx=(a[0]+b[0])/2,my=(a[1]+b[1])/2,dx=b[0]-a[0],dy=b[1]-a[1];return `M${a}Q${mx-dy*.2},${my+dx*.2} ${b}`});
- await citiesDraw(e,D);
+ await citiesDraw(e,D);flagsDraw(e);
  // population stays in the card (sparkline); no invented geography for it
  scaleMarks()}
 async function layerInfo(e){const box=$('layerinfo');if(!box)return;let h='';
@@ -262,6 +262,14 @@ let sx=null;const hd=$('head');hd.addEventListener('pointerdown',ev=>{sx=ev.clie
 const SN=['peek','half','full'];function snap(s){document.body.classList.toggle('sfull',s==='full');setTimeout(lgFit,350);const sh=$('sheet');SN.forEach(c=>sh.classList.remove(c));sh.classList.add(s);setTimeout(place,320)}
 $('grab').onclick=()=>{const sh=$('sheet'),c=SN.find(x=>sh.classList.contains(x))||'half';snap(SN[(SN.indexOf(c)+1)%3])};
 let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(()=>{fit();OLD=[];render(false)},150)});
+// era flags (db/era_symbols.json via db/legends/eras layers.flags): shown at era_focus flag_anchor only while the slider year is inside a used window; joint flags side by side; VERIFY = dashed frame + chip
+function flagsDraw(e){const fl=e.fl,y=cY(),fs=fl?fl.f.filter(f=>f.w.some(w=>w[0]<=y&&y<=w[1])):[];const d=fs.length?[e.id+'|'+fs.map(f=>f.s).join()]:[];
+ const s=gF.selectAll('g.flag').data(d,x=>x);s.exit().remove();
+ const n=s.enter().append('g').attr('class','flag mk').each(function(){this.__xy=proj(fl.a)}).attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`});
+ n.each(function(){const g=d3.select(this),FW=22,FH=15,gap=3,tw=fs.length*FW+(fs.length-1)*gap;g.append('title').text((AR?'العلم':'Flag')+(fs.some(f=>f.v)?' · VERIFY':''));
+  fs.forEach((f,j)=>{const x=-tw/2+j*(FW+gap),y0=-FH-6;g.append('rect').attr('class','fbd'+(f.v?' vfy':'')).attr('x',x-1).attr('y',y0-1).attr('width',FW+2).attr('height',FH+2);g.append('image').attr('href',f.s).attr('x',x).attr('y',y0).attr('width',FW).attr('height',FH).attr('preserveAspectRatio','none')});
+  g.append('line').attr('x1',0).attr('x2',0).attr('y1',-6).attr('y2',0).attr('class','fpole');
+  if(fs.some(f=>f.v))g.append('text').attr('class','fvchip').attr('x',0).attr('y',-FH-9).attr('text-anchor','middle').text('VERIFY')})}
 // --- start
 window.__hm={scale:k=>svg.call(zoom.scaleTo,k)};// test hook (QA only, no side effects)
 fit();getj('/basemap-map.json').then(b=>{BASE=b;render(false)}).catch(()=>render(false));
