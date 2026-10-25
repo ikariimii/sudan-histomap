@@ -3425,9 +3425,42 @@
       "ocr_note": "Tesseract OCR, not checked against the page image"
      }
     ],
-    "anchors": [],
-    "null_reason": "sources read (incl. QASIM_MAWSUA vol.6 p.2524) name rivers and regions only; no settlement point checked",
-    "map_limits": "text only"
+    "anchors": [
+     {
+      "place": "Pibor River",
+      "anchor_type": "river",
+      "gazetteer": "wikidata:Q3179125",
+      "lat": 8.4337,
+      "lon": 33.2185,
+      "coord_source": "Wikidata P625",
+      "badge": "APPROXIMATE",
+      "cite": {
+       "source": "EP1940_NUER",
+       "page": "p.112",
+       "quote": "the Pibor separates the Lou tribe from the Anuak people"
+      },
+      "note": "APPROXIMATE river anchor at the Lou Nuer edge; not a homeland centre"
+     },
+     {
+      "place": "Bahr el Zeraf",
+      "anchor_type": "river",
+      "gazetteer": "wikidata:Q1112393",
+      "lat": 9.4125,
+      "lon": 31.164444444444,
+      "coord_source": "Wikidata P625",
+      "badge": "APPROXIMATE",
+      "cite": {
+       "source": "EP1940_NUER",
+       "page": "p.112",
+       "note": "tribal sections described by the rivers (Zeraf, Pibor) that separate them from neighbours"
+      },
+      "note": "APPROXIMATE river anchor (Wikidata point, near the White Nile confluence); not a homeland centre"
+     }
+    ],
+    "map_limits": "river point anchors only",
+    "anchors_kind": "point anchors only – no centre or area",
+    "badge": "APPROXIMATE",
+    "anchors_note": "Nasir/Nasser town not found on Wikidata search; not used"
    },
    "controlled_areas": [],
    "ancestry": [
@@ -4694,22 +4727,44 @@
       "quote": "at one time the Anuak extended far westward of their present distribution"
      }
     ],
-    "badge": "SINGLE-SOURCE",
+    "badge": [
+     "SINGLE-SOURCE",
+     "APPROXIMATE"
+    ],
     "note": "Outsider (Nuer-focused) account, 1940.",
     "anchors": [
      {
       "place": "Pibor River",
+      "anchor_type": "river",
       "gazetteer": "wikidata:Q3179125",
       "lat": 8.4337,
       "lon": 33.2185,
       "coord_source": "Wikidata P625",
+      "badge": "APPROXIMATE",
       "cite": {
        "source": "EP1940_NUER",
-       "page": "p.112"
+       "page": "p.112",
+       "quote": "the Pibor separates the Lou tribe from the Anuak people"
       },
-      "note": "river named as the Lou Nuer–Anuak divide; the Wikidata point is a single river coordinate, not the homeland centre"
+      "note": "APPROXIMATE river anchor (Wikidata point, near the Sobat confluence); marks the Lou Nuer–Anuak divide, not a homeland centre or area"
+     },
+     {
+      "place": "Akobo River",
+      "anchor_type": "river",
+      "gazetteer": "wikidata:Q2829107",
+      "lat": 7.7944,
+      "lon": 33.0461,
+      "coord_source": "Wikidata P625",
+      "badge": [
+       "APPROXIMATE",
+       "VERIFY"
+      ],
+      "cite": null,
+      "note": "APPROXIMATE river anchor (Wikidata point, near the Pibor confluence at Akobo); not a homeland centre or area. VERIFY: the sources read (EP1940_NUER pp.5,112,133; Gleichen 1905 vol. II Route 138) do not name the Akobo, so the ethnographic tie is uncited; EP1940_ANUAK not available"
      }
-    ]
+    ],
+    "anchors_kind": "point anchors only – no centre or area",
+    "map_limits": "river point anchors only"
    },
    "controlled_areas": [],
    "ancestry": [],
