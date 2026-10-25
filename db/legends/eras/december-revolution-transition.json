@@ -59,11 +59,12 @@
     {
      "feature_index": 3,
      "id": null,
-     "label_en": "Halaib (disputed; Egyptian control, effective, from 1995)",
-     "symbol_class": "control_extent_approx",
+     "label_en": "Halaib (disputed since 1958)",
+     "symbol_class": "contested_point",
      "certainty": "medium",
      "badges": [
       "APPROXIMATE",
+      "CONTESTED",
       "DERIVED"
      ],
      "start": 2019,
@@ -1821,9 +1822,9 @@
   "city_religious": 5,
   "city_town": 7,
   "contested_boundary_line": 3,
-  "contested_point": 2,
+  "contested_point": 3,
   "control_extent": 1,
-  "control_extent_approx": 2,
+  "control_extent_approx": 1,
   "economy_unknown": 1,
   "flag": 1,
   "extent_features": 8,
