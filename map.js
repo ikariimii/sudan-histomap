@@ -341,24 +341,32 @@ let CE=null;function cam(e,g){if(e.id===CE)return;const first=CE===null;CE=e.id;
   t=d3.zoomIdentity.translate((x1+x2)/2-k*(p[0]+q[0])/2,(top+bot)/2-k*(p[1]+q[1])/2).scale(k)}
  if(first||RM)svg.interrupt().call(zoom.transform,t);else svg.interrupt().transition('cam').duration(1000).call(zoom.transform,t)}
 function go(n){n=Math.max(0,Math.min(ES.length-1,n));if(n===i)return;i=n;Y=null;render(true)}
-r.addEventListener('input',()=>{tourStop();go(+r.value)});
+r.addEventListener('input',()=>{tourPause();go(+r.value)});
 // era tour: play/pause next to the scrubber; flies to each era's area (camera is instant under reduced motion), dwells, stops at the last era.
 // Any manual era change pauses it; hidden tabs pause it. The live region already announces each era.
 const TB=document.createElement('button');TB.type='button';TB.id='tour';TB.className='nav tour';
-let TT=null;const tourSet=p=>{TB.setAttribute('aria-pressed',p);TB.setAttribute('aria-label',p?T.tour_pause:T.tour_play);TB.title=p?T.tour_pause:T.tour_play;TB.innerHTML=p?'<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 2h4v12H3zM9 2h4v12H9z" fill="currentColor"/></svg>':'<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M4 2l10 6-10 6z" fill="currentColor"/></svg>'};
-function tourStop(){if(TT){clearTimeout(TT);TT=null;tourSet(false)}}
-function tourStep(){if(i>=ES.length-1){tourStop();return}go(i+1);TT=setTimeout(tourStep,RM?5000:4200)}
-document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&TT)tourStop()},true);
-TB.onclick=()=>{if(TT){tourStop();return}tourSet(true);if(i>=ES.length-1){go(0);TT=setTimeout(tourStep,RM?5000:4200)}else tourStep()};
-tourSet(false);$('scrub').appendChild(TB);
-document.addEventListener('visibilitychange',()=>{if(document.hidden)tourStop()});
-['prev','next'].forEach(id=>$(id).addEventListener('click',tourStop,true));
+// states: off | play | pause. Dwell is longer on phones and under reduced motion (no camera flight there, so readers get more still time).
+let TT=null,TS='off';const dwell=()=>RM?7000:(innerWidth<600?5600:4600);
+const TP=document.createElement('div');TP.id='tourp';TP.hidden=true;TP.setAttribute('role','status');TP.innerHTML=`<span class="tpi" aria-hidden="true">❚❚</span><span>${T.tour_paused}</span><button type="button" id="tourr">${T.tour_resume}</button>`;
+const tourSet=p=>{TB.setAttribute('aria-pressed',p);TB.dataset.st=TS;const l=p?T.tour_pause:TS==='pause'?T.tour_resume:T.tour_play;TB.setAttribute('aria-label',l);TB.title=l;TB.innerHTML=p?'<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 2h4v12H3zM9 2h4v12H9z" fill="currentColor"/></svg>':'<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M4 2l10 6-10 6z" fill="currentColor"/></svg>';TP.hidden=TS!=='pause';document.documentElement.classList.toggle('touring',TS==='play')};
+function tourStop(){clearTimeout(TT);TT=null;if(TS!=='off'){TS='off';tourSet(false)}}
+function tourPause(){if(TS!=='play')return;clearTimeout(TT);TT=null;TS='pause';tourSet(false)}
+function tourStep(){if(i>=ES.length-1){tourStop();return}go(i+1);TT=setTimeout(tourStep,dwell())}
+function tourPlay(){TS='play';tourSet(true);clearTimeout(TT);if(i>=ES.length-1)go(0);TT=setTimeout(tourStep,dwell())}
+document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&TS!=='off')tourStop()},true);
+TB.onclick=()=>{if(TS==='play')tourPause();else tourPlay()};
+TP.querySelector('button').onclick=()=>{tourPlay();TB.focus({preventScroll:true})};
+tourSet(false);$('scrub').appendChild(TB);$('scrub').before(TP);
+// tap/press on the map pauses (a visible 'paused' bar offers resume); manual era changes pause too
+$('map').addEventListener('pointerdown',()=>{if(TS==='play')tourPause()},true);
+document.addEventListener('visibilitychange',()=>{if(document.hidden)tourPause()});
+['prev','next'].forEach(id=>$(id).addEventListener('click',tourPause,true));
 // slider keys (APG): arrows step one era (mirrored in RTL), Up/Down step, PageUp/PageDown ±5, Home/End first/last
-r.addEventListener('keydown',ev=>{tourStop();const k=ev.key,m={ArrowRight:AR?-1:1,ArrowLeft:AR?1:-1,ArrowUp:1,ArrowDown:-1,PageUp:5,PageDown:-5};let n=null;if(k in m)n=i+m[k];else if(k==='Home')n=0;else if(k==='End')n=ES.length-1;if(n==null)return;ev.preventDefault();go(n)});
-addEventListener('keydown',ev=>{if(ev.key===' '&&TT&&!(ev.target.closest&&ev.target.closest('button,input,select,textarea,a,[role=button],summary'))){ev.preventDefault();tourStop()}});
+r.addEventListener('keydown',ev=>{tourPause();const k=ev.key,m={ArrowRight:AR?-1:1,ArrowLeft:AR?1:-1,ArrowUp:1,ArrowDown:-1,PageUp:5,PageDown:-5};let n=null;if(k in m)n=i+m[k];else if(k==='Home')n=0;else if(k==='End')n=ES.length-1;if(n==null)return;ev.preventDefault();go(n)});
+addEventListener('keydown',ev=>{if(ev.key===' '&&TS!=='off'&&!(ev.target.closest&&ev.target.closest('button,input,select,textarea,a,[role=button],summary,[contenteditable]'))){ev.preventDefault();TS==='play'?tourPause():tourPlay()}});
 addEventListener('keydown',ev=>{if(ev.key!=='Escape')return;if(!$('feat').hidden){$('feat').hidden=true;if(LASTF&&LASTF.isConnected)LASTF.focus();return}if(lgOpen){$('lgb').click();$('lgb').focus();return}if($('sheet').classList.contains('full'))snap('half')});$('prev').onclick=()=>go(i-1);$('next').onclick=()=>go(i+1);
 $('w').addEventListener('input',()=>{const e=ES[i];ext(e).then(g=>{Y=steps(e,g)[+$('w').value];render(true)})});
-addEventListener('keydown',ev=>{if(ev.target.tagName==='INPUT')return;if(ev.key==='ArrowRight'||ev.key==='ArrowLeft')tourStop();if(ev.key==='ArrowRight')go(i+(AR?-1:1));if(ev.key==='ArrowLeft')go(i+(AR?1:-1))});
+addEventListener('keydown',ev=>{if(ev.target.tagName==='INPUT')return;if(ev.key==='ArrowRight'||ev.key==='ArrowLeft')tourPause();if(ev.key==='ArrowRight')go(i+(AR?-1:1));if(ev.key==='ArrowLeft')go(i+(AR?1:-1))});
 let sx=null;const hd=$('head');hd.addEventListener('pointerdown',ev=>{sx=ev.clientX});hd.addEventListener('pointerup',ev=>{if(sx==null)return;const d=ev.clientX-sx;sx=null;if(Math.abs(d)>50)go(i+((d<0)!==AR?1:-1))});
 const SN=['peek','half','full'];function snap(s){$('grab').setAttribute('aria-label',T.sheet+' · '+T.sheetst[s]);$('grab').setAttribute('aria-expanded',s!=='peek');document.body.classList.toggle('sfull',s==='full');setTimeout(lgFit,350);const sh=$('sheet');SN.forEach(c=>sh.classList.remove(c));sh.classList.add(s);setTimeout(place,320)}
 $('grab').onclick=()=>{const sh=$('sheet'),c=SN.find(x=>sh.classList.contains(x))||'half';snap(SN[(SN.indexOf(c)+1)%3])};

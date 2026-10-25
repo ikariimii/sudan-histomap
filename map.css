@@ -161,3 +161,6 @@ body.embed #about,body.embed #lang,body.embed #srchb{display:none}#embo{font-siz
 .hwkk{position:relative;white-space:nowrap}.hwkk+span::before{content:none!important}.hwkt{font:inherit;color:inherit;background:none;border:0;padding:0 .1em;min-height:24px;text-decoration:underline dotted;cursor:help}
 .hwtip{display:none;position:absolute;inset-inline-start:0;top:100%;z-index:30;background:#2b2520;color:#fff;padding:.3em .5em;border-radius:.35em;font-size:12px;white-space:normal;width:max-content;max-width:min(220px,70vw)}
 .hwkt:hover+.hwtip,.hwkt:focus-visible+.hwtip,.hwkt[aria-expanded="true"]+.hwtip{display:block}
+html[dir=rtl] #scrub .tour{transform:none}#scrub .tour[data-st=pause]{border-color:var(--acc);border-style:dashed}
+#tourp{display:flex;align-items:center;gap:8px;margin:0 0 6px;padding:4px 6px 4px 10px;border:1px dashed var(--acc);border-radius:12px;background:#0f1b24;color:#e8eef2;font-size:13px}#tourp[hidden]{display:none}#tourp .tpi{color:var(--acc);font-size:11px}
+#tourp button{margin-inline-start:auto;min-height:32px;padding:2px 12px;border-radius:16px;border:1px solid var(--acc);background:var(--acc);color:#1a1a1a;font:inherit;font-weight:700;cursor:pointer}
