@@ -9,6 +9,7 @@ a{color:#8cc8f0}button{font:inherit;color:inherit}
 .cl{fill:#9fb2bf;font-size:11px;letter-spacing:.06em;text-transform:uppercase;pointer-events:none;paint-order:stroke;stroke:var(--bg);stroke-width:3px}
 .ext{fill:var(--c,#e0a63e);fill-opacity:.38;stroke:var(--c,#e0a63e);stroke-width:1.6;stroke-linejoin:round;cursor:pointer}
 .ext.low{stroke-dasharray:6 4}
+.ext.cont{fill:url(#hatch-cont);fill-opacity:1;stroke:#e0a63e;stroke-width:2}
 .pt rect{fill:var(--c,#e0a63e);stroke:#fff;stroke-width:1.4;cursor:pointer}.pt.low rect{fill:#fff;stroke:var(--c,#e0a63e);stroke-dasharray:2 2}
 .cap circle{fill:#fff;stroke:var(--bg);stroke-width:2}
 .lb{fill:#fff;font-size:12px;paint-order:stroke;stroke:#0f1b24;stroke-width:3.2px;stroke-linejoin:round;pointer-events:none}.lb.big{font-size:13px;font-weight:600;font-style:italic}
