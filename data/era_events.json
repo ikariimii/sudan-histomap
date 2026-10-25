@@ -1054,9 +1054,10 @@
  "land-of-punt-d-mt": [
   {
    "date": null,
-   "en": "D'mt kingdom in Eritrea/Tigray",
-   "ar": "مملكة دعمت في إريتريا/تيغراي",
-   "cite": "NO-SOURCE"
+   "en": "",
+   "ar": "",
+   "cite": "NO-SOURCE",
+   "removed": "r25 triage: No registered source names D'mt (GHA II ch.13 pp.340-365 searched)."
   }
  ],
  "kingdom-of-aksum": [
@@ -1064,13 +1065,19 @@
    "date": 350,
    "en": "Campaign against Meroe/Noba c.350",
    "ar": "حملة على مروي/النوبة نحو 350",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA2",
+    "pages": "p.293"
+   }
   },
   {
    "date": null,
    "en": "Christianity under Ezana c.330s",
    "ar": "المسيحية في عهد عيزانا نحو ثلاثينيات القرن الرابع",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA2",
+    "pages": "pp.293, 375"
+   }
   }
  ],
  "zagwe-dynasty": [
@@ -1089,19 +1096,26 @@
    "date": 1636,
    "en": "Gondar period 1636–1769",
    "ar": "عهد غوندار 1636–1769",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA5",
+    "pages": "pp.709, 724–725"
+   }
   },
   {
-   "date": 1889,
-   "en": "Battle of Gallabat vs Mahdists 1889",
-   "ar": "معركة القلابات ضد المهدويين 1889",
-   "cite": "NO-SOURCE"
+   "date": null,
+   "en": "",
+   "ar": "",
+   "cite": "NO-SOURCE",
+   "removed": "r25 triage: No registered source page prints Gallabat 1889 (GHA VI ch.15, SFDAS, HD searched)."
   },
   {
    "date": 1896,
    "en": "Adwa 1896",
    "ar": "عدوة 1896",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA7_CH11",
+    "pages": "pp.279–280"
+   }
   }
  ],
  "derg-federal-ethiopia": [
