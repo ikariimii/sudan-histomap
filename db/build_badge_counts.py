@@ -58,12 +58,41 @@ for f in files:
     stem = os.path.splitext(b)[0]
     walk(d, [stem] if stem in eras else [], rel)
 
-per = {e: {"counts": counts[e], "total": sum(counts[e].values()), "files": sorted(srcs[e])} for e in sorted(eras)}
+# Inline bracketed tags, e.g. "[VERIFY]", in data/eras text fields (not badge keys).
+# Kept separate from structured counts. Arabic (_ar / ar) fields are skipped as
+# translations of the English text (same reason lens_* files are excluded). A tag
+# is skipped when the enclosing object already carries that badge structurally.
+IRX = re.compile(r'\[(%s)(?=\]|:)' % "|".join(map(re.escape, BADGES)))
+inline = {e: {b: 0 for b in BADGES} for e in eras}
+def struct_badges(d):
+    got = set()
+    for k in BADGE_KEYS & d.keys():
+        for v in (d[k] if isinstance(d[k], list) else [d[k]]):
+            m = RX.match(v) if isinstance(v, str) else None
+            if m: got.add(m.group(1))
+    return got
+def iwalk(o, e, have=frozenset(), key=None):
+    if isinstance(o, dict):
+        h = have | struct_badges(o)
+        for k, v in o.items():
+            if k in BADGE_KEYS or k == "ar" or k.endswith("_ar"): continue
+            iwalk(v, e, h, k)
+    elif isinstance(o, list):
+        for v in o: iwalk(v, e, have, key)
+    elif isinstance(o, str):
+        for m in IRX.finditer(o):
+            if m.group(1) not in have: inline[e][m.group(1)] += 1
+for e, f in eras.items():
+    iwalk(load(f), e)
+itot = {b: sum(inline[e][b] for e in eras) for b in BADGES}
+
+per = {e: {"counts": counts[e], "total": sum(counts[e].values()), "inline_badges": inline[e], "inline_total": sum(inline[e].values()), "files": sorted(srcs[e])} for e in sorted(eras)}
 tot = {b: sum(counts[e][b] for e in eras) for b in BADGES}
 out = {"meta": {"generated": datetime.date.today().isoformat(), "generator": "db/build_badge_counts.py",
   "method": "Read-only recursive scan of data/eras/*.json (excluding all.json) and db/**/*.json|*.geojson, excluding lens_* translations, db/border_drafts/ (unpublished drafts; published data only), db/legends/ and legend_spec.json (legend summaries: badges_present, badge_filter, per-entry badge copies), summary/handoff files (second_sources_for_historian.json, *summary*) and this output. Only values under real badge keys count: badge, badges, flags, flag, from_badges, to_badges (array or string). A value counts once if it equals or begins with a badge name (flags use 'SINGLE-SOURCE: <detail>'). Free text (basis_en, note, claim, etc.) is ignored. Attribution: the era file data/eras/<id>.json, a file named after an era id, a dict key equal to an era id, or an enclosing era/era_id/era_ids/eras/period_id field. Unlinked badges are not counted.",
   "badges": BADGES, "era_count": len(eras), "files_scanned": len(files)},
-  "totals": tot, "grand_total": sum(tot.values()),
+  "totals": tot, "grand_total": sum(tot.values()), "inline_totals": itot, "inline_grand_total": sum(itot.values()),
+  "inline_method": "Exact bracketed tags [NAME] or [NAME: note] for the 9 badge names in data/eras/*.json text fields (excluding all.json, badge keys and Arabic _ar/ar fields); a tag is not counted when the enclosing object already has the same structured badge. Not included in totals/grand_total.",
   "eras_with_zero_badges": [e for e in per if per[e]["total"] == 0], "eras": per}
 json.dump(out, open(os.path.join(ROOT,"db",OUT),"w",encoding="utf-8"), ensure_ascii=False, indent=1)
-print(json.dumps({"totals": tot, "grand": out["grand_total"], "zero": out["eras_with_zero_badges"], "eras": len(eras)}))
+print(json.dumps({"totals": tot, "grand": out["grand_total"], "zero": out["eras_with_zero_badges"], "eras": len(eras), "inline_totals": itot, "inline_grand": sum(itot.values())}))
