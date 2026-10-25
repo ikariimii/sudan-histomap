@@ -45,6 +45,24 @@
      "confidence_word": "low",
      "low_confidence_overlay": true
     }
+   ],
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "EDITORIAL",
+     "legend_en": "Editorial judgement"
+    },
+    {
+     "badge": "SINGLE-SOURCE",
+     "legend_en": "Single source"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
+    }
    ]
   },
   "groups": {

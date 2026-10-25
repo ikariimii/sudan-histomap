@@ -127,6 +127,20 @@
       "EXT_NE_DISPUTED"
      ]
     }
+   ],
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "CONTESTED",
+     "legend_en": "Contested (amber point, never a polygon)"
+    },
+    {
+     "badge": "SINGLE-SOURCE",
+     "legend_en": "Single source"
+    }
    ]
   },
   "groups": {

@@ -669,5 +669,63 @@
   "label_en": "Trade route (schematic)",
   "label_ar": "طريق تجاري (تخطيطي)",
   "label_ar_status": "needs native review"
+ },
+ "borders_legend": {
+  "purpose": "Every badge used on db/extents features and border points is listed in the Borders legend, so no shape reads as more certain than its source. Badge names match db/era_badge_counts.json meta.badges exactly.",
+  "badge_names_source": "db/era_badge_counts.json meta.badges",
+  "rows": [
+   {
+    "badge": "APPROXIMATE",
+    "ref": "uncertainty_encoding.APPROXIMATE",
+    "legend_en": "Approximate",
+    "symbol": "dashed outline [4,3], halved fill, feathered edge; points get a dashed halo"
+   },
+   {
+    "badge": "EDITORIAL",
+    "ref": "uncertainty_encoding.EDITORIAL",
+    "legend_en": "Editorial judgement",
+    "symbol": "italic grey label with 'ed.' tag; popup shows editorial_note_en"
+   },
+   {
+    "badge": "CONTESTED",
+    "ref": "zone_styling / symbol_classes.zone_contested",
+    "legend_en": "Contested (amber point, never a polygon)",
+    "symbol": "amber point with hatched diamond; tooltip lists both claims"
+   },
+   {
+    "badge": "SINGLE-SOURCE",
+    "ref": "uncertainty_encoding.SINGLE-SOURCE",
+    "legend_en": "Single source",
+    "symbol": "'1' superscript on label"
+   },
+   {
+    "badge": "REPORTED",
+    "ref": "uncertainty_encoding.REPORTED",
+    "legend_en": "Reported",
+    "symbol": "open triangle; popup names reporting body"
+   },
+   {
+    "badge": "DERIVED",
+    "ref": null,
+    "legend_en": "Derived from a source (geometry built by method, not traced)",
+    "symbol": "chip only in popup; popup shows method",
+    "legend_ar": null,
+    "note": "Added 2026-10-25 because DERIVED appears on 3 extent features (middle-kingdom, ptolemaic, roman-byzantine Egypt); AR label pending native translation."
+   },
+   {
+    "badge": "VERIFY",
+    "ref": "uncertainty_encoding.VERIFY",
+    "legend_en": "Needs verification",
+    "symbol": "hollow symbol + '?'",
+    "note": "Listed for completeness; 0 extent features carry it as of 2026-10-25."
+   }
+  ],
+  "low_confidence_hatching": {
+   "rule": "diagonal hatching over the fill when numeric confidence < 0.5 (any extent feature, zone or not)",
+   "legend_en": "Hatched: low confidence (< 0.5)",
+   "legend_ar": null,
+   "ar_status": "pending native translation"
+  },
+  "build_check": "build_legends.py prints BORDERS-LEGEND MISSING for any extent badge not in rows."
  }
 }

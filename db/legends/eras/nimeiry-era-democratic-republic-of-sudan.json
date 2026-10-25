@@ -21,7 +21,8 @@
       "EXT_OHM"
      ]
     }
-   ]
+   ],
+   "borders_legend": []
   },
   "groups": {
    "file": null,
@@ -1648,6 +1649,21 @@
    "popup_text_only": null,
    "display_hint": "flag",
    "null_reason": null
+  },
+  "economy": {
+   "file": "db/era_economy.json",
+   "rating": "unknown",
+   "symbol_class": "economy_unknown",
+   "badges": [],
+   "editorial_marker": false,
+   "rating_basis_en": {
+    "value": "Editorial reading: Gulf capital and Chevron's oil finds (LOC1991_ECON; LOC1991_ENERGY) against deficit financing, inflation and debt arrears from the late 1970s (LOC1991_ECONDEV) and the 1985 devaluation (WB_SDN1985).",
+    "cite": "LOC1991_ECONDEV",
+    "badges": [
+     "EDITORIAL"
+    ]
+   },
+   "cite": null
   }
  },
  "symbol_classes_present": [
@@ -1659,6 +1675,7 @@
   "city_religious",
   "city_town",
   "control_extent",
+  "economy_unknown",
   "flag"
  ],
  "badges_present": [
@@ -1678,6 +1695,7 @@
   "city_religious": 5,
   "city_town": 7,
   "control_extent": 1,
+  "economy_unknown": 1,
   "flag": 1,
   "extent_features": 1,
   "group_features": 0,

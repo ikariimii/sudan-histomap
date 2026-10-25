@@ -100,9 +100,16 @@ def era(i, p):
                 cf = pr.get('confidence')
                 ext[-1].update({'zone': pr['zone'], 'confidence': cf, 'confidence_word': conf_word(cf),
                                 'low_confidence_overlay': isinstance(cf, (int, float)) and cf < 0.5})
-            if pr.get('zone') and isinstance(pr.get('confidence'), (int, float)) and pr['confidence'] < 0.5:
+            if isinstance(pr.get('confidence'), (int, float)) and pr['confidence'] < 0.5:
                 cls['low_confidence'] = cls.get('low_confidence', 0) + 1
+                ext[-1]['low_confidence_overlay'] = True
     out['layers']['extents'] = {'file': f'db/extents/{sl}.geojson' if ext else None, 'features': ext}
+    BL = {r['badge']: r for r in SPEC['borders_legend']['rows']}
+    eb = sorted({x for f in ext for x in f['badges']})
+    for x in eb:
+        if x not in BL: print('BORDERS-LEGEND MISSING', sl, x)
+    out['layers']['extents']['borders_legend'] = [{'badge': x, 'legend_en': BL[x]['legend_en']} for x in eb if x in BL] + (
+        [{'badge': 'LOW-CONFIDENCE-HATCH', 'legend_en': SPEC['borders_legend']['low_confidence_hatching']['legend_en']}] if any(f.get('low_confidence_overlay') for f in ext) else [])
     # groups
     gf = os.path.join(R, 'db/group_layers', sl + '.geojson'); grp = []
     if os.path.exists(gf):

@@ -65,6 +65,20 @@
      "confidence_word": "medium",
      "low_confidence_overlay": true
     }
+   ],
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "CONTESTED",
+     "legend_en": "Contested (amber point, never a polygon)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
+    }
    ]
   },
   "groups": {

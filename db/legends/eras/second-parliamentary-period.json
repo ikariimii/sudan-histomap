@@ -21,7 +21,8 @@
       "EXT_OHM"
      ]
     }
-   ]
+   ],
+   "borders_legend": []
   },
   "groups": {
    "file": "db/group_layers/second-parliamentary-period.geojson",
@@ -1637,6 +1638,21 @@
    "popup_text_only": null,
    "display_hint": "flag",
    "null_reason": null
+  },
+  "economy": {
+   "file": "db/era_economy.json",
+   "rating": "unknown",
+   "symbol_class": "economy_unknown",
+   "badges": [],
+   "editorial_marker": false,
+   "rating_basis_en": {
+    "value": "Editorial reading of LOC1991_ECONDEV: per-capita income rose, but spending outran revenue, reserves were depleted and by 1967 the Ten-Year Plan was abandoned with creditworthiness 'open to question'.",
+    "cite": "LOC1991_ECONDEV",
+    "badges": [
+     "EDITORIAL"
+    ]
+   },
+   "cite": null
   }
  },
  "symbol_classes_present": [
@@ -1648,6 +1664,7 @@
   "city_religious",
   "city_town",
   "control_extent",
+  "economy_unknown",
   "flag",
   "group_control_point"
  ],
@@ -1668,6 +1685,7 @@
   "city_religious": 5,
   "city_town": 7,
   "control_extent": 1,
+  "economy_unknown": 1,
   "flag": 1,
   "group_control_point": 1,
   "extent_features": 1,

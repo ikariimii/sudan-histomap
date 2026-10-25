@@ -137,6 +137,16 @@
       "PCA_ABYEI2009"
      ]
     }
+   ],
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "CONTESTED",
+     "legend_en": "Contested (amber point, never a polygon)"
+    }
    ]
   },
   "groups": {
@@ -1772,6 +1782,21 @@
    "popup_text_only": null,
    "display_hint": "flag",
    "null_reason": null
+  },
+  "economy": {
+   "file": "db/era_economy.json",
+   "rating": "unknown",
+   "symbol_class": "economy_unknown",
+   "badges": [],
+   "editorial_marker": false,
+   "rating_basis_en": {
+    "value": "ICG2019 describes a 'crushing economic crisis'; inflation reached 342% y-o-y in Mar 2021 (IMF_CR21143 para 6).",
+    "cite": "ICG2019",
+    "badges": [
+     "SOURCED"
+    ]
+   },
+   "cite": null
   }
  },
  "symbol_classes_present": [
@@ -1785,6 +1810,7 @@
   "contested_boundary_line",
   "contested_point",
   "control_extent",
+  "economy_unknown",
   "flag"
  ],
  "badges_present": [
@@ -1806,6 +1832,7 @@
   "contested_boundary_line": 3,
   "contested_point": 2,
   "control_extent": 3,
+  "economy_unknown": 1,
   "flag": 1,
   "extent_features": 8,
   "group_features": 0,

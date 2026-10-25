@@ -82,6 +82,12 @@
       "ICG_ETH_ERI"
      ]
     }
+   ],
+   "borders_legend": [
+    {
+     "badge": "CONTESTED",
+     "legend_en": "Contested (amber point, never a polygon)"
+    }
    ]
   },
   "groups": {
@@ -1717,6 +1723,21 @@
    "popup_text_only": null,
    "display_hint": "flag",
    "null_reason": null
+  },
+  "economy": {
+   "file": "db/era_economy.json",
+   "rating": "unknown",
+   "symbol_class": "economy_unknown",
+   "badges": [],
+   "editorial_marker": false,
+   "rating_basis_en": {
+    "value": "No source read rates this era's economy.",
+    "cite": null,
+    "badges": [
+     "NO-SOURCE"
+    ]
+   },
+   "cite": null
   }
  },
  "symbol_classes_present": [
@@ -1729,6 +1750,7 @@
   "city_town",
   "contested_point",
   "control_extent",
+  "economy_unknown",
   "flag",
   "list_only_text"
  ],
@@ -1750,6 +1772,7 @@
   "city_town": 7,
   "contested_point": 1,
   "control_extent": 3,
+  "economy_unknown": 1,
   "flag": 1,
   "list_only_text": 1,
   "extent_features": 5,

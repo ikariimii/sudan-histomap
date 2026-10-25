@@ -91,6 +91,20 @@
      "confidence_word": "medium",
      "low_confidence_overlay": false
     }
+   ],
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "SINGLE-SOURCE",
+     "legend_en": "Single source"
+    }
    ]
   },
   "groups": {

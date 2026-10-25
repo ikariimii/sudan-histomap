@@ -78,6 +78,24 @@
      "confidence_word": "medium",
      "low_confidence_overlay": true
     }
+   ],
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "CONTESTED",
+     "legend_en": "Contested (amber point, never a polygon)"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
+    }
    ]
   },
   "groups": {
