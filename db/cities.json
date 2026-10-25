@@ -711,6 +711,24 @@
      "source_id": "GHA2_CH9",
      "page": "265",
      "note": "fortress rebuilt by Amosis"
+    },
+    {
+     "era_id": "early-dynastic-old-kingdom-egypt",
+     "role": "garrison",
+     "start": null,
+     "end": null,
+     "source_id": "GHA2_CH9",
+     "page": "250",
+     "note": "\"a purely Egyptian colony at Buhen in the fourth and fifth dynasties\""
+    },
+    {
+     "era_id": "new-kingdom-egypt",
+     "role": "garrison",
+     "start": null,
+     "end": null,
+     "source_id": "GHA2_CH4",
+     "page": "143",
+     "note": "\"the similarity of the cities of Buhen and Aniba to Egyptian cities\""
     }
    ],
    "history_en": "Egyptian fortress town at the Second Cataract.",
@@ -728,6 +746,14 @@
     {
      "id": "GHA2_CH9",
      "page": "268"
+    },
+    {
+     "id": "GHA2_CH9",
+     "page": "250"
+    },
+    {
+     "id": "GHA2_CH4",
+     "page": "143"
     },
     {
      "id": "WIKIDATA_CITIES",
@@ -1912,6 +1938,15 @@
      "source_id": "GHA5_CH7",
      "page": "183",
      "note": "\"Dja'aliyyun of Shandi\""
+    },
+    {
+     "era_id": "turkiyya-ottoman-egyptian-rule",
+     "role": "town",
+     "start": 1822,
+     "end": null,
+     "source_id": "GHA6_CH14",
+     "page": "362",
+     "note": "1822"
     }
    ],
    "history_en": "Ja'aliyin seat where Mek Nimir burned Isma'il Pasha in 1822.",
@@ -1971,7 +2006,16 @@
    "founded": null,
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
-   "roles": [],
+   "roles": [
+    {
+     "era_id": "turkiyya-ottoman-egyptian-rule",
+     "role": "town",
+     "start": 1821,
+     "end": null,
+     "source_id": "GHA6_CH14",
+     "page": "362"
+    }
+   ],
    "history_en": "Nile town taxed heavily after the 1821 conquest.",
    "history_ar": "مدينة نيلية فُرضت عليها ضرائب باهظة بعد غزو 1821.",
    "history_ar_status": "working translation — needs native review",
@@ -2838,11 +2882,38 @@
     "note": "Wikidata P571 only"
    },
    "abandoned": null,
-   "roles": [],
+   "roles": [
+    {
+     "era_id": "southern-sudan-under-condominium-sudan",
+     "role": "town",
+     "start": 1947,
+     "end": null,
+     "source_id": "LOC1991_SOUTHUNITY",
+     "page": "countrystudies.us/sudan/19.htm",
+     "note": "Juba conference"
+    },
+    {
+     "era_id": "second-parliamentary-period",
+     "role": "town",
+     "start": null,
+     "end": null,
+     "source_id": "LOC1991_CIVIL6469",
+     "page": "countrystudies.us/sudan/22.htm",
+     "note": "\"atrocities… at Juba and Waw\""
+    }
+   ],
    "history_en": "Capital of South Sudan on the White Nile.",
    "history_ar": "عاصمة جنوب السودان على النيل الأبيض.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "LOC1991_SOUTHUNITY",
+     "page": "countrystudies.us/sudan/19.htm"
+    },
+    {
+     "id": "LOC1991_CIVIL6469",
+     "page": "countrystudies.us/sudan/22.htm"
+    },
     {
      "id": "WIKIDATA_CITIES",
      "page": "Q1947"
@@ -2869,7 +2940,26 @@
    "founded": null,
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
-   "roles": [],
+   "roles": [
+    {
+     "era_id": "shilluk-kingdom",
+     "role": "town",
+     "start": 1490,
+     "end": null,
+     "source_id": "GHA5_CH7",
+     "page": "193",
+     "note": "\"first settlement was near Malakal, under their leader, Nyikang (c. 1490-1517)\""
+    },
+    {
+     "era_id": "southern-sudan-under-condominium-sudan",
+     "role": "town",
+     "start": null,
+     "end": null,
+     "source_id": "LOC1991_NONMUSLIM",
+     "page": "countrystudies.us/sudan/39.htm",
+     "note": "Shilluk in Malakal"
+    }
+   ],
    "history_en": "Near the first Shilluk settlement under Nyikang (c.1490-1517).",
    "history_ar": "بالقرب من أول مستوطنة للشلك بقيادة نيكانغ.",
    "history_ar_status": "working translation — needs native review",
@@ -2920,7 +3010,17 @@
    "founded": null,
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
-   "roles": [],
+   "roles": [
+    {
+     "era_id": "second-parliamentary-period",
+     "role": "town",
+     "start": null,
+     "end": null,
+     "source_id": "LOC1991_CIVIL6469",
+     "page": "countrystudies.us/sudan/22.htm",
+     "note": "\"atrocities… at Juba and Waw\""
+    }
+   ],
    "history_en": "Wau: settlement shown for location; no history line sourced yet.",
    "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
    "history_ar_status": "working translation — needs native review",
@@ -4291,7 +4391,17 @@
     "note": "\"the town of Arbadji, founded about 1475\""
    },
    "abandoned": null,
-   "roles": [],
+   "roles": [
+    {
+     "era_id": "funj-sultanate-of-sennar",
+     "role": "town",
+     "start": 1504,
+     "end": null,
+     "source_id": "GHA5_CH7",
+     "page": "173",
+     "note": "Arbaji 1504"
+    }
+   ],
    "history_en": "Southernmost Arab town in the Gezira; the Funj defeated the Abdallab there in 1504.",
    "history_ar": "أقصى بلدة عربية جنوبا في الجزيرة؛ هزم فيها الفونج العبدلاب سنة 1504.",
    "history_source": {
@@ -4993,6 +5103,234 @@
     "source_id": "LOC_ETH1991_TOPO",
     "page": "countrystudies.us/ethiopia/40.htm"
    }
+  },
+  {
+   "id": "thebes",
+   "name_en": "Thebes",
+   "name_ar": "طيبة",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q101583",
+   "lat": 25.7206,
+   "lon": 32.6103,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q101583"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "ptolemaic-egypt",
+     "role": "town",
+     "start": null,
+     "end": -88,
+     "source_id": "GHA2_CH7",
+     "page": "208",
+     "note": "destroyed -88"
+    }
+   ],
+   "history_en": "Upper Egyptian city destroyed in -88 (GHA II p.208).",
+   "history_ar": "مدينة في صعيد مصر دُمّرت سنة -88 (GHA II ص208).",
+   "history_ar_status": "working translation — needs native review",
+   "history_source": {
+    "source_id": "GHA2_CH7",
+    "page": "208"
+   },
+   "source_ids": [
+    {
+     "id": "GHA2_CH7",
+     "page": "208"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q101583"
+    }
+   ],
+   "first_attested": {
+    "year": -305,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2_CH7",
+    "page": "208",
+    "basis": "first cited era role (town, ptolemaic-egypt) has no stated start; year = start bound of era ptolemaic-egypt (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": -305,
+    "basis": "first_attested"
+   },
+   "list_only_reason": null
+  },
+  {
+   "id": "ballana",
+   "name_en": "Ballana",
+   "name_ar": "بلانة (النوبة القديمة)",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q18832705",
+   "lat": 22.2667,
+   "lon": 31.5667,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q18832705"
+   },
+   "category": "ancient",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "noba-x-group-ballana-culture",
+     "role": "political_centre",
+     "start": null,
+     "end": null,
+     "source_id": "GHA2_CH10",
+     "page": "294",
+     "note": "royal cemetery (Emery and Kirwan, Ballana and Qustul)"
+    }
+   ],
+   "history_en": "X-Group royal cemetery excavated by Emery and Kirwan with Qustul, a few miles south of Abu Simbel (GHA II p.294).",
+   "history_ar": "جبانة ملكية لثقافة المجموعة X نقّب فيها إمري وكيروان مع قسطل جنوب أبو سمبل (GHA II ص294).",
+   "history_ar_status": "working translation — needs native review",
+   "history_source": {
+    "source_id": "GHA2_CH10",
+    "page": "294"
+   },
+   "source_ids": [
+    {
+     "id": "GHA2_CH10",
+     "page": "294"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q18832705"
+    }
+   ],
+   "first_attested": {
+    "year": 350,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2_CH10",
+    "page": "294",
+    "basis": "first cited era role (political_centre, noba-x-group-ballana-culture) has no stated start; year = start bound of era noba-x-group-ballana-culture (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 350,
+    "basis": "first_attested"
+   },
+   "list_only_reason": null
+  },
+  {
+   "id": "tripoli",
+   "name_en": "Tripoli",
+   "name_ar": "طرابلس",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q3579",
+   "lat": 32.8875,
+   "lon": 13.1875,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q3579"
+   },
+   "category": "historic",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "libya-ottoman-italian-independent",
+     "role": "town",
+     "start": null,
+     "end": null,
+     "source_id": "LOC_LBY1987_SANUSI",
+     "page": "countrystudies.us/libya/18.htm",
+     "note": "Grand Sanusi passed through c.1830"
+    }
+   ],
+   "history_en": "Town of Tripolitania through which the Grand Sanusi passed c.1830 (LOC Libya country study).",
+   "history_ar": "مدينة في طرابلس الغرب مرّ بها السنوسي الكبير نحو 1830 (دراسة مكتبة الكونغرس عن ليبيا).",
+   "history_ar_status": "working translation — needs native review",
+   "history_source": {
+    "source_id": "LOC_LBY1987_SANUSI",
+    "page": "countrystudies.us/libya/18.htm"
+   },
+   "source_ids": [
+    {
+     "id": "LOC_LBY1987_SANUSI",
+     "page": "countrystudies.us/libya/18.htm"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q3579"
+    }
+   ],
+   "first_attested": {
+    "year": 1551,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "LOC_LBY1987_SANUSI",
+    "page": "countrystudies.us/libya/18.htm",
+    "basis": "first cited era role (town, libya-ottoman-italian-independent) has no stated start; year = start bound of era libya-ottoman-italian-independent (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 1551,
+    "basis": "first_attested"
+   },
+   "list_only_reason": null
+  },
+  {
+   "id": "benghazi",
+   "name_en": "Benghazi",
+   "name_ar": "بنغازي",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q40816",
+   "lat": 32.1167,
+   "lon": 20.0667,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q40816"
+   },
+   "category": "historic",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [
+    {
+     "era_id": "libya-ottoman-italian-independent",
+     "role": "town",
+     "start": 1923,
+     "end": null,
+     "source_id": "LOC_LBY1987_ITALOSANUSI",
+     "page": "countrystudies.us/libya/21.htm",
+     "note": "Italian occupation 1923"
+    }
+   ],
+   "history_en": "Cyrenaican town; the Italo-Sanusi war began in 1923 with the Italian occupation of the Benghazi area (LOC Libya country study).",
+   "history_ar": "مدينة في برقة؛ بدأت الحرب الإيطالية السنوسية سنة 1923 باحتلال إيطاليا لمنطقة بنغازي (دراسة مكتبة الكونغرس عن ليبيا).",
+   "history_ar_status": "working translation — needs native review",
+   "history_source": {
+    "source_id": "LOC_LBY1987_ITALOSANUSI",
+    "page": "countrystudies.us/libya/21.htm"
+   },
+   "source_ids": [
+    {
+     "id": "LOC_LBY1987_ITALOSANUSI",
+     "page": "countrystudies.us/libya/21.htm"
+    },
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q40816"
+    }
+   ],
+   "first_attested": {
+    "year": 1923,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "LOC_LBY1987_ITALOSANUSI",
+    "page": "countrystudies.us/libya/21.htm",
+    "basis": "first cited era role (town, libya-ottoman-italian-independent) with stated start"
+   },
+   "map_from": {
+    "year": 1923,
+    "basis": "first_attested"
+   },
+   "list_only_reason": null
   }
  ]
 }

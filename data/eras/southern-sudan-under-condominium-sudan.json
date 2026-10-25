@@ -77,12 +77,19 @@
  "key_cities": [
   {
    "city_id": "juba",
-   "role": "capital/centre (listed in era capitals)",
-   "source_id": "HD2011",
-   "page": null,
+   "role": "town",
+   "source_id": "LOC1991_SOUTHUNITY",
+   "page": "countrystudies.us/sudan/19.htm",
    "first_attested": null,
-   "last_attested": null,
-   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+   "last_attested": null
+  },
+  {
+   "city_id": "malakal",
+   "role": "town",
+   "source_id": "LOC1991_NONMUSLIM",
+   "page": "countrystudies.us/sudan/39.htm",
+   "first_attested": 1490,
+   "last_attested": null
   }
  ],
  "focus_view": {

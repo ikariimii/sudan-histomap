@@ -60,8 +60,25 @@
   }
  ],
  "regional_power_null_reason": "no cited comparative measure",
- "key_cities": null,
- "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "key_cities": [
+  {
+   "city_id": "buhen",
+   "role": "garrison",
+   "source_id": "GHA2_CH4",
+   "page": "143",
+   "first_attested": -2055,
+   "last_attested": -1319
+  },
+  {
+   "city_id": "thebes",
+   "role": "capital/centre (listed in era capitals)",
+   "source_id": "GHA2_CH3",
+   "page": null,
+   "first_attested": -305,
+   "last_attested": null,
+   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+  }
+ ],
  "focus_view": {
   "bbox": [
    30.609,

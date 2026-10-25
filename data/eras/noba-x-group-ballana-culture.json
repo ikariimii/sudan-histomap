@@ -59,8 +59,16 @@
   }
  ],
  "regional_power_null_reason": "no cited comparative measure",
- "key_cities": null,
- "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "key_cities": [
+  {
+   "city_id": "ballana",
+   "role": "political_centre",
+   "source_id": "GHA2_CH10",
+   "page": "294",
+   "first_attested": 350,
+   "last_attested": null
+  }
+ ],
  "focus_view": {
   "bbox": [
    31.067,
