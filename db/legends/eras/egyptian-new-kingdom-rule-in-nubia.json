@@ -387,12 +387,28 @@
    "popup_text_only": null,
    "display_hint": "no known flag",
    "null_reason": "No documented flag. Pre-modern state, culture or community; Commons designs for it would be modern reconstructions or fantasy flags."
+  },
+  "economy": {
+   "file": "db/era_economy.json",
+   "rating": "unknown",
+   "symbol_class": "economy_unknown",
+   "badges": [],
+   "editorial_marker": false,
+   "rating_basis_en": {
+    "value": "No source read rates conditions in Nubia under New Kingdom rule.",
+    "cite": null,
+    "badges": [
+     "NO-SOURCE"
+    ]
+   },
+   "cite": null
   }
  },
  "symbol_classes_present": [
   "city_garrison",
   "city_other",
   "city_religious",
+  "economy_unknown",
   "extent_label_point",
   "low_confidence",
   "zone_claimed",
@@ -412,6 +428,7 @@
   "city_garrison": 2,
   "city_other": 3,
   "city_religious": 1,
+  "economy_unknown": 1,
   "extent_label_point": 3,
   "low_confidence": 1,
   "zone_claimed": 1,

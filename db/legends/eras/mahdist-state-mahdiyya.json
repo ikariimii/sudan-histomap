@@ -1530,6 +1530,21 @@
    },
    "display_hint": "no known flag",
    "null_reason": "Britannica (flag of the Sudan) records only that Mahdist military flags were black, red and green, so no single attested design is available. Commons Mahdist flag images are reconstructions."
+  },
+  "economy": {
+   "file": "db/era_economy.json",
+   "rating": "unknown",
+   "symbol_class": "economy_unknown",
+   "badges": [],
+   "editorial_marker": false,
+   "rating_basis_en": {
+    "value": "No source read assesses the Mahdist economy.",
+    "cite": null,
+    "badges": [
+     "NO-SOURCE"
+    ]
+   },
+   "cite": null
   }
  },
  "symbol_classes_present": [
@@ -1541,6 +1556,7 @@
   "city_religious",
   "city_town",
   "control_extent_approx",
+  "economy_unknown",
   "list_only_text",
   "low_confidence"
  ],
@@ -1563,6 +1579,7 @@
   "city_religious": 5,
   "city_town": 4,
   "control_extent_approx": 1,
+  "economy_unknown": 1,
   "list_only_text": 1,
   "low_confidence": 1,
   "extent_features": 1,

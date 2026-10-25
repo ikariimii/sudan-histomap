@@ -1236,6 +1236,37 @@
    "popup_text_only": null,
    "display_hint": "no known flag",
    "null_reason": "No documented flag. Pre-modern state, culture or community; Commons designs for it would be modern reconstructions or fantasy flags."
+  },
+  "economy": {
+   "file": "db/era_economy.json",
+   "rating": "unknown",
+   "symbol_class": "economy_unknown",
+   "badges": [],
+   "editorial_marker": false,
+   "rating_basis_en": {
+    "value": "No source read rates Makuria's economy.",
+    "cite": null,
+    "badges": [
+     "NO-SOURCE"
+    ]
+   },
+   "cite": null
+  },
+  "trade_routes": {
+   "file": "db/trade_routes/makuria.geojson",
+   "features": [
+    {
+     "id": "makuria-route-0",
+     "label_en": "old-dongola to aswan (slaves under the baqt; free travel and trade for subjects of both sides)",
+     "commodity": "slaves under the baqt; free travel and trade for subjects of both sides",
+     "symbol_class": "trade_route",
+     "badges": [
+      "EDITORIAL",
+      "APPROXIMATE"
+     ],
+     "cite": "GHA3_CH3"
+    }
+   ]
   }
  },
  "symbol_classes_present": [
@@ -1247,10 +1278,12 @@
   "city_religious",
   "city_town",
   "control_extent_approx",
+  "economy_unknown",
   "extent_label_point",
   "list_only_text",
   "low_confidence",
-  "relation_arrow_conflict"
+  "relation_arrow_conflict",
+  "trade_route"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1258,6 +1291,7 @@
   "AR-REVIEW",
   "CONTESTED",
   "DERIVED",
+  "EDITORIAL",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
@@ -1273,10 +1307,12 @@
   "city_religious": 6,
   "city_town": 1,
   "control_extent_approx": 4,
+  "economy_unknown": 1,
   "extent_label_point": 3,
   "list_only_text": 1,
   "low_confidence": 7,
   "relation_arrow_conflict": 1,
+  "trade_route": 1,
   "extent_features": 7,
   "group_features": 2,
   "cities": 29
@@ -1342,6 +1378,7 @@
    "AR-REVIEW",
    "CONTESTED",
    "DERIVED",
+   "EDITORIAL",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",

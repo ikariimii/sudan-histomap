@@ -1497,6 +1497,21 @@
    "popup_text_only": null,
    "display_hint": "no known flag",
    "null_reason": "No flag verified for this polity. Commons designs found were not checked against an attested source, so per policy no design is shown."
+  },
+  "economy": {
+   "file": "db/era_economy.json",
+   "rating": "unknown",
+   "symbol_class": "economy_unknown",
+   "badges": [],
+   "editorial_marker": false,
+   "rating_basis_en": {
+    "value": "Darfur trade (Darb al-Arba'in): only a GHA V glossary entry read; no economic page confirmed (OFAHEY2008 not read in full).",
+    "cite": null,
+    "badges": [
+     "NO-SOURCE"
+    ]
+   },
+   "cite": null
   }
  },
  "symbol_classes_present": [
@@ -1508,6 +1523,7 @@
   "city_religious",
   "city_town",
   "control_extent_approx",
+  "economy_unknown",
   "extent_label_point",
   "list_only_text",
   "low_confidence",
@@ -1534,6 +1550,7 @@
   "city_religious": 5,
   "city_town": 4,
   "control_extent_approx": 3,
+  "economy_unknown": 1,
   "extent_label_point": 4,
   "list_only_text": 2,
   "low_confidence": 7,

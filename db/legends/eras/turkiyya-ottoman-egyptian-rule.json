@@ -1458,6 +1458,22 @@
    "popup_text_only": null,
    "display_hint": "no known flag",
    "null_reason": "No flag verified for this polity. Commons designs found were not checked against an attested source, so per policy no design is shown."
+  },
+  "economy": {
+   "file": "db/era_economy.json",
+   "rating": "unknown",
+   "symbol_class": "economy_unknown",
+   "badges": [],
+   "editorial_marker": false,
+   "rating_basis_en": {
+    "value": "The Turkish administration improved irrigation and crops and gave traders greater security (p.361), but extended the Egyptian taxation system to the Sudan, which 'inevitably disrupted the economic life of the people', collected by brutal means (p.362); Muhammad Ali's gold mining at Fazughli failed (p.361).",
+    "cite": "GHA6_CH14",
+    "badges": [
+     "EDITORIAL"
+    ],
+    "page": "pp.361-362"
+   },
+   "cite": null
   }
  },
  "symbol_classes_present": [
@@ -1469,6 +1485,7 @@
   "city_religious",
   "city_town",
   "control_extent_approx",
+  "economy_unknown",
   "extent_label_point",
   "low_confidence",
   "relation_arrow_alliance",
@@ -1494,6 +1511,7 @@
   "city_religious": 5,
   "city_town": 4,
   "control_extent_approx": 2,
+  "economy_unknown": 1,
   "extent_label_point": 1,
   "low_confidence": 3,
   "relation_arrow_alliance": 1,

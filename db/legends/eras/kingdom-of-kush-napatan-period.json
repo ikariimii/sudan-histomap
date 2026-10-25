@@ -599,6 +599,21 @@
    "popup_text_only": null,
    "display_hint": "no known flag",
    "null_reason": "No documented flag. Pre-modern state, culture or community; Commons designs for it would be modern reconstructions or fantasy flags."
+  },
+  "economy": {
+   "file": "db/era_economy.json",
+   "rating": "unknown",
+   "symbol_class": "economy_unknown",
+   "badges": [],
+   "editorial_marker": false,
+   "rating_basis_en": {
+    "value": "No source read in full rates the Napatan economy; Kush gold pages not yet confirmed for this period.",
+    "cite": null,
+    "badges": [
+     "NO-SOURCE"
+    ]
+   },
+   "cite": null
   }
  },
  "symbol_classes_present": [
@@ -608,6 +623,7 @@
   "city_religious",
   "city_town",
   "control_extent_approx",
+  "economy_unknown",
   "extent_label_point",
   "low_confidence"
  ],
@@ -627,6 +643,7 @@
   "city_religious": 6,
   "city_town": 1,
   "control_extent_approx": 2,
+  "economy_unknown": 1,
   "extent_label_point": 1,
   "low_confidence": 3,
   "extent_features": 3,

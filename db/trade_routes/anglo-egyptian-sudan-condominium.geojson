@@ -1,0 +1,137 @@
+{
+ "type": "FeatureCollection",
+ "crs_note": "EPSG:4326",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      37.21639,
+      19.61583
+     ],
+     [
+      37.08021,
+      19.53783
+     ],
+     [
+      36.94416,
+      19.45972
+     ],
+     [
+      36.80825,
+      19.38151
+     ],
+     [
+      36.67246,
+      19.3032
+     ],
+     [
+      36.5368,
+      19.22479
+     ],
+     [
+      36.40128,
+      19.14628
+     ],
+     [
+      36.26588,
+      19.06768
+     ],
+     [
+      36.13061,
+      18.98897
+     ],
+     [
+      35.99547,
+      18.91016
+     ],
+     [
+      35.86045,
+      18.83126
+     ],
+     [
+      35.72557,
+      18.75226
+     ],
+     [
+      35.59081,
+      18.67317
+     ],
+     [
+      35.45617,
+      18.59397
+     ],
+     [
+      35.32166,
+      18.51469
+     ],
+     [
+      35.18728,
+      18.4353
+     ],
+     [
+      35.05301,
+      18.35583
+     ],
+     [
+      34.91888,
+      18.27626
+     ],
+     [
+      34.78486,
+      18.19659
+     ],
+     [
+      34.65097,
+      18.11683
+     ],
+     [
+      34.5172,
+      18.03698
+     ],
+     [
+      34.38355,
+      17.95704
+     ],
+     [
+      34.25002,
+      17.87701
+     ],
+     [
+      34.11662,
+      17.79688
+     ],
+     [
+      33.98333,
+      17.71667
+     ]
+    ]
+   },
+   "properties": {
+    "id": "anglo-egyptian-sudan-condominium-route-0",
+    "era_id": "anglo-egyptian-sudan-condominium",
+    "label_en": "port-sudan to atbara (agricultural products by railway (line built when Port Sudan opened in 1906))",
+    "label_ar": null,
+    "from_id": "port-sudan",
+    "to_id": "atbara",
+    "commodity": "agricultural products by railway (line built when Port Sudan opened in 1906)",
+    "direction": null,
+    "partners": null,
+    "schematic": true,
+    "schematic_between": "endpoints only",
+    "line": "great_circle",
+    "symbol_class": "trade_route",
+    "badges": [
+     "APPROXIMATE"
+    ],
+    "cite": "GHA7_CH17",
+    "endpoint_sources": [
+     "db/city_layers/cities.geojson",
+     "db/city_layers/cities.geojson"
+    ]
+   }
+  }
+ ]
+}

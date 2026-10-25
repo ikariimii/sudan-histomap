@@ -1781,6 +1781,37 @@
    "popup_text_only": null,
    "display_hint": "joint flags (UK + Egypt)",
    "null_reason": null
+  },
+  "economy": {
+   "file": "db/era_economy.json",
+   "rating": "unknown",
+   "symbol_class": "economy_unknown",
+   "badges": [],
+   "editorial_marker": false,
+   "rating_basis_en": {
+    "value": "The Gezira scheme 'proved quite beneficial both to the British and to those people of the Sudan who were directly involved in it', but infrastructure was 'totally inadequate', industrialization was neglected, and the South was totally neglected economically.",
+    "cite": "GHA7_CH17",
+    "badges": [
+     "EDITORIAL"
+    ],
+    "page": "p.457"
+   },
+   "cite": null
+  },
+  "trade_routes": {
+   "file": "db/trade_routes/anglo-egyptian-sudan-condominium.geojson",
+   "features": [
+    {
+     "id": "anglo-egyptian-sudan-condominium-route-0",
+     "label_en": "port-sudan to atbara (agricultural products by railway (line built when Port Sudan opened in 1906))",
+     "commodity": "agricultural products by railway (line built when Port Sudan opened in 1906)",
+     "symbol_class": "trade_route",
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "cite": "GHA7_CH17"
+    }
+   ]
   }
  },
  "symbol_classes_present": [
@@ -1793,9 +1824,11 @@
   "city_town",
   "city_trade",
   "control_extent_approx",
+  "economy_unknown",
   "flag",
   "low_confidence",
-  "relation_arrow_conflict"
+  "relation_arrow_conflict",
+  "trade_route"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1817,9 +1850,11 @@
   "city_town": 6,
   "city_trade": 1,
   "control_extent_approx": 6,
+  "economy_unknown": 1,
   "flag": 3,
   "low_confidence": 6,
   "relation_arrow_conflict": 1,
+  "trade_route": 1,
   "extent_features": 6,
   "group_features": 1,
   "cities": 48

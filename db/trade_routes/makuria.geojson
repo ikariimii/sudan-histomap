@@ -1,0 +1,138 @@
+{
+ "type": "FeatureCollection",
+ "crs_note": "EPSG:4326",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      30.74389,
+      18.22306
+     ],
+     [
+      30.83049,
+      18.46798
+     ],
+     [
+      30.91735,
+      18.71287
+     ],
+     [
+      31.00445,
+      18.95772
+     ],
+     [
+      31.09181,
+      19.20252
+     ],
+     [
+      31.17943,
+      19.44728
+     ],
+     [
+      31.26732,
+      19.692
+     ],
+     [
+      31.35547,
+      19.93668
+     ],
+     [
+      31.4439,
+      20.18132
+     ],
+     [
+      31.5326,
+      20.42591
+     ],
+     [
+      31.62159,
+      20.67045
+     ],
+     [
+      31.71087,
+      20.91495
+     ],
+     [
+      31.80044,
+      21.1594
+     ],
+     [
+      31.8903,
+      21.40381
+     ],
+     [
+      31.98046,
+      21.64816
+     ],
+     [
+      32.07093,
+      21.89247
+     ],
+     [
+      32.16171,
+      22.13673
+     ],
+     [
+      32.25281,
+      22.38094
+     ],
+     [
+      32.34423,
+      22.6251
+     ],
+     [
+      32.43597,
+      22.8692
+     ],
+     [
+      32.52804,
+      23.11325
+     ],
+     [
+      32.62045,
+      23.35725
+     ],
+     [
+      32.71319,
+      23.6012
+     ],
+     [
+      32.80629,
+      23.84509
+     ],
+     [
+      32.89973,
+      24.08892
+     ]
+    ]
+   },
+   "properties": {
+    "id": "makuria-route-0",
+    "era_id": "makuria",
+    "label_en": "old-dongola to aswan (slaves under the baqt; free travel and trade for subjects of both sides)",
+    "label_ar": null,
+    "from_id": "old-dongola",
+    "to_id": "aswan",
+    "commodity": "slaves under the baqt; free travel and trade for subjects of both sides",
+    "direction": null,
+    "partners": null,
+    "schematic": true,
+    "schematic_between": "endpoints only",
+    "line": "great_circle",
+    "symbol_class": "trade_route",
+    "badges": [
+     "EDITORIAL",
+     "APPROXIMATE"
+    ],
+    "cite": "GHA3_CH3",
+    "endpoint_sources": [
+     "db/city_layers/cities.geojson",
+     "db/city_layers/cities.geojson"
+    ]
+   }
+  }
+ ]
+}
