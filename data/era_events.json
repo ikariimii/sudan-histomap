@@ -1062,13 +1062,14 @@
  ],
  "kingdom-of-aksum": [
   {
-   "date": 350,
+   "date": null,
    "en": "Campaign against Meroe/Noba c.350",
    "ar": "حملة على مروي/النوبة نحو 350",
    "cite": {
     "source_id": "GHA2",
     "pages": "p.293"
-   }
+   },
+   "date_note": "Year 350 not printed on any registered page (GHA II p.293; SFDAS pp.323–326 give only 4th century); date removed."
   },
   {
    "date": null,
@@ -1086,9 +1087,10 @@
    "en": "Lalibela rock-hewn churches",
    "ar": "كنائس لاليبلا المنحوتة في الصخر",
    "cite": {
-    "source_id": "GHA4_CH17",
-    "pages": "pp.442–443 (plates 17.1–17.4)"
-   }
+    "source_id": "GHA3_CH19",
+    "pages": "p.573"
+   },
+   "cite_note": "Running text names Beta-Maryam church in Lalibela; photographs also at GHA IV ch.17 pp.442–443 (plates 17.1–17.4)."
   }
  ],
  "ethiopian-empire-solomonic": [
@@ -1099,7 +1101,8 @@
    "cite": {
     "source_id": "GHA5",
     "pages": "pp.709, 724–725"
-   }
+   },
+   "date_note": "1636 printed at GHA V pp.709, 724–725; end year 1769 not printed in any registered source (text left unchanged per no-rewording rule)."
   },
   {
    "date": null,
@@ -1265,17 +1268,19 @@
    "en": "First Hijra to Aksum c.615",
    "ar": "الهجرة الأولى إلى أكسوم (الحبشة) نحو 615",
    "cite": {
-    "source_id": "GHA3_CH2",
-    "pages": "p.35"
-   }
+    "source_id": "GHA3_CH19",
+    "pages": "p.560"
+   },
+   "approx": true,
+   "date_note": "GHA III ch.19 p.560 prints \"In about 615\"; emigration also at GHA III ch.2 p.35."
   },
   {
    "date": null,
    "en": "Abbasid trade via Red Sea",
    "ar": "التجارة العباسية عبر البحر الأحمر",
    "cite": {
-    "source_id": "GHA3_CH19",
-    "pages": "p.577"
+    "source_id": "GHA3_CH3",
+    "pages": "p.83"
    }
   }
  ],
