@@ -12,7 +12,7 @@ for f in glob.glob(os.path.join(root,'db/lens_*.json')):
 eras={os.path.basename(f)[:-5] for f in glob.glob(os.path.join(root,'data/eras/*.json'))}-{'all','index','comparison'}
 P=json.load(open(os.path.join(root,'db/cities.json')))['places']
 bad=[];seenq={};seeni=set()
-B=dict(lat=(-1,32),lon=(10,45));BADGES={'ATTESTED','APPROXIMATE','CONTESTED'};ROLES={'capital','trade','port','religious','garrison'}
+B=dict(lat=(-5,37),lon=(10,45));BADGES={'ATTESTED','APPROXIMATE','CONTESTED'};ROLES={'capital','trade','port','religious','garrison','town','cult_centre','political_centre'}
 def src(r,x,w):
     if x.get('source_id') not in reg: bad.append(f"{r['id']}: {w} source {x.get('source_id')} not in registry")
     if not x.get('page'): bad.append(f"{r['id']}: {w} missing page")
