@@ -55,7 +55,7 @@
      "end": 1983,
      "source_ids": [
       "EXT_OHM",
-      "WP:Addis_Ababa_Agreement_(1972)"
+      "ADDIS_ABABA_1972"
      ]
     },
     {
@@ -71,7 +71,7 @@
      "end": 2011,
      "source_ids": [
       "EXT_OHM",
-      "WP:Comprehensive_Peace_Agreement",
+      "CPA_2005",
       "ABYEI_PROTOCOL2004"
      ]
     },
@@ -137,37 +137,6 @@
    "file": "db/city_layers/cities.geojson",
    "features": [
     {
-     "id": "musawwarat",
-     "name_en": "Musawwarat es-Sufra",
-     "name_ar": "المصورات الصفراء",
-     "symbol_class": "city_religious",
-     "roles_in_era": [
-      {
-       "role": "religious",
-       "era_id": "kingdom-of-kush-meroitic-period",
-       "start": null,
-       "end": null,
-       "source_id": "GHA2_CH11",
-       "page": "318"
-      }
-     ],
-     "badges": [
-      "AR-REVIEW",
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
-     ],
-     "source_ids": [
-      {
-       "id": "GHA2_CH11",
-       "page": "318"
-      },
-      {
-       "id": "WIKIDATA_CITIES",
-       "page": "Q286426"
-      }
-     ]
-    },
-    {
      "id": "soleb",
      "name_en": "Soleb",
      "name_ar": "صوليب",
@@ -186,49 +155,6 @@
       {
        "id": "WIKIDATA_CITIES",
        "page": "Q1457914"
-      }
-     ]
-    },
-    {
-     "id": "buhen",
-     "name_en": "Buhen",
-     "name_ar": "بوهين",
-     "symbol_class": "city_garrison",
-     "roles_in_era": [
-      {
-       "role": "garrison",
-       "era_id": "middle-kingdom-egypt",
-       "start": null,
-       "end": null,
-       "source_id": "GHA2_CH9",
-       "page": "266"
-      },
-      {
-       "role": "garrison",
-       "era_id": "egyptian-new-kingdom-rule-in-nubia",
-       "start": null,
-       "end": null,
-       "source_id": "GHA2_CH9",
-       "page": "265"
-      }
-     ],
-     "badges": [
-      "AR-REVIEW",
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
-     ],
-     "source_ids": [
-      {
-       "id": "GHA2_CH9",
-       "page": "265"
-      },
-      {
-       "id": "GHA2_CH9",
-       "page": "266"
-      },
-      {
-       "id": "WIKIDATA_CITIES",
-       "page": "Q1002656"
       }
      ]
     },
@@ -1108,16 +1034,16 @@
  ],
  "counts": {
   "city_capital": 5,
-  "city_garrison": 4,
+  "city_garrison": 3,
   "city_other": 23,
   "city_port": 2,
-  "city_religious": 2,
+  "city_religious": 1,
   "city_trade": 1,
   "contested_point": 3,
   "control_extent_approx": 4,
   "extent_features": 7,
   "group_features": 0,
-  "cities": 37
+  "cities": 35
  },
  "context": {
   "key_events_en": [
@@ -1151,8 +1077,8 @@
    "LOC1991_CONDO",
    "PCA_ABYEI2009",
    "UNSC1996",
-   "WP:Addis_Ababa_Agreement_(1972)",
-   "WP:Comprehensive_Peace_Agreement",
+   "ADDIS_ABABA_1972",
+   "CPA_2005",
    "ABYEI_PROTOCOL2004"
   ],
   "control_confidence": "low"
@@ -1193,6 +1119,7 @@
    "cities_added": [],
    "cities_removed": [
     "gondokoro",
+    "kobbe",
     "lado",
     "qasr-ibrim",
     "qerri",

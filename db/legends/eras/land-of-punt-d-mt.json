@@ -86,9 +86,14 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "291"
+      },
       {
        "id": "GHA2_CH9",
        "page": "268"
@@ -117,9 +122,14 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "281"
+      },
       {
        "id": "GHA2_CH11",
        "page": "300"
@@ -148,12 +158,17 @@
      "badges": [
       "APPROXIMATE",
       "AR-REVIEW",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
       {
        "id": "GHA2_CH10",
        "page": "285"
+      },
+      {
+       "id": "GHA2_CH11",
+       "page": "303"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -180,49 +195,6 @@
       {
        "id": "WIKIDATA_CITIES",
        "page": "Q1457914"
-      }
-     ]
-    },
-    {
-     "id": "buhen",
-     "name_en": "Buhen",
-     "name_ar": "بوهين",
-     "symbol_class": "city_garrison",
-     "roles_in_era": [
-      {
-       "role": "garrison",
-       "era_id": "middle-kingdom-egypt",
-       "start": null,
-       "end": null,
-       "source_id": "GHA2_CH9",
-       "page": "266"
-      },
-      {
-       "role": "garrison",
-       "era_id": "egyptian-new-kingdom-rule-in-nubia",
-       "start": null,
-       "end": null,
-       "source_id": "GHA2_CH9",
-       "page": "265"
-      }
-     ],
-     "badges": [
-      "AR-REVIEW",
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
-     ],
-     "source_ids": [
-      {
-       "id": "GHA2_CH9",
-       "page": "265"
-      },
-      {
-       "id": "GHA2_CH9",
-       "page": "266"
-      },
-      {
-       "id": "WIKIDATA_CITIES",
-       "page": "Q1002656"
       }
      ]
     },
@@ -302,7 +274,6 @@
  },
  "symbol_classes_present": [
   "city_capital",
-  "city_garrison",
   "city_other",
   "city_religious",
   "extent_label_point"
@@ -312,17 +283,17 @@
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "FIRST-ATTESTED",
+  "LAST-ATTESTED+APPROXIMATE",
   "RUIN-UNDATED"
  ],
  "counts": {
   "city_capital": 1,
-  "city_garrison": 1,
   "city_other": 4,
   "city_religious": 3,
   "extent_label_point": 1,
   "extent_features": 1,
   "group_features": 0,
-  "cities": 9
+  "cities": 8
  },
  "context": {
   "key_events_en": [
@@ -367,6 +338,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "FIRST-ATTESTED",
+   "LAST-ATTESTED+APPROXIMATE",
    "RUIN-UNDATED"
   ],
   "what_changed": null

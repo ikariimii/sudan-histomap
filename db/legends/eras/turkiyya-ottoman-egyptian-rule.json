@@ -138,37 +138,6 @@
    "file": "db/city_layers/cities.geojson",
    "features": [
     {
-     "id": "musawwarat",
-     "name_en": "Musawwarat es-Sufra",
-     "name_ar": "المصورات الصفراء",
-     "symbol_class": "city_religious",
-     "roles_in_era": [
-      {
-       "role": "religious",
-       "era_id": "kingdom-of-kush-meroitic-period",
-       "start": null,
-       "end": null,
-       "source_id": "GHA2_CH11",
-       "page": "318"
-      }
-     ],
-     "badges": [
-      "AR-REVIEW",
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
-     ],
-     "source_ids": [
-      {
-       "id": "GHA2_CH11",
-       "page": "318"
-      },
-      {
-       "id": "WIKIDATA_CITIES",
-       "page": "Q286426"
-      }
-     ]
-    },
-    {
      "id": "soleb",
      "name_en": "Soleb",
      "name_ar": "صوليب",
@@ -187,49 +156,6 @@
       {
        "id": "WIKIDATA_CITIES",
        "page": "Q1457914"
-      }
-     ]
-    },
-    {
-     "id": "buhen",
-     "name_en": "Buhen",
-     "name_ar": "بوهين",
-     "symbol_class": "city_garrison",
-     "roles_in_era": [
-      {
-       "role": "garrison",
-       "era_id": "middle-kingdom-egypt",
-       "start": null,
-       "end": null,
-       "source_id": "GHA2_CH9",
-       "page": "266"
-      },
-      {
-       "role": "garrison",
-       "era_id": "egyptian-new-kingdom-rule-in-nubia",
-       "start": null,
-       "end": null,
-       "source_id": "GHA2_CH9",
-       "page": "265"
-      }
-     ],
-     "badges": [
-      "AR-REVIEW",
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
-     ],
-     "source_ids": [
-      {
-       "id": "GHA2_CH9",
-       "page": "265"
-      },
-      {
-       "id": "GHA2_CH9",
-       "page": "266"
-      },
-      {
-       "id": "WIKIDATA_CITIES",
-       "page": "Q1002656"
       }
      ]
     },
@@ -830,6 +756,7 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -865,6 +792,7 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -956,22 +884,23 @@
   "AR-REVIEW",
   "CONTESTED",
   "FIRST-ATTESTED",
+  "LAST-ATTESTED",
   "RUIN-UNDATED",
   "SINGLE-SOURCE"
  ],
  "counts": {
   "city_capital": 5,
-  "city_garrison": 7,
+  "city_garrison": 6,
   "city_other": 14,
   "city_port": 1,
-  "city_religious": 2,
+  "city_religious": 1,
   "control_extent_approx": 2,
   "extent_label_point": 1,
   "relation_arrow_alliance": 1,
   "relation_arrow_conflict": 3,
   "extent_features": 3,
   "group_features": 4,
-  "cities": 29
+  "cities": 27
  },
  "context": {
   "key_events_en": [
@@ -1025,6 +954,7 @@
    "AR-REVIEW",
    "CONTESTED",
    "FIRST-ATTESTED",
+   "LAST-ATTESTED",
    "RUIN-UNDATED",
    "SINGLE-SOURCE"
   ],
@@ -1054,6 +984,7 @@
     "omdurman"
    ],
    "cities_removed": [
+    "kobbe",
     "qasr-ibrim",
     "qerri",
     "soba"

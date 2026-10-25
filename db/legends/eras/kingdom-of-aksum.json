@@ -122,9 +122,14 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "293"
+      },
       {
        "id": "GHA2_CH11",
        "page": "301"
@@ -132,37 +137,6 @@
       {
        "id": "WIKIDATA_CITIES",
        "page": "Q5780"
-      }
-     ]
-    },
-    {
-     "id": "musawwarat",
-     "name_en": "Musawwarat es-Sufra",
-     "name_ar": "المصورات الصفراء",
-     "symbol_class": "city_religious",
-     "roles_in_era": [
-      {
-       "role": "religious",
-       "era_id": "kingdom-of-kush-meroitic-period",
-       "start": null,
-       "end": null,
-       "source_id": "GHA2_CH11",
-       "page": "318"
-      }
-     ],
-     "badges": [
-      "AR-REVIEW",
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
-     ],
-     "source_ids": [
-      {
-       "id": "GHA2_CH11",
-       "page": "318"
-      },
-      {
-       "id": "WIKIDATA_CITIES",
-       "page": "Q286426"
       }
      ]
     },
@@ -189,49 +163,6 @@
      ]
     },
     {
-     "id": "buhen",
-     "name_en": "Buhen",
-     "name_ar": "بوهين",
-     "symbol_class": "city_garrison",
-     "roles_in_era": [
-      {
-       "role": "garrison",
-       "era_id": "middle-kingdom-egypt",
-       "start": null,
-       "end": null,
-       "source_id": "GHA2_CH9",
-       "page": "266"
-      },
-      {
-       "role": "garrison",
-       "era_id": "egyptian-new-kingdom-rule-in-nubia",
-       "start": null,
-       "end": null,
-       "source_id": "GHA2_CH9",
-       "page": "265"
-      }
-     ],
-     "badges": [
-      "AR-REVIEW",
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
-     ],
-     "source_ids": [
-      {
-       "id": "GHA2_CH9",
-       "page": "265"
-      },
-      {
-       "id": "GHA2_CH9",
-       "page": "266"
-      },
-      {
-       "id": "WIKIDATA_CITIES",
-       "page": "Q1002656"
-      }
-     ]
-    },
-    {
      "id": "faras",
      "name_en": "Faras",
      "name_ar": "فرس (النوبة)",
@@ -249,12 +180,17 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED",
       "RUIN-UNDATED"
      ],
      "source_ids": [
       {
        "id": "GHA3_CH8",
        "page": "194"
+      },
+      {
+       "id": "GHA3_CH8",
+       "page": "213"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -280,12 +216,17 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
       {
        "id": "GHA2_CH10",
        "page": "290"
+      },
+      {
+       "id": "GHA5_CH6",
+       "page": "145"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -302,9 +243,14 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "295"
+      },
       {
        "id": "GHA2_CH12",
        "page": "331"
@@ -351,12 +297,17 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED",
       "RUIN-UNDATED"
      ],
      "source_ids": [
       {
        "id": "GHA3_CH8",
        "page": "194"
+      },
+      {
+       "id": "GHA4_CH16",
+       "page": "404"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -471,12 +422,17 @@
      "badges": [
       "AR-REVIEW",
       "CONTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
       {
        "id": "GHA2",
        "page": "343"
+      },
+      {
+       "id": "GHA3_CH19",
+       "page": "562"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -502,9 +458,14 @@
      "badges": [
       "APPROXIMATE",
       "AR-REVIEW",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
+      {
+       "id": "GHA4_CH15",
+       "page": "390"
+      },
       {
        "id": "GHAIII",
        "page": "82"
@@ -589,7 +550,6 @@
   "city_garrison",
   "city_other",
   "city_port",
-  "city_religious",
   "control_extent",
   "control_extent_approx"
  ],
@@ -599,19 +559,20 @@
   "AR-REVIEW",
   "CONTESTED",
   "FIRST-ATTESTED",
+  "LAST-ATTESTED",
+  "LAST-ATTESTED+APPROXIMATE",
   "RUIN-UNDATED"
  ],
  "counts": {
   "city_capital": 5,
-  "city_garrison": 3,
+  "city_garrison": 2,
   "city_other": 5,
   "city_port": 2,
-  "city_religious": 1,
   "control_extent": 2,
   "control_extent_approx": 3,
   "extent_features": 5,
   "group_features": 0,
-  "cities": 16
+  "cities": 14
  },
  "context": {
   "key_events_en": [
@@ -658,6 +619,8 @@
    "AR-REVIEW",
    "CONTESTED",
    "FIRST-ATTESTED",
+   "LAST-ATTESTED",
+   "LAST-ATTESTED+APPROXIMATE",
    "RUIN-UNDATED"
   ],
   "what_changed": {
@@ -678,7 +641,6 @@
     "aksum",
     "faras",
     "meroe",
-    "musawwarat",
     "old-dongola",
     "philae",
     "qasr-ibrim",

@@ -94,9 +94,14 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "291"
+      },
       {
        "id": "GHA2_CH9",
        "page": "268"
@@ -125,9 +130,14 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "281"
+      },
       {
        "id": "GHA2_CH11",
        "page": "300"
@@ -156,12 +166,17 @@
      "badges": [
       "APPROXIMATE",
       "AR-REVIEW",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
       {
        "id": "GHA2_CH10",
        "page": "285"
+      },
+      {
+       "id": "GHA2_CH11",
+       "page": "303"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -187,9 +202,14 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "293"
+      },
       {
        "id": "GHA2_CH11",
        "page": "301"
@@ -218,6 +238,7 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -226,8 +247,39 @@
        "page": "318"
       },
       {
+       "id": "GHA2_CH11",
+       "page": "319"
+      },
+      {
        "id": "WIKIDATA_CITIES",
        "page": "Q286426"
+      }
+     ]
+    },
+    {
+     "id": "naqa",
+     "name_en": "Naqa",
+     "name_ar": "النقعة",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "288"
+      },
+      {
+       "id": "GHA2_CH10",
+       "page": "291"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1760360"
       }
      ]
     },
@@ -249,9 +301,14 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "291"
+      },
       {
        "id": "GHA2_CH11",
        "page": "314"
@@ -285,49 +342,6 @@
      ]
     },
     {
-     "id": "buhen",
-     "name_en": "Buhen",
-     "name_ar": "بوهين",
-     "symbol_class": "city_garrison",
-     "roles_in_era": [
-      {
-       "role": "garrison",
-       "era_id": "middle-kingdom-egypt",
-       "start": null,
-       "end": null,
-       "source_id": "GHA2_CH9",
-       "page": "266"
-      },
-      {
-       "role": "garrison",
-       "era_id": "egyptian-new-kingdom-rule-in-nubia",
-       "start": null,
-       "end": null,
-       "source_id": "GHA2_CH9",
-       "page": "265"
-      }
-     ],
-     "badges": [
-      "AR-REVIEW",
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
-     ],
-     "source_ids": [
-      {
-       "id": "GHA2_CH9",
-       "page": "265"
-      },
-      {
-       "id": "GHA2_CH9",
-       "page": "266"
-      },
-      {
-       "id": "WIKIDATA_CITIES",
-       "page": "Q1002656"
-      }
-     ]
-    },
-    {
      "id": "qasr-ibrim",
      "name_en": "Qasr Ibrim",
      "name_ar": "قصر إبريم",
@@ -345,12 +359,17 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
       {
        "id": "GHA2_CH10",
        "page": "290"
+      },
+      {
+       "id": "GHA5_CH6",
+       "page": "145"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -449,12 +468,17 @@
      "badges": [
       "AR-REVIEW",
       "CONTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
       {
        "id": "GHA2",
        "page": "343"
+      },
+      {
+       "id": "GHA3_CH19",
+       "page": "562"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -507,12 +531,13 @@
   "AR-REVIEW",
   "CONTESTED",
   "FIRST-ATTESTED",
+  "LAST-ATTESTED+APPROXIMATE",
   "RUIN-UNDATED"
  ],
  "counts": {
   "city_capital": 3,
-  "city_garrison": 2,
-  "city_other": 4,
+  "city_garrison": 1,
+  "city_other": 5,
   "city_port": 1,
   "city_religious": 5,
   "extent_label_point": 1,
@@ -566,6 +591,7 @@
    "AR-REVIEW",
    "CONTESTED",
    "FIRST-ATTESTED",
+   "LAST-ATTESTED+APPROXIMATE",
    "RUIN-UNDATED"
   ],
   "what_changed": null

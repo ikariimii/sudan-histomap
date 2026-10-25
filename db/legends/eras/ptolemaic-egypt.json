@@ -105,9 +105,14 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "291"
+      },
       {
        "id": "GHA2_CH9",
        "page": "268"
@@ -136,9 +141,14 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "293"
+      },
       {
        "id": "GHA2_CH11",
        "page": "301"
@@ -167,6 +177,7 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -175,8 +186,39 @@
        "page": "318"
       },
       {
+       "id": "GHA2_CH11",
+       "page": "319"
+      },
+      {
        "id": "WIKIDATA_CITIES",
        "page": "Q286426"
+      }
+     ]
+    },
+    {
+     "id": "naqa",
+     "name_en": "Naqa",
+     "name_ar": "النقعة",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "288"
+      },
+      {
+       "id": "GHA2_CH10",
+       "page": "291"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1760360"
       }
      ]
     },
@@ -198,9 +240,14 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "291"
+      },
       {
        "id": "GHA2_CH11",
        "page": "314"
@@ -230,49 +277,6 @@
       {
        "id": "WIKIDATA_CITIES",
        "page": "Q1457914"
-      }
-     ]
-    },
-    {
-     "id": "buhen",
-     "name_en": "Buhen",
-     "name_ar": "بوهين",
-     "symbol_class": "city_garrison",
-     "roles_in_era": [
-      {
-       "role": "garrison",
-       "era_id": "middle-kingdom-egypt",
-       "start": null,
-       "end": null,
-       "source_id": "GHA2_CH9",
-       "page": "266"
-      },
-      {
-       "role": "garrison",
-       "era_id": "egyptian-new-kingdom-rule-in-nubia",
-       "start": null,
-       "end": null,
-       "source_id": "GHA2_CH9",
-       "page": "265"
-      }
-     ],
-     "badges": [
-      "AR-REVIEW",
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
-     ],
-     "source_ids": [
-      {
-       "id": "GHA2_CH9",
-       "page": "265"
-      },
-      {
-       "id": "GHA2_CH9",
-       "page": "266"
-      },
-      {
-       "id": "WIKIDATA_CITIES",
-       "page": "Q1002656"
       }
      ]
     },
@@ -328,12 +332,17 @@
      "badges": [
       "AR-REVIEW",
       "CONTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
       {
        "id": "GHA2",
        "page": "343"
+      },
+      {
+       "id": "GHA3_CH19",
+       "page": "562"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -374,7 +383,6 @@
  },
  "symbol_classes_present": [
   "city_capital",
-  "city_garrison",
   "city_other",
   "city_religious",
   "extent_label_point"
@@ -385,12 +393,12 @@
   "AR-REVIEW",
   "CONTESTED",
   "FIRST-ATTESTED",
+  "LAST-ATTESTED+APPROXIMATE",
   "RUIN-UNDATED"
  ],
  "counts": {
   "city_capital": 2,
-  "city_garrison": 1,
-  "city_other": 5,
+  "city_other": 6,
   "city_religious": 3,
   "extent_label_point": 2,
   "extent_features": 2,
@@ -442,6 +450,7 @@
    "AR-REVIEW",
    "CONTESTED",
    "FIRST-ATTESTED",
+   "LAST-ATTESTED+APPROXIMATE",
    "RUIN-UNDATED"
   ],
   "what_changed": {
@@ -458,6 +467,7 @@
     "adulis",
     "meroe",
     "musawwarat",
+    "naqa",
     "wad-ban-naqa"
    ],
    "cities_removed": [

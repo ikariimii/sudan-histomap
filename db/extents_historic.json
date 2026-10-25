@@ -900,8 +900,8 @@
     "LOC1991_CONDO",
     "PCA_ABYEI2009",
     "UNSC1996",
-    "WP:Addis_Ababa_Agreement_(1972)",
-    "WP:Comprehensive_Peace_Agreement",
+    "ADDIS_ABABA_1972",
+    "CPA_2005",
     "ABYEI_PROTOCOL2004"
    ],
    "dating_split": [
@@ -920,12 +920,32 @@
     {
      "from": 1972,
      "to": 1983,
-     "label_en": "Southern Region (Addis Ababa Agreement)"
+     "label_en": "Southern Region (Addis Ababa Agreement)",
+     "source_ids": [
+      "ADDIS_ABABA_1972"
+     ],
+     "source_pins": {
+      "ADDIS_ABABA_1972": "Art. 3(c) (Southern Provinces = Bahr el Ghazal, Equatoria, Upper Nile as they stood 1 Jan 1956); Art. 4 (Southern Region constituted)"
+     },
+     "badges": [
+      "APPROXIMATE",
+      "SINGLE-SOURCE"
+     ]
     },
     {
      "from": 2005,
      "to": 2011,
-     "label_en": "Government of Southern Sudan (CPA)"
+     "label_en": "Government of Southern Sudan (CPA)",
+     "source_ids": [
+      "CPA_2005",
+      "ABYEI_PROTOCOL2004"
+     ],
+     "source_pins": {
+      "CPA_2005": "Ch. II Power Sharing III 3.1, PDF p.52 of S/2005/78 (Government of Southern Sudan as per the borders of 1/1/56)"
+     },
+     "badges": [
+      "APPROXIMATE"
+     ]
     }
    ],
    "notes": "Base outline is a stand-in for the 1 Jan 1956 provincial line (existing South Sudan OHM outline), badged APPROXIMATE; Abyei, Kafia Kingi, Ilemi are CONTESTED points.",

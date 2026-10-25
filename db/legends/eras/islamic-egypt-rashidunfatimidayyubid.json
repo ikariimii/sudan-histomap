@@ -46,37 +46,6 @@
    "file": "db/city_layers/cities.geojson",
    "features": [
     {
-     "id": "musawwarat",
-     "name_en": "Musawwarat es-Sufra",
-     "name_ar": "المصورات الصفراء",
-     "symbol_class": "city_religious",
-     "roles_in_era": [
-      {
-       "role": "religious",
-       "era_id": "kingdom-of-kush-meroitic-period",
-       "start": null,
-       "end": null,
-       "source_id": "GHA2_CH11",
-       "page": "318"
-      }
-     ],
-     "badges": [
-      "AR-REVIEW",
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
-     ],
-     "source_ids": [
-      {
-       "id": "GHA2_CH11",
-       "page": "318"
-      },
-      {
-       "id": "WIKIDATA_CITIES",
-       "page": "Q286426"
-      }
-     ]
-    },
-    {
      "id": "soleb",
      "name_en": "Soleb",
      "name_ar": "صوليب",
@@ -99,49 +68,6 @@
      ]
     },
     {
-     "id": "buhen",
-     "name_en": "Buhen",
-     "name_ar": "بوهين",
-     "symbol_class": "city_garrison",
-     "roles_in_era": [
-      {
-       "role": "garrison",
-       "era_id": "middle-kingdom-egypt",
-       "start": null,
-       "end": null,
-       "source_id": "GHA2_CH9",
-       "page": "266"
-      },
-      {
-       "role": "garrison",
-       "era_id": "egyptian-new-kingdom-rule-in-nubia",
-       "start": null,
-       "end": null,
-       "source_id": "GHA2_CH9",
-       "page": "265"
-      }
-     ],
-     "badges": [
-      "AR-REVIEW",
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
-     ],
-     "source_ids": [
-      {
-       "id": "GHA2_CH9",
-       "page": "265"
-      },
-      {
-       "id": "GHA2_CH9",
-       "page": "266"
-      },
-      {
-       "id": "WIKIDATA_CITIES",
-       "page": "Q1002656"
-      }
-     ]
-    },
-    {
      "id": "faras",
      "name_en": "Faras",
      "name_ar": "فرس (النوبة)",
@@ -159,12 +85,17 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED",
       "RUIN-UNDATED"
      ],
      "source_ids": [
       {
        "id": "GHA3_CH8",
        "page": "194"
+      },
+      {
+       "id": "GHA3_CH8",
+       "page": "213"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -190,12 +121,17 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
       {
        "id": "GHA2_CH10",
        "page": "290"
+      },
+      {
+       "id": "GHA5_CH6",
+       "page": "145"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -239,12 +175,17 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED",
       "RUIN-UNDATED"
      ],
      "source_ids": [
       {
        "id": "GHA3_CH8",
        "page": "194"
+      },
+      {
+       "id": "GHA4_CH16",
+       "page": "404"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -359,12 +300,17 @@
      "badges": [
       "AR-REVIEW",
       "CONTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
       {
        "id": "GHA2",
        "page": "343"
+      },
+      {
+       "id": "GHA3_CH19",
+       "page": "562"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -390,9 +336,14 @@
      "badges": [
       "APPROXIMATE",
       "AR-REVIEW",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
+      {
+       "id": "GHA4_CH15",
+       "page": "390"
+      },
       {
        "id": "GHAIII",
        "page": "82"
@@ -476,7 +427,6 @@
   "city_garrison",
   "city_other",
   "city_port",
-  "city_religious",
   "extent_label_point"
  ],
  "badges_present": [
@@ -484,18 +434,19 @@
   "AR-REVIEW",
   "CONTESTED",
   "FIRST-ATTESTED",
+  "LAST-ATTESTED",
+  "LAST-ATTESTED+APPROXIMATE",
   "RUIN-UNDATED"
  ],
  "counts": {
   "city_capital": 4,
-  "city_garrison": 3,
+  "city_garrison": 2,
   "city_other": 4,
   "city_port": 2,
-  "city_religious": 1,
   "extent_label_point": 2,
   "extent_features": 2,
   "group_features": 0,
-  "cities": 14
+  "cities": 12
  },
  "context": {
   "key_events_en": [
@@ -545,6 +496,8 @@
    "AR-REVIEW",
    "CONTESTED",
    "FIRST-ATTESTED",
+   "LAST-ATTESTED",
+   "LAST-ATTESTED+APPROXIMATE",
    "RUIN-UNDATED"
   ],
   "what_changed": {
@@ -568,6 +521,7 @@
     "jebel-barkal",
     "kawa",
     "meroe",
+    "naqa",
     "philae",
     "wad-ban-naqa"
    ],

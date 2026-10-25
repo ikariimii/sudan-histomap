@@ -1,8 +1,8 @@
 {
  "type": "FeatureCollection",
  "meta": {
-  "source": "db/cities.json @18036f8",
-  "rule": "visible_from = map_from (founded, else first_attested, badge FIRST-ATTESTED); no map_from = list_only; abandoned {year:null} = ruin ending at last cited role, RUIN-UNDATED, inhabited_today false"
+  "source": "db/cities.json @5f68d21",
+  "rule": "visible_from = map_from (founded, else first_attested, badge FIRST-ATTESTED); no map_from = list_only; abandoned null = inhabited_today; abandoned {year:null} = ruin (RUIN-UNDATED, inhabited_today false) ending at last_attested (carrying its badge), else last cited role end, else open"
  },
  "features": [
   {
@@ -53,7 +53,8 @@
       "page": "Q1107569"
      }
     ],
-    "map_from": -1730
+    "map_from": -1730,
+    "visible_to_basis": "last_cited_role"
    }
   },
   {
@@ -117,7 +118,8 @@
       "page": "Q743282"
      }
     ],
-    "map_from": -800
+    "map_from": -800,
+    "visible_to_basis": "last_cited_role"
    }
   },
   {
@@ -153,12 +155,17 @@
     "badges": [
      "FIRST-ATTESTED",
      "AR-REVIEW",
-     "RUIN-UNDATED"
+     "RUIN-UNDATED",
+     "LAST-ATTESTED+APPROXIMATE"
     ],
     "history_en": "Sacred mountain of Amun at Napata; Egyptian and Kushite temples.",
     "history_ar": "جبل آمون المقدس في نبتة.",
     "history_source": null,
     "source_ids": [
+     {
+      "id": "GHA2_CH10",
+      "page": "291"
+     },
      {
       "id": "GHA2_CH9",
       "page": "268"
@@ -205,12 +212,17 @@
     "badges": [
      "FIRST-ATTESTED",
      "AR-REVIEW",
-     "RUIN-UNDATED"
+     "RUIN-UNDATED",
+     "LAST-ATTESTED+APPROXIMATE"
     ],
     "history_en": "Earliest royal cemetery of the Kushite kings.",
     "history_ar": "أقدم مقبرة ملكية لملوك كوش.",
     "history_source": null,
     "source_ids": [
+     {
+      "id": "GHA2_CH10",
+      "page": "281"
+     },
      {
       "id": "GHA2_CH11",
       "page": "300"
@@ -257,7 +269,8 @@
     "badges": [
      "APPROXIMATE",
      "AR-REVIEW",
-     "RUIN-UNDATED"
+     "RUIN-UNDATED",
+     "LAST-ATTESTED+APPROXIMATE"
     ],
     "history_en": "Royal pyramid field begun by Taharqa.",
     "history_ar": "حقل أهرامات ملكية بدأه طهارقا.",
@@ -266,6 +279,10 @@
      {
       "id": "GHA2_CH10",
       "page": "285"
+     },
+     {
+      "id": "GHA2_CH11",
+      "page": "303"
      },
      {
       "id": "WIKIDATA_CITIES",
@@ -309,12 +326,17 @@
     "badges": [
      "FIRST-ATTESTED",
      "AR-REVIEW",
-     "RUIN-UNDATED"
+     "RUIN-UNDATED",
+     "LAST-ATTESTED+APPROXIMATE"
     ],
     "history_en": "Capital of Kush from about -300.",
     "history_ar": "عاصمة كوش منذ نحو 300 ق.م.",
     "history_source": null,
     "source_ids": [
+     {
+      "id": "GHA2_CH10",
+      "page": "293"
+     },
      {
       "id": "GHA2_CH11",
       "page": "301"
@@ -345,7 +367,7 @@
     "category": "ancient",
     "visible_from": -270,
     "visible_from_basis": "first_attested",
-    "visible_to": null,
+    "visible_to": -41,
     "inhabited_today": false,
     "roles": [
      {
@@ -361,7 +383,8 @@
     "badges": [
      "FIRST-ATTESTED",
      "AR-REVIEW",
-     "RUIN-UNDATED"
+     "RUIN-UNDATED",
+     "LAST-ATTESTED+APPROXIMATE"
     ],
     "history_en": "Meroitic temple complex with the Lion Temple of Apedemak.",
     "history_ar": "مجمع معابد مروي فيه معبد الأسد لأباداماك.",
@@ -372,11 +395,63 @@
       "page": "318"
      },
      {
+      "id": "GHA2_CH11",
+      "page": "319"
+     },
+     {
       "id": "WIKIDATA_CITIES",
       "page": "Q286426"
      }
     ],
-    "map_from": -270
+    "map_from": -270,
+    "visible_to_basis": "last_attested"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.275,
+     16.26944
+    ]
+   },
+   "properties": {
+    "id": "naqa",
+    "name_en": "Naqa",
+    "name_ar": "النقعة",
+    "wikidata": "Q1760360",
+    "category": "ancient",
+    "visible_from": -170,
+    "visible_from_basis": "first_attested",
+    "visible_to": 12,
+    "inhabited_today": false,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW",
+     "RUIN-UNDATED",
+     "LAST-ATTESTED+APPROXIMATE"
+    ],
+    "history_en": "Meroitic temple site in the Butana.",
+    "history_ar": "موقع معابد مروية في البطانة.",
+    "history_source": null,
+    "source_ids": [
+     {
+      "id": "GHA2_CH10",
+      "page": "288"
+     },
+     {
+      "id": "GHA2_CH10",
+      "page": "291"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q1760360"
+     }
+    ],
+    "map_from": -170,
+    "visible_to_basis": "last_attested"
    }
   },
   {
@@ -412,12 +487,17 @@
     "badges": [
      "FIRST-ATTESTED",
      "AR-REVIEW",
-     "RUIN-UNDATED"
+     "RUIN-UNDATED",
+     "LAST-ATTESTED+APPROXIMATE"
     ],
     "history_en": "Meroitic temple and palace site near Meroe.",
     "history_ar": "موقع معابد وقصر مروي قرب مروي.",
     "history_source": null,
     "source_ids": [
+     {
+      "id": "GHA2_CH10",
+      "page": "291"
+     },
      {
       "id": "GHA2_CH11",
       "page": "314"
@@ -492,7 +572,7 @@
     "category": "ancient",
     "visible_from": -2055,
     "visible_from_basis": "first_attested",
-    "visible_to": null,
+    "visible_to": -1319,
     "inhabited_today": false,
     "roles": [
      {
@@ -517,7 +597,8 @@
     "badges": [
      "FIRST-ATTESTED",
      "AR-REVIEW",
-     "RUIN-UNDATED"
+     "RUIN-UNDATED",
+     "LAST-ATTESTED+APPROXIMATE"
     ],
     "history_en": "Egyptian fortress town at the Second Cataract.",
     "history_ar": "مدينة حصينة مصرية عند الشلال الثاني.",
@@ -532,11 +613,16 @@
       "page": "266"
      },
      {
+      "id": "GHA2_CH9",
+      "page": "268"
+     },
+     {
       "id": "WIKIDATA_CITIES",
       "page": "Q1002656"
      }
     ],
-    "map_from": -2055
+    "map_from": -2055,
+    "visible_to_basis": "last_attested"
    }
   },
   {
@@ -587,7 +673,8 @@
       "page": "Q1485667"
      }
     ],
-    "map_from": -1991
+    "map_from": -1991,
+    "visible_to_basis": "last_cited_role"
    }
   },
   {
@@ -622,7 +709,8 @@
     "badges": [
      "FIRST-ATTESTED",
      "AR-REVIEW",
-     "RUIN-UNDATED"
+     "RUIN-UNDATED",
+     "LAST-ATTESTED"
     ],
     "history_en": "Capital of Nobadia; cathedral with famous murals.",
     "history_ar": "عاصمة نوباديا وفيها كاتدرائية بجدارياتها الشهيرة.",
@@ -631,6 +719,10 @@
      {
       "id": "GHA3_CH8",
       "page": "194"
+     },
+     {
+      "id": "GHA3_CH8",
+      "page": "213"
      },
      {
       "id": "WIKIDATA_CITIES",
@@ -674,7 +766,8 @@
     "badges": [
      "FIRST-ATTESTED",
      "AR-REVIEW",
-     "RUIN-UNDATED"
+     "RUIN-UNDATED",
+     "LAST-ATTESTED+APPROXIMATE"
     ],
     "history_en": "Fortified hilltop town of Lower Nubia (Primis).",
     "history_ar": "مدينة حصينة على تل في النوبة السفلى.",
@@ -683,6 +776,10 @@
      {
       "id": "GHA2_CH10",
       "page": "290"
+     },
+     {
+      "id": "GHA5_CH6",
+      "page": "145"
      },
      {
       "id": "WIKIDATA_CITIES",
@@ -716,7 +813,8 @@
     "badges": [
      "FIRST-ATTESTED",
      "AR-REVIEW",
-     "RUIN-UNDATED"
+     "RUIN-UNDATED",
+     "LAST-ATTESTED+APPROXIMATE"
     ],
     "history_en": "Island temple site; seat of bishops from the 4th century.",
     "history_ar": "جزيرة معابد، مقر أساقفة منذ القرن الرابع.",
@@ -725,6 +823,10 @@
      "page": "331"
     },
     "source_ids": [
+     {
+      "id": "GHA2_CH10",
+      "page": "295"
+     },
      {
       "id": "GHA2_CH12",
       "page": "331"
@@ -807,7 +909,8 @@
     "badges": [
      "FIRST-ATTESTED",
      "AR-REVIEW",
-     "RUIN-UNDATED"
+     "RUIN-UNDATED",
+     "LAST-ATTESTED"
     ],
     "history_en": "Capital of Makuria and of united Nubia.",
     "history_ar": "عاصمة المقرة والنوبة الموحدة.",
@@ -816,6 +919,10 @@
      {
       "id": "GHA3_CH8",
       "page": "194"
+     },
+     {
+      "id": "GHA4_CH16",
+      "page": "404"
      },
      {
       "id": "WIKIDATA_CITIES",
@@ -876,7 +983,8 @@
       "page": "Q1247214"
      }
     ],
-    "map_from": 500
+    "map_from": 500,
+    "visible_to_basis": "abandoned"
    }
   },
   {
@@ -1009,7 +1117,8 @@
     "badges": [
      "CONTESTED",
      "AR-REVIEW",
-     "RUIN-UNDATED"
+     "RUIN-UNDATED",
+     "LAST-ATTESTED+APPROXIMATE"
     ],
     "history_en": "Red Sea port, later the harbour of Aksum.",
     "history_ar": "ميناء على البحر الأحمر صار ميناء أكسوم.",
@@ -1018,6 +1127,10 @@
      {
       "id": "GHA2",
       "page": "343"
+     },
+     {
+      "id": "GHA3_CH19",
+      "page": "562"
      },
      {
       "id": "WIKIDATA_CITIES",
@@ -1061,12 +1174,17 @@
     "badges": [
      "APPROXIMATE",
      "AR-REVIEW",
-     "RUIN-UNDATED"
+     "RUIN-UNDATED",
+     "LAST-ATTESTED+APPROXIMATE"
     ],
     "history_en": "Medieval Red Sea port for trade and pilgrims.",
     "history_ar": "ميناء على البحر الأحمر في العصور الوسطى للتجارة والحجيج.",
     "history_source": null,
     "source_ids": [
+     {
+      "id": "GHA4_CH15",
+      "page": "390"
+     },
      {
       "id": "GHAIII",
       "page": "82"
@@ -1218,7 +1336,8 @@
     "badges": [
      "FIRST-ATTESTED",
      "AR-REVIEW",
-     "RUIN-UNDATED"
+     "RUIN-UNDATED",
+     "LAST-ATTESTED+APPROXIMATE"
     ],
     "history_en": "Seat of the Abdallab chiefs north of Soba.",
     "history_ar": "مقر مشايخ العبدلاب شمال سوبا.",
@@ -1229,11 +1348,62 @@
       "page": "172"
      },
      {
+      "id": "MACMICHAEL1922_V1",
+      "page": "215"
+     },
+     {
       "id": "WIKIDATA_CITIES",
       "page": "Q11924140"
      }
     ],
     "map_from": 1480,
+    "visible_to_basis": "last_attested"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.96667,
+     14.06667
+    ]
+   },
+   "properties": {
+    "id": "kobbe",
+    "name_en": "Kobbei",
+    "name_ar": "كوبي",
+    "wikidata": "Q6424293",
+    "category": "ancient",
+    "visible_from": 1750,
+    "visible_from_basis": "first_attested",
+    "visible_to": 1793,
+    "inhabited_today": false,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED",
+     "AR-REVIEW",
+     "RUIN-UNDATED",
+     "LAST-ATTESTED+APPROXIMATE"
+    ],
+    "history_en": "Kobbei: settlement shown for location; no history line sourced yet.",
+    "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+    "history_source": null,
+    "source_ids": [
+     {
+      "id": "MACMICHAEL1922_V1",
+      "page": "203"
+     },
+     {
+      "id": "MACMICHAEL1922_V1",
+      "page": "216"
+     },
+     {
+      "id": "WIKIDATA_CITIES",
+      "page": "Q6424293"
+     }
+    ],
+    "map_from": 1750,
     "visible_to_basis": "last_attested"
    }
   },
@@ -2488,7 +2658,8 @@
     "badges": [
      "FIRST-ATTESTED",
      "AR-REVIEW",
-     "RUIN-UNDATED"
+     "RUIN-UNDATED",
+     "LAST-ATTESTED"
     ],
     "history_en": "Upper Nile trading station and base for Baker.",
     "history_ar": "محطة تجارية على النيل الأعلى وقاعدة لبيكر.",
@@ -2544,7 +2715,8 @@
     "badges": [
      "FIRST-ATTESTED",
      "AR-REVIEW",
-     "RUIN-UNDATED"
+     "RUIN-UNDATED",
+     "LAST-ATTESTED"
     ],
     "history_en": "Equatoria station after 1876.",
     "history_ar": "محطة في الاستوائية بعد 1876.",
@@ -2743,16 +2915,12 @@
       "page": "project page"
      }
     ],
-    "map_from": -1350
+    "map_from": -1350,
+    "visible_to_basis": "abandoned"
    }
   }
  ],
  "list_only": [
-  {
-   "id": "naqa",
-   "name_en": "Naqa",
-   "reason": "no cited founded or first-attested date in sources read"
-  },
   {
    "id": "sedeinga",
    "name_en": "Sedeinga",
@@ -2766,11 +2934,6 @@
   {
    "id": "banganarti",
    "name_en": "Banganarti",
-   "reason": "no cited founded or first-attested date in sources read"
-  },
-  {
-   "id": "kobbe",
-   "name_en": "Kobbei",
    "reason": "no cited founded or first-attested date in sources read"
   },
   {

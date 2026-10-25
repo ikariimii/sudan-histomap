@@ -89,6 +89,7 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -99,6 +100,10 @@
       {
        "id": "GHA2_CH9",
        "page": "266"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "268"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -180,6 +185,7 @@
  "badges_present": [
   "AR-REVIEW",
   "FIRST-ATTESTED",
+  "LAST-ATTESTED+APPROXIMATE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -239,6 +245,7 @@
   "badge_filter": [
    "AR-REVIEW",
    "FIRST-ATTESTED",
+   "LAST-ATTESTED+APPROXIMATE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

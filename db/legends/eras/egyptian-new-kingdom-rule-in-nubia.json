@@ -76,9 +76,14 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "291"
+      },
       {
        "id": "GHA2_CH9",
        "page": "268"
@@ -137,6 +142,7 @@
      "badges": [
       "AR-REVIEW",
       "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -147,6 +153,10 @@
       {
        "id": "GHA2_CH9",
        "page": "266"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "268"
       },
       {
        "id": "WIKIDATA_CITIES",
@@ -239,6 +249,7 @@
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "FIRST-ATTESTED",
+  "LAST-ATTESTED+APPROXIMATE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -303,6 +314,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "FIRST-ATTESTED",
+   "LAST-ATTESTED+APPROXIMATE",
    "RUIN-UNDATED"
   ],
   "what_changed": {
