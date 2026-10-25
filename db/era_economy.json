@@ -17,7 +17,9 @@
       "WB_WDI_GDP_CAF",
       "WB_WDI_GDP_SAU",
       "WB_WDI_GDP_ETH",
-      "WB_WDI_GDP_SSD"
+      "WB_WDI_GDP_SSD",
+      "WB_WDI_EXP_SDN",
+      "WB_WDI_EXP_SSD"
     ],
     "to_register_details": {
       "CBOS_CURMUS2012": {
@@ -63,6 +65,14 @@
       "WB_WDI_GDP_SSD": {
         "title": "World Bank, World Development Indicators: GDP (current US$), South Sudan (NY.GDP.MKTP.CD), lastupdated 2026-10-08",
         "url": "https://api.worldbank.org/v2/country/SSD/indicator/NY.GDP.MKTP.CD?format=json&per_page=100"
+      },
+      "WB_WDI_EXP_SDN": {
+        "title": "World Bank, World Development Indicators: Exports of goods and services (current US$), Sudan (NE.EXP.GNFS.CD), lastupdated 2026-10-08",
+        "url": "https://api.worldbank.org/v2/country/SDN/indicator/NE.EXP.GNFS.CD?format=json&per_page=100"
+      },
+      "WB_WDI_EXP_SSD": {
+        "title": "World Bank, World Development Indicators: Exports of goods and services (current US$), South Sudan (NE.EXP.GNFS.CD), lastupdated 2026-10-08",
+        "url": "https://api.worldbank.org/v2/country/SSD/indicator/NE.EXP.GNFS.CD?format=json&per_page=100"
       }
     }
   },
@@ -92,15 +102,20 @@
       "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
     },
     "currency": {
-      "name": null,
-      "type": null,
-      "issuer": null,
+      "name": "pound (piasters, milliemes)",
+      "type": "banknote and coin",
+      "issuer": "Sudan Currency Board",
       "example_artifact": null,
-      "cite": null,
+      "cite": "CBOS_CURMUS2012",
       "badges": [
-        "NO-SOURCE"
+        "SOURCED",
+        "SINGLE-SOURCE"
       ],
-      "note": "No source read in full names this era's currency; not filled from memory."
+      "note": "Catalogue entries for 1956 coins and notes; issuer from the note entries.",
+      "page": "section \"Post - Independence Era 1956-2011\" (PDF p.56); coins PDF pp.~57-58; notes PDF p.105-106 (printed 104-105)",
+      "quote": "\"1 Millieme - (1956) -(Bronze)\" | \"25 Piasters- 1956 ... Sudan Currency Board\" | \"1 Pound - 1956 ... Sudan Currency Board\" | \"5 pounds - 1956\" | \"10 Pounds - 1956\"",
+      "cite_note": "Central Bank of Sudan currency catalogue (registered ID); catalogue entries read in English; Arabic text layer is font-garbled and was not used.",
+      "note_ar": "عملات 1956: الجنيه والقرش والمليم، صادرة عن لجنة العملة السودانية [VERIFY: ترجمة عمل]"
     },
     "main_trade": {
       "exports": {
@@ -175,15 +190,20 @@
       "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
     },
     "currency": {
-      "name": null,
-      "type": null,
-      "issuer": null,
+      "name": "pound (piasters)",
+      "type": "banknote",
+      "issuer": "Bank of Sudan",
       "example_artifact": null,
-      "cite": null,
+      "cite": "CBOS_CURMUS2012",
       "badges": [
-        "NO-SOURCE"
+        "SOURCED",
+        "SINGLE-SOURCE"
       ],
-      "note": "No source read in full names this era's currency; not filled from memory."
+      "note": "Issuer named on the 1961 entry; 1962 entry dated within the era.",
+      "page": "notes PDF p.106-107 (printed 105-106)",
+      "quote": "\"1Pound- 8/4/1961 ... Bank of Sudan\" | \"5 pounds-17/6/1962\"",
+      "cite_note": "Central Bank of Sudan currency catalogue (registered ID); catalogue entries read in English; Arabic text layer is font-garbled and was not used.",
+      "note_ar": "جنيه 1961 صادر عن بنك السودان [VERIFY: ترجمة عمل]"
     },
     "main_trade": {
       "exports": {
@@ -266,15 +286,20 @@
       "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
     },
     "currency": {
-      "name": null,
-      "type": null,
+      "name": "pound (piasters)",
+      "type": "banknote",
       "issuer": null,
       "example_artifact": null,
-      "cite": null,
+      "cite": "CBOS_CURMUS2012",
       "badges": [
-        "NO-SOURCE"
+        "SOURCED",
+        "SINGLE-SOURCE"
       ],
-      "note": "No source read in full names this era's currency; not filled from memory."
+      "note": "Issue dates fall in this era; the English entries on these pages do not name the issuer, so issuer is null (not inferred).",
+      "page": "notes PDF p.107-108 (printed 106-107)",
+      "quote": "\"50 piasters -13/7/1964\" | \"25 Piasters - 25/1/1967 ... Signature:Elsaied Elfeel\" | \"1 pound - 25/1/1967\" | \"10 pound - 7/2/1968 ... Signature: AbdElrahim Mayrgani\"",
+      "cite_note": "Central Bank of Sudan currency catalogue (registered ID); catalogue entries read in English; Arabic text layer is font-garbled and was not used.",
+      "note_ar": "أوراق نقدية بتواريخ 1964-1968 (القرش والجنيه)؛ الجهة المصدرة غير مذكورة بالإنجليزية [VERIFY: ترجمة عمل]"
     },
     "main_trade": {
       "exports": {
@@ -283,7 +308,7 @@
         "badges": [
           "NO-SOURCE"
         ],
-        "note": "Era text: 'No source read gives 1960s Gezira cotton output or prices.' Searched WB_SDN1985 and SFDAS_HCS2017 text, Oct 2026: no export composition for this era; left NO-SOURCE."
+        "note": "Era text: 'No source read gives 1960s Gezira cotton output or prices.' Searched WB_SDN1985 and SFDAS_HCS2017 text, Oct 2026: no export composition for this era; left NO-SOURCE. Oct 25 2026: export VALUE added as indicator (WB_WDI_EXP_SDN); export COMPOSITION still NO-SOURCE."
       },
       "imports": {
         "value": null,
@@ -328,6 +353,32 @@
           "SOURCED"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      },
+      {
+        "name": "Exports of goods and services (current US$)",
+        "value": 215680643.927859,
+        "unit": "current US$",
+        "year": 1964,
+        "cite": "WB_WDI_EXP_SDN",
+        "badges": [
+          "SOURCED",
+          "SINGLE-SOURCE"
+        ],
+        "note": "WB WDI API, indicator NE.EXP.GNFS.CD, country SDN, lastupdated 2026-10-08; full JSON response read; value as published, unrounded.",
+        "cite_note": "Proposed ID, not yet in data/periods.json; for the Historian to register."
+      },
+      {
+        "name": "Exports of goods and services (current US$)",
+        "value": 290063182.912301,
+        "unit": "current US$",
+        "year": 1969,
+        "cite": "WB_WDI_EXP_SDN",
+        "badges": [
+          "SOURCED",
+          "SINGLE-SOURCE"
+        ],
+        "note": "WB WDI API, indicator NE.EXP.GNFS.CD, country SDN, lastupdated 2026-10-08; full JSON response read; value as published, unrounded.",
+        "cite_note": "Proposed ID, not yet in data/periods.json; for the Historian to register."
       }
     ],
     "indicators_note": "Per-capita USD 86 to 104 (LOC1991_ECONDEV) left out: not a WB/IMF/UN figure."
@@ -499,11 +550,12 @@
       "type": "banknote",
       "issuer": null,
       "example_artifact": "Sudan 1 pound 1987 reverse.jpg",
-      "cite": null,
+      "cite": "CBOS_CURMUS2012",
       "badges": [
-        "NO-SOURCE"
+        "SOURCED",
+        "SINGLE-SOURCE"
       ],
-      "note": "Name and type taken only from the db/era_artifacts.json image entry for this era (a 1987 one-pound note); no text source read; issuer null.",
+      "note": "Name/type now supported by catalogue entries dated 1985-87 (previously artifact-only). Issuer not named in English on these pages; left null.",
       "changes": [
         {
           "change": "Nimeiry-portrait notes withdrawn, Central Bank image restored, June 1985",
@@ -514,7 +566,11 @@
             "SOURCED"
           ]
         }
-      ]
+      ],
+      "page": "notes PDF p.115-117 (printed 114-116)",
+      "quote": "\"25 piasters - 3/6/1985\" | \"5 pounds - 3/6/1985 ... Signature: Mahdi Elfaki\" | \"25 piasters- 30/6/1987 ... Signature:Ismail Elmisbah Mekki Hamed\" | \"1 pound- 1/1/1987\" | \"10 pounds - 1/1/1987\"",
+      "cite_note": "Registered ID; English catalogue entries only.",
+      "note_ar": "أوراق نقدية بتواريخ 1985-1987 (القرش والجنيه) [VERIFY: ترجمة عمل]"
     },
     "main_trade": {
       "exports": {
@@ -523,7 +579,7 @@
         "badges": [
           "NO-SOURCE"
         ],
-        "note": "No source read covers this. Searched WB_SDN1985 and SFDAS_HCS2017 text, Oct 2026: no export composition for this era; left NO-SOURCE."
+        "note": "No source read covers this. Searched WB_SDN1985 and SFDAS_HCS2017 text, Oct 2026: no export composition for this era; left NO-SOURCE. Oct 25 2026: export VALUE added as indicator (WB_WDI_EXP_SDN); export COMPOSITION still NO-SOURCE."
       },
       "imports": {
         "value": null,
@@ -569,6 +625,45 @@
           "SOURCED"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
+      },
+      {
+        "name": "Exports of goods and services (current US$)",
+        "value": 464404683.125703,
+        "unit": "current US$",
+        "year": 1985,
+        "cite": "WB_WDI_EXP_SDN",
+        "badges": [
+          "SOURCED",
+          "SINGLE-SOURCE"
+        ],
+        "note": "WB WDI API, indicator NE.EXP.GNFS.CD, country SDN, lastupdated 2026-10-08; full JSON response read; value as published, unrounded.",
+        "cite_note": "Proposed ID, not yet in data/periods.json; for the Historian to register."
+      },
+      {
+        "name": "Exports of goods and services (current US$)",
+        "value": 480000000,
+        "unit": "current US$",
+        "year": 1986,
+        "cite": "WB_WDI_EXP_SDN",
+        "badges": [
+          "SOURCED",
+          "SINGLE-SOURCE"
+        ],
+        "note": "WB WDI API, indicator NE.EXP.GNFS.CD, country SDN, lastupdated 2026-10-08; full JSON response read; value as published, unrounded.",
+        "cite_note": "Proposed ID, not yet in data/periods.json; for the Historian to register."
+      },
+      {
+        "name": "Exports of goods and services (current US$)",
+        "value": 1144444444.44444,
+        "unit": "current US$",
+        "year": 1989,
+        "cite": "WB_WDI_EXP_SDN",
+        "badges": [
+          "SOURCED",
+          "SINGLE-SOURCE"
+        ],
+        "note": "WB WDI API, indicator NE.EXP.GNFS.CD, country SDN, lastupdated 2026-10-08; full JSON response read; value as published, unrounded.",
+        "cite_note": "Proposed ID, not yet in data/periods.json; for the Historian to register."
       }
     ]
   },
@@ -1269,8 +1364,61 @@
         "badges": [
           "SINGLE-SOURCE"
         ]
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 14907308932.7534,
+        "unit": "current US$",
+        "year": 2011,
+        "cite": "WB_WDI_GDP_SSD",
+        "badges": [
+          "SOURCED",
+          "SINGLE-SOURCE"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SSD, lastupdated 2026-10-08; full JSON response read; value as published, unrounded.",
+        "cite_note": "Proposed ID, not yet in data/periods.json; for the Historian to register."
+      },
+      {
+        "name": "GDP (current US$)",
+        "value": 11997800760.2242,
+        "unit": "current US$",
+        "year": 2015,
+        "cite": "WB_WDI_GDP_SSD",
+        "badges": [
+          "SOURCED",
+          "SINGLE-SOURCE"
+        ],
+        "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SSD, lastupdated 2026-10-08; full JSON response read; value as published, unrounded.",
+        "cite_note": "Proposed ID, not yet in data/periods.json; for the Historian to register."
+      },
+      {
+        "name": "Exports of goods and services (current US$)",
+        "value": 9850171395.11542,
+        "unit": "current US$",
+        "year": 2011,
+        "cite": "WB_WDI_EXP_SSD",
+        "badges": [
+          "SOURCED",
+          "SINGLE-SOURCE"
+        ],
+        "note": "WB WDI API, indicator NE.EXP.GNFS.CD, country SSD, lastupdated 2026-10-08; full JSON response read; value as published, unrounded.",
+        "cite_note": "Proposed ID, not yet in data/periods.json; for the Historian to register."
+      },
+      {
+        "name": "Exports of goods and services (current US$)",
+        "value": 4397355862.60474,
+        "unit": "current US$",
+        "year": 2015,
+        "cite": "WB_WDI_EXP_SSD",
+        "badges": [
+          "SOURCED",
+          "SINGLE-SOURCE"
+        ],
+        "note": "WB WDI API, indicator NE.EXP.GNFS.CD, country SSD, lastupdated 2026-10-08; full JSON response read; value as published, unrounded.",
+        "cite_note": "Proposed ID, not yet in data/periods.json; for the Historian to register."
       }
-    ]
+    ],
+    "indicators_note": "WDI SSD GDP and exports series end in 2015 (later years null in the API, lastupdated 2026-10-08)."
   },
   "derg-federal-ethiopia": {
     "rating": {
