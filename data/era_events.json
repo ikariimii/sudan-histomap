@@ -1304,22 +1304,29 @@
  ],
  "nuer-naath-communities": [
   {
-   "date": 200,
-   "en": "Self-name Nath; c.200,000 people in the 1930s [NO-SOURCE]",
-   "ar": "يسمّون أنفسهم «ناث»؛ نحو 200,000 نسمة في ثلاثينيات القرن العشرين [يحتاج تحقق]",
-   "cite": "NO-SOURCE"
+   "date": null,
+   "en": "",
+   "ar": "",
+   "cite": "NO-SOURCE",
+   "removed": "r25 triage: population figure (c.200,000, 1930s) attested only in EP1940, which is barred for Nuer events; date 200 was an artefact of the figure; no other registered source"
   },
   {
    "date": null,
    "en": "Swamps and savannah on both sides of the Nile south of the Sobat/Bahr al-Ghazal junction and along both tributaries",
    "ar": "المستنقعات والسافانا على جانبي النيل جنوب ملتقى السوباط وبحر الغزال وعلى ضفتي الرافدين",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA7_CH4",
+    "pages": "p.81"
+   }
   },
   {
    "date": null,
    "en": "Seasonal movement between villages and dry-season cattle camps",
    "ar": "تنقل موسمي بين القرى ومعسكرات الماشية في موسم الجفاف",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA5_CH18",
+    "pages": "p.193"
+   }
   }
  ],
  "anuak-anywaa-communities": [
@@ -1336,7 +1343,10 @@
    "date": null,
    "en": "Shilluk-speaking (Luo) Nilotic people [NO-SOURCE]",
    "ar": "شعب نيلي يتحدث لغة من مجموعة الشلك (اللوو) [يحتاج تحقق]",
-   "cite": "NO-SOURCE"
+   "cite": {
+    "source_id": "GHA5_CH18",
+    "pages": "p.193"
+   }
   }
  ]
 }
