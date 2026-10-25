@@ -759,5 +759,31 @@
    "ar_status": "pending native translation"
   },
   "build_check": "build_legends.py prints BORDERS-LEGEND MISSING for any extent badge not in rows."
+ },
+ "confidence_key": {
+  "title_en": "How sure are we?",
+  "title_ar": "ما مدى تأكدنا؟ [يحتاج تحقق]",
+  "field": "properties.confidence_style (set by db/border_drafts/promote_drafts.py conf_style)",
+  "rows": [
+   {
+    "style": "solid",
+    "applies_to": "zone core (signed-off, cited)",
+    "legend_en": "Solid: core area, signed off and cited",
+    "legend_ar": "لون مصمت: منطقة أساسية معتمدة وموثقة [يحتاج تحقق]"
+   },
+   {
+    "style": "hatched",
+    "applies_to": "APPROXIMATE, claimed or influence zones",
+    "legend_en": "Hatched: approximate edge or area of influence",
+    "legend_ar": "مظلل بخطوط: حدود تقريبية أو منطقة نفوذ [يحتاج تحقق]"
+   },
+   {
+    "style": "contested",
+    "applies_to": "CONTESTED badge or contested zone",
+    "legend_en": "Contested pattern: disputed between claimants",
+    "legend_ar": "نمط النزاع: منطقة متنازع عليها [يحتاج تحقق]"
+   }
+  ],
+  "ar_status": "working translation, needs native review"
  }
 }
