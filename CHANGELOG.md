@@ -18,6 +18,12 @@
 
 Site changes for sudan.indomando.com (built from `web/` by `web/build.py`). Newest first.
 
+## 2026-10-24 — Map accessibility pass
+- Era scrubber is a keyboard slider: arrows step one era (mirrored in Arabic), Home/End jump to the first/last era, PageUp/PageDown move five; its spoken value is the era name and years.
+- A polite live region announces each era change; skip link, map, layer and story-card controls carry localized labels; Escape closes the feature card (focus returns to the mark) or the legend.
+- Map marks (places, homelands, areas, lines, relations) are reachable with Tab and open with Enter/Space.
+- Visible focus rings everywhere; "single source" badge darkened to meet WCAG AA (4.4 → 5.8:1); card headings fixed to follow page order.
+
 ## 2026-10-24 (one continuous map)
 - Open line features (LineString/MultiLineString) are now drawn in the control and group layers: never filled, dashed when the feature says so (PCA 2009 Abyei award lines), arrowheads only on arrows; each line opens its citation, source pins and badges on tap.
 
