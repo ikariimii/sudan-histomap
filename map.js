@@ -37,10 +37,12 @@ const RELIEF_BOX=[12,-3,48,27];let RHI=false;function relief(){const a=proj([REL
 function fit(){const sh=$('sheet').getBoundingClientRect();const top=desk()?70:120,bot=desk()?H()-20:Math.max(top+160,H()-Math.min(sh.height,H()*.44)-8);
  const x1=desk()?(AR?sh.right+20:20):10,x2=desk()?(AR?W()-20:sh.left-20):W()-10;
  proj.fitExtent([[x1,top],[x2,bot]],{type:'MultiPoint',coordinates:[[21.8,3.4],[38.6,22.2]]});relief()}
-const zoom=d3.zoom().scaleExtent([1,12]).on('zoom',ev=>{TR=ev.transform;root.attr('transform',ev.transform);K=ev.transform.k;scaleMarks();cmpClip();$('reset').hidden=K<1.05&&Math.abs(ev.transform.x)<2}).on('end',()=>{if(!RHI&&K>=2)relief();place();cityThin();hmlDraw()});
+const zoom=d3.zoom().scaleExtent([1,12]).on('zoom',ev=>{TR=ev.transform;root.attr('transform',ev.transform);K=ev.transform.k;scaleMarks();cmpClip();rsHide(K<1.05&&Math.abs(ev.transform.x)<2)}).on('end',()=>{if(!RHI&&K>=2)relief();place();cityThin();hmlDraw()});
 svg.call(zoom).on('dblclick.zoom',null);
 // labels are placed in screen space by place(): keep their group outside the zoomed root (else K is applied twice) and hide it mid-zoom
 svg.node().appendChild(gT.node());zoom.on('start.lb',()=>gT.style('display','none'));$('reset').onclick=()=>svg.transition().duration(DUR).call(zoom.transform,d3.zoomIdentity);
+// WCAG 2.4.3: never hide #reset while it holds focus; hand focus to the era scrubber, else #tour
+function rsHide(h){const rs=$('reset');if(!rs||rs.hidden===h)return;if(h&&document.activeElement===rs){const vis=e=>e&&!e.hidden&&!e.disabled&&e.getClientRects().length&&getComputedStyle(e).visibility!=='hidden';const t=[$('r'),$('tour')].find(vis);if(t)t.focus({preventScroll:true})}rs.hidden=h}
 function scaleMarks(){root.selectAll('.mk').attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`});clearTimeout(scaleMarks.t);scaleMarks.t=setTimeout(()=>{if(typeof hmlThin==='function')hmlThin()},120)}
 const rw=f=>{const G=f.geometry,rv=a=>a.slice().reverse();if(G.type==='Polygon'){if(d3.geoArea(f)>2*Math.PI)G.coordinates=G.coordinates.map(rv)}else if(G.type==='MultiPolygon')G.coordinates=G.coordinates.map(p=>d3.geoArea({type:'Polygon',coordinates:p})>2*Math.PI?p.map(rv):p);return f};
 let BASE=null;const C={},CARD={},LD={};
