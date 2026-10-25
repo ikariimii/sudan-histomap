@@ -20,6 +20,8 @@
     "start": 1400,
     "end": 1650,
     "certainty": "low",
+    "confidence": 0.3,
+    "badges": ["APPROXIMATE", "DERIVED"],
     "label_en": "Ain Farah",
     "label_ar": "عين فرح",
     "label_detail_en": "Tunjur centre in northern Darfur (O'Fahey 2008). Second Wikidata coordinate (matches de/ar Wikipedia); the other value, 16.76N 29.19E, lies outside Darfur and is rejected. Point only; approximate edges not drawn (unsourced).",

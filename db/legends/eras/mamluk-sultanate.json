@@ -185,12 +185,16 @@
      "label_en": "Suakin (reference marker)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1265,
      "end": 1517,
      "source_ids": [
       "WP_MAMLUK"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 10,
@@ -198,15 +202,32 @@
      "label_en": "Dahlak (reference marker)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1265,
      "end": 1517,
      "source_ids": [
       "WP_MAMLUK"
-     ]
+     ],
+     "low_confidence_overlay": true
     }
    ],
-   "borders_legend": []
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
+    }
+   ]
   },
   "groups": {
    "file": null,
@@ -1196,12 +1217,14 @@
   "city_religious",
   "city_town",
   "control_extent",
-  "extent_label_point"
+  "extent_label_point",
+  "low_confidence"
  ],
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
+  "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
@@ -1217,6 +1240,7 @@
   "city_town": 2,
   "control_extent": 9,
   "extent_label_point": 2,
+  "low_confidence": 2,
   "extent_features": 11,
   "group_features": 0,
   "cities": 27
@@ -1264,6 +1288,7 @@
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
+   "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",

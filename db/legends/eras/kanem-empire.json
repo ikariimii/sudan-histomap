@@ -14,7 +14,10 @@
      "label_en": "Kanem Empire",
      "symbol_class": "control_extent_approx",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 700,
      "end": 1380,
      "source_ids": [
@@ -22,10 +25,24 @@
       "GHAIII",
       "GHAIV",
       "WP:Kanem_Empire"
-     ]
+     ],
+     "low_confidence_overlay": true
     }
    ],
-   "borders_legend": []
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
+    }
+   ]
   },
   "groups": {
    "file": null,
@@ -864,12 +881,14 @@
   "city_political_centre",
   "city_port",
   "city_religious",
-  "control_extent_approx"
+  "control_extent_approx",
+  "low_confidence"
  ],
  "badges_present": [
   "APPROXIMATE",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
@@ -883,6 +902,7 @@
   "city_port": 2,
   "city_religious": 4,
   "control_extent_approx": 1,
+  "low_confidence": 1,
   "extent_features": 1,
   "group_features": 0,
   "cities": 22
@@ -923,6 +943,7 @@
    "APPROXIMATE",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",

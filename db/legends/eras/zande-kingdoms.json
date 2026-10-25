@@ -14,7 +14,10 @@
      "label_en": "Mbomu valley (anchor zone)",
      "symbol_class": "extent_label_point",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1700,
      "end": 1905,
      "source_ids": [
@@ -28,16 +31,33 @@
      "label_en": "Uele (anchor zone)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1700,
      "end": 1905,
      "source_ids": [
       "GHA6_CENTRAL_P300",
       "GHA6_CH14_P368"
-     ]
+     ],
+     "low_confidence_overlay": true
     }
    ],
-   "borders_legend": []
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
+    }
+   ]
   },
   "groups": {
    "file": null,
@@ -1616,13 +1636,15 @@
   "city_port",
   "city_religious",
   "city_town",
-  "extent_label_point"
+  "extent_label_point",
+  "low_confidence"
  ],
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
@@ -1637,6 +1659,7 @@
   "city_religious": 5,
   "city_town": 4,
   "extent_label_point": 2,
+  "low_confidence": 1,
   "extent_features": 2,
   "group_features": 0,
   "cities": 47
@@ -1678,6 +1701,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",

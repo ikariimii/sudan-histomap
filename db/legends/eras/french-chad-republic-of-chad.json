@@ -78,14 +78,18 @@
      "label_en": "Chad within French Equatorial Africa – no Chad-only shape for 1910–12 and 1916–58",
      "symbol_class": "list_only_text",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1910,
      "end": 1958,
      "source_ids": [
       "LOC1991_CHAD",
       "IBS3_1978",
       "IBS15_1962"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 5,
@@ -143,6 +147,14 @@
     {
      "badge": "CONTESTED",
      "legend_en": "Contested (amber point, never a polygon)"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -1820,13 +1832,15 @@
   "control_extent",
   "control_extent_approx",
   "flag",
-  "list_only_text"
+  "list_only_text",
+  "low_confidence"
  ],
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "RUIN-UNDATED"
  ],
@@ -1844,6 +1858,7 @@
   "control_extent_approx": 4,
   "flag": 1,
   "list_only_text": 1,
+  "low_confidence": 1,
   "extent_features": 8,
   "group_features": 0,
   "cities": 50
@@ -1901,6 +1916,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "RUIN-UNDATED"
   ],

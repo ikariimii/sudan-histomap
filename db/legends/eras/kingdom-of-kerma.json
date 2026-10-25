@@ -14,17 +14,34 @@
      "label_en": "Kerma – Upper Nubia – strip width along the Nile is a display choice, not a sourced boundary",
      "symbol_class": "control_extent_approx",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": -2450,
      "end": -1480,
      "source_ids": [
       "KERMA_MISSION",
       "GHA2",
       "NATURAL_EARTH"
-     ]
+     ],
+     "low_confidence_overlay": true
     }
    ],
-   "borders_legend": []
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
+    }
+   ]
   },
   "groups": {
    "file": null,
@@ -262,10 +279,13 @@
  "symbol_classes_present": [
   "city_capital",
   "city_garrison",
-  "control_extent_approx"
+  "control_extent_approx",
+  "low_confidence"
  ],
  "badges_present": [
+  "APPROXIMATE",
   "AR-REVIEW",
+  "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
   "RUIN-UNDATED"
@@ -274,6 +294,7 @@
   "city_capital": 1,
   "city_garrison": 3,
   "control_extent_approx": 1,
+  "low_confidence": 1,
   "extent_features": 1,
   "group_features": 0,
   "cities": 4
@@ -324,7 +345,9 @@
   ],
   "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
   "badge_filter": [
+   "APPROXIMATE",
    "AR-REVIEW",
+   "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
    "RUIN-UNDATED"

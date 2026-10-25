@@ -12,9 +12,12 @@
      "feature_index": 0,
      "id": null,
      "label_en": "Derg Ethiopia (including Eritrea)",
-     "symbol_class": "control_extent",
+     "symbol_class": "control_extent_approx",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1974,
      "end": 1991,
      "source_ids": [
@@ -26,9 +29,12 @@
      "feature_index": 1,
      "id": null,
      "label_en": "Transitional Government of Ethiopia (Eritrea de jure included until 1993)",
-     "symbol_class": "control_extent",
+     "symbol_class": "control_extent_approx",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1991,
      "end": 1993,
      "source_ids": [
@@ -85,8 +91,16 @@
    ],
    "borders_legend": [
     {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
      "badge": "CONTESTED",
      "legend_en": "Contested (amber point, never a polygon)"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
     }
    ]
   },
@@ -1750,6 +1764,7 @@
   "city_town",
   "contested_point",
   "control_extent",
+  "control_extent_approx",
   "economy_unknown",
   "flag",
   "list_only_text"
@@ -1759,6 +1774,7 @@
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "RUIN-UNDATED"
  ],
@@ -1771,7 +1787,8 @@
   "city_religious": 5,
   "city_town": 7,
   "contested_point": 1,
-  "control_extent": 3,
+  "control_extent": 1,
+  "control_extent_approx": 2,
   "economy_unknown": 1,
   "flag": 1,
   "list_only_text": 1,
@@ -1827,6 +1844,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "RUIN-UNDATED"
   ],

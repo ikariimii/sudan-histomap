@@ -14,14 +14,18 @@
      "label_en": "Meroitic Kush after the Treaty of Samos: Hiera Sycaminos to Naga – strip width along the Nile is a display choice, not a sourced boundary",
      "symbol_class": "control_extent_approx",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": -20,
      "end": 350,
      "source_ids": [
       "GHA2",
       "NAGA_PROJ",
       "NATURAL_EARTH"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 1,
@@ -29,12 +33,16 @@
      "label_en": "Philae (reference marker)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": -270,
      "end": -20,
      "source_ids": [
       "GHA2"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 2,
@@ -42,12 +50,16 @@
      "label_en": "Dakka (reference marker)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": -270,
      "end": -20,
      "source_ids": [
       "GHA2"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 3,
@@ -55,12 +67,16 @@
      "label_en": "Sennar",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": -270,
      "end": -20,
      "source_ids": [
       "GHA2"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 4,
@@ -68,15 +84,32 @@
      "label_en": "Jebel Moya (reference marker)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": -270,
      "end": -20,
      "source_ids": [
       "GHA2"
-     ]
+     ],
+     "low_confidence_overlay": true
     }
    ],
-   "borders_legend": []
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
+    }
+   ]
   },
   "groups": {
    "file": null,
@@ -705,13 +738,15 @@
   "city_religious",
   "city_town",
   "control_extent_approx",
-  "extent_label_point"
+  "extent_label_point",
+  "low_confidence"
  ],
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
   "RUIN-UNDATED"
@@ -726,6 +761,7 @@
   "city_town": 1,
   "control_extent_approx": 1,
   "extent_label_point": 4,
+  "low_confidence": 5,
   "extent_features": 5,
   "group_features": 0,
   "cities": 17
@@ -818,6 +854,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
    "RUIN-UNDATED"

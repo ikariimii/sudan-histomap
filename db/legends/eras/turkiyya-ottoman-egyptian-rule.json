@@ -14,14 +14,18 @@
      "label_en": "Turco-Egyptian Sudan without Darfur (Keira-held until 1874, GHA6_CH14) – shape uses modern (2020) state boundaries for Darfur, not historical ones",
      "symbol_class": "control_extent_approx",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1821,
      "end": 1874,
      "source_ids": [
       "OHM_2690845",
       "GHA6_CH14",
       "EXT_HDX_CODAB"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 1,
@@ -29,14 +33,18 @@
      "label_en": "Turco-Egyptian Sudan with Darfur, 1874 onward – shape uses modern (2020) state boundaries for Darfur, not historical ones",
      "symbol_class": "control_extent_approx",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1874,
      "end": 1885,
      "source_ids": [
       "OHM_2690845",
       "GHA6_CH14",
       "EXT_HDX_CODAB"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 2,
@@ -44,15 +52,32 @@
      "label_en": "Selima Oasis (route point, not a border)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1821,
      "end": 1885,
      "source_ids": [
       "HD2011"
-     ]
+     ],
+     "low_confidence_overlay": true
     }
    ],
-   "borders_legend": []
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
+    }
+   ]
   },
   "groups": {
    "file": "db/group_layers/turkiyya-ottoman-egyptian-rule.geojson",
@@ -1445,6 +1470,7 @@
   "city_town",
   "control_extent_approx",
   "extent_label_point",
+  "low_confidence",
   "relation_arrow_alliance",
   "relation_arrow_conflict"
  ],
@@ -1453,6 +1479,7 @@
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "RUIN-UNDATED",
@@ -1468,6 +1495,7 @@
   "city_town": 4,
   "control_extent_approx": 2,
   "extent_label_point": 1,
+  "low_confidence": 3,
   "relation_arrow_alliance": 1,
   "relation_arrow_conflict": 3,
   "extent_features": 3,
@@ -1525,6 +1553,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "RUIN-UNDATED",

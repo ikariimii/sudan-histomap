@@ -14,16 +14,33 @@
      "label_en": "Mahdist state core: Kordofan, Darfur and Omdurman/Khartoum – shape uses modern (2020) state boundaries, not historical ones",
      "symbol_class": "control_extent_approx",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1885,
      "end": 1899,
      "source_ids": [
       "GHA7_CH4",
       "EXT_HDX_CODAB"
-     ]
+     ],
+     "low_confidence_overlay": true
     }
    ],
-   "borders_legend": []
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
+    }
+   ]
   },
   "groups": {
    "file": "db/group_layers/mahdist-state-mahdiyya.geojson",
@@ -1524,13 +1541,15 @@
   "city_religious",
   "city_town",
   "control_extent_approx",
-  "list_only_text"
+  "list_only_text",
+  "low_confidence"
  ],
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "RUIN-UNDATED"
@@ -1545,6 +1564,7 @@
   "city_town": 4,
   "control_extent_approx": 1,
   "list_only_text": 1,
+  "low_confidence": 1,
   "extent_features": 1,
   "group_features": 1,
   "cities": 44
@@ -1599,6 +1619,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "RUIN-UNDATED"

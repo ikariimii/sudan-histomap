@@ -14,7 +14,10 @@
      "label_en": "Sennar (capital)",
      "symbol_class": "extent_label_point",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1504,
      "end": 1821,
      "source_ids": [
@@ -28,12 +31,16 @@
      "label_en": "Fazughli (probable southern limit, early 17th c.)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1600,
      "end": 1650,
      "source_ids": [
       "GHA5_CH7"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 2,
@@ -41,13 +48,17 @@
      "label_en": "Old Dongola (northern reach)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1523,
      "end": 1821,
      "source_ids": [
       "ZH_EMB_HIST2020",
       "HD2011"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 3,
@@ -55,13 +66,17 @@
      "label_en": "Third Cataract (northern limit)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1504,
      "end": 1821,
      "source_ids": [
       "HD2011",
       "ZH_EMB_HIST2020"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 4,
@@ -69,12 +84,16 @@
      "label_en": "Kordofan (contested with Darfur)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1504,
      "end": 1821,
      "source_ids": [
       "HD2011"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 5,
@@ -102,6 +121,14 @@
     {
      "badge": "APPROXIMATE",
      "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -1472,6 +1499,7 @@
   "city_town",
   "extent_label_point",
   "list_only_text",
+  "low_confidence",
   "relation_arrow_conflict",
   "relation_arrow_subjugation",
   "zone_core"
@@ -1481,6 +1509,7 @@
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
   "RUIN-UNDATED",
@@ -1496,6 +1525,7 @@
   "city_town": 4,
   "extent_label_point": 5,
   "list_only_text": 4,
+  "low_confidence": 4,
   "relation_arrow_conflict": 3,
   "relation_arrow_subjugation": 2,
   "zone_core": 1,
@@ -1554,6 +1584,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
    "RUIN-UNDATED",

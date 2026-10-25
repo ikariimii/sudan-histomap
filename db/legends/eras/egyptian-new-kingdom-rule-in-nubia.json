@@ -14,7 +14,10 @@
      "label_en": "Kurgus frontier",
      "symbol_class": "extent_label_point",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": -1500,
      "end": -1070,
      "source_ids": [
@@ -27,7 +30,10 @@
      "label_en": "Napata / Fourth Cataract",
      "symbol_class": "extent_label_point",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": -1500,
      "end": -1070,
      "source_ids": [
@@ -41,13 +47,17 @@
      "label_en": "Soleb (temple)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": -1500,
      "end": -1070,
      "source_ids": [
       "WP:Viceroy_of_Kush",
       "GHA2"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 3,
@@ -97,8 +107,16 @@
      "legend_en": "Approximate"
     },
     {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
      "badge": "SINGLE-SOURCE",
      "legend_en": "Single source"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -376,6 +394,7 @@
   "city_other",
   "city_religious",
   "extent_label_point",
+  "low_confidence",
   "zone_claimed",
   "zone_core"
  ],
@@ -383,6 +402,7 @@
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
+  "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
   "RUIN-UNDATED",
@@ -393,6 +413,7 @@
   "city_other": 3,
   "city_religious": 1,
   "extent_label_point": 3,
+  "low_confidence": 1,
   "zone_claimed": 1,
   "zone_core": 1,
   "extent_features": 5,
@@ -451,6 +472,7 @@
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
+   "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
    "RUIN-UNDATED",

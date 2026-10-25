@@ -12,9 +12,12 @@
      "feature_index": 0,
      "id": null,
      "label_en": "Italian colony of Eritrea",
-     "symbol_class": "control_extent",
+     "symbol_class": "control_extent_approx",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1890,
      "end": 1936,
      "source_ids": [
@@ -28,21 +31,28 @@
      "label_en": "Eritrea within Italian East Africa (1936–1941) – not drawn",
      "symbol_class": "list_only_text",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1936,
      "end": 1941,
      "source_ids": [
       "WP:Eritrea",
       "OHM_2690839"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 2,
      "id": null,
      "label_en": "Eritrea under British administration",
-     "symbol_class": "control_extent",
+     "symbol_class": "control_extent_approx",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1941,
      "end": 1952,
      "source_ids": [
@@ -67,9 +77,12 @@
      "feature_index": 4,
      "id": null,
      "label_en": "Eritrea annexed as a province of Ethiopia (Ethiopia shown)",
-     "symbol_class": "control_extent",
+     "symbol_class": "control_extent_approx",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1962,
      "end": 1991,
      "source_ids": [
@@ -81,9 +94,12 @@
      "feature_index": 5,
      "id": null,
      "label_en": "Eritrea, de jure in Ethiopia until 1993 (Ethiopia shown; EPLF de facto control not traced)",
-     "symbol_class": "control_extent",
+     "symbol_class": "control_extent_approx",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1991,
      "end": 1993,
      "source_ids": [
@@ -125,8 +141,20 @@
    ],
    "borders_legend": [
     {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
      "badge": "CONTESTED",
      "legend_en": "Contested (amber point, never a polygon)"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -1811,14 +1839,17 @@
   "city_trade",
   "contested_point",
   "control_extent",
+  "control_extent_approx",
   "flag",
-  "list_only_text"
+  "list_only_text",
+  "low_confidence"
  ],
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "RUIN-UNDATED"
  ],
@@ -1832,9 +1863,11 @@
   "city_town": 7,
   "city_trade": 1,
   "contested_point": 1,
-  "control_extent": 6,
+  "control_extent": 2,
+  "control_extent_approx": 4,
   "flag": 1,
   "list_only_text": 1,
+  "low_confidence": 1,
   "extent_features": 8,
   "group_features": 0,
   "cities": 50
@@ -1894,6 +1927,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "RUIN-UNDATED"
   ],

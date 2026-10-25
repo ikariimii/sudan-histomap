@@ -14,14 +14,18 @@
      "label_en": "Soba (capital)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 500,
      "end": 1504,
      "source_ids": [
       "GHA2_CH12",
       "ZH_EMB_HIST2020",
       "WP:Alodia"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 1,
@@ -71,6 +75,10 @@
     {
      "badge": "APPROXIMATE",
      "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
     },
     {
      "badge": "EDITORIAL",
@@ -1224,6 +1232,7 @@
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "EDITORIAL",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
@@ -1240,7 +1249,7 @@
   "city_religious": 6,
   "city_town": 2,
   "extent_label_point": 1,
-  "low_confidence": 2,
+  "low_confidence": 3,
   "relation_arrow_alliance": 1,
   "zone_claimed": 1,
   "zone_core": 1,
@@ -1298,6 +1307,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "EDITORIAL",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",

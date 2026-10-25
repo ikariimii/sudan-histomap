@@ -14,13 +14,17 @@
      "label_en": "Ubangi-Shari 1903–1906 – not drawn",
      "symbol_class": "list_only_text",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1903,
      "end": 1906,
      "source_ids": [
       "OHM_2839932",
       "IBS16_1962"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 1,
@@ -76,14 +80,18 @@
      "label_en": "Ubangi-Shari within AEF – no Ubangi-Shari-only shape for 1910–12 and 1916–58",
      "symbol_class": "list_only_text",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1910,
      "end": 1958,
      "source_ids": [
       "IBS16_1962",
       "OHM_2840001",
       "OHM_2839997"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 5,
@@ -132,6 +140,14 @@
     {
      "badge": "APPROXIMATE",
      "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -1808,13 +1824,15 @@
   "control_extent",
   "control_extent_approx",
   "flag",
-  "list_only_text"
+  "list_only_text",
+  "low_confidence"
  ],
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "RUIN-UNDATED"
  ],
@@ -1831,6 +1849,7 @@
   "control_extent_approx": 3,
   "flag": 1,
   "list_only_text": 2,
+  "low_confidence": 2,
   "extent_features": 8,
   "group_features": 0,
   "cities": 50
@@ -1881,6 +1900,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "RUIN-UNDATED"
   ],

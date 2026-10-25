@@ -14,7 +14,10 @@
      "label_en": "Kush, 25th Dynasty maximum: Delta to the confluence of the Niles – strip width along the Nile is a display choice, not a sourced boundary",
      "symbol_class": "control_extent_approx",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": -713,
      "end": -656,
      "source_ids": [
@@ -22,7 +25,8 @@
       "GHA2",
       "ZH_EMB_HIST2020",
       "NATURAL_EARTH"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 1,
@@ -30,13 +34,17 @@
      "label_en": "Kush after Psamtik II: south of the Second Cataract – strip width along the Nile is a display choice, not a sourced boundary",
      "symbol_class": "control_extent_approx",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": -593,
      "end": -270,
      "source_ids": [
       "KERMA_MISSION",
       "NATURAL_EARTH"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 2,
@@ -44,15 +52,32 @@
      "label_en": "Elephantine (find-spot, not a border)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": -800,
      "end": -713,
      "source_ids": [
       "GHA2"
-     ]
+     ],
+     "low_confidence_overlay": true
     }
    ],
-   "borders_legend": []
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
+    }
+   ]
   },
   "groups": {
    "file": null,
@@ -583,12 +608,14 @@
   "city_religious",
   "city_town",
   "control_extent_approx",
-  "extent_label_point"
+  "extent_label_point",
+  "low_confidence"
  ],
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
+  "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
   "RUIN-UNDATED"
@@ -601,6 +628,7 @@
   "city_town": 1,
   "control_extent_approx": 2,
   "extent_label_point": 1,
+  "low_confidence": 3,
   "extent_features": 3,
   "group_features": 0,
   "cities": 14
@@ -680,6 +708,7 @@
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
+   "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
    "RUIN-UNDATED"

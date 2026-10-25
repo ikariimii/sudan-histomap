@@ -12,9 +12,12 @@
      "feature_index": 0,
      "id": null,
      "label_en": "Sudan",
-     "symbol_class": "control_extent",
+     "symbol_class": "control_extent_approx",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1989,
      "end": 2011,
      "source_ids": [
@@ -25,9 +28,12 @@
      "feature_index": 1,
      "id": null,
      "label_en": "Sudan",
-     "symbol_class": "control_extent",
+     "symbol_class": "control_extent_approx",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 2011,
      "end": 2019,
      "source_ids": [
@@ -93,9 +99,12 @@
      "feature_index": 5,
      "id": null,
      "label_en": "Halaib (disputed; Egyptian control, effective, from 1995)",
-     "symbol_class": "control_extent",
+     "symbol_class": "control_extent_approx",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1995,
      "end": 2019,
      "source_ids": [
@@ -165,6 +174,10 @@
     {
      "badge": "CONTESTED",
      "legend_en": "Contested (amber point, never a polygon)"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
     }
    ]
   },
@@ -1839,6 +1852,7 @@
   "contested_boundary_line",
   "contested_point",
   "control_extent",
+  "control_extent_approx",
   "economy_unknown",
   "flag",
   "list_only_text"
@@ -1848,6 +1862,7 @@
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "RUIN-UNDATED"
  ],
@@ -1861,7 +1876,8 @@
   "city_town": 7,
   "contested_boundary_line": 3,
   "contested_point": 2,
-  "control_extent": 4,
+  "control_extent": 1,
+  "control_extent_approx": 3,
   "economy_unknown": 1,
   "flag": 1,
   "list_only_text": 1,
@@ -1920,6 +1936,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "RUIN-UNDATED"
   ],

@@ -14,13 +14,17 @@
      "label_en": "Tripoli (Ottoman seat, reference marker)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1551,
      "end": 1911,
      "source_ids": [
       "WP:History_of_Libya",
       "LOC_LBY1987_SANUSI"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 1,
@@ -28,13 +32,17 @@
      "label_en": "Tripoli (Italian seat, reference marker)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1911,
      "end": 1934,
      "source_ids": [
       "LOC_LBY1987_ITALOSANUSI",
       "LOC_LBY1987_FOURTHSHORE"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 2,
@@ -116,13 +124,17 @@
      "label_en": "Libya 2014– : divided control (GNA/GNU vs LNA) – not drawn",
      "symbol_class": "list_only_text",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 2014,
      "end": 2026,
      "source_ids": [
       "WP:History_of_Libya",
       "OHM_2888602"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 8,
@@ -149,6 +161,14 @@
     {
      "badge": "CONTESTED",
      "legend_en": "Contested (amber point, never a polygon)"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -1997,13 +2017,15 @@
   "control_extent_approx",
   "extent_label_point",
   "flag",
-  "list_only_text"
+  "list_only_text",
+  "low_confidence"
  ],
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
@@ -2024,6 +2046,7 @@
   "extent_label_point": 2,
   "flag": 1,
   "list_only_text": 1,
+  "low_confidence": 3,
   "extent_features": 9,
   "group_features": 0,
   "cities": 54
@@ -2083,6 +2106,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",

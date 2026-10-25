@@ -27,13 +27,17 @@
      "label_en": "Hiera Sycaminos, end of the Dodecaschoenus (reference marker)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": -305,
      "end": -30,
      "source_ids": [
       "GHA2_CH7",
       "PLEIADES_795815"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 2,
@@ -645,7 +649,7 @@
   "city_religious": 4,
   "city_town": 1,
   "extent_label_point": 2,
-  "low_confidence": 1,
+  "low_confidence": 2,
   "zone_contested": 1,
   "zone_core": 1,
   "extent_features": 4,

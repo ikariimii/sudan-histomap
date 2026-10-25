@@ -60,9 +60,12 @@
      "feature_index": 3,
      "id": null,
      "label_en": "Halaib (disputed; Egyptian control, effective, from 1995)",
-     "symbol_class": "control_extent",
+     "symbol_class": "control_extent_approx",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 2023,
      "end": 2026,
      "source_ids": [
@@ -80,9 +83,12 @@
      "feature_index": 4,
      "id": null,
      "label_en": "Bir Tawil (claimed by neither state)",
-     "symbol_class": "control_extent",
+     "symbol_class": "control_extent_approx",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 2023,
      "end": 2026,
      "source_ids": [
@@ -206,6 +212,10 @@
     {
      "badge": "CONTESTED",
      "legend_en": "Contested (amber point, never a polygon)"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
     },
     {
      "badge": "REPORTED",
@@ -1881,6 +1891,7 @@
   "contested_boundary_line",
   "contested_point",
   "control_extent",
+  "control_extent_approx",
   "economy_unknown",
   "flag",
   "list_only_text",
@@ -1891,6 +1902,7 @@
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "REPORTED",
   "RUIN-UNDATED"
@@ -1905,7 +1917,8 @@
   "city_town": 7,
   "contested_boundary_line": 3,
   "contested_point": 2,
-  "control_extent": 3,
+  "control_extent": 1,
+  "control_extent_approx": 2,
   "economy_unknown": 1,
   "flag": 1,
   "list_only_text": 2,
@@ -1972,6 +1985,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "REPORTED",
    "RUIN-UNDATED"

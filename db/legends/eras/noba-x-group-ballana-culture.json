@@ -14,14 +14,18 @@
      "label_en": "Ballana (royal tumuli)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 350,
      "end": 550,
      "source_ids": [
       "PL:795783",
       "WP:Ballana_culture",
       "GHA2_CH12"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 1,
@@ -29,15 +33,32 @@
      "label_en": "Qustul (royal tumuli)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 350,
      "end": 550,
      "source_ids": [
       "WP:Ballana_culture"
-     ]
+     ],
+     "low_confidence_overlay": true
     }
    ],
-   "borders_legend": []
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
+    }
+   ]
   },
   "groups": {
    "file": null,
@@ -590,13 +611,15 @@
   "city_political_centre",
   "city_port",
   "city_religious",
-  "extent_label_point"
+  "extent_label_point",
+  "low_confidence"
  ],
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
@@ -610,6 +633,7 @@
   "city_port": 1,
   "city_religious": 2,
   "extent_label_point": 2,
+  "low_confidence": 2,
   "extent_features": 2,
   "group_features": 0,
   "cities": 15
@@ -656,6 +680,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",

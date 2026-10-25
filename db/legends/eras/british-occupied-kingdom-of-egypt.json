@@ -12,9 +12,12 @@
      "feature_index": 0,
      "id": null,
      "label_en": "Khedivate of Egypt (British occupation)",
-     "symbol_class": "control_extent",
+     "symbol_class": "control_extent_approx",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1882,
      "end": 1899,
      "source_ids": [
@@ -27,9 +30,12 @@
      "feature_index": 1,
      "id": null,
      "label_en": "Khedivate of Egypt",
-     "symbol_class": "control_extent",
+     "symbol_class": "control_extent_approx",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1899,
      "end": 1902,
      "source_ids": [
@@ -42,9 +48,12 @@
      "feature_index": 2,
      "id": null,
      "label_en": "Khedivate of Egypt",
-     "symbol_class": "control_extent",
+     "symbol_class": "control_extent_approx",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1902,
      "end": 1914,
      "source_ids": [
@@ -57,9 +66,12 @@
      "feature_index": 3,
      "id": null,
      "label_en": "Sultanate of Egypt (British protectorate)",
-     "symbol_class": "control_extent",
+     "symbol_class": "control_extent_approx",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1914,
      "end": 1922,
      "source_ids": [
@@ -72,9 +84,12 @@
      "feature_index": 4,
      "id": null,
      "label_en": "Kingdom of Egypt",
-     "symbol_class": "control_extent",
+     "symbol_class": "control_extent_approx",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1922,
      "end": 1953,
      "source_ids": [
@@ -84,7 +99,16 @@
      ]
     }
    ],
-   "borders_legend": []
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    }
+   ]
   },
   "groups": {
    "file": null,
@@ -1737,7 +1761,7 @@
   "city_religious",
   "city_town",
   "city_trade",
-  "control_extent",
+  "control_extent_approx",
   "flag"
  ],
  "badges_present": [
@@ -1745,6 +1769,7 @@
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "RUIN-UNDATED"
@@ -1758,7 +1783,7 @@
   "city_religious": 5,
   "city_town": 6,
   "city_trade": 1,
-  "control_extent": 5,
+  "control_extent_approx": 5,
   "flag": 1,
   "extent_features": 5,
   "group_features": 0,
@@ -1807,6 +1832,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "RUIN-UNDATED"

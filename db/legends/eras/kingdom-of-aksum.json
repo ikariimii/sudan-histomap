@@ -14,7 +14,10 @@
      "label_en": "Kingdom of Aksum",
      "symbol_class": "control_extent_approx",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 100,
      "end": 525,
      "source_ids": [
@@ -24,15 +27,19 @@
       "GHA2",
       "WP_ABRAHA",
       "WP_AKSUM"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 1,
      "id": null,
      "label_en": "Aksum with Himyar (vassal)",
-     "symbol_class": "control_extent",
+     "symbol_class": "control_extent_approx",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 525,
      "end": 535,
      "source_ids": [
@@ -48,9 +55,12 @@
      "feature_index": 2,
      "id": null,
      "label_en": "Aksum with Himyar (tributary, contested)",
-     "symbol_class": "control_extent",
+     "symbol_class": "control_extent_approx",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 535,
      "end": 570,
      "source_ids": [
@@ -68,7 +78,10 @@
      "label_en": "Kingdom of Aksum",
      "symbol_class": "control_extent_approx",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 570,
      "end": 632,
      "source_ids": [
@@ -78,7 +91,8 @@
       "GHA2",
       "WP_ABRAHA",
       "WP_AKSUM"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 4,
@@ -86,17 +100,34 @@
      "label_en": "Kingdom of Aksum (after 632)",
      "symbol_class": "control_extent_approx",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 632,
      "end": 940,
      "source_ids": [
       "OHM_2860225",
       "GHA2_CH12",
       "WP:Kingdom_of_Aksum"
-     ]
+     ],
+     "low_confidence_overlay": true
     }
    ],
-   "borders_legend": []
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
+    }
+   ]
   },
   "groups": {
    "file": null,
@@ -969,14 +1000,15 @@
   "city_political_centre",
   "city_port",
   "city_religious",
-  "control_extent",
-  "control_extent_approx"
+  "control_extent_approx",
+  "low_confidence"
  ],
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
@@ -989,8 +1021,8 @@
   "city_political_centre": 1,
   "city_port": 2,
   "city_religious": 4,
-  "control_extent": 2,
-  "control_extent_approx": 3,
+  "control_extent_approx": 5,
+  "low_confidence": 3,
   "extent_features": 5,
   "group_features": 0,
   "cities": 23
@@ -1039,6 +1071,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",

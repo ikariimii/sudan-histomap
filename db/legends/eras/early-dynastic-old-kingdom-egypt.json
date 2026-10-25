@@ -14,7 +14,10 @@
      "label_en": "Elephantine (southern nome seat, reference marker)",
      "symbol_class": "extent_label_point",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": -3100,
      "end": -2181,
      "source_ids": [
@@ -27,16 +30,33 @@
      "label_en": "Buhen (Old Kingdom outpost, reference marker)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": -2613,
      "end": -2345,
      "source_ids": [
       "GHA2_CH9",
       "GHA2_CH8"
-     ]
+     ],
+     "low_confidence_overlay": true
     }
    ],
-   "borders_legend": []
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
+    }
+   ]
   },
   "groups": {
    "file": null,
@@ -139,15 +159,19 @@
  },
  "symbol_classes_present": [
   "city_garrison",
-  "extent_label_point"
+  "extent_label_point",
+  "low_confidence"
  ],
  "badges_present": [
+  "APPROXIMATE",
   "AR-REVIEW",
+  "DERIVED",
   "FIRST-ATTESTED"
  ],
  "counts": {
   "city_garrison": 1,
   "extent_label_point": 2,
+  "low_confidence": 1,
   "extent_features": 2,
   "group_features": 0,
   "cities": 1
@@ -194,7 +218,9 @@
   ],
   "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
   "badge_filter": [
+   "APPROXIMATE",
    "AR-REVIEW",
+   "DERIVED",
    "FIRST-ATTESTED"
   ],
   "what_changed": null

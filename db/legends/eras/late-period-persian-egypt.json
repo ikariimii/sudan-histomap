@@ -14,7 +14,10 @@
      "label_en": "Elephantine, \"frontier between Egypt and Ethiopia\" (reference marker)",
      "symbol_class": "extent_label_point",
      "certainty": "medium",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": -525,
      "end": -332,
      "source_ids": [
@@ -24,7 +27,16 @@
      ]
     }
    ],
-   "borders_legend": []
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    }
+   ]
   },
   "groups": {
    "file": null,
@@ -335,6 +347,7 @@
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
+  "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
   "RUIN-UNDATED"
@@ -392,6 +405,7 @@
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
+   "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
    "RUIN-UNDATED"

@@ -14,13 +14,17 @@
      "label_en": "Kordofan (region)",
      "symbol_class": "extent_label_point",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1680,
      "end": 1785,
      "source_ids": [
       "OFAHEY_SPAULDING1972",
       "OFAHEY2008"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 1,
@@ -48,6 +52,10 @@
     {
      "badge": "APPROXIMATE",
      "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
     },
     {
      "badge": "EDITORIAL",
@@ -1069,6 +1077,7 @@
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "EDITORIAL",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
@@ -1083,7 +1092,7 @@
   "city_religious": 5,
   "city_town": 3,
   "extent_label_point": 1,
-  "low_confidence": 1,
+  "low_confidence": 2,
   "zone_influence": 1,
   "extent_features": 2,
   "group_features": 0,
@@ -1130,6 +1139,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "EDITORIAL",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",

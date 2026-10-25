@@ -14,7 +14,10 @@
      "label_en": "Eyalet of Egypt",
      "symbol_class": "control_extent_approx",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1517,
      "end": 1830,
      "source_ids": [
@@ -22,7 +25,8 @@
       "GHAV",
       "GHA6_CH14",
       "WP:Muhammad_Ali_dynasty"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 1,
@@ -30,7 +34,10 @@
      "label_en": "Eyalet of Egypt (with the Levant, 1830–1840)",
      "symbol_class": "control_extent_approx",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1830,
      "end": 1840,
      "source_ids": [
@@ -38,7 +45,8 @@
       "GHAV",
       "GHA6_CH14",
       "WP:Muhammad_Ali_dynasty"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 2,
@@ -46,7 +54,10 @@
      "label_en": "Eyalet of Egypt (1840–1867)",
      "symbol_class": "control_extent_approx",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1840,
      "end": 1867,
      "source_ids": [
@@ -54,7 +65,8 @@
       "GHAV",
       "GHA6_CH14",
       "WP:Muhammad_Ali_dynasty"
-     ]
+     ],
+     "low_confidence_overlay": true
     },
     {
      "feature_index": 3,
@@ -62,7 +74,10 @@
      "label_en": "Khedivate of Egypt",
      "symbol_class": "control_extent_approx",
      "certainty": "low",
-     "badges": [],
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
      "start": 1867,
      "end": 1882,
      "source_ids": [
@@ -70,10 +85,24 @@
       "GHAV",
       "GHA6_CH14",
       "WP:Muhammad_Ali_dynasty"
-     ]
+     ],
+     "low_confidence_overlay": true
     }
    ],
-   "borders_legend": []
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "LOW-CONFIDENCE-HATCH",
+     "legend_en": "Hatched: low confidence (< 0.5)"
+    }
+   ]
   },
   "groups": {
    "file": null,
@@ -1460,13 +1489,15 @@
   "city_port",
   "city_religious",
   "city_town",
-  "control_extent_approx"
+  "control_extent_approx",
+  "low_confidence"
  ],
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
@@ -1481,6 +1512,7 @@
   "city_religious": 5,
   "city_town": 4,
   "control_extent_approx": 4,
+  "low_confidence": 4,
   "extent_features": 4,
   "group_features": 0,
   "cities": 41
@@ -1530,6 +1562,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
