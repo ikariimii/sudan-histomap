@@ -44,6 +44,7 @@ def walk(o, ctx, rel):
 files = era_files + sorted(glob.glob(os.path.join(ROOT,"db/**/*.json"), recursive=True) + glob.glob(os.path.join(ROOT,"db/**/*.geojson"), recursive=True))
 for f in files:
     b = os.path.basename(f)
+    if "/db/border_drafts/" in f.replace(os.sep,"/"): continue  # unpublished drafts
     if b == OUT or b in SKIP or b.startswith(SKIP_PREFIX): continue
     d = load(f)
     if d is None: continue
@@ -54,7 +55,7 @@ for f in files:
 per = {e: {"counts": counts[e], "total": sum(counts[e].values()), "files": sorted(srcs[e])} for e in sorted(eras)}
 tot = {b: sum(counts[e][b] for e in eras) for b in BADGES}
 out = {"meta": {"generated": datetime.date.today().isoformat(), "generator": "db/build_badge_counts.py",
-  "method": "Read-only recursive scan of data/eras/*.json (excluding all.json) and db/**/*.json|*.geojson (excluding lens_* translations and this output). A string counts as one badge if it equals or begins with a badge name (e.g. 'SINGLE-SOURCE: ...' or an item in a badges list). Each badge is attributed to an era when it sits in data/eras/<id>.json, in a file whose name is an era id, under a dict key equal to an era id, or inside an object whose era/era_id/era_ids/eras/period_id field names an era. Badges with no era link are not counted.",
+  "method": "Read-only recursive scan of data/eras/*.json (excluding all.json) and db/**/*.json|*.geojson (excluding lens_* translations, db/border_drafts/ (unpublished drafts; published data only) and this output). A string counts as one badge if it equals or begins with a badge name (e.g. 'SINGLE-SOURCE: ...' or an item in a badges list). Each badge is attributed to an era when it sits in data/eras/<id>.json, in a file whose name is an era id, under a dict key equal to an era id, or inside an object whose era/era_id/era_ids/eras/period_id field names an era. Badges with no era link are not counted.",
   "badges": BADGES, "era_count": len(eras), "files_scanned": len(files)},
   "totals": tot, "grand_total": sum(tot.values()),
   "eras_with_zero_badges": [e for e in per if per[e]["total"] == 0], "eras": per}
