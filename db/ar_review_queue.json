@@ -2697,6 +2697,71 @@
       "action": "Native reviewer: bring the Arabic in line with the revised English.",
       "origin_commit": "0622c04 resolutions",
       "added": "2026-10-25"
+    },
+    {
+      "era_id": "anuak-anywaa-communities",
+      "file": "data/eras/anuak-anywaa-communities.json",
+      "field_ar": "events.ar",
+      "arabic_sentence": "شعب نيلي يتحدث لغة من مجموعة الشلك (اللوو) [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "events.en",
+      "revised_english": "Shilluk-speaking (Luo) Nilotic people [NO-SOURCE]",
+      "reason": "EP1940 cite removed from English event; Arabic cite token removed only.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English.",
+      "origin_commit": "EP1940 removal pass 2",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "anuak-anywaa-communities",
+      "file": "data/eras/anuak-anywaa-communities.json",
+      "field_ar": "events.ar",
+      "arabic_sentence": "دُرسوا في كتاب إيفانز-بريتشارد «النظام السياسي للأنواك» (1940) [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "events.en",
+      "revised_english": "Anuak country on the Sobat and Baro described in Gleichen's 1905 compendium (GLEICHEN1905_V1 pp.132, 134)",
+      "reason": "EP1940 cite removed from English event; Arabic cite token removed only.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English.",
+      "origin_commit": "EP1940 removal pass 2",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "anuak-anywaa-communities",
+      "file": "data/eras/anuak-anywaa-communities.json",
+      "field_ar": "geopolitics_ar",
+      "arabic_sentence": "يصنّف إيفانز-بريتشارد الأنواك ضمن النيليين الناطقين بلغات قريبة من الشلك (اللوو)، ويقول إنهم يشغلون أرضاً متصلة. ومن جهة النوير، كان نهر البيبور يفصل نوير اللو عن الأنواك، وكان الأنواك والبير ينازعون اللو في استخدام الجيني والبيبور، وكان النوير قد أخلوا جزءاً من «أرض الأنواك»، ويعود ذلك جزئياً إلى ذبابة تسي تسي وخسارة الماشية. وكانت جيوب صغيرة من الأنواك على السوباط «مغلوبة لكنها غير مندمجة» في مجتمع النوير. هذه رواية من الخارج (تركّز على النوير). ولم تُقرأ دراسة إيفانز-بريتشارد عن الأنواك. [WORKING TRANSLATION – needs native Arabic review] ووجد تقرير طرق حكومي عام 1905 على نهر السوباط من الناصر أن البلاد «مأهولة بالنوير والأنواك مختلطين، والغلبة للنوير الذين يتركون الأنواك يعيشون على مضض» (غليشن 1905، المجلد الثاني، الطريق 138). [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "geopolitics_en",
+      "revised_english": "Gleichen's 1905 compendium places a small tract of Anuak country on the Sobat 'sandwiched in between the Dinkas in the west and the large and powerful Nuer tribe to the east', ending at the village of Wegin, and the eastern Anuak on the Baro east of 34° 10' up to the Baro gorge (GLEICHEN1905_V1 pp.132, 134). It found the tribes there 'considerably intermingled', with Anuaks living among the Nuers 'even as far east as Nasser' and the men 'more or less slaves of the Nuers' (GLEICHEN1905_V1 p.132). This is an outsider's (colonial) account. [NO-SOURCE] Earlier statements cited to Evans-Pritchard (Luo classification; a continuous territory; the Pibor separating the Lou Nuer from the Anuak; disputed use of the Geni and Pibor; Nuer evacuation of 'Anuakland'; Anuak pockets 'conquered but not absorbed') have no readable page-level source and are withdrawn. A 1905 government route report up the Sobat from Nasser likewise found the country 'populated with Nuers and Anuaks mixed, Nuers predominating and letting Anuaks live on suffrance' (Gleichen 1905, vol. II, Route 138).",
+      "reason": "EP1940 cites removed; English re-cited to GLEICHEN1905_V1 pp.132, 134 with withdrawn claims marked NO-SOURCE; Arabic cite tokens removed only.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English.",
+      "origin_commit": "EP1940 removal pass 2",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "nuer-naath-communities",
+      "file": "data/eras/nuer-naath-communities.json",
+      "field_ar": "events.ar",
+      "arabic_sentence": "يسمّون أنفسهم «ناث»؛ نحو 200,000 نسمة في ثلاثينيات القرن العشرين [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "events.en",
+      "revised_english": "Self-name Nath; c.200,000 people in the 1930s [NO-SOURCE]",
+      "reason": "EP1940 cite removed from English event; Arabic cite token removed only.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English.",
+      "origin_commit": "EP1940 removal pass 2",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "dinka-jieng-communities",
+      "file": "data/eras/dinka-jieng-communities.json",
+      "field_ar": "events.ar",
+      "arabic_sentence": "رعي الأبقار؛ قريبون ثقافياً من النوير، ويشكلون معهم فرعاً نيلياً [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "events.en",
+      "revised_english": "Cattle pastoralism; culturally close to the Nuer, together a Nilotic subdivision [NO-SOURCE]",
+      "reason": "EP1940 cite removed from English event; Arabic cite token removed only.",
+      "action": "Native reviewer: bring the Arabic in line with the revised English.",
+      "origin_commit": "EP1940 removal pass 2",
+      "added": "2026-10-25"
     }
   ]
 }

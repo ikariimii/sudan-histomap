@@ -20,7 +20,7 @@
  "totals": {
   "SINGLE-SOURCE": 251,
   "CONTESTED": 161,
-  "VERIFY": 25,
+  "VERIFY": 30,
   "REPORTED": 14,
   "MODEL": 109,
   "EDITORIAL": 67,
@@ -28,7 +28,7 @@
   "PARTIAL": 3,
   "DERIVED": 328
  },
- "grand_total": 1413,
+ "grand_total": 1418,
  "inline_totals": {
   "SINGLE-SOURCE": 22,
   "CONTESTED": 9,
@@ -46,17 +46,17 @@
   "un_aid_agency": 35,
   "intl_financial": 24,
   "government": 50,
-  "scholarly": 240,
+  "scholarly": 237,
   "wikipedia_only": 75,
   "news": 5,
   "other": 113
  },
- "source_types_grand_total": 542,
+ "source_types_grand_total": 539,
  "source_types_distinct_ids": {
   "un_aid_agency": 32,
   "intl_financial": 12,
   "government": 39,
-  "scholarly": 72,
+  "scholarly": 70,
   "wikipedia_only": 74,
   "news": 4,
   "other": 38
@@ -337,16 +337,16 @@
     "un_aid_agency": 0,
     "intl_financial": 0,
     "government": 1,
-    "scholarly": 3,
+    "scholarly": 1,
     "wikipedia_only": 0,
     "news": 0,
     "other": 3
    },
-   "source_types_total": 7,
+   "source_types_total": 5,
    "counts": {
     "SINGLE-SOURCE": 9,
     "CONTESTED": 0,
-    "VERIFY": 0,
+    "VERIFY": 3,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
@@ -354,7 +354,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 19,
+   "total": 22,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -369,6 +369,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/anuak-anywaa-communities.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/era_fill_modern4.json",
     "db/extents/anuak-anywaa-communities.geojson",
@@ -738,7 +739,7 @@
    "counts": {
     "SINGLE-SOURCE": 8,
     "CONTESTED": 0,
-    "VERIFY": 0,
+    "VERIFY": 1,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
@@ -746,7 +747,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 21,
+   "total": 22,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -761,6 +762,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/dinka-jieng-communities.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/era_fill_hist20.json",
     "db/extents/dinka-jieng-communities.geojson",
@@ -2065,16 +2067,16 @@
     "un_aid_agency": 0,
     "intl_financial": 0,
     "government": 0,
-    "scholarly": 2,
+    "scholarly": 1,
     "wikipedia_only": 0,
     "news": 0,
     "other": 2
    },
-   "source_types_total": 4,
+   "source_types_total": 3,
    "counts": {
     "SINGLE-SOURCE": 6,
     "CONTESTED": 0,
-    "VERIFY": 0,
+    "VERIFY": 1,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
@@ -2082,7 +2084,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 16,
+   "total": 17,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2097,6 +2099,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/nuer-naath-communities.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/extents/nuer-naath-communities.geojson",
     "db/extents_historic.json",

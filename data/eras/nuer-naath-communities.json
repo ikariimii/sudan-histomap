@@ -8,8 +8,8 @@
  "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. Nuer 19th-c. expansion still unsourced.",
  "events": [
   {
-   "en": "Self-name Nath; c.200,000 people in the 1930s (Evans-Pritchard)",
-   "ar": "يسمّون أنفسهم «ناث»؛ نحو 200,000 نسمة في ثلاثينيات القرن العشرين (إيفانز-بريتشارد)"
+   "en": "Self-name Nath; c.200,000 people in the 1930s [NO-SOURCE]",
+   "ar": "يسمّون أنفسهم «ناث»؛ نحو 200,000 نسمة في ثلاثينيات القرن العشرين [يحتاج تحقق]"
   },
   {
    "en": "Swamps and savannah on both sides of the Nile south of the Sobat/Bahr al-Ghazal junction and along both tributaries",
@@ -29,7 +29,6 @@
  "economy_ar": "«رعويون في المقام الأول، وإن كانوا يزرعون من الذرة الرفيعة والذرة الشامية أكثر مما يُظن»؛ ويرون الزراعة «كدّاً يفرضه عليهم فقر القطيع»، وتتقدم الرعاية لأن للماشية قيمة اجتماعية أيضاً (إيفانز-بريتشارد 1940، ص16–21؛ إثنوغرافيا الثلاثينيات).",
  "regional_power": null,
  "sources": [
-  "EP1940_NUER",
   "GHA7_CH4",
   "COW_NMC6",
   "GLEICHEN1905_V1"
@@ -99,9 +98,9 @@
   ],
   "badge": "APPROXIMATE",
   "source_ids": [
-   "EP1940_NUER"
+   "GLEICHEN1905_V1"
   ],
-  "page": "112",
-  "basis": "Pibor River (WD:Q3179125) + Bahr el Zeraf (WD:Q1112393) anchors from db/extents, padded 1.5°; EP1940_NUER p.112: \"the Pibor separates the Lou tribe from the Anuak people\"; \"the Zeraf separates the Thiang and Lak from the Dinka\" (EP1940_NUER p.112, printed page; verified in local OCR)"
+  "page": "132, 142",
+  "basis": "Pibor River (WD:Q3179125) + Bahr el Zeraf (WD:Q1112393) anchors from db/extents, padded 1.5°; GLEICHEN1905_V1 p.132: \"The Nuer territory along the Sobat and Baro rivers extends from about east 32° 33' to about 34° 10'\"; p.142: Nuers \"occupy the right bank of the Zeraf from its mouth to about opposite Shambe\". The Pibor anchor is EDITORIAL [NO-SOURCE]."
  }
 }
