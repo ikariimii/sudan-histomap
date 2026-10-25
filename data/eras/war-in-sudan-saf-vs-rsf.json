@@ -98,5 +98,43 @@
    "null_reason": "data ends 2016"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "port-sudan",
+   "role": "capital/centre (listed in era capitals)",
+   "source_id": "UNNEWS2023",
+   "page": null,
+   "first_attested": 1906,
+   "last_attested": null,
+   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+  },
+  {
+   "city_id": "khartoum",
+   "role": "capital/centre (listed in era capitals)",
+   "source_id": "UNNEWS2023",
+   "page": null,
+   "first_attested": 1899,
+   "last_attested": null,
+   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   20.091,
+   6.958,
+   40.782,
+   24.864
+  ],
+  "basis": "bounding box of features in db/extents/war-in-sudan-saf-vs-rsf.geojson and coordinates of cited key_cities, padded 1.72 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "EXT_OHM",
+   "WD:Q336494",
+   "WD:Q844262",
+   "EXT_NE_DISPUTED",
+   "UNPOE_S2025_239",
+   "PCA_ABYEI2009"
+  ]
+ }
 }

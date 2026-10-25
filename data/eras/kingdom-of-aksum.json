@@ -67,5 +67,38 @@
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "aksum",
+   "role": "capital",
+   "source_id": "GHA2_CH15",
+   "page": "389",
+   "first_attested": 100,
+   "last_attested": null
+  },
+  {
+   "city_id": "adulis",
+   "role": "port",
+   "source_id": "GHA2",
+   "page": "343",
+   "first_attested": 75,
+   "last_attested": 750
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   28.62,
+   6.657,
+   55.358,
+   22.927
+  ],
+  "basis": "bounding box of features in db/extents/kingdom-of-aksum.geojson and coordinates of cited key_cities, padded 2.23 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "OHM_2852460",
+   "OHM_2860225",
+   "WIKIDATA_CITIES"
+  ]
+ }
 }

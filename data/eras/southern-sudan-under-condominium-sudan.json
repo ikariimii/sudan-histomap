@@ -73,5 +73,32 @@
    "flag": "power_cinc_share null: a region, not a COW state, before 2011; no new editorial score added (Pass 22d)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "juba",
+   "role": "capital/centre (listed in era capitals)",
+   "source_id": "HD2011",
+   "page": null,
+   "first_attested": null,
+   "last_attested": null,
+   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   22.19,
+   2.25,
+   37.2,
+   13.487
+  ],
+  "basis": "bounding box of features in db/extents/southern-sudan-under-condominium-sudan.geojson and coordinates of cited key_cities, padded 1.25 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "EXT_OHM",
+   "WD:Q336494",
+   "WD:Q844262",
+   "WD:Q973527"
+  ]
+ }
 }

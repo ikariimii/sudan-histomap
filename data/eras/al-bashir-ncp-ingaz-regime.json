@@ -104,5 +104,33 @@
    "flag": "[PARTIAL COVERAGE] era 1989–2019; scored on 1989–2016 only; years outside are null (pre-state, pre-1816 or post-2016); COW Sudan (ccode 625) includes South Sudan before 2011",
    "cite": "COW NMC v6.0 CINC, 1989–2016"
   }
- ]
+ ],
+ "key_cities": [
+  {
+   "city_id": "khartoum",
+   "role": "capital/centre (listed in era capitals)",
+   "source_id": "ICG2019",
+   "page": null,
+   "first_attested": 1899,
+   "last_attested": null,
+   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   19.851,
+   1.537,
+   41.022,
+   25.103
+  ],
+  "basis": "bounding box of features in db/extents/al-bashir-ncp-ingaz-regime.geojson and coordinates of cited key_cities, padded 1.96 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "EXT_OHM",
+   "WD:Q336494",
+   "WD:Q844262",
+   "EXT_NE_DISPUTED",
+   "PCA_ABYEI2009"
+  ]
+ }
 }

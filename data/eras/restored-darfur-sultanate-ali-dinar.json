@@ -66,5 +66,29 @@
    "flag": "power_cinc_share null: not a COW system member; no new editorial score added (Pass 22d)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "el-fasher",
+   "role": "capital/centre (listed in era capitals)",
+   "source_id": "GHA7_CH12",
+   "page": null,
+   "first_attested": 1650,
+   "last_attested": null,
+   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   23.85,
+   12.127,
+   26.85,
+   15.127
+  ],
+  "basis": "bounding box of features in db/extents/restored-darfur-sultanate-ali-dinar.geojson and coordinates of cited key_cities, padded 1.50 deg; single point, view approximate",
+  "badge": "APPROXIMATE",
+  "source_ids": [
+   "HD2011"
+  ]
+ }
 }

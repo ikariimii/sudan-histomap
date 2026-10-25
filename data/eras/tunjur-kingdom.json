@@ -61,5 +61,29 @@
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "ain-farah",
+   "role": "religious",
+   "source_id": "GHA4_CH16",
+   "page": "420",
+   "first_attested": 1400,
+   "last_attested": null
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   23.816,
+   13.766,
+   29.688,
+   17.26
+  ],
+  "basis": "bounding box of features in db/extents/tunjur-kingdom.geojson and coordinates of cited key_cities, padded 0.50 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "OFAHEY2008",
+   "WIKIDATA_CITIES"
+  ]
+ }
 }

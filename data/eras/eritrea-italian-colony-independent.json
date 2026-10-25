@@ -76,5 +76,35 @@
    "flag": "[PARTIAL COVERAGE] era 1890–2026; scored on 1993–2016 only; years outside are null (pre-state, pre-1816 or post-2016)",
    "cite": "COW NMC v6.0 CINC, 1993–2016"
   }
- ]
+ ],
+ "key_cities": [
+  {
+   "city_id": "asmara",
+   "role": "capital",
+   "source_id": "GHA7_CH11",
+   "page": "268",
+   "first_attested": 1889,
+   "last_attested": null
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   31.5,
+   1.906,
+   49.478,
+   19.569
+  ],
+  "basis": "bounding box of features in db/extents/eritrea-italian-colony-independent.geojson and coordinates of cited key_cities, padded 1.50 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "OHM_2690839",
+   "OHM_2839746",
+   "OHM_2839747",
+   "OHM_2803440",
+   "OHM_2885943",
+   "NATURAL_EARTH",
+   "EEBC2002",
+   "WIKIDATA_CITIES"
+  ]
+ }
 }

@@ -63,5 +63,20 @@
    "flag": "power_cinc_share null: Saudi Arabia (COW 670) is outside the 8-state regional set; Ottoman Hejaz not a COW state; no new editorial score added (Pass 22d)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": null,
+ "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "focus_view": {
+  "bbox": [
+   38.326,
+   19.922,
+   41.326,
+   22.922
+  ],
+  "basis": "bounding box of features in db/extents/ottoman-hejaz-saudi-state.geojson and coordinates of cited key_cities, padded 1.50 deg; single point, view approximate",
+  "badge": "APPROXIMATE",
+  "source_ids": [
+   "GHA5_CH6"
+  ]
+ }
 }

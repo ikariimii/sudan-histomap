@@ -59,5 +59,29 @@
    "flag": "power_cinc_share null: not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated (Pass 27)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "shendi",
+   "role": "capital/centre (listed in era capitals)",
+   "source_id": "HD2011",
+   "page": null,
+   "first_attested": 1801,
+   "last_attested": null,
+   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   32.144,
+   15.808,
+   34.472,
+   18.178
+  ],
+  "basis": "bounding box of features in db/extents/ja-aliyyin-kingdom-sa-dab-funj-vassal.geojson and coordinates of cited key_cities, padded 0.50 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "HD2011"
+  ]
+ }
 }

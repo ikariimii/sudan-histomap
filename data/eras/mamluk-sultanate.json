@@ -54,5 +54,38 @@
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "aidhab",
+   "role": "port",
+   "source_id": "GHAIV",
+   "page": "375",
+   "first_attested": 1250,
+   "last_attested": 1360
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   17.595,
+   13.565,
+   43.489,
+   40.786
+  ],
+  "basis": "bounding box of features in db/extents/mamluk-sultanate.geojson and coordinates of cited key_cities, padded 2.27 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "OHM_2960099",
+   "OHM_2960095",
+   "OHM_2960098",
+   "OHM_2960097",
+   "OHM_2960086",
+   "OHM_2960093",
+   "OHM_2960087",
+   "OHM_2960096",
+   "OHM_2960092",
+   "WP_MAMLUK",
+   "WIKIDATA_CITIES"
+  ]
+ }
 }

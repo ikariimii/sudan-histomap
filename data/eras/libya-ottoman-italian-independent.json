@@ -73,5 +73,27 @@
    "flag": "[PARTIAL COVERAGE] era 1551–2026; scored on 1951–2016 only; years outside are null (pre-state, pre-1816 or post-2016)",
    "cite": "COW NMC v6.0 CINC, 1951–2016"
   }
- ]
+ ],
+ "key_cities": null,
+ "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "focus_view": {
+  "bbox": [
+   7.695,
+   17.904,
+   26.795,
+   34.799
+  ],
+  "basis": "bounding box of features in db/extents/libya-ottoman-italian-independent.geojson and coordinates of cited key_cities, padded 1.59 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "WP:History_of_Libya",
+   "LOC_LBY1987_ITALOSANUSI",
+   "OHM_2803189",
+   "OHM_2831555",
+   "OHM_2831554",
+   "OHM_2801143",
+   "NATURAL_EARTH",
+   "ICJ_LBY_TCD1994"
+  ]
+ }
 }

@@ -61,5 +61,38 @@
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "faras",
+   "role": "capital",
+   "source_id": "GHA3_CH8",
+   "page": "194",
+   "first_attested": 400,
+   "last_attested": 1056
+  },
+  {
+   "city_id": "qasr-ibrim",
+   "role": "capital/centre (listed in era capitals)",
+   "source_id": "GHA2_CH12",
+   "page": null,
+   "first_attested": -23,
+   "last_attested": 1550,
+   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   29.501,
+   18.96,
+   33.745,
+   24.828
+  ],
+  "basis": "bounding box of features in db/extents/nobadia.geojson and coordinates of cited key_cities, padded 0.50 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "DERDA_LAJTAR2019",
+   "WIKIDATA_CITIES"
+  ]
+ }
 }

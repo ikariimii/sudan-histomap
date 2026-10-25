@@ -68,5 +68,49 @@
    "flag": "power_cinc_share null: not a COW system member: Sudan (ccode 625) enters COW only in 1956; the Condominium has no state row in COW NMC v6.0; not estimated (Pass 32)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "khartoum",
+   "role": "capital",
+   "source_id": "GHAVII",
+   "page": "81",
+   "first_attested": 1899,
+   "last_attested": null
+  },
+  {
+   "city_id": "port-sudan",
+   "role": "port",
+   "source_id": "GHAVII",
+   "page": "455",
+   "first_attested": 1906,
+   "last_attested": null
+  },
+  {
+   "city_id": "atbara",
+   "role": "trade",
+   "source_id": "GHAVII",
+   "page": "455",
+   "first_attested": 1898,
+   "last_attested": null
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   16.974,
+   0.055,
+   40.962,
+   25.366
+  ],
+  "basis": "bounding box of features in db/extents/anglo-egyptian-sudan-condominium.geojson and coordinates of cited key_cities, padded 2.11 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "OHM_2831546",
+   "OHM_2926749",
+   "OHM_2961763",
+   "OHM_2961762",
+   "OHM_2803203",
+   "WIKIDATA_CITIES"
+  ]
+ }
 }

@@ -70,5 +70,25 @@
    "flag": "[PARTIAL COVERAGE] era 1953–2026; scored on 1953–2016 only; years outside are null (pre-state, pre-1816 or post-2016)",
    "cite": "COW NMC v6.0 CINC, 1953–2016"
   }
- ]
+ ],
+ "key_cities": null,
+ "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "focus_view": {
+  "bbox": [
+   22.877,
+   19.952,
+   44.15,
+   39.093
+  ],
+  "basis": "bounding box of features in db/extents/republic-of-egypt.geojson and coordinates of cited key_cities, padded 1.77 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "OHM_2878088",
+   "OHM_2839468",
+   "OHM_2744372",
+   "OHM_2878087",
+   "OHM_2828409",
+   "OHM_2828408"
+  ]
+ }
 }

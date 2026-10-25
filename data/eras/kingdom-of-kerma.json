@@ -68,5 +68,29 @@
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "kerma",
+   "role": "capital",
+   "source_id": "GHA2_CH9",
+   "page": "258",
+   "first_attested": -1730,
+   "last_attested": null
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   29.501,
+   18.65,
+   34.137,
+   22.299
+  ],
+  "basis": "bounding box of features in db/extents/kingdom-of-kerma.geojson and coordinates of cited key_cities, padded 0.50 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "KERMA_MISSION",
+   "WIKIDATA_CITIES"
+  ]
+ }
 }

@@ -61,5 +61,70 @@
    "flag": "power_cinc_share null: not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated (Pass 27)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "khartoum",
+   "role": "capital",
+   "source_id": "GHA6_CH14",
+   "page": "363",
+   "first_attested": 1899,
+   "last_attested": null
+  },
+  {
+   "city_id": "kassala",
+   "role": "garrison",
+   "source_id": "GHA6_CH14",
+   "page": "363",
+   "first_attested": 1821,
+   "last_attested": null
+  },
+  {
+   "city_id": "wad-madani",
+   "role": "garrison",
+   "source_id": "GHA6_CH14",
+   "page": "360",
+   "first_attested": 1821,
+   "last_attested": null
+  },
+  {
+   "city_id": "bor",
+   "role": "garrison",
+   "source_id": "GHA6_CH14",
+   "page": "371",
+   "first_attested": 1885,
+   "last_attested": null
+  },
+  {
+   "city_id": "gondokoro",
+   "role": "garrison",
+   "source_id": "GHA6_CH14",
+   "page": "370",
+   "first_attested": 1859,
+   "last_attested": 1874
+  },
+  {
+   "city_id": "lado",
+   "role": "garrison",
+   "source_id": "GHA6_CH14",
+   "page": "371",
+   "first_attested": 1876,
+   "last_attested": 1885
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   20.031,
+   2.432,
+   40.636,
+   23.828
+  ],
+  "basis": "bounding box of features in db/extents/turkiyya-ottoman-egyptian-rule.geojson and coordinates of cited key_cities, padded 1.78 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "OHM_2690845",
+   "HD2011",
+   "WIKIDATA_CITIES"
+  ]
+ }
 }

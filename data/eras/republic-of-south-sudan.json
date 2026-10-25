@@ -90,5 +90,33 @@
    "flag": "[PARTIAL COVERAGE] era 2011–2026; scored on 2011–2016 only; years outside are null (pre-state, pre-1816 or post-2016)",
    "cite": "COW NMC v6.0 CINC, 2011–2016"
   }
- ]
+ ],
+ "key_cities": [
+  {
+   "city_id": "juba",
+   "role": "capital/centre (listed in era capitals)",
+   "source_id": "COW_NMC6",
+   "page": null,
+   "first_attested": null,
+   "last_attested": null,
+   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   22.19,
+   2.25,
+   37.2,
+   13.487
+  ],
+  "basis": "bounding box of features in db/extents/republic-of-south-sudan.geojson and coordinates of cited key_cities, padded 1.25 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "EXT_OHM",
+   "WD:Q336494",
+   "WD:Q844262",
+   "WD:Q973527",
+   "PCA_ABYEI2009"
+  ]
+ }
 }

@@ -68,5 +68,29 @@
    "flag": "power_cinc_share null: not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated (Pass 27)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "fashoda",
+   "role": "capital",
+   "source_id": "GHA6_CH14",
+   "page": "366",
+   "first_attested": 1490,
+   "last_attested": null
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   31.231,
+   9.255,
+   33.506,
+   13.531
+  ],
+  "basis": "bounding box of features in db/extents/shilluk-kingdom.geojson and coordinates of cited key_cities, padded 0.50 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "OHM_2856878",
+   "WIKIDATA_CITIES"
+  ]
+ }
 }

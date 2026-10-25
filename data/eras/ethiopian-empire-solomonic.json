@@ -80,5 +80,35 @@
    "flag": "PARTIAL: covers 1941–1974 of a 1270–1974 era (Pass 29; replaces 0.65 VERIFY over 1898–1974 from dd154c8, retired by IM ruling)",
    "null_reason": null
   }
- ]
+ ],
+ "key_cities": [
+  {
+   "city_id": "gondar",
+   "role": "capital",
+   "source_id": "GHA5_CH24_P713_733",
+   "page": "724",
+   "first_attested": 1636,
+   "last_attested": null
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   31.5,
+   1.906,
+   49.478,
+   19.532
+  ],
+  "basis": "bounding box of features in db/extents/ethiopian-empire-solomonic.geojson and coordinates of cited key_cities, padded 1.50 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "GHA6_CH15_P376_393",
+   "OHM_2690843",
+   "OHM_2923091",
+   "OHM_2803441",
+   "OHM_2803446",
+   "OHM_2839747",
+   "OHM_2803440",
+   "WIKIDATA_CITIES"
+  ]
+ }
 }

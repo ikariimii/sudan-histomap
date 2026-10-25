@@ -73,5 +73,29 @@
    "flag": "power_cinc_share null: peoples, not a COW state; no new editorial score added (Pass 22d)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "suakin",
+   "role": "capital/centre (listed in era capitals)",
+   "source_id": "HD2011",
+   "page": null,
+   "first_attested": 1100,
+   "last_attested": null,
+   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   35.83,
+   17.602,
+   38.83,
+   20.602
+  ],
+  "basis": "bounding box of features in db/extents/beja-red-sea-hills-peoples.geojson and coordinates of cited key_cities, padded 1.50 deg; single point, view approximate",
+  "badge": "APPROXIMATE",
+  "source_ids": [
+   "GHA3_CH3"
+  ]
+ }
 }

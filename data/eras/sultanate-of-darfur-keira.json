@@ -63,5 +63,30 @@
    "flag": "power_cinc_share null: not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated (Pass 27)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "el-fasher",
+   "role": "capital",
+   "source_id": "GHA5_CH7",
+   "page": "190",
+   "first_attested": 1650,
+   "last_attested": null
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   20.645,
+   7.161,
+   33.629,
+   21.19
+  ],
+  "basis": "bounding box of features in db/extents/sultanate-of-darfur-keira.geojson and coordinates of cited key_cities, padded 1.17 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "TAKANA2016",
+   "OFAHEY2018_FWD",
+   "WIKIDATA_CITIES"
+  ]
+ }
 }

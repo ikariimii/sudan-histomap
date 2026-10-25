@@ -62,5 +62,29 @@
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "faras",
+   "role": "capital/centre (listed in era capitals)",
+   "source_id": "GHA2",
+   "page": null,
+   "first_attested": 400,
+   "last_attested": 1056,
+   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   29.96,
+   20.7,
+   32.96,
+   23.7
+  ],
+  "basis": "bounding box of features in db/extents/a-group-lower-nubia.geojson and coordinates of cited key_cities, padded 1.50 deg; single point, view approximate",
+  "badge": "APPROXIMATE",
+  "source_ids": [
+   "GHA2_CH9"
+  ]
+ }
 }

@@ -79,5 +79,20 @@
     "note": "Nuer–Dinka divisions described by rivers, not surveyed limits"
    }
   ]
+ },
+ "key_cities": null,
+ "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "focus_view": {
+  "bbox": [
+   30.05,
+   4.717,
+   33.05,
+   7.717
+  ],
+  "basis": "bounding box of features in db/extents/dinka-jieng-communities.geojson and coordinates of cited key_cities, padded 1.50 deg; single point, view approximate",
+  "badge": "APPROXIMATE",
+  "source_ids": [
+   "GHA5_CH7"
+  ]
  }
 }

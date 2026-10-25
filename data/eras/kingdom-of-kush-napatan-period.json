@@ -118,5 +118,55 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "key_cities": [
+  {
+   "city_id": "napata",
+   "role": "capital",
+   "source_id": "GHA2_CH10",
+   "page": "283",
+   "first_attested": -800,
+   "last_attested": null
+  },
+  {
+   "city_id": "el-kurru",
+   "role": "religious",
+   "source_id": "GHA2_CH11",
+   "page": "300",
+   "first_attested": -800,
+   "last_attested": -690
+  },
+  {
+   "city_id": "nuri",
+   "role": "religious",
+   "source_id": "GHA2_CH10",
+   "page": "285",
+   "first_attested": -800,
+   "last_attested": -310
+  },
+  {
+   "city_id": "kawa",
+   "role": "capital/centre (listed in era capitals)",
+   "source_id": "GHA2",
+   "page": null,
+   "first_attested": null,
+   "last_attested": null,
+   "basis": "name match of era capitals entry to db/cities.json; city coords cited via PLEIADES_805647"
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   28.52,
+   13.854,
+   35.771,
+   31.63
+  ],
+  "basis": "bounding box of features in db/extents/kingdom-of-kush-napatan-period.geojson and coordinates of cited key_cities, padded 1.48 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "KERMA_MISSION",
+   "GHA2",
+   "WIKIDATA_CITIES"
+  ]
+ }
 }

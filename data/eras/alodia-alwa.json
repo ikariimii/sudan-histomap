@@ -66,5 +66,29 @@
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "soba",
+   "role": "capital",
+   "source_id": "GHA3_CH8",
+   "page": "196",
+   "first_attested": 500,
+   "last_attested": null
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   31.181,
+   14.024,
+   34.181,
+   17.024
+  ],
+  "basis": "bounding box of features in db/extents/alodia-alwa.geojson and coordinates of cited key_cities, padded 1.50 deg; single point, view approximate",
+  "badge": "APPROXIMATE",
+  "source_ids": [
+   "GHA2_CH12",
+   "WIKIDATA_CITIES"
+  ]
+ }
 }

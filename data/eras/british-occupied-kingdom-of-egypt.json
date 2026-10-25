@@ -61,5 +61,24 @@
    "flag": "power_cinc_share null: COW counts Egypt as a state only from 1937; earlier years are not scored"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": null,
+ "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "focus_view": {
+  "bbox": [
+   22.481,
+   20.312,
+   38.262,
+   32.997
+  ],
+  "basis": "bounding box of features in db/extents/british-occupied-kingdom-of-egypt.geojson and coordinates of cited key_cities, padded 1.32 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "OHM_2690836",
+   "OHM_2926752",
+   "OHM_2926750",
+   "OHM_2803205",
+   "OHM_2803204"
+  ]
+ }
 }

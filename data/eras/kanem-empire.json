@@ -57,5 +57,20 @@
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": null,
+ "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "focus_view": {
+  "bbox": [
+   8.408,
+   4.134,
+   23.672,
+   27.164
+  ],
+  "basis": "bounding box of features in db/extents/kanem-empire.geojson and coordinates of cited key_cities, padded 1.92 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "OHM_2809431"
+  ]
+ }
 }

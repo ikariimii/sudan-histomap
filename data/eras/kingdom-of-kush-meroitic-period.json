@@ -114,5 +114,71 @@
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "napata",
+   "role": "religious",
+   "source_id": "GHA2_CH10",
+   "page": "285",
+   "first_attested": -800,
+   "last_attested": null
+  },
+  {
+   "city_id": "meroe",
+   "role": "capital",
+   "source_id": "GHA2_CH11",
+   "page": "301",
+   "first_attested": -300,
+   "last_attested": 330
+  },
+  {
+   "city_id": "musawwarat",
+   "role": "religious",
+   "source_id": "GHA2_CH11",
+   "page": "318",
+   "first_attested": -270,
+   "last_attested": -41
+  },
+  {
+   "city_id": "wad-ban-naqa",
+   "role": "religious",
+   "source_id": "GHA2_CH11",
+   "page": "314",
+   "first_attested": -270,
+   "last_attested": 12
+  },
+  {
+   "city_id": "naqa",
+   "role": "capital/centre (listed in era capitals)",
+   "source_id": "GHA2",
+   "page": null,
+   "first_attested": -170,
+   "last_attested": 12,
+   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+  },
+  {
+   "city_id": "sedeinga",
+   "role": "capital/centre (listed in era capitals)",
+   "source_id": "GHA2",
+   "page": null,
+   "first_attested": null,
+   "last_attested": null,
+   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   28.947,
+   12.448,
+   35.341,
+   25.074
+  ],
+  "basis": "bounding box of features in db/extents/kingdom-of-kush-meroitic-period.geojson and coordinates of cited key_cities, padded 1.05 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "GHA2",
+   "WIKIDATA_CITIES"
+  ]
+ }
 }

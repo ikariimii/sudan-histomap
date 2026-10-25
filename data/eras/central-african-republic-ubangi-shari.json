@@ -69,5 +69,34 @@
    "flag": "[PARTIAL COVERAGE] era 1903–2026; scored on 1960–2016 only; years outside are null (pre-state, pre-1816 or post-2016)",
    "cite": "COW NMC v6.0 CINC, 1960–2016"
   }
- ]
+ ],
+ "key_cities": [
+  {
+   "city_id": "bangui",
+   "role": "capital/centre (listed in era capitals)",
+   "source_id": "CAR_CONST2016",
+   "page": null,
+   "first_attested": null,
+   "last_attested": null,
+   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   11.498,
+   0.256,
+   29.431,
+   23.927
+  ],
+  "basis": "bounding box of features in db/extents/central-african-republic-ubangi-shari.geojson and coordinates of cited key_cities, padded 1.97 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "OHM_2839931",
+   "OHM_2839930",
+   "OHM_2918030",
+   "OHM_2839927",
+   "OHM_2839926",
+   "NATURAL_EARTH"
+  ]
+ }
 }

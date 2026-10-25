@@ -71,5 +71,23 @@
    "flag": "[PARTIAL COVERAGE] era 1974–2026; scored on 1974–2016 only; years outside are null (pre-state, pre-1816 or post-2016)",
    "cite": "COW NMC v6.0 CINC, 1974–2016"
   }
- ]
+ ],
+ "key_cities": null,
+ "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "focus_view": {
+  "bbox": [
+   31.491,
+   1.904,
+   49.479,
+   19.57
+  ],
+  "basis": "bounding box of features in db/extents/derg-federal-ethiopia.geojson and coordinates of cited key_cities, padded 1.50 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "OHM_2803440",
+   "OHM_2885943",
+   "NATURAL_EARTH",
+   "EEBC2002"
+  ]
+ }
 }

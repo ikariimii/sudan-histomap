@@ -58,5 +58,21 @@
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": null,
+ "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "focus_view": {
+  "bbox": [
+   31.067,
+   21.733,
+   32.117,
+   22.767
+  ],
+  "basis": "bounding box of features in db/extents/noba-x-group-ballana-culture.geojson and coordinates of cited key_cities, padded 0.50 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "PL:795783",
+   "WP:Ballana_culture"
+  ]
+ }
 }

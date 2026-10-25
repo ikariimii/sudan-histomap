@@ -77,5 +77,29 @@
    "null_reason": "not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated",
    "flag": "power_cinc_share null: not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated (Pass 27)"
   }
- ]
+ ],
+ "key_cities": [
+  {
+   "city_id": "omdurman",
+   "role": "capital",
+   "source_id": "GHA7_CH4",
+   "page": "78",
+   "first_attested": 1885,
+   "last_attested": null
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   20.557,
+   7.385,
+   35.637,
+   21.277
+  ],
+  "basis": "bounding box of features in db/extents/mahdist-state-mahdiyya.geojson and coordinates of cited key_cities, padded 1.26 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "GHA7_CH4",
+   "WIKIDATA_CITIES"
+  ]
+ }
 }

@@ -64,5 +64,29 @@
    "flag": "power_cinc_share null: not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated (Pass 27)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "qerri",
+   "role": "capital",
+   "source_id": "GHA5_CH7",
+   "page": "172",
+   "first_attested": 1480,
+   "last_attested": 1690
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   31.132,
+   14.736,
+   34.132,
+   17.736
+  ],
+  "basis": "bounding box of features in db/extents/abdallab-chiefdom-funj-vassal.geojson and coordinates of cited key_cities, padded 1.50 deg; single point, view approximate",
+  "badge": "APPROXIMATE",
+  "source_ids": [
+   "GHA5_CH7",
+   "WIKIDATA_CITIES"
+  ]
+ }
 }

@@ -81,5 +81,9 @@
     "badge": "VERIFY"
    }
   ]
- }
+ },
+ "key_cities": null,
+ "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "focus_view": null,
+ "focus_view_null_reason": "no extent geometry and no cited city coordinates for this era"
 }

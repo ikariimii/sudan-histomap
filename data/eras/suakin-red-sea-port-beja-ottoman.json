@@ -66,5 +66,37 @@
    "flag": "power_cinc_share null: a port, not a COW state; no new editorial score added (Pass 22d)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "suakin",
+   "role": "garrison",
+   "source_id": "GHA5_CH7",
+   "page": "175",
+   "first_attested": 1100,
+   "last_attested": null
+  },
+  {
+   "city_id": "massawa",
+   "role": "port",
+   "source_id": "GHA5_CH7",
+   "page": "175",
+   "first_attested": 1520,
+   "last_attested": null
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   36.83,
+   15.1,
+   39.933,
+   19.602
+  ],
+  "basis": "bounding box of features in db/extents/suakin-red-sea-port-beja-ottoman.geojson and coordinates of cited key_cities, padded 0.50 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "GHA4_CH16",
+   "WIKIDATA_CITIES"
+  ]
+ }
 }

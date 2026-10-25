@@ -64,5 +64,20 @@
    "flag": "power_cinc_share null: not a COW system member; no new editorial score added (Pass 22d)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": null,
+ "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "focus_view": {
+  "bbox": [
+   20.172,
+   13.333,
+   21.335,
+   14.727
+  ],
+  "basis": "bounding box of features in db/extents/wadai-sultanate.geojson and coordinates of cited key_cities, padded 0.50 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "WP:Wadai_Sultanate"
+  ]
+ }
 }

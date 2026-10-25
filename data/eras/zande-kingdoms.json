@@ -59,5 +59,20 @@
    "flag": "power_cinc_share null: not a COW system member; no new editorial score added (Pass 22d)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": null,
+ "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "focus_view": {
+  "bbox": [
+   24.3,
+   3.454,
+   27.219,
+   5.429
+  ],
+  "basis": "bounding box of features in db/extents/zande-kingdoms.geojson and coordinates of cited key_cities, padded 0.50 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "GHA6_CENTRAL_P300"
+  ]
+ }
 }

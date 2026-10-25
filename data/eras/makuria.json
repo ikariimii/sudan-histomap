@@ -70,5 +70,41 @@
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": [
+  {
+   "city_id": "old-dongola",
+   "role": "capital",
+   "source_id": "GHA3_CH8",
+   "page": "194",
+   "first_attested": 500,
+   "last_attested": 1365
+  },
+  {
+   "city_id": "banganarti",
+   "role": "capital/centre (listed in era capitals)",
+   "source_id": "GHA2_CH12",
+   "page": null,
+   "first_attested": null,
+   "last_attested": null,
+   "basis": "name match of era capitals entry to db/cities.json; city coords cited via WIKIDATA_CITIES"
+  }
+ ],
+ "focus_view": {
+  "bbox": [
+   27.819,
+   14.114,
+   34.664,
+   24.624
+  ],
+  "basis": "bounding box of features in db/extents/makuria.geojson and coordinates of cited key_cities, padded 0.88 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "OHM_2960090",
+   "OHM_2960089",
+   "OHM_2960088",
+   "Wikipedia contributors, \"Makuria\", English Wikipedia (fetched 2026-10-20; cites Gerhards 2025, Ruffini 2012, Seignobos 2018) – flagged, no scholarly text read",
+   "WIKIDATA_CITIES"
+  ]
+ }
 }

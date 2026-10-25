@@ -57,5 +57,23 @@
    "flag": "power_cinc_share null: only one state in the comparison set (Egypt is the only regional-set state in COW NMC v6.0 for 1855–1882) [VERIFY]"
   }
  ],
- "regional_power_null_reason": "no cited comparative measure"
+ "regional_power_null_reason": "no cited comparative measure",
+ "key_cities": null,
+ "key_cities_null_reason": "no city in db/cities.json carries a cited role for this era",
+ "focus_view": {
+  "bbox": [
+   22.011,
+   20.216,
+   38.354,
+   37.149
+  ],
+  "basis": "bounding box of features in db/extents/ottoman-egypt-muhammad-ali-dynasty.geojson and coordinates of cited key_cities, padded 1.41 deg",
+  "badge": "DERIVED",
+  "source_ids": [
+   "OHM_2921538",
+   "OHM_2951102",
+   "OHM_2951103",
+   "OHM_2690836"
+  ]
+ }
 }
