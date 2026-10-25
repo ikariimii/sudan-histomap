@@ -166,9 +166,12 @@
   "basis": "bounding box of features in db/extents/kingdom-of-kush-napatan-period.geojson and coordinates of cited key_cities, padded 1.48 deg",
   "badge": "DERIVED",
   "source_ids": [
-   "KERMA_MISSION",
+   "SFDAS_HCS2017",
    "GHA2",
    "WIKIDATA_CITIES"
-  ]
+  ],
+  "source_pages": {
+   "SFDAS_HCS2017": "pp.141, 157"
+  }
  }
 }

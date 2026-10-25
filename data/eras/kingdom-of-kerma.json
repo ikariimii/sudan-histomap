@@ -87,8 +87,11 @@
   "basis": "bounding box of features in db/extents/kingdom-of-kerma.geojson and coordinates of cited key_cities, padded 0.50 deg",
   "badge": "DERIVED",
   "source_ids": [
-   "KERMA_MISSION",
+   "SFDAS_HCS2017",
    "WIKIDATA_CITIES"
-  ]
+  ],
+  "source_pages": {
+   "SFDAS_HCS2017": "pp.56, 60, 65, 69"
+  }
  }
 }
