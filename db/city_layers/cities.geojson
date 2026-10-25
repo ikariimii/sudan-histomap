@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "meta": {
-  "source": "db/cities.json @a506d14",
+  "source": "db/cities.json @18036f8",
   "rule": "visible_from = map_from (founded, else first_attested, badge FIRST-ATTESTED); no map_from = list_only; abandoned {year:null} = ruin ending at last cited role, RUIN-UNDATED, inhabited_today false"
  },
  "features": [
