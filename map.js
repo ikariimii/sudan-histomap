@@ -101,7 +101,7 @@ async function render(anim=true){
  LBS=LB;
  await layersDraw(e);if(on.has('hml'))hmlDraw();prefetch(i);zonesDraw(e,D,ctl?g.features.filter(f=>f.properties.zone&&f.geometry.type!=='Point'):[]);
  // card
- const cj=await cardj(e);if(e!==ES[i])return;$('card').innerHTML=cj?cj[L]:`<p><span class="gap">${T.wip}</span></p>`;layerInfo(e);$('feat').hidden=true;
+ const cj=await cardj(e);if(e!==ES[i])return;$('card').innerHTML=cj?cj[L]:`<p><span class="gap">${T.wip}</span></p>`;shareBtn(e);layerInfo(e);$('feat').hidden=true;
  place()}
 render.last=null;let LBS=[];
 new MutationObserver(()=>{const x=$('feat').querySelector('.x');if(x)x.setAttribute('aria-label',T.close)}).observe($('feat'),{childList:true});
@@ -353,9 +353,13 @@ function flagsDraw(e){const fl=e.fl,y=cY(),fs=fl?fl.f.filter(f=>f.w.some(w=>w[0]
   fs.forEach((f,j)=>{const x=-tw/2+j*(FW+gap),y0=-FH-6;g.append('rect').attr('class','fbd'+(f.v?' vfy':'')).attr('x',x-1).attr('y',y0-1).attr('width',FW+2).attr('height',FH+2);g.append('image').attr('href',f.s).attr('x',x).attr('y',y0).attr('width',FW).attr('height',FH).attr('preserveAspectRatio','none')});
   g.append('line').attr('x1',0).attr('x2',0).attr('y1',-6).attr('y2',0).attr('class','fpole');
   if(fs.some(f=>f.v))g.append('text').attr('class','fvchip').attr('x',0).attr('y',-FH-9).attr('text-anchor','middle').text('VERIFY')})}
+// share: copies /era/<id>/ (or /ar/era/<id>/); native share sheet on touch devices when available; polite live 'Link copied'
+function shareBtn(e){const h=$('card').querySelector('h2,h1');if(!h)return;const u=location.origin+(AR?'/ar':'')+'/era/'+e.id+'/';const w=document.createElement('p');w.className='sharep';
+ w.innerHTML=`<button type="button" class="share">${esc(T.share)}</button> <span class="sharemsg" aria-live="polite"></span>`;h.after(w);const m=w.querySelector('.sharemsg');
+ w.querySelector('button').onclick=async()=>{if(navigator.share&&matchMedia('(pointer:coarse)').matches){try{await navigator.share({title:h.textContent,url:u});return}catch(x){if(x&&x.name==='AbortError')return}}
+  try{await navigator.clipboard.writeText(u);m.textContent=T.copied}catch(x){m.innerHTML=`${esc(T.copyno)} <bdi dir="ltr">${esc(u)}</bdi>`}}}
 // --- start
 window.__hm={scale:k=>svg.call(zoom.scaleTo,k)};// test hook (QA only, no side effects)
 const eth1932=()=>{const e=ES[i];if(on.has('eth')&&(M.layers.eth||[]).includes(e.id)&&e.a<=1932&&1932<=e.b)Y=1932};eth1932();
 fit();getj('/basemap-map.json').then(b=>{BASE=b;render(false)}).catch(()=>render(false));
 })();
-
