@@ -18,13 +18,14 @@
       "APPROXIMATE",
       "DERIVED"
      ],
-     "start": 1650,
+     "start": 1640,
      "end": 1785,
      "source_ids": [
       "TAKANA2016",
       "GHA6_CH14",
       "HD2011",
-      "EXT_HDX_CODAB"
+      "EXT_HDX_CODAB",
+      "GHA5_CH7"
      ],
      "low_confidence_overlay": true
     },
@@ -77,10 +78,11 @@
       "APPROXIMATE",
       "DERIVED"
      ],
-     "start": 1650,
+     "start": 1640,
      "end": 1874,
      "source_ids": [
-      "TAKANA2016"
+      "TAKANA2016",
+      "GHA5_CH7"
      ],
      "low_confidence_overlay": true
     },
@@ -94,10 +96,11 @@
       "APPROXIMATE",
       "DERIVED"
      ],
-     "start": 1650,
+     "start": 1640,
      "end": 1874,
      "source_ids": [
-      "TAKANA2016"
+      "TAKANA2016",
+      "GHA5_CH7"
      ],
      "low_confidence_overlay": true
     },
@@ -111,10 +114,11 @@
       "APPROXIMATE",
       "DERIVED"
      ],
-     "start": 1650,
+     "start": 1640,
      "end": 1874,
      "source_ids": [
-      "TAKANA2016"
+      "TAKANA2016",
+      "GHA5_CH7"
      ],
      "low_confidence_overlay": true
     },
@@ -128,10 +132,11 @@
       "APPROXIMATE",
       "DERIVED"
      ],
-     "start": 1650,
+     "start": 1640,
      "end": 1874,
      "source_ids": [
-      "TAKANA2016"
+      "TAKANA2016",
+      "GHA5_CH7"
      ],
      "low_confidence_overlay": true
     }
@@ -698,36 +703,6 @@
       {
        "id": "WIKIDATA_CITIES",
        "page": "Q309475"
-      }
-     ]
-    },
-    {
-     "id": "el-fasher",
-     "name_en": "El Fasher",
-     "name_ar": "الفاشر",
-     "symbol_class": "city_capital",
-     "roles_in_era": [
-      {
-       "role": "capital",
-       "era_id": "sultanate-of-darfur-keira",
-       "start": null,
-       "end": 1874,
-       "source_id": "GHA5_CH7",
-       "page": "190"
-      }
-     ],
-     "badges": [
-      "AR-REVIEW",
-      "FIRST-ATTESTED"
-     ],
-     "source_ids": [
-      {
-       "id": "GHA5_CH7",
-       "page": "190"
-      },
-      {
-       "id": "WIKIDATA_CITIES",
-       "page": "Q311204"
       }
      ]
     },
@@ -1558,7 +1533,7 @@
   "SINGLE-SOURCE"
  ],
  "counts": {
-  "city_capital": 13,
+  "city_capital": 12,
   "city_garrison": 5,
   "city_other": 9,
   "city_political_centre": 1,
@@ -1574,7 +1549,7 @@
   "trade_route": 1,
   "extent_features": 7,
   "group_features": 4,
-  "cities": 38
+  "cities": 37
  },
  "context": {
   "key_events_en": [
@@ -1655,7 +1630,6 @@
    ],
    "cities_added": [
     "berber",
-    "el-fasher",
     "el-matamma",
     "el-obeid",
     "gallabat",
@@ -1672,7 +1646,6 @@
     "soba"
    ],
    "capitals_added": [
-    "el-fasher",
     "el-obeid",
     "shendi"
    ],
