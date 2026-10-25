@@ -955,7 +955,7 @@
   {
    "era_id": "dinka-jieng-communities",
    "items": null,
-   "reason": "people, not a polity. Group-layer only (Pass 32): sources give regions (Upper Nile, Bahr al-Ghazal) and a Renk-to-Uganda range (QASIM_MAWSUA vol.2 p.911, OCR VERIFY), not limits; no area drawn. The Bor point in db/group_layers/homelands.geojson marks the Bor Dinka only.",
+   "reason": "people, not a polity. Group-layer only (Pass 32): sources give regions (Upper Nile, Bahr al-Ghazal) and a Renk-to-Uganda range (QASIM_MAWSUA vol.2 p.911, checked against the page image 2026-10-24, e5b1114), not limits; no area drawn. The Bor point in db/group_layers/homelands.geojson marks the Bor Dinka only.",
    "rendering": "homelands_layer",
    "rendering_reason": "No cited dated boundary; rendered via the undated Homelands layer (Historian note data/eras/dinka-jieng-communities.json extent_rendering, 4cec0d8)"
   },
