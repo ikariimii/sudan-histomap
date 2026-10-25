@@ -170,7 +170,7 @@ async function citiesDraw(e,D){const d=on.has('cty')?await cty():null;if(e!==ES[
  const n=s.enter().append('g').attr('class','cty mk').each(function(c){this.__xy=proj(c.ll)}).attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`}).style('opacity',D?0:1).on('click',cityTap);
  n.append('path');n.append('text').attr('class','ctl2');n.append('title');
  n.transition().duration(D).style('opacity',1);
- const m=n.merge(s);m.classed('capital',c=>c.cap).classed('ruin',isRuin).classed('oe',c=>isRuin(c)&&c.a==null).raise();m.selectAll('text.rq').remove();m.filter(c=>isRuin(c)&&c.a==null).append('text').attr('class','rq').attr('x',3.2).attr('y',-3.2).text('?');
+ const m=n.merge(s);m.classed('key',isKey).classed('minor',c=>!isKey(c)&&!c.cap).classed('capital',c=>c.cap).classed('ruin',isRuin).classed('oe',c=>isRuin(c)&&c.a==null).raise();m.selectAll('text.rq').remove();m.filter(c=>isRuin(c)&&c.a==null).append('text').attr('class','rq').attr('x',3.2).attr('y',-3.2).text('?');
  m.select('path').attr('d',cShape);
  m.select('text').attr('x',AR?-9:9).attr('y',4).attr('direction',AR?'rtl':'ltr').attr('text-anchor','start').text(cName);
  m.select('title').text(c=>cName(c)+(c.cap?' · '+T.capital:''));
@@ -178,10 +178,12 @@ async function citiesDraw(e,D){const d=on.has('cty')?await cty():null;if(e!==ES[
 // label thinning: capitals first, then cities with a role this era, then the rest; greedy screen-space boxes
 // role shapes (legend uses the same paths)
 const CSH={capital:'M0,-7L2,-2.2L7,-2.2L3,1L4.5,6.5L0,3.2L-4.5,6.5L-3,1L-7,-2.2L-2,-2.2Z',garrison:'M-3.4,-3.4h6.8v6.8h-6.8z',trade:'M0,-4.6L4.6,0L0,4.6L-4.6,0Z',port:'M0,-4.4L4.4,3.6L-4.4,3.6Z',religious:'M-1.3,-4.4h2.6v3.1h3.1v2.6h-3.1v3.1h-2.6v-3.1h-3.1v-2.6h3.1z',other:'M-3.2,0a3.2,3.2 0 1,0 6.4,0a3.2,3.2 0 1,0 -6.4,0'};
+CSH.town='M0,-4L3.5,-2L3.5,2L0,4L-3.5,2L-3.5,-2Z';CSH.cult_centre='M0,4.4L4.4,-3.6L-4.4,-3.6Z';CSH.political_centre='M0,-4.6L4.4,-1.4L2.7,3.7L-2.7,3.7L-4.4,-1.4Z';
 CSH.ruin='M-3.6,0a3.6,3.6 0 1,0 7.2,0a3.6,3.6 0 1,0 -7.2,0';
 const cY=()=>Y!=null?Y:ES[i].b;
 function isRuin(c){const y=cY();if(!c.ru||c.f>y||(c.a!=null&&c.a<y))return false;if(Object.values(c.r).some(r=>(r.y0==null||r.y0<=y)&&(r.y1==null||y<=r.y1)))return false;return c.lr==null||y>c.lr}
-const cShape=c=>{if(isRuin(c))return CSH.ruin;const r=c.r[ES[i].id];return c.cap?CSH.capital:CSH[r&&r.k]||CSH.other};
+const cShape=c=>{if(isRuin(c))return CSH.ruin;const e=ES[i],r=c.r[e.id],kr=e.kc&&e.kc[c.id];return c.cap?CSH.capital:CSH[r&&r.k]||CSH[kr]||CSH.other};
+const isKey=c=>!!(ES[i].kc&&ES[i].kc[c.id]);// tier-1: data/eras key_cities
 let HJ=null;const hj=()=>M.layers.hBuilt?(HJ||(HJ=getj('/g/_homelands.json').catch(()=>null))):Promise.resolve(null);
 const hLab=p=>{const s=AR?(p.ar||p.en):(p.en||p.ar);return String(s||'').replace(/\s*\[Arabic text pending[^\]]*\]/,'')};
 async function hmlDraw(){const d=on.has('hml')?await hj():null;const pts=d?d.pts:[];
@@ -228,10 +230,11 @@ addEventListener('resize',lgFit);
 document.addEventListener('DOMContentLoaded',()=>{});
 function cityThin(){const e=ES[i],W=svg.node().clientWidth||390,H=svg.node().clientHeight||600,sr=svg.node().getBoundingClientRect(),boxes=[...gT.selectAll('text').nodes(),...gK.selectAll('text').nodes()].filter(t=>t.style.display!=='none'&&t.getAttribute('visibility')!=='hidden').map(t=>{const b=t.getBoundingClientRect();return [b.left-sr.left-2,b.top-sr.top-2,b.right-sr.left+2,b.bottom-sr.top+2]}).filter(b=>b[2]>b[0]);
  const g=gY.selectAll('g.cty:not(.gone)').nodes().map(n=>({n,c:d3.select(n).datum()}));
- g.sort((a,b)=>(b.c.cap-a.c.cap)||((!!b.c.r[e.id])-(!!a.c.r[e.id]))||String(a.c.id).localeCompare(b.c.id));
+ g.sort((a,b)=>(isKey(b.c)-isKey(a.c))||(b.c.cap-a.c.cap)||((!!b.c.r[e.id])-(!!a.c.r[e.id]))||String(a.c.id).localeCompare(b.c.id));
  const hit=(a,b)=>a[0]<b[2]&&a[2]>b[0]&&a[1]<b[3]&&a[3]>b[1];
- g.forEach(({n,c})=>{const p=TR.apply(n.__xy),w=cName(c).length*(AR?6:6.6)+10,bx=AR?[p[0]-9-w,p[1]-9,p[0]+5,p[1]+6]:[p[0]-5,p[1]-9,p[0]+9+w,p[1]+6];
-  const ok=bx[0]>=0&&bx[2]<=W&&bx[1]>=0&&bx[3]<=H&&!boxes.some(b=>hit(b,bx));if(ok)boxes.push(bx);n.querySelector('text').style.display=ok?'':'none'})}
+ g.forEach(({n,c})=>{const p=TR.apply(n.__xy),w=cName(c).length*(AR?6:6.6)+10;let bx=AR?[p[0]-9-w,p[1]-9,p[0]+5,p[1]+6]:[p[0]-5,p[1]-9,p[0]+9+w,p[1]+6];
+  let bx2=bx,fl=false;if(isKey(c)&&(bx[2]>W||bx[0]<0)){fl=true;bx2=AR?[p[0]-5,bx[1],p[0]+9+w,bx[3]]:[p[0]-9-w,bx[1],p[0]+5,bx[3]]}bx=bx2;const t=n.querySelector('text');t.setAttribute('x',(AR!==fl)?-9:9);t.setAttribute('text-anchor',fl?'end':'start');
+  const ok=bx[0]>=0&&bx[2]<=W&&bx[1]>=0&&bx[3]<=H&&(isKey(c)||!boxes.some(b=>hit(b,bx)));if(ok)boxes.push(bx);n.querySelector('text').style.display=ok?'':'none'})}
 function cityTap(ev,c){ev.stopPropagation();const e=ES[i],r=c.r[e.id],d=CJ&&CJ.then?null:null;
  const B=x=>`<span class="repb${x==='CONTESTED'?' cont':x==='SINGLE-SOURCE'?' single':''}">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`;
  const rk=r&&RK[r.k],role=r?(AR?(r.ar||(rk&&rk[1])||r.en):(rk?rk[0]:(r.en||r.ar))):null;

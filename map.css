@@ -85,3 +85,5 @@ html[dir=rtl] .nav{transform:scaleX(-1)}
 body.sfull #lgb,body.sfull #lgp,body.sfull #reset{visibility:hidden}
 #sheet.full{max-height:min(88vh,calc(100vh - var(--chipb,120px) - 10px))}
 @media (min-width:1000px){#sheet.full{max-height:calc(100vh - 150px)}}
+.cty path{fill:#e8eef2;stroke:#0b141b}.cty.key text{font-weight:700;font-size:12px}.cty.key path{stroke-width:1.6}
+.cty.minor path{transform:scale(.72);opacity:.8}.cty.minor text{font-size:9.5px;fill:#c3ccd3}
