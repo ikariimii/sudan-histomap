@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated": "2026-10-24",
+  "generated": "2026-10-25",
   "generator": "db/build_badge_counts.py",
   "method": "Read-only recursive scan of data/eras/*.json (excluding all.json) and db/**/*.json|*.geojson, excluding lens_* translations, db/border_drafts/ (unpublished drafts; published data only), db/legends/ and legend_spec.json (legend summaries: badges_present, badge_filter, per-entry badge copies), summary/handoff files (second_sources_for_historian.json, *summary*) and this output. Only values under real badge keys count: badge, badges, flags, flag, from_badges, to_badges (array or string). A value counts once if it equals or begins with a badge name (flags use 'SINGLE-SOURCE: <detail>'). Free text (basis_en, note, claim, etc.) is ignored. Attribution: the era file data/eras/<id>.json, a file named after an era id, a dict key equal to an era id, or an enclosing era/era_id/era_ids/eras/period_id field. Unlinked badges are not counted.",
   "badges": [
@@ -19,16 +19,16 @@
  },
  "totals": {
   "SINGLE-SOURCE": 180,
-  "CONTESTED": 115,
-  "VERIFY": 21,
+  "CONTESTED": 116,
+  "VERIFY": 16,
   "REPORTED": 10,
   "MODEL": 109,
   "EDITORIAL": 16,
-  "APPROXIMATE": 130,
+  "APPROXIMATE": 131,
   "PARTIAL": 3,
   "DERIVED": 51
  },
- "grand_total": 635,
+ "grand_total": 632,
  "eras_with_zero_badges": [],
  "eras": {
   "a-group-lower-nubia": {
@@ -54,7 +54,7 @@
    "counts": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 0,
-    "VERIFY": 1,
+    "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 0,
@@ -62,7 +62,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 5,
+   "total": 4,
    "files": [
     "data/eras/abboud-military-regime.json",
     "db/population.json"
@@ -327,7 +327,7 @@
    "counts": {
     "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
-    "VERIFY": 2,
+    "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
@@ -335,7 +335,7 @@
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "total": 8,
+   "total": 6,
    "files": [
     "data/eras/dinka-jieng-communities.json",
     "db/era_fill_hist20.json",
@@ -904,7 +904,7 @@
    "counts": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
-    "VERIFY": 1,
+    "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
@@ -912,7 +912,7 @@
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "total": 7,
+   "total": 6,
    "files": [
     "data/eras/nuer-naath-communities.json",
     "db/extents/nuer-naath-communities.geojson"
@@ -1016,16 +1016,16 @@
   "restored-darfur-sultanate-ali-dinar": {
    "counts": {
     "SINGLE-SOURCE": 4,
-    "CONTESTED": 0,
+    "CONTESTED": 1,
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 0,
     "EDITORIAL": 0,
-    "APPROXIMATE": 2,
+    "APPROXIMATE": 3,
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "total": 6,
+   "total": 8,
    "files": [
     "data/eras/restored-darfur-sultanate-ali-dinar.json",
     "db/extents/restored-darfur-sultanate-ali-dinar.geojson",
@@ -1091,7 +1091,7 @@
    "counts": {
     "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
-    "VERIFY": 1,
+    "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 0,
@@ -1099,7 +1099,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 7,
+   "total": 6,
    "files": [
     "data/eras/second-parliamentary-period.json",
     "db/group_layers/second-parliamentary-period.geojson",
