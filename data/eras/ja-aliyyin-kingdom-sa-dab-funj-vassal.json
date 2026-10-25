@@ -33,7 +33,7 @@
  "culture_dominance_ar": "تنتسب المجموعة الجعلية إلى جدّ عربي هو إبراهيم جعل، جُعل لاحقاً من نسل العباس، فصار «جعلي» و«عباسي» مترادفين تقريباً؛ ويرى هولت وديلي أن «الركيزة النوبية المغمورة» هي العنصر المشترك بينهم، مع نسب عربي ناتج عن التزاوج وموروث ثقافي إسلامي (هولت وديلي، المقدمة ص3).",
  "economy_en": "Shendi, where the two trade axes met, was the main commercial centre of the eastern Bilad al-Sudan by the early 19th century (Holt & Daly).",
  "economy_ar": "كانت شندي، ملتقى محوري التجارة، المركز التجاري الرئيسي لبلاد السودان الشرقية بحلول مطلع القرن التاسع عشر (هولت وديلي).",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "HD2011",
   "COW_NMC6"
@@ -42,7 +42,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 13 text: Arabic is a working translation; needs native review"
  ],
  "curated": true,
@@ -59,5 +58,6 @@
    "null_reason": "not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated",
    "flag": "power_cinc_share null: not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

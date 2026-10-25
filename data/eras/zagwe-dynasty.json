@@ -25,7 +25,7 @@
  "culture_dominance_ar": "كان كرسي أكسوم منذ القرن الرابع يشغله أسقف قبطي من الإسكندرية، واستخدمت إثيوبيا الليتورجيا المصرية (تاريخ أفريقيا العام III، الفصل 19، ص565). وكانت الجعزية لغة البلاط والكنيسة (ص568)، وتحمل كنائس لاليبيلا اللاحقة رسوماً جدارية (ص573). وكانت موطن الزاغوي في واغ ولاستا ناطقة بالأغو (IV، الفصل 17، ص425). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "By the mid-13th century the Zagwe kingdom no longer used only the Dahlak sultanate as its Red Sea outlet and had begun to use the Zeila route through its southern provinces (GHA IV ch.17, p.430). Muslims controlled the caravan trade from the Gulf of Aden, and Christians in Shoa and Amhara acted as middlemen to the Zagwe heartland (p.432). The source gives no Zagwe trade with the Sudan.",
  "economy_ar": "بحلول منتصف القرن الثالث عشر لم تعد مملكة زاغوي تعتمد على سلطنة دهلك وحدها منفذاً إلى البحر الأحمر، وبدأت تستخدم طريق زيلع عبر أقاليمها الجنوبية (تاريخ أفريقيا العام IV، الفصل 17، ص430). وسيطر المسلمون على تجارة القوافل من خليج عدن، وعمل مسيحيو شوا وأمهرة وسطاء نحو قلب المملكة (ص432). ولا يذكر المصدر تجارة زاغوية مع السودان. [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "GHA3_CH19",
   "GHA4_CH17",
@@ -37,7 +37,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "No direct Zagwe–Nubia contact is documented in GHA III/IV; the Nubian king's role (p.566) is the pre-Zagwe 10th-century crisis",
   "Zagwe origin story is described by Mekouria as 'romanticized' tradition (GHA III ch.19, p.568)"
@@ -56,5 +55,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

@@ -29,7 +29,7 @@
  "culture_dominance_ar": "دولة إسلامية صغيرة في جبال النوبة «تعود أصول أسرتها المالكة إلى زواج رجل دين جعلي من أميرة محلية» (هولت وديلي، المقدمة ص4).",
  "economy_en": "Regional context only: the Funj 'penetrated the Nuba mountains, one of the principal slave-raiding regions', and reduced 'the newly established Islamized kingdom of Takali' to subordinate status. Captives from the non-Muslim 'hill-Nuba' were settled around Sennar as the sultan's slave bodyguard (GHA V ch.7, p.177). Whether Taqali was tributary is disputed (Ewald 1983, cited in fn.24). Nothing read describes Taqali's own production or trade.",
  "economy_ar": "سياق إقليمي فقط: «توغّل الفونج في جبال النوبة، وهي من أهم مناطق الإغارة لجلب الرقيق»، وأخضعوا «مملكة تقلي المسلمة الناشئة» لوضع تابع. وأُسكن الأسرى من «نوبة الجبال» غير المسلمين حول سنار ليكونوا حرساً للسلطان من الرقيق (تاريخ أفريقيا العام V، الفصل 7، ص177). وتبعية تقلي محل خلاف (إيوالد 1983، الحاشية 24). ولا يصف أي مصدر مقروء إنتاج تقلي أو تجارتها. [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "HD2011",
   "TAKANA2016",
@@ -41,7 +41,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 13 text: Arabic is a working translation; needs native review",
   "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
@@ -63,5 +62,6 @@
    ],
    "flag": "power_cinc_share null: not a COW system member; no new editorial score added (Pass 22d)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

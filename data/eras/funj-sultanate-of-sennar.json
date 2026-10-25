@@ -37,23 +37,7 @@
  "culture_dominance_ar": "انتشار الإسلام والطرق الصوفية؛ وانتشار الهوية النسبية العربية (الجعلية/العباسية، جهينة) بين سكان ضفاف النيل (هولت وديلي).",
  "economy_en": "North–south route Sennar–Egypt and west–east route Darfur–Suakin; Shendi the main market by c.1800; staples millet and dammur cloth used as currency, foreign silver for large deals; slaves of pre-eminent importance in trade (Holt & Daly).",
  "economy_ar": "طريق شمالي–جنوبي بين سنار ومصر، وطريق غربي–شرقي بين دارفور وسواكن؛ وشندي السوق الرئيسية نحو 1800؛ والذرة وقماش الدمور وسيلتا تبادل، والفضة الأجنبية للصفقات الكبيرة؛ وللرقيق أهمية بارزة في التجارة (هولت وديلي).",
- "regional_power": [
-  {
-   "actor": "Funj Sultanate",
-   "score": null,
-   "flag": "suzerainty attested (Holt & Daly) but no comparative measure"
-  },
-  {
-   "actor": "Darfur",
-   "score": null,
-   "flag": "unscored"
-  },
-  {
-   "actor": "Ottoman Egypt",
-   "score": null,
-   "flag": "unscored"
-  }
- ],
+ "regional_power": null,
  "sources": [
   "HD2011",
   "SPAULDING1985",
@@ -63,11 +47,7 @@
  "source_langs": [
   "en"
  ],
- "flags": [
-  "suzerainty attested (Holt & Daly) but no comparative measure",
-  "unscored",
-  "unscored"
- ],
+ "flags": [],
  "curated": true,
  "power_cinc_share": [
   {
@@ -82,5 +62,6 @@
    "null_reason": "not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated",
    "flag": "power_cinc_share null: not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

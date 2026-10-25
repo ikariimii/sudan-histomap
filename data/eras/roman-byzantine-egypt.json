@@ -29,7 +29,7 @@
  "culture_dominance_ar": "كانت «أكثر علاقات مروي ثباتاً» مع معبد إيزيس في فيلة، حيث حملت السفارات هدايا ثمينة وتركت نقوشاً بالديموطيقية واليونانية والمروية؛ وجاءت سفارة مؤرخة في عهد تقريديماني عام 253م (تاريخ أفريقيا العام II، الفصل 10، ص292). وبعد انتشار المسيحية ظل البليميون والنوباديون يُسمح لهم بزيارة فيلة واستعارة تمثال إيزيس في الأعياد (ص295). وأقام الأساقفة في فيلة منذ القرن الرابع، وفتحت المسيحية للنوبة الطريق إلى مصر وبيزنطة (الفصل 12، ص331). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "Roman coins reached Nubia and the Sudan 'though in very small numbers': a coin of Claudius at Meroe, one of Nero at Karanog, one of Diocletian 'far into Kordofan (El Obeid)', and a mid-4th-century coin at Sennar (GHA II ch.10, p.292). Under Diocletian, Rome paid the Blemmyes and Nobades sums which their kings called tribute (ch.7, p.215).",
  "economy_ar": "وصلت النقود الرومانية إلى النوبة والسودان «وإن بأعداد قليلة جداً»: عملة لكلوديوس في مروي، وأخرى لنيرون في كرانوج، وأخرى لديوكلتيانوس «في عمق كردفان (الأبيض)»، وعملة من منتصف القرن الرابع في سنار (تاريخ أفريقيا العام II، الفصل 10، ص292). وفي عهد ديوكلتيانوس دفعت روما للبليميين والنوباديين مبالغ سمّاها ملوكهم جزية (الفصل 7، ص215). [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "GHA2_CH7",
   "GHA2_CH10",
@@ -41,7 +41,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field"
  ],
  "curated": true,
@@ -58,5 +57,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

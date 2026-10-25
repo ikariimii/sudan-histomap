@@ -29,7 +29,7 @@
  "culture_dominance_ar": "منذ الدولة القديمة رأت مصر في السودان مصدراً للأيدي العاملة والماشية. و«تا-سيتي»، اسمها للنوبة السفلى، يعني «أرض القوس» (تاريخ أفريقيا العام II، الفصل 4، ص141 والحاشية 14). وفي بوهين مستوطنة من الدولة القديمة فيها أختام فرعونية من أواخر الأسرة الرابعة والخامسة (الفصل 8، ص235). وجلب حرخوف قزماً راقصاً من يام لبيبي الثاني الصغير (الفصل 9، ص251). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "From about 2500 BC the Egyptians set up furnaces at Buhen to smelt local copper, which proves 'African copper was produced at this time' (GHA II ch.4, p.142 fn.15; ch.8, p.235). Harkhuf returned from Yam 'with 300 donkeys loaded with incense, ebony, oil, panther skins, elephant tusks' and other goods (ch.9, p.251).",
  "economy_ar": "منذ نحو 2500 ق.م أقام المصريون أفراناً في بوهين لصهر النحاس المحلي، ما يثبت أن «النحاس الأفريقي كان يُنتج في ذلك الوقت» (تاريخ أفريقيا العام II، الفصل 4، ص142 الحاشية 15؛ الفصل 8، ص235). وعاد حرخوف من يام «ومعه 300 حمار محمّلة بالبخور والأبنوس والزيت وجلود الفهود وأنياب الفيلة» وغيرها (الفصل 9، ص251). [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "GHA2_CH2",
   "GHA2_CH4",
@@ -43,7 +43,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "CONTESTED – Snefru's Nubian captives: 110,000 (GHA II p.235) vs 7,000 (p.141 fn.14)"
  ],
@@ -61,5 +60,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

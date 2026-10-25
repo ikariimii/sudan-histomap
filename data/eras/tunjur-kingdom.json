@@ -25,7 +25,7 @@
  "culture_dominance_ar": "«كان الإسلام معروفاً ديناً في عهد سلطنة التنجر»، لكنه لم يصبح سائداً إلا في عهد السلطان الفوراوي سليمان سولونق (بلفور-بول عبر تكنة 2016، ص51). ويقول تكنة إن «سلاطين التنجر هم أول من أدخل الإسلام إلى المنطقة». ويصف نسب المؤسسين وثقافتهم القبلية بأنها «عربية في معظم جوانبها»، مستشهداً بوثيقة نسب تذكر أملاك السلطان الأخير في المدينة المنورة (ص51–52). وتذكر روايات التنجر الشفهية أصلاً شرقياً (نيلياً)، مع وجود عشائر لهم حول بحيرة تشاد أيضاً (ص68). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "Under the Tunjur (c.1400–1600), Islamic influences 'resulted from wide commercial contact with the Muslim world' and from Arab immigration (GHA V ch.7, p.187). Wadai paid tribute to the Tunjur kings and later continued paying it to the Keira sultanate (p.188).",
  "economy_ar": "في عهد التنجر (نحو 1400–1600) جاءت المؤثرات الإسلامية «نتيجة اتصال تجاري واسع بالعالم الإسلامي» وهجرة العرب (تاريخ أفريقيا العام V، الفصل 7، ص187). وكانت وداي تدفع الجزية لملوك التنجر، ثم استمرت في دفعها لسلطنة الكيرا (ص188). [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "TAKANA2016",
   "COW_NMC6",
@@ -38,7 +38,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "SINGLE-SOURCE (Takana 2016, which reports al-Tunisi, Nachtigal, Arkell and Balfour-Paul second-hand; O'Fahey 2008 not read)",
   "CONTESTED – Arab lineage of Tunjur sultans rests on a lineage document reported by Takana; Arkell's Borno thesis",
@@ -58,5 +57,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

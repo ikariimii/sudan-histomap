@@ -25,7 +25,7 @@
  "culture_dominance_ar": "تذكر روايات الداجو الشفهية هجرةً إلى دارفور من الشرق (النيل)، مع أن للداجو أيضاً عشائر حول بحيرة تشاد (تكنة 2016، ص68). ويقول تكنة إن ممالك دارفور كلها، ومنها الداجو، «ارتبطت بالعرب منذ البداية» (تكنة 2016، ص52). ويؤرّخ القانون العرفي في دارفور بـ«قيام سلطنتي الداجو والتنجر المبكرتين» (ص109). رواية شفهية منقولة بصورة غير مباشرة. [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "Hasan & Ogot report the oral tradition that the Daju kingdom 'flourished during the thirteenth and fourteenth centuries' and that, 'on losing control over the trade', the Daju were succeeded by the Tunjur early in the 15th century (GHA V ch.7, p.187). Which trade is not specified. Oral tradition, reported second-hand.",
  "economy_ar": "ينقل حسن وأوغوت الرواية الشفهية بأن مملكة الداجو «ازدهرت في القرنين الثالث عشر والرابع عشر»، وأن الداجو، «بعد أن فقدوا السيطرة على التجارة»، خلفهم التنجر في مطلع القرن الخامس عشر (تاريخ أفريقيا العام V، الفصل 7، ص187). ولا يُحدَّد نوع التجارة. رواية شفهية منقولة. [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "TAKANA2016",
   "COW_NMC6",
@@ -38,7 +38,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "SINGLE-SOURCE (Takana 2016, which reports al-Tunisi, Nachtigal, Arkell and Balfour-Paul second-hand; O'Fahey 2008 not read)",
   "CONTESTED – Arkell's 'extension of Borno' thesis (reported in Takana p.6); Dajo dating not given in sources read",
@@ -59,5 +58,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

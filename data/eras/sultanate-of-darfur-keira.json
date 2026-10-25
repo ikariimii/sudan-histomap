@@ -37,13 +37,7 @@
  "culture_dominance_ar": "أسرة فوراوية مسلمة تدّعي النسب العباسي (هولت وديلي).",
  "economy_en": "The Forty Days' Road (Darb al-arba'in) from Kubayh to Asyut in Egypt; slave raiding and trading (Holt & Daly; O'Fahey ToC).",
  "economy_ar": "درب الأربعين من كوبيه إلى أسيوط في مصر؛ وغزو الرقيق والاتجار بهم (هولت وديلي؛ فهرس أوفاهي).",
- "regional_power": [
-  {
-   "actor": "Darfur",
-   "score": null,
-   "flag": "unscored"
-  }
- ],
+ "regional_power": null,
  "sources": [
   "OFAHEY2008",
   "HD2011",
@@ -53,9 +47,7 @@
  "source_langs": [
   "en"
  ],
- "flags": [
-  "unscored"
- ],
+ "flags": [],
  "curated": true,
  "power_cinc_share": [
   {
@@ -70,5 +62,6 @@
    "null_reason": "not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated",
    "flag": "power_cinc_share null: not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

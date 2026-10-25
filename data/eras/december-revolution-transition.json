@@ -41,7 +41,7 @@
  "culture_dominance_ar": "[WORKING TRANSLATION – needs native Arabic review] صارت الجداريات والرسوم، ومعظمها على جدران محيط القيادة العامة حيث الاعتصام، رمزاً للثورة إلى جانب الموسيقى، واحتجّت قوى الحرية والتغيير في أغسطس 2019 على طمسها (AFP_GRAFFITI2019). وحملت الجداريات الشعارات الثلاثة «حرية سلام وعدالة» (AYIN_MURALS2022). وبدأ المحو مع فض الاعتصام في 3 يونيو 2019 وتجدّد بعد انقلاب أكتوبر 2021، ويقدّر أحد التشكيليين أن 70% من جداريات الثورة أُزيلت [مصدر واحد، شاهد واحد: AYIN_MURALS2022]. النساء: يُقال إنهن شكّلن ما يصل إلى 70% من المحتجين، مع أن المصدر يذكر أن أصل هذا الرقم غير واضح [مصدر واحد، بتحفّظ: JPIA_GENDER2020]. ومن الرموز الثوب الأبيض ولقب «كنداكة» (من ملكات كوش، وانتقدته بعض الناشطات) وصورة آلاء صلاح في أبريل 2019، وقد اعترضت ناشطات سودانيات على تقديمها أيقونةً منفردة. وألغت الفترة الانتقالية معظم قوانين النظام العام وجرّمت ختان الإناث، ونصّت الوثيقة الدستورية على حصة 40% للنساء في مجلس تشريعي لم يُشكَّل حتى أبريل 2020 (JPIA_GENDER2020).",
  "economy_en": "The transitional government ran an IMF Staff-Monitored Program from 2020 (IMF_CR21082, 2021-03-08). On 21 Feb 2021 the Central Bank unified the official and parallel rates under a 'managed float' (AJA_FLOAT2021, 2021-02-21; IMF_CR21143 para 6, 2021-06-21); bankers put the indicative rate at SDG 375/USD against the old official 55 [SINGLE-SOURCE: AJA_FLOAT2021 citing Reuters]. The IMF lists fuel-subsidy removal, higher electricity tariffs and 2021 budget tax measures alongside unification (IMF_CR21082). Inflation: 304.33% y-o-y in Jan 2021 [SINGLE-SOURCE: AJA_FLOAT2021 citing Anadolu] and 342% y-o-y in Mar 2021 [SINGLE-SOURCE: IMF_CR21143 para 6], driven by fuel price hikes and food/fuel shortages. On 29 Jun 2021 Sudan reached the HIPC Decision Point (38th country): external debt c. USD 56bn NPV (163% of GDP, end-2020), with total relief of more than USD 50bn NPV, over 90% of external debt, if Completion Point were reached in about three years; enhanced-HIPC relief USD 23.3bn [SINGLE-SOURCE: IMF_PR21199, a joint IMF/WB release, 2021-06-29]. After the 25 Oct 2021 coup the World Bank paused disbursements in all Sudan operations (WB_PAUSE2021, 2021-10-27). Earlier context: ICG2019 describes a 'crushing economic crisis'.",
  "economy_ar": "[WORKING TRANSLATION – needs native Arabic review] نفّذت الحكومة الانتقالية برنامجاً يراقبه خبراء صندوق النقد الدولي منذ 2020 (IMF_CR21082). وفي 21 فبراير 2021 وحّد بنك السودان المركزي سعري الصرف الرسمي والموازي بنظام «سعر الصرف المرن المدار» («تعويم جزئي») (AJA_FLOAT2021؛ IMF_CR21143 الفقرة 6)، وحدّد سعراً استرشادياً عند 375 جنيهاً للدولار بدلاً من 55 جنيهاً وفق مصادر مصرفية [مصدر واحد: AJA_FLOAT2021 نقلاً عن رويترز]. ويذكر الصندوق إلى جانب ذلك رفع دعم الوقود وزيادة تعرفة الكهرباء وإجراءات ضريبية في موازنة 2021 (IMF_CR21082). التضخم: 304.33% سنوياً في يناير 2021 [مصدر واحد: AJA_FLOAT2021 نقلاً عن الأناضول] و342% في مارس 2021 [مصدر واحد: IMF_CR21143]. وفي 29 يونيو 2021 بلغ السودان «نقطة القرار» في مبادرة الدول الفقيرة المثقلة بالديون (هيبك)، الدولة الثامنة والثلاثين: دين خارجي نحو 56 مليار دولار بالقيمة الحالية (163% من الناتج، نهاية 2020)، وإعفاء إجمالي يتجاوز 50 مليار دولار (أكثر من 90% من الدين) إذا بلغ «نقطة الإنجاز» بعد نحو ثلاث سنوات [مصدر واحد: IMF_PR21199، بيان مشترك]. وبعد انقلاب 25 أكتوبر 2021 علّق البنك الدولي صرف الأموال في جميع عملياته بالسودان (WB_PAUSE2021).",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "ICG2019",
   "ICG2021",
@@ -62,7 +62,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
   "no CINC: COW NMC v6 ends 2016 and era starts 2019; WDI indicators listed for context only, not scored",
   "Arabic: working translation, needs native review"
@@ -81,5 +80,6 @@
    "flag": "no CINC: COW NMC v6 ends 2016 and era starts 2019; WDI indicators listed for context only, not scored",
    "null_reason": "data ends 2016"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

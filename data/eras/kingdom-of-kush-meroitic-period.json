@@ -74,18 +74,7 @@
  "culture_dominance_ar": "ابتكارات محلية: الكتابة المروية، والعبادة الرسمية لآلهة محلية مثل الإله الأسد أباداماك، والملكات الحاكمات (الكنداكات). وتجمع النقعة بين عناصر أفريقية ومصرية وهلنستية.",
  "economy_en": "Iron working at Meroe (large slag heaps, WHC/GHA); Red Sea trade with Greek merchants (PRC Embassy text); great hafir reservoirs (DAI Musawwarat).",
  "economy_ar": "صناعة الحديد في مروي (أكوام خبث كبيرة)؛ والتجارة عبر البحر الأحمر مع التجار الإغريق (نص سفارة الصين)؛ وخزانات الحفير الكبرى (مشروع المصورات).",
- "regional_power": [
-  {
-   "actor": "Meroe/Kush",
-   "score": null,
-   "flag": "sources describe Meroe as a 'powerful rival' of Egypt (Naga project) but give no measure"
-  },
-  {
-   "actor": "Roman Egypt",
-   "score": null,
-   "flag": "unscored"
-  }
- ],
+ "regional_power": null,
  "sources": [
   "GHA2",
   "WHC1336",
@@ -109,10 +98,7 @@
   "fr",
   "zh"
  ],
- "flags": [
-  "sources describe Meroe as a 'powerful rival' of Egypt (Naga project) but give no measure",
-  "unscored"
- ],
+ "flags": [],
  "curated": true,
  "power_cinc_share": [
   {
@@ -127,5 +113,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

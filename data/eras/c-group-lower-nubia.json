@@ -25,7 +25,7 @@
  "culture_dominance_ar": "ثقافة من العصر النحاسي الحجري بتقاليد دفن خاصة؛ مصليات من الطوب ملاصقة للمقابر؛ واستمرت رغم تزايد الاتصال بمصر.",
  "economy_en": "'Essentially cattle-herding people who lived in small camps or occasionally settled in villages'; inferred from rock pictures of cattle and the prominence of cattle in burial rites (GHA II ch.9, p.252).",
  "economy_ar": "«شعب رعاة ماشية في الأساس، عاشوا في مخيمات صغيرة أو استقروا أحياناً في قرى»؛ ويُستدل على ذلك من رسوم الماشية الصخرية وبروز الماشية في طقوس الدفن (تاريخ أفريقيا العام II، الفصل 9، ص252).",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "GHA2",
   "SFDAS_HCS2017",
@@ -39,7 +39,6 @@
   "fr"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 13 text: Arabic is a working translation; needs native review"
  ],
  "curated": true,
@@ -56,5 +55,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

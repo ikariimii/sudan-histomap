@@ -39,7 +39,7 @@
  "culture_dominance_ar": "التمصير: بعد مقاومة أولى، بنى ملوك الأسرتين الثامنة عشرة والتاسعة عشرة المعابد في أنحاء النوبة؛ وكان نائب الملك أيضاً الرئيس الديني للبلاد (تاريخ أفريقيا العام II، الفصل 9، ص270).",
  "economy_en": "Gold was 'the principal product of Nubia', mined around Wadi el-Allaqi, Wadi Gabgaba and along the Nile to Abu Hamed; Wawat's annual tribute under Thutmose III was 550 pounds. Tribute also included ebony, ivory, incense, cattle, skins and, by the late 18th Dynasty, manufactured goods (GHA II ch.9, pp.272–273).",
  "economy_ar": "كان الذهب «المنتج الرئيسي للنوبة»، ويُستخرج حول وادي العلاقي ووادي جبجبة وعلى طول النيل حتى أبي حمد؛ وبلغت جزية واوات السنوية في عهد تحتمس الثالث 550 رطلاً. وشملت الجزية أيضاً الأبنوس والعاج والبخور والماشية والجلود، ثم السلع المصنوعة بحلول أواخر الأسرة الثامنة عشرة (تاريخ أفريقيا العام II، الفصل 9، ص272–273).",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "GHA2",
   "COW_NMC6",
@@ -51,7 +51,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 13 text: Arabic is a working translation; needs native review"
  ],
  "curated": true,
@@ -68,5 +67,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

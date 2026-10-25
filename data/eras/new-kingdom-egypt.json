@@ -29,7 +29,7 @@
  "culture_dominance_ar": "أدّت الإدارة المصرية إلى «تمصير كامل للنوبة»: فقد تبنّى النوبيون الديانة المصرية وطقوس الدفن والتقنيات. وتعلّم أبناء الأمراء في البلاط الملكي حيث «نسوا لغتهم»، وعاش جحوتي حتب، أمير سرة، عيشة المصريين من الطبقة العليا (تاريخ أفريقيا العام II، الفصل 9، ص271). ويذكر يويوت أن مصر «رسّخت عبادة إله طيبة [آمون] في أرض كوش» (الفصل 3، ص128). ويضيف زايد أن سكان الوادي الأعلى، رغم تمصيرهم، «لم يصبحوا مصريين» (الفصل 4، ص144). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "'The principal product of Nubia was gold.' Under Tuthmose III the annual tribute of Wawat alone was 550 pounds. Gold came from the Wadi Allaqi and Wadi Gabgaba mines in the eastern desert and from mines along the Nile as far south as Abu Hamed. Other tribute included ebony, ivory, cattle, and by the late 18th Dynasty manufactured goods such as shields, stools and beds (GHA II ch.9, p.273). Seti I and Ramses II tried to supply the gold-mine route with water (p.269).",
  "economy_ar": "«كان الذهب المنتَج الرئيسي للنوبة». ففي عهد تحتمس الثالث بلغت الجزية السنوية لواوات وحدها 550 رطلاً. وجاء الذهب من مناجم وادي العلاقي ووادي جبجبة في الصحراء الشرقية ومن مناجم على امتداد النيل حتى أبو حمد جنوباً. وشملت الجزية أيضاً الأبنوس والعاج والماشية، ومع أواخر الأسرة الثامنة عشرة سلعاً مصنوعة مثل الدروع والكراسي والأسرّة (تاريخ أفريقيا العام II، الفصل 9، ص273). وحاول سيتي الأول ورمسيس الثاني توفير المياه لطريق مناجم الذهب (ص269). [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "GHA2_CH3",
   "GHA2_CH4",
@@ -42,7 +42,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field"
  ],
  "curated": true,
@@ -59,5 +58,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

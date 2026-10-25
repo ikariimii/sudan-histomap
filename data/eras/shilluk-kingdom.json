@@ -37,13 +37,7 @@
  "culture_dominance_ar": "يؤرّخ أوغوت أول استيطان للشلك قرب ملكال بقيادة نيكانق (نحو 1490–1517). واستوعب المتحدثون باللوو عناصر من الفونج والنوبة وكوّنوا «ما عُرف بأمة الشلك» منذ أواخر القرن السابع عشر، في قرى على الضفة الغربية (تاريخ أفريقيا العام V، الفصل 7، ص193). وأسس الرث توقو (نحو 1690–1710) فشودة مقراً ملكياً دائماً، وكان كل رث قبل ذلك يحكم من قريته ويُدفن فيها. ووضع توقو أيضاً مراسم تنصيب الرث المفصّلة، ونشأ تراتب اجتماعي مع المركزية (ص197). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "Before 1860 a trading system grew up in the kingdom, which the reth (king) 'could no longer control' as foreigners came to dominate it. Kaka in northern Shillukland became the main slave market of the White Nile after 1854. Kate Petherick called the Shilluk 'an industrious people' who 'cultivated grain to a large extent'. One raid by Muhammad al-Khayr is recorded as taking 500 slaves and 12,000 head of cattle. Turco-Egyptian rule then imposed heavy cattle taxes, an annual tribute of £15,000 on the Shilluk and Jieng, and cotton grown with forced labour around Fashoda (5,000–6,000 ha by 1874) (GHA VI ch.14, pp.366–367).",
  "economy_ar": "قبل 1860 نشأ في المملكة نظام تجاري «لم يعد الرث (الملك) قادراً على السيطرة عليه» بعد أن هيمن عليه الأجانب. وأصبحت كاكا في شمال بلاد الشلك سوق الرقيق الرئيسية على النيل الأبيض بعد 1854. ووصفت كيت بيذريك الشلك بأنهم «شعب مجتهد» و«زرعوا الحبوب على نطاق واسع». وتسجّل المصادر غارة واحدة لمحمد الخير أُخذ فيها 500 من الرقيق و12 ألف رأس من الماشية. ثم فرض الحكم التركي المصري ضرائب ثقيلة على الماشية، وجزية سنوية قدرها 15 ألف جنيه على الشلك والجينق، وزراعة القطن بالسخرة حول فشودة (5–6 آلاف هكتار بحلول 1874) (تاريخ أفريقيا العام VI، الفصل 14، ص366–367). [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [
-  {
-   "actor": "Shilluk",
-   "score": null,
-   "flag": "'equal terms' with northern neighbours is qualitative only"
-  }
- ],
+ "regional_power": null,
  "sources": [
   "HD2011",
   "GHA6_CH14",
@@ -57,8 +51,7 @@
  "flags": [
   "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
-  "Shilluk dates from oral tradition (GHA V ch.7)",
-  "'equal terms' with northern neighbours is qualitative only"
+  "Shilluk dates from oral tradition (GHA V ch.7)"
  ],
  "curated": true,
  "power_cinc_share": [
@@ -74,5 +67,6 @@
    "null_reason": "not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated",
    "flag": "power_cinc_share null: not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

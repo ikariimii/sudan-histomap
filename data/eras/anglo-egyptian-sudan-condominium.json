@@ -37,18 +37,7 @@
  "culture_dominance_ar": "طوّرت سياسة الجنوب الإقليمَ الجنوبي بمعزل: حُظر التبشير الإسلامي وشُجعت البعثات المسيحية، واعتمدت مدارس البعثات الإنجليزية بينما صارت العربية لغة الشمال.",
  "economy_en": "Kitchener's railway reached Khartoum, was linked to the Red Sea in 1905 (Port Sudan and Atbara founded), extended to Sennar and reached Kordofan by 1911; a Sennar–Port Sudan line opened in 1924. Egyptian long-staple cotton; the Gezira Scheme irrigated via the Sennar dam; Gash zone; 1929 Nile waters convention (GHA VIII).",
  "economy_ar": "بلغ خط سكة حديد كتشنر الخرطوم، ورُبط بالبحر الأحمر 1905 (تأسيس بورتسودان وعطبرة)، ومُدّ إلى سنار ثم بلغ كردفان بحلول 1911؛ وافتُتح خط سنار–بورتسودان 1924. والقطن المصري طويل التيلة؛ ومشروع الجزيرة المروي بخزان سنار؛ ومنطقة القاش؛ واتفاقية مياه النيل 1929.",
- "regional_power": [
-  {
-   "actor": "Britain",
-   "score": null,
-   "flag": "BRE: de facto colony - qualitative"
-  },
-  {
-   "actor": "Egypt",
-   "score": null,
-   "flag": "unscored"
-  }
- ],
+ "regional_power": null,
  "sources": [
   "BRE_AES",
   "GHA8",
@@ -62,9 +51,7 @@
   "ru"
  ],
  "flags": [
-  "Pass 13 text: Arabic is a working translation; needs native review",
-  "BRE: de facto colony - qualitative",
-  "unscored"
+  "Pass 13 text: Arabic is a working translation; needs native review"
  ],
  "curated": true,
  "power_cinc_share": [
@@ -80,5 +67,6 @@
    "null_reason": "not a COW system member: Sudan (ccode 625) enters COW only in 1956; the Condominium has no state row in COW NMC v6.0; not estimated",
    "flag": "power_cinc_share null: not a COW system member: Sudan (ccode 625) enters COW only in 1956; the Condominium has no state row in COW NMC v6.0; not estimated (Pass 32)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

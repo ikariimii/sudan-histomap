@@ -25,7 +25,7 @@
  "culture_dominance_ar": "وصل الإسلام إلى كانم عبر كوار، وعلى الأرجح أولاً في صيغته الإباضية التي حملها تجار أمازيغ (تاريخ أفريقيا العام III، الفصل 15، ص451 و459). ولم يكن الملك هُمّي (1075–1086) أول حاكم مسلم؛ فقد كان الإسلام ينتشر منذ قرنين قبله (ص459). وتتكلم شعوب كانم الناطقة باللغات الصحراوية، الزغاوة والتيدا-دازا والكانوري، لغات نيلية-صحراوية (ص444). ولا يزال عرب تشاد والسودان يعدّون الزغاوة شعباً متميزاً (ص440). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "The camel, probably introduced from the Nile valley, opened Saharan crossings (GHA III ch.15, p.437). Lange conjectures that early trade with the Nile valley through Darfur and Kordofan mattered more than the Fezzan route (p.437). The king probably held a monopoly on acquiring slaves (p.459). Kawar exported alum as far as Egypt, and the Fezzan controlled both the north–south and the Egypt–west African routes (GHA IV ch.10, p.249).",
  "economy_ar": "فتح الجمل، الذي أُدخل على الأرجح من وادي النيل، طرق عبور الصحراء (تاريخ أفريقيا العام III، الفصل 15، ص437). ويرجّح لانغ أن التجارة المبكرة مع وادي النيل عبر دارفور وكردفان كانت أهم من طريق فزان (ص437). وكان الملك على الأرجح يحتكر الحصول على الرقيق (ص459). وصدّرت كوار الشبّ حتى مصر، وتحكّمت فزان في الطريق الشمالي-الجنوبي وفي الطريق بين مصر وغرب أفريقيا معاً (IV، الفصل 10، ص249). [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "GHA3_CH15",
   "GHA4_CH10",
@@ -38,7 +38,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "CONJECTURE (source's own word) – early Kanem trade with the Nile valley via Darfur/Kordofan 'more important' (GHA III ch.15, p.437)",
   "Zaghawa identity: Lange argues the name grew with the Kanem state; the present-day Zaghawa are not the same as the medieval group (GHA IV ch.10, p.246 n.18)"
@@ -57,5 +56,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

@@ -42,7 +42,7 @@
  "culture_dominance_ar": "تنصّرت على المذهب الملكاني (الأرثوذكسي) ببعثة جستنيان (567–570) ثم اعتنقت المونوفيزية بين 660 و700 (ويُنسب إدخالها إلى الملك مركوريوس منذ 697)؛ وكانت ألقاب الحكم على نمط البيروقراطية البيزنطية؛ وكشفت الحفريات البولندية في دنقلا العجوز عن كنائس والقصر الملكي.",
  "economy_en": "Raids did not interrupt the constant trade between Nubia and Muslim Egypt (GHA II ch.12).",
  "economy_ar": "لم تقطع الغارات التجارة المستمرة بين النوبة ومصر الإسلامية.",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "GHA2_CH12",
   "WELSBY2002",
@@ -54,9 +54,7 @@
  "source_langs": [
   "en"
  ],
- "flags": [
-  "regional_power: no actors scored"
- ],
+ "flags": [],
  "curated": true,
  "power_cinc_share": [
   {
@@ -71,5 +69,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

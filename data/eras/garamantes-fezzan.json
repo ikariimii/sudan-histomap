@@ -25,7 +25,7 @@
  "culture_dominance_ar": "كانت دولة الجرمنت ذات تراتبية قبلية من النمط الأمازيغي تحت زعيم أعلى (أغليد). وبقيت الصحراء الوسطى والجنوبية على الديانات الإحيائية؛ ولم تؤكد الآثار ما يُروى عن تنصّر في أواخر القرن السادس (تاريخ أفريقيا العام II، الفصل 20، ص522). وكانت عرباتهم الشهيرة على الأرجح عربات استعراض لا عربات حرب أو تجارة (ص528). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "The Garamantes channelled Saharan trade north to the Syrtic ports. From Garama, routes ran east towards the Nile valley, either by the northern oases (Zuila, Zella, Aujila, Siwa) or by a southern line through Kufra (GHA II ch.20, p.526). This is the only Sudan-facing link in the source, and it concerns routes, not recorded exchange.",
  "economy_ar": "وجّه الجرمنت التجارة الصحراوية شمالاً إلى موانئ خليج سرت. ومن جرمة امتدت طرق شرقاً نحو وادي النيل، إما عبر الواحات الشمالية (زويلة وزلة وأوجلة وسيوة) أو عبر خط جنوبي يمر بالكفرة (تاريخ أفريقيا العام II، الفصل 20، ص526). وهذه هي الصلة الوحيدة بالسودان في المصدر، وهي تخص الطرق لا تبادلاً موثقاً. [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "GHA2_CH20",
   "COW_NMC6",
@@ -36,7 +36,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "SINGLE-SOURCE – GHA II ch.20 (Salama) only; no direct Garamantes–Nile-valley contact is documented in it, only routes"
  ],
@@ -54,5 +53,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

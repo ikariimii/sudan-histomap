@@ -23,7 +23,7 @@
  "culture_dominance_ar": "يربط أوغوت العصر الحديدي المتأخر لدى النيليين بوصول الأبقار ذات السنام إلى بحر الغزال و«اكتمال نمط الترحال الموسمي، ولا سيما لدى الجينق» (تاريخ أفريقيا العام V، الفصل 7، ص193). والجينق والناث واللوو شعوب «ناطقة بالجي»، وكلها تستخدم كلمة «جي» بمعنى «الناس» (ص196، الحاشية 59). ومنذ نحو 1630 توسّع الجينق في جنوب الجزيرة (ص196). ويلاحظ أن الهوية العرقية على هذه التخوم كانت مرنة، إذ كان الناس «يصبحون عرباً أو فوراً أو فونجاً أو شلكاً أو ناثاً أو جينق تبعاً للظروف السياسية والاقتصادية» (ص171). ولم تُقرأ إثنوغرافيا عن الدينكا (مثل فرانسيس دينق). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "Cattle herders; most live 'in the grassy flood-plains of the Bahr al-Ghazal, where they herd their cattle', others on the east bank of the White Nile (HD2011, intro p.3).",
  "economy_ar": "رعاة ماشية؛ يعيش معظمهم «في السهول الفيضية العشبية لبحر الغزال حيث يرعون ماشيتهم»، وآخرون على الضفة الشرقية للنيل الأبيض (هولت وديلي، المقدمة ص3).",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "HD2011",
   "COW_NMC6",
@@ -34,7 +34,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 13 text: Arabic is a working translation; needs native review",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
   "power_cinc_share null: communities, not a COW state; no new editorial score added (Pass 22d)",
@@ -54,5 +53,6 @@
    ],
    "flag": "power_cinc_share null: communities, not a COW state; no new editorial score added (Pass 22d)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

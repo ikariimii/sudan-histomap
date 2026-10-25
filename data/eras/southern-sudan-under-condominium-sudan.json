@@ -33,7 +33,7 @@
  "culture_dominance_ar": "شعوب الجنوب ليست في عمومها مسلمة ولا تدّعي النسب العربي؛ وقد «كُبحت [نزعتا الأسلمة والتعريب] في فترة الحكم الثنائي، حين حقق المبشرون الأوروبيون والأمريكيون تنصيراً محدوداً في الإقليم» (هولت وديلي، المقدمة ص2–3).",
  "economy_en": "The South's economy was held back by the Southern Policy. The Condominium's 'closed door' ordinances barred northern Sudanese from entering or working in the south, and 'although potentially a rich agricultural zone, the south's economic development suffered because of the region's isolation' (LOC1991_SOUTHPOL). In 1946 the Sudan Administrative Conference agreed to abolish the closed-door trade restrictions and let southerners seek work in the north (LOC1991_SOUTHUNITY). In the southwest the British set up the Azande Scheme of cotton growing and resettlement; it 'failed', partly through 'an inadequate understanding of Azande society, economy, and values' by its planners, and a revived project in the early 1980s was stopped by the 1983 war (LOC1991_NONMUSLIM). GHA VIII adds only that Southern Sudan 'was neither politically free nor economically protected' (GHAVIII, p.924). [No figures read]",
  "economy_ar": "تعطّل اقتصاد الجنوب بسبب السياسة الجنوبية. فقد منعت قوانين «المناطق المقفولة» في تلك الفترة الشماليين من دخول الجنوب أو العمل فيه، و«مع أن الجنوب منطقة زراعية غنية محتملة، فقد عانت تنميته الاقتصادية من عزلة الإقليم» (LOC1991_SOUTHPOL). وفي 1946 وافق مؤتمر إدارة السودان على إلغاء قيود التجارة المرتبطة بالمناطق المقفولة والسماح للجنوبيين بالبحث عن عمل في الشمال (LOC1991_SOUTHUNITY). وفي الجنوب الغربي أقام البريطانيون مشروع الزاندي لزراعة القطن وإعادة التوطين، لكنه «فشل» جزئيًا بسبب «فهم غير كافٍ لمجتمع الزاندي واقتصادهم وقيمهم» لدى المخططين، وأوقفت حربُ 1983 مشروعًا معدّلًا طُرح مطلع الثمانينيات (LOC1991_NONMUSLIM). ويضيف تاريخ أفريقيا العام VIII فقط أن جنوب السودان «لم يكن حرًا سياسيًا ولا محميًا اقتصاديًا» (GHAVIII، ص 924). [لم تُقرأ أرقام] [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "HD2011",
   "GHA7_CH4",
@@ -51,7 +51,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 13 text: Arabic is a working translation; needs native review",
   "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
@@ -73,5 +72,6 @@
    ],
    "flag": "power_cinc_share null: a region, not a COW state, before 2011; no new editorial score added (Pass 22d)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

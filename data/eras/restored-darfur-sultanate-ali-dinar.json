@@ -29,7 +29,7 @@
  "culture_dominance_ar": "إحياء تقاليد أسرة الكيرا والتقاليد الإسلامية: نحو عام 1910 أعاد علي دينار بناء أضرحة سلاطين دارفور السابقين في طرّة (جبل مرّة) «بالطوب الأحمر بسقوف من القش» (ماكمايكل 1922، المجلد الأول، ص94 هامش 1).",
  "economy_en": "After the Mahdist defeat, Ali Dinar asked Khartoum to recognise him as sultan 'in return for loyalty to the government and payment of an annual tax'. Wingate agreed, writing that the government 'does not need money' and that the tax was a sign of loyalty (Takana 2016, pp.34–35). No source read describes the sultanate's internal economy or trade.",
  "economy_ar": "بعد هزيمة المهدية، طلب علي دينار من الخرطوم الاعتراف به سلطاناً «مقابل الولاء للحكومة ودفع ضريبة سنوية». ووافق ونجت، وكتب أن الحكومة «لا تحتاج إلى المال» وأن الضريبة علامة ولاء (تكنة 2016، ص34–35). ولا يصف أي مصدر مقروء الاقتصاد الداخلي للسلطنة أو تجارتها. [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "GHA7_CH12",
   "TAKANA2016",
@@ -44,7 +44,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 13 text: Arabic is a working translation; needs native review",
   "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "SINGLE-SOURCE (Takana 2016, which reports al-Tunisi, Nachtigal, Arkell and Balfour-Paul second-hand; O'Fahey 2008 not read)",
@@ -66,5 +65,6 @@
    ],
    "flag": "power_cinc_share null: not a COW system member; no new editorial score added (Pass 22d)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

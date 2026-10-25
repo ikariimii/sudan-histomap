@@ -33,7 +33,7 @@
  "culture_dominance_ar": "وصلت بعثة بيزنطية بقيادة الأسقف لونجينوس إلى علوة نحو 580 بدعم من النوباديين، ووجدتها قد تنصرت جزئياً على يد الأكسوميين.",
  "economy_en": "Kropáček says the usual picture of a flourishing Alodia rests mainly on Ibn Sulaym (from 975) and Abu Salih (early 13th c.), plus Muslim merchants' reports, 'for 'Alwa was a good market for the purchase of slaves'. Abu Salih describes the kingdom 'in full prosperity, with some 400 churches'. In its decline, Arab immigrants took control of pastures, and its human resources were 'probably already weakened by the slave trade' (GHA IV ch.16, p.406). No account of production or taxation was read. GHA III adds Ibn Salim al-Aswani's account, quoted by al-Maqrizi: Soba had magnificent buildings and gardens and 'churches overflowing with gold', and Alodia's king ruled 'a land that was far more fertile' than Makuria. Jakobielski stresses 'we know next to nothing of Alodia' (GHA III ch.8, p.196). Ibn Hawqal reports that pastoral peoples in Kordofan owed allegiance to the king of Makuria or of Alodia (p.199).",
  "economy_ar": "يقول كروباتشيك إن الصورة المعتادة لعلوة مملكةً مزدهرة تستند أساساً إلى ابن سليم (منذ 975) وأبي صالح (أوائل القرن الثالث عشر)، إضافة إلى روايات التجار المسلمين، «إذ كانت علوة سوقاً جيدة لشراء الرقيق». ويصف أبو صالح المملكة «في أوج ازدهارها، وفيها نحو 400 كنيسة». وفي مرحلة انحدارها سيطر المهاجرون العرب على المراعي، وكانت مواردها البشرية «قد أضعفتها تجارة الرقيق على الأرجح» (تاريخ أفريقيا العام IV، الفصل 16، ص406). ولم يُقرأ أي وصف للإنتاج أو الضرائب. ويضيف المجلد الثالث رواية ابن سليم الأسواني التي نقلها المقريزي: كانت لسوبا مبانٍ وحدائق فخمة و«كنائس تفيض بالذهب»، وكان ملك علوة يحكم «أرضاً أخصب بكثير» من المقرة. ويؤكد ياكوبيلسكي أننا «لا نعرف شيئاً تقريباً عن علوة» (تاريخ أفريقيا العام III، الفصل 8، ص196). ويذكر ابن حوقل أن شعوباً رعوية في كردفان كانت تدين بالولاء لملك المقرة أو ملك علوة (ص199). [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "GHA2_CH12",
   "WELSBY2002",
@@ -48,7 +48,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "Pass 21: GHA III ch.7–8 added; Alodia evidence still largely from Ibn Salim via al-Maqrizi (second-hand)"
  ],
@@ -66,5 +65,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

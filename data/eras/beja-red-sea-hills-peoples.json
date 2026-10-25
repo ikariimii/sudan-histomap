@@ -45,7 +45,7 @@
  "culture_dominance_ar": "أسلموا مع تعريب متفاوت يقتصر أحياناً على ادعاء نسب عربي (هولت وديلي).",
  "economy_en": "Camel nomadism; some sedentarisation linked to the modern Gash and Tokar agricultural schemes (Holt & Daly).",
  "economy_ar": "رعي الإبل؛ مع بعض الاستقرار المرتبط بمشروعات القاش وطوكر الزراعية الحديثة (هولت وديلي).",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "HD2011",
   "GHA2",
@@ -56,7 +56,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
   "power_cinc_share null: peoples, not a COW state; no new editorial score added (Pass 22d)"
  ],
@@ -73,5 +72,6 @@
    ],
    "flag": "power_cinc_share null: peoples, not a COW state; no new editorial score added (Pass 22d)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

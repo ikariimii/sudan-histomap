@@ -30,7 +30,7 @@
  "culture_dominance_ar": "«ثقافة الإزميل» عند آركل، وسُمّيت العصر الحجري الحديث في الشهيناب نسبة إلى موقعها النموذجي الشهيناب (نُقّب 1949–1950). وفخارها (نحو 5000–3800 ق.م. معايَرة) مصقول وأرقّ جداراً، بزخارف مطبوعة بالتأرجح أو بالختم المتناوب، وأوانٍ دقيقة مصقولة سوداء وحمراء، وتنوع أكبر في الأشكال. وتتميز الأواني الجنائزية، مثل الأقداح الكأسية من مقابر كدروكة وكديرو والغابة، عن الأواني المنزلية. ويبدأ وضع الفخار في القبور في هذه الفترة (دِرْكولي 2021). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "Began in the early 5th millennium BC. Large permanent sites (Esh Shaheinab, Geili, el-Kadada, Kadero) coexisted with small seasonal sites used for specific economic tasks (Zakiab, Umm Direiwa). A still-humid riverine savannah allowed fishing and hunting alongside cattle grazing. Fully specialised mobile pastoralism developed in the 5th millennium BC in areas such as the Butana and Wadi Howar (D'Ercole 2021).",
  "economy_ar": "بدأ في أوائل الألف الخامس ق.م. وتعايشت مواقع دائمة كبيرة (الشهيناب والقيلي والكدادة وكديرو) مع مواقع موسمية صغيرة لأنشطة اقتصادية محددة (زاكياب وأم دريوة). وأتاحت سافانا نهرية لا تزال رطبة صيد الأسماك والحيوان إلى جانب رعي الماشية. وتطوّر الرعي المتخصص المتنقل في الألف الخامس ق.م. في مناطق مثل البطانة ووادي هور (دِرْكولي 2021). [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "AAR2021",
   "COW_NMC6",
@@ -42,7 +42,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "CONTESTED – migration vs transmission unresolved (AAR2021)",
@@ -62,5 +61,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

@@ -33,13 +33,7 @@
  "culture_dominance_ar": "عرف السودانيون الحكام بـ«الترك»؛ وأثارت محاباة الحكومة للشايقية والطريقة الختمية التنافس.",
  "economy_en": "Primary aim, per archival studies cited by Ibrahim: Sudanese manpower (slave raids, ghazwas, for the army) and gold, sought around Fazughli without success. Agriculture improved by Egyptian experts. A state monopoly exported indigo, gum, ivory and cattle to Egypt. Heavy cash taxes caused flight and revolt. White Nile slave traffic grew from 1840, with zeribas (forts) in the South (GHA VI ch.14).",
  "economy_ar": "الهدف الأساسي بحسب الدراسات الأرشيفية التي يستشهد بها إبراهيم: القوى البشرية السودانية (غزوات الرقيق لتجنيدهم في الجيش) والذهب الذي طُلب حول فازوغلي دون جدوى. وطوّر خبراء مصريون الزراعة. وصدّر احتكار حكومي النيلة والصمغ والعاج والماشية إلى مصر. وأدت الضرائب النقدية الباهظة إلى الهجرة والثورات. وتضخمت تجارة الرقيق على النيل الأبيض منذ 1840 مع إقامة الزرائب (الحصون) في الجنوب.",
- "regional_power": [
-  {
-   "actor": "Northern Muslim states vs Southern Sudan peoples (on the eve of 1821)",
-   "score": null,
-   "flag": "GHA VI: their powers were 'comparable, if not evenly balanced' – a relative statement, not a numeric score"
-  }
- ],
+ "regional_power": null,
  "sources": [
   "GHA6_CH14",
   "GHA7_CH4",
@@ -51,9 +45,7 @@
  "source_langs": [
   "en"
  ],
- "flags": [
-  "GHA VI: their powers were 'comparable, if not evenly balanced' – a relative statement, not a numeric score"
- ],
+ "flags": [],
  "curated": true,
  "power_cinc_share": [
   {
@@ -68,5 +60,6 @@
    "null_reason": "not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated",
    "flag": "power_cinc_share null: not a COW system member: the in-era years from 1816 on have no COW NMC v6.0 state row for this actor; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

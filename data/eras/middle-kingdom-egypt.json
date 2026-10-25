@@ -25,7 +25,7 @@
  "culture_dominance_ar": "تُظهر لوحات من بوهين أسراً مصرية عاشت طويلاً في النوبة في عهد الدولة الوسطى، وكانت لها أسماء مصرية و«تعبد الآلهة المحلية» (تاريخ أفريقيا العام II، الفصل 4، ص143). ويرى أبو بكر أن أمنمحات الأول ربما أسّس المركز التجاري المحصّن في كرمة، «الذي كان على ما يبدو مركزاً للنفوذ المصري منذ عهد سنوسرت الأول» (الفصل 2، ص98). ويشير شريف إلى أن هذا التفسير للدفوفة الغربية في كرمة قد شُكّك فيه (الفصل 9، ص259). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "Rocks in the Second Cataract were circumvented by a slipway for hauling boats, and a dam was built at Semna to ease navigation (GHA II ch.8, p.239). Adam argues that the Theban pharaohs knew Africa south of Semna was 'richly endowed with the raw materials and manpower Egypt lacked' (p.241). Inscriptions of Senusret I's reign record expeditions to Punt by sea (ch.4, p.145).",
  "economy_ar": "تُجووزت صخور الشلال الثاني بممر لجرّ القوارب، وبُني سد في سمنة لتسهيل الملاحة (تاريخ أفريقيا العام II، الفصل 8، ص239). ويرى آدم أن فراعنة طيبة كانوا يعلمون أن أفريقيا جنوب سمنة «غنية بالمواد الخام والأيدي العاملة التي تفتقر إليها مصر» (ص241). وتسجّل نقوش من عهد سنوسرت الأول بعثات بحرية إلى بونت (الفصل 4، ص145). [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "GHA2_CH2",
   "GHA2_CH4",
@@ -39,7 +39,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "CONTESTED – Kerma as Egyptian trading post (GHA II p.98) vs Sherif's doubts (p.259)"
  ],
@@ -57,5 +56,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

@@ -34,7 +34,7 @@
  "culture_dominance_ar": "تنصير رسمي على المذهب المونوفيزي ببعثة القس يوليانوس التي أرسلتها الإمبراطورة ثيودورا؛ وكانت المسيحية قد انتشرت بين الناس من مصر قبل ذلك؛ وتحول قصر الملوك في فرس لاحقاً إلى أقدم كاتدرائية.",
  "economy_en": "Caravans passing through Aswan carried trade (and beliefs) southward (GHA II ch.12).",
  "economy_ar": "حملت القوافل المارة بأسوان التجارة (والمعتقدات) نحو الجنوب.",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "GHA2_CH12",
   "WELSBY2002",
@@ -45,9 +45,7 @@
  "source_langs": [
   "en"
  ],
- "flags": [
-  "regional_power: no actors scored"
- ],
+ "flags": [],
  "curated": true,
  "power_cinc_share": [
   {
@@ -62,5 +60,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

@@ -25,7 +25,7 @@
  "culture_dominance_ar": "مدافن ملكية ركامية غنية في بلانة (نقّب عنها إمري 1938)؛ ويُستدل من فرس على وجود مسيحي قبل التنصير الرسمي (والتأريخ موضع خلاف).",
  "economy_en": "Two kinds of evidence only. (1) Imports: the Ballana and Qustul tumuli held Alexandrian silverware, huge bronze lamps and an ivory-inlaid chest, while the pottery stayed of traditional Meroitic type (GHA II ch.10, p.294). (2) Frontier payments: when Diocletian gave up Lower Nubia, the Blemmyes and Nobades were to guard Rome's southern frontier and 'were paid sums which their petty kings ... enjoyed calling tribute' (GHA II ch.7, p.215). Production and trade are not described.",
  "economy_ar": "نوعان من الأدلة فقط. (1) الواردات: احتوت مدافن بلانة وقسطل على أوانٍ فضية سكندرية ومصابيح برونزية ضخمة وصندوق مطعّم بالعاج، بينما بقي الفخار من الطراز المروي التقليدي (تاريخ أفريقيا العام II، الفصل 10، ص294). (2) مدفوعات الحدود: حين تخلّى ديوكلتيانوس عن النوبة السفلى، كُلّف البليميون والنوباديون بحراسة الحدود الجنوبية لروما و«كانوا يتقاضون مبالغ يحلو لملوكهم الصغار أن يسمّوها جزية» (تاريخ أفريقيا العام II، الفصل 7، ص215). ولا يُوصف الإنتاج أو التجارة. [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "GHA2",
   "GHA2_CH12",
@@ -40,7 +40,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "Ballana economy: inferred only from imports and Roman payments; GHA III not read"
  ],
@@ -58,5 +57,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

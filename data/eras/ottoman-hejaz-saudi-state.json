@@ -29,7 +29,7 @@
  "culture_dominance_ar": "جاءت معظم الطرق الصوفية في سودان الفونج من الحجاز. فقد قدم تاج الدين البهاري من مكة عام 1577 بدعوة من تاجر حاج سوداني، وأدخل الطريقة القادرية؛ وأدخل حمد بن محمد المجذوب، الذي درس في الحجاز، الطريقة الشاذلية (تاريخ أفريقيا العام V، الفصل 7، ص179–180). كما عمل معلمون من الحجاز في مملكة الفونج المبكرة (ص179). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "The 'Sudan Road' from Darfur and Sennar to Sawakin carried both trade and pilgrims to the Hijaz. By the early 19th century it was known as far as Futa Toro, as a shorter and cheaper pilgrim route than the desert crossing through Egypt (GHA V ch.7, p.181). Ottoman Egypt sent cash, grain and the Ka'ba cover to the Hijaz (ch.6, p.143); no figures for Sudanese trade with Arabia were read.",
  "economy_ar": "حمل «طريق السودان» من دارفور وسنار إلى سواكن التجارة والحجاج إلى الحجاز معاً. وبحلول أوائل القرن التاسع عشر عُرف حتى فوتا تورو، بوصفه طريق حج أقصر وأرخص من عبور الصحراء عبر مصر (تاريخ أفريقيا العام V، الفصل 7، ص181). وكانت مصر العثمانية ترسل النقود والحبوب وكسوة الكعبة إلى الحجاز (الفصل 6، ص143)؛ ولم تُقرأ أي أرقام عن تجارة السودان مع الجزيرة العربية. [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "COW_NMC6",
   "GHA5_CH6",
@@ -43,7 +43,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
   "power_cinc_share null: Saudi Arabia (COW 670) is outside the 8-state regional set; Ottoman Hejaz not a COW state; no new editorial score added (Pass 22d)",
   "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
@@ -63,5 +62,6 @@
    ],
    "flag": "power_cinc_share null: Saudi Arabia (COW 670) is outside the 8-state regional set; Ottoman Hejaz not a COW state; no new editorial score added (Pass 22d)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

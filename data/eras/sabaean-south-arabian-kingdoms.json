@@ -29,7 +29,7 @@
  "culture_dominance_ar": "في المرتفعات الإثيوبية تميّزت الفترة العربية الجنوبية بمعبد يحا وصلاته بمأرب، وبالمعبودين السبئيين ألمقه وعثتر (تاريخ أفريقيا العام II، الفصل 13، ص343 و345 و352). واستوعبت الثقافة المحلية ذلك في تركيب «إثيوبي-سبئي» (ص355). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "South Arabia supplied incense to Egypt before Egyptian ships went to Punt for it directly (GHA II ch.4, p.145). No Sabaean trade with the Sudan is documented in GHA II.",
  "economy_ar": "كانت بلاد العرب الجنوبية تورّد البخور إلى مصر قبل أن تذهب السفن المصرية إلى بونت لجلبه مباشرة (تاريخ أفريقيا العام II، الفصل 4، ص145). ولا يوثّق المجلد الثاني أي تجارة سبئية مع السودان. [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "GHA2_CH4",
   "GHA2_CH13",
@@ -43,7 +43,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "INDIRECT – GHA II gives no direct Saba–Sudan link; text covers Saba's presence in the Horn and its rivalry with Aksum",
   "SINGLE-SOURCE – each point rests on one GHA II chapter"
@@ -62,5 +61,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

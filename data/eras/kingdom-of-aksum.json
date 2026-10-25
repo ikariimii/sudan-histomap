@@ -34,7 +34,7 @@
  "culture_dominance_ar": "يرى كوبيشانوف أن التأثير المروي كان غالباً في أكسوم في القرنين الثاني والثالث (تاريخ أفريقيا العام II، الفصل 15، ص399)، ومنه العمارة (ص395). وعاش أتباع الديانة المصرية-المروية في أكسوم وعدوليس ومطرة (ص397). وسكّت أكسوم كذلك نقوداً بكتابة يونانية وكتبت بالجعزية (ص398). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "The Periplus names Koloè as the ivory market and Adulis as the market town (GHA II ch.14, p.369). Meroitic objects found at Aksum were trade goods or, more likely, spoils of war or tribute. Cotton cloth and iron may have come from Meroe, and gold from Sasu and perhaps from Beja country (ch.15, p.389).",
  "economy_ar": "يذكر كتاب «الطواف» أن كولوي كانت سوق العاج وأن عدوليس كانت المدينة التجارية (تاريخ أفريقيا العام II، الفصل 14، ص369). وكانت المصنوعات المروية الموجودة في أكسوم سلعاً تجارية أو، على الأرجح، غنائم حرب أو جزية. وربما جاءت الأقمشة القطنية والحديد من مروي، والذهب من ساسو وربما من بلاد البجا (الفصل 15، ص389). [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "GHA2_CH14",
   "GHA2_CH15",
@@ -48,7 +48,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "CONTESTED/SINGLE-SOURCE – Aksumite conquest of Meroe and vassal 'Alwa rest on Kobishanov (GHA II ch.15, p.384) reading Ezana's inscriptions; the scale and date of Meroe's end are debated",
   "Meroitic objects at Aksum: trade goods or more likely spoils/tribute (Kobishanov's interpretation, p.389)"
@@ -67,5 +66,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

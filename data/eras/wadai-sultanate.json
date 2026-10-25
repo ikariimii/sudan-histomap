@@ -29,7 +29,7 @@
  "culture_dominance_ar": "وقعت وداي في فلك برنو السياسي والثقافي والتجاري (تاريخ أفريقيا العام V، الفصل 17، ص511–512). وفي القرن التاسع عشر انتشرت الطريقة السنوسية جنوباً على طريق بنغازي–وداي وتوسطت بين بدو الصحراء (VI، الفصل 20، ص530؛ الفصل 17، ص473). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "Wadai's sultans promoted a direct Benghazi–Wadai route that bypassed Bornu and Darfur; by 1900 it was more vital than any other trans-Saharan route (GHA VI ch.20, p.530). It sent slaves to Egypt into the late 19th century and carried the most modern repeating rifles into the desert (p.533). The rise of this route caused Darfur's Darb al-Arba'in to decline after the mid-century (p.530). Earlier, slaves from Bornu–Wadai were already sold in the Nile valley (GHA V ch.7, p.184).",
  "economy_ar": "شجّع سلاطين وداي طريقاً مباشراً بين بنغازي ووداي يتجاوز برنو ودارفور؛ وبحلول 1900 صار أهم طرق الصحراء الكبرى (تاريخ أفريقيا العام VI، الفصل 20، ص530). وظل ينقل الرقيق إلى مصر حتى أواخر القرن التاسع عشر، وحمل أحدث البنادق المتكررة إلى الصحراء (ص533). وأدى صعود هذا الطريق إلى تراجع درب الأربعين الدارفوري بعد منتصف القرن (ص530). وقبل ذلك كان رقيق من برنو ووداي يُباع في وادي النيل (V، الفصل 7، ص184). [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "COW_NMC6",
   "GHA5_CH7",
@@ -45,7 +45,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
   "power_cinc_share null: not a COW system member; no new editorial score added (Pass 22d)",
   "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
@@ -64,5 +63,6 @@
    ],
    "flag": "power_cinc_share null: not a COW system member; no new editorial score added (Pass 22d)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

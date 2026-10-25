@@ -31,7 +31,7 @@
  "culture_dominance_ar": "كان المسبعات «أقارب للفور الكيرا» (تكنة 2016، ص25). ويذكرهم التونسي بين السلاطين المسلمين شرق جبل مرة الذين أخضعهم سليمان سولونق (تكنة 2016، ص10). ويقول تكنة إن أعراف شرق دارفور (دار دالي) «تأثرت بأعراف مملكتي سنار والمسبعات أكثر من تأثرها بأعراف سلطنة الفور» (ص131). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "No source read describes the Musaba'at economy itself. Holt & Daly note that rivalry over Kordofan, together with the Shilluk on the White Nile, made the direct caravan route from Kubayh to Sennar via El Obeid unsafe, so caravans went north from El Obeid to Shendi (HD2011, intro p.8). Holt & Daly do not name the Musaba'at; the link is the period and the region only.",
  "economy_ar": "لا يصف أي مصدر مقروء اقتصاد المسبعات نفسه. ويذكر هولت وديلي أن التنافس على كردفان، إلى جانب الشلك على النيل الأبيض، جعل طريق القوافل المباشر من كوبي إلى سنار عبر الأبيض غير آمن، فاتجهت القوافل شمالاً من الأبيض إلى شندي (هولت وديلي، المقدمة ص8). ولا يسمّي هولت وديلي المسبعات؛ فالصلة هي الفترة والإقليم فقط. [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "TAKANA2016",
   "HD2011",
@@ -44,7 +44,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "UNVERIFIED – economy text is regional context (HD2011 p.8), not about the Musaba'at as such"
  ],
@@ -62,5 +61,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

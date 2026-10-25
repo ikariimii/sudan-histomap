@@ -25,7 +25,7 @@
  "culture_dominance_ar": "يصف مبوكولو المجتمع الزاندي بأنه «أحجية عجيبة من العشائر والسلالات المقتلعة» يجمعها الولاء المشترك لأرستقراطية الفونغارا الحاكمة. وقدّرت النخب الفاتحة الصيد، وتعلّمت الزراعة من المغلوبين، وتركت العمل في الحقول للنساء والأتباع والرقيق (تاريخ أفريقيا العام V، الفصل 18، ص523). وفي ظل حكم الأفونغارا صار اسم «زاندي» يعني المزارع التابع (VI، الفصل 12، ص300). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "The Zande developed high-yield farming that fed a dense population, about 40 per km² in the 1870s according to Schweinfurth, swelled by captives taken in the aristocracy's raids (GHA VI ch.12, p.300). In the 19th century, Sudanese traders built zaribas and fortified bases in Zande country and mixed state monopoly and private trade with armed force (p.306). Before 1800, Darfur took copper tribute near Hofrat en-Nahas, north of Zande lands (GHA V ch.7, p.199).",
  "economy_ar": "طوّر الزاندي زراعة عالية الإنتاج أطعمت سكاناً كثيفين، نحو 40 نسمة في الكيلومتر المربع في سبعينيات القرن التاسع عشر بحسب شفاينفورت، وزاد عددهم بالأسرى المأخوذين في غارات الأرستقراطية (تاريخ أفريقيا العام VI، الفصل 12، ص300). وفي القرن التاسع عشر أقام التجار السودانيون زرائب وقواعد محصّنة في بلاد الزاندي، ومزجوا احتكار الدولة والتجارة الخاصة بالقوة المسلحة (ص306). وقبل 1800 كانت دارفور تأخذ جزية من النحاس قرب حفرة النحاس، شمال أراضي الزاندي (V، الفصل 7، ص199). [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "COW_NMC6",
   "GHA5_CH7",
@@ -40,7 +40,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
   "power_cinc_share null: not a COW system member; no new editorial score added (Pass 22d)",
   "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
@@ -59,5 +58,6 @@
    ],
    "flag": "power_cinc_share null: not a COW system member; no new editorial score added (Pass 22d)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

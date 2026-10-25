@@ -34,7 +34,7 @@
  "culture_dominance_ar": "منذ القرن الثامن انتقل بدو عرب إلى الأراضي الواقعة بين النيل والبحر الأحمر، وتصاهر العرب مع زعماء البجا (تاريخ أفريقيا العام III، الفصل 3، ص82). وأصبح معظم البجا مسلمين رسمياً بحلول القرن الرابع عشر (ص83). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "Mecca was a commercial centre on the caravan route, and the pilgrimage brought profit (GHA III ch.2, p.33). The bakt allowed free travel and trade (ch.3, p.81). Arab merchants had a quarter in Dongola, and from the 8th century they settled in 'Aydhab, Badi' and Sawakin (p.82).",
  "economy_ar": "كانت مكة مركزاً تجارياً على طريق القوافل، وكان الحج يدرّ أرباحاً (تاريخ أفريقيا العام III، الفصل 2، ص33). وأتاح البقط حرية التنقل والتجارة (الفصل 3، ص81). وكان للتجار العرب حيّ في دنقلا، ومنذ القرن الثامن استقروا في عيذاب وباضع وسواكن (ص82). [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "GHA3_CH2",
   "GHA3_CH3",
@@ -47,7 +47,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "Bakt as 'non-aggression pact' and its 600-year duration follow El Fasi & Hrbek (GHA III ch.3, pp.81–82); its character (treaty vs. trade arrangement) is debated – see Pass 21 note in Islamic Egypt era"
  ],
@@ -65,5 +64,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

@@ -29,7 +29,7 @@
  "culture_dominance_ar": "نمت سواكن مدينةً تجارية إسلامية يدير فيها العرب التجارة ويأخذ زعماء البجا حصصاً منها (تاريخ أفريقيا العام IV، الفصل 16، ص417). وبحلول عهد الفونج كان الحضارمة يتصدّرون تجارتها، واختار العثمانيون الأمير المحلي من بينهم (V، الفصل 7، ص177 و184). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "From the Fatimids until the Portuguese, the Red Sea was the main route to India; Muslim merchants developed 'Aydhab and Sawakin, and Sawakin was probably Nubia's main outlet (GHA IV ch.16, pp.417–418). Baybars's tribute was 80 slaves, 300 camels and 30 kintars of ivory a year (p.418). Under the Funj, Sawakin was Sennar's main outlet by the 'Sudan Road' (GHA V ch.6, p.175; ch.7, p.181). The Hadariba traded slaves from Shendi for Indian goods, making Sawakin the main slave centre after Cairo and Massawa (ch.7, p.184). In the 19th century a railway from Suakin to Khartoum was planned (GHA VI ch.13, p.334).",
  "economy_ar": "من عهد الفاطميين حتى وصول البرتغاليين كان البحر الأحمر الطريق الرئيسي إلى الهند؛ وطوّر التجار المسلمون عيذاب وسواكن، وكانت سواكن على الأرجح المنفذ الرئيسي للنوبة (تاريخ أفريقيا العام IV، الفصل 16، ص417–418). وكانت جزية بيبرس 80 رأساً من الرقيق و300 جمل و30 قنطاراً من العاج سنوياً (ص418). وفي عهد الفونج كانت سواكن المنفذ الرئيسي لسنار عبر «طريق السودان» (V، الفصل 6، ص175؛ الفصل 7، ص181). وبادل الحضارمة الرقيق القادم من شندي بالبضائع الهندية، فصارت سواكن أكبر مركز للرقيق بعد القاهرة ومصوع (الفصل 7، ص184). وفي القرن التاسع عشر خُطط لسكة حديد من سواكن إلى الخرطوم (VI، الفصل 13، ص334). [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "COW_NMC6",
   "GHA3_CH3",
@@ -46,7 +46,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
   "power_cinc_share null: a port, not a COW state; no new editorial score added (Pass 22d)",
   "Pass 22 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
@@ -66,5 +65,6 @@
    ],
    "flag": "power_cinc_share null: a port, not a COW state; no new editorial score added (Pass 22d)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

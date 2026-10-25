@@ -37,18 +37,7 @@
  "culture_dominance_ar": "ثقافة حضرية نوبية محلية: معابد الدفوفة والمدافن الملكية الركامية في المرحلة الكلاسيكية.",
  "economy_en": "Exchange with Egypt is attested: the Western Dufufa held raw materials (graphite, copper oxide, hematite, mica, resin, rock crystal, carnelian, ostrich egg-shell), and Egyptian statues in the royal tumuli are explained as goods 'exchanged by Egyptian traders for Nubian commodities' in the Second Intermediate Period (GHA II ch.9, pp.259–260). Whether the Dufufa was a trading post is disputed in the same chapter (Junker vs Hintze).",
  "economy_ar": "التبادل مع مصر ثابت: احتوت الدفوفة الغربية على مواد خام (الغرافيت وأكسيد النحاس والهيماتيت والميكا والراتنج والبلّور الصخري والعقيق وقشر بيض النعام)، وتُفسَّر التماثيل المصرية في المدافن الملكية بأنها بضائع «بادلها التجار المصريون بسلع نوبية» في عصر الانتقال الثاني (تاريخ أفريقيا العام II، الفصل 9، ص259–260). وكون الدفوفة مركزاً تجارياً مسألة خلافية في الفصل نفسه (يونكر مقابل هينتسه).",
- "regional_power": [
-  {
-   "actor": "Kerma",
-   "score": null,
-   "flag": "no source gives a comparative power measure"
-  },
-  {
-   "actor": "Middle/New Kingdom Egypt",
-   "score": null,
-   "flag": "unscored"
-  }
- ],
+ "regional_power": null,
  "sources": [
   "KERMA_MISSION",
   "GHA2",
@@ -62,9 +51,7 @@
   "fr"
  ],
  "flags": [
-  "Pass 13 text: Arabic is a working translation; needs native review",
-  "no source gives a comparative power measure",
-  "unscored"
+  "Pass 13 text: Arabic is a working translation; needs native review"
  ],
  "curated": true,
  "power_cinc_share": [
@@ -80,5 +67,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

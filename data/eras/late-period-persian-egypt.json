@@ -25,7 +25,7 @@
  "culture_dominance_ar": "يرى زايد أن سكان الوادي الأعلى المتمصّرين حافظوا على «ثقافة متميزة» عبّرت عن نفسها «وإن في قالب مصري، حتى في زمن الأسرة الثلاثين» (تاريخ أفريقيا العام II، الفصل 4، ص144). ووصف هيرودوت، الذي بلغ إلفنتين نحو 450 ق.م، تلك المدينة بأنها الحد بين مصر و«إثيوبيا»، وكان أول جغرافي يذكر مروي بالاسم بعد أن التقى مرويين في أسوان (الفصل 6، ص197). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "Sources refer to 'gifts of gold, ebony, elephant tusks and even children', with 'the ancient tributes formerly levied by Egypt seemingly going to Persepolis and Susa' (GHA II ch.10, p.286).",
  "economy_ar": "تشير المصادر إلى «هدايا من الذهب والأبنوس وأنياب الفيلة بل والأطفال»، وكانت «الجزى القديمة التي كانت مصر تجبيها تذهب على ما يبدو إلى برسيبوليس وسوسة» (تاريخ أفريقيا العام II، الفصل 10، ص286). [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "GHA2_CH4",
   "GHA2_CH6",
@@ -38,7 +38,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "Persian tribute from Kush: 'seemingly' (GHA II p.286) – hedged in source"
  ],
@@ -56,5 +55,6 @@
    "null_reason": "outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated",
    "flag": "power_cinc_share null: outside COW NMC v6.0 coverage: era ends before 1816, so there is no CINC data; not estimated (Pass 27)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

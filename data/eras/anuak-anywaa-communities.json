@@ -23,7 +23,7 @@
  "culture_dominance_ar": "اللغة والهوية فقط؛ لم تُقرأ أي دراسة إثنوغرافية. تصنّف دراسة مكتبة الكونغرس الأنواك مع النوير ضمن العائلة السودانية الشرقية من اللغات النيلية الصحراوية، وتذكر أنه بينما يعيش معظم النوير في السودان «يعيش الأنواك كلهم تقريبًا في إثيوبيا» (LOC_ETH1991_NILOSAHARAN). ويضع تاريخ أفريقيا العام الخامس الأنيوا ضمن مجموعة اللوو الشمالية على الحدود السودانية الإثيوبية (GHAV، الفصل 7، ص 193). [مصدر واحد لكل نقطة] [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "The Anuak are described as a people with 'few or no cattle', whom the Nuer held in contempt for it (Evans-Pritchard 1940, p.16). The Nuer obtained good dug-out canoes from the Anuak by exchange or theft (p.72), and possibly tobacco from the Anuak of the Baro and Gila rivers, though more likely by raiding (p.88). This is a Nuer-centred, 1930s account and does not describe Anuak production directly.",
  "economy_ar": "يوصف الأنواك بأنهم شعب «قليل الماشية أو بلا ماشية»، واحتقرهم النوير لذلك (إيفانز-بريتشارد 1940، ص16). وحصل النوير على قوارب جذوع جيدة من الأنواك بالمقايضة أو السرقة (ص72)، وربما على التبغ من أنواك نهري بارو وجيلا، وإن كان الأرجح أنه بالإغارة (ص88). هذه رواية تتمحور حول النوير من الثلاثينيات، ولا تصف إنتاج الأنواك مباشرة. [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "EP1940_NUER",
   "COW_NMC6",
@@ -35,7 +35,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "Pass 17 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field",
   "SINGLE-SOURCE – outsider view from Evans-Pritchard's Nuer monograph (1930s fieldwork)",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
@@ -57,5 +56,6 @@
    ],
    "flag": "power_cinc_share null: communities, not a COW state; no new editorial score added (Pass 22d)"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }

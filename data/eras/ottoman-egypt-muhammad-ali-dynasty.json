@@ -25,7 +25,7 @@
  "culture_dominance_ar": "عبر سنار «حصل الإثيوبيون على أساقفة جدد من مصر»، وعلى الطريق نفسه وصل المبشرون الأوروبيون إلى إثيوبيا (تاريخ أفريقيا العام V، الفصل 7، ص178). وسلك الحجاج والعلماء أيضاً هذه الطرق البعيدة (ص181). وفي ظل الحكم التركي المصري ذهبت المناصب العليا إلى الناطقين بالتركية لا إلى المصريين، فسمّى السودانيون حكامهم «الترك» (تاريخ أفريقيا العام VI، الفصل 14، ص356). [WORKING TRANSLATION – needs native Arabic review]",
  "economy_en": "A caravan left Sennar for Egypt twice a year via Dongola and Salima to Asyut. At Salima it joined the Darb al-Arba'in (Forty Days Road), 'the main artery of Fur trade to Egypt' (GHA V ch.7, pp.181, 183). Muhammad Ali wanted Sudanese recruits for his new army and urged ghazwas (slave raids), but the supply 'ran short of the demand' (GHA VI ch.14, p.359). He also searched for gold around Fazughli, without success (p.361).",
  "economy_ar": "كانت قافلة تغادر سنار إلى مصر مرتين في السنة عبر دنقلا وسليمة إلى أسيوط، وتلتقي في سليمة بدرب الأربعين، «الشريان الرئيسي لتجارة الفور مع مصر» (تاريخ أفريقيا العام V، الفصل 7، ص181، 183). وأراد محمد علي مجندين سودانيين لجيشه الجديد وحثّ على الغزوات (غارات الرقيق)، لكن العرض «لم يفِ بالطلب» (تاريخ أفريقيا العام VI، الفصل 14، ص359). وبحث أيضاً عن الذهب حول فازوغلي دون نجاح (ص361). [WORKING TRANSLATION – needs native Arabic review]",
- "regional_power": [],
+ "regional_power": null,
  "sources": [
   "COW_NMC6",
   "GHA5_CH6",
@@ -39,7 +39,6 @@
   "en"
  ],
  "flags": [
-  "regional_power: no actors scored",
   "power_cinc_share: DERIVED figure computed from COW NMC v6.0 CINC (1816–2016 only; method RP-CINC-SHARE-1); not comparable with editorial regional_power scores. Licence: no licence stated by COW – cited per COW's request (version + Singer, Bremer & Stuckey 1972)",
   "power_cinc_share null: only one state in the comparison set (Egypt is the only regional-set state in COW NMC v6.0 for 1855–1882) [VERIFY]",
   "Pass 20 text: [WORKING TRANSLATION – needs native Arabic review] for every Arabic field"
@@ -57,5 +56,6 @@
    ],
    "flag": "power_cinc_share null: only one state in the comparison set (Egypt is the only regional-set state in COW NMC v6.0 for 1855–1882) [VERIFY]"
   }
- ]
+ ],
+ "regional_power_null_reason": "no cited comparative measure"
 }
