@@ -1,5 +1,7 @@
 # Changelog
 
+- Cities & towns layer (?layers=cty): toggle, era/year filtering, capital stars, fades (instant under reduced motion), collision-thinned labels, tap card with sources/badges; reads db/city_layers/cities.geojson (visible from founded or first-attested year, FIRST-ATTESTED badge); undated places only in a list sheet; ?layers=cities alias.
+
 Site changes for sudan.indomando.com (built from `web/` by `web/build.py`). Newest first.
 
 ## 2026-10-24 (one continuous map)

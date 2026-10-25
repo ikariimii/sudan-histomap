@@ -56,3 +56,9 @@ html[dir=rtl] .nav{transform:scaleX(-1)}
 .rel{fill:none;stroke-width:2.2;cursor:pointer}.grp circle{fill:#f2d27a;stroke:#3a2a00;stroke-width:1.5;cursor:pointer}.grp.homeland circle{fill:none;stroke:#f2d27a;stroke-width:2.5;stroke-dasharray:3 2}
 .leg{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:12px}.leg i{display:inline-block;width:14px;height:3px;margin-inline-end:4px;vertical-align:middle}.gl{padding-inline-start:18px}.gl li{margin:6px 0;overflow-wrap:anywhere}
 .ln{fill:none;stroke:#f0d26c;stroke-width:2.2;vector-effect:non-scaling-stroke;stroke-linecap:round;cursor:pointer;pointer-events:visibleStroke}.ln.dash{stroke-dasharray:6 4}
+
+.cty path{fill:#e8e2d0;stroke:#1b1f24;stroke-width:1.2;cursor:pointer}.cty.capital path{fill:#ffd34d;stroke:#3a2a00}
+.cty text{font-size:11px;fill:#f1ede2;paint-order:stroke;stroke:#101418;stroke-width:3px;stroke-linejoin:round;pointer-events:none}.cty.capital text{font-weight:700;font-size:12px}
+.cty{cursor:pointer}.capb{display:inline-block;font-size:.75em;padding:0 .4em;border-radius:.6em;background:#ffd34d;color:#2a2000}
+.lob{font:inherit;background:none;border:1px solid currentColor;border-radius:14px;padding:4px 10px;color:inherit;cursor:pointer}
+.lol{list-style:none;padding:0;margin:.5em 0}.lol li{padding:6px 0;border-bottom:1px solid #ffffff1a}

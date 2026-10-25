@@ -18,7 +18,7 @@ const lq=new URLSearchParams(Q);if(AR)lq.delete('lang');else lq.set('lang','ar')
 $('lang').addEventListener('click',e=>{e.preventDefault();const q=new URLSearchParams(location.search);AR?q.delete('lang'):q.set('lang','ar');location.search=q.toString()});
 $('lang').href='/?'+lq.toString();$('prev').setAttribute('aria-label',T.prev);$('next').setAttribute('aria-label',T.next);$('grab').setAttribute('aria-label',T.sheet);
 $('reset').title=T.reset;$('reset').setAttribute('aria-label',T.reset);$('within').querySelector('label').textContent=T.within;
-const LAY=['ctl','grp','rel','pop'],on=new Set((Q.get('layers')||'ctl').split(',').filter(x=>LAY.includes(x)));
+const LAY=['ctl','grp','rel','pop','cty'],on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x).filter(x=>LAY.includes(x)));
 LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=T.l[k];b.setAttribute('aria-pressed',on.has(k));b.dataset.k=k;
  b.onclick=()=>{on.has(k)?on.delete(k):on.add(k);b.setAttribute('aria-pressed',on.has(k));url();render(false)};$('layers').appendChild(b)});
 // --- era index
@@ -26,13 +26,13 @@ let i=Math.max(0,ES.findIndex(e=>e.id===Q.get('era')));const r=$('r');r.max=ES.l
 function url(){const q=new URLSearchParams();q.set('era',ES[i].id);if(AR)q.set('lang','ar');const ly=[...on].sort().join(',');if(ly!=='ctl')q.set('layers',ly);history.replaceState(null,'','/?'+q)}
 // --- map
 const svg=d3.select('#svg'),W=()=>innerWidth,H=()=>innerHeight,desk=()=>innerWidth>=1000;
-const root=svg.append('g'),gL=root.append('g'),gC=root.append('g'),gX=root.append('g'),gN=root.append('g'),gG=root.append('g'),gR=root.append('g'),gP=root.append('g'),gK=root.append('g'),gT=root.append('g');
+const root=svg.append('g'),gL=root.append('g'),gC=root.append('g'),gX=root.append('g'),gN=root.append('g'),gG=root.append('g'),gY=root.append('g').attr('class','cities'),gR=root.append('g'),gP=root.append('g'),gK=root.append('g'),gT=root.append('g');
 svg.append('defs').html('<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#f08c6c"/></marker>');
 const proj=d3.geoMercator(),path=d3.geoPath(proj);let K=1,TR=d3.zoomIdentity;
 function fit(){const sh=$('sheet').getBoundingClientRect();const top=desk()?70:120,bot=desk()?H()-20:Math.max(top+160,H()-Math.min(sh.height,H()*.44)-8);
  const x1=desk()?(AR?sh.right+20:20):10,x2=desk()?(AR?W()-20:sh.left-20):W()-10;
  proj.fitExtent([[x1,top],[x2,bot]],{type:'MultiPoint',coordinates:[[21.8,3.4],[38.6,22.2]]})}
-const zoom=d3.zoom().scaleExtent([1,12]).on('zoom',ev=>{TR=ev.transform;root.attr('transform',ev.transform);K=ev.transform.k;scaleMarks();$('reset').hidden=K<1.05&&Math.abs(ev.transform.x)<2}).on('end',()=>place());
+const zoom=d3.zoom().scaleExtent([1,12]).on('zoom',ev=>{TR=ev.transform;root.attr('transform',ev.transform);K=ev.transform.k;scaleMarks();$('reset').hidden=K<1.05&&Math.abs(ev.transform.x)<2}).on('end',()=>{place();cityThin()});
 svg.call(zoom).on('dblclick.zoom',null);$('reset').onclick=()=>svg.transition().duration(DUR).call(zoom.transform,d3.zoomIdentity);
 function scaleMarks(){root.selectAll('.mk').attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`})}
 const rw=f=>{const G=f.geometry,rv=a=>a.slice().reverse();if(G.type==='Polygon'){if(d3.geoArea(f)>2*Math.PI)G.coordinates=G.coordinates.map(rv)}else if(G.type==='MultiPolygon')G.coordinates=G.coordinates.map(p=>d3.geoArea({type:'Polygon',coordinates:p})>2*Math.PI?p.map(rv):p);return f};
@@ -96,7 +96,7 @@ async function render(anim=true){
  place()}
 let LBS=[];
 function nobPos(){const b=$('layers').getBoundingClientRect();$('nob').style.top=(b.bottom+6)+'px'}
-function place(){nobPos();const t=TR;gT.selectAll('*').remove();const placed=[],hid=[];
+function place(){setTimeout(cityThin,0);nobPos();const t=TR;gT.selectAll('*').remove();const placed=[],hid=[];
  // obstacles: the card and the top chrome
  const ob=['sheet','top','layers','nob'].map(id=>$(id).getBoundingClientRect()).filter(b=>b.width).map(b=>({x:b.left,y:b.top,w:b.width,h:b.height}));
  const ov=(a,c)=>a.x<c.x+c.w&&c.x<a.x+a.w&&a.y<c.y+c.h&&c.y<a.y+a.h;
@@ -136,6 +136,7 @@ async function layersDraw(e){const fs=(on.has('grp')||on.has('rel'))?await glj(e
  r.enter().append('path').attr('class',f=>'rel '+(f.t||'')).on('click',glTap).append('title').merge(r.select('title')).text(f=>(AR?f.ar:f.en)+(f.b?' ['+f.b+']':''));
  gR.selectAll('path.rel').attr('stroke',f=>RC[f.t]||'#ccc').attr('marker-end',f=>RC[f.t]?`url(#ah-${f.t})`:null).attr('stroke-dasharray',f=>String(f.c).toLowerCase()==='low'?'5 4':null)
   .attr('d',f=>{if(f.geo.type==='MultiLineString')return path(f.geo);const c=f.geo.coordinates,a=proj(c[0]),b=proj(c[c.length-1]),mx=(a[0]+b[0])/2,my=(a[1]+b[1])/2,dx=b[0]-a[0],dy=b[1]-a[1];return `M${a}Q${mx-dy*.2},${my+dx*.2} ${b}`});
+ await citiesDraw(e,D);
  // population stays in the card (sparkline); no invented geography for it
  scaleMarks()}
 async function layerInfo(e){const box=$('layerinfo');if(!box)return;let h='';
@@ -146,7 +147,48 @@ async function layerInfo(e){const box=$('layerinfo');if(!box)return;let h='';
    const x0=s[0].year,x1=s[s.length-1].year,v1=Math.max(...s.map(x=>+x.value)),X=y=>(y-x0)/(x1-x0||1)*300+10,Yv=v=>40-(+v/v1)*34;const inE=s.filter(x=>x.year>=e.a&&x.year<=e.b);const last=inE[inE.length-1];
    h+=`<p class="lgap"><b>${T.l.pop}</b>${last?` · <bdi>${fy(last.year)}</bdi>: <b>${num((+last.value).toLocaleString(AR?'ar':'en'))}</b>`:` · <span class="gap">${T.wip}</span>`}</p><svg class="spark" viewBox="0 0 320 46" role="img" aria-label="${esc(T.l.pop)}" style="transform:${AR?'scaleX(-1)':'none'}"><rect x="${X(Math.max(e.a,x0))}" y="0" width="${Math.max(2,X(Math.min(e.b,x1))-X(Math.max(e.a,x0)))}" height="46" fill="#8cc8f022"/><polyline fill="none" stroke="#8cc8f0" stroke-width="2" points="${s.map(x=>X(x.year)+','+Yv(x.value)).join(' ')}"/></svg><p class="extnote"><bdi dir="ltr">${esc([...new Set(s.flatMap(x=>[].concat(x.source||x.source_ids||[])))].join('; '))}</bdi></p>`;continue}
   const n=d.flatMap(items).filter(x=>srcd(x)).length;h+=`<p class="lgap"><b>${T.l[k]}:</b> ${num(n)}</p>`}
- box.innerHTML=h}
+ if(on.has('cty')){const d=await cty();if(!d||!d.cities.length)h+=`<p class="lgap"><b>${T.l.cty}:</b> <span class="gap">${T.wip}</span> <span class="gapt">${esc(T.ctygap)}</span></p>`;
+  else{const v=d.cities.filter(c=>cityVis(c,e)),nc=v.filter(c=>c.r[e.id]&&c.r[e.id].cap).length;h+=`<p class="lgap"><b>${T.l.cty}:</b> ${num(v.length)}${nc?` · ★ ${num(nc)}`:''}${d.stub?` <span class="gap">${esc(T.stub)}</span>`:''}</p>`;
+  if(d.lo&&d.lo.length)h+=`<p class="lgap"><button class="lob" type="button">${esc(T.lolist)} (${num(d.lo.length)})</button></p>`}}
+ box.innerHTML=h;const lb=box.querySelector('.lob');if(lb)lb.onclick=ev=>cityList(ev)}
+const RK={capital:['Capital','عاصمة'],garrison:['Garrison','حامية'],port:['Port','ميناء'],religious:['Religious centre','مركز ديني'],trade:['Trade centre','مركز تجاري']};
+Object.assign(BL,{'FIRST-ATTESTED':BL['FIRST-ATTESTED']||['First attested','أول ذكر موثّق'],UNDATED:BL.UNDATED||['Undated','غير مؤرّخ'],'AR-REVIEW':BL['AR-REVIEW']||['Arabic under review','العربية قيد المراجعة'],APPROXIMATE:BL.APPROXIMATE||['Approximate','تقريبي'],'RUIN-UNDATED':BL['RUIN-UNDATED']||['Ruin, end undated','أطلال، نهاية غير مؤرّخة']});
+async function cityList(ev){ev.stopPropagation();const d=await cty();if(!d)return;const B=x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`;
+ $('feat').innerHTML=`<button class="x" aria-label="close">×</button><b>${esc(T.lolist)}</b><p class="gapt">${esc(T.lonote)}</p><ul class="lol">`+d.lo.map(c=>`<li><bdi>${esc(AR?(c.ar||c.en):(c.en||c.ar))}</bdi> ${(c.b||[]).map(B).join(' ')}${c.why&&!(AR&&/^no founded/i.test(c.why))?`<br><small class="gapt">${esc(c.why)}</small>`:''}</li>`).join('')+'</ul>';
+ $('feat').hidden=false;if($('sheet').classList.contains('peek'))snap('half');const x=$('feat').querySelector('.x');if(x)x.onclick=()=>{$('feat').hidden=true;$('feat').classList.remove('on')}}
+// --- cities & towns (db/cities.json → /c.json). Shown only while founded ≤ year ≤ abandoned (or now); nothing inferred.
+let CJ=null;function cty(){if(!M.layers.cBuilt)return Promise.resolve(null);return CJ||(CJ=getj('/c.json').catch(()=>null))}
+function cityVis(c,e){const a=c.a==null?Infinity:c.a;return Y!=null?(c.f<=Y&&a>=Y):(c.f<=e.b&&a>=e.a)}
+const cName=c=>AR?(c.ar||c.en):(c.en||c.ar);
+async function citiesDraw(e,D){const d=on.has('cty')?await cty():null;if(e!==ES[i])return;
+ const vis=d?d.cities.filter(c=>cityVis(c,e)).map(c=>Object.assign(c,{cap:!!(c.r[e.id]&&c.r[e.id].cap)})):[];
+ const s=gY.selectAll('g.cty').data(vis,c=>c.id);
+ s.exit().classed('gone',true).interrupt().transition().duration(D).style('opacity',0).remove();
+ const n=s.enter().append('g').attr('class','cty mk').each(function(c){this.__xy=proj(c.ll)}).attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`}).style('opacity',D?0:1).on('click',cityTap);
+ n.append('path');n.append('text').attr('class','ctl2');n.append('title');
+ n.transition().duration(D).style('opacity',1);
+ const m=n.merge(s);m.classed('capital',c=>c.cap).raise();
+ m.select('path').attr('d',c=>c.cap?'M0,-7L2,-2.2L7,-2.2L3,1L4.5,6.5L0,3.2L-4.5,6.5L-3,1L-7,-2.2L-2,-2.2Z':'M-3.2,0a3.2,3.2 0 1,0 6.4,0a3.2,3.2 0 1,0 -6.4,0');
+ m.select('text').attr('x',AR?-9:9).attr('y',4).attr('direction',AR?'rtl':'ltr').attr('text-anchor','start').text(cName);
+ m.select('title').text(c=>cName(c)+(c.cap?' · '+T.capital:''));
+ cityThin()}
+// label thinning: capitals first, then cities with a role this era, then the rest; greedy screen-space boxes
+function cityThin(){const e=ES[i],W=svg.node().clientWidth||390,H=svg.node().clientHeight||600,sr=svg.node().getBoundingClientRect(),boxes=[...gT.selectAll('text').nodes(),...gK.selectAll('text').nodes()].filter(t=>t.style.display!=='none'&&t.getAttribute('visibility')!=='hidden').map(t=>{const b=t.getBoundingClientRect();return [b.left-sr.left-2,b.top-sr.top-2,b.right-sr.left+2,b.bottom-sr.top+2]}).filter(b=>b[2]>b[0]);
+ const g=gY.selectAll('g.cty:not(.gone)').nodes().map(n=>({n,c:d3.select(n).datum()}));
+ g.sort((a,b)=>(b.c.cap-a.c.cap)||((!!b.c.r[e.id])-(!!a.c.r[e.id]))||String(a.c.id).localeCompare(b.c.id));
+ const hit=(a,b)=>a[0]<b[2]&&a[2]>b[0]&&a[1]<b[3]&&a[3]>b[1];
+ g.forEach(({n,c})=>{const p=TR.apply(n.__xy),w=cName(c).length*(AR?6:6.6)+10,bx=AR?[p[0]-9-w,p[1]-9,p[0]+5,p[1]+6]:[p[0]-5,p[1]-9,p[0]+9+w,p[1]+6];
+  const ok=bx[0]>=0&&bx[2]<=W&&bx[1]>=0&&bx[3]<=H&&!boxes.some(b=>hit(b,bx));if(ok)boxes.push(bx);n.querySelector('text').style.display=ok?'':'none'})}
+function cityTap(ev,c){ev.stopPropagation();const e=ES[i],r=c.r[e.id],d=CJ&&CJ.then?null:null;
+ const B=x=>`<span class="repb${x==='CONTESTED'?' cont':x==='SINGLE-SOURCE'?' single':''}">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`;
+ const rk=r&&RK[r.k],role=r?(AR?(r.ar||(rk&&rk[1])||r.en):(rk?rk[0]:(r.en||r.ar))):null;
+ $('feat').innerHTML=`<button class="x" aria-label="close">×</button><b>${esc(cName(c))}</b>${r&&r.cap?` <span class="capb">★ ${esc(T.capital)}</span>`:''} ${(c.b||[]).map(B).join(' ')}`+
+  `<br><small>${esc(c.fb&&c.fb!=='founded'?T.firstatt:T.founded)}: <bdi>${fy(c.f)}</bdi>${c.fc?` [${esc(c.fc)}]`:''}${c.a!=null?` · ${esc(T.abandoned)}: <bdi>${fy(c.a)}</bdi>`:''}</small>`+
+  `<p><b>${esc(T.role)}:</b> ${role?esc(role):`<span class="gap">${esc(T.norole)}</span>`}</p>`+
+  ((AR?(c.h_ar||c.h_en):(c.h_en||c.h_ar))?`<p>${esc(AR?(c.h_ar||c.h_en):(c.h_en||c.h_ar))}</p>`:'')+
+  `<p class="extnote">${c.s.map(x=>`<bdi dir="ltr">${esc(x.c)}${x.p?' · '+esc(x.p):''}</bdi>${x.u?` <a href="${esc(x.u)}" rel="noopener">link</a>`:''}`).join('<br>')}${r&&r.s&&r.s.length?`<br><small>${esc(T.role)}: <bdi dir="ltr">${r.s.map(esc).join(', ')}</bdi></small>`:''}</p>`+
+  (M.layers.cStub?`<p class="gap">${esc(T.stub)}</p>`:'');
+ $('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true};if($('sheet').classList.contains('peek'))snap('half')}
 // --- navigation
 function go(n){n=Math.max(0,Math.min(ES.length-1,n));if(n===i)return;i=n;Y=null;render(true)}
 r.addEventListener('input',()=>go(+r.value));$('prev').onclick=()=>go(i-1);$('next').onclick=()=>go(i+1);
