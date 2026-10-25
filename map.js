@@ -419,6 +419,11 @@ var STY=null;
    const inb=P[0]>=RELIEF_BOX[0]&&P[0]<=RELIEF_BOX[2]&&P[1]>=RELIEF_BOX[1]&&P[1]<=RELIEF_BOX[3];
    if(inb){const sh=$('sheet').getBoundingClientRect(),c=desk()?[AR?(sh.right+W())/2:sh.left/2,H()/2]:[W()/2,(120+Math.min(sh.top,H()))/2];svg.transition().duration(RM?0:DUR).call(zoom.translateTo,xy[0],xy[1],c)}say((inb?WI.here:WI.out)+'. '+WI.note,true)},
    ()=>{b.disabled=false;say(WI.err+'. '+WI.note,true)},{enableHighAccuracy:false,timeout:15000,maximumAge:300000})}})();
+// first-visit hint: points to play tour / search / layers; dismissal remembered in localStorage only; not in embed or story mode
+(()=>{const H=T.hint;if(!H||Q.get('embed')==='1'||Q.get('story'))return;const K1='hm_hint1';try{if(localStorage.getItem(K1))return}catch(_){}
+ const d=document.createElement('section');d.id='hint';d.setAttribute('aria-label',H.l);d.innerHTML=`<b>${esc(H.h)}</b><p>${esc(H.t)}</p><div><button type="button" class="chip" id="hintp">${esc(H.p)}</button><button type="button" class="chip" id="hintx">${esc(H.x)}</button></div>`;document.body.appendChild(d);
+ const off=()=>{try{localStorage.setItem(K1,'1')}catch(_){}d.remove();removeEventListener('keydown',ek)},ek=e=>{if(e.key==='Escape'&&d.isConnected)off()};addEventListener('keydown',ek);
+ $('hintx').onclick=()=>{off();const t=$('tour');if(t)t.focus()};$('hintp').onclick=()=>{off();const t=$('tour');if(t){t.click();t.focus()}}})();
 // --- start
 window.__hm={scale:k=>svg.call(zoom.scaleTo,k)};// test hook (QA only, no side effects)
 const eth1932=()=>{const e=ES[i];if(on.has('eth')&&(M.layers.eth||[]).includes(e.id)&&e.a<=1932&&1932<=e.b)Y=1932};eth1932();
