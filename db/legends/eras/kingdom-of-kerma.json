@@ -21,7 +21,7 @@
      "start": -2450,
      "end": -1450,
      "source_ids": [
-      "KERMA_MISSION",
+      "SFDAS_HCS2017",
       "GHA2",
       "NATURAL_EARTH"
      ],
@@ -332,7 +332,6 @@
    "مراحل البعثة السويسرية: كرمة المبكرة نحو 2450–2050، والوسطى نحو 2050–1750، والكلاسيكية نحو 1750–1550 ق.م (وكرمة المتأخرة حتى نحو 1450) [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.69)"
   ],
   "key_events_source_ids": [
-   "KERMA_MISSION",
    "GHA2_CH19",
    "SFDAS_HCS2017"
   ],
@@ -344,10 +343,10 @@
     "lon": 30.4097
    }
   ],
-  "control_limits_en": "Kerma 'will dominate Upper Nubia for almost a thousand years'; in Classic Kerma (c.1750–1550 BCE) 'the influence of its rulers spreads even to Lower Nubia' (KERMA_MISSION). During the Middle Kingdom 'the southern boundary of the Egyptian Middle Kingdom was unquestionably fixed at Semna by Senusret III' (GHA2, ch.9).",
-  "control_limits_ar": "«ستهيمن [كرمة] على النوبة العليا قرابة ألف عام»؛ وفي كرمة الكلاسيكية (نحو 1750–1550 ق.م [VERIFY]) «امتد نفوذ حكامها حتى النوبة السفلى» (بعثة كرمة). وفي عهد الدولة الوسطى «ثبّت سنوسرت الثالث الحدّ الجنوبي للدولة المصرية الوسطى عند سمنة بلا شك» (تاريخ أفريقيا العام II، الفصل 9).",
+  "control_limits_en": "Kerma grew from 'une petite principauté sur la troisième cataracte' into a state 'capable de tenir tête à l’Égypte pharaonique durant un millénaire' (SFDAS_HCS2017 p.60). In the Second Intermediate Period (1730–1550 BCE, overlapping Classic Kerma c.1750–1550 BCE, p.69) the Lower Nubian forts 'ne tardèrent pas à tomber entre les mains du royaume de Kerma' (p.65). During the Middle Kingdom 'the southern boundary of the Egyptian Middle Kingdom was unquestionably fixed at Semna by Senusret III' (GHA2, ch.9).",
+  "control_limits_ar": "نمت كرمة من «إمارة صغيرة عند الشلال الثالث» إلى دولة «قادرة على مواجهة مصر الفرعونية طوال ألف عام» (SFDAS_HCS2017 ص60) [VERIFY]؛ وفي الفترة الانتقالية الثانية (1730–1550 ق.م، وتتزامن مع كرمة الكلاسيكية نحو 1750–1550 ق.م، ص69) «سرعان ما سقطت» حصون النوبة السفلى «في يد مملكة كرمة» (ص65) [VERIFY]. وفي عهد الدولة الوسطى «ثبّت سنوسرت الثالث الحدّ الجنوبي للدولة المصرية الوسطى عند سمنة بلا شك» (تاريخ أفريقيا العام II، الفصل 9).",
   "control_limits_source_ids": [
-   "KERMA_MISSION",
+   "SFDAS_HCS2017",
    "GHA2"
   ],
   "control_confidence": "medium"

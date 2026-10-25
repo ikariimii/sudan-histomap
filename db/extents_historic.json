@@ -24,9 +24,10 @@
      "lat": 19.6008,
      "lon": 30.4097,
      "source_ids": [
-      "KERMA_MISSION"
+      "SFDAS_HCS2017"
      ],
-     "coord_source": "Wikidata Q1107569"
+     "coord_source": "Wikidata Q1107569",
+     "pages": "p.56"
     },
     {
      "name": "Semna",
@@ -38,15 +39,15 @@
      "coord_source": "Wikidata Q1485667"
     }
    ],
-   "control_limits_en": "Kerma 'will dominate Upper Nubia for almost a thousand years'; in Classic Kerma (c.1750–1550 BCE) 'the influence of its rulers spreads even to Lower Nubia' (KERMA_MISSION). During the Middle Kingdom 'the southern boundary of the Egyptian Middle Kingdom was unquestionably fixed at Semna by Senusret III' (GHA2, ch.9).",
-   "control_limits_ar": "«ستهيمن [كرمة] على النوبة العليا قرابة ألف عام»؛ وفي كرمة الكلاسيكية (نحو 1750–1550 ق.م [VERIFY]) «امتد نفوذ حكامها حتى النوبة السفلى» (بعثة كرمة). وفي عهد الدولة الوسطى «ثبّت سنوسرت الثالث الحدّ الجنوبي للدولة المصرية الوسطى عند سمنة بلا شك» (تاريخ أفريقيا العام II، الفصل 9).",
+   "control_limits_en": "Kerma grew from 'une petite principauté sur la troisième cataracte' into a state 'capable de tenir tête à l’Égypte pharaonique durant un millénaire' (SFDAS_HCS2017 p.60). In the Second Intermediate Period (1730–1550 BCE, overlapping Classic Kerma c.1750–1550 BCE, p.69) the Lower Nubian forts 'ne tardèrent pas à tomber entre les mains du royaume de Kerma' (p.65). During the Middle Kingdom 'the southern boundary of the Egyptian Middle Kingdom was unquestionably fixed at Semna by Senusret III' (GHA2, ch.9).",
+   "control_limits_ar": "نمت كرمة من «إمارة صغيرة عند الشلال الثالث» إلى دولة «قادرة على مواجهة مصر الفرعونية طوال ألف عام» (SFDAS_HCS2017 ص60) [VERIFY]؛ وفي الفترة الانتقالية الثانية (1730–1550 ق.م، وتتزامن مع كرمة الكلاسيكية نحو 1750–1550 ق.م، ص69) «سرعان ما سقطت» حصون النوبة السفلى «في يد مملكة كرمة» (ص65) [VERIFY]. وفي عهد الدولة الوسطى «ثبّت سنوسرت الثالث الحدّ الجنوبي للدولة المصرية الوسطى عند سمنة بلا شك» (تاريخ أفريقيا العام II، الفصل 9).",
    "source_ids": [
-    "KERMA_MISSION",
+    "SFDAS_HCS2017",
     "GHA2"
    ],
    "ohm_ids": [],
    "cshapes": null,
-   "notes": "Southern limit not stated in the sources read. Semna marks the Egyptian frontier (Kerma's northern neighbour), not Kerma's own border.",
+   "notes": "Southern limit not stated in the sources read. Semna marks the Egyptian frontier (Kerma's northern neighbour), not Kerma's own border. Re-cited 2026-10-25 from the kerma.ch web page to SFDAS_HCS2017 pp.56, 60, 65, 69; quotes are now SFDAS's own French wording.",
    "license": "Wikidata coordinates: CC0; limit text: short quotations from cited works",
    "ohm_source_ids": [],
    "geojson": null
@@ -62,10 +63,11 @@
      "lat": 18.5368,
      "lon": 31.8276,
      "source_ids": [
-      "KERMA_MISSION",
+      "SFDAS_HCS2017",
       "GHA2"
      ],
-     "coord_source": "Wikidata Q499019"
+     "coord_source": "Wikidata Q499019",
+     "pages": "SFDAS p.157"
     },
     {
      "name": "Memphis",
@@ -81,21 +83,22 @@
      "lat": 21.48,
      "lon": 30.97,
      "source_ids": [
-      "KERMA_MISSION"
+      "SFDAS_HCS2017"
      ],
-     "coord_source": "Wikidata Q11948049"
+     "coord_source": "Wikidata Q11948049",
+     "pages": "p.157"
     }
    ],
-   "control_limits_en": "25th Dynasty (713–656 BCE): 'a vast empire spreading from the Egyptian Delta to the confluence of the Blue and White Niles' (KERMA_MISSION); Shabaka 'brought the entire Nile valley as far as the Delta under the empire of Kush' (GHA2). After Psamtik II's expedition the kings 'do not extend their power downstream from the Second Cataract' (KERMA_MISSION).",
-   "control_limits_ar": "الأسرة الخامسة والعشرون (713–656 ق.م): «إمبراطورية شاسعة تمتد من الدلتا المصرية إلى ملتقى النيلين الأزرق والأبيض» (بعثة كرمة)؛ وقد «ضمّ شباكا وادي النيل كله حتى الدلتا إلى إمبراطورية كوش» (تاريخ أفريقيا العام II). وبعد حملة بسماتيك الثاني «لم يمدّ الملوك سلطانهم إلى ما وراء الشلال الثاني شمالاً» (بعثة كرمة).",
+   "control_limits_en": "25th Dynasty (713–656 BCE): Shabaqo had to 'restaurer sa domination sur le Delta' (SFDAS_HCS2017 p.141); Shabaka 'brought the entire Nile valley as far as the Delta under the empire of Kush' (GHA2). After the loss of Egypt the kingdom's territory 'est désormais limité à la région des cataractes, étendue jusqu’au sud de Khartoum' (sphinx of Aspelta at Defaia), and 'au nord, la frontière avec l’Égypte fluctue, au gré des conquêtes, entre Assouan et la deuxième cataracte' (SFDAS_HCS2017 p.157).",
+   "control_limits_ar": "الأسرة الخامسة والعشرون (713–656 ق.م): اضطر شباكا إلى «استعادة سيطرته على الدلتا» (SFDAS_HCS2017 ص141) [VERIFY]؛ وقد «ضمّ شباكا وادي النيل كله حتى الدلتا إلى إمبراطورية كوش» (تاريخ أفريقيا العام II). وبعد فقدان مصر «أصبحت أراضيها محصورة في منطقة الشلالات، ممتدة إلى جنوب الخرطوم»، و«في الشمال تتأرجح الحدود مع مصر، بحسب الفتوحات، بين أسوان والشلال الثاني» (SFDAS_HCS2017 ص157) [VERIFY].",
    "source_ids": [
-    "KERMA_MISSION",
+    "SFDAS_HCS2017",
     "GHA2",
     "ZH_EMB_HIST2020"
    ],
    "ohm_ids": [],
    "cshapes": null,
-   "notes": "Two distinct extents: the 25th Dynasty maximum (c.713–656 BCE) and the post-593 BCE kingdom south of the Second Cataract. ZH_EMB_HIST2020 says Shabaka moved the capital to Memphis (popular text). Pass 16: sub-period reaches added under 'phases' (text only, low confidence; no geometry).",
+   "notes": "Two distinct extents: the 25th Dynasty maximum (c.713–656 BCE) and the post-593 BCE kingdom south of the Second Cataract. ZH_EMB_HIST2020 says Shabaka moved the capital to Memphis (popular text). Pass 16: sub-period reaches added under 'phases' (text only, low confidence; no geometry). Re-cited 2026-10-25 from kerma.ch to SFDAS_HCS2017 pp.141, 157. SFDAS gives no southern limit specific to 713–656 BCE; the 'confluence' southern edge of the 25th-Dynasty feature now rests on p.157 (post-Egypt kingdom reaching south of Khartoum) and GHA2 p.284 (Kush generally to Sennar/Kosti), not on a dated statement.",
    "phases": [
     {
      "year_from": -800,
@@ -132,7 +135,7 @@
      "year_to": -593,
      "label": "After withdrawal from Egypt",
      "confidence": "low",
-     "reach_en": "'In the far north, Lower Nubia, a kind of no man's land, remained in dispute between the Meroites and whoever were masters of Egypt' (GHA2 ch.10, pp.283–284); 'during the early part of the Napatan period Lower Nubia was for a considerable length of time entirely depopulated' and repopulated only from the 3rd/2nd c. BCE (GHA2 ch.11, Hakem, p.306). Southern limits: 'archaeological exploration has not been carried far enough … to indicate the limits … to the south'; accepted to include central Sudan 'at least as far as Sennar on the Blue Nile and Kosti on the White Nile' (GHA2 p.284) – a statement about the Kushite kingdom generally, NOT dated to 656–593. Post-593 northern limit: no power downstream of the Second Cataract (KERMA_MISSION).",
+     "reach_en": "'In the far north, Lower Nubia, a kind of no man's land, remained in dispute between the Meroites and whoever were masters of Egypt' (GHA2 ch.10, pp.283–284); 'during the early part of the Napatan period Lower Nubia was for a considerable length of time entirely depopulated' and repopulated only from the 3rd/2nd c. BCE (GHA2 ch.11, Hakem, p.306). Southern limits: 'archaeological exploration has not been carried far enough … to indicate the limits … to the south'; accepted to include central Sudan 'at least as far as Sennar on the Blue Nile and Kosti on the White Nile' (GHA2 p.284) – a statement about the Kushite kingdom generally, NOT dated to 656–593. After Egypt: northern frontier 'fluctue … entre Assouan et la deuxième cataracte'; territory reaches 'jusqu’au sud de Khartoum' (SFDAS_HCS2017 p.157).",
      "anchors": [
       {
        "name": "Jebel Barkal / Napata",
@@ -148,14 +151,15 @@
        "lat": 21.48,
        "lon": 30.97,
        "source_ids": [
-        "KERMA_MISSION"
+        "SFDAS_HCS2017"
        ],
-       "coord_source": "Wikidata Q11948049"
+       "coord_source": "Wikidata Q11948049",
+       "pages": "p.157"
       }
      ],
      "sources": [
       "GHA2",
-      "KERMA_MISSION"
+      "SFDAS_HCS2017"
      ]
     }
    ],
