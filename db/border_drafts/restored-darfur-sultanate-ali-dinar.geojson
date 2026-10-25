@@ -90,6 +90,36 @@
      "pages": "MacMichael 1922 I pp.85–86; GHA VII ch.12 p.283"
     }
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.58333,
+     12.75
+    ]
+   },
+   "properties": {
+    "era_id": "restored-darfur-sultanate-ali-dinar",
+    "zone": "contested",
+    "badges": [
+     "APPROXIMATE",
+     "VERIFY"
+    ],
+    "contested_point": [
+     22.58333,
+     12.75
+    ],
+    "contested_point_source": "db/groups.json masalit homeland.anchors[0] \"Dar Masalit\", wikidata:Q56545571, Wikidata P625",
+    "method": "hand-added point (not build_drafts.py); reused cited anchor, no new coordinate",
+    "basis": "Ali Dinar core edge east of Dar Masalit and Dar Tama (MacMichael I pp.85-86); contested borderland",
+    "sources": [
+     "MACMICHAEL1922_V1"
+    ],
+    "status": "DRAFT – not live, needs Historian sign-off",
+    "version": "bd-0.1 2026-10-24 (hand-appended)"
+   }
   }
  ]
 }
