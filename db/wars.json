@@ -264,19 +264,29 @@
         "southern-sudan-under-condominium-sudan"
       ],
       "start": "1955",
-      "end": null,
+      "end": "1972",
       "note": "Torit start held by Historian; extension owned by Analyst.",
       "cites": [
         {
           "source_id": "GHA8",
           "pages": "149"
+        },
+        {
+          "source_id": "ADDIS_ABABA_1972",
+          "pages": "PDF p.12 (closing clause: concluded 27 Feb 1972; in force on ratification fixed for noon, 12 Mar 1972)"
+        },
+        {
+          "source_id": "ADDIS_ABABA_1972",
+          "pages": "PDF p.8 (Cease-fire Agreement Arts.1–2: in force on ratification; end to all military operations)"
         }
       ],
       "belligerents": [
         "Equatoria Corps",
         "Sudan government"
       ],
-      "belligerents_note": "From the sides of this war's cited battles in data/battles.json."
+      "belligerents_note": "From the sides of this war's cited battles in data/battles.json.",
+      "end_badge": "VERIFY",
+      "date_note": "End year 1972 only (Addis Ababa Agreement, ADDIS_ABABA_1972 PDF p.12 closing clause; PDF p.8 Cease-fire Arts.1–2). Month/day VERIFY: concluded 27 Feb 1972; ratification day CONTESTED (2 Mar per JOHNSON2003 vs 12 Mar fixed in the text, which does not record ratification taking place). Merged from Analyst's db/first_civil_war_end_cite_20261025.json."
     },
     {
       "id": "second-civil-war",
