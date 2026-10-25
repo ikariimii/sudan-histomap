@@ -436,8 +436,8 @@
     "publisher": "UN Security Council S/2005/78 (annex), copy hosted by UCDP Uppsala",
     "year": "2005",
     "url": "https://ucdp.uu.se/Downloads/fullpeace/Sud%2020050109.pdf",
-    "pages": "PDF pp. 22–24 (Ch. I Machakos Protocol 1.3, 2.2, 2.5) and p. 52 (Ch. II Power Sharing 3.1); PDF pages of S/2005/78, not printed pages",
-    "note": "Signed Nairobi 9 Jan 2005. Machakos 1.3: right to self-determination through a referendum; 2.2: six-year Interim Period; 2.5: referendum at end of Interim Period; Power Sharing 3.1: Government of Southern Sudan 'as per the borders of 1/1/56'; Abyei Protocol 1.4: 1 Jan 1956 line inviolate. OCR scan with character errors. Entry built from the Analyst's notes; Historian spot-checked Machakos 1.3, 2.2 and Power Sharing 3.1 against the S/2005/78 PDF on 2026-10-24.",
+    "pages": "PDF pp. 22–24 (Ch. I Machakos Protocol 1.3, 2.2, 2.5) and p. 52 (Ch. II Power Sharing 3.1); PDF pages of S/2005/78, not printed pages; PDF p.14 (Chapeau, operative (1), printed p.xii), PDF p.21 (Machakos Protocol preamble 'window of opportunity ... to end the war'), PDF p.115 (Annexure I §2 Entry into Force/D-Day, §5.1, §5.2.1; printed p.95)",
+    "note": "Signed Nairobi 9 Jan 2005. Machakos 1.3: right to self-determination through a referendum; 2.2: six-year Interim Period; 2.5: referendum at end of Interim Period; Power Sharing 3.1: Government of Southern Sudan 'as per the borders of 1/1/56'; Abyei Protocol 1.4: 1 Jan 1956 line inviolate. OCR scan with character errors. Entry built from the Analyst's notes; Historian spot-checked Machakos 1.3, 2.2 and Power Sharing 3.1 against the S/2005/78 PDF on 2026-10-24. Historian checked Annexure I §2, §5.1, §5.2.1, the Machakos preamble and Chapeau (1) against this S/2005/78 copy on 2026-10-25 (Annexure I begins at PDF p.111 = printed p.91; printed = PDF − 20 in this copy).",
     "lang": "en"
    },
    "CSHAPES2": {
@@ -7813,6 +7813,16 @@
     "url": "https://reliefweb.int/sites/reliefweb.int/files/resources/Full_report_217.pdf",
     "accessed": "2026-10-25",
     "note": "Registered from db/battles_post1956.json sources_to_register; URL checked 2026-10-25 (HTTP 200, title matches)."
+   },
+   "UNSC1590": {
+    "author": "UN Security Council Resolution 1590 (2005)",
+    "title": "UN Security Council Resolution 1590 (2005), S/RES/1590(2005), 24 March 2005",
+    "year": "2005",
+    "lang": "en",
+    "pages": "p.1, preamble para 3",
+    "url": "https://undocs.org/S/RES/1590(2005)",
+    "accessed": "2026-10-25",
+    "note": "Registered from db/cpa_enddate_cite_20261025.json (709f5c8). Historian checked the official PDF on 2026-10-25: p.1, third preamble para: 'Welcoming the signing of the Comprehensive Peace Agreement ... in Nairobi, Kenya on 9 January 2005'."
    }
   }
  },

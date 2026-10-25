@@ -286,7 +286,7 @@
       "name_ar": "الحرب الأهلية السودانية الثانية [يحتاج تحقق]",
       "ar_status": "VERIFY",
       "start": "1983",
-      "end": "2005-01",
+      "end": "2005-01-09",
       "era_ids": [
         "nimeiry-era-democratic-republic-of-sudan",
         "transitional-third-parliamentary-period",
@@ -312,12 +312,23 @@
         {
           "source_id": "UNSC2046",
           "pages": "preamble (January 2005 Comprehensive Peace Agreement)"
+        },
+        {
+          "source_id": "UNSC1590",
+          "pages": "p.1 (preamble para 3: CPA signed in Nairobi on 9 January 2005)"
+        },
+        {
+          "source_id": "CPA_2005",
+          "pages": "PDF p.115 (Annexure I §2 Entry into Force: ceasefire effective from signature of the CPA, 'D-Day'; §5.1 permanent ceasefire; §5.2.1 permanent cessation of hostilities within 72 hours of signature)"
+        },
+        {
+          "source_id": "CPA_2005",
+          "pages": "PDF p.21 (Machakos Protocol preamble: 'a just peace agreement to end the war')"
         }
       ],
       "note": "Start year from SPLA formation in 1983 (HRW); exact start date NO-SOURCE.",
       "origin": "db/wars_post1956.json (7c86fbe), Analyst; content unchanged, keys mapped to schema",
-      "end_badge": "VERIFY",
-      "end_note": "VERIFY: S/RES/2046 mentions the January 2005 CPA only in its preamble and does not state that it ended the war; the Analyst will substitute the CPA text and S/RES/1590 once read."
+      "date_note": "End 2005-01-09 = date of CPA signature (UNSC1590 p.1); the CPA ceasefire takes effect on signature (CPA_2005 Annexure I §2, §5.1, §5.2.1). Quotes checked by the Historian on 2026-10-25, replacing the earlier VERIFY based on S/RES/2046's preamble alone."
     },
     {
       "id": "darfur-war",
