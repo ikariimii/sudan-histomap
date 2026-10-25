@@ -101,7 +101,7 @@ async function render(anim=true){
  LBS=LB;
  await layersDraw(e);if(on.has('hml'))hmlDraw();prefetch(i);zonesDraw(e,D,ctl?g.features.filter(f=>f.properties.zone&&f.geometry.type!=='Point'):[]);
  // card
- const cj=await cardj(e);if(e!==ES[i])return;$('card').innerHTML=cj?cj[L]:`<p><span class="gap">${T.wip}</span></p>`;shareBtn(e);layerInfo(e);$('feat').hidden=true;
+ const cj=await cardj(e);if(e!==ES[i])return;$('card').innerHTML=cj?cj[L]:`<p><span class="gap">${T.wip}</span></p>`;shareBtn(e);layerInfo(e);msPanel(e);$('feat').hidden=true;
  place()}
 render.last=null;let LBS=[];
 new MutationObserver(()=>{const x=$('feat').querySelector('.x');if(x)x.setAttribute('aria-label',T.close)}).observe($('feat'),{childList:true});
@@ -358,6 +358,9 @@ function shareBtn(e){const h=$('card').querySelector('h2,h1');if(!h)return;const
  w.innerHTML=`<button type="button" class="share">${esc(T.share)}</button> <span class="sharemsg" aria-live="polite"></span>`;h.after(w);const m=w.querySelector('.sharemsg');
  w.querySelector('button').onclick=async()=>{if(navigator.share&&matchMedia('(pointer:coarse)').matches){try{await navigator.share({title:h.textContent,url:u});return}catch(x){if(x&&x.name==='AbortError')return}}
   try{await navigator.clipboard.writeText(u);m.textContent=T.copied}catch(x){m.innerHTML=`${esc(T.copyno)} <bdi dir="ltr">${esc(u)}</bdi>`}}}
+// Map sources panel (lazy): /ms/<id>.json, inserted after the card; open state kept per session
+const MSC={};function msPanel(e){const old=document.getElementById('msrc');if(old)old.remove();if(!((M.layers||{}).ms||[]).includes(e.id))return;
+ (MSC[e.id]||(MSC[e.id]=getj('/ms/'+e.id+'.json').catch(()=>null))).then(j=>{if(!j||e!==ES[i])return;const w=document.createElement('div');w.id='msrc';w.innerHTML=j[L];$('card').after(w)})}
 // --- start
 window.__hm={scale:k=>svg.call(zoom.scaleTo,k)};// test hook (QA only, no side effects)
 const eth1932=()=>{const e=ES[i];if(on.has('eth')&&(M.layers.eth||[]).includes(e.id)&&e.a<=1932&&1932<=e.b)Y=1932};eth1932();
