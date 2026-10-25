@@ -79,3 +79,7 @@ html[dir=rtl] .nav{transform:scaleX(-1)}
 .hm.cont .dot{stroke:#e0a63e;stroke-width:1.5}
 .nscore .ns,.repb.ns{background:#3a4652;color:#dfe6ec}
 .hm text.hl{font-size:10px;font-variant:small-caps;fill:#5fd3ad;paint-order:stroke;stroke:#101418;stroke-width:3px;stroke-linejoin:round;pointer-events:none}
+
+#nob .hmlb{pointer-events:auto;border-radius:16px;padding:4px 12px;font:600 13px inherit;font-family:inherit;border:1px dashed #009E73;background:#e6f6f0;color:#00573f;cursor:pointer;min-height:32px}
+.mb.hml{border-color:#009E73;color:#5fd3ad}.mb.hmlon{cursor:pointer;background:#0b3a2d;color:#e6f6f0;border:1px solid #009E73;font:inherit;font-size:.8em;border-radius:.6em;padding:.15em .6em;min-height:28px}
+body.sfull #lgb,body.sfull #lgp,body.sfull #reset{visibility:hidden}

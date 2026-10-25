@@ -20,7 +20,8 @@ $('lang').href='/?'+lq.toString();$('prev').setAttribute('aria-label',T.prev);$(
 $('reset').title=T.reset;$('reset').setAttribute('aria-label',T.reset);$('within').querySelector('label').textContent=T.within;
 const LAY=['ctl','grp','rel','pop','cty','hml'],on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x).filter(x=>LAY.includes(x)));
 LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=T.l[k];b.setAttribute('aria-pressed',on.has(k));b.dataset.k=k;
- b.onclick=()=>{on.has(k)?on.delete(k):on.add(k);b.setAttribute('aria-pressed',on.has(k));url();render(false)};$('layers').appendChild(b)});
+ b.onclick=()=>{on.has(k)?on.delete(k):on.add(k);b.setAttribute('aria-pressed',on.has(k));url();render(false);if(k==='hml')hmlDraw()};$('layers').appendChild(b)});
+document.addEventListener('click',ev=>{const t=ev.target.closest&&ev.target.closest('[data-hml]');if(!t)return;ev.preventDefault();if(!on.has('hml')){on.add('hml');const c=document.querySelector('#layers .chip[data-k=hml]');if(c)c.setAttribute('aria-pressed','true');url();render(false);hmlDraw()}});
 // --- era index
 let i=Math.max(0,ES.findIndex(e=>e.id===Q.get('era')));const r=$('r');r.max=ES.length-1;r.value=i;r.setAttribute('aria-label',T.era);
 function url(){const q=new URLSearchParams();q.set('era',ES[i].id);if(AR)q.set('lang','ar');const ly=[...on].sort().join(',');if(ly!=='ctl')q.set('layers',ly);history.replaceState(null,'','/?'+q)}
@@ -62,7 +63,7 @@ async function render(anim=true){
  const wi=$('within');wi.hidden=st.length<2;if(st.length>1){const w=$('w');w.min=0;w.max=st.length-1;w.value=Math.max(0,st.findIndex(s=>s===Y));$('wo').textContent=fy(Y)}
  document.documentElement.style.setProperty('--c',e.c);
  $('en').textContent=AR?e.ar:e.en;$('yrs').innerHTML=`<bdi>${fy(e.a)}</bdi> – <bdi>${fy(e.b)}</bdi> · ${esc(AR?e.sa:e.s)} · ${num(i+1)}/${num(ES.length)}`;
- $('nob').innerHTML=e.g==='pts'?`<span class="pts"${AR?' title="Arabic label under native-speaker review"':''}>${T.pts}</span>`:e.g==='none'?`<span class="none">${T.none}</span>`:'';
+ $('nob').innerHTML=e.g==='pts'?`<span class="pts"${AR?' title="Arabic label under native-speaker review"':''}>${T.pts}</span>`:e.g==='none'?`<span class="none">${T.none}</span>`:e.g==='hml'?`<button type="button" class="hmlb" data-hml="1" aria-pressed="${on.has('hml')}">${AR?'معروض على طبقة الأوطان *':'Shown on the Homelands layer'}</button>`:'';
  drawBase(e);
  const ctl=on.has('ctl'),areas=ctl?g.features.filter(f=>f.geometry.type!=='Point'&&act(f.properties,e,Y)):[],pts=ctl?g.features.filter(f=>f.geometry.type==='Point'&&act(f.properties,e,Y)):[];
  // areas: morph matched shapes, crossfade the rest
@@ -242,7 +243,7 @@ r.addEventListener('input',()=>go(+r.value));$('prev').onclick=()=>go(i-1);$('ne
 $('w').addEventListener('input',()=>{const e=ES[i];ext(e).then(g=>{Y=steps(e,g)[+$('w').value];render(true)})});
 addEventListener('keydown',ev=>{if(ev.target.tagName==='INPUT')return;if(ev.key==='ArrowRight')go(i+(AR?-1:1));if(ev.key==='ArrowLeft')go(i+(AR?1:-1))});
 let sx=null;const hd=$('head');hd.addEventListener('pointerdown',ev=>{sx=ev.clientX});hd.addEventListener('pointerup',ev=>{if(sx==null)return;const d=ev.clientX-sx;sx=null;if(Math.abs(d)>50)go(i+((d<0)!==AR?1:-1))});
-const SN=['peek','half','full'];function snap(s){setTimeout(lgFit,350);const sh=$('sheet');SN.forEach(c=>sh.classList.remove(c));sh.classList.add(s);setTimeout(place,320)}
+const SN=['peek','half','full'];function snap(s){document.body.classList.toggle('sfull',s==='full');setTimeout(lgFit,350);const sh=$('sheet');SN.forEach(c=>sh.classList.remove(c));sh.classList.add(s);setTimeout(place,320)}
 $('grab').onclick=()=>{const sh=$('sheet'),c=SN.find(x=>sh.classList.contains(x))||'half';snap(SN[(SN.indexOf(c)+1)%3])};
 let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(()=>{fit();OLD=[];render(false)},150)});
 // --- start

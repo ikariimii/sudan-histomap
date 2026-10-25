@@ -1,5 +1,7 @@
 # Changelog
 
+- Map: eras rendered via the Homelands layer (extent_rendering homelands-layer: Dinka, Nuer, Anuak) show "Shown on the Homelands layer" with a button that turns the layer on and updates ?layers=; AR working-translation badge now reads "ترجمة أولية *"; legend and reset hidden while the sheet is full; the Homelands chip draws immediately.
+
 - Regional power: "Not scored" now only when an era has neither a CINC share nor an editorial score (52 eras); the 16 scored eras (14 CINC + Napatan Kush, Mahdist state) show values only. Homeland text labels (EN/AR) appear at zoom ≥2.5×, collision-culled against all other labels.
 
 - Map: ruin symbol per legend spec (dashed grey, open-end '?' for RUIN-UNDATED, popup end basis); Homelands (undated) toggle (?layers=homelands) with legend rows and popups; unscored regional power shown as 'Not scored: no cited comparative measure'; APPROXIMATE-COORDS label; era-label placement fix (Sennar/Kordofan overlap); funj-darfur chapter now opens the Funj era; equal-area clause dropped from the shown disclaimer.
