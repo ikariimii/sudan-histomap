@@ -15,12 +15,12 @@
    "DERIVED"
   ],
   "era_count": 68,
-  "files_scanned": 278
+  "files_scanned": 279
  },
  "totals": {
   "SINGLE-SOURCE": 180,
   "CONTESTED": 116,
-  "VERIFY": 16,
+  "VERIFY": 15,
   "REPORTED": 10,
   "MODEL": 109,
   "EDITORIAL": 16,
@@ -28,7 +28,7 @@
   "PARTIAL": 3,
   "DERIVED": 51
  },
- "grand_total": 632,
+ "grand_total": 631,
  "eras_with_zero_badges": [],
  "eras": {
   "a-group-lower-nubia": {
@@ -850,7 +850,7 @@
    "counts": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 2,
-    "VERIFY": 1,
+    "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
@@ -858,7 +858,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 8,
+   "total": 7,
    "files": [
     "data/eras/nimeiry-era-democratic-republic-of-sudan.json",
     "db/population.json"
