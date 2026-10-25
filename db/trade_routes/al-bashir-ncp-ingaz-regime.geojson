@@ -1,0 +1,137 @@
+{
+ "type": "FeatureCollection",
+ "crs_note": "EPSG:4326",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      29.39861,
+      9.99944
+     ],
+     [
+      29.71198,
+      10.4048
+     ],
+     [
+      30.02616,
+      10.80985
+     ],
+     [
+      30.3412,
+      11.21458
+     ],
+     [
+      30.65711,
+      11.61898
+     ],
+     [
+      30.97395,
+      12.02303
+     ],
+     [
+      31.29173,
+      12.42673
+     ],
+     [
+      31.61051,
+      12.83006
+     ],
+     [
+      31.9303,
+      13.233
+     ],
+     [
+      32.25116,
+      13.63554
+     ],
+     [
+      32.57311,
+      14.03767
+     ],
+     [
+      32.89619,
+      14.43937
+     ],
+     [
+      33.22045,
+      14.84063
+     ],
+     [
+      33.5459,
+      15.24143
+     ],
+     [
+      33.8726,
+      15.64176
+     ],
+     [
+      34.20058,
+      16.04161
+     ],
+     [
+      34.52987,
+      16.44096
+     ],
+     [
+      34.86053,
+      16.83979
+     ],
+     [
+      35.19257,
+      17.23809
+     ],
+     [
+      35.52606,
+      17.63584
+     ],
+     [
+      35.86101,
+      18.03303
+     ],
+     [
+      36.19748,
+      18.42964
+     ],
+     [
+      36.53551,
+      18.82565
+     ],
+     [
+      36.87513,
+      19.22106
+     ],
+     [
+      37.21639,
+      19.61583
+     ]
+    ]
+   },
+   "properties": {
+    "id": "al-bashir-ncp-ingaz-regime-route-0",
+    "era_id": "al-bashir-ncp-ingaz-regime",
+    "label_en": "Heglig to port-sudan (crude oil)",
+    "label_ar": null,
+    "from_id": "HEGLIG-OILFIELD",
+    "to_id": "port-sudan",
+    "commodity": "crude oil",
+    "direction": null,
+    "partners": null,
+    "schematic": true,
+    "schematic_between": "endpoints only",
+    "line": "great_circle",
+    "symbol_class": "trade_route",
+    "badges": [
+     "APPROXIMATE"
+    ],
+    "cite": "EIA_SDN2013",
+    "endpoint_sources": [
+     "db/verify_cites_for_extents_historian.json",
+     "db/city_layers/cities.geojson"
+    ]
+   }
+  }
+ ]
+}

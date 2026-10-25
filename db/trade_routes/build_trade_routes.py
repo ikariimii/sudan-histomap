@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build db/trade_routes/<era>.geojson from main_trade routes in db/era_economy.json. Owner: Sudan Map Designer.
 A route is drawn ONLY if it has a cite AND both endpoints resolve (by id, else exact name_en/name_ar) to a place
-already in the cited city data: db/city_layers/cities.geojson, db/cities.json, db/cities_modern.json.
+already in the cited city data: db/city_layers/cities.geojson, db/cities.json, db/cities_modern.json, or the Historian anchor file db/verify_cites_for_extents_historian.json (items with coord_source).
 No waypoint or coordinate is invented: lines are schematic great-circle arcs between the two cited points,
 badged APPROXIMATE unless the route itself carries a source path (route['path'] of place ids, each resolved).
 Skipped routes are listed with the reason in db/trade_routes/SKIPPED.md. Runs cleanly on a missing or empty file.
@@ -34,6 +34,12 @@ def places():
         for i, x in it:
             if isinstance(x, dict):
                 add(x.get('id') or i, x.get('name_en'), x.get('name_ar'), x.get('lon'), x.get('lat'), fn)
+    # Historian's cited anchor points (location only), lowest priority
+    a = load('db/verify_cites_for_extents_historian.json') or {}
+    for x in a.get('items', []):
+        if isinstance(x, dict) and x.get('lat') is not None and x.get('lon') is not None and x.get('coord_source'):
+            nm = (x.get('place') or '').split(' (')[0].strip() or None
+            add(x.get('id'), nm, None, x.get('lon'), x.get('lat'), 'db/verify_cites_for_extents_historian.json')
     return ids, names
 
 def resolve(ref, ids, names):

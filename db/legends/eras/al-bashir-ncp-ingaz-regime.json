@@ -1839,6 +1839,21 @@
     "note": "Era text writes 'ICG'; ICG2019 is the only ICG id in its sources."
    },
    "cite": null
+  },
+  "trade_routes": {
+   "file": "db/trade_routes/al-bashir-ncp-ingaz-regime.geojson",
+   "features": [
+    {
+     "id": "al-bashir-ncp-ingaz-regime-route-0",
+     "label_en": "Heglig to port-sudan (crude oil)",
+     "commodity": "crude oil",
+     "symbol_class": "trade_route",
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "cite": "EIA_SDN2013"
+    }
+   ]
   }
  },
  "symbol_classes_present": [
@@ -1855,7 +1870,8 @@
   "control_extent_approx",
   "economy_unknown",
   "flag",
-  "list_only_text"
+  "list_only_text",
+  "trade_route"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1881,6 +1897,7 @@
   "economy_unknown": 1,
   "flag": 1,
   "list_only_text": 1,
+  "trade_route": 1,
   "extent_features": 9,
   "group_features": 1,
   "cities": 50
