@@ -26,10 +26,10 @@ LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.ty
 document.addEventListener('click',ev=>{const t=ev.target.closest&&ev.target.closest('[data-hml]');if(!t)return;ev.preventDefault();if(!on.has('hml')){on.add('hml');const c=document.querySelector('#layers .chip[data-k=hml]');if(c)c.setAttribute('aria-pressed','true');url();render(false);hmlDraw()}});
 // --- era index
 let i=Math.max(0,ES.findIndex(e=>e.id===Q.get('era')));const r=$('r');r.max=ES.length-1;r.value=i;r.setAttribute('aria-label',T.era);
-function url(){const q=new URLSearchParams();q.set('era',ES[i].id);const ly=[...on].sort().join(',');if(ly!=='ctl')q.set('layers',ly);history.replaceState(null,'',(AR?'/ar/':'/')+'?'+q)}
+function url(){const q=new URLSearchParams();q.set('era',ES[i].id);const ly=[...on].sort().concat(BDQ?['borders-draft']:[]).join(',');if(ly!=='ctl')q.set('layers',ly);history.replaceState(null,'',(AR?'/ar/':'/')+'?'+q)}
 // --- map
 const svg=d3.select('#svg'),W=()=>innerWidth,H=()=>innerHeight,desk=()=>innerWidth>=1000;
-const root=svg.append('g'),gB=root.append('g').attr('class','relief'),gL=root.append('g'),gC=root.append('g'),gX=root.append('g'),gN=root.append('g'),gG=root.append('g'),gH=root.append('g').attr('class','hml'),gY=root.append('g').attr('class','cities'),gR=root.append('g'),gP=root.append('g'),gK=root.append('g'),gT=root.append('g'),gF=root.append('g').attr('class','flags');
+const root=svg.append('g'),gB=root.append('g').attr('class','relief'),gZ=root.append('g').attr('class','zones'),gL=root.append('g'),gC=root.append('g'),gX=root.append('g'),gN=root.append('g'),gG=root.append('g'),gH=root.append('g').attr('class','hml'),gY=root.append('g').attr('class','cities'),gR=root.append('g'),gP=root.append('g'),gK=root.append('g'),gT=root.append('g'),gF=root.append('g').attr('class','flags');
 svg.append('defs').html('<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#f08c6c"/></marker>');
 const proj=d3.geoMercator(),path=d3.geoPath(proj);let K=1,TR=d3.zoomIdentity;
 // topographic basemap: Natural Earth relief pre-rendered in Web Mercator over RELIEF_BOX (web/basemap/make_relief.py); placed by its corners, so the root zoom transform keeps it aligned. 900px by default, 1800px once zoomed in or on desktop.
@@ -68,7 +68,7 @@ async function render(anim=true){
  const wi=$('within');wi.hidden=st.length<2;if(st.length>1){const w=$('w');w.min=0;w.max=st.length-1;w.value=Math.max(0,st.findIndex(s=>s===Y));$('wo').textContent=fy(Y)}
  document.documentElement.style.setProperty('--c',e.c);
  $('en').textContent=AR?e.ar:e.en;r.setAttribute('aria-valuetext',`${AR?e.ar:e.en}${AR?'،':','} ${fy(e.a)} – ${fy(e.b)}`);if(render.last!==e.id){if(render.last)$('live').textContent=`${AR?e.ar:e.en}. ${fy(e.a)} – ${fy(e.b)}. ${num(i+1)} ${T.live_of} ${num(ES.length)}`;render.last=e.id}$('yrs').innerHTML=`<bdi>${fy(e.a)}</bdi> – <bdi>${fy(e.b)}</bdi> · ${esc(AR?e.sa:e.s)} · ${num(i+1)}/${num(ES.length)}`;
- $('nob').innerHTML=e.g==='pts'?`<span class="pts"${AR?' title="Arabic label under native-speaker review"':''}>${T.pts}</span>`:e.g==='none'?`<span class="none">${T.none}</span>`:e.g==='hml'?`<button type="button" class="hmlb" data-hml="1" aria-pressed="${on.has('hml')}">${AR?'معروض على طبقة الأوطان *':'Shown on the Homelands layer'}</button>`:'';
+ $('nob').innerHTML=e.g==='pts'?`<span class="pts"${AR?' title="Arabic label under native-speaker review"':''}>${T.pts}</span>`:e.g==='none'?`<span class="none">${T.none}</span>`:e.g==='hml'?`<button type="button" class="hmlb" data-hml="1" aria-pressed="${on.has('hml')}">${AR?'معروض على طبقة الأوطان *':'Shown on the Homelands layer'}</button>`:'';if(BD)$('nob').insertAdjacentHTML('beforeend',`<span class="bdb" role="note">${esc(T.bd.badge)}</span>`);
  drawBase(e);
  const ctl=on.has('ctl'),areas=ctl?g.features.filter(f=>f.geometry.type!=='Point'&&act(f.properties,e,Y)):[],pts=ctl?g.features.filter(f=>f.geometry.type==='Point'&&act(f.properties,e,Y)):[];
  // areas: morph matched shapes, crossfade the rest
@@ -96,14 +96,14 @@ async function render(anim=true){
  const LB=[];areas.forEach(f=>{const q=f.properties.label_point;const xy=q?proj(q):path.centroid(f);if(lab(f.properties))LB.push({xy,t:short(lab(f.properties)),pri:3,big:1})});
  pts.forEach(f=>LB.push({xy:proj(f.geometry.coordinates),t:short(lab(f.properties)),pri:rep(f.properties)?2.5:2,rep:rep(f.properties),dx:9}));caps.forEach(c=>LB.push({xy:proj([c[1],c[2]]),t:c[0],pri:2,dx:8}));
  LBS=LB;
- await layersDraw(e);if(on.has('hml'))hmlDraw();
+ await layersDraw(e);if(on.has('hml'))hmlDraw();if(BD)zonesDraw(e,D);
  // card
  const cj=await cardj(e);if(e!==ES[i])return;$('card').innerHTML=cj?cj[L]:`<p><span class="gap">${T.wip}</span></p>`;layerInfo(e);$('feat').hidden=true;
  place()}
 render.last=null;let LBS=[];
 new MutationObserver(()=>{const x=$('feat').querySelector('.x');if(x)x.setAttribute('aria-label',T.close)}).observe($('feat'),{childList:true});
 // keyboard access to map features: every tappable mark is a focusable button named by its <title>
-const FSEL='g.pt,path.ext,path.ln,g.cty,g.hm,g.grp,path.rel';function a11yMarks(){root.selectAll(FSEL).each(function(){const t=this.querySelector('title');const l=(t&&t.textContent)||(this.__data__&&this.__data__.properties&&lab(this.__data__.properties))||'';if(!l){this.removeAttribute('tabindex');return}this.setAttribute('tabindex','0');this.setAttribute('role','button');this.setAttribute('aria-label',l)})}
+const FSEL='path.zn,g.pt,path.ext,path.ln,g.cty,g.hm,g.grp,path.rel';function a11yMarks(){root.selectAll(FSEL).each(function(){const t=this.querySelector('title');const l=(t&&t.textContent)||this.getAttribute('aria-label')||(this.__data__&&this.__data__.properties&&lab(this.__data__.properties))||'';if(!l){this.removeAttribute('tabindex');return}this.setAttribute('tabindex','0');this.setAttribute('role','button');this.setAttribute('aria-label',l)})}
 let LASTF=null;svg.on('keydown.a11y',ev=>{const t=ev.target;if(!(t.matches&&t.matches(FSEL)))return;if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();LASTF=t;t.dispatchEvent(new MouseEvent('click',{bubbles:true}));setTimeout(()=>{if(!$('feat').hidden)$('feat').focus()},60)}});
 new MutationObserver(()=>{clearTimeout(a11yMarks.t);a11yMarks.t=setTimeout(a11yMarks,80)}).observe(document.getElementById('svg'),{childList:true,subtree:true});
 function nobPos(){const b=$('layers').getBoundingClientRect();document.documentElement.style.setProperty('--chipb',Math.round(b.bottom)+'px');$('nob').style.top=(b.bottom+6)+'px';setTimeout(lgFit,0)}
@@ -128,6 +128,26 @@ function feat(f,e){const p=f.properties,b=rep(p);const det=AR?(p.label_detail_ar
   `<p class="extnote"><bdi dir="ltr">${esc(p.citation||p.source)}${p.pages?' pp. '+esc(p.pages):''}</bdi>${p.url?` <a href="${esc(p.url)}" rel="noopener">link</a>`:''}${p.source_pins?Object.entries(p.source_pins).map(([k,v])=>`<br><bdi dir="ltr">${esc(k)}: ${esc(v)}</bdi>`).join(''):''}${(p.badges||[]).filter(x=>x!==b).map(x=>` <span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`).join('')}${p.geometry_citation?`<br>${AR?'الهندسة':'Geometry'}: <bdi dir="ltr">${esc(p.geometry_citation)}</bdi>`:''}</p>`;
  $('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true};if($('sheet').classList.contains('peek'))snap('half');$('feat').scrollIntoView({block:'nearest'})}
 svg.on('click',()=>{$('feat').hidden=true});
+// --- border zones (db/border_drafts). Unlisted: only with ?layers=borders-draft (DRAFT badge, no chip, no legend row) unless the build sets bdPub.
+const BDQ=(Q.get('layers')||'').split(',').includes('borders-draft'),BD=BDQ||!!M.layers.bdPub,ZJ={};
+const zj=e=>(M.layers.bd||[]).includes(e.id)?(ZJ[e.id]||(ZJ[e.id]=getj('/bd/'+e.id+'.json').then(g=>{g.features.forEach(rw);return g.features}).catch(()=>[]))):Promise.resolve([]);
+if(BD)svg.select('defs').each(function(){this.insertAdjacentHTML('beforeend','<pattern id="lowconf" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#e8eef2" stroke-width="1"/></pattern><pattern id="conthatch" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#e0a63e" stroke-width="2"/></pattern><filter id="zfeather"><feGaussianBlur stdDeviation="6"/></filter>')});
+const ZO=['influence','claimed','core','contested'],ZW=c=>c>=.7?T.bd.hi:c>=.4?T.bd.med:T.bd.lo;
+async function zonesDraw(e,D){const fs=await zj(e);if(e!==ES[i])return;const red=matchMedia('(prefers-reduced-motion: reduce)').matches;D=red?0:D;
+ gZ.selectAll('g.z').interrupt().transition().duration(D?350:0).style('opacity',0).remove();
+ const g=gZ.append('g').attr('class','z');const sorted=fs.slice().sort((a,b)=>ZO.indexOf(a.properties.zone)-ZO.indexOf(b.properties.zone));
+ sorted.forEach(f=>{const p=f.properties,z=p.zone,d=path(f),k=ZO.indexOf(z);const s=g.append('g').attr('class','zf zf-'+z).style('opacity',D?0:1);
+  const a=s.append('path').attr('d',d).attr('class','zn').attr('tabindex',0).attr('role','button').attr('aria-label',`${T.bd[z]||z}: ${p.basis||''}`).on('click',ev=>{ev.stopPropagation();zcard(f)});
+  if(z==='influence')a.attr('fill','#7a6bd0').attr('fill-opacity',.08).attr('stroke','none').attr('filter','url(#zfeather)');
+  else if(z==='claimed')a.attr('fill','#7a6bd0').attr('fill-opacity',.18).attr('stroke','#7a6bd0').attr('stroke-width',1.2).attr('stroke-dasharray','4 3').attr('vector-effect','non-scaling-stroke');
+  else if(z==='contested')a.attr('fill','url(#conthatch)').attr('stroke','#e0a63e').attr('stroke-width',1.2).attr('vector-effect','non-scaling-stroke');
+  else a.attr('fill','#7a6bd0').attr('fill-opacity',.35).attr('stroke','#7a6bd0').attr('stroke-width',1.2).attr('vector-effect','non-scaling-stroke');
+  if(p.confidence<.5)s.append('path').attr('d',d).attr('fill','url(#lowconf)').style('opacity',.5*(1-p.confidence)).attr('pointer-events','none');
+  if(D)s.transition().delay(k*80).duration(350).style('opacity',1)})}
+function zcard(f){const p=f.properties;
+ $('feat').innerHTML=`<button class="x" aria-label="${esc(T.close)}">×</button><span class="bdb">DRAFT</span> <b>${esc(T.bd[p.zone]||p.zone)}</b> ${(p.badges||[]).map(x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`).join(' ')}<br><small>${esc(T.bd.conf)}: ${esc(ZW(p.confidence))} (${num(p.confidence)})${p.signoff!=='approved'?' · '+esc(T.bd.nv):''}</small>`+
+  `<p>${esc(T.bd.basis)}: <bdi dir="ltr">${esc(p.basis||'—')}</bdi></p><p class="extnote">${(p.sources||[]).map(s=>`<bdi dir="ltr">${esc(s.citation)}</bdi>${s.url?` <a href="${esc(s.url)}" rel="noopener">link</a>`:''}`).join('<br>')}<br><small>${esc(p.version||'')}</small></p>`;
+ $('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true};if($('sheet').classList.contains('peek'))snap('half');$('feat').scrollIntoView({block:'nearest'})}
 // --- optional layers: drawn only from delivered, sourced files
 const srcd=x=>!!(x&&(x.source||x.source_id||(x.source_ids&&x.source_ids.length)||(x.sources&&x.sources.length)||(x.properties&&(x.properties.source||(x.properties.source_ids||[]).length))));
 const items=d=>!d?[]:Array.isArray(d)?d:d.features||d.groups||d.relations||d.series||d.data||d.items||[];

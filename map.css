@@ -100,3 +100,8 @@ body.sfull #lgb,body.sfull #lgp,body.sfull #reset{visibility:hidden}
 #r:focus-visible{outline-offset:4px}
 #card h2{font-size:14px;margin:10px 0 4px}
 #nob,#feat{scroll-margin:8px}
+
+/* border zones (unlisted draft layer) */
+.bdb{display:inline-block;font:700 11px system-ui,sans-serif;padding:1px 6px;border-radius:4px;background:#ffd54a;color:#14232f;letter-spacing:.02em}
+#nob .bdb{margin-inline-start:6px}
+.zones path.zn{cursor:pointer}

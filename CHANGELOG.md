@@ -18,6 +18,10 @@
 
 Site changes for sudan.indomando.com (built from `web/` by `web/build.py`). Newest first.
 
+## 2026-10-24 — Border zones renderer (draft, not public)
+- The map can draw the bd-0.1 border-zone drafts (core / claimed / influence / contested, with low-confidence hatching) from db/border_drafts, loaded per era.
+- Off in the public build: no layer chip and no legend row. It appears only through an unlisted review link and always carries a DRAFT badge, until the Historian's sign-off gate is complete.
+
 ## 2026-10-24 — Map accessibility pass
 - Era scrubber is a keyboard slider: arrows step one era (mirrored in Arabic), Home/End jump to the first/last era, PageUp/PageDown move five; its spoken value is the era name and years.
 - A polite live region announces each era change; skip link, map, layer and story-card controls carry localized labels; Escape closes the feature card (focus returns to the mark) or the legend.
