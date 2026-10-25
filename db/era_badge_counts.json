@@ -15,15 +15,15 @@
    "DERIVED"
   ],
   "era_count": 68,
-  "files_scanned": 280
+  "files_scanned": 282
  },
  "totals": {
   "SINGLE-SOURCE": 180,
   "CONTESTED": 116,
-  "VERIFY": 2,
+  "VERIFY": 1,
   "REPORTED": 10,
   "MODEL": 109,
-  "EDITORIAL": 16,
+  "EDITORIAL": 17,
   "APPROXIMATE": 131,
   "PARTIAL": 3,
   "DERIVED": 51
@@ -114,12 +114,12 @@
     "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 12,
-    "EDITORIAL": 1,
+    "EDITORIAL": 2,
     "APPROXIMATE": 5,
     "PARTIAL": 0,
     "DERIVED": 0
    },
-   "total": 25,
+   "total": 26,
    "files": [
     "data/eras/alodia-alwa.json",
     "db/era_fill_hist20.json",
@@ -995,7 +995,7 @@
    "counts": {
     "SINGLE-SOURCE": 4,
     "CONTESTED": 22,
-    "VERIFY": 1,
+    "VERIFY": 0,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
@@ -1003,7 +1003,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 33,
+   "total": 32,
    "files": [
     "data/eras/republic-of-south-sudan.json",
     "db/era_anchor_fill_hist23b.json",
