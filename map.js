@@ -21,7 +21,7 @@ $('skip').textContent=T.skip;$('map').setAttribute('aria-label',T.mapl);$('svg')
 $('grab').setAttribute('aria-label',T.sheet+' · '+T.sheetst.half);$('grab').setAttribute('aria-expanded','true');
 $('reset').title=T.reset;$('reset').setAttribute('aria-label',T.reset);$('within').querySelector('label').textContent=T.within;
 const LAY=['ctl','grp','rel','eth','pop','cty','hml','trd','evd','now'],on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x==='trade'?'trd':x==='evidence'?'evd':x==='then-now'?'now':x).filter(x=>LAY.includes(x)));
-LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=T.l[k];b.setAttribute('aria-pressed',on.has(k));b.dataset.k=k;
+LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=T.l[k];b.setAttribute('aria-pressed',on.has(k));b.dataset.k=k;if(k==='trd')b.setAttribute('aria-label',T.l.trd_aria);
  b.onclick=()=>{on.has(k)?on.delete(k):on.add(k);if(k==='eth'&&on.has(k))eth1932();b.setAttribute('aria-pressed',on.has(k));url();if(k==='evd'){evdStyle();layerInfo(ES[i]);return}if(k==='now'){cmpDraw();return}render(false);if(k==='hml')hmlDraw()};$('layers').appendChild(b)});
 document.addEventListener('click',ev=>{const t=ev.target.closest&&ev.target.closest('[data-hml]');if(!t)return;ev.preventDefault();if(!on.has('hml')){on.add('hml');const c=document.querySelector('#layers .chip[data-k=hml]');if(c)c.setAttribute('aria-pressed','true');url();render(false);hmlDraw()}});
 // --- era index
@@ -152,12 +152,12 @@ async function ethDraw(e){const has=(M.layers.eth||[]).includes(e.id),c=document
   g.append('circle').attr('cx',x).attr('cy',y).attr('r',r).attr('fill','none').attr('stroke','#c9a227').attr('stroke-opacity',m.op).attr('stroke-width',1.4).attr('stroke-dasharray','5 4').attr('vector-effect','non-scaling-stroke');
   g.append('circle').attr('cx',x).attr('cy',y).attr('r',3).attr('fill','#c9a227');
   g.append('text').attr('x',x).attr('y',y-6).attr('text-anchor','middle').attr('class','ethl').text(m.n)})}
-function ethCard(m){$('feat').innerHTML=`<button class="x" aria-label="${esc(T.close)}">×</button><b lang="en">${esc(m.n)}</b> ${m.b.map(x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`).join(' ')}<p>${esc(AR?(m.cap_ar||T.ethcap):T.ethcap)}${AR&&!m.cap_ar?` <span class="repb">${esc(BL.VERIFY?BL.VERIFY[1]:'VERIFY')}</span>`:''}</p>${m.dn&&!AR?`<p><small>${esc(m.dn)}</small></p>`:''}<p class="extnote"><bdi dir="ltr">${esc(m.src)}${m.pl?' · '+esc(m.pl):''}</bdi>${m.u?` <a href="${esc(m.u)}" rel="noopener">link</a>`:''}</p>`;$('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true}}
+function ethCard(m){$('feat').innerHTML=`<button class="x" aria-label="${esc(T.close)}">×</button><b lang="en">${esc(m.n)}</b> ${m.b.map(x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`).join(' ')}<p>${esc(AR?(m.cap_ar||T.ethcap):T.ethcap)}${AR&&!m.cap_ar?` <span class="repb">${esc(BL.VERIFY?BL.VERIFY[1]:'VERIFY')}</span>`:''}</p>${m.dn&&!AR?`<p><small>${esc(m.dn)}</small></p>`:''}<p class="extnote"><bdi dir="ltr">${esc(m.src)}${m.pl?' · '+esc(m.pl):''}</bdi>${m.u?` <a href="${esc(m.u)}" rel="noopener">${esc(T.lnk)}</a>`:''}</p>`;$('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true}}
 // --- tap a feature for details
 function feat(f,e){const p=f.properties,b=rep(p);const det=AR?(p.label_detail_ar||p.label_detail_en):(p.label_detail_en||p.label_detail_ar);
  $('feat').innerHTML=`<button class="x" aria-label="close">×</button><b>${esc(lab(p)||'—')}</b>${b?` <span class="repb${b==='CONTESTED'?' cont':b==='SINGLE-SOURCE'?' single':''}">${esc(b==='SINGLE-SOURCE'&&!AR?p.badge:BL[b][AR?1:0])}</span>`:''}${p.certainty?` <small>[${esc(p.certainty)}]</small>`:''}`+
   (on.has('evd')?`<br><small class="evc">${esc(cf(p)!=null?T.evc+': '+num(cf(p)):T.evn)}</small>`:'')+(p.start!=null?`<br><small><bdi>${fy(p.start)}</bdi> – <bdi>${fy(p.end??e.b)}</bdi></small>`:'')+(det?`<p>${esc(det)}</p>`:'')+
-  `<p class="extnote"><bdi dir="ltr">${esc(p.citation||p.source)}${p.pages?' pp. '+esc(p.pages):''}</bdi>${p.url?` <a href="${esc(p.url)}" rel="noopener">link</a>`:''}${p.source_pins?Object.entries(p.source_pins).map(([k,v])=>`<br><bdi dir="ltr">${esc(k)}: ${esc(v)}</bdi>`).join(''):''}${(p.badges||[]).filter(x=>x!==b).map(x=>` <span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`).join('')}${p.geometry_citation?`<br>${AR?'الهندسة':'Geometry'}: <bdi dir="ltr">${esc(p.geometry_citation)}</bdi>`:''}</p>`;
+  `<p class="extnote"><bdi dir="ltr">${esc(p.citation||p.source)}${p.pages?' pp. '+esc(p.pages):''}</bdi>${p.url?` <a href="${esc(p.url)}" rel="noopener">${esc(T.lnk)}</a>`:''}${p.source_pins?Object.entries(p.source_pins).map(([k,v])=>`<br><bdi dir="ltr">${esc(k)}: ${esc(v)}</bdi>`).join(''):''}${(p.badges||[]).filter(x=>x!==b).map(x=>` <span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`).join('')}${p.geometry_citation?`<br>${AR?'الهندسة':'Geometry'}: <bdi dir="ltr">${esc(p.geometry_citation)}</bdi>`:''}</p>`;
  $('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true};if($('sheet').classList.contains('peek'))snap('half');$('feat').scrollIntoView({block:'nearest'})}
 svg.on('click',()=>{$('feat').hidden=true});
 // --- border zones (db/border_drafts). Unlisted: only with ?layers=borders-draft (DRAFT badge, no chip, no legend row) unless the build sets bdPub.
@@ -178,7 +178,7 @@ async function zonesDraw(e,D,pub=[]){zdefs();const fs=pub.concat(BD?await zj(e):
   if(D)s.transition().delay(k*80).duration(350).style('opacity',1)});evdStyle()}
 function zcard(f){const p=f.properties;
  $('feat').innerHTML=`<button class="x" aria-label="${esc(T.close)}">×</button>${p.signoff!=='approved'?'<span class="bdb">DRAFT</span> ':''}<b>${esc(T.bd[p.zone]||p.zone)}</b>${on.has('evd')?` <small class="evc">${esc(cf(p)!=null?T.evc+': '+num(cf(p)):T.evn)}</small>`:''} ${(p.badges||[]).map(x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`).join(' ')}<br><small>${esc(T.bd.conf)}: ${esc(ZW(p.confidence))} (${num(p.confidence)})${p.signoff!=='approved'?' · '+esc(T.bd.nv):''}</small>`+
-  `<p>${esc(T.bd.basis)}: <bdi dir="ltr">${esc(p.basis||'—')}</bdi></p><p class="extnote">${(p.sources||[]).map(s=>`<bdi dir="ltr">${esc(s.citation)}</bdi>${s.url?` <a href="${esc(s.url)}" rel="noopener">link</a>`:''}`).join('<br>')}<br><small>${esc(p.version||'')}</small></p>`;
+  `<p>${esc(T.bd.basis)}: <bdi dir="ltr">${esc(p.basis||'—')}</bdi></p><p class="extnote">${(p.sources||[]).map(s=>`<bdi dir="ltr">${esc(s.citation)}</bdi>${s.url?` <a href="${esc(s.url)}" rel="noopener">${esc(T.lnk)}</a>`:''}`).join('<br>')}<br><small>${esc(p.version||'')}</small></p>`;
  $('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true};if($('sheet').classList.contains('peek'))snap('half');$('feat').scrollIntoView({block:'nearest'})}
 // --- optional layers: drawn only from delivered, sourced files
 const srcd=x=>!!(x&&(x.source||x.source_id||(x.source_ids&&x.source_ids.length)||(x.sources&&x.sources.length)||(x.properties&&(x.properties.source||(x.properties.source_ids||[]).length))));
@@ -268,7 +268,7 @@ function hmlTap(ev,p){ev.stopPropagation();const ar=AR&&/\[Arabic text pending/.
  const B=x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`;
  $('feat').innerHTML=`<button class="x" aria-label="close">×</button><b>${esc(hLab(p))}</b> ${p.b?B(p.b):''}${ar?' '+B('AR-REVIEW'):''}<p><small>${esc(T.hnd)}</small></p>`+
   `<p>${esc(AR?(p.da||p.de):p.de)}</p>`+(p.cite?`<p class="extnote"><bdi dir="ltr">${esc(p.cite)}</bdi></p>`:'')+
-  (p.s&&p.s.length?`<ol class="src">${p.s.map(x=>`<li><bdi dir="ltr">${esc(x.c)}</bdi>${x.u?` <a href="${esc(x.u)}" rel="noopener">link</a>`:''}</li>`).join('')}</ol>`:'');
+  (p.s&&p.s.length?`<ol class="src">${p.s.map(x=>`<li><bdi dir="ltr">${esc(x.c)}</bdi>${x.u?` <a href="${esc(x.u)}" rel="noopener">${esc(T.lnk)}</a>`:''}</li>`).join('')}</ol>`:'');
  $('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true}}
 const LGC={};const lgj=id=>LGC[id]||(LGC[id]=fetch(`/lg/${id}.json`).then(r=>r.ok?r.json():null).catch(()=>null));
 const LGS=fetch('/lg/_spec.json').then(r=>r.ok?r.json():null).catch(()=>null);
@@ -285,7 +285,7 @@ async function legendDraw(e){const b=$('lgb'),p=$('lgp');if(!b||!p)return;const 
  if(!rows.length)h=`<p><span class="gap">${T.wip}</span> <span class="gapt">${esc(T.lgnone)}</span></p>`;
  for(const l of ls){h+=`<h4>${esc(LGL[l]?LGL[l]():l)}</h4><ul>`+rows.filter(r=>r.l===l).map(r=>`<li role="listitem" aria-label="${esc((AR?(r.ar||r.en):r.en)+' '+r.n)}">${lgSw(r)}<span>${esc(AR?(r.ar||r.en):r.en)}${AR&&r.arw?' <sup title="'+esc(T.lgarw)+'">*</sup>':''}</span><span class="n"><bdi>${num(r.n)}</bdi></span></li>`).join('')+'</ul>';
   const bd=(d.badges||{})[l]||[];if(bd.length)h+=`<p>${bd.map(x=>`<span class="repb">${esc(AR?(x.ar||(BL[x.id]&&BL[x.id][1])||x.en):(x.en!==x.id?x.en:(BL[x.id]?BL[x.id][0]:x.en)))} <bdi>${num(x.n)}</bdi></span>`).join(' ')}</p>`;
-  const sr=(d.src||{})[l]||[];if(sr.length)h+=`<details class="srcs"><summary>${esc(T.lgsrc)} (${num(sr.length)})</summary><ul>${sr.map(x=>`<li dir="ltr"><bdi>${esc(x.c)}</bdi>${x.u?` <a href="${esc(x.u)}" rel="noopener">link</a>`:''}</li>`).join('')}</ul></details>`}
+  const sr=(d.src||{})[l]||[];if(sr.length)h+=`<details class="srcs"><summary>${esc(T.lgsrc)} (${num(sr.length)})</summary><ul>${sr.map(x=>`<li dir="ltr"><bdi>${esc(x.c)}</bdi>${x.u?` <a href="${esc(x.u)}" rel="noopener">${esc(T.lnk)}</a>`:''}</li>`).join('')}</ul></details>`}
  if(sp&&sp.credit)h+=`<details class="cr"><summary>${esc(T.lgcred)} ⓘ</summary><p dir="ltr">${esc(sp.credit)}</p><p>${esc(AR?(sp.dis_ar||sp.dis_en):sp.dis_en)}</p></details>`;
  h+=`<p class="lgm"><a href="${AR?'/ar':''}/methodology/">${esc(T.meth||'')}</a></p>`;
  p.innerHTML=h;p.hidden=!lgOpen;lgFit()}
@@ -307,7 +307,7 @@ function cityTap(ev,c){ev.stopPropagation();const e=ES[i],r=c.r[e.id],d=CJ&&CJ.t
   `<br><small>${esc(c.fb&&c.fb!=='founded'?T.firstatt:T.founded)}: <bdi>${fy(c.f)}</bdi>${c.fc?` [${esc(c.fc)}]`:''}${c.a!=null?` · ${esc(c.vb&&T['vb_'+c.vb]||T.abandoned)}: <bdi>${fy(c.a)}</bdi>`:(c.ru?` · ${esc(T.oe)}`:'')}</small>`+
   `<p><b>${esc(T.role)}:</b> ${role?esc(role):`<span class="gap">${esc(T.norole)}</span>`}</p>`+
   ((AR?(c.h_ar||c.h_en):(c.h_en||c.h_ar))?`<p>${esc(AR?(c.h_ar||c.h_en):(c.h_en||c.h_ar))}</p>`:'')+
-  `<p class="extnote">${c.s.map(x=>`<bdi dir="ltr">${esc(x.c)}${x.p?' · '+esc(x.p):''}</bdi>${x.u?` <a href="${esc(x.u)}" rel="noopener">link</a>`:''}`).join('<br>')}${r&&r.s&&r.s.length?`<br><small>${esc(T.role)}: <bdi dir="ltr">${r.s.map(esc).join(', ')}</bdi></small>`:''}</p>`+
+  `<p class="extnote">${c.s.map(x=>`<bdi dir="ltr">${esc(x.c)}${x.p?' · '+esc(x.p):''}</bdi>${x.u?` <a href="${esc(x.u)}" rel="noopener">${esc(T.lnk)}</a>`:''}`).join('<br>')}${r&&r.s&&r.s.length?`<br><small>${esc(T.role)}: <bdi dir="ltr">${r.s.map(esc).join(', ')}</bdi></small>`:''}</p>`+
   (M.layers.cStub?`<p class="gap">${esc(T.stub)}</p>`:'');
  $('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true};if($('sheet').classList.contains('peek'))snap('half')}
 // --- navigation
@@ -336,7 +336,8 @@ document.addEventListener('visibilitychange',()=>{if(document.hidden)tourStop()}
 ['prev','next'].forEach(id=>$(id).addEventListener('click',tourStop,true));
 // slider keys (APG): arrows step one era (mirrored in RTL), Up/Down step, PageUp/PageDown ±5, Home/End first/last
 r.addEventListener('keydown',ev=>{tourStop();const k=ev.key,m={ArrowRight:AR?-1:1,ArrowLeft:AR?1:-1,ArrowUp:1,ArrowDown:-1,PageUp:5,PageDown:-5};let n=null;if(k in m)n=i+m[k];else if(k==='Home')n=0;else if(k==='End')n=ES.length-1;if(n==null)return;ev.preventDefault();go(n)});
-addEventListener('keydown',ev=>{if(ev.key!=='Escape')return;if(!$('feat').hidden){$('feat').hidden=true;if(LASTF&&LASTF.isConnected)LASTF.focus();return}if(lgOpen){$('lgb').click();$('lgb').focus();return}if($('sheet').classList.contains('full'))snap('half')});$('prev').onclick=()=>go(i-1);$('next').onclick=()=>go(i+1);
+addEventListener('keydown',ev=>{if(ev.key===' '&&TT&&!(ev.target.closest&&ev.target.closest('button,input,select,textarea,a,[role=button],summary'))){ev.preventDefault();tourStop()}});
+addEventListener('keydown',ev=>{if(ev.key!=='Escape')return;if(TT){ev.preventDefault();tourStop();TB.focus();return}if(!$('feat').hidden){$('feat').hidden=true;if(LASTF&&LASTF.isConnected)LASTF.focus();return}if(lgOpen){$('lgb').click();$('lgb').focus();return}if($('sheet').classList.contains('full'))snap('half')});$('prev').onclick=()=>go(i-1);$('next').onclick=()=>go(i+1);
 $('w').addEventListener('input',()=>{const e=ES[i];ext(e).then(g=>{Y=steps(e,g)[+$('w').value];render(true)})});
 addEventListener('keydown',ev=>{if(ev.target.tagName==='INPUT')return;if(ev.key==='ArrowRight'||ev.key==='ArrowLeft')tourStop();if(ev.key==='ArrowRight')go(i+(AR?-1:1));if(ev.key==='ArrowLeft')go(i+(AR?1:-1))});
 let sx=null;const hd=$('head');hd.addEventListener('pointerdown',ev=>{sx=ev.clientX});hd.addEventListener('pointerup',ev=>{if(sx==null)return;const d=ev.clientX-sx;sx=null;if(Math.abs(d)>50)go(i+((d<0)!==AR?1:-1))});
