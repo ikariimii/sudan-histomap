@@ -119,7 +119,19 @@
     "certainty": "medium",
     "other": "Funj sultanate / 'Abdallab",
     "from_anchor": "Wadi Halfa",
-    "to_anchor": "Sennar (town) (Wikidata Q611867, era funj-sultanate-of-sennar)",
+    "from_badges": [
+     "APPROXIMATE"
+    ],
+    "from_note": null,
+    "to_anchor": "Sennar (Wikidata Q611867)",
+    "to_anchor_ar": "سنار",
+    "to_badges": [
+     "APPROXIMATE"
+    ],
+    "to_cite": [
+     "GHA5_CH7 p.178"
+    ],
+    "to_note": "Wikidata's English label reads 'Sengs' (an error on Wikidata); the Arabic label سنار and description 'Town in Sennar State, Sudan' match. Display 'Sennar'; we do not edit Wikidata.",
     "label_en": "Funj authority reached lower Nubia, which had first depended on the 'Abdallab; the Ottoman frontier was fixed at Hannik c.1622.",
     "label_ar": "امتدت سلطة الفونج إلى النوبة السفلى التابعة أصلاً للعبدلاب، واستقرت الحدود العثمانية عند حنك نحو 1622. [Arabic text pending native-speaker review.]",
     "source_ids": [
@@ -158,7 +170,19 @@
     "certainty": "high",
     "other": "'Abdallab",
     "from_anchor": "Sennar",
-    "to_anchor": "Qerri (Wikidata Q11924140, era abdallab-chiefdom-funj-vassal)",
+    "from_badges": [
+     "APPROXIMATE"
+    ],
+    "from_note": null,
+    "to_anchor": "Qerri (Wikidata Q11924140)",
+    "to_anchor_ar": "قري الوادي",
+    "to_badges": [
+     "APPROXIMATE"
+    ],
+    "to_cite": [
+     "GHA5_CH7 p.172"
+    ],
+    "to_note": null,
     "label_en": "At Arbaji in 1504 the Funj defeated the 'Abdallab, whose king became a vassal; the 'Abdallab ruled the north as junior partners until 1820.",
     "label_ar": "هزم الفونج العبدلاب في أربجي سنة 1504 فصار ملكهم تابعاً، وظل العبدلاب يحكمون الشمال شركاءَ أصغر حتى 1820. [Arabic text pending native-speaker review.]",
     "source_ids": [
@@ -197,7 +221,19 @@
     "certainty": "medium",
     "other": "'Abdallab",
     "from_anchor": "Sennar",
-    "to_anchor": "Qerri (Wikidata Q11924140, era abdallab-chiefdom-funj-vassal)",
+    "from_badges": [
+     "APPROXIMATE"
+    ],
+    "from_note": null,
+    "to_anchor": "Qerri (Wikidata Q11924140)",
+    "to_anchor_ar": "قري الوادي",
+    "to_badges": [
+     "APPROXIMATE"
+    ],
+    "to_cite": [
+     "GHA5_CH7 p.172"
+    ],
+    "to_note": null,
     "label_en": "Shaykh 'Ajib I defeated the Funj, then was defeated and killed at Karkoj; Shaykh Idris wad al-Akbar negotiated a settlement.",
     "label_ar": "هزم الشيخ عجيب الأول الفونج ثم هُزم وقُتل في كركوج، وتوسط الشيخ إدريس ود الأكبر في الصلح. [Arabic text pending native-speaker review.]",
     "source_ids": [
@@ -219,8 +255,8 @@
       13.55
      ],
      [
-      25.3496,
-      13.627
+      25.349583,
+      13.626983
      ]
     ]
    },
@@ -236,7 +272,19 @@
     "certainty": "medium",
     "other": "Fur sultanate",
     "from_anchor": "Sennar",
-    "to_anchor": "El Fasher (Wikidata Q311204, era sultanate-of-darfur-keira)",
+    "from_badges": [
+     "APPROXIMATE"
+    ],
+    "from_note": null,
+    "to_anchor": "Al-Fashir (Wikidata Q311204)",
+    "to_anchor_ar": "الفاشر",
+    "to_badges": [
+     "APPROXIMATE"
+    ],
+    "to_cite": [
+     "GHA5_CH7 p.190"
+    ],
+    "to_note": "Before 'Abd al-Rahman's reign the Fur sultans had no fixed capital, so for earlier relations (rel-fur-01 Sulayman Solongdungu, rel-fur-04 Ya'qub / 'Umar Lel) al-Fashir is an anachronistic symbol of the sultanate.",
     "label_en": "Funj–Fur rivalry over Kordofan; the Funj were ultimately driven out of Kordofan.",
     "label_ar": "تنافس الفونج والفور على كردفان، وطُرد الفونج منها في النهاية. [Arabic text pending native-speaker review.]",
     "source_ids": [

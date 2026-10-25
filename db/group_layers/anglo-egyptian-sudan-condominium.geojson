@@ -1,0 +1,68 @@
+{
+ "type": "FeatureCollection",
+ "meta": {
+  "built_by": "scratch/build_groups.py",
+  "from_": [
+   "db/groups.json",
+   "db/relations.json"
+  ],
+  "batch": 1,
+  "era_id": "anglo-egyptian-sudan-condominium",
+  "note": "Stable ids: grp-<group>-homeland-<n>, grp-<group>-control-<era>-<n>, relation ids from relations.json. list_only features have geometry null."
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "id": "rel-fur-07",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      24.27,
+      12.95
+     ],
+     [
+      22.58333,
+      12.75
+     ]
+    ]
+   },
+   "properties": {
+    "id": "rel-fur-07",
+    "kind": "relation",
+    "type": "conflict",
+    "group": "fur",
+    "era_id": "anglo-egyptian-sudan-condominium",
+    "start": 1899,
+    "end": 1956,
+    "badge": "SINGLE-SOURCE",
+    "certainty": "medium",
+    "other": "Masalit",
+    "from_anchor": "Jebel Marra",
+    "from_badges": [
+     "APPROXIMATE"
+    ],
+    "from_note": null,
+    "to_anchor": "Dar Masalit (Wikidata Q56545571)",
+    "to_anchor_ar": null,
+    "to_badges": [
+     "APPROXIMATE",
+     "SINGLE-SOURCE"
+    ],
+    "to_cite": [
+     "GHA7_CH23 p.593"
+    ],
+    "to_note": "Q56545571 is a geographic region (P31 Q82794) with no labels on Wikidata; the point is its region point, not a town. No Arabic label; Arabic 'دار مساليت' would be our working translation, needing native review.",
+    "label_en": "In the first half of the 20th century the Masalit gradually moved into part of a formerly Fur-controlled territory, through local skirmishes by villages on both sides rather than by the sultanates.",
+    "label_ar": "في النصف الأول من القرن العشرين توسّع المساليت تدريجياً في جزء من أرض كانت تحت سيطرة الفور، عبر مناوشات محلية بين قرى الجانبين لا بين السلطنتين. [Arabic text pending native-speaker review.]",
+    "source_ids": [
+     "GHA7_CH23",
+     "LOC1991_MUSLIMPEOPLES"
+    ],
+    "cite": [
+     "LOC1991_MUSLIMPEOPLES § Masalit, Daju, and Berti"
+    ]
+   }
+  }
+ ]
+}
