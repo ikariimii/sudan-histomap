@@ -7403,6 +7403,26 @@
     "note": "aid-agency source (USAID-funded early warning)",
     "pages": "Key messages, para 3",
     "lang": "en"
+   },
+   "WB_MPO2026": {
+    "author": "World Bank",
+    "title": "Macro Poverty Outlook: Sudan, October 2026",
+    "date": "2026-10",
+    "url": "https://thedocs.worldbank.org/en/doc/bae48ff2fefc5a869546775b3f010735-0500062021/related/mpo-sdn.pdf",
+    "verification": "Table read 2026-10-25 (p.2): 'Real GDP growth, at constant market prices -29.4 (2023) -14.0 (2024)'; 'Services -45.6 (2023)'",
+    "note": "",
+    "pages": "p.2 table",
+    "lang": "en"
+   },
+   "EIA_SDN2013": {
+    "author": "US Energy Information Administration",
+    "title": "Sudan and South Sudan country analysis (updated 5 Sep 2013)",
+    "date": "2013-09-05",
+    "url": "https://web.archive.org/web/20140327064441/www.eia.gov/countries/cab.cfm?fips=su",
+    "verification": "Read in full by the Analyst (db/economic_second_sources_for_historian.json): '5 billion barrels of proved crude oil reserves as of January 1, 2013'; 'peak of 486,000 bb/d in 2010 ... around 453,000 bbl/d in 2011'",
+    "note": "Wayback copy 2014-03-27",
+    "pages": "Oil paras 2–3",
+    "lang": "en"
    }
   }
  },
