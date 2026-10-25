@@ -116,10 +116,11 @@ function place(){setTimeout(cityThin,0);nobPos();const t=TR;gT.style('display',n
  // obstacles: the card and the top chrome
  const ob=['sheet','top','layers','nob'].map(id=>$(id).getBoundingClientRect()).filter(b=>b.width).map(b=>({x:b.left,y:b.top,w:b.width,h:b.height}));
  root.selectAll('.mk').nodes().forEach(n=>{const s=n.querySelector('rect,circle,path');if(!s)return;const b=s.getBoundingClientRect();if(b.width)ob.push({x:b.left+1,y:b.top+1,w:Math.max(0,b.width-2),h:Math.max(0,b.height-2)})});
+ gC.selectAll('text.cl').nodes().forEach(n=>{if(n.style.display==='none')return;const b=n.getBoundingClientRect();if(b.width)ob.push({x:b.left-2,y:b.top-1,w:b.width+4,h:b.height+2})}); // country label (S. Sudan) is an obstacle too
  const ov=(a,c)=>a.x<c.x+c.w&&c.x<a.x+a.w&&a.y<c.y+c.h&&c.y<a.y+a.h;
  LBS.slice().sort((a,b)=>b.pri-a.pri).forEach(o=>{const sx=t.applyX(o.xy[0]),sy=t.applyY(o.xy[1]);if(sx<0||sx>W()||sy<0||sy>H()){return}
   const gg=gT.append('g').attr('transform',`translate(${sx},${sy})`);const tx=gg.append('text').attr('class','lb'+(o.big?' big':'')).text(o.t);if(o.t===T.ssd)gC.selectAll('text.cl').style('display','none');
-  if(o.rep){tx.append('tspan').attr('class','rep').attr('fill',BL[o.rep][2]).text(' '+BL[o.rep][AR?1:0])}
+  if(o.rep&&!BL[o.rep].slice(0,2).some(w=>o.t.includes(w))&&!(o.rep==='CONTESTED'&&/disputed/i.test(o.t))){tx.append('tspan').attr('class','rep').attr('fill',BL[o.rep][2]).text(' '+BL[o.rep][AR?1:0])}
   const lh=16,dx0=o.dx?(AR?-o.dx:o.dx):0,an0=o.big?'middle':'start';let ok=null;
   P:for(const k of [0,1,-1,2,-2,3,-3])for(const side of (o.dx?[0,1]:[0])){const dx=side?-dx0:dx0,an=o.big?'middle':(side?'end':'start');tx.attr('x',dx).attr('y',4+k*lh).attr('text-anchor',an);
    const b=tx.node().getBoundingClientRect(),bb={x:b.left-2,y:b.top-1,w:b.width+4,h:b.height+2};if(bb.x<2||bb.x+bb.w>W()-2)continue;if(!placed.some(p=>ov(p,bb))&&!ob.some(p=>ov(p,bb))){ok={k,dx,bb,an};break P}}
@@ -364,7 +365,7 @@ function shareBtn(e){const h=$('card').querySelector('h2,h1');if(!h)return;const
 const MSC={};function msPanel(e){const old=document.getElementById('msrc');if(old)old.remove();if(!((M.layers||{}).ms||[]).includes(e.id))return;
  (MSC[e.id]||(MSC[e.id]=getj('/ms/'+e.id+'.json').catch(()=>null))).then(j=>{if(!j||e!==ES[i])return;const w=document.createElement('div');w.id='msrc';w.innerHTML=j[L];$('card').after(w)})}
 // era search: header button opens a small dialog-less panel; matches EN+AR names (Arabic folded: harakat, alef/ya/ta-marbuta forms)
-const fold=s=>(s||'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f\u064B-\u0652\u0670\u0640]/g,'').replace(/[أإآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').replace(/ؤ/g,'و').replace(/ئ/g,'ي').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+const fold=s=>(s||'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f\u064B-\u0655\u0670\u0640]/g,'').replace(/[أإآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').replace(/ؤ/g,'و').replace(/ئ/g,'ي').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 (()=>{const S=T.srch;if(!S)return;const b=document.createElement('button');b.type='button';b.id='srchb';b.className='chip';b.textContent=S.b;b.setAttribute('aria-expanded','false');b.setAttribute('aria-controls','srch');$('about').before(b);
  const p=document.createElement('div');p.id='srch';p.hidden=true;p.setAttribute('role','search');p.innerHTML=`<label for="srchi" class="sr">${esc(S.l)}</label><input id="srchi" type="search" autocomplete="off" placeholder="${esc(S.ph)}" aria-describedby="srchn"><button type="button" class="chip" id="srchx" aria-label="${esc(S.x)}">×</button><p id="srchn" class="sr" aria-live="polite"></p><ul id="srchr"></ul>`;document.body.appendChild(p);
  const I=$('srchi'),R=$('srchr'),F=ES.map(e=>fold(e.en+' '+e.ar+' '+e.id.replace(/-/g,' ')));
