@@ -436,9 +436,11 @@
    },
    "badges": [
     "REPORTED",
-    "APPROXIMATE"
+    "APPROXIMATE",
+    "SINGLE-SOURCE"
    ],
-   "image": {}
+   "image": {},
+   "single_source_reason": "No second UN/aid-agency document read on 2026-10-25 states this; S/2025/239 does not name it"
   },
   {
    "id": "el-geneina-2023",
@@ -472,7 +474,17 @@
     "REPORTED",
     "APPROXIMATE"
    ],
-   "image": {}
+   "image": {},
+   "cite_extra": [
+    {
+     "source_id": "GEO-096",
+     "pages": "preamble, p.1 (El Geneina, 24 Apr-19 Jun 2023)"
+    },
+    {
+     "source_id": "UNPOE_S2025_239",
+     "pages": "para 21 (PDF p.9)"
+    }
+   ]
   },
   {
    "id": "nyala-2023",
@@ -505,7 +517,13 @@
     "REPORTED",
     "APPROXIMATE"
    ],
-   "image": {}
+   "image": {},
+   "cite_extra": [
+    {
+     "source_id": "UNPOE_S2025_239",
+     "pages": "para 21 (PDF p.9); Summary p.2"
+    }
+   ]
   },
   {
    "id": "zalingei-2023",
@@ -538,7 +556,13 @@
     "REPORTED",
     "APPROXIMATE"
    ],
-   "image": {}
+   "image": {},
+   "cite_extra": [
+    {
+     "source_id": "UNPOE_S2025_239",
+     "pages": "para 21 (PDF p.9); Summary p.2"
+    }
+   ]
   },
   {
    "id": "ardamatta-2023",
@@ -563,10 +587,12 @@
     "pages": "Table 1 (PDF p.6); sect. VI"
    },
    "badges": [
-    "REPORTED"
+    "REPORTED",
+    "SINGLE-SOURCE"
    ],
    "image": {},
-   "note": "Ardamatta is near El Geneina; no gazetteer entry checked, so region-only."
+   "note": "Ardamatta is near El Geneina; no gazetteer entry checked, so region-only.",
+   "single_source_reason": "No second UN/aid-agency document read on 2026-10-25 states this; S/2025/239 does not name it"
   },
   {
    "id": "el-fasher-2024",
@@ -601,7 +627,17 @@
     "APPROXIMATE"
    ],
    "image": {},
-   "note": "Panel: epicentre \"from early 2024\"; start month not given."
+   "note": "Panel: epicentre \"from early 2024\"; start month not given.",
+   "cite_extra": [
+    {
+     "source_id": "UNPOE_S2025_239",
+     "pages": "Summary (PDF p.2); paras 17-22 (pp.8-9)"
+    },
+    {
+     "source_id": "GEO-096",
+     "pages": "preamble p.1; op. paras 1-2, p.2"
+    }
+   ]
   }
  ],
  "sources_to_register": [
