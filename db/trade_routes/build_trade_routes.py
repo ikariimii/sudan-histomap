@@ -83,9 +83,13 @@ def main():
         for n, r in enumerate(routes_of(data[era])):
             if not isinstance(r, dict):
                 skipped.append((era, n, str(r), 'route is free text, no structured endpoints')); continue
-            label = r.get('label_en') or r.get('name') or r.get('id') or f'route {n}'
+            label = r.get('label_en') or r.get('name') or r.get('id') or (f"{r.get('from')} to {r.get('to')} ({r.get('commodity')})" if r.get('from') else f'route {n}')
             cite = r.get('cite') or r.get('source_ids') or r.get('cite_ids')
             if not cite:
+                cc = r.get('cite_current')
+                if cc:
+                    cid = cc.get('proposed_id') or cc.get('id') if isinstance(cc, dict) else cc
+                    skipped.append((era, n, label, f'cite only in cite_current ({cid}); not a registered route cite, so not drawn')); continue
                 skipped.append((era, n, label, 'no cite on route')); continue
             a_ref, b_ref = ep(r, 'from', 'start', 'origin'), ep(r, 'to', 'end', 'destination')
             a, b = resolve(a_ref, ids, names), resolve(b_ref, ids, names)
