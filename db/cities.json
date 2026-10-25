@@ -2,7 +2,8 @@
  "meta": {
   "layer": "cities",
   "built": "2026-10-24",
-  "note": "No population or war status (Analyst layer). Dates null where sources read do not state them."
+  "note": "No population or war status (Analyst layer). Dates null where sources read do not state them.",
+  "pass2": "2026-10-24: first_attested field (IM ruling), map_from, 3 places added"
  },
  "places": [
   {
@@ -47,7 +48,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q1107569"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": -1730,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2_CH9",
+    "page": "258",
+    "basis": "first cited era role (capital, kingdom-of-kerma) with stated start"
+   },
+   "map_from": {
+    "year": -1730,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "napata",
@@ -104,7 +116,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q743282"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": -800,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2_CH10",
+    "page": "283",
+    "basis": "first cited era role (capital, kingdom-of-kush-napatan-period) with stated start"
+   },
+   "map_from": {
+    "year": -800,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "jebel-barkal",
@@ -148,7 +171,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q499019"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": -1290,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2_CH9",
+    "page": "268",
+    "basis": "first cited era role (religious, egyptian-new-kingdom-rule-in-nubia) with stated start"
+   },
+   "map_from": {
+    "year": -1290,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "el-kurru",
@@ -192,7 +226,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q2119834"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": -800,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2_CH11",
+    "page": "300",
+    "basis": "first cited era role (religious) has no stated start; year = start bound of era kingdom-of-kush-napatan-period (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": -800,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "nuri",
@@ -241,7 +286,19 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q2119839"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": -800,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2_CH10",
+    "page": "285",
+    "basis": "first cited era role (religious) has no stated start; year = start bound of era kingdom-of-kush-napatan-period (era bound, not a dated mention)"
+   },
+   "first_attested_note": "first_attested precedes founded (different basis); map uses founded",
+   "map_from": {
+    "year": -664,
+    "basis": "founded"
+   }
   },
   {
    "id": "meroe",
@@ -285,7 +342,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q5780"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": -300,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2_CH11",
+    "page": "301",
+    "basis": "first cited era role (capital, kingdom-of-kush-meroitic-period) with stated start"
+   },
+   "map_from": {
+    "year": -300,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "musawwarat",
@@ -329,7 +397,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q286426"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": -270,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2_CH11",
+    "page": "318",
+    "basis": "first cited era role (religious) has no stated start; year = start bound of era kingdom-of-kush-meroitic-period (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": -270,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "naqa",
@@ -359,7 +438,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q1760360"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "wad-ban-naqa",
@@ -403,7 +484,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q2538648"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": -270,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2_CH11",
+    "page": "314",
+    "basis": "first cited era role (religious) has no stated start; year = start bound of era kingdom-of-kush-meroitic-period (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": -270,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "sedeinga",
@@ -433,7 +525,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q3954148"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "soleb",
@@ -455,15 +549,34 @@
     "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
    },
    "roles": [],
-   "history_en": "Soleb: settlement shown for location; no history line sourced yet.",
-   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_en": "Temple of Soleb built about -1400 under Egyptian rule.",
+   "history_ar": "بُني معبد صولب نحو 1400 ق.م في عهد الحكم المصري.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "GHA2",
+     "page": "144"
+    },
     {
      "id": "WIKIDATA_CITIES",
      "page": "Q1457914"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": -1400,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2",
+    "page": "144",
+    "basis": "temple of Soleb built in -1400"
+   },
+   "history_source": {
+    "source_id": "GHA2",
+    "page": "144"
+   },
+   "map_from": {
+    "year": -1400,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "buhen",
@@ -520,7 +633,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q1002656"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": -2055,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2_CH9",
+    "page": "266",
+    "basis": "first cited era role (garrison) has no stated start; year = start bound of era middle-kingdom-egypt (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": -2055,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "semna",
@@ -564,7 +688,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q1485667"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": -1991,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2_CH9",
+    "page": "255",
+    "basis": "first cited era role (garrison, middle-kingdom-egypt) with stated start"
+   },
+   "map_from": {
+    "year": -1991,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "jebel-moya",
@@ -594,7 +729,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q55640121"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "faras",
@@ -637,7 +774,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q584387"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 400,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA3_CH8",
+    "page": "194",
+    "basis": "first cited era role (capital) has no stated start; year = start bound of era nobadia (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 400,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "qasr-ibrim",
@@ -681,7 +829,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q2121453"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": -23,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2_CH10",
+    "page": "290",
+    "basis": "first cited era role (garrison, roman-byzantine-egypt) with stated start"
+   },
+   "map_from": {
+    "year": -23,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "philae",
@@ -703,15 +862,34 @@
     "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
    },
    "roles": [],
-   "history_en": "Philae: settlement shown for location; no history line sourced yet.",
-   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_en": "Island temple site; seat of bishops from the 4th century.",
+   "history_ar": "جزيرة معابد، مقر أساقفة منذ القرن الرابع.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "GHA2_CH12",
+     "page": "331"
+    },
     {
      "id": "WIKIDATA_CITIES",
      "page": "Q245062"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 300,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2_CH12",
+    "page": "331",
+    "basis": "bishops resided on Philae \"since the fourth century\" (year = start of century)"
+   },
+   "history_source": {
+    "source_id": "GHA2_CH12",
+    "page": "331"
+   },
+   "map_from": {
+    "year": 300,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "abu-simbel",
@@ -746,7 +924,11 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q134140"
     }
-   ]
+   ],
+   "map_from": {
+    "year": -1274,
+    "basis": "founded"
+   }
   },
   {
    "id": "old-dongola",
@@ -789,7 +971,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q433112"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 500,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA3_CH8",
+    "page": "194",
+    "basis": "first cited era role (capital) has no stated start; year = start bound of era makuria (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 500,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "banganarti",
@@ -819,7 +1012,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q806461"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "soba",
@@ -869,7 +1064,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q1247214"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 500,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA3_CH8",
+    "page": "196",
+    "basis": "first cited era role (capital) has no stated start; year = start bound of era alodia-alwa (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 500,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "aswan",
@@ -888,15 +1094,38 @@
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
    "roles": [],
-   "history_en": "Aswan: settlement shown for location; no history line sourced yet.",
-   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_en": "Egypt's southern frontier town; received Nubian tribute under the baqt.",
+   "history_ar": "مدينة الحدود الجنوبية لمصر، كانت تتسلم جزية النوبة بموجب البقط.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "GHA2",
+     "page": "238"
+    },
+    {
+     "id": "GHA3_CH8",
+     "page": "195"
+    },
     {
      "id": "WIKIDATA_CITIES",
      "page": "Q29888"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": -2200,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2",
+    "page": "238",
+    "basis": "C-Group peoples between Aswan and Batn el-Hagar from -2200"
+   },
+   "history_source": {
+    "source_id": "GHA3_CH8",
+    "page": "195"
+   },
+   "map_from": {
+    "year": -2200,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "aksum",
@@ -937,7 +1166,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q5832"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 100,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2_CH15",
+    "page": "389",
+    "basis": "first cited era role (capital) has no stated start; year = start bound of era kingdom-of-aksum (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 100,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "adulis",
@@ -987,7 +1227,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q378940"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 75,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA2",
+    "page": "343",
+    "basis": "first cited era role (port, kingdom-of-aksum) with stated start"
+   },
+   "map_from": {
+    "year": -250,
+    "basis": "founded"
+   }
   },
   {
    "id": "aidhab",
@@ -1041,7 +1292,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q404028"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1250,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHAIV",
+    "page": "375",
+    "basis": "first cited era role (port) has no stated start; year = start bound of era mamluk-sultanate (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 700,
+    "basis": "founded"
+   }
   },
   {
    "id": "suakin",
@@ -1092,7 +1354,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q571215"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1100,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA5_CH7",
+    "page": "175",
+    "basis": "first cited era role (garrison) has no stated start; year = start bound of era suakin-red-sea-port-beja-ottoman (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 700,
+    "basis": "founded"
+   }
   },
   {
    "id": "sennar",
@@ -1111,15 +1384,38 @@
    "founded_reason": "GHA V gives 1504 for the Funj sultanate, not the town",
    "abandoned": null,
    "roles": [],
-   "history_en": "Namesake of the Funj sultanate on the Blue Nile.",
-   "history_ar": "مدينة على النيل الأزرق تحمل اسم سلطنة الفونج.",
+   "history_en": "Funj capital; a major commercial centre described in 1701.",
+   "history_ar": "عاصمة الفونج، ومركز تجاري كبير وُصف سنة 1701.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "GHA4_CH16",
+     "page": "406"
+    },
+    {
+     "id": "GHA5_CH7",
+     "page": "183"
+    },
     {
      "id": "WIKIDATA_CITIES",
      "page": "Q611867"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1504,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA4_CH16",
+    "page": "406",
+    "basis": "1504 = establishment of the Funj sultanate \"with its centre at Sennar\""
+   },
+   "history_source": {
+    "source_id": "GHA5_CH7",
+    "page": "183"
+   },
+   "map_from": {
+    "year": 1504,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "qerri",
@@ -1163,7 +1459,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q11924140"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1480,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA5_CH7",
+    "page": "172",
+    "basis": "first cited era role (capital) has no stated start; year = start bound of era abdallab-chiefdom-funj-vassal (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 1480,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "kobbe",
@@ -1193,7 +1500,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q6424293"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "ain-farah",
@@ -1237,7 +1546,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q405860"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1400,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA4_CH16",
+    "page": "420",
+    "basis": "first cited era role (religious) has no stated start; year = start bound of era tunjur-kingdom (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 1400,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "shendi",
@@ -1256,15 +1576,38 @@
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
    "roles": [],
-   "history_en": "Shendi: settlement shown for location; no history line sourced yet.",
-   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_en": "Ja'aliyin seat where Mek Nimir burned Isma'il Pasha in 1822.",
+   "history_ar": "مقر الجعليين حيث أحرق المك نمر إسماعيل باشا سنة 1822.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "GHA6_CH14",
+     "page": "362"
+    },
+    {
+     "id": "MACMICHAEL1922_V1",
+     "page": "233"
+    },
     {
      "id": "WIKIDATA_CITIES",
      "page": "Q997838"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1801,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "MACMICHAEL1922_V1",
+    "page": "233",
+    "basis": "Nimr seized the Ja'aliyin sheikhship and established himself at Shendi in 1801"
+   },
+   "history_source": {
+    "source_id": "GHA6_CH14",
+    "page": "362"
+   },
+   "map_from": {
+    "year": 1801,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "berber",
@@ -1283,15 +1626,34 @@
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
    "roles": [],
-   "history_en": "Berber: settlement shown for location; no history line sourced yet.",
-   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_en": "Nile town taxed heavily after the 1821 conquest.",
+   "history_ar": "مدينة نيلية فُرضت عليها ضرائب باهظة بعد غزو 1821.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "GHA6_CH14",
+     "page": "362"
+    },
     {
      "id": "WIKIDATA_CITIES",
      "page": "Q375935"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1821,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA6_CH14",
+    "page": "362",
+    "basis": "heavy taxes imposed on the peoples of the Gezira and Berber in 1821"
+   },
+   "history_source": {
+    "source_id": "GHA6_CH14",
+    "page": "362"
+   },
+   "map_from": {
+    "year": 1821,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "metemma-ethiopia",
@@ -1310,15 +1672,34 @@
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
    "roles": [],
-   "history_en": "Metemma (Ethiopia): settlement shown for location; no history line sourced yet.",
-   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_en": "Border town; site of the 1889 battle of Matamma.",
+   "history_ar": "بلدة حدودية وموقع معركة المتمة سنة 1889.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "GHA7_CH11",
+     "page": "268"
+    },
     {
      "id": "WIKIDATA_CITIES",
      "page": "Q1246740"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1889,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA7_CH11",
+    "page": "268",
+    "basis": "battle of Matamma (1889), indexed at p.268"
+   },
+   "history_source": {
+    "source_id": "GHA7_CH11",
+    "page": "268"
+   },
+   "map_from": {
+    "year": 1889,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "gallabat",
@@ -1337,15 +1718,34 @@
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
    "roles": [],
-   "history_en": "Gallabat: settlement shown for location; no history line sourced yet.",
-   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_en": "Border market town facing Metemma.",
+   "history_ar": "بلدة سوق حدودية مقابل المتمة.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "MACMICHAEL1922_V1",
+     "page": "254"
+    },
     {
      "id": "WIKIDATA_CITIES",
      "page": "Q1014416"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1840,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "MACMICHAEL1922_V1",
+    "page": "254",
+    "basis": "Werne (1840) on tribes near \"Kedaref and Kallabat\" (page from OCR running head)"
+   },
+   "history_source": {
+    "source_id": "MACMICHAEL1922_V1",
+    "page": "254"
+   },
+   "map_from": {
+    "year": 1840,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "korti",
@@ -1364,15 +1764,34 @@
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
    "roles": [],
-   "history_en": "Korti: settlement shown for location; no history line sourced yet.",
-   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_en": "Nile town where caravans left the river for the Bayuda in 1699.",
+   "history_ar": "بلدة نيلية كانت القوافل تترك عندها النهر إلى صحراء بيوضة.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "MACMICHAEL1922_V1",
+     "page": "216"
+    },
     {
      "id": "WIKIDATA_CITIES",
      "page": "Q472841"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1699,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "MACMICHAEL1922_V1",
+    "page": "216",
+    "basis": "Poncet (1699): unsafe to follow the river beyond Korti (page from OCR running head)"
+   },
+   "history_source": {
+    "source_id": "MACMICHAEL1922_V1",
+    "page": "216"
+   },
+   "map_from": {
+    "year": 1699,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "el-obeid",
@@ -1391,15 +1810,34 @@
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
    "roles": [],
-   "history_en": "El Obeid: settlement shown for location; no history line sourced yet.",
-   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_en": "Kordofan town; a scene of military risings under Turco-Egyptian rule.",
+   "history_ar": "مدينة في كردفان شهدت تمردات عسكرية في العهد التركي المصري.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "GHA6_CH14",
+     "page": "363"
+    },
     {
      "id": "WIKIDATA_CITIES",
      "page": "Q309475"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1865,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA6_CH14",
+    "page": "363",
+    "basis": "listed among northern towns with military risings (context of 1865)"
+   },
+   "history_source": {
+    "source_id": "GHA6_CH14",
+    "page": "363"
+   },
+   "map_from": {
+    "year": 1865,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "el-fasher",
@@ -1440,7 +1878,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q311204"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1650,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA5_CH7",
+    "page": "190",
+    "basis": "first cited era role (capital) has no stated start; year = start bound of era sultanate-of-darfur-keira (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 1650,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "gondar",
@@ -1485,7 +1934,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q218861"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1636,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA5_CH24_P713_733",
+    "page": "724",
+    "basis": "first cited era role (capital, ethiopian-empire-solomonic) with stated start"
+   },
+   "map_from": {
+    "year": 1636,
+    "basis": "founded"
+   }
   },
   {
    "id": "massawa",
@@ -1523,10 +1983,25 @@
      "page": "175"
     },
     {
+     "id": "GHAV",
+     "page": "706"
+    },
+    {
      "id": "WIKIDATA_CITIES",
      "page": "Q275635"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1520,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHAV",
+    "page": "706",
+    "basis": "Portuguese mission went from Massawa to Shoa, 1520-6"
+   },
+   "map_from": {
+    "year": 1520,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "fashoda",
@@ -1567,7 +2042,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q1888763"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1490,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA6_CH14",
+    "page": "366",
+    "basis": "first cited era role (capital) has no stated start; year = start bound of era shilluk-kingdom (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 1490,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "dongola",
@@ -1594,7 +2080,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q821321"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "wadi-halfa",
@@ -1621,7 +2109,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q740865"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "khartoum",
@@ -1675,7 +2165,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q1963"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1899,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHAVII",
+    "page": "81",
+    "basis": "first cited era role (capital, anglo-egyptian-sudan-condominium) with stated start"
+   },
+   "map_from": {
+    "year": 1899,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "omdurman",
@@ -1716,7 +2217,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q180921"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1885,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA7_CH4",
+    "page": "78",
+    "basis": "first cited era role (capital) has no stated start; year = start bound of era mahdist-state-mahdiyya (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 1885,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "port-sudan",
@@ -1761,7 +2273,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q208718"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1906,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHAVII",
+    "page": "455",
+    "basis": "first cited era role (port, anglo-egyptian-sudan-condominium) with stated start"
+   },
+   "map_from": {
+    "year": 1906,
+    "basis": "founded"
+   }
   },
   {
    "id": "kassala",
@@ -1795,8 +2318,8 @@
      "note": "military revolt at Kassala in 1865"
     }
    ],
-   "history_en": "Eastern town founded as an Egyptian post.",
-   "history_ar": "مدينة شرقية نشأت مركزا مصريا.",
+   "history_en": "Eastern town; scene of the 1865 garrison mutiny.",
+   "history_ar": "مدينة شرقية شهدت تمرد الحامية سنة 1865.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
     {
@@ -1807,7 +2330,23 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q686813"
     }
-   ]
+   ],
+   "history_source": {
+    "source_id": "GHA6_CH14",
+    "page": "363"
+   },
+   "first_attested": {
+    "year": 1821,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA6_CH14",
+    "page": "363",
+    "basis": "first cited era role (garrison) has no stated start; year = start bound of era turkiyya-ottoman-egyptian-rule (era bound, not a dated mention)"
+   },
+   "first_attested_note": "first_attested precedes founded (different basis); map uses founded",
+   "map_from": {
+    "year": 1840,
+    "basis": "founded"
+   }
   },
   {
    "id": "wad-madani",
@@ -1848,7 +2387,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q852528"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1821,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA6_CH14",
+    "page": "360",
+    "basis": "first cited era role (garrison) has no stated start; year = start bound of era turkiyya-ottoman-egyptian-rule (era bound, not a dated mention)"
+   },
+   "map_from": {
+    "year": 1821,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "juba",
@@ -1880,7 +2430,11 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q1947"
     }
-   ]
+   ],
+   "map_from": {
+    "year": 1922,
+    "basis": "founded"
+   }
   },
   {
    "id": "malakal",
@@ -1899,15 +2453,25 @@
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
    "roles": [],
-   "history_en": "Malakal: settlement shown for location; no history line sourced yet.",
-   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_en": "Near the first Shilluk settlement under Nyikang (c.1490-1517).",
+   "history_ar": "بالقرب من أول مستوطنة للشلك بقيادة نيكانغ.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "GHA5_CH7",
+     "page": "193"
+    },
     {
      "id": "WIKIDATA_CITIES",
      "page": "Q220049"
     }
-   ]
+   ],
+   "history_source": {
+    "source_id": "GHA5_CH7",
+    "page": "193"
+   },
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "wau",
@@ -1934,7 +2498,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q276534"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "nyala",
@@ -1961,7 +2527,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q851576"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "el-geneina",
@@ -1988,7 +2556,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q311309"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "asmara",
@@ -2029,7 +2599,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q3642"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1889,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA7_CH11",
+    "page": "268",
+    "basis": "first cited era role (capital, eritrea-italian-colony-independent) with stated start"
+   },
+   "map_from": {
+    "year": 1889,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "ndjamena",
@@ -2061,7 +2642,11 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q3659"
     }
-   ]
+   ],
+   "map_from": {
+    "year": 1900,
+    "basis": "founded"
+   }
   },
   {
    "id": "abeche",
@@ -2088,7 +2673,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q242587"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "kufra",
@@ -2107,15 +2694,34 @@
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
    "roles": [],
-   "history_en": "Kufra: settlement shown for location; no history line sourced yet.",
-   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_en": "Saharan oasis on the route from Cyrenaica to Wadai.",
+   "history_ar": "واحة صحراوية على الطريق من برقة إلى وداي.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "GHAIII",
+     "page": "283"
+    },
     {
      "id": "WIKIDATA_CITIES",
      "page": "Q172114"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 950,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHAIII",
+    "page": "283",
+    "basis": "route of the late 4th/10th century \"probably passed through the Kufra oasis\" (year = mid-century)"
+   },
+   "history_source": {
+    "source_id": "GHAIII",
+    "page": "283"
+   },
+   "map_from": {
+    "year": 950,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "bangui",
@@ -2147,7 +2753,11 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q3832"
     }
-   ]
+   ],
+   "map_from": {
+    "year": 1889,
+    "basis": "founded"
+   }
   },
   {
    "id": "atbara",
@@ -2176,10 +2786,14 @@
      "note": "railway hub linked to Port Sudan (role = railway trade)"
     }
    ],
-   "history_en": "Railway town at the Atbara–Nile confluence.",
-   "history_ar": "مدينة السكك الحديدية عند ملتقى عطبرة والنيل.",
+   "history_en": "Railway town; site of the 1898 battle of Atbara.",
+   "history_ar": "مدينة السكك الحديدية وموقع معركة عطبرة 1898.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "GHA7_CH4",
+     "page": "78"
+    },
     {
      "id": "GHAVII",
      "page": "455"
@@ -2188,7 +2802,22 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q753906"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1898,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA7_CH4",
+    "page": "78",
+    "basis": "battle of Atbara, 8 April 1898"
+   },
+   "history_source": {
+    "source_id": "GHA7_CH4",
+    "page": "78"
+   },
+   "map_from": {
+    "year": 1898,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "gedaref",
@@ -2207,15 +2836,34 @@
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
    "roles": [],
-   "history_en": "Gedaref: settlement shown for location; no history line sourced yet.",
-   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_en": "Eastern town; refuge during the 1822 revolt.",
+   "history_ar": "مدينة شرقية لجأ إليها الفارون أثناء ثورة 1822.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "GHA6_CH14",
+     "page": "362"
+    },
     {
      "id": "WIKIDATA_CITIES",
      "page": "Q311199"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1822,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA6_CH14",
+    "page": "362",
+    "basis": "people fled to \"the region of Gedaref\" in 1822"
+   },
+   "history_source": {
+    "source_id": "GHA6_CH14",
+    "page": "362"
+   },
+   "map_from": {
+    "year": 1822,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "kosti",
@@ -2242,7 +2890,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q587715"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "bor",
@@ -2283,7 +2933,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q893274"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1885,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA6_CH14",
+    "page": "371",
+    "basis": "government garrison at Bor exterminated by 1885"
+   },
+   "map_from": {
+    "year": 1885,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "rumbek",
@@ -2302,15 +2963,34 @@
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
    "roles": [],
-   "history_en": "Rumbek: settlement shown for location; no history line sourced yet.",
-   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_en": "Early Luo settlement (Wipac) in Bahr al-Ghazal.",
+   "history_ar": "موضع استيطان مبكر للوو (ويباك) في بحر الغزال.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "GHAV",
+     "page": "777"
+    },
     {
      "id": "WIKIDATA_CITIES",
      "page": "Q607336"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1500,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHAV",
+    "page": "777",
+    "basis": "Luo section settled at Wipac (Rumbek) before c.1500"
+   },
+   "history_source": {
+    "source_id": "GHAV",
+    "page": "777"
+   },
+   "map_from": {
+    "year": 1500,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "ouara",
@@ -2340,7 +3020,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q1974522"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "kutum",
@@ -2367,7 +3049,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q3317346"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "ed-damer",
@@ -2394,7 +3078,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q311312"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "karima",
@@ -2421,7 +3107,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q1729372"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "merowe",
@@ -2448,7 +3136,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q2784541"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "kadugli",
@@ -2475,7 +3165,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q1011819"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "ed-daein",
@@ -2502,7 +3194,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q288196"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "zalingei",
@@ -2529,7 +3223,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q4118131"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "ed-damazin",
@@ -2556,7 +3252,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q311307"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "tokar",
@@ -2575,15 +3273,34 @@
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
    "roles": [],
-   "history_en": "Tokar: settlement shown for location; no history line sourced yet.",
-   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_en": "Red Sea coastal town; lost by the Mahdists in 1891.",
+   "history_ar": "بلدة ساحلية خسرها الأنصار سنة 1891.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "GHA7_CH4",
+     "page": "77"
+    },
     {
      "id": "WIKIDATA_CITIES",
      "page": "Q1010754"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1891,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA7_CH4",
+    "page": "77",
+    "basis": "the Ansar lost Tokar in 1891"
+   },
+   "history_source": {
+    "source_id": "GHA7_CH4",
+    "page": "77"
+   },
+   "map_from": {
+    "year": 1891,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "yei",
@@ -2610,7 +3327,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q1561403"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "aweil",
@@ -2637,7 +3356,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q791685"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "torit",
@@ -2664,7 +3385,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q1010278"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "renk",
@@ -2691,7 +3414,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q775361"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "nimule",
@@ -2718,7 +3443,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q1992727"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "dilling",
@@ -2745,7 +3472,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q5210211"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "babanusa",
@@ -2772,7 +3501,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q4116057"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "en-nahud",
@@ -2799,7 +3530,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q287343"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "umm-ruwaba",
@@ -2826,7 +3559,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q2618048"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "abu-hamad",
@@ -2853,7 +3588,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q2439710"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "gondokoro",
@@ -2891,13 +3628,28 @@
    "source_ids": [
     {
      "id": "GHA6_CH14",
+     "page": "366"
+    },
+    {
+     "id": "GHA6_CH14",
      "page": "370"
     },
     {
      "id": "WIKIDATA_CITIES",
      "page": "Q1391631"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1859,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA6_CH14",
+    "page": "366",
+    "basis": "a trader was killed at Gondokoro in 1859"
+   },
+   "map_from": {
+    "year": 1859,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "lado",
@@ -2941,7 +3693,18 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q3215967"
     }
-   ]
+   ],
+   "first_attested": {
+    "year": 1876,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHA6_CH14",
+    "page": "371",
+    "basis": "first cited era role (garrison, turkiyya-ottoman-egyptian-rule) with stated start"
+   },
+   "map_from": {
+    "year": 1876,
+    "basis": "first_attested"
+   }
   },
   {
    "id": "deim-zubeir",
@@ -2968,7 +3731,9 @@
      "id": "WIKIDATA_CITIES",
      "page": "Q985357"
     }
-   ]
+   ],
+   "map_from": null,
+   "list_only_reason": "no cited founded or first-attested date in sources read"
   },
   {
    "id": "mekelle",
@@ -2987,13 +3752,183 @@
    "founded_reason": "not stated in the sources read for this layer",
    "abandoned": null,
    "roles": [],
-   "history_en": "Mekelle: settlement shown for location; no history line sourced yet.",
-   "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
+   "history_en": "Tigray town with an early government school.",
+   "history_ar": "مدينة في تيغراي فيها مدرسة حكومية مبكرة.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
     {
+     "id": "GHAVII",
+     "page": "731"
+    },
+    {
      "id": "WIKIDATA_CITIES",
      "page": "Q332319"
+    }
+   ],
+   "first_attested": {
+    "year": 1934,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "GHAVII",
+    "page": "731",
+    "basis": "listed (as Makalle) among towns with government schools by 1934"
+   },
+   "history_source": {
+    "source_id": "GHAVII",
+    "page": "731"
+   },
+   "map_from": {
+    "year": 1934,
+    "basis": "first_attested"
+   }
+  },
+  {
+   "id": "arbaji",
+   "name_en": "Arbaji",
+   "name_ar": "أربجي",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q12179334",
+   "lat": 14.726,
+   "lon": 33.3525,
+   "coord_source": {
+    "source_id": "NGA_GNS",
+    "page": "UFI 98562051",
+    "badge": "APPROXIMATE"
+   },
+   "category": "ancient",
+   "founded": {
+    "year": 1475,
+    "badge": "APPROXIMATE",
+    "source_id": "GHA4_CH16",
+    "page": "406",
+    "note": "\"the town of Arbadji, founded about 1475\""
+   },
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Southernmost Arab town in the Gezira; the Funj defeated the Abdallab there in 1504.",
+   "history_ar": "أقصى بلدة عربية جنوبا في الجزيرة؛ هزم فيها الفونج العبدلاب سنة 1504.",
+   "history_source": {
+    "source_id": "GHA5_CH7",
+    "page": "173"
+   },
+   "history_ar_status": "working translation — needs native review",
+   "map_from": {
+    "year": 1475,
+    "basis": "founded"
+   },
+   "source_ids": [
+    {
+     "id": "GHA4_CH16",
+     "page": "406"
+    },
+    {
+     "id": "GHA5_CH7",
+     "page": "173"
+    },
+    {
+     "id": "NGA_GNS",
+     "page": "UFI 98562051"
+    }
+   ]
+  },
+  {
+   "id": "el-matamma",
+   "name_en": "El Matamma (Sudan)",
+   "name_ar": "المتمة",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q54900535",
+   "lat": 16.7095,
+   "lon": 33.3565,
+   "coord_source": {
+    "source_id": "GEONAMES",
+    "page": "379127",
+    "badge": "APPROXIMATE"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "first_attested": {
+    "year": 1801,
+    "badge": "FIRST_ATTESTED",
+    "source_id": "MACMICHAEL1922_V1",
+    "page": "233",
+    "basis": "Musa'ad relegated to sheikh of Metemma in 1801"
+   },
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Ja'aliyin headquarters sacked by the Mahdist amir Mahmud in 1897.",
+   "history_ar": "مقر الجعليين الذي اجتاحه الأمير محمود ود أحمد سنة 1897.",
+   "history_source": {
+    "source_id": "MACMICHAEL1922_V1",
+    "page": "235"
+   },
+   "history_ar_status": "working translation — needs native review",
+   "map_from": {
+    "year": 1801,
+    "basis": "first_attested"
+   },
+   "source_ids": [
+    {
+     "id": "GEONAMES",
+     "page": "379127"
+    },
+    {
+     "id": "MACMICHAEL1922_V1",
+     "page": "233"
+    },
+    {
+     "id": "MACMICHAEL1922_V1",
+     "page": "235"
+    }
+   ]
+  },
+  {
+   "id": "kawa",
+   "name_en": "Kawa (Gematon)",
+   "name_ar": "كوة",
+   "name_ar_source": "working translation — needs native review",
+   "wikidata": null,
+   "lat": 19.12313,
+   "lon": 30.49661,
+   "coord_source": {
+    "source_id": "PLEIADES_805647",
+    "page": "805647",
+    "badge": "APPROXIMATE"
+   },
+   "category": "ancient",
+   "founded": {
+    "year": -1350,
+    "badge": "APPROXIMATE",
+    "source_id": "SARS_KAWA",
+    "page": "project page",
+    "note": "name Gematon \"strongly suggests\" foundation by Akhenaten, 14th century BC"
+   },
+   "abandoned": {
+    "year": 350,
+    "badge": "APPROXIMATE",
+    "source_id": "SARS_KAWA",
+    "page": "project page",
+    "reason": "\"abandoned probably in the 4th century AD\" (year = mid-century)"
+   },
+   "roles": [],
+   "history_en": "Egyptian and Kushite temple town (Gematon) near Dongola.",
+   "history_ar": "مدينة معابد مصرية وكوشية (جماتون) قرب دنقلا.",
+   "history_source": {
+    "source_id": "SARS_KAWA",
+    "page": "project page"
+   },
+   "history_ar_status": "working translation — needs native review",
+   "map_from": {
+    "year": -1350,
+    "basis": "founded"
+   },
+   "source_ids": [
+    {
+     "id": "PLEIADES_805647",
+     "page": "805647"
+    },
+    {
+     "id": "SARS_KAWA",
+     "page": "project page"
     }
    ]
   }

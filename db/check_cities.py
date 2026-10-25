@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check db/cities.json: source_ids in registry (data/periods.js meta.sources ∪ db/lens_*.json meta.sources,
-which research_patch Pass 9 merges), era_ids exist in data/eras, coords in regional bbox, no duplicate QIDs/ids."""
+which research_patch Pass 9 merges), era_ids exist in data/eras, coords in regional bbox, no duplicate QIDs/ids;
+first_attested {year,badge FIRST_ATTESTED,source_id,page,basis} kept separate from founded; map_from = founded else first_attested, else list_only_reason."""
 import json,glob,os,sys
 root=sys.argv[1] if len(sys.argv)>1 else os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 t=open(os.path.join(root,'data/periods.js')).read()
@@ -19,9 +20,12 @@ for r in P:
     if i in seeni: bad.append(f'dup id {i}')
     seeni.add(i)
     q=r.get('wikidata')
-    if not q or not q.startswith('Q'): bad.append(f'{i}: bad QID')
-    if q in seenq: bad.append(f'{i}: dup QID {q} with {seenq[q]}')
-    seenq[q]=i
+    if q is None:
+        if r.get('coord_source',{}).get('source_id')=='WIKIDATA_CITIES': bad.append(f'{i}: null QID but coords cite Wikidata')
+    else:
+        if not q.startswith('Q'): bad.append(f'{i}: bad QID')
+        if q in seenq: bad.append(f'{i}: dup QID {q} with {seenq[q]}')
+        seenq[q]=i
     if not(B['lat'][0]<=r['lat']<=B['lat'][1] and B['lon'][0]<=r['lon']<=B['lon'][1]): bad.append(f'{i}: coords out of bbox')
     f=r.get('founded')
     if f is None:
@@ -30,6 +34,19 @@ for r in P:
         if f.get('badge') not in BADGES: bad.append(f'{i}: bad badge')
         if f.get('year') is None: bad.append(f'{i}: founded object without year')
         src(r,f,'founded')
+    fa=r.get('first_attested')
+    if fa is not None:
+        if fa.get('badge')!='FIRST_ATTESTED': bad.append(f'{i}: first_attested badge must be FIRST_ATTESTED')
+        if not isinstance(fa.get('year'),int): bad.append(f'{i}: first_attested without integer year')
+        if not fa.get('basis'): bad.append(f'{i}: first_attested without basis')
+        src(r,fa,'first_attested')
+    mf=r.get('map_from')
+    exp=({'year':f['year'],'basis':'founded'} if f else {'year':fa['year'],'basis':'first_attested'} if fa else None)
+    if mf!=exp: bad.append(f'{i}: map_from {mf} != expected {exp}')
+    if not f and not fa and not r.get('list_only_reason'): bad.append(f'{i}: list-only place without list_only_reason')
+    if (f or fa) and r.get('list_only_reason'): bad.append(f'{i}: list_only_reason on a dated place')
+    hs=r.get('history_source')
+    if hs: src(r,hs,'history')
     a=r.get('abandoned')
     if isinstance(a,dict):
         if a.get('year') is None and not a.get('reason'): bad.append(f'{i}: abandoned without year or reason')
