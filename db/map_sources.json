@@ -4273,41 +4273,10 @@
      "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
-    },
-    {
-     "layer": "ethno_markers",
-     "file": "db/ethno_markers/seligman1932.geojson",
-     "feature_index": 4,
-     "feature_id": "seligman1932-shilluk-kingdom-0",
-     "label_en": "Shilluk",
-     "zone_type": "label_marker",
-     "geometry_type": "Point",
-     "cites": [
-      {
-       "id": "SELIGMAN1932",
-       "pages": "folding 'Tribal Map of Southern Sudan', unpaginated, end of volume; scan leaf n717"
-      }
-     ],
-     "base_source": [
-      "georeferenced period map (Seligman 1932, RMS 1.33 km)"
-     ],
-     "base_source_text": "centroid of the georeferenced spread-letter centres (30 graticule GCPs, order-2, RMS 1.33 km); see db/border_drafts/SELIGMAN1932_GEOREF.md",
-     "base_source_null_reason": null,
-     "badges": [
-      "APPROXIMATE",
-      "SINGLE-SOURCE"
-     ],
-     "confidence": null,
-     "certainty": null,
-     "date_note": "Distribution as recorded by the Seligmans in the 1910s–30s (map published 1932); not the era's full span.",
-     "note": "Where the 1932 Seligman map places the name; not a boundary or claim.",
-     "checked_against": [],
-     "overlay_mean_error_km": null,
-     "overlay_null_reason": "label position, not a traced shape"
     }
    ],
    "counts": {
-    "shapes": 2,
+    "shapes": 1,
     "contested": 0,
     "trade_routes": 0,
     "base_source_null": 0
@@ -4581,10 +4550,41 @@
      "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
+    },
+    {
+     "layer": "ethno_markers",
+     "file": "db/ethno_markers/seligman1932.geojson",
+     "feature_index": 4,
+     "feature_id": "seligman1932-shilluk-kingdom-0",
+     "label_en": "Shilluk",
+     "zone_type": "label_marker",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "SELIGMAN1932",
+       "pages": "folding 'Tribal Map of Southern Sudan', unpaginated, end of volume; scan leaf n717"
+      }
+     ],
+     "base_source": [
+      "georeferenced period map (Seligman 1932, RMS 1.33 km)"
+     ],
+     "base_source_text": "centroid of the georeferenced spread-letter centres (30 graticule GCPs, order-2, RMS 1.33 km); see db/border_drafts/SELIGMAN1932_GEOREF.md",
+     "base_source_null_reason": null,
+     "badges": [
+      "APPROXIMATE",
+      "SINGLE-SOURCE"
+     ],
+     "confidence": null,
+     "certainty": null,
+     "date_note": "Distribution as recorded by the Seligmans in the 1910s–30s (map published 1932); not the era's full span.",
+     "note": "Where the 1932 Seligman map places the name; not a boundary or claim.",
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "label position, not a traced shape"
     }
    ],
    "counts": {
-    "shapes": 7,
+    "shapes": 8,
     "contested": 3,
     "trade_routes": 0,
     "base_source_null": 0
