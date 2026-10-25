@@ -2451,6 +2451,19 @@
     "verification": "fetched 2026-10-20",
     "via": "db/geopolitics_sources.json"
    },
+   "GEO-095": {
+    "author": "UNHCR",
+    "title": "UNHCR warns of dramatic scale of violence against forcibly displaced women and girls in emergencies, as protection risks rising amid funding shortfalls",
+    "title_en": "same",
+    "publisher": "UNHCR (press release, Dakar)",
+    "year": "2025-11-25",
+    "url": "https://www.unhcr.org/africa/news/press-releases/unhcr-warns-dramatic-scale-violence-against-forcibly-displaced-women-and-girls",
+    "pages": "",
+    "lang": "en",
+    "affiliation_bias": "UN agency (UNHCR)",
+    "verification": "read in full 2026-10-25 via WebFetch (curl gets 403 bot block)",
+    "via": "db/geopolitics_sources.json"
+   },
    "GEONAMES": {
     "author": "GeoNames",
     "title": "GeoNames geographical database (feature pages)",
