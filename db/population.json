@@ -92,9 +92,32 @@
     "url": "https://ourworldindata.org/grapher/population",
     "licence": "CC BY 4.0",
     "note": "Downloaded 2026-10-24 as CSV; codes SDN, SSD. HYDE 3.3 <1800, Gapminder v7 1800–1949."
+   },
+   "POP_UNSD_DYB2024": {
+    "title": "Demographic Yearbook 2024, Table 5: Estimates of mid-year population 2015–2024",
+    "author": "UN Statistics Division (data as reported by national statistical offices)",
+    "year": 2024,
+    "url": "https://unstats.un.org/unsd/demographic-social/products/dyb/documents/DYB2024/table05.pdf",
+    "note": "Values are national estimates or projections, independent of WPP modelling. Thousands; * = provisional. Read 2026-10-24."
+   },
+   "POP_INSEED2014_PROJ": {
+    "title": "RGPH2 2009, Analyse thématique: Projections démographiques 2009-2050, Tome 1: Niveau national",
+    "author": "INSEED Tchad",
+    "year": 2014,
+    "url": "https://anad.inseed.td/index.php/catalog/26/download/156",
+    "note": "National projection, medium scenario (Moyenne). Read 2026-10-24. French; \"Totale Moyenne\" = total population, medium scenario."
    }
   },
-  "updated_2026-10-24": "Filled 6 modern neighbour-state eras from UN WPP 2024 (MODEL); earlier rule kept neighbours null"
+  "updated_2026-10-24": "Filled 6 modern neighbour-state eras from UN WPP 2024 (MODEL); earlier rule kept neighbours null",
+  "second_source_rule": "Second source must be independent of UN WPP. World Bank WDI is not counted because it reproduces WPP values exactly (checked 2026-10-24). Rule: within ±5% = agrees (SINGLE-SOURCE removed); otherwise CONTESTED, with both values shown. MODEL badges are kept.",
+  "still_single_source": {
+   "libya-ottoman-italian-independent": "DYB value covers Libyan nationals only (fn 19), so it is not comparable",
+   "central-african-republic-ubangi-shari": "no national estimate found in DYB 2024",
+   "war-in-sudan-saf-vs-rsf": "DYB has no Sudan value for 2023/2024",
+   "independent-sudan-first-parliamentary-period/abboud/second-parliamentary/transitional-third": "no independent figure found for the same years; the census years differ",
+   "turkiyya-ottoman-egyptian-rule": "no second historical series read",
+   "anglo-egyptian-sudan-condominium/ethnic_shares": "census Final Report not accessible"
+  }
  },
  "eras": {
   "khartoum-mesolithic-early-khartoum": {
@@ -1489,8 +1512,8 @@
    "null_reason": null,
    "badges": [
     "MODEL",
-    "SINGLE-SOURCE",
-    "APPROXIMATE"
+    "APPROXIMATE",
+    "CONTESTED"
    ],
    "territory": "Eritrea (neighbour state)",
    "reference_year": 2024,
@@ -1521,6 +1544,26 @@
      "badges": [
       "MODEL"
      ]
+    },
+    {
+     "kind": "official_estimate",
+     "year": 2024,
+     "value": 3823000,
+     "territory": "Eritrea (neighbour state)",
+     "sources": [
+      "POP_UNSD_DYB2024"
+     ],
+     "badges": [
+      "OFFICIAL"
+     ],
+     "quote": "Eritrea - Érythrée9 ... DJ ... 3 731 3 823",
+     "compared_with": {
+      "wpp2024_value": 3535603,
+      "year": 2024,
+      "diff_pct": 8.1,
+      "agrees": false
+     },
+     "note": "footnote 9: estimates based on the 2000 quick population count"
     }
    ],
    "caveat": "Neighbour state; WPP 2024 national figure, current borders. No figure before 1950 (era starts 1890); not estimated. Eritrea a separate state only from 1993; WPP back-series 1950–1992 covers the same territory."
@@ -1679,8 +1722,8 @@
    "null_reason": null,
    "badges": [
     "MODEL",
-    "SINGLE-SOURCE",
-    "APPROXIMATE"
+    "APPROXIMATE",
+    "CONTESTED"
    ],
    "territory": "Chad (neighbour state)",
    "reference_year": 2024,
@@ -1711,6 +1754,26 @@
      "badges": [
       "MODEL"
      ]
+    },
+    {
+     "kind": "official_estimate",
+     "year": 2025,
+     "value": 19340757,
+     "territory": "Chad (neighbour state)",
+     "sources": [
+      "POP_INSEED2014_PROJ"
+     ],
+     "badges": [
+      "OFFICIAL"
+     ],
+     "quote": "Totale Moyenne 11 072 067 11 469 500 13 670 084 16 244 513 19 340 757",
+     "compared_with": {
+      "wpp2024_value": 21003705,
+      "year": 2025,
+      "diff_pct": -7.9,
+      "agrees": false
+     },
+     "note": "WPP 2025 value read via World Bank SP.POP.TOTL, which matches WPP 2024"
     }
    ],
    "caveat": "Neighbour state; WPP 2024 national figure, current borders. No figure before 1950 (era starts 1900); not estimated."
@@ -1773,7 +1836,7 @@
    "null_reason": null,
    "badges": [
     "MODEL",
-    "SINGLE-SOURCE"
+    "CONTESTED"
    ],
    "territory": "Egypt (neighbour state)",
    "reference_year": 2024,
@@ -1804,6 +1867,26 @@
      "badges": [
       "MODEL"
      ]
+    },
+    {
+     "kind": "official_estimate",
+     "year": 2024,
+     "value": 106556000,
+     "territory": "Egypt (neighbour state)",
+     "sources": [
+      "POP_UNSD_DYB2024"
+     ],
+     "badges": [
+      "OFFICIAL"
+     ],
+     "quote": "Egypt - Égypte ... DF ... 105 174 *106 556",
+     "compared_with": {
+      "wpp2024_value": 116538258,
+      "year": 2024,
+      "diff_pct": -8.6,
+      "agrees": false
+     },
+     "note": "DYB value provisional; national (CAPMAS) estimate of the resident population"
     }
    ],
    "caveat": "Neighbour state; WPP 2024 national figure, current borders."
@@ -1992,7 +2075,7 @@
    "null_reason": null,
    "badges": [
     "MODEL",
-    "SINGLE-SOURCE"
+    "CONTESTED"
    ],
    "territory": "Ethiopia (neighbour state)",
    "reference_year": 2024,
@@ -2023,6 +2106,26 @@
      "badges": [
       "MODEL"
      ]
+    },
+    {
+     "kind": "official_estimate",
+     "year": 2024,
+     "value": 109425000,
+     "territory": "Ethiopia (neighbour state)",
+     "sources": [
+      "POP_UNSD_DYB2024"
+     ],
+     "badges": [
+      "OFFICIAL"
+     ],
+     "quote": "Ethiopia - Éthiopie11 ... DF ... 107 191 109 425",
+     "compared_with": {
+      "wpp2024_value": 132059767,
+      "year": 2024,
+      "diff_pct": -17.1,
+      "agrees": false
+     },
+     "note": "footnote 11: estimates also reflect the 2007 census; ESS official projection"
     }
    ],
    "caveat": "Neighbour state; WPP 2024 national figure, current borders."
@@ -2189,11 +2292,31 @@
      "badges": [
       "MODEL"
      ]
+    },
+    {
+     "kind": "official_estimate",
+     "year": 2024,
+     "value": 15254000,
+     "territory": "South Sudan (neighbour state from 2011)",
+     "sources": [
+      "POP_UNSD_DYB2024"
+     ],
+     "badges": [
+      "OFFICIAL"
+     ],
+     "quote": "Republic of South Sudan ... 14 746 15 254",
+     "compared_with": {
+      "wpp2024_value": 11943408,
+      "year": 2024,
+      "diff_pct": 27.7,
+      "agrees": false
+     },
+     "note": "footnote 31: cohort-component projections"
     }
    ],
    "badges": [
     "MODEL",
-    "SINGLE-SOURCE"
+    "CONTESTED"
    ],
    "caveat": "No census since 2008; large refugee and returnee flows."
   },
@@ -2221,11 +2344,30 @@
      "badges": [
       "MODEL"
      ]
+    },
+    {
+     "kind": "official_estimate",
+     "year": 2021,
+     "value": 45678000,
+     "territory": "Sudan (post-2011 borders)",
+     "sources": [
+      "POP_UNSD_DYB2024"
+     ],
+     "badges": [
+      "OFFICIAL"
+     ],
+     "quote": "Sudan - Soudan1 ... DF ... 44 433 45 678 46 935",
+     "compared_with": {
+      "wpp2024_value": 48066924,
+      "year": 2021,
+      "diff_pct": -5.0,
+      "agrees": true
+     },
+     "note": "footnote 1: national projections"
     }
    ],
    "badges": [
-    "MODEL",
-    "SINGLE-SOURCE"
+    "MODEL"
    ],
    "note": "No census since 2008; WPP is a projection from 2008 base plus surveys."
   },
