@@ -32,7 +32,7 @@
   "rules": "Derived only from the input files; nothing inferred. Base source is null when the properties do not name one.",
   "totals": {
    "eras": 68,
-   "shapes": 245,
+   "shapes": 246,
    "base_source_null": 7,
    "overlay_error_non_null": 0,
    "checked_against_shapes": 25
@@ -3958,12 +3958,40 @@
      "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map"
+    },
+    {
+     "layer": "trade_routes",
+     "file": "db/trade_routes/sultanate-of-darfur-keira.geojson",
+     "feature_index": 0,
+     "feature_id": "sultanate-of-darfur-keira-route-0",
+     "label_en": "kobbe to asyut (slaves)",
+     "zone_type": "trade_route",
+     "geometry_type": "LineString",
+     "cites": [
+      {
+       "id": "HD2011",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "schematic great-circle between place-data endpoints"
+     ],
+     "base_source_text": "db/city_layers/cities.geojson, db/trade_routes/route_anchors.json",
+     "base_source_null_reason": null,
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "confidence": null,
+     "certainty": null,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "schematic line, not traced"
     }
    ],
    "counts": {
-    "shapes": 7,
+    "shapes": 8,
     "contested": 0,
-    "trade_routes": 0,
+    "trade_routes": 1,
     "base_source_null": 0
    }
   },

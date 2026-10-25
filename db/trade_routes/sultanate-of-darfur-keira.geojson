@@ -1,0 +1,137 @@
+{
+ "type": "FeatureCollection",
+ "crs_note": "EPSG:4326",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      23.96667,
+      14.06667
+     ],
+     [
+      24.24496,
+      14.61857
+     ],
+     [
+      24.52466,
+      15.17013
+     ],
+     [
+      24.80582,
+      15.72135
+     ],
+     [
+      25.0885,
+      16.27221
+     ],
+     [
+      25.37278,
+      16.82269
+     ],
+     [
+      25.65871,
+      17.37278
+     ],
+     [
+      25.94637,
+      17.92246
+     ],
+     [
+      26.23581,
+      18.47171
+     ],
+     [
+      26.52711,
+      19.02052
+     ],
+     [
+      26.82035,
+      19.56887
+     ],
+     [
+      27.11558,
+      20.11675
+     ],
+     [
+      27.41289,
+      20.66413
+     ],
+     [
+      27.71235,
+      21.21099
+     ],
+     [
+      28.01403,
+      21.75733
+     ],
+     [
+      28.31802,
+      22.30311
+     ],
+     [
+      28.62439,
+      22.84832
+     ],
+     [
+      28.93323,
+      23.39295
+     ],
+     [
+      29.24461,
+      23.93696
+     ],
+     [
+      29.55863,
+      24.48033
+     ],
+     [
+      29.87537,
+      25.02306
+     ],
+     [
+      30.19493,
+      25.5651
+     ],
+     [
+      30.51738,
+      26.10645
+     ],
+     [
+      30.84284,
+      26.64707
+     ],
+     [
+      31.17139,
+      27.18694
+     ]
+    ]
+   },
+   "properties": {
+    "id": "sultanate-of-darfur-keira-route-0",
+    "era_id": "sultanate-of-darfur-keira",
+    "label_en": "kobbe to asyut (slaves)",
+    "label_ar": null,
+    "from_id": "kobbe",
+    "to_id": "asyut",
+    "commodity": "slaves",
+    "direction": null,
+    "partners": null,
+    "schematic": true,
+    "schematic_between": "endpoints only",
+    "line": "great_circle",
+    "symbol_class": "trade_route",
+    "badges": [
+     "APPROXIMATE"
+    ],
+    "cite": "HD2011",
+    "endpoint_sources": [
+     "db/city_layers/cities.geojson",
+     "db/trade_routes/route_anchors.json"
+    ]
+   }
+  }
+ ]
+}

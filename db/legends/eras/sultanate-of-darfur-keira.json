@@ -1512,6 +1512,21 @@
     ]
    },
    "cite": null
+  },
+  "trade_routes": {
+   "file": "db/trade_routes/sultanate-of-darfur-keira.geojson",
+   "features": [
+    {
+     "id": "sultanate-of-darfur-keira-route-0",
+     "label_en": "kobbe to asyut (slaves)",
+     "commodity": "slaves",
+     "symbol_class": "trade_route",
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "cite": "HD2011"
+    }
+   ]
   }
  },
  "symbol_classes_present": [
@@ -1527,7 +1542,8 @@
   "extent_label_point",
   "list_only_text",
   "low_confidence",
-  "relation_arrow_conflict"
+  "relation_arrow_conflict",
+  "trade_route"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1555,6 +1571,7 @@
   "list_only_text": 2,
   "low_confidence": 7,
   "relation_arrow_conflict": 2,
+  "trade_route": 1,
   "extent_features": 7,
   "group_features": 4,
   "cities": 38
