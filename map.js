@@ -96,7 +96,7 @@ async function render(anim=true){
  const cj=await cardj(e);if(e!==ES[i])return;$('card').innerHTML=cj?cj[L]:`<p><span class="gap">${T.wip}</span></p>`;layerInfo(e);$('feat').hidden=true;
  place()}
 let LBS=[];
-function nobPos(){const b=$('layers').getBoundingClientRect();$('nob').style.top=(b.bottom+6)+'px';setTimeout(lgFit,0)}
+function nobPos(){const b=$('layers').getBoundingClientRect();document.documentElement.style.setProperty('--chipb',Math.round(b.bottom)+'px');$('nob').style.top=(b.bottom+6)+'px';setTimeout(lgFit,0)}
 function place(){setTimeout(cityThin,0);nobPos();const t=TR;gT.selectAll('*').remove();const placed=[],hid=[];
  // obstacles: the card and the top chrome
  const ob=['sheet','top','layers','nob'].map(id=>$(id).getBoundingClientRect()).filter(b=>b.width).map(b=>({x:b.left,y:b.top,w:b.width,h:b.height}));

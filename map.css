@@ -83,3 +83,5 @@ html[dir=rtl] .nav{transform:scaleX(-1)}
 #nob .hmlb{pointer-events:auto;border-radius:16px;padding:4px 12px;font:600 13px inherit;font-family:inherit;border:1px dashed #009E73;background:#e6f6f0;color:#00573f;cursor:pointer;min-height:32px}
 .mb.hml{border-color:#009E73;color:#5fd3ad}.mb.hmlon{cursor:pointer;background:#0b3a2d;color:#e6f6f0;border:1px solid #009E73;font:inherit;font-size:.8em;border-radius:.6em;padding:.15em .6em;min-height:28px}
 body.sfull #lgb,body.sfull #lgp,body.sfull #reset{visibility:hidden}
+#sheet.full{max-height:min(88vh,calc(100vh - var(--chipb,120px) - 10px))}
+@media (min-width:1000px){#sheet.full{max-height:calc(100vh - 150px)}}
