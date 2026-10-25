@@ -7484,6 +7484,42 @@
     "lang": "en",
     "verification": "Record read in full 2026-10-25: Denomination '20 Qirsh'; Material 'Silver'; Authority 'Abdallahi ibn Muhammad'; State 'Mahdist State'; Region 'Sudan'; reverse legend 'duribe umm durman 1302, regnal year 9'; date range 1884–1885; 34 mm, 19.55 g; refs KM.21, Job.2, Vernon.3B.",
     "note": "Museum catalogue record (Islamic department)."
+   },
+   "CBOS_CURMUS2012": {
+    "author": "Central Bank of Sudan",
+    "title": "Currency Museum",
+    "publisher": "Central Bank of Sudan (CBOS)",
+    "year": "2012",
+    "date": "2012-01-18",
+    "url": "https://cbos.gov.sd/sites/default/files/currency_museum_0.pdf",
+    "verification": "URL resolved 2026-10-25 (HTTP 200, application/pdf). Catalogue PDF, 129 pp., created 2012-01-18 per Analyst's dfc6020 details.",
+    "pages": "",
+    "lang": "en",
+    "note": "Official currency catalogue (government source)"
+   },
+   "WB_WDI_GDP_SDN": {
+    "author": "World Bank",
+    "title": "World Development Indicators: GDP (current US$), Sudan (NY.GDP.MKTP.CD)",
+    "publisher": "World Bank",
+    "year": "2026",
+    "date": "2026-10-08",
+    "url": "https://api.worldbank.org/v2/country/SDN/indicator/NY.GDP.MKTP.CD?format=json&per_page=100",
+    "verification": "URL resolved 2026-10-25 (HTTP 200, JSON). Dataset lastupdated 2026-10-08.",
+    "pages": "",
+    "lang": "en",
+    "note": "WDI API series"
+   },
+   "WB_SEU2023": {
+    "author": "World Bank",
+    "title": "Sudan Economic Update: Missed Opportunities amidst Deepening Fragility",
+    "publisher": "World Bank",
+    "year": "2023",
+    "date": null,
+    "url": "https://documents1.worldbank.org/curated/en/099540409212319137/pdf/IDU0f37ed18102619046f80a9740379de7348107.pdf",
+    "verification": "URL resolved 2026-10-25 (HTTP 200, application/pdf).",
+    "pages": "",
+    "lang": "en",
+    "note": ""
    }
   }
  },
