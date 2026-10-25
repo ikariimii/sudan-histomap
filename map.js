@@ -22,7 +22,7 @@ $('grab').setAttribute('aria-label',T.sheet+' · '+T.sheetst.half);$('grab').set
 $('reset').title=T.reset;$('reset').setAttribute('aria-label',T.reset);$('within').querySelector('label').textContent=T.within;
 const LAY=['ctl','grp','rel','eth','pop','cty','hml','trd','evd'],on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x==='trade'?'trd':x==='evidence'?'evd':x).filter(x=>LAY.includes(x)));
 LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=T.l[k];b.setAttribute('aria-pressed',on.has(k));b.dataset.k=k;
- b.onclick=()=>{on.has(k)?on.delete(k):on.add(k);b.setAttribute('aria-pressed',on.has(k));url();if(k==='evd'){evdStyle();layerInfo(ES[i]);return}render(false);if(k==='hml')hmlDraw()};$('layers').appendChild(b)});
+ b.onclick=()=>{on.has(k)?on.delete(k):on.add(k);if(k==='eth'&&on.has(k))eth1932();b.setAttribute('aria-pressed',on.has(k));url();if(k==='evd'){evdStyle();layerInfo(ES[i]);return}render(false);if(k==='hml')hmlDraw()};$('layers').appendChild(b)});
 document.addEventListener('click',ev=>{const t=ev.target.closest&&ev.target.closest('[data-hml]');if(!t)return;ev.preventDefault();if(!on.has('hml')){on.add('hml');const c=document.querySelector('#layers .chip[data-k=hml]');if(c)c.setAttribute('aria-pressed','true');url();render(false);hmlDraw()}});
 // --- era index
 let i=Math.max(0,ES.findIndex(e=>e.id===Q.get('era')));const r=$('r');r.max=ES.length-1;r.value=i;r.setAttribute('aria-label',T.era);
@@ -139,7 +139,7 @@ async function ethDraw(e){const has=(M.layers.eth||[]).includes(e.id),c=document
   g.append('circle').attr('cx',x).attr('cy',y).attr('r',r).attr('fill','none').attr('stroke','#c9a227').attr('stroke-opacity',m.op).attr('stroke-width',1.4).attr('stroke-dasharray','5 4').attr('vector-effect','non-scaling-stroke');
   g.append('circle').attr('cx',x).attr('cy',y).attr('r',3).attr('fill','#c9a227');
   g.append('text').attr('x',x).attr('y',y-6).attr('text-anchor','middle').attr('class','ethl').text(m.n)})}
-function ethCard(m){$('feat').innerHTML=`<button class="x" aria-label="${esc(T.close)}">×</button><b lang="en">${esc(m.n)}</b> ${m.b.map(x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`).join(' ')}<p>${esc(AR?(m.cap_ar||T.ethcap):T.ethcap)}</p>${m.dn&&!AR?`<p><small>${esc(m.dn)}</small></p>`:''}<p class="extnote"><bdi dir="ltr">${esc(m.src)}${m.pl?' · '+esc(m.pl):''}</bdi>${m.u?` <a href="${esc(m.u)}" rel="noopener">link</a>`:''}</p>`;$('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true}}
+function ethCard(m){$('feat').innerHTML=`<button class="x" aria-label="${esc(T.close)}">×</button><b lang="en">${esc(m.n)}</b> ${m.b.map(x=>`<span class="repb">${esc(BL[x]?BL[x][AR?1:0]:x)}</span>`).join(' ')}<p>${esc(AR?(m.cap_ar||T.ethcap):T.ethcap)}${AR&&!m.cap_ar?` <span class="repb">${esc(BL.VERIFY?BL.VERIFY[1]:'VERIFY')}</span>`:''}</p>${m.dn&&!AR?`<p><small>${esc(m.dn)}</small></p>`:''}<p class="extnote"><bdi dir="ltr">${esc(m.src)}${m.pl?' · '+esc(m.pl):''}</bdi>${m.u?` <a href="${esc(m.u)}" rel="noopener">link</a>`:''}</p>`;$('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true}}
 // --- tap a feature for details
 function feat(f,e){const p=f.properties,b=rep(p);const det=AR?(p.label_detail_ar||p.label_detail_en):(p.label_detail_en||p.label_detail_ar);
  $('feat').innerHTML=`<button class="x" aria-label="close">×</button><b>${esc(lab(p)||'—')}</b>${b?` <span class="repb${b==='CONTESTED'?' cont':b==='SINGLE-SOURCE'?' single':''}">${esc(b==='SINGLE-SOURCE'&&!AR?p.badge:BL[b][AR?1:0])}</span>`:''}${p.certainty?` <small>[${esc(p.certainty)}]</small>`:''}`+
@@ -340,6 +340,7 @@ function flagsDraw(e){const fl=e.fl,y=cY(),fs=fl?fl.f.filter(f=>f.w.some(w=>w[0]
   if(fs.some(f=>f.v))g.append('text').attr('class','fvchip').attr('x',0).attr('y',-FH-9).attr('text-anchor','middle').text('VERIFY')})}
 // --- start
 window.__hm={scale:k=>svg.call(zoom.scaleTo,k)};// test hook (QA only, no side effects)
+const eth1932=()=>{const e=ES[i];if(on.has('eth')&&(M.layers.eth||[]).includes(e.id)&&e.a<=1932&&1932<=e.b)Y=1932};eth1932();
 fit();getj('/basemap-map.json').then(b=>{BASE=b;render(false)}).catch(()=>render(false));
 })();
 
