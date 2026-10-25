@@ -2,9 +2,9 @@
  "meta": {
   "owner": "Sudan Map Designer",
   "script": "db/era_focus/build_era_focus.py",
-  "focus_bbox": "[west,south,east,north] WGS84, 15% padding, min span 1 deg; zoom = floor(log2(360/span)) clamped 3-8",
-  "basis": "extent = extent features (+ cities with a cited role in the era); cities = only role cities; fallback = coarse stream frame (camera only, NOT a historical extent)",
-  "flag_anchor": "[lon,lat] label point for the Historian's flags: polygon-pole = pole of inaccessibility of largest extent polygon (inside it); main-city:<id> = capital/role city; extent-point = first extent point; fallback-bbox-centre = camera centre only"
+  "note": "Canonical zoom box is data/eras/<era>.json focus_view (Historian). This file has no bbox; zoom is derived from focus_view.bbox, null when focus_view is null.",
+  "zoom": "floor(log2(360/max(width, height*1.3))) clamped 3-8",
+  "flag_anchor": "[lon,lat] for the Historian's flags: polygon-pole = pole of inaccessibility of largest extent polygon (inside it); main-city:<id> = capital/role city; extent-point = first extent point; null with null_reason when focus_view is null"
  },
  "eras": {
   "khartoum-mesolithic-early-khartoum": {
@@ -12,19 +12,10 @@
    "stream": "Sudan – Middle Nile",
    "start": -8500,
    "end": -5000,
-   "focus_bbox": [
-    27.95,
-    10.425,
-    37.05,
-    24.075
-   ],
-   "zoom": 4,
-   "basis": "fallback",
-   "flag_anchor": [
-    32.5,
-    17.25
-   ],
-   "flag_anchor_basis": "fallback-bbox-centre",
+   "zoom": null,
+   "flag_anchor": null,
+   "flag_anchor_basis": null,
+   "null_reason": "focus_view is null in data/eras (no cited extent features or city coordinates)",
    "cities_with_role": []
   },
   "khartoum-neolithic-shaheinab": {
@@ -32,14 +23,8 @@
    "stream": "Sudan – Middle Nile",
    "start": -4900,
    "end": -3800,
-   "focus_bbox": [
-    31.895,
-    15.256,
-    33.195,
-    16.556
-   ],
    "zoom": 7,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     32.539,
     16.062
@@ -52,14 +37,8 @@
    "stream": "Sudan – Middle Nile",
    "start": -3800,
    "end": -2900,
-   "focus_bbox": [
-    30.81,
-    21.55,
-    32.11,
-    22.85
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     31.46,
     22.2
@@ -72,14 +51,8 @@
    "stream": "Sudan – Middle Nile",
    "start": -2400,
    "end": -1550,
-   "focus_bbox": [
-    30.728,
-    21.143,
-    32.028,
-    22.443
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     31.378,
     21.793
@@ -92,14 +65,8 @@
    "stream": "Sudan – Middle Nile",
    "start": -2450,
    "end": -1480,
-   "focus_bbox": [
-    29.456,
-    18.753,
-    34.183,
-    22.197
-   ],
    "zoom": 6,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     30.53,
     20.019
@@ -114,14 +81,8 @@
    "stream": "Sudan – Middle Nile",
    "start": -1500,
    "end": -1070,
-   "focus_bbox": [
-    29.862,
-    18.026,
-    33.949,
-    22.424
-   ],
    "zoom": 5,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     31.828,
     18.537
@@ -137,14 +98,8 @@
    "stream": "Sudan – Middle Nile",
    "start": -800,
    "end": -270,
-   "focus_bbox": [
-    29.358,
-    13.113,
-    34.932,
-    32.37
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     32.612,
     25.986
@@ -161,14 +116,8 @@
    "stream": "Sudan – Middle Nile",
    "start": -270,
    "end": 350,
-   "focus_bbox": [
-    29.356,
-    11.922,
-    34.933,
-    25.6
-   ],
    "zoom": 4,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     33.285,
     16.504
@@ -186,14 +135,8 @@
    "stream": "Sudan – Middle Nile",
    "start": 350,
    "end": 550,
-   "focus_bbox": [
-    30.942,
-    21.6,
-    32.242,
-    22.9
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 8,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     31.567,
     22.267
@@ -206,14 +149,8 @@
    "stream": "Sudan – Middle Nile",
    "start": 400,
    "end": 700,
-   "focus_bbox": [
-    29.515,
-    18.73,
-    33.731,
-    25.058
-   ],
    "zoom": 5,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     30.53,
     20.021
@@ -228,14 +165,8 @@
    "stream": "Sudan – Middle Nile",
    "start": 500,
    "end": 1500,
-   "focus_bbox": [
-    27.931,
-    13.677,
-    34.553,
-    25.062
-   ],
    "zoom": 4,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     30.13,
     16.034
@@ -250,14 +181,8 @@
    "stream": "Sudan – Middle Nile",
    "start": 500,
    "end": 1504,
-   "focus_bbox": [
-    32.031,
-    14.874,
-    33.331,
-    16.174
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     32.681,
     15.524
@@ -272,14 +197,8 @@
    "stream": "Sudan – Middle Nile",
    "start": 1504,
    "end": 1821,
-   "focus_bbox": [
-    28.71,
-    10.012,
-    35.557,
-    21.032
-   ],
    "zoom": 4,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     33.6,
     13.55
@@ -292,14 +211,8 @@
    "stream": "Sudan – Middle Nile",
    "start": 1821,
    "end": 1885,
-   "focus_bbox": [
-    19.258,
-    1.541,
-    41.408,
-    24.719
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     29.01,
     11.019
@@ -319,14 +232,8 @@
    "stream": "Sudan – Middle Nile",
    "start": 1885,
    "end": 1899,
-   "focus_bbox": [
-    19.929,
-    6.934,
-    36.266,
-    21.727
-   ],
    "zoom": 4,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     27.287,
     13.325
@@ -341,14 +248,8 @@
    "stream": "Sudan – Middle Nile",
    "start": 1899,
    "end": 1956,
-   "focus_bbox": [
-    16.118,
-    -1.0,
-    41.818,
-    26.42
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     30.229,
     15.769
@@ -365,14 +266,8 @@
    "stream": "Sudan – Republic",
    "start": 1956,
    "end": 1958,
-   "focus_bbox": [
-    19.26,
-    0.537,
-    41.408,
-    26.22
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     30.23,
     15.747
@@ -385,14 +280,8 @@
    "stream": "Sudan – Republic",
    "start": 1958,
    "end": 1964,
-   "focus_bbox": [
-    19.23,
-    0.692,
-    41.637,
-    25.034
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     30.232,
     15.77
@@ -405,14 +294,8 @@
    "stream": "Sudan – Republic",
    "start": 1964,
    "end": 1969,
-   "focus_bbox": [
-    19.23,
-    0.692,
-    41.637,
-    25.034
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     30.232,
     15.77
@@ -425,14 +308,8 @@
    "stream": "Sudan – Republic",
    "start": 1969,
    "end": 1985,
-   "focus_bbox": [
-    19.23,
-    0.692,
-    41.637,
-    25.034
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     30.232,
     15.77
@@ -445,14 +322,8 @@
    "stream": "Sudan – Republic",
    "start": 1985,
    "end": 1989,
-   "focus_bbox": [
-    19.23,
-    0.692,
-    41.637,
-    25.034
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     30.232,
     15.77
@@ -465,14 +336,8 @@
    "stream": "Sudan – Republic",
    "start": 1989,
    "end": 2019,
-   "focus_bbox": [
-    19.229,
-    0.555,
-    41.644,
-    26.085
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     30.23,
     15.76
@@ -485,14 +350,8 @@
    "stream": "Sudan – Republic",
    "start": 2019,
    "end": 2023,
-   "focus_bbox": [
-    19.229,
-    6.514,
-    41.644,
-    25.308
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     29.388,
     16.614
@@ -505,14 +364,8 @@
    "stream": "Sudan – Republic",
    "start": 2023,
    "end": 2026,
-   "focus_bbox": [
-    19.229,
-    6.514,
-    41.644,
-    25.308
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     29.388,
     16.614
@@ -525,14 +378,8 @@
    "stream": "Sudan – Darfur & Kordofan",
    "start": 1100,
    "end": 1400,
-   "focus_bbox": [
-    23.62,
-    12.3,
-    24.92,
-    13.6
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     24.27,
     12.95
@@ -545,14 +392,8 @@
    "stream": "Sudan – Darfur & Kordofan",
    "start": 1400,
    "end": 1650,
-   "focus_bbox": [
-    23.585,
-    13.892,
-    29.919,
-    17.134
-   ],
    "zoom": 5,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     29.188,
     16.76
@@ -567,14 +408,8 @@
    "stream": "Sudan – Darfur & Kordofan",
    "start": 1650,
    "end": 1874,
-   "focus_bbox": [
-    20.217,
-    6.576,
-    34.057,
-    21.774
-   ],
    "zoom": 4,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     27.265,
     13.325
@@ -589,14 +424,8 @@
    "stream": "Sudan – Darfur & Kordofan",
    "start": 1898,
    "end": 1916,
-   "focus_bbox": [
-    24.7,
-    12.977,
-    26.0,
-    14.277
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     25.35,
     13.627
@@ -609,14 +438,8 @@
    "stream": "Sudan – Darfur & Kordofan",
    "start": 1750,
    "end": 1969,
-   "focus_bbox": [
-    30.1,
-    11.35,
-    31.4,
-    12.65
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     30.75,
     12.0
@@ -629,14 +452,8 @@
    "stream": "South Sudan – Upper Nile",
    "start": 1490,
    "end": 1861,
-   "focus_bbox": [
-    31.54,
-    9.264,
-    33.197,
-    13.523
-   ],
    "zoom": 6,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     32.042,
     10.12
@@ -651,14 +468,8 @@
    "stream": "South Sudan – Upper Nile",
    "start": 1899,
    "end": 2011,
-   "focus_bbox": [
-    21.565,
-    2.19,
-    37.825,
-    13.547
-   ],
    "zoom": 4,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     30.471,
     7.117
@@ -671,14 +482,8 @@
    "stream": "South Sudan – Upper Nile",
    "start": 2011,
    "end": 2026,
-   "focus_bbox": [
-    21.565,
-    2.19,
-    37.825,
-    13.547
-   ],
    "zoom": 4,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     30.471,
     7.117
@@ -691,14 +496,8 @@
    "stream": "Egypt",
    "start": -3100,
    "end": -2181,
-   "focus_bbox": [
-    31.042,
-    21.591,
-    33.131,
-    24.416
-   ],
    "zoom": 6,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     32.89,
     24.09
@@ -711,14 +510,8 @@
    "stream": "Egypt",
    "start": -2055,
    "end": -1650,
-   "focus_bbox": [
-    30.475,
-    21.058,
-    31.775,
-    22.358
-   ],
    "zoom": 7,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     31.283,
     21.917
@@ -734,14 +527,8 @@
    "stream": "Egypt",
    "start": -1550,
    "end": -1070,
-   "focus_bbox": [
-    31.59,
-    16.69,
-    33.723,
-    32.639
-   ],
    "zoom": 4,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     31.836,
     30.799
@@ -754,14 +541,8 @@
    "stream": "Egypt",
    "start": -664,
    "end": -332,
-   "focus_bbox": [
-    32.24,
-    23.44,
-    33.54,
-    24.74
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     32.89,
     24.09
@@ -774,14 +555,8 @@
    "stream": "Egypt",
    "start": -305,
    "end": -30,
-   "focus_bbox": [
-    29.471,
-    21.841,
-    33.125,
-    32.418
-   ],
    "zoom": 4,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     29.892,
     31.198
@@ -794,14 +569,8 @@
    "stream": "Egypt",
    "start": -30,
    "end": 641,
-   "focus_bbox": [
-    29.444,
-    21.368,
-    33.333,
-    32.48
-   ],
    "zoom": 4,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     31.992,
     22.65
@@ -816,14 +585,8 @@
    "stream": "Egypt",
    "start": 641,
    "end": 1250,
-   "focus_bbox": [
-    30.988,
-    23.201,
-    33.149,
-    30.892
-   ],
    "zoom": 5,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     31.238,
     30.005
@@ -836,14 +599,8 @@
    "stream": "Egypt",
    "start": 1250,
    "end": 1517,
-   "focus_bbox": [
-    16.66,
-    12.431,
-    44.424,
-    41.921
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     31.387,
     26.559
@@ -858,14 +615,8 @@
    "stream": "Egypt",
    "start": 1517,
    "end": 1882,
-   "focus_bbox": [
-    21.394,
-    19.51,
-    38.971,
-    37.854
-   ],
-   "zoom": 3,
-   "basis": "extent",
+   "zoom": 4,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     29.875,
     28.009
@@ -878,14 +629,8 @@
    "stream": "Egypt",
    "start": 1882,
    "end": 1953,
-   "focus_bbox": [
-    21.824,
-    20.119,
-    38.919,
-    33.19
-   ],
    "zoom": 4,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     29.299,
     26.301
@@ -898,14 +643,8 @@
    "stream": "Egypt",
    "start": 1953,
    "end": 2026,
-   "focus_bbox": [
-    21.991,
-    19.386,
-    45.036,
-    39.66
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     29.639,
     26.56
@@ -918,14 +657,8 @@
    "stream": "Ethiopia & Eritrea (Horn)",
    "start": -980,
    "end": -400,
-   "focus_bbox": [
-    38.367,
-    13.633,
-    39.667,
-    14.933
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     39.017,
     14.283
@@ -938,14 +671,8 @@
    "stream": "Ethiopia & Eritrea (Horn)",
    "start": 100,
    "end": 940,
-   "focus_bbox": [
-    27.506,
-    7.113,
-    56.472,
-    22.471
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     35.565,
     15.602
@@ -961,14 +688,8 @@
    "stream": "Ethiopia & Eritrea (Horn)",
    "start": 900,
    "end": 1270,
-   "focus_bbox": [
-    38.396,
-    11.386,
-    39.696,
-    12.686
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     39.046,
     12.036
@@ -981,14 +702,8 @@
    "stream": "Ethiopia & Eritrea (Horn)",
    "start": 1270,
    "end": 1974,
-   "focus_bbox": [
-    30.75,
-    1.21,
-    50.227,
-    20.228
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     38.685,
     8.294
@@ -1003,14 +718,8 @@
    "stream": "Ethiopia & Eritrea (Horn)",
    "start": 1974,
    "end": 2026,
-   "focus_bbox": [
-    30.741,
-    1.203,
-    50.228,
-    20.271
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     38.424,
     8.538
@@ -1023,14 +732,8 @@
    "stream": "Ethiopia & Eritrea (Horn)",
    "start": 1890,
    "end": 2026,
-   "focus_bbox": [
-    30.75,
-    1.204,
-    50.227,
-    20.271
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     38.963,
     8.005
@@ -1045,14 +748,8 @@
    "stream": "Chad & Central Sahara",
    "start": 700,
    "end": 1380,
-   "focus_bbox": [
-    8.613,
-    3.174,
-    23.467,
-    28.123
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     17.497,
     13.911
@@ -1065,14 +762,8 @@
    "stream": "Chad & Central Sahara",
    "start": 1380,
    "end": 1893,
-   "focus_bbox": [
-    12.027,
-    12.336,
-    13.769,
-    13.636
-   ],
    "zoom": 7,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     12.228,
     13.047
@@ -1085,14 +776,8 @@
    "stream": "Chad & Central Sahara",
    "start": 1635,
    "end": 1912,
-   "focus_bbox": [
-    20.103,
-    13.38,
-    21.403,
-    14.68
-   ],
    "zoom": 7,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     20.672,
     14.227
@@ -1105,14 +790,8 @@
    "stream": "Chad & Central Sahara",
    "start": 1900,
    "end": 2026,
-   "focus_bbox": [
-    11.348,
-    -0.955,
-    29.56,
-    26.636
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     19.464,
     17.426
@@ -1125,14 +804,8 @@
    "stream": "Chad & Central Sahara",
    "start": -500,
    "end": 700,
-   "focus_bbox": [
-    12.417,
-    25.883,
-    13.717,
-    27.183
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     13.067,
     26.533
@@ -1145,14 +818,8 @@
    "stream": "Chad & Central Sahara",
    "start": 1551,
    "end": 2026,
-   "focus_bbox": [
-    6.899,
-    17.439,
-    27.591,
-    35.264
-   ],
-   "zoom": 3,
-   "basis": "extent",
+   "zoom": 4,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     20.575,
     26.115
@@ -1165,14 +832,8 @@
    "stream": "Central Africa (CAR/Congo border)",
    "start": 1700,
    "end": 1905,
-   "focus_bbox": [
-    24.512,
-    3.792,
-    27.007,
-    5.092
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     24.8,
     4.929
@@ -1185,14 +846,8 @@
    "stream": "Central Africa (CAR/Congo border)",
    "start": 1903,
    "end": 2026,
-   "focus_bbox": [
-    11.372,
-    -0.731,
-    29.556,
-    24.914
-   ],
    "zoom": 3,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     19.458,
     9.024
@@ -1205,14 +860,8 @@
    "stream": "Red Sea & Arabia",
    "start": -1000,
    "end": 275,
-   "focus_bbox": [
-    44.676,
-    14.813,
-    45.976,
-    16.113
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     45.326,
     15.463
@@ -1225,14 +874,8 @@
    "stream": "Red Sea & Arabia",
    "start": 610,
    "end": 1258,
-   "focus_bbox": [
-    39.176,
-    20.773,
-    40.476,
-    22.072
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     39.826,
     21.422
@@ -1245,14 +888,8 @@
    "stream": "Red Sea & Arabia",
    "start": 1100,
    "end": 1922,
-   "focus_bbox": [
-    37.015,
-    15.075,
-    39.749,
-    19.628
-   ],
    "zoom": 5,
-   "basis": "extent",
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     37.33,
     19.102
@@ -1268,14 +905,8 @@
    "stream": "Red Sea & Arabia",
    "start": 1517,
    "end": 2026,
-   "focus_bbox": [
-    39.176,
-    20.773,
-    40.476,
-    22.072
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     39.826,
     21.422
@@ -1288,14 +919,8 @@
    "stream": "Red Sea & Arabia",
    "start": 275,
    "end": 2026,
-   "focus_bbox": [
-    36.68,
-    18.453,
-    37.98,
-    19.752
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     37.33,
     19.102
@@ -1308,14 +933,8 @@
    "stream": "Sudan – Middle Nile",
    "start": 1480,
    "end": 1821,
-   "focus_bbox": [
-    31.982,
-    15.586,
-    33.282,
-    16.886
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     32.632,
     16.236
@@ -1330,14 +949,8 @@
    "stream": "Sudan – Middle Nile",
    "start": 1500,
    "end": 1821,
-   "focus_bbox": [
-    32.444,
-    16.102,
-    34.171,
-    17.884
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     33.972,
     17.678
@@ -1350,14 +963,8 @@
    "stream": "Sudan – Darfur & Kordofan",
    "start": 1680,
    "end": 1785,
-   "focus_bbox": [
-    28.85,
-    12.35,
-    30.15,
-    13.65
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     29.5,
     13.0
@@ -1370,14 +977,8 @@
    "stream": "South Sudan – Upper Nile",
    "start": 1500,
    "end": 2026,
-   "focus_bbox": [
-    30.9,
-    5.567,
-    32.2,
-    6.867
-   ],
-   "zoom": 7,
-   "basis": "extent",
+   "zoom": 6,
+   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
    "flag_anchor": [
     31.55,
     6.217
@@ -1390,19 +991,10 @@
    "stream": "South Sudan – Upper Nile",
    "start": 1500,
    "end": 2026,
-   "focus_bbox": [
-    22.275,
-    2.15,
-    37.225,
-    13.85
-   ],
-   "zoom": 4,
-   "basis": "fallback",
-   "flag_anchor": [
-    29.75,
-    8.0
-   ],
-   "flag_anchor_basis": "fallback-bbox-centre",
+   "zoom": null,
+   "flag_anchor": null,
+   "flag_anchor_basis": null,
+   "null_reason": "focus_view is null in data/eras (no cited extent features or city coordinates)",
    "cities_with_role": []
   },
   "anuak-anywaa-communities": {
@@ -1410,19 +1002,10 @@
    "stream": "South Sudan – Upper Nile",
    "start": 1500,
    "end": 2026,
-   "focus_bbox": [
-    22.275,
-    2.15,
-    37.225,
-    13.85
-   ],
-   "zoom": 4,
-   "basis": "fallback",
-   "flag_anchor": [
-    29.75,
-    8.0
-   ],
-   "flag_anchor_basis": "fallback-bbox-centre",
+   "zoom": null,
+   "flag_anchor": null,
+   "flag_anchor_basis": null,
+   "null_reason": "focus_view is null in data/eras (no cited extent features or city coordinates)",
    "cities_with_role": []
   }
  }

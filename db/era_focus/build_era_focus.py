@@ -12,13 +12,6 @@ R = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 def slug(s):
     s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode().lower()
     return re.sub(r'[^a-z0-9]+', '-', s).strip('-')
-# Coarse stream frames, used ONLY as a last-resort camera fallback (not an extent, not historical).
-STREAM_BBOX = {
- 'Sudan – Middle Nile': [29.0, 12.0, 36.0, 22.5], 'Sudan – Republic': [21.8, 8.6, 38.6, 22.2],
- 'Sudan – Darfur & Kordofan': [21.8, 9.5, 32.5, 16.5], 'South Sudan – Upper Nile': [24.0, 3.5, 35.5, 12.5],
- 'Egypt': [24.7, 22.0, 35.0, 31.7], 'Ethiopia & Eritrea (Horn)': [33.0, 3.4, 43.5, 18.0],
- 'Chad & Central Sahara': [13.5, 7.5, 24.0, 23.5], 'Central Africa (CAR/Congo border)': [14.4, 2.2, 27.5, 11.0],
- 'Red Sea & Arabia': [32.0, 12.0, 45.0, 28.0]}
 periods = json.load(open(f'{R}/data/periods.json'))['periods']
 cities = json.load(open(f'{R}/db/city_layers/cities.geojson'))['features']
 def bbox_of(geoms):
@@ -36,13 +29,14 @@ for p in periods:
     eg = [shape(f['geometry']) for f in ex.get('features', []) if f.get('geometry')]
     role_c = [c for c in cities if any(r.get('era_id') == sl for r in c['properties'].get('roles', []))]
     cg = [shape(c['geometry']) for c in role_c]
-    if eg:
-        basis, b = 'extent', bbox_of(eg + cg)
-    elif cg:
-        basis, b = 'cities', bbox_of(cg)
-    else:
-        basis, b = 'fallback', STREAM_BBOX[p['stream']]
-    fb = pad(b)
+    fv = (json.load(open(f'{R}/data/eras/{sl}.json')).get('focus_view') if os.path.exists(f'{R}/data/eras/{sl}.json') else None)
+    if not fv or not fv.get('bbox'):
+        out[sl] = {'name': p['name'], 'stream': p['stream'], 'start': p['start'], 'end': p['end'], 'zoom': None,
+                   'flag_anchor': None, 'flag_anchor_basis': None,
+                   'null_reason': 'focus_view is null in data/eras (no cited extent features or city coordinates)',
+                   'cities_with_role': sorted(c['properties']['id'] for c in role_c)}
+        audit.append((sl, p, role_c)); continue
+    fb = fv['bbox']
     polys = [g for g in eg if g.geom_type in ('Polygon', 'MultiPolygon')]
     if polys:
         u = unary_union(polys)
@@ -55,18 +49,16 @@ for p in periods:
         pts = [g for g in eg if g.geom_type == 'Point']
         if caps or role_c:
             c = (caps or role_c)[0]; anchor, ab = [round(x, 3) for x in c['geometry']['coordinates']], 'main-city:' + c['properties']['id']
-        elif pts:
-            anchor, ab = [round(pts[0].x, 3), round(pts[0].y, 3)], 'extent-point'
         else:
-            anchor, ab = [round((fb[0]+fb[2])/2, 3), round((fb[1]+fb[3])/2, 3)], 'fallback-bbox-centre'
+            anchor, ab = [round(pts[0].x, 3), round(pts[0].y, 3)], 'extent-point'
     out[sl] = {'name': p['name'], 'stream': p['stream'], 'start': p['start'], 'end': p['end'],
-               'focus_bbox': fb, 'zoom': zoom(fb), 'basis': basis,
+               'zoom': zoom(fb), 'zoom_basis': 'derived from data/eras/<era>.json focus_view.bbox',
                'flag_anchor': anchor, 'flag_anchor_basis': ab, 'cities_with_role': sorted(c['properties']['id'] for c in role_c)}
     audit.append((sl, p, role_c))
 meta = {'owner': 'Sudan Map Designer', 'script': 'db/era_focus/build_era_focus.py',
- 'focus_bbox': '[west,south,east,north] WGS84, 15% padding, min span 1 deg; zoom = floor(log2(360/span)) clamped 3-8',
- 'basis': 'extent = extent features (+ cities with a cited role in the era); cities = only role cities; fallback = coarse stream frame (camera only, NOT a historical extent)',
- 'flag_anchor': '[lon,lat] label point for the Historian\'s flags: polygon-pole = pole of inaccessibility of largest extent polygon (inside it); main-city:<id> = capital/role city; extent-point = first extent point; fallback-bbox-centre = camera centre only'}
+ 'note': 'Canonical zoom box is data/eras/<era>.json focus_view (Historian). This file has no bbox; zoom is derived from focus_view.bbox, null when focus_view is null.',
+ 'zoom': 'floor(log2(360/max(width, height*1.3))) clamped 3-8',
+ 'flag_anchor': "[lon,lat] for the Historian's flags: polygon-pole = pole of inaccessibility of largest extent polygon (inside it); main-city:<id> = capital/role city; extent-point = first extent point; null with null_reason when focus_view is null"}
 json.dump({'meta': meta, 'eras': out}, open(f'{R}/db/era_focus.json', 'w'), ensure_ascii=False, indent=1)
 # Audit
 WATCH = ['meroe','napata','kerma','old dongola','soba','sennar','suakin','el fasher','omdurman','khartoum','el obeid','kassala','juba','wau','malakal','port sudan','berber','shendi','faras','qasr ibrim','aksum','gondar','abeche','wad medani','bor','fashoda','rumbek','gondokoro']
@@ -105,4 +97,4 @@ L += ['', '## Notes for the Historian', '',
  '- All modern Republic-of-Sudan eras (1956-2026) and the Republic of South Sudan have zero role cities; Khartoum/Juba roles for them would need cites.']
 open(f'{R}/db/city_layers/AUDIT.md', 'w').write('\n'.join(L) + '\n')
 from collections import Counter
-print(Counter(v['basis'] for v in out.values()), Counter(v['flag_anchor_basis'].split(':')[0] for v in out.values()))
+print(Counter((v['flag_anchor_basis'] or 'null').split(':')[0] for v in out.values()))
