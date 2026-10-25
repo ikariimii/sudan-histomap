@@ -43,25 +43,52 @@
     "zone": "core",
     "confidence": 0.5,
     "badges": [
-     "APPROXIMATE",
-     "VERIFY"
+     "APPROXIMATE"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Darfur roughly in its Condominium-era provincial outline; west edge with Wadai contested until 1919-23 boundary work (verify).",
+    "basis": "'nominally tributary to, but effectively independent of, the Anglo-Egyptian Sudan' (GHA VII p.283). West edge: Dar Masalit is 'bounded to the west by Wadai… to the east by the Fur', and Dar Tama 'has always been a bone of contention between the Sultans of Wadai and Darfur' (MacMichael I pp.85–86). So the core stops east of Dar Masalit/Tama, which should be drawn as a contested zone (geometry not yet drawn). VERIFY removed.",
     "sources": [
      {
+      "id": "MACMICHAEL1922_V1",
+      "citation": "H.A. MacMichael, A History of the Arabs in the Sudan and some account of the people who preceded them and of the tribes inhabiting Darfur, Vol. I (1922)",
+      "url": "https://archive.org/details/historyofarabsin01macmuoft"
+     },
+     {
+      "id": "GHA7_CH12",
+      "citation": "M. Crowder, The First World War and its consequences (General History of Africa VII, ch.12) (1985)",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184296"
+     },
+     {
       "id": "HD2011",
-      "citation": "P.M. Holt & M.W. Daly (2011) A History of the Sudan, 6th ed.",
+      "citation": "P.M. Holt & M.W. Daly, A History of the Sudan: From the Coming of Islam to the Present Day (2011)",
       "url": "https://doi.org/10.4324/9781315834030"
      },
      {
       "id": "OFS1974",
-      "citation": "R.S. O'Fahey & J.L. Spaulding (1974) Kingdoms of the Sudan, Methuen (Routledge reissue 2016)",
-      "url": "https://doi.org/10.4324/9781315451138"
+      "citation": "R.S. O'Fahey & J.L. Spaulding, Kingdoms of the Sudan (1974)",
+      "url": "https://openlibrary.org/works/OL4466628W"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "core",
+     "confidence": 0.5,
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "sources": [
+      "MACMICHAEL1922_V1",
+      "GHA7_CH12",
+      "HD2011",
+      "OFS1974"
+     ],
+     "basis_en": "'nominally tributary to, but effectively independent of, the Anglo-Egyptian Sudan' (GHA VII p.283). West edge: Dar Masalit is 'bounded to the west by Wadai… to the east by the Fur', and Dar Tama 'has always been a bone of contention between the Sultans of Wadai and Darfur' (MacMichael I pp.85–86). So the core stops east of Dar Masalit/Tama, which should be drawn as a contested zone (geometry not yet drawn). VERIFY removed.",
+     "pages": "MacMichael 1922 I pp.85–86; GHA VII ch.12 p.283"
+    }
    }
   }
  ]

@@ -81,23 +81,44 @@
    "properties": {
     "era_id": "tunjur-kingdom",
     "zone": "core",
-    "confidence": 0.3,
+    "confidence": 0.35,
     "badges": [
      "APPROXIMATE",
-     "EDITORIAL",
-     "SINGLE-SOURCE"
+     "EDITORIAL"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Northern Jebel Marra / Ain Farah area; radius editorial.",
+    "basis": "Tundjur in the north after the Dadju (GHA IV p.420); Tundjur and ʿAyn Farah (p.421). Radius editorial. Second source added: confidence 0.3→0.35, SINGLE-SOURCE removed.",
     "sources": [
      {
+      "id": "GHA4_CH16",
+      "citation": "L. Kropáček, Nubia from the late 12th century to the Funj conquest in the early 16th century, ch.16 (General History of Africa IV) (1984)",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184287"
+     },
+     {
       "id": "OFAHEY2008",
-      "citation": "R.S. O'Fahey (2008) The Darfur Sultanate: A History",
+      "citation": "R.S. O'Fahey, The Darfur Sultanate: A History (2008)",
       "url": "https://books.google.com/books?id=HQxYJWkO7EEC"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "core",
+     "confidence": 0.35,
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "sources": [
+      "GHA4_CH16",
+      "OFAHEY2008"
+     ],
+     "basis_en": "Tundjur in the north after the Dadju (GHA IV p.420); Tundjur and ʿAyn Farah (p.421). Radius editorial. Second source added: confidence 0.3→0.35, SINGLE-SOURCE removed.",
+     "pages": "GHA IV ch.16 pp.420–421"
+    }
    }
   }
  ]

@@ -87,16 +87,38 @@
      "EDITORIAL"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Jebel Taqali, NE Nuba Mountains.",
+    "basis": "'the newly established Islamized kingdom of Takali was reduced to subordinate status' (GHA V ch.7 p.177), Jebel Taqali, NE Nuba Mountains.",
     "sources": [
      {
+      "id": "GHA5_CH7",
+      "citation": "Y.F. Hasan and B.A. Ogot, The Sudan, 1500–1800, ch.7 (General History of Africa V) (1992)",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
+     },
+     {
       "id": "HD2011",
-      "citation": "P.M. Holt & M.W. Daly (2011) A History of the Sudan, 6th ed.",
+      "citation": "P.M. Holt & M.W. Daly, A History of the Sudan: From the Coming of Islam to the Present Day (2011)",
       "url": "https://doi.org/10.4324/9781315834030"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "core",
+     "confidence": 0.4,
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "sources": [
+      "GHA5_CH7",
+      "HD2011"
+     ],
+     "basis_en": "'the newly established Islamized kingdom of Takali was reduced to subordinate status' (GHA V ch.7 p.177), Jebel Taqali, NE Nuba Mountains.",
+     "pages": "GHA V ch.7 p.177"
+    }
    }
   }
  ]

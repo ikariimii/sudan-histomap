@@ -145,23 +145,44 @@
    "properties": {
     "era_id": "musabba-at-sultanate-kordofan",
     "zone": "influence",
-    "confidence": 0.25,
+    "confidence": 0.3,
     "badges": [
      "APPROXIMATE",
-     "EDITORIAL",
-     "SINGLE-SOURCE"
+     "EDITORIAL"
     ],
     "method": "anchor points + Nile/area buffer (degrees), hand-placed; see README",
-    "basis": "Kordofan; source OFS1972 BSOAS doi:10.1017/s0041977x00109383 (from extents file).",
+    "basis": "Kordofan contested between Funj and Fur, where 'the Musabbaʿat, cousins of the Fur sultans, were also at loggerheads with the rival states' (GHA V p.187); they migrated to Kordofan (p.188); Tayrab moved against 'the Musabbaʿat's attempt to establish a strong state in Kordofan' (p.189). Second source added: confidence 0.25→0.3, SINGLE-SOURCE removed.",
     "sources": [
      {
+      "id": "GHA5_CH7",
+      "citation": "Y.F. Hasan and B.A. Ogot, The Sudan, 1500–1800, ch.7 (General History of Africa V) (1992)",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
+     },
+     {
       "id": "OFS1972",
-      "citation": "R.S. O'Fahey & J. Spaulding (1972) Hāshim and the Musabba'āt, BSOAS",
+      "citation": "R.S. O'Fahey & J.L. Spaulding, Hāshim and the Musabba'āt (1972)",
       "url": "https://doi.org/10.1017/s0041977x00109383"
      }
     ],
     "status": "DRAFT – not live, needs Historian sign-off",
-    "version": "bd-0.1 2026-10-24"
+    "version": "bd-0.1 2026-10-24",
+    "signoff": {
+     "status": "approved",
+     "by": "Sudan Historian",
+     "date": "2026-10-24",
+     "zone": "influence",
+     "confidence": 0.3,
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "sources": [
+      "GHA5_CH7",
+      "OFS1972"
+     ],
+     "basis_en": "Kordofan contested between Funj and Fur, where 'the Musabbaʿat, cousins of the Fur sultans, were also at loggerheads with the rival states' (GHA V p.187); they migrated to Kordofan (p.188); Tayrab moved against 'the Musabbaʿat's attempt to establish a strong state in Kordofan' (p.189). Second source added: confidence 0.25→0.3, SINGLE-SOURCE removed.",
+     "pages": "GHA V ch.7 pp.187–189"
+    }
    }
   }
  ]
