@@ -89,3 +89,4 @@ body.sfull #lgb,body.sfull #lgp,body.sfull #reset{visibility:hidden}
 .cty.minor path{transform:scale(.72);opacity:.8}.cty.minor text{font-size:9.5px;fill:#c3ccd3}
 .flag rect.fbd{fill:none;stroke:#fff;stroke-width:1}.flag rect.fbd.vfy{stroke:#e0a63e;stroke-dasharray:3 2}.flag line.fpole{stroke:#fff;stroke-width:1}.flag text.fvchip{font-size:7px;font-weight:700;fill:#e0a63e;paint-order:stroke;stroke:#101418;stroke-width:2px}.flag{pointer-events:none}
 .flagc .flagrow{display:flex;flex-wrap:wrap;gap:.6em;margin:.3em 0}.flagf{margin:0;font-size:.78em;color:#9fb3c2;max-width:15em}.flagf img{display:block;width:44px;height:29px;object-fit:cover;border:1px solid #fff}.flagf.vfy img{border:1px dashed #e0a63e}.vchip{display:inline-block;font-size:.85em;font-weight:700;padding:0 .4em;border-radius:.5em;background:#e0a63e;color:#1b1300;margin-inline-start:.3em}
+.relief image{opacity:.9}.land{fill-opacity:.38}.land.sdn,.land.ssd,.land.ssd-old{fill-opacity:.5}
