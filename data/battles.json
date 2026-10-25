@@ -994,6 +994,340 @@
           "page": "420, 424"
         }
       ]
+    },
+    {
+      "id": "el-teb-1884",
+      "war_id": "mahdist-war",
+      "name_en": "Battle of El Teb",
+      "name_ar": "معركة التيب [يحتاج تحقق]",
+      "date": "1884-02-29",
+      "precision": "region",
+      "region": "Near Tokar, Red Sea littoral, just north of the later fort (Gleichen V1 p.15)",
+      "sides": [
+        "British expedition from Suakin",
+        "Mahdist forces (eastern Sudan)"
+      ],
+      "commanders": {
+        "British expedition": [
+          "Sir Gerald Graham"
+        ]
+      },
+      "outcome_en": "Fought 29 February 1884 during the British expedition to relieve Tokar (Wingate p.117).",
+      "era_ids": [
+        "turkiyya-ottoman-egyptian-rule",
+        "british-occupied-kingdom-of-egypt"
+      ],
+      "cite": {
+        "source_id": "WINGATE1891",
+        "pages": "117"
+      },
+      "evidence_type": "primary account",
+      "significance_en": "A 4,000-strong British expedition under Graham landed at Suakin to relieve Tokar and fought at El Teb on 29 February 1884 (Wingate p.117). Gleichen places the battlefield just north of the Tokar fort (V1 p.15).",
+      "decisive": false,
+      "cites": [
+        {
+          "source_id": "WINGATE1891",
+          "pages": "117"
+        },
+        {
+          "source_id": "GLEICHEN1905_V1",
+          "pages": "15"
+        }
+      ],
+      "label": "El Teb 1884",
+      "decisive_note": "No cited page calls it decisive.",
+      "image": {},
+      "start": 1884,
+      "end": 1884,
+      "sources": [
+        {
+          "id": "WINGATE1891",
+          "page": "117"
+        },
+        {
+          "id": "GLEICHEN1905_V1",
+          "page": "15"
+        }
+      ]
+    },
+    {
+      "id": "tamai-1884",
+      "war_id": "mahdist-war",
+      "name_en": "Battle of Tamai",
+      "name_ar": "معركة طماي [يحتاج تحقق]",
+      "date": "1884-03-13",
+      "precision": "region",
+      "region": "Near Suakin, Red Sea hills",
+      "sides": [
+        "British expedition from Suakin",
+        "Mahdist forces (eastern Sudan)"
+      ],
+      "commanders": {
+        "British expedition": [
+          "Sir Gerald Graham"
+        ]
+      },
+      "outcome_en": "Graham's force drove the Mahdist forces into the hills (Wingate p.118).",
+      "era_ids": [
+        "turkiyya-ottoman-egyptian-rule",
+        "british-occupied-kingdom-of-egypt"
+      ],
+      "cite": {
+        "source_id": "WINGATE1891",
+        "pages": "117–118"
+      },
+      "evidence_type": "primary account",
+      "significance_en": "On 13 March 1884 Graham met a larger Mahdist force at Tamai after a hard fight (Wingate pp.117–118). An attempt to open the Suakin–Berber road to Gordon was then considered (Wingate p.118).",
+      "decisive": false,
+      "page_note": "Wingate p.118 OCR page label unverified; RIVERWAR1899_V1 index i.78.",
+      "cites": [
+        {
+          "source_id": "WINGATE1891",
+          "pages": "117–118"
+        },
+        {
+          "source_id": "RIVERWAR1899_V1",
+          "pages": "78"
+        }
+      ],
+      "label": "Tamai 1884",
+      "decisive_note": "No cited page calls it decisive.",
+      "image": {},
+      "start": 1884,
+      "end": 1884,
+      "sources": [
+        {
+          "id": "WINGATE1891",
+          "page": "117–118"
+        },
+        {
+          "id": "RIVERWAR1899_V1",
+          "page": "78"
+        }
+      ]
+    },
+    {
+      "id": "abu-klea-1885",
+      "war_id": "mahdist-war",
+      "name_en": "Battle of Abu Klea",
+      "name_ar": "معركة أبو طليح [يحتاج تحقق]",
+      "date": "1885-01-17",
+      "precision": "region",
+      "region": "Bayuda desert, on the Korti–Metemma route",
+      "sides": [
+        "British Desert Column",
+        "Mahdist forces"
+      ],
+      "commanders": {
+        "Mahdist forces": [
+          "Musa Wad Helu"
+        ]
+      },
+      "outcome_en": "The British advanced guard defeated the combined Mahdist force (Slatin p.204).",
+      "era_ids": [
+        "turkiyya-ottoman-egyptian-rule",
+        "mahdist-state-mahdiyya"
+      ],
+      "cite": {
+        "source_id": "WINGATE1891",
+        "pages": "172"
+      },
+      "evidence_type": "primary account",
+      "significance_en": "Wingate calls the battle of 17 January 1885 'unlooked-for but decisive' (p.172). Slatin records that the force under Musa Wad Helu was defeated at Abu Teleh (Abu Klea) (p.204).",
+      "decisive": true,
+      "decisive_note": "Wingate 1891 p.172: 'the unlooked-for but decisive battle of Abu Klea'.",
+      "cites": [
+        {
+          "source_id": "WINGATE1891",
+          "pages": "172"
+        },
+        {
+          "source_id": "SLATIN1898",
+          "pages": "204"
+        }
+      ],
+      "label": "Abu Klea 1885",
+      "image": {},
+      "start": 1885,
+      "end": 1885,
+      "sources": [
+        {
+          "id": "WINGATE1891",
+          "page": "172"
+        },
+        {
+          "id": "SLATIN1898",
+          "page": "204"
+        }
+      ]
+    },
+    {
+      "id": "ginnis-1885",
+      "war_id": "mahdist-war",
+      "name_en": "Battle of Ginnis",
+      "name_ar": "معركة جنس [يحتاج تحقق]",
+      "date": "1885-12-30",
+      "precision": "region",
+      "region": "Ginnis and Kosheh, east bank of the Nile, Dongola frontier",
+      "sides": [
+        "Anglo-Egyptian frontier force",
+        "Mahdist forces"
+      ],
+      "commanders": {
+        "Anglo-Egyptian frontier force": [
+          "Sir Frederick Stephenson"
+        ]
+      },
+      "outcome_en": "Mahdist advance sustained a severe repulse (River War I p.157).",
+      "era_ids": [
+        "mahdist-state-mahdiyya",
+        "british-occupied-kingdom-of-egypt"
+      ],
+      "cite": {
+        "source_id": "RIVERWAR1899_V1",
+        "pages": "157"
+      },
+      "evidence_type": "primary account",
+      "significance_en": "On the last day but one of 1885 the Mahdists pressing north met a severe repulse at Ginnis under Stephenson (River War I p.157). It was the first action of the reformed Egyptian troops (River War I p.155).",
+      "decisive": false,
+      "cites": [
+        {
+          "source_id": "RIVERWAR1899_V1",
+          "pages": "157"
+        },
+        {
+          "source_id": "WINGATE1891",
+          "pages": "227, 272–274"
+        },
+        {
+          "source_id": "RIVERWAR1899_V1",
+          "pages": "155"
+        }
+      ],
+      "label": "Ginnis 1885",
+      "decisive_note": "No cited page calls it decisive.",
+      "image": {},
+      "start": 1885,
+      "end": 1885,
+      "sources": [
+        {
+          "id": "RIVERWAR1899_V1",
+          "page": "157"
+        },
+        {
+          "id": "WINGATE1891",
+          "page": "227, 272–274"
+        },
+        {
+          "id": "RIVERWAR1899_V1",
+          "page": "155"
+        }
+      ]
+    },
+    {
+      "id": "kassala-1894",
+      "war_id": "mahdist-war",
+      "name_en": "Italian capture of Kassala",
+      "name_ar": "الاستيلاء الإيطالي على كسلا [يحتاج تحقق]",
+      "date": "1894",
+      "precision": "approximate",
+      "place_id": "kassala",
+      "sides": [
+        "Italian colonial forces",
+        "Mahdist garrison of Kassala"
+      ],
+      "commanders": {
+        "Italian colonial forces": [
+          "General Baratieri"
+        ]
+      },
+      "outcome_en": "Italians advanced from Agordat and captured Kassala; occupation provisionally recognised by Egypt (River War I p.356).",
+      "era_ids": [
+        "mahdist-state-mahdiyya",
+        "eritrea-italian-colony-independent"
+      ],
+      "cite": {
+        "source_id": "RIVERWAR1899_V1",
+        "pages": "355–356"
+      },
+      "evidence_type": "primary account",
+      "significance_en": "After a Mahdist attack on Agordat in 1893, the Italians under Baratieri advanced the next year and captured Kassala (River War I pp.355–356). Egypt recognised the occupation provisionally, without prejudice to her rights (p.356).",
+      "decisive": false,
+      "date_note": "Year derived from 'in 1893 … in the next year' (River War I pp.355–356).",
+      "cites": [
+        {
+          "source_id": "RIVERWAR1899_V1",
+          "pages": "355–356"
+        }
+      ],
+      "lat": 15.45,
+      "lon": 36.4,
+      "label": "Italian capture of Kassala 1894",
+      "decisive_note": "No cited page calls it decisive.",
+      "image": {},
+      "start": 1894,
+      "end": 1894,
+      "sources": [
+        {
+          "id": "RIVERWAR1899_V1",
+          "page": "355–356"
+        }
+      ]
+    },
+    {
+      "id": "ferkeh-1896",
+      "war_id": "anglo-egyptian-reconquest",
+      "name_en": "Battle of Firket (Ferkeh)",
+      "name_ar": "معركة فركة [يحتاج تحقق]",
+      "date": "1896-06-07",
+      "precision": "region",
+      "region": "Firket, Nile above Akasha, Dongola province",
+      "sides": [
+        "Egyptian army (Sirdar)",
+        "Mahdist force at Firket"
+      ],
+      "commanders": {
+        "Mahdist force": [
+          "Emir Hammuda"
+        ]
+      },
+      "outcome_en": "Capture of Firket village and pursuit (River War I p.220, chapter summary).",
+      "era_ids": [
+        "mahdist-state-mahdiyya",
+        "british-occupied-kingdom-of-egypt"
+      ],
+      "cite": {
+        "source_id": "RIVERWAR1899_V1",
+        "pages": "220"
+      },
+      "evidence_type": "primary account",
+      "significance_en": "The action of 7 June 1896 opened the Dongola expedition authorised in March 1896 (River War I pp.181, 220). The Mahdist force under Emir Hammuda had held Firket since late 1895 (p.220).",
+      "decisive": false,
+      "cites": [
+        {
+          "source_id": "RIVERWAR1899_V1",
+          "pages": "220"
+        },
+        {
+          "source_id": "RIVERWAR1899_V1",
+          "pages": "181, 218"
+        }
+      ],
+      "label": "Firket (Ferkeh) 1896",
+      "decisive_note": "No cited page calls it decisive.",
+      "image": {},
+      "start": 1896,
+      "end": 1896,
+      "sources": [
+        {
+          "id": "RIVERWAR1899_V1",
+          "page": "220"
+        },
+        {
+          "id": "RIVERWAR1899_V1",
+          "page": "181, 218"
+        }
+      ]
     }
   ]
 }

@@ -3310,6 +3310,84 @@
       "action": "verify",
       "origin_commit": "pass2",
       "added": "2026-10-25"
+    },
+    {
+      "era_id": "turkiyya-ottoman-egyptian-rule",
+      "file": "data/battles.json",
+      "field_ar": "name_ar",
+      "arabic_sentence": "معركة التيب [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "name_en",
+      "revised_english": "Battle of El Teb",
+      "reason": "New Arabic name written by Historian, pass 2; needs native review",
+      "action": "verify",
+      "origin_commit": "pass2",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "turkiyya-ottoman-egyptian-rule",
+      "file": "data/battles.json",
+      "field_ar": "name_ar",
+      "arabic_sentence": "معركة طماي [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "name_en",
+      "revised_english": "Battle of Tamai",
+      "reason": "New Arabic name written by Historian, pass 2; needs native review",
+      "action": "verify",
+      "origin_commit": "pass2",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "turkiyya-ottoman-egyptian-rule",
+      "file": "data/battles.json",
+      "field_ar": "name_ar",
+      "arabic_sentence": "معركة أبو طليح [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "name_en",
+      "revised_english": "Battle of Abu Klea",
+      "reason": "New Arabic name written by Historian, pass 2; needs native review",
+      "action": "verify",
+      "origin_commit": "pass2",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "mahdist-state-mahdiyya",
+      "file": "data/battles.json",
+      "field_ar": "name_ar",
+      "arabic_sentence": "معركة جنس [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "name_en",
+      "revised_english": "Battle of Ginnis",
+      "reason": "New Arabic name written by Historian, pass 2; needs native review",
+      "action": "verify",
+      "origin_commit": "pass2",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "mahdist-state-mahdiyya",
+      "file": "data/battles.json",
+      "field_ar": "name_ar",
+      "arabic_sentence": "الاستيلاء الإيطالي على كسلا [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "name_en",
+      "revised_english": "Italian capture of Kassala",
+      "reason": "New Arabic name written by Historian, pass 2; needs native review",
+      "action": "verify",
+      "origin_commit": "pass2",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "mahdist-state-mahdiyya",
+      "file": "data/battles.json",
+      "field_ar": "name_ar",
+      "arabic_sentence": "معركة فركة [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "name_en",
+      "revised_english": "Battle of Firket (Ferkeh)",
+      "reason": "New Arabic name written by Historian, pass 2; needs native review",
+      "action": "verify",
+      "origin_commit": "pass2",
+      "added": "2026-10-25"
     }
   ]
 }
