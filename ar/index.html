@@ -8,8 +8,8 @@
 <script>(function(){var q=location.search;if(/[?&](lens|diff|poster|social|card|splitcard|panel|select|draft)=/.test(q)){location.replace('/histomap.html'+q);return}var u=new URLSearchParams(q),a=/^\/ar\//.test(location.pathname);if(!a&&u.get('lang')==='ar'){u.delete('lang');var s=u.toString();location.replace('/ar/'+(s?'?'+s:'')+location.hash);return}document.documentElement.lang=a?'ar':'en';document.documentElement.dir=a?'rtl':'ltr'})()</script>
 <link rel="stylesheet" href="/map.css"></head><body>
 <a class="skip" id="skip" href="#sheet">Skip to story</a>
-<div id="map" role="region" aria-label="Map"><svg id="svg" role="group" aria-label="Map"><title id="svgt">Map</title></svg></div>
 <header id="top"><b class="brand" id="brand"></b><span class="sp"></span><a id="about" class="chip"></a><a id="lang" class="chip" hreflang=""></a></header>
+<div id="map" role="region" aria-label="Map"><svg id="svg" role="group" aria-label="Map"><title id="svgt">Map</title></svg></div>
 <nav id="layers" aria-label="Map layers"></nav>
 <div id="nob" aria-live="polite"></div>
 <button id="reset" class="chip" hidden>⟲</button>

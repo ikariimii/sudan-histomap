@@ -15,7 +15,7 @@ a{color:#8cc8f0}button{font:inherit;color:inherit}
 .lb tspan.rep{font-size:9.5px;font-weight:700}.ld{stroke:#cfd8de;stroke-width:.8;stroke-opacity:.8}
 .grp circle{fill:#7fc4a2;fill-opacity:.35;stroke:#7fc4a2}.rel path{fill:none;stroke:#f08c6c;stroke-width:2}
 .pop circle{fill:#8cc8f0;fill-opacity:.3;stroke:#8cc8f0}
-#top{position:fixed;top:0;left:0;right:0;display:flex;align-items:center;gap:6px;padding:calc(8px + env(safe-area-inset-top)) 10px 4px;pointer-events:none}
+#top{position:fixed;z-index:5;top:0;left:0;right:0;display:flex;align-items:center;gap:6px;padding:calc(8px + env(safe-area-inset-top)) 10px 4px;pointer-events:none}
 #top>*{pointer-events:auto}.brand{font-size:15px;text-shadow:0 1px 3px #000}.sp{flex:1}
 .chip{display:inline-flex;align-items:center;min-height:32px;background:#0f1b24d9;border:1px solid #4a6273;border-radius:16px;padding:3px 11px;font-size:13px;color:var(--ink);text-decoration:none;cursor:pointer;white-space:nowrap}
 .chip[aria-pressed=true]{background:var(--acc);border-color:var(--acc);color:#111}
@@ -88,7 +88,7 @@ body.sfull #lgb,body.sfull #lgp,body.sfull #reset{visibility:hidden}
 .cty path{fill:#e8eef2;stroke:#0b141b}.cty.key text{font-weight:700;font-size:12px}.cty.key path{stroke-width:1.6}
 .cty.minor path{transform:scale(.72);opacity:.8}.cty.minor text{font-size:9.5px;fill:#dde3e8}
 .flag rect.fbd{fill:none;stroke:#fff;stroke-width:1}.flag rect.fbd.vfy{stroke:#e0a63e;stroke-dasharray:3 2}.flag line.fpole{stroke:#fff;stroke-width:1}.flag text.fvchip{font-size:7px;font-weight:700;fill:#e0a63e;paint-order:stroke;stroke:#101418;stroke-width:2px}.flag{pointer-events:none}
-.flagc .flagrow{display:flex;flex-wrap:wrap;gap:.6em;margin:.3em 0}.flagf{margin:0;font-size:.78em;color:#9fb3c2;max-width:15em}.flagf img{display:block;width:44px;height:29px;object-fit:cover;border:1px solid #fff}.flagf.vfy img{border:1px dashed #e0a63e}.vchip{display:inline-block;font-size:.85em;font-weight:700;padding:0 .4em;border-radius:.5em;background:#e0a63e;color:#1b1300;margin-inline-start:.3em}
+.flagc .flagrow{display:flex;flex-wrap:wrap;gap:.6em;margin:.3em 0}.flagf{margin:0;font-size:.78em;color:#9fb3c2;max-width:15em}.flagf img{display:block;width:44px;height:29px;object-fit:cover;border:1px solid #fff}.flagf.vfy img{border:1px dashed #e0a63e}.vchip{display:inline-block;font-size:max(12px,.85em);font-weight:700;padding:0 .4em;border-radius:.5em;background:#e0a63e;color:#1b1300;margin-inline-start:.3em}
 .relief image{opacity:.9}.land{fill-opacity:.38}.land.sdn,.land.ssd,.land.ssd-old{fill-opacity:.5}
 .artc{margin:.6em 0}.artc img{display:block;width:100%;height:auto;max-height:240px;object-fit:contain;background:#0001;border-radius:4px}.artc figcaption{font-size:.82em;line-height:1.35;margin-top:.3em;opacity:.9}.artc small{opacity:.8}.artc.none{font-size:.8em;opacity:.6;font-style:italic}
 
@@ -97,6 +97,7 @@ body.sfull #lgb,body.sfull #lgp,body.sfull #reset{visibility:hidden}
 :focus-visible{outline:3px solid #ffd54a;outline-offset:2px}
 #svg [tabindex]:focus{outline:none}#svg [tabindex]:focus-visible{outline:2px solid #ffd54a;outline-offset:3px}
 #svg path[tabindex]:focus-visible{stroke:#ffd54a;stroke-width:3px}
+#svg path.ln[tabindex]:focus-visible{stroke:#fff;stroke-width:5px;stroke-dasharray:none;filter:drop-shadow(0 0 1.5px #000) drop-shadow(0 0 1.5px #000)}
 #r:focus-visible{outline-offset:4px}
 #card h2{font-size:14px;margin:10px 0 4px}
 #nob,#feat{scroll-margin:8px}
@@ -147,3 +148,4 @@ body.embed #about,body.embed #lang,body.embed #srchb{display:none}#embo{font-siz
 .evt .evgo:focus-visible{outline:2px solid #ffd166;outline-offset:2px}.evt .evp{color:#ffd166}.evt .evn{margin:4px 0}.evt .evy{font-weight:600;margin-inline-end:.35em}
 .btim{margin:6px 0}.btim img{display:block;max-width:100%;height:auto;border-radius:6px}.btim figcaption{font-size:12px;color:var(--mute)}
 .ebd{display:inline-flex;align-items:center;min-height:24px;padding:0 8px;border-radius:999px;background:#14232f;border:1px solid #e0a63e;color:#e0a63e;font:600 11px/1 system-ui,sans-serif;cursor:pointer;vertical-align:middle}.ebd:focus-visible{outline:2px solid #ffd166;outline-offset:2px}.wye{opacity:.6}.ebn{border-inline-start:2px solid #e0a63e;padding-inline-start:6px}
+:lang(ar) .repb,[dir=rtl] .repb{font-size:12px}.flag text.fvchip:lang(ar){font-size:12px}
