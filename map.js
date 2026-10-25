@@ -137,16 +137,23 @@ function evdStyle(){zdefs();const ev=on.has('evd');document.body.classList.toggl
 // --- Then and now (?layers=now): range splits the screen; historical areas on one side, today's borders (the existing
 // Natural Earth admin-0 basemap, BASE) on the other. No new geometry. Native range = keyboard; no animation (reduced-motion safe).
 const gNow=root.append('g').attr('class','nowb').attr('pointer-events','none');let CMP=50;
-function cmpClip(){const d=svg.select('defs');if(!on.has('now')){gX.attr('clip-path',null);gZ.attr('clip-path',null);gNow.attr('clip-path',null);return}
+function cmpDiv(s){let g=svg.select('g.cmpdv');if(s==null){g.remove();cmpPos();return}
+ if(g.empty()){g=svg.append('g').attr('class','cmpdv').attr('aria-hidden','true');g.append('line');const h=g.append('g').attr('class','cmph');h.append('circle').attr('class','hit').attr('r',22);h.append('circle').attr('class','knob').attr('r',14);h.append('path').attr('d','M-5,-5l-4,5l4,5M5,-5l4,5l-4,5');
+  const hn=h.node();let dr=false;const mv=ev=>{if(!dr)return;const p=Math.max(0,Math.min(100,Math.round(100*ev.clientX/W())));CMP=AR?100-p:p;const r=$('cmpr');if(r){r.value=CMP;r.oninput()}};
+  ['mousedown','touchstart','wheel'].forEach(t=>hn.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));hn.addEventListener('pointerdown',ev=>{ev.stopPropagation();ev.preventDefault();dr=true;try{hn.setPointerCapture(ev.pointerId)}catch(_){}});hn.addEventListener('pointermove',mv);['pointerup','pointercancel'].forEach(t=>hn.addEventListener(t,()=>{dr=false}));cmpPos()}
+ g.select('line').attr('x1',s).attr('x2',s).attr('y1',0).attr('y2',H());g.select('.cmph').attr('transform',`translate(${s},${Math.round(H()*.42)})`)}
+// keep the corner buttons clear of the open then/now bar (it lives inside #layers)
+function cmpPos(){const b=$('cmpbar'),o=b&&!b.hidden,lb=$('layers').getBoundingClientRect().bottom;const rs=$('reset'),wa=$('wai');if(rs)rs.style.top=o?(lb+8)+'px':'';if(wa)wa.style.top=o?(lb+56)+'px':'';nobPos()}
+function cmpClip(){const d=svg.select('defs');if(!on.has('now')){gX.attr('clip-path',null);gZ.attr('clip-path',null);gNow.attr('clip-path',null);cmpDiv(null);return}
  ['cThen','cNow'].forEach(id=>{if(d.select('#'+id).empty())d.append('clipPath').attr('id',id).attr('clipPathUnits','userSpaceOnUse').append('rect')});
  const s=AR?W()*(1-CMP/100):W()*CMP/100,x=(s-TR.x)/TR.k,BIG=1e5,L=[-BIG,x-(-BIG)],R=[x,BIG];const th=AR?R:L,nw=AR?L:R;
  d.select('#cThen rect').attr('x',th[0]).attr('width',th[1]).attr('y',-BIG).attr('height',2*BIG);d.select('#cNow rect').attr('x',nw[0]).attr('width',nw[1]).attr('y',-BIG).attr('height',2*BIG);
- gX.attr('clip-path','url(#cThen)');gZ.attr('clip-path','url(#cThen)');gNow.attr('clip-path','url(#cNow)')}
+ gX.attr('clip-path','url(#cThen)');gZ.attr('clip-path','url(#cThen)');gNow.attr('clip-path','url(#cNow)');cmpDiv(s)}
 function cmpDraw(){const ok=on.has('now')&&BASE;let b=$('cmpbar');gNow.selectAll('*').remove();
- if(!ok){if(b)b.hidden=true;cmpClip();return}
+ if(!ok){if(b)b.hidden=true;cmpClip();cmpPos();return}
  if(!b){b=document.createElement('div');b.id='cmpbar';b.innerHTML=`<span>${esc(T.cmp.then)}</span><input id="cmpr" type="range" min="0" max="100" step="1" aria-label="${esc(T.cmp.aria)}"><span>${esc(T.cmp.now)}</span><small>${esc(T.cmp.src)}${BASE.source?': <bdi dir="ltr">'+esc(typeof BASE.source==='string'?BASE.source:(BASE.source.name||BASE.source.citation||''))+'</bdi>':''}</small>`;$('layers').append(b);
-  const r=b.querySelector('input');r.value=CMP;r.oninput=()=>{CMP=+r.value;r.setAttribute('aria-valuetext',`${T.cmp.then} ${CMP}% · ${T.cmp.now} ${100-CMP}%`);cmpClip()}}
- b.hidden=false;gNow.selectAll('path').data(BASE.features).join('path').attr('d',path);cmpClip()}
+  const r=b.querySelector('input');r.value=CMP;r.oninput=()=>{CMP=+r.value;r.setAttribute('aria-valuetext',`${T.cmp.then} ${num(CMP)}% · ${T.cmp.now} ${num(100-CMP)}%`);cmpClip()};r.oninput()}
+ b.hidden=false;gNow.selectAll('path').data(BASE.features).join('path').attr('d',path);cmpClip();cmpPos()}
 // --- 1932 ethnographic label markers (?layers=eth): per-era /eth/<id>.json; dashed unfilled halo, never an area.
 const gEt=root.append('g').attr('class','eth'),ETH={};
 async function ethDraw(e){const has=(M.layers.eth||[]).includes(e.id),c=document.querySelector('#layers .chip[data-k=eth]');if(c)c.hidden=!has;gEt.selectAll('*').remove();if(!has||!on.has('eth'))return;
