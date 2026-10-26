@@ -4927,6 +4927,48 @@
       "origin_commit": "ICG 2014 attribution drop",
       "added": "2026-10-26",
       "note": "Arabic left unchanged by the Historian; reviewer to edit."
+    },
+    {
+      "era_id": "abdallab-chiefdom-funj-vassal",
+      "file": "data/periods.json",
+      "field_ar": "key_events_ar[3] (mirrored in data/periods.js)",
+      "arabic_sentence": "العاصمة قرّي ثم حلفاية الملوك؛ وحكم شيخ عبدلابي قوز رجب على نهر عطبرة",
+      "badge": "VERIFY",
+      "field_en": "key_events[3]",
+      "revised_english": "The 'Abdallabi administered the new regime from Kerri, north of Soba, on the main Nile",
+      "reason": "English rewritten to GHA V p.172 wording ('the 'Abdallābi, administered the new regime from Kerri, north of Sōba, on the main Nile'); the Halfayat al-Muluk capital and Quz Rajab clauses had no page cite and were dropped.",
+      "action": "Native reviewer: align the Arabic to the revised English (drop Halfayat al-Muluk and Quz Rajab clauses).",
+      "origin_commit": "needs_source clearance",
+      "added": "2026-10-26",
+      "note": "Arabic left unchanged by the Historian; reviewer to edit."
+    },
+    {
+      "era_id": "ja-aliyyin-kingdom-sa-dab-funj-vassal",
+      "file": "data/periods.json",
+      "field_ar": "key_events_ar[1] (mirrored in data/periods.js)",
+      "arabic_sentence": "العشيرة الملكية السعداب؛ ومملكة الميرفاب في بربر إلى الشمال",
+      "badge": "VERIFY",
+      "field_en": "key_events[1]",
+      "revised_english": "Under the autonomous rule of the Sa'dab Ja'aliyyin",
+      "reason": "English rewritten to GHA V p.183 wording ('under the autonomous rule of the Sa'dāb Dja'aliyyūn'); the Mirafab-at-Berber clause is not in GHA V ch.7 and was dropped.",
+      "action": "Native reviewer: align the Arabic to the revised English (drop the Mirafab clause).",
+      "origin_commit": "needs_source clearance",
+      "added": "2026-10-26",
+      "note": "Arabic left unchanged by the Historian; reviewer to edit."
+    },
+    {
+      "era_id": "al-bashir-ncp-ingaz-regime",
+      "file": "data/periods.json",
+      "field_ar": "key_events_ar[0] (mirrored in data/periods.js)",
+      "arabic_sentence": "انقلاب 30 يونيو 1989 (SFDAS_HCS2017 p.731)",
+      "badge": "VERIFY",
+      "field_en": "key_events[0]",
+      "revised_english": "30 June 1989: Colonel Umar Hassan Ahmad al Bashir overthrew Sadiq al Mahdi",
+      "reason": "SFDAS_HCS2017 cannot be opened lawfully; English rewritten to LOC1991_SADIQ (countrystudies.us/sudan/28.htm, last para): 'On June 30, 1989, Colonel (later Lieutenant General) Umar Hassan Ahmad al Bashir overthrew Sadiq'.",
+      "action": "Native reviewer: align the Arabic to the revised English and drop the '(SFDAS_HCS2017 p.731)' attribution.",
+      "origin_commit": "needs_source clearance",
+      "added": "2026-10-26",
+      "note": "Arabic left unchanged by the Historian; reviewer to edit."
     }
   ]
 }
