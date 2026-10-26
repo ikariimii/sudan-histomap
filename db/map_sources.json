@@ -36,7 +36,7 @@
   "rules": "Derived only from the input files; nothing inferred. Base source is null when the properties do not name one.",
   "totals": {
    "eras": 68,
-   "shapes": 248,
+   "shapes": 251,
    "base_source_null": 7,
    "overlay_error_non_null": 0,
    "checked_against_shapes": 25
@@ -1233,6 +1233,129 @@
      "layer": "extents",
      "file": "db/extents/makuria.geojson",
      "feature_index": 4,
+     "feature_id": "makuria-1276-core",
+     "label_en": "Kingdom of Makuria c.1276 (frontiers described in words only, GHA IV ch.16)",
+     "label_ar": null,
+     "zone_type": "core",
+     "geometry_type": "Polygon",
+     "cites": [
+      {
+       "id": "GHA4_CH16",
+       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403"
+      },
+      {
+       "id": "OHM_2960088",
+       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403"
+      }
+     ],
+     "base_source": [
+      "OpenHistoricalMap",
+      "Wikidata"
+     ],
+     "base_source_text": "CC0 1.0 (OpenHistoricalMap / Wikidata); Alwa ring: project draft bd-0.1 | cuts of existing repo geometry at latitudes of db/cities.json points; see edges",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1276,
+     "end": 1365,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/makuria.geojson",
+     "feature_index": 5,
+     "feature_id": "makuria-1276-maris-contested",
+     "label_en": "al-Maris (incl. Qasr Ibrim), northern Makuria c.1276 [CONTESTED]",
+     "label_ar": null,
+     "zone_type": "contested",
+     "geometry_type": "Polygon",
+     "cites": [
+      {
+       "id": "GHA4_CH16",
+       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403"
+      },
+      {
+       "id": "DERDA_LAJTAR2019",
+       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403"
+      },
+      {
+       "id": "OHM_2960088",
+       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403"
+      }
+     ],
+     "base_source": [
+      "OpenHistoricalMap",
+      "Wikidata"
+     ],
+     "base_source_text": "CC0 1.0 (OpenHistoricalMap / Wikidata); Alwa ring: project draft bd-0.1 | cuts of existing repo geometry at latitudes of db/cities.json points; see edges",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED",
+      "DERIVED"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1276,
+     "end": 1365,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/makuria.geojson",
+     "feature_index": 6,
+     "feature_id": "makuria-1276-south-contested",
+     "label_en": "Makuria–Alwa frontier zone c.1276, Fifth Cataract to al-'Abwab [CONTESTED]",
+     "label_ar": null,
+     "zone_type": "contested",
+     "geometry_type": "Polygon",
+     "cites": [
+      {
+       "id": "GHA4_CH16",
+       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403"
+      },
+      {
+       "id": "TSAKOS2011_ALWA",
+       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403"
+      }
+     ],
+     "base_source": [
+      "OpenHistoricalMap",
+      "Wikidata"
+     ],
+     "base_source_text": "CC0 1.0 (OpenHistoricalMap / Wikidata); Alwa ring: project draft bd-0.1 | cuts of existing repo geometry at latitudes of db/cities.json points; see edges",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED",
+      "DERIVED"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1276,
+     "end": 1365,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/makuria.geojson",
+     "feature_index": 7,
      "feature_id": null,
      "label_en": "Gebel Adda (reference marker)",
      "label_ar": "جبل عدّة (علامة مرجعية) [VERIFY]",
@@ -1266,7 +1389,7 @@
     {
      "layer": "extents",
      "file": "db/extents/makuria.geojson",
-     "feature_index": 5,
+     "feature_index": 8,
      "feature_id": null,
      "label_en": "Qasr Ibrim (reference marker)",
      "label_ar": "قصر إبريم (علامة مرجعية) [VERIFY]",
@@ -1331,8 +1454,8 @@
     }
    ],
    "counts": {
-    "shapes": 7,
-    "contested": 0,
+    "shapes": 10,
+    "contested": 2,
     "trade_routes": 1,
     "base_source_null": 0
    }
