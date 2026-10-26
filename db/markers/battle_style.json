@@ -79,6 +79,120 @@
     "en": "Clash reported, unconfirmed (2023–)",
     "ar": "اشتباك مُبلَّغ عنه غير مؤكد (2023–) [VERIFY]"
    }
+  },
+  "outline_check": {
+   "decision": "IM option (b), 2026-10-25: battle marker fills unchanged; marker-vs-surface separation carried by the #0f1b24 outline/glyph",
+   "outline_colour": "#0f1b24",
+   "outline_width_px": 1.5,
+   "rendered_at": "360px, marker 16px (<=5 zoom size)",
+   "results": [
+    {
+     "era_hue": "#2b5d5d",
+     "surface": "fill",
+     "colour": "#2b5d5d",
+     "outline_contrast": 2.35,
+     "pass_3to1": false
+    },
+    {
+     "era_hue": "#2b5d5d",
+     "surface": "stroke",
+     "colour": "#8aa6a6",
+     "outline_contrast": 6.72,
+     "pass_3to1": true
+    },
+    {
+     "era_hue": "#3f6d8e",
+     "surface": "fill",
+     "colour": "#3f6d8e",
+     "outline_contrast": 3.15,
+     "pass_3to1": true
+    },
+    {
+     "era_hue": "#3f6d8e",
+     "surface": "stroke",
+     "colour": "#82a0b6",
+     "outline_contrast": 6.36,
+     "pass_3to1": true
+    },
+    {
+     "era_hue": "#3f7d4a",
+     "surface": "fill",
+     "colour": "#3f7d4a",
+     "outline_contrast": 3.53,
+     "pass_3to1": true
+    },
+    {
+     "era_hue": "#3f7d4a",
+     "surface": "stroke",
+     "colour": "#82aa89",
+     "outline_contrast": 6.7,
+     "pass_3to1": true
+    },
+    {
+     "era_hue": "#5a4a8a",
+     "surface": "fill",
+     "colour": "#5a4a8a",
+     "outline_contrast": 2.31,
+     "pass_3to1": false
+    },
+    {
+     "era_hue": "#5a4a8a",
+     "surface": "stroke",
+     "colour": "#a49bbf",
+     "outline_contrast": 6.67,
+     "pass_3to1": true
+    },
+    {
+     "era_hue": "#7c2f2a",
+     "surface": "fill",
+     "colour": "#7c2f2a",
+     "outline_contrast": 1.91,
+     "pass_3to1": false
+    },
+    {
+     "era_hue": "#7c2f2a",
+     "surface": "stroke",
+     "colour": "#be9794",
+     "outline_contrast": 6.69,
+     "pass_3to1": true
+    },
+    {
+     "era_hue": "#8a5a14",
+     "surface": "fill",
+     "colour": "#8a5a14",
+     "outline_contrast": 2.95,
+     "pass_3to1": false
+    },
+    {
+     "era_hue": "#8a5a14",
+     "surface": "stroke",
+     "colour": "#b99c72",
+     "outline_contrast": 6.7,
+     "pass_3to1": true
+    },
+    {
+     "era_hue": "#b0532c",
+     "surface": "fill",
+     "colour": "#b0532c",
+     "outline_contrast": 3.43,
+     "pass_3to1": true
+    },
+    {
+     "era_hue": "#b0532c",
+     "surface": "stroke",
+     "colour": "#cc8f76",
+     "outline_contrast": 6.45,
+     "pass_3to1": true
+    }
+   ],
+   "fails_under_3to1": [
+    "#2b5d5d (fill): 2.35:1",
+    "#5a4a8a (fill): 2.31:1",
+    "#7c2f2a (fill): 1.91:1",
+    "#8a5a14 (fill): 2.95:1"
+   ],
+   "width_note": "Stroke width does not change a contrast ratio (same two colours), so no width makes these 4 fills reach 3:1. Width left at 1.5px everywhere, no per-case thickening recorded. Unresolved: #0f1b24 outline vs fills #7c2f2a 1.91, #5a4a8a 2.31, #2b5d5d 2.35, #8a5a14 2.95. All 7 approved strokes pass (6.36-6.72:1).",
+   "light_pages": "#2b1d0e outline kept per light_bg_rule"
   }
  },
  "event_pin": {
@@ -269,6 +383,11 @@
     "colour": "#ffc8ce",
     "hull_dash": "dash 1 3",
     "id_source": "db/wars.json (Historian pass 2)"
+   },
+   "italian-mahdist-war": {
+    "colour": "#c0d5e2",
+    "hull_dash": "dash 4 4",
+    "id_source": "audit/war_marker_style.json (IM, matches war_marker_style)"
    }
   },
   "treatment": {
