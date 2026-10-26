@@ -105,6 +105,16 @@ def main():
             grab(rec)
             if cites and all(is_wp(c, reg) for c in cites):
                 flags.append({"type": "WIKIPEDIA_ONLY", "file": "db/era_economy.json", "era": eid, "path": "", "detail": sorted(set(cites))})
+    wc = os.path.join(ROOT, "tools", "check_wars_cites.py")
+    if os.path.exists(wc):
+        import subprocess
+        r = subprocess.run([sys.executable, wc], cwd=ROOT, capture_output=True, text=True)
+        if r.returncode != 0:
+            for ln in (r.stdout + r.stderr).splitlines():
+                if ln.startswith("UNREGISTERED"):
+                    flags.append({"type": "WARS_CITE_UNREGISTERED", "file": "db/wars_post1956.json", "era": "", "path": "", "detail": ln})
+            if not any(f["type"] == "WARS_CITE_UNREGISTERED" for f in flags):
+                flags.append({"type": "WARS_CITE_CHECK_FAILED", "file": "tools/check_wars_cites.py", "era": "", "path": "", "detail": (r.stdout + r.stderr)[-300:]})
     counts = {}
     for f in flags: counts[f["type"]] = counts.get(f["type"], 0) + 1
     rep = {"eras_checked": eras, "modern_from": MODERN_FROM, "counts": counts, "total": len(flags), "flags": flags}
