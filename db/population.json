@@ -1586,7 +1586,7 @@
    "end": 1956,
    "reference_year": 1956,
    "territory": "former Sudan (incl. present South Sudan)",
-   "low": 8683000,
+   "low": 8683193,
    "high": 10263000,
    "point": 10263000,
    "range_kind": "spread between sources at era end (WPP 1950 vs census 1956)",
@@ -1695,6 +1695,19 @@
      "year": 2008,
      "value": 8817647,
      "territory": "South Sudan",
+     "method": "UN WPP 2024",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
+    },
+    {
+     "kind": "model",
+     "year": 2010,
+     "value": 9745953,
+     "territory": "South Sudan (current borders)",
      "method": "UN WPP 2024",
      "sources": [
       "POP_WPP2024"
@@ -3280,6 +3293,21 @@
       "agrees": false
      },
      "note": "footnote 31: cohort-component projections"
+    },
+    {
+     "kind": "model",
+     "year": 2026,
+     "value": 12436037,
+     "low": 11887895,
+     "high": 12997877,
+     "territory": "South Sudan",
+     "method": "UN WPP 2024 Medium projection, 1 July; low/high = Lower/Upper 80 PI (probabilistic)",
+     "sources": [
+      "POP_WPP2024"
+     ],
+     "badges": [
+      "MODEL"
+     ]
     }
    ],
    "badges": [
@@ -3290,7 +3318,7 @@
    "indicators_owid": {
     "population": {
      "year": 2011,
-     "value": 10288112,
+     "value": 10288109,
      "unit": "persons",
      "territory": "South Sudan",
      "name_ar": "جنوب السودان [يحتاج تحقق]",
@@ -3299,23 +3327,23 @@
      "csv_url": "https://ourworldindata.org/grapher/population.csv",
      "fetched": "2026-10-25",
      "sources": [
-      "OWID_GRAPHER_POP",
-      "UNWPP2024"
+      "UNWPP2024",
+      "OWID_GRAPHER_POP"
      ],
      "cite": [
       {
-       "source_id": "OWID_GRAPHER_POP",
-       "pages": "https://ourworldindata.org/grapher/population?country=~SSD"
+       "source_id": "UNWPP2024",
+       "pages": "WPP2024_TotalPopulationBySex.csv.gz, South Sudan (LocID 728), 2011, Medium, PopTotal 10288.109 thousand"
       },
       {
-       "source_id": "UNWPP2024",
-       "pages": "via OWID grapher (credited: UN WPP 2024)"
+       "source_id": "OWID_GRAPHER_POP",
+       "pages": "https://ourworldindata.org/grapher/population?country=~SSD"
       }
      ],
      "badges": [
       "SINGLE-SOURCE"
      ],
-     "note_population": "db already holds exact UN WPP 2024 values for this era (estimates[]); the Historian found 1-9 person gaps between OWID chart values and WPP 2024 (OWID rounding). This OWID value is as served by the grapher CSV, not a replacement."
+     "note_population": "IM ruling 2026-10-25: UN WPP 2024 is the primary cite (10,288,109, matches estimates[]). The OWID grapher CSV serves 10,288,112 for South Sudan 2011, a 3-person source difference (OWID rounding); not a correction."
     },
     "life_expectancy": {
      "year": 2011,
