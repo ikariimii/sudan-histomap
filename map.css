@@ -134,7 +134,7 @@ body.embed #about,body.embed #lang,body.embed #srchb{display:none}#embo{font-siz
 #wai{position:fixed;inset-inline-end:10px;top:calc(178px + env(safe-area-inset-top));z-index:6;min-width:44px;min-height:44px;justify-content:center;font-size:20px;padding:0}#wai[aria-pressed=true]{border-color:#8cc8f0;color:#8cc8f0}#wai:disabled,#wai[aria-busy=true]{opacity:.6;cursor:progress}
 #waim{position:fixed;inset-inline-end:10px;top:calc(230px + env(safe-area-inset-top));z-index:6;max-width:min(280px,calc(100vw - 20px));margin:0;background:#0f1b24f2;border:1px solid #4a6273;border-radius:10px;padding:6px 10px;font-size:13px;color:var(--ink)}
 .wair{fill:#8cc8f033;stroke:#8cc8f0;stroke-width:2}.waid{fill:#8cc8f0;stroke:#0f1b24;stroke-width:2}body.sfull #wai,body.sfull #waim{visibility:hidden}
-#hint{position:fixed;top:calc(var(--chipb,120px) + 8px);inset-inline:10px;margin-inline:auto;max-width:340px;z-index:7;background:#0f1b24f2;color:#e8eef2;border:1px solid #8cc8f0;border-radius:10px;padding:10px 12px;font-size:14px;line-height:1.4;box-shadow:0 4px 16px #0008}#hint p{margin:4px 0 8px}#hint div{display:flex;gap:8px;flex-wrap:wrap}#hint .chip{min-height:36px}body.embed #hint,body.storyon #hint{display:none}
+#hint{position:fixed;top:calc(max(var(--chipb,120px),var(--lgbb,0px)) + 8px);inset-inline:10px;margin-inline:auto;max-width:340px;z-index:7;background:#0f1b24f2;color:#e8eef2;border:1px solid #8cc8f0;border-radius:10px;padding:10px 12px;font-size:14px;line-height:1.4;box-shadow:0 4px 16px #0008}#hint p{margin:4px 0 8px}#hint div{display:flex;gap:8px;flex-wrap:wrap}#hint .chip{min-height:36px}body.embed #hint,body.storyon #hint{display:none}
 #cmpbar input{min-height:44px;margin:0}#cmpbar input::-webkit-slider-thumb{width:26px;height:26px}#cmpbar input::-moz-range-thumb{width:26px;height:26px}#cmpbar>span{font-weight:600}
 .cmpdv line{stroke:#fff;stroke-width:2;filter:drop-shadow(0 0 2px #000)}.cmph{cursor:ew-resize;touch-action:none}.cmph .hit{fill:transparent}.cmph .knob{fill:#0f1b24;stroke:#fff;stroke-width:2}.cmph path{fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}body.sfull .cmpdv{display:none}
 /* Battles layer + era Events timeline (feature-flagged; see web/features.json) */
@@ -232,3 +232,16 @@ g.heat{pointer-events:none}
 /* story beats: dated cited step + place ring */
 #storyp .swbeat blockquote{margin:.3em 0;padding-inline-start:.6em;border-inline-start:2px solid #c9a227;font-style:italic}
 g.swbt circle{fill:none;stroke:#c9a227;stroke-width:2.5;vector-effect:non-scaling-stroke}g.swbt circle+circle{fill:#c9a227;stroke:none}
+
+/* war_spans_360 #4: visible span key under the war lanes */
+.wtk{margin:0 48px 8px;font-size:11px;line-height:14px;color:#c9d3db;display:flex;flex-wrap:wrap;gap:2px 12px}
+.wtk span{display:inline-flex;align-items:center;gap:4px}
+.wtk i{display:inline-block;flex:none}
+.wtk .wke{width:12px;height:0;border-top:2px dashed #c9d3db;position:relative;margin-inline-end:6px}
+.wtk .wke::after{content:"";position:absolute;top:-5px;inset-inline-end:-7px;width:6px;height:6px;border:1.5px solid #c9d3db;border-radius:50%}
+.wtk .wko{width:0;height:0;border:5px solid transparent;border-left-color:#c9d3db;border-right:0}
+html[dir=rtl] .wtk .wko{border-left:0;border-right:5px solid #c9d3db}
+/* war_spans_360 #5: REPORTED (R, red) / SINGLE-SOURCE (1, amber) corner badge on timeline markers, colours as .repb */
+#wtl .wtm .wbg{position:absolute;bottom:-1px;left:-3px;font:700 9px/1 system-ui,sans-serif;text-decoration:none;color:#fff;background:#b3261e;border:1px solid #0f1b24;border-radius:6px;padding:1px 3px}
+#wtl .wtm.sgl:not(.rep) .wbg{background:#8f5a00}
+html[dir=rtl] #wtl .wtm .wbg{left:auto;right:-3px}
