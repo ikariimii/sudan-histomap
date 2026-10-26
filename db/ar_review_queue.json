@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 117
+      "sentence_items": 118
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -3883,6 +3883,19 @@
       "note": "New UI label for the OWID demography chip (Map Designer spec); working translation, needs native review.",
       "action": "review",
       "origin_commit": "pending (Web Lead chip implementation)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "abboud-military-regime",
+      "file": "db/era_events_post1956.json",
+      "field_ar": "events[abboud-military-regime#1].ar",
+      "arabic_sentence": "ثورة أكتوبر 1964 تنهي حكم عبود [يحتاج تحقق] (UNSC_S2005_60 PDF p.19, para 44; LOC1991_CIVIL6469)",
+      "badge": "VERIFY",
+      "field_en": "events[abboud-military-regime#1].en",
+      "revised_english": "October Revolution 1964 ends Abboud rule (UNSC_S2005_60 PDF p.19, para 44; LOC1991_CIVIL6469)",
+      "note": "Working translation of the revised October Revolution 1964 event line; needs native review.",
+      "action": "review",
+      "origin_commit": "pending (abboud#1 revision)",
       "added": "2026-10-25"
     }
   ]
