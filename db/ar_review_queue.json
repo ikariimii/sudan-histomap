@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 179
+      "sentence_items": 180
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -4701,6 +4701,19 @@
       "badge": "VERIFY",
       "field_en": "periods[name=Ethiopian Empire (Solomonic)].key_events[1]",
       "revised_english": "Battle of Gallabat (Matamma) vs Mahdists, 10 March 1889; Emperor Yohannes IV mortally wounded",
+      "note": "AR line no longer matches corrected EN; native reviewer to update [يحتاج تحقق]",
+      "action": "review",
+      "origin_commit": "pending",
+      "added": "2026-10-26"
+    },
+    {
+      "era_id": "musabba-at-sultanate-kordofan",
+      "file": "data/periods.json",
+      "field_ar": "periods[name=Musabba'at sultanate (Kordofan)].key_events_ar[1]",
+      "arabic_sentence": "عيساوي يطرد إدارة الفونج (الغديات) نحو 1734",
+      "badge": "VERIFY",
+      "field_en": "periods[name=Musabba'at sultanate (Kordofan)].key_events[1]",
+      "revised_english": "'Isawi of the Musabba'at and the Funj fight over Kordofan, 1747–1751 (outcome disputed) [CONTESTED]: Qasim (vol. 4 p.1696) has 'Isawi defeating the Funj and 'Abdallab in 1747 and 1751; GHA V (p.178) has a decisive Funj victory in 1747",
       "note": "AR line no longer matches corrected EN; native reviewer to update [يحتاج تحقق]",
       "action": "review",
       "origin_commit": "pending",
