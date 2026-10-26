@@ -108,7 +108,6 @@
       "example_artifact": null,
       "cite": "CBOS_CURMUS2012",
       "badges": [
-        "SOURCED",
         "SINGLE-SOURCE"
       ],
       "note": "Catalogue entries for 1956 coins and notes; issuer from the note entries.",
@@ -122,7 +121,7 @@
         "value": "Gezira cotton ('the backbone of the Sudan economy')",
         "cite": "GHA8",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "page": "p.322"
       },
@@ -137,14 +136,14 @@
       "routes": [],
       "cite": "GHA8",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ]
     },
     "economic_base": {
       "value": "Gezira cotton scheme, run since 1950 by the Sudan Gezira Board, about 26,000 tenant farmers in 1958",
       "cite": "GHA8",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ],
       "page": "p.322"
     },
@@ -156,7 +155,7 @@
         "year": 1958,
         "cite": "GHA8",
         "badges": [
-          "SOURCED",
+          "SINGLE-SOURCE",
           "NOT-IFI"
         ],
         "note": "GHA VIII p.322 (UNESCO); a pre-modern-era count, not a WB/IMF/UN macro figure"
@@ -196,7 +195,6 @@
       "example_artifact": null,
       "cite": "CBOS_CURMUS2012",
       "badges": [
-        "SOURCED",
         "SINGLE-SOURCE"
       ],
       "note": "Issuer named on the 1961 entry; 1962 entry dated within the era.",
@@ -210,7 +208,7 @@
         "value": "Gezira cotton",
         "cite": "GHA8",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "page": "p.322"
       },
@@ -225,14 +223,14 @@
       "routes": [],
       "cite": "GHA8",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ]
     },
     "economic_base": {
       "value": "Gezira scheme, 'the backbone of the Sudan economy', about 26,000 tenants in 1958",
       "cite": "GHA8",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ],
       "page": "p.322"
     },
@@ -244,7 +242,7 @@
         "year": 1960,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       },
@@ -255,7 +253,7 @@
         "year": 1964,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       }
@@ -292,7 +290,6 @@
       "example_artifact": null,
       "cite": "CBOS_CURMUS2012",
       "badges": [
-        "SOURCED",
         "SINGLE-SOURCE"
       ],
       "note": "Issue dates fall in this era; the English entries on these pages do not name the issuer, so issuer is null (not inferred).",
@@ -328,7 +325,7 @@
       "value": "Irrigated Gezira Scheme and Sudan Railways; Ten-Year Plan works (Khashm al-Qirba, Managil extension, Roseires Dam)",
       "cite": "LOC1991_ECONDEV",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ]
     },
     "indicators": [
@@ -339,7 +336,7 @@
         "year": 1964,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       },
@@ -350,7 +347,7 @@
         "year": 1969,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       },
@@ -361,7 +358,6 @@
         "year": 1964,
         "cite": "WB_WDI_EXP_SDN",
         "badges": [
-          "SOURCED",
           "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NE.EXP.GNFS.CD, country SDN, lastupdated 2026-10-08; full JSON response read; value as published, unrounded.",
@@ -374,7 +370,6 @@
         "year": 1969,
         "cite": "WB_WDI_EXP_SDN",
         "badges": [
-          "SOURCED",
           "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NE.EXP.GNFS.CD, country SDN, lastupdated 2026-10-08; full JSON response read; value as published, unrounded.",
@@ -415,7 +410,7 @@
       "cite": "WB_SDN1985",
       "page": "pdf p.3",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ],
       "note": "Name and symbol as in the era text citing WB_SDN1985; type 'banknote' and issuer not stated in a source read, so issuer is null.",
       "type_note": "type is EDITORIAL",
@@ -426,7 +421,7 @@
           "page": "printed p.6 (PDF p.7), 'Currencies After independence'",
           "quote": "In March, 1973 during the regime of , “Jaafar Nimeiri”, the size of banknotes was minimized and the color of the (ten pounds note) was changed.",
           "badges": [
-            "SOURCED"
+            "SINGLE-SOURCE"
           ]
         },
         {
@@ -435,7 +430,7 @@
           "page": "printed p.6 (PDF p.7), 'Currencies After independence'",
           "quote": "January ,1981, banknotes denominations where increased from 5 to 7 .The notes showed the picture of Nimeiri with a turban, and the Hijri Chronology added beside Gregorian.",
           "badges": [
-            "SOURCED"
+            "SINGLE-SOURCE"
           ]
         }
       ]
@@ -445,7 +440,7 @@
         "value": "Cotton (main export crop), then sorghum, sesame and gum arabic",
         "cite": "WB_SDN1985",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "page": "Country Data p. ii (PDF p.8); p. xi para 24 (PDF p.17)",
         "quote": "MERCHANDISE EXPORTS (AVERAGE 1981/82-1983/84): Cotton 194.0 [US$ mln] 33.5 [%]; Sorghum 59.4, 10.3; Sesame 53.0, 9.2; Gum Arabic 51.2; Other 194.7, 33.6; Total 579.0 | 'cotton (providing about 40 percent of the country's export revenues)'",
@@ -469,7 +464,7 @@
       "value": "Nationalisations 1970–71, then denationalisation and the 1974 'open door'; Gulf capital for a 'breadbasket' strategy; Chevron oil finds at Abu Jabirah (1979) and Unity (1980)",
       "cite": "LOC1991_ECONDEV",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ],
       "note": "Also LOC1991_ECON, LOC1991_ENERGY"
     },
@@ -503,7 +498,7 @@
         "year": 1969,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       },
@@ -514,7 +509,7 @@
         "year": 1985,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       }
@@ -525,7 +520,7 @@
       "value": "bad",
       "cite": "LOC1991_TMC",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ],
       "note": "The source says it directly: the economy was 'in shambles' at the 1985 takeover."
     },
@@ -533,14 +528,14 @@
       "value": "LOC1991_TMC: at the 1985 takeover the economy was 'in shambles'; in Feb 1986 the IMF declared Sudan bankrupt.",
       "cite": "LOC1991_TMC",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ]
     },
     "rating_basis_ar": {
       "value": "بحسب LOC1991_TMC: كان الاقتصاد عند استيلاء 1985 'في حالة خراب'، وفي فبراير 1986 أعلن صندوق النقد الدولي إفلاس السودان.",
       "cite": "LOC1991_TMC",
       "badges": [
-        "SOURCED",
+        "SINGLE-SOURCE",
         "WORKING-TRANSLATION"
       ],
       "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
@@ -552,7 +547,6 @@
       "example_artifact": "Sudan 1 pound 1987 reverse.jpg",
       "cite": "CBOS_CURMUS2012",
       "badges": [
-        "SOURCED",
         "SINGLE-SOURCE"
       ],
       "note": "Name/type now supported by catalogue entries dated 1985-87 (previously artifact-only). Issuer not named in English on these pages; left null.",
@@ -563,7 +557,7 @@
           "page": "printed p.6 (PDF p.7), 'Currencies After independence'",
           "quote": "In June,1985, the banknotes with the picture of President Nimeri abolished after his removal from power, and the picture of the Central Bank put back.",
           "badges": [
-            "SOURCED"
+            "SINGLE-SOURCE"
           ]
         }
       ],
@@ -599,7 +593,7 @@
       "value": "Agriculture and industry in decline; recovery programme from Aug 1987 and a three-year reform programme from Oct 1988",
       "cite": "LOC1991_ECONDEV",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ],
       "note": "Debt, capacity and output figures (LOC1991_TMC) left out of indicators: not WB/IMF/UN. Famine death estimate excluded (fatality figure)."
     },
@@ -611,7 +605,7 @@
         "year": 1986,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       },
@@ -622,7 +616,7 @@
         "year": 1989,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       },
@@ -633,7 +627,6 @@
         "year": 1985,
         "cite": "WB_WDI_EXP_SDN",
         "badges": [
-          "SOURCED",
           "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NE.EXP.GNFS.CD, country SDN, lastupdated 2026-10-08; full JSON response read; value as published, unrounded.",
@@ -646,7 +639,6 @@
         "year": 1986,
         "cite": "WB_WDI_EXP_SDN",
         "badges": [
-          "SOURCED",
           "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NE.EXP.GNFS.CD, country SDN, lastupdated 2026-10-08; full JSON response read; value as published, unrounded.",
@@ -659,7 +651,6 @@
         "year": 1989,
         "cite": "WB_WDI_EXP_SDN",
         "badges": [
-          "SOURCED",
           "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NE.EXP.GNFS.CD, country SDN, lastupdated 2026-10-08; full JSON response read; value as published, unrounded.",
@@ -708,7 +699,7 @@
           "page": "printed p.6 (PDF p.7), 'Currencies After independence'",
           "quote": "In March, 1992, the dinar currency was issued, at that time, one dinar equal to 10 pounds, and it circulated alongside the pound until 1998.",
           "badges": [
-            "SOURCED"
+            "SINGLE-SOURCE"
           ],
           "note": "CBOS gives March 1992; no day given, so none entered. Catalogue pp.121-122 list '25 dinars - March 1992' and '50 dinars - March 1992'."
         },
@@ -717,7 +708,7 @@
           "cite": "CBOS_POL2007",
           "quote": "the new national currency (the Sudanese pound) will be introduced throughout the country effective the beginning of 2007 … During the year 2007, the Sudanese pound and the Sudanese dinar will be circulating side by side",
           "badges": [
-            "SOURCED"
+            "SINGLE-SOURCE"
           ]
         }
       ]
@@ -727,7 +718,7 @@
         "value": "Crude oil, exported by pipeline across the North",
         "cite": "RU_RIA_2011",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ]
       },
       "imports": {
@@ -750,14 +741,14 @@
       ],
       "cite": "RU_RIA_2011",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ]
     },
     "economic_base": {
       "value": "Oil: with CNPC's help Sudan went from oil importer to exporter in 1999",
       "cite": "ZH_YU2008",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ],
       "note": "EIA_SDN2013 agrees: production 'grew rapidly in 1999 with the completion of the GNPOC export pipeline'"
     },
@@ -813,7 +804,7 @@
         "year": 1989,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       },
@@ -824,7 +815,7 @@
         "year": 1991,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       },
@@ -835,7 +826,7 @@
         "year": 1992,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded. Series falls from 44.17bn (1991) to 7.03bn (1992); not interpreted here."
       },
@@ -846,7 +837,7 @@
         "year": 2000,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       },
@@ -857,7 +848,7 @@
         "year": 2008,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       },
@@ -868,7 +859,7 @@
         "year": 2011,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       },
@@ -879,7 +870,7 @@
         "year": 2012,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       },
@@ -890,7 +881,7 @@
         "year": 2018,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       }
@@ -902,7 +893,7 @@
       "value": "bad",
       "cite": "ICG2019",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ],
       "note": "The source says it directly: 'crushing economic crisis'."
     },
@@ -910,14 +901,14 @@
       "value": "ICG2019 describes a 'crushing economic crisis'; inflation reached 342% y-o-y in Mar 2021 (IMF_CR21143 para 6).",
       "cite": "ICG2019",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ]
     },
     "rating_basis_ar": {
       "value": "تصف ICG2019 'أزمة اقتصادية خانقة'؛ وبلغ التضخم 342% على أساس سنوي في مارس 2021.",
       "cite": "ICG2019",
       "badges": [
-        "SOURCED",
+        "SINGLE-SOURCE",
         "WORKING-TRANSLATION"
       ],
       "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
@@ -930,7 +921,7 @@
       "cite": "IMF_CR21143",
       "page": "para 6",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ],
       "note": "Managed float from 21 Feb 2021 (AJA_FLOAT2021; IMF_CR21143 para 6); type 'banknote' EDITORIAL."
     },
@@ -939,7 +930,7 @@
         "value": "Gold (46.4% of total exports in 2022), livestock (12.6%), cotton (8.8%)",
         "cite": "WB_SEU2023",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "page": "p.23, footnote 3",
         "quote": "the share of cotton in total exports doubled from 3.9 percent of total exports in 2021 to 8.8 percent in 2022. In 2022, gold accounted for 46.4 percent of total exports and livestock for 12.6 percent."
@@ -962,7 +953,7 @@
       "value": "IMF Staff-Monitored Program from 2020; fuel-subsidy removal, higher electricity tariffs and exchange-rate unification",
       "cite": "IMF_CR21082",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ]
     },
     "indicators": [
@@ -984,7 +975,7 @@
         "year": 2020,
         "cite": "IMF_PR21199",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "end-2020; also WB press release 2021/187/AFR (joint release)"
       },
@@ -995,7 +986,7 @@
         "year": 2020,
         "cite": "IMF_PR21199",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ]
       },
       {
@@ -1005,7 +996,7 @@
         "year": 2021,
         "cite": "IMF_PR21199",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ]
       },
       {
@@ -1015,7 +1006,7 @@
         "year": 2019,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       },
@@ -1026,7 +1017,7 @@
         "year": 2021,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       },
@@ -1037,7 +1028,7 @@
         "year": 2022,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       }
@@ -1049,7 +1040,7 @@
       "value": "bad",
       "cite": "WB_MPO_SDN_OCT2026",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ],
       "note": "The source says it directly: 'The conflict that erupted in April 2023 has caused severe economic contraction and reversed development gains.'"
     },
@@ -1057,14 +1048,14 @@
       "value": "World Bank MPO Oct 2026: 'severe economic contraction'; real GDP -29.4% in 2023 and -14.0% in 2024.",
       "cite": "WB_MPO_SDN_OCT2026",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ]
     },
     "rating_basis_ar": {
       "value": "بحسب توقعات البنك الدولي (أكتوبر 2026): 'انكماش اقتصادي حاد'؛ تراجع الناتج المحلي الحقيقي 29.4% في 2023 و14.0% في 2024.",
       "cite": "WB_MPO_SDN_OCT2026",
       "badges": [
-        "SOURCED",
+        "SINGLE-SOURCE",
         "WORKING-TRANSLATION"
       ],
       "note": "ترجمة عمل، بانتظار مراجعة ناطق أصلي"
@@ -1076,7 +1067,7 @@
       "example_artifact": null,
       "cite": "WB_MPO2024",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ],
       "note": "WB_MPO2024: the pound fell 94% (official) and 125% (parallel) since Apr 2023; MPO Oct 2026: 'The Sudanese pound depreciated by around 48 percent between December 2025 and end July 2026'. Type EDITORIAL; issuer null."
     },
@@ -1085,20 +1076,20 @@
         "value": "Gold, 'Sudan's dominant export commodity in 2025' and 53% of total exports in Q1 2026",
         "cite": "WB_MPO_SDN_OCT2026",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ]
       },
       "imports": {
         "value": "Food and petroleum products; petroleum 26% of import value in Q1 2026",
         "cite": "WB_MPO_SDN_OCT2026",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ]
       },
       "routes": [],
       "cite": "WB_MPO_SDN_OCT2026",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ],
       "note": "Gold flows to the UAE are CONTESTED (GEO-002/067/074) and the gum arabic smuggling route via Chad names no place, so no route is drawn."
     },
@@ -1106,7 +1097,7 @@
       "value": "Gold and agriculture in relatively secure areas; services concentrated in Khartoum collapsed",
       "cite": "WB_MPO_SDN_OCT2026",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ]
     },
     "indicators": [
@@ -1117,7 +1108,7 @@
         "year": 2023,
         "cite": "WB_SEU2025",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "Table 1; MPO Oct 2026 gives the same"
       },
@@ -1139,7 +1130,7 @@
         "year": 2024,
         "cite": "WB_MPO_SDN_OCT2026",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "main value (parent ruling)"
       },
@@ -1161,7 +1152,7 @@
         "year": 2023,
         "cite": "WB_MPO_SDN_OCT2026",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "main value (parent ruling)"
       },
@@ -1205,7 +1196,7 @@
         "year": 2024,
         "cite": "WB_MPO_SDN_OCT2026",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ]
       },
       {
@@ -1215,7 +1206,7 @@
         "year": 2026,
         "cite": "WB_MPO_SDN_OCT2026",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "end June 2026"
       },
@@ -1226,7 +1217,7 @@
         "year": 2023,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       },
@@ -1237,7 +1228,7 @@
         "year": 2024,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       },
@@ -1248,7 +1239,7 @@
         "year": 2025,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; value as published, unrounded."
       }
@@ -1287,7 +1278,7 @@
       "cite": "WB_SSEB2012",
       "page": "p.5 (also p.4)",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ],
       "quote": "Shortly after independence in July 2011, South Sudan issued its own currency, the South Sudanese Pound (SSP)",
       "note": "Type EDITORIAL; issuer not named in the passage read."
@@ -1297,7 +1288,7 @@
         "value": "Oil, exported through Sudan's pipelines",
         "cite": "SC_16212",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "'South Sudan's oil flow and exports through Sudan have experienced significant disruptions'"
       },
@@ -1312,7 +1303,7 @@
       "routes": [],
       "cite": "SC_16212",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ],
       "note": "No source read gives route endpoints."
     },
@@ -1320,7 +1311,7 @@
       "value": "Oil; production shut down in January 2012",
       "cite": "WB_SSEB2012",
       "badges": [
-        "SOURCED"
+        "SINGLE-SOURCE"
       ]
     },
     "indicators": [
@@ -1372,7 +1363,6 @@
         "year": 2011,
         "cite": "WB_WDI_GDP_SSD",
         "badges": [
-          "SOURCED",
           "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SSD, lastupdated 2026-10-08; full JSON response read; value as published, unrounded.",
@@ -1385,7 +1375,6 @@
         "year": 2015,
         "cite": "WB_WDI_GDP_SSD",
         "badges": [
-          "SOURCED",
           "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NY.GDP.MKTP.CD, country SSD, lastupdated 2026-10-08; full JSON response read; value as published, unrounded.",
@@ -1398,7 +1387,6 @@
         "year": 2011,
         "cite": "WB_WDI_EXP_SSD",
         "badges": [
-          "SOURCED",
           "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NE.EXP.GNFS.CD, country SSD, lastupdated 2026-10-08; full JSON response read; value as published, unrounded.",
@@ -1411,7 +1399,6 @@
         "year": 2015,
         "cite": "WB_WDI_EXP_SSD",
         "badges": [
-          "SOURCED",
           "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, indicator NE.EXP.GNFS.CD, country SSD, lastupdated 2026-10-08; full JSON response read; value as published, unrounded.",
@@ -4631,7 +4618,7 @@
         "year": 1960,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; unrounded. Whole-Sudan series."
       },
@@ -4642,7 +4629,7 @@
         "year": 2011,
         "cite": "WB_WDI_GDP_SDN",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, NY.GDP.MKTP.CD, country SDN, lastupdated 2026-10-08; unrounded. Whole-Sudan series."
       },
@@ -4653,7 +4640,7 @@
         "year": 2008,
         "cite": "WB_WDI_GDP_SSD",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, NY.GDP.MKTP.CD, country SSD, lastupdated 2026-10-08; unrounded. First SSD value in WDI."
       },
@@ -4664,7 +4651,7 @@
         "year": 2011,
         "cite": "WB_WDI_GDP_SSD",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, NY.GDP.MKTP.CD, country SSD, lastupdated 2026-10-08; unrounded."
       }
@@ -4743,7 +4730,7 @@
         "year": 1960,
         "cite": "WB_WDI_GDP_EGY",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, NY.GDP.MKTP.CD, country EGY, lastupdated 2026-10-08; unrounded."
       },
@@ -4754,7 +4741,7 @@
         "year": 2025,
         "cite": "WB_WDI_GDP_EGY",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, NY.GDP.MKTP.CD, country EGY, lastupdated 2026-10-08; unrounded."
       }
@@ -4827,7 +4814,7 @@
         "year": 1960,
         "cite": "WB_WDI_GDP_ETH",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, NY.GDP.MKTP.CD, country ETH, lastupdated 2026-10-08; unrounded."
       },
@@ -4838,7 +4825,7 @@
         "year": 1974,
         "cite": "WB_WDI_GDP_ETH",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, NY.GDP.MKTP.CD, country ETH, lastupdated 2026-10-08; unrounded."
       }
@@ -4916,7 +4903,7 @@
         "year": 1992,
         "cite": "WB_WDI_GDP_ERI",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, NY.GDP.MKTP.CD, country ERI, lastupdated 2026-10-08; unrounded. First ERI value in WDI."
       },
@@ -4927,7 +4914,7 @@
         "year": 2011,
         "cite": "WB_WDI_GDP_ERI",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, NY.GDP.MKTP.CD, country ERI, lastupdated 2026-10-08; unrounded. Last ERI value in WDI."
       }
@@ -5084,7 +5071,7 @@
         "year": 1960,
         "cite": "WB_WDI_GDP_LBY",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, NY.GDP.MKTP.CD, country LBY, lastupdated 2026-10-08; unrounded."
       },
@@ -5095,7 +5082,7 @@
         "year": 2025,
         "cite": "WB_WDI_GDP_LBY",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, NY.GDP.MKTP.CD, country LBY, lastupdated 2026-10-08; unrounded."
       }
@@ -5168,7 +5155,7 @@
         "year": 1960,
         "cite": "WB_WDI_GDP_CAF",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, NY.GDP.MKTP.CD, country CAF, lastupdated 2026-10-08; unrounded."
       },
@@ -5179,7 +5166,7 @@
         "year": 2025,
         "cite": "WB_WDI_GDP_CAF",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, NY.GDP.MKTP.CD, country CAF, lastupdated 2026-10-08; unrounded."
       }
@@ -5252,7 +5239,7 @@
         "year": 1960,
         "cite": "WB_WDI_GDP_SAU",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, NY.GDP.MKTP.CD, country SAU, lastupdated 2026-10-08; unrounded."
       },
@@ -5263,7 +5250,7 @@
         "year": 2025,
         "cite": "WB_WDI_GDP_SAU",
         "badges": [
-          "SOURCED"
+          "SINGLE-SOURCE"
         ],
         "note": "WB WDI API, NY.GDP.MKTP.CD, country SAU, lastupdated 2026-10-08; unrounded."
       }
