@@ -356,12 +356,14 @@
    "start": "1940",
    "end": "1941",
    "span_state": "closed",
-   "colour": "#f0f8a8",
+   "colour": "#b88410",
    "hull_dash": "dash 1 4",
    "icon": "border-post",
-   "contrast_dark_bg": 15.55,
-   "contrast_light_bg": 1.02,
-   "icon_note": "Reuses border-post (also sudan-south-sudan-border-2012): no icon rule; fits a frontier campaign (Kassala, Gallabat)."
+   "contrast_dark_bg": 5.28,
+   "contrast_light_bg": 3.0,
+   "icon_note": "Reuses border-post (also sudan-south-sudan-border-2012): no icon rule; fits a frontier campaign (Kassala, Gallabat).",
+   "colour_previous": "#f0f8a8",
+   "era_fill_exception": "IM 2026-10-26: 3:1 vs era fills waived (min 1.5:1 vs #3f7d4a); dE00>=27 vs fills+strokes and war_halo (legend_spec.json, global) separate it. audit/war_vs_era_360_eac1940.md"
   }
  ],
  "peace_agreement_milestone": {
