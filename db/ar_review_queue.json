@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 160
+      "sentence_items": 168
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -4544,6 +4544,19 @@
       "field_en": "battles[id=wad-madani-2023].name_en",
       "revised_english": "Fighting in and around Wad Madani",
       "note": "Battle card title; Arabic needs native review [يحتاج تحقق]",
+      "action": "review",
+      "origin_commit": "pending",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "war-in-sudan-saf-vs-rsf",
+      "file": "db/battles_post1956.json",
+      "field_ar": "battles[id=el-fasher-2024].outcome_ar",
+      "arabic_sentence": "«سيطرت قوات الدعم السريع على الفاشر… بعد أن أجبرت الجيش السوداني على الانسحاب» (أخبار الأمم المتحدة، 31 أكتوبر 2025) [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "battles[id=el-fasher-2024].outcome_en",
+      "revised_english": "\"The RSF seized control of El Fasher… after forcing Sudan's army to withdraw\" (UN News, 31 Oct 2025)",
+      "note": "Working Arabic rendering of an English UN News quotation (no UN Arabic text read); needs native review [يحتاج تحقق]",
       "action": "review",
       "origin_commit": "pending",
       "added": "2026-10-25"
