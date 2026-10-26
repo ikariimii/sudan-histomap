@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 14
+      "sentence_items": 110
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -3649,6 +3649,149 @@
       "note": "Working translation of the OWID territory note on the four OWID indicator fields (population, life expectancy, births per woman, median age); needs native review.",
       "action": "review",
       "origin_commit": "pending (OWID indicators commit)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "republic-of-egypt",
+      "file": "db/population.json",
+      "field_ar": "eras[republic-of-egypt].indicators_owid.*.territory_ar",
+      "arabic_sentence": "مصر [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "eras[republic-of-egypt].indicators_owid.*.territory",
+      "revised_english": "Egypt",
+      "note": "Working translation of the country name on the four OWID indicator fields; needs native review.",
+      "action": "review",
+      "origin_commit": "pending (OWID indicators badge/territory_ar commit)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "independent-sudan-first-parliamentary-period",
+      "file": "db/population.json",
+      "field_ar": "eras[independent-sudan-first-parliamentary-period].indicators_owid.*.territory_ar",
+      "arabic_sentence": "السودان [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "eras[independent-sudan-first-parliamentary-period].indicators_owid.*.territory",
+      "revised_english": "Sudan",
+      "note": "Working translation of the country name on the four OWID indicator fields; needs native review.",
+      "action": "review",
+      "origin_commit": "pending (OWID indicators badge/territory_ar commit)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "abboud-military-regime",
+      "file": "db/population.json",
+      "field_ar": "eras[abboud-military-regime].indicators_owid.*.territory_ar",
+      "arabic_sentence": "السودان [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "eras[abboud-military-regime].indicators_owid.*.territory",
+      "revised_english": "Sudan",
+      "note": "Working translation of the country name on the four OWID indicator fields; needs native review.",
+      "action": "review",
+      "origin_commit": "pending (OWID indicators badge/territory_ar commit)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "second-parliamentary-period",
+      "file": "db/population.json",
+      "field_ar": "eras[second-parliamentary-period].indicators_owid.*.territory_ar",
+      "arabic_sentence": "السودان [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "eras[second-parliamentary-period].indicators_owid.*.territory",
+      "revised_english": "Sudan",
+      "note": "Working translation of the country name on the four OWID indicator fields; needs native review.",
+      "action": "review",
+      "origin_commit": "pending (OWID indicators badge/territory_ar commit)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "nimeiry-era-democratic-republic-of-sudan",
+      "file": "db/population.json",
+      "field_ar": "eras[nimeiry-era-democratic-republic-of-sudan].indicators_owid.*.territory_ar",
+      "arabic_sentence": "السودان [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "eras[nimeiry-era-democratic-republic-of-sudan].indicators_owid.*.territory",
+      "revised_english": "Sudan",
+      "note": "Working translation of the country name on the four OWID indicator fields; needs native review.",
+      "action": "review",
+      "origin_commit": "pending (OWID indicators badge/territory_ar commit)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "derg-federal-ethiopia",
+      "file": "db/population.json",
+      "field_ar": "eras[derg-federal-ethiopia].indicators_owid.*.territory_ar",
+      "arabic_sentence": "إثيوبيا [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "eras[derg-federal-ethiopia].indicators_owid.*.territory",
+      "revised_english": "Ethiopia",
+      "note": "Working translation of the country name on the four OWID indicator fields; needs native review.",
+      "action": "review",
+      "origin_commit": "pending (OWID indicators badge/territory_ar commit)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "transitional-third-parliamentary-period",
+      "file": "db/population.json",
+      "field_ar": "eras[transitional-third-parliamentary-period].indicators_owid.*.territory_ar",
+      "arabic_sentence": "السودان [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "eras[transitional-third-parliamentary-period].indicators_owid.*.territory",
+      "revised_english": "Sudan",
+      "note": "Working translation of the country name on the four OWID indicator fields; needs native review.",
+      "action": "review",
+      "origin_commit": "pending (OWID indicators badge/territory_ar commit)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "al-bashir-ncp-ingaz-regime",
+      "file": "db/population.json",
+      "field_ar": "eras[al-bashir-ncp-ingaz-regime].indicators_owid.*.territory_ar",
+      "arabic_sentence": "السودان [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "eras[al-bashir-ncp-ingaz-regime].indicators_owid.*.territory",
+      "revised_english": "Sudan",
+      "note": "Working translation of the country name on the four OWID indicator fields; needs native review.",
+      "action": "review",
+      "origin_commit": "pending (OWID indicators badge/territory_ar commit)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "republic-of-south-sudan",
+      "file": "db/population.json",
+      "field_ar": "eras[republic-of-south-sudan].indicators_owid.*.territory_ar",
+      "arabic_sentence": "جنوب السودان [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "eras[republic-of-south-sudan].indicators_owid.*.territory",
+      "revised_english": "South Sudan",
+      "note": "Working translation of the country name on the four OWID indicator fields; needs native review.",
+      "action": "review",
+      "origin_commit": "pending (OWID indicators badge/territory_ar commit)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "december-revolution-transition",
+      "file": "db/population.json",
+      "field_ar": "eras[december-revolution-transition].indicators_owid.*.territory_ar",
+      "arabic_sentence": "السودان [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "eras[december-revolution-transition].indicators_owid.*.territory",
+      "revised_english": "Sudan",
+      "note": "Working translation of the country name on the four OWID indicator fields; needs native review.",
+      "action": "review",
+      "origin_commit": "pending (OWID indicators badge/territory_ar commit)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "war-in-sudan-saf-vs-rsf",
+      "file": "db/population.json",
+      "field_ar": "eras[war-in-sudan-saf-vs-rsf].indicators_owid.*.territory_ar",
+      "arabic_sentence": "السودان [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "eras[war-in-sudan-saf-vs-rsf].indicators_owid.*.territory",
+      "revised_english": "Sudan",
+      "note": "Working translation of the country name on the four OWID indicator fields; needs native review.",
+      "action": "review",
+      "origin_commit": "pending (OWID indicators badge/territory_ar commit)",
       "added": "2026-10-25"
     }
   ]
