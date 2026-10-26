@@ -44,7 +44,8 @@
      "zone": "core",
      "confidence": 0.4,
      "confidence_word": "medium",
-     "low_confidence_overlay": true
+     "confidence_style": "solid",
+     "low_confidence_overlay": false
     },
     {
      "feature_index": 2,
@@ -65,6 +66,7 @@
      "zone": "influence",
      "confidence": 0.25,
      "confidence_word": "low",
+     "confidence_style": "hatched",
      "low_confidence_overlay": true
     },
     {
@@ -87,7 +89,8 @@
      "zone": "contested",
      "confidence": 0.3,
      "confidence_word": "low",
-     "low_confidence_overlay": true
+     "confidence_style": "contested",
+     "low_confidence_overlay": false
     },
     {
      "feature_index": 4,
@@ -109,7 +112,8 @@
      "zone": "contested",
      "confidence": 0.3,
      "confidence_word": "low",
-     "low_confidence_overlay": true
+     "confidence_style": "contested",
+     "low_confidence_overlay": false
     }
    ],
    "borders_legend": [
@@ -131,7 +135,7 @@
     },
     {
      "badge": "LOW-CONFIDENCE-HATCH",
-     "legend_en": "Hatched: low confidence (< 0.5)"
+     "legend_en": "Hatched: lower-confidence estimate"
     }
    ]
   },
@@ -1349,11 +1353,11 @@
      "legend_en": "Draft border (confidence: medium 0.4)",
      "symbol_class": "zone_core",
      "swatch": {
+      "geometry": "polygon",
       "fill": "#7a6bd0",
       "fill_opacity": 0.35,
       "stroke": "solid 1.2px",
-      "confidence_style": "solid",
-      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+      "confidence_style": "solid"
      },
      "badges": [
       "APPROXIMATE",
@@ -1377,12 +1381,14 @@
      "legend_en": "Draft border (confidence: low 0.25)",
      "symbol_class": "zone_influence",
      "swatch": {
+      "geometry": "polygon",
       "fill": "#7a6bd0",
       "fill_opacity": 0.08,
       "stroke": "none",
       "feather": "radial/feathered edge (blur 6px or 3-step inset .08/.05/.02)",
       "confidence_style": "hatched",
-      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+      "overlay": "45° hairlines, 8px tile, 1px stroke #e8eef2 (map.js pattern #lowconf)",
+      "overlay_opacity": 0.6
      },
      "badges": [
       "APPROXIMATE",
@@ -1407,6 +1413,7 @@
      "legend_en": "Draft border (confidence: low 0.3)",
      "symbol_class": "zone_contested",
      "swatch": {
+      "geometry": "point",
       "fill": "#e0a63e",
       "fill_opacity": 0.6,
       "stroke": "#e0a63e",
@@ -1414,8 +1421,7 @@
        4,
        3
       ],
-      "confidence_style": "contested",
-      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+      "confidence_style": "contested"
      },
      "badges": [
       "APPROXIMATE",
@@ -1440,6 +1446,7 @@
      "legend_en": "Draft border (confidence: low 0.3)",
      "symbol_class": "zone_contested",
      "swatch": {
+      "geometry": "point",
       "fill": "#e0a63e",
       "fill_opacity": 0.6,
       "stroke": "#e0a63e",
@@ -1447,8 +1454,7 @@
        4,
        3
       ],
-      "confidence_style": "contested",
-      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+      "confidence_style": "contested"
      },
      "badges": [
       "APPROXIMATE",
@@ -1465,9 +1471,98 @@
      }
     }
    ]
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "arbaji-1504",
+     "label_en": "Battle of Arbaji",
+     "label_ar": "معركة أربجي",
+     "start": 1504,
+     "end": 1504,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Funj–Abdallab war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Y.F. Hasan and B.A. Ogot (1992) The Sudan, 1500–1800, ch.7 (General History of Africa V)",
+       "p": "173",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
+      }
+     ]
+    },
+    {
+     "id": "kordofan-1747",
+     "label_en": "Funj campaign against the Musabba'at in Kordofan",
+     "label_ar": "حملة الفونج على المسبعات في كردفان",
+     "start": 1747,
+     "end": 1747,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Wars for Kordofan (Funj, Musabba'at, Darfur)",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "Y.F. Hasan and B.A. Ogot (1992) The Sudan, 1500–1800, ch.7 (General History of Africa V)",
+       "p": "178",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
+      }
+     ]
+    },
+    {
+     "id": "qasr-ibrim-1560",
+     "label_en": "Ottoman capture of Qasr Ibrim",
+     "label_ar": "الاستيلاء العثماني على قصر إبريم",
+     "start": 1560,
+     "end": 1560,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Ottoman occupation of northern Nubia",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "423",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      },
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "420, 424",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_approximate",
+  "battle_region",
   "border_draft",
   "city_capital",
   "city_garrison",
@@ -1497,6 +1592,8 @@
   "SINGLE-SOURCE"
  ],
  "counts": {
+  "battle_approximate": 2,
+  "battle_region": 1,
   "border_draft": 4,
   "city_capital": 12,
   "city_garrison": 4,
@@ -1508,13 +1605,14 @@
   "economy_unknown": 1,
   "extent_label_point": 1,
   "list_only_text": 1,
-  "low_confidence": 4,
+  "low_confidence": 1,
   "zone_contested": 2,
   "zone_core": 1,
   "zone_influence": 1,
   "extent_features": 5,
   "group_features": 1,
-  "cities": 34
+  "cities": 34,
+  "battles": 3
  },
  "context": {
   "key_events_en": [
@@ -1602,6 +1700,7 @@
    "extents",
    "groups",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",

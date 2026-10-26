@@ -26,8 +26,7 @@
       "HD2011",
       "EXT_HDX_CODAB",
       "GHA5_CH7"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 1,
@@ -45,8 +44,7 @@
       "OFAHEY2018_FWD",
       "TAKANA2016",
       "EXT_HDX_CODAB"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 2,
@@ -65,8 +63,7 @@
       "GHA6_CH14",
       "OFAHEY2018_FWD",
       "EXT_HDX_CODAB"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 3,
@@ -83,8 +80,7 @@
      "source_ids": [
       "TAKANA2016",
       "GHA5_CH7"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 4,
@@ -101,8 +97,7 @@
      "source_ids": [
       "TAKANA2016",
       "GHA5_CH7"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 5,
@@ -119,8 +114,7 @@
      "source_ids": [
       "TAKANA2016",
       "GHA5_CH7"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 6,
@@ -137,8 +131,7 @@
      "source_ids": [
       "TAKANA2016",
       "GHA5_CH7"
-     ],
-     "low_confidence_overlay": true
+     ]
     }
    ],
    "borders_legend": [
@@ -149,10 +142,6 @@
     {
      "badge": "DERIVED",
      "legend_en": "Derived from a source (geometry built by method, not traced)"
-    },
-    {
-     "badge": "LOW-CONFIDENCE-HATCH",
-     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -1536,9 +1525,42 @@
      "cite": "HD2011"
     }
    ]
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "kordofan-1747",
+     "label_en": "Funj campaign against the Musabba'at in Kordofan",
+     "label_ar": "حملة الفونج على المسبعات في كردفان",
+     "start": 1747,
+     "end": 1747,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Wars for Kordofan (Funj, Musabba'at, Darfur)",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "Y.F. Hasan and B.A. Ogot (1992) The Sudan, 1500–1800, ch.7 (General History of Africa V)",
+       "p": "178",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_region",
   "city_capital",
   "city_capital_list_only",
   "city_garrison",
@@ -1551,7 +1573,6 @@
   "economy_unknown",
   "extent_label_point",
   "list_only_text",
-  "low_confidence",
   "relation_arrow_conflict",
   "trade_route"
  ],
@@ -1571,6 +1592,7 @@
   "SINGLE-SOURCE"
  ],
  "counts": {
+  "battle_region": 1,
   "city_capital": 12,
   "city_capital_list_only": 1,
   "city_garrison": 5,
@@ -1583,12 +1605,12 @@
   "economy_unknown": 1,
   "extent_label_point": 4,
   "list_only_text": 2,
-  "low_confidence": 7,
   "relation_arrow_conflict": 2,
   "trade_route": 1,
   "extent_features": 7,
   "group_features": 4,
-  "cities": 38
+  "cities": 38,
+  "battles": 1
  },
  "context": {
   "key_events_en": [
@@ -1692,6 +1714,7 @@
    "extents",
    "groups",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",

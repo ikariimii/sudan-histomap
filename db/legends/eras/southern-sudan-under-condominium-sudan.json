@@ -1806,9 +1806,358 @@
      "plate": "folding 'Tribal Map of Southern Sudan', unpaginated, end of volume; scan leaf n717"
     }
    ]
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "atbara-1898",
+     "label_en": "Battle of the Atbara",
+     "label_ar": "معركة عطبرة",
+     "start": 1898,
+     "end": 1898,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": true,
+     "war_en": "Anglo-Egyptian reconquest of the Sudan",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "H.A. Ibrahim (based on a contribution by Abbas I. Ali) African initiatives and resistance in North-East Africa (General History of Africa VII, ch.4)",
+       "p": "78",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184296"
+      },
+      {
+       "c": "Winston S. Churchill (1899) The River War: An Historical Account of the Reconquest of the Soudan, Vol. I",
+       "p": "436, 449",
+       "u": "https://archive.org/details/1899RiverWarVol1"
+      }
+     ]
+    },
+    {
+     "id": "karari-1898",
+     "label_en": "Battle of Karari (Omdurman)",
+     "label_ar": "معركة كرري (أم درمان)",
+     "start": 1898,
+     "end": 1898,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": true,
+     "war_en": "Anglo-Egyptian reconquest of the Sudan",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "H.A. Ibrahim (based on a contribution by Abbas I. Ali) African initiatives and resistance in North-East Africa (General History of Africa VII, ch.4)",
+       "p": "78",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184296"
+      },
+      {
+       "c": "Winston S. Churchill (1899) The River War: An Historical Account of the Reconquest of the Soudan, Vol. I",
+       "p": "113, 132",
+       "u": "https://archive.org/details/1899RiverWarVol1"
+      }
+     ]
+    },
+    {
+     "id": "umm-diwaykarat-1899",
+     "label_en": "Battle of Umm Diwaykarat",
+     "label_ar": "معركة أم دبيكرات",
+     "start": 1899,
+     "end": 1899,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Anglo-Egyptian reconquest of the Sudan",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "H.A. Ibrahim (based on a contribution by Abbas I. Ali) African initiatives and resistance in North-East Africa (General History of Africa VII, ch.4)",
+       "p": "78",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184296"
+      }
+     ]
+    },
+    {
+     "id": "darfur-1916",
+     "label_en": "Defeat of Sultan Ali Dinar",
+     "label_ar": "هزيمة السلطان علي دينار",
+     "start": 1916,
+     "end": 1916,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Darfur campaign of 1916",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "M. Crowder (1985) The First World War and its consequences (General History of Africa VII, ch.12)",
+       "p": "283",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184296"
+      }
+     ]
+    },
+    {
+     "id": "torit-1955",
+     "label_en": "Torit mutiny (Equatoria Corps revolt)",
+     "label_ar": "تمرد توريت (الفرقة الاستوائية)",
+     "start": 1955,
+     "end": 1955,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "First Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "A.A. Mazrui (ed.) General History of Africa VIII: Africa since 1935 – Sudan passages ('North Africa and the Horn', pp.148–150; economy and political-succession passages)",
+       "p": "149",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184297"
+      }
+     ]
+    },
+    {
+     "id": "ferkeh-1896",
+     "label_en": "Battle of Firket (Ferkeh)",
+     "label_ar": "معركة فركة",
+     "start": 1896,
+     "end": 1896,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": true,
+     "war_en": "Anglo-Egyptian reconquest of the Sudan",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "Winston S. Churchill (1899) The River War: An Historical Account of the Reconquest of the Soudan, Vol. I",
+       "p": "220",
+       "u": "https://archive.org/details/1899RiverWarVol1"
+      },
+      {
+       "c": "Winston S. Churchill (1899) The River War: An Historical Account of the Reconquest of the Soudan, Vol. I",
+       "p": "181, 218",
+       "u": "https://archive.org/details/1899RiverWarVol1"
+      }
+     ]
+    },
+    {
+     "id": "juba-1992",
+     "label_en": "SPLA-Torit attacks on Juba",
+     "label_ar": "هجمات الجيش الشعبي (فصيل توريت) على جوبا",
+     "start": 1992,
+     "end": 1992,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Second Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch/Africa (1993) Human Rights Watch/Africa, \"Civilian Devastation: Abuses by All Parties in the War in Southern Sudan\", 1993",
+       "p": "Ch. II (government offensive), note 5; Ch. IV (battle for Juba)",
+       "u": "https://www.hrw.org/reports/1993/sudan/"
+      }
+     ]
+    },
+    {
+     "id": "bor-1992",
+     "label_en": "Government dry-season offensive on Bor",
+     "label_ar": "هجوم الحكومة على بور (حملة موسم الجفاف)",
+     "start": 1992,
+     "end": 1992,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Second Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch/Africa (1993) Human Rights Watch/Africa, \"Civilian Devastation: Abuses by All Parties in the War in Southern Sudan\", 1993",
+       "p": "Ch. II, 1992 dry-season offensive (three-prong advance)",
+       "u": "https://www.hrw.org/reports/1993/sudan/"
+      }
+     ]
+    },
+    {
+     "id": "kapoeta-1992",
+     "label_en": "Attack on Kapoeta",
+     "label_ar": "الهجوم على كبويتا",
+     "start": 1992,
+     "end": 1992,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Second Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch/Africa (1993) Human Rights Watch/Africa, \"Civilian Devastation: Abuses by All Parties in the War in Southern Sudan\", 1993",
+       "p": "Ch. II, \"Indiscriminate Government Bombing and the Capture of Kapoeta and Torit in 1992\"",
+       "u": "https://www.hrw.org/reports/1993/sudan/"
+      }
+     ]
+    },
+    {
+     "id": "torit-1992",
+     "label_en": "Government offensive on Torit",
+     "label_ar": "هجوم الحكومة على توريت",
+     "start": 1992,
+     "end": 1992,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Second Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch/Africa (1993) Human Rights Watch/Africa, \"Civilian Devastation: Abuses by All Parties in the War in Southern Sudan\", 1993",
+       "p": "Ch. II, \"Capture of Kapoeta and Torit in 1992\"",
+       "u": "https://www.hrw.org/reports/1993/sudan/"
+      }
+     ]
+    },
+    {
+     "id": "el-fasher-2003",
+     "label_en": "SLA raid on El Fasher airbase",
+     "label_ar": "غارة حركة تحرير السودان على الفاشر",
+     "start": 2003,
+     "end": 2003,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "War in Darfur",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch (2004) Human Rights Watch, \"Darfur in Flames: Atrocities in Western Sudan\", Vol.16 No.5(A), April 2004, Background section",
+       "p": "\"Darfur in Flames\" (Apr 2004), section \"Background\"",
+       "u": "https://www.hrw.org/reports/2004/sudan0404/3.htm"
+      }
+     ]
+    },
+    {
+     "id": "omdurman-2008",
+     "label_en": "JEM attack on Omdurman",
+     "label_ar": "هجوم حركة العدل والمساواة على أم درمان",
+     "start": 2008,
+     "end": 2008,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "War in Darfur",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "UN Security Council (2008) UN Security Council, Statement by the President, S/PRST/2008/15, 13 May 2008",
+       "p": "p.1, para 1",
+       "u": "https://documents.un.org/api/symbol/access?s=S/PRST/2008/15&l=en&t=pdf"
+      }
+     ]
+    },
+    {
+     "id": "kadugli-2011",
+     "label_en": "Outbreak of fighting in Kadugli",
+     "label_ar": "اندلاع القتال في كادقلي",
+     "start": 2011,
+     "end": 2011,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "South Kordofan and Blue Nile conflict",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "OHCHR (2011) OHCHR, \"Preliminary report on violations of international human rights and humanitarian law in Southern Kordofan from 5 to 30 June 2011\" (13th periodic report), August 2011",
+       "p": "para 1 (p.2)",
+       "u": "https://reliefweb.int/sites/reliefweb.int/files/resources/Full_report_217.pdf"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_approximate",
+  "battle_region",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -1833,6 +2182,8 @@
   "SINGLE-SOURCE"
  ],
  "counts": {
+  "battle_approximate": 8,
+  "battle_region": 5,
   "city_capital": 15,
   "city_garrison": 4,
   "city_other": 14,
@@ -1847,7 +2198,8 @@
   "ethno_label_marker": 1,
   "extent_features": 7,
   "group_features": 0,
-  "cities": 49
+  "cities": 49,
+  "battles": 13
  },
  "context": {
   "key_events_en": [
@@ -1950,6 +2302,7 @@
   "layer_toggles": [
    "extents",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",

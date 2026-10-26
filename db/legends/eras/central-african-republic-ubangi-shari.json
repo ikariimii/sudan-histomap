@@ -23,8 +23,7 @@
      "source_ids": [
       "OHM_2839932",
       "IBS16_1962"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 1,
@@ -90,8 +89,7 @@
       "IBS16_1962",
       "OHM_2840001",
       "OHM_2839997"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 5,
@@ -144,10 +142,6 @@
     {
      "badge": "DERIVED",
      "legend_en": "Derived from a source (geometry built by method, not traced)"
-    },
-    {
-     "badge": "LOW-CONFIDENCE-HATCH",
-     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -1806,9 +1800,493 @@
     ]
    },
    "cite": null
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "darfur-1916",
+     "label_en": "Defeat of Sultan Ali Dinar",
+     "label_ar": "هزيمة السلطان علي دينار",
+     "start": 1916,
+     "end": 1916,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Darfur campaign of 1916",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "M. Crowder (1985) The First World War and its consequences (General History of Africa VII, ch.12)",
+       "p": "283",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184296"
+      }
+     ]
+    },
+    {
+     "id": "torit-1955",
+     "label_en": "Torit mutiny (Equatoria Corps revolt)",
+     "label_ar": "تمرد توريت (الفرقة الاستوائية)",
+     "start": 1955,
+     "end": 1955,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "First Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "A.A. Mazrui (ed.) General History of Africa VIII: Africa since 1935 – Sudan passages ('North Africa and the Horn', pp.148–150; economy and political-succession passages)",
+       "p": "149",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184297"
+      }
+     ]
+    },
+    {
+     "id": "juba-1992",
+     "label_en": "SPLA-Torit attacks on Juba",
+     "label_ar": "هجمات الجيش الشعبي (فصيل توريت) على جوبا",
+     "start": 1992,
+     "end": 1992,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Second Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch/Africa (1993) Human Rights Watch/Africa, \"Civilian Devastation: Abuses by All Parties in the War in Southern Sudan\", 1993",
+       "p": "Ch. II (government offensive), note 5; Ch. IV (battle for Juba)",
+       "u": "https://www.hrw.org/reports/1993/sudan/"
+      }
+     ]
+    },
+    {
+     "id": "bor-1992",
+     "label_en": "Government dry-season offensive on Bor",
+     "label_ar": "هجوم الحكومة على بور (حملة موسم الجفاف)",
+     "start": 1992,
+     "end": 1992,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Second Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch/Africa (1993) Human Rights Watch/Africa, \"Civilian Devastation: Abuses by All Parties in the War in Southern Sudan\", 1993",
+       "p": "Ch. II, 1992 dry-season offensive (three-prong advance)",
+       "u": "https://www.hrw.org/reports/1993/sudan/"
+      }
+     ]
+    },
+    {
+     "id": "kapoeta-1992",
+     "label_en": "Attack on Kapoeta",
+     "label_ar": "الهجوم على كبويتا",
+     "start": 1992,
+     "end": 1992,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Second Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch/Africa (1993) Human Rights Watch/Africa, \"Civilian Devastation: Abuses by All Parties in the War in Southern Sudan\", 1993",
+       "p": "Ch. II, \"Indiscriminate Government Bombing and the Capture of Kapoeta and Torit in 1992\"",
+       "u": "https://www.hrw.org/reports/1993/sudan/"
+      }
+     ]
+    },
+    {
+     "id": "torit-1992",
+     "label_en": "Government offensive on Torit",
+     "label_ar": "هجوم الحكومة على توريت",
+     "start": 1992,
+     "end": 1992,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Second Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch/Africa (1993) Human Rights Watch/Africa, \"Civilian Devastation: Abuses by All Parties in the War in Southern Sudan\", 1993",
+       "p": "Ch. II, \"Capture of Kapoeta and Torit in 1992\"",
+       "u": "https://www.hrw.org/reports/1993/sudan/"
+      }
+     ]
+    },
+    {
+     "id": "el-fasher-2003",
+     "label_en": "SLA raid on El Fasher airbase",
+     "label_ar": "غارة حركة تحرير السودان على الفاشر",
+     "start": 2003,
+     "end": 2003,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "War in Darfur",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch (2004) Human Rights Watch, \"Darfur in Flames: Atrocities in Western Sudan\", Vol.16 No.5(A), April 2004, Background section",
+       "p": "\"Darfur in Flames\" (Apr 2004), section \"Background\"",
+       "u": "https://www.hrw.org/reports/2004/sudan0404/3.htm"
+      }
+     ]
+    },
+    {
+     "id": "omdurman-2008",
+     "label_en": "JEM attack on Omdurman",
+     "label_ar": "هجوم حركة العدل والمساواة على أم درمان",
+     "start": 2008,
+     "end": 2008,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "War in Darfur",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "UN Security Council (2008) UN Security Council, Statement by the President, S/PRST/2008/15, 13 May 2008",
+       "p": "p.1, para 1",
+       "u": "https://documents.un.org/api/symbol/access?s=S/PRST/2008/15&l=en&t=pdf"
+      }
+     ]
+    },
+    {
+     "id": "kadugli-2011",
+     "label_en": "Outbreak of fighting in Kadugli",
+     "label_ar": "اندلاع القتال في كادقلي",
+     "start": 2011,
+     "end": 2011,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "South Kordofan and Blue Nile conflict",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "OHCHR (2011) OHCHR, \"Preliminary report on violations of international human rights and humanitarian law in Southern Kordofan from 5 to 30 June 2011\" (13th periodic report), August 2011",
+       "p": "para 1 (p.2)",
+       "u": "https://reliefweb.int/sites/reliefweb.int/files/resources/Full_report_217.pdf"
+      }
+     ]
+    },
+    {
+     "id": "heglig-2012",
+     "label_en": "Heglig crisis",
+     "label_ar": "أزمة هجليج",
+     "start": 2012,
+     "end": 2012,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Sudan–South Sudan border conflict (Heglig crisis)",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "UN Security Council (2012) UN Security Council, Statement by the President, S/PRST/2012/12, 12 April 2012",
+       "p": "p.1, paras 1–2; also UNSC2046 preamble",
+       "u": "https://documents.un.org/api/symbol/access?s=S/PRST/2012/12&l=en&t=pdf"
+      }
+     ]
+    },
+    {
+     "id": "bor-2013",
+     "label_en": "Fighting for Bor",
+     "label_ar": "القتال على بور",
+     "start": 2013,
+     "end": 2013,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "South Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "UNMISS (2014) UNMISS, \"Conflict in South Sudan: A Human Rights Report\", 8 May 2014",
+       "p": "paras 41, 91–92 (pp.16, 25)",
+       "u": "https://unmiss.unmissions.org/sites/default/files/unmiss_conflict_in_south_sudan_-_a_human_rights_report.pdf"
+      }
+     ]
+    },
+    {
+     "id": "malakal-2013",
+     "label_en": "Fighting for Malakal",
+     "label_ar": "القتال على ملكال",
+     "start": 2013,
+     "end": 2014,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "South Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "UNMISS (2014) UNMISS, \"Conflict in South Sudan: A Human Rights Report\", 8 May 2014",
+       "p": "paras 41, 150 (pp.16, 34)",
+       "u": "https://unmiss.unmissions.org/sites/default/files/unmiss_conflict_in_south_sudan_-_a_human_rights_report.pdf"
+      }
+     ]
+    },
+    {
+     "id": "bentiu-2013",
+     "label_en": "Fighting for Bentiu",
+     "label_ar": "القتال على بانتيو",
+     "start": 2013,
+     "end": 2014,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "South Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "UNMISS (2014) UNMISS, \"Conflict in South Sudan: A Human Rights Report\", 8 May 2014",
+       "p": "paras 41, 192–193 (pp.16, 41)",
+       "u": "https://unmiss.unmissions.org/sites/default/files/unmiss_conflict_in_south_sudan_-_a_human_rights_report.pdf"
+      }
+     ]
+    },
+    {
+     "id": "khartoum-2023",
+     "label_en": "Fighting in Khartoum (start of the war)",
+     "label_ar": "القتال في الخرطوم (بداية الحرب)",
+     "start": 2023,
+     "end": 2023,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "War in Sudan (SAF vs RSF)",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2024) Letter dated 15 January 2024 from the Panel of Experts on the Sudan addressed to the President of the Security Council (final report)",
+       "p": "para 4 (PDF p.5)",
+       "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
+      }
+     ]
+    },
+    {
+     "id": "el-geneina-2023",
+     "label_en": "Fighting reported in El Geneina",
+     "label_ar": "القتال المُبلَّغ عنه في الجنينة",
+     "start": 2023,
+     "end": 2023,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "War in Sudan (SAF vs RSF)",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2024) Letter dated 15 January 2024 from the Panel of Experts on the Sudan addressed to the President of the Security Council (final report)",
+       "p": "Table 1 (PDF p.6); sect. VI",
+       "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
+      }
+     ]
+    },
+    {
+     "id": "nyala-2023",
+     "label_en": "Fighting reported around Nyala (SAF 16th Division)",
+     "label_ar": "القتال المُبلَّغ عنه حول نيالا",
+     "start": 2023,
+     "end": 2023,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "War in Sudan (SAF vs RSF)",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2024) Letter dated 15 January 2024 from the Panel of Experts on the Sudan addressed to the President of the Security Council (final report)",
+       "p": "Table 1 (PDF p.6); sect. VII",
+       "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
+      }
+     ]
+    },
+    {
+     "id": "zalingei-2023",
+     "label_en": "Fighting reported in Zalingei (SAF 21st Division)",
+     "label_ar": "القتال المُبلَّغ عنه في زالنجي",
+     "start": 2023,
+     "end": 2023,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "War in Sudan (SAF vs RSF)",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2024) Letter dated 15 January 2024 from the Panel of Experts on the Sudan addressed to the President of the Security Council (final report)",
+       "p": "Table 1 (PDF p.6)",
+       "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
+      }
+     ]
+    },
+    {
+     "id": "ardamatta-2023",
+     "label_en": "Fighting reported at Ardamatta (SAF 15th Division)",
+     "label_ar": "القتال المُبلَّغ عنه في أردمتا",
+     "start": 2023,
+     "end": 2023,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "War in Sudan (SAF vs RSF)",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2024) Letter dated 15 January 2024 from the Panel of Experts on the Sudan addressed to the President of the Security Council (final report)",
+       "p": "Table 1 (PDF p.6); sect. VI",
+       "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
+      }
+     ]
+    },
+    {
+     "id": "el-fasher-2024",
+     "label_en": "Fighting reported in and around El Fasher",
+     "label_ar": "القتال المُبلَّغ عنه في الفاشر ومحيطها",
+     "start": 2024,
+     "end": 2025,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "War in Sudan (SAF vs RSF)",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "UN Security Council Panel of Experts (1591) – copy hosted by The Africa Report (2026 (mid/) Final report of the Panel of Experts on the Sudan (2026)",
+       "p": "para 31 (PDF p.12), sect. III.C.1",
+       "u": "https://prod.cdn-medias.theafricareport.com/medias/2026/10/08/final_report_2791.pdf"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_approximate",
+  "battle_region",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -1821,8 +2299,7 @@
   "control_extent_approx",
   "economy_unknown",
   "flag",
-  "list_only_text",
-  "low_confidence"
+  "list_only_text"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1835,6 +2312,8 @@
   "RUIN-UNDATED"
  ],
  "counts": {
+  "battle_approximate": 16,
+  "battle_region": 3,
   "city_capital": 15,
   "city_garrison": 4,
   "city_other": 14,
@@ -1848,10 +2327,10 @@
   "economy_unknown": 1,
   "flag": 1,
   "list_only_text": 2,
-  "low_confidence": 2,
   "extent_features": 8,
   "group_features": 0,
-  "cities": 49
+  "cities": 49,
+  "battles": 19
  },
  "context": {
   "key_events_en": [
@@ -1903,6 +2382,7 @@
   "layer_toggles": [
    "extents",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",

@@ -36,8 +36,7 @@
      "source_ids": [
       "GHA2_CH7",
       "PLEIADES_795815"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 2,
@@ -58,6 +57,7 @@
      "zone": "core",
      "confidence": 0.75,
      "confidence_word": "high",
+     "confidence_style": "solid",
      "low_confidence_overlay": false
     },
     {
@@ -80,7 +80,8 @@
      "zone": "contested",
      "confidence": 0.4,
      "confidence_word": "medium",
-     "low_confidence_overlay": true
+     "confidence_style": "contested",
+     "low_confidence_overlay": false
     }
    ],
    "borders_legend": [
@@ -95,10 +96,6 @@
     {
      "badge": "DERIVED",
      "legend_en": "Derived from a source (geometry built by method, not traced)"
-    },
-    {
-     "badge": "LOW-CONFIDENCE-HATCH",
-     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -647,6 +644,7 @@
      "legend_en": "Draft border (confidence: high 0.75)",
      "symbol_class": "zone_core",
      "swatch": {
+      "geometry": "polygon",
       "fill": "#7a6bd0",
       "fill_opacity": 0.35,
       "stroke": "solid 1.2px",
@@ -675,6 +673,7 @@
      "legend_en": "Draft border (confidence: medium 0.4)",
      "symbol_class": "zone_contested",
      "swatch": {
+      "geometry": "point",
       "fill": "#e0a63e",
       "fill_opacity": 0.6,
       "stroke": "#e0a63e",
@@ -682,8 +681,7 @@
        4,
        3
       ],
-      "confidence_style": "contested",
-      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+      "confidence_style": "contested"
      },
      "badges": [
       "APPROXIMATE",
@@ -713,7 +711,6 @@
   "city_town",
   "economy_unknown",
   "extent_label_point",
-  "low_confidence",
   "zone_contested",
   "zone_core"
  ],
@@ -738,12 +735,12 @@
   "city_town": 1,
   "economy_unknown": 1,
   "extent_label_point": 2,
-  "low_confidence": 2,
   "zone_contested": 1,
   "zone_core": 1,
   "extent_features": 4,
   "group_features": 0,
-  "cities": 14
+  "cities": 14,
+  "battles": 0
  },
  "context": {
   "key_events_en": [

@@ -24,8 +24,7 @@
       "OHM_2960090",
       "DERDA_LAJTAR2019",
       "GHA2_CH12"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 1,
@@ -43,8 +42,7 @@
       "OHM_2960090",
       "DERDA_LAJTAR2019",
       "GHA2_CH12"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 2,
@@ -60,8 +58,7 @@
      "end": 1268,
      "source_ids": [
       "OHM_2960089"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 3,
@@ -77,8 +74,7 @@
      "end": 1276,
      "source_ids": [
       "OHM_2960088"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 4,
@@ -94,8 +90,7 @@
      "end": 1500,
      "source_ids": [
       "SFDAS_HCS2017"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 5,
@@ -111,8 +106,7 @@
      "end": 1500,
      "source_ids": [
       "SFDAS_HCS2017"
-     ],
-     "low_confidence_overlay": true
+     ]
     }
    ],
    "borders_legend": [
@@ -123,10 +117,6 @@
     {
      "badge": "DERIVED",
      "legend_en": "Derived from a source (geometry built by method, not traced)"
-    },
-    {
-     "badge": "LOW-CONFIDENCE-HATCH",
-     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -1252,9 +1242,93 @@
      "cite": "GHA3_CH3"
     }
    ]
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "dongola-642",
+     "label_en": "First Arab campaign against Makuria",
+     "label_ar": "الحملة العربية الأولى على المقرة",
+     "start": 642,
+     "end": 642,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Arab–Nubian wars",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "405",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      }
+     ]
+    },
+    {
+     "id": "dongola-652",
+     "label_en": "Siege of Dongola and the Baqt treaty",
+     "label_ar": "حصار دنقلا ومعاهدة البقط",
+     "start": 652,
+     "end": 652,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Arab–Nubian wars",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "405",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      }
+     ]
+    },
+    {
+     "id": "dongola-1276",
+     "label_en": "Mamluk expedition to Dongola",
+     "label_ar": "الحملة المملوكية على دنقلا",
+     "start": 1276,
+     "end": 1276,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Mamluk expeditions into Makuria",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "419",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_approximate",
+  "battle_region",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -1266,7 +1340,6 @@
   "economy_unknown",
   "extent_label_point",
   "list_only_text",
-  "low_confidence",
   "relation_arrow_conflict",
   "trade_route"
  ],
@@ -1285,6 +1358,8 @@
   "SINGLE-SOURCE"
  ],
  "counts": {
+  "battle_approximate": 2,
+  "battle_region": 1,
   "city_capital": 11,
   "city_garrison": 3,
   "city_other": 5,
@@ -1296,12 +1371,12 @@
   "economy_unknown": 1,
   "extent_label_point": 2,
   "list_only_text": 1,
-  "low_confidence": 6,
   "relation_arrow_conflict": 1,
   "trade_route": 1,
   "extent_features": 6,
   "group_features": 2,
-  "cities": 29
+  "cities": 29,
+  "battles": 3
  },
  "context": {
   "key_events_en": [
@@ -1414,6 +1489,7 @@
    "extents",
    "groups",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",

@@ -23,8 +23,7 @@
      "source_ids": [
       "OFAHEY_SPAULDING1972",
       "OFAHEY2008"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 1,
@@ -45,6 +44,7 @@
      "zone": "influence",
      "confidence": 0.3,
      "confidence_word": "low",
+     "confidence_style": "hatched",
      "low_confidence_overlay": true
     }
    ],
@@ -63,7 +63,7 @@
     },
     {
      "badge": "LOW-CONFIDENCE-HATCH",
-     "legend_en": "Hatched: low confidence (< 0.5)"
+     "legend_en": "Hatched: lower-confidence estimate"
     }
    ]
   },
@@ -1058,12 +1058,14 @@
      "legend_en": "Draft border (confidence: low 0.3)",
      "symbol_class": "zone_influence",
      "swatch": {
+      "geometry": "polygon",
       "fill": "#7a6bd0",
       "fill_opacity": 0.08,
       "stroke": "none",
       "feather": "radial/feathered edge (blur 6px or 3-step inset .08/.05/.02)",
       "confidence_style": "hatched",
-      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+      "overlay": "45° hairlines, 8px tile, 1px stroke #e8eef2 (map.js pattern #lowconf)",
+      "overlay_opacity": 0.6
      },
      "badges": [
       "APPROXIMATE",
@@ -1080,9 +1082,42 @@
      }
     }
    ]
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "kordofan-1747",
+     "label_en": "Funj campaign against the Musabba'at in Kordofan",
+     "label_ar": "حملة الفونج على المسبعات في كردفان",
+     "start": 1747,
+     "end": 1747,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Wars for Kordofan (Funj, Musabba'at, Darfur)",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "Y.F. Hasan and B.A. Ogot (1992) The Sudan, 1500–1800, ch.7 (General History of Africa V)",
+       "p": "178",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_region",
   "border_draft",
   "city_capital",
   "city_garrison",
@@ -1109,6 +1144,7 @@
   "RUIN-UNDATED"
  ],
  "counts": {
+  "battle_region": 1,
   "border_draft": 1,
   "city_capital": 10,
   "city_garrison": 2,
@@ -1119,11 +1155,12 @@
   "city_town": 3,
   "economy_unknown": 1,
   "extent_label_point": 1,
-  "low_confidence": 2,
+  "low_confidence": 1,
   "zone_influence": 1,
   "extent_features": 2,
   "group_features": 0,
-  "cities": 28
+  "cities": 28,
+  "battles": 1
  },
  "context": {
   "key_events_en": [
@@ -1209,6 +1246,7 @@
   "layer_toggles": [
    "extents",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",

@@ -1853,9 +1853,168 @@
     ]
    },
    "cite": "WB_MPO_SDN_OCT2026"
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "khartoum-2023",
+     "label_en": "Fighting in Khartoum (start of the war)",
+     "label_ar": "القتال في الخرطوم (بداية الحرب)",
+     "start": 2023,
+     "end": 2023,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "War in Sudan (SAF vs RSF)",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2024) Letter dated 15 January 2024 from the Panel of Experts on the Sudan addressed to the President of the Security Council (final report)",
+       "p": "para 4 (PDF p.5)",
+       "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
+      }
+     ]
+    },
+    {
+     "id": "el-geneina-2023",
+     "label_en": "Fighting reported in El Geneina",
+     "label_ar": "القتال المُبلَّغ عنه في الجنينة",
+     "start": 2023,
+     "end": 2023,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "War in Sudan (SAF vs RSF)",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2024) Letter dated 15 January 2024 from the Panel of Experts on the Sudan addressed to the President of the Security Council (final report)",
+       "p": "Table 1 (PDF p.6); sect. VI",
+       "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
+      }
+     ]
+    },
+    {
+     "id": "nyala-2023",
+     "label_en": "Fighting reported around Nyala (SAF 16th Division)",
+     "label_ar": "القتال المُبلَّغ عنه حول نيالا",
+     "start": 2023,
+     "end": 2023,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "War in Sudan (SAF vs RSF)",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2024) Letter dated 15 January 2024 from the Panel of Experts on the Sudan addressed to the President of the Security Council (final report)",
+       "p": "Table 1 (PDF p.6); sect. VII",
+       "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
+      }
+     ]
+    },
+    {
+     "id": "zalingei-2023",
+     "label_en": "Fighting reported in Zalingei (SAF 21st Division)",
+     "label_ar": "القتال المُبلَّغ عنه في زالنجي",
+     "start": 2023,
+     "end": 2023,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "War in Sudan (SAF vs RSF)",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2024) Letter dated 15 January 2024 from the Panel of Experts on the Sudan addressed to the President of the Security Council (final report)",
+       "p": "Table 1 (PDF p.6)",
+       "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
+      }
+     ]
+    },
+    {
+     "id": "ardamatta-2023",
+     "label_en": "Fighting reported at Ardamatta (SAF 15th Division)",
+     "label_ar": "القتال المُبلَّغ عنه في أردمتا",
+     "start": 2023,
+     "end": 2023,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "War in Sudan (SAF vs RSF)",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2024) Letter dated 15 January 2024 from the Panel of Experts on the Sudan addressed to the President of the Security Council (final report)",
+       "p": "Table 1 (PDF p.6); sect. VI",
+       "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
+      }
+     ]
+    },
+    {
+     "id": "el-fasher-2024",
+     "label_en": "Fighting reported in and around El Fasher",
+     "label_ar": "القتال المُبلَّغ عنه في الفاشر ومحيطها",
+     "start": 2024,
+     "end": 2025,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "War in Sudan (SAF vs RSF)",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "UN Security Council Panel of Experts (1591) – copy hosted by The Africa Report (2026 (mid/) Final report of the Panel of Experts on the Sudan (2026)",
+       "p": "para 31 (PDF p.12), sect. III.C.1",
+       "u": "https://prod.cdn-medias.theafricareport.com/medias/2026/10/08/final_report_2791.pdf"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_approximate",
+  "battle_region",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -1884,6 +2043,8 @@
   "SINGLE-SOURCE"
  ],
  "counts": {
+  "battle_approximate": 5,
+  "battle_region": 1,
   "city_capital": 15,
   "city_garrison": 4,
   "city_other": 16,
@@ -1901,7 +2062,8 @@
   "reported_point": 2,
   "extent_features": 12,
   "group_features": 0,
-  "cities": 49
+  "cities": 49,
+  "battles": 6
  },
  "context": {
   "key_events_en": [
@@ -1995,6 +2157,7 @@
   "layer_toggles": [
    "extents",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",

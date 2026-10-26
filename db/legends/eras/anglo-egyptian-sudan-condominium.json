@@ -24,8 +24,7 @@
       "OHM_2831546",
       "HD2011",
       "EXT_HDX_CODAB"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 1,
@@ -43,8 +42,7 @@
       "OHM_2926749",
       "HD2011",
       "EXT_HDX_CODAB"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 2,
@@ -62,8 +60,7 @@
       "OHM_2961763",
       "HD2011",
       "EXT_HDX_CODAB"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 3,
@@ -81,8 +78,7 @@
       "OHM_2961762",
       "HD2011",
       "EXT_HDX_CODAB"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 4,
@@ -98,8 +94,7 @@
      "end": 1934,
      "source_ids": [
       "OHM_2961762"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 5,
@@ -115,8 +110,7 @@
      "end": 1956,
      "source_ids": [
       "OHM_2803203"
-     ],
-     "low_confidence_overlay": true
+     ]
     }
    ],
    "borders_legend": [
@@ -127,10 +121,6 @@
     {
      "badge": "DERIVED",
      "legend_en": "Derived from a source (geometry built by method, not traced)"
-    },
-    {
-     "badge": "LOW-CONFIDENCE-HATCH",
-     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -1793,9 +1783,183 @@
      "cite": "GHA7_CH17"
     }
    ]
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "atbara-1898",
+     "label_en": "Battle of the Atbara",
+     "label_ar": "معركة عطبرة",
+     "start": 1898,
+     "end": 1898,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": true,
+     "war_en": "Anglo-Egyptian reconquest of the Sudan",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "H.A. Ibrahim (based on a contribution by Abbas I. Ali) African initiatives and resistance in North-East Africa (General History of Africa VII, ch.4)",
+       "p": "78",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184296"
+      },
+      {
+       "c": "Winston S. Churchill (1899) The River War: An Historical Account of the Reconquest of the Soudan, Vol. I",
+       "p": "436, 449",
+       "u": "https://archive.org/details/1899RiverWarVol1"
+      }
+     ]
+    },
+    {
+     "id": "karari-1898",
+     "label_en": "Battle of Karari (Omdurman)",
+     "label_ar": "معركة كرري (أم درمان)",
+     "start": 1898,
+     "end": 1898,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": true,
+     "war_en": "Anglo-Egyptian reconquest of the Sudan",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "H.A. Ibrahim (based on a contribution by Abbas I. Ali) African initiatives and resistance in North-East Africa (General History of Africa VII, ch.4)",
+       "p": "78",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184296"
+      },
+      {
+       "c": "Winston S. Churchill (1899) The River War: An Historical Account of the Reconquest of the Soudan, Vol. I",
+       "p": "113, 132",
+       "u": "https://archive.org/details/1899RiverWarVol1"
+      }
+     ]
+    },
+    {
+     "id": "umm-diwaykarat-1899",
+     "label_en": "Battle of Umm Diwaykarat",
+     "label_ar": "معركة أم دبيكرات",
+     "start": 1899,
+     "end": 1899,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Anglo-Egyptian reconquest of the Sudan",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "H.A. Ibrahim (based on a contribution by Abbas I. Ali) African initiatives and resistance in North-East Africa (General History of Africa VII, ch.4)",
+       "p": "78",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184296"
+      }
+     ]
+    },
+    {
+     "id": "darfur-1916",
+     "label_en": "Defeat of Sultan Ali Dinar",
+     "label_ar": "هزيمة السلطان علي دينار",
+     "start": 1916,
+     "end": 1916,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Darfur campaign of 1916",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "M. Crowder (1985) The First World War and its consequences (General History of Africa VII, ch.12)",
+       "p": "283",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184296"
+      }
+     ]
+    },
+    {
+     "id": "torit-1955",
+     "label_en": "Torit mutiny (Equatoria Corps revolt)",
+     "label_ar": "تمرد توريت (الفرقة الاستوائية)",
+     "start": 1955,
+     "end": 1955,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "First Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "A.A. Mazrui (ed.) General History of Africa VIII: Africa since 1935 – Sudan passages ('North Africa and the Horn', pp.148–150; economy and political-succession passages)",
+       "p": "149",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184297"
+      }
+     ]
+    },
+    {
+     "id": "ferkeh-1896",
+     "label_en": "Battle of Firket (Ferkeh)",
+     "label_ar": "معركة فركة",
+     "start": 1896,
+     "end": 1896,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": true,
+     "war_en": "Anglo-Egyptian reconquest of the Sudan",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "Winston S. Churchill (1899) The River War: An Historical Account of the Reconquest of the Soudan, Vol. I",
+       "p": "220",
+       "u": "https://archive.org/details/1899RiverWarVol1"
+      },
+      {
+       "c": "Winston S. Churchill (1899) The River War: An Historical Account of the Reconquest of the Soudan, Vol. I",
+       "p": "181, 218",
+       "u": "https://archive.org/details/1899RiverWarVol1"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_approximate",
+  "battle_region",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -1808,7 +1972,6 @@
   "economy_editorial_marker",
   "economy_mixed",
   "flag",
-  "low_confidence",
   "relation_arrow_conflict",
   "trade_route"
  ],
@@ -1824,6 +1987,8 @@
   "SINGLE-SOURCE"
  ],
  "counts": {
+  "battle_approximate": 1,
+  "battle_region": 5,
   "city_capital": 14,
   "city_garrison": 4,
   "city_other": 14,
@@ -1836,12 +2001,12 @@
   "economy_editorial_marker": 1,
   "economy_mixed": 1,
   "flag": 3,
-  "low_confidence": 6,
   "relation_arrow_conflict": 1,
   "trade_route": 1,
   "extent_features": 6,
   "group_features": 1,
-  "cities": 47
+  "cities": 47,
+  "battles": 6
  },
  "context": {
   "key_events_en": [
@@ -1938,6 +2103,7 @@
    "extents",
    "groups",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",

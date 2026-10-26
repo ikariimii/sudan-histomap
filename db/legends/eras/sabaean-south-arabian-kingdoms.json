@@ -710,9 +710,133 @@
     ]
    },
    "cite": null
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "kerma--1500",
+     "label_en": "Thutmose I's campaign against Kerma",
+     "label_ar": "حملة تحتمس الأول على كرمة",
+     "start": -1500,
+     "end": -1500,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": true,
+     "war_en": "Egyptian–Kushite wars",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "92",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      }
+     ]
+    },
+    {
+     "id": "kerma--593",
+     "label_en": "Psamtik II's expedition against Napatan Kush (Pnoubs/Kerma)",
+     "label_ar": "حملة بسماتيك الثاني على مملكة نبتة (بنوبس/كرمة)",
+     "start": -593,
+     "end": -593,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Egyptian–Kushite wars",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "164–165",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      }
+     ]
+    },
+    {
+     "id": "napata--23",
+     "label_en": "Petronius's expedition and capture of Napata",
+     "label_ar": "حملة بترونيوس والاستيلاء على نبتة",
+     "start": -23,
+     "end": -23,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Roman–Meroitic war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "J. Leclant (1981) The empire of Kush: Napata and Meroe, ch.10 (General History of Africa II)",
+       "p": "290",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
+      },
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "243–244",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      }
+     ]
+    },
+    {
+     "id": "memphis--720",
+     "label_en": "Piye's capture of Memphis",
+     "label_ar": "استيلاء بيي على منف",
+     "start": -720,
+     "end": -720,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Piye's conquest of Egypt",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "137–138",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      },
+      {
+       "c": "A. Abu Bakr (1981) Pharaonic Egypt, ch.2 (General History of Africa II)",
+       "p": "106",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
+      },
+      {
+       "c": "J. Leclant (1981) The empire of Kush: Napata and Meroe, ch.10 (General History of Africa II)",
+       "p": "280",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_approximate",
+  "battle_region",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -733,6 +857,8 @@
   "RUIN-UNDATED"
  ],
  "counts": {
+  "battle_approximate": 3,
+  "battle_region": 1,
   "city_capital": 4,
   "city_garrison": 2,
   "city_other": 4,
@@ -743,7 +869,8 @@
   "extent_label_point": 1,
   "extent_features": 1,
   "group_features": 0,
-  "cities": 18
+  "cities": 18,
+  "battles": 4
  },
  "context": {
   "key_events_en": [
@@ -805,6 +932,7 @@
   "layer_toggles": [
    "extents",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",

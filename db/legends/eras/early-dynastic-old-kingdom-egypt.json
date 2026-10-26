@@ -39,8 +39,7 @@
      "source_ids": [
       "GHA2_CH9",
       "GHA2_CH8"
-     ],
-     "low_confidence_overlay": true
+     ]
     }
    ],
    "borders_legend": [
@@ -51,10 +50,6 @@
     {
      "badge": "DERIVED",
      "legend_en": "Derived from a source (geometry built by method, not traced)"
-    },
-    {
-     "badge": "LOW-CONFIDENCE-HATCH",
-     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -213,8 +208,7 @@
   "city_capital",
   "city_garrison",
   "economy_unknown",
-  "extent_label_point",
-  "low_confidence"
+  "extent_label_point"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -229,10 +223,10 @@
   "city_garrison": 1,
   "economy_unknown": 1,
   "extent_label_point": 2,
-  "low_confidence": 1,
   "extent_features": 2,
   "group_features": 0,
-  "cities": 2
+  "cities": 2,
+  "battles": 0
  },
  "context": {
   "key_events_en": [

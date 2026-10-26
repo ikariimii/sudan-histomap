@@ -1836,9 +1836,293 @@
      "cite": "EIA_SDN2013"
     }
    ]
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "juba-1992",
+     "label_en": "SPLA-Torit attacks on Juba",
+     "label_ar": "هجمات الجيش الشعبي (فصيل توريت) على جوبا",
+     "start": 1992,
+     "end": 1992,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Second Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch/Africa (1993) Human Rights Watch/Africa, \"Civilian Devastation: Abuses by All Parties in the War in Southern Sudan\", 1993",
+       "p": "Ch. II (government offensive), note 5; Ch. IV (battle for Juba)",
+       "u": "https://www.hrw.org/reports/1993/sudan/"
+      }
+     ]
+    },
+    {
+     "id": "bor-1992",
+     "label_en": "Government dry-season offensive on Bor",
+     "label_ar": "هجوم الحكومة على بور (حملة موسم الجفاف)",
+     "start": 1992,
+     "end": 1992,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Second Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch/Africa (1993) Human Rights Watch/Africa, \"Civilian Devastation: Abuses by All Parties in the War in Southern Sudan\", 1993",
+       "p": "Ch. II, 1992 dry-season offensive (three-prong advance)",
+       "u": "https://www.hrw.org/reports/1993/sudan/"
+      }
+     ]
+    },
+    {
+     "id": "kapoeta-1992",
+     "label_en": "Attack on Kapoeta",
+     "label_ar": "الهجوم على كبويتا",
+     "start": 1992,
+     "end": 1992,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Second Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch/Africa (1993) Human Rights Watch/Africa, \"Civilian Devastation: Abuses by All Parties in the War in Southern Sudan\", 1993",
+       "p": "Ch. II, \"Indiscriminate Government Bombing and the Capture of Kapoeta and Torit in 1992\"",
+       "u": "https://www.hrw.org/reports/1993/sudan/"
+      }
+     ]
+    },
+    {
+     "id": "torit-1992",
+     "label_en": "Government offensive on Torit",
+     "label_ar": "هجوم الحكومة على توريت",
+     "start": 1992,
+     "end": 1992,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Second Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch/Africa (1993) Human Rights Watch/Africa, \"Civilian Devastation: Abuses by All Parties in the War in Southern Sudan\", 1993",
+       "p": "Ch. II, \"Capture of Kapoeta and Torit in 1992\"",
+       "u": "https://www.hrw.org/reports/1993/sudan/"
+      }
+     ]
+    },
+    {
+     "id": "el-fasher-2003",
+     "label_en": "SLA raid on El Fasher airbase",
+     "label_ar": "غارة حركة تحرير السودان على الفاشر",
+     "start": 2003,
+     "end": 2003,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "War in Darfur",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch (2004) Human Rights Watch, \"Darfur in Flames: Atrocities in Western Sudan\", Vol.16 No.5(A), April 2004, Background section",
+       "p": "\"Darfur in Flames\" (Apr 2004), section \"Background\"",
+       "u": "https://www.hrw.org/reports/2004/sudan0404/3.htm"
+      }
+     ]
+    },
+    {
+     "id": "omdurman-2008",
+     "label_en": "JEM attack on Omdurman",
+     "label_ar": "هجوم حركة العدل والمساواة على أم درمان",
+     "start": 2008,
+     "end": 2008,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "War in Darfur",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "UN Security Council (2008) UN Security Council, Statement by the President, S/PRST/2008/15, 13 May 2008",
+       "p": "p.1, para 1",
+       "u": "https://documents.un.org/api/symbol/access?s=S/PRST/2008/15&l=en&t=pdf"
+      }
+     ]
+    },
+    {
+     "id": "kadugli-2011",
+     "label_en": "Outbreak of fighting in Kadugli",
+     "label_ar": "اندلاع القتال في كادقلي",
+     "start": 2011,
+     "end": 2011,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "South Kordofan and Blue Nile conflict",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "OHCHR (2011) OHCHR, \"Preliminary report on violations of international human rights and humanitarian law in Southern Kordofan from 5 to 30 June 2011\" (13th periodic report), August 2011",
+       "p": "para 1 (p.2)",
+       "u": "https://reliefweb.int/sites/reliefweb.int/files/resources/Full_report_217.pdf"
+      }
+     ]
+    },
+    {
+     "id": "heglig-2012",
+     "label_en": "Heglig crisis",
+     "label_ar": "أزمة هجليج",
+     "start": 2012,
+     "end": 2012,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Sudan–South Sudan border conflict (Heglig crisis)",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "UN Security Council (2012) UN Security Council, Statement by the President, S/PRST/2012/12, 12 April 2012",
+       "p": "p.1, paras 1–2; also UNSC2046 preamble",
+       "u": "https://documents.un.org/api/symbol/access?s=S/PRST/2012/12&l=en&t=pdf"
+      }
+     ]
+    },
+    {
+     "id": "bor-2013",
+     "label_en": "Fighting for Bor",
+     "label_ar": "القتال على بور",
+     "start": 2013,
+     "end": 2013,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "South Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "UNMISS (2014) UNMISS, \"Conflict in South Sudan: A Human Rights Report\", 8 May 2014",
+       "p": "paras 41, 91–92 (pp.16, 25)",
+       "u": "https://unmiss.unmissions.org/sites/default/files/unmiss_conflict_in_south_sudan_-_a_human_rights_report.pdf"
+      }
+     ]
+    },
+    {
+     "id": "malakal-2013",
+     "label_en": "Fighting for Malakal",
+     "label_ar": "القتال على ملكال",
+     "start": 2013,
+     "end": 2014,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "South Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "UNMISS (2014) UNMISS, \"Conflict in South Sudan: A Human Rights Report\", 8 May 2014",
+       "p": "paras 41, 150 (pp.16, 34)",
+       "u": "https://unmiss.unmissions.org/sites/default/files/unmiss_conflict_in_south_sudan_-_a_human_rights_report.pdf"
+      }
+     ]
+    },
+    {
+     "id": "bentiu-2013",
+     "label_en": "Fighting for Bentiu",
+     "label_ar": "القتال على بانتيو",
+     "start": 2013,
+     "end": 2014,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "South Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "UNMISS (2014) UNMISS, \"Conflict in South Sudan: A Human Rights Report\", 8 May 2014",
+       "p": "paras 41, 192–193 (pp.16, 41)",
+       "u": "https://unmiss.unmissions.org/sites/default/files/unmiss_conflict_in_south_sudan_-_a_human_rights_report.pdf"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_approximate",
+  "battle_region",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -1867,6 +2151,8 @@
   "RUIN-UNDATED"
  ],
  "counts": {
+  "battle_approximate": 10,
+  "battle_region": 1,
   "city_capital": 15,
   "city_garrison": 4,
   "city_other": 16,
@@ -1885,20 +2171,23 @@
   "trade_route": 1,
   "extent_features": 9,
   "group_features": 1,
-  "cities": 49
+  "cities": 49,
+  "battles": 11
  },
  "context": {
   "key_events_en": [
    "30 June 1989 coup (SFDAS_HCS2017 p.731)",
    "Darfur conflict: incidents from February 2003; ICC arrest warrant for President al-Bashir, 4 March 2009",
    "Comprehensive Peace Agreement 2005 (CPA_2005 cover letter p.1)",
-   "South Sudan secedes 9 July 2011 (UNSC1996 p.1)"
+   "South Sudan secedes 9 July 2011 (UNSC1996 p.1)",
+   "Sudan–South Sudan Cooperation Agreements signed 27 September 2012 in Addis Ababa"
   ],
   "key_events_ar": [
    "انقلاب 30 يونيو 1989 (SFDAS_HCS2017 p.731)",
    "نزاع دارفور منذ فبراير 2003؛ مذكرة توقيف من المحكمة الجنائية الدولية بحق البشير 4 مارس 2009 [يحتاج تحقق]",
    "اتفاقية السلام الشامل 2005 (CPA_2005 cover letter p.1)",
-   "انفصال جنوب السودان 9 يوليو 2011 (UNSC1996 p.1)"
+   "انفصال جنوب السودان 9 يوليو 2011 (UNSC1996 p.1)",
+   "توقيع اتفاقيات التعاون بين السودان وجنوب السودان في 27 سبتمبر 2012 بأديس أبابا [يحتاج تحقق]"
   ],
   "key_events": [
    {
@@ -1970,6 +2259,23 @@
     ],
     "badges": [],
     "origin": "data/periods.json"
+   },
+   {
+    "event_id": "al-bashir-ncp-ingaz-regime#4",
+    "en": "Sudan–South Sudan Cooperation Agreements signed 27 September 2012 in Addis Ababa",
+    "ar": "توقيع اتفاقيات التعاون بين السودان وجنوب السودان في 27 سبتمبر 2012 بأديس أبابا [يحتاج تحقق]",
+    "date": 2012,
+    "cite": [
+     {
+      "source_id": "UNSC2075",
+      "pages": "p.1, preamble"
+     }
+    ],
+    "source_ids": [
+     "UNSC2075"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
    }
   ],
   "key_events_source_ids": [
@@ -1978,7 +2284,8 @@
    "CPA_2005",
    "UNSC1996",
    "UNSC_S2005_60",
-   "UN_NEWS_2009_292942"
+   "UN_NEWS_2009_292942",
+   "UNSC2075"
   ],
   "dating_note": "Holt & Daly 6th ed. (2011) covers to c.2010; the 9 July 2011 secession is cited to UNSC1996.",
   "capitals": [
@@ -2001,6 +2308,7 @@
    "extents",
    "groups",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",

@@ -25,8 +25,7 @@
       "GHAIII",
       "GHAIV",
       "WP:Kanem_Empire"
-     ],
-     "low_confidence_overlay": true
+     ]
     }
    ],
    "borders_legend": [
@@ -37,10 +36,6 @@
     {
      "badge": "DERIVED",
      "legend_en": "Derived from a source (geometry built by method, not traced)"
-    },
-    {
-     "badge": "LOW-CONFIDENCE-HATCH",
-     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -889,9 +884,42 @@
     ]
    },
    "cite": null
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "dongola-1276",
+     "label_en": "Mamluk expedition to Dongola",
+     "label_ar": "الحملة المملوكية على دنقلا",
+     "start": 1276,
+     "end": 1276,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Mamluk expeditions into Makuria",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "419",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_approximate",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -899,8 +927,7 @@
   "city_port",
   "city_religious",
   "control_extent_approx",
-  "economy_unknown",
-  "low_confidence"
+  "economy_unknown"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -914,6 +941,7 @@
   "RUIN-UNDATED"
  ],
  "counts": {
+  "battle_approximate": 1,
   "city_capital": 9,
   "city_garrison": 3,
   "city_other": 3,
@@ -922,10 +950,10 @@
   "city_religious": 4,
   "control_extent_approx": 1,
   "economy_unknown": 1,
-  "low_confidence": 1,
   "extent_features": 1,
   "group_features": 0,
-  "cities": 22
+  "cities": 22,
+  "battles": 1
  },
  "context": {
   "key_events_en": [
@@ -968,6 +996,7 @@
   "layer_toggles": [
    "extents",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",

@@ -54,8 +54,7 @@
      "source_ids": [
       "GHA2_CH7",
       "GHA2_CH10"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 3,
@@ -76,6 +75,7 @@
      "zone": "core",
      "confidence": 0.75,
      "confidence_word": "high",
+     "confidence_style": "solid",
      "low_confidence_overlay": false
     },
     {
@@ -96,7 +96,8 @@
      "zone": "claimed",
      "confidence": 0.5,
      "confidence_word": "medium",
-     "low_confidence_overlay": false
+     "confidence_style": "hatched",
+     "low_confidence_overlay": true
     }
    ],
    "borders_legend": [
@@ -114,7 +115,7 @@
     },
     {
      "badge": "LOW-CONFIDENCE-HATCH",
-     "legend_en": "Hatched: low confidence (< 0.5)"
+     "legend_en": "Hatched: lower-confidence estimate"
     }
    ]
   },
@@ -993,6 +994,7 @@
      "legend_en": "Draft border (confidence: high 0.75)",
      "symbol_class": "zone_core",
      "swatch": {
+      "geometry": "polygon",
       "fill": "#7a6bd0",
       "fill_opacity": 0.35,
       "stroke": "solid 1.2px",
@@ -1020,6 +1022,7 @@
      "legend_en": "Draft border (confidence: medium 0.5)",
      "symbol_class": "zone_claimed",
      "swatch": {
+      "geometry": "polygon",
       "fill": "#7a6bd0",
       "fill_opacity": 0.18,
       "stroke": "1.2px",
@@ -1027,7 +1030,9 @@
        4,
        3
       ],
-      "confidence_style": "hatched"
+      "confidence_style": "hatched",
+      "overlay": "45° hairlines, 8px tile, 1px stroke #e8eef2 (map.js pattern #lowconf)",
+      "overlay_opacity": 0.6
      },
      "badges": [
       "APPROXIMATE"
@@ -1043,9 +1048,78 @@
      }
     }
    ]
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "napata--23",
+     "label_en": "Petronius's expedition and capture of Napata",
+     "label_ar": "حملة بترونيوس والاستيلاء على نبتة",
+     "start": -23,
+     "end": -23,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Roman–Meroitic war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "J. Leclant (1981) The empire of Kush: Napata and Meroe, ch.10 (General History of Africa II)",
+       "p": "290",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
+      },
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "243–244",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      }
+     ]
+    },
+    {
+     "id": "meroe-330",
+     "label_en": "Ezana of Aksum's campaign against the Kushites and Noba",
+     "label_ar": "حملة عيزانا ملك أكسوم على الكوشيين والنوبة",
+     "start": 330,
+     "end": 350,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Aksum's campaigns against Kush",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "325",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      },
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "326",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_approximate",
+  "battle_region",
   "border_draft",
   "city_capital",
   "city_garrison",
@@ -1073,6 +1147,8 @@
   "SINGLE-SOURCE"
  ],
  "counts": {
+  "battle_approximate": 1,
+  "battle_region": 1,
   "border_draft": 2,
   "city_capital": 9,
   "city_garrison": 2,
@@ -1087,7 +1163,8 @@
   "zone_core": 1,
   "extent_features": 5,
   "group_features": 0,
-  "cities": 23
+  "cities": 23,
+  "battles": 2
  },
  "context": {
   "key_events_en": [
@@ -1150,6 +1227,7 @@
   "layer_toggles": [
    "extents",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",

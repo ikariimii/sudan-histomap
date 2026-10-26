@@ -23,8 +23,7 @@
      "source_ids": [
       "HD2011",
       "WP:Ali_Dinar"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 1,
@@ -46,6 +45,7 @@
      "zone": "core",
      "confidence": 0.5,
      "confidence_word": "medium",
+     "confidence_style": "solid",
      "low_confidence_overlay": false
     },
     {
@@ -67,7 +67,8 @@
      "zone": "contested",
      "confidence": 0.4,
      "confidence_word": "medium",
-     "low_confidence_overlay": true
+     "confidence_style": "contested",
+     "low_confidence_overlay": false
     }
    ],
    "borders_legend": [
@@ -82,10 +83,6 @@
     {
      "badge": "DERIVED",
      "legend_en": "Derived from a source (geometry built by method, not traced)"
-    },
-    {
-     "badge": "LOW-CONFIDENCE-HATCH",
-     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -1602,6 +1599,7 @@
      "legend_en": "Draft border (confidence: medium 0.5)",
      "symbol_class": "zone_core",
      "swatch": {
+      "geometry": "polygon",
       "fill": "#7a6bd0",
       "fill_opacity": 0.35,
       "stroke": "solid 1.2px",
@@ -1631,6 +1629,7 @@
      "legend_en": "Draft border (confidence: medium 0.4)",
      "symbol_class": "zone_contested",
      "swatch": {
+      "geometry": "point",
       "fill": "#e0a63e",
       "fill_opacity": 0.6,
       "stroke": "#e0a63e",
@@ -1638,8 +1637,7 @@
        4,
        3
       ],
-      "confidence_style": "contested",
-      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+      "confidence_style": "contested"
      },
      "badges": [
       "APPROXIMATE",
@@ -1656,9 +1654,157 @@
      }
     }
    ]
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "atbara-1898",
+     "label_en": "Battle of the Atbara",
+     "label_ar": "معركة عطبرة",
+     "start": 1898,
+     "end": 1898,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Anglo-Egyptian reconquest of the Sudan",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "H.A. Ibrahim (based on a contribution by Abbas I. Ali) African initiatives and resistance in North-East Africa (General History of Africa VII, ch.4)",
+       "p": "78",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184296"
+      },
+      {
+       "c": "Winston S. Churchill (1899) The River War: An Historical Account of the Reconquest of the Soudan, Vol. I",
+       "p": "436, 449",
+       "u": "https://archive.org/details/1899RiverWarVol1"
+      }
+     ]
+    },
+    {
+     "id": "karari-1898",
+     "label_en": "Battle of Karari (Omdurman)",
+     "label_ar": "معركة كرري (أم درمان)",
+     "start": 1898,
+     "end": 1898,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Anglo-Egyptian reconquest of the Sudan",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "H.A. Ibrahim (based on a contribution by Abbas I. Ali) African initiatives and resistance in North-East Africa (General History of Africa VII, ch.4)",
+       "p": "78",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184296"
+      },
+      {
+       "c": "Winston S. Churchill (1899) The River War: An Historical Account of the Reconquest of the Soudan, Vol. I",
+       "p": "113, 132",
+       "u": "https://archive.org/details/1899RiverWarVol1"
+      }
+     ]
+    },
+    {
+     "id": "umm-diwaykarat-1899",
+     "label_en": "Battle of Umm Diwaykarat",
+     "label_ar": "معركة أم دبيكرات",
+     "start": 1899,
+     "end": 1899,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Anglo-Egyptian reconquest of the Sudan",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "H.A. Ibrahim (based on a contribution by Abbas I. Ali) African initiatives and resistance in North-East Africa (General History of Africa VII, ch.4)",
+       "p": "78",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184296"
+      }
+     ]
+    },
+    {
+     "id": "darfur-1916",
+     "label_en": "Defeat of Sultan Ali Dinar",
+     "label_ar": "هزيمة السلطان علي دينار",
+     "start": 1916,
+     "end": 1916,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Darfur campaign of 1916",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "M. Crowder (1985) The First World War and its consequences (General History of Africa VII, ch.12)",
+       "p": "283",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184296"
+      }
+     ]
+    },
+    {
+     "id": "ferkeh-1896",
+     "label_en": "Battle of Firket (Ferkeh)",
+     "label_ar": "معركة فركة",
+     "start": 1896,
+     "end": 1896,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": true,
+     "war_en": "Anglo-Egyptian reconquest of the Sudan",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "Winston S. Churchill (1899) The River War: An Historical Account of the Reconquest of the Soudan, Vol. I",
+       "p": "220",
+       "u": "https://archive.org/details/1899RiverWarVol1"
+      },
+      {
+       "c": "Winston S. Churchill (1899) The River War: An Historical Account of the Reconquest of the Soudan, Vol. I",
+       "p": "181, 218",
+       "u": "https://archive.org/details/1899RiverWarVol1"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_region",
   "border_draft",
   "city_capital",
   "city_garrison",
@@ -1671,7 +1817,6 @@
   "economy_unknown",
   "extent_label_point",
   "list_only_text",
-  "low_confidence",
   "zone_contested",
   "zone_core"
  ],
@@ -1686,6 +1831,7 @@
   "RUIN-UNDATED"
  ],
  "counts": {
+  "battle_region": 5,
   "border_draft": 2,
   "city_capital": 15,
   "city_garrison": 4,
@@ -1698,12 +1844,12 @@
   "economy_unknown": 1,
   "extent_label_point": 1,
   "list_only_text": 1,
-  "low_confidence": 2,
   "zone_contested": 1,
   "zone_core": 1,
   "extent_features": 3,
   "group_features": 1,
-  "cities": 44
+  "cities": 44,
+  "battles": 5
  },
  "context": {
   "key_events_en": [
@@ -1771,6 +1917,7 @@
    "extents",
    "groups",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",

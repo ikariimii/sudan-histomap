@@ -23,8 +23,7 @@
      "source_ids": [
       "DERDA_LAJTAR2019",
       "NATURAL_EARTH"
-     ],
-     "low_confidence_overlay": true
+     ]
     }
    ],
    "borders_legend": [
@@ -35,10 +34,6 @@
     {
      "badge": "DERIVED",
      "legend_en": "Derived from a source (geometry built by method, not traced)"
-    },
-    {
-     "badge": "LOW-CONFIDENCE-HATCH",
-     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -833,9 +828,68 @@
     ]
    },
    "cite": null
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "dongola-642",
+     "label_en": "First Arab campaign against Makuria",
+     "label_ar": "الحملة العربية الأولى على المقرة",
+     "start": 642,
+     "end": 642,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Arab–Nubian wars",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "405",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      }
+     ]
+    },
+    {
+     "id": "dongola-652",
+     "label_en": "Siege of Dongola and the Baqt treaty",
+     "label_ar": "حصار دنقلا ومعاهدة البقط",
+     "start": 652,
+     "end": 652,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Arab–Nubian wars",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "405",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_approximate",
+  "battle_region",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -843,8 +897,7 @@
   "city_port",
   "city_religious",
   "control_extent_approx",
-  "economy_unknown",
-  "low_confidence"
+  "economy_unknown"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -858,6 +911,8 @@
   "RUIN-UNDATED"
  ],
  "counts": {
+  "battle_approximate": 1,
+  "battle_region": 1,
   "city_capital": 8,
   "city_garrison": 3,
   "city_other": 3,
@@ -866,10 +921,10 @@
   "city_religious": 3,
   "control_extent_approx": 1,
   "economy_unknown": 1,
-  "low_confidence": 1,
   "extent_features": 1,
   "group_features": 0,
-  "cities": 20
+  "cities": 20,
+  "battles": 2
  },
  "context": {
   "key_events_en": [
@@ -945,6 +1000,7 @@
   "layer_toggles": [
    "extents",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",

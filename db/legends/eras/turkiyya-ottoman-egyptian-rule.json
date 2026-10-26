@@ -24,8 +24,7 @@
       "OHM_2690845",
       "GHA6_CH14",
       "EXT_HDX_CODAB"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 1,
@@ -43,8 +42,7 @@
       "OHM_2690845",
       "GHA6_CH14",
       "EXT_HDX_CODAB"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 2,
@@ -60,8 +58,7 @@
      "end": 1885,
      "source_ids": [
       "HD2011"
-     ],
-     "low_confidence_overlay": true
+     ]
     }
    ],
    "borders_legend": [
@@ -72,10 +69,6 @@
     {
      "badge": "DERIVED",
      "legend_en": "Derived from a source (geometry built by method, not traced)"
-    },
-    {
-     "badge": "LOW-CONFIDENCE-HATCH",
-     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -1446,9 +1439,233 @@
     "page": "pp.361-362"
    },
    "cite": "GHA6_CH14"
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "shaykan-1883",
+     "label_en": "Battle of Shaykan",
+     "label_ar": "معركة شيكان",
+     "start": 1883,
+     "end": 1883,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Mahdist war against Turco-Egyptian rule",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "H.A. Ibrahim (based on a contribution by Abbas I. Ali) African initiatives and resistance in North-East Africa (General History of Africa VII, ch.4)",
+       "p": "76",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184296"
+      },
+      {
+       "c": "Rudolf C. Slatin (1898) Fire and Sword in the Sudan (trans. F.R. Wingate)",
+       "p": "133",
+       "u": "https://archive.org/details/fireswordinsudan00slat"
+      }
+     ]
+    },
+    {
+     "id": "khartoum-1885",
+     "label_en": "Fall of Khartoum",
+     "label_ar": "سقوط الخرطوم",
+     "start": 1885,
+     "end": 1885,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Mahdist war against Turco-Egyptian rule",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "H.A. Ibrahim (based on a contribution by Abbas I. Ali) African initiatives and resistance in North-East Africa (General History of Africa VII, ch.4)",
+       "p": "76–77",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184296"
+      }
+     ]
+    },
+    {
+     "id": "toski-1889",
+     "label_en": "Battle of Toski",
+     "label_ar": "معركة توشكي",
+     "start": 1889,
+     "end": 1889,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": true,
+     "war_en": "Mahdist war against Turco-Egyptian rule",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "H.A. Ibrahim (based on a contribution by Abbas I. Ali) African initiatives and resistance in North-East Africa (General History of Africa VII, ch.4)",
+       "p": "77",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184296"
+      },
+      {
+       "c": "Winston S. Churchill (1899) The River War: An Historical Account of the Reconquest of the Soudan, Vol. I",
+       "p": "157",
+       "u": "https://archive.org/details/1899RiverWarVol1"
+      },
+      {
+       "c": "F.R. Wingate (1891) Mahdiism and the Egyptian Sudan",
+       "p": "85",
+       "u": "https://archive.org/details/mahdiismandegyp00winggoog"
+      }
+     ]
+    },
+    {
+     "id": "el-teb-1884",
+     "label_en": "Battle of El Teb",
+     "label_ar": "معركة التيب",
+     "start": 1884,
+     "end": 1884,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Mahdist war against Turco-Egyptian rule",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "F.R. Wingate (1891) Mahdiism and the Egyptian Sudan",
+       "p": "117",
+       "u": "https://archive.org/details/mahdiismandegyp00winggoog"
+      },
+      {
+       "c": "Count Gleichen (ed.) (1905) The Anglo-Egyptian Sudan: a compendium prepared by officers of the Sudan Government, Vol. I",
+       "p": "15",
+       "u": "https://archive.org/details/angloegyptiansud01gleiuoft"
+      }
+     ]
+    },
+    {
+     "id": "tamai-1884",
+     "label_en": "Battle of Tamai",
+     "label_ar": "معركة طماي",
+     "start": 1884,
+     "end": 1884,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Mahdist war against Turco-Egyptian rule",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "F.R. Wingate (1891) Mahdiism and the Egyptian Sudan",
+       "p": "117–118",
+       "u": "https://archive.org/details/mahdiismandegyp00winggoog"
+      },
+      {
+       "c": "Winston S. Churchill (1899) The River War: An Historical Account of the Reconquest of the Soudan, Vol. I",
+       "p": "78",
+       "u": "https://archive.org/details/1899RiverWarVol1"
+      }
+     ]
+    },
+    {
+     "id": "abu-klea-1885",
+     "label_en": "Battle of Abu Klea",
+     "label_ar": "معركة أبو طليح",
+     "start": 1885,
+     "end": 1885,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Mahdist war against Turco-Egyptian rule",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "F.R. Wingate (1891) Mahdiism and the Egyptian Sudan",
+       "p": "172",
+       "u": "https://archive.org/details/mahdiismandegyp00winggoog"
+      },
+      {
+       "c": "Rudolf C. Slatin (1898) Fire and Sword in the Sudan (trans. F.R. Wingate)",
+       "p": "204",
+       "u": "https://archive.org/details/fireswordinsudan00slat"
+      }
+     ]
+    },
+    {
+     "id": "ginnis-1885",
+     "label_en": "Battle of Ginnis",
+     "label_ar": "معركة جنس",
+     "start": 1885,
+     "end": 1885,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Mahdist war against Turco-Egyptian rule",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "Winston S. Churchill (1899) The River War: An Historical Account of the Reconquest of the Soudan, Vol. I",
+       "p": "157",
+       "u": "https://archive.org/details/1899RiverWarVol1"
+      },
+      {
+       "c": "F.R. Wingate (1891) Mahdiism and the Egyptian Sudan",
+       "p": "227, 272–274",
+       "u": "https://archive.org/details/mahdiismandegyp00winggoog"
+      },
+      {
+       "c": "Winston S. Churchill (1899) The River War: An Historical Account of the Reconquest of the Soudan, Vol. I",
+       "p": "155",
+       "u": "https://archive.org/details/1899RiverWarVol1"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_approximate",
+  "battle_region",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -1460,7 +1677,6 @@
   "economy_editorial_marker",
   "economy_mixed",
   "extent_label_point",
-  "low_confidence",
   "relation_arrow_alliance",
   "relation_arrow_conflict"
  ],
@@ -1477,6 +1693,8 @@
   "SINGLE-SOURCE"
  ],
  "counts": {
+  "battle_approximate": 1,
+  "battle_region": 6,
   "city_capital": 12,
   "city_garrison": 7,
   "city_other": 8,
@@ -1488,12 +1706,12 @@
   "economy_editorial_marker": 1,
   "economy_mixed": 1,
   "extent_label_point": 1,
-  "low_confidence": 3,
   "relation_arrow_alliance": 1,
   "relation_arrow_conflict": 3,
   "extent_features": 3,
   "group_features": 4,
-  "cities": 38
+  "cities": 38,
+  "battles": 7
  },
  "context": {
   "key_events_en": [
@@ -1576,6 +1794,7 @@
    "extents",
    "groups",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",

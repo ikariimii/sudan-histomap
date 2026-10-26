@@ -466,9 +466,11 @@
    "label_en": "Low-confidence estimate",
    "label_ar": "تقدير منخفض الثقة",
    "label_ar_status": "working translation, needs native review",
-   "pattern": "45° hairlines, 6px spacing, stroke #e8eef2",
-   "opacity_rule": "0.5*(1-confidence)",
-   "applies_when": "confidence < 0.5"
+   "pattern": "45° hairlines, 8px tile, 1px stroke #e8eef2 (map.js pattern #lowconf)",
+   "applies_when": "confidence_style == 'hatched' (not on contested); numeric confidence alone adds no hatch",
+   "opacity": 0.6,
+   "feather": "blurred mask edge (#hfeather)",
+   "source": "map.js CKS() / r2-a, live head"
   },
   {
    "id": "ethno_label_marker",
@@ -484,6 +486,63 @@
     "APPROXIMATE",
     "SINGLE-SOURCE"
    ]
+  },
+  {
+   "id": "battle_approximate",
+   "geometry": "point",
+   "label_en": "Battle, approximate location",
+   "label_ar": null,
+   "label_ar_status": "pending native translation",
+   "style_ref": "db/markers/battle_style.json battle.variants.approximate",
+   "swatch": {
+    "file": "battle_approximate.svg",
+    "fill": "#0f1b24 @0.75",
+    "ring": "#f08c6c 2",
+    "glyph": "#f08c6c"
+   }
+  },
+  {
+   "id": "battle_region",
+   "geometry": "point",
+   "label_en": "Battle, region only (no pin)",
+   "label_ar": null,
+   "label_ar_status": "pending native translation",
+   "style_ref": "db/markers/battle_style.json battle.variants.region",
+   "swatch": {
+    "file": "battle_region.svg",
+    "halo": "radial #f08c6c 0.55 to 0",
+    "glyph": "#fbecc8",
+    "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+   }
+  },
+  {
+   "id": "battle_exact",
+   "geometry": "point",
+   "label_en": "Battle, exact location",
+   "label_ar": null,
+   "label_ar_status": "pending native translation",
+   "style_ref": "db/markers/battle_style.json battle.variants.exact",
+   "swatch": {
+    "file": "battle_exact.svg",
+    "fill": "#f08c6c",
+    "glyph": "#0f1b24",
+    "stroke": "#0f1b24 1.5"
+   }
+  },
+  {
+   "id": "battle_reported",
+   "geometry": "point",
+   "label_en": "Battle, reported/unconfirmed",
+   "label_ar": null,
+   "label_ar_status": "pending native translation",
+   "style_ref": "db/markers/battle_style.json battle.variants.reported",
+   "swatch": {
+    "file": "battle_reported.svg",
+    "use_when": "2023+ SAF-RSF items with status reported/unconfirmed",
+    "ring": "#b9a8a2 dash 3 2.2",
+    "glyph": "#b9a8a2",
+    "combine": "reported + region gives this icon plus the halo at 0.5 opacity"
+   }
   }
  ],
  "uncertainty_encoding": {
@@ -753,8 +812,8 @@
    }
   ],
   "low_confidence_hatching": {
-   "rule": "diagonal hatching over the fill when numeric confidence < 0.5 (any extent feature, zone or not)",
-   "legend_en": "Hatched: low confidence (< 0.5)",
+   "rule": "diagonal hatching over the fill when confidence_style == 'hatched' (as drawn by map.js CKS); numeric confidence alone adds no hatch",
+   "legend_en": "Hatched: lower-confidence estimate",
    "legend_ar": null,
    "ar_status": "pending native translation"
   },

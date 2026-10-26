@@ -1645,9 +1645,117 @@
     ]
    },
    "cite": "LOC1991_TMC"
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "juba-1992",
+     "label_en": "SPLA-Torit attacks on Juba",
+     "label_ar": "هجمات الجيش الشعبي (فصيل توريت) على جوبا",
+     "start": 1992,
+     "end": 1992,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": true,
+     "war_en": "Second Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch/Africa (1993) Human Rights Watch/Africa, \"Civilian Devastation: Abuses by All Parties in the War in Southern Sudan\", 1993",
+       "p": "Ch. II (government offensive), note 5; Ch. IV (battle for Juba)",
+       "u": "https://www.hrw.org/reports/1993/sudan/"
+      }
+     ]
+    },
+    {
+     "id": "bor-1992",
+     "label_en": "Government dry-season offensive on Bor",
+     "label_ar": "هجوم الحكومة على بور (حملة موسم الجفاف)",
+     "start": 1992,
+     "end": 1992,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": true,
+     "war_en": "Second Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch/Africa (1993) Human Rights Watch/Africa, \"Civilian Devastation: Abuses by All Parties in the War in Southern Sudan\", 1993",
+       "p": "Ch. II, 1992 dry-season offensive (three-prong advance)",
+       "u": "https://www.hrw.org/reports/1993/sudan/"
+      }
+     ]
+    },
+    {
+     "id": "kapoeta-1992",
+     "label_en": "Attack on Kapoeta",
+     "label_ar": "الهجوم على كبويتا",
+     "start": 1992,
+     "end": 1992,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": true,
+     "war_en": "Second Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch/Africa (1993) Human Rights Watch/Africa, \"Civilian Devastation: Abuses by All Parties in the War in Southern Sudan\", 1993",
+       "p": "Ch. II, \"Indiscriminate Government Bombing and the Capture of Kapoeta and Torit in 1992\"",
+       "u": "https://www.hrw.org/reports/1993/sudan/"
+      }
+     ]
+    },
+    {
+     "id": "torit-1992",
+     "label_en": "Government offensive on Torit",
+     "label_ar": "هجوم الحكومة على توريت",
+     "start": 1992,
+     "end": 1992,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": true,
+     "war_en": "Second Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Human Rights Watch/Africa (1993) Human Rights Watch/Africa, \"Civilian Devastation: Abuses by All Parties in the War in Southern Sudan\", 1993",
+       "p": "Ch. II, \"Capture of Kapoeta and Torit in 1992\"",
+       "u": "https://www.hrw.org/reports/1993/sudan/"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_approximate",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -1669,6 +1777,7 @@
   "SINGLE-SOURCE"
  ],
  "counts": {
+  "battle_approximate": 4,
   "city_capital": 15,
   "city_garrison": 4,
   "city_other": 16,
@@ -1681,7 +1790,8 @@
   "flag": 1,
   "extent_features": 1,
   "group_features": 0,
-  "cities": 49
+  "cities": 49,
+  "battles": 4
  },
  "context": {
   "key_events_en": [
@@ -1753,6 +1863,7 @@
   "layer_toggles": [
    "extents",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",

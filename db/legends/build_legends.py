@@ -2,8 +2,10 @@
 """Build db/legends/eras/<slug>.json from real data files. Owner: Sudan Map Designer.
 Reads only: data/periods.json, db/extents/*.geojson, db/extents_historic.json,
 db/group_layers/*.geojson, db/city_layers/cities.geojson. Writes only db/legends/eras/.
-Also reads db/era_economy.json, db/era_events_post1956.json (merged per web/mapsite.py), db/border_drafts/*.geojson (signed-off only)."""
-import json, glob, os, re, unicodedata
+Also reads db/era_economy.json, db/era_events_post1956.json (merged per web/mapsite.py; committed HEAD copy only, so uncommitted
+Analyst work is never baked into legends), db/border_drafts/*.geojson (signed-off only), b.json (battles, same rule as map.js rel()),
+db/markers/battle_style.json (battle swatches)."""
+import json, glob, os, re, subprocess, unicodedata
 R = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 J = lambda p: json.load(open(os.path.join(R, p), encoding='utf-8'))
 CJ = J('db/cities.json')['places']
@@ -73,7 +75,10 @@ def flag_layer(sl):
 # --- post-1956 Analyst events: mirrors web/mapsite.py _be_post56_ev (IM r26): the Analyst line REPLACES the base line at the same
 # era#index when it has a registered cite; P56_BOTH keeps both; an Analyst line with no (or a blanked) base line shows on its own.
 SRCREG = set((J('data/periods.json').get('meta') or {}).get('sources') or {})
-_p56 = J('db/era_events_post1956.json') if os.path.exists(os.path.join(R, 'db/era_events_post1956.json')) else {}
+def _committed(rel):
+    try: return json.loads(subprocess.run(['git', '-C', R, 'show', 'HEAD:' + rel], capture_output=True, check=True).stdout.decode('utf-8'))
+    except Exception: return J(rel) if os.path.exists(os.path.join(R, rel)) else {}
+_p56 = _committed('db/era_events_post1956.json')
 P56 = _p56.get('events') or {}
 P56_BOTH = {'second-parliamentary-period#0'}
 def _rmsid(t):
@@ -117,14 +122,32 @@ def draft_layer(sl):
             if pr.get('era_id') != sl or not isinstance(so, dict) or so.get('status') != 'approved': continue
             z = so.get('zone') or pr.get('zone'); cf = so.get('confidence', pr.get('confidence')); b = sorted(set(so.get('badges') or pr.get('badges') or []))
             cw = conf_word(cf); cs = 'contested' if ('CONTESTED' in b or z == 'contested') else 'solid' if z == 'core' else 'hatched'
-            zc = ZS.get('zone_' + str(z)) or {}
-            sw = {k2: zc.get(k2) for k2 in ('fill', 'fill_opacity', 'stroke', 'dash', 'feather') if zc.get(k2) is not None}
+            zk = 'zone_contested' if cs == 'contested' else 'zone_' + str(z)
+            zc = ZS.get(zk) or {}
+            sw = {k2: zc.get(k2) for k2 in ('geometry', 'fill', 'fill_opacity', 'stroke', 'dash', 'feather') if zc.get(k2) is not None}
             sw['confidence_style'] = cs
-            if isinstance(cf, (int, float)) and cf < 0.5: sw['overlay'] = ZS.get('low_confidence', {}).get('pattern')
+            # map.js CKS: the low-confidence hatch follows confidence_style == 'hatched' only (not numeric confidence), never on contested
+            if cs == 'hatched': sw['overlay'] = ZS.get('low_confidence', {}).get('pattern'); sw['overlay_opacity'] = ZS.get('low_confidence', {}).get('opacity')
             rows.append({'file': os.path.relpath(f, R), 'feature_index': k, 'zone': z, 'confidence': cf, 'confidence_word': cw,
-                         'legend_en': f"Draft border (confidence: {cw + ' ' + str(cf) if cw else 'not stated'})", 'symbol_class': 'zone_' + str(z),
+                         'legend_en': f"Draft border (confidence: {cw + ' ' + str(cf) if cw else 'not stated'})", 'symbol_class': zk,
                          'swatch': sw, 'badges': b, 'source_ids': so.get('sources') or [], 'pages': so.get('pages'),
                          'signoff': {'by': so.get('by'), 'date': so.get('date')}})
+    return rows
+
+BAT = (J('b.json').get('battles') or []) if os.path.exists(os.path.join(R, 'b.json')) else []
+BST = J('db/markers/battle_style.json')['battle']['variants'] if os.path.exists(os.path.join(R, 'db/markers/battle_style.json')) else {}
+def battle_layer(s, e):
+    """Battles the map draws for this era: map.js rel(b) = battle span overlaps the era, or its war span (w) does."""
+    rows = []
+    for b in BAT:
+        w = b.get('w') or {}
+        on = (b.get('a') is not None and b['a'] <= e and (b.get('b') if b.get('b') is not None else b['a']) >= s) or \
+             (w.get('a') is not None and w['a'] <= e and (w.get('b') if w.get('b') is not None else w['a']) >= s)
+        if not on: continue
+        v = b.get('pr') if b.get('pr') in BST else 'approximate'
+        rows.append({'id': b['id'], 'label_en': b.get('en'), 'label_ar': b.get('ar'), 'start': b.get('a'), 'end': b.get('b'),
+                     'precision': b.get('pr'), 'symbol_class': 'battle_' + v, 'drawn': True, 'via_war': not ((b.get('a') or 0) <= e and (b.get('b') if b.get('b') is not None else b.get('a') or 0) >= s),
+                     'war_en': w.get('en'), 'swatch': BST.get(v), 'cite': [{'c': c.get('c'), 'p': c.get('p'), 'u': c.get('u')} for c in b.get('s') or []]})
     return rows
 
 def ext_class(f):
@@ -171,11 +194,11 @@ def era(i, p):
                         'source_ids': sids})
             if pr.get('zone'):
                 cf = pr.get('confidence')
-                ext[-1].update({'zone': pr['zone'], 'confidence': cf, 'confidence_word': conf_word(cf),
-                                'low_confidence_overlay': isinstance(cf, (int, float)) and cf < 0.5})
-            if isinstance(pr.get('confidence'), (int, float)) and pr['confidence'] < 0.5:
+                cs = pr.get('confidence_style')
+                ext[-1].update({'zone': pr['zone'], 'confidence': cf, 'confidence_word': conf_word(cf), 'confidence_style': cs,
+                                'low_confidence_overlay': cs == 'hatched' and pr['zone'] != 'contested'})
+            if ext[-1].get('low_confidence_overlay'):
                 cls['low_confidence'] = cls.get('low_confidence', 0) + 1
-                ext[-1]['low_confidence_overlay'] = True
     out['layers']['extents'] = {'file': f'db/extents/{sl}.geojson' if ext else None, 'features': ext}
     BL = {r['badge']: r for r in SPEC['borders_legend']['rows']}
     eb = sorted({x for f in ext for x in f['badges']})
@@ -240,8 +263,13 @@ def era(i, p):
                                           'note': 'Soft unfilled halo at the label position; not a boundary or claim. Excluded from OG images.', 'features': em}
         cls['ethno_label_marker'] = len(em)
         for x in em: bs |= set(x['badges'])
+    bt = battle_layer(s, e)
+    if bt:
+        out['layers']['battles'] = {'file': 'b.json', 'style_file': 'db/markers/battle_style.json',
+                                    'note': 'Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.', 'features': bt}
+        for x in bt: cls[x['symbol_class']] = cls.get(x['symbol_class'], 0) + 1
     out['symbol_classes_present'] = sorted(cls); out['counts'] = dict(sorted(cls.items()))
-    out['counts'].update({'extent_features': len(ext), 'group_features': len(grp), 'cities': len(cit)})
+    out['counts'].update({'extent_features': len(ext), 'group_features': len(grp), 'cities': len(cit), 'battles': len(bt)})
     out['badges_present'] = sorted(bs)
     # context, cited fields only
     ke = key_events(sl, p)
@@ -261,7 +289,7 @@ def era(i, p):
                     'grp': {x['id'] for x in grp}, 'cap': {x['id'] for x in cit if x['symbol_class'] == 'city_capital'}}
     out['interactive'] = {
         'click_to_source': 'Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.',
-        'layer_toggles': [k for k in ('extents', 'groups', 'cities') if out['layers'][k]['features']] + ['homelands', 'basemap_rivers', 'basemap_terrain', 'graticule'],
+        'layer_toggles': [k for k in ('extents', 'groups', 'cities') if out['layers'][k]['features']] + (['battles'] if bt else []) + ['homelands', 'basemap_rivers', 'basemap_terrain', 'graticule'],
         'hover_highlight': 'Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.',
         'badge_filter': out['badges_present']}
     return out

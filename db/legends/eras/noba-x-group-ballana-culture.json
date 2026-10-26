@@ -24,8 +24,7 @@
       "PL:795783",
       "WP:Ballana_culture",
       "GHA2_CH12"
-     ],
-     "low_confidence_overlay": true
+     ]
     },
     {
      "feature_index": 1,
@@ -41,8 +40,7 @@
      "end": 550,
      "source_ids": [
       "WP:Ballana_culture"
-     ],
-     "low_confidence_overlay": true
+     ]
     }
    ],
    "borders_legend": [
@@ -53,10 +51,6 @@
     {
      "badge": "DERIVED",
      "legend_en": "Derived from a source (geometry built by method, not traced)"
-    },
-    {
-     "badge": "LOW-CONFIDENCE-HATCH",
-     "legend_en": "Hatched: low confidence (< 0.5)"
     }
    ]
   },
@@ -619,9 +613,47 @@
     ]
    },
    "cite": null
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "meroe-330",
+     "label_en": "Ezana of Aksum's campaign against the Kushites and Noba",
+     "label_ar": "حملة عيزانا ملك أكسوم على الكوشيين والنوبة",
+     "start": 330,
+     "end": 350,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Aksum's campaigns against Kush",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "325",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      },
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "326",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_region",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -629,8 +661,7 @@
   "city_port",
   "city_religious",
   "economy_unknown",
-  "extent_label_point",
-  "low_confidence"
+  "extent_label_point"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -645,6 +676,7 @@
   "RUIN-UNDATED"
  ],
  "counts": {
+  "battle_region": 1,
   "city_capital": 5,
   "city_garrison": 2,
   "city_other": 4,
@@ -653,10 +685,10 @@
   "city_religious": 2,
   "economy_unknown": 1,
   "extent_label_point": 2,
-  "low_confidence": 2,
   "extent_features": 2,
   "group_features": 0,
-  "cities": 15
+  "cities": 15,
+  "battles": 1
  },
  "context": {
   "key_events_en": [
@@ -705,6 +737,7 @@
   "layer_toggles": [
    "extents",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",

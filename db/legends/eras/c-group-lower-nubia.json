@@ -43,6 +43,7 @@
      "zone": "influence",
      "confidence": 0.35,
      "confidence_word": "low",
+     "confidence_style": "hatched",
      "low_confidence_overlay": true
     }
    ],
@@ -61,7 +62,7 @@
     },
     {
      "badge": "LOW-CONFIDENCE-HATCH",
-     "legend_en": "Hatched: low confidence (< 0.5)"
+     "legend_en": "Hatched: lower-confidence estimate"
     }
    ]
   },
@@ -330,12 +331,14 @@
      "legend_en": "Draft border (confidence: low 0.35)",
      "symbol_class": "zone_influence",
      "swatch": {
+      "geometry": "polygon",
       "fill": "#7a6bd0",
       "fill_opacity": 0.08,
       "stroke": "none",
       "feather": "radial/feathered edge (blur 6px or 3-step inset .08/.05/.02)",
       "confidence_style": "hatched",
-      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+      "overlay": "45° hairlines, 8px tile, 1px stroke #e8eef2 (map.js pattern #lowconf)",
+      "overlay_opacity": 0.6
      },
      "badges": [
       "APPROXIMATE",
@@ -382,7 +385,8 @@
   "zone_influence": 1,
   "extent_features": 2,
   "group_features": 0,
-  "cities": 4
+  "cities": 4,
+  "battles": 0
  },
  "context": {
   "key_events_en": [

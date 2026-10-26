@@ -1611,9 +1611,42 @@
     ]
    },
    "cite": null
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "torit-1955",
+     "label_en": "Torit mutiny (Equatoria Corps revolt)",
+     "label_ar": "تمرد توريت (الفرقة الاستوائية)",
+     "start": 1955,
+     "end": 1955,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": true,
+     "war_en": "First Sudanese civil war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "A.A. Mazrui (ed.) General History of Africa VIII: Africa since 1935 – Sudan passages ('North Africa and the Horn', pp.148–150; economy and political-succession passages)",
+       "p": "149",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184297"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_approximate",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -1636,6 +1669,7 @@
   "RUIN-UNDATED"
  ],
  "counts": {
+  "battle_approximate": 1,
   "city_capital": 14,
   "city_garrison": 4,
   "city_other": 14,
@@ -1649,7 +1683,8 @@
   "flag": 1,
   "extent_features": 1,
   "group_features": 0,
-  "cities": 47
+  "cities": 47,
+  "battles": 1
  },
  "context": {
   "key_events_en": [
@@ -1716,6 +1751,7 @@
   "layer_toggles": [
    "extents",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",

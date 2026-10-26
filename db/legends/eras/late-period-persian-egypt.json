@@ -351,9 +351,67 @@
     ]
    },
    "cite": null
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "kerma--1500",
+     "label_en": "Thutmose I's campaign against Kerma",
+     "label_ar": "حملة تحتمس الأول على كرمة",
+     "start": -1500,
+     "end": -1500,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": true,
+     "war_en": "Egyptian–Kushite wars",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "92",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      }
+     ]
+    },
+    {
+     "id": "kerma--593",
+     "label_en": "Psamtik II's expedition against Napatan Kush (Pnoubs/Kerma)",
+     "label_ar": "حملة بسماتيك الثاني على مملكة نبتة (بنوبس/كرمة)",
+     "start": -593,
+     "end": -593,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "via_war": false,
+     "war_en": "Egyptian–Kushite wars",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
+       "p": "164–165",
+       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+      }
+     ]
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "battle_approximate",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -372,6 +430,7 @@
   "RUIN-UNDATED"
  ],
  "counts": {
+  "battle_approximate": 2,
   "city_capital": 1,
   "city_garrison": 1,
   "city_other": 3,
@@ -380,7 +439,8 @@
   "extent_label_point": 1,
   "extent_features": 1,
   "group_features": 0,
-  "cities": 8
+  "cities": 8,
+  "battles": 2
  },
  "context": {
   "key_events_en": [
@@ -429,6 +489,7 @@
   "layer_toggles": [
    "extents",
    "cities",
+   "battles",
    "homelands",
    "basemap_rivers",
    "basemap_terrain",
