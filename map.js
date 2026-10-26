@@ -411,8 +411,8 @@ function cityTap(ev,c){ev.stopPropagation();const e=ES[i],r=c.r[e.id],d=CJ&&CJ.t
  $('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true};if($('sheet').classList.contains('peek'))snap('half')}
 // --- navigation
 // era camera: fly to focus_view.bbox [w,s,e,n] (fallback: extent bounds, then whole region) inside the area not covered by the sheet/side card. Manual zoom is kept until the era changes.
-let CE=null;function cam(e,g){if(e.id===CE)return;const first=CE===null;CE=e.id;
- let b=e.fv;if(!b){// planar bbox of the era's extents (geoBounds returns the whole globe for reverse-wound rings), then its capitals
+let CE=null,TFV=null;function cam(e,g){if(e.id===CE)return;const first=CE===null;CE=e.id;
+ let b=TFV||e.fv;TFV=null;if(!b){// planar bbox of the era's extents (geoBounds returns the whole globe for reverse-wound rings), then its capitals
   const xs=[],ys=[],w=c=>{if(typeof c[0]==='number'){if(isFinite(c[0])&&isFinite(c[1])){xs.push(c[0]);ys.push(c[1])}}else c.forEach(w)};
   ((g&&g.features)||[]).forEach(f=>f.geometry&&w(f.geometry.coordinates));if(!xs.length)(e.caps||[]).forEach(c=>{xs.push(c[1]);ys.push(c[2])});
   if(xs.length)b=[Math.min(...xs),Math.min(...ys),Math.max(...xs),Math.max(...ys)]}
@@ -430,14 +430,19 @@ const TB=document.createElement('button');TB.type='button';TB.id='tour';TB.class
 let TT=null,TS='off';const dwell=()=>RM?7000:(innerWidth<600?5600:4600);
 const TP=document.createElement('div');TP.id='tourp';TP.hidden=true;TP.setAttribute('role','status');TP.innerHTML=`<span class="tpi" aria-hidden="true">❚❚</span><span>${T.tour_paused}</span><button type="button" id="tourr">${T.tour_resume}</button>`;
 const tourSet=p=>{TB.setAttribute('aria-pressed',p);TB.dataset.st=TS;const l=p?T.tour_pause:TS==='pause'?T.tour_resume:T.tour_play;TB.setAttribute('aria-label',l);TB.title=l;TB.innerHTML=p?'<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 2h4v12H3zM9 2h4v12H9z" fill="currentColor"/></svg>':'<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M4 2l10 6-10 6z" fill="currentColor"/></svg>';TP.hidden=TS!=='pause';document.documentElement.classList.toggle('touring',TS==='play')};
-function tourStop(){clearTimeout(TT);TT=null;if(TS!=='off'){TS='off';tourSet(false)}}
+function tourStop(){clearTimeout(TT);TT=null;if(TS!=='off'){TS='off';tourSet(false)}TK=-1;if(typeof TC!=='undefined')TC.hidden=true}
 function tourPause(){if(TS!=='play')return;clearTimeout(TT);TT=null;TS='pause';tourSet(false)}
-function tourStep(){if(i>=ES.length-1){tourStop();return}go(i+1);TT=setTimeout(tourStep,dwell())}
-function tourPlay(){TS='play';tourSet(true);clearTimeout(TT);if(i>=ES.length-1)go(0);TT=setTimeout(tourStep,dwell())}
+/* curated tour (/story/era_tour.json, Map Designer): stops with camera_bbox + cited caption. Under prefers-reduced-motion it never auto-advances: a 'Next stop' button steps it. */
+let TOUR=null,TK=-1;const TC=document.createElement('div');TC.id='tourc';TC.hidden=true;TC.setAttribute('role','region');TC.setAttribute('aria-live','polite');
+getj('/story/era_tour.json').then(j=>{if(j&&j.stops&&j.stops.length){TOUR=j.stops.filter(s=>ES.some(e=>e.id===s.e));TC.setAttribute('aria-label',AR?'جولة العصور *':(j.t&&j.t[0])||'Era tour')}}).catch(()=>{});
+const tcShow=()=>{const s=TOUR&&TOUR[TK];if(!s||TS==='off'){TC.hidden=true;return}const nx=TK<TOUR.length-1;TC.innerHTML=`<p class="tcn">${esc(AR?'المحطة *':'Stop')} <bdi>${esc(num(TK+1))}</bdi> / <bdi>${esc(num(TOUR.length))}</bdi></p><p><span lang="en" dir="ltr">${esc(s.en)}</span>${AR?vchipH():''}</p>`+(s.cs.length?`<p class="extnote">${esc(BT.src)}: ${s.cs.map(c=>`<bdi dir="ltr">${esc(c.c)}${c.p?', '+esc(c.p):''}</bdi>${c.u?` <a href="${esc(c.u)}" target="_blank" rel="noopener">↗</a>`:''}`).join('; ')}</p>`:'')+(RM?`<button type="button" id="tourn"${nx?'':' disabled'}>${esc(nx?(AR?'المحطة التالية *':'Next stop'):(AR?'نهاية الجولة *':'End of tour'))}</button>`:'');TC.hidden=false;const b=$('tourn');if(b)b.onclick=()=>{tourStep();const n=$('tourn');if(n)n.focus({preventScroll:true})}};
+const tourGo=k=>{TK=k;const s=TOUR[k],n=ES.findIndex(e=>e.id===s.e);TFV=s.bb||null;if(n===i){CE=null;cam(ES[i])}else go(n);tcShow()};
+function tourStep(){if(TOUR){if(TK>=TOUR.length-1){if(!RM)tourStop();return}tourGo(TK+1);if(!RM)TT=setTimeout(tourStep,dwell());return}if(i>=ES.length-1){tourStop();return}go(i+1);TT=setTimeout(tourStep,dwell())}
+function tourPlay(){TS='play';tourSet(true);clearTimeout(TT);if(TOUR){if(TK<0||TK>=TOUR.length-1)tourGo(0);else tcShow();if(!RM)TT=setTimeout(tourStep,dwell());return}if(i>=ES.length-1)go(0);TT=setTimeout(tourStep,dwell())}
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&TS!=='off')tourStop()},true);
 TB.onclick=()=>{if(TS==='play')tourPause();else tourPlay()};
 TP.querySelector('button').onclick=()=>{tourPlay();TB.focus({preventScroll:true})};
-tourSet(false);$('scrub').appendChild(TB);$('scrub').before(TP);
+tourSet(false);$('scrub').appendChild(TB);$('scrub').before(TP);TP.before(TC);
 // tap/press on the map pauses (a visible 'paused' bar offers resume); manual era changes pause too
 $('map').addEventListener('pointerdown',()=>{if(TS==='play')tourPause()},true);
 document.addEventListener('visibilitychange',()=>{if(document.hidden)tourPause()});
