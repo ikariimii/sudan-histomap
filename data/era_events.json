@@ -2,22 +2,22 @@
  "khartoum-mesolithic-early-khartoum": [
   {
    "date": null,
-   "en": "Khartoumian pottery bowls with incised wavy-line and dotted-line decoration (GHA1_CH25 p.642)",
-   "ar": "فخار الخطوط المتموجة من أقدم الفخار في أفريقيا",
-   "cite": {
-    "source_id": "GHA1_CH25",
-    "pages": "p.642",
-    "cite_text": "'The pottery, consisting of bowls, is characterized by incised 'wavy-line' and 'dotted-line' decoration'"
-   }
-  },
-  {
-   "date": null,
    "en": "Fixed settlements with wattle huts at Khartoum (GHA1_CH25 p.642)",
    "ar": "مستوطنات صيد الأسماك والقنص على ضفاف النيل قرب الخرطوم",
    "cite": {
     "source_id": "GHA1_CH25",
     "pages": "p.642",
     "cite_text": "'furnish proof of a fixed habitat, namely, the use of wattle huts'"
+   }
+  },
+  {
+   "date": null,
+   "en": "Khartoumian pottery bowls with incised wavy-line and dotted-line decoration (GHA1_CH25 p.642)",
+   "ar": "فخار الخطوط المتموجة من أقدم الفخار في أفريقيا",
+   "cite": {
+    "source_id": "GHA1_CH25",
+    "pages": "p.642",
+    "cite_text": "'The pottery, consisting of bowls, is characterized by incised 'wavy-line' and 'dotted-line' decoration'"
    }
   }
  ],
@@ -43,13 +43,6 @@
     "pages": "p.248",
     "cite_text": "'they continuously endeavoured to bring the trade and economic resources of that land under their own control'"
    }
-  },
-  {
-   "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "SFDAS cite-or-delete pass: no opened registered page supports an A-Group elite cemetery at Qustul."
   }
  ],
  "c-group-lower-nubia": [
@@ -66,6 +59,22 @@
  ],
  "kingdom-of-kerma": [
   {
+   "date": null,
+   "en": "Western Deffufa: a solid mud-brick mass whose purpose is disputed; in Classic Kerma it came to resemble an Egyptian temple (GHA2_CH9 pp.259–261; KERMA_MISSION 'History')",
+   "ar": "معبد الدفوفة الغربية المبني من الطوب اللبن",
+   "cite": {
+    "source_id": "GHA2_CH9",
+    "pages": "pp.259–261; History page, Kingdom of Kerma section",
+    "cite_text": "'The former is a solid mass of sun-dried brick'"
+   },
+   "cite_extra": [
+    {
+     "source_id": "KERMA_MISSION",
+     "pages": "History page, Kingdom of Kerma section"
+    }
+   ]
+  },
+  {
    "date": -2500,
    "en": "Capital of the first kingdom of Sub-Saharan Africa; city and necropolis span c.2500–1500 BCE (KERMA_MISSION 'History')",
    "ar": "أكبر دولة أفريقية خارج مصر في الألف الثاني قبل الميلاد [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح]",
@@ -73,16 +82,6 @@
     "source_id": "KERMA_MISSION",
     "pages": "History page, headline and Kingdom of Kerma section",
     "cite_text": "'Kerma, the capital of the first kingdom of Sub-Saharan Africa'"
-   }
-  },
-  {
-   "date": -1750,
-   "en": "Phases: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE (Final Kerma c.1480–1450) (KERMA_MISSION 'History')",
-   "ar": "مراحل البعثة السويسرية: كرمة المبكرة نحو 2450–2050، والوسطى نحو 2050–1750، والكلاسيكية نحو 1750–1550 ق.م (وكرمة المتأخرة حتى نحو 1450) [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح]",
-   "cite": {
-    "source_id": "KERMA_MISSION",
-    "pages": "History page, Kingdom of Kerma section",
-    "cite_text": "'Classic Kerma (circa 1750-1480 B.C.)'"
    }
   },
   {
@@ -98,20 +97,14 @@
    "date_note": "GHA II p.265: Tuthmose I (—1530 to —1520)"
   },
   {
-   "date": null,
-   "en": "Western Deffufa: a solid mud-brick mass whose purpose is disputed; in Classic Kerma it came to resemble an Egyptian temple (GHA2_CH9 pp.259–261; KERMA_MISSION 'History')",
-   "ar": "معبد الدفوفة الغربية المبني من الطوب اللبن",
+   "date": -1750,
+   "en": "Phases: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE (Final Kerma c.1480–1450) (KERMA_MISSION 'History')",
+   "ar": "مراحل البعثة السويسرية: كرمة المبكرة نحو 2450–2050، والوسطى نحو 2050–1750، والكلاسيكية نحو 1750–1550 ق.م (وكرمة المتأخرة حتى نحو 1450) [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح]",
    "cite": {
-    "source_id": "GHA2_CH9",
-    "pages": "pp.259–261; History page, Kingdom of Kerma section",
-    "cite_text": "'The former is a solid mass of sun-dried brick'"
-   },
-   "cite_extra": [
-    {
-     "source_id": "KERMA_MISSION",
-     "pages": "History page, Kingdom of Kerma section"
-    }
-   ]
+    "source_id": "KERMA_MISSION",
+    "pages": "History page, Kingdom of Kerma section",
+    "cite_text": "'Classic Kerma (circa 1750-1480 B.C.)'"
+   }
   }
  ],
  "egyptian-new-kingdom-rule-in-nubia": [
@@ -138,20 +131,6 @@
  ],
  "kingdom-of-kush-napatan-period": [
   {
-   "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "r25 triage: dates in text not found in any registered source; see audit/r25/historian_event_triage.md"
-  },
-  {
-   "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "r25 triage: dates in text not found in any registered source; see audit/r25/historian_event_triage.md"
-  },
-  {
    "date": -713,
    "en": "Shabaka from c.713 BCE founds 25th Dynasty rule over all Egypt",
    "ar": "شباكا منذ نحو 713 ق.م يؤسس حكم الأسرة الخامسة والعشرين على مصر كلها",
@@ -168,6 +147,17 @@
     "source_id": "GHA2_CH10",
     "pages": "p.281"
    }
+  },
+  {
+   "date": -664,
+   "en": "Tanwetamani (Tanoutamon) 664–653; Assyrian sack of Thebes 663; Kushite withdrawal southward (GHA2_CH10 pp.282, 300)",
+   "ar": "تانوت أماني 664–نحو 656؛ نهب الآشوريين لطيبة 663؛ انسحاب الكوشيين",
+   "cite": {
+    "source_id": "GHA2_CH10",
+    "pages": "pp.282, 300",
+    "cite_text": "'captured and sacked Thebes in -663' and 'the Kushites withdrew southward' (p.282); 'Tanwetamani's (—664 to -653) stele' (p.300)"
+   },
+   "date_note": "date sign corrected 664 → −664 (BCE); GHA II p.300 gives Tanwetamani '(—664 to -653)'"
   },
   {
    "date": -593,
@@ -199,38 +189,9 @@
    "date": -690,
    "approx": true,
    "date_note": "GHA II p.281: Taharqa (—690 to —664), who moved royal burial to Nuri"
-  },
-  {
-   "date": -664,
-   "en": "Tanwetamani (Tanoutamon) 664–653; Assyrian sack of Thebes 663; Kushite withdrawal southward (GHA2_CH10 pp.282, 300)",
-   "ar": "تانوت أماني 664–نحو 656؛ نهب الآشوريين لطيبة 663؛ انسحاب الكوشيين",
-   "cite": {
-    "source_id": "GHA2_CH10",
-    "pages": "pp.282, 300",
-    "cite_text": "'captured and sacked Thebes in -663' and 'the Kushites withdrew southward' (p.282); 'Tanwetamani's (—664 to -653) stele' (p.300)"
-   },
-   "date_note": "date sign corrected 664 → −664 (BCE); GHA II p.300 gives Tanwetamani '(—664 to -653)'"
   }
  ],
  "kingdom-of-kush-meroitic-period": [
-  {
-   "date": -170,
-   "en": "Queen Shanakdakhete (c.170–160 BCE): among earliest Meroitic hieroglyphic inscriptions (Naqa)",
-   "ar": "الملكة شنكداخيتي (نحو 170–160 ق.م): من أقدم النقوش المروية الهيروغليفية (النقعة)",
-   "cite": {
-    "source_id": "GHA2_CH10",
-    "pages": "pp.288–289"
-   }
-  },
-  {
-   "date": 1909,
-   "en": "Iron working at Meroe; Meroitic script transliterated by Griffith 1909, language still not understood",
-   "ar": "صناعة الحديد في مروي؛ نقحرة الخط المروي على يد غريفيث 1909، ولا تزال اللغة غير مفهومة",
-   "cite": {
-    "source_id": "GHA2_CH10",
-    "pages": "pp.286, 289"
-   }
-  },
   {
    "date": null,
    "en": "Ergamenes/Arkamani (3rd c. BCE), friendly relations with Ptolemaic Egypt",
@@ -241,12 +202,30 @@
    }
   },
   {
+   "date": -170,
+   "en": "Queen Shanakdakhete (c.170–160 BCE): among earliest Meroitic hieroglyphic inscriptions (Naqa)",
+   "ar": "الملكة شنكداخيتي (نحو 170–160 ق.م): من أقدم النقوش المروية الهيروغليفية (النقعة)",
+   "cite": {
+    "source_id": "GHA2_CH10",
+    "pages": "pp.288–289"
+   }
+  },
+  {
    "date": null,
    "en": "Taniydamani (late 2nd c. BCE): first long Meroitic texts",
    "ar": "تانيدأماني (أواخر القرن الثاني ق.م): أول النصوص المروية الطويلة",
    "cite": {
     "source_id": "GHA2_CH10",
     "pages": "p.289"
+   }
+  },
+  {
+   "date": 1909,
+   "en": "Iron working at Meroe; Meroitic script transliterated by Griffith 1909, language still not understood",
+   "ar": "صناعة الحديد في مروي؛ نقحرة الخط المروي على يد غريفيث 1909، ولا تزال اللغة غير مفهومة",
+   "cite": {
+    "source_id": "GHA2_CH10",
+    "pages": "pp.286, 289"
    }
   },
   {
@@ -362,17 +341,6 @@
  ],
  "alodia-alwa": [
   {
-   "date": 1504,
-   "en": "Fall of Alwa, traditionally dated 1504 (founding of the Funj sultanate); the two need not coincide (GHA4_CH16 p.406)",
-   "ar": "سقطت في يد الفونج/العبدلاب نحو 1504",
-   "cite": {
-    "source_id": "GHA4_CH16",
-    "pages": "p.406",
-    "cite_text": "'it has been customary to date the fall of 'Alwa to 1504, which is the year of the establishment of the Funj sultanate'"
-   },
-   "approx": true
-  },
-  {
    "date": null,
    "en": "Southernmost of three Christian Nubian kingdoms by the late 6th century (GHA2_CH12 p.331)",
    "ar": "مملكة مسيحية على النيل الأزرق/الأبيض",
@@ -391,6 +359,17 @@
     "pages": "p.196",
     "cite_text": "'Alodia (Arabic, 'Alwa) with its capital at Soba, in the vicinity of modern-day Khartoum'"
    }
+  },
+  {
+   "date": 1504,
+   "en": "Fall of Alwa, traditionally dated 1504 (founding of the Funj sultanate); the two need not coincide (GHA4_CH16 p.406)",
+   "ar": "سقطت في يد الفونج/العبدلاب نحو 1504",
+   "cite": {
+    "source_id": "GHA4_CH16",
+    "pages": "p.406",
+    "cite_text": "'it has been customary to date the fall of 'Alwa to 1504, which is the year of the establishment of the Funj sultanate'"
+   },
+   "approx": true
   }
  ],
  "funj-sultanate-of-sennar": [
@@ -483,16 +462,6 @@
    }
   },
   {
-   "date": 1898,
-   "en": "Battle of Karari (Omdurman), 2 September 1898; the Khalifa is defeated and found dead at Umm Diwaykrat, 24 November 1899 (GHA7_CH4 p.78)",
-   "ar": "معركة أم درمان 1898؛ أم دبيكرات 1899 [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (Omdurman) 1898; end of Khalifa Abdallahi, November 1899",
-   "cite": {
-    "source_id": "GHA7_CH4",
-    "pages": "p.78",
-    "cite_text": "'the battle of Karari on 2 September 1898'"
-   }
-  },
-  {
    "date": 1885,
    "en": "Khalifa 'Abdullahi succeeds the Mahdi, who died in June 1885 (GHA7_CH4 p.77)",
    "ar": "حكم الخليفة عبد الله",
@@ -500,6 +469,16 @@
     "source_id": "GHA7_CH4",
     "pages": "p.77",
     "cite_text": "'he died in June 1885'"
+   }
+  },
+  {
+   "date": 1898,
+   "en": "Battle of Karari (Omdurman), 2 September 1898; the Khalifa is defeated and found dead at Umm Diwaykrat, 24 November 1899 (GHA7_CH4 p.78)",
+   "ar": "معركة أم درمان 1898؛ أم دبيكرات 1899 [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (Omdurman) 1898; end of Khalifa Abdallahi, November 1899",
+   "cite": {
+    "source_id": "GHA7_CH4",
+    "pages": "p.78",
+    "cite_text": "'the battle of Karari on 2 September 1898'"
    }
   }
  ],
@@ -524,16 +503,6 @@
    }
   },
   {
-   "date": 1953,
-   "en": "Anglo-Egyptian accord of February 1953 sets a three-year transition from condominium rule to self-government (LOC1991_INDEP)",
-   "ar": "الحكم الذاتي 1953",
-   "cite": {
-    "source_id": "LOC1991_INDEP",
-    "pages": "countrystudies.us/sudan/18.htm",
-    "cite_text": "February 1953 accord"
-   }
-  },
-  {
    "en": "Southern Policy: the three southern provinces treated as a separate region under 'closed door' ordinances; a 1930 directive declared southerners a people distinct from northern Muslims (LOC1991_SOUTHPOL)",
    "ar": "سياسة الجنوب",
    "cite": {
@@ -544,6 +513,16 @@
    "date": 1930,
    "approx": true,
    "date_note": "LOC1991_SOUTHPOL: 'a 1930 directive stated that blacks in the southern provinces were to be considered a people distinct from northern Muslims'"
+  },
+  {
+   "date": 1953,
+   "en": "Anglo-Egyptian accord of February 1953 sets a three-year transition from condominium rule to self-government (LOC1991_INDEP)",
+   "ar": "الحكم الذاتي 1953",
+   "cite": {
+    "source_id": "LOC1991_INDEP",
+    "pages": "countrystudies.us/sudan/18.htm",
+    "cite_text": "February 1953 accord"
+   }
   }
  ],
  "independent-sudan-first-parliamentary-period": [
@@ -635,13 +614,6 @@
  ],
  "transitional-third-parliamentary-period": [
   {
-   "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "no source page found: S/2005/60 p.20 para 46 gives 1986 and Sadiq Al-Mahdi as PM, 'less than four years', not an end year 1989"
-  },
-  {
    "date": 1985,
    "en": "Swar al-Dahab transitional council",
    "ar": "المجلس الانتقالي برئاسة سوار الذهب",
@@ -649,6 +621,13 @@
     "source_id": "UNSC_S2005_60",
     "pages": "p.20, para 46"
    }
+  },
+  {
+   "date": null,
+   "en": "",
+   "ar": "",
+   "cite": "NO-SOURCE",
+   "removed": "no source page found: S/2005/60 p.20 para 46 gives 1986 and Sadiq Al-Mahdi as PM, 'less than four years', not an end year 1989"
   }
  ],
  "al-bashir-ncp-ingaz-regime": [
@@ -703,7 +682,7 @@
    "en": "",
    "ar": "",
    "cite": "NO-SOURCE",
-   "removed": "no source page found: S/RES/2524 p.1 gives the Constitutional Document 17 Aug 2019 but not Hamdok as PM or the 8 Sep 2019 cabinet (ICG not a UN/aid source)"
+   "removed": "no source page found: S/2024/65 p.6 names former PM Hamdok and the Sovereignty Council only in a 2023 timeline; no dated transition-era statement"
   },
   {
    "date": null,
@@ -713,6 +692,13 @@
    "removed": "no source page found: coup 25 Oct 2021 not stated in S/RES/2524, S/RES/2636, S/2024/65 or S/2025/239"
   },
   {
+   "date": null,
+   "en": "",
+   "ar": "",
+   "cite": "NO-SOURCE",
+   "removed": "no source page found: S/RES/2524 p.1 gives the Constitutional Document 17 Aug 2019 but not Hamdok as PM or the 8 Sep 2019 cabinet (ICG not a UN/aid source)"
+  },
+  {
    "date": 2020,
    "en": "UNITAMS created by UNSC res. 2524, 3 Jun 2020",
    "ar": "إنشاء بعثة يونيتامس بقرار مجلس الأمن 2524، 3 يونيو 2020",
@@ -720,13 +706,6 @@
     "source_id": "UNSC2524",
     "pages": "p.1 header; p.3 op. para 1"
    }
-  },
-  {
-   "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "no source page found: S/2024/65 p.6 names former PM Hamdok and the Sovereignty Council only in a 2023 timeline; no dated transition-era statement"
   }
  ],
  "war-in-sudan-saf-vs-rsf": [
@@ -747,27 +726,6 @@
     "source_id": "UNPOE_S2024_65",
     "pages": "PDF p.37, para 133"
    }
-  },
-  {
-   "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "IPC sole source; needs UN/OCHA/WFP cite"
-  },
-  {
-   "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "IPC sole source; needs UN/OCHA/WFP cite"
-  },
-  {
-   "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "no UN/OCHA source states the relocation"
   }
  ],
  "daju-kingdom": [
@@ -805,16 +763,6 @@
    }
   },
   {
-   "date": 1874,
-   "en": "Sultan Ibrahim defeated and killed by al-Zubayr at Manawashi, 1874; Darfur annexed to the Turco-Egyptian regime (GHA VI ch.14 p.371)",
-   "ar": "فتحها الزبير رحمة 1874 [يحتاج تحقق]",
-   "cite": {
-    "source_id": "GHA6_CH14",
-    "pages": "p.371",
-    "cite_text": "GHA VI ch.14 p.371"
-   }
-  },
-  {
    "date": null,
    "en": "Muhammad Tayrab takes Kordofan from the Musabba'at; it stays with the Fur until the Turco-Egyptian conquest (GHA V ch.7 p.189)",
    "ar": "التوسع في كردفان في عهد محمد تيراب نحو 1785 [يحتاج تحقق]",
@@ -833,18 +781,19 @@
     "pages": "pp.190–191",
     "cite_text": "d. 1801–2) (GHA V ch.7 pp.190–191"
    }
+  },
+  {
+   "date": 1874,
+   "en": "Sultan Ibrahim defeated and killed by al-Zubayr at Manawashi, 1874; Darfur annexed to the Turco-Egyptian regime (GHA VI ch.14 p.371)",
+   "ar": "فتحها الزبير رحمة 1874 [يحتاج تحقق]",
+   "cite": {
+    "source_id": "GHA6_CH14",
+    "pages": "p.371",
+    "cite_text": "GHA VI ch.14 p.371"
+   }
   }
  ],
  "restored-darfur-sultanate-ali-dinar": [
-  {
-   "date": 1916,
-   "en": "Annexed by Anglo-Egyptian Sudan 1916",
-   "ar": "ضمها السودان الإنجليزي المصري 1916",
-   "cite": {
-    "source_id": "GHA7_CH12",
-    "pages": "p.283"
-   }
-  },
   {
    "date": null,
    "en": "Ali Dinar rules, nominally tributary to but effectively independent of the Anglo-Egyptian Sudan (GHA7_CH12 p.283)",
@@ -854,9 +803,25 @@
     "pages": "p.283",
     "cite_text": "'nominally tributary to, but effectively independent of, the Anglo-Egyptian Sudan'"
    }
+  },
+  {
+   "date": 1916,
+   "en": "Annexed by Anglo-Egyptian Sudan 1916",
+   "ar": "ضمها السودان الإنجليزي المصري 1916",
+   "cite": {
+    "source_id": "GHA7_CH12",
+    "pages": "p.283"
+   }
   }
  ],
  "kingdom-of-taqali": [
+  {
+   "date": null,
+   "en": "",
+   "ar": "",
+   "cite": "NO-SOURCE",
+   "removed": "r25 triage: no registered source read this round states Taqali incorporation into the Condominium administration"
+  },
   {
    "date": null,
    "en": "Nuba Mountains kingdom; tributary to Funj/Darfur at times",
@@ -872,13 +837,6 @@
     }
    ],
    "date_note": "GHA V p.177 n.24: the tributary relation to the Funj is disputed"
-  },
-  {
-   "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "r25 triage: no registered source read this round states Taqali incorporation into the Condominium administration"
   }
  ],
  "shilluk-kingdom": [
@@ -1137,25 +1095,18 @@
    }
   }
  ],
- "republic-of-egypt": [
-  {
-   "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "no source page found: no UN/aid agency page read states the Aswan High Dam / Wadi Halfa 1964 claim"
-  }
- ],
- "land-of-punt-d-mt": [
-  {
-   "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "r25 triage: No registered source names D'mt (GHA II ch.13 pp.340-365 searched)."
-  }
- ],
+ "republic-of-egypt": [],
+ "land-of-punt-d-mt": [],
  "kingdom-of-aksum": [
+  {
+   "date": null,
+   "en": "Christianity under Ezana c.330s",
+   "ar": "المسيحية في عهد عيزانا نحو ثلاثينيات القرن الرابع",
+   "cite": {
+    "source_id": "GHA2",
+    "pages": "pp.293, 375"
+   }
+  },
   {
    "date": null,
    "en": "Campaign against Meroe/Noba c.350",
@@ -1165,15 +1116,6 @@
     "pages": "p.293"
    },
    "date_note": "Year 350 not printed on any registered page (GHA II p.293); date removed."
-  },
-  {
-   "date": null,
-   "en": "Christianity under Ezana c.330s",
-   "ar": "المسيحية في عهد عيزانا نحو ثلاثينيات القرن الرابع",
-   "cite": {
-    "source_id": "GHA2",
-    "pages": "pp.293, 375"
-   }
   }
  ],
  "zagwe-dynasty": [
@@ -1273,13 +1215,6 @@
  "wadai-sultanate": [
   {
    "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "r25 triage: No registered source page prints French conquest of Wadai 1909–12 (searched GHA VII, SFDAS)."
-  },
-  {
-   "date": null,
    "en": "Rival and neighbour of Darfur",
    "ar": "منافسة دارفور وجارتها",
    "cite": {
@@ -1295,13 +1230,6 @@
    "ar": "",
    "cite": "NO-SOURCE",
    "removed": "no source page found: no UN/aid agency page read states Chad's independence in 1960"
-  },
-  {
-   "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "no source page found: S/2005/60 p.3 gives >200,000 Darfur refugees in Chad but not 'from 2003', and no 2023 source read"
   }
  ],
  "garamantes-fezzan": [
@@ -1395,23 +1323,9 @@
     "source_id": "GHA5_CH7",
     "pages": "p.175"
    }
-  },
-  {
-   "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "r25 triage: No registered source page found for Port Sudan opening 1909 (searched SFDAS pp.560–700, GHA7)."
   }
  ],
  "ottoman-hejaz-saudi-state": [
-  {
-   "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "r25 triage: No registered source covers Saudi Kingdom 1932; outside Sudan corpus."
-  },
   {
    "date": 2023,
    "en": "Jeddah talks on Sudan war 2023",
@@ -1463,20 +1377,20 @@
   },
   {
    "date": null,
-   "en": "'Ababda (north) Arabic-speaking; 18th c. southward expansion; Hadendowa in Taka (Gash) by early 19th c.",
-   "ar": "العبابدة (في الشمال) يتحدثون العربية؛ توسع نحو الجنوب في القرن الثامن عشر؛ الهدندوة في التاكا (القاش) بحلول مطلع القرن التاسع عشر",
-   "cite": {
-    "source_id": "HD2011",
-    "pages": "pp.6–7"
-   }
-  },
-  {
-   "date": null,
    "en": "Nabtab ruling clan of the Banu 'Amir claims Ja'ali descent",
    "ar": "النابتاب، العشيرة الحاكمة لبني عامر، يدّعون النسب الجعلي",
    "cite": {
     "source_id": "HD2011",
     "pages": "p.4"
+   }
+  },
+  {
+   "date": null,
+   "en": "'Ababda (north) Arabic-speaking; 18th c. southward expansion; Hadendowa in Taka (Gash) by early 19th c.",
+   "ar": "العبابدة (في الشمال) يتحدثون العربية؛ توسع نحو الجنوب في القرن الثامن عشر؛ الهدندوة في التاكا (القاش) بحلول مطلع القرن التاسع عشر",
+   "cite": {
+    "source_id": "HD2011",
+    "pages": "pp.6–7"
    }
   }
  ],
@@ -1600,13 +1514,6 @@
   }
  ],
  "nuer-naath-communities": [
-  {
-   "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "r25 triage: population figure (c.200,000, 1930s) attested only in EP1940, which is barred for Nuer events; date 200 was an artefact of the figure; no other registered source"
-  },
   {
    "date": null,
    "en": "Swamps and savannah on both sides of the Nile south of the Sobat/Bahr al-Ghazal junction and along both tributaries",
