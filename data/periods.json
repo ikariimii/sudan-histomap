@@ -5969,6 +5969,39 @@
     "lang": "en",
     "note": "LOC Country Study, 1991; US-government; dated"
    },
+   "UNNEWS_20211025_COUP": {
+    "author": "UN News",
+    "title": "UN chief condemns ‘ongoing military coup’ in Sudan",
+    "publisher": "United Nations",
+    "date": "2021-10-25",
+    "year": "2021",
+    "url": "https://news.un.org/en/story/2021/10/1103902",
+    "pages": "",
+    "lang": "en",
+    "note": "UN News story, 25 Oct 2021 (fetched 2026-10-26). Lead: \"UN Secretary-General, António Guterres on Monday condemned the “ongoing military coup” in Sudan\""
+   },
+   "UNITAMS_20230511_JEDDAH": {
+    "author": "UNITAMS (Trilateral Mechanism: UN, AU, IGAD)",
+    "title": "Statement by the Trilateral Mechanism on the signing of a Declaration of Commitment to protect the Civilians of Sudan",
+    "publisher": "United Nations (UNITAMS)",
+    "date": "2023-05-11",
+    "year": "2023",
+    "url": "https://unitams.unmissions.org/en/news/statement-trilateral-mechanism-signing-declaration-commitment-protect-civilians-sudan",
+    "pages": "",
+    "lang": "en",
+    "note": "Fetched 2026-10-26. Para 1: \"welcomes the signing of a Declaration of Commitment to Protect the Civilians of Sudan by the Sudanese Armed Forces and the Rapid Support Forces today in Jeddah, Saudi Arabia.\""
+   },
+   "UN_SGSM21794_20230512": {
+    "author": "UN Spokesman for the Secretary-General",
+    "title": "Secretary-General Welcomes Signing of Declaration to Protect Civilians in Sudan (SG/SM/21794)",
+    "publisher": "United Nations",
+    "date": "2023-05-12",
+    "year": "2023",
+    "url": "https://press.un.org/en/2023/sgsm21794.doc.htm",
+    "pages": "",
+    "lang": "en",
+    "note": "Fetched 2026-10-26. Para 1: \"The Secretary-General welcomes the signing by the parties to the conflict in Sudan of the Declaration of Commitment to protect civilians and guarantee the safe passage of humanitarian aid in the country.\""
+   },
    "UN_SC16203_20251030": {
     "author": "UN Meetings Coverage",
     "title": "El Fasher in 'Even Darker Hell', UN Officials Tell Security Council, as Delegates Decry Horrific Crimes Following City's Capture by Rapid Support Forces (SC/16203)",
@@ -9351,7 +9384,7 @@
     "Constitutional Document signed 17 Aug 2019; Hamdok PM; cabinet 8 Sep 2019 (ICG)",
     "UNITAMS created by UNSC res. 2524, 3 Jun 2020"
    ],
-   "key_events_cites": [{"source": "ICG2019", "page": "Executive Summary ('What's new?'); sect. II"}, {"source": "ICG2019", "page": "Executive Summary"}, null, null, null],
+   "key_events_cites": [{"source": "ICG2019", "page": "Executive Summary ('What's new?'); sect. II"}, {"source": "ICG2019", "page": "Executive Summary"}, {"source": "UNNEWS_20211025_COUP", "page": "headline; para 1"}, {"source": "ICG2019", "page": "Executive Summary para 3; sect. I para 2"}, {"source": "UNSC2524", "page": "p.1 (adoption date); p.3 op. para 1"}],
    "capitals": [
     {
      "name": "Khartoum",
@@ -9413,7 +9446,7 @@
     "Fighting erupts 15 April 2023",
     "Jeddah Declaration on protection of civilians, 11 May 2023"
    ],
-   "key_events_cites": [null, null],
+   "key_events_cites": [{"source": "UNNEWS2023", "page": "dateline; paras 1-2"}, [{"source": "UNITAMS_20230511_JEDDAH", "page": "para 1"}, {"source": "UN_SGSM21794_20230512", "page": "para 1"}]],
    "capitals": [
     {
      "name": "Khartoum",
@@ -9842,7 +9875,7 @@
     "R-ARCSS signed 12 Sep 2018",
     "Revitalised Transitional Government of National Unity formed 22 Feb 2020 (ACCORD)"
    ],
-   "key_events_cites": [null, null, null, null],
+   "key_events_cites": [{"source": "UNSC1996", "page": "p.1 (adoption date; preamble para 1); p.3 op. para 1"}, null, {"source": "RARCSS2018", "page": "signature page, printed p.73 (PDF p.79)"}, {"source": "ACCORD2020", "page": "Background para 1 (secondary source)"}],
    "capitals": [
     {
      "name": "Juba",
