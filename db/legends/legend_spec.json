@@ -68,7 +68,17 @@
    "shape": "small ring",
    "size": 7,
    "stroke": "#333",
-   "fill": "none"
+   "fill": "none",
+   "topo_halo": {
+    "halo": "#0b141b",
+    "halo_width_px": 1.5,
+    "halo_opacity": 1,
+    "outer_edge": "#ffffff",
+    "outer_edge_width_px": 0.5,
+    "outer_edge_always_on": true,
+    "decision": "IM 2026-10-25",
+    "ref": "topo_halo"
+   }
   },
   {
    "id": "boundary_line",
@@ -418,7 +428,18 @@
    "feather": null,
    "source": "db/border_drafts/README.md bd-0.1",
    "stroke_colour": "#a297de",
-   "stroke_colour_pre1899_solid": "#d7d3f1"
+   "stroke_colour_pre1899_solid": "#d7d3f1",
+   "topo_halo": {
+    "halo": "#0b141b",
+    "halo_width_px": 1.5,
+    "halo_opacity": 1,
+    "outer_edge": "#ffffff",
+    "outer_edge_width_px": 0.5,
+    "outer_edge_always_on": true,
+    "decision": "IM 2026-10-25",
+    "ref": "topo_halo",
+    "applies_to": "stroke and pre-1899 solid stroke"
+   }
   },
   {
    "id": "zone_claimed",
@@ -436,7 +457,18 @@
    "feather": null,
    "source": "db/border_drafts/README.md bd-0.1",
    "stroke_colour": "#a297de",
-   "stroke_colour_pre1899_solid": "#d7d3f1"
+   "stroke_colour_pre1899_solid": "#d7d3f1",
+   "topo_halo": {
+    "halo": "#0b141b",
+    "halo_width_px": 1.5,
+    "halo_opacity": 1,
+    "outer_edge": "#ffffff",
+    "outer_edge_width_px": 0.5,
+    "outer_edge_always_on": true,
+    "decision": "IM 2026-10-25",
+    "ref": "topo_halo",
+    "applies_to": "stroke and pre-1899 solid stroke"
+   }
   },
   {
    "id": "zone_influence",
@@ -464,7 +496,17 @@
     4,
     3
    ],
-   "note": "Contested stays points-only per uncertainty_encoding.CONTESTED; never a polygon."
+   "note": "Contested stays points-only per uncertainty_encoding.CONTESTED; never a polygon.",
+   "topo_halo": {
+    "halo": "#0b141b",
+    "halo_width_px": 1.5,
+    "halo_opacity": 1,
+    "outer_edge": "#ffffff",
+    "outer_edge_width_px": 0.5,
+    "outer_edge_always_on": true,
+    "decision": "IM 2026-10-25",
+    "ref": "topo_halo"
+   }
   },
   {
    "id": "low_confidence",
@@ -476,7 +518,17 @@
    "applies_when": "confidence_style == 'hatched' (not on contested); numeric confidence alone adds no hatch",
    "opacity": 0.6,
    "feather": "blurred mask edge (#hfeather)",
-   "source": "map.js CKS() / r2-a, live head"
+   "source": "map.js CKS() / r2-a, live head",
+   "topo_halo": {
+    "halo": "#0b141b",
+    "halo_width_px": 1.5,
+    "halo_opacity": 1,
+    "outer_edge": "#ffffff",
+    "outer_edge_width_px": 0.5,
+    "outer_edge_always_on": true,
+    "decision": "IM 2026-10-25",
+    "ref": "topo_halo"
+   }
   },
   {
    "id": "ethno_label_marker",
@@ -870,7 +922,17 @@
    "#b0532c": {
     "stroke": "#cc8f76",
     "min_ratio": 3.28,
-    "fill_unchanged": "#b0532c"
+    "fill_unchanged": "#b0532c",
+    "topo_halo": {
+     "halo": "#0b141b",
+     "halo_width_px": 1.5,
+     "halo_opacity": 1,
+     "outer_edge": "#ffffff",
+     "outer_edge_width_px": 0.5,
+     "outer_edge_always_on": true,
+     "decision": "IM 2026-10-25",
+     "ref": "topo_halo"
+    }
    },
    "#8a5a14": {
     "stroke": "#b99c72",
@@ -885,7 +947,17 @@
    "#3f7d4a": {
     "stroke": "#82aa89",
     "min_ratio": 3.41,
-    "fill_unchanged": "#3f7d4a"
+    "fill_unchanged": "#3f7d4a",
+    "topo_halo": {
+     "halo": "#0b141b",
+     "halo_width_px": 1.5,
+     "halo_opacity": 1,
+     "outer_edge": "#ffffff",
+     "outer_edge_width_px": 0.5,
+     "outer_edge_always_on": true,
+     "decision": "IM 2026-10-25",
+     "ref": "topo_halo"
+    }
    },
    "#7c2f2a": {
     "stroke": "#be9794",
@@ -1071,5 +1143,98 @@
   "toggle_id": "toggle:dem, toggle:heatmap (db/legends/toggles.json)",
   "web_lead_action": "in web/mapsite.py set lg row id from legend_rows[].row_id (or f'{layer}:{cls}') instead of cls; IM does not edit web/ or lg/.",
   "uniqueness": "build_legends.py asserts all row_id/legend_id unique within each era legend; toggle ids are disjoint by prefix."
+ },
+ "topo_halo": {
+  "halo": "#0b141b",
+  "halo_width_px": 1.5,
+  "halo_opacity": 1,
+  "outer_edge": "#ffffff",
+  "outer_edge_width_px": 0.5,
+  "outer_edge_always_on": true,
+  "outer_edge_intent": "for contour crossings (OpenTopoMap contour/river linework); encoded always-on",
+  "decision": "IM 2026-10-25",
+  "basemap": "OpenTopoMap",
+  "rule": "Dark halo drawn under each listed stroke, white outer edge outside the halo. All stroke colours unchanged.",
+  "measurement": "db/legends/topo_hatch_contrast.json (OpenTopoMap tiles z5-7, measured 2026-10-25)",
+  "strokes": [
+   {
+    "name": "zone stroke (zone_core, zone_claimed)",
+    "colour": "#7a6bd0",
+    "opacity": 1,
+    "where": "legend_spec.entries zone_core / zone_claimed",
+    "min_all_tones": 1.11,
+    "min_area_tones": 2.38
+   },
+   {
+    "name": "zone stroke pre-1899 solid",
+    "colour": "#7a6bd0",
+    "opacity": 0.6,
+    "where": "zone_core / zone_claimed stroke_colour_pre1899_solid",
+    "min_all_tones": 1.1,
+    "min_area_tones": 1.67
+   },
+   {
+    "name": "lowconf hatch",
+    "colour": "#e8eef2",
+    "opacity": 0.6,
+    "where": "low_confidence pattern (map.js #lowconf)",
+    "min_all_tones": 1.0,
+    "min_area_tones": 1.0
+   },
+   {
+    "name": "contested hatch / stroke",
+    "colour": "#e0a63e",
+    "opacity": 1,
+    "where": "zone_contested",
+    "min_all_tones": 1.14,
+    "min_area_tones": 1.19
+   },
+   {
+    "name": "amber hatch-cont line",
+    "colour": "#f2b84b",
+    "opacity": 1,
+    "where": "renderer-defined (not in db/ style files); halo spec only",
+    "min_all_tones": 1.01,
+    "min_area_tones": 1.01
+   },
+   {
+    "name": "South Sudan dash",
+    "colour": "#9fb2bf",
+    "opacity": 1,
+    "where": "renderer-defined (not in db/ style files); halo spec only",
+    "min_all_tones": 1.13,
+    "min_area_tones": 1.2
+   },
+   {
+    "name": "extent_label_point ring",
+    "colour": "#e8eef2",
+    "opacity": 1,
+    "where": "extent_label_point (as rendered; spec stroke field reads #333)",
+    "min_all_tones": 1.01,
+    "min_area_tones": 1.01
+   },
+   {
+    "name": "era extent stroke",
+    "colour": "#b0532c",
+    "opacity": 1,
+    "where": "contrast_fix.extent_stroke_by_era_hue #b0532c",
+    "min_all_tones": 1.06,
+    "min_area_tones": 2.8
+   },
+   {
+    "name": "era extent stroke",
+    "colour": "#3f7d4a",
+    "opacity": 1,
+    "where": "contrast_fix.extent_stroke_by_era_hue #3f7d4a",
+    "min_all_tones": 1.09,
+    "min_area_tones": 2.72
+   }
+  ],
+  "no_halo": {
+   "era strokes #8a5a14 #3f6d8e #7c2f2a #5a4a8a #2b5d5d": "pass >=3:1 on OpenTopoMap area tones; no halo",
+   "battle region glow #f08c6c @.55": "exempt (area glow, not a line)"
+  },
+  "colours_unchanged": true,
+  "note": "Re-measure topo_hatch_contrast.json if the site ever dims the basemap (measured at basemap opacity 1)."
  }
 }
