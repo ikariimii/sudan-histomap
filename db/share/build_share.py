@@ -29,7 +29,6 @@ FD = "/usr/share/fonts/truetype/sand-box/google/"
 F_AR = FD + "Noto Naskh Arabic/NotoNaskhArabic-VariableFont_wght.ttf"
 F_SANS = FD + "Noto Sans/NotoSans-VariableFont_wdth,wght.ttf"
 F_SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
-COL, AMBER = "#8c2d19", "#e69f00"  # same zone colours as db/og/build_og.py
 
 def font(p, s):  # BASIC layout: shaping/RTL done by arabic_reshaper + python-bidi (avoids double reordering by raqm)
     try: return ImageFont.truetype(p, s, layout_engine=ImageFont.Layout.BASIC)
@@ -49,7 +48,23 @@ def poly_path(g):
 def is_contested(pr):
     return pr.get("zone") == "contested" or pr.get("contested") is True or str(pr.get("badge", "")).upper() == "CONTESTED"
 
-def render_map(e, feats, zs, relief, base, mw, mh, path):
+def style(leg):
+    """Map colours from db/legends/legend_spec.json topo_halo: ORIGINAL colours drawn with the halo.
+    contrast_fix tints are retired (IM 2026-10-25) and are never read here."""
+    th = leg["topo_halo"]; S = {x["name"]: x for x in th["strokes"]}
+    z, zp = S["zone stroke (zone_core, zone_claimed)"], S["zone stroke pre-1899 solid"]
+    cont = next(x["colour"] for x in th["strokes"] if x["where"] == "zone_contested")
+    return dict(fill=z["colour"], stroke=z["colour"], stroke_pre1899=zp["colour"], stroke_pre1899_op=zp["opacity"],
+                contested=cont, halo=th["halo"], halo_w=th["halo_width_px"], edge=th["outer_edge"], edge_w=th["outer_edge_width_px"])
+
+def halo_line(ax, p, st, colour, lw, ls="-", alpha=1, z=5):
+    # topo_halo: outer white edge, dark halo, then the stroke itself (widths in px -> pt at 100 dpi = *0.72)
+    k = 0.72
+    ax.add_patch(PathPatch(p, fill=False, ec=st["edge"], lw=(lw + 2 * st["halo_w"] + 2 * st["edge_w"]) * k, zorder=z, joinstyle="round"))
+    ax.add_patch(PathPatch(p, fill=False, ec=st["halo"], lw=(lw + 2 * st["halo_w"]) * k, zorder=z + .1, joinstyle="round"))
+    ax.add_patch(PathPatch(p, fill=False, ec=colour, lw=lw * k, ls=ls, alpha=alpha, zorder=z + .2, joinstyle="round"))
+
+def render_map(e, feats, zs, relief, base, mw, mh, path, st):
     b = e.get("camera_bbox")
     x0, x1, y0, y1 = b[0], b[2], my(b[1]), my(b[3])
     cx, cy, w, h = (x0 + x1) / 2, (y0 + y1) / 2, max(x1 - x0, 1), max(y1 - y0, 1)
@@ -70,25 +85,27 @@ def render_map(e, feats, zs, relief, base, mw, mh, path):
         if g["type"] in ("Polygon", "MultiPolygon"):
             p = poly_path(g)
             if con:
-                ax.add_patch(PathPatch(p, fc=AMBER, ec="none", alpha=0.25, zorder=3))
-                ax.add_patch(PathPatch(p, fill=False, ec="#7a4f00", lw=0, hatch="///", zorder=4))
-                ax.add_patch(PathPatch(p, fill=False, ec="#0f1b24", lw=1.5, ls=(0, (4, 3)), zorder=5))
+                ax.add_patch(PathPatch(p, fc=st["contested"], ec="none", alpha=0.25, zorder=3))
+                ax.add_patch(PathPatch(p, fill=False, ec=st["contested"], lw=0, hatch="///", zorder=4))
+                halo_line(ax, p, st, st["contested"], 2, ls=(0, (4, 3)))
             else:
-                ax.add_patch(PathPatch(p, fc=COL, ec="none", alpha=op.get(z, .35), zorder=3))
-                ax.add_patch(PathPatch(p, fill=False, ec="#0f1b24", lw=1.5, ls=(0, (5, 3)) if z == "claimed" else "-", zorder=5))
+                ax.add_patch(PathPatch(p, fc=st["fill"], ec="none", alpha=op.get(z, .35), zorder=3))
+                pre = (e.get("years") or [9999])[0] < 1899 and z != "claimed"
+                halo_line(ax, p, st, st["stroke_pre1899"] if pre else st["stroke"], 2,
+                          ls=(0, (5, 3)) if z == "claimed" else "-", alpha=st["stroke_pre1899_op"] if pre else 1)
         elif g["type"] in ("LineString", "MultiLineString"):
             for ln in ([g["coordinates"]] if g["type"] == "LineString" else g["coordinates"]):
-                ax.plot([a[0] for a in ln], [my(a[1]) for a in ln], color=AMBER if con else COL, lw=2, ls="--" if con else "-", zorder=5)
+                ax.plot([a[0] for a in ln], [my(a[1]) for a in ln], color=st["contested"] if con else st["stroke"], lw=2, ls="--" if con else "-", zorder=5)
         elif g["type"] == "Point":
             x, y = g["coordinates"][0], my(g["coordinates"][1])
-            if con: ax.scatter([x], [y], s=300, c=AMBER, alpha=.6, edgecolors="#7a4f00", linewidths=1.5, hatch="///", zorder=6)
-            else: ax.scatter([x], [y], s=90, c=COL, edgecolors="#0f1b24", linewidths=1.5, zorder=6)
+            if con: ax.scatter([x], [y], s=300, c=st["contested"], alpha=.6, edgecolors=st["halo"], linewidths=1.5, hatch="///", zorder=6)
+            else: ax.scatter([x], [y], s=90, c=st["fill"], edgecolors=st["halo"], linewidths=1.5, zorder=6)
     fig.savefig(path, dpi=100); plt.close(fig)
     return ncont
 
 def main():
     spec = json.load(open(SPEC)); lay = spec["meta"]["layout"]
-    zs = json.load(open(LEG))["zone_styling"]; base = json.load(open(BASEMAP))
+    leg = json.load(open(LEG)); zs = leg["zone_styling"]; st = style(leg); base = json.load(open(BASEMAP))
     im = ImageEnhance.Color(Image.open(RELIEF).convert("RGB")).enhance(.35)
     im = ImageEnhance.Contrast(ImageEnhance.Brightness(im).enhance(1.9)).enhance(.75)
     relief = np.asarray(Image.blend(im, Image.new("RGB", im.size, (236, 232, 222)), .35))
@@ -110,7 +127,7 @@ def main():
         area_badge = "NO CONTROL CLAIM (post-1956)" if e.get("area_mode") != "extent" else (" / ".join(badges) or None)
         if not e.get("camera_bbox"): missing.append("camera_bbox (rendered with build_og DEFAULT_BBOX Sudan frame)"); e = dict(e, camera_bbox=[21.0, 3.0, 39.0, 23.0])
         tmp = out + ".map.png"
-        ncont = render_map(e, feats, zs, relief, base, mw, mh, tmp)
+        ncont = render_map(e, feats, zs, relief, base, mw, mh, tmp, st)
         card = Image.new("RGB", (W, H), "#f4efe4"); card.paste(Image.open(tmp).convert("RGB"), (mx0, my0)); os.remove(tmp)
         d = ImageDraw.Draw(card); d.rectangle([mx0, my0, mx1 - 1, my1 - 1], outline="#0f1b24", width=2)
         m = lay["safe_margin_px"]

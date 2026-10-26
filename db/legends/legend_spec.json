@@ -916,7 +916,8 @@
   "ar_status": "working translation, needs native review"
  },
  "contrast_fix": {
-  "status": "approved by IM 2026-10-25; single source for the Web Lead",
+  "status": "retired",
+  "note": "IM ruled 2026-10-25: the lighter tints in this block are retired; the original colours are drawn with topo_halo. Do not build from this block.",
   "method": "WCAG 2.x, lines >=3:1 over relief p10/p50/p95 and topo land-cover tones (see /workspace/audit/topo_hatch_contrast.json)",
   "extent_stroke_by_era_hue": {
    "#b0532c": {
@@ -993,7 +994,8 @@
    "min_ratio": 3.32,
    "applies": "cs == 'solid' in eras starting before 1899 (map.js CKS dotted 1.5 3)"
   },
-  "zone_fill_unchanged": "#7a6bd0"
+  "zone_fill_unchanged": "#7a6bd0",
+  "previous_status": "approved by IM 2026-10-25; single source for the Web Lead"
  },
  "toggle_legends": {
   "scope": "toggle-scoped, NOT era-scoped: shown only while the layer chip is on, identical in every era; era legends (db/legends/eras/*.json) are unchanged",

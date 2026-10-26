@@ -1,0 +1,179 @@
+{
+ "meta": {
+  "owner": "Sudan Map Designer",
+  "date": "2026-10-25",
+  "title_en": "Sudan from Kerma to the Republic",
+  "arc": "chronological, main Sudan stream",
+  "rules": [
+   "captions verbatim or trimmed from cited era text; cites are registry ids already attached to that text",
+   "no invented data",
+   "post-1956 stops make no control claims",
+   "Evans-Pritchard 1940 not used",
+   "Arabic tagged [يحتاج تحقق]; INTERNAL until native review",
+   "nothing to social without Agrescatti's approval"
+  ],
+  "excluded": "key_events lines not used (key_events_cites not yet present)"
+ },
+ "stops": [
+  {
+   "order": 1,
+   "era_id": "kingdom-of-kerma",
+   "camera_bbox": [
+    29.501,
+    18.65,
+    34.137,
+    22.299
+   ],
+   "caption_en": "Rival of Egypt; Tuthmose I (−1530 to −1520 in GHA II) conquered the northern Sudan, ending the independence of the kingdom of Kush, and set up his great inscription at Tumbus (Tombos), the southern end of the Third Cataract.",
+   "caption_cites": [
+    {
+     "source": "GHA2",
+     "pages": "ch.9 pp.261, 265"
+    }
+   ],
+   "caption_basis": "data/eras/kingdom-of-kerma.json geopolitics_en; trimmed: dropped the Semna clause",
+   "caption_ar": "منافسة لمصر؛ وفتح تحتمس الأول (−1530 إلى −1520 بحسب GHA II) شمال السودان منهيًا استقلال مملكة كوش، وأقام نقشه الكبير في تومبوس عند الطرف الجنوبي للشلال الثالث. [يحتاج تحقق]",
+   "caption_ar_basis": "trimmed from geopolitics_ar to match the English"
+  },
+  {
+   "order": 2,
+   "era_id": "kingdom-of-kush-napatan-period",
+   "camera_bbox": [
+    28.52,
+    13.854,
+    35.771,
+    31.63
+   ],
+   "caption_en": "Kushite kings ruled Egypt as the 25th Dynasty; Shabaka 'brought the entire Nile valley as far as the Delta under the empire of Kush'.",
+   "caption_cites": [
+    {
+     "source": "GHA2",
+     "pages": null
+    }
+   ],
+   "caption_basis": "data/eras/kingdom-of-kush-napatan-period.json geopolitics_en; first sentence, verbatim minus inline cite",
+   "caption_ar": "حكم ملوك كوش مصر بوصفهم الأسرة الخامسة والعشرين؛ وأخضع شباكا «وادي النيل كله حتى الدلتا لإمبراطورية كوش». [يحتاج تحقق]",
+   "caption_ar_basis": "trimmed from geopolitics_ar to match the English"
+  },
+  {
+   "order": 3,
+   "era_id": "makuria",
+   "camera_bbox": [
+    27.819,
+    14.114,
+    34.664,
+    24.624
+   ],
+   "caption_en": "Kingdom centred on Old Dongola from the 6th c.; the baqt agreement with Muslim Egypt, followed by Abdallah ibn Abi Sarh's raid on Dongola in 651–2.",
+   "caption_cites": [
+    {
+     "source": "GHA2_CH12",
+     "pages": null
+    }
+   ],
+   "caption_basis": "data/eras/makuria.json geopolitics_en; trimmed: dropped the unification clause",
+   "caption_ar": "مملكة مركزها دنقلا العجوز منذ القرن السادس؛ واتفاقية البقط مع مصر الإسلامية تلتها غارة عبد الله بن أبي السرح على دنقلا 651–652. [يحتاج تحقق]",
+   "caption_ar_basis": "trimmed from geopolitics_ar to match the English"
+  },
+  {
+   "order": 4,
+   "era_id": "funj-sultanate-of-sennar",
+   "camera_bbox": [
+    28.652,
+    10.436,
+    35.614,
+    20.608
+   ],
+   "caption_en": "Suzerain over Upper Nubia above the Third Cataract, including the vassal kingdom of Dongola; Lower Nubia nominally under Ottoman Egypt.",
+   "caption_cites": [
+    {
+     "source": "HD2011",
+     "pages": "intro pp.5, 8"
+    }
+   ],
+   "caption_basis": "data/eras/funj-sultanate-of-sennar.json geopolitics_en; first sentence verbatim",
+   "caption_ar": "سيادة على النوبة العليا جنوب الشلال الثالث، بما فيها مملكة دنقلا التابعة؛ والنوبة السفلى تابعة اسمياً لمصر العثمانية. [يحتاج تحقق]",
+   "caption_ar_basis": "trimmed from geopolitics_ar to match the English"
+  },
+  {
+   "order": 5,
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "camera_bbox": [
+    20.031,
+    2.432,
+    40.636,
+    23.828
+   ],
+   "caption_en": "Muhammad 'Ali conquered the disintegrating Funj lands in 1820–1; Ibrahim (GHA VI) calls this the 'first colonial era', ruled by a Turkish-speaking elite in the name of the Ottoman sultan.",
+   "caption_cites": [
+    {
+     "source": "GHA6_CH14",
+     "pages": null
+    }
+   ],
+   "caption_basis": "data/eras/turkiyya-ottoman-egyptian-rule.json geopolitics_en; first two sentences joined with a semicolon",
+   "caption_ar": "فتح محمد علي أراضي الفونج المتفككة في 1820–1821؛ ويسمي إبراهيم (تاريخ أفريقيا العام VI) ذلك «العهد الاستعماري الأول»، إذ حكمته نخبة ناطقة بالتركية باسم السلطان العثماني. [يحتاج تحقق]",
+   "caption_ar_basis": "trimmed from geopolitics_ar to match the English"
+  },
+  {
+   "order": 6,
+   "era_id": "mahdist-state-mahdiyya",
+   "camera_bbox": [
+    20.557,
+    7.385,
+    35.637,
+    21.277
+   ],
+   "caption_en": "A jihad movement that defeated Hicks at Shaykan (5 Nov 1883), took Kordofan, Darfur and Bahr al-Ghazal, and with 'Uthman Digna the east except Suakin; Khartoum fell and Gordon was killed (26 Jan 1885).",
+   "caption_cites": [
+    {
+     "source": "GHA7_CH4",
+     "pages": null
+    }
+   ],
+   "caption_basis": "data/eras/mahdist-state-mahdiyya.json geopolitics_en; first sentence verbatim",
+   "caption_ar": "حركة جهادية هزمت هكس في شيكان (5 نوفمبر 1883)، واستولت على كردفان ودارفور وبحر الغزال، ثم على الشرق كله عدا سواكن بقيادة عثمان دقنة؛ وسقطت الخرطوم وقُتل غوردون (26 يناير 1885). [يحتاج تحقق]",
+   "caption_ar_basis": "trimmed from geopolitics_ar to match the English"
+  },
+  {
+   "order": 7,
+   "era_id": "anglo-egyptian-sudan-condominium",
+   "camera_bbox": [
+    16.974,
+    0.055,
+    40.962,
+    25.366
+   ],
+   "caption_en": "Declared a joint possession (condominium) of Britain and Egypt in January 1899 and in practice turned into a British colony; Egypt's parliament denounced the 1899 agreement on 15 Oct 1951.",
+   "caption_cites": [
+    {
+     "source": "BRE_AES",
+     "pages": null
+    }
+   ],
+   "caption_basis": "data/eras/anglo-egyptian-sudan-condominium.json geopolitics_en; verbatim minus inline cite (BRE = BRE_AES, author Orlov)",
+   "caption_ar": "أُعلن السودان في يناير 1899 ملكاً مشتركاً (حكماً ثنائياً) لبريطانيا ومصر وتحول فعلياً إلى مستعمرة بريطانية؛ وألغى البرلمان المصري اتفاقية 1899 في 15 أكتوبر 1951. [يحتاج تحقق]",
+   "caption_ar_basis": "trimmed from geopolitics_ar to match the English"
+  },
+  {
+   "order": 8,
+   "era_id": "second-parliamentary-period",
+   "camera_bbox": [
+    19.943,
+    1.628,
+    40.924,
+    24.097
+   ],
+   "caption_en": "Opened by the October 1964 civilian-led uprising that brought down Abboud's military regime, which GHA VIII calls exceptional in Africa.",
+   "caption_cites": [
+    {
+     "source": "GHA8",
+     "pages": "p.6"
+    }
+   ],
+   "caption_basis": "data/eras/second-parliamentary-period.json geopolitics_en; first sentence verbatim; no control claim (post-1956)",
+   "caption_ar": "بدأت بانتفاضة أكتوبر 1964 التي قادها المدنيون وأسقطت نظام عبود العسكري، ويصفها تاريخ أفريقيا العام VIII بأنها استثنائية في أفريقيا. [يحتاج تحقق]",
+   "caption_ar_basis": "trimmed from geopolitics_ar to match the English"
+  }
+ ]
+}
