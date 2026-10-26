@@ -265,8 +265,14 @@
    "name_en": "South Sudanese civil war",
    "name_ar": "الحرب الأهلية في جنوب السودان [يحتاج تحقق]",
    "start": "2013-12-15",
-   "end": null,
-   "span_state": "end-unknown",
+   "end": "2018",
+   "span_state": "closed",
+   "end_badge": "REPORTED",
+   "end_cite": {
+    "source_id": "UNNEWS_20250327_SSUDAN",
+    "pages": "para 1: \"the 2018 peace deal that ended five years of civil war\""
+   },
+   "end_note": "End year 2018 per UN News, 27 Mar 2025 (Analyst, db/wars_post1956.json 6281fa5). The same article warns of a 2025 risk of renewed war; no control claim.",
    "colour": "#b0d9f5",
    "hull_dash": "dash 8 3 2 3",
    "icon": "broken-ring",
