@@ -355,7 +355,10 @@
       "name_en": "Battle of Shaykan",
       "name_ar": "معركة شيكان [يحتاج تحقق]",
       "date": "1883-11-05",
-      "precision": "region",
+      "lat": 12.733333,
+      "lon": 30.25,
+      "precision": "approximate",
+      "place_id": "shaykan",
       "sides": [
         "Mahdist Ansar",
         "Egyptian army (Hicks Pasha)"
@@ -636,7 +639,10 @@
       "name_en": "Battle of Karari (Omdurman)",
       "name_ar": "معركة كرري (أم درمان) [يحتاج تحقق]",
       "date": "1898-09-02",
-      "precision": "region",
+      "lat": 15.7781,
+      "lon": 32.5089,
+      "precision": "approximate",
+      "place_id": "karari",
       "sides": [
         "Mahdist State (Khalifa Abdallahi)",
         "Anglo-Egyptian army"
@@ -988,7 +994,10 @@
       "name_en": "Battle of El Teb",
       "name_ar": "معركة التيب [يحتاج تحقق]",
       "date": "1884-02-29",
-      "precision": "region",
+      "lat": 18.616667,
+      "lon": 37.683333,
+      "precision": "approximate",
+      "place_id": "el-teb",
       "region": "Near Tokar, Red Sea littoral, just north of the later fort (Gleichen V1 p.15)",
       "sides": [
         "British expedition from Suakin",
@@ -1044,7 +1053,10 @@
       "name_en": "Battle of Tamai",
       "name_ar": "معركة طماي [يحتاج تحقق]",
       "date": "1884-03-13",
-      "precision": "region",
+      "lat": 18.95,
+      "lon": 37.183333,
+      "precision": "approximate",
+      "place_id": "tamai",
       "region": "Near Suakin, Red Sea hills",
       "sides": [
         "British expedition from Suakin",
@@ -1101,7 +1113,10 @@
       "name_en": "Battle of Abu Klea",
       "name_ar": "معركة أبو طليح [يحتاج تحقق]",
       "date": "1885-01-17",
-      "precision": "region",
+      "lat": 17.05,
+      "lon": 33.25,
+      "precision": "approximate",
+      "place_id": "abu-klea",
       "region": "Bayuda desert, on the Korti–Metemma route",
       "sides": [
         "British Desert Column",
@@ -1157,7 +1172,10 @@
       "name_en": "Battle of Ginnis",
       "name_ar": "معركة جنس [يحتاج تحقق]",
       "date": "1885-12-30",
-      "precision": "region",
+      "lat": 20.8,
+      "lon": 30.5,
+      "precision": "approximate",
+      "place_id": "ginnis",
       "region": "Ginnis and Kosheh, east bank of the Nile, Dongola frontier",
       "sides": [
         "Anglo-Egyptian frontier force",
