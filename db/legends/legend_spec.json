@@ -1247,17 +1247,18 @@
   "halo_width_px": 2,
   "halo_opacity": 1,
   "outer_edge": "#ffffff",
-  "outer_edge_width_px": 0.5,
+  "outer_edge_width_px": 1,
   "outer_edge_always_on": true,
   "applies_to": [
    "war span hull stroke (war_marker_style.wars[].colour + hull_dash)",
    "war marker / battle_point outline when a war is active",
    "timeline war span bar"
   ],
-  "draw_order": "outer edge (#ffffff 0.5px beyond halo), then halo (#0b141b, stroke width + 2x2px), then the war stroke with its dash; the halo is drawn solid even when the stroke is dashed",
+  "draw_order": "outer edge (#ffffff 1px beyond halo), then halo (#0b141b, stroke width + 2x2px), then the war stroke with its dash; the halo is drawn solid even when the stroke is dashed",
   "war_colours": "unchanged",
   "rule": "each war stroke vs halo >=3:1; halo boundary (dark ring or white edge) vs fill >=3:1; dark vs white ring >=3:1",
   "measurement": "/workspace/audit/war_halo_check.json: 924/924 pairs pass (21 wars x 44 fills incl. OpenTopoMap tones with #7a6bd0 @0/0.18/0.35); min stroke vs halo 8.48, min halo vs fill 4.36, before 263/924 pass, min 1.0",
-  "battle_halo_coexistence": "The existing #e8e2d0 1.6px battle halo (war_marker_style.battle_point / battle_style) stays on battle points. war_halo applies to war hulls and spans only; when a battle point sits on a war hull, z-order is war_halo, war stroke, then the battle point with its #e8e2d0 halo on top, so the light battle halo is read against the dark war_halo ring (#e8e2d0 vs #0b141b = 14.35:1)."
+  "battle_halo_coexistence": "The existing #e8e2d0 1.6px battle halo (war_marker_style.battle_point / battle_style) stays on battle points. war_halo applies to war hulls and spans only; when a battle point sits on a war hull, z-order is war_halo, war stroke, then the battle point with its #e8e2d0 halo on top, so the light battle halo is read against the dark war_halo ring (#e8e2d0 vs #0b141b = 14.35:1).",
+  "render_test_360": "2026-10-26 render test at 360px CSS, 1x and 2x DPR, 21 war strokes in all six dashes over cached OpenTopoMap tiles and the site's Esri World Hillshade (multiply .5), era fill #7a6bd0 at 0, .18, .35, battle halo #e8e2d0: with a 0.5px edge 8/252 cases failed at 1x (min 2.87:1 vs dark red-brown/grey local pixels, the sub-pixel edge blends to grey); outer_edge_width_px raised 0.5 -> 1 gives 252/252 pass, min halo boundary 3.22:1, min stroke vs halo 8.19:1; six dashes distinct at 1x"
  }
 }
