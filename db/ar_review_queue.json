@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 157
+      "sentence_items": 158
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -4401,6 +4401,19 @@
       "field_en": "people[id=anuak].sentences[1].en",
       "revised_english": "He notes that the Pibor river separates the Lou Nuer from the Anuak.",
       "note": "New people_about sentence (EP1940_NUER p.112); working translation of the English, needs native review [يحتاج تحقق]",
+      "action": "review",
+      "origin_commit": "pending",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "war-in-sudan-saf-vs-rsf",
+      "file": "db/battles_post1956.json",
+      "field_ar": "battles[id=wad-madani-2023].name_ar",
+      "arabic_sentence": "القتال في ود مدني ومحيطها [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "battles[id=wad-madani-2023].name_en",
+      "revised_english": "Fighting in and around Wad Madani",
+      "note": "Battle card title; Arabic needs native review [يحتاج تحقق]",
       "action": "review",
       "origin_commit": "pending",
       "added": "2026-10-25"

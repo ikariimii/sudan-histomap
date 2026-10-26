@@ -3,7 +3,7 @@
   "scope": "Sudan & South Sudan 1956–present; major wars and decisive battles only (staging for data/battles.json)",
   "author": "Sudan Geopolitical Analyst",
   "coords": "GeoNames town centroids (coord_cite) → precision approximate; otherwise region-only",
-  "rules": "2023+ SAF–RSF items REPORTED only, UN Panel cites, no control/winner claims; no fatality figures",
+  "rules": "2023+ SAF–RSF items REPORTED; UN/OCHA cites required. Outcome uses attributed control wording ('RSF took control of X by DATE (per SOURCE, report date)') only where a registered UN or OCHA text states control outright; otherwise placeholder 'Reported fighting; see cited report'. Never stated as our own claim. No fatality figures (IM ruling 2026-10-25)",
   "new_war_ids": [
    "south-kordofan-blue-nile-2011",
    "second-civil-war",
@@ -17,8 +17,7 @@
    "Bor 1983 mutiny: HRW 1993 names it without a date",
    "N'Djamena 2008: S/PRST/2008/3 does not name the town or Sudanese role",
    "Blue Nile Sept 2011 (Damazin/Kurmuk): no readable UN source found",
-   "Bor/Kongor 1991 Nasir raids: massacre, not a battle",
-   "Wad Madani Dec 2023: OCHA Flash Updates No. 03/05 support it, but neither is registered yet (see sources_to_register); draft entry in /workspace/audit/wad_madani_2023_draft.json"
+   "Bor/Kongor 1991 Nasir raids: massacre, not a battle"
   ],
   "updated": "2026-10-25"
  },
@@ -462,7 +461,7 @@
     "Rapid Support Forces (RSF) and allied militias",
     "Sudanese Armed Forces (SAF) / local armed groups"
    ],
-   "outcome_en": "Reported fighting; see cited report",
+   "outcome_en": "RSF and allied militias took control of El Geneina by 19 Jun 2023 (per UN Panel of Experts, S/2024/65, 15 Jan 2024)",
    "era_ids": [
     "war-in-sudan-saf-vs-rsf"
    ],
@@ -484,7 +483,56 @@
      "source_id": "UNPOE_S2025_239",
      "pages": "para 21 (PDF p.9)"
     }
-   ]
+   ],
+   "outcome_cite": {
+    "source_id": "UNPOE_S2024_65",
+    "pages": "Table 1, entry 19 June (PDF p.6): \"RSF and allied militias took over El Geneina\""
+   }
+  },
+  {
+   "id": "wad-madani-2023",
+   "war_id": "war-2023",
+   "name_en": "Fighting in and around Wad Madani",
+   "name_ar": "القتال في ود مدني ومحيطها [يحتاج تحقق]",
+   "ar_status": "VERIFY",
+   "date_from": "2023-12-15",
+   "date_to": "2023-12-19",
+   "lat": 14.4,
+   "lon": 33.51,
+   "precision": "approximate",
+   "place_id": "wad-madani",
+   "coord_cite": {
+    "source_id": "WIKIDATA_CITIES",
+    "pages": "Q852528 (via db/cities.json place wad-madani)"
+   },
+   "sides": [
+    "Sudanese Armed Forces (SAF)",
+    "Rapid Support Forces (RSF)"
+   ],
+   "outcome_en": "RSF took control of Wad Madani by 19 Dec 2023 (per OCHA Flash Update No. 05, 28 Dec 2023)",
+   "era_ids": [
+    "war-in-sudan-saf-vs-rsf"
+   ],
+   "cite": {
+    "source_id": "OCHA_FU05_WADMEDANI_2023",
+    "pages": "Situation overview para 1"
+   },
+   "badges": [
+    "REPORTED",
+    "APPROXIMATE"
+   ],
+   "image": {},
+   "note": "date_to = OCHA's stated date of RSF control (19 Dec 2023).",
+   "cite_extra": [
+    {
+     "source_id": "OCHA_FU03_WADMEDANI_2023",
+     "pages": "Situation overview paras 1-2 (fighting from 15 Dec; RSF entered town as of 18 Dec)"
+    }
+   ],
+   "outcome_cite": {
+    "source_id": "OCHA_FU05_WADMEDANI_2023",
+    "pages": "Situation overview para 1: \"On December 18, RSF reportedly entered Wad Medani town and by December 19 took control of the city.\""
+   }
   },
   {
    "id": "nyala-2023",
@@ -614,7 +662,7 @@
     "Rapid Support Forces (RSF)",
     "Sudanese Armed Forces (SAF) and allied Joint Force"
    ],
-   "outcome_en": "Reported fighting; see cited report",
+   "outcome_en": "RSF took control of El Fasher by October 2025 (per UN Panel of Experts final report, 2026; unofficial copy GEO-032)",
    "era_ids": [
     "war-in-sudan-saf-vs-rsf"
    ],
@@ -624,10 +672,11 @@
    },
    "badges": [
     "REPORTED",
-    "APPROXIMATE"
+    "APPROXIMATE",
+    "VERIFY"
    ],
    "image": {},
-   "note": "Panel: epicentre \"from early 2024\"; start month not given.",
+   "note": "Panel: epicentre \"from early 2024\"; start month not given. Outcome source GEO-032 is an unofficial copy; official symbol not confirmed (VERIFY).",
    "cite_extra": [
     {
      "source_id": "UNPOE_S2025_239",
@@ -637,54 +686,12 @@
      "source_id": "GEO-096",
      "pages": "preamble p.1; op. paras 1-2, p.2"
     }
-   ]
+   ],
+   "outcome_cite": {
+    "source_id": "GEO-032",
+    "pages": "para 14 (PDF p.7): \"the RSF captured El Fasher, North Darfur, in October 2025.\""
+   }
   }
  ],
- "sources_to_register": [
-  {
-   "id": "UNMISS_HRR2014",
-   "citation": "UNMISS, \"Conflict in South Sudan: A Human Rights Report\", 8 May 2014",
-   "url": "https://unmiss.unmissions.org/sites/default/files/unmiss_conflict_in_south_sudan_-_a_human_rights_report.pdf"
-  },
-  {
-   "id": "HRW1993_CIVDEV",
-   "citation": "Human Rights Watch/Africa, \"Civilian Devastation: Abuses by All Parties in the War in Southern Sudan\", 1993",
-   "url": "https://www.hrw.org/reports/1993/sudan/"
-  },
-  {
-   "id": "HRW2004_DARFUR",
-   "citation": "Human Rights Watch, \"Darfur in Flames: Atrocities in Western Sudan\", Vol.16 No.5(A), April 2004, Background section",
-   "url": "https://www.hrw.org/reports/2004/sudan0404/3.htm"
-  },
-  {
-   "id": "UNSC_PRST_2008_15",
-   "citation": "UN Security Council, Statement by the President, S/PRST/2008/15, 13 May 2008",
-   "url": "https://documents.un.org/api/symbol/access?s=S/PRST/2008/15&l=en&t=pdf"
-  },
-  {
-   "id": "UNSC_PRST_2012_12",
-   "citation": "UN Security Council, Statement by the President, S/PRST/2012/12, 12 April 2012",
-   "url": "https://documents.un.org/api/symbol/access?s=S/PRST/2012/12&l=en&t=pdf"
-  },
-  {
-   "id": "UNSC2046",
-   "citation": "UN Security Council Resolution 2046 (2012), S/RES/2046(2012), 2 May 2012",
-   "url": "https://documents.un.org/api/symbol/access?s=S/RES/2046(2012)&l=en&t=pdf"
-  },
-  {
-   "id": "OHCHR_SK2011",
-   "citation": "OHCHR, \"Preliminary report on violations of international human rights and humanitarian law in Southern Kordofan from 5 to 30 June 2011\" (13th periodic report), August 2011",
-   "url": "https://reliefweb.int/sites/reliefweb.int/files/resources/Full_report_217.pdf"
-  },
-  {
-   "id": "OCHA_FU05_WADMEDANI_2023",
-   "citation": "UN OCHA, \"Sudan: Clashes in Wad Medani between the Sudanese Armed Forces (SAF) and Rapid Support Forces (RSF) Flash Update No: 05 (28 December 2023) [EN/AR]\"",
-   "url": "https://www.unocha.org/publications/report/sudan/sudan-clashes-wad-medani-between-sudanese-armed-forces-saf-and-rapid-support-forces-rsf-flash-update-no-05-28-december-2023-enar"
-  },
-  {
-   "id": "OCHA_FU03_WADMEDANI_2023",
-   "citation": "UN OCHA, \"Sudan: Clashes in Wad Madani between the Sudanese Armed Forces (SAF) and Rapid Support Forces (RSF) - Flash Update No: 03 (as of 18 December 2023) [EN/AR]\"",
-   "url": "https://www.unocha.org/publications/report/sudan/sudan-clashes-wad-madani-between-sudanese-armed-forces-saf-and-rapid-support-forces-rsf-flash-update-no-03-18-december-2023-enar"
-  }
- ]
+ "sources_to_register": []
 }
