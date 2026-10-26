@@ -82,12 +82,16 @@
     {
      "feature_index": 4,
      "id": null,
-     "label_en": "Halaib (disputed)",
-     "symbol_class": "control_extent",
-     "certainty": "high",
-     "badges": [],
+     "label_en": "Halaib (disputed since 1958)",
+     "symbol_class": "contested_point",
+     "certainty": "medium",
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED",
+      "DERIVED"
+     ],
      "start": 1989,
-     "end": 1995,
+     "end": 2019,
      "source_ids": [
       "EXT_NE_DISPUTED",
       "IBS18_1962",
@@ -102,31 +106,6 @@
     },
     {
      "feature_index": 5,
-     "id": null,
-     "label_en": "Halaib (disputed since 1958)",
-     "symbol_class": "contested_point",
-     "certainty": "medium",
-     "badges": [
-      "APPROXIMATE",
-      "CONTESTED",
-      "DERIVED"
-     ],
-     "start": 1995,
-     "end": 2019,
-     "source_ids": [
-      "EXT_NE_DISPUTED",
-      "IBS18_1962",
-      "UN S/3963 (Sudan to the UN Secretary-General, 20 Feb 1958), quoted via EGYPIL",
-      "EGYPIL: M. Hamad, \"The Situation in the Halaib Triangle – Timeline\" (6 Feb 2026), https://www.egypil.org/print/75",
-      "Les Echos, \"Le Soudan et l'Egypte à couteaux tirés\" (Jun 1995)",
-      "Carnegie Endowment, \"The Egypt-Sudan Border: A Story of Unfulfilled Promise\" (Jan 2021)",
-      "Al Jazeera Net Encyclopedia, \"حلايب\" (14 Nov 2014)",
-      "Al Nilin (alnilin.com/983231.htm, Sudanese outlet)"
-     ],
-     "legend_id": "extent:al-bashir-ncp-ingaz-regime:idx5"
-    },
-    {
-     "feature_index": 6,
      "id": "pca2009-north",
      "label_en": "PCA 2009 award boundary [CONTESTED]",
      "symbol_class": "contested_boundary_line",
@@ -142,7 +121,7 @@
      "legend_id": "extent:al-bashir-ncp-ingaz-regime:pca2009-north"
     },
     {
-     "feature_index": 7,
+     "feature_index": 6,
      "id": "pca2009-east",
      "label_en": "PCA 2009 award boundary [CONTESTED]",
      "symbol_class": "contested_boundary_line",
@@ -159,7 +138,7 @@
      "legend_id": "extent:al-bashir-ncp-ingaz-regime:pca2009-east"
     },
     {
-     "feature_index": 8,
+     "feature_index": 7,
      "id": "pca2009-west",
      "label_en": "PCA 2009 award boundary [CONTESTED]",
      "symbol_class": "contested_boundary_line",
@@ -2300,7 +2279,6 @@
   "city_town",
   "contested_boundary_line",
   "contested_point",
-  "control_extent",
   "control_extent_approx",
   "economy_editorial_marker",
   "economy_mixed",
@@ -2329,14 +2307,13 @@
   "city_town": 7,
   "contested_boundary_line": 3,
   "contested_point": 3,
-  "control_extent": 1,
   "control_extent_approx": 2,
   "economy_editorial_marker": 1,
   "economy_mixed": 1,
   "flag": 1,
   "list_only_text": 1,
   "trade_route": 1,
-  "extent_features": 9,
+  "extent_features": 8,
   "group_features": 1,
   "cities": 51,
   "battles": 11
@@ -2353,12 +2330,6 @@
    "layer": "extents",
    "symbol_class": "contested_point",
    "n": 3
-  },
-  {
-   "row_id": "extents:control_extent",
-   "layer": "extents",
-   "symbol_class": "control_extent",
-   "n": 1
   },
   {
    "row_id": "extents:contested_boundary_line",
@@ -2596,7 +2567,6 @@
    "extents_added": [
     "Abyei (disputed) [CONTESTED]",
     "Halaib (disputed since 1958)",
-    "Halaib (disputed)",
     "Kafia Kingi (disputed) [CONTESTED]",
     "PCA 2009 award boundary [CONTESTED]",
     "Sudan"

@@ -36,7 +36,7 @@
   "rules": "Derived only from the input files; nothing inferred. Base source is null when the properties do not name one.",
   "totals": {
    "eras": 68,
-   "shapes": 249,
+   "shapes": 248,
    "base_source_null": 7,
    "overlay_error_non_null": 0,
    "checked_against_shapes": 25
@@ -2683,65 +2683,6 @@
      "file": "db/extents/al-bashir-ncp-ingaz-regime.geojson",
      "feature_index": 4,
      "feature_id": null,
-     "label_en": "Halaib (disputed)",
-     "label_ar": "حلايب (متنازع عليها) [VERIFY]",
-     "zone_type": "extent",
-     "geometry_type": "MultiPolygon",
-     "cites": [
-      {
-       "id": "EXT_NE_DISPUTED",
-       "pages": "2–5"
-      },
-      {
-       "id": "IBS18_1962",
-       "pages": "2–5"
-      },
-      {
-       "id": "UN S/3963 (Sudan to the UN Secretary-General, 20 Feb 1958), quoted via EGYPIL",
-       "pages": "2–5"
-      },
-      {
-       "id": "EGYPIL: M. Hamad, \"The Situation in the Halaib Triangle – Timeline\" (6 Feb 2026), https://www.egypil.org/print/75",
-       "pages": "2–5"
-      },
-      {
-       "id": "Les Echos, \"Le Soudan et l'Egypte à couteaux tirés\" (Jun 1995)",
-       "pages": "2–5"
-      },
-      {
-       "id": "Carnegie Endowment, \"The Egypt-Sudan Border: A Story of Unfulfilled Promise\" (Jan 2021)",
-       "pages": "2–5"
-      },
-      {
-       "id": "Al Jazeera Net Encyclopedia, \"حلايب\" (14 Nov 2014)",
-       "pages": "2–5"
-      },
-      {
-       "id": "Al Nilin (alnilin.com/983231.htm, Sudanese outlet)",
-       "pages": "2–5"
-      }
-     ],
-     "base_source": [
-      "Natural Earth"
-     ],
-     "base_source_text": "Public domain | Natural Earth 1:10m disputed areas v5.1.1 (present-day snapshot), simplified",
-     "base_source_null_reason": null,
-     "base_source_null_reason_ar": null,
-     "badges": [],
-     "confidence": null,
-     "certainty": "high",
-     "start": 1989,
-     "end": 1995,
-     "checked_against": [],
-     "overlay_mean_error_km": null,
-     "overlay_null_reason": "not traced from a georeferenced map",
-     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
-    },
-    {
-     "layer": "extents",
-     "file": "db/extents/al-bashir-ncp-ingaz-regime.geojson",
-     "feature_index": 5,
-     "feature_id": null,
      "label_en": "Halaib (disputed since 1958)",
      "label_ar": "حلايب (متنازع عليها منذ 1958) (مسودة) [يحتاج تحقق]",
      "label_ar_cite": {
@@ -2799,7 +2740,7 @@
      ],
      "confidence": 0.6,
      "certainty": "medium",
-     "start": 1995,
+     "start": 1989,
      "end": 2019,
      "checked_against": [],
      "overlay_mean_error_km": null,
@@ -2809,7 +2750,7 @@
     {
      "layer": "extents",
      "file": "db/extents/al-bashir-ncp-ingaz-regime.geojson",
-     "feature_index": 6,
+     "feature_index": 5,
      "feature_id": "pca2009-north",
      "label_en": "PCA 2009 award boundary [CONTESTED]",
      "label_ar": "حدود قرار محكمة التحكيم الدائمة 2009 [CONTESTED] [VERIFY]",
@@ -2842,7 +2783,7 @@
     {
      "layer": "extents",
      "file": "db/extents/al-bashir-ncp-ingaz-regime.geojson",
-     "feature_index": 7,
+     "feature_index": 6,
      "feature_id": "pca2009-east",
      "label_en": "PCA 2009 award boundary [CONTESTED]",
      "label_ar": "حدود قرار محكمة التحكيم الدائمة 2009 [CONTESTED] [VERIFY]",
@@ -2876,7 +2817,7 @@
     {
      "layer": "extents",
      "file": "db/extents/al-bashir-ncp-ingaz-regime.geojson",
-     "feature_index": 8,
+     "feature_index": 7,
      "feature_id": "pca2009-west",
      "label_en": "PCA 2009 award boundary [CONTESTED]",
      "label_ar": "حدود قرار محكمة التحكيم الدائمة 2009 [CONTESTED] [VERIFY]",
@@ -2940,7 +2881,7 @@
     }
    ],
    "counts": {
-    "shapes": 10,
+    "shapes": 9,
     "contested": 6,
     "trade_routes": 1,
     "base_source_null": 0
