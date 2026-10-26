@@ -5847,6 +5847,48 @@
       "origin_commit": "SFDAS_HCS2017 cite-or-delete pass",
       "added": "2026-10-26",
       "note": "[يحتاج تحقق] Arabic by Map Designer; not edited by the Historian."
+    },
+    {
+        "era_id": "republic-of-south-sudan",
+        "file": "data/periods.json",
+        "field_ar": "meta.sources.UNNEWS_AR_20120420_HEGLIG.note (quoted Arabic)",
+        "arabic_sentence": "ونوه الأمين العام بإعلان حكومة جنوب السودان بالقيام بسحب قواتها من هجليج [يحتاج تحقق] (UNNEWS_AR_20120420_HEGLIG para 1)",
+        "badge": "VERIFY",
+        "field_en": "meta.sources.UNNEWS_AR_20120420_HEGLIG.note",
+        "revised_english": "Working rendering only: the Secretary-General noted the Government of South Sudan's announcement that it would withdraw its forces from Heglig.",
+        "reason": "New Arabic-language UN source registered as a second source for the border-2012 Heglig beats; the English rendering needs native review.",
+        "action": "Native reviewer: confirm the rendering, especially that it describes an announced withdrawal, not a completed one.",
+        "origin_commit": "Heglig second-source registration",
+        "added": "2026-10-26",
+        "note": "[يحتاج تحقق] Quote copied verbatim from news.un.org/ar/story/2012/04/157772; translation not treated as fact."
+    },
+    {
+      "file": "data/battles.json",
+      "battle_id": "kerma--593",
+      "field_ar": "name_ar",
+      "arabic_sentence": "حملة بسماتيك الثاني على مملكة نبتة (بنوبس/كرمة) [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "name_en",
+      "revised_english": "Psamtik II's expedition against Napatan Kush",
+      "reason": "Pnoubs/Kerma not in GHA II p.285 (Napata captured); name revised.",
+      "action": "Native reviewer: align the Arabic to the revised English.",
+      "origin_commit": "SFDAS_HCS2017 cite-or-delete pass",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق] Arabic left unchanged by the Historian; reviewer to edit."
+    },
+    {
+      "file": "data/battles.json",
+      "battle_id": "meroe-330",
+      "field_ar": "name_ar",
+      "arabic_sentence": "حملة عيزانا ملك أكسوم على الكوشيين والنوبة [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "name_en",
+      "revised_english": "Ezana of Aksum's campaign against the Nubas",
+      "reason": "Kushites/Kasu not in GHA II p.293; name revised.",
+      "action": "Native reviewer: align the Arabic to the revised English.",
+      "origin_commit": "SFDAS_HCS2017 cite-or-delete pass",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق] Arabic left unchanged by the Historian; reviewer to edit."
     }
   ]
 }

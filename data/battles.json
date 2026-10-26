@@ -20,24 +20,24 @@
         "New Kingdom Egypt (Thutmose I)",
         "Kingdom of Kerma"
       ],
-      "outcome_en": "Egyptian victory; the kingdom of Kerma was defeated (c.1500 BCE, shortly before)",
+      "outcome_en": "Egyptian conquest of the northern Sudan; the independence of the kingdom of Kush was brought to an end",
       "era_ids": [
         "kingdom-of-kerma",
         "egyptian-new-kingdom-rule-in-nubia",
         "new-kingdom-egypt"
       ],
       "cite": {
-        "source_id": "SFDAS_HCS2017",
-        "pages": "92"
+        "source_id": "GHA2_CH9",
+        "pages": "265"
       },
       "image": {},
       "label": "Thutmose I's campaign against Kerma 150 BCE",
       "evidence_type": "scholarly synthesis",
       "cites": [
         {
-          "source_id": "SFDAS_HCS2017",
-          "pages": "92",
-          "quote": "Sous le règne suivant, celui de Thoutmosis Ier, l’expédition contre Koush, lancée dès l’an 2 (à placer sans doute peu avant 1 500 av. J.‑C.), prit une toute autre ampleur et porta un coup sévère au royaume de Kerma."
+          "source_id": "GHA2_CH9",
+          "pages": "265",
+          "quote": "it was Tuthmose I (—1530 to —1520) who accomplished the conquest of the northern Sudan; thus bringing the independence of the kingdom of Kush to an end."
         }
       ],
       "decisive": false,
@@ -46,42 +46,43 @@
       "end": -1500,
       "sources": [
         {
-          "id": "SFDAS_HCS2017",
-          "page": "92"
+          "id": "GHA2_CH9",
+          "page": "265"
         }
-      ]
+      ],
+      "date_note": "Approximate. GHA II p.265 dates Tuthmose I '(—1530 to —1520)'; date/id kept at −1500 because the id is referenced by Map Designer files (proposal: re-date to −1530)."
     },
     {
       "id": "kerma--593",
       "war_id": "kushite-egyptian-wars",
-      "name_en": "Psamtik II's expedition against Napatan Kush (Pnoubs/Kerma)",
+      "name_en": "Psamtik II's expedition against Napatan Kush",
       "name_ar": "حملة بسماتيك الثاني على مملكة نبتة (بنوبس/كرمة) [يحتاج تحقق]",
       "date": "-593",
       "lat": 19.6008,
       "lon": 30.40973,
       "precision": "approximate",
-      "place_id": "kerma",
+      "place_id": "napata",
       "sides": [
         "Late Period Egypt (Psamtik II)",
         "Kingdom of Kush (Napatan)"
       ],
-      "outcome_en": "Egyptian expedition reached Pnoubs/Kerma and ravaged the country",
+      "outcome_en": "Egyptian expedition, stiffened with Greek and Carian mercenaries, captured Napata",
       "era_ids": [
         "kingdom-of-kush-napatan-period",
         "late-period-persian-egypt"
       ],
       "cite": {
-        "source_id": "SFDAS_HCS2017",
-        "pages": "164–165"
+        "source_id": "GHA2_CH10",
+        "pages": "285"
       },
       "image": {},
-      "label": "Psamtik II's expedition against Napatan Kush (Pnoubs/Kerma) 593 BCE",
+      "label": "Psamtik II's expedition against Napatan Kush 593 BCE",
       "evidence_type": "scholarly synthesis",
       "cites": [
         {
-          "source_id": "SFDAS_HCS2017",
-          "pages": "164–165",
-          "quote": "…un second corps expéditionnaire remonta le Nil jusqu’à Pnoubs/Kerma où ils ravagèrent le pays et massacrèrent les Nubiens"
+          "source_id": "GHA2_CH10",
+          "pages": "285",
+          "quote": "In —591, or the second year of the king's reign, the land of Kush was invaded by an Egyptian expedition, stiffened with Greek and Carian mercenaries, under two generals, Amasis and Potasimto, and Napata was captured."
         }
       ],
       "decisive": false,
@@ -90,10 +91,11 @@
       "end": -593,
       "sources": [
         {
-          "id": "SFDAS_HCS2017",
-          "page": "164–165"
+          "id": "GHA2_CH10",
+          "page": "285"
         }
-      ]
+      ],
+      "date_note": "Approximate. GHA II p.285 gives '—591'; date/id kept at −593 because the id is referenced by Map Designer files (proposal: re-date to −591)."
     },
     {
       "id": "napata--23",
@@ -125,17 +127,13 @@
           "Petronius"
         ]
       },
-      "significance_en": "Petronius's counter-campaign reached Napata after Meroitic forces took Syene, Elephantine and Philae (GHA II p.290; SFDAS pp.243–244).",
+      "significance_en": "Following the Meroitic sack of Aswan, Petronius's punitive expedition captured Napata; a permanent Roman garrison at Primis (Qasr Ibrim) held off the Meroites (GHA II p.290).",
       "evidence_type": "scholarly synthesis",
       "cites": [
         {
           "source_id": "GHA2_CH10",
           "pages": "290",
           "quote": "the prefect of Roman Egypt, Petronius, mounted a punitive expedition and captured Napata in —23. A permanent garrison was established by the Romans at Primis (Qasr Ibrim), which held off the Meroites."
-        },
-        {
-          "source_id": "SFDAS_HCS2017",
-          "pages": "243–244"
         }
       ],
       "decisive": false,
@@ -146,70 +144,66 @@
         {
           "id": "GHA2_CH10",
           "page": "290"
-        },
-        {
-          "id": "SFDAS_HCS2017",
-          "page": "243–244"
         }
       ]
     },
     {
       "id": "meroe-330",
       "war_id": "aksum-kush-war",
-      "name_en": "Ezana of Aksum's campaign against the Kushites and Noba",
+      "name_en": "Ezana of Aksum's campaign against the Nubas",
       "name_ar": "حملة عيزانا ملك أكسوم على الكوشيين والنوبة [يحتاج تحقق]",
       "date_from": "330",
-      "date_to": "350",
+      "date_to": "330",
       "precision": "region",
       "sides": [
         "Kingdom of Aksum (Ezana)",
-        "Kushites (Kasu)",
         "Noba"
       ],
-      "outcome_en": "Aksumite campaign recorded in Ezana's inscriptions; the Meroitic state disappeared between 330 and 350 CE",
+      "outcome_en": "Ezana reached the confluence of the Atbara; the Meroitic kingdom had already collapsed at the time of his campaign",
       "era_ids": [
         "kingdom-of-kush-meroitic-period",
         "kingdom-of-aksum",
         "noba-x-group-ballana-culture"
       ],
       "cite": {
-        "source_id": "SFDAS_HCS2017",
-        "pages": "325"
+        "source_id": "GHA2_CH10",
+        "pages": "293"
       },
       "image": {},
-      "label": "Ezana of Aksum's campaign against the Kushites and Noba 330",
+      "label": "Ezana of Aksum's campaign against the Nubas 330",
       "commanders": {
         "Aksum": [
           "Ezana"
         ]
       },
-      "significance_en": "Ezana's Ge'ez inscription DAE 11 records his war against the Noba and the Kasu at the Nile–Atbara confluence (SFDAS pp.325–326).",
+      "significance_en": "Ezana, the first Aksumite monarch to embrace Christianity, reached the Atbara confluence and boasts of an expedition 'against the Nubas' (GHA II p.293).",
       "evidence_type": "inscription/archaeology",
       "cites": [
         {
-          "source_id": "SFDAS_HCS2017",
-          "pages": "325",
-          "quote": "Le texte décrit une région où le pouvoir central méroïtique n’existe déjà plus et qui est désormais aux mains des Noubas, à l’exception de quelques enclaves encore tenues par les Kasu, c’est-à-dire les Koushites, contre qui Ézana engage également un combat victorieux."
+          "source_id": "GHA2_CH10",
+          "pages": "293",
+          "quote": "Ezana, the first monarch to embrace Christianity, reached the confluence of the Atbara and boasts of having mounted an expedition yielding much booty 'against the Nubas'. From this we may conclude that the Meroitic kingdom had already collapsed at the time of Ezana's campaign."
         },
         {
-          "source_id": "SFDAS_HCS2017",
-          "pages": "326"
+          "source_id": "GHA2_CH10",
+          "pages": "292"
         }
       ],
       "decisive": false,
       "decisive_note": "No cited page calls it decisive.",
       "start": 330,
-      "end": 350,
+      "end": 330,
       "sources": [
         {
-          "id": "SFDAS_HCS2017",
-          "page": "325"
+          "id": "GHA2_CH10",
+          "page": "293"
         },
         {
-          "id": "SFDAS_HCS2017",
-          "page": "326"
+          "id": "GHA2_CH10",
+          "page": "292"
         }
-      ]
+      ],
+      "date_note": "GHA II p.292: 'Towards +330'."
     },
     {
       "id": "dongola-642",
@@ -267,24 +261,29 @@
         "Arab army (Abdallah ibn Abi Sarh)",
         "Kingdom of Makuria"
       ],
-      "outcome_en": "Expedition launched 651 besieged Dongola; ended in a truce and the Baqt treaty (652), which kept Makuria independent",
+      "outcome_en": "Expedition reached Dongola; fierce Nubian resistance forced a truce, the bakt, which let al-Makurra keep its independent status",
       "era_ids": [
         "makuria",
         "islamic-egypt-rashidunfatimidayyubid",
         "rise-of-islam-caliphates"
       ],
       "cite": {
-        "source_id": "SFDAS_HCS2017",
-        "pages": "405"
+        "source_id": "GHA3_CH7",
+        "pages": "166"
       },
       "image": {},
       "label": "Siege of Dongola and the Baqt treaty 652",
       "evidence_type": "scholarly synthesis",
       "cites": [
         {
-          "source_id": "SFDAS_HCS2017",
-          "pages": "405",
-          "quote": "En 651 Abdallah Abou Sarh, qui avait succédé à Amr Ibn al-‘As comme gouverneur d’Égypte, lança une seconde expédition contre Makouria avec une forte armée. Cette fois, il atteignit sans difficulté la capitale, Dongola, et en fit le siège en usant de catapultes"
+          "source_id": "GHA3_CH7",
+          "pages": "166",
+          "quote": "In 31/652 'Abd Allah launched an expedition against Nubia, in present-day Sudan, and got as far as Dongola, upstream from the Third Cataract. The Christian population, close to the Monophysitic Church of Egypt, put up a fierce resistance."
+        },
+        {
+          "source_id": "GHA3_CH3",
+          "pages": "81",
+          "quote": "The Muslims from Egypt tried in 31/651-2 to conquer Nubia and even penetrated as far as Dongola but the fierce resistance of the Nubians forced them to seek a truce. The ensuing treaty, commonly called the bakt, was a non-aggression pact which allowed the Nubian state of al-Makurra to retain its independent status."
         }
       ],
       "decisive": false,
@@ -293,8 +292,12 @@
       "end": 652,
       "sources": [
         {
-          "id": "SFDAS_HCS2017",
-          "page": "405"
+          "id": "GHA3_CH7",
+          "page": "166"
+        },
+        {
+          "id": "GHA3_CH3",
+          "page": "81"
         }
       ]
     },
@@ -861,31 +864,28 @@
           "Piye (Piankhy)"
         ]
       },
-      "outcome_en": "Piye took Memphis and received the submission of the Delta rulers (SFDAS p.138).",
+      "outcome_en": "Piye's campaign against the Libyan princes of Middle Egypt and the Delta; GHA II gives an invasion of Egypt 'in about —720' (p.106).",
       "era_ids": [
         "kingdom-of-kush-napatan-period"
       ],
       "cite": {
-        "source_id": "SFDAS_HCS2017",
-        "pages": "137–138"
+        "source_id": "GHA2_CH10",
+        "pages": "280"
       },
       "evidence_type": "inscription/archaeology",
-      "significance_en": "The Victory Stela of Piye, a 159-line granite text, narrates the campaign of year 21 (SFDAS p.137). After Hermopolis his army moved on Memphis, where the enemy chiefs had entrenched (SFDAS p.138).",
+      "significance_en": "The Stele of Victory of Peye (Piankhi), carved at Napata, has 159 lines of hieroglyphs describing his campaign (GHA II p.280).",
       "decisive": false,
       "id_note": "Requested id memphis--728 not used: no registered page gives 728; GHA II p.106 gives 'about −720'.",
       "cites": [
         {
-          "source_id": "SFDAS_HCS2017",
-          "pages": "137–138",
-          "quote": "Mais Piankhy fait saisir tous les bateaux disponibles et envoie ses soldats éperonner les murs en un assaut unique, forçant ainsi les défenses de l’ennemi. La ville est prise, avec un butin considérable."
+          "source_id": "GHA2_CH10",
+          "pages": "280",
+          "quote": "is one of the longest and most detailed texts of ancient Egypt; on front, back and sides are 159 lines of hieroglyphs describing the deliberations of the king in his palace and the phases of his campaign"
         },
         {
           "source_id": "GHA2_CH2",
-          "pages": "106"
-        },
-        {
-          "source_id": "GHA2_CH10",
-          "pages": "280"
+          "pages": "106",
+          "quote": "There was another invasion of Egypt in about —720 but this time from the south."
         }
       ],
       "label": "Piye's capture of Memphis 720 BCE",
@@ -895,16 +895,12 @@
       "end": -720,
       "sources": [
         {
-          "id": "SFDAS_HCS2017",
-          "page": "137–138"
+          "id": "GHA2_CH10",
+          "page": "280"
         },
         {
           "id": "GHA2_CH2",
           "page": "106"
-        },
-        {
-          "id": "GHA2_CH10",
-          "page": "280"
         }
       ]
     },
@@ -925,23 +921,23 @@
           "Baybars (sultan)"
         ]
       },
-      "outcome_en": "Mamluk army reached Dongola and set Shekanda on the throne under heavy tribute (SFDAS p.419).",
+      "outcome_en": "Mamluk expedition defeated Dāwūd and set his cousin Shakanda on the throne of Mukurra (GHA IV p.403).",
       "era_ids": [
         "makuria",
         "mamluk-sultanate"
       ],
       "cite": {
-        "source_id": "SFDAS_HCS2017",
-        "pages": "419"
+        "source_id": "GHA4_CH16",
+        "pages": "403"
       },
       "evidence_type": "scholarly synthesis",
-      "significance_en": "Baybars's army invaded Nubia and reached Dongola in 1276. It installed King Shekanda with a heavy tribute and ceded whole provinces to Mamluk control (SFDAS p.419).",
+      "significance_en": "In return for Mamluk help Shakanda took an oath whose obligations would practically have replaced the bakt relationship by complete vassalage (GHA IV p.403).",
       "decisive": false,
       "cites": [
         {
-          "source_id": "SFDAS_HCS2017",
-          "pages": "419",
-          "quote": "Son armée envahit la Nubie et poussa jusqu’à Dongola en 1276, où elle rétablit sur le trône le roi Shékanda, lui imposant toutefois un lourd tribut et la cession de provinces entières au pouvoir mamelouk."
+          "source_id": "GHA4_CH16",
+          "pages": "403",
+          "quote": "In 1276 Baybars sent a large punitive expedition, which defeated Dāwūd, and conferred the throne of Mukurra upon Dāwūd's cousin and rival, whose name is given as Shakanda or Mashkad in the sources."
         }
       ],
       "lat": 18.22306,
@@ -953,8 +949,8 @@
       "end": 1276,
       "sources": [
         {
-          "id": "SFDAS_HCS2017",
-          "page": "419"
+          "id": "GHA4_CH16",
+          "page": "403"
         }
       ]
     },
@@ -964,7 +960,7 @@
       "name_en": "Ottoman capture of Qasr Ibrim",
       "name_ar": "الاستيلاء العثماني على قصر إبريم [يحتاج تحقق]",
       "date": "1560",
-      "date_note": "'vers 1560' (SFDAS p.420)",
+      "date_note": "Approximate: GHA V p.145 says 'in the middle of the century'; no registered page gives a year.",
       "precision": "approximate",
       "place_id": "qasr-ibrim",
       "sides": [
@@ -976,26 +972,27 @@
           "Özdemir Pasha"
         ]
       },
-      "outcome_en": "Ottoman forts built at Aswan, Qasr Ibrim and Sai; Qasr Ibrim became the provincial capital (SFDAS pp.423–424).",
+      "outcome_en": "Özdemir captured Ibrîm and Dirr and built a fortress at Say; Bosnian garrisons held Aswan, Ibrîm and Say in the new province of Berberistan",
       "era_ids": [
         "ottoman-egypt-muhammad-ali-dynasty"
       ],
       "cite": {
-        "source_id": "SFDAS_HCS2017",
-        "pages": "423"
+        "source_id": "GHA5_CH7",
+        "pages": "175"
       },
       "evidence_type": "scholarly synthesis",
-      "significance_en": "Özdemir Pasha took Qasr Ibrim and left Bosnian battalions to build forts at Aswan, Qasr Ibrim and Sai. The province, with Qasr Ibrim as capital, lasted until Napoleon's invasion of Egypt (SFDAS pp.423–424).",
+      "significance_en": "The fort at Say marked the southern limit of Ottoman Egypt (GHA V p.175).",
       "decisive": false,
       "cites": [
         {
-          "source_id": "SFDAS_HCS2017",
-          "pages": "423",
-          "quote": "Celui-ci partit avec une armée de 40 000 hommes vers le Soudan, où il s’empara de Qasr Ibrim."
+          "source_id": "GHA5_CH7",
+          "pages": "175",
+          "quote": "Özdemir captured the strategic frontier fortresses of Ibrîm and Dirr. At Say, between the Second and Third Cataracts, he built a fortress which constituted the southern limit of Ottoman Egypt."
         },
         {
-          "source_id": "SFDAS_HCS2017",
-          "pages": "420, 424"
+          "source_id": "GHA5_CH6",
+          "pages": "145",
+          "quote": "Ottoman supremacy there had to be re-established through an expedition, led by the former vice-regent of Yemen, Özdemir Pasha, who re-occupied Ibrim, Aswan and Say, garrisoning them with Bosnian troops."
         }
       ],
       "lat": 22.65019,
@@ -1007,12 +1004,12 @@
       "end": 1560,
       "sources": [
         {
-          "id": "SFDAS_HCS2017",
-          "page": "423"
+          "id": "GHA5_CH7",
+          "page": "175"
         },
         {
-          "id": "SFDAS_HCS2017",
-          "page": "420, 424"
+          "id": "GHA5_CH6",
+          "page": "145"
         }
       ]
     },
