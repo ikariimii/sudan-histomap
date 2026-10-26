@@ -138,23 +138,23 @@ body.embed #about,body.embed #lang,body.embed #srchb{display:none}#embo{font-siz
 #cmpbar input{min-height:44px;margin:0}#cmpbar input::-webkit-slider-thumb{width:26px;height:26px}#cmpbar input::-moz-range-thumb{width:26px;height:26px}#cmpbar>span{font-weight:600}
 .cmpdv line{stroke:#fff;stroke-width:2;filter:drop-shadow(0 0 2px #000)}.cmph{cursor:ew-resize;touch-action:none}.cmph .hit{fill:transparent}.cmph .knob{fill:#0f1b24;stroke:#fff;stroke-width:2}.cmph path{fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}body.sfull .cmpdv{display:none}
 /* Battles layer + era Events timeline (feature-flagged; see web/features.json) */
-.bts g.bt{cursor:pointer}.bts g.bt circle.btc{fill:#6b1f1f;stroke:#f3c0a8;stroke-width:1.5}.bts g.bt path{stroke:#fff;stroke-width:2;fill:none;stroke-linecap:round}
-.bts g.pr-region circle.btc{stroke-dasharray:3 2}.bts g.pr-reported circle.btc{fill:#3a2a2a}.bts g.bt:focus-visible circle.btc{stroke:#ffd166;stroke-width:3}
+.bts g.bt{cursor:pointer}.bts g.bt circle.btc{fill:var(--bt-fill);stroke:var(--bt-stroke);stroke-width:1.5}.bts g.bt path{stroke:var(--bt-glyph);stroke-width:2;fill:none;stroke-linecap:round}
+.bts g.pr-region circle.btc{stroke-dasharray:3 2}.bts g.pr-reported circle.btc{fill:#3a2a2a}.bts g.bt:focus-visible circle.btc{stroke:var(--bt-sel);stroke-width:3}
 /* battle timing: current = gold halo ring + full marker; earlier in era = muted slate, dashed outline, thinner X (shape+line, not colour alone) */
-.bts g.bt circle.bth{fill:none;stroke:#ffd166;stroke-width:2.5}.bts g.bt.past circle.bth{display:none}.bts g.bt.past circle.btc{fill:#2b3238;stroke:#c9d3db;stroke-dasharray:3 2}.bts g.bt.past path{stroke:#c9d3db;stroke-width:1.5}
+.bts g.bt circle.bth{fill:none;stroke:var(--bt-hov);stroke-width:2.5}.bts g.bt.past circle.bth{display:none}.bts g.bt.past circle.btc{fill:#2b3238;stroke:#c9d3db;stroke-dasharray:3 2}.bts g.bt.past path{stroke:#c9d3db;stroke-width:1.5}
 #lgp svg.bts{vertical-align:middle;overflow:visible}
-.evpin circle{fill:none;stroke:#ffd166;stroke-width:3}
+.evpin circle{fill:none;stroke:var(--bt-sel);stroke-width:3}
 .evt ol{list-style:none;padding:0;margin:4px 0}.evt li{margin:6px 0;padding-inline-start:8px;border-inline-start:2px solid var(--c,#7a8a96);overflow-wrap:anywhere}
 .evt .evgo{display:block;width:100%;box-sizing:border-box;min-height:44px;padding:6px 0;background:none;border:0;color:inherit;font:inherit;text-align:start;cursor:pointer}
-.evt .evgo:focus-visible{outline:2px solid #ffd166;outline-offset:2px}.evt .evp{color:#ffd166}.evt .evn{margin:4px 0}.evt .evy{font-weight:600;margin-inline-end:.35em}
+.evt .evgo:focus-visible{outline:2px solid var(--bt-sel);outline-offset:2px}.evt .evp{color:var(--bt-sel)}.evt .evn{margin:4px 0}.evt .evy{font-weight:600;margin-inline-end:.35em}
 .btim{margin:6px 0}.btim img{display:block;max-width:100%;height:auto;border-radius:6px}.btim figcaption{font-size:12px;color:var(--mute)}
-.ebd{display:inline-flex;align-items:center;min-height:24px;padding:0 8px;border-radius:999px;background:#14232f;border:1px solid #e0a63e;color:#e0a63e;font:600 11px/1 system-ui,sans-serif;cursor:pointer;vertical-align:middle}.ebd:focus-visible{outline:2px solid #ffd166;outline-offset:2px}.wye{opacity:.6}.ebn{border-inline-start:2px solid #e0a63e;padding-inline-start:6px}
+.ebd{display:inline-flex;align-items:center;min-height:24px;padding:0 8px;border-radius:999px;background:#14232f;border:1px solid #e0a63e;color:#e0a63e;font:600 11px/1 system-ui,sans-serif;cursor:pointer;vertical-align:middle}.ebd:focus-visible{outline:2px solid var(--bt-sel);outline-offset:2px}.wye{opacity:.6}.ebn{border-inline-start:2px solid #e0a63e;padding-inline-start:6px}
 :lang(ar) .repb,[dir=rtl] .repb{font-size:12px}.flag text.fvchip:lang(ar){font-size:12px}
-.btl{margin:.6em 0}.btl h2{font-size:15px;margin:.2em 0}.btl ul{list-style:none;margin:0;padding:0}.btl li{border-bottom:1px solid #2a3a46;padding:4px 0}.btl button{font:inherit;color:var(--ink);background:none;border:0;padding:4px 0;min-height:36px;text-align:start;cursor:pointer;width:100%}.btl li.cur button{font-weight:700}.btl li.cur .btli{color:#ffd166}.btl li.past button{color:#c9d3db}.btl .btst,.btl .btrg{display:block;color:var(--mute);font-size:12px}.btl button:focus-visible{outline:2px solid #ffd166;outline-offset:2px}
+.btl{margin:.6em 0}.btl h2{font-size:15px;margin:.2em 0}.btl ul{list-style:none;margin:0;padding:0}.btl li{border-bottom:1px solid #2a3a46;padding:4px 0}.btl button{font:inherit;color:var(--ink);background:none;border:0;padding:4px 0;min-height:36px;text-align:start;cursor:pointer;width:100%}.btl li.cur button{font-weight:700}.btl li.cur .btli{color:var(--bt-sel)}.btl li.past button{color:#c9d3db}.btl .btst,.btl .btrg{display:block;color:var(--mute);font-size:12px}.btl button:focus-visible{outline:2px solid var(--bt-sel);outline-offset:2px}
 .bts .bthit{fill:#000;fill-opacity:0;stroke:none;pointer-events:all}
 @media (max-width:999px){#feat{max-height:calc(min(88vh,100vh - var(--chipb,120px) - 10px) - 28px);overflow-y:auto;overscroll-behavior:contain}}
 .clo ul{margin:4px 0;padding-inline-start:18px}.clo li{margin:4px 0}.clo h2{font-size:14px;margin:10px 0 2px}
-.bts g.bt circle.bthz{stroke:none;pointer-events:all}.bts g.bt .bzg path{stroke:#fbecc8;fill:none;stroke-linecap:round;stroke-linejoin:round}.bts g.bt.past circle.bthz{opacity:.45}.bts g.bt.past .bzg path{stroke:#c9d3db}.bts g.pr-zone circle.bth{r:15}.bts g.bt:focus-visible .bzg path{stroke:#ffd166}
+.bts g.bt circle.bthz{stroke:none;pointer-events:all}.bts g.bt .bzg path{stroke:var(--bt-rgl);fill:none;stroke-linecap:round;stroke-linejoin:round}.bts g.bt.past circle.bthz{opacity:.45}.bts g.bt.past .bzg path{stroke:#c9d3db}.bts g.pr-zone circle.bth{r:15}.bts g.bt:focus-visible .bzg path{stroke:var(--bt-sel)}
 /* 'How we know' strip on the era card: compact chips, wraps on narrow screens */
 .hwks{display:flex;flex-wrap:wrap;gap:.25em .4em;align-items:center;font-size:12px;line-height:1.5;margin:.3em 0 .6em;padding:.35em .5em;border-radius:.5em;background:rgba(138,90,31,.08)}
 .hwks b{font-weight:700}.hwks span{white-space:nowrap}.hwks span+span::before,.hwks span+a::before{content:'·';margin-inline-end:.4em;color:#6b6257}
