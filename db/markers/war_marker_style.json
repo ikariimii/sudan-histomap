@@ -355,7 +355,13 @@
    "name_ar": "حملة شرق أفريقيا (حدود السودان)، 1940–1941 [يحتاج تحقق]",
    "start": "1940",
    "end": "1941",
-   "span_state": "closed"
+   "span_state": "closed",
+   "colour": "#f0f8a8",
+   "hull_dash": "dash 1 4",
+   "icon": "border-post",
+   "contrast_dark_bg": 15.55,
+   "contrast_light_bg": 1.02,
+   "icon_note": "Reuses border-post (also sudan-south-sudan-border-2012): no icon rule; fits a frontier campaign (Kassala, Gallabat)."
   }
  ],
  "peace_agreement_milestone": {
