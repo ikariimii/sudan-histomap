@@ -267,7 +267,9 @@
    "name_ar": "أزمة هجليج [يحتاج تحقق]",
    "ar_status": "VERIFY",
    "date": "2012-04",
-   "precision": "region",
+   "lat": 10.00249,
+   "lon": 29.4025,
+   "precision": "approximate",
    "region_name": "Heglig oil field area, Sudan–South Sudan border (South Kordofan)",
    "sides": [
     "SPLA (South Sudan)",
@@ -288,7 +290,11 @@
    ],
    "image": {},
    "note": "Location resolves through place_id heglig: GeoNames 8948691 (10.00249, 29.4025), SINGLE-SOURCE with a Wikidata cross-check, as recorded in db/cities.json. UN and OCHA give no coordinates.",
-   "place_id": "heglig"
+   "place_id": "heglig",
+   "coord_cite": {
+    "source_id": "GEONAMES",
+    "pages": "geonameid 8948691 (via db/cities.json place heglig)"
+   }
   },
   {
    "id": "bor-2013",
@@ -621,7 +627,9 @@
    "ar_status": "VERIFY",
    "date_from": "2023-11-01",
    "date_to": "2023-11-04",
-   "precision": "region",
+   "lat": 13.47546,
+   "lon": 22.48531,
+   "precision": "approximate",
    "region_name": "Ardamatta, near El Geneina, West Darfur",
    "sides": [
     "Rapid Support Forces (RSF)",
@@ -642,7 +650,11 @@
    "image": {},
    "note": "Ardamatta is near El Geneina; no gazetteer entry checked, so region-only.",
    "single_source_reason": "No second UN/aid-agency document read on 2026-10-25 states this; S/2025/239 does not name it",
-   "place_id": "ardamata"
+   "place_id": "ardamata",
+   "coord_cite": {
+    "source_id": "GEONAMES",
+    "pages": "geonameid 13132452 (via db/cities.json place ardamata)"
+   }
   },
   {
    "id": "el-fasher-2024",
