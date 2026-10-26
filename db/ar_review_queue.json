@@ -6401,6 +6401,20 @@
       "origin_commit": "SFDAS_HCS2017 cite-or-delete pass",
       "added": "2026-10-26",
       "note": "[يحتاج تحقق]"
+    },
+    {
+      "era_id": "makuria",
+      "file": "data/battles.json",
+      "field_ar": "dongola-642.name_ar",
+      "arabic_sentence": "الحملة العربية الأولى على المقرة [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "dongola-642.name_en",
+      "revised_english": "(battle deleted; arab-nubian-wars now starts 651, GHA III p.81)",
+      "reason": "Battle dongola-642 removed by IM ruling (rested on SFDAS p.405 only); its Arabic name left the file with the record. Arabic not reworded.",
+      "action": "Native reviewer: close the earlier dongola-642 name entry; no Arabic to align.",
+      "origin_commit": "dongola-642 deletion / arab-nubian 651 start",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق]"
     }
   ]
 }

@@ -88,7 +88,7 @@
         "makuria",
         "islamic-egypt-rashidunfatimidayyubid"
       ],
-      "start": "642",
+      "start": "651",
       "end": "652",
       "cites": [
         {
@@ -98,10 +98,6 @@
         {
           "source_id": "GHA3_CH3",
           "pages": "81"
-        },
-        {
-          "source_id": "SFDAS_HCS2017",
-          "pages": "405"
         }
       ],
       "belligerents": [
@@ -109,7 +105,7 @@
         "Kingdom of Makuria"
       ],
       "belligerents_note": "From the sides of this war's cited battles in data/battles.json.",
-      "date_note": "GHA III pp.81, 166 give only the 31/651-2 expedition. The 642 start rests on SFDAS p.405 alone (battle dongola-642), kept pending Map Designer sign-off on deleting that battle."
+      "date_note": "Starts 651 per GHA III p.81 ('tried in 31/651-2 to conquer Nubia and even penetrated as far as Dongola'); battle dongola-642 (SFDAS p.405 only) deleted by IM ruling after the Map Designer removal (2a8ee4e)."
     },
     {
       "id": "funj-abdallab-war",
