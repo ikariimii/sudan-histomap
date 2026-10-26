@@ -18,9 +18,9 @@
   "files_scanned": 314
  },
  "totals": {
-  "SINGLE-SOURCE": 261,
+  "SINGLE-SOURCE": 461,
   "CONTESTED": 174,
-  "VERIFY": 85,
+  "VERIFY": 102,
   "REPORTED": 25,
   "MODEL": 109,
   "EDITORIAL": 67,
@@ -28,7 +28,7 @@
   "PARTIAL": 5,
   "DERIVED": 328
  },
- "grand_total": 1534,
+ "grand_total": 1751,
  "inline_totals": {
   "SINGLE-SOURCE": 19,
   "CONTESTED": 8,
@@ -76,7 +76,7 @@
    },
    "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 3,
+    "SINGLE-SOURCE": 4,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -86,7 +86,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 13,
+   "total": 14,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -119,9 +119,9 @@
    },
    "source_types_total": 10,
    "counts": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 11,
     "CONTESTED": 0,
-    "VERIFY": 0,
+    "VERIFY": 2,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 0,
@@ -129,7 +129,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 5,
+   "total": 16,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -144,6 +144,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/abboud-military-regime.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/population.json"
    ]
@@ -160,7 +161,7 @@
    },
    "source_types_total": 3,
    "counts": {
-    "SINGLE-SOURCE": 6,
+    "SINGLE-SOURCE": 7,
     "CONTESTED": 4,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -170,7 +171,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 30,
+   "total": 31,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -202,9 +203,9 @@
    },
    "source_types_total": 21,
    "counts": {
-    "SINGLE-SOURCE": 8,
+    "SINGLE-SOURCE": 28,
     "CONTESTED": 30,
-    "VERIFY": 4,
+    "VERIFY": 6,
     "REPORTED": 0,
     "MODEL": 4,
     "EDITORIAL": 3,
@@ -212,7 +213,7 @@
     "PARTIAL": 1,
     "DERIVED": 7
    },
-   "total": 76,
+   "total": 98,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -297,7 +298,7 @@
    },
    "source_types_total": 7,
    "counts": {
-    "SINGLE-SOURCE": 12,
+    "SINGLE-SOURCE": 15,
     "CONTESTED": 0,
     "VERIFY": 3,
     "REPORTED": 0,
@@ -307,7 +308,7 @@
     "PARTIAL": 0,
     "DERIVED": 13
    },
-   "total": 50,
+   "total": 53,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -345,7 +346,7 @@
    },
    "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 9,
+    "SINGLE-SOURCE": 10,
     "CONTESTED": 0,
     "VERIFY": 7,
     "REPORTED": 0,
@@ -355,7 +356,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 26,
+   "total": 27,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -390,7 +391,7 @@
    },
    "source_types_total": 4,
    "counts": {
-    "SINGLE-SOURCE": 3,
+    "SINGLE-SOURCE": 4,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 2,
@@ -400,7 +401,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 10,
+   "total": 11,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -477,7 +478,7 @@
    },
    "source_types_total": 9,
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 1,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -487,7 +488,7 @@
     "PARTIAL": 0,
     "DERIVED": 12
    },
-   "total": 22,
+   "total": 23,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 1,
@@ -519,7 +520,7 @@
    },
    "source_types_total": 6,
    "counts": {
-    "SINGLE-SOURCE": 4,
+    "SINGLE-SOURCE": 5,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -529,7 +530,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 15,
+   "total": 16,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -563,7 +564,7 @@
    },
    "source_types_total": 9,
    "counts": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 4,
     "CONTESTED": 0,
     "VERIFY": 1,
     "REPORTED": 0,
@@ -573,7 +574,7 @@
     "PARTIAL": 0,
     "DERIVED": 5
    },
-   "total": 22,
+   "total": 24,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -589,6 +590,7 @@
    "files": [
     "data/eras/central-african-republic-ubangi-shari.json",
     "db/ar_review_queue.json",
+    "db/era_economy.json",
     "db/extents/central-african-republic-ubangi-shari.geojson",
     "db/map_sources.json",
     "db/population.json"
@@ -606,7 +608,7 @@
    },
    "source_types_total": 8,
    "counts": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 3,
     "CONTESTED": 1,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -616,7 +618,7 @@
     "PARTIAL": 0,
     "DERIVED": 3
    },
-   "total": 13,
+   "total": 14,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -649,9 +651,9 @@
    },
    "source_types_total": 14,
    "counts": {
-    "SINGLE-SOURCE": 4,
+    "SINGLE-SOURCE": 20,
     "CONTESTED": 24,
-    "VERIFY": 0,
+    "VERIFY": 1,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 0,
@@ -659,7 +661,7 @@
     "PARTIAL": 0,
     "DERIVED": 5
    },
-   "total": 43,
+   "total": 60,
    "inline_badges": {
     "SINGLE-SOURCE": 4,
     "CONTESTED": 0,
@@ -674,6 +676,7 @@
    "inline_total": 4,
    "files": [
     "data/eras/december-revolution-transition.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/extents/december-revolution-transition.geojson",
     "db/extents_historic.json",
@@ -694,9 +697,9 @@
    },
    "source_types_total": 14,
    "counts": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 6,
     "CONTESTED": 5,
-    "VERIFY": 1,
+    "VERIFY": 2,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
@@ -704,7 +707,7 @@
     "PARTIAL": 0,
     "DERIVED": 5
    },
-   "total": 20,
+   "total": 25,
    "inline_badges": {
     "SINGLE-SOURCE": 3,
     "CONTESTED": 1,
@@ -738,7 +741,7 @@
    },
    "source_types_total": 4,
    "counts": {
-    "SINGLE-SOURCE": 8,
+    "SINGLE-SOURCE": 12,
     "CONTESTED": 3,
     "VERIFY": 1,
     "REPORTED": 0,
@@ -748,7 +751,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 28,
+   "total": 32,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -784,7 +787,7 @@
    },
    "source_types_total": 7,
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 1,
     "CONTESTED": 2,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -794,7 +797,7 @@
     "PARTIAL": 0,
     "DERIVED": 6
    },
-   "total": 12,
+   "total": 13,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -827,7 +830,7 @@
    },
    "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 4,
+    "SINGLE-SOURCE": 7,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -837,7 +840,7 @@
     "PARTIAL": 0,
     "DERIVED": 7
    },
-   "total": 23,
+   "total": 26,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -870,7 +873,7 @@
    },
    "source_types_total": 14,
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 2,
     "CONTESTED": 3,
     "VERIFY": 2,
     "REPORTED": 0,
@@ -880,7 +883,7 @@
     "PARTIAL": 0,
     "DERIVED": 11
    },
-   "total": 30,
+   "total": 32,
    "inline_badges": {
     "SINGLE-SOURCE": 3,
     "CONTESTED": 0,
@@ -896,6 +899,7 @@
    "files": [
     "data/eras/eritrea-italian-colony-independent.json",
     "db/ar_review_queue.json",
+    "db/era_economy.json",
     "db/extents/eritrea-italian-colony-independent.geojson",
     "db/map_sources.json",
     "db/population.json"
@@ -913,7 +917,7 @@
    },
    "source_types_total": 11,
    "counts": {
-    "SINGLE-SOURCE": 1,
+    "SINGLE-SOURCE": 3,
     "CONTESTED": 0,
     "VERIFY": 1,
     "REPORTED": 0,
@@ -923,7 +927,7 @@
     "PARTIAL": 3,
     "DERIVED": 16
    },
-   "total": 35,
+   "total": 37,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -957,7 +961,7 @@
    },
    "source_types_total": 12,
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 2,
     "CONTESTED": 3,
     "VERIFY": 1,
     "REPORTED": 1,
@@ -967,7 +971,7 @@
     "PARTIAL": 0,
     "DERIVED": 3
    },
-   "total": 22,
+   "total": 24,
    "inline_badges": {
     "SINGLE-SOURCE": 1,
     "CONTESTED": 0,
@@ -983,6 +987,7 @@
    "files": [
     "data/eras/french-chad-republic-of-chad.json",
     "db/ar_review_queue.json",
+    "db/era_economy.json",
     "db/era_events_post1956.json",
     "db/extents/french-chad-republic-of-chad.geojson",
     "db/map_sources.json",
@@ -1001,7 +1006,7 @@
    },
    "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 29,
+    "SINGLE-SOURCE": 30,
     "CONTESTED": 0,
     "VERIFY": 5,
     "REPORTED": 2,
@@ -1011,7 +1016,7 @@
     "PARTIAL": 0,
     "DERIVED": 12
    },
-   "total": 77,
+   "total": 78,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1048,7 +1053,7 @@
    },
    "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 1,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -1058,7 +1063,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 4,
+   "total": 5,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1090,9 +1095,9 @@
    },
    "source_types_total": 7,
    "counts": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 10,
     "CONTESTED": 0,
-    "VERIFY": 0,
+    "VERIFY": 2,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 0,
@@ -1100,7 +1105,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 5,
+   "total": 15,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1115,6 +1120,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/independent-sudan-first-parliamentary-period.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/population.json"
    ]
@@ -1173,7 +1179,7 @@
    },
    "source_types_total": 2,
    "counts": {
-    "SINGLE-SOURCE": 5,
+    "SINGLE-SOURCE": 6,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -1183,7 +1189,7 @@
     "PARTIAL": 0,
     "DERIVED": 2
    },
-   "total": 18,
+   "total": 19,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1345,7 +1351,7 @@
    },
    "source_types_total": 7,
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 1,
     "CONTESTED": 1,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -1355,7 +1361,7 @@
     "PARTIAL": 0,
     "DERIVED": 12
    },
-   "total": 23,
+   "total": 24,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1387,7 +1393,7 @@
    },
    "source_types_total": 4,
    "counts": {
-    "SINGLE-SOURCE": 4,
+    "SINGLE-SOURCE": 6,
     "CONTESTED": 0,
     "VERIFY": 8,
     "REPORTED": 0,
@@ -1397,7 +1403,7 @@
     "PARTIAL": 0,
     "DERIVED": 3
    },
-   "total": 22,
+   "total": 24,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1431,7 +1437,7 @@
    },
    "source_types_total": 12,
    "counts": {
-    "SINGLE-SOURCE": 1,
+    "SINGLE-SOURCE": 3,
     "CONTESTED": 1,
     "VERIFY": 6,
     "REPORTED": 0,
@@ -1441,7 +1447,7 @@
     "PARTIAL": 0,
     "DERIVED": 11
    },
-   "total": 38,
+   "total": 40,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1475,7 +1481,7 @@
    },
    "source_types_total": 11,
    "counts": {
-    "SINGLE-SOURCE": 4,
+    "SINGLE-SOURCE": 6,
     "CONTESTED": 0,
     "VERIFY": 3,
     "REPORTED": 0,
@@ -1485,7 +1491,7 @@
     "PARTIAL": 0,
     "DERIVED": 7
    },
-   "total": 27,
+   "total": 29,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1520,7 +1526,7 @@
    },
    "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 1,
     "CONTESTED": 2,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -1530,7 +1536,7 @@
     "PARTIAL": 0,
     "DERIVED": 3
    },
-   "total": 12,
+   "total": 13,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1563,7 +1569,7 @@
    },
    "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 1,
+    "SINGLE-SOURCE": 2,
     "CONTESTED": 1,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -1573,7 +1579,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 6,
+   "total": 7,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1605,7 +1611,7 @@
    },
    "source_types_total": 6,
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 1,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -1615,7 +1621,7 @@
     "PARTIAL": 0,
     "DERIVED": 3
    },
-   "total": 6,
+   "total": 7,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1647,7 +1653,7 @@
    },
    "source_types_total": 12,
    "counts": {
-    "SINGLE-SOURCE": 4,
+    "SINGLE-SOURCE": 6,
     "CONTESTED": 2,
     "VERIFY": 0,
     "REPORTED": 1,
@@ -1657,7 +1663,7 @@
     "PARTIAL": 0,
     "DERIVED": 7
    },
-   "total": 28,
+   "total": 30,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1672,6 +1678,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/libya-ottoman-italian-independent.json",
+    "db/era_economy.json",
     "db/era_fill_modern4.json",
     "db/extents/libya-ottoman-italian-independent.geojson",
     "db/map_sources.json",
@@ -1690,7 +1697,7 @@
    },
    "source_types_total": 4,
    "counts": {
-    "SINGLE-SOURCE": 3,
+    "SINGLE-SOURCE": 4,
     "CONTESTED": 0,
     "VERIFY": 12,
     "REPORTED": 1,
@@ -1700,7 +1707,7 @@
     "PARTIAL": 0,
     "DERIVED": 3
    },
-   "total": 22,
+   "total": 23,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1735,7 +1742,7 @@
    },
    "source_types_total": 6,
    "counts": {
-    "SINGLE-SOURCE": 8,
+    "SINGLE-SOURCE": 11,
     "CONTESTED": 0,
     "VERIFY": 7,
     "REPORTED": 0,
@@ -1745,7 +1752,7 @@
     "PARTIAL": 0,
     "DERIVED": 13
    },
-   "total": 61,
+   "total": 64,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1783,7 +1790,7 @@
    },
    "source_types_total": 4,
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 1,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -1793,7 +1800,7 @@
     "PARTIAL": 0,
     "DERIVED": 6
    },
-   "total": 10,
+   "total": 11,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1825,7 +1832,7 @@
    },
    "source_types_total": 7,
    "counts": {
-    "SINGLE-SOURCE": 4,
+    "SINGLE-SOURCE": 5,
     "CONTESTED": 2,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -1835,7 +1842,7 @@
     "PARTIAL": 0,
     "DERIVED": 8
    },
-   "total": 22,
+   "total": 23,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1868,7 +1875,7 @@
    },
    "source_types_total": 7,
    "counts": {
-    "SINGLE-SOURCE": 1,
+    "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -1878,7 +1885,7 @@
     "PARTIAL": 0,
     "DERIVED": 3
    },
-   "total": 11,
+   "total": 12,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1910,7 +1917,7 @@
    },
    "source_types_total": 6,
    "counts": {
-    "SINGLE-SOURCE": 4,
+    "SINGLE-SOURCE": 5,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -1920,7 +1927,7 @@
     "PARTIAL": 0,
     "DERIVED": 4
    },
-   "total": 10,
+   "total": 11,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1952,9 +1959,9 @@
    },
    "source_types_total": 18,
    "counts": {
-    "SINGLE-SOURCE": 3,
+    "SINGLE-SOURCE": 14,
     "CONTESTED": 2,
-    "VERIFY": 0,
+    "VERIFY": 2,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 3,
@@ -1962,7 +1969,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 12,
+   "total": 25,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -1977,6 +1984,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/nimeiry-era-democratic-republic-of-sudan.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/population.json"
    ]
@@ -1993,7 +2001,7 @@
    },
    "source_types_total": 8,
    "counts": {
-    "SINGLE-SOURCE": 1,
+    "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -2003,7 +2011,7 @@
     "PARTIAL": 0,
     "DERIVED": 6
    },
-   "total": 14,
+   "total": 15,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2036,7 +2044,7 @@
    },
    "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 1,
+    "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -2046,7 +2054,7 @@
     "PARTIAL": 0,
     "DERIVED": 4
    },
-   "total": 12,
+   "total": 13,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2079,7 +2087,7 @@
    },
    "source_types_total": 3,
    "counts": {
-    "SINGLE-SOURCE": 6,
+    "SINGLE-SOURCE": 10,
     "CONTESTED": 3,
     "VERIFY": 4,
     "REPORTED": 0,
@@ -2089,7 +2097,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 26,
+   "total": 30,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2167,7 +2175,7 @@
    },
    "source_types_total": 8,
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 3,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 1,
@@ -2177,7 +2185,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 5,
+   "total": 8,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2210,7 +2218,7 @@
    },
    "source_types_total": 6,
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 1,
     "CONTESTED": 4,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -2220,7 +2228,7 @@
     "PARTIAL": 0,
     "DERIVED": 6
    },
-   "total": 16,
+   "total": 17,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2253,9 +2261,9 @@
    },
    "source_types_total": 11,
    "counts": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 8,
     "CONTESTED": 1,
-    "VERIFY": 2,
+    "VERIFY": 3,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 0,
@@ -2263,7 +2271,7 @@
     "PARTIAL": 0,
     "DERIVED": 13
    },
-   "total": 33,
+   "total": 40,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 1,
@@ -2279,6 +2287,7 @@
    "files": [
     "data/eras/republic-of-egypt.json",
     "db/ar_review_queue.json",
+    "db/era_economy.json",
     "db/era_fill_modern4.json",
     "db/extents/republic-of-egypt.geojson",
     "db/map_sources.json",
@@ -2297,9 +2306,9 @@
    },
    "source_types_total": 17,
    "counts": {
-    "SINGLE-SOURCE": 12,
+    "SINGLE-SOURCE": 24,
     "CONTESTED": 32,
-    "VERIFY": 0,
+    "VERIFY": 1,
     "REPORTED": 0,
     "MODEL": 3,
     "EDITORIAL": 3,
@@ -2307,7 +2316,7 @@
     "PARTIAL": 1,
     "DERIVED": 1
    },
-   "total": 59,
+   "total": 72,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 1,
@@ -2322,6 +2331,7 @@
    "inline_total": 1,
    "files": [
     "data/eras/republic-of-south-sudan.json",
+    "db/ar_review_queue.json",
     "db/battles_post1956.json",
     "db/era_anchor_fill_hist23b.json",
     "db/era_economy.json",
@@ -2345,7 +2355,7 @@
    },
    "source_types_total": 8,
    "counts": {
-    "SINGLE-SOURCE": 4,
+    "SINGLE-SOURCE": 5,
     "CONTESTED": 2,
     "VERIFY": 2,
     "REPORTED": 0,
@@ -2355,7 +2365,7 @@
     "PARTIAL": 0,
     "DERIVED": 3
    },
-   "total": 18,
+   "total": 19,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2390,7 +2400,7 @@
    },
    "source_types_total": 6,
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 1,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -2400,7 +2410,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 4,
+   "total": 5,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2432,7 +2442,7 @@
    },
    "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 3,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -2442,7 +2452,7 @@
     "PARTIAL": 0,
     "DERIVED": 8
    },
-   "total": 18,
+   "total": 19,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2474,7 +2484,7 @@
    },
    "source_types_total": 7,
    "counts": {
-    "SINGLE-SOURCE": 1,
+    "SINGLE-SOURCE": 2,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -2484,7 +2494,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 5,
+   "total": 6,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2516,9 +2526,9 @@
    },
    "source_types_total": 11,
    "counts": {
-    "SINGLE-SOURCE": 5,
+    "SINGLE-SOURCE": 12,
     "CONTESTED": 0,
-    "VERIFY": 0,
+    "VERIFY": 2,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 3,
@@ -2526,7 +2536,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 12,
+   "total": 21,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2541,6 +2551,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/second-parliamentary-period.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/group_layers/second-parliamentary-period.geojson",
     "db/population.json"
@@ -2558,7 +2569,7 @@
    },
    "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 6,
+    "SINGLE-SOURCE": 7,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -2568,7 +2579,7 @@
     "PARTIAL": 0,
     "DERIVED": 4
    },
-   "total": 12,
+   "total": 13,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2602,7 +2613,7 @@
    },
    "source_types_total": 12,
    "counts": {
-    "SINGLE-SOURCE": 10,
+    "SINGLE-SOURCE": 14,
     "CONTESTED": 10,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -2612,7 +2623,7 @@
     "PARTIAL": 0,
     "DERIVED": 2
    },
-   "total": 45,
+   "total": 49,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2690,7 +2701,7 @@
    },
    "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 17,
+    "SINGLE-SOURCE": 19,
     "CONTESTED": 2,
     "VERIFY": 6,
     "REPORTED": 0,
@@ -2700,7 +2711,7 @@
     "PARTIAL": 0,
     "DERIVED": 15
    },
-   "total": 62,
+   "total": 64,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2737,9 +2748,9 @@
    },
    "source_types_total": 13,
    "counts": {
-    "SINGLE-SOURCE": 6,
+    "SINGLE-SOURCE": 17,
     "CONTESTED": 0,
-    "VERIFY": 0,
+    "VERIFY": 2,
     "REPORTED": 0,
     "MODEL": 2,
     "EDITORIAL": 0,
@@ -2747,7 +2758,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 9,
+   "total": 22,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2762,6 +2773,7 @@
    "inline_total": 0,
    "files": [
     "data/eras/transitional-third-parliamentary-period.json",
+    "db/ar_review_queue.json",
     "db/era_economy.json",
     "db/population.json"
    ]
@@ -2778,7 +2790,7 @@
    },
    "source_types_total": 8,
    "counts": {
-    "SINGLE-SOURCE": 2,
+    "SINGLE-SOURCE": 3,
     "CONTESTED": 1,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -2788,7 +2800,7 @@
     "PARTIAL": 0,
     "DERIVED": 4
    },
-   "total": 13,
+   "total": 14,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2822,7 +2834,7 @@
    },
    "source_types_total": 6,
    "counts": {
-    "SINGLE-SOURCE": 23,
+    "SINGLE-SOURCE": 27,
     "CONTESTED": 0,
     "VERIFY": 6,
     "REPORTED": 0,
@@ -2832,7 +2844,7 @@
     "PARTIAL": 0,
     "DERIVED": 7
    },
-   "total": 60,
+   "total": 64,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
@@ -2913,9 +2925,9 @@
    },
    "source_types_total": 25,
    "counts": {
-    "SINGLE-SOURCE": 5,
+    "SINGLE-SOURCE": 25,
     "CONTESTED": 29,
-    "VERIFY": 1,
+    "VERIFY": 2,
     "REPORTED": 17,
     "MODEL": 4,
     "EDITORIAL": 0,
@@ -2923,7 +2935,7 @@
     "PARTIAL": 0,
     "DERIVED": 5
    },
-   "total": 74,
+   "total": 95,
    "inline_badges": {
     "SINGLE-SOURCE": 8,
     "CONTESTED": 4,
@@ -2961,7 +2973,7 @@
    },
    "source_types_total": 5,
    "counts": {
-    "SINGLE-SOURCE": 0,
+    "SINGLE-SOURCE": 1,
     "CONTESTED": 0,
     "VERIFY": 0,
     "REPORTED": 0,
@@ -2971,7 +2983,7 @@
     "PARTIAL": 0,
     "DERIVED": 1
    },
-   "total": 4,
+   "total": 5,
    "inline_badges": {
     "SINGLE-SOURCE": 0,
     "CONTESTED": 0,
