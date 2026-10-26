@@ -219,3 +219,4 @@ g.heat{pointer-events:none}
 #lgp .lsw.ht{background:linear-gradient(90deg,#3b0f70,#8c2981,#de4968,#fe9f6d,#fcd38f,#fcfdbf)}
 
 .tgl{flex-wrap:wrap}.tgl .tgb{display:block;width:100%;max-width:220px;height:10px;border-radius:2px;margin:2px 0}.tgl .tgt{display:flex;justify-content:space-between;max-width:220px;gap:6px}.tgl .n{display:block;opacity:.8}
+.bq{margin:4px 0 6px;padding:2px 0 2px 8px;border-inline-start:2px solid #e0a63e;font-style:italic;overflow-wrap:anywhere}.bq q{quotes:'\201C' '\201D'}html[lang=ar] .bq q{quotes:'\00AB' '\00BB'}
