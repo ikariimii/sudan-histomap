@@ -5,6 +5,8 @@
   {
    "id": "dem",
    "row_id": "toggle:dem",
+   "hidden_by_default": true,
+   "show_rule": "do not render this bar until the dem_ramp tint is drawn; the hillshade row (map.js lsw.hs) stays as is",
    "show_when_chip_on": "dem",
    "kind": "gradient_bar",
    "label_en": "Elevation (m above sea level)",
@@ -75,11 +77,13 @@
    "counts": null,
    "note_en": "Below 0 m clamps to the first stop; 4,500 m and above clamp to the last.",
    "note_ar": "ما دون 0 م يأخذ اللون الأول، وما فوق 4500 م يأخذ اللون الأخير [يحتاج تحقق]",
-   "drawn_status": "MISMATCH at site working tree (Web Lead map.js, uncommitted): the 'dem' chip draws Esri World_Hillshade tiles (grey relief, no elevation colour). This bar is valid only once the dem_ramp tint is drawn; until then the legend must show the hillshade row (map.js lsw.hs, 'Hillshade from elevation model (Esri World Hillshade)') and NOT this bar."
+   "drawn_status": "MISMATCH: the 'dem' chip draws Esri World_Hillshade tiles (grey relief, no elevation colour). This bar is valid only once the dem_ramp tint is drawn; until then the legend must show the hillshade row (map.js lsw.hs, 'Hillshade from elevation model (Esri World Hillshade)') and NOT this bar."
   },
   {
    "id": "heatmap",
    "row_id": "toggle:heatmap",
+   "hidden_by_default": false,
+   "show_rule": null,
    "show_when_chip_on": "heat",
    "kind": "gradient_bar",
    "label_en": "Density of mapped battle locations (relative, no units)",

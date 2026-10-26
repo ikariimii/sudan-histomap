@@ -171,22 +171,22 @@
   "palette_note": "20 slots covering every war_id in db/wars.json plus the Analyst's post-1956 ids. Each slot differs from the others in hue, dash pattern or both.",
   "war_palette": {
    "kushite-egyptian-wars": {
-    "colour": "#e69f00",
+    "colour": "#ffbb22",
     "hull_dash": "solid",
     "id_source": "data/wars.json (Historian)"
    },
    "roman-meroitic-war": {
-    "colour": "#cc79a7",
+    "colour": "#e2b2cd",
     "hull_dash": "solid",
     "id_source": "data/wars.json (Historian)"
    },
    "aksum-kush-war": {
-    "colour": "#d4a373",
+    "colour": "#ead1b9",
     "hull_dash": "dash 6 3",
     "id_source": "data/wars.json (Historian)"
    },
    "arab-nubian-wars": {
-    "colour": "#56b4e9",
+    "colour": "#a9d9f4",
     "hull_dash": "solid",
     "id_source": "data/wars.json (Historian)"
    },
@@ -196,32 +196,32 @@
     "id_source": "data/wars.json (Historian)"
    },
    "kordofan-wars": {
-    "colour": "#c9a24a",
+    "colour": "#dfc793",
     "hull_dash": "dash 6 3",
     "id_source": "data/wars.json (Historian)"
    },
    "mahdist-war": {
-    "colour": "#f08c6c",
+    "colour": "#f9cdbf",
     "hull_dash": "solid",
     "id_source": "data/wars.json (Historian)"
    },
    "mahdist-ethiopian-war": {
-    "colour": "#b07aa1",
+    "colour": "#e7bedb",
     "hull_dash": "dash 6 3",
     "id_source": "data/wars.json (Historian)"
    },
    "anglo-egyptian-reconquest": {
-    "colour": "#f8c0a8",
+    "colour": "#f9c7b1",
     "hull_dash": "dash 2 3",
     "id_source": "data/wars.json (Historian)"
    },
    "darfur-campaign-1916": {
-    "colour": "#9fb3c2",
+    "colour": "#c6d2db",
     "hull_dash": "dash 6 3",
     "id_source": "data/wars.json (Historian)"
    },
    "first-civil-war": {
-    "colour": "#009e73",
+    "colour": "#00e5a7",
     "hull_dash": "solid",
     "id_source": "data/wars.json (Historian)"
    },
@@ -236,12 +236,12 @@
     "id_source": "Analyst"
    },
    "south-sudan-civil-war": {
-    "colour": "#8cc8f0",
+    "colour": "#b0d9f5",
     "hull_dash": "dash 2 3",
     "id_source": "Analyst"
    },
    "sudan-south-sudan-border-2012": {
-    "colour": "#e0a63e",
+    "colour": "#e6b866",
     "hull_dash": "dash 2 3",
     "id_source": "Analyst"
    },
@@ -256,7 +256,7 @@
     "id_source": "Analyst (db/battles_post1956.json fa486bd)"
    },
    "piye-conquest-of-egypt": {
-    "colour": "#7fc4a2",
+    "colour": "#86c7a7",
     "hull_dash": "dash 1 3",
     "id_source": "db/wars.json (Historian pass 2)"
    },
@@ -266,7 +266,7 @@
     "id_source": "db/wars.json (Historian pass 2)"
    },
    "ottoman-nubia-campaign": {
-    "colour": "#ff9da7",
+    "colour": "#ffc8ce",
     "hull_dash": "dash 1 3",
     "id_source": "db/wars.json (Historian pass 2)"
    }
@@ -278,7 +278,8 @@
    "label": "war name at the hull centroid, EN/AR [VERIFY], halo #0f1b24",
    "legend_entry": "swatch of hull + war name + date span + battle count",
    "multi_war": "up to 3 wars at once, each with its own hull dash; beyond that, show only the last selected"
-  }
+  },
+  "palette_update": "2026-10-25: 15 colours lightened for >=3:1 vs overlapping era fills (audit/war_vs_era_360.json, IM approved)"
  },
  "label": {
   "text": {

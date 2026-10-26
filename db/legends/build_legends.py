@@ -328,7 +328,7 @@ def toggle_block():
     for k in ('dem', 'heatmap'):
         b = sp[k]
         css = 'linear-gradient(to right,' + ','.join(f"{c} {round(100*(v-b['domain'][0])/(b['domain'][1]-b['domain'][0]),1)}%" for v, c in b['stops']) + ')'
-        out['toggles'].append({'id': k, 'row_id': f'toggle:{k}', 'show_when_chip_on': b['toggle_key'], 'kind': b['kind'],
+        out['toggles'].append({'id': k, 'row_id': f'toggle:{k}', 'hidden_by_default': b.get('hidden_by_default', False), 'show_rule': b.get('show_rule'), 'show_when_chip_on': b['toggle_key'], 'kind': b['kind'],
             'label_en': b['title_en'], 'label_ar': b['title_ar'], 'unit': b['unit'], 'domain': b['domain'],
             'stops': b['stops'], 'css_gradient': css, 'opacity': b.get('opacity', 1), 'ticks': b['ticks'],
             'tick_format_en': b.get('tick_format_en'), 'tick_format_ar': b.get('tick_format_ar'),
