@@ -828,8 +828,11 @@
       "name_en": "Piye's capture of Memphis",
       "name_ar": "استيلاء بيي على منف [يحتاج تحقق]",
       "date": "-720",
-      "precision": "region",
-      "region": "Memphis, Lower Egypt (no gazetteer coordinate registered)",
+      "lat": 29.84949,
+      "lon": 31.25506,
+      "precision": "approximate",
+      "place_id": "memphis",
+      "region": "Memphis, Lower Egypt (db/cities.json memphis, PLEIADES_736963); capture: Breasted ARE IV §865 p.435",
       "sides": [
         "Kush (Piye)",
         "Defenders of Memphis (Tefnakht's coalition)"
@@ -844,14 +847,19 @@
         "kingdom-of-kush-napatan-period"
       ],
       "cite": {
-        "source_id": "GHA2_CH10",
-        "pages": "280"
+        "source_id": "BREASTED_ARE4",
+        "pages": "435 (§865)"
       },
       "evidence_type": "inscription/archaeology",
       "significance_en": "The Stele of Victory of Peye (Piankhi), carved at Napata, has 159 lines of hieroglyphs describing his campaign (GHA II p.280).",
       "decisive": false,
       "id_note": "Requested id memphis--728 not used: no registered page gives 728; GHA II p.106 gives 'about −720'.",
       "cites": [
+        {
+          "source_id": "BREASTED_ARE4",
+          "pages": "435 (§865)",
+          "quote": "Then Memphis was taken as (by) a flood of water, a multitude of people were slain therein, and brought as living captives to the place where his majesty was."
+        },
         {
           "source_id": "GHA2_CH10",
           "pages": "280",
@@ -869,6 +877,10 @@
       "start": -720,
       "end": -720,
       "sources": [
+        {
+          "id": "BREASTED_ARE4",
+          "page": "435"
+        },
         {
           "id": "GHA2_CH10",
           "page": "280"
