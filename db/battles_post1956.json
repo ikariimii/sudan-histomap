@@ -17,7 +17,8 @@
    "Bor 1983 mutiny: HRW 1993 names it without a date",
    "N'Djamena 2008: S/PRST/2008/3 does not name the town or Sudanese role",
    "Blue Nile Sept 2011 (Damazin/Kurmuk): no readable UN source found",
-   "Bor/Kongor 1991 Nasir raids: massacre, not a battle"
+   "Bor/Kongor 1991 Nasir raids: massacre, not a battle",
+   "Wad Madani Dec 2023: OCHA Flash Updates No. 03/05 support it, but neither is registered yet (see sources_to_register); draft entry in /workspace/audit/wad_madani_2023_draft.json"
   ],
   "updated": "2026-10-25"
  },
@@ -674,6 +675,16 @@
    "id": "OHCHR_SK2011",
    "citation": "OHCHR, \"Preliminary report on violations of international human rights and humanitarian law in Southern Kordofan from 5 to 30 June 2011\" (13th periodic report), August 2011",
    "url": "https://reliefweb.int/sites/reliefweb.int/files/resources/Full_report_217.pdf"
+  },
+  {
+   "id": "OCHA_FU05_WADMEDANI_2023",
+   "citation": "UN OCHA, \"Sudan: Clashes in Wad Medani between the Sudanese Armed Forces (SAF) and Rapid Support Forces (RSF) Flash Update No: 05 (28 December 2023) [EN/AR]\"",
+   "url": "https://www.unocha.org/publications/report/sudan/sudan-clashes-wad-medani-between-sudanese-armed-forces-saf-and-rapid-support-forces-rsf-flash-update-no-05-28-december-2023-enar"
+  },
+  {
+   "id": "OCHA_FU03_WADMEDANI_2023",
+   "citation": "UN OCHA, \"Sudan: Clashes in Wad Madani between the Sudanese Armed Forces (SAF) and Rapid Support Forces (RSF) - Flash Update No: 03 (as of 18 December 2023) [EN/AR]\"",
+   "url": "https://www.unocha.org/publications/report/sudan/sudan-clashes-wad-madani-between-sudanese-armed-forces-saf-and-rapid-support-forces-rsf-flash-update-no-03-18-december-2023-enar"
   }
  ]
 }
