@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 118
+      "sentence_items": 120
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -3896,6 +3896,32 @@
       "note": "Working translation of the revised October Revolution 1964 event line; needs native review.",
       "action": "review",
       "origin_commit": "pending (abboud#1 revision)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "al-bashir-ncp-ingaz-regime",
+      "file": "db/era_events_post1956.json",
+      "field_ar": "events.al-bashir-ncp-ingaz-regime#4.ar",
+      "arabic_sentence": "توقيع اتفاقيات التعاون بين السودان وجنوب السودان في 27 سبتمبر 2012 بأديس أبابا [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "events.al-bashir-ncp-ingaz-regime#4.en",
+      "revised_english": "Sudan–South Sudan Cooperation Agreements signed 27 September 2012 in Addis Ababa (UNSC2075 p.1, preamble)",
+      "note": "New peace-milestone event; Arabic drafted, needs native review [يحتاج تحقق]",
+      "action": "review",
+      "origin_commit": "pending",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "december-revolution-transition",
+      "file": "db/era_events_post1956.json",
+      "field_ar": "events.december-revolution-transition#5.ar",
+      "arabic_sentence": "توقيع اتفاق جوبا للسلام في 3 أكتوبر 2020 (الحكومة، الجبهة الثورية، حركة تحرير السودان-مني مناوي) [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "events.december-revolution-transition#5.en",
+      "revised_english": "Juba Peace Agreement signed 3 October 2020 (Government, SRF, SLM-MM) (UNSC2559 p.2, preamble)",
+      "note": "New peace-milestone event; Arabic drafted, needs native review [يحتاج تحقق]",
+      "action": "review",
+      "origin_commit": "pending",
       "added": "2026-10-25"
     }
   ]
