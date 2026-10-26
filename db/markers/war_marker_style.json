@@ -549,5 +549,10 @@
     "new_colour": "#c0d5e2"
    }
   }
+ },
+ "war_halo_ref": {
+  "see": "db/legends/legend_spec.json war_halo",
+  "applies_to": "wars[].colour hull strokes and spans",
+  "battle_point_halo": "unchanged (#e8e2d0 1.6px)"
  }
 }
