@@ -80,7 +80,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -98,6 +100,7 @@
  ],
  "badges_present": [
   "APPROXIMATE",
+  "NO-SOURCE",
   "SINGLE-SOURCE"
  ],
  "counts": {
@@ -113,6 +116,20 @@
   ],
   "key_events_ar": [
    "أبقار وضأن وماعز مستأنسة في الشهيناب"
+  ],
+  "key_events": [
+   {
+    "event_id": "khartoum-neolithic-shaheinab#0",
+    "en": "Domesticated cattle, sheep and goat at Esh-Shaheinab",
+    "ar": "أبقار وضأن وماعز مستأنسة في الشهيناب",
+    "cite": null,
+    "source_ids": [
+     "WD:Q109284524",
+     "WD:Q109284535"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "WD:Q109284524",
@@ -148,6 +165,7 @@
   "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
   "badge_filter": [
    "APPROXIMATE",
+   "NO-SOURCE",
    "SINGLE-SOURCE"
   ],
   "what_changed": {

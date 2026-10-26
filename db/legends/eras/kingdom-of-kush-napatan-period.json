@@ -604,7 +604,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read in full rates the Napatan economy; Kush gold pages not yet confirmed for this period.",
@@ -634,6 +636,7 @@
   "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -666,6 +669,104 @@
    "أتلانرسا 653–643، سنكامانيسكن 643–623، أنلاماني 623–593، أسبلتا 593–568 ق.م",
    "حملة بسماتيك الثاني تستولي على نبتة (تاريخ أفريقيا العام: 591 ق.م؛ ويُؤرَّخ على نطاق واسع بـ593 ق.م)",
    "المدافن الملكية في الكرو ثم نوري؛ انتقال الدفن إلى مروي نحو 270 ق.م"
+  ],
+  "key_events": [
+   {
+    "event_id": "kingdom-of-kush-napatan-period#0",
+    "en": "Shabaka from c.713 BCE founds 25th Dynasty rule over all Egypt",
+    "ar": "شباكا منذ نحو 713 ق.م يؤسس حكم الأسرة الخامسة والعشرين على مصر كلها",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WELSBY1996",
+     "WHC1073",
+     "WP:Kingdom_of_Kush",
+     "WP:Twenty-fifth_Dynasty_of_Egypt",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "kingdom-of-kush-napatan-period#1",
+    "en": "Shabataka (Shebitku) c.700–690; Taharqa 690–664 BCE (cenotaph/pyramid at Nuri)",
+    "ar": "شبتاكا (شبتكو) نحو 700–690؛ طهارقا 690–664 ق.م (ضريحه الرمزي/هرمه في نوري)",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WELSBY1996",
+     "WHC1073",
+     "WP:Kingdom_of_Kush",
+     "WP:Twenty-fifth_Dynasty_of_Egypt",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "kingdom-of-kush-napatan-period#2",
+    "en": "Tanwetamani (Tanoutamon) 664–c.656; Assyrian sack of Thebes 663; Kushite withdrawal",
+    "ar": "تانوت أماني 664–نحو 656؛ نهب الآشوريين لطيبة 663؛ انسحاب الكوشيين",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WELSBY1996",
+     "WHC1073",
+     "WP:Kingdom_of_Kush",
+     "WP:Twenty-fifth_Dynasty_of_Egypt",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "kingdom-of-kush-napatan-period#3",
+    "en": "Atlanarsa 653–643, Senkamanisken 643–623, Anlamani 623–593, Aspelta 593–568 BCE",
+    "ar": "أتلانرسا 653–643، سنكامانيسكن 643–623، أنلاماني 623–593، أسبلتا 593–568 ق.م",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WELSBY1996",
+     "WHC1073",
+     "WP:Kingdom_of_Kush",
+     "WP:Twenty-fifth_Dynasty_of_Egypt",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "kingdom-of-kush-napatan-period#4",
+    "en": "Psamtik II's expedition captures Napata (GHA: 591 BCE; widely dated 593 BCE)",
+    "ar": "حملة بسماتيك الثاني تستولي على نبتة (تاريخ أفريقيا العام: 591 ق.م؛ ويُؤرَّخ على نطاق واسع بـ593 ق.م)",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WELSBY1996",
+     "WHC1073",
+     "WP:Kingdom_of_Kush",
+     "WP:Twenty-fifth_Dynasty_of_Egypt",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "kingdom-of-kush-napatan-period#5",
+    "en": "Royal burials at El-Kurru then Nuri; burial shift to Meroe c.270 BCE",
+    "ar": "المدافن الملكية في الكرو ثم نوري؛ انتقال الدفن إلى مروي نحو 270 ق.م",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WELSBY1996",
+     "WHC1073",
+     "WP:Kingdom_of_Kush",
+     "WP:Twenty-fifth_Dynasty_of_Egypt",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHA2_CH19",
@@ -725,6 +826,7 @@
    "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

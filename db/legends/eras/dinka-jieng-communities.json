@@ -1924,7 +1924,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1957,6 +1959,7 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED",
   "SINGLE-SOURCE"
  ],
@@ -1984,6 +1987,32 @@
   "key_events_ar": [
    "مجموعة قبائل بلا ملكية مركزية، معظمها في سهول بحر الغزال الفيضية وبعضها شرق النيل الأبيض (هولت وديلي)",
    "رعي الأبقار؛ قريبون ثقافياً من النوير، ويشكلون معهم فرعاً نيلياً [يحتاج تحقق]"
+  ],
+  "key_events": [
+   {
+    "event_id": "dinka-jieng-communities#0",
+    "en": "Group of tribes without central kingship, mostly in Bahr al-Ghazal floodplains, some east of the White Nile (Holt & Daly)",
+    "ar": "مجموعة قبائل بلا ملكية مركزية، معظمها في سهول بحر الغزال الفيضية وبعضها شرق النيل الأبيض (هولت وديلي)",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "GLEICHEN1905_V1"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "dinka-jieng-communities#1",
+    "en": "Cattle pastoralism; culturally close to the Nuer, together a Nilotic subdivision [NO-SOURCE]",
+    "ar": "رعي الأبقار؛ قريبون ثقافياً من النوير، ويشكلون معهم فرعاً نيلياً [يحتاج تحقق]",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "GLEICHEN1905_V1"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "HD2011",
@@ -2017,6 +2046,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED",
    "SINGLE-SOURCE"
   ],

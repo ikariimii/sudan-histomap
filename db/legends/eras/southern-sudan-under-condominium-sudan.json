@@ -1756,7 +1756,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1826,6 +1828,7 @@
   "AR-REVIEW",
   "CONTESTED",
   "FIRST-ATTESTED",
+  "NO-SOURCE",
   "RUIN-UNDATED",
   "SINGLE-SOURCE"
  ],
@@ -1849,19 +1852,77 @@
  "context": {
   "key_events_en": [
    "First Civil War 1955–72",
-   "Second Civil War 1983–2005",
-   "Referendum Jan 2011"
+   "Second Civil War 1983–2005: SPLA formed 1983; CPA signed 9 January 2005",
+   "Referendum on self-determination for Southern Sudan, 9 January 2011"
   ],
   "key_events_ar": [
    "الحرب الأهلية الأولى 1955–1972",
-   "الحرب الأهلية الثانية 1983–2005",
-   "الاستفتاء يناير 2011"
+   "الحرب الأهلية الثانية 1983–2005 [يحتاج تحقق]",
+   "استفتاء تقرير المصير لجنوب السودان 9 يناير 2011 [يحتاج تحقق]"
+  ],
+  "key_events": [
+   {
+    "event_id": "southern-sudan-under-condominium-sudan#0",
+    "en": "First Civil War 1955–72",
+    "ar": "الحرب الأهلية الأولى 1955–1972",
+    "cite": null,
+    "source_ids": [
+     "UNSC1996",
+     "HD2011",
+     "WP:First_Sudanese_Civil_War",
+     "WP:Second_Sudanese_Civil_War"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "southern-sudan-under-condominium-sudan#1",
+    "en": "Second Civil War 1983–2005: SPLA formed 1983; CPA signed 9 January 2005",
+    "ar": "الحرب الأهلية الثانية 1983–2005 [يحتاج تحقق]",
+    "date": 1983,
+    "cite": [
+     {
+      "source_id": "HRW1993_CIVDEV",
+      "pages": "Glossary"
+     },
+     {
+      "source_id": "UNSC1590",
+      "pages": "p.1, preamble para 3"
+     }
+    ],
+    "source_ids": [
+     "HRW1993_CIVDEV",
+     "UNSC1590"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "southern-sudan-under-condominium-sudan#2",
+    "en": "Referendum on self-determination for Southern Sudan, 9 January 2011",
+    "ar": "استفتاء تقرير المصير لجنوب السودان 9 يناير 2011 [يحتاج تحقق]",
+    "date": 2011,
+    "cite": [
+     {
+      "source_id": "UNSG_S2011_413",
+      "pages": "PDF p.2, para 4"
+     }
+    ],
+    "source_ids": [
+     "UNSG_S2011_413"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   }
   ],
   "key_events_source_ids": [
    "UNSC1996",
    "HD2011",
    "WP:First_Sudanese_Civil_War",
-   "WP:Second_Sudanese_Civil_War"
+   "WP:Second_Sudanese_Civil_War",
+   "HRW1993_CIVDEV",
+   "UNSC1590",
+   "UNSG_S2011_413"
   ],
   "dating_note": null,
   "capitals": [
@@ -1901,6 +1962,7 @@
    "AR-REVIEW",
    "CONTESTED",
    "FIRST-ATTESTED",
+   "NO-SOURCE",
    "RUIN-UNDATED",
    "SINGLE-SOURCE"
   ],

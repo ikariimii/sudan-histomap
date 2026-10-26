@@ -1072,7 +1072,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1082,9 +1084,44 @@
     ]
    },
    "cite": null
+  },
+  "border_drafts": {
+   "note": "Historian-signed-off drafts only (properties.signoff.status == approved); not live extents.",
+   "features": [
+    {
+     "file": "db/border_drafts/tunjur-kingdom.geojson",
+     "feature_index": 0,
+     "zone": "core",
+     "confidence": 0.35,
+     "confidence_word": "low",
+     "legend_en": "Draft border (confidence: low 0.35)",
+     "symbol_class": "zone_core",
+     "swatch": {
+      "fill": "#7a6bd0",
+      "fill_opacity": 0.35,
+      "stroke": "solid 1.2px",
+      "confidence_style": "solid",
+      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+     },
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "source_ids": [
+      "GHA4_CH16",
+      "OFAHEY2008"
+     ],
+     "pages": "GHA IV ch.16 pp.420–421",
+     "signoff": {
+      "by": "Sudan Historian",
+      "date": "2026-10-24"
+     }
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "border_draft",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -1107,9 +1144,11 @@
   "EDITORIAL",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
+  "border_draft": 1,
   "city_capital": 11,
   "city_garrison": 3,
   "city_other": 4,
@@ -1132,6 +1171,22 @@
   ],
   "key_events_ar": [
    "حكموا دارفور ووداي قبل الكيرا"
+  ],
+  "key_events": [
+   {
+    "event_id": "tunjur-kingdom#0",
+    "en": "Ruled Darfur and Wadai before the Keira",
+    "ar": "حكموا دارفور ووداي قبل الكيرا",
+    "cite": null,
+    "source_ids": [
+     "WD:Q405860",
+     "OFAHEY2008",
+     "WP:Tunjur_people",
+     "GHA5_CH7"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "WD:Q405860",
@@ -1173,6 +1228,7 @@
    "EDITORIAL",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

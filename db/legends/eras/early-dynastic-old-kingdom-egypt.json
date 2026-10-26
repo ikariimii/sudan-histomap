@@ -195,7 +195,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -219,6 +221,7 @@
   "AR-REVIEW",
   "DERIVED",
   "FIRST-ATTESTED",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -239,6 +242,32 @@
   "key_events_ar": [
    "التوحيد نحو 3100 ق.م",
    "أهرامات الجيزة"
+  ],
+  "key_events": [
+   {
+    "event_id": "early-dynastic-old-kingdom-egypt#0",
+    "en": "Unification c.3100 BCE",
+    "ar": "التوحيد نحو 3100 ق.م",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:Old_Kingdom_of_Egypt"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "early-dynastic-old-kingdom-egypt#1",
+    "en": "Giza pyramids",
+    "ar": "أهرامات الجيزة",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:Old_Kingdom_of_Egypt"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHA2_CH19",
@@ -277,6 +306,7 @@
    "AR-REVIEW",
    "DERIVED",
    "FIRST-ATTESTED",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": null

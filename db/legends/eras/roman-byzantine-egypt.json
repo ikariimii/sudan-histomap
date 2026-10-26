@@ -968,7 +968,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -978,9 +980,73 @@
     ]
    },
    "cite": null
+  },
+  "border_drafts": {
+   "note": "Historian-signed-off drafts only (properties.signoff.status == approved); not live extents.",
+   "features": [
+    {
+     "file": "db/border_drafts/roman-byzantine-egypt.geojson",
+     "feature_index": 0,
+     "zone": "core",
+     "confidence": 0.75,
+     "confidence_word": "high",
+     "legend_en": "Draft border (confidence: high 0.75)",
+     "symbol_class": "zone_core",
+     "swatch": {
+      "fill": "#7a6bd0",
+      "fill_opacity": 0.35,
+      "stroke": "solid 1.2px",
+      "confidence_style": "solid"
+     },
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "source_ids": [
+      "GHA2_CH7"
+     ],
+     "pages": "GHA II ch.7 p.210",
+     "signoff": {
+      "by": "Sudan Historian",
+      "date": "2026-10-24"
+     }
+    },
+    {
+     "file": "db/border_drafts/roman-byzantine-egypt.geojson",
+     "feature_index": 1,
+     "zone": "claimed",
+     "confidence": 0.5,
+     "confidence_word": "medium",
+     "legend_en": "Draft border (confidence: medium 0.5)",
+     "symbol_class": "zone_claimed",
+     "swatch": {
+      "fill": "#7a6bd0",
+      "fill_opacity": 0.18,
+      "stroke": "1.2px",
+      "dash": [
+       4,
+       3
+      ],
+      "confidence_style": "hatched"
+     },
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "source_ids": [
+      "GHA2_CH10",
+      "GHA2_CH7"
+     ],
+     "pages": "GHA II pp.208, 290, 294",
+     "signoff": {
+      "by": "Sudan Historian",
+      "date": "2026-10-24"
+     }
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "border_draft",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -1002,10 +1068,12 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED",
   "SINGLE-SOURCE"
  ],
  "counts": {
+  "border_draft": 2,
   "city_capital": 9,
   "city_garrison": 2,
   "city_other": 5,
@@ -1029,6 +1097,32 @@
   "key_events_ar": [
    "حملة بترونيوس التأديبية تستولي على نبتة 23 ق.م بعد نهب المرويين لأسوان (تاريخ أفريقيا العام، المجلد الثاني)",
    "معاهدة ساموس 21/20 ق.م؛ الحدود عند هيرا سيكامينوس (المحرقة)"
+  ],
+  "key_events": [
+   {
+    "event_id": "roman-byzantine-egypt#0",
+    "en": "Petronius' punitive campaign captures Napata 23 BCE after Meroitic sack of Aswan (GHA II)",
+    "ar": "حملة بترونيوس التأديبية تستولي على نبتة 23 ق.م بعد نهب المرويين لأسوان (تاريخ أفريقيا العام، المجلد الثاني)",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:Egypt_(Roman_province)"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "roman-byzantine-egypt#1",
+    "en": "Treaty of Samos 21/20 BCE; frontier at Hiera Sycaminos (Maharraqa)",
+    "ar": "معاهدة ساموس 21/20 ق.م؛ الحدود عند هيرا سيكامينوس (المحرقة)",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:Egypt_(Roman_province)"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHA2_CH19",
@@ -1071,6 +1165,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED",
    "SINGLE-SOURCE"
   ],

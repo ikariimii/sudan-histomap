@@ -93,7 +93,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -103,9 +105,44 @@
     ]
    },
    "cite": null
+  },
+  "border_drafts": {
+   "note": "Historian-signed-off drafts only (properties.signoff.status == approved); not live extents.",
+   "features": [
+    {
+     "file": "db/border_drafts/a-group-lower-nubia.geojson",
+     "feature_index": 0,
+     "zone": "influence",
+     "confidence": 0.35,
+     "confidence_word": "low",
+     "legend_en": "Draft border (confidence: low 0.35)",
+     "symbol_class": "zone_influence",
+     "swatch": {
+      "fill": "#7a6bd0",
+      "fill_opacity": 0.08,
+      "stroke": "none",
+      "feather": "radial/feathered edge (blur 6px or 3-step inset .08/.05/.02)",
+      "confidence_style": "hatched",
+      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+     },
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "source_ids": [
+      "GHA2_CH9"
+     ],
+     "pages": "GHA II ch.9 pp.245, 249",
+     "signoff": {
+      "by": "Sudan Historian",
+      "date": "2026-10-24"
+     }
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "border_draft",
   "economy_unknown",
   "extent_label_point",
   "low_confidence",
@@ -114,9 +151,11 @@
  "badges_present": [
   "APPROXIMATE",
   "EDITORIAL",
+  "NO-SOURCE",
   "SINGLE-SOURCE"
  ],
  "counts": {
+  "border_draft": 1,
   "economy_unknown": 1,
   "extent_label_point": 1,
   "low_confidence": 1,
@@ -133,6 +172,32 @@
   "key_events_ar": [
    "تجارة مع مصر في عصر ما قبل الأسرات والأسرات المبكرة",
    "جبانة النخبة في قسطل"
+  ],
+  "key_events": [
+   {
+    "event_id": "a-group-lower-nubia#0",
+    "en": "Trade with Predynastic/Early Dynastic Egypt",
+    "ar": "تجارة مع مصر في عصر ما قبل الأسرات والأسرات المبكرة",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:A-Group_culture"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "a-group-lower-nubia#1",
+    "en": "Qustul elite cemetery",
+    "ar": "جبانة النخبة في قسطل",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:A-Group_culture"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHA2_CH19",
@@ -169,6 +234,7 @@
   "badge_filter": [
    "APPROXIMATE",
    "EDITORIAL",
+   "NO-SOURCE",
    "SINGLE-SOURCE"
   ],
   "what_changed": {

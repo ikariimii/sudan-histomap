@@ -1514,7 +1514,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read assesses the Mahdist economy.",
@@ -1547,6 +1549,7 @@
   "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -1577,6 +1580,56 @@
    "سقوط الخرطوم ومقتل غوردون 1885 (SFDAS_HCS2017 p.567)",
    "حكم الخليفة عبد الله (SFDAS_HCS2017 p.621)",
    "معركة أم درمان 1898؛ أم دبيكرات 1899 [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (Omdurman) 1898; end of Khalifa Abdallahi, November 1899 (SFDAS_HCS2017 pp.629, 639)"
+  ],
+  "key_events": [
+   {
+    "event_id": "mahdist-state-mahdiyya#0",
+    "en": "Muhammad Ahmad declares himself Mahdi 1881 (SFDAS_HCS2017 p.613)",
+    "ar": "محمد أحمد يعلن نفسه المهدي 1881 (SFDAS_HCS2017 p.613)",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "mahdist-state-mahdiyya#1",
+    "en": "Fall of Khartoum, death of Gordon 1885 (SFDAS_HCS2017 p.567)",
+    "ar": "سقوط الخرطوم ومقتل غوردون 1885 (SFDAS_HCS2017 p.567)",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "mahdist-state-mahdiyya#2",
+    "en": "Khalifa Abdallahi rules (SFDAS_HCS2017 p.621)",
+    "ar": "حكم الخليفة عبد الله (SFDAS_HCS2017 p.621)",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "mahdist-state-mahdiyya#3",
+    "en": "Battle of Karari (Omdurman) 1898; end of Khalifa Abdallahi, November 1899 (SFDAS_HCS2017 pp.629, 639)",
+    "ar": "معركة أم درمان 1898؛ أم دبيكرات 1899 [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (Omdurman) 1898; end of Khalifa Abdallahi, November 1899 (SFDAS_HCS2017 pp.629, 639)",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "HD2011",
@@ -1617,6 +1670,7 @@
    "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

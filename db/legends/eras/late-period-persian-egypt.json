@@ -339,7 +339,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -366,6 +368,7 @@
   "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -385,6 +388,20 @@
   ],
   "key_events_ar": [
    "الأسرة السادسة والعشرون؛ حملة بسماتيك الثاني تستولي على نبتة (تاريخ أفريقيا العام، المجلد الثاني: 591 ق.م؛ وكثيراً ما تُؤرَّخ بـ593 ق.م)"
+  ],
+  "key_events": [
+   {
+    "event_id": "late-period-persian-egypt#0",
+    "en": "26th Dynasty; Psamtik II's expedition takes Napata (GHA II: 591 BCE; often 593 BCE)",
+    "ar": "الأسرة السادسة والعشرون؛ حملة بسماتيك الثاني تستولي على نبتة (تاريخ أفريقيا العام، المجلد الثاني: 591 ق.م؛ وكثيراً ما تُؤرَّخ بـ593 ق.م)",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:Late_Period_of_ancient_Egypt"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHA2_CH19",
@@ -425,6 +442,7 @@
    "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

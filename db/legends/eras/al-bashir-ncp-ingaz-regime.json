@@ -1806,10 +1806,12 @@
   },
   "economy": {
    "file": "db/era_economy.json",
-   "rating": "unknown",
-   "symbol_class": "economy_unknown",
-   "badges": [],
-   "editorial_marker": false,
+   "rating": "mixed",
+   "symbol_class": "economy_mixed",
+   "badges": [
+    "EDITORIAL"
+   ],
+   "editorial_marker": true,
    "rating_basis_en": {
     "value": "Editorial reading: oil exports from 1999 (ZH_YU2008) against rising debt (AR_SUDANILE2013) and the 2011 loss of southern oil, which deepened the slump that sparked the 2018–19 revolution (era text, 'ICG').",
     "cite": "ICG2019",
@@ -1818,7 +1820,7 @@
     ],
     "note": "Era text writes 'ICG'; ICG2019 is the only ICG id in its sources."
    },
-   "cite": null
+   "cite": "ICG2019"
   },
   "trade_routes": {
    "file": "db/trade_routes/al-bashir-ncp-ingaz-regime.geojson",
@@ -1848,7 +1850,8 @@
   "contested_point",
   "control_extent",
   "control_extent_approx",
-  "economy_unknown",
+  "economy_editorial_marker",
+  "economy_mixed",
   "flag",
   "list_only_text",
   "trade_route"
@@ -1859,6 +1862,7 @@
   "AR-REVIEW",
   "CONTESTED",
   "DERIVED",
+  "EDITORIAL",
   "FIRST-ATTESTED",
   "RUIN-UNDATED"
  ],
@@ -1874,7 +1878,8 @@
   "contested_point": 3,
   "control_extent": 1,
   "control_extent_approx": 2,
-  "economy_unknown": 1,
+  "economy_editorial_marker": 1,
+  "economy_mixed": 1,
   "flag": 1,
   "list_only_text": 1,
   "trade_route": 1,
@@ -1885,15 +1890,87 @@
  "context": {
   "key_events_en": [
    "30 June 1989 coup (SFDAS_HCS2017 p.731)",
-   "Darfur conflict: escalation from 2003 (UNSC_S2005_60 PDF p.29); ICC arrest warrant for President al-Bashir, March 2009 (UN_NEWS_2009_292942)",
+   "Darfur conflict: incidents from February 2003; ICC arrest warrant for President al-Bashir, 4 March 2009",
    "Comprehensive Peace Agreement 2005 (CPA_2005 cover letter p.1)",
    "South Sudan secedes 9 July 2011 (UNSC1996 p.1)"
   ],
   "key_events_ar": [
    "انقلاب 30 يونيو 1989 (SFDAS_HCS2017 p.731)",
-   "حرب دارفور منذ 2003؛ مذكرات المحكمة الجنائية الدولية 2009 [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (UNSC_S2005_60 PDF p.29; UN_NEWS_2009_292942)",
+   "نزاع دارفور منذ فبراير 2003؛ مذكرة توقيف من المحكمة الجنائية الدولية بحق البشير 4 مارس 2009 [يحتاج تحقق]",
    "اتفاقية السلام الشامل 2005 (CPA_2005 cover letter p.1)",
    "انفصال جنوب السودان 9 يوليو 2011 (UNSC1996 p.1)"
+  ],
+  "key_events": [
+   {
+    "event_id": "al-bashir-ncp-ingaz-regime#0",
+    "en": "30 June 1989 coup (SFDAS_HCS2017 p.731)",
+    "ar": "انقلاب 30 يونيو 1989 (SFDAS_HCS2017 p.731)",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "SFDAS_HCS2017",
+     "CPA_2005",
+     "UNSC1996",
+     "UNSC_S2005_60",
+     "UN_NEWS_2009_292942"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "al-bashir-ncp-ingaz-regime#1",
+    "en": "Darfur conflict: incidents from February 2003; ICC arrest warrant for President al-Bashir, 4 March 2009",
+    "ar": "نزاع دارفور منذ فبراير 2003؛ مذكرة توقيف من المحكمة الجنائية الدولية بحق البشير 4 مارس 2009 [يحتاج تحقق]",
+    "date": 2003,
+    "cite": [
+     {
+      "source_id": "UNSC_S2005_60",
+      "pages": "PDF p.2"
+     },
+     {
+      "source_id": "UN_NEWS_2009_292942",
+      "pages": "web article, para 1"
+     }
+    ],
+    "source_ids": [
+     "UNSC_S2005_60",
+     "UN_NEWS_2009_292942"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "al-bashir-ncp-ingaz-regime#2",
+    "en": "Comprehensive Peace Agreement 2005 (CPA_2005 cover letter p.1)",
+    "ar": "اتفاقية السلام الشامل 2005 (CPA_2005 cover letter p.1)",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "SFDAS_HCS2017",
+     "CPA_2005",
+     "UNSC1996",
+     "UNSC_S2005_60",
+     "UN_NEWS_2009_292942"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "al-bashir-ncp-ingaz-regime#3",
+    "en": "South Sudan secedes 9 July 2011 (UNSC1996 p.1)",
+    "ar": "انفصال جنوب السودان 9 يوليو 2011 (UNSC1996 p.1)",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "SFDAS_HCS2017",
+     "CPA_2005",
+     "UNSC1996",
+     "UNSC_S2005_60",
+     "UN_NEWS_2009_292942"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "HD2011",
@@ -1936,6 +2013,7 @@
    "AR-REVIEW",
    "CONTESTED",
    "DERIVED",
+   "EDITORIAL",
    "FIRST-ATTESTED",
    "RUIN-UNDATED"
   ],

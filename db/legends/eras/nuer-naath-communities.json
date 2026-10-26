@@ -1906,7 +1906,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1939,6 +1941,7 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED",
   "SINGLE-SOURCE"
  ],
@@ -1968,6 +1971,41 @@
    "يسمّون أنفسهم «ناث»؛ نحو 200,000 نسمة في ثلاثينيات القرن العشرين [يحتاج تحقق]",
    "المستنقعات والسافانا على جانبي النيل جنوب ملتقى السوباط وبحر الغزال وعلى ضفتي الرافدين",
    "تنقل موسمي بين القرى ومعسكرات الماشية في موسم الجفاف"
+  ],
+  "key_events": [
+   {
+    "event_id": "nuer-naath-communities#0",
+    "en": "Self-name Nath; c.200,000 people in the 1930s [NO-SOURCE]",
+    "ar": "يسمّون أنفسهم «ناث»؛ نحو 200,000 نسمة في ثلاثينيات القرن العشرين [يحتاج تحقق]",
+    "cite": null,
+    "source_ids": [
+     "GLEICHEN1905_V1"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "nuer-naath-communities#1",
+    "en": "Swamps and savannah on both sides of the Nile south of the Sobat/Bahr al-Ghazal junction and along both tributaries",
+    "ar": "المستنقعات والسافانا على جانبي النيل جنوب ملتقى السوباط وبحر الغزال وعلى ضفتي الرافدين",
+    "cite": null,
+    "source_ids": [
+     "GLEICHEN1905_V1"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "nuer-naath-communities#2",
+    "en": "Seasonal movement between villages and dry-season cattle camps",
+    "ar": "تنقل موسمي بين القرى ومعسكرات الماشية في موسم الجفاف",
+    "cite": null,
+    "source_ids": [
+     "GLEICHEN1905_V1"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GLEICHEN1905_V1"
@@ -2000,6 +2038,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED",
    "SINGLE-SOURCE"
   ],

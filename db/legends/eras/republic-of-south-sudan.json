@@ -1747,10 +1747,12 @@
   },
   "economy": {
    "file": "db/era_economy.json",
-   "rating": "unknown",
-   "symbol_class": "economy_unknown",
-   "badges": [],
-   "editorial_marker": false,
+   "rating": "bad",
+   "symbol_class": "economy_bad",
+   "badges": [
+    "EDITORIAL"
+   ],
+   "editorial_marker": true,
    "rating_basis_en": {
     "value": "Editorial reading of WB_SSD_OVERVIEW2026: output fell after the DAR pipeline shutdown, FY25 inflation averaged 234%, salary arrears reached 8–13 months and extreme poverty rose to 87%.",
     "cite": "WB_SSD_OVERVIEW2026",
@@ -1758,7 +1760,7 @@
      "EDITORIAL"
     ]
    },
-   "cite": null
+   "cite": "WB_SSD_OVERVIEW2026"
   }
  },
  "symbol_classes_present": [
@@ -1772,7 +1774,8 @@
   "contested_boundary_line",
   "contested_point",
   "control_extent",
-  "economy_unknown",
+  "economy_bad",
+  "economy_editorial_marker",
   "flag"
  ],
  "badges_present": [
@@ -1780,6 +1783,7 @@
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "EDITORIAL",
   "FIRST-ATTESTED",
   "RUIN-UNDATED"
  ],
@@ -1794,7 +1798,8 @@
   "contested_boundary_line": 3,
   "contested_point": 3,
   "control_extent": 1,
-  "economy_unknown": 1,
+  "economy_bad": 1,
+  "economy_editorial_marker": 1,
   "flag": 1,
   "extent_features": 7,
   "group_features": 0,
@@ -1803,15 +1808,86 @@
  "context": {
   "key_events_en": [
    "Independence 9 July 2011; UNMISS created by UNSC res. 1996 (8 Jul 2011)",
-   "Civil war from 15 Dec 2013 (ICG 2014)",
-   "R-ARCSS signed 12 Sep 2018",
+   "Civil war from 15 December 2013 (CONTESTED)",
+   "Revitalised Agreement on the Resolution of the Conflict in South Sudan (R-ARCSS), 2018",
    "Revitalised Transitional Government of National Unity formed 22 Feb 2020 (ACCORD)"
   ],
   "key_events_ar": [
-   "الاستقلال 9 يوليو 2011؛ إنشاء بعثة أونميس بقرار مجلس الأمن 1996 (8 يوليو 2011)",
-   "الحرب الأهلية منذ 15 ديسمبر 2013 (مجموعة الأزمات الدولية 2014)",
-   "توقيع الاتفاقية المنشطة لحل النزاع في جنوب السودان 12 سبتمبر 2018",
+   "الاستقلال 9 يوليو 2011؛ إنشاء بعثة أونميس بالقرار 1996 (8 يوليو 2011) [يحتاج تحقق]",
+   "الحرب الأهلية منذ 15 ديسمبر 2013 (متنازع عليه) [يحتاج تحقق]",
+   "الاتفاق المنشط لحل النزاع في جنوب السودان 2018 [يحتاج تحقق]",
    "تشكيل حكومة الوحدة الوطنية الانتقالية المنشطة 22 فبراير 2020 (أكورد)"
+  ],
+  "key_events": [
+   {
+    "event_id": "republic-of-south-sudan#0",
+    "en": "Independence 9 July 2011; UNMISS created by UNSC res. 1996 (8 Jul 2011)",
+    "ar": "الاستقلال 9 يوليو 2011؛ إنشاء بعثة أونميس بالقرار 1996 (8 يوليو 2011) [يحتاج تحقق]",
+    "date": 2011,
+    "cite": [
+     {
+      "source_id": "UNSC1996",
+      "pages": "p.1 preamble; p.3 op. para 1"
+     }
+    ],
+    "source_ids": [
+     "UNSC1996"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "republic-of-south-sudan#1",
+    "en": "Civil war from 15 December 2013 (CONTESTED)",
+    "ar": "الحرب الأهلية منذ 15 ديسمبر 2013 (متنازع عليه) [يحتاج تحقق]",
+    "date": 2013,
+    "cite": [
+     {
+      "source_id": "UNMISS_HRR2014",
+      "pages": "PDF p.10, para 1"
+     }
+    ],
+    "source_ids": [
+     "UNMISS_HRR2014"
+    ],
+    "badges": [
+     "CONTESTED"
+    ],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "republic-of-south-sudan#2",
+    "en": "Revitalised Agreement on the Resolution of the Conflict in South Sudan (R-ARCSS), 2018",
+    "ar": "الاتفاق المنشط لحل النزاع في جنوب السودان 2018 [يحتاج تحقق]",
+    "date": 2018,
+    "cite": [
+     {
+      "source_id": "UNSC2459",
+      "pages": "p.1, preamble"
+     }
+    ],
+    "source_ids": [
+     "UNSC2459"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "republic-of-south-sudan#3",
+    "en": "Revitalised Transitional Government of National Unity formed 22 Feb 2020 (ACCORD)",
+    "ar": "تشكيل حكومة الوحدة الوطنية الانتقالية المنشطة 22 فبراير 2020 (أكورد)",
+    "cite": null,
+    "source_ids": [
+     "UNSC1996",
+     "ICG2014",
+     "RARCSS2018",
+     "ACCORD2020",
+     "WP:South_Sudan",
+     "WP:South_Sudanese_Civil_War"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "UNSC1996",
@@ -1819,7 +1895,9 @@
    "RARCSS2018",
    "ACCORD2020",
    "WP:South_Sudan",
-   "WP:South_Sudanese_Civil_War"
+   "WP:South_Sudanese_Civil_War",
+   "UNMISS_HRR2014",
+   "UNSC2459"
   ],
   "dating_note": null,
   "capitals": [
@@ -1852,6 +1930,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "EDITORIAL",
    "FIRST-ATTESTED",
    "RUIN-UNDATED"
   ],

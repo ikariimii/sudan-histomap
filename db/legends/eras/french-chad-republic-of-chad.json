@@ -1801,7 +1801,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1837,6 +1839,7 @@
   "CONTESTED",
   "DERIVED",
   "FIRST-ATTESTED",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -1862,16 +1865,57 @@
  "context": {
   "key_events_en": [
    "Independence 1960",
-   "Hosts Sudanese refugees from 2003 and 2023"
+   "Hosts Sudanese refugees from Darfur (2004/05) and again in 2023 (REPORTED for 2023)"
   ],
   "key_events_ar": [
    "الاستقلال 1960",
-   "تستضيف لاجئين سودانيين منذ 2003 و2023"
+   "يستضيف لاجئين سودانيين من دارفور ومجددًا في 2023 [يحتاج تحقق]"
+  ],
+  "key_events": [
+   {
+    "event_id": "french-chad-republic-of-chad#0",
+    "en": "Independence 1960",
+    "ar": "الاستقلال 1960",
+    "cite": null,
+    "source_ids": [
+     "GHA7_CH17",
+     "GHA8",
+     "WP:Chad"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "french-chad-republic-of-chad#1",
+    "en": "Hosts Sudanese refugees from Darfur (2004/05) and again in 2023 (REPORTED for 2023)",
+    "ar": "يستضيف لاجئين سودانيين من دارفور ومجددًا في 2023 [يحتاج تحقق]",
+    "date": 2003,
+    "cite": [
+     {
+      "source_id": "UNSC_S2005_60",
+      "pages": "PDF p.3"
+     },
+     {
+      "source_id": "UNPOE_S2024_65",
+      "pages": "PDF p.15"
+     }
+    ],
+    "source_ids": [
+     "UNSC_S2005_60",
+     "UNPOE_S2024_65"
+    ],
+    "badges": [
+     "REPORTED"
+    ],
+    "origin": "db/era_events_post1956.json"
+   }
   ],
   "key_events_source_ids": [
    "GHA7_CH17",
    "GHA8",
-   "WP:Chad"
+   "WP:Chad",
+   "UNSC_S2005_60",
+   "UNPOE_S2024_65"
   ],
   "dating_note": null,
   "capitals": [
@@ -1914,6 +1958,7 @@
    "CONTESTED",
    "DERIVED",
    "FIRST-ATTESTED",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

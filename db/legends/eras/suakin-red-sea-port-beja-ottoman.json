@@ -1843,7 +1843,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1875,6 +1877,7 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -1900,6 +1903,32 @@
   "key_events_ar": [
    "ميناء ولاية الحبش العثمانية منذ القرن السادس عشر",
    "حلّت محلها بورتسودان (افتُتحت 1909)"
+  ],
+  "key_events": [
+   {
+    "event_id": "suakin-red-sea-port-beja-ottoman#0",
+    "en": "Ottoman Habesh province port from 16th c.",
+    "ar": "ميناء ولاية الحبش العثمانية منذ القرن السادس عشر",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "WP:Suakin"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "suakin-red-sea-port-beja-ottoman#1",
+    "en": "Superseded by Port Sudan (opened 1909)",
+    "ar": "حلّت محلها بورتسودان (افتُتحت 1909)",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "WP:Suakin"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "HD2011",
@@ -1942,6 +1971,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

@@ -622,7 +622,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -632,9 +634,77 @@
     ]
    },
    "cite": null
+  },
+  "border_drafts": {
+   "note": "Historian-signed-off drafts only (properties.signoff.status == approved); not live extents.",
+   "features": [
+    {
+     "file": "db/border_drafts/ptolemaic-egypt.geojson",
+     "feature_index": 0,
+     "zone": "core",
+     "confidence": 0.75,
+     "confidence_word": "high",
+     "legend_en": "Draft border (confidence: high 0.75)",
+     "symbol_class": "zone_core",
+     "swatch": {
+      "fill": "#7a6bd0",
+      "fill_opacity": 0.35,
+      "stroke": "solid 1.2px",
+      "confidence_style": "solid"
+     },
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "source_ids": [
+      "GHA2_CH6",
+      "GHA2_CH7"
+     ],
+     "pages": "GHA II pp.184, 208",
+     "signoff": {
+      "by": "Sudan Historian",
+      "date": "2026-10-24"
+     }
+    },
+    {
+     "file": "db/border_drafts/ptolemaic-egypt.geojson",
+     "feature_index": 1,
+     "zone": "contested",
+     "confidence": 0.4,
+     "confidence_word": "medium",
+     "legend_en": "Draft border (confidence: medium 0.4)",
+     "symbol_class": "zone_contested",
+     "swatch": {
+      "fill": "#e0a63e",
+      "fill_opacity": 0.6,
+      "stroke": "#e0a63e",
+      "dash": [
+       4,
+       3
+      ],
+      "confidence_style": "contested",
+      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+     },
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED"
+     ],
+     "source_ids": [
+      "GHA2_CH7",
+      "GHA2_CH6",
+      "GHA2_CH10"
+     ],
+     "pages": "GHA II pp.203, 208, 288",
+     "signoff": {
+      "by": "Sudan Historian",
+      "date": "2026-10-24"
+     }
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "border_draft",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -655,9 +725,11 @@
   "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
+  "border_draft": 2,
   "city_capital": 3,
   "city_garrison": 1,
   "city_other": 4,
@@ -679,6 +751,20 @@
   ],
   "key_events_ar": [
    "أسرة يونانية؛ صلات مع مروي"
+  ],
+  "key_events": [
+   {
+    "event_id": "ptolemaic-egypt#0",
+    "en": "Greek dynasty; contacts with Meroe",
+    "ar": "أسرة يونانية؛ صلات مع مروي",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:Ptolemaic_Kingdom"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHA2_CH19",
@@ -720,6 +806,7 @@
    "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

@@ -1616,7 +1616,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read covers economic policy under Abboud.",
@@ -1646,6 +1648,7 @@
   "AR-REVIEW",
   "CONTESTED",
   "FIRST-ATTESTED",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -1665,17 +1668,60 @@
  },
  "context": {
   "key_events_en": [
-   "Coup Nov 1958",
-   "October Revolution 1964 ends rule"
+   "Coup November 1958 (General Ibrahim Abbud)",
+   "October Revolution 1964 ends Abboud rule"
   ],
   "key_events_ar": [
-   "انقلاب نوفمبر 1958",
-   "ثورة أكتوبر 1964 تنهي الحكم"
+   "انقلاب نوفمبر 1958 (الفريق إبراهيم عبود) [يحتاج تحقق]",
+   "ثورة أكتوبر 1964 تنهي حكم عبود [يحتاج تحقق]"
+  ],
+  "key_events": [
+   {
+    "event_id": "abboud-military-regime#0",
+    "en": "Coup November 1958 (General Ibrahim Abbud)",
+    "ar": "انقلاب نوفمبر 1958 (الفريق إبراهيم عبود) [يحتاج تحقق]",
+    "date": 1958,
+    "cite": [
+     {
+      "source_id": "UNSC_S2005_60",
+      "pages": "PDF p.19, para 44"
+     }
+    ],
+    "source_ids": [
+     "UNSC_S2005_60"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "abboud-military-regime#1",
+    "en": "October Revolution 1964 ends Abboud rule",
+    "ar": "ثورة أكتوبر 1964 تنهي حكم عبود [يحتاج تحقق]",
+    "date": 1964,
+    "cite": [
+     {
+      "source_id": "UNSC_S2005_60",
+      "pages": "PDF p.19, para 44"
+     },
+     {
+      "source_id": "LOC1991_CIVIL6469",
+      "pages": "web page 'Return to Civilian Rule, 1964-69' (https://countrystudies.us/sudan/22.htm), para 1 (no page numbers)"
+     }
+    ],
+    "source_ids": [
+     "UNSC_S2005_60",
+     "LOC1991_CIVIL6469"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   }
   ],
   "key_events_source_ids": [
    "HD2011",
    "WP:Ibrahim_Abboud",
-   "WP:October_1964_Revolution"
+   "WP:October_1964_Revolution",
+   "UNSC_S2005_60",
+   "LOC1991_CIVIL6469"
   ],
   "dating_note": null,
   "capitals": [
@@ -1709,6 +1755,7 @@
    "AR-REVIEW",
    "CONTESTED",
    "FIRST-ATTESTED",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

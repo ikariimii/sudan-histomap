@@ -37,7 +37,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -52,7 +54,9 @@
  "symbol_classes_present": [
   "economy_unknown"
  ],
- "badges_present": [],
+ "badges_present": [
+  "NO-SOURCE"
+ ],
  "counts": {
   "economy_unknown": 1,
   "extent_features": 0,
@@ -67,6 +71,30 @@
   "key_events_ar": [
    "فخار الخطوط المتموجة من أقدم الفخار في أفريقيا",
    "مستوطنات صيد الأسماك والقنص على ضفاف النيل قرب الخرطوم"
+  ],
+  "key_events": [
+   {
+    "event_id": "khartoum-mesolithic-early-khartoum#0",
+    "en": "Wavy-line pottery among the earliest ceramics in Africa",
+    "ar": "فخار الخطوط المتموجة من أقدم الفخار في أفريقيا",
+    "cite": null,
+    "source_ids": [
+     "AAR2021"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "khartoum-mesolithic-early-khartoum#1",
+    "en": "Fishing/hunting settlements along the Nile near Khartoum",
+    "ar": "مستوطنات صيد الأسماك والقنص على ضفاف النيل قرب الخرطوم",
+    "cite": null,
+    "source_ids": [
+     "AAR2021"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "AAR2021"
@@ -93,7 +121,9 @@
    "graticule"
   ],
   "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
-  "badge_filter": [],
+  "badge_filter": [
+   "NO-SOURCE"
+  ],
   "what_changed": null
  }
 }

@@ -1839,9 +1839,11 @@
   },
   "economy": {
    "file": "db/era_economy.json",
-   "rating": "unknown",
-   "symbol_class": "economy_unknown",
-   "badges": [],
+   "rating": "bad",
+   "symbol_class": "economy_bad",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "World Bank MPO Oct 2026: 'severe economic contraction'; real GDP -29.4% in 2023 and -14.0% in 2024.",
@@ -1850,7 +1852,7 @@
      "SINGLE-SOURCE"
     ]
    },
-   "cite": null
+   "cite": "WB_MPO_SDN_OCT2026"
   }
  },
  "symbol_classes_present": [
@@ -1865,7 +1867,7 @@
   "contested_point",
   "control_extent",
   "control_extent_approx",
-  "economy_unknown",
+  "economy_bad",
   "flag",
   "list_only_text",
   "reported_point"
@@ -1878,7 +1880,8 @@
   "DERIVED",
   "FIRST-ATTESTED",
   "REPORTED",
-  "RUIN-UNDATED"
+  "RUIN-UNDATED",
+  "SINGLE-SOURCE"
  ],
  "counts": {
   "city_capital": 15,
@@ -1892,7 +1895,7 @@
   "contested_point": 3,
   "control_extent": 1,
   "control_extent_approx": 1,
-  "economy_unknown": 1,
+  "economy_bad": 1,
   "flag": 1,
   "list_only_text": 2,
   "reported_point": 2,
@@ -1902,24 +1905,75 @@
  },
  "context": {
   "key_events_en": [
-   "Fighting erupts 15 April 2023",
-   "",
-   "",
-   "Jeddah Declaration on protection of civilians, 11 May 2023",
-   ""
+   "Fighting between SAF and RSF starts 15 April 2023 in Khartoum (REPORTED)",
+   "Jeddah Declaration of Commitment to Protect the Civilians of Sudan, 11 May 2023 (REPORTED)",
+   "Jeddah Declaration on protection of civilians, 11 May 2023"
   ],
   "key_events_ar": [
-   "اندلاع القتال 15 أبريل 2023",
-   "",
-   "",
-   "إعلان جدة لحماية المدنيين، 11 مايو 2023",
-   ""
+   "اندلاع القتال بين القوات المسلحة والدعم السريع في الخرطوم 15 أبريل 2023 (مُبلَّغ عنه) [يحتاج تحقق]",
+   "إعلان جدة للالتزام بحماية المدنيين 11 مايو 2023 (مُبلَّغ عنه) [يحتاج تحقق]",
+   "إعلان جدة لحماية المدنيين، 11 مايو 2023"
+  ],
+  "key_events": [
+   {
+    "event_id": "war-in-sudan-saf-vs-rsf#0",
+    "en": "Fighting between SAF and RSF starts 15 April 2023 in Khartoum (REPORTED)",
+    "ar": "اندلاع القتال بين القوات المسلحة والدعم السريع في الخرطوم 15 أبريل 2023 (مُبلَّغ عنه) [يحتاج تحقق]",
+    "date": 2023,
+    "cite": [
+     {
+      "source_id": "UNPOE_S2024_65",
+      "pages": "PDF p.5, para 4"
+     }
+    ],
+    "source_ids": [
+     "UNPOE_S2024_65"
+    ],
+    "badges": [
+     "REPORTED"
+    ],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "war-in-sudan-saf-vs-rsf#1",
+    "en": "Jeddah Declaration of Commitment to Protect the Civilians of Sudan, 11 May 2023 (REPORTED)",
+    "ar": "إعلان جدة للالتزام بحماية المدنيين 11 مايو 2023 (مُبلَّغ عنه) [يحتاج تحقق]",
+    "date": 2023,
+    "cite": [
+     {
+      "source_id": "UNPOE_S2024_65",
+      "pages": "PDF p.37, para 133"
+     }
+    ],
+    "source_ids": [
+     "UNPOE_S2024_65"
+    ],
+    "badges": [
+     "REPORTED"
+    ],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "war-in-sudan-saf-vs-rsf#3",
+    "en": "Jeddah Declaration on protection of civilians, 11 May 2023",
+    "ar": "إعلان جدة لحماية المدنيين، 11 مايو 2023",
+    "cite": null,
+    "source_ids": [
+     "UNNEWS2023",
+     "UNSC_SC15257",
+     "JEDDAH2023",
+     "WP:Sudanese_civil_war_(2023–present)"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "UNNEWS2023",
    "UNSC_SC15257",
    "JEDDAH2023",
-   "WP:Sudanese_civil_war_(2023–present)"
+   "WP:Sudanese_civil_war_(2023–present)",
+   "UNPOE_S2024_65"
   ],
   "dating_note": "Ongoing; end=present.",
   "capitals": [
@@ -1955,7 +2009,8 @@
    "DERIVED",
    "FIRST-ATTESTED",
    "REPORTED",
-   "RUIN-UNDATED"
+   "RUIN-UNDATED",
+   "SINGLE-SOURCE"
   ],
   "what_changed": {
    "previous_era_id": "december-revolution-transition",

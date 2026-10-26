@@ -1734,7 +1734,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1767,6 +1769,7 @@
   "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -1791,6 +1794,20 @@
   ],
   "key_events_ar": [
    "شريكا الحكم الثنائي في السودان 1899"
+  ],
+  "key_events": [
+   {
+    "event_id": "british-occupied-kingdom-of-egypt#0",
+    "en": "Co-domini of Sudan 1899",
+    "ar": "شريكا الحكم الثنائي في السودان 1899",
+    "cite": null,
+    "source_ids": [
+     "GHA7_CH17",
+     "WP:Kingdom_of_Egypt"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHA7_CH17",
@@ -1831,6 +1848,7 @@
    "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

@@ -1775,9 +1775,11 @@
   },
   "economy": {
    "file": "db/era_economy.json",
-   "rating": "unknown",
-   "symbol_class": "economy_unknown",
-   "badges": [],
+   "rating": "bad",
+   "symbol_class": "economy_bad",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "ICG2019 describes a 'crushing economic crisis'; inflation reached 342% y-o-y in Mar 2021 (IMF_CR21143 para 6).",
@@ -1786,7 +1788,7 @@
      "SINGLE-SOURCE"
     ]
    },
-   "cite": null
+   "cite": "ICG2019"
   }
  },
  "symbol_classes_present": [
@@ -1801,7 +1803,7 @@
   "contested_point",
   "control_extent",
   "control_extent_approx",
-  "economy_unknown",
+  "economy_bad",
   "flag"
  ],
  "badges_present": [
@@ -1811,7 +1813,8 @@
   "CONTESTED",
   "DERIVED",
   "FIRST-ATTESTED",
-  "RUIN-UNDATED"
+  "RUIN-UNDATED",
+  "SINGLE-SOURCE"
  ],
  "counts": {
   "city_capital": 15,
@@ -1825,7 +1828,7 @@
   "contested_point": 3,
   "control_extent": 1,
   "control_extent_approx": 1,
-  "economy_unknown": 1,
+  "economy_bad": 1,
   "flag": 1,
   "extent_features": 8,
   "group_features": 0,
@@ -1833,25 +1836,109 @@
  },
  "context": {
   "key_events_en": [
-   "Protests from Dec 2018; Bashir ousted 11 Apr 2019",
-   "Sovereignty Council; PM Abdalla Hamdok",
+   "December 2018 revolution",
+   "Constitutional Document signed 17 August 2019",
    "Military coup 25 Oct 2021",
-   "Constitutional Document signed 17 Aug 2019; Hamdok PM; cabinet 8 Sep 2019 (ICG)",
+   "UNITAMS created by UNSC res. 2524, 3 June 2020",
    "UNITAMS created by UNSC res. 2524, 3 Jun 2020"
   ],
   "key_events_ar": [
-   "احتجاجات منذ ديسمبر 2018؛ الإطاحة بالبشير 11 أبريل 2019",
-   "مجلس السيادة؛ رئيس الوزراء عبد الله حمدوك",
+   "ثورة ديسمبر 2018 [يحتاج تحقق]",
+   "توقيع الوثيقة الدستورية 17 أغسطس 2019 [يحتاج تحقق]",
    "الانقلاب العسكري 25 أكتوبر 2021",
-   "توقيع الوثيقة الدستورية 17 أغسطس 2019؛ حمدوك رئيساً للوزراء؛ تشكيل الحكومة 8 سبتمبر 2019 (مجموعة الأزمات الدولية)",
+   "إنشاء بعثة يونيتامس بقرار مجلس الأمن 2524، 3 يونيو 2020 [يحتاج تحقق]",
    "إنشاء بعثة يونيتامس بقرار مجلس الأمن 2524، 3 يونيو 2020"
+  ],
+  "key_events": [
+   {
+    "event_id": "december-revolution-transition#0",
+    "en": "December 2018 revolution",
+    "ar": "ثورة ديسمبر 2018 [يحتاج تحقق]",
+    "date": 2018,
+    "cite": [
+     {
+      "source_id": "UNPOE_S2024_65",
+      "pages": "PDF p.30"
+     }
+    ],
+    "source_ids": [
+     "UNPOE_S2024_65"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "december-revolution-transition#1",
+    "en": "Constitutional Document signed 17 August 2019",
+    "ar": "توقيع الوثيقة الدستورية 17 أغسطس 2019 [يحتاج تحقق]",
+    "date": 2019,
+    "cite": [
+     {
+      "source_id": "UNSC2524",
+      "pages": "p.1, preamble"
+     }
+    ],
+    "source_ids": [
+     "UNSC2524"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "december-revolution-transition#2",
+    "en": "Military coup 25 Oct 2021",
+    "ar": "الانقلاب العسكري 25 أكتوبر 2021",
+    "cite": null,
+    "source_ids": [
+     "ICG2019",
+     "ICG2021",
+     "UNSC2524",
+     "WP:Sudanese_revolution",
+     "WP:2021_Sudanese_coup_d'état"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "december-revolution-transition#3",
+    "en": "UNITAMS created by UNSC res. 2524, 3 June 2020",
+    "ar": "إنشاء بعثة يونيتامس بقرار مجلس الأمن 2524، 3 يونيو 2020 [يحتاج تحقق]",
+    "date": 2020,
+    "cite": [
+     {
+      "source_id": "UNSC2524",
+      "pages": "p.1 header; p.3 op. para 1"
+     }
+    ],
+    "source_ids": [
+     "UNSC2524"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "december-revolution-transition#4",
+    "en": "UNITAMS created by UNSC res. 2524, 3 Jun 2020",
+    "ar": "إنشاء بعثة يونيتامس بقرار مجلس الأمن 2524، 3 يونيو 2020",
+    "cite": null,
+    "source_ids": [
+     "ICG2019",
+     "ICG2021",
+     "UNSC2524",
+     "WP:Sudanese_revolution",
+     "WP:2021_Sudanese_coup_d'état"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "ICG2019",
    "ICG2021",
    "UNSC2524",
    "WP:Sudanese_revolution",
-   "WP:2021_Sudanese_coup_d'état"
+   "WP:2021_Sudanese_coup_d'état",
+   "UNPOE_S2024_65"
   ],
   "dating_note": null,
   "capitals": [
@@ -1886,7 +1973,8 @@
    "CONTESTED",
    "DERIVED",
    "FIRST-ATTESTED",
-   "RUIN-UNDATED"
+   "RUIN-UNDATED",
+   "SINGLE-SOURCE"
   ],
   "what_changed": {
    "previous_era_id": "al-bashir-ncp-ingaz-regime",

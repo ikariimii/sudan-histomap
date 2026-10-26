@@ -877,7 +877,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -908,6 +910,7 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -930,6 +933,21 @@
   ],
   "key_events_ar": [
    "اعتناق الإسلام في القرن الحادي عشر"
+  ],
+  "key_events": [
+   {
+    "event_id": "kanem-empire#0",
+    "en": "Islam adopted 11th c.",
+    "ar": "اعتناق الإسلام في القرن الحادي عشر",
+    "cite": null,
+    "source_ids": [
+     "GHA3_CH8",
+     "GHAIV",
+     "WP:Kanem_Empire"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHA3_CH8",
@@ -964,6 +982,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

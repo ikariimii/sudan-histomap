@@ -1620,10 +1620,12 @@
   },
   "economy": {
    "file": "db/era_economy.json",
-   "rating": "unknown",
-   "symbol_class": "economy_unknown",
-   "badges": [],
-   "editorial_marker": false,
+   "rating": "mixed",
+   "symbol_class": "economy_mixed",
+   "badges": [
+    "EDITORIAL"
+   ],
+   "editorial_marker": true,
    "rating_basis_en": {
     "value": "Editorial reading of LOC1991_ECONDEV: per-capita income rose, but spending outran revenue, reserves were depleted and by 1967 the Ten-Year Plan was abandoned with creditworthiness 'open to question'.",
     "cite": "LOC1991_ECONDEV",
@@ -1631,7 +1633,7 @@
      "EDITORIAL"
     ]
    },
-   "cite": null
+   "cite": "LOC1991_ECONDEV"
   }
  },
  "symbol_classes_present": [
@@ -1643,7 +1645,8 @@
   "city_religious",
   "city_town",
   "control_extent",
-  "economy_unknown",
+  "economy_editorial_marker",
+  "economy_mixed",
   "flag",
   "group_control_point"
  ],
@@ -1652,6 +1655,7 @@
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "EDITORIAL",
   "FIRST-ATTESTED",
   "RUIN-UNDATED"
  ],
@@ -1664,7 +1668,8 @@
   "city_religious": 5,
   "city_town": 7,
   "control_extent": 1,
-  "economy_unknown": 1,
+  "economy_editorial_marker": 1,
+  "economy_mixed": 1,
   "flag": 1,
   "group_control_point": 1,
   "extent_features": 1,
@@ -1673,14 +1678,48 @@
  },
  "context": {
   "key_events_en": [
-   "Civilian governments; First Sudanese Civil War continues"
+   "Civilian governments; First Sudanese Civil War continues",
+   "Elections 1965; Mahjub coalition government; armed rebellion in the south since 1963"
   ],
   "key_events_ar": [
-   "حكومات مدنية؛ استمرار الحرب الأهلية السودانية الأولى"
+   "حكومات مدنية؛ استمرار الحرب الأهلية السودانية الأولى",
+   "انتخابات 1965 وحكومة محجوب الائتلافية؛ تمرد مسلح في الجنوب منذ 1963 [يحتاج تحقق]"
+  ],
+  "key_events": [
+   {
+    "event_id": "second-parliamentary-period#0",
+    "en": "Civilian governments; First Sudanese Civil War continues",
+    "ar": "حكومات مدنية؛ استمرار الحرب الأهلية السودانية الأولى",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "WP:History_of_Sudan_(1956–1969)"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "second-parliamentary-period#0",
+    "en": "Elections 1965; Mahjub coalition government; armed rebellion in the south since 1963",
+    "ar": "انتخابات 1965 وحكومة محجوب الائتلافية؛ تمرد مسلح في الجنوب منذ 1963 [يحتاج تحقق]",
+    "date": 1965,
+    "cite": [
+     {
+      "source_id": "UNSC_S2005_60",
+      "pages": "PDF p.19, paras 44-45"
+     }
+    ],
+    "source_ids": [
+     "UNSC_S2005_60"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   }
   ],
   "key_events_source_ids": [
    "HD2011",
-   "WP:History_of_Sudan_(1956–1969)"
+   "WP:History_of_Sudan_(1956–1969)",
+   "UNSC_S2005_60"
   ],
   "dating_note": null,
   "capitals": [
@@ -1714,6 +1753,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "EDITORIAL",
    "FIRST-ATTESTED",
    "RUIN-UNDATED"
   ],

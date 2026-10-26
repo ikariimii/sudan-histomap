@@ -1577,7 +1577,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1587,9 +1589,77 @@
     ]
    },
    "cite": null
+  },
+  "border_drafts": {
+   "note": "Historian-signed-off drafts only (properties.signoff.status == approved); not live extents.",
+   "features": [
+    {
+     "file": "db/border_drafts/restored-darfur-sultanate-ali-dinar.geojson",
+     "feature_index": 0,
+     "zone": "core",
+     "confidence": 0.5,
+     "confidence_word": "medium",
+     "legend_en": "Draft border (confidence: medium 0.5)",
+     "symbol_class": "zone_core",
+     "swatch": {
+      "fill": "#7a6bd0",
+      "fill_opacity": 0.35,
+      "stroke": "solid 1.2px",
+      "confidence_style": "solid"
+     },
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "source_ids": [
+      "MACMICHAEL1922_V1",
+      "GHA7_CH12",
+      "HD2011",
+      "OFS1974"
+     ],
+     "pages": "MacMichael 1922 I pp.85–86; GHA VII ch.12 p.283",
+     "signoff": {
+      "by": "Sudan Historian",
+      "date": "2026-10-24"
+     }
+    },
+    {
+     "file": "db/border_drafts/restored-darfur-sultanate-ali-dinar.geojson",
+     "feature_index": 1,
+     "zone": "contested",
+     "confidence": 0.4,
+     "confidence_word": "medium",
+     "legend_en": "Draft border (confidence: medium 0.4)",
+     "symbol_class": "zone_contested",
+     "swatch": {
+      "fill": "#e0a63e",
+      "fill_opacity": 0.6,
+      "stroke": "#e0a63e",
+      "dash": [
+       4,
+       3
+      ],
+      "confidence_style": "contested",
+      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+     },
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED"
+     ],
+     "source_ids": [
+      "MACMICHAEL1922_V1",
+      "GHA7_CH12"
+     ],
+     "pages": "MacMichael 1922 I pp.85–86; GHA VII ch.12 p.283",
+     "signoff": {
+      "by": "Sudan Historian",
+      "date": "2026-10-24"
+     }
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "border_draft",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -1612,9 +1682,11 @@
   "CONTESTED",
   "DERIVED",
   "FIRST-ATTESTED",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
+  "border_draft": 2,
   "city_capital": 15,
   "city_garrison": 4,
   "city_other": 12,
@@ -1641,6 +1713,36 @@
   "key_events_ar": [
    "علي دينار يحكم حكماً ذاتياً",
    "ضمها السودان الإنجليزي المصري 1916"
+  ],
+  "key_events": [
+   {
+    "event_id": "restored-darfur-sultanate-ali-dinar#0",
+    "en": "Ali Dinar rules autonomously",
+    "ar": "علي دينار يحكم حكماً ذاتياً",
+    "cite": null,
+    "source_ids": [
+     "OFAHEY2008",
+     "HD2011",
+     "WP:Ali_Dinar",
+     "WP:Sultanate_of_Darfur"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "restored-darfur-sultanate-ali-dinar#1",
+    "en": "Annexed by Anglo-Egyptian Sudan 1916",
+    "ar": "ضمها السودان الإنجليزي المصري 1916",
+    "cite": null,
+    "source_ids": [
+     "OFAHEY2008",
+     "HD2011",
+     "WP:Ali_Dinar",
+     "WP:Sultanate_of_Darfur"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "OFAHEY2008",
@@ -1682,6 +1784,7 @@
    "CONTESTED",
    "DERIVED",
    "FIRST-ATTESTED",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

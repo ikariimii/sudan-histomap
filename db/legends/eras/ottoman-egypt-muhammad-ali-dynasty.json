@@ -1454,7 +1454,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1487,6 +1489,7 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -1510,6 +1513,21 @@
   ],
   "key_events_ar": [
    "محمد علي يغزو السودان 1820"
+  ],
+  "key_events": [
+   {
+    "event_id": "ottoman-egypt-muhammad-ali-dynasty#0",
+    "en": "Muhammad Ali invades Sudan 1820",
+    "ar": "محمد علي يغزو السودان 1820",
+    "cite": null,
+    "source_ids": [
+     "GHAV",
+     "GHA6_CH14",
+     "WP:Muhammad_Ali_dynasty"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHAV",
@@ -1553,6 +1571,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

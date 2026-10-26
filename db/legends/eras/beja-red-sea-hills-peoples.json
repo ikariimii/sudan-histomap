@@ -2167,7 +2167,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -2200,6 +2202,7 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -2234,6 +2237,80 @@
    "رعاة إبل رحّل في تلال البحر الأحمر؛ أسلمة تدريجية وتعريب متفاوت",
    "العبابدة (في الشمال) يتحدثون العربية؛ توسع نحو الجنوب في القرن الثامن عشر؛ الهدندوة في التاكا (القاش) بحلول مطلع القرن التاسع عشر",
    "النابتاب، العشيرة الحاكمة لبني عامر، يدّعون النسب الجعلي"
+  ],
+  "key_events": [
+   {
+    "event_id": "beja-red-sea-hills-peoples#0",
+    "en": "Blemmyes (GHA II: 'customarily identified with the Bedja tribes') raid Upper Egypt; suppressed under Probus (276–282 CE)",
+    "ar": "البليميون (تاريخ أفريقيا العام، المجلد الثاني: «يُطابَقون عادةً مع قبائل البجة») يغيرون على صعيد مصر؛ قُمعوا في عهد بروبوس (276–282 م)",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "GHA2_CH19"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "beja-red-sea-hills-peoples#1",
+    "en": "After Meroe's fall the Nobades push the Blemmyes ('Bega or Buga') into the eastern desert",
+    "ar": "بعد سقوط مروي دفع النوباديون البليميين («البجة أو البوجة») إلى الصحراء الشرقية",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "GHA2_CH19"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "beja-red-sea-hills-peoples#2",
+    "en": "Recognised by medieval Muslim writers as distinct from Nubians, Arabs and 'Sudan'",
+    "ar": "ميّزهم الكتّاب المسلمون في العصور الوسطى عن النوبة والعرب و«السودان»",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "GHA2_CH19"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "beja-red-sea-hills-peoples#3",
+    "en": "Camel-nomads of the Red Sea Hills; gradual Islamisation and varying arabisation",
+    "ar": "رعاة إبل رحّل في تلال البحر الأحمر؛ أسلمة تدريجية وتعريب متفاوت",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "GHA2_CH19"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "beja-red-sea-hills-peoples#4",
+    "en": "'Ababda (north) Arabic-speaking; 18th c. southward expansion; Hadendowa in Taka (Gash) by early 19th c.",
+    "ar": "العبابدة (في الشمال) يتحدثون العربية؛ توسع نحو الجنوب في القرن الثامن عشر؛ الهدندوة في التاكا (القاش) بحلول مطلع القرن التاسع عشر",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "GHA2_CH19"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "beja-red-sea-hills-peoples#5",
+    "en": "Nabtab ruling clan of the Banu 'Amir claims Ja'ali descent",
+    "ar": "النابتاب، العشيرة الحاكمة لبني عامر، يدّعون النسب الجعلي",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "GHA2_CH19"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "HD2011",
@@ -2272,6 +2349,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

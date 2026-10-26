@@ -1721,7 +1721,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1755,6 +1757,7 @@
   "CONTESTED",
   "DERIVED",
   "FIRST-ATTESTED",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -1776,12 +1779,9 @@
   "cities": 49
  },
  "context": {
-  "key_events_en": [
-   ""
-  ],
-  "key_events_ar": [
-   ""
-  ],
+  "key_events_en": [],
+  "key_events_ar": [],
+  "key_events": [],
   "key_events_source_ids": [
    "GHA8",
    "WP:Derg",
@@ -1825,6 +1825,7 @@
    "CONTESTED",
    "DERIVED",
    "FIRST-ATTESTED",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

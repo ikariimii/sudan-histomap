@@ -427,7 +427,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates conditions in Nubia under New Kingdom rule.",
@@ -437,9 +439,73 @@
     ]
    },
    "cite": null
+  },
+  "border_drafts": {
+   "note": "Historian-signed-off drafts only (properties.signoff.status == approved); not live extents.",
+   "features": [
+    {
+     "file": "db/border_drafts/egyptian-new-kingdom-rule-in-nubia.geojson",
+     "feature_index": 0,
+     "zone": "core",
+     "confidence": 0.6,
+     "confidence_word": "medium",
+     "legend_en": "Draft border (confidence: medium 0.6)",
+     "symbol_class": "zone_core",
+     "swatch": {
+      "fill": "#7a6bd0",
+      "fill_opacity": 0.35,
+      "stroke": "solid 1.2px",
+      "confidence_style": "solid"
+     },
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "source_ids": [
+      "GHA2_CH9"
+     ],
+     "pages": "GHA II ch.9 pp.267, 270",
+     "signoff": {
+      "by": "Sudan Historian",
+      "date": "2026-10-24"
+     }
+    },
+    {
+     "file": "db/border_drafts/egyptian-new-kingdom-rule-in-nubia.geojson",
+     "feature_index": 1,
+     "zone": "claimed",
+     "confidence": 0.6,
+     "confidence_word": "medium",
+     "legend_en": "Draft border (confidence: medium 0.6)",
+     "symbol_class": "zone_claimed",
+     "swatch": {
+      "fill": "#7a6bd0",
+      "fill_opacity": 0.18,
+      "stroke": "1.2px",
+      "dash": [
+       4,
+       3
+      ],
+      "confidence_style": "hatched"
+     },
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "source_ids": [
+      "DAVIES2003",
+      "SARS_KURGUS",
+      "GHA2_CH9"
+     ],
+     "pages": "Davies 2003 pp.23–37; GHA II pp.241, 261",
+     "signoff": {
+      "by": "Sudan Historian",
+      "date": "2026-10-24"
+     }
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "border_draft",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -457,10 +523,12 @@
   "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED",
   "SINGLE-SOURCE"
  ],
  "counts": {
+  "border_draft": 2,
   "city_capital": 1,
   "city_garrison": 2,
   "city_other": 3,
@@ -482,6 +550,34 @@
   "key_events_ar": [
    "نائب الملك في كوش يدير النوبة",
    "معابد في جبل البركل وصولب وأبو سمبل"
+  ],
+  "key_events": [
+   {
+    "event_id": "egyptian-new-kingdom-rule-in-nubia#0",
+    "en": "Viceroy of Kush administers Nubia",
+    "ar": "نائب الملك في كوش يدير النوبة",
+    "cite": null,
+    "source_ids": [
+     "WHC1073",
+     "GHA2_CH19",
+     "WP:Viceroy_of_Kush"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "egyptian-new-kingdom-rule-in-nubia#1",
+    "en": "Temples at Jebel Barkal, Soleb, Abu Simbel",
+    "ar": "معابد في جبل البركل وصولب وأبو سمبل",
+    "cite": null,
+    "source_ids": [
+     "WHC1073",
+     "GHA2_CH19",
+     "WP:Viceroy_of_Kush"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "WHC1073",
@@ -529,6 +625,7 @@
    "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED",
    "SINGLE-SOURCE"
   ],

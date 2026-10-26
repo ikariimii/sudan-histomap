@@ -1431,10 +1431,12 @@
   },
   "economy": {
    "file": "db/era_economy.json",
-   "rating": "unknown",
-   "symbol_class": "economy_unknown",
-   "badges": [],
-   "editorial_marker": false,
+   "rating": "mixed",
+   "symbol_class": "economy_mixed",
+   "badges": [
+    "EDITORIAL"
+   ],
+   "editorial_marker": true,
    "rating_basis_en": {
     "value": "The Turkish administration improved irrigation and crops and gave traders greater security (p.361), but extended the Egyptian taxation system to the Sudan, which 'inevitably disrupted the economic life of the people', collected by brutal means (p.362); Muhammad Ali's gold mining at Fazughli failed (p.361).",
     "cite": "GHA6_CH14",
@@ -1443,7 +1445,7 @@
     ],
     "page": "pp.361-362"
    },
-   "cite": null
+   "cite": "GHA6_CH14"
   }
  },
  "symbol_classes_present": [
@@ -1455,7 +1457,8 @@
   "city_religious",
   "city_town",
   "control_extent_approx",
-  "economy_unknown",
+  "economy_editorial_marker",
+  "economy_mixed",
   "extent_label_point",
   "low_confidence",
   "relation_arrow_alliance",
@@ -1467,6 +1470,7 @@
   "AR-REVIEW",
   "CONTESTED",
   "DERIVED",
+  "EDITORIAL",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "RUIN-UNDATED",
@@ -1481,7 +1485,8 @@
   "city_religious": 5,
   "city_town": 4,
   "control_extent_approx": 2,
-  "economy_unknown": 1,
+  "economy_editorial_marker": 1,
+  "economy_mixed": 1,
   "extent_label_point": 1,
   "low_confidence": 3,
   "relation_arrow_alliance": 1,
@@ -1500,6 +1505,47 @@
    "غزو قوات محمد علي 1820–1821",
    "تأسيس الخرطوم عاصمةً نحو 1824",
    "توسع تجارة الرقيق والعاج"
+  ],
+  "key_events": [
+   {
+    "event_id": "turkiyya-ottoman-egyptian-rule#0",
+    "en": "Invasion by Muhammad Ali's forces 1820–21",
+    "ar": "غزو قوات محمد علي 1820–1821",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "WP:Turco-Egyptian_Sudan",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "turkiyya-ottoman-egyptian-rule#1",
+    "en": "Khartoum founded as capital c.1824",
+    "ar": "تأسيس الخرطوم عاصمةً نحو 1824",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "WP:Turco-Egyptian_Sudan",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "turkiyya-ottoman-egyptian-rule#2",
+    "en": "Slave and ivory trade expansion",
+    "ar": "توسع تجارة الرقيق والعاج",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "WP:Turco-Egyptian_Sudan",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "HD2011",
@@ -1542,6 +1588,7 @@
    "AR-REVIEW",
    "CONTESTED",
    "DERIVED",
+   "EDITORIAL",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "RUIN-UNDATED",

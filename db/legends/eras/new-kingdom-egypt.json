@@ -377,7 +377,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -404,6 +406,7 @@
   "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED",
   "SINGLE-SOURCE"
  ],
@@ -426,6 +429,32 @@
   "key_events_ar": [
    "فتح كوش",
    "رمسيس الثاني"
+  ],
+  "key_events": [
+   {
+    "event_id": "new-kingdom-egypt#0",
+    "en": "Conquest of Kush",
+    "ar": "فتح كوش",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:New_Kingdom_of_Egypt"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "new-kingdom-egypt#1",
+    "en": "Ramesses II",
+    "ar": "رمسيس الثاني",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:New_Kingdom_of_Egypt"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHA2_CH19",
@@ -466,6 +495,7 @@
    "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED",
    "SINGLE-SOURCE"
   ],

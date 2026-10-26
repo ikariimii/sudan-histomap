@@ -1763,10 +1763,12 @@
   },
   "economy": {
    "file": "db/era_economy.json",
-   "rating": "unknown",
-   "symbol_class": "economy_unknown",
-   "badges": [],
-   "editorial_marker": false,
+   "rating": "mixed",
+   "symbol_class": "economy_mixed",
+   "badges": [
+    "EDITORIAL"
+   ],
+   "editorial_marker": true,
    "rating_basis_en": {
     "value": "The Gezira scheme 'proved quite beneficial both to the British and to those people of the Sudan who were directly involved in it', but infrastructure was 'totally inadequate', industrialization was neglected, and the South was totally neglected economically.",
     "cite": "GHA7_CH17",
@@ -1775,7 +1777,7 @@
     ],
     "page": "p.457"
    },
-   "cite": null
+   "cite": "GHA7_CH17"
   },
   "trade_routes": {
    "file": "db/trade_routes/anglo-egyptian-sudan-condominium.geojson",
@@ -1803,7 +1805,8 @@
   "city_town",
   "city_trade",
   "control_extent_approx",
-  "economy_unknown",
+  "economy_editorial_marker",
+  "economy_mixed",
   "flag",
   "low_confidence",
   "relation_arrow_conflict",
@@ -1815,6 +1818,7 @@
   "AR-REVIEW",
   "CONTESTED",
   "DERIVED",
+  "EDITORIAL",
   "FIRST-ATTESTED",
   "RUIN-UNDATED",
   "SINGLE-SOURCE"
@@ -1829,7 +1833,8 @@
   "city_town": 6,
   "city_trade": 1,
   "control_extent_approx": 6,
-  "economy_unknown": 1,
+  "economy_editorial_marker": 1,
+  "economy_mixed": 1,
   "flag": 3,
   "low_confidence": 6,
   "relation_arrow_conflict": 1,
@@ -1850,6 +1855,60 @@
    "مشروع الجزيرة 1925 [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (WB_TP120_1990 p.16)",
    "سياسة الجنوب (SFDAS_HCS2017 p.643)",
    "الحكم الذاتي 1953 (SFDAS_HCS2017 p.660)"
+  ],
+  "key_events": [
+   {
+    "event_id": "anglo-egyptian-sudan-condominium#0",
+    "en": "Condominium Agreement 19 Jan 1899 (SFDAS_HCS2017 p.639)",
+    "ar": "اتفاقية الحكم الثنائي 19 يناير 1899 (SFDAS_HCS2017 p.639)",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "SFDAS_HCS2017",
+     "WB_TP120_1990"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "anglo-egyptian-sudan-condominium#1",
+    "en": "Sennar dam completed 1925 to supply the Gezira Scheme (WB_TP120_1990 p.16)",
+    "ar": "مشروع الجزيرة 1925 [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (WB_TP120_1990 p.16)",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "SFDAS_HCS2017",
+     "WB_TP120_1990"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "anglo-egyptian-sudan-condominium#2",
+    "en": "Southern Policy (SFDAS_HCS2017 p.643)",
+    "ar": "سياسة الجنوب (SFDAS_HCS2017 p.643)",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "SFDAS_HCS2017",
+     "WB_TP120_1990"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "anglo-egyptian-sudan-condominium#3",
+    "en": "Self-government 1953 (SFDAS_HCS2017 p.660)",
+    "ar": "الحكم الذاتي 1953 (SFDAS_HCS2017 p.660)",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "SFDAS_HCS2017",
+     "WB_TP120_1990"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "HD2011",
@@ -1891,6 +1950,7 @@
    "AR-REVIEW",
    "CONTESTED",
    "DERIVED",
+   "EDITORIAL",
    "FIRST-ATTESTED",
    "RUIN-UNDATED",
    "SINGLE-SOURCE"

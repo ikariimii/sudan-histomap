@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Build db/legends/eras/<slug>.json from real data files. Owner: Sudan Map Designer.
 Reads only: data/periods.json, db/extents/*.geojson, db/extents_historic.json,
-db/group_layers/*.geojson, db/city_layers/cities.geojson. Writes only db/legends/eras/."""
+db/group_layers/*.geojson, db/city_layers/cities.geojson. Writes only db/legends/eras/.
+Also reads db/era_economy.json, db/era_events_post1956.json (merged per web/mapsite.py), db/border_drafts/*.geojson (signed-off only)."""
 import json, glob, os, re, unicodedata
 R = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 J = lambda p: json.load(open(os.path.join(R, p), encoding='utf-8'))
@@ -28,12 +29,15 @@ def economy_layer(sl):
     """Economy rating legend row; only for eras with an entry in db/era_economy.json."""
     e = ECO.get(sl)
     if not e: return None
-    r = e.get('rating') if e.get('rating') in ('good', 'mixed', 'bad', 'unknown') else 'unknown'
-    b = badges(e) | set(e.get('rating_badges') or [])
+    ro = e.get('rating'); rv = ro.get('value') if isinstance(ro, dict) else ro
+    r = rv if rv in ('good', 'mixed', 'bad', 'unknown') else 'unknown'
+    b = badges(e) | set(e.get('rating_badges') or []) | set((ro.get('badges') if isinstance(ro, dict) else None) or [])
+    rb = e.get('rating_basis_en')
+    if isinstance(rb, dict): b |= set(rb.get('badges') or [])
     sty = next(c for c in SPEC['economy_rating']['classes'] if c['rating'] == r)
     return {'file': 'db/era_economy.json', 'rating': r, 'symbol_class': sty['id'], 'badges': sorted(b),
             'editorial_marker': 'EDITORIAL' in b, 'rating_basis_en': e.get('rating_basis_en'),
-            'cite': e.get('cite') or e.get('rating_cite')}
+            'cite': e.get('cite') or e.get('rating_cite') or (ro.get('cite') if isinstance(ro, dict) else None)}
 
 def route_layer(sl):
     f = os.path.join(R, 'db/trade_routes', sl + '.geojson')
@@ -64,6 +68,64 @@ def flag_layer(sl):
     return {'file': 'db/era_symbols.json', 'anchor': anc if items else None, 'anchor_file': 'db/era_focus.json',
             'flags': items, 'popup_text_only': em if em and em.get('text_only') else None,
             'display_hint': v.get('display_hint'), 'null_reason': v.get('flag_null_reason') if not items else None}
+
+
+# --- post-1956 Analyst events: mirrors web/mapsite.py _be_post56_ev (IM r26): the Analyst line REPLACES the base line at the same
+# era#index when it has a registered cite; P56_BOTH keeps both; an Analyst line with no (or a blanked) base line shows on its own.
+SRCREG = set((J('data/periods.json').get('meta') or {}).get('sources') or {})
+_p56 = J('db/era_events_post1956.json') if os.path.exists(os.path.join(R, 'db/era_events_post1956.json')) else {}
+P56 = _p56.get('events') or {}
+P56_BOTH = {'second-parliamentary-period#0'}
+def _rmsid(t):
+    m = re.search(r'\s*\(([A-Z][A-Z0-9_]+)\b[^()]*\)\s*$', t or '')
+    return t[:m.start()] if m and m.group(1) in SRCREG else t
+def _blank(t): return not (t or '').strip()
+def key_events(sl, p):
+    """Merged key events (list of dicts) for one era. Blank base lines are dropped (an index is skipped only when its EN is blank)."""
+    en, ar = p.get('key_events') or [], p.get('key_events_ar') or []
+    base = [{'event_id': f'{sl}#{k}', 'en': x, 'ar': ar[k] if k < len(ar) else None, 'cite': None, 'source_ids': p.get('sources') or [],
+             'badges': [], 'origin': 'data/periods.json'} for k, x in enumerate(en)]
+    rep, extra = {}, []
+    for v in P56.get(sl) or []:
+        i = v.get('event_id') or '?'
+        cs = [c for c in [v.get('cite'), v.get('cite_extra')] + (v.get('cites') or []) if isinstance(c, dict) and c.get('source_id')]
+        if not any(c['source_id'] in SRCREG for c in cs): continue
+        rec = {'event_id': i, 'en': _rmsid(v.get('en')).strip(), 'ar': (_rmsid(v.get('ar')) or '').strip() or None, 'date': v.get('date'),
+               'cite': [{'source_id': c['source_id'], 'pages': c.get('pages')} for c in cs], 'source_ids': [c['source_id'] for c in cs],
+               'badges': [v['badge']] if v.get('badge') else list(v.get('badges') or []), 'origin': 'db/era_events_post1956.json'}
+        try: k = int(i.rsplit('#', 1)[1])
+        except Exception: k = None
+        h = base[k] if k is not None and k < len(base) and i.startswith(sl + '#') else None
+        if i in P56_BOTH or h is None or _blank(h['en']): extra.append((k, rec)) if (i in P56_BOTH or h is None) else rep.__setitem__(k, rec)
+        else: rep[k] = rec
+    out = [rep.get(k, b) for k, b in enumerate(base)]
+    for k, rec in extra:
+        if rec['event_id'] in P56_BOTH and k is not None and k < len(out): out.insert(k + 1, rec)
+        else: out.append(rec)
+    out = [x for x in out if not _blank(x['en'])]
+    for x in out:
+        if _blank(x['ar']): x['ar'] = None
+    return out
+
+# --- border drafts: only features the Historian signed off (properties.signoff.status == 'approved')
+def draft_layer(sl):
+    rows = []; ZS = {c['id']: c for c in SPEC['symbol_classes'] if c.get('id')}
+    for f in sorted(glob.glob(os.path.join(R, 'db/border_drafts', '*.geojson'))):
+        if os.path.basename(f).startswith('_'): continue
+        for k, x in enumerate(json.load(open(f, encoding='utf-8'))['features']):
+            pr = x['properties']; so = pr.get('signoff') or {}
+            if pr.get('era_id') != sl or not isinstance(so, dict) or so.get('status') != 'approved': continue
+            z = so.get('zone') or pr.get('zone'); cf = so.get('confidence', pr.get('confidence')); b = sorted(set(so.get('badges') or pr.get('badges') or []))
+            cw = conf_word(cf); cs = 'contested' if ('CONTESTED' in b or z == 'contested') else 'solid' if z == 'core' else 'hatched'
+            zc = ZS.get('zone_' + str(z)) or {}
+            sw = {k2: zc.get(k2) for k2 in ('fill', 'fill_opacity', 'stroke', 'dash', 'feather') if zc.get(k2) is not None}
+            sw['confidence_style'] = cs
+            if isinstance(cf, (int, float)) and cf < 0.5: sw['overlay'] = ZS.get('low_confidence', {}).get('pattern')
+            rows.append({'file': os.path.relpath(f, R), 'feature_index': k, 'zone': z, 'confidence': cf, 'confidence_word': cw,
+                         'legend_en': f"Draft border (confidence: {cw + ' ' + str(cf) if cw else 'not stated'})", 'symbol_class': 'zone_' + str(z),
+                         'swatch': sw, 'badges': b, 'source_ids': so.get('sources') or [], 'pages': so.get('pages'),
+                         'signoff': {'by': so.get('by'), 'date': so.get('date')}})
+    return rows
 
 def ext_class(f):
     p, g = f['properties'], f['geometry']
@@ -162,6 +224,11 @@ def era(i, p):
     if ec:
         out['layers']['economy'] = ec; cls[ec['symbol_class']] = 1; bs |= set(ec['badges'])
         if ec['editorial_marker']: cls['economy_editorial_marker'] = 1
+    dr = draft_layer(sl)
+    if dr:
+        out['layers']['border_drafts'] = {'note': 'Historian-signed-off drafts only (properties.signoff.status == approved); not live extents.', 'features': dr}
+        cls['border_draft'] = len(dr)
+        for x in dr: bs |= set(x['badges'])
     rt = route_layer(sl)
     if rt:
         out['layers']['trade_routes'] = {'file': f'db/trade_routes/{sl}.geojson', 'features': rt}
@@ -177,9 +244,14 @@ def era(i, p):
     out['counts'].update({'extent_features': len(ext), 'group_features': len(grp), 'cities': len(cit)})
     out['badges_present'] = sorted(bs)
     # context, cited fields only
-    ctx = {'key_events_en': p.get('key_events') or [], 'key_events_ar': p.get('key_events_ar') or [],
-           'key_events_source_ids': p.get('sources') or [], 'dating_note': p.get('dating_note') or None,
-           'capitals': p.get('capitals') or []}
+    ke = key_events(sl, p)
+    ctx = {'key_events_en': [x['en'] for x in ke], 'key_events_ar': [x['ar'] for x in ke], 'key_events': ke,
+           'key_events_source_ids': list(dict.fromkeys((p.get('sources') or []) + [s2 for x in ke if x['origin'] != 'data/periods.json' for s2 in x['source_ids']])),
+           'dating_note': p.get('dating_note') or None, 'capitals': p.get('capitals') or []}
+    if p.get('capital_note'):
+        ctx['capital_note'] = p['capital_note']
+        for k2 in ('capital_note_ar', 'capital_note_cite', 'capital_note_source_ids'):
+            if p.get(k2) is not None: ctx[k2] = p[k2]
     h = H.get(sl)
     if h:
         ctx['control_limits_en'] = h.get('control_limits_en'); ctx['control_limits_ar'] = h.get('control_limits_ar')

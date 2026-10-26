@@ -1338,7 +1338,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1372,6 +1374,7 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -1402,6 +1405,56 @@
    "المقر الملكي في فشودة",
    "هولت وديلي: امتد نطاقهم سابقاً حتى جزيرة أبا (منتصف القرن التاسع عشر)؛ وأغاروا على مستوطنات العرب على مجرى النيل الأبيض حتى مطلع العهد التركي المصري",
    "تنسب الرواية التقليدية تأسيس دولة الفونج إلى عصبة محاربين من الشلك"
+  ],
+  "key_events": [
+   {
+    "event_id": "shilluk-kingdom#0",
+    "en": "Founded by Nyikang (tradition)",
+    "ar": "أسسها نيكانغ (بحسب الرواية التقليدية)",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "WP:Shilluk_Kingdom"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "shilluk-kingdom#1",
+    "en": "Royal seat at Fashoda",
+    "ar": "المقر الملكي في فشودة",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "WP:Shilluk_Kingdom"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "shilluk-kingdom#2",
+    "en": "Holt & Daly: range formerly reached Aba Island (mid-19th c.); raided Arab settlements down the White Nile until early Turco-Egyptian period",
+    "ar": "هولت وديلي: امتد نطاقهم سابقاً حتى جزيرة أبا (منتصف القرن التاسع عشر)؛ وأغاروا على مستوطنات العرب على مجرى النيل الأبيض حتى مطلع العهد التركي المصري",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "WP:Shilluk_Kingdom"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "shilluk-kingdom#3",
+    "en": "Tradition ascribes the Funj foundation to a Shilluk war-band",
+    "ar": "تنسب الرواية التقليدية تأسيس دولة الفونج إلى عصبة محاربين من الشلك",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "WP:Shilluk_Kingdom"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "HD2011",
@@ -1443,6 +1496,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": null

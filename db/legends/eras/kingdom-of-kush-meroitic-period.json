@@ -730,10 +730,12 @@
   },
   "economy": {
    "file": "db/era_economy.json",
-   "rating": "unknown",
-   "symbol_class": "economy_unknown",
-   "badges": [],
-   "editorial_marker": false,
+   "rating": "good",
+   "symbol_class": "economy_good",
+   "badges": [
+    "EDITORIAL"
+   ],
+   "editorial_marker": true,
    "rating_basis_en": {
     "value": "Products of the eastern-desert mines 'all went through Meroitic trade channels, and so increased the fame of Meroe as one of the richest countries in the ancient world'.",
     "cite": "GHA2_CH11",
@@ -742,7 +744,7 @@
     ],
     "page": "p.311"
    },
-   "cite": null
+   "cite": "GHA2_CH11"
   }
  },
  "symbol_classes_present": [
@@ -754,7 +756,8 @@
   "city_religious",
   "city_town",
   "control_extent_approx",
-  "economy_unknown",
+  "economy_editorial_marker",
+  "economy_good",
   "extent_label_point",
   "low_confidence"
  ],
@@ -764,6 +767,7 @@
   "AR-REVIEW",
   "CONTESTED",
   "DERIVED",
+  "EDITORIAL",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
   "RUIN-UNDATED"
@@ -777,7 +781,8 @@
   "city_religious": 5,
   "city_town": 1,
   "control_extent_approx": 1,
-  "economy_unknown": 1,
+  "economy_editorial_marker": 1,
+  "economy_good": 1,
   "extent_label_point": 4,
   "low_confidence": 5,
   "extent_features": 5,
@@ -802,6 +807,127 @@
    "الكنداكتان أماني ريناس وأماني شاخيتو؛ الأمير/الملك أكينيداد؛ الحرب مع روما: بترونيوس يستولي على نبتة 23 ق.م (تاريخ أفريقيا العام)، ومعاهدة ساموس 21/20 ق.م",
    "نتكاماني وأماني تيري (تاريخ أفريقيا العام: نحو 12 ق.م–12 م؛ والتأريخ موضع جدل): معبد الأسد في النقعة، وعمارة، وترميم نبتة",
    "انهارت في القرن الرابع الميلادي؛ والسبب موضع خلاف (النوبة بحسب تاريخ أفريقيا العام II؛ وحملة عيزانا الأكسومية)"
+  ],
+  "key_events": [
+   {
+    "event_id": "kingdom-of-kush-meroitic-period#0",
+    "en": "Ergamenes/Arkamani (3rd c. BCE), friendly relations with Ptolemaic Egypt",
+    "ar": "أرجامنيس/أركاماني (القرن الثالث ق.م)، علاقات ودية مع مصر البطلمية",
+    "cite": null,
+    "source_ids": [
+     "PL:795855",
+     "RILLY_SN22",
+     "GHA2_CH19",
+     "WHC1336",
+     "WELSBY1996",
+     "EDWARDS2011",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "kingdom-of-kush-meroitic-period#1",
+    "en": "Queen Shanakdakhete (c.170–160 BCE): among earliest Meroitic hieroglyphic inscriptions (Naqa)",
+    "ar": "الملكة شنكداخيتي (نحو 170–160 ق.م): من أقدم النقوش المروية الهيروغليفية (النقعة)",
+    "cite": null,
+    "source_ids": [
+     "PL:795855",
+     "RILLY_SN22",
+     "GHA2_CH19",
+     "WHC1336",
+     "WELSBY1996",
+     "EDWARDS2011",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "kingdom-of-kush-meroitic-period#2",
+    "en": "Taniydamani (late 2nd c. BCE): first long Meroitic texts",
+    "ar": "تانيدأماني (أواخر القرن الثاني ق.م): أول النصوص المروية الطويلة",
+    "cite": null,
+    "source_ids": [
+     "PL:795855",
+     "RILLY_SN22",
+     "GHA2_CH19",
+     "WHC1336",
+     "WELSBY1996",
+     "EDWARDS2011",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "kingdom-of-kush-meroitic-period#3",
+    "en": "Iron working at Meroe; Meroitic script transliterated by Griffith 1909, language still not understood",
+    "ar": "صناعة الحديد في مروي؛ نقحرة الخط المروي على يد غريفيث 1909، ولا تزال اللغة غير مفهومة",
+    "cite": null,
+    "source_ids": [
+     "PL:795855",
+     "RILLY_SN22",
+     "GHA2_CH19",
+     "WHC1336",
+     "WELSBY1996",
+     "EDWARDS2011",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "kingdom-of-kush-meroitic-period#4",
+    "en": "Kandakes Amanirenas and Amanishakheto; Prince/King Akinidad; war with Rome: Napata taken by Petronius 23 BCE (GHA), Treaty of Samos 21/20 BCE",
+    "ar": "الكنداكتان أماني ريناس وأماني شاخيتو؛ الأمير/الملك أكينيداد؛ الحرب مع روما: بترونيوس يستولي على نبتة 23 ق.م (تاريخ أفريقيا العام)، ومعاهدة ساموس 21/20 ق.م",
+    "cite": null,
+    "source_ids": [
+     "PL:795855",
+     "RILLY_SN22",
+     "GHA2_CH19",
+     "WHC1336",
+     "WELSBY1996",
+     "EDWARDS2011",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "kingdom-of-kush-meroitic-period#5",
+    "en": "Natakamani & Amanitore (GHA: c.12 BCE–12 CE; dating debated): Naqa Lion Temple, Amara, restoration of Napata",
+    "ar": "نتكاماني وأماني تيري (تاريخ أفريقيا العام: نحو 12 ق.م–12 م؛ والتأريخ موضع جدل): معبد الأسد في النقعة، وعمارة، وترميم نبتة",
+    "cite": null,
+    "source_ids": [
+     "PL:795855",
+     "RILLY_SN22",
+     "GHA2_CH19",
+     "WHC1336",
+     "WELSBY1996",
+     "EDWARDS2011",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "kingdom-of-kush-meroitic-period#6",
+    "en": "Collapsed in the 4th century CE; cause debated (Noba per GHA II; Aksumite campaign of Ezana)",
+    "ar": "انهارت في القرن الرابع الميلادي؛ والسبب موضع خلاف (النوبة بحسب تاريخ أفريقيا العام II؛ وحملة عيزانا الأكسومية)",
+    "cite": null,
+    "source_ids": [
+     "PL:795855",
+     "RILLY_SN22",
+     "GHA2_CH19",
+     "WHC1336",
+     "WELSBY1996",
+     "EDWARDS2011",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "PL:795855",
@@ -871,6 +997,7 @@
    "AR-REVIEW",
    "CONTESTED",
    "DERIVED",
+   "EDITORIAL",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
    "RUIN-UNDATED"

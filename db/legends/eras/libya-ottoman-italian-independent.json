@@ -1976,7 +1976,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -2015,6 +2017,7 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -2044,6 +2047,22 @@
   ],
   "key_events_ar": [
    "الاستقلال 1951"
+  ],
+  "key_events": [
+   {
+    "event_id": "libya-ottoman-italian-independent#0",
+    "en": "Independence 1951",
+    "ar": "الاستقلال 1951",
+    "cite": null,
+    "source_ids": [
+     "GHAV",
+     "GHA7_CH17",
+     "GHA8",
+     "WP:History_of_Libya"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHAV",
@@ -2097,6 +2116,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

@@ -857,7 +857,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -887,6 +889,7 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -910,6 +913,36 @@
   "key_events_ar": [
    "الفتح العربي 641",
    "القاهرة الفاطمية 969"
+  ],
+  "key_events": [
+   {
+    "event_id": "islamic-egypt-rashidunfatimidayyubid#0",
+    "en": "Arab conquest 641",
+    "ar": "الفتح العربي 641",
+    "cite": null,
+    "source_ids": [
+     "GHA3_CH8",
+     "GHAIV",
+     "WP:Muslim_conquest_of_Egypt",
+     "WP:Fatimid_Caliphate"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "islamic-egypt-rashidunfatimidayyubid#1",
+    "en": "Fatimid Cairo 969",
+    "ar": "القاهرة الفاطمية 969",
+    "cite": null,
+    "source_ids": [
+     "GHA3_CH8",
+     "GHAIV",
+     "WP:Muslim_conquest_of_Egypt",
+     "WP:Fatimid_Caliphate"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHA3_CH8",
@@ -953,6 +986,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

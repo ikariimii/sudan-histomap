@@ -1599,7 +1599,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates economic conditions in this period.",
@@ -1630,6 +1632,7 @@
   "AR-REVIEW",
   "CONTESTED",
   "FIRST-ATTESTED",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -1654,12 +1657,44 @@
    "PM Ismail al-Azhari, then Abdallah Khalil"
   ],
   "key_events_ar": [
-   "الاستقلال 1 يناير 1956",
+   "الاستقلال 1 يناير 1956 [يحتاج تحقق]",
    "رئيس الوزراء إسماعيل الأزهري ثم عبد الله خليل"
+  ],
+  "key_events": [
+   {
+    "event_id": "independent-sudan-first-parliamentary-period#0",
+    "en": "Independence 1 January 1956",
+    "ar": "الاستقلال 1 يناير 1956 [يحتاج تحقق]",
+    "date": 1956,
+    "cite": [
+     {
+      "source_id": "UNSC_S2005_60",
+      "pages": "PDF p.19, para 43"
+     }
+    ],
+    "source_ids": [
+     "UNSC_S2005_60"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "independent-sudan-first-parliamentary-period#1",
+    "en": "PM Ismail al-Azhari, then Abdallah Khalil",
+    "ar": "رئيس الوزراء إسماعيل الأزهري ثم عبد الله خليل",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "WP:History_of_Sudan_(1956–1969)"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "HD2011",
-   "WP:History_of_Sudan_(1956–1969)"
+   "WP:History_of_Sudan_(1956–1969)",
+   "UNSC_S2005_60"
   ],
   "dating_note": null,
   "capitals": [
@@ -1693,6 +1728,7 @@
    "AR-REVIEW",
    "CONTESTED",
    "FIRST-ATTESTED",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": null

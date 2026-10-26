@@ -1810,7 +1810,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1846,6 +1848,7 @@
   "CONTESTED",
   "DERIVED",
   "FIRST-ATTESTED",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -1876,6 +1879,34 @@
   "key_events_ar": [
    "مستعمرة إيطالية 1890 (EEBC2002 p.104)",
    "الاستقلال 1993 (EEBC2002 p.105)"
+  ],
+  "key_events": [
+   {
+    "event_id": "eritrea-italian-colony-independent#0",
+    "en": "Italian colony 1890 (EEBC2002 p.104)",
+    "ar": "مستعمرة إيطالية 1890 (EEBC2002 p.104)",
+    "cite": null,
+    "source_ids": [
+     "GHA7_CH17",
+     "GHA8",
+     "EEBC2002"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "eritrea-italian-colony-independent#1",
+    "en": "Independence 1993 (EEBC2002 p.105)",
+    "ar": "الاستقلال 1993 (EEBC2002 p.105)",
+    "cite": null,
+    "source_ids": [
+     "GHA7_CH17",
+     "GHA8",
+     "EEBC2002"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHA7_CH17",
@@ -1924,6 +1955,7 @@
    "CONTESTED",
    "DERIVED",
    "FIRST-ATTESTED",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

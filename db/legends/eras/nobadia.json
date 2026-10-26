@@ -821,7 +821,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -852,6 +854,7 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -876,6 +879,38 @@
   "key_events_ar": [
    "اعتنقت المسيحية نحو 543 م",
    "اندمجت في المقرة في القرن السابع"
+  ],
+  "key_events": [
+   {
+    "event_id": "nobadia#0",
+    "en": "Christianised c.543 CE",
+    "ar": "اعتنقت المسيحية نحو 543 م",
+    "cite": null,
+    "source_ids": [
+     "WELSBY2002",
+     "GHA2_CH19",
+     "WP:Nobadia",
+     "GHA2_CH12",
+     "DERDA_LAJTAR2019"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "nobadia#1",
+    "en": "Merged into Makuria in the 7th century",
+    "ar": "اندمجت في المقرة في القرن السابع",
+    "cite": null,
+    "source_ids": [
+     "WELSBY2002",
+     "GHA2_CH19",
+     "WP:Nobadia",
+     "GHA2_CH12",
+     "DERDA_LAJTAR2019"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "WELSBY2002",
@@ -924,6 +959,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

@@ -1631,10 +1631,12 @@
   },
   "economy": {
    "file": "db/era_economy.json",
-   "rating": "unknown",
-   "symbol_class": "economy_unknown",
-   "badges": [],
-   "editorial_marker": false,
+   "rating": "mixed",
+   "symbol_class": "economy_mixed",
+   "badges": [
+    "EDITORIAL"
+   ],
+   "editorial_marker": true,
    "rating_basis_en": {
     "value": "Editorial reading: Gulf capital and Chevron's oil finds (LOC1991_ECON; LOC1991_ENERGY) against deficit financing, inflation and debt arrears from the late 1970s (LOC1991_ECONDEV) and the 1985 devaluation (WB_SDN1985).",
     "cite": "LOC1991_ECONDEV",
@@ -1642,7 +1644,7 @@
      "EDITORIAL"
     ]
    },
-   "cite": null
+   "cite": "LOC1991_ECONDEV"
   }
  },
  "symbol_classes_present": [
@@ -1654,7 +1656,8 @@
   "city_religious",
   "city_town",
   "control_extent",
-  "economy_unknown",
+  "economy_editorial_marker",
+  "economy_mixed",
   "flag"
  ],
  "badges_present": [
@@ -1662,6 +1665,7 @@
   "APPROXIMATE-COORDS",
   "AR-REVIEW",
   "CONTESTED",
+  "EDITORIAL",
   "FIRST-ATTESTED",
   "RUIN-UNDATED"
  ],
@@ -1674,7 +1678,8 @@
   "city_religious": 5,
   "city_town": 7,
   "control_extent": 1,
-  "economy_unknown": 1,
+  "economy_editorial_marker": 1,
+  "economy_mixed": 1,
   "flag": 1,
   "extent_features": 1,
   "group_features": 0,
@@ -1682,21 +1687,92 @@
  },
  "context": {
   "key_events_en": [
-   "May 1969 coup",
-   "Addis Ababa Agreement 1972 ends first civil war",
-   "September Laws 1983; Second Civil War begins",
-   "April 1985 uprising"
+   "May 1969: officers led by Colonel Nimeiri take power",
+   "Addis Ababa Agreement, February 1972",
+   "September 1983 Shariah rule; second war with the south begins 1983",
+   "April 1985: Nimeiri government overthrown"
   ],
   "key_events_ar": [
-   "انقلاب مايو 1969",
-   "اتفاقية أديس أبابا 1972 تنهي الحرب الأهلية الأولى",
-   "قوانين سبتمبر 1983؛ اندلاع الحرب الأهلية الثانية",
-   "انتفاضة أبريل 1985"
+   "مايو 1969: ضباط بقيادة العقيد نميري يستولون على السلطة [يحتاج تحقق]",
+   "اتفاقية أديس أبابا فبراير 1972 [يحتاج تحقق]",
+   "تطبيق الشريعة سبتمبر 1983؛ بدء الحرب الثانية مع الجنوب 1983 [يحتاج تحقق]",
+   "أبريل 1985: الإطاحة بحكومة نميري [يحتاج تحقق]"
+  ],
+  "key_events": [
+   {
+    "event_id": "nimeiry-era-democratic-republic-of-sudan#0",
+    "en": "May 1969: officers led by Colonel Nimeiri take power",
+    "ar": "مايو 1969: ضباط بقيادة العقيد نميري يستولون على السلطة [يحتاج تحقق]",
+    "date": 1969,
+    "cite": [
+     {
+      "source_id": "UNSC_S2005_60",
+      "pages": "PDF p.19, para 45"
+     }
+    ],
+    "source_ids": [
+     "UNSC_S2005_60"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "nimeiry-era-democratic-republic-of-sudan#1",
+    "en": "Addis Ababa Agreement, February 1972",
+    "ar": "اتفاقية أديس أبابا فبراير 1972 [يحتاج تحقق]",
+    "date": 1972,
+    "cite": [
+     {
+      "source_id": "UNSC_S2005_60",
+      "pages": "PDF p.19, para 45"
+     }
+    ],
+    "source_ids": [
+     "UNSC_S2005_60"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "nimeiry-era-democratic-republic-of-sudan#2",
+    "en": "September 1983 Shariah rule; second war with the south begins 1983",
+    "ar": "تطبيق الشريعة سبتمبر 1983؛ بدء الحرب الثانية مع الجنوب 1983 [يحتاج تحقق]",
+    "date": 1983,
+    "cite": [
+     {
+      "source_id": "UNSC_S2005_60",
+      "pages": "PDF p.19, para 45"
+     }
+    ],
+    "source_ids": [
+     "UNSC_S2005_60"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "nimeiry-era-democratic-republic-of-sudan#3",
+    "en": "April 1985: Nimeiri government overthrown",
+    "ar": "أبريل 1985: الإطاحة بحكومة نميري [يحتاج تحقق]",
+    "date": 1985,
+    "cite": [
+     {
+      "source_id": "UNSC_S2005_60",
+      "pages": "PDF p.20, para 46"
+     }
+    ],
+    "source_ids": [
+     "UNSC_S2005_60"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   }
   ],
   "key_events_source_ids": [
    "HD2011",
    "WP:Gaafar_Nimeiry",
-   "WP:Addis_Ababa_Agreement_(1972)"
+   "WP:Addis_Ababa_Agreement_(1972)",
+   "UNSC_S2005_60"
   ],
   "dating_note": null,
   "capitals": [
@@ -1729,6 +1805,7 @@
    "APPROXIMATE-COORDS",
    "AR-REVIEW",
    "CONTESTED",
+   "EDITORIAL",
    "FIRST-ATTESTED",
    "RUIN-UNDATED"
   ],

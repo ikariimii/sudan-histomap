@@ -1794,7 +1794,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1829,6 +1831,7 @@
   "CONTESTED",
   "DERIVED",
   "FIRST-ATTESTED",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -1856,6 +1859,21 @@
   ],
   "key_events_ar": [
    "الاستقلال 1960"
+  ],
+  "key_events": [
+   {
+    "event_id": "central-african-republic-ubangi-shari#0",
+    "en": "Independence 1960",
+    "ar": "الاستقلال 1960",
+    "cite": null,
+    "source_ids": [
+     "GHA7_CH17",
+     "GHA8",
+     "WP:Central_African_Republic"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHA7_CH17",
@@ -1898,6 +1916,7 @@
    "CONTESTED",
    "DERIVED",
    "FIRST-ATTESTED",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

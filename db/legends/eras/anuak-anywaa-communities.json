@@ -1906,7 +1906,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1939,6 +1941,7 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED",
   "SINGLE-SOURCE"
  ],
@@ -1966,6 +1969,30 @@
   "key_events_ar": [
    "شعب نيلي يتحدث لغة من مجموعة الشلك (اللوو) [يحتاج تحقق]",
    "Anuak country on the Sobat and Baro described in Gleichen's 1905 compendium (GLEICHEN1905_V1 pp.132, 134) [VERIFY] [يحتاج تحقق]"
+  ],
+  "key_events": [
+   {
+    "event_id": "anuak-anywaa-communities#0",
+    "en": "Shilluk-speaking (Luo) Nilotic people [NO-SOURCE]",
+    "ar": "شعب نيلي يتحدث لغة من مجموعة الشلك (اللوو) [يحتاج تحقق]",
+    "cite": null,
+    "source_ids": [
+     "GLEICHEN1905_V1"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "anuak-anywaa-communities#1",
+    "en": "Anuak country on the Sobat and Baro described in Gleichen's 1905 compendium (GLEICHEN1905_V1 pp.132, 134)",
+    "ar": "Anuak country on the Sobat and Baro described in Gleichen's 1905 compendium (GLEICHEN1905_V1 pp.132, 134) [VERIFY] [يحتاج تحقق]",
+    "cite": null,
+    "source_ids": [
+     "GLEICHEN1905_V1"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GLEICHEN1905_V1"
@@ -1998,6 +2025,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED",
    "SINGLE-SOURCE"
   ],

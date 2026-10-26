@@ -1901,7 +1901,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1934,6 +1936,7 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -1955,16 +1958,51 @@
  "context": {
   "key_events_en": [
    "Kingdom of Saudi Arabia 1932",
-   "Jeddah talks on Sudan war 2023"
+   "Jeddah talks on Sudan war, from May 2023 (REPORTED)"
   ],
   "key_events_ar": [
    "المملكة العربية السعودية 1932",
-   "محادثات جدة بشأن حرب السودان 2023"
+   "محادثات جدة بشأن حرب السودان منذ مايو 2023 (مُبلَّغ عنه) [يحتاج تحقق]"
+  ],
+  "key_events": [
+   {
+    "event_id": "ottoman-hejaz-saudi-state#0",
+    "en": "Kingdom of Saudi Arabia 1932",
+    "ar": "المملكة العربية السعودية 1932",
+    "cite": null,
+    "source_ids": [
+     "JEDDAH2023",
+     "WP:Saudi_Arabia",
+     "WP:Treaty_of_Jeddah_(2023)"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "ottoman-hejaz-saudi-state#1",
+    "en": "Jeddah talks on Sudan war, from May 2023 (REPORTED)",
+    "ar": "محادثات جدة بشأن حرب السودان منذ مايو 2023 (مُبلَّغ عنه) [يحتاج تحقق]",
+    "date": 2023,
+    "cite": [
+     {
+      "source_id": "UNPOE_S2024_65",
+      "pages": "PDF p.37, para 133"
+     }
+    ],
+    "source_ids": [
+     "UNPOE_S2024_65"
+    ],
+    "badges": [
+     "REPORTED"
+    ],
+    "origin": "db/era_events_post1956.json"
+   }
   ],
   "key_events_source_ids": [
    "JEDDAH2023",
    "WP:Saudi_Arabia",
-   "WP:Treaty_of_Jeddah_(2023)"
+   "WP:Treaty_of_Jeddah_(2023)",
+   "UNPOE_S2024_65"
   ],
   "dating_note": null,
   "capitals": [
@@ -2000,6 +2038,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

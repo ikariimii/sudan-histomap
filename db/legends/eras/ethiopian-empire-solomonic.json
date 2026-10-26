@@ -2126,7 +2126,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -2162,6 +2164,7 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -2192,6 +2195,56 @@
    "عهد غوندار 1636 [يحتاج تحقق]",
    "معركة القلابات ضد المهدويين 1889",
    "عدوة 1896"
+  ],
+  "key_events": [
+   {
+    "event_id": "ethiopian-empire-solomonic#0",
+    "en": "Gondar period 1636",
+    "ar": "عهد غوندار 1636 [يحتاج تحقق]",
+    "cite": null,
+    "source_ids": [
+     "GHAIV",
+     "GHAV",
+     "GHA6_CH14",
+     "GHA7_CH17",
+     "WP:Ethiopian_Empire",
+     "WP:Battle_of_Gallabat"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "ethiopian-empire-solomonic#1",
+    "en": "Battle of Gallabat vs Mahdists 1889",
+    "ar": "معركة القلابات ضد المهدويين 1889",
+    "cite": null,
+    "source_ids": [
+     "GHAIV",
+     "GHAV",
+     "GHA6_CH14",
+     "GHA7_CH17",
+     "WP:Ethiopian_Empire",
+     "WP:Battle_of_Gallabat"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "ethiopian-empire-solomonic#2",
+    "en": "Adwa 1896",
+    "ar": "عدوة 1896",
+    "cite": null,
+    "source_ids": [
+     "GHAIV",
+     "GHAV",
+     "GHA6_CH14",
+     "GHA7_CH17",
+     "WP:Ethiopian_Empire",
+     "WP:Battle_of_Gallabat"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHAIV",
@@ -2235,6 +2288,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

@@ -281,10 +281,13 @@
   },
   "economy": {
    "file": "db/era_economy.json",
-   "rating": "unknown",
-   "symbol_class": "economy_unknown",
-   "badges": [],
-   "editorial_marker": false,
+   "rating": "good",
+   "symbol_class": "economy_good",
+   "badges": [
+    "EDITORIAL",
+    "SINGLE-SOURCE"
+   ],
+   "editorial_marker": true,
    "rating_basis_en": {
     "value": "GHA II p.240 describes the Second Intermediate Period as a 'golden age' for Kush, with its capital Kerma profiting from increased trade between the lower and upper Nile.",
     "cite": "GHA2_CH8",
@@ -294,29 +297,33 @@
      "SINGLE-SOURCE"
     ]
    },
-   "cite": null
+   "cite": "GHA2_CH8"
   }
  },
  "symbol_classes_present": [
   "city_capital",
   "city_garrison",
   "control_extent_approx",
-  "economy_unknown",
+  "economy_editorial_marker",
+  "economy_good",
   "low_confidence"
  ],
  "badges_present": [
   "APPROXIMATE",
   "AR-REVIEW",
   "DERIVED",
+  "EDITORIAL",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
-  "RUIN-UNDATED"
+  "RUIN-UNDATED",
+  "SINGLE-SOURCE"
  ],
  "counts": {
   "city_capital": 1,
   "city_garrison": 3,
   "control_extent_approx": 1,
-  "economy_unknown": 1,
+  "economy_editorial_marker": 1,
+  "economy_good": 1,
   "low_confidence": 1,
   "extent_features": 1,
   "group_features": 0,
@@ -334,6 +341,56 @@
    "أكبر دولة أفريقية خارج مصر في الألف الثاني قبل الميلاد [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.56)",
    "نهبها تحتمس الأول نحو 1500 ق.م [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.92)",
    "مراحل البعثة السويسرية: كرمة المبكرة نحو 2450–2050، والوسطى نحو 2050–1750، والكلاسيكية نحو 1750–1550 ق.م (وكرمة المتأخرة حتى نحو 1450) [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.69)"
+  ],
+  "key_events": [
+   {
+    "event_id": "kingdom-of-kerma#0",
+    "en": "Western Deffufa mud-brick temple (SFDAS_HCS2017 p.80)",
+    "ar": "معبد الدفوفة الغربية المبني من الطوب اللبن (SFDAS_HCS2017 p.80)",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "kingdom-of-kerma#1",
+    "en": "Capital of the first historical state of Sudan, c.2450–1500 BCE (SFDAS_HCS2017 p.56)",
+    "ar": "أكبر دولة أفريقية خارج مصر في الألف الثاني قبل الميلاد [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.56)",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "kingdom-of-kerma#2",
+    "en": "Severe blow from Thutmose I's campaign, shortly before c.1500 BCE (SFDAS_HCS2017 p.92)",
+    "ar": "نهبها تحتمس الأول نحو 1500 ق.م [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.92)",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "kingdom-of-kerma#3",
+    "en": "Phases: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1550 BCE (Final Kerma c.1550–1450) (SFDAS_HCS2017 p.69)",
+    "ar": "مراحل البعثة السويسرية: كرمة المبكرة نحو 2450–2050، والوسطى نحو 2050–1750، والكلاسيكية نحو 1750–1550 ق.م (وكرمة المتأخرة حتى نحو 1450) [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.69)",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "SFDAS_HCS2017"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHA2_CH19",
@@ -370,9 +427,11 @@
    "APPROXIMATE",
    "AR-REVIEW",
    "DERIVED",
+   "EDITORIAL",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
-   "RUIN-UNDATED"
+   "RUIN-UNDATED",
+   "SINGLE-SOURCE"
   ],
   "what_changed": {
    "previous_era_id": "a-group-lower-nubia",

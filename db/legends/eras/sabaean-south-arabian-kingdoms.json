@@ -698,7 +698,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -727,6 +729,7 @@
   "CONTESTED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -750,6 +753,32 @@
   "key_events_ar": [
    "تجارة البخور",
    "التأثير في دعمت/أكسوم"
+  ],
+  "key_events": [
+   {
+    "event_id": "sabaean-south-arabian-kingdoms#0",
+    "en": "Incense trade",
+    "ar": "تجارة البخور",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:Sabaeans"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "sabaean-south-arabian-kingdoms#1",
+    "en": "Influence on D'mt/Aksum",
+    "ar": "التأثير في دعمت/أكسوم",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:Sabaeans"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHA2_CH19",
@@ -789,6 +818,7 @@
    "CONTESTED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": null

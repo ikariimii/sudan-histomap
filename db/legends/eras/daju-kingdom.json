@@ -847,7 +847,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -857,9 +859,44 @@
     ]
    },
    "cite": null
+  },
+  "border_drafts": {
+   "note": "Historian-signed-off drafts only (properties.signoff.status == approved); not live extents.",
+   "features": [
+    {
+     "file": "db/border_drafts/daju-kingdom.geojson",
+     "feature_index": 0,
+     "zone": "core",
+     "confidence": 0.3,
+     "confidence_word": "low",
+     "legend_en": "Draft border (confidence: low 0.3)",
+     "symbol_class": "zone_core",
+     "swatch": {
+      "fill": "#7a6bd0",
+      "fill_opacity": 0.35,
+      "stroke": "solid 1.2px",
+      "confidence_style": "solid",
+      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+     },
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "source_ids": [
+      "GHA4_CH16",
+      "OFAHEY2008"
+     ],
+     "pages": "GHA IV ch.16 p.420",
+     "signoff": {
+      "by": "Sudan Historian",
+      "date": "2026-10-24"
+     }
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "border_draft",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -879,9 +916,11 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
+  "border_draft": 1,
   "city_capital": 8,
   "city_garrison": 3,
   "city_other": 3,
@@ -902,6 +941,21 @@
   ],
   "key_events_ar": [
    "أسرة حاكمة مبكرة مدونة في دارفور (التواريخ غير مؤكدة)"
+  ],
+  "key_events": [
+   {
+    "event_id": "daju-kingdom#0",
+    "en": "Early recorded dynasty of Darfur (dates uncertain)",
+    "ar": "أسرة حاكمة مبكرة مدونة في دارفور (التواريخ غير مؤكدة)",
+    "cite": null,
+    "source_ids": [
+     "OFAHEY2008",
+     "WP:Daju_people",
+     "WP:History_of_Darfur"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "OFAHEY2008",
@@ -940,6 +994,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": null

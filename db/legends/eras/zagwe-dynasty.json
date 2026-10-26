@@ -787,7 +787,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -815,6 +817,7 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -836,6 +839,20 @@
   ],
   "key_events_ar": [
    "كنائس لاليبلا المنحوتة في الصخر"
+  ],
+  "key_events": [
+   {
+    "event_id": "zagwe-dynasty#0",
+    "en": "Lalibela rock-hewn churches",
+    "ar": "كنائس لاليبلا المنحوتة في الصخر",
+    "cite": null,
+    "source_ids": [
+     "GHAIV",
+     "WP:Zagwe_dynasty"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHAIV",
@@ -874,6 +891,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

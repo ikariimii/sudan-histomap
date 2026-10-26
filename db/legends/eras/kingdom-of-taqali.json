@@ -1771,7 +1771,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1781,9 +1783,44 @@
     ]
    },
    "cite": null
+  },
+  "border_drafts": {
+   "note": "Historian-signed-off drafts only (properties.signoff.status == approved); not live extents.",
+   "features": [
+    {
+     "file": "db/border_drafts/kingdom-of-taqali.geojson",
+     "feature_index": 0,
+     "zone": "core",
+     "confidence": 0.4,
+     "confidence_word": "medium",
+     "legend_en": "Draft border (confidence: medium 0.4)",
+     "symbol_class": "zone_core",
+     "swatch": {
+      "fill": "#7a6bd0",
+      "fill_opacity": 0.35,
+      "stroke": "solid 1.2px",
+      "confidence_style": "solid",
+      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+     },
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "source_ids": [
+      "GHA5_CH7",
+      "HD2011"
+     ],
+     "pages": "GHA V ch.7 p.177",
+     "signoff": {
+      "by": "Sudan Historian",
+      "date": "2026-10-24"
+     }
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "border_draft",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -1807,9 +1844,11 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
+  "border_draft": 1,
   "city_capital": 15,
   "city_garrison": 7,
   "city_other": 13,
@@ -1834,6 +1873,32 @@
   "key_events_ar": [
    "مملكة في جبال النوبة؛ تابعة بالخراج للفونج/دارفور أحياناً",
    "أُدمجت في إدارة الحكم الثنائي"
+  ],
+  "key_events": [
+   {
+    "event_id": "kingdom-of-taqali#0",
+    "en": "Nuba Mountains kingdom; tributary to Funj/Darfur at times",
+    "ar": "مملكة في جبال النوبة؛ تابعة بالخراج للفونج/دارفور أحياناً",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "WP:Kingdom_of_Taqali"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "kingdom-of-taqali#1",
+    "en": "Incorporated into Condominium administration",
+    "ar": "أُدمجت في إدارة الحكم الثنائي",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "WP:Kingdom_of_Taqali"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "HD2011",
@@ -1873,6 +1938,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

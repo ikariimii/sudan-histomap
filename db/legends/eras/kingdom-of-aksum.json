@@ -996,7 +996,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1028,6 +1030,7 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -1052,6 +1055,34 @@
   "key_events_ar": [
    "المسيحية في عهد عيزانا نحو ثلاثينيات القرن الرابع",
    "حملة على مروي/النوبة نحو 350"
+  ],
+  "key_events": [
+   {
+    "event_id": "kingdom-of-aksum#0",
+    "en": "Christianity under Ezana c.330s",
+    "ar": "المسيحية في عهد عيزانا نحو ثلاثينيات القرن الرابع",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:Kingdom_of_Aksum",
+     "WP:Ezana_of_Axum"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "kingdom-of-aksum#1",
+    "en": "Campaign against Meroe/Noba c.350",
+    "ar": "حملة على مروي/النوبة نحو 350",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:Kingdom_of_Aksum",
+     "WP:Ezana_of_Axum"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHA2_CH19",
@@ -1092,6 +1123,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": {

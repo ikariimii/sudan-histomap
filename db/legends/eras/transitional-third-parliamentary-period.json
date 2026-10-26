@@ -1631,9 +1631,11 @@
   },
   "economy": {
    "file": "db/era_economy.json",
-   "rating": "unknown",
-   "symbol_class": "economy_unknown",
-   "badges": [],
+   "rating": "bad",
+   "symbol_class": "economy_bad",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "LOC1991_TMC: at the 1985 takeover the economy was 'in shambles'; in Feb 1986 the IMF declared Sudan bankrupt.",
@@ -1642,7 +1644,7 @@
      "SINGLE-SOURCE"
     ]
    },
-   "cite": null
+   "cite": "LOC1991_TMC"
   }
  },
  "symbol_classes_present": [
@@ -1654,7 +1656,7 @@
   "city_religious",
   "city_town",
   "control_extent",
-  "economy_unknown",
+  "economy_bad",
   "flag"
  ],
  "badges_present": [
@@ -1663,7 +1665,8 @@
   "AR-REVIEW",
   "CONTESTED",
   "FIRST-ATTESTED",
-  "RUIN-UNDATED"
+  "RUIN-UNDATED",
+  "SINGLE-SOURCE"
  ],
  "counts": {
   "city_capital": 15,
@@ -1674,7 +1677,7 @@
   "city_religious": 5,
   "city_town": 7,
   "control_extent": 1,
-  "economy_unknown": 1,
+  "economy_bad": 1,
   "flag": 1,
   "extent_features": 1,
   "group_features": 0,
@@ -1682,16 +1685,53 @@
  },
  "context": {
   "key_events_en": [
-   "Swar al-Dahab transitional council",
-   "PM Sadiq al-Mahdi 1986–89"
+   "Elections 1986; Sadiq Al-Mahdi Prime Minister",
+   "Transitional Military Council under General Siwar Al-Dahab"
   ],
   "key_events_ar": [
-   "المجلس الانتقالي برئاسة سوار الذهب",
-   "رئيس الوزراء الصادق المهدي 1986–1989"
+   "انتخابات 1986؛ الصادق المهدي رئيسًا للوزراء [يحتاج تحقق]",
+   "المجلس العسكري الانتقالي بقيادة الفريق سوار الذهب [يحتاج تحقق]"
+  ],
+  "key_events": [
+   {
+    "event_id": "transitional-third-parliamentary-period#0",
+    "en": "Elections 1986; Sadiq Al-Mahdi Prime Minister",
+    "ar": "انتخابات 1986؛ الصادق المهدي رئيسًا للوزراء [يحتاج تحقق]",
+    "date": 1986,
+    "cite": [
+     {
+      "source_id": "UNSC_S2005_60",
+      "pages": "PDF p.20, para 46"
+     }
+    ],
+    "source_ids": [
+     "UNSC_S2005_60"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "transitional-third-parliamentary-period#1",
+    "en": "Transitional Military Council under General Siwar Al-Dahab",
+    "ar": "المجلس العسكري الانتقالي بقيادة الفريق سوار الذهب [يحتاج تحقق]",
+    "date": 1985,
+    "cite": [
+     {
+      "source_id": "UNSC_S2005_60",
+      "pages": "PDF p.20, para 46"
+     }
+    ],
+    "source_ids": [
+     "UNSC_S2005_60"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   }
   ],
   "key_events_source_ids": [
    "HD2011",
-   "WP:Sadiq_al-Mahdi"
+   "WP:Sadiq_al-Mahdi",
+   "UNSC_S2005_60"
   ],
   "dating_note": null,
   "capitals": [
@@ -1725,7 +1765,8 @@
    "AR-REVIEW",
    "CONTESTED",
    "FIRST-ATTESTED",
-   "RUIN-UNDATED"
+   "RUIN-UNDATED",
+   "SINGLE-SOURCE"
   ],
   "what_changed": {
    "previous_era_id": "nimeiry-era-democratic-republic-of-sudan",

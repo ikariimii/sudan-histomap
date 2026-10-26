@@ -1216,7 +1216,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1226,9 +1228,78 @@
     ]
    },
    "cite": null
+  },
+  "border_drafts": {
+   "note": "Historian-signed-off drafts only (properties.signoff.status == approved); not live extents.",
+   "features": [
+    {
+     "file": "db/border_drafts/alodia-alwa.geojson",
+     "feature_index": 0,
+     "zone": "core",
+     "confidence": 0.4,
+     "confidence_word": "medium",
+     "legend_en": "Draft border (confidence: medium 0.4)",
+     "symbol_class": "zone_core",
+     "swatch": {
+      "fill": "#7a6bd0",
+      "fill_opacity": 0.35,
+      "stroke": "solid 1.2px",
+      "confidence_style": "solid",
+      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+     },
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "source_ids": [
+      "GHA4_CH16",
+      "DRZEWIECKI_SOBA",
+      "WELSBY2002"
+     ],
+     "pages": "GHA IV ch.16 p.418; Drzewiecki & Ryndziewicz 2019 abstract",
+     "signoff": {
+      "by": "Sudan Historian",
+      "date": "2026-10-24"
+     }
+    },
+    {
+     "file": "db/border_drafts/alodia-alwa.geojson",
+     "feature_index": 1,
+     "zone": "claimed",
+     "confidence": 0.25,
+     "confidence_word": "low",
+     "legend_en": "Draft border (confidence: low 0.25)",
+     "symbol_class": "zone_claimed",
+     "swatch": {
+      "fill": "#7a6bd0",
+      "fill_opacity": 0.18,
+      "stroke": "1.2px",
+      "dash": [
+       4,
+       3
+      ],
+      "confidence_style": "hatched",
+      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+     },
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "source_ids": [
+      "TSAKOS2011_ALWA",
+      "GHA4_CH16"
+     ],
+     "pages": "Tsakos 2011 p.240; GHA IV ch.16 pp.406, 418",
+     "signoff": {
+      "by": "Sudan Historian",
+      "date": "2026-10-24"
+     }
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "border_draft",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -1253,10 +1324,12 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED",
   "SINGLE-SOURCE"
  ],
  "counts": {
+  "border_draft": 2,
   "city_capital": 12,
   "city_garrison": 3,
   "city_other": 4,
@@ -1284,6 +1357,50 @@
    "مملكة مسيحية على النيل الأزرق/الأبيض",
    "العاصمة سوبا",
    "سقطت في يد الفونج/العبدلاب نحو 1504"
+  ],
+  "key_events": [
+   {
+    "event_id": "alodia-alwa#0",
+    "en": "Christian kingdom on the Blue/White Nile",
+    "ar": "مملكة مسيحية على النيل الأزرق/الأبيض",
+    "cite": null,
+    "source_ids": [
+     "WD:Q1247214",
+     "WELSBY2002",
+     "HD2011",
+     "WP:Alodia"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "alodia-alwa#1",
+    "en": "Capital Soba",
+    "ar": "العاصمة سوبا",
+    "cite": null,
+    "source_ids": [
+     "WD:Q1247214",
+     "WELSBY2002",
+     "HD2011",
+     "WP:Alodia"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "alodia-alwa#2",
+    "en": "Fell to Funj/Abdallab c.1504",
+    "ar": "سقطت في يد الفونج/العبدلاب نحو 1504",
+    "cite": null,
+    "source_ids": [
+     "WD:Q1247214",
+     "WELSBY2002",
+     "HD2011",
+     "WP:Alodia"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "WD:Q1247214",
@@ -1329,6 +1446,7 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED",
    "SINGLE-SOURCE"
   ],

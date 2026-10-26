@@ -369,7 +369,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -395,6 +397,7 @@
   "AR-REVIEW",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED"
  ],
  "counts": {
@@ -414,6 +417,20 @@
   ],
   "key_events_ar": [
    "مملكة دعمت في إريتريا/تيغراي"
+  ],
+  "key_events": [
+   {
+    "event_id": "land-of-punt-d-mt#0",
+    "en": "D'mt kingdom in Eritrea/Tigray",
+    "ar": "مملكة دعمت في إريتريا/تيغراي",
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:Dʿmt"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "GHA2_CH19",
@@ -452,6 +469,7 @@
    "AR-REVIEW",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED"
   ],
   "what_changed": null

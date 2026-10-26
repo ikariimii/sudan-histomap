@@ -1324,7 +1324,9 @@
    "file": "db/era_economy.json",
    "rating": "unknown",
    "symbol_class": "economy_unknown",
-   "badges": [],
+   "badges": [
+    "NO-SOURCE"
+   ],
    "editorial_marker": false,
    "rating_basis_en": {
     "value": "No source read rates this era's economy.",
@@ -1334,9 +1336,139 @@
     ]
    },
    "cite": null
+  },
+  "border_drafts": {
+   "note": "Historian-signed-off drafts only (properties.signoff.status == approved); not live extents.",
+   "features": [
+    {
+     "file": "db/border_drafts/abdallab-chiefdom-funj-vassal.geojson",
+     "feature_index": 0,
+     "zone": "core",
+     "confidence": 0.4,
+     "confidence_word": "medium",
+     "legend_en": "Draft border (confidence: medium 0.4)",
+     "symbol_class": "zone_core",
+     "swatch": {
+      "fill": "#7a6bd0",
+      "fill_opacity": 0.35,
+      "stroke": "solid 1.2px",
+      "confidence_style": "solid",
+      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+     },
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "source_ids": [
+      "GHA5_CH7"
+     ],
+     "pages": "GHA V ch.7 p.172",
+     "signoff": {
+      "by": "Sudan Historian",
+      "date": "2026-10-24"
+     }
+    },
+    {
+     "file": "db/border_drafts/abdallab-chiefdom-funj-vassal.geojson",
+     "feature_index": 1,
+     "zone": "influence",
+     "confidence": 0.25,
+     "confidence_word": "low",
+     "legend_en": "Draft border (confidence: low 0.25)",
+     "symbol_class": "zone_influence",
+     "swatch": {
+      "fill": "#7a6bd0",
+      "fill_opacity": 0.08,
+      "stroke": "none",
+      "feather": "radial/feathered edge (blur 6px or 3-step inset .08/.05/.02)",
+      "confidence_style": "hatched",
+      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+     },
+     "badges": [
+      "APPROXIMATE",
+      "EDITORIAL"
+     ],
+     "source_ids": [
+      "OFS1974",
+      "MSM1972"
+     ],
+     "pages": "MSM1972 printed pp.149–151 (pdf pp.144–146)",
+     "signoff": {
+      "by": "Sudan Historian",
+      "date": "2026-10-25"
+     }
+    },
+    {
+     "file": "db/border_drafts/abdallab-chiefdom-funj-vassal.geojson",
+     "feature_index": 2,
+     "zone": "contested",
+     "confidence": 0.3,
+     "confidence_word": "low",
+     "legend_en": "Draft border (confidence: low 0.3)",
+     "symbol_class": "zone_contested",
+     "swatch": {
+      "fill": "#e0a63e",
+      "fill_opacity": 0.6,
+      "stroke": "#e0a63e",
+      "dash": [
+       4,
+       3
+      ],
+      "confidence_style": "contested",
+      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+     },
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED",
+      "EDITORIAL"
+     ],
+     "source_ids": [
+      "MSM1972"
+     ],
+     "pages": "MSM1972 p.149",
+     "signoff": {
+      "by": "Sudan Historian",
+      "date": "2026-10-25"
+     }
+    },
+    {
+     "file": "db/border_drafts/abdallab-chiefdom-funj-vassal.geojson",
+     "feature_index": 3,
+     "zone": "contested",
+     "confidence": 0.3,
+     "confidence_word": "low",
+     "legend_en": "Draft border (confidence: low 0.3)",
+     "symbol_class": "zone_contested",
+     "swatch": {
+      "fill": "#e0a63e",
+      "fill_opacity": 0.6,
+      "stroke": "#e0a63e",
+      "dash": [
+       4,
+       3
+      ],
+      "confidence_style": "contested",
+      "overlay": "45° hairlines, 6px spacing, stroke #e8eef2"
+     },
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED",
+      "EDITORIAL"
+     ],
+     "source_ids": [
+      "MSM1972"
+     ],
+     "pages": "MSM1972 p.151",
+     "signoff": {
+      "by": "Sudan Historian",
+      "date": "2026-10-25"
+     }
+    }
+   ]
   }
  },
  "symbol_classes_present": [
+  "border_draft",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -1360,10 +1492,12 @@
   "EDITORIAL",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
+  "NO-SOURCE",
   "RUIN-UNDATED",
   "SINGLE-SOURCE"
  ],
  "counts": {
+  "border_draft": 4,
   "city_capital": 12,
   "city_garrison": 4,
   "city_other": 7,
@@ -1394,6 +1528,56 @@
    "ازدهرت من المكوس المفروضة على رحّل البادية",
    "اعترف بهم سلاطين الفونج شيوخاً أعلى للعرب",
    "العاصمة قرّي ثم حلفاية الملوك؛ وحكم شيخ عبدلابي قوز رجب على نهر عطبرة"
+  ],
+  "key_events": [
+   {
+    "event_id": "abdallab-chiefdom-funj-vassal#0",
+    "en": "Founded by 'Abdallah Jamma' (Rufa'a) at the Blue/White Nile confluence, late 15th c.",
+    "ar": "أسسها عبد الله جمّاع (من رفاعة) عند ملتقى النيلين الأزرق والأبيض، أواخر القرن الخامس عشر",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "SPAULDING1985"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "abdallab-chiefdom-funj-vassal#1",
+    "en": "Prospered from tolls on desert nomads",
+    "ar": "ازدهرت من المكوس المفروضة على رحّل البادية",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "SPAULDING1985"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "abdallab-chiefdom-funj-vassal#2",
+    "en": "Recognised by Funj sultans as paramount chiefs of the Arabs",
+    "ar": "اعترف بهم سلاطين الفونج شيوخاً أعلى للعرب",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "SPAULDING1985"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "abdallab-chiefdom-funj-vassal#3",
+    "en": "Capital Qarri, later Halfayat al-Muluk; an 'Abdallabi chief ruled Quz Rajab on the Atbara",
+    "ar": "العاصمة قرّي ثم حلفاية الملوك؛ وحكم شيخ عبدلابي قوز رجب على نهر عطبرة",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "SPAULDING1985"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
   ],
   "key_events_source_ids": [
    "HD2011",
@@ -1432,6 +1616,7 @@
    "EDITORIAL",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
+   "NO-SOURCE",
    "RUIN-UNDATED",
    "SINGLE-SOURCE"
   ],
