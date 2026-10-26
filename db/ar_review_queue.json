@@ -5889,6 +5889,20 @@
       "origin_commit": "SFDAS_HCS2017 cite-or-delete pass",
       "added": "2026-10-26",
       "note": "[يحتاج تحقق] Arabic left unchanged by the Historian; reviewer to edit."
+    },
+    {
+      "file": "db/wars.json",
+      "war_id": "aksum-kush-war",
+      "field_ar": "name_ar",
+      "arabic_sentence": "حملات أكسوم على كوش [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "name_en",
+      "revised_english": "Aksum's campaign against the Nubas",
+      "reason": "GHA II p.293 names the Nubas, not Kush; name revised.",
+      "action": "Native reviewer: align the Arabic to the revised English.",
+      "origin_commit": "SFDAS_HCS2017 cite-or-delete pass",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق] Arabic left unchanged by the Historian; reviewer to edit."
     }
   ]
 }

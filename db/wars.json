@@ -17,8 +17,12 @@
       "end": "-593",
       "cites": [
         {
-          "source_id": "SFDAS_HCS2017",
-          "pages": "92, 164–165"
+          "source_id": "GHA2_CH9",
+          "pages": "265"
+        },
+        {
+          "source_id": "GHA2_CH10",
+          "pages": "285"
         }
       ],
       "belligerents": [
@@ -27,7 +31,8 @@
         "Late Period Egypt (Psamtik II)",
         "Kingdom of Kush (Napatan)"
       ],
-      "belligerents_note": "From the sides of this war's cited battles in data/battles.json."
+      "belligerents_note": "From the sides of this war's cited battles in data/battles.json.",
+      "date_note": "Approximate span set by its battles: GHA II p.265 dates Tuthmose I −1530 to −1520; GHA II p.285 dates Psamtik II's expedition −591."
     },
     {
       "id": "roman-meroitic-war",
@@ -43,12 +48,8 @@
         "Kingdom of Meroe",
         "Roman Egypt (prefect Petronius)"
       ],
-      "causes_en": "Meroitic forces attacked the Thebaid, taking Syene, Elephantine and Philae, after part of the Roman garrison left with Aelius Gallus for Arabia (SFDAS pp.243–244, quoting Strabo).",
+      "causes_en": "The Meroites sacked Aswan, probably when the statue of Augustus was captured (GHA II p.290).",
       "cites": [
-        {
-          "source_id": "SFDAS_HCS2017",
-          "pages": "243–244"
-        },
         {
           "source_id": "GHA2_CH10",
           "pages": "290"
@@ -58,14 +59,14 @@
     },
     {
       "id": "aksum-kush-war",
-      "name_en": "Aksum's campaigns against Kush",
+      "name_en": "Aksum's campaign against the Nubas",
       "name_ar": "حملات أكسوم على كوش [يحتاج تحقق]",
       "era_ids": [
         "kingdom-of-kush-meroitic-period",
         "kingdom-of-aksum"
       ],
       "start": "330",
-      "end": "350",
+      "end": "330",
       "belligerents": [
         "Kingdom of Aksum (Ezana)",
         "Noba",
@@ -73,11 +74,11 @@
       ],
       "cites": [
         {
-          "source_id": "SFDAS_HCS2017",
-          "pages": "325–326"
+          "source_id": "GHA2_CH10",
+          "pages": "292–293"
         }
       ],
-      "note": "Ge'ez inscription of Ezana on the war against the Noba and Kasu is catalogued as DAE 11 (SFDAS p.326). RIE 189 equivalence not found in a registered source."
+      "note": "GHA II p.292 dates the campaign 'Towards +330'; p.293: Ezana 'reached the confluence of the Atbara' and campaigned 'against the Nubas'. DAE 11/RIE 189 not in a registered source."
     },
     {
       "id": "arab-nubian-wars",
@@ -91,6 +92,14 @@
       "end": "652",
       "cites": [
         {
+          "source_id": "GHA3_CH7",
+          "pages": "166"
+        },
+        {
+          "source_id": "GHA3_CH3",
+          "pages": "81"
+        },
+        {
           "source_id": "SFDAS_HCS2017",
           "pages": "405"
         }
@@ -99,7 +108,8 @@
         "Arab army (Abdallah ibn Abi Sarh)",
         "Kingdom of Makuria"
       ],
-      "belligerents_note": "From the sides of this war's cited battles in data/battles.json."
+      "belligerents_note": "From the sides of this war's cited battles in data/battles.json.",
+      "date_note": "GHA III pp.81, 166 give only the 31/651-2 expedition. The 642 start rests on SFDAS p.405 alone (battle dongola-642), kept pending Map Designer sign-off on deleting that battle."
     },
     {
       "id": "funj-abdallab-war",
@@ -531,13 +541,9 @@
         {
           "source_id": "GHA2_CH10",
           "pages": "280"
-        },
-        {
-          "source_id": "SFDAS_HCS2017",
-          "pages": "137–138"
         }
       ],
-      "date_note": "GHA II p.106: 'about −720'. SFDAS p.137: campaign of regnal year 21."
+      "date_note": "GHA II p.106: 'about −720'."
     },
     {
       "id": "mamluk-makuria-wars",
@@ -548,18 +554,19 @@
         "mamluk-sultanate"
       ],
       "start": "1276",
-      "end": "1326",
+      "end": "1324",
       "belligerents": [
         "Mamluk Sultanate",
         "Makuria"
       ],
-      "outcome_en": "Mamluk forces repeatedly installed rulers at Dongola and imposed tribute (SFDAS p.419).",
+      "outcome_en": "Mamluk expeditions repeatedly set rulers on the throne at Dongola, from Shakanda in 1276 to Karanbas in 1323–4 (GHA IV pp.403–404).",
       "cites": [
         {
-          "source_id": "SFDAS_HCS2017",
-          "pages": "419"
+          "source_id": "GHA4_CH16",
+          "pages": "403–404"
         }
-      ]
+      ],
+      "date_note": "GHA IV p.404: last expedition 1323–4."
     },
     {
       "id": "ottoman-nubia-campaign",
@@ -575,14 +582,18 @@
         "Ottoman Empire (Özdemir Pasha)",
         "Funj Sultanate"
       ],
-      "outcome_en": "Ottoman province with its capital at Qasr Ibrim, garrisons at Aswan, Qasr Ibrim and Sai (SFDAS pp.423–424).",
+      "outcome_en": "New Ottoman province of Berberistan, with Bosnian garrisons at Aswan, Ibrîm and Say; the fort at Say marked the southern limit of Ottoman Egypt (GHA V pp.145, 175).",
       "cites": [
         {
-          "source_id": "SFDAS_HCS2017",
-          "pages": "420, 423–424"
+          "source_id": "GHA5_CH6",
+          "pages": "145"
+        },
+        {
+          "source_id": "GHA5_CH7",
+          "pages": "175"
         }
       ],
-      "date_note": "'vers 1560' (SFDAS p.420)."
+      "date_note": "Approximate: GHA V p.145, 'in the middle of the century'."
     },
     {
       "id": "italian-mahdist-war",
