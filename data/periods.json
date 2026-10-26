@@ -8727,9 +8727,9 @@
    "key_events": [
     "Christian kingdom on the Blue/White Nile",
     "Capital Soba",
-    "Fell to Funj/Abdallab c.1504"
+    "Conquered (capital Soba) by an Arab confederacy under 'Abdallah Jamma', second half of the 15th century; GHA rejects a joint Funj–Arab conquest"
    ],
-   "key_events_cites": [null, null, null],
+   "key_events_cites": [null, {"source": "GHA5_CH7", "page": "172"}, {"source": "GHA5_CH7", "page": "172"}],
    "capitals": [
     {
      "name": "Soba",
@@ -8796,7 +8796,7 @@
     "Turco-Egyptian forces take Sennar, 1821 (GHA V ch.7 p.185)",
     "Holt & Daly: Funj suzerainty over Upper Nubia (above 3rd Cataract) incl. vassal-kingdom of Dongola; 'Abdallab recognised as paramount chiefs of the Arabs"
    ],
-   "key_events_cites": [null, null, null, null],
+   "key_events_cites": [{"source": "GHA5_CH7", "page": "173, 177"}, {"source": "GHA5_CH7", "page": "179–180"}, {"source": "GHA5_CH7", "page": "185"}, null],
    "capitals": [
     {
      "name": "Sennar",
@@ -9433,9 +9433,9 @@
    "end": 1400,
    "prominence": 0.3,
    "key_events": [
-    "Early recorded dynasty of Darfur (dates uncertain)"
+    "Early recorded dynasty of Darfur (oral tradition); flourished in the 13th and 14th centuries"
    ],
-   "key_events_cites": [null],
+   "key_events_cites": [{"source": "GHA5_CH7", "page": "187"}],
    "capitals": [
     {
      "name": "Jebel Marra region",
@@ -9483,9 +9483,9 @@
    "end": 1640,
    "prominence": 0.3,
    "key_events": [
-    "Ruled Darfur and Wadai before the Keira"
+    "Succeeded the Daju early in the 15th century; ruled Darfur and parts of Wadai before the Keira"
    ],
-   "key_events_cites": [null],
+   "key_events_cites": [{"source": "GHA5_CH7", "page": "187"}],
    "capitals": [
     {
      "name": "Ain Farah",
@@ -9539,7 +9539,7 @@
     "Permanent capital grows at al-Fashir under 'Abd al-Rahman (d. 1801–2) (GHA V ch.7 pp.190–191)",
     "Sultan Ibrahim defeated and killed by al-Zubayr at Manawashi, 1874; Darfur annexed to the Turco-Egyptian regime (GHA VI ch.14 p.371)"
    ],
-   "key_events_cites": [null, null, null, null],
+   "key_events_cites": [null, {"source": "GHA5_CH7", "page": "189"}, {"source": "GHA5_CH7", "page": "190–191"}, {"source": "GHA6_CH14", "page": "371"}],
    "capitals": [
     {
      "name": "El Fasher",
@@ -9707,7 +9707,7 @@
     "Holt & Daly: range formerly reached Aba Island (mid-19th c.); raided Arab settlements down the White Nile until early Turco-Egyptian period",
     "Tradition ascribes the Funj foundation to a Shilluk war-band"
    ],
-   "key_events_cites": [null, null, null, null],
+   "key_events_cites": [null, null, null, {"source": "GHA5_CH7", "page": "173"}],
    "capitals": [
     {
      "name": "Fashoda (Kodok)",
@@ -10434,9 +10434,9 @@
    "prominence": 0.7,
    "key_events": [
     "Ezana's conversion to Christianity (4th century)",
-    "Campaign against Meroe/Noba c.350"
+    "Destruction of Meroe in the reign of Ezana, 4th century"
    ],
-   "key_events_cites": [{"source": "GHA2_CH14", "page": "375"}, null],
+   "key_events_cites": [{"source": "GHA2_CH14", "page": "375"}, {"source": "GHA3_CH19", "page": "559"}],
    "capitals": [
     {
      "name": "Aksum",
@@ -10530,10 +10530,10 @@
    "prominence": 0.75,
    "key_events": [
     "Gondar period 1636",
-    "Battle of Gallabat vs Mahdists 1889",
+    "Battle of Gallabat (Matamma) vs Mahdists, 10 March 1889; Emperor Yohannes IV mortally wounded",
     "Adwa 1896"
    ],
-   "key_events_cites": [null, null, null],
+   "key_events_cites": [null, {"source": "GHA7_CH11", "page": "268"}, {"source": "GHA7_CH11", "page": "270–272"}],
    "capitals": [
     {
      "name": "Gondar",
@@ -10743,7 +10743,7 @@
    "key_events": [
     "Idris Alooma 16th c."
    ],
-   "key_events_cites": [null],
+   "key_events_cites": [{"source": "GHAV", "page": "301"}],
    "capitals": [
     {
      "name": "Ngazargamu",
@@ -10795,7 +10795,7 @@
     "Rival and neighbour of Darfur",
     "French conquest 1909–12"
    ],
-   "key_events_cites": [null, null],
+   "key_events_cites": [{"source": "GHA5_CH7", "page": "188"}, null],
    "capitals": [
     {
      "name": "Abéché",
@@ -11314,12 +11314,12 @@
    "end": 1821,
    "prominence": 0.35,
    "key_events": [
-    "Founded by 'Abdallah Jamma' (Rufa'a) at the Blue/White Nile confluence, late 15th c.",
+    "Founded by 'Abdallah Jamma' ('the Gatherer'), chief of an Arab confederacy, after conquering Alwa in the second half of the 15th century",
     "Prospered from tolls on desert nomads",
     "Recognised by Funj sultans as paramount chiefs of the Arabs",
     "Capital Qarri, later Halfayat al-Muluk; an 'Abdallabi chief ruled Quz Rajab on the Atbara"
    ],
-   "key_events_cites": [null, null, null, null],
+   "key_events_cites": [{"source": "GHA5_CH7", "page": "172"}, null, null, null],
    "capitals": [
     {
      "name": "Qarri",
@@ -11377,9 +11377,9 @@
    "key_events": [
     "Tribal kingdom between the Atbara confluence and the Sabaluqa Gorge from the 16th c.",
     "Royal clan the Sa'dab; Mirafab kingdom at Berber to the north",
-    "Shendi became the chief commercial centre of the eastern Bilad al-Sudan by early 19th c., under Makk Nimr"
+    "Shendi a large commercial centre under the autonomous rule of the Sa'dab Ja'aliyyin (Bruce, 1773); by the early 19th c. Burckhardt described it as having succeeded Sennar as the grand rendezvous for Nubian caravans"
    ],
-   "key_events_cites": [null, null, null],
+   "key_events_cites": [null, null, {"source": "GHA5_CH7", "page": "183"}],
    "capitals": [
     {
      "name": "Shendi",
