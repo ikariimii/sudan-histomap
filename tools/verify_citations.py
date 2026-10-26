@@ -111,7 +111,7 @@ def offline():
     for b in bad: print(b,flush=True)
     sys.exit(1 if bad else 0)
 if A.offline: offline()
-U='file://'+os.path.abspath('index.html')
+U='file://'+os.path.abspath('histomap.html')  # index.html now redirects ?select= to /histomap.html (absolute path breaks under file://)
 LIVE=set()
 def _killall(*_):
     for pg in list(LIVE):
@@ -123,7 +123,7 @@ for s in (signal.SIGINT,signal.SIGTERM): signal.signal(s,lambda *a:(_killall(),s
 def run(a):
     p,l=a; url=U+'?lang=%s&select=%s'%(l,urllib.parse.quote(p['name'],safe=''))
     prof=tempfile.mkdtemp(prefix='vc-chrome-')
-    cmd=['google-chrome','--headless=new','--no-sandbox','--disable-gpu','--no-first-run','--disable-extensions',
+    cmd=[os.environ.get('VC_CHROME','google-chrome'),'--headless=new','--no-sandbox','--disable-gpu','--no-first-run','--disable-extensions',
          '--user-data-dir='+prof,'--allow-file-access-from-files','--virtual-time-budget=3000','--dump-dom',url]
     pr=subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.DEVNULL,text=True,start_new_session=True)
     LIVE.add(pr.pid); h=''
