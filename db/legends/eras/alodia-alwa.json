@@ -24,7 +24,8 @@
       "GHA2_CH12",
       "ZH_EMB_HIST2020",
       "WP:Alodia"
-     ]
+     ],
+     "legend_id": "extent:alodia-alwa:idx0"
     },
     {
      "feature_index": 1,
@@ -47,7 +48,8 @@
      "confidence": 0.4,
      "confidence_word": "medium",
      "confidence_style": "solid",
-     "low_confidence_overlay": false
+     "low_confidence_overlay": false,
+     "legend_id": "extent:alodia-alwa:zone-alodia-alwa-core-0"
     },
     {
      "feature_index": 2,
@@ -69,7 +71,8 @@
      "confidence": 0.25,
      "confidence_word": "low",
      "confidence_style": "hatched",
-     "low_confidence_overlay": true
+     "low_confidence_overlay": true,
+     "legend_id": "extent:alodia-alwa:zone-alodia-alwa-claimed-1"
     }
    ],
    "borders_legend": [
@@ -111,7 +114,8 @@
      ],
      "cite": [
       "QASIM_MAWSUA p.1812"
-     ]
+     ],
+     "legend_id": "group:alodia-alwa:rel-funj-06"
     }
    ]
   },
@@ -138,7 +142,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1457914"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:soleb"
     },
     {
      "id": "faras",
@@ -174,7 +179,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q584387"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:faras"
     },
     {
      "id": "qasr-ibrim",
@@ -210,7 +216,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q2121453"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:qasr-ibrim"
     },
     {
      "id": "philae",
@@ -250,7 +257,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q245062"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:philae"
     },
     {
      "id": "abu-simbel",
@@ -268,7 +276,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q134140"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:abu-simbel"
     },
     {
      "id": "old-dongola",
@@ -304,7 +313,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q433112"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:old-dongola"
     },
     {
      "id": "soba",
@@ -338,7 +348,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1247214"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:soba"
     },
     {
      "id": "aswan",
@@ -412,7 +423,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q29888"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:aswan"
     },
     {
      "id": "aksum",
@@ -442,7 +454,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q5832"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:aksum"
     },
     {
      "id": "adulis",
@@ -490,7 +503,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q378940"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:adulis"
     },
     {
      "id": "aidhab",
@@ -542,7 +556,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q404028"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:aidhab"
     },
     {
      "id": "suakin",
@@ -576,7 +591,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q571215"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:suakin"
     },
     {
      "id": "sennar",
@@ -614,7 +630,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q611867"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:sennar"
     },
     {
      "id": "qerri",
@@ -650,7 +667,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q11924140"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:qerri"
     },
     {
      "id": "ain-farah",
@@ -681,7 +699,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q405860"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:ain-farah"
     },
     {
      "id": "fashoda",
@@ -711,7 +730,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1888763"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:fashoda"
     },
     {
      "id": "malakal",
@@ -753,7 +773,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q220049"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:malakal"
     },
     {
      "id": "kufra",
@@ -787,7 +808,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q172114"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:kufra"
     },
     {
      "id": "rumbek",
@@ -808,7 +830,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q607336"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:rumbek"
     },
     {
      "id": "arbaji",
@@ -843,7 +866,8 @@
        "id": "NGA_GNS",
        "page": "UFI 98562051"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:arbaji"
     },
     {
      "id": "alexandria",
@@ -885,7 +909,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q87"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:alexandria"
     },
     {
      "id": "cairo",
@@ -939,7 +964,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q85"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:cairo"
     },
     {
      "id": "fustat",
@@ -969,7 +995,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q839456"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:fustat"
     },
     {
      "id": "ngazargamu",
@@ -999,7 +1026,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1496614"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:ngazargamu"
     },
     {
      "id": "yeha",
@@ -1029,7 +1057,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1081229"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:yeha"
     },
     {
      "id": "lalibela",
@@ -1059,7 +1088,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q207590"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:lalibela"
     },
     {
      "id": "medina",
@@ -1101,7 +1131,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q35484"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:medina"
     },
     {
      "id": "mecca",
@@ -1143,7 +1174,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q5806"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:mecca"
     },
     {
      "id": "thebes",
@@ -1164,7 +1196,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q101583"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:thebes"
     },
     {
      "id": "ballana",
@@ -1194,7 +1227,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q18832705"
       }
-     ]
+     ],
+     "legend_id": "city:alodia-alwa:ballana"
     }
    ]
   },
@@ -1202,7 +1236,32 @@
    "file": "db/group_layers/homelands.geojson",
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
-   "list_only": 7
+   "list_only": 7,
+   "legend_ids": [
+    "homelands:grp-beja-homeland-1",
+    "homelands:grp-beja-homeland-2",
+    "homelands:grp-nubians-homeland-1",
+    "homelands:grp-nubians-homeland-2",
+    "homelands:grp-jaaliyyin-homeland-1",
+    "homelands:grp-shaigiyya-homeland-1",
+    "homelands:grp-funj-homeland-1",
+    "homelands:grp-fur-homeland-1",
+    "homelands:grp-fur-homeland-2",
+    "homelands:grp-abdallab-homeland-1",
+    "homelands:grp-tunjur-homeland-1",
+    "homelands:grp-nuba-homeland-1",
+    "homelands:grp-dinka-homeland-1",
+    "homelands:grp-shilluk-homeland-1"
+   ],
+   "list_only_legend_ids": [
+    "homelands-list:grp-kababish-homeland",
+    "homelands-list:grp-rashaida-homeland",
+    "homelands-list:grp-zaghawa-homeland",
+    "homelands-list:grp-azande-homeland",
+    "homelands-list:grp-nuer-homeland",
+    "homelands-list:grp-masalit-homeland",
+    "homelands-list:grp-baggara-homeland"
+   ]
   },
   "flags": {
    "file": "db/era_symbols.json",
@@ -1263,7 +1322,8 @@
      "signoff": {
       "by": "Sudan Historian",
       "date": "2026-10-24"
-     }
+     },
+     "legend_id": "draft:alodia-alwa:idx0"
     },
     {
      "file": "db/border_drafts/alodia-alwa.geojson",
@@ -1300,7 +1360,8 @@
      "signoff": {
       "by": "Sudan Historian",
       "date": "2026-10-24"
-     }
+     },
+     "legend_id": "draft:alodia-alwa:idx1"
     }
    ]
   },
@@ -1332,7 +1393,8 @@
        "p": "405",
        "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
       }
-     ]
+     ],
+     "legend_id": "battle:alodia-alwa:dongola-642"
     },
     {
      "id": "dongola-652",
@@ -1357,7 +1419,8 @@
        "p": "405",
        "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
       }
-     ]
+     ],
+     "legend_id": "battle:alodia-alwa:dongola-652"
     },
     {
      "id": "arbaji-1504",
@@ -1382,7 +1445,8 @@
        "p": "173",
        "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
       }
-     ]
+     ],
+     "legend_id": "battle:alodia-alwa:arbaji-1504"
     },
     {
      "id": "dongola-1276",
@@ -1407,7 +1471,8 @@
        "p": "419",
        "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
       }
-     ]
+     ],
+     "legend_id": "battle:alodia-alwa:dongola-1276"
     }
    ]
   }
@@ -1466,6 +1531,110 @@
   "cities": 30,
   "battles": 4
  },
+ "legend_rows": [
+  {
+   "row_id": "extents:extent_label_point",
+   "layer": "extents",
+   "symbol_class": "extent_label_point",
+   "n": 1
+  },
+  {
+   "row_id": "extents:zone_core",
+   "layer": "extents",
+   "symbol_class": "zone_core",
+   "n": 1
+  },
+  {
+   "row_id": "extents:zone_claimed",
+   "layer": "extents",
+   "symbol_class": "zone_claimed",
+   "n": 1
+  },
+  {
+   "row_id": "groups:relation_arrow_alliance",
+   "layer": "groups",
+   "symbol_class": "relation_arrow_alliance",
+   "n": 1
+  },
+  {
+   "row_id": "cities:city_other",
+   "layer": "cities",
+   "symbol_class": "city_other",
+   "n": 4
+  },
+  {
+   "row_id": "cities:city_capital",
+   "layer": "cities",
+   "symbol_class": "city_capital",
+   "n": 12
+  },
+  {
+   "row_id": "cities:city_garrison",
+   "layer": "cities",
+   "symbol_class": "city_garrison",
+   "n": 3
+  },
+  {
+   "row_id": "cities:city_religious",
+   "layer": "cities",
+   "symbol_class": "city_religious",
+   "n": 6
+  },
+  {
+   "row_id": "cities:city_port",
+   "layer": "cities",
+   "symbol_class": "city_port",
+   "n": 2
+  },
+  {
+   "row_id": "cities:city_town",
+   "layer": "cities",
+   "symbol_class": "city_town",
+   "n": 2
+  },
+  {
+   "row_id": "cities:city_political_centre",
+   "layer": "cities",
+   "symbol_class": "city_political_centre",
+   "n": 1
+  },
+  {
+   "row_id": "border_drafts:zone_core",
+   "layer": "border_drafts",
+   "symbol_class": "zone_core",
+   "n": 1
+  },
+  {
+   "row_id": "border_drafts:zone_claimed",
+   "layer": "border_drafts",
+   "symbol_class": "zone_claimed",
+   "n": 1
+  },
+  {
+   "row_id": "battles:battle_region",
+   "layer": "battles",
+   "symbol_class": "battle_region",
+   "n": 1
+  },
+  {
+   "row_id": "battles:battle_approximate",
+   "layer": "battles",
+   "symbol_class": "battle_approximate",
+   "n": 3
+  },
+  {
+   "row_id": "homelands:homeland_point",
+   "layer": "homelands",
+   "symbol_class": "homeland_point",
+   "n": 14
+  },
+  {
+   "row_id": "homelands:list_only_text",
+   "layer": "homelands",
+   "symbol_class": "list_only_text",
+   "n": 7
+  }
+ ],
  "context": {
   "key_events_en": [
    "Christian kingdom on the Blue/White Nile",

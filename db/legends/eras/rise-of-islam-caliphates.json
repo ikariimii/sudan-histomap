@@ -22,7 +22,8 @@
      "source_ids": [
       "GHA3_CH2",
       "GHA3_CH3"
-     ]
+     ],
+     "legend_id": "extent:rise-of-islam-caliphates:idx0"
     }
    ],
    "borders_legend": [
@@ -59,7 +60,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1457914"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:soleb"
     },
     {
      "id": "faras",
@@ -95,7 +97,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q584387"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:faras"
     },
     {
      "id": "qasr-ibrim",
@@ -131,7 +134,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q2121453"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:qasr-ibrim"
     },
     {
      "id": "abu-simbel",
@@ -149,7 +153,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q134140"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:abu-simbel"
     },
     {
      "id": "old-dongola",
@@ -185,7 +190,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q433112"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:old-dongola"
     },
     {
      "id": "soba",
@@ -219,7 +225,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1247214"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:soba"
     },
     {
      "id": "aswan",
@@ -293,7 +300,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q29888"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:aswan"
     },
     {
      "id": "aksum",
@@ -323,7 +331,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q5832"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:aksum"
     },
     {
      "id": "adulis",
@@ -371,7 +380,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q378940"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:adulis"
     },
     {
      "id": "aidhab",
@@ -423,7 +433,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q404028"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:aidhab"
     },
     {
      "id": "suakin",
@@ -457,7 +468,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q571215"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:suakin"
     },
     {
      "id": "kufra",
@@ -491,7 +503,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q172114"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:kufra"
     },
     {
      "id": "alexandria",
@@ -533,7 +546,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q87"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:alexandria"
     },
     {
      "id": "cairo",
@@ -587,7 +601,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q85"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:cairo"
     },
     {
      "id": "fustat",
@@ -617,7 +632,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q839456"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:fustat"
     },
     {
      "id": "yeha",
@@ -647,7 +663,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1081229"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:yeha"
     },
     {
      "id": "lalibela",
@@ -677,7 +694,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q207590"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:lalibela"
     },
     {
      "id": "medina",
@@ -719,7 +737,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q35484"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:medina"
     },
     {
      "id": "mecca",
@@ -761,7 +780,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q5806"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:mecca"
     },
     {
      "id": "thebes",
@@ -782,7 +802,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q101583"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:thebes"
     },
     {
      "id": "ballana",
@@ -812,7 +833,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q18832705"
       }
-     ]
+     ],
+     "legend_id": "city:rise-of-islam-caliphates:ballana"
     }
    ]
   },
@@ -820,7 +842,32 @@
    "file": "db/group_layers/homelands.geojson",
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
-   "list_only": 7
+   "list_only": 7,
+   "legend_ids": [
+    "homelands:grp-beja-homeland-1",
+    "homelands:grp-beja-homeland-2",
+    "homelands:grp-nubians-homeland-1",
+    "homelands:grp-nubians-homeland-2",
+    "homelands:grp-jaaliyyin-homeland-1",
+    "homelands:grp-shaigiyya-homeland-1",
+    "homelands:grp-funj-homeland-1",
+    "homelands:grp-fur-homeland-1",
+    "homelands:grp-fur-homeland-2",
+    "homelands:grp-abdallab-homeland-1",
+    "homelands:grp-tunjur-homeland-1",
+    "homelands:grp-nuba-homeland-1",
+    "homelands:grp-dinka-homeland-1",
+    "homelands:grp-shilluk-homeland-1"
+   ],
+   "list_only_legend_ids": [
+    "homelands-list:grp-kababish-homeland",
+    "homelands-list:grp-rashaida-homeland",
+    "homelands-list:grp-zaghawa-homeland",
+    "homelands-list:grp-azande-homeland",
+    "homelands-list:grp-nuer-homeland",
+    "homelands-list:grp-masalit-homeland",
+    "homelands-list:grp-baggara-homeland"
+   ]
   },
   "flags": {
    "file": "db/era_symbols.json",
@@ -876,7 +923,8 @@
        "p": "405",
        "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
       }
-     ]
+     ],
+     "legend_id": "battle:rise-of-islam-caliphates:dongola-642"
     },
     {
      "id": "dongola-652",
@@ -901,7 +949,8 @@
        "p": "405",
        "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
       }
-     ]
+     ],
+     "legend_id": "battle:rise-of-islam-caliphates:dongola-652"
     }
    ]
   }
@@ -944,6 +993,74 @@
   "cities": 21,
   "battles": 2
  },
+ "legend_rows": [
+  {
+   "row_id": "extents:extent_label_point",
+   "layer": "extents",
+   "symbol_class": "extent_label_point",
+   "n": 1
+  },
+  {
+   "row_id": "cities:city_other",
+   "layer": "cities",
+   "symbol_class": "city_other",
+   "n": 3
+  },
+  {
+   "row_id": "cities:city_capital",
+   "layer": "cities",
+   "symbol_class": "city_capital",
+   "n": 8
+  },
+  {
+   "row_id": "cities:city_garrison",
+   "layer": "cities",
+   "symbol_class": "city_garrison",
+   "n": 3
+  },
+  {
+   "row_id": "cities:city_port",
+   "layer": "cities",
+   "symbol_class": "city_port",
+   "n": 2
+  },
+  {
+   "row_id": "cities:city_religious",
+   "layer": "cities",
+   "symbol_class": "city_religious",
+   "n": 4
+  },
+  {
+   "row_id": "cities:city_political_centre",
+   "layer": "cities",
+   "symbol_class": "city_political_centre",
+   "n": 1
+  },
+  {
+   "row_id": "battles:battle_region",
+   "layer": "battles",
+   "symbol_class": "battle_region",
+   "n": 1
+  },
+  {
+   "row_id": "battles:battle_approximate",
+   "layer": "battles",
+   "symbol_class": "battle_approximate",
+   "n": 1
+  },
+  {
+   "row_id": "homelands:homeland_point",
+   "layer": "homelands",
+   "symbol_class": "homeland_point",
+   "n": 14
+  },
+  {
+   "row_id": "homelands:list_only_text",
+   "layer": "homelands",
+   "symbol_class": "list_only_text",
+   "n": 7
+  }
+ ],
  "context": {
   "key_events_en": [
    "First Hijra to Aksum c.615",

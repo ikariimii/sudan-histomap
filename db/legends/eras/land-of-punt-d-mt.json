@@ -22,7 +22,8 @@
      "source_ids": [
       "GHA2_CH13",
       "GHA2_CH4"
-     ]
+     ],
+     "legend_id": "extent:land-of-punt-d-mt:idx0"
     }
    ],
    "borders_legend": [
@@ -72,7 +73,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q743282"
       }
-     ]
+     ],
+     "legend_id": "city:land-of-punt-d-mt:napata"
     },
     {
      "id": "jebel-barkal",
@@ -108,7 +110,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q499019"
       }
-     ]
+     ],
+     "legend_id": "city:land-of-punt-d-mt:jebel-barkal"
     },
     {
      "id": "el-kurru",
@@ -144,7 +147,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q2119834"
       }
-     ]
+     ],
+     "legend_id": "city:land-of-punt-d-mt:el-kurru"
     },
     {
      "id": "nuri",
@@ -180,7 +184,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q2119839"
       }
-     ]
+     ],
+     "legend_id": "city:land-of-punt-d-mt:nuri"
     },
     {
      "id": "soleb",
@@ -202,7 +207,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1457914"
       }
-     ]
+     ],
+     "legend_id": "city:land-of-punt-d-mt:soleb"
     },
     {
      "id": "abu-simbel",
@@ -220,7 +226,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q134140"
       }
-     ]
+     ],
+     "legend_id": "city:land-of-punt-d-mt:abu-simbel"
     },
     {
      "id": "aswan",
@@ -294,7 +301,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q29888"
       }
-     ]
+     ],
+     "legend_id": "city:land-of-punt-d-mt:aswan"
     },
     {
      "id": "kawa",
@@ -316,7 +324,8 @@
        "id": "SARS_KAWA",
        "page": "project page"
       }
-     ]
+     ],
+     "legend_id": "city:land-of-punt-d-mt:kawa"
     },
     {
      "id": "yeha",
@@ -346,7 +355,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1081229"
       }
-     ]
+     ],
+     "legend_id": "city:land-of-punt-d-mt:yeha"
     }
    ]
   },
@@ -354,7 +364,32 @@
    "file": "db/group_layers/homelands.geojson",
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
-   "list_only": 7
+   "list_only": 7,
+   "legend_ids": [
+    "homelands:grp-beja-homeland-1",
+    "homelands:grp-beja-homeland-2",
+    "homelands:grp-nubians-homeland-1",
+    "homelands:grp-nubians-homeland-2",
+    "homelands:grp-jaaliyyin-homeland-1",
+    "homelands:grp-shaigiyya-homeland-1",
+    "homelands:grp-funj-homeland-1",
+    "homelands:grp-fur-homeland-1",
+    "homelands:grp-fur-homeland-2",
+    "homelands:grp-abdallab-homeland-1",
+    "homelands:grp-tunjur-homeland-1",
+    "homelands:grp-nuba-homeland-1",
+    "homelands:grp-dinka-homeland-1",
+    "homelands:grp-shilluk-homeland-1"
+   ],
+   "list_only_legend_ids": [
+    "homelands-list:grp-kababish-homeland",
+    "homelands-list:grp-rashaida-homeland",
+    "homelands-list:grp-zaghawa-homeland",
+    "homelands-list:grp-azande-homeland",
+    "homelands-list:grp-nuer-homeland",
+    "homelands-list:grp-masalit-homeland",
+    "homelands-list:grp-baggara-homeland"
+   ]
   },
   "flags": {
    "file": "db/era_symbols.json",
@@ -410,7 +445,8 @@
        "p": "92",
        "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
       }
-     ]
+     ],
+     "legend_id": "battle:land-of-punt-d-mt:kerma--1500"
     },
     {
      "id": "kerma--593",
@@ -435,7 +471,8 @@
        "p": "164–165",
        "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
       }
-     ]
+     ],
+     "legend_id": "battle:land-of-punt-d-mt:kerma--593"
     },
     {
      "id": "memphis--720",
@@ -470,7 +507,8 @@
        "p": "280",
        "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
       }
-     ]
+     ],
+     "legend_id": "battle:land-of-punt-d-mt:memphis--720"
     }
    ]
   }
@@ -508,6 +546,62 @@
   "cities": 9,
   "battles": 3
  },
+ "legend_rows": [
+  {
+   "row_id": "extents:extent_label_point",
+   "layer": "extents",
+   "symbol_class": "extent_label_point",
+   "n": 1
+  },
+  {
+   "row_id": "cities:city_capital",
+   "layer": "cities",
+   "symbol_class": "city_capital",
+   "n": 1
+  },
+  {
+   "row_id": "cities:city_religious",
+   "layer": "cities",
+   "symbol_class": "city_religious",
+   "n": 4
+  },
+  {
+   "row_id": "cities:city_other",
+   "layer": "cities",
+   "symbol_class": "city_other",
+   "n": 3
+  },
+  {
+   "row_id": "cities:city_garrison",
+   "layer": "cities",
+   "symbol_class": "city_garrison",
+   "n": 1
+  },
+  {
+   "row_id": "battles:battle_approximate",
+   "layer": "battles",
+   "symbol_class": "battle_approximate",
+   "n": 2
+  },
+  {
+   "row_id": "battles:battle_region",
+   "layer": "battles",
+   "symbol_class": "battle_region",
+   "n": 1
+  },
+  {
+   "row_id": "homelands:homeland_point",
+   "layer": "homelands",
+   "symbol_class": "homeland_point",
+   "n": 14
+  },
+  {
+   "row_id": "homelands:list_only_text",
+   "layer": "homelands",
+   "symbol_class": "list_only_text",
+   "n": 7
+  }
+ ],
  "context": {
   "key_events_en": [
    "D'mt kingdom in Eritrea/Tigray"

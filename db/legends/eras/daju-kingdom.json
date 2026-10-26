@@ -23,7 +23,8 @@
      "source_ids": [
       "OFAHEY2008",
       "WP:Daju_people"
-     ]
+     ],
+     "legend_id": "extent:daju-kingdom:idx0"
     },
     {
      "feature_index": 1,
@@ -45,7 +46,8 @@
      "confidence": 0.3,
      "confidence_word": "low",
      "confidence_style": "solid",
-     "low_confidence_overlay": false
+     "low_confidence_overlay": false,
+     "legend_id": "extent:daju-kingdom:zone-daju-kingdom-core-0"
     }
    ],
    "borders_legend": [
@@ -90,7 +92,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1457914"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:soleb"
     },
     {
      "id": "qasr-ibrim",
@@ -126,7 +129,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q2121453"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:qasr-ibrim"
     },
     {
      "id": "abu-simbel",
@@ -144,7 +148,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q134140"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:abu-simbel"
     },
     {
      "id": "old-dongola",
@@ -180,7 +185,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q433112"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:old-dongola"
     },
     {
      "id": "soba",
@@ -214,7 +220,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1247214"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:soba"
     },
     {
      "id": "aswan",
@@ -288,7 +295,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q29888"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:aswan"
     },
     {
      "id": "aksum",
@@ -318,7 +326,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q5832"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:aksum"
     },
     {
      "id": "aidhab",
@@ -370,7 +379,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q404028"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:aidhab"
     },
     {
      "id": "suakin",
@@ -404,7 +414,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q571215"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:suakin"
     },
     {
      "id": "ain-farah",
@@ -435,7 +446,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q405860"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:ain-farah"
     },
     {
      "id": "kufra",
@@ -469,7 +481,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q172114"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:kufra"
     },
     {
      "id": "alexandria",
@@ -511,7 +524,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q87"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:alexandria"
     },
     {
      "id": "cairo",
@@ -565,7 +579,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q85"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:cairo"
     },
     {
      "id": "fustat",
@@ -595,7 +610,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q839456"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:fustat"
     },
     {
      "id": "ngazargamu",
@@ -625,7 +641,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1496614"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:ngazargamu"
     },
     {
      "id": "yeha",
@@ -655,7 +672,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1081229"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:yeha"
     },
     {
      "id": "lalibela",
@@ -685,7 +703,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q207590"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:lalibela"
     },
     {
      "id": "medina",
@@ -727,7 +746,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q35484"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:medina"
     },
     {
      "id": "mecca",
@@ -769,7 +789,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q5806"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:mecca"
     },
     {
      "id": "thebes",
@@ -790,7 +811,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q101583"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:thebes"
     },
     {
      "id": "ballana",
@@ -820,7 +842,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q18832705"
       }
-     ]
+     ],
+     "legend_id": "city:daju-kingdom:ballana"
     }
    ]
   },
@@ -828,7 +851,32 @@
    "file": "db/group_layers/homelands.geojson",
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
-   "list_only": 7
+   "list_only": 7,
+   "legend_ids": [
+    "homelands:grp-beja-homeland-1",
+    "homelands:grp-beja-homeland-2",
+    "homelands:grp-nubians-homeland-1",
+    "homelands:grp-nubians-homeland-2",
+    "homelands:grp-jaaliyyin-homeland-1",
+    "homelands:grp-shaigiyya-homeland-1",
+    "homelands:grp-funj-homeland-1",
+    "homelands:grp-fur-homeland-1",
+    "homelands:grp-fur-homeland-2",
+    "homelands:grp-abdallab-homeland-1",
+    "homelands:grp-tunjur-homeland-1",
+    "homelands:grp-nuba-homeland-1",
+    "homelands:grp-dinka-homeland-1",
+    "homelands:grp-shilluk-homeland-1"
+   ],
+   "list_only_legend_ids": [
+    "homelands-list:grp-kababish-homeland",
+    "homelands-list:grp-rashaida-homeland",
+    "homelands-list:grp-zaghawa-homeland",
+    "homelands-list:grp-azande-homeland",
+    "homelands-list:grp-nuer-homeland",
+    "homelands-list:grp-masalit-homeland",
+    "homelands-list:grp-baggara-homeland"
+   ]
   },
   "flags": {
    "file": "db/era_symbols.json",
@@ -888,7 +936,8 @@
      "signoff": {
       "by": "Sudan Historian",
       "date": "2026-10-24"
-     }
+     },
+     "legend_id": "draft:daju-kingdom:idx0"
     }
    ]
   },
@@ -920,7 +969,8 @@
        "p": "419",
        "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
       }
-     ]
+     ],
+     "legend_id": "battle:daju-kingdom:dongola-1276"
     }
    ]
   }
@@ -966,6 +1016,80 @@
   "cities": 21,
   "battles": 1
  },
+ "legend_rows": [
+  {
+   "row_id": "extents:extent_label_point",
+   "layer": "extents",
+   "symbol_class": "extent_label_point",
+   "n": 1
+  },
+  {
+   "row_id": "extents:zone_core",
+   "layer": "extents",
+   "symbol_class": "zone_core",
+   "n": 1
+  },
+  {
+   "row_id": "cities:city_other",
+   "layer": "cities",
+   "symbol_class": "city_other",
+   "n": 3
+  },
+  {
+   "row_id": "cities:city_garrison",
+   "layer": "cities",
+   "symbol_class": "city_garrison",
+   "n": 3
+  },
+  {
+   "row_id": "cities:city_capital",
+   "layer": "cities",
+   "symbol_class": "city_capital",
+   "n": 8
+  },
+  {
+   "row_id": "cities:city_port",
+   "layer": "cities",
+   "symbol_class": "city_port",
+   "n": 1
+  },
+  {
+   "row_id": "cities:city_religious",
+   "layer": "cities",
+   "symbol_class": "city_religious",
+   "n": 5
+  },
+  {
+   "row_id": "cities:city_political_centre",
+   "layer": "cities",
+   "symbol_class": "city_political_centre",
+   "n": 1
+  },
+  {
+   "row_id": "border_drafts:zone_core",
+   "layer": "border_drafts",
+   "symbol_class": "zone_core",
+   "n": 1
+  },
+  {
+   "row_id": "battles:battle_approximate",
+   "layer": "battles",
+   "symbol_class": "battle_approximate",
+   "n": 1
+  },
+  {
+   "row_id": "homelands:homeland_point",
+   "layer": "homelands",
+   "symbol_class": "homeland_point",
+   "n": 14
+  },
+  {
+   "row_id": "homelands:list_only_text",
+   "layer": "homelands",
+   "symbol_class": "list_only_text",
+   "n": 7
+  }
+ ],
  "context": {
   "key_events_en": [
    "Early recorded dynasty of Darfur (dates uncertain)"

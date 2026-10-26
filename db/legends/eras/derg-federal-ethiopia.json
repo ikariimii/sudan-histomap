@@ -23,7 +23,8 @@
      "source_ids": [
       "OHM_2803440",
       "LOC_ETH1991_BORDER"
-     ]
+     ],
+     "legend_id": "extent:derg-federal-ethiopia:idx0"
     },
     {
      "feature_index": 1,
@@ -39,7 +40,8 @@
      "end": 1993,
      "source_ids": [
       "OHM_2885943"
-     ]
+     ],
+     "legend_id": "extent:derg-federal-ethiopia:idx1"
     },
     {
      "feature_index": 2,
@@ -54,7 +56,8 @@
       "NATURAL_EARTH",
       "OHM_2803439",
       "GEO-015"
-     ]
+     ],
+     "legend_id": "extent:derg-federal-ethiopia:idx2"
     },
     {
      "feature_index": 3,
@@ -70,7 +73,8 @@
      "source_ids": [
       "GEO-015",
       "LOC_ETH1991_BORDER"
-     ]
+     ],
+     "legend_id": "extent-list:derg-federal-ethiopia:idx3"
     },
     {
      "feature_index": 4,
@@ -86,7 +90,8 @@
      "source_ids": [
       "EEBC2002",
       "ICG_ETH_ERI"
-     ]
+     ],
+     "legend_id": "extent:derg-federal-ethiopia:idx4"
     }
    ],
    "borders_legend": [
@@ -131,7 +136,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1457914"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:soleb"
     },
     {
      "id": "abu-simbel",
@@ -149,7 +155,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q134140"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:abu-simbel"
     },
     {
      "id": "aswan",
@@ -223,7 +230,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q29888"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:aswan"
     },
     {
      "id": "aksum",
@@ -253,7 +261,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q5832"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:aksum"
     },
     {
      "id": "suakin",
@@ -287,7 +296,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q571215"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:suakin"
     },
     {
      "id": "sennar",
@@ -325,7 +335,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q611867"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:sennar"
     },
     {
      "id": "ain-farah",
@@ -356,7 +367,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q405860"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:ain-farah"
     },
     {
      "id": "shendi",
@@ -414,7 +426,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q997838"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:shendi"
     },
     {
      "id": "berber",
@@ -444,7 +457,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q375935"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:berber"
     },
     {
      "id": "metemma-ethiopia",
@@ -465,7 +479,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1246740"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:metemma-ethiopia"
     },
     {
      "id": "gallabat",
@@ -486,7 +501,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1014416"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:gallabat"
     },
     {
      "id": "korti",
@@ -507,7 +523,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q472841"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:korti"
     },
     {
      "id": "el-obeid",
@@ -537,7 +554,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q309475"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:el-obeid"
     },
     {
      "id": "gondar",
@@ -567,7 +585,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q218861"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:gondar"
     },
     {
      "id": "massawa",
@@ -601,7 +620,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q275635"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:massawa"
     },
     {
      "id": "fashoda",
@@ -631,7 +651,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1888763"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:fashoda"
     },
     {
      "id": "khartoum",
@@ -717,7 +738,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1963"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:khartoum"
     },
     {
      "id": "omdurman",
@@ -738,7 +760,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q180921"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:omdurman"
     },
     {
      "id": "port-sudan",
@@ -759,7 +782,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q208718"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:port-sudan"
     },
     {
      "id": "kassala",
@@ -780,7 +804,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q686813"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:kassala"
     },
     {
      "id": "wad-madani",
@@ -810,7 +835,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q852528"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:wad-madani"
     },
     {
      "id": "juba",
@@ -852,7 +878,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1947"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:juba"
     },
     {
      "id": "malakal",
@@ -894,7 +921,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q220049"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:malakal"
     },
     {
      "id": "wau",
@@ -924,7 +952,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q276534"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:wau"
     },
     {
      "id": "asmara",
@@ -954,7 +983,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q3642"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:asmara"
     },
     {
      "id": "ndjamena",
@@ -984,7 +1014,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q3659"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:ndjamena"
     },
     {
      "id": "kufra",
@@ -1018,7 +1049,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q172114"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:kufra"
     },
     {
      "id": "bangui",
@@ -1035,7 +1067,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q3832"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:bangui"
     },
     {
      "id": "atbara",
@@ -1060,7 +1093,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q753906"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:atbara"
     },
     {
      "id": "gedaref",
@@ -1081,7 +1115,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q311199"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:gedaref"
     },
     {
      "id": "bor",
@@ -1111,7 +1146,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q893274"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:bor"
     },
     {
      "id": "rumbek",
@@ -1132,7 +1168,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q607336"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:rumbek"
     },
     {
      "id": "tokar",
@@ -1153,7 +1190,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1010754"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:tokar"
     },
     {
      "id": "mekelle",
@@ -1174,7 +1212,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q332319"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:mekelle"
     },
     {
      "id": "arbaji",
@@ -1209,7 +1248,8 @@
        "id": "NGA_GNS",
        "page": "UFI 98562051"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:arbaji"
     },
     {
      "id": "el-matamma",
@@ -1235,7 +1275,8 @@
        "id": "MACMICHAEL1922_V1",
        "page": "235"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:el-matamma"
     },
     {
      "id": "alexandria",
@@ -1277,7 +1318,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q87"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:alexandria"
     },
     {
      "id": "cairo",
@@ -1331,7 +1373,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q85"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:cairo"
     },
     {
      "id": "fustat",
@@ -1361,7 +1404,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q839456"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:fustat"
     },
     {
      "id": "ngazargamu",
@@ -1391,7 +1435,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1496614"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:ngazargamu"
     },
     {
      "id": "yeha",
@@ -1421,7 +1466,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1081229"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:yeha"
     },
     {
      "id": "lalibela",
@@ -1451,7 +1497,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q207590"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:lalibela"
     },
     {
      "id": "medina",
@@ -1493,7 +1540,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q35484"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:medina"
     },
     {
      "id": "mecca",
@@ -1535,7 +1583,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q5806"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:mecca"
     },
     {
      "id": "addis-ababa",
@@ -1565,7 +1614,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q3624"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:addis-ababa"
     },
     {
      "id": "thebes",
@@ -1586,7 +1636,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q101583"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:thebes"
     },
     {
      "id": "ballana",
@@ -1616,7 +1667,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q18832705"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:ballana"
     },
     {
      "id": "tripoli",
@@ -1646,7 +1698,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q3579"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:tripoli"
     },
     {
      "id": "benghazi",
@@ -1676,7 +1729,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q40816"
       }
-     ]
+     ],
+     "legend_id": "city:derg-federal-ethiopia:benghazi"
     }
    ]
   },
@@ -1684,7 +1738,32 @@
    "file": "db/group_layers/homelands.geojson",
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
-   "list_only": 7
+   "list_only": 7,
+   "legend_ids": [
+    "homelands:grp-beja-homeland-1",
+    "homelands:grp-beja-homeland-2",
+    "homelands:grp-nubians-homeland-1",
+    "homelands:grp-nubians-homeland-2",
+    "homelands:grp-jaaliyyin-homeland-1",
+    "homelands:grp-shaigiyya-homeland-1",
+    "homelands:grp-funj-homeland-1",
+    "homelands:grp-fur-homeland-1",
+    "homelands:grp-fur-homeland-2",
+    "homelands:grp-abdallab-homeland-1",
+    "homelands:grp-tunjur-homeland-1",
+    "homelands:grp-nuba-homeland-1",
+    "homelands:grp-dinka-homeland-1",
+    "homelands:grp-shilluk-homeland-1"
+   ],
+   "list_only_legend_ids": [
+    "homelands-list:grp-kababish-homeland",
+    "homelands-list:grp-rashaida-homeland",
+    "homelands-list:grp-zaghawa-homeland",
+    "homelands-list:grp-azande-homeland",
+    "homelands-list:grp-nuer-homeland",
+    "homelands-list:grp-masalit-homeland",
+    "homelands-list:grp-baggara-homeland"
+   ]
   },
   "flags": {
    "file": "db/era_symbols.json",
@@ -1762,7 +1841,8 @@
        "p": "Ch. II (government offensive), note 5; Ch. IV (battle for Juba)",
        "u": "https://www.hrw.org/reports/1993/sudan/"
       }
-     ]
+     ],
+     "legend_id": "battle:derg-federal-ethiopia:juba-1992"
     },
     {
      "id": "bor-1992",
@@ -1787,7 +1867,8 @@
        "p": "Ch. II, 1992 dry-season offensive (three-prong advance)",
        "u": "https://www.hrw.org/reports/1993/sudan/"
       }
-     ]
+     ],
+     "legend_id": "battle:derg-federal-ethiopia:bor-1992"
     },
     {
      "id": "kapoeta-1992",
@@ -1812,7 +1893,8 @@
        "p": "Ch. II, \"Indiscriminate Government Bombing and the Capture of Kapoeta and Torit in 1992\"",
        "u": "https://www.hrw.org/reports/1993/sudan/"
       }
-     ]
+     ],
+     "legend_id": "battle:derg-federal-ethiopia:kapoeta-1992"
     },
     {
      "id": "torit-1992",
@@ -1837,7 +1919,8 @@
        "p": "Ch. II, \"Capture of Kapoeta and Torit in 1992\"",
        "u": "https://www.hrw.org/reports/1993/sudan/"
       }
-     ]
+     ],
+     "legend_id": "battle:derg-federal-ethiopia:torit-1992"
     },
     {
      "id": "el-fasher-2003",
@@ -1862,7 +1945,8 @@
        "p": "\"Darfur in Flames\" (Apr 2004), section \"Background\"",
        "u": "https://www.hrw.org/reports/2004/sudan0404/3.htm"
       }
-     ]
+     ],
+     "legend_id": "battle:derg-federal-ethiopia:el-fasher-2003"
     },
     {
      "id": "omdurman-2008",
@@ -1887,7 +1971,8 @@
        "p": "p.1, para 1",
        "u": "https://documents.un.org/api/symbol/access?s=S/PRST/2008/15&l=en&t=pdf"
       }
-     ]
+     ],
+     "legend_id": "battle:derg-federal-ethiopia:omdurman-2008"
     },
     {
      "id": "kadugli-2011",
@@ -1912,7 +1997,8 @@
        "p": "para 1 (p.2)",
        "u": "https://reliefweb.int/sites/reliefweb.int/files/resources/Full_report_217.pdf"
       }
-     ]
+     ],
+     "legend_id": "battle:derg-federal-ethiopia:kadugli-2011"
     },
     {
      "id": "heglig-2012",
@@ -1937,7 +2023,8 @@
        "p": "p.1, paras 1–2; also UNSC2046 preamble",
        "u": "https://documents.un.org/api/symbol/access?s=S/PRST/2012/12&l=en&t=pdf"
       }
-     ]
+     ],
+     "legend_id": "battle:derg-federal-ethiopia:heglig-2012"
     },
     {
      "id": "bor-2013",
@@ -1962,7 +2049,8 @@
        "p": "paras 41, 91–92 (pp.16, 25)",
        "u": "https://unmiss.unmissions.org/sites/default/files/unmiss_conflict_in_south_sudan_-_a_human_rights_report.pdf"
       }
-     ]
+     ],
+     "legend_id": "battle:derg-federal-ethiopia:bor-2013"
     },
     {
      "id": "malakal-2013",
@@ -1987,7 +2075,8 @@
        "p": "paras 41, 150 (pp.16, 34)",
        "u": "https://unmiss.unmissions.org/sites/default/files/unmiss_conflict_in_south_sudan_-_a_human_rights_report.pdf"
       }
-     ]
+     ],
+     "legend_id": "battle:derg-federal-ethiopia:malakal-2013"
     },
     {
      "id": "bentiu-2013",
@@ -2012,7 +2101,8 @@
        "p": "paras 41, 192–193 (pp.16, 41)",
        "u": "https://unmiss.unmissions.org/sites/default/files/unmiss_conflict_in_south_sudan_-_a_human_rights_report.pdf"
       }
-     ]
+     ],
+     "legend_id": "battle:derg-federal-ethiopia:bentiu-2013"
     },
     {
      "id": "khartoum-2023",
@@ -2037,7 +2127,8 @@
        "p": "para 4 (PDF p.5)",
        "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
       }
-     ]
+     ],
+     "legend_id": "battle:derg-federal-ethiopia:khartoum-2023"
     },
     {
      "id": "el-geneina-2023",
@@ -2062,7 +2153,8 @@
        "p": "Table 1 (PDF p.6); sect. VI",
        "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
       }
-     ]
+     ],
+     "legend_id": "battle:derg-federal-ethiopia:el-geneina-2023"
     },
     {
      "id": "nyala-2023",
@@ -2087,7 +2179,8 @@
        "p": "Table 1 (PDF p.6); sect. VII",
        "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
       }
-     ]
+     ],
+     "legend_id": "battle:derg-federal-ethiopia:nyala-2023"
     },
     {
      "id": "zalingei-2023",
@@ -2112,7 +2205,8 @@
        "p": "Table 1 (PDF p.6)",
        "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
       }
-     ]
+     ],
+     "legend_id": "battle:derg-federal-ethiopia:zalingei-2023"
     },
     {
      "id": "ardamatta-2023",
@@ -2137,7 +2231,8 @@
        "p": "Table 1 (PDF p.6); sect. VI",
        "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
       }
-     ]
+     ],
+     "legend_id": "battle:derg-federal-ethiopia:ardamatta-2023"
     },
     {
      "id": "el-fasher-2024",
@@ -2162,7 +2257,8 @@
        "p": "para 31 (PDF p.12), sect. III.C.1",
        "u": "https://prod.cdn-medias.theafricareport.com/medias/2026/10/08/final_report_2791.pdf"
       }
-     ]
+     ],
+     "legend_id": "battle:derg-federal-ethiopia:el-fasher-2024"
     }
    ]
   }
@@ -2215,6 +2311,98 @@
   "cities": 49,
   "battles": 17
  },
+ "legend_rows": [
+  {
+   "row_id": "extents:control_extent_approx",
+   "layer": "extents",
+   "symbol_class": "control_extent_approx",
+   "n": 2
+  },
+  {
+   "row_id": "extents:control_extent",
+   "layer": "extents",
+   "symbol_class": "control_extent",
+   "n": 1
+  },
+  {
+   "row_id": "extents:list_only_text",
+   "layer": "extents",
+   "symbol_class": "list_only_text",
+   "n": 1
+  },
+  {
+   "row_id": "extents:contested_point",
+   "layer": "extents",
+   "symbol_class": "contested_point",
+   "n": 1
+  },
+  {
+   "row_id": "cities:city_other",
+   "layer": "cities",
+   "symbol_class": "city_other",
+   "n": 16
+  },
+  {
+   "row_id": "cities:city_garrison",
+   "layer": "cities",
+   "symbol_class": "city_garrison",
+   "n": 4
+  },
+  {
+   "row_id": "cities:city_capital",
+   "layer": "cities",
+   "symbol_class": "city_capital",
+   "n": 15
+  },
+  {
+   "row_id": "cities:city_religious",
+   "layer": "cities",
+   "symbol_class": "city_religious",
+   "n": 5
+  },
+  {
+   "row_id": "cities:city_town",
+   "layer": "cities",
+   "symbol_class": "city_town",
+   "n": 7
+  },
+  {
+   "row_id": "cities:city_port",
+   "layer": "cities",
+   "symbol_class": "city_port",
+   "n": 1
+  },
+  {
+   "row_id": "cities:city_political_centre",
+   "layer": "cities",
+   "symbol_class": "city_political_centre",
+   "n": 1
+  },
+  {
+   "row_id": "battles:battle_approximate",
+   "layer": "battles",
+   "symbol_class": "battle_approximate",
+   "n": 15
+  },
+  {
+   "row_id": "battles:battle_region",
+   "layer": "battles",
+   "symbol_class": "battle_region",
+   "n": 2
+  },
+  {
+   "row_id": "homelands:homeland_point",
+   "layer": "homelands",
+   "symbol_class": "homeland_point",
+   "n": 14
+  },
+  {
+   "row_id": "homelands:list_only_text",
+   "layer": "homelands",
+   "symbol_class": "list_only_text",
+   "n": 7
+  }
+ ],
  "context": {
   "key_events_en": [],
   "key_events_ar": [],

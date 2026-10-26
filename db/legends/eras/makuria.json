@@ -24,7 +24,8 @@
       "OHM_2960090",
       "DERDA_LAJTAR2019",
       "GHA2_CH12"
-     ]
+     ],
+     "legend_id": "extent:makuria:idx0"
     },
     {
      "feature_index": 1,
@@ -42,7 +43,8 @@
       "OHM_2960090",
       "DERDA_LAJTAR2019",
       "GHA2_CH12"
-     ]
+     ],
+     "legend_id": "extent:makuria:idx1"
     },
     {
      "feature_index": 2,
@@ -58,7 +60,8 @@
      "end": 1268,
      "source_ids": [
       "OHM_2960089"
-     ]
+     ],
+     "legend_id": "extent:makuria:idx2"
     },
     {
      "feature_index": 3,
@@ -74,7 +77,8 @@
      "end": 1276,
      "source_ids": [
       "OHM_2960088"
-     ]
+     ],
+     "legend_id": "extent:makuria:idx3"
     },
     {
      "feature_index": 4,
@@ -90,7 +94,8 @@
      "end": 1500,
      "source_ids": [
       "SFDAS_HCS2017"
-     ]
+     ],
+     "legend_id": "extent:makuria:idx4"
     },
     {
      "feature_index": 5,
@@ -106,7 +111,8 @@
      "end": 1500,
      "source_ids": [
       "SFDAS_HCS2017"
-     ]
+     ],
+     "legend_id": "extent:makuria:idx5"
     }
    ],
    "borders_legend": [
@@ -137,7 +143,8 @@
      ],
      "cite": [
       "GHA4_CH16 p.404"
-     ]
+     ],
+     "legend_id": "group-list:makuria:grp-nubians-control-makuria-1"
     },
     {
      "id": "rel-beja-04",
@@ -155,7 +162,8 @@
      ],
      "cite": [
       "GHA4_CH16 p.417"
-     ]
+     ],
+     "legend_id": "group:makuria:rel-beja-04"
     }
    ]
   },
@@ -182,7 +190,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1457914"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:soleb"
     },
     {
      "id": "faras",
@@ -218,7 +227,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q584387"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:faras"
     },
     {
      "id": "qasr-ibrim",
@@ -254,7 +264,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q2121453"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:qasr-ibrim"
     },
     {
      "id": "philae",
@@ -294,7 +305,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q245062"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:philae"
     },
     {
      "id": "abu-simbel",
@@ -312,7 +324,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q134140"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:abu-simbel"
     },
     {
      "id": "old-dongola",
@@ -348,7 +361,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q433112"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:old-dongola"
     },
     {
      "id": "soba",
@@ -382,7 +396,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1247214"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:soba"
     },
     {
      "id": "aswan",
@@ -456,7 +471,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q29888"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:aswan"
     },
     {
      "id": "aksum",
@@ -486,7 +502,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q5832"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:aksum"
     },
     {
      "id": "adulis",
@@ -534,7 +551,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q378940"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:adulis"
     },
     {
      "id": "aidhab",
@@ -586,7 +604,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q404028"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:aidhab"
     },
     {
      "id": "suakin",
@@ -620,7 +639,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q571215"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:suakin"
     },
     {
      "id": "qerri",
@@ -656,7 +676,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q11924140"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:qerri"
     },
     {
      "id": "ain-farah",
@@ -687,7 +708,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q405860"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:ain-farah"
     },
     {
      "id": "fashoda",
@@ -717,7 +739,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1888763"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:fashoda"
     },
     {
      "id": "malakal",
@@ -759,7 +782,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q220049"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:malakal"
     },
     {
      "id": "kufra",
@@ -793,7 +817,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q172114"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:kufra"
     },
     {
      "id": "rumbek",
@@ -814,7 +839,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q607336"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:rumbek"
     },
     {
      "id": "arbaji",
@@ -840,7 +866,8 @@
        "id": "NGA_GNS",
        "page": "UFI 98562051"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:arbaji"
     },
     {
      "id": "alexandria",
@@ -882,7 +909,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q87"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:alexandria"
     },
     {
      "id": "cairo",
@@ -936,7 +964,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q85"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:cairo"
     },
     {
      "id": "fustat",
@@ -966,7 +995,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q839456"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:fustat"
     },
     {
      "id": "ngazargamu",
@@ -996,7 +1026,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1496614"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:ngazargamu"
     },
     {
      "id": "yeha",
@@ -1026,7 +1057,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1081229"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:yeha"
     },
     {
      "id": "lalibela",
@@ -1056,7 +1088,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q207590"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:lalibela"
     },
     {
      "id": "medina",
@@ -1098,7 +1131,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q35484"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:medina"
     },
     {
      "id": "mecca",
@@ -1140,7 +1174,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q5806"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:mecca"
     },
     {
      "id": "thebes",
@@ -1161,7 +1196,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q101583"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:thebes"
     },
     {
      "id": "ballana",
@@ -1191,7 +1227,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q18832705"
       }
-     ]
+     ],
+     "legend_id": "city:makuria:ballana"
     }
    ]
   },
@@ -1199,7 +1236,32 @@
    "file": "db/group_layers/homelands.geojson",
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
-   "list_only": 7
+   "list_only": 7,
+   "legend_ids": [
+    "homelands:grp-beja-homeland-1",
+    "homelands:grp-beja-homeland-2",
+    "homelands:grp-nubians-homeland-1",
+    "homelands:grp-nubians-homeland-2",
+    "homelands:grp-jaaliyyin-homeland-1",
+    "homelands:grp-shaigiyya-homeland-1",
+    "homelands:grp-funj-homeland-1",
+    "homelands:grp-fur-homeland-1",
+    "homelands:grp-fur-homeland-2",
+    "homelands:grp-abdallab-homeland-1",
+    "homelands:grp-tunjur-homeland-1",
+    "homelands:grp-nuba-homeland-1",
+    "homelands:grp-dinka-homeland-1",
+    "homelands:grp-shilluk-homeland-1"
+   ],
+   "list_only_legend_ids": [
+    "homelands-list:grp-kababish-homeland",
+    "homelands-list:grp-rashaida-homeland",
+    "homelands-list:grp-zaghawa-homeland",
+    "homelands-list:grp-azande-homeland",
+    "homelands-list:grp-nuer-homeland",
+    "homelands-list:grp-masalit-homeland",
+    "homelands-list:grp-baggara-homeland"
+   ]
   },
   "flags": {
    "file": "db/era_symbols.json",
@@ -1239,7 +1301,8 @@
       "EDITORIAL",
       "APPROXIMATE"
      ],
-     "cite": "GHA3_CH3"
+     "cite": "GHA3_CH3",
+     "legend_id": "route:makuria:makuria-route-0"
     }
    ]
   },
@@ -1271,7 +1334,8 @@
        "p": "405",
        "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
       }
-     ]
+     ],
+     "legend_id": "battle:makuria:dongola-642"
     },
     {
      "id": "dongola-652",
@@ -1296,7 +1360,8 @@
        "p": "405",
        "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
       }
-     ]
+     ],
+     "legend_id": "battle:makuria:dongola-652"
     },
     {
      "id": "dongola-1276",
@@ -1321,7 +1386,8 @@
        "p": "419",
        "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
       }
-     ]
+     ],
+     "legend_id": "battle:makuria:dongola-1276"
     }
    ]
   }
@@ -1378,6 +1444,104 @@
   "cities": 29,
   "battles": 3
  },
+ "legend_rows": [
+  {
+   "row_id": "extents:control_extent_approx",
+   "layer": "extents",
+   "symbol_class": "control_extent_approx",
+   "n": 4
+  },
+  {
+   "row_id": "extents:extent_label_point",
+   "layer": "extents",
+   "symbol_class": "extent_label_point",
+   "n": 2
+  },
+  {
+   "row_id": "groups:list_only_text",
+   "layer": "groups",
+   "symbol_class": "list_only_text",
+   "n": 1
+  },
+  {
+   "row_id": "groups:relation_arrow_conflict",
+   "layer": "groups",
+   "symbol_class": "relation_arrow_conflict",
+   "n": 1
+  },
+  {
+   "row_id": "cities:city_other",
+   "layer": "cities",
+   "symbol_class": "city_other",
+   "n": 5
+  },
+  {
+   "row_id": "cities:city_capital",
+   "layer": "cities",
+   "symbol_class": "city_capital",
+   "n": 11
+  },
+  {
+   "row_id": "cities:city_garrison",
+   "layer": "cities",
+   "symbol_class": "city_garrison",
+   "n": 3
+  },
+  {
+   "row_id": "cities:city_religious",
+   "layer": "cities",
+   "symbol_class": "city_religious",
+   "n": 6
+  },
+  {
+   "row_id": "cities:city_port",
+   "layer": "cities",
+   "symbol_class": "city_port",
+   "n": 2
+  },
+  {
+   "row_id": "cities:city_town",
+   "layer": "cities",
+   "symbol_class": "city_town",
+   "n": 1
+  },
+  {
+   "row_id": "cities:city_political_centre",
+   "layer": "cities",
+   "symbol_class": "city_political_centre",
+   "n": 1
+  },
+  {
+   "row_id": "trade_routes:trade_route",
+   "layer": "trade_routes",
+   "symbol_class": "trade_route",
+   "n": 1
+  },
+  {
+   "row_id": "battles:battle_region",
+   "layer": "battles",
+   "symbol_class": "battle_region",
+   "n": 1
+  },
+  {
+   "row_id": "battles:battle_approximate",
+   "layer": "battles",
+   "symbol_class": "battle_approximate",
+   "n": 2
+  },
+  {
+   "row_id": "homelands:homeland_point",
+   "layer": "homelands",
+   "symbol_class": "homeland_point",
+   "n": 14
+  },
+  {
+   "row_id": "homelands:list_only_text",
+   "layer": "homelands",
+   "symbol_class": "list_only_text",
+   "n": 7
+  }
+ ],
  "context": {
   "key_events_en": [
    "Repulsed Arab armies at Dongola 651/652 (SFDAS_HCS2017 p.405)",

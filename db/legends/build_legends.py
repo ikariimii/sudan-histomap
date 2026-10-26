@@ -177,6 +177,32 @@ def city_cls(p, s, e):
     rl = roles[0]['role'] if roles else 'other'
     return {'garrison': 'city_garrison', 'religious': 'city_religious', 'port': 'city_port', 'trade': 'city_trade', 'town': 'city_town', 'cult_centre': 'city_cult_centre', 'political_centre': 'city_political_centre'}.get(rl, 'city_other'), roles
 
+LID_PREFIX = {'extents': 'extent', 'groups': 'group', 'cities': 'city', 'battles': 'battle', 'border_drafts': 'draft',
+              'trade_routes': 'route', 'ethno_markers': 'ethno'}
+def legend_ids(out, sl):
+    # stable ids: one per legend ROW (<layer>:<symbol_class>) and one per listed feature. Rows used to be keyed by
+    # symbol_class alone, so homelands list-only and extents/groups list-only rows collided on 'list_only_text'.
+    rows = {}
+    for lk, L in out['layers'].items():
+        if not isinstance(L, dict): continue
+        pf = LID_PREFIX.get(lk, lk)
+        for k, f in enumerate(L.get('features') or []):
+            c = f.get('symbol_class')
+            if not c: continue
+            fid = f.get('id') if f.get('id') is not None else f'idx{k}'
+            f['legend_id'] = (f'{pf}-list:{sl}:{fid}' if c == 'list_only_text' else f'{pf}:{sl}:{fid}')
+            rows[f'{lk}:{c}'] = rows.get(f'{lk}:{c}', 0) + 1
+    h = out['layers']['homelands']
+    h['legend_ids'] = [f"homelands:{f['properties']['id']}" for f in HOM if f['geometry']]
+    h['list_only_legend_ids'] = [f"homelands-list:{f['properties']['id']}" for f in HOM if not f['geometry']]
+    if h['drawn']: rows['homelands:homeland_point'] = h['drawn']
+    if h['list_only']: rows['homelands:list_only_text'] = h['list_only']
+    out['legend_rows'] = [{'row_id': r, 'layer': r.split(':')[0], 'symbol_class': r.split(':')[1], 'n': n} for r, n in rows.items()]
+    ids = [x['row_id'] for x in out['legend_rows']] + [f['legend_id'] for L in out['layers'].values() if isinstance(L, dict)
+           for f in L.get('features') or [] if 'legend_id' in f] + h['legend_ids'] + h['list_only_legend_ids']
+    dup = {i for i in ids if ids.count(i) > 1}
+    assert not dup, (sl, sorted(dup)[:5])
+
 def era(i, p):
     s, e = p['start'], p['end']; sl = slug(p['name'])
     out = {'era_id': sl, 'name_en': p['name'], 'stream': p['stream'], 'start': s, 'end': e,
@@ -268,6 +294,7 @@ def era(i, p):
         out['layers']['battles'] = {'file': 'b.json', 'style_file': 'db/markers/battle_style.json',
                                     'note': 'Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.', 'features': bt}
         for x in bt: cls[x['symbol_class']] = cls.get(x['symbol_class'], 0) + 1
+    legend_ids(out, sl)
     out['symbol_classes_present'] = sorted(cls); out['counts'] = dict(sorted(cls.items()))
     out['counts'].update({'extent_features': len(ext), 'group_features': len(grp), 'cities': len(cit), 'battles': len(bt)})
     out['badges_present'] = sorted(bs)
@@ -294,6 +321,21 @@ def era(i, p):
         'badge_filter': out['badges_present']}
     return out
 
+def toggle_block():
+    # shared, toggle-scoped legend block (DEM / heatmap): same in every era, never merged into era files
+    sp = json.load(open(os.path.join(R, 'db/legends/legend_spec.json'), encoding='utf-8'))['toggle_legends']
+    out = {'scope': sp['scope'], 'source': 'db/legends/legend_spec.json toggle_legends', 'toggles': []}
+    for k in ('dem', 'heatmap'):
+        b = sp[k]
+        css = 'linear-gradient(to right,' + ','.join(f"{c} {round(100*(v-b['domain'][0])/(b['domain'][1]-b['domain'][0]),1)}%" for v, c in b['stops']) + ')'
+        out['toggles'].append({'id': k, 'row_id': f'toggle:{k}', 'show_when_chip_on': b['toggle_key'], 'kind': b['kind'],
+            'label_en': b['title_en'], 'label_ar': b['title_ar'], 'unit': b['unit'], 'domain': b['domain'],
+            'stops': b['stops'], 'css_gradient': css, 'opacity': b.get('opacity', 1), 'ticks': b['ticks'],
+            'tick_format_en': b.get('tick_format_en'), 'tick_format_ar': b.get('tick_format_ar'),
+            'counts': b.get('counts'), 'note_en': b['note_en'], 'note_ar': b['note_ar'], 'drawn_status': b['drawn_status']})
+    json.dump(out, open(os.path.join(R, 'db/legends/toggles.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    print('toggle legend block written')
+
 def main():
     order = sorted(range(len(P)), key=lambda k: (P[k]['stream'], P[k]['start'], P[k]['end']))
     eras = {k: era(k, P[k]) for k in range(len(P))}
@@ -316,4 +358,5 @@ def main():
         o.pop('__sets', None)
         json.dump(o, open(os.path.join(R, 'db/legends/eras', o['era_id'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(len(eras), 'era legends written')
+    toggle_block()
 if __name__ == '__main__': main()

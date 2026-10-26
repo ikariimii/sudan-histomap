@@ -22,7 +22,8 @@
      "source_ids": [
       "GHA2_CH13",
       "GHA2_CH15"
-     ]
+     ],
+     "legend_id": "extent:sabaean-south-arabian-kingdoms:idx0"
     }
    ],
    "borders_legend": [
@@ -80,7 +81,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q743282"
       }
-     ]
+     ],
+     "legend_id": "city:sabaean-south-arabian-kingdoms:napata"
     },
     {
      "id": "jebel-barkal",
@@ -116,7 +118,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q499019"
       }
-     ]
+     ],
+     "legend_id": "city:sabaean-south-arabian-kingdoms:jebel-barkal"
     },
     {
      "id": "el-kurru",
@@ -152,7 +155,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q2119834"
       }
-     ]
+     ],
+     "legend_id": "city:sabaean-south-arabian-kingdoms:el-kurru"
     },
     {
      "id": "nuri",
@@ -188,7 +192,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q2119839"
       }
-     ]
+     ],
+     "legend_id": "city:sabaean-south-arabian-kingdoms:nuri"
     },
     {
      "id": "meroe",
@@ -224,7 +229,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q5780"
       }
-     ]
+     ],
+     "legend_id": "city:sabaean-south-arabian-kingdoms:meroe"
     },
     {
      "id": "musawwarat",
@@ -260,7 +266,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q286426"
       }
-     ]
+     ],
+     "legend_id": "city:sabaean-south-arabian-kingdoms:musawwarat"
     },
     {
      "id": "naqa",
@@ -287,7 +294,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1760360"
       }
-     ]
+     ],
+     "legend_id": "city:sabaean-south-arabian-kingdoms:naqa"
     },
     {
      "id": "wad-ban-naqa",
@@ -323,7 +331,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q2538648"
       }
-     ]
+     ],
+     "legend_id": "city:sabaean-south-arabian-kingdoms:wad-ban-naqa"
     },
     {
      "id": "soleb",
@@ -345,7 +354,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1457914"
       }
-     ]
+     ],
+     "legend_id": "city:sabaean-south-arabian-kingdoms:soleb"
     },
     {
      "id": "qasr-ibrim",
@@ -381,7 +391,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q2121453"
       }
-     ]
+     ],
+     "legend_id": "city:sabaean-south-arabian-kingdoms:qasr-ibrim"
     },
     {
      "id": "abu-simbel",
@@ -399,7 +410,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q134140"
       }
-     ]
+     ],
+     "legend_id": "city:sabaean-south-arabian-kingdoms:abu-simbel"
     },
     {
      "id": "aswan",
@@ -473,7 +485,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q29888"
       }
-     ]
+     ],
+     "legend_id": "city:sabaean-south-arabian-kingdoms:aswan"
     },
     {
      "id": "aksum",
@@ -503,7 +516,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q5832"
       }
-     ]
+     ],
+     "legend_id": "city:sabaean-south-arabian-kingdoms:aksum"
     },
     {
      "id": "adulis",
@@ -551,7 +565,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q378940"
       }
-     ]
+     ],
+     "legend_id": "city:sabaean-south-arabian-kingdoms:adulis"
     },
     {
      "id": "kawa",
@@ -573,7 +588,8 @@
        "id": "SARS_KAWA",
        "page": "project page"
       }
-     ]
+     ],
+     "legend_id": "city:sabaean-south-arabian-kingdoms:kawa"
     },
     {
      "id": "alexandria",
@@ -615,7 +631,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q87"
       }
-     ]
+     ],
+     "legend_id": "city:sabaean-south-arabian-kingdoms:alexandria"
     },
     {
      "id": "yeha",
@@ -645,7 +662,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1081229"
       }
-     ]
+     ],
+     "legend_id": "city:sabaean-south-arabian-kingdoms:yeha"
     },
     {
      "id": "thebes",
@@ -675,7 +693,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q101583"
       }
-     ]
+     ],
+     "legend_id": "city:sabaean-south-arabian-kingdoms:thebes"
     }
    ]
   },
@@ -683,7 +702,32 @@
    "file": "db/group_layers/homelands.geojson",
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
-   "list_only": 7
+   "list_only": 7,
+   "legend_ids": [
+    "homelands:grp-beja-homeland-1",
+    "homelands:grp-beja-homeland-2",
+    "homelands:grp-nubians-homeland-1",
+    "homelands:grp-nubians-homeland-2",
+    "homelands:grp-jaaliyyin-homeland-1",
+    "homelands:grp-shaigiyya-homeland-1",
+    "homelands:grp-funj-homeland-1",
+    "homelands:grp-fur-homeland-1",
+    "homelands:grp-fur-homeland-2",
+    "homelands:grp-abdallab-homeland-1",
+    "homelands:grp-tunjur-homeland-1",
+    "homelands:grp-nuba-homeland-1",
+    "homelands:grp-dinka-homeland-1",
+    "homelands:grp-shilluk-homeland-1"
+   ],
+   "list_only_legend_ids": [
+    "homelands-list:grp-kababish-homeland",
+    "homelands-list:grp-rashaida-homeland",
+    "homelands-list:grp-zaghawa-homeland",
+    "homelands-list:grp-azande-homeland",
+    "homelands-list:grp-nuer-homeland",
+    "homelands-list:grp-masalit-homeland",
+    "homelands-list:grp-baggara-homeland"
+   ]
   },
   "flags": {
    "file": "db/era_symbols.json",
@@ -739,7 +783,8 @@
        "p": "92",
        "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
       }
-     ]
+     ],
+     "legend_id": "battle:sabaean-south-arabian-kingdoms:kerma--1500"
     },
     {
      "id": "kerma--593",
@@ -764,7 +809,8 @@
        "p": "164–165",
        "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
       }
-     ]
+     ],
+     "legend_id": "battle:sabaean-south-arabian-kingdoms:kerma--593"
     },
     {
      "id": "napata--23",
@@ -794,7 +840,8 @@
        "p": "243–244",
        "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
       }
-     ]
+     ],
+     "legend_id": "battle:sabaean-south-arabian-kingdoms:napata--23"
     },
     {
      "id": "memphis--720",
@@ -829,7 +876,8 @@
        "p": "280",
        "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184265"
       }
-     ]
+     ],
+     "legend_id": "battle:sabaean-south-arabian-kingdoms:memphis--720"
     }
    ]
   }
@@ -872,6 +920,74 @@
   "cities": 18,
   "battles": 4
  },
+ "legend_rows": [
+  {
+   "row_id": "extents:extent_label_point",
+   "layer": "extents",
+   "symbol_class": "extent_label_point",
+   "n": 1
+  },
+  {
+   "row_id": "cities:city_capital",
+   "layer": "cities",
+   "symbol_class": "city_capital",
+   "n": 4
+  },
+  {
+   "row_id": "cities:city_religious",
+   "layer": "cities",
+   "symbol_class": "city_religious",
+   "n": 6
+  },
+  {
+   "row_id": "cities:city_other",
+   "layer": "cities",
+   "symbol_class": "city_other",
+   "n": 4
+  },
+  {
+   "row_id": "cities:city_garrison",
+   "layer": "cities",
+   "symbol_class": "city_garrison",
+   "n": 2
+  },
+  {
+   "row_id": "cities:city_port",
+   "layer": "cities",
+   "symbol_class": "city_port",
+   "n": 1
+  },
+  {
+   "row_id": "cities:city_town",
+   "layer": "cities",
+   "symbol_class": "city_town",
+   "n": 1
+  },
+  {
+   "row_id": "battles:battle_approximate",
+   "layer": "battles",
+   "symbol_class": "battle_approximate",
+   "n": 3
+  },
+  {
+   "row_id": "battles:battle_region",
+   "layer": "battles",
+   "symbol_class": "battle_region",
+   "n": 1
+  },
+  {
+   "row_id": "homelands:homeland_point",
+   "layer": "homelands",
+   "symbol_class": "homeland_point",
+   "n": 14
+  },
+  {
+   "row_id": "homelands:list_only_text",
+   "layer": "homelands",
+   "symbol_class": "list_only_text",
+   "n": 7
+  }
+ ],
  "context": {
   "key_events_en": [
    "Incense trade",

@@ -23,7 +23,8 @@
       "GHA5_CH7",
       "WD:Q11924140",
       "HD2011"
-     ]
+     ],
+     "legend_id": "extent:abdallab-chiefdom-funj-vassal:idx0"
     },
     {
      "feature_index": 1,
@@ -45,7 +46,8 @@
      "confidence": 0.4,
      "confidence_word": "medium",
      "confidence_style": "solid",
-     "low_confidence_overlay": false
+     "low_confidence_overlay": false,
+     "legend_id": "extent:abdallab-chiefdom-funj-vassal:zone-abdallab-chiefdom-funj-vassal-core-0"
     },
     {
      "feature_index": 2,
@@ -67,7 +69,8 @@
      "confidence": 0.25,
      "confidence_word": "low",
      "confidence_style": "hatched",
-     "low_confidence_overlay": true
+     "low_confidence_overlay": true,
+     "legend_id": "extent:abdallab-chiefdom-funj-vassal:zone-abdallab-chiefdom-funj-vassal-influence-1"
     },
     {
      "feature_index": 3,
@@ -90,7 +93,8 @@
      "confidence": 0.3,
      "confidence_word": "low",
      "confidence_style": "contested",
-     "low_confidence_overlay": false
+     "low_confidence_overlay": false,
+     "legend_id": "extent:abdallab-chiefdom-funj-vassal:zone-abdallab-chiefdom-funj-vassal-contested-2"
     },
     {
      "feature_index": 4,
@@ -113,7 +117,8 @@
      "confidence": 0.3,
      "confidence_word": "low",
      "confidence_style": "contested",
-     "low_confidence_overlay": false
+     "low_confidence_overlay": false,
+     "legend_id": "extent:abdallab-chiefdom-funj-vassal:zone-abdallab-chiefdom-funj-vassal-contested-3"
     }
    ],
    "borders_legend": [
@@ -156,7 +161,8 @@
      ],
      "cite": [
       "QASIM_MAWSUA p.1483"
-     ]
+     ],
+     "legend_id": "group-list:abdallab-chiefdom-funj-vassal:grp-abdallab-control-abdallab-chiefdom-funj-vassal-1"
     }
    ]
   },
@@ -183,7 +189,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1457914"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:soleb"
     },
     {
      "id": "qasr-ibrim",
@@ -219,7 +226,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q2121453"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:qasr-ibrim"
     },
     {
      "id": "abu-simbel",
@@ -237,7 +245,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q134140"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:abu-simbel"
     },
     {
      "id": "soba",
@@ -271,7 +280,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1247214"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:soba"
     },
     {
      "id": "aswan",
@@ -345,7 +355,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q29888"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:aswan"
     },
     {
      "id": "aksum",
@@ -375,7 +386,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q5832"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:aksum"
     },
     {
      "id": "suakin",
@@ -409,7 +421,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q571215"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:suakin"
     },
     {
      "id": "sennar",
@@ -447,7 +460,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q611867"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:sennar"
     },
     {
      "id": "qerri",
@@ -483,7 +497,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q11924140"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:qerri"
     },
     {
      "id": "kobbe",
@@ -510,7 +525,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q6424293"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:kobbe"
     },
     {
      "id": "ain-farah",
@@ -541,7 +557,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q405860"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:ain-farah"
     },
     {
      "id": "shendi",
@@ -591,7 +608,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q997838"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:shendi"
     },
     {
      "id": "berber",
@@ -621,7 +639,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q375935"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:berber"
     },
     {
      "id": "korti",
@@ -642,7 +661,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q472841"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:korti"
     },
     {
      "id": "gondar",
@@ -672,7 +692,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q218861"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:gondar"
     },
     {
      "id": "massawa",
@@ -706,7 +727,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q275635"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:massawa"
     },
     {
      "id": "fashoda",
@@ -736,7 +758,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1888763"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:fashoda"
     },
     {
      "id": "wad-madani",
@@ -766,7 +789,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q852528"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:wad-madani"
     },
     {
      "id": "malakal",
@@ -808,7 +832,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q220049"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:malakal"
     },
     {
      "id": "kufra",
@@ -842,7 +867,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q172114"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:kufra"
     },
     {
      "id": "rumbek",
@@ -863,7 +889,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q607336"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:rumbek"
     },
     {
      "id": "arbaji",
@@ -898,7 +925,8 @@
        "id": "NGA_GNS",
        "page": "UFI 98562051"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:arbaji"
     },
     {
      "id": "el-matamma",
@@ -924,7 +952,8 @@
        "id": "MACMICHAEL1922_V1",
        "page": "235"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:el-matamma"
     },
     {
      "id": "alexandria",
@@ -966,7 +995,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q87"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:alexandria"
     },
     {
      "id": "cairo",
@@ -1020,7 +1050,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q85"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:cairo"
     },
     {
      "id": "fustat",
@@ -1050,7 +1081,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q839456"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:fustat"
     },
     {
      "id": "ngazargamu",
@@ -1080,7 +1112,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1496614"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:ngazargamu"
     },
     {
      "id": "yeha",
@@ -1110,7 +1143,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q1081229"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:yeha"
     },
     {
      "id": "lalibela",
@@ -1140,7 +1174,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q207590"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:lalibela"
     },
     {
      "id": "medina",
@@ -1182,7 +1217,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q35484"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:medina"
     },
     {
      "id": "mecca",
@@ -1224,7 +1260,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q5806"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:mecca"
     },
     {
      "id": "thebes",
@@ -1245,7 +1282,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q101583"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:thebes"
     },
     {
      "id": "ballana",
@@ -1275,7 +1313,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q18832705"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:ballana"
     },
     {
      "id": "tripoli",
@@ -1305,7 +1344,8 @@
        "id": "WIKIDATA_CITIES",
        "page": "Q3579"
       }
-     ]
+     ],
+     "legend_id": "city:abdallab-chiefdom-funj-vassal:tripoli"
     }
    ]
   },
@@ -1313,7 +1353,32 @@
    "file": "db/group_layers/homelands.geojson",
    "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
    "drawn": 14,
-   "list_only": 7
+   "list_only": 7,
+   "legend_ids": [
+    "homelands:grp-beja-homeland-1",
+    "homelands:grp-beja-homeland-2",
+    "homelands:grp-nubians-homeland-1",
+    "homelands:grp-nubians-homeland-2",
+    "homelands:grp-jaaliyyin-homeland-1",
+    "homelands:grp-shaigiyya-homeland-1",
+    "homelands:grp-funj-homeland-1",
+    "homelands:grp-fur-homeland-1",
+    "homelands:grp-fur-homeland-2",
+    "homelands:grp-abdallab-homeland-1",
+    "homelands:grp-tunjur-homeland-1",
+    "homelands:grp-nuba-homeland-1",
+    "homelands:grp-dinka-homeland-1",
+    "homelands:grp-shilluk-homeland-1"
+   ],
+   "list_only_legend_ids": [
+    "homelands-list:grp-kababish-homeland",
+    "homelands-list:grp-rashaida-homeland",
+    "homelands-list:grp-zaghawa-homeland",
+    "homelands-list:grp-azande-homeland",
+    "homelands-list:grp-nuer-homeland",
+    "homelands-list:grp-masalit-homeland",
+    "homelands-list:grp-baggara-homeland"
+   ]
   },
   "flags": {
    "file": "db/era_symbols.json",
@@ -1372,7 +1437,8 @@
      "signoff": {
       "by": "Sudan Historian",
       "date": "2026-10-24"
-     }
+     },
+     "legend_id": "draft:abdallab-chiefdom-funj-vassal:idx0"
     },
     {
      "file": "db/border_drafts/abdallab-chiefdom-funj-vassal.geojson",
@@ -1404,7 +1470,8 @@
      "signoff": {
       "by": "Sudan Historian",
       "date": "2026-10-25"
-     }
+     },
+     "legend_id": "draft:abdallab-chiefdom-funj-vassal:idx1"
     },
     {
      "file": "db/border_drafts/abdallab-chiefdom-funj-vassal.geojson",
@@ -1437,7 +1504,8 @@
      "signoff": {
       "by": "Sudan Historian",
       "date": "2026-10-25"
-     }
+     },
+     "legend_id": "draft:abdallab-chiefdom-funj-vassal:idx2"
     },
     {
      "file": "db/border_drafts/abdallab-chiefdom-funj-vassal.geojson",
@@ -1470,7 +1538,8 @@
      "signoff": {
       "by": "Sudan Historian",
       "date": "2026-10-25"
-     }
+     },
+     "legend_id": "draft:abdallab-chiefdom-funj-vassal:idx3"
     }
    ]
   },
@@ -1502,7 +1571,8 @@
        "p": "173",
        "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
       }
-     ]
+     ],
+     "legend_id": "battle:abdallab-chiefdom-funj-vassal:arbaji-1504"
     },
     {
      "id": "kordofan-1747",
@@ -1527,7 +1597,8 @@
        "p": "178",
        "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
       }
-     ]
+     ],
+     "legend_id": "battle:abdallab-chiefdom-funj-vassal:kordofan-1747"
     },
     {
      "id": "qasr-ibrim-1560",
@@ -1557,7 +1628,8 @@
        "p": "420, 424",
        "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
       }
-     ]
+     ],
+     "legend_id": "battle:abdallab-chiefdom-funj-vassal:qasr-ibrim-1560"
     }
    ]
   }
@@ -1616,6 +1688,122 @@
   "cities": 34,
   "battles": 3
  },
+ "legend_rows": [
+  {
+   "row_id": "extents:extent_label_point",
+   "layer": "extents",
+   "symbol_class": "extent_label_point",
+   "n": 1
+  },
+  {
+   "row_id": "extents:zone_core",
+   "layer": "extents",
+   "symbol_class": "zone_core",
+   "n": 1
+  },
+  {
+   "row_id": "extents:zone_influence",
+   "layer": "extents",
+   "symbol_class": "zone_influence",
+   "n": 1
+  },
+  {
+   "row_id": "extents:zone_contested",
+   "layer": "extents",
+   "symbol_class": "zone_contested",
+   "n": 2
+  },
+  {
+   "row_id": "groups:list_only_text",
+   "layer": "groups",
+   "symbol_class": "list_only_text",
+   "n": 1
+  },
+  {
+   "row_id": "cities:city_other",
+   "layer": "cities",
+   "symbol_class": "city_other",
+   "n": 7
+  },
+  {
+   "row_id": "cities:city_garrison",
+   "layer": "cities",
+   "symbol_class": "city_garrison",
+   "n": 4
+  },
+  {
+   "row_id": "cities:city_capital",
+   "layer": "cities",
+   "symbol_class": "city_capital",
+   "n": 12
+  },
+  {
+   "row_id": "cities:city_religious",
+   "layer": "cities",
+   "symbol_class": "city_religious",
+   "n": 5
+  },
+  {
+   "row_id": "cities:city_town",
+   "layer": "cities",
+   "symbol_class": "city_town",
+   "n": 4
+  },
+  {
+   "row_id": "cities:city_port",
+   "layer": "cities",
+   "symbol_class": "city_port",
+   "n": 1
+  },
+  {
+   "row_id": "cities:city_political_centre",
+   "layer": "cities",
+   "symbol_class": "city_political_centre",
+   "n": 1
+  },
+  {
+   "row_id": "border_drafts:zone_core",
+   "layer": "border_drafts",
+   "symbol_class": "zone_core",
+   "n": 1
+  },
+  {
+   "row_id": "border_drafts:zone_influence",
+   "layer": "border_drafts",
+   "symbol_class": "zone_influence",
+   "n": 1
+  },
+  {
+   "row_id": "border_drafts:zone_contested",
+   "layer": "border_drafts",
+   "symbol_class": "zone_contested",
+   "n": 2
+  },
+  {
+   "row_id": "battles:battle_approximate",
+   "layer": "battles",
+   "symbol_class": "battle_approximate",
+   "n": 2
+  },
+  {
+   "row_id": "battles:battle_region",
+   "layer": "battles",
+   "symbol_class": "battle_region",
+   "n": 1
+  },
+  {
+   "row_id": "homelands:homeland_point",
+   "layer": "homelands",
+   "symbol_class": "homeland_point",
+   "n": 14
+  },
+  {
+   "row_id": "homelands:list_only_text",
+   "layer": "homelands",
+   "symbol_class": "list_only_text",
+   "n": 7
+  }
+ ],
  "context": {
   "key_events_en": [
    "Founded by 'Abdallah Jamma' (Rufa'a) at the Blue/White Nile confluence, late 15th c.",

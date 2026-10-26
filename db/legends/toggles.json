@@ -1,0 +1,144 @@
+{
+ "scope": "toggle-scoped, NOT era-scoped: shown only while the layer chip is on, identical in every era; era legends (db/legends/eras/*.json) are unchanged",
+ "source": "db/legends/legend_spec.json toggle_legends",
+ "toggles": [
+  {
+   "id": "dem",
+   "row_id": "toggle:dem",
+   "show_when_chip_on": "dem",
+   "kind": "gradient_bar",
+   "label_en": "Elevation (m above sea level)",
+   "label_ar": "الارتفاع (م فوق سطح البحر) [يحتاج تحقق]",
+   "unit": "m",
+   "domain": [
+    0,
+    4500
+   ],
+   "stops": [
+    [
+     0,
+     "#24343a"
+    ],
+    [
+     200,
+     "#2f3f3a"
+    ],
+    [
+     400,
+     "#43503c"
+    ],
+    [
+     600,
+     "#5b6140"
+    ],
+    [
+     800,
+     "#757246"
+    ],
+    [
+     1000,
+     "#8f824e"
+    ],
+    [
+     1500,
+     "#a99459"
+    ],
+    [
+     2000,
+     "#c2a868"
+    ],
+    [
+     2500,
+     "#d8bf82"
+    ],
+    [
+     3000,
+     "#ebd8a8"
+    ],
+    [
+     4500,
+     "#fbf1d6"
+    ]
+   ],
+   "css_gradient": "linear-gradient(to right,#24343a 0.0%,#2f3f3a 4.4%,#43503c 8.9%,#5b6140 13.3%,#757246 17.8%,#8f824e 22.2%,#a99459 33.3%,#c2a868 44.4%,#d8bf82 55.6%,#ebd8a8 66.7%,#fbf1d6 100.0%)",
+   "opacity": 1,
+   "ticks": [
+    0,
+    500,
+    1000,
+    2000,
+    3000,
+    4500
+   ],
+   "tick_format_en": "{v} m",
+   "tick_format_ar": "{v} م [يحتاج تحقق]",
+   "counts": null,
+   "note_en": "Below 0 m clamps to the first stop; 4,500 m and above clamp to the last.",
+   "note_ar": "ما دون 0 م يأخذ اللون الأول، وما فوق 4500 م يأخذ اللون الأخير [يحتاج تحقق]",
+   "drawn_status": "MISMATCH at site working tree (Web Lead map.js, uncommitted): the 'dem' chip draws Esri World_Hillshade tiles (grey relief, no elevation colour). This bar is valid only once the dem_ramp tint is drawn; until then the legend must show the hillshade row (map.js lsw.hs, 'Hillshade from elevation model (Esri World Hillshade)') and NOT this bar."
+  },
+  {
+   "id": "heatmap",
+   "row_id": "toggle:heatmap",
+   "show_when_chip_on": "heat",
+   "kind": "gradient_bar",
+   "label_en": "Density of mapped battle locations (relative, no units)",
+   "label_ar": "كثافة مواقع المعارك المرسومة (نسبية، بلا وحدات) [يحتاج تحقق]",
+   "unit": null,
+   "domain": [
+    0,
+    1
+   ],
+   "stops": [
+    [
+     0.0,
+     "rgba(0,0,0,0)"
+    ],
+    [
+     0.1,
+     "#3b0f70"
+    ],
+    [
+     0.3,
+     "#8c2981"
+    ],
+    [
+     0.5,
+     "#de4968"
+    ],
+    [
+     0.7,
+     "#fe9f6d"
+    ],
+    [
+     0.9,
+     "#fcd38f"
+    ],
+    [
+     1.0,
+     "#fcfdbf"
+    ]
+   ],
+   "css_gradient": "linear-gradient(to right,rgba(0,0,0,0) 0.0%,#3b0f70 10.0%,#8c2981 30.0%,#de4968 50.0%,#fe9f6d 70.0%,#fcd38f 90.0%,#fcfdbf 100.0%)",
+   "opacity": 0.75,
+   "ticks": [
+    {
+     "v": 0.1,
+     "en": "fewer",
+     "ar": "أقل [يحتاج تحقق]"
+    },
+    {
+     "v": 1.0,
+     "en": "most in view",
+     "ar": "الأكثر في العرض [يحتاج تحقق]"
+    }
+   ],
+   "tick_format_en": null,
+   "tick_format_ar": null,
+   "counts": "battles in /b.json that have coordinates (b.ll non-null), each weighted equally (one kernel, radius 18px*sqrt(zoom)); ev/ events are NOT included (no coordinates). Not filtered by era. Normalised to the densest spot in the current view, so 1 = local maximum, not an absolute count.",
+   "note_en": "Battles with known coordinates only; scale re-normalised to the current view. Reported 2023+ clashes are not a measure of control or intensity.",
+   "note_ar": "المعارك ذات الإحداثيات المعروفة فقط؛ يُعاد ضبط المقياس حسب العرض الحالي. الاشتباكات المُبلغ عنها منذ 2023 ليست مقياسًا للسيطرة أو الشدة [يحتاج تحقق]",
+   "drawn_status": "matches site working tree heatDraw() (HRAMP = heatmap_ramp, opacity .75)"
+  }
+ ]
+}
