@@ -2422,7 +2422,7 @@
    "Independence 9 July 2011; UNMISS created by UNSC res. 1996 (8 Jul 2011)",
    "Civil war from 15 December 2013 (CONTESTED)",
    "Revitalised Agreement on the Resolution of the Conflict in South Sudan (R-ARCSS), 2018",
-   "Revitalised Transitional Government of National Unity formed 22 Feb 2020 (ACCORD)"
+   "Transitional Government of National Unity (TGoNU) formed 22 Feb 2020 under the Revitalized Agreement"
   ],
   "key_events_ar": [
    "الاستقلال 9 يوليو 2011؛ إنشاء بعثة أونميس بالقرار 1996 (8 يوليو 2011) [يحتاج تحقق]",
@@ -2486,15 +2486,21 @@
    },
    {
     "event_id": "republic-of-south-sudan#3",
-    "en": "Revitalised Transitional Government of National Unity formed 22 Feb 2020 (ACCORD)",
+    "en": "Transitional Government of National Unity (TGoNU) formed 22 Feb 2020 under the Revitalized Agreement",
     "ar": "تشكيل حكومة الوحدة الوطنية الانتقالية المنشطة 22 فبراير 2020 (أكورد)",
-    "cite": null,
+    "cite": [
+     {
+      "source_id": "UN_SGSM19984_20200222",
+      "pages": "para 1"
+     },
+     {
+      "source_id": "ACCORD2020",
+      "pages": "Background para 1 (secondary source)"
+     }
+    ],
     "source_ids": [
-     "UNSC1996",
-     "RARCSS2018",
-     "ACCORD2020",
-     "WP:South_Sudan",
-     "WP:South_Sudanese_Civil_War"
+     "UN_SGSM19984_20200222",
+     "ACCORD2020"
     ],
     "badges": [],
     "origin": "data/periods.json"
