@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 168
+      "sentence_items": 172
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -4562,6 +4562,58 @@
       "action": "review",
       "origin_commit": "pending",
       "added": "2026-10-25"
+    },
+    {
+      "era_id": "kingdom-of-kush-napatan-period",
+      "file": "data/periods.json",
+      "field_ar": "periods[name=Kingdom of Kush – Napatan period].key_events_ar[2]",
+      "arabic_sentence": "تانوت أماني 664–نحو 656؛ نهب الآشوريين لطيبة 663؛ انسحاب الكوشيين",
+      "badge": "VERIFY",
+      "field_en": "periods[name=Kingdom of Kush – Napatan period].key_events[2]",
+      "revised_english": "Tanwetamani (Tanoutamon) succeeds his uncle Taharqa; Assurbanipal sacks Thebes 663 BCE; end of Kushite domination in Egypt",
+      "note": "AR line no longer matches corrected EN; native reviewer to update [يحتاج تحقق]",
+      "action": "review",
+      "origin_commit": "pending",
+      "added": "2026-10-26"
+    },
+    {
+      "era_id": "kingdom-of-kush-napatan-period",
+      "file": "data/periods.json",
+      "field_ar": "periods[name=Kingdom of Kush – Napatan period].key_events_ar[5]",
+      "arabic_sentence": "المدافن الملكية في الكرو ثم نوري؛ انتقال الدفن إلى مروي نحو 270 ق.م",
+      "badge": "VERIFY",
+      "field_en": "periods[name=Kingdom of Kush – Napatan period].key_events[5]",
+      "revised_english": "Royal burials at El-Kurru then Nuri; last king buried at Nuri was Nastasen (a little before 300 BCE), thereafter royal burials at Meroe",
+      "note": "AR line no longer matches corrected EN; native reviewer to update [يحتاج تحقق]",
+      "action": "review",
+      "origin_commit": "pending",
+      "added": "2026-10-26"
+    },
+    {
+      "era_id": "kingdom-of-kush-meroitic-period",
+      "file": "data/periods.json",
+      "field_ar": "periods[name=Kingdom of Kush – Meroitic period].key_events_ar[3]",
+      "arabic_sentence": "صناعة الحديد في مروي؛ نقحرة الخط المروي على يد غريفيث 1909، ولا تزال اللغة غير مفهومة",
+      "badge": "VERIFY",
+      "field_en": "periods[name=Kingdom of Kush – Meroitic period].key_events[3]",
+      "revised_english": "Iron working at Meroe (disputed; GHA II pp. 311–313); Meroitic script transliterated by Griffith 1909, language still not understood",
+      "note": "AR line no longer matches corrected EN; native reviewer to update [يحتاج تحقق]",
+      "action": "review",
+      "origin_commit": "pending",
+      "added": "2026-10-26"
+    },
+    {
+      "era_id": "kingdom-of-aksum",
+      "file": "data/periods.json",
+      "field_ar": "periods[name=Kingdom of Aksum].key_events_ar[0]",
+      "arabic_sentence": "المسيحية في عهد عيزانا نحو ثلاثينيات القرن الرابع",
+      "badge": "VERIFY",
+      "field_en": "periods[name=Kingdom of Aksum].key_events[0]",
+      "revised_english": "Ezana's conversion to Christianity (4th century)",
+      "note": "AR line no longer matches corrected EN; native reviewer to update [يحتاج تحقق]",
+      "action": "review",
+      "origin_commit": "pending",
+      "added": "2026-10-26"
     }
   ]
 }
