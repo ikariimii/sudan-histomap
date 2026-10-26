@@ -5977,6 +5977,18 @@
     "lang": "en",
     "note": "UN News story, 12 Jan 2014, read 2026-10-26 (HTTP 200). Start-date clause only, body para 1: \"since the conflict started on 15 December 2013\"."
    },
+   "UNNEWS_AR_20120420_HEGLIG": {
+    "author": "أخبار الأمم المتحدة (UN News Arabic)",
+    "title": "بان يحث حكومتي السودان وجنوب السودان على استئناف التفاوض فورا",
+    "publisher": "United Nations",
+    "date": "2012-04-20",
+    "year": "2012",
+    "url": "https://news.un.org/ar/story/2012/04/157772",
+    "pages": "para 1",
+    "lang": "ar",
+    "related": "UNAV_20120419_HEGLIG",
+    "note": "UN News Arabic story, published 20 Apr 2012 (published_time metadata), read 2026-10-26 (HTTP 200). Para 1: \"ونوه الأمين العام بإعلان حكومة جنوب السودان بالقيام بسحب قواتها من هجليج\". The Secretary-General noting South Sudan's ANNOUNCED withdrawal from Heglig, not evidence of the withdrawal itself; gives no withdrawal date. Translation queued [يحتاج تحقق]."
+   },
    "UNAV_20120419_HEGLIG": {
     "author": "UN Audiovisual Library (UNTV / UNMISS, Unifeed)",
     "title": "UN / Heglig Border Dispute Wrap (U120419c)",
@@ -8161,14 +8173,9 @@
     "note": "Registered from db/battles_post1956.json sources_to_register; URL checked 2026-10-25 (HTTP 200, title matches)."
    },
    "UNSC2046": {
-    "author": "UN Security Council Resolution 2046 (2012)",
-    "title": "UN Security Council Resolution 2046 (2012), S/RES/2046(2012), 2 May 2012",
-    "year": "2012",
-    "lang": "en",
-    "pages": "",
-    "url": "https://documents.un.org/api/symbol/access?s=S/RES/2046(2012)&l=en&t=pdf",
-    "accessed": "2026-10-25",
-    "note": "Registered from db/battles_post1956.json sources_to_register; URL checked 2026-10-25 (HTTP 200, title matches)."
+    "alias_of": "S_RES_2046",
+    "title": "UN Security Council Resolution 2046 (2012), S/RES/2046(2012), 2 May 2012 (alias of S_RES_2046)",
+    "url": "https://documents.un.org/api/symbol/access?s=S/RES/2046(2012)&l=en&t=pdf"
    },
    "OHCHR_SK2011": {
     "author": "OHCHR",
