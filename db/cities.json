@@ -5328,6 +5328,70 @@
     "basis": "first_attested"
    },
    "list_only_reason": null
+  },
+  {
+   "id": "heglig",
+   "name_en": "Heglig",
+   "name_ar": "هجليج",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q1320844",
+   "lat": 10.00249,
+   "lon": 29.4025,
+   "coord_source": {
+    "source_id": "GEONAMES",
+    "page": "8948691",
+    "badge": "SINGLE-SOURCE",
+    "geonames_name": "Heglig",
+    "cross_check": "Wikidata Q1320844 P625 9.99944, 29.39861 (read 2026-10-25)"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "note": "UN and OCHA name this place but give no coordinates.",
+   "history_en": "Place named in UN and OCHA reporting; coordinates from GeoNames.",
+   "history_ar": "مكان ورد اسمه في تقارير الأمم المتحدة ومكتب تنسيق الشؤون الإنسانية؛ الإحداثيات من GeoNames. [يحتاج تحقق]",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GEONAMES",
+     "page": "8948691"
+    }
+   ],
+   "list_only_reason": "no founding or first-attested year from a page-cited source; added as a battle place (IM ruling 2026-10-25)"
+  },
+  {
+   "id": "ardamata",
+   "name_en": "Ardamata",
+   "name_ar": "اردمتا",
+   "name_ar_source": "wikidata",
+   "wikidata": "Q25406785",
+   "lat": 13.47546,
+   "lon": 22.48531,
+   "coord_source": {
+    "source_id": "GEONAMES",
+    "page": "13132452",
+    "badge": "SINGLE-SOURCE",
+    "geonames_name": "'Ārdamatā",
+    "cross_check": "Wikidata Q25406785 P625 13.47556, 22.50418 (about 2 km east of the GeoNames point) (read 2026-10-25)"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "note": "UN and OCHA name this place but give no coordinates.",
+   "history_en": "Place named in UN and OCHA reporting; coordinates from GeoNames.",
+   "history_ar": "مكان ورد اسمه في تقارير الأمم المتحدة ومكتب تنسيق الشؤون الإنسانية؛ الإحداثيات من GeoNames. [يحتاج تحقق]",
+   "history_ar_status": "working translation — needs native review",
+   "source_ids": [
+    {
+     "id": "GEONAMES",
+     "page": "13132452"
+    }
+   ],
+   "list_only_reason": "no founding or first-attested year from a page-cited source; added as a battle place (IM ruling 2026-10-25)"
   }
  ]
 }

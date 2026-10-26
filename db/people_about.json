@@ -7,8 +7,7 @@
   "rules": "Every sentence carries one cite {source_id registered in data/periods.json meta.sources, pages, verbatim quote checked against the box text of that page}. Sentences without a page cite are dropped. Contested claims are attributed in-sentence and badged CONTESTED/REPORTED/TRADITION.",
   "badges": "sentence badge per cite; entry badge SINGLE-SOURCE if all sentences share one source, else DERIVED",
   "omitted": {
-   "kababish": "only QASIM_MAWSUA (Arabic) cites in db/groups.json; no English page text verified on box this pass",
-   "rashaida": "only QASIM_MAWSUA (Arabic) cites in db/groups.json; no English page text verified on box this pass"
+   "kababish": "no Kababish headword entry found in QASIM_MAWSUA page text on box (/workspace/qasim/v/pg); only 'branch of the Kababish' sub-entries; no other page-cited source this pass"
   }
  },
  "people": [
@@ -406,7 +405,7 @@
      "badge": "SINGLE-SOURCE"
     },
     {
-     "en": "He describes the Masalit country as bounded to the west by Wadai and to the east by the Fur.",
+     "en": "MacMichael (1922) describes the Masalit country as bounded to the west by Wadai and to the east by the Fur.",
      "ar": "ويصف بلاد المساليت بأنها تحدها وداي من الغرب والفور من الشرق. [يحتاج تحقق]",
      "cite": {
       "source_id": "MACMICHAEL1922_V1",
@@ -433,7 +432,7 @@
      "badge": "SINGLE-SOURCE"
     },
     {
-     "en": "He places them in the belt of country lying roughly south of the thirteenth parallel and stretching from the White Nile to Lake Chad.",
+     "en": "MacMichael (1922) places them in the belt of country lying roughly south of the thirteenth parallel and stretching from the White Nile to Lake Chad.",
      "ar": "ويحدد موطنهم في الحزام الواقع تقريبًا جنوب خط العرض الثالث عشر والممتد من النيل الأبيض إلى بحيرة تشاد. [يحتاج تحقق]",
      "cite": {
       "source_id": "MACMICHAEL1922_V1",
@@ -477,24 +476,33 @@
    "badge": "SINGLE-SOURCE",
    "sentences": [
     {
-     "en": "Evans-Pritchard (1940) states that the Anuak belong to the Shilluk-Luo group and border the Nuer to the south-east.",
-     "ar": "يذكر إيفانز-بريتشارد (1940) أن الأنواك ينتمون إلى مجموعة الشلك-اللوو ويجاورون النوير من الجنوب الشرقي. [يحتاج تحقق]",
+     "en": "Gleichen's 1905 compendium records a small tract of Anuak country on the Sobat, sandwiched between the Dinka to the west and the Nuer to the east.",
+     "ar": "يسجل دليل غليشن لعام 1905 رقعة صغيرة من أرض الأنواك على نهر السوباط، تقع بين الدينكا غربًا والنوير شرقًا. [يحتاج تحقق]",
      "cite": {
-      "source_id": "EP1940_NUER",
+      "source_id": "GLEICHEN1905_V1",
       "pages": "p.132",
-      "quote": "The Anuak, who also belong to the Shilluk-Luo group, border the Nuer to the south-east."
+      "quote": "the  commencement of  a  small  tract  of  Anuak  country,  sandwiched  in  between  the  Dinkas  in  the  west  and  the  large  and  powerful  Nuer tribe  to  the  east."
      },
      "badge": "SINGLE-SOURCE"
-    },
+    }
+   ]
+  },
+  {
+   "id": "rashaida",
+   "name_en": "Rashaida",
+   "badge": "SINGLE-SOURCE",
+   "sentences": [
     {
-     "en": "He notes that the Pibor river separates the Lou Nuer from the Anuak.",
-     "ar": "ويذكر أن نهر البيبور يفصل قبيلة اللو النوير عن الأنواك. [يحتاج تحقق]",
+     "en": "Qasim's encyclopedia describes the Rashaida as an Arab tribe in eastern Sudan. [VERIFY: English translation of the Arabic quote]",
+     "ar": "رشايدة : قبيلة عربية بشرق السودان . [يحتاج تحقق]",
      "cite": {
-      "source_id": "EP1940_NUER",
-      "pages": "p.112",
-      "quote": "the Pibor separates the Lou tribe from the Anuak people"
+      "source_id": "QASIM_MAWSUA",
+      "pages": "p.967",
+      "quote": "رشايدة : قبيلة عربية بشرق السودان .",
+      "quote_lang": "ar",
+      "quote_note": "verbatim from OCR page text /workspace/qasim/v/pg/0967.txt line 17 (headword marker omitted)"
      },
-     "badge": "SINGLE-SOURCE"
+     "badge": "VERIFY"
     }
    ]
   }

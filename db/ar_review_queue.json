@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 158
+      "sentence_items": 160
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -4321,9 +4321,9 @@
       "arabic_sentence": "ويصف بلاد المساليت بأنها تحدها وداي من الغرب والفور من الشرق. [يحتاج تحقق]",
       "badge": "VERIFY",
       "field_en": "people[id=masalit].sentences[1].en",
-      "revised_english": "He describes the Masalit country as bounded to the west by Wadai and to the east by the Fur.",
-      "note": "New people_about sentence (MACMICHAEL1922_V1 p.85); working translation of the English, needs native review [يحتاج تحقق]",
-      "action": "review",
+      "revised_english": "MacMichael (1922) describes the Masalit country as bounded to the west by Wadai and to the east by the Fur.",
+      "note": "New people_about sentence (MACMICHAEL1922_V1 p.85); working translation of the English, needs native review [يحتاج تحقق]; English attribution changed from 'He' to 'MacMichael (1922)' 2026-10-25, re-check the Arabic against the new English (Arabic not reworded)",
+      "action": "recheck_against_new_english",
       "origin_commit": "pending",
       "added": "2026-10-25"
     },
@@ -4347,9 +4347,9 @@
       "arabic_sentence": "ويحدد موطنهم في الحزام الواقع تقريبًا جنوب خط العرض الثالث عشر والممتد من النيل الأبيض إلى بحيرة تشاد. [يحتاج تحقق]",
       "badge": "VERIFY",
       "field_en": "people[id=baggara].sentences[1].en",
-      "revised_english": "He places them in the belt of country lying roughly south of the thirteenth parallel and stretching from the White Nile to Lake Chad.",
-      "note": "New people_about sentence (MACMICHAEL1922_V1 p.271); working translation of the English, needs native review [يحتاج تحقق]",
-      "action": "review",
+      "revised_english": "MacMichael (1922) places them in the belt of country lying roughly south of the thirteenth parallel and stretching from the White Nile to Lake Chad.",
+      "note": "New people_about sentence (MACMICHAEL1922_V1 p.271); working translation of the English, needs native review [يحتاج تحقق]; English attribution changed from 'He' to 'MacMichael (1922)' 2026-10-25, re-check the Arabic against the new English (Arabic not reworded)",
+      "action": "recheck_against_new_english",
       "origin_commit": "pending",
       "added": "2026-10-25"
     },
@@ -4381,13 +4381,26 @@
     },
     {
       "era_id": null,
-      "file": "db/people_about.json",
-      "field_ar": "people[id=anuak].sentences[0].ar",
-      "arabic_sentence": "يذكر إيفانز-بريتشارد (1940) أن الأنواك ينتمون إلى مجموعة الشلك-اللوو ويجاورون النوير من الجنوب الشرقي. [يحتاج تحقق]",
+      "file": "db/cities.json",
+      "field_ar": "places[id=heglig].history_ar",
+      "arabic_sentence": "مكان ورد اسمه في تقارير الأمم المتحدة ومكتب تنسيق الشؤون الإنسانية؛ الإحداثيات من GeoNames. [يحتاج تحقق]",
       "badge": "VERIFY",
-      "field_en": "people[id=anuak].sentences[0].en",
-      "revised_english": "Evans-Pritchard (1940) states that the Anuak belong to the Shilluk-Luo group and border the Nuer to the south-east.",
-      "note": "New people_about sentence (EP1940_NUER p.132); working translation of the English, needs native review [يحتاج تحقق]",
+      "field_en": "places[id=heglig].history_en",
+      "revised_english": "Place named in UN and OCHA reporting; coordinates from GeoNames.",
+      "note": "New place (IM-approved); working translation of the English, needs native review [يحتاج تحقق]",
+      "action": "review",
+      "origin_commit": "pending",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": null,
+      "file": "db/cities.json",
+      "field_ar": "places[id=ardamata].history_ar",
+      "arabic_sentence": "مكان ورد اسمه في تقارير الأمم المتحدة ومكتب تنسيق الشؤون الإنسانية؛ الإحداثيات من GeoNames. [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "places[id=ardamata].history_en",
+      "revised_english": "Place named in UN and OCHA reporting; coordinates from GeoNames.",
+      "note": "New place (IM-approved); working translation of the English, needs native review [يحتاج تحقق]",
       "action": "review",
       "origin_commit": "pending",
       "added": "2026-10-25"
@@ -4395,12 +4408,25 @@
     {
       "era_id": null,
       "file": "db/people_about.json",
-      "field_ar": "people[id=anuak].sentences[1].ar",
-      "arabic_sentence": "ويذكر أن نهر البيبور يفصل قبيلة اللو النوير عن الأنواك. [يحتاج تحقق]",
+      "field_ar": "people[id=anuak].sentences[0].ar",
+      "arabic_sentence": "يسجل دليل غليشن لعام 1905 رقعة صغيرة من أرض الأنواك على نهر السوباط، تقع بين الدينكا غربًا والنوير شرقًا. [يحتاج تحقق]",
       "badge": "VERIFY",
-      "field_en": "people[id=anuak].sentences[1].en",
-      "revised_english": "He notes that the Pibor river separates the Lou Nuer from the Anuak.",
-      "note": "New people_about sentence (EP1940_NUER p.112); working translation of the English, needs native review [يحتاج تحقق]",
+      "field_en": "people[id=anuak].sentences[0].en",
+      "revised_english": "Gleichen's 1905 compendium records a small tract of Anuak country on the Sobat, sandwiched between the Dinka to the west and the Nuer to the east.",
+      "note": "Replaces two EP1940_NUER sentences (team rule: no Evans-Pritchard 1940); GLEICHEN1905_V1 p.132; working translation, needs native review [يحتاج تحقق]",
+      "action": "review",
+      "origin_commit": "pending",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": null,
+      "file": "db/people_about.json",
+      "field_ar": "people[id=rashaida].sentences[0].ar",
+      "arabic_sentence": "رشايدة : قبيلة عربية بشرق السودان . [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "people[id=rashaida].sentences[0].en",
+      "revised_english": "Qasim's encyclopedia describes the Rashaida as an Arab tribe in eastern Sudan.",
+      "note": "Verbatim OCR quote of QASIM_MAWSUA p.967 (not a translation); check OCR against the printed page and the English rendering [يحتاج تحقق]",
       "action": "review",
       "origin_commit": "pending",
       "added": "2026-10-25"
