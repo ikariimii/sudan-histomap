@@ -91,7 +91,8 @@
      "surface": "fill",
      "colour": "#2b5d5d",
      "outline_contrast": 2.35,
-     "pass_3to1": false
+     "pass_3to1": false,
+     "resolved_by": "halo"
     },
     {
      "era_hue": "#2b5d5d",
@@ -133,7 +134,8 @@
      "surface": "fill",
      "colour": "#5a4a8a",
      "outline_contrast": 2.31,
-     "pass_3to1": false
+     "pass_3to1": false,
+     "resolved_by": "halo"
     },
     {
      "era_hue": "#5a4a8a",
@@ -147,7 +149,8 @@
      "surface": "fill",
      "colour": "#7c2f2a",
      "outline_contrast": 1.91,
-     "pass_3to1": false
+     "pass_3to1": false,
+     "resolved_by": "halo"
     },
     {
      "era_hue": "#7c2f2a",
@@ -161,7 +164,8 @@
      "surface": "fill",
      "colour": "#8a5a14",
      "outline_contrast": 2.95,
-     "pass_3to1": false
+     "pass_3to1": false,
+     "resolved_by": "halo"
     },
     {
      "era_hue": "#8a5a14",
@@ -192,7 +196,45 @@
     "#8a5a14 (fill): 2.95:1"
    ],
    "width_note": "Stroke width does not change a contrast ratio (same two colours), so no width makes these 4 fills reach 3:1. Width left at 1.5px everywhere, no per-case thickening recorded. Unresolved: #0f1b24 outline vs fills #7c2f2a 1.91, #5a4a8a 2.31, #2b5d5d 2.35, #8a5a14 2.95. All 7 approved strokes pass (6.36-6.72:1).",
-   "light_pages": "#2b1d0e outline kept per light_bg_rule"
+   "light_pages": "#2b1d0e outline kept per light_bg_rule",
+   "halo_contrast": {
+    "#2b5d5d": {
+     "contrast": 5.74,
+     "pass_3to1": true
+    },
+    "#3f6d8e": {
+     "contrast": 4.28,
+     "pass_3to1": true
+    },
+    "#3f7d4a": {
+     "contrast": 3.82,
+     "pass_3to1": true
+    },
+    "#5a4a8a": {
+     "contrast": 5.83,
+     "pass_3to1": true
+    },
+    "#7c2f2a": {
+     "contrast": 7.06,
+     "pass_3to1": true
+    },
+    "#8a5a14": {
+     "contrast": 4.57,
+     "pass_3to1": true
+    },
+    "#b0532c": {
+     "contrast": 3.94,
+     "pass_3to1": true
+    }
+   }
+  },
+  "halo": {
+   "color": "#e8e2d0",
+   "width_px": 1,
+   "position": "outside the 1.5px #0f1b24 outline",
+   "applies_to": "all battle markers",
+   "decision": "IM 2026-10-25",
+   "web_lead_action": "draw in map.js"
   }
  },
  "event_pin": {
