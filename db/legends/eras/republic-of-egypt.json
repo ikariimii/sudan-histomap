@@ -2614,9 +2614,40 @@
   }
  ],
  "context": {
-  "key_events_en": [],
-  "key_events_ar": [],
-  "key_events": [],
+  "key_events_en": [
+   "Nasser announces nationalization of the Suez Canal Company, 26 July 1956, to finance the Aswan High Dam",
+   "Israel, Britain and France invade Egypt, October–November 1956; hostilities cease 6 November under US and Soviet pressure"
+  ],
+  "key_events_ar": [
+   null,
+   null
+  ],
+  "key_events": [
+   {
+    "event_id": "republic-of-egypt#0",
+    "en": "Nasser announces nationalization of the Suez Canal Company, 26 July 1956, to finance the Aswan High Dam",
+    "ar": null,
+    "cite": null,
+    "source_ids": [
+     "GHA8",
+     "WP:Aswan_Dam"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "republic-of-egypt#1",
+    "en": "Israel, Britain and France invade Egypt, October–November 1956; hostilities cease 6 November under US and Soviet pressure",
+    "ar": null,
+    "cite": null,
+    "source_ids": [
+     "GHA8",
+     "WP:Aswan_Dam"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
+  ],
   "key_events_source_ids": [
    "GHA8",
    "WP:Aswan_Dam"

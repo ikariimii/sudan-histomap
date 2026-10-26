@@ -159,9 +159,26 @@
   }
  ],
  "context": {
-  "key_events_en": [],
-  "key_events_ar": [],
-  "key_events": [],
+  "key_events_en": [
+   "Esh Shaheinab culture, derived from the Khartoumian: distinctive pottery, gouges and polished bone axes"
+  ],
+  "key_events_ar": [
+   null
+  ],
+  "key_events": [
+   {
+    "event_id": "khartoum-neolithic-shaheinab#0",
+    "en": "Esh Shaheinab culture, derived from the Khartoumian: distinctive pottery, gouges and polished bone axes",
+    "ar": null,
+    "cite": null,
+    "source_ids": [
+     "WD:Q109284524",
+     "WD:Q109284535"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
+  ],
   "key_events_source_ids": [
    "WD:Q109284524",
    "WD:Q109284535"

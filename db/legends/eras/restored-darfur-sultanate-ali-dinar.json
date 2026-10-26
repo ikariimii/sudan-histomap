@@ -1745,17 +1745,17 @@
      "label_ar": "معركة عطبرة",
      "start": 1898,
      "end": 1898,
-     "precision": "region",
-     "symbol_class": "battle_region",
-     "drawn": false,
-     "list_only": true,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Anglo-Egyptian reconquest of the Sudan",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -1863,17 +1863,17 @@
      "label_ar": "معركة فركة",
      "start": 1896,
      "end": 1896,
-     "precision": "region",
-     "symbol_class": "battle_region",
-     "drawn": false,
-     "list_only": true,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "list_only": false,
      "via_war": true,
      "war_en": "Anglo-Egyptian reconquest of the Sudan",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -1893,6 +1893,7 @@
   }
  },
  "symbol_classes_present": [
+  "battle_approximate",
   "battle_region",
   "border_draft",
   "city_capital",
@@ -1920,7 +1921,8 @@
   "RUIN-UNDATED"
  ],
  "counts": {
-  "battle_region": 5,
+  "battle_approximate": 2,
+  "battle_region": 3,
   "border_draft": 2,
   "city_capital": 15,
   "city_garrison": 4,
@@ -2026,10 +2028,16 @@
    "n": 1
   },
   {
+   "row_id": "battles:battle_approximate",
+   "layer": "battles",
+   "symbol_class": "battle_approximate",
+   "n": 2
+  },
+  {
    "row_id": "battles:battle_region",
    "layer": "battles",
    "symbol_class": "battle_region",
-   "n": 5
+   "n": 3
   },
   {
    "row_id": "homelands:homeland_point",

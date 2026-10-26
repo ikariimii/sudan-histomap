@@ -1365,9 +1365,40 @@
   }
  ],
  "context": {
-  "key_events_en": [],
-  "key_events_ar": [],
-  "key_events": [],
+  "key_events_en": [
+   "Proconsul Cornelius Balbus raids the kingdom of the Garamantes of the Fezzan, 19 BC",
+   "From Garama (Jerma), the Garamantes dominate the Fezzan and levy tribute on surrounding tribes"
+  ],
+  "key_events_ar": [
+   null,
+   null
+  ],
+  "key_events": [
+   {
+    "event_id": "garamantes-fezzan#0",
+    "en": "Proconsul Cornelius Balbus raids the kingdom of the Garamantes of the Fezzan, 19 BC",
+    "ar": null,
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:Garamantes"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "garamantes-fezzan#1",
+    "en": "From Garama (Jerma), the Garamantes dominate the Fezzan and levy tribute on surrounding tribes",
+    "ar": null,
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:Garamantes"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
+  ],
   "key_events_source_ids": [
    "GHA2_CH19",
    "WP:Garamantes"

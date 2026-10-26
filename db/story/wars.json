@@ -167,7 +167,7 @@
     31.044,
     18.523
    ],
-   "caption": "First Arab campaign against Makuria: a Nubian counter-offensive turned back the Arab army.",
+   "caption": "An expedition from Egypt reached Dongola in 651–652; fierce Nubian resistance forced a truce.",
    "caption_cites": [
     "GHA3_CH3",
     "GHA3_CH7"
@@ -196,7 +196,11 @@
    ],
    "caption_cites_note": "SFDAS_HCS2017 replaced by the Historian's beat source for this war (story_beats/wars_beats.json); quotes pending Historian page-image check",
    "bbox_badge": "DERIVED",
-   "bbox_source": "story_360 audit method (360x640, proposed layout, 16px margin pass): cited points dongola-652, city:old-dongola, padding 0.3"
+   "bbox_source": "story_360 audit method (360x640, proposed layout, 16px margin pass): cited points dongola-652, city:old-dongola, padding 0.3",
+   "caption_pages": {
+    "GHA3_CH3": "p.81",
+    "GHA3_CH7": "p.166 ('expedition')"
+   }
   },
   {
    "war_id": "funj-abdallab-war",

@@ -937,9 +937,40 @@
   }
  ],
  "context": {
-  "key_events_en": [],
-  "key_events_ar": [],
-  "key_events": [],
+  "key_events_en": [
+   "King Lalibela (c. 1181–c. 1221) founds a new capital he calls 'New Jerusalem'",
+   "Christian kingdom of the Ethiopian highlands passes from the Zagwe to the Solomonid dynasty, 1270"
+  ],
+  "key_events_ar": [
+   null,
+   null
+  ],
+  "key_events": [
+   {
+    "event_id": "zagwe-dynasty#0",
+    "en": "King Lalibela (c. 1181–c. 1221) founds a new capital he calls 'New Jerusalem'",
+    "ar": null,
+    "cite": null,
+    "source_ids": [
+     "GHAIV",
+     "WP:Zagwe_dynasty"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "zagwe-dynasty#1",
+    "en": "Christian kingdom of the Ethiopian highlands passes from the Zagwe to the Solomonid dynasty, 1270",
+    "ar": null,
+    "cite": null,
+    "source_ids": [
+     "GHAIV",
+     "WP:Zagwe_dynasty"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
+  ],
   "key_events_source_ids": [
    "GHAIV",
    "WP:Zagwe_dynasty"

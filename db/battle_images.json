@@ -29,7 +29,8 @@
    "umm-diwaykarat-1899",
    "torit-1955"
   ],
-  "post1956_check": "2026-10-25: none of the 17 ids in db/battles_post1956.json (fa486bd) are keyed here (clashes: none); no images were added for them, and none for war-2023."
+  "post1956_check": "2026-10-25: none of the 17 ids in db/battles_post1956.json (fa486bd) are keyed here (clashes: none); no images were added for them, and none for war-2023.",
+  "alt_ar_note": "alt_ar = working Arabic translation of each image's English description (the alt that b.json uses), Map Designer 2026-10-26, tagged [يحتاج تحقق]. Internal until reviewed. null where the description is empty."
  },
  "battles": {
   "kerma--1500": [
@@ -58,7 +59,8 @@
     "battle_id": "kerma--1500",
     "war_id": "kushite-egyptian-wars",
     "evidence_type": "inscription",
-    "note": "Lepsius drawing of the Tombos rock stela of Thutmose I (an inscription recording the campaign; it does not show the battle)."
+    "note": "Lepsius drawing of the Tombos rock stela of Thutmose I (an inscription recording the campaign; it does not show the battle).",
+    "alt_ar": "رسم لنصب تومبوس للفرعون تحتمس الأول، نقش صخري من تومبوس في النوبة. [يحتاج تحقق]"
    }
   ],
   "kerma--593": [
@@ -87,7 +89,8 @@
     "battle_id": "kerma--593",
     "war_id": "kushite-egyptian-wars",
     "evidence_type": "inscription",
-    "note": "Psamtik II victory stela (Kalabsha) recording the Nubian campaign."
+    "note": "Psamtik II victory stela (Kalabsha) recording the Nubian campaign.",
+    "alt_ar": "نصب نصر محفوظ جيدًا أقامه الفرعون بسماتيك الثاني من الأسرة السادسة والعشرين الصاوية (نحو 592 ق.م) في كلابشة عند عودته من حملته في النوبة، وكان قد نهب العاصمة الكوشية نبتة وهزم منافسه الملك أسبلتا ملك النوبة. [يحتاج تحقق]"
    }
   ],
   "napata--23": [],
@@ -123,7 +126,8 @@
     "cite": {
      "source_id": "GHA2_CH10",
      "pages": "p.293"
-    }
+    },
+    "alt_ar": "أكسوم: نصب عيزانا بنقوش بثلاث كتابات، على نحو 600 متر شمال شرق «حقل المسلات». [يحتاج تحقق]"
    }
   ],
   "dongola-652": [
@@ -155,7 +159,8 @@
     "note": "North Church, Old Dongola: Makurian site context (13th c.?), not a depiction of the 652 siege.",
     "site_view": true,
     "caption_en": "Site of the siege of Dongola (652): North Church, Old Dongola",
-    "caption_ar": "موقع حصار دنقلا (652): الكنيسة الشمالية، دنقلا العجوز [VERIFY]"
+    "caption_ar": "موقع حصار دنقلا (652): الكنيسة الشمالية، دنقلا العجوز [VERIFY]",
+    "alt_ar": "بقايا الكنيسة الشمالية في دنقلا العجوز، العاصمة السابقة لمملكة المقرة النوبية، شُيّدت على الأرجح في القرن الثالث عشر. [يحتاج تحقق]"
    }
   ],
   "arbaji-1504": [],
@@ -185,7 +190,8 @@
     "credit_line": "Unknown author, 1883, Public domain, via Wikimedia Commons",
     "battle_id": "shaykan-1883",
     "war_id": "mahdist-war",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "جيش هكس باشا في المسير. نقش منشور في مجلة ذا غرافيك عام 1883. [يحتاج تحقق]"
    },
    {
     "file_title": "File:Death of Hicks Pasha.jpg",
@@ -211,7 +217,8 @@
     "credit_line": "Robert Talbot Kelly, circa 1896, Public domain, via Wikimedia Commons",
     "battle_id": "shaykan-1883",
     "war_id": "mahdist-war",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "مقتل هكس باشا. رسم لتالبوت كيلي لكتاب سلاطين باشا «النار والسيف في السودان»، لندن 1896. [يحتاج تحقق]"
    },
    {
     "file_title": "File:Route of Hicks' Army.jpg",
@@ -237,7 +244,8 @@
     "credit_line": "Unknown author, 1900, Public domain, via Wikimedia Commons",
     "battle_id": "shaykan-1883",
     "war_id": "mahdist-war",
-    "evidence_type": "primary-account"
+    "evidence_type": "primary-account",
+    "alt_ar": "مسار حملة هكس إلى كردفان من الخرطوم إلى الأبيض عام 1883. [يحتاج تحقق]"
    }
   ],
   "khartoum-1885": [
@@ -265,7 +273,8 @@
     "credit_line": "George W. Joy, 1893, Public domain, via Wikimedia Commons",
     "battle_id": "khartoum-1885",
     "war_id": "mahdist-war",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "الوقفة الأخيرة للجنرال غوردون. [يحتاج تحقق]"
    },
    {
     "file_title": "File:George William Joy (1844-1925) - General Gordon's Last Stand - LEEAG.PA.1920.0274 - Leeds Art Gallery.jpg",
@@ -291,7 +300,8 @@
     "credit_line": "George W. Joy, 1893, Public domain, via Wikimedia Commons",
     "battle_id": "khartoum-1885",
     "war_id": "mahdist-war",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": null
    },
    {
     "file_title": "File:Image taken from page 167 of 'Gordon and the Mahdi, an illustrated narrative of the war in the Soudan, etc' (11307159874).jpg",
@@ -317,7 +327,8 @@
     "credit_line": "The British Library, 2013-12-10 13:04, No known copyright restrictions (Flickr Commons), via Wikimedia Commons",
     "battle_id": "khartoum-1885",
     "war_id": "mahdist-war",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "صورة من كتاب «غوردون والمهدي: رواية مصورة للحرب في السودان»، الملحق، ص 167، لندن: فيزيتيلي وشركاه، 1885 (المكتبة البريطانية). [يحتاج تحقق]"
    }
   ],
   "toski-1889": [
@@ -345,7 +356,8 @@
     "credit_line": "Unknown author, c. 1909, Public domain, via Wikimedia Commons",
     "battle_id": "toski-1889",
     "war_id": "mahdist-war",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "معركة توشكي: الهجمة الأخيرة لزعيم العرب. [يحتاج تحقق]"
    },
    {
     "file_title": "File:Sketch of ground showing positions of the troops during action of Toski - 3rd August 1889.jpg",
@@ -371,7 +383,8 @@
     "credit_line": "Unknown author, 1891, Public domain, via Wikimedia Commons",
     "battle_id": "toski-1889",
     "war_id": "mahdist-war",
-    "evidence_type": "primary-account"
+    "evidence_type": "primary-account",
+    "alt_ar": "مخطط للأرض يبين مواقع القوات أثناء معركة توشكي، 3 أغسطس 1889. [يحتاج تحقق]"
    }
   ],
   "gallabat-1889": [
@@ -403,7 +416,8 @@
     "note": "Battlefield view published 1905, not an image of the battle.",
     "site_view": true,
     "caption_en": "Site of the Battle of Gallabat (1889), photographed c.1905",
-    "caption_ar": "موقع معركة القلابات (1889)، صورة نحو 1905 [VERIFY]"
+    "caption_ar": "موقع معركة القلابات (1889)، صورة نحو 1905 [VERIFY]",
+    "alt_ar": "ساحة معركة القلابات حيث قُتل الإمبراطور يوحنس. [يحتاج تحقق]"
    }
   ],
   "atbara-1898": [
@@ -431,7 +445,8 @@
     "credit_line": "Richard Caton Woodville Jr., before 1927, Public domain, via Wikimedia Commons",
     "battle_id": "atbara-1898",
     "war_id": "anglo-egyptian-reconquest",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "معركة عطبرة 1898. [يحتاج تحقق]"
    },
    {
     "file_title": "File:Battle of Atbara 1.jpg",
@@ -457,7 +472,8 @@
     "credit_line": "Godfrey Douglas Giles (1859 - 1941), 1899, Public domain, via Wikimedia Commons",
     "battle_id": "atbara-1898",
     "war_id": "anglo-egyptian-reconquest",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "بعد المعركة: الأمير محمود يُقتاد أسيرًا إلى هربرت كتشنر. عطبرة، 8 أبريل 1898. المتحف الوطني للجيش. [يحتاج تحقق]"
    },
    {
     "file_title": "File:Battle of the Atbara. Time 7.40 a.m.png",
@@ -483,7 +499,8 @@
     "credit_line": "Unknown author, 1903, Public domain, via Wikimedia Commons",
     "battle_id": "atbara-1898",
     "war_id": "anglo-egyptian-reconquest",
-    "evidence_type": "primary-account"
+    "evidence_type": "primary-account",
+    "alt_ar": "معركة عطبرة. الساعة 7:40 صباحًا. [يحتاج تحقق]"
    }
   ],
   "karari-1898": [
@@ -511,7 +528,8 @@
     "credit_line": "Richard Caton Woodville Jr., 1898, Public domain, via Wikimedia Commons",
     "battle_id": "karari-1898",
     "war_id": "anglo-egyptian-reconquest",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": null
    },
    {
     "file_title": "File:Battle of Omdurman Frank Dadd 1898.jpg",
@@ -537,7 +555,8 @@
     "credit_line": "Frank Dadd / William T. Maud, 28 September 1898, Public domain, via Wikimedia Commons",
     "battle_id": "karari-1898",
     "war_id": "anglo-egyptian-reconquest",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "معركة أم درمان: الهجوم الافتتاحي للدراويش على الفرقة البريطانية. رسم لمجلة ذا غرافيك، 24 سبتمبر 1898، بريشة فرانك داد عن رسم أولي لـ و. ت. مود. [يحتاج تحقق]"
    },
    {
     "file_title": "File:Battle of Omdurman. First Dervish attack.png",
@@ -563,7 +582,8 @@
     "credit_line": "B.V. Darbishire, 1898, Public domain, via Wikimedia Commons",
     "battle_id": "karari-1898",
     "war_id": "anglo-egyptian-reconquest",
-    "evidence_type": "primary-account"
+    "evidence_type": "primary-account",
+    "alt_ar": "معركة أم درمان: الهجوم الأول للدراويش. [يحتاج تحقق]"
    },
    {
     "file_title": "File:Sketch map of the Battle of Omdurman 2nd Sept. 1898.png",
@@ -589,7 +609,8 @@
     "credit_line": "Great Britain. War Office. Intelligence Division., 1898, Public domain, via Wikimedia Commons",
     "battle_id": "karari-1898",
     "war_id": "anglo-egyptian-reconquest",
-    "evidence_type": "primary-account"
+    "evidence_type": "primary-account",
+    "alt_ar": "خريطة تخطيطية لمعركة أم درمان، 2 سبتمبر 1898. [يحتاج تحقق]"
    }
   ],
   "umm-diwaykarat-1899": [],
@@ -618,7 +639,8 @@
     "credit_line": "Bruno Richter, 1916, Public domain, via Wikimedia Commons",
     "battle_id": "darfur-1916",
     "war_id": "darfur-campaign-1916",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "الإمام علي دينار سلطان دارفور يهاجم القوات الإنجليزية في شمال السودان، 1916. [يحتاج تحقق]"
    },
    {
     "file_title": "File:AREA OF THE OPERATIONS AGAINST THE SULTAN OF DARFUR (1916).png",
@@ -644,7 +666,8 @@
     "credit_line": "Unknown author, 1916, Public domain, via Wikimedia Commons",
     "battle_id": "darfur-1916",
     "war_id": "darfur-campaign-1916",
-    "evidence_type": "primary-account"
+    "evidence_type": "primary-account",
+    "alt_ar": "علي دينار سلطان دارفور يحشد قوة في جبل الحلة في فبراير 1916؛ وتقدّم الكولونيل كيلي من النهود إلى أبيض، وبعد اشتباك حاد في برنجية... [يحتاج تحقق]"
    }
   ],
   "torit-1955": [],
@@ -673,7 +696,8 @@
     "credit_line": "Auguste Mariette, 1872-01-01, Public domain, via Wikimedia Commons",
     "battle_id": "memphis--720",
     "war_id": "piye-conquest-of-egypt",
-    "evidence_type": "inscription"
+    "evidence_type": "inscription",
+    "alt_ar": "نصب بعنخي (كامل). [يحتاج تحقق]"
    },
    {
     "file_title": "File:Piye Stele (Louvre Museum reconstruction).jpg",
@@ -699,7 +723,8 @@
     "credit_line": "Tangopaso, 2022-08-15, Public domain, via Wikimedia Commons",
     "battle_id": "memphis--720",
     "war_id": "piye-conquest-of-egypt",
-    "evidence_type": "inscription"
+    "evidence_type": "inscription",
+    "alt_ar": "نصب بعنخي (إعادة بناء متحف اللوفر). [يحتاج تحقق]"
    },
    {
     "file_title": "File:Osorkon IV submitting to Piye.jpg",
@@ -725,7 +750,8 @@
     "credit_line": "Auguste Mariette (1821-1881), 2014-04-24 17:40:07, Public domain, via Wikimedia Commons",
     "battle_id": "memphis--720",
     "war_id": "piye-conquest-of-egypt",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "رسم للجزء العلوي الأيمن من نصب نصر الفرعون بعنخي، يصوّر بعنخي يتلقى الجزية من أربعة من حكام دلتا النيل: نملوت (ممسكًا بحصان) وملكته، وأوسركون الرابع، وإيوبوت الثاني، وبفتجاوآويباستت. النصب الأصلي من الغرانيت عُثر عليه في جبل البركل ويعود إلى عهد بعنخي من الأسرة الخامسة والعشرين، وهو الآن في المتحف المصري بالقاهرة. [يحتاج تحقق]"
    }
   ],
   "dongola-1276": [
@@ -756,7 +782,8 @@
     "evidence_type": "period-illustration",
     "site_view": true,
     "caption_en": "Site of the Mamluk attack on Dongola (1276): the Throne Hall as drawn in 1821",
-    "caption_ar": "موقع الهجوم المملوكي على دنقلا (1276): قاعة العرش كما رُسمت عام 1821 [VERIFY]"
+    "caption_ar": "موقع الهجوم المملوكي على دنقلا (1276): قاعة العرش كما رُسمت عام 1821 [VERIFY]",
+    "alt_ar": "قاعة العرش في دنقلا عام 1821 كما رآها فريدريك كايو. [يحتاج تحقق]"
    }
   ],
   "qasr-ibrim-1560": [
@@ -787,7 +814,8 @@
     "evidence_type": "photograph",
     "site_view": true,
     "caption_en": "Site of Qasr Ibrim (Ottoman garrison from c.1560), 1998",
-    "caption_ar": "موقع قصر إبريم (حامية عثمانية منذ نحو 1560)، 1998 [VERIFY]"
+    "caption_ar": "موقع قصر إبريم (حامية عثمانية منذ نحو 1560)، 1998 [VERIFY]",
+    "alt_ar": "جزيرة قصر إبريم في بحيرة ناصر، مصر. [يحتاج تحقق]"
    },
    {
     "file_title": "File:Qasr Ibrim (Wooley - Temple - Karanog pl 12).jpg",
@@ -816,7 +844,8 @@
     "evidence_type": "period-illustration",
     "site_view": true,
     "caption_en": "Site of Qasr Ibrim: temple inside the fortress, 1908",
-    "caption_ar": "موقع قصر إبريم: المعبد داخل القلعة، 1908 [VERIFY]"
+    "caption_ar": "موقع قصر إبريم: المعبد داخل القلعة، 1908 [VERIFY]",
+    "alt_ar": "معبد داخل قلعة قصر إبريم، حالته عام 1908. [يحتاج تحقق]"
    }
   ],
   "el-teb-1884": [
@@ -844,7 +873,8 @@
     "credit_line": "Melton Prior / Manuel Alcázar y Ruiz / Eugenio Vela, 1884-01-29, Public domain, via Wikimedia Commons",
     "battle_id": "el-teb-1884",
     "war_id": "mahdist-war",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "حرب السودان: معركة التيب، 29 يناير 1884. [يحتاج تحقق]"
    },
    {
     "file_title": "File:Józef Chełmoński Bitwa pod El Teb 1884.jpg",
@@ -870,7 +900,8 @@
     "credit_line": "Józef Chełmoński, 1884, Public domain, via Wikimedia Commons",
     "battle_id": "el-teb-1884",
     "war_id": "mahdist-war",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "يوزف خيلمونسكي، معركة التيب، حبر مغسول على ورق، 42.8 × 63.7 سم. [يحتاج تحقق]"
    },
    {
     "file_title": "File:Bataille d'El Teb.jpg",
@@ -896,7 +927,8 @@
     "credit_line": "Godfrey Douglas Giles, 1884, Public domain, via Wikimedia Commons",
     "battle_id": "el-teb-1884",
     "war_id": "mahdist-war",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "هجوم في التيب، السودان. زيت على قماش. متحف فرسان الملك الملكيين. [يحتاج تحقق]"
    }
   ],
   "abu-klea-1885": [
@@ -924,7 +956,8 @@
     "credit_line": "William Barnes Wollen, before 1936, Public domain, via Wikimedia Commons",
     "battle_id": "abu-klea-1885",
     "war_id": "mahdist-war",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "معركة أبو طليح. زيت على قماش. [يحتاج تحقق]"
    },
    {
     "file_title": "File:Action of Abu Klea Jan. 17th 1885.png",
@@ -950,7 +983,8 @@
     "credit_line": "Great Britain. War Office. Intelligence Division, 1888, Public domain, via Wikimedia Commons",
     "battle_id": "abu-klea-1885",
     "war_id": "mahdist-war",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "خريطة معركة أبو طليح، 17 يناير 1885، مسحها و. فيرنر في 16 فبراير 1885، طبعتها شعبة الاستخبارات بوزارة الحربية. سلسلة تاريخ حملة السودان، رقم 4. [يحتاج تحقق]"
    },
    {
     "file_title": "File:MACDONALD(1887) p263 SKETCH MAP OF BATTLE FIELD OF ABU-KLEA.jpg",
@@ -976,7 +1010,8 @@
     "credit_line": "Unknown author, 1887, Public domain, via Wikimedia Commons",
     "battle_id": "abu-klea-1885",
     "war_id": "mahdist-war",
-    "evidence_type": "primary-account"
+    "evidence_type": "primary-account",
+    "alt_ar": null
    }
   ],
   "ginnis-1885": [
@@ -1004,7 +1039,8 @@
     "credit_line": "Amédée Forestier (1845 - 1930), 1886-01-30, Public domain, via Wikimedia Commons",
     "battle_id": "ginnis-1885",
     "war_id": "mahdist-war",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "معركة جنس، 30 ديسمبر 1885: نزاع حدود السودان. رسم لمجلة إلستريتد لندن نيوز، 30 يناير 1886. [يحتاج تحقق]"
    },
    {
     "file_title": "File:Attack upon Ginnis - 30th december 1885.jpg",
@@ -1030,7 +1066,8 @@
     "credit_line": "Unknown author, 1891, Public domain, via Wikimedia Commons",
     "battle_id": "ginnis-1885",
     "war_id": "mahdist-war",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "(1) مخطط يبين ترتيب المسير في الهجوم على جنس، 30 ديسمبر 1885؛ (2) مخطط بالعين يبين مواقع القوات في الهجوم على جنس. [يحتاج تحقق]"
    }
   ],
   "kassala-1894": [
@@ -1058,7 +1095,8 @@
     "credit_line": "Giovanni Fattori, 1906, Public domain, via Wikimedia Commons",
     "battle_id": "kassala-1894",
     "war_id": "mahdist-war",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "مشهد من معركة كسلا. [يحتاج تحقق]"
    }
   ],
   "ferkeh-1896": [
@@ -1086,7 +1124,8 @@
     "credit_line": "Andrew Hilliard Atteridge, 1897, Public domain, via Wikimedia Commons",
     "battle_id": "ferkeh-1896",
     "war_id": "anglo-egyptian-reconquest",
-    "evidence_type": "period-illustration"
+    "evidence_type": "period-illustration",
+    "alt_ar": "معركة فركة، 7 يونيو 1896. [يحتاج تحقق]"
    }
   ]
  },
@@ -1118,7 +1157,8 @@
      "credit_line": "Geoffrey Douglas Giles (1857-1941), 1886, Public domain, via Wikimedia Commons",
      "battle_id": "tamai-1884",
      "war_id": "mahdist-war",
-     "evidence_type": "period-illustration"
+     "evidence_type": "period-illustration",
+     "alt_ar": "حادثة في معركة طماي، شرق السودان، 13 مارس 1884. [يحتاج تحقق]"
     },
     {
      "file_title": "File:Bataille de Tamai.jpg",
@@ -1144,7 +1184,8 @@
      "credit_line": "Godfrey Douglas Giles, 1885, Public domain, via Wikimedia Commons",
      "battle_id": "tamai-1884",
      "war_id": "mahdist-war",
-     "evidence_type": "period-illustration"
+     "evidence_type": "period-illustration",
+     "alt_ar": "معركة طماي (1884). زيت على قماش. المتحف الوطني للجيش. [يحتاج تحقق]"
     },
     {
      "file_title": "File:Battle of Tamai map.jpg",
@@ -1170,7 +1211,8 @@
      "credit_line": "Archibald Forbes, Arthur Griffiths and others., 1895, Public domain, via Wikimedia Commons",
      "battle_id": "tamai-1884",
      "war_id": "mahdist-war",
-     "evidence_type": "period-illustration"
+     "evidence_type": "period-illustration",
+     "alt_ar": "خريطة بريطانية لمعركة طماي عام 1884. [يحتاج تحقق]"
     }
    ],
    "war_id": "mahdist-war",
@@ -1204,7 +1246,8 @@
      "credit_line": "Bawden, Edward, between 1939 and 1945, Public domain, via Wikimedia Commons",
      "battle_id": "gallabat-1940",
      "war_id": "east-african-campaign-1940",
-     "evidence_type": "period-illustration"
+     "evidence_type": "period-illustration",
+     "alt_ar": "الضابط (Mt Officer)، الكتيبة الأولى من فوج إسكس، في القلابات: خيمة في منطقة مشجرة يجلس في ظلها جندي ذو شارب، ويجلس اثنان آخران في الشمس أمامها، وفي الخلفية جنود جالسون بين الأشجار. [يحتاج تحقق]"
     },
     {
      "file_title": "File:The Campaign in East Africa 1940-41 E1227.jpg",
@@ -1230,13 +1273,14 @@
      "credit_line": "Unknown author, between 1939 and 1945, Public domain, via Wikimedia Commons",
      "battle_id": "gallabat-1940",
      "war_id": "east-african-campaign-1940",
-     "evidence_type": "photograph"
+     "evidence_type": "photograph",
+     "alt_ar": "حملة شرق أفريقيا 1940–1941: دخان يتصاعد من حصن القلابات على الحدود السودانية الحبشية، 22 نوفمبر 1940. [يحتاج تحقق]"
     }
    ],
    "war_id_provisional": true
   },
   "korti": {
-   "note": "Korti (1820, Shayqiyya vs Turco-Egyptian, or the 1884–85 camp): no free period image found",
+   "note": "Korti (1820, Shayqiyya vs Turco-Egyptian, or the 1884–85 camp): no free period image found; rechecked 2026-10-26: Commons has only place views of Korti (David Roberts/Louis Haghe 1846 lithograph; Edward Lear 1867), not the battle, so left empty",
    "images": []
   }
  },
@@ -1269,7 +1313,8 @@
      "credit_line": "Photograph: Andreas Praefcke, Upload 19-May-2007 (photo February 2006), Public domain, via Wikimedia Commons",
      "battle_id": "semna--1860",
      "war_id": "kushite-egyptian-wars",
-     "evidence_type": "inscription"
+     "evidence_type": "inscription",
+     "alt_ar": "نصب الحدود لسنوسرت الثالث، الدولة الوسطى في مصر، الأسرة الثانية عشرة، نحو 1860 ق.م. ستة أسطر من الهيروغليفية. مجموعة المتحف المصري في برلين. [يحتاج تحقق]"
     },
     {
      "file_title": "File:Border Stela of Senusret III Ägyptisches Museum Berlin.jpg",
@@ -1295,7 +1340,8 @@
      "credit_line": "Marcus Cyron, 2007-10-26, CC BY-SA 3.0, via Wikimedia Commons",
      "battle_id": "semna--1860",
      "war_id": "kushite-egyptian-wars",
-     "evidence_type": "inscription"
+     "evidence_type": "inscription",
+     "alt_ar": "نصب الحدود لسنوسرت الثالث، الدولة الوسطى في مصر، الأسرة الثانية عشرة، نحو 1860 ق.م. [يحتاج تحقق]"
     }
    ]
   }

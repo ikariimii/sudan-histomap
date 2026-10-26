@@ -601,9 +601,26 @@
   }
  ],
  "context": {
-  "key_events_en": [],
-  "key_events_ar": [],
-  "key_events": [],
+  "key_events_en": [
+   "South Arabian period in northern Ethiopia: monuments and inscriptions in Eritrea and Tigre akin to those of Saba, dated 5th–4th centuries BC; temple of Yeha"
+  ],
+  "key_events_ar": [
+   null
+  ],
+  "key_events": [
+   {
+    "event_id": "land-of-punt-d-mt#0",
+    "en": "South Arabian period in northern Ethiopia: monuments and inscriptions in Eritrea and Tigre akin to those of Saba, dated 5th–4th centuries BC; temple of Yeha",
+    "ar": null,
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:Dʿmt"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
+  ],
   "key_events_source_ids": [
    "GHA2_CH19",
    "WP:Dʿmt"

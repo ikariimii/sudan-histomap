@@ -2557,9 +2557,42 @@
   }
  ],
  "context": {
-  "key_events_en": [],
-  "key_events_ar": [],
-  "key_events": [],
+  "key_events_en": [
+   "After the emperor is overthrown, Colonel Mengistu's Derg adopts the socialist model, backed by the socialist world",
+   "Mengistu Haile Mariam flees Ethiopia, 1991"
+  ],
+  "key_events_ar": [
+   null,
+   null
+  ],
+  "key_events": [
+   {
+    "event_id": "derg-federal-ethiopia#0",
+    "en": "After the emperor is overthrown, Colonel Mengistu's Derg adopts the socialist model, backed by the socialist world",
+    "ar": null,
+    "cite": null,
+    "source_ids": [
+     "GHA8",
+     "WP:Derg",
+     "WP:Grand_Ethiopian_Renaissance_Dam"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "derg-federal-ethiopia#1",
+    "en": "Mengistu Haile Mariam flees Ethiopia, 1991",
+    "ar": null,
+    "cite": null,
+    "source_ids": [
+     "GHA8",
+     "WP:Derg",
+     "WP:Grand_Ethiopian_Renaissance_Dam"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
+  ],
   "key_events_source_ids": [
    "GHA8",
    "WP:Derg",

@@ -983,9 +983,26 @@
   }
  ],
  "context": {
-  "key_events_en": [],
-  "key_events_ar": [],
-  "key_events": [],
+  "key_events_en": [
+   "Mârib, capital of the kingdom of Saba: its principal temple on a tiered base parallels the temple of Yeha in Ethiopia"
+  ],
+  "key_events_ar": [
+   null
+  ],
+  "key_events": [
+   {
+    "event_id": "sabaean-south-arabian-kingdoms#0",
+    "en": "Mârib, capital of the kingdom of Saba: its principal temple on a tiered base parallels the temple of Yeha in Ethiopia",
+    "ar": null,
+    "cite": null,
+    "source_ids": [
+     "GHA2_CH19",
+     "WP:Sabaeans"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
+  ],
   "key_events_source_ids": [
    "GHA2_CH19",
    "WP:Sabaeans"
