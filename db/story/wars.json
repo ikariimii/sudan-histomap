@@ -20,9 +20,6 @@
    "sudan-south-sudan-border-2012": "republic-of-south-sudan",
    "piye-conquest-of-egypt": "kingdom-of-kush-napatan-period"
   },
-  "caption_pending_analyst": [
-   "war-2023"
-  ],
   "todo": "When Heglig (sudan-south-sudan-border-2012) and Ardamatta (war-2023, El Geneina) places exist, recompute boxes from battle coordinates and drop the fallback mark."
  },
  "wars": [
@@ -472,7 +469,7 @@
     "el-fasher-2024"
    ],
    "status": [
-    "CAPTION_PENDING_ANALYST"
+    "OK"
    ],
    "camera_bbox": [
     21.697,
@@ -482,14 +479,15 @@
    ],
    "label": "REPORTED",
    "allowed_sources": "UN, OCHA, ACLED, WFP, Panel of Experts only",
-   "caption": null,
+   "caption": "On 15 April 2023, armed clashes broke out between the Rapid Support Forces (RSF) and the Sudanese Armed Forces (SAF) in Khartoum and other areas outside the capital.",
    "caption_cites": [
-    "UNPOE_S2024_65"
+    "UNNEWS2023"
    ],
-   "caption_basis": "paraphrase of battle khartoum-2023 date/outcome + wars_post1956 date_from",
+   "caption_basis": "verbatim Analyst UN News text (/workspace/audit/war2023_caption_heglig.md)",
    "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented.",
-   "caption_draft": "REPORTED: SAF–RSF fighting reported from 15 April 2023, beginning in Khartoum.",
-   "caption_hidden": true
+   "caption_hidden": false,
+   "caption_ar": "في 15 أبريل 2023 اندلعت اشتباكات مسلحة بين قوات الدعم السريع والقوات المسلحة السودانية في الخرطوم ومناطق أخرى خارج العاصمة. [يحتاج تحقق]",
+   "badge": "REPORTED"
   },
   {
    "war_id": "piye-conquest-of-egypt",
