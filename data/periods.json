@@ -5932,6 +5932,27 @@
     "related": "UN_SC16203_20251030",
     "note": "Official UN News Arabic coverage of the 10026th Security Council meeting (SC/16203). Lead sentence read 2026-10-25. Supporting Arabic cite."
    },
+   "UNMISS_BACKGROUND": {
+    "author": "UN Mission in South Sudan (UNMISS)",
+    "title": "UNMISS Background",
+    "publisher": "United Nations",
+    "year": "",
+    "url": "https://unmiss.unmissions.org/en/unmiss-background",
+    "pages": "",
+    "lang": "en",
+    "note": "Undated UN mission page, read 2026-10-26 (HTTP 200). Quote: \"on 15 December 2013, violence broke out in the capital Juba\"."
+   },
+   "UNNEWS_20140112_SSUDAN": {
+    "author": "UN News",
+    "title": "South Sudan: UN mission cites 'clear indications' death count much higher than early estimates",
+    "publisher": "United Nations",
+    "date": "2014-01-12",
+    "year": "2014",
+    "url": "https://news.un.org/en/story/2014/01/459532",
+    "pages": "",
+    "lang": "en",
+    "note": "UN News story, 12 Jan 2014, read 2026-10-26 (HTTP 200). Start-date clause only, body para 1: \"since the conflict started on 15 December 2013\"."
+   },
    "UNNEWS_20250327_SSUDAN": {
     "author": "UN News",
     "title": "UN rights body sounds the alarm over South Sudan crisis",
@@ -9875,7 +9896,7 @@
     "R-ARCSS signed 12 Sep 2018",
     "Revitalised Transitional Government of National Unity formed 22 Feb 2020 (ACCORD)"
    ],
-   "key_events_cites": [[{"source": "UNSC1996", "page": "p.1 (adoption date; preamble para 1); p.3 op. para 1"}], [], [{"source": "RARCSS2018", "page": "signature page, printed p.73 (PDF p.79)"}], [{"source": "ACCORD2020", "page": "Background para 1 (secondary source)"}]],
+   "key_events_cites": [[{"source": "UNSC1996", "page": "p.1 (adoption date; preamble para 1); p.3 op. para 1"}], [{"source": "UNNEWS_20140112_SSUDAN", "page": "body para 1 (start-date clause only)"}, {"source": "UNMISS_BACKGROUND", "page": "background para (15 December 2013 sentence)"}], [{"source": "RARCSS2018", "page": "signature page, printed p.73 (PDF p.79)"}], [{"source": "ACCORD2020", "page": "Background para 1 (secondary source)"}]],
    "capitals": [
     {
      "name": "Juba",
@@ -9891,7 +9912,7 @@
     "WP:South_Sudan",
     "WP:South_Sudanese_Civil_War"
    ],
-   "dating_note": "",
+   "dating_note": "Key event 1 (civil war start): 15 Dec 2013 per UNNEWS_20140112_SSUDAN and UNMISS_BACKGROUND; ACCORD2020 gives 13 Dec 2013.",
    "key_events_ar": [
     "الاستقلال 9 يوليو 2011؛ إنشاء بعثة أونميس بقرار مجلس الأمن 1996 (8 يوليو 2011)",
     "الحرب الأهلية منذ 15 ديسمبر 2013 (مجموعة الأزمات الدولية 2014)",

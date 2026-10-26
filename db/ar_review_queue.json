@@ -4861,6 +4861,58 @@
       "action": "review",
       "origin_commit": "pending",
       "added": "2026-10-26"
+    },
+    {
+      "era_id": "south-sudan-civil-war",
+      "file": "db/wars_post1956.json",
+      "field_ar": "wars[war_id=south-sudan-civil-war].note_ar",
+      "arabic_sentence": "انتهت الحرب الأهلية بموجب اتفاق السلام لعام 2018 (أخبار الأمم المتحدة، 27 آذار/مارس 2025)، مع تحذير من خطر العودة إلى الحرب في 2025. [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "wars[war_id=south-sudan-civil-war].note",
+      "revised_english": "End year 2018 per UN News, 27 Mar 2025: \"the 2018 peace deal that ended five years of civil war\". The same article warns of a 2025 risk of renewed war: \"this action takes the country yet one step closer to the edge of a collapse into civil war and the dismantling of the peace agreement\" (UN spokesperson), and the Commission on Human Rights in South Sudan warned that failure \"will lead to a catastrophic return to war\".",
+      "note": "Analyst working Arabic end-note; native reviewer to check [يحتاج تحقق]; no official Arabic version of UN News story 1161601 (UNNEWS_20250327_SSUDAN) was found, so this is working wording",
+      "action": "review",
+      "origin_commit": "9c5f72a",
+      "added": "2026-10-26"
+    },
+    {
+      "era_id": "darfur-war",
+      "file": "db/wars_post1956.json",
+      "field_ar": "wars[war_id=darfur-war].note_ar",
+      "arabic_sentence": "لا يوجد نص أممي يذكر انتهاء الحرب؛ القرار 2559 (2020) يرحب باتفاق جوبا للسلام وينهي ولاية يوناميد فقط. [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "wars[war_id=darfur-war].note",
+      "revised_english": "date_to null: no UN text states that the war ended. S/RES/2559 (2020) only welcomes the Juba Peace Agreement and ends UNAMID's mandate.",
+      "note": "Analyst working Arabic end-note; native reviewer to check [يحتاج تحقق]",
+      "action": "review",
+      "origin_commit": "9c5f72a",
+      "added": "2026-10-26"
+    },
+    {
+      "era_id": "south-kordofan-blue-nile-2011",
+      "file": "db/wars_post1956.json",
+      "field_ar": "wars[war_id=south-kordofan-blue-nile-2011].note_ar",
+      "arabic_sentence": "لا يوجد نص أممي يذكر انتهاء النزاع؛ النصوص الأممية تحث فقط على وقف الأعمال العدائية. [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "wars[war_id=south-kordofan-blue-nile-2011].note",
+      "revised_english": "Blue Nile start date NO-SOURCE. date_to null: no UN text states that the conflict ended; UN texts only urge a cessation of hostilities.",
+      "note": "Analyst working Arabic end-note; native reviewer to check [يحتاج تحقق]",
+      "action": "review",
+      "origin_commit": "9c5f72a",
+      "added": "2026-10-26"
+    },
+    {
+      "era_id": "sudan-south-sudan-border-2012",
+      "file": "db/wars_post1956.json",
+      "field_ar": "wars[war_id=sudan-south-sudan-border-2012].note_ar",
+      "arabic_sentence": "لا يوجد نص أممي يذكر انتهاء النزاع؛ بيان مجلس الأمن الصحفي في 28 أيلول/سبتمبر 2012 يرحب بالاتفاقات دون ذكر انتهاء النزاع. [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "wars[war_id=sudan-south-sudan-border-2012].note",
+      "revised_english": "Start month NO-SOURCE. date_to null: no UN text states that the conflict ended; the Security Council press statement of 28 Sep 2012 welcomes the agreements signed by Sudan and South Sudan without stating that the conflict ended.",
+      "note": "Analyst working Arabic end-note; native reviewer to check [يحتاج تحقق]",
+      "action": "review",
+      "origin_commit": "9c5f72a",
+      "added": "2026-10-26"
     }
   ]
 }
