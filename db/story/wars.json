@@ -1,0 +1,544 @@
+{
+ "meta": {
+  "schema": "story-mode wars v1: war_id, name_en, battle_ids (chronological), located_battle_ids, camera_bbox [w,s,e,n] deg (padding 0.75), caption (EN, from sourced statement in data), caption_cites (registry ids), caption_basis, status [OK|NEEDS_CITE|NO_BATTLES]",
+  "generated": "2026-10-25",
+  "owner": "Sudan Map Designer",
+  "inputs": [
+   "db/wars.json",
+   "db/wars_post1956.json",
+   "data/battles.json",
+   "db/battles_post1956.json",
+   "db/markers/battle_style.json"
+  ],
+  "rules": "Post-2023 = REPORTED, UN/OCHA/ACLED/WFP/PoE only, no control claims; contested areas drawn as contested; Arabic, if added, tagged [يحتاج تحقق].",
+  "needs_cite": [],
+  "no_battles": [
+   "aksum-kush-war",
+   "kordofan-wars",
+   "anglo-egyptian-reconquest",
+   "darfur-campaign-1916",
+   "sudan-south-sudan-border-2012",
+   "piye-conquest-of-egypt"
+  ]
+ },
+ "wars": [
+  {
+   "war_id": "kushite-egyptian-wars",
+   "name_en": "Egyptian–Kushite wars",
+   "battle_ids": [
+    "kerma--1500",
+    "kerma--593"
+   ],
+   "located_battle_ids": [
+    "kerma--1500",
+    "kerma--593"
+   ],
+   "status": [
+    "OK"
+   ],
+   "camera_bbox": [
+    29.66,
+    18.851,
+    31.16,
+    20.351
+   ],
+   "caption": "Thutmose I's campaign against Kerma: Egyptian victory; the kingdom of Kerma was defeated (c.1500 BCE, shortly before)",
+   "caption_cites": [
+    "SFDAS_HCS2017"
+   ],
+   "caption_basis": "battle kerma--1500 outcome_en"
+  },
+  {
+   "war_id": "roman-meroitic-war",
+   "name_en": "Roman–Meroitic war",
+   "battle_ids": [
+    "napata--23"
+   ],
+   "located_battle_ids": [
+    "napata--23"
+   ],
+   "status": [
+    "OK"
+   ],
+   "camera_bbox": [
+    31.067,
+    17.783,
+    32.567,
+    19.283
+   ],
+   "caption": "Meroitic forces attacked the Thebaid, taking Syene, Elephantine and Philae, after part of the Roman garrison left with Aelius Gallus for Arabia (SFDAS pp.243–244, quoting Strabo).",
+   "caption_cites": [
+    "SFDAS_HCS2017",
+    "GHA2_CH10"
+   ],
+   "caption_basis": "db/wars.json causes_en"
+  },
+  {
+   "war_id": "aksum-kush-war",
+   "name_en": "Aksum's campaigns against Kush",
+   "battle_ids": [
+    "meroe-330"
+   ],
+   "located_battle_ids": [],
+   "status": [
+    "NO_BATTLES"
+   ],
+   "camera_bbox": null,
+   "caption": "Ezana of Aksum's campaign against the Kushites and Noba: Ezana's Ge'ez inscription DAE 11 records his war against the Noba and the Kasu at the Nile–Atbara confluence (SFDAS pp.325–326).",
+   "caption_cites": [
+    "SFDAS_HCS2017"
+   ],
+   "caption_basis": "battle meroe-330 significance_en",
+   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented."
+  },
+  {
+   "war_id": "arab-nubian-wars",
+   "name_en": "Arab–Nubian wars",
+   "battle_ids": [
+    "dongola-642",
+    "dongola-652"
+   ],
+   "located_battle_ids": [
+    "dongola-652"
+   ],
+   "status": [
+    "OK"
+   ],
+   "camera_bbox": [
+    29.994,
+    17.473,
+    31.494,
+    18.973
+   ],
+   "caption": "First Arab campaign against Makuria: Nubian counter-offensive turned back the Arab army",
+   "caption_cites": [
+    "SFDAS_HCS2017"
+   ],
+   "caption_basis": "battle dongola-642 outcome_en",
+   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented."
+  },
+  {
+   "war_id": "funj-abdallab-war",
+   "name_en": "Funj–Abdallab war",
+   "battle_ids": [
+    "arbaji-1504"
+   ],
+   "located_battle_ids": [
+    "arbaji-1504"
+   ],
+   "status": [
+    "OK"
+   ],
+   "camera_bbox": [
+    32.602,
+    13.976,
+    34.102,
+    15.476
+   ],
+   "caption": "Funj victory; the Abdallabi king became a Funj vassal (GHA V ch.7 p.173).",
+   "caption_cites": [
+    "GHA5_CH7"
+   ],
+   "caption_basis": "db/wars.json outcome_en"
+  },
+  {
+   "war_id": "kordofan-wars",
+   "name_en": "Wars for Kordofan (Funj, Musabba'at, Darfur)",
+   "battle_ids": [
+    "kordofan-1747"
+   ],
+   "located_battle_ids": [],
+   "status": [
+    "NO_BATTLES"
+   ],
+   "camera_bbox": null,
+   "caption": "Funj campaign against the Musabba'at in Kordofan: Decisive Funj victory after initial setbacks; Abu Likaylik ruled Kordofan as viceroy",
+   "caption_cites": [
+    "GHA5_CH7"
+   ],
+   "caption_basis": "battle kordofan-1747 outcome_en",
+   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented."
+  },
+  {
+   "war_id": "mahdist-war",
+   "name_en": "Mahdist war against Turco-Egyptian rule",
+   "battle_ids": [
+    "shaykan-1883",
+    "el-teb-1884",
+    "tamai-1884",
+    "abu-klea-1885",
+    "khartoum-1885",
+    "ginnis-1885",
+    "toski-1889"
+   ],
+   "located_battle_ids": [
+    "khartoum-1885"
+   ],
+   "status": [
+    "OK"
+   ],
+   "camera_bbox": [
+    31.777,
+    14.853,
+    33.277,
+    16.353
+   ],
+   "caption": "Battle of Shaykan: Mahdist victory; a turning point of the Mahdist revolution",
+   "caption_cites": [
+    "GHA7_CH4",
+    "SLATIN1898"
+   ],
+   "caption_basis": "battle shaykan-1883 outcome_en",
+   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented."
+  },
+  {
+   "war_id": "mahdist-ethiopian-war",
+   "name_en": "Mahdist–Ethiopian war",
+   "battle_ids": [
+    "gallabat-1889"
+   ],
+   "located_battle_ids": [
+    "gallabat-1889"
+   ],
+   "status": [
+    "OK"
+   ],
+   "camera_bbox": [
+    35.4,
+    12.217,
+    36.9,
+    13.717
+   ],
+   "caption": "Battle of Gallabat (Matamma): Emperor mortally wounded at the close of the battle; his army dispersed",
+   "caption_cites": [
+    "GHA7_CH11",
+    "RIVERWAR1899_V1"
+   ],
+   "caption_basis": "battle gallabat-1889 outcome_en"
+  },
+  {
+   "war_id": "anglo-egyptian-reconquest",
+   "name_en": "Anglo-Egyptian reconquest of the Sudan",
+   "battle_ids": [
+    "ferkeh-1896",
+    "atbara-1898",
+    "karari-1898",
+    "umm-diwaykarat-1899"
+   ],
+   "located_battle_ids": [],
+   "status": [
+    "NO_BATTLES"
+   ],
+   "camera_bbox": null,
+   "caption": "Mahdist state collapsed after Karari (1898) and Umm Diwaykarat (1899) (GHA VII ch.4 p.78).",
+   "caption_cites": [
+    "GHA7_CH4",
+    "RIVERWAR1899_V1"
+   ],
+   "caption_basis": "db/wars.json outcome_en",
+   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented."
+  },
+  {
+   "war_id": "darfur-campaign-1916",
+   "name_en": "Darfur campaign of 1916",
+   "battle_ids": [
+    "darfur-1916"
+   ],
+   "located_battle_ids": [],
+   "status": [
+    "NO_BATTLES"
+   ],
+   "camera_bbox": null,
+   "caption": "Defeat of Sultan Ali Dinar: Ali Dinar defeated and killed; Darfur incorporated into Sudan",
+   "caption_cites": [
+    "GHA7_CH12"
+   ],
+   "caption_basis": "battle darfur-1916 outcome_en",
+   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented."
+  },
+  {
+   "war_id": "first-civil-war",
+   "name_en": "First Sudanese civil war",
+   "battle_ids": [
+    "torit-1955"
+   ],
+   "located_battle_ids": [
+    "torit-1955"
+   ],
+   "status": [
+    "OK"
+   ],
+   "camera_bbox": [
+    31.817,
+    3.667,
+    33.317,
+    5.167
+   ],
+   "caption": "Torit mutiny (Equatoria Corps revolt): The Torit mutiny of August 1955 is the start point of the first civil war (GHA VIII p.149).",
+   "caption_cites": [
+    "GHA8"
+   ],
+   "caption_basis": "battle torit-1955 significance_en"
+  },
+  {
+   "war_id": "second-civil-war",
+   "name_en": "Second Sudanese civil war",
+   "battle_ids": [
+    "bor-1992",
+    "kapoeta-1992",
+    "juba-1992",
+    "torit-1992"
+   ],
+   "located_battle_ids": [
+    "bor-1992",
+    "kapoeta-1992",
+    "juba-1992",
+    "torit-1992"
+   ],
+   "status": [
+    "OK"
+   ],
+   "camera_bbox": [
+    30.809,
+    3.662,
+    34.341,
+    6.959
+   ],
+   "caption": "Ended by the January 2005 Comprehensive Peace Agreement (CPA_2005 Annexure I §2 and §5; UNSC1590 p.1, preamble para 3)",
+   "caption_cites": [
+    "HRW1993_CIVDEV",
+    "UNSC2046",
+    "UNSC1590",
+    "CPA_2005"
+   ],
+   "caption_basis": "db/wars.json outcome_en"
+  },
+  {
+   "war_id": "darfur-war",
+   "name_en": "War in Darfur",
+   "battle_ids": [
+    "el-fasher-2003",
+    "omdurman-2008"
+   ],
+   "located_battle_ids": [
+    "el-fasher-2003",
+    "omdurman-2008"
+   ],
+   "status": [
+    "OK"
+   ],
+   "camera_bbox": [
+    24.599,
+    12.878,
+    33.228,
+    16.395
+   ],
+   "caption": "Early SLA demands: regional development, end to tribal militias, power-sharing (per HRW 2004 Background)",
+   "caption_cites": [
+    "HRW2004_DARFUR",
+    "UNSC_PRST_2008_15"
+   ],
+   "caption_basis": "db/wars.json causes_en"
+  },
+  {
+   "war_id": "south-kordofan-blue-nile-2011",
+   "name_en": "South Kordofan and Blue Nile conflict",
+   "battle_ids": [
+    "kadugli-2011"
+   ],
+   "located_battle_ids": [
+    "kadugli-2011"
+   ],
+   "status": [
+    "OK"
+   ],
+   "camera_bbox": [
+    28.968,
+    10.261,
+    30.468,
+    11.761
+   ],
+   "caption": "Outbreak of fighting in Kadugli: Fighting broke out in Kadugli on 5 June 2011 (per OHCHR)",
+   "caption_cites": [
+    "OHCHR_SK2011"
+   ],
+   "caption_basis": "battle kadugli-2011 outcome_en"
+  },
+  {
+   "war_id": "sudan-south-sudan-border-2012",
+   "name_en": "Sudan–South Sudan border conflict (Heglig crisis)",
+   "battle_ids": [
+    "heglig-2012"
+   ],
+   "located_battle_ids": [],
+   "status": [
+    "NO_BATTLES"
+   ],
+   "camera_bbox": null,
+   "caption": "Security Council welcomed SPLA withdrawal from Heglig and demanded cessation of hostilities (S/RES/2046)",
+   "caption_cites": [
+    "UNSC_PRST_2012_12",
+    "UNSC2046"
+   ],
+   "caption_basis": "db/wars.json outcome_en",
+   "contested": "Heglig/border area: draw as contested; no control claim.",
+   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented."
+  },
+  {
+   "war_id": "south-sudan-civil-war",
+   "name_en": "South Sudanese civil war",
+   "battle_ids": [
+    "bor-2013",
+    "bentiu-2013",
+    "malakal-2013"
+   ],
+   "located_battle_ids": [
+    "bor-2013",
+    "bentiu-2013",
+    "malakal-2013"
+   ],
+   "status": [
+    "OK"
+   ],
+   "camera_bbox": [
+    29.048,
+    5.459,
+    32.41,
+    10.283
+   ],
+   "caption": "Internal power struggle within the SPLM; fighting began in Juba on 15 Dec 2013 (UNMISS paras 1–2)",
+   "caption_cites": [
+    "UNMISS_HRR2014"
+   ],
+   "caption_basis": "db/wars.json causes_en"
+  },
+  {
+   "war_id": "war-2023",
+   "name_en": "War in Sudan (SAF vs RSF)",
+   "battle_ids": [
+    "khartoum-2023",
+    "el-geneina-2023",
+    "nyala-2023",
+    "zalingei-2023",
+    "ardamatta-2023",
+    "el-fasher-2024"
+   ],
+   "located_battle_ids": [
+    "khartoum-2023",
+    "el-geneina-2023",
+    "nyala-2023",
+    "zalingei-2023",
+    "el-fasher-2024"
+   ],
+   "status": [
+    "OK"
+   ],
+   "camera_bbox": [
+    21.697,
+    11.299,
+    33.282,
+    16.302
+   ],
+   "label": "REPORTED",
+   "allowed_sources": "UN, OCHA, ACLED, WFP, Panel of Experts only",
+   "caption": "REPORTED: SAF–RSF fighting reported from 15 April 2023, beginning in Khartoum.",
+   "caption_cites": [
+    "UNPOE_S2024_65"
+   ],
+   "caption_basis": "paraphrase of battle khartoum-2023 date/outcome + wars_post1956 date_from",
+   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented."
+  },
+  {
+   "war_id": "piye-conquest-of-egypt",
+   "name_en": "Piye's conquest of Egypt",
+   "battle_ids": [
+    "memphis--720"
+   ],
+   "located_battle_ids": [],
+   "status": [
+    "NO_BATTLES"
+   ],
+   "camera_bbox": null,
+   "caption": "Tefnakht of Sais united the Delta, occupied Memphis and besieged Heracleopolis; Piye sent an army after the ruler of Hermopolis joined him (GHA II p.106).",
+   "caption_cites": [
+    "GHA2_CH2",
+    "GHA2_CH10",
+    "SFDAS_HCS2017"
+   ],
+   "caption_basis": "db/wars.json causes_en",
+   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented."
+  },
+  {
+   "war_id": "mamluk-makuria-wars",
+   "name_en": "Mamluk expeditions into Makuria",
+   "battle_ids": [
+    "dongola-1276"
+   ],
+   "located_battle_ids": [
+    "dongola-1276"
+   ],
+   "status": [
+    "OK"
+   ],
+   "camera_bbox": [
+    29.994,
+    17.473,
+    31.494,
+    18.973
+   ],
+   "caption": "Mamluk forces repeatedly installed rulers at Dongola and imposed tribute (SFDAS p.419).",
+   "caption_cites": [
+    "SFDAS_HCS2017"
+   ],
+   "caption_basis": "db/wars.json outcome_en"
+  },
+  {
+   "war_id": "ottoman-nubia-campaign",
+   "name_en": "Ottoman occupation of northern Nubia",
+   "battle_ids": [
+    "qasr-ibrim-1560"
+   ],
+   "located_battle_ids": [
+    "qasr-ibrim-1560"
+   ],
+   "status": [
+    "OK"
+   ],
+   "camera_bbox": [
+    31.242,
+    21.9,
+    32.742,
+    23.4
+   ],
+   "caption": "Ottoman province with its capital at Qasr Ibrim, garrisons at Aswan, Qasr Ibrim and Sai (SFDAS pp.423–424).",
+   "caption_cites": [
+    "SFDAS_HCS2017"
+   ],
+   "caption_basis": "db/wars.json outcome_en"
+  },
+  {
+   "war_id": "italian-mahdist-war",
+   "name_en": "Italian–Mahdist war (Eritrean frontier)",
+   "battle_ids": [
+    "kassala-1894"
+   ],
+   "located_battle_ids": [
+    "kassala-1894"
+   ],
+   "status": [
+    "OK"
+   ],
+   "camera_bbox": [
+    35.65,
+    14.7,
+    37.15,
+    16.2
+   ],
+   "caption": "Mahdist attack on Agordat repulsed (1893); Italians under Baratieri captured Kassala the next year; Kassala retroceded to Egypt on Christmas Day in a ceremony with Colonel Parsons (River War I pp.355–358).",
+   "caption_cites": [
+    "RIVERWAR1899_V1"
+   ],
+   "caption_basis": "db/wars.json outcome_en"
+  }
+ ]
+}
