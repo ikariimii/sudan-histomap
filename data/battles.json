@@ -360,10 +360,11 @@
       "precision": "approximate",
       "place_id": "shaykan",
       "sides": [
-        "Mahdist Ansar",
-        "Egyptian army (Hicks Pasha)"
+        {"en": "Mahdist Ansar", "ar": "الأنصار المهديون [يحتاج تحقق]"},
+        {"en": "Egyptian army (Hicks Pasha)", "ar": "الجيش المصري (هكس باشا) [يحتاج تحقق]"}
       ],
       "outcome_en": "Mahdist victory; a turning point of the Mahdist revolution",
+      "outcome_ar": "انتصار المهديين؛ نقطة تحول في الثورة المهدية [يحتاج تحقق]",
       "era_ids": [
         "turkiyya-ottoman-egyptian-rule",
         "mahdist-state-mahdiyya"
@@ -417,10 +418,11 @@
       "precision": "approximate",
       "place_id": "khartoum",
       "sides": [
-        "Mahdist Ansar",
-        "Turco-Egyptian garrison (Gordon)"
+        {"en": "Mahdist Ansar", "ar": "الأنصار المهديون [يحتاج تحقق]"},
+        {"en": "Turco-Egyptian garrison (Gordon)", "ar": "الحامية التركية المصرية (غردون) [يحتاج تحقق]"}
       ],
       "outcome_en": "Mahdist forces took the town after a long siege, ending Turco-Egyptian rule",
+      "outcome_ar": "استولت القوات المهدية على المدينة بعد حصار طويل، منهيةً الحكم التركي المصري [يحتاج تحقق]",
       "era_ids": [
         "turkiyya-ottoman-egyptian-rule",
         "mahdist-state-mahdiyya"
@@ -463,10 +465,11 @@
       "date": "1889",
       "precision": "region",
       "sides": [
-        "Mahdist army (Abd al-Rahman al-Nujumi)",
-        "Egyptian army"
+        {"en": "Mahdist army (Abd al-Rahman al-Nujumi)", "ar": "الجيش المهدوي (عبد الرحمن النجومي) [يحتاج تحقق]"},
+        {"en": "Egyptian army", "ar": "الجيش المصري [يحتاج تحقق]"}
       ],
       "outcome_en": "Mahdist invasion of Egypt was defeated",
+      "outcome_ar": "هُزم الغزو المهدوي لمصر [يحتاج تحقق]",
       "era_ids": [
         "mahdist-state-mahdiyya",
         "british-occupied-kingdom-of-egypt"
@@ -531,10 +534,11 @@
       "precision": "approximate",
       "place_id": "gallabat",
       "sides": [
-        "Ethiopian Empire (Yohannes IV)",
-        "Mahdist State"
+        {"en": "Ethiopian Empire (Yohannes IV)", "ar": "الإمبراطورية الإثيوبية (يوحنا الرابع) [يحتاج تحقق]"},
+        {"en": "Mahdist State", "ar": "الدولة المهدية [يحتاج تحقق]"}
       ],
       "outcome_en": "Emperor mortally wounded at the close of the battle; his army dispersed",
+      "outcome_ar": "أُصيب الإمبراطور إصابة قاتلة في ختام المعركة؛ وتفرّق جيشه [يحتاج تحقق]",
       "era_ids": [
         "mahdist-state-mahdiyya",
         "ethiopian-empire-solomonic"
@@ -583,10 +587,11 @@
       "precision": "approximate",
       "place_id": "nakheila",
       "sides": [
-        "Mahdist Ansar (Mahmud Ahmad)",
-        "Anglo-Egyptian army"
+        {"en": "Mahdist Ansar (Mahmud Ahmad)", "ar": "الأنصار المهديون (محمود أحمد) [يحتاج تحقق]"},
+        {"en": "Anglo-Egyptian army", "ar": "الجيش الإنجليزي المصري [يحتاج تحقق]"}
       ],
       "outcome_en": "Anglo-Egyptian victory; Mahmud Ahmad captured",
+      "outcome_ar": "انتصار الجيش الإنجليزي المصري؛ وأُسر محمود أحمد [يحتاج تحقق]",
       "era_ids": [
         "mahdist-state-mahdiyya"
       ],
@@ -644,10 +649,11 @@
       "precision": "approximate",
       "place_id": "karari",
       "sides": [
-        "Mahdist State (Khalifa Abdallahi)",
-        "Anglo-Egyptian army"
+        {"en": "Mahdist State (Khalifa Abdallahi)", "ar": "الدولة المهدية (الخليفة عبد الله) [يحتاج تحقق]"},
+        {"en": "Anglo-Egyptian army", "ar": "الجيش الإنجليزي المصري [يحتاج تحقق]"}
       ],
       "outcome_en": "Anglo-Egyptian victory; the Khalifa withdrew to Kordofan",
+      "outcome_ar": "انتصار الجيش الإنجليزي المصري؛ وانسحب الخليفة إلى كردفان [يحتاج تحقق]",
       "era_ids": [
         "mahdist-state-mahdiyya",
         "anglo-egyptian-sudan-condominium"
@@ -698,10 +704,11 @@
       "date": "1899-11-24",
       "precision": "region",
       "sides": [
-        "Mahdist State (Khalifa Abdallahi)",
-        "Anglo-Egyptian army"
+        {"en": "Mahdist State (Khalifa Abdallahi)", "ar": "الدولة المهدية (الخليفة عبد الله) [يحتاج تحقق]"},
+        {"en": "Anglo-Egyptian army", "ar": "الجيش الإنجليزي المصري [يحتاج تحقق]"}
       ],
       "outcome_en": "The Khalifa died on the field; collapse of the Mahdist state",
+      "outcome_ar": "قُتل الخليفة في ساحة المعركة؛ وانهارت الدولة المهدية [يحتاج تحقق]",
       "era_ids": [
         "mahdist-state-mahdiyya",
         "anglo-egyptian-sudan-condominium"
@@ -1012,8 +1019,8 @@
       "place_id": "el-teb",
       "region": "Near Tokar, Red Sea littoral, just north of the later fort (Gleichen V1 p.15)",
       "sides": [
-        "British expedition from Suakin",
-        "Mahdist forces (eastern Sudan)"
+        {"en": "British expedition from Suakin", "ar": "الحملة البريطانية من سواكن [يحتاج تحقق]"},
+        {"en": "Mahdist forces (eastern Sudan)", "ar": "القوات المهدية (شرق السودان) [يحتاج تحقق]"}
       ],
       "commanders": {
         "British expedition": [
@@ -1021,6 +1028,7 @@
         ]
       },
       "outcome_en": "Fought 29 February 1884 during the British expedition to relieve Tokar (Wingate p.117).",
+      "outcome_ar": "دارت في 29 فبراير 1884 خلال الحملة البريطانية لفك الحصار عن طوكر (وينغيت ص117). [يحتاج تحقق]",
       "era_ids": [
         "turkiyya-ottoman-egyptian-rule",
         "british-occupied-kingdom-of-egypt"
@@ -1071,8 +1079,8 @@
       "place_id": "tamai",
       "region": "Near Suakin, Red Sea hills",
       "sides": [
-        "British expedition from Suakin",
-        "Mahdist forces (eastern Sudan)"
+        {"en": "British expedition from Suakin", "ar": "الحملة البريطانية من سواكن [يحتاج تحقق]"},
+        {"en": "Mahdist forces (eastern Sudan)", "ar": "القوات المهدية (شرق السودان) [يحتاج تحقق]"}
       ],
       "commanders": {
         "British expedition": [
@@ -1080,6 +1088,7 @@
         ]
       },
       "outcome_en": "Graham's force drove the Mahdist forces into the hills (Wingate p.118).",
+      "outcome_ar": "دفعت قوة غراهام القوات المهدية إلى التلال (وينغيت ص118). [يحتاج تحقق]",
       "era_ids": [
         "turkiyya-ottoman-egyptian-rule",
         "british-occupied-kingdom-of-egypt"
@@ -1131,8 +1140,8 @@
       "place_id": "abu-klea",
       "region": "Bayuda desert, on the Korti–Metemma route",
       "sides": [
-        "British Desert Column",
-        "Mahdist forces"
+        {"en": "British Desert Column", "ar": "رتل الصحراء البريطاني [يحتاج تحقق]"},
+        {"en": "Mahdist forces", "ar": "القوات المهدية [يحتاج تحقق]"}
       ],
       "commanders": {
         "Mahdist forces": [
@@ -1140,6 +1149,7 @@
         ]
       },
       "outcome_en": "The British advanced guard defeated the combined Mahdist force (Slatin p.204).",
+      "outcome_ar": "هزمت الطليعة البريطانية القوة المهدية المجتمعة (سلاطين ص204). [يحتاج تحقق]",
       "era_ids": [
         "turkiyya-ottoman-egyptian-rule",
         "mahdist-state-mahdiyya"
@@ -1190,8 +1200,8 @@
       "place_id": "ginnis",
       "region": "Ginnis and Kosheh, east bank of the Nile, Dongola frontier",
       "sides": [
-        "Anglo-Egyptian frontier force",
-        "Mahdist forces"
+        {"en": "Anglo-Egyptian frontier force", "ar": "قوة الحدود الإنجليزية المصرية [يحتاج تحقق]"},
+        {"en": "Mahdist forces", "ar": "القوات المهدية [يحتاج تحقق]"}
       ],
       "commanders": {
         "Anglo-Egyptian frontier force": [
@@ -1199,6 +1209,7 @@
         ]
       },
       "outcome_en": "Mahdist advance sustained a severe repulse (River War I p.157).",
+      "outcome_ar": "تعرّض التقدم المهدوي لصدّ شديد (حرب النهر، المجلد الأول ص157). [يحتاج تحقق]",
       "era_ids": [
         "mahdist-state-mahdiyya",
         "british-occupied-kingdom-of-egypt"
@@ -1254,8 +1265,8 @@
       "precision": "approximate",
       "place_id": "kassala",
       "sides": [
-        "Italian colonial forces",
-        "Mahdist garrison of Kassala"
+        {"en": "Italian colonial forces", "ar": "القوات الاستعمارية الإيطالية [يحتاج تحقق]"},
+        {"en": "Mahdist garrison of Kassala", "ar": "الحامية المهدية في كسلا [يحتاج تحقق]"}
       ],
       "commanders": {
         "Italian colonial forces": [
@@ -1263,6 +1274,7 @@
         ]
       },
       "outcome_en": "Italians advanced from Agordat and captured Kassala; occupation provisionally recognised by Egypt (River War I p.356).",
+      "outcome_ar": "تقدّم الإيطاليون من أغوردات واستولوا على كسلا؛ واعترفت مصر مؤقتاً بالاحتلال (حرب النهر، المجلد الأول ص356). [يحتاج تحقق]",
       "era_ids": [
         "mahdist-state-mahdiyya",
         "eritrea-italian-colony-independent"
@@ -1308,8 +1320,8 @@
       "place_id": "firket",
       "region": "Firket, Nile above Akasha, Dongola province",
       "sides": [
-        "Egyptian army (Sirdar)",
-        "Mahdist force at Firket"
+        {"en": "Egyptian army (Sirdar)", "ar": "الجيش المصري (السردار) [يحتاج تحقق]"},
+        {"en": "Mahdist force at Firket", "ar": "القوة المهدية في فركة [يحتاج تحقق]"}
       ],
       "commanders": {
         "Mahdist force": [
@@ -1317,6 +1329,7 @@
         ]
       },
       "outcome_en": "Capture of Firket village and pursuit (River War I p.220, chapter summary).",
+      "outcome_ar": "الاستيلاء على قرية فركة والمطاردة (حرب النهر، المجلد الأول ص220، ملخص الفصل). [يحتاج تحقق]",
       "era_ids": [
         "mahdist-state-mahdiyya",
         "british-occupied-kingdom-of-egypt"
