@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 376
+      "sentence_items": 378
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -7429,6 +7429,34 @@
       "origin_commit": "pending",
       "added": "2026-10-26",
       "kind": "war_name_ar"
+    },
+    {
+      "era_id": "Wadai Sultanate",
+      "file": "data/periods.json",
+      "field_ar": "key_events_ar[0] (mirrored in data/periods.js)",
+      "arabic_sentence": "منافسة دارفور وجارتها",
+      "badge": "VERIFY",
+      "field_en": "key_events[0]",
+      "revised_english": "(line deleted: \"Rival and neighbour of Darfur\" — GHA V ch.7 p.188 gives no year for the rivalry (only 'c. 1682-1722' for Bukr and 'in about the middle of the eighteenth century'))",
+      "reason": "Year-less key event removed in cite-or-delete pass (no registered source gives a year); its Arabic counterpart removed with it. Arabic not reworded. Index is the pre-deletion index.",
+      "action": "Native reviewer: confirm the Arabic line's removal; no Arabic to align.",
+      "origin_commit": "key_events no-year cite-or-delete (nuer#0, wadai#0)",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق]"
+    },
+    {
+      "era_id": "Nuer (Naath) communities",
+      "file": "data/periods.json",
+      "field_ar": "key_events_ar[0] (mirrored in data/periods.js)",
+      "arabic_sentence": "",
+      "badge": "VERIFY",
+      "field_en": "key_events[0]",
+      "revised_english": "(line deleted: \"Nuer (Naath) and Dinka (Jieng) resist 19th-century traders' raids, retreating with their cattle into the swamps and often defeating the raiders\" — GHA VI ch.14 p.368 gives no year for this sentence)",
+      "reason": "Year-less key event removed in cite-or-delete pass (no registered source gives a year); its Arabic counterpart removed with it. Arabic not reworded. Index is the pre-deletion index.",
+      "action": "Native reviewer: confirm the Arabic line's removal; no Arabic to align.",
+      "origin_commit": "key_events no-year cite-or-delete (nuer#0, wadai#0)",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق]"
     }
   ]
 }
