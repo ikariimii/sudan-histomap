@@ -211,3 +211,11 @@ html[dir=rtl] #wtl .wsp.eu::after{right:auto;left:-4px}
 /* step 3: hillshade multiplied at .5 over the topo tiles (topo_basemap_style spec); heatmap hidden mid-zoom */
 .tiles.t-dem image{mix-blend-mode:multiply;opacity:.5}
 g.heat{pointer-events:none}
+/* step 4: legend swatches for the war markers and basemap layers */
+#lgp .wlg .wsw{display:inline-flex;flex:none;margin-inline-end:6px}
+#lgp .lsw{display:inline-block;flex:none;width:22px;height:12px;border-radius:2px;margin-inline-end:6px;vertical-align:middle;border:1px solid #4a6273}
+#lgp .lsw.tp{background:linear-gradient(135deg,#6f7a5a,#9a8f6c 50%,#c9c0a3)}
+#lgp .lsw.hs{background:linear-gradient(135deg,#ddd,#777)}
+#lgp .lsw.ht{background:linear-gradient(90deg,#3b0f70,#8c2981,#de4968,#fe9f6d,#fcd38f,#fcfdbf)}
+
+.tgl{flex-wrap:wrap}.tgl .tgb{display:block;width:100%;max-width:220px;height:10px;border-radius:2px;margin:2px 0}.tgl .tgt{display:flex;justify-content:space-between;max-width:220px;gap:6px}.tgl .n{display:block;opacity:.8}
