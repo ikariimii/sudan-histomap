@@ -7459,6 +7459,34 @@
       "origin_commit": "key_events no-year cite-or-delete (nuer#0, wadai#0)",
       "added": "2026-10-26",
       "note": "[يحتاج تحقق]"
+    },
+    {
+          "file": "db/cities.json",
+          "field_ar": "places[id=memphis].name_ar",
+          "arabic_sentence": "منف [يحتاج تحقق]",
+          "badge": "VERIFY",
+          "field_en": "places[id=memphis].name_en",
+          "revised_english": "Memphis",
+          "source_url": "https://egymonuments.gov.eg/ar/world-heritage/memphis-and-its-necropolis",
+          "note": "No registered meta.sources entry gives the Arabic form (QASIM OCR searched, no hit). Conventional form quoted from Egypt Ministry of Tourism and Antiquities page para 1: «تقع منف بالقرب من قرية ميت رهينة الحديثة». UNESCO WHC 86 Arabic title uses ممفيس; reviewer to choose.",
+          "action": "review",
+          "origin_commit": "pending",
+          "added": "2026-10-26",
+          "kind": "city_name_ar"
+    },
+    {
+          "file": "db/cities.json",
+          "field_ar": "places[id=hermopolis].name_ar",
+          "arabic_sentence": "الأشمونين [يحتاج تحقق]",
+          "badge": "VERIFY",
+          "field_en": "places[id=hermopolis].name_en",
+          "revised_english": "Hermopolis (Hermopolis Magna)",
+          "source_url": "https://www.alquds.co.uk/%D8%A7%D9%84%D8%A3%D8%B4%D9%85%D9%88%D9%86%D9%8A%D9%86-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%85%D8%A9-%D8%A7%D9%84%D8%AF%D9%8A%D9%86%D9%8A%D8%A9-%D9%88%D9%85/",
+          "note": "No registered meta.sources entry gives the Arabic form. Quoted from Al-Quds Al-Arabi 24 Aug 2019 para 2: «اسم الأشمونين باتفاق الأثريين هو تحريف للاسم المصري القديم “خمون” ... فقد سموا المدينة “هرموبوليس ماجنا”». Modern village name for the ancient site; reviewer to confirm.",
+          "action": "review",
+          "origin_commit": "pending",
+          "added": "2026-10-26",
+          "kind": "city_name_ar"
     }
   ]
 }
