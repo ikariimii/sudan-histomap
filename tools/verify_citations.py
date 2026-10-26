@@ -87,6 +87,24 @@ def offline():
             if not isinstance(v.get('year'),int):
                 if v.get('id') in DESCRIPTIVE_KEPT: info.append(('event',v.get('id'),'descriptive, kept by ruling (IM 2026-10-25)'))
                 else: warn.append(('event',v.get('id'),'no year - dropped at build'))
+    # Badge vocabulary check (proposed by Sudan Geopolitical Analyst, IM 2026-10-25). Scope: Analyst-owned data files only.
+    # Canonical set (Historian list + CENSUS per IM ruling); allowed in all three files.
+    BADGE_CANON={'SINGLE-SOURCE','CONTESTED','REPORTED','VERIFY','TRADITION','MODEL','APPROXIMATE','EDITORIAL','PARTIAL','DERIVED','NO-SOURCE','CENSUS'}
+    BADGE_FILES={'db/population.json':BADGE_CANON,'db/era_events_post1956.json':BADGE_CANON,'db/wars_post1956.json':BADGE_CANON}
+    def _badges(o,path,out):
+        if isinstance(o,dict):
+            for k,v in o.items():
+                if k in ('badge','badges','end_badge'):
+                    for b in ([v] if isinstance(v,str) else v if isinstance(v,list) else []): out.append((path+'.'+k,b))
+                _badges(v,path+'.'+k,out)
+        elif isinstance(o,list):
+            for i,v in enumerate(o): _badges(v,'%s[%d]'%(path,i),out)
+    for bf,ok in BADGE_FILES.items():
+        if not os.path.isfile(bf): continue
+        found=[];_badges(json.load(open(bf,encoding='utf-8')),'',found)
+        for path,b in found:
+            n+=1
+            if b not in ok: bad.append(('badge-noncanonical',bf+path,b))
     [print('  INFO',*w) for w in info]
     if warn: print('battles/events warnings (not failures; these items are left out of the build):',len(warn));[print('  WARN',*w) for w in warn]
     print(n,'offline checks; problems:',len(bad),'(registry %d IDs)'%len(REG),flush=True)
