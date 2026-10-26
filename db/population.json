@@ -1889,7 +1889,118 @@
      "note": "DYB value provisional; national (CAPMAS) estimate of the resident population"
     }
    ],
-   "caveat": "Neighbour state; WPP 2024 national figure, current borders."
+   "caveat": "Neighbour state; WPP 2024 national figure, current borders.",
+   "indicators_owid": {
+    "population": {
+     "year": 1953,
+     "value": 22644148,
+     "unit": "persons",
+     "territory": "Egypt",
+     "chart": "Population",
+     "chart_url": "https://ourworldindata.org/grapher/population?country=~EGY",
+     "csv_url": "https://ourworldindata.org/grapher/population.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/population?country=~EGY"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_population": "db already holds exact UN WPP 2024 values for this era (estimates[]); the Historian found 1-9 person gaps between OWID chart values and WPP 2024 (OWID rounding). This OWID value is as served by the grapher CSV, not a replacement."
+    },
+    "life_expectancy": {
+     "year": 1953,
+     "value": 37.8686,
+     "unit": "years at birth",
+     "territory": "Egypt",
+     "chart": "Life expectancy",
+     "chart_url": "https://ourworldindata.org/grapher/life-expectancy?country=~EGY",
+     "csv_url": "https://ourworldindata.org/grapher/life-expectancy.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/life-expectancy?country=~EGY"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ]
+    },
+    "births_per_woman": {
+     "year": 1953,
+     "value": 7.086,
+     "unit": "births per woman",
+     "territory": "Egypt",
+     "chart": "Fertility rate: births per woman",
+     "chart_url": "https://ourworldindata.org/grapher/children-born-per-woman?country=~EGY",
+     "csv_url": "https://ourworldindata.org/grapher/children-born-per-woman.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/children-born-per-woman?country=~EGY"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ]
+    },
+    "median_age": {
+     "year": 1953,
+     "value": 19.605,
+     "unit": "years",
+     "territory": "Egypt",
+     "chart": "Median age",
+     "chart_url": "https://ourworldindata.org/grapher/median-age?country=~EGY",
+     "csv_url": "https://ourworldindata.org/grapher/median-age.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/median-age?country=~EGY"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ]
+    }
+   }
   },
   "independent-sudan-first-parliamentary-period": {
    "era_id": "independent-sudan-first-parliamentary-period",
@@ -1920,7 +2031,126 @@
    "badges": [
     "MODEL",
     "SINGLE-SOURCE"
-   ]
+   ],
+   "indicators_owid": {
+    "population": {
+     "year": 1956,
+     "value": 7401596,
+     "unit": "persons",
+     "territory": "Sudan",
+     "chart": "Population",
+     "chart_url": "https://ourworldindata.org/grapher/population?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/population.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/population?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]",
+     "note_population": "db already holds exact UN WPP 2024 values for this era (estimates[]); the Historian found 1-9 person gaps between OWID chart values and WPP 2024 (OWID rounding). This OWID value is as served by the grapher CSV, not a replacement."
+    },
+    "life_expectancy": {
+     "year": 1956,
+     "value": 48.0868,
+     "unit": "years at birth",
+     "territory": "Sudan",
+     "chart": "Life expectancy",
+     "chart_url": "https://ourworldindata.org/grapher/life-expectancy?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/life-expectancy.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/life-expectancy?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]"
+    },
+    "births_per_woman": {
+     "year": 1956,
+     "value": 6.68,
+     "unit": "births per woman",
+     "territory": "Sudan",
+     "chart": "Fertility rate: births per woman",
+     "chart_url": "https://ourworldindata.org/grapher/children-born-per-woman?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/children-born-per-woman.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/children-born-per-woman?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]"
+    },
+    "median_age": {
+     "year": 1956,
+     "value": 15.896,
+     "unit": "years",
+     "territory": "Sudan",
+     "chart": "Median age",
+     "chart_url": "https://ourworldindata.org/grapher/median-age?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/median-age.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/median-age?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]"
+    }
+   }
   },
   "abboud-military-regime": {
    "era_id": "abboud-military-regime",
@@ -1951,7 +2181,126 @@
    "badges": [
     "MODEL",
     "SINGLE-SOURCE"
-   ]
+   ],
+   "indicators_owid": {
+    "population": {
+     "year": 1958,
+     "value": 7863036,
+     "unit": "persons",
+     "territory": "Sudan",
+     "chart": "Population",
+     "chart_url": "https://ourworldindata.org/grapher/population?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/population.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/population?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]",
+     "note_population": "db already holds exact UN WPP 2024 values for this era (estimates[]); the Historian found 1-9 person gaps between OWID chart values and WPP 2024 (OWID rounding). This OWID value is as served by the grapher CSV, not a replacement."
+    },
+    "life_expectancy": {
+     "year": 1958,
+     "value": 48.8633,
+     "unit": "years at birth",
+     "territory": "Sudan",
+     "chart": "Life expectancy",
+     "chart_url": "https://ourworldindata.org/grapher/life-expectancy?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/life-expectancy.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/life-expectancy?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]"
+    },
+    "births_per_woman": {
+     "year": 1958,
+     "value": 6.675,
+     "unit": "births per woman",
+     "territory": "Sudan",
+     "chart": "Fertility rate: births per woman",
+     "chart_url": "https://ourworldindata.org/grapher/children-born-per-woman?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/children-born-per-woman.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/children-born-per-woman?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]"
+    },
+    "median_age": {
+     "year": 1958,
+     "value": 15.757,
+     "unit": "years",
+     "territory": "Sudan",
+     "chart": "Median age",
+     "chart_url": "https://ourworldindata.org/grapher/median-age?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/median-age.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/median-age?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]"
+    }
+   }
   },
   "second-parliamentary-period": {
    "era_id": "second-parliamentary-period",
@@ -1982,7 +2331,126 @@
    "badges": [
     "MODEL",
     "SINGLE-SOURCE"
-   ]
+   ],
+   "indicators_owid": {
+    "population": {
+     "year": 1964,
+     "value": 9531108,
+     "unit": "persons",
+     "territory": "Sudan",
+     "chart": "Population",
+     "chart_url": "https://ourworldindata.org/grapher/population?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/population.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/population?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]",
+     "note_population": "db already holds exact UN WPP 2024 values for this era (estimates[]); the Historian found 1-9 person gaps between OWID chart values and WPP 2024 (OWID rounding). This OWID value is as served by the grapher CSV, not a replacement."
+    },
+    "life_expectancy": {
+     "year": 1964,
+     "value": 50.8792,
+     "unit": "years at birth",
+     "territory": "Sudan",
+     "chart": "Life expectancy",
+     "chart_url": "https://ourworldindata.org/grapher/life-expectancy?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/life-expectancy.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/life-expectancy?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]"
+    },
+    "births_per_woman": {
+     "year": 1964,
+     "value": 6.804,
+     "unit": "births per woman",
+     "territory": "Sudan",
+     "chart": "Fertility rate: births per woman",
+     "chart_url": "https://ourworldindata.org/grapher/children-born-per-woman?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/children-born-per-woman.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/children-born-per-woman?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]"
+    },
+    "median_age": {
+     "year": 1964,
+     "value": 15.446,
+     "unit": "years",
+     "territory": "Sudan",
+     "chart": "Median age",
+     "chart_url": "https://ourworldindata.org/grapher/median-age?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/median-age.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/median-age?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]"
+    }
+   }
   },
   "nimeiry-era-democratic-republic-of-sudan": {
    "era_id": "nimeiry-era-democratic-republic-of-sudan",
@@ -2062,7 +2530,126 @@
     "CENSUS",
     "MODEL",
     "CONTESTED"
-   ]
+   ],
+   "indicators_owid": {
+    "population": {
+     "year": 1969,
+     "value": 11298939,
+     "unit": "persons",
+     "territory": "Sudan",
+     "chart": "Population",
+     "chart_url": "https://ourworldindata.org/grapher/population?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/population.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/population?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]",
+     "note_population": "db already holds exact UN WPP 2024 values for this era (estimates[]); the Historian found 1-9 person gaps between OWID chart values and WPP 2024 (OWID rounding). This OWID value is as served by the grapher CSV, not a replacement."
+    },
+    "life_expectancy": {
+     "year": 1969,
+     "value": 52.0403,
+     "unit": "years at birth",
+     "territory": "Sudan",
+     "chart": "Life expectancy",
+     "chart_url": "https://ourworldindata.org/grapher/life-expectancy?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/life-expectancy.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/life-expectancy?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]"
+    },
+    "births_per_woman": {
+     "year": 1969,
+     "value": 6.967,
+     "unit": "births per woman",
+     "territory": "Sudan",
+     "chart": "Fertility rate: births per woman",
+     "chart_url": "https://ourworldindata.org/grapher/children-born-per-woman?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/children-born-per-woman.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/children-born-per-woman?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]"
+    },
+    "median_age": {
+     "year": 1969,
+     "value": 15.163,
+     "unit": "years",
+     "territory": "Sudan",
+     "chart": "Median age",
+     "chart_url": "https://ourworldindata.org/grapher/median-age?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/median-age.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/median-age?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]"
+    }
+   }
   },
   "derg-federal-ethiopia": {
    "era_id": "derg-federal-ethiopia",
@@ -2128,7 +2715,118 @@
      "note": "footnote 11: estimates also reflect the 2007 census; ESS official projection"
     }
    ],
-   "caveat": "Neighbour state; WPP 2024 national figure, current borders."
+   "caveat": "Neighbour state; WPP 2024 national figure, current borders.",
+   "indicators_owid": {
+    "population": {
+     "year": 1974,
+     "value": 30957277,
+     "unit": "persons",
+     "territory": "Ethiopia",
+     "chart": "Population",
+     "chart_url": "https://ourworldindata.org/grapher/population?country=~ETH",
+     "csv_url": "https://ourworldindata.org/grapher/population.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/population?country=~ETH"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_population": "db already holds exact UN WPP 2024 values for this era (estimates[]); the Historian found 1-9 person gaps between OWID chart values and WPP 2024 (OWID rounding). This OWID value is as served by the grapher CSV, not a replacement."
+    },
+    "life_expectancy": {
+     "year": 1974,
+     "value": 39.0827,
+     "unit": "years at birth",
+     "territory": "Ethiopia",
+     "chart": "Life expectancy",
+     "chart_url": "https://ourworldindata.org/grapher/life-expectancy?country=~ETH",
+     "csv_url": "https://ourworldindata.org/grapher/life-expectancy.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/life-expectancy?country=~ETH"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ]
+    },
+    "births_per_woman": {
+     "year": 1974,
+     "value": 7.018,
+     "unit": "births per woman",
+     "territory": "Ethiopia",
+     "chart": "Fertility rate: births per woman",
+     "chart_url": "https://ourworldindata.org/grapher/children-born-per-woman?country=~ETH",
+     "csv_url": "https://ourworldindata.org/grapher/children-born-per-woman.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/children-born-per-woman?country=~ETH"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ]
+    },
+    "median_age": {
+     "year": 1974,
+     "value": 16.332,
+     "unit": "years",
+     "territory": "Ethiopia",
+     "chart": "Median age",
+     "chart_url": "https://ourworldindata.org/grapher/median-age?country=~ETH",
+     "csv_url": "https://ourworldindata.org/grapher/median-age.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/median-age?country=~ETH"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ]
+    }
+   }
   },
   "transitional-third-parliamentary-period": {
    "era_id": "transitional-third-parliamentary-period",
@@ -2159,7 +2857,126 @@
    "badges": [
     "MODEL",
     "SINGLE-SOURCE"
-   ]
+   ],
+   "indicators_owid": {
+    "population": {
+     "year": 1985,
+     "value": 19905872,
+     "unit": "persons",
+     "territory": "Sudan",
+     "chart": "Population",
+     "chart_url": "https://ourworldindata.org/grapher/population?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/population.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/population?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]",
+     "note_population": "db already holds exact UN WPP 2024 values for this era (estimates[]); the Historian found 1-9 person gaps between OWID chart values and WPP 2024 (OWID rounding). This OWID value is as served by the grapher CSV, not a replacement."
+    },
+    "life_expectancy": {
+     "year": 1985,
+     "value": 50.0141,
+     "unit": "years at birth",
+     "territory": "Sudan",
+     "chart": "Life expectancy",
+     "chart_url": "https://ourworldindata.org/grapher/life-expectancy?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/life-expectancy.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/life-expectancy?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]"
+    },
+    "births_per_woman": {
+     "year": 1985,
+     "value": 6.279,
+     "unit": "births per woman",
+     "territory": "Sudan",
+     "chart": "Fertility rate: births per woman",
+     "chart_url": "https://ourworldindata.org/grapher/children-born-per-woman?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/children-born-per-woman.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/children-born-per-woman?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]"
+    },
+    "median_age": {
+     "year": 1985,
+     "value": 15.702,
+     "unit": "years",
+     "territory": "Sudan",
+     "chart": "Median age",
+     "chart_url": "https://ourworldindata.org/grapher/median-age?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/median-age.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/median-age?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]"
+    }
+   }
   },
   "al-bashir-ncp-ingaz-regime": {
    "era_id": "al-bashir-ncp-ingaz-regime",
@@ -2253,7 +3070,126 @@
     "MODEL",
     "CONTESTED"
    ],
-   "note": "Era straddles the 2011 secession; figures before and after are not comparable territories."
+   "note": "Era straddles the 2011 secession; figures before and after are not comparable territories.",
+   "indicators_owid": {
+    "population": {
+     "year": 1989,
+     "value": 21578027,
+     "unit": "persons",
+     "territory": "Sudan",
+     "chart": "Population",
+     "chart_url": "https://ourworldindata.org/grapher/population?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/population.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/population?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]",
+     "note_population": "db already holds exact UN WPP 2024 values for this era (estimates[]); the Historian found 1-9 person gaps between OWID chart values and WPP 2024 (OWID rounding). This OWID value is as served by the grapher CSV, not a replacement."
+    },
+    "life_expectancy": {
+     "year": 1989,
+     "value": 54.8826,
+     "unit": "years at birth",
+     "territory": "Sudan",
+     "chart": "Life expectancy",
+     "chart_url": "https://ourworldindata.org/grapher/life-expectancy?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/life-expectancy.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/life-expectancy?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]"
+    },
+    "births_per_woman": {
+     "year": 1989,
+     "value": 6.106,
+     "unit": "births per woman",
+     "territory": "Sudan",
+     "chart": "Fertility rate: births per woman",
+     "chart_url": "https://ourworldindata.org/grapher/children-born-per-woman?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/children-born-per-woman.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/children-born-per-woman?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]"
+    },
+    "median_age": {
+     "year": 1989,
+     "value": 15.768,
+     "unit": "years",
+     "territory": "Sudan",
+     "chart": "Median age",
+     "chart_url": "https://ourworldindata.org/grapher/median-age?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/median-age.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/median-age?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_en": "present-day Sudan borders; excludes South Sudan",
+     "note_ar": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]"
+    }
+   }
   },
   "republic-of-south-sudan": {
    "era_id": "republic-of-south-sudan",
@@ -2318,7 +3254,118 @@
     "MODEL",
     "CONTESTED"
    ],
-   "caveat": "No census since 2008; large refugee and returnee flows."
+   "caveat": "No census since 2008; large refugee and returnee flows.",
+   "indicators_owid": {
+    "population": {
+     "year": 2011,
+     "value": 10288112,
+     "unit": "persons",
+     "territory": "South Sudan",
+     "chart": "Population",
+     "chart_url": "https://ourworldindata.org/grapher/population?country=~SSD",
+     "csv_url": "https://ourworldindata.org/grapher/population.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/population?country=~SSD"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_population": "db already holds exact UN WPP 2024 values for this era (estimates[]); the Historian found 1-9 person gaps between OWID chart values and WPP 2024 (OWID rounding). This OWID value is as served by the grapher CSV, not a replacement."
+    },
+    "life_expectancy": {
+     "year": 2011,
+     "value": 57.6738,
+     "unit": "years at birth",
+     "territory": "South Sudan",
+     "chart": "Life expectancy",
+     "chart_url": "https://ourworldindata.org/grapher/life-expectancy?country=~SSD",
+     "csv_url": "https://ourworldindata.org/grapher/life-expectancy.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/life-expectancy?country=~SSD"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ]
+    },
+    "births_per_woman": {
+     "year": 2011,
+     "value": 5.193,
+     "unit": "births per woman",
+     "territory": "South Sudan",
+     "chart": "Fertility rate: births per woman",
+     "chart_url": "https://ourworldindata.org/grapher/children-born-per-woman?country=~SSD",
+     "csv_url": "https://ourworldindata.org/grapher/children-born-per-woman.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/children-born-per-woman?country=~SSD"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ]
+    },
+    "median_age": {
+     "year": 2011,
+     "value": 17.996,
+     "unit": "years",
+     "territory": "South Sudan",
+     "chart": "Median age",
+     "chart_url": "https://ourworldindata.org/grapher/median-age?country=~SSD",
+     "csv_url": "https://ourworldindata.org/grapher/median-age.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/median-age?country=~SSD"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ]
+    }
+   }
   },
   "december-revolution-transition": {
    "era_id": "december-revolution-transition",
@@ -2369,7 +3416,118 @@
    "badges": [
     "MODEL"
    ],
-   "note": "No census since 2008; WPP is a projection from 2008 base plus surveys."
+   "note": "No census since 2008; WPP is a projection from 2008 base plus surveys.",
+   "indicators_owid": {
+    "population": {
+     "year": 2019,
+     "value": 45548179,
+     "unit": "persons",
+     "territory": "Sudan",
+     "chart": "Population",
+     "chart_url": "https://ourworldindata.org/grapher/population?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/population.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/population?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_population": "db already holds exact UN WPP 2024 values for this era (estimates[]); the Historian found 1-9 person gaps between OWID chart values and WPP 2024 (OWID rounding). This OWID value is as served by the grapher CSV, not a replacement."
+    },
+    "life_expectancy": {
+     "year": 2019,
+     "value": 65.8032,
+     "unit": "years at birth",
+     "territory": "Sudan",
+     "chart": "Life expectancy",
+     "chart_url": "https://ourworldindata.org/grapher/life-expectancy?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/life-expectancy.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/life-expectancy?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ]
+    },
+    "births_per_woman": {
+     "year": 2019,
+     "value": 4.617,
+     "unit": "births per woman",
+     "territory": "Sudan",
+     "chart": "Fertility rate: births per woman",
+     "chart_url": "https://ourworldindata.org/grapher/children-born-per-woman?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/children-born-per-woman.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/children-born-per-woman?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ]
+    },
+    "median_age": {
+     "year": 2019,
+     "value": 17.675,
+     "unit": "years",
+     "territory": "Sudan",
+     "chart": "Median age",
+     "chart_url": "https://ourworldindata.org/grapher/median-age?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/median-age.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/median-age?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ]
+    }
+   }
   },
   "war-in-sudan-saf-vs-rsf": {
    "era_id": "war-in-sudan-saf-vs-rsf",
@@ -2429,7 +3587,118 @@
     "MODEL",
     "SINGLE-SOURCE"
    ],
-   "caveat": "De jure modelled population; war deaths, refugee outflows and internal displacement since April 2023 are not measured and may not be fully reflected. Not a count of people present."
+   "caveat": "De jure modelled population; war deaths, refugee outflows and internal displacement since April 2023 are not measured and may not be fully reflected. Not a count of people present.",
+   "indicators_owid": {
+    "population": {
+     "year": 2023,
+     "value": 50042800,
+     "unit": "persons",
+     "territory": "Sudan",
+     "chart": "Population",
+     "chart_url": "https://ourworldindata.org/grapher/population?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/population.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/population?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ],
+     "note_population": "db already holds exact UN WPP 2024 values for this era (estimates[]); the Historian found 1-9 person gaps between OWID chart values and WPP 2024 (OWID rounding). This OWID value is as served by the grapher CSV, not a replacement."
+    },
+    "life_expectancy": {
+     "year": 2023,
+     "value": 66.331,
+     "unit": "years at birth",
+     "territory": "Sudan",
+     "chart": "Life expectancy",
+     "chart_url": "https://ourworldindata.org/grapher/life-expectancy?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/life-expectancy.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/life-expectancy?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ]
+    },
+    "births_per_woman": {
+     "year": 2023,
+     "value": 4.323,
+     "unit": "births per woman",
+     "territory": "Sudan",
+     "chart": "Fertility rate: births per woman",
+     "chart_url": "https://ourworldindata.org/grapher/children-born-per-woman?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/children-born-per-woman.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/children-born-per-woman?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ]
+    },
+    "median_age": {
+     "year": 2023,
+     "value": 18.276,
+     "unit": "years",
+     "territory": "Sudan",
+     "chart": "Median age",
+     "chart_url": "https://ourworldindata.org/grapher/median-age?country=~SDN",
+     "csv_url": "https://ourworldindata.org/grapher/median-age.csv",
+     "fetched": "2026-10-25",
+     "sources": [
+      "OWID_POPDEMO_SDN",
+      "UNWPP2024"
+     ],
+     "cite": [
+      {
+       "source_id": "OWID_POPDEMO_SDN",
+       "pages": "https://ourworldindata.org/grapher/median-age?country=~SDN"
+      },
+      {
+       "source_id": "UNWPP2024",
+       "pages": "via OWID grapher (credited: UN WPP 2024)"
+      }
+     ],
+     "badges": [
+      "SOURCED"
+     ]
+    }
+   }
   }
  }
 }

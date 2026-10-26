@@ -3572,6 +3572,84 @@
       "action": "review",
       "origin_commit": "pending (glossary commit)",
       "added": "2026-10-25"
+    },
+    {
+      "era_id": "independent-sudan-first-parliamentary-period",
+      "file": "db/population.json",
+      "field_ar": "eras[independent-sudan-first-parliamentary-period].indicators_owid.*.note_ar",
+      "arabic_sentence": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "eras[independent-sudan-first-parliamentary-period].indicators_owid.*.note_en",
+      "revised_english": "present-day Sudan borders; excludes South Sudan",
+      "note": "Working translation of the OWID territory note on the four OWID indicator fields (population, life expectancy, births per woman, median age); needs native review.",
+      "action": "review",
+      "origin_commit": "pending (OWID indicators commit)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "abboud-military-regime",
+      "file": "db/population.json",
+      "field_ar": "eras[abboud-military-regime].indicators_owid.*.note_ar",
+      "arabic_sentence": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "eras[abboud-military-regime].indicators_owid.*.note_en",
+      "revised_english": "present-day Sudan borders; excludes South Sudan",
+      "note": "Working translation of the OWID territory note on the four OWID indicator fields (population, life expectancy, births per woman, median age); needs native review.",
+      "action": "review",
+      "origin_commit": "pending (OWID indicators commit)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "second-parliamentary-period",
+      "file": "db/population.json",
+      "field_ar": "eras[second-parliamentary-period].indicators_owid.*.note_ar",
+      "arabic_sentence": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "eras[second-parliamentary-period].indicators_owid.*.note_en",
+      "revised_english": "present-day Sudan borders; excludes South Sudan",
+      "note": "Working translation of the OWID territory note on the four OWID indicator fields (population, life expectancy, births per woman, median age); needs native review.",
+      "action": "review",
+      "origin_commit": "pending (OWID indicators commit)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "nimeiry-era-democratic-republic-of-sudan",
+      "file": "db/population.json",
+      "field_ar": "eras[nimeiry-era-democratic-republic-of-sudan].indicators_owid.*.note_ar",
+      "arabic_sentence": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "eras[nimeiry-era-democratic-republic-of-sudan].indicators_owid.*.note_en",
+      "revised_english": "present-day Sudan borders; excludes South Sudan",
+      "note": "Working translation of the OWID territory note on the four OWID indicator fields (population, life expectancy, births per woman, median age); needs native review.",
+      "action": "review",
+      "origin_commit": "pending (OWID indicators commit)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "transitional-third-parliamentary-period",
+      "file": "db/population.json",
+      "field_ar": "eras[transitional-third-parliamentary-period].indicators_owid.*.note_ar",
+      "arabic_sentence": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "eras[transitional-third-parliamentary-period].indicators_owid.*.note_en",
+      "revised_english": "present-day Sudan borders; excludes South Sudan",
+      "note": "Working translation of the OWID territory note on the four OWID indicator fields (population, life expectancy, births per woman, median age); needs native review.",
+      "action": "review",
+      "origin_commit": "pending (OWID indicators commit)",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "al-bashir-ncp-ingaz-regime",
+      "file": "db/population.json",
+      "field_ar": "eras[al-bashir-ncp-ingaz-regime].indicators_owid.*.note_ar",
+      "arabic_sentence": "حدود السودان الحالية؛ لا يشمل جنوب السودان [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "eras[al-bashir-ncp-ingaz-regime].indicators_owid.*.note_en",
+      "revised_english": "present-day Sudan borders; excludes South Sudan",
+      "note": "Working translation of the OWID territory note on the four OWID indicator fields (population, life expectancy, births per woman, median age); needs native review.",
+      "action": "review",
+      "origin_commit": "pending (OWID indicators commit)",
+      "added": "2026-10-25"
     }
   ]
 }
