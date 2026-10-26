@@ -6348,6 +6348,20 @@
       "origin_commit": "SFDAS_HCS2017 cite-or-delete pass",
       "added": "2026-10-26",
       "note": "[يحتاج تحقق]"
+    },
+    {
+      "file": "db/battle_images.json",
+      "war_id": "aksum-kush-war",
+      "field_ar": "caption_ar",
+      "arabic_sentence": "نقش عيزانا (DAE 11 يسجّل الحملة على النوبة/كاسو) [VERIFY]",
+      "badge": "VERIFY",
+      "field_en": "caption_en",
+      "revised_english": "Inscription of Ezana, who boasts of an expedition 'against the Nubas' (GHA II p.293)",
+      "reason": "SFDAS p.326 / DAE 11 / Kasu dropped; re-cited GHA II p.293.",
+      "action": "Native reviewer: align the Arabic to the revised English.",
+      "origin_commit": "SFDAS_HCS2017 cite-or-delete pass",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق]"
     }
   ]
 }
