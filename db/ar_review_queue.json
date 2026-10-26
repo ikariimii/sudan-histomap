@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 413
+      "sentence_items": 415
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -7946,6 +7946,34 @@
       "revised_english": "Capture of Firket village and pursuit (River War I p.220, chapter summary).",
       "reason": "WORKING TRANSLATION: no registered Arabic source read for this value; Historian working translation added (IM request, Mahdist battles Arabic sides/outcome).",
       "action": "Native reviewer: check the working translation against the English.",
+      "origin_commit": "pending",
+      "added": "2026-10-26",
+      "note": "[WORKING TRANSLATION – needs native Arabic review] [يحتاج تحقق]"
+    },
+    {
+      "era_id": "kingdom-of-kush-meroitic-period",
+      "file": "db/wars.json",
+      "field_ar": "wars[id=aksum-kush-war].name_ar",
+      "arabic_sentence": "حملة أكسوم على النوبة [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "wars[id=aksum-kush-war].name_en",
+      "revised_english": "Aksum's campaign against the Nubas",
+      "reason": "WORKING TRANSLATION replacing old name_ar 'حملات أكسوم على كوش [يحتاج تحقق]' (IM order) to match EN 'against the Nubas' (GHA II ch.10 p.293). No registered Arabic source names this war.",
+      "action": "Native reviewer: check the working translation.",
+      "origin_commit": "pending",
+      "added": "2026-10-26",
+      "note": "[WORKING TRANSLATION – needs native Arabic review] [يحتاج تحقق]"
+    },
+    {
+      "era_id": "anglo-egyptian-sudan-condominium",
+      "file": "db/wars.json",
+      "field_ar": "wars[id=east-african-campaign-1940].name_ar",
+      "arabic_sentence": "حملة شرق أفريقيا (حدود السودان)، 1940–1941 [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "wars[id=east-african-campaign-1940].name_en",
+      "revised_english": "East African campaign (Sudan frontier), 1940–41",
+      "reason": "WORKING TRANSLATION: name_ar was only the tag; no registered Arabic source names this war.",
+      "action": "Native reviewer: check the working translation.",
       "origin_commit": "pending",
       "added": "2026-10-26",
       "note": "[WORKING TRANSLATION – needs native Arabic review] [يحتاج تحقق]"
