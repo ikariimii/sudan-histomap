@@ -1,6 +1,6 @@
 {
  "meta": {
-  "schema": "story-mode wars v1: war_id, name_en, battle_ids (chronological), located_battle_ids, camera_bbox [w,s,e,n] deg (padding 0.75), caption (EN, from sourced statement in data), caption_cites (registry ids), caption_basis, status [OK|NEEDS_CITE|NO_BATTLES]",
+  "schema": "story-mode wars v1: war_id, name_en, battle_ids (chronological), located_battle_ids, camera_bbox [w,s,e,n] deg (padding 0.75), caption (EN, from sourced statement in data), caption_cites (registry ids), caption_basis, status [OK|NEEDS_CITE|NO_BATTLES]; status adds FALLBACK_ERA_BBOX (bbox = data/eras/<era>.json focus_view.bbox, bbox_source era_main_area:<era_id>) and CAPTION_PENDING_ANALYST (caption null, caption_hidden true, text kept in caption_draft)",
   "generated": "2026-10-25",
   "owner": "Sudan Map Designer",
   "inputs": [
@@ -12,13 +12,16 @@
   ],
   "rules": "Post-2023 = REPORTED, UN/OCHA/ACLED/WFP/PoE only, no control claims; contested areas drawn as contested; Arabic, if added, tagged [يحتاج تحقق].",
   "needs_cite": [],
-  "no_battles": [
-   "aksum-kush-war",
-   "kordofan-wars",
-   "anglo-egyptian-reconquest",
-   "darfur-campaign-1916",
-   "sudan-south-sudan-border-2012",
-   "piye-conquest-of-egypt"
+  "fallback_era_bbox": {
+   "aksum-kush-war": "kingdom-of-kush-meroitic-period",
+   "kordofan-wars": "musabba-at-sultanate-kordofan",
+   "anglo-egyptian-reconquest": "mahdist-state-mahdiyya",
+   "darfur-campaign-1916": "restored-darfur-sultanate-ali-dinar",
+   "sudan-south-sudan-border-2012": "al-bashir-ncp-ingaz-regime",
+   "piye-conquest-of-egypt": "kingdom-of-kush-napatan-period"
+  },
+  "caption_pending_analyst": [
+   "war-2023"
   ]
  },
  "wars": [
@@ -81,15 +84,22 @@
    ],
    "located_battle_ids": [],
    "status": [
-    "NO_BATTLES"
+    "FALLBACK_ERA_BBOX"
    ],
-   "camera_bbox": null,
+   "camera_bbox": [
+    28.947,
+    12.448,
+    35.341,
+    25.074
+   ],
    "caption": "Ezana of Aksum's campaign against the Kushites and Noba: Ezana's Ge'ez inscription DAE 11 records his war against the Noba and the Kasu at the Nile–Atbara confluence (SFDAS pp.325–326).",
    "caption_cites": [
     "SFDAS_HCS2017"
    ],
    "caption_basis": "battle meroe-330 significance_en",
-   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented."
+   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented.",
+   "bbox_source": "era_main_area:kingdom-of-kush-meroitic-period",
+   "bbox_badge": "DERIVED"
   },
   {
    "war_id": "arab-nubian-wars",
@@ -149,15 +159,22 @@
    ],
    "located_battle_ids": [],
    "status": [
-    "NO_BATTLES"
+    "FALLBACK_ERA_BBOX"
    ],
-   "camera_bbox": null,
+   "camera_bbox": [
+    28.0,
+    11.5,
+    31.0,
+    14.5
+   ],
    "caption": "Funj campaign against the Musabba'at in Kordofan: Decisive Funj victory after initial setbacks; Abu Likaylik ruled Kordofan as viceroy",
    "caption_cites": [
     "GHA5_CH7"
    ],
    "caption_basis": "battle kordofan-1747 outcome_en",
-   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented."
+   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented.",
+   "bbox_source": "era_main_area:musabba-at-sultanate-kordofan",
+   "bbox_badge": "APPROXIMATE"
   },
   {
    "war_id": "mahdist-war",
@@ -227,16 +244,23 @@
    ],
    "located_battle_ids": [],
    "status": [
-    "NO_BATTLES"
+    "FALLBACK_ERA_BBOX"
    ],
-   "camera_bbox": null,
+   "camera_bbox": [
+    20.557,
+    7.385,
+    35.637,
+    21.277
+   ],
    "caption": "Mahdist state collapsed after Karari (1898) and Umm Diwaykarat (1899) (GHA VII ch.4 p.78).",
    "caption_cites": [
     "GHA7_CH4",
     "RIVERWAR1899_V1"
    ],
    "caption_basis": "db/wars.json outcome_en",
-   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented."
+   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented.",
+   "bbox_source": "era_main_area:mahdist-state-mahdiyya",
+   "bbox_badge": "DERIVED"
   },
   {
    "war_id": "darfur-campaign-1916",
@@ -246,15 +270,22 @@
    ],
    "located_battle_ids": [],
    "status": [
-    "NO_BATTLES"
+    "FALLBACK_ERA_BBOX"
    ],
-   "camera_bbox": null,
+   "camera_bbox": [
+    23.85,
+    12.127,
+    26.85,
+    15.127
+   ],
    "caption": "Defeat of Sultan Ali Dinar: Ali Dinar defeated and killed; Darfur incorporated into Sudan",
    "caption_cites": [
     "GHA7_CH12"
    ],
    "caption_basis": "battle darfur-1916 outcome_en",
-   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented."
+   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented.",
+   "bbox_source": "era_main_area:restored-darfur-sultanate-ali-dinar",
+   "bbox_badge": "APPROXIMATE"
   },
   {
    "war_id": "first-civil-war",
@@ -372,9 +403,14 @@
    ],
    "located_battle_ids": [],
    "status": [
-    "NO_BATTLES"
+    "FALLBACK_ERA_BBOX"
    ],
-   "camera_bbox": null,
+   "camera_bbox": [
+    19.851,
+    1.537,
+    41.022,
+    25.103
+   ],
    "caption": "Security Council welcomed SPLA withdrawal from Heglig and demanded cessation of hostilities (S/RES/2046)",
    "caption_cites": [
     "UNSC_PRST_2012_12",
@@ -382,7 +418,9 @@
    ],
    "caption_basis": "db/wars.json outcome_en",
    "contested": "Heglig/border area: draw as contested; no control claim.",
-   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented."
+   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented.",
+   "bbox_source": "era_main_area:al-bashir-ncp-ingaz-regime",
+   "bbox_badge": "DERIVED"
   },
   {
    "war_id": "south-sudan-civil-war",
@@ -431,7 +469,7 @@
     "el-fasher-2024"
    ],
    "status": [
-    "OK"
+    "CAPTION_PENDING_ANALYST"
    ],
    "camera_bbox": [
     21.697,
@@ -441,12 +479,14 @@
    ],
    "label": "REPORTED",
    "allowed_sources": "UN, OCHA, ACLED, WFP, Panel of Experts only",
-   "caption": "REPORTED: SAF–RSF fighting reported from 15 April 2023, beginning in Khartoum.",
+   "caption": null,
    "caption_cites": [
     "UNPOE_S2024_65"
    ],
    "caption_basis": "paraphrase of battle khartoum-2023 date/outcome + wars_post1956 date_from",
-   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented."
+   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented.",
+   "caption_draft": "REPORTED: SAF–RSF fighting reported from 15 April 2023, beginning in Khartoum.",
+   "caption_hidden": true
   },
   {
    "war_id": "piye-conquest-of-egypt",
@@ -456,9 +496,14 @@
    ],
    "located_battle_ids": [],
    "status": [
-    "NO_BATTLES"
+    "FALLBACK_ERA_BBOX"
    ],
-   "camera_bbox": null,
+   "camera_bbox": [
+    28.52,
+    13.854,
+    35.771,
+    31.63
+   ],
    "caption": "Tefnakht of Sais united the Delta, occupied Memphis and besieged Heracleopolis; Piye sent an army after the ruler of Hermopolis joined him (GHA II p.106).",
    "caption_cites": [
     "GHA2_CH2",
@@ -466,7 +511,9 @@
     "SFDAS_HCS2017"
    ],
    "caption_basis": "db/wars.json causes_en",
-   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented."
+   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented.",
+   "bbox_source": "era_main_area:kingdom-of-kush-napatan-period",
+   "bbox_badge": "DERIVED"
   },
   {
    "war_id": "mamluk-makuria-wars",
