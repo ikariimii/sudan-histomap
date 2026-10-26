@@ -5207,6 +5207,58 @@
       "origin_commit": "SFDAS_HCS2017 cite-or-delete pass",
       "added": "2026-10-26",
       "note": "[يحتاج تحقق] Arabic left unchanged by the Historian; reviewer to edit."
+    },
+    {
+      "era_id": null,
+      "file": "db/cities.json",
+      "field_ar": "places[id=kapoeta].name_ar, places[id=kapoeta].history_ar",
+      "arabic_sentence": null,
+      "badge": "VERIFY",
+      "field_en": "places[id=kapoeta].name_en, places[id=kapoeta].history_en",
+      "revised_english": "Kapoeta — Eastern Equatoria town; taken by the SPLA in 1988 and by the government on 28 May 1992 (HRW).",
+      "note": "[يحتاج تحقق] New place; Arabic name and history left empty by the Historian (no Arabic written); reviewer to supply.",
+      "action": "Native reviewer: supply name_ar (with name_ar_source) and history_ar.",
+      "origin_commit": "pending",
+      "added": "2026-10-26"
+    },
+    {
+      "era_id": null,
+      "file": "db/cities.json",
+      "field_ar": "places[id=bentiu].name_ar, places[id=bentiu].history_ar",
+      "arabic_sentence": null,
+      "badge": "VERIFY",
+      "field_en": "places[id=bentiu].name_en, places[id=bentiu].history_en",
+      "revised_english": "Bentiu — Unity State capital; defecting SPLA forces claimed control of it on 21 December 2013 (UNMISS).",
+      "note": "[يحتاج تحقق] New place; Arabic name and history left empty by the Historian (no Arabic written); reviewer to supply.",
+      "action": "Native reviewer: supply name_ar (with name_ar_source) and history_ar.",
+      "origin_commit": "pending",
+      "added": "2026-10-26"
+    },
+    {
+      "era_id": null,
+      "file": "db/cities.json",
+      "field_ar": "places[id=hermopolis].name_ar, places[id=hermopolis].history_ar",
+      "arabic_sentence": null,
+      "badge": "VERIFY",
+      "field_en": "places[id=hermopolis].name_en, places[id=hermopolis].history_en",
+      "revised_english": "Hermopolis (Hermopolis Magna) — Middle Egyptian city on Peye's campaign, where he found the horses dead in the stables (GHA II p.280).",
+      "note": "[يحتاج تحقق] New place; Arabic name and history left empty by the Historian (no Arabic written); reviewer to supply.",
+      "action": "Native reviewer: supply name_ar (with name_ar_source) and history_ar.",
+      "origin_commit": "pending",
+      "added": "2026-10-26"
+    },
+    {
+      "era_id": null,
+      "file": "db/cities.json",
+      "field_ar": "places[id=memphis].name_ar, places[id=memphis].history_ar",
+      "arabic_sentence": null,
+      "badge": "VERIFY",
+      "field_en": "places[id=memphis].name_en, places[id=memphis].history_en",
+      "revised_english": "Memphis — Old capital of Egypt; its taking is shown on Tanoutamon's Stele of the Dream (GHA II p.282).",
+      "note": "[يحتاج تحقق] New place; Arabic name and history left empty by the Historian (no Arabic written); reviewer to supply.",
+      "action": "Native reviewer: supply name_ar (with name_ar_source) and history_ar.",
+      "origin_commit": "pending",
+      "added": "2026-10-26"
     }
   ]
 }
