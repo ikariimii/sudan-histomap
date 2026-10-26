@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 120
+      "sentence_items": 121
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -3920,6 +3920,19 @@
       "field_en": "events.december-revolution-transition#5.en",
       "revised_english": "Juba Peace Agreement signed 3 October 2020 (Government, SRF, SLM-MM) (UNSC2559 p.2, preamble)",
       "note": "New peace-milestone event; Arabic drafted, needs native review [يحتاج تحقق]",
+      "action": "review",
+      "origin_commit": "pending",
+      "added": "2026-10-25"
+    },
+    {
+      "era_id": "republic-of-south-sudan",
+      "file": "db/population.json",
+      "field_ar": "eras.republic-of-south-sudan.estimates[year=2026].label_ar",
+      "arabic_sentence": "إسقاط الأمم المتحدة (التوقعات السكانية العالمية 2024، المتغير المتوسط) [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "eras.republic-of-south-sudan.estimates[year=2026].label_en",
+      "revised_english": "UN projection (WPP 2024, medium variant)",
+      "note": "Chip label for the 2026 WPP 2024 Medium projection (MODEL); IM-approved wording; Arabic needs native review [يحتاج تحقق]",
       "action": "review",
       "origin_commit": "pending",
       "added": "2026-10-25"
