@@ -17,12 +17,13 @@
    "kordofan-wars": "musabba-at-sultanate-kordofan",
    "anglo-egyptian-reconquest": "mahdist-state-mahdiyya",
    "darfur-campaign-1916": "restored-darfur-sultanate-ali-dinar",
-   "sudan-south-sudan-border-2012": "al-bashir-ncp-ingaz-regime",
+   "sudan-south-sudan-border-2012": "republic-of-south-sudan",
    "piye-conquest-of-egypt": "kingdom-of-kush-napatan-period"
   },
   "caption_pending_analyst": [
    "war-2023"
-  ]
+  ],
+  "todo": "When Heglig (sudan-south-sudan-border-2012) and Ardamatta (war-2023, El Geneina) places exist, recompute boxes from battle coordinates and drop the fallback mark."
  },
  "wars": [
   {
@@ -45,7 +46,7 @@
     31.16,
     20.351
    ],
-   "caption": "Thutmose I's campaign against Kerma: Egyptian victory; the kingdom of Kerma was defeated (c.1500 BCE, shortly before)",
+   "caption": "Thutmose I's campaign against Kerma: Egyptian victory; the kingdom of Kerma was defeated.",
    "caption_cites": [
     "SFDAS_HCS2017"
    ],
@@ -69,7 +70,7 @@
     32.567,
     19.283
    ],
-   "caption": "Meroitic forces attacked the Thebaid, taking Syene, Elephantine and Philae, after part of the Roman garrison left with Aelius Gallus for Arabia (SFDAS pp.243–244, quoting Strabo).",
+   "caption": "Meroitic forces attacked the Thebaid, taking Syene, Elephantine and Philae, after part of the Roman garrison left with Aelius Gallus for Arabia.",
    "caption_cites": [
     "SFDAS_HCS2017",
     "GHA2_CH10"
@@ -92,7 +93,7 @@
     35.341,
     25.074
    ],
-   "caption": "Ezana of Aksum's campaign against the Kushites and Noba: Ezana's Ge'ez inscription DAE 11 records his war against the Noba and the Kasu at the Nile–Atbara confluence (SFDAS pp.325–326).",
+   "caption": "Ezana of Aksum's campaign against the Kushites and Noba: Ezana's Ge'ez inscription DAE 11 records his war against the Noba and the Kasu at the Nile–Atbara confluence.",
    "caption_cites": [
     "SFDAS_HCS2017"
    ],
@@ -120,7 +121,7 @@
     31.494,
     18.973
    ],
-   "caption": "First Arab campaign against Makuria: Nubian counter-offensive turned back the Arab army",
+   "caption": "First Arab campaign against Makuria: a Nubian counter-offensive turned back the Arab army.",
    "caption_cites": [
     "SFDAS_HCS2017"
    ],
@@ -145,7 +146,7 @@
     34.102,
     15.476
    ],
-   "caption": "Funj victory; the Abdallabi king became a Funj vassal (GHA V ch.7 p.173).",
+   "caption": "Funj victory; the Abdallabi king became a Funj vassal.",
    "caption_cites": [
     "GHA5_CH7"
    ],
@@ -167,14 +168,15 @@
     31.0,
     14.5
    ],
-   "caption": "Funj campaign against the Musabba'at in Kordofan: Decisive Funj victory after initial setbacks; Abu Likaylik ruled Kordofan as viceroy",
+   "caption": "Funj campaign against the Musabba'at in Kordofan: Funj victory after initial setbacks; Abu Likaylik ruled Kordofan as viceroy.",
    "caption_cites": [
     "GHA5_CH7"
    ],
    "caption_basis": "battle kordofan-1747 outcome_en",
    "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented.",
    "bbox_source": "era_main_area:musabba-at-sultanate-kordofan",
-   "bbox_badge": "APPROXIMATE"
+   "bbox_badge": "APPROXIMATE",
+   "bbox_note": "Musabba'at sultanate box (APPROXIMATE, single point) approved by the IM 2026-10-25."
   },
   {
    "war_id": "mahdist-war",
@@ -200,7 +202,7 @@
     33.277,
     16.353
    ],
-   "caption": "Battle of Shaykan: Mahdist victory; a turning point of the Mahdist revolution",
+   "caption": "Battle of Shaykan: Mahdist victory, a turning point of the Mahdist revolution.",
    "caption_cites": [
     "GHA7_CH4",
     "SLATIN1898"
@@ -226,7 +228,7 @@
     36.9,
     13.717
    ],
-   "caption": "Battle of Gallabat (Matamma): Emperor mortally wounded at the close of the battle; his army dispersed",
+   "caption": "Battle of Gallabat (Matamma): the Emperor was mortally wounded and his army dispersed.",
    "caption_cites": [
     "GHA7_CH11",
     "RIVERWAR1899_V1"
@@ -252,7 +254,7 @@
     35.637,
     21.277
    ],
-   "caption": "Mahdist state collapsed after Karari (1898) and Umm Diwaykarat (1899) (GHA VII ch.4 p.78).",
+   "caption": "The Mahdist state collapsed after Karari (1898) and Umm Diwaykarat (1899).",
    "caption_cites": [
     "GHA7_CH4",
     "RIVERWAR1899_V1"
@@ -278,7 +280,7 @@
     26.85,
     15.127
    ],
-   "caption": "Defeat of Sultan Ali Dinar: Ali Dinar defeated and killed; Darfur incorporated into Sudan",
+   "caption": "Sultan Ali Dinar defeated and killed; Darfur incorporated into Sudan.",
    "caption_cites": [
     "GHA7_CH12"
    ],
@@ -305,7 +307,7 @@
     33.317,
     5.167
    ],
-   "caption": "Torit mutiny (Equatoria Corps revolt): The Torit mutiny of August 1955 is the start point of the first civil war (GHA VIII p.149).",
+   "caption": "The Torit mutiny of the Equatoria Corps, August 1955, is the start point of the first civil war.",
    "caption_cites": [
     "GHA8"
    ],
@@ -335,7 +337,7 @@
     34.341,
     6.959
    ],
-   "caption": "Ended by the January 2005 Comprehensive Peace Agreement (CPA_2005 Annexure I §2 and §5; UNSC1590 p.1, preamble para 3)",
+   "caption": "Ended by the January 2005 Comprehensive Peace Agreement.",
    "caption_cites": [
     "HRW1993_CIVDEV",
     "UNSC2046",
@@ -364,7 +366,7 @@
     33.228,
     16.395
    ],
-   "caption": "Early SLA demands: regional development, end to tribal militias, power-sharing (per HRW 2004 Background)",
+   "caption": "Early SLA demands: regional development, an end to tribal militias, and power-sharing.",
    "caption_cites": [
     "HRW2004_DARFUR",
     "UNSC_PRST_2008_15"
@@ -389,7 +391,7 @@
     30.468,
     11.761
    ],
-   "caption": "Outbreak of fighting in Kadugli: Fighting broke out in Kadugli on 5 June 2011 (per OHCHR)",
+   "caption": "Fighting broke out in Kadugli on 5 June 2011.",
    "caption_cites": [
     "OHCHR_SK2011"
    ],
@@ -406,12 +408,12 @@
     "FALLBACK_ERA_BBOX"
    ],
    "camera_bbox": [
-    19.851,
-    1.537,
-    41.022,
-    25.103
+    22.19,
+    2.25,
+    37.2,
+    13.487
    ],
-   "caption": "Security Council welcomed SPLA withdrawal from Heglig and demanded cessation of hostilities (S/RES/2046)",
+   "caption": "The Security Council welcomed the SPLA withdrawal from Heglig and demanded a cessation of hostilities.",
    "caption_cites": [
     "UNSC_PRST_2012_12",
     "UNSC2046"
@@ -419,8 +421,9 @@
    "caption_basis": "db/wars.json outcome_en",
    "contested": "Heglig/border area: draw as contested; no control claim.",
    "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented.",
-   "bbox_source": "era_main_area:al-bashir-ncp-ingaz-regime",
-   "bbox_badge": "DERIVED"
+   "bbox_source": "era_main_area:republic-of-south-sudan",
+   "bbox_badge": "DERIVED",
+   "todo": "Once the Heglig place exists, recompute camera_bbox from battle coordinates and drop FALLBACK_ERA_BBOX."
   },
   {
    "war_id": "south-sudan-civil-war",
@@ -444,7 +447,7 @@
     32.41,
     10.283
    ],
-   "caption": "Internal power struggle within the SPLM; fighting began in Juba on 15 Dec 2013 (UNMISS paras 1–2)",
+   "caption": "An internal power struggle within the SPLM; fighting began in Juba on 15 Dec 2013.",
    "caption_cites": [
     "UNMISS_HRR2014"
    ],
@@ -504,7 +507,7 @@
     35.771,
     31.63
    ],
-   "caption": "Tefnakht of Sais united the Delta, occupied Memphis and besieged Heracleopolis; Piye sent an army after the ruler of Hermopolis joined him (GHA II p.106).",
+   "caption": "Tefnakht of Sais united the Delta, occupied Memphis and besieged Heracleopolis; Piye sent an army after the ruler of Hermopolis joined him.",
    "caption_cites": [
     "GHA2_CH2",
     "GHA2_CH10",
@@ -533,7 +536,7 @@
     31.494,
     18.973
    ],
-   "caption": "Mamluk forces repeatedly installed rulers at Dongola and imposed tribute (SFDAS p.419).",
+   "caption": "Mamluk forces repeatedly installed rulers at Dongola and imposed tribute.",
    "caption_cites": [
     "SFDAS_HCS2017"
    ],
@@ -557,7 +560,7 @@
     32.742,
     23.4
    ],
-   "caption": "Ottoman province with its capital at Qasr Ibrim, garrisons at Aswan, Qasr Ibrim and Sai (SFDAS pp.423–424).",
+   "caption": "An Ottoman province with its capital at Qasr Ibrim and garrisons at Aswan, Qasr Ibrim and Sai.",
    "caption_cites": [
     "SFDAS_HCS2017"
    ],
@@ -581,7 +584,7 @@
     37.15,
     16.2
    ],
-   "caption": "Mahdist attack on Agordat repulsed (1893); Italians under Baratieri captured Kassala the next year; Kassala retroceded to Egypt on Christmas Day in a ceremony with Colonel Parsons (River War I pp.355–358).",
+   "caption": "Mahdist attack on Agordat repulsed (1893); Italians under Baratieri captured Kassala the next year; Kassala retroceded to Egypt on Christmas Day in a ceremony with Colonel Parsons.",
    "caption_cites": [
     "RIVERWAR1899_V1"
    ],
