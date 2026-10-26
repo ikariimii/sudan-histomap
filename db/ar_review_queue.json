@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 501
+      "sentence_items": 502
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -9181,6 +9181,20 @@
       "origin_commit": "pending",
       "added": "2026-10-26",
       "note": "WORKING TRANSLATION (Analyst) – needs native Arabic review [يحتاج تحقق]"
+    },
+    {
+      "era_id": "makuria",
+      "file": "db/cities.json",
+      "field_ar": "places[id=kabushiya].name_ar",
+      "arabic_sentence": "كبوشية [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "places[id=kabushiya].name_en",
+      "revised_english": "Kabushiya (al-'Abwab)",
+      "reason": "Arabic name taken from the Wikidata ar label of Q16121680; not checked against a registered Arabic source.",
+      "action": "Native reviewer: check the Arabic name.",
+      "origin_commit": "pending",
+      "added": "2026-10-26",
+      "note": "needs native Arabic review [يحتاج تحقق]"
     }
   ]
 }

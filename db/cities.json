@@ -5905,6 +5905,83 @@
     }
    ],
    "list_only_reason": "no founding or first-attested year from a page-cited source; added as a battle place (IM ruling 2026-10-26)"
+  },
+  {
+   "id": "kabushiya",
+   "name_en": "Kabushiya (al-'Abwab)",
+   "name_ar": "كبوشية [يحتاج تحقق]",
+   "name_ar_source": "wikidata (ar label of Q16121680) — queued in db/ar_review_queue.json [يحتاج تحقق]",
+   "wikidata": "Q16121680",
+   "lat": 16.89279,
+   "lon": 33.694216,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q16121680"
+   },
+   "category": "medieval",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Modern town identified with al-'Abwab, Alwa's northernmost district, just beyond Makuria's southern limit between the Fifth and Sixth Cataracts (GHA IV ch.16 p.399); the deposed Makurian king fled to al-'Abwab in 1276 (p.403).",
+   "history_ar": null,
+   "history_source": {
+    "source_id": "GHA4_CH16",
+    "page": "399"
+   },
+   "history_ar_status": "missing — queued in db/ar_review_queue.json",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q16121680"
+    },
+    {
+     "id": "GHA4_CH16",
+     "page": "399"
+    },
+    {
+     "id": "GHA4_CH16",
+     "page": "403"
+    }
+   ],
+   "list_only_reason": "reference point for the Makuria c.1276 southern edge (IM request 2026-10-26); coordinate is the modern town (Wikidata P625), not an excavated site"
+  },
+  {
+   "id": "fifth-cataract",
+   "name_en": "Fifth Cataract of the Nile",
+   "name_ar": null,
+   "name_ar_source": "missing — Wikidata Q71109688 has no Arabic label; queued in db/ar_review_queue.json [يحتاج تحقق]",
+   "wikidata": "Q71109688",
+   "lat": 17.677,
+   "lon": 33.97,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q71109688",
+    "badge": "APPROXIMATE"
+   },
+   "category": "historic",
+   "founded": null,
+   "founded_reason": "natural river feature, not a settlement",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "River feature (cataract), not a settlement; Makuria's southern limit lay between the Fifth and Sixth Cataracts (GHA IV ch.16 p.399). Wikidata P625 precision 0.001°.",
+   "history_ar": null,
+   "history_source": {
+    "source_id": "GHA4_CH16",
+    "page": "399"
+   },
+   "history_ar_status": "missing — queued in db/ar_review_queue.json",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q71109688"
+    },
+    {
+     "id": "GHA4_CH16",
+     "page": "399"
+    }
+   ],
+   "list_only_reason": "reference point for the Makuria c.1276 southern edge (IM request 2026-10-26); natural feature, no founding date"
   }
  ]
 }
