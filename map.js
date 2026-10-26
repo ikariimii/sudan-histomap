@@ -369,7 +369,9 @@ const lgN=r=>{const f=LGR[lgK(r)];if(AR)return r.ar||(f&&f[1])||r.en;return(r.en
 const LGL={ctl:()=>T.l.ctl,cty:()=>T.l.cty,grp:()=>T.l.grp,rel:()=>T.l.rel,hml:()=>T.l.hml};
 let lgOpen=false;
 async function legendDraw(e){const b=$('lgb'),p=$('lgp');if(!b||!p)return;p.setAttribute('role','region');p.setAttribute('aria-label',T.legendl||T.lg);const d=await lgj(e.id),sp=await LGS;if(e!==ES[i])return;
- const rows=d?d.rows.filter(r=>on.has(r.l)):[];b.textContent=`${T.lg}${rows.length?' · '+num(rows.length):''}`;b.setAttribute('aria-expanded',lgOpen);
+ /* QA: battle legend counts come from the pins actually drawn (g.bt.mk pr-<precision>), not the precomputed lg/ n */
+ const bdr=document.querySelectorAll('g.bt.mk'),bpc=k=>{const m=/^battle_(exact|approximate|region)$/.exec(k);if(!m||!bdr.length)return null;let n=0;bdr.forEach(g=>{if(g.classList.contains('pr-'+m[1]))n++});return n};
+ const rows=d?d.rows.filter(r=>on.has(r.l)).map(r=>{const n=bpc(lgK(r));return n==null?r:Object.assign({},r,{n})}).filter(r=>r.n!==0):[];b.textContent=`${T.lg}${rows.length?' · '+num(rows.length):''}`;b.setAttribute('aria-expanded',lgOpen);
  let h='';const ls=[...new Set(rows.map(r=>r.l))];
  if(!rows.length)h=`<p><span class="gap">${T.wip}</span> <span class="gapt">${esc(T.lgnone)}</span></p>`;
  {zdefs();const g0=await ext(e);if(e!==ES[i])return;const cs=new Set(g0.features.filter(f=>f.properties.zone&&f.properties.cs&&f.geometry.type!=='Point').map(f=>f.properties.cs));if(g0.features.some(f=>isCA(f)||(f.geometry.type==='Point'&&(f.properties.badge==='CONTESTED'||(f.properties.badges||[]).includes('CONTESTED')))))cs.add('contested');
