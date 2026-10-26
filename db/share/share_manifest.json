@@ -1,0 +1,1312 @@
+{
+ "meta": {
+  "owner": "Sudan Map Designer",
+  "generator": "db/share/build_share.py",
+  "size_px": [
+   1080,
+   1080
+  ],
+  "output_dir": "out/share/ (not committed)",
+  "publishing": "INTERNAL. Nothing goes to social without Agrescatti's approval. Images with Arabic tagged [يحتاج تحقق] stay internal until a native Arabic reviewer has checked them.",
+  "og_images": "img/og 1200x630 untouched (still used for link cards)",
+  "safe_zone": "era name, Arabic name, credit and map all above y=918 (bottom 15% clear)",
+  "count": 68
+ },
+ "images": [
+  {
+   "era_id": "a-group-lower-nubia",
+   "file": "out/share/a-group-lower-nubia.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2",
+    "SFDAS_HCS2017",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WP:A-Group_culture"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "abboud-military-regime",
+   "file": "out/share/abboud-military-regime.png",
+   "area_mode": "none_post1956_no_control_claims",
+   "area_badge": "NO CONTROL CLAIM (post-1956)",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA8",
+    "HD2011",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "LOC1991_ABBUD",
+    "SERIHERSCH2020",
+    "UNESCO_MGIEP_SSD",
+    "WP:Ibrahim_Abboud",
+    "WP:October_1964_Revolution",
+    "UNSC_S2005_60"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "abdallab-chiefdom-funj-vassal",
+   "file": "out/share/abdallab-chiefdom-funj-vassal.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE",
+   "contested_features": 2,
+   "source_ids": [
+    "HD2011",
+    "COW_NMC6",
+    "SPAULDING1985"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "al-bashir-ncp-ingaz-regime",
+   "file": "out/share/al-bashir-ncp-ingaz-regime.png",
+   "area_mode": "none_post1956_no_control_claims",
+   "area_badge": "NO CONTROL CLAIM (post-1956)",
+   "contested_features": 0,
+   "source_ids": [
+    "ICG2019",
+    "AR_WIKI_HIST",
+    "AR_SUDANILE2013",
+    "DE_WIKI_HIST",
+    "DE_BPB_KONFLIKT",
+    "ES_ELCANO2011",
+    "FR_WIKI_HIST",
+    "RU_WIKI_HIST",
+    "RU_RIA_2011",
+    "ZH_YU2008",
+    "ZH_SUN2009",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "HD2011",
+    "EIA_SDN2013",
+    "SFDAS_HCS2017",
+    "CPA_2005",
+    "PATEY_TWQ2007",
+    "UNSC1996",
+    "UNSC_S2005_60",
+    "UN_NEWS_2009_292942"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "alodia-alwa",
+   "file": "out/share/alodia-alwa.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low / certainty: medium",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2_CH12",
+    "WELSBY2002",
+    "COW_NMC6",
+    "GHA4_CH16",
+    "GHA3_CH8",
+    "WD:Q1247214",
+    "HD2011",
+    "WP:Alodia"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "anglo-egyptian-sudan-condominium",
+   "file": "out/share/anglo-egyptian-sudan-condominium.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "BRE_AES",
+    "GHA8",
+    "HD2011",
+    "GHA7_CH17",
+    "COW_NMC6",
+    "SFDAS_HCS2017",
+    "WB_TP120_1990"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "anuak-anywaa-communities",
+   "file": "out/share/anuak-anywaa-communities.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE",
+   "contested_features": 0,
+   "source_ids": [
+    "COW_NMC6",
+    "GLEICHEN1905_V2",
+    "LOC_ETH1991_NILOSAHARAN",
+    "GHAV",
+    "GLEICHEN1905_V1"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "beja-red-sea-hills-peoples",
+   "file": "out/share/beja-red-sea-hills-peoples.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE",
+   "contested_features": 0,
+   "source_ids": [
+    "HD2011",
+    "GHA2",
+    "COW_NMC6",
+    "GHA2_CH12"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "bornu-empire",
+   "file": "out/share/bornu-empire.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: high / certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "COW_NMC6",
+    "GHA4_CH10",
+    "GHA5_CH17",
+    "GHA6_CH22",
+    "GHAIV",
+    "GHAV",
+    "GHA6_CH14",
+    "WP:Bornu_Empire"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "british-occupied-kingdom-of-egypt",
+   "file": "out/share/british-occupied-kingdom-of-egypt.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: medium",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA7_CH21",
+    "GHA7_CH23",
+    "COW_NMC6",
+    "GHA7_CH17",
+    "LOC1991_CONDO",
+    "LOC1991_NATIONALISM",
+    "LOC1991_INDEP",
+    "UNTS6519_1959",
+    "WP:Kingdom_of_Egypt"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "c-group-lower-nubia",
+   "file": "out/share/c-group-lower-nubia.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2",
+    "SFDAS_HCS2017",
+    "COW_NMC6",
+    "PL:795777",
+    "GHA2_CH12",
+    "WP:C-Group_culture"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "central-african-republic-ubangi-shari",
+   "file": "out/share/central-african-republic-ubangi-shari.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE",
+   "contested_features": 0,
+   "source_ids": [
+    "CAR_CONST2016",
+    "CAR_CONST2023",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "ICG_RADAR2024",
+    "UNHCR_CAR2024",
+    "GHA7_CH17",
+    "GHA8",
+    "WP:Central_African_Republic"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "daju-kingdom",
+   "file": "out/share/daju-kingdom.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "TAKANA2016",
+    "COW_NMC6",
+    "GHA4_CH16",
+    "MACMICHAEL1922_V1",
+    "GHA5_CH7",
+    "OFAHEY2008",
+    "WP:Daju_people",
+    "WP:History_of_Darfur"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "december-revolution-transition",
+   "file": "out/share/december-revolution-transition.png",
+   "area_mode": "none_post1956_no_control_claims",
+   "area_badge": "NO CONTROL CLAIM (post-1956)",
+   "contested_features": 0,
+   "source_ids": [
+    "ICG2019",
+    "ICG2021",
+    "UNSC2524",
+    "COW_NMC6",
+    "IMF_PR21199",
+    "IMF_CR21082",
+    "IMF_CR21143",
+    "WB_PAUSE2021",
+    "AYIN_MURALS2022",
+    "AFP_GRAFFITI2019",
+    "JPIA_GENDER2020",
+    "AJA_FLOAT2021",
+    "WP:Sudanese_revolution",
+    "WP:2021_Sudanese_coup_d'état"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "derg-federal-ethiopia",
+   "file": "out/share/derg-federal-ethiopia.png",
+   "area_mode": "none_post1956_no_control_claims",
+   "area_badge": "NO CONTROL CLAIM (post-1956)",
+   "contested_features": 0,
+   "source_ids": [
+    "LOC_ETH1991_TOPO",
+    "LOC_ETH1991_NILOSAHARAN",
+    "LOC_ETH1991_ISLAM",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "LOC_ETH1991_BORDER",
+    "HRW1998_SPLA",
+    "EJOSSAH_DERG_SPLA",
+    "ICG_B204",
+    "ICG_ETH_ERI",
+    "GHA8",
+    "WP:Derg",
+    "WP:Grand_Ethiopian_Renaissance_Dam",
+    "GEO-016"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "dinka-jieng-communities",
+   "file": "out/share/dinka-jieng-communities.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE",
+   "contested_features": 0,
+   "source_ids": [
+    "HD2011",
+    "COW_NMC6",
+    "GHA5_CH7",
+    "GLEICHEN1905_V1"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "early-dynastic-old-kingdom-egypt",
+   "file": "out/share/early-dynastic-old-kingdom-egypt.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low / certainty: medium",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2_CH2",
+    "GHA2_CH4",
+    "GHA2_CH8",
+    "GHA2_CH9",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WP:Old_Kingdom_of_Egypt"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "egyptian-new-kingdom-rule-in-nubia",
+   "file": "out/share/egyptian-new-kingdom-rule-in-nubia.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low / certainty: medium",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2",
+    "COW_NMC6",
+    "WHC1073",
+    "GHA2_CH12",
+    "WP:Viceroy_of_Kush"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "eritrea-italian-colony-independent",
+   "file": "out/share/eritrea-italian-colony-independent.png",
+   "area_mode": "extent",
+   "area_badge": "CONTESTED",
+   "contested_features": 1,
+   "source_ids": [
+    "LOC_ETH1991_ETHIOSEMITIC",
+    "LOC1991_MUSLIMPEOPLES",
+    "LOC_ETH1991_ERITREANMOV",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "LOC_ETH1991_BORDER",
+    "HRW1998_SPLA",
+    "SAS_HSBA_WP3",
+    "ICG_B204",
+    "ICG_ETH_ERI",
+    "SWM_ERI2024",
+    "GHA7_CH17",
+    "GHA8",
+    "EEBC2002"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "ethiopian-empire-solomonic",
+   "file": "out/share/ethiopian-empire-solomonic.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low / certainty: medium",
+   "contested_features": 0,
+   "source_ids": [
+    "COW_NMC6",
+    "GHA4_CH17",
+    "GHA5_CH7",
+    "GHA6_CH15",
+    "GHA7_CH11",
+    "GHAIV",
+    "GHAV",
+    "GHA6_CH14",
+    "GHA7_CH17",
+    "WP:Ethiopian_Empire",
+    "WP:Battle_of_Gallabat"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "french-chad-republic-of-chad",
+   "file": "out/share/french-chad-republic-of-chad.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE / CONTESTED",
+   "contested_features": 1,
+   "source_ids": [
+    "LOC_TCD1988_NIGSUDAN",
+    "LOC_TCD1988_NILOSAHARAN",
+    "LOC1991_MUSLIMPEOPLES",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "LOC1991_CHAD",
+    "NDJAMENA2010",
+    "UNSC_S2010_217",
+    "ICG_B204",
+    "GHA7_CH17",
+    "GHA8",
+    "WP:Chad"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "funj-sultanate-of-sennar",
+   "file": "out/share/funj-sultanate-of-sennar.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low / certainty: medium",
+   "contested_features": 0,
+   "source_ids": [
+    "HD2011",
+    "SPAULDING1985",
+    "COW_NMC6",
+    "GHA5_CH7",
+    "GHA6_CH14"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "garamantes-fezzan",
+   "file": "out/share/garamantes-fezzan.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2_CH20",
+    "COW_NMC6",
+    "GHA2_CH18",
+    "GHA2_CH19",
+    "WP:Garamantes"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "independent-sudan-first-parliamentary-period",
+   "file": "out/share/independent-sudan-first-parliamentary-period.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: high",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA8",
+    "HD2011",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "WP:History_of_Sudan_(1956–1969)",
+    "LOC1991_INDSUDAN",
+    "UNSC_S2005_60"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "islamic-egypt-rashidunfatimidayyubid",
+   "file": "out/share/islamic-egypt-rashidunfatimidayyubid.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: medium",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2_CH12",
+    "GHA4_CH16",
+    "GHA3_CH7",
+    "GHA3_CH8",
+    "COW_NMC6",
+    "GHAIV",
+    "WP:Muslim_conquest_of_Egypt",
+    "WP:Fatimid_Caliphate"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "ja-aliyyin-kingdom-sa-dab-funj-vassal",
+   "file": "out/share/ja-aliyyin-kingdom-sa-dab-funj-vassal.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE",
+   "contested_features": 0,
+   "source_ids": [
+    "HD2011",
+    "COW_NMC6"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "kanem-empire",
+   "file": "out/share/kanem-empire.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA3_CH15",
+    "GHA4_CH10",
+    "COW_NMC6",
+    "GHA3_CH8",
+    "GHAIV",
+    "WP:Kanem_Empire"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "khartoum-mesolithic-early-khartoum",
+   "file": "out/share/khartoum-mesolithic-early-khartoum.png",
+   "area_mode": "extent",
+   "area_badge": null,
+   "contested_features": 0,
+   "source_ids": [
+    "AAR2021",
+    "COW_NMC6"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": [
+    "camera_bbox (rendered with build_og DEFAULT_BBOX Sudan frame)"
+   ]
+  },
+  {
+   "era_id": "khartoum-neolithic-shaheinab",
+   "file": "out/share/khartoum-neolithic-shaheinab.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE / SINGLE-SOURCE",
+   "contested_features": 0,
+   "source_ids": [
+    "AAR2021",
+    "COW_NMC6",
+    "WD:Q109284524",
+    "WD:Q109284535"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "kingdom-of-aksum",
+   "file": "out/share/kingdom-of-aksum.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low / certainty: medium",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2_CH14",
+    "GHA2_CH15",
+    "GHA2_CH16",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WP:Kingdom_of_Aksum",
+    "WP:Ezana_of_Axum"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "kingdom-of-kerma",
+   "file": "out/share/kingdom-of-kerma.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2",
+    "SFDAS_HCS2017",
+    "COW_NMC6",
+    "GHA2_CH12"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "file": "out/share/kingdom-of-kush-meroitic-period.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2",
+    "WHC1336",
+    "SFDAS_HCS2017",
+    "DAI_MUSAWWARAT",
+    "FR_MUSEE_MEROE",
+    "ZH_EMB_HIST2020",
+    "EDWARDS2011",
+    "COW_NMC6",
+    "PL:795855",
+    "RILLY_SN22",
+    "GHA2_CH12",
+    "WELSBY1996"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "kingdom-of-kush-napatan-period",
+   "file": "out/share/kingdom-of-kush-napatan-period.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2",
+    "WHC1073",
+    "ZH_EMB_PYR2020",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WELSBY1996",
+    "WP:Kingdom_of_Kush",
+    "WP:Twenty-fifth_Dynasty_of_Egypt",
+    "GHA2_CH6",
+    "GHA2_CH10",
+    "SFDAS_HCS2017"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "kingdom-of-taqali",
+   "file": "out/share/kingdom-of-taqali.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low / certainty: medium",
+   "contested_features": 0,
+   "source_ids": [
+    "HD2011",
+    "TAKANA2016",
+    "COW_NMC6",
+    "GHA5_CH7",
+    "WP:Kingdom_of_Taqali"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "land-of-punt-d-mt",
+   "file": "out/share/land-of-punt-d-mt.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2_CH4",
+    "GHA2_CH13",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WP:Dʿmt"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "late-period-persian-egypt",
+   "file": "out/share/late-period-persian-egypt.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: medium",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2_CH4",
+    "GHA2_CH6",
+    "GHA2_CH10",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WP:Late_Period_of_ancient_Egypt"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "libya-ottoman-italian-independent",
+   "file": "out/share/libya-ottoman-italian-independent.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE / CONTESTED",
+   "contested_features": 1,
+   "source_ids": [
+    "LOC_LBY1987_SANUSI",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "LOC1991_LIBYA",
+    "LOC_LBY1987_ITALOSANUSI",
+    "LOC_LBY1987_FOURTHSHORE",
+    "UNPOE_S2024_65",
+    "UNPOE_S2025_239",
+    "GHAV",
+    "GHA7_CH17",
+    "GHA8",
+    "WP:History_of_Libya"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "mahdist-state-mahdiyya",
+   "file": "out/share/mahdist-state-mahdiyya.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA7_CH4",
+    "HD2011",
+    "COW_NMC6",
+    "SFDAS_HCS2017"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "makuria",
+   "file": "out/share/makuria.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2_CH12",
+    "WELSBY2002",
+    "COW_NMC6",
+    "WP_MAKURIA",
+    "DERDA_LAJTAR2019",
+    "SFDAS_HCS2017"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "mamluk-sultanate",
+   "file": "out/share/mamluk-sultanate.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: high / certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA4_CH16",
+    "COW_NMC6",
+    "GHAIV",
+    "WP:Mamluk_Sultanate"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "middle-kingdom-egypt",
+   "file": "out/share/middle-kingdom-egypt.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: high / certainty: medium",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2_CH2",
+    "GHA2_CH4",
+    "GHA2_CH8",
+    "GHA2_CH9",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WP:Middle_Kingdom_of_Egypt"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "musabba-at-sultanate-kordofan",
+   "file": "out/share/musabba-at-sultanate-kordofan.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "TAKANA2016",
+    "HD2011",
+    "COW_NMC6",
+    "GHA5_CH7",
+    "OFAHEY_SPAULDING1972",
+    "OFAHEY2008",
+    "WP:Muhammad_Tayrab"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "new-kingdom-egypt",
+   "file": "out/share/new-kingdom-egypt.png",
+   "area_mode": "extent",
+   "area_badge": "SINGLE-SOURCE (Wikipedia)",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2_CH3",
+    "GHA2_CH4",
+    "GHA2_CH9",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WP:New_Kingdom_of_Egypt"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "nimeiry-era-democratic-republic-of-sudan",
+   "file": "out/share/nimeiry-era-democratic-republic-of-sudan.png",
+   "area_mode": "none_post1956_no_control_claims",
+   "area_badge": "NO CONTROL CLAIM (post-1956)",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA8",
+    "HD2011",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "LOC1991_NIMEIRI",
+    "LOC1991_TMC",
+    "LOC1991_ECON",
+    "LOC1991_ECONDEV",
+    "LOC1991_ENERGY",
+    "LOC1991_FINANCE",
+    "WB_SDN1985",
+    "MERIP1985",
+    "LAT1985",
+    "WPR_JONGLEI",
+    "WP:Jonglei_Canal",
+    "WP:Gaafar_Nimeiry",
+    "WP:Addis_Ababa_Agreement_(1972)",
+    "UNSC_S2005_60"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "noba-x-group-ballana-culture",
+   "file": "out/share/noba-x-group-ballana-culture.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2",
+    "GHA2_CH12",
+    "COW_NMC6",
+    "GHA2_CH10",
+    "GHA2_CH7",
+    "PL:795783",
+    "WELSBY2002",
+    "WP:Ballana_culture"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "nobadia",
+   "file": "out/share/nobadia.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2_CH12",
+    "WELSBY2002",
+    "COW_NMC6",
+    "WP:Nobadia",
+    "DERDA_LAJTAR2019"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "nuer-naath-communities",
+   "file": "out/share/nuer-naath-communities.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA7_CH4",
+    "COW_NMC6",
+    "GLEICHEN1905_V1"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+   "file": "out/share/ottoman-egypt-muhammad-ali-dynasty.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "COW_NMC6",
+    "GHA5_CH6",
+    "GHA5_CH7",
+    "GHA6_CH13",
+    "GHA6_CH14",
+    "GHAV",
+    "WP:Muhammad_Ali_dynasty"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "ottoman-hejaz-saudi-state",
+   "file": "out/share/ottoman-hejaz-saudi-state.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE",
+   "contested_features": 0,
+   "source_ids": [
+    "COW_NMC6",
+    "GHA5_CH6",
+    "GHA5_CH7",
+    "GHA6_CH13",
+    "JEDDAH2023",
+    "WP:Saudi_Arabia",
+    "WP:Treaty_of_Jeddah_(2023)",
+    "UNPOE_S2024_65"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "ptolemaic-egypt",
+   "file": "out/share/ptolemaic-egypt.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: high / certainty: low / certainty: medium",
+   "contested_features": 1,
+   "source_ids": [
+    "GHA2_CH6",
+    "GHA2_CH7",
+    "GHA2_CH10",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WP:Ptolemaic_Kingdom"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "republic-of-egypt",
+   "file": "out/share/republic-of-egypt.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: medium",
+   "contested_features": 0,
+   "source_ids": [
+    "LOC1991_EDUCATION",
+    "LOC1991_INDSUDAN",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "LOC1991_FOREIGN",
+    "LOC1991_EGYPT",
+    "LOC1991_LIBYA",
+    "UNTS6519_1959",
+    "ICG_ETH_ERI",
+    "GHA8",
+    "WP:Aswan_Dam"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "republic-of-south-sudan",
+   "file": "out/share/republic-of-south-sudan.png",
+   "area_mode": "none_post1956_no_control_claims",
+   "area_badge": "NO CONTROL CLAIM (post-1956)",
+   "contested_features": 0,
+   "source_ids": [
+    "COW_NMC6",
+    "WB_WDI_API",
+    "UNESCO_MGIEP_SSD",
+    "WB_SSD_OVERVIEW2026",
+    "WB_SSEB2012",
+    "OHCHR_JUBA2017",
+    "TCRSS2011",
+    "UNSC1996",
+    "ICG2014",
+    "RARCSS2018",
+    "ACCORD2020",
+    "WP:South_Sudan",
+    "WP:South_Sudanese_Civil_War",
+    "S_PRST_2012_12",
+    "S_RES_2046",
+    "SC_16212",
+    "UNMISS_HRR2014"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "restored-darfur-sultanate-ali-dinar",
+   "file": "out/share/restored-darfur-sultanate-ali-dinar.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low / certainty: medium",
+   "contested_features": 1,
+   "source_ids": [
+    "GHA7_CH12",
+    "TAKANA2016",
+    "COW_NMC6",
+    "MACMICHAEL1922_V1",
+    "OFAHEY2008",
+    "HD2011",
+    "WP:Ali_Dinar",
+    "WP:Sultanate_of_Darfur"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "rise-of-islam-caliphates",
+   "file": "out/share/rise-of-islam-caliphates.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA3_CH2",
+    "GHA3_CH3",
+    "COW_NMC6",
+    "GHA3_CH8",
+    "WP:Rashidun_Caliphate",
+    "WP:Abbasid_Caliphate"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "roman-byzantine-egypt",
+   "file": "out/share/roman-byzantine-egypt.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: high / certainty: low / certainty: medium",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2_CH7",
+    "GHA2_CH10",
+    "GHA2_CH12",
+    "COW_NMC6",
+    "WP:Egypt_(Roman_province)"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "sabaean-south-arabian-kingdoms",
+   "file": "out/share/sabaean-south-arabian-kingdoms.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA2_CH4",
+    "GHA2_CH13",
+    "GHA2_CH15",
+    "GHA2_CH16",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WP:Sabaeans"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "second-parliamentary-period",
+   "file": "out/share/second-parliamentary-period.png",
+   "area_mode": "none_post1956_no_control_claims",
+   "area_badge": "NO CONTROL CLAIM (post-1956)",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA8",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "LOC1991_CIVIL6469",
+    "LOC1991_ECON",
+    "LOC1991_ECONDEV",
+    "LOC1991_MEDIA",
+    "SERIHERSCH2020",
+    "AJA_WARDI2019",
+    "HD2011",
+    "WP:History_of_Sudan_(1956–1969)"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "shilluk-kingdom",
+   "file": "out/share/shilluk-kingdom.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "HD2011",
+    "GHA6_CH14",
+    "COW_NMC6",
+    "GHA5_CH7",
+    "WP:Shilluk_Kingdom"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "southern-sudan-under-condominium-sudan",
+   "file": "out/share/southern-sudan-under-condominium-sudan.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE / CONTESTED",
+   "contested_features": 3,
+   "source_ids": [
+    "HD2011",
+    "GHA7_CH4",
+    "GHA8",
+    "COW_NMC6",
+    "LOC1991_SOUTHPOL",
+    "LOC1991_SOUTHUNITY",
+    "LOC1991_NONMUSLIM",
+    "GHAVIII",
+    "UNSC1996",
+    "WP:First_Sudanese_Civil_War",
+    "WP:Second_Sudanese_Civil_War",
+    "UNSG_S2011_413"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "suakin-red-sea-port-beja-ottoman",
+   "file": "out/share/suakin-red-sea-port-beja-ottoman.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE",
+   "contested_features": 0,
+   "source_ids": [
+    "COW_NMC6",
+    "GHA3_CH3",
+    "GHA4_CH15",
+    "GHA4_CH16",
+    "GHA5_CH6",
+    "GHA5_CH7",
+    "GHA6_CH14",
+    "GHA7_CH4",
+    "HD2011",
+    "WP:Suakin"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "sultanate-of-darfur-keira",
+   "file": "out/share/sultanate-of-darfur-keira.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "OFAHEY2008",
+    "HD2011",
+    "COW_NMC6",
+    "GHA5_CH7",
+    "GHA6_CH14"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "transitional-third-parliamentary-period",
+   "file": "out/share/transitional-third-parliamentary-period.png",
+   "area_mode": "none_post1956_no_control_claims",
+   "area_badge": "NO CONTROL CLAIM (post-1956)",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA8",
+    "HD2011",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "LOC1991_TMC",
+    "LOC1991_SADIQ",
+    "LOC1991_ECON",
+    "LOC1991_ECONDEV",
+    "LOC1991_GOV",
+    "LOC1991_MEDIA",
+    "AJA_WARDI2019",
+    "WP:Sadiq_al-Mahdi",
+    "UNSC_S2005_60"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "tunjur-kingdom",
+   "file": "out/share/tunjur-kingdom.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "TAKANA2016",
+    "COW_NMC6",
+    "GHA4_CH16",
+    "MACMICHAEL1922_V1",
+    "GHA5_CH7",
+    "WD:Q405860",
+    "OFAHEY2008",
+    "WP:Tunjur_people"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "file": "out/share/turkiyya-ottoman-egyptian-rule.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA6_CH14",
+    "GHA7_CH4",
+    "HD2011",
+    "COW_NMC6",
+    "WP:Turco-Egyptian_Sudan",
+    "SFDAS_HCS2017"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "wadai-sultanate",
+   "file": "out/share/wadai-sultanate.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low",
+   "contested_features": 0,
+   "source_ids": [
+    "COW_NMC6",
+    "GHA5_CH7",
+    "GHA5_CH17",
+    "GHA6_CH17",
+    "GHA6_CH20",
+    "GHA6_CH22",
+    "GHAV",
+    "GHA6_CH14",
+    "WP:Wadai_Sultanate"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "war-in-sudan-saf-vs-rsf",
+   "file": "out/share/war-in-sudan-saf-vs-rsf.png",
+   "area_mode": "none_post1956_no_control_claims",
+   "area_badge": "NO CONTROL CLAIM (post-1956)",
+   "contested_features": 0,
+   "source_ids": [
+    "UNNEWS2023",
+    "JEDDAH2023",
+    "OCHA_HNRP2026",
+    "OCHA_FTS",
+    "IOM_DTM_SNAP10",
+    "IOM_DTM_SNAP9",
+    "UNHCR_ODP",
+    "COW_NMC6",
+    "WB_MPO2024",
+    "WB_SEU2025",
+    "WFP_DEC2024",
+    "IOM_DTM2025",
+    "UNESCO_PR2024",
+    "UNESCO_HEF2025",
+    "RSF_EXILE2025",
+    "XINHUA_GOLD2025",
+    "AYIN_GUM2024",
+    "AJA_PALACE2025",
+    "UNSC_SC15257",
+    "WP:Sudanese_civil_war_(2023–present)",
+    "WFP_SDN",
+    "OCHA_SDN",
+    "FEWS_SDN_2026",
+    "WB_MPO2026",
+    "UNPOE_S2024_65"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "zagwe-dynasty",
+   "file": "out/share/zagwe-dynasty.png",
+   "area_mode": "extent",
+   "area_badge": "APPROXIMATE",
+   "contested_features": 0,
+   "source_ids": [
+    "GHA3_CH19",
+    "GHA4_CH17",
+    "COW_NMC6",
+    "GHAIV",
+    "WP:Zagwe_dynasty"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  },
+  {
+   "era_id": "zande-kingdoms",
+   "file": "out/share/zande-kingdoms.png",
+   "area_mode": "extent",
+   "area_badge": "certainty: low / certainty: medium",
+   "contested_features": 0,
+   "source_ids": [
+    "COW_NMC6",
+    "GHA5_CH7",
+    "GHA5_CH18",
+    "GHA6_CH12",
+    "GHA6_CH14",
+    "GHA7_CH4",
+    "GHAV",
+    "WP:Zande_people"
+   ],
+   "status": "INTERNAL_AR_REVIEW",
+   "missing_fields": []
+  }
+ ]
+}

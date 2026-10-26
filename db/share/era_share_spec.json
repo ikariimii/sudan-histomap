@@ -1,7 +1,7 @@
 {
  "meta": {
   "owner": "Sudan Map Designer",
-  "status": "SPEC_DRAFT",
+  "status": "SIGNED_OFF_RENDERED",
   "size_px": [
    1080,
    1080
@@ -33,14 +33,19 @@
      64,
      280,
      1016,
-     920
+     860
     ],
     "fit": "camera_bbox"
    },
    "credit": {
-    "y": 1040,
+    "y": 900,
     "font": "sans 20px",
     "text": "sudan.indomando.com · Sources: {short_source_ids} · Area: {area_badge}"
+   },
+   "bottom_safe_zone": {
+    "y_from": 918,
+    "px": 162,
+    "rule": "no text or map in bottom 15% (X timeline crop); 1200x630 OG images kept for link cards"
    }
   },
   "area_style": {
