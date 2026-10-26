@@ -921,7 +921,7 @@
     -2450,
     -1450
    ],
-   "dating_note": "Corrected to the Swiss mission chronology: Early Kerma 2450–2050, Middle 2050–1750, Classic 1750–1550 BCE, and Final Kerma 1550–1450 BCE, 'correspondant aux longues luttes qui précédèrent la victoire définitive des Égyptiens' (SFDAS_HCS2017 p.69). Era end -1450 follows the chapter span 'le Groupe C et le royaume de Kerma 2450-1450' (p.59) and the campaign under Hatshepsut 'sans doute vers 1 470 av. J.-C.', after which 'La cité de Kerma fut définitivement abandonnée' (p.95). Note GHA II (1981) still dates 'Kerma' to -1730/-1580, i.e. only the Classic phase; superseded by Bonnet/Honegger excavations.",
+   "dating_note": "Swiss mission chronology: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE; 'A fourth period, called Final Kerma, denotes the transition between the end of the kingdom and the Egyptian occupation (circa 1480-1450 B.C.)' (KERMA_MISSION 'History'). Era end -1450 follows that Final Kerma end. Note GHA II (1981) still dates 'Kerma' to -1730/-1580 (GHA2_CH9 p.258), i.e. only the Classic phase; superseded by Bonnet/Honegger excavations. Two end dates for Classic Kerma: c.1580 BCE (GHA2_CH9 p.258) and c.1480 BCE (KERMA_MISSION 'History').",
    "area_layer": "db/extents/kingdom-of-kerma.geojson",
    "area_mode": "extent",
    "camera_bbox": [
@@ -932,7 +932,8 @@
    ],
    "source_ids": [
     "GHA2",
-    "SFDAS_HCS2017",
+    "GHA2_CH9",
+    "KERMA_MISSION",
     "COW_NMC6",
     "GHA2_CH12"
    ]
@@ -946,7 +947,7 @@
     -270,
     350
    ],
-   "dating_note": "Meroitic chronology uncertain (GHA II: 'particularly serious' for 2nd–1st c. BCE). Which kandake negotiated with Rome (Amanirenas vs Amanishakheto) is unresolved in GHA. End placed in the 4th century CE (350 is a placeholder year); cause debated: GHA II ascribes the overthrow to the Noba and concludes the kingdom 'had already collapsed at the time of Ezana's campaign'. SFDAS_HCS2017 p.325 places the end c.330–350 CE.",
+   "dating_note": "Meroitic chronology uncertain (GHA II: 'particularly serious' for 2nd–1st c. BCE). Which kandake negotiated with Rome (Amanirenas vs Amanishakheto) is unresolved in GHA. End placed in the 4th century CE (350 is a placeholder year); cause debated: GHA II ascribes the overthrow to the Noba and concludes the kingdom 'had already collapsed at the time of Ezana's campaign'. GHA II p.292 dates Ezana's campaign 'Towards +330'.",
    "area_layer": "db/extents/kingdom-of-kush-meroitic-period.geojson",
    "area_mode": "extent",
    "camera_bbox": [
@@ -958,7 +959,8 @@
    "source_ids": [
     "GHA2",
     "WHC1336",
-    "SFDAS_HCS2017",
+    "GHA2_CH10",
+    "GHA2_CH11",
     "DAI_MUSAWWARAT",
     "FR_MUSEE_MEROE",
     "ZH_EMB_HIST2020",
@@ -998,8 +1000,7 @@
     "WP:Kingdom_of_Kush",
     "WP:Twenty-fifth_Dynasty_of_Egypt",
     "GHA2_CH6",
-    "GHA2_CH10",
-    "SFDAS_HCS2017"
+    "GHA2_CH10"
    ]
   },
   {
@@ -1890,8 +1891,7 @@
     "GHA7_CH4",
     "HD2011",
     "COW_NMC6",
-    "WP:Turco-Egyptian_Sudan",
-    "SFDAS_HCS2017"
+    "WP:Turco-Egyptian_Sudan"
    ]
   },
   {
