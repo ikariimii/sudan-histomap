@@ -19,8 +19,7 @@
    "darfur-campaign-1916": "restored-darfur-sultanate-ali-dinar",
    "sudan-south-sudan-border-2012": "republic-of-south-sudan",
    "piye-conquest-of-egypt": "kingdom-of-kush-napatan-period"
-  },
-  "todo": "When Heglig (sudan-south-sudan-border-2012) and Ardamatta (war-2023, El Geneina) places exist, recompute boxes from battle coordinates and drop the fallback mark."
+  }
  },
  "wars": [
   {
@@ -400,15 +399,17 @@
    "battle_ids": [
     "heglig-2012"
    ],
-   "located_battle_ids": [],
+   "located_battle_ids": [
+    "heglig-2012"
+   ],
    "status": [
-    "FALLBACK_ERA_BBOX"
+    "OK"
    ],
    "camera_bbox": [
-    22.19,
-    2.25,
-    37.2,
-    13.487
+    28.652,
+    9.252,
+    30.152,
+    10.752
    ],
    "caption": "The Security Council welcomed the SPLA withdrawal from Heglig and demanded a cessation of hostilities.",
    "caption_cites": [
@@ -466,6 +467,7 @@
     "el-geneina-2023",
     "nyala-2023",
     "zalingei-2023",
+    "ardamatta-2023",
     "el-fasher-2024"
    ],
    "status": [
