@@ -227,3 +227,5 @@ g.heat{pointer-events:none}
 
 #tourc,.tourc{margin:0 0 6px;padding:6px 10px;border:1px solid var(--acc);border-radius:10px;background:#0f1b24;color:#e8eef2;font-size:13px;line-height:1.4;max-height:30vh;overflow:auto}#tourc[hidden],.tourc[hidden]{display:none}#tourc p,.tourc p{margin:0 0 4px}#tourc .tcn,.tourc .tcn{font-weight:700}#tourc button,.tourc button{min-height:32px;padding:2px 12px;border-radius:16px;border:1px solid var(--acc);background:var(--acc);color:#1a1a1a;font:inherit;font-weight:700;cursor:pointer}#tourc button:disabled,.tourc button:disabled{opacity:.6;cursor:default}
 .tourc .swb{display:flex;flex-wrap:wrap;gap:6px}.wstory{min-height:36px;padding:4px 12px;border-radius:16px;border:1px solid var(--acc);background:transparent;color:inherit;font:inherit;font-weight:700;cursor:pointer}
+/* war story on phone/tablet (<1000px): chips hidden, 170px peek sheet so the camera band (y --chipb+8..H-178) stays clear (Map Designer story_360) */
+@media (max-width:999px){body.warstory #layers{display:none}body.warstory #sheet.peek{max-height:170px;overflow-y:auto}}

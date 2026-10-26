@@ -411,14 +411,15 @@ function cityTap(ev,c){ev.stopPropagation();const e=ES[i],r=c.r[e.id],d=CJ&&CJ.t
  $('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true};if($('sheet').classList.contains('peek'))snap('half')}
 // --- navigation
 // era camera: fly to focus_view.bbox [w,s,e,n] (fallback: extent bounds, then whole region) inside the area not covered by the sheet/side card. Manual zoom is kept until the era changes.
-let CE=null,TFV=null;function cam(e,g){if(e.id===CE)return;const first=CE===null;CE=e.id;
+let CE=null,TFV=null,KMIN=1;const SW_KMIN={'piye-conquest-of-egypt':.9};/* war story on phone: camera band y --chipb+8..H-178 (170px peek sheet), x 10..W-75 (Map Designer story_360) */
+function cam(e,g){if(e.id===CE)return;const first=CE===null;CE=e.id;
  let b=TFV||e.fv;TFV=null;if(!b){// planar bbox of the era's extents (geoBounds returns the whole globe for reverse-wound rings), then its capitals
   const xs=[],ys=[],w=c=>{if(typeof c[0]==='number'){if(isFinite(c[0])&&isFinite(c[1])){xs.push(c[0]);ys.push(c[1])}}else c.forEach(w)};
   ((g&&g.features)||[]).forEach(f=>f.geometry&&w(f.geometry.coordinates));if(!xs.length)(e.caps||[]).forEach(c=>{xs.push(c[1]);ys.push(c[2])});
   if(xs.length)b=[Math.min(...xs),Math.min(...ys),Math.max(...xs),Math.max(...ys)]}
- let t=d3.zoomIdentity;if(b){const sh=$('sheet').getBoundingClientRect(),top=desk()?70:120,bot=desk()?H()-20:Math.max(top+120,H()-Math.min(sh.height,H()*.44)-8),x1=desk()?(AR?sh.right+20:20):10,x2=desk()?(AR?W()-20:sh.left-20):W()-(AR?10:75);/* ~65px right pad (EN phone/tablet) so Halaib clears the ◎ button at inline-end */
+ let t=d3.zoomIdentity;if(b){const sh=$('sheet').getBoundingClientRect(),WS=SWK&&!desk(),top=WS?(parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--chipb'))||230)+8:desk()?70:120,bot=WS?H()-178:desk()?H()-20:Math.max(top+120,H()-Math.min(sh.height,H()*.44)-8),x1=WS?(AR?75:10):desk()?(AR?sh.right+20:20):10,x2=WS?(AR?W()-10:W()-75):desk()?(AR?W()-20:sh.left-20):W()-(AR?10:75);/* ~65px right pad (EN phone/tablet) so Halaib clears the ◎ button at inline-end */
   {const cx=(b[0]+b[2])/2,cy=(b[1]+b[3])/2,hx=Math.max((b[2]-b[0])/2,1.5),hy=Math.max((b[3]-b[1])/2,1.5);b=[cx-hx,cy-hy,cx+hx,cy+hy]}// min 3° window so point-like foci keep context
-  const p=proj([b[0],b[3]]),q=proj([b[2],b[1]]),dx=Math.max(q[0]-p[0],8),dy=Math.max(q[1]-p[1],8);const k=Math.max(1,Math.min(6,.85*Math.min((x2-x1)/dx,(bot-top)/dy)));
+  const p=proj([b[0],b[3]]),q=proj([b[2],b[1]]),dx=Math.max(q[0]-p[0],8),dy=Math.max(q[1]-p[1],8);const k=Math.max(KMIN,Math.min(6,.85*Math.min((x2-x1)/dx,(bot-top)/dy)));
   t=d3.zoomIdentity.translate((x1+x2)/2-k*(p[0]+q[0])/2,(top+bot)/2-k*(p[1]+q[1])/2).scale(k)}
  if(first||RM)svg.interrupt().call(zoom.transform,t);else svg.interrupt().transition('cam').duration(1000).call(zoom.transform,t)}
 function go(n){n=Math.max(0,Math.min(ES.length-1,n));if(n===i)return;i=n;Y=null;render(true)}
@@ -573,12 +574,17 @@ let SWD=null,SWK=null,SWI=0;const swFor=b=>SWD&&b&&SWD.find(w=>w.bs.includes(b.i
 const SWP=document.createElement('div');SWP.id='storyp';SWP.className='tourc';SWP.hidden=true;SWP.setAttribute('role','region');SWP.setAttribute('aria-live','polite');
 function swShow(){const w=SWK;if(!w){SWP.hidden=true;return}const L=w.L,b=L[SWI];SWP.setAttribute('aria-label',(AR?'قصة الحرب *: ':'War story: ')+w.en);
  SWP.innerHTML=`<p class="tcn"><span lang="en" dir="ltr">${esc(w.en)}</span>${AR?vchipH():''} · ${esc(AR?'المعركة *':'Battle')} <bdi>${esc(num(SWI+1))}</bdi> / <bdi>${esc(num(L.length))}</bdi></p>`+(w.cap&&SWI===0?`<p><span lang="en" dir="ltr">${esc(w.cap)}</span>${AR?vchipH():''}</p><p class="extnote">${esc(BT.src)}: ${w.cs.map(c=>`<bdi dir="ltr">${esc(c.c)}</bdi>${c.u?` <a href="${esc(c.u)}" target="_blank" rel="noopener">↗</a>`:''}`).join('; ')}</p>`:'')+
- `<p class="swb"><button type="button" data-d="-1"${SWI?'':' disabled'}>${esc(AR?'السابق *':'Previous')}</button><button type="button" data-d="1"${SWI<L.length-1?'':' disabled'}>${esc(AR?'التالي *':'Next')}</button><button type="button" data-d="0">${esc(AR?'إغلاق القصة *':'Close story')}</button></p>`;SWP.hidden=false;{const f=$('feat');if(f&&!f.hidden){const h=f.querySelector(':scope > b');(h||f.firstChild).after(SWP)}}
- SWP.querySelectorAll('button[data-d]').forEach(x=>x.onclick=()=>{const d=+x.dataset.d;if(!d){swEnd();return}swGo(SWI+d,d)})}
-async function swGo(k,d){const w=SWK;if(!w)return;SWI=Math.max(0,Math.min(w.L.length-1,k));await wtGo(w.L[SWI]);if(w.bb){TFV=w.bb;CE=null;cam(ES[i])}swShow();const n=SWP.querySelector(`button[data-d="${d||1}"]:not(:disabled)`)||SWP.querySelector('button[data-d="0"]');if(d&&n)n.focus({preventScroll:true})}
-function swEnd(){SWK=null;SWP.hidden=true}
-async function swStart(b){const w=swFor(b);if(!w)return;SWK=Object.assign({},w,{L:w.bs.map(id=>BTD.battles.find(x=>x.id===id)).filter(Boolean)});await swGo(Math.max(0,SWK.L.findIndex(x=>x.id===b.id)),0);const f=SWP.querySelector('button[data-d="1"]:not(:disabled)')||SWP.querySelector('button');if(f)f.focus({preventScroll:true})}
-document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&SWK)swEnd()});
+ `<p class="swb"><button type="button" data-d="-1"${SWI?'':' disabled'}>${esc(AR?'السابق *':'Previous')}</button><button type="button" data-d="1"${SWI<L.length-1?'':' disabled'}>${esc(AR?'التالي *':'Next')}</button><button type="button" data-d="0">${esc(AR?'إغلاق القصة *':'Close story')}</button></p>`;SWP.hidden=false;if(!desk()&&!$('sheet').classList.contains('peek'))snap('peek');{const f=$('feat');if(f&&!f.hidden){const h=f.querySelector(':scope > b');(h||f.firstChild).after(SWP)}}
+ SWP.querySelectorAll('button[data-d]').forEach(x=>x.onclick=()=>{const d=+x.dataset.d;if(!d){swEnd(1);return}swGo(SWI+d,d)})}
+async function swGo(k,d){const w=SWK;if(!w)return;SWI=Math.max(0,Math.min(w.L.length-1,k));if(w.bb){TFV=w.bb;CE=null}await wtGo(w.L[SWI]);if(w.bb){TFV=w.bb;CE=null;cam(ES[i])}swShow();const n=SWP.querySelector(`button[data-d="${d||1}"]:not(:disabled)`)||SWP.querySelector('button[data-d="0"]');if(d&&n)n.focus({preventScroll:true})}
+function swEnd(r){SWK=null;SWP.hidden=true;swMode(0);if(r&&CURB)batCard(CURB);if(r){const x=document.querySelector('#feat button.wstory');if(x)x.focus({preventScroll:true})}}
+function swMode(on_,w){document.body.classList.toggle('storyon',!!on_);document.body.classList.toggle('warstory',!!on_);KMIN=on_&&w&&SW_KMIN[w.w]||1;zoom.scaleExtent([KMIN,12]);if(on_&&!desk())snap('peek')}
+async function swStart(b){const w=swFor(b);if(!w)return;SWK=Object.assign({},w,{L:w.bs.map(id=>BTD.battles.find(x=>x.id===id)).filter(Boolean)});swMode(1,w);await swGo(Math.max(0,SWK.L.findIndex(x=>x.id===b.id)),0);const f=SWP.querySelector('button[data-d="1"]:not(:disabled)')||SWP.querySelector('button');if(f)f.focus({preventScroll:true})}
+/* Esc/Close return focus to 'Story of this war'; ArrowLeft/ArrowRight step (mirrored in RTL); capture phase so the sheet/feature handlers don't collapse the panel */
+document.addEventListener('keydown',ev=>{if(!SWK||SWP.hidden)return;const t=ev.target,tg=t&&t.tagName;if(tg==='INPUT'||tg==='TEXTAREA'||tg==='SELECT'||(t&&t.isContentEditable))return;
+ if(ev.key==='Escape'){ev.preventDefault();ev.stopImmediatePropagation();swEnd(1);return}
+ if(ev.key!=='ArrowLeft'&&ev.key!=='ArrowRight')return;if(ev.altKey||ev.ctrlKey||ev.metaKey)return;ev.preventDefault();ev.stopImmediatePropagation();
+ const fw=(ev.key==='ArrowRight')!==(getComputedStyle(SWP).direction==='rtl')?1:-1,k=SWI+fw;if(k<0||k>=SWK.L.length)return;swGo(k,fw)},true);
 document.addEventListener('click',ev=>{const x=ev.target.closest&&ev.target.closest('button.wstory');if(x&&CURB)swStart(CURB)});
 let CURB=null;
 function batWar(w){if(!w)return'';const e=BTD.ebs||{},raw=w.eb&&w.eb.toUpperCase()!=='VERIFY'?w.eb+' · ':'',lb=raw+(AR?e.ar:e.en),nt=w.nt?(AR?(w.nt[1]||(w.nt[0]||'')):(w.nt[0]||'')):'';
