@@ -78,7 +78,7 @@
      "pages": "p.1 (JEM attack on Omdurman, 10 May 2008)"
     }
    ],
-   "note": "date_to NO-SOURCE."
+   "note": "date_to null: no UN text states that the war ended. S/RES/2559 (2020) only welcomes the Juba Peace Agreement and ends UNAMID's mandate."
   },
   {
    "war_id": "south-kordofan-blue-nile-2011",
@@ -111,7 +111,7 @@
      "pages": "preamble (continued fighting in Southern Kordofan and Blue Nile, May 2012)"
     }
    ],
-   "note": "Blue Nile start date NO-SOURCE; date_to NO-SOURCE."
+   "note": "Blue Nile start date NO-SOURCE. date_to null: no UN text states that the conflict ended; UN texts only urge a cessation of hostilities."
   },
   {
    "war_id": "sudan-south-sudan-border-2012",
@@ -145,7 +145,7 @@
      "pages": "preamble; Chapter VII determination"
     }
    ],
-   "note": "Start month and date_to NO-SOURCE."
+   "note": "Start month NO-SOURCE. date_to null: no UN text states that the conflict ended; the Security Council press statement of 28 Sep 2012 welcomes the agreements signed by Sudan and South Sudan without stating that the conflict ended."
   },
   {
    "war_id": "south-sudan-civil-war",
@@ -153,7 +153,8 @@
    "name_ar": "الحرب الأهلية في جنوب السودان [يحتاج تحقق]",
    "ar_status": "VERIFY",
    "date_from": "2013-12-15",
-   "date_to": null,
+   "date_to": "2018",
+   "end_badge": "REPORTED",
    "era_ids": [
     "republic-of-south-sudan",
     "dinka-jieng-communities",
@@ -174,9 +175,13 @@
     {
      "source_id": "UNMISS_HRR2014",
      "pages": "paras 1–2, 39–41 (pp.3, 10, 16)"
+    },
+    {
+     "source_id": "UNNEWS_20250327_SSUDAN",
+     "pages": "para 1: \"the 2018 peace deal that ended five years of civil war\""
     }
    ],
-   "note": "date_to NO-SOURCE (source covers to May 2014)."
+   "note": "End year 2018 per UN News, 27 Mar 2025: \"the 2018 peace deal that ended five years of civil war\". The same article warns of a 2025 risk of renewed war: \"this action takes the country yet one step closer to the edge of a collapse into civil war and the dismantling of the peace agreement\" (UN spokesperson), and the Commission on Human Rights in South Sudan warned that failure \"will lead to a catastrophic return to war\"."
   },
   {
    "war_id": "war-2023",
