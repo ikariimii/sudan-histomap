@@ -12,7 +12,7 @@
    "name_ar": "الحرب الأهلية السودانية الثانية [يحتاج تحقق]",
    "ar_status": "VERIFY",
    "date_from": "1983",
-   "date_to": "2005-01",
+   "date_to": "2005-01-09",
    "era_ids": [
     "nimeiry-era-democratic-republic-of-sudan",
     "transitional-third-parliamentary-period",
@@ -38,6 +38,10 @@
     {
      "source_id": "UNSC2046",
      "pages": "preamble (January 2005 Comprehensive Peace Agreement)"
+    },
+    {
+     "source_id": "UNSC1590",
+     "pages": "p.1, preamble para 3"
     }
    ],
    "note": "Start year from SPLA formation in 1983 (HRW); exact start date NO-SOURCE."
@@ -181,6 +185,7 @@
    "ar_status": "VERIFY",
    "date_from": "2023-04-15",
    "date_to": null,
+   "ongoing": true,
    "era_ids": [
     "war-in-sudan-saf-vs-rsf"
    ],
