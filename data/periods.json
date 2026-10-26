@@ -8768,12 +8768,12 @@
    "end": 1500,
    "prominence": 0.7,
    "key_events": [
-    "Repulsed Arab armies at Dongola 651/652 (SFDAS_HCS2017 p.405)",
-    "Baqt treaty with Egypt (SFDAS_HCS2017 p.405)",
-    "Faras cathedral frescoes (SFDAS_HCS2017 p.404)",
-    "Decline under Mamluk pressure, 14th c. (SFDAS_HCS2017 pp.419–420)"
+    "Muslim expedition of 31/651–2 reaches Dongola; fierce Nubian resistance forces a truce (GHA3_CH3 p.81)",
+    "Baqt treaty: a non-aggression pact that let al-Makurra keep its independence (GHA3_CH3 p.81)",
+    "Faras: more than 120 mural paintings found in 1961–4; Nubian churches were painted from the 8th century (GHA2_CH12 p.336)",
+    "Decline under Mamluk pressure: losing internal cohesion, Mukurra faced a Mamluk policy aimed at reducing it to a vassal kingdom (GHA4_CH16 p.402)"
    ],
-   "key_events_cites": [[], [], [], []],
+   "key_events_cites": [[{"source": "GHA3_CH3", "page": "81"}], [{"source": "GHA3_CH3", "page": "81"}], [{"source": "GHA2_CH12", "page": "336"}], [{"source": "GHA4_CH16", "page": "402"}]],
    "capitals": [
     {
      "name": "Old Dongola",
@@ -8791,7 +8791,8 @@
     "WP_MAKURIA",
     "GHA2_CH12",
     "DERDA_LAJTAR2019",
-    "SFDAS_HCS2017"
+    "GHA3_CH3",
+    "GHA4_CH16"
    ],
    "dating_note": "End date approximate (kingdom fragmented in 14th–15th c.). Merger with Makuria: date disputed. GHA II ch.12 (Michałowski, pp.332–333) gives two versions: Maqrizi has one king, Qalidurut, ruling central and northern Nubia by the mid-7th c.; 'Christian sources seem to prove that the union of Nubia was the work of King Merkurios, who came to the throne in 697.' Derda & Łajtar (2019, p.136 and n.4): 'perhaps around 630'; the earliest indubitable proof of a greater Makuria including Nobadia is the reign of Merkurios (late 7th–early 8th c.); incorporation probably before the Arab raid on Dongola in 652; Godlewski has suggested the end of the 6th c. Welsby 2002 not read on this point.",
    "key_events_ar": [
@@ -8820,8 +8821,19 @@
       "title": "Organization of the Church in Medieval Nubia in the Light of a Newly Discovered Wall Inscription in Dongola"
      },
      {
-      "id": "SFDAS_HCS2017",
-      "title": "Histoire et civilisations du Soudan, de la Préhistoire à nos jours"
+      "id": "GHA3_CH3",
+      "title": "Stages in the development of Islam and its dissemination in Africa, ch.3 (General History of Africa III)",
+      "pages": "p.81"
+     },
+     {
+      "id": "GHA4_CH16",
+      "title": "Nubia from the late 12th century to the Funj conquest in the early 16th century, ch.16 (General History of Africa IV)",
+      "pages": "p.402"
+     },
+     {
+      "id": "GHA2_CH12",
+      "title": "The spreading of Christianity in Nubia (General History of Africa II, ch.12)",
+      "pages": "p.336"
      }
     ],
     "zones": [],
@@ -9020,12 +9032,12 @@
    "end": 1899,
    "prominence": 0.75,
    "key_events": [
-    "Muhammad Ahmad declares himself Mahdi 1881 (SFDAS_HCS2017 p.613)",
-    "Fall of Khartoum, death of Gordon 1885 (SFDAS_HCS2017 p.567)",
-    "Khalifa Abdallahi rules (SFDAS_HCS2017 p.621)",
-    "Battle of Karari (Omdurman) 1898; end of Khalifa Abdallahi, November 1899 (SFDAS_HCS2017 pp.629, 639)"
+    "Muhammad Ahmad declares his Mahdiship openly, beginning the armed struggle of 1881–5 with the government (GHA7_CH4 p.74)",
+    "Mahdist forces take Khartoum and kill Gordon, 26 January 1885 (GHA7_CH4 pp.76–77)",
+    "Khalifa 'Abdullahi succeeds the Mahdi, who died in June 1885 (GHA7_CH4 p.77)",
+    "Battle of Karari (Omdurman), 2 September 1898; the Khalifa is defeated and found dead at Umm Diwaykrat, 24 November 1899 (GHA7_CH4 p.78)"
    ],
-   "key_events_cites": [[], [], [], []],
+   "key_events_cites": [[{"source": "GHA7_CH4", "page": "74"}], [{"source": "GHA7_CH4", "page": "76–77"}], [{"source": "GHA7_CH4", "page": "77"}], [{"source": "GHA7_CH4", "page": "78"}]],
    "capitals": [
     {
      "name": "Omdurman",
@@ -9035,7 +9047,7 @@
    ],
    "sources": [
     "HD2011",
-    "SFDAS_HCS2017"
+    "GHA7_CH4"
    ],
    "dating_note": "",
    "key_events_ar": [
@@ -9051,8 +9063,9 @@
       "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
      },
      {
-      "id": "SFDAS_HCS2017",
-      "title": "Histoire et civilisations du Soudan, de la Préhistoire à nos jours"
+      "id": "GHA7_CH4",
+      "title": "African initiatives and resistance in North-East Africa (General History of Africa VII, ch.4)",
+      "pages": "pp.74, 76–78"
      }
     ],
     "zones": [],
@@ -9066,12 +9079,12 @@
    "end": 1956,
    "prominence": 0.75,
    "key_events": [
-    "Condominium Agreement 19 Jan 1899 (SFDAS_HCS2017 p.639)",
+    "Anglo-Egyptian agreement of January 1899 sets up a condominium, joint authority exercised by Britain and Egypt (LOC1991_CONDO)",
     "Sennar dam completed 1925 to supply the Gezira Scheme (WB_TP120_1990 p.16)",
-    "Southern Policy (SFDAS_HCS2017 p.643)",
-    "Self-government 1953 (SFDAS_HCS2017 p.660)"
+    "Southern Policy: the three southern provinces treated as a separate region under 'closed door' ordinances; a 1930 directive declared southerners a people distinct from northern Muslims (LOC1991_SOUTHPOL)",
+    "Anglo-Egyptian accord of February 1953 sets a three-year transition from condominium rule to self-government (LOC1991_INDEP)"
    ],
-   "key_events_cites": [[], [], [], []],
+   "key_events_cites": [[{"source": "LOC1991_CONDO", "page": "countrystudies.us/sudan/15.htm"}], [], [{"source": "LOC1991_SOUTHPOL", "page": "countrystudies.us/sudan/16.htm"}], [{"source": "LOC1991_INDEP", "page": "countrystudies.us/sudan/18.htm"}]],
    "capitals": [
     {
      "name": "Khartoum",
@@ -9081,7 +9094,9 @@
    ],
    "sources": [
     "HD2011",
-    "SFDAS_HCS2017",
+    "LOC1991_CONDO",
+    "LOC1991_SOUTHPOL",
+    "LOC1991_INDEP",
     "WB_TP120_1990"
    ],
    "dating_note": "",
@@ -9098,8 +9113,19 @@
       "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
      },
      {
-      "id": "SFDAS_HCS2017",
-      "title": "Histoire et civilisations du Soudan, de la Préhistoire à nos jours"
+      "id": "LOC1991_CONDO",
+      "title": "Sudan: A Country Study – 'The Anglo-Egyptian Condominium, 1899-1955'",
+      "pages": "countrystudies.us/sudan/15.htm"
+     },
+     {
+      "id": "LOC1991_SOUTHPOL",
+      "title": "Sudan: A Country Study – 'Britain's Southern Policy'",
+      "pages": "countrystudies.us/sudan/16.htm"
+     },
+     {
+      "id": "LOC1991_INDEP",
+      "title": "Sudan: A Country Study – 'The Road to Independence'",
+      "pages": "countrystudies.us/sudan/18.htm"
      },
      {
       "id": "WB_TP120_1990",
