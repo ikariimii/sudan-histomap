@@ -2503,6 +2503,19 @@
     "verification": "accessed 2026-10-25 (curl HTTP 200; figures JS-rendered, values read from grapher CSV/metadata endpoints of the charts 'Population' and 'Population' (with UN projections)); credits UN WPP 2024 (UNWPP2024)",
     "via": "Agrescatti via Innovation Manager 2026-10-25"
    },
+   "OWID_GRAPHER_POP": {
+    "author": "Our World in Data",
+    "title": "Our World in Data grapher charts: 'Population' (https://ourworldindata.org/grapher/population); 'Life expectancy' (https://ourworldindata.org/grapher/life-expectancy); 'Fertility rate: births per woman' (https://ourworldindata.org/grapher/children-born-per-woman); 'Median age' (https://ourworldindata.org/grapher/median-age)",
+    "title_en": "same",
+    "publisher": "Our World in Data (Global Change Data Lab, University of Oxford)",
+    "year": "2026",
+    "url": "https://ourworldindata.org/grapher/population",
+    "pages": "",
+    "lang": "en",
+    "affiliation_bias": "Academic data aggregator; secondary presentation of UN WPP 2024 (1950 on); covers any country (current borders per OWID entity)",
+    "verification": "accessed 2026-10-25 (curl HTTP 200 on all four chart pages; titles confirmed from page <title>); general ID for OWID population and demography charts, any country; values read from grapher CSV endpoints; credits UN WPP 2024 (UNWPP2024)",
+    "via": "Innovation Manager 2026-10-25"
+   },
    "UNWPP2024": {
     "author": "United Nations, Department of Economic and Social Affairs, Population Division",
     "title": "World Population Prospects 2024",
