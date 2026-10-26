@@ -1,0 +1,502 @@
+{
+ "meta": {
+  "owner": "Sudan Historian",
+  "built": "2026-10-25",
+  "status": "draft; Arabic is a working translation pending native review [يحتاج تحقق]",
+  "scope": "One entry per people group already listed in db/groups.json; language, homeland and history only; no characterisations of temperament or behaviour.",
+  "rules": "Every sentence carries one cite {source_id registered in data/periods.json meta.sources, pages, verbatim quote checked against the box text of that page}. Sentences without a page cite are dropped. Contested claims are attributed in-sentence and badged CONTESTED/REPORTED/TRADITION.",
+  "badges": "sentence badge per cite; entry badge SINGLE-SOURCE if all sentences share one source, else DERIVED",
+  "omitted": {
+   "kababish": "only QASIM_MAWSUA (Arabic) cites in db/groups.json; no English page text verified on box this pass",
+   "rashaida": "only QASIM_MAWSUA (Arabic) cites in db/groups.json; no English page text verified on box this pass"
+  }
+ },
+ "people": [
+  {
+   "id": "beja",
+   "name_en": "Beja",
+   "badge": "DERIVED",
+   "sentences": [
+    {
+     "en": "GHA III describes the earlier Blemmyes as a nomadic Beja people from the Eastern Desert.",
+     "ar": "يصف المجلد الثالث من التاريخ العام لأفريقيا البليميين الأقدم بأنهم شعب بجاوي رحّل من الصحراء الشرقية. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA3_CH8",
+      "pages": "p.198",
+      "quote": "the earlier Blemmyes, a nomadic Bëdja people from the Eastern Desert"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "en": "The same volume says that by the fourteenth century most Beja considered themselves Muslims while many traditional beliefs and practices remained alive.",
+     "ar": "ويذكر المجلد نفسه أن معظم البجا بحلول القرن الرابع عشر كانوا يعدّون أنفسهم مسلمين، مع بقاء كثير من المعتقدات والممارسات التقليدية حيّة. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA3_CH3",
+      "pages": "p.83",
+      "quote": "by the eighth/fourteenth century the majority of Bêdja were formally Islamized"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "en": "GHA IV notes that the ethnic-name suffix -ab, common east of the Nile, is a loan-word from the Beja language Tu-Bedawie meaning family or clan.",
+     "ar": "ويشير المجلد الرابع إلى أن اللاحقة \"-اب\" الشائعة في أسماء الجماعات شرق النيل كلمة مستعارة من لغة البجا (تو-بداوي) وتعني الأسرة أو العشيرة. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA4_CH16",
+      "pages": "p.412",
+      "quote": "the suffix -ab, which frequently occurs in the ethnic names east of the Nile, is a loan-word from Tu-Bedawie"
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ]
+  },
+  {
+   "id": "nubians",
+   "name_en": "Nubians (Nile Nubians)",
+   "badge": "DERIVED",
+   "sentences": [
+    {
+     "en": "GHA III records that in 1315 the Mamluks chose as Nubian king a prince already converted to Islam, an event it links to the decline of Nubian Christianity.",
+     "ar": "يذكر المجلد الثالث من التاريخ العام لأفريقيا أن المماليك اختاروا عام 1315 أميرًا كان قد اعتنق الإسلام ملكًا على النوبة، وهو حدث يربطه بتراجع المسيحية النوبية. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA3_CH3",
+      "pages": "p.83",
+      "quote": "In 715/1315 the Mamluks chose as Nubian king a prince who was already converted to Islam"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "en": "GHA IV explains that under the Nubian matrilineal system, sons of Arab fathers and Nubian mothers gained rights of succession to leadership and a share in land and property.",
+     "ar": "ويوضح المجلد الرابع أنه بموجب نظام النسب الأمومي النوبي اكتسب أبناء الآباء العرب والأمهات النوبيات حقوق الخلافة في الزعامة ونصيبًا في الأرض والممتلكات. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA4_CH16",
+      "pages": "p.405",
+      "quote": "By virtue of the Nubian matrilineal system, sons of Arab fathers and Nubian mothers acquired the rights of succession to leadership as well as a share in land and other property."
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ]
+  },
+  {
+   "id": "jaaliyyin",
+   "name_en": "Ja'aliyyin",
+   "badge": "DERIVED",
+   "sentences": [
+    {
+     "en": "GHA V describes the Ja'aliyyin of Shendi, with the Danagla, as middlemen in the trade between Sennar and Egypt.",
+     "ar": "يصف المجلد الخامس من التاريخ العام لأفريقيا الجعليين في شندي، مع الدناقلة، بأنهم وسطاء في التجارة بين سنار ومصر. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.183",
+      "quote": "As middlemen in the trade between Sennär and Egypt, the Danäkla and the Dja'aliyyün ofShandï"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "en": "GHA VI records that Nimir, the mak (chief) of the Ja'aliyyin at Shendi, protested against the contribution demanded of his people by the Turco-Egyptian commander.",
+     "ar": "ويذكر المجلد السادس أن نمر، مك (زعيم) الجعليين في شندي، احتجّ على الإتاوة التي طالب بها القائد التركي المصري شعبه. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA6_CH14",
+      "pages": "p.362",
+      "quote": "Nimir, the mak (chief) of the local Ja'liyïn, protested that his people could not afford what was demanded."
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ]
+  },
+  {
+   "id": "shaigiyya",
+   "name_en": "Shaigiyya",
+   "badge": "SINGLE-SOURCE",
+   "sentences": [
+    {
+     "en": "According to GHA VII, the Turco-Egyptian government's partiality to the Shaigiyya and the Khatmiyya order seems to have aroused the jealousy of other groups and encouraged them to support the Mahdi.",
+     "ar": "وفقًا للمجلد السابع من التاريخ العام لأفريقيا، يبدو أن محاباة الحكومة التركية المصرية للشايقية والطريقة الختمية أثارت غيرة جماعات أخرى وشجعتها على تأييد المهدي. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA7_CH4",
+      "pages": "p.74",
+      "quote": "the government's partiality to the Shaykiyya people and the Khatmïyya sect seems to have aroused the jealousy of other local and religious groups"
+     },
+     "badge": "REPORTED"
+    }
+   ]
+  },
+  {
+   "id": "funj",
+   "name_en": "Funj",
+   "badge": "SINGLE-SOURCE",
+   "sentences": [
+    {
+     "en": "GHA V states that the origins of the Funj gave rise to many contradictory hypotheses.",
+     "ar": "يذكر المجلد الخامس من التاريخ العام لأفريقيا أن أصول الفونج أثارت فرضيات كثيرة متناقضة. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.173",
+      "quote": "whose remote origin gave rise to many contradictory hypotheses"
+     },
+     "badge": "CONTESTED"
+    },
+    {
+     "en": "The same chapter says the Funj ruled their domains from Sennar, which became their seat of government.",
+     "ar": "ويذكر الفصل نفسه أن الفونج حكموا ممالكهم من سنار التي أصبحت مقر حكمهم. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.174",
+      "quote": "the Fundj ruled their domains from Sennär which became their seat of government"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "en": "It adds that in the later period the Funj sultans became, in its words, no more than puppets in the hands of the Hamaj regents.",
+     "ar": "ويضيف أن سلاطين الفونج أصبحوا في الفترة المتأخرة، بتعبيره، مجرد دمى في أيدي الأوصياء الهمج. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.185",
+      "quote": "The Fundj sultans were indeed no more than puppets in the hands of the Hamadj~regents."
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ]
+  },
+  {
+   "id": "fur",
+   "name_en": "Fur",
+   "badge": "SINGLE-SOURCE",
+   "sentences": [
+    {
+     "en": "GHA V says the Fur sultanate took its name from the Fur, an indigenous Sudanese people living around Jebel Marra.",
+     "ar": "يذكر المجلد الخامس من التاريخ العام لأفريقيا أن سلطنة الفور أخذت اسمها من الفور، وهم شعب سوداني أصيل عاش حول جبل مرة. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.187",
+      "quote": "The Für sultanate owed its name to the Für, an indigenous Sudanese people who lived around Djabal Marra"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "en": "The same chapter dates the Kayra sultanate from about 1640 to 1874.",
+     "ar": "ويؤرخ الفصل نفسه سلطنة الكيرا من نحو عام 1640 إلى عام 1874. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.187",
+      "quote": "The Kayra sultanateflourishedfrom about 1640 to 1874."
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "en": "It describes the growth of a permanent capital at al-Fashir under 'Abd al-Rahman as marking the apogee of the Kayra sultanate.",
+     "ar": "ويصف نشوء عاصمة دائمة في الفاشر في عهد عبد الرحمن بأنه مثّل ذروة سلطنة الكيرا. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.190",
+      "quote": "The growth of a permanent capital at al-Fäshir"
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ]
+  },
+  {
+   "id": "abdallab",
+   "name_en": "'Abdallab",
+   "badge": "SINGLE-SOURCE",
+   "sentences": [
+    {
+     "en": "GHA V records that at Arbaji in 1504 the Funj defeated the 'Abdallab, whose king became a vassal, and that the 'Abdallab continued to rule the northern part of the Funj sultanate until 1820.",
+     "ar": "يذكر المجلد الخامس من التاريخ العام لأفريقيا أن الفونج هزموا العبدلاب في أربجي عام 1504 فصار ملكهم تابعًا، وأن العبدلاب ظلوا يحكمون الجزء الشمالي من سلطنة الفونج حتى عام 1820. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.173",
+      "quote": "continued to rule the northern part of the Fund] sultanate until the Turco-Egyptian conquest of 1820"
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ]
+  },
+  {
+   "id": "tunjur",
+   "name_en": "Tunjur",
+   "badge": "SINGLE-SOURCE",
+   "sentences": [
+    {
+     "en": "GHA V reports that, according to oral tradition, the Fur state was preceded by two indigenous dynasties, the Daju and the Tunjur.",
+     "ar": "يذكر المجلد الخامس من التاريخ العام لأفريقيا أنه وفقًا للرواية الشفهية سبقت دولةَ الفور سلالتان محليتان هما الداجو والتنجر. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.187",
+      "quote": "According to oral tradition the Für state was preceded by two indigenous dynasties: Dädjü and Tundjür."
+     },
+     "badge": "TRADITION"
+    }
+   ]
+  },
+  {
+   "id": "zaghawa",
+   "name_en": "Zaghawa",
+   "badge": "SINGLE-SOURCE",
+   "sentences": [
+    {
+     "en": "GHA V states that Zaghawa territories became a source of conflict between the sultanates of Wadai and Darfur.",
+     "ar": "يذكر المجلد الخامس من التاريخ العام لأفريقيا أن أراضي الزغاوة أصبحت مصدر نزاع بين سلطنتي وداي ودارفور. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.188",
+      "quote": "the Zaghäwa whose territories became a source of conflict between the Sultanates of Wadai and Därfür"
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ]
+  },
+  {
+   "id": "azande",
+   "name_en": "Azande",
+   "badge": "SINGLE-SOURCE",
+   "sentences": [
+    {
+     "en": "GHA VI states that the Zande, under the Avungara dynasty, had founded a centralized state in the eighteenth century.",
+     "ar": "يذكر المجلد السادس من التاريخ العام لأفريقيا أن الزاندي، بقيادة سلالة الأفونغارا، أسسوا دولة مركزية في القرن الثامن عشر. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA6_CH14",
+      "pages": "p.368",
+      "quote": "had founded a centralized state in the eighteenth century"
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ]
+  },
+  {
+   "id": "nuba",
+   "name_en": "Nuba",
+   "badge": "SINGLE-SOURCE",
+   "sentences": [
+    {
+     "en": "GHA V identifies the region between the Nile and the Nuba Hills as a frontier zone for both the Nuba and the Shilluk before the Baggara occupied it in the second half of the nineteenth century.",
+     "ar": "يحدد المجلد الخامس من التاريخ العام لأفريقيا المنطقة الواقعة بين النيل وجبال النوبة بوصفها منطقة تخوم للنوبة والشلك قبل أن يحتلها البقارة في النصف الثاني من القرن التاسع عشر. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.195",
+      "quote": "it was an important frontier zone for both the Nuba and the Shilluk before it was occupied by the Bakkära Arabs in the second half of the nineteenth century"
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ]
+  },
+  {
+   "id": "dinka",
+   "name_en": "Dinka (Jieng)",
+   "badge": "DERIVED",
+   "sentences": [
+    {
+     "en": "GHA V classifies the Jieng (Dinka), with the Naath (Nuer) and the Luo-speakers, among the Western Nilotic-speaking peoples.",
+     "ar": "يصنف المجلد الخامس من التاريخ العام لأفريقيا الجينق (الدينكا)، مع الناث (النوير) والمتحدثين بلغات اللوو، ضمن الشعوب الناطقة بلغات النيلية الغربية. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.196",
+      "quote": "The Jii-speaking peoples are the Western Nilotic-speaking peoples comprising the Luo-speakers as well as the Jieng and Naath."
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "en": "It associates transhumance especially with the Jieng.",
+     "ar": "ويربط الترحال الموسمي بالجينق على وجه الخصوص. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.193",
+      "quote": "the full development of transhumance, especially among the Jieng"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "en": "GHA VII records that by 1921 the prophet Ariendit (Bul Yol) had mobilized the Dinka peoples against colonial rule.",
+     "ar": "ويذكر المجلد السابع أن النبي أرينديت (بول يول) كان بحلول عام 1921 قد حشد شعوب الدينكا ضد الحكم الاستعماري. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA7_CH23",
+      "pages": "p.595",
+      "quote": "Prophet Ariendit had by 1921 mobilized the Dinka peoples against colonialism."
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ]
+  },
+  {
+   "id": "nuer",
+   "name_en": "Nuer (Naath)",
+   "badge": "DERIVED",
+   "sentences": [
+    {
+     "en": "GHA V notes that transhumance characterized the life of the Jieng and the Naath (Nuer).",
+     "ar": "يذكر المجلد الخامس من التاريخ العام لأفريقيا أن الترحال الموسمي ميّز حياة الجينق والناث (النوير). [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.193",
+      "quote": "transhumance, which characterized the life of the Jieng and Naath"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "en": "GHA VII states that in the southern Sudan resistance to the new Condominium government was led by the Nuer living along the Sobat and the White Nile.",
+     "ar": "ويذكر المجلد السابع أن المقاومة للحكومة الثنائية الجديدة في جنوب السودان قادها النوير القاطنون في الأراضي المتاخمة لنهر السوباط والنيل الأبيض. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA7_CH4",
+      "pages": "p.81",
+      "quote": "resistance was led and sustained by the Nuer people living in the lands adjoining the river Sobat and the White Nile"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "en": "It records that this resistance culminated in the widespread Nuer revolt of 1927.",
+     "ar": "ويذكر أن هذه المقاومة بلغت ذروتها في ثورة النوير الواسعة عام 1927. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA7_CH4",
+      "pages": "p.81",
+      "quote": "the popular and widespread Nuer revolt of 1927"
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ]
+  },
+  {
+   "id": "shilluk",
+   "name_en": "Shilluk (Collo)",
+   "badge": "SINGLE-SOURCE",
+   "sentences": [
+    {
+     "en": "GHA V states that the Shilluk form the largest component of the Northern Luo group.",
+     "ar": "يذكر المجلد الخامس من التاريخ العام لأفريقيا أن الشلك يشكّلون أكبر مكوّن في مجموعة اللوو الشمالية. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.193",
+      "quote": "the Shilluk constitute the largest component of the Northern Luo group"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "en": "It says the Shilluk established a mixed economy of cattle-herding and cereal agriculture and lived in a string of villages on the west bank of the White Nile.",
+     "ar": "ويذكر أن الشلك أقاموا اقتصادًا مختلطًا من رعي الماشية وزراعة الحبوب، وعاشوا في سلسلة من القرى على الضفة الغربية للنيل الأبيض. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.193",
+      "quote": "the Shilluk established a mixed economy of cattle-herding and cereal agriculture"
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "en": "It notes that the installation ceremony for a Shilluk Reth (king) was instituted by Tugo.",
+     "ar": "ويذكر أن مراسم تنصيب الرث (الملك) لدى الشلك وضعها توقو. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.197",
+      "quote": "The elaborate installation ceremony for a Shilluk Reth was also instituted by Tugo ."
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ]
+  },
+  {
+   "id": "masalit",
+   "name_en": "Masalit",
+   "badge": "SINGLE-SOURCE",
+   "sentences": [
+    {
+     "en": "MacMichael (1922) records that they usually call themselves Masalat but are known to others as Masalit.",
+     "ar": "يذكر ماكمايكل (1922) أنهم يسمّون أنفسهم عادةً \"مسالات\" لكن غيرهم يعرفونهم باسم المساليت. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "MACMICHAEL1922_V1",
+      "pages": "p.85",
+      "quote": "They call themselves Masalat as a rule, but are usually known to others as Masalit."
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "en": "He describes the Masalit country as bounded to the west by Wadai and to the east by the Fur.",
+     "ar": "ويصف بلاد المساليت بأنها تحدها وداي من الغرب والفور من الشرق. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "MACMICHAEL1922_V1",
+      "pages": "p.85",
+      "quote": "bounded to the west by Wadai, to the south by Dar Sula, to the north by Dars Tama and Kimr, and to the east by the Fur."
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ]
+  },
+  {
+   "id": "baggara",
+   "name_en": "Baggara (Bakkara)",
+   "badge": "SINGLE-SOURCE",
+   "sentences": [
+    {
+     "en": "MacMichael (1922) notes that the word Bakkara means no more than cattlemen.",
+     "ar": "يذكر ماكمايكل (1922) أن كلمة \"البقارة\" لا تعني أكثر من رعاة البقر. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "MACMICHAEL1922_V1",
+      "pages": "p.271",
+      "quote": "The word \"Bakkara\" means no more than \"cattlemen,\""
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "en": "He places them in the belt of country lying roughly south of the thirteenth parallel and stretching from the White Nile to Lake Chad.",
+     "ar": "ويحدد موطنهم في الحزام الواقع تقريبًا جنوب خط العرض الثالث عشر والممتد من النيل الأبيض إلى بحيرة تشاد. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "MACMICHAEL1922_V1",
+      "pages": "p.271",
+      "quote": "the rich belt of country which may be roughly described as lying south of the thirteenth parallel of latitude and stretching from the White Nile to Lake Chad"
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ]
+  },
+  {
+   "id": "hamaj",
+   "name_en": "Hamaj",
+   "badge": "SINGLE-SOURCE",
+   "sentences": [
+    {
+     "en": "GHA V explains that the term Hamaj was applied by Sudanese Arabs to some of the ancient peoples of the Gezira.",
+     "ar": "يوضح المجلد الخامس من التاريخ العام لأفريقيا أن مصطلح \"الهمج\" أطلقه العرب السودانيون على بعض الشعوب القديمة في الجزيرة. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.185",
+      "quote": "The term 'Hamadj' was applied by Sudanese Arabs to some of the ancient peoples of the Djazîra."
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "en": "It records that the Funj sultans became puppets in the hands of the Hamaj regents.",
+     "ar": "ويذكر أن سلاطين الفونج أصبحوا دمى في أيدي الأوصياء الهمج. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "GHA5_CH7",
+      "pages": "p.185",
+      "quote": "The Fundj sultans were indeed no more than puppets in the hands of the Hamadj~regents."
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ]
+  },
+  {
+   "id": "anuak",
+   "name_en": "Anuak (Anywaa)",
+   "badge": "SINGLE-SOURCE",
+   "sentences": [
+    {
+     "en": "Evans-Pritchard (1940) states that the Anuak belong to the Shilluk-Luo group and border the Nuer to the south-east.",
+     "ar": "يذكر إيفانز-بريتشارد (1940) أن الأنواك ينتمون إلى مجموعة الشلك-اللوو ويجاورون النوير من الجنوب الشرقي. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "EP1940_NUER",
+      "pages": "p.132",
+      "quote": "The Anuak, who also belong to the Shilluk-Luo group, border the Nuer to the south-east."
+     },
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "en": "He notes that the Pibor river separates the Lou Nuer from the Anuak.",
+     "ar": "ويذكر أن نهر البيبور يفصل قبيلة اللو النوير عن الأنواك. [يحتاج تحقق]",
+     "cite": {
+      "source_id": "EP1940_NUER",
+      "pages": "p.112",
+      "quote": "the Pibor separates the Lou tribe from the Anuak people"
+     },
+     "badge": "SINGLE-SOURCE"
+    }
+   ]
+  }
+ ]
+}
