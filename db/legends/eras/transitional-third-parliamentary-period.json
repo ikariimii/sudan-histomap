@@ -1639,6 +1639,27 @@
       }
      ],
      "legend_id": "city:transitional-third-parliamentary-period:benghazi"
+    },
+    {
+     "id": "kapoeta",
+     "name_en": "Kapoeta",
+     "name_ar": null,
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GEONAMES",
+       "page": "372884"
+      },
+      {
+       "id": "HRW1993_CIVDEV",
+       "page": "Ch. II and note 27"
+      }
+     ],
+     "legend_id": "city:transitional-third-parliamentary-period:kapoeta"
     }
    ]
   },
@@ -1859,7 +1880,7 @@
   "battle_approximate": 4,
   "city_capital": 15,
   "city_garrison": 4,
-  "city_other": 16,
+  "city_other": 17,
   "city_political_centre": 1,
   "city_port": 1,
   "city_religious": 5,
@@ -1869,7 +1890,7 @@
   "flag": 1,
   "extent_features": 1,
   "group_features": 0,
-  "cities": 49,
+  "cities": 50,
   "battles": 4
  },
  "legend_rows": [
@@ -1883,7 +1904,7 @@
    "row_id": "cities:city_other",
    "layer": "cities",
    "symbol_class": "city_other",
-   "n": 16
+   "n": 17
   },
   {
    "row_id": "cities:city_garrison",
@@ -2031,7 +2052,9 @@
    "basis": "previous era in same stream by start year",
    "extents_added": [],
    "extents_removed": [],
-   "cities_added": [],
+   "cities_added": [
+    "kapoeta"
+   ],
    "cities_removed": [],
    "capitals_added": [],
    "capitals_removed": [],

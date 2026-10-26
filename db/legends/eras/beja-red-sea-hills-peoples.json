@@ -2209,6 +2209,48 @@
       }
      ],
      "legend_id": "city:beja-red-sea-hills-peoples:benghazi"
+    },
+    {
+     "id": "kapoeta",
+     "name_en": "Kapoeta",
+     "name_ar": null,
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GEONAMES",
+       "page": "372884"
+      },
+      {
+       "id": "HRW1993_CIVDEV",
+       "page": "Ch. II and note 27"
+      }
+     ],
+     "legend_id": "city:beja-red-sea-hills-peoples:kapoeta"
+    },
+    {
+     "id": "bentiu",
+     "name_en": "Bentiu",
+     "name_ar": "بانتيو",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GEONAMES",
+       "page": "377472"
+      },
+      {
+       "id": "UNMISS_HRR2014",
+       "page": "para 41 (p.15)"
+      }
+     ],
+     "legend_id": "city:beja-red-sea-hills-peoples:bentiu"
     }
    ]
   },
@@ -2304,32 +2346,6 @@
       }
      ],
      "legend_id": "battle:beja-red-sea-hills-peoples:meroe-330"
-    },
-    {
-     "id": "dongola-642",
-     "label_en": "First Arab campaign against Makuria",
-     "label_ar": "الحملة العربية الأولى على المقرة",
-     "start": 642,
-     "end": 642,
-     "precision": "region",
-     "symbol_class": "battle_region",
-     "drawn": true,
-     "via_war": false,
-     "war_en": "Arab–Nubian wars",
-     "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
-     },
-     "cite": [
-      {
-       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
-       "p": "405",
-       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
-      }
-     ],
-     "legend_id": "battle:beja-red-sea-hills-peoples:dongola-642"
     },
     {
      "id": "dongola-652",
@@ -3392,7 +3408,7 @@
   "battle_region": 16,
   "city_capital": 21,
   "city_garrison": 8,
-  "city_other": 14,
+  "city_other": 16,
   "city_political_centre": 1,
   "city_port": 4,
   "city_religious": 6,
@@ -3403,7 +3419,7 @@
   "list_only_text": 1,
   "extent_features": 1,
   "group_features": 1,
-  "cities": 62,
+  "cities": 64,
   "battles": 39
  },
  "legend_rows": [
@@ -3429,7 +3445,7 @@
    "row_id": "cities:city_other",
    "layer": "cities",
    "symbol_class": "city_other",
-   "n": 14
+   "n": 16
   },
   {
    "row_id": "cities:city_garrison",
@@ -3498,7 +3514,6 @@
    "After Meroe's fall the Nobades push the Blemmyes ('Bega or Buga') into the eastern desert",
    "Recognised by medieval Muslim writers as distinct from Nubians, Arabs and 'Sudan'",
    "Camel-nomads of the Red Sea Hills; gradual Islamisation and varying arabisation",
-   "'Ababda (north) Arabic-speaking; 18th c. southward expansion; Hadendowa in Taka (Gash) by early 19th c.",
    "Nabtab ruling clan of the Banu 'Amir claims Ja'ali descent"
   ],
   "key_events_ar": [
@@ -3506,7 +3521,6 @@
    "بعد سقوط مروي دفع النوباديون البليميين («البجة أو البوجة») إلى الصحراء الشرقية",
    "ميّزهم الكتّاب المسلمون في العصور الوسطى عن النوبة والعرب و«السودان»",
    "رعاة إبل رحّل في تلال البحر الأحمر؛ أسلمة تدريجية وتعريب متفاوت",
-   "العبابدة (في الشمال) يتحدثون العربية؛ توسع نحو الجنوب في القرن الثامن عشر؛ الهدندوة في التاكا (القاش) بحلول مطلع القرن التاسع عشر",
    "النابتاب، العشيرة الحاكمة لبني عامر، يدّعون النسب الجعلي"
   ],
   "key_events": [
@@ -3560,18 +3574,6 @@
    },
    {
     "event_id": "beja-red-sea-hills-peoples#4",
-    "en": "'Ababda (north) Arabic-speaking; 18th c. southward expansion; Hadendowa in Taka (Gash) by early 19th c.",
-    "ar": "العبابدة (في الشمال) يتحدثون العربية؛ توسع نحو الجنوب في القرن الثامن عشر؛ الهدندوة في التاكا (القاش) بحلول مطلع القرن التاسع عشر",
-    "cite": null,
-    "source_ids": [
-     "HD2011",
-     "GHA2_CH19"
-    ],
-    "badges": [],
-    "origin": "data/periods.json"
-   },
-   {
-    "event_id": "beja-red-sea-hills-peoples#5",
     "en": "Nabtab ruling clan of the Banu 'Amir claims Ja'ali descent",
     "ar": "النابتاب، العشيرة الحاكمة لبني عامر، يدّعون النسب الجعلي",
     "cite": null,
@@ -3643,6 +3645,7 @@
     "ballana",
     "bangui",
     "benghazi",
+    "bentiu",
     "berber",
     "bor",
     "cairo",
@@ -3656,6 +3659,7 @@
     "gondar",
     "gondokoro",
     "juba",
+    "kapoeta",
     "kassala",
     "khartoum",
     "kobbe",

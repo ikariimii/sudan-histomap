@@ -1790,6 +1790,48 @@
       }
      ],
      "legend_id": "city:december-revolution-transition:benghazi"
+    },
+    {
+     "id": "kapoeta",
+     "name_en": "Kapoeta",
+     "name_ar": null,
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GEONAMES",
+       "page": "372884"
+      },
+      {
+       "id": "HRW1993_CIVDEV",
+       "page": "Ch. II and note 27"
+      }
+     ],
+     "legend_id": "city:december-revolution-transition:kapoeta"
+    },
+    {
+     "id": "bentiu",
+     "name_en": "Bentiu",
+     "name_ar": "بانتيو",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GEONAMES",
+       "page": "377472"
+      },
+      {
+       "id": "UNMISS_HRR2014",
+       "page": "para 41 (p.15)"
+      }
+     ],
+     "legend_id": "city:december-revolution-transition:bentiu"
     }
    ]
   },
@@ -2068,7 +2110,7 @@
   "battle_region": 1,
   "city_capital": 15,
   "city_garrison": 4,
-  "city_other": 16,
+  "city_other": 18,
   "city_political_centre": 1,
   "city_port": 1,
   "city_religious": 5,
@@ -2081,7 +2123,7 @@
   "flag": 1,
   "extent_features": 8,
   "group_features": 0,
-  "cities": 49,
+  "cities": 51,
   "battles": 6
  },
  "legend_rows": [
@@ -2113,7 +2155,7 @@
    "row_id": "cities:city_other",
    "layer": "cities",
    "symbol_class": "city_other",
-   "n": 16
+   "n": 18
   },
   {
    "row_id": "cities:city_garrison",

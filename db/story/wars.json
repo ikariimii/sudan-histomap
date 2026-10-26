@@ -79,7 +79,7 @@
     32.292,
     22.95
    ],
-   "caption": "Meroitic forces sacked Aswan, after part of the Roman garrison left with Aelius Gallus for Arabia.",
+   "caption": "Meroitic forces sacked Aswan.",
    "caption_cites": [
     "GHA2_CH10"
    ],
@@ -153,7 +153,6 @@
    "war_id": "arab-nubian-wars",
    "name_en": "Arab–Nubian wars",
    "battle_ids": [
-    "dongola-642",
     "dongola-652"
    ],
    "located_battle_ids": [
@@ -163,17 +162,17 @@
     "OK"
    ],
    "camera_bbox": [
-    29.994,
-    17.473,
-    31.494,
-    18.973
+    30.444,
+    17.923,
+    31.044,
+    18.523
    ],
    "caption": "First Arab campaign against Makuria: a Nubian counter-offensive turned back the Arab army.",
    "caption_cites": [
     "GHA3_CH3",
     "GHA3_CH7"
    ],
-   "caption_basis": "battle dongola-642 outcome_en",
+   "caption_basis": "db/wars.json arab-nubian-wars (dongola-642 deleted by IM ruling; war starts 651, GHA III)",
    "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented.",
    "beats": [
     {
@@ -195,7 +194,9 @@
      "badge": "SINGLE-SOURCE"
     }
    ],
-   "caption_cites_note": "SFDAS_HCS2017 replaced by the Historian's beat source for this war (story_beats/wars_beats.json); quotes pending Historian page-image check"
+   "caption_cites_note": "SFDAS_HCS2017 replaced by the Historian's beat source for this war (story_beats/wars_beats.json); quotes pending Historian page-image check",
+   "bbox_badge": "DERIVED",
+   "bbox_source": "story_360 audit method (360x640, proposed layout, 16px margin pass): cited points dongola-652, city:old-dongola, padding 0.3"
   },
   {
    "war_id": "funj-abdallab-war",

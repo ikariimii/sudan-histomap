@@ -1801,6 +1801,48 @@
       }
      ],
      "legend_id": "city:central-african-republic-ubangi-shari:benghazi"
+    },
+    {
+     "id": "kapoeta",
+     "name_en": "Kapoeta",
+     "name_ar": null,
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GEONAMES",
+       "page": "372884"
+      },
+      {
+       "id": "HRW1993_CIVDEV",
+       "page": "Ch. II and note 27"
+      }
+     ],
+     "legend_id": "city:central-african-republic-ubangi-shari:kapoeta"
+    },
+    {
+     "id": "bentiu",
+     "name_en": "Bentiu",
+     "name_ar": "بانتيو",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GEONAMES",
+       "page": "377472"
+      },
+      {
+       "id": "UNMISS_HRR2014",
+       "page": "para 41 (p.15)"
+      }
+     ],
+     "legend_id": "city:central-african-republic-ubangi-shari:bentiu"
     }
    ]
   },
@@ -2417,7 +2459,7 @@
   "battle_region": 3,
   "city_capital": 15,
   "city_garrison": 4,
-  "city_other": 14,
+  "city_other": 16,
   "city_political_centre": 1,
   "city_port": 2,
   "city_religious": 5,
@@ -2430,7 +2472,7 @@
   "list_only_text": 2,
   "extent_features": 8,
   "group_features": 0,
-  "cities": 49,
+  "cities": 51,
   "battles": 19
  },
  "legend_rows": [
@@ -2456,7 +2498,7 @@
    "row_id": "cities:city_other",
    "layer": "cities",
    "symbol_class": "city_other",
-   "n": 14
+   "n": 16
   },
   {
    "row_id": "cities:city_garrison",
@@ -2611,7 +2653,9 @@
    "cities_added": [
     "addis-ababa",
     "benghazi",
+    "bentiu",
     "juba",
+    "kapoeta",
     "mekelle",
     "port-sudan",
     "wau"

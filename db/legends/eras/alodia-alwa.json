@@ -1371,32 +1371,6 @@
    "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
    "features": [
     {
-     "id": "dongola-642",
-     "label_en": "First Arab campaign against Makuria",
-     "label_ar": "الحملة العربية الأولى على المقرة",
-     "start": 642,
-     "end": 642,
-     "precision": "region",
-     "symbol_class": "battle_region",
-     "drawn": true,
-     "via_war": false,
-     "war_en": "Arab–Nubian wars",
-     "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
-     },
-     "cite": [
-      {
-       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
-       "p": "405",
-       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
-      }
-     ],
-     "legend_id": "battle:alodia-alwa:dongola-642"
-    },
-    {
      "id": "dongola-652",
      "label_en": "Siege of Dongola and the Baqt treaty",
      "label_ar": "حصار دنقلا ومعاهدة البقط",
@@ -1637,9 +1611,9 @@
  ],
  "context": {
   "key_events_en": [
-   "Christian kingdom on the Blue/White Nile",
+   "Christian kingdom south of Makuria, capital Soba near modern Khartoum",
    "Capital Soba",
-   "Fell to Funj/Abdallab c.1504"
+   "Conquered (capital Soba) by an Arab confederacy under 'Abdallah Jamma', second half of the 15th century; GHA rejects a joint Funj–Arab conquest"
   ],
   "key_events_ar": [
    "مملكة مسيحية على النيل الأزرق/الأبيض",
@@ -1649,7 +1623,7 @@
   "key_events": [
    {
     "event_id": "alodia-alwa#0",
-    "en": "Christian kingdom on the Blue/White Nile",
+    "en": "Christian kingdom south of Makuria, capital Soba near modern Khartoum",
     "ar": "مملكة مسيحية على النيل الأزرق/الأبيض",
     "cite": null,
     "source_ids": [
@@ -1677,7 +1651,7 @@
    },
    {
     "event_id": "alodia-alwa#2",
-    "en": "Fell to Funj/Abdallab c.1504",
+    "en": "Conquered (capital Soba) by an Arab confederacy under 'Abdallah Jamma', second half of the 15th century; GHA rejects a joint Funj–Arab conquest",
     "ar": "سقطت في يد الفونج/العبدلاب نحو 1504",
     "cite": null,
     "source_ids": [

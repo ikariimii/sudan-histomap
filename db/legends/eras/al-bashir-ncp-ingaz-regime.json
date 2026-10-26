@@ -1823,6 +1823,48 @@
       }
      ],
      "legend_id": "city:al-bashir-ncp-ingaz-regime:benghazi"
+    },
+    {
+     "id": "kapoeta",
+     "name_en": "Kapoeta",
+     "name_ar": null,
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GEONAMES",
+       "page": "372884"
+      },
+      {
+       "id": "HRW1993_CIVDEV",
+       "page": "Ch. II and note 27"
+      }
+     ],
+     "legend_id": "city:al-bashir-ncp-ingaz-regime:kapoeta"
+    },
+    {
+     "id": "bentiu",
+     "name_en": "Bentiu",
+     "name_ar": "بانتيو",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GEONAMES",
+       "page": "377472"
+      },
+      {
+       "id": "UNMISS_HRR2014",
+       "page": "para 41 (p.15)"
+      }
+     ],
+     "legend_id": "city:al-bashir-ncp-ingaz-regime:bentiu"
     }
    ]
   },
@@ -2251,7 +2293,7 @@
   "battle_region": 1,
   "city_capital": 15,
   "city_garrison": 4,
-  "city_other": 16,
+  "city_other": 18,
   "city_political_centre": 1,
   "city_port": 1,
   "city_religious": 5,
@@ -2267,7 +2309,7 @@
   "trade_route": 1,
   "extent_features": 9,
   "group_features": 1,
-  "cities": 49,
+  "cities": 51,
   "battles": 11
  },
  "legend_rows": [
@@ -2305,7 +2347,7 @@
    "row_id": "cities:city_other",
    "layer": "cities",
    "symbol_class": "city_other",
-   "n": 16
+   "n": 18
   },
   {
    "row_id": "cities:city_garrison",
@@ -2376,14 +2418,14 @@
  ],
  "context": {
   "key_events_en": [
-   "30 June 1989 coup (SFDAS_HCS2017 p.731)",
+   "30 June 1989: Colonel Umar Hassan Ahmad al Bashir overthrew Sadiq al Mahdi",
    "Darfur conflict: incidents from February 2003; ICC arrest warrant for President al-Bashir, 4 March 2009",
    "Comprehensive Peace Agreement 2005 (CPA_2005 cover letter p.1)",
-   "South Sudan secedes 9 July 2011 (UNSC1996 p.1)",
+   "Republic of South Sudan established 9 July 2011 (UNSC1996 p.1)",
    "Sudan–South Sudan Cooperation Agreements signed 27 September 2012 in Addis Ababa"
   ],
   "key_events_ar": [
-   "انقلاب 30 يونيو 1989 (SFDAS_HCS2017 p.731)",
+   "انقلاب 30 يونيو 1989",
    "نزاع دارفور منذ فبراير 2003؛ مذكرة توقيف من المحكمة الجنائية الدولية بحق البشير 4 مارس 2009 [يحتاج تحقق]",
    "اتفاقية السلام الشامل 2005 (CPA_2005 cover letter p.1)",
    "انفصال جنوب السودان 9 يوليو 2011 (UNSC1996 p.1)",
@@ -2392,12 +2434,12 @@
   "key_events": [
    {
     "event_id": "al-bashir-ncp-ingaz-regime#0",
-    "en": "30 June 1989 coup (SFDAS_HCS2017 p.731)",
-    "ar": "انقلاب 30 يونيو 1989 (SFDAS_HCS2017 p.731)",
+    "en": "30 June 1989: Colonel Umar Hassan Ahmad al Bashir overthrew Sadiq al Mahdi",
+    "ar": "انقلاب 30 يونيو 1989",
     "cite": null,
     "source_ids": [
      "HD2011",
-     "SFDAS_HCS2017",
+     "LOC1991_SADIQ",
      "CPA_2005",
      "UNSC1996",
      "UNSC_S2005_60",
@@ -2435,7 +2477,7 @@
     "cite": null,
     "source_ids": [
      "HD2011",
-     "SFDAS_HCS2017",
+     "LOC1991_SADIQ",
      "CPA_2005",
      "UNSC1996",
      "UNSC_S2005_60",
@@ -2446,12 +2488,12 @@
    },
    {
     "event_id": "al-bashir-ncp-ingaz-regime#3",
-    "en": "South Sudan secedes 9 July 2011 (UNSC1996 p.1)",
+    "en": "Republic of South Sudan established 9 July 2011 (UNSC1996 p.1)",
     "ar": "انفصال جنوب السودان 9 يوليو 2011 (UNSC1996 p.1)",
     "cite": null,
     "source_ids": [
      "HD2011",
-     "SFDAS_HCS2017",
+     "LOC1991_SADIQ",
      "CPA_2005",
      "UNSC1996",
      "UNSC_S2005_60",
@@ -2480,7 +2522,7 @@
   ],
   "key_events_source_ids": [
    "HD2011",
-   "SFDAS_HCS2017",
+   "LOC1991_SADIQ",
    "CPA_2005",
    "UNSC1996",
    "UNSC_S2005_60",
@@ -2539,7 +2581,9 @@
    "extents_removed": [
     "Republic of Sudan – national outline (OHM 2926753)"
    ],
-   "cities_added": [],
+   "cities_added": [
+    "bentiu"
+   ],
    "cities_removed": [],
    "capitals_added": [],
    "capitals_removed": [],

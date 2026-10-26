@@ -1092,32 +1092,6 @@
      "legend_id": "battle:kingdom-of-aksum:meroe-330"
     },
     {
-     "id": "dongola-642",
-     "label_en": "First Arab campaign against Makuria",
-     "label_ar": "الحملة العربية الأولى على المقرة",
-     "start": 642,
-     "end": 642,
-     "precision": "region",
-     "symbol_class": "battle_region",
-     "drawn": true,
-     "via_war": false,
-     "war_en": "Arab–Nubian wars",
-     "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
-     },
-     "cite": [
-      {
-       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
-       "p": "405",
-       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
-      }
-     ],
-     "legend_id": "battle:kingdom-of-aksum:dongola-642"
-    },
-    {
      "id": "dongola-652",
      "label_en": "Siege of Dongola and the Baqt treaty",
      "label_ar": "حصار دنقلا ومعاهدة البقط",
@@ -1256,8 +1230,8 @@
  ],
  "context": {
   "key_events_en": [
-   "Christianity under Ezana c.330s",
-   "Campaign against Meroe/Noba c.350"
+   "Ezana's conversion to Christianity (4th century)",
+   "Destruction of Meroe in the reign of Ezana, 4th century"
   ],
   "key_events_ar": [
    "المسيحية في عهد عيزانا نحو ثلاثينيات القرن الرابع",
@@ -1266,7 +1240,7 @@
   "key_events": [
    {
     "event_id": "kingdom-of-aksum#0",
-    "en": "Christianity under Ezana c.330s",
+    "en": "Ezana's conversion to Christianity (4th century)",
     "ar": "المسيحية في عهد عيزانا نحو ثلاثينيات القرن الرابع",
     "cite": null,
     "source_ids": [
@@ -1279,7 +1253,7 @@
    },
    {
     "event_id": "kingdom-of-aksum#1",
-    "en": "Campaign against Meroe/Noba c.350",
+    "en": "Destruction of Meroe in the reign of Ezana, 4th century",
     "ar": "حملة على مروي/النوبة نحو 350",
     "cite": null,
     "source_ids": [
@@ -1296,7 +1270,7 @@
    "WP:Kingdom_of_Aksum",
    "WP:Ezana_of_Axum"
   ],
-  "dating_note": null,
+  "dating_note": "Start year 100 is uncited; GHA II p.343 cites 'Pliny, around +75' for the port of Adulis.",
   "capitals": [
    {
     "name": "Aksum",

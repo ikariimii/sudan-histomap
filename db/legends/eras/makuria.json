@@ -1312,32 +1312,6 @@
    "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
    "features": [
     {
-     "id": "dongola-642",
-     "label_en": "First Arab campaign against Makuria",
-     "label_ar": "الحملة العربية الأولى على المقرة",
-     "start": 642,
-     "end": 642,
-     "precision": "region",
-     "symbol_class": "battle_region",
-     "drawn": true,
-     "via_war": false,
-     "war_en": "Arab–Nubian wars",
-     "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
-     },
-     "cite": [
-      {
-       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
-       "p": "405",
-       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
-      }
-     ],
-     "legend_id": "battle:makuria:dongola-642"
-    },
-    {
      "id": "dongola-652",
      "label_en": "Siege of Dongola and the Baqt treaty",
      "label_ar": "حصار دنقلا ومعاهدة البقط",
@@ -1544,74 +1518,78 @@
  ],
  "context": {
   "key_events_en": [
-   "Repulsed Arab armies at Dongola 651/652 (SFDAS_HCS2017 p.405)",
-   "Baqt treaty with Egypt (SFDAS_HCS2017 p.405)",
-   "Faras cathedral frescoes (SFDAS_HCS2017 p.404)",
-   "Decline under Mamluk pressure, 14th c. (SFDAS_HCS2017 pp.419–420)"
+   "Muslim expedition of 31/651–2 reaches Dongola; fierce Nubian resistance forces a truce (GHA3_CH3 p.81)",
+   "Baqt treaty: a non-aggression pact that let al-Makurra keep its independence (GHA3_CH3 p.81)",
+   "Faras: more than 120 mural paintings found in 1961–4; Nubian churches were painted from the 8th century (GHA2_CH12 p.336)",
+   "Decline under Mamluk pressure: losing internal cohesion, Mukurra faced a Mamluk policy aimed at reducing it to a vassal kingdom (GHA4_CH16 p.402)"
   ],
   "key_events_ar": [
-   "صد الجيوش العربية عند دنقلا 651/652 (SFDAS_HCS2017 p.405)",
-   "معاهدة البقط مع مصر (SFDAS_HCS2017 p.405)",
-   "جداريات كاتدرائية فرس (SFDAS_HCS2017 p.404)",
-   "الانحدار تحت ضغط المماليك، القرن الرابع عشر (SFDAS_HCS2017 pp.419–420)"
+   "صد الجيوش العربية عند دنقلا 651/652",
+   "معاهدة البقط مع مصر",
+   "جداريات كاتدرائية فرس",
+   "الانحدار تحت ضغط المماليك، القرن الرابع عشر"
   ],
   "key_events": [
    {
     "event_id": "makuria#0",
-    "en": "Repulsed Arab armies at Dongola 651/652 (SFDAS_HCS2017 p.405)",
-    "ar": "صد الجيوش العربية عند دنقلا 651/652 (SFDAS_HCS2017 p.405)",
+    "en": "Muslim expedition of 31/651–2 reaches Dongola; fierce Nubian resistance forces a truce (GHA3_CH3 p.81)",
+    "ar": "صد الجيوش العربية عند دنقلا 651/652",
     "cite": null,
     "source_ids": [
      "WELSBY2002",
      "WP_MAKURIA",
      "GHA2_CH12",
      "DERDA_LAJTAR2019",
-     "SFDAS_HCS2017"
+     "GHA3_CH3",
+     "GHA4_CH16"
     ],
     "badges": [],
     "origin": "data/periods.json"
    },
    {
     "event_id": "makuria#1",
-    "en": "Baqt treaty with Egypt (SFDAS_HCS2017 p.405)",
-    "ar": "معاهدة البقط مع مصر (SFDAS_HCS2017 p.405)",
+    "en": "Baqt treaty: a non-aggression pact that let al-Makurra keep its independence (GHA3_CH3 p.81)",
+    "ar": "معاهدة البقط مع مصر",
     "cite": null,
     "source_ids": [
      "WELSBY2002",
      "WP_MAKURIA",
      "GHA2_CH12",
      "DERDA_LAJTAR2019",
-     "SFDAS_HCS2017"
+     "GHA3_CH3",
+     "GHA4_CH16"
     ],
     "badges": [],
     "origin": "data/periods.json"
    },
    {
     "event_id": "makuria#2",
-    "en": "Faras cathedral frescoes (SFDAS_HCS2017 p.404)",
-    "ar": "جداريات كاتدرائية فرس (SFDAS_HCS2017 p.404)",
+    "en": "Faras: more than 120 mural paintings found in 1961–4; Nubian churches were painted from the 8th century (GHA2_CH12 p.336)",
+    "ar": "جداريات كاتدرائية فرس",
     "cite": null,
     "source_ids": [
      "WELSBY2002",
      "WP_MAKURIA",
      "GHA2_CH12",
      "DERDA_LAJTAR2019",
-     "SFDAS_HCS2017"
+     "GHA3_CH3",
+     "GHA4_CH16"
     ],
     "badges": [],
     "origin": "data/periods.json"
    },
    {
     "event_id": "makuria#3",
-    "en": "Decline under Mamluk pressure, 14th c. (SFDAS_HCS2017 pp.419–420)",
-    "ar": "الانحدار تحت ضغط المماليك، القرن الرابع عشر (SFDAS_HCS2017 pp.419–420)",
+    "en": "Decline under Mamluk pressure: losing internal cohesion, Mukurra faced a Mamluk policy aimed at reducing it to a vassal kingdom (GHA4_CH16 p.402)",
+    "ar": "الانحدار تحت ضغط المماليك، القرن الرابع عشر",
     "cite": null,
     "source_ids": [
      "WELSBY2002",
      "WP_MAKURIA",
      "GHA2_CH12",
      "DERDA_LAJTAR2019",
-     "SFDAS_HCS2017"
+     "GHA3_CH3",
+     "GHA4_CH16"
     ],
     "badges": [],
     "origin": "data/periods.json"
@@ -1622,7 +1600,8 @@
    "WP_MAKURIA",
    "GHA2_CH12",
    "DERDA_LAJTAR2019",
-   "SFDAS_HCS2017"
+   "GHA3_CH3",
+   "GHA4_CH16"
   ],
   "dating_note": "End date approximate (kingdom fragmented in 14th–15th c.). Merger with Makuria: date disputed. GHA II ch.12 (Michałowski, pp.332–333) gives two versions: Maqrizi has one king, Qalidurut, ruling central and northern Nubia by the mid-7th c.; 'Christian sources seem to prove that the union of Nubia was the work of King Merkurios, who came to the throne in 697.' Derda & Łajtar (2019, p.136 and n.4): 'perhaps around 630'; the earliest indubitable proof of a greater Makuria including Nobadia is the reign of Merkurios (late 7th–early 8th c.); incorporation probably before the Arab raid on Dongola in 652; Godlewski has suggested the end of the 6th c. Welsby 2002 not read on this point.",
   "capitals": [

@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "meta": {
-  "source": "db/cities.json @16a96ed",
+  "source": "db/cities.json @dee5230",
   "rule": "visible_from = map_from (founded, else first_attested, badge FIRST-ATTESTED); no map_from = list_only; abandoned null = inhabited_today; abandoned {year:null} = ruin (RUIN-UNDATED, inhabited_today false) ending at last_attested (carrying its badge), else last cited role end, else open"
  },
  "list_only": [
@@ -154,6 +154,31 @@
    "id": "deim-zubeir",
    "name_en": "Deim Zubeir",
    "reason": "no cited founded or first-attested date in sources read"
+  },
+  {
+   "id": "heglig",
+   "name_en": "Heglig",
+   "reason": "no founding or first-attested year from a page-cited source; added as a battle place (IM ruling 2026-10-25)"
+  },
+  {
+   "id": "ardamata",
+   "name_en": "Ardamata",
+   "reason": "no founding or first-attested year from a page-cited source; added as a battle place (IM ruling 2026-10-25)"
+  },
+  {
+   "id": "hermopolis",
+   "name_en": "Hermopolis (Hermopolis Magna)",
+   "reason": "no founding or first-attested year from a page-cited source; added as a battle/story place (IM brief 2026-10-26)"
+  },
+  {
+   "id": "memphis",
+   "name_en": "Memphis",
+   "reason": "no founding or first-attested year from a page-cited source; added as a battle/story place (IM brief 2026-10-26)"
+  },
+  {
+   "id": "jeddah",
+   "name_en": "Jeddah",
+   "reason": "no founding or first-attested year from a page-cited source; added as a regional event place (IM ruling 2026-10-26)"
   }
  ],
  "features": [
@@ -182,9 +207,9 @@
       "role": "capital",
       "start": -2450,
       "end": -1450,
-      "source_id": "SFDAS_HCS2017",
-      "page": "59, 69, 95",
-      "note": "Kerma kingdom 2450–1450 BCE: Early 2450–2050, Middle 2050–1750, Classic 1750–1550, Final 1550–1450 (SFDAS_HCS2017 p.69; chapter span p.59; city abandoned after c.1470 campaign, p.95)"
+      "source_id": "KERMA_MISSION",
+      "page": "History",
+      "note": "Swiss mission chronology: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE; Final Kerma 'denotes the transition between the end of the kingdom and the Egyptian occupation (circa 1480-1450 B.C.)' (KERMA_MISSION 'History'). Abandonment after the Egyptian campaign not stated there; dropped."
      }
     ],
     "badges": [
@@ -197,8 +222,8 @@
     "history_source": null,
     "source_ids": [
      {
-      "id": "SFDAS_HCS2017",
-      "page": "59, 69, 95"
+      "id": "KERMA_MISSION",
+      "page": "History"
      },
      {
       "id": "GHA2_CH9",
@@ -4198,6 +4223,90 @@
      }
     ],
     "map_from": 1923
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.59139,
+     4.77222
+    ]
+   },
+   "properties": {
+    "id": "kapoeta",
+    "name_en": "Kapoeta",
+    "name_ar": null,
+    "wikidata": null,
+    "category": "modern",
+    "visible_from": 1988,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED"
+    ],
+    "history_en": "Eastern Equatoria town; taken by the SPLA in 1988 and by the government on 28 May 1992 (HRW).",
+    "history_ar": null,
+    "history_source": {
+     "source_id": "HRW1993_CIVDEV",
+     "page": "Ch. II and note 27"
+    },
+    "source_ids": [
+     {
+      "id": "GEONAMES",
+      "page": "372884"
+     },
+     {
+      "id": "HRW1993_CIVDEV",
+      "page": "Ch. II and note 27"
+     }
+    ],
+    "map_from": 1988
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.79833,
+     9.25722
+    ]
+   },
+   "properties": {
+    "id": "bentiu",
+    "name_en": "Bentiu",
+    "name_ar": "بانتيو",
+    "wikidata": null,
+    "category": "modern",
+    "visible_from": 2013,
+    "visible_from_basis": "first_attested",
+    "visible_to": null,
+    "inhabited_today": true,
+    "roles": [],
+    "badges": [
+     "FIRST-ATTESTED"
+    ],
+    "history_en": "Unity State capital; defecting SPLA forces claimed control of it on 21 December 2013 (UNMISS).",
+    "history_ar": null,
+    "history_source": {
+     "source_id": "UNMISS_HRR2014",
+     "page": "para 41 (p.15)"
+    },
+    "source_ids": [
+     {
+      "id": "GEONAMES",
+      "page": "377472"
+     },
+     {
+      "id": "UNMISS_HRR2014",
+      "page": "para 41 (p.15)"
+     }
+    ],
+    "map_from": 2013
    }
   }
  ]

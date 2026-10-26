@@ -1761,6 +1761,48 @@
       }
      ],
      "legend_id": "city:republic-of-south-sudan:benghazi"
+    },
+    {
+     "id": "kapoeta",
+     "name_en": "Kapoeta",
+     "name_ar": null,
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GEONAMES",
+       "page": "372884"
+      },
+      {
+       "id": "HRW1993_CIVDEV",
+       "page": "Ch. II and note 27"
+      }
+     ],
+     "legend_id": "city:republic-of-south-sudan:kapoeta"
+    },
+    {
+     "id": "bentiu",
+     "name_en": "Bentiu",
+     "name_ar": "بانتيو",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GEONAMES",
+       "page": "377472"
+      },
+      {
+       "id": "UNMISS_HRR2014",
+       "page": "para 41 (p.15)"
+      }
+     ],
+     "legend_id": "city:republic-of-south-sudan:bentiu"
     }
    ]
   },
@@ -2168,7 +2210,7 @@
   "battle_region": 2,
   "city_capital": 15,
   "city_garrison": 4,
-  "city_other": 16,
+  "city_other": 18,
   "city_political_centre": 1,
   "city_port": 1,
   "city_religious": 5,
@@ -2181,7 +2223,7 @@
   "flag": 1,
   "extent_features": 7,
   "group_features": 0,
-  "cities": 49,
+  "cities": 51,
   "battles": 11
  },
  "legend_rows": [
@@ -2207,7 +2249,7 @@
    "row_id": "cities:city_other",
    "layer": "cities",
    "symbol_class": "city_other",
-   "n": 16
+   "n": 18
   },
   {
    "row_id": "cities:city_garrison",
@@ -2344,7 +2386,6 @@
     "cite": null,
     "source_ids": [
      "UNSC1996",
-     "ICG2014",
      "RARCSS2018",
      "ACCORD2020",
      "WP:South_Sudan",
@@ -2356,7 +2397,6 @@
   ],
   "key_events_source_ids": [
    "UNSC1996",
-   "ICG2014",
    "RARCSS2018",
    "ACCORD2020",
    "WP:South_Sudan",
@@ -2364,7 +2404,7 @@
    "UNMISS_HRR2014",
    "UNSC2459"
   ],
-  "dating_note": null,
+  "dating_note": "Key event 1 (civil war start): 15 Dec 2013 per UNNEWS_20140112_SSUDAN and UNMISS_BACKGROUND; ACCORD2020 gives 13 Dec 2013.",
   "capitals": [
    {
     "name": "Juba",
@@ -2413,7 +2453,9 @@
     "Southern Sudan under the Condominium (Bahr al-Ghazal, Equatoria, Upper Nile) [APPROXIMATE]",
     "Southern Sudan within independent Sudan (1956 provincial line) [APPROXIMATE]"
    ],
-   "cities_added": [],
+   "cities_added": [
+    "bentiu"
+   ],
    "cities_removed": [],
    "capitals_added": [],
    "capitals_removed": [],

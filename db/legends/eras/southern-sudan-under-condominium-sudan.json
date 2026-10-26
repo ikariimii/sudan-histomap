@@ -1790,6 +1790,27 @@
       }
      ],
      "legend_id": "city:southern-sudan-under-condominium-sudan:benghazi"
+    },
+    {
+     "id": "kapoeta",
+     "name_en": "Kapoeta",
+     "name_ar": null,
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GEONAMES",
+       "page": "372884"
+      },
+      {
+       "id": "HRW1993_CIVDEV",
+       "page": "Ch. II and note 27"
+      }
+     ],
+     "legend_id": "city:southern-sudan-under-condominium-sudan:kapoeta"
     }
    ]
   },
@@ -2281,7 +2302,7 @@
   "battle_region": 5,
   "city_capital": 15,
   "city_garrison": 4,
-  "city_other": 14,
+  "city_other": 15,
   "city_political_centre": 1,
   "city_port": 2,
   "city_religious": 5,
@@ -2293,7 +2314,7 @@
   "ethno_label_marker": 1,
   "extent_features": 7,
   "group_features": 0,
-  "cities": 49,
+  "cities": 50,
   "battles": 13
  },
  "legend_rows": [
@@ -2313,7 +2334,7 @@
    "row_id": "cities:city_other",
    "layer": "cities",
    "symbol_class": "city_other",
-   "n": 14
+   "n": 15
   },
   {
    "row_id": "cities:city_garrison",
@@ -2524,6 +2545,7 @@
    ],
    "cities_added": [],
    "cities_removed": [
+    "bentiu",
     "gondokoro",
     "kobbe",
     "lado",

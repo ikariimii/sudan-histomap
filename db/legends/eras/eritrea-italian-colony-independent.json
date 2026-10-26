@@ -1818,6 +1818,48 @@
       }
      ],
      "legend_id": "city:eritrea-italian-colony-independent:benghazi"
+    },
+    {
+     "id": "kapoeta",
+     "name_en": "Kapoeta",
+     "name_ar": null,
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GEONAMES",
+       "page": "372884"
+      },
+      {
+       "id": "HRW1993_CIVDEV",
+       "page": "Ch. II and note 27"
+      }
+     ],
+     "legend_id": "city:eritrea-italian-colony-independent:kapoeta"
+    },
+    {
+     "id": "bentiu",
+     "name_en": "Bentiu",
+     "name_ar": "بانتيو",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GEONAMES",
+       "page": "377472"
+      },
+      {
+       "id": "UNMISS_HRR2014",
+       "page": "para 41 (p.15)"
+      }
+     ],
+     "legend_id": "city:eritrea-italian-colony-independent:bentiu"
     }
    ]
   },
@@ -2580,7 +2622,7 @@
   "battle_region": 7,
   "city_capital": 16,
   "city_garrison": 4,
-  "city_other": 13,
+  "city_other": 15,
   "city_political_centre": 1,
   "city_port": 2,
   "city_religious": 5,
@@ -2594,7 +2636,7 @@
   "list_only_text": 1,
   "extent_features": 8,
   "group_features": 0,
-  "cities": 49,
+  "cities": 51,
   "battles": 24
  },
  "legend_rows": [
@@ -2626,7 +2668,7 @@
    "row_id": "cities:city_other",
    "layer": "cities",
    "symbol_class": "city_other",
-   "n": 13
+   "n": 15
   },
   {
    "row_id": "cities:city_garrison",
@@ -2737,7 +2779,7 @@
    "GHA8",
    "EEBC2002"
   ],
-  "dating_note": null,
+  "dating_note": "Start year 1890 is the colony's formal establishment on 1 January 1890 (EEBC2002 p.104). GHA VII p.268 ('By the end of 1889 they had occupied...') dates the Italian occupation, a separate event.",
   "capitals": [
    {
     "name": "Asmara",
@@ -2805,7 +2847,10 @@
     "Ethiopian–Eritrean Federation",
     "Gondar (reference marker)"
    ],
-   "cities_added": [],
+   "cities_added": [
+    "bentiu",
+    "kapoeta"
+   ],
    "cities_removed": [
     "aidhab",
     "gondokoro",

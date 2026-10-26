@@ -1858,6 +1858,48 @@
       }
      ],
      "legend_id": "city:war-in-sudan-saf-vs-rsf:benghazi"
+    },
+    {
+     "id": "kapoeta",
+     "name_en": "Kapoeta",
+     "name_ar": null,
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GEONAMES",
+       "page": "372884"
+      },
+      {
+       "id": "HRW1993_CIVDEV",
+       "page": "Ch. II and note 27"
+      }
+     ],
+     "legend_id": "city:war-in-sudan-saf-vs-rsf:kapoeta"
+    },
+    {
+     "id": "bentiu",
+     "name_en": "Bentiu",
+     "name_ar": "بانتيو",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GEONAMES",
+       "page": "377472"
+      },
+      {
+       "id": "UNMISS_HRR2014",
+       "page": "para 41 (p.15)"
+      }
+     ],
+     "legend_id": "city:war-in-sudan-saf-vs-rsf:bentiu"
     }
    ]
   },
@@ -2139,7 +2181,7 @@
   "battle_region": 1,
   "city_capital": 15,
   "city_garrison": 4,
-  "city_other": 16,
+  "city_other": 18,
   "city_political_centre": 1,
   "city_port": 1,
   "city_religious": 5,
@@ -2154,7 +2196,7 @@
   "reported_point": 2,
   "extent_features": 12,
   "group_features": 0,
-  "cities": 49,
+  "cities": 51,
   "battles": 6
  },
  "legend_rows": [
@@ -2198,7 +2240,7 @@
    "row_id": "cities:city_other",
    "layer": "cities",
    "symbol_class": "city_other",
-   "n": 16
+   "n": 18
   },
   {
    "row_id": "cities:city_garrison",
@@ -2264,13 +2306,11 @@
  "context": {
   "key_events_en": [
    "Fighting between SAF and RSF starts 15 April 2023 in Khartoum (REPORTED)",
-   "Jeddah Declaration of Commitment to Protect the Civilians of Sudan, 11 May 2023 (REPORTED)",
-   "Jeddah Declaration on protection of civilians, 11 May 2023"
+   "Jeddah Declaration of Commitment to Protect the Civilians of Sudan, 11 May 2023 (REPORTED)"
   ],
   "key_events_ar": [
    "اندلاع القتال بين القوات المسلحة والدعم السريع في الخرطوم 15 أبريل 2023 (مُبلَّغ عنه) [يحتاج تحقق]",
-   "إعلان جدة للالتزام بحماية المدنيين 11 مايو 2023 (مُبلَّغ عنه) [يحتاج تحقق]",
-   "إعلان جدة لحماية المدنيين، 11 مايو 2023"
+   "إعلان جدة للالتزام بحماية المدنيين 11 مايو 2023 (مُبلَّغ عنه) [يحتاج تحقق]"
   ],
   "key_events": [
    {
@@ -2310,20 +2350,6 @@
      "REPORTED"
     ],
     "origin": "db/era_events_post1956.json"
-   },
-   {
-    "event_id": "war-in-sudan-saf-vs-rsf#3",
-    "en": "Jeddah Declaration on protection of civilians, 11 May 2023",
-    "ar": "إعلان جدة لحماية المدنيين، 11 مايو 2023",
-    "cite": null,
-    "source_ids": [
-     "UNNEWS2023",
-     "UNSC_SC15257",
-     "JEDDAH2023",
-     "WP:Sudanese_civil_war_(2023–present)"
-    ],
-    "badges": [],
-    "origin": "data/periods.json"
    }
   ],
   "key_events_source_ids": [

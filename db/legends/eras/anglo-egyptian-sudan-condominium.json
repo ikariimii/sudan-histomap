@@ -2188,26 +2188,28 @@
  ],
  "context": {
   "key_events_en": [
-   "Condominium Agreement 19 Jan 1899 (SFDAS_HCS2017 p.639)",
+   "Anglo-Egyptian agreement of January 1899 sets up a condominium, joint authority exercised by Britain and Egypt (LOC1991_CONDO)",
    "Sennar dam completed 1925 to supply the Gezira Scheme (WB_TP120_1990 p.16)",
-   "Southern Policy (SFDAS_HCS2017 p.643)",
-   "Self-government 1953 (SFDAS_HCS2017 p.660)"
+   "Southern Policy: the three southern provinces treated as a separate region under 'closed door' ordinances; a 1930 directive declared southerners a people distinct from northern Muslims (LOC1991_SOUTHPOL)",
+   "Anglo-Egyptian accord of February 1953 sets a three-year transition from condominium rule to self-government (LOC1991_INDEP)"
   ],
   "key_events_ar": [
-   "اتفاقية الحكم الثنائي 19 يناير 1899 (SFDAS_HCS2017 p.639)",
+   "اتفاقية الحكم الثنائي 19 يناير 1899",
    "مشروع الجزيرة 1925 [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (WB_TP120_1990 p.16)",
-   "سياسة الجنوب (SFDAS_HCS2017 p.643)",
-   "الحكم الذاتي 1953 (SFDAS_HCS2017 p.660)"
+   "سياسة الجنوب",
+   "الحكم الذاتي 1953"
   ],
   "key_events": [
    {
     "event_id": "anglo-egyptian-sudan-condominium#0",
-    "en": "Condominium Agreement 19 Jan 1899 (SFDAS_HCS2017 p.639)",
-    "ar": "اتفاقية الحكم الثنائي 19 يناير 1899 (SFDAS_HCS2017 p.639)",
+    "en": "Anglo-Egyptian agreement of January 1899 sets up a condominium, joint authority exercised by Britain and Egypt (LOC1991_CONDO)",
+    "ar": "اتفاقية الحكم الثنائي 19 يناير 1899",
     "cite": null,
     "source_ids": [
      "HD2011",
-     "SFDAS_HCS2017",
+     "LOC1991_CONDO",
+     "LOC1991_SOUTHPOL",
+     "LOC1991_INDEP",
      "WB_TP120_1990"
     ],
     "badges": [],
@@ -2220,7 +2222,9 @@
     "cite": null,
     "source_ids": [
      "HD2011",
-     "SFDAS_HCS2017",
+     "LOC1991_CONDO",
+     "LOC1991_SOUTHPOL",
+     "LOC1991_INDEP",
      "WB_TP120_1990"
     ],
     "badges": [],
@@ -2228,12 +2232,14 @@
    },
    {
     "event_id": "anglo-egyptian-sudan-condominium#2",
-    "en": "Southern Policy (SFDAS_HCS2017 p.643)",
-    "ar": "سياسة الجنوب (SFDAS_HCS2017 p.643)",
+    "en": "Southern Policy: the three southern provinces treated as a separate region under 'closed door' ordinances; a 1930 directive declared southerners a people distinct from northern Muslims (LOC1991_SOUTHPOL)",
+    "ar": "سياسة الجنوب",
     "cite": null,
     "source_ids": [
      "HD2011",
-     "SFDAS_HCS2017",
+     "LOC1991_CONDO",
+     "LOC1991_SOUTHPOL",
+     "LOC1991_INDEP",
      "WB_TP120_1990"
     ],
     "badges": [],
@@ -2241,12 +2247,14 @@
    },
    {
     "event_id": "anglo-egyptian-sudan-condominium#3",
-    "en": "Self-government 1953 (SFDAS_HCS2017 p.660)",
-    "ar": "الحكم الذاتي 1953 (SFDAS_HCS2017 p.660)",
+    "en": "Anglo-Egyptian accord of February 1953 sets a three-year transition from condominium rule to self-government (LOC1991_INDEP)",
+    "ar": "الحكم الذاتي 1953",
     "cite": null,
     "source_ids": [
      "HD2011",
-     "SFDAS_HCS2017",
+     "LOC1991_CONDO",
+     "LOC1991_SOUTHPOL",
+     "LOC1991_INDEP",
      "WB_TP120_1990"
     ],
     "badges": [],
@@ -2255,7 +2263,9 @@
   ],
   "key_events_source_ids": [
    "HD2011",
-   "SFDAS_HCS2017",
+   "LOC1991_CONDO",
+   "LOC1991_SOUTHPOL",
+   "LOC1991_INDEP",
    "WB_TP120_1990"
   ],
   "dating_note": null,
@@ -2266,10 +2276,10 @@
     "lon": 32.56
    }
   ],
-  "control_limits_en": "'From January 1899 Eastern Sudan was declared a joint possession (condominium) of Great Britain and Egypt and in effect turned into a British colony' (RU_BRE_ORLOV). Darfur's 'dynastic Muslim state … was not finally extinguished until 1916' (HD2011), so Darfur lay outside direct control until 1916.",
+  "control_limits_en": "'From January 1899 Eastern Sudan was declared a joint possession (condominium) of Great Britain and Egypt and in effect turned into a British colony' (BRE_AES). Darfur's 'dynastic Muslim state … was not finally extinguished until 1916' (HD2011), so Darfur lay outside direct control until 1916.",
   "control_limits_ar": "«منذ يناير 1899 أُعلن السودان الشرقي ملكاً مشتركاً (حكماً ثنائياً) لبريطانيا العظمى ومصر، وتحوّل فعلياً إلى مستعمرة بريطانية» (الموسوعة الروسية الكبرى). ولم «تنطفئ نهائياً» دولة الفور المسلمة «حتى 1916» (هولت وديلي)، فظلت دارفور خارج السيطرة المباشرة حتى ذلك العام.",
   "control_limits_source_ids": [
-   "RU_BRE_ORLOV",
+   "BRE_AES",
    "HD2011",
    "IBS18_1962"
   ],
