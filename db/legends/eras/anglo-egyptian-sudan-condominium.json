@@ -1877,7 +1877,8 @@
      "end": 1898,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": true,
      "war_en": "Anglo-Egyptian reconquest of the Sudan",
      "swatch": {
@@ -1909,6 +1910,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": true,
      "war_en": "Anglo-Egyptian reconquest of the Sudan",
      "swatch": {
@@ -1939,7 +1941,8 @@
      "end": 1899,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Anglo-Egyptian reconquest of the Sudan",
      "swatch": {
@@ -1965,7 +1968,8 @@
      "end": 1916,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Darfur campaign of 1916",
      "swatch": {
@@ -1992,6 +1996,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "First Sudanese civil war",
      "swatch": {
@@ -2017,7 +2022,8 @@
      "end": 1896,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": true,
      "war_en": "Anglo-Egyptian reconquest of the Sudan",
      "swatch": {

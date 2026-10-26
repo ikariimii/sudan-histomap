@@ -136,17 +136,19 @@ def draft_layer(sl):
 
 BAT = (J('b.json').get('battles') or []) if os.path.exists(os.path.join(R, 'b.json')) else []
 BST = J('db/markers/battle_style.json')['battle']['variants'] if os.path.exists(os.path.join(R, 'db/markers/battle_style.json')) else {}
+DELETED_BATTLES = {'dongola-642'}  # IM ruling 2026-10-26: deleted; arab-nubian-wars starts 651 (GHA III)
 def battle_layer(s, e):
     """Battles the map draws for this era: map.js rel(b) = battle span overlaps the era, or its war span (w) does."""
     rows = []
     for b in BAT:
+        if b.get('id') in DELETED_BATTLES: continue
         w = b.get('w') or {}
         on = (b.get('a') is not None and b['a'] <= e and (b.get('b') if b.get('b') is not None else b['a']) >= s) or \
              (w.get('a') is not None and w['a'] <= e and (w.get('b') if w.get('b') is not None else w['a']) >= s)
         if not on: continue
         v = b.get('pr') if b.get('pr') in BST else 'approximate'
         rows.append({'id': b['id'], 'label_en': b.get('en'), 'label_ar': b.get('ar'), 'start': b.get('a'), 'end': b.get('b'),
-                     'precision': b.get('pr'), 'symbol_class': 'battle_' + v, 'drawn': True, 'via_war': not ((b.get('a') or 0) <= e and (b.get('b') if b.get('b') is not None else b.get('a') or 0) >= s),
+                     'precision': b.get('pr'), 'symbol_class': 'battle_' + v, 'drawn': bool(b.get('ll') or (b.get('hz') or {}).get('ll')), 'list_only': not (b.get('ll') or (b.get('hz') or {}).get('ll')), 'via_war': not ((b.get('a') or 0) <= e and (b.get('b') if b.get('b') is not None else b.get('a') or 0) >= s),
                      'war_en': w.get('en'), 'swatch': BST.get(v), 'cite': [{'c': c.get('c'), 'p': c.get('p'), 'u': c.get('u')} for c in b.get('s') or []]})
     return rows
 
@@ -215,7 +217,11 @@ def era(i, p):
             pr = f['properties']; c = ext_class(f); b = badges(pr); bs |= b
             cls[c] = cls.get(c, 0) + 1
             sids = pr.get('sources') or ([pr['source']] if pr.get('source') else [])
-            ext.append({'feature_index': k, 'id': pr.get('id'), 'label_en': pr.get('label_en'), 'symbol_class': c,
+            lbl, lb = pr.get('label_en'), None
+            if not lbl and pr.get('zone'):
+                # no feature label: use the era's own registered name (periods) + the drafted zone; nothing new is asserted
+                lbl = f"{p.get('name') or sl} – {pr['zone']} zone (draft)"; lb = 'era name + zone (feature has no label_en)'
+            ext.append({'feature_index': k, 'id': pr.get('id'), 'label_en': lbl, **({'label_basis': lb} if lb else {}), 'symbol_class': c,
                         'certainty': pr.get('certainty'), 'badges': sorted(b), 'start': pr.get('start'), 'end': pr.get('end'),
                         'source_ids': sids})
             if pr.get('zone'):

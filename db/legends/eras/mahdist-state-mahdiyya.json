@@ -1606,6 +1606,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": true,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -1637,6 +1638,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -1662,7 +1664,8 @@
      "end": 1889,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -1699,6 +1702,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mahdist–Ethiopian war",
      "swatch": {
@@ -1729,7 +1733,8 @@
      "end": 1898,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Anglo-Egyptian reconquest of the Sudan",
      "swatch": {
@@ -1761,6 +1766,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Anglo-Egyptian reconquest of the Sudan",
      "swatch": {
@@ -1791,7 +1797,8 @@
      "end": 1899,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Anglo-Egyptian reconquest of the Sudan",
      "swatch": {
@@ -1818,6 +1825,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": true,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -1849,6 +1857,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": true,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -1880,6 +1889,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -1911,6 +1921,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -1947,6 +1958,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Italian–Mahdist war (Eritrean frontier)",
      "swatch": {
@@ -1972,7 +1984,8 @@
      "end": 1896,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Anglo-Egyptian reconquest of the Sudan",
      "swatch": {

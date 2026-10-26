@@ -798,6 +798,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Roman–Meroitic war",
      "swatch": {
@@ -828,7 +829,8 @@
      "end": 350,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Aksum's campaigns against Kush",
      "swatch": {

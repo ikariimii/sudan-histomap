@@ -669,7 +669,8 @@
      "end": 350,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Aksum's campaigns against Kush",
      "swatch": {

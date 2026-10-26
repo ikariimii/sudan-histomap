@@ -45,7 +45,8 @@
     {
      "feature_index": 2,
      "id": "zone-ja-aliyyin-kingdom-sa-dab-funj-vassal-core-0",
-     "label_en": null,
+     "label_en": "Ja'aliyyin kingdom (Sa'dab, Funj vassal) – core zone (draft)",
+     "label_basis": "era name + zone (feature has no label_en)",
      "symbol_class": "zone_core",
      "certainty": "medium",
      "badges": [
@@ -1413,6 +1414,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Funj–Abdallab war",
      "swatch": {
@@ -1438,7 +1440,8 @@
      "end": 1747,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Wars for Kordofan (Funj, Musabba'at, Darfur)",
      "swatch": {
@@ -1465,6 +1468,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Ottoman occupation of northern Nubia",
      "swatch": {
@@ -1730,9 +1734,12 @@
    "basis": "previous era in same stream by start year",
    "extents_added": [
     "Atbara–Nile confluence – range limit (Holt & Daly p.4)",
+    "Ja'aliyyin kingdom (Sa'dab, Funj vassal) – core zone (draft)",
     "Sabaluqa Gorge (Sixth Cataract) – range limit (Holt & Daly p.4)"
    ],
    "extents_removed": [
+    "'Abdallab chiefdom (Funj vassal) – core zone (draft)",
+    "'Abdallab chiefdom (Funj vassal) – influence zone (draft)",
     "Aswan: contested Abdallab northern limit",
     "Qerri (ʿAbdallab seat, reference marker)",
     "Third Cataract of the Nile: contested Abdallab northern limit"

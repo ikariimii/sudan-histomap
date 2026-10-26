@@ -29,7 +29,8 @@
     {
      "feature_index": 1,
      "id": "zone-a-group-lower-nubia-influence-0",
-     "label_en": null,
+     "label_en": "A-Group (Lower Nubia) – influence zone (draft)",
+     "label_basis": "era name + zone (feature has no label_en)",
      "symbol_class": "zone_influence",
      "certainty": "low",
      "badges": [
@@ -291,6 +292,7 @@
    "previous_era_id": "khartoum-neolithic-shaheinab",
    "basis": "previous era in same stream by start year",
    "extents_added": [
+    "A-Group (Lower Nubia) – influence zone (draft)",
     "Faras (A-Group graves, reference marker)"
    ],
    "extents_removed": [

@@ -29,7 +29,8 @@
     {
      "feature_index": 1,
      "id": "zone-musabba-at-sultanate-kordofan-influence-0",
-     "label_en": null,
+     "label_en": "Musabba'at sultanate (Kordofan) – influence zone (draft)",
+     "label_basis": "era name + zone (feature has no label_en)",
      "symbol_class": "zone_influence",
      "certainty": "low",
      "badges": [
@@ -1152,7 +1153,8 @@
      "end": 1747,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Wars for Kordofan (Funj, Musabba'at, Darfur)",
      "swatch": {
@@ -1406,7 +1408,8 @@
    "previous_era_id": "sultanate-of-darfur-keira",
    "basis": "previous era in same stream by start year",
    "extents_added": [
-    "Kordofan (region)"
+    "Kordofan (region)",
+    "Musabba'at sultanate (Kordofan) – influence zone (draft)"
    ],
    "extents_removed": [
     "Dar Fertit (reference marker)",

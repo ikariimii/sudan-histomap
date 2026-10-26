@@ -28,7 +28,8 @@
     {
      "feature_index": 1,
      "id": "zone-c-group-lower-nubia-influence-0",
-     "label_en": null,
+     "label_en": "C-Group (Lower Nubia) – influence zone (draft)",
+     "label_basis": "era name + zone (feature has no label_en)",
      "symbol_class": "zone_influence",
      "certainty": "low",
      "badges": [
@@ -529,6 +530,7 @@
    "previous_era_id": "kingdom-of-kerma",
    "basis": "previous era in same stream by start year",
    "extents_added": [
+    "C-Group (Lower Nubia) – influence zone (draft)",
     "Wadi Halfa region (C-Group houses, reference marker)"
    ],
    "extents_removed": [

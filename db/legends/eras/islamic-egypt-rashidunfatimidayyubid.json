@@ -932,6 +932,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Arab–Nubian wars",
      "swatch": {
@@ -954,7 +955,6 @@
  },
  "symbol_classes_present": [
   "battle_approximate",
-  "battle_region",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -977,7 +977,6 @@
  ],
  "counts": {
   "battle_approximate": 1,
-  "battle_region": 1,
   "city_capital": 8,
   "city_garrison": 3,
   "city_other": 3,
@@ -989,7 +988,7 @@
   "extent_features": 2,
   "group_features": 0,
   "cities": 21,
-  "battles": 2
+  "battles": 1
  },
  "legend_rows": [
   {
@@ -1032,12 +1031,6 @@
    "row_id": "cities:city_political_centre",
    "layer": "cities",
    "symbol_class": "city_political_centre",
-   "n": 1
-  },
-  {
-   "row_id": "battles:battle_region",
-   "layer": "battles",
-   "symbol_class": "battle_region",
    "n": 1
   },
   {
@@ -1154,7 +1147,9 @@
    "extents_removed": [
     "Alexandria (capital, reference marker)",
     "Hiera Sycaminos frontier (reference marker)",
-    "Philae / First Cataract frontier (reference marker)"
+    "Philae / First Cataract frontier (reference marker)",
+    "Roman & Byzantine Egypt – claimed zone (draft)",
+    "Roman & Byzantine Egypt – core zone (draft)"
    ],
    "cities_added": [
     "aidhab",

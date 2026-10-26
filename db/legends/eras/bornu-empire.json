@@ -1650,6 +1650,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Funj–Abdallab war",
      "swatch": {
@@ -1675,7 +1676,8 @@
      "end": 1747,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Wars for Kordofan (Funj, Musabba'at, Darfur)",
      "swatch": {
@@ -1702,6 +1704,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -1733,6 +1736,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -1758,7 +1762,8 @@
      "end": 1889,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -1795,6 +1800,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mahdist–Ethiopian war",
      "swatch": {
@@ -1826,6 +1832,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Ottoman occupation of northern Nubia",
      "swatch": {
@@ -1857,6 +1864,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -1888,6 +1896,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -1919,6 +1928,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -1950,6 +1960,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -1986,6 +1997,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": true,
      "war_en": "Italian–Mahdist war (Eritrean frontier)",
      "swatch": {

@@ -99,7 +99,8 @@
     {
      "feature_index": 5,
      "id": "zone-funj-sultanate-of-sennar-core-0",
-     "label_en": null,
+     "label_en": "Funj Sultanate of Sennar – core zone (draft)",
+     "label_basis": "era name + zone (feature has no label_en)",
      "symbol_class": "zone_core",
      "certainty": "medium",
      "badges": [
@@ -122,7 +123,8 @@
     {
      "feature_index": 6,
      "id": "zone-funj-sultanate-of-sennar-claimed-1",
-     "label_en": null,
+     "label_en": "Funj Sultanate of Sennar – claimed zone (draft)",
+     "label_basis": "era name + zone (feature has no label_en)",
      "symbol_class": "zone_claimed",
      "certainty": "low",
      "badges": [
@@ -1666,6 +1668,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Funj–Abdallab war",
      "swatch": {
@@ -1691,7 +1694,8 @@
      "end": 1747,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Wars for Kordofan (Funj, Musabba'at, Darfur)",
      "swatch": {
@@ -1718,6 +1722,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Ottoman occupation of northern Nubia",
      "swatch": {
@@ -2040,6 +2045,8 @@
    "basis": "previous era in same stream by start year",
    "extents_added": [
     "Fazughli (probable southern limit, early 17th c.)",
+    "Funj Sultanate of Sennar – claimed zone (draft)",
+    "Funj Sultanate of Sennar – core zone (draft)",
     "Kordofan (contested with Darfur)",
     "Old Dongola (northern reach)",
     "Sennar (capital)",
@@ -2047,6 +2054,7 @@
    ],
    "extents_removed": [
     "Atbara–Nile confluence – range limit (Holt & Daly p.4)",
+    "Ja'aliyyin kingdom (Sa'dab, Funj vassal) – core zone (draft)",
     "Sabaluqa Gorge (Sixth Cataract) – range limit (Holt & Daly p.4)"
    ],
    "cities_added": [],

@@ -2050,7 +2050,8 @@
      "end": 1747,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Wars for Kordofan (Funj, Musabba'at, Darfur)",
      "swatch": {
@@ -2077,6 +2078,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -2108,6 +2110,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -2133,7 +2136,8 @@
      "end": 1889,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -2170,6 +2174,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mahdist–Ethiopian war",
      "swatch": {
@@ -2200,7 +2205,8 @@
      "end": 1898,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Anglo-Egyptian reconquest of the Sudan",
      "swatch": {
@@ -2232,6 +2238,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Anglo-Egyptian reconquest of the Sudan",
      "swatch": {
@@ -2262,7 +2269,8 @@
      "end": 1899,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Anglo-Egyptian reconquest of the Sudan",
      "swatch": {
@@ -2288,7 +2296,8 @@
      "end": 1916,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Darfur campaign of 1916",
      "swatch": {
@@ -2315,6 +2324,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "First Sudanese civil war",
      "swatch": {
@@ -2341,6 +2351,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Ottoman occupation of northern Nubia",
      "swatch": {
@@ -2372,6 +2383,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -2403,6 +2415,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -2434,6 +2447,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -2465,6 +2479,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
@@ -2501,6 +2516,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Italian–Mahdist war (Eritrean frontier)",
      "swatch": {
@@ -2526,7 +2542,8 @@
      "end": 1896,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Anglo-Egyptian reconquest of the Sudan",
      "swatch": {
@@ -2558,6 +2575,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Second Sudanese civil war",
      "swatch": {
@@ -2584,6 +2602,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Second Sudanese civil war",
      "swatch": {
@@ -2610,6 +2629,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Second Sudanese civil war",
      "swatch": {
@@ -2636,6 +2656,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Second Sudanese civil war",
      "swatch": {
@@ -2662,6 +2683,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "War in Darfur",
      "swatch": {
@@ -2688,6 +2710,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "War in Darfur",
      "swatch": {
@@ -2714,6 +2737,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "South Kordofan and Blue Nile conflict",
      "swatch": {
@@ -2740,6 +2764,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Sudan–South Sudan border conflict (Heglig crisis)",
      "swatch": {
@@ -2766,6 +2791,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "South Sudanese civil war",
      "swatch": {
@@ -2792,6 +2818,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "South Sudanese civil war",
      "swatch": {
@@ -2818,6 +2845,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "South Sudanese civil war",
      "swatch": {
@@ -2844,6 +2872,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "War in Sudan (SAF vs RSF)",
      "swatch": {
@@ -2870,6 +2899,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "War in Sudan (SAF vs RSF)",
      "swatch": {
@@ -2896,6 +2926,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "War in Sudan (SAF vs RSF)",
      "swatch": {
@@ -2922,6 +2953,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "War in Sudan (SAF vs RSF)",
      "swatch": {
@@ -2948,6 +2980,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "War in Sudan (SAF vs RSF)",
      "swatch": {
@@ -2974,6 +3007,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "War in Sudan (SAF vs RSF)",
      "swatch": {
@@ -3121,18 +3155,18 @@
  ],
  "context": {
   "key_events_en": [
-   "Kingdom of Saudi Arabia 1932",
+   "Jeddah talks on Sudan war 2023",
    "Jeddah talks on Sudan war, from May 2023 (REPORTED)"
   ],
   "key_events_ar": [
-   "المملكة العربية السعودية 1932",
+   "محادثات جدة بشأن حرب السودان 2023",
    "محادثات جدة بشأن حرب السودان منذ مايو 2023 (مُبلَّغ عنه) [يحتاج تحقق]"
   ],
   "key_events": [
    {
     "event_id": "ottoman-hejaz-saudi-state#0",
-    "en": "Kingdom of Saudi Arabia 1932",
-    "ar": "المملكة العربية السعودية 1932",
+    "en": "Jeddah talks on Sudan war 2023",
+    "ar": "محادثات جدة بشأن حرب السودان 2023",
     "cite": null,
     "source_ids": [
      "JEDDAH2023",

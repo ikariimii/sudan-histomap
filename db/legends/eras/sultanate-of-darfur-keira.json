@@ -1614,7 +1614,8 @@
      "end": 1747,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Wars for Kordofan (Funj, Musabba'at, Darfur)",
      "swatch": {
@@ -1923,7 +1924,8 @@
     "al-Tuwaisha (reference marker)"
    ],
    "extents_removed": [
-    "Ain Farah"
+    "Ain Farah",
+    "Tunjur kingdom – core zone (draft)"
    ],
    "cities_added": [
     "berber",

@@ -666,6 +666,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": true,
      "war_en": "Egyptian–Kushite wars",
      "swatch": {
@@ -692,6 +693,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Egyptian–Kushite wars",
      "swatch": {
@@ -718,6 +720,7 @@
      "precision": "region",
      "symbol_class": "battle_region",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Piye's conquest of Egypt",
      "swatch": {
@@ -1033,6 +1036,8 @@
     "Kush, 25th Dynasty maximum: Delta to the confluence of the Niles – strip width along the Nile is a display choice, not a sourced boundary"
    ],
    "extents_removed": [
+    "Egyptian New Kingdom rule in Nubia – claimed zone (draft)",
+    "Egyptian New Kingdom rule in Nubia – core zone (draft)",
     "Kurgus frontier",
     "Napata / Fourth Cataract",
     "Soleb (temple)"

@@ -30,7 +30,8 @@
     {
      "feature_index": 1,
      "id": "zone-alodia-alwa-core-0",
-     "label_en": null,
+     "label_en": "Alodia (Alwa) – core zone (draft)",
+     "label_basis": "era name + zone (feature has no label_en)",
      "symbol_class": "zone_core",
      "certainty": "medium",
      "badges": [
@@ -54,7 +55,8 @@
     {
      "feature_index": 2,
      "id": "zone-alodia-alwa-claimed-1",
-     "label_en": null,
+     "label_en": "Alodia (Alwa) – claimed zone (draft)",
+     "label_basis": "era name + zone (feature has no label_en)",
      "symbol_class": "zone_claimed",
      "certainty": "low",
      "badges": [
@@ -1379,6 +1381,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Arab–Nubian wars",
      "swatch": {
@@ -1405,6 +1408,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Funj–Abdallab war",
      "swatch": {
@@ -1431,6 +1435,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mamluk expeditions into Makuria",
      "swatch": {
@@ -1453,7 +1458,6 @@
  },
  "symbol_classes_present": [
   "battle_approximate",
-  "battle_region",
   "border_draft",
   "city_capital",
   "city_garrison",
@@ -1485,7 +1489,6 @@
  ],
  "counts": {
   "battle_approximate": 3,
-  "battle_region": 1,
   "border_draft": 2,
   "city_capital": 12,
   "city_garrison": 3,
@@ -1503,7 +1506,7 @@
   "extent_features": 3,
   "group_features": 1,
   "cities": 30,
-  "battles": 4
+  "battles": 3
  },
  "legend_rows": [
   {
@@ -1582,12 +1585,6 @@
    "row_id": "border_drafts:zone_claimed",
    "layer": "border_drafts",
    "symbol_class": "zone_claimed",
-   "n": 1
-  },
-  {
-   "row_id": "battles:battle_region",
-   "layer": "battles",
-   "symbol_class": "battle_region",
    "n": 1
   },
   {
@@ -1717,6 +1714,8 @@
    "previous_era_id": "makuria",
    "basis": "previous era in same stream by start year",
    "extents_added": [
+    "Alodia (Alwa) – claimed zone (draft)",
+    "Alodia (Alwa) – core zone (draft)",
     "Soba (capital)"
    ],
    "extents_removed": [

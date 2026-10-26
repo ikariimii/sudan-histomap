@@ -29,7 +29,8 @@
     {
      "feature_index": 1,
      "id": "zone-tunjur-kingdom-core-0",
-     "label_en": null,
+     "label_en": "Tunjur kingdom – core zone (draft)",
+     "label_basis": "era name + zone (feature has no label_en)",
      "symbol_class": "zone_core",
      "certainty": "low",
      "badges": [
@@ -1188,6 +1189,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Funj–Abdallab war",
      "swatch": {
@@ -1214,6 +1216,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Ottoman occupation of northern Nubia",
      "swatch": {
@@ -1442,9 +1445,11 @@
    "previous_era_id": "daju-kingdom",
    "basis": "previous era in same stream by start year",
    "extents_added": [
-    "Ain Farah"
+    "Ain Farah",
+    "Tunjur kingdom – core zone (draft)"
    ],
    "extents_removed": [
+    "Daju kingdom – core zone (draft)",
     "Jebel Marra region"
    ],
    "cities_added": [

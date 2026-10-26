@@ -62,7 +62,8 @@
     {
      "feature_index": 3,
      "id": "zone-roman-byzantine-egypt-core-0",
-     "label_en": null,
+     "label_en": "Roman & Byzantine Egypt – core zone (draft)",
+     "label_basis": "era name + zone (feature has no label_en)",
      "symbol_class": "zone_core",
      "certainty": "high",
      "badges": [
@@ -85,7 +86,8 @@
     {
      "feature_index": 4,
      "id": "zone-roman-byzantine-egypt-claimed-1",
-     "label_en": null,
+     "label_en": "Roman & Byzantine Egypt – claimed zone (draft)",
+     "label_basis": "era name + zone (feature has no label_en)",
      "symbol_class": "zone_claimed",
      "certainty": "medium",
      "badges": [
@@ -1122,6 +1124,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Roman–Meroitic war",
      "swatch": {
@@ -1152,7 +1155,8 @@
      "end": 350,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Aksum's campaigns against Kush",
      "swatch": {
@@ -1405,10 +1409,14 @@
    "basis": "previous era in same stream by start year",
    "extents_added": [
     "Hiera Sycaminos frontier (reference marker)",
-    "Philae / First Cataract frontier (reference marker)"
+    "Philae / First Cataract frontier (reference marker)",
+    "Roman & Byzantine Egypt – claimed zone (draft)",
+    "Roman & Byzantine Egypt – core zone (draft)"
    ],
    "extents_removed": [
-    "Hiera Sycaminos, end of the Dodecaschoenus (reference marker)"
+    "Hiera Sycaminos, end of the Dodecaschoenus (reference marker)",
+    "Ptolemaic Egypt – contested zone (draft)",
+    "Ptolemaic Egypt – core zone (draft)"
    ],
    "cities_added": [
     "aksum",

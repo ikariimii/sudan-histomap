@@ -1320,6 +1320,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Arab–Nubian wars",
      "swatch": {
@@ -1346,6 +1347,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Mamluk expeditions into Makuria",
      "swatch": {
@@ -1368,7 +1370,6 @@
  },
  "symbol_classes_present": [
   "battle_approximate",
-  "battle_region",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -1399,7 +1400,6 @@
  ],
  "counts": {
   "battle_approximate": 2,
-  "battle_region": 1,
   "city_capital": 11,
   "city_garrison": 3,
   "city_other": 5,
@@ -1416,7 +1416,7 @@
   "extent_features": 6,
   "group_features": 2,
   "cities": 29,
-  "battles": 3
+  "battles": 2
  },
  "legend_rows": [
   {
@@ -1489,12 +1489,6 @@
    "row_id": "trade_routes:trade_route",
    "layer": "trade_routes",
    "symbol_class": "trade_route",
-   "n": 1
-  },
-  {
-   "row_id": "battles:battle_region",
-   "layer": "battles",
-   "symbol_class": "battle_region",
    "n": 1
   },
   {

@@ -1068,7 +1068,8 @@
      "end": 350,
      "precision": "region",
      "symbol_class": "battle_region",
-     "drawn": true,
+     "drawn": false,
+     "list_only": true,
      "via_war": false,
      "war_en": "Aksum's campaigns against Kush",
      "swatch": {
@@ -1100,6 +1101,7 @@
      "precision": "approximate",
      "symbol_class": "battle_approximate",
      "drawn": true,
+     "list_only": false,
      "via_war": false,
      "war_en": "Arab–Nubian wars",
      "swatch": {
@@ -1146,7 +1148,7 @@
  ],
  "counts": {
   "battle_approximate": 1,
-  "battle_region": 2,
+  "battle_region": 1,
   "city_capital": 9,
   "city_garrison": 3,
   "city_other": 4,
@@ -1158,7 +1160,7 @@
   "extent_features": 5,
   "group_features": 0,
   "cities": 23,
-  "battles": 3
+  "battles": 2
  },
  "legend_rows": [
   {
@@ -1207,7 +1209,7 @@
    "row_id": "battles:battle_region",
    "layer": "battles",
    "symbol_class": "battle_region",
-   "n": 2
+   "n": 1
   },
   {
    "row_id": "battles:battle_approximate",
