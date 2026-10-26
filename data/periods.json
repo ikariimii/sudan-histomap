@@ -6094,6 +6094,30 @@
     "lang": "en",
     "note": "Fetched 2026-10-26. Para 1: \"The Secretary-General welcomes the signing by the parties to the conflict in Sudan of the Declaration of Commitment to protect civilians and guarantee the safe passage of humanitarian aid in the country.\""
    },
+   "UNHCR_20141229_ESCAPING_WAR": {
+    "author": "Mike Pflanz (UNHCR)",
+    "title": "Escaping war, time and again",
+    "title_en": "same",
+    "publisher": "UNHCR, the UN Refugee Agency",
+    "date": "2014-12-29",
+    "year": "2014",
+    "url": "https://www.unhcr.org/news/stories/escaping-war-time-and-again",
+    "pages": "para 1 (standfirst)",
+    "lang": "en",
+    "note": "Fetched 2026-10-26. Para 1: \"The first Sudanese civil war dragged on from 1955 to 1972. The second raged even longer – from 1983 until the 2005 peace deal that led to South Sudan's independence in 2011.\""
+   },
+   "UNMIS_20110110_ANYANYA_VETERAN": {
+    "author": "UNMIS",
+    "title": "Anyanya One veteran casts his vote",
+    "title_en": "same",
+    "publisher": "United Nations Mission in Sudan (UNMIS)",
+    "date": "2011-01-10",
+    "year": "2011",
+    "url": "https://unmis.unmissions.org/en/unmis-0/anyanya-one-veteran-casts-his-vote",
+    "pages": "paras 6–7 (unnumbered; dateline para = 1)",
+    "lang": "en",
+    "note": "Fetched 2026-10-26. Para 6: \"...had risen to the rank of captain when the Addis Ababa peace treaty was signed in 1972.\" Para 7: \"When Sudan's first civil war ended, Mr. Shuei was given two options...\""
+   },
    "UN_SC16203_20251030": {
     "author": "UN Meetings Coverage",
     "title": "El Fasher in 'Even Darker Hell', UN Officials Tell Security Council, as Delegates Decry Horrific Crimes Following City's Capture by Rapid Support Forces (SC/16203)",
@@ -8247,8 +8271,10 @@
    "start": -4900,
    "end": -3800,
    "prominence": 0.3,
-   "key_events": [],
-   "key_events_cites": [],
+   "key_events": [
+    "Esh Shaheinab culture, derived from the Khartoumian: distinctive pottery, gouges and polished bone axes"
+   ],
+   "key_events_cites": [[{"source": "GHA1_CH25", "page": "643"}]],
    "capitals": [
     {
      "name": "Esh-Shaheinab",
@@ -8266,7 +8292,9 @@
     "WD:Q109284535"
    ],
    "dating_note": "Approximate; site coordinates from Wikidata (Esh-Shaheinab corrected from 16.13N). Kadero added as second Khartoum Neolithic site (coordinates approximate, Wikidata).",
-   "key_events_ar": [],
+   "key_events_ar": [
+    ""
+   ],
    "how_we_know": {
     "sources": [
      {
@@ -9925,11 +9953,11 @@
    "end": 2011,
    "prominence": 0.35,
    "key_events": [
-    "First Civil War 1955–72",
+    "First Civil War, 1955–72",
     "Second Civil War 1983–2005",
     "Referendum Jan 2011"
    ],
-   "key_events_cites": [[{"source": "GHA8", "page": "149"}, {"source": "UNSC_S2005_60", "page": "19"}], [{"source": "UNSC_S2005_60", "page": "20, 21"}], [{"source": "UNSG_S2011_413", "page": "2"}]],
+   "key_events_cites": [[{"source": "UNHCR_20141229_ESCAPING_WAR", "page": "para 1"}, {"source": "UNMIS_20110110_ANYANYA_VETERAN", "page": "paras 6–7"}, {"source": "GHA8", "page": "149"}], [{"source": "UNSC_S2005_60", "page": "20, 21"}], [{"source": "UNSG_S2011_413", "page": "2"}]],
    "capitals": [
     {
      "name": "Juba",
@@ -10519,8 +10547,11 @@
    "start": 1953,
    "end": 2026,
    "prominence": 0.65,
-   "key_events": [],
-   "key_events_cites": [],
+   "key_events": [
+    "Nasser announces nationalization of the Suez Canal Company, 26 July 1956, to finance the Aswan High Dam",
+    "Israel, Britain and France invade Egypt, October–November 1956; hostilities cease 6 November under US and Soviet pressure"
+   ],
+   "key_events_cites": [[{"source": "GHA8", "page": "147"}], [{"source": "GHA8", "page": "147"}]],
    "capitals": [
     {
      "name": "Cairo",
@@ -10533,7 +10564,10 @@
     "WP:Aswan_Dam"
    ],
    "dating_note": "",
-   "key_events_ar": [],
+   "key_events_ar": [
+    "",
+    ""
+   ],
    "how_we_know": {
     "sources": [
      {
@@ -10556,8 +10590,10 @@
    "start": -980,
    "end": -400,
    "prominence": 0.3,
-   "key_events": [],
-   "key_events_cites": [],
+   "key_events": [
+    "South Arabian period in northern Ethiopia: monuments and inscriptions in Eritrea and Tigre akin to those of Saba, dated 5th–4th centuries BC; temple of Yeha"
+   ],
+   "key_events_cites": [[{"source": "GHA2_CH13", "page": "343"}]],
    "capitals": [
     {
      "name": "Yeha",
@@ -10570,7 +10606,9 @@
     "WP:Dʿmt"
    ],
    "dating_note": "[APPROXIMATE] [NO-SOURCE] Start and end years are approximate; no page-level source for the dates has been read.",
-   "key_events_ar": [],
+   "key_events_ar": [
+    ""
+   ],
    "how_we_know": {
     "sources": [
      {
@@ -10648,8 +10686,11 @@
    "start": 900,
    "end": 1270,
    "prominence": 0.45,
-   "key_events": [],
-   "key_events_cites": [],
+   "key_events": [
+    "King Lalibela (c. 1181–c. 1221) founds a new capital he calls 'New Jerusalem'",
+    "Christian kingdom of the Ethiopian highlands passes from the Zagwe to the Solomonid dynasty, 1270"
+   ],
+   "key_events_cites": [[{"source": "GHAIV", "page": "2"}], [{"source": "GHA4_CH17", "page": "423"}]],
    "capitals": [
     {
      "name": "Lalibela",
@@ -10662,7 +10703,10 @@
     "WP:Zagwe_dynasty"
    ],
    "dating_note": "[APPROXIMATE] [NO-SOURCE] Start date debated; no page-level source for the dates has been read.",
-   "key_events_ar": [],
+   "key_events_ar": [
+    "",
+    ""
+   ],
    "how_we_know": {
     "sources": [
      {
@@ -10757,8 +10801,11 @@
    "start": 1974,
    "end": 2026,
    "prominence": 0.6,
-   "key_events": [],
-   "key_events_cites": [],
+   "key_events": [
+    "After the emperor is overthrown, Colonel Mengistu's Derg adopts the socialist model, backed by the socialist world",
+    "Mengistu Haile Mariam flees Ethiopia, 1991"
+   ],
+   "key_events_cites": [[{"source": "GHA8", "page": "811"}], [{"source": "GHA8", "page": "454"}]],
    "capitals": [
     {
      "name": "Addis Ababa",
@@ -10772,7 +10819,10 @@
     "WP:Grand_Ethiopian_Renaissance_Dam"
    ],
    "dating_note": "",
-   "key_events_ar": [],
+   "key_events_ar": [
+    "",
+    ""
+   ],
    "how_we_know": {
     "sources": [
      {
@@ -11037,8 +11087,11 @@
    "start": -500,
    "end": 700,
    "prominence": 0.3,
-   "key_events": [],
-   "key_events_cites": [],
+   "key_events": [
+    "Proconsul Cornelius Balbus raids the kingdom of the Garamantes of the Fezzan, 19 BC",
+    "From Garama (Jerma), the Garamantes dominate the Fezzan and levy tribute on surrounding tribes"
+   ],
+   "key_events_cites": [[{"source": "GHA2_CH20", "page": "517"}], [{"source": "GHA2_CH20", "page": "522"}]],
    "capitals": [
     {
      "name": "Garama (Germa)",
@@ -11051,7 +11104,10 @@
     "WP:Garamantes"
    ],
    "dating_note": "",
-   "key_events_ar": [],
+   "key_events_ar": [
+    "",
+    ""
+   ],
    "how_we_know": {
     "sources": [
      {
@@ -11125,8 +11181,11 @@
    "start": 1700,
    "end": 1905,
    "prominence": 0.3,
-   "key_events": [],
-   "key_events_cites": [],
+   "key_events": [
+    "Avungara dynasty founds a centralized Zande state in the 18th century",
+    "Zande chief Ndoruma captures Abu Kurun's zeriba; in 1870 he defeats a 2,000-strong force and kills Abu Kurun"
+   ],
+   "key_events_cites": [[{"source": "GHA6_CH14", "page": "368"}], [{"source": "GHA6_CH14", "page": "368"}]],
    "capitals": [
     {
      "name": "Zandeland",
@@ -11140,7 +11199,10 @@
     "WP:Zande_people"
    ],
    "dating_note": "[APPROXIMATE] [NO-SOURCE] Start and end years are approximate; no page-level source for the dates has been read.",
-   "key_events_ar": [],
+   "key_events_ar": [
+    "",
+    ""
+   ],
    "how_we_know": {
     "sources": [
      {
@@ -11214,8 +11276,10 @@
    "start": -1000,
    "end": 275,
    "prominence": 0.45,
-   "key_events": [],
-   "key_events_cites": [],
+   "key_events": [
+    "Mârib, capital of the kingdom of Saba: its principal temple on a tiered base parallels the temple of Yeha in Ethiopia"
+   ],
+   "key_events_cites": [[{"source": "GHA2_CH13", "page": "345"}]],
    "capitals": [
     {
      "name": "Ma'rib",
@@ -11228,7 +11292,9 @@
     "WP:Sabaeans"
    ],
    "dating_note": "[APPROXIMATE] [NO-SOURCE] Start and end years are approximate; no page-level source for the dates has been read.",
-   "key_events_ar": [],
+   "key_events_ar": [
+    ""
+   ],
    "how_we_know": {
     "sources": [
      {
@@ -11638,14 +11704,18 @@
    "start": 1500,
    "end": 2026,
    "prominence": 0.25,
-   "key_events": [],
-   "key_events_cites": [],
+   "key_events": [
+    "Nuer (Naath) and Dinka (Jieng) resist 19th-century traders' raids, retreating with their cattle into the swamps and often defeating the raiders"
+   ],
+   "key_events_cites": [[{"source": "GHA6_CH14", "page": "368"}]],
    "capitals": [],
    "sources": [
     "GLEICHEN1905_V1"
    ],
    "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. Nuer 19th-c. expansion still unsourced.",
-   "key_events_ar": [],
+   "key_events_ar": [
+    ""
+   ],
    "how_we_know": {
     "sources": [
      {
