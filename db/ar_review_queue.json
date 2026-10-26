@@ -5793,6 +5793,32 @@
       "added": "2026-10-26"
     },
     {
+      "era_id": null,
+      "file": "db/cities.json",
+      "field_ar": "places[id=jeddah].name_ar, places[id=jeddah].history_ar",
+      "arabic_sentence": "جدة",
+      "badge": "VERIFY",
+      "field_en": "places[id=jeddah].name_en, places[id=jeddah].history_en",
+      "revised_english": "Jeddah — regional place outside Sudan (Saudi Arabia); site of the May 2023 ceasefire talks (UNPOE_S2024_65 para 133).",
+      "note": "[يحتاج تحقق] name_ar copied exactly from GeoNames 105343 alternate name (lang ar; GeoNames also lists جدّة). history_ar left empty; no Arabic written by the Historian.",
+      "action": "Native reviewer: confirm name_ar and supply history_ar.",
+      "origin_commit": "pending",
+      "added": "2026-10-26"
+    },
+    {
+      "era_id": null,
+      "file": "db/cities.json",
+      "field_ar": "places[id=bentiu].name_ar",
+      "arabic_sentence": "بانتيو",
+      "badge": "VERIFY",
+      "field_en": "places[id=bentiu].name_en",
+      "revised_english": "Bentiu",
+      "note": "[يحتاج تحقق] name_ar copied exactly from GeoNames 377472 alternate name (lang ar). Kapoeta (GeoNames 372884), Hermopolis (Pleiades 756574) and Memphis (Pleiades 736963) have no Arabic-script name in their source, so name_ar stays null.",
+      "action": "Native reviewer: confirm name_ar.",
+      "origin_commit": "pending",
+      "added": "2026-10-26"
+    },
+    {
       "era_id": "kingdom-of-kerma",
       "file": "db/legends/eras/kingdom-of-kerma.json",
       "field_ar": "context.key_events_ar[0] (and context.key_events[0].ar)",

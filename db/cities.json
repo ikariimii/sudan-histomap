@@ -5444,8 +5444,8 @@
   {
    "id": "bentiu",
    "name_en": "Bentiu",
-   "name_ar": null,
-   "name_ar_source": "missing — queued in db/ar_review_queue.json [يحتاج تحقق]",
+   "name_ar": "بانتيو",
+   "name_ar_source": "GeoNames 377472 alternate name (lang ar), copied as given; queued in db/ar_review_queue.json [يحتاج تحقق]",
    "wikidata": null,
    "lat": 9.25722,
    "lon": 29.79833,
@@ -5562,6 +5562,45 @@
     }
    ],
    "list_only_reason": "no founding or first-attested year from a page-cited source; added as a battle/story place (IM brief 2026-10-26)"
+  },
+  {
+   "id": "jeddah",
+   "name_en": "Jeddah",
+   "name_ar": "جدة",
+   "name_ar_source": "GeoNames 105343 alternate name (lang ar), copied as given; queued in db/ar_review_queue.json [يحتاج تحقق]",
+   "wikidata": null,
+   "lat": 21.49012,
+   "lon": 39.18624,
+   "coord_source": {
+    "source_id": "GEONAMES",
+    "page": "105343",
+    "badge": "SINGLE-SOURCE",
+    "geonames_name": "Jeddah"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "note": "Regional place outside Sudan (Saudi Arabia, GeoNames country SA); shown for the 2023 Jeddah talks (UNPOE_S2024_65 para 133).",
+   "history_en": "Saudi city where talks on a ceasefire and humanitarian assistance for Sudan started in early May 2023 (UN Panel of Experts S/2024/65 para 133).",
+   "history_ar": null,
+   "history_source": {
+    "source_id": "UNPOE_S2024_65",
+    "page": "para 133 (p.37)"
+   },
+   "history_ar_status": "missing — queued in db/ar_review_queue.json",
+   "source_ids": [
+    {
+     "id": "GEONAMES",
+     "page": "105343"
+    },
+    {
+     "id": "UNPOE_S2024_65",
+     "page": "para 133 (p.37)"
+    }
+   ],
+   "list_only_reason": "no founding or first-attested year from a page-cited source; added as a regional event place (IM ruling 2026-10-26)"
   }
  ]
 }
