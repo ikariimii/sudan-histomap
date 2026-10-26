@@ -1,5 +1,5 @@
 {
- "note": "Arabic translations of map_sources label_en and *_null_reason strings, keyed by the exact English text. Machine-drafted; every value ends with [VERIFY] pending native review.",
+ "note": "Arabic translations of map_sources label_en and *_null_reason strings, keyed by the exact English text. Machine-drafted; every value ends with [VERIFY] pending native review. label_cites gives the source for the Arabic name where one is registered (label_ar_cite in map_sources.json).",
  "owner": "Sudan Map Designer",
  "ar": {
   "Abyei (disputed) [CONTESTED]": "أبيي (متنازع عليها) [CONTESTED] [VERIFY]",
@@ -63,6 +63,7 @@
   "Geneina (reference marker)": "الجنينة (علامة مرجعية) [VERIFY]",
   "Gondar (reference marker)": "غوندار (علامة مرجعية) [VERIFY]",
   "Government of Southern Sudan (CPA, 2005–2011) [APPROXIMATE]": "حكومة جنوب السودان (اتفاقية السلام الشامل، 2005–2011) [APPROXIMATE] [VERIFY]",
+  "Halaib (disputed since 1958)": "حلايب (متنازع عليها منذ 1958) (مسودة) [يحتاج تحقق]",
   "Halaib (disputed)": "حلايب (متنازع عليها) [VERIFY]",
   "Halaib (disputed; Egyptian control, effective, from 1995)": "حلايب (متنازع عليها؛ سيطرة مصرية فعلية منذ 1995) [VERIFY]",
   "Heglig to port-sudan (crude oil)": "هجليج إلى بورتسودان (النفط الخام) [VERIFY]",
@@ -185,5 +186,13 @@
   "port-sudan to atbara (agricultural products by railway (line built when Port Sudan opened in 1906))": "بورتسودان إلى عطبرة (منتجات زراعية بالسكك الحديدية (خط بُني عند افتتاح بورتسودان عام 1906)) [VERIFY]",
   "provenance text present but names no known base source": "يوجد نص للمصدر لكنه لا يسمّي أي مصدر أساسي معروف [VERIFY]",
   "schematic line, not traced": "خط تخطيطي، غير مرسوم بالتتبّع [VERIFY]"
+ },
+ "label_cites": {
+  "Halaib (disputed since 1958)": {
+   "id": "ALJAZEERA_AR_20141114_HALAIB",
+   "pages": "§ الموقع, sentence 1",
+   "covers": "name",
+   "note": "Only the name حلايب is taken from ALJAZEERA_AR_20141114_HALAIB; the qualifier (متنازع عليها منذ 1958) is a working translation of the English label, not from the source, and is pending native review."
+  }
  }
 }

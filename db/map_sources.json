@@ -16,7 +16,8 @@
     "feature_index": "int",
     "feature_id": "properties.id or null",
     "label_en": "str|null",
-    "label_ar": "Arabic of label_en from labels_ar.json, ends [VERIFY]",
+    "label_ar": "Arabic of label_en from labels_ar.json, ends [VERIFY] or [يحتاج تحقق]",
+    "label_ar_cite": "optional {id,pages,covers,note}: source for the Arabic name only",
     "zone_type": "core|claimed|influence|contested|contested_point|extent|point|line|list_only|trade_route",
     "cites": "[{id, pages}] from sources/source/cite/pages",
     "base_source": "list of base-source types matched in the feature own provenance properties, or null",
@@ -2742,7 +2743,13 @@
      "feature_index": 5,
      "feature_id": null,
      "label_en": "Halaib (disputed since 1958)",
-     "label_ar": null,
+     "label_ar": "حلايب (متنازع عليها منذ 1958) (مسودة) [يحتاج تحقق]",
+     "label_ar_cite": {
+      "id": "ALJAZEERA_AR_20141114_HALAIB",
+      "pages": "§ الموقع, sentence 1",
+      "covers": "name",
+      "note": "Only the name حلايب is taken from ALJAZEERA_AR_20141114_HALAIB; the qualifier (متنازع عليها منذ 1958) is a working translation of the English label, not from the source, and is pending native review."
+     },
      "zone_type": "contested",
      "geometry_type": "MultiPolygon",
      "cites": [
@@ -3069,7 +3076,13 @@
      "feature_index": 3,
      "feature_id": null,
      "label_en": "Halaib (disputed since 1958)",
-     "label_ar": null,
+     "label_ar": "حلايب (متنازع عليها منذ 1958) (مسودة) [يحتاج تحقق]",
+     "label_ar_cite": {
+      "id": "ALJAZEERA_AR_20141114_HALAIB",
+      "pages": "§ الموقع, sentence 1",
+      "covers": "name",
+      "note": "Only the name حلايب is taken from ALJAZEERA_AR_20141114_HALAIB; the qualifier (متنازع عليها منذ 1958) is a working translation of the English label, not from the source, and is pending native review."
+     },
      "zone_type": "contested",
      "geometry_type": "MultiPolygon",
      "cites": [
@@ -3403,7 +3416,13 @@
      "feature_index": 3,
      "feature_id": null,
      "label_en": "Halaib (disputed since 1958)",
-     "label_ar": null,
+     "label_ar": "حلايب (متنازع عليها منذ 1958) (مسودة) [يحتاج تحقق]",
+     "label_ar_cite": {
+      "id": "ALJAZEERA_AR_20141114_HALAIB",
+      "pages": "§ الموقع, sentence 1",
+      "covers": "name",
+      "note": "Only the name حلايب is taken from ALJAZEERA_AR_20141114_HALAIB; the qualifier (متنازع عليها منذ 1958) is a working translation of the English label, not from the source, and is pending native review."
+     },
      "zone_type": "contested",
      "geometry_type": "MultiPolygon",
      "cites": [
