@@ -1,0 +1,399 @@
+{
+ "_meta": {
+  "owner": "Sudan Map Designer",
+  "date": "2026-10-25",
+  "extends": "db/markers/battle_style.json war_footprint.war_palette (same 20 colours, +italian-mahdist-war)",
+  "source_data": "db/wars.json (21 ids); db/wars_post1956.json repeats 6 of the same ids (keyed war_id), so 21 unique wars",
+  "duplicate_ids_note": "For the 6 ids in both db/wars.json and db/wars_post1956.json the record comes from wars_post1956.json, which holds ongoing:true for war-2023.",
+  "colour_update_2026_10_25": "15 war colours replaced per war_vs_era_360 (IM approved): >=3:1 vs overlapping era fills, dE00>=15 vs fills/strokes/co-dated wars, >=4.5:1 on #0f1b24; light_bg_rule outline unchanged"
+ },
+ "span_state_rule": "ongoing if war.ongoing===true; else closed if war.end!=null; else end_unknown. Never infer ongoing from note text.",
+ "states": {
+  "closed": {
+   "bar": "solid, start->end, fill colour @0.55, 6px tall, 1px #0f1b24 edge, end caps = icon at start, 2px tick at end"
+  },
+  "ongoing": {
+   "bar": "start->present edge (2026), fill colour gradient @0.55->@0.15 over last 15% of track, chevron arrow at right edge (left in RTL)",
+   "label_suffix_en": "– present",
+   "label_suffix_ar": "– حتى الآن [يحتاج تحقق]"
+  },
+  "end_unknown": {
+   "bar": "NONE. Draw start marker (icon disc) + 12px dashed stub (dash 2 2, colour @0.7) ending in a small open circle; tooltip 'end not recorded'",
+   "label_suffix_en": "– end not recorded",
+   "label_suffix_ar": "– نهاية غير مسجلة [يحتاج تحقق]",
+   "rule": "never imply a span or the present"
+  },
+  "single_year": {
+   "when": "start==end",
+   "mark": "icon disc only, no bar"
+  }
+ },
+ "battle_point": {
+  "base": "existing battle_*.svg precision variants (battle_style.json)",
+  "war_tint": "exact: disc fill = war colour; approximate: ring = war colour; region: halo = war colour; reported: unchanged grey #b9a8a2",
+  "badge": "war icon 10px at top-right of marker at zoom>=8",
+  "no_war_id": "#f08c6c default"
+ },
+ "hover": {
+  "scale": 1.15,
+  "outline": "#ffd54a 2",
+  "span": "bar opacity ->0.9, other wars ->0.25",
+  "sync": "hovering bar highlights its battles on map and vice versa"
+ },
+ "active": {
+  "scale": 1.25,
+  "outline": "#ffd54a 3",
+  "halo": "#ffd54a @0.35",
+  "footprint": "show war hull (battle_style war_footprint)",
+  "aria": "aria-pressed=true on legend chip"
+ },
+ "light_bg_rule": "On web.css pages (bg #fbf8f2) all war colours are <3:1; draw every swatch/bar with a 1.5px #2b1d0e outline and the icon in #2b1d0e.",
+ "legend_entry": {
+  "layout": "14px swatch (colour + hull dash as border) | 14px icon | name | dates as in data | state suffix",
+  "order": "by start year",
+  "filter": "only wars with era_ids overlapping the current era, plus 'all wars' toggle"
+ },
+ "wars": [
+  {
+   "war_id": "kushite-egyptian-wars",
+   "name_en": "Egyptian–Kushite wars",
+   "name_ar": "الحروب المصرية الكوشية [يحتاج تحقق]",
+   "start": "-1500",
+   "end": "-593",
+   "span_state": "closed",
+   "colour": "#ffbb22",
+   "hull_dash": "solid",
+   "icon": "bow",
+   "contrast_dark_bg": 10.3,
+   "contrast_light_bg": 1.6,
+   "colour_previous": "#e69f00"
+  },
+  {
+   "war_id": "roman-meroitic-war",
+   "name_en": "Roman–Meroitic war",
+   "name_ar": "الحرب الرومانية المروية [يحتاج تحقق]",
+   "start": "-23",
+   "end": "-23",
+   "span_state": "closed",
+   "colour": "#e2b2cd",
+   "hull_dash": "solid",
+   "icon": "shield-round",
+   "contrast_dark_bg": 9.55,
+   "contrast_light_bg": 1.73,
+   "colour_previous": "#cc79a7"
+  },
+  {
+   "war_id": "aksum-kush-war",
+   "name_en": "Aksum's campaigns against Kush",
+   "name_ar": "حملات أكسوم على كوش [يحتاج تحقق]",
+   "start": "330",
+   "end": "350",
+   "span_state": "closed",
+   "colour": "#ead1b9",
+   "hull_dash": "dash 6 3",
+   "icon": "spear",
+   "contrast_dark_bg": 11.91,
+   "contrast_light_bg": 1.38,
+   "colour_previous": "#d4a373"
+  },
+  {
+   "war_id": "arab-nubian-wars",
+   "name_en": "Arab–Nubian wars",
+   "name_ar": "الحروب العربية النوبية [يحتاج تحقق]",
+   "start": "642",
+   "end": "652",
+   "span_state": "closed",
+   "colour": "#a9d9f4",
+   "hull_dash": "solid",
+   "icon": "bow-arrow",
+   "contrast_dark_bg": 11.57,
+   "contrast_light_bg": 1.42,
+   "colour_previous": "#56b4e9"
+  },
+  {
+   "war_id": "funj-abdallab-war",
+   "name_en": "Funj–Abdallab war",
+   "name_ar": "حرب الفونج والعبدلاب [يحتاج تحقق]",
+   "start": "1504",
+   "end": "1504",
+   "span_state": "closed",
+   "colour": "#f0e442",
+   "hull_dash": "solid",
+   "icon": "spear-pair",
+   "contrast_dark_bg": 13.21,
+   "contrast_light_bg": 1.25
+  },
+  {
+   "war_id": "kordofan-wars",
+   "name_en": "Wars for Kordofan (Funj, Musabba'at, Darfur)",
+   "name_ar": "حروب كردفان (الفونج والمسبعات ودارفور) [يحتاج تحقق]",
+   "start": "1747",
+   "end": null,
+   "span_state": "end-unknown",
+   "colour": "#dfc793",
+   "hull_dash": "dash 6 3",
+   "icon": "horse-head",
+   "contrast_dark_bg": 10.58,
+   "contrast_light_bg": 1.56,
+   "colour_previous": "#c9a24a"
+  },
+  {
+   "war_id": "mahdist-war",
+   "name_en": "Mahdist war against Turco-Egyptian rule",
+   "name_ar": "الحرب المهدية ضد الحكم التركي المصري [يحتاج تحقق]",
+   "start": "1881",
+   "end": "1889",
+   "span_state": "closed",
+   "colour": "#f9cdbf",
+   "hull_dash": "solid",
+   "icon": "banner",
+   "contrast_dark_bg": 12.07,
+   "contrast_light_bg": 1.37,
+   "colour_previous": "#f08c6c"
+  },
+  {
+   "war_id": "mahdist-ethiopian-war",
+   "name_en": "Mahdist–Ethiopian war",
+   "name_ar": "الحرب المهدية الإثيوبية [يحتاج تحقق]",
+   "start": "1889",
+   "end": "1889",
+   "span_state": "closed",
+   "colour": "#e7bedb",
+   "hull_dash": "dash 6 3",
+   "icon": "shield-oval",
+   "contrast_dark_bg": 10.63,
+   "contrast_light_bg": 1.55,
+   "colour_previous": "#b07aa1"
+  },
+  {
+   "war_id": "anglo-egyptian-reconquest",
+   "name_en": "Anglo-Egyptian reconquest of the Sudan",
+   "name_ar": "الاسترداد الإنجليزي المصري للسودان [يحتاج تحقق]",
+   "start": "1896",
+   "end": "1899",
+   "span_state": "closed",
+   "colour": "#f9c7b1",
+   "hull_dash": "dash 2 3",
+   "icon": "river-boat",
+   "contrast_dark_bg": 11.5,
+   "contrast_light_bg": 1.43,
+   "colour_previous": "#f8c0a8"
+  },
+  {
+   "war_id": "darfur-campaign-1916",
+   "name_en": "Darfur campaign of 1916",
+   "name_ar": "حملة دارفور 1916 [يحتاج تحقق]",
+   "start": "1916",
+   "end": "1916",
+   "span_state": "closed",
+   "colour": "#c6d2db",
+   "hull_dash": "dash 6 3",
+   "icon": "camel",
+   "contrast_dark_bg": 11.34,
+   "contrast_light_bg": 1.45,
+   "colour_previous": "#9fb3c2"
+  },
+  {
+   "war_id": "first-civil-war",
+   "name_en": "First Sudanese civil war",
+   "name_ar": "الحرب الأهلية السودانية الأولى [يحتاج تحقق]",
+   "start": "1955",
+   "end": "1972",
+   "span_state": "closed",
+   "colour": "#00e5a7",
+   "hull_dash": "solid",
+   "icon": "crossed-spears",
+   "contrast_dark_bg": 10.62,
+   "contrast_light_bg": 1.55,
+   "colour_previous": "#009e73"
+  },
+  {
+   "war_id": "second-civil-war",
+   "name_en": "Second Sudanese civil war",
+   "name_ar": "الحرب الأهلية السودانية الثانية [يحتاج تحقق]",
+   "start": "1983",
+   "end": "2005-01-09",
+   "span_state": "closed",
+   "colour": "#5fd3ad",
+   "hull_dash": "dash 6 3",
+   "icon": "crossed-swords",
+   "contrast_dark_bg": 9.49,
+   "contrast_light_bg": 1.74
+  },
+  {
+   "war_id": "darfur-war",
+   "name_en": "War in Darfur",
+   "name_ar": "الحرب في دارفور [يحتاج تحقق]",
+   "start": "2003-02",
+   "end": null,
+   "span_state": "end-unknown",
+   "colour": "#ffd54a",
+   "hull_dash": "dash 6 3",
+   "icon": "tent",
+   "contrast_dark_bg": 12.36,
+   "contrast_light_bg": 1.33
+  },
+  {
+   "war_id": "south-kordofan-blue-nile-2011",
+   "name_en": "South Kordofan and Blue Nile conflict",
+   "name_ar": "النزاع في جنوب كردفان والنيل الأزرق [يحتاج تحقق]",
+   "start": "2011-06-05",
+   "end": null,
+   "span_state": "end-unknown",
+   "colour": "#a6d854",
+   "hull_dash": "1 2",
+   "icon": "mountain-peak",
+   "contrast_dark_bg": 10.45,
+   "contrast_light_bg": 1.58
+  },
+  {
+   "war_id": "sudan-south-sudan-border-2012",
+   "name_en": "Sudan–South Sudan border conflict (Heglig crisis)",
+   "name_ar": "نزاع الحدود بين السودان وجنوب السودان (أزمة هجليج) [يحتاج تحقق]",
+   "start": "2012",
+   "end": null,
+   "span_state": "end-unknown",
+   "colour": "#e6b866",
+   "hull_dash": "dash 2 3",
+   "icon": "border-post",
+   "contrast_dark_bg": 9.49,
+   "contrast_light_bg": 1.74,
+   "colour_previous": "#e0a63e"
+  },
+  {
+   "war_id": "south-sudan-civil-war",
+   "name_en": "South Sudanese civil war",
+   "name_ar": "الحرب الأهلية في جنوب السودان [يحتاج تحقق]",
+   "start": "2013-12-15",
+   "end": null,
+   "span_state": "end-unknown",
+   "colour": "#b0d9f5",
+   "hull_dash": "dash 2 3",
+   "icon": "broken-ring",
+   "contrast_dark_bg": 11.72,
+   "contrast_light_bg": 1.41,
+   "colour_previous": "#8cc8f0"
+  },
+  {
+   "war_id": "war-2023",
+   "name_en": "War in Sudan (SAF vs RSF)",
+   "name_ar": "الحرب في السودان (الجيش والدعم السريع) [يحتاج تحقق]",
+   "start": "2023-04-15",
+   "end": null,
+   "span_state": "ongoing (pending ongoing:true field)",
+   "colour": "#f2f4f7",
+   "hull_dash": "dash 4 2 1 2",
+   "icon": "flame-outline",
+   "contrast_dark_bg": 15.85,
+   "contrast_light_bg": 1.04
+  },
+  {
+   "war_id": "piye-conquest-of-egypt",
+   "name_en": "Piye's conquest of Egypt",
+   "name_ar": "غزو بيي لمصر [يحتاج تحقق]",
+   "start": "-720",
+   "end": "-720",
+   "span_state": "closed",
+   "colour": "#86c7a7",
+   "hull_dash": "dash 1 3",
+   "icon": "chariot-wheel",
+   "contrast_dark_bg": 8.93,
+   "contrast_light_bg": 1.84,
+   "colour_previous": "#7fc4a2"
+  },
+  {
+   "war_id": "mamluk-makuria-wars",
+   "name_en": "Mamluk expeditions into Makuria",
+   "name_ar": "الحملات المملوكية على المقرة [يحتاج تحقق]",
+   "start": "1276",
+   "end": "1326",
+   "span_state": "closed",
+   "colour": "#f2d27a",
+   "hull_dash": "dash 8 2",
+   "icon": "plain-shield",
+   "contrast_dark_bg": 11.87,
+   "contrast_light_bg": 1.39,
+   "icon_note": "Plain shield, no crescent: SFDAS_HCS2017 p.419 describes a fight between states (Historian ruling)."
+  },
+  {
+   "war_id": "ottoman-nubia-campaign",
+   "name_en": "Ottoman occupation of northern Nubia",
+   "name_ar": "الاحتلال العثماني لشمال النوبة [يحتاج تحقق]",
+   "start": "1560",
+   "end": "1560",
+   "span_state": "closed",
+   "colour": "#ffc8ce",
+   "hull_dash": "dash 1 3",
+   "icon": "fortress",
+   "contrast_dark_bg": 11.98,
+   "contrast_light_bg": 1.38,
+   "colour_previous": "#ff9da7"
+  },
+  {
+   "war_id": "italian-mahdist-war",
+   "name_en": "Italian–Mahdist war (Eritrean frontier)",
+   "name_ar": "الحرب الإيطالية المهدية [يحتاج تحقق]",
+   "start": "1893",
+   "end": "1897",
+   "span_state": "closed",
+   "colour": "#c0d5e2",
+   "hull_dash": "dash 4 4",
+   "icon": "fort-flag",
+   "contrast_dark_bg": 11.52,
+   "contrast_light_bg": 1.43,
+   "colour_previous": "#7aa6c2"
+  }
+ ],
+ "peace_agreement_milestone": {
+  "id": "peace_agreement_milestone",
+  "glyph": "open diamond (rotated square), no fill; 10/12/14px by zoom",
+  "stroke": "#e8e2d0 1.6px",
+  "outline": "#2b1d0e outer casing (3.6px under the 1.6px stroke)",
+  "fill": "none",
+  "placement": "on the war span at the agreement date, centred on the bar",
+  "contrast": {
+   "#e8e2d0/#0f1b24": 13.49,
+   "#e8e2d0/#f2f4f7 (inner line only)": 1.17,
+   "#2b1d0e/#f2f4f7": 14.83,
+   "#2b1d0e/#ffffff": 16.34,
+   "#e8e2d0/#2b1d0e": 12.62,
+   "#e8e2d0/relief p95 #4f4942": 6.86,
+   "#e8e2d0/worst topo tone #51756d": 3.94
+  },
+  "contrast_note": "The light stroke carries the mark on #0f1b24 and the topo tones (>=3.94:1). On light pages the #2b1d0e casing is the visible edge (>=14.8:1) and the light stroke is the inner line.",
+  "label": "\"<agreement name> <year>\" + cite (source_id and pages from the event row), e.g. \"Juba Peace Agreement 2020 · UNSC2559 p.2\"; Arabic from the event ar field with its VERIFY chip when tagged",
+  "rules": [
+   "A milestone never closes, shortens or ends a war span; the end comes only from the war record.",
+   "Start-only wars keep \"end date unknown\" even with a milestone on them.",
+   "No milestone without a landed event row that has a registered cite; the Map Designer adds no events.",
+   "Shape (open diamond) distinguishes it from battle discs/rings and event pins (CVD-safe)."
+  ],
+  "data_source": "db/era_events_post1956.json (Analyst) merged into legend context.key_events by event_id",
+  "milestones": [
+   {
+    "event_id": "southern-sudan-under-condominium-sudan#1",
+    "name_en": "Comprehensive Peace Agreement (CPA)",
+    "year": 2005,
+    "status": "existing event line"
+   },
+   {
+    "event_id": "al-bashir-ncp-ingaz-regime#4",
+    "name_en": "Sudan–South Sudan Cooperation Agreements, Addis Ababa, 27 Sep 2012 (UNSC2075 p.1)",
+    "year": 2012,
+    "status": "landed eb66f1a/a7de8ae, appended (no base line)"
+   },
+   {
+    "event_id": "republic-of-south-sudan#2",
+    "name_en": "R-ARCSS",
+    "year": 2018,
+    "status": "existing event line"
+   },
+   {
+    "event_id": "december-revolution-transition#5",
+    "name_en": "Juba Peace Agreement, 3 Oct 2020 (UNSC2559 p.2)",
+    "year": 2020,
+    "status": "landed eb66f1a/a7de8ae, appended (no base line)"
+   }
+  ]
+ }
+}
