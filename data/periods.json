@@ -1434,7 +1434,7 @@
     "pages": "",
     "lang": "en",
     "affiliation_bias": "German-run climate/security platform",
-    "verification": "fetched 2026-10-19 (HTTP 200)",
+    "verification": "fetched 2026-10-19 (HTTP 200); re-fetched 2026-10-25 (curl HTTP 200), quote confirmed: 'In March 2011, the late Meles Zenawi announced the beginning of construction on the GERD.'; SINGLE-SOURCE (only cite for the 2011 GERD construction start)",
     "via": "db/geopolitics_sources.json"
    },
    "GEO-017": {
@@ -2489,6 +2489,32 @@
     "affiliation_bias": "UN agency (OCHA)",
     "verification": "read in full 2026-10-25 via WebFetch (unocha.org HTML of the English version); curl HTTP 200 2026-10-25",
     "via": "db/geopolitics_sources.json"
+   },
+   "OWID_POPDEMO_SDN": {
+    "author": "Hannah Ritchie (Our World in Data)",
+    "title": "Sudan - Population and Demography Country Profile | Our World in Data",
+    "title_en": "same",
+    "publisher": "Our World in Data (Global Change Data Lab, University of Oxford)",
+    "year": "2026",
+    "url": "https://ourworldindata.org/profile/population-demography/sudan",
+    "pages": "",
+    "lang": "en",
+    "affiliation_bias": "Academic data aggregator; secondary presentation of UN WPP 2024 (1950 on); 'Sudan' = current borders, excludes South Sudan",
+    "verification": "accessed 2026-10-25 (curl HTTP 200; figures JS-rendered, values read from grapher CSV/metadata endpoints of the charts 'Population' and 'Population' (with UN projections)); credits UN WPP 2024 (UNWPP2024)",
+    "via": "Agrescatti via Innovation Manager 2026-10-25"
+   },
+   "UNWPP2024": {
+    "author": "United Nations, Department of Economic and Social Affairs, Population Division",
+    "title": "World Population Prospects 2024",
+    "title_en": "same",
+    "publisher": "UN DESA Population Division",
+    "year": "2024",
+    "url": "https://population.un.org/wpp/",
+    "pages": "",
+    "lang": "en",
+    "affiliation_bias": "UN agency (DESA); modelled estimates and projections",
+    "verification": "credited by OWID_POPDEMO_SDN (OWID metadata: 'UN, World Population Prospects (2024)'; 1950-2023 estimates, 2024 revision; projections medium variant); same release as db/population.json POP_WPP2024",
+    "via": "OWID_POPDEMO_SDN"
    },
    "GEONAMES": {
     "author": "GeoNames",
