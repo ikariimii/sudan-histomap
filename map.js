@@ -150,7 +150,7 @@ async function render(anim=true){await MK;
  const LB=[];areas.forEach(f=>{const q=f.properties.label_point;const xy=q?proj(q):path.centroid(f);if(lab(f.properties))LB.push({xy,t:short(lab(f.properties)),pri:3,big:1})});
  pts.forEach(f=>LB.push({xy:proj(f.geometry.coordinates),t:short(lab(f.properties)),pri:rep(f.properties)?2.5:2,rep:rep(f.properties),dx:9}));caps.forEach(c=>LB.push({xy:proj([c[1],c[2]]),t:AR&&c[3]||c[0],pri:2,dx:8,rep:AR&&c[4]?'VERIFY':undefined}));
  LBS=LB;
- await layersDraw(e);batDraw(e);if(gEp)gEp.selectAll('*').remove();if(on.has('hml'))hmlDraw();prefetch(i);zonesDraw(e,D,ctl?g.features.filter(f=>f.properties.zone&&f.geometry.type!=='Point'):[]);
+ await layersDraw(e);batDraw(e).then(()=>{if(e===ES[i])legendDraw(e)});/* legend battle counts read the drawn pins */if(gEp)gEp.selectAll('*').remove();if(on.has('hml'))hmlDraw();prefetch(i);zonesDraw(e,D,ctl?g.features.filter(f=>f.properties.zone&&f.geometry.type!=='Point'):[]);
  // card
  const cj=await cardj(e);if(e!==ES[i])return;$('card').innerHTML=cj?cj[L]:`<p><span class="gap">${T.wip}</span></p>`;evList(e);cityLO(e);shareBtn(e);layerInfo(e);msPanel(e);$('feat').hidden=true;wtlDraw();
  place()}
@@ -369,9 +369,13 @@ const lgN=r=>{const f=LGR[lgK(r)];if(AR)return r.ar||(f&&f[1])||r.en;return(r.en
 const LGL={ctl:()=>T.l.ctl,cty:()=>T.l.cty,grp:()=>T.l.grp,rel:()=>T.l.rel,hml:()=>T.l.hml};
 let lgOpen=false;
 async function legendDraw(e){const b=$('lgb'),p=$('lgp');if(!b||!p)return;p.setAttribute('role','region');p.setAttribute('aria-label',T.legendl||T.lg);const d=await lgj(e.id),sp=await LGS;if(e!==ES[i])return;
- /* QA: battle legend counts come from the pins actually drawn (g.bt.mk pr-<precision>), not the precomputed lg/ n */
- const bdr=document.querySelectorAll('g.bt.mk'),bpc=k=>{const m=/^battle_(exact|approximate|region)$/.exec(k);if(!m||!bdr.length)return null;let n=0;bdr.forEach(g=>{if(g.classList.contains('pr-'+m[1]))n++});return n};
- const rows=d?d.rows.filter(r=>on.has(r.l)).map(r=>{const n=bpc(lgK(r));return n==null?r:Object.assign({},r,{n})}).filter(r=>r.n!==0):[];b.textContent=`${T.lg}${rows.length?' · '+num(rows.length):''}`;b.setAttribute('aria-expanded',lgOpen);
+ /* QA: battle legend rows/counts come from the pins actually drawn for the era at the current step (g.bt.mk pr-<precision>, whole map, not viewport); rows with 0 drawn hidden, drawn classes without an lg/ row get one */
+ const BK=/^battle_(exact|approximate|region)$/,bdOn=!!(gBt&&on.has('bat')),bcnt={};if(bdOn)document.querySelectorAll('g.bt.mk').forEach(g=>{const m=[...g.classList].find(c=>c.startsWith('pr-'));if(m)bcnt[m.slice(3)]=(bcnt[m.slice(3)]||0)+1});
+ const BDEF={exact:'Battle, exact location',approximate:'Battle, approximate location',region:'Battle, region only (no pin)'};
+ let rows=d?d.rows.filter(r=>BK.test(lgK(r))?bdOn:on.has(r.l)):[];
+ if(bdOn){const have=new Set();rows=rows.map(r=>{const m=BK.exec(lgK(r));if(!m)return r;have.add(m[1]);return Object.assign({},r,{n:bcnt[m[1]]||0})}).filter(r=>r.n!==0);
+  for(const k of ['exact','approximate','region'])if(bcnt[k]&&!have.has(k))rows.push({l:'ctl',id:'battles:battle_'+k,en:BDEF[k],ar:null,n:bcnt[k]})}
+ b.textContent=`${T.lg}${rows.length?' · '+num(rows.length):''}`;b.setAttribute('aria-expanded',lgOpen);
  let h='';const ls=[...new Set(rows.map(r=>r.l))];
  if(!rows.length)h=`<p><span class="gap">${T.wip}</span> <span class="gapt">${esc(T.lgnone)}</span></p>`;
  {zdefs();const g0=await ext(e);if(e!==ES[i])return;const cs=new Set(g0.features.filter(f=>f.properties.zone&&f.properties.cs&&f.geometry.type!=='Point').map(f=>f.properties.cs));if(g0.features.some(f=>isCA(f)||(f.geometry.type==='Point'&&(f.properties.badge==='CONTESTED'||(f.properties.badges||[]).includes('CONTESTED')))))cs.add('contested');
