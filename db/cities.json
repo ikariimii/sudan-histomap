@@ -22,7 +22,7 @@
    },
    "category": "ancient",
    "founded": null,
-   "founded_reason": "SFDAS_HCS2017 p.69 dates Early Kerma from 2450 BCE (kingdom phases, not a foundation date of the site); GHA II's -1730/-1580 covers only the Classic phase",
+   "founded_reason": "KERMA_MISSION 'History' dates Early Kerma from c.2450 BCE (kingdom phases, not a foundation date of the site); GHA II's -1730/-1580 covers only the Classic phase",
    "abandoned": {
     "year": null,
     "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
@@ -33,9 +33,9 @@
      "role": "capital",
      "start": -2450,
      "end": -1450,
-     "source_id": "SFDAS_HCS2017",
-     "page": "59, 69, 95",
-     "note": "Kerma kingdom 2450–1450 BCE: Early 2450–2050, Middle 2050–1750, Classic 1750–1550, Final 1550–1450 (SFDAS_HCS2017 p.69; chapter span p.59; city abandoned after c.1470 campaign, p.95)"
+     "source_id": "KERMA_MISSION",
+     "page": "History",
+     "note": "Swiss mission chronology: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE; Final Kerma 'denotes the transition between the end of the kingdom and the Egyptian occupation (circa 1480-1450 B.C.)' (KERMA_MISSION 'History'). Abandonment after the Egyptian campaign not stated there; dropped."
     }
    ],
    "history_en": "Capital of the Kerma kingdom of Upper Nubia.",
@@ -43,8 +43,8 @@
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
     {
-     "id": "SFDAS_HCS2017",
-     "page": "59, 69, 95"
+     "id": "KERMA_MISSION",
+     "page": "History"
     },
     {
      "id": "GHA2_CH9",
@@ -58,8 +58,8 @@
    "first_attested": {
     "year": -2450,
     "badge": "FIRST_ATTESTED",
-    "source_id": "SFDAS_HCS2017",
-    "page": "69",
+    "source_id": "KERMA_MISSION",
+    "page": "History",
     "basis": "first cited era role (capital, kingdom-of-kerma) with stated start"
    },
    "map_from": {
