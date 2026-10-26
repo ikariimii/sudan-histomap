@@ -1,0 +1,2024 @@
+{
+ "meta": {
+  "owner": "Sudan Map Designer",
+  "status": "SPEC_DRAFT",
+  "size_px": [
+   1080,
+   1080
+  ],
+  "rules": [
+   "No invented data: every field comes from data/eras/<id>.json or db/extents/<id>.geojson",
+   "Arabic name tagged [يحتاج تحقق] until reviewed",
+   "Contested areas drawn hatched as contested, from the extents' own contested flags",
+   "Post-1956 eras show no area of control (no control claims); modern borders only",
+   "Nothing posted to social without Agrescatti's approval"
+  ],
+  "layout": {
+   "safe_margin_px": 64,
+   "title_en": {
+    "y": 96,
+    "font": "serif 64px"
+   },
+   "title_ar": {
+    "y": 176,
+    "font": "Noto Naskh Arabic 56px",
+    "dir": "rtl"
+   },
+   "years": {
+    "y": 236,
+    "font": "sans 32px"
+   },
+   "map": {
+    "box": [
+     64,
+     280,
+     1016,
+     920
+    ],
+    "fit": "camera_bbox"
+   },
+   "credit": {
+    "y": 1040,
+    "font": "sans 20px",
+    "text": "sudan.indomando.com · Sources: {short_source_ids} · Area: {area_badge}"
+   }
+  },
+  "area_style": {
+   "fill_from": "era palette (db/legends/legend_spec.json)",
+   "fill_opacity": 0.55,
+   "contested": "45deg hatch, 2px",
+   "stroke": "#0f1b24 1.5px"
+  },
+  "badge_on_card": "area badge copied from the extent's properties, never upgraded"
+ },
+ "eras": [
+  {
+   "era_id": "a-group-lower-nubia",
+   "name_en": "A-Group (Lower Nubia)",
+   "name_ar": "المجموعة أ (النوبة السفلى)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    -3800,
+    -2900
+   ],
+   "dating_note": "UNESCO GHA II ch.9 (Sherif) places the A-Group's flowering c.3100 BCE, contemporary with Egypt's 1st Dynasty; -3800 start is a broad conventional bracket. Qustul coordinates corrected (Wikidata).",
+   "area_layer": "db/extents/a-group-lower-nubia.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    29.96,
+    20.7,
+    32.96,
+    23.7
+   ],
+   "source_ids": [
+    "GHA2",
+    "SFDAS_HCS2017",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WP:A-Group_culture"
+   ]
+  },
+  {
+   "era_id": "abboud-military-regime",
+   "name_en": "Abboud military regime",
+   "name_ar": "حكم عبود العسكري",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1958,
+    1964
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/abboud-military-regime.geojson",
+   "area_mode": "none_post1956_no_control_claims",
+   "camera_bbox": [
+    19.943,
+    1.628,
+    40.924,
+    24.097
+   ],
+   "source_ids": [
+    "GHA8",
+    "HD2011",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "LOC1991_ABBUD",
+    "SERIHERSCH2020",
+    "UNESCO_MGIEP_SSD",
+    "WP:Ibrahim_Abboud",
+    "WP:October_1964_Revolution",
+    "UNSC_S2005_60"
+   ]
+  },
+  {
+   "era_id": "abdallab-chiefdom-funj-vassal",
+   "name_en": "'Abdallab chiefdom (Funj vassal)",
+   "name_ar": "مشيخة العبدلاب (تابعة للفونج)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1480,
+    1821
+   ],
+   "dating_note": "Start 'late 15th c.' per Holt & Daly; 1480 is approximate. Qarri coordinates from Wikidata (settlement, approximate). End 1821 = Turco-Egyptian conquest.",
+   "area_layer": "db/extents/abdallab-chiefdom-funj-vassal.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    31.132,
+    14.736,
+    34.132,
+    17.736
+   ],
+   "source_ids": [
+    "HD2011",
+    "COW_NMC6",
+    "SPAULDING1985"
+   ]
+  },
+  {
+   "era_id": "al-bashir-ncp-ingaz-regime",
+   "name_en": "Al-Bashir / NCP (Ingaz) regime",
+   "name_ar": "نظام الإنقاذ (البشير)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1989,
+    2019
+   ],
+   "dating_note": "Holt & Daly 6th ed. (2011) covers to c.2010; the 9 July 2011 secession is cited to UNSC1996.",
+   "area_layer": "db/extents/al-bashir-ncp-ingaz-regime.geojson",
+   "area_mode": "none_post1956_no_control_claims",
+   "camera_bbox": [
+    19.851,
+    1.537,
+    41.022,
+    25.103
+   ],
+   "source_ids": [
+    "ICG2019",
+    "AR_WIKI_HIST",
+    "AR_SUDANILE2013",
+    "DE_WIKI_HIST",
+    "DE_BPB_KONFLIKT",
+    "ES_ELCANO2011",
+    "FR_WIKI_HIST",
+    "RU_WIKI_HIST",
+    "RU_RIA_2011",
+    "ZH_YU2008",
+    "ZH_SUN2009",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "HD2011",
+    "EIA_SDN2013",
+    "SFDAS_HCS2017",
+    "CPA_2005",
+    "PATEY_TWQ2007",
+    "UNSC1996",
+    "UNSC_S2005_60",
+    "UN_NEWS_2009_292942"
+   ]
+  },
+  {
+   "era_id": "alodia-alwa",
+   "name_en": "Alodia (Alwa)",
+   "name_ar": "علوة",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    500,
+    1504
+   ],
+   "dating_note": "Fall c.1504 traditional (Funj/'Abdallab). Soba point confirmed by Wikidata Q1247214 (15.524N 32.681E), consistent with the original; there is no Pleiades entry; no excavation-report coordinate checked.",
+   "area_layer": "db/extents/alodia-alwa.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    31.181,
+    14.024,
+    34.181,
+    17.024
+   ],
+   "source_ids": [
+    "GHA2_CH12",
+    "WELSBY2002",
+    "COW_NMC6",
+    "GHA4_CH16",
+    "GHA3_CH8",
+    "WD:Q1247214",
+    "HD2011",
+    "WP:Alodia"
+   ]
+  },
+  {
+   "era_id": "anglo-egyptian-sudan-condominium",
+   "name_en": "Anglo-Egyptian Sudan (Condominium)",
+   "name_ar": "الحكم الثنائي الإنجليزي المصري",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1899,
+    1956
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/anglo-egyptian-sudan-condominium.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    16.974,
+    0.055,
+    40.962,
+    25.366
+   ],
+   "source_ids": [
+    "BRE_AES",
+    "GHA8",
+    "HD2011",
+    "GHA7_CH17",
+    "COW_NMC6",
+    "SFDAS_HCS2017",
+    "WB_TP120_1990"
+   ]
+  },
+  {
+   "era_id": "anuak-anywaa-communities",
+   "name_en": "Anuak (Anywaa) communities",
+   "name_ar": "مجتمعات الأنواك (أنيوا)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1500,
+    2026
+   ],
+   "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. ",
+   "area_layer": "db/extents/anuak-anywaa-communities.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    31.7185,
+    6.9337,
+    34.7185,
+    9.9337
+   ],
+   "source_ids": [
+    "COW_NMC6",
+    "GLEICHEN1905_V2",
+    "LOC_ETH1991_NILOSAHARAN",
+    "GHAV",
+    "GLEICHEN1905_V1"
+   ]
+  },
+  {
+   "era_id": "beja-red-sea-hills-peoples",
+   "name_en": "Beja (Red Sea Hills peoples)",
+   "name_ar": "البجا (شعوب جبال البحر الأحمر)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    275,
+    2026
+   ],
+   "dating_note": "Start c.275 CE = earliest dated Blemmyes activity in GHA II ch.7 (Probus 276–282). The Blemmyes=Beja equation is customary, NOT proven (GHA II ch.10); GHA II ch.11 says earlier Meroitic-era Majai/Reheres 'could have been' Beja ancestors, so earlier origins are possible. Ongoing people, not a polity.",
+   "area_layer": "db/extents/beja-red-sea-hills-peoples.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    35.83,
+    17.602,
+    38.83,
+    20.602
+   ],
+   "source_ids": [
+    "HD2011",
+    "GHA2",
+    "COW_NMC6",
+    "GHA2_CH12"
+   ]
+  },
+  {
+   "era_id": "bornu-empire",
+   "name_en": "Bornu Empire",
+   "name_ar": "إمبراطورية برنو",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1380,
+    1893
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/bornu-empire.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    11.728,
+    12.425,
+    14.068,
+    13.547
+   ],
+   "source_ids": [
+    "COW_NMC6",
+    "GHA4_CH10",
+    "GHA5_CH17",
+    "GHA6_CH22",
+    "GHAIV",
+    "GHAV",
+    "GHA6_CH14",
+    "WP:Bornu_Empire"
+   ]
+  },
+  {
+   "era_id": "british-occupied-kingdom-of-egypt",
+   "name_en": "British-occupied / Kingdom of Egypt",
+   "name_ar": "مملكة مصر والاحتلال البريطاني",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1882,
+    1953
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/british-occupied-kingdom-of-egypt.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    22.481,
+    20.312,
+    38.262,
+    32.997
+   ],
+   "source_ids": [
+    "GHA7_CH21",
+    "GHA7_CH23",
+    "COW_NMC6",
+    "GHA7_CH17",
+    "LOC1991_CONDO",
+    "LOC1991_NATIONALISM",
+    "LOC1991_INDEP",
+    "UNTS6519_1959",
+    "WP:Kingdom_of_Egypt"
+   ]
+  },
+  {
+   "era_id": "c-group-lower-nubia",
+   "name_en": "C-Group (Lower Nubia)",
+   "name_ar": "المجموعة ج (النوبة السفلى)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    -2400,
+    -1550
+   ],
+   "dating_note": "GHA II ch.9: C-Group appears late Old Kingdom/First Intermediate Period and lasts until Egyptianisation of Nubia in the 16th c. BCE; -2400 start sits at the early edge. Aniba verified: Pleiades 795777 (BAtlas 81 C3).",
+   "area_layer": "db/extents/c-group-lower-nubia.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    29.878,
+    20.293,
+    32.877,
+    23.293
+   ],
+   "source_ids": [
+    "GHA2",
+    "SFDAS_HCS2017",
+    "COW_NMC6",
+    "PL:795777",
+    "GHA2_CH12",
+    "WP:C-Group_culture"
+   ]
+  },
+  {
+   "era_id": "central-african-republic-ubangi-shari",
+   "name_en": "Central African Republic (Ubangi-Shari)",
+   "name_ar": "جمهورية أفريقيا الوسطى",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1903,
+    2026
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/central-african-republic-ubangi-shari.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    11.498,
+    0.256,
+    29.431,
+    23.927
+   ],
+   "source_ids": [
+    "CAR_CONST2016",
+    "CAR_CONST2023",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "ICG_RADAR2024",
+    "UNHCR_CAR2024",
+    "GHA7_CH17",
+    "GHA8",
+    "WP:Central_African_Republic"
+   ]
+  },
+  {
+   "era_id": "daju-kingdom",
+   "name_en": "Daju kingdom",
+   "name_ar": "مملكة الداجو",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1100,
+    1400
+   ],
+   "dating_note": "Very approximate; known mainly from oral tradition (O'Fahey 2008, 'Daju and Tunjur'). Jebel Marra point is a regional marker.",
+   "area_layer": "db/extents/daju-kingdom.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    22.77,
+    11.45,
+    25.77,
+    14.45
+   ],
+   "source_ids": [
+    "TAKANA2016",
+    "COW_NMC6",
+    "GHA4_CH16",
+    "MACMICHAEL1922_V1",
+    "GHA5_CH7",
+    "OFAHEY2008",
+    "WP:Daju_people",
+    "WP:History_of_Darfur"
+   ]
+  },
+  {
+   "era_id": "december-revolution-transition",
+   "name_en": "December Revolution & transition",
+   "name_ar": "ثورة ديسمبر والفترة الانتقالية",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    2019,
+    2023
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/december-revolution-transition.geojson",
+   "area_mode": "none_post1956_no_control_claims",
+   "camera_bbox": [
+    20.091,
+    6.958,
+    40.782,
+    24.864
+   ],
+   "source_ids": [
+    "ICG2019",
+    "ICG2021",
+    "UNSC2524",
+    "COW_NMC6",
+    "IMF_PR21199",
+    "IMF_CR21082",
+    "IMF_CR21143",
+    "WB_PAUSE2021",
+    "AYIN_MURALS2022",
+    "AFP_GRAFFITI2019",
+    "JPIA_GENDER2020",
+    "AJA_FLOAT2021",
+    "WP:Sudanese_revolution",
+    "WP:2021_Sudanese_coup_d'état"
+   ]
+  },
+  {
+   "era_id": "derg-federal-ethiopia",
+   "name_en": "Derg & Federal Ethiopia",
+   "name_ar": "الدرغ وإثيوبيا الفيدرالية",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1974,
+    2026
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/derg-federal-ethiopia.geojson",
+   "area_mode": "none_post1956_no_control_claims",
+   "camera_bbox": [
+    31.491,
+    1.904,
+    49.479,
+    19.57
+   ],
+   "source_ids": [
+    "LOC_ETH1991_TOPO",
+    "LOC_ETH1991_NILOSAHARAN",
+    "LOC_ETH1991_ISLAM",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "LOC_ETH1991_BORDER",
+    "HRW1998_SPLA",
+    "EJOSSAH_DERG_SPLA",
+    "ICG_B204",
+    "ICG_ETH_ERI",
+    "GHA8",
+    "WP:Derg",
+    "WP:Grand_Ethiopian_Renaissance_Dam",
+    "GEO-016"
+   ]
+  },
+  {
+   "era_id": "dinka-jieng-communities",
+   "name_en": "Dinka (Jieng) communities",
+   "name_ar": "مجتمعات الدينكا (جيينق)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1500,
+    2026
+   ],
+   "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. ",
+   "area_layer": "db/extents/dinka-jieng-communities.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    30.05,
+    4.717,
+    33.05,
+    7.717
+   ],
+   "source_ids": [
+    "HD2011",
+    "COW_NMC6",
+    "GHA5_CH7",
+    "GLEICHEN1905_V1"
+   ]
+  },
+  {
+   "era_id": "early-dynastic-old-kingdom-egypt",
+   "name_en": "Early Dynastic & Old Kingdom Egypt",
+   "name_ar": "مصر: الأسرات المبكرة والدولة القديمة",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    -3100,
+    -2181
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/early-dynastic-old-kingdom-egypt.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    30.783,
+    21.417,
+    33.39,
+    24.59
+   ],
+   "source_ids": [
+    "GHA2_CH2",
+    "GHA2_CH4",
+    "GHA2_CH8",
+    "GHA2_CH9",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WP:Old_Kingdom_of_Egypt"
+   ]
+  },
+  {
+   "era_id": "egyptian-new-kingdom-rule-in-nubia",
+   "name_en": "Egyptian New Kingdom rule in Nubia",
+   "name_ar": "حكم الدولة المصرية الحديثة في النوبة",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    -1500,
+    -1070
+   ],
+   "dating_note": "WHC: Gebel Barkal sacred to Amun since c.1500 BCE. Soleb/Kurgus coordinates from Wikidata (approximate).",
+   "area_layer": "db/extents/egyptian-new-kingdom-rule-in-nubia.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    29.833,
+    18.033,
+    33.977,
+    22.417
+   ],
+   "source_ids": [
+    "GHA2",
+    "COW_NMC6",
+    "WHC1073",
+    "GHA2_CH12",
+    "WP:Viceroy_of_Kush"
+   ]
+  },
+  {
+   "era_id": "eritrea-italian-colony-independent",
+   "name_en": "Eritrea (Italian colony → independent)",
+   "name_ar": "إريتريا",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1890,
+    2026
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/eritrea-italian-colony-independent.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    31.5,
+    1.906,
+    49.478,
+    19.569
+   ],
+   "source_ids": [
+    "LOC_ETH1991_ETHIOSEMITIC",
+    "LOC1991_MUSLIMPEOPLES",
+    "LOC_ETH1991_ERITREANMOV",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "LOC_ETH1991_BORDER",
+    "HRW1998_SPLA",
+    "SAS_HSBA_WP3",
+    "ICG_B204",
+    "ICG_ETH_ERI",
+    "SWM_ERI2024",
+    "GHA7_CH17",
+    "GHA8",
+    "EEBC2002"
+   ]
+  },
+  {
+   "era_id": "ethiopian-empire-solomonic",
+   "name_en": "Ethiopian Empire (Solomonic)",
+   "name_ar": "الإمبراطورية الإثيوبية (السليمانية)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1270,
+    1974
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/ethiopian-empire-solomonic.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    31.5,
+    1.906,
+    49.478,
+    19.532
+   ],
+   "source_ids": [
+    "COW_NMC6",
+    "GHA4_CH17",
+    "GHA5_CH7",
+    "GHA6_CH15",
+    "GHA7_CH11",
+    "GHAIV",
+    "GHAV",
+    "GHA6_CH14",
+    "GHA7_CH17",
+    "WP:Ethiopian_Empire",
+    "WP:Battle_of_Gallabat"
+   ]
+  },
+  {
+   "era_id": "french-chad-republic-of-chad",
+   "name_en": "French Chad → Republic of Chad",
+   "name_ar": "تشاد",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1900,
+    2026
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/french-chad-republic-of-chad.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    11.327,
+    0.106,
+    29.581,
+    25.575
+   ],
+   "source_ids": [
+    "LOC_TCD1988_NIGSUDAN",
+    "LOC_TCD1988_NILOSAHARAN",
+    "LOC1991_MUSLIMPEOPLES",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "LOC1991_CHAD",
+    "NDJAMENA2010",
+    "UNSC_S2010_217",
+    "ICG_B204",
+    "GHA7_CH17",
+    "GHA8",
+    "WP:Chad"
+   ]
+  },
+  {
+   "era_id": "funj-sultanate-of-sennar",
+   "name_en": "Funj Sultanate of Sennar",
+   "name_ar": "سلطنة الفونج (سنار)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1504,
+    1821
+   ],
+   "dating_note": "1504–1821: Funj victory over the 'Abdallabi at Arbaji in 1504 (GHA V ch.7 p.173); Turco-Egyptian forces take Sennar in 1821 (GHA V ch.7 p.185; GHA VI ch.14 p.356: the Sennar rulers 'capitulated to the Turkish rulers in 1821' after the sultanate's disintegration into 'weak and hostile shaykhdoms'). Foundation by a Shilluk band is a tradition, not established fact [NO-SOURCE: no page read].",
+   "area_layer": "db/extents/funj-sultanate-of-sennar.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    28.652,
+    10.436,
+    35.614,
+    20.608
+   ],
+   "source_ids": [
+    "HD2011",
+    "SPAULDING1985",
+    "COW_NMC6",
+    "GHA5_CH7",
+    "GHA6_CH14"
+   ]
+  },
+  {
+   "era_id": "garamantes-fezzan",
+   "name_en": "Garamantes (Fezzan)",
+   "name_ar": "الجرمنت (فزان)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    -500,
+    700
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/garamantes-fezzan.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    11.567,
+    25.033,
+    14.567,
+    28.033
+   ],
+   "source_ids": [
+    "GHA2_CH20",
+    "COW_NMC6",
+    "GHA2_CH18",
+    "GHA2_CH19",
+    "WP:Garamantes"
+   ]
+  },
+  {
+   "era_id": "independent-sudan-first-parliamentary-period",
+   "name_en": "Independent Sudan – First parliamentary period",
+   "name_ar": "الاستقلال – الحكم البرلماني الأول",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1956,
+    1958
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/independent-sudan-first-parliamentary-period.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    19.84,
+    1.525,
+    40.828,
+    25.232
+   ],
+   "source_ids": [
+    "GHA8",
+    "HD2011",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "WP:History_of_Sudan_(1956–1969)",
+    "LOC1991_INDSUDAN",
+    "UNSC_S2005_60"
+   ]
+  },
+  {
+   "era_id": "islamic-egypt-rashidunfatimidayyubid",
+   "name_en": "Islamic Egypt (Rashidun–Fatimid–Ayyubid)",
+   "name_ar": "مصر الإسلامية",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    641,
+    1250
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/islamic-egypt-rashidunfatimidayyubid.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    30.646,
+    23.497,
+    33.491,
+    30.597
+   ],
+   "source_ids": [
+    "GHA2_CH12",
+    "GHA4_CH16",
+    "GHA3_CH7",
+    "GHA3_CH8",
+    "COW_NMC6",
+    "GHAIV",
+    "WP:Muslim_conquest_of_Egypt",
+    "WP:Fatimid_Caliphate"
+   ]
+  },
+  {
+   "era_id": "ja-aliyyin-kingdom-sa-dab-funj-vassal",
+   "name_en": "Ja'aliyyin kingdom (Sa'dab, Funj vassal)",
+   "name_ar": "مملكة الجعليين (السعداب، تابعة للفونج)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1500,
+    1821
+   ],
+   "dating_note": "'From the sixteenth century' (Holt & Daly); 1500 approximate.",
+   "area_layer": "db/extents/ja-aliyyin-kingdom-sa-dab-funj-vassal.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    32.144,
+    15.808,
+    34.472,
+    18.178
+   ],
+   "source_ids": [
+    "HD2011",
+    "COW_NMC6"
+   ]
+  },
+  {
+   "era_id": "kanem-empire",
+   "name_en": "Kanem Empire",
+   "name_ar": "إمبراطورية كانم",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    700,
+    1380
+   ],
+   "dating_note": "[APPROXIMATE] [NO-SOURCE] Start and end years are approximate; no page-level source for the dates has been read.",
+   "area_layer": "db/extents/kanem-empire.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    8.408,
+    4.134,
+    23.672,
+    27.164
+   ],
+   "source_ids": [
+    "GHA3_CH15",
+    "GHA4_CH10",
+    "COW_NMC6",
+    "GHA3_CH8",
+    "GHAIV",
+    "WP:Kanem_Empire"
+   ]
+  },
+  {
+   "era_id": "khartoum-mesolithic-early-khartoum",
+   "name_en": "Khartoum Mesolithic (Early Khartoum)",
+   "name_ar": "الخرطوم الباكرة (العصر الحجري الوسيط)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    -8500,
+    -5000
+   ],
+   "dating_note": "Corrected -8000/-4900 -> c.8500–5000 cal BC for Early Khartoum ceramics of central Sudan (Garcea/Jesse et al., African Archaeological Review 2021 review). Northern 'Khartoum Variant' is c.8000–4900 cal BC. Site point = city-level approximation.",
+   "area_layer": "db/extents/khartoum-mesolithic-early-khartoum.geojson",
+   "area_mode": "extent",
+   "camera_bbox": null,
+   "source_ids": [
+    "AAR2021",
+    "COW_NMC6"
+   ]
+  },
+  {
+   "era_id": "khartoum-neolithic-shaheinab",
+   "name_en": "Khartoum Neolithic (Shaheinab)",
+   "name_ar": "العصر الحجري الحديث (الشهيناب)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    -4900,
+    -3800
+   ],
+   "dating_note": "Approximate; site coordinates from Wikidata (Esh-Shaheinab corrected from 16.13N). Kadero added as second Khartoum Neolithic site (coordinates approximate, Wikidata).",
+   "area_layer": "db/extents/khartoum-neolithic-shaheinab.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    32.039,
+    15.25,
+    33.05,
+    16.562
+   ],
+   "source_ids": [
+    "AAR2021",
+    "COW_NMC6",
+    "WD:Q109284524",
+    "WD:Q109284535"
+   ]
+  },
+  {
+   "era_id": "kingdom-of-aksum",
+   "name_en": "Kingdom of Aksum",
+   "name_ar": "مملكة أكسوم",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    100,
+    940
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/kingdom-of-aksum.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    28.62,
+    6.657,
+    55.358,
+    22.927
+   ],
+   "source_ids": [
+    "GHA2_CH14",
+    "GHA2_CH15",
+    "GHA2_CH16",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WP:Kingdom_of_Aksum",
+    "WP:Ezana_of_Axum"
+   ]
+  },
+  {
+   "era_id": "kingdom-of-kerma",
+   "name_en": "Kingdom of Kerma",
+   "name_ar": "مملكة كرمة",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    -2450,
+    -1450
+   ],
+   "dating_note": "Corrected to the Swiss mission chronology: Early Kerma 2450–2050, Middle 2050–1750, Classic 1750–1550 BCE, and Final Kerma 1550–1450 BCE, 'correspondant aux longues luttes qui précédèrent la victoire définitive des Égyptiens' (SFDAS_HCS2017 p.69). Era end -1450 follows the chapter span 'le Groupe C et le royaume de Kerma 2450-1450' (p.59) and the campaign under Hatshepsut 'sans doute vers 1 470 av. J.-C.', after which 'La cité de Kerma fut définitivement abandonnée' (p.95). Note GHA II (1981) still dates 'Kerma' to -1730/-1580, i.e. only the Classic phase; superseded by Bonnet/Honegger excavations.",
+   "area_layer": "db/extents/kingdom-of-kerma.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    29.501,
+    18.65,
+    34.137,
+    22.299
+   ],
+   "source_ids": [
+    "GHA2",
+    "SFDAS_HCS2017",
+    "COW_NMC6",
+    "GHA2_CH12"
+   ]
+  },
+  {
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "name_en": "Kingdom of Kush – Meroitic period",
+   "name_ar": "مملكة كوش – العهد المروي",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    -270,
+    350
+   ],
+   "dating_note": "Meroitic chronology uncertain (GHA II: 'particularly serious' for 2nd–1st c. BCE). Which kandake negotiated with Rome (Amanirenas vs Amanishakheto) is unresolved in GHA. End placed in the 4th century CE (350 is a placeholder year); cause debated: GHA II ascribes the overthrow to the Noba and concludes the kingdom 'had already collapsed at the time of Ezana's campaign'. SFDAS_HCS2017 p.325 places the end c.330–350 CE.",
+   "area_layer": "db/extents/kingdom-of-kush-meroitic-period.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    28.947,
+    12.448,
+    35.341,
+    25.074
+   ],
+   "source_ids": [
+    "GHA2",
+    "WHC1336",
+    "SFDAS_HCS2017",
+    "DAI_MUSAWWARAT",
+    "FR_MUSEE_MEROE",
+    "ZH_EMB_HIST2020",
+    "EDWARDS2011",
+    "COW_NMC6",
+    "PL:795855",
+    "RILLY_SN22",
+    "GHA2_CH12",
+    "WELSBY1996"
+   ]
+  },
+  {
+   "era_id": "kingdom-of-kush-napatan-period",
+   "name_en": "Kingdom of Kush – Napatan period",
+   "name_ar": "مملكة كوش – العهد النبتي",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    -800,
+    -270
+   ],
+   "dating_note": "Reign dates follow UNESCO GHA II ch.10 (Leclant, 1981); later scholarship revises several (incl. the Shabaka/Shebitku order) – treat as approximate. WHC gives Napatan 900–270 BCE; -800 start kept as display convention. Coordinates: Pleiades/Wikidata.",
+   "area_layer": "db/extents/kingdom-of-kush-napatan-period.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    28.52,
+    13.854,
+    35.771,
+    31.63
+   ],
+   "source_ids": [
+    "GHA2",
+    "WHC1073",
+    "ZH_EMB_PYR2020",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WELSBY1996",
+    "WP:Kingdom_of_Kush",
+    "WP:Twenty-fifth_Dynasty_of_Egypt",
+    "GHA2_CH6",
+    "GHA2_CH10",
+    "SFDAS_HCS2017"
+   ]
+  },
+  {
+   "era_id": "kingdom-of-taqali",
+   "name_en": "Kingdom of Taqali",
+   "name_ar": "مملكة تقلي",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1750,
+    1969
+   ],
+   "dating_note": "[REPORTED] Origin story is oral tradition (HD2011 p.4). Founding c.1750 and end 1969 [NO-SOURCE]: not found in a source read. Holt & Daly: semi-autonomous after 1821 and integrated into Condominium local government; royal line claims Ja'ali holy-man ancestry.",
+   "area_layer": "db/extents/kingdom-of-taqali.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    29.25,
+    10.5,
+    32.25,
+    13.5
+   ],
+   "source_ids": [
+    "HD2011",
+    "TAKANA2016",
+    "COW_NMC6",
+    "GHA5_CH7",
+    "WP:Kingdom_of_Taqali"
+   ]
+  },
+  {
+   "era_id": "land-of-punt-d-mt",
+   "name_en": "Land of Punt / D'mt",
+   "name_ar": "بلاد بونت / دعمت",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    -980,
+    -400
+   ],
+   "dating_note": "[APPROXIMATE] [NO-SOURCE] Start and end years are approximate; no page-level source for the dates has been read.",
+   "area_layer": "db/extents/land-of-punt-d-mt.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    37.517,
+    12.783,
+    40.517,
+    15.783
+   ],
+   "source_ids": [
+    "GHA2_CH4",
+    "GHA2_CH13",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WP:Dʿmt"
+   ]
+  },
+  {
+   "era_id": "late-period-persian-egypt",
+   "name_en": "Late Period / Persian Egypt",
+   "name_ar": "مصر: العصر المتأخر والفارسي",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    -664,
+    -332
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/late-period-persian-egypt.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    31.39,
+    22.59,
+    34.39,
+    25.59
+   ],
+   "source_ids": [
+    "GHA2_CH4",
+    "GHA2_CH6",
+    "GHA2_CH10",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WP:Late_Period_of_ancient_Egypt"
+   ]
+  },
+  {
+   "era_id": "libya-ottoman-italian-independent",
+   "name_en": "Libya (Ottoman, Italian, independent)",
+   "name_ar": "ليبيا",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1551,
+    2026
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/libya-ottoman-italian-independent.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    7.695,
+    17.904,
+    26.795,
+    34.799
+   ],
+   "source_ids": [
+    "LOC_LBY1987_SANUSI",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "LOC1991_LIBYA",
+    "LOC_LBY1987_ITALOSANUSI",
+    "LOC_LBY1987_FOURTHSHORE",
+    "UNPOE_S2024_65",
+    "UNPOE_S2025_239",
+    "GHAV",
+    "GHA7_CH17",
+    "GHA8",
+    "WP:History_of_Libya"
+   ]
+  },
+  {
+   "era_id": "mahdist-state-mahdiyya",
+   "name_en": "Mahdist State (Mahdiyya)",
+   "name_ar": "الدولة المهدية",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1885,
+    1899
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/mahdist-state-mahdiyya.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    20.557,
+    7.385,
+    35.637,
+    21.277
+   ],
+   "source_ids": [
+    "GHA7_CH4",
+    "HD2011",
+    "COW_NMC6",
+    "SFDAS_HCS2017"
+   ]
+  },
+  {
+   "era_id": "makuria",
+   "name_en": "Makuria",
+   "name_ar": "المقرة",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    500,
+    1500
+   ],
+   "dating_note": "End date approximate (kingdom fragmented in 14th–15th c.). Merger with Makuria: date disputed. GHA II ch.12 (Michałowski, pp.332–333) gives two versions: Maqrizi has one king, Qalidurut, ruling central and northern Nubia by the mid-7th c.; 'Christian sources seem to prove that the union of Nubia was the work of King Merkurios, who came to the throne in 697.' Derda & Łajtar (2019, p.136 and n.4): 'perhaps around 630'; the earliest indubitable proof of a greater Makuria including Nobadia is the reign of Merkurios (late 7th–early 8th c.); incorporation probably before the Arab raid on Dongola in 652; Godlewski has suggested the end of the 6th c. Welsby 2002 not read on this point.",
+   "area_layer": "db/extents/makuria.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    27.819,
+    14.114,
+    34.664,
+    24.624
+   ],
+   "source_ids": [
+    "GHA2_CH12",
+    "WELSBY2002",
+    "COW_NMC6",
+    "WP_MAKURIA",
+    "DERDA_LAJTAR2019",
+    "SFDAS_HCS2017"
+   ]
+  },
+  {
+   "era_id": "mamluk-sultanate",
+   "name_en": "Mamluk Sultanate",
+   "name_ar": "سلطنة المماليك",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1250,
+    1517
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/mamluk-sultanate.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    17.595,
+    13.565,
+    43.489,
+    40.786
+   ],
+   "source_ids": [
+    "GHA4_CH16",
+    "COW_NMC6",
+    "GHAIV",
+    "WP:Mamluk_Sultanate"
+   ]
+  },
+  {
+   "era_id": "middle-kingdom-egypt",
+   "name_en": "Middle Kingdom Egypt",
+   "name_ar": "مصر: الدولة الوسطى",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    -2055,
+    -1650
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/middle-kingdom-egypt.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    30.467,
+    21.0,
+    31.783,
+    22.417
+   ],
+   "source_ids": [
+    "GHA2_CH2",
+    "GHA2_CH4",
+    "GHA2_CH8",
+    "GHA2_CH9",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WP:Middle_Kingdom_of_Egypt"
+   ]
+  },
+  {
+   "era_id": "musabba-at-sultanate-kordofan",
+   "name_en": "Musabba'at sultanate (Kordofan)",
+   "name_ar": "سلطنة المسبعات (كردفان)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1680,
+    1785
+   ],
+   "dating_note": "Bracket from O'Fahey & Spaulding (BSOAS 1972 abstract: 'late seventeenth and eighteenth centuries'); 1734/1772/1782/1785 events taken from a Wikipedia summary citing O'Fahey 2008 pp.49–59 – book pages not directly checked. No capital location verified.",
+   "area_layer": "db/extents/musabba-at-sultanate-kordofan.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    28.0,
+    11.5,
+    31.0,
+    14.5
+   ],
+   "source_ids": [
+    "TAKANA2016",
+    "HD2011",
+    "COW_NMC6",
+    "GHA5_CH7",
+    "OFAHEY_SPAULDING1972",
+    "OFAHEY2008",
+    "WP:Muhammad_Tayrab"
+   ]
+  },
+  {
+   "era_id": "new-kingdom-egypt",
+   "name_en": "New Kingdom Egypt",
+   "name_ar": "مصر: الدولة الحديثة",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    -1550,
+    -1070
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/new-kingdom-egypt.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    30.609,
+    17.303,
+    34.704,
+    32.026
+   ],
+   "source_ids": [
+    "GHA2_CH3",
+    "GHA2_CH4",
+    "GHA2_CH9",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WP:New_Kingdom_of_Egypt"
+   ]
+  },
+  {
+   "era_id": "nimeiry-era-democratic-republic-of-sudan",
+   "name_en": "Nimeiry era (Democratic Republic of Sudan)",
+   "name_ar": "عهد نميري",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1969,
+    1985
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/nimeiry-era-democratic-republic-of-sudan.geojson",
+   "area_mode": "none_post1956_no_control_claims",
+   "camera_bbox": [
+    19.943,
+    1.628,
+    40.924,
+    24.097
+   ],
+   "source_ids": [
+    "GHA8",
+    "HD2011",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "LOC1991_NIMEIRI",
+    "LOC1991_TMC",
+    "LOC1991_ECON",
+    "LOC1991_ECONDEV",
+    "LOC1991_ENERGY",
+    "LOC1991_FINANCE",
+    "WB_SDN1985",
+    "MERIP1985",
+    "LAT1985",
+    "WPR_JONGLEI",
+    "WP:Jonglei_Canal",
+    "WP:Gaafar_Nimeiry",
+    "WP:Addis_Ababa_Agreement_(1972)",
+    "UNSC_S2005_60"
+   ]
+  },
+  {
+   "era_id": "noba-x-group-ballana-culture",
+   "name_en": "Noba / X-Group (Ballana culture)",
+   "name_ar": "ثقافة بلانة (المجموعة إكس)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    350,
+    550
+   ],
+   "dating_note": "Approximate. Ballana coordinates verified: Pleiades 795783 (Barrington Atlas 81 B3). Site now under Lake Nasser.",
+   "area_layer": "db/extents/noba-x-group-ballana-culture.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    31.067,
+    21.733,
+    32.117,
+    22.767
+   ],
+   "source_ids": [
+    "GHA2",
+    "GHA2_CH12",
+    "COW_NMC6",
+    "GHA2_CH10",
+    "GHA2_CH7",
+    "PL:795783",
+    "WELSBY2002",
+    "WP:Ballana_culture"
+   ]
+  },
+  {
+   "era_id": "nobadia",
+   "name_en": "Nobadia",
+   "name_ar": "نوباتيا",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    400,
+    700
+   ],
+   "dating_note": "Christianisation c.543 and merger with Makuria (7th c.) per standard accounts; specific dates not re-verified in a primary source in this pass. Merger with Makuria: date disputed. GHA II ch.12 (Michałowski, pp.332–333) gives two versions: Maqrizi has one king, Qalidurut, ruling central and northern Nubia by the mid-7th c.; 'Christian sources seem to prove that the union of Nubia was the work of King Merkurios, who came to the throne in 697.' Derda & Łajtar (2019, p.136 and n.4): 'perhaps around 630'; the earliest indubitable proof of a greater Makuria including Nobadia is the reign of Merkurios (late 7th–early 8th c.); incorporation probably before the Arab raid on Dongola in 652; Godlewski has suggested the end of the 6th c. Welsby 2002 not read on this point.",
+   "area_layer": "db/extents/nobadia.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    29.501,
+    18.96,
+    33.745,
+    24.828
+   ],
+   "source_ids": [
+    "GHA2_CH12",
+    "WELSBY2002",
+    "COW_NMC6",
+    "WP:Nobadia",
+    "DERDA_LAJTAR2019"
+   ]
+  },
+  {
+   "era_id": "nuer-naath-communities",
+   "name_en": "Nuer (Naath) communities",
+   "name_ar": "مجتمعات النوير (ناث)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1500,
+    2026
+   ],
+   "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. Nuer 19th-c. expansion still unsourced.",
+   "area_layer": "db/extents/nuer-naath-communities.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    29.6644,
+    6.9337,
+    34.7185,
+    10.9125
+   ],
+   "source_ids": [
+    "GHA7_CH4",
+    "COW_NMC6",
+    "GLEICHEN1905_V1"
+   ]
+  },
+  {
+   "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+   "name_en": "Ottoman Egypt & Muhammad Ali dynasty",
+   "name_ar": "مصر العثمانية وأسرة محمد علي",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1517,
+    1882
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/ottoman-egypt-muhammad-ali-dynasty.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    22.011,
+    20.216,
+    38.354,
+    37.149
+   ],
+   "source_ids": [
+    "COW_NMC6",
+    "GHA5_CH6",
+    "GHA5_CH7",
+    "GHA6_CH13",
+    "GHA6_CH14",
+    "GHAV",
+    "WP:Muhammad_Ali_dynasty"
+   ]
+  },
+  {
+   "era_id": "ottoman-hejaz-saudi-state",
+   "name_en": "Ottoman Hejaz & Saudi state",
+   "name_ar": "الحجاز العثماني والدولة السعودية",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1517,
+    2026
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/ottoman-hejaz-saudi-state.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    38.326,
+    19.922,
+    41.326,
+    22.922
+   ],
+   "source_ids": [
+    "COW_NMC6",
+    "GHA5_CH6",
+    "GHA5_CH7",
+    "GHA6_CH13",
+    "JEDDAH2023",
+    "WP:Saudi_Arabia",
+    "WP:Treaty_of_Jeddah_(2023)",
+    "UNPOE_S2024_65"
+   ]
+  },
+  {
+   "era_id": "ptolemaic-egypt",
+   "name_en": "Ptolemaic Egypt",
+   "name_ar": "مصر البطلمية",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    -305,
+    -30
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/ptolemaic-egypt.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    29.079,
+    22.248,
+    33.517,
+    32.011
+   ],
+   "source_ids": [
+    "GHA2_CH6",
+    "GHA2_CH7",
+    "GHA2_CH10",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WP:Ptolemaic_Kingdom"
+   ]
+  },
+  {
+   "era_id": "republic-of-egypt",
+   "name_en": "Republic of Egypt",
+   "name_ar": "جمهورية مصر",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1953,
+    2026
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/republic-of-egypt.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    22.877,
+    19.952,
+    44.15,
+    39.093
+   ],
+   "source_ids": [
+    "LOC1991_EDUCATION",
+    "LOC1991_INDSUDAN",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "LOC1991_FOREIGN",
+    "LOC1991_EGYPT",
+    "LOC1991_LIBYA",
+    "UNTS6519_1959",
+    "ICG_ETH_ERI",
+    "GHA8",
+    "WP:Aswan_Dam"
+   ]
+  },
+  {
+   "era_id": "republic-of-south-sudan",
+   "name_en": "Republic of South Sudan",
+   "name_ar": "جمهورية جنوب السودان",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    2011,
+    2026
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/republic-of-south-sudan.geojson",
+   "area_mode": "none_post1956_no_control_claims",
+   "camera_bbox": [
+    22.19,
+    2.25,
+    37.2,
+    13.487
+   ],
+   "source_ids": [
+    "COW_NMC6",
+    "WB_WDI_API",
+    "UNESCO_MGIEP_SSD",
+    "WB_SSD_OVERVIEW2026",
+    "WB_SSEB2012",
+    "OHCHR_JUBA2017",
+    "TCRSS2011",
+    "UNSC1996",
+    "ICG2014",
+    "RARCSS2018",
+    "ACCORD2020",
+    "WP:South_Sudan",
+    "WP:South_Sudanese_Civil_War",
+    "S_PRST_2012_12",
+    "S_RES_2046",
+    "SC_16212",
+    "UNMISS_HRR2014"
+   ]
+  },
+  {
+   "era_id": "restored-darfur-sultanate-ali-dinar",
+   "name_en": "Restored Darfur Sultanate (Ali Dinar)",
+   "name_ar": "سلطنة دارفور المستعادة (علي دينار)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1898,
+    1916
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/restored-darfur-sultanate-ali-dinar.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    23.85,
+    12.127,
+    26.85,
+    15.127
+   ],
+   "source_ids": [
+    "GHA7_CH12",
+    "TAKANA2016",
+    "COW_NMC6",
+    "MACMICHAEL1922_V1",
+    "OFAHEY2008",
+    "HD2011",
+    "WP:Ali_Dinar",
+    "WP:Sultanate_of_Darfur"
+   ]
+  },
+  {
+   "era_id": "rise-of-islam-caliphates",
+   "name_en": "Rise of Islam & Caliphates",
+   "name_ar": "ظهور الإسلام والخلافة",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    610,
+    1258
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/rise-of-islam-caliphates.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    38.326,
+    19.922,
+    41.326,
+    22.922
+   ],
+   "source_ids": [
+    "GHA3_CH2",
+    "GHA3_CH3",
+    "COW_NMC6",
+    "GHA3_CH8",
+    "WP:Rashidun_Caliphate",
+    "WP:Abbasid_Caliphate"
+   ]
+  },
+  {
+   "era_id": "roman-byzantine-egypt",
+   "name_en": "Roman & Byzantine Egypt",
+   "name_ar": "مصر الرومانية والبيزنطية",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    -30,
+    641
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/roman-byzantine-egypt.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    29.038,
+    21.795,
+    33.739,
+    32.052
+   ],
+   "source_ids": [
+    "GHA2_CH7",
+    "GHA2_CH10",
+    "GHA2_CH12",
+    "COW_NMC6",
+    "WP:Egypt_(Roman_province)"
+   ]
+  },
+  {
+   "era_id": "sabaean-south-arabian-kingdoms",
+   "name_en": "Sabaean & South Arabian kingdoms",
+   "name_ar": "سبأ وممالك جنوب الجزيرة",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    -1000,
+    275
+   ],
+   "dating_note": "[APPROXIMATE] [NO-SOURCE] Start and end years are approximate; no page-level source for the dates has been read.",
+   "area_layer": "db/extents/sabaean-south-arabian-kingdoms.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    43.826,
+    13.963,
+    46.826,
+    16.963
+   ],
+   "source_ids": [
+    "GHA2_CH4",
+    "GHA2_CH13",
+    "GHA2_CH15",
+    "GHA2_CH16",
+    "COW_NMC6",
+    "GHA2_CH12",
+    "WP:Sabaeans"
+   ]
+  },
+  {
+   "era_id": "second-parliamentary-period",
+   "name_en": "Second parliamentary period",
+   "name_ar": "الحكم البرلماني الثاني",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1964,
+    1969
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/second-parliamentary-period.geojson",
+   "area_mode": "none_post1956_no_control_claims",
+   "camera_bbox": [
+    19.943,
+    1.628,
+    40.924,
+    24.097
+   ],
+   "source_ids": [
+    "GHA8",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "LOC1991_CIVIL6469",
+    "LOC1991_ECON",
+    "LOC1991_ECONDEV",
+    "LOC1991_MEDIA",
+    "SERIHERSCH2020",
+    "AJA_WARDI2019",
+    "HD2011",
+    "WP:History_of_Sudan_(1956–1969)"
+   ]
+  },
+  {
+   "era_id": "shilluk-kingdom",
+   "name_en": "Shilluk Kingdom",
+   "name_ar": "مملكة الشلك",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1490,
+    1861
+   ],
+   "dating_note": "Founding c.1490 traditional (Nyikang); 1861 end-point not re-verified.",
+   "area_layer": "db/extents/shilluk-kingdom.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    31.231,
+    9.255,
+    33.506,
+    13.531
+   ],
+   "source_ids": [
+    "HD2011",
+    "GHA6_CH14",
+    "COW_NMC6",
+    "GHA5_CH7",
+    "WP:Shilluk_Kingdom"
+   ]
+  },
+  {
+   "era_id": "southern-sudan-under-condominium-sudan",
+   "name_en": "Southern Sudan under Condominium / Sudan",
+   "name_ar": "جنوب السودان (الحكم الثنائي/السودان)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1899,
+    2011
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/southern-sudan-under-condominium-sudan.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    22.19,
+    2.25,
+    37.2,
+    13.487
+   ],
+   "source_ids": [
+    "HD2011",
+    "GHA7_CH4",
+    "GHA8",
+    "COW_NMC6",
+    "LOC1991_SOUTHPOL",
+    "LOC1991_SOUTHUNITY",
+    "LOC1991_NONMUSLIM",
+    "GHAVIII",
+    "UNSC1996",
+    "WP:First_Sudanese_Civil_War",
+    "WP:Second_Sudanese_Civil_War",
+    "UNSG_S2011_413"
+   ]
+  },
+  {
+   "era_id": "suakin-red-sea-port-beja-ottoman",
+   "name_en": "Suakin – Red Sea port (Beja, Ottoman)",
+   "name_ar": "سواكن – ميناء البحر الأحمر",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1100,
+    1922
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/suakin-red-sea-port-beja-ottoman.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    36.83,
+    15.1,
+    39.933,
+    19.602
+   ],
+   "source_ids": [
+    "COW_NMC6",
+    "GHA3_CH3",
+    "GHA4_CH15",
+    "GHA4_CH16",
+    "GHA5_CH6",
+    "GHA5_CH7",
+    "GHA6_CH14",
+    "GHA7_CH4",
+    "HD2011",
+    "WP:Suakin"
+   ]
+  },
+  {
+   "era_id": "sultanate-of-darfur-keira",
+   "name_en": "Sultanate of Darfur (Keira)",
+   "name_ar": "سلطنة دارفور (الكيرا)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1640,
+    1874
+   ],
+   "dating_note": "Start c.1640 (GHA V ch.7 p.187). O'Fahey 2008 gives c.1650 (page not confirmed); earlier value 1603. GHA VI ch.14 p.356: the Kayra 'ruled Därfür until 1874'. Older chronologies place Sulayman earlier; founding date genuinely uncertain. El Fasher date c.1790–91. Tunjur end aligned to c.1640 (GHA V ch.7 pp.187–188).",
+   "area_layer": "db/extents/sultanate-of-darfur-keira.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    20.645,
+    7.161,
+    33.629,
+    21.19
+   ],
+   "source_ids": [
+    "OFAHEY2008",
+    "HD2011",
+    "COW_NMC6",
+    "GHA5_CH7",
+    "GHA6_CH14"
+   ]
+  },
+  {
+   "era_id": "transitional-third-parliamentary-period",
+   "name_en": "Transitional & third parliamentary period",
+   "name_ar": "الانتقال والحكم البرلماني الثالث",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1985,
+    1989
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/transitional-third-parliamentary-period.geojson",
+   "area_mode": "none_post1956_no_control_claims",
+   "camera_bbox": [
+    19.943,
+    1.628,
+    40.924,
+    24.097
+   ],
+   "source_ids": [
+    "GHA8",
+    "HD2011",
+    "COW_NMC6",
+    "WB_WDI_API",
+    "LOC1991_TMC",
+    "LOC1991_SADIQ",
+    "LOC1991_ECON",
+    "LOC1991_ECONDEV",
+    "LOC1991_GOV",
+    "LOC1991_MEDIA",
+    "AJA_WARDI2019",
+    "WP:Sadiq_al-Mahdi",
+    "UNSC_S2005_60"
+   ]
+  },
+  {
+   "era_id": "tunjur-kingdom",
+   "name_en": "Tunjur kingdom",
+   "name_ar": "مملكة التنجر",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1400,
+    1640
+   ],
+   "dating_note": "End c.1640, aligned with the Keira start c.1640 (GHA V ch.7 p.187); GHA V ch.7 p.188: Sulayman Solongdungu (c.1640–60) 'drove out the Tundjür'. Previous end 1650 had no page cite. Approximate. Ain Farah corrected 15.0N 24.9E -> 14.2657N 24.3161E (2nd Wikidata statement; matches de/ar Wikipedia). Wikidata's other value 16.76N 29.19E (repeated on rainerebert.com) lies outside Darfur and is rejected. MEDIUM confidence: the descriptive '15 km NW of Kutum' does not fit (point is c.35 km W of Kutum); no excavation-report coordinate found.",
+   "area_layer": "db/extents/tunjur-kingdom.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    23.816,
+    13.766,
+    29.688,
+    17.26
+   ],
+   "source_ids": [
+    "TAKANA2016",
+    "COW_NMC6",
+    "GHA4_CH16",
+    "MACMICHAEL1922_V1",
+    "GHA5_CH7",
+    "WD:Q405860",
+    "OFAHEY2008",
+    "WP:Tunjur_people"
+   ]
+  },
+  {
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "name_en": "Turkiyya (Ottoman-Egyptian rule)",
+   "name_ar": "التركية (الحكم التركي المصري)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1821,
+    1885
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/turkiyya-ottoman-egyptian-rule.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    20.031,
+    2.432,
+    40.636,
+    23.828
+   ],
+   "source_ids": [
+    "GHA6_CH14",
+    "GHA7_CH4",
+    "HD2011",
+    "COW_NMC6",
+    "WP:Turco-Egyptian_Sudan",
+    "SFDAS_HCS2017"
+   ]
+  },
+  {
+   "era_id": "wadai-sultanate",
+   "name_en": "Wadai Sultanate",
+   "name_ar": "سلطنة وداي",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1635,
+    1912
+   ],
+   "dating_note": "",
+   "area_layer": "db/extents/wadai-sultanate.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    20.172,
+    13.333,
+    21.335,
+    14.727
+   ],
+   "source_ids": [
+    "COW_NMC6",
+    "GHA5_CH7",
+    "GHA5_CH17",
+    "GHA6_CH17",
+    "GHA6_CH20",
+    "GHA6_CH22",
+    "GHAV",
+    "GHA6_CH14",
+    "WP:Wadai_Sultanate"
+   ]
+  },
+  {
+   "era_id": "war-in-sudan-saf-vs-rsf",
+   "name_en": "War in Sudan (SAF vs RSF)",
+   "name_ar": "حرب السودان (الجيش والدعم السريع)",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    2023,
+    2026
+   ],
+   "dating_note": "Ongoing; end=present.",
+   "area_layer": "db/extents/war-in-sudan-saf-vs-rsf.geojson",
+   "area_mode": "none_post1956_no_control_claims",
+   "camera_bbox": [
+    20.091,
+    6.958,
+    40.782,
+    24.864
+   ],
+   "source_ids": [
+    "UNNEWS2023",
+    "JEDDAH2023",
+    "OCHA_HNRP2026",
+    "OCHA_FTS",
+    "IOM_DTM_SNAP10",
+    "IOM_DTM_SNAP9",
+    "UNHCR_ODP",
+    "COW_NMC6",
+    "WB_MPO2024",
+    "WB_SEU2025",
+    "WFP_DEC2024",
+    "IOM_DTM2025",
+    "UNESCO_PR2024",
+    "UNESCO_HEF2025",
+    "RSF_EXILE2025",
+    "XINHUA_GOLD2025",
+    "AYIN_GUM2024",
+    "AJA_PALACE2025",
+    "UNSC_SC15257",
+    "WP:Sudanese_civil_war_(2023–present)",
+    "WFP_SDN",
+    "OCHA_SDN",
+    "FEWS_SDN_2026",
+    "WB_MPO2026",
+    "UNPOE_S2024_65"
+   ]
+  },
+  {
+   "era_id": "zagwe-dynasty",
+   "name_en": "Zagwe dynasty",
+   "name_ar": "أسرة زاغوي",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    900,
+    1270
+   ],
+   "dating_note": "[APPROXIMATE] [NO-SOURCE] Start date debated; no page-level source for the dates has been read.",
+   "area_layer": "db/extents/zagwe-dynasty.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    37.546,
+    10.536,
+    40.546,
+    13.536
+   ],
+   "source_ids": [
+    "GHA3_CH19",
+    "GHA4_CH17",
+    "COW_NMC6",
+    "GHAIV",
+    "WP:Zagwe_dynasty"
+   ]
+  },
+  {
+   "era_id": "zande-kingdoms",
+   "name_en": "Zande kingdoms",
+   "name_ar": "ممالك الزاندي",
+   "name_ar_badge": "[يحتاج تحقق]",
+   "years": [
+    1700,
+    1905
+   ],
+   "dating_note": "[APPROXIMATE] [NO-SOURCE] Start and end years are approximate; no page-level source for the dates has been read.",
+   "area_layer": "db/extents/zande-kingdoms.geojson",
+   "area_mode": "extent",
+   "camera_bbox": [
+    24.3,
+    3.454,
+    27.219,
+    5.429
+   ],
+   "source_ids": [
+    "COW_NMC6",
+    "GHA5_CH7",
+    "GHA5_CH18",
+    "GHA6_CH12",
+    "GHA6_CH14",
+    "GHA7_CH4",
+    "GHAV",
+    "WP:Zande_people"
+   ]
+  }
+ ]
+}
