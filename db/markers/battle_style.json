@@ -329,47 +329,47 @@
   "war_palette": {
    "kushite-egyptian-wars": {
     "colour": "#ffbb22",
-    "hull_dash": "solid",
+    "hull_dash": "dash 10 4",
     "id_source": "data/wars.json (Historian)"
    },
    "roman-meroitic-war": {
-    "colour": "#e2b2cd",
+    "colour": "#daabc6",
     "hull_dash": "solid",
     "id_source": "data/wars.json (Historian)"
    },
    "aksum-kush-war": {
     "colour": "#ead1b9",
-    "hull_dash": "dash 6 3",
+    "hull_dash": "dash 2 3",
     "id_source": "data/wars.json (Historian)"
    },
    "arab-nubian-wars": {
     "colour": "#a9d9f4",
-    "hull_dash": "solid",
+    "hull_dash": "dash 1 4",
     "id_source": "data/wars.json (Historian)"
    },
    "funj-abdallab-war": {
     "colour": "#f0e442",
-    "hull_dash": "solid",
+    "hull_dash": "dash 1 4",
     "id_source": "data/wars.json (Historian)"
    },
    "kordofan-wars": {
-    "colour": "#dfc793",
+    "colour": "#c3ad7a",
     "hull_dash": "dash 6 3",
     "id_source": "data/wars.json (Historian)"
    },
    "mahdist-war": {
     "colour": "#f9cdbf",
-    "hull_dash": "solid",
+    "hull_dash": "dash 8 3 2 3",
     "id_source": "data/wars.json (Historian)"
    },
    "mahdist-ethiopian-war": {
     "colour": "#e7bedb",
-    "hull_dash": "dash 6 3",
+    "hull_dash": "dash 10 4",
     "id_source": "data/wars.json (Historian)"
    },
    "anglo-egyptian-reconquest": {
-    "colour": "#f9c7b1",
-    "hull_dash": "dash 2 3",
+    "colour": "#d6a690",
+    "hull_dash": "dash 8 3 2 3",
     "id_source": "data/wars.json (Historian)"
    },
    "darfur-campaign-1916": {
@@ -379,7 +379,7 @@
    },
    "first-civil-war": {
     "colour": "#00e5a7",
-    "hull_dash": "solid",
+    "hull_dash": "dash 10 4",
     "id_source": "data/wars.json (Historian)"
    },
    "second-civil-war": {
@@ -389,12 +389,12 @@
    },
    "darfur-war": {
     "colour": "#ffd54a",
-    "hull_dash": "dash 6 3",
+    "hull_dash": "solid",
     "id_source": "Analyst"
    },
    "south-sudan-civil-war": {
     "colour": "#b0d9f5",
-    "hull_dash": "dash 2 3",
+    "hull_dash": "dash 8 3 2 3",
     "id_source": "Analyst"
    },
    "sudan-south-sudan-border-2012": {
@@ -404,32 +404,32 @@
    },
    "war-2023": {
     "colour": "#f2f4f7",
-    "hull_dash": "dash 4 2 1 2",
+    "hull_dash": "solid",
     "id_source": "Analyst"
    },
    "south-kordofan-blue-nile-2011": {
     "colour": "#a6d854",
-    "hull_dash": "1 2",
+    "hull_dash": "dash 8 3 2 3",
     "id_source": "Analyst (db/battles_post1956.json fa486bd)"
    },
    "piye-conquest-of-egypt": {
     "colour": "#86c7a7",
-    "hull_dash": "dash 1 3",
+    "hull_dash": "solid",
     "id_source": "db/wars.json (Historian pass 2)"
    },
    "mamluk-makuria-wars": {
     "colour": "#f2d27a",
-    "hull_dash": "dash 8 2",
+    "hull_dash": "dash 6 3",
     "id_source": "db/wars.json (Historian pass 2)"
    },
    "ottoman-nubia-campaign": {
     "colour": "#ffc8ce",
-    "hull_dash": "dash 1 3",
+    "hull_dash": "dash 1 4",
     "id_source": "db/wars.json (Historian pass 2)"
    },
    "italian-mahdist-war": {
     "colour": "#c0d5e2",
-    "hull_dash": "dash 4 4",
+    "hull_dash": "dash 2 3",
     "id_source": "audit/war_marker_style.json (IM, matches war_marker_style)"
    }
   },
@@ -441,7 +441,161 @@
    "legend_entry": "swatch of hull + war name + date span + battle count",
    "multi_war": "up to 3 wars at once, each with its own hull dash; beyond that, show only the last selected"
   },
-  "palette_update": "2026-10-25: 15 colours lightened for >=3:1 vs overlapping era fills (audit/war_vs_era_360.json, IM approved)"
+  "palette_update": "2026-10-25: 15 colours lightened for >=3:1 vs overlapping era fills (audit/war_vs_era_360.json, IM approved)",
+  "legend_label": {
+   "rule": "every war's legend entry and war button shows the war's name_en as a text label; wars are never told apart by colour alone",
+   "decision": "IM 2026-10-25"
+  },
+  "dash_disambiguation": {
+   "decision": "IM 2026-10-25: option (a) six-dash set + (c) lightness-only adjustment for 4 residual pairs",
+   "dash_set": [
+    "solid",
+    "dash 6 3",
+    "dash 2 3",
+    "dash 8 3 2 3",
+    "dash 1 4",
+    "dash 10 4"
+   ],
+   "rule": "no two wars share a dash if min dE00 (normal, deutan, protan, tritan; Machado 2009) < 10",
+   "colour_method": "CIELAB LCh: hue and chroma kept, L only; >=3:1 vs #0f1b24; halo unchanged",
+   "confusable_pairs_before": 4,
+   "confusable_pairs_after": 0,
+   "audit": "/workspace/audit/war_vs_era_360.md",
+   "wars": {
+    "kushite-egyptian-wars": {
+     "old_dash": "solid",
+     "new_dash": "dash 10 4",
+     "old_colour": "#ffbb22",
+     "new_colour": "#ffbb22"
+    },
+    "roman-meroitic-war": {
+     "old_dash": "solid",
+     "new_dash": "solid",
+     "old_colour": "#e2b2cd",
+     "new_colour": "#daabc6",
+     "dL": -2.7,
+     "min_dE00_same_dash": 10.0
+    },
+    "aksum-kush-war": {
+     "old_dash": "dash 6 3",
+     "new_dash": "dash 2 3",
+     "old_colour": "#ead1b9",
+     "new_colour": "#ead1b9"
+    },
+    "arab-nubian-wars": {
+     "old_dash": "solid",
+     "new_dash": "dash 1 4",
+     "old_colour": "#a9d9f4",
+     "new_colour": "#a9d9f4"
+    },
+    "funj-abdallab-war": {
+     "old_dash": "solid",
+     "new_dash": "dash 1 4",
+     "old_colour": "#f0e442",
+     "new_colour": "#f0e442"
+    },
+    "kordofan-wars": {
+     "old_dash": "dash 6 3",
+     "new_dash": "dash 6 3",
+     "old_colour": "#dfc793",
+     "new_colour": "#c3ad7a",
+     "dL": -9.7,
+     "min_dE00_same_dash": 10.0
+    },
+    "mahdist-war": {
+     "old_dash": "solid",
+     "new_dash": "dash 8 3 2 3",
+     "old_colour": "#f9cdbf",
+     "new_colour": "#f9cdbf"
+    },
+    "mahdist-ethiopian-war": {
+     "old_dash": "dash 6 3",
+     "new_dash": "dash 10 4",
+     "old_colour": "#e7bedb",
+     "new_colour": "#e7bedb"
+    },
+    "anglo-egyptian-reconquest": {
+     "old_dash": "dash 2 3",
+     "new_dash": "dash 8 3 2 3",
+     "old_colour": "#f9c7b1",
+     "new_colour": "#d6a690",
+     "dL": -12.2,
+     "min_dE00_same_dash": 10.0
+    },
+    "darfur-campaign-1916": {
+     "old_dash": "dash 6 3",
+     "new_dash": "dash 6 3",
+     "old_colour": "#c6d2db",
+     "new_colour": "#c6d2db"
+    },
+    "first-civil-war": {
+     "old_dash": "solid",
+     "new_dash": "dash 10 4",
+     "old_colour": "#00e5a7",
+     "new_colour": "#00e5a7"
+    },
+    "second-civil-war": {
+     "old_dash": "dash 6 3",
+     "new_dash": "dash 6 3",
+     "old_colour": "#5fd3ad",
+     "new_colour": "#5fd3ad"
+    },
+    "darfur-war": {
+     "old_dash": "dash 6 3",
+     "new_dash": "solid",
+     "old_colour": "#ffd54a",
+     "new_colour": "#ffd54a"
+    },
+    "south-sudan-civil-war": {
+     "old_dash": "dash 2 3",
+     "new_dash": "dash 8 3 2 3",
+     "old_colour": "#b0d9f5",
+     "new_colour": "#b0d9f5"
+    },
+    "sudan-south-sudan-border-2012": {
+     "old_dash": "dash 2 3",
+     "new_dash": "dash 2 3",
+     "old_colour": "#e6b866",
+     "new_colour": "#e6b866"
+    },
+    "war-2023": {
+     "old_dash": "dash 4 2 1 2",
+     "new_dash": "solid",
+     "old_colour": "#f2f4f7",
+     "new_colour": "#f2f4f7"
+    },
+    "south-kordofan-blue-nile-2011": {
+     "old_dash": "1 2",
+     "new_dash": "dash 8 3 2 3",
+     "old_colour": "#a6d854",
+     "new_colour": "#a6d854"
+    },
+    "piye-conquest-of-egypt": {
+     "old_dash": "dash 1 3",
+     "new_dash": "solid",
+     "old_colour": "#86c7a7",
+     "new_colour": "#86c7a7"
+    },
+    "mamluk-makuria-wars": {
+     "old_dash": "dash 8 2",
+     "new_dash": "dash 6 3",
+     "old_colour": "#f2d27a",
+     "new_colour": "#f2d27a"
+    },
+    "ottoman-nubia-campaign": {
+     "old_dash": "dash 1 3",
+     "new_dash": "dash 1 4",
+     "old_colour": "#ffc8ce",
+     "new_colour": "#ffc8ce"
+    },
+    "italian-mahdist-war": {
+     "old_dash": "dash 4 4",
+     "new_dash": "dash 2 3",
+     "old_colour": "#c0d5e2",
+     "new_colour": "#c0d5e2"
+    }
+   }
+  }
  },
  "label": {
   "text": {

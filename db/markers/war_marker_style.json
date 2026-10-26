@@ -62,10 +62,10 @@
    "end": "-593",
    "span_state": "closed",
    "colour": "#ffbb22",
-   "hull_dash": "solid",
+   "hull_dash": "dash 10 4",
    "icon": "bow",
    "contrast_dark_bg": 10.3,
-   "contrast_light_bg": 1.6,
+   "contrast_light_bg": 1.54,
    "colour_previous": "#e69f00"
   },
   {
@@ -75,11 +75,11 @@
    "start": "-23",
    "end": "-23",
    "span_state": "closed",
-   "colour": "#e2b2cd",
+   "colour": "#daabc6",
    "hull_dash": "solid",
    "icon": "shield-round",
-   "contrast_dark_bg": 9.55,
-   "contrast_light_bg": 1.73,
+   "contrast_dark_bg": 8.83,
+   "contrast_light_bg": 1.79,
    "colour_previous": "#cc79a7"
   },
   {
@@ -90,10 +90,10 @@
    "end": "350",
    "span_state": "closed",
    "colour": "#ead1b9",
-   "hull_dash": "dash 6 3",
+   "hull_dash": "dash 2 3",
    "icon": "spear",
    "contrast_dark_bg": 11.91,
-   "contrast_light_bg": 1.38,
+   "contrast_light_bg": 1.33,
    "colour_previous": "#d4a373"
   },
   {
@@ -104,10 +104,10 @@
    "end": "652",
    "span_state": "closed",
    "colour": "#a9d9f4",
-   "hull_dash": "solid",
+   "hull_dash": "dash 1 4",
    "icon": "bow-arrow",
    "contrast_dark_bg": 11.57,
-   "contrast_light_bg": 1.42,
+   "contrast_light_bg": 1.37,
    "colour_previous": "#56b4e9"
   },
   {
@@ -118,10 +118,10 @@
    "end": "1504",
    "span_state": "closed",
    "colour": "#f0e442",
-   "hull_dash": "solid",
+   "hull_dash": "dash 1 4",
    "icon": "spear-pair",
    "contrast_dark_bg": 13.21,
-   "contrast_light_bg": 1.25
+   "contrast_light_bg": 1.2
   },
   {
    "war_id": "kordofan-wars",
@@ -130,11 +130,11 @@
    "start": "1747",
    "end": null,
    "span_state": "end-unknown",
-   "colour": "#dfc793",
+   "colour": "#c3ad7a",
    "hull_dash": "dash 6 3",
    "icon": "horse-head",
-   "contrast_dark_bg": 10.58,
-   "contrast_light_bg": 1.56,
+   "contrast_dark_bg": 7.97,
+   "contrast_light_bg": 1.99,
    "colour_previous": "#c9a24a"
   },
   {
@@ -145,10 +145,10 @@
    "end": "1889",
    "span_state": "closed",
    "colour": "#f9cdbf",
-   "hull_dash": "solid",
+   "hull_dash": "dash 8 3 2 3",
    "icon": "banner",
    "contrast_dark_bg": 12.07,
-   "contrast_light_bg": 1.37,
+   "contrast_light_bg": 1.31,
    "colour_previous": "#f08c6c"
   },
   {
@@ -159,10 +159,10 @@
    "end": "1889",
    "span_state": "closed",
    "colour": "#e7bedb",
-   "hull_dash": "dash 6 3",
+   "hull_dash": "dash 10 4",
    "icon": "shield-oval",
    "contrast_dark_bg": 10.63,
-   "contrast_light_bg": 1.55,
+   "contrast_light_bg": 1.49,
    "colour_previous": "#b07aa1"
   },
   {
@@ -172,11 +172,11 @@
    "start": "1896",
    "end": "1899",
    "span_state": "closed",
-   "colour": "#f9c7b1",
-   "hull_dash": "dash 2 3",
+   "colour": "#d6a690",
+   "hull_dash": "dash 8 3 2 3",
    "icon": "river-boat",
-   "contrast_dark_bg": 11.5,
-   "contrast_light_bg": 1.43,
+   "contrast_dark_bg": 8.08,
+   "contrast_light_bg": 1.96,
    "colour_previous": "#f8c0a8"
   },
   {
@@ -190,7 +190,7 @@
    "hull_dash": "dash 6 3",
    "icon": "camel",
    "contrast_dark_bg": 11.34,
-   "contrast_light_bg": 1.45,
+   "contrast_light_bg": 1.4,
    "colour_previous": "#9fb3c2"
   },
   {
@@ -201,10 +201,10 @@
    "end": "1972",
    "span_state": "closed",
    "colour": "#00e5a7",
-   "hull_dash": "solid",
+   "hull_dash": "dash 10 4",
    "icon": "crossed-spears",
    "contrast_dark_bg": 10.62,
-   "contrast_light_bg": 1.55,
+   "contrast_light_bg": 1.49,
    "colour_previous": "#009e73"
   },
   {
@@ -218,7 +218,7 @@
    "hull_dash": "dash 6 3",
    "icon": "crossed-swords",
    "contrast_dark_bg": 9.49,
-   "contrast_light_bg": 1.74
+   "contrast_light_bg": 1.67
   },
   {
    "war_id": "darfur-war",
@@ -228,10 +228,10 @@
    "end": null,
    "span_state": "end-unknown",
    "colour": "#ffd54a",
-   "hull_dash": "dash 6 3",
+   "hull_dash": "solid",
    "icon": "tent",
    "contrast_dark_bg": 12.36,
-   "contrast_light_bg": 1.33
+   "contrast_light_bg": 1.28
   },
   {
    "war_id": "south-kordofan-blue-nile-2011",
@@ -241,10 +241,10 @@
    "end": null,
    "span_state": "end-unknown",
    "colour": "#a6d854",
-   "hull_dash": "1 2",
+   "hull_dash": "dash 8 3 2 3",
    "icon": "mountain-peak",
    "contrast_dark_bg": 10.45,
-   "contrast_light_bg": 1.58
+   "contrast_light_bg": 1.52
   },
   {
    "war_id": "sudan-south-sudan-border-2012",
@@ -257,7 +257,7 @@
    "hull_dash": "dash 2 3",
    "icon": "border-post",
    "contrast_dark_bg": 9.49,
-   "contrast_light_bg": 1.74,
+   "contrast_light_bg": 1.67,
    "colour_previous": "#e0a63e"
   },
   {
@@ -268,10 +268,10 @@
    "end": null,
    "span_state": "end-unknown",
    "colour": "#b0d9f5",
-   "hull_dash": "dash 2 3",
+   "hull_dash": "dash 8 3 2 3",
    "icon": "broken-ring",
    "contrast_dark_bg": 11.72,
-   "contrast_light_bg": 1.41,
+   "contrast_light_bg": 1.35,
    "colour_previous": "#8cc8f0"
   },
   {
@@ -282,10 +282,10 @@
    "end": null,
    "span_state": "ongoing (pending ongoing:true field)",
    "colour": "#f2f4f7",
-   "hull_dash": "dash 4 2 1 2",
+   "hull_dash": "solid",
    "icon": "flame-outline",
    "contrast_dark_bg": 15.85,
-   "contrast_light_bg": 1.04
+   "contrast_light_bg": 1.0
   },
   {
    "war_id": "piye-conquest-of-egypt",
@@ -295,10 +295,10 @@
    "end": "-720",
    "span_state": "closed",
    "colour": "#86c7a7",
-   "hull_dash": "dash 1 3",
+   "hull_dash": "solid",
    "icon": "chariot-wheel",
    "contrast_dark_bg": 8.93,
-   "contrast_light_bg": 1.84,
+   "contrast_light_bg": 1.77,
    "colour_previous": "#7fc4a2"
   },
   {
@@ -309,10 +309,10 @@
    "end": "1326",
    "span_state": "closed",
    "colour": "#f2d27a",
-   "hull_dash": "dash 8 2",
+   "hull_dash": "dash 6 3",
    "icon": "plain-shield",
    "contrast_dark_bg": 11.87,
-   "contrast_light_bg": 1.39,
+   "contrast_light_bg": 1.34,
    "icon_note": "Plain shield, no crescent: SFDAS_HCS2017 p.419 describes a fight between states (Historian ruling)."
   },
   {
@@ -323,10 +323,10 @@
    "end": "1560",
    "span_state": "closed",
    "colour": "#ffc8ce",
-   "hull_dash": "dash 1 3",
+   "hull_dash": "dash 1 4",
    "icon": "fortress",
    "contrast_dark_bg": 11.98,
-   "contrast_light_bg": 1.38,
+   "contrast_light_bg": 1.32,
    "colour_previous": "#ff9da7"
   },
   {
@@ -337,10 +337,10 @@
    "end": "1897",
    "span_state": "closed",
    "colour": "#c0d5e2",
-   "hull_dash": "dash 4 4",
+   "hull_dash": "dash 2 3",
    "icon": "fort-flag",
    "contrast_dark_bg": 11.52,
-   "contrast_light_bg": 1.43,
+   "contrast_light_bg": 1.38,
    "colour_previous": "#7aa6c2"
   }
  ],
@@ -395,5 +395,159 @@
     "status": "landed eb66f1a/a7de8ae, appended (no base line)"
    }
   ]
+ },
+ "legend_label": {
+  "rule": "every war's legend entry and war button shows the war's name_en as a text label; wars are never told apart by colour alone",
+  "decision": "IM 2026-10-25"
+ },
+ "dash_disambiguation": {
+  "decision": "IM 2026-10-25: option (a) six-dash set + (c) lightness-only adjustment for 4 residual pairs",
+  "dash_set": [
+   "solid",
+   "dash 6 3",
+   "dash 2 3",
+   "dash 8 3 2 3",
+   "dash 1 4",
+   "dash 10 4"
+  ],
+  "rule": "no two wars share a dash if min dE00 (normal, deutan, protan, tritan; Machado 2009) < 10",
+  "colour_method": "CIELAB LCh: hue and chroma kept, L only; >=3:1 vs #0f1b24; halo unchanged",
+  "confusable_pairs_before": 4,
+  "confusable_pairs_after": 0,
+  "audit": "/workspace/audit/war_vs_era_360.md",
+  "wars": {
+   "kushite-egyptian-wars": {
+    "old_dash": "solid",
+    "new_dash": "dash 10 4",
+    "old_colour": "#ffbb22",
+    "new_colour": "#ffbb22"
+   },
+   "roman-meroitic-war": {
+    "old_dash": "solid",
+    "new_dash": "solid",
+    "old_colour": "#e2b2cd",
+    "new_colour": "#daabc6",
+    "dL": -2.7,
+    "min_dE00_same_dash": 10.0
+   },
+   "aksum-kush-war": {
+    "old_dash": "dash 6 3",
+    "new_dash": "dash 2 3",
+    "old_colour": "#ead1b9",
+    "new_colour": "#ead1b9"
+   },
+   "arab-nubian-wars": {
+    "old_dash": "solid",
+    "new_dash": "dash 1 4",
+    "old_colour": "#a9d9f4",
+    "new_colour": "#a9d9f4"
+   },
+   "funj-abdallab-war": {
+    "old_dash": "solid",
+    "new_dash": "dash 1 4",
+    "old_colour": "#f0e442",
+    "new_colour": "#f0e442"
+   },
+   "kordofan-wars": {
+    "old_dash": "dash 6 3",
+    "new_dash": "dash 6 3",
+    "old_colour": "#dfc793",
+    "new_colour": "#c3ad7a",
+    "dL": -9.7,
+    "min_dE00_same_dash": 10.0
+   },
+   "mahdist-war": {
+    "old_dash": "solid",
+    "new_dash": "dash 8 3 2 3",
+    "old_colour": "#f9cdbf",
+    "new_colour": "#f9cdbf"
+   },
+   "mahdist-ethiopian-war": {
+    "old_dash": "dash 6 3",
+    "new_dash": "dash 10 4",
+    "old_colour": "#e7bedb",
+    "new_colour": "#e7bedb"
+   },
+   "anglo-egyptian-reconquest": {
+    "old_dash": "dash 2 3",
+    "new_dash": "dash 8 3 2 3",
+    "old_colour": "#f9c7b1",
+    "new_colour": "#d6a690",
+    "dL": -12.2,
+    "min_dE00_same_dash": 10.0
+   },
+   "darfur-campaign-1916": {
+    "old_dash": "dash 6 3",
+    "new_dash": "dash 6 3",
+    "old_colour": "#c6d2db",
+    "new_colour": "#c6d2db"
+   },
+   "first-civil-war": {
+    "old_dash": "solid",
+    "new_dash": "dash 10 4",
+    "old_colour": "#00e5a7",
+    "new_colour": "#00e5a7"
+   },
+   "second-civil-war": {
+    "old_dash": "dash 6 3",
+    "new_dash": "dash 6 3",
+    "old_colour": "#5fd3ad",
+    "new_colour": "#5fd3ad"
+   },
+   "darfur-war": {
+    "old_dash": "dash 6 3",
+    "new_dash": "solid",
+    "old_colour": "#ffd54a",
+    "new_colour": "#ffd54a"
+   },
+   "south-sudan-civil-war": {
+    "old_dash": "dash 2 3",
+    "new_dash": "dash 8 3 2 3",
+    "old_colour": "#b0d9f5",
+    "new_colour": "#b0d9f5"
+   },
+   "sudan-south-sudan-border-2012": {
+    "old_dash": "dash 2 3",
+    "new_dash": "dash 2 3",
+    "old_colour": "#e6b866",
+    "new_colour": "#e6b866"
+   },
+   "war-2023": {
+    "old_dash": "dash 4 2 1 2",
+    "new_dash": "solid",
+    "old_colour": "#f2f4f7",
+    "new_colour": "#f2f4f7"
+   },
+   "south-kordofan-blue-nile-2011": {
+    "old_dash": "1 2",
+    "new_dash": "dash 8 3 2 3",
+    "old_colour": "#a6d854",
+    "new_colour": "#a6d854"
+   },
+   "piye-conquest-of-egypt": {
+    "old_dash": "dash 1 3",
+    "new_dash": "solid",
+    "old_colour": "#86c7a7",
+    "new_colour": "#86c7a7"
+   },
+   "mamluk-makuria-wars": {
+    "old_dash": "dash 8 2",
+    "new_dash": "dash 6 3",
+    "old_colour": "#f2d27a",
+    "new_colour": "#f2d27a"
+   },
+   "ottoman-nubia-campaign": {
+    "old_dash": "dash 1 3",
+    "new_dash": "dash 1 4",
+    "old_colour": "#ffc8ce",
+    "new_colour": "#ffc8ce"
+   },
+   "italian-mahdist-war": {
+    "old_dash": "dash 4 4",
+    "new_dash": "dash 2 3",
+    "old_colour": "#c0d5e2",
+    "new_colour": "#c0d5e2"
+   }
+  }
  }
 }
