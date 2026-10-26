@@ -16,7 +16,7 @@
   },
   "totals": {
    "era_steps": 59,
-   "pairs": 69
+   "pairs": 68
   }
  },
  "transitions": [
@@ -3716,7 +3716,6 @@
    "fade_out": [],
    "fade_in": [
     "al-bashir-ncp-ingaz-regime#1",
-    "al-bashir-ncp-ingaz-regime#4",
     "al-bashir-ncp-ingaz-regime#5"
    ]
   },
@@ -3789,98 +3788,6 @@
      "mode": "hold",
      "iou": 1.0,
      "shared_edge_km_approx": 7611.2,
-     "changed_sides": {
-      "west": "unchanged",
-      "south": "unchanged",
-      "east": "unchanged",
-      "north": "unchanged"
-     },
-     "area_change_pct": 0.0
-    },
-    {
-     "from": {
-      "era_id": "al-bashir-ncp-ingaz-regime",
-      "feature_id": "al-bashir-ncp-ingaz-regime#4",
-      "feature_index": 4,
-      "zone": null,
-      "cites": [
-       {
-        "id": "EXT_NE_DISPUTED",
-        "pages": "2–5"
-       },
-       {
-        "id": "IBS18_1962",
-        "pages": "2–5"
-       },
-       {
-        "id": "UN S/3963 (Sudan to the UN Secretary-General, 20 Feb 1958), quoted via EGYPIL",
-        "pages": "2–5"
-       },
-       {
-        "id": "EGYPIL: M. Hamad, \"The Situation in the Halaib Triangle – Timeline\" (6 Feb 2026), https://www.egypil.org/print/75",
-        "pages": "2–5"
-       },
-       {
-        "id": "Les Echos, \"Le Soudan et l'Egypte à couteaux tirés\" (Jun 1995)",
-        "pages": "2–5"
-       },
-       {
-        "id": "Carnegie Endowment, \"The Egypt-Sudan Border: A Story of Unfulfilled Promise\" (Jan 2021)",
-        "pages": "2–5"
-       },
-       {
-        "id": "Al Jazeera Net Encyclopedia, \"حلايب\" (14 Nov 2014)",
-        "pages": "2–5"
-       },
-       {
-        "id": "Al Nilin (alnilin.com/983231.htm, Sudanese outlet)",
-        "pages": "2–5"
-       }
-      ]
-     },
-     "to": {
-      "era_id": "december-revolution-transition",
-      "feature_id": "december-revolution-transition#3",
-      "feature_index": 3,
-      "zone": null,
-      "cites": [
-       {
-        "id": "EXT_NE_DISPUTED",
-        "pages": "2–5"
-       },
-       {
-        "id": "IBS18_1962",
-        "pages": "2–5"
-       },
-       {
-        "id": "UN S/3963 (Sudan to the UN Secretary-General, 20 Feb 1958), quoted via EGYPIL",
-        "pages": "2–5"
-       },
-       {
-        "id": "EGYPIL: M. Hamad, \"The Situation in the Halaib Triangle – Timeline\" (6 Feb 2026), https://www.egypil.org/print/75",
-        "pages": "2–5"
-       },
-       {
-        "id": "Les Echos, \"Le Soudan et l'Egypte à couteaux tirés\" (Jun 1995)",
-        "pages": "2–5"
-       },
-       {
-        "id": "Carnegie Endowment, \"The Egypt-Sudan Border: A Story of Unfulfilled Promise\" (Jan 2021)",
-        "pages": "2–5"
-       },
-       {
-        "id": "Al Jazeera Net Encyclopedia, \"حلايب\" (14 Nov 2014)",
-        "pages": "2–5"
-       },
-       {
-        "id": "Al Nilin (alnilin.com/983231.htm, Sudanese outlet)",
-        "pages": "2–5"
-       }
-      ]
-     },
-     "mode": "hold",
-     "iou": 1.0,
-     "shared_edge_km_approx": 812.4,
      "changed_sides": {
       "west": "unchanged",
       "south": "unchanged",
