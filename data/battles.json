@@ -2,7 +2,8 @@
   "meta": {
     "scope": "Kush to 1956 plus Torit 1955; major wars and decisive battles only",
     "coords": "db/cities.json entries only; precision region = no lat/lon",
-    "updated": "2026-10-25"
+    "updated": "2026-10-25",
+    "quote_note": "cites[].quote = verbatim passage from the cited page (box copy; OCR letter-spacing and line-break hyphens removed; GHA macrons restored where OCR rendered them as umlauts). No quote = none taken."
   },
   "battles": [
     {
@@ -35,7 +36,8 @@
       "cites": [
         {
           "source_id": "SFDAS_HCS2017",
-          "pages": "92"
+          "pages": "92",
+          "quote": "Sous le règne suivant, celui de Thoutmosis Ier, l’expédition contre Koush, lancée dès l’an 2 (à placer sans doute peu avant 1 500 av. J.‑C.), prit une toute autre ampleur et porta un coup sévère au royaume de Kerma."
         }
       ],
       "decisive": false,
@@ -78,7 +80,8 @@
       "cites": [
         {
           "source_id": "SFDAS_HCS2017",
-          "pages": "164–165"
+          "pages": "164–165",
+          "quote": "un second corps expéditionnaire remonta le Nil jusqu’à Pnoubs/Kerma où ils ravagèrent le pays et massacrèrent les Nubiens"
         }
       ],
       "decisive": false,
@@ -127,7 +130,8 @@
       "cites": [
         {
           "source_id": "GHA2_CH10",
-          "pages": "290"
+          "pages": "290",
+          "quote": "the prefect of Roman Egypt, Petronius, mounted a punitive expedition and captured Napata in —23. A permanent garrison was established by the Romans at Primis (Qasr Ibrim), which held off the Meroites."
         },
         {
           "source_id": "SFDAS_HCS2017",
@@ -184,7 +188,8 @@
       "cites": [
         {
           "source_id": "SFDAS_HCS2017",
-          "pages": "325"
+          "pages": "325",
+          "quote": "Le texte décrit une région où le pouvoir central méroïtique n’existe déjà plus et qui est désormais aux mains des Noubas, à l’exception de quelques enclaves encore tenues par les Kasu, c’est-à-dire les Koushites, contre qui Ézana engage également un combat victorieux."
         },
         {
           "source_id": "SFDAS_HCS2017",
@@ -233,7 +238,8 @@
       "cites": [
         {
           "source_id": "SFDAS_HCS2017",
-          "pages": "405"
+          "pages": "405",
+          "quote": "Vers 642, une armée musulmane menée par Abdallah Abou Sarh, futur gouverneur de l’Égypte, est à la frontière de Makouria et attaque le pays. Mais la contre-offensive des Nubiens désoriente les Arabes, qui subissent de lourdes pertes."
         }
       ],
       "decisive": false,
@@ -277,7 +283,8 @@
       "cites": [
         {
           "source_id": "SFDAS_HCS2017",
-          "pages": "405"
+          "pages": "405",
+          "quote": "En 651 Abdallah Abou Sarh, qui avait succédé à Amr Ibn al-‘As comme gouverneur d’Égypte, lança une seconde expédition contre Makouria avec une forte armée. Cette fois, il atteignit sans difficulté la capitale, Dongola, et en fit le siège en usant de catapultes"
         }
       ],
       "decisive": false,
@@ -322,7 +329,8 @@
       "cites": [
         {
           "source_id": "GHA5_CH7",
-          "pages": "173"
+          "pages": "173",
+          "quote": "At Arbadji, in 1504, the Fundj defeated the 'Abdallabi and their king was reduced to the position of vassal."
         }
       ],
       "decisive": false,
@@ -362,7 +370,8 @@
       "cites": [
         {
           "source_id": "GHA5_CH7",
-          "pages": "178"
+          "pages": "178",
+          "quote": "After initial setbacks, the Fundj army, under the command of Muhammad Abu Likaylik, won a decisive victory in 1747."
         }
       ],
       "decisive": true,
@@ -407,7 +416,8 @@
       "cites": [
         {
           "source_id": "GHA7_CH4",
-          "pages": "76"
+          "pages": "76",
+          "quote": "The Ansār completely annihilated their enemy at Shaykān's forest in the neighbourhood of al-'Obeid."
         },
         {
           "source_id": "SLATIN1898",
@@ -463,7 +473,8 @@
       "cites": [
         {
           "source_id": "GHA7_CH4",
-          "pages": "76–77"
+          "pages": "76–77",
+          "quote": "attacked the town, killed Gordon on 26 January 1885, and put an end to Turco-Egyptian rule in the Sudan."
         }
       ],
       "decisive": false,
@@ -511,7 +522,8 @@
       "cites": [
         {
           "source_id": "GHA7_CH4",
-          "pages": "77"
+          "pages": "77",
+          "quote": "Under the leadership of 'Abd al-Raḥmān al-Nudjūmī, the Mahdist forces invaded Egypt, but they were defeated at the battle of Tushki in 1889."
         },
         {
           "source_id": "RIVERWAR1899_V1",
@@ -570,7 +582,8 @@
       "cites": [
         {
           "source_id": "GHA7_CH11",
-          "pages": "268"
+          "pages": "268",
+          "quote": "The emperor hastened to Matamma to resist them, but at the close of a victorious battle on 10 March 1889, was mortally wounded by a stray bullet. News of his death caused his army to disintegrate."
         },
         {
           "source_id": "RIVERWAR1899_V1",
@@ -622,7 +635,8 @@
       "cites": [
         {
           "source_id": "GHA7_CH4",
-          "pages": "78"
+          "pages": "78",
+          "quote": "Commanded by Emir Maḥmūd Aḥmad, the Ansār tried unsuccessfully to repel the enemy attack at the battle of Atbara on 8 April 1898."
         },
         {
           "source_id": "RIVERWAR1899_V1",
@@ -675,7 +689,8 @@
       "cites": [
         {
           "source_id": "GHA7_CH4",
-          "pages": "78"
+          "pages": "78",
+          "quote": "the Sudanese fought the enemy with magnificent courage at the battle of Karari on 2 September 1898. Once again they were defeated by superior armaments."
         },
         {
           "source_id": "RIVERWAR1899_V1",
@@ -728,7 +743,8 @@
       "cites": [
         {
           "source_id": "GHA7_CH4",
-          "pages": "78"
+          "pages": "78",
+          "quote": "was finally defeated at the battle of Umm Diwaykrāt on 24 November 1899. After the battle, the Khalīfa was found dead upon his sheepskin prayer-rug"
         }
       ],
       "decisive": true,
@@ -768,7 +784,8 @@
       "cites": [
         {
           "source_id": "GHA7_CH12",
-          "pages": "283"
+          "pages": "283",
+          "quote": "Not until February 1916 was he defeated and killed in battle and Dārfūr fully incorporated into Sudan."
         }
       ],
       "decisive": false,
@@ -812,7 +829,8 @@
       "cites": [
         {
           "source_id": "GHA8",
-          "pages": "149"
+          "pages": "149",
+          "quote": "in August 1955 the Equatoria Corps of the Sudanese army revolted against the gradual take-over of the administration and command posts by the northerners. Although the mutineers soon surrendered, disorder had by that time spread through the southern provinces"
         }
       ],
       "decisive": false,
@@ -858,7 +876,8 @@
       "cites": [
         {
           "source_id": "SFDAS_HCS2017",
-          "pages": "137–138"
+          "pages": "137–138",
+          "quote": "Mais Piankhy fait saisir tous les bateaux disponibles et envoie ses soldats éperonner les murs en un assaut unique, forçant ainsi les défenses de l’ennemi. La ville est prise, avec un butin considérable."
         },
         {
           "source_id": "GHA2_CH2",
@@ -921,7 +940,8 @@
       "cites": [
         {
           "source_id": "SFDAS_HCS2017",
-          "pages": "419"
+          "pages": "419",
+          "quote": "Son armée envahit la Nubie et poussa jusqu’à Dongola en 1276, où elle rétablit sur le trône le roi Shékanda, lui imposant toutefois un lourd tribut et la cession de provinces entières au pouvoir mamelouk."
         }
       ],
       "lat": 18.22306,
@@ -970,7 +990,8 @@
       "cites": [
         {
           "source_id": "SFDAS_HCS2017",
-          "pages": "423"
+          "pages": "423",
+          "quote": "Celui-ci partit avec une armée de 40 000 hommes vers le Soudan, où il s’empara de Qasr Ibrim."
         },
         {
           "source_id": "SFDAS_HCS2017",
@@ -1027,7 +1048,8 @@
       "cites": [
         {
           "source_id": "WINGATE1891",
-          "pages": "117"
+          "pages": "117",
+          "quote": "The battle of El Teb, fought on the 29th February, showed hard hand-to-hand fighting."
         },
         {
           "source_id": "GLEICHEN1905_V1",
@@ -1083,7 +1105,8 @@
       "cites": [
         {
           "source_id": "WINGATE1891",
-          "pages": "117–118"
+          "pages": "117–118",
+          "quote": "on the 13th March, Graham caught the Arabs in still greater force, 12,000 according to careful estimate, and, after a fierce and obstinate fight at Tamai, he killed 2000 and brushed the remainder into the hills."
         },
         {
           "source_id": "RIVERWAR1899_V1",
@@ -1143,7 +1166,8 @@
         },
         {
           "source_id": "SLATIN1898",
-          "pages": "204"
+          "pages": "204",
+          "quote": "the English advanced guard had met the combined force of Barabra, Jaalin, Degheim, and Kenana, under Musa Wad Helu, at Abu Teleh (Abu Klea), and had utterly defeated them"
         }
       ],
       "label": "Abu Klea 1885",
@@ -1193,7 +1217,8 @@
       "cites": [
         {
           "source_id": "RIVERWAR1899_V1",
-          "pages": "157"
+          "pages": "157",
+          "quote": "at Ginniss, on the last day but one of the year, they sustained a severe repulse at the hands of Sir Frederick Stephenson."
         },
         {
           "source_id": "WINGATE1891",
@@ -1257,7 +1282,8 @@
       "cites": [
         {
           "source_id": "RIVERWAR1899_V1",
-          "pages": "355–356"
+          "pages": "355–356",
+          "quote": "the Italians under General Baratieri advanced from Agordat and captured Kassala. The occupation was provisionally recognised by Egypt without prejudice to her sovereign rights"
         }
       ],
       "lat": 15.45,
@@ -1306,7 +1332,8 @@
       "cites": [
         {
           "source_id": "RIVERWAR1899_V1",
-          "pages": "220"
+          "pages": "220",
+          "quote": "FIRKET June 7, 1896. [...] Firket village — The deployment MacDonald's brigade — Capture of the village — The pursuit"
         },
         {
           "source_id": "RIVERWAR1899_V1",
