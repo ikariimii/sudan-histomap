@@ -2440,17 +2440,17 @@
      "label_ar": "معركة شيكان",
      "start": 1883,
      "end": 1883,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -2600,17 +2600,17 @@
      "label_ar": "معركة كرري (أم درمان)",
      "start": 1898,
      "end": 1898,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Anglo-Egyptian reconquest of the Sudan",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -2772,17 +2772,17 @@
      "label_ar": "معركة التيب",
      "start": 1884,
      "end": 1884,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -2804,17 +2804,17 @@
      "label_ar": "معركة طماي",
      "start": 1884,
      "end": 1884,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -2836,17 +2836,17 @@
      "label_ar": "معركة أبو طليح",
      "start": 1885,
      "end": 1885,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -2868,17 +2868,17 @@
      "label_ar": "معركة جنس",
      "start": 1885,
      "end": 1885,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -2957,6 +2957,38 @@
       }
      ],
      "legend_id": "battle:beja-red-sea-hills-peoples:ferkeh-1896"
+    },
+    {
+     "id": "gallabat-1940",
+     "label_en": "Battle of Gallabat",
+     "label_ar": "معركة القلابات",
+     "start": 1940,
+     "end": 1940,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "list_only": false,
+     "via_war": false,
+     "war_en": "East African campaign (Sudan frontier), 1940–41",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Great Britain, Ministry of Information (1942) The Abyssinian Campaigns: The Official Story of the Conquest of Italian East Africa",
+       "p": "26",
+       "u": "https://archive.org/details/abyssiniancampaigns"
+      },
+      {
+       "c": "Great Britain, Ministry of Information (1942) The Abyssinian Campaigns: The Official Story of the Conquest of Italian East Africa",
+       "p": "27",
+       "u": "https://archive.org/details/abyssiniancampaigns"
+      }
+     ],
+     "legend_id": "battle:beja-red-sea-hills-peoples:gallabat-1940"
     },
     {
      "id": "juba-1992",
@@ -3549,8 +3581,8 @@
   "RUIN-UNDATED"
  ],
  "counts": {
-  "battle_approximate": 29,
-  "battle_region": 10,
+  "battle_approximate": 36,
+  "battle_region": 4,
   "city_capital": 21,
   "city_garrison": 8,
   "city_other": 16,
@@ -3565,7 +3597,7 @@
   "extent_features": 1,
   "group_features": 1,
   "cities": 64,
-  "battles": 39
+  "battles": 40
  },
  "legend_rows": [
   {
@@ -3632,13 +3664,13 @@
    "row_id": "battles:battle_approximate",
    "layer": "battles",
    "symbol_class": "battle_approximate",
-   "n": 29
+   "n": 36
   },
   {
    "row_id": "battles:battle_region",
    "layer": "battles",
    "symbol_class": "battle_region",
-   "n": 10
+   "n": 4
   },
   {
    "row_id": "homelands:homeland_point",
@@ -3659,14 +3691,16 @@
    "After Meroe's fall the Nobades push the Blemmyes ('Bega or Buga') into the eastern desert",
    "Recognised by medieval Muslim writers as distinct from Nubians, Arabs and 'Sudan'",
    "Camel-nomads of the Red Sea Hills; gradual Islamisation and varying arabisation",
-   "Nabtab ruling clan of the Banu 'Amir claims Ja'ali descent"
+   "Nabtab ruling clan of the Banu 'Amir claims Ja'ali descent",
+   "'Ababda (north) Arabic-speaking; 18th c. southward expansion; Hadendowa in Taka (Gash) by early 19th c."
   ],
   "key_events_ar": [
    "البليميون (تاريخ أفريقيا العام، المجلد الثاني: «يُطابَقون عادةً مع قبائل البجة») يغيرون على صعيد مصر؛ قُمعوا في عهد بروبوس (276–282 م)",
    "بعد سقوط مروي دفع النوباديون البليميين («البجة أو البوجة») إلى الصحراء الشرقية",
    "ميّزهم الكتّاب المسلمون في العصور الوسطى عن النوبة والعرب و«السودان»",
    "رعاة إبل رحّل في تلال البحر الأحمر؛ أسلمة تدريجية وتعريب متفاوت",
-   "النابتاب، العشيرة الحاكمة لبني عامر، يدّعون النسب الجعلي"
+   "النابتاب، العشيرة الحاكمة لبني عامر، يدّعون النسب الجعلي",
+   "العبابدة (في الشمال) يتحدثون العربية؛ توسع نحو الجنوب في القرن الثامن عشر؛ الهدندوة في التاكا (القاش) بحلول مطلع القرن التاسع عشر [يحتاج تحقق]"
   ],
   "key_events": [
    {
@@ -3721,6 +3755,18 @@
     "event_id": "beja-red-sea-hills-peoples#4",
     "en": "Nabtab ruling clan of the Banu 'Amir claims Ja'ali descent",
     "ar": "النابتاب، العشيرة الحاكمة لبني عامر، يدّعون النسب الجعلي",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "GHA2_CH19"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "beja-red-sea-hills-peoples#5",
+    "en": "'Ababda (north) Arabic-speaking; 18th c. southward expansion; Hadendowa in Taka (Gash) by early 19th c.",
+    "ar": "العبابدة (في الشمال) يتحدثون العربية؛ توسع نحو الجنوب في القرن الثامن عشر؛ الهدندوة في التاكا (القاش) بحلول مطلع القرن التاسع عشر [يحتاج تحقق]",
     "cite": null,
     "source_ids": [
      "HD2011",

@@ -1799,17 +1799,17 @@
      "label_ar": "معركة شيكان",
      "start": 1883,
      "end": 1883,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -1959,17 +1959,17 @@
      "label_ar": "معركة كرري (أم درمان)",
      "start": 1898,
      "end": 1898,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Anglo-Egyptian reconquest of the Sudan",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -2018,17 +2018,17 @@
      "label_ar": "معركة التيب",
      "start": 1884,
      "end": 1884,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -2050,17 +2050,17 @@
      "label_ar": "معركة طماي",
      "start": 1884,
      "end": 1884,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -2082,17 +2082,17 @@
      "label_ar": "معركة أبو طليح",
      "start": 1885,
      "end": 1885,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -2114,17 +2114,17 @@
      "label_ar": "معركة جنس",
      "start": 1885,
      "end": 1885,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -2234,8 +2234,8 @@
   "RUIN-UNDATED"
  ],
  "counts": {
-  "battle_approximate": 5,
-  "battle_region": 9,
+  "battle_approximate": 11,
+  "battle_region": 3,
   "city_capital": 16,
   "city_garrison": 7,
   "city_other": 12,
@@ -2310,13 +2310,13 @@
    "row_id": "battles:battle_region",
    "layer": "battles",
    "symbol_class": "battle_region",
-   "n": 9
+   "n": 3
   },
   {
    "row_id": "battles:battle_approximate",
    "layer": "battles",
    "symbol_class": "battle_approximate",
-   "n": 5
+   "n": 11
   },
   {
    "row_id": "homelands:homeland_point",
@@ -2332,27 +2332,9 @@
   }
  ],
  "context": {
-  "key_events_en": [
-   "Rival and neighbour of Darfur"
-  ],
-  "key_events_ar": [
-   "منافسة دارفور وجارتها"
-  ],
-  "key_events": [
-   {
-    "event_id": "wadai-sultanate#0",
-    "en": "Rival and neighbour of Darfur",
-    "ar": "منافسة دارفور وجارتها",
-    "cite": null,
-    "source_ids": [
-     "GHAV",
-     "GHA6_CH14",
-     "WP:Wadai_Sultanate"
-    ],
-    "badges": [],
-    "origin": "data/periods.json"
-   }
-  ],
+  "key_events_en": [],
+  "key_events_ar": [],
+  "key_events": [],
   "key_events_source_ids": [
    "GHAV",
    "GHA6_CH14",

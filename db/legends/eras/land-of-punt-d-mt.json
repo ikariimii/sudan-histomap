@@ -482,19 +482,24 @@
      "label_ar": "استيلاء بيي على منف",
      "start": -720,
      "end": -720,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Piye's conquest of Egypt",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
+      {
+       "c": "James Henry Breasted (ed. and trans.) (1906) Ancient Records of Egypt: Historical Documents from the Earliest Times to the Persian Conquest, Vol. IV: The Twentieth to the Twenty-Sixth Dynasties",
+       "p": "435",
+       "u": "https://archive.org/details/cu31924082479258"
+      },
       {
        "c": "J. Leclant (1981) The empire of Kush: Napata and Meroe, ch.10 (General History of Africa II)",
        "p": "280",
@@ -513,7 +518,6 @@
  },
  "symbol_classes_present": [
   "battle_approximate",
-  "battle_region",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -531,8 +535,7 @@
   "RUIN-UNDATED"
  ],
  "counts": {
-  "battle_approximate": 2,
-  "battle_region": 1,
+  "battle_approximate": 3,
   "city_capital": 1,
   "city_garrison": 1,
   "city_other": 3,
@@ -579,13 +582,7 @@
    "row_id": "battles:battle_approximate",
    "layer": "battles",
    "symbol_class": "battle_approximate",
-   "n": 2
-  },
-  {
-   "row_id": "battles:battle_region",
-   "layer": "battles",
-   "symbol_class": "battle_region",
-   "n": 1
+   "n": 3
   },
   {
    "row_id": "homelands:homeland_point",

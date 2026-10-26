@@ -2075,17 +2075,17 @@
      "label_ar": "معركة شيكان",
      "start": 1883,
      "end": 1883,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -2235,17 +2235,17 @@
      "label_ar": "معركة كرري (أم درمان)",
      "start": 1898,
      "end": 1898,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Anglo-Egyptian reconquest of the Sudan",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -2380,17 +2380,17 @@
      "label_ar": "معركة التيب",
      "start": 1884,
      "end": 1884,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -2412,17 +2412,17 @@
      "label_ar": "معركة طماي",
      "start": 1884,
      "end": 1884,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -2444,17 +2444,17 @@
      "label_ar": "معركة أبو طليح",
      "start": 1885,
      "end": 1885,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -2476,17 +2476,17 @@
      "label_ar": "معركة جنس",
      "start": 1885,
      "end": 1885,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Mahdist war against Turco-Egyptian rule",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -2565,6 +2565,38 @@
       }
      ],
      "legend_id": "battle:ottoman-hejaz-saudi-state:ferkeh-1896"
+    },
+    {
+     "id": "gallabat-1940",
+     "label_en": "Battle of Gallabat",
+     "label_ar": "معركة القلابات",
+     "start": 1940,
+     "end": 1940,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "list_only": false,
+     "via_war": false,
+     "war_en": "East African campaign (Sudan frontier), 1940–41",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Great Britain, Ministry of Information (1942) The Abyssinian Campaigns: The Official Story of the Conquest of Italian East Africa",
+       "p": "26",
+       "u": "https://archive.org/details/abyssiniancampaigns"
+      },
+      {
+       "c": "Great Britain, Ministry of Information (1942) The Abyssinian Campaigns: The Official Story of the Conquest of Italian East Africa",
+       "p": "27",
+       "u": "https://archive.org/details/abyssiniancampaigns"
+      }
+     ],
+     "legend_id": "battle:ottoman-hejaz-saudi-state:gallabat-1940"
     },
     {
      "id": "juba-1992",
@@ -3157,8 +3189,8 @@
   "RUIN-UNDATED"
  ],
  "counts": {
-  "battle_approximate": 25,
-  "battle_region": 10,
+  "battle_approximate": 32,
+  "battle_region": 4,
   "city_capital": 18,
   "city_garrison": 8,
   "city_other": 15,
@@ -3173,7 +3205,7 @@
   "extent_features": 1,
   "group_features": 0,
   "cities": 57,
-  "battles": 35
+  "battles": 36
  },
  "legend_rows": [
   {
@@ -3234,13 +3266,13 @@
    "row_id": "battles:battle_region",
    "layer": "battles",
    "symbol_class": "battle_region",
-   "n": 10
+   "n": 4
   },
   {
    "row_id": "battles:battle_approximate",
    "layer": "battles",
    "symbol_class": "battle_approximate",
-   "n": 25
+   "n": 32
   },
   {
    "row_id": "homelands:homeland_point",
@@ -3257,29 +3289,14 @@
  ],
  "context": {
   "key_events_en": [
-   "Jeddah talks on Sudan war 2023",
    "Jeddah talks on Sudan war, from May 2023 (REPORTED)"
   ],
   "key_events_ar": [
-   "محادثات جدة بشأن حرب السودان 2023",
    "محادثات جدة بشأن حرب السودان منذ مايو 2023 (مُبلَّغ عنه) [يحتاج تحقق]"
   ],
   "key_events": [
    {
     "event_id": "ottoman-hejaz-saudi-state#0",
-    "en": "Jeddah talks on Sudan war 2023",
-    "ar": "محادثات جدة بشأن حرب السودان 2023",
-    "cite": null,
-    "source_ids": [
-     "JEDDAH2023",
-     "WP:Saudi_Arabia",
-     "WP:Treaty_of_Jeddah_(2023)"
-    ],
-    "badges": [],
-    "origin": "data/periods.json"
-   },
-   {
-    "event_id": "ottoman-hejaz-saudi-state#1",
     "en": "Jeddah talks on Sudan war, from May 2023 (REPORTED)",
     "ar": "محادثات جدة بشأن حرب السودان منذ مايو 2023 (مُبلَّغ عنه) [يحتاج تحقق]",
     "date": 2023,

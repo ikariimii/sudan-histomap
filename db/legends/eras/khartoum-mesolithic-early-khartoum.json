@@ -105,16 +105,29 @@
  ],
  "context": {
   "key_events_en": [
-   "Fishing/hunting settlements along the Nile near Khartoum"
+   "Fishing/hunting settlements along the Nile near Khartoum",
+   "Khartoumian pottery bowls with incised wavy-line and dotted-line decoration"
   ],
   "key_events_ar": [
-   "مستوطنات صيد الأسماك والقنص على ضفاف النيل قرب الخرطوم"
+   "مستوطنات صيد الأسماك والقنص على ضفاف النيل قرب الخرطوم",
+   "فخار الخطوط المتموجة من أقدم الفخار في أفريقيا [يحتاج تحقق]"
   ],
   "key_events": [
    {
     "event_id": "khartoum-mesolithic-early-khartoum#0",
     "en": "Fishing/hunting settlements along the Nile near Khartoum",
     "ar": "مستوطنات صيد الأسماك والقنص على ضفاف النيل قرب الخرطوم",
+    "cite": null,
+    "source_ids": [
+     "AAR2021"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "khartoum-mesolithic-early-khartoum#1",
+    "en": "Khartoumian pottery bowls with incised wavy-line and dotted-line decoration",
+    "ar": "فخار الخطوط المتموجة من أقدم الفخار في أفريقيا [يحتاج تحقق]",
     "cite": null,
     "source_ids": [
      "AAR2021"

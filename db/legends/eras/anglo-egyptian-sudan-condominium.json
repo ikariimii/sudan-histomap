@@ -1907,17 +1907,17 @@
      "label_ar": "معركة كرري (أم درمان)",
      "start": 1898,
      "end": 1898,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": true,
      "war_en": "Anglo-Egyptian reconquest of the Sudan",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
@@ -2045,6 +2045,38 @@
       }
      ],
      "legend_id": "battle:anglo-egyptian-sudan-condominium:ferkeh-1896"
+    },
+    {
+     "id": "gallabat-1940",
+     "label_en": "Battle of Gallabat",
+     "label_ar": "معركة القلابات",
+     "start": 1940,
+     "end": 1940,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "list_only": false,
+     "via_war": false,
+     "war_en": "East African campaign (Sudan frontier), 1940–41",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Great Britain, Ministry of Information (1942) The Abyssinian Campaigns: The Official Story of the Conquest of Italian East Africa",
+       "p": "26",
+       "u": "https://archive.org/details/abyssiniancampaigns"
+      },
+      {
+       "c": "Great Britain, Ministry of Information (1942) The Abyssinian Campaigns: The Official Story of the Conquest of Italian East Africa",
+       "p": "27",
+       "u": "https://archive.org/details/abyssiniancampaigns"
+      }
+     ],
+     "legend_id": "battle:anglo-egyptian-sudan-condominium:gallabat-1940"
     }
    ]
   }
@@ -2079,8 +2111,8 @@
   "SINGLE-SOURCE"
  ],
  "counts": {
-  "battle_approximate": 3,
-  "battle_region": 3,
+  "battle_approximate": 5,
+  "battle_region": 2,
   "city_capital": 14,
   "city_garrison": 4,
   "city_other": 14,
@@ -2098,7 +2130,7 @@
   "extent_features": 6,
   "group_features": 1,
   "cities": 47,
-  "battles": 6
+  "battles": 7
  },
  "legend_rows": [
   {
@@ -2171,13 +2203,13 @@
    "row_id": "battles:battle_approximate",
    "layer": "battles",
    "symbol_class": "battle_approximate",
-   "n": 3
+   "n": 5
   },
   {
    "row_id": "battles:battle_region",
    "layer": "battles",
    "symbol_class": "battle_region",
-   "n": 3
+   "n": 2
   },
   {
    "row_id": "homelands:homeland_point",

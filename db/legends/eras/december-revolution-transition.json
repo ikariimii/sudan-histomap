@@ -2301,18 +2301,18 @@
  "context": {
   "key_events_en": [
    "December 2018 revolution",
-   "Constitutional Document signed 17 August 2019",
+   "Sovereignty Council; PM Abdalla Hamdok",
    "Military coup 25 Oct 2021",
+   "Constitutional Document signed 17 August 2019",
    "UNITAMS created by UNSC res. 2524, 3 June 2020",
-   "UNITAMS created by UNSC res. 2524, 3 Jun 2020",
    "Juba Peace Agreement signed 3 October 2020 (Government, SRF, SLM-MM)"
   ],
   "key_events_ar": [
    "ثورة ديسمبر 2018 [يحتاج تحقق]",
-   "توقيع الوثيقة الدستورية 17 أغسطس 2019 [يحتاج تحقق]",
+   "مجلس السيادة؛ رئيس الوزراء عبد الله حمدوك",
    "الانقلاب العسكري 25 أكتوبر 2021",
+   "توقيع الوثيقة الدستورية 17 أغسطس 2019 [يحتاج تحقق]",
    "إنشاء بعثة يونيتامس بقرار مجلس الأمن 2524، 3 يونيو 2020 [يحتاج تحقق]",
-   "إنشاء بعثة يونيتامس بقرار مجلس الأمن 2524، 3 يونيو 2020",
    "توقيع اتفاق جوبا للسلام في 3 أكتوبر 2020 (الحكومة، الجبهة الثورية، حركة تحرير السودان-مني مناوي) [يحتاج تحقق]"
   ],
   "key_events": [
@@ -2335,20 +2335,18 @@
    },
    {
     "event_id": "december-revolution-transition#1",
-    "en": "Constitutional Document signed 17 August 2019",
-    "ar": "توقيع الوثيقة الدستورية 17 أغسطس 2019 [يحتاج تحقق]",
-    "date": 2019,
-    "cite": [
-     {
-      "source_id": "UNSC2524",
-      "pages": "p.1, preamble"
-     }
-    ],
+    "en": "Sovereignty Council; PM Abdalla Hamdok",
+    "ar": "مجلس السيادة؛ رئيس الوزراء عبد الله حمدوك",
+    "cite": null,
     "source_ids": [
-     "UNSC2524"
+     "ICG2019",
+     "ICG2021",
+     "UNSC2524",
+     "WP:Sudanese_revolution",
+     "WP:2021_Sudanese_coup_d'état"
     ],
     "badges": [],
-    "origin": "db/era_events_post1956.json"
+    "origin": "data/periods.json"
    },
    {
     "event_id": "december-revolution-transition#2",
@@ -2367,6 +2365,23 @@
    },
    {
     "event_id": "december-revolution-transition#3",
+    "en": "Constitutional Document signed 17 August 2019",
+    "ar": "توقيع الوثيقة الدستورية 17 أغسطس 2019 [يحتاج تحقق]",
+    "date": 2019,
+    "cite": [
+     {
+      "source_id": "UNSC2524",
+      "pages": "p.1, preamble"
+     }
+    ],
+    "source_ids": [
+     "UNSC2524"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "december-revolution-transition#4",
     "en": "UNITAMS created by UNSC res. 2524, 3 June 2020",
     "ar": "إنشاء بعثة يونيتامس بقرار مجلس الأمن 2524، 3 يونيو 2020 [يحتاج تحقق]",
     "date": 2020,
@@ -2381,21 +2396,6 @@
     ],
     "badges": [],
     "origin": "db/era_events_post1956.json"
-   },
-   {
-    "event_id": "december-revolution-transition#4",
-    "en": "UNITAMS created by UNSC res. 2524, 3 Jun 2020",
-    "ar": "إنشاء بعثة يونيتامس بقرار مجلس الأمن 2524، 3 يونيو 2020",
-    "cite": null,
-    "source_ids": [
-     "ICG2019",
-     "ICG2021",
-     "UNSC2524",
-     "WP:Sudanese_revolution",
-     "WP:2021_Sudanese_coup_d'état"
-    ],
-    "badges": [],
-    "origin": "data/periods.json"
    },
    {
     "event_id": "december-revolution-transition#5",

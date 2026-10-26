@@ -1985,6 +1985,38 @@
      "legend_id": "battle:central-african-republic-ubangi-shari:torit-1955"
     },
     {
+     "id": "gallabat-1940",
+     "label_en": "Battle of Gallabat",
+     "label_ar": "معركة القلابات",
+     "start": 1940,
+     "end": 1940,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "list_only": false,
+     "via_war": false,
+     "war_en": "East African campaign (Sudan frontier), 1940–41",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Great Britain, Ministry of Information (1942) The Abyssinian Campaigns: The Official Story of the Conquest of Italian East Africa",
+       "p": "26",
+       "u": "https://archive.org/details/abyssiniancampaigns"
+      },
+      {
+       "c": "Great Britain, Ministry of Information (1942) The Abyssinian Campaigns: The Official Story of the Conquest of Italian East Africa",
+       "p": "27",
+       "u": "https://archive.org/details/abyssiniancampaigns"
+      }
+     ],
+     "legend_id": "battle:central-african-republic-ubangi-shari:gallabat-1940"
+    },
+    {
      "id": "juba-1992",
      "label_en": "SPLA-Torit attacks on Juba",
      "label_ar": "هجمات الجيش الشعبي (فصيل توريت) على جوبا",
@@ -2576,7 +2608,7 @@
   "RUIN-UNDATED"
  ],
  "counts": {
-  "battle_approximate": 19,
+  "battle_approximate": 20,
   "battle_region": 1,
   "city_capital": 15,
   "city_garrison": 4,
@@ -2594,7 +2626,7 @@
   "extent_features": 8,
   "group_features": 0,
   "cities": 51,
-  "battles": 20
+  "battles": 21
  },
  "legend_rows": [
   {
@@ -2673,7 +2705,7 @@
    "row_id": "battles:battle_approximate",
    "layer": "battles",
    "symbol_class": "battle_approximate",
-   "n": 19
+   "n": 20
   },
   {
    "row_id": "homelands:homeland_point",
