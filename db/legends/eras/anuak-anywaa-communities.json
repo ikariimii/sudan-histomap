@@ -2389,14 +2389,14 @@
      },
      "cite": [
       {
-       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
-       "p": "423",
-       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+       "c": "Y.F. Hasan and B.A. Ogot (1992) The Sudan, 1500–1800, ch.7 (General History of Africa V)",
+       "p": "175",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
       },
       {
-       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
-       "p": "420, 424",
-       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+       "c": "R. Veselý (1992) The Ottoman conquest of Egypt, ch.6 (General History of Africa V)",
+       "p": "145",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
       }
      ],
      "legend_id": "battle:anuak-anywaa-communities:qasr-ibrim-1560"
@@ -2788,23 +2788,43 @@
      "label_ar": "أزمة هجليج",
      "start": 2012,
      "end": 2012,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Sudan–South Sudan border conflict (Heglig crisis)",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
        "c": "UN Security Council (2012) UN Security Council, Statement by the President, S/PRST/2012/12, 12 April 2012",
        "p": "p.1, paras 1–2; also UNSC2046 preamble",
        "u": "https://documents.un.org/api/symbol/access?s=S/PRST/2012/12&l=en&t=pdf"
+      },
+      {
+       "c": "UN Audiovisual Library (UNTV / UNMISS, Unifeed) (2012) UN / Heglig Border Dispute Wrap (U120419c)",
+       "p": null,
+       "u": "https://media.un.org/avlibrary/en/asset/u120/u120419c"
+      },
+      {
+       "c": "UN Security Council Resolution 2046 (2012), S/RES/2046(2012), 2 May 2012 (alias of S_RES_2046)",
+       "p": "preamble (PDF p.2)",
+       "u": "https://documents.un.org/api/symbol/access?s=S/RES/2046(2012)&l=en&t=pdf"
+      },
+      {
+       "c": "UN News (2012) Security Council urges immediate ceasefire between Sudan and South Sudan",
+       "p": "para 4",
+       "u": "https://news.un.org/en/story/2012/04/409412"
+      },
+      {
+       "c": "أخبار الأمم المتحدة (UN News Arabic) (2012) بان يحث حكومتي السودان وجنوب السودان على استئناف التفاوض فورا",
+       "p": null,
+       "u": "https://news.un.org/ar/story/2012/04/157772"
       }
      ],
      "legend_id": "battle:anuak-anywaa-communities:heglig-2012"
@@ -2913,6 +2933,11 @@
        "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2024) Letter dated 15 January 2024 from the Panel of Experts on the Sudan addressed to the President of the Security Council (final report)",
        "p": "para 4 (PDF p.5)",
        "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
+      },
+      {
+       "c": "UN OCHA (2023-04-16) Sudan: Clashes between the Sudanese Armed Forces & and Rapid Support Forces, Flash update (16 April 2023) [EN/AR]",
+       "p": "Highlights bullet 1; Situation overview para 1",
+       "u": "https://www.unocha.org/publications/report/sudan/sudan-clashes-between-sudanese-armed-forces-and-rapid-support-forces-flash-update-16-april-2023-enar"
       }
      ],
      "legend_id": "battle:anuak-anywaa-communities:khartoum-2023"
@@ -2940,9 +2965,51 @@
        "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2024) Letter dated 15 January 2024 from the Panel of Experts on the Sudan addressed to the President of the Security Council (final report)",
        "p": "Table 1 (PDF p.6); sect. VI",
        "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
+      },
+      {
+       "c": "UN Security Council (2024-06-13) Resolution 2736 (2024), adopted by the Security Council at its 9655th meeting, on 13 June 2024",
+       "p": "preamble, p.1 (El Geneina, 24 Apr-19 Jun 2023)",
+       "u": "https://documents.un.org/api/symbol/access?s=S/RES/2736(2024)&l=en&t=pdf"
+      },
+      {
+       "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2025) Letter dated 14 April 2025 from the President of the Security Council acting in the absence of a Chair of the Security Council Committee established pursuant to resolution 1591 (2005) concerning the Sudan addressed to the President of the Security Council (final report of the Panel of Experts)",
+       "p": "para 21 (PDF p.9)",
+       "u": "https://documents.un.org/api/symbol/access?s=S/2025/239&l=en&t=pdf"
       }
      ],
      "legend_id": "battle:anuak-anywaa-communities:el-geneina-2023"
+    },
+    {
+     "id": "wad-madani-2023",
+     "label_en": "Fighting in and around Wad Madani",
+     "label_ar": "القتال في ود مدني ومحيطها",
+     "start": 2023,
+     "end": 2023,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "list_only": false,
+     "via_war": false,
+     "war_en": "War in Sudan (SAF vs RSF)",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "UN OCHA (2023) Sudan: Clashes in Wad Medani between the Sudanese Armed Forces (SAF) and Rapid Support Forces (RSF) Flash Update No: 05 (28 December 2023) [EN/AR]",
+       "p": "Situation overview para 1",
+       "u": "https://www.unocha.org/publications/report/sudan/sudan-clashes-wad-medani-between-sudanese-armed-forces-saf-and-rapid-support-forces-rsf-flash-update-no-05-28-december-2023-enar"
+      },
+      {
+       "c": "UN OCHA (2023) Sudan: Clashes in Wad Madani between the Sudanese Armed Forces (SAF) and Rapid Support Forces (RSF) - Flash Update No: 03 (as of 18 December 2023) [EN/AR]",
+       "p": "Situation overview paras 1-2 (fighting from 15 Dec; RSF entered town as of 18 Dec)",
+       "u": "https://www.unocha.org/publications/report/sudan/sudan-clashes-wad-madani-between-sudanese-armed-forces-saf-and-rapid-support-forces-rsf-flash-update-no-03-18-december-2023-enar"
+      }
+     ],
+     "legend_id": "battle:anuak-anywaa-communities:wad-madani-2023"
     },
     {
      "id": "nyala-2023",
@@ -2967,6 +3034,11 @@
        "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2024) Letter dated 15 January 2024 from the Panel of Experts on the Sudan addressed to the President of the Security Council (final report)",
        "p": "Table 1 (PDF p.6); sect. VII",
        "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
+      },
+      {
+       "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2025) Letter dated 14 April 2025 from the President of the Security Council acting in the absence of a Chair of the Security Council Committee established pursuant to resolution 1591 (2005) concerning the Sudan addressed to the President of the Security Council (final report of the Panel of Experts)",
+       "p": "para 21 (PDF p.9); Summary p.2",
+       "u": "https://documents.un.org/api/symbol/access?s=S/2025/239&l=en&t=pdf"
       }
      ],
      "legend_id": "battle:anuak-anywaa-communities:nyala-2023"
@@ -2994,6 +3066,11 @@
        "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2024) Letter dated 15 January 2024 from the Panel of Experts on the Sudan addressed to the President of the Security Council (final report)",
        "p": "Table 1 (PDF p.6)",
        "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
+      },
+      {
+       "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2025) Letter dated 14 April 2025 from the President of the Security Council acting in the absence of a Chair of the Security Council Committee established pursuant to resolution 1591 (2005) concerning the Sudan addressed to the President of the Security Council (final report of the Panel of Experts)",
+       "p": "para 21 (PDF p.9); Summary p.2",
+       "u": "https://documents.un.org/api/symbol/access?s=S/2025/239&l=en&t=pdf"
       }
      ],
      "legend_id": "battle:anuak-anywaa-communities:zalingei-2023"
@@ -3004,23 +3081,28 @@
      "label_ar": "القتال المُبلَّغ عنه في أردمتا",
      "start": 2023,
      "end": 2023,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "War in Sudan (SAF vs RSF)",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
        "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2024) Letter dated 15 January 2024 from the Panel of Experts on the Sudan addressed to the President of the Security Council (final report)",
        "p": "Table 1 (PDF p.6); sect. VI",
        "u": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf"
+      },
+      {
+       "c": "UN News (2023) ‘Six days of terror’ in West Darfur: Ethnically-based attacks on the rise",
+       "p": "'Six days of terror' para 1: \"after they took control of the Sudanese army’s base in Ardamata on 4 November\"",
+       "u": "https://news.un.org/en/story/2023/11/1143732"
       }
      ],
      "legend_id": "battle:anuak-anywaa-communities:ardamatta-2023"
@@ -3045,9 +3127,29 @@
      },
      "cite": [
       {
+       "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2025) Letter dated 14 April 2025 from the President of the Security Council acting in the absence of a Chair of the Security Council Committee established pursuant to resolution 1591 (2005) concerning the Sudan addressed to the President of the Security Council (final report of the Panel of Experts)",
+       "p": "para 16: \"In 2024, fighting broke out in key strategic military locations (see sect. XI.B and annex 5), with El Fasher emerging as the epicentre of the Darfur conflict.\"",
+       "u": "https://documents.un.org/api/symbol/access?s=S/2025/239&l=en&t=pdf"
+      },
+      {
        "c": "UN Security Council Panel of Experts (1591) – copy hosted by The Africa Report (2026 (mid/) Final report of the Panel of Experts on the Sudan (2026)",
        "p": "para 31 (PDF p.12), sect. III.C.1",
        "u": "https://prod.cdn-medias.theafricareport.com/medias/2026/10/08/final_report_2791.pdf"
+      },
+      {
+       "c": "Panel of Experts on the Sudan (established pursuant to UNSC resolution 1591 (2005)) (2025) Letter dated 14 April 2025 from the President of the Security Council acting in the absence of a Chair of the Security Council Committee established pursuant to resolution 1591 (2005) concerning the Sudan addressed to the President of the Security Council (final report of the Panel of Experts)",
+       "p": "Summary (PDF p.2); paras 17-22 (pp.8-9)",
+       "u": "https://documents.un.org/api/symbol/access?s=S/2025/239&l=en&t=pdf"
+      },
+      {
+       "c": "UN Security Council (2024-06-13) Resolution 2736 (2024), adopted by the Security Council at its 9655th meeting, on 13 June 2024",
+       "p": "preamble p.1; op. paras 1-2, p.2",
+       "u": "https://documents.un.org/api/symbol/access?s=S/RES/2736(2024)&l=en&t=pdf"
+      },
+      {
+       "c": "UN Meetings Coverage (2025) El Fasher in 'Even Darker Hell', UN Officials Tell Security Council, as Delegates Decry Horrific Crimes Following City's Capture by Rapid Support Forces (SC/16203)",
+       "p": "Meetings Coverage SC/16203, 10026th meeting, 30 Oct 2025: \"following the city's capture by the Rapid Support Forces (RSF) paramilitary group\"",
+       "u": "https://press.un.org/en/2025/sc16203.doc.htm"
       }
      ],
      "legend_id": "battle:anuak-anywaa-communities:el-fasher-2024"
@@ -3082,8 +3184,8 @@
   "SINGLE-SOURCE"
  ],
  "counts": {
-  "battle_approximate": 21,
-  "battle_region": 14,
+  "battle_approximate": 24,
+  "battle_region": 12,
   "city_capital": 18,
   "city_garrison": 8,
   "city_other": 15,
@@ -3097,7 +3199,7 @@
   "extent_features": 2,
   "group_features": 0,
   "cities": 57,
-  "battles": 35
+  "battles": 36
  },
  "legend_rows": [
   {
@@ -3158,13 +3260,13 @@
    "row_id": "battles:battle_approximate",
    "layer": "battles",
    "symbol_class": "battle_approximate",
-   "n": 21
+   "n": 24
   },
   {
    "row_id": "battles:battle_region",
    "layer": "battles",
    "symbol_class": "battle_region",
-   "n": 14
+   "n": 12
   },
   {
    "row_id": "homelands:homeland_point",
@@ -3181,27 +3283,14 @@
  ],
  "context": {
   "key_events_en": [
-   "Shilluk-speaking (Luo) Nilotic people [NO-SOURCE]",
    "Anuak country on the Sobat and Baro described in Gleichen's 1905 compendium (GLEICHEN1905_V1 pp.132, 134)"
   ],
   "key_events_ar": [
-   "شعب نيلي يتحدث لغة من مجموعة الشلك (اللوو) [يحتاج تحقق]",
    "Anuak country on the Sobat and Baro described in Gleichen's 1905 compendium (GLEICHEN1905_V1 pp.132, 134) [VERIFY] [يحتاج تحقق]"
   ],
   "key_events": [
    {
     "event_id": "anuak-anywaa-communities#0",
-    "en": "Shilluk-speaking (Luo) Nilotic people [NO-SOURCE]",
-    "ar": "شعب نيلي يتحدث لغة من مجموعة الشلك (اللوو) [يحتاج تحقق]",
-    "cite": null,
-    "source_ids": [
-     "GLEICHEN1905_V1"
-    ],
-    "badges": [],
-    "origin": "data/periods.json"
-   },
-   {
-    "event_id": "anuak-anywaa-communities#1",
     "en": "Anuak country on the Sobat and Baro described in Gleichen's 1905 compendium (GLEICHEN1905_V1 pp.132, 134)",
     "ar": "Anuak country on the Sobat and Baro described in Gleichen's 1905 compendium (GLEICHEN1905_V1 pp.132, 134) [VERIFY] [يحتاج تحقق]",
     "cite": null,

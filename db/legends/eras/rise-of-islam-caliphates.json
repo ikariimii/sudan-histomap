@@ -920,9 +920,14 @@
      },
      "cite": [
       {
-       "c": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso (2017) Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
-       "p": "405",
-       "u": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html"
+       "c": "T. Bianquis (1988) Egypt from the Arab conquest until the end of the Fatimid state (1171) (General History of Africa III, ch.7)",
+       "p": "166",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184282"
+      },
+      {
+       "c": "M. El Fasi and I. Hrbek (1988) Stages in the development of Islam and its dissemination in Africa, ch.3 (General History of Africa III)",
+       "p": "81",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184282"
       }
      ],
      "legend_id": "battle:rise-of-islam-caliphates:dongola-652"
@@ -1030,31 +1035,16 @@
  ],
  "context": {
   "key_events_en": [
-   "First Hijra to Aksum c.615",
-   "Abbasid trade via Red Sea"
+   "First Hijra to Aksum c.615"
   ],
   "key_events_ar": [
-   "الهجرة الأولى إلى أكسوم (الحبشة) نحو 615",
-   "التجارة العباسية عبر البحر الأحمر"
+   "الهجرة الأولى إلى أكسوم (الحبشة) نحو 615"
   ],
   "key_events": [
    {
     "event_id": "rise-of-islam-caliphates#0",
     "en": "First Hijra to Aksum c.615",
     "ar": "الهجرة الأولى إلى أكسوم (الحبشة) نحو 615",
-    "cite": null,
-    "source_ids": [
-     "GHA3_CH8",
-     "WP:Rashidun_Caliphate",
-     "WP:Abbasid_Caliphate"
-    ],
-    "badges": [],
-    "origin": "data/periods.json"
-   },
-   {
-    "event_id": "rise-of-islam-caliphates#1",
-    "en": "Abbasid trade via Red Sea",
-    "ar": "التجارة العباسية عبر البحر الأحمر",
     "cite": null,
     "source_ids": [
      "GHA3_CH8",

@@ -2164,23 +2164,43 @@
      "label_ar": "أزمة هجليج",
      "start": 2012,
      "end": 2012,
-     "precision": "region",
-     "symbol_class": "battle_region",
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
      "drawn": true,
      "list_only": false,
      "via_war": false,
      "war_en": "Sudan–South Sudan border conflict (Heglig crisis)",
      "swatch": {
-      "file": "battle_region.svg",
-      "halo": "radial #f08c6c 0.55 to 0",
-      "glyph": "#fbecc8",
-      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
      },
      "cite": [
       {
        "c": "UN Security Council (2012) UN Security Council, Statement by the President, S/PRST/2012/12, 12 April 2012",
        "p": "p.1, paras 1–2; also UNSC2046 preamble",
        "u": "https://documents.un.org/api/symbol/access?s=S/PRST/2012/12&l=en&t=pdf"
+      },
+      {
+       "c": "UN Audiovisual Library (UNTV / UNMISS, Unifeed) (2012) UN / Heglig Border Dispute Wrap (U120419c)",
+       "p": null,
+       "u": "https://media.un.org/avlibrary/en/asset/u120/u120419c"
+      },
+      {
+       "c": "UN Security Council Resolution 2046 (2012), S/RES/2046(2012), 2 May 2012 (alias of S_RES_2046)",
+       "p": "preamble (PDF p.2)",
+       "u": "https://documents.un.org/api/symbol/access?s=S/RES/2046(2012)&l=en&t=pdf"
+      },
+      {
+       "c": "UN News (2012) Security Council urges immediate ceasefire between Sudan and South Sudan",
+       "p": "para 4",
+       "u": "https://news.un.org/en/story/2012/04/409412"
+      },
+      {
+       "c": "أخبار الأمم المتحدة (UN News Arabic) (2012) بان يحث حكومتي السودان وجنوب السودان على استئناف التفاوض فورا",
+       "p": null,
+       "u": "https://news.un.org/ar/story/2012/04/157772"
       }
      ],
      "legend_id": "battle:al-bashir-ncp-ingaz-regime:heglig-2012"
@@ -2271,7 +2291,6 @@
  },
  "symbol_classes_present": [
   "battle_approximate",
-  "battle_region",
   "city_capital",
   "city_garrison",
   "city_other",
@@ -2300,8 +2319,7 @@
   "RUIN-UNDATED"
  ],
  "counts": {
-  "battle_approximate": 10,
-  "battle_region": 1,
+  "battle_approximate": 11,
   "city_capital": 15,
   "city_garrison": 4,
   "city_other": 18,
@@ -2406,13 +2424,7 @@
    "row_id": "battles:battle_approximate",
    "layer": "battles",
    "symbol_class": "battle_approximate",
-   "n": 10
-  },
-  {
-   "row_id": "battles:battle_region",
-   "layer": "battles",
-   "symbol_class": "battle_region",
-   "n": 1
+   "n": 11
   },
   {
    "row_id": "homelands:homeland_point",

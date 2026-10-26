@@ -21,7 +21,7 @@ def badges(p):
     b = set(p.get('badges') or [])
     if p.get('badge'): b.add(str(p['badge']).split(' ')[0])
     return sorted(b)
-def cites(p):
+def cites(p, hn=None):
     out, pages = [], p.get('pages')
     for s in (p.get('sources') or ([p['source']] if p.get('source') else [])):
         sid = s.get('id') if isinstance(s, dict) else s
@@ -30,6 +30,11 @@ def cites(p):
     for x in (c if isinstance(c, list) else [c] if c else []):
         if isinstance(x, dict): out.append({'id': x.get('source_id'), 'pages': x.get('page')})
         elif isinstance(x, str): out.append({'id': x.split(' ')[0], 'pages': ' '.join(x.split(' ')[1:]) or pages})
+    # a bare source id with no page: take the page only from a cite of that same id that the file itself records
+    # (collection historian_note, checked on the page image), and only if no other page is already given for that id
+    for x in out:
+        if x['pages'] is None and x['id'] in (hn or {}) and not any(y['id'] == x['id'] and y['pages'] for y in out):
+            x['pages'] = hn[x['id']]
     seen, res = set(), []
     for x in out:
         k = (x['id'], str(x['pages']))
@@ -65,13 +70,17 @@ def main():
     for p in P:
         e = slug(p['name']); items = []
         f = os.path.join(R, 'db/extents', e + '.geojson')
-        for k, ft in enumerate(json.load(open(f, encoding='utf-8'))['features'] if os.path.exists(f) else []):
+        fc = json.load(open(f, encoding='utf-8')) if os.path.exists(f) else {'features': []}
+        hn = {}
+        for c in ((fc.get('historian_note') or {}).get('cites') or []):
+            if c.get('source_id') and c.get('page'): hn.setdefault(c['source_id'], (f"vol.{c['vol']} " if c.get('vol') else '') + c['page'])
+        for k, ft in enumerate(fc['features']):
             pr, g = ft['properties'], ft['geometry']
             fid = pr.get('id') or f'{e}#{k}'
             bs, txt, nr = base_source(pr); err, maps, er = overlay(e, pr, g)
             items.append({'layer': 'extents', 'file': f'db/extents/{e}.geojson', 'feature_index': k, 'feature_id': pr.get('id'),
                           'label_en': pr.get('label_en'), 'zone_type': zone_type(pr, g), 'geometry_type': g['type'] if g else None,
-                          'cites': cites(pr), 'base_source': bs, 'base_source_text': txt, 'base_source_null_reason': nr,
+                          'cites': cites(pr, hn), 'base_source': bs, 'base_source_text': txt, 'base_source_null_reason': nr,
                           'badges': badges(pr), 'confidence': pr.get('confidence'), 'certainty': pr.get('certainty'),
                           'start': pr.get('start'), 'end': pr.get('end'),
                           'checked_against': maps, 'overlay_mean_error_km': err, 'overlay_null_reason': er})
