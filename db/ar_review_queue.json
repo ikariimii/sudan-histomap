@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 378
+      "sentence_items": 385
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -7487,6 +7487,76 @@
           "origin_commit": "pending",
           "added": "2026-10-26",
           "kind": "city_name_ar"
+    },
+    {
+      "era_id": "Musabba'at sultanate (Kordofan)",
+      "file": "data/periods.json",
+      "field_ar": "key_events_ar[1] (mirrored in data/periods.js)",
+      "arabic_sentence": "عيساوي يطرد إدارة الفونج (الغديات) نحو 1734",
+      "badge": "VERIFY",
+      "field_en": "key_events[1]",
+      "revised_english": "(line deleted: \"'Isawi of the Musabba'at and the Funj fight over Kordofan, 1747–1751 (outcome disputed) [CONTESTED]: Qasim (vol. 4 p.1696) has 'Isawi defeating the Funj and 'Abdallab in 1747 and 1751; GHA V (p.178) has a decisive Funj victory in 1747\" — IM ruling: unmatched in data/era_events.json)",
+      "reason": "Line dropped from key_events by IM ruling (era_events realign); its Arabic counterpart removed with it. Arabic not reworded. Index is the pre-deletion index.",
+      "action": "Native reviewer: confirm the Arabic line's removal; no Arabic to align.",
+      "origin_commit": "era_events realign round 3 (IM ruling)",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق]"
+    },
+    {
+      "era_id": "Musabba'at sultanate (Kordofan)",
+      "file": "data/periods.json",
+      "field_ar": "key_events_ar[2] (mirrored in data/periods.js)",
+      "arabic_sentence": "محمد تيراب سلطان دارفور يفتح كردفان نحو 1785",
+      "badge": "VERIFY",
+      "field_en": "key_events[2]",
+      "revised_english": "(line deleted: \"Darfur's Muhammad Tayrab takes Kordofan from Hashim, Sultan of Kordofan; it stays with the Fur until the Turco-Egyptian conquest\" — IM ruling: unmatched in data/era_events.json)",
+      "reason": "Line dropped from key_events by IM ruling (era_events realign); its Arabic counterpart removed with it. Arabic not reworded. Index is the pre-deletion index.",
+      "action": "Native reviewer: confirm the Arabic line's removal; no Arabic to align.",
+      "origin_commit": "era_events realign round 3 (IM ruling)",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق]"
+    },
+    {
+      "era_id": "Khartoum Mesolithic (Early Khartoum)",
+      "file": "data/periods.json",
+      "field_ar": "key_events_ar[1] (mirrored in data/periods.js)",
+      "arabic_sentence": "فخار الخطوط المتموجة من أقدم الفخار في أفريقيا [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "key_events[1]",
+      "revised_english": "Khartoumian pottery bowls with incised wavy-line and dotted-line decoration",
+      "reason": "Cited line moved from data/era_events.json into key_events (IM ruling); Arabic carried over unchanged from era_events and tagged.",
+      "action": "review",
+      "origin_commit": "era_events realign round 3 (IM ruling)",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق]"
+    },
+    {
+      "era_id": "Kingdom of Taqali",
+      "file": "data/periods.json",
+      "field_ar": "key_events_ar[1] (mirrored in data/periods.js)",
+      "arabic_sentence": "مملكة في جبال النوبة؛ تابعة بالخراج للفونج/دارفور أحياناً [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "key_events[1]",
+      "revised_english": "Nuba Mountains kingdom; tributary to Funj/Darfur at times",
+      "reason": "Cited line moved from data/era_events.json into key_events (IM ruling); Arabic carried over unchanged from era_events and tagged.",
+      "action": "review",
+      "origin_commit": "era_events realign round 3 (IM ruling)",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق]"
+    },
+    {
+      "era_id": "Beja (Red Sea Hills peoples)",
+      "file": "data/periods.json",
+      "field_ar": "key_events_ar[5] (mirrored in data/periods.js)",
+      "arabic_sentence": "العبابدة (في الشمال) يتحدثون العربية؛ توسع نحو الجنوب في القرن الثامن عشر؛ الهدندوة في التاكا (القاش) بحلول مطلع القرن التاسع عشر [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "key_events[5]",
+      "revised_english": "'Ababda (north) Arabic-speaking; 18th c. southward expansion; Hadendowa in Taka (Gash) by early 19th c.",
+      "reason": "Cited line moved from data/era_events.json into key_events (IM ruling); Arabic carried over unchanged from era_events and tagged.",
+      "action": "review",
+      "origin_commit": "era_events realign round 3 (IM ruling)",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق]"
     }
   ]
 }

@@ -24,12 +24,11 @@
  "khartoum-neolithic-shaheinab": [
   {
    "date": null,
-   "en": "Dwarf goat domesticated at Esh Shaheinab (GHA1_CH25 p.643)",
-   "ar": "أبقار وضأن وماعز مستأنسة في الشهيناب",
+   "en": "Esh Shaheinab culture, derived from the Khartoumian: distinctive pottery, gouges and polished bone axes",
+   "ar": "",
    "cite": {
     "source_id": "GHA1_CH25",
-    "pages": "p.643",
-    "cite_text": "'Buffalo, antelope, giraffe and wart hog were hunted, and the dwarf goat was domesticated'"
+    "pages": "p.643"
    }
   }
  ],
@@ -1095,8 +1094,37 @@
    }
   }
  ],
- "republic-of-egypt": [],
- "land-of-punt-d-mt": [],
+ "republic-of-egypt": [
+  {
+   "date": 1956,
+   "en": "Nasser announces nationalization of the Suez Canal Company, 26 July 1956, to finance the Aswan High Dam",
+   "ar": "",
+   "cite": {
+    "source_id": "GHA8",
+    "pages": "p.147"
+   }
+  },
+  {
+   "date": 1956,
+   "en": "Israel, Britain and France invade Egypt, October–November 1956; hostilities cease 6 November under US and Soviet pressure",
+   "ar": "",
+   "cite": {
+    "source_id": "GHA8",
+    "pages": "p.147"
+   }
+  }
+ ],
+ "land-of-punt-d-mt": [
+  {
+   "date": null,
+   "en": "South Arabian period in northern Ethiopia: monuments and inscriptions in Eritrea and Tigre akin to those of Saba, dated 5th–4th centuries BC; temple of Yeha",
+   "ar": "",
+   "cite": {
+    "source_id": "GHA2_CH13",
+    "pages": "p.343"
+   }
+  }
+ ],
  "kingdom-of-aksum": [
   {
    "date": null,
@@ -1120,14 +1148,23 @@
  ],
  "zagwe-dynasty": [
   {
-   "date": null,
-   "en": "Lalibela rock-hewn churches",
-   "ar": "كنائس لاليبلا المنحوتة في الصخر",
+   "date": 1181,
+   "en": "King Lalibela (c. 1181–c. 1221) founds a new capital he calls 'New Jerusalem'",
+   "ar": "",
    "cite": {
-    "source_id": "GHA3_CH19",
-    "pages": "p.573"
+    "source_id": "GHAIV",
+    "pages": "p.2"
    },
-   "cite_note": "Running text names Beta-Maryam church in Lalibela; photographs also at GHA IV ch.17 pp.442–443 (plates 17.1–17.4)."
+   "approx": true
+  },
+  {
+   "date": 1270,
+   "en": "Christian kingdom of the Ethiopian highlands passes from the Zagwe to the Solomonid dynasty, 1270",
+   "ar": "",
+   "cite": {
+    "source_id": "GHA4_CH17",
+    "pages": "p.423"
+   }
   }
  ],
  "ethiopian-empire-solomonic": [
@@ -1160,14 +1197,22 @@
  ],
  "derg-federal-ethiopia": [
   {
-   "date": 2011,
-   "en": "GERD on Blue Nile (construction from 2011)",
-   "ar": "سد النهضة على النيل الأزرق (بدء البناء 2011)",
+   "date": null,
+   "en": "After the emperor is overthrown, Colonel Mengistu's Derg adopts the socialist model, backed by the socialist world",
+   "ar": "",
    "cite": {
-    "source_id": "GEO-016",
-    "pages": "HTML, no page numbers"
-   },
-   "badge": "SINGLE-SOURCE"
+    "source_id": "GHA8",
+    "pages": "p.811"
+   }
+  },
+  {
+   "date": 1991,
+   "en": "Mengistu Haile Mariam flees Ethiopia, 1991",
+   "ar": "",
+   "cite": {
+    "source_id": "GHA8",
+    "pages": "p.454"
+   }
   }
  ],
  "eritrea-italian-colony-independent": [
@@ -1224,12 +1269,21 @@
  ],
  "garamantes-fezzan": [
   {
-   "date": null,
-   "en": "Trans-Saharan trade in Libya",
-   "ar": "التجارة عبر الصحراء في ليبيا",
+   "date": -19,
+   "en": "Proconsul Cornelius Balbus raids the kingdom of the Garamantes of the Fezzan, 19 BC",
+   "ar": "",
    "cite": {
-    "source_id": "GHA2",
-    "pages": "p.451"
+    "source_id": "GHA2_CH20",
+    "pages": "p.517"
+   }
+  },
+  {
+   "date": null,
+   "en": "From Garama (Jerma), the Garamantes dominate the Fezzan and levy tribute on surrounding tribes",
+   "ar": "",
+   "cite": {
+    "source_id": "GHA2_CH20",
+    "pages": "p.522"
    }
   }
  ],
@@ -1245,11 +1299,20 @@
  "zande-kingdoms": [
   {
    "date": null,
-   "en": "Avungara-ruled states straddling Sudan/Congo/CAR",
-   "ar": "دول يحكمها الأفونغارا تمتد عبر السودان والكونغو وأفريقيا الوسطى",
+   "en": "Avungara dynasty founds a centralized Zande state in the 18th century",
+   "ar": "",
    "cite": {
-    "source_id": "GHA5_CH7",
-    "pages": "p.199"
+    "source_id": "GHA6_CH14",
+    "pages": "p.368"
+   }
+  },
+  {
+   "date": 1870,
+   "en": "Zande chief Ndoruma captures Abu Kurun's zeriba; in 1870 he defeats a 2,000-strong force and kills Abu Kurun",
+   "ar": "",
+   "cite": {
+    "source_id": "GHA6_CH14",
+    "pages": "p.368"
    }
   }
  ],
@@ -1265,20 +1328,11 @@
  "sabaean-south-arabian-kingdoms": [
   {
    "date": null,
-   "en": "Incense trade",
-   "ar": "تجارة البخور",
+   "en": "Mârib, capital of the kingdom of Saba: its principal temple on a tiered base parallels the temple of Yeha in Ethiopia",
+   "ar": "",
    "cite": {
-    "source_id": "GHA2",
-    "pages": "pp.564–565"
-   }
-  },
-  {
-   "date": null,
-   "en": "Influence on D'mt/Aksum",
-   "ar": "التأثير في دعمت/أكسوم",
-   "cite": {
-    "source_id": "GHA2",
-    "pages": "p.343"
+    "source_id": "GHA2_CH13",
+    "pages": "p.345"
    }
   }
  ],
@@ -1452,27 +1506,6 @@
   }
  ],
  "musabba-at-sultanate-kordofan": [
-  {
-   "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "r25 triage: Dates c.1734/1772/1782/1785 not printed in any registered source (GHA V ch.7 checked). O'Fahey & Spaulding 1974 exists on archive.org (kingdomsofsudan0000ofah) only as access-restricted lending copy; HathiTrust search-only. Not lawfully readable here."
-  },
-  {
-   "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "r25 triage: Dates c.1734/1772/1782/1785 not printed in any registered source (GHA V ch.7 checked). O'Fahey & Spaulding 1974 exists on archive.org (kingdomsofsudan0000ofah) only as access-restricted lending copy; HathiTrust search-only. Not lawfully readable here."
-  },
-  {
-   "date": null,
-   "en": "",
-   "ar": "",
-   "cite": "NO-SOURCE",
-   "removed": "r25 triage: Dates c.1734/1772/1782/1785 not printed in any registered source (GHA V ch.7 checked). O'Fahey & Spaulding 1974 exists on archive.org (kingdomsofsudan0000ofah) only as access-restricted lending copy; HathiTrust search-only. Not lawfully readable here."
-  },
   {
    "date": null,
    "en": "Exiled Keira faction contesting Kordofan with Funj and Darfur, late 17th–18th c.",
