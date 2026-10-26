@@ -11383,10 +11383,10 @@
    "end": 2026,
    "prominence": 0.5,
    "key_events": [
-    "Kingdom of Saudi Arabia 1932",
     "Jeddah talks on Sudan war 2023"
    ],
-   "key_events_cites": [[], [{"source": "UNPOE_S2024_65", "page": "para 133 (p.37)"}]],
+   "key_events_cites": [[{"source": "UNPOE_S2024_65", "page": "para 133 (p.37)"}]],
+   "key_events_removed_note": "Removed 2026-10-26 (Historian, IM cite-or-delete): 'Kingdom of Saudi Arabia 1932' (EN, AR and empty cite); no registered source with a page states it (GHA VII and VIII searched). Arabic change queued in db/ar_review_queue.json.",
    "capitals": [
     {
      "name": "Mecca/Riyadh",
@@ -11401,7 +11401,6 @@
    ],
    "dating_note": "",
    "key_events_ar": [
-    "المملكة العربية السعودية 1932",
     "محادثات جدة بشأن حرب السودان 2023"
    ],
    "how_we_know": {

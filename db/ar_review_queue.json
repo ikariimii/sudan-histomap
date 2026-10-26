@@ -5819,6 +5819,19 @@
       "added": "2026-10-26"
     },
     {
+      "era_id": "ottoman-hejaz-saudi-state",
+      "file": "data/periods.json (+ data/periods.js)",
+      "field_ar": "key_events_ar[0]",
+      "arabic_sentence": "المملكة العربية السعودية 1932",
+      "badge": "VERIFY",
+      "field_en": "key_events[0]",
+      "revised_english": "(removed) Kingdom of Saudi Arabia 1932",
+      "reason": "[يحتاج تحقق] Line deleted in EN and AR: no registered source with a page states the 1932 founding (GHA VII/VIII searched). Arabic line removed only, nothing reworded.",
+      "action": "Native reviewer: confirm the Arabic removal; regenerate data/eras mirrors.",
+      "origin_commit": "pending",
+      "added": "2026-10-26"
+    },
+    {
       "era_id": "kingdom-of-kerma",
       "file": "db/legends/eras/kingdom-of-kerma.json",
       "field_ar": "context.key_events_ar[0] (and context.key_events[0].ar)",
