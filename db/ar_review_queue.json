@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 188
+      "sentence_items": 191
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -4818,6 +4818,45 @@
       "badge": "VERIFY",
       "field_en": "periods[name=Kanem Empire].key_events[0]",
       "revised_english": "Muslim dynasty founded by Hummay (c.1075), from a profoundly Islamized community",
+      "note": "AR line no longer matches corrected EN; native reviewer to update [يحتاج تحقق]",
+      "action": "review",
+      "origin_commit": "pending",
+      "added": "2026-10-26"
+    },
+    {
+      "era_id": "independent-sudan-first-parliamentary-period",
+      "file": "data/periods.json",
+      "field_ar": "periods[name=Independent Sudan – First parliamentary period].key_events_ar[1]",
+      "arabic_sentence": "رئيس الوزراء إسماعيل الأزهري ثم عبد الله خليل",
+      "badge": "VERIFY",
+      "field_en": "periods[name=Independent Sudan – First parliamentary period].key_events[1]",
+      "revised_english": "Azhari government brought down by the Umma and PDP in parliament; Abdallah Khalil then forms a coalition government",
+      "note": "AR line no longer matches corrected EN; native reviewer to update [يحتاج تحقق]",
+      "action": "review",
+      "origin_commit": "pending",
+      "added": "2026-10-26"
+    },
+    {
+      "era_id": "nimeiry-era-democratic-republic-of-sudan",
+      "file": "data/periods.json",
+      "field_ar": "periods[name=Nimeiry era (Democratic Republic of Sudan)].key_events_ar[1]",
+      "arabic_sentence": "اتفاقية أديس أبابا 1972 تنهي الحرب الأهلية الأولى",
+      "badge": "VERIFY",
+      "field_en": "periods[name=Nimeiry era (Democratic Republic of Sudan)].key_events[1]",
+      "revised_english": "Addis Ababa accords signed 27 March 1972: autonomy for a southern region and a cease-fire in the first southern war",
+      "note": "AR line no longer matches corrected EN; native reviewer to update [يحتاج تحقق]",
+      "action": "review",
+      "origin_commit": "pending",
+      "added": "2026-10-26"
+    },
+    {
+      "era_id": "al-bashir-ncp-ingaz-regime",
+      "file": "data/periods.json",
+      "field_ar": "periods[name=Al-Bashir / NCP (Ingaz) regime].key_events_ar[3]",
+      "arabic_sentence": "انفصال جنوب السودان 9 يوليو 2011 (UNSC1996 p.1)",
+      "badge": "VERIFY",
+      "field_en": "periods[name=Al-Bashir / NCP (Ingaz) regime].key_events[3]",
+      "revised_english": "Republic of South Sudan established 9 July 2011 (UNSC1996 p.1)",
       "note": "AR line no longer matches corrected EN; native reviewer to update [يحتاج تحقق]",
       "action": "review",
       "origin_commit": "pending",

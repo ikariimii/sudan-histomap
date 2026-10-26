@@ -5943,6 +5943,32 @@
     "lang": "en",
     "note": "UN News story, 27 Mar 2025, on the alert issued by the UN Commission on Human Rights in South Sudan. Lead: \"...preserve the 2018 peace deal that ended five years of civil war.\" Body: \"The 2018 peace deal ended the fighting and established a unity government.\""
    },
+   "LOC1991_SOUTH": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+    "title": "Sudan: A Country Study (research completed June 1991) – 'The Southern Problem'",
+    "publisher": "U.S. Library of Congress (US government; dated)",
+    "bias": "US-government country study; Cold War-era framing",
+    "date": "1991-06 (publ. 1992)",
+    "year": "1991",
+    "url": "https://countrystudies.us/sudan/24.htm",
+    "verification": "fetched 2026-10-26 (countrystudies.us mirror of LOC text)",
+    "pages": "",
+    "lang": "en",
+    "note": "LOC Country Study, 1991; US-government; dated"
+   },
+   "LOC1991_RECONCIL": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+    "title": "Sudan: A Country Study (research completed June 1991) – 'National Reconciliation'",
+    "publisher": "U.S. Library of Congress (US government; dated)",
+    "bias": "US-government country study; Cold War-era framing",
+    "date": "1991-06 (publ. 1992)",
+    "year": "1991",
+    "url": "https://countrystudies.us/sudan/26.htm",
+    "verification": "fetched 2026-10-26 (countrystudies.us mirror of LOC text)",
+    "pages": "",
+    "lang": "en",
+    "note": "LOC Country Study, 1991; US-government; dated"
+   },
    "UN_SC16203_20251030": {
     "author": "UN Meetings Coverage",
     "title": "El Fasher in 'Even Darker Hell', UN Officials Tell Security Council, as Delegates Decry Horrific Crimes Following City's Capture by Rapid Support Forces (SC/16203)",
@@ -9024,9 +9050,9 @@
    "prominence": 0.5,
    "key_events": [
     "Independence 1 January 1956",
-    "PM Ismail al-Azhari, then Abdallah Khalil"
+    "Azhari government brought down by the Umma and PDP in parliament; Abdallah Khalil then forms a coalition government"
    ],
-   "key_events_cites": [null, null],
+   "key_events_cites": [{"source": "LOC1991_INDSUDAN", "page": "'Independent Sudan' para 1"}, {"source": "LOC1991_INDSUDAN", "page": "'The Politics of Independence' para 4"}],
    "capitals": [
     {
      "name": "Khartoum",
@@ -9117,7 +9143,7 @@
    "key_events": [
     "Civilian governments; First Sudanese Civil War continues"
    ],
-   "key_events_cites": [null],
+   "key_events_cites": [{"source": "LOC1991_CIVIL6469", "page": "'Return to Civilian Rule, 1964-69' paras 3, 8, 11"}],
    "capitals": [
     {
      "name": "Khartoum",
@@ -9157,11 +9183,11 @@
    "prominence": 0.6,
    "key_events": [
     "May 1969 coup",
-    "Addis Ababa Agreement 1972 ends first civil war",
+    "Addis Ababa accords signed 27 March 1972: autonomy for a southern region and a cease-fire in the first southern war",
     "September Laws 1983; Second Civil War begins",
     "April 1985 uprising"
    ],
-   "key_events_cites": [null, null, null, null],
+   "key_events_cites": [{"source": "LOC1991_NIMEIRI", "page": "'The Nimeiri Era, 1969-85' para 1"}, {"source": "LOC1991_SOUTH", "page": "'The Southern Problem' paras 1, 6-8"}, {"source": "LOC1991_RECONCIL", "page": "'National Reconciliation' para 5"}, [{"source": "LOC1991_RECONCIL", "page": "'National Reconciliation' para 6"}, {"source": "LOC1991_TMC", "page": "'The Transitional Military Council' paras 1, 8"}]],
    "capitals": [
     {
      "name": "Khartoum",
@@ -9212,7 +9238,7 @@
     "Swar al-Dahab transitional council",
     "PM Sadiq al-Mahdi 1986–89"
    ],
-   "key_events_cites": [null, null],
+   "key_events_cites": [{"source": "LOC1991_TMC", "page": "'The Transitional Military Council' para 1"}, {"source": "LOC1991_SADIQ", "page": "'Sadiq al Mahdi' paras 1, 6"}],
    "capitals": [
     {
      "name": "Khartoum",
@@ -9255,9 +9281,9 @@
     "30 June 1989 coup (SFDAS_HCS2017 p.731)",
     "Darfur conflict: escalation from 2003 (UNSC_S2005_60 PDF p.29); ICC arrest warrant for President al-Bashir, March 2009 (UN_NEWS_2009_292942)",
     "Comprehensive Peace Agreement 2005 (CPA_2005 cover letter p.1)",
-    "South Sudan secedes 9 July 2011 (UNSC1996 p.1)"
+    "Republic of South Sudan established 9 July 2011 (UNSC1996 p.1)"
    ],
-   "key_events_cites": [null, null, null, null],
+   "key_events_cites": [[], [{"source": "UNSC_S2005_60", "page": "PDF p.29"}, {"source": "UN_NEWS_2009_292942", "page": "headline"}], {"source": "CPA_2005", "page": "cover letter S/2005/78 p.1"}, {"source": "UNSC1996", "page": "p.1 preamble"}],
    "capitals": [
     {
      "name": "Khartoum",
@@ -9325,7 +9351,7 @@
     "Constitutional Document signed 17 Aug 2019; Hamdok PM; cabinet 8 Sep 2019 (ICG)",
     "UNITAMS created by UNSC res. 2524, 3 Jun 2020"
    ],
-   "key_events_cites": [null, null, null, null, null],
+   "key_events_cites": [{"source": "ICG2019", "page": "Executive Summary ('What's new?'); sect. II"}, {"source": "ICG2019", "page": "Executive Summary"}, null, null, null],
    "capitals": [
     {
      "name": "Khartoum",
