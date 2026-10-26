@@ -124,7 +124,7 @@ def draft_layer(sl):
             cw = conf_word(cf); cs = 'contested' if ('CONTESTED' in b or z == 'contested') else 'solid' if z == 'core' else 'hatched'
             zk = 'zone_contested' if cs == 'contested' else 'zone_' + str(z)
             zc = ZS.get(zk) or {}
-            sw = {k2: zc.get(k2) for k2 in ('geometry', 'fill', 'fill_opacity', 'stroke', 'dash', 'feather') if zc.get(k2) is not None}
+            sw = {k2: zc.get(k2) for k2 in ('geometry', 'fill', 'fill_opacity', 'stroke', 'stroke_colour', 'stroke_colour_pre1899_solid', 'dash', 'feather') if zc.get(k2) is not None}
             sw['confidence_style'] = cs
             # map.js CKS: the low-confidence hatch follows confidence_style == 'hatched' only (not numeric confidence), never on contested
             if cs == 'hatched': sw['overlay'] = ZS.get('low_confidence', {}).get('pattern'); sw['overlay_opacity'] = ZS.get('low_confidence', {}).get('opacity')

@@ -39,7 +39,8 @@
    "fill_opacity": 0.35,
    "stroke": "same hue, 70% darker",
    "stroke_width": 1.5,
-   "dash": null
+   "dash": null,
+   "stroke_rule": "lightened era hue per contrast_fix.extent_stroke_by_era_hue, 0.6px #0b141b casing"
   },
   {
    "id": "control_extent_approx",
@@ -55,7 +56,8 @@
     4,
     3
    ],
-   "edge": "feathered 6px inner glow, no hard edge"
+   "edge": "feathered 6px inner glow, no hard edge",
+   "stroke_rule": "lightened era hue per contrast_fix.extent_stroke_by_era_hue, 0.6px #0b141b casing"
   },
   {
    "id": "extent_label_point",
@@ -414,7 +416,9 @@
    "stroke": "solid 1.2px",
    "dash": null,
    "feather": null,
-   "source": "db/border_drafts/README.md bd-0.1"
+   "source": "db/border_drafts/README.md bd-0.1",
+   "stroke_colour": "#a297de",
+   "stroke_colour_pre1899_solid": "#d7d3f1"
   },
   {
    "id": "zone_claimed",
@@ -430,7 +434,9 @@
     3
    ],
    "feather": null,
-   "source": "db/border_drafts/README.md bd-0.1"
+   "source": "db/border_drafts/README.md bd-0.1",
+   "stroke_colour": "#a297de",
+   "stroke_colour_pre1899_solid": "#d7d3f1"
   },
   {
    "id": "zone_influence",
@@ -638,7 +644,17 @@
   "toggle_label_en": "Homelands (undated)",
   "toggle_label_ar": "المواطن (غير مؤرخة)",
   "toggle_label_ar_status": "working translation, needs native review",
-  "popup": "name EN/AR, source_ids with page cites, note 'Not dated: shown for orientation, not as era control'."
+  "popup": "name EN/AR, source_ids with page cites, note 'Not dated: shown for orientation, not as era control'.",
+  "shared_model": {
+   "model": "shared",
+   "reference": "legend per-toggle definition (homelands_layer): one era-independent background toggle, off by default, same homelands.geojson in every era",
+   "applies_to": [
+    "legend db/legends/eras/*.json layers.homelands",
+    "map g/<era>.json homeland points",
+    "topo basemap spec"
+   ],
+   "ask": "map should take homeland points from the shared toggle, not per-era g/ copies"
+  }
  },
  "zone_styling": {
   "draw_order_bottom_to_top": [
@@ -846,5 +862,65 @@
    }
   ],
   "ar_status": "working translation, needs native review"
+ },
+ "contrast_fix": {
+  "status": "approved by IM 2026-10-25; single source for the Web Lead",
+  "method": "WCAG 2.x, lines >=3:1 over relief p10/p50/p95 and topo land-cover tones (see /workspace/audit/topo_hatch_contrast.json)",
+  "extent_stroke_by_era_hue": {
+   "#b0532c": {
+    "stroke": "#cc8f76",
+    "min_ratio": 3.28,
+    "fill_unchanged": "#b0532c"
+   },
+   "#8a5a14": {
+    "stroke": "#b99c72",
+    "min_ratio": 3.41,
+    "fill_unchanged": "#8a5a14"
+   },
+   "#3f6d8e": {
+    "stroke": "#82a0b6",
+    "min_ratio": 3.24,
+    "fill_unchanged": "#3f6d8e"
+   },
+   "#3f7d4a": {
+    "stroke": "#82aa89",
+    "min_ratio": 3.41,
+    "fill_unchanged": "#3f7d4a"
+   },
+   "#7c2f2a": {
+    "stroke": "#be9794",
+    "min_ratio": 3.4,
+    "fill_unchanged": "#7c2f2a"
+   },
+   "#5a4a8a": {
+    "stroke": "#a49bbf",
+    "min_ratio": 3.39,
+    "fill_unchanged": "#5a4a8a"
+   },
+   "#2b5d5d": {
+    "stroke": "#8aa6a6",
+    "min_ratio": 3.42,
+    "fill_unchanged": "#2b5d5d"
+   }
+  },
+  "extent_casing": {
+   "stroke": "#0b141b",
+   "width_px": 0.6,
+   "placement": "outer casing drawn under the extent stroke"
+  },
+  "zone_stroke": {
+   "from": "#7a6bd0",
+   "to": "#a297de",
+   "min_ratio": 3.32,
+   "applies": "zone_core and zone_claimed strokes"
+  },
+  "zone_stroke_pre1899_solid": {
+   "from": "#7a6bd0 @0.6",
+   "to": "#d7d3f1",
+   "opacity": 0.6,
+   "min_ratio": 3.32,
+   "applies": "cs == 'solid' in eras starting before 1899 (map.js CKS dotted 1.5 3)"
+  },
+  "zone_fill_unchanged": "#7a6bd0"
  }
 }
