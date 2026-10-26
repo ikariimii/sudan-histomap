@@ -615,6 +615,33 @@
       ],
       "date_note": "Start: 'in 1893 ... attacked the Europeans at Agordat' (River War I p.355). End: transfer 'on Christmas Day' (p.357), retrocession complete p.358; pp.357–358 print no year. 1897 is inferred from context (after Adowa 1896 and the Dongola advance, p.356), so end_badge VERIFY.",
       "belligerents_note": "From the sides of this war's cited battles in data/battles.json."
+    },
+    {
+      "id": "east-african-campaign-1940",
+      "name_en": "East African campaign (Sudan frontier), 1940–41",
+      "name_ar": "[يحتاج تحقق]",
+      "era_ids": [
+        "anglo-egyptian-sudan-condominium"
+      ],
+      "start": "1940",
+      "end": "1941",
+      "belligerents": [
+        "British, Indian and Sudanese forces",
+        "Italian forces in East Africa"
+      ],
+      "outcome_en": "Italians occupied the frontier towns of Kassala and Gallabat; in 1941 British troops reconquered the territories under Italian control (GHA VIII p.44).",
+      "cites": [
+        {
+          "source_id": "GHA8",
+          "pages": "44",
+          "quote": "In the Horn, as soon as they entered the war the Italians established in Ethiopia occupied two frontier towns in the Sudan (Kassala and Gallabät) and the whole of British Somaliland, where there were virtually no troops."
+        },
+        {
+          "source_id": "MOI1942_ABYSSINIAN_CAMPAIGNS",
+          "pages": "25–27"
+        }
+      ],
+      "date_note": "Start: p.25 of The Abyssinian Campaigns ('10th September, 1940'); end: GHA VIII p.44 ('In 1941, British troops reconquered the territories under Italian control')."
     }
   ]
 }

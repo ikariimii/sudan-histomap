@@ -1359,6 +1359,75 @@
           "page": "181, 218"
         }
       ]
+    },
+    {
+      "id": "gallabat-1940",
+      "war_id": "east-african-campaign-1940",
+      "name_en": "Battle of Gallabat",
+      "name_ar": "[يحتاج تحقق]",
+      "date": "1940-11-06",
+      "lat": 12.96667,
+      "lon": 36.15,
+      "precision": "approximate",
+      "place_id": "gallabat",
+      "region": "Gallabat–Metemma, Sudan–Ethiopia frontier",
+      "sides": [
+        "British and Indian forces (10th Indian Infantry Brigade, R.A.F., Royal Tank Regiment squadron)",
+        "Italian forces (Gallabat–Metemma garrison, colonial battalions)"
+      ],
+      "commanders": {
+        "British and Indian forces": [
+          "Brigadier Slim"
+        ],
+        "Italian forces": [
+          "Lieut.-Colonel Castagnola",
+          "General Martini (Gondar)"
+        ]
+      },
+      "outcome_en": "Gallabat taken on 6 November; abandoned after two days of Italian air bombardment; the ridge was reoccupied three days later, but the operation on Metemma was not continued (The Abyssinian Campaigns pp.26–27).",
+      "era_ids": [
+        "anglo-egyptian-sudan-condominium"
+      ],
+      "cite": {
+        "source_id": "MOI1942_ABYSSINIAN_CAMPAIGNS",
+        "pages": "26"
+      },
+      "evidence_type": "primary account",
+      "significance_en": "The first British thrust from the Sudan into Italian East Africa: the 10th Indian Infantry Brigade and the R.A.F. attacked Gallabat Fort (p.26); the Italian air response forced its abandonment and the advance on Metemma stopped (p.27).",
+      "decisive": false,
+      "cites": [
+        {
+          "source_id": "MOI1942_ABYSSINIAN_CAMPAIGNS",
+          "pages": "26",
+          "quote": "On 6th November, at 5.30 a.m., the R.A.F. and the 10th Indian Infantry Brigade struck at Gallabat a lightning blow."
+        },
+        {
+          "source_id": "MOI1942_ABYSSINIAN_CAMPAIGNS",
+          "pages": "27",
+          "quote": "After two days the bombardment of the rock could no longer be borne, and Gallabat was abandoned. Though the ridge was reoccupied three days later the operation on Metemma was not continued."
+        }
+      ],
+      "label": "Gallabat 1940",
+      "decisive_note": "No cited page calls it decisive.",
+      "date_note": "pp.26–27 give '6th November' without a year; 1940 follows from p.25 ('10th September, 1940') in the same chronological narrative.",
+      "badges": [
+        "SINGLE-SOURCE"
+      ],
+      "coord_note": "GeoNames 368469 (Qallābāt, Sudan) 12.966667, 36.15; same coordinates as place_id gallabat. Metemma across the river: GeoNames 330789 (12.95479, 36.15549).",
+      "name_ar_note": "Left empty (tag only); queued in db/ar_review_queue.json.",
+      "image": {},
+      "start": 1940,
+      "end": 1940,
+      "sources": [
+        {
+          "id": "MOI1942_ABYSSINIAN_CAMPAIGNS",
+          "page": "26"
+        },
+        {
+          "id": "MOI1942_ABYSSINIAN_CAMPAIGNS",
+          "page": "27"
+        }
+      ]
     }
   ]
 }

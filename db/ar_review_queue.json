@@ -7399,6 +7399,34 @@
       "origin_commit": "a290dbf (source) / f362060 (site)",
       "added": "2026-10-26",
       "kind": "battle_outcome_ar"
+    },
+    {
+      "era_id": "anglo-egyptian-sudan-condominium",
+      "file": "data/battles.json",
+      "field_ar": "battles[id=gallabat-1940].name_ar",
+      "arabic_sentence": "",
+      "badge": "VERIFY",
+      "field_en": "battles[id=gallabat-1940].name_en",
+      "revised_english": "Battle of Gallabat",
+      "note": "[يحتاج تحقق] New battle; name_ar left as tag only (no Arabic written by the Historian). Needs an Arabic name from a native reviewer; cf. place gallabat name_ar in db/cities.json (wikidata).",
+      "action": "translate",
+      "origin_commit": "pending",
+      "added": "2026-10-26",
+      "kind": "battle_name_ar"
+    },
+    {
+      "era_id": "anglo-egyptian-sudan-condominium",
+      "file": "db/wars.json",
+      "field_ar": "wars[id=east-african-campaign-1940].name_ar",
+      "arabic_sentence": "",
+      "badge": "VERIFY",
+      "field_en": "wars[id=east-african-campaign-1940].name_en",
+      "revised_english": "East African campaign (Sudan frontier), 1940–41",
+      "note": "[يحتاج تحقق] New war for gallabat-1940; name_ar left as tag only. Needs an Arabic name from a native reviewer.",
+      "action": "translate",
+      "origin_commit": "pending",
+      "added": "2026-10-26",
+      "kind": "war_name_ar"
     }
   ]
 }
