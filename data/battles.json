@@ -575,7 +575,10 @@
       "name_en": "Battle of the Atbara",
       "name_ar": "معركة عطبرة [يحتاج تحقق]",
       "date": "1898-04-08",
-      "precision": "region",
+      "lat": 17.4023,
+      "lon": 34.2897,
+      "precision": "approximate",
+      "place_id": "nakheila",
       "sides": [
         "Mahdist Ansar (Mahmud Ahmad)",
         "Anglo-Egyptian army"
@@ -605,6 +608,11 @@
         {
           "source_id": "RIVERWAR1899_V1",
           "pages": "436, 449"
+        },
+        {
+          "source_id": "RIVERWAR1899_V1",
+          "pages": "376, 416-417",
+          "quote": "reached the Atbara at Nakheila"
         }
       ],
       "decisive": true,
@@ -1264,7 +1272,10 @@
       "name_en": "Battle of Firket (Ferkeh)",
       "name_ar": "معركة فركة [يحتاج تحقق]",
       "date": "1896-06-07",
-      "precision": "region",
+      "lat": 20.933056,
+      "lon": 30.589722,
+      "precision": "approximate",
+      "place_id": "firket",
       "region": "Firket, Nile above Akasha, Dongola province",
       "sides": [
         "Egyptian army (Sirdar)",
@@ -1296,6 +1307,11 @@
         {
           "source_id": "RIVERWAR1899_V1",
           "pages": "181, 218"
+        },
+        {
+          "source_id": "RIVERWAR1899_V1",
+          "pages": "226-227",
+          "quote": "from the shoulder of Firket mountain there rang out a solitary shot"
         }
       ],
       "label": "Firket (Ferkeh) 1896",

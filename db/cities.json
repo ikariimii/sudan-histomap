@@ -5601,6 +5601,82 @@
     }
    ],
    "list_only_reason": "no founding or first-attested year from a page-cited source; added as a regional event place (IM ruling 2026-10-26)"
+  },
+  {
+   "id": "nakheila",
+   "name_en": "Nakheila (on the Atbara)",
+   "name_ar": null,
+   "name_ar_source": "missing — queued in db/ar_review_queue.json [يحتاج تحقق]",
+   "wikidata": null,
+   "lat": 17.4023,
+   "lon": 34.2897,
+   "coord_source": {
+    "source_id": "GEONAMES",
+    "page": "369088",
+    "badge": "SINGLE-SOURCE",
+    "geonames_name": "Hillat an Nikheila"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Village on the Atbara where Mahmud's army reached the river in 1898 (River War I p.376); GeoNames alternate names An Nikhela, Nukheila.",
+   "history_ar": null,
+   "history_source": {
+    "source_id": "RIVERWAR1899_V1",
+    "page": "376"
+   },
+   "history_ar_status": "missing — queued in db/ar_review_queue.json",
+   "source_ids": [
+    {
+     "id": "GEONAMES",
+     "page": "369088"
+    },
+    {
+     "id": "RIVERWAR1899_V1",
+     "page": "376"
+    }
+   ],
+   "list_only_reason": "no founding or first-attested year from a page-cited source; added as a battle place (IM ruling 2026-10-26)"
+  },
+  {
+   "id": "firket",
+   "name_en": "Firket (Jebel Ferka)",
+   "name_ar": null,
+   "name_ar_source": "missing — queued in db/ar_review_queue.json [يحتاج تحقق]",
+   "wikidata": null,
+   "lat": 20.933056,
+   "lon": 30.589722,
+   "coord_source": {
+    "source_id": "GEONAMES",
+    "page": "375394",
+    "badge": "SINGLE-SOURCE",
+    "geonames_name": "Jabal Ferka"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Firket mountain on the Nile above Akasha, beside Firket village, site of the 1896 action (River War I pp.226-227); GeoNames alternate name Jebel Firket.",
+   "history_ar": null,
+   "history_source": {
+    "source_id": "RIVERWAR1899_V1",
+    "page": "226-227"
+   },
+   "history_ar_status": "missing — queued in db/ar_review_queue.json",
+   "source_ids": [
+    {
+     "id": "GEONAMES",
+     "page": "375394"
+    },
+    {
+     "id": "RIVERWAR1899_V1",
+     "page": "226-227"
+    }
+   ],
+   "list_only_reason": "no founding or first-attested year from a page-cited source; added as a battle place (IM ruling 2026-10-26)"
   }
  ]
 }

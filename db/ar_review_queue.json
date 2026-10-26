@@ -6695,6 +6695,45 @@
       "origin_commit": "key_events empty-cite cite-or-delete pass, batch 2",
       "added": "2026-10-26",
       "note": "[يحتاج تحقق]"
+    },
+    {
+      "era_id": null,
+      "file": "db/cities.json",
+      "field_ar": "places[id=el-fasher].name_ar",
+      "arabic_sentence": "الفاشر",
+      "badge": "VERIFY",
+      "field_en": "places[id=el-fasher].name_en",
+      "revised_english": "El Fasher",
+      "note": "[يحتاج تحقق] name_ar from Wikidata Q311204 (name_ar_source wikidata); Arabic not reworded; native reviewer to confirm.",
+      "action": "review",
+      "origin_commit": "pending",
+      "added": "2026-10-26"
+    },
+    {
+      "era_id": null,
+      "file": "db/cities.json",
+      "field_ar": "places[id=nakheila].name_ar, places[id=nakheila].history_ar",
+      "arabic_sentence": null,
+      "badge": "VERIFY",
+      "field_en": "places[id=nakheila].name_en, places[id=nakheila].history_en",
+      "revised_english": "Nakheila (on the Atbara)",
+      "note": "[يحتاج تحقق] New place (IM-approved); Arabic name and history left empty by the Historian (no Arabic written); reviewer to supply.",
+      "action": "review",
+      "origin_commit": "pending",
+      "added": "2026-10-26"
+    },
+    {
+      "era_id": null,
+      "file": "db/cities.json",
+      "field_ar": "places[id=firket].name_ar, places[id=firket].history_ar",
+      "arabic_sentence": null,
+      "badge": "VERIFY",
+      "field_en": "places[id=firket].name_en, places[id=firket].history_en",
+      "revised_english": "Firket (Jebel Ferka)",
+      "note": "[يحتاج تحقق] New place (IM-approved); Arabic name and history left empty by the Historian (no Arabic written); reviewer to supply.",
+      "action": "review",
+      "origin_commit": "pending",
+      "added": "2026-10-26"
     }
   ]
 }
