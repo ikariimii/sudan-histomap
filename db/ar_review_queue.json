@@ -4913,6 +4913,20 @@
       "action": "review",
       "origin_commit": "9c5f72a",
       "added": "2026-10-26"
+    },
+    {
+      "era_id": "republic-of-south-sudan",
+      "file": "data/periods.json",
+      "field_ar": "key_events_ar[1] (Republic of South Sudan; mirrored in data/periods.js)",
+      "arabic_sentence": "الحرب الأهلية منذ 15 ديسمبر 2013 (مجموعة الأزمات الدولية 2014)",
+      "badge": "VERIFY",
+      "field_en": "key_events[1]",
+      "revised_english": "Civil war from 15 Dec 2013",
+      "reason": "Innovation Manager ruling: the inline '(ICG 2014)' attribution was dropped from the English because no one on the team has verified ICG2014 gives 15 Dec; the line is now cited to UNNEWS_20140112_SSUDAN and UNMISS_BACKGROUND via key_events_cites.",
+      "action": "Native reviewer: drop the matching ICG 2014 attribution from the Arabic line to match the revised English.",
+      "origin_commit": "ICG 2014 attribution drop",
+      "added": "2026-10-26",
+      "note": "Arabic left unchanged by the Historian; reviewer to edit."
     }
   ]
 }
