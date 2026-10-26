@@ -19,7 +19,8 @@
    "darfur-campaign-1916": "restored-darfur-sultanate-ali-dinar",
    "sudan-south-sudan-border-2012": "republic-of-south-sudan",
    "piye-conquest-of-egypt": "kingdom-of-kush-napatan-period"
-  }
+  },
+  "beats_schema": "beats[]: {date, place_id (db/cities.json), text, source_id (registry), page, quote, badge}; from Historian /workspace/story_beats/wars_beats.json. Story threshold = battles + beats >= 2 (web/map.js swFor currently counts battles only: Web Lead to update)."
  },
  "wars": [
   {
@@ -44,9 +45,21 @@
    ],
    "caption": "Thutmose I's campaign against Kerma: Egyptian victory; the kingdom of Kerma was defeated.",
    "caption_cites": [
-    "SFDAS_HCS2017"
+    "GHA2_CH9"
    ],
-   "caption_basis": "battle kerma--1500 outcome_en"
+   "caption_basis": "battle kerma--1500 outcome_en",
+   "beats": [
+    {
+     "date": "c.-1530/-1520",
+     "place_id": "kerma",
+     "text": "Tuthmose I conquered the northern Sudan, ending the independence of Kush.",
+     "source_id": "GHA2_CH9",
+     "page": "p.265 (PDF idx 282)",
+     "quote": "it was Tuthmose I ( — 1530 to —1520) who accomplished the conquest of the northern Sudan; thus bringing the independence of the kingdom of Kush to an end.",
+     "badge": "APPROXIMATE"
+    }
+   ],
+   "caption_cites_note": "SFDAS_HCS2017 replaced by the Historian's beat source for this war (story_beats/wars_beats.json); quotes pending Historian page-image check"
   },
   {
    "war_id": "roman-meroitic-war",
@@ -61,17 +74,41 @@
     "OK"
    ],
    "camera_bbox": [
-    31.067,
-    17.783,
-    32.567,
-    19.283
+    31.517,
+    18.233,
+    32.292,
+    22.95
    ],
-   "caption": "Meroitic forces attacked the Thebaid, taking Syene, Elephantine and Philae, after part of the Roman garrison left with Aelius Gallus for Arabia.",
+   "caption": "Meroitic forces sacked Aswan, after part of the Roman garrison left with Aelius Gallus for Arabia.",
    "caption_cites": [
-    "SFDAS_HCS2017",
     "GHA2_CH10"
    ],
-   "caption_basis": "db/wars.json causes_en"
+   "caption_basis": "db/wars.json causes_en",
+   "beats": [
+    {
+     "date": "-23",
+     "place_id": "napata",
+     "text": "Petronius, prefect of Roman Egypt, captured Napata; Rome garrisoned Primis (Qasr Ibrim).",
+     "source_id": "GHA2_CH10",
+     "page": "p.290 (PDF idx 307)",
+     "quote": "the prefect of Roman Egypt, Petronius, mounted a punitive expedition and captured Napata in —23. A permanent garrison was established by the Romans at Primis (Qasr Ibrim), which held off the Meroites.",
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "date": "-23",
+     "place_id": "qasr-ibrim",
+     "text": "A permanent Roman garrison at Primis (Qasr Ibrim) held off the Meroites.",
+     "source_id": "GHA2_CH10",
+     "page": "p.290 (PDF idx 307)",
+     "quote": "A permanent garrison was established by the Romans at Primis (Qasr Ibrim), which held off the Meroites.",
+     "badge": "SINGLE-SOURCE"
+    }
+   ],
+   "caption_cites_note": "SFDAS_HCS2017 replaced by the Historian's beat source for this war (story_beats/wars_beats.json); quotes pending Historian page-image check",
+   "bbox_source": "story_360 audit method (360x640, proposed layout): cited points napata--23, city:napata, city:qasr-ibrim, padding 0.3",
+   "story_items": 3,
+   "caption_cites_page": "GHA II p.290",
+   "bbox_badge": "DERIVED"
   },
   {
    "war_id": "aksum-kush-war",
@@ -81,22 +118,36 @@
    ],
    "located_battle_ids": [],
    "status": [
-    "FALLBACK_ERA_BBOX"
+    "OK"
    ],
    "camera_bbox": [
-    28.947,
-    12.448,
-    35.341,
-    25.074
+    33.233,
+    16.967,
+    34.733,
+    18.467
    ],
-   "caption": "Ezana of Aksum's campaign against the Kushites and Noba: Ezana's Ge'ez inscription DAE 11 records his war against the Noba and the Kasu at the Nile–Atbara confluence.",
+   "caption": "Ezana of Aksum reached the Atbara confluence and records an expedition 'against the Nubas'.",
    "caption_cites": [
-    "SFDAS_HCS2017"
+    "GHA2_CH10"
    ],
    "caption_basis": "battle meroe-330 significance_en",
    "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented.",
-   "bbox_source": "era_main_area:kingdom-of-kush-meroitic-period",
-   "bbox_badge": "DERIVED"
+   "bbox_source": "cited points: located battles + beat place_ids (db/cities.json coords), padding 0.75",
+   "bbox_badge": "DERIVED",
+   "beats": [
+    {
+     "date": "4th c. (c.320–330)",
+     "place_id": "atbara",
+     "text": "Ezana of Aksum reached the Atbara confluence and campaigned 'against the Nubas'.",
+     "source_id": "GHA2_CH10",
+     "page": "p.293 (PDF idx 310)",
+     "quote": "Ezana, the first monarch to embrace Christianity, reached the confluence of the Atbara and boasts of having mounted an expedition yielding much booty 'against the Nubas'.",
+     "badge": "APPROXIMATE"
+    }
+   ],
+   "caption_cites_note": "SFDAS_HCS2017 replaced by the Historian's beat source for this war (story_beats/wars_beats.json); quotes pending Historian page-image check",
+   "story_items": 2,
+   "caption_cites_page": "GHA II p.293"
   },
   {
    "war_id": "arab-nubian-wars",
@@ -119,10 +170,32 @@
    ],
    "caption": "First Arab campaign against Makuria: a Nubian counter-offensive turned back the Arab army.",
    "caption_cites": [
-    "SFDAS_HCS2017"
+    "GHA3_CH3",
+    "GHA3_CH7"
    ],
    "caption_basis": "battle dongola-642 outcome_en",
-   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented."
+   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented.",
+   "beats": [
+    {
+     "date": "651–652 (31 AH)",
+     "place_id": "old-dongola",
+     "text": "An expedition from Egypt reached Dongola; fierce Nubian resistance forced a truce.",
+     "source_id": "GHA3_CH3",
+     "page": "p.81 (PDF idx 103)",
+     "quote": "The Muslims from Egypt tried in 31/651-2 to conquer Nubia and even penetrated as far as Dongola but the fierce resistance of the Nubians forced them to seek a truce.",
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "date": "652 (31 AH)",
+     "place_id": "old-dongola",
+     "text": "'Abd Allah b. Sa'd's expedition got as far as Dongola; the Christian population fiercely resisted.",
+     "source_id": "GHA3_CH7",
+     "page": "p.166 (PDF idx 188)",
+     "quote": "In 31/652 'Abd Allah launched an expedition against Nubia, in present-day Sudan, and got as far as Dongola, upstream from the Third Cataract. The Christian population, close to the Monophysitic Church of Egypt, put up a fierce resistance.",
+     "badge": "SINGLE-SOURCE"
+    }
+   ],
+   "caption_cites_note": "SFDAS_HCS2017 replaced by the Historian's beat source for this war (story_beats/wars_beats.json); quotes pending Historian page-image check"
   },
   {
    "war_id": "funj-abdallab-war",
@@ -146,7 +219,20 @@
    "caption_cites": [
     "GHA5_CH7"
    ],
-   "caption_basis": "db/wars.json outcome_en"
+   "caption_basis": "db/wars.json outcome_en",
+   "beats": [
+    {
+     "date": "1504",
+     "place_id": "arbaji",
+     "text": "At Arbaji the Funj defeated the 'Abdallab, whose king became a vassal.",
+     "source_id": "GHA5_CH7",
+     "page": "p.178 (PDF idx 205)",
+     "quote": "At Arbadji, in 1504, the Fundj defeated the 'Abdallabi and their king was reduced to the position of vassal.",
+     "badge": "SINGLE-SOURCE"
+    }
+   ],
+   "bbox_source": "cited points: located battles + beat place_ids (db/cities.json coords), padding 0.75",
+   "story_items": 2
   },
   {
    "war_id": "kordofan-wars",
@@ -193,10 +279,10 @@
     "OK"
    ],
    "camera_bbox": [
-    31.777,
-    14.853,
-    33.277,
-    16.353
+    29.557,
+    12.524,
+    38.075,
+    21.21
    ],
    "caption": "Battle of Shaykan: Mahdist victory, a turning point of the Mahdist revolution.",
    "caption_cites": [
@@ -204,7 +290,38 @@
     "SLATIN1898"
    ],
    "caption_basis": "battle shaykan-1883 outcome_en",
-   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented."
+   "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented.",
+   "beats": [
+    {
+     "date": "1883-11-05",
+     "place_id": "el-obeid",
+     "text": "Shaykan, near al-'Obeid: the Ansar annihilated the Hicks expedition.",
+     "source_id": "GHA7_CH4",
+     "page": "p.76 (PDF idx 100)",
+     "quote": "Another turning-point in the history of the Mahdist revolution was the battle at Shaykān on 5 November 1883. … The Ansār completely annihilated their enemy at Shaykān's forest in the neighbourhood of al-'Obeid.",
+     "badge": "APPROXIMATE"
+    },
+    {
+     "date": "1885-01-26",
+     "place_id": "khartoum",
+     "text": "Mahdist forces took Khartoum and killed Gordon, ending Turco-Egyptian rule.",
+     "source_id": "GHA7_CH4",
+     "page": "pp.76–77 (PDF idx 100–101)",
+     "quote": "attacked the town, killed Gordon on 26 January 1885, and put an end to Turco-Egyptian rule in the Sudan.",
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "date": "1891",
+     "place_id": "tokar",
+     "text": "The Mahdist eastern advance was checked; the Ansar lost Tokar in 1891.",
+     "source_id": "GHA7_CH4",
+     "page": "p.77 (PDF idx 101)",
+     "quote": "The Mahdists' advance on the eastern front was also checked and the Ansār lost Tokar and Kassala respectively in 1891 and 1894.",
+     "badge": "SINGLE-SOURCE"
+    }
+   ],
+   "bbox_source": "story_360 audit method (360x640, proposed layout): cited points shaykan-1883, el-teb-1884, tamai-1884, abu-klea-1885, khartoum-1885, ginnis-1885, city:el-obeid, city:khartoum, city:tokar, padding 0.3",
+   "bbox_badge": "DERIVED"
   },
   {
    "war_id": "mahdist-ethiopian-war",
@@ -229,7 +346,20 @@
     "GHA7_CH11",
     "RIVERWAR1899_V1"
    ],
-   "caption_basis": "battle gallabat-1889 outcome_en"
+   "caption_basis": "battle gallabat-1889 outcome_en",
+   "beats": [
+    {
+     "date": "1889-03-10",
+     "place_id": "gallabat",
+     "text": "At Matamma (Gallabat) the Emperor was mortally wounded; his army disintegrated.",
+     "source_id": "GHA7_CH11",
+     "page": "p.268 (PDF idx 292)",
+     "quote": "The emperor hastened to Matamma to resist them, but at the close of a victorious battle on 10 March 1889, was mortally wounded by a stray bullet. News of his death caused his army to disintegrate.",
+     "badge": "SINGLE-SOURCE"
+    }
+   ],
+   "bbox_source": "cited points: located battles + beat place_ids (db/cities.json coords), padding 0.75",
+   "story_items": 2
   },
   {
    "war_id": "anglo-egyptian-reconquest",
@@ -245,10 +375,10 @@
     "FALLBACK_ERA_BBOX"
    ],
    "camera_bbox": [
-    20.557,
-    7.385,
-    35.637,
-    21.277
+    32.13,
+    15.362,
+    34.283,
+    18.017
    ],
    "caption": "The Mahdist state collapsed after Karari (1898) and Umm Diwaykarat (1899).",
    "caption_cites": [
@@ -257,8 +387,28 @@
    ],
    "caption_basis": "db/wars.json outcome_en",
    "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented.",
-   "bbox_source": "era_main_area:mahdist-state-mahdiyya",
-   "bbox_badge": "DERIVED"
+   "bbox_source": "story_360 audit method (360x640, proposed layout): cited points karari-1898, city:atbara, city:omdurman, padding 0.3",
+   "bbox_badge": "DERIVED",
+   "beats": [
+    {
+     "date": "1898-04-08",
+     "place_id": "atbara",
+     "text": "Battle of Atbara: Emir Mahmud Ahmad's Ansar failed to repel the attack.",
+     "source_id": "GHA7_CH4",
+     "page": "p.78 (PDF idx 102)",
+     "quote": "Commanded by Emir Maḥmūd Aḥmad, the Ansār tried unsuccessfully to repel the enemy attack at the battle of Atbara on 8 April 1898.",
+     "badge": "APPROXIMATE"
+    },
+    {
+     "date": "1898-09-02",
+     "place_id": "omdurman",
+     "text": "Karari, near Omdurman: the Sudanese were defeated by superior armaments.",
+     "source_id": "GHA7_CH4",
+     "page": "p.78 (PDF idx 102)",
+     "quote": "the Khalīfa decided to meet the enemy in the vicinity of his capital, Omdurman … the Sudanese fought the enemy with magnificent courage at the battle of Karari on 2 September 1898. Once again they were defeated by superior armaments.",
+     "badge": "APPROXIMATE"
+    }
+   ]
   },
   {
    "war_id": "darfur-campaign-1916",
@@ -307,7 +457,20 @@
    "caption_cites": [
     "GHA8"
    ],
-   "caption_basis": "battle torit-1955 significance_en"
+   "caption_basis": "battle torit-1955 significance_en",
+   "beats": [
+    {
+     "date": "1955-08",
+     "place_id": "torit",
+     "text": "The Equatoria Corps revolted; the mutineers surrendered but disorder spread through the south.",
+     "source_id": "GHA8",
+     "page": "p.149 (PDF idx 172)",
+     "quote": "in August 1955 the Equatoria Corps of the Sudanese army revolted against the gradual take-over of the administration and command posts by the northerners. Although the mutineers soon surrendered, disorder had by that time spread through the southern provinces",
+     "badge": "APPROXIMATE"
+    }
+   ],
+   "bbox_source": "cited points: located battles + beat place_ids (db/cities.json coords), padding 0.75",
+   "story_items": 2
   },
   {
    "war_id": "second-civil-war",
@@ -328,10 +491,10 @@
     "OK"
    ],
    "camera_bbox": [
-    30.809,
-    3.662,
-    34.341,
-    6.959
+    31.25,
+    4.112,
+    33.891,
+    6.517
    ],
    "caption": "Ended by the January 2005 Comprehensive Peace Agreement.",
    "caption_cites": [
@@ -340,7 +503,50 @@
     "UNSC1590",
     "CPA_2005"
    ],
-   "caption_basis": "db/wars.json outcome_en"
+   "caption_basis": "db/wars.json outcome_en",
+   "beats": [
+    {
+     "date": "1992-04-04",
+     "place_id": "bor",
+     "text": "Government advance from Malakal captured Bor (per HRW).",
+     "source_id": "HRW1993_CIVDEV",
+     "page": "Ch. II, 1992 government offensive (three prongs)",
+     "quote": "The second was an advance south from Malakal to capture Bor on the White Nile on April 4.",
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "date": "1992-06/07",
+     "place_id": "juba",
+     "text": "SPLA-Torit besieged Juba and made two incursions into the town (per HRW).",
+     "source_id": "HRW1993_CIVDEV",
+     "page": "Ch. II, 1992 government offensive",
+     "quote": "The SPLA-Torit kept Juba under heavy siege and made two serious incursions into Juba proper in June and July 1992,",
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "date": "1992-07-13",
+     "place_id": "torit",
+     "text": "Government forces took Torit, SPLA-Torit headquarters (per HRW).",
+     "source_id": "HRW1993_CIVDEV",
+     "page": "Ch. II, 1992 government offensive",
+     "quote": "They took that outpost in mid-April and Lirya in mid-May, Kapoeta on May 28 and Torit, until then the headquarters of the SPLA-Torit, on July 13.",
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "date": "1992-05-28",
+     "place_id": "kapoeta",
+     "text": "Government forces took Kapoeta (per HRW).",
+     "source_id": "HRW1993_CIVDEV",
+     "page": "Ch. II, 1992 government offensive",
+     "quote": "They took that outpost in mid-April and Lirya in mid-May, Kapoeta on May 28 and Torit, until then the headquarters of the SPLA-Torit, on July 13.",
+     "badge": "SINGLE-SOURCE",
+     "verified_image": false,
+     "verified_against": "original HTML page (local copy /tmp/u_HRW1993_CIVDEV); no page image exists"
+    }
+   ],
+   "story_items": 8,
+   "bbox_source": "story_360 audit method (360x640, proposed layout): cited points bor-1992, kapoeta-1992, juba-1992, torit-1992, city:bor, city:juba, city:torit, city:kapoeta, padding 0.3",
+   "bbox_badge": "DERIVED"
   },
   {
    "war_id": "darfur-war",
@@ -367,7 +573,27 @@
     "HRW2004_DARFUR",
     "UNSC_PRST_2008_15"
    ],
-   "caption_basis": "db/wars.json causes_en"
+   "caption_basis": "db/wars.json causes_en",
+   "beats": [
+    {
+     "date": "2003-04",
+     "place_id": "el-fasher",
+     "text": "SLA surprise attack on El Fasher damaged aircraft and looted depots (per HRW).",
+     "source_id": "HRW2004_DARFUR",
+     "page": "'Darfur in Flames' (Apr 2004), Background section",
+     "quote": "In April 2003, the SLA launched a surprise attack on El Fashir, the capital of North Darfur, and damaged several government Antonov aircraft and helicopters and looted fuel and arms depots.",
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "date": "2008-05-10",
+     "place_id": "omdurman",
+     "text": "The Security Council condemned JEM's 10 May attacks in Omdurman.",
+     "source_id": "UNSC_PRST_2008_15",
+     "page": "p.1",
+     "quote": "The Security Council strongly condemns the attacks of 10 May perpetrated by the Justice and Equality Movement (JEM) against the Sudanese Government in Omdurman",
+     "badge": "SINGLE-SOURCE"
+    }
+   ]
   },
   {
    "war_id": "south-kordofan-blue-nile-2011",
@@ -382,16 +608,29 @@
     "OK"
    ],
    "camera_bbox": [
-    28.968,
+    28.967,
     10.261,
     30.468,
-    11.761
+    11.767
    ],
    "caption": "Fighting broke out in Kadugli on 5 June 2011.",
    "caption_cites": [
     "OHCHR_SK2011"
    ],
-   "caption_basis": "battle kadugli-2011 outcome_en"
+   "caption_basis": "battle kadugli-2011 outcome_en",
+   "beats": [
+    {
+     "date": "2011-06-05",
+     "place_id": "kadugli",
+     "text": "SAF blocked roads into Kadugli; fighting broke out in the town with SPLA-N (per OHCHR).",
+     "source_id": "OHCHR_SK2011",
+     "page": "para 8 (PDF p.3)",
+     "quote": "In the early hours of Sunday, on 5 June, the SAF blocked the major roads into and out of Kadugli town. … Later in the day, fighting broke out between SPLA-N and SAF in Kadugli.",
+     "badge": "SINGLE-SOURCE"
+    }
+   ],
+   "bbox_source": "cited points: located battles + beat place_ids (db/cities.json coords), padding 0.75",
+   "story_items": 2
   },
   {
    "war_id": "sudan-south-sudan-border-2012",
@@ -419,9 +658,53 @@
    "caption_basis": "db/wars.json outcome_en",
    "contested": "Heglig/border area: draw as contested; no control claim.",
    "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented.",
-   "bbox_source": "era_main_area:republic-of-south-sudan",
+   "bbox_source": "cited points: located battles + beat place_ids (db/cities.json coords), padding 0.75",
    "bbox_badge": "DERIVED",
-   "todo": "Once the Heglig place exists, recompute camera_bbox from battle coordinates and drop FALLBACK_ERA_BBOX."
+   "beats": [
+    {
+     "date": "2012-04-12",
+     "place_id": "heglig",
+     "text": "The Security Council demanded the SPLA's withdrawal from Heglig after its seizure.",
+     "source_id": "UNSC_PRST_2012_12",
+     "page": "p.1",
+     "quote": "as manifested most recently by the seizure and occupation of the town of Heglig and its oil fields in Sudan by the SPLA. … The Security Council demands a complete, immediate, and unconditional: end to all fighting; withdrawal of the SPLA from Heglig",
+     "badge": "SINGLE-SOURCE",
+     "related_sources": [
+      {
+       "source_id": "UNAV_20120419_HEGLIG",
+       "date": "2012-04-19",
+       "note": "Secretary-General: 'I call on South Sudan to immediately withdraw its forces from Heglig.' (shot list item 6). Related, does not date the 12 Apr Council demand."
+      }
+     ]
+    },
+    {
+     "date": "2012-05-02",
+     "place_id": "heglig",
+     "text": "Resolution 2046 welcomed South Sudan's withdrawal from Heglig.",
+     "source_id": "UNSC2046",
+     "page": "preamble (PDF p.2)",
+     "quote": "Welcoming the withdrawal from Heglig of the army of South Sudan",
+     "corroborating_sources": [
+      {
+       "source_id": "UNNEWS_20120424_HEGLIG",
+       "date": "2012-04-24",
+       "page": "para 4",
+       "quote": "Council members welcomed the withdrawal of the SPLA from Heglig",
+       "note": "confirms the withdrawal; date stays with the resolution"
+      },
+      {
+       "source_id": "UNNEWS_AR_20120420_HEGLIG",
+       "date": "2012-04-20",
+       "note": "The Secretary-General noted South Sudan's announcement that it would withdraw its forces from Heglig.",
+       "quote_ar": "ونوه الأمين العام بإعلان حكومة جنوب السودان بالقيام بسحب قواتها من هجليج",
+       "ar_review": "[يحتاج تحقق]"
+      }
+     ]
+    }
+   ],
+   "story_items": 3,
+   "label": "REPORTED",
+   "allowed_sources": "UN only (UNSC_PRST_2012_12, UNSC2046, UNAV_20120419_HEGLIG, UNNEWS_20120424_HEGLIG, UNNEWS_AR_20120420_HEGLIG); no control claims"
   },
   {
    "war_id": "south-sudan-civil-war",
@@ -440,16 +723,59 @@
     "OK"
    ],
    "camera_bbox": [
-    29.048,
-    5.459,
-    32.41,
-    10.283
+    29.498,
+    4.554,
+    31.96,
+    9.833
    ],
    "caption": "An internal power struggle within the SPLM; fighting began in Juba on 15 Dec 2013.",
    "caption_cites": [
     "UNMISS_HRR2014"
    ],
-   "caption_basis": "db/wars.json causes_en"
+   "caption_basis": "db/wars.json causes_en",
+   "beats": [
+    {
+     "date": "2013-12-15",
+     "place_id": "juba",
+     "text": "An SPLM power struggle turned to fighting in Juba's military barracks (per UNMISS).",
+     "source_id": "UNMISS_HRR2014",
+     "page": "para 1 (PDF p.10)",
+     "quote": "The Sudan People's Liberation Army (SPLA) became involved in the dispute, with fighting in military barracks in the capital, Juba, on the evening of 15 December, initially among the Presidential Guards.",
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "date": "2013-12-18",
+     "place_id": "bor",
+     "text": "Defecting SPLA 8th Division forces took Bor (per UNMISS).",
+     "source_id": "UNMISS_HRR2014",
+     "page": "para 41 (PDF p.16)",
+     "quote": "The SPLA 8th Division defected in large numbers, and took the Jonglei State capital of Bor on 18 December",
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "date": "2013-12-25",
+     "place_id": "malakal",
+     "text": "Malakal taken by defecting SPLA 7th Division soldiers and the White Army (per UNMISS).",
+     "source_id": "UNMISS_HRR2014",
+     "page": "para 41 (PDF p.16)",
+     "quote": "The Unity State capital of Malakal was taken by defecting soldiers of the SPLA 7th Division and the White Army on 25 December.",
+     "badge": "SINGLE-SOURCE"
+    },
+    {
+     "date": "2013-12-21",
+     "place_id": "bentiu",
+     "text": "The SPLA division in Unity State defected and claimed Bentiu (per UNMISS).",
+     "source_id": "UNMISS_HRR2014",
+     "page": "para 41 (printed p.15, PDF p.16)",
+     "quote": "the SPLA Division in Unity State similarly defected and claimed control of the state capital of Bentiu on 21 December.",
+     "badge": "SINGLE-SOURCE",
+     "verified_image": true,
+     "verified_page": "para 41 (printed p.15, PDF p.16)"
+    }
+   ],
+   "story_items": 7,
+   "bbox_source": "story_360 audit method (360x640, proposed layout): cited points bor-2013, bentiu-2013, malakal-2013, city:juba, city:bor, city:malakal, city:bentiu, padding 0.3",
+   "bbox_badge": "DERIVED"
   },
   {
    "war_id": "war-2023",
@@ -489,7 +815,36 @@
    "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented.",
    "caption_hidden": false,
    "caption_ar": "أخبار الأمم المتحدة، 15 أبريل 2023: «…اندلاع اشتباكات مسلحة بين قوات الدعم السريع والقوات المسلحة السودانية في أنحاء كثيرة من العاصمة الخرطوم ومناطق أخرى خارج العاصمة…» (ترجمة) [يحتاج تحقق]",
-   "badge": "REPORTED"
+   "badge": "REPORTED",
+   "beats": [
+    {
+     "date": "2023-04-15",
+     "place_id": "khartoum",
+     "text": "Reported: SAF–RSF conflict began in Khartoum (UN Panel of Experts).",
+     "source_id": "UNPOE_S2024_65",
+     "page": "para 4 (PDF p.5)",
+     "quote": "The conflict that started on 15 April in Khartoum between SAF and RSF spread to Darfur by the end of that month.",
+     "badge": "REPORTED"
+    },
+    {
+     "date": "2023-04-24",
+     "place_id": "el-geneina",
+     "text": "Reported: RSF and allied militias attacked El Geneina (UN Panel of Experts).",
+     "source_id": "UNPOE_S2024_65",
+     "page": "Table 1 (PDF p.6)",
+     "quote": "24 April … RSF and allied militias attacked El Geneina",
+     "badge": "REPORTED"
+    },
+    {
+     "date": "2023-10-21/24",
+     "place_id": "nyala",
+     "text": "Reported: RSF attacked the SAF 16th Division in Nyala (UN Panel of Experts).",
+     "source_id": "UNPOE_S2024_65",
+     "page": "Table 1 (PDF p.6)",
+     "quote": "21–24 October … RSF attacked the SAF 16th Division in Nyala",
+     "badge": "REPORTED"
+    }
+   ]
   },
   {
    "war_id": "piye-conquest-of-egypt",
@@ -499,24 +854,48 @@
    ],
    "located_battle_ids": [],
    "status": [
-    "FALLBACK_ERA_BBOX"
+    "OK"
    ],
    "camera_bbox": [
-    28.52,
-    13.854,
-    35.771,
-    31.63
+    30.054,
+    17.783,
+    32.567,
+    30.685
    ],
    "caption": "Tefnakht of Sais united the Delta, occupied Memphis and besieged Heracleopolis; Piye sent an army after the ruler of Hermopolis joined him.",
    "caption_cites": [
     "GHA2_CH2",
-    "GHA2_CH10",
-    "SFDAS_HCS2017"
+    "GHA2_CH10"
    ],
    "caption_basis": "db/wars.json causes_en",
    "unlocated_note": "Battles with precision=region have no lat/lon in data and are excluded from bbox; no coordinates invented.",
-   "bbox_source": "era_main_area:kingdom-of-kush-napatan-period",
-   "bbox_badge": "DERIVED"
+   "bbox_source": "story_360 audit method (360x640, proposed layout): cited points memphis--720, city:napata, city:hermopolis, padding 0.75",
+   "bbox_badge": "DERIVED",
+   "beats": [
+    {
+     "date": "c.-750/-730",
+     "place_id": "napata",
+     "text": "Peye's Victory Stele at Napata records his campaign against the Libyan princes of Middle Egypt and the Delta.",
+     "source_id": "GHA2_CH10",
+     "page": "p.280 (PDF idx 297)",
+     "quote": "one of the inscriptions which he caused to be carved at Napata, … known as the Stele of Victory, … describing the deliberations of the king in his palace and the phases of his campaign against the Libyan princes who were masters of Middle Egypt and the Delta.",
+     "badge": "APPROXIMATE"
+    },
+    {
+     "date": "c.-750/-730",
+     "place_id": "hermopolis",
+     "text": "At Hermopolis Peye found the horses dead in the stables, but forgave.",
+     "source_id": "GHA2_CH10",
+     "page": "p.280 (PDF idx 297)",
+     "quote": "a great lover of horses, he is angered, at Hermopolis, to find all the horses dead in the stables but he forgives.",
+     "badge": "APPROXIMATE",
+     "verified_image": true,
+     "verified_page": "p.280 (PDF idx 297)"
+    }
+   ],
+   "caption_cites_note": "SFDAS_HCS2017 replaced by the Historian's beat source for this war (story_beats/wars_beats.json); quotes pending Historian page-image check",
+   "story_items": 3,
+   "camera_kmin": 0.9
   },
   {
    "war_id": "mamluk-makuria-wars",
@@ -538,9 +917,23 @@
    ],
    "caption": "Mamluk forces repeatedly installed rulers at Dongola and imposed tribute.",
    "caption_cites": [
-    "SFDAS_HCS2017"
+    "GHA4_CH16"
    ],
-   "caption_basis": "db/wars.json outcome_en"
+   "caption_basis": "db/wars.json outcome_en",
+   "beats": [
+    {
+     "date": "1276",
+     "place_id": "old-dongola",
+     "text": "Baybars's punitive expedition defeated Dawud and put Shakanda on the Mukurra throne under tribute.",
+     "source_id": "GHA4_CH16",
+     "page": "p.403 (PDF idx 427)",
+     "quote": "In 1276 Baybars sent a large punitive expedition, which defeated Dāwūd, and conferred the throne of Mukurra upon Dāwūd's cousin and rival, whose name is given as Shakanda or Mashkad in the sources.",
+     "badge": "DERIVED"
+    }
+   ],
+   "caption_cites_note": "SFDAS_HCS2017 replaced by the Historian's beat source for this war (story_beats/wars_beats.json); quotes pending Historian page-image check",
+   "bbox_source": "cited points: located battles + beat place_ids (db/cities.json coords), padding 0.75",
+   "story_items": 2
   },
   {
    "war_id": "ottoman-nubia-campaign",
@@ -560,11 +953,26 @@
     32.742,
     23.4
    ],
-   "caption": "An Ottoman province with its capital at Qasr Ibrim and garrisons at Aswan, Qasr Ibrim and Sai.",
+   "caption": "The Ottoman province of Berberistan, with garrisons at Ibrim, Aswan and Say.",
    "caption_cites": [
-    "SFDAS_HCS2017"
+    "GHA5_CH6"
    ],
-   "caption_basis": "db/wars.json outcome_en"
+   "caption_basis": "db/wars.json outcome_en",
+   "beats": [
+    {
+     "date": "mid-16th c.",
+     "place_id": "qasr-ibrim",
+     "text": "Özdemir Pasha re-occupied Ibrim, Aswan and Say with Bosnian garrisons; Berberistan province created.",
+     "source_id": "GHA5_CH6",
+     "page": "p.145 (PDF idx 172)",
+     "quote": "in the middle of the century, Ottoman supremacy there had to be re-established through an expedition, led by the former vice-regent of Yemen, Özdemir Pasha, who re-occupied Ibrim, Aswan and Say, garrisoning them with Bosnian troops. A new province called Berberistan was established",
+     "badge": "APPROXIMATE"
+    }
+   ],
+   "caption_cites_note": "SFDAS_HCS2017 replaced by the Historian's beat source for this war (story_beats/wars_beats.json); quotes pending Historian page-image check",
+   "bbox_source": "cited points: located battles + beat place_ids (db/cities.json coords), padding 0.75",
+   "story_items": 2,
+   "caption_cites_page": "GHA V p.145"
   },
   {
    "war_id": "italian-mahdist-war",
@@ -588,7 +996,20 @@
    "caption_cites": [
     "RIVERWAR1899_V1"
    ],
-   "caption_basis": "db/wars.json outcome_en"
+   "caption_basis": "db/wars.json outcome_en",
+   "beats": [
+    {
+     "date": "1894",
+     "place_id": "kassala",
+     "text": "The Ansar lost Kassala in 1894.",
+     "source_id": "GHA7_CH4",
+     "page": "p.77 (PDF idx 101)",
+     "quote": "The Mahdists' advance on the eastern front was also checked and the Ansār lost Tokar and Kassala respectively in 1891 and 1894.",
+     "badge": "SINGLE-SOURCE"
+    }
+   ],
+   "bbox_source": "cited points: located battles + beat place_ids (db/cities.json coords), padding 0.75",
+   "story_items": 2
   }
  ]
 }
