@@ -208,3 +208,6 @@ html[dir=rtl] #wtl .wsp.eu::after{right:auto;left:-4px}
 .tiles.t-topo image{filter:brightness(.6) saturate(.7) contrast(.95)}
 #tcr{position:fixed;inset-inline-end:4px;z-index:7;max-width:calc(100vw - 8px);font:10px/1.3 system-ui,sans-serif;color:#d6e0e6;background:rgba(15,27,36,.82);padding:2px 5px;border-radius:4px;overflow-wrap:anywhere;pointer-events:auto}
 #tcr a{color:#bfe3ff}
+/* step 3: hillshade multiplied at .5 over the topo tiles (topo_basemap_style spec); heatmap hidden mid-zoom */
+.tiles.t-dem image{mix-blend-mode:multiply;opacity:.5}
+g.heat{pointer-events:none}
