@@ -247,6 +247,8 @@ function popOwidH(io){if(!io)return'';const L=AR?1:0,f=POW_ORDER.filter(k=>io[k]
  const ids=[...new Set(f.flatMap(k=>[].concat(io[k].sources||io[k].cite||[]).map(c=>c&&(c.source_id||c)).filter(x=>typeof x==='string')))];
  let h=`<section class="powc" lang="${AR?'ar':'en'}" dir="${AR?'rtl':'ltr'}"><h4 class="powh">${AR?'مؤشرات ديموغرافية *':'Demography'} · <bdi>${esc(tr)}</bdi>${tv?vchipH():''} · <bdi>${num(yrs.join('/'))}</bdi></h4><dl class="powg">`;
  h+=f.map(k=>{const x=io[k],u=POW_UNIT[k][L];return `<div class="powi"><dt>${esc(POW_LAB[k][L])}</dt><dd><bdi dir="ltr" title="${esc(String(x.value))}">${fmt(k,x.value)}</bdi>${u?` <span class="powu">${esc(u)}</span>`:''}</dd></div>`}).join('')+'</dl>';
+ const bgs=[...new Set(f.flatMap(k=>io[k].badges||[]))];if(bgs.length)h+=`<p class="powb">${bgs.map(b=>{const l=BL[b];return `<span class="repb"${l?` style="border-color:${l[2]}"`:''}>${esc(l?l[L]:b)}</span>${AR&&!l?vchipH():''}`}).join(' ')}</p>`;
+ const np=io.population||{},npr=AR?np.note_population_ar:np.note_population,npe=AR&&!npr?np.note_population:null,[npt,npv]=vt(npr||npe||'');if(npt)h+=`<p class="powp" dir="auto"${npe?' lang="en"':''}>${esc(npt)}${npv||npe?vchipH():''}</p>`;
  if(nt)h+=`<p class="pown" dir="auto"${ne?' lang="en"':''}>⚠ ${esc(nt)}${nv||ne?vchipH():''}</p>`;
  if(ids.length)h+=`<p class="powcite">${AR?'المصدر *':'Source'}: <bdi dir="ltr">${esc(ids.join('; '))}</bdi>${f.some(k=>io[k].chart_url)?' · '+f.filter(k=>io[k].chart_url).map(k=>`<a href="${esc(io[k].chart_url)}" rel="noopener" target="_blank">${esc(POW_LAB[k][L].replace(' *',''))}</a>`).join(' · '):''}</p>`;
  return h+'</section>'}
