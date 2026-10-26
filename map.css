@@ -229,3 +229,6 @@ g.heat{pointer-events:none}
 .tourc .swb{display:flex;flex-wrap:wrap;gap:6px}.wstory{min-height:36px;padding:4px 12px;border-radius:16px;border:1px solid var(--acc);background:transparent;color:inherit;font:inherit;font-weight:700;cursor:pointer}
 /* war story on phone/tablet (<1000px): chips hidden, 170px peek sheet so the camera band (y --chipb+8..H-178) stays clear (Map Designer story_360) */
 @media (max-width:999px){body.warstory #layers{display:none}body.warstory #sheet.peek{max-height:170px;overflow-y:auto}}
+/* story beats: dated cited step + place ring */
+#storyp .swbeat blockquote{margin:.3em 0;padding-inline-start:.6em;border-inline-start:2px solid #c9a227;font-style:italic}
+g.swbt circle{fill:none;stroke:#c9a227;stroke-width:2.5;vector-effect:non-scaling-stroke}g.swbt circle+circle{fill:#c9a227;stroke:none}
