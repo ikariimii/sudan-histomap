@@ -5,7 +5,7 @@
  "stream": "Sudan – Middle Nile",
  "start": -270,
  "end": 350,
- "dating_note": "Meroitic chronology uncertain (GHA II: 'particularly serious' for 2nd–1st c. BCE). Which kandake negotiated with Rome (Amanirenas vs Amanishakheto) is unresolved in GHA. End placed in the 4th century CE (350 is a placeholder year); cause debated: GHA II ascribes the overthrow to the Noba and concludes the kingdom 'had already collapsed at the time of Ezana's campaign'. SFDAS_HCS2017 p.325 places the end c.330–350 CE. Start year -270 is uncited; GHA II p.301 dates the move of the capital to Meroe 'around —300'.",
+ "dating_note": "Meroitic chronology uncertain (GHA II: 'particularly serious' for 2nd–1st c. BCE). Which kandake negotiated with Rome (Amanirenas vs Amanishakheto) is unresolved in GHA. End placed in the 4th century CE (350 is a placeholder year); cause debated: GHA II ascribes the overthrow to the Noba and concludes the kingdom 'had already collapsed at the time of Ezana's campaign'. GHA II p.292 dates Ezana's campaign 'Towards +330'. Start year -270 is uncited; GHA II p.301 dates the move of the capital to Meroe 'around —300'.",
  "events": [
   {
    "en": "Ergamenes/Arkamani (3rd c. BCE), friendly relations with Ptolemaic Egypt",
@@ -68,9 +68,9 @@
    "lon": 30.2871
   }
  ],
- "geopolitics_en": "After Petronius took Napata (23 BCE), the Treaty of Samos (21/20 BCE) renounced Roman tribute and set the frontier at Hiera Sycaminos (GHA II). Naga's temples belong to the building programme of Amanitore and Natakamani (SFDAS_HCS2017 p.282). Collapse by the time of Ezana's campaign, c. mid-4th c. CE.",
+ "geopolitics_en": "After Petronius took Napata (23 BCE), the Treaty of Samos (21/20 BCE) renounced Roman tribute and set the frontier at Hiera Sycaminos (GHA II). Natakamani and Amanitere 'devoted particular attention to Naga' (GHA2_CH10 p.291). Collapse by the time of Ezana's campaign, c. mid-4th c. CE.",
  "geopolitics_ar": "بعد استيلاء بترونيوس على نبتة (23 ق.م) تخلّت معاهدة ساموس (21/20 ق.م) عن الجزية الرومانية وحدّدت الحدود عند هيرا سيكامينوس (تاريخ أفريقيا العام II). ويصف مشروع النقعة النقعةَ بأنها أقصى مدن مروي جنوباً، ومروي بأنها «منافس قوي» لمصر البطلمية والرومانية. وانهارت المملكة بحلول حملة عيزانا نحو منتصف القرن الرابع الميلادي.",
- "culture_dominance_en": "Local innovations: Meroitic writing, official cult of indigenous gods such as the lion-god Apedemak, ruling queens (Kandakes) (SFDAS_HCS2017 pp.211, 230, 344). Naga's buildings mix Egyptian models with Hellenistic and Roman elements (SFDAS_HCS2017 p.282).",
+ "culture_dominance_en": "Local innovations: Meroitic hieroglyphs (GHA2_CH10 p.288), worship of 'purely Meroitic gods, Apedemak the Lion-god' (GHA2_CH10 p.287), reigning queens (candaces) (GHA2_CH11 p.304). At Naga, temple decoration 'combines Egyptian influences and purely Meroitic features' (GHA2_CH10 p.291).",
  "culture_dominance_ar": "ابتكارات محلية: الكتابة المروية، والعبادة الرسمية لآلهة محلية مثل الإله الأسد أباداماك، والملكات الحاكمات (الكنداكات). وتجمع النقعة بين عناصر أفريقية ومصرية وهلنستية.",
  "economy_en": "Iron working at Meroe (large slag heaps, WHC/GHA); Red Sea trade with Greek merchants (PRC Embassy text); great hafir reservoirs (DAI Musawwarat).",
  "economy_ar": "صناعة الحديد في مروي (أكوام خبث كبيرة)؛ والتجارة عبر البحر الأحمر مع التجار الإغريق (نص سفارة الصين)؛ وخزانات الحفير الكبرى (مشروع المصورات).",
@@ -78,7 +78,8 @@
  "sources": [
   "GHA2",
   "WHC1336",
-  "SFDAS_HCS2017",
+  "GHA2_CH10",
+  "GHA2_CH11",
   "DAI_MUSAWWARAT",
   "FR_MUSEE_MEROE",
   "ZH_EMB_HIST2020",

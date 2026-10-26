@@ -5025,6 +5025,34 @@
       "origin_commit": "SFDAS_HCS2017 cite-or-delete pass",
       "added": "2026-10-26",
       "note": "[يحتاج تحقق] Arabic left unchanged by the Historian; reviewer to edit."
+    },
+    {
+      "era_id": "kingdom-of-kush-meroitic-period",
+      "file": "data/eras/kingdom-of-kush-meroitic-period.json",
+      "field_ar": "geopolitics_ar",
+      "arabic_sentence": "بعد استيلاء بترونيوس على نبتة (23 ق.م) تخلّت معاهدة ساموس (21/20 ق.م) عن الجزية الرومانية وحدّدت الحدود عند هيرا سيكامينوس (تاريخ أفريقيا العام II). ويصف مشروع النقعة النقعةَ بأنها أقصى مدن مروي جنوباً، ومروي بأنها «منافس قوي» لمصر البطلمية والرومانية. وانهارت المملكة بحلول حملة عيزانا نحو منتصف القرن الرابع الميلادي.",
+      "badge": "VERIFY",
+      "field_en": "geopolitics_en",
+      "revised_english": "After Petronius took Napata (23 BCE), the Treaty of Samos (21/20 BCE) renounced Roman tribute and set the frontier at Hiera Sycaminos (GHA II). Natakamani and Amanitere 'devoted particular attention to Naga' (GHA2_CH10 p.291). Collapse by the time of Ezana's campaign, c. mid-4th c. CE.",
+      "reason": "SFDAS_HCS2017 p.282 replaced by GHA II ch.10 p.291 (page image checked): 'They devoted particular attention to Naga'.",
+      "action": "Native reviewer: align the Arabic to the revised English and drop the SFDAS_HCS2017 attribution.",
+      "origin_commit": "SFDAS_HCS2017 cite-or-delete pass",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق] Arabic left unchanged by the Historian; reviewer to edit."
+    },
+    {
+      "era_id": "kingdom-of-kush-meroitic-period",
+      "file": "data/eras/kingdom-of-kush-meroitic-period.json",
+      "field_ar": "culture_dominance_ar",
+      "arabic_sentence": "ابتكارات محلية: الكتابة المروية، والعبادة الرسمية لآلهة محلية مثل الإله الأسد أباداماك، والملكات الحاكمات (الكنداكات). وتجمع النقعة بين عناصر أفريقية ومصرية وهلنستية.",
+      "badge": "VERIFY",
+      "field_en": "culture_dominance_en",
+      "revised_english": "Local innovations: Meroitic hieroglyphs (GHA2_CH10 p.288), worship of 'purely Meroitic gods, Apedemak the Lion-god' (GHA2_CH10 p.287), reigning queens (candaces) (GHA2_CH11 p.304). At Naga, temple decoration 'combines Egyptian influences and purely Meroitic features' (GHA2_CH10 p.291).",
+      "reason": "SFDAS_HCS2017 pp.211, 230, 282, 344 replaced: GHA II p.288 'inscriptions engraved in Meroitic hieroglyphs'; p.287 'purely Meroitic gods, Apedemak the Lion-god'; p.304 (image checked) 'the wife who survived her husband often became the reigning candace'; p.291 (image checked) 'combines Egyptian influences and purely Meroitic features'. 'Hellenistic and Roman elements' dropped (not in a read source).",
+      "action": "Native reviewer: align the Arabic to the revised English and drop the SFDAS_HCS2017 attribution.",
+      "origin_commit": "SFDAS_HCS2017 cite-or-delete pass",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق] Arabic left unchanged by the Historian; reviewer to edit."
     }
   ]
 }
