@@ -7370,6 +7370,35 @@
       "origin_commit": "Map Designer legends",
       "added": "2026-10-26",
       "kind": "legend_zone_label"
+    },
+    {
+      "era_id": "war-in-sudan-saf-vs-rsf",
+      "file": "db/battles_post1956.json",
+      "field_ar": "wad-madani-2023.outcome_ar",
+      "arabic_sentence": "«أدان برنامج الأغذية العالمي بشدة نهب الإمدادات الغذائية من مستودعاته بولاية الجزيرة السودانية، نهاية الأسبوع الماضي، بعد اقتحام عناصر من قوات الدعم السريع لها عقب سيطرة المجموعة على ود مدني.» (أخبار الأمم المتحدة، 28 ديسمبر 2023) [يحتاج تحقق]",
+      "badge": "REPORTED",
+      "field_en": "wad-madani-2023.outcome",
+      "revised_english": "",
+      "note": "[يحتاج تحقق] Verbatim quote of UN News Arabic 28 Dec 2023 para 1 (UNNEWS_AR_20231228_WADMEDANI, https://news.un.org/ar/story/2023/12/1127287); para 1 re-read and matched 2026-10-26. Counterpart OCHA_FU05_WADMEDANI_2023. Written by the Geopolitical Analyst (a290dbf/f362060); not edited.",
+      "action": "review",
+      "origin_commit": "a290dbf (source) / f362060 (site)",
+      "added": "2026-10-26",
+      "kind": "battle_outcome_ar"
+    },
+    {
+      "era_id": "war-in-sudan-saf-vs-rsf",
+      "file": "db/battles_post1956.json",
+      "field_ar": "el-geneina-2023.outcome_ar",
+      "arabic_sentence": "سيطرت قوات الدعم السريع والميليشيات المتحالفة معها على الجنينة بحلول 19 يونيو 2023 (وفقاً لفريق خبراء الأمم المتحدة، S/2024/65، 15 يناير 2024) [يحتاج تحقق]",
+      "badge": "REPORTED",
+      "field_en": "el-geneina-2023.outcome",
+      "revised_english": "",
+      "name_ar_origin": "working translation",
+      "note": "[يحتاج تحقق] Working translation of the existing English outcome cited to the UN Panel of Experts, S/2024/65 (15 Jan 2024); no UN Arabic sentence stating RSF took control was found. Written by the Geopolitical Analyst (a290dbf/f362060); not edited.",
+      "action": "review",
+      "origin_commit": "a290dbf (source) / f362060 (site)",
+      "added": "2026-10-26",
+      "kind": "battle_outcome_ar"
     }
   ]
 }
