@@ -220,3 +220,7 @@ g.heat{pointer-events:none}
 
 .tgl{flex-wrap:wrap}.tgl .tgb{display:block;width:100%;max-width:220px;height:10px;border-radius:2px;margin:2px 0}.tgl .tgt{display:flex;justify-content:space-between;max-width:220px;gap:6px}.tgl .n{display:block;opacity:.8}
 .bq{margin:4px 0 6px;padding:2px 0 2px 8px;border-inline-start:2px solid #e0a63e;font-style:italic;overflow-wrap:anywhere}.bq q{quotes:'\201C' '\201D'}html[lang=ar] .bq q{quotes:'\00AB' '\00BB'}
+
+/* war_halo (lg/markers.json): solid dark halo + white outer edge under timeline war spans and dots, also under dashed spans */
+#wtl .wsp.cl,#wtl .wsp.og,#wtl .wsp.eu,#wtl .wsd{box-shadow:0 0 0 var(--wh-w,1px) var(--wh,#0f1b24),0 0 0 var(--wh-ow,1px) var(--wh-o,transparent)}
+#wtl .wsp.og::after,#wtl .wsp.eu::after{filter:drop-shadow(0 0 var(--wh-w,0) var(--wh,transparent))}
