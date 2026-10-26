@@ -4969,6 +4969,62 @@
       "origin_commit": "needs_source clearance",
       "added": "2026-10-26",
       "note": "Arabic left unchanged by the Historian; reviewer to edit."
+    },
+    {
+      "era_id": "kingdom-of-kerma",
+      "file": "data/periods.json",
+      "field_ar": "key_events_ar[0] (mirrored in data/periods.js)",
+      "arabic_sentence": "معبد الدفوفة الغربية المبني من الطوب اللبن (SFDAS_HCS2017 p.80)",
+      "badge": "VERIFY",
+      "field_en": "key_events[0]",
+      "revised_english": "Western Deffufa: a solid mud-brick mass whose purpose is disputed; in Classic Kerma it came to resemble an Egyptian temple (GHA2_CH9 pp.259–261; KERMA_MISSION 'History')",
+      "reason": "SFDAS_HCS2017 p.80 replaced. GHA II ch.9 p.259 (page image checked): 'The former is a solid mass of sun-dried brick'; pp.259–261 record the disputed interpretations (fort, trading post, ruler's residence). KERMA_MISSION History: 'The western deffufa now resembles an Egyptian temple'. 'Temple' softened.",
+      "action": "Native reviewer: align the Arabic to the revised English and drop the SFDAS_HCS2017 attribution.",
+      "origin_commit": "SFDAS_HCS2017 cite-or-delete pass",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق] Arabic left unchanged by the Historian; reviewer to edit."
+    },
+    {
+      "era_id": "kingdom-of-kerma",
+      "file": "data/periods.json",
+      "field_ar": "key_events_ar[1] (mirrored in data/periods.js)",
+      "arabic_sentence": "أكبر دولة أفريقية خارج مصر في الألف الثاني قبل الميلاد [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.56)",
+      "badge": "VERIFY",
+      "field_en": "key_events[1]",
+      "revised_english": "Capital of the first kingdom of Sub-Saharan Africa; city and necropolis span c.2500–1500 BCE (KERMA_MISSION 'History')",
+      "reason": "SFDAS_HCS2017 p.56 replaced by KERMA_MISSION History: 'Kerma, the capital of the first kingdom of Sub-Saharan Africa' and 'these span between 2500 and 1500 B.C.'",
+      "action": "Native reviewer: align the Arabic to the revised English and drop the SFDAS_HCS2017 attribution.",
+      "origin_commit": "SFDAS_HCS2017 cite-or-delete pass",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق] Arabic left unchanged by the Historian; reviewer to edit."
+    },
+    {
+      "era_id": "kingdom-of-kerma",
+      "file": "data/periods.json",
+      "field_ar": "key_events_ar[2] (mirrored in data/periods.js)",
+      "arabic_sentence": "نهبها تحتمس الأول نحو 1500 ق.م [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.92)",
+      "badge": "VERIFY",
+      "field_en": "key_events[2]",
+      "revised_english": "Thutmose I's conquest of the northern Sudan ended the independence of the kingdom of Kush (GHA2_CH9 p.265)",
+      "reason": "SFDAS_HCS2017 p.92 replaced by GHA II ch.9 p.265 (page image checked): 'it was Tuthmose I (—1530 to —1520) who accomplished the conquest of the northern Sudan; thus bringing the independence of the kingdom of Kush to an end'. The 'c.1500' date dropped (GHA and kerma.ch give different reign dates).",
+      "action": "Native reviewer: align the Arabic to the revised English and drop the SFDAS_HCS2017 attribution.",
+      "origin_commit": "SFDAS_HCS2017 cite-or-delete pass",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق] Arabic left unchanged by the Historian; reviewer to edit."
+    },
+    {
+      "era_id": "kingdom-of-kerma",
+      "file": "data/periods.json",
+      "field_ar": "key_events_ar[3] (mirrored in data/periods.js)",
+      "arabic_sentence": "مراحل البعثة السويسرية: كرمة المبكرة نحو 2450–2050، والوسطى نحو 2050–1750، والكلاسيكية نحو 1750–1550 ق.م (وكرمة المتأخرة حتى نحو 1450) [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.69)",
+      "badge": "VERIFY",
+      "field_en": "key_events[3]",
+      "revised_english": "Phases: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE (Final Kerma c.1480–1450) (KERMA_MISSION 'History')",
+      "reason": "SFDAS_HCS2017 p.69 replaced by KERMA_MISSION History: 'Classic Kerma (circa 1750-1480 B.C.)' and 'Final Kerma ... (circa 1480-1450 B.C.)'. Arabic still gives Classic to c.1550; reviewer to change 1550 to 1480.",
+      "action": "Native reviewer: align the Arabic to the revised English and drop the SFDAS_HCS2017 attribution.",
+      "origin_commit": "SFDAS_HCS2017 cite-or-delete pass",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق] Arabic left unchanged by the Historian; reviewer to edit."
     }
   ]
 }

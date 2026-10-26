@@ -8321,12 +8321,12 @@
    "end": -1450,
    "prominence": 0.7,
    "key_events": [
-    "Western Deffufa mud-brick temple (SFDAS_HCS2017 p.80)",
-    "Capital of the first historical state of Sudan, c.2450–1500 BCE (SFDAS_HCS2017 p.56)",
-    "Severe blow from Thutmose I's campaign, shortly before c.1500 BCE (SFDAS_HCS2017 p.92)",
-    "Phases: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1550 BCE (Final Kerma c.1550–1450) (SFDAS_HCS2017 p.69)"
+    "Western Deffufa: a solid mud-brick mass whose purpose is disputed; in Classic Kerma it came to resemble an Egyptian temple (GHA2_CH9 pp.259–261; KERMA_MISSION 'History')",
+    "Capital of the first kingdom of Sub-Saharan Africa; city and necropolis span c.2500–1500 BCE (KERMA_MISSION 'History')",
+    "Thutmose I's conquest of the northern Sudan ended the independence of the kingdom of Kush (GHA2_CH9 p.265)",
+    "Phases: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE (Final Kerma c.1480–1450) (KERMA_MISSION 'History')"
    ],
-   "key_events_cites": [[], [], [], []],
+   "key_events_cites": [[{"source": "GHA2_CH9", "page": "259–261"}, {"source": "KERMA_MISSION", "page": "History page, Kingdom of Kerma section"}], [{"source": "KERMA_MISSION", "page": "History page, headline and Kingdom of Kerma section"}], [{"source": "GHA2_CH9", "page": "265"}], [{"source": "KERMA_MISSION", "page": "History page, Kingdom of Kerma section"}]],
    "capitals": [
     {
      "name": "Kerma",
@@ -8336,9 +8336,10 @@
    ],
    "sources": [
     "GHA2_CH19",
-    "SFDAS_HCS2017"
+    "GHA2_CH9",
+    "KERMA_MISSION"
    ],
-   "dating_note": "Corrected to the Swiss mission chronology: Early Kerma 2450–2050, Middle 2050–1750, Classic 1750–1550 BCE, and Final Kerma 1550–1450 BCE, 'correspondant aux longues luttes qui précédèrent la victoire définitive des Égyptiens' (SFDAS_HCS2017 p.69). Era end -1450 follows the chapter span 'le Groupe C et le royaume de Kerma 2450-1450' (p.59) and the campaign under Hatshepsut 'sans doute vers 1 470 av. J.-C.', after which 'La cité de Kerma fut définitivement abandonnée' (p.95). Note GHA II (1981) still dates 'Kerma' to -1730/-1580, i.e. only the Classic phase; superseded by Bonnet/Honegger excavations.",
+   "dating_note": "Swiss mission chronology: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE; 'A fourth period, called Final Kerma, denotes the transition between the end of the kingdom and the Egyptian occupation (circa 1480-1450 B.C.)' (KERMA_MISSION 'History'). Era end -1450 follows that Final Kerma end. Note GHA II (1981) still dates 'Kerma' to -1730/-1580, i.e. only the Classic phase; superseded by Bonnet/Honegger excavations.",
    "key_events_ar": [
     "معبد الدفوفة الغربية المبني من الطوب اللبن (SFDAS_HCS2017 p.80)",
     "أكبر دولة أفريقية خارج مصر في الألف الثاني قبل الميلاد [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (SFDAS_HCS2017 p.56)",
@@ -8352,14 +8353,19 @@
       "title": "The Roman and post-Roman period in North Africa, ch.19 (General History of Africa II)"
      },
      {
-      "id": "SFDAS_HCS2017",
-      "title": "Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
-      "pages": "pp.56, 59, 69, 80, 91–92, 95"
+      "id": "GHA2_CH9",
+      "title": "Nubia before Napata (−3100 to −750), ch.9 (General History of Africa II)",
+      "pages": "pp.259–261, 265"
+     },
+     {
+      "id": "KERMA_MISSION",
+      "title": "History (Kerma chronology)",
+      "pages": "kerma.ch/en/history/"
      }
     ],
     "zones": [],
     "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
-    "dating": "Corrected to the Swiss mission chronology: Early Kerma 2450–2050, Middle 2050–1750, Classic 1750–1550 BCE, and Final Kerma 1550–1450 BCE, 'correspondant aux longues luttes qui précédèrent la victoire définitive des Égyptiens' (SFDAS_HCS2017 p.69). Era end -1450 follows the chapter span 'le Groupe C et le royaume de Kerma 2450-1450' (p.59) and the campaign under Hatshepsut 'sans doute vers 1 470 av. J.-C.', after which 'La cité de Kerma fut définitivement abandonnée' (p.95). Note GHA II (1981) still dates 'Kerma' to -1730/-1580, i.e. only the Classic phase; superseded by Bonnet/Honegger excavations."
+    "dating": "Swiss mission chronology: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE; 'A fourth period, called Final Kerma, denotes the transition between the end of the kingdom and the Egyptian occupation (circa 1480-1450 B.C.)' (KERMA_MISSION 'History'). Era end -1450 follows that Final Kerma end. Note GHA II (1981) still dates 'Kerma' to -1730/-1580, i.e. only the Classic phase; superseded by Bonnet/Honegger excavations."
    }
   },
   {
