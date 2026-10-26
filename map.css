@@ -204,3 +204,7 @@ html[dir=rtl] #wtl .wsp.eu::after{right:auto;left:-4px}
 #wtp button{display:block;width:100%;min-height:28px;text-align:start;background:none;border:0;color:inherit;font:inherit;font-size:14px;padding:4px 2px;cursor:pointer;overflow-wrap:anywhere}
 #wtp .wsw{display:inline-flex;vertical-align:-3px;margin-inline-end:6px}
 #wtp button small{display:block;color:#b8c7d1;font-size:12px;padding-inline-start:20px}
+/* step 2: OpenTopoMap tiles under all overlays, dimmed toward the dark theme so overlays stay legible; credit always visible */
+.tiles.t-topo image{filter:brightness(.6) saturate(.7) contrast(.95)}
+#tcr{position:fixed;inset-inline-end:4px;z-index:7;max-width:calc(100vw - 8px);font:10px/1.3 system-ui,sans-serif;color:#d6e0e6;background:rgba(15,27,36,.82);padding:2px 5px;border-radius:4px;overflow-wrap:anywhere;pointer-events:auto}
+#tcr a{color:#bfe3ff}
