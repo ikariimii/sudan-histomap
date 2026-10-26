@@ -6667,6 +6667,34 @@
       "origin_commit": "key_events empty-cite cite-or-delete pass, batch 1",
       "added": "2026-10-26",
       "note": "[يحتاج تحقق]"
+    },
+    {
+      "era_id": "Republic of Egypt",
+      "file": "data/periods.json",
+      "field_ar": "key_events_ar[0] (mirrored in data/periods.js)",
+      "arabic_sentence": "السد العالي في أسوان؛ تهجير النوبيين وإغراق وادي حلفا 1964",
+      "badge": "VERIFY",
+      "field_en": "key_events[0]",
+      "revised_english": "(line deleted: \"Aswan High Dam; Nubian displacement & Wadi Halfa flooding 1964\" had no verifiable source page)",
+      "reason": "Empty-cite key event removed in cite-or-delete pass; its Arabic counterpart removed with it. Arabic not reworded. Index is the pre-deletion index.",
+      "action": "Native reviewer: confirm the Arabic line's removal; no Arabic to align.",
+      "origin_commit": "key_events empty-cite cite-or-delete pass, batch 2",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق]"
+    },
+    {
+      "era_id": "French Chad → Republic of Chad",
+      "file": "data/periods.json",
+      "field_ar": "key_events_ar[1] (mirrored in data/periods.js)",
+      "arabic_sentence": "تستضيف لاجئين سودانيين منذ 2003 و2023",
+      "badge": "VERIFY",
+      "field_en": "key_events[1]",
+      "revised_english": "(line deleted: \"Hosts Sudanese refugees from 2003 and 2023\" had no verifiable source page)",
+      "reason": "Empty-cite key event removed in cite-or-delete pass; its Arabic counterpart removed with it. Arabic not reworded. Index is the pre-deletion index.",
+      "action": "Native reviewer: confirm the Arabic line's removal; no Arabic to align.",
+      "origin_commit": "key_events empty-cite cite-or-delete pass, batch 2",
+      "added": "2026-10-26",
+      "note": "[يحتاج تحقق]"
     }
   ]
 }
