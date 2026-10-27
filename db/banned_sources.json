@@ -14,6 +14,7 @@
    "status": "banned",
    "ruling": "Innovation Manager: do not cite; remove cites, re-source or badge VERIFY; keep registry entry marked banned/withdrawn",
    "ruling_date": "2026-10-26",
+   "registry_entries": [{"id": "SFDAS_HCS2017", "after": "SERIHERSCH2020", "entry": {"status": "banned/withdrawn", "author": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso", "title": "Histoire et civilisations du Soudan, de la Préhistoire à nos jours", "publisher": "Soleb / Bleu autour / SFDAS", "year": "2017", "url": "https://www.soleb.com/livres/soudan/fichiers-numeriques.html", "isbn": "978-2-918157-24-3", "lang": "fr", "note": "STATUS: unverified / record-only (2026-10-26, Historian SFDAS cite-or-delete pass): no Historian-owned file cites it; claims re-sourced to GHA/LOC/KERMA_MISSION or softened/deleted. Remaining mentions are in build mirrors and other roles' files. | Free PDF; ToC shows 'Groupe C et royaume de Kerma 2450-1450', 'Groupe A, Pré-Kerma 3500-2500' | Old sfdas.com PDF URL dead (QA 2026-10-25); same work at the publisher's page (free bd.zip holds the same 976-page PDF). Print ISBN kept as isbn because page cites refer to the print edition; digital edition ISBN 978-2-918157-30-4 (soleb.com).", "pages": ""}}],
    "match_patterns": ["SFDAS_HCS2017", "SFDAS", "Histoire et civilisations du Soudan", "Sudan Fortunes"]
   },
   {
@@ -24,6 +25,7 @@
    "ruling": "Innovation Manager: Evans-Pritchard 1940 is banned",
    "ruling_date": "2026-10-25",
    "ruling_date_note": "exact ruling time not recorded",
+   "registry_entries": [{"id": "EP1940_ANUAK", "after": "EJOSSAH_DERG_SPLA", "entry": {"status": "banned/withdrawn", "author": "E.E. Evans-Pritchard", "title": "The Political System of the Anuak of the Anglo-Egyptian Sudan", "publisher": "Routledge (reissue)", "year": "1940", "url": "https://doi.org/10.4324/9781003135395", "pages": "", "lang": "en"}}, {"id": "EP1940_NUER", "after": "EP1940_ANUAK", "entry": {"status": "banned/withdrawn", "author": "E.E. Evans-Pritchard", "title": "The Nuer: A Description of the Modes of Livelihood and Political Institutions of a Nilotic People", "publisher": "Clarendon Press", "year": "1940", "url": "https://monoskop.org/images/4/4d/Evans_Pritchard_E_E_The_Nuer_a_description_of_the_modes_1940.pdf", "pages": "", "lang": "en", "note": "Pass 17 adds pp.3, 5–6, 16, 18, 62, 68, 72, 88, 111, 112, 132, 181, 221 (full text on the box)."}}],
    "match_patterns": ["EP1940_NUER", "EP1940_ANUAK", "EP1940", "Evans-Pritchard 1940", "Evans-Pritchard (1940)"]
   }
  ]
