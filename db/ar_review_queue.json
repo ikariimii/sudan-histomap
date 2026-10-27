@@ -271,7 +271,7 @@
       "rank": 3
     },
     {
-      "era_id": "anuak-anywaa-communities",
+      "era_id": "anuak",
       "file": "data/eras/anuak-anywaa-communities.json",
       "title_en": "Anuak (Anywaa) communities",
       "title_ar": "مجتمعات الأنواك (أنيوا)",
@@ -300,7 +300,7 @@
       "rank": 4
     },
     {
-      "era_id": "dinka-jieng-communities",
+      "era_id": "dinka",
       "file": "data/eras/dinka-jieng-communities.json",
       "title_en": "Dinka (Jieng) communities",
       "title_ar": "مجتمعات الدينكا (جيينق)",
@@ -326,7 +326,7 @@
       "rank": 5
     },
     {
-      "era_id": "nuer-naath-communities",
+      "era_id": "nuer",
       "file": "data/eras/nuer-naath-communities.json",
       "title_en": "Nuer (Naath) communities",
       "title_ar": "مجتمعات النوير (ناث)",
@@ -817,7 +817,7 @@
       "rank": 24
     },
     {
-      "era_id": "zande-kingdoms",
+      "era_id": "azande",
       "file": "data/eras/zande-kingdoms.json",
       "title_en": "Zande kingdoms",
       "title_ar": "ممالك الزاندي",
@@ -898,7 +898,7 @@
       "rank": 27
     },
     {
-      "era_id": "shilluk-kingdom",
+      "era_id": "shilluk",
       "file": "data/eras/shilluk-kingdom.json",
       "title_en": "Shilluk Kingdom",
       "title_ar": "مملكة الشلك",
@@ -1588,7 +1588,7 @@
     {
       "kind": "artifact_caption",
       "id": "artcap:anuak-anywaa-communities",
-      "era_id": "anuak-anywaa-communities",
+      "era_id": "anuak",
       "path": "/workspace/sudan-histomap/web/art_captions_ar.json",
       "location": "web/art_captions_ar.json → captions[\"anuak-anywaa-communities\"].ar",
       "en": "Baro River near Gambela, heartland of the Anuak (Anywaa).",
@@ -1705,7 +1705,7 @@
     {
       "kind": "artifact_caption",
       "id": "artcap:dinka-jieng-communities",
-      "era_id": "dinka-jieng-communities",
+      "era_id": "dinka",
       "path": "/workspace/sudan-histomap/web/art_captions_ar.json",
       "location": "web/art_captions_ar.json → captions[\"dinka-jieng-communities\"].ar",
       "en": "Dinka beaded collar in the Sudan Ethnographic Museum.",
@@ -2082,7 +2082,7 @@
     {
       "kind": "artifact_caption",
       "id": "artcap:nuer-naath-communities",
-      "era_id": "nuer-naath-communities",
+      "era_id": "nuer",
       "path": "/workspace/sudan-histomap/web/art_captions_ar.json",
       "location": "web/art_captions_ar.json → captions[\"nuer-naath-communities\"].ar",
       "en": "The Sudd floodplain, the Nuer homeland along the White Nile.",
@@ -2225,7 +2225,7 @@
     {
       "kind": "artifact_caption",
       "id": "artcap:shilluk-kingdom",
-      "era_id": "shilluk-kingdom",
+      "era_id": "shilluk",
       "path": "/workspace/sudan-histomap/web/art_captions_ar.json",
       "location": "web/art_captions_ar.json → captions[\"shilluk-kingdom\"].ar",
       "en": "Shilluk material culture photographed by Richard Buchta, c. 1878.",
@@ -2342,7 +2342,7 @@
     {
       "kind": "artifact_caption",
       "id": "artcap:zande-kingdoms",
-      "era_id": "zande-kingdoms",
+      "era_id": "azande",
       "path": "/workspace/sudan-histomap/web/art_captions_ar.json",
       "location": "web/art_captions_ar.json → captions[\"zande-kingdoms\"].ar",
       "en": "Zande harp collected by Herbert Lang, 1913.",
@@ -2699,7 +2699,7 @@
       "added": "2026-10-25"
     },
     {
-      "era_id": "anuak-anywaa-communities",
+      "era_id": "anuak",
       "file": "data/eras/anuak-anywaa-communities.json",
       "field_ar": "events.ar",
       "arabic_sentence": "شعب نيلي يتحدث لغة من مجموعة الشلك (اللوو) [يحتاج تحقق]",
@@ -2712,7 +2712,7 @@
       "added": "2026-10-25"
     },
     {
-      "era_id": "anuak-anywaa-communities",
+      "era_id": "anuak",
       "file": "data/eras/anuak-anywaa-communities.json",
       "field_ar": "events.ar",
       "arabic_sentence": "دُرسوا في كتاب إيفانز-بريتشارد «النظام السياسي للأنواك» (1940) [يحتاج تحقق]",
@@ -2725,7 +2725,7 @@
       "added": "2026-10-25"
     },
     {
-      "era_id": "anuak-anywaa-communities",
+      "era_id": "anuak",
       "file": "data/eras/anuak-anywaa-communities.json",
       "field_ar": "geopolitics_ar",
       "arabic_sentence": "يصنّف إيفانز-بريتشارد الأنواك ضمن النيليين الناطقين بلغات قريبة من الشلك (اللوو)، ويقول إنهم يشغلون أرضاً متصلة. ومن جهة النوير، كان نهر البيبور يفصل نوير اللو عن الأنواك، وكان الأنواك والبير ينازعون اللو في استخدام الجيني والبيبور، وكان النوير قد أخلوا جزءاً من «أرض الأنواك»، ويعود ذلك جزئياً إلى ذبابة تسي تسي وخسارة الماشية. وكانت جيوب صغيرة من الأنواك على السوباط «مغلوبة لكنها غير مندمجة» في مجتمع النوير. هذه رواية من الخارج (تركّز على النوير). ولم تُقرأ دراسة إيفانز-بريتشارد عن الأنواك. [WORKING TRANSLATION – needs native Arabic review] ووجد تقرير طرق حكومي عام 1905 على نهر السوباط من الناصر أن البلاد «مأهولة بالنوير والأنواك مختلطين، والغلبة للنوير الذين يتركون الأنواك يعيشون على مضض» (غليشن 1905، المجلد الثاني، الطريق 138). [يحتاج تحقق]",
@@ -2738,7 +2738,7 @@
       "added": "2026-10-25"
     },
     {
-      "era_id": "nuer-naath-communities",
+      "era_id": "nuer",
       "file": "data/eras/nuer-naath-communities.json",
       "field_ar": "events.ar",
       "arabic_sentence": "يسمّون أنفسهم «ناث»؛ نحو 200,000 نسمة في ثلاثينيات القرن العشرين [يحتاج تحقق]",
@@ -2751,7 +2751,7 @@
       "added": "2026-10-25"
     },
     {
-      "era_id": "dinka-jieng-communities",
+      "era_id": "dinka",
       "file": "data/eras/dinka-jieng-communities.json",
       "field_ar": "events.ar",
       "arabic_sentence": "رعي الأبقار؛ قريبون ثقافياً من النوير، ويشكلون معهم فرعاً نيلياً [يحتاج تحقق]",
@@ -2764,7 +2764,7 @@
       "added": "2026-10-25"
     },
     {
-      "era_id": "nuer-naath-communities",
+      "era_id": "nuer",
       "file": "data/eras/nuer-naath-communities.json",
       "field_ar": "geopolitics_ar",
       "arabic_sentence": "«ليس للنوير حكومة، ويمكن وصف دولتهم بأنها فوضى منظَّمة». وكانت «دولة قرابة بلا رأس»، وكان زعيم جلد الفهد «شخصاً مقدساً بلا سلطة سياسية». ويرجّح أن توسع النوير شرقاً عبر النيل كان بسبب الاكتظاظ السكاني، وجرى على حساب الدينكا الذين كانوا يغيرون عليهم. ويذكر تاريخ أفريقيا العام VII أن النوير على السوباط والنيل الأبيض قاوموا الحكم الثنائي منذ دنقكور وديو (تُوفيا 1906/1907) حتى «ثورة النوير الواسعة عام 1927» (الفصل 4، ص81). [WORKING TRANSLATION – needs native Arabic review] [يحتاج تحقق]",
@@ -2777,7 +2777,7 @@
       "added": "2026-10-25"
     },
     {
-      "era_id": "nuer-naath-communities",
+      "era_id": "nuer",
       "file": "data/eras/nuer-naath-communities.json",
       "field_ar": "culture_dominance_ar",
       "arabic_sentence": "«تدور معظم أنشطتهم الاجتماعية حول الماشية». وكثيراً ما يُنادى الرجال بأسماء ثيرانهم، وتتخذ النساء أسماء من الثيران والأبقار، و«قد تبدو سلسلة نسب النويري كأنها جرد لحظيرة». وكان الصبية الدينكا الأسرى يُتبنَّون عادة في سلالات آسريهم ويُعَدّون أبناء. إثنوغرافيا الثلاثينيات. [WORKING TRANSLATION – needs native Arabic review] [يحتاج تحقق]",
@@ -2790,7 +2790,7 @@
       "added": "2026-10-25"
     },
     {
-      "era_id": "nuer-naath-communities",
+      "era_id": "nuer",
       "file": "data/eras/nuer-naath-communities.json",
       "field_ar": "economy_ar",
       "arabic_sentence": "«رعويون في المقام الأول، وإن كانوا يزرعون من الذرة الرفيعة والذرة الشامية أكثر مما يُظن»؛ ويرون الزراعة «كدّاً يفرضه عليهم فقر القطيع»، وتتقدم الرعاية لأن للماشية قيمة اجتماعية أيضاً (إثنوغرافيا الثلاثينيات). [يحتاج تحقق]",
@@ -2803,7 +2803,7 @@
       "added": "2026-10-25"
     },
     {
-      "era_id": "anuak-anywaa-communities",
+      "era_id": "anuak",
       "file": "data/eras/anuak-anywaa-communities.json",
       "field_ar": "economy_ar",
       "arabic_sentence": "يوصف الأنواك بأنهم شعب «قليل الماشية أو بلا ماشية»، واحتقرهم النوير لذلك. وحصل النوير على قوارب جذوع جيدة من الأنواك بالمقايضة أو السرقة، وربما على التبغ من أنواك نهري بارو وجيلا، وإن كان الأرجح أنه بالإغارة. هذه رواية تتمحور حول النوير من الثلاثينيات، ولا تصف إنتاج الأنواك مباشرة. [WORKING TRANSLATION – needs native Arabic review] [يحتاج تحقق]",
@@ -3442,7 +3442,7 @@
       "added": "2026-10-25"
     },
     {
-      "era_id": "anuak-anywaa-communities",
+      "era_id": "anuak",
       "file": "data/eras/anuak-anywaa-communities.json",
       "field_ar": "geopolitics_ar",
       "arabic_sentence": "[يحتاج تحقق] [WORKING TRANSLATION – needs native Arabic review] ووجد تقرير طرق حكومي عام 1905 على نهر السوباط من الناصر أن البلاد «مأهولة بالنوير والأنواك مختلطين، والغلبة للنوير الذين يتركون الأنواك يعيشون على مضض» (غليشن 1905، المجلد الثاني، الطريق 138). [يحتاج تحقق]",
@@ -3455,7 +3455,7 @@
       "added": "2026-10-25"
     },
     {
-      "era_id": "anuak-anywaa-communities",
+      "era_id": "anuak",
       "file": "data/eras/anuak-anywaa-communities.json",
       "field_ar": "events[1].ar / key_events_ar[1]",
       "arabic_sentence": "",
@@ -3469,7 +3469,7 @@
       "added": "2026-10-25"
     },
     {
-      "era_id": "anuak-anywaa-communities",
+      "era_id": "anuak",
       "file": "data/era_events.json",
       "field_ar": "anuak-anywaa-communities[0].ar",
       "arabic_sentence": "[يحتاج تحقق]",
@@ -4759,7 +4759,7 @@
       "added": "2026-10-26"
     },
     {
-      "era_id": "shilluk-kingdom",
+      "era_id": "shilluk",
       "file": "data/periods.json",
       "field_ar": "periods[name=Shilluk Kingdom].key_events_ar[2]",
       "arabic_sentence": "هولت وديلي: امتد نطاقهم سابقاً حتى جزيرة أبا (منتصف القرن التاسع عشر)؛ وأغاروا على مستوطنات العرب على مجرى النيل الأبيض حتى مطلع العهد التركي المصري",
@@ -6778,7 +6778,7 @@
       "added": "2026-10-26"
     },
     {
-      "era_id": "zande-kingdoms",
+      "era_id": "azande",
       "file": "data/periods.json",
       "field_ar": "periods[name=Zande kingdoms].key_events_ar[0]",
       "arabic_sentence": "",
@@ -6791,7 +6791,7 @@
       "added": "2026-10-26"
     },
     {
-      "era_id": "zande-kingdoms",
+      "era_id": "azande",
       "file": "data/periods.json",
       "field_ar": "periods[name=Zande kingdoms].key_events_ar[1]",
       "arabic_sentence": "",
@@ -6804,7 +6804,7 @@
       "added": "2026-10-26"
     },
     {
-      "era_id": "nuer-naath-communities",
+      "era_id": "nuer",
       "file": "data/periods.json",
       "field_ar": "periods[name=Nuer (Naath) communities].key_events_ar[0]",
       "arabic_sentence": "",
@@ -10373,7 +10373,7 @@
       "note": "needs native Arabic review [يحتاج تحقق]"
     },
     {
-      "era_id": "shilluk-kingdom",
+      "era_id": "shilluk",
       "file": "db/era_people.json",
       "field_ar": "name_ar",
       "arabic_sentence": "نيكانغ [يحتاج تحقق]",
@@ -10387,7 +10387,7 @@
       "note": "needs native Arabic review [يحتاج تحقق]"
     },
     {
-      "era_id": "shilluk-kingdom",
+      "era_id": "shilluk",
       "file": "db/era_people.json",
       "field_ar": "bio_ar",
       "arabic_sentence": "المؤسس التقليدي للشلك، يؤرَّخ نحو 1490-1517؛ أول استيطان قرب ملكال. [يحتاج تحقق]",

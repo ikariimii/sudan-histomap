@@ -2420,7 +2420,7 @@
    "abandoned": null,
    "roles": [
     {
-     "era_id": "shilluk-kingdom",
+     "group_id": "shilluk",
      "role": "capital",
      "start": null,
      "end": null,
@@ -2447,7 +2447,7 @@
     "badge": "FIRST_ATTESTED",
     "source_id": "GHA6_CH14",
     "page": "366",
-    "basis": "first cited era role (capital) has no stated start; year = start bound of era shilluk-kingdom (era bound, not a dated mention)"
+    "basis": "first cited era role (capital) has no stated start; year = start bound of group shilluk (former era shilluk-kingdom) (era bound, not a dated mention)"
    },
    "map_from": {
     "year": 1490,
@@ -2941,7 +2941,7 @@
    "abandoned": null,
    "roles": [
     {
-     "era_id": "shilluk-kingdom",
+     "group_id": "shilluk",
      "role": "town",
      "start": 1490,
      "end": null,

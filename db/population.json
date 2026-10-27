@@ -1192,8 +1192,9 @@
    "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
    "badges": []
   },
-  "shilluk-kingdom": {
-   "era_id": "shilluk-kingdom",
+  "shilluk": {
+   "group_id": "shilluk",
+   "former_era_id": "shilluk-kingdom",
    "name_en": "Shilluk Kingdom",
    "start": 1490,
    "end": 1861,
@@ -1203,8 +1204,9 @@
    "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
    "badges": []
   },
-  "anuak-anywaa-communities": {
-   "era_id": "anuak-anywaa-communities",
+  "anuak": {
+   "group_id": "anuak",
+   "former_era_id": "anuak-anywaa-communities",
    "name_en": "Anuak (Anywaa) communities",
    "start": 1500,
    "end": 2026,
@@ -1214,8 +1216,9 @@
    "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
    "badges": []
   },
-  "dinka-jieng-communities": {
-   "era_id": "dinka-jieng-communities",
+  "dinka": {
+   "group_id": "dinka",
+   "former_era_id": "dinka-jieng-communities",
    "name_en": "Dinka (Jieng) communities",
    "start": 1500,
    "end": 2026,
@@ -1236,8 +1239,9 @@
    "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
    "badges": []
   },
-  "nuer-naath-communities": {
-   "era_id": "nuer-naath-communities",
+  "nuer": {
+   "group_id": "nuer",
+   "former_era_id": "nuer-naath-communities",
    "name_en": "Nuer (Naath) communities",
    "start": 1500,
    "end": 2026,
@@ -1396,8 +1400,9 @@
    "null_reason": "Sub-national polity or community; no source gives a population for this group/territory, and whole-country figures cannot be attributed to it.",
    "badges": []
   },
-  "zande-kingdoms": {
-   "era_id": "zande-kingdoms",
+  "azande": {
+   "group_id": "azande",
+   "former_era_id": "zande-kingdoms",
    "name_en": "Zande kingdoms",
    "start": 1700,
    "end": 1905,
