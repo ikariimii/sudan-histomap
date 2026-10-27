@@ -305,3 +305,8 @@ html,body{height:100dvh}#map{height:100dvh}
 #top{min-height:0;padding-inline-end:60px;background:linear-gradient(#0b151ccc,#0b151c00);-webkit-backdrop-filter:none;backdrop-filter:none}#top .tb{padding:4px 10px;background:#0f1b24d9}
 #top>b#brand{display:none}
 @media (prefers-reduced-motion:reduce){#laypan,#morem,#srch,#sheet{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+/* t224u gap 3: desktop side panel sits at the inline end (right in EN, left in AR); keep ⟲ reset + locate clear of it */
+@media (min-width:1000px){#reset,#wai{inset-inline-end:452px}}
+.uivf{width:100%;margin:0 0 6px;font-size:12px}.uivf .repb{cursor:help}
+/* t224u gap 5: phone Era button = full name on line 1, small years on line 2; ellipsis only for very long names */
+@media (max-width:640px){#erab{display:inline-grid;grid-template-columns:minmax(0,auto);align-items:start;gap:0;line-height:1.15;padding:3px 10px;max-width:none;flex:0 1 auto;min-width:0}#layb{flex:none}#erab .tbk{display:none}#erab .ern{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:14px}#erab .ery{display:block;font-size:11px;line-height:1.1;white-space:nowrap}}
