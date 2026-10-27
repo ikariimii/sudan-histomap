@@ -2248,11 +2248,27 @@
  "context": {
   "key_events_en": [
    "Transitional Military Council under General Siwar Al-Dahab",
-   "Elections 1986; Sadiq Al-Mahdi Prime Minister"
+   "Elections 1986; Sadiq Al-Mahdi Prime Minister",
+   "On 6 April 1985 officers led by Lt Gen Abd ar Rahman Siwar adh Dhahab overthrew Nimeiri. Three days later a fifteen-man Transitional Military Council was created, which suspended the constitution and dissolved the SSU.",
+   "In late April 1985 talks between the TMC and the Alliance of Professional and Trade Unions set up a civilian cabinet under Dr. Gazuli Dafalla, subordinate to the TMC.",
+   "Famine threatened vast areas of southern and western Sudan. Despite appeals to forty donor and relief agencies, the TMC could not prevent heavy loss of life.",
+   "In February 1986 the IMF declared Sudan bankrupt after the TMC refused IMF austerity measures. Sudan's international debt was about US$9 billion when Dhahab took power.",
+   "In March 1986 the government and the SPLM produced the Koka Dam Declaration, calling for a Sudan free of racism and discrimination. It demanded repeal of the sharia and a constitutional conference; the DUP and NIF did not support it.",
+   "The April 1986 general election was spread over twelve days and postponed in thirty-seven southern constituencies. The Umma won ninety-nine seats, the DUP sixty-four and the NIF fifty-one.",
+   "In November 1988 DUP leader Mirghani and the SPLM signed an agreement in Addis Ababa providing for a cease-fire, a freeze of the sharia and a constitutional conference. When the government refused to support it, the DUP left the coalition.",
+   "Army commander Lt Gen Fathi Ahmad Ali delivered an ultimatum signed by 150 senior officers demanding a more representative government and terms to end the war. Sadiq al Mahdi dissolved the government on 11 March 1989."
   ],
   "key_events_ar": [
    "المجلس العسكري الانتقالي بقيادة الفريق سوار الذهب [يحتاج تحقق]",
-   "انتخابات 1986؛ الصادق المهدي رئيسًا للوزراء [يحتاج تحقق]"
+   "انتخابات 1986؛ الصادق المهدي رئيسًا للوزراء [يحتاج تحقق]",
+   "في 6 أبريل 1985 أطاح ضباط بقيادة الفريق عبد الرحمن سوار الذهب بنميري، وتشكل بعد ثلاثة أيام مجلس عسكري انتقالي من خمسة عشر عضواً. [يحتاج تحقق]",
+   "في أواخر أبريل 1985 أسفرت مفاوضات المجلس العسكري والتجمع النقابي عن حكومة مدنية برئاسة الجزولي دفع الله. [يحتاج تحقق]",
+   "هددت المجاعة مناطق واسعة في جنوب السودان وغربه، ولم يتمكن المجلس العسكري من منع خسائر فادحة في الأرواح رغم مناشدة أربعين جهة مانحة. [يحتاج تحقق]",
+   "في فبراير 1986 أعلن صندوق النقد الدولي إفلاس السودان بعد رفض المجلس العسكري إجراءات التقشف. [يحتاج تحقق]",
+   "في مارس 1986 أصدرت الحكومة والحركة الشعبية إعلان كوكادام الداعي إلى سودان خالٍ من العنصرية وإلى إلغاء قوانين الشريعة وعقد مؤتمر دستوري. [يحتاج تحقق]",
+   "جرت انتخابات أبريل 1986 على مدى اثني عشر يوماً وأُجلت في 37 دائرة جنوبية، وفاز حزب الأمة بـ99 مقعداً والاتحادي بـ64 والجبهة الإسلامية بـ51. [يحتاج تحقق]",
+   "في نوفمبر 1988 وقّع الميرغني والحركة الشعبية اتفاقاً في أديس أبابا نص على وقف إطلاق النار وتجميد قوانين الشريعة، وانسحب الاتحادي من الائتلاف بعد رفض الحكومة له. [يحتاج تحقق]",
+   "قدم القائد العام الفريق فتحي أحمد علي مذكرة موقعة من 150 ضابطاً، فحل الصادق المهدي الحكومة في 11 مارس 1989. [يحتاج تحقق]"
   ],
   "key_events": [
    {
@@ -2288,12 +2304,152 @@
     ],
     "badges": [],
     "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "transitional-third-parliamentary-period#20",
+    "en": "On 6 April 1985 officers led by Lt Gen Abd ar Rahman Siwar adh Dhahab overthrew Nimeiri. Three days later a fifteen-man Transitional Military Council was created, which suspended the constitution and dissolved the SSU.",
+    "ar": "في 6 أبريل 1985 أطاح ضباط بقيادة الفريق عبد الرحمن سوار الذهب بنميري، وتشكل بعد ثلاثة أيام مجلس عسكري انتقالي من خمسة عشر عضواً. [يحتاج تحقق]",
+    "date": 1985,
+    "cite": [
+     {
+      "source_id": "LOC1991_TMC",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_TMC"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "transitional-third-parliamentary-period#21",
+    "en": "In late April 1985 talks between the TMC and the Alliance of Professional and Trade Unions set up a civilian cabinet under Dr. Gazuli Dafalla, subordinate to the TMC.",
+    "ar": "في أواخر أبريل 1985 أسفرت مفاوضات المجلس العسكري والتجمع النقابي عن حكومة مدنية برئاسة الجزولي دفع الله. [يحتاج تحقق]",
+    "date": 1985,
+    "cite": [
+     {
+      "source_id": "LOC1991_TMC",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_TMC"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "transitional-third-parliamentary-period#22",
+    "en": "Famine threatened vast areas of southern and western Sudan. Despite appeals to forty donor and relief agencies, the TMC could not prevent heavy loss of life.",
+    "ar": "هددت المجاعة مناطق واسعة في جنوب السودان وغربه، ولم يتمكن المجلس العسكري من منع خسائر فادحة في الأرواح رغم مناشدة أربعين جهة مانحة. [يحتاج تحقق]",
+    "date": 1985,
+    "cite": [
+     {
+      "source_id": "LOC1991_TMC",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_TMC"
+    ],
+    "badges": [
+     "SINGLE-SOURCE"
+    ],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "transitional-third-parliamentary-period#23",
+    "en": "In February 1986 the IMF declared Sudan bankrupt after the TMC refused IMF austerity measures. Sudan's international debt was about US$9 billion when Dhahab took power.",
+    "ar": "في فبراير 1986 أعلن صندوق النقد الدولي إفلاس السودان بعد رفض المجلس العسكري إجراءات التقشف. [يحتاج تحقق]",
+    "date": 1986,
+    "cite": [
+     {
+      "source_id": "LOC1991_TMC",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_TMC"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "transitional-third-parliamentary-period#24",
+    "en": "In March 1986 the government and the SPLM produced the Koka Dam Declaration, calling for a Sudan free of racism and discrimination. It demanded repeal of the sharia and a constitutional conference; the DUP and NIF did not support it.",
+    "ar": "في مارس 1986 أصدرت الحكومة والحركة الشعبية إعلان كوكادام الداعي إلى سودان خالٍ من العنصرية وإلى إلغاء قوانين الشريعة وعقد مؤتمر دستوري. [يحتاج تحقق]",
+    "date": 1986,
+    "cite": [
+     {
+      "source_id": "LOC1991_TMC",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_TMC"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "transitional-third-parliamentary-period#25",
+    "en": "The April 1986 general election was spread over twelve days and postponed in thirty-seven southern constituencies. The Umma won ninety-nine seats, the DUP sixty-four and the NIF fifty-one.",
+    "ar": "جرت انتخابات أبريل 1986 على مدى اثني عشر يوماً وأُجلت في 37 دائرة جنوبية، وفاز حزب الأمة بـ99 مقعداً والاتحادي بـ64 والجبهة الإسلامية بـ51. [يحتاج تحقق]",
+    "date": 1986,
+    "cite": [
+     {
+      "source_id": "LOC1991_TMC",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_TMC"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "transitional-third-parliamentary-period#26",
+    "en": "In November 1988 DUP leader Mirghani and the SPLM signed an agreement in Addis Ababa providing for a cease-fire, a freeze of the sharia and a constitutional conference. When the government refused to support it, the DUP left the coalition.",
+    "ar": "في نوفمبر 1988 وقّع الميرغني والحركة الشعبية اتفاقاً في أديس أبابا نص على وقف إطلاق النار وتجميد قوانين الشريعة، وانسحب الاتحادي من الائتلاف بعد رفض الحكومة له. [يحتاج تحقق]",
+    "date": 1988,
+    "cite": [
+     {
+      "source_id": "LOC1991_SADIQ",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_SADIQ"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "transitional-third-parliamentary-period#27",
+    "en": "Army commander Lt Gen Fathi Ahmad Ali delivered an ultimatum signed by 150 senior officers demanding a more representative government and terms to end the war. Sadiq al Mahdi dissolved the government on 11 March 1989.",
+    "ar": "قدم القائد العام الفريق فتحي أحمد علي مذكرة موقعة من 150 ضابطاً، فحل الصادق المهدي الحكومة في 11 مارس 1989. [يحتاج تحقق]",
+    "date": 1989,
+    "cite": [
+     {
+      "source_id": "LOC1991_SADIQ",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_SADIQ"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
    }
   ],
   "key_events_source_ids": [
    "HD2011",
    "WP:Sadiq_al-Mahdi",
-   "UNSC_S2005_60"
+   "UNSC_S2005_60",
+   "LOC1991_TMC",
+   "LOC1991_SADIQ"
   ],
   "dating_note": null,
   "capitals": [

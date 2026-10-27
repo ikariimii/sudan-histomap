@@ -2119,11 +2119,23 @@
  "context": {
   "key_events_en": [
    "Coup November 1958 (General Ibrahim Abbud)",
-   "October Revolution 1964 ends Abboud rule"
+   "October Revolution 1964 ends Abboud rule",
+   "Abbud created the Supreme Council of the Armed Forces to rule Sudan, removing decision making from civilian politicians. The council included officers affiliated with both the Ansar and the Khatmiyyah.",
+   "The regime profited from settling the Nile waters dispute with Egypt and improving relations between the two countries. It also marketed the cotton crop successfully in its first year.",
+   "In 1959 dissident officers made three attempts to topple the Abbud government. Their leaders were sentenced to life imprisonment, and the Sudanese Communist Party, which backed the attempts, gained a reputation as an effective opposition.",
+   "Abd al Wahab was removed in March 1959; until then the Ansar were the stronger group in the government. Ansar leader Abd ar Rahman al Mahdi died in early 1959.",
+   "Southern leaders renewed the armed struggle against the government in 1963. The rebellion was spearheaded by guerrilla forces known as the Anya Nya.",
+   "In February 1964 Abbud ordered the mass expulsion of foreign missionaries from the south. He then closed parliament, cutting off outlets for southern complaints."
   ],
   "key_events_ar": [
    "انقلاب نوفمبر 1958 (الفريق إبراهيم عبود) [يحتاج تحقق]",
-   "ثورة أكتوبر 1964 تنهي حكم عبود [يحتاج تحقق]"
+   "ثورة أكتوبر 1964 تنهي حكم عبود [يحتاج تحقق]",
+   "أنشأ عبود المجلس الأعلى للقوات المسلحة لحكم السودان، وضم ضباطاً من الأنصار والختمية. [يحتاج تحقق]",
+   "استفاد النظام من تسوية نزاع مياه النيل مع مصر وتحسن العلاقات بين البلدين، ومن تسويق محصول القطن بنجاح في عامه الأول. [يحتاج تحقق]",
+   "في 1959 قام ضباط منشقون بثلاث محاولات لإسقاط حكومة عبود، وحُكم على قادتها بالسجن المؤبد. [يحتاج تحقق]",
+   "أُبعد عبد الوهاب في مارس 1959، وتوفي زعيم الأنصار عبد الرحمن المهدي مطلع العام نفسه. [يحتاج تحقق]",
+   "جدد قادة الجنوب الكفاح المسلح ضد الحكومة عام 1963 بقيادة قوات الأنيانيا. [يحتاج تحقق]",
+   "في فبراير 1964 أمر عبود بطرد جماعي للمبشرين الأجانب من الجنوب، ثم أغلق البرلمان. [يحتاج تحقق]"
   ],
   "key_events": [
    {
@@ -2164,6 +2176,110 @@
     ],
     "badges": [],
     "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "abboud-military-regime#20",
+    "en": "Abbud created the Supreme Council of the Armed Forces to rule Sudan, removing decision making from civilian politicians. The council included officers affiliated with both the Ansar and the Khatmiyyah.",
+    "ar": "أنشأ عبود المجلس الأعلى للقوات المسلحة لحكم السودان، وضم ضباطاً من الأنصار والختمية. [يحتاج تحقق]",
+    "date": 1958,
+    "cite": [
+     {
+      "source_id": "LOC1991_ABBUD",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_ABBUD"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "abboud-military-regime#21",
+    "en": "The regime profited from settling the Nile waters dispute with Egypt and improving relations between the two countries. It also marketed the cotton crop successfully in its first year.",
+    "ar": "استفاد النظام من تسوية نزاع مياه النيل مع مصر وتحسن العلاقات بين البلدين، ومن تسويق محصول القطن بنجاح في عامه الأول. [يحتاج تحقق]",
+    "date": 1959,
+    "cite": [
+     {
+      "source_id": "LOC1991_ABBUD",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_ABBUD"
+    ],
+    "badges": [
+     "APPROXIMATE"
+    ],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "abboud-military-regime#22",
+    "en": "In 1959 dissident officers made three attempts to topple the Abbud government. Their leaders were sentenced to life imprisonment, and the Sudanese Communist Party, which backed the attempts, gained a reputation as an effective opposition.",
+    "ar": "في 1959 قام ضباط منشقون بثلاث محاولات لإسقاط حكومة عبود، وحُكم على قادتها بالسجن المؤبد. [يحتاج تحقق]",
+    "date": 1959,
+    "cite": [
+     {
+      "source_id": "LOC1991_ABBUD",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_ABBUD"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "abboud-military-regime#23",
+    "en": "Abd al Wahab was removed in March 1959; until then the Ansar were the stronger group in the government. Ansar leader Abd ar Rahman al Mahdi died in early 1959.",
+    "ar": "أُبعد عبد الوهاب في مارس 1959، وتوفي زعيم الأنصار عبد الرحمن المهدي مطلع العام نفسه. [يحتاج تحقق]",
+    "date": 1959,
+    "cite": [
+     {
+      "source_id": "LOC1991_ABBUD",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_ABBUD"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "abboud-military-regime#24",
+    "en": "Southern leaders renewed the armed struggle against the government in 1963. The rebellion was spearheaded by guerrilla forces known as the Anya Nya.",
+    "ar": "جدد قادة الجنوب الكفاح المسلح ضد الحكومة عام 1963 بقيادة قوات الأنيانيا. [يحتاج تحقق]",
+    "date": 1963,
+    "cite": [
+     {
+      "source_id": "LOC1991_ABBUD",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_ABBUD"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "abboud-military-regime#25",
+    "en": "In February 1964 Abbud ordered the mass expulsion of foreign missionaries from the south. He then closed parliament, cutting off outlets for southern complaints.",
+    "ar": "في فبراير 1964 أمر عبود بطرد جماعي للمبشرين الأجانب من الجنوب، ثم أغلق البرلمان. [يحتاج تحقق]",
+    "date": 1964,
+    "cite": [
+     {
+      "source_id": "LOC1991_ABBUD",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_ABBUD"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
    }
   ],
   "key_events_source_ids": [
@@ -2171,7 +2287,8 @@
    "WP:Ibrahim_Abboud",
    "WP:October_1964_Revolution",
    "UNSC_S2005_60",
-   "LOC1991_CIVIL6469"
+   "LOC1991_CIVIL6469",
+   "LOC1991_ABBUD"
   ],
   "dating_note": null,
   "capitals": [

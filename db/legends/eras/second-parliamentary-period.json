@@ -2135,11 +2135,29 @@
  "context": {
   "key_events_en": [
    "Civilian governments; First Sudanese Civil War continues",
-   "Elections 1965; Mahjub coalition government; armed rebellion in the south since 1963"
+   "Elections 1965; Mahjub coalition government; armed rebellion in the south since 1963",
+   "After the October Revolution, Sirr al Khatim al Khalifa, a nonpolitical senior civil servant, was chosen to head a transitional government. It operated under the 1956 Transitional Constitution.",
+   "The 1965 elections were inconclusive; the Umma won 75 of 158 seats and the NUP 52. The two formed a coalition in June under Muhammad Ahmad Mahjub, with Azhari as permanent president of the Supreme Commission.",
+   "The army launched a major offensive against the southern rebellion. Many southerners reported atrocities against civilians, especially at Juba and Waw, and troops burned churches and huts and destroyed crops and cattle.",
+   "Mahjub had parliament approve a decree abolishing the Sudanese Communist Party and unseating its eleven members. Sadiq al Mahdi later refused to honour a Supreme Court ruling overturning the ban.",
+   "Mahjub resigned in July 1966 after a vote of censure that split the Umma. Sadiq al Mahdi became prime minister with backing from his Umma wing and NUP allies.",
+   "In December 1966 a coup attempt by communists and a small army unit failed. The government then arrested many communists and army personnel.",
+   "In December 1967 the PDP and the NUP merged to form the Democratic Unionist Party (DUP) under Azhari. Mahjub had returned as prime minister in May 1967.",
+   "After a Supreme Court ruling backed Mahjub's dissolution of parliament, elections were held in April 1968. The DUP won 101 of 218 seats but no party held a majority, and Sadiq al Mahdi lost his own seat.",
+   "By the late 1960s the first southern war had resulted in the deaths of about 500,000 people, according to the Library of Congress study. Several hundred thousand more southerners hid in forests or fled to refugee camps in neighbouring countries."
   ],
   "key_events_ar": [
    "حكومات مدنية؛ استمرار الحرب الأهلية السودانية الأولى",
-   "انتخابات 1965 وحكومة محجوب الائتلافية؛ تمرد مسلح في الجنوب منذ 1963 [يحتاج تحقق]"
+   "انتخابات 1965 وحكومة محجوب الائتلافية؛ تمرد مسلح في الجنوب منذ 1963 [يحتاج تحقق]",
+   "بعد ثورة أكتوبر اختير سر الختم الخليفة، وهو موظف كبير غير حزبي، لرئاسة حكومة انتقالية عملت بدستور 1956 الانتقالي. [يحتاج تحقق]",
+   "جاءت انتخابات 1965 غير حاسمة؛ ففاز حزب الأمة بـ75 مقعداً من 158 والوطني الاتحادي بـ52، وشكّلا ائتلافاً برئاسة محمد أحمد محجوب. [يحتاج تحقق]",
+   "شن الجيش هجوماً كبيراً على التمرد الجنوبي، وأفاد جنوبيون كثيرون بفظائع ضد المدنيين لا سيما في جوبا وواو. [يحتاج تحقق]",
+   "أقر البرلمان بطلب من محجوب مرسوماً بحل الحزب الشيوعي السوداني وإسقاط عضوية نوابه الأحد عشر. [يحتاج تحقق]",
+   "استقال محجوب في يوليو 1966 بعد اقتراع بحجب الثقة شق حزب الأمة، وتولى الصادق المهدي رئاسة الوزراء. [يحتاج تحقق]",
+   "في ديسمبر 1966 فشلت محاولة انقلاب نفذها شيوعيون ووحدة عسكرية صغيرة. [يحتاج تحقق]",
+   "في ديسمبر 1967 اندمج حزب الشعب الديمقراطي والوطني الاتحادي في الحزب الاتحادي الديمقراطي بقيادة الأزهري. [يحتاج تحقق]",
+   "بعد أن أيدت المحكمة العليا حل البرلمان أجريت انتخابات أبريل 1968، ففاز الاتحادي الديمقراطي بـ101 من 218 مقعداً دون أغلبية، وخسر الصادق المهدي مقعده. [يحتاج تحقق]",
+   "بحلول أواخر الستينيات أسفرت الحرب الجنوبية الأولى عن مقتل نحو 500 ألف شخص وفق دراسة مكتبة الكونغرس، وفر مئات الآلاف إلى الغابات أو مخيمات اللجوء في الدول المجاورة. [يحتاج تحقق]"
   ],
   "key_events": [
    {
@@ -2170,12 +2188,171 @@
     ],
     "badges": [],
     "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "second-parliamentary-period#20",
+    "en": "After the October Revolution, Sirr al Khatim al Khalifa, a nonpolitical senior civil servant, was chosen to head a transitional government. It operated under the 1956 Transitional Constitution.",
+    "ar": "بعد ثورة أكتوبر اختير سر الختم الخليفة، وهو موظف كبير غير حزبي، لرئاسة حكومة انتقالية عملت بدستور 1956 الانتقالي. [يحتاج تحقق]",
+    "date": 1964,
+    "cite": [
+     {
+      "source_id": "LOC1991_CIVIL6469",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_CIVIL6469"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "second-parliamentary-period#21",
+    "en": "The 1965 elections were inconclusive; the Umma won 75 of 158 seats and the NUP 52. The two formed a coalition in June under Muhammad Ahmad Mahjub, with Azhari as permanent president of the Supreme Commission.",
+    "ar": "جاءت انتخابات 1965 غير حاسمة؛ ففاز حزب الأمة بـ75 مقعداً من 158 والوطني الاتحادي بـ52، وشكّلا ائتلافاً برئاسة محمد أحمد محجوب. [يحتاج تحقق]",
+    "date": 1965,
+    "cite": [
+     {
+      "source_id": "LOC1991_CIVIL6469",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_CIVIL6469"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "second-parliamentary-period#22",
+    "en": "The army launched a major offensive against the southern rebellion. Many southerners reported atrocities against civilians, especially at Juba and Waw, and troops burned churches and huts and destroyed crops and cattle.",
+    "ar": "شن الجيش هجوماً كبيراً على التمرد الجنوبي، وأفاد جنوبيون كثيرون بفظائع ضد المدنيين لا سيما في جوبا وواو. [يحتاج تحقق]",
+    "date": 1965,
+    "cite": [
+     {
+      "source_id": "LOC1991_CIVIL6469",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_CIVIL6469"
+    ],
+    "badges": [
+     "APPROXIMATE"
+    ],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "second-parliamentary-period#23",
+    "en": "Mahjub had parliament approve a decree abolishing the Sudanese Communist Party and unseating its eleven members. Sadiq al Mahdi later refused to honour a Supreme Court ruling overturning the ban.",
+    "ar": "أقر البرلمان بطلب من محجوب مرسوماً بحل الحزب الشيوعي السوداني وإسقاط عضوية نوابه الأحد عشر. [يحتاج تحقق]",
+    "date": 1965,
+    "cite": [
+     {
+      "source_id": "LOC1991_CIVIL6469",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_CIVIL6469"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "second-parliamentary-period#24",
+    "en": "Mahjub resigned in July 1966 after a vote of censure that split the Umma. Sadiq al Mahdi became prime minister with backing from his Umma wing and NUP allies.",
+    "ar": "استقال محجوب في يوليو 1966 بعد اقتراع بحجب الثقة شق حزب الأمة، وتولى الصادق المهدي رئاسة الوزراء. [يحتاج تحقق]",
+    "date": 1966,
+    "cite": [
+     {
+      "source_id": "LOC1991_CIVIL6469",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_CIVIL6469"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "second-parliamentary-period#25",
+    "en": "In December 1966 a coup attempt by communists and a small army unit failed. The government then arrested many communists and army personnel.",
+    "ar": "في ديسمبر 1966 فشلت محاولة انقلاب نفذها شيوعيون ووحدة عسكرية صغيرة. [يحتاج تحقق]",
+    "date": 1966,
+    "cite": [
+     {
+      "source_id": "LOC1991_CIVIL6469",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_CIVIL6469"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "second-parliamentary-period#26",
+    "en": "In December 1967 the PDP and the NUP merged to form the Democratic Unionist Party (DUP) under Azhari. Mahjub had returned as prime minister in May 1967.",
+    "ar": "في ديسمبر 1967 اندمج حزب الشعب الديمقراطي والوطني الاتحادي في الحزب الاتحادي الديمقراطي بقيادة الأزهري. [يحتاج تحقق]",
+    "date": 1967,
+    "cite": [
+     {
+      "source_id": "LOC1991_CIVIL6469",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_CIVIL6469"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "second-parliamentary-period#27",
+    "en": "After a Supreme Court ruling backed Mahjub's dissolution of parliament, elections were held in April 1968. The DUP won 101 of 218 seats but no party held a majority, and Sadiq al Mahdi lost his own seat.",
+    "ar": "بعد أن أيدت المحكمة العليا حل البرلمان أجريت انتخابات أبريل 1968، ففاز الاتحادي الديمقراطي بـ101 من 218 مقعداً دون أغلبية، وخسر الصادق المهدي مقعده. [يحتاج تحقق]",
+    "date": 1968,
+    "cite": [
+     {
+      "source_id": "LOC1991_CIVIL6469",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_CIVIL6469"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "second-parliamentary-period#28",
+    "en": "By the late 1960s the first southern war had resulted in the deaths of about 500,000 people, according to the Library of Congress study. Several hundred thousand more southerners hid in forests or fled to refugee camps in neighbouring countries.",
+    "ar": "بحلول أواخر الستينيات أسفرت الحرب الجنوبية الأولى عن مقتل نحو 500 ألف شخص وفق دراسة مكتبة الكونغرس، وفر مئات الآلاف إلى الغابات أو مخيمات اللجوء في الدول المجاورة. [يحتاج تحقق]",
+    "date": 1969,
+    "cite": [
+     {
+      "source_id": "LOC1991_SOUTH",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_SOUTH"
+    ],
+    "badges": [
+     "APPROXIMATE"
+    ],
+    "origin": "db/era_events_post1956.json"
    }
   ],
   "key_events_source_ids": [
    "HD2011",
    "WP:History_of_Sudan_(1956–1969)",
-   "UNSC_S2005_60"
+   "UNSC_S2005_60",
+   "LOC1991_CIVIL6469",
+   "LOC1991_SOUTH"
   ],
   "dating_note": null,
   "capitals": [

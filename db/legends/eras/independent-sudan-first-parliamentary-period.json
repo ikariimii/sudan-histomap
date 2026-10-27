@@ -2102,11 +2102,23 @@
  "context": {
   "key_events_en": [
    "Independence 1 January 1956",
-   "Azhari government brought down by the Umma and PDP in parliament; Abdallah Khalil then forms a coalition government"
+   "Azhari government brought down by the Umma and PDP in parliament; Abdallah Khalil then forms a coalition government",
+   "Sudan reached independence without an agreed permanent constitution. The Constituent Assembly adopted a Transitional Constitution, replacing the governor general as head of state with a five-member Supreme Commission.",
+   "In June 1956 Khatmiyyah members who had left the NUP founded the People's Democratic Party (PDP) under Mirghani's leadership. The PDP later combined with the Umma in parliament to bring down Azhari's government.",
+   "In March 1958 Prime Minister Abd Allah Khalil signed a technical assistance agreement with the United States. The NUP tried to use the pact to defeat the coalition, but parliament approved it with Umma, some PDP and southern votes.",
+   "The 1958 elections gave the Umma a plurality in both houses and the Umma-PDP coalition an overall majority. In the south, voters backed advocates of autonomy within a federal system.",
+   "A poor cotton harvest after the 1957 bumper crop depleted reserves, and import restrictions plus an Egyptian embargo on Sudanese cattle, camels and dates hit town and country. Growing discontent brought many antigovernment demonstrations in Khartoum.",
+   "On 17 November 1958, the day parliament was to convene, a military coup took place. Khalil planned it with Umma leaders and generals Ibrahim Abbud and Ahmad Abd al Wahab, who became leaders of the military regime."
   ],
   "key_events_ar": [
    "الاستقلال 1 يناير 1956 [يحتاج تحقق]",
-   "رئيس الوزراء إسماعيل الأزهري ثم عبد الله خليل"
+   "رئيس الوزراء إسماعيل الأزهري ثم عبد الله خليل",
+   "نال السودان استقلاله دون اتفاق على دستور دائم. واعتمدت الجمعية التأسيسية دستوراً انتقالياً استُبدل بموجبه الحاكم العام بمجلس سيادة من خمسة أعضاء. [يحتاج تحقق]",
+   "في يونيو 1956 أسس أعضاء من الختمية انشقوا عن الحزب الوطني الاتحادي حزب الشعب الديمقراطي بقيادة الميرغني، ثم تحالف مع حزب الأمة في البرلمان لإسقاط حكومة الأزهري. [يحتاج تحقق]",
+   "في مارس 1958 وقّع رئيس الوزراء عبد الله خليل اتفاقية مساعدة فنية مع الولايات المتحدة، وأقرها البرلمان رغم معارضة الاتحاديين وبعض نواب حزب الشعب. [يحتاج تحقق]",
+   "منحت انتخابات 1958 حزب الأمة أكثرية في المجلسين وتحالف الأمة والشعب أغلبية إجمالية، بينما صوّت الجنوب لصالح دعاة الحكم الذاتي في إطار فيدرالي. [يحتاج تحقق]",
+   "أدى ضعف محصول القطن بعد موسم 1957 الوفير إلى استنزاف الاحتياطيات، وزادت قيود الاستيراد والحظر المصري على الماشية والإبل والتمور السودانية من السخط، فخرجت مظاهرات عديدة مناهضة للحكومة في الخرطوم. [يحتاج تحقق]",
+   "في 17 نوفمبر 1958، يوم انعقاد البرلمان، وقع انقلاب عسكري خطط له عبد الله خليل مع قادة من حزب الأمة والفريقين إبراهيم عبود وأحمد عبد الوهاب. [يحتاج تحقق]"
   ],
   "key_events": [
    {
@@ -2137,12 +2149,115 @@
     ],
     "badges": [],
     "origin": "data/periods.json"
+   },
+   {
+    "event_id": "independent-sudan-first-parliamentary-period#20",
+    "en": "Sudan reached independence without an agreed permanent constitution. The Constituent Assembly adopted a Transitional Constitution, replacing the governor general as head of state with a five-member Supreme Commission.",
+    "ar": "نال السودان استقلاله دون اتفاق على دستور دائم. واعتمدت الجمعية التأسيسية دستوراً انتقالياً استُبدل بموجبه الحاكم العام بمجلس سيادة من خمسة أعضاء. [يحتاج تحقق]",
+    "date": 1956,
+    "cite": [
+     {
+      "source_id": "LOC1991_INDSUDAN",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_INDSUDAN"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "independent-sudan-first-parliamentary-period#21",
+    "en": "In June 1956 Khatmiyyah members who had left the NUP founded the People's Democratic Party (PDP) under Mirghani's leadership. The PDP later combined with the Umma in parliament to bring down Azhari's government.",
+    "ar": "في يونيو 1956 أسس أعضاء من الختمية انشقوا عن الحزب الوطني الاتحادي حزب الشعب الديمقراطي بقيادة الميرغني، ثم تحالف مع حزب الأمة في البرلمان لإسقاط حكومة الأزهري. [يحتاج تحقق]",
+    "date": 1956,
+    "cite": [
+     {
+      "source_id": "LOC1991_INDSUDAN",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_INDSUDAN"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "independent-sudan-first-parliamentary-period#22",
+    "en": "In March 1958 Prime Minister Abd Allah Khalil signed a technical assistance agreement with the United States. The NUP tried to use the pact to defeat the coalition, but parliament approved it with Umma, some PDP and southern votes.",
+    "ar": "في مارس 1958 وقّع رئيس الوزراء عبد الله خليل اتفاقية مساعدة فنية مع الولايات المتحدة، وأقرها البرلمان رغم معارضة الاتحاديين وبعض نواب حزب الشعب. [يحتاج تحقق]",
+    "date": 1958,
+    "cite": [
+     {
+      "source_id": "LOC1991_INDSUDAN",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_INDSUDAN"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "independent-sudan-first-parliamentary-period#23",
+    "en": "The 1958 elections gave the Umma a plurality in both houses and the Umma-PDP coalition an overall majority. In the south, voters backed advocates of autonomy within a federal system.",
+    "ar": "منحت انتخابات 1958 حزب الأمة أكثرية في المجلسين وتحالف الأمة والشعب أغلبية إجمالية، بينما صوّت الجنوب لصالح دعاة الحكم الذاتي في إطار فيدرالي. [يحتاج تحقق]",
+    "date": 1958,
+    "cite": [
+     {
+      "source_id": "LOC1991_INDSUDAN",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_INDSUDAN"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "independent-sudan-first-parliamentary-period#24",
+    "en": "A poor cotton harvest after the 1957 bumper crop depleted reserves, and import restrictions plus an Egyptian embargo on Sudanese cattle, camels and dates hit town and country. Growing discontent brought many antigovernment demonstrations in Khartoum.",
+    "ar": "أدى ضعف محصول القطن بعد موسم 1957 الوفير إلى استنزاف الاحتياطيات، وزادت قيود الاستيراد والحظر المصري على الماشية والإبل والتمور السودانية من السخط، فخرجت مظاهرات عديدة مناهضة للحكومة في الخرطوم. [يحتاج تحقق]",
+    "date": 1958,
+    "cite": [
+     {
+      "source_id": "LOC1991_INDSUDAN",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_INDSUDAN"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "independent-sudan-first-parliamentary-period#25",
+    "en": "On 17 November 1958, the day parliament was to convene, a military coup took place. Khalil planned it with Umma leaders and generals Ibrahim Abbud and Ahmad Abd al Wahab, who became leaders of the military regime.",
+    "ar": "في 17 نوفمبر 1958، يوم انعقاد البرلمان، وقع انقلاب عسكري خطط له عبد الله خليل مع قادة من حزب الأمة والفريقين إبراهيم عبود وأحمد عبد الوهاب. [يحتاج تحقق]",
+    "date": 1958,
+    "cite": [
+     {
+      "source_id": "LOC1991_INDSUDAN",
+      "pages": "HTML page, no page numbers"
+     }
+    ],
+    "source_ids": [
+     "LOC1991_INDSUDAN"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
    }
   ],
   "key_events_source_ids": [
    "HD2011",
    "WP:History_of_Sudan_(1956–1969)",
-   "UNSC_S2005_60"
+   "UNSC_S2005_60",
+   "LOC1991_INDSUDAN"
   ],
   "dating_note": null,
   "capitals": [

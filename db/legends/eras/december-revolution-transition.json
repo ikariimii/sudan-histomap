@@ -2588,7 +2588,9 @@
    "Military coup 25 Oct 2021",
    "Constitutional Document signed 17 August 2019",
    "UNITAMS created by UNSC res. 2524, 3 June 2020",
-   "Juba Peace Agreement signed 3 October 2020 (Government, SRF, SLM-MM)"
+   "Juba Peace Agreement signed 3 October 2020 (Government, SRF, SLM-MM)",
+   "Resolution 2559 ended the mandate of the AU-UN hybrid operation in Darfur (UNAMID) as of 31 December 2020. Withdrawal of its personnel was to be completed by 30 June 2021.",
+   "On 21 February 2021 the Central Bank of Sudan instructed banks to unify the official and parallel exchange rates. Al Jazeera reported the step was expected to sharply devalue the Sudanese pound. (AJA_FLOAT2021 web article (Arabic))"
   ],
   "key_events_ar": [
    "ثورة ديسمبر 2018 [يحتاج تحقق]",
@@ -2596,7 +2598,9 @@
    "الانقلاب العسكري 25 أكتوبر 2021",
    "توقيع الوثيقة الدستورية 17 أغسطس 2019 [يحتاج تحقق]",
    "إنشاء بعثة يونيتامس بقرار مجلس الأمن 2524، 3 يونيو 2020 [يحتاج تحقق]",
-   "توقيع اتفاق جوبا للسلام في 3 أكتوبر 2020 (الحكومة، الجبهة الثورية، حركة تحرير السودان-مني مناوي) [يحتاج تحقق]"
+   "توقيع اتفاق جوبا للسلام في 3 أكتوبر 2020 (الحكومة، الجبهة الثورية، حركة تحرير السودان-مني مناوي) [يحتاج تحقق]",
+   "أنهى القرار 2559 ولاية العملية المختلطة في دارفور (يوناميد) اعتباراً من 31 ديسمبر 2020، على أن يكتمل الانسحاب بحلول 30 يونيو 2021. [يحتاج تحقق]",
+   "في 21 فبراير 2021 وجّه بنك السودان المركزي المصارف بتوحيد سعري الصرف الرسمي والموازي. [يحتاج تحقق]"
   ],
   "key_events": [
    {
@@ -2696,6 +2700,42 @@
     ],
     "badges": [],
     "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "december-revolution-transition#20",
+    "en": "Resolution 2559 ended the mandate of the AU-UN hybrid operation in Darfur (UNAMID) as of 31 December 2020. Withdrawal of its personnel was to be completed by 30 June 2021.",
+    "ar": "أنهى القرار 2559 ولاية العملية المختلطة في دارفور (يوناميد) اعتباراً من 31 ديسمبر 2020، على أن يكتمل الانسحاب بحلول 30 يونيو 2021. [يحتاج تحقق]",
+    "date": 2020,
+    "cite": [
+     {
+      "source_id": "UNSC2559",
+      "pages": "PDF p.2, op.1-2"
+     }
+    ],
+    "source_ids": [
+     "UNSC2559"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "december-revolution-transition#21",
+    "en": "On 21 February 2021 the Central Bank of Sudan instructed banks to unify the official and parallel exchange rates. Al Jazeera reported the step was expected to sharply devalue the Sudanese pound. (AJA_FLOAT2021 web article (Arabic))",
+    "ar": "في 21 فبراير 2021 وجّه بنك السودان المركزي المصارف بتوحيد سعري الصرف الرسمي والموازي. [يحتاج تحقق]",
+    "date": 2021,
+    "cite": [
+     {
+      "source_id": "AJA_FLOAT2021",
+      "pages": "web article (Arabic)"
+     }
+    ],
+    "source_ids": [
+     "AJA_FLOAT2021"
+    ],
+    "badges": [
+     "SINGLE-SOURCE"
+    ],
+    "origin": "db/era_events_post1956.json"
    }
   ],
   "key_events_source_ids": [
@@ -2705,7 +2745,8 @@
    "WP:Sudanese_revolution",
    "WP:2021_Sudanese_coup_d'état",
    "UNPOE_S2024_65",
-   "UNSC2559"
+   "UNSC2559",
+   "AJA_FLOAT2021"
   ],
   "dating_note": null,
   "capitals": [

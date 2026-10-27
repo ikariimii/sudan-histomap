@@ -111,6 +111,40 @@
       "GHA7_CH4"
      ],
      "legend_id": "extent:mahdist-uprising:ctl-mah-khartoum-1885"
+    },
+    {
+     "feature_index": 6,
+     "id": "hass1884-mahdi-west",
+     "label_en": "Mahdi insurrection area, Feb 1884 (west (Kordofan / southern Darfur)), traced from Hassenstein 1884",
+     "symbol_class": "control_extent_approx",
+     "certainty": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "start": 1884,
+     "end": 1884,
+     "source_ids": [
+      "HASSENSTEIN1884"
+     ],
+     "legend_id": "extent:mahdist-uprising:hass1884-mahdi-west"
+    },
+    {
+     "feature_index": 7,
+     "id": "hass1884-mahdi-east",
+     "label_en": "Mahdi insurrection area, Feb 1884 (east (Berber–Suakin hinterland)), traced from Hassenstein 1884",
+     "symbol_class": "control_extent_approx",
+     "certainty": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "start": 1884,
+     "end": 1884,
+     "source_ids": [
+      "HASSENSTEIN1884"
+     ],
+     "legend_id": "extent:mahdist-uprising:hass1884-mahdi-east"
     }
    ],
    "borders_legend": [
@@ -1891,7 +1925,8 @@
   "city_port",
   "city_religious",
   "city_town",
-  "contested_point"
+  "contested_point",
+  "control_extent_approx"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1910,10 +1945,11 @@
   "city_religious": 5,
   "city_town": 4,
   "contested_point": 6,
-  "extent_features": 6,
+  "extent_features": 8,
   "group_features": 0,
   "cities": 37,
-  "battles": 7
+  "battles": 7,
+  "control_extent_approx": 2
  },
  "legend_rows": [
   {
@@ -1921,6 +1957,12 @@
    "layer": "extents",
    "symbol_class": "contested_point",
    "n": 6
+  },
+  {
+   "row_id": "extents:control_extent_approx",
+   "layer": "extents",
+   "symbol_class": "control_extent_approx",
+   "n": 2
   },
   {
    "row_id": "cities:city_other",
@@ -2059,6 +2101,8 @@
     "Aba Island: first Mahdist victory",
     "Eastern Sudan under Uthman Digna (Suakin excluded)",
     "Khartoum taken by the Mahdists",
+    "Mahdi insurrection area, Feb 1884 (east (Berber–Suakin hinterland)), traced from Hassenstein 1884",
+    "Mahdi insurrection area, Feb 1884 (west (Kordofan / southern Darfur)), traced from Hassenstein 1884",
     "Mahdist control of the Kordofan towns (El Obeid)",
     "Mahdist rule in Darfur and Bahr al-Ghazal (Deim Zubeir as locator)",
     "Shaykan victory"

@@ -62,6 +62,159 @@
       "HD2011"
      ],
      "legend_id": "extent:turkiyya-ottoman-egyptian-rule:idx2"
+    },
+    {
+     "feature_index": 3,
+     "id": null,
+     "label_en": "Berber (Turco-Egyptian town; reference marker, not a border)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "start": 1821,
+     "end": 1885,
+     "source_ids": [
+      "GHA6_CH14"
+     ],
+     "legend_id": "extent:turkiyya-ottoman-egyptian-rule:idx3"
+    },
+    {
+     "feature_index": 4,
+     "id": null,
+     "label_en": "Shendi (Turco-Egyptian town; reference marker, not a border)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "start": 1822,
+     "end": 1885,
+     "source_ids": [
+      "GHA6_CH14"
+     ],
+     "legend_id": "extent:turkiyya-ottoman-egyptian-rule:idx4"
+    },
+    {
+     "feature_index": 5,
+     "id": null,
+     "label_en": "Khartoum (Turco-Egyptian capital; reference marker, not a border)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "start": 1821,
+     "end": 1885,
+     "source_ids": [
+      "GHA6_CH14"
+     ],
+     "legend_id": "extent:turkiyya-ottoman-egyptian-rule:idx5"
+    },
+    {
+     "feature_index": 6,
+     "id": null,
+     "label_en": "El Obeid (Turco-Egyptian capital; reference marker, not a border)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "start": 1821,
+     "end": 1885,
+     "source_ids": [
+      "GHA6_CH14"
+     ],
+     "legend_id": "extent:turkiyya-ottoman-egyptian-rule:idx6"
+    },
+    {
+     "feature_index": 7,
+     "id": null,
+     "label_en": "Wad Madani (Turco-Egyptian garrison; reference marker, not a border)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "start": 1821,
+     "end": 1885,
+     "source_ids": [
+      "GHA6_CH14"
+     ],
+     "legend_id": "extent:turkiyya-ottoman-egyptian-rule:idx7"
+    },
+    {
+     "feature_index": 8,
+     "id": null,
+     "label_en": "Kassala (Turco-Egyptian garrison; reference marker, not a border)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "start": 1821,
+     "end": 1885,
+     "source_ids": [
+      "GHA6_CH14"
+     ],
+     "legend_id": "extent:turkiyya-ottoman-egyptian-rule:idx8"
+    },
+    {
+     "feature_index": 9,
+     "id": null,
+     "label_en": "Bor (Turco-Egyptian garrison; reference marker, not a border)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "start": 1821,
+     "end": 1885,
+     "source_ids": [
+      "GHA6_CH14"
+     ],
+     "legend_id": "extent:turkiyya-ottoman-egyptian-rule:idx9"
+    },
+    {
+     "feature_index": 10,
+     "id": null,
+     "label_en": "Gondokoro (Turco-Egyptian garrison; reference marker, not a border)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "start": 1874,
+     "end": 1885,
+     "source_ids": [
+      "GHA6_CH14"
+     ],
+     "legend_id": "extent:turkiyya-ottoman-egyptian-rule:idx10"
+    },
+    {
+     "feature_index": 11,
+     "id": null,
+     "label_en": "Lado (Turco-Egyptian garrison; reference marker, not a border)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "start": 1876,
+     "end": 1885,
+     "source_ids": [
+      "GHA6_CH14"
+     ],
+     "legend_id": "extent:turkiyya-ottoman-egyptian-rule:idx11"
     }
    ],
    "borders_legend": [
@@ -72,6 +225,10 @@
     {
      "badge": "DERIVED",
      "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "VERIFY",
+     "legend_en": "Needs verification"
     }
    ]
   },
@@ -2021,10 +2178,10 @@
   "control_extent_approx": 2,
   "economy_editorial_marker": 1,
   "economy_mixed": 1,
-  "extent_label_point": 1,
+  "extent_label_point": 10,
   "relation_arrow_alliance": 1,
   "relation_arrow_conflict": 3,
-  "extent_features": 3,
+  "extent_features": 12,
   "group_features": 4,
   "cities": 38,
   "battles": 7
@@ -2040,7 +2197,7 @@
    "row_id": "extents:extent_label_point",
    "layer": "extents",
    "symbol_class": "extent_label_point",
-   "n": 1
+   "n": 10
   },
   {
    "row_id": "groups:relation_arrow_conflict",
@@ -2125,12 +2282,16 @@
   "key_events_en": [
    "Invasion by Muhammad Ali's forces 1820–21",
    "Governor-general based at the newly founded town of Khartoum",
-   "Slave and ivory trade expansion"
+   "Slave and ivory trade expansion",
+   "Reth Kwatker expels Arab traders from the Shilluk kingdom in 1860; Muhammad al-Khayr attacks the Shilluk and the royal capital Fashoda is destroyed",
+   "Zande chief Ndoruma captures Abu Kurun's zeriba; in 1870 he defeats a 2,000-strong force and kills Abu Kurun"
   ],
   "key_events_ar": [
    "غزو قوات محمد علي 1820–1821",
    "تأسيس الخرطوم عاصمةً نحو 1824",
-   "توسع تجارة الرقيق والعاج"
+   "توسع تجارة الرقيق والعاج",
+   null,
+   null
   ],
   "key_events": [
    {
@@ -2161,6 +2322,30 @@
     "event_id": "turkiyya-ottoman-egyptian-rule#2",
     "en": "Slave and ivory trade expansion",
     "ar": "توسع تجارة الرقيق والعاج",
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "WP:Turco-Egyptian_Sudan"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "turkiyya-ottoman-egyptian-rule#3",
+    "en": "Reth Kwatker expels Arab traders from the Shilluk kingdom in 1860; Muhammad al-Khayr attacks the Shilluk and the royal capital Fashoda is destroyed",
+    "ar": null,
+    "cite": null,
+    "source_ids": [
+     "HD2011",
+     "WP:Turco-Egyptian_Sudan"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "turkiyya-ottoman-egyptian-rule#4",
+    "en": "Zande chief Ndoruma captures Abu Kurun's zeriba; in 1870 he defeats a 2,000-strong force and kills Abu Kurun",
+    "ar": null,
     "cite": null,
     "source_ids": [
      "HD2011",
@@ -2217,9 +2402,18 @@
    "previous_era_id": "hamaj-regency-funj-sultanate",
    "basis": "previous era in same stream by start year",
    "extents_added": [
+    "Berber (Turco-Egyptian town; reference marker, not a border)",
+    "Bor (Turco-Egyptian garrison; reference marker, not a border)",
+    "El Obeid (Turco-Egyptian capital; reference marker, not a border)",
+    "Gondokoro (Turco-Egyptian garrison; reference marker, not a border)",
+    "Kassala (Turco-Egyptian garrison; reference marker, not a border)",
+    "Khartoum (Turco-Egyptian capital; reference marker, not a border)",
+    "Lado (Turco-Egyptian garrison; reference marker, not a border)",
     "Selima Oasis (route point, not a border)",
+    "Shendi (Turco-Egyptian town; reference marker, not a border)",
     "Turco-Egyptian Sudan with Darfur, 1874 onward – shape uses modern (2020) state boundaries for Darfur, not historical ones",
-    "Turco-Egyptian Sudan without Darfur (Keira-held until 1874, GHA6_CH14) – shape uses modern (2020) state boundaries for Darfur, not historical ones"
+    "Turco-Egyptian Sudan without Darfur (Keira-held until 1874, GHA6_CH14) – shape uses modern (2020) state boundaries for Darfur, not historical ones",
+    "Wad Madani (Turco-Egyptian garrison; reference marker, not a border)"
    ],
    "extents_removed": [
     "Kordofan (contested with Darfur)",

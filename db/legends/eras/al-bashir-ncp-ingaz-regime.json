@@ -2699,14 +2699,24 @@
    "Darfur conflict: incidents from February 2003; ICC arrest warrant for President al-Bashir, 4 March 2009",
    "Comprehensive Peace Agreement 2005 (CPA_2005 cover letter p.1)",
    "Republic of South Sudan established 9 July 2011 (UNSC1996 p.1)",
-   "Sudan–South Sudan Cooperation Agreements signed 27 September 2012 in Addis Ababa"
+   "Sudan–South Sudan Cooperation Agreements signed 27 September 2012 in Addis Ababa",
+   "On 24 March 2005 the Security Council welcomed the Comprehensive Peace Agreement and established the UN Mission in Sudan (UNMIS). It was authorized with up to 10,000 military personnel.",
+   "On 27 June 2011 the Security Council created the UN Interim Security Force for Abyei (UNISFA). It followed the 20 June 2011 Addis Ababa agreement on temporary arrangements for the Abyei Area.",
+   "After South Sudan's secession, fighting between the Sudanese armed forces and SPLM/North continued in Southern Kordofan and Blue Nile. The UN reported refugees arriving daily from Southern Kordofan into South Sudan.",
+   "On 12 April 2012 the Security Council expressed alarm at the seizure of Heglig and its oil fields in Sudan by the SPLA. It demanded SPLA withdrawal and an end to SAF aerial bombardments.",
+   "Resolution 2046 ordered Sudan and South Sudan to cease all hostilities immediately, including aerial bombardments. It required them to resume AUHIP-led negotiations within two weeks."
   ],
   "key_events_ar": [
    "انقلاب 30 يونيو 1989",
    "نزاع دارفور منذ فبراير 2003؛ مذكرة توقيف من المحكمة الجنائية الدولية بحق البشير 4 مارس 2009 [يحتاج تحقق]",
    "اتفاقية السلام الشامل 2005 (CPA_2005 cover letter p.1)",
    "انفصال جنوب السودان 9 يوليو 2011 (UNSC1996 p.1)",
-   "توقيع اتفاقيات التعاون بين السودان وجنوب السودان في 27 سبتمبر 2012 بأديس أبابا [يحتاج تحقق]"
+   "توقيع اتفاقيات التعاون بين السودان وجنوب السودان في 27 سبتمبر 2012 بأديس أبابا [يحتاج تحقق]",
+   "في 24 مارس 2005 رحب مجلس الأمن باتفاق السلام الشامل وأنشأ بعثة الأمم المتحدة في السودان (يونميس). [يحتاج تحقق]",
+   "في 27 يونيو 2011 أنشأ مجلس الأمن قوة الأمم المتحدة الأمنية المؤقتة لأبيي (يونيسفا) عقب اتفاق أديس أبابا في 20 يونيو 2011. [يحتاج تحقق]",
+   "بعد انفصال جنوب السودان استمر القتال بين القوات المسلحة والحركة الشعبية-شمال في جنوب كردفان والنيل الأزرق، وأفادت الأمم المتحدة بتدفق لاجئين يومياً. [يحتاج تحقق]",
+   "في 12 أبريل 2012 أعرب مجلس الأمن عن قلقه من استيلاء الجيش الشعبي على هجليج وحقولها النفطية، وطالب بانسحابه ووقف القصف الجوي. [يحتاج تحقق]",
+   "ألزم القرار 2046 السودان وجنوب السودان بوقف جميع الأعمال العدائية فوراً واستئناف المفاوضات برعاية الآلية الأفريقية خلال أسبوعين. [يحتاج تحقق]"
   ],
   "key_events": [
    {
@@ -2795,6 +2805,93 @@
     ],
     "badges": [],
     "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "al-bashir-ncp-ingaz-regime#20",
+    "en": "On 24 March 2005 the Security Council welcomed the Comprehensive Peace Agreement and established the UN Mission in Sudan (UNMIS). It was authorized with up to 10,000 military personnel.",
+    "ar": "في 24 مارس 2005 رحب مجلس الأمن باتفاق السلام الشامل وأنشأ بعثة الأمم المتحدة في السودان (يونميس). [يحتاج تحقق]",
+    "date": 2005,
+    "cite": [
+     {
+      "source_id": "UNSC1590",
+      "pages": "p.2, op.1"
+     }
+    ],
+    "source_ids": [
+     "UNSC1590"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "al-bashir-ncp-ingaz-regime#21",
+    "en": "On 27 June 2011 the Security Council created the UN Interim Security Force for Abyei (UNISFA). It followed the 20 June 2011 Addis Ababa agreement on temporary arrangements for the Abyei Area.",
+    "ar": "في 27 يونيو 2011 أنشأ مجلس الأمن قوة الأمم المتحدة الأمنية المؤقتة لأبيي (يونيسفا) عقب اتفاق أديس أبابا في 20 يونيو 2011. [يحتاج تحقق]",
+    "date": 2011,
+    "cite": [
+     {
+      "source_id": "UNSC1990",
+      "pages": "p.2, op.1"
+     }
+    ],
+    "source_ids": [
+     "UNSC1990"
+    ],
+    "badges": [
+     "CONTESTED"
+    ],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "al-bashir-ncp-ingaz-regime#22",
+    "en": "After South Sudan's secession, fighting between the Sudanese armed forces and SPLM/North continued in Southern Kordofan and Blue Nile. The UN reported refugees arriving daily from Southern Kordofan into South Sudan.",
+    "ar": "بعد انفصال جنوب السودان استمر القتال بين القوات المسلحة والحركة الشعبية-شمال في جنوب كردفان والنيل الأزرق، وأفادت الأمم المتحدة بتدفق لاجئين يومياً. [يحتاج تحقق]",
+    "date": 2011,
+    "cite": [
+     {
+      "source_id": "UNSG_S2012_877",
+      "pages": "PDF p.10-11, paras 41, 46"
+     }
+    ],
+    "source_ids": [
+     "UNSG_S2012_877"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "al-bashir-ncp-ingaz-regime#23",
+    "en": "On 12 April 2012 the Security Council expressed alarm at the seizure of Heglig and its oil fields in Sudan by the SPLA. It demanded SPLA withdrawal and an end to SAF aerial bombardments.",
+    "ar": "في 12 أبريل 2012 أعرب مجلس الأمن عن قلقه من استيلاء الجيش الشعبي على هجليج وحقولها النفطية، وطالب بانسحابه ووقف القصف الجوي. [يحتاج تحقق]",
+    "date": 2012,
+    "cite": [
+     {
+      "source_id": "UNSC_PRST_2012_12",
+      "pages": "p.1"
+     }
+    ],
+    "source_ids": [
+     "UNSC_PRST_2012_12"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
+   },
+   {
+    "event_id": "al-bashir-ncp-ingaz-regime#24",
+    "en": "Resolution 2046 ordered Sudan and South Sudan to cease all hostilities immediately, including aerial bombardments. It required them to resume AUHIP-led negotiations within two weeks.",
+    "ar": "ألزم القرار 2046 السودان وجنوب السودان بوقف جميع الأعمال العدائية فوراً واستئناف المفاوضات برعاية الآلية الأفريقية خلال أسبوعين. [يحتاج تحقق]",
+    "date": 2012,
+    "cite": [
+     {
+      "source_id": "UNSC2046",
+      "pages": "PDF p.3, op.1"
+     }
+    ],
+    "source_ids": [
+     "UNSC2046"
+    ],
+    "badges": [],
+    "origin": "db/era_events_post1956.json"
    }
   ],
   "key_events_source_ids": [
@@ -2804,7 +2901,12 @@
    "UNSC1996",
    "UNSC_S2005_60",
    "UN_NEWS_2009_292942",
-   "UNSC2075"
+   "UNSC2075",
+   "UNSC1590",
+   "UNSC1990",
+   "UNSG_S2012_877",
+   "UNSC_PRST_2012_12",
+   "UNSC2046"
   ],
   "dating_note": "Holt & Daly 6th ed. (2011) covers to c.2010; the 9 July 2011 secession is cited to UNSC1996.",
   "capitals": [
