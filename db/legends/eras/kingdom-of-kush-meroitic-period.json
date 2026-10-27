@@ -1191,7 +1191,7 @@
    "RUIN-UNDATED"
   ],
   "what_changed": {
-   "previous_era_id": "kingdom-of-kush-napatan-period",
+   "previous_era_id": "kushite-25th-dynasty-in-egypt",
    "basis": "previous era in same stream by start year",
    "extents_added": [
     "Dakka (reference marker)",
@@ -1202,16 +1202,22 @@
    ],
    "extents_removed": [
     "Elephantine (find-spot, not a border)",
-    "Kush after Psamtik II: south of the Second Cataract – strip width along the Nile is a display choice, not a sourced boundary",
-    "Kush, 25th Dynasty maximum: Delta to the confluence of the Niles – strip width along the Nile is a display choice, not a sourced boundary"
+    "Memphis (reference marker, not a border)",
+    "Napata (reference marker, not a border)",
+    "Thebes (reference marker, not a border)"
    ],
    "cities_added": [
     "adulis",
     "aksum",
+    "alexandria",
     "ballana",
+    "meroe",
+    "musawwarat",
     "naqa",
     "philae",
-    "qasr-ibrim"
+    "qasr-ibrim",
+    "thebes",
+    "wad-ban-naqa"
    ],
    "cities_removed": [
     "el-kurru",
@@ -1219,7 +1225,9 @@
     "nuri"
    ],
    "capitals_added": [
-    "aksum"
+    "aksum",
+    "alexandria",
+    "meroe"
    ],
    "capitals_removed": [
     "napata"

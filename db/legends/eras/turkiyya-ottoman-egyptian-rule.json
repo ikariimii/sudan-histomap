@@ -1986,7 +1986,7 @@
    "SINGLE-SOURCE"
   ],
   "what_changed": {
-   "previous_era_id": "funj-sultanate-of-sennar",
+   "previous_era_id": "hamaj-regency-funj-sultanate",
    "basis": "previous era in same stream by start year",
    "extents_added": [
     "Selima Oasis (route point, not a border)",
@@ -1994,9 +1994,6 @@
     "Turco-Egyptian Sudan without Darfur (Keira-held until 1874, GHA6_CH14) – shape uses modern (2020) state boundaries for Darfur, not historical ones"
    ],
    "extents_removed": [
-    "Fazughli (probable southern limit, early 17th c.)",
-    "Funj Sultanate of Sennar – claimed zone (draft)",
-    "Funj Sultanate of Sennar – core zone (draft)",
     "Kordofan (contested with Darfur)",
     "Old Dongola (northern reach)",
     "Sennar (capital)",
@@ -2013,36 +2010,20 @@
     "omdurman"
    ],
    "cities_removed": [
-    "kobbe",
-    "qasr-ibrim",
-    "qerri",
-    "soba"
+    "kobbe"
    ],
    "capitals_added": [
     "el-obeid",
     "omdurman"
    ],
-   "capitals_removed": [
-    "qerri",
-    "soba"
-   ],
+   "capitals_removed": [],
    "groups_added": [
     "rel-funj-05",
     "rel-fur-06",
     "rel-jaaliyyin-03",
     "rel-shaigiyya-03"
    ],
-   "groups_removed": [
-    "grp-funj-control-funj-sultanate-of-sennar-1",
-    "grp-funj-control-funj-sultanate-of-sennar-2",
-    "grp-funj-control-funj-sultanate-of-sennar-3",
-    "grp-shaigiyya-control-funj-sultanate-of-sennar-1",
-    "rel-funj-01",
-    "rel-funj-02",
-    "rel-funj-04",
-    "rel-nubians-02",
-    "rel-shaigiyya-01"
-   ]
+   "groups_removed": []
   }
  }
 }

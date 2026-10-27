@@ -1,0 +1,1504 @@
+{
+ "era_id": "early-funj-sultanate-funj-sultans",
+ "name_en": "Early Funj sultanate (Funj sultans)",
+ "stream": "Sudan – Middle Nile",
+ "start": 1504,
+ "end": 1762,
+ "layers": {
+  "extents": {
+   "file": "db/extents/early-funj-sultanate-funj-sultans.geojson",
+   "features": [
+    {
+     "feature_index": 0,
+     "id": null,
+     "label_en": "Sennar (capital)",
+     "symbol_class": "extent_label_point",
+     "certainty": "medium",
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "start": 1504,
+     "end": 1762,
+     "source_ids": [
+      "HD2011",
+      "WP:Funj_Sultanate"
+     ],
+     "legend_id": "extent:early-funj-sultanate-funj-sultans:idx0"
+    },
+    {
+     "feature_index": 1,
+     "id": null,
+     "label_en": "Fazughli (probable southern limit, early 17th c.)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "start": 1600,
+     "end": 1650,
+     "source_ids": [
+      "GHA5_CH7"
+     ],
+     "legend_id": "extent:early-funj-sultanate-funj-sultans:idx1"
+    },
+    {
+     "feature_index": 2,
+     "id": null,
+     "label_en": "Old Dongola (northern reach)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "start": 1523,
+     "end": 1762,
+     "source_ids": [
+      "ZH_EMB_HIST2020",
+      "HD2011"
+     ],
+     "legend_id": "extent:early-funj-sultanate-funj-sultans:idx2"
+    },
+    {
+     "feature_index": 3,
+     "id": null,
+     "label_en": "Third Cataract (northern limit)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "start": 1504,
+     "end": 1762,
+     "source_ids": [
+      "HD2011",
+      "ZH_EMB_HIST2020"
+     ],
+     "legend_id": "extent:early-funj-sultanate-funj-sultans:idx3"
+    },
+    {
+     "feature_index": 4,
+     "id": null,
+     "label_en": "Kordofan (contested with Darfur)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "start": 1504,
+     "end": 1762,
+     "source_ids": [
+      "HD2011"
+     ],
+     "legend_id": "extent:early-funj-sultanate-funj-sultans:idx4"
+    }
+   ],
+   "borders_legend": [
+    {
+     "badge": "APPROXIMATE",
+     "legend_en": "Approximate"
+    },
+    {
+     "badge": "DERIVED",
+     "legend_en": "Derived from a source (geometry built by method, not traced)"
+    }
+   ]
+  },
+  "groups": {
+   "file": null,
+   "features": []
+  },
+  "cities": {
+   "file": "db/city_layers/cities.geojson",
+   "features": [
+    {
+     "id": "soleb",
+     "name_en": "Soleb",
+     "name_ar": "صوليب",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "144"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1457914"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:soleb"
+    },
+    {
+     "id": "qasr-ibrim",
+     "name_en": "Qasr Ibrim",
+     "name_ar": "قصر إبريم",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "roman-byzantine-egypt",
+       "start": -23,
+       "end": null,
+       "source_id": "GHA2_CH10",
+       "page": "290"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "290"
+      },
+      {
+       "id": "GHA5_CH6",
+       "page": "145"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q2121453"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:qasr-ibrim"
+    },
+    {
+     "id": "abu-simbel",
+     "name_en": "Abu Simbel",
+     "name_ar": "أبو سمبل",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q134140"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:abu-simbel"
+    },
+    {
+     "id": "soba",
+     "name_en": "Soba",
+     "name_ar": "سوبا (مدينة)",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "alodia-alwa",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH8",
+       "page": "196"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH8",
+       "page": "196"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "172"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1247214"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:soba"
+    },
+    {
+     "id": "aswan",
+     "name_en": "Aswan",
+     "name_ar": "أسوان",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "early-dynastic-old-kingdom-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH9",
+       "page": "250"
+      },
+      {
+       "role": "garrison",
+       "era_id": "ptolemaic-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH7",
+       "page": "208"
+      },
+      {
+       "role": "garrison",
+       "era_id": "islamic-egypt-rashidunfatimidayyubid",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH7",
+       "page": "168"
+      },
+      {
+       "role": "garrison",
+       "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "175"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2",
+       "page": "238"
+      },
+      {
+       "id": "GHA3_CH8",
+       "page": "195"
+      },
+      {
+       "id": "GHA2_CH9",
+       "page": "250"
+      },
+      {
+       "id": "GHA2_CH7",
+       "page": "208"
+      },
+      {
+       "id": "GHA3_CH7",
+       "page": "168"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "175"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q29888"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:aswan"
+    },
+    {
+     "id": "aksum",
+     "name_en": "Aksum",
+     "name_ar": "أكسوم",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "kingdom-of-aksum",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH15",
+       "page": "389"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH15",
+       "page": "389"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q5832"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:aksum"
+    },
+    {
+     "id": "suakin",
+     "name_en": "Suakin",
+     "name_ar": "سواكن",
+     "symbol_class": "city_garrison",
+     "roles_in_era": [
+      {
+       "role": "garrison",
+       "era_id": "suakin-red-sea-port-beja-ottoman",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "175"
+      }
+     ],
+     "badges": [
+      "APPROXIMATE",
+      "AR-REVIEW"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA5_CH7",
+       "page": "175"
+      },
+      {
+       "id": "GHAIII",
+       "page": "82"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q571215"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:suakin"
+    },
+    {
+     "id": "sennar",
+     "name_en": "Sennar",
+     "name_ar": "سنار",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "funj-sultanate-of-sennar",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "177"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA4_CH16",
+       "page": "406"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "183"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "177"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q611867"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:sennar"
+    },
+    {
+     "id": "qerri",
+     "name_en": "Qerri",
+     "name_ar": "قري الوادي",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "abdallab-chiefdom-funj-vassal",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "172"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA5_CH7",
+       "page": "172"
+      },
+      {
+       "id": "MACMICHAEL1922_V1",
+       "page": "215"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q11924140"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:qerri"
+    },
+    {
+     "id": "kobbe",
+     "name_en": "Kobbei",
+     "name_ar": "كوبي",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "LAST-ATTESTED+APPROXIMATE",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "MACMICHAEL1922_V1",
+       "page": "203"
+      },
+      {
+       "id": "MACMICHAEL1922_V1",
+       "page": "216"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q6424293"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:kobbe"
+    },
+    {
+     "id": "ain-farah",
+     "name_en": "Ain Farah",
+     "name_ar": "عين فرح",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "tunjur-kingdom",
+       "start": null,
+       "end": null,
+       "source_id": "GHA4_CH16",
+       "page": "420"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED",
+      "RUIN-UNDATED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA4_CH16",
+       "page": "420"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q405860"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:ain-farah"
+    },
+    {
+     "id": "korti",
+     "name_en": "Korti",
+     "name_ar": "كورتي",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "MACMICHAEL1922_V1",
+       "page": "216"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q472841"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:korti"
+    },
+    {
+     "id": "gondar",
+     "name_en": "Gondar",
+     "name_ar": "غوندر",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "ethiopian-empire-solomonic",
+       "start": 1636,
+       "end": null,
+       "source_id": "GHA5_CH24_P713_733",
+       "page": "724"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "CONTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA5_CH24_P713_733",
+       "page": "724"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q218861"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:gondar"
+    },
+    {
+     "id": "massawa",
+     "name_en": "Massawa",
+     "name_ar": "مصوع",
+     "symbol_class": "city_port",
+     "roles_in_era": [
+      {
+       "role": "port",
+       "era_id": "suakin-red-sea-port-beja-ottoman",
+       "start": 1557,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "175"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA5_CH7",
+       "page": "175"
+      },
+      {
+       "id": "GHAV",
+       "page": "706"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q275635"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:massawa"
+    },
+    {
+     "id": "fashoda",
+     "name_en": "Kodok (Fashoda)",
+     "name_ar": "فشودة",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "shilluk-kingdom",
+       "start": null,
+       "end": null,
+       "source_id": "GHA6_CH14",
+       "page": "366"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA6_CH14",
+       "page": "366"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1888763"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:fashoda"
+    },
+    {
+     "id": "malakal",
+     "name_en": "Malakal",
+     "name_ar": "ملكال",
+     "symbol_class": "city_town",
+     "roles_in_era": [
+      {
+       "role": "town",
+       "era_id": "shilluk-kingdom",
+       "start": 1490,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "193"
+      },
+      {
+       "role": "town",
+       "era_id": "southern-sudan-under-condominium-sudan",
+       "start": null,
+       "end": null,
+       "source_id": "LOC1991_NONMUSLIM",
+       "page": "countrystudies.us/sudan/39.htm"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "LOC1991_NONMUSLIM",
+       "page": "countrystudies.us/sudan/39.htm"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "193"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q220049"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:malakal"
+    },
+    {
+     "id": "kufra",
+     "name_en": "Kufra",
+     "name_ar": "الكفرة",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "libya-ottoman-italian-independent",
+       "start": null,
+       "end": null,
+       "source_id": "LOC_LBY1987_SANUSI",
+       "page": "countrystudies.us/libya/18.htm"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHAIII",
+       "page": "283"
+      },
+      {
+       "id": "LOC_LBY1987_SANUSI",
+       "page": "countrystudies.us/libya/18.htm"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q172114"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:kufra"
+    },
+    {
+     "id": "rumbek",
+     "name_en": "Rumbek",
+     "name_ar": "رمبيك",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHAV",
+       "page": "777"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q607336"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:rumbek"
+    },
+    {
+     "id": "arbaji",
+     "name_en": "Arbaji",
+     "name_ar": "أربجي",
+     "symbol_class": "city_town",
+     "roles_in_era": [
+      {
+       "role": "town",
+       "era_id": "funj-sultanate-of-sennar",
+       "start": 1504,
+       "end": null,
+       "source_id": "GHA5_CH7",
+       "page": "173"
+      }
+     ],
+     "badges": [
+      "APPROXIMATE",
+      "APPROXIMATE-COORDS",
+      "AR-REVIEW"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA4_CH16",
+       "page": "406"
+      },
+      {
+       "id": "GHA5_CH7",
+       "page": "173"
+      },
+      {
+       "id": "NGA_GNS",
+       "page": "UFI 98562051"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:arbaji"
+    },
+    {
+     "id": "alexandria",
+     "name_en": "Alexandria",
+     "name_ar": "الإسكندرية",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "ptolemaic-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH6",
+       "page": "184"
+      },
+      {
+       "role": "port",
+       "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+       "start": null,
+       "end": null,
+       "source_id": "GHA6_CH13",
+       "page": "325"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH6",
+       "page": "184"
+      },
+      {
+       "id": "GHA6_CH13",
+       "page": "325"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q87"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:alexandria"
+    },
+    {
+     "id": "cairo",
+     "name_en": "Cairo",
+     "name_ar": "القاهرة",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "islamic-egypt-rashidunfatimidayyubid",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH7",
+       "page": "163"
+      },
+      {
+       "role": "capital",
+       "era_id": "ottoman-egypt-muhammad-ali-dynasty",
+       "start": null,
+       "end": null,
+       "source_id": "GHA6_CH13",
+       "page": "325"
+      },
+      {
+       "role": "capital",
+       "era_id": "republic-of-egypt",
+       "start": null,
+       "end": null,
+       "source_id": "LOC1991_EGYPT",
+       "page": "countrystudies.us/sudan/76.htm"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH7",
+       "page": "163"
+      },
+      {
+       "id": "GHA6_CH13",
+       "page": "325"
+      },
+      {
+       "id": "LOC1991_EGYPT",
+       "page": "countrystudies.us/sudan/76.htm"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q85"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:cairo"
+    },
+    {
+     "id": "fustat",
+     "name_en": "Fustat",
+     "name_ar": "الفسطاط",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "islamic-egypt-rashidunfatimidayyubid",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH7",
+       "page": "171"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH7",
+       "page": "171"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q839456"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:fustat"
+    },
+    {
+     "id": "ngazargamu",
+     "name_en": "Ngazargamu",
+     "name_ar": "نغازارغامو",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "bornu-empire",
+       "start": null,
+       "end": null,
+       "source_id": "GHA4_CH10",
+       "page": "265"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA4_CH10",
+       "page": "265"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1496614"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:ngazargamu"
+    },
+    {
+     "id": "yeha",
+     "name_en": "Yeha",
+     "name_ar": "يحا",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "land-of-punt-d-mt",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH13",
+       "page": "343"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH13",
+       "page": "343"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q1081229"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:yeha"
+    },
+    {
+     "id": "lalibela",
+     "name_en": "Lalibela",
+     "name_ar": "لاليبيلا",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "zagwe-dynasty",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH19",
+       "page": "573"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH19",
+       "page": "573"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q207590"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:lalibela"
+    },
+    {
+     "id": "medina",
+     "name_en": "Medina",
+     "name_ar": "المدينة المنورة",
+     "symbol_class": "city_capital",
+     "roles_in_era": [
+      {
+       "role": "capital",
+       "era_id": "rise-of-islam-caliphates",
+       "start": 622,
+       "end": null,
+       "source_id": "GHA3_CH2",
+       "page": "35"
+      },
+      {
+       "role": "religious",
+       "era_id": "ottoman-hejaz-saudi-state",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH6",
+       "page": "138"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH2",
+       "page": "35"
+      },
+      {
+       "id": "GHA5_CH6",
+       "page": "138"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q35484"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:medina"
+    },
+    {
+     "id": "mecca",
+     "name_en": "Mecca",
+     "name_ar": "مكة المكرمة",
+     "symbol_class": "city_religious",
+     "roles_in_era": [
+      {
+       "role": "religious",
+       "era_id": "rise-of-islam-caliphates",
+       "start": null,
+       "end": null,
+       "source_id": "GHA3_CH2",
+       "page": "31"
+      },
+      {
+       "role": "religious",
+       "era_id": "ottoman-hejaz-saudi-state",
+       "start": null,
+       "end": null,
+       "source_id": "GHA5_CH6",
+       "page": "138"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA3_CH2",
+       "page": "31"
+      },
+      {
+       "id": "GHA5_CH6",
+       "page": "138"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q5806"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:mecca"
+    },
+    {
+     "id": "thebes",
+     "name_en": "Thebes",
+     "name_ar": "طيبة",
+     "symbol_class": "city_other",
+     "roles_in_era": [],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH7",
+       "page": "208"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q101583"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:thebes"
+    },
+    {
+     "id": "ballana",
+     "name_en": "Ballana",
+     "name_ar": "بلانة (النوبة القديمة)",
+     "symbol_class": "city_political_centre",
+     "roles_in_era": [
+      {
+       "role": "political_centre",
+       "era_id": "noba-x-group-ballana-culture",
+       "start": null,
+       "end": null,
+       "source_id": "GHA2_CH10",
+       "page": "294"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "GHA2_CH10",
+       "page": "294"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q18832705"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:ballana"
+    },
+    {
+     "id": "tripoli",
+     "name_en": "Tripoli",
+     "name_ar": "طرابلس",
+     "symbol_class": "city_town",
+     "roles_in_era": [
+      {
+       "role": "town",
+       "era_id": "libya-ottoman-italian-independent",
+       "start": null,
+       "end": null,
+       "source_id": "LOC_LBY1987_SANUSI",
+       "page": "countrystudies.us/libya/18.htm"
+      }
+     ],
+     "badges": [
+      "AR-REVIEW",
+      "FIRST-ATTESTED"
+     ],
+     "source_ids": [
+      {
+       "id": "LOC_LBY1987_SANUSI",
+       "page": "countrystudies.us/libya/18.htm"
+      },
+      {
+       "id": "WIKIDATA_CITIES",
+       "page": "Q3579"
+      }
+     ],
+     "legend_id": "city:early-funj-sultanate-funj-sultans:tripoli"
+    }
+   ]
+  },
+  "homelands": {
+   "file": "db/group_layers/homelands.geojson",
+   "note": "Homeland points carry no dates; shown as a background toggle in every era, off by default.",
+   "drawn": 14,
+   "list_only": 7,
+   "legend_ids": [
+    "homelands:grp-beja-homeland-1",
+    "homelands:grp-beja-homeland-2",
+    "homelands:grp-nubians-homeland-1",
+    "homelands:grp-nubians-homeland-2",
+    "homelands:grp-jaaliyyin-homeland-1",
+    "homelands:grp-shaigiyya-homeland-1",
+    "homelands:grp-funj-homeland-1",
+    "homelands:grp-fur-homeland-1",
+    "homelands:grp-fur-homeland-2",
+    "homelands:grp-abdallab-homeland-1",
+    "homelands:grp-tunjur-homeland-1",
+    "homelands:grp-nuba-homeland-1",
+    "homelands:grp-dinka-homeland-1",
+    "homelands:grp-shilluk-homeland-1"
+   ],
+   "list_only_legend_ids": [
+    "homelands-list:grp-kababish-homeland",
+    "homelands-list:grp-rashaida-homeland",
+    "homelands-list:grp-zaghawa-homeland",
+    "homelands-list:grp-azande-homeland",
+    "homelands-list:grp-nuer-homeland",
+    "homelands-list:grp-masalit-homeland",
+    "homelands-list:grp-baggara-homeland"
+   ]
+  },
+  "flags": {
+   "file": "db/era_symbols.json",
+   "anchor": null,
+   "anchor_file": "db/era_focus.json",
+   "flags": [],
+   "popup_text_only": null,
+   "display_hint": null,
+   "null_reason": null
+  },
+  "battles": {
+   "file": "b.json",
+   "style_file": "db/markers/battle_style.json",
+   "note": "Same selection as map.js rel(): battle years overlap the era, or the battle belongs to a war whose span overlaps it.",
+   "features": [
+    {
+     "id": "arbaji-1504",
+     "label_en": "Battle of Arbaji",
+     "label_ar": "معركة أربجي",
+     "start": 1504,
+     "end": 1504,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "list_only": false,
+     "via_war": false,
+     "war_en": "Funj–Abdallab war",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Y.F. Hasan and B.A. Ogot (1992) The Sudan, 1500–1800, ch.7 (General History of Africa V)",
+       "p": "173",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
+      }
+     ],
+     "legend_id": "battle:early-funj-sultanate-funj-sultans:arbaji-1504"
+    },
+    {
+     "id": "kordofan-1747",
+     "label_en": "Funj campaign against the Musabba'at in Kordofan",
+     "label_ar": "حملة الفونج على المسبعات في كردفان",
+     "start": 1747,
+     "end": 1747,
+     "precision": "region",
+     "symbol_class": "battle_region",
+     "drawn": false,
+     "list_only": true,
+     "via_war": false,
+     "war_en": "Wars for Kordofan (Funj, Musabba'at, Darfur)",
+     "swatch": {
+      "file": "battle_region.svg",
+      "halo": "radial #f08c6c 0.55 to 0",
+      "glyph": "#fbecc8",
+      "note": "also draw the region polygon if present: fill #f08c6c @0.10, stroke #f08c6c 1 dash 4 3"
+     },
+     "cite": [
+      {
+       "c": "Y.F. Hasan and B.A. Ogot (1992) The Sudan, 1500–1800, ch.7 (General History of Africa V)",
+       "p": "178",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
+      }
+     ],
+     "legend_id": "battle:early-funj-sultanate-funj-sultans:kordofan-1747"
+    },
+    {
+     "id": "qasr-ibrim-1560",
+     "label_en": "Ottoman capture of Qasr Ibrim",
+     "label_ar": "الاستيلاء العثماني على قصر إبريم",
+     "start": 1560,
+     "end": 1560,
+     "precision": "approximate",
+     "symbol_class": "battle_approximate",
+     "drawn": true,
+     "list_only": false,
+     "via_war": false,
+     "war_en": "Ottoman occupation of northern Nubia",
+     "swatch": {
+      "file": "battle_approximate.svg",
+      "fill": "#0f1b24 @0.75",
+      "ring": "#f08c6c 2",
+      "glyph": "#f08c6c"
+     },
+     "cite": [
+      {
+       "c": "Y.F. Hasan and B.A. Ogot (1992) The Sudan, 1500–1800, ch.7 (General History of Africa V)",
+       "p": "175",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
+      },
+      {
+       "c": "R. Veselý (1992) The Ottoman conquest of Egypt, ch.6 (General History of Africa V)",
+       "p": "145",
+       "u": "https://unesdoc.unesco.org/ark:/48223/pf0000184290"
+      }
+     ],
+     "legend_id": "battle:early-funj-sultanate-funj-sultans:qasr-ibrim-1560"
+    }
+   ]
+  }
+ },
+ "symbol_classes_present": [
+  "battle_approximate",
+  "battle_region",
+  "city_capital",
+  "city_garrison",
+  "city_other",
+  "city_political_centre",
+  "city_port",
+  "city_religious",
+  "city_town",
+  "extent_label_point"
+ ],
+ "badges_present": [
+  "APPROXIMATE",
+  "APPROXIMATE-COORDS",
+  "AR-REVIEW",
+  "CONTESTED",
+  "DERIVED",
+  "FIRST-ATTESTED",
+  "LAST-ATTESTED+APPROXIMATE",
+  "RUIN-UNDATED"
+ ],
+ "counts": {
+  "battle_approximate": 2,
+  "battle_region": 1,
+  "city_capital": 11,
+  "city_garrison": 3,
+  "city_other": 6,
+  "city_political_centre": 1,
+  "city_port": 1,
+  "city_religious": 5,
+  "city_town": 3,
+  "extent_label_point": 5,
+  "extent_features": 5,
+  "group_features": 0,
+  "cities": 30,
+  "battles": 3
+ },
+ "legend_rows": [
+  {
+   "row_id": "extents:extent_label_point",
+   "layer": "extents",
+   "symbol_class": "extent_label_point",
+   "n": 5
+  },
+  {
+   "row_id": "cities:city_other",
+   "layer": "cities",
+   "symbol_class": "city_other",
+   "n": 6
+  },
+  {
+   "row_id": "cities:city_garrison",
+   "layer": "cities",
+   "symbol_class": "city_garrison",
+   "n": 3
+  },
+  {
+   "row_id": "cities:city_capital",
+   "layer": "cities",
+   "symbol_class": "city_capital",
+   "n": 11
+  },
+  {
+   "row_id": "cities:city_religious",
+   "layer": "cities",
+   "symbol_class": "city_religious",
+   "n": 5
+  },
+  {
+   "row_id": "cities:city_port",
+   "layer": "cities",
+   "symbol_class": "city_port",
+   "n": 1
+  },
+  {
+   "row_id": "cities:city_town",
+   "layer": "cities",
+   "symbol_class": "city_town",
+   "n": 3
+  },
+  {
+   "row_id": "cities:city_political_centre",
+   "layer": "cities",
+   "symbol_class": "city_political_centre",
+   "n": 1
+  },
+  {
+   "row_id": "battles:battle_approximate",
+   "layer": "battles",
+   "symbol_class": "battle_approximate",
+   "n": 2
+  },
+  {
+   "row_id": "battles:battle_region",
+   "layer": "battles",
+   "symbol_class": "battle_region",
+   "n": 1
+  },
+  {
+   "row_id": "homelands:homeland_point",
+   "layer": "homelands",
+   "symbol_class": "homeland_point",
+   "n": 14
+  },
+  {
+   "row_id": "homelands:list_only_text",
+   "layer": "homelands",
+   "symbol_class": "list_only_text",
+   "n": 7
+  }
+ ],
+ "context": {
+  "key_events_en": [
+   "1504: at Arbaji the Funj defeat the Abdallab, whose king becomes a vassal",
+   "1762: Abu Likaylik deposes Badi and installs his son Nasir"
+  ],
+  "key_events_ar": [
+   "1504: في أربجي يهزم الفونج العبدلاب ويصبح ملكهم تابعًا [يحتاج تحقق]",
+   "1762: أبو لكيلك يخلع بادي وينصّب ابنه ناصر [يحتاج تحقق]"
+  ],
+  "key_events": [
+   {
+    "event_id": "early-funj-sultanate-funj-sultans#0",
+    "en": "1504: at Arbaji the Funj defeat the Abdallab, whose king becomes a vassal",
+    "ar": "1504: في أربجي يهزم الفونج العبدلاب ويصبح ملكهم تابعًا [يحتاج تحقق]",
+    "cite": null,
+    "source_ids": [
+     "GHA5_CH7"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   },
+   {
+    "event_id": "early-funj-sultanate-funj-sultans#1",
+    "en": "1762: Abu Likaylik deposes Badi and installs his son Nasir",
+    "ar": "1762: أبو لكيلك يخلع بادي وينصّب ابنه ناصر [يحتاج تحقق]",
+    "cite": null,
+    "source_ids": [
+     "GHA5_CH7"
+    ],
+    "badges": [],
+    "origin": "data/periods.json"
+   }
+  ],
+  "key_events_source_ids": [
+   "GHA5_CH7"
+  ],
+  "dating_note": "Child of funj-sultanate-of-sennar (parent unchanged). Start: Arbaji 1504 (GHA5_CH7 p.173). End: deposition of Badi 1762 (GHA5_CH7 p.185) [SINGLE-SOURCE].",
+  "capitals": [
+   {
+    "name": "Sennar",
+    "lat": 13.55,
+    "lon": 33.62
+   }
+  ]
+ },
+ "interactive": {
+  "click_to_source": "Click any feature: open popup listing its source_ids (resolve in data/periods.json meta.sources) with page/cite.",
+  "layer_toggles": [
+   "extents",
+   "cities",
+   "battles",
+   "homelands",
+   "basemap_rivers",
+   "basemap_terrain",
+   "graticule"
+  ],
+  "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
+  "badge_filter": [
+   "APPROXIMATE",
+   "APPROXIMATE-COORDS",
+   "AR-REVIEW",
+   "CONTESTED",
+   "DERIVED",
+   "FIRST-ATTESTED",
+   "LAST-ATTESTED+APPROXIMATE",
+   "RUIN-UNDATED"
+  ],
+  "what_changed": {
+   "previous_era_id": "ja-aliyyin-kingdom-sa-dab-funj-vassal",
+   "basis": "previous era in same stream by start year",
+   "extents_added": [
+    "Fazughli (probable southern limit, early 17th c.)",
+    "Kordofan (contested with Darfur)",
+    "Old Dongola (northern reach)",
+    "Sennar (capital)",
+    "Third Cataract (northern limit)"
+   ],
+   "extents_removed": [
+    "Atbara–Nile confluence – range limit (Holt & Daly p.4)",
+    "Ja'aliyyin kingdom (Sa'dab, Funj vassal) – core zone (draft)",
+    "Sabaluqa Gorge (Sixth Cataract) – range limit (Holt & Daly p.4)"
+   ],
+   "cities_added": [],
+   "cities_removed": [
+    "berber",
+    "el-matamma",
+    "shendi",
+    "wad-madani"
+   ],
+   "capitals_added": [],
+   "capitals_removed": [
+    "shendi"
+   ],
+   "groups_added": [],
+   "groups_removed": [
+    "grp-jaaliyyin-control-ja-aliyyin-kingdom-sa-dab-funj-vassal-1",
+    "rel-jaaliyyin-02"
+   ]
+  }
+ }
+}

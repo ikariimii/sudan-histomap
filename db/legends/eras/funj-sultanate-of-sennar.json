@@ -2041,25 +2041,23 @@
    "SINGLE-SOURCE"
   ],
   "what_changed": {
-   "previous_era_id": "ja-aliyyin-kingdom-sa-dab-funj-vassal",
+   "previous_era_id": "early-funj-sultanate-funj-sultans",
    "basis": "previous era in same stream by start year",
    "extents_added": [
-    "Fazughli (probable southern limit, early 17th c.)",
     "Funj Sultanate of Sennar – claimed zone (draft)",
-    "Funj Sultanate of Sennar – core zone (draft)",
-    "Kordofan (contested with Darfur)",
-    "Old Dongola (northern reach)",
-    "Sennar (capital)",
-    "Third Cataract (northern limit)"
+    "Funj Sultanate of Sennar – core zone (draft)"
    ],
-   "extents_removed": [
-    "Atbara–Nile confluence – range limit (Holt & Daly p.4)",
-    "Ja'aliyyin kingdom (Sa'dab, Funj vassal) – core zone (draft)",
-    "Sabaluqa Gorge (Sixth Cataract) – range limit (Holt & Daly p.4)"
+   "extents_removed": [],
+   "cities_added": [
+    "berber",
+    "el-matamma",
+    "shendi",
+    "wad-madani"
    ],
-   "cities_added": [],
    "cities_removed": [],
-   "capitals_added": [],
+   "capitals_added": [
+    "shendi"
+   ],
    "capitals_removed": [],
    "groups_added": [
     "grp-funj-control-funj-sultanate-of-sennar-1",
@@ -2072,10 +2070,7 @@
     "rel-nubians-02",
     "rel-shaigiyya-01"
    ],
-   "groups_removed": [
-    "grp-jaaliyyin-control-ja-aliyyin-kingdom-sa-dab-funj-vassal-1",
-    "rel-jaaliyyin-02"
-   ]
+   "groups_removed": []
   }
  }
 }

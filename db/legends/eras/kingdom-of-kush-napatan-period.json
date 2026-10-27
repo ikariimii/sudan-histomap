@@ -11,36 +11,34 @@
     {
      "feature_index": 0,
      "id": null,
-     "label_en": "Kush, 25th Dynasty maximum: Delta to the confluence of the Niles – strip width along the Nile is a display choice, not a sourced boundary",
-     "symbol_class": "control_extent_approx",
+     "label_en": "Napata (capital, reference marker, not a border)",
+     "symbol_class": "extent_label_point",
      "certainty": "low",
      "badges": [
       "APPROXIMATE",
-      "DERIVED"
+      "VERIFY"
      ],
      "start": -713,
      "end": -656,
      "source_ids": [
-      "GHA2",
-      "ZH_EMB_HIST2020",
-      "NATURAL_EARTH"
+      "GHA2_CH10"
      ],
      "legend_id": "extent:kingdom-of-kush-napatan-period:idx0"
     },
     {
      "feature_index": 1,
      "id": null,
-     "label_en": "Kush after Psamtik II: south of the Second Cataract – strip width along the Nile is a display choice, not a sourced boundary",
-     "symbol_class": "control_extent_approx",
+     "label_en": "Napata (capital, reference marker, not a border)",
+     "symbol_class": "extent_label_point",
      "certainty": "low",
      "badges": [
       "APPROXIMATE",
-      "DERIVED"
+      "VERIFY"
      ],
      "start": -593,
-     "end": -270,
+     "end": -300,
      "source_ids": [
-      "NATURAL_EARTH"
+      "GHA2_CH10"
      ],
      "legend_id": "extent:kingdom-of-kush-napatan-period:idx1"
     },
@@ -70,6 +68,10 @@
     {
      "badge": "DERIVED",
      "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "VERIFY",
+     "legend_en": "Needs verification"
     }
    ]
   },
@@ -756,7 +758,6 @@
   "city_other",
   "city_religious",
   "city_town",
-  "control_extent_approx",
   "economy_unknown",
   "extent_label_point"
  ],
@@ -768,7 +769,8 @@
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
   "NO-SOURCE",
-  "RUIN-UNDATED"
+  "RUIN-UNDATED",
+  "VERIFY"
  ],
  "counts": {
   "battle_approximate": 3,
@@ -777,9 +779,8 @@
   "city_other": 3,
   "city_religious": 6,
   "city_town": 1,
-  "control_extent_approx": 2,
   "economy_unknown": 1,
-  "extent_label_point": 1,
+  "extent_label_point": 3,
   "extent_features": 3,
   "group_features": 0,
   "cities": 14,
@@ -787,16 +788,10 @@
  },
  "legend_rows": [
   {
-   "row_id": "extents:control_extent_approx",
-   "layer": "extents",
-   "symbol_class": "control_extent_approx",
-   "n": 2
-  },
-  {
    "row_id": "extents:extent_label_point",
    "layer": "extents",
    "symbol_class": "extent_label_point",
-   "n": 1
+   "n": 3
   },
   {
    "row_id": "cities:city_capital",
@@ -1014,15 +1009,15 @@
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
    "NO-SOURCE",
-   "RUIN-UNDATED"
+   "RUIN-UNDATED",
+   "VERIFY"
   ],
   "what_changed": {
    "previous_era_id": "egyptian-new-kingdom-rule-in-nubia",
    "basis": "previous era in same stream by start year",
    "extents_added": [
     "Elephantine (find-spot, not a border)",
-    "Kush after Psamtik II: south of the Second Cataract – strip width along the Nile is a display choice, not a sourced boundary",
-    "Kush, 25th Dynasty maximum: Delta to the confluence of the Niles – strip width along the Nile is a display choice, not a sourced boundary"
+    "Napata (capital, reference marker, not a border)"
    ],
    "extents_removed": [
     "Egyptian New Kingdom rule in Nubia – claimed zone (draft)",

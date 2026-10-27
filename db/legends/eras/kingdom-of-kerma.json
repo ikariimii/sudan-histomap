@@ -11,18 +11,17 @@
     {
      "feature_index": 0,
      "id": null,
-     "label_en": "Kerma – Upper Nubia – strip width along the Nile is a display choice, not a sourced boundary",
-     "symbol_class": "control_extent_approx",
+     "label_en": "Kerma (capital, reference marker, not a border)",
+     "symbol_class": "extent_label_point",
      "certainty": "low",
      "badges": [
       "APPROXIMATE",
-      "DERIVED"
+      "VERIFY"
      ],
      "start": -2450,
      "end": -1450,
      "source_ids": [
-      "GHA2",
-      "NATURAL_EARTH"
+      "KERMA_MISSION"
      ],
      "legend_id": "extent:kingdom-of-kerma:idx0"
     }
@@ -33,8 +32,8 @@
      "legend_en": "Approximate"
     },
     {
-     "badge": "DERIVED",
-     "legend_en": "Derived from a source (geometry built by method, not traced)"
+     "badge": "VERIFY",
+     "legend_en": "Needs verification"
     }
    ]
   },
@@ -389,27 +388,27 @@
   "battle_approximate",
   "city_capital",
   "city_garrison",
-  "control_extent_approx",
   "economy_editorial_marker",
-  "economy_good"
+  "economy_good",
+  "extent_label_point"
  ],
  "badges_present": [
   "APPROXIMATE",
   "AR-REVIEW",
-  "DERIVED",
   "EDITORIAL",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
   "RUIN-UNDATED",
-  "SINGLE-SOURCE"
+  "SINGLE-SOURCE",
+  "VERIFY"
  ],
  "counts": {
   "battle_approximate": 2,
   "city_capital": 1,
   "city_garrison": 3,
-  "control_extent_approx": 1,
   "economy_editorial_marker": 1,
   "economy_good": 1,
+  "extent_label_point": 1,
   "extent_features": 1,
   "group_features": 0,
   "cities": 4,
@@ -417,9 +416,9 @@
  },
  "legend_rows": [
   {
-   "row_id": "extents:control_extent_approx",
+   "row_id": "extents:extent_label_point",
    "layer": "extents",
-   "symbol_class": "control_extent_approx",
+   "symbol_class": "extent_label_point",
    "n": 1
   },
   {
@@ -555,18 +554,18 @@
   "badge_filter": [
    "APPROXIMATE",
    "AR-REVIEW",
-   "DERIVED",
    "EDITORIAL",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
    "RUIN-UNDATED",
-   "SINGLE-SOURCE"
+   "SINGLE-SOURCE",
+   "VERIFY"
   ],
   "what_changed": {
    "previous_era_id": "a-group-lower-nubia",
    "basis": "previous era in same stream by start year",
    "extents_added": [
-    "Kerma – Upper Nubia – strip width along the Nile is a display choice, not a sourced boundary"
+    "Kerma (capital, reference marker, not a border)"
    ],
    "extents_removed": [
     "A-Group (Lower Nubia) – influence zone (draft)",

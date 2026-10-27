@@ -79,6 +79,81 @@
       "OHM_2960088"
      ],
      "legend_id": "extent:makuria:idx3"
+    },
+    {
+     "feature_index": 4,
+     "id": "makuria-1276-core",
+     "label_en": "Kingdom of Makuria c.1276 (frontiers described in words only, GHA IV ch.16)",
+     "symbol_class": "zone_core",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED",
+      "VERIFY"
+     ],
+     "start": 1276,
+     "end": 1365,
+     "source_ids": [
+      "GHA4_CH16",
+      "OHM_2960088"
+     ],
+     "zone": "core",
+     "confidence": 0.3,
+     "confidence_word": "low",
+     "confidence_style": null,
+     "low_confidence_overlay": false,
+     "legend_id": "extent:makuria:makuria-1276-core"
+    },
+    {
+     "feature_index": 5,
+     "id": "makuria-1276-maris-contested",
+     "label_en": "al-Maris (incl. Qasr Ibrim), northern Makuria c.1276 [CONTESTED]",
+     "symbol_class": "zone_contested",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED",
+      "DERIVED",
+      "VERIFY"
+     ],
+     "start": 1276,
+     "end": 1365,
+     "source_ids": [
+      "GHA4_CH16",
+      "DERDA_LAJTAR2019",
+      "OHM_2960088"
+     ],
+     "zone": "contested",
+     "confidence": 0.3,
+     "confidence_word": "low",
+     "confidence_style": "hatched",
+     "low_confidence_overlay": false,
+     "legend_id": "extent:makuria:makuria-1276-maris-contested"
+    },
+    {
+     "feature_index": 6,
+     "id": "makuria-1276-south-contested",
+     "label_en": "Makuria–Alwa frontier zone c.1276, Fifth Cataract to al-'Abwab [CONTESTED]",
+     "symbol_class": "zone_contested",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED",
+      "DERIVED",
+      "VERIFY"
+     ],
+     "start": 1276,
+     "end": 1365,
+     "source_ids": [
+      "GHA4_CH16",
+      "TSAKOS2011_ALWA"
+     ],
+     "zone": "contested",
+     "confidence": 0.3,
+     "confidence_word": "low",
+     "confidence_style": "hatched",
+     "low_confidence_overlay": false,
+     "legend_id": "extent:makuria:makuria-1276-south-contested"
     }
    ],
    "borders_legend": [
@@ -87,8 +162,16 @@
      "legend_en": "Approximate"
     },
     {
+     "badge": "CONTESTED",
+     "legend_en": "Contested (amber point, never a polygon)"
+    },
+    {
      "badge": "DERIVED",
      "legend_en": "Derived from a source (geometry built by method, not traced)"
+    },
+    {
+     "badge": "VERIFY",
+     "legend_en": "Needs verification"
     }
    ]
   },
@@ -1350,10 +1433,11 @@
   "city_town",
   "control_extent_approx",
   "economy_unknown",
-  "extent_label_point",
   "list_only_text",
   "relation_arrow_conflict",
-  "trade_route"
+  "trade_route",
+  "zone_contested",
+  "zone_core"
  ],
  "badges_present": [
   "APPROXIMATE",
@@ -1367,7 +1451,8 @@
   "LAST-ATTESTED+APPROXIMATE",
   "NO-SOURCE",
   "RUIN-UNDATED",
-  "SINGLE-SOURCE"
+  "SINGLE-SOURCE",
+  "VERIFY"
  ],
  "counts": {
   "battle_approximate": 2,
@@ -1380,11 +1465,12 @@
   "city_town": 1,
   "control_extent_approx": 4,
   "economy_unknown": 1,
-  "extent_label_point": 2,
   "list_only_text": 1,
   "relation_arrow_conflict": 1,
   "trade_route": 1,
-  "extent_features": 6,
+  "zone_contested": 2,
+  "zone_core": 1,
+  "extent_features": 7,
   "group_features": 2,
   "cities": 29,
   "battles": 2
@@ -1397,9 +1483,15 @@
    "n": 4
   },
   {
-   "row_id": "extents:extent_label_point",
+   "row_id": "extents:zone_core",
    "layer": "extents",
-   "symbol_class": "extent_label_point",
+   "symbol_class": "zone_core",
+   "n": 1
+  },
+  {
+   "row_id": "extents:zone_contested",
+   "layer": "extents",
+   "symbol_class": "zone_contested",
    "n": 2
   },
   {
@@ -1616,18 +1708,20 @@
    "LAST-ATTESTED+APPROXIMATE",
    "NO-SOURCE",
    "RUIN-UNDATED",
-   "SINGLE-SOURCE"
+   "SINGLE-SOURCE",
+   "VERIFY"
   ],
   "what_changed": {
    "previous_era_id": "nobadia",
    "basis": "previous era in same stream by start year",
    "extents_added": [
-    "Gebel Adda (reference marker)",
+    "Kingdom of Makuria c.1276 (frontiers described in words only, GHA IV ch.16)",
     "Kingdom of Makuria, 1265–1268 (OHM 2960089)",
     "Kingdom of Makuria, 1268–1276 (OHM 2960088)",
     "Makuria after the union with Nobadia (from c. 7th century, disputed)",
     "Makuria before the union with Nobadia (until c. 7th century, disputed)",
-    "Qasr Ibrim (reference marker)"
+    "Makuria–Alwa frontier zone c.1276, Fifth Cataract to al-'Abwab [CONTESTED]",
+    "al-Maris (incl. Qasr Ibrim), northern Makuria c.1276 [CONTESTED]"
    ],
    "extents_removed": [
     "Nobadia: Philae to the Third Cataract, until c. 7th century, disputed – strip width along the Nile is a display choice, not a sourced boundary"

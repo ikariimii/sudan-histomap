@@ -2241,15 +2241,18 @@
    "RUIN-UNDATED"
   ],
   "what_changed": {
-   "previous_era_id": "turkiyya-ottoman-egyptian-rule",
+   "previous_era_id": "mahdist-uprising",
    "basis": "previous era in same stream by start year",
    "extents_added": [
     "Mahdist state core: Kordofan, Darfur and Omdurman/Khartoum – shape uses modern (2020) state boundaries, not historical ones"
    ],
    "extents_removed": [
-    "Selima Oasis (route point, not a border)",
-    "Turco-Egyptian Sudan with Darfur, 1874 onward – shape uses modern (2020) state boundaries for Darfur, not historical ones",
-    "Turco-Egyptian Sudan without Darfur (Keira-held until 1874, GHA6_CH14) – shape uses modern (2020) state boundaries for Darfur, not historical ones"
+    "Aba Island: first Mahdist victory",
+    "Eastern Sudan under Uthman Digna (Suakin excluded)",
+    "Khartoum taken by the Mahdists",
+    "Mahdist control of the Kordofan towns (El Obeid)",
+    "Mahdist rule in Darfur and Bahr al-Ghazal (Deim Zubeir as locator)",
+    "Shaykan victory"
    ],
    "cities_added": [
     "asmara",
@@ -2259,9 +2262,7 @@
     "metemma-ethiopia",
     "tokar"
    ],
-   "cities_removed": [
-    "gondokoro"
-   ],
+   "cities_removed": [],
    "capitals_added": [
     "asmara",
     "khartoum"
@@ -2270,12 +2271,7 @@
    "groups_added": [
     "grp-masalit-control-mahdist-state-mahdiyya-1"
    ],
-   "groups_removed": [
-    "rel-funj-05",
-    "rel-fur-06",
-    "rel-jaaliyyin-03",
-    "rel-shaigiyya-03"
-   ]
+   "groups_removed": []
   }
  }
 }
