@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 1123
+      "sentence_items": 1127
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -17887,6 +17887,62 @@
       "reason": "New Arabic card note by the Map Designer (8d2b723); previous: null. Working translation of 'first attested (305 BCE, GHA2_CH10 287)'.",
       "action": "native review",
       "origin_commit": "8d2b723",
+      "added": "2026-10-27",
+      "note": "needs native Arabic review [يحتاج تحقق]"
+    },
+    {
+      "era_id": "anglo-egyptian-sudan-condominium",
+      "file": "db/extents/anglo-egyptian-sudan-condominium.geojson",
+      "field_ar": "features[2][source=OHM_2961763,start=1910,end=1912].properties.label_ar",
+      "arabic_sentence": "السودان الإنجليزي المصري (دون دارفور حتى 1916) – حدود دارفور من خريطة 1914 (تقريبية) [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "features[2].properties.label_en",
+      "revised_english": null,
+      "reason": "New Arabic label by the Map Designer (e2369c9), queued verbatim, not reworded. Working translation of 'Anglo-Egyptian Sudan (without Darfur, until 1916) – Darfur edge from the 1914 War Office sheet (approximate)'.",
+      "action": "native review",
+      "origin_commit": "e2369c9",
+      "added": "2026-10-27",
+      "note": "needs native Arabic review [يحتاج تحقق]"
+    },
+    {
+      "era_id": "anglo-egyptian-sudan-condominium",
+      "file": "db/extents/anglo-egyptian-sudan-condominium.geojson",
+      "field_ar": "features[2][source=OHM_2961763,start=1910,end=1912].properties.label_detail_ar",
+      "arabic_sentence": "السودان الإنجليزي المصري (دون دارفور حتى 1916) – حدود دارفور من خريطة 1914 (تقريبية) [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "features[2].properties.label_detail_en",
+      "revised_english": null,
+      "reason": "New Arabic label by the Map Designer (e2369c9), queued verbatim, not reworded. Working translation of 'Anglo-Egyptian Sudan (without Darfur, until 1916) – Darfur edge from the 1914 War Office sheet (approximate)'.",
+      "action": "native review",
+      "origin_commit": "e2369c9",
+      "added": "2026-10-27",
+      "note": "needs native Arabic review [يحتاج تحقق]"
+    },
+    {
+      "era_id": "anglo-egyptian-sudan-condominium",
+      "file": "db/extents/anglo-egyptian-sudan-condominium.geojson",
+      "field_ar": "features[3][source=OHM_2961762,start=1912,end=1916].properties.label_ar",
+      "arabic_sentence": "السودان الإنجليزي المصري (دون دارفور حتى 1916) – حدود دارفور من خريطة 1914 (تقريبية) [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "features[3].properties.label_en",
+      "revised_english": null,
+      "reason": "New Arabic label by the Map Designer (e2369c9), queued verbatim, not reworded. Working translation of 'Anglo-Egyptian Sudan (without Darfur, until 1916) – Darfur edge from the 1914 War Office sheet (approximate)'.",
+      "action": "native review",
+      "origin_commit": "e2369c9",
+      "added": "2026-10-27",
+      "note": "needs native Arabic review [يحتاج تحقق]"
+    },
+    {
+      "era_id": "anglo-egyptian-sudan-condominium",
+      "file": "db/extents/anglo-egyptian-sudan-condominium.geojson",
+      "field_ar": "features[3][source=OHM_2961762,start=1912,end=1916].properties.label_detail_ar",
+      "arabic_sentence": "السودان الإنجليزي المصري (دون دارفور حتى 1916) – حدود دارفور من خريطة 1914 (تقريبية) [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "features[3].properties.label_detail_en",
+      "revised_english": null,
+      "reason": "New Arabic label by the Map Designer (e2369c9), queued verbatim, not reworded. Working translation of 'Anglo-Egyptian Sudan (without Darfur, until 1916) – Darfur edge from the 1914 War Office sheet (approximate)'.",
+      "action": "native review",
+      "origin_commit": "e2369c9",
       "added": "2026-10-27",
       "note": "needs native Arabic review [يحتاج تحقق]"
     }
