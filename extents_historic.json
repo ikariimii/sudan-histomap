@@ -414,10 +414,11 @@
    ],
    "ohm_ids": [],
    "cshapes": null,
-   "notes": "Sennar anchored to Wikidata Q611867 / GeoNames 367644. The capital in 1821 (old Sennar) may not coincide exactly with the modern town; flagged. Southern and eastern limits (Fazughli, Ethiopian marches) were not found in the sources read (HD2011 intro pp.1–9 only); still open. IM ruling 3 (2026-10-27): c.1700 north limit at Third Cataract/Hannik (GHA5_CH7 pp.174–175; geometry unchanged, claimed zone stops at Old Dongola); direct rule to Hadjar al-'Asal, indirect beyond (not split, no coordinate); Shaykiyya independent after c.1650, VERIFY; SPAULDING1985 not on the box; Suakin Ottoman.",
+   "notes": "Sennar anchored to Wikidata Q611867 / GeoNames 367644. The capital in 1821 (old Sennar) may not coincide exactly with the modern town; flagged. Southern and eastern limits (Fazughli, Ethiopian marches) were not found in the sources read (HD2011 intro pp.1–9 only); still open. Around 1700 the northern limit was the Third Cataract / Hannik (GHA5_CH7 pp.174–175); direct Abdallab rule to Hadjar al-'Asal and indirect rule beyond it are not drawn separately (no sourced coordinate). The Shaykiyya were independent after about 1650, VERIFY. Spaulding (1985) was not consulted. Suakin remained Ottoman.",
    "license": "Wikidata coordinates: CC0; limit text: short quotations from cited works",
    "ohm_source_ids": [],
-   "geojson": null
+   "geojson": null,
+   "internal_notes": "IM ruling 3 (2026-10-27): geometry unchanged, claimed zone stops at Old Dongola; SPAULDING1985 not on the box."
   },
   {
    "era_id": "sultanate-of-darfur-keira",
@@ -602,10 +603,11 @@
    ],
    "ohm_ids": [],
    "cshapes": null,
-   "notes": "The control_limits_en text paraphrases my earlier GHA VII summary rather than quoting it verbatim. Southern limit (Equatoria) not stated. IM ruling 2 (2026-10-27): east extended to Kassala, Gallabat and the Red Sea hills; Suakin and Tokar excluded (Tokar reoccupied 19 Feb 1891, WINGATE1891; not versioned); western Darfur a separate hatched contested/nominal feature (SLATIN1896 pp.456, 474–475, 537), split line editorial, APPROXIMATE, VERIFY. LoC 1991 used as comparison only (disclaimer). IM ruling (2026-10-27, 11:26): Gezira, Sennar, White Nile and River Nile states (HDX COD-AB 2020) added to the main extent, SLATIN1896 p.537, APPROXIMATE; one polygon, West Darfur contested feature separate. IM ruling (2026-10-27, 11:28): NE desert spur trimmed at a straight Wadi Halfa–Abu Hamad line (SLATIN1896 p.537; coordinates db/cities.json), APPROXIMATE.",
+   "notes": "The limits text is a paraphrase of GHA VII ch.4, not a direct quotation. The southern limit (Equatoria) is not stated. East: Kassala, Gallabat and the Red Sea hills (SLATIN1896 p.537); Suakin and Tokar excluded (Tokar retaken 19 February 1891, WINGATE1891; one extent is shown for 1885–1899). Gezira, Sennar, White Nile and River Nile are included (SLATIN1896 p.537). The north-east edge is a straight line between Wadi Halfa and Abu Hamad. Shapes use modern (2020) state borders; APPROXIMATE. Western Darfur is a separate contested/nominal area (SLATIN1896 pp.456, 474–475, 537); the dividing line follows modern state borders; no source gives one. VERIFY. The Library of Congress 1991 map was used for comparison only (its disclaimer: boundaries not necessarily authoritative).",
    "license": "Wikidata coordinates: CC0; limit text: short quotations from cited works",
    "ohm_source_ids": [],
-   "geojson": null
+   "geojson": null,
+   "internal_notes": "IM ruling 2 (2026-10-27); IM rulings 2026-10-27 11:26 (Nile-valley states, one polygon) and 11:28 (NE spur trim; coordinates db/cities.json). Original wording: 'paraphrases my earlier GHA VII summary'."
   },
   {
    "era_id": "anglo-egyptian-sudan-condominium",
@@ -643,26 +645,28 @@
     2803203
    ],
    "cshapes": null,
-   "notes": "OHM Anglo-Egyptian Sudan series: 1899-06-19→1902, 1902→1910-06-10, 1910-06-10→1912, 1912→1934, 1934→1956-01-01, all without source tags. CShapes 2.0 also covers dependencies from 1886, but it is CC BY-NC-SA, so do not use it for shapes. Pass 16: Halaib Triangle and Bir Tawil dates under 'disputed_features' (IBS18_1962 primary for 1899/1902/1958). Ruling 1 (2026-10-27): 1910–1916 Darfur edge from WO_GSGS_1914 (LoC, public domain), replacing the modern HDX proxy; APPROXIMATE, VERIFY. 1928 sheet (WO_GSGS_1928) checked against 1916–34: SE corner differs, not changed. Ruling 3 (2026-10-27): 1899–1910 Darfur, NW and Dar Fertit edges from WO_GSGS_1904 (LoC, PD); 1916–34 SE edge from WO_GSGS_1928 and 1934–56 SE edge from AUC_GSGS_1939 (PD); Ilemi Triangle added as separate CONTESTED hatched feature, start 1928 (ILEMI_PCGN_SSD2024 p.3), north edge = OHM line (not a sourced limit); APPROXIMATE, VERIFY. Badges round (2026-10-27): 1899 NW line GLEICHEN1905_V1 p.285; Darfur edges APPROXIMATE (p.184); Lado 1910 VERIFY (only 1909 treaty cited); Sarra 1934 exact day CONTESTED; Ilemi ≈4.6N line undated by any source, VERIFY.",
+   "notes": "OpenHistoricalMap Anglo-Egyptian Sudan series: 1899-06-19→1902, 1902→1910-06-10, 1910-06-10→1912, 1912→1934, 1934→1956-01-01, all without source tags. CShapes 2.0 also covers dependencies from 1886, but it is CC BY-NC-SA, so it is not used for shapes. Halaib Triangle and Bir Tawil dates are under 'disputed_features' (IBS18_1962 primary for 1899/1902/1958). 1910–1916 Darfur edge from WO_GSGS_1914 (Library of Congress, public domain); APPROXIMATE, VERIFY. 1899–1910 Darfur, north-west and Dar Fertit edges from WO_GSGS_1904; the 1916–34 south-east edge from WO_GSGS_1928 and the 1934–56 south-east edge from AUC_GSGS_1939 (public domain). The Ilemi Triangle is a separate CONTESTED area from 1928 (ILEMI_PCGN_SSD2024 p.3); its north edge is not a sourced line. APPROXIMATE, VERIFY. The 1899 north-west line is the Anglo-French Declaration (GLEICHEN1905_V1 p.285); Darfur edges APPROXIMATE (p.184). The 1910 Lado change: only the 1909 treaty is cited, VERIFY. The exact day of the 1934 Sarra transfer is CONTESTED. No source dates the Ilemi line at about 4.6°N, VERIFY.",
    "disputed_features": {
     "halaib": {
      "start": 1902,
      "start_note": "Administrative line made by arrêté of 25 Jul 1902 and decree of 4 Nov 1902 (IBS18_1962 p.3); the 22nd-parallel political line dates from the 19 Jan 1899 Agreement (p.2). The territory becomes a two-sided dispute at independence in 1956 (WP_HALAIB); first open crisis: Egyptian note of 1 Feb 1958, plebiscite set for 21 Feb 1958 (IBS18_1962 p.5).",
-     "recommend": "Draw 'Sudan-administered north of 22°N' 1902–1958; 'disputed' 1958–present (Egypt's note of 1 Feb 1958, IBS18_1962 p.5 and UN S/3963; no formal Egyptian protest in 1956, IBS fn.9; 1956 appears only in later claims – Analyst check, db/halaib_dates_check.md); 'Egyptian control (effective)' from 1995 (medium; other dates in sources: presence 1992–93, full control 1994 per Carnegie, Jan 2000 per Al Jazeera Arabic/EGYPIL) (expulsion of Sudanese police after the June 1995 Addis Ababa attempt on Mubarak); Sudanese forces withdrew Jan 2000. 1990s dates are Wikipedia-only (citing Ofcansky 2002 p.985), flagged. WP_HALAIB also says 'in 1994 the Egyptian military moved to take control', and elsewhere 'under Egyptian administration since mid-1990' – inconsistent; use 1995 with a note.",
+     "recommend": "Draw 'Sudan-administered north of 22°N' 1902–1958; 'disputed' 1958–present (Egypt's note of 1 Feb 1958, IBS18_1962 p.5 and UN S/3963; no formal Egyptian protest in 1956, IBS fn.9; 1956 appears only in later claims); 'Egyptian control (effective)' from 1995 (medium; other dates in sources: presence 1992–93, full control 1994 per Carnegie, Jan 2000 per Al Jazeera Arabic/EGYPIL) (expulsion of Sudanese police after the June 1995 Addis Ababa attempt on Mubarak); Sudanese forces withdrew Jan 2000. 1990s dates are Wikipedia-only (citing Ofcansky 2002 p.985), flagged. WP_HALAIB also says 'in 1994 the Egyptian military moved to take control', and elsewhere 'under Egyptian administration since mid-1990' – inconsistent; use 1995 with a note.",
      "sources": [
       "IBS18_1962",
       "WP_HALAIB"
-     ]
+     ],
+     "internal_recommend": "Analyst check: db/halaib_dates_check.md."
     },
     "bir_tawil": {
      "start": 1902,
      "end": "ongoing",
      "start_note": "Egypt-administered area south of 22°N under the 1902 line (IBS18_1962 pp.3–4; Ababda grazing). Unclaimed by either state from 1956 on (WP_BIRTAWIL).",
-     "recommend": "Draw 'Egypt-administered south of 22°N' 1902–1958; 'claimed by neither state' 1958–ongoing (start year inferred from Egypt's 1958 note, medium; unclaimed status confirmed by Britannica and Pinkerton 2014 – Analyst check, db/halaib_dates_check.md).",
+     "recommend": "Draw 'Egypt-administered south of 22°N' 1902–1958; 'claimed by neither state' 1958–ongoing (start year inferred from Egypt's 1958 note, medium; unclaimed status confirmed by Britannica and Pinkerton 2014).",
      "sources": [
       "IBS18_1962",
       "WP_BIRTAWIL"
-     ]
+     ],
+     "internal_recommend": "Analyst check: db/halaib_dates_check.md."
     }
    },
    "license": "Wikidata coordinates: CC0; OHM geometry: CC0 1.0; limit text: short quotations from cited works",
@@ -673,7 +677,8 @@
     "OHM_2961762",
     "OHM_2803203"
    ],
-   "geojson": "db/extents/anglo-egyptian-sudan-condominium.geojson"
+   "geojson": "db/extents/anglo-egyptian-sudan-condominium.geojson",
+   "internal_notes": "Pass 16 (Halaib/Bir Tawil). Ruling 1 (2026-10-27): replaced the modern HDX Darfur proxy; 1928 sheet checked against 1916–34, SE corner differed, not changed at that time. Ruling 3 (2026-10-27). Badges round (2026-10-27)."
   },
   {
    "era_id": "shilluk-kingdom",

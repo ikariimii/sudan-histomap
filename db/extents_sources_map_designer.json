@@ -14,7 +14,7 @@
     "lang": "en",
     "note": "Full text read 2026-10-20. Primary government study; written 1962, so it says nothing about the 1990s.",
     "id": "IBS18_1962",
-    "registry_note": "Already registered in the source-tree data/periods.json (Historian); copied here unchanged for reference — no new registration needed."
+    "internal_registry_note": "Already registered in the source-tree data/periods.json (Historian); copied here unchanged for reference — no new registration needed."
    },
    "LOC1991_CHAD": {
     "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
@@ -30,7 +30,7 @@
     "lang": "en",
     "via": "/tmp/era_fill_modern3_p20b.json",
     "id": "LOC1991_CHAD",
-    "registry_note": "Already registered in the source-tree data/periods.json (Historian); copied here unchanged for reference — no new registration needed."
+    "internal_registry_note": "Already registered in the source-tree data/periods.json (Historian); copied here unchanged for reference — no new registration needed."
    },
    "OHM_2690845": {
     "author": "OpenHistoricalMap contributors (last edit: CharliePlett, changeset 272117, 2026-09-21)",
@@ -42,7 +42,7 @@
     "lang": "en",
     "note": "Tags checked 2026-10-20: no source, source:* or note tag; tags include colony_of=Britain (wrong for 1820–67), wikidata Q2464621, wikipedia es:Sudán turco. Member ways not checked one by one.",
     "id": "OHM_2690845",
-    "registry_note": "Already registered in the source-tree data/periods.json (Historian); copied here unchanged for reference — no new registration needed."
+    "internal_registry_note": "Already registered in the source-tree data/periods.json (Historian); copied here unchanged for reference — no new registration needed."
    },
    "OHM_2690836": {
     "id": "OHM_2690836",
@@ -60,7 +60,8 @@
      "british-occupied-kingdom-of-egypt",
      "ottoman-egypt-muhammad-ali-dynasty"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2690843": {
     "id": "OHM_2690843",
@@ -77,7 +78,8 @@
     "used_by": [
      "ethiopian-empire-solomonic"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2744372": {
     "id": "OHM_2744372",
@@ -94,8 +96,9 @@
     "used_by": [
      "republic-of-egypt"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2803204": {
     "id": "OHM_2803204",
@@ -112,8 +115,9 @@
     "used_by": [
      "british-occupied-kingdom-of-egypt"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2803205": {
     "id": "OHM_2803205",
@@ -130,8 +134,9 @@
     "used_by": [
      "british-occupied-kingdom-of-egypt"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2803441": {
     "id": "OHM_2803441",
@@ -148,8 +153,9 @@
     "used_by": [
      "ethiopian-empire-solomonic"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2803446": {
     "id": "OHM_2803446",
@@ -166,8 +172,9 @@
     "used_by": [
      "ethiopian-empire-solomonic"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2809431": {
     "id": "OHM_2809431",
@@ -184,8 +191,9 @@
     "used_by": [
      "kanem-empire"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2828408": {
     "id": "OHM_2828408",
@@ -202,10 +210,11 @@
     "used_by": [
      "republic-of-egypt"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
     "corroborated_by": [
      "EXT_NE_ADMIN0"
-    ]
+    ],
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2828409": {
     "id": "OHM_2828409",
@@ -222,8 +231,9 @@
     "used_by": [
      "republic-of-egypt"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2839468": {
     "id": "OHM_2839468",
@@ -240,8 +250,9 @@
     "used_by": [
      "republic-of-egypt"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2839930": {
     "id": "OHM_2839930",
@@ -259,8 +270,9 @@
      "central-african-republic-ubangi-shari",
      "french-chad-republic-of-chad"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2839931": {
     "id": "OHM_2839931",
@@ -278,8 +290,9 @@
      "central-african-republic-ubangi-shari",
      "french-chad-republic-of-chad"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2852460": {
     "id": "OHM_2852460",
@@ -296,8 +309,9 @@
     "used_by": [
      "kingdom-of-aksum"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2860225": {
     "id": "OHM_2860225",
@@ -314,8 +328,9 @@
     "used_by": [
      "kingdom-of-aksum"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2878087": {
     "id": "OHM_2878087",
@@ -332,8 +347,9 @@
     "used_by": [
      "republic-of-egypt"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2878088": {
     "id": "OHM_2878088",
@@ -350,8 +366,9 @@
     "used_by": [
      "republic-of-egypt"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2918030": {
     "id": "OHM_2918030",
@@ -369,8 +386,9 @@
      "central-african-republic-ubangi-shari",
      "french-chad-republic-of-chad"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2921538": {
     "id": "OHM_2921538",
@@ -387,8 +405,9 @@
     "used_by": [
      "ottoman-egypt-muhammad-ali-dynasty"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2923091": {
     "id": "OHM_2923091",
@@ -405,7 +424,8 @@
     "used_by": [
      "ethiopian-empire-solomonic"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2926750": {
     "id": "OHM_2926750",
@@ -422,7 +442,8 @@
     "used_by": [
      "british-occupied-kingdom-of-egypt"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2926752": {
     "id": "OHM_2926752",
@@ -439,7 +460,8 @@
     "used_by": [
      "british-occupied-kingdom-of-egypt"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2951102": {
     "id": "OHM_2951102",
@@ -456,8 +478,9 @@
     "used_by": [
      "ottoman-egypt-muhammad-ali-dynasty"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2951103": {
     "id": "OHM_2951103",
@@ -474,8 +497,9 @@
     "used_by": [
      "ottoman-egypt-muhammad-ali-dynasty"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2960086": {
     "id": "OHM_2960086",
@@ -492,7 +516,8 @@
     "used_by": [
      "mamluk-sultanate"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2960087": {
     "id": "OHM_2960087",
@@ -509,7 +534,8 @@
     "used_by": [
      "mamluk-sultanate"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2960092": {
     "id": "OHM_2960092",
@@ -526,7 +552,8 @@
     "used_by": [
      "mamluk-sultanate"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2960093": {
     "id": "OHM_2960093",
@@ -543,7 +570,8 @@
     "used_by": [
      "mamluk-sultanate"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2960095": {
     "id": "OHM_2960095",
@@ -560,7 +588,8 @@
     "used_by": [
      "mamluk-sultanate"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2960096": {
     "id": "OHM_2960096",
@@ -577,7 +606,8 @@
     "used_by": [
      "mamluk-sultanate"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2960097": {
     "id": "OHM_2960097",
@@ -594,7 +624,8 @@
     "used_by": [
      "mamluk-sultanate"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2960098": {
     "id": "OHM_2960098",
@@ -611,8 +642,9 @@
     "used_by": [
      "mamluk-sultanate"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources.",
-    "status": "reference-only"
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "status": "reference-only",
+    "internal_note": "Used by Map Designer."
    },
    "OHM_2960099": {
     "id": "OHM_2960099",
@@ -629,7 +661,8 @@
     "used_by": [
      "mamluk-sultanate"
     ],
-    "note": "Map Designer extent geometry; era-level text sources are listed separately in each feature's sources."
+    "note": "Extent geometry source; era-level text sources are listed separately in each feature's sources.",
+    "internal_note": "Used by Map Designer."
    },
    "WD:Q584387": {
     "id": "WD:Q584387",
@@ -830,7 +863,8 @@
     "used_by": [
      "anglo-egyptian-sudan-condominium"
     ],
-    "note": "Used for the 1916–1934 version SE (Kenya) edge and Ilemi south edge (ruling 3, 2026-10-27); rest of the 1916–34 outline matches within ≈0.1°. VERIFY."
+    "note": "Used for the 1916–1934 south-east (Kenya) edge and the Ilemi south edge; the rest of the 1916–34 outline matches within about 0.1°. VERIFY.",
+    "internal_note": "Ruling 3 (2026-10-27)."
    },
    "WO_GSGS_1904": {
     "id": "WO_GSGS_1904",
@@ -844,7 +878,8 @@
     "used_by": [
      "anglo-egyptian-sudan-condominium"
     ],
-    "note": "Used for the 1899–1902 and 1902–1910 versions: Darfur edge, NW 1899 Anglo-French line, Dar Fertit/Kafia Kingi edge. LoC catalogue record (LCCN 2013590282) gives London, lithographed September 1904; the Khartoum May 1904 compilation is read from the sheet imprint. Both may apply; see the Historian registry entry. Sheet note: positions in S and W Kordofan and Bahr el Ghazal from route sketches, not accurate. APPROXIMATE, VERIFY."
+    "note": "Used for the 1899–1902 and 1902–1910 versions: Darfur edge, NW 1899 Anglo-French line, Dar Fertit/Kafia Kingi edge. LoC catalogue record (LCCN 2013590282) gives London, lithographed September 1904; the Khartoum May 1904 compilation is read from the sheet imprint. Both may apply. Sheet note: positions in S and W Kordofan and Bahr el Ghazal from route sketches, not accurate. APPROXIMATE, VERIFY.",
+    "internal_note": "See the Historian registry entry."
    },
    "AUC_GSGS_1939": {
     "id": "AUC_GSGS_1939",
