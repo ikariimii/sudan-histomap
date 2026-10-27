@@ -625,7 +625,8 @@
    "source_ids": [
     "BRE_AES",
     "HD2011",
-    "IBS18_1962"
+    "IBS18_1962",
+    "WO_GSGS_1914"
    ],
    "ohm_ids": [
     2831546,
@@ -635,7 +636,7 @@
     2803203
    ],
    "cshapes": null,
-   "notes": "OHM Anglo-Egyptian Sudan series: 1899-06-19→1902, 1902→1910-06-10, 1910-06-10→1912, 1912→1934, 1934→1956-01-01, all without source tags. CShapes 2.0 also covers dependencies from 1886, but it is CC BY-NC-SA, so do not use it for shapes. Pass 16: Halaib Triangle and Bir Tawil dates under 'disputed_features' (IBS18_1962 primary for 1899/1902/1958).",
+   "notes": "OHM Anglo-Egyptian Sudan series: 1899-06-19→1902, 1902→1910-06-10, 1910-06-10→1912, 1912→1934, 1934→1956-01-01, all without source tags. CShapes 2.0 also covers dependencies from 1886, but it is CC BY-NC-SA, so do not use it for shapes. Pass 16: Halaib Triangle and Bir Tawil dates under 'disputed_features' (IBS18_1962 primary for 1899/1902/1958). Ruling 1 (2026-10-27): 1910–1916 Darfur edge from WO_GSGS_1914 (LoC, public domain), replacing the modern HDX proxy; APPROXIMATE, VERIFY. 1928 sheet (WO_GSGS_1928) checked against 1916–34: SE corner differs, not changed.",
    "disputed_features": {
     "halaib": {
      "start": 1902,
