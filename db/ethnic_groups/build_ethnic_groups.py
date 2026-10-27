@@ -32,6 +32,7 @@ def badges(b, extra=()):
     return b
 def name(g): return f'{g["name_en"]} ({g["endonym"]})' if g.get("endonym") else g["name_en"]
 G = {g["id"]: g for g in EG["groups"]}
+AAR = J("db/ethnic_groups/anchor_ar.json")["anchors"]  # working Arabic for anchors (Map Designer)
 feats = []
 for gid, g in G.items():
     a = g.get("area") or {}
@@ -51,7 +52,8 @@ for gid, g in G.items():
         cc = an.get("cite") or {}
         feats.append({"type":"Feature","geometry":{"type":"Point","coordinates":[lon, lat]},"properties":dict(base, **{
             "id": f"eg-{gid}-anchor-{i+1}", "kind": "anchor", "label_en": f'{label}: {an.get("role")}' if an.get("role") else label,
-            "label_ar": None, "badges": badges(an.get("badges"), ["APPROXIMATE"]), "source_ids": [cid(cc)] if cid(cc) else [],
+            "label_ar": ar(AAR.get(f"eg-{gid}-anchor-{i+1}", {}).get("label_ar")), "detail_ar": ar(AAR.get(f"eg-{gid}-anchor-{i+1}", {}).get("detail_ar")),
+            "badges": badges(an.get("badges"), ["APPROXIMATE"]), "source_ids": [cid(cc)] if cid(cc) else [],
             "cite": cc, "coord_source": csrc, "note": an.get("note"), "geometry_from": "db/ethnic_groups.json"})})
 def add_points(fc, src):
     for f in fc["features"]:
