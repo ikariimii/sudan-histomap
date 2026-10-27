@@ -1346,12 +1346,10 @@
   },
   {
    "date": null,
-   "en": "From Garama (Jerma), the Garamantes dominate the Fezzan and levy tribute on surrounding tribes",
-   "ar": "من جرمة يهيمن الجرمنت على فزان ويفرضون الخراج على القبائل المحيطة [يحتاج تحقق]",
-   "cite": {
-    "source_id": "GHA2_CH20",
-    "pages": "p.522"
-   }
+   "en": "",
+   "ar": "",
+   "cite": "NO-SOURCE",
+   "removed": "No year found: GHA II p.522 says only that from Garama the Garamantes 'soon wielded supremacy over the whole of the Fezzan' and that they were 'mentioned by Herodotus as early as the fifth century before our era'; neither dates the supremacy/tribute. Line deleted (IM QA: undated event dropped at build)."
   }
  ],
  "libya-ottoman-italian-independent": [
@@ -1604,13 +1602,16 @@
  ],
  "musabba-at-sultanate-kordofan": [
   {
-   "date": null,
+   "date": 1762,
    "en": "Exiled Keira faction contesting Kordofan with Funj and Darfur, late 17th–18th c.",
    "ar": "فرع منفي من الكيرا نازع الفونج ودارفور على كردفان، أواخر القرن السابع عشر–القرن الثامن عشر",
    "cite": {
     "source_id": "GHA5_CH7",
-    "pages": "pp.187–189"
-   }
+    "pages": "pp.187–189",
+    "cite_text": "'the Musabba'ät, who must have regained power in Kordofan after the withdrawal of Abu Likaylik in 1761-2' (p.189)"
+   },
+   "approx": true,
+   "date_note": "GHA V p.189: the Musabba'at 'must have regained power in Kordofan after the withdrawal of Abu Likaylik in 1761-2'; year = end of that range, approximate (the late 17th c. start is not dated in print)"
   }
  ]
 }

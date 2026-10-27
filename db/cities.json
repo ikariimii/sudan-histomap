@@ -1029,15 +1029,20 @@
      "role": "religious",
      "start": null,
      "end": null,
-     "source_id": "GHA2_CH6",
-     "page": "203",
-     "note": "Isis cult centre"
+     "badge": "VERIFY",
+     "source_id": "GHA2_CH10",
+     "page": "287",
+     "note": "In the Ergamenos (Ptolemaic-period) section: 'we have sanctuaries of common Egyptian and Nubian dedication at Philae and at Dakka in Lower Nubia' (GHA II p.287). Previous cite GHA II p.203 only says a temple at Debod was 'not far from Philae'; replaced."
     }
    ],
    "history_en": "Island temple site; seat of bishops from the 4th century.",
    "history_ar": "جزيرة معابد، مقر أساقفة منذ القرن الرابع.",
    "history_ar_status": "working translation — needs native review",
    "source_ids": [
+    {
+     "id": "GHA2_CH10",
+     "page": "287"
+    },
     {
      "id": "GHA2_CH10",
      "page": "295"
@@ -1047,27 +1052,23 @@
      "page": "331"
     },
     {
-     "id": "GHA2_CH6",
-     "page": "203"
-    },
-    {
      "id": "WIKIDATA_CITIES",
      "page": "Q245062"
     }
    ],
    "first_attested": {
-    "year": 300,
-    "badge": "FIRST_ATTESTED",
-    "source_id": "GHA2_CH12",
-    "page": "331",
-    "basis": "bishops resided on Philae \"since the fourth century\" (year = start of century)"
+    "year": -305,
+    "badge": "FIRST_ATTESTED+VERIFY",
+    "source_id": "GHA2_CH10",
+    "page": "287",
+    "basis": "Ptolemaic-period mention of 'sanctuaries of common Egyptian and Nubian dedication at Philae'; the page gives no year, so year = start bound of era ptolemaic-egypt (era bound, not a dated mention). Was 300 (bishops 'since the fourth century', GHA II p.331), which fell after the only assigned era and never drew."
    },
    "history_source": {
     "source_id": "GHA2_CH12",
     "page": "331"
    },
    "map_from": {
-    "year": 300,
+    "year": -305,
     "basis": "first_attested"
    },
    "last_attested": {

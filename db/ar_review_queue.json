@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 1122
+      "sentence_items": 1121
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -16708,20 +16708,6 @@
       "badge": "VERIFY",
       "field_en": "en",
       "revised_english": "Proconsul Cornelius Balbus raids the kingdom of the Garamantes of the Fezzan, 19 BC",
-      "reason": "New working translation (IM QA ke28) of the key-event English; names reuse Arabic forms already in our data. Not from a published Arabic edition.",
-      "action": "native review",
-      "origin_commit": "pending",
-      "added": "2026-10-27",
-      "note": "needs native Arabic review [يحتاج تحقق]"
-    },
-    {
-      "era_id": "garamantes-fezzan",
-      "file": "data/era_events.json",
-      "field_ar": "garamantes-fezzan[1].ar",
-      "arabic_sentence": "من جرمة يهيمن الجرمنت على فزان ويفرضون الخراج على القبائل المحيطة [يحتاج تحقق]",
-      "badge": "VERIFY",
-      "field_en": "en",
-      "revised_english": "From Garama (Jerma), the Garamantes dominate the Fezzan and levy tribute on surrounding tribes",
       "reason": "New working translation (IM QA ke28) of the key-event English; names reuse Arabic forms already in our data. Not from a published Arabic edition.",
       "action": "native review",
       "origin_commit": "pending",
