@@ -1,116 +1,121 @@
 {
- "layer": "ethnic_groups",
- "status": "DRAFT for review (Sudan Map Designer, 2026-10-27); not wired into the build",
- "purpose": "Show where South Sudanese and borderland communities (Shilluk, Azande, Dinka, Nuer, Anuak; more as the Historian adds them) are attested, as an overlay inside the eras where they are present, instead of as timeline eras.",
- "neutrality": [
-  "One ink, one pattern and one symbol for every group: no per-group colour ranking, no size or weight by population or political status.",
-  "Labels are the group's self-name with the common exonym, e.g. 'Dinka (Jieng)'; alphabetical draw/legend order.",
-  "No 'kingdom/tribe' wording in the layer; polity history stays in era text written by the Historian.",
-  "Areas are anchor zones or text-derived limit points, never borders; no fill that reads as territory/control."
- ],
- "symbology": {
-  "ink": "#a278ba",
-  "outline": "#0f1b24",
-  "halo": "#e8e2d0",
-  "area": {
-   "fill": "none (no solid fill)",
-   "pattern": {
-    "type": "dot-stipple",
-    "dot_colour": "#a278ba",
-    "dot_radius_px": 1.25,
-    "spacing_px": 7,
-    "offset_rows": true,
-    "halo_under_dots_px": 0.75
-   },
-   "edge": {
-    "colour": "#a278ba",
-    "width_px": 1.5,
-    "dash": [
-     1,
-     3
-    ],
-    "cap": "round",
-    "casing": {
-     "colour": "#e8e2d0",
-     "width_px": 3.5
-    }
-   },
-   "why": "stipple is unused by other layers (hatch = APPROXIMATE/CONTESTED, solid = polity fill), so it reads as 'people present', not control"
-  },
-  "marker": {
-   "shape": "open ring",
-   "radius_px": 6,
-   "stroke": "#a278ba",
-   "stroke_px": 2.5,
-   "halo_px": 2,
-   "halo": "#e8e2d0",
-   "inner_outline": "#0f1b24",
-   "inner_outline_px": 1
-  },
-  "overlap": {
-   "rule": "where two groups share an area or point (shared_with not null), both are drawn; areas stipple-on-stipple with offset grids, points as a split ring (two half-rings, alphabetical left/right) labelled 'shared: A / B' (no CONTESTED badge unless a source states a dispute)",
-   "contested": "only where a cited source states a dispute: add canonical CONTESTED badge and the project's contested hatch over the stipple; none in the current draft"
-  },
-  "label": {
-   "font": "site UI sans",
-   "size_px": 12,
-   "weight": "regular",
-   "colour_dark_bg": "#e8e2d0",
-   "colour_light_bg": "#0f1b24",
-   "halo": "2px opposite colour",
-   "ar": "label_ar, RTL, same size; shows [يحتاج تحقق] chip until reviewed; null -> EN only"
-  },
-  "approximate": "APPROXIMATE features keep the same stipple at 60% dot density plus the existing APPROXIMATE chip; no extra colour"
- },
- "contrast_measured": {
-  "ink_vs_dark_#0f1b24": 4.93,
-  "ink_vs_light_#f2f4f7": 3.21,
-  "halo_vs_dark": 13.49,
-  "outline_vs_light": 15.85,
-  "ink_dE00_vs_culture_inks_and_halo": 16.4,
-  "ink_dE00_cvd_vs_culture_inks_and_halo": 10.2,
-  "ink_dE00_vs_all_era_fills_strokes_min": 11.3,
-  "ink_dE00_cvd_vs_all_era_fills_min": 7.0,
-  "best_of_ink_outline_halo_vs_any_era_fill_min_cr": 3.82,
-  "result": {
-   "4.5:1 dark": "PASS",
-   "3:1 light": "PASS",
-   "dE00>=15 vs culture inks/halo": "PASS",
-   "CVD dE00>=10 vs culture inks/halo": "PASS",
-   "3:1 and dE00 vs every era fill": "FAIL for the ink alone (no colour in the 4.5/3:1 band clears all 37 era fills+strokes; best search result dE00 12.4 / CVD 7.4). Separation from fills relies on the halo/outline pair, as with the culture layers; needs the same IM era-fill waiver."
-  },
-  "method": "WCAG 2 relative luminance; CIEDE2000; CVD via Machado 2009 (protan/deutan/tritan, severity 1.0); era fills = fill/stroke hex in db/legends/eras/*.json + legend_spec.json"
- },
- "data": {
-  "file": "db/ethnic_groups/ethnic_groups.geojson",
-  "builder": "db/ethnic_groups/build_ethnic_groups.py",
-  "properties": [
-   "id",
-   "group",
-   "name_en",
-   "label_en",
-   "label_ar",
-   "detail_en",
-   "detail_ar",
-   "kind (area|marker)",
-   "present_start",
-   "present_end",
-   "present_eras",
-   "badges (canonical only)",
-   "source_ids",
-   "cite",
-   "shared_with",
-   "geometry_from"
+  "layer": "ethnic_groups",
+  "status": "DRAFT for review (Sudan Map Designer, 2026-10-27); not wired into the build",
+  "purpose": "Show where South Sudanese and borderland communities (Shilluk, Azande, Dinka, Nuer, Anuak; more as the Historian adds them) are attested, as an overlay inside the eras where they are present, instead of as timeline eras.",
+  "neutrality": [
+    "One ink, one pattern and one symbol for every group: no per-group colour ranking, no size or weight by population or political status.",
+    "Labels are the group's self-name with the common exonym, e.g. 'Dinka (Jieng)'; alphabetical draw/legend order.",
+    "No 'kingdom/tribe' wording in the layer; polity history stays in era text written by the Historian.",
+    "Areas are anchor zones or text-derived limit points, never borders; no fill that reads as territory/control."
   ],
-  "era_rule": "show a feature in an era when present_eras contains the era id, else when [present_start,present_end] overlaps the era span"
- },
- "needs_from_historian": [
-  "ethnic-group records (one per group) with stable group id, EN name + self-name, AR name, and cited presence spans (start/end or era-id list) to replace the spans copied from the old community eras (Dinka/Nuer/Anuak 1500-2026 and Shilluk 1490-1861 are era spans, not attested presence)",
-  "for each group, cited place anchors (cities.json place_ids or Wikidata) for areas the layer should mark; the current draft has only 11 features and no Azande, Nuer or Anuak homeland points with geometry (homelands.geojson grp-azande-homeland / grp-nuer-homeland have null geometry)",
-  "a cited source for the Shilluk area: the only polygon is OHM_2856878 (CC0, no source tag), kept as VERIFY",
-  "any cited statement of shared/disputed areas (to set shared_with / CONTESTED)",
-  "Arabic review of all label_ar (all tagged [يحتاج تحقق])",
-  "whether further groups (e.g. Murle, Bari, Toposa, Fur/Masalit for the north) belong in the same layer",
-  "once periods.json drops the five community eras, the Map Designer removes their extents/legends/group layer and repoints geometry_from"
- ]
+  "symbology": {
+    "ink": "#a278ba",
+    "outline": "#0f1b24",
+    "halo": "#e8e2d0",
+    "area": {
+      "fill": "none (no solid fill)",
+      "pattern": {
+        "type": "dot-stipple",
+        "dot_colour": "#a278ba",
+        "dot_radius_px": 1.25,
+        "spacing_px": 7,
+        "offset_rows": true,
+        "halo_under_dots_px": 0.75
+      },
+      "edge": {
+        "colour": "#a278ba",
+        "width_px": 1.5,
+        "dash": [
+          1,
+          3
+        ],
+        "cap": "round",
+        "casing": {
+          "colour": "#e8e2d0",
+          "width_px": 3.5
+        }
+      },
+      "why": "stipple is unused by other layers (hatch = APPROXIMATE/CONTESTED, solid = polity fill), so it reads as 'people present', not control"
+    },
+    "marker": {
+      "shape": "open ring",
+      "radius_px": 6,
+      "stroke": "#a278ba",
+      "stroke_px": 2.5,
+      "halo_px": 2,
+      "halo": "#e8e2d0",
+      "inner_outline": "#0f1b24",
+      "inner_outline_px": 1
+    },
+    "overlap": {
+      "rule": "where two groups share an area or point (shared_with not null), both are drawn; areas stipple-on-stipple with offset grids, points as a split ring (two half-rings, alphabetical left/right) labelled 'shared: A / B' (no CONTESTED badge unless a source states a dispute)",
+      "contested": "only where a cited source states a dispute: add canonical CONTESTED badge and the project's contested hatch over the stipple; none in the current draft"
+    },
+    "label": {
+      "font": "site UI sans",
+      "size_px": 12,
+      "weight": "regular",
+      "colour_dark_bg": "#e8e2d0",
+      "colour_light_bg": "#0f1b24",
+      "halo": "2px opposite colour",
+      "ar": "label_ar, RTL, same size; shows [يحتاج تحقق] chip until reviewed; null -> EN only"
+    },
+    "approximate": "APPROXIMATE features keep the same stipple at 60% dot density plus the existing APPROXIMATE chip; no extra colour"
+  },
+  "contrast_measured": {
+    "ink_vs_dark_#0f1b24": 4.93,
+    "ink_vs_light_#f2f4f7": 3.21,
+    "halo_vs_dark": 13.49,
+    "outline_vs_light": 15.85,
+    "ink_dE00_vs_culture_inks_and_halo": 16.4,
+    "ink_dE00_cvd_vs_culture_inks_and_halo": 10.2,
+    "ink_dE00_vs_all_era_fills_strokes_min": 11.3,
+    "ink_dE00_cvd_vs_all_era_fills_min": 7.0,
+    "best_of_ink_outline_halo_vs_any_era_fill_min_cr": 3.82,
+    "result": {
+      "4.5:1 dark": "PASS",
+      "3:1 light": "PASS",
+      "dE00>=15 vs culture inks/halo": "PASS",
+      "CVD dE00>=10 vs culture inks/halo": "PASS",
+      "3:1 and dE00 vs every era fill": "FAIL for the ink alone (no colour in the 4.5/3:1 band clears all 37 era fills+strokes; best search result dE00 12.4 / CVD 7.4). Separation from fills relies on the halo/outline pair, as with the culture layers; needs the same IM era-fill waiver."
+    },
+    "method": "WCAG 2 relative luminance; CIEDE2000; CVD via Machado 2009 (protan/deutan/tritan, severity 1.0); era fills = fill/stroke hex in db/legends/eras/*.json + legend_spec.json"
+  },
+  "data": {
+    "file": "db/ethnic_groups/ethnic_groups.geojson",
+    "builder": "db/ethnic_groups/build_ethnic_groups.py",
+    "properties": [
+      "id",
+      "group",
+      "name_en",
+      "label_en",
+      "label_ar",
+      "detail_en",
+      "detail_ar",
+      "kind (area|marker)",
+      "present_start",
+      "present_end",
+      "present_eras",
+      "badges (canonical only)",
+      "source_ids",
+      "cite",
+      "shared_with",
+      "geometry_from"
+    ],
+    "era_rule": "show a feature in an era when present_eras contains the era id, else when [present_start,present_end] overlaps the era span"
+  },
+  "needs_from_historian": [
+    "ethnic-group records (one per group) with stable group id, EN name + self-name, AR name, and cited presence spans (start/end or era-id list) to replace the spans copied from the old community eras (Dinka/Nuer/Anuak 1500-2026 and Shilluk 1490-1861 are era spans, not attested presence)",
+    "for each group, cited place anchors (cities.json place_ids or Wikidata) for areas the layer should mark; the current draft has only 11 features and no Azande, Nuer or Anuak homeland points with geometry (homelands.geojson grp-azande-homeland / grp-nuer-homeland have null geometry)",
+    "a cited source for the Shilluk area: the only polygon is OHM_2856878 (CC0, no source tag), kept as VERIFY",
+    "any cited statement of shared/disputed areas (to set shared_with / CONTESTED)",
+    "Arabic review of all label_ar (all tagged [يحتاج تحقق])",
+    "whether further groups (e.g. Murle, Bari, Toposa, Fur/Masalit for the north) belong in the same layer",
+    "once periods.json drops the five community eras, the Map Designer removes their extents/legends/group layer and repoints geometry_from"
+  ],
+  "era_fill_waiver": {
+    "granted_by": "Innovation Manager",
+    "date": "2026-10-27",
+    "rule": "Ink #a278ba is exempt from dE00>=15 and 3:1 against era fills; the #e8e2d0 halo and #0f1b24 outline must keep >=3.82:1 against every era fill. Same waiver as culture layers; to be noted in methodology."
+  }
 }
