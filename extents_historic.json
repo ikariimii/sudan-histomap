@@ -409,11 +409,12 @@
    "control_limits_ar": "«كانت النوبة العليا، فوق الشلال الثالث، تحت سيادة حكام الفونج»، بينما كانت النوبة السفلى (من الشلال الأول إلى الثالث) تابعة «اسمياً على الأقل» لمصر العثمانية (هولت وديلي). و«كانت كردفان أرضاً متنازعاً عليها بين حكام سنار ودارفور». وبحلول 1523 امتدت سلطنة الفونج شمالاً حتى دنقلا، وبعد 1585 صارت حنّيك جنوب الشلال الثالث حدّاً بين الفونج والعثمانيين (نص السفارة الصينية).",
    "source_ids": [
     "HD2011",
-    "ZH_EMB_HIST2020"
+    "ZH_EMB_HIST2020",
+    "GHA5_CH7"
    ],
    "ohm_ids": [],
    "cshapes": null,
-   "notes": "Sennar anchored to Wikidata Q611867 / GeoNames 367644. The capital in 1821 (old Sennar) may not coincide exactly with the modern town; flagged. Southern and eastern limits (Fazughli, Ethiopian marches) were not found in the sources read (HD2011 intro pp.1–9 only); still open.",
+   "notes": "Sennar anchored to Wikidata Q611867 / GeoNames 367644. The capital in 1821 (old Sennar) may not coincide exactly with the modern town; flagged. Southern and eastern limits (Fazughli, Ethiopian marches) were not found in the sources read (HD2011 intro pp.1–9 only); still open. IM ruling 3 (2026-10-27): c.1700 north limit at Third Cataract/Hannik (GHA5_CH7 pp.174–175; geometry unchanged, claimed zone stops at Old Dongola); direct rule to Hadjar al-'Asal, indirect beyond (not split, no coordinate); Shaykiyya independent after c.1650, VERIFY; SPAULDING1985 not on the box; Suakin Ottoman.",
    "license": "Wikidata coordinates: CC0; limit text: short quotations from cited works",
    "ohm_source_ids": [],
    "geojson": null
@@ -595,11 +596,13 @@
    "control_limits_en": "After Shaykan (1883) the Mahdists controlled Kordofan, Darfur and Bahr al-Ghazal; 'Uthman Digna took the east except Sawakin (Suakin)' (GHA7_CH4). Losses: Tushki 1889, Tokar 1891, Kassala 1894 (GHA7_CH4).",
    "control_limits_ar": "بعد شيكان (1883) سيطر المهديون على كردفان ودارفور وبحر الغزال، واستولى عثمان دقنة على الشرق كله عدا سواكن (تاريخ أفريقيا العام VII، الفصل 4). وخسائر لاحقة: توشكي 1889، وطوكر 1891، وكسلا 1894.",
    "source_ids": [
-    "GHA7_CH4"
+    "GHA7_CH4",
+    "SLATIN1896",
+    "WINGATE1891"
    ],
    "ohm_ids": [],
    "cshapes": null,
-   "notes": "The control_limits_en text paraphrases my earlier GHA VII summary rather than quoting it verbatim. Southern limit (Equatoria) not stated.",
+   "notes": "The control_limits_en text paraphrases my earlier GHA VII summary rather than quoting it verbatim. Southern limit (Equatoria) not stated. IM ruling 2 (2026-10-27): east extended to Kassala, Gallabat and the Red Sea hills; Suakin and Tokar excluded (Tokar reoccupied 19 Feb 1891, WINGATE1891; not versioned); western Darfur a separate hatched contested/nominal feature (SLATIN1896 pp.456, 474–475, 537), split line editorial, APPROXIMATE, VERIFY. LoC 1991 used as comparison only (disclaimer).",
    "license": "Wikidata coordinates: CC0; limit text: short quotations from cited works",
    "ohm_source_ids": [],
    "geojson": null
@@ -629,7 +632,8 @@
     "WO_GSGS_1914",
     "WO_GSGS_1904",
     "AUC_GSGS_1939",
-    "ILEMI_PCGN_SSD2024"
+    "ILEMI_PCGN_SSD2024",
+    "GLEICHEN1905_V1"
    ],
    "ohm_ids": [
     2831546,
@@ -639,7 +643,7 @@
     2803203
    ],
    "cshapes": null,
-   "notes": "OHM Anglo-Egyptian Sudan series: 1899-06-19→1902, 1902→1910-06-10, 1910-06-10→1912, 1912→1934, 1934→1956-01-01, all without source tags. CShapes 2.0 also covers dependencies from 1886, but it is CC BY-NC-SA, so do not use it for shapes. Pass 16: Halaib Triangle and Bir Tawil dates under 'disputed_features' (IBS18_1962 primary for 1899/1902/1958). Ruling 1 (2026-10-27): 1910–1916 Darfur edge from WO_GSGS_1914 (LoC, public domain), replacing the modern HDX proxy; APPROXIMATE, VERIFY. 1928 sheet (WO_GSGS_1928) checked against 1916–34: SE corner differs, not changed. Ruling 3 (2026-10-27): 1899–1910 Darfur, NW and Dar Fertit edges from WO_GSGS_1904 (LoC, PD); 1916–34 SE edge from WO_GSGS_1928 and 1934–56 SE edge from AUC_GSGS_1939 (PD); Ilemi Triangle added as separate CONTESTED hatched feature, start 1928 (ILEMI_PCGN_SSD2024 p.3), north edge = OHM line (not a sourced limit); APPROXIMATE, VERIFY.",
+   "notes": "OHM Anglo-Egyptian Sudan series: 1899-06-19→1902, 1902→1910-06-10, 1910-06-10→1912, 1912→1934, 1934→1956-01-01, all without source tags. CShapes 2.0 also covers dependencies from 1886, but it is CC BY-NC-SA, so do not use it for shapes. Pass 16: Halaib Triangle and Bir Tawil dates under 'disputed_features' (IBS18_1962 primary for 1899/1902/1958). Ruling 1 (2026-10-27): 1910–1916 Darfur edge from WO_GSGS_1914 (LoC, public domain), replacing the modern HDX proxy; APPROXIMATE, VERIFY. 1928 sheet (WO_GSGS_1928) checked against 1916–34: SE corner differs, not changed. Ruling 3 (2026-10-27): 1899–1910 Darfur, NW and Dar Fertit edges from WO_GSGS_1904 (LoC, PD); 1916–34 SE edge from WO_GSGS_1928 and 1934–56 SE edge from AUC_GSGS_1939 (PD); Ilemi Triangle added as separate CONTESTED hatched feature, start 1928 (ILEMI_PCGN_SSD2024 p.3), north edge = OHM line (not a sourced limit); APPROXIMATE, VERIFY. Badges round (2026-10-27): 1899 NW line GLEICHEN1905_V1 p.285; Darfur edges APPROXIMATE (p.184); Lado 1910 VERIFY (only 1909 treaty cited); Sarra 1934 exact day CONTESTED; Ilemi ≈4.6N line undated by any source, VERIFY.",
    "disputed_features": {
     "halaib": {
      "start": 1902,

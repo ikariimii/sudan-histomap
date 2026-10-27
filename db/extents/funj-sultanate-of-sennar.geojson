@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "notes": "Points only. North: Third Cataract / Hannik (after 1585) and Dongola (by 1523). Kordofan contested with Darfur. Southern and eastern limits (Fazughli, Ethiopian marches) not found in the sources read: open, unsourced.",
+ "notes": "Points only. North: Third Cataract / Hannik (after 1585) and Dongola (by 1523). Kordofan contested with Darfur. Southern and eastern limits (Fazughli, Ethiopian marches) not found in the sources read: open, unsourced. IM ruling 3 (2026-10-27), c.1700: north limit = border of Ottoman Nubia at the Third Cataract / Hannik (GHA V ch.7 pp.174–175: frontier consolidated at Hannik c.1622, halfway between the Third Cataract and Mushu). Geometry unchanged: the claimed zone already stops at Old Dongola, south of Hannik (its northern lobe at ≈19.8N is the Abu Hamed Nile bend, not the Ottoman border); Hannik has no sourced coordinate, so the zone is not extended to it. Direct rule of the Abdallab (wad 'Adjib) to Hadjar al-'Asal, indirect to the Ottoman border (GHA V p.174): not split, Hadjar al-'Asal has no sourced coordinate. Shaykiyya independent from about the mid-17th century (GHA V p.174): not drawn separately, VERIFY. SPAULDING1985 registered but its text is not on the box; not consulted. Suakin stays Ottoman (outside this extent). Zones mode: a re-run of promote_drafts.py from db/border_drafts may overwrite this note.",
  "features": [
   {
    "type": "Feature",
@@ -515,7 +515,8 @@
     },
     "draft_version": "bd-0.1 2026-10-24",
     "confidence_style": "hatched",
-    "reason": ""
+    "reason": "",
+    "note": "IM ruling 3 (2026-10-27), c.1700: north limit = border of Ottoman Nubia at the Third Cataract / Hannik (GHA V ch.7 pp.174–175: frontier consolidated at Hannik c.1622, halfway between the Third Cataract and Mushu). Geometry unchanged: the claimed zone already stops at Old Dongola, south of Hannik (its northern lobe at ≈19.8N is the Abu Hamed Nile bend, not the Ottoman border); Hannik has no sourced coordinate, so the zone is not extended to it. Direct rule of the Abdallab (wad 'Adjib) to Hadjar al-'Asal, indirect to the Ottoman border (GHA V p.174): not split, Hadjar al-'Asal has no sourced coordinate. Shaykiyya independent from about the mid-17th century (GHA V p.174): not drawn separately, VERIFY. SPAULDING1985 registered but its text is not on the box; not consulted. Suakin stays Ottoman (outside this extent). Zones mode: a re-run of promote_drafts.py from db/border_drafts may overwrite this note."
    }
   }
  ],
