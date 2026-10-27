@@ -1,0 +1,368 @@
+{
+ "meta": {
+  "layer": "languages",
+  "built": "2026-10-26",
+  "author": "Sudan Historian",
+  "scope": "pre-1956 eras only",
+  "sources": "GHA chapters in data/periods.json meta.sources; printed footer pages (gha2 PDF-17, ghaiii -22, ghaiv -24, ghav -27, ghavi -27, ghavii -24)",
+  "arabic": "all Arabic is working translation tagged [يحتاج تحقق]; queued in db/ar_review_queue.json",
+  "gaps": [
+   "egyptian-new-kingdom-rule-in-nubia: no people/languages (religion only)",
+   "noba-x-group-ballana-culture: no languages/people sourced",
+   "tunjur-kingdom: Islamic influence noted (GHA5_CH7 p.187) but no locatable place; omitted",
+   "abdallab/alodia: no language entries",
+   "shilluk-kingdom, sultanate-of-darfur-keira: no language entries (no page read gives one)",
+   "Sammaniyya: not found in GHA text; omitted",
+   "turkiyya / condominium: thin; Khatmiyya and Condominium Mahdism points are EDITORIAL placements",
+   "kerma, a-group, c-group, other pre-1956 eras: not covered this pass"
+  ]
+ },
+ "languages": [
+  {
+   "id": "lang-egyptian-napata",
+   "era_ids": [
+    "kingdom-of-kush-napatan-period"
+   ],
+   "name_en": "Egyptian (hieroglyphic inscriptions)",
+   "name_ar": "المصرية القديمة (نقوش هيروغليفية) [يحتاج تحقق]",
+   "script": "Egyptian hieroglyphs",
+   "role": "written (royal monumental)",
+   "region": "Napata / Gebel Barkal",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 280,
+     "quote": "159 lines of hieroglyphs"
+    }
+   ],
+   "name_ar_status": "working translation",
+   "place_id": "jebel-barkal",
+   "point": [
+    18.5368,
+    31.8276
+   ]
+  },
+  {
+   "id": "lang-meroitic-spoken",
+   "era_ids": [
+    "kingdom-of-kush-napatan-period",
+    "kingdom-of-kush-meroitic-period"
+   ],
+   "name_en": "Meroitic",
+   "name_ar": "اللغة المروية [يحتاج تحقق]",
+   "script": "none attested for Napatan speech; later Meroitic scripts",
+   "role": "spoken",
+   "region": "Middle Nile (Kush)",
+   "badges": [
+    "APPROXIMATE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 287,
+     "quote": "Meroitic, the Kushites' own language"
+    },
+    {
+     "source_id": "GHA2",
+     "page": 78,
+     "quote": "The Meroitic language, which was used by the cultures of Napata and Meroe, was still not understood, although the script had already been deciphered."
+    }
+   ],
+   "name_ar_status": "working translation",
+   "place_id": "meroe",
+   "point": [
+    16.93514,
+    33.75075
+   ]
+  },
+  {
+   "id": "lang-meroitic-written",
+   "era_ids": [
+    "kingdom-of-kush-meroitic-period"
+   ],
+   "name_en": "Meroitic (hieroglyphic and cursive)",
+   "name_ar": "الكتابة المروية (الهيروغليفية والمخطوطة) [يحتاج تحقق]",
+   "script": "Meroitic hieroglyphs; Meroitic cursive (23 signs)",
+   "role": "written",
+   "region": "Meroe, Naga",
+   "badges": [
+    "PARTIAL"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 288,
+     "quote": "inscriptions engraved in Meroitic hieroglyphs which are among the most ancient known"
+    },
+    {
+     "source_id": "GHA2_CH10",
+     "page": 289,
+     "quote": "twenty-three signs"
+    },
+    {
+     "source_id": "GHA2_CH11",
+     "page": 318
+    }
+   ],
+   "name_ar_status": "working translation",
+   "place_id": "naqa",
+   "point": [
+    16.26944,
+    33.275
+   ]
+  },
+  {
+   "id": "lang-egyptian-ptolemaic-musawwarat",
+   "era_ids": [
+    "kingdom-of-kush-meroitic-period"
+   ],
+   "name_en": "Egyptian (Ptolemaic-period hymns)",
+   "name_ar": "المصرية (تراتيل من العصر البطلمي) [يحتاج تحقق]",
+   "script": "Egyptian hieroglyphs",
+   "role": "written (temple hymns)",
+   "region": "Musawwarat es-Sufra",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 287,
+     "quote": "Arnekhamani was the king who built the Lion temple at Mussawwarat es-Sufra"
+    }
+   ],
+   "name_ar_status": "working translation",
+   "place_id": "musawwarat",
+   "point": [
+    16.41583,
+    33.32361
+   ]
+  },
+  {
+   "id": "lang-greek-nobadia",
+   "era_ids": [
+    "nobadia"
+   ],
+   "name_en": "Greek (royal inscription of Silko)",
+   "name_ar": "اليونانية (نقش الملك سيلكو) [يحتاج تحقق]",
+   "script": "Greek",
+   "role": "written (royal)",
+   "region": "Kalabsha, Lower Nubia",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 295,
+     "quote": "the Nobatian king Silko boasts of having, by God's help, conquered the Blemmyes"
+    }
+   ],
+   "name_ar_status": "working translation",
+   "place_id": null,
+   "point": null
+  },
+  {
+   "id": "lang-greek-church-nubia",
+   "era_ids": [
+    "makuria"
+   ],
+   "name_en": "Greek (church language)",
+   "name_ar": "اليونانية (لغة الكنيسة) [يحتاج تحقق]",
+   "script": "Greek",
+   "role": "written (church, court titles)",
+   "region": "Christian Nubia",
+   "badges": [],
+   "cites": [
+    {
+     "source_id": "GHA3_CH8",
+     "page": 213,
+     "quote": "Greek remained probably the most important language in the Church"
+    },
+    {
+     "source_id": "GHA3_CH8",
+     "page": 202
+    }
+   ],
+   "name_ar_status": "working translation",
+   "place_id": "faras",
+   "point": [
+    22.2,
+    31.46
+   ]
+  },
+  {
+   "id": "lang-coptic-nubia",
+   "era_ids": [
+    "makuria"
+   ],
+   "name_en": "Coptic",
+   "name_ar": "القبطية [يحتاج تحقق]",
+   "script": "Coptic",
+   "role": "written (church writings, official inscriptions, tombstones)",
+   "region": "Christian Nubia",
+   "badges": [],
+   "cites": [
+    {
+     "source_id": "GHA3_CH8",
+     "page": 213,
+     "quote": "extensively used in Church writings, for official inscriptions and on tombstones"
+    },
+    {
+     "source_id": "GHA3_CH8",
+     "page": 210
+    }
+   ],
+   "name_ar_status": "working translation",
+   "place_id": "faras",
+   "point": [
+    22.2,
+    31.46
+   ]
+  },
+  {
+   "id": "lang-old-nubian",
+   "era_ids": [
+    "makuria"
+   ],
+   "name_en": "Old Nubian",
+   "name_ar": "النوبية القديمة [يحتاج تحقق]",
+   "script": "Coptic alphabet with four added signs",
+   "role": "spoken and written",
+   "region": "Christian Nubia",
+   "badges": [],
+   "cites": [
+    {
+     "source_id": "GHA3_CH8",
+     "page": 213,
+     "quote": "written in the Coptic alphabet … with the addition of four signs"
+    },
+    {
+     "source_id": "GHA3_CH8",
+     "page": 202,
+     "quote": "attested exclusively in the Old Nubian language"
+    }
+   ],
+   "name_ar_status": "working translation",
+   "place_id": "faras",
+   "point": [
+    22.2,
+    31.46
+   ]
+  },
+  {
+   "id": "lang-arabic-dongola-1317",
+   "era_ids": [
+    "makuria"
+   ],
+   "name_en": "Arabic (Dongola tablet, 1317)",
+   "name_ar": "العربية (لوح دنقلا، 1317) [يحتاج تحقق]",
+   "script": "Arabic",
+   "role": "written (commemorative tablet)",
+   "region": "Old Dongola",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA4_CH16",
+     "page": 404
+    }
+   ],
+   "name_ar_status": "working translation",
+   "place_id": "old-dongola",
+   "point": [
+    18.22306,
+    30.74389
+   ]
+  },
+  {
+   "id": "lang-arabic-funj",
+   "era_ids": [
+    "funj-sultanate-of-sennar"
+   ],
+   "name_en": "Arabic",
+   "name_ar": "العربية [يحتاج تحقق]",
+   "script": "Arabic",
+   "role": "spoken and written (religious scholarship)",
+   "region": "Funj realm, Gezira and White Nile",
+   "badges": [
+    "APPROXIMATE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": 179
+    },
+    {
+     "source_id": "GHA5_CH7",
+     "page": 173
+    }
+   ],
+   "name_ar_status": "working translation",
+   "place_id": "sennar",
+   "point": [
+    13.55,
+    33.6
+   ]
+  },
+  {
+   "id": "lang-geez-aksum",
+   "era_ids": [
+    "kingdom-of-aksum"
+   ],
+   "name_en": "Ge'ez",
+   "name_ar": "الجعزية [يحتاج تحقق]",
+   "script": "Ethiopic (vocalized) and pseudo-Himyaritic",
+   "role": "written (royal inscriptions)",
+   "region": "Aksum",
+   "badges": [],
+   "cites": [
+    {
+     "source_id": "GHA2_CH15",
+     "page": 398
+    },
+    {
+     "source_id": "GHA2_CH15",
+     "page": 399
+    }
+   ],
+   "name_ar_status": "working translation",
+   "place_id": "aksum",
+   "point": [
+    14.11667,
+    38.73333
+   ]
+  },
+  {
+   "id": "lang-greek-aksum",
+   "era_ids": [
+    "kingdom-of-aksum"
+   ],
+   "name_en": "Greek (Aksum)",
+   "name_ar": "اليونانية (أكسوم) [يحتاج تحقق]",
+   "script": "Greek",
+   "role": "written (state and international language)",
+   "region": "Aksum",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH15",
+     "page": 398,
+     "quote": "Side by side with Ge'ez, the Greek language was used as a state and international language."
+    }
+   ],
+   "name_ar_status": "working translation",
+   "place_id": "aksum",
+   "point": [
+    14.11667,
+    38.73333
+   ]
+  }
+ ]
+}

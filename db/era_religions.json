@@ -1,0 +1,530 @@
+{
+ "meta": {
+  "layer": "religions",
+  "built": "2026-10-26",
+  "author": "Sudan Historian",
+  "scope": "pre-1956 eras only",
+  "sources": "GHA chapters in data/periods.json meta.sources; printed footer pages (gha2 PDF-17, ghaiii -22, ghaiv -24, ghav -27, ghavi -27, ghavii -24)",
+  "arabic": "all Arabic is working translation tagged [يحتاج تحقق]; queued in db/ar_review_queue.json",
+  "gaps": [
+   "egyptian-new-kingdom-rule-in-nubia: no people/languages (religion only)",
+   "noba-x-group-ballana-culture: no languages/people sourced",
+   "tunjur-kingdom: Islamic influence noted (GHA5_CH7 p.187) but no locatable place; omitted",
+   "abdallab/alodia: no language entries",
+   "shilluk-kingdom, sultanate-of-darfur-keira: no language entries (no page read gives one)",
+   "Sammaniyya: not found in GHA text; omitted",
+   "turkiyya / condominium: thin; Khatmiyya and Condominium Mahdism points are EDITORIAL placements",
+   "kerma, a-group, c-group, other pre-1956 eras: not covered this pass"
+  ]
+ },
+ "religions": [
+  {
+   "id": "rel-amun-jebel-barkal-nk",
+   "era_id": "egyptian-new-kingdom-rule-in-nubia",
+   "name_en": "Cult of Amun (temple at Jebel Barkal)",
+   "name_ar": "عبادة آمون (معبد جبل البركل) [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Jebel Barkal",
+   "place_ids": [
+    "jebel-barkal"
+   ],
+   "badges": [
+    "APPROXIMATE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH9",
+     "page": 268,
+     "quote": "probably also built the great temple of A m o n at Jebel Barkal"
+    },
+    {
+     "source_id": "GHA2_CH9",
+     "page": 270,
+     "quote": "the viceroy of Nubia was also the religious head of the country"
+    }
+   ]
+  },
+  {
+   "id": "rel-amun-napata",
+   "era_id": "kingdom-of-kush-napatan-period",
+   "name_en": "Cult of Amun of Napata",
+   "name_ar": "عبادة آمون نبتة [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Napata, Kawa",
+   "place_ids": [
+    "jebel-barkal",
+    "kawa"
+   ],
+   "badges": [],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 280,
+     "quote": "Amon of Napata has made me sovereign over every people"
+    },
+    {
+     "source_id": "GHA2_CH10",
+     "page": 281,
+     "quote": "cults of Amon and Osiris"
+    }
+   ]
+  },
+  {
+   "id": "rel-amun-meroe",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "name_en": "Amun (supreme god of earlier Meroitic kings)",
+   "name_ar": "آمون (الإله الأعلى لدى ملوك مروي الأوائل) [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Meroe",
+   "place_ids": [
+    "meroe"
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH11",
+     "page": 318,
+     "quote": "earlier Meroitic kings considered Amun the highest god"
+    }
+   ]
+  },
+  {
+   "id": "rel-apedemak",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "name_en": "Apedemak, lion-god",
+   "name_ar": "أباداماك، الإله الأسد [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Musawwarat, Naga",
+   "place_ids": [
+    "musawwarat",
+    "naqa"
+   ],
+   "badges": [],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 287,
+     "quote": "Apedemak the Lion-god"
+    },
+    {
+     "source_id": "GHA2_CH11",
+     "page": 318,
+     "quote": "a warrior god"
+    }
+   ]
+  },
+  {
+   "id": "rel-sebewyemeker",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "name_en": "Sebewyemeker (Sbomeker)",
+   "name_ar": "سبويمكر [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Musawwarat",
+   "place_ids": [
+    "musawwarat"
+   ],
+   "badges": [
+    "APPROXIMATE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH11",
+     "page": 318,
+     "quote": "perhaps the chief local god"
+    },
+    {
+     "source_id": "GHA2_CH10",
+     "page": 287
+    }
+   ]
+  },
+  {
+   "id": "rel-isis-philae",
+   "era_id": "noba-x-group-ballana-culture",
+   "name_en": "Isis cult of Philae",
+   "name_ar": "عبادة إيزيس في فيلة [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Philae",
+   "place_ids": [
+    "philae"
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 295
+    }
+   ]
+  },
+  {
+   "id": "rel-christianity-nobadia",
+   "era_id": "nobadia",
+   "name_en": "Christianity (conversion of the Nobades, 543)",
+   "name_ar": "المسيحية (تنصير النوباديين، 543) [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Nobadia",
+   "place_ids": [
+    "faras"
+   ],
+   "badges": [
+    "APPROXIMATE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 295
+    },
+    {
+     "source_id": "GHA3_CH8",
+     "page": 202
+    }
+   ]
+  },
+  {
+   "id": "rel-christianity-makuria",
+   "era_id": "makuria",
+   "name_en": "Christianity (Monophysite)",
+   "name_ar": "المسيحية (المونوفيزية) [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Makuria",
+   "place_ids": [
+    "old-dongola",
+    "faras",
+    "qasr-ibrim"
+   ],
+   "badges": [],
+   "cites": [
+    {
+     "source_id": "GHA3_CH8",
+     "page": 195
+    },
+    {
+     "source_id": "GHA3_CH8",
+     "page": 213
+    }
+   ]
+  },
+  {
+   "id": "rel-islam-makuria",
+   "era_id": "makuria",
+   "name_en": "Islam (traders, then the Dongola court 1317)",
+   "name_ar": "الإسلام (التجار، ثم بلاط دنقلا 1317) [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Old Dongola",
+   "place_ids": [
+    "old-dongola"
+   ],
+   "badges": [],
+   "cites": [
+    {
+     "source_id": "GHA4_CH16",
+     "page": 401,
+     "quote": "trade paved the way for Islamization"
+    },
+    {
+     "source_id": "GHA4_CH16",
+     "page": 404
+    },
+    {
+     "source_id": "GHA3_CH8",
+     "page": 195
+    }
+   ]
+  },
+  {
+   "id": "rel-christianity-alwa",
+   "era_id": "alodia-alwa",
+   "name_en": "Christianity (Alwa)",
+   "name_ar": "المسيحية (علوة) [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Soba",
+   "place_ids": [
+    "soba"
+   ],
+   "badges": [
+    "REPORTED",
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA4_CH16",
+     "page": 406,
+     "quote": "some 400 churches including a spacious cathedral in Soba"
+    }
+   ]
+  },
+  {
+   "id": "rel-funj-traditional",
+   "era_id": "funj-sultanate-of-sennar",
+   "name_en": "Funj traditional religion (before conversion)",
+   "name_ar": "الديانة التقليدية للفونج (قبل الإسلام) [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Blue Nile",
+   "place_ids": [
+    "sennar"
+   ],
+   "badges": [
+    "APPROXIMATE",
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA4_CH16",
+     "page": 407,
+     "quote": "practising their traditional religion"
+    }
+   ]
+  },
+  {
+   "id": "rel-islam-funj-maliki",
+   "era_id": "funj-sultanate-of-sennar",
+   "name_en": "Islam, Maliki rite",
+   "name_ar": "الإسلام، المذهب المالكي [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Funj realm",
+   "place_ids": [
+    "sennar",
+    "arbaji"
+   ],
+   "badges": [
+    "APPROXIMATE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": 179
+    },
+    {
+     "source_id": "GHA5_CH7",
+     "page": 173,
+     "quote": "the Fundj were rapidly Islamized"
+    }
+   ]
+  },
+  {
+   "id": "rel-qadiriyya-funj",
+   "era_id": "funj-sultanate-of-sennar",
+   "name_en": "Qadiriyya Sufi order",
+   "name_ar": "الطريقة القادرية [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Jazira",
+   "place_ids": [
+    "arbaji"
+   ],
+   "badges": [
+    "APPROXIMATE",
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": 180
+    },
+    {
+     "source_id": "GHA5_CH7",
+     "page": 179
+    }
+   ]
+  },
+  {
+   "id": "rel-shadhiliyya-majdhubiyya",
+   "era_id": "funj-sultanate-of-sennar",
+   "name_en": "Shadhiliyya / Majdhubiyya",
+   "name_ar": "الشاذلية / المجذوبية [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "South of the Atbara confluence",
+   "place_ids": [
+    "atbara"
+   ],
+   "badges": [
+    "APPROXIMATE",
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": 180
+    }
+   ]
+  },
+  {
+   "id": "rel-islam-kayra-court",
+   "era_id": "sultanate-of-darfur-keira",
+   "name_en": "Islam as Kayra court religion",
+   "name_ar": "الإسلام ديناً لبلاط الكيرا [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "al-Fashir",
+   "place_ids": [
+    "el-fasher"
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": 190,
+     "quote": "credited with the introduction of Islam as a court religion"
+    }
+   ]
+  },
+  {
+   "id": "rel-african-practices-kayra",
+   "era_id": "sultanate-of-darfur-keira",
+   "name_en": "African religious practices at the Kayra court",
+   "name_ar": "الممارسات الدينية الأفريقية في بلاط الكيرا [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "al-Fashir",
+   "place_ids": [
+    "el-fasher"
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": 190,
+     "quote": "African religious practices and rituals co-existed with Islam at the Kayra court"
+    }
+   ]
+  },
+  {
+   "id": "rel-official-sunni-vs-sufi",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "name_en": "Official Sunni Islam vs Sudanese Sufi Islam",
+   "name_ar": "الإسلام السني الرسمي مقابل الإسلام الصوفي السوداني [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Khartoum (administration)",
+   "place_ids": [
+    "khartoum"
+   ],
+   "badges": [
+    "EDITORIAL",
+    "APPROXIMATE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA6_CH14",
+     "page": 374
+    }
+   ]
+  },
+  {
+   "id": "rel-khatmiyya-turkiyya",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "name_en": "Khatmiyya (favoured by the government)",
+   "name_ar": "الختمية (التي حظيت بمحاباة الحكومة) [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Not located in source",
+   "place_ids": [
+    "khartoum"
+   ],
+   "badges": [
+    "EDITORIAL",
+    "APPROXIMATE",
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA7_CH4",
+     "page": 74,
+     "quote": "the govern- ment's partiality to the Shaykiyya people and the Khatmïyya sect"
+    }
+   ]
+  },
+  {
+   "id": "rel-mahdiyya",
+   "era_id": "mahdist-state-mahdiyya",
+   "name_en": "Mahdiyya",
+   "name_ar": "المهدية [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Omdurman; Kordofan",
+   "place_ids": [
+    "omdurman",
+    "el-obeid"
+   ],
+   "badges": [],
+   "cites": [
+    {
+     "source_id": "GHA7_CH4",
+     "page": 73
+    },
+    {
+     "source_id": "GHA7_CH4",
+     "page": 74
+    },
+    {
+     "source_id": "GHA7_CH4",
+     "page": 77
+    }
+   ]
+  },
+  {
+   "id": "rel-mahdism-under-condominium",
+   "era_id": "anglo-egyptian-sudan-condominium",
+   "name_en": "Mahdism under British rule (outlawed sect, ratib)",
+   "name_ar": "المهدية تحت الحكم البريطاني (طائفة محظورة، الراتب) [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Northern Sudan",
+   "place_ids": [
+    "omdurman"
+   ],
+   "badges": [
+    "EDITORIAL",
+    "APPROXIMATE",
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA7_CH4",
+     "page": 78
+    }
+   ]
+  },
+  {
+   "id": "rel-mahrem",
+   "era_id": "kingdom-of-aksum",
+   "name_en": "Mahrem (pre-Christian dynastic deity)",
+   "name_ar": "محرم (إله السلالة قبل المسيحية) [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Aksum",
+   "place_ids": [
+    "aksum"
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH15",
+     "page": 396
+    }
+   ]
+  },
+  {
+   "id": "rel-christianity-aksum",
+   "era_id": "kingdom-of-aksum",
+   "name_en": "Christianity (Frumentius, first bishop)",
+   "name_ar": "المسيحية (فرومنتيوس، أول أسقف) [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "region": "Aksum",
+   "place_ids": [
+    "aksum"
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH15",
+     "page": 398
+    }
+   ]
+  }
+ ]
+}

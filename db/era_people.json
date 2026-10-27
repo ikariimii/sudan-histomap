@@ -1,0 +1,1148 @@
+{
+ "meta": {
+  "layer": "people",
+  "built": "2026-10-26",
+  "author": "Sudan Historian",
+  "scope": "pre-1956 eras only",
+  "sources": "GHA chapters in data/periods.json meta.sources; printed footer pages (gha2 PDF-17, ghaiii -22, ghaiv -24, ghav -27, ghavi -27, ghavii -24)",
+  "arabic": "all Arabic is working translation tagged [يحتاج تحقق]; queued in db/ar_review_queue.json",
+  "gaps": [
+   "egyptian-new-kingdom-rule-in-nubia: no people/languages (religion only)",
+   "noba-x-group-ballana-culture: no languages/people sourced",
+   "tunjur-kingdom: Islamic influence noted (GHA5_CH7 p.187) but no locatable place; omitted",
+   "abdallab/alodia: no language entries",
+   "shilluk-kingdom, sultanate-of-darfur-keira: no language entries (no page read gives one)",
+   "Sammaniyya: not found in GHA text; omitted",
+   "turkiyya / condominium: thin; Khatmiyya and Condominium Mahdism points are EDITORIAL placements",
+   "kerma, a-group, c-group, other pre-1956 eras: not covered this pass"
+  ]
+ },
+ "people": [
+  {
+   "id": "person-peye",
+   "era_id": "kingdom-of-kush-napatan-period",
+   "name_en": "Peye (Piankhi)",
+   "name_ar": "بعانخي (بيي) [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "King of Kush; his Victory Stele at Napata has 159 lines of hieroglyphs.",
+   "bio_ar": "ملك كوش؛ لوحة انتصاره في نبتة تحمل 159 سطراً هيروغليفياً. [يحتاج تحقق]",
+   "location": "jebel-barkal",
+   "badges": [],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 280,
+     "quote": "Amon of Napata has made me sovereign over every people"
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-shabaka",
+   "era_id": "kingdom-of-kush-napatan-period",
+   "name_en": "Shabaka",
+   "name_ar": "شباكا [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": -713,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Brother of Peye; ascended the throne towards -713.",
+   "bio_ar": "أخو بعانخي؛ اعتلى العرش نحو 713 ق.م. [يحتاج تحقق]",
+   "location": null,
+   "badges": [
+    "APPROXIMATE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 280,
+     "quote": "Towards −713, Shabaka, brother of Peye, ascended the throne."
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-taharqa",
+   "era_id": "kingdom-of-kush-napatan-period",
+   "name_en": "Taharqa",
+   "name_ar": "تهارقا [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": -690,
+   "end": -664,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "King of Kush; built sanctuaries at the foot of Gebel Barkal and at Kawa.",
+   "bio_ar": "ملك كوش؛ شيّد معابد عند سفح جبل البركل وفي كاوة. [يحتاج تحقق]",
+   "location": "jebel-barkal",
+   "badges": [],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 281,
+     "quote": "the glorious Taharqa (−690 to −664)"
+    }
+   ],
+   "image": {
+    "file": "File:Sphinx of Taharqo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Sphinx_of_Taharqo.jpg",
+    "author": "Prioryman",
+    "licence": "CC BY-SA 4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Sphinx_of_Taharqo.jpg"
+   }
+  },
+  {
+   "id": "person-anlamani",
+   "era_id": "kingdom-of-kush-napatan-period",
+   "name_en": "Anlamani",
+   "name_ar": "أنلاماني [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": -623,
+   "end": -593,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "King of Kush.",
+   "bio_ar": "ملك كوش. [يحتاج تحقق]",
+   "location": "kawa",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 284,
+     "quote": "Anlamani (—623 to — 593)"
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-aspelta",
+   "era_id": "kingdom-of-kush-napatan-period",
+   "name_en": "Aspelta",
+   "name_ar": "أسبلتا [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": -593,
+   "end": -568,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "King of Kush; left two great inscriptions.",
+   "bio_ar": "ملك كوش؛ ترك نقشين كبيرين. [يحتاج تحقق]",
+   "location": "jebel-barkal",
+   "badges": [],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 284
+    },
+    {
+     "source_id": "GHA2_CH10",
+     "page": 285,
+     "quote": "Aspelta (—593 to —568), left two great inscriptions"
+    }
+   ],
+   "image": {
+    "file": "File:Colossal statue of King Aspelta MFA.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Colossal_statue_of_King_Aspelta_MFA.jpg",
+    "author": "Marcus Cyron",
+    "licence": "CC BY 3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Colossal_statue_of_King_Aspelta_MFA.jpg"
+   }
+  },
+  {
+   "id": "person-arnekhamani",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "name_en": "Arnekhamani",
+   "name_ar": "أرنخاماني [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Built the Lion temple at Musawwarat es-Sufra; identification with Ergamenes is uncertain.",
+   "bio_ar": "بنى معبد الأسد في المصورات الصفراء؛ مطابقته مع إرجامنيس غير مؤكدة. [يحتاج تحقق]",
+   "location": "musawwarat",
+   "badges": [
+    "CONTESTED"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 287,
+     "quote": "Arnekhamani was the king who built the Lion temple at Mussawwarat es-Sufra"
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-shanakdakhete",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "name_en": "Shanakdakhete",
+   "name_ar": "شناكداخيتي [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": -170,
+   "end": -160,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Queen; her edifice at Naga bears among the oldest known Meroitic hieroglyphic inscriptions.",
+   "bio_ar": "ملكة؛ يحمل مبناها في النقعة من أقدم النقوش الهيروغليفية المروية المعروفة. [يحتاج تحقق]",
+   "location": "naqa",
+   "badges": [
+    "APPROXIMATE",
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 288,
+     "quote": "around 170 to 160 BC"
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-amanirenas",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "name_en": "Amanirenas",
+   "name_ar": "أماني ريناس [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Queen ('Candace', Meroitic Kdke); mother of Akinidad by Teriteqas.",
+   "bio_ar": "ملكة (كنداكة، بالمروية Kdke)؛ والدة أكينيداد من تريتيكاس. [يحتاج تحقق]",
+   "location": "meroe",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 289
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-amanishakheto",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "name_en": "Amanishakheto",
+   "name_ar": "أماني شاخيتو [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Queen bearing the title 'Candace' (Meroitic Kdke).",
+   "bio_ar": "ملكة حملت لقب كنداكة (بالمروية Kdke). [يحتاج تحقق]",
+   "location": "meroe",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 289
+    }
+   ],
+   "image": {
+    "file": "File:Amanishakheto (tomb).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Amanishakheto_%28tomb%29.jpg",
+    "author": "Karl Richard Lepsius (1810-84)",
+    "licence": "Public domain",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Amanishakheto_(tomb).jpg"
+   }
+  },
+  {
+   "id": "person-akinidad",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "name_en": "Akinidad",
+   "name_ar": "أكينيداد [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Son of Amanirenas and Teriteqas.",
+   "bio_ar": "ابن أماني ريناس وتريتيكاس. [يحتاج تحقق]",
+   "location": "meroe",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 289
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-natakamani",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "name_en": "Natakamani",
+   "name_ar": "نتكاماني [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": -12,
+   "end": 12,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Son-in-law and successor of Amanishakheto; great builder, with Queen Amanitere.",
+   "bio_ar": "صهر أماني شاخيتو وخليفتها؛ بنّاء عظيم مع الملكة أماني تيري. [يحتاج تحقق]",
+   "location": "naqa",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 290,
+     "quote": "Natakamani, son-in-law and successor of Amanishakheto, and his wife, Queen Amanitere (—12 to + 1 2 ) were also great builders"
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-amanitere",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "name_en": "Amanitere",
+   "name_ar": "أماني تيري [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": -12,
+   "end": 12,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Queen, wife of Natakamani; great builder.",
+   "bio_ar": "ملكة، زوجة نتكاماني؛ بنّاءة عظيمة. [يحتاج تحقق]",
+   "location": "naqa",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 290
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-silko",
+   "era_id": "nobadia",
+   "name_en": "Silko",
+   "name_ar": "سيلكو [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Nobatian king; his Greek inscription at Kalabsha claims victory over the Blemmyes.",
+   "bio_ar": "ملك نوباتي؛ يدّعي نقشه اليوناني في كلابشة النصر على البليميين. [يحتاج تحقق]",
+   "location": null,
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": 295,
+     "quote": "the Nobatian king Silko boasts of having, by God's help, conquered the Blemmyes"
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-merkurios",
+   "era_id": "makuria",
+   "name_en": "Merkurios",
+   "name_ar": "مركوريوس [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": 697,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "King of Makuria, crowned in 697.",
+   "bio_ar": "ملك المقرة، تُوّج عام 697. [يحتاج تحقق]",
+   "location": "old-dongola",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA3_CH8",
+     "page": 195
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-kyriakos",
+   "era_id": "makuria",
+   "name_en": "Kyriakos",
+   "name_ar": "كرياكوس [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Mid-8th-century king, described as ruler of the whole kingdom of Nubia.",
+   "bio_ar": "ملك في منتصف القرن الثامن، وُصف بأنه حاكم مملكة النوبة كلها. [يحتاج تحقق]",
+   "location": "old-dongola",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA3_CH8",
+     "page": 196,
+     "quote": "Kyriakos was described by the Coptic biographer Deacon Ioannes as being the ruler of the whole kingdom of Nubia"
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-kyros-of-faras",
+   "era_id": "makuria",
+   "name_en": "Kyros",
+   "name_ar": "كيروس [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": 866,
+   "end": 902,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Bishop of Faras (866-902), first Nubian metropolitan; known from a portrait mural.",
+   "bio_ar": "أسقف فرس (866-902)، أول مطران نوبي؛ معروف من لوحة جدارية. [يحتاج تحقق]",
+   "location": "faras",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA3_CH8",
+     "page": 202
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-georgios-i",
+   "era_id": "makuria",
+   "name_en": "Georgios I",
+   "name_ar": "جرجس الأول [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": 915,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Travelled to Baghdad; reigned in Nubia until 915.",
+   "bio_ar": "سافر إلى بغداد؛ حكم النوبة حتى 915. [يحتاج تحقق]",
+   "location": "old-dongola",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA3_CH8",
+     "page": 210,
+     "quote": "reigned in Nubia until 915"
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-georgios-ii",
+   "era_id": "makuria",
+   "name_en": "Georgios II",
+   "name_ar": "جرجس الثاني [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "King c.969, per Ibn Salim al-Aswani.",
+   "bio_ar": "ملك نحو 969، بحسب ابن سليم الأسواني. [يحتاج تحقق]",
+   "location": "old-dongola",
+   "badges": [
+    "APPROXIMATE",
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA3_CH8",
+     "page": 211
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-petros-i-faras",
+   "era_id": "makuria",
+   "name_en": "Petros I",
+   "name_ar": "بطرس الأول [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": 974,
+   "end": 999,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Bishop of Faras (974-99).",
+   "bio_ar": "أسقف فرس (974-999). [يحتاج تحقق]",
+   "location": "faras",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA3_CH8",
+     "page": 202
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-marianos",
+   "era_id": "makuria",
+   "name_en": "Marianos",
+   "name_ar": "ماريانوس [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": 1005,
+   "end": 1036,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Bishop of Faras (1005-36); died at Qasr Ibrim.",
+   "bio_ar": "أسقف فرس (1005-1036)؛ توفي في قصر إبريم. [يحتاج تحقق]",
+   "location": "faras",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA3_CH8",
+     "page": 213
+    }
+   ],
+   "image": {
+    "file": "File:Faras Bishop Marianos.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Faras_Bishop_Marianos.jpg",
+    "author": "Anonymous (Faras)",
+    "licence": "Public domain",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Faras_Bishop_Marianos.jpg"
+   }
+  },
+  {
+   "id": "person-dawud",
+   "era_id": "makuria",
+   "name_en": "Dawud",
+   "name_ar": "داود [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": 1276,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "King of Makuria defeated by Baybars in 1276.",
+   "bio_ar": "ملك المقرة هزمه بيبرس عام 1276. [يحتاج تحقق]",
+   "location": "old-dongola",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA4_CH16",
+     "page": 403
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-shakanda",
+   "era_id": "makuria",
+   "name_en": "Shakanda",
+   "name_ar": "شكندة [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": 1276,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Installed as king by Baybars in 1276.",
+   "bio_ar": "نصّبه بيبرس ملكاً عام 1276. [يحتاج تحقق]",
+   "location": "old-dongola",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA4_CH16",
+     "page": 403
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-abdallah-barshambu",
+   "era_id": "makuria",
+   "name_en": "Sayf al-Din 'Abdallah Barshambu",
+   "name_ar": "سيف الدين عبد الله برشمبو [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "First Muslim king of Dongola; an Arabic tablet of 29 May 1317 records the cathedral becoming a mosque.",
+   "bio_ar": "أول ملك مسلم لدنقلا؛ يسجّل لوح عربي مؤرخ 29 مايو 1317 تحويل الكاتدرائية إلى مسجد. [يحتاج تحقق]",
+   "location": "old-dongola",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA4_CH16",
+     "page": 404
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-kanz-al-dawla",
+   "era_id": "makuria",
+   "name_en": "Kanz al-Dawla Shuja' al-Din",
+   "name_ar": "كنز الدولة شجاع الدين [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Ruler of Dongola in the early 14th century.",
+   "bio_ar": "حاكم دنقلا في أوائل القرن الرابع عشر. [يحتاج تحقق]",
+   "location": "old-dongola",
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA4_CH16",
+     "page": 404
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-adur",
+   "era_id": "alodia-alwa",
+   "name_en": "Adur",
+   "name_ar": "أدور [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Ruler of al-'Abwab, mentioned in 1287 and 1290.",
+   "bio_ar": "حاكم الأبواب، ورد ذكره عامي 1287 و1290. [يحتاج تحقق]",
+   "location": "kabushiya",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA4_CH16",
+     "page": 406
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-abdallah-jamma",
+   "era_id": "abdallab-chiefdom-funj-vassal",
+   "name_en": "'Abdallah Jamma'",
+   "name_ar": "عبد الله جمّاع [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Rufa'a leader who, by tradition, conquered Soba; capital at Kerri.",
+   "bio_ar": "زعيم من رفاعة فتح سوبا بحسب الرواية؛ عاصمته قرّي. [يحتاج تحقق]",
+   "location": "qerri",
+   "badges": [
+    "TRADITION"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA4_CH16",
+     "page": 407
+    },
+    {
+     "source_id": "GHA5_CH7",
+     "page": 172
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-amara-dunqas",
+   "era_id": "funj-sultanate-of-sennar",
+   "name_en": "'Amara Dunqas",
+   "name_ar": "عمارة دنقس [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Funj ruler; reported a Muslim by Reubeni (1522-3).",
+   "bio_ar": "حاكم فونجي؛ ذكر روبيني (1522-1523) أنه مسلم. [يحتاج تحقق]",
+   "location": "sennar",
+   "badges": [
+    "REPORTED"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA4_CH16",
+     "page": 407
+    },
+    {
+     "source_id": "GHA5_CH7",
+     "page": 173
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-mahmud-al-araki",
+   "era_id": "funj-sultanate-of-sennar",
+   "name_en": "Mahmud al-'Araki",
+   "name_ar": "محمود العركي [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Called the first Sudanese Muslim scholar; founded 17 schools on the White Nile.",
+   "bio_ar": "وُصف بأول عالم مسلم سوداني؛ أسس 17 مدرسة على النيل الأبيض. [يحتاج تحقق]",
+   "location": null,
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": 179,
+     "quote": "the first Sudanese Muslim scholar"
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-ibrahim-al-bulad",
+   "era_id": "funj-sultanate-of-sennar",
+   "name_en": "Ibrahim al-Bulad ibn Jabir",
+   "name_ar": "إبراهيم البولاد بن جابر [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Scholar c.1570, descendant of Ghulam Allah ibn 'Ayd; taught the Maliki rite.",
+   "bio_ar": "عالم نحو 1570، من ذرية غلام الله بن عايد؛ درّس المذهب المالكي. [يحتاج تحقق]",
+   "location": null,
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": 179
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-taj-al-din-al-bahari",
+   "era_id": "funj-sultanate-of-sennar",
+   "name_en": "Taj al-Din al-Bahari",
+   "name_ar": "تاج الدين البهاري [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Came from Baghdad via Mecca in 1577; stayed seven years in the Jazira and initiated Shaykh 'Ajib I into the Qadiriyya.",
+   "bio_ar": "قدم من بغداد عبر مكة عام 1577؛ أقام سبع سنوات في الجزيرة وأدخل الشيخ عجيب الأول في القادرية. [يحتاج تحقق]",
+   "location": null,
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": 180
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-hammad-al-majdhub",
+   "era_id": "funj-sultanate-of-sennar",
+   "name_en": "Hammad ibn Muhammad al-Majdhub",
+   "name_ar": "حمد بن محمد المجذوب [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": 1693,
+   "end": 1776,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Ja'ali who introduced the Shadhiliyya.",
+   "bio_ar": "جعلي أدخل الطريقة الشاذلية. [يحتاج تحقق]",
+   "location": null,
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": 180
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-sulayman-solongdungu",
+   "era_id": "sultanate-of-darfur-keira",
+   "name_en": "Sulayman Solongdungu",
+   "name_ar": "سليمان سولونج [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Probably the founder of the Kayra dynasty; credited with introducing Islam as a court religion.",
+   "bio_ar": "على الأرجح مؤسس سلالة الكيرا؛ يُنسب إليه إدخال الإسلام ديناً للبلاط. [يحتاج تحقق]",
+   "location": "el-fasher",
+   "badges": [
+    "APPROXIMATE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": 187
+    },
+    {
+     "source_id": "GHA5_CH7",
+     "page": 190
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-ahmad-bukr",
+   "era_id": "sultanate-of-darfur-keira",
+   "name_en": "Ahmad Bukr b. Musa",
+   "name_ar": "أحمد بكر بن موسى [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": 1682,
+   "end": 1722,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Kayra sultan (c.1682-1722).",
+   "bio_ar": "سلطان من الكيرا (نحو 1682-1722). [يحتاج تحقق]",
+   "location": null,
+   "badges": [
+    "APPROXIMATE",
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": 188,
+     "quote": "A h m a d Bukr b. M ü s ä (c. 1682-1722)"
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-abd-al-rahman-al-rashid",
+   "era_id": "sultanate-of-darfur-keira",
+   "name_en": "'Abd al-Rahman al-Rashid",
+   "name_ar": "عبد الرحمن الرشيد [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Kayra sultan who established al-Fashir as royal seat.",
+   "bio_ar": "سلطان من الكيرا جعل الفاشر مقراً ملكياً. [يحتاج تحقق]",
+   "location": "el-fasher",
+   "badges": [
+    "SINGLE-SOURCE",
+    "VERIFY"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": 190
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-umar-al-tunisi",
+   "era_id": "sultanate-of-darfur-keira",
+   "name_en": "'Umar al-Tunisi",
+   "name_ar": "عمر التونسي [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Wrote, with his son Muhammad, an account of Darfur.",
+   "bio_ar": "كتب مع ابنه محمد وصفاً لدارفور. [يحتاج تحقق]",
+   "location": "el-fasher",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": 190
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-sultan-ibrahim",
+   "era_id": "sultanate-of-darfur-keira",
+   "name_en": "Ibrahim (Sultan of Darfur)",
+   "name_ar": "السلطان إبراهيم [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": 1874,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Last Kayra sultan before annexation; killed at Manwashi in 1874 resisting al-Zubayr.",
+   "bio_ar": "آخر سلاطين الكيرا قبل الضم؛ قُتل في منواشي عام 1874 وهو يقاوم الزبير. [يحتاج تحقق]",
+   "location": null,
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA6_CH14",
+     "page": 371
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-nyikang",
+   "era_id": "shilluk-kingdom",
+   "name_en": "Nyikang",
+   "name_ar": "نيكانغ [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Traditional founder of the Shilluk, dated c.1490-1517; first settlement near Malakal.",
+   "bio_ar": "المؤسس التقليدي للشلك، يؤرَّخ نحو 1490-1517؛ أول استيطان قرب ملكال. [يحتاج تحقق]",
+   "location": "malakal",
+   "badges": [
+    "TRADITION",
+    "APPROXIMATE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": 193
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-al-zubayr-rahma",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "name_en": "al-Zubayr Rahma Mansur",
+   "name_ar": "الزبير رحمة منصور [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Northern Sudanese slave trader with a trading empire in Bahr al-Ghazal; recognized as governor by Khedive Ismail.",
+   "bio_ar": "تاجر رقيق من شمال السودان أقام إمبراطورية تجارية في بحر الغزال؛ اعترف به الخديوي إسماعيل حاكماً. [يحتاج تحقق]",
+   "location": null,
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA6_CH14",
+     "page": 371
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-muhammad-ahmad-al-mahdi",
+   "era_id": "mahdist-state-mahdiyya",
+   "name_en": "Muhammad Ahmad Ibn Abdallah, the Mahdi",
+   "name_ar": "محمد أحمد بن عبد الله المهدي [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": 1844,
+   "end": 1885,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Leader of the Mahdist revolution; died June 1885.",
+   "bio_ar": "قائد الثورة المهدية؛ توفي في يونيو 1885. [يحتاج تحقق]",
+   "location": "omdurman",
+   "badges": [],
+   "cites": [
+    {
+     "source_id": "GHA7_CH4",
+     "page": 75,
+     "quote": "Muhammad Ahmad Ibn 'Abdallah, the Mahdi (1844-85)"
+    },
+    {
+     "source_id": "GHA7_CH4",
+     "page": 77
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-khalifa-abdullah",
+   "era_id": "mahdist-state-mahdiyya",
+   "name_en": "Khalifa 'Abdullah Ibn al-Sayyid Muhammad",
+   "name_ar": "الخليفة عبد الله بن السيد محمد [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": 1899,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Successor of the Mahdi; found dead after Umm Diwaykarat, 24 November 1899.",
+   "bio_ar": "خليفة المهدي؛ وُجد ميتاً بعد معركة أم دبيكرات في 24 نوفمبر 1899. [يحتاج تحقق]",
+   "location": "omdurman",
+   "badges": [],
+   "cites": [
+    {
+     "source_id": "GHA7_CH4",
+     "page": 77
+    },
+    {
+     "source_id": "GHA7_CH4",
+     "page": 78
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-uthman-digna",
+   "era_id": "mahdist-state-mahdiyya",
+   "name_en": "'Uthman Digna",
+   "name_ar": "عثمان دقنة [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Mahdist commander in the eastern Sudan.",
+   "bio_ar": "قائد مهدوي في شرق السودان. [يحتاج تحقق]",
+   "location": null,
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA7_CH4",
+     "page": 76
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-abd-al-rahman-al-nujumi",
+   "era_id": "mahdist-state-mahdiyya",
+   "name_en": "'Abd al-Rahman al-Nujumi",
+   "name_ar": "عبد الرحمن النجومي [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Led the Mahdist invasion of Egypt, defeated at Tushki in 1889.",
+   "bio_ar": "قاد الغزو المهدوي لمصر، وهُزم في توشكي عام 1889. [يحتاج تحقق]",
+   "location": null,
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA7_CH4",
+     "page": 77
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-mahmud-ahmad",
+   "era_id": "mahdist-state-mahdiyya",
+   "name_en": "Emir Mahmud Ahmad",
+   "name_ar": "الأمير محمود أحمد [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Commanded at Atbara, 8 April 1898; captured and died in prison at Rosetta.",
+   "bio_ar": "قاد في معركة عطبرة 8 أبريل 1898؛ أُسر وتوفي في سجن رشيد. [يحتاج تحقق]",
+   "location": "atbara",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA7_CH4",
+     "page": 78
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-ali-dinar",
+   "era_id": "restored-darfur-sultanate-ali-dinar",
+   "name_en": "Sultan 'Ali Dinar",
+   "name_ar": "السلطان علي دينار [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": 1916,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Sultan of Darfur; defeated and killed in 1916.",
+   "bio_ar": "سلطان دارفور؛ هُزم وقُتل عام 1916. [يحتاج تحقق]",
+   "location": "el-fasher",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA7_CH12",
+     "page": 283,
+     "quote": "Not until February 1916 was he defeated and killed in battle"
+    }
+   ],
+   "image": null
+  },
+  {
+   "id": "person-ezana",
+   "era_id": "kingdom-of-aksum",
+   "name_en": "Ezana",
+   "name_ar": "عيزانا [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "King of Aksum; his Ge'ez and Greek inscriptions record a Nubian campaign.",
+   "bio_ar": "ملك أكسوم؛ تسجّل نقوشه الجعزية واليونانية حملة على النوبة. [يحتاج تحقق]",
+   "location": "aksum",
+   "badges": [],
+   "cites": [
+    {
+     "source_id": "GHA2_CH15",
+     "page": 384
+    },
+    {
+     "source_id": "GHA2_CH15",
+     "page": 398
+    }
+   ],
+   "image": {
+    "file": "File:Ezana gold coin with cross. British Museum. 1921,0316.1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Ezana_gold_coin_with_cross._British_Museum._1921%2C0316.1.jpg",
+    "author": "Ismoon",
+    "licence": "CC BY-SA 4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Ezana_gold_coin_with_cross._British_Museum._1921,0316.1.jpg"
+   }
+  },
+  {
+   "id": "person-frumentius",
+   "era_id": "kingdom-of-aksum",
+   "name_en": "Frumentius",
+   "name_ar": "فرومنتيوس [يحتاج تحقق]",
+   "name_ar_status": "working translation",
+   "start": null,
+   "end": null,
+   "dates_note": "reign/life dates as printed; negative = BCE; null where the source gives none",
+   "bio_en": "Ezana's Graeco-Phoenician mentor, later first bishop of Aksum.",
+   "bio_ar": "معلّم عيزانا الإغريقي الفينيقي، ثم أول أسقف لأكسوم. [يحتاج تحقق]",
+   "location": "aksum",
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "cites": [
+    {
+     "source_id": "GHA2_CH15",
+     "page": 398
+    }
+   ],
+   "image": null
+  }
+ ]
+}
