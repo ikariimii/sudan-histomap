@@ -1421,6 +1421,813 @@
    ],
    "image": null,
    "note": null
+  },
+  {
+   "id": "ev-1504-battle-of-arbaji",
+   "era_id": "early-funj-sultanate-funj-sultans",
+   "category": "battle",
+   "title": {
+    "en": "Battle of Arbaji: the Funj subdue the Abdallab",
+    "ar": "معركة أربجي: الفونج يُخضعون العبدلاب [يحتاج تحقق]"
+   },
+   "date_start": "1504",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "place_id": "arbaji",
+    "lat": 14.726,
+    "lon": 33.3525,
+    "precision": "city"
+   },
+   "summary_en": "Funj cattle nomads moving down the Blue Nile clashed with the Abdallab confederation, probably over pasture in the northern Gezira. At Arbaji in 1504 the Funj defeated the Abdallab, whose king became a vassal ruling the north of the sultanate until 1820.",
+   "summary_ar": "[يحتاج تحقق] اصطدم رعاة الفونج النازحون على النيل الأزرق باتحاد العبدلاب، على الأرجح تنافسًا على المراعي في شمال الجزيرة. وفي أربجي عام 1504 هزم الفونج العبدلاب، فصار ملكهم تابعًا يحكم شمال السلطنة حتى عام 1820.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.173",
+     "quote": "At ArbadjJ, in 1504, the Fundj^defeated the 'Abdallabi and their king was reduced to the position of vassal."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": "OCR artefacts in quote ('ArbadjJ', 'Fundj^')."
+  },
+  {
+   "id": "ev-1522-reubeni-visit",
+   "era_id": "early-funj-sultanate-funj-sultans",
+   "category": "religion",
+   "title": {
+    "en": "David Reubeni visits the Funj: a Muslim king over 'blacks and whites'",
+    "ar": "زيارة داود الروبيني للفونج: ملك مسلم على 'السود والبيض' [يحتاج تحقق]"
+   },
+   "date_start": "1522",
+   "date_end": "1523",
+   "date_precision": "year",
+   "location": {
+    "place_id": "sennar",
+    "lat": 13.55,
+    "lon": 33.6,
+    "precision": "city"
+   },
+   "summary_en": "The Jewish traveller David Reubeni visited the Funj in 1522-3 and described their monarch as a black Muslim ruling a nation of blacks and whites, meaning the indigenous people and Arabs. The Funj were rapidly Islamized and later claimed Umayyad descent.",
+   "summary_ar": "[يحتاج تحقق] زار الرحالة اليهودي داود الروبيني الفونج في 1522-1523 ووصف ملكهم بأنه مسلم أسود يحكم أمة من السود والبيض، أي السكان الأصليين والعرب. وسرعان ما اعتنق الفونج الإسلام وادّعوا لاحقًا نسبًا أمويًا.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.173",
+     "quote": "them in 1522-3, described their monarch as a black Muslim w h o ruled over a nation of blacks and whites"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-ottoman-berberistan-ozdemir",
+   "era_id": "early-funj-sultanate-funj-sultans",
+   "category": "political",
+   "title": {
+    "en": "Ozdemir Pasha takes Ibrim and Dirr: Ottoman Berberistan",
+    "ar": "أوزدمير باشا يستولي على إبريم والدر: ولاية بربرستان العثمانية [يحتاج تحقق]"
+   },
+   "date_start": "1555",
+   "date_end": null,
+   "date_precision": "decade",
+   "location": {
+    "place_id": "qasr-ibrim",
+    "lat": 22.65019,
+    "lon": 31.99153,
+    "precision": "city"
+   },
+   "summary_en": "Under Sultan Suleyman the Magnificent, Ozdemir was ordered to end the 'rebellious' Funj in Nubia and captured the frontier fortresses of Ibrim and Dirr. A fort at Say marked the southern limit of the new Ottoman province of Berberistan, garrisoned by Bosnian soldiers.",
+   "summary_ar": "[يحتاج تحقق] في عهد السلطان سليمان القانوني أُمر أوزدمير بالقضاء على الفونج 'المتمردين' في النوبة، فاستولى على قلعتي إبريم والدر الحدوديتين. وحددت قلعة في ساي الحد الجنوبي لولاية بربرستان العثمانية الجديدة التي رابطت فيها حامية بوسنية.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.175",
+     "quote": "factions werefightingone another. Özdemir captured the strategic frontier fortresses of Ibrîm and Dirr."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": "Date not printed beyond reign of Suleyman (1520-66) and Ozdemir's 1554 retirement from Yemen; decade approximate (VERIFY)."
+  },
+  {
+   "id": "ev-1571-siege-of-suakin",
+   "era_id": "early-funj-sultanate-funj-sultans",
+   "category": "battle",
+   "title": {
+    "en": "Funj (or Beja) besiege Ottoman Suakin",
+    "ar": "الفونج (أو البجا) يحاصرون سواكن العثمانية [يحتاج تحقق]"
+   },
+   "date_start": "1571",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "place_id": "suakin",
+    "lat": 19.1025,
+    "lon": 37.33,
+    "precision": "city"
+   },
+   "summary_en": "Suakin passed under Ottoman suzerainty and became the seat of a sanjak governor. In 1571, according to Ottoman sources, the Funj, or more probably the Beja, besieged it for three months, though trade later made relations friendlier.",
+   "summary_ar": "[يحتاج تحقق] خضعت سواكن للسيادة العثمانية وصارت مقر حاكم سنجق. وفي عام 1571، بحسب المصادر العثمانية، حاصرها الفونج، أو على الأرجح البجا، ثلاثة أشهر، ثم حسّنت التجارة العلاقات لاحقًا.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.175",
+     "quote": "In 1571, according to Ottoman sources, the Fundj (or perhaps more accurately the Bëdja) attacked Sawäkin and besieged it for three months."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "CONTESTED"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-karkoj-ajib-killed",
+   "era_id": "early-funj-sultanate-funj-sultans",
+   "category": "battle",
+   "title": {
+    "en": "Battle of Karkoj: Ajib I of the Abdallab killed",
+    "ar": "معركة كركوج: مقتل عجيب الأول ملك العبدلاب [يحتاج تحقق]"
+   },
+   "date_start": "1611",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "area": "Karkoj, north of Soba",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "Ajib I of the Abdallab had driven the Funj into Ethiopia and later rebelled against Sultan Dakin's reforms. A Funj army crushed the Abdallab at Karkoj, north of Soba, and killed Ajib; a settlement brokered by Shaykh Idris wad al-Akbar restored the status quo and a long period of stability.",
+   "summary_ar": "[يحتاج تحقق] طرد عجيب الأول ملك العبدلاب الفونجَ إلى الحبشة، ثم ثار على إصلاحات السلطان دكين. فسحق جيش الفونج العبدلاب في كركوج شمال سوبا وقتل عجيب، وأعادت تسوية توسط فيها الشيخ إدريس ود الأرباب الوضع السابق وفترة استقرار طويلة.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.174",
+     "quote": "At Karkodj, a few miles north of Sôbâ, a Furîïïj army inflicted a crushing defeat on the 'Abdallabi and killed Adjïb I"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE",
+    "VERIFY"
+   ],
+   "image": null,
+   "note": "Year printed but OCR-garbled ('ïïïn/12'), read as 1611/12; VERIFY against print."
+  },
+  {
+   "id": "ev-1622-hannik-frontier",
+   "era_id": "early-funj-sultanate-funj-sultans",
+   "category": "treaty",
+   "title": {
+    "en": "Ottoman-Funj frontier fixed at Hannik",
+    "ar": "تثبيت الحدود العثمانية-الفونجية عند حنك [يحتاج تحقق]"
+   },
+   "date_start": "1622",
+   "date_end": null,
+   "date_precision": "circa",
+   "location": {
+    "area": "Hannik, between Third Cataract and Mushu",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "After a 1577 plan to conquer the Funj came to nothing, the Egyptian frontier was consolidated at Hannik after fighting between the Abdallab and the Ottomans in about 1622. Hannik lies halfway between the Third Cataract and the Funj border post of Mushu.",
+   "summary_ar": "[يحتاج تحقق] بعد أن أخفقت خطة عام 1577 لغزو الفونج، ثُبّتت حدود مصر عند حنك إثر قتال بين العبدلاب والعثمانيين نحو عام 1622. وتقع حنك في منتصف المسافة بين الشلال الثالث ونقطة مشو الحدودية للفونج.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.175",
+     "quote": "T h e Egyptian frontier wasfinallyconsolidated at Hannîk after somefightingbetween the 'Abdalläbi and the Ottomans in about 1622."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1618-first-ethiopian-war",
+   "era_id": "early-funj-sultanate-funj-sultans",
+   "category": "battle",
+   "title": {
+    "en": "First Funj-Ethiopian war",
+    "ar": "الحرب الأولى بين الفونج والحبشة [يحتاج تحقق]"
+   },
+   "date_start": "1618",
+   "date_end": "1619",
+   "date_precision": "year",
+   "location": {
+    "area": "Sennar-Ethiopia border (Chelega)",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "Emperor Susenyos gave asylum to the deposed Sultan Abd al-Qadir, and border skirmishes and slave-raiding escalated into war in 1618-19. Both monarchs directed it from their capitals, and it ended in Ethiopia's favour.",
+   "summary_ar": "[يحتاج تحقق] منح الإمبراطور سوسنيوس اللجوء للسلطان المخلوع عبد القادر، فتصاعدت المناوشات الحدودية وغارات الرقيق إلى حرب في 1618-1619. وأدارها الملكان من عاصمتيهما، وانتهت لصالح الحبشة.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.178",
+     "quote": "Frontier clashes escalated during 1618 and 1619, when large numbers of troops, using a limited number of muskets, were involved."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-badi-ii-alays-golden-age",
+   "era_id": "early-funj-sultanate-funj-sultans",
+   "category": "ruler",
+   "title": {
+    "en": "Badi II Abu Dikn: golden age and the Alays bridgehead",
+    "ar": "بادي الثاني أبو دقن: العصر الذهبي ورأس جسر أليس [يحتاج تحقق]"
+   },
+   "date_start": "1644",
+   "date_end": "1718",
+   "date_precision": "year",
+   "location": {
+    "area": "Alays, White Nile",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "Sultan Badi II Abu Dikn, whose reign was the sultanate's golden age, placed a Funj garrison and bridgehead at Alays on the White Nile to check the Shilluk. The Funj then reduced the kingdom of Taqali to subordinate status and settled Nuba captives around Sennar as a slave bodyguard.",
+   "summary_ar": "[يحتاج تحقق] أقام السلطان بادي الثاني أبو دقن، الذي كان عهده العصر الذهبي للسلطنة، حامية ورأس جسر في أليس على النيل الأبيض لكبح الشلك. ثم أخضع الفونج مملكة تقلي، وأسكنوا أسرى النوبة حول سنار حرسًا من الرقيق.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.177",
+     "quote": "whose reign constituted the golden age of the Sultanate, established a Fundj garrison and a bridgehead at Alays on the White Nile"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": "Reign dates printed '(1644/5-1718)' as in GHA; VERIFY (OCR)."
+  },
+  {
+   "id": "ev-1744-battle-of-dindera",
+   "era_id": "early-funj-sultanate-funj-sultans",
+   "category": "battle",
+   "title": {
+    "en": "Battle of the Dindera: Iyasu II routed",
+    "ar": "معركة الدندر: هزيمة إياسو الثاني [يحتاج تحقق]"
+   },
+   "date_start": "1744-03",
+   "date_end": null,
+   "date_precision": "month",
+   "location": {
+    "area": "Dindera river",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "In March 1744 Emperor Iyasu II marched a large Ethiopian army against Sennar. On the banks of the Dindera the Ethiopians were routed and the emperor barely escaped; the victory was credited to Prince Khamis Junkul of the Musabba'at.",
+   "summary_ar": "[يحتاج تحقق] في مارس 1744 زحف الإمبراطور إياسو الثاني بجيش حبشي كبير على سنار. وعلى ضفاف الدندر هُزم الأحباش ونجا الإمبراطور بأعجوبة، ونُسب النصر إلى الأمير خميس جنقل من المسبعات.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.178",
+     "quote": "In March 1744, Iyasu II marched at the head of a large Ethiopian army against Sennär."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1747-abu-likaylik-kordofan",
+   "era_id": "early-funj-sultanate-funj-sultans",
+   "category": "battle",
+   "title": {
+    "en": "Abu Likaylik defeats the Musabba'at in Kordofan",
+    "ar": "أبو لكيلك يهزم المسبعات في كردفان [يحتاج تحقق]"
+   },
+   "date_start": "1747",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "area": "Kordofan",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "To rid himself of hostile notables, Badi IV sent them against the Musabba'at, who had encroached on Funj Kordofan. After early setbacks the army under Muhammad Abu Likaylik won decisively in 1747, and he ruled Kordofan as viceroy for fourteen years.",
+   "summary_ar": "[يحتاج تحقق] أرسل بادي الرابع الأعيان الناقمين عليه لقتال المسبعات الذين تعدّوا على كردفان الفونجية. وبعد انتكاسات أولى انتصر الجيش بقيادة محمد أبو لكيلك انتصارًا حاسمًا عام 1747، فحكم كردفان نائبًا أربعة عشر عامًا.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.178",
+     "quote": "c o m m a n d of M u h a m m a d A b u Likaylik, w o n a decisive victory in 1747."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-funj-islamization-umayyad-claim",
+   "era_id": "funj-sultanate-of-sennar",
+   "category": "religion",
+   "title": {
+    "en": "Islamization of the Funj and the Umayyad ancestry claim",
+    "ar": "أسلمة الفونج وادعاء النسب الأموي [يحتاج تحقق]"
+   },
+   "date_start": "1504",
+   "date_end": "1600",
+   "date_precision": "century",
+   "location": {
+    "place_id": "sennar",
+    "lat": 13.55,
+    "lon": 33.6,
+    "precision": "city"
+   },
+   "summary_en": "Through their new Muslim subjects and trade with Egypt, the Funj were rapidly Islamized and came to claim Arab, Umayyad descent to raise their prestige. Their kingdom is known in Sudanese tradition as al-Saltana al-Zarqa, the Black Sultanate.",
+   "summary_ar": "[يحتاج تحقق] أدى احتكاك الفونج برعاياهم المسلمين وتجارتهم مع مصر إلى أسلمتهم السريعة، فادّعوا نسبًا عربيًا أمويًا لرفع مكانتهم. وتُعرف مملكتهم في التراث السوداني بالسلطنة الزرقاء.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.173",
+     "quote": "the Fundj were rapidly Islamized"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "TRADITION"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-shaykiyya-independence",
+   "era_id": "funj-sultanate-of-sennar",
+   "category": "political",
+   "title": {
+    "en": "The Shaykiyya break away from the Funj",
+    "ar": "انفصال الشايقية عن الفونج [يحتاج تحقق]"
+   },
+   "date_start": "1650",
+   "date_end": null,
+   "date_precision": "circa",
+   "location": {
+    "area": "Shaykiyya country, Nile bend",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "In about the middle of the seventeenth century the Shaykiyya chieftaincy challenged Abdallab hegemony on the Nile and asserted its independence from the Funj sultanate.",
+   "summary_ar": "[يحتاج تحقق] في منتصف القرن السابع عشر تقريبًا تحدّت مشيخة الشايقية هيمنة العبدلاب على النيل وأعلنت استقلالها عن سلطنة الفونج.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.174",
+     "quote": "Shaykïyya chieftaincy challenged the 'Abdallabi hegemony and asserted its independence from the Fundj sultanate"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-funj-aristocracy-revolt-badi-iii",
+   "era_id": "funj-sultanate-of-sennar",
+   "category": "political",
+   "title": {
+    "en": "Funj aristocracy revolts against the slave army; Unsa III deposed",
+    "ar": "ثورة أرستقراطية الفونج على جيش الرقيق وخلع أونسة الثالث [يحتاج تحقق]"
+   },
+   "date_start": "1692",
+   "date_end": "1720",
+   "date_precision": "year",
+   "location": {
+    "place_id": "sennar",
+    "lat": 13.55,
+    "lon": 33.6,
+    "precision": "city"
+   },
+   "summary_en": "The Funj aristocracy resented the sultan's Nuba slave army and revolted under Badi III. They later deposed his son Unsa III, ending the direct line of Umara Dunqas, and Prince Nul followed in 1720.",
+   "summary_ar": "[يحتاج تحقق] استاءت أرستقراطية الفونج من جيش الرقيق النوبي التابع للسلطان فثارت في عهد بادي الثالث. ثم خلعت ابنه أونسة الثالث، فانقطع النسل المباشر لعمارة دنقس، وخلفه الأمير نول عام 1720.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.177",
+     "quote": "This marked the end of the direct line of ' U m ä r a Dunkus."
+    },
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.178",
+     "quote": "Unsa III was followed by Prince N ü l in 1720."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1701-sennar-trading-city",
+   "era_id": "funj-sultanate-of-sennar",
+   "category": "trade",
+   "title": {
+    "en": "Sennar described as Africa's greatest trading city",
+    "ar": "وصف سنار بأنها أعظم مدينة تجارية في أفريقيا [يحتاج تحقق]"
+   },
+   "date_start": "1701",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "place_id": "sennar",
+    "lat": 13.55,
+    "lon": 33.6,
+    "precision": "city"
+   },
+   "summary_en": "Describing Sennar in 1701, the Franciscan Theodor Krump called it close to the greatest trading city in Muslim Africa, with caravans from Cairo, Ethiopia, Darfur, Borno and Fezzan. Sudanese jallaba traders handled much of the commerce.",
+   "summary_ar": "[يحتاج تحقق] وصف الراهب تيودور كرومب سنار عام 1701 بأنها تكاد تكون أعظم مدن التجارة في أفريقيا الإسلامية، تفد إليها القوافل من القاهرة والحبشة ودارفور وبرنو وفزان. وتولى تجار الجلابة السودانيون معظم هذه التجارة.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.183",
+     "quote": "Describing Sennär in 1701, Father K r u m p wrote"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "REPORTED"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1762-abu-likaylik-coup",
+   "era_id": "hamaj-regency-funj-sultanate",
+   "category": "political",
+   "title": {
+    "en": "Abu Likaylik deposes Badi IV: the Hamaj regency begins",
+    "ar": "أبو لكيلك يخلع بادي الرابع: بداية وصاية الهمج [يحتاج تحقق]"
+   },
+   "date_start": "1762",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "place_id": "sennar",
+    "lat": 13.55,
+    "lon": 33.6,
+    "precision": "city"
+   },
+   "summary_en": "Funj notables whose families had suffered under Badi IV persuaded Abu Likaylik to march on Sennar, and in 1762 he deposed Badi and enthroned his son Nasir. Thereafter Abu Likaylik and his successors ruled as hereditary regents and the sultans were puppets.",
+   "summary_ar": "[يحتاج تحقق] أقنع أعيان الفونج الذين عانت أسرهم في عهد بادي الرابع أبا لكيلك بالزحف على سنار، فخلع بادي عام 1762 ونصّب ابنه ناصر. ومنذ ذلك الحين حكم أبو لكيلك وخلفاؤه أوصياء بالوراثة وصار السلاطين دمى.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.185",
+     "quote": "Sennär, deposed Bâdï and replaced him with his son Näsir in 1762."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1761-funj-withdraw-kordofan-darfur",
+   "era_id": "hamaj-regency-funj-sultanate",
+   "category": "political",
+   "title": {
+    "en": "Funj withdraw from Kordofan; Darfur turns east",
+    "ar": "انسحاب الفونج من كردفان وتوجه دارفور شرقًا [يحتاج تحقق]"
+   },
+   "date_start": "1761",
+   "date_end": "1762",
+   "date_precision": "year",
+   "location": {
+    "area": "Kordofan",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "After Abu Likaylik withdrew from Kordofan in 1761-2, the Musabba'at regained power there. Sultan Tayrab of Darfur, having made a lasting treaty with Wadai, turned east against them, and the Funj were ultimately driven out of Kordofan.",
+   "summary_ar": "[يحتاج تحقق] بعد انسحاب أبي لكيلك من كردفان في 1761-1762 استعاد المسبعات السلطة فيها. وتوجّه سلطان دارفور تيراب شرقًا لقتالهم بعد أن عقد معاهدة دائمة مع وداي، وطُرد الفونج في النهاية من كردفان.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.189",
+     "quote": "Likaylik in 1761-2. T h e change in the direction of expansion was probably"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1777-hamaj-civil-wars",
+   "era_id": "hamaj-regency-funj-sultanate",
+   "category": "political",
+   "title": {
+    "en": "Death of Abu Likaylik and fifty years of civil war",
+    "ar": "وفاة أبي لكيلك وخمسون عامًا من الحروب الأهلية [يحتاج تحقق]"
+   },
+   "date_start": "1776",
+   "date_end": "1821",
+   "date_precision": "year",
+   "location": {
+    "place_id": "sennar",
+    "lat": 13.55,
+    "lon": 33.6,
+    "precision": "city"
+   },
+   "summary_en": "On Abu Likaylik's death in 1776/7 the Funj kings conspired with provincial governors to oust the regents, while his descendants fought among themselves. The last fifty years of the sultanate were marked by intrigues, revolts and civil wars.",
+   "summary_ar": "[يحتاج تحقق] بعد وفاة أبي لكيلك في 1776-1777 تآمر ملوك الفونج مع حكام الأقاليم لإزاحة الأوصياء، بينما تنازع أحفاده على السلطة. واتسمت السنوات الخمسون الأخيرة من السلطنة بالمؤامرات والثورات والحروب الأهلية.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.185",
+     "quote": "O n the death of A b u Likaylik in 1776/7, the Fundj kings began to conspire"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1773-shendi-commercial-centre",
+   "era_id": "hamaj-regency-funj-sultanate",
+   "category": "trade",
+   "title": {
+    "en": "Shendi supplants Sennar as the caravan market",
+    "ar": "شندي تحل محل سنار سوقًا للقوافل [يحتاج تحقق]"
+   },
+   "date_start": "1773",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "place_id": "shendi",
+    "lat": 16.69139,
+    "lon": 33.43389,
+    "precision": "city"
+   },
+   "summary_en": "Funj-Fur rivalry over Kordofan and Shilluk raids made the El Obeid-Sennar route unsafe, so trade shifted north to Shendi. When Bruce visited in 1773 it was a large commercial centre under the autonomous Sa'dab Ja'aliyyin, and Burckhardt later saw it as Sennar's successor.",
+   "summary_ar": "[يحتاج تحقق] جعل التنافس بين الفونج والفور على كردفان وغارات الشلك طريق الأبيض-سنار غير آمن، فتحولت التجارة شمالًا إلى شندي. وحين زارها بروس عام 1773 كانت مركزًا تجاريًا كبيرًا تحت حكم السعداب الجعليين الذاتي، ورآها بوركهارت لاحقًا خليفة لسنار.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.183",
+     "quote": "W h e n Bruce visited Shandï in 1773 it was a large commercial centre, under the autonomous rule of the Sa'däb Dja'aliyyün."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1780-shilluk-raid-confluence",
+   "era_id": "hamaj-regency-funj-sultanate",
+   "category": "battle",
+   "title": {
+    "en": "Shilluk raid destroys the settlement at the Nile confluence",
+    "ar": "غارة الشلك تدمّر المستوطنة عند ملتقى النيلين [يحتاج تحقق]"
+   },
+   "date_start": "1780",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "place_id": "khartoum",
+    "lat": 15.60308,
+    "lon": 32.52654,
+    "precision": "region"
+   },
+   "summary_en": "As Funj power on the White Nile declined, the Shilluk took control of Alays and raided downstream. According to Brun-Rollet, the site of present Khartoum was an important settlement until 1780, when the Shilluk destroyed it and massacred its inhabitants.",
+   "summary_ar": "[يحتاج تحقق] مع تراجع سلطة الفونج على النيل الأبيض سيطر الشلك على أليس وأغاروا نحو المصب. وبحسب برون-روليه كان موقع الخرطوم الحالية مستوطنة مهمة حتى عام 1780، حين دمّرها الشلك وقتلوا سكانها.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.197",
+     "quote": "Khartoum had been a settlement of importance until 1780 w h e n the Shilluk raided the town, destroyed it and massacred all its inhabitants."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "REPORTED"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-nyakwaa-jieng-migration-sobat",
+   "era_id": "hamaj-regency-funj-sultanate",
+   "category": "migration",
+   "title": {
+    "en": "Jieng (Dinka) migration across the Sobat",
+    "ar": "هجرة الجينق (الدينكا) عبر نهر السوباط [يحتاج تحقق]"
+   },
+   "date_start": "1780",
+   "date_end": "1820",
+   "date_precision": "circa",
+   "location": {
+    "area": "Sobat river and White Nile",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "During the reign of Reth Nyakwaa (c.1780-1820) a mass migration of Jieng, probably the Rueng and Ngok sections, crossed the Sobat. The White Nile from Lake No to Alays, dominated by the Shilluk for a century and a half, now had to be shared.",
+   "summary_ar": "[يحتاج تحقق] في عهد الرث نياكوا (نحو 1780-1820) عبرت هجرة جماعية من الجينق، على الأرجح من فرعي روينق ونقوك، نهر السوباط. وصار النيل الأبيض من بحيرة نو إلى أليس، الذي سيطر عليه الشلك قرنًا ونصفًا، مقسومًا مع غيرهم.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.197",
+     "quote": "there occurred a mass migration of the Jieng, probably the Rueng and N g o k sections, across the River Sobat"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1811-mamluks-dongola",
+   "era_id": "hamaj-regency-funj-sultanate",
+   "category": "migration",
+   "title": {
+    "en": "Mamluks fleeing Muhammad Ali settle at Dongola",
+    "ar": "المماليك الفارون من محمد علي يستقرون في دنقلا [يحتاج تحقق]"
+   },
+   "date_start": "1811",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "place_id": "old-dongola",
+    "lat": 18.22306,
+    "lon": 30.74389,
+    "precision": "region"
+   },
+   "summary_en": "In 1811 Mamluks fleeing Muhammad Ali's massacre in Egypt set up a camp at New Dongola and fought the Shaykiyya. Meanwhile the Sa'dab of Shendi and the Majadhib of al-Damer became virtually autonomous of the Abdallab.",
+   "summary_ar": "[يحتاج تحقق] في عام 1811 أقام المماليك الفارون من مذبحة محمد علي في مصر معسكرًا في دنقلا الجديدة وقاتلوا الشايقية. وفي الأثناء صار السعداب في شندي والمجاذيب في الدامر شبه مستقلين عن العبدلاب.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.185",
+     "quote": "In 1811, they fled from M u h a m m a d 'All's massacre, established a camp at Dünküla"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1821-sennar-falls-without-resistance",
+   "era_id": "hamaj-regency-funj-sultanate",
+   "category": "political",
+   "title": {
+    "en": "The enfeebled sultanate cannot resist the Turco-Egyptian advance",
+    "ar": "السلطنة الواهنة تعجز عن مقاومة الزحف التركي المصري [يحتاج تحقق]"
+   },
+   "date_start": "1821",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "place_id": "sennar",
+    "lat": 13.55,
+    "lon": 33.6,
+    "precision": "city"
+   },
+   "summary_en": "Harassed by Darfur in the west and torn by internal strife, the Funj sultanate had lost Kordofan. When Turco-Egyptian forces approached Sennar in 1821 it was too feeble to resist.",
+   "summary_ar": "[يحتاج تحقق] خسرت سلطنة الفونج كردفان بعد ضغط دارفور في الغرب وتمزقها بالصراعات الداخلية. وحين اقتربت القوات التركية المصرية من سنار عام 1821 كانت أضعف من أن تقاوم.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "page": "p.185",
+     "quote": "Egyptian forces approached Sennär in 1821, the sultanate was too feeble to muster any resistance."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
   }
  ]
 }

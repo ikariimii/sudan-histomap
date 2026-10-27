@@ -663,6 +663,55 @@
     "quote": "F r o m Shendi to Sennär the people fled by the thousand to the borders of Ethiopia, to the valley of Atbara and to the region of Gedaref.",
     "registered": true
    }
+  },
+  {
+   "id": "dis-1684-great-famine-umm-laham",
+   "era_id": "early-funj-sultanate-funj-sultans",
+   "type": "disaster",
+   "subtype": "famine",
+   "title": {
+    "en": "Great Famine of 1684 (Umm Laham)",
+    "ar": "المجاعة الكبرى عام 1684 (أم لحم) [يحتاج تحقق]"
+   },
+   "date_start": "1684",
+   "date_end": null,
+   "date_precision": "year",
+   "place_id": null,
+   "location": {
+    "area": "Funj Sultanate / White Nile (Bahr Scheluk)",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "figures": [],
+   "status": null,
+   "badges": [
+    "SINGLE-SOURCE",
+    "VERIFY"
+   ],
+   "summary_en": "The Great Famine of 1684, remembered in Arabic as Umm Laham, struck during the reign of Reth Dhokoth. It probably drove many Shilluk to flee northwards to raid or settle along the White Nile. No mortality figures are given (VERIFY).",
+   "summary_ar": "[يحتاج تحقق] ضربت المجاعة الكبرى عام 1684، المعروفة بالعربية بأم لحم، في عهد الرث دوكوث. ويُرجّح أنها دفعت كثيرًا من الشلك إلى الفرار شمالًا للإغارة أو الاستقرار على النيل الأبيض. ولا تتوفر أرقام عن الضحايا (يحتاج تحقق).",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA5_CH7"
+   ],
+   "note": "No figures in source; extent VERIFY.",
+   "citations": [
+    {
+     "source_id": "GHA5_CH7",
+     "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184290",
+     "page": "p.196",
+     "quote": "T h e Great Famine of 1684 (Umm Laham in Arabic) was probably responsible for sending m a n y Shillukfleeingnorthwards, to raid or settle in Bahr Scheluk.",
+     "registered": true
+    }
+   ],
+   "citation": {
+    "source_id": "GHA5_CH7",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184290",
+    "page": "p.196",
+    "quote": "T h e Great Famine of 1684 (Umm Laham in Arabic) was probably responsible for sending m a n y Shillukfleeingnorthwards, to raid or settle in Bahr Scheluk.",
+    "registered": true
+   }
   }
  ]
 }
