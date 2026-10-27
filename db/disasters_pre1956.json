@@ -3,8 +3,7 @@
   "description": "Pre-1956 disasters (Sudan). Cited printed sources only, quotes verbatim with printed page numbers; fatality/victim figures only where the source prints them. Arabic titles are working translations. Separate file because era_events joins key_events by index. Not read by mapsite.py yet (it reads only disasters_post1956).",
   "created": "2026-10-26",
   "missing": [
-   "1946 Nile flood: no lawful open printed source with page numbers found (Sudan Notes and Records 1946-48 on Internet Archive is an in-copyright periodical scan, not used)",
-   "Famine 1888-92 range / 'Sanat Sitta' name: no printed page found",
+   "1946 Nile flood: no lawful open printed source with page numbers found (Sudan Notes and Records 1946-48 on Internet Archive is an in-copyright periodical scan, not used; Poussier 2024 thesis covers only 1883-1891)",
    "Turkiyya slave-raiding zones, Mahdist-era emigration to Wadai, 1946 flood, pre-1821 eras (Kerma to Funj): no paged cite checked in this pass"
   ]
  },
@@ -28,10 +27,9 @@
    ],
    "status": null,
    "badges": [
-    "SINGLE-SOURCE",
     "REPORTED"
    ],
-   "note": "The famine is often called Sanat Sitta (year 6, i.e. AH 1306), but that name does not appear in this source. Only 1889 is dated in print here (\"the close of 1889\", p.453), so no end year is given; the 1888-92 range is NOT cited. No fatality figure (p.455 says only \"in hundreds\" for Omdurman streets).",
+   "note": "Name Sanat Sitta (\"year six\", AH 1306 = 1888/9, when the famine was said to have begun) from Poussier 2024 p.52 n.204; Poussier dates the famine in Eastern Sudan 1889-1890 (p.403) and the wider food crisis 1889-1891 (p.52), so date_end stays null (sources differ). Slatin dates it in print only to 1889 (\"the close of 1889\", p.453); the 1888-92 range is NOT cited. No fatality figure (Slatin p.455 says only \"in hundreds\" for Omdurman streets).",
    "citations": [
     {
      "source_id": "SLATIN1896",
@@ -60,6 +58,27 @@
      "page": "p.455",
      "quote": "The dead lay in the streets in hundreds",
      "registered": true
+    },
+    {
+     "source_id": "POUSSIER2024",
+     "url": "https://theses.hal.science/tel-04767349",
+     "page": "p.52",
+     "quote": "The particular context of the 1889-1891 food crisis, also called the famine of the Sanat Sitta",
+     "registered": true
+    },
+    {
+     "source_id": "POUSSIER2024",
+     "url": "https://theses.hal.science/tel-04767349",
+     "page": "p.52, n.204",
+     "quote": "Sanat sitta means “year six”, in reference to the year 1306 (1888/9), the date at which the famine was said to have begun.",
+     "registered": true
+    },
+    {
+     "source_id": "POUSSIER2024",
+     "url": "https://theses.hal.science/tel-04767349",
+     "page": "p.403",
+     "quote": "The second section will attempt to uncover the mechanisms behind the famine of 1889-1890.",
+     "registered": true
     }
    ],
    "citation": {
@@ -69,7 +88,11 @@
     "quote": "Those were terrible months at the close of 1889",
     "registered": true
    },
-   "era_id": "mahdist-state-mahdiyya"
+   "era_id": "mahdist-state-mahdiyya",
+   "source_ids": [
+    "SLATIN1896",
+    "POUSSIER2024"
+   ]
   },
   {
    "id": "dis-mahdiyya-smallpox-omdurman",
