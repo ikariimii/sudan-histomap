@@ -27,9 +27,9 @@ LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.ty
 document.addEventListener('click',ev=>{const a=ev.target.closest&&ev.target.closest('a.hwkl');if(!a)return;const d=document.getElementById('msrcp');if(!d)return;ev.preventDefault();d.open=true;const s=d.querySelector('summary');s.scrollIntoView({block:'nearest',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});s.focus({preventScroll:true})});
 document.addEventListener('click',ev=>{const t=ev.target.closest&&ev.target.closest('[data-hml]');if(!t)return;ev.preventDefault();if(!on.has('hml')){on.add('hml');const c=document.querySelector('#layers .chip[data-k=hml]');if(c)c.setAttribute('aria-pressed','true');url();render(false);hmlDraw()}});
 // --- era index
-let i=Math.max(0,ES.findIndex(e=>e.id===Q.get('era')));const r=$('r');r.max=ES.length-1;r.value=i;r.setAttribute('aria-label',T.era);
+/* child eras (IM): ?era=<child> opens the child's Key Events card on its parent era */const CHL=(M.layers&&M.layers.ch)||[];let CHQ=CHL.find(c=>c.id===Q.get('era'))||null;let i=Math.max(0,ES.findIndex(e=>e.id===(CHQ?CHQ.p:Q.get('era'))));const r=$('r');r.max=ES.length-1;r.value=i;r.setAttribute('aria-label',T.era);
 /* ?war=<war id from b.json battles[].w.id>: deep link to that war; opens its first battle (or the first one inside ?era) */var WARQ=Q.get('war');
-function url(){const q=new URLSearchParams();q.set('era',ES[i].id);if(WARQ)q.set('war',WARQ);if(STY)q.set('story',STY.s);if(Q.get('embed')==='1')q.set('embed','1');const ly=[...on].sort().concat(BDQ?['borders-draft']:[]).join(',');if(ly!=='ctl')q.set('layers',ly);history.replaceState(null,'',(AR?'/ar/':'/')+'?'+q)}
+function url(){const q=new URLSearchParams();q.set('era',CHQ&&CHQ.p===ES[i].id?CHQ.id:ES[i].id);if(WARQ)q.set('war',WARQ);if(STY)q.set('story',STY.s);if(Q.get('embed')==='1')q.set('embed','1');const ly=[...on].sort().concat(BDQ?['borders-draft']:[]).join(',');if(ly!=='ctl')q.set('layers',ly);history.replaceState(null,'',(AR?'/ar/':'/')+'?'+q)}
 // --- map
 const svg=d3.select('#svg'),W=()=>innerWidth,H=()=>innerHeight,desk=()=>innerWidth>=1000;
 const root=svg.append('g'),gB=root.append('g').attr('class','relief'),gZ=root.append('g').attr('class','zones'),gL=root.append('g'),gC=root.append('g'),gX=root.append('g'),gN=root.append('g'),gG=root.append('g'),gH=root.append('g').attr('class','hml'),gY=root.append('g').attr('class','cities'),gR=root.append('g'),gP=root.append('g'),gK=root.append('g'),gT=root.append('g'),gF=root.append('g').attr('class','flags');
@@ -154,7 +154,7 @@ async function render(anim=true){await MK;
  LBS=LB;
  await layersDraw(e);batDraw(e).then(()=>{if(e===ES[i])return legendDraw(e)}).then(wAct);/* legend battle counts read the drawn pins */if(gEp)gEp.selectAll('*').remove();if(on.has('hml'))hmlDraw();prefetch(i);zonesDraw(e,D,ctl?g.features.filter(f=>f.properties.zone&&f.geometry.type!=='Point'):[]);
  // card
- const cj=await cardj(e);if(e!==ES[i])return;$('card').innerHTML=cj?cj[L]:`<p><span class="gap">${T.wip}</span></p>`;evList(e);cityLO(e);shareBtn(e);layerInfo(e);msPanel(e);$('feat').hidden=true;wtlDraw();
+ if(CHQ&&CHQ.p!==e.id)CHQ=null;const cj=await cardj(CHQ?{id:CHQ.id}:e);if(e!==ES[i])return;$('card').innerHTML=cj?cj[L]:`<p><span class="gap">${T.wip}</span></p>`;evList(e);cityLO(e);shareBtn(e);layerInfo(e);msPanel(e);$('feat').hidden=true;wtlDraw();
  place()}
 render.last=null;let LBS=[];
 new MutationObserver(()=>{const x=$('feat').querySelector('.x');if(x)x.setAttribute('aria-label',T.close)}).observe($('feat'),{childList:true});
