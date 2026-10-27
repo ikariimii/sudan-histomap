@@ -12499,6 +12499,46 @@
     "25 أكتوبر 2021: الأمين العام للأمم المتحدة يدين 'الانقلاب العسكري الجاري' [يحتاج تحقق]",
     "15 أبريل 2023: مسؤولو الأمم المتحدة يدينون القتال بين القوات السودانية [يحتاج تحقق]"
    ]
+  },
+  {
+   "name": "Mahdist uprising",
+   "stream": "Sudan – Middle Nile",
+   "start": 1881,
+   "end": 1885,
+   "prominence": 0.3,
+   "key_events": [
+    "1881-5: Muhammad Ahmad declares the Mahdi-ship openly, beginning a military struggle with the government that lasted four years",
+    "26 January 1885: the Ansar attack Khartoum, kill Gordon and put an end to Turco-Egyptian rule in the Sudan"
+   ],
+   "key_events_cites": [
+    [
+     {
+      "source": "GHA7_CH4",
+      "page": "p.74"
+     }
+    ],
+    [
+     {
+      "source": "GHA7_CH4",
+      "page": "p.77"
+     }
+    ]
+   ],
+   "capitals": [
+    {
+     "name": "Khartoum",
+     "lat": 15.5,
+     "lon": 32.56
+    }
+   ],
+   "sources": [
+    "GHA7_CH4"
+   ],
+   "dating_note": "Top-level sibling era (no parent); deliberately overlaps the end of turkiyya-ottoman-egyptian-rule (1821-1885). Bounds: struggle \"which lasted for four years (1881-5)\" (GHA7_CH4 p.74); fall of Khartoum 26 Jan 1885 (GHA7_CH4 p.77) [SINGLE-SOURCE].",
+   "key_events_ar": [
+    "1881-1885: محمد أحمد يعلن المهدية جهرًا فتبدأ مواجهة عسكرية مع الحكومة دامت أربع سنوات [يحتاج تحقق]",
+    "26 يناير 1885: الأنصار يهاجمون الخرطوم ويقتلون غوردون وينهون الحكم التركي المصري في السودان [يحتاج تحقق]"
+   ]
   }
  ]
 }
