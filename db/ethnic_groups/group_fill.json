@@ -1,0 +1,124 @@
+{
+ "meta": {
+  "note": "Ethnic-group content moved verbatim from era-keyed fill files when the community eras left the timeline (IM ruling); keyed by db/ethnic_groups.json group id, then by origin file and section. Nothing added.",
+  "groups_file": "db/ethnic_groups.json"
+ },
+ "groups": {
+  "anuak": {
+   "db/era_fill_hist20.json": {
+    "null_reasons": "culture: GHA V ch.7 p.193 only places the Anywa in the Northern Luo group, straddling the Sudan–Ethiopia border; Evans-Pritchard 1940 has only Nuer-centred remarks (pp.38, 108); no Anuak ethnography read"
+   },
+   "db/era_fill_modern4.json": {
+    "eras": {
+     "culture_dominance_en": "Language and identity only; no ethnography read. The Library of Congress study classes the Anuak with the Nuer in the East Sudanic family of Nilo-Saharan and says that, whereas most Nuer are in Sudan, 'the Anuak live almost entirely in Ethiopia' (LOC_ETH1991_NILOSAHARAN). GHA V places the Anywa in the Northern Luo group on the Sudan–Ethiopia border (GHAV, ch.7, p.193). [SINGLE-SOURCE per point; no source on Anuak religion, kingship or language use read]",
+     "culture_dominance_ar": "اللغة والهوية فقط؛ لم تُقرأ أي دراسة إثنوغرافية. تصنّف دراسة مكتبة الكونغرس الأنواك مع النوير ضمن العائلة السودانية الشرقية من اللغات النيلية الصحراوية، وتذكر أنه بينما يعيش معظم النوير في السودان «يعيش الأنواك كلهم تقريبًا في إثيوبيا» (LOC_ETH1991_NILOSAHARAN). ويضع تاريخ أفريقيا العام الخامس الأنيوا ضمن مجموعة اللوو الشمالية على الحدود السودانية الإثيوبية (GHAV، الفصل 7، ص 193). [مصدر واحد لكل نقطة] [WORKING TRANSLATION – needs native Arabic review]",
+     "source_ids": [
+      "LOC_ETH1991_NILOSAHARAN",
+      "GHAV"
+     ],
+     "flags": [
+      "SINGLE-SOURCE – each statement rests on one source",
+      "culture: language/location only, no Anuak cultural ethnography read (EP1940_ANUAK still not on the box)"
+     ]
+    }
+   },
+   "db/era_symbols.json": {
+    "eras": {
+     "name_en": "Anuak (Anywaa) communities",
+     "years": [
+      1500,
+      2026
+     ],
+     "flag": null,
+     "flag_null_reason": "No documented flag. Pre-modern state, culture or community; Commons designs for it would be modern reconstructions or fantasy flags.",
+     "display_hint": "no known flag",
+     "emblem": null
+    }
+   }
+  },
+  "azande": {
+   "db/era_symbols.json": {
+    "eras": {
+     "name_en": "Zande kingdoms",
+     "years": [
+      1700,
+      1905
+     ],
+     "flag": null,
+     "flag_null_reason": "No flag verified for this polity. Commons designs found were not checked against an attested source, so per policy no design is shown.",
+     "display_hint": "no known flag",
+     "emblem": null
+    }
+   }
+  },
+  "dinka": {
+   "db/era_fill_hist20.json": {
+    "eras": {
+     "culture_dominance_en": "Ogot links the Recent Iron Age of the Nilotes to the arrival of humped cattle on the Bahr al-Ghazal and 'the full development of transhumance, especially among the Jieng' (GHA V ch.7, p.193). The Jieng, Naath and Luo are 'Jii-speaking' peoples, all using the term 'jii' for 'people' (p.196 fn.59). From about 1630 the Jieng expanded into the southern Gezira (p.196). He notes that ethnic identity on this frontier was fluid, with people 'becoming Arabs, Fur, Funj, Shilluk, Naath or Jieng according to political and economic circumstances' (p.171). No Dinka ethnography (e.g. F.M. Deng) was read.",
+     "culture_dominance_ar": "يربط أوغوت العصر الحديدي المتأخر لدى النيليين بوصول الأبقار ذات السنام إلى بحر الغزال و«اكتمال نمط الترحال الموسمي، ولا سيما لدى الجينق» (تاريخ أفريقيا العام V، الفصل 7، ص193). والجينق والناث واللوو شعوب «ناطقة بالجي»، وكلها تستخدم كلمة «جي» بمعنى «الناس» (ص196، الحاشية 59). ومنذ نحو 1630 توسّع الجينق في جنوب الجزيرة (ص196). ويلاحظ أن الهوية العرقية على هذه التخوم كانت مرنة، إذ كان الناس «يصبحون عرباً أو فوراً أو فونجاً أو شلكاً أو ناثاً أو جينق تبعاً للظروف السياسية والاقتصادية» (ص171). ولم تُقرأ إثنوغرافيا عن الدينكا (مثل فرانسيس دينق). [WORKING TRANSLATION – needs native Arabic review]",
+     "sources": [
+      "GHA5_CH7"
+     ],
+     "flags": [
+      "SINGLE-SOURCE – GHA V ch.7 (Ogot); no Dinka ethnography read"
+     ]
+    }
+   },
+   "db/era_symbols.json": {
+    "eras": {
+     "name_en": "Dinka (Jieng) communities",
+     "years": [
+      1500,
+      2026
+     ],
+     "flag": null,
+     "flag_null_reason": "No documented flag. Pre-modern state, culture or community; Commons designs for it would be modern reconstructions or fantasy flags.",
+     "display_hint": "no known flag",
+     "emblem": null
+    }
+   }
+  },
+  "nuer": {
+   "db/era_symbols.json": {
+    "eras": {
+     "name_en": "Nuer (Naath) communities",
+     "years": [
+      1500,
+      2026
+     ],
+     "flag": null,
+     "flag_null_reason": "No documented flag. Pre-modern state, culture or community; Commons designs for it would be modern reconstructions or fantasy flags.",
+     "display_hint": "no known flag",
+     "emblem": null
+    }
+   }
+  },
+  "shilluk": {
+   "db/era_fill_hist20.json": {
+    "eras": {
+     "culture_dominance_en": "Ogot dates the first Shilluk settlement near Malakal to their leader Nyikang (c.1490–1517). Luo-speakers absorbed Funj and Nuba elements and formed 'what became known as the Shilluk nation' from the later 17th century, settled in villages along the west bank (GHA V ch.7, p.193). Reth Tugo (c.1690–c.1710) founded Fashoda as the permanent royal seat; before that each reth ruled from, and was buried in, his own village. Tugo also instituted the elaborate installation ceremony of the reth, and a social hierarchy developed alongside centralisation (p.197).",
+     "culture_dominance_ar": "يؤرّخ أوغوت أول استيطان للشلك قرب ملكال بقيادة نيكانق (نحو 1490–1517). واستوعب المتحدثون باللوو عناصر من الفونج والنوبة وكوّنوا «ما عُرف بأمة الشلك» منذ أواخر القرن السابع عشر، في قرى على الضفة الغربية (تاريخ أفريقيا العام V، الفصل 7، ص193). وأسس الرث توقو (نحو 1690–1710) فشودة مقراً ملكياً دائماً، وكان كل رث قبل ذلك يحكم من قريته ويُدفن فيها. ووضع توقو أيضاً مراسم تنصيب الرث المفصّلة، ونشأ تراتب اجتماعي مع المركزية (ص197). [WORKING TRANSLATION – needs native Arabic review]",
+     "sources": [
+      "GHA5_CH7"
+     ],
+     "flags": [
+      "Shilluk dates from oral tradition (GHA V ch.7)"
+     ]
+    }
+   },
+   "db/era_symbols.json": {
+    "eras": {
+     "name_en": "Shilluk Kingdom",
+     "years": [
+      1490,
+      1861
+     ],
+     "flag": null,
+     "flag_null_reason": "No flag verified for this polity. Commons designs found were not checked against an attested source, so per policy no design is shown.",
+     "display_hint": "no known flag",
+     "emblem": null
+    }
+   }
+  }
+ }
+}
