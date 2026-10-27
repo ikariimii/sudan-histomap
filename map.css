@@ -252,7 +252,7 @@ html[dir=rtl] #wtl .wtm .wbg{left:auto;right:-3px}
 #lgp .wlg button.wtg:focus-visible{outline:2px solid #ffd54a;outline-offset:1px}
 #lgp .wlg button.wtg[aria-pressed=true]{border-color:#ffd54a;background:rgba(255,213,74,.12)}
 g.bt.wact{transform-box:fill-box}g.bt.wact .bth{stroke:#ffd54a;stroke-width:3}
-g.bt.wdim{opacity:.25}
+g.bt.wdim,#wtl .wsp.wdim,#wtl .wtm.wdim{display:none}/* QA tde fix 2: an active war legend toggle hides other wars' pins and spans */
 /* Languages / People / Religions layers */
 .pl .pli{fill:#14202bd9;stroke:#e8d9a8;stroke-width:1.5}.pl .ppl .pli{stroke:#8cc8f0}.pl .rlg .pli{stroke:#c9a0f0}
 .pl .plg{font:600 10px system-ui,sans-serif;fill:#f4ecd4;pointer-events:none}.pl .plt{font:600 11px system-ui,sans-serif;fill:#f4ecd4;paint-order:stroke;stroke:#0b141c;stroke-width:3px;pointer-events:none}
@@ -265,3 +265,10 @@ dialog.plsh::backdrop{background:#0008}.plsh .plgrab{width:44px;height:5px;borde
 .plm{cursor:pointer}.plm:focus-visible .plhalo{stroke:#0f1b24}
 .clgl{list-style:none;margin:0;padding:0}.clgl li{display:flex;gap:6px;align-items:center;min-height:24px}
 .cknote{font-size:12px;opacity:.85}.repb{font-size:11px;border:1px solid currentColor;border-radius:4px;padding:0 3px}
+/* B1 events/disasters layer */
+.dss .ds{cursor:pointer}.dss .dsh{fill:#e8e2d0;opacity:.85}.dss .dsc{fill:#7a2e1f;stroke:#0f1b24;stroke-width:1}.dss .ds.cur .dsc{fill:#c4472d}.dss .ds:focus-visible .dsh{stroke:#0f1b24;stroke-width:2}
+.dtl{margin:.4em 0;padding-inline-start:.6em;border-inline-start:3px solid #7a2e1f}
+/* ethnic-groups layer (Designer style; contrast waiver in methodology) */
+.egl .eg{cursor:pointer}.egl .egh{fill:none;stroke:#e8e2d0;stroke-width:4.5}.egl .ego{fill:none;stroke:#a278ba;stroke-width:2.5;paint-order:stroke}.egl .eg:focus-visible .egh{stroke:#0f1b24}
+.egart img{max-width:100%;height:auto}.egart figcaption{font-size:.85em}
+.egl .egi{fill:none;stroke:#0f1b24;stroke-width:1}
