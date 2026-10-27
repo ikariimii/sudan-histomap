@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 1057
+      "sentence_items": 1061
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -16961,6 +16961,62 @@
       "field_en": "en",
       "revised_english": "Early 1920s: cotton in Oubangui-Chari among the first large-scale speculative enterprises of French Equatorial Africa (GHA7_CH15 p.370)",
       "reason": "New key event (IM QA ke28 item 3), working Arabic translation; names reuse forms in our data (وداي، برنو، دارفور، فزان، برقة، أوبانغي شاري). Not from a published Arabic edition.",
+      "action": "native review",
+      "origin_commit": "pending",
+      "added": "2026-10-27",
+      "note": "needs native Arabic review [يحتاج تحقق]"
+    },
+    {
+      "era_id": "transitional-military-council-tmc",
+      "file": "data/i18n_ar.js",
+      "field_ar": "window.AR.names[\"Transitional Military Council (TMC)\"] (child-era title)",
+      "arabic_sentence": "المجلس العسكري الانتقالي [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "data/periods.json periods[].name",
+      "revised_english": "Transitional Military Council (TMC)",
+      "reason": "New Arabic child-era title (IM QA ke28 item 4); reuses 'المجلس العسكري الانتقالي' (db LOC1991_TMC Arabic text). Working translation, not from a published Arabic edition.",
+      "action": "native review",
+      "origin_commit": "pending",
+      "added": "2026-10-27",
+      "note": "needs native Arabic review [يحتاج تحقق]"
+    },
+    {
+      "era_id": "third-parliamentary-period-sadiq-al-mahdi",
+      "file": "data/i18n_ar.js",
+      "field_ar": "window.AR.names[\"Third parliamentary period (Sadiq al-Mahdi)\"] (child-era title)",
+      "arabic_sentence": "الحكم البرلماني الثالث (الصادق المهدي) [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "data/periods.json periods[].name",
+      "revised_english": "Third parliamentary period (Sadiq al-Mahdi)",
+      "reason": "New Arabic child-era title (IM QA ke28 item 4); reuses 'الحكم البرلماني الثالث' (data/i18n_ar.js parent title) and 'الصادق المهدي' (data/periods.json). Working translation, not from a published Arabic edition.",
+      "action": "native review",
+      "origin_commit": "pending",
+      "added": "2026-10-27",
+      "note": "needs native Arabic review [يحتاج تحقق]"
+    },
+    {
+      "era_id": "civilian-led-transitional-government",
+      "file": "data/i18n_ar.js",
+      "field_ar": "window.AR.names[\"Civilian-led transitional government\"] (child-era title)",
+      "arabic_sentence": "الحكومة الانتقالية بقيادة مدنية [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "data/periods.json periods[].name",
+      "revised_english": "Civilian-led transitional government",
+      "reason": "New Arabic child-era title (IM QA ke28 item 4); reuses 'حكومة انتقالية بقيادة مدنية' (existing [يحتاج تحقق] Arabic in our data). Working translation, not from a published Arabic edition.",
+      "action": "native review",
+      "origin_commit": "pending",
+      "added": "2026-10-27",
+      "note": "needs native Arabic review [يحتاج تحقق]"
+    },
+    {
+      "era_id": "post-coup-military-rule-2021-2023",
+      "file": "data/i18n_ar.js",
+      "field_ar": "window.AR.names[\"Post-coup military rule (2021-2023)\"] (child-era title)",
+      "arabic_sentence": "الحكم العسكري بعد انقلاب 2021 (2021–2023) [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "data/periods.json periods[].name",
+      "revised_english": "Post-coup military rule (2021-2023)",
+      "reason": "New Arabic child-era title (IM QA ke28 item 4); reuses 'انقلاب أكتوبر 2021' (existing Arabic in our data). Working translation, not from a published Arabic edition.",
       "action": "native review",
       "origin_commit": "pending",
       "added": "2026-10-27",
