@@ -576,15 +576,16 @@
       ],
       "status": null,
       "citation": {
-        "source_id": null,
-        "pending_key": "UNNEWS_20120412_HEGLIG",
+        "source_id": "UNNEWS_20120412_HEGLIG",
         "url": "https://news.un.org/en/story/2012/04/408572",
         "date": "2012-04-12",
         "quote": "The alarming situation is manifested most recently by the seizure and occupation of the town of Heglig and its oil fields in Sudan by South Sudan’s army, the Sudan People’s Liberation Army (SPLA), the Council said in a presidential statement.",
-        "registered": false
+        "registered": true
       },
-      "in_build": false,
-      "source_ids": []
+      "in_build": true,
+      "source_ids": [
+        "UNNEWS_20120412_HEGLIG"
+      ]
     },
     {
       "id": "maj-2011-abyei-offensive",
@@ -609,15 +610,16 @@
       ],
       "status": null,
       "citation": {
-        "source_id": null,
-        "pending_key": "HRW_20110526_ABYEI",
+        "source_id": "HRW_20110526_ABYEI",
         "url": "https://www.hrw.org/news/2011/05/26/sudan-stop-abyei-abuses-hold-forces-accountable",
         "date": "2011-05-26",
         "quote": "In the following days, tens of thousands of people, including the elderly and unaccompanied children, fled Abyei, Agok, and surrounding towns",
-        "registered": false
+        "registered": true
       },
-      "in_build": false,
-      "source_ids": []
+      "in_build": true,
+      "source_ids": [
+        "HRW_20110526_ABYEI"
+      ]
     },
     {
       "id": "maj-ssd-refugees-in-sudan",
@@ -628,8 +630,8 @@
         "ar": "اللاجئون من جنوب السودان في السودان [يحتاج تحقق]"
       },
       "summary": {
-        "en": "UNHCR's Sudan country portal lists South Sudanese refugees and asylum-seekers as the largest group in Sudan; a government estimate of 1.3 million is noted by UNHCR as requiring verification.",
-        "ar": "تدرج بوابة المفوضية لاجئي جنوب السودان كأكبر مجموعة في السودان. [يحتاج تحقق]"
+        "en": "As of 30 Sep 2026, UNHCR's Sudan country portal lists 689,397 South Sudanese refugees and asylum-seekers in Sudan, the largest group; a government estimate of 1.3 million is noted by UNHCR as requiring verification.",
+        "ar": "حتى 30 سبتمبر 2026 تدرج بوابة المفوضية 689,397 لاجئا وطالب لجوء من جنوب السودان في السودان، وهي أكبر مجموعة. [يحتاج تحقق]"
       },
       "date_start": null,
       "date_end": null,
@@ -640,7 +642,8 @@
       "figures": [
         {
           "text": "South Sudan COR, IPP, UNHCR 30 Sep 2026 75.8% 689,397",
-          "as_of": "2026-09-30"
+          "as_of": "2026-09-30",
+          "label": "689,397 South Sudanese refugees and asylum-seekers in Sudan, as of 30 Sep 2026 (UNHCR)"
         }
       ],
       "badge": "VERIFY",
@@ -649,15 +652,16 @@
       ],
       "status": null,
       "citation": {
-        "source_id": null,
-        "pending_key": "UNHCR_ODP_SDN_COUNTRY",
+        "source_id": "UNHCR_ODP_SDN_COUNTRY",
         "url": "https://data.unhcr.org/en/country/sdn",
         "date": "2026-09-30",
         "quote": "Total number of South Sudanese refugees includes UNHCR/COR registered refugees, Immigration Passport Police (IPP) registered figures and unregistered population. Additional sources estimate a total of 1.3 million South Sudanese refugees in Sudan; however, these data require verification.",
-        "registered": false
+        "registered": true
       },
-      "in_build": false,
-      "source_ids": []
+      "in_build": true,
+      "source_ids": [
+        "UNHCR_ODP_SDN_COUNTRY"
+      ]
     }
   ]
 }
