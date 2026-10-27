@@ -20,7 +20,7 @@ $('lang').href=(AR?'/':'/ar/')+(lq.toString()?'?'+lq:'');$('prev').setAttribute(
 $('skip').textContent=T.skip;$('map').setAttribute('aria-label',T.mapl);$('svg').setAttribute('aria-label',T.mapl+'. '+T.featl);$('svgt').textContent=T.mapl;$('layers').setAttribute('aria-label',T.layersl);
 $('grab').setAttribute('aria-label',T.sheet+' · '+T.sheetst.half);$('grab').setAttribute('aria-expanded','true');
 $('reset').title=T.reset;$('reset').setAttribute('aria-label',T.reset);$('within').querySelector('label').textContent=T.within;
-const LAY=['ctl','grp','rel','eth','pop','cty','hml','trd','evd','now'].concat(M.layers.bat?['bat']:[]).concat(['dem','heat']),on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x==='trade'?'trd':x==='evidence'?'evd':x==='then-now'?'now':x==='battles'?'bat':x).filter(x=>LAY.includes(x)));
+const LAY=['ctl','grp','rel','eth','pop','cty','hml','trd','evd','now'].concat(M.layers.bat?['bat']:[]).concat(['dem','heat']).concat(M.layers.pl?['lng','ppl','rlg']:[]),on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x==='trade'?'trd':x==='evidence'?'evd':x==='then-now'?'now':x==='battles'?'bat':x).filter(x=>LAY.includes(x)));
 LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=T.l[k]||(k==='bat'?(AR?'المعارك *':'Battles'):k==='dem'?(AR?'تظليل التضاريس *':'Hillshade'):k==='heat'?(AR?'كثافة المعارك *':'Battle density'):k);b.setAttribute('aria-pressed',on.has(k));b.dataset.k=k;if(k==='trd')b.setAttribute('aria-label',T.l.trd_aria);
  b.onclick=()=>{on.has(k)?on.delete(k):on.add(k);if(k==='dem'||k==='heat'){b.setAttribute('aria-pressed',on.has(k));url();tilesAll();heatDraw();legendDraw(ES[i]);return}if(k==='eth'&&on.has(k))eth1932();b.setAttribute('aria-pressed',on.has(k));url();if(k==='evd'){evdStyle();layerInfo(ES[i]);return}if(k==='now'){cmpDraw();return}render(false);if(k==='hml')hmlDraw()};$('layers').appendChild(b)});
 // 'How we know' strip: open the card's sources panel and move focus to it
@@ -257,7 +257,7 @@ function glTap(ev,f){ev.stopPropagation();const li=document.querySelector(`#card
 let TRD=null;const gTr=root.append('g').attr('class','trade');
 async function tradeDraw(e){gTr.selectAll('*').remove();if(!on.has('trd'))return;if(!TRD)TRD=await fetch('/trade.json').then(r=>r.ok?r.json():[]).catch(()=>[]);const ar=document.documentElement.lang==='ar';
  TRD.filter(r=>r.eras.includes(e.id||e)&&r.w.length>1).forEach(r=>{gTr.append('path').attr('d',path({type:'LineString',coordinates:r.w.map(w=>[w[0],w[1]])})).attr('fill','none').attr('stroke','#e8b04a').attr('stroke-width',2).attr('stroke-dasharray',r.w.some(w=>w[2])?'5 4':null).attr('vector-effect','non-scaling-stroke').attr('tabindex',0).attr('role','img').attr('aria-label',(ar&&r.ar||r.en)+' — '+r.s.map(s=>s.c).join('; ')).append('title').text((ar&&r.ar||r.en)+'\n'+r.s.map(s=>s.c).join('\n'))})}
-async function layersDraw(e){tradeDraw(e);ethDraw(e);{const hg=!!M.layers.glBuilt&&(M.layers.g||[]).includes(e.id);['grp','rel'].forEach(k=>{const c=document.querySelector('#layers .chip[data-k='+k+']');if(c)c.hidden=!hg})}const fs=(on.has('grp')||on.has('rel'))?await glj(e):[];const D=RM?0:DUR;
+async function layersDraw(e){plDraw(e);tradeDraw(e);ethDraw(e);{const hg=!!M.layers.glBuilt&&(M.layers.g||[]).includes(e.id);['grp','rel'].forEach(k=>{const c=document.querySelector('#layers .chip[data-k='+k+']');if(c)c.hidden=!hg})}const fs=(on.has('grp')||on.has('rel'))?await glj(e):[];const D=RM?0:DUR;
  const pts=on.has('grp')?fs.filter(f=>f.k!=='relation'&&f.geo&&f.geo.type==='Point'):[];
  // stable ids: the same group feature glides to its new anchor between eras
  const s=gG.selectAll('g.grp').data(pts,f=>f.id);s.exit().remove();
@@ -288,7 +288,7 @@ function popOwidH(io){if(!io)return'';const L=AR?1:0,f=POW_ORDER.filter(k=>io[k]
  if(nt)h+=`<p class="pown" dir="auto"${ne?' lang="en"':''}>⚠ ${esc(nt)}${nv||ne?vchipH():''}</p>`;
  if(ids.length)h+=`<p class="powcite">${AR?'المصدر *':'Source'}: <bdi dir="ltr">${esc(ids.join('; '))}</bdi>${f.some(k=>io[k].chart_url)?' · '+f.filter(k=>io[k].chart_url).map(k=>`<a href="${esc(io[k].chart_url)}" rel="noopener" target="_blank">${esc(POW_LAB[k][L].replace(' *',''))}</a>`).join(' · '):''}</p>`;
  return h+'</section>'}
-async function layerInfo(e){const box=$('layerinfo');if(!box)return;let h='';
+async function layerInfo(e){const box=$('layerinfo');if(!box)return;setTimeout(()=>plInfo(e),0);let h='';
  const pl=document.querySelector('.poplayer');if(pl)pl.hidden=!on.has('pop');/* perf: population.json (116k) only once the Population layer is on */if(pl&&on.has('pop')&&!pl.dataset.pow){pl.dataset.pow='1';layer('pop').then(d=>{const x=(d||[]).find(z=>z&&z.eras),H=popOwidH(x&&x.eras[e.id]&&x.eras[e.id].indicators_owid);if(!H)return;const t=document.createElement('div');t.innerHTML=H;const n=pl.querySelector('.extnote');n?n.before(t.firstChild):(pl.querySelector('.pop')||pl).append(t.firstChild)})}const el=document.querySelector('.evdlayer');if(el)el.hidden=!on.has('evd');const gl=document.querySelector('.grplayer'),rl=document.querySelector('.rellayer');if(gl)gl.hidden=!on.has('grp');if(rl)rl.hidden=!on.has('rel');
  for(const k of ['grp','rel','pop']){if(!on.has(k)||(k==='pop'&&pl)||(k==='grp'&&gl)||(k==='rel'&&rl))continue;const d=await layer(k);const gapT={grp:T.grpgap,rel:T.relgap,pop:T.popgap}[k];
   if(!d||!d.length||!d.flatMap(items).length){h+=`<p class="lgap"><b>${T.l[k]}:</b> <span class="gap">${T.wip}</span> <span class="gapt">${esc(gapT)}</span></p>`;continue}
@@ -696,6 +696,77 @@ addEventListener('keydown',ev=>{if(ev.key!=='Escape')return;const p=$('wtp');if(
 function wAct(){document.querySelectorAll('#lgp button.wtg').forEach(b=>b.setAttribute('aria-pressed',String(!!WARQ&&b.dataset.w===WARQ)));if(gBt)gBt.selectAll('g.bt').classed('wact',b=>!!WARQ&&!!b&&!!b.w&&b.w.id===WARQ).classed('wdim',b=>!!WARQ&&!!b&&!(b.w&&b.w.id===WARQ))}
 document.addEventListener('click',ev=>{const t=ev.target.closest&&ev.target.closest('#lgp button.wtg');if(!t||!t.dataset.w)return;WARQ=WARQ===t.dataset.w?null:t.dataset.w;url();wAct()});
 const warLink=async()=>{if(!WARQ)return;if(!BTD)BTD=await getj('/b.json').catch(()=>({battles:[]}));const W=BTD.battles.filter(b=>b.w&&b.w.id===WARQ&&b.a!=null).sort((x,z)=>x.a-z.a);if(!W.length){WARQ=null;url();return}const e=ES[i],b=(Q.get('era')&&W.find(b=>e.a<=b.a&&b.a<=e.b))||W[0];await wtGo(b)};
+/* Culture layers (Web Lead 2026-10-26; spec /workspace/audit/culture_icons_audit.md, style db/markers/culture_layer_style.json via /lg/markers.json 'culture').
+   /pl.json = db/era_languages + era_religions + era_people (+ era_people_post1956, religion_language_present when present). Off by default; a chip shows only
+   for eras with records. Icons 24px (16px below 480px) on the global halo ring; APPROXIMATE/EDITORIAL = 0.75 opacity, dashed outline, '(approx.)'. Rings only from a
+   record's own point+radius; no invented geometry. */
+const PT=T.pl||{},tg=s=>String(s||'').replace(/\s*\[يحتاج تحقق\]|\s*\[Arabic text pending[^\]]*\]/g,''),tgv=s=>/يحتاج تحقق|Arabic text pending/.test(String(s||''));
+const CK={lng:'language',rlg:'religion',ppl:'people'};
+['lng','ppl','rlg'].forEach(k=>{const c=document.querySelector('#layers .chip[data-k='+k+']');if(c){c.textContent=tg(T.l[k]);c.hidden=true}});
+let PLJ=null;const plj=()=>M.layers.pl?(PLJ||(PLJ=getj('/pl.json').catch(()=>null))):Promise.resolve(null);
+let CUL=null;const cul=()=>CUL||(CUL=getj('/lg/markers.json').then(m=>m.culture||null).catch(()=>null));
+const gPr=root.append('g').attr('class','plr'),gPl=root.append('g').attr('class','pl');
+const plTx=(p)=>{const [en,ar]=p||[];if(AR&&ar)return [tg(ar),tgv(ar)];return [en||'',AR&&!!en]};
+const inEra=(x,e)=>x.e?x.e.includes(e.id):x.y?(x.y[0]<=e.b&&x.y[1]>=e.a&&e.a>=1956):x.now?e.b>=2026:false;
+async function plEra(e){const P=await plj();if(!P)return null;const f=k=>(P[k]||[]).filter(x=>inEra(x,e));return {lng:f('lng'),rlg:f('rlg'),ppl:f('ppl'),gaps:P.gaps||[]}}
+const icPx=()=>innerWidth<480?16:24;
+const apxS=()=>{const a=(CUL&&CUL.apx)||{};return AR?tg(a.label_suffix_ar||' (تقريبي)'):(a.label_suffix_en||' (approx.)')};
+async function plDraw(e){const d=await plEra(e),C=await cul();if(e!==ES[i])return;
+ ['lng','ppl','rlg'].forEach(k=>{const c=document.querySelector('#layers .chip[data-k='+k+']');if(c)c.hidden=!(d&&d[k].length)});
+ const z=((C&&C.z)||['religion_region','language_region','religion','language','people']),px=icPx(),H=(C&&C.halo)||{colour:'#e8e2d0',width_px:2},AT=(C&&C.apx)||{};
+ const pts=[];if(d&&C)['rlg','lng','ppl'].forEach(k=>{if(!on.has(k))return;const L=C.layers[CK[k]]||{};d[k].forEach(x=>(x.pt||[]).forEach((p,j)=>{const it=k==='ppl'?null:(L.items||{})[x.ic];
+  pts.push({k,x,id:k+'-'+x.id+'-'+j,ll:p.ll,r:p.r,col:L.colour,ic:k==='ppl'?'/lg/icons/people_portrait_pin.svg':it&&it.icon,zi:z.indexOf(CK[k])})}))});
+ pts.sort((a,b)=>a.zi-b.zi);
+ const rs=gPr.selectAll('circle.plring').data(pts.filter(p=>p.r),p=>p.id);rs.exit().remove();
+ rs.enter().append('circle').attr('class',p=>'plring '+p.k+(p.x.a?' apx':'')).merge(rs).each(function(p){const c=proj(p.ll),q=proj([p.ll[0],p.ll[1]+p.r/111.32]);d3.select(this).attr('cx',c[0]).attr('cy',c[1]).attr('r',Math.abs(c[1]-q[1])).attr('stroke',p.col).attr('fill',p.col).attr('fill-opacity',(AT.radius_ring||{}).fill_opacity||.08).attr('stroke-dasharray',p.x.a?((AT.radius_ring||{}).dash||'3 2'):null)});
+ const s=gPl.selectAll('g.plm').data(pts,p=>p.id);s.exit().remove();
+ const n=s.enter().append('g').attr('class',p=>'plm mk '+p.k+(p.x.a?' apx':'')).each(function(p){this.__xy=proj(p.ll)}).attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`})
+  .attr('role','button').attr('tabindex',0).attr('aria-label',p=>plTx(p.x.n)[0]+(p.x.a?apxS():'')+' · '+tg(PT.open)).on('click',(ev,p)=>{ev.stopPropagation();plSheet(p.x,p.k)}).on('keydown',(ev,p)=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();plSheet(p.x,p.k)}});
+ n.append('circle').attr('class','plhalo').attr('r',px/2+H.width_px/2+.75).attr('fill','none').attr('stroke',H.colour).attr('stroke-width',H.width_px);
+ n.append('image').attr('href',p=>p.ic).attr('x',-px/2).attr('y',-px/2).attr('width',px).attr('height',px).attr('opacity',p=>p.x.a?(AT.icon_opacity||.75):1);
+ n.filter(p=>p.x.a).append('circle').attr('class','pldash').attr('r',px/2).attr('fill','none').attr('stroke','#0f1b24').attr('stroke-width',1.5).attr('stroke-dasharray',AT.outline_dash||'2 1.5');
+ n.filter(p=>p.k==='ppl'&&p.x.im).each(function(p){const g=d3.select(this),cid='plc-'+p.id.replace(/[^a-z0-9-]/gi,'');g.append('clipPath').attr('id',cid).append('circle').attr('r',px/2-2);
+  g.append('image').attr('class','plth').attr('href',p.x.im.src).attr('x',-px/2+2).attr('y',-px/2+2).attr('width',px-4).attr('height',px-4).attr('preserveAspectRatio','xMidYMid slice').attr('clip-path',`url(#${cid})`).on('error',function(){this.remove()})});
+ n.append('title').text(p=>plTx(p.x.n)[0]+(p.x.a?apxS():''));
+}
+const plCite=c=>c&&c.length?`<small class="extnote">${esc(tg(PT.src))}: <bdi dir="ltr">${c.map(z=>esc(z.s+(z.p?' '+z.p:''))+(z.r?'':` <span class="repb">${esc(tg(PT.unreg))}</span>`)).join('; ')}</bdi></small>`:'';
+const plYr=v=>v==null?'':/^-?\d+$/.test(String(v))?fy(+v):num(String(v));
+function plBody(x,k){const [nm,nv]=plTx(x.n);let h=`<h2 dir="auto">${esc(nm)}${x.a?esc(apxS()):''}${nv?vchipH():''}</h2>`;
+ if(k==='ppl'){if(x.dt&&(x.dt[0]!=null||x.dt[1]!=null))h+=`<p><b>${esc(tg(PT.dt))}:</b> <bdi>${plYr(x.dt[0])}</bdi> – <bdi>${plYr(x.dt[1])}</bdi></p>`;
+  if(x.im)h+=`<figure class="artc plimg"><img src="${esc(x.im.src)}" alt="${esc(nm)}" loading="lazy" onerror="this.parentNode.remove()"><figcaption>${esc(tg(PT.img))}: ${x.im.u?`<a href="${esc(x.im.u)}" rel="noopener" target="_blank">${esc(x.im.cr)}</a>`:esc(x.im.cr)}</figcaption></figure>`;
+  const [b,bv]=plTx(x.bio);if(b)h+=`<p dir="auto"${AR&&!x.bio[1]?' lang="en"':''}>${esc(b)}${bv?vchipH():''}</p>`}
+ else{if(x.sc||k==='lng')h+=`<p><b>${esc(tg(PT.scr))}:</b> ${x.sc?`<span dir="auto" lang="en">${esc(x.sc)}</span>${AR?vchipH():''}`:`<span class="gap">${esc(tg(PT.scrgap))}</span>`}</p>`;
+  if(x.rg)h+=`<p><b>${esc(tg(PT.rg))}:</b> <span dir="auto" lang="en">${esc(x.rg)}</span>${AR?vchipH():''}</p>`;if(x.sh!=null)h+=`<p><b>${esc(tg(PT.sh))}:</b> ≈ <bdi>${num(x.sh)}%</bdi></p>`}
+ return h+plCite(x.c)}
+function plSheet(x,k){let d=$('plsh');if(!d){d=document.createElement('dialog');d.id='plsh';d.className='plsh';document.body.appendChild(d);d.addEventListener('click',ev=>{if(ev.target===d||ev.target.closest('.plx'))d.close()})}
+ d.innerHTML=`<div class="plgrab" aria-hidden="true"></div><button type="button" class="chip plx" aria-label="${esc(tg(PT.x))}">✕</button>`+plBody(x,k);d.setAttribute('aria-label',plTx(x.n)[0]);if(!d.open)d.showModal();d.querySelector('.plx').focus()}
+async function plInfo(e){const box=$('layerinfo');if(!box)return;const d=await plEra(e);if(e!==ES[i])return;box.querySelectorAll('.plcard').forEach(x=>x.remove());if(!d)return;let h='';
+ for(const k of ['lng','rlg','ppl']){if(!on.has(k)||!d[k].length)continue;h+=`<div class="plcard"><h2>${esc(tg(T.l[k]))}</h2><ul class="gl">`+d[k].map(x=>`<li><button type="button" class="chip plo" data-k="${k}" data-id="${esc(x.id)}">${esc(plTx(x.n)[0])}${x.a?esc(apxS()):''}</button></li>`).join('')+'</ul></div>'}
+ if(h)box.insertAdjacentHTML('beforeend',h);box.querySelectorAll('button.plo').forEach(b=>b.onclick=()=>{const x=d[b.dataset.k].find(z=>z.id===b.dataset.id);if(x)plSheet(x,b.dataset.k)})}
+let CLG=null;async function clgDraw(e){const p=$('lgp');if(!p)return;p.querySelectorAll('.clg').forEach(x=>x.remove());const ks=['lng','rlg','ppl'].filter(k=>on.has(k));if(!ks.length||!M.layers.pl)return;
+ const G=await (CLG||(CLG=getj('/lg/culture_legend.json').catch(()=>null)));if(!G||e!==ES[i])return;let h='';
+ for(const g of G.groups||[]){const k=Object.keys(CK).find(z=>CK[z]===g.id);if(!ks.includes(k))continue;h+=`<h4 class="clg">${esc(AR?tg(g.label_ar):g.label_en)}</h4><ul class="clg clgl">`+(g.rows||[]).map(r=>`<li><img src="/lg/icons/${esc(String(r.icon).split('/').pop())}" width="16" height="16" alt=""><span>${esc(AR?tg(r.label_ar):r.label_en)}</span></li>`).join('')+'</ul>'}
+ if(h){h+=`<p class="clg cknote">${esc(tg(PT.apxn||''))}</p>`;p.insertAdjacentHTML('beforeend',h)}}
+{const _lgD=legendDraw;legendDraw=async e=>{await _lgD(e);clgDraw(e)}}
+/* QA tde fix 1: extent zone shapes honour line_style (dashed); c.json ref points (places an extent cites by id, no founded year) drawn as small open reference marks with the feature's years; legend rows for the zone shapes drawn at this step */
+const ZDA='5 3';
+{const _zD=zonesDraw;zonesDraw=async(e,D,pub)=>{await _zD(e,D,pub);gZ.selectAll('path.zn').each(function(f){const p=(f&&f.properties)||{};if(p.line_style==='dashed'||(p.style&&p.style.dash)){const s=d3.select(this);s.attr('stroke-dasharray',ZDA).style('stroke-dasharray',ZDA);if(!s.attr('stroke')||s.attr('stroke')==='none')s.attr('stroke','#e0a63e').attr('stroke-width',1.2).attr('vector-effect','non-scaling-stroke');this.classList.add('zdash')}})}}
+let gRF=null;async function refDraw(e){const c=await cty();if(e!==ES[i])return;if(!gRF)gRF=gK.append('g').attr('class','refs');const y=Y!=null?Y:null;
+ const rs=on.has('ctl')&&c&&c.ref?c.ref.filter(r=>r.e===e.id&&(y==null?true:act({start:r.y0,end:r.y1},e,y))):[];
+ const k=gRF.selectAll('g.rf').data(rs,r=>e.id+r.id);k.exit().remove();const n=k.enter().append('g').attr('class','rf mk').each(function(r){this.__xy=proj(r.ll)});
+ n.append('circle').attr('r',4).attr('fill','#0b141b').attr('stroke','#e8e2d0').attr('stroke-width',1.5);n.append('line').attr('x1',-2.5).attr('x2',2.5).attr('stroke','#e8e2d0').attr('stroke-width',1.2);
+ n.append('title').text(r=>(AR&&r.ar?r.ar:r.en)+(AR?' — نقطة مرجعية لحدّ الامتداد [يحتاج تحقق]':' — reference point for the extent edge'));scaleMarks();
+ rs.forEach(r=>LBS.push({xy:proj(r.ll),t:AR&&r.ar?r.ar:r.en,pri:1.5,dx:7,rep:AR&&!r.ar?'VERIFY':undefined}));refDraw.n=rs.length}
+{const _r=render;render=async(...a)=>{const v=await _r(...a);try{await refDraw(ES[i])}catch(_){}return v}}
+async function zlgDraw(e){const p=$('lgp');if(!p)return;p.querySelectorAll('.zlg').forEach(x=>x.remove());if(!on.has('ctl'))return;const g=await ext(e);if(e!==ES[i])return;const y=Y!=null?Y:null;
+ const zs=g.features.filter(f=>f.properties.zone&&f.geometry.type!=='Point'&&(y==null||act(f.properties,e,y)));if(!zs.length&&!refDraw.n)return;
+ const ZL={core:['Core area','المنطقة الأساسية [يحتاج تحقق]'],claimed:['Claimed area','منطقة مُطالَب بها [يحتاج تحقق]'],influence:['Area of influence','منطقة نفوذ [يحتاج تحقق]'],contested:['Contested area','منطقة متنازع عليها [يحتاج تحقق]']};
+ const sw=p=>{const z=p.zone,d=p.line_style==='dashed'?` stroke-dasharray="${ZDA}"`:'';return `<svg width="26" height="18" viewBox="-13 -9 26 18" aria-hidden="true"><rect x="-10" y="-6" width="20" height="12" fill="${z==='contested'?'url(#conthatch)':'#7a6bd0'}" fill-opacity="${z==='contested'?1:z==='influence'?.08:z==='claimed'?.18:.35}" stroke="${z==='contested'?'#e0a63e':'#7a6bd0'}" stroke-width="1.2"${d||(z==='claimed'?' stroke-dasharray="4 3"':'')}/></svg>`};
+ const nm=p=>{const t=AR?p.name_ar||p.label_ar:p.name_en||p.label_en||p.name;return t?esc(t):(AR&&(p.name_en||p.label_en)?`<span lang="en" dir="ltr">${esc(p.name_en||p.label_en)}</span>${vchipH()}`:esc((ZL[p.zone]||[p.zone])[AR?1:0]))};
+ let h=`<div class="zlg"><h4>${esc(AR?'أشكال الامتداد في هذه السنة [يحتاج تحقق]':'Extent shapes at this year')}</h4><ul>`+zs.map(f=>{const p=f.properties,z=ZL[p.zone]||[p.zone,p.zone];return `<li role="listitem" data-row-id="zone:${esc(p.id||p.zone)}">${sw(p)}<span>${nm(p)}<br><small class="gapt">${esc(AR?z[1]:z[0])}${p.line_style==='dashed'?esc(AR?' · حدّ متقطّع: الحدّ غير مؤكد [يحتاج تحقق]':' · dashed edge: boundary uncertain'):''}</small></span></li>`}).join('');
+ if(refDraw.n)h+=`<li role="listitem" data-row-id="zone:ref"><svg width="26" height="18" viewBox="-13 -9 26 18" aria-hidden="true"><circle r="4" fill="#0b141b" stroke="#e8e2d0" stroke-width="1.5"/><line x1="-2.5" x2="2.5" stroke="#e8e2d0" stroke-width="1.2"/></svg><span>${esc(AR?'نقطة مرجعية لحدّ الامتداد (ليست مدينة على الخريطة) [يحتاج تحقق]':'Reference point for an extent edge (not a mapped town)')}</span><span class="n"><bdi>${num(refDraw.n)}</bdi></span></li>`;
+ h+='</ul></div>';p.querySelectorAll('.zlg').forEach(x=>x.remove());const a=p.querySelector('h4');if(a)a.insertAdjacentHTML('beforebegin',h);else p.insertAdjacentHTML('afterbegin',h)}
+{const _lg=legendDraw;legendDraw=async e=>{await _lg(e);try{await refDraw(e)}catch(_){}await zlgDraw(e)}}
 fit();getj('/basemap-map.json').then(b=>{BASE=b;return render(false)}).catch(()=>render(false)).then(warLink).catch(()=>{});
 })();
 document.addEventListener('click',ev=>{const b=ev.target.closest&&ev.target.closest('button.hwkt');document.querySelectorAll('button.hwkt[aria-expanded="true"]').forEach(x=>{if(x!==b)x.setAttribute('aria-expanded','false')});if(b)b.setAttribute('aria-expanded',b.getAttribute('aria-expanded')==='true'?'false':'true')});

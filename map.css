@@ -253,3 +253,15 @@ html[dir=rtl] #wtl .wtm .wbg{left:auto;right:-3px}
 #lgp .wlg button.wtg[aria-pressed=true]{border-color:#ffd54a;background:rgba(255,213,74,.12)}
 g.bt.wact{transform-box:fill-box}g.bt.wact .bth{stroke:#ffd54a;stroke-width:3}
 g.bt.wdim{opacity:.25}
+/* Languages / People / Religions layers */
+.pl .pli{fill:#14202bd9;stroke:#e8d9a8;stroke-width:1.5}.pl .ppl .pli{stroke:#8cc8f0}.pl .rlg .pli{stroke:#c9a0f0}
+.pl .plg{font:600 10px system-ui,sans-serif;fill:#f4ecd4;pointer-events:none}.pl .plt{font:600 11px system-ui,sans-serif;fill:#f4ecd4;paint-order:stroke;stroke:#0b141c;stroke-width:3px;pointer-events:none}
+.pl .ppl{cursor:pointer}.pl .ppl:focus-visible .pli{stroke:#fff;stroke-width:3}
+dialog.plsh{position:fixed;inset:auto 0 0 0;margin:0 auto;width:min(560px,100%);max-height:80vh;overflow:auto;box-sizing:border-box;border:0;border-radius:16px 16px 0 0;background:var(--card,#14202b);color:inherit;padding:12px 16px 20px;overflow-wrap:anywhere}
+dialog.plsh::backdrop{background:#0008}.plsh .plgrab{width:44px;height:5px;border-radius:3px;background:#fff6;margin:0 auto 8px}.plsh .plx{float:inline-end;min-width:44px;min-height:44px}
+.plsh .plbio{padding-inline-start:18px}.plsh .plbio li{margin:6px 0}.plcard .plo{min-height:44px}
+/* culture layers (spec culture_icons_audit.md) */
+.plring{stroke-width:1.5px;vector-effect:non-scaling-stroke}
+.plm{cursor:pointer}.plm:focus-visible .plhalo{stroke:#0f1b24}
+.clgl{list-style:none;margin:0;padding:0}.clgl li{display:flex;gap:6px;align-items:center;min-height:24px}
+.cknote{font-size:12px;opacity:.85}.repb{font-size:11px;border:1px solid currentColor;border-radius:4px;padding:0 3px}
