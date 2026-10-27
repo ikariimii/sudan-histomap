@@ -36,7 +36,7 @@
   "rules": "Derived only from the input files; nothing inferred. Base source is null when the properties do not name one.",
   "totals": {
    "eras": 78,
-   "shapes": 290,
+   "shapes": 291,
    "base_source_null": 13,
    "overlay_error_non_null": 0,
    "checked_against_shapes": 25
@@ -1217,11 +1217,11 @@
      "cites": [
       {
        "id": "GHA4_CH16",
-       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403"
+       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403, 404"
       },
       {
        "id": "OHM_2960088",
-       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403"
+       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403, 404"
       }
      ],
      "base_source": [
@@ -1257,15 +1257,15 @@
      "cites": [
       {
        "id": "GHA4_CH16",
-       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403"
+       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403, 404"
       },
       {
        "id": "DERDA_LAJTAR2019",
-       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403"
+       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403, 404"
       },
       {
        "id": "OHM_2960088",
-       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403"
+       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403, 404"
       }
      ],
      "base_source": [
@@ -1302,11 +1302,11 @@
      "cites": [
       {
        "id": "GHA4_CH16",
-       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403"
+       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403, 404"
       },
       {
        "id": "TSAKOS2011_ALWA",
-       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403"
+       "pages": "GHA IV ch.16 (Kropáček) pp.399, 401, 403, 404"
       }
      ],
      "base_source": [
@@ -1321,6 +1321,39 @@
       "CONTESTED",
       "DERIVED",
       "VERIFY"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1276,
+     "end": 1365,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/makuria.geojson",
+     "feature_index": 7,
+     "feature_id": "makuria-old-dongola-1276",
+     "label_en": "Old Dongola (capital of the Mamluk vassal kingdom, reference marker, not a border)",
+     "label_ar": null,
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA4_CH16",
+       "pages": "403-404"
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "db/cities.json place_id old-dongola (WIKIDATA_CITIES Q433112) | reference marker (not a border); coordinates from db/cities.json",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE"
      ],
      "confidence": 0.3,
      "certainty": "low",
@@ -1365,7 +1398,7 @@
     }
    ],
    "counts": {
-    "shapes": 8,
+    "shapes": 9,
     "contested": 2,
     "trade_routes": 1,
     "base_source_null": 0

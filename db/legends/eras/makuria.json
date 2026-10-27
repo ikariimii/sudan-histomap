@@ -154,6 +154,22 @@
      "confidence_style": "hatched",
      "low_confidence_overlay": false,
      "legend_id": "extent:makuria:makuria-1276-south-contested"
+    },
+    {
+     "feature_index": 7,
+     "id": "makuria-old-dongola-1276",
+     "label_en": "Old Dongola (capital of the Mamluk vassal kingdom, reference marker, not a border)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE"
+     ],
+     "start": 1276,
+     "end": 1365,
+     "source_ids": [
+      "GHA4_CH16"
+     ],
+     "legend_id": "extent:makuria:makuria-old-dongola-1276"
     }
    ],
    "borders_legend": [
@@ -239,9 +255,6 @@
       }
      ],
      "legend_id": "city:makuria:soleb",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (1400 BCE, GHA2 144)",
@@ -251,6 +264,9 @@
        "en": "end undated",
        "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -286,9 +302,6 @@
       }
      ],
      "legend_id": "city:makuria:faras",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (400 CE, GHA3_CH8 194)",
@@ -298,6 +311,9 @@
        "en": "end undated",
        "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -334,9 +350,6 @@
       }
      ],
      "legend_id": "city:makuria:qasr-ibrim",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (23 BCE, GHA2_CH10 290)",
@@ -346,6 +359,9 @@
        "en": "end undated",
        "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -386,9 +402,6 @@
       }
      ],
      "legend_id": "city:makuria:philae",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (300 CE, GHA2_CH12 331)",
@@ -398,6 +411,9 @@
        "en": "end undated",
        "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -417,14 +433,14 @@
       }
      ],
      "legend_id": "city:makuria:abu-simbel",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "end undated",
        "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -460,9 +476,6 @@
       }
      ],
      "legend_id": "city:makuria:old-dongola",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (500 CE, GHA3_CH8 194)",
@@ -472,6 +485,9 @@
        "en": "end undated",
        "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -505,14 +521,14 @@
       }
      ],
      "legend_id": "city:makuria:soba",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (500 CE, GHA3_CH8 196)",
        "ar": null
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -586,14 +602,14 @@
       }
      ],
      "legend_id": "city:makuria:aswan",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (2200 BCE, GHA2 238)",
        "ar": null
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -623,14 +639,14 @@
       }
      ],
      "legend_id": "city:makuria:aksum",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (100 CE, GHA2_CH15 389)",
        "ar": null
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -680,14 +696,14 @@
       }
      ],
      "legend_id": "city:makuria:adulis",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "end undated",
        "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -740,14 +756,14 @@
       }
      ],
      "legend_id": "city:makuria:aidhab",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "end undated",
        "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -821,9 +837,6 @@
       }
      ],
      "legend_id": "city:makuria:qerri",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (1480 CE, GHA5_CH7 172)",
@@ -833,6 +846,9 @@
        "en": "end undated",
        "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -864,9 +880,6 @@
       }
      ],
      "legend_id": "city:makuria:ain-farah",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (1400 CE, GHA4_CH16 420)",
@@ -876,6 +889,9 @@
        "en": "end undated",
        "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -905,14 +921,14 @@
       }
      ],
      "legend_id": "city:makuria:fashoda",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (1490 CE, GHA6_CH14 366)",
        "ar": null
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -954,14 +970,14 @@
       }
      ],
      "legend_id": "city:makuria:malakal",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (1490 CE, GHA5_CH7 193)",
        "ar": null
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -995,14 +1011,14 @@
       }
      ],
      "legend_id": "city:makuria:kufra",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (950 CE, GHAIII 283)",
        "ar": null
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -1023,14 +1039,14 @@
       }
      ],
      "legend_id": "city:makuria:rumbek",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (1500 CE, GHAV 777)",
        "ar": null
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -1100,14 +1116,14 @@
       }
      ],
      "legend_id": "city:makuria:alexandria",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (305 BCE, GHA2_CH6 184)",
        "ar": null
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -1161,14 +1177,14 @@
       }
      ],
      "legend_id": "city:makuria:cairo",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (641 CE, GHA3_CH7 163)",
        "ar": null
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -1198,14 +1214,14 @@
       }
      ],
      "legend_id": "city:makuria:fustat",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (641 CE, GHA3_CH7 171)",
        "ar": null
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -1235,14 +1251,14 @@
       }
      ],
      "legend_id": "city:makuria:ngazargamu",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (1380 CE, GHA4_CH10 265)",
        "ar": null
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -1272,14 +1288,14 @@
       }
      ],
      "legend_id": "city:makuria:yeha",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (980 BCE, GHA2_CH13 343)",
        "ar": null
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -1309,14 +1325,14 @@
       }
      ],
      "legend_id": "city:makuria:lalibela",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (900 CE, GHA3_CH19 573)",
        "ar": null
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -1358,14 +1374,14 @@
       }
      ],
      "legend_id": "city:makuria:medina",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (622 CE, GHA3_CH2 35)",
        "ar": null
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -1407,14 +1423,14 @@
       }
      ],
      "legend_id": "city:makuria:mecca",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (610 CE, GHA3_CH2 31)",
        "ar": null
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -1435,14 +1451,14 @@
       }
      ],
      "legend_id": "city:makuria:thebes",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (305 BCE, GHA2_CH7 208)",
        "ar": null
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     },
     {
@@ -1472,14 +1488,14 @@
       }
      ],
      "legend_id": "city:makuria:ballana",
-     "workflow_flags": [
-      "AR-REVIEW"
-     ],
      "card_notes": [
       {
        "en": "first attested (350 CE, GHA2_CH10 294)",
        "ar": null
       }
+     ],
+     "workflow_flags": [
+      "AR-REVIEW"
      ]
     }
    ]
@@ -1636,6 +1652,7 @@
   "city_town",
   "control_extent_approx",
   "economy_unknown",
+  "extent_label_point",
   "list_only_text",
   "relation_arrow_conflict",
   "trade_route",
@@ -1662,12 +1679,13 @@
   "city_town": 1,
   "control_extent_approx": 4,
   "economy_unknown": 1,
+  "extent_label_point": 1,
   "list_only_text": 1,
   "relation_arrow_conflict": 1,
   "trade_route": 1,
   "zone_contested": 2,
   "zone_core": 1,
-  "extent_features": 7,
+  "extent_features": 8,
   "group_features": 2,
   "cities": 29,
   "battles": 2
@@ -1690,6 +1708,12 @@
    "layer": "extents",
    "symbol_class": "zone_contested",
    "n": 2
+  },
+  {
+   "row_id": "extents:extent_label_point",
+   "layer": "extents",
+   "symbol_class": "extent_label_point",
+   "n": 1
   },
   {
    "row_id": "groups:list_only_text",
@@ -1912,6 +1936,7 @@
     "Makuria after the union with Nobadia (from c. 7th century, disputed)",
     "Makuria before the union with Nobadia (until c. 7th century, disputed)",
     "Makuria–Alwa frontier zone c.1276, Fifth Cataract to al-'Abwab [CONTESTED]",
+    "Old Dongola (capital of the Mamluk vassal kingdom, reference marker, not a border)",
     "al-Maris (incl. Qasr Ibrim), northern Makuria c.1276 [CONTESTED]"
    ],
    "extents_removed": [

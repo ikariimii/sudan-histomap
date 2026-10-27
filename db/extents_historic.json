@@ -349,7 +349,54 @@
     "OHM_2960089",
     "OHM_2960088"
    ],
-   "geojson": "db/extents/makuria.geojson"
+   "geojson": "db/extents/makuria.geojson",
+   "phases": [
+    {
+     "year_from": 1276,
+     "year_to": 1365,
+     "label": "Mamluk vassal kingdom",
+     "confidence": "low",
+     "reach_en": "In 1276 Baybars's expedition defeated Dāwūd and gave the throne to Shakanda, who accepted terms 'that would practically have replaced the traditional bakt relationship by complete vassalage' (GHA4_CH16 p.403). Drawn as the existing GHA IV-derived 1276 shapes plus an Old Dongola marker.",
+     "anchors": [
+      {
+       "name": "Old Dongola",
+       "lat": 18.22306,
+       "lon": 30.74389,
+       "source_ids": [
+        "GHA4_CH16"
+       ],
+       "pages": "403-404",
+       "coord_source": "db/cities.json old-dongola (Wikidata Q433112)",
+       "badge": "APPROXIMATE"
+      }
+     ],
+     "sources": [
+      "GHA4_CH16"
+     ]
+    },
+    {
+     "year_from": 1365,
+     "year_to": 1500,
+     "label": "Kings at al-Daw",
+     "confidence": "low",
+     "reach_en": "After 1365–6 'the Nubian kings retained their residence at al-Daw, and the larger part of Mukurra was left in disorder, without central authority. The last written reference to the Nubian king, dating from 1397' (GHA4_CH16 p.404). No marker: al-Daw (Gebel Adda) has no db/cities.json entry, and no cited reach exists. End 1500 is the era's display end [VERIFY].",
+     "anchors": [],
+     "unplaced": [
+      {
+       "name": "al-Daw (Gebel Adda)",
+       "source_ids": [
+        "GHA4_CH16"
+       ],
+       "pages": "404",
+       "reason": "no db/cities.json entry"
+      }
+     ],
+     "badge": "VERIFY",
+     "sources": [
+      "GHA4_CH16"
+     ]
+    }
+   ]
   },
   {
    "era_id": "alodia-alwa",
