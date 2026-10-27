@@ -36,7 +36,7 @@
   "rules": "Derived only from the input files; nothing inferred. Base source is null when the properties do not name one.",
   "totals": {
    "eras": 78,
-   "shapes": 292,
+   "shapes": 290,
    "base_source_null": 13,
    "overlay_error_non_null": 0,
    "checked_against_shapes": 25
@@ -347,33 +347,25 @@
      "file": "db/extents/kingdom-of-kerma.geojson",
      "feature_index": 0,
      "feature_id": null,
-     "label_en": "Kerma – Upper Nubia – strip width along the Nile is a display choice, not a sourced boundary",
-     "label_ar": "كرمة – النوبة العليا – عرض الشريط على طول النيل خيار عرض، وليس حدًّا موثّقًا بمصدر [VERIFY]",
-     "zone_type": "extent",
-     "geometry_type": "MultiPolygon",
+     "label_en": "Kerma (capital, reference marker, not a border)",
+     "label_ar": null,
+     "zone_type": "point",
+     "geometry_type": "Point",
      "cites": [
       {
-       "id": "SFDAS_HCS2017",
-       "pages": null
-      },
-      {
-       "id": "GHA2",
-       "pages": null
-      },
-      {
-       "id": "NATURAL_EARTH",
-       "pages": null
+       "id": "KERMA_MISSION",
+       "pages": "History"
       }
      ],
      "base_source": [
-      "Natural Earth"
+      "Wikidata"
      ],
-     "base_source_text": "NATURAL_EARTH | approximate from cited limits. Nile corridor (Natural Earth rivers, PD, buffered 0.3°); the east/west edges are a display convention, no source describes them.",
+     "base_source_text": "db/cities.json place_id kerma (WIKIDATA_CITIES Q1107569) | reference marker (not a border); coordinates from db/cities.json",
      "base_source_null_reason": null,
      "base_source_null_reason_ar": null,
      "badges": [
       "APPROXIMATE",
-      "DERIVED"
+      "VERIFY"
      ],
      "confidence": 0.3,
      "certainty": "low",
@@ -614,37 +606,25 @@
      "file": "db/extents/kingdom-of-kush-napatan-period.geojson",
      "feature_index": 0,
      "feature_id": null,
-     "label_en": "Kush, 25th Dynasty maximum: Delta to the confluence of the Niles – strip width along the Nile is a display choice, not a sourced boundary",
-     "label_ar": "كوش، أقصى امتداد للأسرة الخامسة والعشرين: من الدلتا إلى ملتقى النيلين – عرض الشريط على طول النيل خيار عرض، وليس حدًّا موثّقًا بمصدر [VERIFY]",
-     "zone_type": "extent",
-     "geometry_type": "Polygon",
+     "label_en": "Napata (capital, reference marker, not a border)",
+     "label_ar": null,
+     "zone_type": "point",
+     "geometry_type": "Point",
      "cites": [
       {
-       "id": "SFDAS_HCS2017",
-       "pages": null
-      },
-      {
-       "id": "GHA2",
-       "pages": null
-      },
-      {
-       "id": "ZH_EMB_HIST2020",
-       "pages": null
-      },
-      {
-       "id": "NATURAL_EARTH",
-       "pages": null
+       "id": "GHA2_CH10",
+       "pages": "283"
       }
      ],
      "base_source": [
-      "Natural Earth"
+      "Wikidata"
      ],
-     "base_source_text": "NATURAL_EARTH | approximate from cited limits; north at Memphis anchor, south at Khartoum confluence. Nile corridor (Natural Earth rivers, PD, buffered 0.3°); the east/west edges are a display convention, no source describes them.",
+     "base_source_text": "db/cities.json place_id napata (WIKIDATA_CITIES Q743282) | reference marker (not a border); coordinates from db/cities.json",
      "base_source_null_reason": null,
      "base_source_null_reason_ar": null,
      "badges": [
       "APPROXIMATE",
-      "DERIVED"
+      "VERIFY"
      ],
      "confidence": 0.3,
      "certainty": "low",
@@ -660,34 +640,30 @@
      "file": "db/extents/kingdom-of-kush-napatan-period.geojson",
      "feature_index": 1,
      "feature_id": null,
-     "label_en": "Kush after Psamtik II: south of the Second Cataract – strip width along the Nile is a display choice, not a sourced boundary",
-     "label_ar": "كوش بعد بسماتيك الثاني: جنوب الشلال الثاني – عرض الشريط على طول النيل خيار عرض، وليس حدًّا موثّقًا بمصدر [VERIFY]",
-     "zone_type": "extent",
-     "geometry_type": "MultiPolygon",
+     "label_en": "Napata (capital, reference marker, not a border)",
+     "label_ar": null,
+     "zone_type": "point",
+     "geometry_type": "Point",
      "cites": [
       {
-       "id": "SFDAS_HCS2017",
-       "pages": null
-      },
-      {
-       "id": "NATURAL_EARTH",
-       "pages": null
+       "id": "GHA2_CH10",
+       "pages": "283"
       }
      ],
      "base_source": [
-      "Natural Earth"
+      "Wikidata"
      ],
-     "base_source_text": "NATURAL_EARTH | approximate from cited limits. Nile corridor (Natural Earth rivers, PD, buffered 0.3°); the east/west edges are a display convention, no source describes them.",
+     "base_source_text": "db/cities.json place_id napata (WIKIDATA_CITIES Q743282) | reference marker (not a border); coordinates from db/cities.json",
      "base_source_null_reason": null,
      "base_source_null_reason_ar": null,
      "badges": [
       "APPROXIMATE",
-      "DERIVED"
+      "VERIFY"
      ],
      "confidence": 0.3,
      "certainty": "low",
      "start": -593,
-     "end": -270,
+     "end": -300,
      "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map",
@@ -1257,7 +1233,8 @@
      "base_source_null_reason_ar": null,
      "badges": [
       "APPROXIMATE",
-      "DERIVED"
+      "DERIVED",
+      "VERIFY"
      ],
      "confidence": 0.3,
      "certainty": "low",
@@ -1301,7 +1278,8 @@
      "badges": [
       "APPROXIMATE",
       "CONTESTED",
-      "DERIVED"
+      "DERIVED",
+      "VERIFY"
      ],
      "confidence": 0.3,
      "certainty": "low",
@@ -1341,80 +1319,13 @@
      "badges": [
       "APPROXIMATE",
       "CONTESTED",
-      "DERIVED"
+      "DERIVED",
+      "VERIFY"
      ],
      "confidence": 0.3,
      "certainty": "low",
      "start": 1276,
      "end": 1365,
-     "checked_against": [],
-     "overlay_mean_error_km": null,
-     "overlay_null_reason": "not traced from a georeferenced map",
-     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
-    },
-    {
-     "layer": "extents",
-     "file": "db/extents/makuria.geojson",
-     "feature_index": 7,
-     "feature_id": null,
-     "label_en": "Gebel Adda (reference marker)",
-     "label_ar": "جبل عدّة (علامة مرجعية) [VERIFY]",
-     "zone_type": "point",
-     "geometry_type": "Point",
-     "cites": [
-      {
-       "id": "SFDAS_HCS2017",
-       "pages": "p.420"
-      }
-     ],
-     "base_source": [
-      "Wikidata"
-     ],
-     "base_source_text": "Wikidata (CC0 1.0): coordinates of Q1496812 (Gebel Adda) | CC0 1.0 (Wikidata) | reference marker (not a border)",
-     "base_source_null_reason": null,
-     "base_source_null_reason_ar": null,
-     "badges": [
-      "APPROXIMATE",
-      "DERIVED"
-     ],
-     "confidence": 0.3,
-     "certainty": "low",
-     "start": 1365,
-     "end": 1500,
-     "checked_against": [],
-     "overlay_mean_error_km": null,
-     "overlay_null_reason": "not traced from a georeferenced map",
-     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
-    },
-    {
-     "layer": "extents",
-     "file": "db/extents/makuria.geojson",
-     "feature_index": 8,
-     "feature_id": null,
-     "label_en": "Qasr Ibrim (reference marker)",
-     "label_ar": "قصر إبريم (علامة مرجعية) [VERIFY]",
-     "zone_type": "point",
-     "geometry_type": "Point",
-     "cites": [
-      {
-       "id": "SFDAS_HCS2017",
-       "pages": "p.420"
-      }
-     ],
-     "base_source": [
-      "Wikidata"
-     ],
-     "base_source_text": "Wikidata (CC0 1.0): coordinates of Q2121453 (Qasr Ibrim) | CC0 1.0 (Wikidata) | reference marker (not a border)",
-     "base_source_null_reason": null,
-     "base_source_null_reason_ar": null,
-     "badges": [
-      "APPROXIMATE",
-      "DERIVED"
-     ],
-     "confidence": 0.3,
-     "certainty": "low",
-     "start": 1365,
-     "end": 1500,
      "checked_against": [],
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map",
@@ -1454,7 +1365,7 @@
     }
    ],
    "counts": {
-    "shapes": 10,
+    "shapes": 8,
     "contested": 2,
     "trade_routes": 1,
     "base_source_null": 0

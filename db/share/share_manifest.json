@@ -21,7 +21,6 @@
    "contested_features": 0,
    "source_ids": [
     "GHA2",
-    "SFDAS_HCS2017",
     "COW_NMC6",
     "GHA2_CH12",
     "WP:A-Group_culture"
@@ -86,7 +85,6 @@
     "WB_WDI_API",
     "HD2011",
     "EIA_SDN2013",
-    "SFDAS_HCS2017",
     "CPA_2005",
     "PATEY_TWQ2007",
     "UNSC1996",
@@ -127,7 +125,6 @@
     "HD2011",
     "GHA7_CH17",
     "COW_NMC6",
-    "SFDAS_HCS2017",
     "WB_TP120_1990"
    ],
    "status": "INTERNAL_AR_REVIEW",
@@ -211,7 +208,6 @@
    "contested_features": 0,
    "source_ids": [
     "GHA2",
-    "SFDAS_HCS2017",
     "COW_NMC6",
     "PL:795777",
     "GHA2_CH12",
@@ -717,8 +713,7 @@
    "source_ids": [
     "GHA7_CH4",
     "HD2011",
-    "COW_NMC6",
-    "SFDAS_HCS2017"
+    "COW_NMC6"
    ],
    "status": "INTERNAL_AR_REVIEW",
    "missing_fields": []
@@ -728,14 +723,13 @@
    "file": "out/share/makuria.png",
    "area_mode": "extent",
    "area_badge": "certainty: low",
-   "contested_features": 0,
+   "contested_features": 2,
    "source_ids": [
     "GHA2_CH12",
     "WELSBY2002",
     "COW_NMC6",
     "WP_MAKURIA",
-    "DERDA_LAJTAR2019",
-    "SFDAS_HCS2017"
+    "DERDA_LAJTAR2019"
    ],
    "status": "INTERNAL_AR_REVIEW",
    "missing_fields": []
