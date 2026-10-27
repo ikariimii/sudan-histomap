@@ -36,7 +36,7 @@
   "rules": "Derived only from the input files; nothing inferred. Base source is null when the properties do not name one.",
   "totals": {
    "eras": 78,
-   "shapes": 290,
+   "shapes": 292,
    "base_source_null": 13,
    "overlay_error_non_null": 0,
    "checked_against_shapes": 25
@@ -11290,37 +11290,25 @@
      "file": "db/extents/kushite-25th-dynasty-in-egypt.geojson",
      "feature_index": 0,
      "feature_id": null,
-     "label_en": "Kush, 25th Dynasty maximum: Delta to the confluence of the Niles – strip width along the Nile is a display choice, not a sourced boundary",
-     "label_ar": "كوش، أقصى امتداد للأسرة الخامسة والعشرين: من الدلتا إلى ملتقى النيلين – عرض الشريط على طول النيل خيار عرض، وليس حدًّا موثّقًا بمصدر [VERIFY]",
-     "zone_type": "extent",
-     "geometry_type": "Polygon",
+     "label_en": "Napata (reference marker, not a border)",
+     "label_ar": null,
+     "zone_type": "point",
+     "geometry_type": "Point",
      "cites": [
       {
-       "id": "SFDAS_HCS2017",
-       "pages": null
-      },
-      {
-       "id": "GHA2",
-       "pages": null
-      },
-      {
-       "id": "ZH_EMB_HIST2020",
-       "pages": null
-      },
-      {
-       "id": "NATURAL_EARTH",
-       "pages": null
+       "id": "GHA2_CH10",
+       "pages": "280-282"
       }
      ],
      "base_source": [
-      "Natural Earth"
+      "Wikidata"
      ],
-     "base_source_text": "NATURAL_EARTH | approximate from cited limits; north at Memphis anchor, south at Khartoum confluence. Nile corridor (Natural Earth rivers, PD, buffered 0.3°); the east/west edges are a display convention, no source describes them.",
+     "base_source_text": "db/cities.json place_id napata (WIKIDATA_CITIES Q743282) | reference marker (not a border); coordinates from db/cities.json",
      "base_source_null_reason": null,
      "base_source_null_reason_ar": null,
      "badges": [
       "APPROXIMATE",
-      "DERIVED"
+      "VERIFY"
      ],
      "confidence": 0.3,
      "certainty": "low",
@@ -11335,6 +11323,74 @@
      "layer": "extents",
      "file": "db/extents/kushite-25th-dynasty-in-egypt.geojson",
      "feature_index": 1,
+     "feature_id": null,
+     "label_en": "Thebes (reference marker, not a border)",
+     "label_ar": null,
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA2_CH10",
+       "pages": "280-282"
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "db/cities.json place_id thebes (WIKIDATA_CITIES Q101583) | reference marker (not a border); coordinates from db/cities.json",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": -713,
+     "end": -663,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/kushite-25th-dynasty-in-egypt.geojson",
+     "feature_index": 2,
+     "feature_id": null,
+     "label_en": "Memphis (reference marker, not a border)",
+     "label_ar": null,
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA2_CH10",
+       "pages": "280-282"
+      }
+     ],
+     "base_source": [
+      "Pleiades"
+     ],
+     "base_source_text": "db/cities.json place_id memphis (PLEIADES_736963 736963) | reference marker (not a border); coordinates from db/cities.json",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": -713,
+     "end": -663,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/kushite-25th-dynasty-in-egypt.geojson",
+     "feature_index": 3,
      "feature_id": null,
      "label_en": "Elephantine (find-spot, not a border)",
      "label_ar": "إلفنتين (موضع العثور، وليس حدًّا) [VERIFY]",
@@ -11367,7 +11423,7 @@
     }
    ],
    "counts": {
-    "shapes": 2,
+    "shapes": 4,
     "contested": 0,
     "trade_routes": 0,
     "base_source_null": 0
