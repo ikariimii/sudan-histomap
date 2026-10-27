@@ -4,209 +4,13 @@
   "built": "2026-10-26",
   "status": "draft; Arabic is a working translation pending native review [يحتاج تحقق]",
   "scope": "Present-day religion and language distribution, Sudan and South Sudan.",
-  "rules": "Shares only where a cited page states them (all APPROXIMATE). Religion shares are Pew estimates as reported by the US State Dept 2023 IRF reports (government source, labelled). Languages: Glottolog country lists only; no speaker shares or scripts are given because no opened source stated them. Region is country level unless the cited text names sub-national areas. place_ids only from db/cities.json, no coordinates. Unregistered sources: see /workspace/audit/people_religion_sources_to_register.md.",
-  "gaps": "No UNHCR/OCHA/UNFPA/UN Statistics or Ethnologue page with religion/language figures was opened this pass; not cited."
+  "rules": "Shares only where a cited page states them (all APPROXIMATE). Religion: US State Dept IRF cites dropped entirely (IM ruling 2026-10-26); Pew Research Center 2020 (PEW_RELCOMP_2020, proposed, unregistered) is the primary source. Those entries sit in 'religions_pending_registration' (not read by web/mapsite.py write_pl) with approx_share_pct null until registered; 'religions' is empty. Pew has no separate indigenous/traditional category; its 'other religions' column is kept under that name. Languages: Glottolog country lists only; no speaker shares or scripts. place_ids only from db/cities.json, no coordinates.",
+  "gaps": [
+   "No UNHCR/OCHA/UNFPA/UN Statistics or Ethnologue page with religion/language figures was opened this pass; not cited.",
+   "Religion: no published religion entries until PEW_RELCOMP_2020 is registered; no sub-national religion distribution from an opened, registrable source (State Dept regional detail dropped with the IRF cites)."
+  ]
  },
- "religions": [
-  {
-   "id": "sd-islam",
-   "country": "Sudan",
-   "region": "Sudan (national)",
-   "name": {
-    "en": "Islam (almost all Sunni)",
-    "ar": "الإسلام (سنّة في معظمهم) [يحتاج تحقق]"
-   },
-   "approx_share_pct": 91,
-   "share_basis": "Pew 2020 estimate as reported by US State Dept",
-   "uncertainty": "APPROXIMATE",
-   "citation": {
-    "proposed_source_id": "USSD_IRF2023_SUDAN",
-    "registered": false,
-    "source_type": "government (U.S. Department of State), citing Pew data",
-    "url": "https://www.state.gov/reports/2023-report-on-international-religious-freedom/sudan/",
-    "pages": "Section I. Religious Demography",
-    "quote": "The Pew Research Center’s 2020 data estimated that 91 percent of the population was Muslim, 5.4 percent Christian, 2.8 percent followed indigenous religions, and the remainder followed other religions or were unaffiliated.",
-    "accessed": "2026-10-26"
-   },
-   "citation_extra": [
-    {
-     "proposed_source_id": "USSD_IRF2023_SUDAN",
-     "registered": false,
-     "source_type": "government (U.S. Department of State), citing Pew data",
-     "url": "https://www.state.gov/reports/2023-report-on-international-religious-freedom/sudan/",
-     "pages": "Section I. Religious Demography",
-     "quote": "Almost all Muslims in the country identify as Sunni, although there are significant distinctions among followers of different Sunni traditions, particularly among Sufi orders.",
-     "accessed": "2026-10-26"
-    }
-   ]
-  },
-  {
-   "id": "sd-christianity",
-   "country": "Sudan",
-   "region": "Sudan (national); concentrated in major cities, parts of the Nuba Mountains (South Kordofan) and Blue Nile",
-   "place_ids": [
-    "khartoum",
-    "port-sudan",
-    "kassala",
-    "gedaref",
-    "el-obeid",
-    "el-fasher"
-   ],
-   "name": {
-    "en": "Christianity",
-    "ar": "المسيحية [يحتاج تحقق]"
-   },
-   "approx_share_pct": 5.4,
-   "share_basis": "Pew 2020 estimate as reported by US State Dept; religious advocacy groups estimate non-Muslims at more than 13 percent",
-   "uncertainty": "APPROXIMATE",
-   "citation": {
-    "proposed_source_id": "USSD_IRF2023_SUDAN",
-    "registered": false,
-    "source_type": "government (U.S. Department of State), citing Pew data",
-    "url": "https://www.state.gov/reports/2023-report-on-international-religious-freedom/sudan/",
-    "pages": "Section I. Religious Demography",
-    "quote": "The Pew Research Center’s 2020 data estimated that 91 percent of the population was Muslim, 5.4 percent Christian, 2.8 percent followed indigenous religions, and the remainder followed other religions or were unaffiliated.",
-    "accessed": "2026-10-26"
-   },
-   "citation_extra": [
-    {
-     "proposed_source_id": "USSD_IRF2023_SUDAN",
-     "registered": false,
-     "source_type": "government (U.S. Department of State), citing Pew data",
-     "url": "https://www.state.gov/reports/2023-report-on-international-religious-freedom/sudan/",
-     "pages": "Section I. Religious Demography",
-     "quote": "Christians are resident throughout the country, primarily in major cities such as Khartoum, Port Sudan, Kassala, Gedaref, El Obeid, and El Fasher. Christians also are concentrated in some parts of the Nuba Mountains, South Kordofan State, and in parts of Blue Nile State.",
-     "accessed": "2026-10-26"
-    },
-    {
-     "proposed_source_id": "USSD_IRF2023_SUDAN",
-     "registered": false,
-     "source_type": "government (U.S. Department of State), citing Pew data",
-     "url": "https://www.state.gov/reports/2023-report-on-international-religious-freedom/sudan/",
-     "pages": "Section I. Religious Demography",
-     "quote": "Some religious advocacy groups estimate non-Muslims constitute more than 13 percent of the population.",
-     "accessed": "2026-10-26"
-    }
-   ]
-  },
-  {
-   "id": "sd-indigenous",
-   "country": "Sudan",
-   "region": "Sudan; primarily Blue Nile and South Kordofan States",
-   "name": {
-    "en": "Indigenous / traditional African religions",
-    "ar": "الديانات الأفريقية التقليدية [يحتاج تحقق]"
-   },
-   "approx_share_pct": 2.8,
-   "share_basis": "Pew 2020 estimate 2.8%; government statistics: less than 1 percent (sources disagree)",
-   "uncertainty": "APPROXIMATE",
-   "citation": {
-    "proposed_source_id": "USSD_IRF2023_SUDAN",
-    "registered": false,
-    "source_type": "government (U.S. Department of State), citing Pew data",
-    "url": "https://www.state.gov/reports/2023-report-on-international-religious-freedom/sudan/",
-    "pages": "Section I. Religious Demography",
-    "quote": "The Pew Research Center’s 2020 data estimated that 91 percent of the population was Muslim, 5.4 percent Christian, 2.8 percent followed indigenous religions, and the remainder followed other religions or were unaffiliated.",
-    "accessed": "2026-10-26"
-   },
-   "citation_extra": [
-    {
-     "proposed_source_id": "USSD_IRF2023_SUDAN",
-     "registered": false,
-     "source_type": "government (U.S. Department of State), citing Pew data",
-     "url": "https://www.state.gov/reports/2023-report-on-international-religious-freedom/sudan/",
-     "pages": "Section I. Religious Demography",
-     "quote": "Government statistics indicate less than 1 percent of the population, primarily in Blue Nile and South Kordofan States, adhere to traditional African religious beliefs.",
-     "accessed": "2026-10-26"
-    }
-   ]
-  },
-  {
-   "id": "ss-christianity",
-   "country": "South Sudan",
-   "region": "South Sudan (national)",
-   "name": {
-    "en": "Christianity",
-    "ar": "المسيحية [يحتاج تحقق]"
-   },
-   "approx_share_pct": 60.5,
-   "share_basis": "Pew-Templeton 2020 estimate as reported by US State Dept; displacement and pastoral migration make estimates difficult",
-   "uncertainty": "APPROXIMATE",
-   "citation": {
-    "proposed_source_id": "USSD_IRF2023_SSD",
-    "registered": false,
-    "source_type": "government (U.S. Department of State), citing Pew data",
-    "url": "https://www.state.gov/reports/2023-report-on-international-religious-freedom/south-sudan/",
-    "pages": "Section I. Religious Demography",
-    "quote": "The 2020 Pew-Templeton Global Religious Futures Project report estimated Christians make up 60.5 percent of the population; followers of Indigenous (animist) religions, 32.9 percent; and Muslims, 6.2 percent.",
-    "accessed": "2026-10-26"
-   },
-   "citation_extra": [
-    {
-     "proposed_source_id": "USSD_IRF2023_SSD",
-     "registered": false,
-     "source_type": "government (U.S. Department of State), citing Pew data",
-     "url": "https://www.state.gov/reports/2023-report-on-international-religious-freedom/south-sudan/",
-     "pages": "Section I. Religious Demography",
-     "quote": "make it difficult to accurately estimate the overall population and its religious demography.",
-     "accessed": "2026-10-26"
-    }
-   ]
-  },
-  {
-   "id": "ss-indigenous",
-   "country": "South Sudan",
-   "region": "South Sudan (throughout the country)",
-   "name": {
-    "en": "Indigenous (animist) religions",
-    "ar": "الديانات الأصلية (الإحيائية) [يحتاج تحقق]"
-   },
-   "approx_share_pct": 32.9,
-   "share_basis": "Pew-Templeton 2020 estimate as reported by US State Dept",
-   "uncertainty": "APPROXIMATE",
-   "citation": {
-    "proposed_source_id": "USSD_IRF2023_SSD",
-    "registered": false,
-    "source_type": "government (U.S. Department of State), citing Pew data",
-    "url": "https://www.state.gov/reports/2023-report-on-international-religious-freedom/south-sudan/",
-    "pages": "Section I. Religious Demography",
-    "quote": "The 2020 Pew-Templeton Global Religious Futures Project report estimated Christians make up 60.5 percent of the population; followers of Indigenous (animist) religions, 32.9 percent; and Muslims, 6.2 percent.",
-    "accessed": "2026-10-26"
-   },
-   "citation_extra": [
-    {
-     "proposed_source_id": "USSD_IRF2023_SSD",
-     "registered": false,
-     "source_type": "government (U.S. Department of State), citing Pew data",
-     "url": "https://www.state.gov/reports/2023-report-on-international-religious-freedom/south-sudan/",
-     "pages": "Section I. Religious Demography",
-     "quote": "Adherents of Indigenous religious traditions reside throughout the country and many practice their religions concurrently with Christianity and Islam.",
-     "accessed": "2026-10-26"
-    }
-   ]
-  },
-  {
-   "id": "ss-islam",
-   "country": "South Sudan",
-   "region": "South Sudan (national)",
-   "name": {
-    "en": "Islam",
-    "ar": "الإسلام [يحتاج تحقق]"
-   },
-   "approx_share_pct": 6.2,
-   "share_basis": "Pew-Templeton 2020 estimate as reported by US State Dept",
-   "uncertainty": "APPROXIMATE",
-   "citation": {
-    "proposed_source_id": "USSD_IRF2023_SSD",
-    "registered": false,
-    "source_type": "government (U.S. Department of State), citing Pew data",
-    "url": "https://www.state.gov/reports/2023-report-on-international-religious-freedom/south-sudan/",
-    "pages": "Section I. Religious Demography",
-    "quote": "The 2020 Pew-Templeton Global Religious Futures Project report estimated Christians make up 60.5 percent of the population; followers of Indigenous (animist) religions, 32.9 percent; and Muslims, 6.2 percent.",
-    "accessed": "2026-10-26"
-   }
-  }
- ],
+ "religions": [],
  "languages": [
   {
    "id": "lang-suda1236",
@@ -243,8 +47,8 @@
    "approx_share_pct": null,
    "uncertainty": "APPROXIMATE",
    "citation": {
-    "proposed_source_id": "GLOTTOLOG",
-    "registered": false,
+    "source_id": "GLOTTOLOG",
+    "registered": true,
     "source_type": "academic catalogue (Glottolog, MPI-EVA)",
     "url": "https://glottolog.org/resource/languoid/id/suda1236",
     "pages": "languoid page, 'Countries'",
@@ -275,8 +79,8 @@
    "approx_share_pct": null,
    "uncertainty": "APPROXIMATE",
    "citation": {
-    "proposed_source_id": "GLOTTOLOG",
-    "registered": false,
+    "source_id": "GLOTTOLOG",
+    "registered": true,
     "source_type": "academic catalogue (Glottolog, MPI-EVA)",
     "url": "https://glottolog.org/resource/languoid/id/beja1238",
     "pages": "languoid page, 'Countries'",
@@ -306,8 +110,8 @@
    "approx_share_pct": null,
    "uncertainty": "APPROXIMATE",
    "citation": {
-    "proposed_source_id": "GLOTTOLOG",
-    "registered": false,
+    "source_id": "GLOTTOLOG",
+    "registered": true,
     "source_type": "academic catalogue (Glottolog, MPI-EVA)",
     "url": "https://glottolog.org/resource/languoid/id/furr1244",
     "pages": "languoid page, 'Countries'",
@@ -339,8 +143,8 @@
    "approx_share_pct": null,
    "uncertainty": "APPROXIMATE",
    "citation": {
-    "proposed_source_id": "GLOTTOLOG",
-    "registered": false,
+    "source_id": "GLOTTOLOG",
+    "registered": true,
     "source_type": "academic catalogue (Glottolog, MPI-EVA)",
     "url": "https://glottolog.org/resource/languoid/id/nucl1440",
     "pages": "languoid page, 'Countries'",
@@ -371,8 +175,8 @@
    "approx_share_pct": null,
    "uncertainty": "APPROXIMATE",
    "citation": {
-    "proposed_source_id": "GLOTTOLOG",
-    "registered": false,
+    "source_id": "GLOTTOLOG",
+    "registered": true,
     "source_type": "academic catalogue (Glottolog, MPI-EVA)",
     "url": "https://glottolog.org/resource/languoid/id/nobi1240",
     "pages": "languoid page, 'Countries'",
@@ -404,8 +208,8 @@
    "approx_share_pct": null,
    "uncertainty": "APPROXIMATE",
    "citation": {
-    "proposed_source_id": "GLOTTOLOG",
-    "registered": false,
+    "source_id": "GLOTTOLOG",
+    "registered": true,
     "source_type": "academic catalogue (Glottolog, MPI-EVA)",
     "url": "https://glottolog.org/resource/languoid/id/shil1265",
     "pages": "languoid page, 'Countries'",
@@ -435,8 +239,8 @@
    "approx_share_pct": null,
    "uncertainty": "APPROXIMATE",
    "citation": {
-    "proposed_source_id": "GLOTTOLOG",
-    "registered": false,
+    "source_id": "GLOTTOLOG",
+    "registered": true,
     "source_type": "academic catalogue (Glottolog, MPI-EVA)",
     "url": "https://glottolog.org/resource/languoid/id/dink1262",
     "pages": "languoid page, 'Countries'",
@@ -468,8 +272,8 @@
    "approx_share_pct": null,
    "uncertainty": "APPROXIMATE",
    "citation": {
-    "proposed_source_id": "GLOTTOLOG",
-    "registered": false,
+    "source_id": "GLOTTOLOG",
+    "registered": true,
     "source_type": "academic catalogue (Glottolog, MPI-EVA)",
     "url": "https://glottolog.org/resource/languoid/id/nuer1246",
     "pages": "languoid page, 'Countries'",
@@ -501,8 +305,8 @@
    "approx_share_pct": null,
    "uncertainty": "APPROXIMATE",
    "citation": {
-    "proposed_source_id": "GLOTTOLOG",
-    "registered": false,
+    "source_id": "GLOTTOLOG",
+    "registered": true,
     "source_type": "academic catalogue (Glottolog, MPI-EVA)",
     "url": "https://glottolog.org/resource/languoid/id/bari1284",
     "pages": "languoid page, 'Countries'",
@@ -538,8 +342,8 @@
    "approx_share_pct": null,
    "uncertainty": "APPROXIMATE",
    "citation": {
-    "proposed_source_id": "GLOTTOLOG",
-    "registered": false,
+    "source_id": "GLOTTOLOG",
+    "registered": true,
     "source_type": "academic catalogue (Glottolog, MPI-EVA)",
     "url": "https://glottolog.org/resource/languoid/id/zand1248",
     "pages": "languoid page, 'Countries'",
@@ -576,12 +380,196 @@
    "approx_share_pct": null,
    "uncertainty": "APPROXIMATE",
    "citation": {
-    "proposed_source_id": "GLOTTOLOG",
-    "registered": false,
+    "source_id": "GLOTTOLOG",
+    "registered": true,
     "source_type": "academic catalogue (Glottolog, MPI-EVA)",
     "url": "https://glottolog.org/resource/languoid/id/suda1237",
     "pages": "languoid page, 'Countries'",
     "quote": "Countries South Sudan [SS]",
+    "accessed": "2026-10-26"
+   }
+  }
+ ],
+ "religions_pending_registration": [
+  {
+   "id": "sd-islam",
+   "country": "Sudan",
+   "region": "Sudan (national; Pew gives country level only)",
+   "name": {
+    "en": "Muslims",
+    "ar": "المسلمون [يحتاج تحقق]"
+   },
+   "approx_share_pct": null,
+   "pending_share_pct": 98.9,
+   "share_basis": "Pew Research Center 2020 estimate (Appendix B)",
+   "uncertainty": "APPROXIMATE",
+   "status": "PENDING-REGISTRATION",
+   "note": "PENDING REGISTRATION of PEW_RELCOMP_2020: share withheld (null) and entry kept out of the build until the Historian registers the source.",
+   "citation": {
+    "proposed_source_id": "PEW_RELCOMP_2020",
+    "registered": false,
+    "source_type": "research institute (Pew Research Center)",
+    "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf",
+    "landing_url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/",
+    "pages": "Appendix B: Religious composition table, row 'Sudan 2020'",
+    "quote": "Sudan 2020 46,790,000 0.5 98.9 0.6 <0.1 <0.1 <0.1 <0.1",
+    "quote_note": "Column order (pdftotext, whitespace collapsed): Place, Year, Population, % Christian, % Muslim, % religiously unaffiliated, % Buddhist, % Hindu, % Jewish, % other religions",
+    "accessed": "2026-10-26"
+   }
+  },
+  {
+   "id": "sd-christianity",
+   "country": "Sudan",
+   "region": "Sudan (national; Pew gives country level only)",
+   "name": {
+    "en": "Christians",
+    "ar": "المسيحيون [يحتاج تحقق]"
+   },
+   "approx_share_pct": null,
+   "pending_share_pct": 0.5,
+   "share_basis": "Pew Research Center 2020 estimate (Appendix B)",
+   "uncertainty": "APPROXIMATE",
+   "status": "PENDING-REGISTRATION",
+   "note": "PENDING REGISTRATION of PEW_RELCOMP_2020: share withheld (null) and entry kept out of the build until the Historian registers the source.",
+   "citation": {
+    "proposed_source_id": "PEW_RELCOMP_2020",
+    "registered": false,
+    "source_type": "research institute (Pew Research Center)",
+    "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf",
+    "landing_url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/",
+    "pages": "Appendix B: Religious composition table, row 'Sudan 2020'",
+    "quote": "Sudan 2020 46,790,000 0.5 98.9 0.6 <0.1 <0.1 <0.1 <0.1",
+    "quote_note": "Column order (pdftotext, whitespace collapsed): Place, Year, Population, % Christian, % Muslim, % religiously unaffiliated, % Buddhist, % Hindu, % Jewish, % other religions",
+    "accessed": "2026-10-26"
+   }
+  },
+  {
+   "id": "sd-unaffiliated",
+   "country": "Sudan",
+   "region": "Sudan (national; Pew gives country level only)",
+   "name": {
+    "en": "Religiously unaffiliated",
+    "ar": "غير المنتمين دينياً [يحتاج تحقق]"
+   },
+   "approx_share_pct": null,
+   "pending_share_pct": 0.6,
+   "share_basis": "Pew Research Center 2020 estimate (Appendix B)",
+   "uncertainty": "APPROXIMATE",
+   "status": "PENDING-REGISTRATION",
+   "note": "PENDING REGISTRATION of PEW_RELCOMP_2020: share withheld (null) and entry kept out of the build until the Historian registers the source.",
+   "citation": {
+    "proposed_source_id": "PEW_RELCOMP_2020",
+    "registered": false,
+    "source_type": "research institute (Pew Research Center)",
+    "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf",
+    "landing_url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/",
+    "pages": "Appendix B: Religious composition table, row 'Sudan 2020'",
+    "quote": "Sudan 2020 46,790,000 0.5 98.9 0.6 <0.1 <0.1 <0.1 <0.1",
+    "quote_note": "Column order (pdftotext, whitespace collapsed): Place, Year, Population, % Christian, % Muslim, % religiously unaffiliated, % Buddhist, % Hindu, % Jewish, % other religions",
+    "accessed": "2026-10-26"
+   }
+  },
+  {
+   "id": "ss-christianity",
+   "country": "South Sudan",
+   "region": "South Sudan (national; Pew gives country level only)",
+   "name": {
+    "en": "Christians",
+    "ar": "المسيحيون [يحتاج تحقق]"
+   },
+   "approx_share_pct": null,
+   "pending_share_pct": 60.5,
+   "share_basis": "Pew Research Center 2020 estimate (Appendix B)",
+   "uncertainty": "APPROXIMATE",
+   "status": "PENDING-REGISTRATION",
+   "note": "PENDING REGISTRATION of PEW_RELCOMP_2020: share withheld (null) and entry kept out of the build until the Historian registers the source.",
+   "citation": {
+    "proposed_source_id": "PEW_RELCOMP_2020",
+    "registered": false,
+    "source_type": "research institute (Pew Research Center)",
+    "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf",
+    "landing_url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/",
+    "pages": "Appendix B: Religious composition table, row 'South Sudan 2020'",
+    "quote": "South Sudan 2020 10,700,000 60.5 6.2 0.4 <0.1 <0.1 <0.1 32.8",
+    "quote_note": "Column order (pdftotext, whitespace collapsed): Place, Year, Population, % Christian, % Muslim, % religiously unaffiliated, % Buddhist, % Hindu, % Jewish, % other religions",
+    "accessed": "2026-10-26"
+   }
+  },
+  {
+   "id": "ss-islam",
+   "country": "South Sudan",
+   "region": "South Sudan (national; Pew gives country level only)",
+   "name": {
+    "en": "Muslims",
+    "ar": "المسلمون [يحتاج تحقق]"
+   },
+   "approx_share_pct": null,
+   "pending_share_pct": 6.2,
+   "share_basis": "Pew Research Center 2020 estimate (Appendix B)",
+   "uncertainty": "APPROXIMATE",
+   "status": "PENDING-REGISTRATION",
+   "note": "PENDING REGISTRATION of PEW_RELCOMP_2020: share withheld (null) and entry kept out of the build until the Historian registers the source.",
+   "citation": {
+    "proposed_source_id": "PEW_RELCOMP_2020",
+    "registered": false,
+    "source_type": "research institute (Pew Research Center)",
+    "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf",
+    "landing_url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/",
+    "pages": "Appendix B: Religious composition table, row 'South Sudan 2020'",
+    "quote": "South Sudan 2020 10,700,000 60.5 6.2 0.4 <0.1 <0.1 <0.1 32.8",
+    "quote_note": "Column order (pdftotext, whitespace collapsed): Place, Year, Population, % Christian, % Muslim, % religiously unaffiliated, % Buddhist, % Hindu, % Jewish, % other religions",
+    "accessed": "2026-10-26"
+   }
+  },
+  {
+   "id": "ss-other-religions",
+   "country": "South Sudan",
+   "region": "South Sudan (national; Pew gives country level only)",
+   "name": {
+    "en": "Other religions (Pew category)",
+    "ar": "ديانات أخرى (فئة بيو) [يحتاج تحقق]"
+   },
+   "approx_share_pct": null,
+   "pending_share_pct": 32.8,
+   "share_basis": "Pew Research Center 2020 estimate (Appendix B)",
+   "uncertainty": "APPROXIMATE",
+   "status": "PENDING-REGISTRATION",
+   "note": "PENDING REGISTRATION of PEW_RELCOMP_2020: share withheld (null) and entry kept out of the build until the Historian registers the source.",
+   "citation": {
+    "proposed_source_id": "PEW_RELCOMP_2020",
+    "registered": false,
+    "source_type": "research institute (Pew Research Center)",
+    "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf",
+    "landing_url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/",
+    "pages": "Appendix B: Religious composition table, row 'South Sudan 2020'",
+    "quote": "South Sudan 2020 10,700,000 60.5 6.2 0.4 <0.1 <0.1 <0.1 32.8",
+    "quote_note": "Column order (pdftotext, whitespace collapsed): Place, Year, Population, % Christian, % Muslim, % religiously unaffiliated, % Buddhist, % Hindu, % Jewish, % other religions",
+    "accessed": "2026-10-26"
+   }
+  },
+  {
+   "id": "ss-unaffiliated",
+   "country": "South Sudan",
+   "region": "South Sudan (national; Pew gives country level only)",
+   "name": {
+    "en": "Religiously unaffiliated",
+    "ar": "غير المنتمين دينياً [يحتاج تحقق]"
+   },
+   "approx_share_pct": null,
+   "pending_share_pct": 0.4,
+   "share_basis": "Pew Research Center 2020 estimate (Appendix B)",
+   "uncertainty": "APPROXIMATE",
+   "status": "PENDING-REGISTRATION",
+   "note": "PENDING REGISTRATION of PEW_RELCOMP_2020: share withheld (null) and entry kept out of the build until the Historian registers the source.",
+   "citation": {
+    "proposed_source_id": "PEW_RELCOMP_2020",
+    "registered": false,
+    "source_type": "research institute (Pew Research Center)",
+    "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf",
+    "landing_url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/",
+    "pages": "Appendix B: Religious composition table, row 'South Sudan 2020'",
+    "quote": "South Sudan 2020 10,700,000 60.5 6.2 0.4 <0.1 <0.1 <0.1 32.8",
+    "quote_note": "Column order (pdftotext, whitespace collapsed): Place, Year, Population, % Christian, % Muslim, % religiously unaffiliated, % Buddhist, % Hindu, % Jewish, % other religions",
     "accessed": "2026-10-26"
    }
   }

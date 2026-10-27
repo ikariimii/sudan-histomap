@@ -4,7 +4,7 @@
   "built": "2026-10-26",
   "status": "draft; Arabic is a working translation pending native review [يحتاج تحقق]",
   "scope": "Notable Sudanese / South Sudanese people, 1956-present. Shape is the Analyst's own: no db/era_people.json existed to match.",
-  "rules": "Every fact is from the cited page, opened on the accessed date; quote is verbatim. Sources not yet in the registry are flagged registered:false with proposed_source_id (listed in /workspace/audit/people_religion_sources_to_register.md). Dates only where the cited page gives them. place_id only where it exists in db/cities.json; no coordinates. image only where Wikimedia Commons names an author and a free license; else null."
+  "rules": "Every fact is from the cited page, opened on the accessed date; quote is verbatim. All cited sources registered by the Historian 2026-10-26 (source 31ddc3f, site a6044a5). Dates only where the cited page gives them. place_id only where it exists in db/cities.json; no coordinates. image only where Wikimedia Commons names an author and a free license; else null."
  },
  "people": [
   {
@@ -35,8 +35,8 @@
     "role": "birthplace"
    },
    "citation": {
-    "proposed_source_id": "BRIT_AZHARI",
-    "registered": false,
+    "source_id": "BRIT_AZHARI",
+    "registered": true,
     "url": "https://www.britannica.com/biography/Ismail-al-Azhari",
     "pages": null,
     "quote": "Ismāʿīl al-Azharī (born October 30, 1900, Omdurman, Sudan—died August 26, 1969, Khartoum) was a Sudanese statesman, who was instrumental in achieving his country’s independence and served as prime minister in 1954–56.",
@@ -44,8 +44,8 @@
    },
    "citation_extra": [
     {
-     "proposed_source_id": "BRIT_AZHARI",
-     "registered": false,
+     "source_id": "BRIT_AZHARI",
+     "registered": true,
      "url": "https://www.britannica.com/biography/Ismail-al-Azhari",
      "pages": null,
      "quote": "in 1965 was appointed president of the Supreme Council (i.e., head of state). He was overthrown in a military coup on May 25, 1969.",
@@ -83,8 +83,8 @@
     "role": "birthplace"
    },
    "citation": {
-    "proposed_source_id": "BRIT_NIMEIRI",
-    "registered": false,
+    "source_id": "BRIT_NIMEIRI",
+    "registered": true,
     "url": "https://www.britannica.com/biography/Gaafar-Mohamed-el-Nimeiri",
     "pages": null,
     "quote": "Gaafar Mohamed el-Nimeiri (born January 1, 1930, Wad Nubawi, Omdurman, Sudan—died May 30, 2009, Omdurman) was a major general, commander of the armed forces, and president of Sudan (1971–85).",
@@ -92,8 +92,8 @@
    },
    "citation_extra": [
     {
-     "proposed_source_id": "BRIT_NIMEIRI",
-     "registered": false,
+     "source_id": "BRIT_NIMEIRI",
+     "registered": true,
      "url": "https://www.britannica.com/biography/Gaafar-Mohamed-el-Nimeiri",
      "pages": null,
      "quote": "In April 1985, while he was in the United States, Nimeiri was overthrown by his defense minister in a bloodless coup.",
@@ -129,8 +129,8 @@
    "location": null,
    "location_note": "born Hosh Wad Banaqa (per source); no matching place_id in db/cities.json",
    "citation": {
-    "proposed_source_id": "BRIT_BASHIR",
-    "registered": false,
+    "source_id": "BRIT_BASHIR",
+    "registered": true,
     "url": "https://kids.britannica.com/scholars/article/Omar-al-Bashir/473695",
     "pages": null,
     "quote": "Omar al-Bashir, in full Omar Hassan Ahmad al-Bashir, (born January 1, 1944, Hosh Wad Banaqa, Sudan) is a Sudanese military officer who led a revolt that overthrew the elected government of Sudan in 1989. He served as president of Sudan from 1993 until 2019, when he was ousted in a military coup.",
@@ -171,8 +171,8 @@
    "bio_ar": "رئيس وزراء السودان (1965–1967 و1986–1989)، ورئيس حزب الأمة وأسرة المهدي التي تتزعم طائفة الأنصار (وفقاً لهيومن رايتس ووتش 2003)؛ أُطيح بحكومته في انقلاب 1989 [يحتاج تحقق]",
    "location": null,
    "citation": {
-    "proposed_source_id": "HRW2003_SUDAN_OIL",
-    "registered": false,
+    "source_id": "HRW2003_SUDAN_OIL",
+    "registered": true,
     "url": "https://www.hrw.org/report/2003/11/24/sudan-oil-and-human-rights",
     "pages": "Appendix: key non-southern individuals",
     "quote": "Sadiq al Mahdi Sudanese prime minister (1965-67 and 1986-89), the head of the Umma Party and the Mahdi family",
@@ -180,8 +180,8 @@
    },
    "citation_extra": [
     {
-     "proposed_source_id": "HRW2003_SUDAN_OIL",
-     "registered": false,
+     "source_id": "HRW2003_SUDAN_OIL",
+     "registered": true,
      "url": "https://www.hrw.org/report/2003/11/24/sudan-oil-and-human-rights",
      "pages": "Appendix: Hassan Al Turabi entry",
      "quote": "the 1989 Islamist military coup that overthrew Prime Minister Sadiq al Mahdi",
@@ -215,8 +215,8 @@
     "role": "birthplace"
    },
    "citation": {
-    "proposed_source_id": "BBC2009_TURABI",
-    "registered": false,
+    "source_id": "BBC2009_TURABI",
+    "registered": true,
     "url": "http://news.bbc.co.uk/2/hi/africa/3190770.stm",
     "pages": null,
     "quote": "Born in 1932 in Kassala, northern Sudan, to a Sufi Muslim sheikh, Mr Turabi received an Islamic education before studying in Khartoum, London and finally the Sorbonne in Paris, where he gained a PhD.",
@@ -224,16 +224,16 @@
    },
    "citation_extra": [
     {
-     "proposed_source_id": "BBC2009_TURABI",
-     "registered": false,
+     "source_id": "BBC2009_TURABI",
+     "registered": true,
      "url": "http://news.bbc.co.uk/2/hi/africa/3190770.stm",
      "pages": null,
      "quote": "In 1979, as President Numayri sought rapprochement with Islamist leaders, Mr Turabi was appointed attorney general.",
      "accessed": "2026-10-26"
     },
     {
-     "proposed_source_id": "BBC2009_TURABI",
-     "registered": false,
+     "source_id": "BBC2009_TURABI",
+     "registered": true,
      "url": "http://news.bbc.co.uk/2/hi/africa/3190770.stm",
      "pages": null,
      "quote": "He subsequently formed the Popular National Congress Party (PNC), which boycotted the parliamentary elections later that year.",
@@ -264,8 +264,8 @@
    "bio_ar": "سياسي ومفكر ديني ليبرالي، حوكم بتهمة الردة وأُعدم في يناير 1985 (وفقاً لبي بي سي) [يحتاج تحقق]",
    "location": null,
    "citation": {
-    "proposed_source_id": "BBC2009_TURABI",
-    "registered": false,
+    "source_id": "BBC2009_TURABI",
+    "registered": true,
     "url": "http://news.bbc.co.uk/2/hi/africa/3190770.stm",
     "pages": null,
     "quote": "a liberal politician and theologian Mahmoud Mohammed Taha was put on trial for apostasy - abandoning religious belief - and executed in January 1985.",
@@ -289,8 +289,8 @@
    "location": null,
    "location_note": "born Al-Shamaliyah province (per source); province, not a cities.json place",
    "citation": {
-    "proposed_source_id": "BRIT_SALIH",
-    "registered": false,
+    "source_id": "BRIT_SALIH",
+    "registered": true,
     "url": "https://www.britannica.com/biography/al-Tayyib-Salih",
     "pages": null,
     "quote": "al-Ṭayyib Ṣāliḥ (born 1929, Al-Shamalīyah province, Sudan—died February 18, 2009, London, England) was an Arabic-language novelist and short-story writer whose works explore the intersections of traditional and modern life in Africa.",
@@ -298,8 +298,8 @@
    },
    "citation_extra": [
     {
-     "proposed_source_id": "BRIT_SALIH",
-     "registered": false,
+     "source_id": "BRIT_SALIH",
+     "registered": true,
      "url": "https://www.britannica.com/biography/al-Tayyib-Salih",
      "pages": null,
      "quote": "His novel Mawsim al-hijrah ilā al-shamāl (1966; Season of Migration to the North) is a prose poem that reflects the conflicts of modern Africa",
@@ -331,8 +331,8 @@
    "location": null,
    "location_note": "per source 'from Aborom in Kongor County (near Bor)'; Aborom is not in cities.json, so bor not assigned",
    "citation": {
-    "proposed_source_id": "HRW2003_SUDAN_OIL",
-    "registered": false,
+    "source_id": "HRW2003_SUDAN_OIL",
+    "registered": true,
     "url": "https://www.hrw.org/report/2003/11/24/sudan-oil-and-human-rights",
     "pages": "Appendix: key southern individuals",
     "quote": "John Garang de Mabior Commander-in-chief of the SPLA and head of the SPLM.",
@@ -340,8 +340,8 @@
    },
    "citation_extra": [
     {
-     "proposed_source_id": "HRW2003_SUDAN_OIL",
-     "registered": false,
+     "source_id": "HRW2003_SUDAN_OIL",
+     "registered": true,
      "url": "https://www.hrw.org/report/2003/11/24/sudan-oil-and-human-rights",
      "pages": "Appendix: key southern individuals",
      "quote": "was a founder of the SPLM/A in Ethiopia in 1983. He supported a united secular Sudan",
@@ -377,21 +377,23 @@
    "location": null,
    "location_note": "born Akon (per source); not in cities.json",
    "citation": {
-    "proposed_source_id": "BRIT_KIIR",
-    "registered": false,
+    "source_id": "BRIT_KIIR",
+    "registered": true,
     "url": "https://www.britannica.com/biography/Salva-Kiir-Mayardit",
     "pages": null,
     "quote": "Salva Kiir Mayardit (born 1951, Akon, Sudan [now in South Sudan]) is a southern Sudanese rebel leader who in 2011 became the first president of the newly independent country of South Sudan.",
-    "accessed": "2026-10-26"
+    "accessed": "2026-10-26",
+    "note": "Amy McKenna's signed article body only (not the AI-generated 'Top Questions' panel)"
    },
    "citation_extra": [
     {
-     "proposed_source_id": "BRIT_KIIR",
-     "registered": false,
+     "source_id": "BRIT_KIIR",
+     "registered": true,
      "url": "https://www.britannica.com/biography/Salva-Kiir-Mayardit",
      "pages": null,
      "quote": "Upon the south’s secession on July 9, 2011, Kiir became the first president of an independent South Sudan.",
-     "accessed": "2026-10-26"
+     "accessed": "2026-10-26",
+     "note": "Amy McKenna's signed article body only (not the AI-generated 'Top Questions' panel)"
     }
    ],
    "image": {
@@ -424,8 +426,8 @@
    "bio_ar": "قائد في الجيش الشعبي لتحرير السودان (من نوير دوك) شارك عام 1991 في قيادة فصيل الناصر المنشق (وفقاً لهيومن رايتس ووتش 2003)؛ ثم نائب سلفا كير، وقائد المتمردين ضده منذ ديسمبر 2013 (وفقاً لبريتانيكا، مقالة كير) [يحتاج تحقق]",
    "location": null,
    "citation": {
-    "proposed_source_id": "HRW2003_SUDAN_OIL",
-    "registered": false,
+    "source_id": "HRW2003_SUDAN_OIL",
+    "registered": true,
     "url": "https://www.hrw.org/report/2003/11/24/sudan-oil-and-human-rights",
     "pages": "Appendix: southern armed groups, SPLM/A-Nasir",
     "quote": "breakaway SPLA faction headed by SPLA Cmdrs. Riek Machar Teny Dhurgon (Dok Nuer), Gordon Kong Chuol (Eastern Jikany Nuer), and Lam Akol (Shilluk)",
@@ -433,12 +435,13 @@
    },
    "citation_extra": [
     {
-     "proposed_source_id": "BRIT_KIIR",
-     "registered": false,
+     "source_id": "BRIT_KIIR",
+     "registered": true,
      "url": "https://www.britannica.com/biography/Salva-Kiir-Mayardit",
      "pages": null,
      "quote": "Kiir claimed was a coup attempt by his former vice president and SPLM rival, Riek Machar. Machar denied the accusation but soon took lead of rebels fighting against Kiir",
-     "accessed": "2026-10-26"
+     "accessed": "2026-10-26",
+     "note": "Amy McKenna's signed article body only (not the AI-generated 'Top Questions' panel)"
     }
    ],
    "image": {
