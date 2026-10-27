@@ -1,0 +1,518 @@
+{
+ "type": "FeatureCollection",
+ "draft": true,
+ "status": "DRAFT for review; not wired into the build",
+ "generated_by": "Sudan Map Designer",
+ "date": "2026-10-27",
+ "note": "Geometry copied verbatim from existing cited project data (community-era extents + group_layers/homelands.geojson). No new coordinates. Arabic tagged [يحتاج تحقق]; null where not in project data. Group areas are anchor zones/limit points, not borders.",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       31.7532321,
+       10.2230341
+      ],
+      [
+       32.0526068,
+       10.6012257
+      ],
+      [
+       32.5085394,
+       10.9951254
+      ],
+      [
+       32.5250189,
+       12.1037863
+      ],
+      [
+       32.4700873,
+       12.9938583
+      ],
+      [
+       32.8655951,
+       13.031323
+      ],
+      [
+       33.0056735,
+       12.2219204
+      ],
+      [
+       32.90405,
+       11.4800273
+      ],
+      [
+       32.7667209,
+       10.9762489
+      ],
+      [
+       32.384946,
+       10.4202898
+      ],
+      [
+       32.3080417,
+       9.9526222
+      ],
+      [
+       32.0059177,
+       9.7550797
+      ],
+      [
+       31.7312595,
+       9.9418011
+      ],
+      [
+       31.7532321,
+       10.2230341
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "eg-shilluk-ext-1",
+    "group": "shilluk",
+    "name_en": "Shilluk (Chollo)",
+    "label_en": "Shilluk Kingdom",
+    "label_ar": "مملكة الشلك [يحتاج تحقق]",
+    "detail_en": null,
+    "detail_ar": null,
+    "kind": "area",
+    "present_start": 1490,
+    "present_end": 1861,
+    "present_eras": null,
+    "eras_rule": "eras overlapping present_start..present_end (until Historian supplies era ids)",
+    "badges": [
+     "APPROXIMATE",
+     "DERIVED",
+     "VERIFY"
+    ],
+    "source_ids": [
+     "OHM_2856878"
+    ],
+    "cite": null,
+    "pages": null,
+    "license": "CC0 1.0 (OpenHistoricalMap)",
+    "geometry_from": "db/extents/shilluk-kingdom.geojson#0"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.110278,
+     9.8875
+    ]
+   },
+   "properties": {
+    "id": "grp-shilluk-homeland-1",
+    "group": "shilluk",
+    "name_en": "Shilluk (Chollo)",
+    "label_en": "Shilluk (Collo) homeland: Fashoda (Kodok)",
+    "label_ar": "موطن الشلك (شولو): Fashoda (Kodok) [يحتاج تحقق]",
+    "detail_en": "A compact strip on the west bank of the Nile, from Tonga to Muomo near the Nile–Sobat confluence; villages lined the bank for about 100 miles. Fashoda, founded by Reth Tugo, became the permanent royal seat. Anchor point only; text only.",
+    "detail_ar": "شريط متصل على الضفة الغربية للنيل من تونجا إلى مومو قرب ملتقى النيل والسوباط، وتمتد القرى على الضفة نحو 100 ميل. وأصبحت فشودة التي أسسها الرث توجو مقراً ملكياً دائماً. [يحتاج تحقق]",
+    "kind": "marker",
+    "present_start": 1490,
+    "present_end": 1861,
+    "present_eras": null,
+    "eras_rule": "eras overlapping present_start..present_end (until Historian supplies era ids)",
+    "badges": [
+     "APPROXIMATE"
+    ],
+    "source_ids": [
+     "GHA5_CH7",
+     "LOC1991_NONMUSLIM"
+    ],
+    "cite": [
+     "GHA5_CH7 p.193",
+     "GHA5_CH7 p.197",
+     "LOC1991_NONMUSLIM § Nilotes",
+     "GHA5_CH7 p.197"
+    ],
+    "gazetteer": "wikidata:Q1888763",
+    "coord_source": "Wikidata P625",
+    "geometry_from": "db/group_layers/homelands.geojson#grp-shilluk-homeland-1",
+    "shared_with": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.8,
+     4.929
+    ]
+   },
+   "properties": {
+    "id": "eg-azande-ext-1",
+    "group": "azande",
+    "name_en": "Azande (Zande)",
+    "label_en": "Mbomu valley (anchor zone)",
+    "label_ar": "وادي مبومو (منطقة ارتكاز) [يحتاج تحقق]",
+    "detail_en": "Mbomu valley: anchor zone, not borders; Zande kingdoms centralised in the 18th century (GHA VI p.368, GHA6_CH14_P368). Point = midpoint of the Natural Earth river line.",
+    "detail_ar": "منطقة ارتكاز، لا حدود؛ تمركزت ممالك الزاندي في القرن الثامن عشر (تاريخ أفريقيا العام VI ص368). [يحتاج تحقق]",
+    "kind": "marker",
+    "present_start": 1700,
+    "present_end": 1905,
+    "present_eras": null,
+    "eras_rule": "eras overlapping present_start..present_end (until Historian supplies era ids)",
+    "badges": [
+     "APPROXIMATE",
+     "DERIVED"
+    ],
+    "source_ids": [
+     "GHA6_CENTRAL_P300",
+     "GHA6_CH14_P368"
+    ],
+    "cite": null,
+    "pages": "300",
+    "license": "Public domain (Natural Earth)",
+    "geometry_from": "db/extents/zande-kingdoms.geojson#0",
+    "shared_with": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.719,
+     3.954
+    ]
+   },
+   "properties": {
+    "id": "eg-azande-ext-2",
+    "group": "azande",
+    "name_en": "Azande (Zande)",
+    "label_en": "Uele (anchor zone)",
+    "label_ar": "نهر أويلي (منطقة ارتكاز) [يحتاج تحقق]",
+    "detail_en": "Uele: anchor zone, not borders; Zande kingdoms centralised in the 18th century (GHA VI p.368, GHA6_CH14_P368). Point = midpoint of the Natural Earth river line.",
+    "detail_ar": "منطقة ارتكاز، لا حدود؛ تمركزت ممالك الزاندي في القرن الثامن عشر (تاريخ أفريقيا العام VI ص368). [يحتاج تحقق]",
+    "kind": "marker",
+    "present_start": 1700,
+    "present_end": 1905,
+    "present_eras": null,
+    "eras_rule": "eras overlapping present_start..present_end (until Historian supplies era ids)",
+    "badges": [
+     "APPROXIMATE",
+     "DERIVED",
+     "VERIFY"
+    ],
+    "source_ids": [
+     "GHA6_CENTRAL_P300",
+     "GHA6_CH14_P368"
+    ],
+    "cite": null,
+    "pages": "300",
+    "license": "Public domain (Natural Earth)",
+    "geometry_from": "db/extents/zande-kingdoms.geojson#1",
+    "shared_with": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.55,
+     6.216667
+    ]
+   },
+   "properties": {
+    "id": "grp-dinka-homeland-1",
+    "group": "dinka",
+    "name_en": "Dinka (Jieng)",
+    "label_en": "Dinka (Jieng) homeland: Bor",
+    "label_ar": "موطن الدينكا (جينق): Bor [يحتاج تحقق]",
+    "detail_en": "Widely distributed over the northern part of the southern region, particularly Upper Nile (Aali an Nil) and Bahr al Ghazal. Transhumant cattle-keepers. Anchor point only; text only.",
+    "detail_ar": "منتشرون في الجزء الشمالي من الإقليم الجنوبي، خاصة أعالي النيل وبحر الغزال. رعاة ماشية يمارسون الترحال الموسمي. [يحتاج تحقق]",
+    "kind": "marker",
+    "present_start": 1500,
+    "present_end": 2026,
+    "present_eras": null,
+    "eras_rule": "eras overlapping present_start..present_end (until Historian supplies era ids)",
+    "badges": [
+     "APPROXIMATE",
+     "DERIVED",
+     "VERIFY"
+    ],
+    "source_ids": [
+     "GHA5_CH7",
+     "GHA7_CH23",
+     "LOC1991_NONMUSLIM",
+     "QASIM_MAWSUA"
+    ],
+    "cite": [
+     "LOC1991_NONMUSLIM § Nilotes",
+     "GHA5_CH7 p.193",
+     "GHA7_CH23 p.594"
+    ],
+    "pages": null,
+    "license": null,
+    "geometry_from": "db/extents/dinka-jieng-communities.geojson#0",
+    "shared_with": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.8072,
+     12.5853
+    ]
+   },
+   "properties": {
+    "id": "gleichen1905-dinka-1",
+    "group": "dinka",
+    "name_en": "Dinka (Jieng)",
+    "label_en": "Jebelein: northern limit of Dinka country on the White Nile (c.1900)",
+    "label_ar": "الجبلين: الحد الشمالي لديار الدينكا على النيل الأبيض (نحو 1900) [يحتاج تحقق]",
+    "detail_en": "Right (east) bank of the White Nile. Gleichen adds that the stretch was 'uninhabited, however, except by Nomad Selim, north of Karshawal'.",
+    "detail_ar": null,
+    "kind": "marker",
+    "present_start": 1899,
+    "present_end": 1904,
+    "present_eras": null,
+    "eras_rule": "eras overlapping present_start..present_end (until Historian supplies era ids)",
+    "badges": [
+     "APPROXIMATE",
+     "SINGLE-SOURCE",
+     "DERIVED",
+     "VERIFY"
+    ],
+    "source_ids": [
+     "GLEICHEN1905_V1"
+    ],
+    "cite": {
+     "source_id": "GLEICHEN1905_V1",
+     "page": "p.126",
+     "quote": "The Dinka country on the White Nile, extends from Jebelein southwards to about 10 miles south of Kodok, along the right bank"
+    },
+    "pages": "126",
+    "license": "Coordinates CC0 1.0 (Wikidata); text public domain (HMSO 1905, Crown copyright expired)",
+    "geometry_from": "db/extents/dinka-jieng-communities.geojson#1",
+    "shared_with": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.1103,
+     9.8875
+    ]
+   },
+   "properties": {
+    "id": "gleichen1905-dinka-2",
+    "group": "dinka",
+    "name_en": "Dinka (Jieng)",
+    "label_en": "Kodok: southern limit of Dinka country on the White Nile is about 10 miles south of here (c.1900)",
+    "label_ar": "كودوك: يقع الحد الجنوبي لديار الدينكا على النيل الأبيض على بعد نحو 10 أميال جنوبها (نحو 1900) [يحتاج تحقق]",
+    "detail_en": "Point is Kodok itself; the stated limit lies about 10 miles further south and is not plotted (offset not computed).",
+    "detail_ar": null,
+    "kind": "marker",
+    "present_start": 1899,
+    "present_end": 1904,
+    "present_eras": null,
+    "eras_rule": "eras overlapping present_start..present_end (until Historian supplies era ids)",
+    "badges": [
+     "APPROXIMATE",
+     "SINGLE-SOURCE",
+     "DERIVED",
+     "VERIFY"
+    ],
+    "source_ids": [
+     "GLEICHEN1905_V1"
+    ],
+    "cite": {
+     "source_id": "GLEICHEN1905_V1",
+     "page": "p.126",
+     "quote": "The Dinka country on the White Nile, extends from Jebelein southwards to about 10 miles south of Kodok, along the right bank"
+    },
+    "pages": "126",
+    "license": "Coordinates CC0 1.0 (Wikidata); text public domain (HMSO 1905, Crown copyright expired)",
+    "geometry_from": "db/extents/dinka-jieng-communities.geojson#2",
+    "shared_with": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.0667,
+     8.6
+    ]
+   },
+   "properties": {
+    "id": "gleichen1905-nuer-1",
+    "group": "nuer",
+    "name_en": "Nuer (Naath)",
+    "label_en": "Nasser Post (Nasir): inside Nuer territory on the Sobat (c.1900)",
+    "label_ar": "الناصر: داخل ديار النوير على السوباط (نحو 1900) [يحتاج تحقق]",
+    "detail_en": "Interior point, not a limit. Gleichen p.132 gives the Nuer reach along the Sobat and Baro as 'from about east 32° 33' to about 34° 10''; those meridians are recorded in text only (no river geometry on the box to place them).",
+    "detail_ar": null,
+    "kind": "marker",
+    "present_start": 1899,
+    "present_end": 1904,
+    "present_eras": null,
+    "eras_rule": "eras overlapping present_start..present_end (until Historian supplies era ids)",
+    "badges": [
+     "APPROXIMATE",
+     "SINGLE-SOURCE",
+     "DERIVED",
+     "VERIFY"
+    ],
+    "source_ids": [
+     "GLEICHEN1905_V1"
+    ],
+    "cite": {
+     "source_id": "GLEICHEN1905_V1",
+     "page": "p.133",
+     "quote": "[From Wegin village to] Nasser Post the country is probably the finest occupied by the Nuers"
+    },
+    "pages": "133",
+    "license": "Coordinates CC0 1.0 (Wikidata); text public domain (HMSO 1905, Crown copyright expired)",
+    "geometry_from": "db/extents/nuer-naath-communities.geojson#0",
+    "shared_with": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.0,
+     7.7833
+    ]
+   },
+   "properties": {
+    "id": "gleichen1905-nuer-2",
+    "group": "nuer",
+    "name_en": "Nuer (Naath)",
+    "label_en": "Pibor–Akobo junction (Akobo): southern end of the Nuer reach on the Pibor (1901)",
+    "label_ar": "ملتقى البيبور وأكوبو (أكوبو): الطرف الجنوبي لامتداد النوير على البيبور (1901) [يحتاج تحقق]",
+    "detail_en": "Edge point (Austin 1901, quoted by Gleichen): Nuer along the Pibor up to the junction, an Anuak dry-season colony at it. Akobo town stands at the junction.",
+    "detail_ar": null,
+    "kind": "marker",
+    "present_start": 1899,
+    "present_end": 1904,
+    "present_eras": null,
+    "eras_rule": "eras overlapping present_start..present_end (until Historian supplies era ids)",
+    "badges": [
+     "APPROXIMATE",
+     "SINGLE-SOURCE",
+     "DERIVED",
+     "VERIFY"
+    ],
+    "source_ids": [
+     "GLEICHEN1905_V1"
+    ],
+    "cite": {
+     "source_id": "GLEICHEN1905_V1",
+     "page": "p.137",
+     "quote": "along the River Pibor through Nuer territory until we reached the junction of that river with the Akobo. Here we found a small colony of Anuaks"
+    },
+    "pages": "137",
+    "license": "Coordinates CC0 1.0 (Wikidata); text public domain (HMSO 1905, Crown copyright expired)",
+    "geometry_from": "db/extents/nuer-naath-communities.geojson#1",
+    "shared_with": [
+     "anuak"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.1667,
+     8.25
+    ]
+   },
+   "properties": {
+    "id": "gleichen1905-anuak-1",
+    "group": "anuak",
+    "name_en": "Anuak (Anywaa)",
+    "label_en": "Itang: enclave inside eastern Anuak territory on the Baro (c.1904)",
+    "label_ar": "إيتانغ: جيب داخل ديار الأنواك الشرقية على البارو (نحو 1904) [يحتاج تحقق]",
+    "detail_en": "Interior point. Coordinate is the Wikidata point of Itang woreda (the Itang town item Q114252208 has no coordinate). Western limit 34° 10' E and eastern limit at the Baro gorge are recorded in text only.",
+    "detail_ar": null,
+    "kind": "marker",
+    "present_start": 1899,
+    "present_end": 1904,
+    "present_eras": null,
+    "eras_rule": "eras overlapping present_start..present_end (until Historian supplies era ids)",
+    "badges": [
+     "APPROXIMATE",
+     "SINGLE-SOURCE",
+     "DERIVED",
+     "VERIFY"
+    ],
+    "source_ids": [
+     "GLEICHEN1905_V1"
+    ],
+    "cite": {
+     "source_id": "GLEICHEN1905_V1",
+     "page": "p.134",
+     "quote": "The eastern Anuaks of the Baro ... inhabit that portion of the river bank extending east of 34° 10' to the mouth of the Baro river gorge ... with the exception of a small enclave round Itang"
+    },
+    "pages": "134",
+    "license": "Coordinates CC0 1.0 (Wikidata); text public domain (HMSO 1905, Crown copyright expired)",
+    "geometry_from": "db/extents/anuak-anywaa-communities.geojson#0",
+    "shared_with": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.0,
+     7.7833
+    ]
+   },
+   "properties": {
+    "id": "gleichen1905-anuak-2",
+    "group": "anuak",
+    "name_en": "Anuak (Anywaa)",
+    "label_en": "Pibor–Akobo junction (Akobo): Anuak dry-season colony at the Nuer edge (1901)",
+    "label_ar": "ملتقى البيبور وأكوبو (أكوبو): مستوطنة أنواك موسمية عند طرف ديار النوير (1901) [يحتاج تحقق]",
+    "detail_en": "Western edge point. Gleichen p.137 also says 'The Anuak territory terminates at the junction of the Akobo and Ajibur streams' (eastern limit on the Akobo; Ajibur junction has no Wikidata item, not plotted).",
+    "detail_ar": null,
+    "kind": "marker",
+    "present_start": 1899,
+    "present_end": 1904,
+    "present_eras": null,
+    "eras_rule": "eras overlapping present_start..present_end (until Historian supplies era ids)",
+    "badges": [
+     "APPROXIMATE",
+     "SINGLE-SOURCE",
+     "DERIVED",
+     "VERIFY"
+    ],
+    "source_ids": [
+     "GLEICHEN1905_V1"
+    ],
+    "cite": {
+     "source_id": "GLEICHEN1905_V1",
+     "page": "p.137",
+     "quote": "until we reached the junction of that river with the Akobo. Here we found a small colony of Anuaks settled down for the coming dry season"
+    },
+    "pages": "137",
+    "license": "Coordinates CC0 1.0 (Wikidata); text public domain (HMSO 1905, Crown copyright expired)",
+    "geometry_from": "db/extents/anuak-anywaa-communities.geojson#1",
+    "shared_with": [
+     "nuer"
+    ]
+   }
+  }
+ ]
+}
