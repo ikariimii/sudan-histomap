@@ -3,7 +3,7 @@
   "generated_by": "research_patch.write_eras_index",
   "years": "negative=BCE; 2026=present",
   "id_rule": "ASCII slug of periods.json name; stable unless the English name changes",
-  "count": 68
+  "count": 63
  },
  "eras": [
   {
@@ -297,16 +297,6 @@
    "file": "data/eras/kingdom-of-taqali.json"
   },
   {
-   "id": "shilluk-kingdom",
-   "name_en": "Shilluk Kingdom",
-   "name_ar": "مملكة الشلك",
-   "stream": "South Sudan – Upper Nile",
-   "start": 1490,
-   "end": 1861,
-   "dating_note": "Founding c.1490 traditional (Nyikang); 1861 end-point not re-verified.",
-   "file": "data/eras/shilluk-kingdom.json"
-  },
-  {
    "id": "southern-sudan-under-condominium-sudan",
    "name_en": "Southern Sudan under Condominium / Sudan",
    "name_ar": "جنوب السودان (الحكم الثنائي/السودان)",
@@ -557,16 +547,6 @@
    "file": "data/eras/libya-ottoman-italian-independent.json"
   },
   {
-   "id": "zande-kingdoms",
-   "name_en": "Zande kingdoms",
-   "name_ar": "ممالك الزاندي",
-   "stream": "Central Africa (CAR/Congo border)",
-   "start": 1700,
-   "end": 1905,
-   "dating_note": "[APPROXIMATE] [NO-SOURCE] Start and end years are approximate; no page-level source for the dates has been read.",
-   "file": "data/eras/zande-kingdoms.json"
-  },
-  {
    "id": "central-african-republic-ubangi-shari",
    "name_en": "Central African Republic (Ubangi-Shari)",
    "name_ar": "جمهورية أفريقيا الوسطى",
@@ -655,36 +635,6 @@
    "end": 1785,
    "dating_note": "Bracket from O'Fahey & Spaulding (BSOAS 1972 abstract: 'late seventeenth and eighteenth centuries'); 1734/1772/1782/1785 events taken from a Wikipedia summary citing O'Fahey 2008 pp.49–59 – book pages not directly checked. No capital location verified.",
    "file": "data/eras/musabba-at-sultanate-kordofan.json"
-  },
-  {
-   "id": "dinka-jieng-communities",
-   "name_en": "Dinka (Jieng) communities",
-   "name_ar": "مجتمعات الدينكا (جيينق)",
-   "stream": "South Sudan – Upper Nile",
-   "start": 1500,
-   "end": 2026,
-   "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. ",
-   "file": "data/eras/dinka-jieng-communities.json"
-  },
-  {
-   "id": "nuer-naath-communities",
-   "name_en": "Nuer (Naath) communities",
-   "name_ar": "مجتمعات النوير (ناث)",
-   "stream": "South Sudan – Upper Nile",
-   "start": 1500,
-   "end": 2026,
-   "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. Nuer 19th-c. expansion still unsourced.",
-   "file": "data/eras/nuer-naath-communities.json"
-  },
-  {
-   "id": "anuak-anywaa-communities",
-   "name_en": "Anuak (Anywaa) communities",
-   "name_ar": "مجتمعات الأنواك (أنيوا)",
-   "stream": "South Sudan – Upper Nile",
-   "start": 1500,
-   "end": 2026,
-   "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. ",
-   "file": "data/eras/anuak-anywaa-communities.json"
   }
  ]
 }
