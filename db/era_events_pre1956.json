@@ -3360,6 +3360,1360 @@
    ],
    "image": null,
    "note": "Undated mention; dated to the c.1290 context on the same page."
+  },
+  {
+   "id": "ev-kush-named-buhen-stele",
+   "era_id": "kingdom-of-kerma",
+   "category": "political",
+   "title": {
+    "en": "Kush first named: Senusret I's victory stele at Buhen",
+    "ar": "أول ذكر لكوش: لوح انتصار سنوسرت الأول في بوهن [يحتاج تحقق]"
+   },
+   "date_start": "-2000",
+   "date_end": null,
+   "date_precision": "century",
+   "location": {
+    "place_id": "buhen",
+    "lat": 21.91667,
+    "lon": 31.28333,
+    "precision": "city"
+   },
+   "summary_en": "A stele set up at Buhen in the eighteenth year of Senusret I shows captives from ten Nubian localities, among them Kush, Sha'at (Sai) and Shemyk. Kush, later the Egyptian name for a large southern land, was first a restricted territory heard of in the Middle Kingdom.",
+   "summary_ar": "[يحتاج تحقق] يُظهر لوح أقيم في بوهن في السنة الثامنة عشرة من حكم سنوسرت الأول أسرى من عشر مناطق نوبية، منها كوش وشاعت (صاي) وشميك. وكانت كوش، التي صارت لاحقًا الاسم المصري لأرض جنوبية واسعة، في الأصل إقليمًا محدودًا ورد ذكره في الدولة الوسطى.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH9"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH9",
+     "page": "p.256",
+     "quote": "Amongst the conquered lands mentioned on this sandstone stele are Kush, Sha'at and Shemyk."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE",
+    "VERIFY"
+   ],
+   "image": null,
+   "note": "No absolute date printed; Senusret I's reign placed approximately (VERIFY)."
+  },
+  {
+   "id": "ev-semna-frontier-senusret-iii",
+   "era_id": "kingdom-of-kerma",
+   "category": "policy",
+   "title": {
+    "en": "Egypt fixes its southern frontier at Semna and fortifies Nubia",
+    "ar": "مصر تثبّت حدودها الجنوبية عند سمنة وتحصّن النوبة [يحتاج تحقق]"
+   },
+   "date_start": "-1850",
+   "date_end": null,
+   "date_precision": "century",
+   "location": {
+    "place_id": "semna",
+    "lat": 21.5,
+    "lon": 30.96667,
+    "precision": "city"
+   },
+   "summary_en": "Senusret III fixed the Middle Kingdom's southern boundary at Semna. A papyrus names seventeen Nubian forts between Semna and Shellal, built to hold the C-Group population and to guard the frontier against Kush.",
+   "summary_ar": "[يحتاج تحقق] ثبّت سنوسرت الثالث الحد الجنوبي للدولة الوسطى عند سمنة. وتذكر بردية سبعة عشر حصنًا نوبيًا بين سمنة والشلال، شُيّدت لإحكام القبضة على سكان المجموعة ج وحراسة الحدود من كوش.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH9"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH9",
+     "page": "p.258",
+     "quote": "the southern boundary of the Egyptian Middle K i n g d o m was unquestionably fixed at S e m n a by Senusret III."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE",
+    "VERIFY"
+   ],
+   "image": null,
+   "note": "Reign date not printed (VERIFY)."
+  },
+  {
+   "id": "ev-nubian-forts-sacked-hyksos",
+   "era_id": "kingdom-of-kerma",
+   "category": "uprising",
+   "title": {
+    "en": "Nubians sack the Egyptian forts as the Middle Kingdom collapses",
+    "ar": "النوبيون ينهبون الحصون المصرية مع انهيار الدولة الوسطى [يحتاج تحقق]"
+   },
+   "date_start": "-1730",
+   "date_end": null,
+   "date_precision": "circa",
+   "location": {
+    "place_id": "buhen",
+    "lat": 21.91667,
+    "lon": 31.28333,
+    "precision": "city"
+   },
+   "summary_en": "After the Middle Kingdom collapsed and the Hyksos invaded, Egypt lost control of Nubia. The forts were ransacked and burnt by local people, who used the collapse of central government in Egypt to regain their independence.",
+   "summary_ar": "[يحتاج تحقق] بعد انهيار الدولة الوسطى وغزو الهكسوس فقدت مصر سيطرتها على النوبة، فنهب السكان المحليون الحصون وأحرقوها مستغلين انهيار الحكم المركزي في مصر لاستعادة استقلالهم.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH9"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH9",
+     "page": "p.258",
+     "quote": "T h e forts were ransacked and burnt by the natives, w h o seem to have seized the opportunity of the collapse of the central government in Egypt to regain their independence."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-kingdom-of-kush-at-kerma",
+   "era_id": "kingdom-of-kerma",
+   "category": "political",
+   "title": {
+    "en": "The kingdom of Kush flourishes with its capital at Kerma",
+    "ar": "ازدهار مملكة كوش وعاصمتها كرمة [يحتاج تحقق]"
+   },
+   "date_start": "-1730",
+   "date_end": "-1580",
+   "date_precision": "year",
+   "location": {
+    "place_id": "kerma",
+    "lat": 19.6008,
+    "lon": 30.40973,
+    "precision": "city"
+   },
+   "summary_en": "The great tumuli at Kerma were the burials of strong native rulers who traded and corresponded with the Hyksos kings, so Kerma was most likely the capital of the kingdom of Kush. It flourished in the Second Intermediate Period, about 1730-1580 BCE, and controlled Nubia south of Elephantine.",
+   "summary_ar": "[يحتاج تحقق] كانت المدافن الضخمة في كرمة لملوك محليين أقوياء تاجروا مع ملوك الهكسوس وراسلوهم، فالأرجح أن كرمة كانت عاصمة مملكة كوش. وقد ازدهرت في عصر الانتقال الثاني، نحو 1730-1580 ق.م، وسيطرت على النوبة جنوب إلفنتين.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH9"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH9",
+     "page": "p.261",
+     "quote": "it seems more likely that K e r m a was the capital of the kingdom of K u s h . This kingdom flourished during what is known in Egyptian history as the Second Intermediate Period ( — 1730 to —1580)."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "CONTESTED"
+   ],
+   "image": null,
+   "note": "Reisner, Junker and Hintze interpretations of the Western Dufufa differ (GHA II pp.259-61)."
+  },
+  {
+   "id": "ev-kamose-stele-kush-frontier",
+   "era_id": "kingdom-of-kerma",
+   "category": "political",
+   "title": {
+    "en": "Kamose's stele: an independent Kush with its frontier at Elephantine",
+    "ar": "لوح كامس: كوش مستقلة وحدودها عند إلفنتين [يحتاج تحقق]"
+   },
+   "date_start": "-1580",
+   "date_end": null,
+   "date_precision": "circa",
+   "location": {
+    "area": "Elephantine (Aswan)",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "The first stele of Kamose, last king of the seventeenth dynasty, shows the Nile valley divided between an independent kingdom of Kush with its frontier at Elephantine, a Theban state in Upper Egypt, and the Hyksos in Lower Egypt.",
+   "summary_ar": "[يحتاج تحقق] يُظهر اللوح الأول لكامس، آخر ملوك الأسرة السابعة عشرة، وادي النيل مقسمًا بين مملكة كوش المستقلة وحدودها عند إلفنتين، ودولة طيبة في صعيد مصر، والهكسوس في الوجه البحري.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH9"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH9",
+     "page": "p.261",
+     "quote": "This stele shows the existence of an independent kingdom in K u s h , with its northern frontierfixedat Elephantine"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-apophis-letter-to-kush",
+   "era_id": "kingdom-of-kerma",
+   "category": "treaty",
+   "title": {
+    "en": "Kamose intercepts the Hyksos king's appeal to the ruler of Kush",
+    "ar": "كامس يعترض رسالة ملك الهكسوس إلى حاكم كوش [يحتاج تحقق]"
+   },
+   "date_start": "-1580",
+   "date_end": null,
+   "date_precision": "circa",
+   "location": {
+    "area": "Western desert oasis route",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "Another stele records that Kamose captured, on the oasis route, a message from the Hyksos king Apophis asking the ruler of Kush for help against the Egyptian king. Stelae at Buhen show Egyptian officials serving the ruler of Kush.",
+   "summary_ar": "[يحتاج تحقق] يسجل لوح آخر أن كامس اعترض على طريق الواحات رسالة من أبوفيس ملك الهكسوس يطلب فيها عون حاكم كوش ضد الملك المصري. وتُظهر ألواح في بوهن موظفين مصريين في خدمة حاكم كوش.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH9"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH9",
+     "page": "p.261",
+     "quote": "K a m o s e captured on the oasis route a message sent by Apophis, the Hyksos king, to the ruler of K u s h seeking his aid against the Egyptian king."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-kerma-royal-burials-sacrifice",
+   "era_id": "kingdom-of-kerma",
+   "category": "religion",
+   "title": {
+    "en": "Kerma royal tumuli and mass sacrificial burials",
+    "ar": "مدافن كرمة الملكية والقرابين البشرية الجماعية [يحتاج تحقق]"
+   },
+   "date_start": "-1730",
+   "date_end": "-1580",
+   "date_precision": "century",
+   "location": {
+    "place_id": "kerma",
+    "lat": 19.6008,
+    "lon": 30.40973,
+    "precision": "city"
+   },
+   "summary_en": "Kerma graves were earth tumuli ringed with black stones; one, K III, was 90 metres across. The ruler lay on a bed in the main chamber, and the most striking custom was human sacrifice: 200 to 300 people, mostly women and children, were buried alive in the central corridor.",
+   "summary_ar": "[يحتاج تحقق] كانت قبور كرمة تلالًا ترابية تحيط بها حجارة سوداء، وبلغ قطر أحدها (K III) تسعين مترًا. وكان الحاكم يُسجّى على سرير في الحجرة الرئيسية، وأبرز العادات القرابين البشرية: إذ دُفن معه أحياءً ما بين 200 و300 شخص، أغلبهم من النساء والأطفال، في الممر الأوسط.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH9"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH9",
+     "page": "p.265",
+     "quote": "T h e owner of the grave was accompanied by 200 to 300 persons, the majority being w o m e n and children."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": "Undated in text; dated to the kingdom's florescence."
+  },
+  {
+   "id": "ev-amosis-rebuilds-buhen",
+   "era_id": "kingdom-of-kerma",
+   "category": "battle",
+   "title": {
+    "en": "Amosis campaigns in Nubia and rebuilds Buhen",
+    "ar": "أحمس يغزو النوبة ويعيد بناء بوهن [يحتاج تحقق]"
+   },
+   "date_start": "-1580",
+   "date_end": null,
+   "date_precision": "circa",
+   "location": {
+    "place_id": "buhen",
+    "lat": 21.91667,
+    "lon": 31.28333,
+    "precision": "city"
+   },
+   "summary_en": "Amosis, founder of the eighteenth dynasty, completed the reoccupation of Lower Nubia. The tomb autobiography of Admiral Ahmose son of Ebana records the campaign; Amosis rebuilt and enlarged the fortress of Buhen and may have reached Sai Island.",
+   "summary_ar": "[يحتاج تحقق] أتمّ أحمس، مؤسس الأسرة الثامنة عشرة، إعادة احتلال النوبة السفلى. وتسجل السيرة الذاتية للأميرال أحمس بن إبانا في قبره الحملة، وقد أعاد أحمس بناء حصن بوهن ووسّعه، وربما بلغ جزيرة صاي.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH9"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH9",
+     "page": "p.265",
+     "quote": "Amosis was able to rebuild and enlarge the fortress of Buhen and erect a temple there."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-tuthmose-i-ends-kush",
+   "era_id": "kingdom-of-kerma",
+   "category": "battle",
+   "title": {
+    "en": "Tuthmose I conquers the northern Sudan, ending Kush's independence",
+    "ar": "تحتمس الأول يغزو شمال السودان وينهي استقلال كوش [يحتاج تحقق]"
+   },
+   "date_start": "-1530",
+   "date_end": "-1520",
+   "date_precision": "year",
+   "location": {
+    "place_id": "kerma",
+    "lat": 19.6008,
+    "lon": 30.40973,
+    "precision": "city"
+   },
+   "summary_en": "Tuthmose I (1530-1520 BCE) completed the conquest of the northern Sudan and ended the independence of Kush. He pushed on to occupy the whole reach between Kerma and Kurgus, 50 miles south of Abu Hamed.",
+   "summary_ar": "[يحتاج تحقق] أتمّ تحتمس الأول (1530-1520 ق.م) غزو شمال السودان وأنهى استقلال مملكة كوش. وتقدم ليحتل المنطقة كلها بين كرمة وكورقس، على بعد 50 ميلًا جنوب أبي حمد.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH9"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH9",
+     "page": "p.265",
+     "quote": "it was Tuthmose I ( — 1530 to —1520) w h o accomplished the conquest of the northern Sudan; thus bringing the independence of the kingdom of K u s h to an end."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-kush-revolt-tuthmose-ii",
+   "era_id": "kingdom-of-kerma",
+   "category": "uprising",
+   "title": {
+    "en": "Kush rebels after the death of Tuthmose I",
+    "ar": "كوش تتمرد بعد وفاة تحتمس الأول [يحتاج تحقق]"
+   },
+   "date_start": "-1520",
+   "date_end": null,
+   "date_precision": "circa",
+   "location": {
+    "area": "Kush (Upper Nubia)",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "A rock inscription of Tuthmose II's first year reports that Kush rebelled after Tuthmose I died: its chief and princes to the north conspired together. An expedition quelled the revolt and peace held for years.",
+   "summary_ar": "[يحتاج تحقق] يروي نقش صخري من السنة الأولى لتحتمس الثاني أن كوش تمردت بعد وفاة تحتمس الأول، إذ تآمر زعيمها والأمراء شماله معًا. فأخمدت حملة التمرد وساد السلام سنوات.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH9"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH9",
+     "page": "p.266",
+     "quote": "K u s h had started to rebel and that the chief of K u s h and other princes to the north of him had conspired together."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-el-kurru-reawakening",
+   "era_id": "kingdom-of-kush-napatan-period",
+   "category": "ruler",
+   "title": {
+    "en": "El-Kurru tombs: the re-awakening of Kush",
+    "ar": "مدافن الكرو: نهضة كوش من جديد [يحتاج تحقق]"
+   },
+   "date_start": "-850",
+   "date_end": null,
+   "date_precision": "century",
+   "location": {
+    "place_id": "el-kurru",
+    "lat": 18.40923,
+    "lon": 31.771,
+    "precision": "city"
+   },
+   "summary_en": "After nearly three centuries of silence, a re-awakening came from the end of the ninth century BCE. Reisner's excavation of the El-Kurru necropolis near Napata revealed a succession of princely tombs, first mounds and later mastabas, ancestors of the 25th dynasty.",
+   "summary_ar": "[يحتاج تحقق] بعد نحو ثلاثة قرون من الصمت جاءت نهضة منذ أواخر القرن التاسع قبل الميلاد. وكشفت حفريات رايزنر في جبانة الكرو قرب نبتة عن سلسلة من مدافن الأمراء، تلالًا أولًا ثم مصاطب، هم أسلاف الأسرة الخامسة والعشرين.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.278",
+     "quote": "from the end of the ninth century before our era w e get a re-awakening"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-alara-kashta",
+   "era_id": "kingdom-of-kush-napatan-period",
+   "category": "ruler",
+   "title": {
+    "en": "Alara and Kashta: Kushite kings reach Elephantine",
+    "ar": "ألارا وكاشتا: ملوك كوش يبلغون إلفنتين [يحتاج تحقق]"
+   },
+   "date_start": "-760",
+   "date_end": null,
+   "date_precision": "circa",
+   "location": {
+    "place_id": "napata",
+    "lat": 18.53333,
+    "lon": 31.81667,
+    "precision": "city"
+   },
+   "summary_en": "The dynasty sprang from local soil and may continue the old rulers of Kerma. Alara was succeeded by Kashta, whose name seems formed from 'Kush'; his Egyptian-style cartouches appear on a stele at Elephantine, around 750 BCE when Nubians held part of Upper Egypt.",
+   "summary_ar": "[يحتاج تحقق] نشأت هذه الأسرة من التربة المحلية وربما كانت امتدادًا لملوك كرمة القدماء. وخلف كاشتا ألارا، ويبدو أن اسمه مشتق من 'كوش'، وتظهر خراطيشه على الطراز المصري على لوح في إلفنتين نحو عام 750 ق.م حين كان النوبيون يسيطرون على جزء من صعيد مصر.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.278",
+     "quote": "T h e n one Alara was succeeded by Kashta, whose n a m e seems to be formed from 'Kush'"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-anlamani-kawa-stele",
+   "era_id": "kingdom-of-kush-napatan-period",
+   "category": "ruler",
+   "title": {
+    "en": "Anlamani's Kawa stele: royal progress and campaign",
+    "ar": "لوح أنلاماني في كوة: جولة الملك وحملته [يحتاج تحقق]"
+   },
+   "date_start": "-623",
+   "date_end": "-593",
+   "date_precision": "year",
+   "location": {
+    "place_id": "kawa",
+    "lat": 19.12313,
+    "lon": 30.49661,
+    "precision": "city"
+   },
+   "summary_en": "Anlamani (623-593 BCE) left a stele at Kawa describing his progress through the provinces, provision for their temples, a campaign possibly against the Blemmyes, and the consecration of his sisters as sistrum-players in Amun's four great sanctuaries.",
+   "summary_ar": "[يحتاج تحقق] ترك أنلاماني (623-593 ق.م) لوحًا في كوة يصف جولته في الأقاليم وعنايته بمعابدها، وحملة ربما كانت ضد البليميين، وتكريس أخواته عازفات للصلاصل في معابد آمون الأربعة الكبرى.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.284",
+     "quote": "At K a w a a stele of Anlamani ' 7 describes the king's progress through the provinces and his provision for their temples"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-aspelta-enthronement",
+   "era_id": "kingdom-of-kush-napatan-period",
+   "category": "ruler",
+   "title": {
+    "en": "Aspelta chosen by Amun of Napata: the Enthronement Stele",
+    "ar": "آمون نبتة يختار أسبلتا: لوح التتويج [يحتاج تحقق]"
+   },
+   "date_start": "-593",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "place_id": "jebel-barkal",
+    "lat": 18.5368,
+    "lon": 31.8276,
+    "precision": "city"
+   },
+   "summary_en": "Aspelta's Enthronement Text, from the first year of his reign, shows the army mustered near Gebel Barkal, the leaders consulting Amun of Napata, and the god choosing Aspelta, whose descent through the royal sisters is stressed.",
+   "summary_ar": "[يحتاج تحقق] يُظهر نص تتويج أسبلتا، من السنة الأولى لحكمه، الجيش محتشدًا قرب جبل البركل، والقادة يستشيرون آمون نبتة، والإله يختار أسبلتا الذي يُبرز النص نسبه عبر الأخوات الملكيات.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.285",
+     "quote": "T h e Enthronement or Coronation Text dates from thefirstyear of the reign18 and shows the army mustered near the Gebel Barkal"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-591-psammetik-ii-sacks-napata",
+   "era_id": "kingdom-of-kush-napatan-period",
+   "category": "battle",
+   "title": {
+    "en": "Psammetik II's expedition captures Napata",
+    "ar": "حملة بسماتيك الثاني تستولي على نبتة [يحتاج تحقق]"
+   },
+   "date_start": "-591",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "place_id": "napata",
+    "lat": 18.53333,
+    "lon": 31.81667,
+    "precision": "city"
+   },
+   "summary_en": "In 591 BCE an Egyptian expedition of Psammetik II, with Greek and Carian mercenaries under Amasis and Potasimto, invaded Kush and captured Napata. It is one of the few secure synchronisms in a thousand years of Kushite history.",
+   "summary_ar": "[يحتاج تحقق] في عام 591 ق.م غزت حملة مصرية لبسماتيك الثاني، معززة بمرتزقة إغريق وكاريين بقيادة أماسيس وبوتاسيمتو، أرض كوش واستولت على نبتة. وهي من التزامنات القليلة المؤكدة في ألف عام من تاريخ كوش.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.285",
+     "quote": "In —591, or the second year of the king's reign, the land of K u s h was invaded by an Egyptian expedition, stiffened with Greek and Carian mercenaries, under two generals, Amasis and Potasimto,19 and Napata was captured."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-capital-moves-to-meroe",
+   "era_id": "kingdom-of-kush-napatan-period",
+   "category": "political",
+   "title": {
+    "en": "The royal capital moves from Napata to Meroe",
+    "ar": "انتقال العاصمة الملكية من نبتة إلى مروي [يحتاج تحقق]"
+   },
+   "date_start": "-591",
+   "date_end": "-300",
+   "date_precision": "century",
+   "location": {
+    "place_id": "meroe",
+    "lat": 16.93514,
+    "lon": 33.75075,
+    "precision": "city"
+   },
+   "summary_en": "Leclant attributes the move of the capital from Napata to Meroe to the 591 BCE raid, making Aspelta the first attested Meroe sovereign, though Napata stayed the religious capital. Hakem's chapter instead places the move around 300 BCE, after Nastasen; Meroe's steppe, iron and caravan routes favoured it.",
+   "summary_ar": "[يحتاج تحقق] يعزو لوكلان نقل العاصمة من نبتة إلى مروي إلى غارة عام 591 ق.م، فيكون أسبلتا أول ملك مؤكد في مروي، مع بقاء نبتة عاصمة دينية. أما فصل حكيم فيضع الانتقال نحو عام 300 ق.م بعد نستاسن، وقد رجّحت مروي سهوبها وحديدها وطرق قوافلها.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10",
+    "GHA2_CH11"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.285",
+     "quote": "it is undoubtedly to this Egyptian raid, whose importance has long been underestimated, that w e must attribute the transfer of the capital from Napata to Meroe"
+    },
+    {
+     "source_id": "GHA2_CH11",
+     "page": "p.301",
+     "quote": "w h e n the capital was m o v e d to Meroe around —300, after the reign of Nastasen."
+    }
+   ],
+   "badges": [
+    "CONTESTED",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-525-cambyses-repulsed",
+   "era_id": "kingdom-of-kush-napatan-period",
+   "category": "battle",
+   "title": {
+    "en": "Cambyses' Persian army fails to cross the Batn el-Hagar",
+    "ar": "جيش قمبيز الفارسي يعجز عن عبور بطن الحجر [يحتاج تحقق]"
+   },
+   "date_start": "-525",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "area": "Batn el-Hagar",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "In 525 BCE a Persian danger arose. Herodotus records the Kushite king's defiant reply to Cambyses' envoys; Cambyses' army could not cross the Batn el-Hagar and retired with heavy losses, though Persia still listed Kush among its subject peoples.",
+   "summary_ar": "[يحتاج تحقق] في عام 525 ق.م ظهر الخطر الفارسي. ويروي هيرودوت ردّ ملك كوش المتحدي على رسل قمبيز، فعجز جيش قمبيز عن عبور بطن الحجر وتراجع بخسائر فادحة، وإن ظلت فارس تعدّ كوش من الشعوب الخاضعة لها.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.286",
+     "quote": "Cambyses did not take this advice: his army was unable to effect a crossing of the Batn el-Hagar and had to retire with heavy losses."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "REPORTED"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-amannoteyerike-inscriptions",
+   "era_id": "kingdom-of-kush-napatan-period",
+   "category": "ruler",
+   "title": {
+    "en": "King Amannoteyerike's inscriptions: election of a 'strong man of 41'",
+    "ar": "نقوش الملك أماني نتي يريكي: انتخاب 'رجل قوي في الحادية والأربعين' [يحتاج تحقق]"
+   },
+   "date_start": "-431",
+   "date_end": "-405",
+   "date_precision": "year",
+   "location": {
+    "place_id": "kawa",
+    "lat": 19.12313,
+    "lon": 30.49661,
+    "precision": "city"
+   },
+   "summary_en": "King Amannoteyerike, a little before 400 BCE, left several inscriptions. The best describes his election as a 'strong man of 41', with military expeditions, festivals, the queen-mother's visit and temple restorations.",
+   "summary_ar": "[يحتاج تحقق] ترك الملك أماني نتي يريكي، قبيل عام 400 ق.م، عدة نقوش، أفضلها يصف انتخابه 'رجلًا قويًا في الحادية والأربعين'، مع حملات عسكرية واحتفالات وزيارة الملكة الأم وترميم المعابد.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.287",
+     "quote": "W e have several inscriptions of King Amannoteyeriké (a little before —400)."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": "Reign -431 to -405 per GHA II p.299 (ch.11); ch.11 p.308 prints -404."
+  },
+  {
+   "id": "ev-nastasen-campaigns",
+   "era_id": "kingdom-of-kush-napatan-period",
+   "category": "battle",
+   "title": {
+    "en": "Nastasen's campaigns and the last burial at Nuri",
+    "ar": "حملات نستاسن وآخر دفن ملكي في نوري [يحتاج تحقق]"
+   },
+   "date_start": "-335",
+   "date_end": "-310",
+   "date_precision": "year",
+   "location": {
+    "place_id": "nuri",
+    "lat": 18.5667,
+    "lon": 31.9167,
+    "precision": "city"
+   },
+   "summary_en": "Nastasen's stele, taken by Lepsius to Berlin, records campaigns that captured 202,120 cattle and 505,200 small livestock, probably from peoples of the Nilo-Chadian savannah. He was the last king buried at Nuri; later royal burials were at Meroe.",
+   "summary_ar": "[يحتاج تحقق] يسجل لوح نستاسن، الذي نقله لبسيوس إلى برلين، حملات غنم فيها 202120 رأسًا من الماشية و505200 من صغار الحيوان، على الأرجح من شعوب السافانا بين النيل وتشاد. وكان آخر ملك دُفن في نوري، ثم صار الدفن الملكي في مروي.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.287",
+     "quote": "In one of his campaigns Nastasen captured 202 120 head of cattle and 505 200 of small livestock."
+    },
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.286",
+     "quote": "T h e last king buried at Nuri was Nastasen (a little before —300)."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": "Reign -335 to -310 per GHA II p.299."
+  },
+  {
+   "id": "ev-peye-victory-stele",
+   "era_id": "kushite-25th-dynasty-in-egypt",
+   "category": "battle",
+   "title": {
+    "en": "Peye (Piankhi) conquers Egypt: the Victory Stele",
+    "ar": "بعانخي (بيي) يغزو مصر: لوح النصر [يحتاج تحقق]"
+   },
+   "date_start": "-751",
+   "date_end": "-716",
+   "date_precision": "year",
+   "location": {
+    "place_id": "hermopolis",
+    "lat": 27.78136,
+    "lon": 30.80376,
+    "precision": "city"
+   },
+   "summary_en": "Peye's Victory Stele from Napata, 159 lines of hieroglyphs, describes his campaign against the Libyan princes who ruled Middle Egypt and the Delta, including his anger at Hermopolis over the dead horses, before he withdrew south to the Sudan.",
+   "summary_ar": "[يحتاج تحقق] يصف لوح النصر الذي أقامه بيي في نبتة، في 159 سطرًا من الهيروغليفية، حملته على الأمراء الليبيين الذين حكموا مصر الوسطى والدلتا، ومنها غضبه في الأشمونين لموت الخيول، قبل أن ينسحب جنوبًا إلى السودان.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10",
+    "GHA2_CH11"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.280",
+     "quote": "phases of his campaign against the Libyan princes w h o were masters of Middle Egypt and the Delta"
+    },
+    {
+     "source_id": "GHA2_CH11",
+     "page": "p.299",
+     "quote": "T h e earliest of them relate to King Piankhi (Peye) (—751 to —716)"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": "Campaign year not printed; dates are the reign (GHA II p.299)."
+  },
+  {
+   "id": "ev-amenirdis-divine-votaress",
+   "era_id": "kushite-25th-dynasty-in-egypt",
+   "category": "religion",
+   "title": {
+    "en": "Amenirdis the Elder installed as Divine Votaress of Amun at Thebes",
+    "ar": "تنصيب أمنيرديس الكبرى عابدةً إلهية لآمون في طيبة [يحتاج تحقق]"
+   },
+   "date_start": "-751",
+   "date_end": "-716",
+   "date_precision": "year",
+   "location": {
+    "place_id": "thebes",
+    "lat": 25.7206,
+    "lon": 32.6103,
+    "precision": "city"
+   },
+   "summary_en": "Under Peye, Amenirdis the Elder, daughter of Kashta, was installed at Thebes as Divine Votaress of Amun, giving the Kushite house a hold on Theban religious power.",
+   "summary_ar": "[يحتاج تحقق] في عهد بيي نُصّبت أمنيرديس الكبرى ابنة كاشتا عابدةً إلهية لآمون في طيبة، مما منح البيت الكوشي موطئ قدم في السلطة الدينية بطيبة.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.280",
+     "quote": "the installation at Thebes as Divine Votaress of A m o n of Amenirdis the Elder, daughter of Kashta himself."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": "Dated to Peye's reign; no year printed."
+  },
+  {
+   "id": "ev-peye-amun-sovereignty-stele",
+   "era_id": "kushite-25th-dynasty-in-egypt",
+   "category": "religion",
+   "title": {
+    "en": "Peye's Gebel Barkal stele: Amun makes the king",
+    "ar": "لوح بيي في جبل البركل: آمون هو من يصنع الملك [يحتاج تحقق]"
+   },
+   "date_start": "-751",
+   "date_end": "-716",
+   "date_precision": "year",
+   "location": {
+    "place_id": "jebel-barkal",
+    "lat": 18.5368,
+    "lon": 31.8276,
+    "precision": "city"
+   },
+   "summary_en": "Another great stele of Peye, found in 1920, defines the federal character of the Kushite empire under the supremacy of Amun: Amun of Napata made him sovereign over every people and Amun of Thebes over Egypt.",
+   "summary_ar": "[يحتاج تحقق] يحدد لوح كبير آخر لبيي، اكتُشف عام 1920، الطابع الاتحادي للإمبراطورية الكوشية تحت سيادة آمون: فآمون نبتة جعله سيدًا على كل شعب، وآمون طيبة جعله سيدًا على مصر.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.280",
+     "quote": "A m o n of Napata has m a d e m e sovereign over every people"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-713-shabaka-25th-dynasty",
+   "era_id": "kushite-25th-dynasty-in-egypt",
+   "category": "ruler",
+   "title": {
+    "en": "Shabaka takes the whole Nile valley: founder of the 25th dynasty",
+    "ar": "شباكا يبسط حكمه على وادي النيل كله: مؤسس الأسرة الخامسة والعشرين [يحتاج تحقق]"
+   },
+   "date_start": "-713",
+   "date_end": null,
+   "date_precision": "circa",
+   "location": {
+    "place_id": "memphis",
+    "lat": 29.84949,
+    "lon": 31.25506,
+    "precision": "city"
+   },
+   "summary_en": "Towards 713 BCE Shabaka, Peye's brother, became king and brought the whole Nile valley to the Delta under Kush; he is said to have burnt Bocchoris of Sais to death. Egyptian king-lists treat him as founder of the twenty-fifth dynasty.",
+   "summary_ar": "[يحتاج تحقق] نحو عام 713 ق.م اعتلى شباكا أخو بيي العرش وأخضع وادي النيل كله حتى الدلتا لكوش، ويقال إنه أحرق بوكخوريس أمير سايس حيًا. وتعدّه قوائم ملوك مصر مؤسس الأسرة الخامسة والعشرين.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.280",
+     "quote": "Towards —713, Shabaka, brother of Peye, ascended the throne."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-taharqa-gebel-barkal-builder",
+   "era_id": "kushite-25th-dynasty-in-egypt",
+   "category": "ruler",
+   "title": {
+    "en": "Taharqa builds from Gebel Barkal to Karnak",
+    "ar": "طهارقا يبني من جبل البركل إلى الكرنك [يحتاج تحقق]"
+   },
+   "date_start": "-690",
+   "date_end": "-664",
+   "date_precision": "year",
+   "location": {
+    "place_id": "jebel-barkal",
+    "lat": 18.5368,
+    "lon": 31.8276,
+    "precision": "city"
+   },
+   "summary_en": "Taharqa (690-664 BCE) built sanctuaries at the foot of Gebel Barkal, at Kawa, and colonnades at Karnak. Abandoning El-Kurru, he built at Nuri; Griffith's Kawa stelae record a celebrated high Nile in his sixth year.",
+   "summary_ar": "[يحتاج تحقق] بنى طهارقا (690-664 ق.م) معابد عند سفح جبل البركل وفي كوة، وأروقة أعمدة في الكرنك. وترك جبانة الكرو وبنى في نوري، وتسجل ألواح كوة التي اكتشفها غريفيث فيضانًا عاليًا مشهودًا للنيل في سنته السادسة.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.281",
+     "quote": "H e built his sanctuaries at the foot of the holy mountain of Gebel Barkal"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-663-assurbanipal-sacks-thebes",
+   "era_id": "kushite-25th-dynasty-in-egypt",
+   "category": "battle",
+   "title": {
+    "en": "Assurbanipal sacks Thebes; the Kushites withdraw",
+    "ar": "آشوربانيبال ينهب طيبة وانسحاب الكوشيين [يحتاج تحقق]"
+   },
+   "date_start": "-663",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "place_id": "thebes",
+    "lat": 25.7206,
+    "lon": 32.6103,
+    "precision": "city"
+   },
+   "summary_en": "Taharqa took up the Assyrian challenge. Assarhaddon failed to invade Egypt, but Assurbanipal captured and sacked Thebes in 663 BCE. Despite Tanoutamon's brief retaking of Memphis, the Kushites withdrew south and their dynasty in Egypt ended.",
+   "summary_ar": "[يحتاج تحقق] قبل طهارقا تحدي الآشوريين. فأخفق أسرحدون في غزو مصر، لكن آشوربانيبال استولى على طيبة ونهبها عام 663 ق.م. ورغم استعادة تانوتأمون منف لفترة وجيزة، انسحب الكوشيون جنوبًا وانتهت أسرتهم في مصر.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.282",
+     "quote": "it was his successor Assurbanipal w h o , at the head of an extremely strong army, captured and sacked Thebes in -663."
+    },
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.282",
+     "quote": "the Kushites withdrew southward and their dynasty in Egypt ended."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-tanoutamon-dream-stele",
+   "era_id": "kushite-25th-dynasty-in-egypt",
+   "category": "ruler",
+   "title": {
+    "en": "Tanoutamon's Dream Stele and the march on Memphis",
+    "ar": "لوح الحلم لتانوتأمون والزحف على منف [يحتاج تحقق]"
+   },
+   "date_start": "-664",
+   "date_end": null,
+   "date_precision": "circa",
+   "location": {
+    "place_id": "memphis",
+    "lat": 29.84949,
+    "lon": 31.25506,
+    "precision": "city"
+   },
+   "summary_en": "Tanoutamon, Taharqa's nephew and son of Shabataka, records in his Dream Stele a vision of two serpents, his crowning at Napata, his march north and the taking of Memphis.",
+   "summary_ar": "[يحتاج تحقق] يسجل تانوتأمون، ابن أخي طهارقا وابن شباتاكا، في لوح الحلم رؤيا الثعبانين وتتويجه في نبتة وزحفه شمالًا واستيلاءه على منف.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.282",
+     "quote": "the crowning of Tanoutamon at Napata, his march to the north, the taking of M e m p h i s"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-ergamenos-defies-priests",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "category": "religion",
+   "title": {
+    "en": "Ergamenos defies the priests of Amun",
+    "ar": "أركامانيس يتحدى كهنة آمون [يحتاج تحقق]"
+   },
+   "date_start": "-270",
+   "date_end": null,
+   "date_precision": "circa",
+   "location": {
+    "place_id": "meroe",
+    "lat": 16.93514,
+    "lon": 33.75075,
+    "precision": "city"
+   },
+   "summary_en": "Diodorus says Kushite priests could order a king to kill himself, until Ergamenos, a Greek-educated king, fought back and had priests executed. Which king he was (Arkakamani, Arnekhamani or Arquamani) is uncertain, and the suicide custom is uncorroborated.",
+   "summary_ar": "[يحتاج تحقق] يذكر ديودور أن كهنة كوش كانوا يأمرون الملك بقتل نفسه، حتى تصدى لهم أركامانيس، الملك المتعلم تعليمًا إغريقيًا، وأعدم عددًا منهم. ولا يُعرف أي الملوك هو (أركاكاماني أو أرنخاماني أو أركواماني)، كما أن عادة الانتحار غير مؤكدة.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10",
+    "GHA2_CH11"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.287",
+     "quote": "Ergamenos, dared tofightback and had a number of priests put to death."
+    },
+    {
+     "source_id": "GHA2_CH11",
+     "page": "p.302",
+     "quote": "this custom persisted until the time of Ergamenos (about — 250 to -125)"
+    }
+   ],
+   "badges": [
+    "CONTESTED",
+    "TRADITION",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": "Dates differ between ch.10 and ch.11 (p.302 prints 'about -250 to -125')."
+  },
+  {
+   "id": "ev-arnekhamani-lion-temple",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "category": "religion",
+   "title": {
+    "en": "Arnekhamani builds the Lion Temple at Musawwarat es-Sufra",
+    "ar": "أرنخاماني يبني معبد الأسد في المصورات الصفراء [يحتاج تحقق]"
+   },
+   "date_start": "-235",
+   "date_end": null,
+   "date_precision": "century",
+   "location": {
+    "place_id": "musawwarat",
+    "lat": 16.41583,
+    "lon": 33.32361,
+    "precision": "city"
+   },
+   "summary_en": "Arnekhamani built the Lion Temple at Musawwarat es-Sufra, with hymns in good Ptolemaic Egyptian alongside reliefs in purely Meroitic style and worship of local gods such as the lion-god Apedemak and Sebiumeker.",
+   "summary_ar": "[يحتاج تحقق] بنى أرنخاماني معبد الأسد في المصورات الصفراء، وفيه تراتيل بلغة مصرية بطلمية جيدة إلى جانب نقوش بارزة على الطراز المروي الخالص، وعبادة آلهة محلية مثل الإله الأسد أبادماك وسبيوميكر.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.287",
+     "quote": "Arnekhamani was the king w h o built the Lion temple at Mussawwarat es-Sufra"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE",
+    "VERIFY"
+   ],
+   "image": null,
+   "note": "No year printed; third century BCE context (VERIFY)."
+  },
+  {
+   "id": "ev-ptolemaic-campaigns-triacontaschoenus",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "category": "battle",
+   "title": {
+    "en": "Ptolemaic campaigns and colonies in Lower Nubia",
+    "ar": "الحملات البطلمية والمستوطنات في النوبة السفلى [يحتاج تحقق]"
+   },
+   "date_start": "-200",
+   "date_end": null,
+   "date_precision": "century",
+   "location": {
+    "area": "Triacontaschoenus, Lower Nubia",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "Revolts in southern Ptolemaic Egypt at the end of the third century BCE may have had Nubian backing. Ptolemy V campaigned in the country and Ptolemy VI established colonies in the Triacontaschoenus; Lower Nubia stayed a disputed zone between Meroe and Egypt.",
+   "summary_ar": "[يحتاج تحقق] ربما حظيت الثورات في جنوب مصر البطلمية أواخر القرن الثالث قبل الميلاد بدعم من ملوك نوبيين. فخاض بطليموس الخامس حملة في البلاد وأقام بطليموس السادس مستوطنات في الثلاثين سخينوس، وظلت النوبة السفلى منطقة متنازعًا عليها بين مروي ومصر.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.288",
+     "quote": "Ptolemy V had to campaign in the country and Ptolemy VI established colonies in the Triacontaschone."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-shanakdakhete-meroitic-script",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "category": "ruler",
+   "title": {
+    "en": "Queen Shanakdakhete and the earliest Meroitic hieroglyphs",
+    "ar": "الملكة شنكدخيتي وأقدم الكتابات الهيروغليفية المروية [يحتاج تحقق]"
+   },
+   "date_start": "-170",
+   "date_end": "-160",
+   "date_precision": "circa",
+   "location": {
+    "place_id": "naqa",
+    "lat": 16.26944,
+    "lon": 33.275,
+    "precision": "city"
+   },
+   "summary_en": "Around 170-160 BCE Queen Shanakdakhete appears to mark a local matriarchy taking full power. A building in her name at Naga carries inscriptions in Meroitic hieroglyphs that are among the oldest known.",
+   "summary_ar": "[يحتاج تحقق] نحو 170-160 ق.م يبدو أن الملكة شنكدخيتي تمثل وصول نظام أمومي محلي إلى السلطة الكاملة. ويحمل مبنى باسمها في النقعة نقوشًا بالهيروغليفية المروية من أقدم ما عُرف.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.288",
+     "quote": "With Queen Shanakdakhete (around 170 to 160) we appear to get the accession to full power of a typically local matriarchy."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-23bce-petronius-takes-napata",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "category": "battle",
+   "title": {
+    "en": "Meroites sack Aswan; Petronius captures Napata",
+    "ar": "المرويون ينهبون أسوان وبترونيوس يستولي على نبتة [يحتاج تحقق]"
+   },
+   "date_start": "-23",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "place_id": "napata",
+    "lat": 18.53333,
+    "lon": 31.81667,
+    "precision": "city"
+   },
+   "summary_en": "After the Meroites sacked Aswan, probably taking the bronze head of Augustus later found buried at Meroe, the Roman prefect Petronius mounted a punitive expedition and captured Napata in 23 BCE, leaving a garrison at Primis (Qasr Ibrim).",
+   "summary_ar": "[يحتاج تحقق] بعد أن نهب المرويون أسوان، وعلى الأرجح أخذوا رأس تمثال أغسطس البرونزي الذي عُثر عليه لاحقًا مدفونًا في مروي، شنّ الحاكم الروماني بترونيوس حملة تأديبية واستولى على نبتة عام 23 ق.م، وترك حامية في بريميس (قصر إبريم).",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.290",
+     "quote": "the prefect of R o m a n Egypt, Petronius, mounted a punitive expedition and captured Napata in —23."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-21bce-treaty-of-samos",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "category": "treaty",
+   "title": {
+    "en": "Peace of Samos with Augustus fixes the Roman-Meroitic frontier",
+    "ar": "صلح ساموس مع أغسطس يحدد الحدود الرومانية المروية [يحتاج تحقق]"
+   },
+   "date_start": "-21",
+   "date_end": "-20",
+   "date_precision": "year",
+   "location": {
+    "area": "Samos; frontier at Hiera Sycaminos (Maharraqa)",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "In 21 or 20 BCE a peace was negotiated with Augustus at Samos. Rome renounced tribute, apparently withdrew its garrison, and fixed the frontier at Hiera Sycaminos (Maharraqa); the one-eyed Candace of Strabo may be Amanirenas or Amanishakheto.",
+   "summary_ar": "[يحتاج تحقق] في عام 21 أو 20 ق.م عُقد صلح مع أغسطس في ساموس، فتخلت روما عن الجزية وسحبت حاميتها على ما يبدو، وحُددت الحدود عند هيرا سيكامينوس (المحرقة). وقد تكون الكنداكة العوراء التي ذكرها سترابون أماني ريناس أو أماني شاخيتو.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.290",
+     "quote": "In —21 or —20 a peace treaty was negotiated at Samos, where Augustus was staying at the time."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "CONTESTED"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-natakamani-amanitere-builders",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "category": "ruler",
+   "title": {
+    "en": "Natakamani and Amanitere: Meroe at its apogee",
+    "ar": "نتكاماني وأماني تيري: مروي في ذروتها [يحتاج تحقق]"
+   },
+   "date_start": "-12",
+   "date_end": "12",
+   "date_precision": "year",
+   "location": {
+    "place_id": "naqa",
+    "lat": 16.26944,
+    "lon": 33.275,
+    "precision": "city"
+   },
+   "summary_en": "Natakamani and Queen Amanitere (12 BCE-12 CE) were great builders: the Lion Temple and Amun temple pylon at Naga, temples at Amara and Wad ban Naqa, and the restoration of Napata after Petronius. Their names are the most frequent on Kushite monuments.",
+   "summary_ar": "[يحتاج تحقق] كان نتكاماني والملكة أماني تيري (12 ق.م-12 م) بنّائين عظيمين: معبد الأسد وصرح معبد آمون في النقعة، ومعبدا عمارة وود بانقا، وترميم نبتة بعد بترونيوس. واسماهما الأكثر تكرارًا على الآثار الكوشية.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.290",
+     "quote": "Natakamani, son-in-law and successor of Amanishakheto, and his wife, Queen Amanitere (—12 to + 1 2 ) were also great builders"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-60ce-nero-centurions",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "category": "other",
+   "title": {
+    "en": "Nero's centurions explore the Nile to Meroe",
+    "ar": "قادة نيرون يستكشفون النيل حتى مروي [يحتاج تحقق]"
+   },
+   "date_start": "60",
+   "date_end": null,
+   "date_precision": "circa",
+   "location": {
+    "place_id": "meroe",
+    "lat": 16.93514,
+    "lon": 33.75075,
+    "precision": "city"
+   },
+   "summary_en": "Towards 60 CE Nero sent two centurions up the Nile; they reported the land too poor to be worth conquering. Roman coins, a Latin inscription at Musawwarat and a coin of Claudius at Meroe show limited contact.",
+   "summary_ar": "[يحتاج تحقق] نحو عام 60 م أرسل نيرون قائدَي مئة صعودًا في النيل، فأفادا بأن البلاد أفقر من أن تستحق الغزو. وتدل العملات الرومانية ونقش لاتيني في المصورات وعملة لكلوديوس في مروي على اتصال محدود.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.292",
+     "quote": "Towards + 6 0 Nero sent two centurions up the Nile; on their return they stated that the land was too poor to be worth conquering."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "REPORTED"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-253-teqorideamani-philae",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "category": "religion",
+   "title": {
+    "en": "Teqorideamani's embassy to the Isis temple at Philae",
+    "ar": "سفارة تقريدياماني إلى معبد إيزيس في فيلة [يحتاج تحقق]"
+   },
+   "date_start": "253",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "place_id": "philae",
+    "lat": 24.02153,
+    "lon": 32.88417,
+    "precision": "city"
+   },
+   "summary_en": "Meroe sent regular embassies with rich gifts to the temple of Isis at Philae, recorded in Demotic, Greek and Meroitic graffiti. They give the only synchronism of a late reign: Teqorideamani (246-266) sent ambassadors in 253.",
+   "summary_ar": "[يحتاج تحقق] أرسلت مروي سفارات منتظمة بهدايا ثمينة إلى معبد إيزيس في فيلة، سجلتها كتابات بالديموطيقية واليونانية والمروية. وتقدم التزامن الوحيد لعهد متأخر: إذ أرسل تقريدياماني (246-266) سفراء عام 253.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.292",
+     "quote": "Teqorideamani ( + 2 4 6 to + 2 6 6 ) , w h o sent ambassadors to Philae in + 2 5 3 ."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-330-ezana-fall-of-meroe",
+   "era_id": "kingdom-of-kush-meroitic-period",
+   "category": "battle",
+   "title": {
+    "en": "Ezana's campaign 'against the Nubas' and the end of Meroe",
+    "ar": "حملة عيزانا 'على النوبة' ونهاية مروي [يحتاج تحقق]"
+   },
+   "date_start": "330",
+   "date_end": null,
+   "date_precision": "circa",
+   "location": {
+    "area": "Atbara confluence",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "Weakened, Meroe became prey to Aksum, the Blemmyes and the Nuba, who probably overthrew it. Towards 330 Ezana of Aksum, the first Christian monarch there, reached the Atbara confluence on a campaign 'against the Nubas', by which time Meroe had already collapsed.",
+   "summary_ar": "[يحتاج تحقق] صارت مروي الضعيفة فريسة لأكسوم والبليميين والنوبة الذين يُرجّح أنهم أسقطوها. ونحو عام 330 بلغ عيزانا ملك أكسوم، أول ملوكها اعتناقًا للمسيحية، ملتقى نهر عطبرة في حملة 'على النوبة'، وكانت مروي قد انهارت قبل ذلك.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH10"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA2_CH10",
+     "page": "p.293",
+     "quote": "Ezana, 4 0 thefirstmonarch to embrace Christianity, reached the confluence of the Atbara and boasts of having mounted an expedition yielding m u c h booty 'against the Nubas'."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "image": null,
+   "note": null
   }
  ]
 }
