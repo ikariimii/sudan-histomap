@@ -6093,6 +6093,42 @@
    }
   ],
   "list_only_reason": "reference point for the 1874 Darfur annexation (control anchors, IM request 2026-10-26); battlefield identification VERIFY"
- }
+ },
+  {
+   "id": "zamzam",
+   "name_en": "Zamzam IDP camp",
+   "name_ar": "معسكر زمزم للنازحين [يحتاج تحقق]",
+   "name_ar_source": "wikidata (ar label of Q130603027) — queued in db/ar_review_queue.json [يحتاج تحقق]",
+   "wikidata": "Q130603027",
+   "lat": 13.488522,
+   "lon": 25.310667,
+   "coord_source": {
+    "source_id": "WIKIDATA_CITIES",
+    "page": "Q130603027"
+   },
+   "category": "modern",
+   "founded": null,
+   "founded_reason": "not stated in the sources read for this layer",
+   "abandoned": null,
+   "roles": [],
+   "history_en": "Camp for internally displaced persons about 12 km south of El Fasher, North Darfur; the IPC Famine Review Committee found famine in Zamzam camp (UN News, 1 Aug 2024).",
+   "history_ar": null,
+   "history_source": {
+    "source_id": "UNNEWS_20240801_ZAMZAM_FAMINE",
+    "page": ""
+   },
+   "history_ar_status": "missing — queued in db/ar_review_queue.json",
+   "source_ids": [
+    {
+     "id": "WIKIDATA_CITIES",
+     "page": "Q130603027"
+    },
+    {
+     "id": "UNNEWS_20240801_ZAMZAM_FAMINE",
+     "page": ""
+    }
+   ],
+   "list_only_reason": "place_id for the 2024 Zamzam famine in db/disasters_post1956.json (Analyst request 2026-10-26)"
+  }
  ]
 }

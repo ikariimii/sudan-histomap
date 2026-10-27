@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 662
+      "sentence_items": 663
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -11432,6 +11432,20 @@
       "revised_english": "30 June 1989: Umar Hassan Ahmad al-Bashir overthrows Sadiq al-Mahdi and sets up the Revolutionary Command Council for National Salvation",
       "reason": "New child era (era review); working translation.",
       "action": "native review",
+      "origin_commit": "pending",
+      "added": "2026-10-26",
+      "note": "needs native Arabic review [يحتاج تحقق]"
+    },
+    {
+      "era_id": null,
+      "file": "db/cities.json",
+      "field_ar": "places[id=zamzam].name_ar",
+      "arabic_sentence": "معسكر زمزم للنازحين [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "places[id=zamzam].name_en",
+      "revised_english": "Zamzam IDP camp",
+      "reason": "Arabic name taken from the Wikidata ar label of Q130603027; not checked against a registered Arabic source.",
+      "action": "Native reviewer: check the Arabic name.",
       "origin_commit": "pending",
       "added": "2026-10-26",
       "note": "needs native Arabic review [يحتاج تحقق]"
