@@ -66,7 +66,7 @@ spread letters of the main label, so every edge is inferred (EDITORIAL). Shows t
 | ../ethnic_groups/seligman1932-anuak.geojson (moved: era removed, owner t218u) | ANUAK | 32.90, 6.53, 34.77, 8.71 (bd-0.2 text redraw, pp.105, 108) |
 | ../ethnic_groups/seligman1932-shilluk.geojson (moved: era removed, owner t218u) | SHILLUK | 30.88, 9.28, 32.28, 10.65 (bd-0.2 text redraw, p.37) |
 
-Not used: Evans-Pritchard 1940 (in-copyright upload; lead only, not opened). Not built into `_all_drafts.geojson` (build_drafts.py not run).
+Not used: banned sources (db/banned_sources.json). Not built into `_all_drafts.geojson` (build_drafts.py not run).
 
 ## bd-0.2 text-limit redraw (2026-10-25, after QA's final call; IM lifted the hold)
 Shilluk, Nuer and Anuak are redrawn from the limits the text states, not from the plate labels. Each is APPROXIMATE,
