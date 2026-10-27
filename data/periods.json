@@ -8750,6 +8750,21 @@
     "verification": "verified online 2026-10-27 (page heading 'Country - Sudan', 'Last updated 30 Sep 2026' checked); live portal, figures change over time",
     "via": "db/disasters_post1956.json",
     "note": ""
+   },
+   "HASSENSTEIN1884": {
+    "author": "Bruno Hassenstein",
+    "title": "Der Kriegsschauplatz im Aegyptischen Sudan, 1883 & 1884",
+    "publisher": "",
+    "date": "",
+    "year": "1884",
+    "url": "https://commons.wikimedia.org/wiki/File:Der_Kriegsschauplatz_im_Aegyptischen_Sudan.png",
+    "pages": "",
+    "lang": "de",
+    "bias": "19th-century German cartographic map (period source)",
+    "accessed": "2026-10-27",
+    "verification": "Commons file page and metadata checked 2026-10-27 (title, author Bruno Hassenstein, date 1884, source Gallica ark:/12148/btv1b8439116w, Public domain, 8640x6428 px); Gallica page returns a Cloudflare challenge to scripts, not checked directly; publisher (Justus Perthes, Gotha) and sheet not confirmed by either page, left empty [VERIFY]",
+    "via": "db/map_sources.json; db/extents/mahdist-uprising.geojson (georef/hassenstein1884)",
+    "note": "Holding copy: Gallica (BnF) https://gallica.bnf.fr/ark:/12148/btv1b8439116w. Georeferenced Übersichtskarte panel only."
    }
   }
  },
