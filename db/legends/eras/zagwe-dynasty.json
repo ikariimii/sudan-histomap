@@ -47,8 +47,7 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -63,6 +62,16 @@
      "legend_id": "city:zagwe-dynasty:soleb",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1400 BCE, GHA2 144)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -81,9 +90,7 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -102,6 +109,16 @@
      "legend_id": "city:zagwe-dynasty:faras",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (400 CE, GHA3_CH8 194)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -120,9 +137,8 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "APPROXIMATE",
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -141,6 +157,16 @@
      "legend_id": "city:zagwe-dynasty:qasr-ibrim",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (23 BCE, GHA2_CH10 290)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -151,7 +177,7 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -162,6 +188,12 @@
      "legend_id": "city:zagwe-dynasty:abu-simbel",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -180,9 +212,7 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -201,6 +231,16 @@
      "legend_id": "city:zagwe-dynasty:old-dongola",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (500 CE, GHA3_CH8 194)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -218,9 +258,7 @@
        "page": "196"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH8",
@@ -238,6 +276,12 @@
      "legend_id": "city:zagwe-dynasty:soba",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (500 CE, GHA3_CH8 196)",
+       "ar": null
+      }
      ]
     },
     {
@@ -279,9 +323,7 @@
        "page": "175"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2",
@@ -315,6 +357,12 @@
      "legend_id": "city:zagwe-dynasty:aswan",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (2200 BCE, GHA2 238)",
+       "ar": null
+      }
      ]
     },
     {
@@ -332,9 +380,7 @@
        "page": "389"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH15",
@@ -348,6 +394,12 @@
      "legend_id": "city:zagwe-dynasty:aksum",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (100 CE, GHA2_CH15 389)",
+       "ar": null
+      }
      ]
     },
     {
@@ -375,8 +427,7 @@
      ],
      "badges": [
       "APPROXIMATE",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -403,6 +454,12 @@
      "legend_id": "city:zagwe-dynasty:aidhab",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -457,9 +514,7 @@
        "page": "countrystudies.us/libya/18.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHAIII",
@@ -477,6 +532,12 @@
      "legend_id": "city:zagwe-dynasty:kufra",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (950 CE, GHAIII 283)",
+       "ar": null
+      }
      ]
     },
     {
@@ -502,9 +563,7 @@
        "page": "325"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH6",
@@ -522,6 +581,12 @@
      "legend_id": "city:zagwe-dynasty:alexandria",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (305 BCE, GHA2_CH6 184)",
+       "ar": null
+      }
      ]
     },
     {
@@ -555,9 +620,7 @@
        "page": "countrystudies.us/sudan/76.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH7",
@@ -579,6 +642,12 @@
      "legend_id": "city:zagwe-dynasty:cairo",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (641 CE, GHA3_CH7 163)",
+       "ar": null
+      }
      ]
     },
     {
@@ -596,9 +665,7 @@
        "page": "171"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH7",
@@ -612,6 +679,12 @@
      "legend_id": "city:zagwe-dynasty:fustat",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (641 CE, GHA3_CH7 171)",
+       "ar": null
+      }
      ]
     },
     {
@@ -629,9 +702,7 @@
        "page": "343"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH13",
@@ -645,6 +716,12 @@
      "legend_id": "city:zagwe-dynasty:yeha",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (980 BCE, GHA2_CH13 343)",
+       "ar": null
+      }
      ]
     },
     {
@@ -662,9 +739,7 @@
        "page": "573"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH19",
@@ -678,6 +753,12 @@
      "legend_id": "city:zagwe-dynasty:lalibela",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (900 CE, GHA3_CH19 573)",
+       "ar": null
+      }
      ]
     },
     {
@@ -703,9 +784,7 @@
        "page": "138"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH2",
@@ -723,6 +802,12 @@
      "legend_id": "city:zagwe-dynasty:medina",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (622 CE, GHA3_CH2 35)",
+       "ar": null
+      }
      ]
     },
     {
@@ -748,9 +833,7 @@
        "page": "138"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH2",
@@ -768,6 +851,12 @@
      "legend_id": "city:zagwe-dynasty:mecca",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (610 CE, GHA3_CH2 31)",
+       "ar": null
+      }
      ]
     },
     {
@@ -776,9 +865,7 @@
      "name_ar": "طيبة",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH7",
@@ -792,6 +879,12 @@
      "legend_id": "city:zagwe-dynasty:thebes",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (305 BCE, GHA2_CH7 208)",
+       "ar": null
+      }
      ]
     },
     {
@@ -809,9 +902,7 @@
        "page": "294"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH10",
@@ -825,6 +916,12 @@
      "legend_id": "city:zagwe-dynasty:ballana",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (350 CE, GHA2_CH10 294)",
+       "ar": null
+      }
      ]
     }
    ]
@@ -899,11 +996,8 @@
  ],
  "badges_present": [
   "APPROXIMATE",
-  "FIRST-ATTESTED",
-  "LAST-ATTESTED",
-  "LAST-ATTESTED+APPROXIMATE",
   "NO-SOURCE",
-  "RUIN-UNDATED"
+  "VERIFY"
  ],
  "counts": {
   "city_capital": 8,
@@ -1043,11 +1137,8 @@
   "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
   "badge_filter": [
    "APPROXIMATE",
-   "FIRST-ATTESTED",
-   "LAST-ATTESTED",
-   "LAST-ATTESTED+APPROXIMATE",
    "NO-SOURCE",
-   "RUIN-UNDATED"
+   "VERIFY"
   ],
   "what_changed": {
    "previous_era_id": "kingdom-of-aksum",

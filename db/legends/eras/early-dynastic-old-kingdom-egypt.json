@@ -78,8 +78,7 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -98,6 +97,16 @@
      "legend_id": "city:early-dynastic-old-kingdom-egypt:kerma",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (2450 BCE, KERMA_MISSION History)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -139,9 +148,7 @@
        "page": "175"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2",
@@ -175,6 +182,12 @@
      "legend_id": "city:early-dynastic-old-kingdom-egypt:aswan",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (2200 BCE, GHA2 238)",
+       "ar": null
+      }
      ]
     }
    ]
@@ -246,9 +259,8 @@
  "badges_present": [
   "APPROXIMATE",
   "DERIVED",
-  "FIRST-ATTESTED",
   "NO-SOURCE",
-  "RUIN-UNDATED"
+  "VERIFY"
  ],
  "counts": {
   "city_capital": 1,
@@ -362,9 +374,8 @@
   "badge_filter": [
    "APPROXIMATE",
    "DERIVED",
-   "FIRST-ATTESTED",
    "NO-SOURCE",
-   "RUIN-UNDATED"
+   "VERIFY"
   ],
   "what_changed": null
  }

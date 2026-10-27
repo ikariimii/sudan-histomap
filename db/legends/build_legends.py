@@ -327,33 +327,55 @@ def era(i, p):
         'badge_filter': out['badges_present']}
     return out
 
-# Canonical badge mapping (IM ruling 2026-10-27). LOW-CONFIDENCE-HATCH -> APPROXIMATE; FIRST-ATTESTED -> VERIFY unless the
-# row carries its own cite; AR-REVIEW is a workflow flag, moved out of visitor-facing badges into 'workflow_flags'.
-CANON = {'LOW-CONFIDENCE-HATCH': 'APPROXIMATE'}
+# Canonical badge mapping (IM rulings 2026-10-27). Only the 12 canonical badges stay in badge fields.
+BADGE_CANON = {'SINGLE-SOURCE', 'CONTESTED', 'REPORTED', 'VERIFY', 'TRADITION', 'MODEL', 'APPROXIMATE', 'EDITORIAL', 'PARTIAL', 'DERIVED', 'NO-SOURCE', 'CENSUS'}
+CANON = {'LOW-CONFIDENCE-HATCH': ['APPROXIMATE'], 'LAST-ATTESTED': ['VERIFY'], 'RUIN-UNDATED': ['VERIFY'],
+         'LAST-ATTESTED+APPROXIMATE': ['VERIFY', 'APPROXIMATE'], 'APPROXIMATE-COORDS': ['APPROXIMATE'], 'MODERN_SVG_RENDERING': ['DERIVED']}
+WORKFLOW = {'AR-REVIEW', 'LIST-ONLY', 'NO-DATE'}  # internal flags, never shown to visitors
+SPEC_AR = json.load(open(os.path.join(R, 'db/legends/legend_spec.json'), encoding='utf-8'))
+_RU_AR = ((SPEC_AR.get('uncertainty_encoding') or {}).get('RUIN-UNDATED') or {}).get('legend_ar')
+CITY_FA = {c['id']: c.get('first_attested') for c in CJ}
+def _yr(y): return f"{-y} BCE" if y < 0 else f"{y} CE"
+def _note(o, en, ar):
+    o.setdefault('card_notes', [])
+    if not any(n['en'] == en for n in o['card_notes']): o['card_notes'].append({'en': en, 'ar': ar})
 def canon(o):
     if isinstance(o, dict):
-        if o.get('badge') in CANON: o['badge'] = CANON[o['badge']]
+        if isinstance(o.get('badge'), str) and o['badge'] in CANON: o['badge'] = CANON[o['badge']][0]
         if isinstance(o.get('badges'), list):
             cited = bool(o.get('source_ids') or o.get('cite') or o.get('sources'))
             b, wf = [], list(o.get('workflow_flags') or [])
             for x in o['badges']:
-                if x == 'AR-REVIEW':
+                if x in WORKFLOW:
                     if x not in wf: wf.append(x)
                     continue
-                x = CANON.get(x, x)
-                if x == 'FIRST-ATTESTED' and not cited: x = 'VERIFY'
-                if x not in b: b.append(x)
-            o['badges'] = sorted(b) if o['badges'] == sorted(o['badges']) else b
+                if x == 'RUIN-UNDATED': _note(o, 'end undated', (_RU_AR + ' [يحتاج تحقق]') if _RU_AR else None)
+                if x == 'FIRST-ATTESTED':
+                    fa = CITY_FA.get(o.get('id')) or {}
+                    if cited and fa.get('year') is not None:
+                        c = ' '.join(str(v) for v in (fa.get('source_id'), fa.get('page')) if v)
+                        _note(o, f"first attested ({_yr(fa['year'])}, {c})" if c else f"first attested ({_yr(fa['year'])})", None)
+                        continue
+                    xs = ['VERIFY']
+                else: xs = CANON.get(x, [x])
+                for y in xs:
+                    if y not in b: b.append(y)
+            o['badges'] = sorted(b)
             if wf: o['workflow_flags'] = wf
         for v in o.values(): canon(v)
     elif isinstance(o, list):
         for v in o: canon(v)
     return o
+def _allb(o):
+    if isinstance(o, dict):
+        if isinstance(o.get('badge'), str): yield o['badge']
+        for x in (o.get('badges') if isinstance(o.get('badges'), list) else []): yield x
+        for v in o.values(): yield from _allb(v)
+    elif isinstance(o, list):
+        for v in o: yield from _allb(v)
 def canon_era(o):
     canon(o.get('layers'))
-    if isinstance(o.get('badges_present'), list): o['badges_present'] = sorted({CANON.get(x, x) for x in o['badges_present'] if x != 'AR-REVIEW'})
-    if 'FIRST-ATTESTED' in (o.get('badges_present') or []) and not any('FIRST-ATTESTED' in (f.get('badges') or []) for l in o['layers'].values() if isinstance(l, dict) for f in (l.get('features') or []) if isinstance(f, dict)):
-        o['badges_present'] = sorted(set(o['badges_present']) - {'FIRST-ATTESTED'} | {'VERIFY'})
+    if isinstance(o.get('badges_present'), list): o['badges_present'] = sorted({b for l in o.get('layers', {}).values() for b in _allb(l)})
     if isinstance(o.get('interactive'), dict) and 'badge_filter' in o['interactive']: o['interactive']['badge_filter'] = o.get('badges_present')
     return o
 

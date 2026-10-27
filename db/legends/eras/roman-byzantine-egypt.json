@@ -149,9 +149,8 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "APPROXIMATE",
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -170,6 +169,16 @@
      "legend_id": "city:roman-byzantine-egypt:jebel-barkal",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1290 BCE, GHA2_CH9 268)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -188,9 +197,8 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "APPROXIMATE",
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -209,6 +217,16 @@
      "legend_id": "city:roman-byzantine-egypt:meroe",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (300 BCE, GHA2_CH11 301)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -218,9 +236,8 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "APPROXIMATE",
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -239,6 +256,16 @@
      "legend_id": "city:roman-byzantine-egypt:naqa",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (170 BCE, GHA2_CH10 288)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -257,9 +284,8 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "APPROXIMATE",
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -278,6 +304,16 @@
      "legend_id": "city:roman-byzantine-egypt:wad-ban-naqa",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (270 BCE, GHA2_CH11 314)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -287,8 +323,7 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -303,6 +338,16 @@
      "legend_id": "city:roman-byzantine-egypt:soleb",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1400 BCE, GHA2 144)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -321,9 +366,7 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -342,6 +385,16 @@
      "legend_id": "city:roman-byzantine-egypt:faras",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (400 CE, GHA3_CH8 194)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -360,9 +413,8 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "APPROXIMATE",
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -381,6 +433,16 @@
      "legend_id": "city:roman-byzantine-egypt:qasr-ibrim",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (23 BCE, GHA2_CH10 290)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -399,9 +461,8 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "APPROXIMATE",
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -424,6 +485,16 @@
      "legend_id": "city:roman-byzantine-egypt:philae",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (300 CE, GHA2_CH12 331)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -434,7 +505,7 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -445,6 +516,12 @@
      "legend_id": "city:roman-byzantine-egypt:abu-simbel",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -463,9 +540,7 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -484,6 +559,16 @@
      "legend_id": "city:roman-byzantine-egypt:old-dongola",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (500 CE, GHA3_CH8 194)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -501,9 +586,7 @@
        "page": "196"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH8",
@@ -521,6 +604,12 @@
      "legend_id": "city:roman-byzantine-egypt:soba",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (500 CE, GHA3_CH8 196)",
+       "ar": null
+      }
      ]
     },
     {
@@ -562,9 +651,7 @@
        "page": "175"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2",
@@ -598,6 +685,12 @@
      "legend_id": "city:roman-byzantine-egypt:aswan",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (2200 BCE, GHA2 238)",
+       "ar": null
+      }
      ]
     },
     {
@@ -615,9 +708,7 @@
        "page": "389"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH15",
@@ -631,6 +722,12 @@
      "legend_id": "city:roman-byzantine-egypt:aksum",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (100 CE, GHA2_CH15 389)",
+       "ar": null
+      }
      ]
     },
     {
@@ -657,9 +754,9 @@
       }
      ],
      "badges": [
+      "APPROXIMATE",
       "CONTESTED",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -682,6 +779,12 @@
      "legend_id": "city:roman-byzantine-egypt:adulis",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -691,8 +794,7 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "APPROXIMATE",
-      "APPROXIMATE-COORDS"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -732,9 +834,7 @@
        "page": "325"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH6",
@@ -752,6 +852,12 @@
      "legend_id": "city:roman-byzantine-egypt:alexandria",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (305 BCE, GHA2_CH6 184)",
+       "ar": null
+      }
      ]
     },
     {
@@ -785,9 +891,7 @@
        "page": "countrystudies.us/sudan/76.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH7",
@@ -809,6 +913,12 @@
      "legend_id": "city:roman-byzantine-egypt:cairo",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (641 CE, GHA3_CH7 163)",
+       "ar": null
+      }
      ]
     },
     {
@@ -826,9 +936,7 @@
        "page": "171"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH7",
@@ -842,6 +950,12 @@
      "legend_id": "city:roman-byzantine-egypt:fustat",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (641 CE, GHA3_CH7 171)",
+       "ar": null
+      }
      ]
     },
     {
@@ -859,9 +973,7 @@
        "page": "343"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH13",
@@ -875,6 +987,12 @@
      "legend_id": "city:roman-byzantine-egypt:yeha",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (980 BCE, GHA2_CH13 343)",
+       "ar": null
+      }
      ]
     },
     {
@@ -900,9 +1018,7 @@
        "page": "138"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH2",
@@ -920,6 +1036,12 @@
      "legend_id": "city:roman-byzantine-egypt:medina",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (622 CE, GHA3_CH2 35)",
+       "ar": null
+      }
      ]
     },
     {
@@ -945,9 +1067,7 @@
        "page": "138"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH2",
@@ -965,6 +1085,12 @@
      "legend_id": "city:roman-byzantine-egypt:mecca",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (610 CE, GHA3_CH2 31)",
+       "ar": null
+      }
      ]
     },
     {
@@ -973,9 +1099,7 @@
      "name_ar": "طيبة",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH7",
@@ -989,6 +1113,12 @@
      "legend_id": "city:roman-byzantine-egypt:thebes",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (305 BCE, GHA2_CH7 208)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1006,9 +1136,7 @@
        "page": "294"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH10",
@@ -1022,6 +1150,12 @@
      "legend_id": "city:roman-byzantine-egypt:ballana",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (350 CE, GHA2_CH10 294)",
+       "ar": null
+      }
      ]
     }
    ]
@@ -1240,15 +1374,11 @@
  ],
  "badges_present": [
   "APPROXIMATE",
-  "APPROXIMATE-COORDS",
   "CONTESTED",
   "DERIVED",
-  "FIRST-ATTESTED",
-  "LAST-ATTESTED",
-  "LAST-ATTESTED+APPROXIMATE",
   "NO-SOURCE",
-  "RUIN-UNDATED",
-  "SINGLE-SOURCE"
+  "SINGLE-SOURCE",
+  "VERIFY"
  ],
  "counts": {
   "battle_approximate": 2,
@@ -1425,15 +1555,11 @@
   "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
   "badge_filter": [
    "APPROXIMATE",
-   "APPROXIMATE-COORDS",
    "CONTESTED",
    "DERIVED",
-   "FIRST-ATTESTED",
-   "LAST-ATTESTED",
-   "LAST-ATTESTED+APPROXIMATE",
    "NO-SOURCE",
-   "RUIN-UNDATED",
-   "SINGLE-SOURCE"
+   "SINGLE-SOURCE",
+   "VERIFY"
   ],
   "what_changed": {
    "previous_era_id": "ptolemaic-egypt",

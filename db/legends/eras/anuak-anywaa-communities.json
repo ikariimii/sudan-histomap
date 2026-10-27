@@ -68,8 +68,7 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -84,6 +83,16 @@
      "legend_id": "city:anuak-anywaa-communities:soleb",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1400 BCE, GHA2 144)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -102,9 +111,8 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "APPROXIMATE",
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -123,6 +131,16 @@
      "legend_id": "city:anuak-anywaa-communities:qasr-ibrim",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (23 BCE, GHA2_CH10 290)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -133,7 +151,7 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -144,6 +162,12 @@
      "legend_id": "city:anuak-anywaa-communities:abu-simbel",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -161,9 +185,7 @@
        "page": "196"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH8",
@@ -181,6 +203,12 @@
      "legend_id": "city:anuak-anywaa-communities:soba",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (500 CE, GHA3_CH8 196)",
+       "ar": null
+      }
      ]
     },
     {
@@ -222,9 +250,7 @@
        "page": "175"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2",
@@ -258,6 +284,12 @@
      "legend_id": "city:anuak-anywaa-communities:aswan",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (2200 BCE, GHA2 238)",
+       "ar": null
+      }
      ]
     },
     {
@@ -275,9 +307,7 @@
        "page": "389"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH15",
@@ -291,6 +321,12 @@
      "legend_id": "city:anuak-anywaa-communities:aksum",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (100 CE, GHA2_CH15 389)",
+       "ar": null
+      }
      ]
     },
     {
@@ -345,9 +381,7 @@
        "page": "177"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA4_CH16",
@@ -369,6 +403,12 @@
      "legend_id": "city:anuak-anywaa-communities:sennar",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1504 CE, GHA4_CH16 406)",
+       "ar": null
+      }
      ]
     },
     {
@@ -387,9 +427,8 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "APPROXIMATE",
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -408,6 +447,16 @@
      "legend_id": "city:anuak-anywaa-communities:qerri",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1480 CE, GHA5_CH7 172)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -417,9 +466,8 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "APPROXIMATE",
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -438,6 +486,16 @@
      "legend_id": "city:anuak-anywaa-communities:kobbe",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1750 CE, MACMICHAEL1922_V1 203)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -456,8 +514,7 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -472,6 +529,16 @@
      "legend_id": "city:anuak-anywaa-communities:ain-farah",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1400 CE, GHA4_CH16 420)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -505,9 +572,7 @@
        "page": "362"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA6_CH14",
@@ -533,6 +598,12 @@
      "legend_id": "city:anuak-anywaa-communities:shendi",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1801 CE, MACMICHAEL1922_V1 233)",
+       "ar": null
+      }
      ]
     },
     {
@@ -550,9 +621,7 @@
        "page": "362"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA6_CH14",
@@ -566,6 +635,12 @@
      "legend_id": "city:anuak-anywaa-communities:berber",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1821 CE, GHA6_CH14 362)",
+       "ar": null
+      }
      ]
     },
     {
@@ -574,9 +649,7 @@
      "name_ar": "المتمة الإثيوبية",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA7_CH11",
@@ -590,6 +663,12 @@
      "legend_id": "city:anuak-anywaa-communities:metemma-ethiopia",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1889 CE, GHA7_CH11 268)",
+       "ar": null
+      }
      ]
     },
     {
@@ -598,9 +677,7 @@
      "name_ar": "القلابات",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "MACMICHAEL1922_V1",
@@ -614,6 +691,12 @@
      "legend_id": "city:anuak-anywaa-communities:gallabat",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1840 CE, MACMICHAEL1922_V1 254)",
+       "ar": null
+      }
      ]
     },
     {
@@ -622,9 +705,7 @@
      "name_ar": "كورتي",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "MACMICHAEL1922_V1",
@@ -638,6 +719,12 @@
      "legend_id": "city:anuak-anywaa-communities:korti",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1699 CE, MACMICHAEL1922_V1 216)",
+       "ar": null
+      }
      ]
     },
     {
@@ -655,9 +742,7 @@
        "page": "363"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA6_CH14",
@@ -671,6 +756,12 @@
      "legend_id": "city:anuak-anywaa-communities:el-obeid",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1865 CE, GHA6_CH14 363)",
+       "ar": null
+      }
      ]
     },
     {
@@ -721,9 +812,7 @@
        "page": "175"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA5_CH7",
@@ -741,6 +830,12 @@
      "legend_id": "city:anuak-anywaa-communities:massawa",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1520 CE, GHAV 706)",
+       "ar": null
+      }
      ]
     },
     {
@@ -758,9 +853,7 @@
        "page": "366"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA6_CH14",
@@ -774,6 +867,12 @@
      "legend_id": "city:anuak-anywaa-communities:fashoda",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1490 CE, GHA6_CH14 366)",
+       "ar": null
+      }
      ]
     },
     {
@@ -839,9 +938,7 @@
        "page": "web"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA6_CH14",
@@ -879,6 +976,12 @@
      "legend_id": "city:anuak-anywaa-communities:khartoum",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1899 CE, GHAVII 81)",
+       "ar": null
+      }
      ]
     },
     {
@@ -896,9 +999,7 @@
        "page": "78"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA7_CH4",
@@ -912,6 +1013,12 @@
      "legend_id": "city:anuak-anywaa-communities:omdurman",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1885 CE, GHA7_CH4 78)",
+       "ar": null
+      }
      ]
     },
     {
@@ -995,9 +1102,7 @@
        "page": "360"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA6_CH14",
@@ -1011,6 +1116,12 @@
      "legend_id": "city:anuak-anywaa-communities:wad-madani",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1821 CE, GHA6_CH14 360)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1081,9 +1192,7 @@
        "page": "countrystudies.us/sudan/39.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "LOC1991_NONMUSLIM",
@@ -1101,6 +1210,12 @@
      "legend_id": "city:anuak-anywaa-communities:malakal",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1490 CE, GHA5_CH7 193)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1118,9 +1233,7 @@
        "page": "countrystudies.us/sudan/22.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "LOC1991_CIVIL6469",
@@ -1134,6 +1247,12 @@
      "legend_id": "city:anuak-anywaa-communities:wau",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1964 CE, LOC1991_CIVIL6469 countrystudies.us/sudan/22.htm)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1151,9 +1270,7 @@
        "page": "268"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA7_CH11",
@@ -1167,6 +1284,12 @@
      "legend_id": "city:anuak-anywaa-communities:asmara",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1889 CE, GHA7_CH11 268)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1217,9 +1340,7 @@
        "page": "countrystudies.us/libya/18.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHAIII",
@@ -1237,6 +1358,12 @@
      "legend_id": "city:anuak-anywaa-communities:kufra",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (950 CE, GHAIII 283)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1274,9 +1401,7 @@
        "page": "455"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA7_CH4",
@@ -1294,6 +1419,12 @@
      "legend_id": "city:anuak-anywaa-communities:atbara",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1898 CE, GHA7_CH4 78)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1302,9 +1433,7 @@
      "name_ar": "القضارف",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA6_CH14",
@@ -1318,6 +1447,12 @@
      "legend_id": "city:anuak-anywaa-communities:gedaref",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1822 CE, GHA6_CH14 362)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1335,9 +1470,7 @@
        "page": "371"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA6_CH14",
@@ -1351,6 +1484,12 @@
      "legend_id": "city:anuak-anywaa-communities:bor",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1885 CE, GHA6_CH14 371)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1359,9 +1498,7 @@
      "name_ar": "رمبيك",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHAV",
@@ -1375,6 +1512,12 @@
      "legend_id": "city:anuak-anywaa-communities:rumbek",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1500 CE, GHAV 777)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1383,9 +1526,7 @@
      "name_ar": "طوكر",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA7_CH4",
@@ -1399,6 +1540,12 @@
      "legend_id": "city:anuak-anywaa-communities:tokar",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1891 CE, GHA7_CH4 77)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1417,9 +1564,7 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -1438,6 +1583,16 @@
      "legend_id": "city:anuak-anywaa-communities:gondokoro",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1859 CE, GHA6_CH14 366)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -1456,9 +1611,7 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -1473,6 +1626,16 @@
      "legend_id": "city:anuak-anywaa-communities:lado",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1876 CE, GHA6_CH14 371)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -1481,9 +1644,7 @@
      "name_ar": "ميكيلي",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHAVII",
@@ -1497,6 +1658,12 @@
      "legend_id": "city:anuak-anywaa-communities:mekelle",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1934 CE, GHAVII 731)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1515,8 +1682,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "APPROXIMATE-COORDS"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -1544,8 +1710,7 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "APPROXIMATE-COORDS",
-      "FIRST-ATTESTED"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -1564,6 +1729,12 @@
      "legend_id": "city:anuak-anywaa-communities:el-matamma",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1801 CE, MACMICHAEL1922_V1 233)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1589,9 +1760,7 @@
        "page": "325"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH6",
@@ -1609,6 +1778,12 @@
      "legend_id": "city:anuak-anywaa-communities:alexandria",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (305 BCE, GHA2_CH6 184)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1642,9 +1817,7 @@
        "page": "countrystudies.us/sudan/76.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH7",
@@ -1666,6 +1839,12 @@
      "legend_id": "city:anuak-anywaa-communities:cairo",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (641 CE, GHA3_CH7 163)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1683,9 +1862,7 @@
        "page": "171"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH7",
@@ -1699,6 +1876,12 @@
      "legend_id": "city:anuak-anywaa-communities:fustat",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (641 CE, GHA3_CH7 171)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1716,9 +1899,7 @@
        "page": "265"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA4_CH10",
@@ -1732,6 +1913,12 @@
      "legend_id": "city:anuak-anywaa-communities:ngazargamu",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1380 CE, GHA4_CH10 265)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1749,9 +1936,7 @@
        "page": "343"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH13",
@@ -1765,6 +1950,12 @@
      "legend_id": "city:anuak-anywaa-communities:yeha",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (980 BCE, GHA2_CH13 343)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1782,9 +1973,7 @@
        "page": "573"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH19",
@@ -1798,6 +1987,12 @@
      "legend_id": "city:anuak-anywaa-communities:lalibela",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (900 CE, GHA3_CH19 573)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1823,9 +2018,7 @@
        "page": "138"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH2",
@@ -1843,6 +2036,12 @@
      "legend_id": "city:anuak-anywaa-communities:medina",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (622 CE, GHA3_CH2 35)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1868,9 +2067,7 @@
        "page": "138"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH2",
@@ -1888,6 +2085,12 @@
      "legend_id": "city:anuak-anywaa-communities:mecca",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (610 CE, GHA3_CH2 31)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1905,9 +2108,7 @@
        "page": "countrystudies.us/ethiopia/40.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "LOC_ETH1991_TOPO",
@@ -1921,6 +2122,12 @@
      "legend_id": "city:anuak-anywaa-communities:addis-ababa",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1974 CE, LOC_ETH1991_TOPO countrystudies.us/ethiopia/40.htm)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1929,9 +2136,7 @@
      "name_ar": "طيبة",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH7",
@@ -1945,6 +2150,12 @@
      "legend_id": "city:anuak-anywaa-communities:thebes",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (305 BCE, GHA2_CH7 208)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1962,9 +2173,7 @@
        "page": "294"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH10",
@@ -1978,6 +2187,12 @@
      "legend_id": "city:anuak-anywaa-communities:ballana",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (350 CE, GHA2_CH10 294)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1995,9 +2210,7 @@
        "page": "countrystudies.us/libya/18.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "LOC_LBY1987_SANUSI",
@@ -2011,6 +2224,12 @@
      "legend_id": "city:anuak-anywaa-communities:tripoli",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1551 CE, LOC_LBY1987_SANUSI countrystudies.us/libya/18.htm)",
+       "ar": null
+      }
      ]
     },
     {
@@ -2028,9 +2247,7 @@
        "page": "countrystudies.us/libya/21.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "LOC_LBY1987_ITALOSANUSI",
@@ -2044,6 +2261,12 @@
      "legend_id": "city:anuak-anywaa-communities:benghazi",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1923 CE, LOC_LBY1987_ITALOSANUSI countrystudies.us/libya/21.htm)",
+       "ar": null
+      }
      ]
     },
     {
@@ -2052,9 +2275,7 @@
      "name_ar": null,
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GEONAMES",
@@ -2065,7 +2286,13 @@
        "page": "Ch. II and note 27"
       }
      ],
-     "legend_id": "city:anuak-anywaa-communities:kapoeta"
+     "legend_id": "city:anuak-anywaa-communities:kapoeta",
+     "card_notes": [
+      {
+       "en": "first attested (1988 CE, HRW1993_CIVDEV note 27)",
+       "ar": null
+      }
+     ]
     },
     {
      "id": "bentiu",
@@ -2073,9 +2300,7 @@
      "name_ar": "بانتيو",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GEONAMES",
@@ -2086,7 +2311,13 @@
        "page": "para 41 (p.15)"
       }
      ],
-     "legend_id": "city:anuak-anywaa-communities:bentiu"
+     "legend_id": "city:anuak-anywaa-communities:bentiu",
+     "card_notes": [
+      {
+       "en": "first attested (2013 CE, UNMISS_HRR2014 para 41 (p.15))",
+       "ar": null
+      }
+     ]
     }
    ]
   },
@@ -3315,14 +3546,10 @@
  ],
  "badges_present": [
   "APPROXIMATE",
-  "APPROXIMATE-COORDS",
   "CONTESTED",
-  "FIRST-ATTESTED",
-  "LAST-ATTESTED",
-  "LAST-ATTESTED+APPROXIMATE",
   "NO-SOURCE",
-  "RUIN-UNDATED",
-  "SINGLE-SOURCE"
+  "SINGLE-SOURCE",
+  "VERIFY"
  ],
  "counts": {
   "battle_approximate": 33,
@@ -3468,14 +3695,10 @@
   "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
   "badge_filter": [
    "APPROXIMATE",
-   "APPROXIMATE-COORDS",
    "CONTESTED",
-   "FIRST-ATTESTED",
-   "LAST-ATTESTED",
-   "LAST-ATTESTED+APPROXIMATE",
    "NO-SOURCE",
-   "RUIN-UNDATED",
-   "SINGLE-SOURCE"
+   "SINGLE-SOURCE",
+   "VERIFY"
   ],
   "what_changed": {
    "previous_era_id": "nuer-naath-communities",

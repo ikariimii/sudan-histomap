@@ -56,8 +56,7 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -76,6 +75,16 @@
      "legend_id": "city:land-of-punt-d-mt:napata",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (800 BCE, GHA2_CH10 283)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -94,9 +103,8 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "APPROXIMATE",
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -115,6 +123,16 @@
      "legend_id": "city:land-of-punt-d-mt:jebel-barkal",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1290 BCE, GHA2_CH9 268)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -133,9 +151,8 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "APPROXIMATE",
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -154,6 +171,16 @@
      "legend_id": "city:land-of-punt-d-mt:el-kurru",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (800 BCE, GHA2_CH11 300)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -173,8 +200,7 @@
      ],
      "badges": [
       "APPROXIMATE",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -193,6 +219,12 @@
      "legend_id": "city:land-of-punt-d-mt:nuri",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -202,8 +234,7 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -218,6 +249,16 @@
      "legend_id": "city:land-of-punt-d-mt:soleb",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1400 BCE, GHA2 144)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -228,7 +269,7 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -239,6 +280,12 @@
      "legend_id": "city:land-of-punt-d-mt:abu-simbel",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -280,9 +327,7 @@
        "page": "175"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2",
@@ -316,6 +361,12 @@
      "legend_id": "city:land-of-punt-d-mt:aswan",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (2200 BCE, GHA2 238)",
+       "ar": null
+      }
      ]
     },
     {
@@ -325,8 +376,7 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "APPROXIMATE",
-      "APPROXIMATE-COORDS"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -358,9 +408,7 @@
        "page": "343"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH13",
@@ -374,6 +422,12 @@
      "legend_id": "city:land-of-punt-d-mt:yeha",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (980 BCE, GHA2_CH13 343)",
+       "ar": null
+      }
      ]
     }
    ]
@@ -545,11 +599,8 @@
  ],
  "badges_present": [
   "APPROXIMATE",
-  "APPROXIMATE-COORDS",
-  "FIRST-ATTESTED",
-  "LAST-ATTESTED+APPROXIMATE",
   "NO-SOURCE",
-  "RUIN-UNDATED"
+  "VERIFY"
  ],
  "counts": {
   "battle_approximate": 3,
@@ -669,11 +720,8 @@
   "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
   "badge_filter": [
    "APPROXIMATE",
-   "APPROXIMATE-COORDS",
-   "FIRST-ATTESTED",
-   "LAST-ATTESTED+APPROXIMATE",
    "NO-SOURCE",
-   "RUIN-UNDATED"
+   "VERIFY"
   ],
   "what_changed": null
  }

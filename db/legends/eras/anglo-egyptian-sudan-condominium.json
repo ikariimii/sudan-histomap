@@ -165,8 +165,7 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -181,6 +180,16 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:soleb",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1400 BCE, GHA2 144)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -191,7 +200,7 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -202,6 +211,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:abu-simbel",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -243,9 +258,7 @@
        "page": "175"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2",
@@ -279,6 +292,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:aswan",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (2200 BCE, GHA2 238)",
+       "ar": null
+      }
      ]
     },
     {
@@ -296,9 +315,7 @@
        "page": "389"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH15",
@@ -312,6 +329,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:aksum",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (100 CE, GHA2_CH15 389)",
+       "ar": null
+      }
      ]
     },
     {
@@ -366,9 +389,7 @@
        "page": "177"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA4_CH16",
@@ -390,6 +411,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:sennar",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1504 CE, GHA4_CH16 406)",
+       "ar": null
+      }
      ]
     },
     {
@@ -408,8 +435,7 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -424,6 +450,16 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:ain-farah",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1400 CE, GHA4_CH16 420)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -457,9 +493,7 @@
        "page": "362"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA6_CH14",
@@ -485,6 +519,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:shendi",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1801 CE, MACMICHAEL1922_V1 233)",
+       "ar": null
+      }
      ]
     },
     {
@@ -502,9 +542,7 @@
        "page": "362"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA6_CH14",
@@ -518,6 +556,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:berber",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1821 CE, GHA6_CH14 362)",
+       "ar": null
+      }
      ]
     },
     {
@@ -526,9 +570,7 @@
      "name_ar": "المتمة الإثيوبية",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA7_CH11",
@@ -542,6 +584,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:metemma-ethiopia",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1889 CE, GHA7_CH11 268)",
+       "ar": null
+      }
      ]
     },
     {
@@ -550,9 +598,7 @@
      "name_ar": "القلابات",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "MACMICHAEL1922_V1",
@@ -566,6 +612,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:gallabat",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1840 CE, MACMICHAEL1922_V1 254)",
+       "ar": null
+      }
      ]
     },
     {
@@ -574,9 +626,7 @@
      "name_ar": "كورتي",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "MACMICHAEL1922_V1",
@@ -590,6 +640,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:korti",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1699 CE, MACMICHAEL1922_V1 216)",
+       "ar": null
+      }
      ]
     },
     {
@@ -607,9 +663,7 @@
        "page": "363"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA6_CH14",
@@ -623,6 +677,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:el-obeid",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1865 CE, GHA6_CH14 363)",
+       "ar": null
+      }
      ]
     },
     {
@@ -673,9 +733,7 @@
        "page": "175"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA5_CH7",
@@ -693,6 +751,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:massawa",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1520 CE, GHAV 706)",
+       "ar": null
+      }
      ]
     },
     {
@@ -710,9 +774,7 @@
        "page": "366"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA6_CH14",
@@ -726,6 +788,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:fashoda",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1490 CE, GHA6_CH14 366)",
+       "ar": null
+      }
      ]
     },
     {
@@ -775,9 +843,7 @@
        "page": "countrystudies.us/sudan/28.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA6_CH14",
@@ -815,6 +881,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:khartoum",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1899 CE, GHAVII 81)",
+       "ar": null
+      }
      ]
     },
     {
@@ -823,9 +895,7 @@
      "name_ar": "أم درمان",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA7_CH4",
@@ -839,6 +909,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:omdurman",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1885 CE, GHA7_CH4 78)",
+       "ar": null
+      }
      ]
     },
     {
@@ -913,9 +989,7 @@
        "page": "360"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA6_CH14",
@@ -929,6 +1003,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:wad-madani",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1821 CE, GHA6_CH14 360)",
+       "ar": null
+      }
      ]
     },
     {
@@ -999,9 +1079,7 @@
        "page": "countrystudies.us/sudan/39.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "LOC1991_NONMUSLIM",
@@ -1019,6 +1097,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:malakal",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1490 CE, GHA5_CH7 193)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1036,9 +1120,7 @@
        "page": "268"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA7_CH11",
@@ -1052,6 +1134,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:asmara",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1889 CE, GHA7_CH11 268)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1102,9 +1190,7 @@
        "page": "countrystudies.us/libya/18.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHAIII",
@@ -1122,6 +1208,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:kufra",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (950 CE, GHAIII 283)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1159,9 +1251,7 @@
        "page": "455"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA7_CH4",
@@ -1179,6 +1269,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:atbara",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1898 CE, GHA7_CH4 78)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1187,9 +1283,7 @@
      "name_ar": "القضارف",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA6_CH14",
@@ -1203,6 +1297,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:gedaref",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1822 CE, GHA6_CH14 362)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1220,9 +1320,7 @@
        "page": "371"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA6_CH14",
@@ -1236,6 +1334,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:bor",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1885 CE, GHA6_CH14 371)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1244,9 +1348,7 @@
      "name_ar": "رمبيك",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHAV",
@@ -1260,6 +1362,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:rumbek",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1500 CE, GHAV 777)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1268,9 +1376,7 @@
      "name_ar": "طوكر",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA7_CH4",
@@ -1284,6 +1390,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:tokar",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1891 CE, GHA7_CH4 77)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1292,9 +1404,7 @@
      "name_ar": "ميكيلي",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHAVII",
@@ -1308,6 +1418,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:mekelle",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1934 CE, GHAVII 731)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1326,8 +1442,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "APPROXIMATE-COORDS"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -1355,8 +1470,7 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "APPROXIMATE-COORDS",
-      "FIRST-ATTESTED"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -1375,6 +1489,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:el-matamma",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1801 CE, MACMICHAEL1922_V1 233)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1400,9 +1520,7 @@
        "page": "325"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH6",
@@ -1420,6 +1538,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:alexandria",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (305 BCE, GHA2_CH6 184)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1453,9 +1577,7 @@
        "page": "countrystudies.us/sudan/76.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH7",
@@ -1477,6 +1599,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:cairo",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (641 CE, GHA3_CH7 163)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1494,9 +1622,7 @@
        "page": "171"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH7",
@@ -1510,6 +1636,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:fustat",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (641 CE, GHA3_CH7 171)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1527,9 +1659,7 @@
        "page": "265"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA4_CH10",
@@ -1543,6 +1673,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:ngazargamu",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1380 CE, GHA4_CH10 265)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1560,9 +1696,7 @@
        "page": "343"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH13",
@@ -1576,6 +1710,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:yeha",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (980 BCE, GHA2_CH13 343)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1593,9 +1733,7 @@
        "page": "573"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH19",
@@ -1609,6 +1747,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:lalibela",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (900 CE, GHA3_CH19 573)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1634,9 +1778,7 @@
        "page": "138"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH2",
@@ -1654,6 +1796,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:medina",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (622 CE, GHA3_CH2 35)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1679,9 +1827,7 @@
        "page": "138"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH2",
@@ -1699,6 +1845,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:mecca",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (610 CE, GHA3_CH2 31)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1707,9 +1859,7 @@
      "name_ar": "طيبة",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH7",
@@ -1723,6 +1873,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:thebes",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (305 BCE, GHA2_CH7 208)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1740,9 +1896,7 @@
        "page": "294"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH10",
@@ -1756,6 +1910,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:ballana",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (350 CE, GHA2_CH10 294)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1773,9 +1933,7 @@
        "page": "countrystudies.us/libya/18.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "LOC_LBY1987_SANUSI",
@@ -1789,6 +1947,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:tripoli",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1551 CE, LOC_LBY1987_SANUSI countrystudies.us/libya/18.htm)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1806,9 +1970,7 @@
        "page": "countrystudies.us/libya/21.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "LOC_LBY1987_ITALOSANUSI",
@@ -1822,6 +1984,12 @@
      "legend_id": "city:anglo-egyptian-sudan-condominium:benghazi",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1923 CE, LOC_LBY1987_ITALOSANUSI countrystudies.us/libya/21.htm)",
+       "ar": null
+      }
      ]
     }
    ]
@@ -1878,7 +2046,7 @@
       ]
      ],
      "badges": [
-      "MODERN_SVG_RENDERING"
+      "DERIVED"
      ],
      "verify": false,
      "note": null
@@ -1896,7 +2064,7 @@
       ]
      ],
      "badges": [
-      "MODERN_SVG_RENDERING"
+      "DERIVED"
      ],
      "verify": false,
      "note": null
@@ -1914,7 +2082,7 @@
       ]
      ],
      "badges": [
-      "MODERN_SVG_RENDERING"
+      "DERIVED"
      ],
      "verify": false,
      "note": null
@@ -2195,13 +2363,11 @@
  ],
  "badges_present": [
   "APPROXIMATE",
-  "APPROXIMATE-COORDS",
   "CONTESTED",
   "DERIVED",
   "EDITORIAL",
-  "FIRST-ATTESTED",
-  "RUIN-UNDATED",
-  "SINGLE-SOURCE"
+  "SINGLE-SOURCE",
+  "VERIFY"
  ],
  "counts": {
   "battle_approximate": 5,
@@ -2431,13 +2597,11 @@
   "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
   "badge_filter": [
    "APPROXIMATE",
-   "APPROXIMATE-COORDS",
    "CONTESTED",
    "DERIVED",
    "EDITORIAL",
-   "FIRST-ATTESTED",
-   "RUIN-UNDATED",
-   "SINGLE-SOURCE"
+   "SINGLE-SOURCE",
+   "VERIFY"
   ],
   "what_changed": {
    "previous_era_id": "rule-of-the-khalifa-abdallahi",

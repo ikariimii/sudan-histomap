@@ -122,8 +122,7 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -138,6 +137,16 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:soleb",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1400 BCE, GHA2 144)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -156,9 +165,8 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "APPROXIMATE",
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -177,6 +185,16 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:qasr-ibrim",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (23 BCE, GHA2_CH10 290)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -187,7 +205,7 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -198,6 +216,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:abu-simbel",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -215,9 +239,7 @@
        "page": "196"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH8",
@@ -235,6 +257,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:soba",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (500 CE, GHA3_CH8 196)",
+       "ar": null
+      }
      ]
     },
     {
@@ -276,9 +304,7 @@
        "page": "175"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2",
@@ -312,6 +338,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:aswan",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (2200 BCE, GHA2 238)",
+       "ar": null
+      }
      ]
     },
     {
@@ -329,9 +361,7 @@
        "page": "389"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH15",
@@ -345,6 +375,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:aksum",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (100 CE, GHA2_CH15 389)",
+       "ar": null
+      }
      ]
     },
     {
@@ -399,9 +435,7 @@
        "page": "177"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA4_CH16",
@@ -423,6 +457,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:sennar",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1504 CE, GHA4_CH16 406)",
+       "ar": null
+      }
      ]
     },
     {
@@ -441,9 +481,8 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "APPROXIMATE",
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -462,6 +501,16 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:qerri",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1480 CE, GHA5_CH7 172)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -471,9 +520,8 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "APPROXIMATE",
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -492,6 +540,16 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:kobbe",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1750 CE, MACMICHAEL1922_V1 203)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -510,8 +568,7 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -526,6 +583,16 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:ain-farah",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1400 CE, GHA4_CH16 420)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -534,9 +601,7 @@
      "name_ar": "كورتي",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "MACMICHAEL1922_V1",
@@ -550,6 +615,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:korti",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1699 CE, MACMICHAEL1922_V1 216)",
+       "ar": null
+      }
      ]
     },
     {
@@ -600,9 +671,7 @@
        "page": "175"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA5_CH7",
@@ -620,6 +689,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:massawa",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1520 CE, GHAV 706)",
+       "ar": null
+      }
      ]
     },
     {
@@ -637,9 +712,7 @@
        "page": "366"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA6_CH14",
@@ -653,6 +726,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:fashoda",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1490 CE, GHA6_CH14 366)",
+       "ar": null
+      }
      ]
     },
     {
@@ -678,9 +757,7 @@
        "page": "countrystudies.us/sudan/39.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "LOC1991_NONMUSLIM",
@@ -698,6 +775,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:malakal",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1490 CE, GHA5_CH7 193)",
+       "ar": null
+      }
      ]
     },
     {
@@ -715,9 +798,7 @@
        "page": "countrystudies.us/libya/18.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHAIII",
@@ -735,6 +816,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:kufra",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (950 CE, GHAIII 283)",
+       "ar": null
+      }
      ]
     },
     {
@@ -743,9 +830,7 @@
      "name_ar": "رمبيك",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHAV",
@@ -759,6 +844,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:rumbek",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1500 CE, GHAV 777)",
+       "ar": null
+      }
      ]
     },
     {
@@ -777,8 +868,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "APPROXIMATE-COORDS"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -822,9 +912,7 @@
        "page": "325"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH6",
@@ -842,6 +930,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:alexandria",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (305 BCE, GHA2_CH6 184)",
+       "ar": null
+      }
      ]
     },
     {
@@ -875,9 +969,7 @@
        "page": "countrystudies.us/sudan/76.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH7",
@@ -899,6 +991,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:cairo",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (641 CE, GHA3_CH7 163)",
+       "ar": null
+      }
      ]
     },
     {
@@ -916,9 +1014,7 @@
        "page": "171"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH7",
@@ -932,6 +1028,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:fustat",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (641 CE, GHA3_CH7 171)",
+       "ar": null
+      }
      ]
     },
     {
@@ -949,9 +1051,7 @@
        "page": "265"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA4_CH10",
@@ -965,6 +1065,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:ngazargamu",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1380 CE, GHA4_CH10 265)",
+       "ar": null
+      }
      ]
     },
     {
@@ -982,9 +1088,7 @@
        "page": "343"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH13",
@@ -998,6 +1102,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:yeha",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (980 BCE, GHA2_CH13 343)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1015,9 +1125,7 @@
        "page": "573"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH19",
@@ -1031,6 +1139,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:lalibela",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (900 CE, GHA3_CH19 573)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1056,9 +1170,7 @@
        "page": "138"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH2",
@@ -1076,6 +1188,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:medina",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (622 CE, GHA3_CH2 35)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1101,9 +1219,7 @@
        "page": "138"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA3_CH2",
@@ -1121,6 +1237,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:mecca",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (610 CE, GHA3_CH2 31)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1129,9 +1251,7 @@
      "name_ar": "طيبة",
      "symbol_class": "city_other",
      "roles_in_era": [],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH7",
@@ -1145,6 +1265,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:thebes",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (305 BCE, GHA2_CH7 208)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1162,9 +1288,7 @@
        "page": "294"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2_CH10",
@@ -1178,6 +1302,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:ballana",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (350 CE, GHA2_CH10 294)",
+       "ar": null
+      }
      ]
     },
     {
@@ -1195,9 +1325,7 @@
        "page": "countrystudies.us/libya/18.htm"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "LOC_LBY1987_SANUSI",
@@ -1211,6 +1339,12 @@
      "legend_id": "city:early-funj-sultanate-funj-sultans:tripoli",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1551 CE, LOC_LBY1987_SANUSI countrystudies.us/libya/18.htm)",
+       "ar": null
+      }
      ]
     }
    ]
@@ -1363,12 +1497,9 @@
  ],
  "badges_present": [
   "APPROXIMATE",
-  "APPROXIMATE-COORDS",
   "CONTESTED",
   "DERIVED",
-  "FIRST-ATTESTED",
-  "LAST-ATTESTED+APPROXIMATE",
-  "RUIN-UNDATED"
+  "VERIFY"
  ],
  "counts": {
   "battle_approximate": 2,
@@ -1519,12 +1650,9 @@
   "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
   "badge_filter": [
    "APPROXIMATE",
-   "APPROXIMATE-COORDS",
    "CONTESTED",
    "DERIVED",
-   "FIRST-ATTESTED",
-   "LAST-ATTESTED+APPROXIMATE",
-   "RUIN-UNDATED"
+   "VERIFY"
   ],
   "what_changed": {
    "previous_era_id": "ja-aliyyin-kingdom-sa-dab-funj-vassal",

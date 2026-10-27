@@ -134,8 +134,7 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -154,6 +153,16 @@
      "legend_id": "city:middle-kingdom-egypt:kerma",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (2450 BCE, KERMA_MISSION History)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -196,9 +205,8 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "LAST-ATTESTED+APPROXIMATE",
-      "RUIN-UNDATED"
+      "APPROXIMATE",
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -229,6 +237,16 @@
      "legend_id": "city:middle-kingdom-egypt:buhen",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (2055 BCE, GHA2_CH9 266)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -247,8 +265,7 @@
       }
      ],
      "badges": [
-      "FIRST-ATTESTED",
-      "RUIN-UNDATED"
+      "VERIFY"
      ],
      "source_ids": [
       {
@@ -263,6 +280,16 @@
      "legend_id": "city:middle-kingdom-egypt:semna",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (1991 BCE, GHA2_CH9 255)",
+       "ar": null
+      },
+      {
+       "en": "end undated",
+       "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+      }
      ]
     },
     {
@@ -304,9 +331,7 @@
        "page": "175"
       }
      ],
-     "badges": [
-      "FIRST-ATTESTED"
-     ],
+     "badges": [],
      "source_ids": [
       {
        "id": "GHA2",
@@ -340,6 +365,12 @@
      "legend_id": "city:middle-kingdom-egypt:aswan",
      "workflow_flags": [
       "AR-REVIEW"
+     ],
+     "card_notes": [
+      {
+       "en": "first attested (2200 BCE, GHA2 238)",
+       "ar": null
+      }
      ]
     }
    ]
@@ -487,11 +518,9 @@
  "badges_present": [
   "APPROXIMATE",
   "DERIVED",
-  "FIRST-ATTESTED",
-  "LAST-ATTESTED+APPROXIMATE",
   "NO-SOURCE",
-  "RUIN-UNDATED",
-  "SINGLE-SOURCE"
+  "SINGLE-SOURCE",
+  "VERIFY"
  ],
  "counts": {
   "border_draft": 2,
@@ -618,11 +647,9 @@
   "badge_filter": [
    "APPROXIMATE",
    "DERIVED",
-   "FIRST-ATTESTED",
-   "LAST-ATTESTED+APPROXIMATE",
    "NO-SOURCE",
-   "RUIN-UNDATED",
-   "SINGLE-SOURCE"
+   "SINGLE-SOURCE",
+   "VERIFY"
   ],
   "what_changed": {
    "previous_era_id": "early-dynastic-old-kingdom-egypt",
