@@ -21,7 +21,6 @@
      "start": -2450,
      "end": -1450,
      "source_ids": [
-      "SFDAS_HCS2017",
       "GHA2",
       "NATURAL_EARTH"
      ],
@@ -534,10 +533,9 @@
     "lon": 30.4097
    }
   ],
-  "control_limits_en": "Kerma grew from 'une petite principauté sur la troisième cataracte' into a state 'capable de tenir tête à l’Égypte pharaonique durant un millénaire' (SFDAS_HCS2017 p.60). In the Second Intermediate Period (1730–1550 BCE, overlapping Classic Kerma c.1750–1550 BCE, p.69) the Lower Nubian forts 'ne tardèrent pas à tomber entre les mains du royaume de Kerma' (p.65). During the Middle Kingdom 'the southern boundary of the Egyptian Middle Kingdom was unquestionably fixed at Semna by Senusret III' (GHA2, ch.9).",
-  "control_limits_ar": "نمت كرمة من «إمارة صغيرة عند الشلال الثالث» إلى دولة «قادرة على مواجهة مصر الفرعونية طوال ألف عام» (SFDAS_HCS2017 ص60) [VERIFY]؛ وفي الفترة الانتقالية الثانية (1730–1550 ق.م، وتتزامن مع كرمة الكلاسيكية نحو 1750–1550 ق.م، ص69) «سرعان ما سقطت» حصون النوبة السفلى «في يد مملكة كرمة» (ص65) [VERIFY]. وفي عهد الدولة الوسطى «ثبّت سنوسرت الثالث الحدّ الجنوبي للدولة المصرية الوسطى عند سمنة بلا شك» (تاريخ أفريقيا العام II، الفصل 9).",
+  "control_limits_en": "During the Middle Kingdom 'the southern boundary of the Egyptian Middle Kingdom was unquestionably fixed at Semna by Senusret III' (GHA2, ch.9).",
+  "control_limits_ar": "وفي عهد الدولة الوسطى «ثبّت سنوسرت الثالث الحدّ الجنوبي للدولة المصرية الوسطى عند سمنة بلا شك» (تاريخ أفريقيا العام II، الفصل 9). [يحتاج تحقق]",
   "control_limits_source_ids": [
-   "SFDAS_HCS2017",
    "GHA2"
   ],
   "control_confidence": "medium"

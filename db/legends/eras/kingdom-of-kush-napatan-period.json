@@ -21,7 +21,6 @@
      "start": -713,
      "end": -656,
      "source_ids": [
-      "SFDAS_HCS2017",
       "GHA2",
       "ZH_EMB_HIST2020",
       "NATURAL_EARTH"
@@ -41,7 +40,6 @@
      "start": -593,
      "end": -270,
      "source_ids": [
-      "SFDAS_HCS2017",
       "NATURAL_EARTH"
      ],
      "legend_id": "extent:kingdom-of-kush-napatan-period:idx1"
@@ -988,10 +986,9 @@
     "lon": 30.4966
    }
   ],
-  "control_limits_en": "25th Dynasty (713–656 BCE): Shabaqo had to 'restaurer sa domination sur le Delta' (SFDAS_HCS2017 p.141); Shabaka 'brought the entire Nile valley as far as the Delta under the empire of Kush' (GHA2). After the loss of Egypt the kingdom's territory 'est désormais limité à la région des cataractes, étendue jusqu’au sud de Khartoum' (sphinx of Aspelta at Defaia), and 'au nord, la frontière avec l’Égypte fluctue, au gré des conquêtes, entre Assouan et la deuxième cataracte' (SFDAS_HCS2017 p.157).",
-  "control_limits_ar": "الأسرة الخامسة والعشرون (713–656 ق.م): اضطر شباكا إلى «استعادة سيطرته على الدلتا» (SFDAS_HCS2017 ص141) [VERIFY]؛ وقد «ضمّ شباكا وادي النيل كله حتى الدلتا إلى إمبراطورية كوش» (تاريخ أفريقيا العام II). وبعد فقدان مصر «أصبحت أراضيها محصورة في منطقة الشلالات، ممتدة إلى جنوب الخرطوم»، و«في الشمال تتأرجح الحدود مع مصر، بحسب الفتوحات، بين أسوان والشلال الثاني» (SFDAS_HCS2017 ص157) [VERIFY].",
+  "control_limits_en": "25th Dynasty (713–656 BCE): Shabaka 'brought the entire Nile valley as far as the Delta under the empire of Kush' (GHA2).",
+  "control_limits_ar": "الأسرة الخامسة والعشرون (713–656 ق.م): «ضمّ شباكا وادي النيل كله حتى الدلتا إلى إمبراطورية كوش» (تاريخ أفريقيا العام II). [يحتاج تحقق]",
   "control_limits_source_ids": [
-   "SFDAS_HCS2017",
    "GHA2",
    "ZH_EMB_HIST2020"
   ],
