@@ -1,10 +1,12 @@
 {
  "meta": {
-  "description": "Pre-1956 disasters (Sudan). Cited printed sources only, quotes verbatim with printed page numbers; no fatality figures. Arabic titles are working translations. Separate file because era_events joins key_events by index. Not read by mapsite.py yet (it reads only disasters_post1956).",
+  "description": "Pre-1956 disasters (Sudan). Cited printed sources only, quotes verbatim with printed page numbers; fatality/victim figures only where the source prints them. Arabic titles are working translations. Separate file because era_events joins key_events by index. Not read by mapsite.py yet (it reads only disasters_post1956).",
   "created": "2026-10-26",
   "missing": [
    "1946 Nile flood: no lawful open printed source with page numbers found (Sudan Notes and Records 1946-48 on Internet Archive is an in-copyright periodical scan, not used)",
-   "Famine 1888-92 range / 'Sanat Sitta' name: no printed page found"
+   "Famine 1888-92 range / 'Sanat Sitta' name: no printed page found",
+   "Omdurman 1898 toll: Churchill, The River War (1899) vol. II p.200 prints '9,700 killed, and wounded variously estimated from 10,000 to 16,000. There were, besides, 5,000 prisoners' (archive.org 1899RiverWarVol2); not entered because the source is not yet registered (data/periods.json has uncommitted edits by another worker)",
+   "Turkiyya slave-raiding zones, Mahdist-era emigration to Wadai, 1946 flood, pre-1821 eras (Kerma to Funj): no paged cite checked in this pass"
   ]
  },
  "records": [
@@ -66,6 +68,311 @@
     "url": "https://archive.org/details/fireswordinsuda00slat",
     "page": "p.453",
     "quote": "Those were terrible months at the close of 1889",
+    "registered": true
+   },
+   "era_id": "mahdist-state-mahdiyya"
+  },
+  {
+   "id": "dis-mahdiyya-smallpox-omdurman",
+   "era_id": "mahdist-state-mahdiyya",
+   "type": "disaster",
+   "subtype": "epidemic",
+   "title": {
+    "en": "Smallpox epidemic at Omdurman",
+    "ar": "وباء الجدري في أم درمان [يحتاج تحقق]"
+   },
+   "date_start": null,
+   "date_end": null,
+   "place_id": "omdurman",
+   "location": {
+    "place_id": "omdurman",
+    "lat": 15.68352,
+    "lon": 32.46289,
+    "precision": "city"
+   },
+   "figures": [
+    {
+     "text": "every day the disease swept off hundreds",
+     "as_of": "Omdurman (Slatin 1896, pp.357-358); no total given"
+    }
+   ],
+   "status": null,
+   "badges": [
+    "SINGLE-SOURCE",
+    "REPORTED",
+    "VERIFY"
+   ],
+   "summary_en": "Smallpox broke out in Omdurman while Slatin was a prisoner after the fall of Khartoum; he says it killed hundreds a day and that nomad Arabs were hit hardest. No year is printed on these pages.",
+   "summary_ar": "[يحتاج تحقق] تفشّى الجدري في أم درمان أثناء أسر سلاطين بعد سقوط الخرطوم، ويقول إنه كان يحصد المئات يوميًا. لا تُذكر سنة في هذه الصفحات.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "SLATIN1896"
+   ],
+   "note": "Date not printed on pp.357-358; chapter context is after Jan 1885. VERIFY year.",
+   "citations": [
+    {
+     "source_id": "SLATIN1896",
+     "url": "https://archive.org/details/fireswordinsuda00slat",
+     "page": "p.357",
+     "quote": "Small-pox had broken out in Omdurman",
+     "registered": true
+    },
+    {
+     "source_id": "SLATIN1896",
+     "url": "https://archive.org/details/fireswordinsuda00slat",
+     "page": "p.358",
+     "quote": "swept off hundreds",
+     "registered": true
+    },
+    {
+     "source_id": "SLATIN1896",
+     "url": "https://archive.org/details/fireswordinsuda00slat",
+     "page": "p.358",
+     "quote": "the loss from this disease was greater than that suffered in many battles",
+     "registered": true
+    }
+   ],
+   "citation": {
+    "source_id": "SLATIN1896",
+    "url": "https://archive.org/details/fireswordinsuda00slat",
+    "page": "p.357",
+    "quote": "Small-pox had broken out in Omdurman",
+    "registered": true
+   }
+  },
+  {
+   "id": "dis-batahin-execution",
+   "era_id": "rule-of-the-khalifa-abdallahi",
+   "type": "disaster",
+   "subtype": "mass_killing",
+   "title": {
+    "en": "Execution and mutilation of the Batahin at Omdurman",
+    "ar": "إعدام البطاحين وتقطيعهم في أم درمان [يحتاج تحقق]"
+   },
+   "date_start": null,
+   "date_end": null,
+   "place_id": "omdurman",
+   "location": {
+    "place_id": "omdurman",
+    "lat": 15.68352,
+    "lon": 32.46289,
+    "precision": "city"
+   },
+   "figures": [
+    {
+     "text": "sixty-seven men of the Batahin",
+     "as_of": "Slatin 1896, p.445 (men tried; split into three groups, p.446)"
+    }
+   ],
+   "status": null,
+   "badges": [
+    "SINGLE-SOURCE",
+    "REPORTED",
+    "VERIFY"
+   ],
+   "summary_en": "After Batahin tribesmen refused the Khalifa's call-up, 67 of their men were judged 'disobedient' and publicly hanged, beheaded or mutilated in the Omdurman market-place.",
+   "summary_ar": "[يحتاج تحقق] بعد رفض رجال من البطاحين أوامر الخليفة بالتجنيد، حُكم على 67 رجلًا منهم بالعصيان، فشُنق بعضهم وقُطعت رؤوس آخرين وبُترت أطراف الباقين علنًا في سوق أم درمان.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "SLATIN1896"
+   ],
+   "note": "Year not printed on pp.445-446 (chapter 'The Abyssinian Campaign', events around 1888-89 in context). VERIFY year.",
+   "citations": [
+    {
+     "source_id": "SLATIN1896",
+     "url": "https://archive.org/details/fireswordinsuda00slat",
+     "page": "p.445",
+     "quote": "Abdel Baki now brought in sixty-seven men of the Batahin",
+     "registered": true
+    },
+    {
+     "source_id": "SLATIN1896",
+     "url": "https://archive.org/details/fireswordinsuda00slat",
+     "page": "p.446",
+     "quote": "one of which had been hanged, a second had been decapitated, and a third had lost their right hands and left feet",
+     "registered": true
+    }
+   ],
+   "citation": {
+    "source_id": "SLATIN1896",
+    "url": "https://archive.org/details/fireswordinsuda00slat",
+    "page": "p.445",
+    "quote": "Abdel Baki now brought in sixty-seven men of the Batahin",
+    "registered": true
+   }
+  },
+  {
+   "id": "dis-taaisha-migration-omdurman",
+   "era_id": "rule-of-the-khalifa-abdallahi",
+   "type": "disaster",
+   "subtype": "migration",
+   "title": {
+    "en": "Migration of the Taaisha to Omdurman and eviction of residents",
+    "ar": "هجرة التعايشة إلى أم درمان وإخلاء سكانها [يحتاج تحقق]"
+   },
+   "date_start": null,
+   "date_end": null,
+   "place_id": null,
+   "location": {
+    "area": "Kordofan to White Nile (Tura el Hadra) to Omdurman",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "figures": [],
+   "status": null,
+   "badges": [
+    "SINGLE-SOURCE",
+    "REPORTED",
+    "VERIFY"
+   ],
+   "summary_en": "On the Khalifa's call, his Taaisha (Baggara) tribe marched through Kordofan to the White Nile and was shipped to Omdurman. Residents between the mosque and Omdurman Fort were evicted to house them, and grain was requisitioned.",
+   "summary_ar": "[يحتاج تحقق] بدعوة من الخليفة، سار قومه التعايشة عبر كردفان إلى النيل الأبيض ونُقلوا إلى أم درمان، وطُرد سكان الحي الواقع بين المسجد وطابية أم درمان لإسكانهم.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "SLATIN1896"
+   ],
+   "note": "No year printed on pp.449-450; no headcount given. VERIFY year.",
+   "citations": [
+    {
+     "source_id": "SLATIN1896",
+     "url": "https://archive.org/details/fireswordinsuda00slat",
+     "page": "p.449",
+     "quote": "his own tribe, the Taaisha, had arrived in Omdurman",
+     "registered": true
+    },
+    {
+     "source_id": "SLATIN1896",
+     "url": "https://archive.org/details/fireswordinsuda00slat",
+     "page": "p.449",
+     "quote": "They had marched through Kordofan to the White Nile at Tura el Hadra",
+     "registered": true
+    },
+    {
+     "source_id": "SLATIN1896",
+     "url": "https://archive.org/details/fireswordinsuda00slat",
+     "page": "p.450",
+     "quote": "handed it over to the Taaisha as their residence",
+     "registered": true
+    }
+   ],
+   "citation": {
+    "source_id": "SLATIN1896",
+    "url": "https://archive.org/details/fireswordinsuda00slat",
+    "page": "p.449",
+    "quote": "his own tribe, the Taaisha, had arrived in Omdurman",
+    "registered": true
+   }
+  },
+  {
+   "id": "dis-darfur-typhoid-famine",
+   "era_id": "rule-of-the-khalifa-abdallahi",
+   "type": "disaster",
+   "subtype": "epidemic",
+   "title": {
+    "en": "Typhoid among Mahdist troops in Darfur; famine depopulation",
+    "ar": "التيفوئيد بين قوات المهدية في دارفور ومجاعة أخلت البلاد [يحتاج تحقق]"
+   },
+   "date_start": null,
+   "date_end": null,
+   "place_id": "el-fasher",
+   "location": {
+    "place_id": "el-fasher",
+    "lat": 13.62698,
+    "lon": 25.34958,
+    "precision": "region"
+   },
+   "figures": [],
+   "status": null,
+   "badges": [
+    "SINGLE-SOURCE",
+    "REPORTED",
+    "VERIFY"
+   ],
+   "summary_en": "Slatin reports Darfur 'almost depopulated by famine' under the emir Osman Wad Adam. A typhoid epidemic in his army forced a retreat to El Fasher, where he died.",
+   "summary_ar": "[يحتاج تحقق] يذكر سلاطين أن دارفور كادت تخلو من سكانها بسبب المجاعة في عهد الأمير عثمان ود آدم، وأن وباء التيفوئيد في جيشه أجبره على التراجع إلى الفاشر حيث مات.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "SLATIN1896"
+   ],
+   "note": "No year printed on p.475. VERIFY year.",
+   "citations": [
+    {
+     "source_id": "SLATIN1896",
+     "url": "https://archive.org/details/fireswordinsuda00slat",
+     "page": "p.475",
+     "quote": "The country had been almost depopulated by famine",
+     "registered": true
+    },
+    {
+     "source_id": "SLATIN1896",
+     "url": "https://archive.org/details/fireswordinsuda00slat",
+     "page": "p.475",
+     "quote": "a severe epidemic of typhoid fever broke out amongst his men",
+     "registered": true
+    }
+   ],
+   "citation": {
+    "source_id": "SLATIN1896",
+    "url": "https://archive.org/details/fireswordinsuda00slat",
+    "page": "p.475",
+    "quote": "The country had been almost depopulated by famine",
+    "registered": true
+   }
+  },
+  {
+   "id": "dis-zeki-dinka-raid",
+   "era_id": "rule-of-the-khalifa-abdallahi",
+   "type": "disaster",
+   "subtype": "raid",
+   "title": {
+    "en": "Zeki Tummal's raid and massacre of the Dinka",
+    "ar": "غارة الزاكي طمل على الدينكا ومذبحتهم [يحتاج تحقق]"
+   },
+   "date_start": null,
+   "date_end": null,
+   "place_id": "fashoda",
+   "location": {
+    "place_id": "fashoda",
+    "lat": 9.8875,
+    "lon": 32.11028,
+    "precision": "region"
+   },
+   "figures": [],
+   "status": null,
+   "badges": [
+    "SINGLE-SOURCE",
+    "REPORTED",
+    "VERIFY"
+   ],
+   "summary_en": "Ordered to leave Fashoda after typhus hit his army, Zeki Tummal was told by the Khalifa first to raid the Dinka, who had already submitted. The men were massacred and the women, children and cattle carried off.",
+   "summary_ar": "[يحتاج تحقق] بعد تفشّي التيفوس في جيشه بفشودة، أمر الخليفة الزاكي طمل بالإغارة على الدينكا الذين كانوا قد خضعوا، فذُبح الرجال وسُبيت النساء والأطفال ونُهبت الماشية.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "SLATIN1896"
+   ],
+   "note": "Also typhus outbreak in Zeki's army, same page. No year printed on p.487; no figure. VERIFY year.",
+   "citations": [
+    {
+     "source_id": "SLATIN1896",
+     "url": "https://archive.org/details/fireswordinsuda00slat",
+     "page": "p.487",
+     "quote": "seize their cattle and enslave their wives and children",
+     "registered": true
+    },
+    {
+     "source_id": "SLATIN1896",
+     "url": "https://archive.org/details/fireswordinsuda00slat",
+     "page": "p.487",
+     "quote": "they were massacred almost to a man, and their wives, children, and cattle carried off",
+     "registered": true
+    }
+   ],
+   "citation": {
+    "source_id": "SLATIN1896",
+    "url": "https://archive.org/details/fireswordinsuda00slat",
+    "page": "p.487",
+    "quote": "seize their cattle and enslave their wives and children",
     "registered": true
    }
   }
