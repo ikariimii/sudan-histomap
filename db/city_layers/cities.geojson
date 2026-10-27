@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "meta": {
-  "source": "db/cities.json @dee5230",
+  "source": "db/cities.json @e402a0a",
   "rule": "visible_from = map_from (founded, else first_attested, badge FIRST-ATTESTED); no map_from = list_only; abandoned null = inhabited_today; abandoned {year:null} = ruin (RUIN-UNDATED, inhabited_today false) ending at last_attested (carrying its badge), else last cited role end, else open"
  },
  "list_only": [
@@ -179,6 +179,76 @@
    "id": "jeddah",
    "name_en": "Jeddah",
    "reason": "no founding or first-attested year from a page-cited source; added as a regional event place (IM ruling 2026-10-26)"
+  },
+  {
+   "id": "nakheila",
+   "name_en": "Nakheila (on the Atbara)",
+   "reason": "no founding or first-attested year from a page-cited source; added as a battle place (IM ruling 2026-10-26)"
+  },
+  {
+   "id": "firket",
+   "name_en": "Firket (Jebel Ferka)",
+   "reason": "no founding or first-attested year from a page-cited source; added as a battle place (IM ruling 2026-10-26)"
+  },
+  {
+   "id": "shaykan",
+   "name_en": "Shaykan (Sheikan)",
+   "reason": "no founding or first-attested year from a page-cited source; added as a battle place (IM ruling 2026-10-26)"
+  },
+  {
+   "id": "karari",
+   "name_en": "Karari (Jabal Karari)",
+   "reason": "no founding or first-attested year from a page-cited source; added as a battle place (IM ruling 2026-10-26)"
+  },
+  {
+   "id": "el-teb",
+   "name_en": "El Teb",
+   "reason": "no founding or first-attested year from a page-cited source; added as a battle place (IM ruling 2026-10-26)"
+  },
+  {
+   "id": "tamai",
+   "name_en": "Tamai",
+   "reason": "no founding or first-attested year from a page-cited source; added as a battle place (IM ruling 2026-10-26)"
+  },
+  {
+   "id": "abu-klea",
+   "name_en": "Abu Klea (Abu Tulayh)",
+   "reason": "no founding or first-attested year from a page-cited source; added as a battle place (IM ruling 2026-10-26)"
+  },
+  {
+   "id": "ginnis",
+   "name_en": "Ginnis (east bank)",
+   "reason": "no founding or first-attested year from a page-cited source; added as a battle place (IM ruling 2026-10-26)"
+  },
+  {
+   "id": "kabushiya",
+   "name_en": "Kabushiya (al-'Abwab)",
+   "reason": "reference point for the Makuria c.1276 southern edge (IM request 2026-10-26); coordinate is the modern town (Wikidata P625), not an excavated site"
+  },
+  {
+   "id": "fifth-cataract",
+   "name_en": "Fifth Cataract of the Nile",
+   "reason": "reference point for the Makuria c.1276 southern edge (IM request 2026-10-26); natural feature, no founding date"
+  },
+  {
+   "id": "aba-island",
+   "name_en": "Aba Island",
+   "reason": "reference point for the Mahdist advance 1881 (control anchors, IM request 2026-10-26); Wikidata P625 precision 1'"
+  },
+  {
+   "id": "rejaf",
+   "name_en": "Rejaf",
+   "reason": "reference point for the Turco-Egyptian collapse in Equatoria (control anchors, IM request 2026-10-26); Wikidata P625 precision 1'"
+  },
+  {
+   "id": "manawashi",
+   "name_en": "Manawashi",
+   "reason": "reference point for the 1874 Darfur annexation (control anchors, IM request 2026-10-26); battlefield identification VERIFY"
+  },
+  {
+   "id": "zamzam",
+   "name_en": "Zamzam IDP camp",
+   "reason": "place_id for the 2024 Zamzam famine in db/disasters_post1956.json (Analyst request 2026-10-26)"
   }
  ],
  "features": [
@@ -214,9 +284,7 @@
      }
     ],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED"
+     "VERIFY"
     ],
     "history_en": "Capital of the Kerma kingdom of Upper Nubia.",
     "history_ar": "عاصمة مملكة كرمة في النوبة العليا.",
@@ -236,7 +304,17 @@
      }
     ],
     "map_from": -2450,
-    "visible_to_basis": "last_cited_role"
+    "visible_to_basis": "last_cited_role",
+    "card_notes": [
+     {
+      "en": "first attested (2450 BCE, KERMA_MISSION History)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -279,9 +357,7 @@
      }
     ],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED"
+     "VERIFY"
     ],
     "history_en": "First capital of Kush; later its religious centre.",
     "history_ar": "أول عاصمة لمملكة كوش ثم مركزها الديني.",
@@ -301,7 +377,17 @@
      }
     ],
     "map_from": -800,
-    "visible_to_basis": "last_cited_role"
+    "visible_to_basis": "last_cited_role",
+    "card_notes": [
+     {
+      "en": "first attested (800 BCE, GHA2_CH10 283)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -335,10 +421,8 @@
      }
     ],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED",
-     "LAST-ATTESTED+APPROXIMATE"
+     "VERIFY",
+     "APPROXIMATE"
     ],
     "history_en": "Sacred mountain of Amun at Napata; Egyptian and Kushite temples.",
     "history_ar": "جبل آمون المقدس في نبتة.",
@@ -358,7 +442,17 @@
      }
     ],
     "map_from": -1290,
-    "visible_to_basis": "last_attested"
+    "visible_to_basis": "last_attested",
+    "card_notes": [
+     {
+      "en": "first attested (1290 BCE, GHA2_CH9 268)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -392,10 +486,8 @@
      }
     ],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED",
-     "LAST-ATTESTED+APPROXIMATE"
+     "VERIFY",
+     "APPROXIMATE"
     ],
     "history_en": "Earliest royal cemetery of the Kushite kings.",
     "history_ar": "أقدم مقبرة ملكية لملوك كوش.",
@@ -415,7 +507,17 @@
      }
     ],
     "map_from": -800,
-    "visible_to_basis": "last_attested"
+    "visible_to_basis": "last_attested",
+    "card_notes": [
+     {
+      "en": "first attested (800 BCE, GHA2_CH11 300)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -450,9 +552,7 @@
     ],
     "badges": [
      "APPROXIMATE",
-     "AR-REVIEW",
-     "RUIN-UNDATED",
-     "LAST-ATTESTED+APPROXIMATE"
+     "VERIFY"
     ],
     "history_en": "Royal pyramid field begun by Taharqa.",
     "history_ar": "حقل أهرامات ملكية بدأه طهارقا.",
@@ -472,7 +572,13 @@
      }
     ],
     "map_from": -664,
-    "visible_to_basis": "last_attested"
+    "visible_to_basis": "last_attested",
+    "card_notes": [
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -506,10 +612,8 @@
      }
     ],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED",
-     "LAST-ATTESTED+APPROXIMATE"
+     "VERIFY",
+     "APPROXIMATE"
     ],
     "history_en": "Capital of Kush from about -300.",
     "history_ar": "عاصمة كوش منذ نحو 300 ق.م.",
@@ -529,7 +633,17 @@
      }
     ],
     "map_from": -300,
-    "visible_to_basis": "last_attested"
+    "visible_to_basis": "last_attested",
+    "card_notes": [
+     {
+      "en": "first attested (300 BCE, GHA2_CH11 301)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -563,10 +677,8 @@
      }
     ],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED",
-     "LAST-ATTESTED+APPROXIMATE"
+     "VERIFY",
+     "APPROXIMATE"
     ],
     "history_en": "Meroitic temple complex with the Lion Temple of Apedemak.",
     "history_ar": "مجمع معابد مروي فيه معبد الأسد لأباداماك.",
@@ -586,7 +698,17 @@
      }
     ],
     "map_from": -270,
-    "visible_to_basis": "last_attested"
+    "visible_to_basis": "last_attested",
+    "card_notes": [
+     {
+      "en": "first attested (270 BCE, GHA2_CH11 318)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -610,10 +732,8 @@
     "inhabited_today": false,
     "roles": [],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED",
-     "LAST-ATTESTED+APPROXIMATE"
+     "VERIFY",
+     "APPROXIMATE"
     ],
     "history_en": "Meroitic temple site in the Butana.",
     "history_ar": "موقع معابد مروية في البطانة.",
@@ -633,7 +753,17 @@
      }
     ],
     "map_from": -170,
-    "visible_to_basis": "last_attested"
+    "visible_to_basis": "last_attested",
+    "card_notes": [
+     {
+      "en": "first attested (170 BCE, GHA2_CH10 288)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -667,10 +797,8 @@
      }
     ],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED",
-     "LAST-ATTESTED+APPROXIMATE"
+     "VERIFY",
+     "APPROXIMATE"
     ],
     "history_en": "Meroitic temple and palace site near Meroe.",
     "history_ar": "موقع معابد وقصر مروي قرب مروي.",
@@ -690,7 +818,17 @@
      }
     ],
     "map_from": -270,
-    "visible_to_basis": "last_attested"
+    "visible_to_basis": "last_attested",
+    "card_notes": [
+     {
+      "en": "first attested (270 BCE, GHA2_CH11 314)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -714,9 +852,7 @@
     "inhabited_today": false,
     "roles": [],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED"
+     "VERIFY"
     ],
     "history_en": "Temple of Soleb built about -1400 under Egyptian rule.",
     "history_ar": "بُني معبد صولب نحو 1400 ق.م في عهد الحكم المصري.",
@@ -734,7 +870,17 @@
       "page": "Q1457914"
      }
     ],
-    "map_from": -1400
+    "map_from": -1400,
+    "card_notes": [
+     {
+      "en": "first attested (1400 BCE, GHA2 144)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -795,10 +941,8 @@
      }
     ],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED",
-     "LAST-ATTESTED+APPROXIMATE"
+     "VERIFY",
+     "APPROXIMATE"
     ],
     "history_en": "Egyptian fortress town at the Second Cataract.",
     "history_ar": "مدينة حصينة مصرية عند الشلال الثاني.",
@@ -830,7 +974,17 @@
      }
     ],
     "map_from": -2055,
-    "visible_to_basis": "last_attested"
+    "visible_to_basis": "last_attested",
+    "card_notes": [
+     {
+      "en": "first attested (2055 BCE, GHA2_CH9 266)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -864,9 +1018,7 @@
      }
     ],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED"
+     "VERIFY"
     ],
     "history_en": "Middle Kingdom border fortress at the Second Cataract.",
     "history_ar": "حصن حدودي للدولة الوسطى عند الشلال الثاني.",
@@ -882,7 +1034,17 @@
      }
     ],
     "map_from": -1991,
-    "visible_to_basis": "last_cited_role"
+    "visible_to_basis": "last_cited_role",
+    "card_notes": [
+     {
+      "en": "first attested (1991 BCE, GHA2_CH9 255)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -915,10 +1077,7 @@
      }
     ],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED",
-     "LAST-ATTESTED"
+     "VERIFY"
     ],
     "history_en": "Capital of Nobadia; cathedral with famous murals.",
     "history_ar": "عاصمة نوباديا وفيها كاتدرائية بجدارياتها الشهيرة.",
@@ -938,7 +1097,17 @@
      }
     ],
     "map_from": 400,
-    "visible_to_basis": "last_attested"
+    "visible_to_basis": "last_attested",
+    "card_notes": [
+     {
+      "en": "first attested (400 CE, GHA3_CH8 194)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -972,10 +1141,8 @@
      }
     ],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED",
-     "LAST-ATTESTED+APPROXIMATE"
+     "VERIFY",
+     "APPROXIMATE"
     ],
     "history_en": "Fortified hilltop town of Lower Nubia (Primis).",
     "history_ar": "مدينة حصينة على تل في النوبة السفلى.",
@@ -995,7 +1162,17 @@
      }
     ],
     "map_from": -23,
-    "visible_to_basis": "last_attested"
+    "visible_to_basis": "last_attested",
+    "card_notes": [
+     {
+      "en": "first attested (23 BCE, GHA2_CH10 290)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -1023,17 +1200,15 @@
       "role": "religious",
       "start": null,
       "end": null,
-      "source_id": "GHA2_CH6",
-      "page": "203",
-      "note": "Isis cult centre"
+      "badge": "VERIFY",
+      "source_id": "GHA2_CH10",
+      "page": "287",
+      "note": "In the Ergamenos (Ptolemaic-period) section: 'we have sanctuaries of common Egyptian and Nubian dedication at Philae and at Dakka in Lower Nubia' (GHA II p.287). Previous cite GHA II p.203 only says a temple at Debod was 'not far from Philae'; replaced."
      }
     ],
     "badges": [
      "VERIFY",
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED",
-     "LAST-ATTESTED+APPROXIMATE"
+     "APPROXIMATE"
     ],
     "history_en": "Island temple site; seat of bishops from the 4th century.",
     "history_ar": "جزيرة معابد، مقر أساقفة منذ القرن الرابع.",
@@ -1060,7 +1235,17 @@
      }
     ],
     "map_from": -305,
-    "visible_to_basis": "last_attested"
+    "visible_to_basis": "last_attested",
+    "card_notes": [
+     {
+      "en": "first attested (305 BCE, GHA2_CH10 287)",
+      "ar": "305 ق.م (GHA2_CH10 287) [يحتاج تحقق]"
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -1085,8 +1270,7 @@
     "roles": [],
     "badges": [
      "APPROXIMATE",
-     "AR-REVIEW",
-     "RUIN-UNDATED"
+     "VERIFY"
     ],
     "history_en": "Rock temples of Ramesses II.",
     "history_ar": "معابد رمسيس الثاني الصخرية.",
@@ -1097,7 +1281,13 @@
       "page": "Q134140"
      }
     ],
-    "map_from": -1274
+    "map_from": -1274,
+    "card_notes": [
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -1130,10 +1320,7 @@
      }
     ],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED",
-     "LAST-ATTESTED"
+     "VERIFY"
     ],
     "history_en": "Capital of Makuria and of united Nubia.",
     "history_ar": "عاصمة المقرة والنوبة الموحدة.",
@@ -1153,7 +1340,17 @@
      }
     ],
     "map_from": 500,
-    "visible_to_basis": "last_attested"
+    "visible_to_basis": "last_attested",
+    "card_notes": [
+     {
+      "en": "first attested (500 CE, GHA3_CH8 194)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -1185,10 +1382,7 @@
       "page": "196"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Capital of Alodia (Alwa) on the Blue Nile.",
     "history_ar": "عاصمة مملكة علوة على النيل الأزرق.",
     "history_source": null,
@@ -1207,7 +1401,13 @@
      }
     ],
     "map_from": 500,
-    "visible_to_basis": "abandoned"
+    "visible_to_basis": "abandoned",
+    "card_notes": [
+     {
+      "en": "first attested (500 CE, GHA3_CH8 196)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -1266,10 +1466,7 @@
       "note": "Ottoman garrison"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Egypt's southern frontier town; received Nubian tribute under the baqt.",
     "history_ar": "مدينة الحدود الجنوبية لمصر، كانت تتسلم جزية النوبة بموجب البقط.",
     "history_source": {
@@ -1306,7 +1503,13 @@
       "page": "Q29888"
      }
     ],
-    "map_from": -2200
+    "map_from": -2200,
+    "card_notes": [
+     {
+      "en": "first attested (2200 BCE, GHA2 238)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -1339,10 +1542,7 @@
       "note": "\"citizens of the capital community\""
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Capital of the Aksumite kingdom.",
     "history_ar": "عاصمة مملكة أكسوم.",
     "history_source": null,
@@ -1356,7 +1556,13 @@
       "page": "Q5832"
      }
     ],
-    "map_from": 100
+    "map_from": 100,
+    "card_notes": [
+     {
+      "en": "first attested (100 CE, GHA2_CH15 389)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -1399,9 +1605,8 @@
     ],
     "badges": [
      "CONTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED",
-     "LAST-ATTESTED+APPROXIMATE"
+     "VERIFY",
+     "APPROXIMATE"
     ],
     "history_en": "Red Sea port, later the harbour of Aksum.",
     "history_ar": "ميناء على البحر الأحمر صار ميناء أكسوم.",
@@ -1425,7 +1630,13 @@
      }
     ],
     "map_from": -250,
-    "visible_to_basis": "last_attested"
+    "visible_to_basis": "last_attested",
+    "card_notes": [
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -1468,9 +1679,7 @@
     ],
     "badges": [
      "APPROXIMATE",
-     "AR-REVIEW",
-     "RUIN-UNDATED",
-     "LAST-ATTESTED+APPROXIMATE"
+     "VERIFY"
     ],
     "history_en": "Medieval Red Sea port for trade and pilgrims.",
     "history_ar": "ميناء على البحر الأحمر في العصور الوسطى للتجارة والحجيج.",
@@ -1498,7 +1707,13 @@
      }
     ],
     "map_from": 700,
-    "visible_to_basis": "last_attested"
+    "visible_to_basis": "last_attested",
+    "card_notes": [
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -1532,8 +1747,7 @@
      }
     ],
     "badges": [
-     "APPROXIMATE",
-     "AR-REVIEW"
+     "APPROXIMATE"
     ],
     "history_en": "Historic coral-built Red Sea port.",
     "history_ar": "ميناء تاريخي مبني من المرجان على البحر الأحمر.",
@@ -1585,10 +1799,7 @@
       "note": "Funj consolidated at Sennar"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Funj capital; a major commercial centre described in 1701.",
     "history_ar": "عاصمة الفونج، ومركز تجاري كبير وُصف سنة 1701.",
     "history_source": {
@@ -1613,7 +1824,13 @@
       "page": "Q611867"
      }
     ],
-    "map_from": 1504
+    "map_from": 1504,
+    "card_notes": [
+     {
+      "en": "first attested (1504 CE, GHA4_CH16 406)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -1647,10 +1864,8 @@
      }
     ],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED",
-     "LAST-ATTESTED+APPROXIMATE"
+     "VERIFY",
+     "APPROXIMATE"
     ],
     "history_en": "Seat of the Abdallab chiefs north of Soba.",
     "history_ar": "مقر مشايخ العبدلاب شمال سوبا.",
@@ -1670,7 +1885,17 @@
      }
     ],
     "map_from": 1480,
-    "visible_to_basis": "last_attested"
+    "visible_to_basis": "last_attested",
+    "card_notes": [
+     {
+      "en": "first attested (1480 CE, GHA5_CH7 172)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -1694,10 +1919,8 @@
     "inhabited_today": false,
     "roles": [],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED",
-     "LAST-ATTESTED+APPROXIMATE"
+     "VERIFY",
+     "APPROXIMATE"
     ],
     "history_en": "Kobbei: settlement shown for location; no history line sourced yet.",
     "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
@@ -1717,7 +1940,17 @@
      }
     ],
     "map_from": 1750,
-    "visible_to_basis": "last_attested"
+    "visible_to_basis": "last_attested",
+    "card_notes": [
+     {
+      "en": "first attested (1750 CE, MACMICHAEL1922_V1 203)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -1725,8 +1958,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     29.1878,
-     16.7603
+     24.316149,
+     14.265713
     ]
    },
    "properties": {
@@ -1751,9 +1984,8 @@
      }
     ],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED"
+     "VERIFY",
+     "APPROXIMATE"
     ],
     "history_en": "Hilltop ruins in north Darfur with church remains.",
     "history_ar": "أطلال على تل في شمال دارفور فيها بقايا كنائس.",
@@ -1768,7 +2000,17 @@
       "page": "Q405860"
      }
     ],
-    "map_from": 1400
+    "map_from": 1400,
+    "card_notes": [
+     {
+      "en": "first attested (1400 CE, GHA4_CH16 420)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -1818,10 +2060,7 @@
       "note": "1822"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Ja'aliyin seat where Mek Nimir burned Isma'il Pasha in 1822.",
     "history_ar": "مقر الجعليين حيث أحرق المك نمر إسماعيل باشا سنة 1822.",
     "history_source": {
@@ -1850,7 +2089,13 @@
       "page": "Q997838"
      }
     ],
-    "map_from": 1801
+    "map_from": 1801,
+    "card_notes": [
+     {
+      "en": "first attested (1801 CE, MACMICHAEL1922_V1 233)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -1882,10 +2127,7 @@
       "page": "362"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Nile town taxed heavily after the 1821 conquest.",
     "history_ar": "مدينة نيلية فُرضت عليها ضرائب باهظة بعد غزو 1821.",
     "history_source": {
@@ -1902,7 +2144,13 @@
       "page": "Q375935"
      }
     ],
-    "map_from": 1821
+    "map_from": 1821,
+    "card_notes": [
+     {
+      "en": "first attested (1821 CE, GHA6_CH14 362)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -1925,10 +2173,7 @@
     "visible_to": null,
     "inhabited_today": true,
     "roles": [],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Border town; site of the 1889 battle of Matamma.",
     "history_ar": "بلدة حدودية وموقع معركة المتمة سنة 1889.",
     "history_source": {
@@ -1945,7 +2190,13 @@
       "page": "Q1246740"
      }
     ],
-    "map_from": 1889
+    "map_from": 1889,
+    "card_notes": [
+     {
+      "en": "first attested (1889 CE, GHA7_CH11 268)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -1968,10 +2219,7 @@
     "visible_to": null,
     "inhabited_today": true,
     "roles": [],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Border market town facing Metemma.",
     "history_ar": "بلدة سوق حدودية مقابل المتمة.",
     "history_source": {
@@ -1988,7 +2236,13 @@
       "page": "Q1014416"
      }
     ],
-    "map_from": 1840
+    "map_from": 1840,
+    "card_notes": [
+     {
+      "en": "first attested (1840 CE, MACMICHAEL1922_V1 254)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -2011,10 +2265,7 @@
     "visible_to": null,
     "inhabited_today": true,
     "roles": [],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Nile town where caravans left the river for the Bayuda in 1699.",
     "history_ar": "بلدة نيلية كانت القوافل تترك عندها النهر إلى صحراء بيوضة.",
     "history_source": {
@@ -2031,7 +2282,13 @@
       "page": "Q472841"
      }
     ],
-    "map_from": 1699
+    "map_from": 1699,
+    "card_notes": [
+     {
+      "en": "first attested (1699 CE, MACMICHAEL1922_V1 216)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -2064,10 +2321,7 @@
       "note": "Kordofan"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Kordofan town; a scene of military risings under Turco-Egyptian rule.",
     "history_ar": "مدينة في كردفان شهدت تمردات عسكرية في العهد التركي المصري.",
     "history_source": {
@@ -2084,7 +2338,13 @@
       "page": "Q309475"
      }
     ],
-    "map_from": 1865
+    "map_from": 1865,
+    "card_notes": [
+     {
+      "en": "first attested (1865 CE, GHA6_CH14 363)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -2117,8 +2377,7 @@
      }
     ],
     "badges": [
-     "CONTESTED",
-     "AR-REVIEW"
+     "CONTESTED"
     ],
     "history_en": "Royal capital of Ethiopia from Fasiladas.",
     "history_ar": "العاصمة الملكية لإثيوبيا منذ فاسيلداس.",
@@ -2166,10 +2425,7 @@
       "note": "annexed by the Ottomans in 1557 (province of Habesh)"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Red Sea port annexed by the Ottomans in 1557.",
     "history_ar": "ميناء على البحر الأحمر ضمه العثمانيون سنة 1557.",
     "history_source": null,
@@ -2187,7 +2443,13 @@
       "page": "Q275635"
      }
     ],
-    "map_from": 1520
+    "map_from": 1520,
+    "card_notes": [
+     {
+      "en": "first attested (1520 CE, GHAV 706)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -2222,10 +2484,7 @@
       "group_note": "Shilluk: an ethnic group, not a timeline era (owner t218u); group record in db/ethnic_groups.json"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Shilluk royal seat, later Kodok.",
     "history_ar": "مقر ملوك الشلك، ثم كودوك.",
     "history_source": null,
@@ -2239,7 +2498,13 @@
       "page": "Q1888763"
      }
     ],
-    "map_from": 1490
+    "map_from": 1490,
+    "card_notes": [
+     {
+      "en": "first attested (1490 CE, GHA6_CH14 366)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -2322,10 +2587,7 @@
       "note": "UN News: \"armed fighting in the Sudanese capital, Khartoum\""
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Capital at the confluence of the Niles.",
     "history_ar": "العاصمة عند ملتقى النيلين.",
     "history_source": null,
@@ -2363,7 +2625,13 @@
       "page": "Q1963"
      }
     ],
-    "map_from": 1899
+    "map_from": 1899,
+    "card_notes": [
+     {
+      "en": "first attested (1899 CE, GHAVII 81)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -2396,10 +2664,7 @@
       "note": "the Khalifa's capital; end = battle of 1898"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Mahdist capital on the west bank of the Nile.",
     "history_ar": "عاصمة المهدية على الضفة الغربية للنيل.",
     "history_source": null,
@@ -2413,7 +2678,13 @@
       "page": "Q180921"
      }
     ],
-    "map_from": 1885
+    "map_from": 1885,
+    "card_notes": [
+     {
+      "en": "first attested (1885 CE, GHA7_CH4 78)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -2446,8 +2717,7 @@
      }
     ],
     "badges": [
-     "CONTESTED",
-     "AR-REVIEW"
+     "CONTESTED"
     ],
     "history_en": "Sudan's main seaport, built under the Condominium.",
     "history_ar": "الميناء الرئيسي للسودان، أنشئ في عهد الحكم الثنائي.",
@@ -2496,8 +2766,7 @@
      }
     ],
     "badges": [
-     "APPROXIMATE",
-     "AR-REVIEW"
+     "APPROXIMATE"
     ],
     "history_en": "Eastern town; scene of the 1865 garrison mutiny.",
     "history_ar": "مدينة شرقية شهدت تمرد الحامية سنة 1865.",
@@ -2548,10 +2817,7 @@
       "note": "scene of a garrison rising in 1844"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Main town of the Gezira.",
     "history_ar": "كبرى مدن الجزيرة.",
     "history_source": null,
@@ -2565,7 +2831,13 @@
       "page": "Q852528"
      }
     ],
-    "map_from": 1821
+    "map_from": 1821,
+    "card_notes": [
+     {
+      "en": "first attested (1821 CE, GHA6_CH14 360)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -2608,8 +2880,7 @@
      }
     ],
     "badges": [
-     "APPROXIMATE",
-     "AR-REVIEW"
+     "APPROXIMATE"
     ],
     "history_en": "Capital of South Sudan on the White Nile.",
     "history_ar": "عاصمة جنوب السودان على النيل الأبيض.",
@@ -2672,10 +2943,7 @@
       "note": "Shilluk in Malakal"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Near the first Shilluk settlement under Nyikang (c.1490-1517).",
     "history_ar": "بالقرب من أول مستوطنة للشلك بقيادة نيكانغ.",
     "history_source": {
@@ -2696,7 +2964,13 @@
       "page": "Q220049"
      }
     ],
-    "map_from": 1490
+    "map_from": 1490,
+    "card_notes": [
+     {
+      "en": "first attested (1490 CE, GHA5_CH7 193)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -2729,10 +3003,7 @@
       "note": "\"atrocities… at Juba and Waw\""
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Wau: settlement shown for location; no history line sourced yet.",
     "history_ar": "موقع للدلالة الجغرافية؛ لا يوجد سطر تاريخي موثق بعد.",
     "history_source": null,
@@ -2746,7 +3017,13 @@
       "page": "Q276534"
      }
     ],
-    "map_from": 1964
+    "map_from": 1964,
+    "card_notes": [
+     {
+      "en": "first attested (1964 CE, LOC1991_CIVIL6469 countrystudies.us/sudan/22.htm)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -2779,10 +3056,7 @@
       "note": "capital of the Italian colony by end of 1889"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Capital of Eritrea.",
     "history_ar": "عاصمة إريتريا.",
     "history_source": null,
@@ -2796,7 +3070,13 @@
       "page": "Q3642"
      }
     ],
-    "map_from": 1889
+    "map_from": 1889,
+    "card_notes": [
+     {
+      "en": "first attested (1889 CE, GHA7_CH11 268)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -2829,8 +3109,7 @@
      }
     ],
     "badges": [
-     "APPROXIMATE",
-     "AR-REVIEW"
+     "APPROXIMATE"
     ],
     "history_en": "Capital of Chad, founded as Fort-Lamy.",
     "history_ar": "عاصمة تشاد، أسست باسم فور لامي.",
@@ -2878,10 +3157,7 @@
       "note": "order HQ moved to Al Kufrah"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Saharan oasis on the route from Cyrenaica to Wadai.",
     "history_ar": "واحة صحراوية على الطريق من برقة إلى وداي.",
     "history_source": {
@@ -2902,7 +3178,13 @@
       "page": "Q172114"
      }
     ],
-    "map_from": 950
+    "map_from": 950,
+    "card_notes": [
+     {
+      "en": "first attested (950 CE, GHAIII 283)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -2926,8 +3208,7 @@
     "inhabited_today": true,
     "roles": [],
     "badges": [
-     "APPROXIMATE",
-     "AR-REVIEW"
+     "APPROXIMATE"
     ],
     "history_en": "Capital of the Central African Republic.",
     "history_ar": "عاصمة جمهورية أفريقيا الوسطى.",
@@ -2971,10 +3252,7 @@
       "note": "railway hub linked to Port Sudan (role = railway trade)"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Railway town; site of the 1898 battle of Atbara.",
     "history_ar": "مدينة السكك الحديدية وموقع معركة عطبرة 1898.",
     "history_source": {
@@ -2995,7 +3273,13 @@
       "page": "Q753906"
      }
     ],
-    "map_from": 1898
+    "map_from": 1898,
+    "card_notes": [
+     {
+      "en": "first attested (1898 CE, GHA7_CH4 78)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -3018,10 +3302,7 @@
     "visible_to": null,
     "inhabited_today": true,
     "roles": [],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Eastern town; refuge during the 1822 revolt.",
     "history_ar": "مدينة شرقية لجأ إليها الفارون أثناء ثورة 1822.",
     "history_source": {
@@ -3038,7 +3319,13 @@
       "page": "Q311199"
      }
     ],
-    "map_from": 1822
+    "map_from": 1822,
+    "card_notes": [
+     {
+      "en": "first attested (1822 CE, GHA6_CH14 362)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -3071,10 +3358,7 @@
       "note": "government garrison"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Nile town in Jonglei; former government post.",
     "history_ar": "مدينة نيلية في جونقلي، كانت مركزا حكوميا.",
     "history_source": null,
@@ -3088,7 +3372,13 @@
       "page": "Q893274"
      }
     ],
-    "map_from": 1885
+    "map_from": 1885,
+    "card_notes": [
+     {
+      "en": "first attested (1885 CE, GHA6_CH14 371)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -3111,10 +3401,7 @@
     "visible_to": null,
     "inhabited_today": true,
     "roles": [],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Early Luo settlement (Wipac) in Bahr al-Ghazal.",
     "history_ar": "موضع استيطان مبكر للوو (ويباك) في بحر الغزال.",
     "history_source": {
@@ -3131,7 +3418,13 @@
       "page": "Q607336"
      }
     ],
-    "map_from": 1500
+    "map_from": 1500,
+    "card_notes": [
+     {
+      "en": "first attested (1500 CE, GHAV 777)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -3154,10 +3447,7 @@
     "visible_to": null,
     "inhabited_today": true,
     "roles": [],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Red Sea coastal town; lost by the Mahdists in 1891.",
     "history_ar": "بلدة ساحلية خسرها الأنصار سنة 1891.",
     "history_source": {
@@ -3174,7 +3464,13 @@
       "page": "Q1010754"
      }
     ],
-    "map_from": 1891
+    "map_from": 1891,
+    "card_notes": [
+     {
+      "en": "first attested (1891 CE, GHA7_CH4 77)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -3208,10 +3504,7 @@
      }
     ],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED",
-     "LAST-ATTESTED"
+     "VERIFY"
     ],
     "history_en": "Upper Nile trading station and base for Baker.",
     "history_ar": "محطة تجارية على النيل الأعلى وقاعدة لبيكر.",
@@ -3231,7 +3524,17 @@
      }
     ],
     "map_from": 1859,
-    "visible_to_basis": "last_attested"
+    "visible_to_basis": "last_attested",
+    "card_notes": [
+     {
+      "en": "first attested (1859 CE, GHA6_CH14 366)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -3265,10 +3568,7 @@
      }
     ],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "RUIN-UNDATED",
-     "LAST-ATTESTED"
+     "VERIFY"
     ],
     "history_en": "Equatoria station after 1876.",
     "history_ar": "محطة في الاستوائية بعد 1876.",
@@ -3284,7 +3584,17 @@
      }
     ],
     "map_from": 1876,
-    "visible_to_basis": "last_attested"
+    "visible_to_basis": "last_attested",
+    "card_notes": [
+     {
+      "en": "first attested (1876 CE, GHA6_CH14 371)",
+      "ar": null
+     },
+     {
+      "en": "end undated",
+      "ar": "تاريخ النهاية غير موثق [يحتاج تحقق]"
+     }
+    ]
    }
   },
   {
@@ -3307,10 +3617,7 @@
     "visible_to": null,
     "inhabited_today": true,
     "roles": [],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Tigray town with an early government school.",
     "history_ar": "مدينة في تيغراي فيها مدرسة حكومية مبكرة.",
     "history_source": {
@@ -3327,7 +3634,13 @@
       "page": "Q332319"
      }
     ],
-    "map_from": 1934
+    "map_from": 1934,
+    "card_notes": [
+     {
+      "en": "first attested (1934 CE, GHAVII 731)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -3361,9 +3674,7 @@
      }
     ],
     "badges": [
-     "APPROXIMATE",
-     "AR-REVIEW",
-     "APPROXIMATE-COORDS"
+     "APPROXIMATE"
     ],
     "history_en": "Southernmost Arab town in the Gezira; the Funj defeated the Abdallab there in 1504.",
     "history_ar": "أقصى بلدة عربية جنوبا في الجزيرة؛ هزم فيها الفونج العبدلاب سنة 1504.",
@@ -3409,9 +3720,7 @@
     "inhabited_today": true,
     "roles": [],
     "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW",
-     "APPROXIMATE-COORDS"
+     "APPROXIMATE"
     ],
     "history_en": "Ja'aliyin headquarters sacked by the Mahdist amir Mahmud in 1897.",
     "history_ar": "مقر الجعليين الذي اجتاحه الأمير محمود ود أحمد سنة 1897.",
@@ -3433,7 +3742,13 @@
       "page": "235"
      }
     ],
-    "map_from": 1801
+    "map_from": 1801,
+    "card_notes": [
+     {
+      "en": "first attested (1801 CE, MACMICHAEL1922_V1 233)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -3457,9 +3772,7 @@
     "inhabited_today": false,
     "roles": [],
     "badges": [
-     "APPROXIMATE",
-     "AR-REVIEW",
-     "APPROXIMATE-COORDS"
+     "APPROXIMATE"
     ],
     "history_en": "Egyptian and Kushite temple town (Gematon) near Dongola.",
     "history_ar": "مدينة معابد مصرية وكوشية (جماتون) قرب دنقلا.",
@@ -3519,10 +3832,7 @@
       "page": "325"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Ptolemaic capital (GHA II p.184); port of Ottoman/Muhammad Ali Egypt (GHA VI p.325).",
     "history_ar": "عاصمة البطالمة (GHA II ص184)؛ ميناء مصر في العهد العثماني وعهد محمد علي (GHA VI ص325).",
     "history_source": {
@@ -3543,7 +3853,13 @@
       "page": "Q87"
      }
     ],
-    "map_from": -305
+    "map_from": -305,
+    "card_notes": [
+     {
+      "en": "first attested (305 BCE, GHA2_CH6 184)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -3594,10 +3910,7 @@
       "note": "Cairo's support of Nimeiri"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Capital of Islamic Egypt after Fustat (GHA III p.163) and of Muhammad Ali's Egypt (GHA VI p.325).",
     "history_ar": "عاصمة مصر الإسلامية بعد الفسطاط (GHA III ص163) وعاصمة مصر في عهد محمد علي (GHA VI ص325).",
     "history_source": {
@@ -3622,7 +3935,13 @@
       "page": "Q85"
      }
     ],
-    "map_from": 641
+    "map_from": 641,
+    "card_notes": [
+     {
+      "en": "first attested (641 CE, GHA3_CH7 163)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -3655,10 +3974,7 @@
       "note": "regional seat of Abbasid authority"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "First Arab capital of Egypt, seat of Abbasid provincial authority before Cairo (GHA III pp.163, 171).",
     "history_ar": "أول عاصمة عربية لمصر، ومقر السلطة العباسية الإقليمية قبل القاهرة (GHA III ص163، 171).",
     "history_source": {
@@ -3675,7 +3991,13 @@
       "page": "Q839456"
      }
     ],
-    "map_from": 641
+    "map_from": 641,
+    "card_notes": [
+     {
+      "en": "first attested (641 CE, GHA3_CH7 171)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -3708,10 +4030,7 @@
       "note": "\"built the city of Gazargamo… capital of the Sefuwa for over three centuries\""
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Capital of the Sefuwa of Bornu for over three centuries (GHA IV p.265).",
     "history_ar": "عاصمة السيفيين في برنو لأكثر من ثلاثة قرون (GHA IV ص265).",
     "history_source": {
@@ -3728,7 +4047,13 @@
       "page": "Q1496614"
      }
     ],
-    "map_from": 1380
+    "map_from": 1380,
+    "card_notes": [
+     {
+      "en": "first attested (1380 CE, GHA4_CH10 265)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -3761,10 +4086,7 @@
       "note": "\"the temple of Yeha\""
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Site of the temple of Yeha, the main surviving monument of the pre-Aksumite period, later a church (GHA II p.343).",
     "history_ar": "موقع معبد يحا، أبرز معلم باقٍ من فترة ما قبل أكسوم، تحوّل لاحقًا إلى كنيسة (GHA II ص343).",
     "history_source": {
@@ -3781,7 +4103,13 @@
       "page": "Q1081229"
      }
     ],
-    "map_from": -980
+    "map_from": -980,
+    "card_notes": [
+     {
+      "en": "first attested (980 BCE, GHA2_CH13 343)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -3814,10 +4142,7 @@
       "note": "rock churches (Beta-Maryam in Lalibela)"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Seat of the rock-hewn churches of the Zagwe period (GHA III p.573).",
     "history_ar": "موقع الكنائس المنحوتة في الصخر من عهد أسرة زاغوي (GHA III ص573).",
     "history_source": {
@@ -3834,7 +4159,13 @@
       "page": "Q207590"
      }
     ],
-    "map_from": 900
+    "map_from": 900,
+    "card_notes": [
+     {
+      "en": "first attested (900 CE, GHA3_CH19 573)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -3875,10 +4206,7 @@
       "page": "138"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Madinat al-Nabi, destination of the hijra in 622, the first Islamic capital (GHA III p.35); holy city under the Ottomans (GHA V p.138).",
     "history_ar": "مدينة النبي، وجهة الهجرة سنة 622 وأول عاصمة إسلامية (GHA III ص35)؛ مدينة مقدسة في العهد العثماني (GHA V ص138).",
     "history_source": {
@@ -3899,7 +4227,13 @@
       "page": "Q35484"
      }
     ],
-    "map_from": 622
+    "map_from": 622,
+    "card_notes": [
+     {
+      "en": "first attested (622 CE, GHA3_CH2 35)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -3939,10 +4273,7 @@
       "page": "138"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Birthplace of the Prophet Muhammad (GHA III p.31); holy city under the Ottomans (GHA V p.138).",
     "history_ar": "مسقط رأس النبي محمد (GHA III ص31)؛ مدينة مقدسة في العهد العثماني (GHA V ص138).",
     "history_source": {
@@ -3963,7 +4294,13 @@
       "page": "Q5806"
      }
     ],
-    "map_from": 610
+    "map_from": 610,
+    "card_notes": [
+     {
+      "en": "first attested (610 CE, GHA3_CH2 31)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -3996,10 +4333,7 @@
       "note": "\"The national capital of Addis Ababa\""
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "National capital of Ethiopia, in the centre of the country (LOC Ethiopia country study).",
     "history_ar": "العاصمة الوطنية لإثيوبيا في وسط البلاد (دراسة مكتبة الكونغرس عن إثيوبيا).",
     "history_source": {
@@ -4016,7 +4350,13 @@
       "page": "Q3624"
      }
     ],
-    "map_from": 1974
+    "map_from": 1974,
+    "card_notes": [
+     {
+      "en": "first attested (1974 CE, LOC_ETH1991_TOPO countrystudies.us/ethiopia/40.htm)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -4049,10 +4389,7 @@
       "note": "destroyed -88"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Upper Egyptian city destroyed in -88 (GHA II p.208).",
     "history_ar": "مدينة في صعيد مصر دُمّرت سنة -88 (GHA II ص208).",
     "history_source": {
@@ -4069,7 +4406,13 @@
       "page": "Q101583"
      }
     ],
-    "map_from": -305
+    "map_from": -305,
+    "card_notes": [
+     {
+      "en": "first attested (305 BCE, GHA2_CH7 208)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -4102,10 +4445,7 @@
       "note": "royal cemetery (Emery and Kirwan, Ballana and Qustul)"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "X-Group royal cemetery excavated by Emery and Kirwan with Qustul, a few miles south of Abu Simbel (GHA II p.294).",
     "history_ar": "جبانة ملكية لثقافة المجموعة X نقّب فيها إمري وكيروان مع قسطل جنوب أبو سمبل (GHA II ص294).",
     "history_source": {
@@ -4122,7 +4462,13 @@
       "page": "Q18832705"
      }
     ],
-    "map_from": 350
+    "map_from": 350,
+    "card_notes": [
+     {
+      "en": "first attested (350 CE, GHA2_CH10 294)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -4155,10 +4501,7 @@
       "note": "Grand Sanusi passed through c.1830"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Town of Tripolitania through which the Grand Sanusi passed c.1830 (LOC Libya country study).",
     "history_ar": "مدينة في طرابلس الغرب مرّ بها السنوسي الكبير نحو 1830 (دراسة مكتبة الكونغرس عن ليبيا).",
     "history_source": {
@@ -4175,7 +4518,13 @@
       "page": "Q3579"
      }
     ],
-    "map_from": 1551
+    "map_from": 1551,
+    "card_notes": [
+     {
+      "en": "first attested (1551 CE, LOC_LBY1987_SANUSI countrystudies.us/libya/18.htm)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -4208,10 +4557,7 @@
       "note": "Italian occupation 1923"
      }
     ],
-    "badges": [
-     "FIRST-ATTESTED",
-     "AR-REVIEW"
-    ],
+    "badges": [],
     "history_en": "Cyrenaican town; the Italo-Sanusi war began in 1923 with the Italian occupation of the Benghazi area (LOC Libya country study).",
     "history_ar": "مدينة في برقة؛ بدأت الحرب الإيطالية السنوسية سنة 1923 باحتلال إيطاليا لمنطقة بنغازي (دراسة مكتبة الكونغرس عن ليبيا).",
     "history_source": {
@@ -4228,7 +4574,13 @@
       "page": "Q40816"
      }
     ],
-    "map_from": 1923
+    "map_from": 1923,
+    "card_notes": [
+     {
+      "en": "first attested (1923 CE, LOC_LBY1987_ITALOSANUSI countrystudies.us/libya/21.htm)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -4251,9 +4603,7 @@
     "visible_to": null,
     "inhabited_today": true,
     "roles": [],
-    "badges": [
-     "FIRST-ATTESTED"
-    ],
+    "badges": [],
     "history_en": "Eastern Equatoria town; taken by the SPLA in 1988 and by the government on 28 May 1992 (HRW).",
     "history_ar": null,
     "history_source": {
@@ -4270,7 +4620,13 @@
       "page": "Ch. II and note 27"
      }
     ],
-    "map_from": 1988
+    "map_from": 1988,
+    "card_notes": [
+     {
+      "en": "first attested (1988 CE, HRW1993_CIVDEV note 27)",
+      "ar": null
+     }
+    ]
    }
   },
   {
@@ -4293,9 +4649,7 @@
     "visible_to": null,
     "inhabited_today": true,
     "roles": [],
-    "badges": [
-     "FIRST-ATTESTED"
-    ],
+    "badges": [],
     "history_en": "Unity State capital; defecting SPLA forces claimed control of it on 21 December 2013 (UNMISS).",
     "history_ar": null,
     "history_source": {
@@ -4312,7 +4666,13 @@
       "page": "para 41 (p.15)"
      }
     ],
-    "map_from": 2013
+    "map_from": 2013,
+    "card_notes": [
+     {
+      "en": "first attested (2013 CE, UNMISS_HRR2014 para 41 (p.15))",
+      "ar": null
+     }
+    ]
    }
   }
  ]
