@@ -354,6 +354,49 @@
           "AR-REVIEW"
         ],
         "standalone": true
+      },
+      {
+        "event_id": "nimeiry-era-democratic-republic-of-sudan#27",
+        "date": 1973,
+        "date_full": "1973-05",
+        "date_precision": "month",
+        "en": "In May 1973 the Constituent Assembly promulgated a draft constitution. (LOC1991_POLDEV HTML page, no page numbers)",
+        "ar": "في مايو 1973 أصدرت الجمعية التأسيسية مسودة دستور. [يحتاج تحقق]",
+        "quote": "In May 1973, the Constitutent Assembly promulgated a draft constitution.",
+        "flags": [
+          "AR-REVIEW"
+        ],
+        "badges": [
+          "SINGLE-SOURCE"
+        ],
+        "badge": "SINGLE-SOURCE",
+        "cite": {
+          "source_id": "LOC1991_POLDEV",
+          "pages": "HTML page, no page numbers"
+        },
+        "standalone": true
+      },
+      {
+        "event_id": "nimeiry-era-democratic-republic-of-sudan#28",
+        "date": 1976,
+        "date_full": "1976-07",
+        "date_precision": "month",
+        "en": "In July 1976 an Ansar-inspired coup attempt against Nimeiri failed. (LOC1991_POLDEV HTML page, no page numbers)",
+        "ar": "في يوليو 1976 فشلت محاولة انقلاب مستلهمة من الأنصار ضد نميري. [يحتاج تحقق]",
+        "quote": "Their activity crystallized in a July 1976 Ansar-inspired coup attempt.",
+        "place_id": "khartoum",
+        "flags": [
+          "AR-REVIEW"
+        ],
+        "badges": [
+          "SINGLE-SOURCE"
+        ],
+        "badge": "SINGLE-SOURCE",
+        "cite": {
+          "source_id": "LOC1991_POLDEV",
+          "pages": "HTML page, no page numbers"
+        },
+        "standalone": true
       }
     ],
     "transitional-third-parliamentary-period": [
@@ -1456,51 +1499,6 @@
       "url": "https://documents.un.org/api/symbol/access?s=S/RES/2459(2019)&l=en&t=pdf",
       "pages": "p.1 preamble",
       "lang": "en"
-    }
-  ],
-  "pending": [
-    {
-      "event_id": "nimeiry-era-democratic-republic-of-sudan#p1",
-      "date": 1973,
-      "date_full": "1973-05",
-      "date_precision": "month",
-      "en": "In May 1973 the Constituent Assembly promulgated a draft constitution.",
-      "ar": "في مايو 1973 أصدرت الجمعية التأسيسية مسودة دستور. [يحتاج تحقق]",
-      "pending_source": {
-        "url": "https://countrystudies.us/sudan/25.htm",
-        "title": "Political Developments",
-        "publisher": "Library of Congress, 1991"
-      },
-      "quote": "In May 1973, the Constitutent Assembly promulgated a draft constitution.",
-      "flags": [
-        "AR-REVIEW"
-      ],
-      "badges": [
-        "SINGLE-SOURCE"
-      ],
-      "badge": "SINGLE-SOURCE"
-    },
-    {
-      "event_id": "nimeiry-era-democratic-republic-of-sudan#p2",
-      "date": 1976,
-      "date_full": "1976-07",
-      "date_precision": "month",
-      "en": "In July 1976 an Ansar-inspired coup attempt against Nimeiri failed.",
-      "ar": "في يوليو 1976 فشلت محاولة انقلاب مستلهمة من الأنصار ضد نميري. [يحتاج تحقق]",
-      "pending_source": {
-        "url": "https://countrystudies.us/sudan/25.htm",
-        "title": "Political Developments",
-        "publisher": "Library of Congress, 1991"
-      },
-      "quote": "Their activity crystallized in a July 1976 Ansar-inspired coup attempt.",
-      "place_id": "khartoum",
-      "flags": [
-        "AR-REVIEW"
-      ],
-      "badges": [
-        "SINGLE-SOURCE"
-      ],
-      "badge": "SINGLE-SOURCE"
     }
   ],
   "disaster_refs": {
