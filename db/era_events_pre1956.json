@@ -1,0 +1,533 @@
+{
+ "meta": {
+  "description": "Pre-1956 key events per era (Sudan), richer set beyond periods.json key_events. Disasters live in db/disasters_pre1956.json. Separate file: not joined by index into era_events. Every event cites a registered source with printed page and verbatim quote (box OCR text; letter-spaced OCR kept where unavoidable). Arabic is a working translation tagged [يحتاج تحقق] and queued in db/ar_review_queue.json (AR-REVIEW, internal). image is null where no Commons image with license/author was checked.",
+  "created": "2026-10-27",
+  "categories": [
+   "political",
+   "ruler",
+   "treaty",
+   "battle",
+   "uprising",
+   "migration",
+   "trade",
+   "religion",
+   "policy",
+   "other"
+  ]
+ },
+ "events": [
+  {
+   "id": "ev-1820-turco-egyptian-conquest",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "category": "political",
+   "title": {
+    "en": "Turco-Egyptian conquest of the Sudan; Sennar capitulates",
+    "ar": "الفتح التركي المصري للسودان واستسلام سنار [يحتاج تحقق]"
+   },
+   "date_start": "1820",
+   "date_end": "1821",
+   "date_precision": "year",
+   "location": {
+    "place_id": "sennar",
+    "lat": 13.55,
+    "lon": 33.6,
+    "precision": "city"
+   },
+   "summary_en": "Exploiting the break-up of the Funj sultanate into weak, hostile shaykhdoms, Muhammad Ali, Viceroy of Egypt, conquered the Sudan in 1820-1. The Funj rulers at Sennar capitulated in 1821, opening some sixty years of Turco-Egyptian rule.",
+   "summary_ar": "[يحتاج تحقق] استغل محمد علي والي مصر تفكك السلطنة الزرقاء إلى مشيخات ضعيفة متناحرة، فغزا السودان في 1820-1821. واستسلم حكام الفونج في سنار عام 1821، فبدأ حكم تركي مصري دام نحو ستين عامًا.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA6_CH14"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.357",
+     "quote": "their counterparts in Sennär capitulated to the Turkish rulers in 1821"
+    },
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.357",
+     "quote": "an opportunity that he was impatiently awaiting to add the Sudan to his domains in 1820-1"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1822-shendi-revolt",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "category": "uprising",
+   "title": {
+    "en": "Revolt of 1822: Mek Nimir burns Ismail Pasha at Shendi",
+    "ar": "ثورة 1822: المك نمر يحرق إسماعيل باشا في شندي [يحتاج تحقق]"
+   },
+   "date_start": "1822-10",
+   "date_end": null,
+   "date_precision": "month",
+   "location": {
+    "place_id": "shendi",
+    "lat": 16.69139,
+    "lon": 33.43389,
+    "precision": "city"
+   },
+   "summary_en": "Heavy taxes imposed on the Gezira and Berber in 1821 provoked a violent revolt in February 1822. When Ismail, Muhammad Ali's son, demanded 30,000 dollars and 6,000 slaves from the Ja'aliyin at Shendi and struck Mek Nimir, Nimir had him and his staff burned alive in late October 1822, and the revolt spread.",
+   "summary_ar": "[يحتاج تحقق] أدت الضرائب الباهظة على الجزيرة وبربر عام 1821 إلى ثورة عنيفة في فبراير 1822. وحين طالب إسماعيل بن محمد علي الجعليين في شندي بثلاثين ألف ريال وستة آلاف رقيق وضرب المك نمر، أحرقه نمر مع حاشيته أواخر أكتوبر 1822، وامتدت الثورة.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA6_CH14"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.362",
+     "quote": "they rose in violent protest in February 1822"
+    },
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.362",
+     "quote": "alive at Shendi in late October 1822"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1838-muhammad-ali-visit-fazughli",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "category": "ruler",
+   "title": {
+    "en": "Muhammad Ali travels to Fazughli in search of gold",
+    "ar": "محمد علي يسافر إلى فازوغلي بحثًا عن الذهب [يحتاج تحقق]"
+   },
+   "date_start": "1838",
+   "date_end": "1839",
+   "date_precision": "year",
+   "location": {
+    "area": "Fazughli (Blue Nile)",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "Convinced that the Sudan held abundant gold, Muhammad Ali travelled from Cairo to Fazughli in 1838-9, at the age of seventy, to supervise mining. His three-week stay was disappointing: the mines had produced no gold and drained the Egyptian treasury.",
+   "summary_ar": "[يحتاج تحقق] اقتناعًا منه بوفرة الذهب في السودان، سافر محمد علي من القاهرة إلى فازوغلي في 1838-1839 وهو في السبعين للإشراف على التعدين. وجاءت إقامته التي دامت ثلاثة أسابيع مخيبة: فلم تنتج المناجم ذهبًا واستنزفت الخزانة المصرية.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA6_CH14"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.361",
+     "quote": "Finally, in 1838-9, at the age of seventy, he travelled all the w a y from Cairo to Fazughli to supervise the mining"
+    },
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.361",
+     "quote": "But his three-week stay was disappointing."
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1844-medani-mutiny",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "category": "uprising",
+   "title": {
+    "en": "Mutiny of Sudanese soldiers at Medani",
+    "ar": "تمرد الجنود السودانيين في مدني [يحتاج تحقق]"
+   },
+   "date_start": "1844",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "area": "Wad Medani (Gezira)",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "Sudanese soldiers planned to revolt at the same time in Khartoum, Sennar, Kamlin and Medani. Those at Medani rose early in 1844, killed some of their Turkish officers and fled to Sennar, and the government put the rising down only with great difficulty.",
+   "summary_ar": "[يحتاج تحقق] خطط جنود سودانيون للثورة في وقت واحد في الخرطوم وسنار والكاملين ومدني. فثار جنود مدني قبل الموعد عام 1844 وقتلوا بعض ضباطهم الأتراك وفرّوا إلى سنار، ولم تقمع الحكومة التمرد إلا بصعوبة بالغة.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA6_CH14"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.360",
+     "quote": "the most important of those risings was that of Medani in 1844"
+    },
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.361",
+     "quote": "But those of Medani rose before the scheduled time, killed some of their Turkish officers"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1840-white-nile-trade-zeribas",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "category": "trade",
+   "title": {
+    "en": "White Nile trade opened: zeribas and the slave traffic",
+    "ar": "فتح تجارة النيل الأبيض: الزرائب وتجارة الرقيق [يحتاج تحقق]"
+   },
+   "date_start": "1840",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "area": "White Nile and southern Sudan",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "From 1840 raids along the White Nile drove the trade in people to enormous proportions. Traders built fortified zeribas, an idea borrowed from Darfur, as bases for barter and raids, backed by armed private armies.",
+   "summary_ar": "[يحتاج تحقق] منذ عام 1840 بلغت تجارة البشر على النيل الأبيض أحجامًا هائلة بفعل الغارات. وبنى التجار زرائب محصّنة، وهي فكرة مأخوذة من دارفور، قواعدَ للمقايضة والغارات تحميها جيوش خاصة مسلحة.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA6_CH14"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.363",
+     "quote": "from 1840 the traffic in h u m a n"
+    },
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.364",
+     "quote": "T h e traders built zeribas (forts), an idea which they borrowed from Dârfûr"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": "See also disasters_pre1956 dis-turkiyya-white-nile-slaving-kaka."
+  },
+  {
+   "id": "ev-1854-slave-trade-abolition-kaka",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "category": "policy",
+   "title": {
+    "en": "Slave trade abolished in the Turkish-controlled Sudan; Kaka booms",
+    "ar": "إلغاء تجارة الرقيق في السودان الخاضع للترك وازدهار سوق كاكا [يحتاج تحقق]"
+   },
+   "date_start": "1854",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "area": "Kaka (northern Shilluk country, White Nile)",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "The slave trade was abolished in the Turkish-controlled Sudan in 1854. The ban partly explains the boom at Kaka, outside effective control in northern Shilluk country, which became the main slave market of the White Nile.",
+   "summary_ar": "[يحتاج تحقق] أُلغيت تجارة الرقيق في السودان الخاضع للحكم التركي عام 1854. ويفسر هذا الحظر جزئيًا ازدهار كاكا في شمال بلاد الشلك، التي صارت السوق الرئيسية للرقيق على النيل الأبيض.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA6_CH14"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.364",
+     "quote": "the abolition of the slave trade in the Turkish-controlled Sudan in 1854"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1865-kassala-mutiny",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "category": "uprising",
+   "title": {
+    "en": "Mutiny of the Sudanese fourth regiment at Kassala",
+    "ar": "تمرد الأورطة السودانية الرابعة في كسلا [يحتاج تحقق]"
+   },
+   "date_start": "1865",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "place_id": "kassala",
+    "lat": 15.45,
+    "lon": 36.4,
+    "precision": "city"
+   },
+   "summary_en": "In 1865, angered by the suspension of their pay, the Sudanese fourth regiment at Kassala killed some of its Turkish officers and besieged the town for twenty-six days. It was the most serious military revolt of the Turkiyya.",
+   "summary_ar": "[يحتاج تحقق] في عام 1865، وغضبًا من وقف رواتبهم، قتل جنود الأورطة السودانية الرابعة في كسلا بعض ضباطهم الأتراك وحاصروا المدينة ستة وعشرين يومًا. وكان أخطر تمرد عسكري في عهد التركية.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA6_CH14"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.363",
+     "quote": "But the most serious military revolt took place in Kassala in 1865."
+    },
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.363",
+     "quote": "besieged the town for twenty-six days"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1868-shilluk-war",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "category": "battle",
+   "title": {
+    "en": "Shilluk war against the Turkish government",
+    "ar": "حرب الشلك ضد الحكومة التركية [يحتاج تحقق]"
+   },
+   "date_start": "1868-11",
+   "date_end": null,
+   "date_precision": "month",
+   "location": {
+    "place_id": "fashoda",
+    "lat": 9.8875,
+    "lon": 32.11028,
+    "precision": "region"
+   },
+   "summary_en": "Heavy cattle taxes and demands for slave-soldiers turned Shilluk resistance into full-scale war by 1868. In November that year a force of 2,000 troops sent to subdue the Shilluk met fierce resistance, with inconclusive results.",
+   "summary_ar": "[يحتاج تحقق] حوّلت ضرائب الماشية الباهظة والمطالبة بالرقيق للجندية مقاومةَ الشلك إلى حرب شاملة بحلول 1868. وفي نوفمبر من ذلك العام واجهت قوة من ألفي جندي أُرسلت لإخضاعهم مقاومة شرسة دون نتيجة حاسمة.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA6_CH14"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.366",
+     "quote": "B y 1868 the protracted conflict had become a full-scale war."
+    },
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.366",
+     "quote": "a force of 2000 troops sent to subdue the Shilluk m e t with fierce resistance"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1867-european-traders-expelled",
+   "era_id": "khedive-ismail-s-expansion-turkiyya",
+   "category": "trade",
+   "title": {
+    "en": "European traders forced out of the Sudan",
+    "ar": "إخراج التجار الأوروبيين من السودان [يحتاج تحقق]"
+   },
+   "date_start": "1867",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "area": "Nile trade, southern Sudan",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "Khedive Ismail gradually asserted Turkish authority over the Nile trade, and by 1867 European traders had been forced to leave the Sudan. Control of its commerce passed to Turks and Arabs from Egypt and the northern Sudan.",
+   "summary_ar": "[يحتاج تحقق] فرض الخديوي إسماعيل تدريجيًا السلطة التركية على تجارة النيل، وبحلول 1867 أُجبر التجار الأوروبيون على مغادرة السودان. وانتقلت السيطرة على تجارته إلى الترك والعرب من مصر وشمال السودان.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA6_CH14"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.368",
+     "quote": "B y 1867 European traders were forced to leave the Sudan"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1869-baker-gordon-equatoria",
+   "era_id": "khedive-ismail-s-expansion-turkiyya",
+   "category": "political",
+   "title": {
+    "en": "Baker and Gordon's drive to annex Equatoria",
+    "ar": "حملة بيكر وغوردون لضم الاستوائية [يحتاج تحقق]"
+   },
+   "date_start": "1869",
+   "date_end": "1879",
+   "date_precision": "year",
+   "location": {
+    "place_id": "gondokoro",
+    "lat": 4.9,
+    "lon": 31.66667,
+    "precision": "region"
+   },
+   "summary_en": "Ismail's attempt to annex Equatoria was led by two British officers, Samuel Baker (1869-73) and Charles George Gordon (1874-6 and 1877-9). Despite heavy use of violence, they could not extend Turkish administration beyond a few scattered posts, and Gordon, as governor-general (1877-9), abandoned the advance.",
+   "summary_ar": "[يحتاج تحقق] قاد محاولة إسماعيل ضم الاستوائية ضابطان بريطانيان: صمويل بيكر (1869-1873) وتشارلز جورج غوردون (1874-1876 و1877-1879). ورغم إفراطهما في العنف لم يمدّا الإدارة التركية إلا إلى نقاط متفرقة، وتخلى غوردون حاكمًا عامًا (1877-1879) عن التقدم.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA6_CH14"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.368",
+     "quote": "two British officers: Samuel Baker (1869-73) and Charles George Gordon (1874-6 and 1877-9)"
+    },
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.368",
+     "quote": "were unable to extend Turkish administration in Equatoria beyond a few scattered posts"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1872-zubayr-bahr-al-ghazal",
+   "era_id": "khedive-ismail-s-expansion-turkiyya",
+   "category": "ruler",
+   "title": {
+    "en": "Al-Zubayr Rahma defeats a government expedition and is made governor of Bahr al-Ghazal",
+    "ar": "الزبير رحمة يهزم حملة حكومية ويُعيَّن حاكمًا لبحر الغزال [يحتاج تحقق]"
+   },
+   "date_start": "1872",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "area": "Bahr al-Ghazal",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "Al-Zubayr Rahma Mansur, the greatest slave trader of the region, had built a vast trading empire in Bahr al-Ghazal. In 1872 he defeated a government expedition and killed its leader, and Khedive Ismail then recognised him as governor of Bahr al-Ghazal.",
+   "summary_ar": "[يحتاج تحقق] أقام الزبير رحمة منصور، أكبر تجار الرقيق في الإقليم، إمبراطورية تجارية واسعة في بحر الغزال. وفي 1872 هزم حملة حكومية وقتل قائدها، فاعترف به الخديوي إسماعيل حاكمًا لبحر الغزال.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA6_CH14"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.371",
+     "quote": "H e defeated a government expedition and killed its leader in 1872."
+    },
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.371",
+     "quote": "Khedive Ismail officially recognized Zubayr as the governor of Bahr al-Ghazäl"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1874-manawashi-darfur-annexed",
+   "era_id": "khedive-ismail-s-expansion-turkiyya",
+   "category": "battle",
+   "title": {
+    "en": "Battle of Manawashi: Sultan Ibrahim killed, Darfur annexed",
+    "ar": "معركة منواشي: مقتل السلطان إبراهيم وضم دارفور [يحتاج تحقق]"
+   },
+   "date_start": "1874",
+   "date_end": null,
+   "date_precision": "year",
+   "location": {
+    "place_id": "manawashi",
+    "lat": 12.688889,
+    "lon": 24.995,
+    "precision": "city"
+   },
+   "summary_en": "Zubayr turned on Darfur as a source of slaves, and Sultan Ibrahim mobilised the Fur army against him. Ibrahim was defeated and killed at the battle of Manawashi in 1874, ending Keira rule, and Darfur was annexed to the Turkish regime.",
+   "summary_ar": "[يحتاج تحقق] اتجه الزبير إلى دارفور مصدرًا للرقيق، فحشد السلطان إبراهيم جيش الفور لمقاومته. وهُزم إبراهيم وقُتل في معركة منواشي عام 1874، فانتهى حكم الكيرا وضُمّت دارفور إلى الحكم التركي.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA6_CH14"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.371",
+     "quote": "killed at the battle of Manwäshi in 1874, and Därfür was thus annexed to the Turkish regime"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": null
+  },
+  {
+   "id": "ev-1877-amir-harun-revolt",
+   "era_id": "khedive-ismail-s-expansion-turkiyya",
+   "category": "uprising",
+   "title": {
+    "en": "Revolt of Amir Harun in Darfur",
+    "ar": "ثورة الأمير هارون في دارفور [يحتاج تحقق]"
+   },
+   "date_start": "1877",
+   "date_end": "1880",
+   "date_precision": "year",
+   "location": {
+    "area": "Darfur; Nuba mountains (Dud Banga)",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "summary_en": "The largest Keira restoration revolt in Darfur was led by Amir Harun from 1877, and he harassed the Turkish forces for three years until he was killed in 1880. His relative Abdallah Dud Banga carried on from a fortified camp in the Nuba mountains.",
+   "summary_ar": "[يحتاج تحقق] قاد الأمير هارون منذ 1877 أكبر ثورات الكيرا لاستعادة حكمهم في دارفور، وظل يناوش القوات التركية ثلاث سنوات حتى قُتل عام 1880. وواصل قريبه عبد الله دود بنقا القتال من معسكر محصّن في جبال النوبة.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA6_CH14"
+   ],
+   "citations": [
+    {
+     "source_id": "GHA6_CH14",
+     "page": "p.363",
+     "quote": "their rule had he not been killed in 1880"
+    }
+   ],
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "image": null,
+   "note": "Start-year quote on p.362 is OCR-garbled ('A m i r Hariin in 1877'): printed 'Amir Harun in 1877'."
+  }
+ ]
+}
