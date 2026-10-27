@@ -5982,6 +5982,117 @@
     }
    ],
    "list_only_reason": "reference point for the Makuria c.1276 southern edge (IM request 2026-10-26); natural feature, no founding date"
-  }
+  },
+ {
+  "id": "aba-island",
+  "name_en": "Aba Island",
+  "name_ar": "جزيرة آبا [يحتاج تحقق]",
+  "name_ar_source": "wikidata (ar label of Q2786061) — queued in db/ar_review_queue.json [يحتاج تحقق]",
+  "wikidata": "Q2786061",
+  "lat": 13.333333,
+  "lon": 32.616667,
+  "coord_source": {
+   "source_id": "WIKIDATA_CITIES",
+   "page": "Q2786061",
+   "badge": "APPROXIMATE"
+  },
+  "category": "historic",
+  "founded": null,
+  "founded_reason": "not stated in the sources read for this layer",
+  "abandoned": null,
+  "roles": [],
+  "history_en": "White Nile island where the government expedition against the Mahdi was defeated in 1881 (GHA VII ch.4 p.74).",
+  "history_ar": null,
+  "history_source": {
+   "source_id": "GHA7_CH4",
+   "page": "74"
+  },
+  "history_ar_status": "missing — queued in db/ar_review_queue.json",
+  "source_ids": [
+   {
+    "id": "WIKIDATA_CITIES",
+    "page": "Q2786061"
+   },
+   {
+    "id": "GHA7_CH4",
+    "page": "74"
+   }
+  ],
+  "list_only_reason": "reference point for the Mahdist advance 1881 (control anchors, IM request 2026-10-26); Wikidata P625 precision 1'"
+ },
+ {
+  "id": "rejaf",
+  "name_en": "Rejaf",
+  "name_ar": null,
+  "name_ar_source": "missing — Wikidata Q3067207 has no Arabic label; queued in db/ar_review_queue.json [يحتاج تحقق]",
+  "wikidata": "Q3067207",
+  "lat": 4.75,
+  "lon": 31.583333,
+  "coord_source": {
+   "source_id": "WIKIDATA_CITIES",
+   "page": "Q3067207",
+   "badge": "APPROXIMATE"
+  },
+  "category": "historic",
+  "founded": null,
+  "founded_reason": "not stated in the sources read for this layer",
+  "abandoned": null,
+  "roles": [],
+  "history_en": "Equatoria post attacked with Lado by the Bari chief Bego by 1885 (GHA VI ch.14 p.371).",
+  "history_ar": null,
+  "history_source": {
+   "source_id": "GHA6_CH14",
+   "page": "371"
+  },
+  "history_ar_status": "missing — queued in db/ar_review_queue.json",
+  "source_ids": [
+   {
+    "id": "WIKIDATA_CITIES",
+    "page": "Q3067207"
+   },
+   {
+    "id": "GHA6_CH14",
+    "page": "371"
+   }
+  ],
+  "list_only_reason": "reference point for the Turco-Egyptian collapse in Equatoria (control anchors, IM request 2026-10-26); Wikidata P625 precision 1'"
+ },
+ {
+  "id": "manawashi",
+  "name_en": "Manawashi",
+  "name_ar": null,
+  "name_ar_source": "missing — Wikidata Q139553073 has no Arabic label; queued in db/ar_review_queue.json [يحتاج تحقق]",
+  "wikidata": "Q139553073",
+  "lat": 12.688889,
+  "lon": 24.995,
+  "coord_source": {
+   "source_id": "WIKIDATA_CITIES",
+   "page": "Q139553073",
+   "badge": "APPROXIMATE"
+  },
+  "category": "historic",
+  "founded": null,
+  "founded_reason": "not stated in the sources read for this layer",
+  "abandoned": null,
+  "roles": [],
+  "history_en": "Battle of Manwashi, 1874: Sultan Ibrahim of Darfur defeated and killed and Darfur annexed (GHA VI ch.14 p.371). The Wikidata item is a modern village; identity with the battlefield not confirmed (VERIFY).",
+  "history_ar": null,
+  "history_source": {
+   "source_id": "GHA6_CH14",
+   "page": "371"
+  },
+  "history_ar_status": "missing — queued in db/ar_review_queue.json",
+  "source_ids": [
+   {
+    "id": "WIKIDATA_CITIES",
+    "page": "Q139553073"
+   },
+   {
+    "id": "GHA6_CH14",
+    "page": "371"
+   }
+  ],
+  "list_only_reason": "reference point for the 1874 Darfur annexation (control anchors, IM request 2026-10-26); battlefield identification VERIFY"
+ }
  ]
 }
