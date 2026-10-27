@@ -12,7 +12,7 @@
      "WP_MAKURIA_2026"
     ]
    },
-   "note": "WP_MAKURIA and WP_MAKURIA_2026 (same Wikipedia Makuria article) excluded from mamluk-sultanate transition cites: the Makuria post-1276 reach (Lower Nubia to Kordofan under Siti) and the Abu Hamad anchor are unsourced and removed. The OHM Mamluk polygons are reference only; they stop at c.19.9N and do not draw the Makuria reach, so no pair or shape part depended on it and geometry is unchanged. Makuria 1276-1364 rests on SFDAS_HCS2017 p.419 only (vassalage, cession of whole provinces), with no drawn limit."
+   "note": "WP_MAKURIA and WP_MAKURIA_2026 (same Wikipedia Makuria article) excluded from mamluk-sultanate transition cites: the Makuria post-1276 reach (Lower Nubia to Kordofan under Siti) and the Abu Hamad anchor are unsourced and removed. The OHM Mamluk polygons are reference only; they stop at c.19.9N and do not draw the Makuria reach, so no pair or shape part depended on it and geometry is unchanged. Makuria 1276-1364 vassalage and cession of provinces: VERIFY (no accepted source yet), with no drawn limit."
   },
   "totals": {
    "era_steps": 59,
@@ -2522,10 +2522,6 @@
       "zone": null,
       "cites": [
        {
-        "id": "SFDAS_HCS2017",
-        "pages": null
-       },
-       {
         "id": "GHA2",
         "pages": null
        },
@@ -2562,10 +2558,6 @@
       "feature_index": 0,
       "zone": null,
       "cites": [
-       {
-        "id": "SFDAS_HCS2017",
-        "pages": null
-       },
        {
         "id": "GHA2",
         "pages": null
@@ -2654,96 +2646,7 @@
    "from_era": "egyptian-new-kingdom-rule-in-nubia",
    "to_era": "kingdom-of-kush-napatan-period",
    "stream": "Sudan – Middle Nile",
-   "pairs": [
-    {
-     "from": {
-      "era_id": "egyptian-new-kingdom-rule-in-nubia",
-      "feature_id": "zone-egyptian-new-kingdom-rule-in-nubia-core-0",
-      "feature_index": 3,
-      "zone": "core",
-      "cites": [
-       {
-        "id": "GHA2_CH9",
-        "pages": "GHA II ch.9 pp.267, 270"
-       }
-      ]
-     },
-     "to": {
-      "era_id": "kingdom-of-kush-napatan-period",
-      "feature_id": "kingdom-of-kush-napatan-period#1",
-      "feature_index": 1,
-      "zone": null,
-      "cites": [
-       {
-        "id": "SFDAS_HCS2017",
-        "pages": null
-       },
-       {
-        "id": "NATURAL_EARTH",
-        "pages": null
-       }
-      ]
-     },
-     "mode": "cross_fade",
-     "iou": 0.29,
-     "shared_edge_km_approx": 44.1,
-     "changed_sides": {
-      "west": "expands 0.149 deg",
-      "south": "contracts 0.124 deg",
-      "east": "expands 0.931 deg",
-      "north": "contracts 2.557 deg"
-     },
-     "area_change_pct": 20.8
-    },
-    {
-     "from": {
-      "era_id": "egyptian-new-kingdom-rule-in-nubia",
-      "feature_id": "zone-egyptian-new-kingdom-rule-in-nubia-claimed-1",
-      "feature_index": 4,
-      "zone": "claimed",
-      "cites": [
-       {
-        "id": "DAVIES2003",
-        "pages": "Davies 2003 pp.23–37; GHA II pp.241, 261"
-       },
-       {
-        "id": "SARS_KURGUS",
-        "pages": "Davies 2003 pp.23–37; GHA II pp.241, 261"
-       },
-       {
-        "id": "GHA2_CH9",
-        "pages": "Davies 2003 pp.23–37; GHA II pp.241, 261"
-       }
-      ]
-     },
-     "to": {
-      "era_id": "kingdom-of-kush-napatan-period",
-      "feature_id": "kingdom-of-kush-napatan-period#1",
-      "feature_index": 1,
-      "zone": null,
-      "cites": [
-       {
-        "id": "SFDAS_HCS2017",
-        "pages": null
-       },
-       {
-        "id": "NATURAL_EARTH",
-        "pages": null
-       }
-      ]
-     },
-     "mode": "cross_fade",
-     "iou": 0.245,
-     "shared_edge_km_approx": 38.6,
-     "changed_sides": {
-      "west": "expands 1.57 deg",
-      "south": "expands 0.185 deg",
-      "east": "expands 0.346 deg",
-      "north": "expands 2.004 deg"
-     },
-     "area_change_pct": 295.2
-    }
-   ],
+   "pairs": [],
    "fade_out": [],
    "fade_in": [
     "kingdom-of-kush-napatan-period#0"
@@ -2761,10 +2664,6 @@
       "feature_index": 0,
       "zone": null,
       "cites": [
-       {
-        "id": "SFDAS_HCS2017",
-        "pages": null
-       },
        {
         "id": "GHA2",
         "pages": null
@@ -2809,54 +2708,6 @@
       "north": "contracts 6.789 deg"
      },
      "area_change_pct": -36.2
-    },
-    {
-     "from": {
-      "era_id": "kingdom-of-kush-napatan-period",
-      "feature_id": "kingdom-of-kush-napatan-period#1",
-      "feature_index": 1,
-      "zone": null,
-      "cites": [
-       {
-        "id": "SFDAS_HCS2017",
-        "pages": null
-       },
-       {
-        "id": "NATURAL_EARTH",
-        "pages": null
-       }
-      ]
-     },
-     "to": {
-      "era_id": "kingdom-of-kush-meroitic-period",
-      "feature_id": "kingdom-of-kush-meroitic-period#0",
-      "feature_index": 0,
-      "zone": null,
-      "cites": [
-       {
-        "id": "GHA2",
-        "pages": null
-       },
-       {
-        "id": "NAGA_PROJ",
-        "pages": null
-       },
-       {
-        "id": "NATURAL_EARTH",
-        "pages": null
-       }
-      ]
-     },
-     "mode": "morph",
-     "iou": 0.527,
-     "shared_edge_km_approx": 1509.7,
-     "changed_sides": {
-      "west": "unchanged",
-      "south": "expands 2.4 deg",
-      "east": "expands 0.218 deg",
-      "north": "expands 1.58 deg"
-     },
-     "area_change_pct": 89.3
     }
    ],
    "fade_out": [],
