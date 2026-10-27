@@ -273,3 +273,6 @@ dialog.plsh::backdrop{background:#0008}.plsh .plgrab{width:44px;height:5px;borde
 .egart img{max-width:100%;height:auto}.egart figcaption{font-size:.85em}
 .egl .egi{fill:none;stroke:#0f1b24;stroke-width:1}
 .chr>ul{padding-inline-start:1em}.chr li>ul{margin:.2em 0 .5em}.chp{margin:.2em 0}.evf{margin:.5em 0}.evf img{max-width:100%;height:auto;display:block}
+
+/* QA t28 2g: VERIFY badge on point markers */
+.pt.vfy .vfyb{font:700 10px system-ui,sans-serif;fill:#ffd166;stroke:#0f1b24;stroke-width:2.5px;paint-order:stroke;pointer-events:none}
