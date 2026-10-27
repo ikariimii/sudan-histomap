@@ -5,7 +5,6 @@
   "missing": [
    "1946 Nile flood: no lawful open printed source with page numbers found (Sudan Notes and Records 1946-48 on Internet Archive is an in-copyright periodical scan, not used)",
    "Famine 1888-92 range / 'Sanat Sitta' name: no printed page found",
-   "Omdurman 1898 toll: Churchill, The River War (1899) vol. II p.200 prints '9,700 killed, and wounded variously estimated from 10,000 to 16,000. There were, besides, 5,000 prisoners' (archive.org 1899RiverWarVol2); not entered because the source is not yet registered (data/periods.json has uncommitted edits by another worker)",
    "Turkiyya slave-raiding zones, Mahdist-era emigration to Wadai, 1946 flood, pre-1821 eras (Kerma to Funj): no paged cite checked in this pass"
   ]
  },
@@ -373,6 +372,246 @@
     "url": "https://archive.org/details/fireswordinsuda00slat",
     "page": "p.487",
     "quote": "seize their cattle and enslave their wives and children",
+    "registered": true
+   }
+  },
+  {
+   "id": "dis-1898-omdurman-dervish-losses",
+   "era_id": "rule-of-the-khalifa-abdallahi",
+   "type": "disaster",
+   "subtype": "mass_killing",
+   "title": {
+    "en": "Battle of Omdurman: Mahdist (Ansar) losses",
+    "ar": "معركة أم درمان: خسائر الأنصار [يحتاج تحقق]"
+   },
+   "date_start": "1898-09-02",
+   "date_end": null,
+   "date_precision": "day",
+   "place_id": "omdurman",
+   "location": {
+    "place_id": "omdurman",
+    "lat": 15.68352,
+    "lon": 32.46289,
+    "precision": "area"
+   },
+   "figures": [
+    {
+     "text": "9,700 killed",
+     "as_of": "Churchill 1899, vol. II p.200"
+    },
+    {
+     "text": "wounded variously estimated from 10,000 to 16,000",
+     "as_of": "Churchill 1899, vol. II p.200 (range)"
+    },
+    {
+     "text": "5,000 prisoners",
+     "as_of": "Churchill 1899, vol. II p.200"
+    }
+   ],
+   "status": null,
+   "badges": [
+    "SINGLE-SOURCE",
+    "REPORTED"
+   ],
+   "summary_en": "At the Battle of Omdurman on 2 September 1898, the Anglo-Egyptian army destroyed the Khalifa's forces. Churchill gives the Mahdist losses as 9,700 killed, 10,000 to 16,000 wounded and 5,000 prisoners, figures computed by the victors.",
+   "summary_ar": "[يحتاج تحقق] في معركة أم درمان يوم 2 سبتمبر 1898 دمّر الجيش الإنجليزي المصري قوات الخليفة. ويذكر تشرشل أن خسائر الأنصار بلغت 9700 قتيل، وما بين 10000 و16000 جريح، و5000 أسير، وهي أرقام حسبها المنتصرون.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "CHURCHILL1899_RIVERWAR2"
+   ],
+   "note": "Date from the chapter heading 'THE BATTLE OF OMDURMAN SEPTEMBER 2, 1898' (vol. II, ch. XX). Toll is the British computation.",
+   "citations": [
+    {
+     "source_id": "CHURCHILL1899_RIVERWAR2",
+     "url": "https://archive.org/details/1899RiverWarVol2",
+     "page": "p.200",
+     "quote": "The Dervish losses were, from computations made on the field and corrected at a later date, ascertained to be 9,700 killed, and wounded variously estimated from 10,000 to 16,000. There were, besides, 5,000 prisoners.",
+     "registered": true
+    }
+   ],
+   "citation": {
+    "source_id": "CHURCHILL1899_RIVERWAR2",
+    "url": "https://archive.org/details/1899RiverWarVol2",
+    "page": "p.200",
+    "quote": "The Dervish losses were, from computations made on the field and corrected at a later date, ascertained to be 9,700 killed, and wounded variously estimated from 10,000 to 16,000. There were, besides, 5,000 prisoners.",
+    "registered": true
+   }
+  },
+  {
+   "id": "dis-turkiyya-ghazwa-nuba-fazughli",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "type": "disaster",
+   "subtype": "raid",
+   "title": {
+    "en": "Turco-Egyptian slave raids (ghazwas) in the Nuba hills and beyond Fazughli",
+    "ar": "غزوات الرقيق التركية المصرية في جبال النوبة وما وراء فازوغلي [يحتاج تحقق]"
+   },
+   "date_start": null,
+   "date_end": "1838",
+   "date_precision": "range-end-only",
+   "place_id": null,
+   "location": {
+    "area": "Nuba Mountains (Kordofan) and the country beyond Fazughli (Blue Nile)",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "figures": [],
+   "status": null,
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "summary_en": "Muhammad Ali pressed his commanders to intensify armed slave raids (ghazwas) to recruit Sudanese for his new army, sending captives to a camp at Aswan. Until 1838 hardly a year passed without raids in the Nuba hills and beyond Fazughli, and many captives died en route or at Aswan.",
+   "summary_ar": "[يحتاج تحقق] ضغط محمد علي على قادته لتكثيف غزوات الرقيق المسلحة لتجنيد السودانيين في جيشه الجديد، وأُرسل الأسرى إلى معسكر في أسوان. وحتى عام 1838 لم تكد تمر سنة دون غزوات في جبال النوبة وما وراء فازوغلي، ومات كثير من الأسرى في الطريق أو في أسوان.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA6_CH14"
+   ],
+   "note": "Quote keeps the OCR letter-spacing of 'N u b a' as in the box text; printed 'Nuba'. Start year not printed on p.359 (conquest 1820-21 per chapter); VERIFY start.",
+   "citations": [
+    {
+     "source_id": "GHA6_CH14",
+     "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184295",
+     "page": "p.359",
+     "quote": "the Sudan to intensify their ghazuas - armed slave raids - and to send the greatest possible number of Africans to the camp specially made for them at Aswan",
+     "registered": true
+    },
+    {
+     "source_id": "GHA6_CH14",
+     "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184295",
+     "page": "p.359",
+     "quote": "hardly a year passed until 1838 without at least one or more ghazuas for the blacks in the N u b a hills and beyond Fazughli",
+     "registered": true
+    }
+   ],
+   "citation": {
+    "source_id": "GHA6_CH14",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184295",
+    "page": "p.359",
+    "quote": "the Sudan to intensify their ghazuas - armed slave raids - and to send the greatest possible number of Africans to the camp specially made for them at Aswan",
+    "registered": true
+   }
+  },
+  {
+   "id": "dis-turkiyya-white-nile-slaving-kaka",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "type": "disaster",
+   "subtype": "raid",
+   "title": {
+    "en": "White Nile slave raiding and the Kaka slave market",
+    "ar": "غارات الرقيق على النيل الأبيض وسوق كاكا للرقيق [يحتاج تحقق]"
+   },
+   "date_start": "1840",
+   "date_end": "1860",
+   "date_precision": "year",
+   "place_id": null,
+   "location": {
+    "area": "White Nile, Shilluk country (Kaka) and Jieng (Dinka) lands",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "figures": [
+    {
+     "text": "an average of 2000 slaves were being sold annually at Kaka",
+     "as_of": "by 1860 (GHA VI p.364; OCR 'i860')"
+    }
+   ],
+   "status": null,
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "summary_en": "From 1840 raids along the White Nile turned the slave traffic into a mass trade, run from fortified zeribas, and Baggara who could not pay cattle taxes raided the Jieng (Dinka) for slaves. Kaka in northern Shilluk country became the main White Nile slave market, selling about 2,000 slaves a year by 1860.",
+   "summary_ar": "[يحتاج تحقق] منذ عام 1840 حوّلت الغارات على طول النيل الأبيض تجارة الرقيق إلى تجارة واسعة انطلاقًا من الزرائب المحصّنة، وأغار البقارة الذين عجزوا عن دفع ضرائب الماشية على الجينق (الدينكا) طلبًا للرقيق. وصارت كاكا في شمال بلاد الشلك السوق الرئيسية للرقيق على النيل الأبيض، يُباع فيها نحو 2000 رقيق سنويًا بحلول 1860.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA6_CH14"
+   ],
+   "note": "Quotes keep box-text OCR spacing ('m a d e', 'h u m a n', 'i860' = printed 1860).",
+   "citations": [
+    {
+     "source_id": "GHA6_CH14",
+     "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184295",
+     "page": "p.363",
+     "quote": "Frequent raids were m a d e along the White Nile for the purpose of capturing slaves, and from 1840 the traffic in h u m a n",
+     "registered": true
+    },
+    {
+     "source_id": "GHA6_CH14",
+     "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184295",
+     "page": "p.364",
+     "quote": "lives reached enormous proportions",
+     "registered": true
+    },
+    {
+     "source_id": "GHA6_CH14",
+     "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184295",
+     "page": "p.364",
+     "quote": "raided the Jieng for slaves",
+     "registered": true
+    },
+    {
+     "source_id": "GHA6_CH14",
+     "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184295",
+     "page": "p.364",
+     "quote": "It is estimated that by i860, an average of 2000 slaves were being sold annually at Kaka",
+     "registered": true
+    }
+   ],
+   "citation": {
+    "source_id": "GHA6_CH14",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184295",
+    "page": "p.363",
+    "quote": "Frequent raids were m a d e along the White Nile for the purpose of capturing slaves, and from 1840 the traffic in h u m a n",
+    "registered": true
+   }
+  },
+  {
+   "id": "dis-fip-wawat-famine-relief",
+   "era_id": "c-group-lower-nubia",
+   "type": "disaster",
+   "subtype": "famine",
+   "title": {
+    "en": "Famine in Wawat (Lower Nubia) relieved with Egyptian grain",
+    "ar": "مجاعة في واوات (النوبة السفلى) خُففت بحبوب مصرية [يحتاج تحقق]"
+   },
+   "date_start": null,
+   "date_end": null,
+   "date_precision": "period (First Intermediate Period)",
+   "place_id": null,
+   "location": {
+    "area": "Wawat (Lower Nubia)",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "figures": [],
+   "status": null,
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "summary_en": "At the end of the Old Kingdom, the prince of Edfu recorded on his tomb at Mealla that grain was sent to Wawat in Lower Nubia to prevent famine. GHA reads this as evidence that Egypt-Nubia relations continued in the First Intermediate Period.",
+   "summary_ar": "[يحتاج تحقق] في نهاية الدولة القديمة سجّل أمير إدفو على جدار مقبرته في المعلا أن الحبوب أُرسلت إلى واوات في النوبة السفلى لدرء المجاعة. وتعدّ الموسوعة ذلك دليلًا على استمرار العلاقات بين مصر والنوبة في عصر الانتقال الأول.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA2_CH4"
+   ],
+   "note": "No year printed; dated only to the First Intermediate Period (end of Old Kingdom). Chapter attribution GHA2_CH4 by page range pp.136-154; VERIFY chapter.",
+   "citations": [
+    {
+     "source_id": "GHA2_CH4",
+     "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265",
+     "page": "p.142",
+     "quote": "grain was sent to W a w a t to prevent famine",
+     "registered": true
+    }
+   ],
+   "citation": {
+    "source_id": "GHA2_CH4",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184265",
+    "page": "p.142",
+    "quote": "grain was sent to W a w a t to prevent famine",
     "registered": true
    }
   }
