@@ -35,9 +35,9 @@
   "checked_against_note": "mean_error_km values are the errors of the maps the shape was checked against, not of the shape.",
   "rules": "Derived only from the input files; nothing inferred. Base source is null when the properties do not name one.",
   "totals": {
-   "eras": 68,
-   "shapes": 251,
-   "base_source_null": 7,
+   "eras": 78,
+   "shapes": 290,
+   "base_source_null": 13,
    "overlay_error_non_null": 0,
    "checked_against_shapes": 25
   }
@@ -11135,6 +11135,1624 @@
     "contested": 0,
     "trade_routes": 0,
     "base_source_null": 0
+   }
+  },
+  "transitional-military-council-tmc": {
+   "name_en": "Transitional Military Council (TMC)",
+   "stream": "Sudan – Republic",
+   "start": 1985,
+   "end": 1986,
+   "shapes": [
+    {
+     "layer": "extents",
+     "file": "db/extents/transitional-military-council-tmc.geojson",
+     "feature_index": 0,
+     "feature_id": null,
+     "label_en": "Republic of Sudan – national outline (OHM 2926753)",
+     "label_ar": "جمهورية السودان – الحدود الوطنية (OHM 2926753) [VERIFY]",
+     "zone_type": "extent",
+     "geometry_type": "Polygon",
+     "cites": [
+      {
+       "id": "EXT_OHM",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "OpenHistoricalMap"
+     ],
+     "base_source_text": "CC0 1.0 | OHM admin_level=2 relation 2926753 (CC0) assembled from member ways, simplified 0.01°; relation has fixme:s \"needs source for boundary lines\" – no boundary source tag | 2926753",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [],
+     "confidence": null,
+     "certainty": "high",
+     "start": 1985,
+     "end": 1986,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    }
+   ],
+   "counts": {
+    "shapes": 1,
+    "contested": 0,
+    "trade_routes": 0,
+    "base_source_null": 0
+   }
+  },
+  "third-parliamentary-period-sadiq-al-mahdi": {
+   "name_en": "Third parliamentary period (Sadiq al-Mahdi)",
+   "stream": "Sudan – Republic",
+   "start": 1986,
+   "end": 1989,
+   "shapes": [
+    {
+     "layer": "extents",
+     "file": "db/extents/third-parliamentary-period-sadiq-al-mahdi.geojson",
+     "feature_index": 0,
+     "feature_id": null,
+     "label_en": "Republic of Sudan – national outline (OHM 2926753)",
+     "label_ar": "جمهورية السودان – الحدود الوطنية (OHM 2926753) [VERIFY]",
+     "zone_type": "extent",
+     "geometry_type": "Polygon",
+     "cites": [
+      {
+       "id": "EXT_OHM",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "OpenHistoricalMap"
+     ],
+     "base_source_text": "CC0 1.0 | OHM admin_level=2 relation 2926753 (CC0) assembled from member ways, simplified 0.01°; relation has fixme:s \"needs source for boundary lines\" – no boundary source tag | 2926753",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [],
+     "confidence": null,
+     "certainty": "high",
+     "start": 1986,
+     "end": 1989,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    }
+   ],
+   "counts": {
+    "shapes": 1,
+    "contested": 0,
+    "trade_routes": 0,
+    "base_source_null": 0
+   }
+  },
+  "rule-of-the-khalifa-abdallahi": {
+   "name_en": "Rule of the Khalifa Abdallahi",
+   "stream": "Sudan – Middle Nile",
+   "start": 1885,
+   "end": 1899,
+   "shapes": [
+    {
+     "layer": "extents",
+     "file": "db/extents/rule-of-the-khalifa-abdallahi.geojson",
+     "feature_index": 0,
+     "feature_id": null,
+     "label_en": "Mahdist state core: Kordofan, Darfur and Omdurman/Khartoum – shape uses modern (2020) state boundaries, not historical ones",
+     "label_ar": "قلب الدولة المهدية: كردفان ودارفور وأم درمان/الخرطوم – يستخدم الشكل حدود الولايات الحديثة (2020)، لا الحدود التاريخية [VERIFY]",
+     "zone_type": "extent",
+     "geometry_type": "Polygon",
+     "cites": [
+      {
+       "id": "GHA7_CH4",
+       "pages": null
+      },
+      {
+       "id": "EXT_HDX_CODAB",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "HDX COD-AB"
+     ],
+     "base_source_text": "CC BY-IGO (HDX COD-AB) | approximate from cited limits; named regions mapped to HDX COD-AB 2020 state lines (modern proxy, CC BY-IGO)",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1885,
+     "end": 1899,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    }
+   ],
+   "counts": {
+    "shapes": 1,
+    "contested": 0,
+    "trade_routes": 0,
+    "base_source_null": 0
+   }
+  },
+  "kushite-25th-dynasty-in-egypt": {
+   "name_en": "Kushite 25th Dynasty in Egypt",
+   "stream": "Sudan – Middle Nile",
+   "start": -750,
+   "end": -663,
+   "shapes": [
+    {
+     "layer": "extents",
+     "file": "db/extents/kushite-25th-dynasty-in-egypt.geojson",
+     "feature_index": 0,
+     "feature_id": null,
+     "label_en": "Kush, 25th Dynasty maximum: Delta to the confluence of the Niles – strip width along the Nile is a display choice, not a sourced boundary",
+     "label_ar": "كوش، أقصى امتداد للأسرة الخامسة والعشرين: من الدلتا إلى ملتقى النيلين – عرض الشريط على طول النيل خيار عرض، وليس حدًّا موثّقًا بمصدر [VERIFY]",
+     "zone_type": "extent",
+     "geometry_type": "Polygon",
+     "cites": [
+      {
+       "id": "SFDAS_HCS2017",
+       "pages": null
+      },
+      {
+       "id": "GHA2",
+       "pages": null
+      },
+      {
+       "id": "ZH_EMB_HIST2020",
+       "pages": null
+      },
+      {
+       "id": "NATURAL_EARTH",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "Natural Earth"
+     ],
+     "base_source_text": "NATURAL_EARTH | approximate from cited limits; north at Memphis anchor, south at Khartoum confluence. Nile corridor (Natural Earth rivers, PD, buffered 0.3°); the east/west edges are a display convention, no source describes them.",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": -713,
+     "end": -663,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/kushite-25th-dynasty-in-egypt.geojson",
+     "feature_index": 1,
+     "feature_id": null,
+     "label_en": "Elephantine (find-spot, not a border)",
+     "label_ar": "إلفنتين (موضع العثور، وليس حدًّا) [VERIFY]",
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA2",
+       "pages": "280"
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "Wikidata (CC0 1.0): coordinates of Q284009 (Elephantine) | CC0 1.0 (Wikidata) | reference marker (not a border)",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": -750,
+     "end": -713,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    }
+   ],
+   "counts": {
+    "shapes": 2,
+    "contested": 0,
+    "trade_routes": 0,
+    "base_source_null": 0
+   }
+  },
+  "early-funj-sultanate-funj-sultans": {
+   "name_en": "Early Funj sultanate (Funj sultans)",
+   "stream": "Sudan – Middle Nile",
+   "start": 1504,
+   "end": 1762,
+   "shapes": [
+    {
+     "layer": "extents",
+     "file": "db/extents/early-funj-sultanate-funj-sultans.geojson",
+     "feature_index": 0,
+     "feature_id": null,
+     "label_en": "Sennar (capital)",
+     "label_ar": "سنار (العاصمة) [VERIFY]",
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "HD2011",
+       "pages": null
+      },
+      {
+       "id": "WP:Funj_Sultanate",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "Wikidata (CC0 1.0): coordinates of Q611867 | CC0 1.0 (Wikidata) | reference marker (not a border)",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": 0.6,
+     "certainty": "medium",
+     "start": 1504,
+     "end": 1762,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/early-funj-sultanate-funj-sultans.geojson",
+     "feature_index": 1,
+     "feature_id": null,
+     "label_en": "Fazughli (probable southern limit, early 17th c.)",
+     "label_ar": "فازوغلي (الحد الجنوبي المرجّح، أوائل القرن 17) [VERIFY]",
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA5_CH7",
+       "pages": "p. 177"
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "Wikidata (CC0 1.0): coordinates of Q5439246 | CC0 1.0 (Wikidata) | reference marker (not a border)",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1600,
+     "end": 1650,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/early-funj-sultanate-funj-sultans.geojson",
+     "feature_index": 2,
+     "feature_id": null,
+     "label_en": "Old Dongola (northern reach)",
+     "label_ar": "دنقلا العجوز (الامتداد الشمالي) [VERIFY]",
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "ZH_EMB_HIST2020",
+       "pages": null
+      },
+      {
+       "id": "HD2011",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "Wikidata (CC0 1.0): coordinates of Q433112 | CC0 1.0 (Wikidata) | reference marker (not a border)",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1523,
+     "end": 1762,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/early-funj-sultanate-funj-sultans.geojson",
+     "feature_index": 3,
+     "feature_id": null,
+     "label_en": "Third Cataract (northern limit)",
+     "label_ar": "الشلال الثالث (الحد الشمالي) [VERIFY]",
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "HD2011",
+       "pages": null
+      },
+      {
+       "id": "ZH_EMB_HIST2020",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "Wikidata (CC0 1.0): coordinates of Q71108004 | CC0 1.0 (Wikidata) | reference marker (not a border)",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1504,
+     "end": 1762,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/early-funj-sultanate-funj-sultans.geojson",
+     "feature_index": 4,
+     "feature_id": null,
+     "label_en": "Kordofan (contested with Darfur)",
+     "label_ar": "كردفان (متنازع عليها مع دارفور) [VERIFY]",
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "HD2011",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "Wikidata (CC0 1.0): coordinates of Q867052 | CC0 1.0 (Wikidata) | reference marker (not a border)",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1504,
+     "end": 1762,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    }
+   ],
+   "counts": {
+    "shapes": 5,
+    "contested": 0,
+    "trade_routes": 0,
+    "base_source_null": 0
+   }
+  },
+  "hamaj-regency-funj-sultanate": {
+   "name_en": "Hamaj regency (Funj sultanate)",
+   "stream": "Sudan – Middle Nile",
+   "start": 1762,
+   "end": 1821,
+   "shapes": [
+    {
+     "layer": "extents",
+     "file": "db/extents/hamaj-regency-funj-sultanate.geojson",
+     "feature_index": 0,
+     "feature_id": null,
+     "label_en": "Sennar (capital)",
+     "label_ar": "سنار (العاصمة) [VERIFY]",
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "HD2011",
+       "pages": null
+      },
+      {
+       "id": "WP:Funj_Sultanate",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "Wikidata (CC0 1.0): coordinates of Q611867 | CC0 1.0 (Wikidata) | reference marker (not a border)",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": 0.6,
+     "certainty": "medium",
+     "start": 1762,
+     "end": 1821,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/hamaj-regency-funj-sultanate.geojson",
+     "feature_index": 1,
+     "feature_id": null,
+     "label_en": "Old Dongola (northern reach)",
+     "label_ar": "دنقلا العجوز (الامتداد الشمالي) [VERIFY]",
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "ZH_EMB_HIST2020",
+       "pages": null
+      },
+      {
+       "id": "HD2011",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "Wikidata (CC0 1.0): coordinates of Q433112 | CC0 1.0 (Wikidata) | reference marker (not a border)",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1762,
+     "end": 1821,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/hamaj-regency-funj-sultanate.geojson",
+     "feature_index": 2,
+     "feature_id": null,
+     "label_en": "Third Cataract (northern limit)",
+     "label_ar": "الشلال الثالث (الحد الشمالي) [VERIFY]",
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "HD2011",
+       "pages": null
+      },
+      {
+       "id": "ZH_EMB_HIST2020",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "Wikidata (CC0 1.0): coordinates of Q71108004 | CC0 1.0 (Wikidata) | reference marker (not a border)",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1762,
+     "end": 1821,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/hamaj-regency-funj-sultanate.geojson",
+     "feature_index": 3,
+     "feature_id": null,
+     "label_en": "Kordofan (contested with Darfur)",
+     "label_ar": "كردفان (متنازع عليها مع دارفور) [VERIFY]",
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "HD2011",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "Wikidata (CC0 1.0): coordinates of Q867052 | CC0 1.0 (Wikidata) | reference marker (not a border)",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1762,
+     "end": 1821,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    }
+   ],
+   "counts": {
+    "shapes": 4,
+    "contested": 0,
+    "trade_routes": 0,
+    "base_source_null": 0
+   }
+  },
+  "khedive-ismail-s-expansion-turkiyya": {
+   "name_en": "Khedive Ismail's expansion (Turkiyya)",
+   "stream": "Sudan – Middle Nile",
+   "start": 1863,
+   "end": 1879,
+   "shapes": [
+    {
+     "layer": "extents",
+     "file": "db/extents/khedive-ismail-s-expansion-turkiyya.geojson",
+     "feature_index": 0,
+     "feature_id": null,
+     "label_en": "Turco-Egyptian Sudan without Darfur (Keira-held until 1874, GHA6_CH14) – shape uses modern (2020) state boundaries for Darfur, not historical ones",
+     "label_ar": "السودان التركي المصري دون دارفور (تحت حكم الكيرا حتى 1874، GHA6_CH14) – يستخدم الشكل حدود الولايات الحديثة (2020) لدارفور، لا الحدود التاريخية [VERIFY]",
+     "zone_type": "extent",
+     "geometry_type": "MultiPolygon",
+     "cites": [
+      {
+       "id": "OHM_2690845",
+       "pages": null
+      },
+      {
+       "id": "GHA6_CH14",
+       "pages": null
+      },
+      {
+       "id": "EXT_HDX_CODAB",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "OpenHistoricalMap",
+      "HDX COD-AB"
+     ],
+     "base_source_text": "CC0 1.0 (OHM) + CC BY-IGO (HDX COD-AB) | OHM 2690845 (CC0, no source tag; tagged 1820–1867) minus Darfur proxy = HDX COD-AB 2020 Darfur states (CC BY-IGO)",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1863,
+     "end": 1874,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/khedive-ismail-s-expansion-turkiyya.geojson",
+     "feature_index": 1,
+     "feature_id": null,
+     "label_en": "Turco-Egyptian Sudan with Darfur, 1874 onward – shape uses modern (2020) state boundaries for Darfur, not historical ones",
+     "label_ar": "السودان التركي المصري مع دارفور، من 1874 فصاعدًا – يستخدم الشكل حدود الولايات الحديثة (2020) لدارفور، لا الحدود التاريخية [VERIFY]",
+     "zone_type": "extent",
+     "geometry_type": "MultiPolygon",
+     "cites": [
+      {
+       "id": "OHM_2690845",
+       "pages": null
+      },
+      {
+       "id": "GHA6_CH14",
+       "pages": null
+      },
+      {
+       "id": "EXT_HDX_CODAB",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "OpenHistoricalMap",
+      "HDX COD-AB"
+     ],
+     "base_source_text": "CC0 1.0 (OHM) + CC BY-IGO (HDX COD-AB) | OHM 2690845 (dated only to 1867, reused beyond its range) plus HDX Darfur proxy",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1874,
+     "end": 1879,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/khedive-ismail-s-expansion-turkiyya.geojson",
+     "feature_index": 2,
+     "feature_id": null,
+     "label_en": "Selima Oasis (route point, not a border)",
+     "label_ar": "واحة سليمة (نقطة على الطريق، وليست حدًّا) [VERIFY]",
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "HD2011",
+       "pages": "intro 8–9"
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "Wikidata (CC0 1.0): coordinates of Q85800315 (Selima Oasis) | CC0 1.0 (Wikidata) | reference marker (not a border)",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1863,
+     "end": 1879,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    }
+   ],
+   "counts": {
+    "shapes": 3,
+    "contested": 0,
+    "trade_routes": 0,
+    "base_source_null": 0
+   }
+  },
+  "civilian-led-transitional-government": {
+   "name_en": "Civilian-led transitional government",
+   "stream": "Sudan – Republic",
+   "start": 2019,
+   "end": 2021,
+   "shapes": [
+    {
+     "layer": "extents",
+     "file": "db/extents/civilian-led-transitional-government.geojson",
+     "feature_index": 0,
+     "feature_id": null,
+     "label_en": "Sudan",
+     "label_ar": "السودان [VERIFY]",
+     "zone_type": "extent",
+     "geometry_type": "Polygon",
+     "cites": [
+      {
+       "id": "EXT_OHM",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "OpenHistoricalMap",
+      "Natural Earth"
+     ],
+     "base_source_text": "CC0 1.0 | OHM admin_level=2 relation 2801039 (CC0) assembled from member ways, simplified 0.01°; relation has fixme:s \"needs source for boundary lines\" – no boundary source tag Abyei Area (Natural Earth 1:10m disputed line) cut out: contested, shown as a point. | 2801039",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [],
+     "confidence": null,
+     "certainty": "high",
+     "start": 2019,
+     "end": 2021,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/civilian-led-transitional-government.geojson",
+     "feature_index": 1,
+     "feature_id": null,
+     "label_en": "Abyei (disputed) [CONTESTED]",
+     "label_ar": "أبيي (متنازع عليها) [CONTESTED] [VERIFY]",
+     "zone_type": "contested_point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "WD:Q336494",
+       "pages": null
+      },
+      {
+       "id": "EXT_NE_DISPUTED",
+       "pages": null
+      },
+      {
+       "id": "PCA_ABYEI2009",
+       "pages": null
+      },
+      {
+       "id": "UNSC1990",
+       "pages": null
+      },
+      {
+       "id": "ABYEI_PROTOCOL2004",
+       "pages": null
+      },
+      {
+       "id": "UNSG_S2013_706",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "Wikidata (CC0 1.0): coordinates of Q336494 | CC0 1.0 (Wikidata) | reference marker (contested area, not drawn)",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "CONTESTED"
+     ],
+     "confidence": null,
+     "certainty": "medium",
+     "start": 2019,
+     "end": 2021,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/civilian-led-transitional-government.geojson",
+     "feature_index": 2,
+     "feature_id": null,
+     "label_en": "Kafia Kingi (disputed) [CONTESTED]",
+     "label_ar": "كافيا كنجي (متنازع عليها) [CONTESTED] [VERIFY]",
+     "zone_type": "contested_point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "WD:Q844262",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "Wikidata (CC0 1.0): coordinates of Q844262 | CC0 1.0 (Wikidata) | reference marker (contested area, not drawn)",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "CONTESTED"
+     ],
+     "confidence": null,
+     "certainty": "medium",
+     "start": 2019,
+     "end": 2021,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/civilian-led-transitional-government.geojson",
+     "feature_index": 3,
+     "feature_id": null,
+     "label_en": "Halaib (disputed since 1958)",
+     "label_ar": "حلايب (متنازع عليها منذ 1958) (مسودة) [يحتاج تحقق]",
+     "label_ar_cite": {
+      "id": "ALJAZEERA_AR_20141114_HALAIB",
+      "pages": "§ الموقع, sentence 1",
+      "covers": "name",
+      "note": "Only the name حلايب is taken from ALJAZEERA_AR_20141114_HALAIB; the qualifier (متنازع عليها منذ 1958) is a working translation of the English label, not from the source, and is pending native review."
+     },
+     "zone_type": "contested",
+     "geometry_type": "MultiPolygon",
+     "cites": [
+      {
+       "id": "EXT_NE_DISPUTED",
+       "pages": "2–5"
+      },
+      {
+       "id": "IBS18_1962",
+       "pages": "2–5"
+      },
+      {
+       "id": "UN S/3963 (Sudan to the UN Secretary-General, 20 Feb 1958), quoted via EGYPIL",
+       "pages": "2–5"
+      },
+      {
+       "id": "EGYPIL: M. Hamad, \"The Situation in the Halaib Triangle – Timeline\" (6 Feb 2026), https://www.egypil.org/print/75",
+       "pages": "2–5"
+      },
+      {
+       "id": "Les Echos, \"Le Soudan et l'Egypte à couteaux tirés\" (Jun 1995)",
+       "pages": "2–5"
+      },
+      {
+       "id": "Carnegie Endowment, \"The Egypt-Sudan Border: A Story of Unfulfilled Promise\" (Jan 2021)",
+       "pages": "2–5"
+      },
+      {
+       "id": "Al Jazeera Net Encyclopedia, \"حلايب\" (14 Nov 2014)",
+       "pages": "2–5"
+      },
+      {
+       "id": "Al Nilin (alnilin.com/983231.htm, Sudanese outlet)",
+       "pages": "2–5"
+      }
+     ],
+     "base_source": [
+      "Natural Earth"
+     ],
+     "base_source_text": "Public domain | Natural Earth 1:10m disputed areas v5.1.1 (present-day snapshot), simplified",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED",
+      "DERIVED"
+     ],
+     "confidence": 0.6,
+     "certainty": "medium",
+     "start": 2019,
+     "end": 2021,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/civilian-led-transitional-government.geojson",
+     "feature_index": 4,
+     "feature_id": null,
+     "label_en": "Bir Tawil (claimed by neither state)",
+     "label_ar": "بئر طويل (لا تطالب بها أيٌّ من الدولتين) [VERIFY]",
+     "zone_type": "extent",
+     "geometry_type": "Polygon",
+     "cites": [
+      {
+       "id": "EXT_NE_DISPUTED",
+       "pages": "2–5"
+      },
+      {
+       "id": "IBS18_1962",
+       "pages": "2–5"
+      }
+     ],
+     "base_source": [
+      "Natural Earth"
+     ],
+     "base_source_text": "Public domain | Natural Earth 1:10m disputed areas v5.1.1 (present-day snapshot), simplified",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": 0.6,
+     "certainty": "medium",
+     "start": 2019,
+     "end": 2021,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/civilian-led-transitional-government.geojson",
+     "feature_index": 5,
+     "feature_id": "pca2009-north",
+     "label_en": "PCA 2009 award boundary [CONTESTED]",
+     "label_ar": "حدود قرار محكمة التحكيم الدائمة 2009 [CONTESTED] [VERIFY]",
+     "zone_type": "contested",
+     "geometry_type": "LineString",
+     "cites": [
+      {
+       "id": "PCA_ABYEI2009",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "PCA Abyei Award coordinates"
+     ],
+     "base_source_text": "PCA Abyei Final Award 22 July 2009, paras 770, 772 (coordinates as stated, WGS84) | citation only | Straight lines from the coordinates stated in the award text; the southern side (1 Jan 1956 Kordofan–Bahr el-Ghazal–Upper Nile line) and the Kordofan–Darfur segment of the western side are not given as coordinates and are not drawn.",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "CONTESTED"
+     ],
+     "confidence": null,
+     "certainty": "medium",
+     "start": 2019,
+     "end": 2021,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/civilian-led-transitional-government.geojson",
+     "feature_index": 6,
+     "feature_id": "pca2009-east",
+     "label_en": "PCA 2009 award boundary [CONTESTED]",
+     "label_ar": "حدود قرار محكمة التحكيم الدائمة 2009 [CONTESTED] [VERIFY]",
+     "zone_type": "contested",
+     "geometry_type": "LineString",
+     "cites": [
+      {
+       "id": "PCA_ABYEI2009",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "PCA Abyei Award coordinates"
+     ],
+     "base_source_text": "PCA Abyei Final Award 22 July 2009, paras 770, 772 (coordinates as stated, WGS84) | citation only | Straight lines from the coordinates stated in the award text; the southern side (1 Jan 1956 Kordofan–Bahr el-Ghazal–Upper Nile line) and the Kordofan–Darfur segment of the western side are not given as coordinates and are not drawn.",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED"
+     ],
+     "confidence": null,
+     "certainty": "medium",
+     "start": 2019,
+     "end": 2021,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/civilian-led-transitional-government.geojson",
+     "feature_index": 7,
+     "feature_id": "pca2009-west",
+     "label_en": "PCA 2009 award boundary [CONTESTED]",
+     "label_ar": "حدود قرار محكمة التحكيم الدائمة 2009 [CONTESTED] [VERIFY]",
+     "zone_type": "contested",
+     "geometry_type": "LineString",
+     "cites": [
+      {
+       "id": "PCA_ABYEI2009",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "PCA Abyei Award coordinates"
+     ],
+     "base_source_text": "PCA Abyei Final Award 22 July 2009, paras 770, 772 (coordinates as stated, WGS84) | citation only | Straight lines from the coordinates stated in the award text; the southern side (1 Jan 1956 Kordofan–Bahr el-Ghazal–Upper Nile line) and the Kordofan–Darfur segment of the western side are not given as coordinates and are not drawn.",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED"
+     ],
+     "confidence": null,
+     "certainty": "medium",
+     "start": 2019,
+     "end": 2021,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    }
+   ],
+   "counts": {
+    "shapes": 8,
+    "contested": 6,
+    "trade_routes": 0,
+    "base_source_null": 0
+   }
+  },
+  "post-coup-military-rule-2021-2023": {
+   "name_en": "Post-coup military rule (2021-2023)",
+   "stream": "Sudan – Republic",
+   "start": 2021,
+   "end": 2023,
+   "shapes": [
+    {
+     "layer": "extents",
+     "file": "db/extents/post-coup-military-rule-2021-2023.geojson",
+     "feature_index": 0,
+     "feature_id": null,
+     "label_en": "Sudan",
+     "label_ar": "السودان [VERIFY]",
+     "zone_type": "extent",
+     "geometry_type": "Polygon",
+     "cites": [
+      {
+       "id": "EXT_OHM",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "OpenHistoricalMap",
+      "Natural Earth"
+     ],
+     "base_source_text": "CC0 1.0 | OHM admin_level=2 relation 2801039 (CC0) assembled from member ways, simplified 0.01°; relation has fixme:s \"needs source for boundary lines\" – no boundary source tag Abyei Area (Natural Earth 1:10m disputed line) cut out: contested, shown as a point. | 2801039",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [],
+     "confidence": null,
+     "certainty": "high",
+     "start": 2021,
+     "end": 2023,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/post-coup-military-rule-2021-2023.geojson",
+     "feature_index": 1,
+     "feature_id": null,
+     "label_en": "Abyei (disputed) [CONTESTED]",
+     "label_ar": "أبيي (متنازع عليها) [CONTESTED] [VERIFY]",
+     "zone_type": "contested_point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "WD:Q336494",
+       "pages": null
+      },
+      {
+       "id": "EXT_NE_DISPUTED",
+       "pages": null
+      },
+      {
+       "id": "PCA_ABYEI2009",
+       "pages": null
+      },
+      {
+       "id": "UNSC1990",
+       "pages": null
+      },
+      {
+       "id": "ABYEI_PROTOCOL2004",
+       "pages": null
+      },
+      {
+       "id": "UNSG_S2013_706",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "Wikidata (CC0 1.0): coordinates of Q336494 | CC0 1.0 (Wikidata) | reference marker (contested area, not drawn)",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "CONTESTED"
+     ],
+     "confidence": null,
+     "certainty": "medium",
+     "start": 2021,
+     "end": 2023,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/post-coup-military-rule-2021-2023.geojson",
+     "feature_index": 2,
+     "feature_id": null,
+     "label_en": "Kafia Kingi (disputed) [CONTESTED]",
+     "label_ar": "كافيا كنجي (متنازع عليها) [CONTESTED] [VERIFY]",
+     "zone_type": "contested_point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "WD:Q844262",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "Wikidata (CC0 1.0): coordinates of Q844262 | CC0 1.0 (Wikidata) | reference marker (contested area, not drawn)",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "CONTESTED"
+     ],
+     "confidence": null,
+     "certainty": "medium",
+     "start": 2021,
+     "end": 2023,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/post-coup-military-rule-2021-2023.geojson",
+     "feature_index": 3,
+     "feature_id": null,
+     "label_en": "Halaib (disputed since 1958)",
+     "label_ar": "حلايب (متنازع عليها منذ 1958) (مسودة) [يحتاج تحقق]",
+     "label_ar_cite": {
+      "id": "ALJAZEERA_AR_20141114_HALAIB",
+      "pages": "§ الموقع, sentence 1",
+      "covers": "name",
+      "note": "Only the name حلايب is taken from ALJAZEERA_AR_20141114_HALAIB; the qualifier (متنازع عليها منذ 1958) is a working translation of the English label, not from the source, and is pending native review."
+     },
+     "zone_type": "contested",
+     "geometry_type": "MultiPolygon",
+     "cites": [
+      {
+       "id": "EXT_NE_DISPUTED",
+       "pages": "2–5"
+      },
+      {
+       "id": "IBS18_1962",
+       "pages": "2–5"
+      },
+      {
+       "id": "UN S/3963 (Sudan to the UN Secretary-General, 20 Feb 1958), quoted via EGYPIL",
+       "pages": "2–5"
+      },
+      {
+       "id": "EGYPIL: M. Hamad, \"The Situation in the Halaib Triangle – Timeline\" (6 Feb 2026), https://www.egypil.org/print/75",
+       "pages": "2–5"
+      },
+      {
+       "id": "Les Echos, \"Le Soudan et l'Egypte à couteaux tirés\" (Jun 1995)",
+       "pages": "2–5"
+      },
+      {
+       "id": "Carnegie Endowment, \"The Egypt-Sudan Border: A Story of Unfulfilled Promise\" (Jan 2021)",
+       "pages": "2–5"
+      },
+      {
+       "id": "Al Jazeera Net Encyclopedia, \"حلايب\" (14 Nov 2014)",
+       "pages": "2–5"
+      },
+      {
+       "id": "Al Nilin (alnilin.com/983231.htm, Sudanese outlet)",
+       "pages": "2–5"
+      }
+     ],
+     "base_source": [
+      "Natural Earth"
+     ],
+     "base_source_text": "Public domain | Natural Earth 1:10m disputed areas v5.1.1 (present-day snapshot), simplified",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED",
+      "DERIVED"
+     ],
+     "confidence": 0.6,
+     "certainty": "medium",
+     "start": 2021,
+     "end": 2023,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/post-coup-military-rule-2021-2023.geojson",
+     "feature_index": 4,
+     "feature_id": null,
+     "label_en": "Bir Tawil (claimed by neither state)",
+     "label_ar": "بئر طويل (لا تطالب بها أيٌّ من الدولتين) [VERIFY]",
+     "zone_type": "extent",
+     "geometry_type": "Polygon",
+     "cites": [
+      {
+       "id": "EXT_NE_DISPUTED",
+       "pages": "2–5"
+      },
+      {
+       "id": "IBS18_1962",
+       "pages": "2–5"
+      }
+     ],
+     "base_source": [
+      "Natural Earth"
+     ],
+     "base_source_text": "Public domain | Natural Earth 1:10m disputed areas v5.1.1 (present-day snapshot), simplified",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": 0.6,
+     "certainty": "medium",
+     "start": 2021,
+     "end": 2023,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/post-coup-military-rule-2021-2023.geojson",
+     "feature_index": 5,
+     "feature_id": "pca2009-north",
+     "label_en": "PCA 2009 award boundary [CONTESTED]",
+     "label_ar": "حدود قرار محكمة التحكيم الدائمة 2009 [CONTESTED] [VERIFY]",
+     "zone_type": "contested",
+     "geometry_type": "LineString",
+     "cites": [
+      {
+       "id": "PCA_ABYEI2009",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "PCA Abyei Award coordinates"
+     ],
+     "base_source_text": "PCA Abyei Final Award 22 July 2009, paras 770, 772 (coordinates as stated, WGS84) | citation only | Straight lines from the coordinates stated in the award text; the southern side (1 Jan 1956 Kordofan–Bahr el-Ghazal–Upper Nile line) and the Kordofan–Darfur segment of the western side are not given as coordinates and are not drawn.",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "CONTESTED"
+     ],
+     "confidence": null,
+     "certainty": "medium",
+     "start": 2021,
+     "end": 2023,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/post-coup-military-rule-2021-2023.geojson",
+     "feature_index": 6,
+     "feature_id": "pca2009-east",
+     "label_en": "PCA 2009 award boundary [CONTESTED]",
+     "label_ar": "حدود قرار محكمة التحكيم الدائمة 2009 [CONTESTED] [VERIFY]",
+     "zone_type": "contested",
+     "geometry_type": "LineString",
+     "cites": [
+      {
+       "id": "PCA_ABYEI2009",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "PCA Abyei Award coordinates"
+     ],
+     "base_source_text": "PCA Abyei Final Award 22 July 2009, paras 770, 772 (coordinates as stated, WGS84) | citation only | Straight lines from the coordinates stated in the award text; the southern side (1 Jan 1956 Kordofan–Bahr el-Ghazal–Upper Nile line) and the Kordofan–Darfur segment of the western side are not given as coordinates and are not drawn.",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED"
+     ],
+     "confidence": null,
+     "certainty": "medium",
+     "start": 2021,
+     "end": 2023,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/post-coup-military-rule-2021-2023.geojson",
+     "feature_index": 7,
+     "feature_id": "pca2009-west",
+     "label_en": "PCA 2009 award boundary [CONTESTED]",
+     "label_ar": "حدود قرار محكمة التحكيم الدائمة 2009 [CONTESTED] [VERIFY]",
+     "zone_type": "contested",
+     "geometry_type": "LineString",
+     "cites": [
+      {
+       "id": "PCA_ABYEI2009",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "PCA Abyei Award coordinates"
+     ],
+     "base_source_text": "PCA Abyei Final Award 22 July 2009, paras 770, 772 (coordinates as stated, WGS84) | citation only | Straight lines from the coordinates stated in the award text; the southern side (1 Jan 1956 Kordofan–Bahr el-Ghazal–Upper Nile line) and the Kordofan–Darfur segment of the western side are not given as coordinates and are not drawn.",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED"
+     ],
+     "confidence": null,
+     "certainty": "medium",
+     "start": 2021,
+     "end": 2023,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    }
+   ],
+   "counts": {
+    "shapes": 8,
+    "contested": 6,
+    "trade_routes": 0,
+    "base_source_null": 0
+   }
+  },
+  "mahdist-uprising": {
+   "name_en": "Mahdist uprising",
+   "stream": "Sudan – Middle Nile",
+   "start": 1881,
+   "end": 1885,
+   "shapes": [
+    {
+     "layer": "extents",
+     "file": "db/extents/mahdist-uprising.geojson",
+     "feature_index": 0,
+     "feature_id": "ctl-mah-aba-1881",
+     "label_en": "Aba Island: first Mahdist victory",
+     "label_ar": null,
+     "zone_type": "contested_point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA7_CH4",
+       "pages": "GHA7_CH4 p.74; GHA7_CH4 p.74"
+      }
+     ],
+     "base_source": null,
+     "base_source_text": "db/cities.json id 'aba-island'",
+     "base_source_null_reason": "provenance text present but names no known base source",
+     "base_source_null_reason_ar": "يوجد نص للمصدر لكنه لا يسمّي أي مصدر أساسي معروف [VERIFY]",
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED"
+     ],
+     "confidence": null,
+     "certainty": null,
+     "start": 1881,
+     "end": 1881,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/mahdist-uprising.geojson",
+     "feature_index": 1,
+     "feature_id": "ctl-mah-kordofan-1883",
+     "label_en": "Mahdist control of the Kordofan towns (El Obeid)",
+     "label_ar": null,
+     "zone_type": "contested_point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA7_CH4",
+       "pages": "GHA7_CH4 p.76"
+      }
+     ],
+     "base_source": null,
+     "base_source_text": "db/cities.json id 'el-obeid'",
+     "base_source_null_reason": "provenance text present but names no known base source",
+     "base_source_null_reason_ar": "يوجد نص للمصدر لكنه لا يسمّي أي مصدر أساسي معروف [VERIFY]",
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED",
+      "DERIVED"
+     ],
+     "confidence": null,
+     "certainty": null,
+     "start": 1883,
+     "end": 1883,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/mahdist-uprising.geojson",
+     "feature_index": 2,
+     "feature_id": "ctl-mah-shaykan-1883",
+     "label_en": "Shaykan victory",
+     "label_ar": null,
+     "zone_type": "contested_point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA7_CH4",
+       "pages": "GHA7_CH4 p.76"
+      }
+     ],
+     "base_source": null,
+     "base_source_text": "db/cities.json id 'shaykan'",
+     "base_source_null_reason": "provenance text present but names no known base source",
+     "base_source_null_reason_ar": "يوجد نص للمصدر لكنه لا يسمّي أي مصدر أساسي معروف [VERIFY]",
+     "badges": [
+      "CONTESTED"
+     ],
+     "confidence": null,
+     "certainty": null,
+     "start": 1883,
+     "end": 1883,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/mahdist-uprising.geojson",
+     "feature_index": 3,
+     "feature_id": "ctl-mah-west-1883",
+     "label_en": "Mahdist rule in Darfur and Bahr al-Ghazal (Deim Zubeir as locator)",
+     "label_ar": null,
+     "zone_type": "contested_point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA7_CH4",
+       "pages": "GHA7_CH4 p.76; GHA6_CH14 p.371"
+      },
+      {
+       "id": "GHA6_CH14",
+       "pages": "GHA7_CH4 p.76; GHA6_CH14 p.371"
+      }
+     ],
+     "base_source": null,
+     "base_source_text": "db/cities.json id 'deim-zubeir'",
+     "base_source_null_reason": "provenance text present but names no known base source",
+     "base_source_null_reason_ar": "يوجد نص للمصدر لكنه لا يسمّي أي مصدر أساسي معروف [VERIFY]",
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED",
+      "DERIVED"
+     ],
+     "confidence": null,
+     "certainty": null,
+     "start": 1883,
+     "end": 1883,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/mahdist-uprising.geojson",
+     "feature_index": 4,
+     "feature_id": "ctl-mah-east-1883-85",
+     "label_en": "Eastern Sudan under Uthman Digna (Suakin excluded)",
+     "label_ar": null,
+     "zone_type": "contested_point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA7_CH4",
+       "pages": "GHA7_CH4 p.76"
+      }
+     ],
+     "base_source": null,
+     "base_source_text": "db/cities.json id 'suakin'",
+     "base_source_null_reason": "provenance text present but names no known base source",
+     "base_source_null_reason_ar": "يوجد نص للمصدر لكنه لا يسمّي أي مصدر أساسي معروف [VERIFY]",
+     "badges": [
+      "APPROXIMATE",
+      "CONTESTED"
+     ],
+     "confidence": null,
+     "certainty": null,
+     "start": 1883,
+     "end": 1885,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/mahdist-uprising.geojson",
+     "feature_index": 5,
+     "feature_id": "ctl-mah-khartoum-1885",
+     "label_en": "Khartoum taken by the Mahdists",
+     "label_ar": null,
+     "zone_type": "contested_point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA7_CH4",
+       "pages": "GHA7_CH4 p.77"
+      }
+     ],
+     "base_source": null,
+     "base_source_text": "db/cities.json id 'khartoum'",
+     "base_source_null_reason": "provenance text present but names no known base source",
+     "base_source_null_reason_ar": "يوجد نص للمصدر لكنه لا يسمّي أي مصدر أساسي معروف [VERIFY]",
+     "badges": [
+      "CONTESTED"
+     ],
+     "confidence": null,
+     "certainty": null,
+     "start": 1885,
+     "end": 1885,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    }
+   ],
+   "counts": {
+    "shapes": 6,
+    "contested": 6,
+    "trade_routes": 0,
+    "base_source_null": 6
    }
   }
  }

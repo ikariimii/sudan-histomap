@@ -1,0 +1,99 @@
+{
+ "_meta": {
+  "owner": "Sudan Map Designer",
+  "date": "2026-10-26",
+  "status": "DRAFT – style only. Post-1956: point claims only (IM ruling 2026-10-26: no area shapes from db/control_post1956.json, 15 records, geometry null). Pre-1956: markers in db/control_layers/control_pre1956.geojson.",
+  "ask": "IM 2026-10-26: rebel and insurgent control as separate CONTESTED layers with a hatched style",
+  "coexists_with": [
+   "map.js patterns #hatch-cont (amber 45°, contested polygon extents), #conthatch (amber -45°, zone=contested), #lowconf (pale 45°, confidence_style=hatched) – unchanged; this style uses NEW ids only",
+   "db/markers/icons/ (culture layer icons lang_*/rel_*/people_* – another task's files, not touched); no id or file-name overlap",
+   "db/markers/badge_contested.svg reused as the badge, not modified",
+   "db/markers/war_marker_style.json war palette: actor colours below are taken from it where the actor's war has a colour, so the rebel area matches its war bar"
+  ],
+  "web_lead_note": "lg/ is built by mapsite.py and owned by the Web Lead; wiring needs: (1) add the <pattern id=\"rebel-xhatch-{actor}\"> template below to defs, counter-scaled in hatchK() like the others; (2) render features with layer_role='rebel_control' using this file; (3) legend row from legend_row. Legends not rebuilt (db/legends untouched)."
+ },
+ "applies_to": "features with properties.layer_role == 'rebel_control' (always badge CONTESTED, plus APPROXIMATE or DERIVED as cited)",
+ "pattern": {
+  "id_template": "rebel-xhatch-{actor}",
+  "type": "cross-hatch (45° and -45°) – distinct from the single-direction amber contested hatch and the pale low-confidence hatch",
+  "svg_template": "<pattern id=\"rebel-xhatch-{actor}\" patternUnits=\"userSpaceOnUse\" width=\"10\" height=\"10\"><rect width=\"10\" height=\"10\" fill=\"{colour}\" fill-opacity=\".10\"/><path d=\"M0 0L10 10M10 0L0 10\" stroke=\"#0f1b24\" stroke-width=\"3\"/><path d=\"M0 0L10 10M10 0L0 10\" stroke=\"{colour}\" stroke-width=\"1.5\"/></pattern>",
+  "screen_spacing_px": 10,
+  "counter_scale": "patternTransform scale(1/K) in hatchK(), so spacing stays ~10 px at every zoom (mobile readable)",
+  "dark_understroke": "#0f1b24 under each line keeps >=3:1 on light and dark era fills"
+ },
+ "outline": {
+  "stroke": "{colour}",
+  "stroke_width_px": 1.8,
+  "dasharray": "6 3",
+  "vector_effect": "non-scaling-stroke",
+  "stroke_opacity": 0.95
+ },
+ "by_certainty": {
+  "CONTESTED+APPROXIMATE": "pattern fill-opacity as above, dashed outline 6 3",
+  "CONTESTED+DERIVED": "same pattern, outline dasharray 2 3 (dotted) to show the edge is derived, not mapped",
+  "point_only_claim": "no polygon; badge_contested.svg diamond at the cited point, 14 px, actor colour ring"
+ },
+ "mobile": {
+  "min_hit_area_px": 32,
+  "below_zoom_k_1_5": "drop the fill tint, keep cross-hatch + outline",
+  "label": "actor short name EN/AR, 11 px, halo #0f1b24 2px"
+ },
+ "actors": {
+  "_rule": "colour per actor family; final list follows db/control_post1956.json actor ids once committed. Colours below are placeholders until checked against war_marker_style.json and era fills (>=3:1 vs fills, dE00>=15 vs co-dated layers).",
+  "mahdist": {
+   "colour": "#c8e06a",
+   "era": "1881–1885",
+   "status": "placeholder"
+  },
+  "anyanya": {
+   "colour": "#6ad0e0",
+   "era": "1955–1972",
+   "status": "placeholder; 0 records in db/control_post1956.json (2100302) – nothing to draw"
+  },
+  "spla_splm_n": {
+   "colour": "#e07ad8",
+   "era": "1983–",
+   "status": "placeholder"
+  },
+  "darfur_movements": {
+   "colour": "#f08c5a",
+   "era": "2003–",
+   "status": "placeholder"
+  },
+  "rsf": {
+   "colour": "#ff5a5a",
+   "era": "2023–",
+   "status": "placeholder"
+  },
+  "saf": {
+   "colour": "#5a8cff",
+   "era": "2023–",
+   "status": "placeholder; SAF is a state force – IM to rule whether it uses this rebel style or the solid state style when shown against RSF"
+  }
+ },
+ "legend_row": {
+  "swatch": "db/markers/rebel_control_swatch.svg",
+  "en": "Rebel / insurgent control (contested, approximate)",
+  "ar": "مناطق سيطرة المتمردين (متنازع عليها، تقريبية) [يحتاج تحقق]"
+ },
+ "rules": [
+  "Never fill a rebel area solid.",
+  "Every rebel feature carries sources[] with a UN/OCHA/ACLED or printed-page cite and an as_of date.",
+  "No vertices beyond the cited map or repo coordinates."
+ ],
+ "claim_marker": {
+  "applies_to": "db/control_post1956.json records with place_id (town pin) and rebel:true records in db/control_layers/control_pre1956.geojson",
+  "svg": "db/markers/claim_contested_pin.svg",
+  "shape": "square pin rotated 0° (NOT the battle disc/diamond family, NOT the siege ring): 14×14 px square with cross-hatch in actor colour + 2 px actor-colour ring + dark #0f1b24 halo; CONTESTED diamond badge (badge_contested.svg, 8 px) top-right",
+  "distinct_from_siege": "siege/battle records (db/battles_post1956.json, battle_*.svg) use discs/diamonds/ticks and describe events; claim pins are squares and describe reported control at a date",
+  "label": {
+   "line1": "{actor_short}",
+   "line2": "REPORTED {date_from}[–{date_to}]",
+   "line2_ar": "مُبلَّغ عنه {date_from} [يحتاج تحقق]",
+   "font_px": 11
+  },
+  "no_place_id": "records with place_id null (e.g. spla-areas-2005, rsf-darfur-four-states-2023, rsf-most-darfur-2025, sla-aw-tawila-jebel-marra-2024, rsf-bara-2025) are listed in the side panel only – never drawn as an area",
+  "tap": "citation source_id/proposed_id, pages, url, status badges",
+  "min_hit_area_px": 32
+ }
+}
