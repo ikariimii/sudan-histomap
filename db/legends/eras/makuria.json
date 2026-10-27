@@ -170,6 +170,23 @@
       "GHA4_CH16"
      ],
      "legend_id": "extent:makuria:makuria-old-dongola-1276"
+    },
+    {
+     "feature_index": 8,
+     "id": "makuria-al-daw-1365",
+     "label_en": "al-Daw (royal residence from 1365–6, reference marker, not a border)",
+     "symbol_class": "extent_label_point",
+     "certainty": "low",
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "start": 1365,
+     "end": 1500,
+     "source_ids": [
+      "GHA4_CH16"
+     ],
+     "legend_id": "extent:makuria:makuria-al-daw-1365"
     }
    ],
    "borders_legend": [
@@ -1683,13 +1700,13 @@
   "city_town": 1,
   "control_extent_approx": 4,
   "economy_unknown": 1,
-  "extent_label_point": 1,
+  "extent_label_point": 2,
   "list_only_text": 1,
   "relation_arrow_conflict": 1,
   "trade_route": 1,
   "zone_contested": 2,
   "zone_core": 1,
-  "extent_features": 8,
+  "extent_features": 9,
   "group_features": 2,
   "cities": 29,
   "battles": 2
@@ -1717,7 +1734,7 @@
    "row_id": "extents:extent_label_point",
    "layer": "extents",
    "symbol_class": "extent_label_point",
-   "n": 1
+   "n": 2
   },
   {
    "row_id": "groups:list_only_text",
@@ -1941,6 +1958,7 @@
     "Makuria before the union with Nobadia (until c. 7th century, disputed)",
     "Makuria–Alwa frontier zone c.1276, Fifth Cataract to al-'Abwab [CONTESTED]",
     "Old Dongola (capital of the Mamluk vassal kingdom, reference marker, not a border)",
+    "al-Daw (royal residence from 1365–6, reference marker, not a border)",
     "al-Maris (incl. Qasr Ibrim), northern Makuria c.1276 [CONTESTED]"
    ],
    "extents_removed": [
