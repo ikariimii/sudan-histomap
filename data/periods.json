@@ -583,6 +583,7 @@
     "via": "/tmp/era_fill_modern3_p20b.json"
    },
    "EP1940_ANUAK": {
+    "status": "banned/withdrawn",
     "author": "E.E. Evans-Pritchard",
     "title": "The Political System of the Anuak of the Anglo-Egyptian Sudan",
     "publisher": "Routledge (reissue)",
@@ -592,6 +593,7 @@
     "lang": "en"
    },
    "EP1940_NUER": {
+    "status": "banned/withdrawn",
     "author": "E.E. Evans-Pritchard",
     "title": "The Nuer: A Description of the Modes of Livelihood and Political Institutions of a Nilotic People",
     "publisher": "Clarendon Press",
@@ -5781,8 +5783,7 @@
     "lang": "en",
     "via": "db/era_fill_modern2.json"
    },
-   "SFDAS_HCS2017": {
-    "status": "banned/withdrawn",
+   "SFDAS_HCS2017": {"status": "banned/withdrawn", 
     "author": "C. Rilly, V. Francigny, M. Maillot, B. François, O. Nicoloso",
     "title": "Histoire et civilisations du Soudan, de la Préhistoire à nos jours",
     "publisher": "Soleb / Bleu autour / SFDAS",
