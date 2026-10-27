@@ -41,7 +41,7 @@ if(LENS!=='main'){LENS_FILE=lensSrcs(V.loadJSON('db/lens_'+LENS+'.json'));
 const ALL=LENS==='main'?[...new Set(HISTO.periods.map(d=>d.stream))]:[...new Set(HISTO.periods.map(d=>d.stream))].filter(s=>P.some(p=>p.stream===s));
 const EV=d=>(AR_ON&&d.key_events_ar&&d.key_events_ar.length)?d.key_events_ar:(d.key_events||[]);
 const WIPF=V.loadJSON('data/eras/regional-wip.json')||{names:[]},WIP=new Set(WIPF.names||[]),RCT=AR_ON?'سياق إقليمي · البحث جارٍ':'Regional context · research in progress';
-const nm=d=>AR_ON?(AR.names[d.name]||d.name):d.name, sn=s=>AR_ON?(AR.streams[s]||s):s;
+const nm=d=>AR_ON?(AR.names[d.name]||d.name):d.name, nmD=d=>nm(d).replace(/\s*\((?:\d{4}|[٠-٩]{4})\s*[-–]\s*(?:\d{4}|[٠-٩]{4})\)/g,''),/* drop a date range already in the title; the label adds its own (QA t28 4c-3) */ sn=s=>AR_ON?(AR.streams[s]||s):s;
 const AD=n=>AR_ON?String(n).replace(/\d/g,c=>'٠١٢٣٤٥٦٧٨٩'[c]):String(n);
 const fy=t=>t>=2026?(AR_ON?AR.ui.present:'present'):t<0?AD(-t)+' '+(AR_ON?AR.ui.bce:'BCE'):AD(t)+(t<1000?' '+(AR_ON?AR.ui.ce:'CE'):'');
 const pal=d3.scaleOrdinal(ALL,["#b5512f","#7c2f2a","#c98a3a","#4d7a4f","#3f6478","#8a5a7a","#9a7b4f","#5f7d6e","#6d5a8a"]);
@@ -90,8 +90,8 @@ function block(svg,o){
     .attr('fill',d3.lab(pal(d.stream)).l<45?'#fbf3e2':'#1b120a').attr('direction',rtl?'rtl':'ltr').attr('transform',`translate(${cxx},${cyy}) rotate(-90)`).attr('y',vf*.35).text(nm(d));}
   else callouts.push({d,ax:rtl?x:x+w,ay:y0+h/2,i});});
  // callouts into gutter, deconflicted
- if(gw){const gx=rtl?o.x+gw-o.fs*1.4:o.x+o.w-gw+10,sp=o.fs*1.0,mcg=Math.floor((gw-26)/(o.fs*.82*.56));callouts.forEach(c=>c.lines=wrap(nm(c.d)+' ('+fy(c.d.start)+'–'+fy(c.d.end)+')',mcg).slice(0,3));callouts.sort((a,b)=>a.ay-b.ay);let last=-1e9;
-  let f=1;const rel=()=>callouts.forEach(c=>c.lines=wrap(nm(c.d)+' ('+fy(c.d.start)+'–'+fy(c.d.end)+')',Math.floor(mcg/f)).slice(0,3));
+ if(gw){const gx=rtl?o.x+gw-o.fs*1.4:o.x+o.w-gw+10,sp=o.fs*1.0,mcg=Math.floor((gw-26)/(o.fs*.82*.56));callouts.forEach(c=>c.lines=wrap(nmD(c.d)+' ('+fy(c.d.start)+'–'+fy(c.d.end)+')',mcg).slice(0,3));callouts.sort((a,b)=>a.ay-b.ay);let last=-1e9;
+  let f=1;const rel=()=>callouts.forEach(c=>c.lines=wrap(nmD(c.d)+' ('+fy(c.d.start)+'–'+fy(c.d.end)+')',Math.floor(mcg/f)).slice(0,3));
   const need=()=>callouts.reduce((a,c)=>a+c.lines.length*sp*f+sp*f*.12,0),avail=o.y+o.h-top;
   for(let it=0;it<20&&need()>avail;it++){f*=.96;rel();}
   const bot=o.y+o.h-sp*f*.2;last=top-1e3;callouts.forEach(c=>{c.ly=Math.max(c.ay,last+sp*f*1.12);last=c.ly+(c.lines.length-1)*sp*f});
@@ -143,15 +143,15 @@ const SPLITS={'meroe-fall':{dom:[200,420],ticks:[200,250,270,300,350,400],band:[
   srcs:['FR_MUSEE_MEROE','GHA2','ZH_EMB_HIST2020','EDWARDS2011']},
  // Stamp: set factChecked:1 only with a recorded Historian fact-check PASS for this card (AR stamp text pending native review).
  // kerma-start: social/factcheck-drafts-ep1-4.md, 'Ep2 tweet 4 re-check (2026-10-20, Sudan Historian)': Verdict PASS -> 'pending review'.
- 'kerma-start':{factChecked:1,dom:[-2550,-1400],ticks:[-2450,-2050,-1750,-1700,-1550],
+ 'kerma-start':{factChecked:1,dom:[-2550,-1400],ticks:[-2450,-2050,-1750,-1700,-1480],
   t:['2450 or 1700 BCE?','2450 أم 1700 ق.م؟'],pill:['NO CONTRADICTION','لا تناقض','#3f7d4a'],
   sub:['Two dates for Kerma (Kush): both can be right','تاريخان لكرمة (كوش): وكلاهما قد يكون صحيحاً'],
-  cols:[{h:['Excavators: Swiss-Sudanese mission','المنقّبون: البعثة السويسرية السودانية'],col:'#3f6478',phases:[[-2450,-2050,['Early Kerma','كرمة المبكرة'],'#8fa9b8'],[-2050,-1750,['Middle Kerma','كرمة الوسطى'],'#6a8ca0'],[-1750,-1550,['Classic Kerma','كرمة الكلاسيكية'],'#3f6478']],marks:[
+  cols:[{h:['Excavators: Swiss-Sudanese mission','المنقّبون: البعثة السويسرية السودانية'],col:'#3f6478',phases:[[-2450,-2050,['Early Kerma','كرمة المبكرة'],'#8fa9b8'],[-2050,-1750,['Middle Kerma','كرمة الوسطى'],'#6a8ca0'],[-1750,-1480,['Classic Kerma [VERIFY]','كرمة الكلاسيكية [يحتاج تحقق]'],'#3f6478']],marks:[
      {t:-2450,l:['c.2450 BCE: Kerma culture begins ("Kush" in Egyptian texts)','نحو 2450 ق.م: بداية ثقافة كرمة («كوش» في النصوص المصرية)'],src:'KERMA_MISSION',lang:'en'}]},
    {h:['Other dates: both in the Classic phase','تواريخ أخرى: كلاهما في المرحلة الكلاسيكية'],col:'#b5512f',seg:[-1730,-1580],marks:[
      {t:-1700,l:['1700 BCE: PRC embassy page (2020; not an academic source): Kush founded at Kerma','1700 ق.م: صفحة للسفارة الصينية (2020؛ ليست مصدراً أكاديمياً): تأسيس كوش في كرمة'],src:'ZH_EMB_HIST2020',lang:'zh'},
      {t:-1580,l:['UNESCO General History of Africa II (1981): Kerma c.1730–1580 BCE','تاريخ أفريقيا العام لليونسكو (1981): كرمة نحو 1730–1580 ق.م'],src:'GHA2',lang:'en',below:1}]}],
-  body:[['In the excavators\' phasing shown here, Classic Kerma runs c.1750–1550 BCE. UNESCO\'s 1981 General History of Africa dated Kerma to c.1730–1580 BCE, and a 2020 PRC embassy page says Kush was founded at Kerma in 1700 BCE. Both match the Classic phase, not the beginning.','في تقسيم المنقّبين المعروض هنا، تمتد كرمة الكلاسيكية نحو 1750–1550 ق.م. أرّخ «تاريخ أفريقيا العام» لليونسكو (1981) كرمة بنحو 1730–1580 ق.م، وتقول صفحة للسفارة الصينية (2020) إن كوش تأسست في كرمة عام 1700 ق.م، وكلاهما يوافق المرحلة الكلاسيكية لا البداية.']],
+  body:[['In the excavators\' phasing shown here, Classic Kerma runs c.1750–1480 BCE (KERMA_MISSION History; VERIFY). UNESCO\'s 1981 General History of Africa dated Kerma to c.1730–1580 BCE, and a 2020 PRC embassy page says Kush was founded at Kerma in 1700 BCE. Both match the Classic phase, not the beginning.','في تقسيم المنقّبين المعروض هنا، تمتد كرمة الكلاسيكية نحو 1750–1480 ق.م (KERMA_MISSION؛ يحتاج تحقق). أرّخ «تاريخ أفريقيا العام» لليونسكو (1981) كرمة بنحو 1730–1580 ق.م، وتقول صفحة للسفارة الصينية (2020) إن كوش تأسست في كرمة عام 1700 ق.م، وكلاهما يوافق المرحلة الكلاسيكية لا البداية.']],
   srcs:['KERMA_MISSION','ZH_EMB_HIST2020','GHA2']}};
 if(SPLIT&&SPLITS[SPLIT]){const c=SPLITS[SPLIT],W=1080,H=1350,T2=a=>a[AR_ON?1:0];svg.attr('width',W).attr('height',H);
  svg.append('rect').attr('width',W).attr('height',H).attr('fill','#f4ead5');svg.append('rect').attr('x',14).attr('y',14).attr('width',W-28).attr('height',H-28).attr('fill','none').attr('stroke','#2b1d0e').attr('stroke-width',3);
@@ -189,7 +189,7 @@ else if(card&&CARDS[card]){const c=CARDS[card],W=1080,H=1350;svg.attr('width',W)
  // key events of focus periods from data
  const ev=P.filter(d=>/Sudan/.test(d.stream)&&c.f.test(d.name)&&d.end>c.dom[0]&&d.start<c.dom[1]).slice(0,4);let yy=1015;
  svg.append('line').attr('x1',60).attr('x2',W-60).attr('y1',995).attr('y2',995).attr('stroke','#b5512f').attr('stroke-width',2);
- ev.forEach(d=>{if(yy>1190)return;svg.append('text').attr('x',AR_ON?W-60:60).attr('y',yy).attr('text-anchor','start').attr('direction',AR_ON?'rtl':'ltr').attr('font-size',19).attr('font-weight','bold').text(nm(d)+(AR_ON?' | ':' · ')+fy(d.start)+'–'+fy(d.end));yy+=24;
+ ev.forEach(d=>{if(yy>1190)return;svg.append('text').attr('x',AR_ON?W-60:60).attr('y',yy).attr('text-anchor','start').attr('direction',AR_ON?'rtl':'ltr').attr('font-size',19).attr('font-weight','bold').text(nmD(d)+(AR_ON?' | ':' · ')+fy(d.start)+'–'+fy(d.end));yy+=24;
   EV(d).slice(0,2).forEach(e=>{if(yy>1215)return;svg.append('text').attr('x',AR_ON?W-80:80).attr('y',yy).attr('text-anchor','start').attr('direction',AR_ON?'rtl':'ltr').attr('font-size',AR_ON?16:15).text('• '+(e.length>110?e.slice(0,108)+'…':e));yy+=AR_ON?22:20});yy+=6;});
  
  foot(W,1262,14);}

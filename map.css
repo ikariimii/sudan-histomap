@@ -276,3 +276,10 @@ dialog.plsh::backdrop{background:#0008}.plsh .plgrab{width:44px;height:5px;borde
 
 /* QA t28 2g: VERIFY badge on point markers */
 .pt.vfy .vfyb{font:700 10px system-ui,sans-serif;fill:#ffd166;stroke:#0f1b24;stroke-width:2.5px;paint-order:stroke;pointer-events:none}
+
+/* QA t28 4c-2: whole group marker disc is clickable (rings are fill:none) */
+.egl .eg .egh{pointer-events:all}
+
+/* QA t28 4c-5: city marker VERIFY badge is visible; the city name is clickable too (opens the same card) */
+.cty.vfy text.vfyb{font:700 8px system-ui,sans-serif;fill:#ffd166;stroke:#0f1b24;stroke-width:2.5px;paint-order:stroke;pointer-events:none}
+.cty text.ctl2{pointer-events:auto;cursor:pointer}
