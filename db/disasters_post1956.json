@@ -298,12 +298,12 @@
       ],
       "status": null,
       "citation": {
-        "source_id": null,
-        "pending_key": "USSTATE_POWELL_20040909",
+        "source_id": "USSTATE_POWELL_20040909",
         "url": "https://2001-2009.state.gov/secretary/former/powell/remarks/36042.htm",
         "date": "2004-09-09",
         "quote": "I concluded, that genocide has been committed in Darfur and that the Government of Sudan and the Jingaweit bear responsibility -- and that genocide may still be occurring.",
-        "registered": false
+        "registered": true,
+        "archive_url": "https://web.archive.org/web/20260102012534/https://2001-2009.state.gov/secretary/former/powell/remarks/36042.htm"
       },
       "citation_2": {
         "source_id": "UNSC_S2005_60",
@@ -313,16 +313,17 @@
         "registered": true
       },
       "citation_3": {
-        "source_id": null,
-        "pending_key": "ICC_ALBASHIR_CASE",
+        "source_id": "ICC_ALBASHIR_CASE",
         "url": "https://www.icc-cpi.int/darfur/albashir",
         "date": "case page as opened 2026-10-27",
         "quote": "three counts of genocide: by killing, by causing serious bodily or mental harm, and by deliberately inflicting on each target group conditions of life calculated to bring about the group's physical destruction, allegedly committed at least between 2003 and 2008 in Darfur, Sudan The first warrant for arrest for Omar Hassan Ahmad Al Bashir was issued on 4 March 2009, the second on 12 July 2010.",
-        "registered": false
+        "registered": true
       },
-      "in_build": false,
+      "in_build": true,
       "source_ids": [
-        "UNSC_S2005_60"
+        "USSTATE_POWELL_20040909",
+        "UNSC_S2005_60",
+        "ICC_ALBASHIR_CASE"
       ]
     },
     {
@@ -343,9 +344,13 @@
       "location_precision": "city",
       "toll": {
         "text": "In El Geneina alone, between 10,000 and 15,000 people were killed.",
-        "min": 10000,
-        "max": 15000,
-        "as_of": "report dated 15 Jan 2024"
+        "verbatim": true,
+        "attribution": "UN Panel of Experts, S/2024/65",
+        "display_credit": "UN Panel of Experts, S/2024/65",
+        "source_id": "UNPOE_S2024_65",
+        "as_of": "report dated 15 Jan 2024",
+        "badge": "REPORTED",
+        "note": "Source's own range, quoted verbatim; not an independent project estimate. No numeric min/max stored."
       },
       "badge": "REPORTED",
       "flags": [
@@ -386,15 +391,17 @@
       ],
       "status": "REPORTED",
       "citation": {
-        "source_id": null,
-        "pending_key": "USSTATE_BLINKEN_20250107",
+        "source_id": "USSTATE_BLINKEN_20250107",
         "url": "https://2021-2025.state.gov/genocide-determination-in-sudan-and-imposing-accountability-measures/",
         "date": "2025-01-07",
         "quote": "Based on this information, I have now concluded that members of the RSF and allied militias have committed genocide in Sudan.",
-        "registered": false
+        "registered": true,
+        "archive_url": "https://web.archive.org/web/20251223135341/https://2021-2025.state.gov/genocide-determination-in-sudan-and-imposing-accountability-measures/"
       },
-      "in_build": false,
-      "source_ids": []
+      "in_build": true,
+      "source_ids": [
+        "USSTATE_BLINKEN_20250107"
+      ]
     },
     {
       "id": "maj-2025-el-fasher-takeover",
@@ -405,7 +412,7 @@
         "ar": "سيطرة الدعم السريع على الفاشر (أكتوبر 2025) [يحتاج تحقق]"
       },
       "summary": {
-        "en": "The UN Independent International Fact-Finding Mission for the Sudan (A/HRC/61/77, Feb 2026) assessed that RSF mass killings during the takeover of El Fasher on or around 26–27 October 2025, after an 18-month siege, are 'indicators of a genocidal path' (Mission's assessment, not a court ruling).",
+        "en": "The UN Independent International Fact-Finding Mission for the Sudan (A/HRC/61/77, 17 Feb 2026) assessed that RSF mass killings during the takeover of El Fasher on or around 26–27 October 2025, after an 18-month siege, are 'indicators of a genocidal path' (Mission's assessment, not a court ruling).",
         "ar": "قدرت بعثة الأمم المتحدة المستقلة لتقصي الحقائق أن عمليات القتل الجماعي أثناء سيطرة الدعم السريع على الفاشر في 26–27 أكتوبر 2025 مؤشرات على مسار إبادة جماعية. [يحتاج تحقق]"
       },
       "date_start": "2025-10-26",
@@ -419,15 +426,16 @@
       ],
       "status": "REPORTED",
       "citation": {
-        "source_id": null,
-        "pending_key": "UNFFM_SDN_AHRC6177_2026",
+        "source_id": "UNFFM_SDN_AHRC6177_2026",
         "url": "https://www.ohchr.org/sites/default/files/documents/hrbodies/hrcouncil/sessions-regular/session61/advance-version/a-hrc-61-77-auv-en.pdf",
-        "date": "2026-02-19",
+        "date": "2026-02-17",
         "quote": "The Independent International Fact-Finding Mission for the Sudan (“the Mission”) assesses that the mass killings and related atrocities committed by the Rapid Support Forces in and around El-Fasher, during its takeover of the city on or around 26 and 27 October 2025, are indicators of a genocidal path.",
-        "registered": false
+        "registered": true
       },
-      "in_build": false,
-      "source_ids": []
+      "in_build": true,
+      "source_ids": [
+        "UNFFM_SDN_AHRC6177_2026"
+      ]
     },
     {
       "id": "maj-2023-refugee-outflow",
@@ -501,11 +509,151 @@
       ],
       "status": null,
       "citation": {
-        "source_id": null,
-        "pending_key": "UNNEWS_20170220_SSD_FAMINE",
+        "source_id": "UNNEWS_20170220_SSD_FAMINE",
         "url": "https://news.un.org/en/story/2017/02/551812",
         "date": "2017-02-20",
         "quote": "Famine has been formally declared in parts of South Sudan, the United Nations said today, warning that war and a collapsing economy have left some 100,000 people facing starvation there and a further one million people are classified as being on the brink",
+        "registered": true
+      },
+      "in_build": true,
+      "source_ids": [
+        "UNNEWS_20170220_SSD_FAMINE"
+      ]
+    },
+    {
+      "id": "maj-1991-bor-massacre",
+      "type": "major",
+      "subtype": "mass_killing",
+      "title": {
+        "en": "1991 Bor massacre",
+        "ar": "مذبحة بور 1991 [يحتاج تحقق]"
+      },
+      "summary": {
+        "en": "Human Rights Watch (1994 report on 1991–93) states that SPLA-Nasir forces (mostly Nuer) massacred many Dinka civilians in an effort to capture Bor, which led directly to the 'Hunger Triangle' famine.",
+        "ar": "تذكر هيومن رايتس ووتش أن قوات فصيل الناصر (معظمهم من النوير) ارتكبت مذبحة بحق كثير من المدنيين الدينكا في محاولة للسيطرة على بور. [يحتاج تحقق]"
+      },
+      "date_start": "1991",
+      "date_end": null,
+      "place_id": "bor",
+      "location_precision": "town/area (Bor)",
+      "toll": null,
+      "badge": "VERIFY",
+      "flags": [
+        "AR-REVIEW"
+      ],
+      "status": null,
+      "citation": {
+        "source_id": "HRW1993_CIVDEV",
+        "url": "https://www.hrw.org/reports/1993/sudan/",
+        "date": "report as opened 2026-10-27",
+        "quote": "the Nasir forces (mostly Nuer) massacred many Dinka civilians in an effort to captureGarang's home territory of Bor. The massacre touched off one of the most violent periods of inter-factional and inter-tribal fighting in southern Sudan's history.",
+        "registered": true
+      },
+      "source_ids": [
+        "HRW1993_CIVDEV"
+      ]
+    },
+    {
+      "id": "maj-2012-heglig",
+      "type": "major",
+      "subtype": "conflict_event",
+      "title": {
+        "en": "2012 SPLA seizure of Heglig",
+        "ar": "استيلاء الجيش الشعبي على هجليج 2012 [يحتاج تحقق]"
+      },
+      "summary": {
+        "en": "On 12 April 2012 the UN Security Council demanded the SPLA's withdrawal from Heglig, after its seizure and occupation of the town and its oil fields in Sudan, and an end to SAF aerial bombardments.",
+        "ar": "طالب مجلس الأمن في 12 أبريل 2012 بانسحاب الجيش الشعبي من هجليج ووقف القصف الجوي للقوات المسلحة السودانية. [يحتاج تحقق]"
+      },
+      "date_start": "2012-04",
+      "date_end": null,
+      "place_id": "heglig",
+      "location_precision": "town/oil field",
+      "toll": null,
+      "badge": "VERIFY",
+      "flags": [
+        "AR-REVIEW"
+      ],
+      "status": null,
+      "citation": {
+        "source_id": null,
+        "pending_key": "UNNEWS_20120412_HEGLIG",
+        "url": "https://news.un.org/en/story/2012/04/408572",
+        "date": "2012-04-12",
+        "quote": "The alarming situation is manifested most recently by the seizure and occupation of the town of Heglig and its oil fields in Sudan by South Sudan’s army, the Sudan People’s Liberation Army (SPLA), the Council said in a presidential statement.",
+        "registered": false
+      },
+      "in_build": false,
+      "source_ids": []
+    },
+    {
+      "id": "maj-2011-abyei-offensive",
+      "type": "major",
+      "subtype": "displacement",
+      "title": {
+        "en": "May 2011 Abyei offensive and displacement",
+        "ar": "هجوم أبيي ونزوح سكانها مايو 2011 [يحتاج تحقق]"
+      },
+      "summary": {
+        "en": "Human Rights Watch reported an SAF offensive on Abyei town and surrounding villages; tens of thousands of people fled Abyei, Agok and surrounding towns. Abyei's status is disputed.",
+        "ar": "أفادت هيومن رايتس ووتش بهجوم للقوات المسلحة السودانية على أبيي وفرار عشرات الآلاف. وضع أبيي متنازع عليه. [يحتاج تحقق]"
+      },
+      "date_start": "2011-05",
+      "date_end": null,
+      "place_id": null,
+      "location_precision": "Abyei area (disputed; not in cities db)",
+      "toll": null,
+      "badge": "CONTESTED",
+      "flags": [
+        "AR-REVIEW"
+      ],
+      "status": null,
+      "citation": {
+        "source_id": null,
+        "pending_key": "HRW_20110526_ABYEI",
+        "url": "https://www.hrw.org/news/2011/05/26/sudan-stop-abyei-abuses-hold-forces-accountable",
+        "date": "2011-05-26",
+        "quote": "In the following days, tens of thousands of people, including the elderly and unaccompanied children, fled Abyei, Agok, and surrounding towns",
+        "registered": false
+      },
+      "in_build": false,
+      "source_ids": []
+    },
+    {
+      "id": "maj-ssd-refugees-in-sudan",
+      "type": "major",
+      "subtype": "displacement",
+      "title": {
+        "en": "South Sudanese refugees in Sudan",
+        "ar": "اللاجئون من جنوب السودان في السودان [يحتاج تحقق]"
+      },
+      "summary": {
+        "en": "UNHCR's Sudan country portal lists South Sudanese refugees and asylum-seekers as the largest group in Sudan; a government estimate of 1.3 million is noted by UNHCR as requiring verification.",
+        "ar": "تدرج بوابة المفوضية لاجئي جنوب السودان كأكبر مجموعة في السودان. [يحتاج تحقق]"
+      },
+      "date_start": "2013",
+      "date_end": null,
+      "date_note": "start year not stated by source",
+      "place_id": null,
+      "location_precision": "country (largest share White Nile)",
+      "toll": null,
+      "figures": [
+        {
+          "text": "South Sudan COR, IPP, UNHCR 30 Sep 2026 75.8% 689,397",
+          "as_of": "2026-09-30"
+        }
+      ],
+      "badge": "VERIFY",
+      "flags": [
+        "AR-REVIEW"
+      ],
+      "status": null,
+      "citation": {
+        "source_id": null,
+        "pending_key": "UNHCR_ODP_SDN_COUNTRY",
+        "url": "https://data.unhcr.org/en/country/sdn",
+        "date": "2026-09-30",
+        "quote": "Total number of South Sudanese refugees includes UNHCR/COR registered refugees, Immigration Passport Police (IPP) registered figures and unregistered population. Additional sources estimate a total of 1.3 million South Sudanese refugees in Sudan; however, these data require verification.",
         "registered": false
       },
       "in_build": false,
