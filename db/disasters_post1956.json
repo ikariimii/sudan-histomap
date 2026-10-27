@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "description": "Post-1956 disasters and major events (Sudan/South Sudan). Figures only as quoted; no fatality figures. Arabic titles are working translations.",
+    "created": "2026-10-26"
+  },
+  "records": [
+    {
+      "id": "dis-1988-floods",
+      "type": "disaster",
+      "subtype": "flood",
+      "title": {
+        "en": "1988 floods",
+        "ar": "فيضانات 1988 [يحتاج تحقق]"
+      },
+      "date_start": "1988",
+      "date_end": null,
+      "place_id": null,
+      "figures": [
+        {
+          "text": "nearly 1 million families saw their houses being damaged or completely destroyed",
+          "as_of": "1988 (retrospective, OCHA 18 Sep 2020)"
+        }
+      ],
+      "status": null,
+      "citation": {
+        "source_id": null,
+        "proposed_id": "OCHA_SDN_FLASH7_2020",
+        "url": "https://www.unocha.org/publications/report/sudan/sudan-floods-flash-update-no-7",
+        "date": "2020-09-18",
+        "quote": "Sudan had not faced such levels of destruction due to rains since 1988, when nearly 1 million families saw their houses being damaged or completely destroyed by the storms."
+      }
+    },
+    {
+      "id": "dis-1998-bahr-el-ghazal-famine",
+      "type": "disaster",
+      "subtype": "famine",
+      "title": {
+        "en": "1998 Bahr el Ghazal famine",
+        "ar": "مجاعة بحر الغزال 1998 [يحتاج تحقق]"
+      },
+      "date_start": "1998",
+      "date_end": null,
+      "place_id": null,
+      "figures": [
+        {
+          "text": "795,000 persons",
+          "as_of": "early June 1998"
+        }
+      ],
+      "status": null,
+      "citation": {
+        "source_id": null,
+        "proposed_id": "OCHA_CAP_SDN_1999",
+        "url": "https://www.unocha.org/publications/report/sudan/united-nations-consolidated-inter-agency-appeal-sudan-2",
+        "date": "1999 CAP",
+        "quote": "In 1998, Sudan faced its most serious humanitarian crisis in more than a decade when the combination of a five-year drought and intensified conflict produced a major famine in the Bahr Al Ghazal region that put nearly 800,000 persons at risk of starvation. ... By early June, ... the number of people in need of food assistance was found to have risen to 795,000 persons."
+      }
+    },
+    {
+      "id": "dis-darfur-2003-displacement",
+      "type": "major",
+      "subtype": "displacement",
+      "title": {
+        "en": "Darfur crisis displacement (2003–)",
+        "ar": "نزوح أزمة دارفور (2003–) [يحتاج تحقق]"
+      },
+      "date_start": "2003",
+      "date_end": null,
+      "place_id": null,
+      "figures": [
+        {
+          "text": "1.65 million internally displaced persons in Darfur, and more than 200,000 refugees from Darfur in neighbouring Chad",
+          "as_of": "January 2005 (report S/2005/60)"
+        }
+      ],
+      "status": null,
+      "citation": {
+        "source_id": "UNSC_S2005_60",
+        "proposed_id": null,
+        "url": "https://documents.un.org/api/symbol/access?s=S/2005/60&l=en&t=pdf",
+        "date": "2005-01-25",
+        "quote": "according to United Nations estimates there are 1.65 million internally displaced persons in Darfur, and more than 200,000 refugees from Darfur in neighbouring Chad."
+      }
+    },
+    {
+      "id": "dis-2013-floods",
+      "type": "disaster",
+      "subtype": "flood",
+      "title": {
+        "en": "2013 floods",
+        "ar": "فيضانات 2013 [يحتاج تحقق]"
+      },
+      "date_start": "2013-08",
+      "date_end": null,
+      "place_id": "khartoum",
+      "figures": [
+        {
+          "text": "over 128,000 people whose houses were destroyed or damaged (Khartoum State)",
+          "as_of": "2013-08-18"
+        }
+      ],
+      "status": null,
+      "citation": {
+        "source_id": null,
+        "proposed_id": "OCHA_SDN_FLASH5_2013",
+        "url": "https://www.unocha.org/publications/report/sudan/sudan-flash-update-august-19-2013-issue-5",
+        "date": "2013-08-19",
+        "quote": "Khartoum State is severely affected with over 128,000 people whose houses were destroyed or damaged by heavy rains and floods, according to the FMoH."
+      }
+    },
+    {
+      "id": "dis-2020-floods",
+      "type": "disaster",
+      "subtype": "flood",
+      "title": {
+        "en": "2020 floods and national state of emergency",
+        "ar": "فيضانات 2020 وحالة الطوارئ الوطنية [يحتاج تحقق]"
+      },
+      "date_start": "2020-07",
+      "date_end": null,
+      "place_id": null,
+      "figures": [
+        {
+          "text": "Over 506,000 people have been affected",
+          "as_of": "2020-09-08"
+        },
+        {
+          "text": "exceeded 730,000",
+          "as_of": "2020-09-16"
+        }
+      ],
+      "status": null,
+      "citation": {
+        "source_id": null,
+        "proposed_id": "OCHA_SDN_FLASH6_2020",
+        "url": "https://www.unocha.org/publications/report/sudan/sudan-floods-flash-update-no-6-enar",
+        "date": "2020-09-08",
+        "quote": "The situation led the Transitional Government of Sudan to declare, on 4 September, a national State of Emergency for the next three months ... Over 506,000 people have been affected since the start of the rains in mid-July"
+      },
+      "citation_2": {
+        "source_id": null,
+        "proposed_id": "OCHA_SDN_FLASH7_2020",
+        "url": "https://www.unocha.org/publications/report/sudan/sudan-floods-flash-update-no-7",
+        "date": "2020-09-18",
+        "quote": "the number of people critically affected has exceeded 730,000 on 16 September, according to the Government’s Humanitarian Aid Commission (HAC)."
+      }
+    },
+    {
+      "id": "dis-2023-war-displacement",
+      "type": "major",
+      "subtype": "displacement",
+      "title": {
+        "en": "2023– war displacement",
+        "ar": "النزوح بسبب حرب 2023– [يحتاج تحقق]"
+      },
+      "date_start": "2023-04",
+      "date_end": null,
+      "place_id": null,
+      "figures": [
+        {
+          "text": "An estimated 8,585,611 internally displaced persons (IDPs) were recorded across all 18 states.",
+          "as_of": "2026-10-18"
+        }
+      ],
+      "status": "REPORTED",
+      "citation": {
+        "source_id": null,
+        "proposed_id": "IOM_DTM_SDN_SNAP10_20261018",
+        "url": "https://reliefweb.int/report/sudan/dtm-sudan-displacement-and-return-snapshot-update-10-18-october-2026",
+        "date": "2026-10-18",
+        "quote": "An estimated 8,585,611 internally displaced persons (IDPs) were recorded across all 18 states. An estimated 5,273,334 returned individuals were recorded across nine states."
+      }
+    },
+    {
+      "id": "dis-2024-zamzam-famine",
+      "type": "disaster",
+      "subtype": "famine",
+      "title": {
+        "en": "2024 famine in Zamzam camp (IPC FRC)",
+        "ar": "مجاعة مخيم زمزم 2024 [يحتاج تحقق]"
+      },
+      "date_start": "2024-07",
+      "date_end": null,
+      "place_id": null,
+      "place_note": "Zamzam camp, ~12 km south of El Fasher (zamzam not in cities db)",
+      "figures": [
+        {
+          "text": "population expanding rapidly over the past weeks to at least 500,000 people",
+          "as_of": "2024-08-01"
+        }
+      ],
+      "status": "REPORTED",
+      "citation": {
+        "source_id": null,
+        "proposed_id": "UNNEWS_20240801_ZAMZAM_FAMINE",
+        "url": "https://news.un.org/en/story/2024/08/1152736",
+        "date": "2024-08-01",
+        "quote": "“has severely impeded humanitarian access and pushed parts of North Darfur into famine, notably in the Zamzam camp for internally displaced persons (IDPs)”, stated the Famine Review Committee of the Integrated Food Security Phase Classification (IPC)"
+      }
+    },
+    {
+      "id": "dis-2024-cholera",
+      "type": "disaster",
+      "subtype": "epidemic",
+      "title": {
+        "en": "2024– cholera outbreak",
+        "ar": "تفشي الكوليرا 2024– [يحتاج تحقق]"
+      },
+      "date_start": "2024-08-12",
+      "date_end": null,
+      "place_id": "kassala",
+      "figures": [],
+      "status": "REPORTED",
+      "citation": {
+        "source_id": null,
+        "proposed_id": "WHO_EMRO_SDN_CHOLERA_20250119",
+        "url": "https://www.emro.who.int/sdn/sudan-news/how-who-is-supporting-cholera-outbreak-response-in-sudan.html",
+        "date": "2025-01-19",
+        "quote": "The Federal Ministry of Health of Sudan declared a cholera outbreak on 12 August 2024 after confirmation of samples from Kassala State, which has been reporting suspected cases since 22 July 2024."
+      }
+    }
+  ]
+}
