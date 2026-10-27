@@ -1013,7 +1013,7 @@
     "name_ar": "فيلة",
     "wikidata": "Q245062",
     "category": "ancient",
-    "visible_from": 300,
+    "visible_from": -305,
     "visible_from_basis": "first_attested",
     "visible_to": 537,
     "inhabited_today": false,
@@ -1029,6 +1029,7 @@
      }
     ],
     "badges": [
+     "VERIFY",
      "FIRST-ATTESTED",
      "AR-REVIEW",
      "RUIN-UNDATED",
@@ -1043,6 +1044,10 @@
     "source_ids": [
      {
       "id": "GHA2_CH10",
+      "page": "287"
+     },
+     {
+      "id": "GHA2_CH10",
       "page": "295"
      },
      {
@@ -1050,15 +1055,11 @@
       "page": "331"
      },
      {
-      "id": "GHA2_CH6",
-      "page": "203"
-     },
-     {
       "id": "WIKIDATA_CITIES",
       "page": "Q245062"
      }
     ],
-    "map_from": 300,
+    "map_from": -305,
     "visible_to_basis": "last_attested"
    }
   },
