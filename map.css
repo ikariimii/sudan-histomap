@@ -252,7 +252,7 @@ html[dir=rtl] #wtl .wtm .wbg{left:auto;right:-3px}
 #lgp .wlg button.wtg:focus-visible{outline:2px solid #ffd54a;outline-offset:1px}
 #lgp .wlg button.wtg[aria-pressed=true]{border-color:#ffd54a;background:rgba(255,213,74,.12)}
 g.bt.wact{transform-box:fill-box}g.bt.wact .bth{stroke:#ffd54a;stroke-width:3}
-g.bt.wdim,#wtl .wsp.wdim,#wtl .wtm.wdim{display:none}/* QA tde fix 2: an active war legend toggle hides other wars' pins and spans */
+g.bt.woff,#wtl .wsp.woff,#wtl .wtm.woff{display:none}/* QA t28 2d: per-war visibility toggle (IM ruling) *//* QA tde fix 2: an active war legend toggle hides other wars' pins and spans */
 /* Languages / People / Religions layers */
 .pl .pli{fill:#14202bd9;stroke:#e8d9a8;stroke-width:1.5}.pl .ppl .pli{stroke:#8cc8f0}.pl .rlg .pli{stroke:#c9a0f0}
 .pl .plg{font:600 10px system-ui,sans-serif;fill:#f4ecd4;pointer-events:none}.pl .plt{font:600 11px system-ui,sans-serif;fill:#f4ecd4;paint-order:stroke;stroke:#0b141c;stroke-width:3px;pointer-events:none}
