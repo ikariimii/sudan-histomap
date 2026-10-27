@@ -1,6 +1,6 @@
 {
   "meta": {
-    "description": "Post-1956 disasters and major events (Sudan/South Sudan). Figures only as quoted; no fatality figures. Arabic titles are working translations.",
+    "description": "Post-1956 disasters and major events (Sudan/South Sudan). Figures/tolls only as quoted verbatim. Genocide wording attributed to the finding body. Entries with in_build=false await source registration. Arabic is working translation (AR-REVIEW).",
     "created": "2026-10-26"
   },
   "records": [
@@ -28,7 +28,14 @@
         "date": "2020-09-18",
         "quote": "Sudan had not faced such levels of destruction due to rains since 1988, when nearly 1 million families saw their houses being damaged or completely destroyed by the storms.",
         "registered": true
-      }
+      },
+      "badge": "VERIFY",
+      "flags": [
+        "AR-REVIEW"
+      ],
+      "source_ids": [
+        "OCHA_SDN_FLASH7_2020"
+      ]
     },
     {
       "id": "dis-1998-bahr-el-ghazal-famine",
@@ -54,7 +61,14 @@
         "date": "1999 CAP",
         "quote": "In 1998, Sudan faced its most serious humanitarian crisis in more than a decade when the combination of a five-year drought and intensified conflict produced a major famine in the Bahr Al Ghazal region that put nearly 800,000 persons at risk of starvation. ... By early June, ... the number of people in need of food assistance was found to have risen to 795,000 persons.",
         "registered": true
-      }
+      },
+      "badge": "VERIFY",
+      "flags": [
+        "AR-REVIEW"
+      ],
+      "source_ids": [
+        "OCHA_CAP_SDN_1999"
+      ]
     },
     {
       "id": "dis-darfur-2003-displacement",
@@ -80,7 +94,14 @@
         "url": "https://documents.un.org/api/symbol/access?s=S/2005/60&l=en&t=pdf",
         "date": "2005-01-25",
         "quote": "according to United Nations estimates there are 1.65 million internally displaced persons in Darfur, and more than 200,000 refugees from Darfur in neighbouring Chad."
-      }
+      },
+      "badge": "VERIFY",
+      "flags": [
+        "AR-REVIEW"
+      ],
+      "source_ids": [
+        "UNSC_S2005_60"
+      ]
     },
     {
       "id": "dis-2013-floods",
@@ -106,7 +127,14 @@
         "date": "2013-08-19",
         "quote": "Khartoum State is severely affected with over 128,000 people whose houses were destroyed or damaged by heavy rains and floods, according to the FMoH.",
         "registered": true
-      }
+      },
+      "badge": "VERIFY",
+      "flags": [
+        "AR-REVIEW"
+      ],
+      "source_ids": [
+        "OCHA_SDN_FLASH5_2013"
+      ]
     },
     {
       "id": "dis-2020-floods",
@@ -143,7 +171,15 @@
         "date": "2020-09-18",
         "quote": "the number of people critically affected has exceeded 730,000 on 16 September, according to the Government’s Humanitarian Aid Commission (HAC).",
         "registered": true
-      }
+      },
+      "badge": "VERIFY",
+      "flags": [
+        "AR-REVIEW"
+      ],
+      "source_ids": [
+        "OCHA_SDN_FLASH6_2020",
+        "OCHA_SDN_FLASH7_2020"
+      ]
     },
     {
       "id": "dis-2023-war-displacement",
@@ -169,7 +205,14 @@
         "date": "2026-10-18",
         "quote": "An estimated 8,585,611 internally displaced persons (IDPs) were recorded across all 18 states. An estimated 5,273,334 returned individuals were recorded across nine states.",
         "registered": true
-      }
+      },
+      "badge": "REPORTED",
+      "flags": [
+        "AR-REVIEW"
+      ],
+      "source_ids": [
+        "IOM_DTM_SDN_SNAP10_20261018"
+      ]
     },
     {
       "id": "dis-2024-zamzam-famine",
@@ -195,7 +238,14 @@
         "date": "2024-08-01",
         "quote": "“has severely impeded humanitarian access and pushed parts of North Darfur into famine, notably in the Zamzam camp for internally displaced persons (IDPs)”, stated the Famine Review Committee of the Integrated Food Security Phase Classification (IPC)",
         "registered": true
-      }
+      },
+      "badge": "REPORTED",
+      "flags": [
+        "AR-REVIEW"
+      ],
+      "source_ids": [
+        "UNNEWS_20240801_ZAMZAM_FAMINE"
+      ]
     },
     {
       "id": "dis-2024-cholera",
@@ -216,7 +266,250 @@
         "date": "2025-01-19",
         "quote": "The Federal Ministry of Health of Sudan declared a cholera outbreak on 12 August 2024 after confirmation of samples from Kassala State, which has been reporting suspected cases since 22 July 2024.",
         "registered": true
-      }
+      },
+      "badge": "REPORTED",
+      "flags": [
+        "AR-REVIEW"
+      ],
+      "source_ids": [
+        "WHO_EMRO_SDN_CHOLERA_20250119"
+      ]
+    },
+    {
+      "id": "maj-darfur-genocide-findings-2004-2010",
+      "type": "major",
+      "subtype": "mass_killing",
+      "title": {
+        "en": "Darfur 2003–: genocide determinations and findings (attributed)",
+        "ar": "دارفور 2003–: قرارات ونتائج بشأن الإبادة الجماعية (منسوبة) [يحتاج تحقق]"
+      },
+      "summary": {
+        "en": "The US Secretary of State concluded in September 2004 that genocide had been committed in Darfur. The UN International Commission of Inquiry (S/2005/60) concluded the Government of the Sudan had NOT pursued a policy of genocide. The ICC charges Omar al-Bashir with, among other things, three counts of genocide allegedly committed between 2003 and 2008 (warrants 4 Mar 2009 and 12 Jul 2010).",
+        "ar": "خلص وزير الخارجية الأمريكي في سبتمبر 2004 إلى وقوع إبادة جماعية في دارفور، بينما خلصت لجنة التحقيق الدولية التابعة للأمم المتحدة إلى أن حكومة السودان لم تنتهج سياسة إبادة جماعية، وتوجه المحكمة الجنائية الدولية إلى عمر البشير ثلاث تهم بالإبادة الجماعية. [يحتاج تحقق]"
+      },
+      "date_start": "2003",
+      "date_end": "2008",
+      "place_id": null,
+      "location_precision": "region (Darfur)",
+      "toll": null,
+      "badge": "CONTESTED",
+      "flags": [
+        "AR-REVIEW"
+      ],
+      "status": null,
+      "citation": {
+        "source_id": null,
+        "pending_key": "USSTATE_POWELL_20040909",
+        "url": "https://2001-2009.state.gov/secretary/former/powell/remarks/36042.htm",
+        "date": "2004-09-09",
+        "quote": "I concluded, that genocide has been committed in Darfur and that the Government of Sudan and the Jingaweit bear responsibility -- and that genocide may still be occurring.",
+        "registered": false
+      },
+      "citation_2": {
+        "source_id": "UNSC_S2005_60",
+        "url": "https://documents.un.org/api/symbol/access?s=S/2005/60&l=en&t=pdf",
+        "date": "2005-01-25",
+        "quote": "518. Conclusion. On the basis of the foregoing observations, the Commission concludes that the Government of the Sudan has not pursued a policy of genocide.",
+        "registered": true
+      },
+      "citation_3": {
+        "source_id": null,
+        "pending_key": "ICC_ALBASHIR_CASE",
+        "url": "https://www.icc-cpi.int/darfur/albashir",
+        "date": "case page as opened 2026-10-27",
+        "quote": "three counts of genocide: by killing, by causing serious bodily or mental harm, and by deliberately inflicting on each target group conditions of life calculated to bring about the group's physical destruction, allegedly committed at least between 2003 and 2008 in Darfur, Sudan The first warrant for arrest for Omar Hassan Ahmad Al Bashir was issued on 4 March 2009, the second on 12 July 2010.",
+        "registered": false
+      },
+      "in_build": false,
+      "source_ids": [
+        "UNSC_S2005_60"
+      ]
+    },
+    {
+      "id": "maj-2023-el-geneina-killings",
+      "type": "major",
+      "subtype": "mass_killing",
+      "title": {
+        "en": "2023 El Geneina killings (Masalit targeted)",
+        "ar": "عمليات القتل في الجنينة 2023 (استهداف المساليت) [يحتاج تحقق]"
+      },
+      "summary": {
+        "en": "According to the UN Panel of Experts (S/2024/65), RSF and allied militias targeted the Masalit community in West Darfur; violations may amount to war crimes and crimes against humanity. The Panel did not use the word genocide in this passage.",
+        "ar": "وفقا لفريق خبراء الأمم المتحدة استهدفت قوات الدعم السريع والميليشيات المتحالفة معها مجتمع المساليت في غرب دارفور. [يحتاج تحقق]"
+      },
+      "date_start": "2023-04-24",
+      "date_end": null,
+      "place_id": "el-geneina",
+      "location_precision": "city",
+      "toll": {
+        "text": "In El Geneina alone, between 10,000 and 15,000 people were killed.",
+        "min": 10000,
+        "max": 15000,
+        "as_of": "report dated 15 Jan 2024"
+      },
+      "badge": "REPORTED",
+      "flags": [
+        "AR-REVIEW"
+      ],
+      "status": "REPORTED",
+      "citation": {
+        "source_id": "UNPOE_S2024_65",
+        "url": "https://documents.un.org/api/symbol/access?s=S/2024/65&l=en&t=pdf",
+        "date": "2024-01-15",
+        "quote": "In West Darfur (El Geneina, Sirba, Murne and Masteri), RSF and allied militias targeted the Masalit community in particular. RSF allied militias systematically violated international humanitarian law. Some of those violations may amount to war crimes and crimes against humanity. ... In El Geneina alone, between 10,000 and 15,000 people were killed.",
+        "registered": true
+      },
+      "source_ids": [
+        "UNPOE_S2024_65"
+      ]
+    },
+    {
+      "id": "maj-2025-us-genocide-determination-rsf",
+      "type": "major",
+      "subtype": "mass_killing",
+      "title": {
+        "en": "US genocide determination against RSF (Jan 2025)",
+        "ar": "قرار الولايات المتحدة بشأن الإبادة الجماعية ضد الدعم السريع (يناير 2025) [يحتاج تحقق]"
+      },
+      "summary": {
+        "en": "On 7 January 2025 the US Secretary of State concluded that members of the RSF and allied militias have committed genocide in Sudan (US government determination).",
+        "ar": "في 7 يناير 2025 خلص وزير الخارجية الأمريكي إلى أن أفرادا من قوات الدعم السريع والميليشيات المتحالفة ارتكبوا إبادة جماعية في السودان. [يحتاج تحقق]"
+      },
+      "date_start": "2025-01-07",
+      "date_end": null,
+      "place_id": null,
+      "location_precision": "country",
+      "toll": null,
+      "badge": "REPORTED",
+      "flags": [
+        "AR-REVIEW"
+      ],
+      "status": "REPORTED",
+      "citation": {
+        "source_id": null,
+        "pending_key": "USSTATE_BLINKEN_20250107",
+        "url": "https://2021-2025.state.gov/genocide-determination-in-sudan-and-imposing-accountability-measures/",
+        "date": "2025-01-07",
+        "quote": "Based on this information, I have now concluded that members of the RSF and allied militias have committed genocide in Sudan.",
+        "registered": false
+      },
+      "in_build": false,
+      "source_ids": []
+    },
+    {
+      "id": "maj-2025-el-fasher-takeover",
+      "type": "major",
+      "subtype": "mass_killing",
+      "title": {
+        "en": "RSF takeover of El Fasher (Oct 2025) – FFM 'hallmarks of genocide'",
+        "ar": "سيطرة الدعم السريع على الفاشر (أكتوبر 2025) [يحتاج تحقق]"
+      },
+      "summary": {
+        "en": "The UN Independent International Fact-Finding Mission for the Sudan (A/HRC/61/77, Feb 2026) assessed that RSF mass killings during the takeover of El Fasher on or around 26–27 October 2025, after an 18-month siege, are 'indicators of a genocidal path' (Mission's assessment, not a court ruling).",
+        "ar": "قدرت بعثة الأمم المتحدة المستقلة لتقصي الحقائق أن عمليات القتل الجماعي أثناء سيطرة الدعم السريع على الفاشر في 26–27 أكتوبر 2025 مؤشرات على مسار إبادة جماعية. [يحتاج تحقق]"
+      },
+      "date_start": "2025-10-26",
+      "date_end": null,
+      "place_id": "el-fasher",
+      "location_precision": "city",
+      "toll": null,
+      "badge": "REPORTED",
+      "flags": [
+        "AR-REVIEW"
+      ],
+      "status": "REPORTED",
+      "citation": {
+        "source_id": null,
+        "pending_key": "UNFFM_SDN_AHRC6177_2026",
+        "url": "https://www.ohchr.org/sites/default/files/documents/hrbodies/hrcouncil/sessions-regular/session61/advance-version/a-hrc-61-77-auv-en.pdf",
+        "date": "2026-02-19",
+        "quote": "The Independent International Fact-Finding Mission for the Sudan (“the Mission”) assesses that the mass killings and related atrocities committed by the Rapid Support Forces in and around El-Fasher, during its takeover of the city on or around 26 and 27 October 2025, are indicators of a genocidal path.",
+        "registered": false
+      },
+      "in_build": false,
+      "source_ids": []
+    },
+    {
+      "id": "maj-2023-refugee-outflow",
+      "type": "major",
+      "subtype": "displacement",
+      "title": {
+        "en": "2023– refugee outflow from Sudan",
+        "ar": "تدفق اللاجئين من السودان 2023– [يحتاج تحقق]"
+      },
+      "summary": {
+        "en": "UNHCR's Sudan situation portal reports total forcibly displaced and those outside Sudan since April 2023.",
+        "ar": "تفيد بوابة اليونسكر بأعداد النازحين قسرا ومن هم خارج السودان منذ أبريل 2023. [يحتاج تحقق]"
+      },
+      "date_start": "2023-04",
+      "date_end": null,
+      "place_id": null,
+      "location_precision": "country",
+      "toll": null,
+      "figures": [
+        {
+          "text": "11,321,158 Last updated 05 Oct 2026 Source - COR, IOM, OCHA, UNHCR",
+          "as_of": "2026-10-05"
+        },
+        {
+          "text": "Outside Sudan 4,637,854 Last updated 05 Oct 2026",
+          "as_of": "2026-10-05"
+        }
+      ],
+      "badge": "REPORTED",
+      "flags": [
+        "AR-REVIEW"
+      ],
+      "status": "REPORTED",
+      "citation": {
+        "source_id": "UNHCR_ODP",
+        "url": "https://data.unhcr.org/en/situations/sudansituation",
+        "date": "2026-10-05",
+        "quote": "Since the start of the conflict in Sudan in mid-April 2023, large numbers of civilians have been forced to flee, including people who were already internally displaced and refugees from other countries who had sought safety in Sudan.",
+        "registered": true
+      },
+      "source_ids": [
+        "UNHCR_ODP"
+      ]
+    },
+    {
+      "id": "dis-2017-south-sudan-famine",
+      "type": "disaster",
+      "subtype": "famine",
+      "title": {
+        "en": "2017 famine in parts of South Sudan",
+        "ar": "مجاعة 2017 في أجزاء من جنوب السودان [يحتاج تحقق]"
+      },
+      "summary": {
+        "en": "The UN announced on 20 February 2017 that famine had been formally declared in parts of South Sudan.",
+        "ar": "أعلنت الأمم المتحدة في 20 فبراير 2017 رسميا المجاعة في أجزاء من جنوب السودان. [يحتاج تحقق]"
+      },
+      "date_start": "2017-02-20",
+      "date_end": null,
+      "place_id": null,
+      "location_precision": "parts of South Sudan",
+      "toll": null,
+      "figures": [
+        {
+          "text": "some 100,000 people facing starvation there and a further one million people are classified as being on the brink",
+          "as_of": "2017-02-20"
+        }
+      ],
+      "badge": "VERIFY",
+      "flags": [
+        "AR-REVIEW"
+      ],
+      "status": null,
+      "citation": {
+        "source_id": null,
+        "pending_key": "UNNEWS_20170220_SSD_FAMINE",
+        "url": "https://news.un.org/en/story/2017/02/551812",
+        "date": "2017-02-20",
+        "quote": "Famine has been formally declared in parts of South Sudan, the United Nations said today, warning that war and a collapsing economy have left some 100,000 people facing starvation there and a further one million people are classified as being on the brink",
+        "registered": false
+      },
+      "in_build": false,
+      "source_ids": []
     }
   ]
 }
