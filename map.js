@@ -311,8 +311,8 @@ function cityVis(c,e){const a=c.a==null?Infinity:c.a;return Y!=null?(c.f<=Y&&a>=
 const cName=c=>AR?(c.ar||c.en):(c.en||c.ar);
 async function citiesDraw(e,D){const d=on.has('cty')?await cty():null;if(e!==ES[i])return;
  const vis=d?d.cities.filter(c=>cityVis(c,e)).map(c=>Object.assign(c,{cap:!!(c.r[e.id]&&c.r[e.id].cap)})):[];
- const s=gY.selectAll('g.cty').data(vis,c=>c.id);
- s.exit().classed('gone',true).interrupt().transition().duration(D).style('opacity',0).remove();
+ const s=gY.selectAll('g.cty:not(.gone)').data(vis,c=>c.id);gY.selectAll('g.cty.gone').filter(c=>vis.some(v=>v.id===c.id)).interrupt().remove();
+ {/* QA t30-1: not-yet-founded (year < f) wins over the .gone fade: removed at once, never drawn; .gone fade only for abandoned/out-of-range-after */const x=s.exit(),pre=c=>(Y!=null?Y:e.b)<c.f;x.filter(pre).interrupt().remove();x.filter(c=>!pre(c)).classed('gone',true).interrupt().transition().duration(D).style('opacity',0).remove()}
  const n=s.enter().append('g').attr('class','cty mk').each(function(c){this.__xy=proj(c.ll)}).attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`}).style('opacity',D?0:1).on('click',cityTap);
  n.append('path');n.append('text').attr('class','ctl2');n.append('title');
  n.transition().duration(D).style('opacity',1);
