@@ -36,7 +36,7 @@
   "rules": "Derived only from the input files; nothing inferred. Base source is null when the properties do not name one.",
   "totals": {
    "eras": 78,
-   "shapes": 293,
+   "shapes": 302,
    "base_source_null": 13,
    "overlay_error_non_null": 0,
    "checked_against_shapes": 25
@@ -1982,10 +1982,316 @@
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map",
      "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/turkiyya-ottoman-egyptian-rule.geojson",
+     "feature_index": 3,
+     "feature_id": null,
+     "label_en": "Berber (Turco-Egyptian town; reference marker, not a border)",
+     "label_ar": null,
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA6_CH14",
+       "pages": "362"
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "db/cities.json place_id berber (WIKIDATA_CITIES Q375935) | reference marker (not a border); coordinates and role from db/cities.json",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1821,
+     "end": 1885,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/turkiyya-ottoman-egyptian-rule.geojson",
+     "feature_index": 4,
+     "feature_id": null,
+     "label_en": "Shendi (Turco-Egyptian town; reference marker, not a border)",
+     "label_ar": null,
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA6_CH14",
+       "pages": "362"
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "db/cities.json place_id shendi (WIKIDATA_CITIES Q997838) | reference marker (not a border); coordinates and role from db/cities.json",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1822,
+     "end": 1885,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/turkiyya-ottoman-egyptian-rule.geojson",
+     "feature_index": 5,
+     "feature_id": null,
+     "label_en": "Khartoum (Turco-Egyptian capital; reference marker, not a border)",
+     "label_ar": null,
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA6_CH14",
+       "pages": "363"
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "db/cities.json place_id khartoum (WIKIDATA_CITIES Q1963) | reference marker (not a border); coordinates and role from db/cities.json",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1821,
+     "end": 1885,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/turkiyya-ottoman-egyptian-rule.geojson",
+     "feature_index": 6,
+     "feature_id": null,
+     "label_en": "El Obeid (Turco-Egyptian capital; reference marker, not a border)",
+     "label_ar": null,
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA6_CH14",
+       "pages": "363"
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "db/cities.json place_id el-obeid (WIKIDATA_CITIES Q309475) | reference marker (not a border); coordinates and role from db/cities.json",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1821,
+     "end": 1885,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/turkiyya-ottoman-egyptian-rule.geojson",
+     "feature_index": 7,
+     "feature_id": null,
+     "label_en": "Wad Madani (Turco-Egyptian garrison; reference marker, not a border)",
+     "label_ar": null,
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA6_CH14",
+       "pages": "360"
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "db/cities.json place_id wad-madani (WIKIDATA_CITIES Q852528) | reference marker (not a border); coordinates and role from db/cities.json",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1821,
+     "end": 1885,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/turkiyya-ottoman-egyptian-rule.geojson",
+     "feature_index": 8,
+     "feature_id": null,
+     "label_en": "Kassala (Turco-Egyptian garrison; reference marker, not a border)",
+     "label_ar": null,
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA6_CH14",
+       "pages": "363"
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "db/cities.json place_id kassala (WIKIDATA_CITIES Q686813) | reference marker (not a border); coordinates and role from db/cities.json",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1821,
+     "end": 1885,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/turkiyya-ottoman-egyptian-rule.geojson",
+     "feature_index": 9,
+     "feature_id": null,
+     "label_en": "Bor (Turco-Egyptian garrison; reference marker, not a border)",
+     "label_ar": null,
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA6_CH14",
+       "pages": "371"
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "db/cities.json place_id bor (WIKIDATA_CITIES Q893274) | reference marker (not a border); coordinates and role from db/cities.json",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1821,
+     "end": 1885,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/turkiyya-ottoman-egyptian-rule.geojson",
+     "feature_index": 10,
+     "feature_id": null,
+     "label_en": "Gondokoro (Turco-Egyptian garrison; reference marker, not a border)",
+     "label_ar": null,
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA6_CH14",
+       "pages": "370"
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "db/cities.json place_id gondokoro (WIKIDATA_CITIES Q1391631) | reference marker (not a border); coordinates and role from db/cities.json",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1874,
+     "end": 1885,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/turkiyya-ottoman-egyptian-rule.geojson",
+     "feature_index": 11,
+     "feature_id": null,
+     "label_en": "Lado (Turco-Egyptian garrison; reference marker, not a border)",
+     "label_ar": null,
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA6_CH14",
+       "pages": "371"
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "db/cities.json place_id lado (WIKIDATA_CITIES Q3215967) | reference marker (not a border); coordinates and role from db/cities.json",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1876,
+     "end": 1885,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
     }
    ],
    "counts": {
-    "shapes": 3,
+    "shapes": 12,
     "contested": 0,
     "trade_routes": 0,
     "base_source_null": 0
