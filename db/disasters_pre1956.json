@@ -1,0 +1,73 @@
+{
+ "meta": {
+  "description": "Pre-1956 disasters (Sudan). Cited printed sources only, quotes verbatim with printed page numbers; no fatality figures. Arabic titles are working translations. Separate file because era_events joins key_events by index. Not read by mapsite.py yet (it reads only disasters_post1956).",
+  "created": "2026-10-26",
+  "missing": [
+   "1946 Nile flood: no lawful open printed source with page numbers found (Sudan Notes and Records 1946-48 on Internet Archive is an in-copyright periodical scan, not used)",
+   "Famine 1888-92 range / 'Sanat Sitta' name: no printed page found"
+  ]
+ },
+ "records": [
+  {
+   "id": "dis-1889-famine",
+   "type": "disaster",
+   "subtype": "famine",
+   "title": {
+    "en": "Famine of 1889 (Mahdist state)",
+    "ar": "مجاعة 1889 (الدولة المهدية) [يحتاج تحقق]"
+   },
+   "date_start": "1889",
+   "date_end": null,
+   "place_id": null,
+   "figures": [
+    {
+     "text": "the price of grain rose at first to forty dollars, and subsequently to sixty dollars, the ardeb",
+     "as_of": "Omdurman, close of 1889 (Slatin 1896, p.453)"
+    }
+   ],
+   "status": null,
+   "badges": [
+    "SINGLE-SOURCE",
+    "REPORTED"
+   ],
+   "note": "The famine is often called Sanat Sitta (year 6, i.e. AH 1306), but that name does not appear in this source. Only 1889 is dated in print here (\"the close of 1889\", p.453), so no end year is given; the 1888-92 range is NOT cited. No fatality figure (p.455 says only \"in hundreds\" for Omdurman streets).",
+   "citations": [
+    {
+     "source_id": "SLATIN1896",
+     "url": "https://archive.org/details/fireswordinsuda00slat",
+     "page": "p.452",
+     "quote": "No rain had fallen the previous year, and the crops in consequence had been very bad",
+     "registered": true
+    },
+    {
+     "source_id": "SLATIN1896",
+     "url": "https://archive.org/details/fireswordinsuda00slat",
+     "page": "p.452",
+     "quote": "Famine first broke out in the Province of Berber",
+     "registered": true
+    },
+    {
+     "source_id": "SLATIN1896",
+     "url": "https://archive.org/details/fireswordinsuda00slat",
+     "page": "p.453",
+     "quote": "Those were terrible months at the close of 1889",
+     "registered": true
+    },
+    {
+     "source_id": "SLATIN1896",
+     "url": "https://archive.org/details/fireswordinsuda00slat",
+     "page": "p.455",
+     "quote": "The dead lay in the streets in hundreds",
+     "registered": true
+    }
+   ],
+   "citation": {
+    "source_id": "SLATIN1896",
+    "url": "https://archive.org/details/fireswordinsuda00slat",
+    "page": "p.453",
+    "quote": "Those were terrible months at the close of 1889",
+    "registered": true
+   }
+  }
+ ]
+}

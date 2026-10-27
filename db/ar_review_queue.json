@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 678
+      "sentence_items": 679
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -11655,6 +11655,20 @@
       "field_en": "periods[name=Mahdist uprising].key_events[1]",
       "revised_english": "26 January 1885: the Ansar attack Khartoum, kill Gordon and put an end to Turco-Egyptian rule in the Sudan",
       "reason": "New top-level era (era review); working translation.",
+      "action": "native review",
+      "origin_commit": "pending",
+      "added": "2026-10-26",
+      "note": "needs native Arabic review [يحتاج تحقق]"
+    },
+    {
+      "era_id": "mahdist-state-mahdiyya",
+      "file": "db/disasters_pre1956.json",
+      "field_ar": "records[id=dis-1889-famine].title.ar",
+      "arabic_sentence": "مجاعة 1889 (الدولة المهدية) [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "records[id=dis-1889-famine].title.en",
+      "revised_english": "Famine of 1889 (Mahdist state)",
+      "reason": "New pre-1956 disaster title; working translation.",
       "action": "native review",
       "origin_commit": "pending",
       "added": "2026-10-26",
