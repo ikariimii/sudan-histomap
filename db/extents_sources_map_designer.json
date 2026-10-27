@@ -830,7 +830,35 @@
     "used_by": [
      "anglo-egyptian-sudan-condominium"
     ],
-    "note": "Checked against the 1916–1934 version: matches except the SE (Uganda/Kenya/Ilemi) corner; no geometry change made (see audit). VERIFY."
+    "note": "Used for the 1916–1934 version SE (Kenya) edge and Ilemi south edge (ruling 3, 2026-10-27); rest of the 1916–34 outline matches within ≈0.1°. VERIFY."
+   },
+   "WO_GSGS_1904": {
+    "id": "WO_GSGS_1904",
+    "author": "Intelligence Office, Khartoum (I.D.W.O. No. 1856)",
+    "title": "The Anglo-Egyptian Sudan",
+    "publisher": "Compiled in the Intelligence Office, Khartoum, May 1904; scan: Library of Congress Geography and Map Division",
+    "date": "1904",
+    "url": "https://www.loc.gov/resource/g8310.ct011330/",
+    "license": "Public domain (UK Crown copyright expired)",
+    "verification": "IIIF pct:100 image read 2026-10-27; georeferenced on printed graticule, lon RMS 0.0090° (max 0.061, n=808), lat RMS 0.0115° (max 0.038, n=697)",
+    "used_by": [
+     "anglo-egyptian-sudan-condominium"
+    ],
+    "note": "Used for the 1899–1902 and 1902–1910 versions: Darfur edge, NW 1899 Anglo-French line, Dar Fertit/Kafia Kingi edge. Sheet note: positions in S and W Kordofan and Bahr el Ghazal from route sketches, not accurate. APPROXIMATE, VERIFY."
+   },
+   "AUC_GSGS_1939": {
+    "id": "AUC_GSGS_1939",
+    "author": "Great Britain War Office, General Staff, Geographical Section (G.S.G.S.)",
+    "title": "The Anglo-Egyptian Sudan, Fourth edition (1:3,000,000)",
+    "publisher": "G.S.G.S., London; scan: Rare Books and Special Collections Library, American University in Cairo",
+    "date": "1939",
+    "url": "https://digitalcollections.aucegypt.edu/digital/collection/p15795coll6/id/175/",
+    "license": "Public domain (AUC item metadata: 'This item is in the public domain.')",
+    "verification": "IIIF full image (4543×6032) read 2026-10-27; georeferenced, lon RMS 0.0054° (n=566), lat RMS 0.0046° (n=551)",
+    "used_by": [
+     "anglo-egyptian-sudan-condominium"
+    ],
+    "note": "Used for the 1934–1956 version SE (Kenya) edge and Ilemi south edge; rest of the 1934–56 outline matches within ≈0.1°. VERIFY."
    }
   }
  }

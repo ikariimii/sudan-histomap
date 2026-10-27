@@ -682,7 +682,10 @@
     "BRE_AES",
     "HD2011",
     "IBS18_1962",
-    "WO_GSGS_1914"
+    "WO_GSGS_1914",
+    "WO_GSGS_1904",
+    "AUC_GSGS_1939",
+    "ILEMI_PCGN_SSD2024"
    ],
    "ohm_ids": [
     2831546,
@@ -692,7 +695,7 @@
     2803203
    ],
    "cshapes": null,
-   "notes": "OHM Anglo-Egyptian Sudan series: 1899-06-19→1902, 1902→1910-06-10, 1910-06-10→1912, 1912→1934, 1934→1956-01-01, all without source tags. CShapes 2.0 also covers dependencies from 1886, but it is CC BY-NC-SA, so do not use it for shapes. Pass 16: Halaib Triangle and Bir Tawil dates under 'disputed_features' (IBS18_1962 primary for 1899/1902/1958). Ruling 1 (2026-10-27): 1910–1916 Darfur edge from WO_GSGS_1914 (LoC, public domain), replacing the modern HDX proxy; APPROXIMATE, VERIFY. 1928 sheet (WO_GSGS_1928) checked against 1916–34: SE corner differs, not changed.",
+   "notes": "OHM Anglo-Egyptian Sudan series: 1899-06-19→1902, 1902→1910-06-10, 1910-06-10→1912, 1912→1934, 1934→1956-01-01, all without source tags. CShapes 2.0 also covers dependencies from 1886, but it is CC BY-NC-SA, so do not use it for shapes. Pass 16: Halaib Triangle and Bir Tawil dates under 'disputed_features' (IBS18_1962 primary for 1899/1902/1958). Ruling 1 (2026-10-27): 1910–1916 Darfur edge from WO_GSGS_1914 (LoC, public domain), replacing the modern HDX proxy; APPROXIMATE, VERIFY. 1928 sheet (WO_GSGS_1928) checked against 1916–34: SE corner differs, not changed. Ruling 3 (2026-10-27): 1899–1910 Darfur, NW and Dar Fertit edges from WO_GSGS_1904 (LoC, PD); 1916–34 SE edge from WO_GSGS_1928 and 1934–56 SE edge from AUC_GSGS_1939 (PD); Ilemi Triangle added as separate CONTESTED hatched feature, start 1928 (ILEMI_PCGN_SSD2024 p.3), north edge = OHM line (not a sourced limit); APPROXIMATE, VERIFY.",
    "disputed_features": {
     "halaib": {
      "start": 1902,
