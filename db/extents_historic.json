@@ -377,24 +377,33 @@
     {
      "year_from": 1365,
      "year_to": 1500,
-     "label": "Kings at al-Daw",
+     "label": "Kings at al-Daw (Maris)",
      "confidence": "low",
-     "reach_en": "After 1365–6 'the Nubian kings retained their residence at al-Daw, and the larger part of Mukurra was left in disorder, without central authority. The last written reference to the Nubian king, dating from 1397' (GHA4_CH16 p.404). No marker: al-Daw (Gebel Adda) has no db/cities.json entry, and no cited reach exists. End 1500 is the era's display end [VERIFY].",
-     "anchors": [],
-     "unplaced": [
+     "reach_en": "1365–6: king moved to al-Daw in Maris, Dunkula left in ruins (GHA4 p.404). Not an end: 'the Nubian kings retained their residence at al-Daw'; last written reference to the Nubian king 1397 (GHA4_CH16 p.404). Marker at al-Daw (db/cities.json, Q1496812); identification with Gebel Adda VERIFY. No cited reach is drawn.",
+     "anchors": [
       {
        "name": "al-Daw (Gebel Adda)",
+       "lat": 22.29709,
+       "lon": 31.636884,
        "source_ids": [
         "GHA4_CH16"
        ],
        "pages": "404",
-       "reason": "no db/cities.json entry"
+       "coord_source": "db/cities.json al-daw (Wikidata Q1496812)",
+       "badge": "APPROXIMATE",
+       "badges": [
+        "APPROXIMATE",
+        "VERIFY"
+       ],
+       "note": "identification of al-Daw with Gebel Adda: VERIFY"
       }
      ],
      "badge": "VERIFY",
      "sources": [
       "GHA4_CH16"
-     ]
+     ],
+     "year_to_note": "end undated in printed sources",
+     "year_to_badge": "VERIFY"
     }
    ]
   },
