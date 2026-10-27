@@ -6131,6 +6131,71 @@
     }
    ],
    "list_only_reason": "place_id for the 2024 Zamzam famine in db/disasters_post1956.json (Analyst request 2026-10-26)"
-  }
+  },
+ {
+  "id": "al-daw",
+  "name_en": "al-Daw (Gebel Adda)",
+  "name_ar": "جبل عدة [يحتاج تحقق]",
+  "name_ar_source": "wikidata (ar label of Q1496812) — queued in db/ar_review_queue.json [يحتاج تحقق]",
+  "wikidata": "Q1496812",
+  "lat": 22.29709,
+  "lon": 31.636884,
+  "coord_source": {
+   "source_id": "WIKIDATA_CITIES",
+   "page": "Q1496812",
+   "badge": "APPROXIMATE",
+   "note": "Q1496812 has one P625 statement, rank normal (no preferred-rank value); item is the mountain Gebel Adda (Egypt), now under Lake Nasser"
+  },
+  "category": "ancient",
+  "founded": null,
+  "founded_reason": "not stated in the sources read for this layer",
+  "abandoned": {
+   "year": null,
+   "reason": "archaeological/abandoned site; abandonment date not stated in sources read"
+  },
+  "roles": [
+   {
+    "era_id": "makuria",
+    "role": "royal residence",
+    "start": 1365,
+    "end": null,
+    "source_id": "GHA4_CH16",
+    "page": "404",
+    "note": "\"The king sought refuge in the castle of al-Daw in Maris\"; \"The Nubian kings retained their residence at al-Daw\" (GHA IV ch.16 p.404). End not stated."
+   }
+  ],
+  "history_en": "Castle in Maris where the Makurian king took refuge in 1365-6; the Nubian kings kept their residence there (GHA IV ch.16 p.404). Identification of al-Daw with Gebel Adda is not stated in GHA IV (VERIFY).",
+  "history_ar": null,
+  "history_source": {
+   "source_id": "GHA4_CH16",
+   "page": "404"
+  },
+  "history_ar_status": "missing — queued in db/ar_review_queue.json",
+  "source_ids": [
+   {
+    "id": "GHA4_CH16",
+    "page": "404"
+   },
+   {
+    "id": "WIKIDATA_CITIES",
+    "page": "Q1496812"
+   }
+  ],
+  "first_attested": {
+   "year": 1365,
+   "badge": "FIRST_ATTESTED",
+   "source_id": "GHA4_CH16",
+   "page": "404",
+   "basis": "events of 1365-6: king took refuge in the castle of al-Daw"
+  },
+  "map_from": {
+   "year": 1365,
+   "basis": "first_attested"
+  },
+  "last_attested": null,
+  "last_attested_reason": "GHA IV p.404: last written reference to the Nubian king dates from 1397 but does not name al-Daw",
+  "identification_badge": "VERIFY",
+  "list_only_reason": "Makuria late-period royal residence (Map Designer request 2026-10-27)"
+ }
  ]
 }

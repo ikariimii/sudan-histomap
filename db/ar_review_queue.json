@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 732
+      "sentence_items": 733
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -12286,6 +12286,20 @@
       "revised_english": "The largest Keira restoration revolt in Darfur was led by Amir Harun from 1877, and he harassed the Turkish forces for three years until he was killed in 1880. His relative Abdallah Dud Banga carried on from a fortified camp in the Nuba mountains.",
       "reason": "New pre-1956 key event; working translation.",
       "action": "native review",
+      "origin_commit": "pending",
+      "added": "2026-10-27",
+      "note": "needs native Arabic review [يحتاج تحقق]"
+    },
+    {
+      "era_id": null,
+      "file": "db/cities.json",
+      "field_ar": "places[id=al-daw].name_ar",
+      "arabic_sentence": "جبل عدة [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "places[id=al-daw].name_en",
+      "revised_english": "al-Daw (Gebel Adda)",
+      "reason": "Arabic name taken from the Wikidata ar label of Q1496812; not checked against a registered Arabic source.",
+      "action": "Native reviewer: check the Arabic name.",
       "origin_commit": "pending",
       "added": "2026-10-27",
       "note": "needs native Arabic review [يحتاج تحقق]"
