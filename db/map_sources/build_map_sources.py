@@ -16,7 +16,8 @@ OV = J('db/border_overlay_maps.json')
 BASE = [('OpenHistoricalMap', r'openhistoricalmap|\bohm\b|OHM_'), ('CShapes', r'cshapes'), ('Natural Earth', r'natural.?earth|NATURAL_EARTH'),
         ('HDX COD-AB', r'cod-ab|hdx'), ('OpenStreetMap', r'openstreetmap|\bosm\b'), ('Pleiades', r'pleiades'), ('GeoNames', r'geonames'),
         ('NGA GNS', r'nga[_ ]gns|\bnga\b'), ('Wikidata', r'wikidata'), ('PCA Abyei Award coordinates', r'pca abyei'),
-        ('Hand-placed anchor/buffer draft (bd-0.1)', r'anchor points \+|anchor/buffer|hand-placed')]
+        ('Hand-placed anchor/buffer draft (bd-0.1)', r'anchor points \+|anchor/buffer|hand-placed'),
+        ('Georeferenced period map (Hassenstein 1884)', r'hassenstein')]
 def badges(p):
     b = set(p.get('badges') or [])
     if p.get('badge'): b.add(str(p['badge']).split(' ')[0])

@@ -36,7 +36,7 @@
   "rules": "Derived only from the input files; nothing inferred. Base source is null when the properties do not name one.",
   "totals": {
    "eras": 78,
-   "shapes": 291,
+   "shapes": 293,
    "base_source_null": 13,
    "overlay_error_non_null": 0,
    "checked_against_shapes": 25
@@ -12746,10 +12746,78 @@
      "overlay_mean_error_km": null,
      "overlay_null_reason": "not traced from a georeferenced map",
      "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/mahdist-uprising.geojson",
+     "feature_index": 6,
+     "feature_id": "hass1884-mahdi-west",
+     "label_en": "Mahdi insurrection area, Feb 1884 (west (Kordofan / southern Darfur)), traced from Hassenstein 1884",
+     "label_ar": null,
+     "zone_type": "extent",
+     "geometry_type": "Polygon",
+     "cites": [
+      {
+       "id": "HASSENSTEIN1884",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "Georeferenced period map (Hassenstein 1884)"
+     ],
+     "base_source_text": "georeferenced period map (Hassenstein 1884, poly3, graticule LOO RMS 3.74 km, town check RMS 25.0 km) | Public domain (Commons extmetadata: pd) | Hassenstein 1884 colour segmentation of yellow shading ((R+G)/2-B, 21px paper-only mean, >37), open r6 / close r15 / fill holes at 1/2 res (~1.6 km px), components >0.5 sq deg in panel, simplified 0.018 deg (~2 km). Draft by Sudan Map Designer; audit /workspace/audit/mahdist_trace/",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": null,
+     "certainty": null,
+     "start": 1884,
+     "end": 1884,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
+     "layer": "extents",
+     "file": "db/extents/mahdist-uprising.geojson",
+     "feature_index": 7,
+     "feature_id": "hass1884-mahdi-east",
+     "label_en": "Mahdi insurrection area, Feb 1884 (east (Berber–Suakin hinterland)), traced from Hassenstein 1884",
+     "label_ar": null,
+     "zone_type": "extent",
+     "geometry_type": "Polygon",
+     "cites": [
+      {
+       "id": "HASSENSTEIN1884",
+       "pages": null
+      }
+     ],
+     "base_source": [
+      "Georeferenced period map (Hassenstein 1884)"
+     ],
+     "base_source_text": "georeferenced period map (Hassenstein 1884, poly3, graticule LOO RMS 3.74 km, town check RMS 25.0 km) | Public domain (Commons extmetadata: pd) | Hassenstein 1884 colour segmentation of yellow shading ((R+G)/2-B, 21px paper-only mean, >37), open r6 / close r15 / fill holes at 1/2 res (~1.6 km px), components >0.5 sq deg in panel, simplified 0.018 deg (~2 km). Draft by Sudan Map Designer; audit /workspace/audit/mahdist_trace/",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "DERIVED"
+     ],
+     "confidence": null,
+     "certainty": null,
+     "start": 1884,
+     "end": 1884,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
     }
    ],
    "counts": {
-    "shapes": 6,
+    "shapes": 8,
     "contested": 6,
     "trade_routes": 0,
     "base_source_null": 6
