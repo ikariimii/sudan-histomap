@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 1121
+      "sentence_items": 1123
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -17859,6 +17859,34 @@
       "reason": "New or changed Arabic by the Map Designer (ebc7d05 / site 44e024a, egl QA fixes); previous: \"موطن البقارة (غير مرسوم) [Arabic text pending native-speaker review.]\". Working translation, not from a published Arabic edition.",
       "action": "native review",
       "origin_commit": "ebc7d05",
+      "added": "2026-10-27",
+      "note": "needs native Arabic review [يحتاج تحقق]"
+    },
+    {
+      "era_id": "mahdist-state-mahdiyya",
+      "file": "db/disasters_pre1956.json",
+      "field_ar": "records[id=dis-1889-famine].summary_ar",
+      "arabic_sentence": "ترجمة عربية للنص الإنجليزي (ليست اقتباساً من طبعة عربية): «بدأت المجاعة أولاً في مديرية بربر» (سلاطين 1896، ص 452). رقم أسعار الحبوب أدناه يخص أم درمان في أواخر 1889 (ص 453). [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "records[id=dis-1889-famine].summary_en",
+      "revised_english": null,
+      "reason": "New Arabic summary (IM/QA: card said Omdurman, marker at Berber); working translation of Slatin 1896 p.452 'Famine first broke out in the Province of Berber', labelled as a translation, not from a published Arabic edition.",
+      "action": "native review",
+      "origin_commit": "pending",
+      "added": "2026-10-27",
+      "note": "needs native Arabic review [يحتاج تحقق]"
+    },
+    {
+      "era_id": "ptolemaic-egypt",
+      "file": "db/city_layers/cities.geojson",
+      "field_ar": "features[id=philae].properties.card_notes[0].ar",
+      "arabic_sentence": "305 ق.م (GHA2_CH10 287) [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "features[id=philae].properties.card_notes[0].en",
+      "revised_english": null,
+      "reason": "New Arabic card note by the Map Designer (8d2b723); previous: null. Working translation of 'first attested (305 BCE, GHA2_CH10 287)'.",
+      "action": "native review",
+      "origin_commit": "8d2b723",
       "added": "2026-10-27",
       "note": "needs native Arabic review [يحتاج تحقق]"
     }
