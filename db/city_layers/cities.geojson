@@ -2209,13 +2209,15 @@
     "inhabited_today": true,
     "roles": [
      {
-      "era_id": "shilluk-kingdom",
+      "era_id": null,
       "role": "capital",
       "start": null,
       "end": null,
       "source_id": "GHA6_CH14",
       "page": "366",
-      "note": "Shilluk royal capital, destroyed by traders"
+      "note": "Shilluk royal capital, destroyed by traders",
+      "group_id": "shilluk",
+      "group_note": "former era 'shilluk-kingdom' removed from the timeline (owner t218u); group record in db/ethnic_groups.json"
      }
     ],
     "badges": [
@@ -2648,13 +2650,15 @@
     "inhabited_today": true,
     "roles": [
      {
-      "era_id": "shilluk-kingdom",
+      "era_id": null,
       "role": "town",
       "start": 1490,
       "end": null,
       "source_id": "GHA5_CH7",
       "page": "193",
-      "note": "\"first settlement was near Malakal, under their leader, Nyikang (c. 1490-1517)\""
+      "note": "\"first settlement was near Malakal, under their leader, Nyikang (c. 1490-1517)\"",
+      "group_id": "shilluk",
+      "group_note": "former era 'shilluk-kingdom' removed from the timeline (owner t218u); group record in db/ethnic_groups.json"
      },
      {
       "era_id": "southern-sudan-under-condominium-sudan",

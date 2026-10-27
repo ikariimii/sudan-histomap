@@ -2877,7 +2877,7 @@
    "relations": [
     {
      "id": "rel-nuba-01",
-     "era_id": "shilluk-kingdom",
+     "era_id": null,
      "other_group_or_state": "Shilluk",
      "type": "conflict",
      "text_en": "Shilluk Reth Dhokoth (c.1670–90) raided into the Nuba mountains.",
@@ -2888,7 +2888,9 @@
       "page": "p.196"
      },
      "badge": "SINGLE-SOURCE",
-     "certainty": "medium"
+     "certainty": "medium",
+     "group_id": "shilluk",
+     "group_note": "former era 'shilluk-kingdom' removed from the timeline (owner t218u); group record in db/ethnic_groups.json"
     },
     {
      "id": "rel-nuba-02",
@@ -3598,24 +3600,7 @@
     "conflict_note": "LOC places them on the Bahr al Jabal just north of where it becomes the White Nile; GHA places the heartland at the Nile–Sobat confluence. Both are given.",
     "qasim_note": "Qasim vol.3 pp.1251–1252 (the text starting 'between Kaka' runs over a page break; VERIFY)."
    },
-   "controlled_areas": [
-    {
-     "era_id": "shilluk-kingdom",
-     "place": "'Bahr Scheluk' (White Nile reach)",
-     "text_en": "The Shilluk dominated the White Nile reach known as 'Bahr Scheluk' from Reth Odak Ocollo (c.1600–35) until 1861; Shilluk raids reached the site of Khartoum in 1780.",
-     "cite": [
-      {
-       "source": "GHA5_CH7",
-       "page": "p.195"
-      },
-      {
-       "source": "GHA5_CH7",
-       "page": "p.197"
-      }
-     ],
-     "certainty": "medium"
-    }
-   ],
+   "controlled_areas": [],
    "ancestry": {
     "value": null,
     "null_reason": "not stated in sources read"
@@ -3674,7 +3659,7 @@
     },
     {
      "id": "rel-shilluk-02",
-     "era_id": "shilluk-kingdom",
+     "era_id": null,
      "other_group_or_state": "Darfur sultanate",
      "type": "alliance",
      "text_en": "The Shilluk supported Darfur against the Funj.",
@@ -3685,11 +3670,13 @@
       "page": "p.195"
      },
      "badge": "SINGLE-SOURCE",
-     "certainty": "medium"
+     "certainty": "medium",
+     "group_id": "shilluk",
+     "group_note": "former era 'shilluk-kingdom' removed from the timeline (owner t218u); group record in db/ethnic_groups.json"
     },
     {
      "id": "rel-shilluk-03",
-     "era_id": "shilluk-kingdom",
+     "era_id": null,
      "other_group_or_state": "Nuba",
      "type": "conflict",
      "text_en": "Reth Dhokoth (c.1670–90) raided into the Nuba mountains.",
@@ -3700,7 +3687,9 @@
       "page": "p.196"
      },
      "badge": "SINGLE-SOURCE",
-     "certainty": "medium"
+     "certainty": "medium",
+     "group_id": "shilluk",
+     "group_note": "former era 'shilluk-kingdom' removed from the timeline (owner t218u); group record in db/ethnic_groups.json"
     },
     {
      "id": "rel-shilluk-04",

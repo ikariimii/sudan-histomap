@@ -236,32 +236,6 @@
    ]
   },
   {
-   "era_id": "anuak-anywaa-communities",
-   "name_en": "Anuak (Anywaa) communities",
-   "name_ar": "مجتمعات الأنواك (أنيوا)",
-   "name_ar_badge": "[يحتاج تحقق]",
-   "years": [
-    1500,
-    2026
-   ],
-   "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. ",
-   "area_layer": "db/extents/anuak-anywaa-communities.geojson",
-   "area_mode": "extent",
-   "camera_bbox": [
-    31.7185,
-    6.9337,
-    34.7185,
-    9.9337
-   ],
-   "source_ids": [
-    "COW_NMC6",
-    "GLEICHEN1905_V2",
-    "LOC_ETH1991_NILOSAHARAN",
-    "GHAV",
-    "GLEICHEN1905_V1"
-   ]
-  },
-  {
    "era_id": "beja-red-sea-hills-peoples",
    "name_en": "Beja (Red Sea Hills peoples)",
    "name_ar": "البجا (شعوب جبال البحر الأحمر)",
@@ -498,31 +472,6 @@
     "WP:Derg",
     "WP:Grand_Ethiopian_Renaissance_Dam",
     "GEO-016"
-   ]
-  },
-  {
-   "era_id": "dinka-jieng-communities",
-   "name_en": "Dinka (Jieng) communities",
-   "name_ar": "مجتمعات الدينكا (جيينق)",
-   "name_ar_badge": "[يحتاج تحقق]",
-   "years": [
-    1500,
-    2026
-   ],
-   "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. ",
-   "area_layer": "db/extents/dinka-jieng-communities.geojson",
-   "area_mode": "extent",
-   "camera_bbox": [
-    30.05,
-    4.717,
-    33.05,
-    7.717
-   ],
-   "source_ids": [
-    "HD2011",
-    "COW_NMC6",
-    "GHA5_CH7",
-    "GLEICHEN1905_V1"
    ]
   },
   {
@@ -1365,30 +1314,6 @@
    ]
   },
   {
-   "era_id": "nuer-naath-communities",
-   "name_en": "Nuer (Naath) communities",
-   "name_ar": "مجتمعات النوير (ناث)",
-   "name_ar_badge": "[يحتاج تحقق]",
-   "years": [
-    1500,
-    2026
-   ],
-   "dating_note": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. Nuer 19th-c. expansion still unsourced.",
-   "area_layer": "db/extents/nuer-naath-communities.geojson",
-   "area_mode": "extent",
-   "camera_bbox": [
-    29.6644,
-    6.9337,
-    34.7185,
-    10.9125
-   ],
-   "source_ids": [
-    "GHA7_CH4",
-    "COW_NMC6",
-    "GLEICHEN1905_V1"
-   ]
-  },
-  {
    "era_id": "ottoman-egypt-muhammad-ali-dynasty",
    "name_en": "Ottoman Egypt & Muhammad Ali dynasty",
    "name_ar": "مصر العثمانية وأسرة محمد علي",
@@ -1685,32 +1610,6 @@
    ]
   },
   {
-   "era_id": "shilluk-kingdom",
-   "name_en": "Shilluk Kingdom",
-   "name_ar": "مملكة الشلك",
-   "name_ar_badge": "[يحتاج تحقق]",
-   "years": [
-    1490,
-    1861
-   ],
-   "dating_note": "Founding c.1490 traditional (Nyikang); 1861 end-point not re-verified.",
-   "area_layer": "db/extents/shilluk-kingdom.geojson",
-   "area_mode": "extent",
-   "camera_bbox": [
-    31.231,
-    9.255,
-    33.506,
-    13.531
-   ],
-   "source_ids": [
-    "HD2011",
-    "GHA6_CH14",
-    "COW_NMC6",
-    "GHA5_CH7",
-    "WP:Shilluk_Kingdom"
-   ]
-  },
-  {
    "era_id": "southern-sudan-under-condominium-sudan",
    "name_en": "Southern Sudan under Condominium / Sudan",
    "name_ar": "جنوب السودان (الحكم الثنائي/السودان)",
@@ -1989,35 +1888,6 @@
     "COW_NMC6",
     "GHAIV",
     "WP:Zagwe_dynasty"
-   ]
-  },
-  {
-   "era_id": "zande-kingdoms",
-   "name_en": "Zande kingdoms",
-   "name_ar": "ممالك الزاندي",
-   "name_ar_badge": "[يحتاج تحقق]",
-   "years": [
-    1700,
-    1905
-   ],
-   "dating_note": "[APPROXIMATE] [NO-SOURCE] Start and end years are approximate; no page-level source for the dates has been read.",
-   "area_layer": "db/extents/zande-kingdoms.geojson",
-   "area_mode": "extent",
-   "camera_bbox": [
-    24.3,
-    3.454,
-    27.219,
-    5.429
-   ],
-   "source_ids": [
-    "COW_NMC6",
-    "GHA5_CH7",
-    "GHA5_CH18",
-    "GHA6_CH12",
-    "GHA6_CH14",
-    "GHA7_CH4",
-    "GHAV",
-    "WP:Zande_people"
    ]
   }
  ]

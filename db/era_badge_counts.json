@@ -334,51 +334,6 @@
     "db/trade_routes/anglo-egyptian-sudan-condominium.geojson"
    ]
   },
-  "anuak-anywaa-communities": {
-   "source_types": {
-    "un_aid_agency": 0,
-    "intl_financial": 0,
-    "government": 1,
-    "scholarly": 1,
-    "wikipedia_only": 0,
-    "news": 0,
-    "other": 3
-   },
-   "source_types_total": 5,
-   "counts": {
-    "SINGLE-SOURCE": 10,
-    "CONTESTED": 0,
-    "VERIFY": 7,
-    "REPORTED": 0,
-    "MODEL": 0,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 9,
-    "PARTIAL": 0,
-    "DERIVED": 1
-   },
-   "total": 27,
-   "inline_badges": {
-    "SINGLE-SOURCE": 0,
-    "CONTESTED": 0,
-    "VERIFY": 0,
-    "REPORTED": 0,
-    "MODEL": 0,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 0,
-    "PARTIAL": 0,
-    "DERIVED": 0
-   },
-   "inline_total": 0,
-   "files": [
-    "data/eras/anuak-anywaa-communities.json",
-    "db/ar_review_queue.json",
-    "db/era_economy.json",
-    "db/era_fill_modern4.json",
-    "db/extents/anuak-anywaa-communities.geojson",
-    "db/extents_historic.json",
-    "db/map_sources.json"
-   ]
-  },
   "beja-red-sea-hills-peoples": {
    "source_types": {
     "un_aid_agency": 0,
@@ -727,52 +682,6 @@
     "db/extents/derg-federal-ethiopia.geojson",
     "db/map_sources.json",
     "db/population.json"
-   ]
-  },
-  "dinka-jieng-communities": {
-   "source_types": {
-    "un_aid_agency": 0,
-    "intl_financial": 0,
-    "government": 0,
-    "scholarly": 2,
-    "wikipedia_only": 0,
-    "news": 0,
-    "other": 2
-   },
-   "source_types_total": 4,
-   "counts": {
-    "SINGLE-SOURCE": 12,
-    "CONTESTED": 3,
-    "VERIFY": 1,
-    "REPORTED": 0,
-    "MODEL": 0,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 15,
-    "PARTIAL": 0,
-    "DERIVED": 1
-   },
-   "total": 32,
-   "inline_badges": {
-    "SINGLE-SOURCE": 0,
-    "CONTESTED": 0,
-    "VERIFY": 0,
-    "REPORTED": 0,
-    "MODEL": 0,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 0,
-    "PARTIAL": 0,
-    "DERIVED": 0
-   },
-   "inline_total": 0,
-   "files": [
-    "data/eras/dinka-jieng-communities.json",
-    "db/ar_review_queue.json",
-    "db/battles_post1956.json",
-    "db/era_economy.json",
-    "db/era_fill_hist20.json",
-    "db/extents/dinka-jieng-communities.geojson",
-    "db/extents_historic.json",
-    "db/map_sources.json"
    ]
   },
   "early-dynastic-old-kingdom-egypt": {
@@ -2075,51 +1984,6 @@
     "db/population.json"
    ]
   },
-  "nuer-naath-communities": {
-   "source_types": {
-    "un_aid_agency": 0,
-    "intl_financial": 0,
-    "government": 0,
-    "scholarly": 1,
-    "wikipedia_only": 0,
-    "news": 0,
-    "other": 2
-   },
-   "source_types_total": 3,
-   "counts": {
-    "SINGLE-SOURCE": 10,
-    "CONTESTED": 3,
-    "VERIFY": 4,
-    "REPORTED": 0,
-    "MODEL": 0,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 12,
-    "PARTIAL": 0,
-    "DERIVED": 1
-   },
-   "total": 30,
-   "inline_badges": {
-    "SINGLE-SOURCE": 0,
-    "CONTESTED": 0,
-    "VERIFY": 0,
-    "REPORTED": 0,
-    "MODEL": 0,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 0,
-    "PARTIAL": 0,
-    "DERIVED": 0
-   },
-   "inline_total": 0,
-   "files": [
-    "data/eras/nuer-naath-communities.json",
-    "db/ar_review_queue.json",
-    "db/battles_post1956.json",
-    "db/era_economy.json",
-    "db/extents/nuer-naath-communities.geojson",
-    "db/extents_historic.json",
-    "db/map_sources.json"
-   ]
-  },
   "ottoman-egypt-muhammad-ali-dynasty": {
    "source_types": {
     "un_aid_agency": 0,
@@ -2557,50 +2421,6 @@
     "db/population.json"
    ]
   },
-  "shilluk-kingdom": {
-   "source_types": {
-    "un_aid_agency": 0,
-    "intl_financial": 0,
-    "government": 0,
-    "scholarly": 3,
-    "wikipedia_only": 1,
-    "news": 0,
-    "other": 1
-   },
-   "source_types_total": 5,
-   "counts": {
-    "SINGLE-SOURCE": 7,
-    "CONTESTED": 0,
-    "VERIFY": 0,
-    "REPORTED": 0,
-    "MODEL": 0,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 2,
-    "PARTIAL": 0,
-    "DERIVED": 4
-   },
-   "total": 13,
-   "inline_badges": {
-    "SINGLE-SOURCE": 0,
-    "CONTESTED": 0,
-    "VERIFY": 0,
-    "REPORTED": 0,
-    "MODEL": 0,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 0,
-    "PARTIAL": 0,
-    "DERIVED": 0
-   },
-   "inline_total": 0,
-   "files": [
-    "data/eras/shilluk-kingdom.json",
-    "db/era_economy.json",
-    "db/extents/shilluk-kingdom.geojson",
-    "db/groups.json",
-    "db/map_sources.json",
-    "db/relations.json"
-   ]
-  },
   "southern-sudan-under-condominium-sudan": {
    "source_types": {
     "un_aid_agency": 2,
@@ -3000,48 +2820,6 @@
     "data/eras/zagwe-dynasty.json",
     "db/era_economy.json",
     "db/extents/zagwe-dynasty.geojson",
-    "db/map_sources.json"
-   ]
-  },
-  "zande-kingdoms": {
-   "source_types": {
-    "un_aid_agency": 0,
-    "intl_financial": 0,
-    "government": 0,
-    "scholarly": 6,
-    "wikipedia_only": 1,
-    "news": 0,
-    "other": 1
-   },
-   "source_types_total": 8,
-   "counts": {
-    "SINGLE-SOURCE": 0,
-    "CONTESTED": 0,
-    "VERIFY": 0,
-    "REPORTED": 0,
-    "MODEL": 0,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 4,
-    "PARTIAL": 0,
-    "DERIVED": 6
-   },
-   "total": 10,
-   "inline_badges": {
-    "SINGLE-SOURCE": 0,
-    "CONTESTED": 0,
-    "VERIFY": 0,
-    "REPORTED": 0,
-    "MODEL": 0,
-    "EDITORIAL": 0,
-    "APPROXIMATE": 1,
-    "PARTIAL": 0,
-    "DERIVED": 0
-   },
-   "inline_total": 1,
-   "files": [
-    "data/eras/zande-kingdoms.json",
-    "db/era_economy.json",
-    "db/extents/zande-kingdoms.geojson",
     "db/map_sources.json"
    ]
   }

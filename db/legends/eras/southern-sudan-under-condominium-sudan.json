@@ -766,11 +766,13 @@
      "roles_in_era": [
       {
        "role": "capital",
-       "era_id": "shilluk-kingdom",
+       "era_id": null,
        "start": null,
        "end": null,
        "source_id": "GHA6_CH14",
-       "page": "366"
+       "page": "366",
+       "group_id": "shilluk",
+       "group_note": "former era 'shilluk-kingdom' removed from the timeline (owner t218u); group record in db/ethnic_groups.json"
       }
      ],
      "badges": [],
@@ -1063,11 +1065,13 @@
      "roles_in_era": [
       {
        "role": "town",
-       "era_id": "shilluk-kingdom",
+       "era_id": null,
        "start": 1490,
        "end": null,
        "source_id": "GHA5_CH7",
-       "page": "193"
+       "page": "193",
+       "group_id": "shilluk",
+       "group_note": "former era 'shilluk-kingdom' removed from the timeline (owner t218u); group record in db/ethnic_groups.json"
       },
       {
        "role": "town",
@@ -2845,7 +2849,7 @@
    "VERIFY"
   ],
   "what_changed": {
-   "previous_era_id": "anuak-anywaa-communities",
+   "previous_era_id": null,
    "basis": "previous era in same stream by start year",
    "extents_added": [
     "Abyei (disputed) [CONTESTED]",

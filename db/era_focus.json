@@ -468,23 +468,6 @@
    "flag_anchor_basis": "polygon-pole",
    "cities_with_role": []
   },
-  "shilluk-kingdom": {
-   "name": "Shilluk Kingdom",
-   "stream": "South Sudan – Upper Nile",
-   "start": 1490,
-   "end": 1861,
-   "zoom": 6,
-   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
-   "flag_anchor": [
-    32.042,
-    10.12
-   ],
-   "flag_anchor_basis": "polygon-pole",
-   "cities_with_role": [
-    "fashoda",
-    "malakal"
-   ]
-  },
   "southern-sudan-under-condominium-sudan": {
    "name": "Southern Sudan under Condominium / Sudan",
    "stream": "South Sudan – Upper Nile",
@@ -888,20 +871,6 @@
     "tripoli"
    ]
   },
-  "zande-kingdoms": {
-   "name": "Zande kingdoms",
-   "stream": "Central Africa (CAR/Congo border)",
-   "start": 1700,
-   "end": 1905,
-   "zoom": 6,
-   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
-   "flag_anchor": [
-    24.8,
-    4.929
-   ],
-   "flag_anchor_basis": "extent-point",
-   "cities_with_role": []
-  },
   "central-african-republic-ubangi-shari": {
    "name": "Central African Republic (Ubangi-Shari)",
    "stream": "Central Africa (CAR/Congo border)",
@@ -1039,48 +1008,6 @@
     13.0
    ],
    "flag_anchor_basis": "polygon-pole",
-   "cities_with_role": []
-  },
-  "dinka-jieng-communities": {
-   "name": "Dinka (Jieng) communities",
-   "stream": "South Sudan – Upper Nile",
-   "start": 1500,
-   "end": 2026,
-   "zoom": 6,
-   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
-   "flag_anchor": [
-    31.55,
-    6.217
-   ],
-   "flag_anchor_basis": "extent-point",
-   "cities_with_role": []
-  },
-  "nuer-naath-communities": {
-   "name": "Nuer (Naath) communities",
-   "stream": "South Sudan – Upper Nile",
-   "start": 1500,
-   "end": 2026,
-   "zoom": 6,
-   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
-   "flag_anchor": [
-    33.218,
-    8.434
-   ],
-   "flag_anchor_basis": "extent-point",
-   "cities_with_role": []
-  },
-  "anuak-anywaa-communities": {
-   "name": "Anuak (Anywaa) communities",
-   "stream": "South Sudan – Upper Nile",
-   "start": 1500,
-   "end": 2026,
-   "zoom": 6,
-   "zoom_basis": "derived from data/eras/<era>.json focus_view.bbox",
-   "flag_anchor": [
-    33.218,
-    8.434
-   ],
-   "flag_anchor_basis": "extent-point",
    "cities_with_role": []
   }
  }

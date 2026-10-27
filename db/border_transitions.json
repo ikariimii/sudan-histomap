@@ -15,26 +15,11 @@
    "note": "WP_MAKURIA and WP_MAKURIA_2026 (same Wikipedia Makuria article) excluded from mamluk-sultanate transition cites: the Makuria post-1276 reach (Lower Nubia to Kordofan under Siti) and the Abu Hamad anchor are unsourced and removed. The OHM Mamluk polygons are reference only; they stop at c.19.9N and do not draw the Makuria reach, so no pair or shape part depended on it and geometry is unchanged. Makuria 1276-1364 vassalage and cession of provinces: VERIFY (no accepted source yet), with no drawn limit."
   },
   "totals": {
-   "era_steps": 59,
-   "pairs": 68
+   "era_steps": 54,
+   "pairs": 65
   }
  },
  "transitions": [
-  {
-   "from_era": "zande-kingdoms",
-   "to_era": "central-african-republic-ubangi-shari",
-   "stream": "Central Africa (CAR/Congo border)",
-   "pairs": [],
-   "fade_out": [],
-   "fade_in": [
-    "central-african-republic-ubangi-shari#1",
-    "central-african-republic-ubangi-shari#2",
-    "central-african-republic-ubangi-shari#3",
-    "central-african-republic-ubangi-shari#5",
-    "central-african-republic-ubangi-shari#6",
-    "central-african-republic-ubangi-shari#7"
-   ]
-  },
   {
    "from_era": "garamantes-fezzan",
    "to_era": "kanem-empire",
@@ -2020,45 +2005,6 @@
    "pairs": [],
    "fade_out": [],
    "fade_in": []
-  },
-  {
-   "from_era": "shilluk-kingdom",
-   "to_era": "dinka-jieng-communities",
-   "stream": "South Sudan – Upper Nile",
-   "pairs": [],
-   "fade_out": [
-    "shilluk-kingdom#0"
-   ],
-   "fade_in": []
-  },
-  {
-   "from_era": "dinka-jieng-communities",
-   "to_era": "nuer-naath-communities",
-   "stream": "South Sudan – Upper Nile",
-   "pairs": [],
-   "fade_out": [],
-   "fade_in": []
-  },
-  {
-   "from_era": "nuer-naath-communities",
-   "to_era": "anuak-anywaa-communities",
-   "stream": "South Sudan – Upper Nile",
-   "pairs": [],
-   "fade_out": [],
-   "fade_in": []
-  },
-  {
-   "from_era": "anuak-anywaa-communities",
-   "to_era": "southern-sudan-under-condominium-sudan",
-   "stream": "South Sudan – Upper Nile",
-   "pairs": [],
-   "fade_out": [],
-   "fade_in": [
-    "ssd-condominium-1899-1955",
-    "ssd-within-sudan-1956-2011",
-    "ssd-southern-region-1972-1983",
-    "ssd-goss-2005-2011"
-   ]
   },
   {
    "from_era": "southern-sudan-under-condominium-sudan",

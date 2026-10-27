@@ -61,7 +61,6 @@ Mapped: 117 features (78 low, 39 medium). Left unchanged: 33 'high' features wit
 | anglo-egyptian-sudan-condominium | 3 | MultiPolygon |  | APPROXIMATE, DERIVED | 0.3 | low | yes | hatch; mapped |
 | anglo-egyptian-sudan-condominium | 4 | MultiPolygon |  | APPROXIMATE, DERIVED | 0.3 | low | yes | hatch; mapped |
 | anglo-egyptian-sudan-condominium | 5 | MultiPolygon |  | APPROXIMATE, DERIVED | 0.3 | low | yes | hatch; mapped |
-| anuak-anywaa-communities | 0 | Point |  | APPROXIMATE |  | low | yes |  |
 | beja-red-sea-hills-peoples | 0 | Point |  | APPROXIMATE |  | low | yes |  |
 | bornu-empire | 0 | Point |  |  |  | high | yes | NO BADGE (certainty only) |
 | bornu-empire | 1 | Point |  | APPROXIMATE, DERIVED | 0.3 | low | yes | hatch; mapped |
@@ -95,7 +94,6 @@ Mapped: 117 features (78 low, 39 medium). Left unchanged: 33 'high' features wit
 | derg-federal-ethiopia | 2 | Polygon |  |  |  | high | yes | NO BADGE (certainty only) |
 | derg-federal-ethiopia | 3 | none |  | CONTESTED |  | low | yes |  |
 | derg-federal-ethiopia | 4 | Point |  | CONTESTED |  | low | yes |  |
-| dinka-jieng-communities | 0 | Point |  | APPROXIMATE |  | low | yes |  |
 | early-dynastic-old-kingdom-egypt | 0 | Point |  | APPROXIMATE, DERIVED | 0.6 | medium | yes | mapped |
 | early-dynastic-old-kingdom-egypt | 1 | Point |  | APPROXIMATE, DERIVED | 0.3 | low | yes | hatch; mapped |
 | egyptian-new-kingdom-rule-in-nubia | 0 | Point |  | APPROXIMATE, DERIVED | 0.6 | medium | yes | mapped |
@@ -201,8 +199,6 @@ Mapped: 117 features (78 low, 39 medium). Left unchanged: 33 'high' features wit
 | noba-x-group-ballana-culture | 0 | Point |  | APPROXIMATE, DERIVED | 0.3 | low | yes | hatch; mapped |
 | noba-x-group-ballana-culture | 1 | Point |  | APPROXIMATE, DERIVED | 0.3 | low | yes | hatch; mapped |
 | nobadia | 0 | Polygon |  | APPROXIMATE, DERIVED | 0.3 | low | yes | hatch; mapped |
-| nuer-naath-communities | 0 | Point |  | APPROXIMATE |  | low | yes |  |
-| nuer-naath-communities | 1 | Point |  | APPROXIMATE |  | low | yes |  |
 | ottoman-egypt-muhammad-ali-dynasty | 0 | MultiPolygon |  | APPROXIMATE, DERIVED | 0.3 | low | yes | hatch; mapped |
 | ottoman-egypt-muhammad-ali-dynasty | 1 | MultiPolygon |  | APPROXIMATE, DERIVED | 0.3 | low | yes | hatch; mapped |
 | ottoman-egypt-muhammad-ali-dynasty | 2 | MultiPolygon |  | APPROXIMATE, DERIVED | 0.3 | low | yes | hatch; mapped |
@@ -236,7 +232,6 @@ Mapped: 117 features (78 low, 39 medium). Left unchanged: 33 'high' features wit
 | roman-byzantine-egypt | 4 | Polygon | claimed | APPROXIMATE | 0.5 | medium | yes |  |
 | sabaean-south-arabian-kingdoms | 0 | Point |  | APPROXIMATE |  | low | yes |  |
 | second-parliamentary-period | 0 | Polygon |  |  |  | high | yes | NO BADGE (certainty only) |
-| shilluk-kingdom | 0 | Polygon |  | APPROXIMATE, DERIVED | 0.3 | low | yes | hatch; mapped |
 | southern-sudan-under-condominium-sudan | 0 | Polygon |  | APPROXIMATE |  | low | yes |  |
 | southern-sudan-under-condominium-sudan | 1 | Polygon |  | APPROXIMATE |  | low | yes |  |
 | southern-sudan-under-condominium-sudan | 2 | Polygon |  | APPROXIMATE, SINGLE-SOURCE |  | low | yes |  |
@@ -273,5 +268,3 @@ Mapped: 117 features (78 low, 39 medium). Left unchanged: 33 'high' features wit
 | war-in-sudan-saf-vs-rsf | 10 | LineString |  | APPROXIMATE, CONTESTED |  | medium | yes |  |
 | war-in-sudan-saf-vs-rsf | 11 | LineString |  | APPROXIMATE, CONTESTED |  | medium | yes |  |
 | zagwe-dynasty | 0 | Point |  | APPROXIMATE |  | low | yes |  |
-| zande-kingdoms | 0 | Point |  | APPROXIMATE, DERIVED | 0.6 | medium | yes | mapped |
-| zande-kingdoms | 1 | Point |  | APPROXIMATE, DERIVED | 0.3 | low | yes | hatch; mapped |
