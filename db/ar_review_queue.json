@@ -33,7 +33,7 @@
         "5": 29
       },
       "social_items": 16,
-      "sentence_items": 658
+      "sentence_items": 662
     },
     "sentence_items_note": "Per-sentence items: Arabic sentences whose English counterpart was revised; each carries an inline [يحتاج تحقق] (VERIFY) tag in data/eras."
   },
@@ -11375,6 +11375,62 @@
       "field_en": "places[id=manawashi].name_en",
       "revised_english": "Manawashi",
       "reason": "No Arabic label on Wikidata Q139553073; Arabic name needed.",
+      "action": "native review",
+      "origin_commit": "pending",
+      "added": "2026-10-26",
+      "note": "needs native Arabic review [يحتاج تحقق]"
+    },
+    {
+      "era_id": "Transitional Military Council (TMC)",
+      "file": "data/periods.json",
+      "field_ar": "periods[name=Transitional Military Council (TMC)].key_events_ar[0]",
+      "arabic_sentence": "6 أبريل 1985: ضباط بقيادة الفريق عبد الرحمن سوار الذهب يطيحون بنميري، ويُنشأ بعد ثلاثة أيام مجلس عسكري انتقالي من خمسة عشر عضوًا [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "periods[name=Transitional Military Council (TMC)].key_events[0]",
+      "revised_english": "6 April 1985: officers led by Lt Gen Abd ar Rahman Siwar adh Dhahab overthrow Nimeiri; three days later a fifteen-man Transitional Military Council is created",
+      "reason": "New child era (era review); working translation.",
+      "action": "native review",
+      "origin_commit": "pending",
+      "added": "2026-10-26",
+      "note": "needs native Arabic review [يحتاج تحقق]"
+    },
+    {
+      "era_id": "Transitional Military Council (TMC)",
+      "file": "data/periods.json",
+      "field_ar": "periods[name=Transitional Military Council (TMC)].key_events_ar[1]",
+      "arabic_sentence": "انتخابات أبريل 1986 العامة: حزب الأمة 99 مقعدًا، الاتحادي الديمقراطي 64، الجبهة الإسلامية القومية 51 [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "periods[name=Transitional Military Council (TMC)].key_events[1]",
+      "revised_english": "April 1986 general election: Umma 99 seats, DUP 64, NIF 51",
+      "reason": "New child era (era review); working translation.",
+      "action": "native review",
+      "origin_commit": "pending",
+      "added": "2026-10-26",
+      "note": "needs native Arabic review [يحتاج تحقق]"
+    },
+    {
+      "era_id": "Third parliamentary period (Sadiq al-Mahdi)",
+      "file": "data/periods.json",
+      "field_ar": "periods[name=Third parliamentary period (Sadiq al-Mahdi)].key_events_ar[0]",
+      "arabic_sentence": "يونيو 1986: الصادق المهدي يشكّل حكومة ائتلافية من حزب الأمة والاتحادي الديمقراطي والجبهة الإسلامية القومية وأربعة أحزاب جنوبية [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "periods[name=Third parliamentary period (Sadiq al-Mahdi)].key_events[0]",
+      "revised_english": "June 1986: Sadiq al-Mahdi forms a coalition government of the Umma, the DUP, the NIF and four southern parties",
+      "reason": "New child era (era review); working translation.",
+      "action": "native review",
+      "origin_commit": "pending",
+      "added": "2026-10-26",
+      "note": "needs native Arabic review [يحتاج تحقق]"
+    },
+    {
+      "era_id": "Third parliamentary period (Sadiq al-Mahdi)",
+      "file": "data/periods.json",
+      "field_ar": "periods[name=Third parliamentary period (Sadiq al-Mahdi)].key_events_ar[1]",
+      "arabic_sentence": "30 يونيو 1989: عمر حسن أحمد البشير يطيح بالصادق المهدي ويؤسس مجلس قيادة ثورة الإنقاذ الوطني [يحتاج تحقق]",
+      "badge": "VERIFY",
+      "field_en": "periods[name=Third parliamentary period (Sadiq al-Mahdi)].key_events[1]",
+      "revised_english": "30 June 1989: Umar Hassan Ahmad al-Bashir overthrows Sadiq al-Mahdi and sets up the Revolutionary Command Council for National Salvation",
+      "reason": "New child era (era review); working translation.",
       "action": "native review",
       "origin_commit": "pending",
       "added": "2026-10-26",

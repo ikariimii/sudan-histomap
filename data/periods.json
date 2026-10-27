@@ -12014,6 +12014,88 @@
     "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
     "dating": "UNSOURCED START (1500 = display placeholder). No source found giving a datable emergence; Nilotic presence long predates it. Not a state. "
    }
+  },
+  {
+   "name": "Transitional Military Council (TMC)",
+   "stream": "Sudan – Republic",
+   "start": 1985,
+   "end": 1986,
+   "prominence": 0.3,
+   "parent": "transitional-third-parliamentary-period",
+   "key_events": [
+    "6 April 1985: officers led by Lt Gen Abd ar Rahman Siwar adh Dhahab overthrow Nimeiri; three days later a fifteen-man Transitional Military Council is created",
+    "April 1986 general election: Umma 99 seats, DUP 64, NIF 51"
+   ],
+   "key_events_cites": [
+    [
+     {
+      "source": "LOC1991_TMC",
+      "page": "'The Transitional Military Council' para 1"
+     }
+    ],
+    [
+     {
+      "source": "LOC1991_TMC",
+      "page": "'The Transitional Military Council' para 8"
+     }
+    ]
+   ],
+   "capitals": [
+    {
+     "name": "Khartoum",
+     "lat": 15.5,
+     "lon": 32.56
+    }
+   ],
+   "sources": [
+    "LOC1991_TMC"
+   ],
+   "dating_note": "Child of transitional-third-parliamentary-period (parent era unchanged). Start: coup of 6 April 1985, TMC created three days later (LOC1991_TMC para 1). End: TMC hands over after the April 1986 election; Sadiq al-Mahdi forms a government in June 1986 (LOC1991_TMC para 8; LOC1991_SADIQ para 1). Single US-government source (1991) [SINGLE-SOURCE].",
+   "key_events_ar": [
+    "6 أبريل 1985: ضباط بقيادة الفريق عبد الرحمن سوار الذهب يطيحون بنميري، ويُنشأ بعد ثلاثة أيام مجلس عسكري انتقالي من خمسة عشر عضوًا [يحتاج تحقق]",
+    "انتخابات أبريل 1986 العامة: حزب الأمة 99 مقعدًا، الاتحادي الديمقراطي 64، الجبهة الإسلامية القومية 51 [يحتاج تحقق]"
+   ]
+  },
+  {
+   "name": "Third parliamentary period (Sadiq al-Mahdi)",
+   "stream": "Sudan – Republic",
+   "start": 1986,
+   "end": 1989,
+   "prominence": 0.3,
+   "parent": "transitional-third-parliamentary-period",
+   "key_events": [
+    "June 1986: Sadiq al-Mahdi forms a coalition government of the Umma, the DUP, the NIF and four southern parties",
+    "30 June 1989: Umar Hassan Ahmad al-Bashir overthrows Sadiq al-Mahdi and sets up the Revolutionary Command Council for National Salvation"
+   ],
+   "key_events_cites": [
+    [
+     {
+      "source": "LOC1991_SADIQ",
+      "page": "'Sadiq al Mahdi' para 1"
+     }
+    ],
+    [
+     {
+      "source": "LOC1991_SADIQ",
+      "page": "'Sadiq al Mahdi' para 6"
+     }
+    ]
+   ],
+   "capitals": [
+    {
+     "name": "Khartoum",
+     "lat": 15.5,
+     "lon": 32.56
+    }
+   ],
+   "sources": [
+    "LOC1991_SADIQ"
+   ],
+   "dating_note": "Child of transitional-third-parliamentary-period (parent era unchanged). Start: June 1986 coalition (LOC1991_SADIQ para 1). End: al-Bashir coup of 30 June 1989 (LOC1991_SADIQ para 6). Single US-government source (1991) [SINGLE-SOURCE].",
+   "key_events_ar": [
+    "يونيو 1986: الصادق المهدي يشكّل حكومة ائتلافية من حزب الأمة والاتحادي الديمقراطي والجبهة الإسلامية القومية وأربعة أحزاب جنوبية [يحتاج تحقق]",
+    "30 يونيو 1989: عمر حسن أحمد البشير يطيح بالصادق المهدي ويؤسس مجلس قيادة ثورة الإنقاذ الوطني [يحتاج تحقق]"
+   ]
   }
  ]
 }
