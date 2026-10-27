@@ -70,7 +70,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -84,7 +83,10 @@
        "page": "Q1457914"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:soleb"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:soleb",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "faras",
@@ -102,7 +104,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED",
       "RUIN-UNDATED"
@@ -121,7 +122,10 @@
        "page": "Q584387"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:faras"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:faras",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "qasr-ibrim",
@@ -139,7 +143,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -158,7 +161,10 @@
        "page": "Q2121453"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:qasr-ibrim"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:qasr-ibrim",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "abu-simbel",
@@ -168,7 +174,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -177,7 +182,10 @@
        "page": "Q134140"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:abu-simbel"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:abu-simbel",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "old-dongola",
@@ -195,7 +203,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED",
       "RUIN-UNDATED"
@@ -214,7 +221,10 @@
        "page": "Q433112"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:old-dongola"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:old-dongola",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "soba",
@@ -232,7 +242,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -249,7 +258,10 @@
        "page": "Q1247214"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:soba"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:soba",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -291,7 +303,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -324,7 +335,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:aswan"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aksum",
@@ -342,7 +356,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -355,7 +368,10 @@
        "page": "Q5832"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:aksum"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:aksum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "adulis",
@@ -381,7 +397,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "CONTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -404,7 +419,10 @@
        "page": "Q378940"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:adulis"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:adulis",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aidhab",
@@ -431,7 +449,6 @@
      ],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
@@ -457,7 +474,10 @@
        "page": "Q404028"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:aidhab"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:aidhab",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "suakin",
@@ -475,8 +495,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -492,7 +511,10 @@
        "page": "Q571215"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:suakin"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:suakin",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kufra",
@@ -510,7 +532,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -527,7 +548,10 @@
        "page": "Q172114"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:kufra"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:kufra",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "alexandria",
@@ -553,7 +577,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -570,7 +593,10 @@
        "page": "Q87"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:alexandria"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:alexandria",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "cairo",
@@ -604,7 +630,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -625,7 +650,10 @@
        "page": "Q85"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:cairo"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:cairo",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fustat",
@@ -643,7 +671,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -656,7 +683,10 @@
        "page": "Q839456"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:fustat"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:fustat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "yeha",
@@ -674,7 +704,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -687,7 +716,10 @@
        "page": "Q1081229"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:yeha"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:yeha",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "lalibela",
@@ -705,7 +737,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -718,7 +749,10 @@
        "page": "Q207590"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:lalibela"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:lalibela",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "medina",
@@ -744,7 +778,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -761,7 +794,10 @@
        "page": "Q35484"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:medina"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:medina",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "mecca",
@@ -787,7 +823,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -804,7 +839,10 @@
        "page": "Q5806"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:mecca"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:mecca",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "thebes",
@@ -813,7 +851,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -826,7 +863,10 @@
        "page": "Q101583"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:thebes"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:thebes",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ballana",
@@ -844,7 +884,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -857,7 +896,10 @@
        "page": "Q18832705"
       }
      ],
-     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:ballana"
+     "legend_id": "city:islamic-egypt-rashidunfatimidayyubid:ballana",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -971,7 +1013,6 @@
  ],
  "badges_present": [
   "APPROXIMATE",
-  "AR-REVIEW",
   "CONTESTED",
   "DERIVED",
   "FIRST-ATTESTED",
@@ -1133,7 +1174,6 @@
   "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
   "badge_filter": [
    "APPROXIMATE",
-   "AR-REVIEW",
    "CONTESTED",
    "DERIVED",
    "FIRST-ATTESTED",

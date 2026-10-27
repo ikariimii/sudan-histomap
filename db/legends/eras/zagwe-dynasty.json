@@ -47,7 +47,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -61,7 +60,10 @@
        "page": "Q1457914"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:soleb"
+     "legend_id": "city:zagwe-dynasty:soleb",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "faras",
@@ -79,7 +81,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED",
       "RUIN-UNDATED"
@@ -98,7 +99,10 @@
        "page": "Q584387"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:faras"
+     "legend_id": "city:zagwe-dynasty:faras",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "qasr-ibrim",
@@ -116,7 +120,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -135,7 +138,10 @@
        "page": "Q2121453"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:qasr-ibrim"
+     "legend_id": "city:zagwe-dynasty:qasr-ibrim",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "abu-simbel",
@@ -145,7 +151,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -154,7 +159,10 @@
        "page": "Q134140"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:abu-simbel"
+     "legend_id": "city:zagwe-dynasty:abu-simbel",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "old-dongola",
@@ -172,7 +180,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED",
       "RUIN-UNDATED"
@@ -191,7 +198,10 @@
        "page": "Q433112"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:old-dongola"
+     "legend_id": "city:zagwe-dynasty:old-dongola",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "soba",
@@ -209,7 +219,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -226,7 +235,10 @@
        "page": "Q1247214"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:soba"
+     "legend_id": "city:zagwe-dynasty:soba",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -268,7 +280,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -301,7 +312,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:aswan"
+     "legend_id": "city:zagwe-dynasty:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aksum",
@@ -319,7 +333,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -332,7 +345,10 @@
        "page": "Q5832"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:aksum"
+     "legend_id": "city:zagwe-dynasty:aksum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aidhab",
@@ -359,7 +375,6 @@
      ],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
@@ -385,7 +400,10 @@
        "page": "Q404028"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:aidhab"
+     "legend_id": "city:zagwe-dynasty:aidhab",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "suakin",
@@ -403,8 +421,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -420,7 +437,10 @@
        "page": "Q571215"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:suakin"
+     "legend_id": "city:zagwe-dynasty:suakin",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kufra",
@@ -438,7 +458,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -455,7 +474,10 @@
        "page": "Q172114"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:kufra"
+     "legend_id": "city:zagwe-dynasty:kufra",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "alexandria",
@@ -481,7 +503,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -498,7 +519,10 @@
        "page": "Q87"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:alexandria"
+     "legend_id": "city:zagwe-dynasty:alexandria",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "cairo",
@@ -532,7 +556,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -553,7 +576,10 @@
        "page": "Q85"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:cairo"
+     "legend_id": "city:zagwe-dynasty:cairo",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fustat",
@@ -571,7 +597,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -584,7 +609,10 @@
        "page": "Q839456"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:fustat"
+     "legend_id": "city:zagwe-dynasty:fustat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "yeha",
@@ -602,7 +630,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -615,7 +642,10 @@
        "page": "Q1081229"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:yeha"
+     "legend_id": "city:zagwe-dynasty:yeha",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "lalibela",
@@ -633,7 +663,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -646,7 +675,10 @@
        "page": "Q207590"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:lalibela"
+     "legend_id": "city:zagwe-dynasty:lalibela",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "medina",
@@ -672,7 +704,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -689,7 +720,10 @@
        "page": "Q35484"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:medina"
+     "legend_id": "city:zagwe-dynasty:medina",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "mecca",
@@ -715,7 +749,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -732,7 +765,10 @@
        "page": "Q5806"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:mecca"
+     "legend_id": "city:zagwe-dynasty:mecca",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "thebes",
@@ -741,7 +777,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -754,7 +789,10 @@
        "page": "Q101583"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:thebes"
+     "legend_id": "city:zagwe-dynasty:thebes",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ballana",
@@ -772,7 +810,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -785,7 +822,10 @@
        "page": "Q18832705"
       }
      ],
-     "legend_id": "city:zagwe-dynasty:ballana"
+     "legend_id": "city:zagwe-dynasty:ballana",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -859,7 +899,6 @@
  ],
  "badges_present": [
   "APPROXIMATE",
-  "AR-REVIEW",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
@@ -1004,7 +1043,6 @@
   "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
   "badge_filter": [
    "APPROXIMATE",
-   "AR-REVIEW",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",

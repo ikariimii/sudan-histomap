@@ -161,7 +161,7 @@
      "legend_en": "Editorial judgement"
     },
     {
-     "badge": "LOW-CONFIDENCE-HATCH",
+     "badge": "APPROXIMATE",
      "legend_en": "Hatched: lower-confidence estimate"
     }
    ]
@@ -347,7 +347,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -361,7 +360,10 @@
        "page": "Q1457914"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:soleb"
+     "legend_id": "city:funj-sultanate-of-sennar:soleb",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "qasr-ibrim",
@@ -379,7 +381,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -398,7 +399,10 @@
        "page": "Q2121453"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:qasr-ibrim"
+     "legend_id": "city:funj-sultanate-of-sennar:qasr-ibrim",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "abu-simbel",
@@ -408,7 +412,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -417,7 +420,10 @@
        "page": "Q134140"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:abu-simbel"
+     "legend_id": "city:funj-sultanate-of-sennar:abu-simbel",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "soba",
@@ -435,7 +441,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -452,7 +457,10 @@
        "page": "Q1247214"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:soba"
+     "legend_id": "city:funj-sultanate-of-sennar:soba",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -494,7 +502,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -527,7 +534,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:aswan"
+     "legend_id": "city:funj-sultanate-of-sennar:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aksum",
@@ -545,7 +555,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -558,7 +567,10 @@
        "page": "Q5832"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:aksum"
+     "legend_id": "city:funj-sultanate-of-sennar:aksum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "suakin",
@@ -576,8 +588,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -593,7 +604,10 @@
        "page": "Q571215"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:suakin"
+     "legend_id": "city:funj-sultanate-of-sennar:suakin",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "sennar",
@@ -611,7 +625,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -632,7 +645,10 @@
        "page": "Q611867"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:sennar"
+     "legend_id": "city:funj-sultanate-of-sennar:sennar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "qerri",
@@ -650,7 +666,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -669,7 +684,10 @@
        "page": "Q11924140"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:qerri"
+     "legend_id": "city:funj-sultanate-of-sennar:qerri",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kobbe",
@@ -678,7 +696,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -697,7 +714,10 @@
        "page": "Q6424293"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:kobbe"
+     "legend_id": "city:funj-sultanate-of-sennar:kobbe",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ain-farah",
@@ -715,7 +735,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -729,7 +748,10 @@
        "page": "Q405860"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:ain-farah"
+     "legend_id": "city:funj-sultanate-of-sennar:ain-farah",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "shendi",
@@ -755,7 +777,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -780,7 +801,10 @@
        "page": "Q997838"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:shendi"
+     "legend_id": "city:funj-sultanate-of-sennar:shendi",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "berber",
@@ -798,7 +822,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -811,7 +834,10 @@
        "page": "Q375935"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:berber"
+     "legend_id": "city:funj-sultanate-of-sennar:berber",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "korti",
@@ -820,7 +846,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -833,7 +858,10 @@
        "page": "Q472841"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:korti"
+     "legend_id": "city:funj-sultanate-of-sennar:korti",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gondar",
@@ -851,7 +879,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "CONTESTED"
      ],
      "source_ids": [
@@ -864,7 +891,10 @@
        "page": "Q218861"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:gondar"
+     "legend_id": "city:funj-sultanate-of-sennar:gondar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "massawa",
@@ -882,7 +912,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -899,7 +928,10 @@
        "page": "Q275635"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:massawa"
+     "legend_id": "city:funj-sultanate-of-sennar:massawa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fashoda",
@@ -917,7 +949,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -930,7 +961,10 @@
        "page": "Q1888763"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:fashoda"
+     "legend_id": "city:funj-sultanate-of-sennar:fashoda",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "wad-madani",
@@ -948,7 +982,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -961,7 +994,10 @@
        "page": "Q852528"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:wad-madani"
+     "legend_id": "city:funj-sultanate-of-sennar:wad-madani",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "malakal",
@@ -987,7 +1023,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1004,7 +1039,10 @@
        "page": "Q220049"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:malakal"
+     "legend_id": "city:funj-sultanate-of-sennar:malakal",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kufra",
@@ -1022,7 +1060,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1039,7 +1076,10 @@
        "page": "Q172114"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:kufra"
+     "legend_id": "city:funj-sultanate-of-sennar:kufra",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "rumbek",
@@ -1048,7 +1088,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1061,7 +1100,10 @@
        "page": "Q607336"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:rumbek"
+     "legend_id": "city:funj-sultanate-of-sennar:rumbek",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "arbaji",
@@ -1080,8 +1122,7 @@
      ],
      "badges": [
       "APPROXIMATE",
-      "APPROXIMATE-COORDS",
-      "AR-REVIEW"
+      "APPROXIMATE-COORDS"
      ],
      "source_ids": [
       {
@@ -1097,7 +1138,10 @@
        "page": "UFI 98562051"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:arbaji"
+     "legend_id": "city:funj-sultanate-of-sennar:arbaji",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "el-matamma",
@@ -1107,7 +1151,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE-COORDS",
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1124,7 +1167,10 @@
        "page": "235"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:el-matamma"
+     "legend_id": "city:funj-sultanate-of-sennar:el-matamma",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "alexandria",
@@ -1150,7 +1196,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1167,7 +1212,10 @@
        "page": "Q87"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:alexandria"
+     "legend_id": "city:funj-sultanate-of-sennar:alexandria",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "cairo",
@@ -1201,7 +1249,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1222,7 +1269,10 @@
        "page": "Q85"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:cairo"
+     "legend_id": "city:funj-sultanate-of-sennar:cairo",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fustat",
@@ -1240,7 +1290,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1253,7 +1302,10 @@
        "page": "Q839456"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:fustat"
+     "legend_id": "city:funj-sultanate-of-sennar:fustat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ngazargamu",
@@ -1271,7 +1323,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1284,7 +1335,10 @@
        "page": "Q1496614"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:ngazargamu"
+     "legend_id": "city:funj-sultanate-of-sennar:ngazargamu",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "yeha",
@@ -1302,7 +1356,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1315,7 +1368,10 @@
        "page": "Q1081229"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:yeha"
+     "legend_id": "city:funj-sultanate-of-sennar:yeha",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "lalibela",
@@ -1333,7 +1389,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1346,7 +1401,10 @@
        "page": "Q207590"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:lalibela"
+     "legend_id": "city:funj-sultanate-of-sennar:lalibela",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "medina",
@@ -1372,7 +1430,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1389,7 +1446,10 @@
        "page": "Q35484"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:medina"
+     "legend_id": "city:funj-sultanate-of-sennar:medina",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "mecca",
@@ -1415,7 +1475,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1432,7 +1491,10 @@
        "page": "Q5806"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:mecca"
+     "legend_id": "city:funj-sultanate-of-sennar:mecca",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "thebes",
@@ -1441,7 +1503,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1454,7 +1515,10 @@
        "page": "Q101583"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:thebes"
+     "legend_id": "city:funj-sultanate-of-sennar:thebes",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ballana",
@@ -1472,7 +1536,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1485,7 +1548,10 @@
        "page": "Q18832705"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:ballana"
+     "legend_id": "city:funj-sultanate-of-sennar:ballana",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "tripoli",
@@ -1503,7 +1569,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1516,7 +1581,10 @@
        "page": "Q3579"
       }
      ],
-     "legend_id": "city:funj-sultanate-of-sennar:tripoli"
+     "legend_id": "city:funj-sultanate-of-sennar:tripoli",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -1771,7 +1839,6 @@
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
-  "AR-REVIEW",
   "CONTESTED",
   "DERIVED",
   "EDITORIAL",
@@ -2030,7 +2097,6 @@
   "badge_filter": [
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
-   "AR-REVIEW",
    "CONTESTED",
    "DERIVED",
    "EDITORIAL",

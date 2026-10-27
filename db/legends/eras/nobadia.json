@@ -52,7 +52,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -66,7 +65,10 @@
        "page": "Q1457914"
       }
      ],
-     "legend_id": "city:nobadia:soleb"
+     "legend_id": "city:nobadia:soleb",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "faras",
@@ -84,7 +86,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED",
       "RUIN-UNDATED"
@@ -103,7 +104,10 @@
        "page": "Q584387"
       }
      ],
-     "legend_id": "city:nobadia:faras"
+     "legend_id": "city:nobadia:faras",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "qasr-ibrim",
@@ -121,7 +125,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -140,7 +143,10 @@
        "page": "Q2121453"
       }
      ],
-     "legend_id": "city:nobadia:qasr-ibrim"
+     "legend_id": "city:nobadia:qasr-ibrim",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "philae",
@@ -158,7 +164,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -181,7 +186,10 @@
        "page": "Q245062"
       }
      ],
-     "legend_id": "city:nobadia:philae"
+     "legend_id": "city:nobadia:philae",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "abu-simbel",
@@ -191,7 +199,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -200,7 +207,10 @@
        "page": "Q134140"
       }
      ],
-     "legend_id": "city:nobadia:abu-simbel"
+     "legend_id": "city:nobadia:abu-simbel",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "old-dongola",
@@ -218,7 +228,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED",
       "RUIN-UNDATED"
@@ -237,7 +246,10 @@
        "page": "Q433112"
       }
      ],
-     "legend_id": "city:nobadia:old-dongola"
+     "legend_id": "city:nobadia:old-dongola",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "soba",
@@ -255,7 +267,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -272,7 +283,10 @@
        "page": "Q1247214"
       }
      ],
-     "legend_id": "city:nobadia:soba"
+     "legend_id": "city:nobadia:soba",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -314,7 +328,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -347,7 +360,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:nobadia:aswan"
+     "legend_id": "city:nobadia:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aksum",
@@ -365,7 +381,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -378,7 +393,10 @@
        "page": "Q5832"
       }
      ],
-     "legend_id": "city:nobadia:aksum"
+     "legend_id": "city:nobadia:aksum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "adulis",
@@ -404,7 +422,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "CONTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -427,7 +444,10 @@
        "page": "Q378940"
       }
      ],
-     "legend_id": "city:nobadia:adulis"
+     "legend_id": "city:nobadia:adulis",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aidhab",
@@ -454,7 +474,6 @@
      ],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
@@ -480,7 +499,10 @@
        "page": "Q404028"
       }
      ],
-     "legend_id": "city:nobadia:aidhab"
+     "legend_id": "city:nobadia:aidhab",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "suakin",
@@ -498,8 +520,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -515,7 +536,10 @@
        "page": "Q571215"
       }
      ],
-     "legend_id": "city:nobadia:suakin"
+     "legend_id": "city:nobadia:suakin",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "alexandria",
@@ -541,7 +565,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -558,7 +581,10 @@
        "page": "Q87"
       }
      ],
-     "legend_id": "city:nobadia:alexandria"
+     "legend_id": "city:nobadia:alexandria",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "cairo",
@@ -592,7 +618,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -613,7 +638,10 @@
        "page": "Q85"
       }
      ],
-     "legend_id": "city:nobadia:cairo"
+     "legend_id": "city:nobadia:cairo",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fustat",
@@ -631,7 +659,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -644,7 +671,10 @@
        "page": "Q839456"
       }
      ],
-     "legend_id": "city:nobadia:fustat"
+     "legend_id": "city:nobadia:fustat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "yeha",
@@ -662,7 +692,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -675,7 +704,10 @@
        "page": "Q1081229"
       }
      ],
-     "legend_id": "city:nobadia:yeha"
+     "legend_id": "city:nobadia:yeha",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "medina",
@@ -701,7 +733,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -718,7 +749,10 @@
        "page": "Q35484"
       }
      ],
-     "legend_id": "city:nobadia:medina"
+     "legend_id": "city:nobadia:medina",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "mecca",
@@ -744,7 +778,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -761,7 +794,10 @@
        "page": "Q5806"
       }
      ],
-     "legend_id": "city:nobadia:mecca"
+     "legend_id": "city:nobadia:mecca",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "thebes",
@@ -770,7 +806,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -783,7 +818,10 @@
        "page": "Q101583"
       }
      ],
-     "legend_id": "city:nobadia:thebes"
+     "legend_id": "city:nobadia:thebes",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ballana",
@@ -801,7 +839,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -814,7 +851,10 @@
        "page": "Q18832705"
       }
      ],
-     "legend_id": "city:nobadia:ballana"
+     "legend_id": "city:nobadia:ballana",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -928,7 +968,6 @@
  ],
  "badges_present": [
   "APPROXIMATE",
-  "AR-REVIEW",
   "CONTESTED",
   "DERIVED",
   "FIRST-ATTESTED",
@@ -1097,7 +1136,6 @@
   "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
   "badge_filter": [
    "APPROXIMATE",
-   "AR-REVIEW",
    "CONTESTED",
    "DERIVED",
    "FIRST-ATTESTED",

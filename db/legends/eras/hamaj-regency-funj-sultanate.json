@@ -105,7 +105,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -119,7 +118,10 @@
        "page": "Q1457914"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:soleb"
+     "legend_id": "city:hamaj-regency-funj-sultanate:soleb",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "abu-simbel",
@@ -129,7 +131,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -138,7 +139,10 @@
        "page": "Q134140"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:abu-simbel"
+     "legend_id": "city:hamaj-regency-funj-sultanate:abu-simbel",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -180,7 +184,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -213,7 +216,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:aswan"
+     "legend_id": "city:hamaj-regency-funj-sultanate:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aksum",
@@ -231,7 +237,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -244,7 +249,10 @@
        "page": "Q5832"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:aksum"
+     "legend_id": "city:hamaj-regency-funj-sultanate:aksum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "suakin",
@@ -262,8 +270,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -279,7 +286,10 @@
        "page": "Q571215"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:suakin"
+     "legend_id": "city:hamaj-regency-funj-sultanate:suakin",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "sennar",
@@ -297,7 +307,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -318,7 +327,10 @@
        "page": "Q611867"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:sennar"
+     "legend_id": "city:hamaj-regency-funj-sultanate:sennar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kobbe",
@@ -327,7 +339,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -346,7 +357,10 @@
        "page": "Q6424293"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:kobbe"
+     "legend_id": "city:hamaj-regency-funj-sultanate:kobbe",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ain-farah",
@@ -364,7 +378,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -378,7 +391,10 @@
        "page": "Q405860"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:ain-farah"
+     "legend_id": "city:hamaj-regency-funj-sultanate:ain-farah",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "shendi",
@@ -404,7 +420,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -429,7 +444,10 @@
        "page": "Q997838"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:shendi"
+     "legend_id": "city:hamaj-regency-funj-sultanate:shendi",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "berber",
@@ -447,7 +465,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -460,7 +477,10 @@
        "page": "Q375935"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:berber"
+     "legend_id": "city:hamaj-regency-funj-sultanate:berber",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "korti",
@@ -469,7 +489,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -482,7 +501,10 @@
        "page": "Q472841"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:korti"
+     "legend_id": "city:hamaj-regency-funj-sultanate:korti",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gondar",
@@ -500,7 +522,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "CONTESTED"
      ],
      "source_ids": [
@@ -513,7 +534,10 @@
        "page": "Q218861"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:gondar"
+     "legend_id": "city:hamaj-regency-funj-sultanate:gondar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "massawa",
@@ -531,7 +555,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -548,7 +571,10 @@
        "page": "Q275635"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:massawa"
+     "legend_id": "city:hamaj-regency-funj-sultanate:massawa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fashoda",
@@ -566,7 +592,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -579,7 +604,10 @@
        "page": "Q1888763"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:fashoda"
+     "legend_id": "city:hamaj-regency-funj-sultanate:fashoda",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "wad-madani",
@@ -597,7 +625,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -610,7 +637,10 @@
        "page": "Q852528"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:wad-madani"
+     "legend_id": "city:hamaj-regency-funj-sultanate:wad-madani",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "malakal",
@@ -636,7 +666,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -653,7 +682,10 @@
        "page": "Q220049"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:malakal"
+     "legend_id": "city:hamaj-regency-funj-sultanate:malakal",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kufra",
@@ -671,7 +703,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -688,7 +719,10 @@
        "page": "Q172114"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:kufra"
+     "legend_id": "city:hamaj-regency-funj-sultanate:kufra",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "rumbek",
@@ -697,7 +731,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -710,7 +743,10 @@
        "page": "Q607336"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:rumbek"
+     "legend_id": "city:hamaj-regency-funj-sultanate:rumbek",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "arbaji",
@@ -729,8 +765,7 @@
      ],
      "badges": [
       "APPROXIMATE",
-      "APPROXIMATE-COORDS",
-      "AR-REVIEW"
+      "APPROXIMATE-COORDS"
      ],
      "source_ids": [
       {
@@ -746,7 +781,10 @@
        "page": "UFI 98562051"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:arbaji"
+     "legend_id": "city:hamaj-regency-funj-sultanate:arbaji",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "el-matamma",
@@ -756,7 +794,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE-COORDS",
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -773,7 +810,10 @@
        "page": "235"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:el-matamma"
+     "legend_id": "city:hamaj-regency-funj-sultanate:el-matamma",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "alexandria",
@@ -799,7 +839,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -816,7 +855,10 @@
        "page": "Q87"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:alexandria"
+     "legend_id": "city:hamaj-regency-funj-sultanate:alexandria",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "cairo",
@@ -850,7 +892,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -871,7 +912,10 @@
        "page": "Q85"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:cairo"
+     "legend_id": "city:hamaj-regency-funj-sultanate:cairo",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fustat",
@@ -889,7 +933,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -902,7 +945,10 @@
        "page": "Q839456"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:fustat"
+     "legend_id": "city:hamaj-regency-funj-sultanate:fustat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ngazargamu",
@@ -920,7 +966,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -933,7 +978,10 @@
        "page": "Q1496614"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:ngazargamu"
+     "legend_id": "city:hamaj-regency-funj-sultanate:ngazargamu",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "yeha",
@@ -951,7 +999,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -964,7 +1011,10 @@
        "page": "Q1081229"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:yeha"
+     "legend_id": "city:hamaj-regency-funj-sultanate:yeha",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "lalibela",
@@ -982,7 +1032,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -995,7 +1044,10 @@
        "page": "Q207590"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:lalibela"
+     "legend_id": "city:hamaj-regency-funj-sultanate:lalibela",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "medina",
@@ -1021,7 +1073,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1038,7 +1089,10 @@
        "page": "Q35484"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:medina"
+     "legend_id": "city:hamaj-regency-funj-sultanate:medina",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "mecca",
@@ -1064,7 +1118,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1081,7 +1134,10 @@
        "page": "Q5806"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:mecca"
+     "legend_id": "city:hamaj-regency-funj-sultanate:mecca",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "thebes",
@@ -1090,7 +1146,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1103,7 +1158,10 @@
        "page": "Q101583"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:thebes"
+     "legend_id": "city:hamaj-regency-funj-sultanate:thebes",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ballana",
@@ -1121,7 +1179,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1134,7 +1191,10 @@
        "page": "Q18832705"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:ballana"
+     "legend_id": "city:hamaj-regency-funj-sultanate:ballana",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "tripoli",
@@ -1152,7 +1212,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1165,7 +1224,10 @@
        "page": "Q3579"
       }
      ],
-     "legend_id": "city:hamaj-regency-funj-sultanate:tripoli"
+     "legend_id": "city:hamaj-regency-funj-sultanate:tripoli",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -1223,7 +1285,6 @@
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
-  "AR-REVIEW",
   "CONTESTED",
   "DERIVED",
   "FIRST-ATTESTED",
@@ -1368,7 +1429,6 @@
   "badge_filter": [
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
-   "AR-REVIEW",
    "CONTESTED",
    "DERIVED",
    "FIRST-ATTESTED",

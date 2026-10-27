@@ -692,7 +692,7 @@
   },
   "label_colour": "#5fd3ad",
   "label_colour_note": "Labels render at #5fd3ad instead of Okabe-Ito #009E73 for readability on the dark basemap (Innovation Manager ruling, 2026-10-24)",
-  "badge_display": "Badge chips (e.g. SINGLE-SOURCE, APPROXIMATE, CONTESTED, AR-REVIEW) in popup; APPROXIMATE points get a dashed halo; CONTESTED gets the amber outline from uncertainty_encoding.",
+  "badge_display": "Badge chips (e.g. SINGLE-SOURCE, APPROXIMATE, CONTESTED) in popup; AR-REVIEW is an internal workflow flag (workflow_flags), never shown to visitors; APPROXIMATE points get a dashed halo; CONTESTED gets the amber outline from uncertainty_encoding.",
   "toggle_label_en": "Homelands (undated)",
   "toggle_label_ar": "المواطن (غير مؤرخة)",
   "toggle_label_ar_status": "working translation, needs native review",

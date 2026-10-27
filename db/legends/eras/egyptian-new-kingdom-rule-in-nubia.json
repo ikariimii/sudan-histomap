@@ -123,7 +123,7 @@
      "legend_en": "Single source"
     },
     {
-     "badge": "LOW-CONFIDENCE-HATCH",
+     "badge": "APPROXIMATE",
      "legend_en": "Hatched: lower-confidence estimate"
     }
    ]
@@ -151,7 +151,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -169,7 +168,10 @@
        "page": "Q1107569"
       }
      ],
-     "legend_id": "city:egyptian-new-kingdom-rule-in-nubia:kerma"
+     "legend_id": "city:egyptian-new-kingdom-rule-in-nubia:kerma",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "jebel-barkal",
@@ -187,7 +189,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -206,7 +207,10 @@
        "page": "Q499019"
       }
      ],
-     "legend_id": "city:egyptian-new-kingdom-rule-in-nubia:jebel-barkal"
+     "legend_id": "city:egyptian-new-kingdom-rule-in-nubia:jebel-barkal",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "soleb",
@@ -215,7 +219,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -229,7 +232,10 @@
        "page": "Q1457914"
       }
      ],
-     "legend_id": "city:egyptian-new-kingdom-rule-in-nubia:soleb"
+     "legend_id": "city:egyptian-new-kingdom-rule-in-nubia:soleb",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "buhen",
@@ -271,7 +277,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -302,7 +307,10 @@
        "page": "Q1002656"
       }
      ],
-     "legend_id": "city:egyptian-new-kingdom-rule-in-nubia:buhen"
+     "legend_id": "city:egyptian-new-kingdom-rule-in-nubia:buhen",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "abu-simbel",
@@ -312,7 +320,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -321,7 +328,10 @@
        "page": "Q134140"
       }
      ],
-     "legend_id": "city:egyptian-new-kingdom-rule-in-nubia:abu-simbel"
+     "legend_id": "city:egyptian-new-kingdom-rule-in-nubia:abu-simbel",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -363,7 +373,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -396,7 +405,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:egyptian-new-kingdom-rule-in-nubia:aswan"
+     "legend_id": "city:egyptian-new-kingdom-rule-in-nubia:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kawa",
@@ -406,8 +418,7 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "APPROXIMATE-COORDS",
-      "AR-REVIEW"
+      "APPROXIMATE-COORDS"
      ],
      "source_ids": [
       {
@@ -419,7 +430,10 @@
        "page": "project page"
       }
      ],
-     "legend_id": "city:egyptian-new-kingdom-rule-in-nubia:kawa"
+     "legend_id": "city:egyptian-new-kingdom-rule-in-nubia:kawa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -631,7 +645,6 @@
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
-  "AR-REVIEW",
   "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
@@ -810,7 +823,6 @@
   "badge_filter": [
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
-   "AR-REVIEW",
    "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",

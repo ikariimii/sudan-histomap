@@ -70,7 +70,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -84,7 +83,10 @@
        "page": "Q1457914"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:soleb"
+     "legend_id": "city:mahdist-state-mahdiyya:soleb",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "abu-simbel",
@@ -94,7 +96,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -103,7 +104,10 @@
        "page": "Q134140"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:abu-simbel"
+     "legend_id": "city:mahdist-state-mahdiyya:abu-simbel",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -145,7 +149,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -178,7 +181,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:aswan"
+     "legend_id": "city:mahdist-state-mahdiyya:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aksum",
@@ -196,7 +202,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -209,7 +214,10 @@
        "page": "Q5832"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:aksum"
+     "legend_id": "city:mahdist-state-mahdiyya:aksum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "suakin",
@@ -227,8 +235,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -244,7 +251,10 @@
        "page": "Q571215"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:suakin"
+     "legend_id": "city:mahdist-state-mahdiyya:suakin",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "sennar",
@@ -262,7 +272,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -283,7 +292,10 @@
        "page": "Q611867"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:sennar"
+     "legend_id": "city:mahdist-state-mahdiyya:sennar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ain-farah",
@@ -301,7 +313,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -315,7 +326,10 @@
        "page": "Q405860"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:ain-farah"
+     "legend_id": "city:mahdist-state-mahdiyya:ain-farah",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "shendi",
@@ -349,7 +363,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -374,7 +387,10 @@
        "page": "Q997838"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:shendi"
+     "legend_id": "city:mahdist-state-mahdiyya:shendi",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "berber",
@@ -392,7 +408,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -405,7 +420,10 @@
        "page": "Q375935"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:berber"
+     "legend_id": "city:mahdist-state-mahdiyya:berber",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "metemma-ethiopia",
@@ -414,7 +432,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -427,7 +444,10 @@
        "page": "Q1246740"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:metemma-ethiopia"
+     "legend_id": "city:mahdist-state-mahdiyya:metemma-ethiopia",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gallabat",
@@ -436,7 +456,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -449,7 +468,10 @@
        "page": "Q1014416"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:gallabat"
+     "legend_id": "city:mahdist-state-mahdiyya:gallabat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "korti",
@@ -458,7 +480,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -471,7 +492,10 @@
        "page": "Q472841"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:korti"
+     "legend_id": "city:mahdist-state-mahdiyya:korti",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "el-obeid",
@@ -489,7 +513,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -502,7 +525,10 @@
        "page": "Q309475"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:el-obeid"
+     "legend_id": "city:mahdist-state-mahdiyya:el-obeid",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gondar",
@@ -520,7 +546,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "CONTESTED"
      ],
      "source_ids": [
@@ -533,7 +558,10 @@
        "page": "Q218861"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:gondar"
+     "legend_id": "city:mahdist-state-mahdiyya:gondar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "massawa",
@@ -551,7 +579,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -568,7 +595,10 @@
        "page": "Q275635"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:massawa"
+     "legend_id": "city:mahdist-state-mahdiyya:massawa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fashoda",
@@ -586,7 +616,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -599,7 +628,10 @@
        "page": "Q1888763"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:fashoda"
+     "legend_id": "city:mahdist-state-mahdiyya:fashoda",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "khartoum",
@@ -657,7 +689,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -694,7 +725,10 @@
        "page": "Q1963"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:khartoum"
+     "legend_id": "city:mahdist-state-mahdiyya:khartoum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "omdurman",
@@ -712,7 +746,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -725,7 +758,10 @@
        "page": "Q180921"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:omdurman"
+     "legend_id": "city:mahdist-state-mahdiyya:omdurman",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kassala",
@@ -734,8 +770,7 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -747,7 +782,10 @@
        "page": "Q686813"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:kassala"
+     "legend_id": "city:mahdist-state-mahdiyya:kassala",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "wad-madani",
@@ -765,7 +803,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -778,7 +815,10 @@
        "page": "Q852528"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:wad-madani"
+     "legend_id": "city:mahdist-state-mahdiyya:wad-madani",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "malakal",
@@ -804,7 +844,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -821,7 +860,10 @@
        "page": "Q220049"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:malakal"
+     "legend_id": "city:mahdist-state-mahdiyya:malakal",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "asmara",
@@ -839,7 +881,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -852,7 +893,10 @@
        "page": "Q3642"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:asmara"
+     "legend_id": "city:mahdist-state-mahdiyya:asmara",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kufra",
@@ -870,7 +914,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -887,7 +930,10 @@
        "page": "Q172114"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:kufra"
+     "legend_id": "city:mahdist-state-mahdiyya:kufra",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "bangui",
@@ -896,8 +942,7 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -905,7 +950,10 @@
        "page": "Q3832"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:bangui"
+     "legend_id": "city:mahdist-state-mahdiyya:bangui",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "atbara",
@@ -914,7 +962,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -931,7 +978,10 @@
        "page": "Q753906"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:atbara"
+     "legend_id": "city:mahdist-state-mahdiyya:atbara",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gedaref",
@@ -940,7 +990,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -953,7 +1002,10 @@
        "page": "Q311199"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:gedaref"
+     "legend_id": "city:mahdist-state-mahdiyya:gedaref",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "bor",
@@ -971,7 +1023,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -984,7 +1035,10 @@
        "page": "Q893274"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:bor"
+     "legend_id": "city:mahdist-state-mahdiyya:bor",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "rumbek",
@@ -993,7 +1047,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1006,7 +1059,10 @@
        "page": "Q607336"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:rumbek"
+     "legend_id": "city:mahdist-state-mahdiyya:rumbek",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "tokar",
@@ -1015,7 +1071,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1028,7 +1083,10 @@
        "page": "Q1010754"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:tokar"
+     "legend_id": "city:mahdist-state-mahdiyya:tokar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "lado",
@@ -1046,7 +1104,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED",
       "RUIN-UNDATED"
@@ -1061,7 +1118,10 @@
        "page": "Q3215967"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:lado"
+     "legend_id": "city:mahdist-state-mahdiyya:lado",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "arbaji",
@@ -1080,8 +1140,7 @@
      ],
      "badges": [
       "APPROXIMATE",
-      "APPROXIMATE-COORDS",
-      "AR-REVIEW"
+      "APPROXIMATE-COORDS"
      ],
      "source_ids": [
       {
@@ -1097,7 +1156,10 @@
        "page": "UFI 98562051"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:arbaji"
+     "legend_id": "city:mahdist-state-mahdiyya:arbaji",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "el-matamma",
@@ -1107,7 +1169,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE-COORDS",
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1124,7 +1185,10 @@
        "page": "235"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:el-matamma"
+     "legend_id": "city:mahdist-state-mahdiyya:el-matamma",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "alexandria",
@@ -1150,7 +1214,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1167,7 +1230,10 @@
        "page": "Q87"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:alexandria"
+     "legend_id": "city:mahdist-state-mahdiyya:alexandria",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "cairo",
@@ -1201,7 +1267,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1222,7 +1287,10 @@
        "page": "Q85"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:cairo"
+     "legend_id": "city:mahdist-state-mahdiyya:cairo",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fustat",
@@ -1240,7 +1308,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1253,7 +1320,10 @@
        "page": "Q839456"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:fustat"
+     "legend_id": "city:mahdist-state-mahdiyya:fustat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ngazargamu",
@@ -1271,7 +1341,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1284,7 +1353,10 @@
        "page": "Q1496614"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:ngazargamu"
+     "legend_id": "city:mahdist-state-mahdiyya:ngazargamu",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "yeha",
@@ -1302,7 +1374,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1315,7 +1386,10 @@
        "page": "Q1081229"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:yeha"
+     "legend_id": "city:mahdist-state-mahdiyya:yeha",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "lalibela",
@@ -1333,7 +1407,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1346,7 +1419,10 @@
        "page": "Q207590"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:lalibela"
+     "legend_id": "city:mahdist-state-mahdiyya:lalibela",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "medina",
@@ -1372,7 +1448,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1389,7 +1464,10 @@
        "page": "Q35484"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:medina"
+     "legend_id": "city:mahdist-state-mahdiyya:medina",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "mecca",
@@ -1415,7 +1493,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1432,7 +1509,10 @@
        "page": "Q5806"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:mecca"
+     "legend_id": "city:mahdist-state-mahdiyya:mecca",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "thebes",
@@ -1441,7 +1521,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1454,7 +1533,10 @@
        "page": "Q101583"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:thebes"
+     "legend_id": "city:mahdist-state-mahdiyya:thebes",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ballana",
@@ -1472,7 +1554,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1485,7 +1566,10 @@
        "page": "Q18832705"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:ballana"
+     "legend_id": "city:mahdist-state-mahdiyya:ballana",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "tripoli",
@@ -1503,7 +1587,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1516,7 +1599,10 @@
        "page": "Q3579"
       }
      ],
-     "legend_id": "city:mahdist-state-mahdiyya:tripoli"
+     "legend_id": "city:mahdist-state-mahdiyya:tripoli",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -2028,7 +2114,6 @@
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
-  "AR-REVIEW",
   "CONTESTED",
   "DERIVED",
   "FIRST-ATTESTED",
@@ -2232,7 +2317,6 @@
   "badge_filter": [
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
-   "AR-REVIEW",
    "CONTESTED",
    "DERIVED",
    "FIRST-ATTESTED",

@@ -63,7 +63,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -81,7 +80,10 @@
        "page": "Q743282"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:napata"
+     "legend_id": "city:garamantes-fezzan:napata",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "jebel-barkal",
@@ -99,7 +101,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -118,7 +119,10 @@
        "page": "Q499019"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:jebel-barkal"
+     "legend_id": "city:garamantes-fezzan:jebel-barkal",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "nuri",
@@ -137,7 +141,6 @@
      ],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
@@ -155,7 +158,10 @@
        "page": "Q2119839"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:nuri"
+     "legend_id": "city:garamantes-fezzan:nuri",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "meroe",
@@ -173,7 +179,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -192,7 +197,10 @@
        "page": "Q5780"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:meroe"
+     "legend_id": "city:garamantes-fezzan:meroe",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "musawwarat",
@@ -210,7 +218,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -229,7 +236,10 @@
        "page": "Q286426"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:musawwarat"
+     "legend_id": "city:garamantes-fezzan:musawwarat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "naqa",
@@ -238,7 +248,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -257,7 +266,10 @@
        "page": "Q1760360"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:naqa"
+     "legend_id": "city:garamantes-fezzan:naqa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "wad-ban-naqa",
@@ -275,7 +287,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -294,7 +305,10 @@
        "page": "Q2538648"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:wad-ban-naqa"
+     "legend_id": "city:garamantes-fezzan:wad-ban-naqa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "soleb",
@@ -303,7 +317,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -317,7 +330,10 @@
        "page": "Q1457914"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:soleb"
+     "legend_id": "city:garamantes-fezzan:soleb",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "faras",
@@ -335,7 +351,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED",
       "RUIN-UNDATED"
@@ -354,7 +369,10 @@
        "page": "Q584387"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:faras"
+     "legend_id": "city:garamantes-fezzan:faras",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "qasr-ibrim",
@@ -372,7 +390,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -391,7 +408,10 @@
        "page": "Q2121453"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:qasr-ibrim"
+     "legend_id": "city:garamantes-fezzan:qasr-ibrim",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "philae",
@@ -409,7 +429,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -432,7 +451,10 @@
        "page": "Q245062"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:philae"
+     "legend_id": "city:garamantes-fezzan:philae",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "abu-simbel",
@@ -442,7 +464,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -451,7 +472,10 @@
        "page": "Q134140"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:abu-simbel"
+     "legend_id": "city:garamantes-fezzan:abu-simbel",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "old-dongola",
@@ -469,7 +493,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED",
       "RUIN-UNDATED"
@@ -488,7 +511,10 @@
        "page": "Q433112"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:old-dongola"
+     "legend_id": "city:garamantes-fezzan:old-dongola",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "soba",
@@ -506,7 +532,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -523,7 +548,10 @@
        "page": "Q1247214"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:soba"
+     "legend_id": "city:garamantes-fezzan:soba",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -565,7 +593,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -598,7 +625,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:aswan"
+     "legend_id": "city:garamantes-fezzan:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aksum",
@@ -616,7 +646,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -629,7 +658,10 @@
        "page": "Q5832"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:aksum"
+     "legend_id": "city:garamantes-fezzan:aksum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "adulis",
@@ -655,7 +687,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "CONTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -678,7 +709,10 @@
        "page": "Q378940"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:adulis"
+     "legend_id": "city:garamantes-fezzan:adulis",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aidhab",
@@ -705,7 +739,6 @@
      ],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
@@ -731,7 +764,10 @@
        "page": "Q404028"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:aidhab"
+     "legend_id": "city:garamantes-fezzan:aidhab",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "suakin",
@@ -749,8 +785,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -766,7 +801,10 @@
        "page": "Q571215"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:suakin"
+     "legend_id": "city:garamantes-fezzan:suakin",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kawa",
@@ -776,8 +814,7 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "APPROXIMATE-COORDS",
-      "AR-REVIEW"
+      "APPROXIMATE-COORDS"
      ],
      "source_ids": [
       {
@@ -789,7 +826,10 @@
        "page": "project page"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:kawa"
+     "legend_id": "city:garamantes-fezzan:kawa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "alexandria",
@@ -815,7 +855,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -832,7 +871,10 @@
        "page": "Q87"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:alexandria"
+     "legend_id": "city:garamantes-fezzan:alexandria",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "cairo",
@@ -866,7 +908,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -887,7 +928,10 @@
        "page": "Q85"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:cairo"
+     "legend_id": "city:garamantes-fezzan:cairo",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fustat",
@@ -905,7 +949,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -918,7 +961,10 @@
        "page": "Q839456"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:fustat"
+     "legend_id": "city:garamantes-fezzan:fustat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "yeha",
@@ -936,7 +982,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -949,7 +994,10 @@
        "page": "Q1081229"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:yeha"
+     "legend_id": "city:garamantes-fezzan:yeha",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "medina",
@@ -975,7 +1023,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -992,7 +1039,10 @@
        "page": "Q35484"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:medina"
+     "legend_id": "city:garamantes-fezzan:medina",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "mecca",
@@ -1018,7 +1068,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1035,7 +1084,10 @@
        "page": "Q5806"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:mecca"
+     "legend_id": "city:garamantes-fezzan:mecca",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "thebes",
@@ -1053,7 +1105,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1066,7 +1117,10 @@
        "page": "Q101583"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:thebes"
+     "legend_id": "city:garamantes-fezzan:thebes",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ballana",
@@ -1084,7 +1138,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1097,7 +1150,10 @@
        "page": "Q18832705"
       }
      ],
-     "legend_id": "city:garamantes-fezzan:ballana"
+     "legend_id": "city:garamantes-fezzan:ballana",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -1272,7 +1328,6 @@
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
-  "AR-REVIEW",
   "CONTESTED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
@@ -1433,7 +1488,6 @@
   "badge_filter": [
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
-   "AR-REVIEW",
    "CONTESTED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",

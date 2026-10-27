@@ -327,6 +327,36 @@ def era(i, p):
         'badge_filter': out['badges_present']}
     return out
 
+# Canonical badge mapping (IM ruling 2026-10-27). LOW-CONFIDENCE-HATCH -> APPROXIMATE; FIRST-ATTESTED -> VERIFY unless the
+# row carries its own cite; AR-REVIEW is a workflow flag, moved out of visitor-facing badges into 'workflow_flags'.
+CANON = {'LOW-CONFIDENCE-HATCH': 'APPROXIMATE'}
+def canon(o):
+    if isinstance(o, dict):
+        if o.get('badge') in CANON: o['badge'] = CANON[o['badge']]
+        if isinstance(o.get('badges'), list):
+            cited = bool(o.get('source_ids') or o.get('cite') or o.get('sources'))
+            b, wf = [], list(o.get('workflow_flags') or [])
+            for x in o['badges']:
+                if x == 'AR-REVIEW':
+                    if x not in wf: wf.append(x)
+                    continue
+                x = CANON.get(x, x)
+                if x == 'FIRST-ATTESTED' and not cited: x = 'VERIFY'
+                if x not in b: b.append(x)
+            o['badges'] = sorted(b) if o['badges'] == sorted(o['badges']) else b
+            if wf: o['workflow_flags'] = wf
+        for v in o.values(): canon(v)
+    elif isinstance(o, list):
+        for v in o: canon(v)
+    return o
+def canon_era(o):
+    canon(o.get('layers'))
+    if isinstance(o.get('badges_present'), list): o['badges_present'] = sorted({CANON.get(x, x) for x in o['badges_present'] if x != 'AR-REVIEW'})
+    if 'FIRST-ATTESTED' in (o.get('badges_present') or []) and not any('FIRST-ATTESTED' in (f.get('badges') or []) for l in o['layers'].values() if isinstance(l, dict) for f in (l.get('features') or []) if isinstance(f, dict)):
+        o['badges_present'] = sorted(set(o['badges_present']) - {'FIRST-ATTESTED'} | {'VERIFY'})
+    if isinstance(o.get('interactive'), dict) and 'badge_filter' in o['interactive']: o['interactive']['badge_filter'] = o.get('badges_present')
+    return o
+
 def toggle_block():
     # shared, toggle-scoped legend block (DEM / heatmap): same in every era, never merged into era files
     sp = json.load(open(os.path.join(R, 'db/legends/legend_spec.json'), encoding='utf-8'))['toggle_legends']
@@ -361,8 +391,14 @@ def main():
         o['__sets'] = S
         o['interactive']['what_changed'] = d
     for o in eras.values():
-        o.pop('__sets', None)
+        o.pop('__sets', None); canon_era(o)
         json.dump(o, open(os.path.join(R, 'db/legends/eras', o['era_id'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(len(eras), 'era legends written')
     toggle_block()
-if __name__ == '__main__': main()
+if __name__ == '__main__':
+    import sys
+    if '--canon-only' in sys.argv:  # apply the badge mapping to existing era files without rebuilding them
+        for f in sorted(glob.glob(os.path.join(R, 'db/legends/eras/*.json'))):
+            o = json.load(open(f, encoding='utf-8')); n = json.dumps(canon_era(json.loads(json.dumps(o))), ensure_ascii=False, indent=1)
+            if n != json.dumps(o, ensure_ascii=False, indent=1): open(f, 'w', encoding='utf-8').write(n)
+    else: main()

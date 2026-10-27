@@ -64,7 +64,7 @@
      "legend_en": "Single source"
     },
     {
-     "badge": "LOW-CONFIDENCE-HATCH",
+     "badge": "APPROXIMATE",
      "legend_en": "Hatched: lower-confidence estimate"
     }
    ]
@@ -92,7 +92,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -110,7 +109,10 @@
        "page": "Q1107569"
       }
      ],
-     "legend_id": "city:c-group-lower-nubia:kerma"
+     "legend_id": "city:c-group-lower-nubia:kerma",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "buhen",
@@ -152,7 +154,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -183,7 +184,10 @@
        "page": "Q1002656"
       }
      ],
-     "legend_id": "city:c-group-lower-nubia:buhen"
+     "legend_id": "city:c-group-lower-nubia:buhen",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "semna",
@@ -201,7 +205,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -215,7 +218,10 @@
        "page": "Q1485667"
       }
      ],
-     "legend_id": "city:c-group-lower-nubia:semna"
+     "legend_id": "city:c-group-lower-nubia:semna",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -257,7 +263,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -290,7 +295,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:c-group-lower-nubia:aswan"
+     "legend_id": "city:c-group-lower-nubia:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -400,7 +408,6 @@
  ],
  "badges_present": [
   "APPROXIMATE",
-  "AR-REVIEW",
   "EDITORIAL",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
@@ -518,7 +525,6 @@
   "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
   "badge_filter": [
    "APPROXIMATE",
-   "AR-REVIEW",
    "EDITORIAL",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",

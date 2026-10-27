@@ -59,7 +59,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -73,7 +72,10 @@
        "page": "Q1457914"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:soleb"
+     "legend_id": "city:second-parliamentary-period:soleb",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "abu-simbel",
@@ -83,7 +85,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -92,7 +93,10 @@
        "page": "Q134140"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:abu-simbel"
+     "legend_id": "city:second-parliamentary-period:abu-simbel",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -134,7 +138,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -167,7 +170,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:aswan"
+     "legend_id": "city:second-parliamentary-period:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aksum",
@@ -185,7 +191,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -198,7 +203,10 @@
        "page": "Q5832"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:aksum"
+     "legend_id": "city:second-parliamentary-period:aksum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "suakin",
@@ -216,8 +224,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -233,7 +240,10 @@
        "page": "Q571215"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:suakin"
+     "legend_id": "city:second-parliamentary-period:suakin",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "sennar",
@@ -251,7 +261,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -272,7 +281,10 @@
        "page": "Q611867"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:sennar"
+     "legend_id": "city:second-parliamentary-period:sennar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ain-farah",
@@ -290,7 +302,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -304,7 +315,10 @@
        "page": "Q405860"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:ain-farah"
+     "legend_id": "city:second-parliamentary-period:ain-farah",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "shendi",
@@ -338,7 +352,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -363,7 +376,10 @@
        "page": "Q997838"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:shendi"
+     "legend_id": "city:second-parliamentary-period:shendi",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "berber",
@@ -381,7 +397,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -394,7 +409,10 @@
        "page": "Q375935"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:berber"
+     "legend_id": "city:second-parliamentary-period:berber",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "metemma-ethiopia",
@@ -403,7 +421,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -416,7 +433,10 @@
        "page": "Q1246740"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:metemma-ethiopia"
+     "legend_id": "city:second-parliamentary-period:metemma-ethiopia",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gallabat",
@@ -425,7 +445,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -438,7 +457,10 @@
        "page": "Q1014416"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:gallabat"
+     "legend_id": "city:second-parliamentary-period:gallabat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "korti",
@@ -447,7 +469,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -460,7 +481,10 @@
        "page": "Q472841"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:korti"
+     "legend_id": "city:second-parliamentary-period:korti",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "el-obeid",
@@ -478,7 +502,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -491,7 +514,10 @@
        "page": "Q309475"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:el-obeid"
+     "legend_id": "city:second-parliamentary-period:el-obeid",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gondar",
@@ -509,7 +535,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "CONTESTED"
      ],
      "source_ids": [
@@ -522,7 +547,10 @@
        "page": "Q218861"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:gondar"
+     "legend_id": "city:second-parliamentary-period:gondar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "massawa",
@@ -540,7 +568,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -557,7 +584,10 @@
        "page": "Q275635"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:massawa"
+     "legend_id": "city:second-parliamentary-period:massawa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fashoda",
@@ -575,7 +605,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -588,7 +617,10 @@
        "page": "Q1888763"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:fashoda"
+     "legend_id": "city:second-parliamentary-period:fashoda",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "khartoum",
@@ -630,7 +662,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -667,7 +698,10 @@
        "page": "Q1963"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:khartoum"
+     "legend_id": "city:second-parliamentary-period:khartoum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "omdurman",
@@ -676,7 +710,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -689,7 +722,10 @@
        "page": "Q180921"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:omdurman"
+     "legend_id": "city:second-parliamentary-period:omdurman",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "port-sudan",
@@ -698,7 +734,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "CONTESTED"
      ],
      "source_ids": [
@@ -711,7 +746,10 @@
        "page": "Q208718"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:port-sudan"
+     "legend_id": "city:second-parliamentary-period:port-sudan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kassala",
@@ -720,8 +758,7 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -733,7 +770,10 @@
        "page": "Q686813"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:kassala"
+     "legend_id": "city:second-parliamentary-period:kassala",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "wad-madani",
@@ -751,7 +791,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -764,7 +803,10 @@
        "page": "Q852528"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:wad-madani"
+     "legend_id": "city:second-parliamentary-period:wad-madani",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "juba",
@@ -790,8 +832,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -807,7 +848,10 @@
        "page": "Q1947"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:juba"
+     "legend_id": "city:second-parliamentary-period:juba",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "malakal",
@@ -833,7 +877,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -850,7 +893,10 @@
        "page": "Q220049"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:malakal"
+     "legend_id": "city:second-parliamentary-period:malakal",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "wau",
@@ -868,7 +914,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -881,7 +926,10 @@
        "page": "Q276534"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:wau"
+     "legend_id": "city:second-parliamentary-period:wau",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "asmara",
@@ -899,7 +947,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -912,7 +959,10 @@
        "page": "Q3642"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:asmara"
+     "legend_id": "city:second-parliamentary-period:asmara",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ndjamena",
@@ -930,8 +980,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -943,7 +992,10 @@
        "page": "Q3659"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:ndjamena"
+     "legend_id": "city:second-parliamentary-period:ndjamena",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kufra",
@@ -961,7 +1013,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -978,7 +1029,10 @@
        "page": "Q172114"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:kufra"
+     "legend_id": "city:second-parliamentary-period:kufra",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "bangui",
@@ -987,8 +1041,7 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -996,7 +1049,10 @@
        "page": "Q3832"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:bangui"
+     "legend_id": "city:second-parliamentary-period:bangui",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "atbara",
@@ -1005,7 +1061,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1022,7 +1077,10 @@
        "page": "Q753906"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:atbara"
+     "legend_id": "city:second-parliamentary-period:atbara",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gedaref",
@@ -1031,7 +1089,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1044,7 +1101,10 @@
        "page": "Q311199"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:gedaref"
+     "legend_id": "city:second-parliamentary-period:gedaref",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "bor",
@@ -1062,7 +1122,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1075,7 +1134,10 @@
        "page": "Q893274"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:bor"
+     "legend_id": "city:second-parliamentary-period:bor",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "rumbek",
@@ -1084,7 +1146,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1097,7 +1158,10 @@
        "page": "Q607336"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:rumbek"
+     "legend_id": "city:second-parliamentary-period:rumbek",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "tokar",
@@ -1106,7 +1170,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1119,7 +1182,10 @@
        "page": "Q1010754"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:tokar"
+     "legend_id": "city:second-parliamentary-period:tokar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "mekelle",
@@ -1128,7 +1194,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1141,7 +1206,10 @@
        "page": "Q332319"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:mekelle"
+     "legend_id": "city:second-parliamentary-period:mekelle",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "arbaji",
@@ -1160,8 +1228,7 @@
      ],
      "badges": [
       "APPROXIMATE",
-      "APPROXIMATE-COORDS",
-      "AR-REVIEW"
+      "APPROXIMATE-COORDS"
      ],
      "source_ids": [
       {
@@ -1177,7 +1244,10 @@
        "page": "UFI 98562051"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:arbaji"
+     "legend_id": "city:second-parliamentary-period:arbaji",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "el-matamma",
@@ -1187,7 +1257,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE-COORDS",
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1204,7 +1273,10 @@
        "page": "235"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:el-matamma"
+     "legend_id": "city:second-parliamentary-period:el-matamma",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "alexandria",
@@ -1230,7 +1302,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1247,7 +1318,10 @@
        "page": "Q87"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:alexandria"
+     "legend_id": "city:second-parliamentary-period:alexandria",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "cairo",
@@ -1281,7 +1355,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1302,7 +1375,10 @@
        "page": "Q85"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:cairo"
+     "legend_id": "city:second-parliamentary-period:cairo",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fustat",
@@ -1320,7 +1396,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1333,7 +1408,10 @@
        "page": "Q839456"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:fustat"
+     "legend_id": "city:second-parliamentary-period:fustat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ngazargamu",
@@ -1351,7 +1429,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1364,7 +1441,10 @@
        "page": "Q1496614"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:ngazargamu"
+     "legend_id": "city:second-parliamentary-period:ngazargamu",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "yeha",
@@ -1382,7 +1462,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1395,7 +1474,10 @@
        "page": "Q1081229"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:yeha"
+     "legend_id": "city:second-parliamentary-period:yeha",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "lalibela",
@@ -1413,7 +1495,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1426,7 +1507,10 @@
        "page": "Q207590"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:lalibela"
+     "legend_id": "city:second-parliamentary-period:lalibela",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "medina",
@@ -1452,7 +1536,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1469,7 +1552,10 @@
        "page": "Q35484"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:medina"
+     "legend_id": "city:second-parliamentary-period:medina",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "mecca",
@@ -1495,7 +1581,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1512,7 +1597,10 @@
        "page": "Q5806"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:mecca"
+     "legend_id": "city:second-parliamentary-period:mecca",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "thebes",
@@ -1521,7 +1609,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1534,7 +1621,10 @@
        "page": "Q101583"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:thebes"
+     "legend_id": "city:second-parliamentary-period:thebes",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ballana",
@@ -1552,7 +1642,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1565,7 +1654,10 @@
        "page": "Q18832705"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:ballana"
+     "legend_id": "city:second-parliamentary-period:ballana",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "tripoli",
@@ -1583,7 +1675,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1596,7 +1687,10 @@
        "page": "Q3579"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:tripoli"
+     "legend_id": "city:second-parliamentary-period:tripoli",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "benghazi",
@@ -1614,7 +1708,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1627,7 +1720,10 @@
        "page": "Q40816"
       }
      ],
-     "legend_id": "city:second-parliamentary-period:benghazi"
+     "legend_id": "city:second-parliamentary-period:benghazi",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -1763,7 +1859,6 @@
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
-  "AR-REVIEW",
   "CONTESTED",
   "EDITORIAL",
   "FIRST-ATTESTED",
@@ -1938,7 +2033,6 @@
   "badge_filter": [
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
-   "AR-REVIEW",
    "CONTESTED",
    "EDITORIAL",
    "FIRST-ATTESTED",

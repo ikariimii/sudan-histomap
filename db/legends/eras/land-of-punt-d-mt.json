@@ -56,7 +56,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -74,7 +73,10 @@
        "page": "Q743282"
       }
      ],
-     "legend_id": "city:land-of-punt-d-mt:napata"
+     "legend_id": "city:land-of-punt-d-mt:napata",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "jebel-barkal",
@@ -92,7 +94,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -111,7 +112,10 @@
        "page": "Q499019"
       }
      ],
-     "legend_id": "city:land-of-punt-d-mt:jebel-barkal"
+     "legend_id": "city:land-of-punt-d-mt:jebel-barkal",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "el-kurru",
@@ -129,7 +133,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -148,7 +151,10 @@
        "page": "Q2119834"
       }
      ],
-     "legend_id": "city:land-of-punt-d-mt:el-kurru"
+     "legend_id": "city:land-of-punt-d-mt:el-kurru",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "nuri",
@@ -167,7 +173,6 @@
      ],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
@@ -185,7 +190,10 @@
        "page": "Q2119839"
       }
      ],
-     "legend_id": "city:land-of-punt-d-mt:nuri"
+     "legend_id": "city:land-of-punt-d-mt:nuri",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "soleb",
@@ -194,7 +202,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -208,7 +215,10 @@
        "page": "Q1457914"
       }
      ],
-     "legend_id": "city:land-of-punt-d-mt:soleb"
+     "legend_id": "city:land-of-punt-d-mt:soleb",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "abu-simbel",
@@ -218,7 +228,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -227,7 +236,10 @@
        "page": "Q134140"
       }
      ],
-     "legend_id": "city:land-of-punt-d-mt:abu-simbel"
+     "legend_id": "city:land-of-punt-d-mt:abu-simbel",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -269,7 +281,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -302,7 +313,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:land-of-punt-d-mt:aswan"
+     "legend_id": "city:land-of-punt-d-mt:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kawa",
@@ -312,8 +326,7 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "APPROXIMATE-COORDS",
-      "AR-REVIEW"
+      "APPROXIMATE-COORDS"
      ],
      "source_ids": [
       {
@@ -325,7 +338,10 @@
        "page": "project page"
       }
      ],
-     "legend_id": "city:land-of-punt-d-mt:kawa"
+     "legend_id": "city:land-of-punt-d-mt:kawa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "yeha",
@@ -343,7 +359,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -356,7 +371,10 @@
        "page": "Q1081229"
       }
      ],
-     "legend_id": "city:land-of-punt-d-mt:yeha"
+     "legend_id": "city:land-of-punt-d-mt:yeha",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -528,7 +546,6 @@
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
-  "AR-REVIEW",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
   "NO-SOURCE",
@@ -653,7 +670,6 @@
   "badge_filter": [
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
-   "AR-REVIEW",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",
    "NO-SOURCE",

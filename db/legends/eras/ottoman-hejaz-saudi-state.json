@@ -46,7 +46,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -60,7 +59,10 @@
        "page": "Q1457914"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:soleb"
+     "legend_id": "city:ottoman-hejaz-saudi-state:soleb",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "qasr-ibrim",
@@ -78,7 +80,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -97,7 +98,10 @@
        "page": "Q2121453"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:qasr-ibrim"
+     "legend_id": "city:ottoman-hejaz-saudi-state:qasr-ibrim",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "abu-simbel",
@@ -107,7 +111,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -116,7 +119,10 @@
        "page": "Q134140"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:abu-simbel"
+     "legend_id": "city:ottoman-hejaz-saudi-state:abu-simbel",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "soba",
@@ -134,7 +140,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -151,7 +156,10 @@
        "page": "Q1247214"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:soba"
+     "legend_id": "city:ottoman-hejaz-saudi-state:soba",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -193,7 +201,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -226,7 +233,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:aswan"
+     "legend_id": "city:ottoman-hejaz-saudi-state:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aksum",
@@ -244,7 +254,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -257,7 +266,10 @@
        "page": "Q5832"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:aksum"
+     "legend_id": "city:ottoman-hejaz-saudi-state:aksum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "suakin",
@@ -275,8 +287,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -292,7 +303,10 @@
        "page": "Q571215"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:suakin"
+     "legend_id": "city:ottoman-hejaz-saudi-state:suakin",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "sennar",
@@ -310,7 +324,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -331,7 +344,10 @@
        "page": "Q611867"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:sennar"
+     "legend_id": "city:ottoman-hejaz-saudi-state:sennar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "qerri",
@@ -349,7 +365,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -368,7 +383,10 @@
        "page": "Q11924140"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:qerri"
+     "legend_id": "city:ottoman-hejaz-saudi-state:qerri",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kobbe",
@@ -377,7 +395,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -396,7 +413,10 @@
        "page": "Q6424293"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:kobbe"
+     "legend_id": "city:ottoman-hejaz-saudi-state:kobbe",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ain-farah",
@@ -414,7 +434,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -428,7 +447,10 @@
        "page": "Q405860"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:ain-farah"
+     "legend_id": "city:ottoman-hejaz-saudi-state:ain-farah",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "shendi",
@@ -462,7 +484,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -487,7 +508,10 @@
        "page": "Q997838"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:shendi"
+     "legend_id": "city:ottoman-hejaz-saudi-state:shendi",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "berber",
@@ -505,7 +529,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -518,7 +541,10 @@
        "page": "Q375935"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:berber"
+     "legend_id": "city:ottoman-hejaz-saudi-state:berber",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "metemma-ethiopia",
@@ -527,7 +553,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -540,7 +565,10 @@
        "page": "Q1246740"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:metemma-ethiopia"
+     "legend_id": "city:ottoman-hejaz-saudi-state:metemma-ethiopia",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gallabat",
@@ -549,7 +577,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -562,7 +589,10 @@
        "page": "Q1014416"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:gallabat"
+     "legend_id": "city:ottoman-hejaz-saudi-state:gallabat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "korti",
@@ -571,7 +601,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -584,7 +613,10 @@
        "page": "Q472841"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:korti"
+     "legend_id": "city:ottoman-hejaz-saudi-state:korti",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "el-obeid",
@@ -602,7 +634,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -615,7 +646,10 @@
        "page": "Q309475"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:el-obeid"
+     "legend_id": "city:ottoman-hejaz-saudi-state:el-obeid",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gondar",
@@ -633,7 +667,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "CONTESTED"
      ],
      "source_ids": [
@@ -646,7 +679,10 @@
        "page": "Q218861"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:gondar"
+     "legend_id": "city:ottoman-hejaz-saudi-state:gondar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "massawa",
@@ -664,7 +700,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -681,7 +716,10 @@
        "page": "Q275635"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:massawa"
+     "legend_id": "city:ottoman-hejaz-saudi-state:massawa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fashoda",
@@ -699,7 +737,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -712,7 +749,10 @@
        "page": "Q1888763"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:fashoda"
+     "legend_id": "city:ottoman-hejaz-saudi-state:fashoda",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "khartoum",
@@ -778,7 +818,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -815,7 +854,10 @@
        "page": "Q1963"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:khartoum"
+     "legend_id": "city:ottoman-hejaz-saudi-state:khartoum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "omdurman",
@@ -833,7 +875,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -846,7 +887,10 @@
        "page": "Q180921"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:omdurman"
+     "legend_id": "city:ottoman-hejaz-saudi-state:omdurman",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "port-sudan",
@@ -864,7 +908,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "CONTESTED"
      ],
      "source_ids": [
@@ -877,7 +920,10 @@
        "page": "Q208718"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:port-sudan"
+     "legend_id": "city:ottoman-hejaz-saudi-state:port-sudan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kassala",
@@ -895,8 +941,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -908,7 +953,10 @@
        "page": "Q686813"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:kassala"
+     "legend_id": "city:ottoman-hejaz-saudi-state:kassala",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "wad-madani",
@@ -926,7 +974,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -939,7 +986,10 @@
        "page": "Q852528"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:wad-madani"
+     "legend_id": "city:ottoman-hejaz-saudi-state:wad-madani",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "juba",
@@ -965,8 +1015,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -982,7 +1031,10 @@
        "page": "Q1947"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:juba"
+     "legend_id": "city:ottoman-hejaz-saudi-state:juba",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "malakal",
@@ -1008,7 +1060,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1025,7 +1076,10 @@
        "page": "Q220049"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:malakal"
+     "legend_id": "city:ottoman-hejaz-saudi-state:malakal",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "wau",
@@ -1043,7 +1097,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1056,7 +1109,10 @@
        "page": "Q276534"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:wau"
+     "legend_id": "city:ottoman-hejaz-saudi-state:wau",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "asmara",
@@ -1074,7 +1130,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1087,7 +1142,10 @@
        "page": "Q3642"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:asmara"
+     "legend_id": "city:ottoman-hejaz-saudi-state:asmara",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ndjamena",
@@ -1105,8 +1163,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -1118,7 +1175,10 @@
        "page": "Q3659"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:ndjamena"
+     "legend_id": "city:ottoman-hejaz-saudi-state:ndjamena",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kufra",
@@ -1136,7 +1196,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1153,7 +1212,10 @@
        "page": "Q172114"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:kufra"
+     "legend_id": "city:ottoman-hejaz-saudi-state:kufra",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "bangui",
@@ -1162,8 +1224,7 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -1171,7 +1232,10 @@
        "page": "Q3832"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:bangui"
+     "legend_id": "city:ottoman-hejaz-saudi-state:bangui",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "atbara",
@@ -1189,7 +1253,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1206,7 +1269,10 @@
        "page": "Q753906"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:atbara"
+     "legend_id": "city:ottoman-hejaz-saudi-state:atbara",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gedaref",
@@ -1215,7 +1281,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1228,7 +1293,10 @@
        "page": "Q311199"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:gedaref"
+     "legend_id": "city:ottoman-hejaz-saudi-state:gedaref",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "bor",
@@ -1246,7 +1314,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1259,7 +1326,10 @@
        "page": "Q893274"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:bor"
+     "legend_id": "city:ottoman-hejaz-saudi-state:bor",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "rumbek",
@@ -1268,7 +1338,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1281,7 +1350,10 @@
        "page": "Q607336"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:rumbek"
+     "legend_id": "city:ottoman-hejaz-saudi-state:rumbek",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "tokar",
@@ -1290,7 +1362,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1303,7 +1374,10 @@
        "page": "Q1010754"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:tokar"
+     "legend_id": "city:ottoman-hejaz-saudi-state:tokar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gondokoro",
@@ -1321,7 +1395,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED",
       "RUIN-UNDATED"
@@ -1340,7 +1413,10 @@
        "page": "Q1391631"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:gondokoro"
+     "legend_id": "city:ottoman-hejaz-saudi-state:gondokoro",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "lado",
@@ -1358,7 +1434,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED",
       "RUIN-UNDATED"
@@ -1373,7 +1448,10 @@
        "page": "Q3215967"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:lado"
+     "legend_id": "city:ottoman-hejaz-saudi-state:lado",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "mekelle",
@@ -1382,7 +1460,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1395,7 +1472,10 @@
        "page": "Q332319"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:mekelle"
+     "legend_id": "city:ottoman-hejaz-saudi-state:mekelle",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "arbaji",
@@ -1414,8 +1494,7 @@
      ],
      "badges": [
       "APPROXIMATE",
-      "APPROXIMATE-COORDS",
-      "AR-REVIEW"
+      "APPROXIMATE-COORDS"
      ],
      "source_ids": [
       {
@@ -1431,7 +1510,10 @@
        "page": "UFI 98562051"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:arbaji"
+     "legend_id": "city:ottoman-hejaz-saudi-state:arbaji",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "el-matamma",
@@ -1441,7 +1523,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE-COORDS",
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1458,7 +1539,10 @@
        "page": "235"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:el-matamma"
+     "legend_id": "city:ottoman-hejaz-saudi-state:el-matamma",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "alexandria",
@@ -1484,7 +1568,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1501,7 +1584,10 @@
        "page": "Q87"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:alexandria"
+     "legend_id": "city:ottoman-hejaz-saudi-state:alexandria",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "cairo",
@@ -1535,7 +1621,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1556,7 +1641,10 @@
        "page": "Q85"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:cairo"
+     "legend_id": "city:ottoman-hejaz-saudi-state:cairo",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fustat",
@@ -1574,7 +1662,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1587,7 +1674,10 @@
        "page": "Q839456"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:fustat"
+     "legend_id": "city:ottoman-hejaz-saudi-state:fustat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ngazargamu",
@@ -1605,7 +1695,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1618,7 +1707,10 @@
        "page": "Q1496614"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:ngazargamu"
+     "legend_id": "city:ottoman-hejaz-saudi-state:ngazargamu",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "yeha",
@@ -1636,7 +1728,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1649,7 +1740,10 @@
        "page": "Q1081229"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:yeha"
+     "legend_id": "city:ottoman-hejaz-saudi-state:yeha",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "lalibela",
@@ -1667,7 +1761,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1680,7 +1773,10 @@
        "page": "Q207590"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:lalibela"
+     "legend_id": "city:ottoman-hejaz-saudi-state:lalibela",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "medina",
@@ -1706,7 +1802,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1723,7 +1818,10 @@
        "page": "Q35484"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:medina"
+     "legend_id": "city:ottoman-hejaz-saudi-state:medina",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "mecca",
@@ -1749,7 +1847,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1766,7 +1863,10 @@
        "page": "Q5806"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:mecca"
+     "legend_id": "city:ottoman-hejaz-saudi-state:mecca",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "addis-ababa",
@@ -1784,7 +1884,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1797,7 +1896,10 @@
        "page": "Q3624"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:addis-ababa"
+     "legend_id": "city:ottoman-hejaz-saudi-state:addis-ababa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "thebes",
@@ -1806,7 +1908,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1819,7 +1920,10 @@
        "page": "Q101583"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:thebes"
+     "legend_id": "city:ottoman-hejaz-saudi-state:thebes",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ballana",
@@ -1837,7 +1941,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1850,7 +1953,10 @@
        "page": "Q18832705"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:ballana"
+     "legend_id": "city:ottoman-hejaz-saudi-state:ballana",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "tripoli",
@@ -1868,7 +1974,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1881,7 +1986,10 @@
        "page": "Q3579"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:tripoli"
+     "legend_id": "city:ottoman-hejaz-saudi-state:tripoli",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "benghazi",
@@ -1899,7 +2007,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1912,7 +2019,10 @@
        "page": "Q40816"
       }
      ],
-     "legend_id": "city:ottoman-hejaz-saudi-state:benghazi"
+     "legend_id": "city:ottoman-hejaz-saudi-state:benghazi",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kapoeta",
@@ -3180,7 +3290,6 @@
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
-  "AR-REVIEW",
   "CONTESTED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
@@ -3351,7 +3460,6 @@
   "badge_filter": [
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
-   "AR-REVIEW",
    "CONTESTED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",

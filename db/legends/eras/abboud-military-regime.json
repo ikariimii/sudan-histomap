@@ -53,7 +53,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -67,7 +66,10 @@
        "page": "Q1457914"
       }
      ],
-     "legend_id": "city:abboud-military-regime:soleb"
+     "legend_id": "city:abboud-military-regime:soleb",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "abu-simbel",
@@ -77,7 +79,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -86,7 +87,10 @@
        "page": "Q134140"
       }
      ],
-     "legend_id": "city:abboud-military-regime:abu-simbel"
+     "legend_id": "city:abboud-military-regime:abu-simbel",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -128,7 +132,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -161,7 +164,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:abboud-military-regime:aswan"
+     "legend_id": "city:abboud-military-regime:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aksum",
@@ -179,7 +185,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -192,7 +197,10 @@
        "page": "Q5832"
       }
      ],
-     "legend_id": "city:abboud-military-regime:aksum"
+     "legend_id": "city:abboud-military-regime:aksum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "suakin",
@@ -210,8 +218,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -227,7 +234,10 @@
        "page": "Q571215"
       }
      ],
-     "legend_id": "city:abboud-military-regime:suakin"
+     "legend_id": "city:abboud-military-regime:suakin",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "sennar",
@@ -245,7 +255,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -266,7 +275,10 @@
        "page": "Q611867"
       }
      ],
-     "legend_id": "city:abboud-military-regime:sennar"
+     "legend_id": "city:abboud-military-regime:sennar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ain-farah",
@@ -284,7 +296,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -298,7 +309,10 @@
        "page": "Q405860"
       }
      ],
-     "legend_id": "city:abboud-military-regime:ain-farah"
+     "legend_id": "city:abboud-military-regime:ain-farah",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "shendi",
@@ -332,7 +346,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -357,7 +370,10 @@
        "page": "Q997838"
       }
      ],
-     "legend_id": "city:abboud-military-regime:shendi"
+     "legend_id": "city:abboud-military-regime:shendi",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "berber",
@@ -375,7 +391,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -388,7 +403,10 @@
        "page": "Q375935"
       }
      ],
-     "legend_id": "city:abboud-military-regime:berber"
+     "legend_id": "city:abboud-military-regime:berber",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "metemma-ethiopia",
@@ -397,7 +415,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -410,7 +427,10 @@
        "page": "Q1246740"
       }
      ],
-     "legend_id": "city:abboud-military-regime:metemma-ethiopia"
+     "legend_id": "city:abboud-military-regime:metemma-ethiopia",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gallabat",
@@ -419,7 +439,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -432,7 +451,10 @@
        "page": "Q1014416"
       }
      ],
-     "legend_id": "city:abboud-military-regime:gallabat"
+     "legend_id": "city:abboud-military-regime:gallabat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "korti",
@@ -441,7 +463,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -454,7 +475,10 @@
        "page": "Q472841"
       }
      ],
-     "legend_id": "city:abboud-military-regime:korti"
+     "legend_id": "city:abboud-military-regime:korti",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "el-obeid",
@@ -472,7 +496,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -485,7 +508,10 @@
        "page": "Q309475"
       }
      ],
-     "legend_id": "city:abboud-military-regime:el-obeid"
+     "legend_id": "city:abboud-military-regime:el-obeid",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gondar",
@@ -503,7 +529,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "CONTESTED"
      ],
      "source_ids": [
@@ -516,7 +541,10 @@
        "page": "Q218861"
       }
      ],
-     "legend_id": "city:abboud-military-regime:gondar"
+     "legend_id": "city:abboud-military-regime:gondar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "massawa",
@@ -534,7 +562,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -551,7 +578,10 @@
        "page": "Q275635"
       }
      ],
-     "legend_id": "city:abboud-military-regime:massawa"
+     "legend_id": "city:abboud-military-regime:massawa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fashoda",
@@ -569,7 +599,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -582,7 +611,10 @@
        "page": "Q1888763"
       }
      ],
-     "legend_id": "city:abboud-military-regime:fashoda"
+     "legend_id": "city:abboud-military-regime:fashoda",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "khartoum",
@@ -624,7 +656,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -661,7 +692,10 @@
        "page": "Q1963"
       }
      ],
-     "legend_id": "city:abboud-military-regime:khartoum"
+     "legend_id": "city:abboud-military-regime:khartoum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "omdurman",
@@ -670,7 +704,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -683,7 +716,10 @@
        "page": "Q180921"
       }
      ],
-     "legend_id": "city:abboud-military-regime:omdurman"
+     "legend_id": "city:abboud-military-regime:omdurman",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "port-sudan",
@@ -692,7 +728,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "CONTESTED"
      ],
      "source_ids": [
@@ -705,7 +740,10 @@
        "page": "Q208718"
       }
      ],
-     "legend_id": "city:abboud-military-regime:port-sudan"
+     "legend_id": "city:abboud-military-regime:port-sudan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kassala",
@@ -714,8 +752,7 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -727,7 +764,10 @@
        "page": "Q686813"
       }
      ],
-     "legend_id": "city:abboud-military-regime:kassala"
+     "legend_id": "city:abboud-military-regime:kassala",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "wad-madani",
@@ -745,7 +785,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -758,7 +797,10 @@
        "page": "Q852528"
       }
      ],
-     "legend_id": "city:abboud-military-regime:wad-madani"
+     "legend_id": "city:abboud-military-regime:wad-madani",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "juba",
@@ -784,8 +826,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -801,7 +842,10 @@
        "page": "Q1947"
       }
      ],
-     "legend_id": "city:abboud-military-regime:juba"
+     "legend_id": "city:abboud-military-regime:juba",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "malakal",
@@ -827,7 +871,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -844,7 +887,10 @@
        "page": "Q220049"
       }
      ],
-     "legend_id": "city:abboud-military-regime:malakal"
+     "legend_id": "city:abboud-military-regime:malakal",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "wau",
@@ -862,7 +908,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -875,7 +920,10 @@
        "page": "Q276534"
       }
      ],
-     "legend_id": "city:abboud-military-regime:wau"
+     "legend_id": "city:abboud-military-regime:wau",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "asmara",
@@ -893,7 +941,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -906,7 +953,10 @@
        "page": "Q3642"
       }
      ],
-     "legend_id": "city:abboud-military-regime:asmara"
+     "legend_id": "city:abboud-military-regime:asmara",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ndjamena",
@@ -924,8 +974,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -937,7 +986,10 @@
        "page": "Q3659"
       }
      ],
-     "legend_id": "city:abboud-military-regime:ndjamena"
+     "legend_id": "city:abboud-military-regime:ndjamena",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kufra",
@@ -955,7 +1007,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -972,7 +1023,10 @@
        "page": "Q172114"
       }
      ],
-     "legend_id": "city:abboud-military-regime:kufra"
+     "legend_id": "city:abboud-military-regime:kufra",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "bangui",
@@ -981,8 +1035,7 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -990,7 +1043,10 @@
        "page": "Q3832"
       }
      ],
-     "legend_id": "city:abboud-military-regime:bangui"
+     "legend_id": "city:abboud-military-regime:bangui",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "atbara",
@@ -999,7 +1055,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1016,7 +1071,10 @@
        "page": "Q753906"
       }
      ],
-     "legend_id": "city:abboud-military-regime:atbara"
+     "legend_id": "city:abboud-military-regime:atbara",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gedaref",
@@ -1025,7 +1083,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1038,7 +1095,10 @@
        "page": "Q311199"
       }
      ],
-     "legend_id": "city:abboud-military-regime:gedaref"
+     "legend_id": "city:abboud-military-regime:gedaref",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "bor",
@@ -1056,7 +1116,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1069,7 +1128,10 @@
        "page": "Q893274"
       }
      ],
-     "legend_id": "city:abboud-military-regime:bor"
+     "legend_id": "city:abboud-military-regime:bor",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "rumbek",
@@ -1078,7 +1140,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1091,7 +1152,10 @@
        "page": "Q607336"
       }
      ],
-     "legend_id": "city:abboud-military-regime:rumbek"
+     "legend_id": "city:abboud-military-regime:rumbek",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "tokar",
@@ -1100,7 +1164,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1113,7 +1176,10 @@
        "page": "Q1010754"
       }
      ],
-     "legend_id": "city:abboud-military-regime:tokar"
+     "legend_id": "city:abboud-military-regime:tokar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "mekelle",
@@ -1122,7 +1188,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1135,7 +1200,10 @@
        "page": "Q332319"
       }
      ],
-     "legend_id": "city:abboud-military-regime:mekelle"
+     "legend_id": "city:abboud-military-regime:mekelle",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "arbaji",
@@ -1154,8 +1222,7 @@
      ],
      "badges": [
       "APPROXIMATE",
-      "APPROXIMATE-COORDS",
-      "AR-REVIEW"
+      "APPROXIMATE-COORDS"
      ],
      "source_ids": [
       {
@@ -1171,7 +1238,10 @@
        "page": "UFI 98562051"
       }
      ],
-     "legend_id": "city:abboud-military-regime:arbaji"
+     "legend_id": "city:abboud-military-regime:arbaji",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "el-matamma",
@@ -1181,7 +1251,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE-COORDS",
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1198,7 +1267,10 @@
        "page": "235"
       }
      ],
-     "legend_id": "city:abboud-military-regime:el-matamma"
+     "legend_id": "city:abboud-military-regime:el-matamma",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "alexandria",
@@ -1224,7 +1296,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1241,7 +1312,10 @@
        "page": "Q87"
       }
      ],
-     "legend_id": "city:abboud-military-regime:alexandria"
+     "legend_id": "city:abboud-military-regime:alexandria",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "cairo",
@@ -1275,7 +1349,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1296,7 +1369,10 @@
        "page": "Q85"
       }
      ],
-     "legend_id": "city:abboud-military-regime:cairo"
+     "legend_id": "city:abboud-military-regime:cairo",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fustat",
@@ -1314,7 +1390,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1327,7 +1402,10 @@
        "page": "Q839456"
       }
      ],
-     "legend_id": "city:abboud-military-regime:fustat"
+     "legend_id": "city:abboud-military-regime:fustat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ngazargamu",
@@ -1345,7 +1423,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1358,7 +1435,10 @@
        "page": "Q1496614"
       }
      ],
-     "legend_id": "city:abboud-military-regime:ngazargamu"
+     "legend_id": "city:abboud-military-regime:ngazargamu",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "yeha",
@@ -1376,7 +1456,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1389,7 +1468,10 @@
        "page": "Q1081229"
       }
      ],
-     "legend_id": "city:abboud-military-regime:yeha"
+     "legend_id": "city:abboud-military-regime:yeha",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "lalibela",
@@ -1407,7 +1489,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1420,7 +1501,10 @@
        "page": "Q207590"
       }
      ],
-     "legend_id": "city:abboud-military-regime:lalibela"
+     "legend_id": "city:abboud-military-regime:lalibela",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "medina",
@@ -1446,7 +1530,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1463,7 +1546,10 @@
        "page": "Q35484"
       }
      ],
-     "legend_id": "city:abboud-military-regime:medina"
+     "legend_id": "city:abboud-military-regime:medina",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "mecca",
@@ -1489,7 +1575,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1506,7 +1591,10 @@
        "page": "Q5806"
       }
      ],
-     "legend_id": "city:abboud-military-regime:mecca"
+     "legend_id": "city:abboud-military-regime:mecca",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "thebes",
@@ -1515,7 +1603,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1528,7 +1615,10 @@
        "page": "Q101583"
       }
      ],
-     "legend_id": "city:abboud-military-regime:thebes"
+     "legend_id": "city:abboud-military-regime:thebes",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ballana",
@@ -1546,7 +1636,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1559,7 +1648,10 @@
        "page": "Q18832705"
       }
      ],
-     "legend_id": "city:abboud-military-regime:ballana"
+     "legend_id": "city:abboud-military-regime:ballana",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "tripoli",
@@ -1577,7 +1669,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1590,7 +1681,10 @@
        "page": "Q3579"
       }
      ],
-     "legend_id": "city:abboud-military-regime:tripoli"
+     "legend_id": "city:abboud-military-regime:tripoli",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "benghazi",
@@ -1608,7 +1702,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1621,7 +1714,10 @@
        "page": "Q40816"
       }
      ],
-     "legend_id": "city:abboud-military-regime:benghazi"
+     "legend_id": "city:abboud-military-regime:benghazi",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -1755,7 +1851,6 @@
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
-  "AR-REVIEW",
   "CONTESTED",
   "FIRST-ATTESTED",
   "NO-SOURCE",
@@ -1933,7 +2028,6 @@
   "badge_filter": [
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
-   "AR-REVIEW",
    "CONTESTED",
    "FIRST-ATTESTED",
    "NO-SOURCE",

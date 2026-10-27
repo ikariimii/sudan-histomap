@@ -130,7 +130,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -149,7 +148,10 @@
        "page": "Q499019"
       }
      ],
-     "legend_id": "city:kingdom-of-kush-meroitic-period:jebel-barkal"
+     "legend_id": "city:kingdom-of-kush-meroitic-period:jebel-barkal",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "meroe",
@@ -167,7 +169,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -186,7 +187,10 @@
        "page": "Q5780"
       }
      ],
-     "legend_id": "city:kingdom-of-kush-meroitic-period:meroe"
+     "legend_id": "city:kingdom-of-kush-meroitic-period:meroe",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "musawwarat",
@@ -204,7 +208,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -223,7 +226,10 @@
        "page": "Q286426"
       }
      ],
-     "legend_id": "city:kingdom-of-kush-meroitic-period:musawwarat"
+     "legend_id": "city:kingdom-of-kush-meroitic-period:musawwarat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "naqa",
@@ -232,7 +238,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -251,7 +256,10 @@
        "page": "Q1760360"
       }
      ],
-     "legend_id": "city:kingdom-of-kush-meroitic-period:naqa"
+     "legend_id": "city:kingdom-of-kush-meroitic-period:naqa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "wad-ban-naqa",
@@ -269,7 +277,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -288,7 +295,10 @@
        "page": "Q2538648"
       }
      ],
-     "legend_id": "city:kingdom-of-kush-meroitic-period:wad-ban-naqa"
+     "legend_id": "city:kingdom-of-kush-meroitic-period:wad-ban-naqa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "soleb",
@@ -297,7 +307,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -311,7 +320,10 @@
        "page": "Q1457914"
       }
      ],
-     "legend_id": "city:kingdom-of-kush-meroitic-period:soleb"
+     "legend_id": "city:kingdom-of-kush-meroitic-period:soleb",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "qasr-ibrim",
@@ -329,7 +341,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -348,7 +359,10 @@
        "page": "Q2121453"
       }
      ],
-     "legend_id": "city:kingdom-of-kush-meroitic-period:qasr-ibrim"
+     "legend_id": "city:kingdom-of-kush-meroitic-period:qasr-ibrim",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "philae",
@@ -366,7 +380,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -389,7 +402,10 @@
        "page": "Q245062"
       }
      ],
-     "legend_id": "city:kingdom-of-kush-meroitic-period:philae"
+     "legend_id": "city:kingdom-of-kush-meroitic-period:philae",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "abu-simbel",
@@ -399,7 +415,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -408,7 +423,10 @@
        "page": "Q134140"
       }
      ],
-     "legend_id": "city:kingdom-of-kush-meroitic-period:abu-simbel"
+     "legend_id": "city:kingdom-of-kush-meroitic-period:abu-simbel",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -450,7 +468,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -483,7 +500,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:kingdom-of-kush-meroitic-period:aswan"
+     "legend_id": "city:kingdom-of-kush-meroitic-period:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aksum",
@@ -501,7 +521,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -514,7 +533,10 @@
        "page": "Q5832"
       }
      ],
-     "legend_id": "city:kingdom-of-kush-meroitic-period:aksum"
+     "legend_id": "city:kingdom-of-kush-meroitic-period:aksum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "adulis",
@@ -540,7 +562,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "CONTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -563,7 +584,10 @@
        "page": "Q378940"
       }
      ],
-     "legend_id": "city:kingdom-of-kush-meroitic-period:adulis"
+     "legend_id": "city:kingdom-of-kush-meroitic-period:adulis",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kawa",
@@ -573,8 +597,7 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "APPROXIMATE-COORDS",
-      "AR-REVIEW"
+      "APPROXIMATE-COORDS"
      ],
      "source_ids": [
       {
@@ -586,7 +609,10 @@
        "page": "project page"
       }
      ],
-     "legend_id": "city:kingdom-of-kush-meroitic-period:kawa"
+     "legend_id": "city:kingdom-of-kush-meroitic-period:kawa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "alexandria",
@@ -612,7 +638,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -629,7 +654,10 @@
        "page": "Q87"
       }
      ],
-     "legend_id": "city:kingdom-of-kush-meroitic-period:alexandria"
+     "legend_id": "city:kingdom-of-kush-meroitic-period:alexandria",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "yeha",
@@ -647,7 +675,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -660,7 +687,10 @@
        "page": "Q1081229"
       }
      ],
-     "legend_id": "city:kingdom-of-kush-meroitic-period:yeha"
+     "legend_id": "city:kingdom-of-kush-meroitic-period:yeha",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "thebes",
@@ -678,7 +708,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -691,7 +720,10 @@
        "page": "Q101583"
       }
      ],
-     "legend_id": "city:kingdom-of-kush-meroitic-period:thebes"
+     "legend_id": "city:kingdom-of-kush-meroitic-period:thebes",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ballana",
@@ -709,7 +741,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -722,7 +753,10 @@
        "page": "Q18832705"
       }
      ],
-     "legend_id": "city:kingdom-of-kush-meroitic-period:ballana"
+     "legend_id": "city:kingdom-of-kush-meroitic-period:ballana",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -868,7 +902,6 @@
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
-  "AR-REVIEW",
   "CONTESTED",
   "DERIVED",
   "EDITORIAL",
@@ -1182,7 +1215,6 @@
   "badge_filter": [
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
-   "AR-REVIEW",
    "CONTESTED",
    "DERIVED",
    "EDITORIAL",

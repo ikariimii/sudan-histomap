@@ -96,7 +96,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -114,7 +113,10 @@
        "page": "Q1107569"
       }
      ],
-     "legend_id": "city:new-kingdom-egypt:kerma"
+     "legend_id": "city:new-kingdom-egypt:kerma",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "jebel-barkal",
@@ -132,7 +134,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -151,7 +152,10 @@
        "page": "Q499019"
       }
      ],
-     "legend_id": "city:new-kingdom-egypt:jebel-barkal"
+     "legend_id": "city:new-kingdom-egypt:jebel-barkal",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "soleb",
@@ -160,7 +164,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -174,7 +177,10 @@
        "page": "Q1457914"
       }
      ],
-     "legend_id": "city:new-kingdom-egypt:soleb"
+     "legend_id": "city:new-kingdom-egypt:soleb",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "buhen",
@@ -216,7 +222,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -247,7 +252,10 @@
        "page": "Q1002656"
       }
      ],
-     "legend_id": "city:new-kingdom-egypt:buhen"
+     "legend_id": "city:new-kingdom-egypt:buhen",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "abu-simbel",
@@ -257,7 +265,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -266,7 +273,10 @@
        "page": "Q134140"
       }
      ],
-     "legend_id": "city:new-kingdom-egypt:abu-simbel"
+     "legend_id": "city:new-kingdom-egypt:abu-simbel",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -308,7 +318,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -341,7 +350,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:new-kingdom-egypt:aswan"
+     "legend_id": "city:new-kingdom-egypt:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kawa",
@@ -351,8 +363,7 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "APPROXIMATE-COORDS",
-      "AR-REVIEW"
+      "APPROXIMATE-COORDS"
      ],
      "source_ids": [
       {
@@ -364,7 +375,10 @@
        "page": "project page"
       }
      ],
-     "legend_id": "city:new-kingdom-egypt:kawa"
+     "legend_id": "city:new-kingdom-egypt:kawa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -499,7 +513,6 @@
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
-  "AR-REVIEW",
   "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
@@ -641,7 +654,6 @@
   "badge_filter": [
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
-   "AR-REVIEW",
    "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",

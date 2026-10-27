@@ -114,7 +114,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -128,7 +127,10 @@
        "page": "Q1457914"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:soleb"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:soleb",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "qasr-ibrim",
@@ -146,7 +148,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -165,7 +166,10 @@
        "page": "Q2121453"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:qasr-ibrim"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:qasr-ibrim",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "abu-simbel",
@@ -175,7 +179,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -184,7 +187,10 @@
        "page": "Q134140"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:abu-simbel"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:abu-simbel",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "soba",
@@ -202,7 +208,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -219,7 +224,10 @@
        "page": "Q1247214"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:soba"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:soba",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -261,7 +269,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -294,7 +301,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:aswan"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aksum",
@@ -312,7 +322,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -325,7 +334,10 @@
        "page": "Q5832"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:aksum"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:aksum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "suakin",
@@ -343,8 +355,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -360,7 +371,10 @@
        "page": "Q571215"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:suakin"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:suakin",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "sennar",
@@ -378,7 +392,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -399,7 +412,10 @@
        "page": "Q611867"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:sennar"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:sennar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "qerri",
@@ -417,7 +433,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -436,7 +451,10 @@
        "page": "Q11924140"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:qerri"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:qerri",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kobbe",
@@ -445,7 +463,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -464,7 +481,10 @@
        "page": "Q6424293"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:kobbe"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:kobbe",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ain-farah",
@@ -482,7 +502,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -496,7 +515,10 @@
        "page": "Q405860"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:ain-farah"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:ain-farah",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "shendi",
@@ -530,7 +552,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -555,7 +576,10 @@
        "page": "Q997838"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:shendi"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:shendi",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "berber",
@@ -573,7 +597,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -586,7 +609,10 @@
        "page": "Q375935"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:berber"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:berber",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gallabat",
@@ -595,7 +621,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -608,7 +633,10 @@
        "page": "Q1014416"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:gallabat"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:gallabat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "korti",
@@ -617,7 +645,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -630,7 +657,10 @@
        "page": "Q472841"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:korti"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:korti",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "el-obeid",
@@ -648,7 +678,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -661,7 +690,10 @@
        "page": "Q309475"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:el-obeid"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:el-obeid",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gondar",
@@ -679,7 +711,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "CONTESTED"
      ],
      "source_ids": [
@@ -692,7 +723,10 @@
        "page": "Q218861"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:gondar"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:gondar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "massawa",
@@ -710,7 +744,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -727,7 +760,10 @@
        "page": "Q275635"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:massawa"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:massawa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fashoda",
@@ -745,7 +781,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -758,7 +793,10 @@
        "page": "Q1888763"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:fashoda"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:fashoda",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kassala",
@@ -776,8 +814,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -789,7 +826,10 @@
        "page": "Q686813"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:kassala"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:kassala",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "wad-madani",
@@ -807,7 +847,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -820,7 +859,10 @@
        "page": "Q852528"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:wad-madani"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:wad-madani",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "malakal",
@@ -846,7 +888,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -863,7 +904,10 @@
        "page": "Q220049"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:malakal"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:malakal",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kufra",
@@ -881,7 +925,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -898,7 +941,10 @@
        "page": "Q172114"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:kufra"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:kufra",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gedaref",
@@ -907,7 +953,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -920,7 +965,10 @@
        "page": "Q311199"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:gedaref"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:gedaref",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "rumbek",
@@ -929,7 +977,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -942,7 +989,10 @@
        "page": "Q607336"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:rumbek"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:rumbek",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "gondokoro",
@@ -960,7 +1010,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED",
       "RUIN-UNDATED"
@@ -979,7 +1028,10 @@
        "page": "Q1391631"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:gondokoro"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:gondokoro",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "lado",
@@ -997,7 +1049,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED",
       "RUIN-UNDATED"
@@ -1012,7 +1063,10 @@
        "page": "Q3215967"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:lado"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:lado",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "arbaji",
@@ -1031,8 +1085,7 @@
      ],
      "badges": [
       "APPROXIMATE",
-      "APPROXIMATE-COORDS",
-      "AR-REVIEW"
+      "APPROXIMATE-COORDS"
      ],
      "source_ids": [
       {
@@ -1048,7 +1101,10 @@
        "page": "UFI 98562051"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:arbaji"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:arbaji",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "el-matamma",
@@ -1058,7 +1114,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE-COORDS",
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1075,7 +1130,10 @@
        "page": "235"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:el-matamma"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:el-matamma",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "alexandria",
@@ -1101,7 +1159,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1118,7 +1175,10 @@
        "page": "Q87"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:alexandria"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:alexandria",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "cairo",
@@ -1152,7 +1212,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1173,7 +1232,10 @@
        "page": "Q85"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:cairo"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:cairo",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fustat",
@@ -1191,7 +1253,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1204,7 +1265,10 @@
        "page": "Q839456"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:fustat"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:fustat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ngazargamu",
@@ -1222,7 +1286,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1235,7 +1298,10 @@
        "page": "Q1496614"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:ngazargamu"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:ngazargamu",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "yeha",
@@ -1253,7 +1319,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1266,7 +1331,10 @@
        "page": "Q1081229"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:yeha"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:yeha",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "lalibela",
@@ -1284,7 +1352,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1297,7 +1364,10 @@
        "page": "Q207590"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:lalibela"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:lalibela",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "medina",
@@ -1323,7 +1393,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1340,7 +1409,10 @@
        "page": "Q35484"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:medina"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:medina",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "mecca",
@@ -1366,7 +1438,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1383,7 +1454,10 @@
        "page": "Q5806"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:mecca"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:mecca",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "thebes",
@@ -1392,7 +1466,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1405,7 +1478,10 @@
        "page": "Q101583"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:thebes"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:thebes",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ballana",
@@ -1423,7 +1499,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1436,7 +1511,10 @@
        "page": "Q18832705"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:ballana"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:ballana",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "tripoli",
@@ -1454,7 +1532,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1467,7 +1544,10 @@
        "page": "Q3579"
       }
      ],
-     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:tripoli"
+     "legend_id": "city:ottoman-egypt-muhammad-ali-dynasty:tripoli",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -1840,7 +1920,6 @@
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
-  "AR-REVIEW",
   "CONTESTED",
   "DERIVED",
   "FIRST-ATTESTED",
@@ -1999,7 +2078,6 @@
   "badge_filter": [
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
-   "AR-REVIEW",
    "CONTESTED",
    "DERIVED",
    "FIRST-ATTESTED",

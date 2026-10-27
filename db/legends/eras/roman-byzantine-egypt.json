@@ -121,7 +121,7 @@
      "legend_en": "Single source"
     },
     {
-     "badge": "LOW-CONFIDENCE-HATCH",
+     "badge": "APPROXIMATE",
      "legend_en": "Hatched: lower-confidence estimate"
     }
    ]
@@ -149,7 +149,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -168,7 +167,10 @@
        "page": "Q499019"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:jebel-barkal"
+     "legend_id": "city:roman-byzantine-egypt:jebel-barkal",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "meroe",
@@ -186,7 +188,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -205,7 +206,10 @@
        "page": "Q5780"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:meroe"
+     "legend_id": "city:roman-byzantine-egypt:meroe",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "naqa",
@@ -214,7 +218,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -233,7 +236,10 @@
        "page": "Q1760360"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:naqa"
+     "legend_id": "city:roman-byzantine-egypt:naqa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "wad-ban-naqa",
@@ -251,7 +257,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -270,7 +275,10 @@
        "page": "Q2538648"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:wad-ban-naqa"
+     "legend_id": "city:roman-byzantine-egypt:wad-ban-naqa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "soleb",
@@ -279,7 +287,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -293,7 +300,10 @@
        "page": "Q1457914"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:soleb"
+     "legend_id": "city:roman-byzantine-egypt:soleb",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "faras",
@@ -311,7 +321,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED",
       "RUIN-UNDATED"
@@ -330,7 +339,10 @@
        "page": "Q584387"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:faras"
+     "legend_id": "city:roman-byzantine-egypt:faras",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "qasr-ibrim",
@@ -348,7 +360,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -367,7 +378,10 @@
        "page": "Q2121453"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:qasr-ibrim"
+     "legend_id": "city:roman-byzantine-egypt:qasr-ibrim",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "philae",
@@ -385,7 +399,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -408,7 +421,10 @@
        "page": "Q245062"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:philae"
+     "legend_id": "city:roman-byzantine-egypt:philae",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "abu-simbel",
@@ -418,7 +434,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -427,7 +442,10 @@
        "page": "Q134140"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:abu-simbel"
+     "legend_id": "city:roman-byzantine-egypt:abu-simbel",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "old-dongola",
@@ -445,7 +463,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED",
       "RUIN-UNDATED"
@@ -464,7 +481,10 @@
        "page": "Q433112"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:old-dongola"
+     "legend_id": "city:roman-byzantine-egypt:old-dongola",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "soba",
@@ -482,7 +502,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -499,7 +518,10 @@
        "page": "Q1247214"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:soba"
+     "legend_id": "city:roman-byzantine-egypt:soba",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -541,7 +563,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -574,7 +595,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:aswan"
+     "legend_id": "city:roman-byzantine-egypt:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aksum",
@@ -592,7 +616,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -605,7 +628,10 @@
        "page": "Q5832"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:aksum"
+     "legend_id": "city:roman-byzantine-egypt:aksum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "adulis",
@@ -631,7 +657,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "CONTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -654,7 +679,10 @@
        "page": "Q378940"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:adulis"
+     "legend_id": "city:roman-byzantine-egypt:adulis",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kawa",
@@ -664,8 +692,7 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "APPROXIMATE-COORDS",
-      "AR-REVIEW"
+      "APPROXIMATE-COORDS"
      ],
      "source_ids": [
       {
@@ -677,7 +704,10 @@
        "page": "project page"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:kawa"
+     "legend_id": "city:roman-byzantine-egypt:kawa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "alexandria",
@@ -703,7 +733,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -720,7 +749,10 @@
        "page": "Q87"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:alexandria"
+     "legend_id": "city:roman-byzantine-egypt:alexandria",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "cairo",
@@ -754,7 +786,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -775,7 +806,10 @@
        "page": "Q85"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:cairo"
+     "legend_id": "city:roman-byzantine-egypt:cairo",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fustat",
@@ -793,7 +827,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -806,7 +839,10 @@
        "page": "Q839456"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:fustat"
+     "legend_id": "city:roman-byzantine-egypt:fustat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "yeha",
@@ -824,7 +860,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -837,7 +872,10 @@
        "page": "Q1081229"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:yeha"
+     "legend_id": "city:roman-byzantine-egypt:yeha",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "medina",
@@ -863,7 +901,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -880,7 +917,10 @@
        "page": "Q35484"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:medina"
+     "legend_id": "city:roman-byzantine-egypt:medina",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "mecca",
@@ -906,7 +946,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -923,7 +962,10 @@
        "page": "Q5806"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:mecca"
+     "legend_id": "city:roman-byzantine-egypt:mecca",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "thebes",
@@ -932,7 +974,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -945,7 +986,10 @@
        "page": "Q101583"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:thebes"
+     "legend_id": "city:roman-byzantine-egypt:thebes",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ballana",
@@ -963,7 +1007,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -976,7 +1019,10 @@
        "page": "Q18832705"
       }
      ],
-     "legend_id": "city:roman-byzantine-egypt:ballana"
+     "legend_id": "city:roman-byzantine-egypt:ballana",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -1195,7 +1241,6 @@
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
-  "AR-REVIEW",
   "CONTESTED",
   "DERIVED",
   "FIRST-ATTESTED",
@@ -1381,7 +1426,6 @@
   "badge_filter": [
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
-   "AR-REVIEW",
    "CONTESTED",
    "DERIVED",
    "FIRST-ATTESTED",

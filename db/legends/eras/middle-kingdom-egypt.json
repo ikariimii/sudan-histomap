@@ -106,7 +106,7 @@
      "legend_en": "Single source"
     },
     {
-     "badge": "LOW-CONFIDENCE-HATCH",
+     "badge": "APPROXIMATE",
      "legend_en": "Hatched: lower-confidence estimate"
     }
    ]
@@ -134,7 +134,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -152,7 +151,10 @@
        "page": "Q1107569"
       }
      ],
-     "legend_id": "city:middle-kingdom-egypt:kerma"
+     "legend_id": "city:middle-kingdom-egypt:kerma",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "buhen",
@@ -194,7 +196,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -225,7 +226,10 @@
        "page": "Q1002656"
       }
      ],
-     "legend_id": "city:middle-kingdom-egypt:buhen"
+     "legend_id": "city:middle-kingdom-egypt:buhen",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "semna",
@@ -243,7 +247,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -257,7 +260,10 @@
        "page": "Q1485667"
       }
      ],
-     "legend_id": "city:middle-kingdom-egypt:semna"
+     "legend_id": "city:middle-kingdom-egypt:semna",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -299,7 +305,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -332,7 +337,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:middle-kingdom-egypt:aswan"
+     "legend_id": "city:middle-kingdom-egypt:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -478,7 +486,6 @@
  ],
  "badges_present": [
   "APPROXIMATE",
-  "AR-REVIEW",
   "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
@@ -610,7 +617,6 @@
   "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
   "badge_filter": [
    "APPROXIMATE",
-   "AR-REVIEW",
    "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",

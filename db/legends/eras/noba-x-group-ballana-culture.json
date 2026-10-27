@@ -70,7 +70,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -84,7 +83,10 @@
        "page": "Q1457914"
       }
      ],
-     "legend_id": "city:noba-x-group-ballana-culture:soleb"
+     "legend_id": "city:noba-x-group-ballana-culture:soleb",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "faras",
@@ -102,7 +104,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED",
       "RUIN-UNDATED"
@@ -121,7 +122,10 @@
        "page": "Q584387"
       }
      ],
-     "legend_id": "city:noba-x-group-ballana-culture:faras"
+     "legend_id": "city:noba-x-group-ballana-culture:faras",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "qasr-ibrim",
@@ -139,7 +143,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -158,7 +161,10 @@
        "page": "Q2121453"
       }
      ],
-     "legend_id": "city:noba-x-group-ballana-culture:qasr-ibrim"
+     "legend_id": "city:noba-x-group-ballana-culture:qasr-ibrim",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "philae",
@@ -176,7 +182,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -199,7 +204,10 @@
        "page": "Q245062"
       }
      ],
-     "legend_id": "city:noba-x-group-ballana-culture:philae"
+     "legend_id": "city:noba-x-group-ballana-culture:philae",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "abu-simbel",
@@ -209,7 +217,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -218,7 +225,10 @@
        "page": "Q134140"
       }
      ],
-     "legend_id": "city:noba-x-group-ballana-culture:abu-simbel"
+     "legend_id": "city:noba-x-group-ballana-culture:abu-simbel",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "old-dongola",
@@ -236,7 +246,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED",
       "RUIN-UNDATED"
@@ -255,7 +264,10 @@
        "page": "Q433112"
       }
      ],
-     "legend_id": "city:noba-x-group-ballana-culture:old-dongola"
+     "legend_id": "city:noba-x-group-ballana-culture:old-dongola",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "soba",
@@ -273,7 +285,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -290,7 +301,10 @@
        "page": "Q1247214"
       }
      ],
-     "legend_id": "city:noba-x-group-ballana-culture:soba"
+     "legend_id": "city:noba-x-group-ballana-culture:soba",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -332,7 +346,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -365,7 +378,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:noba-x-group-ballana-culture:aswan"
+     "legend_id": "city:noba-x-group-ballana-culture:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aksum",
@@ -383,7 +399,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -396,7 +411,10 @@
        "page": "Q5832"
       }
      ],
-     "legend_id": "city:noba-x-group-ballana-culture:aksum"
+     "legend_id": "city:noba-x-group-ballana-culture:aksum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "adulis",
@@ -422,7 +440,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "CONTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -445,7 +462,10 @@
        "page": "Q378940"
       }
      ],
-     "legend_id": "city:noba-x-group-ballana-culture:adulis"
+     "legend_id": "city:noba-x-group-ballana-culture:adulis",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kawa",
@@ -455,8 +475,7 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "APPROXIMATE-COORDS",
-      "AR-REVIEW"
+      "APPROXIMATE-COORDS"
      ],
      "source_ids": [
       {
@@ -468,7 +487,10 @@
        "page": "project page"
       }
      ],
-     "legend_id": "city:noba-x-group-ballana-culture:kawa"
+     "legend_id": "city:noba-x-group-ballana-culture:kawa",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "alexandria",
@@ -494,7 +516,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -511,7 +532,10 @@
        "page": "Q87"
       }
      ],
-     "legend_id": "city:noba-x-group-ballana-culture:alexandria"
+     "legend_id": "city:noba-x-group-ballana-culture:alexandria",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "yeha",
@@ -529,7 +553,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -542,7 +565,10 @@
        "page": "Q1081229"
       }
      ],
-     "legend_id": "city:noba-x-group-ballana-culture:yeha"
+     "legend_id": "city:noba-x-group-ballana-culture:yeha",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "thebes",
@@ -551,7 +577,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -564,7 +589,10 @@
        "page": "Q101583"
       }
      ],
-     "legend_id": "city:noba-x-group-ballana-culture:thebes"
+     "legend_id": "city:noba-x-group-ballana-culture:thebes",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ballana",
@@ -582,7 +610,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -595,7 +622,10 @@
        "page": "Q18832705"
       }
      ],
-     "legend_id": "city:noba-x-group-ballana-culture:ballana"
+     "legend_id": "city:noba-x-group-ballana-culture:ballana",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -670,7 +700,6 @@
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
-  "AR-REVIEW",
   "CONTESTED",
   "DERIVED",
   "FIRST-ATTESTED",
@@ -805,7 +834,6 @@
   "badge_filter": [
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
-   "AR-REVIEW",
    "CONTESTED",
    "DERIVED",
    "FIRST-ATTESTED",

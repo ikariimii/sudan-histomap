@@ -60,7 +60,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -78,7 +77,10 @@
        "page": "Q1107569"
       }
      ],
-     "legend_id": "city:kingdom-of-kerma:kerma"
+     "legend_id": "city:kingdom-of-kerma:kerma",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "buhen",
@@ -120,7 +122,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -151,7 +152,10 @@
        "page": "Q1002656"
       }
      ],
-     "legend_id": "city:kingdom-of-kerma:buhen"
+     "legend_id": "city:kingdom-of-kerma:buhen",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "semna",
@@ -169,7 +173,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -183,7 +186,10 @@
        "page": "Q1485667"
       }
      ],
-     "legend_id": "city:kingdom-of-kerma:semna"
+     "legend_id": "city:kingdom-of-kerma:semna",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -225,7 +231,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -258,7 +263,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:kingdom-of-kerma:aswan"
+     "legend_id": "city:kingdom-of-kerma:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -394,7 +402,6 @@
  ],
  "badges_present": [
   "APPROXIMATE",
-  "AR-REVIEW",
   "EDITORIAL",
   "FIRST-ATTESTED",
   "LAST-ATTESTED+APPROXIMATE",
@@ -553,7 +560,6 @@
   "hover_highlight": "Hover a legend row: highlight all features of that symbol_class; hover a feature: highlight its legend row.",
   "badge_filter": [
    "APPROXIMATE",
-   "AR-REVIEW",
    "EDITORIAL",
    "FIRST-ATTESTED",
    "LAST-ATTESTED+APPROXIMATE",

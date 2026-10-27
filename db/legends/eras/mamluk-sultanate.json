@@ -248,7 +248,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -262,7 +261,10 @@
        "page": "Q1457914"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:soleb"
+     "legend_id": "city:mamluk-sultanate:soleb",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "qasr-ibrim",
@@ -280,7 +282,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -299,7 +300,10 @@
        "page": "Q2121453"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:qasr-ibrim"
+     "legend_id": "city:mamluk-sultanate:qasr-ibrim",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "abu-simbel",
@@ -309,7 +313,6 @@
      "roles_in_era": [],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "RUIN-UNDATED"
      ],
      "source_ids": [
@@ -318,7 +321,10 @@
        "page": "Q134140"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:abu-simbel"
+     "legend_id": "city:mamluk-sultanate:abu-simbel",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "old-dongola",
@@ -336,7 +342,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED",
       "RUIN-UNDATED"
@@ -355,7 +360,10 @@
        "page": "Q433112"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:old-dongola"
+     "legend_id": "city:mamluk-sultanate:old-dongola",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "soba",
@@ -373,7 +381,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -390,7 +397,10 @@
        "page": "Q1247214"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:soba"
+     "legend_id": "city:mamluk-sultanate:soba",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aswan",
@@ -432,7 +442,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -465,7 +474,10 @@
        "page": "Q29888"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:aswan"
+     "legend_id": "city:mamluk-sultanate:aswan",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aksum",
@@ -483,7 +495,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -496,7 +507,10 @@
        "page": "Q5832"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:aksum"
+     "legend_id": "city:mamluk-sultanate:aksum",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "aidhab",
@@ -523,7 +537,6 @@
      ],
      "badges": [
       "APPROXIMATE",
-      "AR-REVIEW",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
      ],
@@ -549,7 +562,10 @@
        "page": "Q404028"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:aidhab"
+     "legend_id": "city:mamluk-sultanate:aidhab",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "suakin",
@@ -567,8 +583,7 @@
       }
      ],
      "badges": [
-      "APPROXIMATE",
-      "AR-REVIEW"
+      "APPROXIMATE"
      ],
      "source_ids": [
       {
@@ -584,7 +599,10 @@
        "page": "Q571215"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:suakin"
+     "legend_id": "city:mamluk-sultanate:suakin",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "sennar",
@@ -602,7 +620,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -623,7 +640,10 @@
        "page": "Q611867"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:sennar"
+     "legend_id": "city:mamluk-sultanate:sennar",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "qerri",
@@ -641,7 +661,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "LAST-ATTESTED+APPROXIMATE",
       "RUIN-UNDATED"
@@ -660,7 +679,10 @@
        "page": "Q11924140"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:qerri"
+     "legend_id": "city:mamluk-sultanate:qerri",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ain-farah",
@@ -678,7 +700,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED",
       "RUIN-UNDATED"
      ],
@@ -692,7 +713,10 @@
        "page": "Q405860"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:ain-farah"
+     "legend_id": "city:mamluk-sultanate:ain-farah",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fashoda",
@@ -710,7 +734,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -723,7 +746,10 @@
        "page": "Q1888763"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:fashoda"
+     "legend_id": "city:mamluk-sultanate:fashoda",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "malakal",
@@ -749,7 +775,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -766,7 +791,10 @@
        "page": "Q220049"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:malakal"
+     "legend_id": "city:mamluk-sultanate:malakal",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "kufra",
@@ -784,7 +812,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -801,7 +828,10 @@
        "page": "Q172114"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:kufra"
+     "legend_id": "city:mamluk-sultanate:kufra",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "rumbek",
@@ -810,7 +840,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -823,7 +852,10 @@
        "page": "Q607336"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:rumbek"
+     "legend_id": "city:mamluk-sultanate:rumbek",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "arbaji",
@@ -842,8 +874,7 @@
      ],
      "badges": [
       "APPROXIMATE",
-      "APPROXIMATE-COORDS",
-      "AR-REVIEW"
+      "APPROXIMATE-COORDS"
      ],
      "source_ids": [
       {
@@ -859,7 +890,10 @@
        "page": "UFI 98562051"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:arbaji"
+     "legend_id": "city:mamluk-sultanate:arbaji",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "alexandria",
@@ -885,7 +919,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -902,7 +935,10 @@
        "page": "Q87"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:alexandria"
+     "legend_id": "city:mamluk-sultanate:alexandria",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "cairo",
@@ -936,7 +972,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -957,7 +992,10 @@
        "page": "Q85"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:cairo"
+     "legend_id": "city:mamluk-sultanate:cairo",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "fustat",
@@ -975,7 +1013,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -988,7 +1025,10 @@
        "page": "Q839456"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:fustat"
+     "legend_id": "city:mamluk-sultanate:fustat",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ngazargamu",
@@ -1006,7 +1046,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1019,7 +1058,10 @@
        "page": "Q1496614"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:ngazargamu"
+     "legend_id": "city:mamluk-sultanate:ngazargamu",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "yeha",
@@ -1037,7 +1079,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1050,7 +1091,10 @@
        "page": "Q1081229"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:yeha"
+     "legend_id": "city:mamluk-sultanate:yeha",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "lalibela",
@@ -1068,7 +1112,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1081,7 +1124,10 @@
        "page": "Q207590"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:lalibela"
+     "legend_id": "city:mamluk-sultanate:lalibela",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "medina",
@@ -1107,7 +1153,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1124,7 +1169,10 @@
        "page": "Q35484"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:medina"
+     "legend_id": "city:mamluk-sultanate:medina",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "mecca",
@@ -1150,7 +1198,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1167,7 +1214,10 @@
        "page": "Q5806"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:mecca"
+     "legend_id": "city:mamluk-sultanate:mecca",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "thebes",
@@ -1176,7 +1226,6 @@
      "symbol_class": "city_other",
      "roles_in_era": [],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1189,7 +1238,10 @@
        "page": "Q101583"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:thebes"
+     "legend_id": "city:mamluk-sultanate:thebes",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     },
     {
      "id": "ballana",
@@ -1207,7 +1259,6 @@
       }
      ],
      "badges": [
-      "AR-REVIEW",
       "FIRST-ATTESTED"
      ],
      "source_ids": [
@@ -1220,7 +1271,10 @@
        "page": "Q18832705"
       }
      ],
-     "legend_id": "city:mamluk-sultanate:ballana"
+     "legend_id": "city:mamluk-sultanate:ballana",
+     "workflow_flags": [
+      "AR-REVIEW"
+     ]
     }
    ]
   },
@@ -1359,7 +1413,6 @@
  "badges_present": [
   "APPROXIMATE",
   "APPROXIMATE-COORDS",
-  "AR-REVIEW",
   "DERIVED",
   "FIRST-ATTESTED",
   "LAST-ATTESTED",
@@ -1515,7 +1568,6 @@
   "badge_filter": [
    "APPROXIMATE",
    "APPROXIMATE-COORDS",
-   "AR-REVIEW",
    "DERIVED",
    "FIRST-ATTESTED",
    "LAST-ATTESTED",
