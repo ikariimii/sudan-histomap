@@ -7,7 +7,12 @@
   "icons_licence": "original simple geometry by Sudan Map Designer, CC0",
   "halo_note": "uses the global war halo from db/legends/legend_spec.json (#e8e2d0, 2px ring on dark/era backgrounds); on the light background the 1.5px #0f1b24 outline is the separator",
   "era_fill_exception": "Icon fill colours fail 3:1 against era fills (min 1.31-1.39:1); no colour can pass both 3:1 on #f2f4f7 and 3:1 on era fills (same finding as east-african-campaign-1940). Separation from era fills relies on dE00>=15 plus the halo ring (min 3.82:1 vs era fills). NEEDS IM WAIVER.",
-  "arabic": "all label_ar are working translations [يحتاج تحقق]; keep internal until native review"
+  "arabic": "all label_ar are working translations [يحتاج تحقق]; keep internal until native review",
+  "flags_for_historian": [
+   "rel-mahdiyya and rel-mahdism-under-condominium mapped to islam (not sufi); confirm",
+   "rel-official-sunni-vs-sufi mapped to islam (single icon for a two-sided entry); confirm",
+   "Apedemak, Sebewyemeker, Isis of Philae and Mahrem share rel_ancient_deity"
+  ]
  },
  "halo": {
   "ref": "db/legends/legend_spec.json war halo",
@@ -70,7 +75,10 @@
  },
  "layers": {
   "language": {
-   "source": "db/era_languages.json",
+   "source": [
+    "db/era_languages.json",
+    "db/religion_language_present.json#languages"
+   ],
    "key": "script",
    "geometry": "point or region",
    "colour": "#22938a",
@@ -125,6 +133,18 @@
      "icon": "db/markers/icons/lang_oral.svg",
      "label_en": "Oral / unwritten language",
      "label_ar": "لغة شفهية / غير مكتوبة [يحتاج تحقق]"
+    },
+    {
+     "id": "egyptian_hieroglyphic",
+     "icon": "db/markers/icons/lang_egyptian_hieroglyphic.svg",
+     "label_en": "Egyptian hieroglyphs",
+     "label_ar": "الهيروغليفية المصرية [يحتاج تحقق]"
+    },
+    {
+     "id": "generic",
+     "icon": "db/markers/icons/lang_generic.svg",
+     "label_en": "Language (script not recorded)",
+     "label_ar": "لغة (الخط غير مسجل) [يحتاج تحقق]"
     }
    ],
    "icon_px": {
@@ -137,10 +157,55 @@
     "width_px": 1.5
    },
    "region_fill_opacity": 0.12,
-   "region_stroke_px": 1.5
+   "region_stroke_px": 1.5,
+   "match": {
+    "field": "script",
+    "null": "generic",
+    "rules": [
+     [
+      "^Egyptian hieroglyph",
+      "egyptian_hieroglyphic"
+     ],
+     [
+      "^Meroitic",
+      "meroitic"
+     ],
+     [
+      "^none attested",
+      "oral"
+     ],
+     [
+      "^Greek",
+      "greek"
+     ],
+     [
+      "^Coptic",
+      "coptic_old_nubian"
+     ],
+     [
+      "^Old Nubian",
+      "coptic_old_nubian"
+     ],
+     [
+      "^Arabic",
+      "arabic"
+     ],
+     [
+      "^Ethiopic|Ge.ez",
+      "geez"
+     ],
+     [
+      "^Latin",
+      "latin"
+     ]
+    ]
+   }
   },
   "religion": {
-   "source": "db/era_religions.json",
+   "source": [
+    "db/era_religions.json",
+    "db/religion_language_present.json#religions"
+   ],
    "key": "religion",
    "geometry": "point or approximate polygon",
    "colour": "#809000",
@@ -177,6 +242,12 @@
      "icon": "db/markers/icons/rel_traditional.svg",
      "label_en": "Traditional / indigenous beliefs",
      "label_ar": "المعتقدات التقليدية / الأصلية [يحتاج تحقق]"
+    },
+    {
+     "id": "ancient_deity",
+     "icon": "db/markers/icons/rel_ancient_deity.svg",
+     "label_en": "Other ancient deity cult",
+     "label_ar": "عبادة إله قديم آخر [يحتاج تحقق]"
     }
    ],
    "icon_px": {
@@ -189,7 +260,44 @@
     "width_px": 1.5
    },
    "region_fill_opacity": 0.12,
-   "region_stroke_px": 1.5
+   "region_stroke_px": 1.5,
+   "match": {
+    "field": "id",
+    "rules": [
+     [
+      "^rel-official-sunni-vs-sufi$",
+      "islam"
+     ],
+     [
+      "^rel-(qadiriyya|shadhiliyya|khatmiyya)",
+      "sufi"
+     ],
+     [
+      "^rel-(mahdiyya|mahdism)",
+      "islam"
+     ],
+     [
+      "^rel-amun",
+      "kushite_amun"
+     ],
+     [
+      "^rel-(apedemak|sebewyemeker|isis|mahrem)",
+      "ancient_deity"
+     ],
+     [
+      "christianity",
+      "christianity"
+     ],
+     [
+      "islam",
+      "islam"
+     ],
+     [
+      "(traditional|african-practices|indigenous)",
+      "traditional"
+     ]
+    ]
+   }
   },
   "people": {
    "source": "db/era_people.json",
@@ -217,7 +325,54 @@
     "width_px": 1.5
    },
    "region_fill_opacity": 0.12,
-   "region_stroke_px": 1.5
+   "region_stroke_px": 1.5,
+   "match": {
+    "sources": [
+     "db/era_people.json",
+     "db/era_people_post1956.json"
+    ],
+    "rule": "all records -> person; image null -> generic portrait pin; image present -> credited thumbnail inside the pin, with the pin as fallback on load error"
+   }
+  }
+ },
+ "approximate_treatment": {
+  "applies_if_badges_any": [
+   "APPROXIMATE",
+   "EDITORIAL"
+  ],
+  "icon_opacity": 0.75,
+  "outline_dash": "2 1.5",
+  "radius_ring": {
+   "dash": "3 2",
+   "stroke_px": 1.5,
+   "fill_opacity": 0.08
+  },
+  "label_suffix_en": " (approx.)",
+  "label_suffix_ar": " (تقريبي) [يحتاج تحقق]",
+  "note": "Stand-in locations (EDITORIAL) and APPROXIMATE points are drawn dashed and faded; religion_language_present shares are all APPROXIMATE (country-level)."
+ },
+ "present_day": {
+  "languages": "country-level, script null -> lang_generic (no guessed glyph), approximate treatment",
+  "religions": "country shares, always APPROXIMATE treatment"
+ },
+ "coverage": {
+  "checked": "2026-10-26",
+  "unmapped": [],
+  "counts": {
+   "egyptian_hieroglyphic": 2,
+   "oral": 1,
+   "meroitic": 1,
+   "greek": 3,
+   "coptic_old_nubian": 2,
+   "arabic": 2,
+   "geez": 1,
+   "generic": 11,
+   "kushite_amun": 3,
+   "ancient_deity": 4,
+   "christianity": 6,
+   "islam": 8,
+   "traditional": 4,
+   "sufi": 3
   }
  }
 }

@@ -46,6 +46,16 @@
      "icon": "db/markers/icons/lang_oral.svg",
      "label_en": "Oral / unwritten language",
      "label_ar": "لغة شفهية / غير مكتوبة [يحتاج تحقق]"
+    },
+    {
+     "icon": "db/markers/icons/lang_egyptian_hieroglyphic.svg",
+     "label_en": "Egyptian hieroglyphs",
+     "label_ar": "الهيروغليفية المصرية [يحتاج تحقق]"
+    },
+    {
+     "icon": "db/markers/icons/lang_generic.svg",
+     "label_en": "Language (script not recorded)",
+     "label_ar": "لغة (الخط غير مسجل) [يحتاج تحقق]"
     }
    ]
   },
@@ -80,6 +90,11 @@
      "icon": "db/markers/icons/rel_traditional.svg",
      "label_en": "Traditional / indigenous beliefs",
      "label_ar": "المعتقدات التقليدية / الأصلية [يحتاج تحقق]"
+    },
+    {
+     "icon": "db/markers/icons/rel_ancient_deity.svg",
+     "label_en": "Other ancient deity cult",
+     "label_ar": "عبادة إله قديم آخر [يحتاج تحقق]"
     }
    ]
   },
@@ -99,5 +114,9 @@
   }
  ],
  "footnote_en": "Symbols are abstract and do not depict sacred images. Positions are approximate.",
- "footnote_ar": "الرموز مجردة ولا تصور صوراً مقدسة. المواقع تقريبية. [يحتاج تحقق]"
+ "footnote_ar": "الرموز مجردة ولا تصور صوراً مقدسة. المواقع تقريبية. [يحتاج تحقق]",
+ "approximate_row": {
+  "label_en": "Approximate or stand-in location (dashed, faded)",
+  "label_ar": "موقع تقريبي أو بديل (متقطع، باهت) [يحتاج تحقق]"
+ }
 }
