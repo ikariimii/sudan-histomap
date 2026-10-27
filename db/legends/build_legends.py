@@ -379,6 +379,39 @@ def canon_era(o):
     if isinstance(o.get('interactive'), dict) and 'badge_filter' in o['interactive']: o['interactive']['badge_filter'] = o.get('badges_present')
     return o
 
+# --- hand-edit preservation (IM ruling): an existing era file is the base; generated values override what the
+# builder produces, keys the builder does not produce (card_notes, workflow_flags, notes added by hand) are kept.
+# a field the run leaves empty keeps its existing value. Any existing list item or list value the run would remove is a DROP: the build stops
+# without writing unless --allow-drop is given.
+_IDK = ('legend_id', 'row_id', 'id', 'era_id', 'file')
+def _key(x):
+    if isinstance(x, dict):
+        for k in _IDK:
+            if isinstance(x.get(k), (str, int)): return (k, x[k])
+    return None
+def _empty(v): return v is None or v == '' or v == [] or v == {}
+def merge_keep(old, new, path, drops):
+    if isinstance(old, dict) and isinstance(new, dict):
+        out = {}
+        for k, v in old.items():
+            out[k] = merge_keep(v, new[k], f'{path}.{k}', drops) if k in new else v
+        for k, v in new.items():
+            if k not in out: out[k] = v
+        return out
+    if isinstance(old, list) and isinstance(new, list):
+        if all(_key(x) for x in old + new) and old + new:
+            om = {_key(x): x for x in old}; nk = {_key(x) for x in new}
+            drops += [f'{path}[{k[0]}={k[1]}]' for k in om if k not in nk]
+            return [merge_keep(om[_key(x)], x, f'{path}[{_key(x)[1]}]', drops) if _key(x) in om else x for x in new]
+        if any(isinstance(x, (dict, list)) for x in old + new):
+            if len(new) < len(old): drops.append(f'{path}[{len(new)}:{len(old)}]')
+            return [merge_keep(old[i], x, f'{path}[{i}]', drops) if i < len(old) else x for i, x in enumerate(new)]
+        ns = [json.dumps(x, sort_keys=True) for x in new]
+        drops += [f'{path}: {x!r}' for x in old if json.dumps(x, sort_keys=True) not in ns]
+        return new
+    if not _empty(old) and _empty(new): return old  # generator produced nothing here: keep the existing value
+    return new
+
 def toggle_block():
     # shared, toggle-scoped legend block (DEM / heatmap): same in every era, never merged into era files
     sp = json.load(open(os.path.join(R, 'db/legends/legend_spec.json'), encoding='utf-8'))['toggle_legends']
@@ -412,9 +445,26 @@ def main():
                  'groups_added': sorted(S['grp'] - Q['grp']), 'groups_removed': sorted(Q['grp'] - S['grp'])}
         o['__sets'] = S
         o['interactive']['what_changed'] = d
+    import sys
+    allow = '--allow-drop' in sys.argv
+    outs, drops = {}, []
     for o in eras.values():
         o.pop('__sets', None); canon_era(o)
-        json.dump(o, open(os.path.join(R, 'db/legends/eras', o['era_id'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+        f = os.path.join(R, 'db/legends/eras', o['era_id'] + '.json')
+        if os.path.exists(f): o = merge_keep(json.load(open(f, encoding='utf-8')), o, o['era_id'], drops)
+        outs[f] = o
+    names = {o['era_id'] + '.json' for o in eras.values()}
+    drops += [f'{os.path.basename(f)}: era file not regenerated' for f in glob.glob(os.path.join(R, 'db/legends/eras/*.json')) if os.path.basename(f) not in names]
+    if drops and not allow:
+        print(f'REFUSING to write: this run would drop {len(drops)} existing item(s); rerun with --allow-drop to accept:', file=sys.stderr)
+        for d in drops[:200]: print('  DROP', d, file=sys.stderr)
+        sys.exit(2)
+    if drops and allow:  # --allow-drop: take the generated content as is where it removes things
+        outs = {}
+        for o in eras.values(): outs[os.path.join(R, 'db/legends/eras', o['era_id'] + '.json')] = o
+        print(f'--allow-drop: {len(drops)} drop(s) accepted, generated content written as is')
+    for f, o in outs.items():
+        json.dump(o, open(f, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(len(eras), 'era legends written')
     toggle_block()
 if __name__ == '__main__':
