@@ -1858,11 +1858,13 @@
    "name_ar": "عين فرح",
    "name_ar_source": "wikidata",
    "wikidata": "Q405860",
-   "lat": 16.7603,
-   "lon": 29.1878,
+   "lat": 14.265713,
+   "lon": 24.316149,
    "coord_source": {
     "source_id": "WIKIDATA_CITIES",
-    "page": "Q405860"
+    "page": "Q405860",
+    "badge": "APPROXIMATE",
+    "note": "Wikidata P625 preferred-rank statement (checked 2026-10-26). The normal-rank value 16.7603N 29.1878E lies outside Darfur (c.590 km off) and is rejected; see data/backup/research_patch.pre-pass6.py. Approximate: no excavation-report coordinate found, and the point is c.35 km W of Kutum, not the '15 km NW' given in some descriptions."
    },
    "category": "ancient",
    "founded": null,
