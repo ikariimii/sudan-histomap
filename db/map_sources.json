@@ -35,8 +35,8 @@
   "checked_against_note": "mean_error_km values are the errors of the maps the shape was checked against, not of the shape.",
   "rules": "Derived only from the input files; nothing inferred. Base source is null when the properties do not name one.",
   "totals": {
-   "eras": 78,
-   "shapes": 302,
+   "eras": 73,
+   "shapes": 293,
    "base_source_null": 13,
    "overlay_error_non_null": 0,
    "checked_against_shapes": 25
@@ -1365,6 +1365,40 @@
      "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
     },
     {
+     "layer": "extents",
+     "file": "db/extents/makuria.geojson",
+     "feature_index": 8,
+     "feature_id": "makuria-al-daw-1365",
+     "label_en": "al-Daw (royal residence from 1365–6, reference marker, not a border)",
+     "label_ar": null,
+     "zone_type": "point",
+     "geometry_type": "Point",
+     "cites": [
+      {
+       "id": "GHA4_CH16",
+       "pages": "404"
+      }
+     ],
+     "base_source": [
+      "Wikidata"
+     ],
+     "base_source_text": "db/cities.json place_id al-daw (WIKIDATA_CITIES Q1496812) | reference marker (not a border); coordinates from db/cities.json",
+     "base_source_null_reason": null,
+     "base_source_null_reason_ar": null,
+     "badges": [
+      "APPROXIMATE",
+      "VERIFY"
+     ],
+     "confidence": 0.3,
+     "certainty": "low",
+     "start": 1365,
+     "end": 1500,
+     "checked_against": [],
+     "overlay_mean_error_km": null,
+     "overlay_null_reason": "not traced from a georeferenced map",
+     "overlay_null_reason_ar": "غير مرسوم بالتتبّع من خريطة مُسنَدة جغرافيًا [VERIFY]"
+    },
+    {
      "layer": "trade_routes",
      "file": "db/trade_routes/makuria.geojson",
      "feature_index": 0,
@@ -1398,7 +1432,7 @@
     }
    ],
    "counts": {
-    "shapes": 9,
+    "shapes": 10,
     "contested": 2,
     "trade_routes": 1,
     "base_source_null": 0
