@@ -8765,6 +8765,21 @@
     "verification": "Commons file page and metadata checked 2026-10-27 (title, author Bruno Hassenstein, date 1884, source Gallica ark:/12148/btv1b8439116w, Public domain, 8640x6428 px); Gallica page returns a Cloudflare challenge to scripts, not checked directly; publisher (Justus Perthes, Gotha) and sheet not confirmed by either page, left empty [VERIFY]",
     "via": "db/map_sources.json; db/extents/mahdist-uprising.geojson (georef/hassenstein1884)",
     "note": "Holding copy: Gallica (BnF) https://gallica.bnf.fr/ark:/12148/btv1b8439116w. Georeferenced Übersichtskarte panel only."
+   },
+   "LOC1991_POLDEV": {
+    "author": "U.S. Library of Congress, Federal Research Division (H.C. Metz ed.)",
+    "title": "Sudan: A Country Study (research completed June 1991) – 'Political Developments'",
+    "publisher": "U.S. Library of Congress",
+    "date": "1991-06 (publ. 1992)",
+    "year": "1991",
+    "url": "https://countrystudies.us/sudan/25.htm",
+    "pages": "HTML page, no page numbers",
+    "lang": "en",
+    "bias": "US-government country study; dated (1991)",
+    "accessed": "2026-10-27",
+    "verification": "live URL returned 403 Forbidden 2026-10-27; verified via web.archive.org capture 20260513220814 (heading 'Political Developments' and Library of Congress source line checked); study dates as for LOC1991_TMC",
+    "via": "db/era_events (Analyst key events post-1956: nimeiry-era-democratic-republic-of-sudan)",
+    "note": "Older, US-government source; figures as of 1991"
    }
   }
  },
