@@ -614,6 +614,55 @@
     "quote": "grain was sent to W a w a t to prevent famine",
     "registered": true
    }
+  },
+  {
+   "id": "dis-1822-flight-to-ethiopian-borders",
+   "era_id": "turkiyya-ottoman-egyptian-rule",
+   "type": "disaster",
+   "subtype": "displacement",
+   "title": {
+    "en": "Flight from the Gezira and Shendi during the 1822 tax revolt",
+    "ar": "النزوح من الجزيرة وشندي إبان ثورة الضرائب عام 1822 [يحتاج تحقق]"
+   },
+   "date_start": "1822-02",
+   "date_end": "1822",
+   "date_precision": "month",
+   "place_id": null,
+   "location": {
+    "area": "Shendi to Sennar; Ethiopian borders, Atbara valley, Gedaref",
+    "lat": null,
+    "lon": null,
+    "precision": "region"
+   },
+   "figures": [],
+   "status": null,
+   "badges": [
+    "SINGLE-SOURCE",
+    "APPROXIMATE"
+   ],
+   "summary_en": "When heavy taxes provoked revolt in February 1822, people from Shendi to Sennar fled by the thousand to the borders of Ethiopia, the Atbara valley and the Gedaref region. Ismail hurried back from Fazughli and briefly calmed the situation by revising the taxes.",
+   "summary_ar": "[يحتاج تحقق] حين أشعلت الضرائب الباهظة الثورة في فبراير 1822، فرّ الناس بالآلاف من شندي إلى سنار نحو تخوم الحبشة ووادي أتبرا ومنطقة القضارف. وعاد إسماعيل مسرعًا من فازوغلي فهدّأ الوضع مؤقتًا بمراجعة الضرائب.",
+   "ar_review": "AR-REVIEW",
+   "source_ids": [
+    "GHA6_CH14"
+   ],
+   "note": "'by the thousand' is not a toll; no figure recorded.",
+   "citations": [
+    {
+     "source_id": "GHA6_CH14",
+     "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184295",
+     "page": "p.362",
+     "quote": "F r o m Shendi to Sennär the people fled by the thousand to the borders of Ethiopia, to the valley of Atbara and to the region of Gedaref.",
+     "registered": true
+    }
+   ],
+   "citation": {
+    "source_id": "GHA6_CH14",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184295",
+    "page": "p.362",
+    "quote": "F r o m Shendi to Sennär the people fled by the thousand to the borders of Ethiopia, to the valley of Atbara and to the region of Gedaref.",
+    "registered": true
+   }
   }
  ]
 }
