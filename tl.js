@@ -4,7 +4,7 @@
 'use strict';
 var D=document,R=D.documentElement,TL=window.TL||{},RM=matchMedia('(prefers-reduced-motion: reduce)');
 var rm=function(){return RM.matches};
-var num=function(n){return TL.ar?String(n).replace(/\d/g,function(d){return '٠١٢٣٤٥٦٧٨٩'[d]}):String(n)};
+var num=function(n){return String(n)}; /* Western digits 0-9 in AR too (Arabic Reviewer final P1-3, C1) */
 var bar=D.querySelector('.bar'),cnt=D.getElementById('cnt'),cards=[].slice.call(D.querySelectorAll('.cd')),secs=[].slice.call(D.querySelectorAll('.per'));
 R.classList.add('js');
 /* sticky offsets follow the real header height (it wraps on phones) */
