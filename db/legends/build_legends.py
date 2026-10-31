@@ -333,7 +333,8 @@ CANON = {'LOW-CONFIDENCE-HATCH': ['APPROXIMATE'], 'LAST-ATTESTED': ['VERIFY'], '
          'LAST-ATTESTED+APPROXIMATE': ['VERIFY', 'APPROXIMATE'], 'APPROXIMATE-COORDS': ['APPROXIMATE'], 'MODERN_SVG_RENDERING': ['DERIVED']}
 WORKFLOW = {'AR-REVIEW', 'LIST-ONLY', 'NO-DATE'}  # internal flags, never shown to visitors
 SPEC_AR = json.load(open(os.path.join(R, 'db/legends/legend_spec.json'), encoding='utf-8'))
-_RU_AR = ((SPEC_AR.get('uncertainty_encoding') or {}).get('RUIN-UNDATED') or {}).get('legend_ar')
+_RU_AR = (((SPEC_AR.get('card_note_encoding') or {}).get('ruin_undated') or {}).get('legend_ar')
+          or ((SPEC_AR.get('uncertainty_encoding') or {}).get('RUIN-UNDATED') or {}).get('legend_ar'))  # moved to card_note_encoding (IM 2026-10-30)
 CITY_FA = {c['id']: c.get('first_attested') for c in CJ}
 def _yr(y): return f"{-y} BCE" if y < 0 else f"{y} CE"
 def _note(o, en, ar):

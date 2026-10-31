@@ -67,53 +67,9 @@
     "url": "https://en.wikipedia.org/wiki/Port_Sudan",
     "lang": "en",
     "verification": "fetched 2026-10-20 via API extract"
-   },
-   "GEO-001": {
-    "note": "see db/geopolitics_sources.json",
-    "id": "GEO-001"
-   },
-   "GEO-011": {
-    "note": "see db/geopolitics_sources.json",
-    "id": "GEO-011"
-   },
-   "GEO-032": {
-    "note": "see db/geopolitics_sources.json",
-    "id": "GEO-032"
-   },
-   "GEO-033": {
-    "note": "see db/geopolitics_sources.json",
-    "id": "GEO-033"
-   },
-   "GEO-070": {
-    "note": "see db/geopolitics_sources.json",
-    "id": "GEO-070"
-   },
-   "GEO-074": {
-    "note": "see db/geopolitics_sources.json",
-    "id": "GEO-074"
-   },
-   "GEO-080": {
-    "note": "see db/geopolitics_sources.json",
-    "id": "GEO-080"
-   },
-   "GEO-067": {
-    "note": "see db/geopolitics_sources.json",
-    "id": "GEO-067"
-   },
-   "GEO-020": {
-    "note": "see db/geopolitics_sources.json",
-    "id": "GEO-020"
-   },
-   "GEO-079": {
-    "note": "see db/geopolitics_sources.json",
-    "id": "GEO-079"
-   },
-   "GEO-038": {
-    "note": "see db/geopolitics_sources.json",
-    "id": "GEO-038"
    }
   },
-  "citation_warning": "era.html resolves route/waypoint source IDs via periods.json meta.sources; these IDs are NOT in that table yet, so they show '(unresolved ID)' until the Historian or Map Designer adds source_registry entries to meta.sources."
+  "citation_warning": "GEO-xxx ids are not repeated here: they resolve from the project source registry (Geopolitical Analyst catalogue), the same entries listed on /sources/. The 7 entries in source_registry are this file's own route sources; until they are added to the project registry they have no /sources/ anchor, so the map shows them as text with their URL."
  },
  "routes": [
   {
