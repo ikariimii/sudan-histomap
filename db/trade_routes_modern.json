@@ -88,8 +88,8 @@
     "SUDANUPDATE_OIL",
     "GEM_GNOP"
    ],
-   "summary_en": "About 1,610 km and 250,000 bpd, built by GNPOC (CNPC 40%). It runs from Heglig via the El Obeid and Khartoum refineries to the Bashayer terminal south of Port Sudan. First export was on 30 Aug 1999.",
-   "summary_ar": "خط طوله نحو 1610 كم وطاقته 250 ألف برميل يوميًا، أنشأته شركة النيل الكبرى (حصة الشركة الصينية 40%). يمتد من هجليج عبر مصفاتي الأبيض والخرطوم إلى مرفأ بشائر جنوب بورتسودان، وصدّر أول شحنة في 30 أغسطس 1999.",
+   "summary_en": "About 1,600 km (GEM_GNOP; Sudan Tribune gives 1,610 km) and 250,000 bpd, built by GNPOC (CNPC 40%). It runs from Heglig via the El Obeid and Khartoum refineries to the Bashayer terminal south of Port Sudan. It was formally inaugurated on 30 June 1999 (SUDANTRIBUNE_2014_PIPE).",
+   "summary_ar": "خط طوله نحو 1600 كم (GEM_GNOP؛ وتذكر سودان تربيون 1610 كم) وطاقته 250 ألف برميل يوميًا، أنشأته شركة النيل الكبرى (حصة الشركة الصينية 40%). يمتد من هجليج عبر مصفاتي الأبيض والخرطوم إلى مرفأ بشائر جنوب بورتسودان، ودُشّن رسميًا في 30 يونيو 1999 (SUDANTRIBUNE_2014_PIPE). [يحتاج تحقق]",
    "waypoints": [
     {
      "name": "Heglig",
@@ -143,7 +143,7 @@
    ],
    "flags": [
     "Line between waypoints is straight, not the true pipeline alignment",
-    "Pipeline sources are search-index text only (VERIFY)"
+    "Pipeline sources checked on their pages 2026-10-31 except SUDANUPDATE_OIL (not retrievable, VERIFY)"
    ]
   },
   {
@@ -333,8 +333,8 @@
     "GEO-020",
     "WP_PORTSUDAN"
    ],
-   "summary_en": "Port Sudan has been the government seat since 2023 and a focus of base bids. The 2017 Turkey–Suakin deal is in GEO-020; the Suakin gas-berth MoU (Jul 2026) and the Port Sudan–Mersin twinning are in GEO-011. Abu Amama, a port proposed for the UAE about 200 km north of Port Sudan (Wikipedia), is not plotted because it has no coordinate.",
-   "summary_ar": "بورتسودان مقرّ الحكومة منذ 2023 ومحطّ عروض القواعد. اتفاق تركيا بشأن سواكن عام 2017 في GEO-020، ومذكرة رصيف الغاز في سواكن (يوليو 2026) وتوأمة بورتسودان ومرسين في GEO-011. أما ميناء أبو عمامة المقترح للإمارات، على بعد نحو 200 كم شمال بورتسودان (ويكيبيديا)، فلم يُرسم لعدم توفر إحداثياته.",
+   "summary_en": "Port Sudan has been the government seat since 2023 and a focus of base bids. The 2017 Turkey–Suakin deal is in GEO-020; the Suakin gas-berth MoU (Jul 2026) and the Port Sudan–Mersin twinning are in GEO-011. Abu Amama, a port proposed in 2023 about 200 km north of Port Sudan (Wikipedia), is not plotted because it has no coordinate.",
+   "summary_ar": "بورتسودان مقرّ الحكومة منذ 2023 ومحطّ عروض القواعد. اتفاق تركيا بشأن سواكن عام 2017 في GEO-020، ومذكرة رصيف الغاز في سواكن (يوليو 2026) وتوأمة بورتسودان ومرسين في GEO-011. أما ميناء أبو عمامة المقترح عام 2023، على بعد نحو 200 كم شمال بورتسودان (ويكيبيديا)، فلم يُرسم لعدم توفر إحداثياته. [يحتاج تحقق]",
    "waypoints": [
     {
      "name": "Suez",
