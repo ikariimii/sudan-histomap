@@ -851,7 +851,7 @@ p.innerHTML=h;p.hidden=false;p.querySelector('.x').onclick=()=>{p.hidden=true}}
 {const b1=batDraw;batDraw=async e=>{await b1(e);await eglDraw(e)}}
 {const l1=legendDraw;legendDraw=async e=>{await l1(e);const p=$('lgp');if(!p||!on.has('egl')||!M.layers.egl||e!==ES[i])return;const J=await eglLoad();if(!J.items.some(d=>eglIn(d,e))||e!==ES[i])return;const x=document.createElement('div');x.className='lgeg';x.innerHTML=`<h4>${esc(AR?'المجموعات العرقية':'Ethnic groups')}</h4><ul><li role="listitem"><svg width="26" height="26" viewBox="-13 -13 26 26" aria-hidden="true" class="egl"><g class="eg"><circle class="egh" r="8"/><circle class="ego" r="6"/><circle class="egi" r="4.75"/></g></svg><span>${esc(AR?'موضع حضور مُوثَّق (ليس حدوداً)':'Attested presence (not a border)')}</span></li></ul>`;p.querySelectorAll('.lgeg').forEach(n=>n.remove());p.appendChild(x)}}
 /* t36 concurrent / neighbouring states (Map Designer style db/concurrent_states_style.json): sourced shapes only, from /cs/<era>.json (built from data/concurrent_states).
-   Drawn below every Sudan extent in one neutral slate (no per-polity hue). Toggle 'cs'; during era playback an outline-only overview is drawn even when the toggle is off. */
+   Drawn below every Sudan extent in one neutral slate (no per-polity hue). Toggle 'cs'; during era playback the full layer is drawn even when the toggle is off (not clickable while playing). */
 let gCs=null;const CSJ={},csHas=e=>!!(M.layers.cs&&M.layers.cs[e.id]);
 const csT=AR?'الدول المجاورة والمعاصرة':'Neighbouring states';
 {const st=document.createElement('style');st.textContent=`g.cs{pointer-events:none}g.cs.ia path.csa{pointer-events:visiblePainted;cursor:pointer}
@@ -875,7 +875,7 @@ g.csm text{font:600 10px system-ui,-apple-system,'Segoe UI',sans-serif;fill:#f4e
 async function csLoad(e){if(!csHas(e))return[];if(!CSJ[e.id])CSJ[e.id]=getj(`/cs/${e.id}.json`).then(j=>{const F=((j&&j.features)||[]).map(rw);F.forEach(f=>{const p=f.properties;if(p&&p.id)CSN[p.id]=p});return F}).catch(()=>[]);return CSJ[e.id]}
 /* 'Contested with:' (QA 1fb): contested_with holds ids. A neighbour/disputed feature id shows that feature's short name; '<era>#<n>' (one of Sudan's own extents) shows the era's name. An id that resolves to nothing is left out, never shown raw. */
 const CSN={},csCw=w=>{const h=w.indexOf('#');if(h>0){const e=ES.find(x=>x.id===w.slice(0,h));return e?(AR&&e.ar?[e.ar,0]:[e.en,AR?1:0]):null}const q=CSN[w];return q?[csNm(q,true),AR&&!q.na&&!q.nsa?1:0]:null};
-const csIn=(p,e)=>TS==='play'?(p.a<=e.b&&p.b>=e.a):act({start:p.a,end:p.b},e,Y);
+/* playback (QA 1fb): the same features as the layer shows for the year on screen (was: every feature overlapping the whole era span) */const csIn=(p,e)=>act({start:p.a,end:p.b},e,Y);
 const csNm=(p,sh)=>{const n=AR?(sh&&p.nsa)||p.na:(sh&&p.ns)||p.n;return n||(sh&&p.ns)||p.n};
 /* CONTESTED (style layer.contested_marker / zone_contested; IM + Map Designer ruling 2026-10-31): only disputed-area features are hatched.
    The build marks them cz (polygon, drawn whole in gCz above Sudan's extents and contested zones, below cities) or mk (Point marker).
@@ -890,7 +890,7 @@ async function csDraw(e){const ov=TS==='play',ia=on.has('cs');if(!gCs)gCs=root.i
  if(!M.layers.cs||!(ia||ov)){gCs.selectAll('*').remove();gCz.selectAll('*').remove();return}
  const A=(await csLoad(e)).filter(f=>csIn(f.properties,e));if(e!==ES[i])return;csDefs();
  const F=A.filter(f=>f.geometry.type!=='Point'&&!f.properties.cz),Z=A.filter(f=>f.properties.cz&&f.geometry.type!=='Point'),P=A.filter(f=>f.geometry.type==='Point'&&f.properties.mk);
- gCs.classed('ia',ia).classed('ov',!ia);gCz.classed('ia',ia).classed('ov',!ia);
+ /* playback (QA 1fb) draws the full layer, neighbour fills, hatched disputed areas and markers, at every stop; only interaction (ia) differs */gCs.classed('ia',ia).classed('ov',false);gCz.classed('ia',ia).classed('ov',false);
  if(ia&&!A.length&&nb)nb.insertAdjacentHTML('beforeend',`<span class="csn" role="note">${esc(AR?'لا توجد حدود موثقة للدول المجاورة في هذه الحقبة بعد':'No sourced neighbouring-state shapes for this era yet.')}</span>`);
  gCs.selectAll('path.csc').data(F,csKey).join('path').attr('class','csc').attr('d',path);
  const a=gCs.selectAll('path.csa').data(F,csKey).join('path').attr('d',path)
@@ -930,7 +930,7 @@ function csCard(p){const bl=(p.bd||[]).map(x=>{const l=BL[x];return RPBK(x,{st:l
  const ul=x.querySelector('ul'),li=(c,t)=>ul.insertAdjacentHTML('beforeend',`<li role="listitem"><span class="${c}" aria-hidden="true"></span><span>${esc(t)}</span></li>`);
  if(F.some(f=>f.geometry.type!=='Point'&&f.properties.cz))li('sw swz',AR?'متنازع عليها مع السودان أو دولة أخرى':'Contested with Sudan or another state');
  if(F.some(f=>f.geometry.type==='Point'&&f.properties.mk))li('swm',AR?'منطقة متنازع عليها، الموقع فقط (بلا حدود مرسومة)':'Contested area, location only (no mapped extent)');p.appendChild(x)}}
-/* playback: the overview appears/disappears when the era tour starts or stops (touring class on <html>) */
+/* playback: the layer appears/disappears when the era tour starts or stops (touring class on <html>) */
 new MutationObserver(()=>{const t=document.documentElement.classList.contains('touring');if(t!==csDraw.t){csDraw.t=t;if(M.layers.cs&&!on.has('cs'))csDraw(ES[i]).then(()=>legendDraw(ES[i]))}}).observe(document.documentElement,{attributes:true,attributeFilter:['class']});
 // t224u: Layers button (top bar) opens one panel holding every layer toggle (#layers) and the legend (#lgp)
 (()=>{const UI=T.ui;if(!UI)return;const b=document.createElement('button');b.type='button';b.id='layb';b.className='chip tb';b.textContent=UI.lay;b.setAttribute('aria-label',NS(UI.lay)+' ('+NS(UI.layl)+')');b.setAttribute('aria-expanded','false');b.setAttribute('aria-controls','laypan');const eb=$('erab');eb?eb.after(b):$('top').prepend(b);
