@@ -9532,16 +9532,10 @@
     "dates_covered": "valid 2024-05-30 (HDX modified 2026-04-01)",
     "update_cadence": "ad hoc revisions",
     "affiliation_bias": "UN humanitarian; government-agreed lines",
-    "era_ids": [
-     "december-revolution-transition",
-     "post-coup-military-rule-2021-2023",
-     "war-in-sudan-saf-vs-rsf",
-     "republic-of-south-sudan",
-     "derg-federal-ethiopia"
-    ],
+    "era_ids": [],
     "verification": "downloaded and licence checked on HDX 2026-10-30",
     "accessed": "2026-10-30",
-    "note": "Neighbouring-state layer (data/concurrent_states), 2023– features (badge REPORTED). ",
+    "note": "Neighbouring-state layer (data/concurrent_states). Not cited by any feature since the CAR features were stopped at 2022 (GIS Digitiser 62b5895); era_ids emptied 2026-10-31. Kept registered for the licence audit.",
     "id": "EXT_HDX_CODAB_CAF"
    },
    "EXT_HDX_CODAB_ETH": {
@@ -11270,7 +11264,7 @@
    "dating_note": "Holt & Daly 6th ed. (2011) covers to c.2010; the 9 July 2011 secession is cited to UNSC1996.",
    "key_events_ar": [
     "انقلاب 30 يونيو 1989",
-    "حرب دارفور منذ 2003؛ مذكرات المحكمة الجنائية الدولية 2009 [يحتاج تحقق: يجب مواءمة النص العربي مع النص الإنجليزي المنقح] (UNSC_S2005_60 PDF p.29; UN_NEWS_2009_292942)",
+    "تصاعد نزاع دارفور منذ 2003؛ مذكرة توقيف من المحكمة الجنائية الدولية بحق الرئيس البشير، مارس 2009 (UNSC_S2005_60 PDF p.29; UN_NEWS_2009_292942)",
     "اتفاقية السلام الشامل 2005 (CPA_2005 cover letter p.1)",
     "انفصال جنوب السودان 9 يوليو 2011 (UNSC1996 p.1)"
    ],
