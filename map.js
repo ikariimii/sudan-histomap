@@ -2,6 +2,7 @@
 // and per-era files (/extents/<id>.json, /m/<id>.json). Nothing is invented; missing layers show 'Research in progress'.
 (function(){
 const M=window.MAP,Q=new URLSearchParams(location.search),L=/^\/ar\//.test(location.pathname)||Q.get('lang')==='ar'?'ar':'en',AR=L==='ar',T=M.t[L],ES=M.eras;
+/* IM 2026-10-31 option (c): concurrent/neighbouring-states layer on HOLD. One switch: false hides the Layers toggle and makes the layer unreachable from the UI, era playback and ?layers=cs deep links (the built cs/ files stay; set true to turn it back on). */const CS_ENABLED=false;if(!CS_ENABLED&&M.layers)delete M.layers.cs;
 /* t34: reduced motion is live: switching the OS setting mid-visit stops camera flights and tour auto-advance at once (tour shows its Next stop button) */const RMQ=matchMedia('(prefers-reduced-motion: reduce)');let RM=RMQ.matches,DUR=RM?0:650;RMQ.addEventListener&&RMQ.addEventListener('change',ev=>{RM=ev.matches;DUR=RM?0:650;try{if(RM&&TS!=='off'){clearTimeout(TT);TT=null}tcShow()}catch(_){}});
 const $=id=>document.getElementById(id),esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const num=n=>String(n);/* t34 AR-review 4: Western digits in Arabic too, matching the data */
@@ -21,6 +22,7 @@ $('skip').textContent=T.skip;$('map').setAttribute('aria-label',T.mapl);$('svg')
 $('grab').setAttribute('aria-label',T.sheet+' · '+T.sheetst.half);$('grab').setAttribute('aria-expanded','true');
 $('reset').title=T.reset;$('reset').setAttribute('aria-label',T.reset);$('within').querySelector('label').textContent=T.within;
 const LAY=['ctl','grp','rel','eth','pop','cty','hml','trd','evd','now'].concat(M.layers.bat?['bat']:[]).concat(M.layers.dis?['dis']:[]).concat(M.layers.egl?['egl']:[]).concat(M.layers.cs&&Object.keys(M.layers.cs).length?['cs']:[]).concat(['dem','heat']).concat(M.layers.pl?['lng','ppl','rlg']:[]),on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x==='trade'?'trd':x==='evidence'?'evd':x==='then-now'?'now':x==='battles'?'bat':x).filter(x=>LAY.includes(x)));
+if(!CS_ENABLED)on.delete('cs');
 LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=T.l[k]||(k==='bat'?(AR?'المعارك *':'Battles'):k==='dis'?(AR?'الأحداث والكوارث *':'Events & disasters'):k==='egl'?(AR?'المجموعات العرقية *':'Ethnic groups'):k==='cs'?(AR?'الدول المجاورة *':'Neighbouring states'):k==='dem'?(AR?'تظليل التضاريس *':'Hillshade'):k==='heat'?(AR?'كثافة المعارك *':'Battle density'):k);b.setAttribute('aria-pressed',on.has(k));b.dataset.k=k;if(k==='trd')b.setAttribute('aria-label',T.l.trd_aria);
  b.onclick=()=>{on.has(k)?on.delete(k):on.add(k);if(k==='dem'||k==='heat'){b.setAttribute('aria-pressed',on.has(k));url();tilesAll();heatDraw();legendDraw(ES[i]);return}if(k==='eth'&&on.has(k))eth1932();b.setAttribute('aria-pressed',on.has(k));url();if(k==='evd'){evdStyle();layerInfo(ES[i]);return}if(k==='now'){cmpDraw();return}render(false);if(k==='hml')hmlDraw()};$('layers').appendChild(b)});
 // 'How we know' strip: open the card's sources panel and move focus to it
