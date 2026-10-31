@@ -2,7 +2,7 @@
 // and per-era files (/extents/<id>.json, /m/<id>.json). Nothing is invented; missing layers show 'Research in progress'.
 (function(){
 const M=window.MAP,Q=new URLSearchParams(location.search),L=/^\/ar\//.test(location.pathname)||Q.get('lang')==='ar'?'ar':'en',AR=L==='ar',T=M.t[L],ES=M.eras;
-const RM=matchMedia('(prefers-reduced-motion: reduce)').matches,DUR=RM?0:650;
+/* t34: reduced motion is live: switching the OS setting mid-visit stops camera flights and tour auto-advance at once (tour shows its Next stop button) */const RMQ=matchMedia('(prefers-reduced-motion: reduce)');let RM=RMQ.matches,DUR=RM?0:650;RMQ.addEventListener&&RMQ.addEventListener('change',ev=>{RM=ev.matches;DUR=RM?0:650;try{if(RM&&TS!=='off'){clearTimeout(TT);TT=null}tcShow()}catch(_){}});
 const $=id=>document.getElementById(id),esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const num=n=>AR?String(n).replace(/\d/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]):String(n);
 const fy=y=>y>=2026?(AR?'اليوم':'present'):y<0?num(-y)+(AR?' ق.م':' BCE'):num(y)+(AR?' م':' CE');
