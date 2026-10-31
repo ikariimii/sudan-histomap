@@ -147,7 +147,8 @@
    ]
   },
   {
-   "date": -2500,
+   "date": null,
+   "date_note": "Not plotted: a description of the capital, not a dated event. KERMA_MISSION gives the city and necropolis span as c.2500–1500 BCE, before the era record's start (-2450).",
    "en": "Capital of the first kingdom of Sub-Saharan Africa; city and necropolis span c.2500–1500 BCE (KERMA_MISSION 'History')",
    "ar": "عاصمة أول مملكة في أفريقيا جنوب الصحراء؛ تمتد المدينة والجبانة نحو 2500–1500 ق.م (KERMA_MISSION 'History') [يحتاج تحقق]",
    "cite": {
@@ -455,7 +456,8 @@
    }
   },
   {
-   "date": 1909,
+   "date": null,
+   "date_note": "Not plotted: 1909 is the year Griffith 'found the key to transliteration' (GHA II p.289), not a Meroitic-period date (era -270 to 350).",
    "en": "Iron working at Meroe; Meroitic script transliterated by Griffith 1909, language still not understood",
    "ar": "صناعة الحديد في مروي؛ نقحرة الخط المروي على يد غريفيث عام 1909، ولا تزال اللغة غير مفهومة [يحتاج تحقق]",
    "cite": {
@@ -987,7 +989,9 @@
  ],
  "turkiyya-ottoman-egyptian-rule": [
   {
-   "date": 1820,
+   "date": 1821,
+   "approx": true,
+   "date_note": "GHA VI p.356: Sennar 'capitulated to the Turkish rulers in 1821'; p.372 dates 'the Turkish conquest of the country in 1820-21'. Plotted at 1821, the era start, not 1820.",
    "en": "Invasion by Muhammad Ali's forces 1820–21",
    "ar": "غزو قوات محمد علي 1820–1821",
    "cite": {
@@ -1113,7 +1117,8 @@
  ],
  "mahdist-state-mahdiyya": [
   {
-   "date": 1881,
+   "date": null,
+   "date_note": "Not plotted in this era: the 1881 declaration (GHA VII p.74) belongs to the Mahdist uprising (1881–5); the Mahdist state era starts 1885.",
    "en": "Muhammad Ahmad declares his Mahdiship openly, beginning the armed struggle of 1881–5 with the government (GHA7_CH4 p.74)",
    "ar": "محمد أحمد يعلن مهديته جهراً، فيبدأ الصراع المسلح مع الحكومة في 1881–1885 (GHA7_CH4 p.74) [يحتاج تحقق]",
    "cite": {

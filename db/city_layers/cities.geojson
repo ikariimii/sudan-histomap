@@ -604,11 +604,11 @@
      {
       "era_id": "kingdom-of-kush-meroitic-period",
       "role": "capital",
-      "start": -300,
+      "start": null,
       "end": null,
       "source_id": "GHA2_CH11",
       "page": "301",
-      "note": "capital moved to Meroe \"around -300, after the reign of Nastasen\"; end not stated"
+      "note": "capital moved to Meroe \"around -300, after the reign of Nastasen\", before this era record's start (-270); role shown from the era start; end not stated"
      }
     ],
     "badges": [
@@ -898,7 +898,7 @@
     "name_ar": "بوهين",
     "wikidata": "Q1002656",
     "category": "ancient",
-    "visible_from": -2055,
+    "visible_from": -2563,
     "visible_from_basis": "first_attested",
     "visible_to": -1319,
     "inhabited_today": false,
@@ -973,11 +973,11 @@
       "page": "Q1002656"
      }
     ],
-    "map_from": -2055,
+    "map_from": -2563,
     "visible_to_basis": "last_attested",
     "card_notes": [
      {
-      "en": "first attested (2055 BCE, GHA2_CH9 266)",
+      "en": "first attested (2563 BCE, GHA2_CH9 250)",
       "ar": null
      },
      {
@@ -1588,19 +1588,11 @@
      {
       "era_id": "kingdom-of-aksum",
       "role": "port",
-      "start": 75,
+      "start": null,
       "end": null,
       "source_id": "GHA2",
       "page": "343",
-      "note": "Pliny (c.+75) calls it an important port"
-     },
-     {
-      "era_id": "land-of-punt-d-mt",
-      "role": "port",
-      "start": null,
-      "end": null,
-      "source_id": "GHA2_CH13",
-      "page": "343"
+      "note": "Pliny (c.+75) calls it an important port; that mention is earlier than this era record's start (+100), so the role is shown from the era start"
      }
     ],
     "badges": [
@@ -2522,8 +2514,8 @@
     "name_ar": "الخرطوم",
     "wikidata": "Q1963",
     "category": "modern",
-    "visible_from": 1899,
-    "visible_from_basis": "first_attested",
+    "visible_from": 1822,
+    "visible_from_basis": "founded",
     "visible_to": null,
     "inhabited_today": true,
     "roles": [
@@ -2587,11 +2579,17 @@
       "note": "UN News: \"armed fighting in the Sudanese capital, Khartoum\""
      }
     ],
-    "badges": [],
+    "badges": [
+     "CONTESTED"
+    ],
     "history_en": "Capital at the confluence of the Niles.",
     "history_ar": "العاصمة عند ملتقى النيلين.",
     "history_source": null,
     "source_ids": [
+     {
+      "id": "EB1911_KHARTUM",
+      "page": "773"
+     },
      {
       "id": "GHA6_CH14",
       "page": "363"
@@ -2625,13 +2623,7 @@
       "page": "Q1963"
      }
     ],
-    "map_from": 1899,
-    "card_notes": [
-     {
-      "en": "first attested (1899 CE, GHAVII 81)",
-      "ar": null
-     }
-    ]
+    "map_from": 1822
    }
   },
   {
@@ -3049,11 +3041,11 @@
      {
       "era_id": "eritrea-italian-colony-independent",
       "role": "capital",
-      "start": 1889,
+      "start": null,
       "end": null,
       "source_id": "GHA7_CH11",
       "page": "268",
-      "note": "capital of the Italian colony by end of 1889"
+      "note": "capital of the Italian colony by end of 1889, before this era record's start (1890); role shown from the era start"
      }
     ],
     "badges": [],
