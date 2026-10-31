@@ -251,7 +251,7 @@ html[dir=rtl] #wtl .wtm .wbg{left:auto;right:-3px}
 #lgp .wlg button.wtg:hover{border-color:rgba(255,213,74,.5)}
 #lgp .wlg button.wtg:focus-visible{outline:2px solid #ffd54a;outline-offset:1px}
 #lgp .wlg button.wtg[aria-pressed=true]{border-color:#ffd54a;background:rgba(255,213,74,.12)}
-g.bt.wact{transform-box:fill-box}g.bt.wact .bth{stroke:#ffd54a;stroke-width:3}
+g.bt.wact{transform-box:fill-box}.bts g.bt .bthc{display:none;fill:none}.bts g.bt.wact .bthc{display:inline;stroke:#0b141b;stroke-width:7;filter:drop-shadow(0 0 1px #fff)}.bts g.bt.past .bthc{display:none}.bts g.bt.wact circle.bth{stroke:var(--wc,#ffd54a);stroke-width:3}/* release audit P1-2 + Map Designer ad7f878 (war_marker_style active): the active war's ring is drawn in the war's legend colour (--wc from lg/markers.json, set on g.bt at draw and by wAct()), cased #0b141b with a 1px white edge (war_halo); hover/focus stay amber. Selector must outrank .bts g.bt circle.bth (--bt-hov) */
 g.bt.woff,#wtl .wsp.woff,#wtl .wtm.woff{display:none}/* QA t28 2d: per-war visibility toggle (IM ruling) *//* QA tde fix 2: an active war legend toggle hides other wars' pins and spans */
 /* Languages / People / Religions layers */
 .pl .pli{fill:#14202bd9;stroke:#e8d9a8;stroke-width:1.5}.pl .ppl .pli{stroke:#8cc8f0}.pl .rlg .pli{stroke:#c9a0f0}

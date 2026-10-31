@@ -582,7 +582,7 @@ async function batDraw(e){if(!M.layers.bat)return;gBt=gBt||root.append('g').attr
  btList(B,C);bzDefs();const k=gBt.selectAll('g.bt').data(B.filter(b=>b.ll||b.hz),b=>b.id);k.exit().remove();
  const n=k.enter().append('g').each(function(b){const p=b.ll||b.hz.ll;this.__xy=proj(p);if(b.hz){const q=proj([p[0],p[1]+b.hz.r/111.32]);this.__rk=Math.hypot(q[0]-this.__xy[0],q[1]-this.__xy[1])}}).on('click',function(ev,b){ev.stopPropagation();SELB=b.id;gBt.selectAll('g.bt').classed('cur',x=>x.id===SELB).classed('past',x=>x.id!==SELB);batCard(b);btFly(this)});
  const z=n.filter(b=>!!b.hz);z.append('circle').attr('class','bthz').attr('fill','url(#bzh)');
- n.append('circle').attr('class','bthit').attr('r',14);n.append('circle').attr('class','bth').attr('r',12);n.filter(b=>!b.hz).append('circle').attr('class','bhl').attr('r',bhR());n.filter(b=>!b.hz).append('circle').attr('class','btc').attr('r',8);n.filter(b=>!b.hz).append('path').attr('d','M-4,-4L4,4M4,-4L-4,4');z.append('g').attr('class','bzg').attr('transform','translate(-12,-12)').html('<path d="M6 6 L17 17 M18 6 L7 17" stroke-width="2"/><path d="M14.2 19.4 L19.4 14.2 M9.8 19.4 L4.6 14.2" stroke-width="2.2"/><path d="M17.6 17.6 L19.8 19.8 M6.4 17.6 L4.2 19.8" stroke-width="2.6"/>');n.append('title');
+ n.style('--wc',b=>b.w?wSt(b.w).c:null);n.append('circle').attr('class','bthit').attr('r',14);n.append('circle').attr('class','bthc').attr('r',12);n.append('circle').attr('class','bth').attr('r',12);n.filter(b=>!b.hz).append('circle').attr('class','bhl').attr('r',bhR());n.filter(b=>!b.hz).append('circle').attr('class','btc').attr('r',8);n.filter(b=>!b.hz).append('path').attr('d','M-4,-4L4,4M4,-4L-4,4');z.append('g').attr('class','bzg').attr('transform','translate(-12,-12)').html('<path d="M6 6 L17 17 M18 6 L7 17" stroke-width="2"/><path d="M14.2 19.4 L19.4 14.2 M9.8 19.4 L4.6 14.2" stroke-width="2.2"/><path d="M17.6 17.6 L19.8 19.8 M6.4 17.6 L4.2 19.8" stroke-width="2.6"/>');n.append('title');
  n.merge(k).attr('class',b=>'bt mk pr-'+(b.hz?'zone':b.pr)+(C.has(b.id)?' cur':' past')).select('title').text(b=>stj(bpick([b.en,b.ar]),b.hz&&BT.zone,C.has(b.id)?BT.cur:BT.past));scaleMarks();a11yMarks()}
 // QA t35 P1-5: clicking a pin pans the map to it (zoom kept); instant under prefers-reduced-motion (DUR=0); on phones the pin sits above the card sheet
 const btFly=n=>{if(!n||!n.__xy)return;const r=svg.node().getBoundingClientRect(),py=desk()?r.height/2:r.height*.3;svg.transition().duration(DUR).call(zoom.translateTo,n.__xy[0],n.__xy[1],[r.width/2,py])};
@@ -713,7 +713,7 @@ addEventListener('keydown',ev=>{if(ev.key!=='Escape')return;const p=$('wtp');if(
 /* IM ruling (QA t28 2d): each war legend toggle is a per-war visibility switch; every war on by default (aria-pressed=true); off hides that war's
  timeline lines/markers and its battle pins together (.woff); pins with no war always stay. ?war still only deep-links (wtGo/wEra), it no longer dims other wars. */
 var WOFF=new Set();
-function wAct(){document.querySelectorAll('#lgp button.wtg').forEach(b=>b.setAttribute('aria-pressed',String(!(b.dataset.w&&WOFF.has(b.dataset.w)))));if(gBt)gBt.selectAll('g.bt').classed('wact',b=>!!WARQ&&!!b&&!!b.w&&b.w.id===WARQ).classed('wdim',false).classed('woff',b=>!!b&&!!b.w&&WOFF.has(b.w.id));document.querySelectorAll('#wtl .wsp,#wtl .wtm').forEach(t=>{t.classList.remove('wdim');t.classList.toggle('woff',!!t.dataset.w&&WOFF.has(t.dataset.w))})}
+function wAct(){document.querySelectorAll('#lgp button.wtg').forEach(b=>b.setAttribute('aria-pressed',String(!(b.dataset.w&&WOFF.has(b.dataset.w)))));if(gBt)gBt.selectAll('g.bt').classed('wact',b=>!!WARQ&&!!b&&!!b.w&&b.w.id===WARQ).classed('wdim',false).classed('woff',b=>!!b&&!!b.w&&WOFF.has(b.w.id)).style('--wc',b=>b&&b.w?wSt(b.w).c:null);document.querySelectorAll('#wtl .wsp,#wtl .wtm').forEach(t=>{t.classList.remove('wdim');t.classList.toggle('woff',!!t.dataset.w&&WOFF.has(t.dataset.w))})}
 document.addEventListener('click',ev=>{const t=ev.target.closest&&ev.target.closest('#lgp button.wtg');if(!t||!t.dataset.w)return;WOFF.has(t.dataset.w)?WOFF.delete(t.dataset.w):WOFF.add(t.dataset.w);wAct()});
 const warLink=async()=>{if(!WARQ)return;if(!BTD)BTD=await getj('/b.json').catch(()=>({battles:[]}));const W=BTD.battles.filter(b=>b.w&&b.w.id===WARQ&&b.a!=null).sort((x,z)=>x.a-z.a);if(!W.length){WARQ=null;url();return}if(!Q.get('era')){const k=wEra(W[0].w);if(k>=0&&k!==i){i=k;Y=null}}const e=ES[i],b=W.find(b=>e.a<=b.a&&b.a<=e.b)||W[0];await wtGo(b)};
 /* Culture layers (Web Lead 2026-10-26; style db/markers/culture_layer_style.json via /lg/markers.json 'culture').
@@ -838,7 +838,7 @@ const csT=AR?'الدول المجاورة والمعاصرة *':'Neighbouring st
 {const st=document.createElement('style');st.textContent=`g.cs{pointer-events:none}g.cs.ia path.csa{pointer-events:visiblePainted;cursor:pointer}
 g.cs path.csc{fill:none;stroke:#fbf8f2;stroke-opacity:.9;stroke-width:2.2px;vector-effect:non-scaling-stroke}
 g.cs path.csa{fill:#7d8790;fill-opacity:.06;stroke:#38424b;stroke-width:1px;stroke-dasharray:5 3;stroke-linejoin:round;vector-effect:non-scaling-stroke}
-g.cs path.csa.ap{fill-opacity:.03;stroke-dasharray:2 3}g.cs path.csa.tr{stroke-dasharray:1 3}g.cs path.csa.ct{fill:none;stroke:#e0a63e;stroke-dasharray:6 4}
+g.cs path.csa.ap{fill-opacity:.03;stroke-dasharray:2 3}g.cs path.csa.tr{stroke-dasharray:1 3}
 g.cs.ov path.csa{fill:none}g.cs.ia path.csa:hover{stroke-width:1.6px;fill-opacity:.12}g.cs path.csa:focus{outline:none}g.cs path.csa:focus-visible{stroke:#0b141b;stroke-width:2px}
 g.cs text{font:italic 400 10px system-ui,-apple-system,'Segoe UI',sans-serif;letter-spacing:.02em;fill:#d5dade;stroke:#0b141c;stroke-width:2.5px;paint-order:stroke;stroke-linejoin:round;pointer-events:none}
 html[dir=rtl] g.cs text{font:400 11px Naskh,'Noto Naskh Arabic',Tahoma,sans-serif;letter-spacing:0}
@@ -856,9 +856,10 @@ g.csm text{font:600 10px system-ui,-apple-system,'Segoe UI',sans-serif;fill:#f4e
 async function csLoad(e){if(!csHas(e))return[];if(!CSJ[e.id])CSJ[e.id]=getj(`/cs/${e.id}.json`).then(j=>((j&&j.features)||[]).map(rw)).catch(()=>[]);return CSJ[e.id]}
 const csIn=(p,e)=>TS==='play'?(p.a<=e.b&&p.b>=e.a):act({start:p.a,end:p.b},e,Y);
 const csNm=(p,sh)=>{const n=AR?(sh&&p.nsa)||p.na:(sh&&p.ns)||p.n;return n||(sh&&p.ns)||p.n};
-/* CONTESTED (style layer.contested_marker / zone_contested): overlap pieces (cz, split at build from sourced shapes) and Point markers (mk)
-   go in gCz above Sudan's extents and contested zones, below cities; a CONTESTED shape the build could not split (no ct property) stays unfilled (.ct); ct 'z'/'n' keep the neighbour style. */
-let gCz=null;const csSh=p=>!!(p.cw&&p.cw.length||(p.bd||[]).includes('CONTESTED'));
+/* CONTESTED (style layer.contested_marker / zone_contested; IM + Map Designer ruling 2026-10-31): only disputed-area features are hatched.
+   The build marks them cz (polygon, drawn whole in gCz above Sudan's extents and contested zones, below cities) or mk (Point marker).
+   A whole national shape is never hatched or clipped as disputed: it is drawn in the neighbour style whatever its badge (tools/cs_kind.py). */
+let gCz=null;const csSh=p=>!!(p.cz||p.mk);
 function csDefs(){zdefs();if(document.getElementById('csmh'))return;svg.select('defs').each(function(){this.insertAdjacentHTML('beforeend','<pattern id="csmh" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="3" stroke="#0b141c" stroke-width=".8"/></pattern>')})}
 const csKey=f=>f.properties.id||f.properties.n;
 function csBind(sel,ia){if(ia)sel.attr('role','button').attr('tabindex',0).attr('aria-label',f=>{const p=f.properties;return `${csNm(p)} (${fy(p.a)} – ${fy(p.b)})`+(csSh(p)?(AR?' – متنازع عليها':' – contested'):'')}).on('click',(ev,f)=>{ev.stopPropagation();csCard(f.properties)}).on('keydown',(ev,f)=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();csCard(f.properties)}});
@@ -872,7 +873,7 @@ async function csDraw(e){const ov=TS==='play',ia=on.has('cs');if(!gCs)gCs=root.i
  if(ia&&!A.length&&nb)nb.insertAdjacentHTML('beforeend',`<span class="csn" role="note">${esc(AR?'لا توجد حدود موثقة للدول المجاورة في هذه الحقبة بعد *':'No sourced neighbouring-state shapes for this era yet.')}</span>`);
  gCs.selectAll('path.csc').data(F,csKey).join('path').attr('class','csc').attr('d',path);
  const a=gCs.selectAll('path.csa').data(F,csKey).join('path').attr('d',path)
-  .attr('class',f=>{const p=f.properties,b=p.bd||[];return 'csa'+((b.includes('APPROXIMATE')||p.cf==='low')?' ap':'')+(b.includes('TRADITION')?' tr':'')+(csSh(p)&&!p.ct?' ct':'')});
+  .attr('class',f=>{const p=f.properties,b=p.bd||[];return 'csa'+((b.includes('APPROXIMATE')||p.cf==='low')?' ap':'')+(b.includes('TRADITION')?' tr':'')});
  csBind(a,ia);
  csBind(gCz.selectAll('path.czo').data(Z,csKey).join('path').attr('class','czo').attr('d',path),ia);
  /* markers: diamond 14px (16px at <=360), 44px tap target, casing + amber fill + dark hatch + ring; label to the right (left in AR), hidden on phones */
@@ -906,7 +907,7 @@ function csCard(p){const bl=(p.bd||[]).map(x=>{const l=BL[x];return RPBK(x,{st:l
 {const l1=legendDraw;legendDraw=async e=>{await l1(e);const p=$('lgp');if(!p)return;p.querySelectorAll('.lgcs').forEach(n=>n.remove());if(!M.layers.cs||!(on.has('cs')||TS==='play')||e!==ES[i])return;const F=(await csLoad(e)).filter(f=>csIn(f.properties,e));if(!F.length||e!==ES[i])return;
  const x=document.createElement('div');x.className='lgcs';x.innerHTML=`<h4>${esc(AR?'الدول المجاورة والمعاصرة *':'Neighbouring and concurrent states')}</h4><ul><li role="listitem"><span class="sw" aria-hidden="true"></span><span>${esc(AR?'دولة مجاورة أو معاصرة (حدود موثقة) *':'Neighbouring or concurrent state (cited extent)')}</span></li></ul><p>${esc(AR?'مرسومة بلون أخف لإبراز حدود السودان نفسه. الحدود تقريبية. *':"Drawn lighter so Sudan's own extents stand out. Borders are approximate.")}</p>`;
  const ul=x.querySelector('ul'),li=(c,t)=>ul.insertAdjacentHTML('beforeend',`<li role="listitem"><span class="${c}" aria-hidden="true"></span><span>${esc(t)}</span></li>`);
- if(F.some(f=>f.geometry.type!=='Point'&&csSh(f.properties)))li('sw swz',AR?'متنازع عليها مع السودان أو دولة أخرى *':'Contested with Sudan or another state');
+ if(F.some(f=>f.geometry.type!=='Point'&&f.properties.cz))li('sw swz',AR?'متنازع عليها مع السودان أو دولة أخرى *':'Contested with Sudan or another state');
  if(F.some(f=>f.geometry.type==='Point'&&f.properties.mk))li('swm',AR?'منطقة متنازع عليها، الموقع فقط (بلا حدود مرسومة) *':'Contested area, location only (no mapped extent)');p.appendChild(x)}}
 /* playback: the overview appears/disappears when the era tour starts or stops (touring class on <html>) */
 new MutationObserver(()=>{const t=document.documentElement.classList.contains('touring');if(t!==csDraw.t){csDraw.t=t;if(M.layers.cs&&!on.has('cs'))csDraw(ES[i]).then(()=>legendDraw(ES[i]))}}).observe(document.documentElement,{attributes:true,attributeFilter:['class']});
