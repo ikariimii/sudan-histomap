@@ -20,8 +20,8 @@ $('lang').href=(AR?'/':'/ar/')+(lq.toString()?'?'+lq:'');$('prev').setAttribute(
 $('skip').textContent=T.skip;$('map').setAttribute('aria-label',T.mapl);$('svg').setAttribute('aria-label',T.mapl+'. '+T.featl);$('svgt').textContent=T.mapl;$('layers').setAttribute('aria-label',T.layersl);
 $('grab').setAttribute('aria-label',T.sheet+' · '+T.sheetst.half);$('grab').setAttribute('aria-expanded','true');
 $('reset').title=T.reset;$('reset').setAttribute('aria-label',T.reset);$('within').querySelector('label').textContent=T.within;
-const LAY=['ctl','grp','rel','eth','pop','cty','hml','trd','evd','now'].concat(M.layers.bat?['bat']:[]).concat(M.layers.dis?['dis']:[]).concat(M.layers.egl?['egl']:[]).concat(['dem','heat']).concat(M.layers.pl?['lng','ppl','rlg']:[]),on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x==='trade'?'trd':x==='evidence'?'evd':x==='then-now'?'now':x==='battles'?'bat':x).filter(x=>LAY.includes(x)));
-LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=T.l[k]||(k==='bat'?(AR?'المعارك *':'Battles'):k==='dis'?(AR?'الأحداث والكوارث *':'Events & disasters'):k==='egl'?(AR?'المجموعات العرقية *':'Ethnic groups'):k==='dem'?(AR?'تظليل التضاريس *':'Hillshade'):k==='heat'?(AR?'كثافة المعارك *':'Battle density'):k);b.setAttribute('aria-pressed',on.has(k));b.dataset.k=k;if(k==='trd')b.setAttribute('aria-label',T.l.trd_aria);
+const LAY=['ctl','grp','rel','eth','pop','cty','hml','trd','evd','now'].concat(M.layers.bat?['bat']:[]).concat(M.layers.dis?['dis']:[]).concat(M.layers.egl?['egl']:[]).concat(M.layers.cs&&Object.keys(M.layers.cs).length?['cs']:[]).concat(['dem','heat']).concat(M.layers.pl?['lng','ppl','rlg']:[]),on=new Set((Q.get('layers')||'ctl').split(',').map(x=>x==='cities'?'cty':x==='homelands'?'hml':x==='trade'?'trd':x==='evidence'?'evd':x==='then-now'?'now':x==='battles'?'bat':x).filter(x=>LAY.includes(x)));
+LAY.forEach(k=>{const b=document.createElement('button');b.className='chip';b.type='button';b.textContent=T.l[k]||(k==='bat'?(AR?'المعارك *':'Battles'):k==='dis'?(AR?'الأحداث والكوارث *':'Events & disasters'):k==='egl'?(AR?'المجموعات العرقية *':'Ethnic groups'):k==='cs'?(AR?'الدول المجاورة *':'Neighbouring states'):k==='dem'?(AR?'تظليل التضاريس *':'Hillshade'):k==='heat'?(AR?'كثافة المعارك *':'Battle density'):k);b.setAttribute('aria-pressed',on.has(k));b.dataset.k=k;if(k==='trd')b.setAttribute('aria-label',T.l.trd_aria);
  b.onclick=()=>{on.has(k)?on.delete(k):on.add(k);if(k==='dem'||k==='heat'){b.setAttribute('aria-pressed',on.has(k));url();tilesAll();heatDraw();legendDraw(ES[i]);return}if(k==='eth'&&on.has(k))eth1932();b.setAttribute('aria-pressed',on.has(k));url();if(k==='evd'){evdStyle();layerInfo(ES[i]);return}if(k==='now'){cmpDraw();return}render(false);if(k==='hml')hmlDraw()};$('layers').appendChild(b)});
 // 'How we know' strip: open the card's sources panel and move focus to it
 document.addEventListener('click',ev=>{const a=ev.target.closest&&ev.target.closest('a.hwkl');if(!a)return;const d=document.getElementById('msrcp');if(!d)return;ev.preventDefault();d.open=true;const s=d.querySelector('summary');s.scrollIntoView({block:'nearest',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});s.focus({preventScroll:true})});
@@ -829,6 +829,57 @@ h+=`<h4>${esc(AR?'المصادر':'Sources')}</h4><ul>`+d.s.map(c=>`<li>${c.u?`<
 p.innerHTML=h;p.hidden=false;p.querySelector('.x').onclick=()=>{p.hidden=true}}
 {const b1=batDraw;batDraw=async e=>{await b1(e);await eglDraw(e)}}
 {const l1=legendDraw;legendDraw=async e=>{await l1(e);const p=$('lgp');if(!p||!on.has('egl')||!M.layers.egl||e!==ES[i])return;const J=await eglLoad();if(!J.items.some(d=>eglIn(d,e))||e!==ES[i])return;const x=document.createElement('div');x.className='lgeg';x.innerHTML=`<h4>${esc(AR?'المجموعات العرقية *':'Ethnic groups')}</h4><ul><li role="listitem"><svg width="26" height="26" viewBox="-13 -13 26 26" aria-hidden="true" class="egl"><g class="eg"><circle class="egh" r="8"/><circle class="ego" r="6"/><circle class="egi" r="4.75"/></g></svg><span>${esc(AR?'موضع حضور مُوثَّق (ليس حدوداً) *':'Attested presence (not a border)')}</span></li></ul>`;p.querySelectorAll('.lgeg').forEach(n=>n.remove());p.appendChild(x)}}
+/* t36 concurrent / neighbouring states (Map Designer style db/concurrent_states_style.json): sourced shapes only, from /cs/<era>.json (built from data/concurrent_states).
+   Drawn below every Sudan extent in one neutral slate (no per-polity hue). Toggle 'cs'; during era playback an outline-only overview is drawn even when the toggle is off. */
+let gCs=null;const CSJ={},csHas=e=>!!(M.layers.cs&&M.layers.cs[e.id]);
+const csT=AR?'الدول المجاورة والمعاصرة *':'Neighbouring states';
+{const st=document.createElement('style');st.textContent=`g.cs{pointer-events:none}g.cs.ia path.csa{pointer-events:visiblePainted;cursor:pointer}
+g.cs path.csc{fill:none;stroke:#fbf8f2;stroke-opacity:.9;stroke-width:2.2px;vector-effect:non-scaling-stroke}
+g.cs path.csa{fill:#7d8790;fill-opacity:.06;stroke:#38424b;stroke-width:1px;stroke-dasharray:5 3;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+g.cs path.csa.ap{fill-opacity:.03;stroke-dasharray:2 3}g.cs path.csa.tr{stroke-dasharray:1 3}g.cs path.csa.ct{fill:none;stroke:#e0a63e;stroke-dasharray:6 4}
+g.cs.ov path.csa{fill:none}g.cs.ia path.csa:hover{stroke-width:1.6px;fill-opacity:.12}g.cs path.csa:focus{outline:none}g.cs path.csa:focus-visible{stroke:#0b141b;stroke-width:2px}
+g.cs text{font:italic 400 10px system-ui,-apple-system,'Segoe UI',sans-serif;letter-spacing:.02em;fill:#d5dade;stroke:#0b141c;stroke-width:2.5px;paint-order:stroke;stroke-linejoin:round;pointer-events:none}
+html[dir=rtl] g.cs text{font:400 11px Naskh,'Noto Naskh Arabic',Tahoma,sans-serif;letter-spacing:0}
+@media (min-width:768px){g.cs text{font-size:11px}html[dir=rtl] g.cs text{font-size:12px}}
+#nob .csn{display:inline-block;font-size:12px;opacity:.9}
+.lgcs .sw{display:inline-block;width:24px;height:14px;border-radius:2px;vertical-align:middle;margin-inline-end:6px;background:rgba(125,135,144,.06);border:1px dashed #38424b;box-shadow:0 0 0 1px rgba(251,248,242,.9)}
+.lgcs p{font-size:12px;margin:.2em 0 0}`;document.head.appendChild(st)}
+async function csLoad(e){if(!csHas(e))return[];if(!CSJ[e.id])CSJ[e.id]=getj(`/cs/${e.id}.json`).then(j=>((j&&j.features)||[]).map(rw)).catch(()=>[]);return CSJ[e.id]}
+const csIn=(p,e)=>TS==='play'?(p.a<=e.b&&p.b>=e.a):act({start:p.a,end:p.b},e,Y);
+const csNm=(p,sh)=>{const n=AR?(sh&&p.nsa)||p.na:(sh&&p.ns)||p.n;return n||(sh&&p.ns)||p.n};
+async function csDraw(e){const ov=TS==='play',ia=on.has('cs');if(!gCs)gCs=root.insert('g',()=>gX.node()).attr('class','cs');
+ const nb=$('nob');if(nb)nb.querySelectorAll('.csn').forEach(n=>n.remove());
+ if(!M.layers.cs||!(ia||ov)){gCs.selectAll('*').remove();return}
+ const F=(await csLoad(e)).filter(f=>csIn(f.properties,e));if(e!==ES[i])return;
+ gCs.classed('ia',ia).classed('ov',!ia);
+ if(ia&&!F.length&&nb)nb.insertAdjacentHTML('beforeend',`<span class="csn" role="note">${esc(AR?'لا توجد حدود موثقة للدول المجاورة في هذه الحقبة بعد *':'No sourced neighbouring-state shapes for this era yet.')}</span>`);
+ const sh=p=>p.cw&&p.cw.length||(p.bd||[]).includes('CONTESTED');
+ gCs.selectAll('path.csc').data(F,f=>f.properties.id||f.properties.n).join('path').attr('class','csc').attr('d',path);
+ const a=gCs.selectAll('path.csa').data(F,f=>f.properties.id||f.properties.n).join('path').attr('d',path)
+  .attr('class',f=>{const p=f.properties,b=p.bd||[];return 'csa'+((b.includes('APPROXIMATE')||p.cf==='low')?' ap':'')+(b.includes('TRADITION')?' tr':'')+(sh(p)?' ct':'')});
+ if(ia)a.attr('role','button').attr('tabindex',0).attr('aria-label',f=>`${csNm(f.properties)} (${fy(f.properties.a)} – ${fy(f.properties.b)})`).on('click',(ev,f)=>{ev.stopPropagation();csCard(f.properties)}).on('keydown',(ev,f)=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();csCard(f.properties)}});
+ else a.attr('role',null).attr('tabindex',null).attr('aria-label',null).on('click',null).on('keydown',null);
+ /* labels: lowest priority; largest projected area first, capped (3 on phones, 8 wider); hidden when the shape is tiny */
+ const ph=innerWidth<600,mx=ph?3:8,mn=ph?1800:1200,L=F.map(f=>{let best=f;if(f.geometry.type==='MultiPolygon'){let A=-1;f.geometry.coordinates.forEach(c=>{const g={type:'Feature',geometry:{type:'Polygon',coordinates:c}},s=path.area(g);if(s>A){A=s;best=g}})}return{f,A:path.area(f)*K*K,c:path.centroid(best)}}).filter(o=>o.A>=mn&&isFinite(o.c[0])).sort((x,y)=>y.A-x.A).slice(0,mx);
+ gCs.selectAll('g.csl').data(L,o=>o.f.properties.id||o.f.properties.n).join(n=>{const g=n.append('g').attr('class','csl mk').attr('aria-hidden','true');g.append('text').attr('text-anchor','middle').attr('dy','.35em');return g})
+  .each(function(o){this.__xy=o.c;const p=o.f.properties,b=p.bd||[];d3.select(this).select('text').attr('lang',AR&&!p.na&&!p.nsa?'en':null).text(csNm(p,ph)+(b.includes('SINGLE-SOURCE')?'¹':'')+(b.includes('EDITORIAL')?' ed.':'')+(b.includes('VERIFY')?' ?':''))}).attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`});
+ gCs.node().parentNode.insertBefore(gCs.node(),gX.node())}
+function csCard(p){const bl=(p.bd||[]).map(x=>{const l=BL[x];return RPBK(x,{st:l?'border-color:'+l[2]:''})}).join(' '),q=$('feat'),nm=AR?p.na:p.n,nt=AR?p.nta:p.nt;
+ const rel=p.rel?{neighbour:['Neighbour','دولة مجاورة *'],concurrent:['Concurrent state','دولة معاصرة *'],suzerain:['Suzerain','دولة ذات سيادة عليا *'],tributary:['Tributary','دولة تابعة *']}[p.rel]:null,cf={high:['high','عالية *'],medium:['medium','متوسطة *'],low:['low','منخفضة *']}[p.cf];
+ let h=`<button class="x" aria-label="${esc(T.close||'Close')}">×</button><h3>${nm?`<bdi>${esc(nm)}</bdi>`:`<bdi lang="en">${esc(p.n)}</bdi>`}${AR&&(p.va||!p.na)?vchipH():''}</h3>`
+  +`<p class="sub">${esc(csT)} · <bdi>${fy(p.a)}</bdi> – <bdi>${fy(p.b)}</bdi>${rel?' · '+esc(rel[AR?1:0]):''}</p>`+(bl?`<p>${bl}</p>`:'')
+  +(nt?`<p>${esc(nt)}${AR&&p.va&&p.nta?vchipH():''}</p>`:(AR&&p.nt?`<p><bdi lang="en">${esc(p.nt)}</bdi>${vchipH()}</p>`:''))
+  +(cf?`<p class="sub">${esc(AR?'درجة الثقة *':'Confidence')}: ${esc(cf[AR?1:0])}</p>`:'')
+  +(p.cw&&p.cw.length?`<p class="sub">${esc(AR?'متنازع عليها مع *':'Contested with')}: <bdi lang="en">${p.cw.map(esc).join(', ')}</bdi></p>`:'')
+  +`<h4>${esc(AR?'المصادر':'Sources')}</h4><p class="extnote"><bdi dir="ltr"><a href="${esc(p.su)}" rel="noopener" target="_blank">${esc(p.st)}</a>${p.pg?', '+esc(p.pg):''}</bdi></p>`
+  +(p.s||[]).map(c=>`<p class="extnote"><bdi dir="ltr">${c.u?`<a href="${esc(c.u)}" rel="noopener" target="_blank">${esc(c.c)}</a>`:esc(c.c)}</bdi></p>`).join('')
+  +(p.gs||p.lic?`<p class="extnote"><bdi dir="ltr">${[p.gs,p.lic].filter(Boolean).map(esc).join(' · ')}</bdi></p>`:'');
+ q.innerHTML=h;q.hidden=false;q.querySelector('.x').onclick=()=>{q.hidden=true}}
+{const b1=batDraw;batDraw=async e=>{await b1(e);await csDraw(e)}}
+{const l1=legendDraw;legendDraw=async e=>{await l1(e);const p=$('lgp');if(!p)return;p.querySelectorAll('.lgcs').forEach(n=>n.remove());if(!M.layers.cs||!(on.has('cs')||TS==='play')||e!==ES[i])return;const F=(await csLoad(e)).filter(f=>csIn(f.properties,e));if(!F.length||e!==ES[i])return;
+ const x=document.createElement('div');x.className='lgcs';x.innerHTML=`<h4>${esc(AR?'الدول المجاورة والمعاصرة *':'Neighbouring and concurrent states')}</h4><ul><li role="listitem"><span class="sw" aria-hidden="true"></span><span>${esc(AR?'دولة مجاورة أو معاصرة (حدود موثقة) *':'Neighbouring or concurrent state (cited extent)')}</span></li></ul><p>${esc(AR?'مرسومة بلون أخف لإبراز حدود السودان نفسه. الحدود تقريبية. *':"Drawn lighter so Sudan's own extents stand out. Borders are approximate.")}</p>`;p.appendChild(x)}}
+/* playback: the overview appears/disappears when the era tour starts or stops (touring class on <html>) */
+new MutationObserver(()=>{const t=document.documentElement.classList.contains('touring');if(t!==csDraw.t){csDraw.t=t;if(M.layers.cs&&!on.has('cs'))csDraw(ES[i]).then(()=>legendDraw(ES[i]))}}).observe(document.documentElement,{attributes:true,attributeFilter:['class']});
 // t224u: Layers button (top bar) opens one panel holding every layer toggle (#layers) and the legend (#lgp)
 (()=>{const UI=T.ui;if(!UI)return;const b=document.createElement('button');b.type='button';b.id='layb';b.className='chip tb';b.textContent=UI.lay;b.setAttribute('aria-label',UI.layl);b.setAttribute('aria-expanded','false');b.setAttribute('aria-controls','laypan');const eb=$('erab');eb?eb.after(b):$('top').prepend(b);
  const p=document.createElement('div');p.id='laypan';p.hidden=true;p.setAttribute('role','dialog');p.setAttribute('aria-label',UI.layl);p.innerHTML=`<div class="lph"><b>${esc(UI.lay)}</b><button type="button" class="chip" id="layx" aria-label="${esc(UI.x)}">×</button></div>`;$('top').after(p);{const v=window.__VCH&&window.__VCH();if(v)p.querySelector('.lph').after(v)}p.appendChild($('layers'));if($('lgp'))p.appendChild($('lgp'));if($('lgb'))$('lgb').hidden=true;

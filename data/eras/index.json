@@ -637,7 +637,7 @@
    "file": "data/eras/musabba-at-sultanate-kordofan.json"
   }
  ],
- "sub_eras_note": "sub_eras are short alias ids (IM 2026-10-30) for child eras already defined in data/periods.json (parent field); they are not extra entries in eras and do not change the era count. era_id is the existing slug used by db/legends/eras and data/concurrent_states.",
+ "sub_eras_note": "sub_eras are short alias ids (IM 2026-10-30) for child eras already defined in data/periods.json (parent field); they are not extra entries in eras and do not change the era count. era_id is the existing slug used by db/legends/eras and data/concurrent_states. Exception: tmc-2019 is a dated span inside december-revolution-transition with no child era of its own (era_id = that era).",
  "sub_eras": [
   {
    "id": "tmc",
@@ -719,6 +719,31 @@
     "cite_text": "Following reports of armed fighting in the Sudanese capital, Khartoum, on Saturday, UN Secretary-General António Guterres and the head of the UN Mission in the country, issued statements on Saturday strongly condemning the violence"
    },
    "badges": []
+  },
+  {
+   "id": "tmc-2019",
+   "era_id": "december-revolution-transition",
+   "name_en": "Transitional Military Council (2019)",
+   "parent": "december-revolution-transition",
+   "start": 2019,
+   "end": 2019,
+   "start_date": "2019-04",
+   "end_date": "2019-08-17",
+   "start_cite": {
+    "source_id": "UNNEWS_20211025_COUP",
+    "pages": "web article, background paragraph",
+    "cite_text": "Long-time ruler Omar al-Bashir was overthrown by the military following months of popular protest in April 2019"
+   },
+   "end_cite": {
+    "source_id": "UNSC2524",
+    "pages": "p.1, preamble",
+    "cite_text": "Welcoming the signing of the Constitutional Document on 17 August 2019"
+   },
+   "badges": [
+    "VERIFY",
+    "DERIVED"
+   ],
+   "note_en": "A span inside december-revolution-transition, not a child era in data/periods.json (it has no own legend or extent). The dates come from the military overthrow (April 2019) and the Constitutional Document (17 August 2019). No registered source names the 2019 Transitional Military Council itself, so the alias is VERIFY until one is registered. Not the 1985-86 TMC (alias tmc)."
   }
  ]
 }
