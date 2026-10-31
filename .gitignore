@@ -26,3 +26,6 @@ db/*_check.md
 db/extents/*.md
 db/extents/*.geojson
 db/**/*.py
+# Repo tooling and gate reports: never publish on the site (QA, IM 2026-10-31). They live in the source repo.
+tools/
+db/publish_gate_report.json
