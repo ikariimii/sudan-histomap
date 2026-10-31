@@ -29,7 +29,7 @@ D.addEventListener('click',function(ev){
 /* filter: radios (native arrow-key navigation), state in ?type=, FLIP of on-screen cards, scroll anchored to the first visible card */
 var flt=D.querySelector('.flt'),N=cards.length;
 function vis(c,t){return t==='all'||c.getAttribute('data-t')===t}
-function count(t){var n=0;cards.forEach(function(c){if(vis(c,t))n++});if(cnt)cnt.textContent=(TL.cnt||'{n} / {N}').replace('{n}',num(n)).replace('{N}',num(N))}
+function count(t){var n=0;cards.forEach(function(c){if(vis(c,t))n++});if(cnt)cnt.textContent=(TL.cnt||'{n} / {N}').replace('{n}',String(n)).replace('{N}',String(N))}
 function anchor(){var top=bh+8;for(var i=0;i<cards.length;i++){var c=cards[i];if(c.hidden)continue;var r=c.getBoundingClientRect();if(r.bottom>top)return {el:c,y:r.top}}return null}
 function apply(t,anim){
  var vh=innerHeight,moving=[],first=new Map(),a=anchor();
