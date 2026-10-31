@@ -2,7 +2,7 @@
 // and per-era files (/extents/<id>.json, /m/<id>.json). Nothing is invented; missing layers show 'Research in progress'.
 (function(){
 const M=window.MAP,Q=new URLSearchParams(location.search),L=/^\/ar\//.test(location.pathname)||Q.get('lang')==='ar'?'ar':'en',AR=L==='ar',T=M.t[L],ES=M.eras;
-/* IM 2026-10-31 option (c): concurrent/neighbouring-states layer on HOLD. One switch: false hides the Layers toggle and makes the layer unreachable from the UI, era playback and ?layers=cs deep links (the built cs/ files stay; set true to turn it back on). */const CS_ENABLED=false;if(!CS_ENABLED&&M.layers)delete M.layers.cs;
+/* Concurrent/neighbouring-states layer: ON (Map Designer sign-off 2026-10-31, after the IM option (c) hold). One switch: false hides the Layers toggle and makes the layer unreachable from the UI, era playback and ?layers=cs deep links (the built cs/ files stay). */const CS_ENABLED=true;if(!CS_ENABLED&&M.layers)delete M.layers.cs;
 /* t34: reduced motion is live: switching the OS setting mid-visit stops camera flights and tour auto-advance at once (tour shows its Next stop button) */const RMQ=matchMedia('(prefers-reduced-motion: reduce)');let RM=RMQ.matches,DUR=RM?0:650;RMQ.addEventListener&&RMQ.addEventListener('change',ev=>{RM=ev.matches;DUR=RM?0:650;try{if(RM&&TS!=='off'){clearTimeout(TT);TT=null}tcShow()}catch(_){}});
 const $=id=>document.getElementById(id),esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const num=n=>String(n);/* t34 AR-review 4: Western digits in Arabic too, matching the data */
