@@ -30,7 +30,11 @@
     "cite_text": "'The fauna identified consisted mainly of buffalo, antelope, hippopotamus, wild cat, porcupine, mouse, crocodile and a large amount of fish (? c. 4000 before our era)'"
    },
    "approx": true,
-   "date_note": "CONTESTED: GHA I p.642 gives '? c. 4000 before our era' for the Khartoumian, later than the era record's -8500 to -5000. VERIFY"
+   "date_note": "CONTESTED: GHA I p.642 gives '? c. 4000 before our era' for the Khartoumian, later than the era record's -8500 to -5000. VERIFY",
+   "badges": [
+    "CONTESTED",
+    "VERIFY"
+   ]
   }
  ],
  "khartoum-neolithic-shaheinab": [
@@ -53,7 +57,10 @@
     "cite_text": "'The Kadero site currently being excavated, which is of a later period, has yielded burials (c. 3500-3000 before our era).'"
    },
    "approx": true,
-   "date_note": "GHA I p.643; Kadero is described as later than the Shaheinabian (era record ends -3800). VERIFY"
+   "date_note": "GHA I p.643; Kadero is described as later than the Shaheinabian (era record ends -3800). VERIFY",
+   "badges": [
+    "VERIFY"
+   ]
   }
  ],
  "a-group-lower-nubia": [
@@ -89,7 +96,10 @@
     "cite_text": "'which is thought to have continued in Nubia to the end of the second dynasty in Egypt ( - 2780), was followed by a period of marked cultural decline and poverty.'"
    },
    "approx": true,
-   "date_note": "CONTESTED: GHA II p.248 ends the A-Group at -2780; the era record ends at -2900"
+   "date_note": "CONTESTED: GHA II p.248 ends the A-Group at -2780; the era record ends at -2900",
+   "badges": [
+    "CONTESTED"
+   ]
   }
  ],
  "c-group-lower-nubia": [
@@ -113,7 +123,10 @@
     "cite_text": "'or sometime during the period of Egyptian history called by Egyptologists the First Intermediate Period ( - 2240 to - 2150) there appeared in Lower Nubia a new independent culture'"
    },
    "approx": true,
-   "date_note": "CONTESTED: GHA II p.251 places the C-Group's appearance c. -2240 to -2150; the era record starts at -2400"
+   "date_note": "CONTESTED: GHA II p.251 places the C-Group's appearance c. -2240 to -2150; the era record starts at -2400",
+   "badges": [
+    "CONTESTED"
+   ]
   }
  ],
  "kingdom-of-kerma": [
@@ -175,7 +188,10 @@
     "cite_text": "'This kingdom flourished during what is known in Egyptian history as the Second Intermediate Period ( — 1730 to —1580).'"
    },
    "approx": true,
-   "date_note": "GHA II p.261 dates the kingdom's floruit to the Second Intermediate Period, −1730 to −1580; plotted at the start of that range"
+   "date_note": "GHA II p.261 dates the kingdom's floruit to the Second Intermediate Period, −1730 to −1580; plotted at the start of that range",
+   "badges": [
+    "CONTESTED"
+   ]
   },
   {
    "date": -1730,
@@ -729,7 +745,11 @@
     "source_id": "GHA4_CH16",
     "pages": "p.403",
     "cite_text": "'In 1276 Baybars sent a large punitive expedition, which defeated Dawud , and conferred the throne of Mukurra upon Dawud ' s cousin and rival'"
-   }
+   },
+   "badges": [
+    "CONTESTED"
+   ],
+   "date_note": "GHA IV ch.16 p.403 and GHA III p.168 give 1276; GHA IV ch.15 p.382 gives 1275 for the annexation of northern Nubia (CONTESTED by one year)"
   },
   {
    "date": 1317,
@@ -1531,7 +1551,11 @@
     "source_id": "GHA5_CH7",
     "pages": "pp.190–191",
     "cite_text": "d. 1801–2) (GHA V ch.7 pp.190–191"
-   }
+   },
+   "badges": [
+    "VERIFY"
+   ],
+   "date_note": "GHA V p.190 prints 1741-2 for 'Abd al-Rahman's new fashir at Khor Tandalti; his reign ended 1801-2, so this is probably a misprint for 1791-2. Not plotted. VERIFY"
   },
   {
    "date": 1874,
@@ -1615,7 +1639,11 @@
    "cite": {
     "source_id": "GHA7_CH12",
     "pages": "p.283"
-   }
+   },
+   "badges": [
+    "VERIFY"
+   ],
+   "date_note": "GHA VII p.283: 'Not until February 1916 was he defeated and killed in battle'; other accounts put his death later in 1916. Year 1916 kept. VERIFY"
   },
   {
    "date": 1915,
@@ -1973,7 +2001,11 @@
    "cite": {
     "source_id": "GHA2_CH9",
     "pages": "p.269"
-   }
+   },
+   "badges": [
+    "VERIFY"
+   ],
+   "date_note": "GHA II p.268 gives Ramses II the dates '— 1320 to — 1318', the same it gives Ramses I; not used for plotting. VERIFY"
   },
   {
    "date": -1490,
@@ -2030,7 +2062,10 @@
     "cite_text": "'he managed, with the help of Gyges of Lydia and Greek mercenaries, to throw off all vestiges of Assyrian overlordship and start a new dynasty, the twenty-sixth.'"
    },
    "approx": true,
-   "date_note": "GHA II p.106 gives -658; the era list uses -664 for the start of the dynasty (CONTESTED)"
+   "date_note": "GHA II p.106 gives -658; the era list uses -664 for the start of the dynasty (CONTESTED)",
+   "badges": [
+    "CONTESTED"
+   ]
   },
   {
    "date": -610,
@@ -2149,7 +2184,11 @@
     "pages": "p.211",
     "cite_text": "'which had declined considerably after the battle of Raphia in - 217, when Egypt's national troops had been soundly beaten'"
    },
-   "date_note": "CONTESTED: Ptolemaic sources usually record Raphia (217 BCE) as a Ptolemaic victory; GHA II p.211 says Egypt's national troops were 'soundly beaten'. VERIFY"
+   "date_note": "CONTESTED: Ptolemaic sources usually record Raphia (217 BCE) as a Ptolemaic victory; GHA II p.211 says Egypt's national troops were 'soundly beaten'. VERIFY",
+   "badges": [
+    "CONTESTED",
+    "VERIFY"
+   ]
   },
   {
    "date": -168,
@@ -2160,7 +2199,11 @@
     "pages": "p.208",
     "cite_text": "'Rome had reciprocated by saving Egypt's independence when Antiochus III invaded it in - 168.'"
    },
-   "date_note": "CONTESTED: GHA II p.208 names Antiochus III; the 168 BCE invasion is generally attributed to Antiochus IV. VERIFY"
+   "date_note": "CONTESTED: GHA II p.208 names Antiochus III; the 168 BCE invasion is generally attributed to Antiochus IV. VERIFY",
+   "badges": [
+    "CONTESTED",
+    "VERIFY"
+   ]
   },
   {
    "date": -96,
@@ -2455,7 +2498,10 @@
     "pages": "p.381",
     "cite_text": "'the policy of the new sultan, al-Malik al-Zahir Baybars (1260-77).'"
    },
-   "date_note": "GHA IV p.380 prints 'September 1290' for 'Ayn Jalut, a misprint for 1260 (Baybars' accession in 1260 on p.381). VERIFY"
+   "date_note": "GHA IV p.380 prints 'September 1290' for 'Ayn Jalut, a misprint for 1260 (Baybars' accession in 1260 on p.381). VERIFY",
+   "badges": [
+    "VERIFY"
+   ]
   },
   {
    "date": 1275,
@@ -2466,7 +2512,10 @@
     "pages": "p.382",
     "cite_text": "'the northern part of the Christian kingdom of Nubia was annexed in 1275, and vassal princes were installed at Dongola'"
    },
-   "date_note": "GHA III p.168 (ch.7) gives 1276 for Baybars' subjection of Nubia (CONTESTED by one year)"
+   "date_note": "GHA III p.168 (ch.7) gives 1276 for Baybars' subjection of Nubia (CONTESTED by one year)",
+   "badges": [
+    "CONTESTED"
+   ]
   },
   {
    "date": 1291,
@@ -2851,7 +2900,10 @@
     "cite_text": "''Abd al-Karîm b. Jame (r.1611-55), who studied in Borno, founded Wadai - no doubt with Borno's blessing'"
    },
    "approx": true,
-   "date_note": "Abd al-Karim's reign is dated r.1611–55 on GHA V p.511; plotted at the start of the reign. The era record starts at 1635 (CONTESTED)."
+   "date_note": "Abd al-Karim's reign is dated r.1611–55 on GHA V p.511; plotted at the start of the reign. The era record starts at 1635 (CONTESTED).",
+   "badges": [
+    "CONTESTED"
+   ]
   },
   {
    "date": 1750,
