@@ -872,7 +872,9 @@ g.csm .t{fill:transparent}g.csm .dc{fill:none;stroke:#fbf8f2;stroke-width:4.5px}
 g.csz.ia g.csm:hover .dm{transform:scale(1.21)}g.csm:focus{outline:none}g.csm:focus-visible .dr{stroke:#fbf8f2;stroke-width:2.5px}
 g.csm text{font:600 10px system-ui,-apple-system,'Segoe UI',sans-serif;fill:#f4ecd4;stroke:#0b141c;stroke-width:2.5px;paint-order:stroke;stroke-linejoin:round;pointer-events:none}html[dir=rtl] g.csm text{font:600 11px Naskh,'Noto Naskh Arabic',Tahoma,sans-serif}
 .lgcs .swz{background:repeating-linear-gradient(-45deg,#e0a63e 0 2px,transparent 2px 6px);border:1px dashed #e0a63e;box-shadow:none}.lgcs .swm{display:inline-block;width:11px;height:11px;margin:0 7px 0 5px;transform:rotate(45deg);vertical-align:middle;background:repeating-linear-gradient(45deg,#e0a63e 0 2px,#0b141c 2px 3px);border:1.5px solid #0b141c;box-shadow:0 0 0 1.5px #fbf8f2}html[dir=rtl] .lgcs .swm{margin:0 5px 0 7px}`;document.head.appendChild(st)}
-async function csLoad(e){if(!csHas(e))return[];if(!CSJ[e.id])CSJ[e.id]=getj(`/cs/${e.id}.json`).then(j=>((j&&j.features)||[]).map(rw)).catch(()=>[]);return CSJ[e.id]}
+async function csLoad(e){if(!csHas(e))return[];if(!CSJ[e.id])CSJ[e.id]=getj(`/cs/${e.id}.json`).then(j=>{const F=((j&&j.features)||[]).map(rw);F.forEach(f=>{const p=f.properties;if(p&&p.id)CSN[p.id]=p});return F}).catch(()=>[]);return CSJ[e.id]}
+/* 'Contested with:' (QA 1fb): contested_with holds ids. A neighbour/disputed feature id shows that feature's short name; '<era>#<n>' (one of Sudan's own extents) shows the era's name. An id that resolves to nothing is left out, never shown raw. */
+const CSN={},csCw=w=>{const h=w.indexOf('#');if(h>0){const e=ES.find(x=>x.id===w.slice(0,h));return e?(AR&&e.ar?[e.ar,0]:[e.en,AR?1:0]):null}const q=CSN[w];return q?[csNm(q,true),AR&&!q.na&&!q.nsa?1:0]:null};
 const csIn=(p,e)=>TS==='play'?(p.a<=e.b&&p.b>=e.a):act({start:p.a,end:p.b},e,Y);
 const csNm=(p,sh)=>{const n=AR?(sh&&p.nsa)||p.na:(sh&&p.ns)||p.n;return n||(sh&&p.ns)||p.n};
 /* CONTESTED (style layer.contested_marker / zone_contested; IM + Map Designer ruling 2026-10-31): only disputed-area features are hatched.
@@ -909,12 +911,12 @@ async function csDraw(e){const ov=TS==='play',ia=on.has('cs');if(!gCs)gCs=root.i
   .each(function(o){this.__xy=o.c;const p=o.f.properties,b=p.bd||[];d3.select(this).select('text').attr('lang',AR&&!p.na&&!p.nsa?'en':null).text(csNm(p,ph)+(b.includes('SINGLE-SOURCE')?'¹':'')+(b.includes('EDITORIAL')?' ed.':'')+(b.includes('VERIFY')?' ?':''))}).attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`});
  gCs.node().parentNode.insertBefore(gCs.node(),gX.node());gCz.node().parentNode.insertBefore(gCz.node(),gN.node())}
 function csCard(p){const bl=(p.bd||[]).map(x=>{const l=BL[x];return RPBK(x,{st:l?'border-color:'+l[2]:''})}).join(' '),q=$('feat'),nm=AR?p.na:p.n,nt=AR?p.nta:p.nt;
- const rel=p.rel?{neighbour:['Neighbour','دولة مجاورة'],concurrent:['Concurrent state','دولة معاصرة'],suzerain:['Suzerain','دولة ذات سيادة عليا'],tributary:['Tributary','دولة تابعة']}[p.rel]:null,cf={high:['high','مرتفع'],medium:['medium','متوسط'],low:['low','منخفض']}[p.cf];
+ const rel=p.rel?{neighbour:['Neighbour','دولة مجاورة'],concurrent:['Concurrent state','دولة معاصرة'],suzerain:['Suzerain','دولة ذات سيادة عليا'],tributary:['Tributary','دولة تابعة']}[p.rel]:null,cf={high:['high','مرتفع'],medium:['medium','متوسط'],low:['low','منخفض']}[p.cf],cw=[...new Map((p.cw||[]).map(csCw).filter(Boolean).map(x=>[x[0],x])).values()];
  let h=`<button class="x" aria-label="${esc(T.close||'Close')}">×</button><h3>${nm?`<bdi>${esc(nm)}</bdi>`:`<bdi lang="en">${esc(p.n)}</bdi>`}${AR&&(p.va||!p.na)?vchipH():''}</h3>`
   +`<p class="sub">${esc(csT)} · <bdi>${fy(p.a)}</bdi> – <bdi>${fy(p.b)}</bdi>${rel?' · '+esc(rel[AR?1:0]):''}</p>`+(bl?`<p>${bl}</p>`:'')
   +(nt?`<p>${esc(nt)}${AR&&p.va&&p.nta?vchipH():''}</p>`:(AR&&p.nt?`<p><bdi lang="en">${esc(p.nt)}</bdi>${vchipH()}</p>`:''))
   +(cf?`<p class="sub">${esc(AR?'مستوى الثقة':'Confidence')}: ${esc(cf[AR?1:0])}</p>`:'')
-  +(p.cw&&p.cw.length?`<p class="sub">${esc(AR?'متنازع عليها مع':'Contested with')}: <bdi lang="en">${p.cw.map(esc).join(', ')}</bdi></p>`:'')
+  +(cw.length?`<p class="sub">${esc(AR?'متنازع عليها مع':'Contested with')}: ${cw.map(([n,en])=>`<bdi${en?' lang="en"':''}>${esc(n)}</bdi>`).join(AR?'، ':', ')}</p>`:'')
   +(p.mk?`<p class="sub">${esc(AR?'منطقة متنازع عليها، الموقع فقط (بلا حدود مرسومة)':'Contested area, location only (no mapped extent)')}</p>`:'')
   +(p.cz?`<p class="sub">${esc(AR?'أرض متنازع عليها: يطالب بها أكثر من طرف، ولا تُرسم كأرض تابعة لأي منهم':'Contested ground: claimed by more than one side; not drawn as held by any of them')}</p>`:'')
   +(p.cl?`<p class="sub">${esc(AR?'الحدود مقصوصة عند حدود السودان':"Outline clipped at Sudan's extent")}</p>`:'')
