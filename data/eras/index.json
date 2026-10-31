@@ -636,5 +636,89 @@
    "dating_note": "Bracket from O'Fahey & Spaulding (BSOAS 1972 abstract: 'late seventeenth and eighteenth centuries'); 1734/1772/1782/1785 events taken from a Wikipedia summary citing O'Fahey 2008 pp.49–59 – book pages not directly checked. No capital location verified.",
    "file": "data/eras/musabba-at-sultanate-kordofan.json"
   }
+ ],
+ "sub_eras_note": "sub_eras are short alias ids (IM 2026-10-30) for child eras already defined in data/periods.json (parent field); they are not extra entries in eras and do not change the era count. era_id is the existing slug used by db/legends/eras and data/concurrent_states.",
+ "sub_eras": [
+  {
+   "id": "tmc",
+   "era_id": "transitional-military-council-tmc",
+   "name_en": "Transitional Military Council (TMC)",
+   "parent": "transitional-third-parliamentary-period",
+   "start": 1985,
+   "end": 1986,
+   "start_cite": {
+    "source_id": "LOC1991_TMC",
+    "pages": "'The Transitional Military Council' para 1",
+    "cite_text": "On April 6, 1985, a group of military officers, led by Lieutenant General Abd ar Rahman Siwar adh Dhahab, overthrew Nimeiri, who took refuge in Egypt. Three days later, Dhahab authorized the creation of a fifteen-man Transitional Military Council (TMC) to rule Sudan."
+   },
+   "end_cite": {
+    "source_id": "LOC1991_SADIQ",
+    "pages": "'Sadiq al Mahdi' para 1",
+    "cite_text": "In June 1986, Sadiq al Mahdi formed a coalition government with the Umma, the DUP, the NIF, and four southern parties."
+   },
+   "badges": [
+    "SINGLE-SOURCE"
+   ],
+   "note": "The 1985-86 TMC (Siwar adh Dhahab). The April-August 2019 Transitional Military Council is not a separate era; it falls inside december-revolution-transition."
+  },
+  {
+   "id": "sadiq-al-mahdi",
+   "era_id": "third-parliamentary-period-sadiq-al-mahdi",
+   "name_en": "Third parliamentary period (Sadiq al-Mahdi)",
+   "parent": "transitional-third-parliamentary-period",
+   "start": 1986,
+   "end": 1989,
+   "start_cite": {
+    "source_id": "LOC1991_SADIQ",
+    "pages": "'Sadiq al Mahdi' para 1",
+    "cite_text": "In June 1986, Sadiq al Mahdi formed a coalition government with the Umma, the DUP, the NIF, and four southern parties."
+   },
+   "end_cite": {
+    "source_id": "LOC1991_SADIQ",
+    "pages": "'Sadiq al Mahdi' para 6",
+    "cite_text": "On June 30, 1989, Colonel (later Lieutenant General) Umar Hassan Ahmad al Bashir overthrew Sadiq and established the Revolutionary Command Council for National Salvation to rule Sudan."
+   },
+   "badges": [
+    "SINGLE-SOURCE"
+   ]
+  },
+  {
+   "id": "civilian-led",
+   "era_id": "civilian-led-transitional-government",
+   "name_en": "Civilian-led transitional government",
+   "parent": "december-revolution-transition",
+   "start": 2019,
+   "end": 2021,
+   "start_cite": {
+    "source_id": "UNSC2524",
+    "pages": "p.1, preamble",
+    "cite_text": "Welcoming the signing of the Constitutional Document on 17 August 2019"
+   },
+   "end_cite": {
+    "source_id": "UNNEWS_20211025_COUP",
+    "pages": "lead",
+    "cite_text": "UN Secretary-General, António Guterres on Monday condemned the “ongoing military coup” in Sudan"
+   },
+   "badges": []
+  },
+  {
+   "id": "post-coup",
+   "era_id": "post-coup-military-rule-2021-2023",
+   "name_en": "Post-coup military rule (2021-2023)",
+   "parent": "december-revolution-transition",
+   "start": 2021,
+   "end": 2023,
+   "start_cite": {
+    "source_id": "UNNEWS_20211025_COUP",
+    "pages": "lead",
+    "cite_text": "UN Secretary-General, António Guterres on Monday condemned the “ongoing military coup” in Sudan"
+   },
+   "end_cite": {
+    "source_id": "UNNEWS2023",
+    "pages": "description (story dated 2023-04-15)",
+    "cite_text": "Following reports of armed fighting in the Sudanese capital, Khartoum, on Saturday, UN Secretary-General António Guterres and the head of the UN Mission in the country, issued statements on Saturday strongly condemning the violence"
+   },
+   "badges": []
+  }
  ]
 }
