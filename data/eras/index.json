@@ -727,23 +727,27 @@
    "parent": "december-revolution-transition",
    "start": 2019,
    "end": 2019,
-   "start_date": "2019-04",
-   "end_date": "2019-08-17",
+   "start_date": "2019-04-11",
+   "end_date": "2019-08-21",
    "start_cite": {
-    "source_id": "UNNEWS_20211025_COUP",
-    "pages": "web article, background paragraph",
-    "cite_text": "Long-time ruler Omar al-Bashir was overthrown by the military following months of popular protest in April 2019"
+    "source_id": "ICG2019",
+    "pages": "Executive Summary, para 1 (web report)",
+    "cite_text": "since 11 April, when the most sustained civilian protest movement in the country’s modern history swept Omar al-Bashir from power"
+   },
+   "name_cite": {
+    "source_id": "ICG2019",
+    "pages": "Section II, From Crisis to Coup, Crackdown and Compromise (web report)",
+    "cite_text": "the junta, now calling itself the Transitional Military Council"
    },
    "end_cite": {
-    "source_id": "UNSC2524",
-    "pages": "p.1, preamble",
-    "cite_text": "Welcoming the signing of the Constitutional Document on 17 August 2019"
+    "source_id": "ICG2019",
+    "pages": "Section III, A Factious Security Establishment in a Time of Transition, para 1 (web report)",
+    "cite_text": "dissolved and ceded its authority on 21 August to an eleven-member “sovereign council”"
    },
    "badges": [
-    "VERIFY",
-    "DERIVED"
+    "SINGLE-SOURCE"
    ],
-   "note_en": "A span inside december-revolution-transition, not a child era in data/periods.json (it has no own legend or extent). The dates come from the military overthrow (April 2019) and the Constitutional Document (17 August 2019). No registered source names the 2019 Transitional Military Council itself, so the alias is VERIFY until one is registered. Not the 1985-86 TMC (alias tmc)."
+   "note_en": "A span inside december-revolution-transition, not a child era in data/periods.json (it has no own legend or extent). Name, start (11 April 2019, Bashir's ouster) and end (21 August 2019, the council dissolved and ceded its authority to the sovereign council) are all from one source, International Crisis Group Africa Report 281 (21 October 2019). Not the 1985-86 TMC (alias tmc)."
   }
  ]
 }
