@@ -6,7 +6,9 @@
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Sudan Histomap · خريطة تاريخ السودان"><meta name="twitter:description" content="Sudan&#x27;s history through its geography, era by era, from a cited dataset."><meta name="twitter:image" content="https://sudan.indomando.com/og/home-en.png">
 <meta name="theme-color" content="#14222c"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <script>(function(){var q=location.search;if(/[?&](lens|diff|poster|social|card|splitcard|panel|select|draft)=/.test(q)){location.replace('/histomap.html'+q);return}var u=new URLSearchParams(q),a=/^\/ar\//.test(location.pathname);if(!a&&u.get('lang')==='ar'){u.delete('lang');var s=u.toString();location.replace('/ar/'+(s?'?'+s:'')+location.hash);return}document.documentElement.lang=a?'ar':'en';document.documentElement.dir=a?'rtl':'ltr'})()</script>
-<link rel="stylesheet" href="/map.css"></head><body>
+<link rel="stylesheet" href="/map.css">
+<!-- QA P2-9 LCP: the relief tile is the LCP image but is only requested once map.js has drawn the map; preload the one map.js will pick (desk() = width >= 1000px) -->
+<link rel="preload" as="image" type="image/webp" href="/img/relief-900.webp" media="(max-width:999.98px)" fetchpriority="high"><link rel="preload" as="image" type="image/webp" href="/img/relief-1800.webp" media="(min-width:1000px)" fetchpriority="high"></head><body>
 <a class="skip" id="skip" href="#sheet">Skip to story</a>
 <header id="top"><b class="brand" id="brand"></b><span class="sp"></span><a id="about" class="chip"></a><a id="lang" class="chip" hreflang=""></a></header>
 <div id="map" role="region" aria-label="Map"><svg id="svg" role="group" aria-label="Map"><title id="svgt">Map</title></svg></div>
