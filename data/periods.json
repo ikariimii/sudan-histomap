@@ -10534,6 +10534,61 @@
     "verification": "official UN PDF downloaded 2026-10-31; quotes checked verbatim on PDF pp.2, 3, 23",
     "note": "p.3: 'The Chairperson of the African Union Commission, on 26 December, rejected any recognition of Somaliland and reaffirmed the African Union’s unwavering commitment to the unity and sovereignty of Somalia.' p.23 (Ms. Joyini, South Africa): Israel did so 'by being the first State to recognize the illegal secession of a part of Somalia’s territory.' Use for any 'not recognised' wording after 26 Dec 2025: recognised by one UN member (Israel), not by the AU or the UN.",
     "via": "Map Designer request (Somaliland non-recognition cite)"
+   },
+   "UNSG_S2012_231": {
+    "author": "UN Secretary-General",
+    "title": "Report of the Secretary-General on the African Union-United Nations Hybrid Operation in Darfur (S/2012/231)",
+    "title_en": "same",
+    "publisher": "United Nations Security Council",
+    "symbol": "S/2012/231",
+    "date": "2012-04-17",
+    "year": "2012",
+    "url": "https://documents.un.org/api/symbol/access?s=S/2012/231&l=en&t=pdf",
+    "pages": "p.2 (para 5)",
+    "lang": "en",
+    "accessed": "2026-10-31",
+    "kind": "UN document",
+    "bias": "UN report on Government of Sudan measures; reports the decrees, no view on boundaries",
+    "quote": "On 10 January, the Government issued three decrees establishing two additional States in Darfur (Central Darfur, with Zalingei as its capital, and Eastern Darfur, with El Daein as its capital).",
+    "verification": "official UN PDF downloaded 2026-10-31 (17 pp.); quote checked verbatim on PDF p.2, para 5",
+    "note": "The year is 2012 (report covers the period since S/2011/814 of 30 Dec 2011). Same facts on the UNAMID news page 'Darfur peace process ramps up in 2012' (19 Jan 2012) and Sudan Tribune article 40709 (11 Jan 2012), not registered.",
+    "via": "Map Designer request (Mile 14 / East Darfur card facts)"
+   },
+   "OCHA_EDARFUR_PROFILE_2022": {
+    "author": "OCHA Sudan",
+    "title": "Sudan: East Darfur State Profile (Updated March 2022)",
+    "publisher": "UN Office for the Coordination of Humanitarian Affairs",
+    "year": "2022",
+    "date": "2022-04-13",
+    "pages": "web page, Background",
+    "url": "https://www.unocha.org/publications/report/sudan/sudan-east-darfur-state-profile-updated-march-2022",
+    "lang": "en",
+    "accessed": "2026-10-31",
+    "kind": "UN humanitarian profile",
+    "bias": "UN humanitarian overview; administrative description, no boundary ruling",
+    "quote": "East Darfur State was created by Presidential Decree in 2012 when it was carved out of South Darfur. It borders North and South Darfur, North and South Kordofan, the Abyei Area and South Sudan’s Northern Bahr el Ghazal State.",
+    "verification": "page read 2026-10-31; quote checked verbatim (posting date 13 Apr 2022 from the page)",
+    "note": "Shows that before 2012 the Mile 14 area lay in South Darfur and from 2012 in East Darfur.",
+    "via": "Map Designer request (Mile 14 / East Darfur card facts)"
+   },
+   "IDROUSS2018_SIYASAT31": {
+    "author": "Osama Ahmed Idrouss (أسامة أحمد عيدروس)",
+    "title": "قضايا الحدود بين السودان وجنوب السودان",
+    "title_en": "Resource Conflicts and Survival Instincts: Border Issues between Sudan and South Sudan",
+    "publisher": "Siyasat Arabiya (Arab Center for Research and Policy Studies / Doha Institute), vol. 6 no. 31",
+    "year": "2018",
+    "pages": "pp.48–63; cited p.52 (also pp.54–55)",
+    "url": "https://siyasatarabiya.dohainstitute.org/ar/issue031/Pages/Siyasat31_2018_Idrouss.pdf",
+    "doi": "https://doi.org/10.12816/0049175",
+    "lang": "ar",
+    "accessed": "2026-10-31",
+    "kind": "peer-reviewed journal article",
+    "license": "CC BY-NC 4.0 (journal OJS record, ojs.acrps.ai issue031-art03: 'Creative Commons Attribution-NonCommercial 4.0 International License')",
+    "bias": "Sudanese academic (Omdurman Islamic University), Arabic-language; cites Rizeigat statements for the 1924 line",
+    "quote": "وقد أضافت رئاسة الجمهورية منطقة خلافية خامسة بعد مطالبة جنوب السودان بها؛ وهي منطقة \"14 ميل\" جنوب بحر العرب عند الحدود بين شرق دارفور وشمال بحر الغزال. [يحتاج تحقق]",
+    "verification": "free PDF from the Doha Institute site downloaded 2026-10-31 (16 pp., sha1 34d08101e4d025089e1631e29ed2a21675ced8ff); printed page = PDF page + 47. The PDF text layer has broken Arabic glyph mapping; the quote is restored from it and needs checking against the page image",
+    "note": "p.52: the Presidency added Mile 14 as a fifth disputed area after South Sudan claimed it, south of the Bahr al-Arab on the East Darfur / Northern Bahr el Ghazal boundary. p.54: in 1924 the Whittle–Munro committee adopted the '14 mile' line as the Rizeigat boundary in the Malwal Dinka areas and in its extension into the Western District and Raga. p.55 n.37 cites Radio Dabanga (28 Sep 2013) and HSBA 'The 14-Mile Area' (27 Sep 2013).",
+    "via": "Map Designer request (Mile 14 / East Darfur card facts)"
    }
   }
  },
@@ -11254,7 +11309,6 @@
    "sources": [
     "WD:Q1247214",
     "WELSBY2002",
-    "HD2011",
     "WP:Alodia"
    ],
    "dating_note": "Fall c.1504 traditional (Funj/'Abdallab). Soba point confirmed by Wikidata Q1247214 (15.524N 32.681E), consistent with the original; there is no Pleiades entry; no excavation-report coordinate checked.",
@@ -11395,7 +11449,6 @@
     }
    ],
    "sources": [
-    "HD2011",
     "WP:Turco-Egyptian_Sudan"
    ],
    "dating_note": "",
@@ -11408,10 +11461,6 @@
    ],
    "how_we_know": {
     "sources": [
-     {
-      "id": "HD2011",
-      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
-     },
      {
       "id": "WP:Turco-Egyptian_Sudan",
       "title": "Turco-Egyptian Sudan",
@@ -11443,7 +11492,6 @@
     }
    ],
    "sources": [
-    "HD2011",
     "GHA7_CH4"
    ],
    "dating_note": "",
@@ -11455,10 +11503,6 @@
    ],
    "how_we_know": {
     "sources": [
-     {
-      "id": "HD2011",
-      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
-     },
      {
       "id": "GHA7_CH4",
       "title": "African initiatives and resistance in North-East Africa (General History of Africa VII, ch.4)",
@@ -11551,7 +11595,6 @@
     }
    ],
    "sources": [
-    "HD2011",
     "WP:History_of_Sudan_(1956–1969)"
    ],
    "dating_note": "",
@@ -11561,10 +11604,6 @@
    ],
    "how_we_know": {
     "sources": [
-     {
-      "id": "HD2011",
-      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
-     },
      {
       "id": "WP:History_of_Sudan_(1956–1969)",
       "title": "History of Sudan (1956–1969)",
@@ -11594,7 +11633,6 @@
     }
    ],
    "sources": [
-    "HD2011",
     "WP:Ibrahim_Abboud",
     "WP:October_1964_Revolution"
    ],
@@ -11605,10 +11643,6 @@
    ],
    "how_we_know": {
     "sources": [
-     {
-      "id": "HD2011",
-      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
-     },
      {
       "id": "WP:Ibrahim_Abboud",
       "title": "Ibrahim Abboud",
@@ -11642,7 +11676,6 @@
     }
    ],
    "sources": [
-    "HD2011",
     "WP:History_of_Sudan_(1956–1969)"
    ],
    "dating_note": "",
@@ -11651,10 +11684,6 @@
    ],
    "how_we_know": {
     "sources": [
-     {
-      "id": "HD2011",
-      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
-     },
      {
       "id": "WP:History_of_Sudan_(1956–1969)",
       "title": "History of Sudan (1956–1969)",
@@ -11686,7 +11715,6 @@
     }
    ],
    "sources": [
-    "HD2011",
     "WP:Gaafar_Nimeiry",
     "WP:Addis_Ababa_Agreement_(1972)"
    ],
@@ -11699,10 +11727,6 @@
    ],
    "how_we_know": {
     "sources": [
-     {
-      "id": "HD2011",
-      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
-     },
      {
       "id": "WP:Gaafar_Nimeiry",
       "title": "Gaafar Nimeiry",
@@ -11737,7 +11761,6 @@
     }
    ],
    "sources": [
-    "HD2011",
     "WP:Sadiq_al-Mahdi"
    ],
    "dating_note": "",
@@ -11747,10 +11770,6 @@
    ],
    "how_we_know": {
     "sources": [
-     {
-      "id": "HD2011",
-      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
-     },
      {
       "id": "WP:Sadiq_al-Mahdi",
       "title": "Sadiq al-Mahdi",
@@ -11782,14 +11801,13 @@
     }
    ],
    "sources": [
-    "HD2011",
     "LOC1991_SADIQ",
     "CPA_2005",
     "UNSC1996",
     "UNSC_S2005_60",
     "UN_NEWS_2009_292942"
    ],
-   "dating_note": "Holt & Daly 6th ed. (2011) covers to c.2010; the 9 July 2011 secession is cited to UNSC1996.",
+   "dating_note": "The 9 July 2011 secession is cited to UNSC1996.",
    "key_events_ar": [
     "انقلاب 30 يونيو 1989",
     "تصاعد نزاع دارفور منذ 2003؛ مذكرة توقيف من المحكمة الجنائية الدولية بحق الرئيس البشير، مارس 2009 (UNSC_S2005_60 PDF p.29; UN_NEWS_2009_292942)",
@@ -11798,10 +11816,6 @@
    ],
    "how_we_know": {
     "sources": [
-     {
-      "id": "HD2011",
-      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
-     },
      {
       "id": "LOC1991_SADIQ",
       "title": "Sudan: A Country Study (research completed June 1991) – 'Sadiq al Mahdi'"
@@ -11825,7 +11839,7 @@
     ],
     "zones": [],
     "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
-    "dating": "Holt & Daly 6th ed. (2011) covers to c.2010; the 9 July 2011 secession is cited to UNSC1996."
+    "dating": "The 9 July 2011 secession is cited to UNSC1996."
    }
   },
   {
@@ -12127,7 +12141,6 @@
    ],
    "sources": [
     "OFAHEY2008",
-    "HD2011",
     "WP:Ali_Dinar",
     "WP:Sultanate_of_Darfur"
    ],
@@ -12146,11 +12159,6 @@
      {
       "id": "GHA7_CH12",
       "title": "The First World War and its consequences (General History of Africa VII, ch.12)",
-      "pages": "MacMichael 1922 I pp.85–86; GHA VII ch.12 p.283"
-     },
-     {
-      "id": "HD2011",
-      "title": "A History of the Sudan: From the Coming of Islam to the Present Day",
       "pages": "MacMichael 1922 I pp.85–86; GHA VII ch.12 p.283"
      }
     ],
@@ -13597,7 +13605,6 @@
     }
    ],
    "sources": [
-    "HD2011",
     "WP:Suakin"
    ],
    "dating_note": "",
@@ -13606,10 +13613,6 @@
    ],
    "how_we_know": {
     "sources": [
-     {
-      "id": "HD2011",
-      "title": "A History of the Sudan: From the Coming of Islam to the Present Day"
-     },
      {
       "id": "WP:Suakin",
       "title": "Suakin",

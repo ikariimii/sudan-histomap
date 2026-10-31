@@ -6,9 +6,24 @@
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Sudan Histomap · خريطة تاريخ السودان"><meta name="twitter:description" content="Sudan&#x27;s history through its geography, era by era, from a cited dataset."><meta name="twitter:image" content="https://sudan.indomando.com/og/home-en.png">
 <meta name="theme-color" content="#14222c"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <script>(function(){var q=location.search;if(/[?&](lens|diff|poster|social|card|splitcard|panel|select|draft)=/.test(q)){location.replace('/histomap.html'+q);return}var u=new URLSearchParams(q),a=/^\/ar\//.test(location.pathname);if(!a&&u.get('lang')==='ar'){u.delete('lang');var s=u.toString();location.replace('/ar/'+(s?'?'+s:'')+location.hash);return}document.documentElement.lang=a?'ar':'en';document.documentElement.dir=a?'rtl':'ltr'})()</script>
-<link rel="stylesheet" href="/map.css">
-<!-- QA P2-9 LCP: the relief tile is the LCP image but is only requested once map.js has drawn the map; preload the one map.js will pick (desk() = width >= 1000px) -->
-<link rel="preload" as="image" type="image/webp" href="/img/relief-900.webp" media="(max-width:999.98px)" fetchpriority="high"><link rel="preload" as="image" type="image/webp" href="/img/relief-1800.webp" media="(min-width:1000px)" fetchpriority="high"></head><body>
+<!-- QA P2-9 (0e2) LCP: preload exactly the relief image and the topo tile (under the map-box centre) that map.js draws for the default
+camera, computed from the viewport and DPR before map.js runs; placed before map.css so CSS does not delay it. Default URL only
+(era/war/story/f/embed/lang move the camera); the CAM0 placeholder = first era's camera box from mapsite.py, null = no preload.
+KEEP IN SYNC with map.js fit() (frame, sheet peek 150px, desktop sheet 16+420px), cam() (k, 1.5deg minimum, ty clamp), tileLayer() (z)
+and relief() (1800 when relief width x K x DPR > 900). window.HM0 = the prediction (QA). The tile preload starts when the relief
+has loaded: in parallel it delayed the relief (the LCP image) by ~180ms on Slow-4G; chained it still lands ~2.4s earlier than map.js's own request. -->
+<script>(function(){var q=new URLSearchParams(location.search);if(['era','war','story','f','embed','lang'].some(function(k){return q.has(k)}))return;var c=[32.53, 15.6, 32.53, 15.6];if(!c)return;
+var W=innerWidth,H=innerHeight,D=W>=1000,A=/^\/ar\//.test(location.pathname),R=Math.PI/180,M=Math,my=function(l){return M.log(M.tan(M.PI/4+l*R/2))},
+top=D?70:120,sh=M.min(150,H*.44)+30,x1=D?(A?456:20):10,x2=D?(A?W-20:W-456):W-(A?10:75),w=x2-x1,
+h=(D?H-20:M.max(top+160,H-sh-8))-top,S=150*M.min(w/(150*16.8*R),h/(150*(my(22.2)-my(3.4)))),TX=x1+(w-S*60.4*R)/2,TY=top+(h+S*(my(22.2)+my(3.4)))/2,
+P=function(o,a){return[TX+S*o*R,TY-S*my(a)]},bot=D?H-20:M.max(top+120,H-sh-8),
+cx=(c[0]+c[2])/2,cy=(c[1]+c[3])/2,hx=M.max((c[2]-c[0])/2,1.5),hy=M.max((c[3]-c[1])/2,1.5),p=P(cx-hx,cy+hy),r=P(cx+hx,cy-hy),
+k=M.max(1,M.min(6,.85*M.min((x2-x1)/M.max(r[0]-p[0],8),(bot-top)/M.max(r[1]-p[1],8)))),tx=(x1+x2)/2-k*(p[0]+r[0])/2,ty=(top+bot)/2-k*(p[1]+r[1])/2,n0=P(38.6,22.2)[1],s0=P(21.8,3.4)[1];
+if(k*(s0-n0)<=bot-top+1)ty=M.min(M.max(ty,top-k*n0),bot-k*s0);
+var z=M.max(1,M.min(17,M.round(M.log2(2*M.PI*S*k/256)))),n=1<<z,X=((x1+x2)/2-tx)/k,Y=((top+bot)/2-ty)/k,lo=(X-TX)/S/R,la=M.max(-85,M.min(85,(2*M.atan(M.exp((TY-Y)/S))-M.PI/2)/R))*R,
+ti=M.max(0,M.min(n-1,M.floor((lo+180)/360*n))),tj=M.max(0,M.min(n-1,M.floor((1-M.log(M.tan(la)+1/M.cos(la))/M.PI)/2*n)));
+window.HM0={k:k,S:S,z:z,relief:S*36*R*k*(devicePixelRatio||1)>900?1800:900,tile:z+'/'+ti+'/'+tj};var u=['/img/relief-'+HM0.relief+'.webp','https://'+'abc'[(ti+tj)%3]+'.tile.opentopomap.org/'+HM0.tile+'.png'],L=function(i){var l=document.createElement('link');l.rel='preload';l.as='image';l.href=u[i];if(i)l.crossOrigin='anonymous';else{l.fetchPriority='high';l.onload=l.onerror=function(){L(1)}}document.head.appendChild(l)};L(0)})();</script>
+<link rel="stylesheet" href="/map.css"></head><body>
 <a class="skip" id="skip" href="#sheet">Skip to story</a>
 <header id="top"><b class="brand" id="brand"></b><span class="sp"></span><a id="about" class="chip"></a><a id="lang" class="chip" hreflang=""></a></header>
 <div id="map" role="region" aria-label="Map"><svg id="svg" role="group" aria-label="Map"><title id="svgt">Map</title></svg></div>
