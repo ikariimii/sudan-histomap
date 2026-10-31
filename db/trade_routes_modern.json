@@ -21,7 +21,7 @@
     "year": "2014-06-09",
     "url": "https://sudantribune.com/article/50085",
     "lang": "en",
-    "verification": "search-index text only (sudantribune.com returns 403 to curl) — VERIFY"
+    "verification": "verified online 2026-10-31 (article loads in a browser-type fetch; curl gets 403); dated 9 June 2014, quote checked; registered in data/periods.json meta.sources"
    },
    "MEES_1999": {
     "author": "MEES",
@@ -30,7 +30,7 @@
     "year": "1999-06-07",
     "url": "https://archives.mees.com/issues/641/articles/25882",
     "lang": "en",
-    "verification": "search-index text only — VERIFY"
+    "verification": "verified online 2026-10-31 (HTTP 200; free lead paragraph only, rest paywalled); MEES vol. XLII no. 23, 7 June 1999; registered in data/periods.json meta.sources"
    },
    "SUDANUPDATE_OIL": {
     "author": "Sudan Update",
@@ -39,7 +39,7 @@
     "year": "1999",
     "url": "http://www.sudanupdate.org/REPORTS/Oil/Oil.pdf",
     "lang": "en",
-    "verification": "search-index text only — VERIFY"
+    "verification": "search-index text only — VERIFY (2026-10-31: URL returns HTTP 500; Wayback snapshot not retrievable; not registered)"
    },
    "GEM_GNOP": {
     "author": "Global Energy Monitor",
@@ -48,7 +48,7 @@
     "year": "2026",
     "url": "https://www.gem.wiki/Greater_Nile_Oil_Pipeline",
     "lang": "en",
-    "verification": "search-index text only — VERIFY"
+    "verification": "verified online 2026-10-31 (HTTP 200); wiki page, current revision; registered in data/periods.json meta.sources"
    },
    "WP_PETRODAR": {
     "author": "Wikipedia",
@@ -57,7 +57,7 @@
     "year": "2026",
     "url": "https://en.wikipedia.org/wiki/Petrodar",
     "lang": "en",
-    "verification": "fetched 2026-10-20 via API extract"
+    "verification": "verified online 2026-10-31 (HTTP 200, revision oldid 1357127517); registered in data/periods.json meta.sources"
    },
    "WP_PORTSUDAN": {
     "author": "Wikipedia",
@@ -66,7 +66,7 @@
     "year": "2026",
     "url": "https://en.wikipedia.org/wiki/Port_Sudan",
     "lang": "en",
-    "verification": "fetched 2026-10-20 via API extract"
+    "verification": "verified online 2026-10-31 (HTTP 200, revision oldid 1378376749); registered in data/periods.json meta.sources"
    }
   },
   "citation_warning": "GEO-xxx ids are not repeated here: they resolve from the project source registry (Geopolitical Analyst catalogue), the same entries listed on /sources/. The 7 entries in source_registry are this file's own route sources; until they are added to the project registry they have no /sources/ anchor, so the map shows them as text with their URL."

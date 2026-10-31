@@ -845,27 +845,49 @@ html[dir=rtl] g.cs text{font:400 11px Naskh,'Noto Naskh Arabic',Tahoma,sans-seri
 @media (min-width:768px){g.cs text{font-size:11px}html[dir=rtl] g.cs text{font-size:12px}}
 #nob .csn{display:inline-block;font-size:12px;opacity:.9}
 .lgcs .sw{display:inline-block;width:24px;height:14px;border-radius:2px;vertical-align:middle;margin-inline-end:6px;background:rgba(125,135,144,.06);border:1px dashed #38424b;box-shadow:0 0 0 1px rgba(251,248,242,.9)}
-.lgcs p{font-size:12px;margin:.2em 0 0}`;document.head.appendChild(st)}
+.lgcs p{font-size:12px;margin:.2em 0 0}
+g.csz{pointer-events:none}g.csz.ia path.czo,g.csz.ia g.csm{pointer-events:visiblePainted;cursor:pointer}
+g.csz path.czo{fill:url(#conthatch);fill-opacity:.9;stroke:#e0a63e;stroke-width:1.5px;stroke-dasharray:6 4;vector-effect:non-scaling-stroke}g.csz.ov path.czo{fill:none}
+g.csz path.czo:focus{outline:none}g.csz path.czo:focus-visible{stroke:#fbf8f2;stroke-width:2.5px}
+g.csm .t{fill:transparent}g.csm .dc{fill:none;stroke:#fbf8f2;stroke-width:4.5px}g.csm .df{fill:#e0a63e;fill-opacity:.9}g.csm .dh{fill:url(#csmh)}g.csm .dr{fill:none;stroke:#0b141c;stroke-width:1.5px}
+g.csz.ia g.csm:hover .dm{transform:scale(1.21)}g.csm:focus{outline:none}g.csm:focus-visible .dr{stroke:#fbf8f2;stroke-width:2.5px}
+g.csm text{font:600 10px system-ui,-apple-system,'Segoe UI',sans-serif;fill:#f4ecd4;stroke:#0b141c;stroke-width:2.5px;paint-order:stroke;stroke-linejoin:round;pointer-events:none}html[dir=rtl] g.csm text{font:600 11px Naskh,'Noto Naskh Arabic',Tahoma,sans-serif}
+.lgcs .swz{background:repeating-linear-gradient(-45deg,#e0a63e 0 2px,transparent 2px 6px);border:1px dashed #e0a63e;box-shadow:none}.lgcs .swm{display:inline-block;width:11px;height:11px;margin:0 7px 0 5px;transform:rotate(45deg);vertical-align:middle;background:repeating-linear-gradient(45deg,#e0a63e 0 2px,#0b141c 2px 3px);border:1.5px solid #0b141c;box-shadow:0 0 0 1.5px #fbf8f2}html[dir=rtl] .lgcs .swm{margin:0 5px 0 7px}`;document.head.appendChild(st)}
 async function csLoad(e){if(!csHas(e))return[];if(!CSJ[e.id])CSJ[e.id]=getj(`/cs/${e.id}.json`).then(j=>((j&&j.features)||[]).map(rw)).catch(()=>[]);return CSJ[e.id]}
 const csIn=(p,e)=>TS==='play'?(p.a<=e.b&&p.b>=e.a):act({start:p.a,end:p.b},e,Y);
 const csNm=(p,sh)=>{const n=AR?(sh&&p.nsa)||p.na:(sh&&p.ns)||p.n;return n||(sh&&p.ns)||p.n};
-async function csDraw(e){const ov=TS==='play',ia=on.has('cs');if(!gCs)gCs=root.insert('g',()=>gX.node()).attr('class','cs');
+/* CONTESTED (style layer.contested_marker / zone_contested): overlap pieces (cz, split at build from sourced shapes) and Point markers (mk)
+   go in gCz above Sudan's extents and contested zones, below cities; a CONTESTED shape the build could not split (no ct property) stays unfilled (.ct); ct 'z'/'n' keep the neighbour style. */
+let gCz=null;const csSh=p=>!!(p.cw&&p.cw.length||(p.bd||[]).includes('CONTESTED'));
+function csDefs(){zdefs();if(document.getElementById('csmh'))return;svg.select('defs').each(function(){this.insertAdjacentHTML('beforeend','<pattern id="csmh" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="3" stroke="#0b141c" stroke-width=".8"/></pattern>')})}
+const csKey=f=>f.properties.id||f.properties.n;
+function csBind(sel,ia){if(ia)sel.attr('role','button').attr('tabindex',0).attr('aria-label',f=>{const p=f.properties;return `${csNm(p)} (${fy(p.a)} – ${fy(p.b)})`+(csSh(p)?(AR?' – متنازع عليها':' – contested'):'')}).on('click',(ev,f)=>{ev.stopPropagation();csCard(f.properties)}).on('keydown',(ev,f)=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();csCard(f.properties)}});
+ else sel.attr('role',null).attr('tabindex',null).attr('aria-label',null).on('click',null).on('keydown',null)}
+async function csDraw(e){const ov=TS==='play',ia=on.has('cs');if(!gCs)gCs=root.insert('g',()=>gX.node()).attr('class','cs');if(!gCz)gCz=root.insert('g',()=>gN.node()).attr('class','csz');
  const nb=$('nob');if(nb)nb.querySelectorAll('.csn').forEach(n=>n.remove());
- if(!M.layers.cs||!(ia||ov)){gCs.selectAll('*').remove();return}
- const F=(await csLoad(e)).filter(f=>csIn(f.properties,e));if(e!==ES[i])return;
- gCs.classed('ia',ia).classed('ov',!ia);
- if(ia&&!F.length&&nb)nb.insertAdjacentHTML('beforeend',`<span class="csn" role="note">${esc(AR?'لا توجد حدود موثقة للدول المجاورة في هذه الحقبة بعد *':'No sourced neighbouring-state shapes for this era yet.')}</span>`);
- const sh=p=>p.cw&&p.cw.length||(p.bd||[]).includes('CONTESTED');
- gCs.selectAll('path.csc').data(F,f=>f.properties.id||f.properties.n).join('path').attr('class','csc').attr('d',path);
- const a=gCs.selectAll('path.csa').data(F,f=>f.properties.id||f.properties.n).join('path').attr('d',path)
-  .attr('class',f=>{const p=f.properties,b=p.bd||[];return 'csa'+((b.includes('APPROXIMATE')||p.cf==='low')?' ap':'')+(b.includes('TRADITION')?' tr':'')+(sh(p)?' ct':'')});
- if(ia)a.attr('role','button').attr('tabindex',0).attr('aria-label',f=>`${csNm(f.properties)} (${fy(f.properties.a)} – ${fy(f.properties.b)})`).on('click',(ev,f)=>{ev.stopPropagation();csCard(f.properties)}).on('keydown',(ev,f)=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();csCard(f.properties)}});
- else a.attr('role',null).attr('tabindex',null).attr('aria-label',null).on('click',null).on('keydown',null);
+ if(!M.layers.cs||!(ia||ov)){gCs.selectAll('*').remove();gCz.selectAll('*').remove();return}
+ const A=(await csLoad(e)).filter(f=>csIn(f.properties,e));if(e!==ES[i])return;csDefs();
+ const F=A.filter(f=>f.geometry.type!=='Point'&&!f.properties.cz),Z=A.filter(f=>f.properties.cz&&f.geometry.type!=='Point'),P=A.filter(f=>f.geometry.type==='Point'&&f.properties.mk);
+ gCs.classed('ia',ia).classed('ov',!ia);gCz.classed('ia',ia).classed('ov',!ia);
+ if(ia&&!A.length&&nb)nb.insertAdjacentHTML('beforeend',`<span class="csn" role="note">${esc(AR?'لا توجد حدود موثقة للدول المجاورة في هذه الحقبة بعد *':'No sourced neighbouring-state shapes for this era yet.')}</span>`);
+ gCs.selectAll('path.csc').data(F,csKey).join('path').attr('class','csc').attr('d',path);
+ const a=gCs.selectAll('path.csa').data(F,csKey).join('path').attr('d',path)
+  .attr('class',f=>{const p=f.properties,b=p.bd||[];return 'csa'+((b.includes('APPROXIMATE')||p.cf==='low')?' ap':'')+(b.includes('TRADITION')?' tr':'')+(csSh(p)&&!p.ct?' ct':'')});
+ csBind(a,ia);
+ csBind(gCz.selectAll('path.czo').data(Z,csKey).join('path').attr('class','czo').attr('d',path),ia);
+ /* markers: diamond 14px (16px at <=360), 44px tap target, casing + amber fill + dark hatch + ring; label to the right (left in AR), hidden on phones */
+ const ph=innerWidth<600,ds=(innerWidth<=360?16:14)/Math.SQRT2,lb=!ph;
+ const m=gCz.selectAll('g.csm').data(P,csKey).join(n=>{const g=n.append('g').attr('class','csm mk');g.append('circle').attr('class','t').attr('r',22);const d=g.append('g').attr('class','dm');['dc','df','dh','dr'].forEach(c=>d.append('rect').attr('class',c));g.append('text').attr('dy','.35em');return g})
+  .each(function(f){this.__xy=proj(f.geometry.coordinates)}).attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`});
+ m.selectAll('g.dm rect').attr('x',-ds/2).attr('y',-ds/2).attr('width',ds).attr('height',ds).attr('transform','rotate(45)');
+ m.select('text').attr('text-anchor','start').attr('x',AR?-(ds*.75+4):ds*.75+4).attr('lang',f=>AR&&!f.properties.na&&!f.properties.nsa?'en':null).style('display',lb?null:'none').text(f=>csNm(f.properties,ph));
+ if(AR)m.select('text').attr('text-anchor','end');
+ csBind(m,ia);
  /* labels: lowest priority; largest projected area first, capped (3 on phones, 8 wider); hidden when the shape is tiny */
- const ph=innerWidth<600,mx=ph?3:8,mn=ph?1800:1200,L=F.map(f=>{let best=f;if(f.geometry.type==='MultiPolygon'){let A=-1;f.geometry.coordinates.forEach(c=>{const g={type:'Feature',geometry:{type:'Polygon',coordinates:c}},s=path.area(g);if(s>A){A=s;best=g}})}return{f,A:path.area(f)*K*K,c:path.centroid(best)}}).filter(o=>o.A>=mn&&isFinite(o.c[0])).sort((x,y)=>y.A-x.A).slice(0,mx);
+ const mx=ph?3:8,mn=ph?1800:1200,L=F.map(f=>{let best=f;if(f.geometry.type==='MultiPolygon'){let A=-1;f.geometry.coordinates.forEach(c=>{const g={type:'Feature',geometry:{type:'Polygon',coordinates:c}},s=path.area(g);if(s>A){A=s;best=g}})}return{f,A:path.area(f)*K*K,c:path.centroid(best)}}).filter(o=>o.A>=mn&&isFinite(o.c[0])).sort((x,y)=>y.A-x.A).slice(0,mx);
  gCs.selectAll('g.csl').data(L,o=>o.f.properties.id||o.f.properties.n).join(n=>{const g=n.append('g').attr('class','csl mk').attr('aria-hidden','true');g.append('text').attr('text-anchor','middle').attr('dy','.35em');return g})
   .each(function(o){this.__xy=o.c;const p=o.f.properties,b=p.bd||[];d3.select(this).select('text').attr('lang',AR&&!p.na&&!p.nsa?'en':null).text(csNm(p,ph)+(b.includes('SINGLE-SOURCE')?'¹':'')+(b.includes('EDITORIAL')?' ed.':'')+(b.includes('VERIFY')?' ?':''))}).attr('transform',function(){return `translate(${this.__xy})scale(${1/K})`});
- gCs.node().parentNode.insertBefore(gCs.node(),gX.node())}
+ gCs.node().parentNode.insertBefore(gCs.node(),gX.node());gCz.node().parentNode.insertBefore(gCz.node(),gN.node())}
 function csCard(p){const bl=(p.bd||[]).map(x=>{const l=BL[x];return RPBK(x,{st:l?'border-color:'+l[2]:''})}).join(' '),q=$('feat'),nm=AR?p.na:p.n,nt=AR?p.nta:p.nt;
  const rel=p.rel?{neighbour:['Neighbour','دولة مجاورة *'],concurrent:['Concurrent state','دولة معاصرة *'],suzerain:['Suzerain','دولة ذات سيادة عليا *'],tributary:['Tributary','دولة تابعة *']}[p.rel]:null,cf={high:['high','عالية *'],medium:['medium','متوسطة *'],low:['low','منخفضة *']}[p.cf];
  let h=`<button class="x" aria-label="${esc(T.close||'Close')}">×</button><h3>${nm?`<bdi>${esc(nm)}</bdi>`:`<bdi lang="en">${esc(p.n)}</bdi>`}${AR&&(p.va||!p.na)?vchipH():''}</h3>`
@@ -873,13 +895,19 @@ function csCard(p){const bl=(p.bd||[]).map(x=>{const l=BL[x];return RPBK(x,{st:l
   +(nt?`<p>${esc(nt)}${AR&&p.va&&p.nta?vchipH():''}</p>`:(AR&&p.nt?`<p><bdi lang="en">${esc(p.nt)}</bdi>${vchipH()}</p>`:''))
   +(cf?`<p class="sub">${esc(AR?'درجة الثقة *':'Confidence')}: ${esc(cf[AR?1:0])}</p>`:'')
   +(p.cw&&p.cw.length?`<p class="sub">${esc(AR?'متنازع عليها مع *':'Contested with')}: <bdi lang="en">${p.cw.map(esc).join(', ')}</bdi></p>`:'')
+  +(p.mk?`<p class="sub">${esc(AR?'منطقة متنازع عليها، الموقع فقط (بلا حدود مرسومة) *':'Contested area, location only (no mapped extent)')}</p>`:'')
+  +(p.cz?`<p class="sub">${esc(AR?'أرض متنازع عليها: يطالب بها أكثر من طرف، ولا تُرسم كأرض تابعة لأي منهم *':'Contested ground: claimed by more than one side; not drawn as held by any of them')}</p>`:'')
+  +(p.cl?`<p class="sub">${esc(AR?'الحدود مقصوصة عند حدود السودان *':"Outline clipped at Sudan's extent")}</p>`:'')
   +`<h4>${esc(AR?'المصادر':'Sources')}</h4><p class="extnote"><bdi dir="ltr"><a href="${esc(p.su)}" rel="noopener" target="_blank">${esc(p.st)}</a>${p.pg?', '+esc(p.pg):''}</bdi></p>`
   +(p.s||[]).map(c=>`<p class="extnote"><bdi dir="ltr">${c.u?`<a href="${esc(c.u)}" rel="noopener" target="_blank">${esc(c.c)}</a>`:esc(c.c)}</bdi></p>`).join('')
   +(p.gs||p.lic?`<p class="extnote"><bdi dir="ltr">${[p.gs,p.lic].filter(Boolean).map(esc).join(' · ')}</bdi></p>`:'');
  q.innerHTML=h;q.hidden=false;q.querySelector('.x').onclick=()=>{q.hidden=true}}
 {const b1=batDraw;batDraw=async e=>{await b1(e);await csDraw(e)}}
 {const l1=legendDraw;legendDraw=async e=>{await l1(e);const p=$('lgp');if(!p)return;p.querySelectorAll('.lgcs').forEach(n=>n.remove());if(!M.layers.cs||!(on.has('cs')||TS==='play')||e!==ES[i])return;const F=(await csLoad(e)).filter(f=>csIn(f.properties,e));if(!F.length||e!==ES[i])return;
- const x=document.createElement('div');x.className='lgcs';x.innerHTML=`<h4>${esc(AR?'الدول المجاورة والمعاصرة *':'Neighbouring and concurrent states')}</h4><ul><li role="listitem"><span class="sw" aria-hidden="true"></span><span>${esc(AR?'دولة مجاورة أو معاصرة (حدود موثقة) *':'Neighbouring or concurrent state (cited extent)')}</span></li></ul><p>${esc(AR?'مرسومة بلون أخف لإبراز حدود السودان نفسه. الحدود تقريبية. *':"Drawn lighter so Sudan's own extents stand out. Borders are approximate.")}</p>`;p.appendChild(x)}}
+ const x=document.createElement('div');x.className='lgcs';x.innerHTML=`<h4>${esc(AR?'الدول المجاورة والمعاصرة *':'Neighbouring and concurrent states')}</h4><ul><li role="listitem"><span class="sw" aria-hidden="true"></span><span>${esc(AR?'دولة مجاورة أو معاصرة (حدود موثقة) *':'Neighbouring or concurrent state (cited extent)')}</span></li></ul><p>${esc(AR?'مرسومة بلون أخف لإبراز حدود السودان نفسه. الحدود تقريبية. *':"Drawn lighter so Sudan's own extents stand out. Borders are approximate.")}</p>`;
+ const ul=x.querySelector('ul'),li=(c,t)=>ul.insertAdjacentHTML('beforeend',`<li role="listitem"><span class="${c}" aria-hidden="true"></span><span>${esc(t)}</span></li>`);
+ if(F.some(f=>f.geometry.type!=='Point'&&csSh(f.properties)))li('sw swz',AR?'متنازع عليها مع السودان أو دولة أخرى *':'Contested with Sudan or another state');
+ if(F.some(f=>f.geometry.type==='Point'&&f.properties.mk))li('swm',AR?'منطقة متنازع عليها، الموقع فقط (بلا حدود مرسومة) *':'Contested area, location only (no mapped extent)');p.appendChild(x)}}
 /* playback: the overview appears/disappears when the era tour starts or stops (touring class on <html>) */
 new MutationObserver(()=>{const t=document.documentElement.classList.contains('touring');if(t!==csDraw.t){csDraw.t=t;if(M.layers.cs&&!on.has('cs'))csDraw(ES[i]).then(()=>legendDraw(ES[i]))}}).observe(document.documentElement,{attributes:true,attributeFilter:['class']});
 // t224u: Layers button (top bar) opens one panel holding every layer toggle (#layers) and the legend (#lgp)
