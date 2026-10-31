@@ -9177,6 +9177,21 @@
     "accessed": "2026-10-30",
     "note": "Neighbouring-state layer (data/concurrent_states), 2023– features (badge REPORTED): Democratic Republic of the Congo outline in republic-of-south-sudan 2023–.",
     "id": "EXT_HDX_CODAB_COD"
+   },
+   "NBI_ENTRO_FLOOD_MANUAL_2010": {
+    "author": "Hydraulics Research Station (HRS), Ministry of Irrigation and Water Resources, Wad Medani, for ENTRO",
+    "title": "Flood Embankment Design, Operation and Maintenance Manual, Sudan",
+    "publisher": "Nile Basin Initiative – Eastern Nile Technical Regional Office (ENTRO)",
+    "date": "2010-03",
+    "year": "2010",
+    "url": "https://nilebasin.org/sites/default/files/2023-09/31%2520SDN_FIN_Flood_Embankment_Design.pdf",
+    "pages": "pp.8, 11–12",
+    "lang": "en",
+    "bias": "technical engineering manual (FPEW I project, World Bank supported); historic flood years listed without figures for 1946",
+    "accessed": "2026-10-31",
+    "verification": "PDF downloaded 2026-10-31 (HTTP 200, 123 pp., catalogue page https://nilebasin.org/node/12005 lists it as Open Access); p.8 quote checked against the PDF text layer",
+    "via": "db/disasters_pre1956.json",
+    "note": "p.8: \"Historically, high river levels caused huge flood damages in 1946, 1988, 1998, 2006, and 2007.\""
    }
   }
  },
