@@ -9118,12 +9118,65 @@
      "december-revolution-transition",
      "post-coup-military-rule-2021-2023",
      "war-in-sudan-saf-vs-rsf",
-     "derg-federal-ethiopia"
+     "derg-federal-ethiopia",
+     "republic-of-south-sudan"
     ],
     "verification": "downloaded and licence checked on HDX 2026-10-30",
     "accessed": "2026-10-30",
-    "note": "Neighbouring-state layer (data/concurrent_states), 2023– features (badge REPORTED). Used only to cut the Ilemi Triangle (included in both the Kenya and South Sudan COD-AB admin 0) out of South Sudan 2023–; Kenya itself is not drawn.",
+    "note": "Neighbouring-state layer (data/concurrent_states), 2023– features (badge REPORTED). Used to cut the Ilemi Triangle (included in both the Kenya and South Sudan COD-AB admin 0) out of South Sudan 2023– in the Sudan-centred files, and as the Kenya outline (Ilemi flagged as contested) in republic-of-south-sudan 2023–.",
     "id": "EXT_HDX_CODAB_KEN"
+   },
+   "EXT_HDX_CODAB_UGA": {
+    "author": "Uganda Bureau of Statistics with support from WHO",
+    "title": "Uganda – Subnational Administrative Boundaries (COD-AB v01, valid 2020-08-24)",
+    "publisher": "OCHA via HDX",
+    "year": "2020",
+    "url": "https://data.humdata.org/dataset/cod-ab-uga",
+    "pages": "",
+    "lang": "en",
+    "kind": "extents source",
+    "license": "CC BY-IGO",
+    "license_verdict": "open – reuse and derive OK (attribution)",
+    "derive_polygons": true,
+    "commercial_ok": true,
+    "attribution": "Uganda COD-AB v01, Uganda Bureau of Statistics with support from WHO, OCHA via HDX, CC BY-IGO",
+    "format": "vector GeoJSON admin 0 (admin0 polygon used only)",
+    "dates_covered": "valid 2020-08-24 (HDX modified 2026-09-24)",
+    "update_cadence": "ad hoc revisions",
+    "affiliation_bias": "UN humanitarian; government-agreed lines",
+    "era_ids": [
+     "republic-of-south-sudan"
+    ],
+    "verification": "downloaded and licence checked on HDX 2026-10-30",
+    "accessed": "2026-10-30",
+    "note": "Neighbouring-state layer (data/concurrent_states), 2023– features (badge REPORTED): Uganda outline in republic-of-south-sudan 2023–.",
+    "id": "EXT_HDX_CODAB_UGA"
+   },
+   "EXT_HDX_CODAB_COD": {
+    "author": "Referenciel Géographique Commun",
+    "title": "Democratic Republic of the Congo – Subnational Administrative Boundaries (COD-AB v01, valid 2019-09-11)",
+    "publisher": "OCHA via HDX",
+    "year": "2019",
+    "url": "https://data.humdata.org/dataset/cod-ab-cod",
+    "pages": "",
+    "lang": "en",
+    "kind": "extents source",
+    "license": "CC BY-IGO",
+    "license_verdict": "open – reuse and derive OK (attribution)",
+    "derive_polygons": true,
+    "commercial_ok": true,
+    "attribution": "Democratic Republic of the Congo COD-AB v01, Referenciel Géographique Commun, OCHA via HDX, CC BY-IGO",
+    "format": "vector GeoJSON admin 0 (admin0 polygon used only)",
+    "dates_covered": "valid 2019-09-11 (HDX modified 2026-04-16)",
+    "update_cadence": "ad hoc revisions",
+    "affiliation_bias": "UN humanitarian; government-agreed lines",
+    "era_ids": [
+     "republic-of-south-sudan"
+    ],
+    "verification": "downloaded and licence checked on HDX 2026-10-30",
+    "accessed": "2026-10-30",
+    "note": "Neighbouring-state layer (data/concurrent_states), 2023– features (badge REPORTED): Democratic Republic of the Congo outline in republic-of-south-sudan 2023–.",
+    "id": "EXT_HDX_CODAB_COD"
    }
   }
  },
