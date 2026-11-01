@@ -44,7 +44,8 @@ html[lang=ar] .hero h1{line-height:1.5}
 .jump a{display:inline-flex;align-items:center;gap:7px;min-height:44px;padding:4px 14px 4px 5px;padding-inline:5px 14px;border-radius:999px;background:var(--card);box-shadow:var(--sh);border:1px solid var(--cb);color:var(--ti);text-decoration:none;font-size:14px;transition:transform .4s var(--spr)}
 .jump a:active{transform:scale(.96)}
 .jump b{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--T);color:var(--A);font-size:13px;flex:none}
-.per{content-visibility:auto;margin:0 0 6px}
+/* QA 8070 (6): no content-visibility:auto on periods. With no contain-intrinsic-size, skipped (off-screen) sections laid out at 0 height, so their cards overlapped the cards of the next section; axe target-size then saw the h3 .go links as obscured by other cards' cite links (360px: 12 EN / 10 AR). Visual layout unchanged. */
+.per{margin:0 0 6px}
 .ph{position:sticky;top:var(--bh);z-index:10;margin:0;padding:6px 16px 0;min-height:44px;display:flex;align-items:baseline;gap:4px 10px;flex-wrap:wrap;font-size:22px;line-height:28px;font-weight:700;background:var(--barbg);-webkit-backdrop-filter:saturate(1.8) blur(20px);backdrop-filter:saturate(1.8) blur(20px)}
 html[lang=ar] .ph{font-size:24px;line-height:34px}
 .ph::after{content:"";position:absolute;inset-inline:16px;bottom:0;height:2px;border-radius:2px;background:var(--B);transform-origin:var(--o,left);transition:transform .35s var(--ease)}
