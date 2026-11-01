@@ -3023,7 +3023,9 @@
     "url": "https://unesdoc.unesco.org/ark:/48223/pf0000184290",
     "lang": "en",
     "note": "",
-    "via": "db/era_fill_hist20.json"
+    "via": "db/era_fill_hist20.json",
+    "quote": "p.187: \"The Kayra sultanate flourished from about 1640 to 1874. It was restored in 1898 and was finally annexed to the Anglo-Egyptian Sudan in 1916.\" | p.190: \"'Abd al-Raḥmān marked his victory by establishing a new fāshir (royal residence) at Khor Tandalti, east of Djabal Marra, in 1741–2. Until then the Fūr sultans had had no fixed capital. The growth of a permanent capital at al-Fāshir, and the consolidation of the centralizing forces and Islamizing influences in the reign of 'Abd al-Raḥmān marked the apogee of the Kayra sultanate.\" | p.191: \"On the death of 'Abd al-Raḥmān in 1801–2 his son Muhammad al-Faḍl succeeded him with the help of Muhammad Kurra.\"",
+    "verification": "verified 2026-10-31: quotes checked against the printed page images of the UNESCO GHA V PDF (printed p. = PDF p. − 27). The 1741–2 on p.190 sits against the 1801–2 death on p.191 and may be a misprint."
    },
    "GHA5_CH7_P178_188": {
     "author": "Y.F. Hasan & B.A. Ogot (ch.7)",
@@ -8883,8 +8885,10 @@
     "publisher": "HMSO",
     "year": "1905",
     "lang": "en",
-    "pages": "pp.126, 132, 134, 142 used",
+    "pages": "pp.49, 126, 132, 134, 142, 189, 190, 240, 257, 261, 268, 270, 274 used",
     "url": "https://archive.org/details/angloegyptiansud01gleiuoft",
+    "quote": "p.49: \"It is once again the capital of the Sudan and the seat of Government, though Omdurman still is, and Khartoum North will probably become in a few years, the principal trade centre.\" | p.189: \"The greater part of the army is quartered at El Fasher\" | p.190: \"The old capital was Kobe, but at the end of the 17th century it was moved to El Fasher which is now the chief town.\" | p.240: \"He considered that the natural outlet for the Sudan trade was from Berber to Suakin, and that the Nile railway idea was visionary.\" | p.257: \"General Graham was thereupon sent with a small British expedition of 4,000 to relieve Tokar, and having gained a brilliant victory at El Teb (29th February), succeeded in his task, and sent 600 of the Suakin Egyptian garrison back to Cairo.\" | p.261 (footnote): \"Surrendered to Ali Dinar at El Fasher in 1902 and now residing there.\" | pp.268/270: \"Ali Dinar, with the sanction of the Government, took over the Sultanate of Darfur, and proceeded to consolidate his position\" | p.274: \"Since 1898 Ali Dinar had been with some difficulty establishing himself on the throne of Darfur. He was appointed Government-Agent in that country, and in June, 1901, he began paying an annual tribute.\"",
+    "verification": "verified 2026-10-31: each quote checked against the Internet Archive page image of angloegyptiansud01gleiuoft (printed running heads read on each leaf; p.49 margin note 'Principal' is not part of the sentence; pp.268/270 are separated by a plate)",
     "note": "Colonial intelligence compendium (public domain); read via the Internet Archive OCR text. Outsider, 1904–05 administrative view; describes river-bank ranges, not surveyed limits."
    },
    "RIVERWAR1899_V1": {
@@ -12114,7 +12118,7 @@
     "GHA5_CH7",
     "GHA6_CH14"
    ],
-   "dating_note": "Start c.1640 (GHA V ch.7 p.187). O'Fahey 2008 gives c.1650 (page not confirmed); earlier value 1603. GHA VI ch.14 p.356: the Kayra 'ruled Därfür until 1874'. Older chronologies place Sulayman earlier; founding date genuinely uncertain. El Fasher date c.1790–91. Tunjur end aligned to c.1640 (GHA V ch.7 pp.187–188).",
+   "dating_note": "Start c.1640 (GHA V ch.7 p.187). O'Fahey 2008 gives c.1650 (page not confirmed); earlier value 1603. GHA VI ch.14 p.356: the Kayra 'ruled Därfür until 1874'. Older chronologies place Sulayman earlier; founding date genuinely uncertain. El Fasher, two dated readings: Gleichen 1905 (GLEICHEN1905_V1 p.190), the old capital Kobe was moved to El Fasher 'at the end of the 17th century'; GHA V ch.7 (GHA5_CH7 p.190), a new fāshir (royal residence) at Khor Tandalti in 1741–2, before which the sultans had no fixed capital, then 'the growth of a permanent capital at al-Fāshir'. GHA prints 1741–2 for 'Abd al-Rahman, whose death it gives as 1801–2 (p.191); the 1741–2 may be a misprint. Tunjur end aligned to c.1640 (GHA V ch.7 pp.187–188).",
    "key_events_ar": [
     "أسرة الكيرا من جبل مرة؛ المؤسس سليمان (سولونج) – يؤرخ أوفاهي السلطنة بنحو 1650–1916 [يحتاج تحقق]",
     "التوسع في كردفان في عهد محمد تيراب نحو 1785 [يحتاج تحقق]",
@@ -12140,7 +12144,7 @@
     ],
     "zones": [],
     "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
-    "dating": "Start c.1640 (GHA V ch.7 p.187). O'Fahey 2008 gives c.1650 (page not confirmed); earlier value 1603. GHA VI ch.14 p.356: the Kayra 'ruled Därfür until 1874'. Older chronologies place Sulayman earlier; founding date genuinely uncertain. El Fasher date c.1790–91. Tunjur end aligned to c.1640 (GHA V ch.7 pp.187–188)."
+    "dating": "Start c.1640 (GHA V ch.7 p.187). O'Fahey 2008 gives c.1650 (page not confirmed); earlier value 1603. GHA VI ch.14 p.356: the Kayra 'ruled Därfür until 1874'. Older chronologies place Sulayman earlier; founding date genuinely uncertain. El Fasher, two dated readings: Gleichen 1905 (GLEICHEN1905_V1 p.190), the old capital Kobe was moved to El Fasher 'at the end of the 17th century'; GHA V ch.7 (GHA5_CH7 p.190), a new fāshir (royal residence) at Khor Tandalti in 1741–2, before which the sultans had no fixed capital, then 'the growth of a permanent capital at al-Fāshir'. GHA prints 1741–2 for 'Abd al-Rahman, whose death it gives as 1801–2 (p.191); the 1741–2 may be a misprint. Tunjur end aligned to c.1640 (GHA V ch.7 pp.187–188)."
    }
   },
   {
