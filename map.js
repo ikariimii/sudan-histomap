@@ -355,7 +355,7 @@ async function layerInfo(e){const box=$('layerinfo');if(!box)return;setTimeout((
   else{const v=d.cities.filter(c=>cityVis(c,e)),nc=v.filter(c=>c.r[e.id]&&c.r[e.id].cap).length;h+=`<p class="lgap"><b>${T.l.cty}:</b> ${num(v.length)}${nc?` · ★ ${num(nc)}`:''}${d.stub?` <span class="gap">${esc(T.stub)}</span>`:''}</p>`;
   if(d.lo&&d.lo.length)h+=`<p class="lgap"><button class="lob" type="button">${esc(T.lolist)} (${num(d.lo.length)})</button></p>`}}
  box.innerHTML=h;legendDraw(e);const lb=box.querySelector('.lob');if(lb)lb.onclick=ev=>cityList(ev)}
-const RK={capital:['Capital','عاصمة'],garrison:['Garrison','حامية'],port:['Port','ميناء'],religious:['Religious centre','مركز ديني'],trade:['Trade centre','مركز تجاري']};
+const RK={capital:['Capital','عاصمة'],garrison:['Garrison','حامية'],port:['Port','ميناء'],religious:['Religious centre','مركز ديني'],trade:['Trade centre','مركز تجاري'],royal_residence:['Royal residence','مقر ملكي'],town:['Town','بلدة'],political_centre:['Political centre','مركز سياسي'],cult_centre:['Cult centre','مركز عبادة']};
 Object.assign(BL,{UNDATED:BL.UNDATED||['Undated','غير مؤرّخ'],APPROXIMATE:BL.APPROXIMATE||['Approximate','تقريبي']});/* old tags (AR-REVIEW, FIRST-ATTESTED, RUIN-UNDATED, LIST-ONLY, NO-DATE, APPROXIMATE-COORDS, LAST-ATTESTED) retired by c5bede0: canonical badges + card_notes */
 async function cityList(ev){ev.stopPropagation();const d=await cty();if(!d)return;const B=x=>`${RPBK(x)}`;
  $('feat').innerHTML=`<button class="x" aria-label="close">×</button><b>${esc(T.lolist)}</b><p class="gapt">${esc(T.lonote)}</p><ul class="lol">`+d.lo.map(c=>`<li>${AR?(c.ar||c.n_ar?`<bdi>${esc(c.ar||c.n_ar)}</bdi>`:`<bdi lang="en" dir="ltr">${esc(c.en||c.n_en)}</bdi>${vchipH()}`):`<bdi>${esc(c.en||c.n_en||c.ar)}</bdi>`} ${(c.b||[]).map(B).join(' ')}${c.why?(AR?(c.why_ar?`<br><small class="gapt">${esc(c.why_ar)}</small>`:`<br><small class="gapt" lang="en" dir="ltr">${esc(c.why)}</small>${vchipH()}`):`<br><small class="gapt">${esc(c.why)}</small>`):''}</li>`).join('')+'</ul>';
@@ -382,6 +382,7 @@ async function citiesDraw(e,D){const d=on.has('cty')?await cty():null;if(e!==ES[
 const CSH={capital:'M0,-7L2,-2.2L7,-2.2L3,1L4.5,6.5L0,3.2L-4.5,6.5L-3,1L-7,-2.2L-2,-2.2Z',garrison:'M-3.4,-3.4h6.8v6.8h-6.8z',trade:'M0,-4.6L4.6,0L0,4.6L-4.6,0Z',port:'M0,-4.4L4.4,3.6L-4.4,3.6Z',religious:'M-1.3,-4.4h2.6v3.1h3.1v2.6h-3.1v3.1h-2.6v-3.1h-3.1v-2.6h3.1z',other:'M-3.2,0a3.2,3.2 0 1,0 6.4,0a3.2,3.2 0 1,0 -6.4,0'};
 CSH.town='M0,-4L3.5,-2L3.5,2L0,4L-3.5,2L-3.5,-2Z';CSH.cult_centre='M0,4.4L4.4,-3.6L-4.4,-3.6Z';CSH.political_centre='M0,-4.6L4.4,-1.4L2.7,3.7L-2.7,3.7L-4.4,-1.4Z';
 CSH.ruin='M-3.6,0a3.6,3.6 0 1,0 7.2,0a3.6,3.6 0 1,0 -7.2,0';
+/* royal_residence (IM role for al-Daw, a09f915): filled light three-point crown, distinct from star/square/diamond/triangles/cross/hexagon/pentagon/dot/ruin; legend swatch uses the same CSH path (lgSw city_royal_residence) */CSH.royal_residence='M-4.6,3.6L-4.6,-3.4L-2.3,-0.4L0,-4.6L2.3,-0.4L4.6,-3.4L4.6,3.6Z';
 const cY=()=>Y!=null?Y:ES[i].b;
 function isRuin(c){const y=cY();if(!c.ru||c.f>y||(c.a!=null&&c.a<y))return false;if(Object.values(c.r).some(r=>(r.y0==null||r.y0<=y)&&(r.y1==null||y<=r.y1)))return false;return c.lr==null||y>c.lr}
 const cShape=c=>{if(isRuin(c))return CSH.ruin;const e=ES[i],r=c.r[e.id],kr=e.kc&&e.kc[c.id];return c.cap?CSH.capital:CSH[r&&r.k]||CSH[kr]||CSH.other};
@@ -483,7 +484,8 @@ function cityThin(){const e=ES[i],W=svg.node().clientWidth||390,H=svg.node().cli
   else ok=onS(bx)&&!boxes.some(b=>hit(b,bx));
   t.setAttribute('x',(AR!==fl)?-9:9);t.setAttribute('text-anchor',fl?'end':'start');if(ok)boxes.push(bx);t.style.display=ok?'':'none'})}
 /* QA fa69 (4) al-Daw: a [يحتاج تحقق] carried in a city name_ar / history_ar (db/cities.json) is the VERIFY chip (the card's VERIFY badge, or one chip if the card has none), never raw text */
-const vtS=t=>AR?String(t||'').replace(/\s*\[\s*يحتاج تحقق\s*\]/g,'').trim():t,vtC=(t,c)=>AR&&!(c.b||[]).includes('VERIFY')&&/\[\s*يحتاج تحقق\s*\]/.test(t||'')?vchipH():''/* the card's VERIFY badge is already the chip: never a second one */;
+/* city history_ar: the «[ترجمة عمل …]» working-translation tag is stripped the same way (db/cities.json, 17 list-only texts); history_ar_status 'needs native review' (c.json hs) is the one «ترجمة أولية» chip instead (wtS) */
+const vtS=t=>AR?String(t||'').replace(/\s*\[\s*يحتاج تحقق\s*\]/g,'').replace(/\s*\[\s*ترجمة عمل[^\]\[]*\]/g,'').trim():t,wtS=(t,c)=>AR&&c.h_ar&&t===c.h_ar&&(c.hs||/\[\s*ترجمة عمل/.test(t))?' '+WTCH():'',vtC=(t,c)=>AR&&!(c.b||[]).includes('VERIFY')&&/\[\s*يحتاج تحقق\s*\]/.test(t||'')?vchipH():''/* the card's VERIFY badge is already the chip: never a second one */;
 function cityTap(ev,c){ev.stopPropagation();const e=ES[i],r=c.r[e.id],d=CJ&&CJ.then?null:null;
  const B=x=>`${RPBK(x,{c:RPC(x)})}`;
  const rk=r&&RK[r.k],role=r?(AR?(r.ar||(rk&&rk[1])||r.en):(rk?rk[0]:(r.en||r.ar))):null;
@@ -491,7 +493,7 @@ function cityTap(ev,c){ev.stopPropagation();const e=ES[i],r=c.r[e.id],d=CJ&&CJ.t
   `<br><small>${esc(c.fb&&c.fb!=='founded'?T.firstatt:T.founded)}: <bdi>${fy(c.f)}</bdi>${c.fc?` [${esc(c.fc)}]`:''}${c.a!=null?` · ${esc(c.vb&&T['vb_'+c.vb]||T.abandoned)}: <bdi>${fy(c.a)}</bdi>`:(c.ru?` · ${esc(T.oe)}`:'')}</small>`+
   /* QA 8070 (2): AR with no role_ar in db/cities.json and no RK term: the EN role is never shown; the site's pending-AR line (NAR.pend) with the يحتاج تحقق chip, as for story beats */
   `<p><b>${esc(T.role)}:</b> ${role?(AR&&r&&!r.ar&&!rk?`<span class="gap">${esc(NAR.pend)}</span>${vchipH()}`:esc(role)):`<span class="gap">${esc(T.norole)}</span>`}</p>`+
-  ((AR?(c.h_ar||c.h_en):(c.h_en||c.h_ar))?`<p>${esc(vtS(AR?(c.h_ar||c.h_en):(c.h_en||c.h_ar)))}${vtC(AR?(c.h_ar||c.h_en):(c.h_en||c.h_ar),c)}</p>`:'')+
+  ((AR?(c.h_ar||c.h_en):(c.h_en||c.h_ar))?`<p>${esc(vtS(AR?(c.h_ar||c.h_en):(c.h_en||c.h_ar)))}${vtC(AR?(c.h_ar||c.h_en):(c.h_en||c.h_ar),c)}${wtS(AR?(c.h_ar||c.h_en):(c.h_en||c.h_ar),c)}</p>`:'')+
   `<p class="extnote">${c.s.map(x=>`<bdi dir="ltr">${esc(x.c)}${x.p?' · '+esc(x.p):''}</bdi>${x.u?` <a href="${esc(x.u)}" rel="noopener">${esc(T.lnk)}</a>`:''}`).join('<br>')}${r&&r.s&&r.s.length?`<br><small>${esc(T.role)}: <bdi dir="ltr">${cnS(r.s.map(esc).join(', '),c.s)/* QA fa69 (4) al-Daw: the role's source ids are links to the city's own sources, never raw ('GHA4_CH16') */}</bdi></small>`:''}</p>`+
   (M.layers.cStub?`<p class="gap">${esc(T.stub)}</p>`:'');
  $('feat').hidden=false;$('feat').querySelector('.x').onclick=()=>{$('feat').hidden=true};if($('sheet').classList.contains('peek'))snap('half')}
@@ -668,7 +670,9 @@ function btList(B,C){const s=$('btl');if(!s)return;const R=B.filter(b=>!b.ll).so
 /* card_notes (c5bede0): plain notes such as 'first attested (year, cite)' / 'end undated'; AR uses n.ar (tag stripped, VERIFY chip) else EN lang=en + chip */
 /* QA fa69 (4) al-Daw: a registry id in a city date note ('1365م (GHA4_CH16 ص404)') is a link to that source (the city's own c.s entry), never a raw id */
 const cnS=(h,S)=>(AR?h:h.replace(/\b([A-Z][A-Z0-9_]*[A-Z0-9]) (\d+(?:[–-]\d+)?)\)/g,'$1 p.$2)'))/* QA 4651 al-Daw: EN 'first attested (1365 CE, GHA4_CH16 404)' carries a bare page; it reads 'source p.404', not 'source 404' */.replace(/\b[A-Z][A-Z0-9_]*[A-Z0-9]\b/g,k=>{const x=(S||[]).find(z=>z.id===k&&z.u);return x?`<a class="kcite" href="${esc(x.u)}" rel="noopener" target="_blank" title="${esc(x.c+(x.p?' · '+x.p:''))}"${AR?' lang="en" dir="ltr"':''}>${AR?'المصدر':'source'}</a>`:k}),
-cnH=(a,S)=>(a&&a.length)?`<p class="cnote"><small>${a.map(n=>AR?(n.ar?cnS(esc(n.ar.replace(/\s*\[يحتاج تحقق\]/g,'')),S)+vchipH():`<span lang="en" dir="ltr">${cnS(esc(n.en),S)}</span>`+vchipH()):cnS(esc(n.en),S)).join(' · ')}</small></p>`:'';
+/* Web Lead 2026-11-01: AR template for EN-only 'first attested (Y BCE|CE, ID P)' notes, in the existing c.json AR form ('305 ق.م (GHA2_CH10 287)', al-Daw '1365م (GHA4_CH16 ص404)'): Y ق.م / Ym, id kept Latin, page as ص after a space; any other EN note stays lang=en */
+CNAR=t=>{const m=/^first attested \((\d+) (BCE|CE), ([A-Z][A-Z0-9]*(?:_[A-Z0-9]+)*) (\d+(?:[–-]\d+)?)\)$/.exec(String(t||''));return m?`${m[1]}${m[2]==='BCE'?' ق.م':'م'} (${m[3]} ص${m[4]})`:null},
+cnH=(a,S)=>(a&&a.length)?`<p class="cnote"><small>${a.map(n=>AR?((n.ar||CNAR(n.en))?(n.ar?cnS(esc(n.ar.replace(/\s*\[يحتاج تحقق\]/g,'')),S)+vchipH():cnS(esc(CNAR(n.en)),S)+vchipH()):`<span lang="en" dir="ltr">${cnS(esc(n.en),S)}</span>`+vchipH()):cnS(esc(n.en),S)).join(' · ')}</small></p>`:'';
 const ARDN=t=>`<span dir="auto">${esc(String(t||'').replace(/^\s*و\s+/,''))}</span>`.replace(/\s*\[متنازع عليه\]/g,()=>' '+RPBK('CONTESTED',{c:'cont'})).replace(/\s*\[يحتاج تحقق\]/g,()=>vchipH()),/* t38 F14: AR war date note (Reviewer Arabic) — its [متنازع عليه]/[يحتاج تحقق] tags leave the text and show as chips in place; a leading conjunction و is dropped */
 vchipH=()=>` <span class="vchip" lang="${AR?'ar':'en'}" aria-label="${esc(VFL)}">${esc(BL.VERIFY[AR?1:0])}</span>`;
 /* story mode (/story/wars.json): step through a war's battles in order, camera on the war's bbox, cited caption; manual steps only */
