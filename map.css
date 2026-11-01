@@ -11,6 +11,7 @@ a{color:#8cc8f0}button{font:inherit;color:inherit}
 .ext.low{stroke-dasharray:6 4}
 .ext.cont{fill:url(#hatch-cont);fill-opacity:1;stroke:#e0a63e;stroke-width:2}
 .pt rect{fill:var(--c,#e0a63e);stroke:#fff;stroke-width:1.4;cursor:pointer}.pt.low rect{fill:#fff;stroke:var(--c,#e0a63e);stroke-dasharray:2 2}
+/* IM 11:53: city-role reference point (al-Daw crown): legend_spec city_royal_residence fill/stroke; low certainty dashed as .pt.low */.pt path.cr{fill:#e8eef2;stroke:#0b141b;stroke-width:1.2;cursor:pointer}.pt.low path.cr{stroke-dasharray:2 1.5}
 .cap circle{fill:#fff;stroke:var(--bg);stroke-width:2}
 .lb{fill:#fff;font-size:12px;paint-order:stroke;stroke:#0f1b24;stroke-width:3.2px;stroke-linejoin:round;pointer-events:none}.lb.big{font-size:13px;font-weight:600;font-style:italic}
 .lb tspan.rep{font-size:9.5px;font-weight:700}.ld{stroke:#cfd8de;stroke-width:.8;stroke-opacity:.8}
