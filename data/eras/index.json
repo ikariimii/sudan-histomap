@@ -133,7 +133,7 @@
    "stream": "Sudan – Middle Nile",
    "start": 1504,
    "end": 1821,
-   "dating_note": "1504–1821: Funj victory over the 'Abdallabi at Arbaji in 1504 (GHA V ch.7 p.173); Turco-Egyptian forces take Sennar in 1821 (GHA V ch.7 p.185). Foundation by a Shilluk band is a tradition, not established fact [NO-SOURCE: no page read].",
+   "dating_note": "1504–1821: Funj victory over the 'Abdallabi at Arbaji in 1504 (GHA V ch.7 p.173); Turco-Egyptian forces take Sennar in 1821 (GHA V ch.7 p.185; GHA VI ch.14 p.356: the Sennar rulers 'capitulated to the Turkish rulers in 1821' after the sultanate's disintegration into 'weak and hostile shaykhdoms'). Foundation by a Shilluk band is a tradition, not established fact [NO-SOURCE: no page read].",
    "file": "data/eras/funj-sultanate-of-sennar.json"
   },
   {
@@ -271,9 +271,9 @@
    "name_en": "Sultanate of Darfur (Keira)",
    "name_ar": "سلطنة دارفور (الكيرا)",
    "stream": "Sudan – Darfur & Kordofan",
-   "start": 1650,
+   "start": 1640,
    "end": 1874,
-   "dating_note": "Start corrected 1603→c.1650 (O'Fahey 2008). Older chronologies place Sulayman earlier; founding date genuinely uncertain. El Fasher date c.1790–91.",
+   "dating_note": "Start c.1640 (GHA V ch.7 p.187). O'Fahey 2008 gives c.1650 (page not confirmed); earlier value 1603. GHA VI ch.14 p.356: the Kayra 'ruled Därfür until 1874'. Older chronologies place Sulayman earlier; founding date genuinely uncertain. El Fasher date c.1790–91. Tunjur end aligned to c.1640 (GHA V ch.7 pp.187–188).",
    "file": "data/eras/sultanate-of-darfur-keira.json"
   },
   {
@@ -293,7 +293,7 @@
    "stream": "Sudan – Darfur & Kordofan",
    "start": 1750,
    "end": 1969,
-   "dating_note": "[REPORTED] Origin story is oral tradition (HD2011 p.4). Founding c.1750 and end 1969 [NO-SOURCE]: not found in a source read. Holt & Daly: semi-autonomous after 1821 and integrated into Condominium local government; royal line claims Ja'ali holy-man ancestry.",
+   "dating_note": "Founding c.1750 and end 1969 [NO-SOURCE]: not found in a source read. Takana places the rise of Tagali in the 17th century (p.129), and GHA V ch.7 p.177 already calls Takali 'the newly established Islamized kingdom' in its account of the Fundj expansion, so c.1750 may be too late (VERIFY).",
    "file": "data/eras/kingdom-of-taqali.json"
   },
   {
@@ -613,7 +613,7 @@
    "stream": "Sudan – Middle Nile",
    "start": 1480,
    "end": 1821,
-   "dating_note": "Start 'late 15th c.' per Holt & Daly; 1480 is approximate. Qarri coordinates from Wikidata (settlement, approximate). End 1821 = Turco-Egyptian conquest.",
+   "dating_note": "Start 'during the second half of the fifteenth century' (GHA V ch.7 p.172); 1480 is approximate. Qarri coordinates from Wikidata (settlement, approximate). End 1821 = Turco-Egyptian conquest (GHA V ch.7 p.173 gives 1820).",
    "file": "data/eras/abdallab-chiefdom-funj-vassal.json"
   },
   {
@@ -623,7 +623,7 @@
    "stream": "Sudan – Middle Nile",
    "start": 1500,
    "end": 1821,
-   "dating_note": "'From the sixteenth century' (Holt & Daly); 1500 approximate.",
+   "dating_note": "1500 is approximate: no source read gives a founding date.",
    "file": "data/eras/ja-aliyyin-kingdom-sa-dab-funj-vassal.json"
   },
   {
