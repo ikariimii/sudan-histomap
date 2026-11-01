@@ -13,7 +13,7 @@
    "stream": "Sudan – Middle Nile",
    "start": -8500,
    "end": -5000,
-   "dating_note": "Corrected -8000/-4900 -> c.8500–5000 cal BC for Early Khartoum ceramics of central Sudan (Garcea/Jesse et al., African Archaeological Review 2021 review). Northern 'Khartoum Variant' is c.8000–4900 cal BC. Site point = city-level approximation.",
+   "dating_note": "c.8500–5000 cal BC for Early Khartoum ceramics of central Sudan (Garcea/Jesse et al., African Archaeological Review 2021 review). Northern 'Khartoum Variant' is c.8000–4900 cal BC. Site point = city-level approximation.",
    "file": "data/eras/khartoum-mesolithic-early-khartoum.json"
   },
   {
@@ -23,7 +23,7 @@
    "stream": "Sudan – Middle Nile",
    "start": -4900,
    "end": -3800,
-   "dating_note": "Approximate; site coordinates from Wikidata (Esh-Shaheinab corrected from 16.13N). Kadero added as second Khartoum Neolithic site (coordinates approximate, Wikidata).",
+   "dating_note": "Approximate; site coordinates from Wikidata. Kadero added as second Khartoum Neolithic site (coordinates approximate, Wikidata).",
    "file": "data/eras/khartoum-neolithic-shaheinab.json"
   },
   {
@@ -33,7 +33,7 @@
    "stream": "Sudan – Middle Nile",
    "start": -3800,
    "end": -2900,
-   "dating_note": "UNESCO GHA II ch.9 (Sherif) places the A-Group's flowering c.3100 BCE, contemporary with Egypt's 1st Dynasty; -3800 start is a broad conventional bracket. Qustul coordinates corrected (Wikidata).",
+   "dating_note": "UNESCO GHA II ch.9 (Sherif) places the A-Group's flowering c.3100 BCE, contemporary with Egypt's 1st Dynasty; -3800 start is a broad conventional bracket. Qustul coordinates (Wikidata).",
    "file": "data/eras/a-group-lower-nubia.json"
   },
   {
@@ -53,7 +53,7 @@
    "stream": "Sudan – Middle Nile",
    "start": -2450,
    "end": -1480,
-   "dating_note": "Swiss mission chronology: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE; 'A fourth period, called Final Kerma, denotes the transition between the end of the kingdom and the Egyptian occupation (circa 1480-1450 B.C.)' (KERMA_MISSION 'History'). VERIFY: era end -1480 follows the mission's end of the kingdom ('Classic Kerma (circa 1750-1480 B.C.)'; chronology table 'Egyptian Occupation 1480-1080'), Final Kerma c.1480–1450 being the transition to Egyptian occupation (IM ruling 2026-10-27; replaces -1450, set in commit 514af38 era on a source since banned). End dates differ: GHA II p.258 heads its Kerma section 'Kerma (—1730 to —1580)', i.e. an end c.1580 BCE (GHA2_CH9 p.258); the Swiss mission dates Classic Kerma '(circa 1750-1480 B.C.)', i.e. an end of the kingdom c.1480 BCE (KERMA_MISSION 'History').",
+   "dating_note": "Swiss mission chronology: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE; 'A fourth period, called Final Kerma, denotes the transition between the end of the kingdom and the Egyptian occupation (circa 1480-1450 B.C.)' (KERMA_MISSION 'History'). VERIFY: era end -1480 follows the mission's end of the kingdom ('Classic Kerma (circa 1750-1480 B.C.)'; chronology table 'Egyptian Occupation 1480-1080'), Final Kerma c.1480–1450 being the transition to Egyptian occupation. End dates differ: GHA II p.258 heads its Kerma section 'Kerma (—1730 to —1580)', i.e. an end c.1580 BCE (GHA2_CH9 p.258); the Swiss mission dates Classic Kerma '(circa 1750-1480 B.C.)', i.e. an end of the kingdom c.1480 BCE (KERMA_MISSION 'History').",
    "file": "data/eras/kingdom-of-kerma.json"
   },
   {
@@ -103,7 +103,7 @@
    "stream": "Sudan – Middle Nile",
    "start": 400,
    "end": 700,
-   "dating_note": "Christianisation c.543 and merger with Makuria (7th c.) per standard accounts; specific dates not re-verified in a primary source in this pass. Merger with Makuria: date disputed. GHA II ch.12 (Michałowski, pp.332–333) gives two versions: Maqrizi has one king, Qalidurut, ruling central and northern Nubia by the mid-7th c.; 'Christian sources seem to prove that the union of Nubia was the work of King Merkurios, who came to the throne in 697.' Derda & Łajtar (2019, p.136 and n.4): 'perhaps around 630'; the earliest indubitable proof of a greater Makuria including Nobadia is the reign of Merkurios (late 7th–early 8th c.); incorporation probably before the Arab raid on Dongola in 652; Godlewski has suggested the end of the 6th c. Welsby 2002 not read on this point.",
+   "dating_note": "Christianisation c.543 and merger with Makuria (7th c.) per standard accounts; specific dates not re-verified in a primary source. Merger with Makuria: date disputed. GHA II ch.12 (Michałowski, pp.332–333) gives two versions: Maqrizi has one king, Qalidurut, ruling central and northern Nubia by the mid-7th c.; 'Christian sources seem to prove that the union of Nubia was the work of King Merkurios, who came to the throne in 697.' Derda & Łajtar (2019, p.136 and n.4): 'perhaps around 630'; the earliest indubitable proof of a greater Makuria including Nobadia is the reign of Merkurios (late 7th–early 8th c.); incorporation probably before the Arab raid on Dongola in 652; Godlewski has suggested the end of the 6th c. Welsby 2002 not read on this point.",
    "file": "data/eras/nobadia.json"
   },
   {
@@ -263,7 +263,7 @@
    "stream": "Sudan – Darfur & Kordofan",
    "start": 1400,
    "end": 1650,
-   "dating_note": "Approximate. Ain Farah corrected 15.0N 24.9E -> 14.2657N 24.3161E (2nd Wikidata statement; matches de/ar Wikipedia). Wikidata's other value 16.76N 29.19E (repeated on rainerebert.com) lies outside Darfur and is rejected. MEDIUM confidence: the descriptive '15 km NW of Kutum' does not fit (point is c.35 km W of Kutum); no excavation-report coordinate found.",
+   "dating_note": "Approximate. Ain Farah 14.2657N 24.3161E (2nd Wikidata statement; matches de/ar Wikipedia). Wikidata's other value 16.76N 29.19E (repeated on rainerebert.com) lies outside Darfur and is rejected. MEDIUM confidence: the descriptive '15 km NW of Kutum' does not fit (point is c.35 km W of Kutum); no excavation-report coordinate found.",
    "file": "data/eras/tunjur-kingdom.json"
   },
   {
@@ -637,7 +637,7 @@
    "file": "data/eras/musabba-at-sultanate-kordofan.json"
   }
  ],
- "sub_eras_note": "sub_eras are short alias ids (IM 2026-10-30) for child eras already defined in data/periods.json (parent field); they are not extra entries in eras and do not change the era count. era_id is the existing slug used by db/legends/eras and data/concurrent_states. Exception: tmc-2019 is a dated span inside december-revolution-transition with no child era of its own (era_id = that era).",
+ "sub_eras_note": "sub_eras are short alias ids (IM 2026-10-30) for child eras already defined in data/periods.json (parent field); they are not extra entries in eras and do not change the era count. era_id is the existing slug used by the era legends and the concurrent-states layer. Exception: tmc-2019 is a dated span inside december-revolution-transition with no child era of its own (era_id = that era).",
  "sub_eras": [
   {
    "id": "tmc",

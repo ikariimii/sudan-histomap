@@ -399,7 +399,7 @@
    },
    "BRE_AES": {
     "alias_of": "RU_BRE_ORLOV",
-    "title": "Англо-Египетский Судан (alias of RU_BRE_ORLOV)",
+    "title": "Англо-Египетский Судан",
     "url": "https://web.archive.org/web/2024/https://old.bigenc.ru/world_history/text/1821574"
    },
    "CAR_CONST2016": {
@@ -8974,7 +8974,7 @@
    },
    "UNSC2046": {
     "alias_of": "S_RES_2046",
-    "title": "UN Security Council Resolution 2046 (2012), S/RES/2046(2012), 2 May 2012 (alias of S_RES_2046)",
+    "title": "UN Security Council Resolution 2046 (2012), S/RES/2046(2012), 2 May 2012",
     "url": "https://documents.un.org/api/symbol/access?s=S/RES/2046(2012)&l=en&t=pdf"
    },
    "OHCHR_SK2011": {
@@ -10627,6 +10627,20 @@
     "verification": "free PDF from the Doha Institute site downloaded 2026-10-31 (16 pp., sha1 34d08101e4d025089e1631e29ed2a21675ced8ff); printed page = PDF page + 47. The PDF text layer has broken Arabic glyph mapping; the quote is restored from it and was checked against the printed p.52 page image by the Arabic Reviewer (2026-10-31)",
     "note": "p.52: the Presidency added Mile 14 as a fifth disputed area after South Sudan claimed it, south of the Bahr al-Arab on the East Darfur / Northern Bahr el Ghazal boundary. p.54: in 1924 the Whittle–Munro committee adopted the '14 mile' line as the Rizeigat boundary in the Malwal Dinka areas and in its extension into the Western District and Raga. p.55 n.37 cites Radio Dabanga (28 Sep 2013) and HSBA 'The 14-Mile Area' (27 Sep 2013).",
     "via": "Map Designer request (Mile 14 / East Darfur card facts)"
+   },
+   "ADAMS1977": {
+    "id": "ADAMS1977",
+    "author": "W.Y. Adams",
+    "title": "Nubia: Corridor to Africa",
+    "publisher": "Princeton University Press",
+    "year": "1977",
+    "edition": "print edition only",
+    "pages": "p.535; n.118 p.752",
+    "url": "",
+    "url_status": "no-url: in copyright; no online copy linked",
+    "note": "in copyright; no online copy linked",
+    "registry_note": "also read: pp.511, 526, 530",
+    "lang": "en"
    }
   }
  },
@@ -10652,7 +10666,7 @@
    "sources": [
     "AAR2021"
    ],
-   "dating_note": "Corrected -8000/-4900 -> c.8500–5000 cal BC for Early Khartoum ceramics of central Sudan (Garcea/Jesse et al., African Archaeological Review 2021 review). Northern 'Khartoum Variant' is c.8000–4900 cal BC. Site point = city-level approximation.",
+   "dating_note": "c.8500–5000 cal BC for Early Khartoum ceramics of central Sudan (Garcea/Jesse et al., African Archaeological Review 2021 review). Northern 'Khartoum Variant' is c.8000–4900 cal BC. Site point = city-level approximation.",
    "key_events_ar": [
     "مستوطنات صيد الأسماك والقنص على ضفاف النيل قرب الخرطوم",
     "فخار الخطوط المتموجة من أقدم الفخار في أفريقيا [يحتاج تحقق]"
@@ -10666,7 +10680,7 @@
     ],
     "zones": [],
     "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
-    "dating": "Corrected -8000/-4900 -> c.8500–5000 cal BC for Early Khartoum ceramics of central Sudan (Garcea/Jesse et al., African Archaeological Review 2021 review). Northern 'Khartoum Variant' is c.8000–4900 cal BC. Site point = city-level approximation."
+    "dating": "c.8500–5000 cal BC for Early Khartoum ceramics of central Sudan (Garcea/Jesse et al., African Archaeological Review 2021 review). Northern 'Khartoum Variant' is c.8000–4900 cal BC. Site point = city-level approximation."
    }
   },
   {
@@ -10695,7 +10709,7 @@
     "WD:Q109284524",
     "WD:Q109284535"
    ],
-   "dating_note": "Approximate; site coordinates from Wikidata (Esh-Shaheinab corrected from 16.13N). Kadero added as second Khartoum Neolithic site (coordinates approximate, Wikidata).",
+   "dating_note": "Approximate; site coordinates from Wikidata. Kadero added as second Khartoum Neolithic site (coordinates approximate, Wikidata).",
    "key_events_ar": [
     ""
    ],
@@ -10712,7 +10726,7 @@
     ],
     "zones": [],
     "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
-    "dating": "Approximate; site coordinates from Wikidata (Esh-Shaheinab corrected from 16.13N). Kadero added as second Khartoum Neolithic site (coordinates approximate, Wikidata)."
+    "dating": "Approximate; site coordinates from Wikidata. Kadero added as second Khartoum Neolithic site (coordinates approximate, Wikidata)."
    }
   },
   {
@@ -10741,7 +10755,7 @@
     "GHA2_CH19",
     "WP:A-Group_culture"
    ],
-   "dating_note": "UNESCO GHA II ch.9 (Sherif) places the A-Group's flowering c.3100 BCE, contemporary with Egypt's 1st Dynasty; -3800 start is a broad conventional bracket. Qustul coordinates corrected (Wikidata).",
+   "dating_note": "UNESCO GHA II ch.9 (Sherif) places the A-Group's flowering c.3100 BCE, contemporary with Egypt's 1st Dynasty; -3800 start is a broad conventional bracket. Qustul coordinates (Wikidata).",
    "key_events_ar": [
     "تجارة مع مصر في عصر ما قبل الأسرات والأسرات المبكرة"
    ],
@@ -10761,7 +10775,7 @@
       "plain_en": "Zone of influence: moderate confidence (0.35)."
      }
     ],
-    "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
+    "note": "Source pages and zone confidence come from the border-draft sign-off (2026-10-24). The borders are drafts, not live."
    }
   },
   {
@@ -10806,7 +10820,7 @@
       "plain_en": "Zone of influence: moderate confidence (0.35)."
      }
     ],
-    "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
+    "note": "Source pages and zone confidence come from the border-draft sign-off (2026-10-24). The borders are drafts, not live."
    }
   },
   {
@@ -10834,7 +10848,7 @@
     "GHA2_CH9",
     "KERMA_MISSION"
    ],
-   "dating_note": "Swiss mission chronology: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE; 'A fourth period, called Final Kerma, denotes the transition between the end of the kingdom and the Egyptian occupation (circa 1480-1450 B.C.)' (KERMA_MISSION 'History'). VERIFY: era end -1480 follows the mission's end of the kingdom ('Classic Kerma (circa 1750-1480 B.C.)'; chronology table 'Egyptian Occupation 1480-1080'), Final Kerma c.1480–1450 being the transition to Egyptian occupation (IM ruling 2026-10-27; replaces -1450, set in commit 514af38 era on a source since banned). End dates differ: GHA II p.258 heads its Kerma section 'Kerma (—1730 to —1580)', i.e. an end c.1580 BCE (GHA2_CH9 p.258); the Swiss mission dates Classic Kerma '(circa 1750-1480 B.C.)', i.e. an end of the kingdom c.1480 BCE (KERMA_MISSION 'History').",
+   "dating_note": "Swiss mission chronology: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE; 'A fourth period, called Final Kerma, denotes the transition between the end of the kingdom and the Egyptian occupation (circa 1480-1450 B.C.)' (KERMA_MISSION 'History'). VERIFY: era end -1480 follows the mission's end of the kingdom ('Classic Kerma (circa 1750-1480 B.C.)'; chronology table 'Egyptian Occupation 1480-1080'), Final Kerma c.1480–1450 being the transition to Egyptian occupation. End dates differ: GHA II p.258 heads its Kerma section 'Kerma (—1730 to —1580)', i.e. an end c.1580 BCE (GHA2_CH9 p.258); the Swiss mission dates Classic Kerma '(circa 1750-1480 B.C.)', i.e. an end of the kingdom c.1480 BCE (KERMA_MISSION 'History').",
    "key_events_ar": [
     "الدفوفة الغربية: كتلة مصمتة من الطوب اللبن غرضها موضع خلاف؛ وفي كرمة الكلاسيكية صارت تشبه معبدًا مصريًا (GHA2_CH9 pp.259–261؛ KERMA_MISSION ‘History’) [يحتاج تحقق]",
     "عاصمة أول مملكة في أفريقيا جنوب الصحراء؛ تمتد المدينة والجبانة نحو 2500–1500 ق.م (KERMA_MISSION 'History') [يحتاج تحقق]",
@@ -10860,7 +10874,7 @@
     ],
     "zones": [],
     "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
-    "dating": "Swiss mission chronology: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE; 'A fourth period, called Final Kerma, denotes the transition between the end of the kingdom and the Egyptian occupation (circa 1480-1450 B.C.)' (KERMA_MISSION 'History'). VERIFY: era end -1480 follows the mission's end of the kingdom ('Classic Kerma (circa 1750-1480 B.C.)'; chronology table 'Egyptian Occupation 1480-1080'), Final Kerma c.1480–1450 being the transition to Egyptian occupation (IM ruling 2026-10-27; replaces -1450, set in commit 514af38 era on a source since banned). End dates differ: GHA II p.258 heads its Kerma section 'Kerma (—1730 to —1580)', i.e. an end c.1580 BCE (GHA2_CH9 p.258); the Swiss mission dates Classic Kerma '(circa 1750-1480 B.C.)', i.e. an end of the kingdom c.1480 BCE (KERMA_MISSION 'History')."
+    "dating": "Swiss mission chronology: Early Kerma c.2450–2050, Middle c.2050–1750, Classic c.1750–1480 BCE; 'A fourth period, called Final Kerma, denotes the transition between the end of the kingdom and the Egyptian occupation (circa 1480-1450 B.C.)' (KERMA_MISSION 'History'). VERIFY: era end -1480 follows the mission's end of the kingdom ('Classic Kerma (circa 1750-1480 B.C.)'; chronology table 'Egyptian Occupation 1480-1080'), Final Kerma c.1480–1450 being the transition to Egyptian occupation. End dates differ: GHA II p.258 heads its Kerma section 'Kerma (—1730 to —1580)', i.e. an end c.1580 BCE (GHA2_CH9 p.258); the Swiss mission dates Classic Kerma '(circa 1750-1480 B.C.)', i.e. an end of the kingdom c.1480 BCE (KERMA_MISSION 'History')."
    }
   },
   {
@@ -10933,7 +10947,7 @@
       "plain_en": "Claimed limit: fairly high confidence (0.6)."
      }
     ],
-    "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
+    "note": "Source pages and zone confidence come from the border-draft sign-off (2026-10-24). The borders are drafts, not live."
    }
   },
   {
@@ -11211,7 +11225,7 @@
     "GHA2_CH12",
     "DERDA_LAJTAR2019"
    ],
-   "dating_note": "Christianisation c.543 and merger with Makuria (7th c.) per standard accounts; specific dates not re-verified in a primary source in this pass. Merger with Makuria: date disputed. GHA II ch.12 (Michałowski, pp.332–333) gives two versions: Maqrizi has one king, Qalidurut, ruling central and northern Nubia by the mid-7th c.; 'Christian sources seem to prove that the union of Nubia was the work of King Merkurios, who came to the throne in 697.' Derda & Łajtar (2019, p.136 and n.4): 'perhaps around 630'; the earliest indubitable proof of a greater Makuria including Nobadia is the reign of Merkurios (late 7th–early 8th c.); incorporation probably before the Arab raid on Dongola in 652; Godlewski has suggested the end of the 6th c. Welsby 2002 not read on this point.",
+   "dating_note": "Christianisation c.543 and merger with Makuria (7th c.) per standard accounts; specific dates not re-verified in a primary source. Merger with Makuria: date disputed. GHA II ch.12 (Michałowski, pp.332–333) gives two versions: Maqrizi has one king, Qalidurut, ruling central and northern Nubia by the mid-7th c.; 'Christian sources seem to prove that the union of Nubia was the work of King Merkurios, who came to the throne in 697.' Derda & Łajtar (2019, p.136 and n.4): 'perhaps around 630'; the earliest indubitable proof of a greater Makuria including Nobadia is the reign of Merkurios (late 7th–early 8th c.); incorporation probably before the Arab raid on Dongola in 652; Godlewski has suggested the end of the 6th c. Welsby 2002 not read on this point.",
    "key_events_ar": [
     "اعتنقت المسيحية نحو 543 م",
     "اندمجت في المقرة في القرن السابع"
@@ -11242,7 +11256,7 @@
     ],
     "zones": [],
     "note": "Sources are the era's registered cites (data/periods.json). No border draft exists for this era, so there is no zone confidence. Page references are given in the claim-level cites where checked; otherwise VERIFY.",
-    "dating": "Christianisation c.543 and merger with Makuria (7th c.) per standard accounts; specific dates not re-verified in a primary source in this pass. Merger with Makuria: date disputed. GHA II ch.12 (Michałowski, pp.332–333) gives two versions: Maqrizi has one king, Qalidurut, ruling central and northern Nubia by the mid-7th c.; 'Christian sources seem to prove that the union of Nubia was the work of King Merkurios, who came to the throne in 697.' Derda & Łajtar (2019, p.136 and n.4): 'perhaps around 630'; the earliest indubitable proof of a greater Makuria including Nobadia is the reign of Merkurios (late 7th–early 8th c.); incorporation probably before the Arab raid on Dongola in 652; Godlewski has suggested the end of the 6th c. Welsby 2002 not read on this point."
+    "dating": "Christianisation c.543 and merger with Makuria (7th c.) per standard accounts; specific dates not re-verified in a primary source. Merger with Makuria: date disputed. GHA II ch.12 (Michałowski, pp.332–333) gives two versions: Maqrizi has one king, Qalidurut, ruling central and northern Nubia by the mid-7th c.; 'Christian sources seem to prove that the union of Nubia was the work of King Merkurios, who came to the throne in 697.' Derda & Łajtar (2019, p.136 and n.4): 'perhaps around 630'; the earliest indubitable proof of a greater Makuria including Nobadia is the reign of Merkurios (late 7th–early 8th c.); incorporation probably before the Arab raid on Dongola in 652; Godlewski has suggested the end of the 6th c. Welsby 2002 not read on this point."
    }
   },
   {
@@ -11387,7 +11401,7 @@
       "plain_en": "Claimed limit: low confidence (0.25)."
      }
     ],
-    "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
+    "note": "Source pages and zone confidence come from the border-draft sign-off (2026-10-24). The borders are drafts, not live."
    }
   },
   {
@@ -11456,7 +11470,7 @@
       "plain_en": "Claimed limit: moderate confidence (0.35); not yet verified."
      }
     ],
-    "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
+    "note": "Source pages and zone confidence come from the border-draft sign-off (2026-10-24). The borders are drafts, not live."
    }
   },
   {
@@ -12040,7 +12054,7 @@
       "plain_en": "Core territory: low confidence (0.3)."
      }
     ],
-    "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
+    "note": "Source pages and zone confidence come from the border-draft sign-off (2026-10-24). The borders are drafts, not live."
    }
   },
   {
@@ -12066,7 +12080,7 @@
     "WP:Tunjur_people",
     "GHA5_CH7"
    ],
-   "dating_note": "End c.1640, aligned with the Keira start c.1640 (GHA V ch.7 p.187); GHA V ch.7 p.188: Sulayman Solongdungu (c.1640–60) 'drove out the Tundjür'. Previous end 1650 had no page cite. Approximate. Ain Farah corrected 15.0N 24.9E -> 14.2657N 24.3161E (2nd Wikidata statement; matches de/ar Wikipedia). Wikidata's other value 16.76N 29.19E (repeated on rainerebert.com) lies outside Darfur and is rejected. MEDIUM confidence: the descriptive '15 km NW of Kutum' does not fit (point is c.35 km W of Kutum); no excavation-report coordinate found.",
+   "dating_note": "End c.1640, aligned with the Keira start c.1640 (GHA V ch.7 p.187); GHA V ch.7 p.188: Sulayman Solongdungu (c.1640–60) 'drove out the Tundjür'. Approximate. Ain Farah 14.2657N 24.3161E (2nd Wikidata statement; matches de/ar Wikipedia). Wikidata's other value 16.76N 29.19E (repeated on rainerebert.com) lies outside Darfur and is rejected. MEDIUM confidence: the descriptive '15 km NW of Kutum' does not fit (point is c.35 km W of Kutum); no excavation-report coordinate found.",
    "key_events_ar": [
     "حكموا دارفور ووداي قبل الكيرا"
    ],
@@ -12091,7 +12105,7 @@
       "plain_en": "Core territory: moderate confidence (0.35)."
      }
     ],
-    "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
+    "note": "Source pages and zone confidence come from the border-draft sign-off (2026-10-24). The borders are drafts, not live."
    }
   },
   {
@@ -12197,7 +12211,7 @@
       "plain_en": "Core territory: moderate confidence (0.5)."
      }
     ],
-    "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
+    "note": "Source pages and zone confidence come from the border-draft sign-off (2026-10-24). The borders are drafts, not live."
    }
   },
   {
@@ -12242,7 +12256,7 @@
       "plain_en": "Core territory: moderate confidence (0.4)."
      }
     ],
-    "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
+    "note": "Source pages and zone confidence come from the border-draft sign-off (2026-10-24). The borders are drafts, not live."
    }
   },
   {
@@ -12454,7 +12468,7 @@
       "plain_en": "Claimed limit: fairly high confidence (0.6)."
      }
     ],
-    "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
+    "note": "Source pages and zone confidence come from the border-draft sign-off (2026-10-24). The borders are drafts, not live."
    }
   },
   {
@@ -12598,7 +12612,7 @@
       "plain_en": "Contested zone: moderate confidence (0.4) – drawn as a single point, not an area."
      }
     ],
-    "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
+    "note": "Source pages and zone confidence come from the border-draft sign-off (2026-10-24). The borders are drafts, not live."
    }
   },
   {
@@ -12655,7 +12669,7 @@
       "plain_en": "Claimed limit: moderate confidence (0.5)."
      }
     ],
-    "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
+    "note": "Source pages and zone confidence come from the border-draft sign-off (2026-10-24). The borders are drafts, not live."
    }
   },
   {
@@ -13655,7 +13669,7 @@
     "Jeddah talks on Sudan war 2023"
    ],
    "key_events_cites": [[{"source": "UNPOE_S2024_65", "page": "para 133 (p.37)"}]],
-   "key_events_removed_note": "Removed 2026-10-26 (Historian, IM cite-or-delete): 'Kingdom of Saudi Arabia 1932' (EN, AR and empty cite); no registered source with a page states it (GHA VII and VIII searched). Arabic change queued in db/ar_review_queue.json.",
+   "key_events_removed_note": "Removed 2026-10-26 (Historian, IM cite-or-delete): 'Kingdom of Saudi Arabia 1932' (EN, AR and empty cite); no registered source with a page states it (GHA VII and VIII searched). Arabic change queued for review.",
    "capitals": [
     {
      "name": "Mecca/Riyadh",
@@ -13799,7 +13813,7 @@
       "plain_en": "Zone of influence: low confidence (0.25); not yet verified."
      }
     ],
-    "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
+    "note": "Source pages and zone confidence come from the border-draft sign-off (2026-10-24). The borders are drafts, not live."
    }
   },
   {
@@ -13846,7 +13860,7 @@
       "plain_en": "Core territory: moderate confidence (0.45)."
      }
     ],
-    "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
+    "note": "Source pages and zone confidence come from the border-draft sign-off (2026-10-24). The borders are drafts, not live."
    }
   },
   {
@@ -13890,7 +13904,7 @@
       "plain_en": "Zone of influence: low confidence (0.3)."
      }
     ],
-    "note": "Source pages and zone confidence come from the border-draft sign-off (db/border_drafts, 2026-10-24). The borders are drafts, not live."
+    "note": "Source pages and zone confidence come from the border-draft sign-off (2026-10-24). The borders are drafts, not live."
    }
   },
   {

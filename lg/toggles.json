@@ -1,5 +1,5 @@
 {
- "scope": "toggle-scoped, NOT era-scoped: shown only while the layer chip is on, identical in every era; era legends (db/legends/eras/*.json) are unchanged",
+ "scope": "toggle-scoped, NOT era-scoped: shown only while the layer chip is on, identical in every era; era legends are unchanged",
  "source": "db/legends/legend_spec.json toggle_legends",
  "toggles": [
   {
